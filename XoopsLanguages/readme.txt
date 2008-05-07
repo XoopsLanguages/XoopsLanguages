@@ -1,4 +1,4 @@
-The place for XOOPS languages maintained by XOOPS Dev Team.
+The place for XOOPS languages maintained by XOOPS Translation Team.
 Each language is managed as a sub-project by lead authors.
 
 Structure:
@@ -12,6 +12,30 @@ XoopsLanguages
 ----- trunk
 ----- releases
 ----- branches
+
+Structure Example:
+XoopsLanguages/
+-- spanish/
+----- trunk
+----- releases
+------- 2.0.18.1
+--------- docs
+--------- htdocs
+--------- upgrade
+--------- release_note_es.txt
+------- 2.3-alpha3
+----- branches
+-- french/
+----- trunk
+----- releases
+------- 2.0.18.1
+--------- docs
+--------- htdocs
+--------- upgrade
+--------- release_note_fr.txt
+------- 2.3-alpha3
+----- branches
+
 
 SVN Related links:
 
