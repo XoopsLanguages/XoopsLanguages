@@ -1,0 +1,89 @@
+/* Add Persian Language by Persain Xoops Project www.irxoops.org  */
+/* Improt external files */
+@import url(themes.css);    /* this file used for right to left themes */
+@import url(modules.css);   /* this file used for right to left moduels */
+/* @import url(extension.css); */ /* this file used for extension css code . if webmasters need extra codes */
+/* beginning of the applicable styles */
+body , table td , .comDate , p , .admin_menu , .admin_menu a , .admin_menu_thumb a , .admin_menu_thumb , 
+.button , .checkbox , .listbox , .sortorder_options , form {
+     font-family : Tahoma;
+}
+table.toptable , table.maintable , table.footertable , .itemTitle a , .itemPoster , .foot , th a:link , 
+th a:active , th a:visited , .headerlogo , td.sideboxcontent {
+     direction : rtl;
+} 
+.sCommentThread , .sCommentRank {
+     text-align : right;
+} 
+table , .formButton , .comUserName , th , div#content , div#forum_header , p.desc , tr.head td {
+     direction : rtl; 
+     text-align : right;
+}
+div#xo-logger-output , div#xo-logger-tabs {
+     direction : ltr;
+     text-align : left;
+}
+body td , p , div ,a:link , a:active , a:visited , a:hover , h1 , h2 , h4 , .item , .itemHead , th ,
+.comTitle , .comUserStat , .blockTitle , .blockContent {
+     direction : rtl; 
+     font-family : Tahoma;
+} 
+input , select , textarea  , .itemTitle , .itemStats , .outer ,.head , .even , .odd , div.confirmMsg , 
+div.xoopsQuote , td#mainmenu a , td#usermenu a , tr.even td , tr.odd td , td#content {
+     direction : rtl; 
+     font-family : Tahoma; 
+     text-align : right;
+}
+.itemBody , .itemText , .comText {
+     direction : rtl; 
+     font-family : Tahoma; 
+     text-align: Justify;
+} 
+/* =================== for Titles =================== */ 
+ul {
+     padding-left:0;
+     padding-right:10px; 
+     text-align : right;
+     font-family : Tahoma;
+     direction : rtl;
+     margin-left: 0; 
+     margin-right: 10px;
+}
+ol {
+     padding-left:0;
+     padding-right:10px; 
+     margin-left: 0;
+     margin-right: 10px;
+}
+ul ul{
+     margin-left: 0; 
+     margin-right: 10px;
+}
+ol ol{
+     margin-left: 0;
+     margin-right: 12px;
+}
+li{  padding-left:0;
+     padding-right:3px; 
+     margin-left: 0; 
+     margin-right: 4px;
+}
+/* ========== styles used in the “article” of contents (exemple : news) ============*/
+.itemPostDate , .itemInfo , .itemFoot{
+     font-family : Tahoma; 
+     direction : rtl; 
+     text-align : left;
+} 
+/* ===== core messages ===== */
+div.xoopsCode {
+     font-family : Tahoma; 
+     direction : ltr;
+} 
+/*=========== for main menu and user menu ===========*/ 
+td#mainmenu a.menuSub {
+     padding-right: 10px;
+}
+/*================== for block ======================*/
+.footerbar {
+     text-align:center;
+}

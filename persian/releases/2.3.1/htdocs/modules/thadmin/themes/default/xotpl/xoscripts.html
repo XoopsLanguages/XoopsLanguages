@@ -1,0 +1,25 @@
+<!-- scripts xoops.js and instructions header.php files-->
+  <script type="text/javascript" src="<{$xoops_url}>/include/xoops.js"></script>  
+  <script type="text/javascript" src="<{$theme_js}>/adminmenu.js"></script>
+  <script type="text/javascript" src="<{$theme_js}>/ie5.js"></script>
+  <script type="text/javascript" src="<{$theme_js}>/mootools.js"></script>
+  <script type="text/javascript" src="<{$theme_js}>/lang/<{$xoops_langcode}>.js"></script>
+  
+<!-- png transparence under ie -->
+<!--[if lte IE 6]>
+	<script type="text/javascript">
+		var WEBFX_PNG_PATTERN=".*.png";
+		var WEBFX_PNG_BLANK = "<{$theme_img}>/blank.gif";
+	</script>
+	<style type="text/css">
+	img { behavior: url(<{$theme_css}>/pngbehavior.htc); }
+	</style>
+<![endif]-->
+
+<script type="text/javascript">
+  /* preload images */
+  var arrow1 = new Image(4, 7);
+  arrow1.src = "<{$theme_img}>/menuarrow1.gif";
+  var arrow2 = new Image(4, 7);
+  arrow2.src = "<{$theme_img}>/menuarrow2.gif";
+</script>
