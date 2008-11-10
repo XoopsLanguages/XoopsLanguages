@@ -1,0 +1,36 @@
+/* Add Persian Language by Persain Xoops Project www.irxoops.org  */
+body{
+     font-family: Tahoma !important;
+}
+table , table td , table tr , ul , li , div.content{
+     direction: rtl;
+     text-align: right;
+}
+input , textarea , input.formTextBox , select{
+	font: 11px tahoma !important;
+}
+/*================================================================*/
+div#navbarCP{
+	font: 11px Tahoma !important;
+    direction: rtl;  
+    text-align: right;
+}
+div#navbarCP ul li{
+	float: right;
+	margin-right: 3px;
+}
+div#navOptionsCP a{
+	float: left;
+	margin-left: 2px;
+}
+div.cpicon a ,div.cpicon a:hover{ 
+    direction: rtl;  
+    text-align: right;
+    float: right;
+}
+div.confirmMsg {
+	direction: rtl; 
+}
+div#navOptionsCP .modname{
+	float: right;
+}
