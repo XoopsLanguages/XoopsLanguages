@@ -16,13 +16,13 @@ define("_XOOPS_EDITOR_KOIVI", "Koivi WYSIWYG Editor");
 define("_XK_LEFTTORIGHT","Left-Hand Writing");
 define("_XK_RIGHTTOLEFT","Right-Hand Writing");
 
-define("_MSC_SMILIES","Smilies");
-define("_MSC_CLICKASMILIE","Click a smilie to insert it into your message.");
+define("_MSC_SMILIES","Smilisi");
+define("_MSC_CLICKASMILIE","Klikni na Smilis i on se unosi klikom u tekst.");
 define("_MSC_CODE","Code");
-define("_MSC_EMOTION","Emotion");
+define("_MSC_EMOTION","Emocije");
 
 define('_XK_FONT','Font');
-define('_XK_FONT_SIZE','Size');
+define('_XK_FONT_SIZE','Velicina');
 define('_XK_FONT_XSMALL','X Small');
 define('_XK_FONT_SMALL','Small');
 define('_XK_FONT_MEDIUM','Medium');
@@ -38,7 +38,7 @@ define('_XK_FONT_HEADING4','Heading 4');
 define('_XK_FONT_HEADING5','Heading 5');
 define('_XK_FONT_HEADING6','Heading 6');
 define('_XK_FONT_ADDRESS','Address');
-define('_XK_FONT_PARAGRAPH','Paragraph');
+define('_XK_FONT_PARAGRAPH','Paragraf');
 define('_XK_FONT_FORMATTED','Formatted');
 
 define('_XK_TOGLE_MODE','Change Mode');
