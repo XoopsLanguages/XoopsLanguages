@@ -14,7 +14,7 @@
  * @german      myXOOPS.org
  * @Code		UTF-8 by Muki
  */
-// $Id: install.php german V2.3 08. September 2008
+// $Id: install.php german V2.3 02.11 2008
 
 
 define( "SHOW_HIDE_HELP", "Anzeigen/Ausblenden des Hilfe-Textes" );
@@ -23,7 +23,7 @@ define( "SHOW_HIDE_HELP", "Anzeigen/Ausblenden des Hilfe-Textes" );
 define( "SERVER_API", "Server API" );
 define( "PHP_EXTENSION", "%s Erweiterungen" );
 define( "CHAR_ENCODING", "Encoding" );
-define( "XML_PARSING", "XML Parsing" );
+define( "XML_PARSING", "XML Parser" );
 define( "REQUIREMENTS", "Anforderungen" );
 define( "_PHP_VERSION", "PHP Version" );
 define( "RECOMMENDED_SETTINGS", "Empfohlene Einstellungen" );
@@ -32,10 +32,10 @@ define( "SETTING_NAME", "Einstellung" );
 define( "RECOMMENDED", "empfohlen" );
 define( "CURRENT", "aktuell" );
 define( "RECOMMENDED_EXTENSIONS_MSG", "Diese Erweiterungen sind für den normalen Gebrauch nicht zwingend notwendig,
-könnten aber bei bestimmten Zusatzfunktionen (wie multi-language oder RSS Unterstützung) geraucht werden.
+könnten aber bei bestimmten Zusatzfunktionen (wie multi-language oder RSS Unterstützung) gebraucht werden.
 Es schadet also nicht, diese installiert zu haben." );
 define( "NONE", "Kein" );
-define( "SUCCESS", "Erfolg" );
+define( "SUCCESS", "Erfolgreich" );
 define( "WARNING", "Warnung" );
 define( "FAILED", "Fehler" );
 
@@ -53,7 +53,7 @@ define( "CONFIGURATION_CHECK_TITLE", "Überprüfung der Serverkonfiguration" );
 define( "PATHS_SETTINGS", "Pfade" );
 define( "PATHS_SETTINGS_TITLE", "Pfadeinstellungen" );
 define( "DATABASE_CONNECTION", "Datenbankverbindung" );
-define( "DATABASE_CONNECTION_TITLE", "Database connection" );
+define( "DATABASE_CONNECTION_TITLE", "Datenbankverbindung" );
 define( "DATABASE_CONFIG", "Datenbankeinstellungen" );
 define( "DATABASE_CONFIG_TITLE", "Datenbankeinstellungen" );
 define( "CONFIG_SAVE", "Einstellungen speichern" );
@@ -69,38 +69,38 @@ define( "WELCOME_TITLE", "Willkommen auf Ihrer XOOPS-Seite!" );        // L0
 
 
 // Settings (labels and help text)
-define( "XOOPS_PATHS", "XOOPS Physische Pfade" );
-define( "XOOPS_URLS", "Web locations" );
+define( "XOOPS_PATHS", "XOOPS Physikalische Pfade" );
+define( "XOOPS_URLS", "Web Einstellungen" );
 
-define( "XOOPS_ROOT_PATH_LABEL", "XOOPS documents root physical path" );
-define( "XOOPS_ROOT_PATH_HELP", "Physical path to the XOOPS documents (served) directory WITHOUT trailing slash" );
+define( "XOOPS_ROOT_PATH_LABEL", "XOOPS Dokumentroot" );
+define( "XOOPS_ROOT_PATH_HELP", "Physikalischer Pfad zum XOOPS (ohne abschliessenden Slash))" );
 
-define( "XOOPS_LIB_PATH_LABEL", "XOOPS library directory" );
-define( "XOOPS_LIB_PATH_HELP", "Physical path to the XOOPS library directory WITHOUT trailing slash, for forward compatibility. Locate the folder out of " . XOOPS_ROOT_PATH_LABEL . " to make it secure.");
-define( "XOOPS_DATA_PATH_LABEL", "XOOPS datafiles directory" );
-define( "XOOPS_DATA_PATH_HELP", "Physical path to the XOOPS datafiles (writable) directory WITHOUT trailing slash, for forward compatibility. Locate the folder out of " . XOOPS_ROOT_PATH_LABEL . " to make it secure." );
+define( "XOOPS_LIB_PATH_LABEL", "XOOPS Bibliotheksverzeichnis" );
+define( "XOOPS_LIB_PATH_HELP", "Physikalischer Pfad zur XOOPS Bibliothek (ohne abschliessenden Slash), für zukünftige Kompatiblität. Für mehr Sicherheit im XOOPS-Dokumentroot.");
+define( "XOOPS_DATA_PATH_LABEL", "XOOPS Datenverzeichnis" );
+define( "XOOPS_DATA_PATH_HELP", "Physikalischer Pfad zu den beschreibbaren XOOPS-Daten Verzeichnis  (ohne abschliessenden Slash), für zukünftige Kompatiblität. Für mehr Sicherheit im XOOPS-Dokumentroot.");
 
 define( "XOOPS_URL_LABEL", "Webseiten-Adresse (URL)" ); // L56
-define( "XOOPS_URL_HELP", "Main URL that will be used to access your XOOPS installation" ); // L58
+define( "XOOPS_URL_HELP", "Die URL unter der diese Installation laufen soll" ); // L58
 
 define( "LEGEND_CONNECTION", "Serververbindung" );
 define( "LEGEND_DATABASE", "Datenbank" ); // L51
 
-define( "DB_HOST_LABEL", "Server hostname" );    // L27
-define( "DB_HOST_HELP",  "Hostname of the database server. If you are unsure, <em>localhost</em> works in most cases"); // L67
+define( "DB_HOST_LABEL", "Server Hostname" );    // L27
+define( "DB_HOST_HELP",  "Hostname des Datenbankservers. <em>localhost</em> wenn Sie unsicher sind"); // L67
 define( "DB_USER_LABEL", "Benutzer" );    // L28
-define( "DB_USER_HELP",  "Name of the user account that will be used to connect to the database server"); // L65
+define( "DB_USER_HELP",  "Name des Useraccount für diese Datenbank"); // L65
 define( "DB_PASS_LABEL", "Password" );    // L52
-define( "DB_PASS_HELP",  "Password of your database user account"); // L68
-define( "DB_NAME_LABEL", "Database name" );    // L29
-define( "DB_NAME_HELP",  "The name of database on the host. The installer will attempt to create the database if not exist"); // L64
-define( "DB_CHARSET_LABEL", "Database character set" );
+define( "DB_PASS_HELP",  "Password des user der Datenbank"); // L68
+define( "DB_NAME_LABEL", "Datenbankname" );    // L29
+define( "DB_NAME_HELP",  "Der Name der Datenbank. der Installer prüft , ob diese vorhanden ist."); // L64
+define( "DB_CHARSET_LABEL", "Datenbank Character Set" );
 define( "DB_CHARSET_HELP",  "MySQL includes character set support that enables you to store data using a variety of character sets and perform comparisons according to a variety of collations.");
-define( "DB_COLLATION_LABEL", "Database collation" );
+define( "DB_COLLATION_LABEL", "Datenbank Collation" );
 define( "DB_COLLATION_HELP",  "A collation is a set of rules for comparing characters in a character set.");
-define( "DB_PREFIX_LABEL", "Table prefix" );    // L30
+define( "DB_PREFIX_LABEL", "Tabellen Prefix" );    // L30
 define( "DB_PREFIX_HELP",  "This prefix will be added to all new tables created to avoid name conflicts in the database. If you are unsure, just keep the default"); // L63
-define( "DB_PCONNECT_LABEL", "Use persistent connection" );    // L54
+define( "DB_PCONNECT_LABEL", "Ständige Verbindung?" );    // L54
 define( "DB_PCONNECT_HELP",  "Default is 'NO'. Choose 'NO' if you are unsure"); // L69
 define( "DB_DATABASE_LABEL", "Datenbank" );
 define( "LEGEND_ADMIN_ACCOUNT", "Administrator Account" );

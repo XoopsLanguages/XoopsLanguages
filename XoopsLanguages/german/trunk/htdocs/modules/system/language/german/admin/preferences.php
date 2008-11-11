@@ -254,6 +254,6 @@ define("_MD_AM_WELCOMETYPE_EMAIL", "Email");
 define("_MD_AM_WELCOMETYPE_PM", "Mitteilungen");
 define("_MD_AM_WELCOMETYPE_BOTH", "Email und Mitteilungen");
 
-define("_MD_AM_PROFILE_ALLOWED_GROUPS", "Gruppen, die Zugang zum Userprofil haben");
-define("_MD_AM_PROFILE_ALLOWED_GROUPS_DESC", "Gruppen, denen es erlaubt ist die userseite zu betrachten.");
+
+
 ?>

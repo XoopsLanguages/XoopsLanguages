@@ -4,13 +4,13 @@
 define("_PROFILE_MA_REGISTER_NOTGROUP", "Neuer Benutzer wird nicht zu entsprechenden Gruppen registriert.");
 define("_PROFILE_MA_FINISH_LOGIN","Ihr Account wurde erfolgreich erstellt, bitte anklicken um sich anzumelden.");
 define("_PROFILE_MA_REGISTER_FINISH", "Danke für Ihre Registrierung");
-define("_PROFILE_MA_REGISTER_STEPS", "Registerschritte:");
+define("_PROFILE_MA_REGISTER_STEPS", "Anmeldeschritte:");
 
 define("_PROFILE_MA_DEFAULT", "Standardeinstellungen");
 
 define("_PROFILE_MA_ERRORDURINGSAVE", "Fehler beim Speichern");
 define("_PROFILE_MA_NOSTEPSAVAILABLE", "Registration ist momentan nicht möglich. Bitte später nochmals versuchen.");
-define("_PROFILE_MA_EXPIRED", "Der Zeit ist abgelaufen worden, bitte zurück gehen um es erneut zu Versuchen.");
+define("_PROFILE_MA_EXPIRED", "Die Zeit ist abgelaufen, bitte zurück gehen um es erneut zu Versuchen.");
 
 
 define('_PROFILE_MA_RECENTACTIVITY','Neue Auswahl');
@@ -45,7 +45,7 @@ define("_PROFILE_MA_NEWMAIL", "Neue E-Mail-Adresse");
 
 define("_PROFILE_MA_NEWEMAIL", "E-Mail-Adresse ist %s");
 define("_PROFILE_MA_EMAILCHANGED", "E-Mail-Adresse wurde geändert");
-define("_PROFILE_MA_SITEDEFAULT", "Standartseite");
+define("_PROFILE_MA_SITEDEFAULT", "Standardseite");
 
 define("_PROFILE_MA_USERINFO","User Profil");
 define("_PROFILE_MA_REGISTER","Registierungsformular");

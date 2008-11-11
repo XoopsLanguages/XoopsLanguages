@@ -2,8 +2,9 @@
 // german v 1.4 2008/10/12 alfred $
 //%%%%%%	File Name  admin.php 	%%%%%
 define('_MD_AM_DBUPDATED','Datenbank wurde erfolgreich aktualisiert!');
-define('_MD_AM_CONFIG','System Konfiguration');
+define('_MD_AM_DBERROR', 'Datenbank wurde auf Grund eines Fehlers nicht aktualisiert!');
 
+define('_MD_AM_CONFIG','System Konfiguration');
 // Admin Module Names
 define('_MD_AM_ADGS','Gruppen');
 define('_MD_AM_BANS','Banner');

@@ -54,9 +54,9 @@ define("_YOURHOME","Zurück zur Startseite");
 //%%%%%%        File Name misc.php (who's-online popup)        %%%%%
 define("_WHOSONLINE","Wer ist online");
 define('_GUESTS', 'Gäste');
-define('_MEMBERS', 'Mitglied');
-define("_ONLINEPHRASE","<b>%s</b> Mitglieder sind online");
-define("_ONLINEPHRASEX","<b>%s</b> Mitglieder halten sich im Bereich <b>%s</b> auf.");
+define('_MEMBERS', 'Mitglied(er)');
+define("_ONLINEPHRASE","<b>%s</b> Besucher sind online");
+define("_ONLINEPHRASEX","<b>%s</b> Besucher halten sich im Bereich <b>%s</b> auf.");
 define("_CLOSE","Fenster schließen");  // Close window
 
 //%%%%%%        File Name module.textsanitizer.php         %%%%%
@@ -207,11 +207,4 @@ define('_LANGCODE', 'de');
 
 // change 0 to 1 if this language is a multi-bytes language
 define("XOOPS_USE_MULTIBYTES", "0");
-
-// 25.10.2007
-// Fehler im Framework 1.20 wird mit diesen Zeilen verbessert
-define("_TODAY", "Heu\te H:i");
-define("_YESTERDAY", "Ges\te\r\n H:i");
-define("_MONTHDAY", "d.m.Y H:i");
-define("_YEARMONTHDAY", "d.m.Y H:i");
 ?>

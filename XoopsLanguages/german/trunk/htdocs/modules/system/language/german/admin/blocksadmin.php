@@ -27,9 +27,12 @@ define('_AM_SBRIGHT','Seitenblock - Rechts');
 define('_AM_CBLEFT','Centerblock - Links');
 define('_AM_CBRIGHT','Centerblock - Rechts');
 define('_AM_CBCENTER','Centerblock - Mitte');
+define('_AM_CBBOTTOMLEFT','Centerblock - unten links');
+define('_AM_CBBOTTOM','Centerblock - unten mitte');
+define('_AM_CBBOTTOMRIGHT','Centerblock - unten rechts');
 define('_AM_CONTENT','Block');
 define('_AM_OPTIONS','Optionen');
-define('_AM_CTYPE','Blocktyp');
+define('_AM_CTYPE','Inhalttyp');
 define('_AM_HTML','HTML');
 define('_AM_PHP','PHP-Skript');
 define('_AM_AFWSMILE','Auto-Format (Smilies an)');
@@ -65,9 +68,6 @@ define('_AM_MODULE', 'Modul');
 define('_AM_GROUP', 'Gruppe');
 define('_AM_UNASSIGNED', 'Nicht zugewiesen');
 
-define('_AM_CBBOTTOMLEFT','Centerblock - unten links');
-define('_AM_CBBOTTOM','Centerblock - unten mitte');
-define('_AM_CBBOTTOMRIGHT','Centerblock - unten rechts');
 
 define("_AM_CUSTOM","Custom Block");
 define('_AM_GENERATOR', 'Blocks angezeigt auf %s');

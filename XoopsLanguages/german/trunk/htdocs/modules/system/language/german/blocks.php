@@ -24,10 +24,12 @@ define('_MB_SYSTEM_RECO','Empfehlen Sie uns weiter.');
 define('_MB_SYSTEM_PWWIDTH','Pop-Up-Fenster - Breite');
 define('_MB_SYSTEM_PWHEIGHT','Pop-Up-Fenster - Höhe');
 define('_MB_SYSTEM_LOGO','Logo-Datei im Verzeichnis %s');  // %s is your root image directory name
+define("_MB_SYSTEM_COMPEND", "Kommentare");
 
 define('_MB_SYSTEM_SADMIN','Admin-Gruppe einsehen');
 define('_MB_SYSTEM_SPMTO','Private Nachricht an %s senden');
 define('_MB_SYSTEM_SEMTO','E-Mail an %s senden');
+define("_MB_SYSTEM_SEMTO","Sende Email zu %s");
 
 define('_MB_SYSTEM_DISPLAY','Zeige %s Mitglieder an');
 define('_MB_SYSTEM_DISPLAYA','Mitgliedsavatare anzeigen');
@@ -39,6 +41,6 @@ define('_MB_SYSTEM_SECURE', 'Sicheres Einloggen');
 define('_MB_SYSTEM_NUMTHEME', '%s Themen');
 define('_MB_SYSTEM_THSHOW', 'Zeige Screenshot an');
 define('_MB_SYSTEM_THWIDTH', 'Screenshot-Breite');
-define("_MB_SYSTEM_COMPEND", "Kommentare");
 define('_MB_SYSTEM_REMEMBERME', 'login speichern');
+
 ?>
