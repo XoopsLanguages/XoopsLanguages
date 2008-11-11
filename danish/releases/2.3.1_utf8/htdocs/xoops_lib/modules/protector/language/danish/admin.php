@@ -22,7 +22,7 @@ define( "_AM_BUTTON_COMPACTLOG" , "Gør den kompakt!" ) ;
 define( "_AM_JS_COMPACTLOGCONFIRM" , "Duplikerede (IP-adresser, type) vil blive fjernet" ) ;
 define( "_AM_LABEL_REMOVEALL","Fjern alle poster"); 
 define( "_AM_BUTTON_REMOVEALL","Fjern alle!");
-define( "_AM_JS_REMOVEALLCONFIRM", "Alle logfiler er fjernes helt. Er det virkelig OK?"); 
+define( "_AM_JS_REMOVEALLCONFIRM", "Alle logfiler fjernes helt. Er det virkelig OK?"); 
 define( "_AM_LABEL_REMOVE", "Fjern alle markerede records:"); 
 define( "_AM_BUTTON_REMOVE" , "Fjern!" ) ;
 define( "_AM_JS_REMOVECONFIRM" , "OK at fjerne?" ) ;

@@ -19,7 +19,7 @@ define('_MD_AM_ANONNAME', 'Brugernavn for anonyme brugere');
 define('_MD_AM_MINPASS', 'Adgangskodens påkrævede minimumslængde');
 define('_MD_AM_NEWUNOTIFY', 'Orientér via email når en ny bruger er registreret?');
 define('_MD_AM_SELFDELETE', 'Tillad brugere at slette deres egen konto?');
-define('_MD_AM_LOADINGIMG', 'Display loading... image?');
+define('_MD_AM_LOADINGIMG', 'Vis loading... billed?');
 define('_MD_AM_USEGZIP', 'Brug gzip komprimering?');
 define('_MD_AM_UNAMELVL', 'Vælg niveauet for hvor nøjeregnende filtreringen af brugernavne skal være');
 define('_MD_AM_STRICT', 'Strikt (kun bogstaver og numre)');
@@ -117,7 +117,7 @@ define('_MD_AM_METADESC', 'Meta Description');
 define('_MD_AM_METADESCDSC', 'Meta description er en generel beskrivelse af indholdet på din hjemmeside');
 define('_MD_AM_METAFOOTER', 'Meta Tags og bundlinie');
 define('_MD_AM_FOOTER', 'Bundlinie');
-define('_MD_AM_FOOTERDSC', 'Vær sikker på, at du får skrevet evt. links med fuld path startende fra http:
+define('_MD_AM_FOOTERDSC', 'Vær sikker på, at du får skrevet evt. links med fuld path startende fra http');
 define('_MD_AM_CENSOR', 'Censur indstillinger');
 define('_MD_AM_DOCENSOR', 'Slå censurering af uønskede ord til?');
 define('_MD_AM_DOCENSORDSC', 'Ord vil blive censureret hvis denne funktion er slået til. Denne funktion kan slås fra for at øge hastigheden på siden.');

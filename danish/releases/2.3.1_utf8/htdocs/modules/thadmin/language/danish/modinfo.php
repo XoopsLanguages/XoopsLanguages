@@ -16,11 +16,11 @@
  */
 
 // Main
-define('_THADMIN_NAME', 'ThAdmin');
-define('_THADMIN_DESC', 'ThAdmin er et modul til vedligeholdelse af dit administrations tema');
+define('_THADMIN_MODULE_NAME', 'ThAdmin');
+define('_THADMIN_MODULE_DESC', 'ThAdmin er et modul til vedligeholdelse af dit administrations tema');
 // Menu
-define('_THADMIN_HOME', 'Hjem');
-define('_THADMIN_HELP', 'Hjælp');
+define('_THADMIN_MENU_HOME', 'Hjem');
+define('_THADMIN_MENU_HELP', 'Hjælp');
 // Settings
 define('_THADMIN_ADMINTHEME', 'Standard tema');
 define('_THADMIN_ADMINTHEME_DESC', 'Vælg standard tema for dit administrations område');
