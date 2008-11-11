@@ -1,7 +1,7 @@
 <?php
 // $Id: modinfo.php 2026 2008-08-31 08:10:34Z phppp $
 // Code: UTF8 by Muki
-define("_PROFILE_MI_NAME", "User Profile");
+define("_PROFILE_MI_NAME", "Userprofile");
 define("_PROFILE_MI_DESC", "Modul um erweiterte Userprofilfelder zu verwalten");
 
 //Main menu links
@@ -45,4 +45,6 @@ define("_PROFILE_MI_CATEGORY_PERSONAL", "Persönlich");
 define("_PROFILE_MI_CATEGORY_MESSAGING", "Nachrichten");
 define("_PROFILE_MI_CATEGORY_SETTINGS", "Einstellungen");
 define("_PROFILE_MI_CATEGORY_COMMUNITY", "Community");
+
+define("_PROFILE_MI_NEVER_LOGED_IN", "bisher kein Login");
 ?>

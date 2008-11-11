@@ -67,7 +67,7 @@ define('_MD_AM_INSERT_DATA', '&nbsp;&nbsp; Daten wurden in die Tabelle %s geschr
 define('_MD_AM_INSERT_DATA_FAILD', 'Konnte %s nicht in die Datenbank einfügen.');
 define('_MD_AM_INSERT_DATA_DONE', 'Moduldaten erfolgreich eingefügt.');
 define('_MD_AM_MODULEID', ' Modul ID: %s');
-define('_MD_AM_SQL_FOUND', 'SQL Dati in %s gefunden');
+define('_MD_AM_SQL_FOUND', 'SQL Datei in %s gefunden');
 define('_MD_AM_SQL_NOT_FOUND', 'SQL in %s nicht gefunden');
 define('_MD_AM_SQL_NOT_CREATE', 'ERROR: Konnte %s nicht erstellen');
 define('_MD_AM_SQL_NOT_VALID', '%s ist keine gültige SQL Datei!');

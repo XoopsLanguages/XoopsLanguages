@@ -3,7 +3,7 @@
 define("_PROFILE_AM_FIELD",				"Feld");
 define("_PROFILE_AM_FIELDS",			"Felder");
 define("_PROFILE_AM_CATEGORY",			"Kategorie");
-define("_PROFILE_AM_STEP",				"Weiter");
+define("_PROFILE_AM_STEP",				"Schritt weiter");
 
 define("_PROFILE_AM_SAVEDSUCCESS",		"%s erfolgreich gespeichert");
 define("_PROFILE_AM_DELETEDSUCCESS",	"%s erfolgreich gelöscht");
@@ -37,17 +37,17 @@ define("_PROFILE_AM_PROF_VISIBLE",		"Sichtbar");
 define("_PROFILE_AM_PROF_EDITABLE",		"Editierbares Feld im Profil");
 define("_PROFILE_AM_PROF_REGISTER",		"Im Registrierungsformular anzeigen");
 define("_PROFILE_AM_PROF_SEARCH",		"Durchsuchbar von diesen Gruppen");
-define("_PROFILE_AM_PROF_ACCESS",		"Profile accessible by these groups");
+define("_PROFILE_AM_PROF_ACCESS",		"Profilezugriff für diese Gruppe");
 define("_PROFILE_AM_PROF_ACCESS_DESC",
         "<ul>" .
-        "<li>Admin Gruppe: If a user belongs to admin groups, the current user has access if and only if one of the current user's groups is allowed to access admin group; else</li>" .
-        "<li>Non basic groups: If a user belongs to one or more non basic groups (NOT admin, user, anonymous), the current user has access if and only if one of the current user's groups is allowed to allowed to any of the non basic groups; else</li>" .
-        "<li>User Gruppe: If a user belongs to User group only, the current user has access if and only if one of his groups is allowed to access User group</li>" .
+        "<li>Admin-Gruppe: If a user belongs to admin groups, the current user has access if and only if one of the current user's groups is allowed to access admin group; else</li>" .
+        "<li>Keine Basis-Gruppe: If a user belongs to one or more non basic groups (NOT admin, user, anonymous), the current user has access if and only if one of the current user's groups is allowed to allowed to any of the non basic groups; else</li>" .
+        "<li>User-Gruppe: If a user belongs to User group only, the current user has access if and only if one of his groups is allowed to access User group</li>" .
         "</ul>");
 
 define("_PROFILE_AM_FIELDVISIBLE",		"Diese Feld ");
 define("_PROFILE_AM_FIELDVISIBLEFOR",	" ist sichtbar für ");
-define("_PROFILE_AM_FIELDVISIBLEON",	" durchsuchbar im Profil von ");
+define("_PROFILE_AM_FIELDVISIBLEON",	" wenn Betrachter in Gruppe ");
 define("_PROFILE_AM_FIELDVISIBLETOALL",	"- Jeden");
 define("_PROFILE_AM_FIELDNOTVISIBLE",	"ist nicht sichtbar");
 
@@ -84,9 +84,10 @@ define("_PROFILE_MA_USERLEVEL",		"Benutzer-Niveau");
 
 define("_PROFILE_MA_ACTIVE",		"Aktiv");
 define("_PROFILE_MA_INACTIVE",		"Inaktiv");
-define("_PROFILE_MA_USERDISABLED",	"Dieser Useraccount ist deaktiviert und kann auch nicht durch den User selber aktiviert werden");
+define("_PROFILE_AM_USERCREATED",   "User erstellt");
 
 define("_PROFILE_AM_CANNOTDELETESELF",	"Das Löschen Ihres eigenen Accounts ist nicht erlaubt - benutzen Sie Ihre Profilseite, um Ihren eigenen Account zu löschen");
+define("_PROFILE_AM_CANNOTDELETEADMIN", "Das Löschen eines Administratorkontos ist nicht erlaubt.");
 
 define("_PROFILE_AM_NOSELECTION",			"Kein User Ausgewählt");
 define("_PROFILE_AM_USER_ACTIVATED",		"User aktiviert");

@@ -3,7 +3,7 @@
 //%%%%%%		File Name user.php 		%%%%%
 // german v 1.4 2008/01/08 sato-san / Rene Sato / www.XOOPS-magazine.com $
 // Code : UTF-8
-// Letzte Bearbeitung 18.09.2008 / Feichtl
+// Letzte Bearbeitung 02.11.2008 / Alfred
 define('_US_NOTREGISTERED','Noch nicht registriert? <a href=register.php>Klicken Sie hier</a>.');
 define('_US_LOSTPASSWORD','Passwort vergessen?');
 define('_US_NOPROBLEM','Kein Problem. Geben Sie hier Ihre E-Mail-Adresse ein, mit der Sie sich registriert haben.');
@@ -23,6 +23,7 @@ define('_US_NOPERMISS','Verzeihung, Sie haben nicht die entsprechenden Zugriffsr
 define('_US_SURETODEL','Sind Sie sich sicher, daß Sie Ihr Konto löschen möchten?');
 define('_US_REMOVEINFO','Es werden alle Daten von Ihnen aus unserer Datenbank gelöscht.');
 define('_US_BEENDELED','Ihr Konto wurde vollständig gelöscht.');
+define('_US_ACTFAILD','Aktivierung fehlgeschlagen!');
 //
 
 //%%%%%%                File Name register.php                 %%%%%

@@ -6,9 +6,8 @@
  * @license		http://www.fsf.org/copyleft/gpl.html GNU public license
  * @author		Taiwen Jiang (phppp or D.J.) <php_pp@hotmail.com>
  * @since		1.00
- * @version		$Id: german.php
+ * @version		$Id: english.php 1315 2008-02-12 10:10:32Z phppp $
  * @package		xoopseditor
- * Code: UTF-8 by Muki
  */
 
 /*

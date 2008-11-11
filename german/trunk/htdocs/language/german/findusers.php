@@ -2,19 +2,19 @@
 // formselectuser.php
 // german v 1.4 2008/01/08 sato-san / Rene Sato / www.XOOPS-magazine.com $
 // Code : UTF-8
-// Letzte Bearbeitung 18.09.2008 / Feichtl
+// Letzte Bearbeitung 02.11.2008 / Alfred
 define("_MA_USER_MORE", "Mitglied finden");
 define("_MA_USER_REMOVE", "Remove unselected users");
 
 
 //%%%%%%	File Name findusers.php 	%%%%%
-define("_MA_USER_ADD_SELECTED", "Add selected users");
+define("_MA_USER_ADD_SELECTED", "ausgewählten User hinzufügen");
 
 define("_MA_USER_GROUP", "Gruppe");
 define("_MA_USER_LEVEL", "Level");
 define("_MA_USER_LEVEL_ACTIVE", "Aktiv");
 define("_MA_USER_LEVEL_INACTIVE", "Inaktiv");
-define("_MA_USER_LEVEL_DISABLED", "Disabled");
+define("_MA_USER_LEVEL_DISABLED", "Deaktiviert");
 define("_MA_USER_RANK", "Rank");
 
 define("_MA_USER_FINDUS","Mitglied finden");
