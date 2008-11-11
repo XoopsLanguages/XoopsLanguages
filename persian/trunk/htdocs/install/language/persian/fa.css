@@ -1,0 +1,28 @@
+/* Add Persian Language by Persain Xoops Project www.irxoops.org  */
+#wizard {
+	text-align:		right;
+	direction:      rtl;
+}
+#buttons {
+	direction:      ltr;
+}
+body {
+	text-align:		right;
+	direction:      rtl;
+}
+#pageslist {
+	float:					right;
+}
+.page {
+	margin-right:			14.5em;
+	margin-left:			.1px !important;
+}
+h2 {
+	text-align:		right;
+}
+#help_button {
+	float: left;
+}
+.x2-note.error {
+	background-position:	left 2px;
+}
