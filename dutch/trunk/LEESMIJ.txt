@@ -1,0 +1,5 @@
+Voor als je de utf8 karakter codering wilt gebruiken:
+ Verander in htdocs/language/nederlands/config/config.php de variable $use_utf8 in een één(1).
+
+Voor alle X-Language gebruikers:
+ Verander in htdocs/language/nederlands/config/config.php de variable $xlang in een één(1).

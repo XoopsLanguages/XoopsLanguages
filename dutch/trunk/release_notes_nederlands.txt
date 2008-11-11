@@ -1,0 +1,191 @@
+
+Het XOOPS Onwikkelings Team is blij met de uitgave van XOOPS 2.3.1 Final.
+
+De bedoeling van de XOOPS 2.3 uitgaves is het samenvoegen van de bestaande 2.0 en 2.2 generaties en het maken van een brug naar de XOOPS 3.0 generatie.
+
+Deze versie is vooral foutverbeterings versie, bijna alle fouten die gebruikers hebben gemeld over XOOPS 2.3.0 zijn verbeterd.
+Een paar fouten in het upgrade script van 2.2 naar 2.3 zijn verbeterd, evenals profiel velden toegangs instellingen.
+Fouten toon optie is uitgebreid op aanvraag van de xoops gebruikers, toon level is nu gemiplementeerd als een tijdelijke oplossing.
+Ondertussen is het UTF-8 converteer mechanisme verbeterd, meerdere feeds zijn ingeshakeld.
+ 
+Met de XOOPS 2.3 uitgaves, kunnen gebruikes kennismaken met sommige nieuwe functies beshikbaar zullen zijn in XOOPS 3.0, waar ontwikkelaars de richting van de XOOPS ontwikkeling beter kunnen begrijpen, en designers kunnen leren welke nieuwe functies ondersteund zullen worden in de toekomst.
+Teruggaande en vooruitgaand ondersteuning wordt zoveel mogelijk gegarandeerd. Modules gemaakt voor 2.0.* en 2.2.* zullen werken in 2.3; aplicaties onwikkeld voor 2.3 zullen automatish werken in XOOPS 3.0.
+Ontwikkelaars worden aangemoedigd om hun aplicaties te maken voor XOOPS 2.3 zodat ze gebruik kunnen maken van de nieuwe functies van XOOPS 2.3 en een makkelijke overgang naar XOOPS 3.0 verzorgen.
+ 
+De download kan je vinden op [url=http://www.xoops.nl]XOOPS.nl[/url].
+
+
+Wat is nieuw voor gebruikers
+-----------------------------------
+Sommige nieuwe funties die gebruikers mishien interreseren:
+- De standaard karakter set codering is veranderd naar UTF-8;
+- "automatishe login" oftewel "onthoud mij";
+- CAPTCHA is ingeshakeld voor registratie en commentaar formulieren;
+- Blok cloonen ingeshakeld zodat webmasters meer flexibiliteit hebben;
+- XOOPS editor pakket is verstrekt en de meeste WatJeZietIsWatJeKrijg bewerkers zijn bijgevoegd, bijv. FCKeditor, TinyMCE, etc.;
+- Side-wide editor;
+- Laag is toegepast voor startpagina;
+- Nieuwe installer met gebruikers evarings expirimente bijgevoegd;
+- Upgrade sript voor 2.0* en 2.2* naar 2.3;
+- Permissies voor toegang naar gebruikers profiel pagina is instelbaar;
+- Uitgebreide Profiel module;
+- Prive Berichten module;
+- Uitgebrijd DHTML veld als standaard, met voorbeeld functie;
+- EXM/ThAdmin Admin GUI as options.
+
+ 
+Wat's New for Developers (ENGELS)
+-----------------------------------
+ 
+1 Improved XOOPS ORM by enabling extensible persistable object handler:
+  - The improved persistable object handler supports almost all common methods for database access and data treatment, so that developers do not need to write their own classes or methods;
+  - Custom handler is supported. Developers can add their own handler if they want more functionality or to replace XOOPS native handlers.
+2 Improved text sanitizer:
+  - Custom extension is supported. Developers can add new filters or methods to sanitizer based on their specific needs.
+  - Built-in extensions, which can be disabled or enabled (e.g. for Flash, YouTube, images, Wiki, syntax highlight, text filter, etc.)
+  - Combined with improved persistable object handler (see above), text input from users will be filtered automatically for security considerations.
+3 Custom Frameworks support:
+  - Module developers can add their own library or frameworks (located in XOOPS_ROOT_PATH/Frameworks) which can be shared by other modules.
+  - PEAR, Geshi have been provided as custom libraries in Frameworks.
+  - Once the code inside Frameworks is proven stable and valuable, they will be adopted by XOOPS core and moved into XOOPS core package. This way we can build a standard, efficient channel for third-party developers to contribute.
+4 XOOPS editor packages are now supported officially:
+  - A XoopsEditor handler is built to accept third-party editors; 
+  - Three editors, including Textarea, Dhtmltextarea, and Extended Dhtmltextarea are provided in XOOPS core. FCKeditor, TinyMCE, Koivi are now provided as third-party add-ons.
+5 XOOPS CAPTCHA is built into XOOPS core:
+  - CAPTCHA has been added to registration and comment forms.
+  - Module developers can add CAPTCHA very easily to their applications.
+6 XOOPS Control Panel GUI is introduced:
+  - Old administration interface has been kept as legacy
+  - A new interface is designed, although very rough at this stage
+  - Custom interfaces are allowed, ThAdmin by MusS and Kris is the first one introduced 
+7 XOOPS file and folder engine is added, based on CakePHP. 
+8 XOOPS Cache engine is built based on CakePHP.
+9 Some other improvements and new resources:
+  - XoopsLocal for localization;
+  - XoopsLoad emulating SPL autoload in PHP5;
+  - XoopsUtility as a collection for miscellaneous methods used by XOOPS;
+  - Block clone feature is activated to save module developers' efforts;
+  - Enabled character set and collation support for MySQL 4.1+;
+  - Upgraded Smarty to 2.6.19;
+  - Upgraded phpmailer to 2.0.0;
+  - Added XOOPS data and library folders for forward compatibility with XOOPS 3.0;
+  - Added XOOPS_TRUST_PATH for compatibility with some modules, e.g. protector
+10 For more changes, please check [url=https://sourceforge.net/project/shownotes.php?release_id=627880&group_id=41586]changelog.txt[/url] 
+ 
+ 
+Wat is nieuw voor Thema/Template ontwikkelaars
+-----------------------------------
+ 
+1 Rel tag voor ankers (Link) is nu ondersteund. Ontwikkelaars/designers woorden aangemoedig om de (X)HTML toebehordende "rel" tag te gebruiken in plaats van de "target" tag.
+2 Controle Paneel GUI manager is geintroduceerd zodat designers de mogelijkheid om prachtige administratie themas the maken.
+ 
+ 
+
+Systeem benodigheden
+-----------------------------------
+ 
+PHP:
+Elke PHP versie boven 4.3 (PHP 4.2.x kan ook werken maar is niet oficieel ondersteund, PHP 5.0+ is sterk aangeraden)
+
+MySQL:
+MySQL server 3.23+ (MySQL 5.0+ is sterk aangeraden)
+
+Web server:
+Elke webserver die de benodigde PHP versie aankan (Apache is hoog aanbevoelen)
+ 
+
+XOOPS 2.3.1 Final Downloaden
+-----------------------------------
+ 
+Je kan de link voor de download vinden op XOOPS.nl
+ 
+
+XOOPS 2.3.1 Final Instaleren
+-----------------------------------
+ 
+   1. Kopieer de inhoud van de htdocs/ naar een map waar het toegankelijk is door je server
+   2. Verzeker dat het bestand mainfile.php en de map uploads/ beschrijfbaar zijn door de server (LINUX CHMOD 777)
+   3. Voor veiligheids redenen wordt je aangemoedigd om de map "xoops_lib" en de map "xoops_data" te verplaatsen naar een map buiten de hoofdmap of zelfs de mapnamen te veranderen.
+   4. Maak de map xoops_data/ bescrijfbaar door de server; Creeer en maak de mappen xoops_data/caches/, xoops_data/caches/xoops_cache/, xoops_data/caches/smarty_cache/ en xoops_data/caches/smarty_compile/ beschrijfbaar door de server.
+   5. Ga in je webbrowser naar de locatie waar je de bestanden uit htdocs/ hebt geplaatst en volg de instalatie stappen
+   
+Ook raden we zeker aan om de module PROTECTOR te instaleren, deze module zal een heleboel veiligheids problemen oplossen
+
+Om de PROTECTOR module mee te instaleren met een shone instalatie van XOOPS 2.30, moet je het bestand /extras/mainfile.dist.php.protector kopieeren naar /htdocs/mainfile.dist.php VOOR het instaleren van XOOPS.
+Om de PROTECTOR module mee te instaleren met een upgrade naar XOOPS 2.30, moet je het bestand /extras/mainfile.dist.php.protector kopieeren naar /upgrade/upd-2.0.18-to-2.3.0/mainfile.dist.php VOOR het upgraden van XOOPS.
+
+
+Upgraden van een oudere versie
+-----------------------------------
+ 
+Upgraden vanuit XOOPS 2.0.* boven 2.0.14 en 2.2.* (gebruikmakend van het hele pakket):
+   1. Plaats de "upgrade" map in de "htdocs" map (het is er standaard uitgelaten omdat je de "upgrade" map niet nodighebt bij een schone instalatie) op je PC
+   2. Verwijder htdocs/mainfile.php, htdocs/install/, htdocs/cache/, htdocs/extras/, htdocs/template_c/, htdocs/themes/ and htdocs/uploads/ van de "htdocs" op je PC
+   3. Kopieer de bestanden vanaf je pc naar je server en overschrijf alle bestaande bestanden
+   4. Voor veiligheids redenen wordt je aangemoedigd om de map "xoops_lib" en de map "xoops_data" te verplaatsen naar een map buiten de hoofdmap of zelfs de mapnamen te veranderen
+   5. Maak de map xoops_data/ bescrijfbaar door de server; Creeer en maak de mappen xoops_data/caches/, xoops_data/caches/xoops_cache/, xoops_data/caches/smarty_cache/ en xoops_data/caches/smarty_compile/ beschrijfbaar door de server.
+   6. Verzeker dat de server scrijfrechten heeft op mainfile.php
+   7. Ga met je webbrowser naar "je.websites.url/upgrade"
+   8. Volg de instructies om je database te updaten
+   9. Zorg ervoor dat het bestand mainfile.php niet meer bescrijfbaar is
+  10. Verwijder de "upgrade" map van je server
+  11. Update de "systeem" module vanuit de module administratie interface, het is aangeraden om alle andere modules ook te updaten
+   
+ 
+Upgraden vanuit XOOPS 2.0.7 tot 2.0.13.2 (gebruikmakend van het hele pakket):
+   1. Plaats de "upgrade" map in de "htdocs" map (het is er standaard uitgelaten omdat je de "upgrade" map niet nodighebt bij een schone instalatie) op je PC
+   2. Verwijder htdocs/mainfile.php, htdocs/install/, htdocs/cache/, htdocs/extras/, htdocs/template_c/, htdocs/themes/ and htdocs/uploads/ van de "htdocs" op je PC
+   3. Kopieer de bestanden vanaf je pc naar je server en overschrijf alle bestaande bestanden
+   4. Verwijder de volgende mappen en bestanden van je server (ze horen bij de oude versie):
+          * class/smarty/core
+          * class/smarty/plugins/resource.db.php
+   5. Voor veiligheids redenen wordt je aangemoedigd om de map "xoops_lib" en de map "xoops_data" te verplaatsen naar een map buiten de hoofdmap of zelfs de mapnamen te veranderen
+   6. Maak de map xoops_data/ bescrijfbaar door de server; Creeer en maak de mappen xoops_data/caches/, xoops_data/caches/xoops_cache/, xoops_data/caches/smarty_cache/ en xoops_data/caches/smarty_compile/ beschrijfbaar door de server.
+   7. Verzeker dat de server scrijfrechten heeft op mainfile.php
+   8. Ga met je webbrowser naar "je.websites.url/upgrade"
+   9. Volg de instructies om je database te updaten
+  10. Zorg ervoor dat het bestand mainfile.php niet meer bescrijfbaar is
+  11. Verwijder de "upgrade" map van je server
+  12. Update de "systeem" module vanuit de module administratie interface, het is aangeraden om alle andere modules ook te updaten
+   
+
+Een niet UTF-8 website upgraden:
+UTF-8 codering is als standaard codering geintroduceerd in XOOPS 2.30. Er kunnen wat problemen onstaan bij het converteren van een bestaande niet UTF-8 website naar UTF-8.
+Voordat er een goede oplossing voor deze convertering, zijn de volgende instellingen aanbevolen:
+ - Selecteer de "Niet veranderen" optie in de "Database karater set and collatie" stap tijden het upgrade process
+ - Bewerk /languages/nederlands/global.php en verander de variable $use_utf8 naar één(1)
+
+  
+Het XoopsEditor pakket upgraden:
+In het XOOPS 2.30 Final pakket, zijn vijf bewerkers toegevoerd: dhtmltextarea en textarea voor platten tekst, fckeditor, tinymce en koivi voor WYSIWYG (WatJeZietIsWatJeKrijgt) HTML.
+Omdat er wat aanpassingen zijn gedaan in de mapstructuur van fckeditor en tinymce , is het aanbevolen de oude bewerkers helemaal te verwijder en de nieuwe te uploaden.
+En als je fckeditor gebruikt voor modules, verander dan de module speciefieke bestanden in /fckeditor/modules/, en zeker als je de "article" module gebruikt.
+  
+
+Bestands integriteits controle
+-----------------------------------
+ 
+Het voledige XOOPS pakket is uitgegeven met een script wat kan kontroleren of alle systeem bestanden goed zij geupload naar de server. Volg deze instructies om het te gebruiken:
+ 
+   1. Upload het bestand checksum.php en het bestand checksum.md5 (gevonden in de "root" van dit pakket) naar je XOOPS map op je server (ze naast mainfile.php zetten).
+   2. Open checksum.php met je webbrowser
+   3. Als benodigd, de missende of beschadigde bestanden opnieuw uploaden
+   4. Verwijder checksum.php en checksum.md5 van je server
+ 
+
+Modules
+-----------------------------------
+ 
+Deze uitgave bevat alleen de "systeem-gerelateerde modules". Je bent uitgenodigd om de XOOPS module repository te bezoeken als je extra functionaliteit zoekt.
+ 
+
+Hoe mee te werken
+-----------------------------------
+FOUTEN melden: http://sourceforge.net/tracker/?group_id=41586&atid=430840
+Verbeteringen: http://sourceforge.net/tracker/?group_id=41586&atid=430842
+Toekomstig design: http://sourceforge.net/tracker/?group_id=41586&atid=430843
+Versies meldien: https://lists.sourceforge.net/lists/listinfo/xoops-announcement
+
+Vertaalde versie door Dylian Melgert, 5 Oktober 2008.
+
+Origineel bericht: XOOPS Ontwikkelings Team, 20 September 2008
