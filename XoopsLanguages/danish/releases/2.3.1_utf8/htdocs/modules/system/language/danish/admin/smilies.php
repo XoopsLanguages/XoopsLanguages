@@ -17,6 +17,6 @@ define('_AM_SMILEURL', 'Billede URL:');
 define('_AM_SMILEEMOTION', 'Beskrivelse:');
 define('_AM_ADD', 'Tilføj');
 define('_AM_SAVE', 'Gem');
-define('_AM_WAYSYWTDTS', 'ADVARSEL: Er du sikker på, at du ønsker at slette denne smiley?');define('_AM_DISPLAYF', 'Vis i formular?');
+define('_AM_WAYSYWTDTS', 'ADVARSEL: Er du sikker på, at du ønsker at slette denne smiley?');
 define('_AM_DISPLAYF', 'Vis i formular?');
 ?>
