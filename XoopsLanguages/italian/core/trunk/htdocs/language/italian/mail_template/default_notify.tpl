@@ -1,20 +1,22 @@
 Ciao {X_UNAME},
 
-L'evento {X_NOTIFY_EVENT} è avvenuto per {X_ITEM_TYPE} "{X_ITEM_TILE}" che stai monitorando {X_MODULE} sul nostro sito.
+Si Ã¨ verificato l'evento {X_NOTIFY_EVENT} sul {X_ITEM_TYPE} "{X_ITEM_TILE}"
+che stavi tenendo sotto controllo nel modulo {X_MODULE} del nostro sito.
 
-Puoi vedere {X_ITEM_TYPE} cliccando qui:
+Puoi vedere il {X_ITEM_TYPE} a questo link:
 {X_ITEM_URL}
 
 -----------
 
-Hai sottoscritto le notifiche per questo elemento.
+Hai scelto di ricevere un messaggio di notifica per questo evento.
 
-Se si tratta di un errore o non vuoi più ricevere notifiche per questo elemento, aggiorna le tue sottoscrizzioni cliccando sul link sottostante:
+Se si Ã¨ trattato di un errore o se non vuoi ricevere altri messaggi di notifica 
+per questo evento, aggiorna il tuo profilo visitando il seguente link:
 {X_UNSUBSCRIBE_URL}
 
-Perfavore non rispondere a questo messagio.
+Si prega di non rispondere a questo messaggio.
 
 -----------
-{X_SITENAME} ({X_SITEURL}) 
+{X_SITENAME} ({X_SITEURL})
 webmaster
 {X_ADMINMAIL}

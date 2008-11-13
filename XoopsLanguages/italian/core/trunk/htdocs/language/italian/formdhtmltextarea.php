@@ -1,4 +1,8 @@
-﻿<?php
+<?php
+// -------------------------------------------------------------------------------- //
+// Translated by Ianez - Xoops Italia Staff
+// Published by Xoops Italian Official Support Site - www.xoopsitalia.org
+// -------------------------------------------------------------------------------- //
 /**
  * Language definitions for {@link XoopsFormDhtmlTextArea}
  *
@@ -36,40 +40,40 @@ $GLOBALS["formtextdhtml_sizes"] = array(
     "xx-large"  => "xx-Large",
     );
 
-define("_XOOPS_FORM_ALT_URL", "URL");
+define("_XOOPS_FORM_ALT_URL", "Inserisci Link");
 define("_XOOPS_FORM_ALT_EMAIL", "Email");
-define("_XOOPS_FORM_ALT_IMG", "Immagini");
-define("_XOOPS_FORM_ALT_IMAGE", "Immagini all\'interno");
-define("_XOOPS_FORM_ALT_SMILEY", "Emoticons");
-define("_XOOPS_FORM_ALT_CODE", "Codice sorgente");
-define("_XOOPS_FORM_ALT_QUOTE", "Quota");
+define("_XOOPS_FORM_ALT_IMG", "Inserisci immagine dal web");
+define("_XOOPS_FORM_ALT_IMAGE", "Image Manager Xoops");
+define("_XOOPS_FORM_ALT_SMILEY", "Faccine");
+define("_XOOPS_FORM_ALT_CODE", "Codice");
+define("_XOOPS_FORM_ALT_QUOTE", "Citazione");
 define("_XOOPS_FORM_ALT_BOLD", "Grassetto");
-define("_XOOPS_FORM_ALT_ITALIC", "Italico");
+define("_XOOPS_FORM_ALT_ITALIC", "Corsivo");
 define("_XOOPS_FORM_ALT_UNDERLINE", "Sottolineato");
 define("_XOOPS_FORM_ALT_LINETHROUGH", "Barrato");
 define("_XOOPS_FORM_ALT_ENTERHEIGHT", "Altezza:");
 define("_XOOPS_FORM_ALT_ENTERWIDTH", "Larghezza:");
-define("_XOOPS_FORM_ALT_LEFT", "Sinistra");
-define("_XOOPS_FORM_ALT_RIGHT", "Destra");
-define("_XOOPS_FORM_ALT_CENTER", "Centro");
+define("_XOOPS_FORM_ALT_LEFT", "Allineamento a Sinistra");
+define("_XOOPS_FORM_ALT_RIGHT", "Allineamento a Destra");
+define("_XOOPS_FORM_ALT_CENTER", "Allineamento al Centro");
 define("_XOOPS_FORM_ALTFLASH", "Flash");
 define("_XOOPS_FORM_ALTMMS", "MMS");
 define("_XOOPS_FORM_ALTRTSP", "Real Player");
 define("_XOOPS_FORM_ALTIFRAME", "IFRAME");
-define("_XOOPS_FORM_ALTWIKI", "WIKI link");
+define("_XOOPS_FORM_ALTWIKI", "Link WIKI (Richiede MediaWiki)");
 define("_XOOPS_FORM_ENTERIFRAMEURL", "IFRAME URL:");
-define("_XOOPS_FORM_ENTERMMSURL", "RMMS URL:");
-define("_XOOPS_FORM_ENTERWMPURL", "WMP URL:");
-define("_XOOPS_FORM_ENTERFLASHURL", "FLASH URL:");
-define("_XOOPS_FORM_ENTERYOUTUBEURL", "Youtube URL:");
-define("_XOOPS_FORM_ENTERRTSPURL", "RTSP URL:");
-define("_XOOPS_FORM_ENTERWIKITERM", "Parola collegata alla Wiki:");
+define("_XOOPS_FORM_ENTERMMSURL", "Indirizzo RMMS:");
+define("_XOOPS_FORM_ENTERWMPURL", "Indirizzo WMP:");
+define("_XOOPS_FORM_ENTERFLASHURL", "Indirizzo FLASH:");
+define("_XOOPS_FORM_ENTERYOUTUBEURL", "Indirizzo Youtube:");
+define("_XOOPS_FORM_ENTERRTSPURL", "Indirizzo RTSP:");
+define("_XOOPS_FORM_ENTERWIKITERM", "Termine da collegare al Wiki (Richiede modulo 'mediawiki'):");
 define("_XOOPS_FORM_ALTMP3", "MP3");
-define("_XOOPS_FORM_ENTERMP3URL", "MP3 URL");
+define("_XOOPS_FORM_ENTERMP3URL", "Indirizzo MP3");
 
-define("_XOOPS_FORM_ALT_CHECKLENGTH", "Verifica lunghezza testo");
-define("_XOOPS_FORM_ALT_LENGTH", "Attuale lunghezza del contenuto: %s");
+define("_XOOPS_FORM_ALT_CHECKLENGTH", "Lunghezza del contenuto");
+define("_XOOPS_FORM_ALT_LENGTH", "Lunghezza attuale del contenuto: %s");
 define("_XOOPS_FORM_ALT_LENGTH_MAX", "Lunghezza massima: ");
 
-define("_XOOPS_FORM_PREVIEW_CONTENT", "Clicca <strong>" . _PREVIEW . "</strong> per vedere il contenuto in azione.");
+define("_XOOPS_FORM_PREVIEW_CONTENT", "Premere <strong>" . _PREVIEW . "</strong> per un'anticipazione del contenuto");
 ?>

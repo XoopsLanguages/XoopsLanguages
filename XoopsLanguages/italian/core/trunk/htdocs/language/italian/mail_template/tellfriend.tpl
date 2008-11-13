@@ -1,11 +1,11 @@
 Ciao {FRIEND_NAME},
 
-Il tuo amico {YOUR_NAME} ha trovato interessante questo sito e vuole fartelo conoscere.
+Il tuo amico {YOUR_NAME} ti invita a visitare il nostro sito.
 
 Nome del sito: {SITENAME}
-Indirizzo del sito:  {SITEURL}
+Indirizzo:  {SITEURL}
 
 -----------
-{SITENAME} ({SITEURL}) 
+{SITENAME} ({SITEURL})
 webmaster
 {ADMINMAIL}

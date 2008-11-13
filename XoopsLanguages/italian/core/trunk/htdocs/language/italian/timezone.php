@@ -1,13 +1,17 @@
-﻿<?php
+<?php
+// -------------------------------------------------------------------------------- //
+// Translated by Ianez - Xoops Italia Staff
+// Published by Xoops Italian Official Support Site - www.xoopsitalia.org
+// -------------------------------------------------------------------------------- //
 // $Id: timezone.php 1217 2008-01-01 17:04:41Z phppp $
 //%%%%%		Time Zone	%%%%
 define("_TZ_GMTM12", "(GMT-12:00) Eniwetok, Kwajalein");
-define("_TZ_GMTM11", "(GMT-11:00) Midway Island, Samoa");
+define("_TZ_GMTM11", "(GMT-11:00) Isole Midway, Samoa");
 define("_TZ_GMTM10", "(GMT-10:00) Hawaii");
 define("_TZ_GMTM9", "(GMT-9:00) Alaska");
 define("_TZ_GMTM8", "(GMT-8:00) Pacific Time (US &amp; Canada)");
 define("_TZ_GMTM7", "(GMT-7:00) Mountain Time (US &amp; Canada)");
-define("_TZ_GMTM6", "(GMT-6:00) Central Time (US &amp; Canada), Città del Messico");
+define("_TZ_GMTM6", "(GMT-6:00) Central Time (US &amp; Canada), Mexico City");
 define("_TZ_GMTM5", "(GMT-5:00) Eastern Time (US &amp; Canada), Bogota, Lima, Quito");
 define("_TZ_GMTM4", "(GMT-4:00) Atlantic Time (Canada), Caracas, La Paz");
 define("_TZ_GMTM35", "(GMT-3:30) Newfoundland");
@@ -26,9 +30,9 @@ define("_TZ_GMTP55", "(GMT+5:30) Bombay, Calcutta, Madras, Nuova Delhi");
 define("_TZ_GMTP6", "(GMT+6:00) Almaty, Dhaka, Colombo");
 define("_TZ_GMTP7", "(GMT+7:00) Bangkok, Hanoi, Jakarta");
 define("_TZ_GMTP8", "(GMT+8:00) Beijing, Perth, Singapore, Hong Kong, Urumqi, Taipei");
-define("_TZ_GMTP9", "(GMT+9:00) Tokyo, Seul, Osaka, Sapporo, Yakutsk");
+define("_TZ_GMTP9", "(GMT+9:00) Tokyo, Seoul, Osaka, Sapporo, Yakutsk");
 define("_TZ_GMTP95", "(GMT+9:30) Adelaide, Darwin");
-define("_TZ_GMTP10", "(GMT+10:00) Brisbane, Canberra, Melbourne, Sydney, Guam, Vladivostok");
+define("_TZ_GMTP10", "(GMT+10:00) Brisbane, Canberra, Melbourne, Sydney, Guam, Vlasdivostok");
 define("_TZ_GMTP11", "(GMT+11:00) Magadan, Isole Salomone, Nuova Caledonia");
-define("_TZ_GMTP12", "(GMT+12:00) Auckland, Wellington, Isole Fiji, Kamchatka, Marshall Island");
+define("_TZ_GMTP12", "(GMT+12:00) Auckland, Wellington, Isole Fiji, Kamchatka, Isole Marshall");
 ?>

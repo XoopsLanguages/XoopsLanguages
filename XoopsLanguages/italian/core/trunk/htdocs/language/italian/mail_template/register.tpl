@@ -1,21 +1,22 @@
 Ciao {X_UNAME},
 
-Grazie per esserti iscritto su {SITENAME}. Come membro registrato puoi:
-- Inviare messaggi agli altri utenti
-- Partecipare alle discussioni sul forum
-- Leggere le ultime news
-- Inviare contenuti
-- E molto altro ancora....
+Grazie per aver compilato il modulo di registrazione a {SITENAME}.
 
-L'indirizzo mail ({X_UEMAIL}) è stato associato al tuo account.
+Come utente registrato potrai:
+- inviare messaggi privati ai vari utenti
+- partecipare attivamente al forum
+- inviare contenuti
+...e molto altro ancora.
 
-Per diventare un utente {SITENAME}, attiva il tuo account
-cliccando sul link sottostante:
+L'indirizzo email ({X_UEMAIL}) Ã¨ stato usato per registrare l'account.
+
+Per diventare a tutti gli effetti un utente registrato di {SITENAME}, conferma
+la tua richiesta di registrazione premendo seguente il link:
 
 {X_UACTLINK}
 
 -----------
-Best Regards
+Distinti saluti
 {SITENAME}
-({SITEURL}) 
+({SITEURL})
 {ADMINMAIL}

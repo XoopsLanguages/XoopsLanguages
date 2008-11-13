@@ -1,20 +1,21 @@
 Ciao {X_UNAME},
 
-Un commento è appena stato aggiunto a {X_ITEM_TYPE} "{X_ITEM_NAME}" che stai monitorando su {X_MODULE} sul nostro sito.
+E' stato aggiunto un commento al {X_ITEM_TYPE} "{X_ITEM_NAME}"
+che stavi tenendo controllato nel modulo {X_MODULE} del nostro sito.
 
-Puoi vedere il commento qui:
+Puoi leggere il commento a questo link:
 {X_COMMENT_URL}
 
 -----------
 
-Ricevi questa mail perchè hai richiesto di ricevere una notifica per {X_ITEM_TYPE}.
+Hai scelto di ricevere un messaggio di notifica quando dei nuovi commenti vengono inviati a questo {X_ITEM_TYPE}.
 
-Se si tratta di un errore o non vuoi più ricevere notifiche per questo elemento, aggiorna le tue sottoscrizzioni cliccando sul link sottostante:
+Se si Ã¨ trattato di un errore o se non vuoi ricevere altri messaggi di notifica per questo evento, aggiorna il tuo profilo premendo il seguente link:
 {X_UNSUBSCRIBE_URL}
 
-Perfavore non rispondere a questo messagio.
+Si prega di non rispondere a questo messaggio.
 
 -----------
-{X_SITENAME} ({X_SITEURL}) 
+{X_SITENAME} ({X_SITEURL})
 webmaster
 {X_ADMINMAIL}

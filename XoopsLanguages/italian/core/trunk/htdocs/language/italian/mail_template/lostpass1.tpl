@@ -1,13 +1,16 @@
 Ciao {X_UNAME},
 
-Un utente dall'indirizzo IP {IP} ha richiesto l'invio di una nuova password sul sito {SITENAME}.
-Puoi avere la tua nuova password cliccando sul link sottostante:
+Un navigatore proviente da {IP} ha appena richiesto che gli sia inviata una
+password per il tuo account su {SITENAME}.
+
+Potrai ricevere la nuova password cliccando su link che segue:
 
 {NEWPWD_LINK}
 
-Se non hai richiesto tu la nuova password, non ti preoccupare. Ignora questa mail.
+Se la richiesta non è partita da te, non ti allarmare. Elimina semplicemente
+questa email.
 
 -----------
-{SITENAME} ({SITEURL}) 
+{SITENAME} ({SITEURL})
 webmaster
 {ADMINMAIL}

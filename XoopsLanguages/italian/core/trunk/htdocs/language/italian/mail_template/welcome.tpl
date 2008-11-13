@@ -1,14 +1,13 @@
-Caro {X_UNAME},
+Benvenuto\a {X_UNAME},
 
-
-Hai completato con successo la registrazione su {X_SITENAME} utilizzando lo username "{X_UNAME}".
-Sei il benvenuto su {X_SITENAME} a: {X_SITEURL}
+Ti sei registrato\a con successo su {X_SITENAME}, utilizzando il nome utente "{X_UNAME}".
+Ti invitiamo a farci visita: {X_SITENAME} | {X_SITEURL}
 
 {TERMSOFUSE}
 
-Se dovessi avere qualche problema o qualche domanda su "{X_SITENAME}", sentiti libero di contattarci: {X_ADMINMAIL}
+In caso di problemi nell'utilizzo di "{X_SITENAME}", non esitare a contattarci: {X_ADMINMAIL}
 
-Grazie,
+A presto
 
 -----------
 {X_SITENAME}: {X_SITEURL} 
