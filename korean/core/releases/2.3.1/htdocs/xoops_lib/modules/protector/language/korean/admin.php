@@ -49,7 +49,7 @@ define("_AM_ADV_NOTSECURE","Insecure");
 
 define("_AM_ADV_REGISTERGLOBALS","현 설정은 변수와 관련된 다양한 형태의 공격을 가능하게 합니다. <br />만약 .htaccess 을 사용할 수 있는 서버라면 즉시 관련설정을 하시기 바랍니다. 자세한 사항은 관리자에게 문의하시기 바랍니다.");
 define("_AM_ADV_ALLOWURLFOPEN","현 설정은 외부의 스크립트를 실행가능케할 위험성이 있습니다 .<br />이 설정의 변경을 위해선 서버관리자권한이 필요합니다.<br />서버관리자라면 php.ini , httpd.conf 의 관련설정을 편집하시기 바랍니다.<br /><b>Sample of httpd.conf:<br /> &nbsp; php_admin_flag &nbsp; allow_url_fopen &nbsp; off</b><br />만약 관리자가 아니라면 서버관리자에게 문의하시기 바랍니다.");
-define("_AM_ADV_USETRANSSID","Your Session ID will be diplayed in anchor tags etc.<br />For preventing from session hi-jacking, add a line into .htaccess in XOOPS_ROOT_PATH.<br /><b>php_flag session.use_trans_sid off</b>");
+define("_AM_ADV_USETRANSSID","세션 ID가 자동적으로 링크에 표시되어지는 설정으로 되어 있습니다. 세션 가로채기공격의 위험이 있으니 XOOPS_ROOT_PATH에 .htaccess을 다음과 같이 작성하시기 바랍니다.<br /><b>php_flag session.use_trans_sid off</b>");
 define("_AM_ADV_DBPREFIX","테이블 접두어(Prefix)가 기본값인 xoops인 경우는 'SQL Injections'의 위험도가 높아집니다.<br />'Isolated Comments필터링'(Force sanitizing *) 등 SQL Injection 방지관련의 설정을 ON으로 해 주시기 바랍니다.");
 define("_AM_ADV_LINK_TO_PREFIXMAN","접두어(prefix) 관리자로");
 define("_AM_ADV_MAINUNPATCHED","Xoops Protector가 제기능을 다하기 위해선 mainfile.php을 변경할 필요가 있습니다. <br />README를 숙독하신 후 mainfile.php 관련 변경을 해 주시기 바랍니다.");
@@ -60,7 +60,17 @@ define("_AM_ADV_MAINUNPATCHED","Xoops Protector가 제기능을 다하기 위해선 mainfil
 define("_AM_ADV_SUBTITLECHECK","Protector 작동 체크");
 //define("_AM_ADV_AT1STSETPASSWORD","자기자신이 금지 IP 리스트에 올라갈 가능성도 배제할 수 없으므로 먼저 비상용 패스워드를 설정하시기 바랍니다.");
 define("_AM_ADV_CHECKCONTAMI","변수 오염");
-define("_AM_ADV_CHECKISOCOM","Isolated Comments");
+define("_AM_ADV_CHECKISOCOM","고립 코멘트");
+
+
+// Localization by ezsky
+define("_AM_EZ_PREFIX", "Prefix");
+define("_AM_EZ_TABLES", "Tables");
+define("_AM_EZ_UPDATED", "Updated");
+define("_AM_EZ_COPY", "Copy");
+define("_AM_EZ_ACTIONS", "Actions");
+define("_AM_EZ_BACKUP", "Backup");
+define("_AM_EZ_DELETE", "Delete");
 
 
 ?>

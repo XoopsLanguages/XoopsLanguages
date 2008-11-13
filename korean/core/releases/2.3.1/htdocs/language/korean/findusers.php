@@ -86,7 +86,7 @@ define("_MA_USER_HASAVATAR", "아바타를 가진");
 define("_MA_USER_MODE_SIMPLE", "심플 모드");
 define("_MA_USER_MODE_ADVANCED", "상세 모드");
 define("_MA_USER_MODE_QUERY", "Query 모드");
-define("_MA_USER_QUERY", "Quey");
+define("_MA_USER_QUERY", "Query");
 
 define("_MA_USER_SEARCHAGAIN", "다시 검색");
 define("_MA_USER_NOUSERSELECTED", "선택된 사용자가 없습니다.");

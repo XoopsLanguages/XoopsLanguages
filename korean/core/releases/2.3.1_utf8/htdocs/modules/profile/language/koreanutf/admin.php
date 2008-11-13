@@ -143,6 +143,7 @@ define("_PROFILE_AM_NOUSERNAME", "사용자명이 선택되어져 있지 않습�
 define("_PROFILE_AM_USERCREATED", "회원 계정이 생성되어졌습니다.");
 
 define("_PROFILE_AM_CANNOTDELETESELF", "자기 계정의 삭제는 허용되지 않습니다. - 자기 계정삭제를 원하시면 회원정보페이지를 이용하세요!");
+define("_PROFILE_AM_CANNOTDELETEADMIN", "관리자 계정의 삭제는 허용되지 않습니다.");
 
 define("_PROFILE_AM_NOSELECTION", "사용자가 선택되지 않았습니다");
 define("_PROFILE_AM_USER_ACTIVATED", "사용자가 활성화되었습니다.");
