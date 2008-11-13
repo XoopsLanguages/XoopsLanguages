@@ -1,0 +1,117 @@
+<?
+/*****************************************************/
+/* Quizz Messages                                    */
+/*****************************************************/
+  define("_MYQUIZ_MYQUIZ","");
+  define("_MYQUIZ_ADMIN","Administracja testami - Quizz Administration");
+  define("_MYQUIZ_DELETE","Kasowanie - Delete");
+  define("_MYQUIZ_DELQUESTION","Kasowanie pytania - Delete the question");
+  define("_MYQUIZ_NEW","Nowy test - New quizz");
+  define("_MYQUIZ_SEE","Podgl±d testu - View quizz");
+  define("_MYQUIZ_VIEW","Edycja testu - Edit quizz");
+  define("_MYQUIZ_VIEWSCORE","Wy¶wietlenie wyników - Display scores");
+  define("_MYQUIZ_VIEWSTAT","Wy¶wietlenie statystyki - Display stats");
+  define("_MYQUIZ_VIEWANSWER","Wy¶wietlenie odpowiedzi - Display the answers");
+  define("_MYQUIZ_SENDEMAIL","Poinformowanie administratora - Inform administrator");
+  define("_MYQUIZ_LIMITVOTE","Limitowanie ilo¶ci prób rozwi±zañ -  Limit vote number");
+  define("_MYQUIZ_NBSCORE","Ilo¶æ wy¶wietlanych rezultatów rozwi±zañ - Displayed result number");
+  define("_MYQUIZ_COMMENT","Komentarz - Comment");
+  define("_MYQUIZ_ONLYREGISTERED","Dostêp mo¿liwy tylko dla zarejestrowanych u¿ytkowników - Access to registered user only");
+  define("_MYQUIZ_MODIFY","Modyfikacja - Modify");
+  define("_MYQUIZ_CREATE","Utworzenie - Create");
+  define("_MYQUIZ_SUBMIT","Wy¶lij - Submit");
+  define("_MYQUIZ_MODIFYQUESTION","Modyfikacja pytania - Modify the question");
+  define("_MYQUIZ_GENINFOS","Informacje ogólne - General Informations");
+  define("_MYQUIZ_QUESTIONS","Pytania - Quizz Questions");
+  define("_MYQUIZ_ADDQUESTION","Dodanie pytania - Add a question");
+  define("_MYQUIZ_QUESTION","Pytanie - Question");
+  define("_MYQUIZ_ANSWER","Odpowied¼ - Answer");
+  define("_MYQUIZ_TITLE","Tytu³ testu - Quizz Title");
+  define("_MYQUIZ_LIST","Lista testów - Quizz List");
+  define("_MYQUIZ_QUESTIONTITLE","Pytanie - Question");
+  define("_MYQUIZ_SURE2DELETE","Czy skasowaæ test ? - Are you sure you want to delete the quizz");
+  define("_MYQUIZ_SURE2DELQUESTION","Czy skasowaæ pytanie ? Are you sure you want to delete the question ");
+  define("_MYQUIZ_RESULT","Wyniki testu - Quizz Results");
+  define("_MYQUIZ_ACTIVE","Uaktywnienie testu - Active Quizz");
+  define("_MYQUIZ_INACTIVE","Test nieaktywny ! - Inactive Quizz");
+  define("_MYQUIZ_MUSTBEUSER","Musisz byæ zarejestrowany aby wzi±æ udzia³ w te¶cie ! - You must be a registered user to take this Quizz !");
+  define("_MYQUIZ_MUSTBEACTIVE","Test nieaktywny ! - This is an inactive Quizz !");
+  define("_MYQUIZ_ALREADYVOTED","Ju¿ raz rozwi±zywa³e¶ test ! - You have already played !");
+  define("_MYQUIZ_THANKS","Dziêkujemy za udzia³ w te¶cie ! - Thanks for playing !");
+  define("_MYQUIZ_YOURSCORE","Twój wynik - Your score");
+  define("_MYQUIZ_LISTSCORE","Wyniki - Scores");
+  define("_MYQUIZ_LISTSTATS","Statystyka - Statistics");
+  define("_MYQUIZ_NBVOTE","Vote number");
+  define("_MYQUIZ_MEANSCORE","¦rednio - Mean Score");
+  define("_MYQUIZ_MAXSCORE","Maksymalna - Max Score");
+  define("_MYQUIZ_MINSCORE","Minimalna - Min Score");
+  define("_MYQUIZ_MISSINGINFOS","Musisz podaæ poprawnie swój identyfikator i adres email ! - You haven't correctly fill your username and email !");
+  define("_MYQUIZ_TOBEDONE","Funkcja nie zaimplementowana - Function not inplemented yet");
+  define("_MYQUIZ_IMAGE","Rysunek - Image");
+  define("_MYQUIZ_EMAIL","Email - Email");
+  define("_MYQUIZ_LOGNAME","Identyfikator - Nickname");
+  define("_MYQUIZ_YOUHASVOTED","bra³ udzia³ w te¶cie - has voted on Quizz");
+  define("_MYQUIZ_YOUHAVECHOOSE","Twoja odpowied¼ - You have choosen");
+  define("_MYQUIZ_CORRECTANSWER","poprawna odpowied¼ to - and the correct answer is");
+  define("_MYQUIZ_COEF","Warto¶æ punktowa pytania - Point value of question (arbitrary)");
+  define("_MYQUIZ_IFGOODANSWER","Przy dobrej odpowiedzi - If good answer");
+  define("_MYQUIZ_IFBADANSWER","Przy z³ej odpowiedzi - If bad answer");
+  define("_MYQUIZ_ADDCAT","Dodanie kategori - Add a category");
+  define("_MYQUIZ_DELCAT","Skasowanie kategori - Delete a category");
+  define("_MYQUIZ_CAT","Kategorie - Category");
+  define("_MYQUIZ_ADD","Dodanie - Add");
+  define("_MYQUIZ_CATIMAGE","Rysunek - Image");
+  define("_MYQUIZ_SURE2DELETECAT","Czy skasowaæ kategoriê - Are you sure you want to delete category");
+  define("_MYQUIZ_HELPACTIVE","Uaktywnienie testu - Make the Quizz Activ");
+  define("_MYQUIZ_HELPVIEWSCORE","Wy¶wietlenie wyników testu po jego rozwi±zaniu -  Display the scores after the user votes");
+  define("_MYQUIZ_HELPANSWER","Wy¶wietlenie odpowiedzi do testu po jego rozw±zaniu - Display the answers after the user votes");
+  define("_MYQUIZ_HELPEMAIL","Wys³anie emaila do administratora po ka¿dorazowym rozwi±zniu testu  - Send an email to the admin after the user votes");
+  define("_MYQUIZ_HELPONLYREGISTERED","Test tylko dla zarejestrowanych urzytkowników - Only registered user can vote if enabled");
+  define("_MYQUIZ_HELPLIMITVOTE","Test mo¿na rozwi±zaæ tylko raz - Limit the user vote to one entry per Quizz");
+  define("_MYQUIZ_HELPNBSCORE","Ilo¶æ wy¶wietlanych wyników testu po jego rozwiazaniu - Score number to display after the user vote");
+  define("_MYQUIZ_HELPIMAGE","Dodanie rysunku lub zdjêcia do testu - Add an image to the quizz <br> (in Quizz module image directory)");
+  define("_MYQUIZ_HELPOPTION","Opcjonalnie - Optional");
+  define("_MYQUIZ_HELPCONTRIB","Umo¿liwienie u¿ytkownikom tworzenia  nowych pytañ - Enable the user to submit new questions");
+  define("_MYQUIZ_CONTRIB","Komentarze - Contribution");
+  define("_MYQUIZ_ADDCONTRIB","Add a contribution");
+  define("_MYQUIZ_CONTRIBUTE","Dodaj nowe pytanie -  Submit a question");
+  define("_MYQUIZ_CONTRIBTHANKS","Thanks for your contribution, the admin will be take it into account as soon as possible");
+  define("_MYQUIZ_ADDQUESTIONSORRY","Sorry, but only the registered users can submit a question");
+  define("_MYQUIZ_DELCONTRIB","Delete the contribution");
+  define("_MYQUIZ_LOTS","Drawing Lots");
+  define("_MYQUIZ_MODIFYCAT","Modyfikacja kategori - Modify Category");
+  define("_MYQUIZ_NBWINNERS","Number of winners for the drawing lots");
+  define("_MYQUIZ_ANDTHEWINNERSARE","Zwyciêzc± testu jest - And the winners are");
+  define("_MYQUIZ_LAUNCH","Go");
+  define("_MYQUIZ_FORTHEQUESTION","Pytanie brzmia³o - The question was");
+  # 1.1
+  define("_MYQUIZ_EXPIRATION","Test aktualny do - Expiration");
+  define("_MYQUIZ_HASEXPIRED","Niestety jest przedawni³ siê - Sorry, the Quiz validity time has expired");
+  # 1.3
+  define("_MYQUIZ_RANK","Order");
+  define("_MYQUIZ_INCORRECTORDER","There is some problems with the question order you choose. Please, go back and correct the mistake");
+  # 1.4
+  define("_MYQUIZ_ADMEMAIL","Administrator Email");
+  define("_MYQUIZ_HELPADMEMAIL","Email where to send quiz report (only if different from site administrator).");
+  define("_MYQUIZ_ADMINISTRATOR","Administrator");
+  define("_MYQUIZ_HELPADMINISTRATOR","Supplementary Administrator");
+  define("_MYQUIZ_CONDITIONS","Pomoc do testu - Usage conditions");
+  define("_MYQUIZ_READCONDITIONS","Przeczytaj - Read the usage conditions <a href=\"%s/modules/quizz/index.php?qid=%s&do=viewConditions\">pomoc do testu  - here</a>.");
+  # 1.4.1
+  define("_MYQUIZ_QUIZZ","Test - Quizz");
+  define("_MYQUIZ_DELSCORE","Kasowanie wyników - Delete Scores");
+  define("_MYQUIZ_SURE2DELETESCORE","Czy skasowac wyniki oraz statystyki testu - Are you sure you want to delete the scores and stats for this Quiz");
+  define("_MYQUIZ_QUESTIONSNB","Pytania - Questions");
+  # Xoops version
+  define("_MYQUIZ_ANSWERS","Odpowiedzi - Answers");
+  define("_MYQUIZ_BACK","Wstecz - Back");
+  define("_MYQUIZ_BACKTOINDEX","Powrót do spisu testów - Back to Quizz Index");
+  define("_MYQUIZ_DAY","Dzieñ - Day");
+  define("_MYQUIZ_UMONTH","Miesi±c - Month");
+  define("_MYQUIZ_YEAR","Rok - Year");
+  define("_MYQUIZ_HOUR","Godzina - Hour");
+  define("_MYQUIZ_NOWIS","Teraz jest - Now it is");
+  define("_MYQUIZ_ALLCONTENTS","all of its contents ?");
+  define("_MYQUIZCATLIST","Kategorie testów - Quizz category");
+  define("_MYQUIZ_COPY","<div align='right'>Original Version of Quizz 1.4.1 by <a href=mailto:xbee@xbee.net>xbee</a><br>Adapted for Xoops 1.0 RC3 by  <a href=mailto:inconnu0215@noos.fr>Moumou</a> and Pascal Le Boustouller</A>. Wersja polska Jacek Kozio³</div>");
+?>

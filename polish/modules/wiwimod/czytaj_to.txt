@@ -1,0 +1,4 @@
+wiwimod - t³umaczenie na jêzyk polski.
+T³umaczenie bazuj±ce na wersji zrobionej dla http://xoops.citroen.triger.com.pl przez tamtejsz± ekipê.
+Dokoñczone, sprawdzone przez dap997 polanski.biz 05.03.2005.
+

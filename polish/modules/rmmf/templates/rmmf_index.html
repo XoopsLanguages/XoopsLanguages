@@ -1,0 +1,58 @@
+<div style="font-weight: bold; padding: 6px; border-bottom: 1px solid #CCCCCC; font-size: 18px;"><{$module_title}></div>
+<br />
+<div>
+<br />
+<table width="100%" border="0" cellspacing="0" style="padding: 4px;">
+	<tr>
+		<td width="60%" valign="top" style="padding: 4px;">
+	<div style="border-bottom: 5px solid #CCCCCC; padding: 6px; font-size: 16px; font-weight: bold;"><{$lang_categos}></div><br />
+	<{foreach item=cat from=$categos}>
+		<div style="padding: 2px;">
+		<img src="images/section.png" border="0" align="absmiddle" /> <a href="categos.php?id=<{$cat.id}>" style="font-size: 12px; font-weight: bold;"><{$cat.nombre}></a></div>
+		<br />
+		<div style="padding: 6px; padding-left: 25px; text-align: justify;"><{$cat.desc}></div>
+		<br />
+	<{/foreach}></td>
+		<td width="40%" valign="top" class="even" style="border-left: 1px solid #CCCCCC;">
+		
+		<div style="padding: 4px; font-size: 12px; font-weight: bold; border-bottom: 1px solid #CCCCCC; text-align: left;">
+		<img src="images/featured.png" border="0" align="absmiddle" /> <{$lang_featured}>
+	</div>
+	<div style="font-size: 11px; padding: 3px;">
+		<ul>
+		<{foreach item=work from=$destacados}>
+			<li><strong><a href="view.php?id=<{$work.id}>"><{$work.titulo}></a></strong><br />
+			</li>
+		<{/foreach}>
+		</ul>
+	</div>
+	<br />
+	<div style="padding: 4px; font-size: 12px; font-weight: bold; border-bottom: 1px solid #CCCCCC;">
+		<img src="images/recent.png" border="0" align="absmiddle" /> <{$lang_recent}>
+	</div>
+	<div style="font-size: 11px; padding: 3px;">
+		<ul>
+		<{foreach item=work from=$recientes}>
+			<li><strong><a href="view.php?id=<{$work.id}>"><{$work.titulo}></a></strong><br />
+			<{$work.desc}></li>
+		<{/foreach}>
+		</ul>
+	</div>
+</td>
+	</tr>
+</table>
+<br />
+<!-- Imágenes de Destacados -->
+<table class="outer">
+	<tr><th><{$lang_featured}></th></tr>
+</table>
+<table class="outer" cellspacing="1">
+	<tr align="center">
+	<{foreach item=work from=$destacados}>
+		<{if $work.img!=''}><td class="<{cycle values="even,odd"}>">
+		<a href="view.php?id=<{$work.id}>"><img src="<{$storedir}>ths/<{$work.img}>" style="border: 1px solid #666666; margin: 4px;" /></a><br />
+		<a href="view.php?id=<{$work.id}>" style="font-size: 10px;"><{$work.titulo}></a></td><{/if}>
+	<{/foreach}>
+</tr></table><br />
+<!-- Fin de imagenes -->
+<{$rmmf_footer}>

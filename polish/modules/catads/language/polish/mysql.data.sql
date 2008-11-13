@@ -1,0 +1,12 @@
+INSERT INTO `catads_options` VALUES (1, 1, 'Dollard', 0);
+INSERT INTO `catads_options` VALUES (2, 2, 'minimum', 0);
+INSERT INTO `catads_options` VALUES (3, 2, 'maximum', 0);
+INSERT INTO `catads_options` VALUES (4, 2, 'to discuss', 0);
+INSERT INTO `catads_options` VALUES (5, 2, 'surroundings', 0);
+INSERT INTO `catads_options` VALUES (6, 2, 'exact price', 0);
+INSERT INTO `catads_options` VALUES (7, 3, 'for rent', 0);
+INSERT INTO `catads_options` VALUES (8, 3, 'for sale', 0);
+INSERT INTO `catads_options` VALUES (9, 3, 'buy', 0);
+INSERT INTO `catads_options` VALUES (10, 3, 'Exchange', 0);
+INSERT INTO `catads_options` VALUES (11, 3, 'Search', 0);
+INSERT INTO `catads_options` VALUES (12, 4, '30', 0);

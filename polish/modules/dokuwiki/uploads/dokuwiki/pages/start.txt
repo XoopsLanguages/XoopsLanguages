@@ -1,0 +1,24 @@
+====== DokuWiki for XOOPS ======
+===== DokuWiki =====
+
+[[wiki:DokuWiki]] jest zgodn± ze standadem prostym w u¿yciu klonem [[wp>Wiki]], zwykle pomagaj±cym w tworzeniu wszelkiego rodzaju dokumentacji. Jest przeznaczona zwykle dla grup programistów, grup roboczych i ma³y firm. Posiada prost± ale z bardzo du¿ymi mo¿liwo¶cimi [[wiki:sk³adnii]] co zapewnie czytelno¶æ plików poza Wiki i u³atwia tworzenie tekstów z wewnêtrzn± strutkur±. Wszystkie dane s± przechowywane w plikach tekstowych - nie wymaga, ¿adnej bazy danych.
+
+===== XOOPS =====
+
+XOOPS jest modularnym, OO (obiektowym), ³atwym w u¿yciu portalem napisanym w PHP. XOOPS jest idealnym narzêdziem dla ma³ych i du¿ych portali, blogów i wielu innych rzeczy. 
+
+[[xf>?|DokuWiki dla  XOOPS]] jest klonem DokuWiki dopasowanym do pracy z modu³ami systemowymi XOOPS, pomy¶lanym jako proste, elastyczne i bardzo mocarne narzêdzie do tworzenia dokumentacji dla u¿ytkownków XOOPS. Ten modu³ jest zgodny ze oryginaln± wersja DokuWiki z wyj±tkiem drobnych eksperymentów zwi±zanych z u¿yciem bazy danych.
+
+===== XOOPS bank wiedzy =====
+  * [[xf>wiki|DokuWiki dla XOOPS]] jest modu³em XOOPS bazuj±cym na DokuWiki, u¿ywaj±cym [[wiki:syntax|DokuWiki syntax]] i ''praw dostêpu do grup'' XOOPS
+  * [[xf>wiki|DokuWiki dla XOOPS]] u¿ywa obecnie zapisu w plikach tekstowych do zapisu danych. U¿ycie do bazy danych do zapisu informacji mo¿e byæ interesuj±ce dla u¿ytkowników XOOPS i dlatego chcemy zaimplementowaæ tê funkcjê.
+  * [[xf>xoops|Bank wiedzy XOOPS ]] jest pomy¶lany jako [[xf>wiki|DokuWiki dla XOOPS]] miejsce testów do dokumentacji dla u¿ytkowników XOOPS, obecnie w fazie rozwoju.
+
+====== Zastrze¿enie ======
+
+  * [[http://www.xoops.org|Projekt XOOPS ]]
+  * [[http://docs.xoops.org|Dokumentacja projektu XOOPS ]]
+  * [[http://dev.xoops.org|Ku¼nia modu³ów dla XOOPS ]]
+  * [[http://sourceforge.net/projects/xoops| Ku¼nia modu³ów systemowych dla XOOPS ]]
+  * Je¶li chcesz mo¿esz dostosowaæ powy¿sze informacje do swoich potrzeb tworz±c w³asne strony wiki.\\
+   --- //[[http://xoopsforge.com|D.J. (phppp)]] 2005/08/18 08:26 dap997 translater//

@@ -1,0 +1,54 @@
+Aby zainstalowaæ I-Stats wykonaj nastêpuj¹ce czynnoœci:
+
+1 - Po rozpakowaniu umieœæ katalog z modu³em na serwerze w katalogu /modules , zainstaluj go w tradycyjny sposób.
+
+2 - Dodaj w pliku *.css twojej skórki(theme) nastêpuj¹ce wartoœci:
+
+    .statstable { margin:0px; padding:0px; width:auto; font-size: small; font-weight: normal;}
+    .stats { vertical-align: bottom; width:625px; margin:0; border: 0;}
+    .statsimg { vertical-align: bottom; width:25px; text-align:center;}
+    .statsimgweekday { vertical-align: bottom; font-size: small; font-weight: normal;}
+    .statswords { border-width: 0; font-size: x-small; background-color: transparent; font-weight: normal; text-align:center; width:25px;}
+    .statsfore { width: 30%; padding:2px;}
+    .statsdiv { text-align:center; padding:0px;}
+
+Doda³em te wartoœci próbuj¹c zagwarantowaæ taki sam aspekt wizualny modu³u w wiêkszoœci skórek xoopsa oraz w tych przegl¹darkach (IE, opera, mozilla, konqueror and galeon). 
+Pewne niedoskona³oœci wystêpuj¹ z konqueror.
+
+3 - IdŸ do pliku theme.html swojej skórki i dodaj w czêœci Stopka nastêpuj¹cy kod:
+    Przyk³ad na podstawie skórki Default:
+
+	      <table width="100%" cellspacing="0">
+	    <tr id="footerbar">
+	      <td><a href="http://www.xoops.org/" target="_blank"><img src="<{$xoops_imageurl}>poweredby.gif" alt="" /></a>
+	        <{if $xoops_isadmin != 1}>
+	          <script type="text/Javascript">
+		  <!--
+		  istat = new Image(1,1);
+		  istat.src = "http://YOUR_XOOPS_SITE_URL/modules/istats/include/counter.php?sw="+screen.width+"&sc="+screen.colorDepth+"&refer="+escape(document.referrer)+"&page="+location.href;
+		  //-->
+		  </script>
+		<{/if}>
+	      </td>
+	    </tr>
+	      </table>
+	</body>
+	</html>
+
+Kod ten spowoduje ¿e modu³ zacznie liczyæ.
+Jeœli wyst¹pi¹ jakieœ problemy z rozpoczêciem liczenia zapraszam na forum http://123rando.com.
+Znajdziesz tam rozwi¹zanie problemu.
+
+
+
+4 - Jeœli masz zamiar zmieniæ opcjê "¿ywotnoœci cookie" ustaw atrybuty katalogu cache na 777 oraz pliku config.php na 666 (tych w katalogu modu³u oczywiœcie)
+
+
+Powinieneœ wiedzieæ ¿e przy rozdzielczoœci 1024x768 prawy blok nie bêdzie widoczny na podstronie I-Stats.
+Mo¿liwe równie¿ ¿e podobnie bêdzie na wy¿szych rozdzielczoœciach.
+Jeœli wprowadzi³eœ jakieœ poprawki(co nie wydaje siê trudne) nie fatyguj siê i nie wysy³aj mi nowych plików.
+
+
+Sylvain B webmaster http://123rando.com
+T³umaczenie v0.1 : Frano 
+B³êdy w t³umaczeniu zg³oœ na adres fran0@o2.pl
