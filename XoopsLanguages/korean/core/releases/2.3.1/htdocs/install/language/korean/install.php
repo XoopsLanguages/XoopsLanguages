@@ -131,13 +131,13 @@ define( "ERR_COULD_NOT_ACCESS", "지정된 디렉토리에 액세스할수가 없습니다. 디렉토
 define( "ERR_NO_XOOPS_FOUND", "지정된 디렉토리에서 XOOPS를 찾을 수가 없습니다." );
 define( "ERR_INVALID_EMAIL", "올바르지 않은 메일주소입니다." ); // L73
 define( "ERR_REQUIRED", "필요한 정보를 모두 입력해 주시기 바랍니다." ); // L41
-define( "ERR_PASSWORD_MATCH", "The two passwords do not match" );
+define( "ERR_PASSWORD_MATCH", "두 패스워드가 일치하지 않습니다." );
 define( "ERR_NEED_WRITE_ACCESS", "다음의 디렉토리들을 쓰기가능으로 설정해 주시기 바랍니다. (예: UNIX/LINUX 서버 'chmod 777 directory_name' , Windows서버 읽기전용해제)" ); // L72
 define( "ERR_NO_DATABASE", "데이타베이스의 작성에 실패하였습니다. 설정값이 올바른지 확인한 후 다시 처음부터 다시시도하시거나 관리자에게 해당사항을 문의해 보시기 바랍니다." ); // L31
 define( "ERR_NO_DBCONNECTION", "데이타베이스 서버에 접속하는데 실패하였습니다." ); // L106
 define( "ERR_WRITING_CONSTANT", "상수 %s 의 기록에 실패하였습니다." ); // L122
 
-define( "ERR_COPY_MAINFILE", "Could not copy the distribution file to mainfile.php" );
+define( "ERR_COPY_MAINFILE", "mainfile.php 파일의 작성에 실패하였습니다." );
 define( "ERR_WRITE_MAINFILE", "mainfile.php 파일에의 쓰기에 실패하였습니다. 파일권한설정이 올바른지 다시 확인해 주시기 바랍니다.");
 define( "ERR_READ_MAINFILE", "mainfile.php 파일을 읽을 수가 없습니다." );
 

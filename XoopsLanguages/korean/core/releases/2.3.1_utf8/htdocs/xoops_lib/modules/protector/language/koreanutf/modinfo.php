@@ -22,7 +22,7 @@ define($constpref."_ADMININDEX","Protect Center");
 define($constpref."_ADVISORY","Security Advisory");
 //define($constpref."_MYBLOCKSADMIN","블록&그룹 관리");
 define($constpref."_PREFIXMANAGER","Prefix 관리자");
-define($constpref.'_ADMENU_MYBLOCKSADMIN','Permissions') ;
+define($constpref.'_ADMENU_MYBLOCKSADMIN','액세스 권한') ;
 
 
 // Configs
@@ -33,15 +33,15 @@ define($constpref.'_RELIABLE_IPSDSC','Dos공격 감지 예외처리할 신용가
 define($constpref.'_LOG_LEVEL','로그 레벨');
 define($constpref.'_LOG_LEVELDSC','');
 
-define($constpref.'_BANIP_TIME0','Banned IP suspension time (sec)');
+define($constpref.'_BANIP_TIME0','기한부 IP거부의 기한(초)');
 
 define($constpref.'_LOGLEVEL0','로그출력않음');
 define($constpref.'_LOGLEVEL15','위험성이 높은 것만 로그');
-define($constpref.'_LOGLEVEL63','위험성이 낮은 것도 로그');
-define($constpref.'_LOGLEVEL255','모든 로그');
+define($constpref.'_LOGLEVEL63','위험성이 낮은 것은 로그하지 않음');
+define($constpref.'_LOGLEVEL255','모든 종류의 로그를 유효화');
 
-define($constpref.'_HIJACK_TOPBIT','Protected IP bits for the session');
-define($constpref.'_HIJACK_TOPBITDSC','Anti Session Hi-Jacking:<br />Default 32(bit). (All bits are protected)<br />When your IP is not stable, set the IP range by number of the bits.<br />(eg) If your IP can move in the range of 192.168.0.0-192.168.0.255, set 24(bit) here');
+define($constpref.'_HIJACK_TOPBIT','세션을 지속할 보호 비트(Protected IP bits)');
+define($constpref.'_HIJACK_TOPBITDSC','세션 가로채기공격 대응책:<br />기본적으로 32(bit)로 모든 비트를 보호합니다.<br />Proxy를 이용하실 경우와 같이 액세스마다 IP주소가 변경되는 경우엔 변경되지 않는 최장 비트수를 지정하시면 됩니다.<br />(예) 192.168.0.0 - 192.168.0.255 의 범위에서 변동될 가능성이 있으실 경우, 24(bit)로 지정하시면 됩니다.');
 define($constpref.'_HIJACK_DENYGP','세션내에서의 IP변동을 금지할 그룹');
 define($constpref.'_HIJACK_DENYGPDSC','세션 하이재킹 방지(Anti Session Hi-Jacking):<br />세션내에서의 IP변동(다른 IP로부터의 접속)을 금지할 그룹을 지정해주세요 <br />(관리자에 대해 ON으로 설정하실 것을 권합니다.)');
 define($constpref.'_SAN_NULLBYTE','null문자열을 스페이스로 변경(Sanitizing null-bytes)');
@@ -84,15 +84,15 @@ define($constpref.'_DOS_CRSAFEDSC','무조건적으로 crawl을 허가할 Agent�
 define($constpref.'_OPT_NONE','없음 (로그만 기록)');
 define($constpref.'_OPT_SAN','무해처리(Sanitizing)');
 define($constpref.'_OPT_EXIT','강제종료');
-define($constpref.'_OPT_BIP','금지IP등록');
-define($constpref.'_OPT_BIPTIME0','Ban the IP (moratorium)');
+define($constpref.'_OPT_BIP','금지IP등록(무기한)');
+define($constpref.'_OPT_BIPTIME0','금지IP등록(기한부)');
 
 define($constpref.'_DOSOPT_NONE','없음 (로그만 기록)');
 define($constpref.'_DOSOPT_SLEEP','Sleep(비추천)');
 define($constpref.'_DOSOPT_EXIT','exit');
-define($constpref.'_DOSOPT_BIP','금지 IP 리스트에 올림');
-define($constpref.'_DOSOPT_BIPTIME0','Ban the IP (moratorium)');
-define($constpref.'_DOSOPT_HTA','DENY by .htaccess(Experimental)');
+define($constpref.'_DOSOPT_BIP','금지IP 리스트에 올림(무기한)');
+define($constpref.'_DOSOPT_BIPTIME0','금지IP 리스트에 올림(기한부)');
+define($constpref.'_DOSOPT_HTA','.htaccess에 DENY등록(테스트단계기능)');
 
 define($constpref.'_BIP_EXCEPT','금지 IP 등록의 예외 그룹');
 define($constpref.'_BIP_EXCEPTDSC','여기에 지정한 회원으로부터의 접속은 금지 IP 등록조건을 만족하여도 금지리스트에 올리지 않습니다. 단 로그인하지 않으면 회원판단이 불가능하므로 의미가 없습니다.<br />(관리자의 ON 설정 권함)');
@@ -102,13 +102,13 @@ define($constpref.'_DISABLES','XOOPS의 불안/위험한 기능의 무효처리'
 define($constpref.'_PASSWD_BIP','비상용 패스워드');
 define($constpref.'_PASSWD_BIPDSC','만약 어떤 이유에서 관리자 자신이 금지IP처리되어진 경우 비상수단을 제공합니다.<br /> XOOPS_URL/modules/protector/admin/rescue.php 에 액세스한 후 여기에서 지정한 패스워드를 입력하시면 됩니다.<br />여기에 패스워드를 지정하지 않으면 비상수단 기능자체가 작동하지 않으므로 주의바랍니다.');
 */
-define($constpref.'_BIGUMBRELLA','enable anti-XSS (BigUmbrella)');
-define($constpref.'_BIGUMBRELLADSC','This protects you from almost attacks via XSS vulnerabilities. But it is not 100%');
+define($constpref.'_BIGUMBRELLA','anti-XSS (BigUmbrella) 유효화');
+define($constpref.'_BIGUMBRELLADSC','이 기능을 사용하시면 상당수의 XSS취약성을 무효화하실 수 있습니다. 물론 100% 방어는 못함!');
 
-define($constpref.'_SPAMURI4U','anti-SPAM: URLs for normal users');
-define($constpref.'_SPAMURI4UDSC','If this number of URLs are found in POST data from users other than admin, the POST is considered as SPAM. 0 means disabling this feature.');
-define($constpref.'_SPAMURI4G','anti-SPAM: URLs for guests');
-define($constpref.'_SPAMURI4GDSC','If this number of URLs are found in POST data from guests, the POST is considered as SPAM. 0 means disabling this feature.');
+define($constpref.'_SPAMURI4U','SPAM 대책: 일반사용자에게 허용할 URL수');
+define($constpref.'_SPAMURI4UDSC','관리자이외의 일반사용자의 투고내용에 지정한 수 이상의 URL이 포함되어져 있을 경우 이를 SPAM으로 간주합니다. 0 는 무제한가능을 의미!');
+define($constpref.'_SPAMURI4G','SPAM 대책: 손님에게 허용할 URL수');
+define($constpref.'_SPAMURI4GDSC','단순 방문객의 투고내용에 지정한 수 이상의 URL이 포함되어져 있을 경우 이를 SPAM으로 간주합니다. 0 는 무제한가능을 의미!');
 
 }
 
