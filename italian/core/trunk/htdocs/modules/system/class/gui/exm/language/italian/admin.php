@@ -1,10 +1,10 @@
 <?php
 // $Id$
 
-define('_AD_SYSOPTIONS','Opzioni di sistema');
-define('_AD_INSTALLEDMODULES','Moduli installati');
+define('_AD_SYSOPTIONS','Gestione del Sistema');
+define('_AD_INSTALLEDMODULES','Moduli Installati');
 
-define('_AD_XOOPSTHEMES','Temi di XOOPS');
-define('_AD_INTERESTSITES','Link');
+define('_AD_XOOPSTHEMES','Temi Xoops');
+define('_AD_INTERESTSITES','Link esterni');
 
 ?>

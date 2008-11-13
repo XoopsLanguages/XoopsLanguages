@@ -1,183 +1,187 @@
-﻿<?php
+<?php
+// -------------------------------------------------------------------------------- //
+// Updated by Ianez - Xoops Italia Staff
+// Original translation by Marco Ragogna (blueangel)
+// Published by Xoops Italian Official Support Site - www.xoopsitalia.org
+// -------------------------------------------------------------------------------- //
 // $Id: preferences.php 1970 2008-08-24 02:16:51Z phppp $
 //%%%%%%	Admin Module Name  AdminGroup 	%%%%%
 // dont change
 define("_AM_DBUPDATED",_MD_AM_DBUPDATED);
 
-define("_MD_AM_SITEPREF", "Preferenze");
-define("_MD_AM_SITENAME", "Nome del sito");
-define("_MD_AM_SLOGAN", "Slogan del sito");
-define("_MD_AM_ADMINML", "Indirizzo mail dell'amministratore");
-define("_MD_AM_LANGUAGE", "Lingua di default");
-define("_MD_AM_STARTPAGE", "Modulo per l'home page");
-define("_MD_AM_NONE", "Nessuno");
-define("_MD_AM_SERVERTZ", "Timezone del server");
-define("_MD_AM_DEFAULTTZ", "Default timezone");
-define("_MD_AM_DTHEME", "Tema di default");
-define("_MD_AM_THEMESET", "Theme Set");
-define("_MD_AM_ANONNAME", "Username per gli utenti anonimi");
-define("_MD_AM_MINPASS", "Lunghezza minima per la password");
-define("_MD_AM_NEWUNOTIFY", "Notifica via mail quando si registra un nuovo utente?");
-define("_MD_AM_SELFDELETE", "Permetti agli utenti di cancellare il loro account?");
-define("_MD_AM_LOADINGIMG", "Visualizza immagine di caricamento?");
-define("_MD_AM_USEGZIP", "Usa la compressione gzip?");
-define("_MD_AM_UNAMELVL", "Seleziona il grado di restrizione per gli username");
-define("_MD_AM_STRICT", "Strict (solo lettere e numeri)");
-define("_MD_AM_MEDIUM", "Medium");
-define("_MD_AM_LIGHT", "Light (raccomandato per i caratteri Multi-byte)");
-define("_MD_AM_USERCOOKIE", "Nome per i cookie dell'utente.");
-define("_MD_AM_USERCOOKIEDSC", "Se il nome per i cookie è abilitato, 'Ricordami' viene abilitato per il login. Se un utente ha selezionato 'Ricordami' il login avviene in modo automatico. Il cookie scade dopo un anno.");
-define("_MD_AM_USEMYSESS", "Usa sessioni personalizzate");
-define("_MD_AM_USEMYSESSDSC", "Seleziona si per personalizzare i valori relativi alle sessioni.");
-define("_MD_AM_SESSNAME", "Nome della sessione");
-define("_MD_AM_SESSNAMEDSC", "Nome della sezione (Valido solo se è attivo 'usa sessioni personalizate')");
-define("_MD_AM_SESSEXPIRE", "Durata sessione");
-define("_MD_AM_SESSEXPIREDSC", "Durata massima della sessione in minuti(Valido solo se è attivo 'usa sessioni personalizate. Funziona solo con PHP4.2.0 o superiore.)");
-define("_MD_AM_BANNERS", "Attiva il circuito banner?");
-define("_MD_AM_MYIP", "Il tuo indirizzo IP");
-define("_MD_AM_MYIPDSC", "Questo IP non viene conteggiato nella visualizzazione dei banner");
-define("_MD_AM_ALWDHTML", "HTML tags abilitati nei post.");
-define("_MD_AM_INVLDMINPASS", "Valore non valido per la lunghezza minima della password.");
-define("_MD_AM_INVLDUCOOK", "Valore non valido per il nome del cookie dell'utente.");
-define("_MD_AM_INVLDSCOOK", "Valore non valido per il nome del cookie della sessione.");
-define("_MD_AM_INVLDSEXP", "Valore non valido per il tempo di durata della sessione.");
-define("_MD_AM_ADMNOTSET", "La mail dell'amministratore non è stata inserita.");
-define("_MD_AM_YES", "Si");
-define("_MD_AM_NO", "No");
-define("_MD_AM_DONTCHNG", "Non cambiare!");
-define("_MD_AM_REMEMBER", "Ricorda di chmod 666 per permettere al sistema di scriverlo correttamente.");
-define("_MD_AM_IFUCANT", "Se non cambi i permessi devi modificare questo file a mano.");
+define('_MD_AM_SITEPREF','Preferenze');
+define('_MD_AM_SITENAME','Nome del sito');
+define('_MD_AM_SLOGAN','Slogan del sito');
+define('_MD_AM_ADMINML','Indirizzo email dell\'amministratore');
+define('_MD_AM_LANGUAGE','Lingua principale');
+define('_MD_AM_STARTPAGE','Modulo di default per la pagina iniziale ');
+define('_MD_AM_NONE','Nessuno');
+define('_MD_AM_SERVERTZ','Fuso orario del server');
+define('_MD_AM_DEFAULTTZ','Fuso orario di default');
+define('_MD_AM_DTHEME','Tema di default');
+define('_MD_AM_THEMESET','Set Tema');
+define('_MD_AM_ANONNAME','Nick per gli utenti anonimi');
+define('_MD_AM_MINPASS','Lunghezza minima della password');
+define('_MD_AM_NEWUNOTIFY','Si desidera ricevere un avviso via email quando un nuovo utente si registra?');
+define('_MD_AM_SELFDELETE','Consentire agli utenti di eliminare il loro account?');
+define('_MD_AM_LOADINGIMG','Mostrare l\'immagine di caricamento...?');
+define('_MD_AM_USEGZIP','Utilizzare la compressione gzip?');
+define('_MD_AM_UNAMELVL','Selezionare il livello di restrizione per i nomi scelti dagli utenti');
+define('_MD_AM_STRICT','Stretto (solo lettere e numeri)');
+define('_MD_AM_MEDIUM','Medio');
+define('_MD_AM_LIGHT','Leggero (raccomandato per lingue multi-byte)');
+define('_MD_AM_USERCOOKIE','Nome del cookie utente');
+define("_MD_AM_USERCOOKIEDSC", "Se viene impostato un valore verr&agrave; visualizzata l'opzione 'Ricordami' per il login dell'utente. Se un utente seleziona tale opzione il suo login avverr&agrave; in automatico.<br />Il cookie ha la durata di un anno.");
+define('_MD_AM_USEMYSESS','Utilizzare sessioni personalizzate');
+define('_MD_AM_USEMYSESSDSC','Selezionare \'S&igrave;\' per personalizzare i valori della sessione.');
+define('_MD_AM_SESSNAME','Nome sessione');
+define('_MD_AM_SESSNAMEDSC','Il nome personalizzato della sessione. <br />(Valido solo se \'Utilizza sessioni personalizzate\' &egrave; attivo)');
+define('_MD_AM_SESSEXPIRE','Durata della sessione');
+define('_MD_AM_SESSEXPIREDSC','Durata massima della sessione in minuti.<br />(Valido solo se \'Utilizza sessioni personalizzate\' &egrave; attivo). Funziona solo se si utilizza PHP 4.2.0 o successive.)');
+define('_MD_AM_BANNERS','Attivare rotazione banner?');
+define('_MD_AM_MYIP','Il tuo indirizzo IP');
+define('_MD_AM_MYIPDSC','Questo IP non verr&agrave; conteggiato per i click dei banner');
+define('_MD_AM_ALWDHTML','Tag HTML consentiti in tutti i messaggi.');
+define('_MD_AM_INVLDMINPASS','Valore per la lunghezza minima della password non valido.');
+define('_MD_AM_INVLDUCOOK','Valore del cookie utente non valido.');
+define('_MD_AM_INVLDSCOOK','Valore per il cookie di sessione non valido.');
+define('_MD_AM_INVLDSEXP','Valore di durata della sessioni non valido.');
+define('_MD_AM_ADMNOTSET','L\'email dell\'amministratore non &egrave; stata impostata.');
+define('_MD_AM_YES','S&igrave;');
+define('_MD_AM_NO','No');
+define('_MD_AM_DONTCHNG','Non modificare!');
+define('_MD_AM_REMEMBER','Ricordare di impostare a CHMOD 666 (scrittura/lettura) questo file per consentire al sistema di modificarlo.');
+define('_MD_AM_IFUCANT','Se non puoi modificare i permessi del file, modifica il file a mano e poi ricaricalo sul server.');
 
+define('_MD_AM_COMMODE','Modalit&agrave; di visualizzazione dei commenti');
+define('_MD_AM_COMORDER','Ordine di visualizzazione dei commenti');
+define('_MD_AM_ALLOWHTML','Consentire i tag HTML nei commenti degli utenti?');
+define('_MD_AM_DEBUGMODE','Modalit&agrave; di debug');
+define('_MD_AM_DEBUGMODEDSC','Vi sono varie opzioni di visualizzazione, ma un sito in produzione non dovrebbe avere nessuna di queste abilitate.');
+define('_MD_AM_AVATARALLOW','Consentire il caricamento sul server di avatar personali?');
+define('_MD_AM_AVATARMP','Numero minimo di messaggi necessari');
+define('_MD_AM_AVATARMPDSC','Inserire il numero minimo di messaggi necessari per consentire a un utente di caricare un avatar personalizzato sul server.');
+define('_MD_AM_AVATARW','Larghezza massima dell\'avatar (pixel)');
+define('_MD_AM_AVATARH','Altezza massima dell\'avatar (pixel)');
+define('_MD_AM_AVATARMAX','Dimensione massima del file (byte)');
+define('_MD_AM_AVATARCONF','Impostazioni personalizzate dell\'avatar');
+define('_MD_AM_CHNGUTHEME','Modificare tutti i temi impostati dagli utenti');
+define('_MD_AM_NOTIFYTO','Selezionare il gruppo al quale inviare un avviso quando si registra un nuovo utente');
+define('_MD_AM_ALLOWTHEME','Consentire agli utenti di scegliere il tema preferito?');
+define('_MD_AM_ALLOWIMAGE','Consentire agli utenti di inserire immagini nei messaggi?');
 
-define("_MD_AM_COMMODE", "Modo di visualizzazione di default per i commenti");
-define("_MD_AM_COMORDER", "Ordine di visualizzazione di default per i commenti");
-define("_MD_AM_ALLOWHTML", "Abilita i tag HTML nei commenti?");
-define("_MD_AM_DEBUGMODE", "Modo di Debug");
-define("_MD_AM_DEBUGMODEDSC", "Diverse opzioni di debug. Un sito web in produzione dovrebbe avere questo funzione disabilitata.");
-define("_MD_AM_AVATARALLOW", "Abilita l'invio di avatar personalizzati?");
-define("_MD_AM_AVATARMP", "Numero minimo di post richiesti");
-define("_MD_AM_AVATARMPDSC", "Inserisci il numero minimo di post richiesti per poter caricare un avatar personalizzato");
-define("_MD_AM_AVATARW", "Larghezza massima per l'avatar(pixel)");
-define("_MD_AM_AVATARH", "Altezza massima per l'avatar (pixel)");
-define("_MD_AM_AVATARMAX", "Dimensione massima per l'avatar (byte)");
-define("_MD_AM_AVATARCONF", "Impostazionni per Avatar personalizzato");
-define("_MD_AM_CHNGUTHEME", "Change all users' theme");
-define("_MD_AM_NOTIFYTO", "Seleziona il gruppo al quale verrà inviato un messaggio per ogni nuovo utente registrato");
-define("_MD_AM_ALLOWTHEME", "Permetti agli utenti di scegliere un tema?");
-define("_MD_AM_ALLOWIMAGE", "Permetti agli utenti di visualizzare le immagini nei post?");
+define('_MD_AM_USERACTV','Richiedere l\'attivazione da parte dell\'utente (raccomandato)');
+define('_MD_AM_AUTOACTV','Attivare in automatico');
+define('_MD_AM_ADMINACTV','Attivazione effettuata dagli amministratori');
+define('_MD_AM_ACTVTYPE','Selezionare la modalit&agrave; di attivazione per i nuovi utenti');
+define('_MD_AM_ACTVGROUP','Selezionare il gruppo al quale inviare l\'email di attivazione');
+define('_MD_AM_ACTVGROUPDSC','Valido solo quando si seleziona \'Attivazione effettuata dagli amministratori\'.');
+define('_MD_AM_USESSL', 'Utilizzare il metodo SSL per il login?');
+define('_MD_AM_SSLPOST', 'Nome variabile SSL');
+define('_MD_AM_SSLPOSTDSC', 'Il nome della variabile usata per trasferire valori di sessione con il metodo POST. Se non sei sicuro, scegli un qualsiasi valore che sia difficile da indovinare.');
+define('_MD_AM_DEBUGMODE0','Nessun debug');
+define('_MD_AM_DEBUGMODE1','Debug (fondo pagina)');
+define('_MD_AM_DEBUGMODE2','Debug (finestra popup)');
+define('_MD_AM_DEBUGMODE3','Debug Smarty del template (finestra popup)');
+define('_MD_AM_MINUNAME', 'Lunghezza minima del nome utente');
+define('_MD_AM_MAXUNAME', 'Lunghezza massima del nome utente');
+define('_MD_AM_GENERAL', 'Impostazioni Generali');
+define('_MD_AM_USERSETTINGS', 'Opzioni registrazione  utente e avatar');
+define('_MD_AM_ALLWCHGMAIL', 'Consentire agli utenti di cambiare il loro indirizzo email?');
+define('_MD_AM_ALLWCHGMAILDSC', '');
+define('_MD_AM_IPBAN', 'IP Bloccati');
+define('_MD_AM_BADEMAILS', 'Elencare gli indirizzi email che non possono essere utilizzati in un profilo utente.');
+define('_MD_AM_BADEMAILSDSC', 'Separare ciascun indirizzo con <strong>|</strong>, case insensitive, regex abilitata.');
+define('_MD_AM_BADUNAMES', 'Elencare i termini che non possono essere scelti come nome utente');
+define('_MD_AM_BADUNAMESDSC', 'Separare ciascun nome con <strong>|</strong>, case insensitive, regex abilitata.');
+define('_MD_AM_DOBADIPS', 'Abilitare il blocco (ban) degli indirizzi IP?');
+define('_MD_AM_DOBADIPSDSC', 'Gli utenti con l\'indirizzo IP specificato non riusciranno ad accedere al sito.');
+define('_MD_AM_BADIPS', 'Inserire gli indirizzi IP da bloccare.<br />Separare ciascun valore con <strong>|</strong>, case insensitive, regex abilitata.');
+define('_MD_AM_BADIPSDSC', '^aaa.bbb.ccc non consentir&agrave; l\'accesso ai visitatori con indirizzo IP che inizia con aaa.bbb.ccc<br />aaa.bbb.ccc$ non consentir&agrave; l\'accesso ai visitatori con indirizzo IP che finisce con aaa.bbb.ccc<br />aaa.bbb.ccc non consentir&agrave; l\'accesso ai visitatori con indirizzo IP che contiene aaa.bbb.ccc');
+define('_MD_AM_PREFMAIN', 'Preferenze');
+define('_MD_AM_METAKEY', 'Parole chiave (keywords)');
+define('_MD_AM_METAKEYDSC', 'Le parole chiave sono termini (metatag) che sintetizzano i contenuti offerti dal tuo sito. Inserisci ogni parola separandola con una virgola o uno spazio. (Es. XOOPS,PHP,mySQL,portale italiano).');
+define('_MD_AM_METARATING', 'Meta Rating');
+define('_MD_AM_METARATINGDSC', 'Il metatag \'rating\' definisce il target d\'et&agrave; del tuo sito e dei suoi contenuti.');
+define('_MD_AM_METAOGEN', 'Generale');
+define('_MD_AM_METAO14YRS', 'Maggiori di 14 anni');
+define('_MD_AM_METAOREST', 'Ristretto');
+define('_MD_AM_METAOMAT', 'Adulti');
+define('_MD_AM_METAROBOTS', 'Meta Robots');
+define('_MD_AM_METAROBOTSDSC', 'Il metatag \'robots\' suggerisce ai motori di ricerca il comportamento del loro \'spider\' rispetto alle pagine del sito.');
+define('_MD_AM_INDEXFOLLOW', 'Index, Follow (Archivia la pagina e ne segue i link)');
+define('_MD_AM_NOINDEXFOLLOW', 'NoIndex, Follow (Non archivia la pagina ma ne segue i link)');
+define('_MD_AM_INDEXNOFOLLOW', 'Index, NoFollow (Archivia la pagina ma non ne fa seguire i link)');
+define('_MD_AM_NOINDEXNOFOLLOW', 'NoIndex, NoFollow (Non archivia la pagina e non ne fa seguire i link)');
+define('_MD_AM_METAAUTHOR', 'Meta Author');
+define('_MD_AM_METAAUTHORDSC', 'Il metatag \'author\' definisce l\'autore del documento che si sta leggendo. Il valore pu&ograve; essere: il nome, l\'indirizzo email del webmaster, il nome dell\'azienda o l\'URL.');
+define('_MD_AM_METACOPYR', 'Meta Copyright');
+define('_MD_AM_METACOPYRDSC', 'Il metatag \'copyright\' definisce qualsiasi dichiarazione si voglia divulgare circa i diritti di propriet&agrave; del materiale pubblicato nel sito.');
+define('_MD_AM_METADESC', 'Meta Description');
+define('_MD_AM_METADESCDSC', 'Il metatag \'description\' &egrave; una breve sintesi del contenuto e degli argomenti del sito');
+define('_MD_AM_METAFOOTER', 'Metatag e Pi&egrave; di pagina');
+define('_MD_AM_FOOTER', 'Pi&egrave; di pagina');
+define('_MD_AM_FOOTERDSC', 'Inserire eventuali link iniziando da http://, altrimenti il collegamento non funzioner&agrave; correttamente nella pagine dei moduli.');
+define('_MD_AM_CENSOR', 'Impostazioni di Censura delle parole');
+define('_MD_AM_DOCENSOR', 'Abilitare la censura di parole indesiderate?');
+define('_MD_AM_DOCENSORDSC', 'Se questa opzione viene abilitata i termini inseriti saranno censurati. Quest\'opzione pu&ograve; essere disabilitata per aumentare la velocit&agrave; del sito.');
+define('_MD_AM_CENSORWRD', 'Parole da censurare');
+define('_MD_AM_CENSORWRDDSC', 'Inserire le parole che dovrebbero essere censurate nei messaggi degli utenti.<br />Separare ogni termine con <strong>|</strong>, case insensitive.');
+define('_MD_AM_CENSORRPLC', 'Caratteri sostitutivi delle parole censurate');
+define('_MD_AM_CENSORRPLCDSC', 'Le parole censurate saranno sostituite con i caratteri contenuti in questa casella');
 
-define("_MD_AM_USERACTV", "Richiedi attivazione da parte dell'utente (raccomandato)");
-define("_MD_AM_AUTOACTV", "Attiva automaticamente");
-define("_MD_AM_ADMINACTV", "Attivazione dagli amministratori");
-define("_MD_AM_ACTVTYPE", "Seleziona il tipo di attivazione per i nuovo utenti registrati");
-define("_MD_AM_ACTVGROUP", "Seleziona il gruppo al quale sarà inviata la mail di attivazione");
-define("_MD_AM_ACTVGROUPDSC", "Valido solo quando 'Attivazione dagli amministratori' è selezionato");
-define("_MD_AM_USESSL", "Usa SLL per il login?");
-define("_MD_AM_SSLPOST", "SSL POST Nome variabile");
-define("_MD_AM_SSLPOSTDSC", "Il nome della variabile viene usato per trasmettere i dati della sessione via POST. Se non sei sicuro metti una parola difficile da individuare.");
-define("_MD_AM_DEBUGMODE0", "Off");
-define("_MD_AM_DEBUGMODE1", "Abilita debug (inline)");
-define("_MD_AM_DEBUGMODE2", "Abilita debug (popup mode)");
-define("_MD_AM_DEBUGMODE3", "Smarty Templates Debug");
-define("_MD_AM_MINUNAME", "Lunghezza minima per il nome utente");
-define("_MD_AM_MAXUNAME", "Lunghezza massima per il nome utente");
-define("_MD_AM_GENERAL", "Impostazioni genereali");
-define("_MD_AM_USERSETTINGS", "Impostazioni utente");
-define("_MD_AM_ALLWCHGMAIL", "Permetti agli utenti di cambiare l'indirizzo mail?");
-define("_MD_AM_ALLWCHGMAILDSC", "");
-define("_MD_AM_IPBAN", "IP Banning");
-define("_MD_AM_BADEMAILS", "Insirisci gli indirizzi email che non posso essere usati nei profili utente");
-define("_MD_AM_BADEMAILSDSC", "Separa ciascun indirizzo con <strong>|</strong>, case insensitive, regex abilitate.");
-define("_MD_AM_BADUNAMES", "Inserisci i nomi che non possono essere usati per la registrazione di nuovi profili");
-define("_MD_AM_BADUNAMESDSC", "Separa ciascun indirizzo con <strong>|</strong>, case insensitive, regex abilitate.");
-define("_MD_AM_DOBADIPS", "Abilita il Ban degli IP?");
-define("_MD_AM_DOBADIPSDSC", "GLi utenti con uno specifico indirizzo IP non possono vedere il tuo sito");
-define("_MD_AM_BADIPS", "Inserisci gli indirizzi IP ai quali non è permesso l'accesso al sito.<br />Separa ciascun indirizzo con <strong>|</strong>, case insensitive, regex abilitate.");
-define("_MD_AM_BADIPSDSC", "^aaa.bbb.ccc verranno disabilitati gli utenti che hanno un indirizzo IP che inizia con aaa.bbb.ccc<br />aaa.bbb.ccc$ verranno disabilitati gli utenti che hanno un indirizzo IP che finisce con aaa.bbb.ccc<br />aaa.bbb.ccc verranno disabilitati gli utenti che hanno un indirizzo IP che contiene aaa.bbb.ccc");
-define("_MD_AM_PREFMAIN", "Preferenze");
-define("_MD_AM_METAKEY", "Meta Keywords");
-define("_MD_AM_METAKEYDSC", "Le keywords meta tag sono una serie di parole che rappresentano il contenuto del tuo sito. Scrivi qui le tue parole chiave separate da una virgola o da uno spazio bianco. (Ex. XOOPS, PHP, mySQL, portal system)");
-define("_MD_AM_METARATING", "Meta Rating");
-define("_MD_AM_METARATINGDSC", "Il tag Meta Rating definisce il contenuto del tuo sito e il target di età a cui è rivolto");
-define("_MD_AM_METAOGEN", "Generale");
-define("_MD_AM_METAO14YRS", "14 anni");
-define("_MD_AM_METAOREST", "Ristretto");
-define("_MD_AM_METAOMAT", "Adulti");
-define("_MD_AM_METAROBOTS", "Meta Robots");
-define("_MD_AM_METAROBOTSDSC", "Il Tag Meta Robots indica quali contenuti indicizzare e a quali motori di ricerca è permesso farlo");
-define("_MD_AM_INDEXFOLLOW", "Index, segui");
-define("_MD_AM_NOINDEXFOLLOW", "No Index, segui");
-define("_MD_AM_INDEXNOFOLLOW", "Index, Non seguire");
-define("_MD_AM_NOINDEXNOFOLLOW", "No Index, Non seguire");
-define("_MD_AM_METAAUTHOR", "Meta Author");
-define("_MD_AM_METAAUTHORDSC", "Il Tag Meta Author indica l'autore del contenuto del sito. Sono supportati nomi, indirizzi mail, inidirizzo del webmaster e URL.");
-define("_MD_AM_METACOPYR", "Meta Copyright");
-define("_MD_AM_METACOPYRDSC", "Il Tag Meta Copyright definisce i termini di copyright per i contenuti del tuo sito.");
-define("_MD_AM_METADESC", "Meta Description");
-define("_MD_AM_METADESCDSC", "Il Tag Meta Description indica in generale i contenuti del tuo sito");
-define("_MD_AM_METAFOOTER", "Meta Tags e Footer");
-define("_MD_AM_FOOTER", "Footer");
-define("_MD_AM_FOOTERDSC", "Assicurati di inserire i link in modo assouluto, completi cioè di http://, altrimenti i link non funzioneranno correttamente quando ci si trova all'interno di un modulo.");
-define("_MD_AM_CENSOR", "Opzioni di censura delle parole");
-define("_MD_AM_DOCENSOR", "Abilita la censura delle parole non desiderate?");
-define("_MD_AM_DOCENSORDSC", "Le parole saranno censurate se questa opzione sarà attivata. Questa funzione può essere disabilitata per aumentare la velocità del sito.");
-define("_MD_AM_CENSORWRD", "Parole da censurare");
-define("_MD_AM_CENSORWRDDSC", "Inserisci le parole che devono essere censurate.<br />Separa ogni parola con <strong>|</strong>, case insensitive.");
-define("_MD_AM_CENSORRPLC", "Le parole censurate saranno sostituite da:");
-define("_MD_AM_CENSORRPLCDSC", "Le parole censurate saranno censurate con il testo inserito in questo box");
-
-define("_MD_AM_SEARCH", "Opzioni di ricerca");
-define("_MD_AM_DOSEARCH", "Abilita la ricerca globale?");
-define("_MD_AM_DOSEARCHDSC", "Abilita la ricerca tra gli elementi del tuo sito.");
-define("_MD_AM_MINSEARCH", "Lunghezza minima del testo da cercare");
-define("_MD_AM_MINSEARCHDSC", "Inserisci la lunghezza minima delle parole chiave che gli utenti sono tenuti a inserire per eseguire la ricerca");
-define("_MD_AM_MODCONFIG", "Opzioni di configurazione dei moduli");
-define("_MD_AM_DSPDSCLMR", "Visualizza disclaimer?");
-define("_MD_AM_DSPDSCLMRDSC", "Seleziona si per visualizzare il disclaimer nella pagina di registrazione");
-define("_MD_AM_REGDSCLMR", "Disclaimer per la registrazione");
-define("_MD_AM_REGDSCLMRDSC", "Inserisci il testo per il Disclaimer durante la fase di registrazione");
-define("_MD_AM_ALLOWREG", "Permetti nuove registrazioni?");
-define("_MD_AM_ALLOWREGDSC", "Seleziona si per permettere nuove registrazioni da parte degli utenti");
-define("_MD_AM_THEMEFILE", "Controlla i template per le modifiche?");
-define("_MD_AM_THEMEFILEDSC", "Se questa opzione è attiva, i template modificati saranno automaticamente ricompilati ad ogni visualizzazione. Questa opzione deve essere impstata a Off per un sito in produzione.");
-define("_MD_AM_CLOSESITE", "Vuoi chiudere il sito?");
-define("_MD_AM_CLOSESITEDSC", "Seleziona si per chiudere il sito, solo i gruppi selezionati avranno accesso al sito. ");
-define("_MD_AM_CLOSESITEOK", "Seleziona i gruppi che possono accedere al sito quando è chiuso.");
-define("_MD_AM_CLOSESITEOKDSC", "Gli utenti del gruppo Webmaster sono sempre abilitati all'accesso.");
-define("_MD_AM_CLOSESITETXT", "Motivo per cui il sito è chiuso");
-define("_MD_AM_CLOSESITETXTDSC", "Questo testo viene visualizzato quando il sito è chiuso.");
-define("_MD_AM_SITECACHE", "Cache del sito");
-define("_MD_AM_SITECACHEDSC", "Mette in cache i contenuti per un tempo stabilito per aumentare le performance del sito. Questa impostazione sovrascrive le singole cache impostate per i moduli e per i blocchi.");
-define("_MD_AM_MODCACHE", "Cache dei moduli");
-define("_MD_AM_MODCACHEDSC", "Mette in cache i contenuti dei moduli per un tempo stabilito per aumentare le performance del sito. Questa impostazione sovrascrive le singole cache impostate per i moduli.");
-define("_MD_AM_NOMODULE", "Non è presente nessun modulo per il quale attivare la cache.");
-define("_MD_AM_DTPLSET", "Template set di default");
-define("_MD_AM_SSLLINK", "URL della pagina SSL per il login");
+define('_MD_AM_SEARCH', 'Impostazioni della Ricerca');
+define('_MD_AM_DOSEARCH', 'Abilitare ricerche globali?');
+define('_MD_AM_DOSEARCHDSC', 'Consentire di cercare messaggi\elementi all\'interno del sito.');
+define('_MD_AM_MINSEARCH', 'Lunghezza minima delle parole chiave');
+define('_MD_AM_MINSEARCHDSC', 'Numero minimo di caratteri che l\'utente deve inserire per effettuare una ricerca.');
+define('_MD_AM_MODCONFIG', 'Opzioni di configurazione dei moduli');
+define('_MD_AM_DSPDSCLMR', 'Mostrare le condizioni d\'uso?');
+define('_MD_AM_DSPDSCLMRDSC', 'Selezionare \'S&igrave;\' per mostrare le condizioni d\'uso nel modulo di registrazione utente');
+define('_MD_AM_REGDSCLMR', 'Condizioni d\'uso per la registrazione');
+define('_MD_AM_REGDSCLMRDSC', 'Inserire un testo che descriva i termini e le condizioni d\'uso per la registrazione e l\'accesso al sito');
+define('_MD_AM_ALLOWREG', 'Consentire la registrazione di nuovi utenti?');
+define('_MD_AM_ALLOWREGDSC', 'Selezionare \'S&igrave;\' per consentire l\'iscrizione di nuovi utenti al sito');
+define('_MD_AM_THEMEFILE', 'Permettere e visualizzare le modifiche a temi e templates?');
+define('_MD_AM_THEMEFILEDSC', 'Se questa opzione &egrave; abilitata il tema e/o i templates modificati saranno ricompilati in automatico ad ogni aggiornamento della pagina visualizzando eventuali modifiche.<br />Sconsigliato su siti in produzione.');
+define('_MD_AM_CLOSESITE', 'Chiudere il sito?');
+define('_MD_AM_CLOSESITEDSC', 'Selezionare \'S&igrave;\' per chiudere il sito e permettere l\'accesso solo gli utenti appartenenti ai gruppi selezionati');
+define('_MD_AM_CLOSESITEOK', 'Selezionare i gruppi a cui &egrave; consentito l\'accesso quando il sito &egrave; chiuso');
+define('_MD_AM_CLOSESITEOKDSC', 'Gli utenti del gruppo Webmaster hanno sempre accesso al sito');
+define('_MD_AM_CLOSESITETXT', 'Ragioni della chiusura del sito');
+define('_MD_AM_CLOSESITETXTDSC', 'Il testo da visualizzare quando il sito &egrave; chiuso. <br />E\' possibile utilizzare codice html.');
+define('_MD_AM_SITECACHE', 'Tempo di cache generale del sito');
+define('_MD_AM_SITECACHEDSC', 'Saranno archiviati nella cache tutti i contenuti del sito per il tempo specificato, allo scopo di aumentare le prestazioni. Questo valore sostituisce la durata della cache di moduli, blocchi e altri elementi per cui &egrave; impostato un tempo cache.');
+define('_MD_AM_MODCACHE', 'Tempo di cache dei singoli moduli');
+define('_MD_AM_MODCACHEDSC', 'Saranno archiviati nella cache tutti i contenuti di un modulo per il tempo specificato, allo scopo di aumentare le prestazioni. Questo valore sostituisce la durata della cache in quegli elementi dei moduli per cui &egrave; impostato un tempo cache.');
+define('_MD_AM_NOMODULE', 'Non esistono moduli per cui impostare la cache.');
+define('_MD_AM_DTPLSET', 'Template set di default');
+define('_MD_AM_SSLLINK', 'Indirizzo della pagina di login in SSL');
 
 // added for mailer
-define("_MD_AM_MAILER", "Impostazione Mail");
-define("_MD_AM_MAILER_MAIL", "");
-define("_MD_AM_MAILER_SENDMAIL", "");
-define("_MD_AM_MAILER_", "");
-define("_MD_AM_MAILFROM", "Dall'indirizzo");
-define("_MD_AM_MAILFROMDESC", "");
-define("_MD_AM_MAILFROMNAME", "Dal nome");
-define("_MD_AM_MAILFROMNAMEDESC", "");
+define('_MD_AM_MAILER','Impostazioni invio Email');
+define('_MD_AM_MAILER_MAIL','');
+define('_MD_AM_MAILER_SENDMAIL','');
+define('_MD_AM_MAILER_','');
+define('_MD_AM_MAILFROM','Dall\'indirizzo email');
+define('_MD_AM_MAILFROMDESC','Se lasciato vuoto comparir&agrave; l\'indirizzo dell\'amministratore');
+define('_MD_AM_MAILFROMNAME','DA (nome mittente)');
+define('_MD_AM_MAILFROMNAMEDESC','');
 // RMV-NOTIFY
-define("_MD_AM_MAILFROMUID", "Dall' utente");
-define("_MD_AM_MAILFROMUIDDESC", "Quando il sistema invia un Messaggio Privato, quale nome utente deve comparire come mittente?");
-define("_MD_AM_MAILERMETHOD", "Metodo di consegna mail");
-define("_MD_AM_MAILERMETHODDESC", "Metodo usato per la consegna delle mail. Di default è \"mail\", usane altri solo se sei sicuro.");
-define("_MD_AM_SMTPHOST", "SMTP host(s)");
-define("_MD_AM_SMTPHOSTDESC", "Lista dei server SMTP con i quali tentare la connessione.");
-define("_MD_AM_SMTPUSER", "SMTPAuth username");
-define("_MD_AM_SMTPUSERDESC", "Nome utente per la connessione all'host SMTP con SMTPAuth.");
-define("_MD_AM_SMTPPASS", "SMTPAuth password");
-define("_MD_AM_SMTPPASSDESC", "Password per la connessione all'host SMTP con SMTPAuth.");
-define("_MD_AM_SENDMAILPATH", "Percorso per sendmail");
-define("_MD_AM_SENDMAILPATHDESC", "Percorso per il programma Sendmail (o alternativo) sul webserver.");
-define("_MD_AM_THEMEOK", "Temi selezionabili");
-define("_MD_AM_THEMEOKDSC", "Seleziona quali temi possono scegliere gli utenti come tema di default");
+define('_MD_AM_MAILFROMUID','DA (nome utente)');
+define('_MD_AM_MAILFROMUIDDESC','L\'utente che compare come mittente quando il sistema invia un messaggio privato');
+define('_MD_AM_MAILERMETHOD','Metodo di spedizione delle mail');
+define('_MD_AM_MAILERMETHODDESC','Metodo utilizzato per spedire le mail. L\'impostazione di default &egrave; \'PHP mail()\', utilizzane un\'altra solo se questa crea problemi');
+define('_MD_AM_SMTPHOST','Host SMTP');
+define('_MD_AM_SMTPHOSTDESC','Elenco dei server SMTP cui tentare di connettersi.');
+define('_MD_AM_SMTPUSER','Nome utente SMTPAuth');
+define('_MD_AM_SMTPUSERDESC','Nome utente per la connessione a un host SMTP con SMTPAuth.');
+define('_MD_AM_SMTPPASS','Password SMTPAuth');
+define('_MD_AM_SMTPPASSDESC','Password per la connessione a un host SMTP con SMTPAuth.');
+define('_MD_AM_SENDMAILPATH','Percorso di sendmail');
+define('_MD_AM_SENDMAILPATHDESC','Percorso del programma sendmail (o sostituto) sul server web.');
+define('_MD_AM_THEMEOK','Temi selezionabili');
+define('_MD_AM_THEMEOKDSC','I temi che gli utenti possono attivare se viene visualizzato il blocco temi.');
 
 
 // Xoops Authentication constants
@@ -186,7 +190,7 @@ define('_MD_AM_AUTH_CONFOPTION_LDAP', 'Standard Directory LDAP');
 define('_MD_AM_AUTH_CONFOPTION_AD', 'Microsoft Active Directory &copy');
 define('_MD_AM_AUTHENTICATION', 'Opzioni di autenticazione');
 define('_MD_AM_AUTHMETHOD', 'Metodo di autenticazione');
-define('_MD_AM_AUTHMETHODDESC', 'Il metodo che si intende utilizzare per l\'accesso delgi utenti.');
+define('_MD_AM_AUTHMETHODDESC', 'Il metodo che si intende utilizzare per l\'accesso degli utenti.');
 define('_MD_AM_LDAP_MAIL_ATTR', 'LDAP - Campo Mail');
 define('_MD_AM_LDAP_MAIL_ATTR_DESC','Nome dell\'attributo E-Mail nella vostra directory LDAP.');
 define('_MD_AM_LDAP_NAME_ATTR','LDAP - Campo Common Name');
@@ -209,16 +213,16 @@ define('_MD_AM_LDAP_MANAGER_PASS_DESC', 'La passowrd dell\'utente autorizzato a 
 define('_MD_AM_LDAP_VERSION', 'LDAP - Versione protocollo');
 define('_MD_AM_LDAP_VERSION_DESC', 'La versione di protocollo LDAP: 2 o 3');
 define('_MD_AM_LDAP_USERS_BYPASS', ' Utenti Xoops esclusi dall\'autenticazione LDAP');
-define('_MD_AM_LDAP_USERS_BYPASS_DESC', 'Utenti cui è permesso di non effettuare il login LDAP.<br />Login diretto in Xoops<br />Separare ogni nome utente con <strong>|</strong>');
-
+define('_MD_AM_LDAP_USERS_BYPASS_DESC', 'Utenti cui &egrave; permesso di non effettuare il login LDAP.<br />Login diretto in Xoops<br />Separare ogni nome utente con <strong>|</strong>');
+								  
 define("_MD_AM_LDAP_USETLS", "Utilizza una connessione TLS");
-define("_MD_AM_LDAP_USETLS_DESC", "Imposta una conessione TLS (Transport Layer Security).<BR />TLS utlizza di default la porta 389.<BR />" .
+define("_MD_AM_LDAP_USETLS_DESC", "Imposta una connessione TLS (Transport Layer Security).<BR />TLS utlizza di default la porta 389.<BR />" .
 								  " La versione LDAP deve essere impostata sul valore '3'.");
 
 define('_MD_AM_LDAP_LOGINLDAP_ATTR','Attributo LDAP da utilzzare per cercare un utente');
-define('_MD_AM_LDAP_LOGINLDAP_ATTR_D','Quando è abiltata l\'opzione "Utilizzare il nome utente per il DN" deve corrispondere al nome utente (uid) Xoops');
+define('_MD_AM_LDAP_LOGINLDAP_ATTR_D','Quando &egrave; abilitata l\'opzione "Utilizzare il nome utente per il DN" deve corrispondere al nome utente (uid) Xoops');
 define('_MD_AM_LDAP_LOGINNAME_ASDN', 'Utilizzare il nome utente per il DN');
-define('_MD_AM_LDAP_LOGINNAME_ASDN_D', 'Il nome utente XOOPS verrà usato nel DN LDAP<br />(es : uid=<loginname>,dc=xoops,dc=org)<br />Il dato viene letto direttamente dal server LDAP, senza ricerca.');
+define('_MD_AM_LDAP_LOGINNAME_ASDN_D', 'Il nome utente XOOPS verr&agrave; usato nel DN LDAP<br />(es : uid=<loginname>,dc=xoops,dc=org)<br />Il dato viene letto direttamente dal server LDAP, senza ricerca.');
 
 define('_MD_AM_LDAP_FILTER_PERSON', 'Filtro per la ricerca utente usato da LDAP');
 define('_MD_AM_LDAP_FILTER_PERSON_DESC', 'Filtro speciale LDAP per la ricerca di un utente. @@loginname@@ viene sostituito dall\id di accesso dell\'utente<br /> LASCIARE IN BIANCO SE NON SI CONOSCE IL CODICE!' .
@@ -229,30 +233,29 @@ define('_MD_AM_LDAP_DOMAIN_NAME', 'Nome del dominio');
 define('_MD_AM_LDAP_DOMAIN_NAME_DESC', 'Nome domino Windows (solo per server ADS e NT)');
 
 define('_MD_AM_LDAP_PROVIS', 'Generazione automatica degli account Xoops');
-define('_MD_AM_LDAP_PROVIS_DESC', 'Crea un database utenti xoops se non ne esiste già uno');
+define('_MD_AM_LDAP_PROVIS_DESC', 'Creare un database utenti xoops se non ne esiste gi&agrave; uno');
 
 define('_MD_AM_LDAP_PROVIS_GROUP', 'Gruppo di default');
 define('_MD_AM_LDAP_PROVIS_GROUP_DSC', 'I nuovi utenti vengono inseriti in questi gruppi');
 
 define("_MD_AM_LDAP_FIELD_MAPPING_ATTR", "Mappatura campi server Xoops-Auth");
-define("_MD_AM_LDAP_FIELD_MAPPING_DESC", "Definisci qui la corrispondenza tra il campo del database Xoops e il campo del sistema di autenticazione LDAP." .
+define("_MD_AM_LDAP_FIELD_MAPPING_DESC", "Definire qui la corrispondenza tra il campo del database Xoops e il campo del sistema di autenticazione LDAP." .
 		"<br /><br />Formato: [Campo Databse Xoops]=[Attributo sistema LDAP]" .
 		"<br />per esempio : email=mail" .
 		"<br />Separate ciascuna coppia di campi con <b>|</b>" .
 		"<br /><br />!! Per utenti esperti !!");
 		
-define("_MD_AM_LDAP_PROVIS_UPD", "Tieni aggiornata la gestione dell'account Xoops");
-define("_MD_AM_LDAP_PROVIS_UPD_DESC", "L'account utente Xoops verrà sempre sincronizzato con il server di autenticazione");
+define("_MD_AM_LDAP_PROVIS_UPD", "Sincronizzazione della gestione dell'account Xoops");
+define("_MD_AM_LDAP_PROVIS_UPD_DESC", "L'account utente Xoops verr&agrave; sempre sincronizzato con il server di autenticazione");
 
 
+define("_MD_AM_CPANEL", "Tema dell'Amministrazione");
+define("_MD_AM_CPANELDSC", "Layout alternativi per il lato admin.<br />Installabile nella cartella /modules/system/class/gui.");
 
-define("_MD_AM_CPANEL", "GUI del pannello di controllo");
-define("_MD_AM_CPANELDSC", "Per il backend");
-
-define("_MD_AM_WELCOMETYPE", "Invia messaggio di benvenuto");
-define("_MD_AM_WELCOMETYPE_DESC", "Metodo di invio del messaggio di conferma per avvenuta registrazione.");
+define("_MD_AM_WELCOMETYPE", "Invio del messaggio di benvenuto");
+define("_MD_AM_WELCOMETYPE_DESC", "Modalita di invio del messaggio di benvenuto per i nuovi utenti registrati.");
 define("_MD_AM_WELCOMETYPE_EMAIL", "Email");
-define("_MD_AM_WELCOMETYPE_PM", "Messaggio privato");
-define("_MD_AM_WELCOMETYPE_BOTH", "Email e messaggio privato");
+define("_MD_AM_WELCOMETYPE_PM", "Messaggio");
+define("_MD_AM_WELCOMETYPE_BOTH", "Email e messaggio");
 
 ?>

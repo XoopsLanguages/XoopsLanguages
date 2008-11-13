@@ -1,0 +1,2 @@
+Per le istruzioni dettagliate leggere le note di rilascio per questa versione,
+nella cartella principale del pacchetto.

@@ -1,4 +1,8 @@
-﻿<?php
+<?php
+// -------------------------------------------------------------------------------- //
+// Translated by Ianez - Xoops Italia Staff
+// Published by Xoops Italian Official Support Site - www.xoopsitalia.org
+// -------------------------------------------------------------------------------- //
 /*
  You may not change or alter any portion of this comment or credits
  of supporting developers from this source code or any supporting source code 
@@ -21,28 +25,28 @@
  * @todo            To be handled by i18n/l10n
  */
 
-setlocale(LC_ALL, 'en_US');
+setlocale(LC_ALL, 'it_IT');
 
 // !!IMPORTANT!! insert '\' before any char among reserved chars: "a", "A", "B", "c", "d", "D", "F", "g", "G", "h", "H", "i", "I", "j", "l", "L", "m", "M", "n", "O", "r", "s", "S", "t", "T", "U", "w", "W", "Y", "y", "z", "Z"    
 // insert double '\' before 't', 'r', 'n'
-define("_TODAY", "\O\g\g\i G:i");
-define("_YESTERDAY", "\I\e\r\i G:i");
-define("_MONTHDAY", "n/j G:i");
-define("_YEARMONTHDAY", "Y/n/j G:i");
+define("_TODAY", "\O\g\g\i\ \a\l\l\e\ G:i");
+define("_YESTERDAY", "\I\e\\r\i\ \a\l\l\e\ G:i");
+define("_MONTHDAY", "j/n G:i");
+define("_YEARMONTHDAY", "j/n/Y G:i");
 
 define("_ELAPSE", "%s fa");
 
-define("_TIMEFORMAT_DESC", "Formati validi: \"s\" - " . _SHORTDATESTRING . "; \"m\" - " . _MEDIUMDATESTRING . "; \"l\" - " . _DATESTRING . ";<br />".
-                            "\"c\" o \"custom\" - formato determinato in base all\'intervallo presente; \"e\" - Trascorso; \"mysql\" - Y-m-d H:i:s;<br />".
-                            "per stringhe specifiche fare riferimento a  <a href=\"http://php.net/manual/en/function.date.php\" rel=\"external\">Manuale del PHP</a>."
-                            );
+define("_TIMEFORMAT_DESC", "Formati validi: \"s\" - ". _SHORTDATESTRING . "; \"m\" - " . _MEDIUMDATESTRING . "; \"l\" - " . _DATESTRING . ";<br />".
+							             "\"c\" o \"custom\" - formato determinato dall\'intervallo di tempo trascorso; \"e\" - Trascorso; \"mysql\" - d-m-Y H:i:s;<br />".
+							             "stringa specifica - Verifica sul <a href=\"http://php.net/manual/en/function.date.php\" rel=\"external\">manuale PHP</a>."
+							              );
 
 class XoopsLocal extends XoopsLocalAbstract
 {    
     
     function number_format($number)
     {
-        return number_format($number, 2, '.', ',');
+        return number_format($number, 2, ',', '.');
     }
     
     function money_format($format, $number)

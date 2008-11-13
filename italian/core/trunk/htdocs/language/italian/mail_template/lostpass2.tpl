@@ -1,16 +1,20 @@
-Hello {X_UNAME},
+Ciao {X_UNAME},
 
-Un utente dall'indirizzo IP {IP} ha richiesto l'invio di una nuova password.
+Un navigatore proviente da {IP} ha appena richiesto che venga inviata
+una nuova password a questo indirizzo email.
 
-Questi sono ituoi dati di accesso su {SITENAME}.
+Questi sono i tuoi dati per il login su {SITENAME}.
 
-Username: {X_UNAME}
-Nuova Password: {NEWPWD}
+Nick: {X_UNAME}
+Nuova password: {NEWPWD}
 
-Puoi cambiarla dopo aver effettuato il login a {SITEURL}user.php.
-Se non hai richiesto tu la nuova password, non ti preoccupare. Solo tu puoi vedere questo messaggio. Se questo messaggio ti è arrivato per errore, ci dispiace ma dovrai effettuare il login con la nuova password.
+Potrai modificare successivamente questi dati cliccando {SITEURL}user.php.
+
+Se la richiesta non Ã¨ partita da te, non ti allarmare. Sei il SOLO ad aver ricevuto
+questo messaggio. In questo caso siamo spiacenti ma vi preghiamo di effettuare il
+login con la nuova password riportata sopra.
 
 -----------
-{SITENAME} ({SITEURL}) 
+{SITENAME} ({SITEURL})
 webmaster
 {ADMINMAIL}

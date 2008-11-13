@@ -1,41 +1,46 @@
-﻿<?php
+<?php
+// -------------------------------------------------------------------------------- //
+// Updated by Ianez - Xoops Italia Staff
+// Original translation by Marco Ragogna (blueangel)
+// Published by Xoops Italian Official Support Site - www.xoopsitalia.org
+// -------------------------------------------------------------------------------- //
 // $Id: global.php 1529 2008-05-01 08:14:55Z phppp $
 //%%%%%%	File Name mainfile.php 	%%%%%
-define("_PLEASEWAIT","Attendere prego");
+define("_PLEASEWAIT","Attendere prego...");
 define("_FETCHING","Caricamento...");
-define("_TAKINGBACK","Stai per essere riportato al punto in cui eri....");
+define("_TAKINGBACK","Stai per essere riportato alla pagina in cui eri...");
 define("_LOGOUT","Esci");
 define("_SUBJECT","Oggetto");
 define("_MESSAGEICON","Icona del messaggio");
 define("_COMMENTS","Commenti");
-define("_POSTANON","Invia in forma anonima");
-define("_DISABLESMILEY","Disabilita Emoticons");
-define("_DISABLEHTML","Disabilita html");
+define("_POSTANON","Invia come Anonimo");
+define("_DISABLESMILEY","Disabilita faccine");
+define("_DISABLEHTML","Disabilita tag HTML");
 define("_PREVIEW","Anteprima");
 
 define("_GO","Vai!");
-define("_NESTED","Nidificati");
+define("_NESTED","Annidati");
 define("_NOCOMMENTS","Nessun commento");
-define("_FLAT","Piatta");
-define("_THREADED","Threaded");
-define("_OLDESTFIRST","I più vecchi prima");
-define("_NEWESTFIRST","I più nuovi prima");
-define("_MORE","altri...");
-define("_MULTIPAGE","Per fare in modo che il tuo articolo venga suddiviso in più pagine, inserisci la parola <font color=red> [PageBreak] </ font> (comprese le parentesi) in questo articolo.");
-define("_IFNOTRELOAD","Se la pagina non si ricarica in modo automatico, clicca <a href='%s'>qui</a>");
-define("_WARNINSTALL2","ATTENZIONE: La directory %s è ancora presente sul tuo server. <br />Rimuovi questa directory per ragioni di sicurezza.");
-define("_WARNINWRITEABLE","ATTENZIONE: Il file %s è ancora scrivibile. <br />Cambia i permessi di questo file per ragioni di sicurezza.<br /> in Unix (444), in Win32 (sola-lettura)");
+define("_FLAT","Piatti");
+define("_THREADED","Ad albero");
+define("_OLDESTFIRST","I pi&ugrave; vecchi prima");
+define("_NEWESTFIRST","I pi&ugrave; nuovi prima");
+define("_MORE","altro...");
+define("_MULTIPAGE","Per visualizzare l'articolo su pi&ugrave; pagine, inserire il codice <font color=red>[pagebreak]</font> (con le quadre), all'interno della news.");
+define("_IFNOTRELOAD","Se la pagina non dovesse caricarsi in automatico, premere <a href=%s>qui</a>");
+define("_WARNINSTALL2","ATTENZIONE: La cartella %s &egrave; ancora sul server. <br />Si prega di rimuoverla per motivi di sicurezza.");
+define("_WARNINWRITEABLE","ATTENZIONE: Il file %s non &egrave; protetto in scrittura sul server. <br />Si prega di modificare i permessi di questo file, per motivi di sicurezza:<br /> su server Linux/Unix (CHMOD 444), su Windows (sola lettura)");
 
 // Error messages issued by XoopsObject::cleanVars()
-define( "_XOBJ_ERR_REQUIRED", "%s è richiesto" );
-define( "_XOBJ_ERR_SHORTERTHAN", "%s deve essere inferiore a  %d caratteri." );
+define( "_XOBJ_ERR_REQUIRED", "%s &egrave; richiesta/o" );
+define( "_XOBJ_ERR_SHORTERTHAN", "%s deve contenere meno di %d caratteri." );
 
 //%%%%%%	File Name themeuserpost.php 	%%%%%
 define("_PROFILE","Profilo");
-define("_POSTEDBY","Inviato da");
-define("_VISITWEBSITE","Visita il sito internet");
+define("_POSTEDBY","Inviato da ");
+define("_VISITWEBSITE","Visita il sito web");
 define("_SENDPMTO","Invia un messaggio privato a %s");
-define("_SENDEMAILTO","Invia una email a %s");
+define("_SENDEMAILTO","Invia un email a %s");
 define("_ADD","Aggiungi");
 define("_REPLY","Rispondi");
 define("_DATE","Data");   // Posted date
@@ -43,38 +48,38 @@ define("_DATE","Data");   // Posted date
 //%%%%%%	File Name admin_functions.php 	%%%%%
 define("_MAIN","Principale");
 define("_MANUAL","Manuale");
-define("_INFO","Info");
-define("_CPHOME","Home page pannello di controllo");
+define("_INFO","Informazioni");
+define("_CPHOME","Pannello di Controllo");
 define("_YOURHOME","Home Page");
 
 //%%%%%%	File Name misc.php (who's-online popup)	%%%%%
-define("_WHOSONLINE","Chi è online");
+define("_WHOSONLINE","Utenti online");
 define('_GUESTS', 'Ospiti');
-define('_MEMBERS', 'Membri');
-define("_ONLINEPHRASE","<strong>%s</strong> utenti sono online");
-define("_ONLINEPHRASEX","<strong>%s</strong> utenti stanno navigando in <strong>%s</strong>");
+define('_MEMBERS', 'Iscritti');
+define("_ONLINEPHRASE","<b>%s</b> utente(i) online<br />");
+define("_ONLINEPHRASEX","<b>%s</b> utente(i) in <b>%s</b>");
 define("_CLOSE","Chiudi");  // Close window
 
 //%%%%%%	File Name module.textsanitizer.php 	%%%%%
-define("_QUOTEC","Quota:");
+define("_QUOTEC","Citazione:");
 
 //%%%%%%	File Name admin.php 	%%%%%
-define("_NOPERM","Spiacente, non hai i permessi per accedere a questa sezione.");
+define("_NOPERM","Non si possiedono i permessi per accedere a quest'area");
 
 //%%%%%		Common Phrases		%%%%%
 define("_NO","No");
-define("_YES","SI");
+define("_YES","Si");
 define("_EDIT","Modifica");
-define("_DELETE","Cancella");
+define("_DELETE","Elimina");
 define("_SUBMIT","Invia");
 define("_MODULENOEXIST","Il modulo selezionato non esiste!");
-define("_ALIGN","Allinea");
+define("_ALIGN","Allineamento");
 define("_LEFT","Sinistra");
 define("_CENTER","Centro");
 define("_RIGHT","Destra");
 define("_FORM_ENTER", "Prego inserisci %s");
 // %s represents file name
-define("_MUSTWABLE","Il file %s deve essere scrivibile dal server!");
+define("_MUSTWABLE","Il file %s non deve essere protetto in scrittura sul server!");
 // Module info
 define('_PREFERENCES', 'Preferenze');
 define("_VERSION", "Versione");
@@ -83,50 +88,50 @@ define("_AUTHOR", "Autore");
 define("_CREDITS", "Crediti");
 define("_LICENCE", "Licenza");
 define("_ERRORS", "Errori");
-define("_NONE", "niente");
-define('_ON','su');
+define("_NONE", "Nessuno");
+define('_ON','il');
 define('_READS','letture');
-define('_WELCOMETO','Benvenuto su %s');
+define('_WELCOMETO','Benvenuto %s');
 define('_SEARCH','Cerca');
-define('_ALL', 'Tutti');
+define('_ALL', 'Tutto');
 define('_TITLE', 'Titolo');
 define('_OPTIONS', 'Opzioni');
-define('_QUOTE', 'Quota');
-define('_LIST', 'Lista');
+define('_QUOTE', 'Citazione');
+define('_LIST', 'Elenco');
 define('_LOGIN','Login utente');
-define('_USERNAME','Username: ');
+define('_USERNAME','Nome utente: ');
 define('_PASSWORD','Password: ');
 define("_SELECT","Seleziona");
 define("_IMAGE","Immagine");
 define("_SEND","Invia");
-define("_CANCEL","Cancella");
-define("_ASCENDING","Ordine Crescente");
+define("_CANCEL","Annulla");
+define("_ASCENDING","Ordine crescente");
 define("_DESCENDING","Ordine decrescente");
-define('_BACK', 'Dietro');
+define('_BACK', 'Indietro');
 define('_NOTITLE', 'Nessun titolo');
 
 /* Image manager */
-define('_IMGMANAGER','Gestione immagini');
+define('_IMGMANAGER','Amministrazione immagini');
 define('_NUMIMAGES', '%s immagini');
-define('_ADDIMAGE','Aggiungi file immagine');
+define('_ADDIMAGE','Aggiungi un\'immagine');
 define('_IMAGENAME','Nome:');
-define('_IMGMAXSIZE','Dimensione massima ammessa (bytes):');
-define('_IMGMAXWIDTH','Larghezza massima ammessa (pixels):');
-define('_IMGMAXHEIGHT','Altezza massima ammessa (pixels):');
+define('_IMGMAXSIZE','Dimensione massima (bytes):');
+define('_IMGMAXWIDTH','Larghezza massima (pixel):');
+define('_IMGMAXHEIGHT','Altezza massima (pixel):');
 define('_IMAGECAT','Categoria:');
-define('_IMAGEFILE','File immagine:');
-define('_IMGWEIGHT','Ordine di visualizzazione in gestione immagini:');
-define('_IMGDISPLAY','Visualizza questa immagine?');
-define('_IMAGEMIME','MIME type:');
-define('_FAILFETCHIMG', 'Impossibile ottenere informazioni dal file caricato %s');
-define('_FAILSAVEIMG', 'Errore durante il salvataggio dell\'immagine %s nel database');
-define('_NOCACHE', 'No Cache');
+define('_IMAGEFILE','Immagine:');
+define('_IMGWEIGHT','Ordine di visualizzazione delle immagini:');
+define('_IMGDISPLAY','Visualizzare l\'immagine?');
+define('_IMAGEMIME','MIME (estensione del file):');
+define('_FAILFETCHIMG', 'Impossibile eseguire l\'upload del file %s!');
+define('_FAILSAVEIMG', 'Caricamento nel database dell\'immagine %s: fallito!');
+define('_NOCACHE', 'Nessuna cache');
 define('_CLONE', 'Clona');
 
 //%%%%%	File Name class/xoopsform/formmatchoption.php 	%%%%%
 define("_STARTSWITH", "Inizia con");
-define("_ENDSWITH", "Finisce con");
-define("_MATCHES", "Uguale a");
+define("_ENDSWITH", "Termina con");
+define("_MATCHES", "Coincide con");
 define("_CONTAINS", "Contiene");
 
 //%%%%%%	File Name commentform.php 	%%%%%
@@ -137,26 +142,26 @@ define("_SIZE","DIMENSIONE");  // font size
 define("_FONT","CARATTERE");  // font family
 define("_COLOR","COLORE");  // font color
 define("_EXAMPLE","ESEMPIO");
-define("_ENTERURL","Inserisci l\'URL del link che vuoi aggiungere.");
-define("_ENTERWEBTITLE","Inserisci il nome del link:");
-define("_ENTERIMGURL","Inserisci l\'URL dell\'immagine che vuoi aggiungere.");
-define("_ENTERIMGPOS","Adesso scegli la posizione dell\'immagine.");
-define("_IMGPOSRORL","'R' o 'r' per destra, 'L' o 'l' per sinistra, oppure lascia in bianco.");
-define("_ERRORIMGPOS","ERRORE! Inserisci la posizione dell\'immagine.");
-define("_ENTEREMAIL","Inserisci l\'indirizzo email che vuoi aggiungere.");
-define("_ENTERCODE","Inserisci il codice che vuoi aggiungere.");
-define("_ENTERQUOTE","Inserisci il testo che vuoi quotare.");
-define("_ENTERTEXTBOX","Prego, inserisci il testo nella casella di testo.");
-define("_ALLOWEDCHAR","Numero massimo di caratteri ammessi: ");
-define("_CURRCHAR","Numero corrente di caratteri: ");
-define("_PLZCOMPLETE","Prego, completa i campio oggetto e messaggio.");
-define("_MESSAGETOOLONG","Il tuo messaggio è troppo lungo.");
+define("_ENTERURL","Indirizzo del link che si desidera inserire: ");
+define("_ENTERWEBTITLE","Testo del link: ");
+define("_ENTERIMGURL","Indirizzo web dell'immagine che si desidera inserire:");
+define("_ENTERIMGPOS","Allineamento dell'immagine.");
+define("_IMGPOSRORL","'r' destra, 'l' sinistra, o lasciare vuoto.");
+define("_ERRORIMGPOS","ERRORE! Si prega di specificare l'allineamento dell'immagine.");
+define("_ENTEREMAIL","Indirizzo email che si desidera inserire:");
+define("_ENTERCODE","Codice che si desidera inserire:");
+define("_ENTERQUOTE","Citazione che si desidera riportare:");
+define("_ENTERTEXTBOX","Per favore, inserire del testo nella casella.");
+define("_ALLOWEDCHAR","Numero massimo di caratteri consentiti: ");
+define("_CURRCHAR","Caratteri utilizzati fino a questo momento: ");
+define("_PLZCOMPLETE","Per favore, inserire oggetto e corpo del messaggio.");
+define("_MESSAGETOOLONG","Il messaggio &egrave; troppo lungo.");
 
 //%%%%%		TIME FORMAT SETTINGS   %%%%%
 define('_SECOND', '1 secondo');
 define('_SECONDS', '%s secondi');
 define('_MINUTE', '1 minuto');
-define('_MINUTES', '%s minutei');
+define('_MINUTES', '%s minuti');
 define('_HOUR', '1 ora');
 define('_HOURS', '%s ore');
 define('_DAY', '1 giorno');
@@ -164,9 +169,9 @@ define('_DAYS', '%s giorni');
 define('_WEEK', '1 settimana');
 define('_MONTH', '1 mese');
 
-define("_DATESTRING","Y/n/j G:i:s");
-define("_MEDIUMDATESTRING","Y/n/j G:i");
-define("_SHORTDATESTRING","Y/n/j");
+define("_DATESTRING","j/n/Y G:i:s");
+define("_MEDIUMDATESTRING","j/n/Y G:i");
+define("_SHORTDATESTRING","j/n/Y");
 /*
 The following characters are recognized in the format string:
 a - "am" or "pm"
@@ -199,6 +204,10 @@ Z - timezone offset in seconds (i.e. "-43200" to "43200")
 
 
 //%%%%%		LANGUAGE SPECIFIC SETTINGS   %%%%%
+/* ATTENZIONE! In caso di aggiornamento da versioni precedenti e di mantenimento della collazione del database in
+** latin_swedish decommentare la linea successiva e commentare: define('_CHARSET', 'UTF-8'),
+** per preservare la visualizzazione delle parole accentate nel sito.*/
+//define('_CHARSET', 'ISO-8859-1');
 define('_CHARSET', 'UTF-8');
 define('_LANGCODE', 'it');
 

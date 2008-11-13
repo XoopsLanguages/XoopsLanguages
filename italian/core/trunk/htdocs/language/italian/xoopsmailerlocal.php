@@ -1,4 +1,8 @@
 <?php
+// -------------------------------------------------------------------------------- //
+// Edited by Ianez - Xoops Italia Staff
+// Published by Xoops Italian Official Support Site - www.xoopsitalia.org
+// -------------------------------------------------------------------------------- //
 /**
  * Localize the mail functions
  *
