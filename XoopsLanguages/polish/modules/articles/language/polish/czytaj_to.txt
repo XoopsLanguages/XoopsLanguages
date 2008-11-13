@@ -1,0 +1,10 @@
+##############################################
+# Nazwa modu³u : Articles                    #
+#       Wersja : 0.25beta                    #
+#    Kategoria : Zarz¹dzanie Artyku³ami      #
+#         Opis : Bardzo prosty i lekki modu³ #
+#                do zarz¹dzania artyku³ami.  #
+#Strona domowa : http://support.sirium.net   #
+#Przet³umaczy³ : Frano                       #
+#                frano@xoops.pl              #
+##############################################

@@ -1,0 +1,43 @@
+<div style="font-weight: bold; padding: 6px; border-bottom: 1px solid #CCCCCC; font-size: 18px;"><{$module_title}></div>
+<div style="font-size: 10px; font-weight: bold; padding: 3px; border-bottom: 1px solid #CCCCCC; background-color: #f5f5f5;"><{$localize_bar}></div><div>
+<br />
+<table width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr>
+<td style="padding: 4px; vertical-align: top; text-align: left;">
+<div class="item" style="padding:1px;">
+	<div class="itemHead" style="font-size: 16px; font-weight: bold; text-align: left;">
+		<{$work.titulo}>
+	</div>
+	<div class="itemBody">
+	<strong><{$lang_for}></strong><br /><br />
+	<img src="images/client.png" border="0" align="absmiddle" /> <a href="<{$work.url}>" target="_blank"><{$work.cliente}></a><br /><br />
+	</div>
+	<div class="itemBody">
+	<strong><{$lang_desc}></strong><br /><br />
+	<{$work.desc}>
+	</div><br />
+	<div class="itemBody">
+	<strong><{$lang_url}></strong><br /><br />
+	<img src="images/web.png" border="0" align="absmiddle" /> <a href="<{$work.url}>" target="_blank"><{$work.url}></a>
+	</div><br />
+	<div class="itemBody">
+	<{if $work.comentario!=''}>
+	<strong><{$lang_comment}></strong><br /><br />
+	<em>"<{$work.comentario}>"</em>
+	<{/if}>
+	</div>
+</div>
+</td>
+<td class="odd" style="border: 1px solid #CCCCCC;">
+<div style="text-align: left; font-size: 11px; padding: 4px; font-weight: bold;">
+<{$lang_moreimgs}></div>
+<div>
+	<a href="<{$storedir}><{$work.imagen}>" rel="lightbox[roadtrip]"><img src="<{$storedir}>ths/<{$work.imagen}>" style="margin: 4px; border: 1px solid #666666;" /></a><br />
+<{foreach item=img from=$images}>
+	<a rel="lightbox[roadtrip]" href="<{$storedir}><{$img}>"><img src="<{$storedir}>ths/<{$img}>" style="margin: 4px; border: 1px solid #666666;" /></a><br />
+<{/foreach}>
+</div>
+</td>
+</tr>
+</table><br />
+<{$rmmf_footer}>

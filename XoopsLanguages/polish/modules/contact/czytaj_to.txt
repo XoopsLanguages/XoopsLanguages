@@ -1,0 +1,9 @@
+T³umaczenie do modu³u contact 1.6
+"Contact - Not just another Contact Us page!"
+Strona programisty -  http://xoops.ibdeeming.com/
+Strona t³umacza    -  http://polanski.biz
+
+Modu³ jest ok choæ zawiera nieco b³êdów. Wiêcej tutaj:
+http://www.xoops.org/modules/news/article.php?storyid=2860&com_id=26844&com_rootid=26831&com_mode=flat&com_order=0#comment26844
+
+dap 26.02.2006

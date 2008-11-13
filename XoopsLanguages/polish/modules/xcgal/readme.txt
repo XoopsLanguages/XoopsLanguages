@@ -1,0 +1,2 @@
+2006-03-01 dap
+  polish lang ver. 0.3 alpha by Stanis³aw Wolanin, admin@polfran.pl 

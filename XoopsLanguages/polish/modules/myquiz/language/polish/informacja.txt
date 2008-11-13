@@ -1,0 +1,18 @@
+Polskie t³umaczenie do modu³u myquizz 
+wykonanie Jacek Kozio³ 
+Szczecin 2005
+
+Wersja 0.1
+
+Pierwsza wersja t³umaczenia - pozostawione s¹ angielskie odpowiedniki. Pliki jêzykowe w formacie ISO 8859-2, dodatkowo pliki w formacie Win 1250
+
+
+Zmiany:
+- w polskim pliku jêzykowym main.php pliku dodana "zagubiona" zmienna "_MYQUIZ_MYQUIZ"
+- usuniêcie nieaktywnego linku do autorów - http://www.xoopsien.net
+
+Zauwa¿one b³edy:
+- modu³ Ÿle pobiera œcie¿kê do xoopsa i w zwi¹zku z tym nie nale¿y u¿ywaæ opcji "Pomoc do testu - Usage conditions" 
+- nie dzia³a dodawanie nowych pytañ przez u¿ytkowników ( przy zaznaczeniu opcji "Umo¿liwienie u¿ytkownikom tworzenia nowych pytañ - Enable the user to submit new questions"
+
+Wszelkie uwagi mile widziane.
