@@ -1,0 +1,1 @@
+The placeholder for XOOPS Module translations
