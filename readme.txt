@@ -5,37 +5,33 @@ Structure:
 
 XoopsLanguages
 -- dirnamea
------ trunk
------ releases
------ branches
+----- core
+----- modules
+----- themes
 -- dirnameb
------ trunk
------ releases
------ branches
+----- core
+----- modules
+----- themes
 
 Structure Example:
 XoopsLanguages/
 -- spanish/
------ trunk
------ releases
-------- 2.0.18.1
+----- core
+------- branches
+------- releases
+--------- 2.3.1
+------- trunk
 --------- docs
---------- htdocs
 --------- upgrade
---------- release_note_es.txt
-------- 2.3-alpha3
------ branches
--- french/
------ trunk
------ releases
-------- 2.0.18.1
---------- docs
---------- htdocs
---------- upgrade
---------- release_note_fr.txt
-------- 2.3-alpha3
------ branches
+--------- release_notes_spanish.txt
+----- modules
+--------- moduleA
+----------- branches
+----------- releases
+----------- trunk
+----- themes
 
+Note: You can use "foo" directory example. Copy and rename it.
 
 SVN Related links:
 
