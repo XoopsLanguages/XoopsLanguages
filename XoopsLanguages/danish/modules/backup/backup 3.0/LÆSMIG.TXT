@@ -1,0 +1,13 @@
+﻿XOOPS Backup & Restore 3.0
+
+Et modul, så du nemt backup og / eller genskabe din MySQL-database
+
+Installation:
+=============
+Opret en mappe (../upload/backup) for opbevaring af backup filer
+Gør mappen skrivbar (chmod 777)
+Installér modulet som normalt
+Hvis du vil lave et cronjob så backup sker automatisk, skal URL være dinurl/modules/backup/admin/backup.php
+
+Selve modulet hentes via 
+http://www.xoops.org/modules/repository/singlefile.php?cid=17&lid=1115
