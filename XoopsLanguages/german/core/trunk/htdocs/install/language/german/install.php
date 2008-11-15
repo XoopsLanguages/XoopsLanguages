@@ -91,17 +91,17 @@ define( "DB_HOST_HELP",  "Hostname des Datenbankservers. <em>localhost</em> wenn
 define( "DB_USER_LABEL", "Benutzer" );    // L28
 define( "DB_USER_HELP",  "Name des Useraccount für diese Datenbank"); // L65
 define( "DB_PASS_LABEL", "Password" );    // L52
-define( "DB_PASS_HELP",  "Password des user der Datenbank"); // L68
+define( "DB_PASS_HELP",  "Password des User der Datenbank"); // L68
 define( "DB_NAME_LABEL", "Datenbankname" );    // L29
-define( "DB_NAME_HELP",  "Der Name der Datenbank. der Installer prüft , ob diese vorhanden ist."); // L64
+define( "DB_NAME_HELP",  "Der Name der Datenbank. der Installer prüft , ob diese vorhanden ist. Gegebenenfalls wird diese angelegt"); // L64
 define( "DB_CHARSET_LABEL", "Datenbank Character Set" );
-define( "DB_CHARSET_HELP",  "MySQL includes character set support that enables you to store data using a variety of character sets and perform comparisons according to a variety of collations.");
+define( "DB_CHARSET_HELP",  "MySQL Zeichensatz, mit dem Sie die Daten speichern.");
 define( "DB_COLLATION_LABEL", "Datenbank Collation" );
-define( "DB_COLLATION_HELP",  "A collation is a set of rules for comparing characters in a character set.");
+define( "DB_COLLATION_HELP",  "Die Koalition der Datenbank");
 define( "DB_PREFIX_LABEL", "Tabellen Prefix" );    // L30
-define( "DB_PREFIX_HELP",  "This prefix will be added to all new tables created to avoid name conflicts in the database. If you are unsure, just keep the default"); // L63
+define( "DB_PREFIX_HELP",  "Der Prefix, der den Tabellen voangestellt wird. Wenn Sie unsicher sind, belassen Sie die Voreinstellung"); // L63
 define( "DB_PCONNECT_LABEL", "Ständige Verbindung?" );    // L54
-define( "DB_PCONNECT_HELP",  "Default is 'NO'. Choose 'NO' if you are unsure"); // L69
+define( "DB_PCONNECT_HELP",  "Default ist 'Nein'. Stellen Sie auf  'Ja', wenn Sie eine dauerhafte Verbindung zur Datenbank benötigen."); // L69
 define( "DB_DATABASE_LABEL", "Datenbank" );
 define( "LEGEND_ADMIN_ACCOUNT", "Administrator Account" );
 define( "ADMIN_LOGIN_LABEL", "Administrator Login:" ); // L37
