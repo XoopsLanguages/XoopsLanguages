@@ -1,6 +1,10 @@
 <?php
 // $Id: blocksadmin.php 1503 2008-04-26 11:57:19Z phppp $
 //%%%%%%	Admin Module Name  Blocks 	%%%%%
+// _LANGCODE: pl
+// _CHARSET : UTF-8
+// Translator: Jarek Wiktorowicz  <www.jarek.wiktorowicz.pl>
+
 define("_AM_DBUPDATED",_MD_AM_DBUPDATED);
 
 //%%%%%%	blocks.php 	%%%%%

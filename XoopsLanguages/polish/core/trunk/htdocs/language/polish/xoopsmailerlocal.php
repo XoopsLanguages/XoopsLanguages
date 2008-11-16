@@ -4,6 +4,10 @@
  *
  * The English localization is solely for demonstration
  */
+// $Id$ 
+// _LANGCODE: pl
+// _CHARSET : UTF-8
+// Translator: Jarek Wiktorowicz  <www.jarek.wiktorowicz.pl>
 // Do not change the class name
 class XoopsMailerLocal extends XoopsMailer
 {

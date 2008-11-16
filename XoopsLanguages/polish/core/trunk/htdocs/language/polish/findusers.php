@@ -1,5 +1,8 @@
 <?php
 // $Id: findusers.php 2210 2008-10-01 04:41:32Z phppp $
+// _LANGCODE: pl
+// _CHARSET : UTF-8
+// Translator: Jarek Wiktorowicz  <www.jarek.wiktorowicz.pl>
 
 define("_MA_USER_MORE", "Szukaj użytkowników");
 define("_MA_USER_REMOVE", "Usuń niezaznaczonych użytkowników");

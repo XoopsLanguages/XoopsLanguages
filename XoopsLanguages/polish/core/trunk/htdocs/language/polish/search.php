@@ -1,6 +1,9 @@
 <?php
 // $Id: search.php 1529 2008-05-01 08:14:55Z phppp $
 //%%%%%%	File Name search.php 	%%%%%
+// _LANGCODE: pl
+// _CHARSET : UTF-8
+// Translator: Jarek Wiktorowicz  <www.jarek.wiktorowicz.pl>
 define("_SR_SEARCH", "Szukaj");
 define("_SR_PLZENTER", "Proszę podać wszystkie wymagane dane!");
 define("_SR_SEARCHRESULTS", "Wynik wyszukiwania");

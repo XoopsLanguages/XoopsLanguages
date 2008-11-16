@@ -1,5 +1,8 @@
 <?php
 // $Id: modinfo.php 2026 2008-08-31 08:10:34Z phppp $
+// _LANGCODE: pl
+// _CHARSET : UTF-8
+// Translator: Jarek Wiktorowicz  <www.jarek.wiktorowicz.pl>
 
 define("_PROFILE_MI_NAME", "Profil Użytkownika");
 define("_PROFILE_MI_DESC", "Moduł zarządzający dodatkowymi polami w profilu użytkownika");

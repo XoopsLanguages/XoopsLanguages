@@ -10,6 +10,10 @@
  * @author          Taiwen Jiang <phppp@users.sourceforge.net>
  * @version         $Id: english.php 1573 2008-05-04 15:24:06Z phppp $
  */
+// $Id$ 
+// _LANGCODE: pl
+// _CHARSET : UTF-8
+// Translator: Jarek Wiktorowicz  <www.jarek.wiktorowicz.pl>
 
 define("_XOOPS_EDITOR_KOIVI", "Koivi WYSIWYG Editor");
 

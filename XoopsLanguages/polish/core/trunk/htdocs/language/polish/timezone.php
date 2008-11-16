@@ -1,6 +1,9 @@
 <?php
 // $Id: timezone.php 1217 2008-01-01 17:04:41Z phppp $
 //%%%%%		Time Zone	%%%%
+// _LANGCODE: pl
+// _CHARSET : UTF-8
+// Translator: Jarek Wiktorowicz  <www.jarek.wiktorowicz.pl>
 define("_TZ_GMTM12", "(GMT-12:00)");
 define("_TZ_GMTM11", "(GMT-11:00)");
 define("_TZ_GMTM10", "(GMT-10:00)");

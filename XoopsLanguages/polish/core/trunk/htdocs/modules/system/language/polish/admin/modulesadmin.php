@@ -1,6 +1,10 @@
 <?php
 // $Id: modulesadmin.php 1441 2008-04-15 04:13:21Z julionc $
 //%%%%%%	File Name  modulesadmin.php 	%%%%%
+// _LANGCODE: pl
+// _CHARSET : UTF-8
+// Translator: Jarek Wiktorowicz  <www.jarek.wiktorowicz.pl>
+
 define("_MD_AM_MODADMIN", "Administracja modułami");
 define("_MD_AM_MODULE", "Moduł");
 define("_MD_AM_VERSION", "Wersja");

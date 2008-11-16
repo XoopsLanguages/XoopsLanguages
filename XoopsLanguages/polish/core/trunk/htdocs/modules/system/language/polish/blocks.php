@@ -1,5 +1,9 @@
 <?php
 // $Id: blocks.php 1349 2008-02-17 14:18:30Z phppp $
+// _LANGCODE: pl
+// _CHARSET : UTF-8
+// Translator: Jarek Wiktorowicz  <www.jarek.wiktorowicz.pl>
+
 // Blocks
 define("_MB_SYSTEM_ADMENU", "Menu Administracji");
 define("_MB_SYSTEM_RNOW", "Zarejestruj się!");

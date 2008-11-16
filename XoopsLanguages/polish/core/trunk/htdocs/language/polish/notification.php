@@ -1,6 +1,8 @@
 <?php
 // $Id: notification.php 1530 2008-05-01 09:22:47Z phppp $
-
+// _LANGCODE: pl
+// _CHARSET : UTF-8
+// Translator: Jarek Wiktorowicz  <www.jarek.wiktorowicz.pl>
 // RMV-NOTIFY
 
 // Text for various templates...

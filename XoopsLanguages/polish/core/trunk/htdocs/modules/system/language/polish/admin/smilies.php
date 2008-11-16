@@ -1,6 +1,9 @@
 <?php
 // $Id: smilies.php 2026 2008-08-31 08:10:34Z phppp $
 //%%%%%%	Admin Module Name  Smilies 	%%%%%
+// _LANGCODE: pl
+// _CHARSET : UTF-8
+// Translator: Jarek Wiktorowicz  <www.jarek.wiktorowicz.pl>
 define("_AM_DBUPDATED",_MD_AM_DBUPDATED);
 
 define("_AM_SMILESCONTROL", "Zarządzanie emotikony");

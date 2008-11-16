@@ -1,4 +1,8 @@
 <?php
+// $Id$
+// _LANGCODE: pl
+// _CHARSET : UTF-8
+// Translator: Jarek Wiktorowicz  <www.jarek.wiktorowicz.pl>
 
 // mymenu
 define("_MD_A_MYMENU_MYTPLSADMIN", "");

@@ -1,4 +1,8 @@
 <?php
+// $Id$
+// _LANGCODE: pl
+// _CHARSET : UTF-8
+// Translator: Jarek Wiktorowicz  <www.jarek.wiktorowicz.pl>
 
 if( defined( "FOR_XOOPS_LANG_CHECKER" ) ) $mydirname = "protector" ;
 $constpref = "_MI_" . strtoupper( $mydirname ) ;

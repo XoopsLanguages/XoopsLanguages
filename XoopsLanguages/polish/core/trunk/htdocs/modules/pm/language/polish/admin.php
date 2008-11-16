@@ -1,5 +1,8 @@
 <?php
-
+// $Id$
+// _LANGCODE: pl
+// _CHARSET : UTF-8
+// Translator: Jarek Wiktorowicz  <www.jarek.wiktorowicz.pl>
 define("_PM_AM_PRUNE", "Czyszczenie");
 define("_PM_AM_PRUNEAFTER", "Usuń wiadomości wysłane po tej dacie (pozostaw puste aby nie ustawiać daty)");
 define("_PM_AM_PRUNEBEFORE", "Usuń wiadomości wysłane przed tą datą (pozostaw puste aby nie ustawiać daty)");

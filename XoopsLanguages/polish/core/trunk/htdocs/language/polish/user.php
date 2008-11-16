@@ -1,6 +1,9 @@
 <?php
 // $Id: user.php 1529 2008-05-01 08:14:55Z phppp $
 //%%%%%%		File Name user.php 		%%%%%
+// _LANGCODE: pl
+// _CHARSET : UTF-8
+// Translator: Jarek Wiktorowicz  <www.jarek.wiktorowicz.pl>
 define("_US_NOTREGISTERED", "Nie masz jeszcze konta? Kliknij <a href=register.php>tutaj</a>.");
 define("_US_LOSTPASSWORD", "Zapomniałeś hasła?");
 define("_US_NOPROBLEM", "Żaden problem. Wpisz adres email, który podałeś przy rejestracji a otrzymasz nowe.");

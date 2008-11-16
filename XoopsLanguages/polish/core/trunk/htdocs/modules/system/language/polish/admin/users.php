@@ -1,6 +1,9 @@
 <?php
 // $Id: users.php 897 2007-07-29 06:28:06Z phppp $
 //%%%%%%	Admin Module Name  Users 	%%%%%
+// _LANGCODE: pl
+// _CHARSET : UTF-8
+// Translator: Jarek Wiktorowicz  <www.jarek.wiktorowicz.pl>
 define("_AM_DBUPDATED",_MD_AM_DBUPDATED);
 
 define("_AM_AYSYWTDU", "Jesteś pewien, że chcesz usunąć użytkownika %s?");

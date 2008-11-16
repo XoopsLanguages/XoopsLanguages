@@ -12,5 +12,10 @@
 /*
  * Assocated with editor_registry.php
  */
+// $Id$ 
+// _LANGCODE: pl
+// _CHARSET : UTF-8
+// Translator: Jarek Wiktorowicz  <www.jarek.wiktorowicz.pl>
+ 
 define("_XOOPS_EDITOR_DHTMLTEXTAREA", "Formularz DHTML z xCode");
 ?>

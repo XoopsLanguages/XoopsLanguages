@@ -1,6 +1,10 @@
 <?php
 // $Id: admin.php 2 2005-11-02 18:23:29Z skalpa $
 //%%%%%%	File Name  admin.php 	%%%%%
+// _LANGCODE: pl
+// _CHARSET : UTF-8
+// Translator: Jarek Wiktorowicz  <www.jarek.wiktorowicz.pl>
+
 define("_AD_NORIGHT", "Nie masz uprawnień dostępu do tej strefy");
 define("_AD_ACTION", "Akcja");
 define("_AD_EDIT", "Edytuj");

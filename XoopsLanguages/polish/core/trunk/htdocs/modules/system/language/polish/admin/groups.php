@@ -1,6 +1,9 @@
 <?php
 // $Id: groups.php 2067 2008-09-12 03:42:35Z phppp $
 //%%%%%%	Admin Module Name  AdminGroup 	%%%%%
+// _LANGCODE: pl
+// _CHARSET : UTF-8
+// Translator: Jarek Wiktorowicz  <www.jarek.wiktorowicz.pl>
 define("_AM_DBUPDATED",_MD_AM_DBUPDATED);
 
 define("_AM_EDITADG", "Edytuj grupy");

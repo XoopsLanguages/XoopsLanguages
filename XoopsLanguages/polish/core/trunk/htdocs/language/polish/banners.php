@@ -1,6 +1,10 @@
 <?php
 // $Id: $
 //%%%%%%		File Name banners.php 		%%%%%
+// _LANGCODE: pl
+// _CHARSET : UTF-8
+// Translator: Jarek Wiktorowicz  <www.jarek.wiktorowicz.pl>
+
 define("_BANNERS_LOGIN_TITLE", "Statystyki reklam");
 define("_BANNERS_LOGIN_LOGIN", "Login :");
 define("_BANNERS_LOGIN_PASS", "Hasło :");

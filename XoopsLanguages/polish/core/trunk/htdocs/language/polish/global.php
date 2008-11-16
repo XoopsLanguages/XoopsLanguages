@@ -1,6 +1,10 @@
 <?php
 // $Id: global.php 1529 2008-05-01 08:14:55Z phppp $
-//%%%%%%	File Name mainfile.php 	%%%%%
+//%%%%%%	File Name global.php 	%%%%%
+// _LANGCODE: pl
+// _CHARSET : UTF-8
+// Translator: Jarek Wiktorowicz  <www.jarek.wiktorowicz.pl>
+
 define("_PLEASEWAIT", "Proszę czekać");
 define("_FETCHING", "Ładuję...");
 define("_TAKINGBACK", "Trwa przenoszenie...");
