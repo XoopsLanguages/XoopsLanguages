@@ -14,6 +14,10 @@
  * @version     $Id: admin.php 2166 2008-09-22 11:25:32Z forxoops $
  * @since       2.3.0
  */
+// $Id$
+// _LANGCODE: pl
+// _CHARSET : UTF-8
+// Translator: Jarek Wiktorowicz  <www.jarek.wiktorowicz.pl>
 
 // General
 define("_THADMIN_PREFERENCES", "Preferencje");

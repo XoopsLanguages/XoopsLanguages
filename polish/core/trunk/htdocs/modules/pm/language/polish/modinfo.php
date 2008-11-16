@@ -1,4 +1,8 @@
 <?php
+// $Id$
+// _LANGCODE: pl
+// _CHARSET : UTF-8
+// Translator: Jarek Wiktorowicz  <www.jarek.wiktorowicz.pl>
 define("_PM_MI_NAME", "Wiadomości");
 define("_PM_MI_DESC", "Moduł obsługujący wiadomości prywatne pomiędzy użytkownikami");
 define("_PM_MI_INDEX", "Indeks");

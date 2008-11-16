@@ -1,6 +1,9 @@
 <?php
 // $Id: tplsets.php 1529 2008-05-01 08:14:55Z phppp $
 //%%%%%% Template Manager %%%%%
+// _LANGCODE: pl
+// _CHARSET : UTF-8
+// Translator: Jarek Wiktorowicz  <www.jarek.wiktorowicz.pl>
 define("_MD_TPLMAIN", "Zarządzanie szablonami graficznymi");
 define("_MD_INSTALL", "Instaluj");
 define("_MD_EDITTEMPLATE", "Edytuj szablon");

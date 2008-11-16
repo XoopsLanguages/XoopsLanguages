@@ -1,5 +1,9 @@
 <?php
 // $Id: comment.php 506 2006-05-26 23:10:37Z skalpa $
+// _LANGCODE: pl
+// _CHARSET : UTF-8
+// Translator: Jarek Wiktorowicz  <www.jarek.wiktorowicz.pl>
+
 define("_CM_TITLE", "Tytuł");
 define("_CM_MESSAGE", "Wiadomość");
 define("_CM_DOSMILEY", "Włącz emotikony");

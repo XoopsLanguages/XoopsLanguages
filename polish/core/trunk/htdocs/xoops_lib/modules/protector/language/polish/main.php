@@ -1,4 +1,8 @@
 <?php
+// $Id$
+// _LANGCODE: pl
+// _CHARSET: UTF-8
+// Translator: Jarek Wiktorowicz  <www.jarek.wiktorowicz.pl>
 
 define("_MD_PROTECTOR_YOUAREBADIP", "Zostałeś zarejestrowany przez Protectora jako zbanowane IP.");
 define("_MD_PROTECTOR_TURNJAVASCRIPTON", "Włącz obsługę JavaScript");

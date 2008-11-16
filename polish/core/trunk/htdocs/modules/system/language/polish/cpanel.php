@@ -1,5 +1,9 @@
 <?php
 // $Id: preferences.php 1454 2008-04-18 09:39:38Z phppp $
+// _LANGCODE: pl
+// _CHARSET : UTF-8
+// Translator: Jarek Wiktorowicz  <www.jarek.wiktorowicz.pl>
+
 define("_MD_CPANEL_NEWS", "Newsy");
 define("_MD_CPANEL_NEWS_DESC", "Newsy o rozwoju XOOPS'a");
 define("_MD_CPANEL_PROJECT", "Projekt");

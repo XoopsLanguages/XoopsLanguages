@@ -1,6 +1,9 @@
 <?php
 // $Id
 //%%%%%% Avatar Manager %%%%%
+// _LANGCODE: pl
+// _CHARSET : UTF-8
+// Translator: Jarek Wiktorowicz  <www.jarek.wiktorowicz.pl>
 define("_MD_AVATARMAN", "Menedżer avatarów");
 define("_MD_SYSAVATARS", "Avatary systemowe");
 define("_MD_CSTAVATARS", "Avatary dodatkowe");

@@ -1,5 +1,9 @@
 <?php
 // $Id: captcha.php 1525 2008-04-30 13:11:48Z phppp $
+// _LANGCODE: pl
+// _CHARSET : UTF-8
+// Translator: Jarek Wiktorowicz  <www.jarek.wiktorowicz.pl>
+
 define("_CAPTCHA_CAPTION", "Kod potwierdzenia");
 define("_CAPTCHA_INVALID_CODE", "Niepoprawny kod!");
 define("_CAPTCHA_TOOMANYATTEMPTS", "Zbyt wiele prób!");

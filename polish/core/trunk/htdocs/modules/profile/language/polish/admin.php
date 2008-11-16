@@ -1,5 +1,8 @@
 <?php
 // $Id: admin.php 2263 2008-10-09 04:26:04Z phppp $
+// _LANGCODE: pl
+// _CHARSET : UTF-8
+// Translator: Jarek Wiktorowicz  <www.jarek.wiktorowicz.pl>
 define("_PROFILE_AM_FIELD", "Pole");
 define("_PROFILE_AM_FIELDS", "Pola");
 define("_PROFILE_AM_CATEGORY", "Kategoria");

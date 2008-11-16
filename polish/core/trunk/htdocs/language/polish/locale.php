@@ -20,8 +20,12 @@
  * @version         $Id: locale.php 1530 2008-05-01 09:22:47Z phppp $
  * @todo            To be handled by i18n/l10n
  */
+// $Id$ 
+// _LANGCODE: pl
+// _CHARSET : UTF-8
+// Translator: Jarek Wiktorowicz  <www.jarek.wiktorowicz.pl>
 
-setlocale(LC_ALL, 'en_US');
+setlocale(LC_ALL, 'pl_PL');
 
 // !!IMPORTANT!! insert '\' before any char among reserved chars: "a", "A", "B", "c", "d", "D", "F", "g", "G", "h", "H", "i", "I", "j", "l", "L", "m", "M", "n", "O", "r", "s", "S", "t", "T", "U", "w", "W", "Y", "y", "z", "Z"    
 // insert double '\' before 't', 'r', 'n'

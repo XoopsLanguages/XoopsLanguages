@@ -1,5 +1,8 @@
 <?php
 // $Id: misc.php 2 2005-11-02 18:23:29Z skalpa $
+// _LANGCODE: pl
+// _CHARSET : UTF-8
+// Translator: Jarek Wiktorowicz  <www.jarek.wiktorowicz.pl>
 define("_MSC_YOURNAMEC", "Twoje imię: ");
 define("_MSC_YOUREMAILC", "Twój email: ");
 define("_MSC_FRIENDNAMEC", "Imię znajomego: ");

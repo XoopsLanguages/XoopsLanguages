@@ -1,6 +1,9 @@
 <?php
 // $Id: $
 //%%%%%%		File Name auth.php 		%%%%%
+// _LANGCODE: pl
+// _CHARSET : UTF-8
+// Translator: Jarek Wiktorowicz  <www.jarek.wiktorowicz.pl>
 
 define("_AUTH_MSG_AUTH_METHOD", "Używasz %s jako metody uwierzytelniania");
 define("_AUTH_LDAP_EXTENSION_NOT_LOAD", "Rozszerzenie PHP LDAP nie załadowane (sprawdź plik konfiguracyjny php.ini)");

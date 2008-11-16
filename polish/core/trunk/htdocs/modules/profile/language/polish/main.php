@@ -1,5 +1,8 @@
 <?php
 // $Id: main.php 2021 2008-08-31 02:02:45Z phppp $
+// _LANGCODE: pl
+// _CHARSET : UTF-8
+// Translator: Jarek Wiktorowicz  <www.jarek.wiktorowicz.pl>
 define("_PROFILE_MA_REGISTER_NOTGROUP", "Nowy użytkownik nie jest przypisany do odpowiednich grup.");
 define("_PROFILE_MA_FINISH_LOGIN", "Twoje konto zostało pomyślnie utworzone, kliknij aby się zalogować.");
 define("_PROFILE_MA_REGISTER_FINISH", "Dziękujemy za rejestrację");

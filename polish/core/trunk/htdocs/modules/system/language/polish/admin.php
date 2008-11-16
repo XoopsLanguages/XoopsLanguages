@@ -1,6 +1,9 @@
 <?php
 // $Id: admin.php 1502 2008-04-26 11:52:21Z phppp $
 //%%%%%%	File Name  admin.php 	%%%%%
+// _LANGCODE: pl
+// _CHARSET : UTF-8
+// Translator: Jarek Wiktorowicz  <www.jarek.wiktorowicz.pl>
 define("_MD_AM_DBUPDATED", "Uaktualniono bazę danych!");
 define("_MD_AM_DBERROR", "Ze względu na błąd nie uaktualniono bazy danych!");
 define("_MD_AM_CONFIG", "Konfiguracja systemu");

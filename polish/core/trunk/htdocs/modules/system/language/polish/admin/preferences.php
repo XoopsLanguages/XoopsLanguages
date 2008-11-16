@@ -2,6 +2,10 @@
 // $Id: preferences.php 1970 2008-08-24 02:16:51Z phppp $
 //%%%%%%	Admin Module Name  AdminGroup 	%%%%%
 // dont change
+// _LANGCODE: pl
+// _CHARSET : UTF-8
+// Translator: Jarek Wiktorowicz  <www.jarek.wiktorowicz.pl>
+
 define("_AM_DBUPDATED",_MD_AM_DBUPDATED);
 
 define("_MD_AM_SITEPREF", "Preferencje strony");

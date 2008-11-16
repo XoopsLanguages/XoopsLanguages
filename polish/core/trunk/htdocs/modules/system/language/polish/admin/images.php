@@ -1,7 +1,9 @@
 <?php
 // $Id: images.php 2 2005-11-02 18:23:29Z skalpa $
 //%%%%%% Image Manager %%%%%
-
+// _LANGCODE: pl
+// _CHARSET : UTF-8
+// Translator: Jarek Wiktorowicz  <www.jarek.wiktorowicz.pl>
 
 define("_MD_IMGMAIN", "Menedżer obrazów");
 define("_MD_ADDIMGCAT", "Dodaj kategorię");

@@ -1,6 +1,9 @@
 <?php
 // $Id: userrank.php 1529 2008-05-01 08:14:55Z phppp $
 //%%%%%%	Admin Module Name  UserRank 	%%%%%
+// _LANGCODE: pl
+// _CHARSET : UTF-8
+// Translator: Jarek Wiktorowicz  <www.jarek.wiktorowicz.pl>
 define("_AM_DBUPDATED",_MD_AM_DBUPDATED);
 define("_AM_RANKSSETTINGS", "Rangi użytkowników");
 define("_AM_TITLE", "Ranga");

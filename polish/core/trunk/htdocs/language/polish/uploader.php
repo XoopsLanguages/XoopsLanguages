@@ -1,5 +1,8 @@
 <?php
 // $Id: uploader.php 1386 2008-03-23 03:26:06Z phppp $
+// _LANGCODE: pl
+// _CHARSET : UTF-8
+// Translator: Jarek Wiktorowicz  <www.jarek.wiktorowicz.pl>
 define("_ER_UP_MIMETYPELOAD", "Wystąpił błąd przy defniowaniu typów plików - MIME");
 define("_ER_UP_FILENOTFOUND", "Nie znaleziono pliku");
 define("_ER_UP_INVALIDFILESIZE", "Nieprawidłowy rozmiar pliku");

@@ -4,6 +4,10 @@
  * Polish Version, encoding: utf-8
  * translated from english lang file ver. 1.72
  */
+// $Id$
+// _LANGCODE: pl
+// _CHARSET : UTF-8
+// Translator: Jarek Wiktorowicz  <www.jarek.wiktorowicz.pl>
 
 $PHPMAILER_LANG = array();
 

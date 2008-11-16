@@ -1,6 +1,9 @@
 <?php
 // $Id: findusers.php 839 2007-06-28 20:05:30Z malanciault $
 //%%%%%%	File Name findusers.php 	%%%%%
+// _LANGCODE: pl
+// _CHARSET : UTF-8
+// Translator: Jarek Wiktorowicz  <www.jarek.wiktorowicz.pl>
 
 define("_AM_FINDUS", "Szukaj użytkowników");
 define("_AM_AVATAR", "Avatar");

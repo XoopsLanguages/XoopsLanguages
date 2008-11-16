@@ -1,6 +1,9 @@
 <?php
 // $Id: main.php 2025 2008-08-31 04:16:39Z phppp $
 //%%%%%%	File Name readpmsg.php 	%%%%%
+// _LANGCODE: pl
+// _CHARSET : UTF-8
+// Translator: Jarek Wiktorowicz  <www.jarek.wiktorowicz.pl>
 define("_PM_DELETED", "Twoje wiadomości zostały usunięte");
 define("_PM_PRIVATEMESSAGE", "Wiadomości");
 define("_PM_INBOX", "Odebrane");
