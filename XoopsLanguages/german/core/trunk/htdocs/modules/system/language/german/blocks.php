@@ -28,8 +28,7 @@ define("_MB_SYSTEM_COMPEND", "Kommentare");
 
 define('_MB_SYSTEM_SADMIN','Admin-Gruppe einsehen');
 define('_MB_SYSTEM_SPMTO','Private Nachricht an %s senden');
-define('_MB_SYSTEM_SEMTO','E-Mail an %s senden');
-define("_MB_SYSTEM_SEMTO","Sende Email zu %s");
+define('_MB_SYSTEM_SEMTO','Sende Email zu %s');
 
 define('_MB_SYSTEM_DISPLAY','Zeige %s Mitglieder an');
 define('_MB_SYSTEM_DISPLAYA','Mitgliedsavatare anzeigen');
