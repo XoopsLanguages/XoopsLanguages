@@ -43,7 +43,7 @@ define('_NOT_CONFIG_ENABLED', 'Aktive meddelelser');
 define('_NOT_CONFIG_ENABLEDDSC', 'Dette modul tillader brugerne at få en meddelelse når bestemte handlinger sker. Vælg "Ja" for at aktiverer denne mulighed');
 
 define('_NOT_CONFIG_EVENTS', 'Aktiver bestemte begivenheder');
-define('_NOT_CONFIG_EVENTSDSC', 'Vælg vilke(n) meddelelses begivenheder brugerne må abbonerer på');
+define('_NOT_CONFIG_EVENTSDSC', 'Vælg hvilke meddelelses begivenheder brugerne må abbonerer på');
 
 define('_NOT_CONFIG_ENABLE', 'Deaktiver meddelelser');
 define('_NOT_CONFIG_ENABLEDSC', 'Dette modul tillader brugerne at få en meddelelse når bestemte handlinger sker. Vælg om brugerne skal præsenteres for meddelelserne i en blok (Block-style), eller i modulet (Inline-style), eller begge dele. Ved Block-style meddelelser, skal meddelelsers indstillingsblokke været aktiveret for dette modul.');
