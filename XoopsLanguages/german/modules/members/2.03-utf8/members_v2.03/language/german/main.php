@@ -1,0 +1,33 @@
+<?php
+define("_MM_SEARCH","Mitglieder Suche");
+define("_MM_AVATAR","Avatar");
+define("_MM_REALNAME","Richtiger Name");
+define("_MM_REGDATE","Anmeldedatum");
+define("_MM_EMAIL","Email");
+define("_MM_PM","PN");
+define("_MM_URL","URL");
+define("_MM_PREVIOUS","Zurück");
+define("_MM_NEXT","Weiter");
+define("_MM_USERSFOUND","%s Mitglied(er) gefunden");
+define("_AM_GROUPS","Gruppen");
+define("_MM_TOTALUSERS", "Gesamt : %s Mitglieder");
+define("_MM_NOFOUND","Kein Mitglied gefunden");
+define("_MM_UNAME","Mitgliedsname");
+define("_MM_ICQ","ICQ");
+define("_MM_AIM","AIM");
+define("_MM_YIM","YIM");
+define("_MM_MSNM","MSN");
+define("_MM_LOCATION","Wohnort enthält");
+define("_MM_OCCUPATION","Beruf enthält");
+define("_MM_INTEREST","Interessen enthält");
+define("_MM_URLC","Homepage enthält");
+define("_MM_SORT","Sortieren nach");
+define("_MM_ORDER","Reihenfolge");
+define("_MM_LASTLOGIN","Zuletzt Eingeloggt");
+define("_MM_POSTS","Beiträge");
+define("_MM_ASC","Aufsteigende Reihenfolge");
+define("_MM_DESC","Absteigende Reihenfolge");
+define("_MM_LIMIT","Anzahl der Mitglieder pro Seite");
+define("_MM_RESULTS", "Suchergebnisse");
+define("_MM_ADMIN","Admin");
+?>

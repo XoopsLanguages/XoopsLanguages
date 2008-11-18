@@ -1,0 +1,21 @@
+<{strip}>
+
+<div align="center" style="margin:10px 0;">
+  <img src="<{$xoops_url}>/modules/sitemap/images/logo.gif" alt="" />
+</div>
+<hr noshade="noshade" color="#000000" />
+<div style="padding: 7px;"><{$msgs}></div>
+<hr noshade="noshade" color="#000000" />
+
+<div align="right">
+  <img src="<{$xoops_url}>/modules/sitemap/images/map.gif" />
+  <a href="<{$xoops_url}>/"><{$smarty.const._MD_SITEMAP_HOME}></a>&nbsp;
+  <a href="<{$xoops_url}>/"><img src="<{$xoops_url}>/modules/sitemap/images/startseite.gif" alt="Startseite" border="0" /></a>
+</div>
+
+
+<{foreach name=i item=module from=$sitemap.modules}>
+  <{include file="db:sitemap_inc_eachmodule.html" div_style="width:30%;float:left;margin:10px;"}>
+<{/foreach}>
+
+<{/strip}>
