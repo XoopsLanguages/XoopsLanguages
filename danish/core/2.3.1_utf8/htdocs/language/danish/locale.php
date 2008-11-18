@@ -25,10 +25,10 @@ setlocale(LC_ALL, 'da_DK');
 
 // !!IMPORTANT!! insert '\' before any char among reserved chars: "a", "A", "B", "c", "d", "D", "F", "g", "G", "h", "H", "i", "I", "j", "l", "L", "m", "M", "n", "O", "r", "s", "S", "t", "T", "U", "w", "W", "Y", "y", "z", "Z"    
 // insert double '\' before 't', 'r', 'n'
-define('_TODAY', 'Idag G:i');
-define('_YESTERDAY', 'I Går G:i');
-define('_MONTHDAY', 'n/j G:i');
-define('_YEARMONTHDAY', 'Y/n/j G:i');
+define("_TODAY", "\I \d\a\g G:i");
+define("_YESTERDAY", "\I \g\å\\r G:i");
+define("_MONTHDAY", "j/n G:i");
+define("_YEARMONTHDAY", "j/n/Y G:i");
 
 define('_ELAPSE', '%s siden');
 
