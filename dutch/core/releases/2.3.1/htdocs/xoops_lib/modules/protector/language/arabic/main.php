@@ -1,7 +1,0 @@
-<?php
-
-define('_MD_PROTECTOR_YOUAREBADIP',' ÇäÊå ãÓÌá ÈÞÇÆãÉ ÇáãääæÚíä ãä ÒíÇÑÉ ÇáãæÞÚ . Êã ÈæÇÓØÉ ÈÑäÇãÌ ÇáÍãÇíÉ..') ;
-define('_MD_PROTECTOR_TURNJAVASCRIPTON','Þã ÈÊÝÚíá ÇáÌÇÝÇ ãä ãÊÕÝÍß') ;
-define('_MD_PROTECTOR_DENYBYRBL','Êã ÑÝÖ ãÔÇÑßÊß áÇäß ãÓÌá ÈÞÇÆãÉ ÇáããäæÚíä ãä ÇáÇÖÇÝÉ') ;
-
-?>
