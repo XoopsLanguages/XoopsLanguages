@@ -16,16 +16,16 @@ define('_MI_NEWBB_BLOCK_TOPIC', 'Nyeste emner');
 define('_MI_NEWBB_BLOCK_POST', 'Nyeste indlæg');
 define('_MI_NEWBB_BLOCK_AUTHOR', 'Forfatter');
 /*
-define('_MI_NEWBB_BNAME2', 'Most Viewed Topics');
-define('_MI_NEWBB_BNAME3', 'Most Active Topics');
-define('_MI_NEWBB_BNAME4', 'Newest Digest');
-define('_MI_NEWBB_BNAME5', 'Newest Sticky Topics');
-define('_MI_NEWBB_BNAME6', 'Newest Posts');
-define('_MI_NEWBB_BNAME7', 'Authors with most topics');
-define('_MI_NEWBB_BNAME8', 'Authors with most posts');
-define('_MI_NEWBB_BNAME9', 'Authors with most digests');
-define('_MI_NEWBB_BNAME10', 'Authors with most sticky topics');
-define('_MI_NEWBB_BNAME11', 'Recent post with text');
+define('_MI_NEWBB_BNAME2', 'Mest viste Emner');
+define('_MI_NEWBB_BNAME3', 'mest aktive emner');
+define('_MI_NEWBB_BNAME4', 'Nyeste sammendrag');
+define('_MI_NEWBB_BNAME5', 'Nyeste Sticky Emner');
+define('_MI_NEWBB_BNAME6', 'Nyeste indlæg');
+define('_MI_NEWBB_BNAME7', 'Forfattere med de fleste emner');
+define('_MI_NEWBB_BNAME8', 'Forfattere med de fleste indlæg');
+define('_MI_NEWBB_BNAME9', 'Forfattere med de fleste digest');
+define('_MI_NEWBB_BNAME10', 'Forfattere med mest sticky emner');
+define('_MI_NEWBB_BNAME11', 'Nyeste indlæg med tekst');
 */
 
 // Names of admin menu items
@@ -35,7 +35,7 @@ define('_MI_NEWBB_ADMENU_FORUM', 'Fora');
 define('_MI_NEWBB_ADMENU_PERMISSION', 'Rettigheder');
 define('_MI_NEWBB_ADMENU_BLOCK', 'Blokke');
 define('_MI_NEWBB_ADMENU_ORDER', 'Rækkefælge');
-define('_MI_NEWBB_ADMENU_SYNC', 'SynkronisÂ´rr fora');
+define('_MI_NEWBB_ADMENU_SYNC', 'Synkronisér fora');
 define('_MI_NEWBB_ADMENU_PRUNE', 'Rens');
 define('_MI_NEWBB_ADMENU_REPORT', 'Rapporter');
 define('_MI_NEWBB_ADMENU_DIGEST', 'Resumé');
@@ -52,7 +52,7 @@ define('_MI_IMG_SET', 'Billed sæt');
 define('_MI_IMG_SET_DESC', 'Vælg det billed sæt der skal bruges');
 
 define('_MI_THEMESET', 'Tema');
-define('_MI_THEMESET_DESC', 'Module-wide, vælg \'"._NONE."\' vil bruge sidebreden på dit theme');
+define('_MI_THEMESET_DESC', 'Module-wide, vælg \'"Ingen"\' vil bruge sidebreden på dit theme');
 
 define('_MI_DIR_ATTACHMENT', 'Fysisk sti til vedhæftede filer.');
 define('_MI_DIR_ATTACHMENT_DESC', 'Fysisk sti behæves kun at blive sat fra xoops rod-biblioteket. Hvis du vil have vedhæftede filer gemt i www.ditdomæne.dk/uploads/newbb, behæves du altså kun at indtaste \'/uploads/newbb\' afslut aldrig med \'/\' thumbnails sti vil være \'/uploads/newbb/thumbs\'');
@@ -80,8 +80,8 @@ define('_MI_MAX_IMG_WIDTH_DESC', 'Sæt den maksimale <strong>brede</strong> stæ
 define('_MI_MAX_IMAGE_WIDTH', 'Maksimum billede brede for at lave thumbnail');
 define('_MI_MAX_IMAGE_WIDTH_DESC', 'Sætter den maksimale brede på et uploaded billede for at lave thumbnail. <br>Billede med brede stærrer en denne værdi vil ikke bruge thumbnail.');
 
-define('_MI_MAX_IMAGE_HEIGHT', 'Maksimum billede hæjde for at lave thumbnail');
-define('_MI_MAX_IMAGE_HEIGHT_DESC', 'Sætter den maksimale hæjde på et uploaded billede for at lave thumbnail. <br>Billede med hæjde stærrer en denne værdi vil ikke bruge thumbnail.');
+define('_MI_MAX_IMAGE_HEIGHT', 'Maksimum billede højde for at lave thumbnail');
+define('_MI_MAX_IMAGE_HEIGHT_DESC', 'Sætter den maksimale højde på et uploaded billede for at lave thumbnail. <br>Billede med højde størrer en denne værdi vil ikke bruge thumbnail.');
 
 define('_MI_SHOW_DIS', 'Vis Disclaimer til');
 define('_MI_DISCLAIMER', 'Disclaimer');
@@ -121,15 +121,15 @@ define('_MI_USERBAR_ENABLE_DESC', 'Viser en udvidet brugerbar: Profile, PM, ICQ,
 define('_MI_GROUPBAR_ENABLE', 'Slå Gruppe bar til');
 define('_MI_GROUPBAR_ENABLE_DESC', 'Viser brugerens grupper i indlægs info feltet.');
 
-define('_MI_RATING_ENABLE', 'Slå Bedæmmelse funktion til');
-define('_MI_RATING_ENABLE_DESC', 'Tillad emne bedæmmelse.');
+define('_MI_RATING_ENABLE', 'Slå Bedømmelse funktion til');
+define('_MI_RATING_ENABLE_DESC', 'Tillad emne bedømmelse.');
 
 define('_MI_VIEWMODE', 'Visnings mode på trådene');
 define('_MI_VIEWMODE_DESC', 'Til at overskrive den general indstilling af visning mode i tråde, sæt til NONE for at slå denne funktion fra');
 define('_MI_COMPACT', 'Kompakt');
 
 define('_MI_MENUMODE', 'Default Menu Mode');
-define('_MI_MENUMODE_DESC', '\'SELECT\' - valg muligheder, \'HOVER\' - kan virke slævt i IE, \'CLICK\' - kræver JAVASCRIPT');
+define('_MI_MENUMODE_DESC', '\'SELECT\' - valg muligheder, \'HOVER\' - kan virke sløvt i IE, \'CLICK\' - kræver JAVASCRIPT');
 
 define('_MI_REPORTMOD_ENABLE', 'Anmeld et indlæg');
 define('_MI_REPORTMOD_ENABLE_DESC', 'Brugere kan anmelde indlæg til Moderator(s), med en hvilken som helst grund. Dette gær det muligt for Moderator(s) at ændre, slette eller redigerer indlæget.');
@@ -154,7 +154,7 @@ define('_MI_ENABLE_KARMA_DESC', 'Dette tillader en bruger at sætte det karma kr
 define('_MI_KARMA_OPTIONS', 'Karma muligheder for indlæg');
 define('_MI_KARMA_OPTIONS_DESC', 'Brug \',\' som adskiller for multi-options.');
 
-define('_MI_SINCE_OPTIONS', '\'Siden\' options for \'viewform\' og \'sæg\'');
+define('_MI_SINCE_OPTIONS', '\'Siden\' options for \'viewform\' og \'søg\'');
 define('_MI_SINCE_OPTIONS_DESC', 'Positiv værdi for dage og negativ for timer. Brug \',\' som adskiller for multi-options.');
 
 define('_MI_SINCE_DEFAULT', '\'Siden\' standart værdi');
@@ -167,27 +167,26 @@ define('_MI_USER_ANONYMOUS', 'Tillad registerede brugere at poste anonymt');
 define('_MI_USER_ANONYMOUS_DESC', 'Dette tillader en bruger der er logget på at skrive anonymt');
 
 define('_MI_ANONYMOUS_PRE', 'Prefix for anonyme brugere');
-define('_MI_ANONYMOUS_PRE_DESC', 'Dette vil tilfæje et prefix til den anonyme brugers brugernavn når han lavet et indlæg');
+define('_MI_ANONYMOUS_PRE_DESC', 'Dette vil tilføje et prefix til den anonyme brugers brugernavn når han lavet et indlæg');
 
 define('_MI_REQUIRE_REPLY', 'Tillad at kræve et svar for at læse');
 define('_MI_REQUIRE_REPLY_DESC', 'Denne funktion tvinger læsere at svare på det orginale indlæg får de kan læse det.');
 
-define('_MI_EDIT_TIMELIMIT', 'Tids grænse for at redigere et indlæg');
-define('_MI_EDIT_TIMELIMIT_DESC', 'Skt en tidsgrknse indtil brugere ikke lkngere kan redigere deres egne posts, i minutter. 0 for ingen grknse');
+define('_MI_EDIT_TIMELIMIT', 'Tidsgrænse for at redigere et indlæg');
+define('_MI_EDIT_TIMELIMIT_DESC', 'Sæt en tidsgrænse indtil brugere ikke længere kan redigere deres egne posts, i minutter. 0 for ingen grænse');
 
-define('_MI_DELETE_TIMELIMIT', 'Tids grkse for at slette et indlkg');
-define('_MI_DELETE_TIMELIMIT_DESC', 'Skt en tidsgrknse indtil brugere ikke lkngere kan slette deres egne posts, i minutter. 0 for ingen grknse');
+define('_MI_DELETE_TIMELIMIT', 'Tidsgrænse for at slette et indlkg');
+define('_MI_DELETE_TIMELIMIT_DESC', 'Sæt en tidsgrænse indtil brugere ikke lkngere kan slette deres egne posts, i minutter. 0 for ingen grænse');
 
-define('_MI_POST_TIMELIMIT', 'Tids grkse for at gentagende posting');
-define('_MI_POST_TIMELIMIT_DESC', 'Skt en tidsgrknse for gentagende posting. I sekunder, 0 for ingen grknse');
+define('_MI_POST_TIMELIMIT', 'Tidsgrænse for at gentagende posting');
+define('_MI_POST_TIMELIMIT_DESC', 'Sæt en tidsgrænse for gentagende posting. I sekunder, 0 for ingen grænse');
 
-define('_MI_RECORDEDIT_TIMELIMIT', 'Tids grænse for at vise redigeret info');
+define('_MI_RECORDEDIT_TIMELIMIT', 'Tidsgrænse for at vise redigeret info');
 define('_MI_RECORDEDIT_TIMELIMIT_DESC', 'Sæt en tidsgrænse for at vente med at vise et et inlæg er blevet redigeret, i minutter. 0 for ingen grænse');
 
 define('_MI_SUBJECT_PREFIX', 'Tilfæj et prefix til et Emne emne');
 define('_MI_SUBJECT_PREFIX_DESC', 'Sæt et Præfix i begyndelsen af enmet. Brug \',\' som adskiller ved flere muligheder, eller lad den være blank for ikke at benytte præfix.');
-define('_MI_SUBJECT_PREFIX_DEFAULT', '<font color="#00CC00">[læst]</font>,<font color="#00CC00">[rettet]</font>,<font color="#FF0000">[ænske]</font>,<font color="#FF0000">[fejl rapport]</font>,<font color="#FF0000">[ulæst]</font>\'');
-
+//define("_MI_SUBJECT_PREFIX_DEFAULT", '<font color="#00CC00">[løst]</font>,<font color="#00CC00">[rettet]</font>,<font color="#FF0000">[ønske]</font>,<font color="#FF0000">[fejl rapport]</font>,<font color="#FF0000">[uløst]</font>\');
 define('_MI_SUBJECT_PREFIX_LEVEL', 'Hvem kan bruge præfix');
 define('_MI_SUBJECT_PREFIX_LEVEL_DESC', 'Vælg hvem der må benytte præfiks');
 define('_MI_SPL_DISABLE', 'Slå fra');
@@ -200,7 +199,7 @@ define('_MI_SHOW_REALNAME', 'Vis Rigtigt navn');
 define('_MI_SHOW_REALNAME_DESC', 'Skift brugernavn ud med brugerns rigtige navn');
 
 define('_MI_CACHE_ENABLE', 'Slå Cache til');
-define('_MI_CACHE_ENABLE_DESC', 'Gem nogle mellemliggende resultater i en session for at sparre på forespærgelserne');
+define('_MI_CACHE_ENABLE_DESC', 'Gem nogle mellemliggende resultater i en session for at spare på forespørgelserne');
 
 define('_MI_QUICKREPLY_ENABLE', 'Slå Hurtig Svar til');
 define('_MI_QUICKREPLY_ENABLE_DESC', 'Dette vil slå Hurtig svar formen til');
@@ -237,7 +236,7 @@ define('_MI_GD2', 'GD2 Library');
 define('_MI_AUTO', 'AUTO');
 
 define('_MI_WELCOMEFORUM', 'Forum til velkomst af nye brugere');
-define('_MI_WELCOMEFORUM_DESC', 'Et profile indlæg vil blive indsendt færste gang en bruger besæger forummet.');
+define('_MI_WELCOMEFORUM_DESC', 'Et profile indlæg vil blive indsendt første gang en bruger besøger forummet.');
 
 define('_MI_PERMCHECK_ONDISPLAY', 'Kontroller rettigheder');
 define('_MI_PERMCHECK_ONDISPLAY_DESC', 'Kontroller rettigheder for redigering på siden');
@@ -302,6 +301,6 @@ define('_MI_NEWBB_INSTALL_POST_SUBJECT', 'Tillykke! Forummet virker');
 define('_MI_NEWBB_INSTALL_POST_TEXT', '	Velkommen til ".(htmlspecialchars($GLOBALS["xoopsConfig"][\'sitename\'], ENT_QUOTES))." forum.
 	Du er velkommen til at registrerer dig og logge ind, for at starte en debat:
 	
-	Hvis du har nogle spærgsmål om CBB, besæg den danske XOOPS side på [url=http://www.xoops.dk]
+	Hvis du har nogle spærgsmål om CBB, besøg den nordiske XOOPS side på [url=http://www.xoopsnordic.org]
 	');
 ?>

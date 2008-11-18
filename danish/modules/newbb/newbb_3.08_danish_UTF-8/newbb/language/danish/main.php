@@ -466,6 +466,11 @@ define("_MD_YESTERDAY", "\I\g\å\\r\ G:i:s");
 define("_MD_MONTHDAY", "n/j G:i:s");
 define("_MD_YEARMONTHDAY", "Y/n/j G:i");
 
+
+
+
+
+
 // For user info
 // If you have customized userbar, define here.
 require_once(XOOPS_ROOT_PATH."/modules/newbb/class/user.php");
