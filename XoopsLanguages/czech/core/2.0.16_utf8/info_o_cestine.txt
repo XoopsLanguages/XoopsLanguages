@@ -1,0 +1,28 @@
+--[ Cestina pro XOOPS 2 ]------------------------------------------------------
+
+Verze XOOPS:      2.0.16 (funguje na vsech verzich XOOPS 2.0.x.x)
+Verze cestiny:    6.11.27
+Posledni upravy:  27.11.2006 7:42
+Obsah:		  Jazykove soubory jadra
+		  Jazykovy soubor pro phpmailer
+		  Jazykove soubory pro modul System
+		  Jazykove soubory pro upgrade skript
+		  Jazykove soubory pro upgrade 2.0.13-2.0.14
+		  Jazykove soubory pro upgrade 2.0.15-2.0.16
+		  (Neobsahuje zadné jine moduly nez System!)
+
+Pro nejnovejsi verzi navstivte stranky ceske oficialni podpory XOOPS:
+http://xoops.zpc.cz
+
+--[ Na prekladu se podileli ]--------------------------------------------------
+
+- lide z Periferie.biz
+- kluci z Hununpa.cz
+- Alexa - Sasa K. Svobodova - Zdravotnici.cz
+- ZPC - Martin Zikmund - Xoops.zpc.cz
+
+--[ Poznamky k cestine ]-------------------------------------------------------
+
+- nektere veci kolem LDAP nejsou jeste uplne prelozeny - kdo vi at napovi...
+
+-[ Pro vice infa navstivte ceskou oficialni podoru XOOPS http://xoops.zpc.cz ]-
