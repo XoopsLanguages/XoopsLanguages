@@ -1,0 +1,11 @@
+<?php
+// $Id: comments.php 2 2005-11-02 18:23:29Z skalpa $
+//%%%%%% Comment Manager %%%%%
+define('_MD_AM_COMMMAN','<p align=right>ÃÏÇÑÉ ÇáÊÚáíÞÇÊ');
+
+define('_MD_AM_LISTCOMM','ÞÇÆãÉ ÇáÊÚáíÞÇÊ');
+define('_MD_AM_ALLMODS','ßá ÇáÈÑÇãÌ');
+define('_MD_AM_ALLSTATUS','Ãí ÍÇáÉ');
+define('_MD_AM_MODULE','ÈÑäÇãÌ');
+define('_MD_AM_COMFOUND','æÌÏäÇ %s ÊÚáíÞ');
+?>

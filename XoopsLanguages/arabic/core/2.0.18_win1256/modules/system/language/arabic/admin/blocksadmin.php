@@ -1,0 +1,70 @@
+<?php
+// $Id: blocksadmin.php 506 2006-05-26 23:10:37Z skalpa $
+//%%%%%%	Admin Module Name  Blocks 	%%%%%
+define("_AM_DBUPDATED",_MD_AM_DBUPDATED);
+
+//%%%%%%	blocks.php 	%%%%%
+define("_AM_BADMIN","<p align=right>·ÊÕ…  Õﬂ„ «·»·Êﬂ« ");
+define("_AM_ADDBLOCK","√÷› »·Êﬂ ÃœÌœ");
+define("_AM_LISTBLOCK","⁄—÷ Ã„Ì⁄ «·»·Êﬂ« ");
+define("_AM_SIDE","«·≈ Ã«Â");
+define("_AM_BLKDESC","Ê’› «·»·Êﬂ");
+define("_AM_TITLE","«·≈”„");
+define("_AM_WEIGHT","«· — Ì»");
+define("_AM_ACTION","«· Õﬂ„");
+define("_AM_BLKTYPE","Œ’«∆’ «·»·Êﬂ");
+define("_AM_LEFT","Ì„Ì‰");
+define("_AM_RIGHT","Ì”«—");
+define("_AM_CENTER","„‰ ’›");
+define("_AM_VISIBLE","„—∆Ì");
+define("_AM_POSCONTT","„Ê÷Ê⁄ «·„Õ ÊÌ« ");
+define("_AM_ABOVEORG","›Êﬁ «·„Õ ÊÌ«  «·√’·Ì…");
+define("_AM_AFTERORG","√”›· «·„Õ ÊÌ«  «·√’·Ì…");
+define("_AM_EDIT"," Õ—Ì—");
+define("_AM_DELETE","„”Õ");
+define("_AM_SBLEFT","»·Êﬂ „ Ã«‰» - Ì„Ì‰");
+define("_AM_SBRIGHT","»·Êﬂ „ Ã«‰» - Ì”«—");
+define("_AM_CBLEFT","»·Êﬂ «·„‰ ’› - Ì„Ì‰");
+define("_AM_CBRIGHT","»·Êﬂ «·„‰ ’› - Ì”«—");
+define("_AM_CBCENTER","»·Êﬂ «·„‰ ’› - „‰ ’›");
+define("_AM_CBBOTTOMLEFT","»·Êﬂ «·„‰ ’› - Ì”«— √”›·");
+define("_AM_CBBOTTOMRIGHT","»·Êﬂ «·„‰ ’› - Ì„Ì‰ √”›·");
+define("_AM_CBBOTTOM","»·Êﬂ «·„‰ ’› - √”›·");
+define("_AM_CONTENT","«·„Õ ÊÌ« ");
+define("_AM_OPTIONS","«·≈Œ Ì«—« ");
+define("_AM_CTYPE","·€… «·„Õ ÊÌ« ");
+define("_AM_HTML","·€… html");
+define("_AM_PHP","»—‰«„Ã php");
+define("_AM_AFWSMILE","ÿ»Ì⁄Ì ( ‘€Ì· «·ÊÃÊÂ «· ⁄»Ì—Ì…)");
+define("_AM_AFNOSMILE","ÿ»Ì⁄Ì («Ìﬁ«› «·ÊÃÊÂ «· ⁄»Ì—Ì…)");
+define("_AM_SUBMIT","√—”·");
+define("_AM_CUSTOMHTML","»·Êﬂ  ﬁ·ÌœÌ (HTML)");
+define("_AM_CUSTOMPHP","»·Êﬂ  ﬁ·ÌœÌ (PHP)");
+define("_AM_CUSTOMSMILE","»·Êﬂ  ﬁ·ÌœÌ (ÿ»Ì⁄Ì + ÊÃÊÂ  ⁄»Ì—Ì…)");
+define("_AM_CUSTOMNOSMILE","»·Êﬂ  ﬁ·ÌœÌ (ÿ»Ì⁄Ì)");
+define("_AM_DISPRIGHT","⁄—÷ «·»·Êﬂ«  «·„ÊÃÊœÌ‰ ⁄·Ï «·Ì„Ì‰");
+define("_AM_SAVECHANGES","Õ›Ÿ «· €Ì—« ");
+define("_AM_EDITBLOCK"," Õ—Ì— «·»·Êﬂ");
+define("_AM_SYSTEMCANT","»·Êﬂ«  «·‰Ÿ«„ ·« Ì„ﬂ‰ „”ÕÂ«");
+define("_AM_MODULECANT","·« Ì„ﬂ‰ „”Õ Â–« «·»·Êﬂ «·« «–« √Êﬁ›  «·»—‰«„Ã ‰›”Â ⁄‰ ÿ—Ìﬁ «·„ÊœÌ· («·»—«„Ã)");
+define("_AM_RUSUREDEL","Â· √‰  „ √ﬂœ „‰ «‰ﬂ  —Ìœ „”Õ Â–« «·»·Êﬂ <b>%s</b> ø");
+define("_AM_NAME","«·≈”„");
+define("_AM_USEFULTAGS","√„— „›Ìœ :");
+define("_AM_BLOCKTAG1","%s ”Ì —Ã„ «·Ï %s");
+define('_AM_SVISIBLEIN', '⁄—÷ «·»·Êﬂ«  ›Ì %s');
+define('_AM_TOPPAGE', '«·’›Õ… «·√Ê·Ï');
+define('_AM_VISIBLEIN', '„—∆Ì ›Ì');
+define('_AM_ALLPAGES', 'ﬂ· «·’›Õ« ');
+define('_AM_TOPONLY', '√⁄·Ï «·’›Õ…');
+define('_AM_ADVANCED', ' ⁄œÌ·«  „ ﬁœ„…');
+define('_AM_BCACHETIME', '„œ… «· Œ“Ì‰');
+define('_AM_BALIAS', '«·≈”„ «·„” ⁄«— ·Â');
+define('_AM_CLONE', '‰”Œ…');  // clone a block
+define('_AM_CLONEBLK', '„‰”ÊŒ'); // cloned block
+define('_AM_CLONEBLOCK', '«‰‘«¡ ‰”Œ… „‰ «·»·Êﬂ');
+define('_AM_NOTSELNG', "'%s' ·„ Ì „ «Œ Ì«—Â"); // error message
+define('_AM_EDITTPL', ' Õ—Ì— «·ﬁ«·»');
+define('_AM_MODULE', '»—‰«„Ã');
+define('_AM_GROUP', '„Ã„Ê⁄…');
+define('_AM_UNASSIGNED', '€Ì— „Õœœ');
+?>

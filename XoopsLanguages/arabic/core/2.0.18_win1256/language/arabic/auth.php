@@ -1,0 +1,14 @@
+<?php
+// $Id: $
+//%%%%%%		File Name auth.php 		%%%%%
+
+define('_AUTH_MSG_AUTH_METHOD',"ÃÓÊÎÏÇã %s ØÑíÞÉ ÇáÊæËíÞ");
+define('_AUTH_LDAP_EXTENSION_NOT_LOAD','PHP LDAP ÇáæÕáÉ ÛíÑ ÕÇáÍÉ (ÊÍÞÞ ãä ãáÝ ÇáÅÚÏÇÏÇÊ php.ini)');
+define('_AUTH_LDAP_SERVER_NOT_FOUND',"áã íÓÊØíÚ ÇáÇÊÕÇá ÈÇáÎÇÏã");
+define('_AUTH_LDAP_USER_NOT_FOUND',"ÇáÚÖæ %s ÛíÑ ãæÌæÏ Ýí Ïáíá ÇáÎÇÏã (%s) Ýí %s");
+define('_AUTH_LDAP_CANT_READ_ENTRY',"ÛíÑ ãÓÌá ÏÎæá %s");
+define('_AUTH_LDAP_XOOPS_USER_NOTFOUND',"ÂÓÝ áã íÊãßä ãä ÇíÌÇÏ ãÚáæãÇÊ ÇáÏÎæá Ýí ÞÇÚÏÉ ÇáÈíÇäÇÊ: %s <br>" .
+		"ÇáÑÌÇÁ ÇáÊÍÞÞ ãä ÈíÇäÇÊ ÍÓÇÈß Ãæ ÃÖÈØ ÇáÊÍÞÞ Úáì ÇáæÖÚ ÇáÊáÞÇÆí");
+define('_AUTH_LDAP_START_TLS_FAILED',"ÝÔá Ýí ÝÊÍ ÅÊÕÇá TLS");		
+		
+?>
