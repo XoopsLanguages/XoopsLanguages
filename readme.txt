@@ -17,18 +17,15 @@ Structure Example:
 XoopsLanguages/
 -- spanish/
 ----- core
-------- branches
-------- releases
 --------- 2.3.1
-------- trunk
---------- docs
---------- upgrade
---------- release_notes_spanish.txt
+----------- docs
+----------- upgrade
+----------- release_notes_spanish.txt
 ----- modules
 --------- moduleA
------------ branches
------------ releases
------------ trunk
+----------- 1.0
+------------- language
+--------------- spanish
 ----- themes
 
 Note: You can use "foo" directory example. Copy and rename it.
