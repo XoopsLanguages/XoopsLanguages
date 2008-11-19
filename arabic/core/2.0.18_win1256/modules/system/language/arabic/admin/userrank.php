@@ -1,0 +1,28 @@
+<?php
+// $Id: userrank.php 1145 2007-12-04 09:43:26Z phppp $
+//%%%%%%	Admin Module Name  UserRank 	%%%%%
+define("_AM_DBUPDATED",_MD_AM_DBUPDATED);
+define("_AM_RANKSSETTINGS","<p align=right> ⁄œÌ·«  — » «·√⁄÷«¡");
+define("_AM_TITLE","«·≈”„");
+define("_AM_MINPOST","√ﬁ· ⁄œœ „‰ «·„‘«—ﬂ« ");
+define("_AM_MAXPOST","√ﬂÀ— ⁄œœ „‰ «·„‘«—ﬂ« ");
+define("_AM_IMAGE","«·’Ê—…");
+define("_AM_SPERANK","— »… Œ«’…");
+define("_AM_ON","Ì⁄„·");
+define("_AM_OFF","·« Ì⁄„·");
+define("_AM_EDIT"," Õ—Ì—");
+define("_AM_DEL","„”Õ");
+define("_AM_ADDNEWRANK","√÷›  — Ì» ÃœÌœ");
+define("_AM_RANKTITLE","«”„ «·„— »…");
+define("_AM_SPECIAL","— »… Œ«’…");
+define("_AM_ADD","√÷›");
+define("_AM_EDITRANK"," Õ—Ì— «·„—« »");
+define("_AM_ACTIVE","‰‘ÿ");
+define("_AM_SAVECHANGE","Õ›Ÿ «· €Ì—« ");
+define("_AM_WAYSYWTDTR","Â· √‰  „ √ﬂœ „‰ √‰ﬂ  —Ìœ „”Õ Â–Â «·„— »… ø");
+define("_AM_YES","‰⁄„");
+define("_AM_NO","·«");
+define("_AM_VALIDUNDER","(«·’Ê—…  ﬂÊ‰ ’ÕÌÕ… ›Ì œ«Œ· Â–« «·„Ã·œ <b>%s</b> )");
+define("_AM_SPECIALCAN","(«·— »… «·Œ«’…  ⁄‰Ì ⁄œ„ «· ﬁÌœ ›Ì ⁄œœ «·„‘«—ﬂ«  ›«·— »… À«» Â Ê·Ì” ·Â« ⁄·«ﬁ… »«·„‘«—ﬂ« )");
+define("_AM_ACTION","«· Õﬂ„");
+?>
