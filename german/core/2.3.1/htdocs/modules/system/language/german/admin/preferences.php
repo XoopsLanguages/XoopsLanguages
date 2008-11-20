@@ -176,8 +176,8 @@ define('_MD_AM_SMTPPASS','SMTPAuth-Passwort');
 define('_MD_AM_SMTPPASSDESC','Passwort um zu einem SMTP host mit SMTPAuth zu verbinden.');
 define('_MD_AM_SENDMAILPATH','Pfad zu sendmail');
 define('_MD_AM_SENDMAILPATHDESC','Pfad zum sendmail-Programm (oder Ersatz) auf dem Webserver.');
-define('_MD_AM_THEMEOK','W&auml;hlbare Themen');
-define('_MD_AM_THEMEOKDSC','W&auml;hlen Sie Themen aus, die die Mitglieder als Standard-Thema einstellen können');
+define('_MD_AM_THEMEOK','Wählbare Themen');
+define('_MD_AM_THEMEOKDSC','Wählen Sie Themen aus, die die Mitglieder als Standard-Thema einstellen können');
 
 
 // Xoops Authentication constants
@@ -245,15 +245,12 @@ define("_MD_AM_LDAP_FIELD_MAPPING_DESC", "Describe here the mapping between the 
 define("_MD_AM_LDAP_PROVIS_UPD", "Maintain xoops account provisionning");
 define("_MD_AM_LDAP_PROVIS_UPD_DESC", "The Xoops User account is always synchronized with the Authentication Server");	
 
-define("_MD_AM_CPANEL", "Control Panel GUI");
-define("_MD_AM_CPANELDSC", "For backend");
+define("_MD_AM_CPANEL", "Administrationstheme");
+define("_MD_AM_CPANELDSC", "Für Backend");
 
 define("_MD_AM_WELCOMETYPE", "Sende eine Willkommensnachricht");
-define("_MD_AM_WELCOMETYPE_DESC", "The way of sending out a welcoming message to a user upon his successful registration.");
+define("_MD_AM_WELCOMETYPE_DESC", "Die Art der Benachrichtigung über eine erfolgreiche Registrierung an den User.");
 define("_MD_AM_WELCOMETYPE_EMAIL", "Email");
 define("_MD_AM_WELCOMETYPE_PM", "Mitteilungen");
 define("_MD_AM_WELCOMETYPE_BOTH", "Email und Mitteilungen");
-
-
-
 ?>
