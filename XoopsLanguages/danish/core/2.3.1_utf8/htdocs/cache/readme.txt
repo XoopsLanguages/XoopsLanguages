@@ -1,2 +1,2 @@
-Bibeholdt for bagudkompatilitet.
-Det anbefales, at pege på mappen til xoops_data/caches/smarty_cache/ med symlink.
+Just kept for backward compat.
+It is recommended to point the folder to xoops_data/caches/smarty_cache/ with symlink.
