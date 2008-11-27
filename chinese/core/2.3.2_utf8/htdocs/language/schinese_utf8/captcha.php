@@ -8,7 +8,7 @@ define("_CAPTCHA_MAXATTEMPTS", "您最多可以尝试: %d 次");
 // For image mode
 define("_CAPTCHA_RULE_IMAGE", "输入图片上的字母");
 define("_CAPTCHA_RULE_CASESENSITIVE", "区分大小写");
-define("_CAPTCHA_RULE_CASEINSENSITIVE", "T不区分大小写");
+define("_CAPTCHA_RULE_CASEINSENSITIVE", "不区分大小写");
 define("_CAPTCHA_REFRESH", "如果看不清楚请点击图片刷新");
 
 // For text mode
