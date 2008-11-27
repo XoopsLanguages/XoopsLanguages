@@ -8,7 +8,7 @@ if( defined( 'FOR_XOOPS_LANG_CHECKER' ) || ! defined( $constpref.'_LOADED' ) ) {
 define( $constpref.'_LOADED' , 1 ) ;
 
 // The name of this module
-define($constpref."_NAME","Xoops安全卫士");
+define($constpref."_NAME","XOOPS安全卫士");
 
 // A brief description of this module
 define($constpref."_DESC","该模块可以保护你的XOOPS网站免受各类攻击，比如DoS, SQL注入, 变量污染等.");
