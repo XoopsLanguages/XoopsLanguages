@@ -6,6 +6,8 @@
  */
 //Translator ezsky(ezskyyoung@gmail.com)
 // General
+define('_THADMIN_OVERVIEW','系统概览');
+define('_THADMIN_PHPEXTENSIONS','加载 PHP 扩展');
 define('_THADMIN_PREFERENCES','参数设置');
 define('_THADMIN_UPDATE','更新');
 define('_THADMIN_TITLE', '网站管理'); 
