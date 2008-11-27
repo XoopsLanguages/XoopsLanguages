@@ -1,5 +1,5 @@
 <?php
-/**
+/**´
  *  TinyMCE adapter for XOOPS
  *
  * @copyright   The XOOPS project http://www.xoops.org/
