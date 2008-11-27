@@ -1,5 +1,5 @@
 <?php
-/**
+/** 
  * Editor framework for XOOPS
  *
  * @copyright	The XOOPS project http://www.xoops.org/
