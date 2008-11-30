@@ -1,0 +1,58 @@
+<?php
+// $Id: users.php,v 1.5 2003/02/12 11:38:42 okazu Exp $
+//%%%%%%	Admin Module Name  Users 	%%%%%
+define("_AM_DBUPDATED",_MD_AM_DBUPDATED);
+
+define("_AM_AYSYWTDU","Biztosan törölni akarod %s -t??");
+define("_AM_BYTHIS","Ezzel a felhasználóhoz tartozó összes információ véglegesen el lesz távolítva.");
+define("_AM_YES","Igen");
+define("_AM_NO","Nem");
+define("_AM_YMCACF","Ki kell töltened az összes kötelezõ mezõt");
+define("_AM_CNRNU","Nem lehet új felhasználót regisztrálni.");
+define("_AM_EDEUSER","Felhasználók Szerkesztése/Törlése");
+define("_AM_NICKNAME","Felhasználó név");
+define("_AM_MODIFYUSER","Felhasználó módosítása");
+define("_AM_DELUSER","Felhasználó törlése");
+define("_AM_GO","Mehet!");
+define("_AM_ADDUSER","Felhasználó hozzáadása");
+define("_AM_NAME","Valódi Név");
+define("_AM_EMAIL","E-mail");
+define("_AM_OPTION","Opció");
+define("_AM_AVATAR","Avatar");
+define("_AM_THEME","Kinézet");
+define("_AM_AOUTVTEAD","Más felhasználók láthatják ezt az e-mail címet");
+define("_AM_URL","URL");
+define("_AM_ICQ","ICQ");
+define("_AM_AIM","AIM");
+define("_AM_YIM","YIM");
+define("_AM_MSNM","MSN");
+define("_AM_LOCATION","Lakhely");
+define("_AM_OCCUPATION","Foglalkozás");
+define("_AM_INTEREST","Érdeklõdési kör");
+define("_AM_RANK","Rang");
+define("_AM_NSRA","Nincs különleges rang hozzárendelve");
+define("_AM_NSRID","Nincs különleges rang az adatbázisban");
+define("_AM_ACCESSLEV","Hozzáférési szint");
+define("_AM_SIGNATURE","Aláírás");
+define("_AM_PASSWORD","Jelszó");
+define("_AM_INDICATECOF","* jelöli a kötelezõ mezõket");
+define("_AM_NOTACTIVE","Ez a felhasználó még nincs aktiválva. Szeretnéd aktiválni?");
+define("_AM_UPDATEUSER","Felhasnáló frissítése");
+define("_AM_USERINFO","Felhasználó info");
+define("_AM_USERID","Felhasználó ID");
+define("_AM_RETYPEPD","Jelszó ismét");
+define("_AM_CHANGEONLY","(csak változtatásokra)");
+define("_AM_USERPOST","Felhasználó üzenetei");
+define("_AM_STORIES","Történetek");
+define("_AM_COMMENTS","Hozzászólások");
+define("_AM_PTBBTSDIYT","Kattints az alábbi gombra az adatok szinkronizálásához ha úgy gondolod, hogy a fenti hozzászólási adatok nem tûnnek helyesnek");
+define("_AM_SYNCHRONIZE","Szinkronizálás");
+define("_AM_USERDONEXIT","Nem létezõ felhasználó!");
+define("_AM_STNPDNM","Sajnálom, a két új jelszó nem egyezik. Menj vissza és próbáldd újra");
+define("_AM_CNGTCOM","Nem lehet lekérdezni az összes hozzászólások számát");
+define("_AM_CNGTST","Nem lehet lekérdezni az öszes történetek számát");
+define("_AM_CNUUSER","Nem lehet frissíteni a felhasználót");
+define("_AM_CNGUSERID","Nem lehet lekérdezni a felhasználó ID-ket");
+define("_AM_LIST","Lista");
+define("_AM_NOUSERS", "Nincs kiválasztott felhasználó");
+?>

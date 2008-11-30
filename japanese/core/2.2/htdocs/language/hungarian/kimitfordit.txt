@@ -1,0 +1,32 @@
++---------------------+
+|A fordítás befejezve!|
++---------------------+
+
+ChanOP: install mappa nyelvi fájljai kész, 
+Kész van:
+-global.php
+-mail.php
+-user.php
+
+készül:
+-pmsg.php 
+
+------------------------------
+Asmodeus: mail_tempelate mappa
+------------------------------
+shaark: 
+------------------------------
+Összesen kész van:
+-admin.php
+-calendar.php
+-comment.php
+-global.php
+-mail.php
+-misc.php
+-notification.php
+-pmsg.php
+-search.php
+-timezone.php
+-user.php
+
+100% :)
