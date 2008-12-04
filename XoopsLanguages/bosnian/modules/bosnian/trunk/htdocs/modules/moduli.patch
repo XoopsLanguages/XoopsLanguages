@@ -1,0 +1,726 @@
+Index: news/language/bosanski/admin.php
+===================================================================
+--- news/language/bosanski/admin.php	(revision 0)
++++ news/language/bosanski/admin.php	(revision 0)
+@@ -0,0 +1,195 @@
++<?php
++// $Id: admin.php,v 1.19 2005/11/23 17:51:25 hthouzard Exp $e izbrisati
++//%%%%%%	Admin Module Name  Articles 	%%%%%
++define("_AM_DBUPDATED","Baza podataka je uspje&scaron;no aktulizirana!");
++define("_AM_CONFIG","Konfiguracija vijesti");
++define("_AM_AUTOARTICLES","Automatske vijesti");
++define("_AM_STORYID","Vijest-ID");
++define("_AM_TITLE","Naslov");
++define("_AM_TOPIC","Tema");
++define("_AM_POSTER","Autor");
++define("_AM_PROGRAMMED","Datum objavljivanja");
++define("_AM_ACTION","Akcija");
++define("_AM_EDIT","Uredi");
++define("_AM_DELETE","Izbri&scaron;i");
++define("_AM_LAST10ARTS","Zadnje %d vijesti");
++define("_AM_PUBLISHED","Objavljena dana"); // Published Date
++define("_AM_GO","Idi!");
++define("_AM_EDITARTICLE","Uredi");
++define("_AM_POSTNEWARTICLE","Novo objavi");
++define("_AM_ARTPUBLISHED","Vijest je objavljena!");
++define("_AM_HELLO","Halo %s,");
++define("_AM_YOURARTPUB","Vijest koji si poslao(la) je objavljena.");
++define("_AM_TITLEC","Naslov: ");
++define("_AM_URLC","URL: ");
++define("_AM_PUBLISHEDC","Objavljeno: ");
++define("_AM_RUSUREDEL","Jesi li siguran(a), da ovu vijest i sve njene komentare &#382;eli&scaron; izbrisati?");
++define("_AM_YES","Da");
++define("_AM_NO","Ne");
++define("_AM_INTROTEXT","Tekst ");
++define("_AM_EXTEXT","Dodatni tekst:");
++define("_AM_ALLOWEDHTML","HTML-Tagove dozvoli:");
++define("_AM_DISAMILEY","Smilise isklju&#269;i");
++define("_AM_DISHTML","HTML isklju&#269;i");
++define("_AM_APPROVE","Odobri");
++define("_AM_MOVETOTOP","Vijest prebaci na vrh gore");
++define("_AM_CHANGEDATETIME","Datum/Vrijeme objavljivanja promjeni");
++define("_AM_NOWSETTIME","Objava je pode&scaron;ena za: %s"); // %s is datetime of publish
++define("_AM_CURRENTTIME","Aktuelno vrijeme: %s");  // %s is the current datetime
++define("_AM_SETDATETIME","<b>Datum/Vrijeme objavljivanja stavi:</b>");
++define("_AM_MONTHC","Mjesec:");
++define("_AM_DAYC","Dan:");
++define("_AM_YEARC","Godina:");
++define("_AM_TIMEC","Vrijeme:");
++define("_AM_PREVIEW","Vidi izgled");
++define("_AM_SAVE","Po&scaron;alji");
++define("_AM_PUBINHOME","Na start stranici prika&#382;i?");
++define("_AM_ADD","Dodaj");
++
++//%%%%%%	Admin Module Name  Topics 	%%%%%
++
++define("_AM_ADDMTOPIC","Dodaj novu Temu");
++define("_AM_TOPICNAME","Naslov Teme");
++// Warning, changed from 40 to 255 characters.
++define("_AM_MAX40CHAR","(max. 255 oznaka)");
++define("_AM_TOPICIMG","Slika Teme");
++define("_AM_IMGNAEXLOC","Naziv slike + podatak se nalazi u %s");
++define("_AM_FEXAMPLE","npr.: games.gif");
++define("_AM_ADDSUBTOPIC","Podtemu dodaj");
++define("_AM_IN","u");
++define("_AM_MODIFYTOPIC","Temu promjeni");
++define("_AM_MODIFY","Promjeni");
++define("_AM_PARENTTOPIC","Dostupne Teme");
++define("_AM_SAVECHANGE","Promjenu osiguraj");
++define("_AM_DEL","Izbri&scaron;i");
++define("_AM_CANCEL","Obustavi");
++define("_AM_WAYSYWTDTTAL","Pa&#382;nja: Jesi li siguran(a), daa ovu Temu i sve u njoj povezane Vijesti i Komentare treba izbrisati?");
++
++
++// Added in Beta6
++define("_AM_TOPICSMNGR","Menadzer Tema - Ukupno Tema ");
++define("_AM_PEARTICLES","Vijest objavi / uredi");
++define("_AM_NEWSUB","Pristgle vijesti");
++define("_AM_POSTED","Objavljene vijesti");
++define("_AM_GENERALCONF","Konfiguracija Vijesti");
++
++// Added in RC2
++define("_AM_TOPICDISPLAY","Sliku Teme prika&#382;i?");
++define("_AM_TOPICALIGN","Pozicija");
++define("_AM_RIGHT","Desno");
++define("_AM_LEFT","Lijevo");
++
++define("_AM_EXPARTS","Istekle vijesti");
++define("_AM_EXPIRED","Isteklo vrijeme prikazivanja");
++define("_AM_CHANGEEXPDATETIME","Datum/Vrijeme isticanja promjeni");
++define("_AM_SETEXPDATETIME","Datum/Vrijeme isticanja stavi: ");
++define("_AM_NOWSETEXPTIME","Aktuelno pode&scaron;eno na: %s");
++
++// Added in RC3
++define("_AM_ERRORTOPICNAME","Mora&scaron; naslov Teme upisati!");
++define("_AM_EMPTYNODELETE","Ni&scaron;ta ne bri&scaron;i!");
++
++// Added 240304 (Mithrandir)
++define("_AM_GROUPPERM","Grupama odobrenje daj");
++define("_AM_SELFILE","Podatak za upload izaberi");
++
++// Added by Hervé
++define("_AM_UPLOAD_DBERROR_SAVE","Gre&scaron;ka kod zaka&#269;anja podatka u vijesti");
++define("_AM_UPLOAD_ERROR","Gre&scaron;ka kod uploada podatka");
++define("_AM_UPLOAD_ATTACHFILE","Zaka&#269;eni podatak(ci)");
++define("_AM_APPROVEFORM","Dozvole - Odobrenja");
++define("_AM_SUBMITFORM","Za pisanje - odobrenja");
++define("_AM_VIEWFORM","Za &#269;itanje - odobrenja");
++define("_AM_APPROVEFORM_DESC","Izaberi, ko sadr&#382;aj smije odobriti");
++define("_AM_SUBMITFORM_DESC","Izaberi, ko sadr&#382;aj pisat/slati smije");
++define("_AM_VIEWFORM_DESC","Izaberi, ko kakve Teme vidjeti smije");
++define("_AM_DELETE_SELFILES","Izbri&scaron;i izabrane podatke");
++define("_AM_TOPIC_PICTURE","Sliku uploaduj");
++define("_AM_UPLOAD_WARNING","<B>Pa&#382;nja, nemoj zaboraviti odobrenje pisanja za sljede&#263;e direktorije da da&scaron; : %s</B>");
++
++define("_AM_NEWS_UPGRADECOMPLETE","Upgrade je zavr&scaron;eno");
++define("_AM_NEWS_UPDATEMODULE","Update Modul- template i blokovi");
++define("_AM_NEWS_UPGRADEFAILED","Upgrade nije uspjelo");
++define("_AM_NEWS_UPGRADE","Upgrade");
++define("_AM_ADD_TOPIC","Temu dodaj");
++define("_AM_ADD_TOPIC_ERROR","Gre&scaron;ka, ova Tema postoji!");
++define("_AM_ADD_TOPIC_ERROR1","Gre&scaron;ka, ova Tema se nemo&#382;e kao Podtema izabrati!");
++define("_AM_SUB_MENU","Ovu Temu kao Pod-Meni stavi");
++define("_AM_SUB_MENU_YESNO","Pod-Meni?");
++define("_AM_HITS","Klikova");
++define("_AM_CREATED","Napravljena");
++
++define("_AM_TOPIC_DESCR","Opis Teme");
++define("_AM_USERS_LIST","Lista &#269;lanova");
++define("_AM_PUBLISH_FRONTPAGE","Stavi u Glavni Meni?");
++define("_AM_NEWS_UPGRADEFAILED1","Ne mogu se sljede&#263; Tabele napraviti: stories_files");
++define("_AM_NEWS_UPGRADEFAILED2","Ne mogu se du&#382;ine nalova Teme (topic title's length) promjenuti");
++define("_AM_NEWS_UPGRADEFAILED21","Ne mogu se nova polja (topics table) dodati");
++define("_AM_NEWS_UPGRADEFAILED3","Ne mogu se sljede&#263; Tabele napraviti: stories_votedata");
++define("_AM_NEWS_UPGRADEFAILED4","Ne mogu se oba polja 'rating' i 'votes' u Tabeli 'story' dodati");
++define("_AM_NEWS_UPGRADEFAILED0","Molim te obrati pa&#382;nju na upozorenja. Probaj ovaj problem sa phpMyadmin i sql Definisati, u 'sql' Ordneru gdje je news Moduls , tu vidi.");
++define("_AM_NEWS_UPGR_ACCESS_ERROR","Gre&scaron;ka, mora se upgrade scripta (sa Admin odobrenje za Modul) izvr&scaron;iti.");
++define("_AM_NEWS_PRUNE_BEFORE","Vijesti pokupi, objavljene od:");
++define("_AM_NEWS_PRUNE_EXPIREDONLY","Samo vijesti pokupi koje su istekle.");
++define("_AM_NEWS_PRUNE_CONFIRM","Pa&#382;nja, sve vijesti (i Komentari u vijestima) koji su od prije %s  <br />bi&#263;e zauvijek izbrisani. Posle brisanja nema povratka. <br />Sada je %s vijesti do sada prona&#273;eno.<br />Jesi li apsolutno siguran(a)?");
++define("_AM_NEWS_PRUNE_TOPICS","Jednu ili vi&scaron;e Tematskih podru&#269;ja izaberi");
++define("_AM_NEWS_PRUNENEWS","Vijesti pokupi");
++define("_AM_NEWS_EXPORT_NEWS","Vijest exportiraj");
++define("_AM_NEWS_EXPORT_NOTHING","Nema vijesti prona&#273;enih za exportiranje. Molim te da izbor provjeri&scaron;.");
++define("_AM_NEWS_PRUNE_DELETED","%d Vijest je izbrisana");
++define("_AM_NEWS_PERM_WARNING","<h2>Pa&#382;nja, ima 3 Formulara gdje svaki ima 'Po&scaron;alji' Button.</h2>");
++define("_AM_NEWS_EXPORT_BETWEEN","Vijesti exportiraj izme&#273;u");
++define("_AM_NEWS_EXPORT_AND"," i ");
++define("_AM_NEWS_EXPORT_PRUNE_DSC","Ovde / podru&#269;je Teme izaberi, i u akciju uputi je.<br/>Ukoliko se podru&#269;je Teme ne izabere, onda se sva podru&#269;ja Teme automatski izaberu.");
++define("_AM_NEWS_EXPORT_INCTOPICS","Inkluzivno opis Teme?");
++define("_AM_NEWS_EXPORT_ERROR","Gre&scaron;ka pravljenja podatka %s. Radnja je obustavljena.");
++define("_AM_NEWS_EXPORT_READY","Xml Export podatak se mo&#382;e downloadati. <br />Idi i downloaduj, <a target='_blank' href='%s'> klikom na ovaj link</a>.<br />Poslije ne zaboravi <a href='%s'>sa ovim linkom</a> izbrisati.");
++define("_AM_NEWS_RSS_URL","URL od RSS feed");
++define("_AM_NEWS_NEWSLETTER","Newsletter");
++define("_AM_NEWS_NEWSLETTER_BETWEEN","Vijesti izaberi koje treba objaviti izme&#273;u");
++define("_AM_NEWS_NEWSLETTER_READY","Newsletter podatak se mo&#382;e downloadati. <br />di i downloaduj, <a target='_blank' href='%s'>klikom na ovaj link</a>.<br />Poslije ne zaboravi <a href='%s'>sa ovim linkom</a> izbrisati.");
++define("_AM_NEWS_DELETED_OK","Podatak je izbrisan");
++define("_AM_NEWS_DELETED_PB","Gre&scaron;ka, podatak se nemo&#382;e izbrisati.");
++define("_AM_NEWS_STATS0","Statistika Tema");
++define("_AM_NEWS_STATS","Statistika");
++define("_AM_NEWS_STATS1","Pojedini Autori");
++define("_AM_NEWS_STATS2","Ukupno");
++define("_AM_NEWS_STATS3","Statistika vijesti");
++define("_AM_NEWS_STATS4","Naj&#269;itanije vijesti");
++define("_AM_NEWS_STATS5","Najmanje &#269;itane vijesti");
++define("_AM_NEWS_STATS6","Najocjenjenije vijesti");
++define("_AM_NEWS_STATS7","Naj&#269;itanije Autori");
++define("_AM_NEWS_STATS8","Najocjenjeniji Autori");
++define("_AM_NEWS_STATS9","Najvi&scaron;e su pisali");
++define("_AM_NEWS_STATS10","Statistika Autora");
++define("_AM_NEWS_STATS11","Broj vijesti");
++define("_AM_NEWS_HELP","Pomo&#263;");
++define("_AM_NEWS_MODULEADMIN","Modul-Admin");
++define("_AM_NEWS_GENERALSET","Modul-Konfiguracija");
++define("_AM_NEWS_GOTOMOD","U Modul");
++define("_AM_NEWS_NOTHING","Nema podatka za download. Molim te izbor provjeri.");
++define("_AM_NEWS_NOTHING_PRUNE","Nema vijesti za pokupiti. Molim te izbor provjeri.");
++define("_AM_NEWS_TOPIC_COLOR","Farba Teme");
++define("_AM_NEWS_COLOR","Farbe");
++define("_AM_NEWS_REMOVE_BR","Html Tag &lt;br&gt; u novi red konveriraj?");
++// Added in 1.3 RC2
++define("_AM_NEWS_PLEASE_UPGRADE","<a href='upgrade.php'><font color='#FF0000'>Molim Modul updatuj!</font></a>");
++
++// Added in verisn 1.50
++define('_AM_NEWS_NEWSLETTER_HEADER', "Vrh");
++define('_AM_NEWS_NEWSLETTER_FOOTER', "Dno");
++define('_AM_NEWS_NEWSLETTER_HTML_TAGS', "HTML-Tagove izbri&scaron;i?");
++define('_AM_NEWS_VERIFY_TABLES','DB-Tabele sredi');
++define('_AM_NEWS_METAGEN',"Metagen");
++define('_AM_NEWS_METAGEN_DESC',"Metagen je System, koji ti poma&#382;e, da tvoju stranicu pretra&#382;ne ma&scaron;ine brzo prona&#273; u.<br />Izuzetak, ako Meta klju&#269;ne rije&#269;i und Meta opis su ve&#263; napisani, onda Modul proba ovo automatski.");
++define('_AM_NEWS_BLACKLIST',"Crna lista");
++define('_AM_NEWS_BLACKLIST_DESC',"Ovde upi&scaron;i lo&scaron;e meta rije&#269;i koje su nepo&#382;eljne");
++define('_AM_NEWS_BLACKLIST_ADD',"Dodaj");
++define('_AM_NEWS_BLACKLIST_ADD_DSC',"Upi&scaron;i rije&#269;i u listu<br />(jedna rije&#269; po liniji)");
++define('_AM_NEWS_META_KEYWORDS_CNT',"Max.broj Meta-Klju&#269;nih rije&#269;i koje se automatski generi&scaron;u.");
++define('_AM_NEWS_META_KEYWORDS_ORDER',"Redoslijed klju&#269;nih rije&#269;i");
++define('_AM_NEWS_META_KEYWORDS_INTEXT',"Kreiraj u redoslijedu gdje se treba uvrstiti");
++define('_AM_NEWS_META_KEYWORDS_FREQ1',"Redoslijed rije&#269;i kod ponavljanja");
++define('_AM_NEWS_META_KEYWORDS_FREQ2',"Resetuj redoslijed");
++
++?>
+Index: news/language/bosanski/blocks.php
+===================================================================
+--- news/language/bosanski/blocks.php	(revision 0)
++++ news/language/bosanski/blocks.php	(revision 0)
+@@ -0,0 +1,50 @@
++<?php
++// $Id: blocks.php,v 1.16 2004/09/01 17:48:07 hthouzard Exp $
++define("_MB_NEWS_NOTYET","Danas nema udarnih vijesti.");
++define("_MB_NEWS_TMRSI","Danas naj&#269;itanije vijesti su:");
++define("_MB_NEWS_ORDER","Sortiraj po");
++define("_MB_NEWS_DATE","Datum objavljivanja");
++define("_MB_NEWS_HITS","Ukupno klikova");
++define("_MB_NEWS_DISP","Prika&#382;i");
++define("_MB_NEWS_ARTCLS","Vijesti");
++define("_MB_NEWS_CHARS","Du&#382;ina Naslova: ");
++define("_MB_NEWS_LENGTH"," Oznake");
++define("_MB_TITLE", "Naslov");
++define("_MB_POSTED", "Napisao(la)");
++define("_MB_POSTER", "Autor");
++define("_MB_ACTION", "Akcija");
++define("_MB_TOPIC", "Tema");
++define("_MB_DELETE", "Izbri&scaron;i");
++define("_MB_NEWS_RESTRICTTOPICS", "Skra&#263;ene Teme za registrovane vidne?");
++define("_MB_NEWS_TEASER", "Du&#382;ina za pristigle (0 nema odredbe)");
++define("_MB_NEWS_SPOTLIGHT", "Aktiviraj Spotlight ");
++define("_MB_NEWS_FIRST", "--Prvi upis--");
++define("_MB_NEWS_IMAGE", "Slika za Spotlight");
++define("_MB_SPOTLIGHT_TOPIC", "Izaberi Temu za Spotlight");
++define("_MB_SPOTLIGHT_ALL_TOPICS", "Sve Teme");
++define("_MB_NEWS_SPOTLIGHT_ARTICLE", "Sadr&#382;aj izaberi:");
++define("_MB_READMORE","Pro&#269;itaj vi&scaron;e...");
++define("_MB_NEWS_RATE","Ocjeni");
++define("_MB_NEWS_SHOW_NEWS_COUNT","Broja&#269; vijesti aktiviraj ?");
++define("_MB_NEWS_SPOTLIGHT_TITLE", "Spotlight");
++define("_MB_NEWS_VIEW_TYPE1", "Klasi&#269;no");
++define("_MB_NEWS_VIEW_TYPE2", "U Tabsu");
++define("_MB_NEWS_TAB_COLOR1", "Farba linije ispod Tabsa");
++define("_MB_NEWS_TAB_COLOR2", "Pozadinska farba Tabovog sadr&#382;aja");
++define("_MB_NEWS_TAB_COLOR3", "Aktivnog Taba farba");
++define("_MB_NEWS_TAB_COLOR4", "Farbe neaktivnog Taba");
++define("_MB_NEWS_TAB_COLOR5", "Header hover Farbe");
++define("_MB_NEWS_WHAT_PUBLISH", "&Scaron;ta treba u Spotlight <br />prikazati?");
++define("_MB_NEWS_RECENT_NEWS", "Aktuelne vijesti (Listu ispod koristi)");
++define("_MB_NEWS_RECENT_SPECIFIC", "Vijesti ispod iz liste");
++define("_MB_NEWS_DEFAULT_COLORS", "Ne upisuj ni&scaron;ta i koristi onda standardne farbe.");
++
++// Added in version 1.50
++define("_MB_NEWS_CAL_YEAR", "Godina");
++define("_MB_NEWS_CAL_MONTH", "Mjesec");
++define("_MB_NEWS_STARTING_DATE", "Start-datum");
++define("_MB_NEWS_ENDING_DATE", "Kraj-datum");
++define("_MB_NEWS_UNTIL_TODAY", "ili do danas");
++define("_MB_NEWS_RECENT_FIRST", "novije prvo");
++define("_MB_NEWS_OLDER_FIRST", "starije prvo");
++?>
+Index: news/language/bosanski/index.html
+===================================================================
+--- news/language/bosanski/index.html	(revision 0)
++++ news/language/bosanski/index.html	(revision 0)
+@@ -0,0 +1 @@
++ <script>history.go(-1);</script>
+\ No newline at end of file
+Index: news/language/bosanski/mail_template/global_newcategory_notify.tpl
+===================================================================
+--- news/language/bosanski/mail_template/global_newcategory_notify.tpl	(revision 0)
++++ news/language/bosanski/mail_template/global_newcategory_notify.tpl	(revision 0)
+@@ -0,0 +1,21 @@
++Hallo {X_UNAME},
++
++Das neue Thema "{TOPIC_NAME}" wurde auf {X_SITENAME} angelegt.
++
++Sie finden die Artikel-Indexseite unter folgender URL:
++{X_MODULE_URL}
++
++-----------
++
++Sie erhalten diese E-Mail/PN weil Sie benachrichtigt werden wollten wenn dieser Artikel freigegeben wird.
++
++Wenn dies ein Fehler ist und Sie keine weiteren Nachrichten dieser Art mehr empfangen wollen, folgen Sie diesem Link:
++{X_UNSUBSCRIBE_URL}
++
++Bitte nicht auf diese E-Mail/PN antworten.
++
++-----------
++
++{X_SITENAME} ({X_SITEURL}) 
++Der Webmaster
++{X_ADMINMAIL}
+Index: news/language/bosanski/mail_template/global_newstory_notify.tpl
+===================================================================
+--- news/language/bosanski/mail_template/global_newstory_notify.tpl	(revision 0)
++++ news/language/bosanski/mail_template/global_newstory_notify.tpl	(revision 0)
+@@ -0,0 +1,21 @@
++Hallo {X_UNAME},
++
++Der neue Artikel "{STORY_NAME}" wurde auf {X_SITENAME} hinzugefügt.
++
++Sie finden diesen Artikel unter folgender URL:
++{STORY_URL}
++
++-----------
++
++Sie erhalten diese E-Mail/PN weil Sie benachrichtigt werden wollten wenn dieser Artikel freigegeben wird.
++
++Wenn dies ein Fehler ist und Sie keine weiteren Nachrichten dieser Art mehr empfangen wollen, folgen Sie diesem Link:
++{X_UNSUBSCRIBE_URL}
++
++Bitte nicht auf diese E-Mail/PN antworten.
++
++-----------
++
++{X_SITENAME} ({X_SITEURL}) 
++Der Webmaster
++{X_ADMINMAIL}
+Index: news/language/bosanski/mail_template/global_storysubmit_notify.tpl
+===================================================================
+--- news/language/bosanski/mail_template/global_storysubmit_notify.tpl	(revision 0)
++++ news/language/bosanski/mail_template/global_storysubmit_notify.tpl	(revision 0)
+@@ -0,0 +1,21 @@
++Hallo {X_UNAME},
++
++Der neue Artikel "{STORY_NAME}" wurde auf {X_SITENAME} eingeschickt und wartet auf Freigabe.
++
++Sie finden die Einsendung unter folgender URL:
++{WAITINGSTORIES_URL}
++
++-----------
++
++Sie erhalten diese E-Mail/PN weil Sie benachrichtigt werden wollten wenn dieser Artikel freigegeben wird.
++
++Wenn dies ein Fehler ist und Sie keine weiteren Nachrichten dieser Art mehr empfangen wollen, folgen Sie diesem Link:
++{X_UNSUBSCRIBE_URL}
++
++Bitte nicht auf diese E-Mail/PN antworten.
++
++-----------
++
++{X_SITENAME} ({X_SITEURL}) 
++Der Webmaster
++{X_ADMINMAIL}
+Index: news/language/bosanski/mail_template/index.html
+===================================================================
+--- news/language/bosanski/mail_template/index.html	(revision 0)
++++ news/language/bosanski/mail_template/index.html	(revision 0)
+@@ -0,0 +1 @@
++ <script>history.go(-1);</script>
+\ No newline at end of file
+Index: news/language/bosanski/mail_template/story_approve_notify.tpl
+===================================================================
+--- news/language/bosanski/mail_template/story_approve_notify.tpl	(revision 0)
++++ news/language/bosanski/mail_template/story_approve_notify.tpl	(revision 0)
+@@ -0,0 +1,21 @@
++Hallo {X_UNAME},
++
++Der von Ihnen eingeschickte Artikel "{STORY_NAME}" wurde auf {X_SITENAME} freigegeben.
++
++Sie finden diesen Artikel unter folgender URL:
++{STORY_URL}
++
++-----------
++
++Sie erhalten diese E-Mail/PN weil Sie benachrichtigt werden wollten wenn dieser Artikel freigegeben wird.
++
++Wenn dies ein Fehler ist und Sie keine weiteren Nachrichten dieser Art mehr empfangen wollen, folgen Sie diesem Link:
++{X_UNSUBSCRIBE_URL}
++
++Bitte nicht auf diese E-Mail/PN antworten.
++
++-----------
++
++{X_SITENAME} ({X_SITEURL}) 
++Der Webmaster
++{X_ADMINMAIL}
+Index: news/language/bosanski/mail_template/topic_newstory_notify.tpl
+===================================================================
+--- news/language/bosanski/mail_template/topic_newstory_notify.tpl	(revision 0)
++++ news/language/bosanski/mail_template/topic_newstory_notify.tpl	(revision 0)
+@@ -0,0 +1,20 @@
++Hallo {X_UNAME},
++
++Ein neuer Artikel "{STORY_NAME}" wurde auf {X_SITENAME} zu {TOPIC_NAME} hinzugefügt.
++
++Sie finden diesen Artikel unter folgender URL:
++{STORY_URL}
++
++-----------
++Sie erhalten diese E-Mail/PN weil Sie benachrichtigt werden wollten wenn dieser Artikel freigegeben wird.
++
++Wenn dies ein Fehler ist und Sie keine weiteren Nachrichten dieser Art mehr empfangen wollen, folgen Sie diesem Link:
++{X_UNSUBSCRIBE_URL}
++
++Bitte nicht auf diese E-Mail/PN antworten.
++
++-----------
++
++{X_SITENAME} ({X_SITEURL}) 
++Der Webmaster
++{X_ADMINMAIL}
+Index: news/language/bosanski/main.php
+===================================================================
+--- news/language/bosanski/main.php	(revision 0)
++++ news/language/bosanski/main.php	(revision 0)
+@@ -0,0 +1,116 @@
++<?php
++// $Id: main.php,v 1.9 2004/07/26 17:51:25 hthouzard Exp $
++//%%%%%%		File Name index.php 		%%%%%
++define("_NW_PRINTER","&Scaron;tampaj");
++define("_NW_SENDSTORY","Preko E-Mail-a po&scaron;alji");
++define("_NW_READMORE","Pro&#269;itaj vi&scaron;e...");
++define("_NW_COMMENTS","Napi&scaron;i Komentar?");
++define("_NW_ONECOMMENT","1 Komentar");
++define("_NW_BYTESMORE","%s Byta vi&scaron;e");
++define("_NW_NUMCOMMENTS","%s Komentari");
++define("_NW_MORERELEASES", "Vi&scaron;e ovome u: ");
++
++
++//%%%%%%		File Name submit.php		%%%%%
++define("_NW_SUBMITNEWS","Po&scaron;alji");
++define("_NW_TITLE","Naslov");
++define("_NW_TOPIC","Tema");
++define("_NW_THESCOOP","Tekst ");
++define("_NW_NOTIFYPUBLISH","Preko E-Mail-a obavijesti, ako se vijest objavi");
++define("_NW_POST","Objavi");
++define("_NW_GO","Idi!");
++define("_NW_THANKS","Hvala ti primili smo tvoju poslatu vijest."); //submission of news article
++
++define("_NW_NOTIFYSBJCT","Vijest za tvoju stranicu"); // Notification mail subject
++define("_NW_NOTIFYMSG","Halo! Ima&scaron; kod nas novu vijest za tvoju web stranicu."); // Notification mail message
++
++//%%%%%%		File Name archive.php		%%%%%
++define("_NW_NEWSARCHIVES","Arhiva");
++define("_NW_ARTICLES","Vijesti");
++define("_NW_VIEWS","&#268;itanja");
++define("_NW_DATE","Datum");
++define("_NW_ACTIONS","Akcija");
++define("_NW_PRINTERFRIENDLY","&Scaron;tampaj");
++
++define("_NW_THEREAREINTOTAL","Ima ukupno %s vijesti");
++
++// %s is your site name
++define("_NW_INTARTICLE","Interesantna vijest na %s");
++define("_NW_INTARTFOUND","Ovde ima interesantna vijest koju sam ovde %s pro&#269;itao(la)");
++
++define("_NW_TOPICC","Tema:");
++define("_NW_URL","URL:");
++define("_NW_NOSTORY","Izabrana vijest ne postoji.");
++
++//%%%%%%	File Name print.php 	%%%%%
++
++define("_NW_URLFORSTORY","URL za ovaj vijest je:");
++
++// %s represents your site name
++define("_NW_THISCOMESFROM","Ova vijest je od %s");
++
++// Added by Hervé
++define("_NW_ATTACHEDFILES","Zaka&#269;eni podaci:");
++define("_NW_ATTACHEDLIB","Ova vijest ima zaka&#269;en podatak");
++define("_NW_NEWSSAMEAUTHORLINK","Vijesti od istog Autora");
++define("_NW_NEWS_NO_TOPICS","Nije Tema izabrana, molimo te da jedanu temu napravi prije nego vijest napi&scaron;e&scaron;.");
++define("_NW_PREVIOUS_ARTICLE","Prethodni vijesti");
++define("_NW_NEXT_ARTICLE","Sljede&#263;i vijesti");
++define("_NW_OTHER_ARTICLES","Ostali vijesti");
++
++// Added by Hervé in version 1.3 for rating
++define("_NW_RATETHISNEWS","Ovu vijest ocijeni");
++define("_NW_RATEIT","Ocjeni");
++define("_NW_TOTALRATE","Ukupno ocjena");
++define("_NW_RATINGLTOH","Ocjena(od manje ka ve&#263;oj)");
++define("_NW_RATINGHTOL","Ocjena (od ve&#263;e ka manjoj)");
++define("_NW_RATINGC","Ocjena: ");
++define("_NW_RATINGSCALE","Skala ocjene je od 1 - 10, gdje je 1 lo&scaron;a a 10 najbolja ocjena.");
++define("_NW_BEOBJECTIVE","Molim te budi objektivan(a). Ako bi svi sa 1 ili 10 ocjenjivali, onda ocjenjivanje nebi imalo smisla.");
++define("_NW_DONOTVOTE","Molim te svoje vijesti ne ocjenjuj.");
++define("_NW_RATING","Ocjena");
++define("_NW_VOTE","Glasova");
++define("_NW_NORATING","Ocjena nije izabrana.");
++define("_NW_USERAVG","Prosje&#269;na ocjena");
++define("_NW_DLRATINGS","Nove ocjene (Ukupno glasova: %s)");
++define("_NW_ONEVOTE","1 glas");
++define("_NW_NUMVOTES","%u glasova");		// Warning
++define("_NW_CANTVOTEOWN","Glasanje za ovu vijest nije vi&scaron;e mogu&#263;e.<br />Svi glasovi se registruju i bilje&#382;e.");
++define("_NW_VOTEDELETED","Glasa&#269;ke podatke izbri&scaron;i.");
++define("_NW_VOTEONCE","Molim te samo jednom ovu vijest ocjeni.");
++define("_NW_VOTEAPPRE","Tvoje glasanje je ubrojano.");
++define("_NW_THANKYOU","Hvala na u&#269;e&scaron;&#263;u i glasanju ovde kod %s"); // %s is your site name
++define("_NW_RSSFEED","RSS Feed");	// Warning, this text is included insided an Alt attribut (for a picture), so take care to the quotes
++define("_NW_AUTHOR","Autor");
++define("_NW_META_DESCRIPTION","Meta opis");
++define("_NW_META_KEYWORDS","Meta Klju&#269;ne rije&#269;i");
++define("_NW_MAKEPDF","PDF Dokument napravi");
++define("_MD_POSTEDON","Napisao(la): ");
++define("_NW_AUTHOR_ID","Autorov ID");
++define("_NW_POST_SORRY","Ili Teme nisu definisane, ili ti nije odobreno da nam vijesti &scaron;alje&scaron;.");
++
++// Added in v 1.50
++define("_NW_LINKS","Linkovi");
++define("_NW_PAGE","Stranica");
++define("_NW_BOOKMARK_ME","Ovu vijest postavi za &#269;itanje.");
++define('_AM_NEWS_TOTAL',"Ukupno %u vijesti");
++define('_AM_NEWS_WHOS_WHO',"Gdje je ko");
++define('_NW_NEWS_LIST_OF_AUTHORS',"Ovde je lista Autora vijesti, klikni na Nik ime Autora i vidi njegove vijesti koje je dosada poslao(la) ");
++define('_AM_NEWS_TOPICS_DIRECTORY',"Teme-Direktorij");
++define("_NW_PAGE_AUTO_SUMMARY","Stranica %d od %s");
++
++// Added in version 1.51
++define("_NW_BOOKMARK_TO_BLINKLIST","Bookmark kod Blinklist");
++define("_NW_BOOKMARK_TO_DELICIOUS","Bookmark kod del.icio.us");
++define("_NW_BOOKMARK_TO_DIGG","Bookmark kod Digg");
++define("_NW_BOOKMARK_TO_FARK","Bookmark kod Fark");
++define("_NW_BOOKMARK_TO_FURL","Bookmark bei Furl");
++define("_NW_BOOKMARK_TO_NEWSVINE","Bookmark kod Newsvine");
++define("_NW_BOOKMARK_TO_REDDIT","Bookmark kod Reddit");
++define("_NW_BOOKMARK_TO_SIMPY","Bookmark kod Simpy");
++define("_NW_BOOKMARK_TO_SPURL","Bookmark kod Spurl");
++define("_NW_BOOKMARK_TO_YAHOO","Bookmark kod Yahoo");
++
++// Added in version 1.56
++define('_NW_NOTYETSTORY',"Izvinjajemo se, ali izabrana vijest nije jo&scaron; odobrena za javnu objavu. Molimo te navrati kasnije.Hvala!.");
++?>
+Index: news/language/bosanski/modinfo.php
+===================================================================
+--- news/language/bosanski/modinfo.php	(revision 0)
++++ news/language/bosanski/modinfo.php	(revision 0)
+@@ -0,0 +1,180 @@
++<?php
++// $Id: modinfo.php,v 1.21 2004/09/01 17:48:07 hthouzard Exp $
++// Module Info
++
++// The name of this module
++define('_MI_NEWS_NAME','Vijesti');
++
++// A brief description of this module
++define('_MI_NEWS_DESC','Napravi podru&#269;je za slanje novih vijesti, gdje mogu &#269;lanovi vijesti i komentare pisati.');
++
++// Names of blocks for this module (Not all module has blocks)
++define('_MI_NEWS_BNAME1','Teme');
++define('_MI_NEWS_BNAME3','Aktuelne vijesti');
++define('_MI_NEWS_BNAME4','Top vijesti');
++define('_MI_NEWS_BNAME5','Najnovije vijesti');
++define('_MI_NEWS_BNAME6','Moderacija vijesti');
++define('_MI_NEWS_BNAME7','Navigacija u Temama');
++
++// Sub menus in main menu block
++define('_MI_NEWS_SMNAME1','Vijest napi&scaron;i');
++define('_MI_NEWS_SMNAME2','Arhiva');
++
++// Names of admin menu items
++define('_MI_NEWS_ADMENU2', 'Menadzer Tema');
++define('_MI_NEWS_ADMENU3', 'Vijest objavi / uredi');
++define('_MI_NEWS_GROUPPERMS', 'Odobrenja');
++// Added by Hervé for prune option
++define('_MI_NEWS_PRUNENEWS', 'Vijesti pokupi');
++// Added by Hervé
++define('_MI_NEWS_EXPORT', 'Vijesti exportiraj');
++
++// Title of config items
++define('_MI_STORYHOME', 'Koliko vijesti treba prikazati na glavnoj Index stranici?');
++define('_MI_NOTIFYSUBMIT', 'Obavjesti webmastera ako pristigne nova vijest?');
++define('_MI_DISPLAYNAV', 'Navigacijski-Box prika&#382;i?');
++define('_MI_AUTOAPPROVE','Vijest automatski objavi?');
++define("_MI_ALLOWEDSUBMITGROUPS", "Grupe, koje smiju vijesti pisati/slati");
++define("_MI_ALLOWEDAPPROVEGROUPS", "Grupe, koje smiju vijesti odobriti");
++define("_MI_NEWSDISPLAY", "Layout pregledih sadr&#382;aja");
++define("_MI_NAMEDISPLAY","Ime Autora");
++define("_MI_COLUMNMODE","Kolumni");
++define("_MI_STORYCOUNTADMIN","Broj novih vijesti u Admin-Pregledu. (Ova opcija limitira broj Tema u adminovom podru&#269;ju i prikazu statistike): ");
++define('_MI_UPLOADFILESIZE', 'MAX Upload- u (KB) 1048576 = 1 Meg');
++define("_MI_UPLOADGROUPS","Grupe koje imaju odobrenje za upload");
++
++
++// Description of each config items
++define('_MI_STORYHOMEDSC', '');
++define('_MI_NOTIFYSUBMITDSC', '');
++define('_MI_DISPLAYNAVDSC', '');
++define('_MI_AUTOAPPROVEDSC', '');
++define("_MI_ALLOWEDSUBMITGROUPSDESC", "Izabrane Grupe smiju vijesti pisati i slati.");
++define("_MI_ALLOWEDAPPROVEGROUPSDESC", "Izabrane grupe smiju poslate vijesti nakon pregleda odobriti i objaviti.");
++define("_MI_NEWSDISPLAYDESC", "Klasi&#269;no, prikazuju se sve vijesti sortirane po datumu objavljivanja. Vijesti po Temama, grupi&scaron;u se vijesti po temama sa najnovijom vijesti u punom prikazu i ostale ispod po linkovanim naslovima vijesti");
++define('_MI_ADISPLAYNAMEDSC', 'Izaberi opciju, kako treba Autora vijesti prikazivati javno');
++define("_MI_COLUMNMODE_DESC","Mo&#382;e&scaron; izabrati opciju koliko vijesti treba prikazati");
++define("_MI_STORYCOUNTADMIN_DESC","");
++define("_MI_UPLOADFILESIZE_DESC","");
++define("_MI_UPLOADGROUPS_DESC","Izaberi Grupe koje smiju podatke uploadati na Server.");
++
++// Name of config item values
++define("_MI_NEWSCLASSIC", "Klasi&#269;no");
++define("_MI_NEWSBYTOPIC", "Po Temama");
++define("_MI_DISPLAYNAME1", "Nik ime");
++define("_MI_DISPLAYNAME2", "Pravo ime");
++define("_MI_DISPLAYNAME3", "Autora ne prikazuj");
++define("_MI_UPLOAD_GROUP1","Autor i Ovla&scaron;teni");
++define("_MI_UPLOAD_GROUP2","Samo Ovla&scaron;teni");
++define("_MI_UPLOAD_GROUP3","Upload nije dozvoljen");
++
++// Text for notifications
++
++define('_MI_NEWS_GLOBAL_NOTIFY', 'Globalno');
++define('_MI_NEWS_GLOBAL_NOTIFYDSC', 'Opcije obavje&scaron;tavanja globalne.');
++
++define('_MI_NEWS_STORY_NOTIFY', 'Vijest');
++define('_MI_NEWS_STORY_NOTIFYDSC', 'Opcije obavje&scaron;tavanja za aktuelnu vijest.');
++
++define('_MI_NEWS_GLOBAL_NEWCATEGORY_NOTIFY', 'Nova Tema');
++define('_MI_NEWS_GLOBAL_NEWCATEGORY_NOTIFYCAP', 'Obavijest ako se nova Tema kreira za vijesti..');
++define('_MI_NEWS_GLOBAL_NEWCATEGORY_NOTIFYDSC', 'Obavijest ako je nova Tema kreirana.');
++define('_MI_NEWS_GLOBAL_NEWCATEGORY_NOTIFYSBJ', '[{X_SITENAME}] {X_MODULE} Automatska obavijest: Nova Tema');
++
++define('_MI_NEWS_GLOBAL_STORYSUBMIT_NOTIFY', 'Nova vijest je poslata.');
++define('_MI_NEWS_GLOBAL_STORYSUBMIT_NOTIFYCAP', 'Obavijest ako je nova vijest poslata (i objavljena).');
++define('_MI_NEWS_GLOBAL_STORYSUBMIT_NOTIFYDSC', 'Dobija se obavijest ako je nova vijest poslata i objavljena.');
++define('_MI_NEWS_GLOBAL_STORYSUBMIT_NOTIFYSBJ', '[{X_SITENAME}] {X_MODULE} Automatska obavijest: Nova vijest je poslata.');
++
++define('_MI_NEWS_GLOBAL_NEWSTORY_NOTIFY', 'Nova vijest');
++define('_MI_NEWS_GLOBAL_NEWSTORY_NOTIFYCAP', 'Obavijest ako je nova vijest objavljena.');
++define('_MI_NEWS_GLOBAL_NEWSTORY_NOTIFYDSC', 'Dobija se obavijest ako je nova vijest objavljena.');
++define('_MI_NEWS_GLOBAL_NEWSTORY_NOTIFYSBJ', '[{X_SITENAME}] {X_MODULE} Automatska vijest: Nova vijest je objavljena.');
++
++define('_MI_NEWS_STORY_APPROVE_NOTIFY', 'Vijest objavljena');
++define('_MI_NEWS_STORY_APPROVE_NOTIFYCAP', 'Obavijesti me ako je ova vijest objavljena.');
++define('_MI_NEWS_STORY_APPROVE_NOTIFYDSC', 'Dobija se obavijest ako je ova vijest objavljena.');
++define('_MI_NEWS_STORY_APPROVE_NOTIFYSBJ', '[{X_SITENAME}] {X_MODULE} Automatska obavijest: Vijest je objavljena');
++
++define('_MI_RESTRICTINDEX', 'Teme na index stranici ne prikazivati?');
++define('_MI_RESTRICTINDEXDSC', 'Ako je DA izabrano, onda se na index stranici vide samo nove vijesti bez oznaka na Teme za koje Grupe imaju svoje odobrenje');
++
++define('_MI_NEWSBYTHISAUTHOR', 'Vijesti od istog Autora');
++define('_MI_NEWSBYTHISAUTHORDSC', 'Ako je ova opcija izabrana, onda se prikazuje link \'Vijesti od istog Autora\' ');
++
++define('_MI_NEWS_PREVNEX_LINK','Prikazati? \'Prethodna vijest\' i \'Sljede&#263;a vijest\' link');
++define('_MI_NEWS_PREVNEX_LINK_DESC','Ako je ova opcija izabrana, onda se prikazuju dva linka ispod vijesti.');
++define('_MI_NEWS_SUMMARY_SHOW','Prikazati kratki pregled vijesti?');
++define('_MI_NEWS_SUMMARY_SHOW_DESC','Ako je ova opcija izabrana, onda se prikazuj kratki pregled objavljenih vijesti.');
++define('_MI_NEWS_AUTHOR_EDIT','Smiju li Autori svoje vijesti urediti?');
++define('_MI_NEWS_AUTHOR_EDIT_DESC','Ako je ova opcija izabrana, onda Autori mogu svoje vijesti uvijek urediti.');
++define('_MI_NEWS_RATE_NEWS','Smiju li posjetioci vijesti ocjenuti?');
++define('_MI_NEWS_TOPICS_RSS','Treba li RSS feeds za Teme aktivirati?');
++define('_MI_NEWS_TOPICS_RSS_DESC',"Ako je ova opcija izabrana, onda se Teme sa svojim sadr&#382;ajem u RSS feeds mogu opozivati.");
++define('_MI_NEWS_DATEFORMAT', "Datumski format");
++define('_MI_NEWS_DATEFORMAT_DESC',"Daljne informacije za formatiranje datuma su ovdje: (http://de3.php.net/manual/de/function.date.php) Ako nikakav format nije upisan u ovo polje, onda se standardni format prikazuje.");
++define('_MI_NEWS_META_DATA', "Smiju li se Meta podaci (klju&#269;ne rije&#269;i i opis) dodavati?");
++define('_MI_NEWS_META_DATA_DESC', "Ako je ova opcija izabrana, onda Grupe koje imaju odobrenja vijesti od drugih odobravati mogu Meta podatke u vijest dodavati.");
++define('_MI_NEWS_BNAME8','Slu&#269;ajna vijest');
++define('_MI_NEWS_NEWSLETTER','Newsletter');
++define('_MI_NEWS_STATS','Statistika');
++define("_MI_NEWS_FORM_OPTIONS","Opcije editora");
++define("_MI_NEWS_FORM_COMPACT","Kompakt");
++define("_MI_NEWS_FORM_DHTML","DHTML");
++define("_MI_NEWS_FORM_SPAW","Spaw Editor");
++define("_MI_NEWS_FORM_HTMLAREA","HtmlArea Editor");
++define("_MI_NEWS_FORM_FCK","FCK Editor");
++define("_MI_NEWS_FORM_KOIVI","Koivi Editor");
++define("_MI_NEWS_FORM_OPTIONS_DESC","Ovdje izaberi editor(e) koji se koriste za slanja vijesti. Ako nema specijalnih instaliranih editora, onda se od sistema koriste Kompct i DHTML editor.");
++define("_MI_NEWS_KEYWORDS_HIGH","Klju&#269;ne rije&#269;i farbom ozna&#269;ti?");
++define("_MI_NEWS_KEYWORDS_HIGH_DESC","Ako je ova opcija izabrana, onda su klju&#269;ne rije&#269;i farbom ozna&#269;ene koje se npr. preko google tra&#382;e.");
++define("_MI_NEWS_HIGH_COLOR","Farbe za ozna&#269;ivanje klju&#269;nih rije&#269;i.");
++define("_MI_NEWS_HIGH_COLOR_DES","Ova opcija se samo onda koristi ako je gornja sa DA izabrana.");
++define("_MI_NEWS_INFOTIPS","Tooltip du&#382;ina");
++define("_MI_NEWS_INFOTIPS_DES","Ako je ova opcija izabrana onda linkovi od vijesi sa dodirom mi&scaron;a (n) prikazuju odabrani broj oznaka(slova). Ako je 0 izabrana onda se Tooltips ne prikazuje.");
++define("_MI_NEWS_SITE_NAVBAR","Treba li Mozilla i Opera Navigacija aktivirati?");
++define("_MI_NEWS_SITE_NAVBAR_DESC","Ako je ova opcija izabrana onda posjetioci mogu uz pomo&#263; Sidebar kroz vijesti navigirati.");
++define("_MI_NEWS_TABS_SKIN","Skin izaberi za Tabs koji treba izgledati po tvom izboru.");
++define("_MI_NEWS_TABS_SKIN_DESC","Ovaj Skin se koristi u svim blokovima koji Tabs koriste.");
++define("_MI_NEWS_SKIN_1","Bar Style");
++define("_MI_NEWS_SKIN_2","Kosi");
++define("_MI_NEWS_SKIN_3","Klasi&#269;ni");
++define("_MI_NEWS_SKIN_4","Ordneri");
++define("_MI_NEWS_SKIN_5","MacOs");
++define("_MI_NEWS_SKIN_6","Ravni");
++define("_MI_NEWS_SKIN_7","Okruglasti");
++define("_MI_NEWS_SKIN_8","ZDnet Style");
++
++// Added in version 1.50
++define('_MI_NEWS_BNAME9','Arhiva');
++define("_MI_NEWS_FORM_TINYEDITOR","TinyEditor");
++define("_MI_NEWS_FOOTNOTES","Prika&#382;i link za &scaron;tampanje vijesti?");
++define("_MI_NEWS_DUBLINCORE","Ativative: Dublin Core Metadata?");
++define("_MI_NEWS_DUBLINCORE_DSC","Vi&scaron;e informacija na, <a hreh='http://dublincore.org/'>dublincore.org</a>");
++define("_MI_NEWS_BOOKMARK_ME","Prika&#382;i 'Ovu vijest kao Bookmark' u bloku ?");
++define("_MI_NEWS_BOOKMARK_ME_DSC","Ovaj blok je na stranici vijesti vidan.");
++define("_MI_NEWS_FF_MICROFORMAT","Aktivirati Firefox2 Micro-Summaries?");
++define("_MI_NEWS_FF_MICROFORMAT_DSC","Vi&scaron;e informacija na <a href='http://wiki.mozilla.org/Microsummaries' target='_blank'>ovoj stranici</a>");
++define("_MI_NEWS_WHOS_WHO","Gdje je ko");
++define("_MI_NEWS_METAGEN","Metagen");
++define("_MI_NEWS_TOPICS_DIRECTORY","Teme");
++define("_MI_NEWS_ADVERTISEMENT","Reklame");
++define("_MI_NEWS_ADV_DESCR","Tekst-Code ili Javascript-Code upisati za prikaz Reklame u sadr&#382;aju.");
++define("_MI_NEWS_MIME_TYPES","Ovdje odobrenje za Mime-Typ dozvoliti ko smije upotrebljavati Upload (svaki rastaviti novim redom za upis)");
++define("_MI_NEWS_ENHANCED_PAGENAV","Use enhanced page navigator ?");
++define("_MI_NEWS_ENHANCED_PAGENAV_DSC","With this option you can separate your pages with something like this : [pagrebreak:Page Title], the links to the pages are replaced by a dropdown list and you can use [sumary] to create an automatic summary of pages");
++
++// Added in version 1.54
++define('_MI_NEWS_CATEGORY_NOTIFY','Kategorije');
++define('_MI_NEWS_CATEGORY_NOTIFYDSC','Opcija obavje&scaron;tavanja kod novih upisanih sadr&#382;aja u Kategorijama');
++
++define('_MI_NEWS_CATEGORY_STORYPOSTED_NOTIFY', 'Novi sadr&#382;aj je poslat');
++define('_MI_NEWS_CATEGORY_STORYPOSTED_NOTIFYCAP', 'Obavjesti me, ako je novi sadr&#382;aj u ovoj kategoriji objavljen.');
++define('_MI_NEWS_CATEGORY_STORYPOSTED_NOTIFYDSC', 'Obavjest, ako je novi sadr&#382;aj u ovoj kategoriji objavljen.');
++define('_MI_NEWS_CATEGORY_STORYPOSTED_NOTIFYSBJ', '[{X_SITENAME}] {X_MODULE} auto-obavijest : Novi sadr&#382;aj');
++// Added in version 1.63
++define('_MI_NEWS_TAGS', "Koristi tagove sistema ?");
++define('_MI_NEWS_TAGS_DSC', "Oni se nalaze u XOOPS modulu koji se zove Tag od phppp");
++define("_MI_NEWS_BNAME10", "Skup Tagova");
++define("_MI_NEWS_BNAME11", "Top Tagovi");
++?>
+Index: news/language/bosanski/newsletter.php
+===================================================================
+--- news/language/bosanski/newsletter.php	(revision 0)
++++ news/language/bosanski/newsletter.php	(revision 0)
+@@ -0,0 +1,17 @@
++<?php
++$newslettertemplate=<<<contentend
++Naslov: %title%
++Tema: %topic_title%
++Napisao: %publisher%
++Objavljena: %published%
++Ocjena: %rating%
++Citana: %reads%
++
++Sadrzaj:
++%hometext%
++
++Procitaj vise: %link%
++ ----------------------------------------------------------------------------
++
++contentend;
++?>

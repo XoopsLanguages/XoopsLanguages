@@ -1,0 +1,59 @@
+Vozdra bosanci i hercegovci:-)
+
+Kao što vidite ovdje imate Xoops 2.3.1 preveden na bosanski jezik
+i u prevodu sam zbog naših slova: èæðšž koristio ISO 8859-2
+
+Osim core Xoops 2.3.1 imate u paketu neophodni Framework, xoops 
+editore prevode i dosta modula prevedenih koji funkcionišu bez greške sa
+Xoops 2.3.1
+
+Prevedeno je sve po mojoj gramatici koju sam stekao u kuænom odgoju i 
+školovanju i ukoliko pronaðete neke rijeèi da vam nisu pogodne
+možete ih onda sami sebi promjenuti kako želite.
+
+Sljedeæe je prevedeno na bosanski jezik:
+
+-Xoops core V.2.3.1
+-------------------
+*xoops_trust_path
+
+-xoops_trust_path/modules/protector/language/bosanski/
+-xoops_trust_path/libs/altsys/language/bosanski/
+"xoops_trust_path instalirajte po upustvu koje ima kada skinete xoops
+core.Protector modul je najnovije verzije 3.2, a Altsys je takoðe najnoviji
+V.062
+--------------------
+-Framework V.3.2
+-class/xoopseditors/
+--------------------
+Moduli:
+-Album-p V.2.84
+-AMS V.2.51
+-Adressar+Google Map V.1.72
+-Birhtday V.2.2
+-contact us V.1.6
+-DH-Info V.2.2
+-Flash Games V.1.1
+-Google Map V. 0.8
+-newbb V. 3.08
+-membership V.2.3
+-mydownloads V.1.45
+-mytabs V.2.0
+-PayPal Donations V. 1.9
+-Polls V.1.1
+-Online history V.1.0
+-Shoutbox V.4.2
+-Tellafriend V1.03
+-XF Guestebook V. 2.5
+-yogurt sozial network V.3.3 RC2
+------------------------------
+
+*Sva pitanja u vezi prevoda modula za CMS Xoops možete slati putem
+email-a info@g-orahovica.com ili bosanac@beha-raja.com*
+
+Puno zabave sa najboljim CMS Xoops vam želim svima od srca.
+Pozz svima
+Saba
+
+
+
