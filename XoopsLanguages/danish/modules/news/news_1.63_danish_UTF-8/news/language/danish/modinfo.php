@@ -172,4 +172,10 @@ define('_MI_NEWS_CATEGORY_STORYPOSTED_NOTIFY', 'Ny artikel indsendt');
 define('_MI_NEWS_CATEGORY_STORYPOSTED_NOTIFYCAP', 'Giv mig besked, når nogen ny artikel er indsendt til denne kategori.'); 
 define('_MI_NEWS_CATEGORY_STORYPOSTED_NOTIFYDSC', 'Få besked, når nogen ny historie er indsendt til denne kategori.'); 
 define('_MI_NEWS_CATEGORY_STORYPOSTED_NOTIFYSBJ', '[(X_SITENAME)] (X_MODULE) auto-besked: Ny artikel');
+
+// Added in version 1.63
+define('_MI_NEWS_TAGS', "Brug tags system ?");
+define('_MI_NEWS_TAGS_DSC', "Dette er baseret på modulet Tag fra phppp");
+define("_MI_NEWS_BNAME10", "Tags sky");
+define("_MI_NEWS_BNAME11", "Største Tags");
 ?>
