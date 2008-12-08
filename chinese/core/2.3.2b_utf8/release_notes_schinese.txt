@@ -2,10 +2,10 @@ XOOPS 2.3.2 正式版发布说明
 
 XOOPS 开发团队很高兴地宣布 XOOPS 2.3.2 正式版发布。
 
-这次的发布主要是真对一些安全隐患进行修补，其中包括由Digital Research Group 报告的跨站脚本攻击（XSS）漏洞，由DSG报告的包含文件漏洞，由Dylian报告的自动登录故障，以及由boy0917报告的数据同步功能的向前兼容问题。
-
+这次的发布主要是真对一些安全隐患进行修补，其中包括由DSRG(Digital Sercurity Research Group) 报告的跨站脚本攻击（XSS）漏洞，由DSRG报告的包含文件漏洞，由Dylian报告的自动登录故障，以及由boy0917报告的数据同步功能的向前兼容问题,除此之外还有ezsky报告的xoopsmailer的问题。
+在2.3.2b这个版本中,感谢DSRG,帮助我们改善XOOPS的安全问题.
 高度推荐所有的XOOPS2.3.x用户尽快升级到此版本。
-
+XOOPS2.0和2.2系列没有安全问题.但是如果你正在使用PROTECTOR模块,我们推荐升级此模块.最新版PROTECTOR模块可以从XOOPS安装包中获得.
 英文版地址下载[url=https://sourceforge.net/project/showfiles.php?group_id=41586&package_id=153583&release_id=643010]Sourceforge repository[/url].
 
 
@@ -50,7 +50,7 @@ XOOPS 2.30以前版本通过更新安装protector模块, 在执行更新之前�
 
 从旧版本更新至 XOOPS2.3.2 正式版
 -----------------------------------
-从 XOOPS .2.3.1 升级
+从 XOOPS 2.3.1 或 XOOPS 2.3.2a 升级
     1. 下载升级包
     2. 使用升级包内文件覆盖旧版文件
     3. 把"upgrade" 文件夹复制到 "htdocs" 文件夹内
