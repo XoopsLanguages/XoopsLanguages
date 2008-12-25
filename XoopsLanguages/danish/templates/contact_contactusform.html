@@ -1,0 +1,20 @@
+<{$contactform.javascript}>
+<form name="<{$contactform.name}>" action="<{$contactform.action}>" method="<{$contactform.method}>" <{$contactform.extra}>>
+  <table class="outer" cellspacing="1">
+    <tr>
+    <th colspan="2"><{$contactform.title}></th>
+    </tr>
+    <!-- start of form elements loop -->
+    <{foreach item=element from=$contactform.elements}>
+      <{if $element.hidden != true}>
+      <tr>
+        <td class="head"><{$element.caption}></td>
+        <td class="<{cycle values="even,odd"}>"><{$element.body}></td>
+      </tr>
+      <{else}>
+      <{$element.body}>
+      <{/if}>
+    <{/foreach}>
+    <!-- end of form elements loop -->
+  </table>
+</form>
