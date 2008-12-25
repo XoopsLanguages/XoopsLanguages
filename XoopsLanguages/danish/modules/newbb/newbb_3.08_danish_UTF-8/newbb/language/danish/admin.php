@@ -64,7 +64,7 @@ define('_AM_NEWBB_REPORT', 'Indberet dette indlæg');
 define('_AM_NEWBB_REPORT_PENDING', 'Afventende rapport');
 define('_AM_NEWBB_REPORT_PROCESSED', 'Afviklet rapport');
 
-define('_AM_NEWBB_CREATETHEDIR', 'Lav den');
+define('_AM_NEWBB_CREATETHEDIR', 'Lav det');
 define('_AM_NEWBB_SETMPERM', 'Sæt rettighederne');
 define('_AM_NEWBB_DIRCREATED', 'Folderen er blevet oprettet');
 define('_AM_NEWBB_DIRNOTCREATED', 'Folderen kunne ikke oprettes');
