@@ -53,4 +53,15 @@ define("_AM_ADV_MAINUNPATCHED","Xoops Protector kann ihre Seite unter bestimmten
 define("_AM_ADV_SUBTITLECHECK","Überprüfen, ob Protector funktioniert");
 define("_AM_ADV_CHECKCONTAMI","Verseuchung");
 define("_AM_ADV_CHECKISOCOM","Isolierte Kommentare");
+define("_AM_ADV_TRUSTPATHPUBLIC","Wenn Sie eine Grafik aufrufen bzw. sehen können oder der Link zeigt Ihnen eine normale Website an, scheint der sog. trust_path nicht korrekt plaziert zu sein, z.B. innerhalb des Rootverzeichnisses! Der trust_path muss außerhalb liegen, andernfalls ist ihr System nicht ausreichend geschützt! In manchen Fällen kann kein trust_path außerhalb des Rootverzeichnisses gesetzt werden, in dem Fall können Sie eine .htaccess Datei mit dem Inhalt DENY FROM ALL erstellen und in das Verzeichnis kopieren. Dies ist zumindest eine Ersatzlösung, wenn auch abweichend.");
+define("_AM_ADV_TRUSTPATHPUBLICLINK","Check des Trust_Path<br /><small>Es muss eine Fehlermeldung erscheinen (Error 404,403 oder 500) oder eine weisse Seite</small>");
+
+// Localization by ezsky
+define("_AM_EZ_PREFIX", "Prefix");
+define("_AM_EZ_TABLES", "Tabellen");
+define("_AM_EZ_UPDATED", "Update");
+define("_AM_EZ_COPY", "Kopieren");
+define("_AM_EZ_ACTIONS", "Aktion");
+define("_AM_EZ_BACKUP", "Backup");
+define("_AM_EZ_DELETE", "Löschen");
 ?>
