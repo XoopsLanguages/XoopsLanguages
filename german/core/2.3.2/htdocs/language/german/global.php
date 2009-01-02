@@ -168,7 +168,7 @@ define('_DAYS', '%s Tage');
 define('_WEEK', '1 Woche');
 define('_MONTH', '1 Monat');
 
-define("_DATESTRING","d.m.Y H:i");
+define("_DATESTRING","d.m.Y H:i:s");
 define("_MEDIUMDATESTRING","d.m.Y H:i");
 define("_SHORTDATESTRING","d.m.Y");
 /*
