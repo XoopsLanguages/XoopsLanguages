@@ -1,0 +1,27 @@
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+
+Traducción ó galego de Xoops 2.3.1
+Autor: Eduar Garza
+Empresa: Xeral informática
+http://www.xeral.net
+
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
+
+
+Para instalar o idioma galego ten que copiar a carpeta galician de cada un dos
+apartados nos correspondentes da súa versión de xoops:
+
+Na carpeta install/language
+
+Na carpeta htdocs/language
+
+Na carpeta htdocs/modules/xxxxxxxxx/language (onde xxxxxxxxx é a carpeta do módulo
+correspondente)
+
+Os módulos traducidos son news, oledrion, pm, profile, system e thadmin.
+
+
+-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
