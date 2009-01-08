@@ -1,0 +1,17 @@
+/* Add Persian Language by Persain Xoops Project www.irxoops.org  */
+/* for xoops themes*/
+/*============= Style for globalnav.html ================*/
+/*#xo-globalnav {
+	margin-right:					15px !important;
+}
+#xo-globalnav li {
+	float:							right !important;
+}*/
+/*============= Style for blocks left columns ===========*/
+#xo-canvas-leftcolumn .xo-blockcontent {
+	padding-right: 					16px;
+}
+/*============= Style for lists ==========================*/
+#xo-canvas-content ul {
+	text-align: 					right !important;
+}
