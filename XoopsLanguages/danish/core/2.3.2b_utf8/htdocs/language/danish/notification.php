@@ -74,7 +74,7 @@ define('_NOT_BOOKMARK_NOTIFYDSC', 'Hold styr på dette emne uden at modtage noge
 // For user profile
 // FIXME: These should be reworded a little...
 
-define('_NOT_NOTIFYMETHOD', 'Meddelelses metode< br/>Når du monitorere f.eks. et forum, hvordan vil du modtage meddelelser om opdateringer?
+define('_NOT_NOTIFYMETHOD', 'Meddelelses metode<br />Når du monitorere f.eks. et forum, hvordan vil du modtage meddelelser om opdateringer?
 ');
 define('_NOT_METHOD_EMAIL', 'E-mail (brug adresse i min profil)');
 define('_NOT_METHOD_PM', 'Privat meddelelse');
