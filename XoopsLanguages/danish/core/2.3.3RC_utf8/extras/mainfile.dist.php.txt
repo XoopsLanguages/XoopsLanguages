@@ -1,0 +1,1 @@
+For dem, der bruger protector modulet fra GIJOE, erstat htdocs/mainfile.dist.php med filen mainfile.dist.php.protector i denne mappe, før du installerer Xoops.
