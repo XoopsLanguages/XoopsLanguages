@@ -28,9 +28,9 @@ $content .= '
     <li>Erstellen Sie eine Datenbank für Ihre XOOPS-Seite.</li>
     <li>Bereiten Sie ein Userkonto vor und vergeben Sie dem User die Rechte zur Datenbank.</li>
     <li>Die folgenden Verzeichnisse und Dateien müssen beschreibbar sein: %s</li>
-    <li>Sollten Sie das Modul <em>protector</em> installieren, <div class="confirmMsg">ersetzen Sie die Datei <em>mainfile.dist.php</em> in Ihrem XOOPS Root Verzeichnis mit der <em>mainfile.dist.php.protector</em>.</div></li>
+    <li>Sollten Sie das Modul <em>protector</em> installieren, <div class="confirmMsg">löschen Sie die Datei <em>mainfile.dist.php</em> in Ihrem XOOPS Root Verzeichnis und benennen die Datei<br /><em>mainfile.dist.php.protector</em> in <em>mainfile.dist.php</em> um.</div></li>
     <li>Für mehr Sicherheit sollten die folgenden Verzeichnisse ausserhalb des <a href="http://phpsec.org/projects/guide/3.html" rel="external">Document root</a> sein und umbenannt werden: %s</li>
-    <li>Erstellen Sie folgende verzeichnisse und machen diese beschreibbar: %s</li>
+    <li>Erstellen Sie folgende Verzeichnisse und machen diese beschreibbar: %s</li>
     <li>Schalten Sie Cookies und JavaScript in Ihrem Browser ein.</li>
 </ol>
 ';

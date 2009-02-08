@@ -5,6 +5,13 @@ $constpref = '_MI_' . strtoupper( $mydirname ) ;
 
 if( defined( 'FOR_XOOPS_LANG_CHECKER' ) || ! defined( $constpref.'_LOADED' ) ) {
 
+
+// Appended by Xoops Language Checker -GIJOE- in 2008-11-21 04:44:31
+define($constpref.'_DEFAULT_LANG','Default language');
+define($constpref.'_DEFAULT_LANGDSC','Specify the language set to display messages before processing common.php');
+define($constpref.'_BWLIMIT_COUNT','Bandwidth limitation');
+define($constpref.'_BWLIMIT_COUNTDSC','Specify the max access to mainfile.php during watching time. This value should be 0 for normal environments which have enough CPU bandwidth. The number fewer than 10 will be ignored.');
+
 define( $constpref.'_LOADED' , 1 ) ;
 
 // The name of this module
@@ -22,9 +29,6 @@ define($constpref.'_ADMENU_MYBLOCKSADMIN','Berechtigungen') ;
 // Configs
 define($constpref.'_GLOBAL_DISBL','Vorübergehend deaktiviert');
 define($constpref.'_GLOBAL_DISBLDSC','Alle Sicherheitsfunktionen sind vorübergehend deaktiviert!<br />Vergessen Sie nicht diese wieder einzuschalten, wenn Sie eine Störung beseitigt haben!');
-
-define($constpref.'_DEFAULT_LANG','Standardsprache');
-define($constpref.'_DEFAULT_LANGDSC','Auswahl der Sprache bevor die common.php geladen wird');
 
 define($constpref.'_RELIABLE_IPS','Sichere IPs');
 define($constpref.'_RELIABLE_IPSDSC','Sie können IP Adressen mit einem | trennen. ^ setzt den Kopf des String, $ setzt das Ende des Strings.');
@@ -63,13 +67,10 @@ define($constpref.'_FILE_DOTDOTDSC','Eliminiertalle ".." aus Anfragen, die nach 
 define($constpref.'_BF_COUNT','Anti Brute Force');
 define($constpref.'_BF_COUNTDSC','Setzt die Anzahl der Loginversuchen von Gästen innerhalb 10 minuten. Wenn die Anzahl von Loginversuchen erreicht ist, wird die IP auf die Liste der schlechten IPs gesetzt.');
 
-define($constpref.'_BWLIMIT_COUNT','Bandbreiteneinschränkung');
-define($constpref.'_BWLIMIT_COUNTDSC','Legen Sie die gleichzeitigen Zugriffe auf die mainfile.php fest. Setzen Sie 0 für default, wenn sie über genügend Bandbreite besitzen. Zahlen kleiner als 10 werden ignoriert.');
-
 define($constpref.'_DOS_SKIPMODS','Module die nicht auf DoS/Crawler geprüft werden');
 define($constpref.'_DOS_SKIPMODSDSC','setzt die Verzeichnisnamen der Module, getrennt durch ein |. Diese Option ist bei Chatmodulen etc. hilfreich');
 
-define($constpref.'_DOS_EXPIRE','Zeitlimit für hohe Serverlast (Sekunden)');
+define($constpref.'_DOS_EXPIRE','','Zeitlimit für hohe Serverlast (Sekunden)');
 define($constpref.'_DOS_EXPIREDSC','Dieser Wert gibt das Zeitlimit für rasch wiederholte Reloads der Seite (F5 Attacke) und für Suchmaschinen mit hoher Last an.');
 
 define($constpref.'_DOS_F5COUNT','Anzahl als schädlich eingestufter Reloads F5');
@@ -108,5 +109,7 @@ define($constpref.'_SPAMURI4U','anti-SPAM: Anzahl URLs für normale Users');
 define($constpref.'_SPAMURI4UDSC','Wenn diese Anzahl von URLs in Beiträgen von Usern (nicht Admins) gefunden wird, ist der Beitrag als Spam eingestuft. 0 bedeutet dieses Feature ist deaktiviert.');
 define($constpref.'_SPAMURI4G','anti-SPAM: Anzahl URLs für Gäste');
 define($constpref.'_SPAMURI4GDSC','Wenn diese Anzahl von URLs in Beiträgen von Gästen gefunden wird, ist der Beitrag als Spam eingestuft. 0 bedeutet dieses Feature ist deaktiviert.');
+
 }
+
 ?>

@@ -51,7 +51,7 @@ define("_PROFILE_AM_PROF_ACCESS_DESC",  "");
 
 define("_PROFILE_AM_FIELDVISIBLE",		"Diese Feld ");
 define("_PROFILE_AM_FIELDVISIBLEFOR",	" ist sichtbar für ");
-define("_PROFILE_AM_FIELDVISIBLEON",	" wenn Betrachter in Gruppe ");
+define("_PROFILE_AM_FIELDVISIBLEON",	" wenn User in Gruppe ");
 define("_PROFILE_AM_FIELDVISIBLETOALL",	"- Jeden");
 define("_PROFILE_AM_FIELDNOTVISIBLE",	"ist nicht sichtbar");
 

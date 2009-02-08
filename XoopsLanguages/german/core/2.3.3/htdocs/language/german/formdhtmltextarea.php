@@ -66,10 +66,11 @@ define("_XOOPS_FORM_ENTERRTSPURL", "RTSP URL:");
 define("_XOOPS_FORM_ENTERWIKITERM", "Das Wort, das zum Wiki verlinkt:");
 define("_XOOPS_FORM_ALTMP3", "MP3");
 define("_XOOPS_FORM_ENTERMP3URL", "MP3 URL");
+define("_XOOPS_FORM_ALTYOUTUBE","YouTube-Video einfügen");
 
 define("_XOOPS_FORM_ALT_CHECKLENGTH", "Prüfe die Textlänge");
 define("_XOOPS_FORM_ALT_LENGTH", "Aktuelle Inhaltslänge: %s");
 define("_XOOPS_FORM_ALT_LENGTH_MAX", "Maximale Länge: ");
 
-define("_XOOPS_FORM_PREVIEW_CONTENT", "Klicken hier <strong>" . _PREVIEW . "</strong> um eine Vorschau zu erhalten.");
+define("_XOOPS_FORM_PREVIEW_CONTENT", "Klicke auf <strong>" . _PREVIEW . "</strong> um eine Voransicht zu erhalten.");
 ?>
