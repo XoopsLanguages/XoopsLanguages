@@ -1,6 +1,9 @@
 <?php
-// $Id: main.php 2021 2008-08-31 02:02:45Z phppp $
-// Code: UTF-8 by Muki
+// $Id: main.php 2641 2009-02-08 14:05 dhcst $
+// _LANGCODE: de
+// _CHARSET : UTF-8
+// Translator: XOOPS Translation Team
+
 define("_PROFILE_MA_REGISTER_NOTGROUP", "Neuer Benutzer wird nicht zu entsprechenden Gruppen registriert.");
 define("_PROFILE_MA_FINISH_LOGIN","Ihr Account wurde erfolgreich erstellt, bitte anklicken um sich anzumelden.");
 define("_PROFILE_MA_REGISTER_FINISH", "Danke für Ihre Registrierung");
@@ -13,10 +16,10 @@ define("_PROFILE_MA_NOSTEPSAVAILABLE", "Registration ist momentan nicht möglich
 define("_PROFILE_MA_EXPIRED", "Die Zeit ist abgelaufen, bitte zurück gehen um es erneut zu Versuchen.");
 
 
-define('_PROFILE_MA_RECENTACTIVITY','Neue Auswahl');
+define('_PROFILE_MA_RECENTACTIVITY','Auswahl Useraktivitäten');
 define('_PROFILE_MA_THEME','Theme');
-define('_PROFILE_MA_ACTIVATE','Aktiert');
-define('_PROFILE_MA_DEACTIVATE','Deaktiviert');
+define('_PROFILE_MA_ACTIVATE','Aktivieren');
+define('_PROFILE_MA_DEACTIVATE','Deaktivieren');
 define('_PROFILE_MA_SENDPM','Nachricht senden');
 
 //changepass.php
@@ -49,4 +52,7 @@ define("_PROFILE_MA_SITEDEFAULT", "Standardseite");
 
 define("_PROFILE_MA_USERINFO","User Profil");
 define("_PROFILE_MA_REGISTER","Registierungsformular");
+
+define("_PROFILE_MA_ACTUS","%s User insgesamt");
+define("_PROFILE_MA_FOUNDUSER","%s User wurden gefunden");
 ?>

@@ -1,5 +1,9 @@
 <?php
-// german v 1.4 2008/10/12 alfred $
+// $Id: users.php 2411 2009-02-08 14:21 dhcst $
+// _LANGCODE: en
+// _CHARSET : UTF-8
+// Translator: XOOPS Translation Team
+
 //%%%%%%	Admin Module Name  Users 	%%%%%
 define('_AM_DBUPDATED',_MD_AM_DBUPDATED);
 
@@ -42,7 +46,7 @@ define('_AM_USERINFO','Mitgliedsinfo');
 define('_AM_USERID','Mitglieds-ID');
 define('_AM_RETYPEPD','Passwort wiederholen');
 define('_AM_CHANGEONLY','(nur bei Änderungen)');
-define('_AM_USERPOST','Beiträ;ge des Mitglieds');
+define('_AM_USERPOST','Beiträge des Mitglieds');
 define('_AM_STORIES','Artikel');
 define('_AM_COMMENTS','Kommentare');
 define('_AM_PTBBTSDIYT','Zum Synchronisieren der Beiträge den Button drücken und die Daten werden aktualisiert');
@@ -55,5 +59,7 @@ define('_AM_CNUUSER','Mitglied kann nicht aktualisiert werden');
 define('_AM_CNGUSERID','Konnte Mitglieds-ID nicht finden');
 define('_AM_LIST','Auflisten');
 define('_AM_NOUSERS', 'Kein Mitglied ausgewählt');
-define("_AM_CNRNU2","Der User kann nicht zur Gruppe %s hinzugef�gt werden.");
+
+define("_AM_CNRNU2","Der User kann nicht zur Gruppe %s hinzugefügt werden.");
+
 ?>

@@ -1,5 +1,9 @@
 <?php
-// Code UTF-8 by Muki
+// $Id: admin.php 2641 2009-02-08 14:06 dhcst $
+// _LANGCODE: de
+// _CHARSET : UTF-8
+// Translator: XOOPS Translation Team
+
 define("_PROFILE_AM_FIELD",				"Feld");
 define("_PROFILE_AM_FIELDS",			"Felder");
 define("_PROFILE_AM_CATEGORY",			"Kategorie");
@@ -38,12 +42,12 @@ define("_PROFILE_AM_PROF_EDITABLE",		"Editierbares Feld im Profil");
 define("_PROFILE_AM_PROF_REGISTER",		"Im Registrierungsformular anzeigen");
 define("_PROFILE_AM_PROF_SEARCH",		"Durchsuchbar von diesen Gruppen");
 define("_PROFILE_AM_PROF_ACCESS",		"Profilezugriff für diese Gruppe");
-define("_PROFILE_AM_PROF_ACCESS_DESC",
-        "<ul>" .
-        "<li>Admin-Gruppe: If a user belongs to admin groups, the current user has access if and only if one of the current user's groups is allowed to access admin group; else</li>" .
-        "<li>Keine Basis-Gruppe: If a user belongs to one or more non basic groups (NOT admin, user, anonymous), the current user has access if and only if one of the current user's groups is allowed to allowed to any of the non basic groups; else</li>" .
-        "<li>User-Gruppe: If a user belongs to User group only, the current user has access if and only if one of his groups is allowed to access User group</li>" .
-        "</ul>");
+define("_PROFILE_AM_PROF_ACCESS_DESC",  "");
+
+
+
+
+
 
 define("_PROFILE_AM_FIELDVISIBLE",		"Diese Feld ");
 define("_PROFILE_AM_FIELDVISIBLEFOR",	" ist sichtbar für ");
@@ -90,8 +94,8 @@ define("_PROFILE_AM_CANNOTDELETESELF",	"Das Löschen Ihres eigenen Accounts ist 
 define("_PROFILE_AM_CANNOTDELETEADMIN", "Das Löschen eines Administratorkontos ist nicht erlaubt.");
 
 define("_PROFILE_AM_NOSELECTION",			"Kein User Ausgewählt");
-define("_PROFILE_AM_USER_ACTIVATED",		"User aktiviert");
-define("_PROFILE_AM_USER_DEACTIVATED",		"User deaktiviert");
+define("_PROFILE_AM_USER_ACTIVATED",		"User aktivieren");
+define("_PROFILE_AM_USER_DEACTIVATED",		"User deaktivieren");
 define("_PROFILE_AM_USER_NOT_ACTIVATED",	"Fehler: User NICHT aktiviert");
 define("_PROFILE_AM_USER_NOT_DEACTIVATED",	"Fehler: User NICHT deaktiviert");
 

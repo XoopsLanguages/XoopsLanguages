@@ -1,5 +1,9 @@
 <?php
-// Code: UTF-8 by Muki
+// $Id: main.php 2411 2009-02-08 13:58 dhcst $
+// _LANGCODE: de
+// _CHARSET : UTF-8
+// Translator: XOOPS Translation Team
+
 //%%%%%%	File Name readpmsg.php 	%%%%%
 define("_PM_DELETED","Ihre Nachricht(en) wurde(n) gelöscht");
 define("_PM_PRIVATEMESSAGE","Private Nachrichten");
@@ -52,27 +56,27 @@ define("_PM_RUSUREDELETE","Wollen Sie diese Nachricht(en) wirklich löschen?");
 
 define("_PM_ONLINE", "Online");
 
-//define("_PM_RECEIVE","RECEIVE");
-//define("_PM_POST","POST");
-//define("_PM_READBOX","READBOX");
-//define("_PM_RSAVEBOX","Receive_SAVEBOX");
+define("_PM_RECEIVE","RECEIVE");
+define("_PM_POST","SENDE");
+define("_PM_READBOX","READBOX");
+define("_PM_RSAVEBOX","Receive_SAVEBOX");
 define("_PM_OUTBOX","Postausgang");
 define("_PM_SAVEBOX","Gespeicherte PNs");
-//define("_PM_SENTBOX","SENTBOX");
-//define("_PM_PSAVEBOX","Post_SAVEBOX");
+define("_PM_SENTBOX","SENTBOX");
+define("_PM_PSAVEBOX","Post_SAVEBOX");
 define("_PM_SAVE","Speichern");
 define("_PM_SAVED","Erfolgreich gespeichert");
 define("_PM_TOC","Von: ");
 
 //WANISYS.NET PM HACK1.5
-//define("_PM_SORT","SORT");
-//define("_PM_ORDER","ORDER");
-//define("_PM_UID","Partner-UID");
-//define("_PM_TIME","Post DATE");
+define("_PM_SORT","SORT");
+define("_PM_ORDER","ORDER");
+define("_PM_UID","Partner-UID");
+define("_PM_TIME","Post DATE");
 define("_PM_ASC","Aufsteigend");
 define("_PM_DESC","Absteigend");
 define("_PM_LIMIT","PNs pro Seite");
-//define("_PM_BACKTOBOX","Back to Box");
+define("_PM_BACKTOBOX","Back to Box");
 define("_PM_SORTSUBMIT","Abschicken");
 define("_PM_PREVIOUSP","Vorherige");
 define("_PM_NEXTP","Nächste");

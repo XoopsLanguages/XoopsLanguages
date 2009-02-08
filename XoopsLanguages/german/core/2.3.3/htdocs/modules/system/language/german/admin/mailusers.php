@@ -1,5 +1,9 @@
 <?php
-// german v 1.4 2008/01/08 sato-san / Rene Sato / www.XOOPS-magazine.com $
+// $Id: mailusers.php 2411 2009-02-08 14:33 dhcst $
+// _LANGCODE: de
+// _CHARSET : UTF-8
+// Translator: XOOPS Translation Team
+
 //%%%%%%	Admin Module Name  MailUsers	%%%%%
 define('_AM_DBUPDATED',_MD_AM_DBUPDATED);
 

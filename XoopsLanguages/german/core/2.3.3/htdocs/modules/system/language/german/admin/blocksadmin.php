@@ -1,5 +1,9 @@
 <?php
-// german v 1.4 2008/01/08 sato-san / Rene Sato / www.XOOPS-magazine.com $
+// $Id: blocksadmin.php 2411 2009-02-08 14:38 dhcst $
+// _LANGCODE: de
+// _CHARSET : UTF-8
+// Translator: XOOPS Translation Team
+
 //%%%%%%	Admin Module Name  Blocks 	%%%%%
 define('_AM_DBUPDATED',_MD_AM_DBUPDATED);
 
@@ -67,7 +71,6 @@ define('_AM_EDITTPL', 'Template bearbeiten');
 define('_AM_MODULE', 'Modul');
 define('_AM_GROUP', 'Gruppe');
 define('_AM_UNASSIGNED', 'Nicht zugewiesen');
-
 
 define("_AM_CUSTOM","Custom Block");
 define('_AM_GENERATOR', 'Blocks angezeigt auf %s');

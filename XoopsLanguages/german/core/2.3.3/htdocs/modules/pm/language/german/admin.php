@@ -1,5 +1,9 @@
 <?php
-// Code: UTF-8 by Muky
+// $Id: admin.php 2411 2009-02-08 14:01 dhcst $
+// _LANGCODE: en
+// _CHARSET : UTF-8
+// Translator: XOOPS Translation Team
+
 define("_PM_AM_PRUNE", "Säubern");
 define("_PM_AM_PRUNEAFTER", "Nachrichten säubern nach diesem Datum (leer lassen für kein Startdatum)");
 define("_PM_AM_PRUNEBEFORE", "Nachrichten säubern vor diesem Datum (leer lassen für kein Enddatum)");
@@ -9,4 +13,5 @@ define("_PM_AM_NOTIFYUSERS", "Betroffene User über die Säuberung informieren?"
 
 define("_PM_AM_MESSAGESPRUNED", "%u Nachrichten gesäubert");
 define("_PM_AM_ERRORWHILEPRUNING", "Es ist ein Fehler bei der Säuberung aufgetreten");
+
 ?>

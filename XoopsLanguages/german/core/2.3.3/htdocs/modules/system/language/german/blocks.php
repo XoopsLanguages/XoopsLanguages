@@ -1,5 +1,9 @@
 <?php
-// german v 1.4 2008/10/12 alfred $
+// $Id: blocks.php 2411 2009-02-08 14:16 dhcst $
+// _LANGCODE: de
+// _CHARSET : UTF-8
+// Translator: XOOPS Translation Team
+
 // Blocks
 define('_MB_SYSTEM_ADMENU','Administration');
 define('_MB_SYSTEM_RNOW','Neu anmelden!');
@@ -26,6 +30,7 @@ define('_MB_SYSTEM_PWHEIGHT','Pop-Up-Fenster - Höhe');
 define('_MB_SYSTEM_LOGO','Logo-Datei im Verzeichnis %s');  // %s is your root image directory name
 define("_MB_SYSTEM_COMPEND", "Kommentare");
 
+//define("_MB_SYSTEM_LOGGEDINAS", "Eingeloggt als: ");
 define('_MB_SYSTEM_SADMIN','Admin-Gruppe einsehen');
 define('_MB_SYSTEM_SPMTO','Private Nachricht an %s senden');
 define('_MB_SYSTEM_SEMTO','Sende Email zu %s');
@@ -40,6 +45,6 @@ define('_MB_SYSTEM_SECURE', 'Sicheres Einloggen');
 define('_MB_SYSTEM_NUMTHEME', '%s Themen');
 define('_MB_SYSTEM_THSHOW', 'Zeige Screenshot an');
 define('_MB_SYSTEM_THWIDTH', 'Screenshot-Breite');
-define('_MB_SYSTEM_REMEMBERME', 'login speichern');
+define('_MB_SYSTEM_REMEMBERME', 'Login speichern');
 
 ?>

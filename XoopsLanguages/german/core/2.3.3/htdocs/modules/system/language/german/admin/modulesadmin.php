@@ -1,5 +1,9 @@
 <?php
-// german v 2.0 2008/08/28 studioC / Michael Hokamp / www.myXOOPS.org $
+// $Id: modulesadmin.php 2411 2009-02-08 14:32 dhcst $
+// _LANGCODE: de
+// _CHARSET : UTF-8
+// Translator: XOOPS Translation Team
+
 //%%%%%%	File Name  modulesadmin.php 	%%%%%
 define('_MD_AM_MODADMIN','Moduladministration');
 define('_MD_AM_MODULE','Modul');

@@ -1,5 +1,9 @@
 <?php
-// Code: UTF-8 by Muki
+// $Id: modinfo.php 2411 2009-02-08 13:57 dhcst $
+// _LANGCODE: de
+// _CHARSET : UTF-8
+// Translator: XOOPS Translation Team
+
 define("_PM_MI_NAME", "Private Nachrichten");
 define("_PM_MI_DESC", "Modul zum Versand von privaten Nachrichten zwischen Usern");
 
@@ -18,8 +22,8 @@ define("_PM_MI_PRUNESUBJECTDEFAULT", "Gelöschte Nachrichten nach Säuberung");
 define("_PM_MI_PRUNEMESSAGEDEFAULT", "Während der Säuberung der Privaten Nachrichten wurden {PM_COUNT} in Ihrem Posteingang gelöscht um Platz und Resourcen zu sparen");
 
 define("_PM_MI_MAXSAVE", "Maximale Nachrichten im Postausgang");
-define("_PM_MI_MAXSAVE_DESC", "");
+define("_PM_MI_MAXSAVE_DESC", "maximale Anzahl der Nachrichten die gespeichert werden können");
 
 define("_PM_MI_PERPAGE", "Nachrichten pro Seite");
-define("_PM_MI_PERPAGE_DESC", "");
+define("_PM_MI_PERPAGE_DESC", "Anzahl der darstellbaren nachrichten auf einer Seite");
 ?>

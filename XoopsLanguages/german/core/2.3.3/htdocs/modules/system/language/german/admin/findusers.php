@@ -1,5 +1,9 @@
 <?php
-// german v 1.4 2008/01/08 sato-san / Rene Sato / www.XOOPS-magazine.com $
+// $Id: findusers.php 2411 2009-12-08 14:36 dhcst $
+// _LANGCODE: de
+// _CHARSET : UTF-8
+// Translator: XOOPS Translation Team
+
 //%%%%%%	File Name findusers.php 	%%%%%
 
 define('_AM_FINDUS','Mitglied finden');
@@ -48,5 +52,6 @@ define('_AM_INACTIVE','Nur inaktive Mitglieder');
 define('_AM_BOTH', 'Alle Mitglieder');
 define('_AM_SENDMAIL', 'E-Mail senden');
 define('_AM_ADD2GROUP', 'Mitglied zur %s Gruppe hinzufügen');
+
 define("_AM_GROUPS", "Gruppen");
 ?>

@@ -1,5 +1,9 @@
 <?php
-// german v 1.4 2008/01/08 sato-san / Rene Sato / www.XOOPS-magazine.com $
+// $Id: tplsets.php 2411 2009-02-08 14:23 dhcst $
+// _LANGCODE: de
+// _CHARSET : UTF-8
+// Translator: XOOPS Translation Team
+
 //%%%%%% Template Manager %%%%%
 define('_MD_TPLMAIN','Templatemanager');
 define('_MD_INSTALL','Installieren');
