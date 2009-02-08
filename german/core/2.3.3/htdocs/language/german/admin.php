@@ -20,6 +20,6 @@ define('_AD_LOGINADMIN', 'EINLOGGEN...');
 define("_AD_WARNINSTALL2","WARNUNG: Das Verzeichnis %s existiert noch auf dem Server. Entfernen Sie bitte dieses Verzeichnis aus Sicherheitsgründen.");
 define("_AD_WARNINWRITEABLE","WARNUNG: Die Datei %s ist nicht schreibgeschützt auf dem Server. <br />Bitte setzen Sie die Zugriffsrechte richtig. Ansonsten wird das zu einem Sicherheitsrisiko!<br /> (unter Unix (444), unter Win32 (schreibgeschützt))");
 define("_AD_WARNINNOTWRITEABLE","WARNUNG: Verzeichnis %s ist nicht beschreibbar vom Server. <br />Bitte ändern Sie die Schreibrechte dieses Ordners.<br /> für Unix (777), für Windows (readable)");
-define("_AD_WARNINGXOOPSLIBINSIDE","WARNUNG: Verzeichnis %s ist innerhalb des DocumentRoot! In diesem Ordner befinden sich sensible Daten. Dieser sollte daher vor Zugriffen aus dem Web geschützt werden.");
+define("_AD_WARNINGXOOPSLIBINSIDE","WARNUNG: Verzeichnis %s ist innerhalb des DocumentRoot!<br />In diesem Ordner befinden sich sensible Daten. Dieser sollte daher vor Zugriffen aus dem Web geschützt werden.");
 
 ?>
