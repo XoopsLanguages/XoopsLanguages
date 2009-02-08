@@ -14,8 +14,9 @@
  * @german      myXOOPS.org
  * @Code		UTF-8 by Muki
  */
-// $Id: install.php german V2.3 02.11 2008
-
+// _LANGCODE: de
+// _CHARSET : UTF-8
+// Translator: XOOPS Translation Team
 
 define( "SHOW_HIDE_HELP", "Anzeigen/Ausblenden des Hilfe-Textes" );
 
@@ -32,14 +33,11 @@ define( "SETTING_NAME", "Einstellung" );
 define( "RECOMMENDED", "empfohlen" );
 define( "CURRENT", "aktuell" );
 define( "RECOMMENDED_EXTENSIONS_MSG", "Diese Erweiterungen sind für den normalen Gebrauch nicht zwingend notwendig,
-könnten aber bei bestimmten Zusatzfunktionen (wie multi-language oder RSS Unterstützung) gebraucht werden.
-Es schadet also nicht, diese installiert zu haben." );
+könnten aber bei bestimmten Zusatzfunktionen (wie multi-language oder RSS Unterstützung) gebraucht werden. Es schadet also nicht, diese installiert zu haben." );
 define( "NONE", "Kein" );
 define( "SUCCESS", "Erfolgreich" );
 define( "WARNING", "Warnung" );
 define( "FAILED", "Fehler" );
-
-
 
 // Titles (main and pages)
 define( "XOOPS_INSTALL_WIZARD", "XOOPS Installations-Assistent" );
@@ -103,6 +101,7 @@ define( "DB_PREFIX_HELP",  "Der Prefix, der den Tabellen voangestellt wird. Wenn
 define( "DB_PCONNECT_LABEL", "Ständige Verbindung?" );    // L54
 define( "DB_PCONNECT_HELP",  "Default ist 'Nein'. Stellen Sie auf  'Ja', wenn Sie eine dauerhafte Verbindung zur Datenbank benötigen."); // L69
 define( "DB_DATABASE_LABEL", "Datenbank" );
+
 define( "LEGEND_ADMIN_ACCOUNT", "Administrator Account" );
 define( "ADMIN_LOGIN_LABEL", "Administrator Login:" ); // L37
 define( "ADMIN_EMAIL_LABEL", "Administrator E-mail:" ); // L38
@@ -150,8 +149,7 @@ define( "ERR_NO_XOOPS_FOUND", "Es konnte keine XOOPS Installation im angegebenen
 define( "ERR_INVALID_EMAIL", "Ungültige Email-Adresse" ); // L73
 define( "ERR_REQUIRED", "Die Eingabe ist erfoderlich." ); // L41
 define( "ERR_PASSWORD_MATCH", "Die beiden Passwörter stimmen nicht überein!" );
-define( "ERR_NEED_WRITE_ACCESS", "Der Server muss Schreibrechte auf die folgenden Ordner bzw. Dateien besitzen.<br />(z.B. <em>chmod 777 Ordner_Name</em>, <em>chmod 666 Datei_Name</em> auf einem UNIX/LINUX Server)<br />
-Wenn diese nicht vorhanden sind oder nicht ordnungsgemäss erstellt wurden, erstellen Sie diese bitte manuell und vergeben anschliessend die entsprechenden Rechte." );
+define( "ERR_NEED_WRITE_ACCESS", "Der Server muss Schreibrechte auf die folgenden Ordner bzw. Dateien besitzen.<br />(z.B. <em>chmod 777 Ordner_Name</em>, <em>chmod 666 Datei_Name</em> auf einem UNIX/LINUX Server)<br />Wenn diese nicht vorhanden sind oder nicht ordnungsgemäss erstellt wurden, erstellen Sie diese bitte manuell und vergeben anschliessend die entsprechenden Rechte." );
 define( "ERR_NO_DATABASE", "Es konnte keine Datenbank erstellt werden. Bitte kontaktieren Sie Ihren Server-Administrator." ); // L31
 define( "ERR_NO_DBCONNECTION", "Es konnte keine Verbindung zum Datenbankserver hergestellt werden." ); // L106
 define( "ERR_WRITING_CONSTANT", "Fehler beim Schreiben der Konstante %s." ); // L122
@@ -164,7 +162,50 @@ define( "ERR_INVALID_DBCHARSET", "Der zeichensatz '%s' ist nicht verfügbar." );
 define( "ERR_INVALID_DBCOLLATION", "Die Kollation '%s' ist nicht verfügbar." );
 define( "ERR_CHARSET_NOT_SET", "Default Character Set ist nicht gesetzt für die XOOPS Datenbank." );
 
-//
 
 define("_INSTALL_CHARSET", "UTF-8");
+
+define( "SUPPORT", "Support");
+
+define( "LOGIN", "Anmeldung");
+define( "LOGIN_TITLE", "Login");
+define( "USER_LOGIN", "Administrator Login" );
+define( "USERNAME", "Username :");
+define( "PASSWORD", "Password :");
+
+define( "ICONV_CONVERSION", "Character set conversion");
+define( "ZLIB_COMPRESSION", "Zlib Compression");
+define( "IMAGE_FUNCTIONS", "Image functions");
+define( "IMAGE_METAS", "Image meta data (exif)");
+
+define( "ADMIN_EXIST", "Ein Administratorzugang existiert bereits.<br />Bitte mit dem <strong>nächsten Schritt</strong> fortfahren");
+
+define( "CONFIG_SITE", "Seitenkonfiguration" );
+define( "CONFIG_SITE_TITLE", "Seitenkonfiguration" );
+define( "MODULES", "Moduleinstallation" );
+define( "MODULES_TITLE", "Moduleinstallation" );
+define( "THEME", "Themeauswahl" );
+define( "THEME_TITLE", "Wählen Sie ihr Theme aus" );
+
+define( "INSTALLED_MODULES", "Die folgenden Module wurden installiert.<br />Bitte mit dem <strong>nächsten Schritt</strong> fortfahren");
+define( "NO_MODULES_FOUND", "Keine Module gefunden.<br />Bitte mit dem <strong>nächsten Schritt</strong> fortfahren");
+define( "NO_INSTALLED_MODULES", "Keine Module installiert.<br />Bitte mit dem <strong>nächsten Schritt</strong> fortfahren");
+
+define( "THEME_NO_SCREENSHOT", "Kein Vorschaubild gefunden.");
+
+define( "IS_VALOR", " => ");
+
+// password message
+define( "PASSWORD_LABEL", "Password Stärke: ");
+define( "PASSWORD_DESC", "Password nicht vorhanden");
+define( "PASSWORD_GENERATOR", "Password Generator");
+define( "PASSWORD_GENERATE", "Erzeuge");
+define( "PASSWORD_COPY", "Kopieren");
+
+define( "PASSWORD_VERY_WEAK", "sehr schwach");
+define( "PASSWORD_WEAK", "schwach");
+define( "PASSWORD_BETTER", "besser");
+define( "PASSWORD_MEDIUM", "mittel");
+define( "PASSWORD_STRONG", "gut");
+define( "PASSWORD_STRONGEST", "sehr gut");
 ?>
