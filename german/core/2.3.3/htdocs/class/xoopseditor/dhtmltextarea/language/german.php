@@ -10,7 +10,7 @@
  * @package		xoopseditor
  *
  * Assocated with editor_registry.php
- * Code: UTF-8 by Muki
+ * Code: UTF-8 by Muki überarbeitet von Alfred
  */
 
 define("_XOOPS_EDITOR_DHTMLTEXTAREA", "DHTML Editor");
