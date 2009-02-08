@@ -1,8 +1,9 @@
 <?php
-// $Id: notification.php 1011 2007-08-24 08:07:21Z phppp $
-// german v 1.4 2008/01/08 sato-san / Rene Sato / www.XOOPS-magazine.com $
-// Code : UTF-8
-// Letzte Bearbeitung 18.09.2008 / Feichtl
+// $Id: notification.php 2755 2009-02-08 12:24 dhcst $
+// _LANGCODE: de
+// _CHARSET : UTF-8
+// Translator: XOOPS Translation Team
+
 // RMV-NOTIFY
 
 // Text for various templates...

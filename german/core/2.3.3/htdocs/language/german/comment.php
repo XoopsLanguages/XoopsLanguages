@@ -1,8 +1,9 @@
 <?php
-// $Id: comment.php 506 2006-05-26 23:10:37Z skalpa $
-// german v 1.4 2008/01/08 sato-san / Rene Sato / www.XOOPS-magazine.com $
-// Code : UTF-8
-// Letzte Bearbeitung 18.09.2008 / Feichtl
+// $Id: comment.php 2755 2009-02-08 13:43 dhcst $
+// _LANGCODE: de
+// _CHARSET : UTF-8
+// Translator: XOOPS Translation Team
+
 define('_CM_TITLE','Titel');
 define('_CM_MESSAGE','Nachricht erstellen');
 define('_CM_DOSMILEY','Smilie-Icons ermöglichen');
@@ -41,4 +42,5 @@ define('_CM_COMAPPROVEADMIN','Kommentare werden durch den Administrator geprüft
 define('_CM_COMANONPOST','Gästen erlauben Kommentare zu schreiben?');
 define('_CM_COMNOCOM','Kommentare deaktivieren');
 define('_CM_RE','Aw');
+
 ?>

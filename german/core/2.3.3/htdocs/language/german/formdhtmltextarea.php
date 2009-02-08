@@ -15,10 +15,8 @@
  * @subpackage      form
  * @since           2.3.0
  * @author          Taiwen Jiang <phppp@users.sourceforge.net>
- * @version         $Id: formdhtmltextarea.php 1782 2008-05-26 05:04:38Z phppp $
+ * @version         $Id: formdhtmltextarea.php 2412 2009-02-08 13:41 dhcst $
  */
- // Code : UTF-8
-// Letzte Bearbeitung 18.09.2008 / Feichtl
 
 /**
  * Localized fonts

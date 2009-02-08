@@ -1,11 +1,11 @@
 <?php
-// formselectuser.php
-// german v 1.4 2008/01/08 sato-san / Rene Sato / www.XOOPS-magazine.com $
-// Code : UTF-8
-// Letzte Bearbeitung 02.11.2008 / Alfred
+// $Id: findusers.php 2755 2009-02-08 13:42 dhcst $
+// _LANGCODE: de
+// _CHARSET : UTF-8
+// Translator: XOOPS Translation Team
+
 define("_MA_USER_MORE", "Mitglied finden");
 define("_MA_USER_REMOVE", "Remove unselected users");
-
 
 //%%%%%%	File Name findusers.php 	%%%%%
 define("_MA_USER_ADD_SELECTED", "ausgewählten User hinzufügen");
@@ -66,4 +66,5 @@ define("_MA_USER_NOUSERSELECTED", "Kein Mitglied ausgewählt");
 define("_MA_USER_USERADDED", "Mitglieder wurden hinzugefügt");
 
 define("_MA_USER_SENDMAIL","Sende E-mail");
+
 ?>

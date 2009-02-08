@@ -6,7 +6,6 @@ Anmedlung gewählten Passwort einloggen.
 
 {SITEURL}user.php
 
------------
+-------------------------------------------------
 {SITENAME} ({SITEURL}) 
-Der Webmaster
 {ADMINMAIL}

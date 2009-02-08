@@ -1,9 +1,10 @@
 <?php
-// $Id: $
-//%%%%%%		File Name banners.php 		%%%%%
-// german v 1.4 2008/01/08 sato-san / Rene Sato / www.XOOPS-magazine.com $
-// Code : UTF-8
-// Letzte Bearbeitung 18.09.2008 / Feichtl
+// $Id: banners.php 2755 2009-02-08 13:44 dhcst $
+// _LANGCODE: de
+// _CHARSET : UTF-8
+// Translator: XOOPS Translation Team
+
+//%%%%%%        File Name banners.php       %%%%%
 define('_BANNERS_LOGIN_TITLE',"Bannerstatistik");
 define('_BANNERS_LOGIN_LOGIN',"Login :");
 define('_BANNERS_LOGIN_PASS',"Passwort :");
@@ -36,4 +37,5 @@ define('_BANNERS_MAIL_SUBJECT',"Ihre Banner Statistik auf %s");
 define('_BANNERS_MAIL_MESSAGE',"Nachfolgend erhalten Sie Ihre komplette Statistik für Ihre Werbeinvestition auf %s :\n\n\nKlient: %s\nBanner ID: %s\nBanner Image: %s\nBanner URL: %s\n\nAufrufe gekauft: %s\nAufrufe erhalten: %s\nAufrufe übrig: %s\nKlicks erhalten: %s\nKlicks Anteil (%): %f \n\n\nReport generiert auf: %s");
 define('_BANNERS_MAIL_OK',"Statistiken für Ihre Banner wurden an Ihre E-Mail Adresse gesendet.");
 define('_BANNERS_MAIL_ERROR',"Dem Klienten %s ist keine E-Mail Adresse zugeordnet.<br />Bitte kontaktieren Sie den Administrator");
+
 ?>

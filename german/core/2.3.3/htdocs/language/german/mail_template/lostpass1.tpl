@@ -7,8 +7,6 @@ Sie erhalten Ihr neues Passwort, wenn Sie auf den unten aufgeführten Link klick
 
 Sollten Sie kein neues Passwort angefordert haben, ignorieren Sie einfach diese Nachricht.
 
-
----------------------------------
+-------------------------------------------------
 {SITENAME} ({SITEURL}) 
-Der Webmaster
 {ADMINMAIL}

@@ -14,8 +14,6 @@ unten aufgeführten Link anklicken.
 
 {X_UACTLINK}
 
-------------------------------
-Mit freundlichen Grüssen
+-------------------------------------------------
 {SITENAME} ({SITEURL}) 
-Der Webmaster
 {ADMINMAIL}

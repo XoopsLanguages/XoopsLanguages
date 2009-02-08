@@ -1,9 +1,10 @@
 <?php
-// $Id: timezone.php 2 2005-11-02 18:23:29Z skalpa $
-//%%%%%		Time Zone	%%%%
-// german v 1.4 2008/01/08 sato-san / Rene Sato / www.XOOPS-magazine.com $
-// Code : UTF-8
-// Letzte Bearbeitung 18.09.2008 / Feichtl
+// $Id: timezone.php 2755 2009-02-08 12:22 dhcst $
+// _LANGCODE: de
+// _CHARSET : UTF-8
+// Translator: XOOPS Translation Team
+
+//%%%%%     Time Zone   %%%%
 define("_TZ_GMTM12", "(GMT-12:00) Eniwetok, Kwajalein");
 define("_TZ_GMTM11", "(GMT-11:00) Midway Inseln, Samoa");
 define("_TZ_GMTM10", "(GMT-10:00) Hawaii");
@@ -34,4 +35,5 @@ define("_TZ_GMTP95", "(GMT+9:30) Adelaide, Darwin");
 define("_TZ_GMTP10", "(GMT+10:00) Melbourne, Guam, Wladiwostok");
 define("_TZ_GMTP11", "(GMT+11:00) Magadan, Solomon Inseln");
 define("_TZ_GMTP12", "(GMT+12:00) Auckland, Fiji, Kamchatka,");
+
 ?>

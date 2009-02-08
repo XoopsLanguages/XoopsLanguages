@@ -6,7 +6,6 @@ Wenn Sie unten auf den Link klicken, wird dieses Konto aktiviert.
 
 {USERACTLINK}
 
------------
+-------------------------------------------------
 {SITENAME} ({SITEURL}) 
-Der Webmaster
 {ADMINMAIL}

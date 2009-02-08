@@ -1,9 +1,10 @@
 <?php
-// $Id: calendar.php 2 2005-11-02 18:23:29Z skalpa $
-//%%%%%		Time Zone	%%%%
-// german v 1.4 2008/01/08 sato-san / Rene Sato / www.XOOPS-magazine.com $
-// Code : UTF-8
-// Letzte Bearbeitung 18.09.2008 / Feichtl
+// $Id: calendar.php 2755 2009-02-08 13:43 dhcst $
+// _LANGCODE: de
+// _CHARSET : UTF-8
+// Translator: XOOPS Translation Team
+
+//%%%%%     Time Zone   %%%%
 define("_CAL_SUNDAY", "Sonntag");
 define("_CAL_MONDAY", "Montag");
 define("_CAL_TUESDAY", "Dienstag");
@@ -34,4 +35,5 @@ define("_CAL_DRAGMOVE", "Ziehen zum Bewegen");
 define("_CAL_TODAY", "Heute");
 define("_CAL_DISPM1ST", "Montag zuerst anzeigen");
 define("_CAL_DISPS1ST", "Sonntag zuerst anzeigen");
+
 ?>

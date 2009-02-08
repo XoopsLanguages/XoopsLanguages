@@ -1,7 +1,9 @@
 <?php
-// german v 1.4 2008/01/08 sato-san / Rene Sato / www.XOOPS-magazine.com $
-// Code : UTF-8
-// Letzte Bearbeitung 18.09.2008 / Feichtl
+// $Id: uploader.php 2755 2009-02-08 12:22 dhcst $
+// _LANGCODE: de
+// _CHARSET : UTF-8
+// Translator: XOOPS Translation Team
+
 define("_ER_UP_MIMETYPELOAD", "Fehler beim laden der MIME-Typ Definition");
 define("_ER_UP_FILENOTFOUND", "Datei nicht gefunden");
 define("_ER_UP_INVALIDFILESIZE", "Ungültige Datei Größe");
@@ -23,4 +25,5 @@ define("_ER_UP_INVALIDIMAGEFILE", "Ungültige Image Datei");
 define("_ER_UP_SUSPICIOUSREFUSED", "Verdächtiges Image - hochladen verweigert");
 define("_ER_UP_INVALIDFILENAME", "Ungültiger Dateiname");
 define("_ER_UP_FAILEDSAVEFILE", "Speichern der Datei auf %s fehlgeschlagen");
+
 ?>

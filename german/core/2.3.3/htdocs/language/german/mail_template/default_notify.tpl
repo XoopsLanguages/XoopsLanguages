@@ -6,14 +6,12 @@ Sie beobachten das Modul {X_MODULE}. Es trat folgendes Ereignis
 Sie finden das Objekt {X_ITEM_TYPE} unter folgender URL:
 {X_ITEM_URL}
 
------------
+-------------------------------------------------
 Sie wollten Benachrichtigungen für dieses Ereignis erhalten.
-Wenn dies ein Fehler ist und Sie keine weiteren Nachrichten dieser 
+Wenn Sie keine weiteren Nachrichten dieser 
 Art mehr empfangen wollen, folgen Sie diesem Link:
 {X_UNSUBSCRIBE_URL}
 Bitte nicht auf diese Nachricht antworten.
------------
-
-{X_SITENAME} ({X_SITEURL}) 
-Der Webmaster
-{X_ADMINMAIL}
+-------------------------------------------------
+{SITENAME} ({SITEURL}) 
+{ADMINMAIL}

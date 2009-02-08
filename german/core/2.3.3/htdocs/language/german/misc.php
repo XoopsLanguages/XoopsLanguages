@@ -1,8 +1,9 @@
 <?php
-// $Id: misc.php 2 2005-11-02 18:23:29Z skalpa $
-// german v 1.4 2008/01/08 sato-san / Rene Sato / www.XOOPS-magazine.com $
-// Code : UTF-8
-// Letzte Bearbeitung 18.09.2008 / Feichtl
+// $Id: misc.php 2755 2009-02-08 12:24 dhcst $
+// _LANGCODE: de
+// _CHARSET : UTF-8
+// Translator: XOOPS Translation Team
+
 define("_MSC_YOURNAMEC","Ihr Name: ");
 define("_MSC_YOUREMAILC","Ihre E-Mailadresse: ");
 define("_MSC_FRIENDNAMEC","Der Name Ihres Freundes: ");
@@ -24,4 +25,5 @@ define("_MSC_SMILIES","Smilies");
 define("_MSC_CLICKASMILIE","Klicken Sie ein Smilie an, um es in Ihre Nachricht einzufügen.");
 define("_MSC_CODE","Code");
 define("_MSC_EMOTION","Emotion");
+
 ?>

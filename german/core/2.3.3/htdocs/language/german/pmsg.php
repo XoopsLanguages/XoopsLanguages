@@ -1,9 +1,10 @@
 <?php
-// $Id: pmsg.php 2 2005-11-02 18:23:29Z skalpa $
-//%%%%%%	File Name readpmsg.php 	%%%%%
-// german v 1.4 2008/01/08 sato-san / Rene Sato / www.XOOPS-magazine.com $
-// Code : UTF-8
-// Letzte Bearbeitung 18.09.2008 / Feichtl
+// $Id: pmsg.php 2755 2009-02-08 12:23 dhcst $
+// _LANGCODE: de
+// _CHARSET : UTF-8
+// Translator: XOOPS Translation Team
+
+//%%%%%%    File Name readpmsg.php  %%%%%
 define('_PM_DELETED','Nachricht(en) gelöscht');
 define('_PM_PRIVATEMESSAGE','Private Nachricht');
 define('_PM_INBOX','Posteingang');
@@ -44,4 +45,5 @@ define('_PM_REPLY', 'Antworten');
 define('_PM_PLZREG','Bitte registrieren Sie sich, um private Nachrichten senden zu können!');
 
 define('_PM_ONLINE', 'Online');
+
 ?>
