@@ -1,5 +1,9 @@
 <?php
-// german v 1.4 2008/10/12 alfred $
+// $Id: modinfo.php 2411 2009-02-08 14:15 dhcst $
+// _LANGCODE: de
+// _CHARSET : UTF-8
+// Translator: XOOPS Translation Team
+
 // Module Info
 
 // The name of this module
@@ -23,7 +27,6 @@ define('_MI_SYSTEM_BNAME11', 'Die letzten Kommentare');
 define('_MI_SYSTEM_BNAME12', 'Benachrichtigungsoptionen');
 define('_MI_SYSTEM_BNAME13', 'Themen');
 
-
 // Names of admin menu items
 define('_MI_SYSTEM_ADMENU1','Banner');
 define('_MI_SYSTEM_ADMENU2','Blöcke');
@@ -39,4 +42,5 @@ define('_MI_SYSTEM_ADMENU13', 'Bildmanager');
 define('_MI_SYSTEM_ADMENU14', 'Avatare');
 define('_MI_SYSTEM_ADMENU15', 'Templates');
 define('_MI_SYSTEM_ADMENU16', 'Kommentare');
+
 ?>

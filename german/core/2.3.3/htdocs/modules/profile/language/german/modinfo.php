@@ -1,6 +1,9 @@
 <?php
-// $Id: modinfo.php 2026 2008-08-31 08:10:34Z phppp $
-// Code: UTF8 by Muki
+// $Id: modinfo.php 2641 2009-02-08 14:03 dhcst $
+// _LANGCODE: de
+// _CHARSET : UTF-8
+// Translator: XOOPS Translation Team
+
 define("_PROFILE_MI_NAME", "Userprofile");
 define("_PROFILE_MI_DESC", "Modul um erweiterte Userprofilfelder zu verwalten");
 
@@ -47,4 +50,5 @@ define("_PROFILE_MI_CATEGORY_SETTINGS", "Einstellungen");
 define("_PROFILE_MI_CATEGORY_COMMUNITY", "Community");
 
 define("_PROFILE_MI_NEVER_LOGED_IN", "bisher kein Login");
+
 ?>

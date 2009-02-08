@@ -1,5 +1,9 @@
 <?php
-// german v 1.4 2008/01/08 sato-san / Rene Sato / www.XOOPS-magazine.com $
+// $Id: userrank.php 2411 2009-02-08 14:23 dhcst $
+// _LANGCODE: en
+// _CHARSET : UTF-8
+// Translator: XOOPS Translation Team
+
 //%%%%%%	Admin Module Name  UserRank 	%%%%%
 define('_AM_DBUPDATED',_MD_AM_DBUPDATED);
 define('_AM_RANKSSETTINGS','Mitgliederrang-Einstellungen');
@@ -25,4 +29,5 @@ define('_AM_NO','Nein');
 define('_AM_VALIDUNDER','(Eine gültige Bilddatei im <b>%s</b>-Verzeichnis)');
 define('_AM_SPECIALCAN','(Spezialränge können auch unabhängig von der Anzahl der Beiträge vergeben werden.)');
 define('_AM_ACTION','Aktion');
+
 ?>

@@ -1,5 +1,9 @@
 <?php
-// german v 1.4 2008/01/08 sato-san / Rene Sato / www.XOOPS-magazine.com $
+// $Id: groups.php 2411 2009-12-08 14:35 dhcst $
+// _LANGCODE: de
+// _CHARSET : UTF-8
+// Translator: XOOPS Translation Team
+
 //%%%%%%	Admin Module Name  AdminGroup 	%%%%%
 define('_AM_DBUPDATED',_MD_AM_DBUPDATED);
 
@@ -34,6 +38,7 @@ define('_AM_FINDU4GROUP', 'Mitglied für diese Gruppe suchen');
 define('_AM_GROUPSMAIN', 'Gruppenmenü');
 
 define('_AM_ADMINNO', 'Es muss wenigstens ein Mitglied in der Webmaster-Gruppe sein');
+
 // Custom block, suggested by trabis
 define("_AM_CUSTOMBLOCK","Benutzerdefinierter Block");
 ?>

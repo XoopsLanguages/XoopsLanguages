@@ -1,7 +1,10 @@
 <?php
-// german v 1.4 2008/01/08 sato-san / Rene Sato / www.XOOPS-magazine.com $
-//%%%%%% Image Manager %%%%%
+// $Id: images.php 2411 2009-02-08 14:34 dhcst $
+// _LANGCODE: en
+// _CHARSET : UTF-8
+// Translator: XOOPS Translation Team
 
+//%%%%%% Image Manager %%%%%
 
 define('_MD_IMGMAIN','Bildmanagermenü');
 
