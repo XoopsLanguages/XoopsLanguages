@@ -1,9 +1,10 @@
 <?php
-// $Id: user.php 2 2005-11-02 18:23:29Z skalpa $
+// $Id: user.php 2411 2009-02-08 12:21 dhcst $
+// _LANGCODE: de
+// _CHARSET : UTF-8
+// Translator: XOOPS Translation Team
+
 //%%%%%%		File Name user.php 		%%%%%
-// german v 1.4 2008/01/08 sato-san / Rene Sato / www.XOOPS-magazine.com $
-// Code : UTF-8
-// Letzte Bearbeitung 02.11.2008 / Alfred
 define('_US_NOTREGISTERED','Noch nicht registriert? <a href=register.php>Klicken Sie hier</a>.');
 define('_US_LOSTPASSWORD','Passwort vergessen?');
 define('_US_NOPROBLEM','Kein Problem. Geben Sie hier Ihre E-Mail-Adresse ein, mit der Sie sich registriert haben.');
@@ -69,6 +70,9 @@ define('_US_NICKNAMETAKEN','FEHLER: Dieser Mitgliedsname ist bereits vergeben!')
 define('_US_EMAILTAKEN','FEHLER: Diese E-Mail-Adresse befindet sich bereits in unserer Datenbank!');
 define('_US_ENTERPWD','FEHLER: Sie müssen ein Passwort angeben!');
 define('_US_SORRYNOTFOUND','Keine entsprechenden Mitgliedinformationen gefunden!');
+
+
+
 
 // %s is your site name
 define('_US_NEWPWDREQ','Neue Passwortanforderung auf %s');

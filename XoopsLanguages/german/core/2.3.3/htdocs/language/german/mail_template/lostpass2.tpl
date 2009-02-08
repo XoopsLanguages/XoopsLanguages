@@ -12,7 +12,6 @@ ein Versehen. Nur Sie erhalten diese Nachricht. Wenn dies ein Fehler sein sollte
 bitten wir, diesen zu entschuldigen, aber bitte benutzen Sie die neuen Login-Daten 
 um sich anzumelden.
 
---------------------------------------------
+-------------------------------------------------
 {SITENAME} ({SITEURL}) 
-Der Webmaster
 {ADMINMAIL}

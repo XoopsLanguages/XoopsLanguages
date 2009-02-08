@@ -7,7 +7,6 @@ an Sie weiterempfehlen.
 Website Name: {SITENAME}
 Website URL:  {SITEURL}
 
------------------------
+-------------------------------------------------
 {SITENAME} ({SITEURL}) 
-Der Webmaster
 {ADMINMAIL}
