@@ -256,4 +256,5 @@ define('_MD_AM_WELCOMETYPE_EMAIL', 'E-mail');
 define('_MD_AM_WELCOMETYPE_PM', 'Meddelelse');
 define('_MD_AM_WELCOMETYPE_BOTH', 'E-mail og meddelelse');
 
+define("_MD_AM_MODULEPREF", "Modul Indstillinger");
 ?>
