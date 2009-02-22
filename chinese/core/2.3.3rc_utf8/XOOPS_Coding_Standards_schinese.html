@@ -1,0 +1,1133 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<base target="_top">
+
+<style type="text/css">
+    /* default css */  table {  font-size: 1em;  line-height: inherit; }   tr {    text-align: left;   }   div, address, ol, ul, li, option, select {  margin-top: 0px;  margin-bottom: 0px; }  p {  margin: 0px; }  body {  margin: 6px;  padding: 0px;  font-family: Verdana, sans-serif;  font-size: 10pt;  background-color: #ffffff; }   img {  -moz-force-broken-image-icon: 1; }  @media screen {  html.pageview {  background-color: #f3f3f3 !important;  }      body {  min-height: 1100px;  }  * html body {  height: 1100px;  }  .pageview body {  border-top: 1px solid #ccc;  border-left: 1px solid #ccc;  border-right: 2px solid #bbb;  border-bottom: 2px solid #bbb;  width: 648px !important;  margin: 15px auto 25px;  padding: 40px 50px;  }  /* IE6 */  * html {  overflow-y: scroll;  }  * html.pageview body {  overflow-x: auto;  }  /* Prevent repaint errors when scrolling in Safari. This "Star-7" css hack  targets Safari 3.1, but not WebKit nightlies and presumably Safari 4.  That's OK because this bug is fixed in WebKit nightlies/Safari 4 :-). */  html*#wys_frame::before {  content: '\A0';  position: fixed;  overflow: hidden;  width: 0;  height: 0;  top: 0;  left: 0;  }         .writely-callout-data {  display: none;  *display: inline-block;  *width: 0;  *height: 0;  *overflow: hidden;  }  .writely-footnote-marker {  background-image: url('MISSING') target-counter(attr(href), page);  }   #WritelyTableOfContents a {  text-decoration: none;  color: black;  }  }   @page {  @top {  content: flow(header);  }  @bottom {  content: flow(footer);  }  @footnotes {  border-top: solid black thin;  padding-top: 8pt;  }  }  /* end default print css */   /* custom css */   /* end custom css */     /* ui edited css */    body {  font-family: Verdana;    font-size: 10.0pt;  line-height: normal;  background-color: #ffffff;  }  /* end ui edited css */    /* editor CSS */ .editor a:visited {color: #551A8B} .editor table.zeroBorder {border: 1px dotted gray} .editor table.zeroBorder td {border: 1px dotted gray} .editor table.zeroBorder th {border: 1px dotted gray}   .editor div.google_header, .editor div.google_footer {  border: 2px #DDDDDD dashed;  position: static;  width: 100%;  min-height: 2em; }  .editor .misspell {background-color: yellow}  .editor .writely-comment {  font-size: 9pt;  line-height: 1.4;  padding: 1px;  border: 1px dashed #C0C0C0 }   /* end editor CSS */ 
+</style>
+
+</head>
+
+<body onload="DoPageLoad();"
+    
+    revision="dhsgk8hj_215cccmpkdj:55">
+
+    
+    
+    
+<h1 id=p4zy style=FONT-FAMILY:Verdana>
+  <font color=#000000 id=a1m80>XOOPS 3.0 <b>开发编码规范</b>（草案）<br id=dfpu>
+  </font>
+</h1>
+<font color=#000000 id=a1m81 style=FONT-FAMILY:Verdana><br id=wj180>
+作者:<br id=wj181>
+</font>
+<ul id=aycj0 style=FONT-FAMILY:Verdana>
+  <li id=aycj1>
+    姜太文<font color=#000000 id=a1m82>&lt;phppp@users.sourceforge.net&gt;</font><br id=fboy>
+  </li>
+</ul>
+<font color=#000000 id=a1m81 style=FONT-FAMILY:Verdana><br id=wj180>
+翻译整理:<br id=wj181>
+</font>
+<ul id=aycj0 style=FONT-FAMILY:Verdana>
+  <li id=aycj1>
+    杨素生<font color=#000000 id=a1m82>&lt;ezskyyoung@gmail.com&gt;</font><br id=fboy>
+  </li>
+</ul>
+<h1 id=fj480 style=FONT-FAMILY:Verdana>
+  概述
+</h1>
+<p id=rk_2 style=FONT-FAMILY:Verdana>
+  <font color=#000000 id=a1m86>这份文档为开发者,工作组以及XOOPS项目提供了编码标准和指导.主要涉及到以下内容:</font>
+</p>
+<ul id=b985 style=FONT-FAMILY:Verdana>
+  <li id=t21x>
+    <font color=#000000 id=a1m87>PHP 文件格式</font>
+  </li>
+  <li id=w4yy>
+    <font color=#000000>命名规范</font>
+  </li>
+  <li id=ox82>
+    编码风格规范
+  </li>
+  <li id=y_..>
+    代码内文档化
+  </li>
+  <li id=eh:f>
+    错误与异常<br id=eq110>
+  </li>
+</ul>
+开发人员的角色<font color=#000000 id=a1m812 style=FONT-FAMILY:Verdana>:<br id=eq111>
+</font>
+<ul id=eq112 style=FONT-FAMILY:Verdana>
+  <li id=eq113>
+    <font color=#000000 id=a1m813>XOOPS
+    开发</font><font color=#000000>人员</font><font color=#000000>:
+    这些开发人员来维护XOOPS核心程序,其中包括:<br id=n::j0>
+    </font>
+  </li>
+  <ul id=pc0_0>
+    <li id=eq113>
+      <font color=#000000>核心开发人员</font><font color=#000000 id=a1m814>:
+      对XOOPS核心代码的维护,这些核心代码将在XOOPS</font><font color=#000000 id=a1m>应用程序开发</font><font color=#000000>人员</font><font color=#000000>那里得到更好的应用.<br id=dcf-0>
+      </font>
+    </li>
+    <li id=eq113>
+      <font color=#000000 id=a1m816>框架开发</font><font color=#000000>人员</font><font color=#000000>:
+      贡献出自己的开发框架,有机会集成到XOOPS内核当中.</font>
+    </li>
+    <li id=eq113>
+      <font color=#000000 id=a1m817>前端开发</font><font color=#000000>人员</font><font color=#000000>:
+      进行XOOPS的风格主题和模块的内容模板的设计.</font>
+    </li>
+  </ul>
+  <li id=eq113>
+    <font color=#000000 id=a1m818>XOOPS
+    应用程序开发</font><font color=#000000>人员</font><font color=#000000>:
+    开发者在XOOPS的基础上开发自己的应用程序</font>
+  </li>
+  <ul id=w4.n0>
+    <li id=eq113>
+      <font color=#000000 id=a1m815>模块开发</font><font color=#000000>人员</font><font color=#000000>:
+      开发者基于XOOPS平台以及类库开发第三方应用模块.</font>
+    </li>
+  </ul>
+</ul>
+<h1 id=wwcs0 style=FONT-FAMILY:Verdana>
+  <font color=#000000 id=a1m819><a id=n3pv name=PHPCodingStandard(draft)-Goals></a>目标</font>
+</h1>
+<p id=v60o style=FONT-FAMILY:Verdana>
+  编码规范对于任何一个开发项目都是很重要的,尤其是多人协作的情况,良好的编码规范可以为我们带来高质量的代码,较少bug,以及便于维护.
+</p>
+<p id=mdrf style=FONT-FAMILY:Verdana>
+  <font color=#000000 id=a1m821>我们力争做到:</font>
+</p>
+<ul id=t08g style=FONT-FAMILY:Verdana>
+  <li id=agky>
+    尽量的简单
+  </li>
+  <li id=le_n>
+    <font color=#000000 id=a1m823>更为方便, 例如方法的说明, 常量的定义,
+    以及格式这些都可以通过开发工具的自动补全功能来实现.</font>
+  </li>
+</ul>
+<p id=u50y style=FONT-FAMILY:Verdana>
+  当考虑上述的目标，每一种情况需要考虑实际情况进行取舍.
+</p>
+<h1 id=a1.5 style=FONT-FAMILY:Verdana>
+  <font color=#000000 id=a1m825><a id=rb_z name=PHPCodingStandard(draft)-PHPFileFormatting></a>PHP文件格式要求</font>
+</h1>
+<h2 id=xwus style=FONT-FAMILY:Verdana>
+  <font color=#000000 id=a1m826><a id=hezc name=PHPCodingStandard(draft)-General></a>常规</font>
+</h2>
+<p id=jki_ style=FONT-FAMILY:Verdana>
+  对于只包含有PHP代码而无别的代码的文件，可以不使用结束标记"?&gt;",要注意的是,在XOOPS的开发中代码结束必须要带有结束标记"?&gt;".
+</p>
+<h2 id=ez_6 style=FONT-FAMILY:Verdana>
+  <font color=#000000 id=a1m830><a id=ktuf name=PHPCodingStandard(draft)-Indentation></a>制表符</font>
+</h2>
+<p id=ymhy style=FONT-FAMILY:Verdana>
+  <font color=#000000 id=a1m831>缩进的时候使用4个空格(SPACE)字符（键），不要使用TAB字符（键）。在编辑器中可以设置TAB字符以4个空格代替,目的是为了不同操作系统下的表现一致.</font>
+</p>
+<h2 id=w1tk style=FONT-FAMILY:Verdana>
+  <font color=#000000 id=a1m833><a id=drr1 name=PHPCodingStandard(draft)-MaximumLineLength></a>每行最大字符数<br id=la-10>
+  </font>
+</h2>
+<p id=hffk style=FONT-FAMILY:Verdana>
+  每行不要超过80个字符，即，在实际开发过程中每行的代码尽量不要超过第80列这个边界，稍微超过也可以，PHP代码每行最大字符数是120。
+</p>
+<h2 id=ih.q style=FONT-FAMILY:Verdana>
+  <font color=#000000 id=a1m836><a id=g8:f name=PHPCodingStandard(draft)-LineTermination></a>行结束符</font>
+</h2>
+<p>
+  行结束符采用UNIX文本文件标准，即每行以“换行符（LF）”结束,<font color=#000000 id=a1m831>目的是为了不同操作系统下的表现一致.</font>在ASCII码中，换行符是的十进制值为10，十六进制值为0x0A。
+</p>
+<p>
+  不要使用Macintosh系统的标准：以回车符（CR，十六进制值是0x0D）为行结束符。
+</p>
+<p>
+  也不要使用Windows系统的标准：以回车/换行（CRLF，0x0D, 0x0A）为行结束符。
+</p>
+<p id=j-3l style=FONT-FAMILY:Verdana>
+  &nbsp;
+</p>
+<p id=vls2 style=FONT-FAMILY:Verdana>
+  <font color=#000000 id=a1m841>每行的结尾不要包含多余的空格,为了保证这个规范,很多编辑器都可以进行一些配置,在保存的时候自动去除多余的空格.</font>
+</p>
+<h1 id=aj2. style=FONT-FAMILY:Verdana>
+  <font color=#000000 id=a1m843>命名规范</font>
+</h1>
+<a id=iz-x name=PHPCodingStandard(draft)-AbstractionsUsedinAPI(ClassInterfaces)></a>
+<h2 id=s_:b style=FONT-FAMILY:Verdana>
+  <font color=#000000>总体要求</font>
+</h2>
+<ol id=mwhd1 style=FONT-FAMILY:Verdana>
+  <li id=mwhd2>
+    XOOPS核心中所有的类和函数命名必须以<font color=#000000 id=a1m846>
+    <span id=qv5z0 style="BACKGROUND-COLOR:#ffffff; FONT-FAMILY:Georgia">Xoops作为前缀</span>;</font>
+  </li>
+  <ol id=jabs0>
+    <li id=mwhd2>
+      函数名称首字母要小写<font color=#000000 id=a1m847>; 下列情况要用 "_" 隔开而不是驼峰式写法:</font>
+    </li>
+    <ul id=sy5t0>
+      <li id=mwhd2>
+        <font color=#000000 id=a1m848>核心函数必须以
+        <span id=qv5z1 style="BACKGROUND-COLOR:#ffffff; FONT-FAMILY:Georgia">xoops_</span></font>
+        为前缀
+      </li>
+      <li id=mwhd2>
+        框架以及其它类库 必须以
+        <font color=#000000 id=a1m850><span id=qv5z2 style="FONT-FAMILY:Georgia; BACKGROUND-COLOR:#ffffff">xoops_[框架或类库标记符]_</span>
+        为前缀<br id=nalc0>
+        </font>
+      </li>
+    </ul>
+    <li id=mwhd2>
+      类名字要用驼峰式写法<font color=#000000 id=a1m851>;<br id=yft40>
+      </font>
+    </li>
+  </ol>
+  <li id=mwhd2>
+    <font color=#000000 id=a1m853>XOOPS核心中所有的变量定义必须以
+    <span id=dmw41 style="BACKGROUND-COLOR:#ffffff; FONT-FAMILY:Georgia">$xoops</span>
+    作为前缀,并且采用驼峰式写法.<br id=uwbs0>
+    </font>
+  </li>
+  <ul id=y16.0>
+    <li id=mwhd2>
+      <font color=#000000>私有变量或者局部变量也要采用驼峰式写法</font><br>
+    </li>
+  </ul>
+  <li id=mwhd2>
+    <font color=#000000 id=a1m855>第三方应用程序, 包括模块, 不要以
+    <span id=fmxr0 style="BACKGROUND-COLOR:#ffffff; FONT-FAMILY:Georgia">Xoops_</span>
+    作为前缀,但是要有统一的标识符前缀</font>
+  </li>
+  <ul id=du8d0>
+    <li id=mwhd2>
+      <font color=#000000 id=a1m850>块中类的命名必须以</font><font color=#000000 id=a1m850>
+      <span id=qv5z3 style="BACKGROUND-COLOR:#ffffff; FONT-FAMILY:Georgia">[</span></font><font color=#000000 id=a1m850><span id=a.gn0 style=FONT-FAMILY:Georgia>模块标记符,通常为模块目录名称</span></font><font color=#000000 id=a1m850><span id=qv5z3 style="BACKGROUND-COLOR:#ffffff; FONT-FAMILY:Georgia">]</span></font><font color=#000000 id=a1m853>
+      作为前缀如:</font><font color=#000000 id=a1m850>
+      <span id=djrg0 style="BACKGROUND-COLOR:#ffffff; FONT-FAMILY:Georgia">N</span><span id=djrg1 style="BACKGROUND-COLOR:#ffffff; FONT-FAMILY:Georgia">ewbbPost</span><br id=rvqu1>
+      </font>
+    </li>
+    <li id=mwhd2>
+      <font color=#000000 id=a1m850>模块中函数命名必须以
+      <span id=a.gn0 style=FONT-FAMILY:Georgia>[模块标记符,通常为模块目录名称]_</span> 作为前缀,
+      如:
+      <span id=iiv40 style=FONT-FAMILY:Georgia>newbb_getPostCount()</span></font><br id=tz3g0>
+    </li>
+    <li id=mwhd2>
+      <font color=#000000 id=a1m854>模块中变量命名必须以
+      <span id=a.gn1 style=FONT-FAMILY:Georgia>$[模块标记符]</span> 作为前缀, 如:
+      <span id=a.gn2 style=FONT-FAMILY:Georgia>$newbbPostCount</span></font>
+    </li>
+  </ul>
+</ol>
+<h2 id=s_:b style=FONT-FAMILY:Verdana>
+  <font color=#000000 id=a1m856>应用程序接口 (API)</font>
+</h2>
+<p id=r93e style=FONT-FAMILY:Verdana>
+  <font color=#000000 id=a1m857>当程序开发人员创建一个应用程序接口时,如果使用合成词来定义,使用下划线来隔开,而不是使用驼峰式写法.如果需要使用一个字符串,通常是采用小写字面,最好定义一个常量去使用.</font>
+</p>
+<h2 id=dppc0 style=FONT-FAMILY:Verdana>
+  类<br id=dduc0>
+</h2>
+<a id=k-3d name=PHPCodingStandard(draft)-Classes></a>
+系统<font color=#000000 id=a1m859 style=FONT-FAMILY:Verdana>,
+内核以及框架中类的命名是带有<span id=lf250 style=FONT-FAMILY:Georgia>Xoops的</span>, 如
+<span id=lf251 style=FONT-FAMILY:Georgia>XoopsUser<span id=op5v0 style=FONT-FAMILY:Verdana>,
+</span>XoopsCaptcha</span>.<br id=ig2t0>
+模块中类命名是以[模块标识符]开头,如<span id=zh:m0 style=FONT-FAMILY:Georgia> NewbbPost</span>.<br id=mwhd3>
+</font>
+<h2 id=oiw_ style=FONT-FAMILY:Verdana>
+  <font color=#000000 id=a1m860><a id=t.xa name=PHPCodingStandard(draft)-Interfaces></a>接口</font>
+</h2>
+<p id=xy0f style=FONT-FAMILY:Verdana>
+  <font color=#000000 id=a1m861>接口类的命名规则与其他类的命名规则类似,必须以单词"Interface"结尾如:
+  </font><font color=#000000 id=a1m862 style=FONT-FAMILY:Georgia>XoopsLogger_Interface</font>
+</p>
+<a id=i4ez name=PHPCodingStandard(draft)-Filenames></a>
+<h2 id=okht style=FONT-FAMILY:Verdana>
+  文件命名
+</h2>
+<p id=i5v4 style=FONT-FAMILY:Verdana>
+  <font color=#000000 id=a1m864>对于所有文件，只有字母、数字、下划线和短划线（"-"）可以使用，不允许使用空格和其他特殊字符.</font>
+</p>
+<p id=lvfc style=FONT-FAMILY:Verdana>
+  <font color=#000000 id=a1m865>只要是包含有PHP代码的文件都必须以".php"为扩展名.<br id=k3qb0>
+  </font>
+</p>
+<font color=#000000 id=c4g4 style=FONT-FAMILY:Verdana>文件名称必须为小写.</font><br id=vqku>
+<h2 id=okht style=FONT-FAMILY:Verdana>
+  目录命名
+</h2>
+<p id=i5v4 style=FONT-FAMILY:Verdana>
+  <font color=#000000 id=a1m864>对于所有目录，只有字母、数字、下划线和短划线（"-"）可以使用，不允许使用空格和其他特殊字符.</font>
+</p>
+<font color=#000000 id=c4g4 style=FONT-FAMILY:Verdana>目录名称必须为小写<i id=yrrh0>.</i></font>
+<h2 id=l0hf style=FONT-FAMILY:Verdana>
+  <font color=#000000 id=a1m867><a id=f2pv name=PHPCodingStandard(draft)-FunctionsandMethods></a>函数与方法的命名</font>
+</h2>
+<p id=txt. style=FONT-FAMILY:Verdana>
+  内核<font color=#000000 id=a1m868>, 系统模块中函数的命名遵循
+  <span id=q78u0 style=FONT-FAMILY:Georgia>xoops_doSomething([...])格式</span>.</font>
+</p>
+<p id=m_jp style=FONT-FAMILY:Verdana>
+  框架中函数的命名以<font color=#000000 id=a1m869>
+  <span id=lmj06 style=FONT-FAMILY:Georgia>xoops_[小写标识符]_ </span>作为前缀, 如
+  <span id=lmj07 style=FONT-FAMILY:Georgia>xoops_pear_doSomething([...])</span>.</font>
+</p>
+<p id=m_jp style=FONT-FAMILY:Verdana>
+  模块中函数的命名以<font color=#000000 id=a1m869>
+  <span id=lmj06 style=FONT-FAMILY:Georgia>[小写模块标识符]_</span> 作为前缀, 如
+  <span id=lmj07 style=FONT-FAMILY:Georgia>newbb_getTopic([...])</span>.</font>
+</p>
+<p id=m_jp style=FONT-FAMILY:Verdana>
+  <br id=xv6e0>
+</p>
+<p id=m_jp style=FONT-FAMILY:Verdana>
+</p>
+<ul id=y_m60 style=FONT-FAMILY:Verdana>
+  <li id=y_m61>
+    <font color=#000000 id=a1m871>函数名只能包含字母,数字字符和下划线，虽然允许使用数字，但并不提倡.</font>
+  </li>
+  <li id=y_m62>
+    <font color=#000000 id=a1m872>函数名必须以小写字母开始.<br id=c5zj0>
+    </font>
+  </li>
+  <li id=y_m63>
+    <font color=#000000 id=a1m873>为增强代码的可读性，允许命名一定程度的详细和冗长.</font>
+  </li>
+  <li id=y_m64>
+    <font color=#000000 id=a1m874>对于面向对象编程，对象的存取器总是以"get"或"set"为前缀.</font>
+  </li>
+  <li id=y_m65>
+    <font color=#000000 id=a1m875>Class methods that are declared as protected
+    or private are encouraged to follow same style as public methods although it
+    is desired by some external frameworks to begin with a single underscore,
+    i.e. without leading single underscore.</font>
+  </li>
+  <li id=y_m66>
+    <font color=#000000 id=a1m876>本规范不允许有全局范围的函数（即游离于对象之外的函数），这些函数应该包装进一个静态类.</font>
+  </li>
+  <li id=y_m67>
+    <font color=#000000 id=a1m877>在一个类中声明静态方法和变量时要用</font><font color=#000000 id=a1m877>
+    "<span id=ggx_0 style=FONT-FAMILY:Georgia>static</span>"
+    不要用</font><font color=#000000 id=a1m877>
+    "<span id=ggx_1 style=FONT-FAMILY:Georgia>private</span>"反之亦然,如果使用</font><font color=#000000 id=a1m877>
+    "<span id=ggx_2 style=FONT-FAMILY:Georgia>final</span>" 则这个方法将不能扩展.</font>
+  </li>
+</ul>
+<h3 id=y_m68 style=FONT-FAMILY:Verdana>
+  <font color=#000000 id=a1m878><a id=wj35 name=PHPCodingStandard(draft)-OptionalParameters></a>参数</font>
+</h3>
+<p id=uo.v style=FONT-FAMILY:Verdana>
+  使用<font color=#000000 id=a1m879>
+  "<span id=ggx_3 style=FONT-FAMILY:Georgia>NULL</span>"
+  代替<font color=#000000 id=a1m4>默认值</font>
+  "<span id=pscv0 style=FONT-FAMILY:Georgia>FALSE</span>", 如:</font>
+</p>
+<blockquote id=q83_0 style=FONT-FAMILY:Verdana>
+  <p id=mgz7>
+    <font color=#000000 id=a1m880>public function foo($required, $optional =
+    NULL)</font>
+  </p>
+</blockquote>
+<p id=iquh style=FONT-FAMILY:Verdana>
+  <font color=#000000 id=a1m881>当 $optional 没有或不需要指定一个特定的默认值.</font>
+</p>
+<p id=gufl style=FONT-FAMILY:Verdana>
+  <font color=#000000 id=a1m882>但是, 如果可选参数是一个布尔值, 其默认的逻辑为"TRUE"或者"FALSE",
+  可以使用"TRUE"或者"FALSE".</font>
+</p>
+<h2 id=eans0 style=FONT-FAMILY:Verdana>
+  <font color=#000000 id=a1m883><a id=lz.r name=PHPCodingStandard(draft)-Variables></a>变量</font>
+</h2>
+<ul id=aw.t0 style=FONT-FAMILY:Verdana>
+  <li id=aw.t1>
+    系统全局变量必须以<font color=#000000 id=a1m884>
+    <span id=dw-d0 style=FONT-FAMILY:Georgia>$xoops 为前缀</span>,如
+    <span id=dw-d1 style=FONT-FAMILY:Georgia>$xoopsConfig</span></font>
+  </li>
+  <li id=aw.t2>
+    模块全局变量必须以<font color=#000000 id=a1m884>
+    <span id=dw-d2 style=FONT-FAMILY:Georgia>$[小写模块标记符]</span>为前缀, 并且遵循驼峰式写法, 如
+    <span id=bo6z0 style=FONT-FAMILY:Georgia>$newbbPostCounter</span></font>
+  </li>
+  <li id=aw.t3>
+    第三方框架类库中的变量定义<br id=y_bw>
+  </li>
+</ul>
+<ul id=aw.t4 style="MARGIN-LEFT:40px; FONT-FAMILY:Verdana">
+  <li id=aw.t5>
+    <font color=#000000 id=a1m885>变量名只能包含字母和数字字符，也允许使用下划线和数字但不提倡的.</font>
+  </li>
+  <li id=aw.t6>
+    <font color=#000000 id=a1m887>在类中声明为public的成员变量则不允许使用下划线.</font>
+  </li>
+  <li id=aw.t6>
+    <font color=#000000 id=a1m886>对于声明为private或protected的类成员变量，命名规范与成员变量一样,即变量名不必使用一个下划线开头.</font>
+  </li>
+  <li id=aw.t8>
+    <font color=#000000 id=a1m888>函数命名,变量命名必须以小写字母开始，而之后的单词，遵循首字母大写的驼峰写法（camelCaps）.</font>
+  </li>
+  <li id=aw.t9>
+    为了增强可读性，变量命名同样需要一定程度的详细和冗长，并且要有实际意义。类似于$i、$n这样的变量命名，除了用于较少代码的循环语句，在其他情况下是不允许的。如果循环语句超过20行代码，那么用于循环的索引变量也应该使用有意义的名字<font color=#000000 id=a1m889>.</font>
+  </li>
+</ul>
+<h2 id=vozm style=FONT-FAMILY:Verdana>
+  <font color=#000000 id=a1m890><a id=mjgi name=PHPCodingStandard(draft)-Constants></a>常量</font>
+</h2>
+<h3 id=qyuu style=FONT-FAMILY:Verdana>
+  <font color=#000000 id=a1m891>Variables<br id=cqe5>
+  </font>
+</h3>
+<p id=lsd0 style=FONT-FAMILY:Verdana>
+  系统常量以<font color=#000000 id=a1m892>
+  <span id=lq5m0 style=FONT-FAMILY:Georgia>XOOPS_</span> 做为前缀,如
+  <span id=lq5m1 style=FONT-FAMILY:Georgia>XOOPS_URL</span></font>
+</p>
+<p id=t:3q style=FONT-FAMILY:Verdana>
+  框架常量以<font color=#000000 id=a1m893>
+  <span id=lq5m2 style=FONT-FAMILY:Georgia>XOOPS_[标记符]</span><span id=x_ln0 style=FONT-FAMILY:Georgia>_</span>
+  做为前缀 如
+  <span id=lq5m3 style=FONT-FAMILY:Georgia>XOOPS_PEAR_CONSTANT</span><br id=f57e0>
+  </font>
+</p>
+<p id=t:3q style=FONT-FAMILY:Verdana>
+  模块中常量以<font color=#000000 id=a1m893>
+  <span id=lq5m2 style=FONT-FAMILY:Georgia>[模块标记符]</span><span id=x_ln1 style=FONT-FAMILY:Georgia>_
+  做</span>为前缀如
+  <span id=lq5m3 style=FONT-FAMILY:Georgia>NEWBB_CONSTANT</span></font><br id=ur9:0>
+</p>
+<h3 id=b3_o style=FONT-FAMILY:Verdana>
+  <font color=#000000>语言常量定义规范</font>
+</h3>
+<p id=zl.o style=FONT-FAMILY:Verdana>
+  必须以下划线开头,如<font color=#000000 id=a1m895>:
+  <span id=i.wa0 style=FONT-FAMILY:Georgia>_XOOPS_LANGUAGE_CONSTANT</span>,
+  <span id=i.wa1 style=FONT-FAMILY:Georgia>_NEWBB_LANGUAGE_CONSTANT</span><br id=wbb90>
+  </font>
+</p>
+<p id=pl0s style=FONT-FAMILY:Verdana>
+  <br id=nb4v>
+</p>
+<ul id=o7500 style=FONT-FAMILY:Verdana>
+  <li id=o7501>
+    <font color=#000000 id=a1m897>常量名允许使用字母和数字字符，与函数命名和变量命名等不同的是，他也允许使用下划线，对数字的使用也没有限制.</font>
+  </li>
+  <li id=o7502>
+    <font color=#000000 id=a1m898>常量的所有字母都必须大写.</font>
+  </li>
+  <li id=o7503>
+    为了增强可读性<font color=#000000 id=a1m899>, 单词之前以下划线分开. 如,
+    "<span id=u9vt0 style=FONT-FAMILY:Georgia>XOOPS_EMBED_SUPPRESS_EMBED_EXCEPTION</span>"
+    不要写成
+    "<span id=u6tk0 style=FONT-FAMILY:Georgia>XOOPS_EMBED_SUPPRESSEMBEDEXCEPTION</span>".</font>
+  </li>
+  <li id=o7504>
+    <font color=#000000 id=a1m8100>常量必须使用const指示符定义为类成员，在全局范围使用define定义常量虽然允许，但也不提倡.</font>
+  </li>
+</ul>
+<h2 id=sy4q style=FONT-FAMILY:Verdana>
+  <font color=#000000 id=a1m8101><a id=cnxj name=PHPCodingStandard(draft)-BooleansandtheNULLValue></a>布尔值与
+  NULL</font>
+</h2>
+<p id=cm2t style=FONT-FAMILY:Verdana>
+  如同php手册中所述<font color=#000000 id=a1m8102>,
+  XOOPS同样使用大写字母来编写.</font><br id=fgrs>
+</p>
+<h2 id=mfjp style=FONT-FAMILY:Verdana>
+  <font color=#000000 id=a1m8104>模块模板名称定义规范</font>
+</h2>
+<font color=#000000 id=a1m8105 style=FONT-FAMILY:Verdana>To be
+added</font><br id=khf30 style=FONT-FAMILY:Verdana>
+<h1 id=x:lk style=FONT-FAMILY:Verdana>
+  <font color=#000000 id=a1m8108><a id=fla2 name=PHPCodingStandard(draft)-CodingStyle></a>编码风格</font>
+</h1>
+<h2 id=jrxq style=FONT-FAMILY:Verdana>
+  <font color=#000000 id=a1m8109><a id=cyy6 name=PHPCodingStandard(draft)-PHPCodeDemarcation></a>PHP
+  代码标记符</font>
+</h2>
+<p id=fb5w style=FONT-FAMILY:Verdana>
+  在XOOPS中必须使用完整的PHP标记符<font color=#000000 id=a1m8110>, 标准的PHP标记符为:<br id=kcnk0>
+  </font>
+</p>
+<blockquote id=bl1_0 style=FONT-FAMILY:Verdana>
+  <p id=fb5w>
+    <font color=#000000 id=a1m8110>&lt;?php<br id=kcnk1>
+    </font>
+  </p>
+  <p id=fb5w>
+    <br id=kcnk2>
+  </p>
+  <div id=kcnk3>
+    <font color=#000000 id=a1m8110>?&gt;</font>
+  </div>
+</blockquote>
+<p id=fb5w style=FONT-FAMILY:Verdana>
+</p>
+<p id=zd_e style=FONT-FAMILY:Verdana>
+  不允许使用简写标记符<font color=#000000 id=a1m8111>.</font>
+</p>
+<h2 id=b0i1 style=FONT-FAMILY:Verdana>
+  <font color=#000000 id=a1m8112><a id=ck60 name=PHPCodingStandard(draft)-Strings></a>字符串</font>
+</h2>
+<h3 id=se2v style=FONT-FAMILY:Verdana>
+  <font color=#000000 id=a1m8113><a id=kz7m name=PHPCodingStandard(draft)-StringLiterals></a>纯文字字符串</font>
+</h3>
+<p id=xjzr style=FONT-FAMILY:Verdana>
+  <font color=#000000 id=a1m8114>可以使用双引号和单引来标记字符串.对于纯文字字符串（不包含变量替代），必须使用单引号包含:</font>
+</p>
+<blockquote id=mbxq0>
+  <p id=xjzr style=FONT-FAMILY:Verdana>
+    <font color=#000000 id=a1m8114>$a = 'Example String';</font>
+  </p>
+</blockquote>
+<p id=xjzr style="MARGIN-LEFT:40px; FONT-FAMILY:Verdana">
+</p>
+<h3 id=mx1l style=FONT-FAMILY:Verdana>
+  <font color=#000000 id=a1m8115><a id=g5b1 name=PHPCodingStandard(draft)-StringLiteralsContainingApostrophes></a>字符串中的特殊字符</font>
+</h3>
+<p id=fxto style=FONT-FAMILY:Verdana>
+  当字符中包含撇符号(`)<font color=#000000 id=a1m8116>和单引号时,可以使用双引号.
+  这种方式多用于SQL语句的书写:</font>
+</p>
+<blockquote id=iudd0>
+  <div class=code id=nxd- style=FONT-FAMILY:Verdana>
+    <font color=#000000 id=a1m8117>$sql = "SELECT `id`, `name` from `people`
+    WHERE `name`='Fred' OR `name`='Susan'";</font>
+  </div>
+</blockquote>
+<div class=code id=nxd- style="MARGIN-LEFT:40px; FONT-FAMILY:Verdana">
+</div>
+<p id=h::5 style=FONT-FAMILY:Verdana>
+  这样的语法更加清晰.
+</p>
+<h3 id=xn73 style=FONT-FAMILY:Verdana>
+  <font color=#000000 id=a1m8119><a id=ejq9 name=PHPCodingStandard(draft)-VariableSubstitution></a>含有变量替代的字符串</font>
+</h3>
+<p id=c:5a style=FONT-FAMILY:Verdana>
+  变量的替换推荐用大括号标记<font color=#000000 id=a1m8121>.</font>
+</p>
+<p id=c:5a style=FONT-FAMILY:Verdana>
+  <br id=ikxo0>
+</p>
+<div class=code id=iii4 style=FONT-FAMILY:Verdana>
+  推荐<font color=#000000 id=a1m8123>:<br id=q8w60>
+  </font>
+  <blockquote id=iudd1>
+    <font color=#000000 id=a1m8123> $greeting = "Hello {$name}, welcome
+    back!";</font>
+  </blockquote>
+  <div id=em8g0 style=MARGIN-LEFT:40px>
+  </div>
+</div>
+不推荐<font color=#000000 id=a1m8124 style=FONT-FAMILY:Verdana>:<br id=ikxo1>
+</font>
+<blockquote id=iudd2>
+  <div id=em8g1 style=FONT-FAMILY:Verdana>
+    <font color=#000000 id=a1m8124>$greeting = "Hello $name, welcome back!";
+    </font><br id=hji60>
+  </div>
+</blockquote>
+<p id=o62f style=FONT-FAMILY:Verdana>
+  <font color=#000000 id=a1m8125>为了保持一致性,下列方式也是不推荐的:</font>
+</p>
+<blockquote id=iudd3>
+  <div class=code id=a1ef style=FONT-FAMILY:Verdana>
+    <font color=#000000 id=a1m8126>$greeting = "Hello ${name}, welcome
+    back!";</font>
+  </div>
+</blockquote>
+<div class=code id=a1ef style="MARGIN-LEFT:40px; FONT-FAMILY:Verdana">
+</div>
+<h3 id=eoa- style=FONT-FAMILY:Verdana>
+  <font color=#000000 id=a1m8127><a id=tgap name=PHPCodingStandard(draft)-StringConcatenation></a>字符串连接</font>
+</h3>
+<p id=c7y. style=FONT-FAMILY:Verdana>
+  多个字符串的可以使用<font color=#000000 id=a1m8128> "."
+  符号连接.使用</font><font color=#000000 id=a1m8129>
+  "."符号时必须在其前后加入一个空格,这样可以增强可读性如:</font>
+</p>
+<blockquote id=ydbb0>
+  <div class=code id=ks.g style=FONT-FAMILY:Verdana>
+    <font color=#000000 id=a1m8130>$project = 'Xoops' . ' ' . 'Project';</font>
+  </div>
+</blockquote>
+<div class=code id=ks.g style="MARGIN-LEFT:40px; FONT-FAMILY:Verdana">
+</div>
+<p id=ipro style=FONT-FAMILY:Verdana>
+  当使用<font color=#000000 id=a1m2> "."
+  </font>操作符连接多个字符串时，可以把语句拆分成多行来增强可读性，对于这种情况，每个后续行应该使用空格填充，使<font color=#000000 id=a1m3>
+  "." </font>操作符刚好对齐在"="下面：<font color=#000000>:</font>
+</p>
+<blockquote id=henz0>
+  <div class=code id=kjdv style=FONT-FAMILY:Verdana>
+    <font color=#000000 id=a1m8132>$sql = "SELECT `id`, `name` FROM `people`
+    "</font><br id=puoh0>
+    <font color=#000000 id=a1m8132>&nbsp; &nbsp; &nbsp;&nbsp; . "WHERE `name` =
+    'Susan' " </font><br id=puoh1>
+    <font color=#000000 id=a1m8132>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; . "ORDER
+    BY `name` ASC ";</font>
+  </div>
+</blockquote>
+<div class=code id=kjdv style="MARGIN-LEFT:40px; FONT-FAMILY:Verdana">
+</div>
+<h2 id=v:ac style=FONT-FAMILY:Verdana>
+  <font color=#000000 id=a1m8133><a id=j.w4 name=PHPCodingStandard(draft)-Arrays></a>数组</font>
+</h2>
+<h3 id=dnrx style=FONT-FAMILY:Verdana>
+  <font color=#000000 id=a1m8134><a id=qpg0 name=PHPCodingStandard(draft)-NumericallyIndexedArrays></a>数字索引数组</font>
+</h3>
+<p id=juf0 style=FONT-FAMILY:Verdana>
+  <font color=#000000 id=a1m8135>数组的索引不允许使用负数。</font>
+</p>
+<p style=FONT-FAMILY:Verdana>
+  <font color=#000000> 索引数组可以使用任何非负整数开始，但并不提倡这么做，建议每个数组都应该使用索引0开始。 </font>
+</p>
+<p style=FONT-FAMILY:Verdana>
+  <font color=#000000>当使用array关键字定义索引数组时，每个逗号后面都应该跟随一个空格字符，目的是增强可读性:</font>
+</p>
+<blockquote id=uzyb0>
+  <div class=code id=e7i2 style=FONT-FAMILY:Verdana>
+    <font color=#000000 id=a1m8138>$sampleArray = array(1, 2, 3, 'XOOPS',
+    'Project');</font>
+  </div>
+</blockquote>
+<div class=code id=e7i2 style="MARGIN-LEFT:40px; FONT-FAMILY:Verdana">
+</div>
+<p id=rxm2 style=FONT-FAMILY:Verdana>
+  使用array关键字定义索引数组的语句可以拆成多行，这种情况下每个后续行都应该使用空格填充头部，使每行以如下的形式保持对齐：
+</p>
+<blockquote id=uzyb1>
+  <div class=code id=ip7: style=FONT-FAMILY:Verdana>
+    <font color=#000000 id=a1m8140>$sampleArray = array(1, 2, 3, 'XOOPS',
+    'Project', </font><br id=ye-p0>
+    <font color=#000000 id=a1m8140>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    $a, $b, $c, </font><br id=ye-p1>
+    <font color=#000000 id=a1m8140>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    56.44, $d, 500);</font>
+  </div>
+</blockquote>
+<div class=code id=ip7: style="MARGIN-LEFT:40px; FONT-FAMILY:Verdana">
+</div>
+<h3 id=g.gk style=FONT-FAMILY:Verdana>
+  <font color=#000000 id=a1m8141><a id=qroc name=PHPCodingStandard(draft)-AssociativeArrays></a>关联数组</font>
+</h3>
+<p id=e9cd style=FONT-FAMILY:Verdana>
+  当使用array关键字定义关联数组时，建议把语句拆分成多行，对于这种情况，应该使用空格使每一行的键和值分别对齐<font color=#000000 id=a1m8143>:</font>
+</p>
+<blockquote id=h10t0>
+  <div class=code id=xfwh style=FONT-FAMILY:Verdana>
+    <font color=#000000 id=a1m8144>$sampleArray =
+    array('firstKey'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; =&gt;
+    'firstValue',<br id=sxfu0>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    'secondKey'&nbsp;&nbsp;&nbsp; =&gt; 'secondValue');<br id=sxfu1>
+    </font>
+  </div>
+</blockquote>
+<div class=code id=xfwh style="MARGIN-LEFT:40px; FONT-FAMILY:Verdana">
+</div>
+<h2 id=sja6 style=FONT-FAMILY:Verdana>
+  <font color=#000000 id=a1m8145><a id=mq_0 name=PHPCodingStandard(draft)-Classes></a>类</font>
+</h2>
+<h3 id=hhko style=FONT-FAMILY:Verdana>
+  <font color=#000000 id=a1m8146><a id=dl_w name=PHPCodingStandard(draft)-ClassDeclarations></a>类的声明</font>
+</h3>
+<p id=r2px style=FONT-FAMILY:Verdana>
+  类的声明应该遵守以下要求：
+</p>
+<ul>
+  <li>
+    大括号必须写在类名字的下一行<font color=#000000 id=a1m8149>.</font>
+  </li>
+  <li>
+    每个类都必须有一个遵守PHPDocumentor标准的注释文档块<font color=#000000 id=a1m8151>.</font>
+  </li>
+  <li>
+    类内部的代码都必须缩进4个空格<font color=#000000 id=a1m8153>.</font>
+  </li>
+  <li>
+    <font color=#000000 id=a1m8154>一个PHP文件只允许有一个类.</font>
+  </li>
+  <li>
+    在一个类文件里可以放置其他代码，但不提倡，对于这种情况，必须使用2个空行，把类代码和其他PHP代码分开<font color=#000000 id=a1m8156>.</font>
+  </li>
+</ul>
+<p id=pdg5 style=FONT-FAMILY:Verdana>
+  下面是一个规范的类的声明:
+</p>
+<blockquote id=h3r50>
+  <div id=ou0y0>
+    /**<br id=ou0y1>
+    &nbsp;* 类说明的注释块<br id=ou0y2>
+    &nbsp;*/<br id=ou0y3>
+    class XoopsClass<br id=ou0y4>
+    {<br id=ou0y5>
+    &nbsp;&nbsp;&nbsp; // 类的内部代码<br id=ou0y6>
+    &nbsp;&nbsp;&nbsp; // 必须缩进4个空格<br id=ou0y7>
+    }<br id=dmt30>
+  </div>
+</blockquote>
+<h3 id=ktji style=FONT-FAMILY:Verdana>
+  <font color=#000000 id=a1m8157><a id=pkie name=PHPCodingStandard(draft)-ClassMemberVariables></a>类成员变量</font>
+</h3>
+<p id=yxhp style=FONT-FAMILY:Verdana>
+  <font color=#000000 id=a1m8158>成员变量的命名必须遵守变量命名规则.</font>
+</p>
+<p id=irhp style=FONT-FAMILY:Verdana>
+  类成员变量的声明必须位于类的顶部，在函数定义之前<font color=#000000 id=a1m8160>.</font>
+</p>
+<p id=yr3: style=FONT-FAMILY:Verdana>
+  不允许使用var关键字，成员变量的声明必须使用关键字：private、protected或者public。尽管可以通过把变量声明为public，以便直接访问成员变量，但本规范推荐使用get/set存取符来访问变量<font color=#000000 id=a1m8162>.</font>
+</p>
+<h2 id=wd:l style=FONT-FAMILY:Verdana>
+  <font color=#000000 id=a1m8163><a id=zenr name=PHPCodingStandard(draft)-FunctionsandMethods></a>函数与方法</font>
+</h2>
+<h3 id=w_ue style=FONT-FAMILY:Verdana>
+  <font color=#000000 id=a1m8164><a id=g859 name=PHPCodingStandard(draft)-FunctionandMethodDeclaration></a>函数与方法的定义</font>
+</h3>
+<p id=no_7 style=FONT-FAMILY:Verdana>
+  <font color=#000000 id=a1m8165>函数命名必须遵循命名规范.</font>
+</p>
+<p id=b6nz style=FONT-FAMILY:Verdana>
+  类内部的函数必须使用private、protected和public等关键字，表示该函数的可见性<font color=#000000 id=a1m8167>.</font>
+</p>
+<p id=xf30 style=FONT-FAMILY:Verdana>
+  声明静态变量的时候,众多PHP社区习惯写在类的最前面<font color=#000000 id=a1m8169>:</font>
+</p>
+<blockquote id=h3r51>
+  <div class=code id=hfvo style=FONT-FAMILY:Verdana>
+    <font color=#000000 id=a1m8170>public&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; static
+    foo()&nbsp;&nbsp;&nbsp; { ... }<br id=i1.00>
+    private&nbsp;&nbsp;&nbsp;&nbsp; static bar()&nbsp;&nbsp;&nbsp; { ... }<br id=i1.01>
+    protected&nbsp;&nbsp; static goo()&nbsp;&nbsp;&nbsp; { ... }<br id=i1.02>
+    </font>
+  </div>
+</blockquote>
+<div class=code id=hfvo style="MARGIN-LEFT:40px; FONT-FAMILY:Verdana">
+</div>
+<p id=ylk2 style=FONT-FAMILY:Verdana>
+  函数里大括号的用法与类一致，即大括号必须位于函数名字的下一行，函数名字与括号之间没有空格<font color=#000000 id=a1m8173>.</font>
+</p>
+<p id=iprd style=FONT-FAMILY:Verdana>
+  <font color=#000000 id=a1m8174>下面是规范的类成员函数的书写方法:</font>
+</p>
+<blockquote id=i1.03>
+  <div class=code id=wdg6 style=FONT-FAMILY:Verdana>
+    <font color=#000000 id=a1m8175>/**<br id=dpro0>
+    &nbsp;* 类说明文档的注释块<br id=dpro1>
+    &nbsp;*/<br id=dpro2>
+    class XoopsFoo<br id=dpro3>
+    {<br id=dpro4>
+    &nbsp;&nbsp;&nbsp; /**<br id=dpro5>
+    &nbsp;&nbsp;&nbsp;&nbsp; * 方法说明文档的注释块<br id=dpro6>
+    &nbsp;&nbsp;&nbsp;&nbsp; */<br id=dpro7>
+    &nbsp;&nbsp;&nbsp; public function sampleMethod($a)<br id=dpro8>
+    &nbsp;&nbsp;&nbsp; {<br id=dpro9>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; // 函数的内部内容<br id=dpro10>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; // 必须缩进4个空格<br id=dpro11>
+    &nbsp;&nbsp;&nbsp; }<br id=dpro12>
+    &nbsp;&nbsp;&nbsp;&nbsp;<br id=dpro13>
+    &nbsp;&nbsp;&nbsp; /**<br id=dpro14>
+    &nbsp;&nbsp;&nbsp;&nbsp; *方法说明文档的注释块<br id=dpro15>
+    &nbsp;&nbsp;&nbsp;&nbsp; */<br id=dpro16>
+    &nbsp;&nbsp;&nbsp; protected function _anotherMethod()<br id=dpro17>
+    &nbsp;&nbsp;&nbsp; {<br id=dpro18>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; // ...<br id=dpro19>
+    &nbsp;&nbsp;&nbsp; }<br id=dpro20>
+    }<br id=dpro21>
+    </font>
+  </div>
+</blockquote>
+<br id=c251>
+<p id=dcb5 style=FONT-FAMILY:Verdana>
+  返回值（return）不允许使用括号<font color=#000000 id=a1m8178>. This can hinder readability
+  and can also break code if a function or method is later changed to return by
+  reference.</font>
+</p>
+<blockquote id=bspa0>
+  <div class=code id=jy8d style=FONT-FAMILY:Verdana>
+    <font color=#000000 id=a1m8179>function foo()<br id=s.b90>
+    {<br id=s.b91>
+    &nbsp;&nbsp;&nbsp;// 错误的写法<br id=s.b92>
+    &nbsp;&nbsp;&nbsp; return($this-&gt;bar);<br id=s.b93>
+    &nbsp;<br id=s.b94>
+    &nbsp;&nbsp;&nbsp;// 正确的写法<br id=s.b95>
+    &nbsp;&nbsp;&nbsp; return $this-&gt;bar;<br id=s.b96>
+    }<br id=s.b97>
+    </font>
+  </div>
+</blockquote>
+<p id=b03j style=FONT-FAMILY:Verdana>
+  <font color=#000000 id=a1m8180>The use of <span class=nobr id=qhr.>type
+  hinting</span> is encouraged where possible with respect to the component
+  design. For example,</font>
+</p>
+<blockquote id=b9ma0>
+  <p id=b03j style=FONT-FAMILY:Verdana>
+    class XoopsComponent<br id=b9ma1>
+    {<br id=b9ma2>
+    &nbsp;&nbsp;&nbsp; public function foo(SomeInterface $object)<br id=b9ma3>
+    &nbsp;&nbsp;&nbsp; {}<br id=b9ma4>
+    &nbsp;<br id=b9ma5>
+    &nbsp;&nbsp;&nbsp; public function bar(array $options)<br id=b9ma6>
+    &nbsp;&nbsp;&nbsp; {}<br id=b9ma7>
+    }<br id=pv.j0>
+  </p>
+</blockquote>
+<h3 id=u4nn style=FONT-FAMILY:Verdana>
+  <font color=#000000 id=a1m8182><a id=ef5q name=PHPCodingStandard(draft)-FunctionandMethodUsage></a>函数和方法的用法</font>
+</h3>
+<p id=tddu style=FONT-FAMILY:Verdana>
+  禁止使用全局函数.
+</p>
+<p id=tddu style=FONT-FAMILY:Verdana>
+  如果函数有多个参数,需要在每个逗号后面添加一个空格<font color=#000000>,如下例所示</font><font color=#000000 id=a1m8184>:</font>
+</p>
+<blockquote id=b9ma8>
+  <div class=code id=f4g4 style=FONT-FAMILY:Verdana>
+    <font color=#000000 id=a1m8185>threeArguments(1, 2, 3);</font>
+  </div>
+</blockquote>
+<div class=code id=f4g4 style="MARGIN-LEFT:40px; FONT-FAMILY:Verdana">
+</div>
+<p id=jeu5 style=FONT-FAMILY:Verdana>
+  调用阶段不允许传递引用传递参数，而应该把他放在函数定义阶段<font color=#000000>.</font>
+</p>
+<p id=aew4 style=FONT-FAMILY:Verdana>
+  对于允许使用数组参数的函数，函数调用允许使用array声明语句，并且允许分割成多行，同时需要通过缩进保持可读性，例如下面的例子<font color=#000000>:</font>
+</p>
+<blockquote id=b9ma9>
+  <div class=code id=lzoa style=FONT-FAMILY:Verdana>
+    <font color=#000000 id=a1m8188>threeArguments(array(1, 2, 3), 2, 3);<br id=j21c0>
+    &nbsp;<br id=j21c1>
+    threeArguments(array(1, 2, 3, 'XOOPS', 'Project',<br id=j21c2>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    $a, $b, $c,<br id=j21c3>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    56.44, $d, 500), 2, 3);<br id=j21c4>
+    </font>
+  </div>
+</blockquote>
+<h2 id=m7jc style=FONT-FAMILY:Verdana>
+  <font color=#000000 id=a1m8189><a id=tcuh name=PHPCodingStandard(draft)-ControlStatements></a>控制语句</font>
+</h2>
+<h3 id=oq2l style=FONT-FAMILY:Verdana>
+  <font color=#000000 id=a1m8190><a id=au82 name=PHPCodingStandard(draft)-If/Else/Elseif></a>If
+  / Else / Elseif</font>
+</h3>
+<p id=z:rs style=FONT-FAMILY:Verdana>
+  <font color=#000000 id=a1m8191>控制语句中if和elseif关键字之后，必须一个空格与后面的左括号分割，右括号后面也必须有一个空格.</font>
+</p>
+<p id=svta style=FONT-FAMILY:Verdana>
+  <font color=#000000 id=a1m8192>在括号里面的条件语句，操作符两边必须有空格以保持可读性，如果括号里的条件较多，建议根据逻辑分组通过添加括号.</font>
+</p>
+<p id=ffq6 style=FONT-FAMILY:Verdana>
+  <font color=#000000 id=a1m8193>左大括号应该写在条件语句的同一行，而右大括号应该独自放在一行，括号内部的内容应该缩进4个字符.</font>
+</p>
+<blockquote id=ikzl0>
+  <div class=code id=qhvw style=FONT-FAMILY:Verdana>
+    <font color=#000000 id=a1m8194>if ($a != 2) {<br id=lqrf0>
+    &nbsp;&nbsp;&nbsp; $a = 2;<br id=lqrf1>
+    }<br id=lqrf2>
+    </font>
+  </div>
+</blockquote>
+<p id=iifg style=FONT-FAMILY:Verdana>
+  <font color=#000000 id=a1m8195>对于包含有elseif或else的if语句，其格式要求参照如下例子:</font>
+</p>
+<blockquote id=ikzl1>
+  <div class=code id=m8hn style=FONT-FAMILY:Verdana>
+    if ($a != 2) {<br id=ew4w0>
+    &nbsp;&nbsp;&nbsp; $a = 2;<br id=ew4w1>
+    } else {<br id=ew4w2>
+    &nbsp;&nbsp; $a = 7;<br id=ew4w3>
+    } &nbsp;<br id=ew4w4>
+    &nbsp;<br id=ew4w5>
+    if ($a != 2) {<br id=ew4w6>
+    &nbsp;&nbsp;&nbsp; $a = 2;<br id=ew4w7>
+    } elseif ($a == 3) {<br id=ew4w8>
+    &nbsp;&nbsp; $a = 4;<br id=ew4w9>
+    } else {<br id=ew4w10>
+    &nbsp;&nbsp; $a = 7;<br id=ew4w11>
+    }<br id=ew4w12>
+  </div>
+</blockquote>
+<p id=pizb style=FONT-FAMILY:Verdana>
+  <font color=#000000 id=a1m8197>尽管PHP允许在某些情况下这些语句里可以不使用大括号，但我们的编码规范里不允许这么做，所有的if、elseif和else语句都必须使用大括号.</font>
+</p>
+<h3 id=jkwb style=FONT-FAMILY:Verdana>
+  <font color=#000000 id=a1m8199><a id=guu6 name=PHPCodingStandard(draft)-Switch></a>Switch</font>
+</h3>
+<p id=jl2_ style=FONT-FAMILY:Verdana>
+  <font color=#000000 id=a1m8200>尽管PHP允许在某些情况下这些语句里可以不使用大括号，但我们的编码规范里不允许这么做，所有的if、elseif和else语句都必须使用大括号.</font>
+</p>
+<p id=h2-0 style=FONT-FAMILY:Verdana>
+  switch内部的内容不用缩进，每个case语句下的内容也同样缩进4个空格<font color=#000000 id=a1m8202>.</font>
+</p>
+<blockquote id=p0e20>
+  <div class=code id=npf2 style=FONT-FAMILY:Verdana>
+    <font color=#000000 id=a1m8203>switch ($numPeople) {<br id=ugs90>
+    case 1:<br id=ugs91>
+    &nbsp;&nbsp;&nbsp; break;<br id=ugs92>
+    <br id=ugs93>
+    case 2:<br id=ugs94>
+    &nbsp;&nbsp;&nbsp; break;<br id=ugs95>
+    <br id=ugs96>
+    default:<br id=ugs97>
+    &nbsp;&nbsp;&nbsp; break;<br id=ugs98>
+    }<br id=ugs99>
+    </font>
+  </div>
+</blockquote>
+<p id=g7k6 style=FONT-FAMILY:Verdana>
+  switch语句中都必须有一个default语句，不能省略<font color=#000000 id=a1m8205>.</font>
+</p>
+<br id=kvp6>
+<h2 id=vwuj style=FONT-FAMILY:Verdana>
+  <font color=#000000 id=a1m8207><a id=s4jw name=PHPCodingStandard(draft)-InlineDocumentation></a>内部文档化</font>
+</h2>
+<h3 id=el_l style=FONT-FAMILY:Verdana>
+  <font color=#000000 id=a1m8208><a id=uc0s name=PHPCodingStandard(draft)-DocumentationFormat></a>文档格式</font>
+</h3>
+<p id=ha:b style=FONT-FAMILY:Verdana>
+  <font color=#000000 id=a1m8209>所有的文档块（即docblocks）都必须遵循phpDocumentor格式，这里不对phpDocumentor格式多做介绍，具体请参考网站http://phpdoc.org.</font>
+</p>
+<p id=vra1 style=FONT-FAMILY:Verdana>
+  <font color=#000000 id=a1m8210>所有为XOOPS平台写的或者应用在XOOPS平台的源代码文件，都必须在每个文件顶部包含文件级的文档块，以及在每个类定义的上边包含类级的文档块.<br id=cupd0>
+  </font>
+</p>
+<p id=trgq style=FONT-FAMILY:Verdana>
+  <font color=#000000 id=a1m8211>不能用'#'作为注释的标记符.</font>
+</p>
+<h3 id=gqd3 style=FONT-FAMILY:Verdana>
+  <font color=#000000 id=a1m8212><a id=b9uw name=PHPCodingStandard(draft)-Files></a>文件中的文档块</font>
+</h3>
+<p id=lbyq style=FONT-FAMILY:Verdana>
+  <font color=#000000 id=a1m8215>任何包含PHP代码的文件都必须在其顶部包含文档块，并至少包含以下phpDocumentor标记:</font>
+</p>
+<blockquote id=p0e21>
+  <div class=code id=zb54>
+    <div id=i.ch1>
+      <p id=p0e22>
+        /**
+      </p>
+      <p id=p0e23>
+        &nbsp;* 关于本文件的简要说明
+      </p>
+      <p id=p0e24>
+        &nbsp;*
+      </p>
+      <p id=p0e25>
+        &nbsp;* 关于本文件的详细描述（如果有的话）...
+      </p>
+      <p id=p0e26>
+        &nbsp;*<br id=okzt0>
+        &nbsp;* 许可信息<br id=okzt1>
+        &nbsp;*<br id=okzt2>
+        &nbsp;* You may not change or alter any portion of this comment or
+        credits
+      </p>
+      <p id=p0e27>
+        &nbsp;* of supporting developers from this source code or any supporting
+        source code
+      </p>
+      <p id=p0e28>
+        &nbsp;* which is considered copyrighted (c) material of the original
+        comment or credit authors.<br id=okzt3>
+        &nbsp;*<br id=y:rm4>
+        &nbsp;* @copyright&nbsp;&nbsp; The XOOPS Project
+        http://sourceforge.net/projects/xoops/
+      </p>
+      <p id=p0e29>
+        &nbsp;* @license&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        http://www.fsf.org/copyleft/gpl.html GNU public license
+      </p>
+      <p id=p0e210>
+        &nbsp;* @author&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 作者名称 &lt;author
+        email, or website&gt;
+      </p>
+      <p id=p0e211>
+        &nbsp;* @version&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $Id$
+      </p>
+      <p id=p0e212>
+        &nbsp;* @since&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; File
+        available since Release 3.0.0
+      </p>
+      <p id=p0e213>
+        &nbsp;*/<br id=y:rm10>
+      </p>
+    </div>
+  </div>
+</blockquote>
+<h3 id=wdgo style=FONT-FAMILY:Verdana>
+  <font color=#000000 id=a1m8217><a id=m2-s name=PHPCodingStandard(draft)-Classes></a>类中的文档块</font>
+</h3>
+<p id=oqtm style=FONT-FAMILY:Verdana>
+  <font color=#000000 id=a1m8218>每个类级别的文档块都必须至少包含以下phpDocumentor标记:</font>
+</p>
+<blockquote id=kear0>
+  <div class=code id=vwln>
+    <div id=i.ch2>
+      /**<br id=nse00>
+      &nbsp;* 类的简单说明<br id=nse01>
+      &nbsp;*<br id=nse02>
+      &nbsp;* 类的详细说明 (如果有的话)...<br id=nse03>
+      &nbsp;*<br id=nse04>
+      &nbsp;* @copyright&nbsp;&nbsp; The XOOPS Project
+      http://sourceforge.net/projects/xoops/<br id=y:rm5>
+      &nbsp;* @license&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      http://www.fsf.org/copyleft/gpl.html GNU public license<br id=y:rm6>
+      &nbsp;* @author&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Author&nbsp; Name
+      &lt;author email, or website&gt;<br id=y:rm7>
+      &nbsp;* @version&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $Id$<br id=y:rm8>
+      &nbsp;* @since&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; File
+      available since Release 3.0.0<br id=nse09>
+      &nbsp;*/
+    </div>
+  </div>
+</blockquote>
+<h3 id=vvj1 style=FONT-FAMILY:Verdana>
+  <font color=#000000 id=a1m8220><a id=p_3l name=PHPCodingStandard(draft)-Functions></a>
+  函数中的文档块</font>
+</h3>
+<p id=ti7b style=FONT-FAMILY:Verdana>
+  <font color=#000000 id=a1m8221>每个函数，包括对象方法，都必须包含至少下列文档块:</font>
+</p>
+<ul id=tcrh style=FONT-FAMILY:Verdana>
+  <li id=b7ai>
+    函数功能描述
+  </li>
+  <li id=z6yv>
+    所有的参数
+  </li>
+  <li id=h50l>
+    <font color=#000000 id=a1m8224>&nbsp;所有可能返回的值<br id=y5-30>
+    </font>
+  </li>
+</ul>
+<br id=ftwe>
+<div class=code id=glj. style=FONT-FAMILY:Verdana>
+  <blockquote id=kear1>
+    <font color=#000000 id=a1m8226 style=FONT-FAMILY:Georgia>/**
+    </font><br id=y5-31>
+    <font color=#000000 id=a1m8226 style=FONT-FAMILY:Georgia>&nbsp;*
+    关于函数的说明</font><br id=y5-32>
+    <font color=#000000 id=a1m8226 style=FONT-FAMILY:Georgia>&nbsp;*
+    </font><br id=y5-33>
+    <font color=#000000 id=a1m8226 style=FONT-FAMILY:Georgia>&nbsp;*
+    @param&nbsp;&nbsp; Place&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $where Where
+    something interesting takes place</font><br id=e5m:1>
+    <font color=#000000 id=a1m8226 style=FONT-FAMILY:Georgia>&nbsp;*
+    @param&nbsp;&nbsp; integer&nbsp;&nbsp;&nbsp;&nbsp; $repeat How many times
+    something interesting should happen</font><br id=e5m:2>
+    <font color=#000000 id=a1m8226 style=FONT-FAMILY:Georgia>&nbsp;*
+    @return&nbsp; Status </font><br id=y5-36>
+    <font color=#000000 id=a1m8226 style=FONT-FAMILY:Georgia>&nbsp;*/
+    </font><br id=y5-37>
+    <font color=#000000 id=a1m8226 style=FONT-FAMILY:Georgia>public function
+    xoops_doSomethingInteresting(Place $where, $repeat = 1) </font><br id=kua-0>
+    <font color=#000000 id=a1m8226 style=FONT-FAMILY:Georgia>{
+    </font><br id=kua-1>
+    <font color=#000000 id=a1m8226 style=FONT-FAMILY:Georgia>&nbsp;&nbsp;&nbsp;
+    // implementation... </font><br id=kua-2>
+    <font color=#000000 id=a1m8226>}</font>
+  </blockquote>
+  <div id=e5m:0 style=MARGIN-LEFT:40px>
+  </div>
+</div>
+<h3 id=skal style=FONT-FAMILY:Verdana>
+  <font color=#000000 id=a1m8227><a id=t7xj name=PHPCodingStandard(draft)-Require/Include></a>Require
+  / Include</font>
+</h3>
+<p id=popi style=FONT-FAMILY:Verdana>
+  <font color=#000000 id=a1m8228>If a component uses another component, then the
+  using component is responsible for loading the other component. If the use is
+  conditional, then the loading should also be conditional.</font>
+</p>
+<p id=kmmz style=FONT-FAMILY:Verdana>
+  <font color=#000000 id=a1m8229>If the file(s) for the other component should
+  always load successfully, regardless of input, then use PHP's
+  <span id=jes.0 style=FONT-FAMILY:Georgia>require_once</span> statement.<br id=ypnw>
+  Use <span id=jes.1 style=FONT-FAMILY:Georgia>XoopsLoad::load()</span> to load
+  configured classes.</font>
+</p>
+<p id=r-bn style=FONT-FAMILY:Verdana>
+  <font color=#000000 id=a1m8230>The
+  <span id=ru9.0 style=FONT-FAMILY:Georgia>include</span>,
+  <span id=m4ag0 style=FONT-FAMILY:Georgia>include_once</span>,
+  <span id=m4ag1 style=FONT-FAMILY:Georgia>require</span>, and
+  <span id=m4ag2 style=FONT-FAMILY:Georgia>require_once</span> statements should
+  not use parentheses.</font><br id=h8:50>
+</p>
+<h1 id=bfxw0 style=FONT-FAMILY:Verdana>
+  错误与异常
+</h1>
+<p id=h8:51 style=FONT-FAMILY:Verdana>
+  The XOOPS Project codebase must be
+  <span id=qoix0 style=FONT-FAMILY:Georgia>E_STRICT</span> compliant. XOOPS code
+  should not emit PHP warning
+  (<span id=sq.t0 style=FONT-FAMILY:Georgia>E_WARNING</span>,
+  <span id=sq.t1 style=FONT-FAMILY:Georgia>E_USER_WARNING</span>), notice
+  (<span id=sq.t2 style=FONT-FAMILY:Georgia>E_NOTICE</span>,
+  <span id=sq.t3 style=FONT-FAMILY:Georgia>E_USER_NOTICE</span>), or strict
+  (<span id=sq.t4 style=FONT-FAMILY:Georgia>E_STRICT</span>) messages when
+  <span id=lyb20 style=FONT-FAMILY:Georgia>error_reporting</span> is set to
+  <span id=ygql0 style=FONT-FAMILY:Georgia>E_ALL | E_STRICT</span>.
+</p>
+<p id=h8:55 style=FONT-FAMILY:Verdana>
+  See
+  <span id=z1zg0 style=FONT-FAMILY:Georgia>http://www.php.net/errorfunc</span>
+  for information on <span id=ygql1 style=FONT-FAMILY:Georgia>E_STRICT</span>.
+</p>
+<p id=h8:55 style=FONT-FAMILY:Verdana>
+  <br id=t1v-0>
+</p>
+<p id=h8:58 style=FONT-FAMILY:Verdana>
+  XOOPS code should not emit PHP errors, if it is reasonably possible. Instead,
+  log each error with meaningful messages using
+  <span id=z1zg1 style=FONT-FAMILY:Georgia>trigger_error</span> function then
+  XOOPS will use custom error handler for subsequent processing.
+</p>
+<br id=zx730 style=FONT-FAMILY:Verdana>
+<p id=h8:58 style=FONT-FAMILY:Verdana>
+  <br id=zx731>
+</p>
+<hr id=zx732 style="WIDTH:100%; HEIGHT:2px; FONT-FAMILY:Verdana">
+<p id=h8:58 style=FONT-FAMILY:Verdana>
+  <br id=t1v-1>
+</p>
+<p id=r-bn style=FONT-FAMILY:Verdana>
+</p>
+<a id=q_45 name=PHPCodingStandard(draft)-ErrorsandExceptions></a>
+注解<font color=#000000 id=a1m8232 style=FONT-FAMILY:Verdana>:<br id=v.7l0>
+</font>
+<ol id=znxt0>
+  <li id=znxt1>
+    驼峰式写法(<font color=#000000 id=a1m8232 style=FONT-FAMILY:Verdana>camelCaps) -
+    当一个字符串由多个词语组成,第2个及其以后的单词的首字母均大写. 这种方式就称为驼峰式写法(camelCaps).</font>
+  </li>
+</ol>
+<font color=#000000 id=a1m8232 style=FONT-FAMILY:Verdana><br id=v.7l1>
+<br id=znxt2>
+基于
+<a href=http://framework.zend.com/wiki/display/ZFDEV/PHP+Coding+Standard+%28draft%29 id=czj8 target=_blank title="Zend framework PHP Coding Standard (draft)">Zend
+framework PHP Coding Standard (draft)</a></font><br>
+原始文档
+<a href=http://docs.google.com/View?docID=dgb3svsv_86dx8xcsfr id=isx3 target=_blank title="Google Docs">Google
+Docs</a><br>
+<br></body>
+</html>
