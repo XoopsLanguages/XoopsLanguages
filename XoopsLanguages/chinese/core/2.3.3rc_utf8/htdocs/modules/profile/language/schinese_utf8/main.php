@@ -1,5 +1,9 @@
 <?php
 // $Id: main.php 2021 2008-08-31 02:02:45Z phppp $
+// _LANGCODE: zh_CN
+// _CHARSET : UTF-8
+// Translator: XOOPSCHINA Translation Team
+
 define('_PROFILE_MA_REGISTER_NOTGROUP', '新用户未能注册到相应的群组。');
 define('_PROFILE_MA_FINISH_LOGIN','帐号注册完成，点击登录网站');
 define("_PROFILE_MA_REGISTER_FINISH", "感谢注册");
@@ -48,4 +52,6 @@ define("_PROFILE_MA_SITEDEFAULT", "默认站点");
 
 define("_PROFILE_MA_USERINFO","帐号信息");
 define("_PROFILE_MA_REGISTER","注册表单");
+define("_PROFILE_MA_ACTUS", "已激活用户: %s");
+define("_PROFILE_MA_FOUNDUSER", "%s 个符合条件的用户"); 
 ?>

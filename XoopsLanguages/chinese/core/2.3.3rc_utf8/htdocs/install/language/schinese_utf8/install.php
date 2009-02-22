@@ -10,8 +10,13 @@
  * @author      Kazumi Ono <webmaster@myweb.ne.jp>
  * @author      Skalpa Keo <skalpa@xoops.org>
  * @author      Taiwen Jiang <phppp@users.sourceforge.net>
- * @version     $Id: install.php 1923 2008-07-27 14:22:14Z phppp $
+ * @author      dugris <dugris@frxoops.org>
+ * @version     $Id: install.php 2717 2009-01-23 09:47:30Z phppp $
  */
+
+// _LANGCODE: zh_CN
+// _CHARSET : UTF-8
+// Translator: XOOPSCHINA Translation Team
 
 define( "SHOW_HIDE_HELP", "显示/隐藏 帮助信息" );
 
@@ -160,4 +165,48 @@ define( "ERR_CHARSET_NOT_SET", "未能设置XOOPS数据库的缺省字符集。"
 
 
 define("_INSTALL_CHARSET", "UTF-8");
+
+define( "SUPPORT", "技术支持");
+
+define( "LOGIN", "验证");
+define( "LOGIN_TITLE", "验证");
+define( "USER_LOGIN", "管理员登录" );
+define( "USERNAME", "用户名 :");
+define( "PASSWORD", "密码 :");
+
+define( "ICONV_CONVERSION", "字符集转换");
+define( "ZLIB_COMPRESSION", "Zlib 压缩");
+define( "IMAGE_FUNCTIONS", "图形函数");
+define( "IMAGE_METAS", "图像元数据 (exif)");
+
+define( "ADMIN_EXIST", "管理员用户名已存在.<br />点击 <strong>下一步</strong> 继续安装.");
+
+define( "CONFIG_SITE", "站点设置" );
+define( "CONFIG_SITE_TITLE", "站点设置" );
+define( "MODULES", "模块安装" );
+define( "MODULES_TITLE", "模块安装" );
+define( "THEME", "选择主题" );
+define( "THEME_TITLE", "选择网站默认风格" );
+
+define( "INSTALLED_MODULES", "以下模块已经安装成功.<br />点击 <strong>下一步</strong> 继续安装.");
+define( "NO_MODULES_FOUND", "没有找到模块.<br />点击 <strong>下一步</strong> 继续安装.");
+define( "NO_INSTALLED_MODULES", "没有安装模块.<br />点击 <strong>下一步</strong> 继续安装.");
+
+define( "THEME_NO_SCREENSHOT", "没有找到缩略图");
+
+define( "IS_VALOR", " => ");
+
+// password message
+define( "PASSWORD_LABEL", "密码强度 : ");
+define( "PASSWORD_DESC", "密码不能为空");
+define( "PASSWORD_GENERATOR", "密码生成器");
+define( "PASSWORD_GENERATE", "生成");
+define( "PASSWORD_COPY", "复制");
+
+define( "PASSWORD_VERY_WEAK", "非常弱");
+define( "PASSWORD_WEAK", "弱");
+define( "PASSWORD_BETTER", "一般");
+define( "PASSWORD_MEDIUM", "中等");
+define( "PASSWORD_STRONG", "强");
+define( "PASSWORD_STRONGEST", "非常强");
 ?>

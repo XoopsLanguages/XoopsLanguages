@@ -8,7 +8,7 @@ if( defined( 'FOR_XOOPS_LANG_CHECKER' ) || ! defined( $constpref.'_LOADED' ) ) {
 define( $constpref.'_LOADED' , 1 ) ;
 
 // The name of this module
-define($constpref."_NAME","XOOPS安全卫士");
+define($constpref."_NAME","Xoops 安全卫士");
 
 // A brief description of this module
 define($constpref."_DESC","该模块可以保护你的XOOPS网站免受各类攻击，比如DoS, SQL注入, 变量污染等.");
@@ -25,8 +25,6 @@ define($constpref.'_GLOBAL_DISBLDSC','所有保护将被停止。<br />别忘了
 
 define($constpref.'_DEFAULT_LANG','默认语言');
 //define($constpref.'_DEFAULT_LANGDSC','Specify the language set to display messages before processing common.php');
-
-
 define($constpref.'_RELIABLE_IPS','信任 IP 地址');
 define($constpref.'_RELIABLE_IPSDSC','请用 | 分隔关键词。<br />^aaa.bbb.ccc 将拒绝以aaa.bbb.ccc开头的IP地址的访问。<br />
 aaa.bbb.ccc$ 将允许以aaa.bbb.ccc结尾的IP地址的访问。<br />
@@ -68,7 +66,6 @@ define($constpref.'_BF_COUNTDSC','设置最多重试登录时间为10分钟。�
 
 define($constpref.'_BWLIMIT_COUNT','带宽限制');
 define($constpref.'_BWLIMIT_COUNTDSC','在浏览网站时,指定通过 mainfile.php 的最大的连接数. 如果设置为0则为正常的服务器环境,所有的带宽和CPU都可以使用. 如果小于 10 将被忽略.');
-
 define($constpref.'_DOS_SKIPMODS','不检测 DDoS/（爬虫）Crawler 的模块');
 define($constpref.'_DOS_SKIPMODSDSC','设置模块的目录以“|”隔开. 这个选项是非常有用的，比如聊天室模块等等。');
 
@@ -107,10 +104,10 @@ define($constpref.'_DISABLES','禁用XOOPS的危险特性');
 define($constpref.'_BIGUMBRELLA','跨站攻击拦截 (BigUmbrella)');
 define($constpref.'_BIGUMBRELLADSC','此功能可以保护你的网站不会受到由XSS漏洞导致的攻击。但是不能够 100% 的拦截。');
 
-define($constpref.'_SPAMURI4U','反垃圾（anti-SPAM）: 普通用户');
-define($constpref.'_SPAMURI4UDSC','设置提交时允许包含的超级链接条数.如果用户提交的内容中包含的超级链接数目超出此设置则被确认为垃圾信息,管理员除外. 填0表示禁用此功能.');
-define($constpref.'_SPAMURI4G','反垃圾（anti-SPAM）: 游客');
-define($constpref.'_SPAMURI4GDSC','设置提交时允许包含的超级链接条数.如果游客提交的内容中包含的超级链接数目超出此设置则被确认为垃圾信息. 填0表示禁用此功能.');
+define($constpref.'_SPAMURI4U','反垃圾邮件（anti-SPAM）: URLs for normal users');
+define($constpref.'_SPAMURI4UDSC','If this number of URLs are found in POST data from users other than admin, the POST is considered as SPAM. 填0表示禁用此功能.');
+define($constpref.'_SPAMURI4G','反垃圾邮件（anti-SPAM）: URLs for guests');
+define($constpref.'_SPAMURI4GDSC','If this number of URLs are found in POST data from guests, the POST is considered as SPAM. 填0表示禁用此功能.');
 
 }
 

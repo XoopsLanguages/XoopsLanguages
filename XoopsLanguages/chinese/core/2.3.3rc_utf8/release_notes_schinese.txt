@@ -1,12 +1,18 @@
-XOOPS 2.3.2 正式版发布说明
+XOOPS 2.3.3 RC 简体中文版发布说明
 
-XOOPS 开发团队很高兴地宣布 XOOPS 2.3.2 正式版发布。
+XOOPS 开发团队很高兴地宣布 XOOPS 2.3.3 RC 简体中文版发布。
 
-这次的发布主要是真对一些安全隐患进行修补，其中包括由DSRG(Digital Sercurity Research Group) 报告的跨站脚本攻击（XSS）漏洞，由DSRG报告的包含文件漏洞，由Dylian报告的自动登录故障，以及由boy0917报告的数据同步功能的向前兼容问题,除此之外还有ezsky报告的xoopsmailer的问题。
-在2.3.2b这个版本中,感谢DSRG,帮助我们改善XOOPS的安全问题.
-高度推荐所有的XOOPS2.3.x用户尽快升级到此版本。
-XOOPS2.0和2.2系列没有安全问题.但是如果你正在使用PROTECTOR模块,我们推荐升级此模块.最新版PROTECTOR模块可以从XOOPS安装包中获得.
-英文版地址下载[url=https://sourceforge.net/project/showfiles.php?group_id=41586&package_id=153583&release_id=643010]Sourceforge repository[/url].
+这个版本修正了许多BUG以及用户体验的改进,由XOOPS核心开发团队和XOOPS社区完成.
+该版本特点:
+- 用户管理和短信息模块的改进 (dhcst)
+- 安装向导的改进i (dugris 和 marco, 等)
+- 风格主题的改进 (mamba, aph3x, kris 和 burning)
+- tinymce 编辑器的改进 (dugris and luciorota)
+- snoopy 类的升级 (julionc)
+- smarty 模版引擎升级 (dhcst)
+- bug 跟踪与管理 (marco)
+
+英文版地址下载[url=https://sourceforge.net/project/showfiles.php?package_id=283040&release_id=661979&group_id=41586]Sourceforge repository[/url].
 
 
 系统需求
@@ -22,14 +28,14 @@ Web server：
 任何支持上面PHP版本的Web 服务器 (高度推荐Apache)
 
 
-下载 XOOPS 2.3.2 正式版
+下载 XOOPS 2.3.3 RC 简体中文版
 -----------------------------------
 
 从XoopsChina (http://xoops.org.cn) 或从 sourceforge.net 下载到英文版安装包.
 有.zip和.gz两种格式
 
 
-全新安装 XOOPS 2.3.2 正式版
+全新安装
 -----------------------------------
 1. 把 htdocs/ 上传到服务器
 2. 确认 mainfile.php 和 uploads/ 可写
@@ -38,19 +44,19 @@ Web server：
 5. 用浏览器打开 htdocs/ 文件夹来进行安装
 
 
-在XOOPS 2.3.2 中安装XOOPS安全卫士（Protector）
+在 XOOPS 中安装XOOPS安全卫士（Protector）
 -----------------------------------
 我们仍旧高度推荐使用Protector模块，它将为XOOPS系统提供额外的安全保护和日志记录能力.
 
-全新安装XOOPS 2.3.2时有一种新的安装向导来安装protector模块, 在安装之前，用 /extras/mainfile.dist.php.protector文件覆盖 /htdocs/mainfile.dist.php文件.
+全新安装时有一种新的安装向导来安装protector模块, 在安装之前，用 /extras/mainfile.dist.php.protector文件覆盖 /htdocs/mainfile.dist.php文件.
 
-XOOPS 2.30以前版本通过更新安装protector模块, 在执行更新之前，用 /extras/mainfile.dist.php.protector文件覆盖 /upgrade/upd-2.0.18-to-2.3.0/mainfile.dist.php文件.
+XOOPS 2.3.1以前版本通过更新安装protector模块, 在执行更新之前，用 /extras/mainfile.dist.php.protector文件覆盖 /upgrade/upd-2.0.18-to-2.3.0/mainfile.dist.php文件.
 注意：别忘了删除.protector扩展名.
 
 
-从旧版本更新至 XOOPS2.3.2 正式版
+从旧版本更新
 -----------------------------------
-从 XOOPS 2.3.1 或 XOOPS 2.3.2a 升级
+从 XOOPS 2.3.1 或 XOOPS 2.3.2 升级
     1. 下载升级包
     2. 使用升级包内文件覆盖旧版文件
     3. 把"upgrade" 文件夹复制到 "htdocs" 文件夹内
@@ -77,8 +83,8 @@ XOOPS 2.30以前版本通过更新安装protector模块, 在执行更新之前�
     2. 删除您的计算机上新下载的 "htdocs" 文件夹内的 htdocs/mainfile.php, htdocs/install/, htdocs/cache/, htdocs/extras/, htdocs/template_c/, htdocs/themes/ and htdocs/uploads/
     3. 把在本地计算机修改好的htdocs文件夹 上传到您的服务器覆盖原来的文件
     4. 删除一下文件和文件夹(这些是属于旧版本的):
-    * class/smarty/core
-    * class/smarty/plugins/resource.db.php
+        * class/smarty/core
+        * class/smarty/plugins/resource.db.php
     5. 设置 mainfile.php 文件属性为可写.
     6. 出于安全考虑, 请把 xoops_lib (for XOOPS libraries)和 xoops_data (for XOOPS data) 移出文件根目录,最好改名 .
     7. 保证文件夹 xoops_data/ 可写; 新建以下文件夹： xoops_data/caches/, xoops_data/caches/xoops_cache/, xoops_data/caches/smarty_cache/ 和 xoops_data/caches/smarty_compile/ ，都要设置成可写.
@@ -95,14 +101,14 @@ XOOPS2.3采用UTF-8编码为默认编码.但是,在转换已有的网站从非UT
 [code]define('_CHARSET', 'UTF-8');[/code]
 
 升级编辑器(XoopsEditor)包:
-在XOOPS 2.3.1安装包,包含了五种编辑器:可扩展DHTML编辑器(dhtmltextarea),纯文本编辑器(textarea),fckeditor所见即所得HTML编辑器,tinemce所见即所得HTML编辑器,以及koivi所见即所得HTML编辑器.
+在XOOPS安装包,包含了五种编辑器:可扩展DHTML编辑器(dhtmltextarea),纯文本编辑器(textarea),fckeditor所见即所得HTML编辑器,tinemce所见即所得HTML编辑器,以及koivi所见即所得HTML编辑器.
 由于fckeditor 和 tinymce 编辑器目录结构有写变化,建议在上传新的编辑器之前,先删除已有的编辑器.
 如果某些模块使用的是fckeditor编辑器,请根据/fckeditor/modules/下的文件,修改模块的相关配置 ,特别是"文章管理(article)"模块.
 
 
 除错信息分级显示
 -----------------------------------
-XOOPS2.3.1启用除错信息分级显示的临时解决方案,可以根据不同的用户等级来显示如:全部用户,会员,管理员.
+自从XOOPS2.3.1开始启用除错信息分级显示的临时解决方案,可以根据不同的用户等级来显示如:全部用户,会员,管理员.
 可以在/xoops_data/configs/xoopsconfig.php 文件中设置.
 在XOOPS3.0中会有全新的除错信息显示方案
 
@@ -131,4 +137,4 @@ XOOPS2.3.1启用除错信息分级显示的临时解决方案,可以根据不同
 
 
 XOOPS 开发团队
-2008年11月26日
+2009年2月22日

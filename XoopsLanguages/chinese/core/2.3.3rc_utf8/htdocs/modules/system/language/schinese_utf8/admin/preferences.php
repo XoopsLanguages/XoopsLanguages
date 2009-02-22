@@ -254,4 +254,6 @@ define("_MD_AM_WELCOMETYPE_EMAIL", "电子邮件");
 define("_MD_AM_WELCOMETYPE_PM", "短信息");
 define("_MD_AM_WELCOMETYPE_BOTH", "电子邮件和短信息");
 
+define("_MD_AM_MODULEPREF", "模块参数设置");
+
 ?>
