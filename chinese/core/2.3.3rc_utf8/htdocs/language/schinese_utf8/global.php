@@ -23,8 +23,7 @@ define("_NEWESTFIRST","新的在前");
 define("_MORE","更多...");
 define("_MULTIPAGE","如果文章需要跨页，请在段落间插入 <font color=red>[pagebreak]</font> 代码。");
 define("_IFNOTRELOAD","如果页面没有自动跳转，请<a href=%s>点击此处</a>继续");
-define("_WARNINSTALL2","警告：目录 %s 还存在于服务器中。<br />基于安全因素请删除该目录。");
-define("_WARNINWRITEABLE","警告：文件 %s 属性为可写。<br />基于安全因素请将属性改为只读。<br />Unix/MacOS 设为444、WinOS 设为只读。");
+
 
 // Error messages issued by XoopsObject::cleanVars()
 define( "_XOBJ_ERR_REQUIRED", "%s 为必填项" );
@@ -73,14 +72,13 @@ define("_LEFT","靠左");
 define("_CENTER","居中");
 define("_RIGHT","靠右");
 define("_FORM_ENTER", "请输入 %s");
-// %s represents file name
-define("_MUSTWABLE","文件 %s 的属性需设为可写！");
+define("_MUSTWABLE","文件 %s 的属性需设为可写！");// %s represents file name
 // Module info
 define('_PREFERENCES', '基本参数设置');
 define("_VERSION", "版本");
 define("_DESCRIPTION", "说明");
 define("_AUTHOR", "作者");
-define("_CREDITS", "Credits");
+define("_CREDITS", "鸣谢");
 define("_LICENCE", "许可协议");
 define("_ERRORS", "错误");
 define("_NONE", "无");
@@ -128,6 +126,7 @@ define("_STARTSWITH", "起始");
 define("_ENDSWITH", "结束");
 define("_MATCHES", "符合");
 define("_CONTAINS", "包含");
+define("_REQUIRED", "必填");
 
 //%%%%%%	File Name commentform.php 	%%%%%
 define("_REGISTER","注册会员");

@@ -44,6 +44,7 @@ define("_MA_USER_ASC","升序排列");
 define("_MA_USER_DESC","降序排列");
 define("_MA_USER_LIMIT","每页显示用户数");
 define("_MA_USER_RESULTS", "搜索结果");
+
 define("_MA_USER_SHOWMAILOK", "会员的邮件设置");
 define("_MA_USER_MAILOK","接受邮件");
 define("_MA_USER_MAILNG","不接受邮件");

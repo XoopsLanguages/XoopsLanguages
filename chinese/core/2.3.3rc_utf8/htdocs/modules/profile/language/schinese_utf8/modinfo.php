@@ -45,4 +45,5 @@ define("_PROFILE_MI_CATEGORY_PERSONAL", "个人信息");
 define("_PROFILE_MI_CATEGORY_MESSAGING", "通信方式");
 define("_PROFILE_MI_CATEGORY_SETTINGS", "个性设置");
 define("_PROFILE_MI_CATEGORY_COMMUNITY", "社区信息");
+define("_PROFILE_MI_NEVER_LOGED_IN", "从未登录");
 ?>

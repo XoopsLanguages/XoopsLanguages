@@ -1,5 +1,8 @@
 <?php
-// $Id: user.php 1529 2008-05-01 08:14:55Z phppp $
+// $Id: user.php 2411 2008-11-14 21:01:07Z julionc $
+// _LANGCODE: zh_cn
+// _CHARSET : UTF-8
+// Translator: XOOPSCHINA Translation Team
 //%%%%%%		File Name user.php 		%%%%%
 define('_US_NOTREGISTERED','还没注册？请<a href="register.php">点击此处注册</a>。');
 define('_US_LOSTPASSWORD','取回密码');
@@ -20,6 +23,7 @@ define('_US_NOPERMISS','抱歉，您没有权限执行这项操作！');
 define('_US_SURETODEL','您真的要删除自己的帐号？');
 define('_US_REMOVEINFO','该操作将会删除您在本站的所有信息。');
 define('_US_BEENDELED','您的帐号已删除，再见。');
+define('_US_ACTFAILD','激活失败!');
 //
 
 //%%%%%%		File Name register.php 		%%%%%
