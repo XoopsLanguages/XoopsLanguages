@@ -1,116 +1,174 @@
 <?php
-// $Id: main.php,v 1.9 2004/07/26 17:51:25 hthouzard Exp $
-//%%%%%%		File Name index.php 		%%%%%
-define("_NW_PRINTER","&Scaron;tampaj");
-define("_NW_SENDSTORY","Preko E-Mail-a po&scaron;alji");
-define("_NW_READMORE","Pro&#269;itaj vi&scaron;e...");
-define("_NW_COMMENTS","Napi&scaron;i Komentar?");
-define("_NW_ONECOMMENT","1 Komentar");
-define("_NW_BYTESMORE","%s Byta vi&scaron;e");
-define("_NW_NUMCOMMENTS","%s Komentari");
-define("_NW_MORERELEASES", "Vi&scaron;e ovome u: ");
+// $Id: main.php,v 1.10 2004/12/26 19:11:57 onokazu Exp $
+//%%%%%%		Module Name 'MyLinks'		%%%%%
 
+define("_MD_THANKSFORINFO","Hvala ti na poslatom linku, uskoro &#263;emo pregledati zahtjev i odobriti tvoj link, ako nebude bilo prekr&scaron;eno pravilo.");
+define("_MD_THANKSFORHELP","Hvala ti na podr&scaron;ci i odr&#382;avanju portala da bude aktivan.");
+define("_MD_FORSECURITY","Iz sigurnosnih razloga tvoj IP adresa je zabilje&#382;ena u sistemu.");
 
-//%%%%%%		File Name submit.php		%%%%%
-define("_NW_SUBMITNEWS","Po&scaron;alji");
-define("_NW_TITLE","Naslov");
-define("_NW_TOPIC","Tema");
-define("_NW_THESCOOP","Tekst ");
-define("_NW_NOTIFYPUBLISH","Preko E-Mail-a obavijesti, ako se vijest objavi");
-define("_NW_POST","Objavi");
-define("_NW_GO","Idi!");
-define("_NW_THANKS","Hvala ti primili smo tvoju poslatu vijest."); //submission of news article
+define("_MD_SEARCHFOR","Tra&#382;i");
+define("_MD_ANY","BILO KOJI");
+define("_MD_SEARCH","Pretraga");
 
-define("_NW_NOTIFYSBJCT","Vijest za tvoju stranicu"); // Notification mail subject
-define("_NW_NOTIFYMSG","Halo! Ima&scaron; kod nas novu vijest za tvoju web stranicu."); // Notification mail message
+define("_MD_MAIN","Glavni");
+define("_MD_SUBMITLINK","Po&scaron;alji link");
+define("_MD_SUBMITLINKHEAD","Folmular za slanje linka");
+define("_MD_POPULAR","Popularni");
+define("_MD_TOPRATED","Najocjenjeniji");
 
-//%%%%%%		File Name archive.php		%%%%%
-define("_NW_NEWSARCHIVES","Arhiva");
-define("_NW_ARTICLES","Vijesti");
-define("_NW_VIEWS","&#268;itanja");
-define("_NW_DATE","Datum");
-define("_NW_ACTIONS","Akcija");
-define("_NW_PRINTERFRIENDLY","&Scaron;tampaj");
+define("_MD_NEWTHISWEEK","Novi ove sedmice");
+define("_MD_UPTHISWEEK","Aktulizirani ove sedmice");
 
-define("_NW_THEREAREINTOTAL","Ima ukupno %s vijesti");
+define("_MD_POPULARITYLTOM","Popularni(Od manje klikanih ka vi&scaron;e)");
+define("_MD_POPULARITYMTOL","Popularni(Od vi&scaron;e klikanih ka manje)");
+define("_MD_TITLEATOZ","Naziv (A do Z)");
+define("_MD_TITLEZTOA","Naziv(Z do A)");
+define("_MD_DATEOLD","Datum (Stariji linkovi prvo)");
+define("_MD_DATENEW","Datum (Noviji linkovi prvo)");
+define("_MD_RATINGLTOH","Ocjene (Od manje ocjenjenih ka vi&scaron;e)");
+define("_MD_RATINGHTOL","Ocjene (Od vi&scaron;e ocjenjeni ka manje)");
 
-// %s is your site name
-define("_NW_INTARTICLE","Interesantna vijest na %s");
-define("_NW_INTARTFOUND","Ovde ima interesantna vijest koju sam ovde %s pro&#269;itao(la)");
+define("_MD_NOSHOTS","Ovaj link nema slike");
+define("_MD_EDITTHISLINK","Uredi ovaj link");
 
-define("_NW_TOPICC","Tema:");
-define("_NW_URL","URL:");
-define("_NW_NOSTORY","Izabrana vijest ne postoji.");
+define("_MD_DESCRIPTIONC","Opis linka: ");
+define("_MD_EMAILC","Email: ");
+define("_MD_CATEGORYC","Kategorija: ");
+define("_MD_LASTUPDATEC","Zadnja aktulizacija: ");
+define("_MD_HITSC","Klikova: ");
+define("_MD_RATINGC","Ocjena: ");
+define("_MD_ONEVOTE","1 ocjena");
+define("_MD_NUMVOTES","%s ocjena");
+define("_MD_RATETHISSITE","Ocjeni ovaj link");
+define("_MD_MODIFY","Promjeni link");
+define("_MD_REPORTBROKEN","Prijavi neispravan link");
+define("_MD_TELLAFRIEND","Javi svome prijatelju");
 
-//%%%%%%	File Name print.php 	%%%%%
+define("_MD_THEREARE","Trenutno imamo <b>%s</b> Linkova u Bazi podataka");
+define("_MD_LATESTLIST","Najnoviji Linkovi");
 
-define("_NW_URLFORSTORY","URL za ovaj vijest je:");
+define("_MD_REQUESTMOD","Zahtjev za promjenu linka");
+define("_MD_LINKID","Link ID: ");
+define("_MD_SITETITLE","Naziv webstranice: ");
+define("_MD_SITEURL","URL od webstranice: ");
+define("_MD_OPTIONS","Opcije: ");
+define("_MD_NOTIFYAPPROVE", "Obavijestite me kada ovaj link bude odobren");
+define("_MD_SHOTIMAGE","Izgled stranice: ");
+define("_MD_SENDREQUEST","Po&scaron;alji zahtjev");
 
-// %s represents your site name
-define("_NW_THISCOMESFROM","Ova vijest je od %s");
+define("_MD_VOTEAPPRE","Tvoja ocjena je veoma va&#382;na.");
+define("_MD_THANKURATE","Hvala ti na podr&scaron;ci na&scaron;e %s webstranice.");
+define("_MD_VOTEFROMYOU","Tvojom ocjenom poma&#382;e&scaron; drugima da br&#382;e se odlu&#269;e koju webstranicu &#382;ele posjetiti.");
+define("_MD_VOTEONCE","Molimo te da ocjenjuje&scaron; jedan te isti link samo jedanput.");
+define("_MD_RATINGSCALE","Skala ocjena je od 1 do 10, 1 je najmanja, dok je 10 najve&#263;a ocjena.");
+define("_MD_BEOBJECTIVE","Molimo te da bude&scaron; objektivan-a u ocjenjivanju, jer kada bi svi ocjenjivali sa samo 1 i 10 onda ocjenjivanje nebi imalo smisla. ");
+define("_MD_DONOTVOTE","Tebi nije dozvoljeno da ocjenuje&scaron; link koji si poslao-la.");
+define("_MD_RATEIT","Ocjeni ovaj link!");
 
-// Added by Hervé
-define("_NW_ATTACHEDFILES","Zaka&#269;eni podaci:");
-define("_NW_ATTACHEDLIB","Ova vijest ima zaka&#269;en podatak");
-define("_NW_NEWSSAMEAUTHORLINK","Vijesti od istog Autora");
-define("_NW_NEWS_NO_TOPICS","Nije Tema izabrana, molimo te da jedanu temu napravi prije nego vijest napi&scaron;e&scaron;.");
-define("_NW_PREVIOUS_ARTICLE","Prethodni vijesti");
-define("_NW_NEXT_ARTICLE","Sljede&#263;i vijesti");
-define("_NW_OTHER_ARTICLES","Ostali vijesti");
+define("_MD_INTRESTLINK","Zanimljiv link ima ovdje na %s");  // %s is your site name
+define("_MD_INTLINKFOUND","Pogledaj interesantan link koji ima ovdje na %s");  // %s is your site name
 
-// Added by Hervé in version 1.3 for rating
-define("_NW_RATETHISNEWS","Ovu vijest ocijeni");
-define("_NW_RATEIT","Ocjeni");
-define("_NW_TOTALRATE","Ukupno ocjena");
-define("_NW_RATINGLTOH","Ocjena(od manje ka ve&#263;oj)");
-define("_NW_RATINGHTOL","Ocjena (od ve&#263;e ka manjoj)");
-define("_NW_RATINGC","Ocjena: ");
-define("_NW_RATINGSCALE","Skala ocjene je od 1 - 10, gdje je 1 lo&scaron;a a 10 najbolja ocjena.");
-define("_NW_BEOBJECTIVE","Molim te budi objektivan(a). Ako bi svi sa 1 ili 10 ocjenjivali, onda ocjenjivanje nebi imalo smisla.");
-define("_NW_DONOTVOTE","Molim te svoje vijesti ne ocjenjuj.");
-define("_NW_RATING","Ocjena");
-define("_NW_VOTE","Glasova");
-define("_NW_NORATING","Ocjena nije izabrana.");
-define("_NW_USERAVG","Prosje&#269;na ocjena");
-define("_NW_DLRATINGS","Nove ocjene (Ukupno glasova: %s)");
-define("_NW_ONEVOTE","1 glas");
-define("_NW_NUMVOTES","%u glasova");		// Warning
-define("_NW_CANTVOTEOWN","Glasanje za ovu vijest nije vi&scaron;e mogu&#263;e.<br />Svi glasovi se registruju i bilje&#382;e.");
-define("_NW_VOTEDELETED","Glasa&#269;ke podatke izbri&scaron;i.");
-define("_NW_VOTEONCE","Molim te samo jednom ovu vijest ocjeni.");
-define("_NW_VOTEAPPRE","Tvoje glasanje je ubrojano.");
-define("_NW_THANKYOU","Hvala na u&#269;e&scaron;&#263;u i glasanju ovde kod %s"); // %s is your site name
-define("_NW_RSSFEED","RSS Feed");	// Warning, this text is included insided an Alt attribut (for a picture), so take care to the quotes
-define("_NW_AUTHOR","Autor");
-define("_NW_META_DESCRIPTION","Meta opis");
-define("_NW_META_KEYWORDS","Meta Klju&#269;ne rije&#269;i");
-define("_NW_MAKEPDF","PDF Dokument napravi");
-define("_MD_POSTEDON","Napisao(la): ");
-define("_NW_AUTHOR_ID","Autorov ID");
-define("_NW_POST_SORRY","Ili Teme nisu definisane, ili ti nije odobreno da nam vijesti &scaron;alje&scaron;.");
+define("_MD_RECEIVED","Primili smo tvoj poslati link, hvala ti!");
+define("_MD_WHENAPPROVED","Link se mora prvo od strane webmastera pregledati, pa &#263;e se tek posle provjere odobriti, svako &#263;emo te obavijestiti.");
+define("_MD_SUBMITONCE","Molimo te da nam &scaron;alje&scaron; jedan te isti link samo jedanputa.");
+define("_MD_ALLPENDING","Sve informacije na ovom linku &#269;ekaju pregled.");
+define("_MD_DONTABUSE","Tvoja IP adresa je zabilje&#382;ena, molimo te da ne zloupotrebljava&scaron; sistem.");
+define("_MD_TAKESHOT","Objevljivanje banera za link mo&#382;e potrajati par dana, sve zavisi od aktivnosti webmastera.");
 
-// Added in v 1.50
-define("_NW_LINKS","Linkovi");
-define("_NW_PAGE","Stranica");
-define("_NW_BOOKMARK_ME","Ovu vijest postavi za &#269;itanje.");
-define('_AM_NEWS_TOTAL',"Ukupno %u vijesti");
-define('_AM_NEWS_WHOS_WHO',"Gdje je ko");
-define('_NW_NEWS_LIST_OF_AUTHORS',"Ovde je lista Autora vijesti, klikni na Nik ime Autora i vidi njegove vijesti koje je dosada poslao(la) ");
-define('_AM_NEWS_TOPICS_DIRECTORY',"Teme-Direktorij");
-define("_NW_PAGE_AUTO_SUMMARY","Stranica %d od %s");
+define("_MD_RANK","Rang");
+define("_MD_CATEGORY","Kategorija");
+define("_MD_HITS","Klikova");
+define("_MD_RATING","Ocjena");
+define("_MD_VOTE","Ocjeni");
+define("_MD_TOP10"," Top 10 od %s"); // %s is a link category title
 
-// Added in version 1.51
-define("_NW_BOOKMARK_TO_BLINKLIST","Bookmark kod Blinklist");
-define("_NW_BOOKMARK_TO_DELICIOUS","Bookmark kod del.icio.us");
-define("_NW_BOOKMARK_TO_DIGG","Bookmark kod Digg");
-define("_NW_BOOKMARK_TO_FARK","Bookmark kod Fark");
-define("_NW_BOOKMARK_TO_FURL","Bookmark bei Furl");
-define("_NW_BOOKMARK_TO_NEWSVINE","Bookmark kod Newsvine");
-define("_NW_BOOKMARK_TO_REDDIT","Bookmark kod Reddit");
-define("_NW_BOOKMARK_TO_SIMPY","Bookmark kod Simpy");
-define("_NW_BOOKMARK_TO_SPURL","Bookmark kod Spurl");
-define("_NW_BOOKMARK_TO_YAHOO","Bookmark kod Yahoo");
+define("_MD_SEARCHRESULTS","Rezultati pretrage za <b>%s</b>:"); // %s is search keywords
+define("_MD_SORTBY","Sortiraj po:");
+define("_MD_TITLE","Naslovu");
+define("_MD_DATE","Datumu");
+define("_MD_POPULARITY","Popularnosti");
+define("_MD_CURSORTEDBY","Aktuelno su linkovi sortirani po: %s");
+define("_MD_PREVIOUS","Nazad");
+define("_MD_NEXT","Naprijed");
+define("_MD_NOMATCH","Nema nikakvih rezultata prona&#273;enih");
 
-// Added in version 1.56
-define('_NW_NOTYETSTORY',"Izvinjajemo se, ali izabrana vijest nije jo&scaron; odobrena za javnu objavu. Molimo te navrati kasnije.Hvala!.");
+define("_MD_SUBMIT","Po&scaron;alji");
+define("_MD_CANCEL","Odustani");
+
+define("_MD_ALREADYREPORTED","Ti si nam ve&#263; prijavio ovaj neispravan link, molimo za strpljenja malo ili kontaktiraj webmastera.");
+define("_MD_MUSTREGFIRST","Izvinjajemo se, tebi nije dozvoljena ova opcija.<br />Molimo te prvo uloguj se ili se registruj!");
+define("_MD_NORATING","Ocjenu nisi izabrao-la.");
+define("_MD_CANTVOTEOWN","Ti svoj poslati link nemo&#382;e&scaron; ocjenjivati, <br />sva ocjenjivanja se bilje&#382;e i provjeravaju.");
+define("_MD_VOTEONCE2","Glasaj samo jedanputa za jedan link, vi&scaron;e ti nije dozvoljeno, <br />sva ocjenjivanja se bilje&#382;e i provjeravaju.");
+
+//%%%%%%	Module Name 'MyLinks' (Admin)	  %%%%%
+
+define("_MD_WEBLINKSCONF","Konfiguracija web linkova");
+define("_MD_GENERALSET","Generalno pode&scaron;avanje");
+define("_MD_ADDMODDELETE","Dodaj, Promjeni, i Izbri&scaron;i Kategorije/Linkove");
+define("_MD_LINKSWAITING","Linkovi koji &#269;ekaju na odobrenje");
+define("_MD_BROKENREPORTS","Neispravni linkovi-Prijave");
+define("_MD_MODREQUESTS","Zahtjevi za izmjene linkova");
+define("_MD_SUBMITTER","Poslao-la: ");
+define("_MD_VISIT","Klikova");
+define("_MD_SHOTMUST","Slika(baner) od linka mora biti u %s direktoriju (npr. shot.gif). Ostavi prazno ako nema slike za link.");
+define("_MD_APPROVE","Prihvatam");
+define("_MD_DELETE","Izbri&scaron;i");
+define("_MD_NOSUBMITTED","Nema poslatih novih linkova.");
+define("_MD_ADDMAIN","Dodaj GLAVNU Kategoriju");
+define("_MD_TITLEC","Naziv: ");
+define("_MD_IMGURL","Slike URL (OPTIONALNO Visina slike se automatski na 50px umanjuje): ");
+define("_MD_ADD","Dodaj");
+define("_MD_ADDSUB","Dodaj POD-Kategoriju");
+define("_MD_IN","u");
+define("_MD_ADDNEWLINK","Dodaj novi Link");
+define("_MD_MODCAT","Promjeni Kategoriju");
+define("_MD_MODLINK","Promjeni Link");
+define("_MD_TOTALVOTES","Link ocjene (ukupno ocjena do sada: %s)");
+define("_MD_USERTOTALVOTES","Ocjene od registrovanih &#269;lanova (ukupno ocjena do sada: %s)");
+define("_MD_ANONTOTALVOTES","Ocjene od gostiju (ukupno ocjena do sada: %s)");
+define("_MD_USER","&#268;lan");
+define("_MD_IP","IP Adresa");
+define("_MD_USERAVG","&#268;lan AVG ocjena");
+define("_MD_TOTALRATE","Ukupno ocjena");
+define("_MD_NOREGVOTES","Nemogu registrovani ocjenjivati");
+define("_MD_NOUNREGVOTES","Nemogu gosti ocjenjivati");
+define("_MD_VOTEDELETED","Ocjene su izbrisane.");
+define("_MD_NOBROKEN","Nema prijava za neispravne linkove.");
+define("_MD_IGNOREDESC","Ignori&scaron;i (Ignori&scaron;i prijavu i izbri&scaron;i <b>prijavu za neispravan link</b>)");
+define("_MD_DELETEDESC","Izbri&scaron;i (Izbri&scaron;i <b>prijavljene podatke webstranice</b> i <b>prijavu za neispravan link</b> od navedenog linka.)");
+define("_MD_REPORTER","Prijavu poslao-la");
+define("_MD_LINKSUBMITTER","Link poslao-la");
+define("_MD_IGNORE","Ignori&scaron;i");
+define("_MD_LINKDELETED","Link je izbrisan.");
+define("_MD_BROKENDELETED","Prijava za neispravan link je izbrisana.");
+define("_MD_USERMODREQ","Zahtjevi za promjenu linkova koji je poslat");
+define("_MD_ORIGINAL","Originalni");
+define("_MD_PROPOSED","Predlog");
+define("_MD_OWNER","Vlasnik: ");
+define("_MD_NOMODREQ","Nema zahtjeva za promjene linkova.");
+define("_MD_DBUPDATED","Baza podataka je aktulizirana!");
+define("_MD_MODREQDELETED","Zahtjev za izmjenu linka je izbrisan.");
+define("_MD_IMGURLMAIN","Slike URL (OPTIONALNO i validno samo za glavnu kategoriju. Visina slike se automatski umanjuje na 50px): ");
+define("_MD_PARENT","Glavna kategorija:");
+define("_MD_SAVE","Zapamti izmjene");
+define("_MD_CATDELETED","Kategorija je izbrisana.");
+define("_MD_WARNING","UPOZORENJE: Jesi li siguran-a da ovu kategoriju trebqa izbrisati i SVE u njoj linkove sa komentarima?");
+define("_MD_YES","Da");
+define("_MD_NO","Ne");
+define("_MD_NEWCATADDED","Nova kategorija je napravljena i dodata!");
+define("_MD_ERROREXIST","GRE&Scaron;KA: Ovaj link ve&#263; postoji u Bazi podataka!");
+define("_MD_ERRORTITLE","GRE&Scaron;KA: Nisi upisao-la NASLOV!");
+define("_MD_ERRORDESC","GRE&Scaron;KA: Nisi upisao-la OPIS!");
+define("_MD_NEWLINKADDED","Novi link je dodat u Bazu podataka.");
+define("_MD_YOURLINK","Link tvoje webstranice je %s");
+define("_MD_YOUCANBROWSE","Vidi svoj weblink na %s");
+define("_MD_HELLO","Halo %s");
+define("_MD_WEAPPROVED","Odobren je tvoj link i sada je u sekciji linkova na na&scaron;oj webstranici.");
+define("_MD_THANKSSUBMIT","Hvala ti na slanju svog linka!");
+define("_MD_ISAPPROVED","Odobren je tvoj link!");
+
+define('_MYLINKS_SECURITY_CODE','Sigurnosni code');
+define("_MYLINKS_SECURITY_GETCODE","Upi&scaron;i sigurnosni code koje vidi&scaron;");
+define("_MYLINKS_SECURITY_ERROR","Pogre&scaron;no je upisan code!");
 ?>

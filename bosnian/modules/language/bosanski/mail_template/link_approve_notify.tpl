@@ -1,16 +1,13 @@
 Halo {X_UNAME},
 
-Nova link kategorija "{CATEGORY_NAME}" je kreirana na {X_SITENAME}.
+Poslati link "{LINK_NAME}" je odobren na {X_SITENAME}.
 
-Ovdje je link kategorije:
-{CATEGORY_URL}
-
-Slijedi ovaj link od index kategorije:
-{X_MODULE_URL}
+Link mozes vidjeti ovdje:
+{LINK_URL}
 
 -----------
 
-Primas ovu obavijest jer si trazio-la da te obavijestimo ako ima novih link kategorija.
+Primas ovu obavijest jer si trazio-la da te obavijestimo ako je ovaj link odobren.
 
 Ako smatras da je greska i da ne zelis vise ovakve obavijest primati onda idi ovdje i izmjeni zahtjev za obavijesti:
 {X_UNSUBSCRIBE_URL}
