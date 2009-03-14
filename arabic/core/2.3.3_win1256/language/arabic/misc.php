@@ -1,0 +1,29 @@
+<?php
+// $Id$
+// _LANGCODE: ar
+// _CHARSET : windows-1256
+// Translator: Arab XOOPS Team
+
+define("_MSC_YOURNAMEC","ÅÓãß : ");
+define("_MSC_YOUREMAILC","ÈÑíÏß : ");
+define("_MSC_FRIENDNAMEC","ÅÓã ÕÏíÞß : ");
+define("_MSC_FRIENDEMAILC","ÈÑíÏ ÕÏíÞß : ");
+define("_MSC_RECOMMENDSITE","ÃÎÈÑ ÕÏíÞß Úä ÇáãæÞÚ");
+// %s is your site name
+define("_MSC_INTSITE","ãæÞÚ ããíÒ : %s");
+define("_MSC_REFERENCESENT","ÔßÑÇ áß áÞÏ Êã ÇÑÓÇá ÇáÈÑíÏ ÈäÌÇÍ");
+define("_MSC_ENTERYNAME","íÑÌì ÇÏÎÇá ÇáÅÓã");
+define("_MSC_ENTERFNAME","íÑÌì ÇÏÎÇá ÇÓã ÕÏíÞß");
+define("_MSC_ENTERFMAIL","íÑÌì ÇÏÎÇá ÈÑíÏ ÕÏíÞß");
+define("_MSC_NEEDINFO","íÌÈ ãáÃ ÇáÍÞæá ÇáãØáæÈÉ");
+define("_MSC_INVALIDEMAIL1","ÇáÈÑíÏ ÇáÐí ÐßÑÊå ÛíÑ ÕÍíÍ");
+define("_MSC_INVALIDEMAIL2","íÑÌì ÇáÊÃßÏ ãä ÇáÈÑíÏ ãÑå ÃÎÑì");
+
+define("_MSC_AVAVATARS","ÔÎÕíÇÊ ÇáãÌáÉ ÇáãÊÇÍå");
+
+define("_MSC_SMILIES","ÇáæÌæå ÇáÊÚÈíÑíÉ");
+define("_MSC_CLICKASMILIE","ÅÖÛØ Úáì ÇáæÌå áÊÍæíáå Çáì ÇáãæÖæÚ");
+define("_MSC_CODE","ÔÝÑå");
+define("_MSC_EMOTION","ÇáÅäÝÚÇá");
+
+?>
