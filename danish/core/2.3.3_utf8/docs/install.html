@@ -1,0 +1,147 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+    <title>XOOPS Installations guide</title>
+    <meta name="keywords" content="XOOPS" />
+    <meta name="description" content="XOOPS installation guide" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style type="text/css">
+        body {
+            font-family:                        Lucida Grande, Verdana, Geneva, Sans-serif;
+            margin:                             0;
+            padding:                            0;
+            font-size:                          13px;
+            color:                              #333;
+            background-color:                   #fff;
+        }
+
+        a {
+            color:                              #3D9DD3;
+            background-color:                   transparent;
+            text-decoration:                    none;
+            font-weight:                        normal;
+        }
+
+        a:visited {
+            color:                              #3D9DD3;
+            background-color:                   transparent;
+            text-decoration:                    none;
+        }
+
+        a:hover {
+            color:                              #3D9DD3;
+            text-decoration:                    none;
+            background-color:                   transparent;
+        }
+
+        .page {
+            background-color:                   #fff;
+            margin:                             10px 30px 0;
+            padding:                            0;
+        }
+
+        .page h1 {
+            background-color:                   transparent;
+            border-bottom:                      1px solid #999;
+            color:                              #000;
+            font-size:                          18px;
+            font-weight:                        bold;
+            margin:                             28px 0 16px 0;
+            padding:                            5px 0 6px 0;
+        }
+
+        .page h2 {
+            background-color:                   transparent;
+            color:                              #000;
+            font-size:                          16px;
+            font-weight:                        bold;
+            margin:                             28px 0 16px 0;
+            padding:                            5px 0 6px 0;
+        }
+
+        .page h3 {
+            background-color:                   transparent;
+            color:                              #000;
+            font-size:                          14px;
+            font-weight:                        bold;
+        }
+
+        .page ul {
+            margin:                             20px 0 15px 0;
+        }
+
+        .page li {
+            margin-bottom:                      9px;
+        }
+
+        .page li p {
+            margin-left:                        0;
+            margin-right:                       0;
+        }
+
+        p {    }
+
+    </style>
+</head>
+<body>
+
+<div class="page">
+<h1>Installering af XOOPS</h1>
+
+<h2>Første gangs installation</h2>
+<h3>Forord:</h3>
+<p>
+    <acronym title="eXtensible Object-Oriented Portal System">XOOPS</acronym> er et open-source objektorienteret Webudgivelse system skrevet i PHP. Det 
+er et ideelt redskab til at udvikle alt fra små til store dynamiske websteder, 
+interne selskabsportaler, virksomheders hjemmesider, weblogs og meget mere..
+</p>
+
+<p>
+    XOOPS er udgivet under betingelserne i 
+    <a href="http://www.gnu.org/copyleft/gpl.html" target="_blank">GNU General Public License (GPL)</a>
+    og er gratis at bruge og modificere. Det er gratis at distribuerer, så længe du overholder betingelserne i GPL.
+</p>
+
+<h2>Krav</h2>
+<ul>
+    <li>WWW Server (<a href="http://www.apache.org/" target="_blank">Apache</a>, IIS, Roxen, etc)</li>
+    <li><a href="http://www.php.net/" target="_blank">PHP</a> 4.3.0 or higher (5.2 or higher recommended)</li>
+    <li><a href="http://www.mysql.com/" target="_blank">MySQL</a> 3.23 or higher (4.1 or higher recommended)</li>
+</ul>
+
+<h2>Før du begynder installationen, skal du gøre følgende:</h2>
+<ol>
+    <li>Sikre at du har en fungerende WWW server med PHP og en database server.</li>
+    <li>Forbered en database til din XOOPS side.</li>
+    <li>Forbered database bruger og tildel denne rettigheder til databasen.</li>
+    <li>Gør mappen <em>/uploads/</em> og filen <em>mainfile.php</em> skrivbar</li>
+    <li>Hvis du vil installerer protector <em>protector</em> modulet: erstat filen <em>mainfile.dist.php</em> i XOOP rod mappen med <em>/extras/mainfile.dist.php.protector</em>.</li>
+    <li>Af sikkerhedsmæssige årsager anbefales det at flytte de to mapper <em>/xoops_lib/</em> (til XOOPS libraries) og <em>/xoops_data/</em> (til XOOPS data) ud af <a href="http://phpsec.org/projects/guide/3.html" target="_blank">document root</a> og ændre mappenavnene.</li>
+    <li>Gør mappen <em>/xoops_data/</em> skrivbar; Opret følgende mapper (hvis de ikke allerede findes) og gør dem skrivbare <em>/xoops_data/configs/</em>, <em>/xoops_data/caches/</em>, <em>/xoops_data/caches/xoops_cache/</em>, <em>/xoops_data/caches/smarty_cache/</em> og <em>/xoops_data/caches/smarty_compile/</em></li>
+    <li>Slå cookie og JavaScript til i din browser.</li>
+</ol>
+
+
+<h2>Lokal installation</h2>
+<p>Hvis du installerer lokalt på en maskine for udvikling og test, skal ovenstående 
+følges.  Når dette er gjort, kan du kopierer indholdet af htdocs mappen (fra XOOPS 
+downloadet eller SVN) til rod-mappen. Når filerne er kopieret, kan du starte 
+installationen ved at indtaste "http://dinside". 
+Dette vil starte installationsprocessen.</p>
+
+
+<h2>Installation hos en udbyder</h2>
+<p>Hvis du installerer hos en udbyder, skal du 
+pakke XOOPS filen ud lokalt eller på serveren, hvis udbyderen tillader det. Når 
+du har gjort det, skal du kopierer filerne i htdocs mappen til rodmappen hos din 
+udbyder (din udbyder fortæller dig oftest hvor denne mappe er.). Når filerne er 
+kopieret, kan du starte installationen ved at indtaste "http://dinside". 
+Dette vil starte installationsprocessen.</p>
+
+
+<h2>Fortsættelse af installationen</h2>
+<p>Bare følg installationsvejledningen trin for trin.</p>
+
+</div>
+</body>
+</html>
