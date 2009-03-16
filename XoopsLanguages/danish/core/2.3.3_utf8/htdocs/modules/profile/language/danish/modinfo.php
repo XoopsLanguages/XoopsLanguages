@@ -49,6 +49,6 @@ define("_PROFILE_MI_CATEGORY_MESSAGING", "Meddelelser");
 define("_PROFILE_MI_CATEGORY_SETTINGS", "Indstillinger");
 define("_PROFILE_MI_CATEGORY_COMMUNITY", "Community");
 
-define("_PROFILE_MI_NEVER_LOGED_IN", "Aldrig logget ind");
+define("_PROFILE_MI_NEVER_LOGGED_IN", "Aldrig logget ind");
 
 ?>
