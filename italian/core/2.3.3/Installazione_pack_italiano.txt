@@ -1,0 +1,17 @@
+*******************************************************
+INSTALLAZIONE PACCHETTO LINGUA ITALIANA IN XOOPS 2.3.1
+*******************************************************
+
+- Aprire l'archivio .zip e scompattare la cartella contenuta sul desktop del vostro pc
+- Copiare TUTTO il contenuto della cartella 'htdocs' dentro la root (directory principale) del vostro Xoops
+	(Su Windows premere 'SI tutte' se compare l'avviso di cartella già presente
+	permettendo la sincronizzaizone delle cartelle gia esistenti)
+- Aggiornare il modulo System e nel caso svuotare la cache temi
+
+* Se si tratta di un aggiornamento copiare TUTTO il contenuto della cartella 'upgrade' dentro la corrispondente
+cartella che dovrebbe essere nella vostra root (dovrete GIA' aver copiato nella root i file necessari per la nuova versione)
+
+Buon Xoopsing
+
+********************************************************
+Lo staff di Xoops Italia [www.xoopsitalia.org]
