@@ -174,9 +174,9 @@ define( "USER_LOGIN", "Account amministratore" );
 define( "USERNAME", "Nome utente :");
 define( "PASSWORD", "Password :");
     
-    define( "ICONV_CONVERSION", "Character set conversion");
-    define( "ZLIB_COMPRESSION", "Zlib Compression");
-    define( "IMAGE_FUNCTIONS", "Image functions");
+define( "ICONV_CONVERSION", "Conversione set di caratteri (character set)");
+define( "ZLIB_COMPRESSION", "Compressione Zlib");
+define( "IMAGE_FUNCTIONS", "Funzioni immagine");
     define( "IMAGE_METAS", "Image meta data (exif)");
     
 define( "ADMIN_EXIST", "Account amministratore gi&agrave; esistente.<br />Premere <strong>avanti</strong> per andare al passaggio successivo.");
@@ -188,9 +188,9 @@ define( "MODULES_TITLE", "Installazione moduli" );
 define( "THEME", "Selezione tema" );
 define( "THEME_TITLE", "Selezione tema predefinito" );
     
-    define( "INSTALLED_MODULES", "The following modules have been installed.<br />Premere <strong>avanti</strong> per andare al passaggio successivo.");
-    define( "NO_MODULES_FOUND", "No modules found.<br />Premere <strong>avanti</strong> per andare al passaggio successivo.");
-    define( "NO_INSTALLED_MODULES", "No module installed.<br />Premere <strong>avanti</strong> per andare al passaggio successivo.");
+define( "INSTALLED_MODULES", "Sono stati installati i seguenti moduli.<br />Premere <strong>avanti</strong> per andare al passaggio successivo.");
+define( "NO_MODULES_FOUND", "Non &egrave; stato trovato nessun modulo.<br />Premere <strong>avanti</strong> per andare al passaggio successivo.");
+define( "NO_INSTALLED_MODULES", "Non &egrave; stato installato nessun modulo.<br />Premere <strong>avanti</strong> per andare al passaggio successivo.");
     
 define( "THEME_NO_SCREENSHOT", "Anteprima non presente");
     
