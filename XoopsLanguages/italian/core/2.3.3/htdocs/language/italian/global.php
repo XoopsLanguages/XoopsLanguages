@@ -133,7 +133,7 @@ define("_STARTSWITH", "Inizia con");
 define("_ENDSWITH", "Termina con");
 define("_MATCHES", "Coincide con");
 define("_CONTAINS", "Contiene");
-    define("_REQUIRED", "Required");
+define("_REQUIRED", "Necessario");
 
 //%%%%%%	File Name commentform.php 	%%%%%
 define("_REGISTER","Registrati");
