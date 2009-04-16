@@ -22,7 +22,7 @@ tinyMCE.addI18n('it.xoopsimagemanager_dlg',{
     misc:"Impostazioni varie",
     example_img:"Anteprima aspetto immagine",
     missing_alt:"Sicuro di continuare senza includere una descrizione dell'immagine? Senza di essa l'immagine pu\u00F2 non essere accessibile ad alcuni utenti con disabilit\u00E0, o per coloro che usano un browser testuale oppure che hanno disabilitato la visualizzazione delle immagini nel loro browser.",
-    dialog_title:"Inserisci/modifica immagine",
+    dialog_title:"Inserisci/modifica immagine Xoops",
     src:"URL immagine",
     alt:"Descrizione immagine",
     list:"Lista immagini",
@@ -39,10 +39,14 @@ tinyMCE.addI18n('it.xoopsimagemanager_dlg',{
     align_textbottom:"In basso al testo",
     align_left:"A sinistra",
     align_right:"A destra",
-    image_list:"Lista immagini",
-    tab_listcategories:"Categorie",
+    image_list:"Lista immagini"
+});
+
+tinyMCE.addI18n('it.xoopsimagebrowser_dlg',{
+    dialog_title:"Inserisci/gestisci immagini Xoops",
     tab_listimages:"Immagini",
-        tab_loadimage:"Add image",
-        tab_createcategory:"Add category",
-        select_image: "click on a image to select."
+    tab_loadimage:"Aggiungi immagini",
+    tab_listcategories:"Categorie",
+    tab_createcategory:"Aggiungi categoria",
+    select_image: "seleziona immagine"
 });
