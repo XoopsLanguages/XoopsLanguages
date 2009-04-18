@@ -1,4 +1,4 @@
-tinyMCE.addI18n('it.emotions_dlg',{
+﻿tinyMCE.addI18n('it.emotions_dlg',{
 title:"Inserisci faccina",
 desc:"Faccina",
 cool:"Fico",

@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 // -------------------------------------------------------------------------------- //
 // Translated by Ianez - Xoops Italia Staff
 // Published by Xoops Italian Official Support Site - www.xoopsitalia.org
@@ -15,7 +15,7 @@ define('_BANNERS_ID',"ID Banner:");
 define('_BANNERS_TITLE',"Banner attualmente attivi per %s");
 define('_BANNERS_URL',"Modifica URL:");
 
-define('_BANNERS_FOW_IN',"Questi sono i banner in funzione su qesto sito ");
+define('_BANNERS_FOW_IN',"Questi sono i banner in funzione su questo sito ");
 define('_BANNERS_IMP_MADE',"Imp. Fatte");
 define('_BANNERS_IMP_TOTAL',"Imp. Totali");
 define('_BANNERS_IMP_LEFT',"Imp. Lasciate");

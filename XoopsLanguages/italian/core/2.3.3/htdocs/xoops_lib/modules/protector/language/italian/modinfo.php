@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 
 //Italian translation: Defkon1 - defkon1(at)gmail(dot)com - www.xoopsitalia.org
 
@@ -24,9 +24,6 @@ define($constpref.'_ADMENU_MYBLOCKSADMIN','Permessi') ;
 // Configs
 define($constpref.'_GLOBAL_DISBL','Temporaneamente disabilitato');
 define($constpref.'_GLOBAL_DISBLDSC','Tutte le protezioni sono disabilitate temporaneamente.<br />Non dimenticare di impostare su No, dopo aver risolto il problema');
-
-    define($constpref.'_DEFAULT_LANG','Default language');
-    define($constpref.'_DEFAULT_LANGDSC','Specify the language set to display messages before processing common.php');
 
 define($constpref.'_RELIABLE_IPS','IP affidabili');
 define($constpref.'_RELIABLE_IPSDSC','Imposta gli IP affidabili separandoli con | . ^ abbina la testa della stringa, $ abbina la coda della stringa.');
@@ -64,9 +61,6 @@ define($constpref.'_FILE_DOTDOTDSC','Elimina dai percorsi il ".." da tutte le ri
 
 define($constpref.'_BF_COUNT','Anti Forza Bruta');
 define($constpref.'_BF_COUNTDSC','Conteggia il numero di tentativi di login di un utente anonimo in 10 minuti. Se il login fallisce pi&&ugrave; volte di quanto specificato qui, il suo IP viene espulso (Ban).');
-
-    define($constpref.'_BWLIMIT_COUNT','Bandwidth limitation');
-    define($constpref.'_BWLIMIT_COUNTDSC','Specify the max access to mainfile.php during watching time. This value should be 0 for normal environments which have enough CPU bandwidth. The number fewer than 10 will be ignored.');
 
 define($constpref.'_DOS_SKIPMODS','Moduli esclusi dal controllo DoS/Crawler');
 define($constpref.'_DOS_SKIPMODSDSC','Impostare i nomi delle cartelle dei moduli separate da |. Questa opzione &egrave; utile sui moduli chat, ecc...');

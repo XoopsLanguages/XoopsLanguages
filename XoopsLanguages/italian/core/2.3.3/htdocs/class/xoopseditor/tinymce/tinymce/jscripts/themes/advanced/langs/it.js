@@ -1,4 +1,4 @@
-tinyMCE.addI18n('it.advanced',{
+﻿tinyMCE.addI18n('it.advanced',{
 style_select:"Stili",
 font_size:"Dimensione",
 fontdefault:"Carattere",

@@ -1,4 +1,4 @@
-tinyMCE.addI18n('it.searchreplace_dlg',{
+﻿tinyMCE.addI18n('it.searchreplace_dlg',{
 searchnext_desc:"Trova successivo",
 notfound:"Ricerca completata. Nessun risultato trovato.",
 search_title:"Trova",

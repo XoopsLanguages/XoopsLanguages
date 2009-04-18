@@ -1,0 +1,3 @@
+For those who use altsys module from GIJOE, replace /xoops_trust_path/libs/altsys/include/altsys_functions.php with the file altsys_functions.php in this directory.
+
+Per coloro che utilizzano il modulo Altsys di GIJOE, sostituire /xoops_trust_path/libs/altsys/include/altsys_functions.php con il file altsys_functions.php in questa directory.

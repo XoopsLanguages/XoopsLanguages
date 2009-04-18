@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 // -------------------------------------------------------------------------------- //
 // Translated by Ianez & Xoops Italia Staff
 // Xoops Italian Official Support Site - www.xoopsitalia.org
@@ -25,15 +25,11 @@ $content .= '
 	<li>Impostare correttamente il Web Server, PHP e il database.</li>
 	<li>Creare o verficare di avere un database per il vostro sito XOOPS.</li>
 	<li>Creare un account utente per il database o tenere pronte le credenziali di accesso fornite dal vostro hosting.</li>
-    <li>Rendere scrivibili sul server (CHMOD 777) le directory (e relative sotto directory) e il file: %s</li>
-    <li>Se si desidera installare il modulo <em>Protector</em> di GIJOE: <div class="confirmMsg">Sostituire il file <em>mainfile.dist.php</em> con <em>/extras/mainfile.dist.php.protector</em><br />(ricordarsi di rinominare il file: <em>mainfile.dist.php</em>).</div></li>
-    <li>Per maggiore sicurezza si consiglia di spostare (e/o in alternativa cambiare il nome) le directory qui sotto al di fuori della <a href="http://phpsec.org/projects/guide/3.html" rel="external">directory di root</a>: %s</li>
-    <li>Creare (se non presenti) e rendere scrivibile sul server (CHMOD 777) le directory: %s</li>
-
-
-
+    	<li>Rendere scrivibili sul server (CHMOD 777) le directory (e relative sotto directory) e il file: %s</li>
+    	<li>Se si desidera installare il modulo <em>Protector</em> di GIJOE: <div class="confirmMsg">Sostituire il file <em>mainfile.dist.php</em> con <em>/extras/mainfile.dist.php.protector</em><br />(ricordarsi di rinominare il file: <em>mainfile.dist.php</em>).</div></li>
+    	<li>Per maggiore sicurezza si consiglia di spostare (e/o in alternativa cambiare il nome) le directory qui sotto al di fuori della <a href="http://phpsec.org/projects/guide/3.html" rel="external">directory di root</a>: %s</li>
+    	<li>Creare (se non presenti) e rendere scrivibile sul server (CHMOD 777) le directory: %s</li>
 	<li>Permettere cookie e JavaScript sul vostro browser di navigazione.</li>
 </ol>
 ';
-
 ?>

@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 // $Id: admin.php 2752 2009-02-02 13:48:42Z phppp $
 // _LANGCODE: it
 // _CHARSET : UTF-8

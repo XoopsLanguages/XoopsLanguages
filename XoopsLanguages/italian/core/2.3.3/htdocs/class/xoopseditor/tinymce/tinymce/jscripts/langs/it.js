@@ -1,4 +1,4 @@
-tinyMCE.addI18n({it:{
+﻿tinyMCE.addI18n({it:{
 common:{
 edit_confirm:"Usare la modalit\u00E0 WYSIWYG per questa textarea?",
 apply:"Applica",

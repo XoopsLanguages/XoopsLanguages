@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 // $Id: finish.php 2055 2008-09-05 06:26:48Z phppp $
 $content .=
 "<h3>Il tuo sito</h3>
@@ -8,14 +8,22 @@ $content .=
 <p><a href='http://www.xoopsitalia.org/' rel='external'>Xoops Italia</a> (Comunit&agrave; italiana ufficiale)</p>
 ";
 
-    $content .=
-"<h3>Security configuration</h3>
-<p>The installer will try to configure your site for security considerations. Please double check to make sure:
+$content .=
+
+"<h3>Configurazione di sicurezza</h3>
+
+<p>Il programma di installazione cercherà di configurare il tuo sito per ragioni di sicurezza. Si prega di controllare per assicurarsi che:
+
 <div class='confirmMsg'>
-The <em>mainfile.php</em> is readonly.<br />
-Remove the folder <em>{$installer_modified}</em> (or <em>install</em> if it was not renamed automatically by the installer)  from your server.
+Il file  <em>mainfile.php</em> è di sola lettura.<br />
+
+Rimuovi la cartella <em>{$installer_modified}</em> (oppure <em>install</em> se non rinominata manualmente in fase di installazione) dal tuo server.
+
 </div>
+
 </p>
+
 ";
+
 
 ?>

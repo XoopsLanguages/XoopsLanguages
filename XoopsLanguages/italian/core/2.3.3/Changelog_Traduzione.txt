@@ -1,11 +1,72 @@
 *********************************************************************************
-************* CHANGELOG TRADUZIONE per CORE XOOPS ***************************
+************* CHANGELOG TRADUZIONE per CORE XOOPS 2.3.3 *************************
 ---------------------------------------------------------------------------------
--- Creazione: 20/12/2007----------------------------------- by Xoops Italia -----
+-- Creazione: 16/04/2009----------------------------------- by Xoops Italia -----
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 
+2.3.3 Lang_pack_ITA
+===================
 
+Integrazioni e modifiche al precedente language pack relativo alla 2.3.1
+------------------------------------------------------------------------
+
+Aggiunti e tradotti i seguenti file:
+  /language/italian/backend.php [Lucio Rota]
+  /language/italian/style.css [Lucio Rota]
+  /themes/zetagenesis/language/italian/ [Energiko]
+  /themes/zetagenesis/language/italian/main.php [Energiko]
+  /themes/zetagenesis/language/italian/script.js [Energiko]
+  /themes/zetagenesis/language/italian/style.css [Energiko]
+  /upgrade/language/italian/style.css [Lucio Rota]
+  /install/language/italian/support.php [Lucio Rota]
+  /install/language/italian/support.png [Lucio Rota]
+  /extras/altsys_functions.txt [Gordon]
+  /extras/mainfile.dist.php.txt [Gordon]
+
+Modificati e tradotti i seguenti file:
+  /install/language/italian/install.php [Energiko]
+  /install/language/italian/welcome.php [Lucio Rota]
+  /install/language/italian/finish.php [Energiko]
+
+
+Aggiunte e tradotte le seguenti definizioni nei relativi file:
+  /language/italian/global.php: "_REQUIRED" 
+  /language/italian/admin.php: 	"_AD_WARNINGINSTALL", 
+				"_AD_WARNINGWRITEABLE", 
+				"_AD_WARNINGNOTWRITEABLE"  
+				"_AD_WARNINGXOOPSLIBINSIDE" 
+  
+  /language/italian/user.php:	'_US_ACTFAILD'
+  
+  /modules/system/language/italian/admin/preferences.php: "_MD_AM_MODULEPREF" 
+  
+  /modules/profile/language/italian/modinfo.php: "_PROFILE_MI_NEVER_LOGED_IN" 
+  
+  /modules/profile/language/italian/main.php:	"_PROFILE_MA_ACTUS"  
+						"_PROFILE_MA_FOUNDUSER" 
+
+
+Aggiunti in htdocs/class/xoopseditor/tinymce/tinymce/jscripts/plugins, a cura di Energiko i seguenti plugin:
+autosave; bbcode; compat2x; contextmenu; directionality; fullscreen; iespell; inlinepopups; insertdatetime; layer;
+nonbreaking; noneditable; pagebreak; preview; print; safari; save; spellchecker; visualchars; xoopscode; xoopsquote
+
+
+Aggiornamento delle Note di Rilascio alla versione 2.3.3: Gordon [Traduzione originale delle Note di Rilascio 2.3.1: Defkon1]
+
+Conversione codifica files in UTF8: Gordon
+
+Eliminata la cartella relativa alla localizzazione del modulo THADMIN, contanuta in:
+/htdocs/modules/thadmin (il modulo è stato tolto dalla versione base del core).
+
+NOTE: Tutto quanto non contemplato in queste modifiche è stato prelevato dalla precedente traduzione della versione 2.3.1 ed integrato
+perchè compatibile. Pertanto restano invariati i crediti relativi al lavoro svolto da: Defkon/Urban/Ianez/Lucio Rota/Ottagon 
+e tutti coloro che anche in minima parte hanno partecipato e ci hanno permesso di avere una "base" su cui lavorare.
+Ed a loro va il nostro ringraziamento!
+
+
+*********************************************************************************
+*********************************************************************************
 
 * 2.3* (Unificazione rami 2.0.x e 2.2.x)
 -----------------------------------------

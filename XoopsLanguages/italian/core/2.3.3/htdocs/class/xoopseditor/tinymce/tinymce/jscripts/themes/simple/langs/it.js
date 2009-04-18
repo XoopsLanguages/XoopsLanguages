@@ -1,4 +1,4 @@
-tinyMCE.addI18n('it.simple',{
+﻿tinyMCE.addI18n('it.simple',{
 bold_desc:"Grassetto (Ctrl+B)",
 italic_desc:"Corsivo (Ctrl+I)",
 underline_desc:"Sottolineato (Ctrl+U)",

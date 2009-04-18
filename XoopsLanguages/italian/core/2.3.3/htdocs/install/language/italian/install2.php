@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 // -------------------------------------------------------------------------------- //
 // Translated by Ianez & Xoops Italia Staff
 // Xoops Italian Official Support Site - www.xoopsitalia.org
