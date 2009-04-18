@@ -1,0 +1,158 @@
+Il Team di Sviluppo di XOOPS è lieto di annunciare il rilascio di XOOPS 2.3.3 Final. 
+
+Questa versione include molte correzioni e miglioramenti con l'esperienza degli utenti, fatti dal Team di Sviluppo di XOOPS e dalla community XOOPS. 
+Alcune delle aree: 
+- Profilo e pm moduli migliorata da dhcst 
+- Installazione migliorata da dugris e Marco, ecc 
+- Tema migliorata mamba, aph3x, Kris e burning
+- Tinymce editor migliorato da dugris e luciorota 
+- Classe Snoopy aggiornato da julionc 
+- Smarty aggiornato da dhcst 
+- Bug tracker gestito da marco 
+
+
+Scaricabile da:
+[url=https://sourceforge.net/project/showfiles.php?package_id=153583&release_id=667574&group_id=41586]Sourceforge repository[/url].
+
+
+Requisiti di sistema 
+----------------------------------- 
+PHP: 
+Qualsiasi versione di PHP> = 4.3 (PHP 4.2.x potrebbe funzionare, ma non è ufficialmente supportato, PHP 5.0 + è fortemente raccomandato) 
+
+MySQL: 
+Server MySQL + 3,23 (5,0 + MySQL è fortemente raccomandato) 
+
+Web server: 
+Qualsiasi server che supporti la versione PHP richiesta (Apache è fortemente raccomandato)
+
+
+Scaricare XOOPS 
+----------------------------------- 
+E' possibile scaricare questa versione del pacchetto dai repository sourceforge.net. 
+Sono disponibili sia l'archivio .zip che il .gz.
+
+Installazione di XOOPS 
+----------------------------------- 
+    1. Copiare il contenuto della cartella htdocs/ in una cartella pubblica del web server
+    2. Assicurarsi che il file mainfile.php e la cartella uploads/ siano scrivibili (CHMOD 777)
+    3. Per ragioni di sicurezza, si consiglia di spostare le cartelle "/ xoops_lib" (con le librerie XOOPS) e "/ xoops_data" (con i dati di XOOPS) fuori dalla document root, o in alternativa cambiare i nomi delle cartelle. 
+    4. Assicurarsi che la directory /xoops_data sia scrivibile; Creare le cartelle xoops_data/caches/, xoops_data/caches/xoops_cache/, xoops_data/caches/smarty_cache/ e xoops_data/caches/smarty_compile/, e renderle scrivibili.
+    5. Accedere alla cartella dove avete copiato i file con il vostro browser per lanciare la procedura di installazione guidata.
+
+Installazione Protector nel XOOPS 
+----------------------------------- 
+Si raccomanda l'installazione del modulo PROTECTOR per fornire protezione aggiuntiva e capacità di log al vostro sito:
+Per installare il modulo Protector su una nuova installazione di XOOPS, eliminare il mainfile.dist.php disponibile nella root di xoops e copiate /extra/mainfile.dist.php.protector in /htdocs/mainfile.dist.php e rinominarlo in mainfile.dist.php PRIMA di installare XOOPS.
+Per installare il modulo di protezione, con l'aggiornamento da una versione precedente di XOOPS 2.3.1, eliminare il mainfile.dist.php disponibile nella root di xoops, copiate /extras/mainfile.dist.php.protector in /upgrade/upd-2.0.18-to-2.3.0/mainfile.dist.php e rinominarlo in mainfile.dist.php PRIMA di aggiornare XOOPS.
+
+
+Aggiornamento da una versione precedente 
+----------------------------------- 
+Aggiornamento da XOOPS 2.3.1 o 2.3.2 (metodo facile) 
+
+1. Scaricare il package di aggiornamento dal repository Sourceforge
+2. Sovrascrivere i file esistenti con quelli contenuti nel pack scaricato
+3. Spostare la cartella "upgrade" dentro la cartella "htdocs" (mantenuta fuori in quanto non necessaria nelle installazioni complete).
+4. Accedere alla cartella /upgrade/ con il browser, e seguite le istruzioni.
+5. Seguire le istruzioni per aggiornare il vostro database
+6. Eliminare la cartella “upgrade” dal server
+7. Aggiornate il modulo System dall'Amministrazione moduli, gli altri moduli, in particolare si raccomanda anche l'aggiornamento del modulo Profile.
+
+
+Aggiornamento da XOOPS 2.0.* a 2.0.14, e 2.2.* (utilizzando il pacchetto completo) 
+
+1. Spostare la cartella /upgrade all'interno della cartella /htdocs (mantenuta fuori in quanto non necessaria nelle installazioni complete) utilizzando una cartella temporanea locale.
+2. Eliminare il file htdocs/mainfile.php, e le cartelle: htdocs/install /, htdocs/cache/, htdocs/extras/, htdocs/template_c/, htdocs/themes e /htdocs/uploads/ dalla directory /htdocs nella vostra cartella temporanea locale.
+3. Caricare il contenuto della cartella htdocs sulla cartella pubblica del vostro server, sovrascrivendo i precedenti file se necessario.
+4. Per ragioni di sicurezza, si consiglia di spostare le cartelle /xoops_lib (con le librerie XOOPS) e /xoops_data (con i dati XOOPS) fuori dalla document root, o IN ALTERNATIVA cambiarne il nome.
+5. Assicurarsi che la cartella xoops_data/ sia scrivibile; Creare e rendere scrivibili le directory:
+	xoops_data/caches/, 	xoops_data/caches/xoops_cache/, 
+	xoops_data/caches/smarty_cache/
+	xoops_data/caches/smarty_compile/ 
+6. Assicurarsi che il file mainfile.php sia scrivibile
+7. Accedere alla cartella /upgrade/ con il browser, e seguire le istruzioni a video
+8. Seguire le istruzioni per aggiornare il vostro database
+9. Proteggere nuovamente in scrittura il file mainfile.php
+10. Eliminate la cartella /upgrade dal server
+11. Aggiornate il modulo System dall'Amministrazione moduli. Si consiglia anche l'aggiornamento degli altri moduli installati.
+
+
+Aggiornamento da qualsiasi versione XOOPS dalla 2.0.7 alla 2.0.13.2 (utilizzando il pacchetto completo):
+
+1. Spostare la cartella /upgrade all'interno della cartella /htdocs (mantenuta fuori in quanto non necessaria nelle installazioni complete) utilizzando una cartella temporanea locale
+2. Eliminare il file htdocs/mainfile.php e le cartelle:
+	htdocs/install/, 
+	htdocs/cache/, 
+	htdocs/extras/, 
+	htdocs/template_c/, 
+	htdocs/themes/ 	htdocs/uploads/ 
+dalla directory /htdocs nella vostra cartella temporanea locale
+3. Caricare il contenuto della vostra cartella temporanea locale sulla cartella pubblica del vostro server, sovrascrivendo i precedenti file se necessario
+4. Eliminate i seguenti file e cartelle dal server (appartenenti ad una vecchia versione):
+	* class/smarty/core
+	* class/smarty/plugins/resource.db.php
+5. Assicurarsi che il file mainfile.php sia scrivibile
+6. Per ragioni di sicurezza, si consiglia di spostare le cartelle /xoops_lib (con le librerie XOOPS) e /xoops_data (con i dati XOOPS) fuori dalla document root, o IN ALTERNATIVA cambiarne il nome.  
+7. Assicurarsi che la cartella xoops_data/ sia scrivibile; Creare e rendere scrivibili le directory:
+	xoops_data/caches/, 	xoops_data/caches/xoops_cache/, 
+	xoops_data/caches/smarty_cache/
+	xoops_data/caches/smarty_compile/ 
+8. Accedere alla cartella /upgrade/ con il browser, e seguire le istruzioni.  
+9. Proteggere nuovamente in scrittura il file mainfile.php.
+10. Eliminare la cartella /upgrade dal server.
+11. Aggiornare il modulo System dall'Amministrazione moduli. Si consiglia anche l'aggiornamento degli altri moduli installati.
+
+
+Aggiornamento di un sito non UTF-8:
+La codifica UTF-8 è stata introdotta in XOOPS 2.3 come set di caratteri di default. Tuttavia, ci possono essere alcuni problemi con la conversione di siti esistenti da un set non UTF-8 a UTF-8. 
+Finché non ci sarà una soluzione adeguata per questa conversione, si consiglia di effettuare le seguenti operazioni se non siete utenti con esperienza:
+- Selezionare l'opzione "Non cambiare" allo step "Set di caratteri del Database e collation" durante il processo di aggiornamento.
+- Modificare il file /languages/italian/global.php in modo da forzare il _CHARSET esistente se necessario: define('_CHARSET', 'UTF-8') riportandolo a:define('_CHARSET', 'ISO-8859-1');
+
+
+Aggiornamento pacchetto XoopsEditor:
+Nel package XOOPS, erano stati inclusi cinque editor: dhtmltextarea e textarea per il testo semplice, FCKeditor, tinymce e koivi per l’HTML WYSIWYG. 
+Poiché ci sono state alcune modifiche alla struttura delle directory negli editor FCKeditor e tinymce, si consiglia di rimuovere gli editor esistenti PRIMA di caricare i nuovi file.
+Se state già utilizzando FCKeditor in qualche modulo, modificate le preferenze di tale modulo come nei file contenuti in /FCKeditor/modules/, specialmente se utilizzate il modulo XF-Article.
+
+
+Visualizzare le informazioni di debug 
+----------------------------------- 
+Dalla versione XOOPS 2.3.1 la visualizzazione delle informazioni di debug è attivata come una soluzione temporanea per 2,3 * per mostrare le informazioni di debug a diversi livelli di utenti: a tutti gli utenti, ai membri o solo amministratori. 
+La configurazione può essere impostata in /xoops_data/configs/xoopsconfig.php 
+Un nuovo ritorno delle informazioni di debug sarà ridisegnato in XOOPS 3.0 .
+
+
+Controllo integrità
+----------------------------------- 
+Il pack completo di XOOPS viene rilasciato con uno script in grado di controllare se tutti i file di sistema sono stati correttamente caricati sul server. Per utilizzare il controllo di integrità seguite queste istruzioni:
+
+1. Caricare il file checksum.php e checksum.md5 contenuti nel pack XOOPS direttamente sul vostro server (inserendoli nella stessa cartella del mainfile.php).
+2. Eseguire checksum.php con il vostro browser
+3. Se necessario, ricaricate i file mancanti o corrotti come da informazioni a video
+4. Rimuovete i file checksum.php e checksum.md5 dal server
+
+
+Moduli 
+----------------------------------- 
+Questa release contiene solo moduli strettamente correlati con il core system. Siete invitati ad usufruire degli opportuni repository per aggiungere moduli e funzionalità. 
+Nota: dato che stiamo lavorando su un nuovo repository, alcuni pacchetti potrebbero non essere aggiornati. SI CONSIGLIA DI VISITARE I SITI INDIVIDUALI DEGLI SVILUPPATORI PER ACCERTARSI DI UTILIZZARE LE ULTIME VERSIONI DEI MODULI DESIDERATI.
+
+
+Come contribuire 
+----------------------------------- 
+Bug report: http://sourceforge.net/tracker/?group_id=41586&atid=430840
+Patch e miglioramenti: http://sourceforge.net/tracker/?group_id=41586&atid=430842
+Richiesta funzionalità: http://sourceforge.net/tracker/?group_id=41586&atid=430843
+Annunci del rilascio: https://lists.sourceforge.net/lists/listinfo/xoops-announcement
+
+XOOPS Development Team 
+Mar 15, 2009
+
+----------------------------------------------
+Traduzione originale delle Note di Rilascio 2.3.1: Defkon1 - XoopsItalia.org
+1 novembre 2008
+
+Aggiornamento delle Note di Rilascio alla versione 2.3.3: Gordon - XoopsItalia.org
+15 aprile 2009 

@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 // -------------------------------------------------------------------------------- //
 // Updated by Ianez - Xoops Italia Staff
 // Original translation by Marco Ragogna (blueangel)
@@ -52,7 +52,6 @@ define('_MD_AM_NO','No');
 define('_MD_AM_DONTCHNG','Non modificare!');
 define('_MD_AM_REMEMBER','Ricordare di impostare a CHMOD 666 (scrittura/lettura) questo file per consentire al sistema di modificarlo.');
 define('_MD_AM_IFUCANT','Se non puoi modificare i permessi del file, modifica il file a mano e poi ricaricalo sul server.');
-
 
 define('_MD_AM_COMMODE','Modalit&agrave; di visualizzazione dei commenti');
 define('_MD_AM_COMORDER','Ordine di visualizzazione dei commenti');
@@ -254,11 +253,10 @@ define("_MD_AM_CPANEL", "Tema dell'Amministrazione");
 define("_MD_AM_CPANELDSC", "Layout alternativi per il lato admin.<br />Installabile nella cartella /modules/system/class/gui.");
 
 define("_MD_AM_WELCOMETYPE", "Invio del messaggio di benvenuto");
-define("_MD_AM_WELCOMETYPE_DESC", "Modalit&agrave; di invio del messaggio di benvenuto per i nuovi utenti registrati.");
+define("_MD_AM_WELCOMETYPE_DESC", "Modalita di invio del messaggio di benvenuto per i nuovi utenti registrati.");
 define("_MD_AM_WELCOMETYPE_EMAIL", "Email");
 define("_MD_AM_WELCOMETYPE_PM", "Messaggio");
 define("_MD_AM_WELCOMETYPE_BOTH", "Email e messaggio");
-
-define("_MD_AM_MODULEPREF", "Preferenze moduli");
+define("_MD_AM_MODULEPREF", "Preferenze del Modulo");
 
 ?>

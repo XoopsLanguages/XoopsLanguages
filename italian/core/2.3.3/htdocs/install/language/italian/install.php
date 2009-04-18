@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 // -------------------------------------------------------------------------------- //
 // Translated by Ianez & Xoops Italia Staff
 // Xoops Italian Official Support Site - www.xoopsitalia.org
@@ -121,15 +121,15 @@ define( "IS_WRITABLE", "%s &egrave; scrivibile." ); // L84
 
 define( "XOOPS_PATH_FOUND", "Percorso valido" );
 
-define( "READY_CREATE_TABLES", "Non sono state trovate tabelle XOOPS.<br />Il programma di installazione &egrave; pronto a creare le tabelle di sistema.<br />Premere <em>avanti</em> per procedere." );
-define( "XOOPS_TABLES_FOUND", "Le tabelle di sistema XOOPS sono gi&agrave; presenti nel database.<br />Premere <em>avanti</em> per andare al passaggio successivo." ); // L131
-define( "XOOPS_TABLES_CREATED", "Le tabelle di sistema XOOPS sono state generate.<br />Premere <em>avanti</em> per andare al passaggio successivo." );
+define( "READY_CREATE_TABLES", "Non sono state trovate tabelle XOOPS.<br />Il programma di installazione &egrave; pronto a creare le tabelle di sistema.<br />Premere <em>avanti</em> per proseguire." );
+define( "XOOPS_TABLES_FOUND", "Le tabelle di sistema XOOPS sono gi&agrave; presenti nel database.<br />Premere <em>avanti</em> per passare alla fase successiva." ); // L131
+define( "XOOPS_TABLES_CREATED", "Le tabelle di sistema XOOPS sono state generate.<br />Premere <em>avanti</em> per passare alla fase successiva." );
 define( "READY_INSERT_DATA", "Il programma di installazione &egrave; pronto per inserire i dati di partenza nel database." );
-define( "READY_SAVE_MAINFILE", "Il programma di installazione &egrave; pronto per salvare le impostazioni selezionate in <em>mainfile.php</em>.<br />Premere <em>avanti</em> per procedere." );
+define( "READY_SAVE_MAINFILE", "Il programma di installazione &egrave; pronto per salvare le impostazioni selezionate in <em>mainfile.php</em>.<br />Premere <em>avanti</em> per proseguire." );
 define( "SAVED_MAINFILE", "Impostazioni salvate in: mainfile.php" );
-define( "SAVED_MAINFILE_MSG", "Il programma di installazione ha salvato le impostazioni selezionate in <em>mainfile.php</em>.<br />Premere <em>avanti</em> per andare al passaggio successivo." );
-define( "DATA_ALREADY_INSERTED", "Sono stati trovati dati XOOPS nel database.<br />Premere <em>avanti</em> per andare al passaggio successivo." );
-define( "DATA_INSERTED", "I dati iniziali sono stati inseriti nel database.<br />Premere <em>avanti</em> per andare al passaggio successivo." );
+define( "SAVED_MAINFILE_MSG", "Il programma di installazione ha salvato le impostazioni selezionate in <em>mainfile.php</em>.<br />Premere <em>avanti</em> per passare alla fase successiva." );
+define( "DATA_ALREADY_INSERTED", "Sono stati trovati dati XOOPS nel database.<br />Premere <em>avanti</em> per passare alla fase successiva." );
+define( "DATA_INSERTED", "I dati iniziali sono stati inseriti nel database.<br />Premere <em>avanti</em> per passare alla fase successiva." );
 
 
 // %s is database name
@@ -165,48 +165,48 @@ define( "ERR_CHARSET_NOT_SET", "Non &egrave; stato impostato un set di caratteri
 
 
 define("_INSTALL_CHARSET", "UTF-8");
-    
+
 define( "SUPPORT", "Supporto");
-    
+
 define( "LOGIN", "Autenticazione");
 define( "LOGIN_TITLE", "Autenticazione");
-define( "USER_LOGIN", "Account amministratore" );
-define( "USERNAME", "Nome utente :");
+define( "USER_LOGIN", "Login Amministratore" );
+define( "USERNAME", "Username :");
 define( "PASSWORD", "Password :");
-    
-define( "ICONV_CONVERSION", "Conversione set di caratteri (character set)");
+
+define( "ICONV_CONVERSION", "Set di conversione caratteri");
 define( "ZLIB_COMPRESSION", "Compressione Zlib");
 define( "IMAGE_FUNCTIONS", "Funzioni immagine");
-    define( "IMAGE_METAS", "Image meta data (exif)");
-    
-define( "ADMIN_EXIST", "Account amministratore gi&agrave; esistente.<br />Premere <strong>avanti</strong> per andare al passaggio successivo.");
-    
-define( "CONFIG_SITE", "Configurazione sito" );
-define( "CONFIG_SITE_TITLE", "Configurazione sito" );
-define( "MODULES", "Installazione moduli" );
-define( "MODULES_TITLE", "Installazione moduli" );
-define( "THEME", "Selezione tema" );
-define( "THEME_TITLE", "Selezione tema predefinito" );
-    
-define( "INSTALLED_MODULES", "Sono stati installati i seguenti moduli.<br />Premere <strong>avanti</strong> per andare al passaggio successivo.");
-define( "NO_MODULES_FOUND", "Non &egrave; stato trovato nessun modulo.<br />Premere <strong>avanti</strong> per andare al passaggio successivo.");
-define( "NO_INSTALLED_MODULES", "Non &egrave; stato installato nessun modulo.<br />Premere <strong>avanti</strong> per andare al passaggio successivo.");
-    
-define( "THEME_NO_SCREENSHOT", "Anteprima non presente");
-    
-    define( "IS_VALOR", " => ");
-    
-    // password message
-define( "PASSWORD_LABEL", "Robustezza password : ");
-define( "PASSWORD_DESC", "Password non inserita");
-define( "PASSWORD_GENERATOR", "Generatore password complessa");
+define( "IMAGE_METAS", "Image meta data (exif)");
+
+define( "ADMIN_EXIST", "L'account di amministrazione esiste già.<br />Premere <strong>avanti</strong> per passare alla fase successiva.");
+
+define( "CONFIG_SITE", "Configurazione del sito" );
+define( "CONFIG_SITE_TITLE", "Configurazione del sito" );
+define( "MODULES", "Installazione dei Moduli" );
+define( "MODULES_TITLE", "Installazione dei Moduli" );
+define( "THEME", "Seleziona il tema" );
+define( "THEME_TITLE", "Scegli il tema di default" );
+
+define( "INSTALLED_MODULES", "Sono stati installati i seguenti Moduli.<br />Premere <strong>avanti</strong> per passare alla fase successiva.");
+define( "NO_MODULES_FOUND", "Nessun modulo trovato.<br />Premere <strong>avanti</strong> per passare alla fase successiva.");
+define( "NO_INSTALLED_MODULES", "Nessun modulo installato.<br />Premere <strong>avanti</strong> per passare alla fase successiva.");
+
+define( "THEME_NO_SCREENSHOT", "Nessuno screenshot trovato");
+
+define( "IS_VALOR", " => ");
+
+// password message
+define( "PASSWORD_LABEL", "Efficacia Password : ");
+define( "PASSWORD_DESC", "Password non digitata");
+define( "PASSWORD_GENERATOR", "Generatore di password");
 define( "PASSWORD_GENERATE", "Genera");
 define( "PASSWORD_COPY", "Copia");
-    
+
 define( "PASSWORD_VERY_WEAK", "Molto debole");
 define( "PASSWORD_WEAK", "Debole");
-define( "PASSWORD_BETTER", "Abbastanza debole");
-define( "PASSWORD_MEDIUM", "Abbastanza forte");
-define( "PASSWORD_STRONG", "Forte");
-define( "PASSWORD_STRONGEST", "Molto forte");
+define( "PASSWORD_BETTER", "Buona");
+define( "PASSWORD_MEDIUM", "Media");
+define( "PASSWORD_STRONG", "Efficace");
+define( "PASSWORD_STRONGEST", "Molto efficace");
 ?>

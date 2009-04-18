@@ -1,4 +1,4 @@
-tinyMCE.addI18n('it.media_dlg',{
+﻿tinyMCE.addI18n('it.media_dlg',{
 title:"Inserisci/modifica file multimediale",
 general:"Generale",
 advanced:"Avanzate",

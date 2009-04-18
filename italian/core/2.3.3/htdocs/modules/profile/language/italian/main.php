@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 // -------------------------------------------------------------------------------- //
 // Translated by Francesco Mulassano (Urbanspaceman) - Xoops Italia Staff
 // Published by Xoops Italian Official Support Site - www.xoopsitalia.org
@@ -52,4 +52,7 @@ define("_PROFILE_MA_SITEDEFAULT", "Sito web di base");
 
 define("_PROFILE_MA_USERINFO","Visualizzazione profilo");
 define("_PROFILE_MA_REGISTER","Modulo di registrazione");
+
+define("_PROFILE_MA_ACTUS", "Utenti attivi: %s");
+define("_PROFILE_MA_FOUNDUSER", "%s utenti trovati");
 ?>

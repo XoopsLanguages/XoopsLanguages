@@ -1,4 +1,4 @@
-tinyMCE.addI18n('it.fullpage_dlg',{
+﻿tinyMCE.addI18n('it.fullpage_dlg',{
 title:"Propriet\u00E0 Documento",
 meta_tab:"Generale",
 appearance_tab:"Aspetto",

@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 // -------------------------------------------------------------------------------- //
 // Translated by Francesco Mulassano (Urbanspaceman) - Xoops Italia Staff
 // Published by Xoops Italian Official Support Site - www.xoopsitalia.org
@@ -49,4 +49,7 @@ define("_PROFILE_MI_CATEGORY_PERSONAL", "Dati personali");
 define("_PROFILE_MI_CATEGORY_MESSAGING", "Messaggistica");
 define("_PROFILE_MI_CATEGORY_SETTINGS", "Impostazioni");
 define("_PROFILE_MI_CATEGORY_COMMUNITY", "Community");
+
+define("_PROFILE_MI_NEVER_LOGED_IN", "Non hai effettuato il login");
+
 ?>

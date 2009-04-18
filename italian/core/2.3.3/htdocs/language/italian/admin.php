@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 // -------------------------------------------------------------------------------- //
 // Updated by Ianez - Xoops Italia Staff
 // Original translation by Marco Ragogna (blueangel)
@@ -17,10 +17,8 @@ define('_AD_AVATAR','Avatar');
 define('_AD_REGISTERED','Registrazione'); //Data di registrazione
 define('_AD_PRESSGEN', 'Questa &egrave; la prima volta che accedi al pannello di amministrazione. Premi \'Invia\' per procedere.');
 define('_AD_LOGINADMIN', 'Stai entrando...');
-
-    define("_AD_WARNINGINSTALL","WARNING: Directory %s exists on your server. <br />Please remove this directory for security reasons.");
-    define("_AD_WARNINGWRITEABLE","WARNING: File %s is writeable by the server. <br />Please change the permission of this file for security reasons.<br /> in Unix (444), in Win32 (read-only)");
-    define("_AD_WARNINGNOTWRITEABLE","WARNING: Folder %s is not writeable by the server. <br />Please change the permission of this folder.<br /> in Unix (777), in Win32 (writable)");
-    define("_AD_WARNINGXOOPSLIBINSIDE","WARNING: Folder %s is inside DocumentRoot! <br />For security considerations it is highly suggested to move it out of DocumentRoot.");
-
+define("_AD_WARNINGINSTALL","ATTENZIONE: La Directory %s esiste sul tuo server. <br />Rimuovi questa directory per ragioni di sicurezza.");
+define("_AD_WARNINGWRITEABLE","ATTENZIONE: Il file %s è scrivibile nel server. <br />Cambia i permessi di questo file per ragioni di sicurezza.<br /> in Unix (444), in Win32 (sola lettura)");
+define("_AD_WARNINGNOTWRITEABLE","ATTENZIONE: La cartella %s non è scrivibile dal server. <br />Cambia i permessi di questa cartella.<br /> in Unix (777), in Win32 (writable)");
+define("_AD_WARNINGXOOPSLIBINSIDE","ATTENZIONE: La cartella %s è dentro DocumentRoot! <br />Per ragioni di sicurezza è altamente consigliato spostarla fuori del DocumentRoot.");
 ?>

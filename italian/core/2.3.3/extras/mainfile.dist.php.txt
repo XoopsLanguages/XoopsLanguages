@@ -1,0 +1,4 @@
+For those who use protector module from GIJOE, replace htdocs/mainfile.dist.php with the file mainfile.dist.php.protector in this directory before installing XOOPS.
+
+Per coloro che utilizzano il modulo Protector di GIJOE, sostituire htdocs/mainfile.dist.php con il file mainfile.dist.php.protector in questa directory prima di installare XOOPS.
+Si ricorda che il file mainfile.dist.php.protector deve essere rinominato togliendo l'estesione fittizia ".protector".

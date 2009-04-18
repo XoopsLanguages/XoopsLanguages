@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 // -------------------------------------------------------------------------------- //
 // Translated by Francesco Mulassano (Urbanspaceman) - Xoops Italia Staff
 // Published by Xoops Italian Official Support Site - www.xoopsitalia.org

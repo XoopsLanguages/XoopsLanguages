@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 
 //Italian translation: Defkon1 - defkon1(at)gmail(dot)com - www.xoopsitalia.org
 
@@ -45,8 +45,6 @@ define( "_AM_TXT_HOWTOCHANGEDB" , "Se vuoi cambiare il prefisso delle tabelle,<b
 // advisory.php
 define("_AM_ADV_NOTSECURE","Non sicuro");
 
-    define("_AM_ADV_TRUSTPATHPUBLIC","If you can look an image -NG- or the link returns normal page, your XOOPS_TRUST_PATH is not placed properly. The best place for XOOPS_TRUST_PATH is outside of DocumentRoot. If you cannot do that, you have to put .htaccess (DENY FROM ALL) just under XOOPS_TRUST_PATH as the second best way.");
-    define("_AM_ADV_TRUSTPATHPUBLICLINK","Check php files inside TRUST_PATH are private (it must be 404,403 or 500 error");
 define("_AM_ADV_REGISTERGLOBALS","Questa impostazione permette una gran variet&agrave; di attacchi basati su iniezione.<br />Se possibile, impostare correttamente il file .htaccess");
 define("_AM_ADV_ALLOWURLFOPEN","Questa impostazione permette agli attaccanti di eseguire script arbitrari sul server remoto.<br />Solo gli amministratori del server possono modificare questa opzione.<br />Se sei tu l'amministratore, modifica il file php.ini o il file httpd.conf.<br /><b>Esempio di file httpd.conf:<br /> &nbsp; php_admin_flag &nbsp; allow_url_fopen &nbsp; off</b><br />In alternativa, richiedilo agli amministratori del tuo server.");
 define("_AM_ADV_USETRANSSID","Il tuo ID di sessione verr&agrave; mostrato nei tag ancora, ecc...<br />Per prevenire il dirottamento di sessione (session hijacking), aggiungi la seguente linea al tuo file .htaccess nella root principale.<br /><b>php_flag session.use_trans_sid off</b>");

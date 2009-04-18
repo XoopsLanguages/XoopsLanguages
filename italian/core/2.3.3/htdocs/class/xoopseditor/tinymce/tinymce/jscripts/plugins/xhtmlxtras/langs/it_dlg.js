@@ -1,4 +1,4 @@
-tinyMCE.addI18n('it.xhtmlxtras_dlg',{
+﻿tinyMCE.addI18n('it.xhtmlxtras_dlg',{
 attribute_label_title:"Titolo",
 attribute_label_id:"ID",
 attribute_label_class:"Classe",

@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 // -------------------------------------------------------------------------------- //
 // Updated by Ianez - Xoops Italia Staff
 // Original translation by Marco Ragogna (blueangel)
@@ -25,7 +25,7 @@ define("_US_NOPERMISS","Spiacenti, non si possiedono i permessi per eseguire que
 define("_US_SURETODEL","Sei sicuro di voler eliminare il tuo account?");
 define("_US_REMOVEINFO","Tutti i tuoi dati saranno eliminati.");
 define("_US_BEENDELED","Il tuo account &egrave; stato eliminato.");
-    define('_US_ACTFAILD','Activation failed!');
+define('_US_ACTFAILD','Registrazione fallita!');
 //
 
 //%%%%%%		File Name register.php 		%%%%%
