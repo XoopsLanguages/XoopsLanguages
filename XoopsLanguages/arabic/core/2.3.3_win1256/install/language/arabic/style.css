@@ -1,0 +1,36 @@
+#wizard {
+	text-align:				right;
+	border-right:			1px solid #fff;  
+	direction: rtl;
+}
+
+#pageslist {
+	float:					right;
+    border-left:               1px solid #e4e4e4;
+}
+
+.page {
+    margin-right:                260px;
+}
+
+#pageslist li {
+	padding-right:			15px;
+	background:				url(img/bullet.png) no-repeat right center;
+}
+
+h2 {
+	padding-right:			.5em;
+	text-align:				right;
+}
+
+.directory, .files {
+    text-align:                  left;
+}
+
+button, .success, .error, .warning, .failure {
+    float:               left;
+}
+
+#passwordmetter {
+   margin-right: 350px;
+}
