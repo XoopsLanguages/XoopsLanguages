@@ -47,16 +47,19 @@ Aggiunte e tradotte le seguenti definizioni nei relativi file:
 						"_PROFILE_MA_FOUNDUSER" 
 
 
-Aggiunti in htdocs/class/xoopseditor/tinymce/tinymce/jscripts/plugins, a cura di Energiko i seguenti plugin:
-autosave; bbcode; compat2x; contextmenu; directionality; fullscreen; iespell; inlinepopups; insertdatetime; layer;
-nonbreaking; noneditable; pagebreak; preview; print; safari; save; spellchecker; visualchars; xoopscode; xoopsquote
+Aggiunti e tradotti nuovi plugin in htdocs/class/xoopseditor/tinymce/tinymce/jscripts/plugins: [Energiko]
 
+==========================================================================================================================
+in data 18/04/2009
+------------------
+Revisione e aggiornamento della cartella plugin in htdocs/class/xoopseditor/tinymce/tinymce/jscripts/plugins: [Lucio Rota] 
+==========================================================================================================================
 
-Aggiornamento delle Note di Rilascio alla versione 2.3.3: Gordon [Traduzione originale delle Note di Rilascio 2.3.1: Defkon1]
+Aggiornamento delle Note di Rilascio alla versione 2.3.3: [Gordon] (Traduzione originale delle Note di Rilascio 2.3.1: Defkon1)
 
-Conversione codifica files in UTF8: Gordon
+Conversione codifica files in UTF8: [Gordon]
 
-Eliminata la cartella relativa alla localizzazione del modulo THADMIN, contanuta in:
+Eliminata la cartella relativa alla localizzazione del modulo THADMIN, contenuta in:
 /htdocs/modules/thadmin (il modulo è stato tolto dalla versione base del core).
 
 NOTE: Tutto quanto non contemplato in queste modifiche è stato prelevato dalla precedente traduzione della versione 2.3.1 ed integrato
@@ -65,8 +68,8 @@ e tutti coloro che anche in minima parte hanno partecipato e ci hanno permesso d
 Ed a loro va il nostro ringraziamento!
 
 
-*********************************************************************************
-*********************************************************************************
+****************************************************************************************
+****************************************************************************************
 
 * 2.3* (Unificazione rami 2.0.x e 2.2.x)
 -----------------------------------------
@@ -181,10 +184,12 @@ Ed a loro va il nostro ringraziamento!
 
 
 ----------------------------------------------------------------------------------
-Ultimo aggiornamento: 28/10/2008 ** by Xoops Italia Staff ------------------------
+Ultimo aggiornamento 2.3.1: 28/10/2008 ** by Xoops Italia Staff ------------------
 ----------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------
 Traduzione orginale by BlueAngel, Dantom - Revisione a cura di Ianez -------------
 ----------------------------------------------------------------------------------
 Supporto: www.xoopsitalia.org - www.xoops.org [Eng] ------------------------------
+----------------------------------------------------------------------------------
+Ultimo aggiornamento 2.3.3: 18/04/2009 ** by Xoops Italia Staff ------------------
 __________________________________________________________________________________

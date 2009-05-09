@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 //Italian translation: Defkon1 - defkon1(at)gmail(dot)com - www.xoopsitalia.org
 
 define('_MD_PROTECTOR_YOUAREBADIP','Sei registrato come BAD_IP da Protector.') ;

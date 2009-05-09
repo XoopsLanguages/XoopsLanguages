@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 // -------------------------------------------------------------------------------- //
 // Translated by Francesco Mulassano (Urbanspaceman) - Xoops Italia Staff
 // Published by Xoops Italian Official Support Site - www.xoopsitalia.org
@@ -82,7 +82,7 @@ define("_PM_PREVIOUSP","Precedente");
 define("_PM_NEXTP","Successivo");
 
 define("_PM_MAILNOTIFY","%s Hai ricevuto un nuovo messaggio da %s");
-define("_PM_MAILMESSAGE","Ciao!\nA E' arrivato un messaggio da %s\n\nTitolo: \n%s\n\nE' possibile leggere il messaggio QUI\n%s\n\n-----------\n
+define("_PM_MAILMESSAGE","Ciao!\nA &Egrave; arrivato un messaggio da %s\n\nTitolo: \n%s\n\nE' possibile leggere il messaggio QUI\n%s\n\n-----------\n
 Hai ricevuto questa email perch&eacute; hai scelto di essere avvisato quando ricevi un nuovo messaggio privato\n\nPuoi modificare quest'opzione\n%s\n\nPer favore non rispondere a questo messaggio\n\n---------\nGrazie\n%s\n%s\n%s");
 
 define("_PM_EMAIL", "Inoltra come email");

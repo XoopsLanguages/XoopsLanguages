@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 // -------------------------------------------------------------------------------- //
 // Updated by Ianez - Xoops Italia Staff
 // Original translation by Marco Ragogna (blueangel)
@@ -30,7 +30,7 @@ define("_AM_MEMBERS","Membri");
 define("_AM_NONMEMBERS","Non-membri");
 define("_AM_ADDBUTTON"," aggiungi --> ");
 define("_AM_DELBUTTON"," <-- rimuovi");
-define("_AM_UNEED2ENTER","E' necessario riempire i campi obbligatori!");
+define("_AM_UNEED2ENTER","&Egrave; necessario riempire i campi obbligatori!");
 
 // Added in RC3
 define("_AM_BLOCKRIGHTS","Permessi di visualizzazione dei blocchi");

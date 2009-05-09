@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 // $Id: finish.php 2055 2008-09-05 06:26:48Z phppp $
 $content .=
 "<h3>Il tuo sito</h3>
@@ -9,21 +9,12 @@ $content .=
 ";
 
 $content .=
-
 "<h3>Configurazione di sicurezza</h3>
-
 <p>Il programma di installazione cercherà di configurare il tuo sito per ragioni di sicurezza. Si prega di controllare per assicurarsi che:
-
 <div class='confirmMsg'>
 Il file  <em>mainfile.php</em> è di sola lettura.<br />
-
 Rimuovi la cartella <em>{$installer_modified}</em> (oppure <em>install</em> se non rinominata manualmente in fase di installazione) dal tuo server.
-
 </div>
-
 </p>
-
 ";
-
-
 ?>
