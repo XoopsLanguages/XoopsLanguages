@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 // -------------------------------------------------------------------------------- //
 // Updated by luciorota - Xoops Italia
 // Published by Xoops Italian Official Support Site - www.xoopsitalia.org

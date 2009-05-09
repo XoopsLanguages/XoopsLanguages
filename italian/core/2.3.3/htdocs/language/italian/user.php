@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 // -------------------------------------------------------------------------------- //
 // Updated by Ianez - Xoops Italia Staff
 // Original translation by Marco Ragogna (blueangel)
@@ -123,7 +123,7 @@ define('_US_PASSWORD','Password');
 define("_US_TYPEPASSTWICE","(scrivere la nuova password due volte nel caso si desideri cambiarla)");
 define("_US_SAVECHANGES","Salva le modifiche");
 define("_US_NOEDITRIGHT","Spiacenti, ma non si possiedono i privilegi per modificare i dati di questo utente.");
-define("_US_PASSNOTSAME","Le due password sono differenti. E' necessario che siano identiche!");
+define("_US_PASSNOTSAME","Le due password sono differenti. &Egrave; necessario che siano identiche!");
 define("_US_PWDTOOSHORT","Spiacenti, ma la password deve essere lunga almeno <strong>%s</strong> caratteri.");
 define('_US_PROFUPDATED','Il tuo profilo &egrave; stato aggiornato con successo!');
 define('_US_USECOOKIE','Salvare il Nome Utente in un cookie per un anno?');

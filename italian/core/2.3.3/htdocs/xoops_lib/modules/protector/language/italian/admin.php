@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 
 //Italian translation: Defkon1 - defkon1(at)gmail(dot)com - www.xoopsitalia.org
 
@@ -50,7 +50,7 @@ define("_AM_ADV_ALLOWURLFOPEN","Questa impostazione permette agli attaccanti di 
 define("_AM_ADV_USETRANSSID","Il tuo ID di sessione verr&agrave; mostrato nei tag ancora, ecc...<br />Per prevenire il dirottamento di sessione (session hijacking), aggiungi la seguente linea al tuo file .htaccess nella root principale.<br /><b>php_flag session.use_trans_sid off</b>");
 define("_AM_ADV_DBPREFIX","Questa impostazione permette attacchi basati su iniezione SQL.<br />Non dimenticare di impostare 'Forza sterilizzazione *' nelle preferenze di questo modulo.");
 define("_AM_ADV_LINK_TO_PREFIXMAN","Vai a Gestore prefissi");
-define("_AM_ADV_MAINUNPATCHED","E' necessario modificare il file mainfile.php come scritto nel file README.");
+define("_AM_ADV_MAINUNPATCHED","&Egrave; necessario modificare il file mainfile.php come scritto nel file README.");
 
 define("_AM_ADV_SUBTITLECHECK","Controlla se Protector funziona correttamente");
 define("_AM_ADV_CHECKCONTAMI","Contaminazioni");

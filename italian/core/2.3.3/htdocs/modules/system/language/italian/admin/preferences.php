@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 // -------------------------------------------------------------------------------- //
 // Updated by Ianez - Xoops Italia Staff
 // Original translation by Marco Ragogna (blueangel)
@@ -226,8 +226,8 @@ define('_MD_AM_LDAP_LOGINNAME_ASDN_D', 'Il nome utente XOOPS verr&agrave; usato 
 
 define('_MD_AM_LDAP_FILTER_PERSON', 'Filtro per la ricerca utente usato da LDAP');
 define('_MD_AM_LDAP_FILTER_PERSON_DESC', 'Filtro speciale LDAP per la ricerca di un utente. @@loginname@@ viene sostituito dall\id di accesso dell\'utente<br /> LASCIARE IN BIANCO SE NON SI CONOSCE IL CODICE!' .
-		'<br />Es : (&(objectclass=person)(samaccountname=@@loginname@@)) per AD' .
-		'<br />Es : (&(objectclass=inetOrgPerson)(uid=@@loginname@@)) per LDAP');
+    '<br />Es : (&(objectclass=person)(samaccountname=@@loginname@@)) per AD' .
+    '<br />Es : (&(objectclass=inetOrgPerson)(uid=@@loginname@@)) per LDAP');
 
 define('_MD_AM_LDAP_DOMAIN_NAME', 'Nome del dominio');
 define('_MD_AM_LDAP_DOMAIN_NAME_DESC', 'Nome domino Windows (solo per server ADS e NT)');
@@ -240,10 +240,10 @@ define('_MD_AM_LDAP_PROVIS_GROUP_DSC', 'I nuovi utenti vengono inseriti in quest
 
 define("_MD_AM_LDAP_FIELD_MAPPING_ATTR", "Mappatura campi server Xoops-Auth");
 define("_MD_AM_LDAP_FIELD_MAPPING_DESC", "Definire qui la corrispondenza tra il campo del database Xoops e il campo del sistema di autenticazione LDAP." .
-		"<br /><br />Formato: [Campo Databse Xoops]=[Attributo sistema LDAP]" .
-		"<br />per esempio : email=mail" .
-		"<br />Separate ciascuna coppia di campi con <b>|</b>" .
-		"<br /><br />!! Per utenti esperti !!");
+    "<br /><br />Formato: [Campo Databse Xoops]=[Attributo sistema LDAP]" .
+    "<br />per esempio : email=mail" .
+    "<br />Separate ciascuna coppia di campi con <b>|</b>" .
+    "<br /><br />!! Per utenti esperti !!");
 		
 define("_MD_AM_LDAP_PROVIS_UPD", "Sincronizzazione della gestione dell'account Xoops");
 define("_MD_AM_LDAP_PROVIS_UPD_DESC", "L'account utente Xoops verr&agrave; sempre sincronizzato con il server di autenticazione");

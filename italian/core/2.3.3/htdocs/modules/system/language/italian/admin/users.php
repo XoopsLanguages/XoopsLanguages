@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 // -------------------------------------------------------------------------------- //
 // Updated by Ianez - Xoops Italia Staff
 // Original translation by Marco Ragogna (blueangel)
@@ -12,7 +12,7 @@ define("_AM_AYSYWTDU","Sei sicuro di voler eliminare l'utente %s?");
 define("_AM_BYTHIS","Con questa operazione tutti i dati relativi all'utente verranno definitivamente eliminati.");
 define("_AM_YES","S&igrave;");
 define("_AM_NO","No");
-define("_AM_YMCACF","E' necessario compilare tutti i campi obbligatori!");
+define("_AM_YMCACF","&Egrave; necessario compilare tutti i campi obbligatori!");
 define("_AM_CNRNU","Impossibile registrare il nuovo utente.");
 define("_AM_EDEUSER","Modifica/Elimina Utente");
 define("_AM_NICKNAME","Nome Utente");

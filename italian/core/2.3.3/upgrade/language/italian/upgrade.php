@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 // -------------------------------------------------------------------------------- //
 // Updated by Ianez - Xoops Italia Staff
 // Original translation by Timgno
