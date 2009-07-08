@@ -460,15 +460,11 @@ define("_MD_SUSPEND_MANAGEMENT", "Moderation administration");
 define("_MD_SUSPEND_NOACCESS", "Din bruger eller din IP-adresse er suspenderet");
 
 // !!IMPORTANT!! insert '\' before any char among reserved chars: "a", "A","B","c","d","D","F","g","G","h","H","i","I","j","l","L","m","M","n","O","r","s","S","t","T","U","w","W","Y","y","z","Z"	
-// insert double '\' before 't', 'r', 'n'
+//insert double '\' before 't', 'r', 'n'
 define("_MD_TODAY", "\I\d\a\g\ G:i:s");
 define("_MD_YESTERDAY", "\I\g\å\\r\ G:i:s");
 define("_MD_MONTHDAY", "n/j G:i:s");
 define("_MD_YEARMONTHDAY", "Y/n/j G:i");
-
-
-
-
 
 
 // For user info
