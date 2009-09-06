@@ -4,7 +4,7 @@
 
 define("_MD_THANKSFORINFO","Vielen Dank für die Information. Wir werden deine Anfrage schnellstmöglich bearbeiten.");
 define("_MD_THANKSFORHELP","Vielen Dank für deine Mithilfe dieses Verzeichnis aktuell zu halten.");
-define("_MD_FORSECURITY","Aus Sicherheitsgründen werden dein Username und deine IP-Adresse vorübergehend aufgezeichnet.");
+define("_MD_FORSECURITY","Aus Sicherheitsgründen werden dein Benutzername und deine IP-Adresse vorübergehend aufgezeichnet.");
 
 define("_MD_SEARCHFOR","Suchen nach");
 define("_MD_ANY","ALLES");
@@ -19,8 +19,8 @@ define("_MD_TOPRATED","Top bewertet");
 define("_MD_NEWTHISWEEK","Neu diese Woche");
 define("_MD_UPTHISWEEK","Aktualisiert diese Woche");
 
-define("_MD_POPULARITYLTOM","Popularität (wenigste bis meiste Aufrufe)");
-define("_MD_POPULARITYMTOL","Popularität (meiste bis wenigste Aufrufe)");
+define("_MD_POPULARITYLTOM","Popularität (aufsteigend)");
+define("_MD_POPULARITYMTOL","Popularität (absteigend)");
 define("_MD_TITLEATOZ","Name (A bis Z)");
 define("_MD_TITLEZTOA","Name (Z bis A)");
 define("_MD_DATEOLD","Datum (alte Adressen zuerst)");
@@ -40,7 +40,7 @@ define("_MD_RATINGC","Bewertung: ");
 define("_MD_ONEVOTE","1 Stimme");
 define("_MD_NUMVOTES","%s Stimmen");
 define("_MD_RATETHISSITE","Diese Adresse bewerten");
-define("_MD_MODIFY","ändern");
+define("_MD_MODIFY","Ändern");
 define("_MD_REPORTBROKEN","Fehlerhafte Adresse melden");
 define("_MD_TELLAFRIEND","Einen Freund benachrichtigen");
 
@@ -50,7 +50,7 @@ define("_MD_LATESTLIST","Aktuelle Liste");
 define("_MD_REQUESTMOD","Adressänderung anfragen");
 define("_MD_LINKID","Adress-ID: ");
 define("_MD_SITETITLE","Name/Organisation: ");
-define("_MD_SITEURL","Website URL: ");
+define("_MD_SITEURL","Webseiten-URL: ");
 define("_MD_OPTIONS","Optionen: ");
 define("_MD_NOTIFYAPPROVE", "Bei Freigabe dieser Adresse benachrichtigen");
 define("_MD_SHOTIMAGE","Screenshot: ");
@@ -60,7 +60,7 @@ define("_MD_VOTEAPPRE","Vielen Dank für deine Stimme.");
 define("_MD_THANKURATE","Vielen Dank, dass du dir die Zeit genommen hast hier auf %s abzustimmen.");
 define("_MD_VOTEFROMYOU","Dank deiner Mitarbeit erleichterst du es anderen Besuchern interessante Adressen zu finden.");
 define("_MD_VOTEONCE","Bitte stimme für die selbe Adresse nur einmal ab.");
-define("_MD_RATINGSCALE","Die Skala reicht von 1 - 10, wobei 1 schlecht und 10 exzellent ist.");
+define("_MD_RATINGSCALE","Die Skala reicht von 1 - 10, wobei 1 schlecht und 10 exzellent bedeutet.");
 define("_MD_BEOBJECTIVE","Bitte sei objektiv, denn wenn jeder nur mit 1 oder 10 abstimmt ist diese Bewertung nicht sehr aussagekräftig.");
 define("_MD_DONOTVOTE","Bitte stimme nicht für deine eigene Adresse ab.");
 define("_MD_RATEIT","Bewerten!");
@@ -71,10 +71,10 @@ define("_MD_INTLINKFOUND","Hier ist eine interessante Adresse, die ich auf %s ge
 define("_MD_RECEIVED","Wir haben deine Adressinformation erhalten. Vielen Dank!");
 define("_MD_WHENAPPROVED","Falls du ein Mitglied bist, erhältst du eine Bestätigungs-Mail nach Freigabe.");
 define("_MD_SUBMITONCE","Schicke deine Adresse nur einmal ein.");
-define("_MD_ALLPENDING","Alle eingeschickten Adressinformationen müssen noch Überprüft werden.");
-define("_MD_DONTABUSE","Username und IP-Adresse werde aufgezeichnet, deshalb solltest du das System nicht missbrauchen.");
+define("_MD_ALLPENDING","Alle eingeschickten Adressinformationen müssen noch überprüft werden.");
+define("_MD_DONTABUSE","Benutzername und IP-Adresse werde aufgezeichnet, deshalb solltest du das System nicht missbrauchen.");
 define("_MD_TAKESHOT","Wir werden die von dir eingeschickte Adresse überprüfen, deshalb kann es einige Zeit dauern bis sie in unsere Datenbank aufgenommen wird.");
-define("_MD_BANNERTISE","Es ist möglich ein Banner oder Logo der Addresse anzuzeigen. Setzte dich deshalb mit dem Administrator in Verbindung."); // Banner advertisement text addresses. You can adjust this.
+define("_MD_BANNERTISE","Es ist möglich ein Banner oder Logo der Addresse anzuzeigen. Setzte dich dafür mit dem Administrator in Verbindung."); // Banner advertisement text addresses. You can adjust this.
 
 define("_MD_RANK","Rang");
 define("_MD_CATEGORY","Kategorie");
@@ -108,7 +108,7 @@ define("_MD_WEBLINKSCONF","Adressenkonfiguration");
 define("_MD_GENERALSET","Adressen - Allgemeine Einstellungen");
 define("_MD_ADDMODDELETE","Kategorien/Adressen hinzufügen/ändern und löschen");
 define("_MD_LINKSWAITING","Freizugebende Adressen");
-define("_MD_BROKENREPORTS","Gemeldete fehlerhafte Adressen");
+define("_MD_BROKENREPORTS","Als fehlerhaft gemeldete Adressen");
 define("_MD_MODREQUESTS","Anfragen auf Adressänderung");
 define("_MD_SUBMITTER","Absender: ");
 define("_MD_VISIT","Besuchen");
@@ -127,14 +127,14 @@ define("_MD_MODCAT","Kategorie ändern");
 define("_MD_MODLINK","Adresse ändern");
 define("_MD_MODLINK2","Adresse ändern für: ");
 define("_MD_TOTALVOTES","Adressabstimmung (Stimmen insgesamt: %s)");
-define("_MD_USERTOTALVOTES","Stimmen registrierte User (Stimmen insgesamt: %s)");
-define("_MD_ANONTOTALVOTES","Stimmen nicht registrierte User (Stimmen insgesamt: %s)");
-define("_MD_USER","User");
+define("_MD_USERTOTALVOTES","Stimmen registrierter Benutzer (Stimmen insgesamt: %s)");
+define("_MD_ANONTOTALVOTES","Stimmen nicht registrierter Benutzer (Stimmen insgesamt: %s)");
+define("_MD_USER","Benutzer");
 define("_MD_IP","IP-Adressen");
-define("_MD_USERAVG","Durchschnittliche Userbewertung");
+define("_MD_USERAVG","Durchschnittliche Benutzerbewertung");
 define("_MD_TOTALRATE","Bewertung insgesamt");
-define("_MD_NOREGVOTES","Keine Stimmen von registrierten Usern");
-define("_MD_NOUNREGVOTES","Keine Stimmen von nicht registrierten Usern");
+define("_MD_NOREGVOTES","Keine Stimmen von registrierten Benutzern");
+define("_MD_NOUNREGVOTES","Keine Stimmen von nicht registrierten Benutzern");
 define("_MD_VOTEDELETED","Abstimmungsdaten gelöscht.");
 define("_MD_NOBROKEN","Es liegen keine fehlerhaften Adressen vor.");
 define("_MD_IGNOREDESC","Ignorieren (Ignoriert die Meldung und löscht nur die <b>Meldung der fehlerhaften Adresse</b>)");
@@ -155,7 +155,7 @@ define("_MD_IMGURLMAIN","Bild-URL (OPTIONAL und nur gültig für Hauptkategorien
 define("_MD_PARENT","Übergeordnete Kategorie:");
 define("_MD_SAVE","Änderungen sichern");
 define("_MD_CATDELETED","Kategorie gelöscht.");
-define("_MD_WARNING","WARNUNG: Bist du sicher du willst diese Kategorie und ALLE damit verbundenen Adressen und Kommentare löschen?");
+define("_MD_WARNING","WARNUNG: Bist du sicher, dass du diese Kategorie und ALLE damit verbundenen Adressen und Kommentare löschen möchtest?");
 define("_MD_YES","Ja");
 define("_MD_NO","Nein");
 define("_MD_NEWCATADDED","Neue Kategorie wurde erfolgreich hinzugefügt!");
@@ -178,13 +178,13 @@ define("_MD_PHONE","Telefon");
 define("_MD_FAX","Fax");
 define("_MD_MOBILE","Mobil");
 define("_MD_CONTEMAIL","E-Mail");
-define("_MD_WEBSITE","Website");
+define("_MD_WEBSITE","Webseite");
 define("_MD_OPENED","Ansprechpartner");
 define("_MD_VIEWMORE","Weitere Informationen");
 define("_MD_PUBLISHED","Veröffentlicht");
 define("_MD_THISCOMESFROM","Diese Adresse stammt von %s");
 define("_MD_URLFORSTORY","Die URL dieser Adresse ist:");
-define("_MD_PRINT","Print");
-define("_MD_BANNERTISE","<b>Es ist möglich ein Banner oder Logo unter der Adresse anzuzeigen. Kontaktieren uns, wenn du von dieser Möglichkeit Gebrauch machen willst.</b>");
+define("_MD_PRINT","Drucken");
+define("_MD_BANNERTISE","<b>Es ist möglich ein Banner oder Logo unter der Adresse anzuzeigen. Kontaktieren Sie uns, wenn Sie von dieser Möglichkeit gebrauch machen möchten.</b>");
 define("_MD_MAP","Karte");
 ?>
