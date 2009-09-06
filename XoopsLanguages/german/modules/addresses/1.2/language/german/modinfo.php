@@ -6,7 +6,7 @@
 define("_MI_MYADRESSES_NAME","Adressen");
 
 // A brief description of this module
-define("_MI_MYADRESSES_DESC","Erstellt einen Adressbereich in dem User Adressen suchen/einschicken/bewerten können.");
+define("_MI_MYADRESSES_DESC","Erstellt einen Adressbereich in dem Benutzer Adressen suchen/einschicken/bewerten können.");
 
 // Names of blocks for this module (Not all module has blocks)
 define("_MI_MYADRESSES_BNAME1","Aktuelle Adressen");

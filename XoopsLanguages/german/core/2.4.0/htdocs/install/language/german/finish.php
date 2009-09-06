@@ -6,7 +6,7 @@
 
 $content .=
 "<h3>Ihre Seite</h3>
-<p>Die Installation sollte erfolgreich gewesen sein, wechseln Sie nun auf Ihre <a href='../index.php'>Startseite</a>.</p>
+<p>Die Installation sollte erfolgreich gewesen sein. Wechseln Sie nun auf Ihre <a href='../index.php'>Startseite</a>.</p>
 <h3>Hilfe?</h3>
 <p>Besuchen Sie den Deutschen Support <a href='http://www.myxoops.org'>myXOOPS.org</a>, die englischsprachigen Seiten
 <a href='http://www.xoops.org'>XOOPS.org</a> oder auf Sourceforge <a href='http://xoops.sourceforge.net/'>The XOOPS Project</a>.</p>
@@ -17,7 +17,7 @@ $content .=
 <p>Der Installer wird versuchen Ihre Website sicher zu machen. Prüfen Sie folgendes:
 <div class='confirmMsg'>
 Die Datei <em>mainfile.php</em> muss schreibgeschützt sein.<br />
-Entfernen Sie den Ordner <em>{$installer_modified}</em> (oder <em>install</em> wenn dieser nicht automatisch umbenannt wurde) vom Ihrem Server.
+Entfernen Sie den Ordner <em>{$installer_modified}</em> (oder <em>install</em> wenn dieser nicht automatisch umbenannt wurde) von Ihrem Server.
 </div>
 </p>
 ";
