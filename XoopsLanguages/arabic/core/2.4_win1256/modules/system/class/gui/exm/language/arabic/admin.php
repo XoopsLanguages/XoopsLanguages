@@ -1,0 +1,10 @@
+<?php
+// $Id$
+
+define('_AD_SYSOPTIONS','ÎíÇÑÇÊ ÇáäÙÇã');
+define('_AD_INSTALLEDMODULES','ÇáÈÑÇãÌ ÇáãËÈÊÉ');
+
+define('_AD_XOOPSTHEMES','ËíãÇÊ ÇáãæÞÚ');
+define('_AD_INTERESTSITES','ÇáÑæÇÈØ');
+
+?>
