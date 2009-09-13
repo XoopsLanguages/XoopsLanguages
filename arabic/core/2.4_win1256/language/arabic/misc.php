@@ -1,0 +1,48 @@
+<?php
+/*
+ You may not change or alter any portion of this comment or credits
+ of supporting developers from this source code or any supporting source code 
+ which is considered copyrighted (c) material of the original comment or credit authors.
+ 
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+*/
+
+/**
+ *  Xoops Language
+ *
+ * @copyright       The XOOPS Project http://sourceforge.net/projects/xoops/
+ * @license         http://www.fsf.org/copyleft/gpl.html GNU public license
+ * @package         kernel
+ * @subpackage      Xoops Misc Language
+ * @since           2.0.0
+ * @author          Kazumi Ono <onokazu@xoops.org>
+ * @version         $Id$
+ */
+defined('XOOPS_ROOT_PATH') or die('Restricted access');
+
+// _LANGCODE: ar
+// _CHARSET : windows-1256
+// Translator: Arab XOOPS Team
+define('_MSC_YOURNAMEC','ÅÓãß : ');
+define('_MSC_YOUREMAILC','ÈÑíÏß : ');
+define('_MSC_FRIENDNAMEC','ÅÓã ÕÏíÞß : ');
+define('_MSC_FRIENDEMAILC','ÈÑíÏ ÕÏíÞß : ');
+define('_MSC_RECOMMENDSITE','ÃÎÈÑ ÕÏíÞß Úä ÇáãæÞÚ');
+// %s is your site name
+define('_MSC_INTSITE','ãæÞÚ ããíÒ : %s');
+define('_MSC_REFERENCESENT','ÔßÑÇ áß áÞÏ Êã ÇÑÓÇá ÇáÈÑíÏ ÈäÌÇÍ');
+define('_MSC_ENTERYNAME','íÑÌì ÇÏÎÇá ÇáÅÓã');
+define('_MSC_ENTERFNAME','íÑÌì ÇÏÎÇá ÇÓã ÕÏíÞß');
+define('_MSC_ENTERFMAIL','íÑÌì ÇÏÎÇá ÈÑíÏ ÕÏíÞß');
+define('_MSC_NEEDINFO','íÌÈ ãáÃ ÇáÍÞæá ÇáãØáæÈÉ');
+define('_MSC_INVALIDEMAIL1','ÇáÈÑíÏ ÇáÐí ÐßÑÊå ÛíÑ ÕÍíÍ');
+define('_MSC_INVALIDEMAIL2','íÑÌì ÇáÊÃßÏ ãä ÇáÈÑíÏ ãÑå ÃÎÑì');
+define('_MSC_AVAVATARS','ÇáÕæÑ ÇáÔÎÕíÉ ÇáãÊÇÍÉ Ýí ÇáãÌáÉ');
+define('_MSC_SMILIES','ÇáæÌæå ÇáÊÚÈíÑíÉ');
+define('_MSC_CLICKASMILIE','ÅÖÛØ Úáì ÇáæÌå áÊÍæíáå Çáì ÇáãæÖæÚ');
+define('_MSC_CODE','ÔÝÑå');
+define('_MSC_EMOTION','ÇáÊÚÇÈíÑ');
+
+?>

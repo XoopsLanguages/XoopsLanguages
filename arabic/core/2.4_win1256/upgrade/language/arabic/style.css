@@ -1,0 +1,9 @@
+html, body {
+    text-align: right;
+    direction: rtl;
+}
+
+body {
+	font:		10pt "Arabic Transparent", Arial, Tahoma;
+}
+#xo-logger-output td, #xo-logger-output th, #xo-logger-tabs {direction: ltr; text-align: left;}
