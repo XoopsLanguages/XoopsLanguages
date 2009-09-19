@@ -4,6 +4,7 @@
 // Release date: 2008-03-23
 // $Id: modinfo.php,v 1.3 2008/05/05 03:22:37 tad Exp $
 // ------------------------------------------------------------------------- //
+// *************************************** 
 // _LANGCODE: ru 
 // _CHARSET : UTF-8 
 // Translator: Deka87
@@ -11,18 +12,18 @@
 define("_MI_TADGAL_NAME","Цифровой фотоальбом");
 define("_MI_TADGAL_AUTHOR","Tad");
 define("_MI_TADGAL_CREDITS","tad");
-define("_MI_TADGAL_DESC",""Этот модуль является простым в использовании цифроровым фотоальбомом");
-define("_MI_TADGAL_ADMENU1", "Управление фотографиями");
-define("_MI_TADGAL_ADMENU2", "Управление категориями");
-define("_MI_TADGAL_ADMENU3", "Управление лучшими фотографиями");
-define("_MI_TADGAL_ADMENU4", "Обновление модуля");
+define("_MI_TADGAL_DESC","Этот модуль является простым в использовании цифроровым фотоальбомом");
+define("_MI_TADGAL_ADMENU1","Управление фотографиями");
+define("_MI_TADGAL_ADMENU2","Управление категориями");
+define("_MI_TADGAL_ADMENU3","Управление лучшими фотографиями");
+define("_MI_TADGAL_ADMENU4","Обновление модуля");
 define("_MI_TADGAL_ADMENU5","Генерация Media RSS");
 define("_MI_TADGAL_ADMENU6", "Управление групповой загрузкой");
-define("_MI_TADGAL_TEMPLATE_DESC1", "Шаблон альбома");
+define("_MI_TADGAL_TEMPLATE_DESC1","Шаблон альбома");
 define("_MI_TADGAL_TEMPLATE_DESC2","Единый фото шаблон");
-define("_MI_TADGAL_TEMPLATE_DESC3", "Шаблон слайд-шоу");
+define("_MI_TADGAL_TEMPLATE_DESC3","Шаблон слайд-шоу");
 define("_MI_TADGAL_TEMPLATE_DESC4","Шаблон альбома для загрузки");
-define("_MI_TADGAL_TEMPLATE_DESC5", "Шаблон альбома");
+define("_MI_TADGAL_TEMPLATE_DESC5","Шаблон альбома");
 
 define("_MI_TADGAL_BNAME1","Прокрутка фотографий");
 define("_MI_TADGAL_BDESC1","Блок для прокрутки фотографий вверх или вниз");
