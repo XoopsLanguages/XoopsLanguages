@@ -1,5 +1,5 @@
 <?php
-// $Id: main.php 2641 2009-01-10 05:40:52Z phppp $
+// $Id$
 // _LANGCODE: ar
 // _CHARSET : windows-1256
 // Translator: Arab XOOPS Team

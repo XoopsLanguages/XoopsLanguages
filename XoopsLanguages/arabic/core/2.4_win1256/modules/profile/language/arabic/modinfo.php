@@ -1,5 +1,5 @@
 <?php
-// $Id: modinfo.php 2980 2009-03-15 22:27:16Z beckmi $
+// $Id$
 // _LANGCODE: ar
 // _CHARSET : windows-1256
 // Translator: Arab XOOPS Team

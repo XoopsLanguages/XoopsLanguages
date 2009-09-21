@@ -56,7 +56,7 @@ define('_CM_DELETEONE' , 'áÇ ÝÞØ åÐÇ ÇáÊÚáíÞ');
 define('_CM_DELETEALL', 'äÚã ãÓÍ Çáßá');
 define('_CM_THANKSPOST', 'ÔßÑÇ ááãÔÇÑßÉ');
 define('_CM_NOTICE', 'ÇáÊÚáíÞÇÊ ÊÎÕ ÕÇÍÈåÇ æáÇ ÊÎÕ ÇÏÇÑÉ ÇáãæÞÚ');
-define('_CM_COMRULES','ÇáÊÚáíÞÇÊ');
+define('_CM_COMRULES', 'ÇáÊÚáíÞÇÊ');
 define('_CM_COMAPPROVEALL','ÊÝÚíá ÇáÊÚáíÞÇÊ ÏÇÆãÇ');
 define('_CM_COMAPPROVEUSER','ÊÚáíÞÇÊ ÇáÃÚÖÇÁ ÏÇÆãÇ ãÝÚáå æãÞÈæáÉ');
 define('_CM_COMAPPROVEADMIN','ßá ÇáÊÚáíÞÇÊ ÊäÊÙÑ ÊÕÑíÍ ÇáäÔÑ ãä ÇáãÏíÑ');
