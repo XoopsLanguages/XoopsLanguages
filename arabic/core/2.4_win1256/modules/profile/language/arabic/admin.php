@@ -1,5 +1,5 @@
 <?php
-// $Id: admin.php 3397 2009-08-02 05:02:25Z wishcraft $
+// $Id$
 // _LANGCODE: ar
 // _CHARSET : windows-1256
 // Translator: Arab XOOPS Team

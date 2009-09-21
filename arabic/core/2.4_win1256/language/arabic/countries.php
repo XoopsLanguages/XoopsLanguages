@@ -24,7 +24,7 @@ defined('XOOPS_ROOT_PATH') or die('Restricted access');
 
 // _LANGCODE: ar
 // _CHARSET : windows-1256
-// Translator: XOOPS Translation Team
+// Translator: Arab XOOPS Team
 /* 
  * ISO 3166 Maintenance agency (ISO 3166/MA) - ISO's focal point for country codes 
  * Website: http://www.iso.org/iso/country_codes.htm

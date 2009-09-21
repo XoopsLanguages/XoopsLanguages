@@ -13,7 +13,7 @@ define('_AD_INTERESTSITES','—Ê«»ÿ');
 define('_AD_LOCALSUPPORT','«·œ⁄„ «·›‰Ì');
 define('_XOOPS_NEWS','√Œ»«— “ÊÊ»”');
 define('_XOOPS_WEBSITE','“ÊÊ»”');
-define('‹SOURCEFORGE','”Ê—” ›Ê—Ã');
+define('_SOURCEFORGE','Sourceforge');
 
 define('_MD_OXYGEN_VERSION','«·≈’œ«—');
 define('_MD_OXYGEN_VERSION_XOOPS','≈’œ«— “ÊÊ»”');
@@ -54,7 +54,6 @@ define('_MD_OXYGEN_MAILER',' ÂÌ∆… «·»—Ìœ');
 define('_MD_OXYGEN_AUTHENTICATION','ŒÌ«—«  «· Õﬁﬁ „‰ «·ÂıÊÌ¯…');
 
 //add for styles name 
-
 define('_MD_LANG_SILVER','›÷¯Ì');
 define('_MD_LANG_DARK','√”Êœ');
 define('_MD_LANG_ORANGE','»— ﬁ«·Ì');

@@ -15,7 +15,7 @@
  * @subpackage      form
  * @since           2.3.0
  * @author          Taiwen Jiang <phppp@users.sourceforge.net>
- * @version         $Id: formdhtmltextarea.php 3318 2009-07-04 13:28:33Z trabis $
+ * @version         $Id$
  */
 defined('XOOPS_ROOT_PATH') or die('Restricted access');
 
