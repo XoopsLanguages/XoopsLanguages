@@ -41,4 +41,5 @@ tr.head td{direction : rtl;text-align : right;}
 td.sideboxcontent{direction : rtl;}
 td#content{direction : rtl;text-align : right;}
 #xo-logger-output td, #xo-logger-output th, #xo-logger-tabs {direction: ltr; text-align: left;}
+#imageform, #imageform td {direction : rtl;text-align : right;}
 /* localization stylesheet */
