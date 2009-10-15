@@ -35,5 +35,14 @@ define('_AM_GROUPSMAIN', 'Gruppe Hovedside');
 
 define('_AM_ADMINNO', 'Der skal være mindst én bruger i webmaster gruppen');
 // Custom block, suggested by trabis
+// ok by culex :)
 define("_AM_CUSTOMBLOCK","Egenudviklet blok");
+/**
+* Nyt i 2.4.0 by Culex
+*/
+define('_AM_LIST_GROUPS', 'List Grupper');
+define('_XO_AD_GROUP_ID', '#');
+define('_XO_AD_GROUP_NAME', 'Gruppenavn');
+define('_XO_AD_GROUP_DESCRIPTION', 'Gruppe beskrivelse');
+define('_XO_AD_GROUP_ACTION', 'Handling');
 ?>
