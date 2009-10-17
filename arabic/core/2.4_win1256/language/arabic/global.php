@@ -211,5 +211,6 @@ define('XOOPS_USE_MULTIBYTES', '0');
 /**
 * Additions to 2.4.0
 **/
-define('_RESET', 'ÅáÛÇÁ ÇáÃãÑ');
+define('_RESET', 'ÅáÛÇÁ');
+define('_RE', 'ÑÏ:');
 ?>

@@ -62,6 +62,5 @@ define('_CM_COMAPPROVEUSER','ÊÚáíÞÇÊ ÇáÃÚÖÇÁ ÏÇÆãÇ ãÝÚáå æãÞÈæáÉ');
 define('_CM_COMAPPROVEADMIN','ßá ÇáÊÚáíÞÇÊ ÊäÊÙÑ ÊÕÑíÍ ÇáäÔÑ ãä ÇáãÏíÑ');
 define('_CM_COMANONPOST','ÞÈæá ÊÚáíÞÇÊ ÇáÒæÇÑ ¿');
 define('_CM_COMNOCOM','ÅíÞÇÝ ÇáÊÚáíÞÇÊ');
-define('_CM_RE','ÑÏ');
 
 ?>
