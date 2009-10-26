@@ -4,6 +4,10 @@
 // _CHARSET : UTF-8
 // Translator: 2009-09-14 andrey3761
 
+// License
+define('LICENSE_NOT_WRITEABLE', 'License is %s . <br/><font style="colour:#ff0000">Make ../include/license.php Writable</font>');
+define('LICENSE_IS_WRITEABLE', 'Лицензия %s');
+
 define("_INSTALL_WEBMASTER","Web-Мастеры");
 define("_INSTALL_WEBMASTERD","Группа Web-Мастеров этого сайта");
 define("_INSTALL_REGUSERS","Зарегистрированные пользователи");

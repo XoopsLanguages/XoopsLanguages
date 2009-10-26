@@ -25,7 +25,7 @@ define($constpref.'_ADMENU_MYBLOCKSADMIN','Permissions');
 define( $constpref.'_LOADED' , 1 ) ;
 
 // The name of this module
-define($constpref."_NAME","Сторож XOOPS");
+define($constpref."_NAME","Xoops Protector");
 
 // A brief description of this module
 define($constpref."_DESC","Этот модуль защищает ваш сайт на базе XOOPS от различного вида атак, таких как: DoS, SQL Injection и порчи переменных.");
@@ -112,6 +112,11 @@ define($constpref.'_BIP_EXCEPT','Групы пользователей нико�
 define($constpref.'_BIP_EXCEPTDSC','Рекомендуется всегда добавлять в этот список группу Администраторов сайта.');
 
 define($constpref.'_DISABLES','Деактивировать потенциально опасные функции XOOPS');
+
+define($constpref.'_DBLAYERTRAP','Enable DB Layer trapping anti-SQL-Injection');
+define($constpref.'_DBLAYERTRAPDSC','Almost SQL Injection attacks will be canceled by this feature. This feature is required a support from databasefactory. You can check it on Security Advisory page. This setting must be on. Never turn it off casually.');
+define($constpref.'_DBTRAPWOSRV','Never checking _SERVER for anti-SQL-Injection');
+define($constpref.'_DBTRAPWOSRVDSC','Some servers always enable DB Layer trapping. It causes wrong detections as SQL Injection attack. If you got such errors, turn this option on. You should know this option weakens the security of DB Layer trapping anti-SQL-Injection.');
 
 define($constpref.'_BIGUMBRELLA','Включить anti-XSS (BigUmbrella)');
 define($constpref.'_BIGUMBRELLADSC','Это помогает защитить Вас от нападений через уязвимость XSS. Гарантия не 100%!!');
