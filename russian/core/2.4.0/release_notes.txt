@@ -1,34 +1,23 @@
 
-The XOOPS Development Team is pleased to announce the release of XOOPS 2.4.0 RC.
+The XOOPS Development Team is pleased to announce the release of XOOPS 2.4.0 Final.
 
-This release includes many bugfixes and user experience improvements, done by XOOPS Core Development Team and XOOPS community.
+This release includes many bugfixes and user experience improvements, done by XOOPS Core Development Team and XOOPS community. Some of the major improvements include: 
 
-New in Release Candidate (in addition to bug fixes):
------------------------------------------------------
-Updates upon community:
-- Removed soap authentication and classes(trabis)
-- Removed extra databases support (trabis)
+* a new Admin GUI: Oxygen (Voltan) 
+* new mechanism to modularize and extend Core via Preloads (trabis) 
+* central support for jQuery (trabis) 
+* improved Installer (DuGris) 
+* WCAG 2.0 - Sight Impaired Assisted Forms (wishcraft)
+* Themeable Admininstration area (trabis)
+* new WYSIWYG Editors: CKEditor, wymeditor, Xinha, and Spaw2 (wishcraft and Luciorota)
+* new System Key (wishcraft)
+* Support to PHP 5.3 (trabis)
+* profile and pm modules improved by Trabis
 
-Removed language defines:
-  /modules/system/language/english/admin/preferences.php _MD_AM_AUTH_CONFOPTION_SOAP
-  /modules/system/language/english/admin/preferences.php _MD_AM_SOAP_*
+and many more.
 
-New in Beta 2 (in addition to bug fixes):
--------------------------------------------
-* Admin GUI's are now using a theme factory, modules can make use of $xoTheme and $xoopsTpl (trabis)
-* Preload system, modules can now respond to system events(trabis)
-* Support to php5.3 (trabis)
-* jquery support. If you need to use jquery.js, please use $xoTheme->addScript('browse.php?Frameworks/jquery/jquery.js'); (trabis/phppp)
 
-Some of the new/changed areas in Beta 1:
------------------------------
-- profile and pm modules improved by dhcst
-- installer improved by dugris and marco, etc.
-- theme improved by mamba, aph3x, kris and burning
-- tinymce editor improved by dugris and luciorota
-- snoopy class upgraded by julionc
-- smarty upgraded by dhcst/trabis
-- bug tracker managed by marco
+Download from [url=https://sourceforge.net/project/showfiles.php?package_id=153583&release_id=667574&group_id=41586]Sourceforge repository[/url].
 
 
 System requirements
@@ -57,14 +46,13 @@ Installing XOOPS
    1. Copy the content of the htdocs/ folder where it can be accessed by your server
    2. Ensure mainfile.php and uploads/ are writable by the web server
    3. For security considerations, you are encouraged to move directories "/xoops_lib" (for XOOPS libraries) and "/xoops_data" (for XOOPS data) out of Document Root, and change the folder names.
-   4. Make the directory xoops_data/ writable; Create (if not already present) and make the directories xoops_data/caches/, xoops_data/caches/xoops_cache/, xoops_data/caches/smarty_cache/ and xoops_data/caches/smarty_compile/ writable.
+   4. Make the directory xoops_data/ writable; Create (if not already present) and make the directories xoops_data/caches/, xoops_data/caches/xoops_cache/, xoops_data/caches/smarty_cache/ and  xoops_data/caches/smarty_compile/ writable.
    5. Access the folder where you installed the htdocs/ files using your web browser to launch the installation wizard
+
 
 Installing Protector in XOOPS
 -----------------------------------
-We also highly recommend the installation of the PROTECTOR module which will bring additional security protection and logging capabilities to your site:
-To install protector module with a fresh new installation of XOOPS, delete the mainfile.dist.php available at the xoops root, copy /extras/mainfile.dist.php.protector to /htdocs/mainfile.dist.php and rename it to mainfile.dist.php BEFORE installing XOOPS.
-To install protector module with upgrading from a previous version to XOOPS 2.3.1, delete the mainfile.dist.php available at the xoops root, copy /extras/mainfile.dist.php.protector to /upgrade/upd-2.0.18-to-2.3.0/mainfile.dist.php and rename it to mainfile.dist.php BEFORE upgrading XOOPS.
+We also highly recommend the installation of the PROTECTOR module which will bring additional security protection and logging capabilities to your site.
 
 
 Upgrading from a previous version
@@ -116,16 +104,17 @@ Upgrading from any XOOPS ranging from 2.0.7 to 2.0.13.2 (using the full package)
 
 
 Upgrading a non UTF-8 site:
-UTF-8 encoding has been introduced into XOOPS 2.3 as default charset. However, there might be some problems with converting existent websites from non UTF-8 charset to UTF-8.
-Before there is a good enough solution for this conversion, following settings are recommended when you upgrade an existent website if you are not an experienced user:
+UTF-8 encoding has been introduced into XOOPS 2.3 as default charset. However, there might be some problems with converting existing websites from non UTF-8 charset to UTF-8.
+Before there is a good enough solution for this conversion, following settings are recommended when you upgrade an existing website (if you are not an experienced user):
  - Select "Do not change" option in "Database character set and collation" step during upgrade process
- - Modify /languages/yourlanguage/global.php to use existent _CHARSET value if it has been changed to UTF-8 in your new global.php file as [code]define('_CHARSET', 'UTF-8');[/code]
+ - Modify /languages/yourlanguage/global.php to use your previous _CHARSET value if it has been changed to UTF-8 in your new global.php file as [code]define('_CHARSET', 'UTF-8');[/code]
 
 
-Upgrading XoopsEditor package:
-In the XOOPS package, there are five editors included: dhtmltextarea and textarea for plain text,  fckeditor, tinymce, koivi, wymeditor, Xinha, and Spaw2 for WYSIWYG HTML.
+XOOPS Editors Upgrade:
+In the XOOPS package, there are four Editors included: dhtmltextarea and textarea for plain text,  CKeditor and TinyMCE for WYSIWYG HTML. 
+There are six additional WYSIWYG Editors available: FCKeditor, Koivi, NiceEdit, Wymeditor, Xinha, and Spaw2 that you can download from XOOPS SourceForge (https://sourceforge.net/projects/xoops/files/XOOPS%20Editors/)
 Since there are some directory structure changes in both fckeditor and tinymce editors, you are recommended to remove existent editors before uploading the new additors.
-And if you are using fckeditor for modules, please modify module specific configs following the files in /fckeditor/modules/, especially if you use "article" module.
+And if you are using FCKeditor for modules, please modify module specific configs following the files in /fckeditor/modules/, especially if you use "Article" module.
 
 
 Debug information display level
@@ -133,7 +122,7 @@ Debug information display level
 
 Since XOOPS 2.3.1 debug information display level is enabled as a temporary solution for 2.3* to show debug information to different level of users: to all users, to members or to admins only.
 The configuration can be set in /xoops_data/configs/xoopsconfig.php
-A new debug information renderer is redesigned in XOOPS 3.0
+A new debug information tools will be available for 2.4 using FireBug (see http://tinyurl.com/nmnjdp)
 
 
 
@@ -163,4 +152,4 @@ Release announcement: https://lists.sourceforge.net/lists/listinfo/xoops-announc
 
 
 XOOPS Development Team
-September 12th, 2009
+October 25, 2009
