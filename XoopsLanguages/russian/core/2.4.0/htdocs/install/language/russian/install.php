@@ -20,6 +20,10 @@
 
 define( "SHOW_HIDE_HELP", "Показать/Скрыть текстовые подсказки" );
 
+// License
+define('LICENSE_NOT_WRITEABLE', 'License is %s . <br/><font style="colour:#ff0000">Make ../include/license.php Writable</font>');
+define('LICENSE_IS_WRITEABLE', 'Лицензия %s');
+
 // Configuration check page
 define( "SERVER_API", "Сервер API" );
 define( "PHP_EXTENSION", "Расширение %s " );

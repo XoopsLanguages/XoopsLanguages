@@ -229,5 +229,5 @@ define('XOOPS_USE_MULTIBYTES', '1');
 * Additions to 2.4.0
 **/
 define('_RESET', 'Сброс');
-
+define('_RE', 'Re:');
 ?>

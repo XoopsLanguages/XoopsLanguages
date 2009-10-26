@@ -1,10 +1,6 @@
 <?php
 
 // mymenu
-
-
-
-// Appended by Xoops Language Checker -GIJOE- in 2008-12-03 11:47:20
 define('_AM_ADV_TRUSTPATHPUBLIC','If you can look an image -NG- or the link returns normal page, your XOOPS_TRUST_PATH is not placed properly. The best place for XOOPS_TRUST_PATH is outside of DocumentRoot. If you cannot do that, you have to put .htaccess (DENY FROM ALL) just under XOOPS_TRUST_PATH as the second best way.');
 define('_AM_ADV_TRUSTPATHPUBLICLINK','Check php files inside TRUST_PATH are private (it must be 404,403 or 500 error');
 
@@ -63,22 +59,11 @@ define("_AM_ADV_USETRANSSID","ID вашей сессии отображаетс�
 define("_AM_ADV_DBPREFIX","Текущее значение префикса таблиц БД позволяет проводить класс т.н. 'SQL Injecting' атак.<br />Не забудьте включить 'Принудительную очистку переменных *' в конфигурационном разделе этого модуля.");
 define("_AM_ADV_LINK_TO_PREFIXMAN","Перейти к разделу управления префиксами БД.");
 define("_AM_ADV_MAINUNPATCHED","Вы должны отредактировать Ваш файл mainfile.php так, как это описано в README.");
-//define("_AM_ADV_RESCUEPASSWORD","Пароль для снятия бана ?вашего IP");
-//define("_AM_ADV_RESCUEPASSWORDUNSET","Не установлен");
-//define("_AM_ADV_RESCUEPASSWORDSHORT","Слишко?короткий (минимальная длин?6 символов)");
+define("_AM_ADV_DBFACTORYPATCHED","Your databasefactory is ready for DBLayer Trapping anti-SQL-Injection");
+define("_AM_ADV_DBFACTORYUNPATCHED","Your databasefactory is not ready for DBLayer Trapping anti-SQL-Injection. Some patches are required.");
 
 define("_AM_ADV_SUBTITLECHECK","Проверка работоспособности");
-//define("_AM_ADV_AT1STSETPASSWORD","Установите ва?резервны?пароль пере?проверко?");
 define("_AM_ADV_CHECKCONTAMI","Порча переменных");
 define("_AM_ADV_CHECKISOCOM","Изолированные комментарии");
-
-// Localization by ezsky
-define("_AM_EZ_PREFIX", "Префикс");
-define("_AM_EZ_TABLES", "Всего таблиц");
-define("_AM_EZ_UPDATED", "Последнее обновление");
-define("_AM_EZ_COPY", "Копировать Базу");
-define("_AM_EZ_ACTIONS", "Действие");
-define("_AM_EZ_BACKUP", "Бекап");
-define("_AM_EZ_DELETE", "Удалить");
 
 ?>
