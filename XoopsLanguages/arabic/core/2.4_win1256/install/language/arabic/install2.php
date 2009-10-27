@@ -1,8 +1,13 @@
 <?php
-// $Id: install2.php 3192 2009-04-19 15:14:21Z catzwolf $
+// $Id: install2.php 3768 2009-10-23 08:37:41Z wishcraft $
 // _LANGCODE: ar
 // _CHARSET : windows-1256
 // Translator: Arab XOOPS Team
+
+// License
+define('LICENSE_NOT_WRITEABLE', 'דבÝ ÇבÊÑÎםÕ %s . <br/><font style="colour:#ff0000">ÇÌÚב ÇבדבÝ ../include/license.php ÞÇÈב בב‗ÊÇÈÉ Úבםו</font>');
+define('LICENSE_IS_WRITEABLE', 'דבÝ ÇבÊÑÎםÕ %s');
+
 define("_INSTALL_WEBMASTER","ÇבדÏםÑ");
 define("_INSTALL_WEBMASTERD","דÌדזÚÉ דÏÑÇÁ ÇבדזÞÚ");
 define("_INSTALL_REGUSERS","ÇבÃÚÖÇÁ");
