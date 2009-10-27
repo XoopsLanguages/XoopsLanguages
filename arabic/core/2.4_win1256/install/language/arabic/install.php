@@ -11,7 +11,7 @@
  * @author      Skalpa Keo <skalpa@xoops.org>
  * @author      Taiwen Jiang <phppp@users.sourceforge.net>
  * @author      dugris <dugris@frxoops.org>
- * @version     $Id: install.php 2717 2009-01-23 09:47:30Z phppp $
+ * @version     $Id: install.php 3768 2009-10-23 08:37:41Z wishcraft $
  */
 
 // _LANGCODE: ar
@@ -19,6 +19,10 @@
 // Translator: Arab XOOPS Team
 
 define( "SHOW_HIDE_HELP", "«ŸÂ«— Ÿ «Œ›«¡ ‰’ «·„”«⁄œ…" );
+
+// License
+define('LICENSE_NOT_WRITEABLE', '„·› «· —ŒÌ’ %s . <br/><font style="colour:#ff0000">«Ã⁄· «·„·› ../include/license.php ﬁ«»· ··ﬂ «»… ⁄·ÌÂ</font>');
+define('LICENSE_IS_WRITEABLE', '„·› «· —ŒÌ’ %s');
 
 // Configuration check page
 define( "SERVER_API", "Server API" );
