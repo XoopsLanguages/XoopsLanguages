@@ -19,8 +19,8 @@
 define( "SHOW_HIDE_HELP", "نمایش/عدم‌نمایش متن راهنما" );
 
 // License
-define('LICENSE_NOT_WRITEABLE', 'مجوز %s است . <br/><font style="colour:#ff0000">به فایل ../include/license.php  دسترسی نوشتن بدهید</font>');
-define('LICENSE_IS_WRITEABLE', 'مجوز %s است ');
+define('LICENSE_NOT_WRITEABLE', 'فایل license قابل نوشتن نیست .<br/> %s <br/><font style="colour:#ff0000">به فایل ../include/license.php  دسترسی نوشتن بدهید</font>');
+define('LICENSE_IS_WRITEABLE', 'فایل license قابل نوشتن است . %s');
 
 // Configuration check page
 define( "SERVER_API", "API کارگزار" );
