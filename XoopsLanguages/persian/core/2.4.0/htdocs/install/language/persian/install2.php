@@ -2,8 +2,8 @@
 // _LANGCODE: fa// _CHARSET : UTF-8// Translator: XOOPS Translation Team
 
 // License
-define('LICENSE_NOT_WRITEABLE', 'مجوز %s است . <br/><font style="colour:#ff0000">به فایل ../include/license.php  دسترسی نوشتن بدهید</font>');
-define('LICENSE_IS_WRITEABLE', 'مجوز %s است ');
+define('LICENSE_NOT_WRITEABLE', 'فایل license قابل نوشتن نیست .<br/> %s <br/><font style="colour:#ff0000">به فایل ../include/license.php  دسترسی نوشتن بدهید</font>');
+define('LICENSE_IS_WRITEABLE', 'فایل license قابل نوشتن است . %s');
 
 define("_INSTALL_WEBMASTER","وب‌مسترها");
 define("_INSTALL_WEBMASTERD","وب‌مسترهای این سایت");
