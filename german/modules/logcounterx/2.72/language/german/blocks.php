@@ -8,4 +8,5 @@ define("_LCX_BLK_YESTERDAY","Gestern : ");
 define("_LCX_BLK_WEEK",		"Diese Woche : ");
 define("_LCX_BLK_MONTH",	"Diesen Monat : ");
 define("_LCX_BLK_AVE",		"Durchschnitt : ");
+
 ?>

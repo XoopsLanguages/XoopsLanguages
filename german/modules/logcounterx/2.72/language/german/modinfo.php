@@ -2,7 +2,7 @@
 if (!defined('XOOPS_ROOT_PATH')) { exit(); }
 
 define('_LCX_MI_NAME',	'LogCounter');
-define('_LCX_MI_DESC',	'Counter für ImpressCMS');
+define('_LCX_MI_DESC',	'Counter für Xoops mit Auswertung');
 
 define("_LCX_MI_CONF_NAME",	'LogCounter Einstellungen');
 define("_LCX_MI_GENCONF", 	'Allgemeine Einstellungen');
@@ -19,4 +19,5 @@ define('_LCX_MI_CTR_NAME',	'Counter');
 define('_LCX_MI_CTR_DESC',	'Counter');
 define('_LCX_MI_INC_NAME',	'Count-Up');
 define('_LCX_MI_INC_DESC',	'Count-Up (Unsichtbar)');
+
 ?>
