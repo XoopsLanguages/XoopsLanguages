@@ -11,7 +11,7 @@ define('_MI_SITEMAP_BLOCKNAME', 'Sitemap');
 define('_MI_SITEMAP_BLOCKDESC', 'Zeigt die Sitemap als einen Block an.');
 
 define('_MI_MESSAGE', 'Nachricht');
-define('_MI_MESSAGEEDSC', 'Die Information steht im Kopf des Modules, wenn das Modul aufgerufen wird. Diese Nachricht kann auch komplett entfernt werden.');
+define('_MI_MESSAGEEDSC', '');
 
 define('_MI_SHOW_SUBCATEGORIES', 'Zeige Unterkategorien');
 define('_MI_SHOW_SUBCATEGORIESDSC', '');
@@ -23,5 +23,6 @@ define('_MI_INVISIBLE_WEIGHTS', 'Reihenfolge für versteckte Module');
 define('_MI_INVISIBLE_WEIGHTSDSC', 'Module mit diesen Nummern als Sortierreihenfolge in ModuleAdmin werden unsichtbar. Die Nummern müssen durch ein Komma getrennt sein!.<br />(normalerweise 0 oder leer)');
 
 define('_MI_INVISIBLE_DIRNAMES', 'Verzeichnisnamen der versteckten Module');
-define('_MI_INVISIBLE_DIRNAMESDSC', "Legt die Namen der zu versteckenden Module fest.<br />Verzeichnisnamen müssen durch ein Komma getrennt sein.<br />Beispiel: news,newbb");
+define('_MI_INVISIBLE_DIRNAMESDSC', "Legt die Namen der zu versteckenden Module fest.<br />Verzeichnisnamen müssen durch ein Komma getrennt sein.<br />eg) xoopsheadline,newbb");
+
 ?>
