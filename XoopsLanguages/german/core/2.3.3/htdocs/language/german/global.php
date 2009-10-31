@@ -1,10 +1,9 @@
 <?php
-// $Id: global.php 2755 2009-02-08 13:37 dhcst $
-// _LANGCODE: de
-// _CHARSET : UTF-8
-// Translator: XOOPS Translation Team
-
-//%%%%%%    File Name mainfile.php     %%%%%
+// $Id: global.php 747 2006-09-20 20:42:11Z skalpa $
+//%%%%%%	File Name mainfile.php 	%%%%%
+// german v 1.4 2008/01/08 sato-san / Rene Sato / www.XOOPS-magazine.com $
+// Code : UTF-8
+// Letzte Bearbeitung 18.09.2008 / Feichtl
 define("_PLEASEWAIT","Bitte warten");
 define("_FETCHING","Lade...");
 define("_TAKINGBACK","Sie werden auf wieder auf die vorherige Seite zurückgebracht...");
@@ -27,10 +26,16 @@ define("_NEWESTFIRST","Neueste zuerst");
 define("_MORE","mehr...");
 define("_MULTIPAGE","Wenn Ihre Artikel mehrere Seiten umfassen, fügen Sie das Wort <font color=red>[pagebreak]</font> (in Klammern) in den Artikel ein.");
 define("_IFNOTRELOAD","Wenn die Seite nicht automatisch neu lädt, klicken Sie bitte <a href=%s>HIER</a>");
+define("_WARNINSTALL2","WARNUNG: Das Verzeichnis %s existiert noch auf dem Server. Entfernen Sie bitte dieses Verzeichnis aus Sicherheitsgründen.");
+define("_WARNINWRITEABLE","WARNUNG: Die Datei %s ist nicht schreibgeschützt auf dem Server. <br />Bitte setzen Sie die Zugriffsrechte richtig. Ansonsten wird das zu einem Sicherheitsrisiko!<br /> (unter Unix (444), unter Win32 (schreibgeschützt))");
+define("_WARNINNOTWRITEABLE","WARNUNG: Verzeichnis %s ist nicht beschreibbar vom Server. <br />Bitte ändern Sie die Schreibrechte dieses Ordners.<br /> für Unix (777), für Windows (readable)");
+define("_WARNINXOOPSLIBINSIDE","WARNUNG: Verzeichnis %s ist innerhalb des DocumentRoot! In diesem Ordner befinden sich sensible Daten. Dieser sollte daher vor Zugriffen aus dem Web geschützt werden.");
+
 
 // Error messages issued by XoopsObject::cleanVars()
 define( "_XOBJ_ERR_REQUIRED", "%s ist erforderlich" );
 define( "_XOBJ_ERR_SHORTERTHAN", "%s muss mehr als %d Zeichen haben." );
+
 
 //%%%%%%        File Name themeuserpost.php         %%%%%
 define("_PROFILE","Konto");
@@ -75,16 +80,15 @@ define("_LEFT","Links");
 define("_CENTER","Mittig");
 define("_RIGHT","Rechts");
 define("_FORM_ENTER", "Bitte geben Sie %s ein");
+// %s represents file name
 define("_MUSTWABLE","Datei %s muss durch den Server beschreibbar sein!");
-
 // Module info
 define('_PREFERENCES', 'Einstellungen');
 define("_VERSION", "Version");
 define("_DESCRIPTION", "Beschreibung");
-define("_AUTHOR", "Autor");
-define("_CREDITS", "Impressum");
-define("_LICENCE", "Lizens");
 define("_ERRORS", "Fehler");
+define("_CREDITS", "Impressum");
+define("_LICENCE", "Lizenz");
 define("_NONE", "Kein");
 define('_ON','am');
 define('_READS','x gelesen');
@@ -154,7 +158,10 @@ define("_ALLOWEDCHAR","Erlaubte maximale Textlänge: ");
 define("_CURRCHAR","Momentane Textlänge: ");
 define("_PLZCOMPLETE","Bitte füllen Sie alle erforderlichen Felder aus.");
 define("_MESSAGETOOLONG","Ihre Nachricht ist zu lang.");
-
+//%%%%%  MMMM
+define("_XOOPS_FORM_PREVIEW_CONTENT","Vorschau");
+define("_AUTHOR","Autor");
+//%%%%%
 //%%%%%                TIME FORMAT SETTINGS   %%%%%
 define('_SECOND', '1 Sekunde');
 define('_SECONDS', '%s Sekunden');
@@ -167,7 +174,7 @@ define('_DAYS', '%s Tage');
 define('_WEEK', '1 Woche');
 define('_MONTH', '1 Monat');
 
-define("_DATESTRING","d.m.Y H:i:s");
+define("_DATESTRING","d.m.Y H:i");
 define("_MEDIUMDATESTRING","d.m.Y H:i");
 define("_SHORTDATESTRING","d.m.Y");
 /*
@@ -200,13 +207,12 @@ z - day of the year; i.e. "0" to "365"
 Z - timezone offset in seconds (i.e. "-43200" to "43200")
 */
 
-
 //%%%%%                LANGUAGE SPECIFIC SETTINGS   %%%%%
 define('_CHARSET', 'UTF-8');
 define('_LANGCODE', 'de');
 
 // change 0 to 1 if this language is a multi-bytes language
 define("XOOPS_USE_MULTIBYTES", "0");
-// change 0 to 1 if this language written right-to-left (RTL)
-define('XOOPS_USE_RTL', '0');
+
+define("_REQUIRED", "erforderlich");
 ?>
