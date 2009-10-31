@@ -8,6 +8,8 @@
  but WITHOUT ANY WARRANTY; without even the implied warranty of
  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 */
+// Code : UTF-8
+// Letzte Bearbeitung 18.09.2008 / Feichtl
 
 /**
  * Xoops locale
@@ -17,24 +19,25 @@
  * @package         kernel
  * @since           2.3.0
  * @author          Taiwen Jiang <phppp@users.sourceforge.net>
- * @version         $Id: locale.php 2224 2009-02-08 12:25 dhcst $
+ * @version         $Id: locale.php 1530 2008-05-01 09:22:47Z phppp $
  * @todo            To be handled by i18n/l10n
+ * Code				UTF-8 by Muki
  */
 
-setlocale(LC_ALL, 'de_DE');
+//setlocale(LC_ALL, 'de_DE');
 
 // !!IMPORTANT!! insert '\' before any char among reserved chars: "a", "A", "B", "c", "d", "D", "F", "g", "G", "h", "H", "i", "I", "j", "l", "L", "m", "M", "n", "O", "r", "s", "S", "t", "T", "U", "w", "W", "Y", "y", "z", "Z"
 // insert double '\' before 't', 'r', 'n'
 define("_TODAY", "\H\e\u\\t\e H:i");
 define("_YESTERDAY", "\G\e\s\\t\e\\r\\n H:i");
-define("_MONTHDAY", "d.m H:i");
-define("_YEARMONTHDAY", "d.m.Y H:i");
+define("_MONTHDAY", "d.m.Y H:i");
+define("_YEARMONTHDAY", "d.m.Y");
 
 define("_ELAPSE", "%s zuvor");
 
 define("_TIMEFORMAT_DESC", "Gültige Formate: \"s\" - " . _SHORTDATESTRING . "; \"m\" - " . _MEDIUMDATESTRING . "; \"l\" - " . _DATESTRING . ";<br />".
                             "\"c\" oder \"custom\" - Ein eigenes Format zu erstellen oder wähle; \"e\" - Elapsed; \"mysql\" - Y-m-d H:i:s;<br />".
-                            "Spezielles Format - Siehe dazu das <a href=\"http://php.net/manual/de/function.date.php\" rel=\"external\">PHP Handbuch</a>."
+                            "specified string - Refer to <a href=\"http://php.net/manual/de/function.date.php\" rel=\"external\">PHP Handbuch</a>."
                             );
 
 class XoopsLocal extends XoopsLocalAbstract
@@ -42,7 +45,7 @@ class XoopsLocal extends XoopsLocalAbstract
 
     function number_format($number)
     {
-        return number_format($number, 2, '.', '.');
+        return number_format($number, 2, '.', ',');
     }
 
     function money_format($format, $number)
