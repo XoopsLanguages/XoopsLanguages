@@ -178,4 +178,7 @@ define('_MI_NEWS_TAGS', "Brug tags system ?");
 define('_MI_NEWS_TAGS_DSC', "Dette er baseret på modulet Tag fra phppp");
 define("_MI_NEWS_BNAME10", "Tags sky");
 define("_MI_NEWS_BNAME11", "Største Tags");
+define("_MI_NEWS_INTRO_TEXT", "Introduktionstekst der vises på submitsiden");
+define("_MI_NEWS_IMAGE_MAX_WIDTH", "Max bredde på billede når størst");
+define("_MI_NEWS_IMAGE_MAX_HEIGHT", "Max højde på billede når størst");
 ?>
