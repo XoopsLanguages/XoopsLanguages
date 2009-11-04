@@ -112,5 +112,7 @@ define('_NW_BOOKMARK_TO_SPURL', 'Bookmark til Spurl');
 define('_NW_BOOKMARK_TO_YAHOO', 'Bookmark til Yahoo');
 
 // Added in version 1.56
-define('_NW_NOTYETSTORY',"Desværre, den valgte nyhed er ikke offentligjort endnu. Kom tilbage senere.");
+define('_NW_NOTYETSTORY',"Desværre, den valgte nyhed er endnu ikke publiceret. Prøv igen senere.");
+define('_NW_SELECT_IMAGE', "Vælg et billede til nyheden.");
+define('_NW_CURENT_PICTURE', "Nuværende billede");
 ?>
