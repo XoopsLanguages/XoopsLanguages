@@ -19,7 +19,9 @@
 // Translator: Anders Kristiansen (anderssk) www.xoopsnordic.org
 
 define( "SHOW_HIDE_HELP", "Vis/skjul hj&aelig;lpe tekst" );
-
+// License
+define('LICENSE_NOT_WRITEABLE', 'Licens er %s . <br/><font style="colour:#ff0000">g&oslash;r ../include/license.php skrivbar</font>');
+define('LICENSE_IS_WRITEABLE', 'Licens er %s');
 // Configuration check page
 define( "SERVER_API", "Server API" );
 define( "PHP_EXTENSION", "%s udvidelser" );

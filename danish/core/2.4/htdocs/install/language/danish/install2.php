@@ -1,11 +1,28 @@
 <?php
 // $Id: install2.php,v 1.7 2005/08/08 06:29:16 skalpa Exp $
+
+// _LANGCODE: da
+// _CHARSET : UTF-8
+// Translator: Anders Kristiansen (anderssk) www.xoopsnordic.org
+
 define("_INSTALL_WEBMASTER","Webmasters");
 define("_INSTALL_WEBMASTERD","Webmastere af dette websted");
 define("_INSTALL_REGUSERS","Registrede brugere");
 define("_INSTALL_REGUSERSD","Registrede bruger grupper");
 define("_INSTALL_ANONUSERS","Anonyme brugere");
 define("_INSTALL_ANONUSERSD","Anonyme bruger grupper");
+/**
+* New Group types
+*/
+define('_INSTALL_BANNEDUSERS', 'Uvelkomne brugere');
+define('_INSTALL_BANNEDUSERSD', 'Uvlekomne brugere gruppe');
+define('_INSTALL_MODERATORUSERS', 'Moderatorer');
+define('_INSTALL_MODERATORUSERSD', 'Dette er Moderatorerne på din side');
+define('_INSTALL_SUBMITTERUSERS', 'Indsender');
+define('_INSTALL_SUBMITTERUSERSD', 'Denne gruppe kan indsende artikler på din side');
+define('_INSTALL_DEVELOPEUSERS', 'Udvikler');
+define('_INSTALL_DEVELOPEUSERSD', 'Denne bruger har udvikler rettigheder og kan se specielle fejlkoder.');
+
 
 define("_INSTALL_L165","Webstedet er i øjeblikket lukket for vedligeholdelse. venligst igen senere.");
 
