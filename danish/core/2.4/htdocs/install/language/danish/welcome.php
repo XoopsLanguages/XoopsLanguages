@@ -28,9 +28,8 @@ $content .= '
 <li>Forbered database til XOOPS sitet.</li>
 <li>Forbered din bruger konto og adgangsrettigheder til databasen.</li>
 <li>G&oslash;r f&oslash;lgende mapper og filer skrivbare: %s</li>
-<li>Hvis du &oslash;nsker at installerer <em>protector</em> modulet, <div class="confirmMsg">Erstat s&aring; filen <em>mainfile.dist.php</em> med den du finder i XOOPS mappen <em>/extras/mainfile.dist.php.protector</em>.</div></li>   
-<li>Af sikkerhedsm&aelig;ssige &aring;rsager, anbefales det at flytte mapperne <em>xoops_lib</em> (til XOOPS libraries) og <em>xoops_data</em> (til XOOPS data) ud af <a href="http://phpsec.org/projects/guide/3.html" rel="external">document root</a>, og/eller &aelig;ndre folder-navnene.</li>
-<li>Opret og g&oslash;r f&oslash;lgende mapper skrivbare: %s</li>
+<li>Af sikkerhedsm&aelig;ssige &aring;rsager, anbefales det at flytte f&oslash;lgende to mapper ud af <a href="http://phpsec.org/projects/guide/3.html" rel="external">document root</a>, og &aelig;ndre folder-navnene. %s</li>
+<li>Opret (hvis de ikke findes) og g&oslash;r f&oslash;lgende mapper skrivbare: %s</li>
 <li>Tillad  cookie og JavaScript i din browser.</li>
 </ol>
 ';
