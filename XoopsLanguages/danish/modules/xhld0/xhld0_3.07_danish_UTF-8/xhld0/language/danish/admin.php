@@ -41,7 +41,6 @@ define('_AM_INVALIDID', 'Ugyldig ID');
 define('_AM_OBJECTNG', 'Emnet fandtes ikke');
 define('_AM_FAILUPDATE', 'Det lykkedes ikke at gemme data i database for overskrift %s');
 define('_AM_FAILDELETE', 'Det lykkedes ikke at slette data i datebasen for overskrift %s');
-
 }
 
 ?>
