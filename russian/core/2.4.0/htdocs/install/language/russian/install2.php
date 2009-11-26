@@ -5,7 +5,7 @@
 // Translator: 2009-09-14 andrey3761
 
 // License
-define('LICENSE_NOT_WRITEABLE', 'License is %s . <br/><font style="colour:#ff0000">Make ../include/license.php Writable</font>');
+define('LICENSE_NOT_WRITEABLE', 'Лицензия %s . <br/><font style="colour:#ff0000">Установите файлу ../include/license.php права на запись.</font>');
 define('LICENSE_IS_WRITEABLE', 'Лицензия %s');
 
 define("_INSTALL_WEBMASTER","Web-Мастеры");
