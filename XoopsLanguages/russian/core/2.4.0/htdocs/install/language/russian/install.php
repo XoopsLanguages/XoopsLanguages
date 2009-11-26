@@ -21,7 +21,7 @@
 define( "SHOW_HIDE_HELP", "Показать/Скрыть текстовые подсказки" );
 
 // License
-define('LICENSE_NOT_WRITEABLE', 'License is %s . <br/><font style="colour:#ff0000">Make ../include/license.php Writable</font>');
+define('LICENSE_NOT_WRITEABLE', 'Лицензия %s . <br/><font style="colour:#ff0000">Установите файлу ../include/license.php права на запись.</font>');
 define('LICENSE_IS_WRITEABLE', 'Лицензия %s');
 
 // Configuration check page
