@@ -1,6 +1,6 @@
 Hej {X_UNAME},
 
-En ny fil "{FILE_NAME}" er tilføjet {X_SITENAME}.
+En ny fil "{FILE_NAME}" er tilføjet på {X_SITENAME}.
 
 Du kan få vist filen her:
 {FILE_URL}

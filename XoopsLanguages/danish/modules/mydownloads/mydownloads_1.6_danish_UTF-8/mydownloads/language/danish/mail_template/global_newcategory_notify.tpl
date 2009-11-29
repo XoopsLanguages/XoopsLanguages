@@ -1,6 +1,6 @@
 Hej {X_UNAME},
 
-En ny fil-kategori "{CATEGORY_NAME}" er oprettet på{X_SITENAME}.
+En ny fil-kategori "{CATEGORY_NAME}" er oprettet på {X_SITENAME}.
 
 Klik på dette link for at få vist fil-kategorien:
 {CATEGORY_URL}
