@@ -5,6 +5,7 @@ define("_AM_DBUPDATED",_MD_AM_DBUPDATED);
 
 define('_AM_CURACTBNR', 'Aktive Bannere');
 define('_AM_BANNERID', 'Banner ID');
+define("_AM_CLIENTID","Klient ID");
 define('_AM_IMPRESION', 'Aftryk');
 define('_AM_IMPLEFT', 'Aftryk tilbage');
 define('_AM_CLICKS', 'Klik');
