@@ -1,0 +1,73 @@
+<br /><br />
+<p align="center">
+    <a href="<{$xoops_url}>/modules/TDMDownloads/index.php"><img src="<{$xoops_url}>/modules/TDMDownloads/images/logo-en.gif" alt="" border="0" /></a>
+</p>
+
+<b><{$navigation}></b>
+<br /><br />
+<div style="border-bottom: 1px #333 solid;"></div>
+
+<table>
+    <tr>
+        <{if $show_screenshot == true}>
+        <td style="width: <{$shotwidth}>px; vertical-align: top;">
+            <img style="margin-top: 1em; margin-right: 1em; padding-right: 4px;" src="<{$logourl}>" width="<{$shotwidth}>" alt="" />
+        </td>
+        <{/if}>
+        <td style="vertical-align: middle;">
+            <div style="font-size: 1.5em;">
+                <{$title}>&nbsp;<{$adminlink}>
+            </div>
+        </td>
+    </tr>
+</table>
+<table width="100%" border="0">
+    <tr>
+        <td width="70%" align="right">
+            <p style="margin-right: 40px"><{$description}></p>
+        </td>
+        <td width="30%" align="right">
+            <div style="border: 1px solid #333; text-align: right; min-width: 220px; font-size: 10px; padding: .5em; margin-top: .5em; line-height: 14px;">
+                <p style="background: url(<{$xoops_url}>/modules/TDMDownloads/images/icon/date.png) no-repeat right; padding-right: 20px;">&nbsp;<{$smarty.const._MD_TDMDOWNLOADS_SINGLEFILE_DATEPROP}>:&nbsp;<{$date}></p>
+                <p style="background: url(<{$xoops_url}>/modules/TDMDownloads/images/icon/author.png) no-repeat right ; padding-right: 20px;">&nbsp;<{$smarty.const._MD_TDMDOWNLOADS_SINGLEFILE_AUTHOR}>:&nbsp;<{$author}></p>
+                <p style="background: url(<{$xoops_url}>/modules/TDMDownloads/images/icon/hits.png) no-repeat right; padding-right: 20px;">&nbsp;<{$hits}></p>
+                <p style="background: url(<{$xoops_url}>/modules/TDMDownloads/images/icon/votes.png) no-repeat right; padding-right: 20px;">&nbsp;<{$smarty.const._MD_TDMDOWNLOADS_SINGLEFILE_RATING}>:&nbsp;<{$rating}>&nbsp;<{$votes}></p>
+                <p style="background: url(<{$xoops_url}>/modules/TDMDownloads/images/icon/comments.png) no-repeat right; padding-right: 20px;">&nbsp;<{$nb_comments}></p>
+            </div>
+            <{if $sup_aff == true}>
+            <div style="border: 1px solid #333; text-align: right; min-width: 220px; font-size: 10px; padding: .5em; margin-top: .5em; line-height: 14px;">
+                <{foreach item=champ from=$champ_sup}>
+                <p style="background: url(<{$champ.image}>) no-repeat right; padding-right: 20px;"><{$champ.data}></p>
+                <{/foreach}>
+            </div>
+            <{/if}>
+            <div style="border: 1px solid #333; text-align: right; min-width: 220px; font-size: 10px; padding: .5em; margin-top: .5em; line-height: 14px;">
+                <{if $perm_vote != ""}>
+                <p style="background: url(<{$xoops_url}>/modules/TDMDownloads/images/icon/torate.png) no-repeat right; padding-right: 20px;"><a href="<{$xoops_url}>/modules/TDMDownloads/ratefile.php?lid=<{$lid}>" title="<{$smarty.const._MD_TDMDOWNLOADS_SINGLEFILE_RATHFILE}>">&nbsp;<{$smarty.const._MD_TDMDOWNLOADS_SINGLEFILE_RATHFILE}></a></p>
+                <{/if}>
+                <{if $perm_modif != ""}>
+                <p style="background: url(<{$xoops_url}>/modules/TDMDownloads/images/icon/tomodify.png) no-repeat right; padding-right: 20px;"><a href="<{$xoops_url}>/modules/TDMDownloads/modfile.php?lid=<{$lid}>" title="<{$smarty.const._MD_TDMDOWNLOADS_SINGLEFILE_MODIFY}>">&nbsp;<{$smarty.const._MD_TDMDOWNLOADS_SINGLEFILE_MODIFY}></a></p>
+                <{/if}>
+                <p style="background: url(<{$xoops_url}>/modules/TDMDownloads/images/icon/toreport.png) no-repeat right; padding-right: 20px;"><a href="<{$xoops_url}>/modules/TDMDownloads/brokenfile.php?lid=<{$lid}>" title="<{$smarty.const._MD_TDMDOWNLOADS_SINGLEFILE_REPORTBROKEN}>">&nbsp;<{$smarty.const._MD_TDMDOWNLOADS_SINGLEFILE_REPORTBROKEN}></a></p>
+                <p style="background: url(<{$xoops_url}>/modules/TDMDownloads/images/icon/totell.png) no-repeat right; padding-right: 20px;">&nbsp;<{$tellafriend_texte}></p>
+            </div>
+            <div style="border: 1px solid #333; text-align: right; min-width: 220px; margin-top: .5em;">
+                <p style="background: url(<{$xoops_url}>/modules/TDMDownloads/images/icon/download-now.png) no-repeat right; padding: 5px 25px 0 25px; line-height: 18px; font-size: 1.1em"><a href='visit.php?cid=<{$cid}>&amp;lid=<{$lid}>' target='_blank'>&nbsp;<{$smarty.const._MD_TDMDOWNLOADS_INDEX_DLNOW}></a></p>
+            </div>
+        </td>
+    </tr>
+</table>
+<div style="text-align: center; padding: 3px; margin:3px;">
+  <{$commentsnav}>
+  <{$lang_notice}>
+</div>
+<div style="margin:3px; padding: 3px;">
+<{if $comment_mode == "flat"}>
+  <{include file="db:system_comments_flat.html"}>
+<{elseif $comment_mode == "thread"}>
+  <{include file="db:system_comments_thread.html"}>
+<{elseif $comment_mode == "nest"}>
+  <{include file="db:system_comments_nest.html"}>
+<{/if}>
+</div>
+<{include file="db:system_notification_select.html"}>

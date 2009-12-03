@@ -1,0 +1,26 @@
+<div style="margin: 10px 0 50px 0; border-bottom: 1px solid #333; padding-bottom: 5px;">
+<table>
+    <tr>
+        <{if $show_screenshot == true}>
+        <td style="width: <{$shotwidth}>px; vertical-align: top;" align="right">
+            <img style="margin-top: 1em; margin-right: 1em; padding-right: 4px;" src="<{$down.logourl}>" width="<{$shotwidth}>" alt="" />
+        </td>
+        <{/if}>
+        <td align="right">
+            <div style="font-size: 1.5em; margin-top: 0.5em;">
+                <a href="visit.php?cid=<{$down.cid}>&amp;lid=<{$down.id}>" rel="external" title="<{$smarty.const._MD_TDMDOWNLOADS_INDEX_DLNOW}>"><img src="<{$xoops_url}>/modules/TDMDownloads/images/icon/download-now.png" alt="<{$smarty.const._MD_TDMDOWNLOADS_INDEX_DLNOW}>" /></a>
+                <a href="<{$xoops_url}>/modules/TDMDownloads/singlefile.php?cid=<{$down.cid}>&amp;lid=<{$down.id}>" title="<{$smarty.const._MD_TDMDOWNLOADS_MOREDETAILS}>"><{$down.title}></a>&nbsp;<{$down.adminlink}>
+            </div>
+            <div style="font-size: 0.8em; margin-top: 0.5em; margin-bottom: 0.5em;<{if $show_screenshot == false}>margin-right: 28px;<{/if}>">
+                <{$smarty.const._MD_TDMDOWNLOADS_INDEX_SUBMITDATE}>&nbsp;:&nbsp;<{$down.updated}>&nbsp;-&nbsp;<{$smarty.const._MD_TDMDOWNLOADS_INDEX_SUBMITTER}><{$down.submitter}>
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td align="right" <{if $show_screenshot == true}>colspan="2"<{/if}>>        
+            <div style="margin-right: 3.5em; margin-top: 1em;"><{$down.description_short}></div>
+            <div style="text-align: right; padding: 0 20px 0 0;"><a href="<{$xoops_url}>/modules/TDMDownloads/singlefile.php?cid=<{$down.cid}>&amp;lid=<{$down.id}>"><{$smarty.const._MD_TDMDOWNLOADS_MOREDETAILS}></a></div>
+        </td>
+    </tr>   
+</table>
+</div>
