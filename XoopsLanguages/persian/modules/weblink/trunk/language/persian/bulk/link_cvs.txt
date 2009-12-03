@@ -1,0 +1,5 @@
+Albany
+New York State Goverment,http://www.state.ny.us/,Address: State Capitol Albany NY 12224\nGovernor: George E. Pataki\n
+---
+New York City
+New York City Office,http://nyc.gov/,Address: City Hall New York NY 10007\nMayor: Michael R. Bloomberg\n

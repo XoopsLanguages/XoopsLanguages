@@ -1,0 +1,778 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Persian Kubrick theme\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2007-11-06 16:24+0330\n"
+"Last-Translator: علی <irani.2007@gmail.com>\n"
+"Language-Team: wp-persian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: persian\n"
+"X-Poedit-Country: Iran\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: C:\\Apache\\htdocs\\wp22\\wp-content\\themes\\default\n"
+"X-Poedit-SearchPath-0: D:\\xampp\\htdocs\\themewp\\wp-content\\themes\\default_fa\n"
+
+# C:\Apache\htdocs\wp22\wp-content\themes\default/404.php:5
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/404.php:5
+msgid "Error 404 - Not Found"
+msgstr "خطای ۴۰۴ - پیدا نشد"
+
+# C:\Apache\htdocs\wp22\wp-content\themes\default/archive.php:9
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/archive.php:9
+msgid "Archive for the "
+msgstr "بایگانی برای"
+
+# C:\Apache\htdocs\wp22\wp-content\themes\default/archive.php:9
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/archive.php:9
+msgid "Category"
+msgstr "دسته"
+
+# C:\Apache\htdocs\wp22\wp-content\themes\default/archive.php:12
+# C:\Apache\htdocs\wp22\wp-content\themes\default/archive.php:15
+# C:\Apache\htdocs\wp22\wp-content\themes\default/archive.php:18
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/archive.php:12
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/archive.php:15
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/archive.php:18
+msgid "Archive for"
+msgstr "بایگانی برای"
+
+# C:\Apache\htdocs\wp22\wp-content\themes\default/archive.php:21
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/archive.php:21
+msgid "Author Archive"
+msgstr "بایگانی نویسنده"
+
+# C:\Apache\htdocs\wp22\wp-content\themes\default/archive.php:24
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/archive.php:24
+msgid "Blog Archives"
+msgstr "بایگانی وب‌‌نامه (وبلاگ)"
+
+# C:\Apache\htdocs\wp22\wp-content\themes\default/archive.php:30
+# C:\Apache\htdocs\wp22\wp-content\themes\default/archive.php:50
+# C:\Apache\htdocs\wp22\wp-content\themes\default/index.php:23
+# C:\Apache\htdocs\wp22\wp-content\themes\default/search.php:10
+# C:\Apache\htdocs\wp22\wp-content\themes\default/search.php:27
+# C:\Apache\htdocs\wp22\wp-content\themes\default/single.php:8
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/archive.php:30
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/archive.php:50
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/index.php:23
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/search.php:10
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/search.php:27
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/single.php:8
+msgid "&laquo; Previous Entries"
+msgstr "&laquo; نوشته‌های پیشین"
+
+# C:\Apache\htdocs\wp22\wp-content\themes\default/archive.php:31
+# C:\Apache\htdocs\wp22\wp-content\themes\default/archive.php:51
+# C:\Apache\htdocs\wp22\wp-content\themes\default/index.php:24
+# C:\Apache\htdocs\wp22\wp-content\themes\default/search.php:11
+# C:\Apache\htdocs\wp22\wp-content\themes\default/search.php:28
+# C:\Apache\htdocs\wp22\wp-content\themes\default/single.php:9
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/archive.php:31
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/archive.php:51
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/index.php:24
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/search.php:11
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/search.php:28
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/single.php:9
+msgid "Next Entries &raquo;"
+msgstr "نوشته‌های بعدی &raquo;"
+
+# C:\Apache\htdocs\wp22\wp-content\themes\default/archive.php:36
+# C:\Apache\htdocs\wp22\wp-content\themes\default/index.php:10
+# C:\Apache\htdocs\wp22\wp-content\themes\default/search.php:18
+# C:\Apache\htdocs\wp22\wp-content\themes\default/single.php:13
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/archive.php:36
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/index.php:10
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/search.php:18
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/single.php:13
+msgid "Permanent Link to"
+msgstr "پیوند یکتا به"
+
+# C:\Apache\htdocs\wp22\wp-content\themes\default/archive.php:40
+# C:\Apache\htdocs\wp22\wp-content\themes\default/index.php:14
+# C:\Apache\htdocs\wp22\wp-content\themes\default/single.php:16
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/archive.php:40
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/attachment.php:18
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/index.php:14
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/single.php:16
+msgid "Read the rest of this entry &raquo;"
+msgstr "خواندن ادامه‌ی این نوشته &raquo;"
+
+# C:\Apache\htdocs\wp22\wp-content\themes\default/archive.php:43
+# C:\Apache\htdocs\wp22\wp-content\themes\default/index.php:17
+# C:\Apache\htdocs\wp22\wp-content\themes\default/search.php:21
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/archive.php:43
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/index.php:17
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/search.php:21
+msgid "Posted in"
+msgstr "نوشته شده در"
+
+# C:\Apache\htdocs\wp22\wp-content\themes\default/archive.php:43
+# C:\Apache\htdocs\wp22\wp-content\themes\default/index.php:17
+# C:\Apache\htdocs\wp22\wp-content\themes\default/search.php:21
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/archive.php:43
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/index.php:17
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/search.php:21
+msgid "Edit"
+msgstr "ویرایش"
+
+# C:\Apache\htdocs\wp22\wp-content\themes\default/archive.php:43
+# C:\Apache\htdocs\wp22\wp-content\themes\default/index.php:17
+# C:\Apache\htdocs\wp22\wp-content\themes\default/search.php:21
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/archive.php:43
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/index.php:17
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/search.php:21
+msgid "No Comments &#187;"
+msgstr "بدون پاسخ &#187;"
+
+# C:\Apache\htdocs\wp22\wp-content\themes\default/archive.php:43
+# C:\Apache\htdocs\wp22\wp-content\themes\default/index.php:17
+# C:\Apache\htdocs\wp22\wp-content\themes\default/search.php:21
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/archive.php:43
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/index.php:17
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/search.php:21
+msgid "1 Comment &#187;"
+msgstr "۱ پاسخ &#187;"
+
+# C:\Apache\htdocs\wp22\wp-content\themes\default/archive.php:43
+# C:\Apache\htdocs\wp22\wp-content\themes\default/index.php:17
+# C:\Apache\htdocs\wp22\wp-content\themes\default/search.php:21
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/archive.php:43
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/index.php:17
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/search.php:21
+msgid "% Comments &#187;"
+msgstr "% پاسخ &#187;"
+
+# C:\Apache\htdocs\wp22\wp-content\themes\default/archive.php:56
+# C:\Apache\htdocs\wp22\wp-content\themes\default/index.php:29
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/archive.php:56
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/index.php:29
+msgid "Not Found"
+msgstr "پیدا نشد"
+
+# C:\Apache\htdocs\wp22\wp-content\themes\default/archives.php:13
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/archives.php:13
+msgid "Archives by Month:"
+msgstr "بایگانی ماهیانه:"
+
+# C:\Apache\htdocs\wp22\wp-content\themes\default/archives.php:18
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/archives.php:18
+msgid "Archives by Subject:"
+msgstr "بایگانی موضوعی:"
+
+# C:\Apache\htdocs\wp22\wp-content\themes\default/page.php:11
+# C:\Apache\htdocs\wp22\wp-content\themes\default/single.php:18
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/attachment.php:20
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/page.php:11
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/single.php:18
+msgid "<p><strong>Pages:</strong> "
+msgstr "<p><strong>برگه‌ها (صفحات):</strong> "
+
+# C:\Apache\htdocs\wp22\wp-content\themes\default/single.php:22
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/attachment.php:24
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/single.php:22
+msgid "This entry was posted on"
+msgstr "نوشته شده در"
+
+# C:\Apache\htdocs\wp22\wp-content\themes\default/comments.php:36
+# C:\Apache\htdocs\wp22\wp-content\themes\default/single.php:27
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/attachment.php:29
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/comments.php:36
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/single.php:27
+msgid "at"
+msgstr "در"
+
+# C:\Apache\htdocs\wp22\wp-content\themes\default/single.php:28
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/attachment.php:30
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/single.php:28
+msgid "and is filed under"
+msgstr "و در زیرمجموعه‌ی"
+
+# C:\Apache\htdocs\wp22\wp-content\themes\default/single.php:29
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/attachment.php:31
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/single.php:29
+msgid "You can follow any responses to this entry through the"
+msgstr "می‌توانید پاسخ‌ها این نوشته را پیگیری کنید با"
+
+# C:\Apache\htdocs\wp22\wp-content\themes\default/single.php:29
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/attachment.php:31
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/single.php:29
+msgid "feed"
+msgstr "خوراک"
+
+# C:\Apache\htdocs\wp22\wp-content\themes\default/single.php:33
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/attachment.php:36
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/single.php:33
+msgid "You can"
+msgstr "می‌توانید"
+
+# C:\Apache\htdocs\wp22\wp-content\themes\default/single.php:33
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/attachment.php:36
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/single.php:33
+msgid "leave a response"
+msgstr "پاسخ دهید"
+
+# C:\Apache\htdocs\wp22\wp-content\themes\default/single.php:33
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/attachment.php:36
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/single.php:33
+msgid ","
+msgstr "٬"
+
+# C:\Apache\htdocs\wp22\wp-content\themes\default/single.php:33
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/attachment.php:36
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/single.php:33
+msgid "or"
+msgstr "یا"
+
+# C:\Apache\htdocs\wp22\wp-content\themes\default/single.php:33
+# C:\Apache\htdocs\wp22\wp-content\themes\default/single.php:37
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/attachment.php:36
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/single.php:33
+msgid "send trackback"
+msgstr "بازتاب بفرستید"
+
+# C:\Apache\htdocs\wp22\wp-content\themes\default/single.php:33
+# C:\Apache\htdocs\wp22\wp-content\themes\default/single.php:37
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/attachment.php:36
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/attachment.php:40
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/single.php:33
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/single.php:37
+msgid "from your own site"
+msgstr "از سایت خودتان"
+
+# C:\Apache\htdocs\wp22\wp-content\themes\default/single.php:37
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/attachment.php:40
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/single.php:37
+msgid "Responses are currently closed, but you can"
+msgstr "نمی‌توانید پاسخی بنویسید، اما می‌توانید"
+
+# C:\Apache\htdocs\wp22\wp-content\themes\default/single.php:33
+# C:\Apache\htdocs\wp22\wp-content\themes\default/single.php:37
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/attachment.php:40
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/single.php:37
+msgid "trackback"
+msgstr "بازتاب"
+
+# C:\Apache\htdocs\wp22\wp-content\themes\default/single.php:41
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/attachment.php:44
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/single.php:41
+msgid "You can skip to the end and leave a response. Pinging is currently not allowed"
+msgstr "شما می‌توانید پاسخ دهید. اما نمی‌توانید بازتاب بفرستید"
+
+# C:\Apache\htdocs\wp22\wp-content\themes\default/single.php:45
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/attachment.php:48
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/single.php:45
+msgid "Both comments and pings are currently closed"
+msgstr "پاسخ‌ها و بازتاب‌ها در حال حاضر بسته شده‌اند"
+
+# C:\Apache\htdocs\wp22\wp-content\themes\default/page.php:16
+# C:\Apache\htdocs\wp22\wp-content\themes\default/single.php:47
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/attachment.php:50
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/page.php:16
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/single.php:47
+msgid "Edit this entry."
+msgstr "ویرایش این نوشته."
+
+# C:\Apache\htdocs\wp22\wp-content\themes\default/single.php:59
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/attachment.php:62
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/single.php:59
+msgid "Sorry, no posts matched your criteria"
+msgstr "ببخشید، نوشته‌ای برای جست‌وجوی شما پیدا نشد"
+
+# C:\Apache\htdocs\wp22\wp-content\themes\default/comments-popup.php:9
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/comments-popup.php:9
+msgid "Comments on"
+msgstr "پاسخ‌ها برای"
+
+# C:\Apache\htdocs\wp22\wp-content\themes\default/comments-popup.php:22
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/comments-popup.php:22
+msgid "Comments"
+msgstr "پاسخ‌ها"
+
+# C:\Apache\htdocs\wp22\wp-content\themes\default/comments-popup.php:24
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/comments-popup.php:24
+msgid "feed for comments on this post"
+msgstr "خوراک برای این نوشته"
+
+# C:\Apache\htdocs\wp22\wp-content\themes\default/comments-popup.php:27
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/comments-popup.php:27
+msgid "The <abbr title=\"Universal Resource Locator\">URL</abbr> to TrackBack this entry is:"
+msgstr "<abbr title=\"Universal Resource Locator\">نشلنی</abbr> برای بازتاب فرستادن به این نوشته:"
+
+# C:\Apache\htdocs\wp22\wp-content\themes\default/comments-popup.php:45
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/comments-popup.php:45
+msgid "Comment"
+msgstr "پاسخ"
+
+# C:\Apache\htdocs\wp22\wp-content\themes\default/comments-popup.php:45
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/comments-popup.php:45
+msgid "Trackback"
+msgstr "بازتاب"
+
+# C:\Apache\htdocs\wp22\wp-content\themes\default/comments-popup.php:45
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/comments-popup.php:45
+msgid "Pingback"
+msgstr "پینگ‌بک"
+
+# C:\Apache\htdocs\wp22\wp-content\themes\default/comments-popup.php:45
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/comments-popup.php:45
+msgid "by"
+msgstr "با"
+
+# C:\Apache\htdocs\wp22\wp-content\themes\default/comments-popup.php:51
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/comments-popup.php:51
+msgid "No comments yet"
+msgstr "بی‌پاسخ"
+
+# C:\Apache\htdocs\wp22\wp-content\themes\default/comments-popup.php:55
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/comments-popup.php:55
+msgid "Leave a comment"
+msgstr "پاسخی بنویسید"
+
+# C:\Apache\htdocs\wp22\wp-content\themes\default/comments-popup.php:56
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/comments-popup.php:56
+msgid "Line and paragraph breaks automatic, e-mail address never displayed,"
+msgstr "خطها و پاراگراف‌ها به خودی خود شکسته می‌شوند٬ رای‌نامه (ایمیل) نپنهان می‌شود٬"
+
+# C:\Apache\htdocs\wp22\wp-content\themes\default/comments-popup.php:56
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/comments-popup.php:56
+msgid "allowed:"
+msgstr "مجاز:"
+
+# C:\Apache\htdocs\wp22\wp-content\themes\default/comments-popup.php:60
+# C:\Apache\htdocs\wp22\wp-content\themes\default/comments.php:76
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/comments-popup.php:60
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/comments.php:76
+msgid "Logged in as"
+msgstr "وارد شده با نام"
+
+# C:\Apache\htdocs\wp22\wp-content\themes\default/comments-popup.php:60
+# C:\Apache\htdocs\wp22\wp-content\themes\default/comments.php:76
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/comments-popup.php:60
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/comments.php:76
+msgid "Log out of this account"
+msgstr "بیرون رفتن از این حساب"
+
+# C:\Apache\htdocs\wp22\wp-content\themes\default/comments-popup.php:60
+# C:\Apache\htdocs\wp22\wp-content\themes\default/comments.php:76
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/comments-popup.php:60
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/comments.php:76
+msgid "Logout &raquo;"
+msgstr "بیرون رفتن &raquo;"
+
+# C:\Apache\htdocs\wp22\wp-content\themes\default/comments-popup.php:64
+# C:\Apache\htdocs\wp22\wp-content\themes\default/comments.php:81
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/comments-popup.php:64
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/comments.php:81
+msgid "Name"
+msgstr "نام"
+
+# C:\Apache\htdocs\wp22\wp-content\themes\default/comments-popup.php:64
+# C:\Apache\htdocs\wp22\wp-content\themes\default/comments-popup.php:71
+# C:\Apache\htdocs\wp22\wp-content\themes\default/comments.php:81
+# C:\Apache\htdocs\wp22\wp-content\themes\default/comments.php:84
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/comments-popup.php:64
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/comments-popup.php:71
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/comments.php:81
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/comments.php:84
+msgid "(required)"
+msgstr "(لازم)"
+
+# C:\Apache\htdocs\wp22\wp-content\themes\default/comments-popup.php:71
+# C:\Apache\htdocs\wp22\wp-content\themes\default/comments.php:84
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/comments-popup.php:71
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/comments.php:84
+msgid "Mail (will not be published)"
+msgstr "رای‌نامه (ایمیل) (پنهان می‌شود)"
+
+# C:\Apache\htdocs\wp22\wp-content\themes\default/comments-popup.php:76
+# C:\Apache\htdocs\wp22\wp-content\themes\default/comments.php:87
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/comments-popup.php:76
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/comments.php:87
+msgid "Website"
+msgstr "سایت"
+
+# C:\Apache\htdocs\wp22\wp-content\themes\default/comments-popup.php:81
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/comments-popup.php:81
+msgid "Your Comment"
+msgstr "پاسخ شما"
+
+# C:\Apache\htdocs\wp22\wp-content\themes\default/comments-popup.php:92
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/comments-popup.php:92
+msgid "Sorry, the comment form is closed at this time"
+msgstr "ببخشید، نمی‌توانید پاسخی بنویسید"
+
+# C:\Apache\htdocs\wp22\wp-content\themes\default/comments-popup.php:97
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/comments-popup.php:97
+msgid "Close this window"
+msgstr "بستن این پنجره"
+
+# C:\Apache\htdocs\wp22\wp-content\themes\default/comments-popup.php:105
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/comments-popup.php:105
+msgid "proudly powered by <a href=\"http://wordpress.org/\">WordPress</a>"
+msgstr "نیرو گرفته از <a href=\"http://wordpress.org/\">وردپرس</a> <a href=\"http://wp-persian.com/\">فارسی</a>"
+
+# C:\Apache\htdocs\wp22\wp-content\themes\default/comments.php:9
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/comments.php:9
+msgid "This post is password protected. Enter the password to view comments"
+msgstr "این نوشته رمزدار است. برای دیدن پاسخ‌ها٬ رمز را بنویسید"
+
+# C:\Apache\htdocs\wp22\wp-content\themes\default/comments.php:23
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/comments.php:23
+msgid "No Responses"
+msgstr "بی‌پاسخ"
+
+# C:\Apache\htdocs\wp22\wp-content\themes\default/comments.php:23
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/comments.php:23
+msgid "One Response"
+msgstr "یک پاسخ"
+
+# C:\Apache\htdocs\wp22\wp-content\themes\default/comments.php:23
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/comments.php:23
+msgid "% Responses"
+msgstr "% پاسخ"
+
+# C:\Apache\htdocs\wp22\wp-content\themes\default/comments.php:23
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/comments.php:23
+msgid "to"
+msgstr "برای"
+
+# C:\Apache\htdocs\wp22\wp-content\themes\default/comments.php:32
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/comments.php:32
+msgid "Your comment is awaiting moderation"
+msgstr "پاسخ شما باید بررسی شود"
+
+# C:\Apache\htdocs\wp22\wp-content\themes\default/comments.php:36
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/comments.php:36
+msgid "edit"
+msgstr "ویرایش"
+
+# C:\Apache\htdocs\wp22\wp-content\themes\default/comments-popup.php:9
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/comments.php:58
+msgid "Comments are closed"
+msgstr "پاسخ‌ها بسته شده‌اند"
+
+# C:\Apache\htdocs\wp22\wp-content\themes\default/comments.php:66
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/comments.php:66
+msgid "Leave a Reply"
+msgstr "پاسخی بنویسید"
+
+# C:\Apache\htdocs\wp22\wp-content\themes\default/comments.php:69
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/comments.php:69
+msgid "You must be"
+msgstr "باید"
+
+# C:\Apache\htdocs\wp22\wp-content\themes\default/comments.php:69
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/comments.php:69
+msgid "logged in"
+msgstr "وارد سایت شده باشید"
+
+# C:\Apache\htdocs\wp22\wp-content\themes\default/comments-popup.php:55
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/comments.php:69
+#, fuzzy
+msgid "to post a comment"
+msgstr " برای پاسخ دادن"
+
+# C:\Apache\htdocs\wp22\wp-content\themes\default/comments.php:91
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/comments.php:91
+msgid "You can use these tags:"
+msgstr "می‌توانید این برچسب‌ها را به کار ببرید:"
+
+# C:\Apache\htdocs\wp22\wp-content\themes\default/comments.php:95
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/comments.php:95
+msgid "Submit Comment"
+msgstr "فرستادن پاسخ"
+
+# C:\Apache\htdocs\wp22\wp-content\themes\default/footer.php:6
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/footer.php:6
+msgid "is proudly powered by <a href=\"http://wordpress.org/\">WordPress</a>"
+msgstr "نیرو گرفته از <a href=\"http://wordpress.org/\">وردپرس</a> <a href=\"http://wp-persian.com/\">فارسی</a>"
+
+# C:\Apache\htdocs\wp22\wp-content\themes\default/footer.php:7
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/footer.php:7
+msgid "Entries (RSS)"
+msgstr "RSS پیگیری نوشته‌ها با"
+
+# C:\Apache\htdocs\wp22\wp-content\themes\default/footer.php:8
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/footer.php:8
+msgid "and"
+msgstr "و"
+
+# C:\Apache\htdocs\wp22\wp-content\themes\default/footer.php:8
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/footer.php:8
+msgid "Comments (RSS)"
+msgstr "RSS پیگیری پاسخ‌ها"
+
+# C:\Apache\htdocs\wp22\wp-content\themes\default/functions.php:147
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/functions.php:148
+msgid "Customize Header"
+msgstr "دل‌خوه کردن سربرگ"
+
+# C:\Apache\htdocs\wp22\wp-content\themes\default/functions.php:147
+# C:\Apache\htdocs\wp22\wp-content\themes\default/functions.php:361
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/functions.php:148
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/functions.php:362
+msgid "Header Image and Color"
+msgstr "رنگ و تصویر سربرگ"
+
+# C:\Apache\htdocs\wp22\wp-content\themes\default/functions.php:160
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/functions.php:161
+msgid "Close Color Picker"
+msgstr "بستن گزینشگر رنگ"
+
+# C:\Apache\htdocs\wp22\wp-content\themes\default/functions.php:357
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/functions.php:358
+msgid "Options saved."
+msgstr "گزینه‌ها به‌روز شد."
+
+# C:\Apache\htdocs\wp22\wp-content\themes\default/functions.php:374
+# C:\Apache\htdocs\wp22\wp-content\themes\default/functions.php:381
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/functions.php:375
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/functions.php:382
+msgid "Save"
+msgstr "به‌روز رسانی"
+
+# C:\Apache\htdocs\wp22\wp-content\themes\default/functions.php:375
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/functions.php:376
+msgid "Font Color:"
+msgstr "رنگ قلم:"
+
+# C:\Apache\htdocs\wp22\wp-content\themes\default/functions.php:375
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/functions.php:376
+#, php-format
+msgid "Any CSS color (%s or %s or %s)"
+msgstr "هر رنگ CSS (%s یا %s یا %s)"
+
+# C:\Apache\htdocs\wp22\wp-content\themes\default/functions.php:376
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/functions.php:377
+msgid "Upper Color:"
+msgstr "رنگ بالایی:"
+
+# C:\Apache\htdocs\wp22\wp-content\themes\default/functions.php:376
+# C:\Apache\htdocs\wp22\wp-content\themes\default/functions.php:377
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/functions.php:377
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/functions.php:378
+#, php-format
+msgid "HEX only (%s or %s)"
+msgstr "فقط HEX (%s یا %s)"
+
+# C:\Apache\htdocs\wp22\wp-content\themes\default/functions.php:377
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/functions.php:378
+msgid "Lower Color:"
+msgstr "رنگ پایینی:"
+
+# C:\Apache\htdocs\wp22\wp-content\themes\default/functions.php:379
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/functions.php:380
+msgid "Toggle Text"
+msgstr "تغییر وضعیت نمایش نوشته"
+
+# C:\Apache\htdocs\wp22\wp-content\themes\default/functions.php:380
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/functions.php:381
+msgid "Use Defaults"
+msgstr "به کارگیری پیش‌فرض‌ها"
+
+# C:\Apache\htdocs\wp22\wp-content\themes\default/functions.php:389
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/functions.php:390
+msgid "Font Color"
+msgstr "رنگ نوشته"
+
+# C:\Apache\htdocs\wp22\wp-content\themes\default/functions.php:390
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/functions.php:391
+msgid "Upper Color"
+msgstr "رنگ بالایی"
+
+# C:\Apache\htdocs\wp22\wp-content\themes\default/functions.php:391
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/functions.php:392
+msgid "Lower Color"
+msgstr "رنگ پایینی"
+
+# C:\Apache\htdocs\wp22\wp-content\themes\default/functions.php:392
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/functions.php:393
+msgid "Revert"
+msgstr "معکوس کردن"
+
+# C:\Apache\htdocs\wp22\wp-content\themes\default/functions.php:393
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/functions.php:394
+msgid "Advanced"
+msgstr "پیشرفته"
+
+# C:\Apache\htdocs\wp22\wp-content\themes\default/functions.php:400
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/functions.php:401
+msgid "Update Header &raquo;"
+msgstr "به‌روز کردن سربرگ &raquo;"
+
+# C:\Apache\htdocs\wp22\wp-content\themes\default/functions.php:406
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/functions.php:407
+msgid "Font Color (CSS):"
+msgstr "رنگ قلم (CSS)"
+
+# C:\Apache\htdocs\wp22\wp-content\themes\default/functions.php:407
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/functions.php:408
+msgid "Upper Color (HEX):"
+msgstr "رنگ بالایی (HEX)"
+
+# C:\Apache\htdocs\wp22\wp-content\themes\default/functions.php:408
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/functions.php:409
+msgid "Lower Color (HEX):"
+msgstr "رنگ پایینی (HEX)"
+
+# C:\Apache\htdocs\wp22\wp-content\themes\default/functions.php:409
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/functions.php:410
+msgid "Select Default Colors"
+msgstr "گزینش رنگ‌های پیش‌فرض"
+
+# C:\Apache\htdocs\wp22\wp-content\themes\default/functions.php:410
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/functions.php:411
+msgid "Toggle Text Display"
+msgstr "تغییر وضعیت نمایش متن"
+
+# C:\Apache\htdocs\wp22\wp-content\themes\default/archive.php:24
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/header.php:7
+msgid "Blog Archive"
+msgstr "بایگانی وبنامه (وب‌نامه (وبلاگ))"
+
+# C:\Apache\htdocs\wp22\wp-content\themes\default/sidebar.php:46
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/index.php:17
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/single.php:17
+msgid "Tags: "
+msgstr "تگ‌ها: "
+
+# C:\Apache\htdocs\wp22\wp-content\themes\default/single.php:33
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/index.php:17
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/single.php:17
+#, fuzzy
+msgid ", "
+msgstr "٬"
+
+# C:\Apache\htdocs\wp22\wp-content\themes\default/index.php:30
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/index.php:30
+msgid "Sorry, but you are looking for something that isn't here."
+msgstr "ببخشید، اما انگار شما واسه چیزی اینجا رو گشتین که وجود نداره."
+
+# C:\Apache\htdocs\wp22\wp-content\themes\default/links.php:11
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/links.php:11
+msgid "Links:"
+msgstr "پیوندها:"
+
+# C:\Apache\htdocs\wp22\wp-content\themes\default/page.php:9
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/page.php:9
+msgid "<p class=\"serif\">Read the rest of this page &raquo;</p>"
+msgstr "<p class=\"serif\">خواندن ادامه‌ی این برگه (صفحه) &raquo;</p>"
+
+# C:\Apache\htdocs\wp22\wp-content\themes\default/search.php:7
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/search.php:7
+msgid "Search Results"
+msgstr "نتایج جست‌وجو"
+
+# C:\Apache\htdocs\wp22\wp-content\themes\default/search.php:33
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/search.php:33
+msgid "No posts found. Try a different search?"
+msgstr "نوشته‌ای پیدا نشد. دوباره می‌گردید؟"
+
+# C:\Apache\htdocs\wp22\wp-content\themes\default/searchform.php:3
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/searchform.php:3
+msgid "Search"
+msgstr "جست‌وجو"
+
+# C:\Apache\htdocs\wp22\wp-content\themes\default/sidebar.php:10
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/sidebar.php:10
+msgid "Author"
+msgstr "نویسنده"
+
+# C:\Apache\htdocs\wp22\wp-content\themes\default/sidebar.php:11
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/sidebar.php:11
+msgid "A little something about you, the author. Nothing lengthy, just an overview"
+msgstr "یه کوچولو در مورد خودتون٬ نویسنده. نه خیلی زیاد٬ فقط یه معرفی مختصر"
+
+# C:\Apache\htdocs\wp22\wp-content\themes\default/sidebar.php:21
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/sidebar.php:21
+msgid "You are currently browsing the archives for the"
+msgstr "شما در حال مرور بایگانی"
+
+# C:\Apache\htdocs\wp22\wp-content\themes\default/sidebar.php:21
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/sidebar.php:21
+msgid "category"
+msgstr "دسته‌بندی"
+
+# C:\Apache\htdocs\wp22\wp-content\themes\default/sidebar.php:24
+# C:\Apache\htdocs\wp22\wp-content\themes\default/sidebar.php:28
+# C:\Apache\htdocs\wp22\wp-content\themes\default/sidebar.php:32
+# C:\Apache\htdocs\wp22\wp-content\themes\default/sidebar.php:40
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/sidebar.php:24
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/sidebar.php:28
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/sidebar.php:32
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/sidebar.php:40
+msgid "You are currently browsing the"
+msgstr "شما در حال مرور"
+
+# C:\Apache\htdocs\wp22\wp-content\themes\default/sidebar.php:24
+# C:\Apache\htdocs\wp22\wp-content\themes\default/sidebar.php:28
+# C:\Apache\htdocs\wp22\wp-content\themes\default/sidebar.php:32
+# C:\Apache\htdocs\wp22\wp-content\themes\default/sidebar.php:36
+# C:\Apache\htdocs\wp22\wp-content\themes\default/sidebar.php:40
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/sidebar.php:24
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/sidebar.php:28
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/sidebar.php:32
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/sidebar.php:36
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/sidebar.php:40
+msgid "weblog archives"
+msgstr "بایگانی وب‌نامه (وبلاگ)"
+
+# C:\Apache\htdocs\wp22\wp-content\themes\default/sidebar.php:25
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/sidebar.php:25
+msgid "for the day"
+msgstr "برای روز"
+
+# C:\Apache\htdocs\wp22\wp-content\themes\default/sidebar.php:29
+# C:\Apache\htdocs\wp22\wp-content\themes\default/sidebar.php:37
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/sidebar.php:29
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/sidebar.php:37
+msgid "for"
+msgstr "برای"
+
+# C:\Apache\htdocs\wp22\wp-content\themes\default/sidebar.php:33
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/sidebar.php:33
+msgid "for the year"
+msgstr "برای سال"
+
+# C:\Apache\htdocs\wp22\wp-content\themes\default/sidebar.php:36
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/sidebar.php:36
+msgid "You have searched the"
+msgstr "شما در جست‌وجوی"
+
+# C:\Apache\htdocs\wp22\wp-content\themes\default/sidebar.php:37
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/sidebar.php:37
+msgid "If you are unable to find anything in these search results, you can try one of these links"
+msgstr "اگر نمی‌توانید چیز به‌دردبخوری با جست‌وجو به‌دست آورید٬ می‌توانید پیوند‌های زیر را به کار ببرید"
+
+# C:\Apache\htdocs\wp22\wp-content\themes\default/sidebar.php:46
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/sidebar.php:46
+msgid "Pages"
+msgstr "برگه‌ها (صفحات)"
+
+# C:\Apache\htdocs\wp22\wp-content\themes\default/sidebar.php:48
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/sidebar.php:48
+msgid "Archives"
+msgstr "بایگانی"
+
+# C:\Apache\htdocs\wp22\wp-content\themes\default/sidebar.php:54
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/sidebar.php:54
+msgid "Categories"
+msgstr "دسته‌بندی‌ها"
+
+# C:\Apache\htdocs\wp22\wp-content\themes\default/sidebar.php:59
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/sidebar.php:59
+msgid "Meta"
+msgstr "دیگر"
+
+# C:\Apache\htdocs\wp22\wp-content\themes\default/sidebar.php:63
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/sidebar.php:63
+msgid "This page validates as XHTML 1.0 Transitional"
+msgstr "این برگه (صفحه) از پاسخ XHTML درست است"
+
+# C:\Apache\htdocs\wp22\wp-content\themes\default/sidebar.php:65
+#: D:\xampp\htdocs\themewp\wp-content\themes\default_fa/sidebar.php:65
+msgid "Powered by WordPress, state-of-the-art semantic personal publishing platform"
+msgstr "نیرو گرفته از وردپرس"
+

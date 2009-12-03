@@ -1,0 +1,52 @@
+/*
+kubrick RTL (Persian) by Ali Irani
+Author URL: http://p30design.net
+*/
+
+body {
+	font-family:Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	direction:rtl;
+}
+
+#page {
+	text-align:right;
+}
+
+#header {
+	margin: 0 1px 0 1px;
+}
+
+#sidebar {
+	margin: 5px auto 5px 545px;
+	font-family:Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-size:1.1em;
+}
+
+#sidebar h2 {
+	font-family:Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-size:1.1em;
+}
+
+.widecolumn {
+	margin:5px 150px 0 0;
+}
+
+.commentlist { 
+	width:100%;
+	margin:0;
+}
+
+.commentlist li, #commentform input, #commentform textarea, #commentform p {
+	font-family:Tahoma, Verdana, Arial, Helvetica, sans-serif;	
+}
+
+blockquote {
+	border-right:5px solid #DDDDDD;
+	border-left:0;
+	margin:15px 10px 0pt 30px;
+	padding:0 20px 0 0;
+}
+
+small{
+	font-family:Tahoma, Verdana, Arial, Helvetica, sans-serif;	
+}
