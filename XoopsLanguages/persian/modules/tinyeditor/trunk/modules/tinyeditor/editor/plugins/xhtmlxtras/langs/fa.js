@@ -1,0 +1,33 @@
+﻿// IR lang variables
+
+tinyMCE.addToLang('xhtmlxtras',{
+cite_desc : 'ذكر',
+abbr_desc : 'اختصار',
+acronym_desc : 'سرنام',
+del_desc : 'حذف',
+ins_desc : 'درج',
+attribute_label_title : 'عنوان',
+attribute_label_id : 'شناسه',
+attribute_label_class : 'كلاس',
+attribute_label_style : 'استیل',
+attribute_label_cite : 'ذكر',
+attribute_label_datetime : 'تاریخ/زمان',
+attribute_label_langdir : 'جهت متن',
+attribute_option_ltr : 'چپ به راست',
+attribute_option_rtl : 'راست به چپ',
+attribute_label_langcode : 'زبان',
+general_tab : 'عمومی',
+attrib_tab : 'صفات',
+events_tab : 'رویدادها',
+fieldset_general_tab : 'تنظیمات عمومی',
+fieldset_attrib_tab : 'صفات عنصر',
+fieldset_events_tab : 'رویدادهای عنصر',
+title_ins_element : 'درج عنصر',
+title_del_element : 'حذف عنصر',
+title_acronym_element : 'سرنام عنصر',
+title_abbr_element : 'اختصار عنصر',
+title_cite_element : 'ذكر عنصر',
+remove : 'حذف',
+not_set : '--تنظیم نشده--',
+insert_date : 'درج تاریخ/زمان فعلی'
+});
