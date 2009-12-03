@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Installation</title>
+<link href="../doc.css" rel="stylesheet" type="text/css" media="all" />
+</head>
+<body>
+<hr />
+<h1>Nouvelle page</h1>
+<p>Nous alkons décrire ici les différents éléments essentiels à la création d'une nouvelle page.</p>
+<h2>1. Ajouter une page</h2>
+<ul>
+	<li><strong>Image ou logo de la page : </strong> une liste déroulante vous propose d'afficher une image qui sera affichée avant le titre de votre article. Pour ajouter des images à cette liste, veuillez consulter la <a href="upload.html" target="mainFrame">documentation</a>. En choisissant l'image blank.png aucune image ne s'affichera</li>
+	<li><strong>Poids de la page : </strong> donner une valeur à votre page, plus le chiffre sera faible plus cette page sera affiché en premier dans <a href="preferences.html" target="mainFrame">le menu intégré</a> ou dans le bloc menu principal. Vous pouvez avoir une vision complète de l'ordre des pages créées avec le menu <a href="pages_order.html" target="mainFrame">réordonner les pages</a></li>
+	<li><strong>Titre du sous-menu : </strong> indiquez ici le nom du lien secondaire qui sera affiché dans le bloc menu principal. Il peut bien sur être différent du titre du document si vous le souhaitez</li>
+	<li><strong>Titre de la page : </strong> c'est le nom qui sera affiché au début du document ainsi que dans la barre de titre du navigateur. Il sera également repris comme titre de la page pour le référencement</li>
+</ul>
+</p>
+<h2>2. HTML et paramétrage du contenu</h2>
+<p>Cette partie concerne uniquement les informations à saisir pour l'utilisation du contenu d'un fichier html préalablement importé dans le module au moyen de la page <p>strong>upload</strong>.</p>
+<h2>3. Contenu</h2>
+<p>C'est dans ce cadre que vous aurez à saisir le contenu de votre page. Les options de nettoyage qui vous sont affichées concernent principalement ceux qui font de l'import de fichier html ou du copier/coller d'un code source html issu d'un document word dont on connait le langage verbeux et inutile au sens strict html.</p>
+<p>Si votre article est assez long, vous avez la possibilité d'utiliser la balise xoops <strong>[pagebreak]</strong>. Il suffit de la positionner dans votre texte à l'emplacement où vous souhaitez intégrer un saut de page. Ceci se traduira par un affichage des numéros de pages juste avant le début de chaque page et en base de celle-ci.</p>
+<h2>3. Menu</h2>
+<p>Vous disposez dans cet espace d'options permettant de gérer automatiquement la publication et le non affichage de votre article en fonction des dates saisies. C'est une option facultative, compléter ces options n'est pas obligatoire.</p>
+<p> Si vous répondez oui à la question "définir comme page index du module", cela signifie que c'est cette page qui sera affichée si l'utilisateur clique sur le lien pages du bloc menu principal de xoops.</p>
+<p>Une réponse positive à l'interrogation Ajouter un lien dans le sous-menu , aura pour conséquence d'ajouter un lien vers cette page dans le bloc menu principal. Ce sera un sous-lien du lien pages.</p>
+<p>Ajouter cet article dans la page de lien ? (ou menu intégré ) : comme nous vous l'avons précisé dans la page <a href="preferences.html" target="mainFrame">preferences</a>, il vous est possible d'ajouter un lien vers cette page dans le menu intégré.</p>
+<h2>4. Autorisations d'accès</h2>
+<p>Pour que la publication d'un article vous soit plus facile, les autorisations d'accès sur la page sont directement accessibles à partir de ce tableau.</p>
+<h2>5. Conseils</h2>
+<p>Pour réaliser des pages simples, fonctionnelles, agréables et qui soient référencées, préférer la rédaction de votre contenu au format html. Cela nécessite l'apprentissage de quelques balises simples (moins d'une dizaine) qui doivent vous satisfaire dans la majorité des cas</p>
+<p> exemple 
+<blockquote><xmp>
+<h1>Titre de votre page</h1> (automatiquement pris en compte en remplissant le champ titre)
+<h2>sous titre 1</h2>
+<p>Commencez à écrire votre contenu dans une balise paragraphe que l'on ferme à la fin</p>
+<p>Pour écrire du texte avec de courtes descriptions utilisez les listes à puces :
+<ul>
+	<li>premier item</li>
+	<li>second item</li>
+</ul>
+</p>
+<p>Si vous avez besoin de faire un lien il suffit de l'écrire ainsi 
+<a href="http://www.site.com/" title="titre du lien">lien</a></p>
+<p>Pour insérer une image, rien de plus facile avec la balise img 
+<img src="http://www.site.com/images/monimage.jpg" width="100px" height="100px" alt="titre de mon image" />
+</p>
+<p>Encore plus fort, réaliser un lien avec une image, il faut juste insérer le code de l'image à la place du nom du lien 
+<a href="http://www.site.com/" title="titre du lien"><img src="http://www.site.com/images/monimage.jpg" width="100px" height="100px" alt="titre de mon image" /></a>
+</xmp></blockquote>
+</body>
+</html>

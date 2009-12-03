@@ -1,0 +1,48 @@
+<{$adminlink}>
+<div style="margin: 10px;"><{if $pagenav}>صفحه <{$pagenav}><{/if}></div>
+<br />
+<{if $article.indeximage }>
+	<div align="center"><{$article.indeximage}></div>
+<{/if}>
+<{if $article.headline }>
+	<h4><{$article.headline}></h4>
+<{/if}>
+<!-- Opentable for block decoration -->
+<div><{$article.maintext}></div>
+<!-- Closetable for block decoration -->
+<br />
+<div style="margin: 10px;"><{if $pagenav}>صفحه<{$pagenav}><{/if}></div>
+<{if $chanlink }>
+<{if $menunav == "HORIZ"}>
+<div align="center" nowrap:>|&nbsp;<{foreach item=chanlink from=$chanlink}><a href="index.php<{$chanlink.id}>"><{$chanlink.pagetitle}></a>&nbsp;|
+	<{/foreach}>
+</div><br />
+<{/if}>
+<{if $menunav == "VERT"}>
+<hr>
+<h3><{$otherpage}></h3>
+<ul>
+<{foreach item=chanlink from=$chanlink}>
+<li><a href="index.php<{$chanlink.id}>"><{$chanlink.pagetitle}></a></li>
+<{/foreach}>
+</ul>
+<br />
+<{/if}>
+<{/if}>
+<div style="text-align: center; padding: 3px; margin: 3px;">
+  <{$commentsnav}>
+  <{$lang_notice}>
+</div>
+<div style="margin: 3px; padding: 3px;">
+<!-- start comments loop -->
+<{if $comment_mode == "flat"}>
+  <{include file="db:system_comments_flat.html"}>
+<{elseif $comment_mode == "thread"}>
+  <{include file="db:system_comments_thread.html"}>
+<{elseif $comment_mode == "nest"}>
+  <{include file="db:system_comments_nest.html"}>
+<{/if}>
+<!-- end comments loop -->
+</div>
+<br />
+<!-- Start topic loop -->
