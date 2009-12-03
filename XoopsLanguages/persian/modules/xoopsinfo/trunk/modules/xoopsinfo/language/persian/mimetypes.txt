@@ -1,0 +1,8 @@
+<div class="bg1" style="margin:20px 100px; padding:5px; border:2px solid #FF0000; text-align:left; font-weight:bold;">
+You don't have copy the file class/uploader.php being in the zip file!!!
+<br /><br />
+<ul>
+<li>Uninstall the module XoopsInfo</li>
+<li>Copy all the files being in the zip file on your website</li>
+<li>Install the module XoopsInfo</li>
+</div>
