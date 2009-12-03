@@ -1,0 +1,6 @@
+/* ----- RTL upgrade layout ----- */
+/* $Id */
+html, body {
+	text-align:		        right;
+	direction:              rtl;
+}
