@@ -1,0 +1,85 @@
+<br /><br />
+<p align="center">
+    <a href="<{$xoops_url}>/modules/TDMDownloads/index.php"><img src="<{$xoops_url}>/modules/TDMDownloads/images/logo-en.gif" alt="" border="0" /></a>
+</p>
+<br /><br />
+<{if count($categories) gt 0}>
+<div style="border-bottom: 1px #333 solid;"></div>
+
+<table border='0' cellspacing='5' cellpadding='0' align="center">
+    <tr>
+        <!-- Start category loop -->
+        <{foreach item=category from=$categories}>
+        <td valign="top" width="150" >
+            <{if $category.image != ""}>
+            <a href="<{$xoops_url}>/modules/TDMDownloads/viewcat.php?cid=<{$category.id}>"><img src="<{$category.image}>" border="0" alt="" /></a>
+            <{/if}>
+        </td>
+        <td valign="top">
+            <a href="<{$xoops_url}>/modules/TDMDownloads/viewcat.php?cid=<{$category.id}>"><b><{$category.title}></b></a>&nbsp;(<{$category.totaldownloads}>)
+            <br /><{$category.description_main}><{if $category.subcategories != ""}><br /><br />
+            <b><{$smarty.const._MD_TDMDOWNLOADS_INDEX_SCAT}></b><br /><ul><{$category.subcategories}></ul><{/if}>
+        </td>
+    <{if $category.count is div by 3}>
+    </tr>
+    <tr>
+    <{/if}>
+        <{/foreach}>
+        <!-- End category loop -->
+    </tr>
+</table>
+<{if $bl_affichage==1}>
+<div style="font-size: 1.6em; margin: 15px 0 10px 0; border-bottom: 1px #333 solid;"><{$smarty.const._MD_TDMDOWNLOADS_INDEX_BLNAME}></div>
+<table cellspacing="0" cellpadding="10" border="0">
+    <tr>
+  	<{if $bl_date != ""}>
+    <td width="33%" align="right" valign="top">
+    	<img src="<{$xoops_url}>/modules/TDMDownloads/images/icon/date.png" alt="" />&nbsp;<b><{$smarty.const._MD_TDMDOWNLOADS_INDEX_BLDATE}></b>
+    	<ul>
+            <{foreach item=bl_date from=$bl_date}>
+            <li><a href="<{$xoops_url}>/modules/TDMDownloads/singlefile.php?cid=<{$bl_date.cid}>&amp;lid=<{$bl_date.id}>"><{$bl_date.title}></a> (<{$bl_date.date}>)</li>
+            <{/foreach}>
+      	</ul>
+    </td>
+    <{/if}>
+    <{if $bl_pop != ""}>
+    <td width="33%" align="right" valign="top">
+    	<img src="<{$xoops_url}>/modules/TDMDownloads/images/icon/hits.png" alt="" />&nbsp;<b><{$smarty.const._MD_TDMDOWNLOADS_INDEX_BLPOP}></b>
+    	<ul>
+            <{foreach item=bl_pop from=$bl_pop}>
+            <li><a href="<{$xoops_url}>/modules/TDMDownloads/singlefile.php?cid=<{$bl_pop.cid}>&amp;lid=<{$bl_pop.id}>"><{$bl_pop.title}></a> (<{$bl_pop.hits}>)</li>
+            <{/foreach}>
+      	</ul>
+    </td>
+    <{/if}>
+    <{if $bl_rating != ""}>
+    <td width="33%" align="right" valign="top">
+    	<img src="<{$xoops_url}>/modules/TDMDownloads/images/icon/votes.png" alt="" />&nbsp;<b><{$smarty.const._MD_TDMDOWNLOADS_INDEX_BLRATING}></b>
+    	<ul>
+            <{foreach item=bl_rating from=$bl_rating}>
+            <li><a href="<{$xoops_url}>/modules/TDMDownloads/singlefile.php?cid=<{$bl_rating.cid}>&amp;lid=<{$bl_rating.id}>"><{$bl_rating.title}></a> (<{$bl_rating.rating}>)</li>
+            <{/foreach}>
+      	</ul>
+    </td>
+    <{/if}>
+    </tr>
+</table>
+<{/if}>
+<br /><br />
+<div style="font-size: 11px; text-align: right; font-style: italic; padding: 0 20px 0 0;"><{$lang_thereare}></div>
+<{/if}>
+<{if $file != ""}>
+	<div style="font-size: 1.6em; margin: 15px 0 5px 0; border-bottom: 1px #333 solid;"><{$smarty.const._MD_TDMDOWNLOADS_INDEX_LATESTLIST}></div>
+	<table width="100%" cellspacing="0" cellpadding="10" border="0">
+	<tr>
+		<td width="100%" align="center" valign="top">
+  			<!-- Start new link loop -->
+  			<{section name=i loop=$file}>
+    			<{include file="db:tdmdownloads_download.html" down=$file[i]}>
+  			<{/section}>
+  			<!-- End new link loop -->
+		</td>
+	</tr>
+	</table>
+<{/if}>
+<{include file="db:system_notification_select.html"}>
