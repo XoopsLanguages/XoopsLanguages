@@ -1,0 +1,64 @@
+/*== from style.css file ==*/
+body{
+  direction : rtl;
+  font-family : Tahoma;
+}
+#xo-content table td {
+  text-align : right;
+}
+
+/*== from menu.css file ==*/
+.NavMenu .button,.NavMenu .button:hover,.NavMenu .button-active,.NavMenu .button-active:hover {
+  padding:3px 16px 6px 20px;
+}
+.NavMenu .image {
+  right:-1px;
+}
+.NavMenu .section {
+     max-width: 300px
+}
+
+/*== from main.css file ==*/
+table
+{
+     direction: rtl;
+     text-align: right;
+}
+table td
+{
+     direction: rtl; 
+     text-align: right;
+}
+table tr
+{
+     direction: rtl; 
+     text-align: right;
+}
+ul {
+    direction: rtl;
+    text-align: right;
+}
+li { 
+    direction: rtl;  
+    text-align: right; 
+}
+input {
+	font: 11px tahoma;
+}
+textarea {
+	font: 11px Tahoma;
+}
+input.formTextBox {
+	font: 11px Tahoma;
+}
+select {
+	font: 11px Tahoma;
+}
+div.content {
+    direction: rtl;  
+    text-align: right;
+}
+#xo-banner-ad {
+    direction: ltr;  
+    text-align: left;
+}
