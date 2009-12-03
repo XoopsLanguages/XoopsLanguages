@@ -1,0 +1,245 @@
+body {
+	padding: 1px 10px 1px 10px;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 0.8em;
+}
+
+h1 {
+	font-size: 2em;
+	color: #3C9FFF;
+	text-align: center;
+}
+h2 {
+	font-size: 1.5em;
+	color: #0E7AC5;
+}
+h3 {
+	font-size: 1.2em;
+	color: #0E7AC5;
+}
+h4 {
+	font-site: 1em;
+   color: #0E7AC5;
+	font-style: italic;
+}
+
+p {
+	text-align: justify;
+}
+ul {
+	list-style-image: url(images/bullet_blue2.jpg);}
+li {
+    margin-bottom: 0.5em;
+}
+hr {
+	color: #5D9EE;
+}
+.ret1 {
+	padding-left: 15px;
+}
+.ret2 {
+	padding-left: 25px;
+}
+.ret2 ul {
+/*	list-style-type: none; */
+}
+.ret2 em {
+	color: #0E7AC5;
+	font-style: italic;
+}
+img {
+	border: 0;
+}
+a.external { 
+ padding-right: 18px;
+ background-image: url(images/external.png);
+ background-repeat: no-repeat;
+ background-position: right; 
+ } 
+
+a.tutoflash { 
+ padding-right: 20px;
+ background-image: url(images/flash.gif);
+ background-repeat: no-repeat;
+ background-position: right; 
+ }
+ 
+.floatright {
+	float: right;
+	margin: -10px 20px 10px 10px;
+	border: 0px;
+	padding: 2px;
+}
+#imgcenter {
+  position:absolute;
+     left: 50%; 
+     top: 50%;
+     margin-top: -1940px; /* moitié de la hauteur de l'image */
+     margin-left: -225px; /* moitié de la largeur de l'image */
+}
+.centre {
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+}
+a:link, a:visited {
+	color: #2CA8EB;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #60A7F7;
+}
+
+html body a:hover {
+	color: #FFF;
+	background-color: #2CA8EB;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #60A7F7;
+}
+
+abbr, acronym {
+	border-bottom: 1px dotted #60A7F7;
+	cursor: help;
+}
+blockquote {
+	border-width: 1px 1px 1px 8px;
+	border-style: solid;
+	border-color: #0E7AC5;
+	margin: 1em;
+	padding: 0 0.5em;
+	background: #F9FFE6;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	font-size: 120%;
+	width: 780px;
+	height: 200px;
+   height: auto;
+	margin: 0.5em;
+/*	overflow: scroll; */
+}
+.attention {
+	color: #FF0000;
+	padding-left: 18px;
+ 	background-image: url(images/attention.gif);
+   background-repeat: no-repeat;
+   background-position: left; 
+	font-weight: bold;
+}
+.astuce {
+	color: #000;
+	padding-left: 18px;
+ 	background-image: url(images/astuce.gif);
+   background-repeat: no-repeat;
+   background-position: left; 
+	font-weight: bold;
+}
+
+/* --------  kris --------- */
+.chemin {
+	color: Green;
+	padding-left: 18px; 
+ 	background-image: url(images/chemin.gif);
+  background-repeat: no-repeat;
+  background-position: left; 
+	font-weight: bold;
+	font-style: italic;
+}
+.ligne {
+	color: Navy;
+  padding-left: 18px;
+ 	background-image: url(images/ligne.gif);
+  background-repeat: no-repeat;
+  background-position: left; 
+	font-weight: bold;
+	font-style: italic;
+}
+.action {
+	color: Black;
+	padding-left: 18px; 
+ 	background-image: url(images/action.gif);
+  background-repeat: no-repeat;
+  background-position: left; 
+	font-weight: bold;
+}
+.user {
+	color: #FF8C00;
+  padding-left: 24px;
+ 	background-image: url(images/user.gif);
+  background-repeat: no-repeat;
+  background-position: left; 
+	font-weight: bold;
+	font-style: italic;
+}
+.dossier {
+	color: Gray;
+	padding-left: 18px;
+ 	background-image: url(images/dossier.gif);
+   background-repeat: no-repeat;
+   background-position: left; 
+	font-weight: bold;
+	font-style: italic;
+}
+/*  fin kris  */
+
+#sommaire ul li {
+	 list-style-type: none;
+	 list-style-image: none;
+	 line-height: 1.7em;
+
+}
+#sommaire ul ul {
+	line-height: 2.7em;
+}
+
+#sommaire li li {
+		list-style-image: url(images/bullet_blue.png);
+		line-height: 1.2em;
+}
+p.right {
+	text-align: right;
+}
+p.right a:link {
+	text-decoration: none;
+}
+.top_page {
+	padding-right: 18px;
+	padding-left: 3px;
+ 	background-image: url(images/top_page_blue.png);
+ 	background-repeat: no-repeat;
+ 	background-position: right; 
+/*
+   background: #e0e0e0;*/
+/*
+   -moz-border-radius: 5px;
+   border-radius: 5px;
+*/
+}
+
+
+
+table {
+	border: medium solid #6495ed;
+	border-collapse: collapse;
+	width: 70%;
+}
+th {
+font-family: monospace;
+border: thin solid #6495ed;
+width: 50%;
+padding: 5px;
+background-color: #D0E3FA;
+background-image: url(sky.jpg);
+}
+td {
+font-family: sans-serif;
+border: thin solid #6495ed;
+width: 30%;
+padding: 5px;
+text-align: center;
+background-color: #ffffff;
+}
+caption {
+font-family: sans-serif;
+}

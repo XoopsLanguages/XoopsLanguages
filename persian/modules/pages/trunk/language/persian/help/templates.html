@@ -1,0 +1,72 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Installation</title>
+<link href="../doc.css" rel="stylesheet" type="text/css" media="all" />
+</head>
+<body>
+<hr />
+<h1>Templates</h1>
+<p>Les templates sont des fichiers html auxquels des pages php transmettent des variables. Ces variables associ&eacute;es &agrave; du code html r&eacute;alisent donc l'affichage de la page avec les donn&eacute;es. Nous vous proposons une explication sur le template de la page index du module.
+<blockquote><xmp>
+<!-- lien affiché uniquement pour un admnistrateur permettant de modifier directement la page -->
+<{$adminlink}>
+
+<!-- code pour afficher les liens de navigattion des articles multi-pages -->
+<div style="text-align: left; margin: 10px;"><{if $pagenav}>Page <{$pagenav}><{/if}></div>
+<br />
+<!-- si vous avez défini une image pour l'article on l'affiche -->
+<{if $article.indeximage }>
+	<div align="center"><{$article.indeximage}></div>
+<{/if}>
+<!-- affichage du titre de l'article -->
+<{if $article.headline }>
+	<h4 align = "left"><{$article.headline}></h4>
+<{/if}>
+<!-- Affichage du contenu de l'article -->
+<div align = "left"><{$article.maintext}></div>
+
+<br />
+<!-- code pour afficher les liens de navigattion des articles multi-pages -->
+<div style="text-align: left; margin: 10px;"><{if $pagenav}>Page <{$pagenav}><{/if}></div>
+<!-- affichage du menu intégré -->
+<{if $chanlink }>
+<{if $menunav == "HORIZ"}>
+<div align="center" nowrap:>|&nbsp;<{foreach item=chanlink from=$chanlink}><a href="index.php<{$chanlink.id}>"><{$chanlink.pagetitle}></a>&nbsp;|
+	<{/foreach}>
+</div><br />
+<{/if}>
+<{if $menunav == "VERT"}>
+<hr>
+<h3><{$otherpage}></h3>
+<ul>
+<{foreach item=chanlink from=$chanlink}>
+<li><a href="index.php<{$chanlink.id}>"><{$chanlink.pagetitle}></a></li>
+<{/foreach}>
+</ul>
+<br />
+<{/if}>
+<{/if}>
+<!-- affichage des commentaires -->
+
+<div style="text-align: center; padding: 3px; margin: 3px;">
+  <{$commentsnav}>
+  <{$lang_notice}>
+</div>
+<div style="margin: 3px; padding: 3px;">
+<!-- start comments loop -->
+<{if $comment_mode == "flat"}>
+  <{include file="db:system_comments_flat.html"}>
+<{elseif $comment_mode == "thread"}>
+  <{include file="db:system_comments_thread.html"}>
+<{elseif $comment_mode == "nest"}>
+  <{include file="db:system_comments_nest.html"}>
+<{/if}>
+<!-- end comments loop -->
+</div>
+<br />
+</xmp></blockquote>
+
+</body>
+</html>
