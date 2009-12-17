@@ -71,4 +71,14 @@ define('_MD_AM_MLUS_HELP','برای ارسال ایمیل و پیام شخصی �
 define('_MD_AM_AVATARS_HELP','چند آواتور برای کاربران خود اضافه کنید<br> تا از آنها در سایت استفاده کنند');
 define('_MD_AM_TPLSETS_HELP','در این قسمت میتوانید اگو ( تمپلیت )<br> ماژول های خود را ویرایش کنید');
 define('_MD_AM_COMMENTS_HELP','کاربران شما میتوانند در بخش های مختلف سایت<br> مثل گالری و اخبار و ... نظر ارسال کنند .<br> نظر های آنها را دراین قسمت مدیریت کنید');
+
+//Add 10 des
+define('_MD_OXYGEN_XOOPS_LICENSE','مجوز زوپس');
+define('_MD_OXYGEN_KEY','کلید زوپس');
+define('_MD_OXYGEN_LICENSE','مجوز');
+define('_MD_OXYGEN_RSS','خوراک');
+define('_MD_OXYGEN_POWERED_BY','Powered by');
+define('_MD_OXYGEN_SOURCEFORGE_TEXT','XOOPS Code hosted on SourceForge');
+define('_MD_OXYGEN_ADMINISTRATION','مدیریت زوپس');
+
 ?>
