@@ -71,4 +71,8 @@ define('_BANNERS_MAIL_ERROR', 'ЏЁж«р..б«нжћѕ »—нѕя «бня —ждн бе–« «бЏгнб %s.<br 
 define('_BANNERS_DBUPDATED', ' г  Џѕнб «бЏд«’— ж ЌѕнЋ ё«Џѕ… «б»н«д« ');
 define('_BANNERS_DBERROR', 'ЏЁж«р .. бг н г  ЌѕнЋ ё«Џѕ… «б»н«д«  бжћжѕ ќЎ√ г«');
 define('_BANNERS_CHANGE', ' џнн—');
+
+define('_BANNERS_NO_LOGIN_DATA', 'б«   жЁ— »н«д«  «бѕќжб');
+define('_BANNERS_NO_REFERER', 'б« н жЁ— —«»Ў гЌнб');
+define('_BANNERS_NO_ID', 'б« н жЁ— —ёг ≈Џб«д ’ЌнЌ');
 ?>

@@ -8,7 +8,8 @@
 define("_AM_DBUPDATED",_MD_AM_DBUPDATED);
 
 define("_AM_CURACTBNR","วแลฺแวไวส วแÝฺวแษ อวแํว");
-define("_AM_BANNERID","วแัÞใ");
+define("_AM_BANNERID","ัÞใ วแลฺแวไ");
+define("_AM_CLIENTID","ัÞใ วแฺใํแ");
 define("_AM_IMPRESION","วแสรหํั");
 define("_AM_IMPLEFT","ใฯษ วแฺัึ");
 define("_AM_CLICKS","ใัวส วแึÛุ");

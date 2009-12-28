@@ -16,13 +16,13 @@ define("_AM_TH_DESCRIPTION","Ê’›");
 define( "_AM_TH_BADIPS" , '«—ﬁ«„ «·«Ì»Ì «·”Ì∆…<br /><br /><span style="font-weight:normal;">«ﬂ » ﬂ· —ﬁ„ «Ì»Ì ›Ì ”ÿ—<br />« —ﬂÂ ›«—€« «‰ —€»  »⁄œ„ „‰⁄ «Ì ‘Œ’</span>' ) ;
 
 define( "_AM_TH_GROUP1IPS" , '«Ì»Ì «·„Õ„Ê⁄«  «·„’—Õ ·Â«  —ﬁ„ «·„Ã„Ê⁄… „À·«=1<br /><br /><span style="font-weight:normal;">ﬁ„ »ﬂ «»… ﬂ· «Ì»Ì »”ÿ—<br />192.168. means 192.168.*<br />« —ﬂÂ ›«—€« «‰ —€»   »«·”„«Õ ··ﬂ· »«·œŒÊ· ··„Êﬁ⁄</span>' ) ;
+
 define('_AM_LABEL_COMPACTLOG','Õ–› ›ﬁÿ «·”Ã· «·„ ﬂ—— ··«Ì»Ì Ê«·‰Ê⁄');
 define('_AM_BUTTON_COMPACTLOG','Õ–› «·„ ﬂ——');
 define('_AM_JS_COMPACTLOGCONFIRM','Õ–› «·”Ã·«  «· Ì  Õ ÊÌ  ﬂ—«— »‰›” «·«Ì»Ì');
 define('_AM_LABEL_REMOVEALL','Õ–› ﬂ· «·”Ã·« ');
 define('_AM_BUTTON_REMOVEALL','Õ–› «·ﬂ·ø');
 define('_AM_JS_REMOVEALLCONFIRM','”Ì „ Õ–› ﬂ· «·”Ã·« ø ');
-
 define( "_AM_LABEL_REMOVE" , "Õ–› «·”Ã·«  «·„Œ «—…:" ) ;
 define( "_AM_BUTTON_REMOVE" , "Õ–›" ) ;
 define( "_AM_JS_REMOVECONFIRM" , "Â·  —€» »«·Õ–›" ) ;
@@ -51,6 +51,8 @@ define("_AM_ADV_USETRANSSID","· ⁄ÿÌ· Õ–› «·ﬂÊﬂÌ“ «·Œ«’ »Õ”«»ﬂ <br />·„‰⁄ «·Õﬁ‰ Ê
 define("_AM_ADV_DBPREFIX","„‰⁄ «·Õﬁ‰ Ê«· €ÌÌ— ›Ì «⁄œ«œ  ﬁ«⁄œ… «·»Ì«‰« <br />·« ‰”Ì » ›⁄Ì· «·ŒÌ«—'Force sanitizing *' ›Ì ﬁ«∆„… «·«⁄œ«œ«  ··„ÊœÌ·");
 define("_AM_ADV_LINK_TO_PREFIXMAN","«–Â» ·«œ«—… ÃœÊ· ﬁ«⁄œ… «·»Ì«‰« ");
 define("_AM_ADV_MAINUNPATCHED","ÌÃ»  ⁄œÌ· „·› mainfile.php ﬂ„«  „  Ê÷ÌÕ… ›Ì „·› «ﬁ—«‰Ì");
+define("_AM_ADV_DBFACTORYPATCHED","Your databasefactory is ready for DBLayer Trapping anti-SQL-Injection");
+define("_AM_ADV_DBFACTORYUNPATCHED","Your databasefactory is not ready for DBLayer Trapping anti-SQL-Injection. Some patches are required.");
 
 define("_AM_ADV_SUBTITLECHECK"," ›Õ’ «– ﬂ«‰ «·»—‰«„Ã Ì⁄„·");
 define("_AM_ADV_CHECKCONTAMI"," ·ÊÀ ");
