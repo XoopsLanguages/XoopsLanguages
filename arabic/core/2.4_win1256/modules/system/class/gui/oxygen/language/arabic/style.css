@@ -12,8 +12,9 @@ input,textarea,input.formTextBox,select {
 	font: 11px tahoma !important;
 }
 
-.confirmMsg {
+div.confirmMsg {
 	text-align: center !important;
+	direction: rtl !important;
 }
 
 #navbarCP {
@@ -38,10 +39,6 @@ input,textarea,input.formTextBox,select {
 	float: right !important;
 }
 
-.confirmMsg {
-	direction: rtl !important;
-}
-
 #navOptionsCP .modname {
 	float: right !important;
 }
@@ -51,11 +48,19 @@ input,textarea,input.formTextBox,select {
 }
 
 #navbarCP ul.menu ul ul {
-	right: 148px !important;
+	right: 126px !important;
+}
+
+#navbarCP ul.menu .sub {
+	background-position: left  !important;
 }
 
 #navbarCP ul.menu ul {
 	background: none !important;
+}
+
+#navbarCP ul.menu ul li {
+	padding-right: 0px !important;
 }
 
 #choosestyle a {
@@ -77,4 +82,9 @@ input,textarea,input.formTextBox,select {
 
 .errorMsg {
 	direction: rtl !important;
+}
+
+.CPbigTitle {
+	background-position: right top !important;
+	padding-right: 40px !important;
 }

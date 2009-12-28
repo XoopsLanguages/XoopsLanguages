@@ -35,7 +35,7 @@ define('_MD_OXYGEN_NEWMODULE','ÈÑÇãÌ ÌÏíÏÉ');
 define('_MD_OXYGEN_XOOPSFAQ','ÃÓÆáÉ æ ÃÌæÈÉ Íæá ÒææÈÓ');
 define('_MD_OXYGEN_CODESVN','Code Svn');
 define('_MD_OXYGEN_REPORTBUG','Report Bug');
-define('_MD_OXYGEN_XGIFTSHOP','Xoops Gift Shop');
+define('_MD_OXYGEN_XGIFTSHOP','XOOPS Gift Shop');
 define('_MD_OXYGEN_XDONATIONS','ÇãäÍ åÈÉ');
 define('_MD_OXYGEN_XDONATIONS_TEXT','<h2>İí ÍÇÌÉ Åáì ãÓÇÚÏÊßã - ÇãäÍæÇ ÏÚã!</h2>
 If you like the XOOPS system, and would like to give something in return, you can make a donation to the XOOPS Foundation! Simply use the PayPal payment system to transfer your donation to the Foundation account.<br> 
@@ -53,7 +53,7 @@ define('_MD_OXYGEN_SEARCH','ÊÚÏíáÇÊ ÇáÈÍË');
 define('_MD_OXYGEN_MAILER','ÊåíÆÉ ÇáÈÑíÏ');
 define('_MD_OXYGEN_AUTHENTICATION','ÎíÇÑÇÊ ÇáÊÍŞŞ ãä ÇáåõæíøÉ');
 
-//add for styles name 
+//Add for styles name
 define('_MD_LANG_SILVER','İÖøí');
 define('_MD_LANG_DARK','ÃÓæÏ');
 define('_MD_LANG_ORANGE','ÈÑÊŞÇáí');
@@ -73,4 +73,14 @@ define('_MD_AM_MLUS_HELP','áÅÑÓÇá ÈÑíÏ Ãæ ÑÓÇÆá ÎÇÕÉ ááÃÚÖÇÁ ');
 define('_MD_AM_AVATARS_HELP','ááÊÍßã İí ÇáÕæÑ ÇáÔÎÕíÉ ÇáãÓÊÎÏãÉ ãä ÇáÃÚÖÇÁ ...');
 define('_MD_AM_TPLSETS_HELP','ááÊÍßã İí ŞæÇáÈ ÇáãÌáøÉ Ãæ ÇáÈÑÇãÌ');
 define('_MD_AM_COMMENTS_HELP','ááÊÍßã İí ÊÚáíŞÇÊ ÇáÒæÇÑ æ ÇáÃÚÖÇÁ <br>ÇáãÖÇİÉ İí ÈÑäÇãÌ ÇáÃÎÈÇÑ æ ÛíÑå');
+
+//Add 10 des
+define('_MD_OXYGEN_XOOPS_LICENSE','ÊÑÎíÕ äÙÇã ÅÏÇÑÉ ÇáãÍÊæì');
+define('_MD_OXYGEN_KEY','ÇáÑŞã ÇáÊÓáÓáí');
+define('_MD_OXYGEN_LICENSE','ÇáÊÑÎíÕ');
+define('_MD_OXYGEN_RSS','ãÓÊÌÏÇÊ RSS');
+define('_MD_OXYGEN_POWERED_BY','ÈÏÚã ãä');
+define('_MD_OXYGEN_SOURCEFORGE_TEXT','ÊØæíÑ ÒææÈÓ ãä ÎáÇá ãæŞÚ SourceForge');
+define('_MD_OXYGEN_ADMINISTRATION','ÇáÅÏÇÑÉ');
+
 ?>

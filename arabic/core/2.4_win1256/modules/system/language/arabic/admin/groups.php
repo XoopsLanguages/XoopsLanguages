@@ -35,7 +35,7 @@ define('_AM_FINDU4GROUP', 'ֵםַּֿ ֳÚײֱַ ו׀ו ַבדּדזÚֹ');
 define('_AM_GROUPSMAIN', 'ַבױÝֹֽ ַבֶׁם׃םֹ בבדּדזÚַÊ');
 define('_AM_ADMINNO', 'םָּ ַה םßזה והַß Úבל ַבֳÞב דֿםׁ זַֽֿ');
 // Custom block, suggested by trabis
-define("_AM_CUSTOMBLOCK","ָבזß ֵײַÝם");
+define('_AM_CUSTOMBLOCK','ָבזß ֵײַÝם');
 /**
 * New in 2.4.0
 */

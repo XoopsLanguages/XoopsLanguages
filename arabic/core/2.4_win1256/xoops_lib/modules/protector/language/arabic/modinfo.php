@@ -101,6 +101,11 @@ define($constpref.'_BIP_EXCEPTDSC','Çí ÚÖæ ÈåÉ ÇáãÌãæÚÉ áä íÊã ØÑÏÉ æíäÕÍ ÈÇÎÊíÇ
 
 define($constpref.'_DISABLES','ÊÚØíá ÈÚÖ ÇáãÒÇíÇÁ ãä ãÌáÉ ÒæÈÓ ');
 
+define($constpref.'_DBLAYERTRAP','Enable DB Layer trapping anti-SQL-Injection');
+define($constpref.'_DBLAYERTRAPDSC','Almost SQL Injection attacks will be canceled by this feature. This feature is required a support from databasefactory. You can check it on Security Advisory page. This setting must be on. Never turn it off casually.');
+define($constpref.'_DBTRAPWOSRV','Never checking _SERVER for anti-SQL-Injection');
+define($constpref.'_DBTRAPWOSRVDSC','Some servers always enable DB Layer trapping. It causes wrong detections as SQL Injection attack. If you got such errors, turn this option on. You should know this option weakens the security of DB Layer trapping anti-SQL-Injection.');
+
 define($constpref.'_BIGUMBRELLA','ÊİÚíá anti-XSS (ÇáãÖáÉ)');
 define($constpref.'_BIGUMBRELLADSC',' åĞÇ ÇáäæÚ ãä ÇáåÌãÇÊ íŞæã ÈÓÑŞÉ ÇáßæßíÒ ãä ÎáÇá ÇæãÑ ÌÇİÇ ãÎÊáİÉ æíŞæã ÈåÌãÇÊ  ÇÎÑì íÚÊÈÑ ãä ÇÎØÑ ÇáåÌãÇÊ  áÓÑŞÉ ÈÑíÏ ÇáÚÖæ Úáì ÇáíÇåæ æÇáåæÊãíá æÛíÑåÇ');
 
