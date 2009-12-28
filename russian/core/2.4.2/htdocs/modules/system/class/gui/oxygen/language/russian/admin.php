@@ -59,18 +59,18 @@ define('_MD_LANG_DARK','Тёмный');
 define('_MD_LANG_ORANGE','Оранжевый');
 
 // help
-define('_MD_AM_BANS_HELP','you can manage your <br> banners from here');
-define('_MD_AM_BKAD_HELP','with blocks you can <br> add many thing for <br> your users');
-define('_MD_AM_ADGS_HELP','you can add some groups <br> and manage permission <br> for ecah group');
-define('_MD_AM_IMAGES_HELP','you can add your image <br> here and make some <br> Category for yourself');
-define('_MD_AM_MDAD_HELP','at here you can install <br> and unistall your xoops <br> modules. do you know <br> what module is?');
-define('_MD_AM_PREF_HELP','xoops core and all of your <br> modules have a preferences <br> for manage module options');
-define('_MD_AM_SMLS_HELP','you and your users can use <br> this smilies in your posts ,<br> pms , comments and ...');
-define('_MD_AM_RANK_HELP','you can add ranks <br> for your users . ');
-define('_MD_AM_USER_HELP','whit this options you <br> can add new user or <br> edit old  user and userinfo ,<br> change groupss and many <br> other things');
-define('_MD_AM_FINDUSER_HELP','sometimes you need see <br>information about some users,<br> use this options for find<br> his/her');
-define('_MD_AM_MLUS_HELP','if you need send mail <br>or mp for your users ,<br> you can use this option');
-define('_MD_AM_AVATARS_HELP','add some avatars for your<br> users , they can use this <br>avatars on them profiles');
-define('_MD_AM_TPLSETS_HELP','if you need add some changes<br> in core or modules template use <br>this options');
-define('_MD_AM_COMMENTS_HELP','your users add some Comments <br>on your website , for your news , <br>photos , weblog post links and ...<br> manage user comments from here');
+define('_MD_AM_BANS_HELP','Здесь Вы можете <br /> управлять банерами.');
+define('_MD_AM_BKAD_HELP','Создание и добавление <br /> инфомационных блоков блоков <br /> для пользователей.');
+define('_MD_AM_ADGS_HELP','Вы можете добавлять <br /> и редактировать группы пользователей.');
+define('_MD_AM_IMAGES_HELP','Вы можете добалять <br /> изображения на сайт.');
+define('_MD_AM_MDAD_HELP','Установка, удаление <br /> и управление модлями');
+define('_MD_AM_PREF_HELP','У движка и модулей есть настройки. <br /> Здесь Вы сможете их настроить.');
+define('_MD_AM_SMLS_HELP','Вы и Ваши плользователи <br /> могут использовать эти смайлики...');
+define('_MD_AM_RANK_HELP','Здесь Вы сможете <br /> добавлять рангди <br /> для пользователей.');
+define('_MD_AM_USER_HELP','Здесь Вы сможете <br /> добавлять, редактировать <br /> и удалять пользователей. <br /> Назначить пользователю <br /> группы и ранг.');
+define('_MD_AM_FINDUSER_HELP','Здесь Вы сможете <br /> найти пользователей');
+define('_MD_AM_MLUS_HELP','Если Вам необходимо <br /> отправить почту или ЛС <br /> пользователям, Вы сможете <br /> это сделать сдесь.');
+define('_MD_AM_AVATARS_HELP','Добавьте аватары для <br /> пользователей. Они смогут <br /> выбрать их в профиле.');
+define('_MD_AM_TPLSETS_HELP','Если Вам необходимо сделать <br /> изменения в шаблонах, <br /> сделайте это здесь.');
+define('_MD_AM_COMMENTS_HELP','Ваши пользователи могут <br /> добавлять коментарии к новостям, <br /> вебблогам и т.д. Здесь Вы можете <br /> управлять коментариями.');
 ?>
