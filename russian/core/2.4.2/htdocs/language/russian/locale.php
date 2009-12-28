@@ -34,8 +34,8 @@ setlocale(LC_ALL, 'ru_ru.utf-8');
 // insert double '\' before 't', 'r', 'n'
 define("_TODAY", "Сегодня G:i");
 define("_YESTERDAY", "Вчера G:i");
-define("_MONTHDAY", "j.n G:i");
-define("_YEARMONTHDAY", "j.n.Y G:i");
+define("_MONTHDAY", "d.m G:i");
+define("_YEARMONTHDAY", "d.m.Y G:i");
 define("_ELAPSE", "%s назад");
 define("_TIMEFORMAT_DESC", "Правильный формат: \"s\" - " . _SHORTDATESTRING . "; \"m\" - " . _MEDIUMDATESTRING . "; \"l\" - " . _DATESTRING . ";<br />" . "\"c\" или \"custom\" - format determined according to interval to present; \"e\" - Elapsed; \"mysql\" - Y-m-d H:i:s;<br />" . "specified string - Для дополнительной информации прочитайте <a href=\"http://php.net/manual/en/function.date.php\" rel=\"external\">инструкцию PHP date()</a>.");
 

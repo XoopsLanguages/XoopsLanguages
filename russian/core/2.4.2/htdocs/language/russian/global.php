@@ -184,9 +184,9 @@ define('_DAYS', '%s дней');
 define('_WEEK', '1 неделя');
 define('_MONTH', '1 месяц');
 
-define('_DATESTRING','j.n.Y G:i:s');
-define('_MEDIUMDATESTRING','j.n.Y G:i');
-define('_SHORTDATESTRING','j.n.Y');
+define('_DATESTRING','d.m.Y G:i:s');
+define('_MEDIUMDATESTRING','d.m.Y G:i');
+define('_SHORTDATESTRING','d.m.Y');
 /*
 The following characters are recognized in the format string:
 a - 'am' or 'pm'
