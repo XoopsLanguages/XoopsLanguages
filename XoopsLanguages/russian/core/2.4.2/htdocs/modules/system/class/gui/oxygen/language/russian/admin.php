@@ -10,7 +10,7 @@ define('_AD_INSTALLEDMODULES','Установленные модули');
 define('_AD_XOOPSTHEMES','Тема');
 define('_AD_XOOPSMODULES','Модули');
 define('_AD_INTERESTSITES','Ссылки');
-define('_AD_LOCALSUPPORT','Локальная поддержка');
+define('_AD_LOCALSUPPORT','Техподдержка');
 define('_XOOPS_NEWS','Новости XOOPS');
 define('_XOOPS_WEBSITE','XOOPS');
 define('_SOURCEFORGE','Sourceforge');
@@ -36,7 +36,7 @@ define('_MD_OXYGEN_XOOPSFAQ','Xoops FAQ');
 define('_MD_OXYGEN_CODESVN','Code Svn');
 define('_MD_OXYGEN_REPORTBUG','Report Bug');
 define('_MD_OXYGEN_XGIFTSHOP','Xoops Gift Shop');
-define('_MD_OXYGEN_XDONATIONS','Make a Donation');
+define('_MD_OXYGEN_XDONATIONS','Помощь проекту');
 define('_MD_OXYGEN_XDONATIONS_TEXT','<h2>We Need Your Help - Make a Donation!</h2>
 If you like the XOOPS system, and would like to give something in return, you can make a donation to the XOOPS Foundation! Simply use the PayPal payment system to transfer your donation to the Foundation account.<br />
 Your donation will be used to promote and advance the use and development of the XOOPS system. Guaranteed.<br />
@@ -45,7 +45,7 @@ All donators will get the Friend of XOOPS rank here on this website. Thanks to t
 For Make a Donation and more info please visite <a href="http://www.xoops.org/modules/xdonations/" rel="external">here</a>');
 
 define('_MD_OXYGEN_SITEPREF','Конфигурация');
-define('_MD_OXYGEN_GENERAL','Основыне настройки');
+define('_MD_OXYGEN_GENERAL','Основные настройки');
 define('_MD_OXYGEN_USERSETTINGS','Настройка информации о пользователях');
 define('_MD_OXYGEN_METAFOOTER','Мета теги и нижний колонтитул');
 define('_MD_OXYGEN_CENSOR','Настройка параметров цензуры слов');

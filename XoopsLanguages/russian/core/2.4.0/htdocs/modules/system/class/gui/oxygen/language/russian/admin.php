@@ -10,7 +10,7 @@ define('_AD_INSTALLEDMODULES','Установленные модули');
 define('_AD_XOOPSTHEMES','Тема');
 define('_AD_XOOPSMODULES','Модули');
 define('_AD_INTERESTSITES','Ссылки');
-define('_AD_LOCALSUPPORT','Локальная поддержка');
+define('_AD_LOCALSUPPORT','Техподдержка');
 define('_XOOPS_NEWS','Новости XOOPS');
 define('_XOOPS_WEBSITE','XOOPS');
 define('_SOURCEFORGE','Sourceforge');
@@ -45,7 +45,7 @@ All donators will get the Friend of XOOPS rank here on this website. Thanks to t
 For Make a Donation and more info please visite <a href="http://www.xoops.org/modules/xdonations/" rel="external">here</a>');
 
 define('_MD_OXYGEN_SITEPREF','Конфигурация');
-define('_MD_OXYGEN_GENERAL','Основыне настройки');
+define('_MD_OXYGEN_GENERAL','Основные настройки');
 define('_MD_OXYGEN_USERSETTINGS','Настройка информации о пользователях');
 define('_MD_OXYGEN_METAFOOTER','Мета теги и нижний колонтитул');
 define('_MD_OXYGEN_CENSOR','Настройка параметров цензуры слов');
