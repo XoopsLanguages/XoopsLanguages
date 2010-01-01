@@ -41,12 +41,5 @@ $menu[] = array(
     'icon'      => XOOPS_URL . '/modules/system/class/gui/oxygen/images/xoops.png'
 );
 
-$menu[] = array(
-    'link'      => 'http://xoopsblog.ru',
-    'title'     => 'XOOPS блог',
-    'absolute'  => 1,
-    'icon'      => XOOPS_URL . '/modules/system/class/gui/oxygen/images/xoops.png'
-);
-
 return $menu;
 ?>
