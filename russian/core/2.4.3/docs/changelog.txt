@@ -1,6 +1,37 @@
 XOOPS Changelog
+
 ===============================
-2009/11/30: Version 2.4.2
+2009/12/31: Version 2.4.3
+===============================
+Updates upon community:
+- Added: Ability to assign display elements to a specific group of users (ghia)
+- Added: Smarty variable for xoops_avatar (kris_fr/trabis)
+- Added: Cache supported functions: xoops_getActiveModules(), xoops_setActiveModules(), xoops_isActiveModule() (trabis)
+- Added: XoopsMailer - Adding method to set 'allow html' parameter (Wishcraft)
+- Improved: Preloads are only loaded for modules installed and active, this will reduce queries and improve performance (trabis)
+- Fixed : XoopsLoad class (xoops calendar not found and other issues) (trabis)
+- Fixed : Database images not loading when using php 5.3 (trabis)
+- Fixed : Cross-Site Scripting vulnerability in PM module (trabis/secunia.com)
+- Fixed : SQL Injection vulnerability in kernel/notification.php (trabis/secunia.com)
+
+Updates from Sourceforge trackers:
+- Fixed bug #2917631 : Double frame around BBcode quotes in zetagenesis (kris_fr/ghia)
+- Fixed bug #2923867 : Website Row is displayed even value is empty (trabis/maxxy)
+- Fixed bug #2909312 : Layout of XoopsForms is changed (trabis/ghia)
+- Fixed bug #2904777 : preload including not installed module's preloads (trabis/bandit-x)
+- Fixed bug #2908887 : User can not select system avatars (trabis/ghia)
+- Fixed bug #2911944 : Users can see other users profile in edit profile (trabis/ghia)
+- Fixed bug #2910495 : BBcode code tag handles code worse than quote tag (trabis/ghia)
+- Fixed bug #2914175 : code tags translate to double tags and alter first line (trabis/ghia)
+- Fixed bug #2915970 : Banner white page on IE (trabis/ghia)
+
+Added Language defines:
+  language/english/banners.php _BANNERS_NO_LOGIN_DATA
+  language/english/banners.php _BANNERS_NO_REFERER
+  language/english/banners.php _BANNERS_NO_ID
+
+===============================
+2009/11/28: Version 2.4.2
 ===============================
 Updates upon community:
 - Fixed : "embed" is deprecated in banners (kris_fr)
@@ -18,7 +49,6 @@ Updates upon community:
 - Added : users real name can now be used in themes <{$xoops_name}> (kris_fr) 
 - Added : comment for download module and theme in last page "xoops installer" (kris_fr)
 - Improved : rtl style in oxygen GUI (voltan)
-- Improved: added Admin toolbar in Zetagenesis theme (kris_fr)
 
 Updates from Sourceforge trackers:
 - Fixed bug #2904049: xoopsform/formfile.php (mamba, Frankblack)
