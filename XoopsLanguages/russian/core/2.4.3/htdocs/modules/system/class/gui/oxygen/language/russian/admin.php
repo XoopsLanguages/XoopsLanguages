@@ -73,4 +73,14 @@ define('_MD_AM_MLUS_HELP','Если Вам необходимо <br /> отпр�
 define('_MD_AM_AVATARS_HELP','Добавьте аватары для <br /> пользователей. Они смогут <br /> выбрать их в профиле.');
 define('_MD_AM_TPLSETS_HELP','Если Вам необходимо сделать <br /> изменения в шаблонах, <br /> сделайте это здесь.');
 define('_MD_AM_COMMENTS_HELP','Ваши пользователи могут <br /> добавлять коментарии к новостям, <br /> вебблогам и т.д. Здесь Вы можете <br /> управлять коментариями.');
+
+//Add 10 des
+define('_MD_OXYGEN_XOOPS_LICENSE','Лицензия XOOPS');
+define('_MD_OXYGEN_KEY','Ключ XOOPS');
+define('_MD_OXYGEN_LICENSE','Лицензия');
+define('_MD_OXYGEN_RSS','Rss выдача');
+define('_MD_OXYGEN_POWERED_BY','Powered by');
+define('_MD_OXYGEN_SOURCEFORGE_TEXT','XOOPS Code hosted on SourceForge');
+define('_MD_OXYGEN_ADMINISTRATION','Администрирование XOOPS');
+
 ?>
