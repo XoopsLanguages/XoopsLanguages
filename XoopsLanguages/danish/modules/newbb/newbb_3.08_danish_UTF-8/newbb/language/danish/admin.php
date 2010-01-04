@@ -130,7 +130,7 @@ define('_AM_NEWBB_WAYSYWTDTTAL', 'Bemærk: Dette vil IKKE slette de forums der e
 
 //%%%%%%        File Name  admin_forums.php           %%%%%
 define('_AM_NEWBB_FORUMNAME', 'Forum Navn:');
-define('_AM_NEWBB_FORUMDESCRIPTION', 'Forum Brskrivelse:');
+define('_AM_NEWBB_FORUMDESCRIPTION', 'Forum Beskrivelse:');
 define('_AM_NEWBB_MODERATOR', 'Moderatore(r):');
 define('_AM_NEWBB_REMOVE', 'Fjern');
 define('_AM_NEWBB_CATEGORY', 'Kategori:');
