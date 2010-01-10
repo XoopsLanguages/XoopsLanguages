@@ -71,4 +71,12 @@ define('_MD_AM_MLUS_HELP','Send email eller personlig besked til udvalgte bruger
 define('_MD_AM_AVATARS_HELP','Tilføj avatars for dine brugere,<br>som de kan bruge i deres profiler');
 define('_MD_AM_TPLSETS_HELP','Rediger/tilpas XOOPS templates');
 define('_MD_AM_COMMENTS_HELP','Vedligehold bruger kommentar');
+
+define('_MD_OXYGEN_XOOPS_LICENSE','XOOPS Licens');
+define('_MD_OXYGEN_KEY','XOOPS Key');
+define('_MD_OXYGEN_LICENSE','Licens');
+define('_MD_OXYGEN_RSS','Rss feed');
+define('_MD_OXYGEN_POWERED_BY','Powered by');
+define('_MD_OXYGEN_SOURCEFORGE_TEXT','XOOPS Code hosted on SourceForge');
+define('_MD_OXYGEN_ADMINISTRATION','XOOPS Administration');
 ?>
