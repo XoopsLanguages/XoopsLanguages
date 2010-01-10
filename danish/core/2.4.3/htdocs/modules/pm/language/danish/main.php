@@ -40,7 +40,7 @@ define("_PM_SEND","Send");
 define("_PM_DELETE","Slet");
 define("_PM_TOSAVE","Gem");
 define("_PM_UNSAVE","Fortryd gem");
-define("_PM_EMPTY","Tom");
+define("_PM_EMPTY","Tøm");
 define("_PM_REPLY", "Svar");
 define("_PM_PLZREG","Registrer først for at du kan sende private meddelelser!");
 define("_PM_SAVED_PART","Du har ikke adgang lige nu %d til din gem boks og du har gemt %d meddelelser lige nu");
