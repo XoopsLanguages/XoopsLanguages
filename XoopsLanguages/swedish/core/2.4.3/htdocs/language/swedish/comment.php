@@ -57,7 +57,7 @@ define('_CM_DELETEALL', 'Ja, radera alla');
 define('_CM_THANKSPOST', 'Tack för din kommentar!');
 define('_CM_NOTICE', "Kommentarerna ägs av respektive författare. Vi är inte ansvariga för kommentarernas innehåll.");
 define('_CM_COMRULES', 'Kommentarsregler');
-define('_CM_COMAPPROVEALL', 'Kommentarere godkänns alltid');
+define('_CM_COMAPPROVEALL', 'Kommentarer godkänns alltid');
 define('_CM_COMAPPROVEUSER', 'Kommentarer av registrerade användare godkänns alltid');
 define('_CM_COMAPPROVEADMIN', 'Alla kommentarer behöver godkännas av en administratör');
 define('_CM_COMANONPOST', 'Tillåt anonyma kommentarer?');
