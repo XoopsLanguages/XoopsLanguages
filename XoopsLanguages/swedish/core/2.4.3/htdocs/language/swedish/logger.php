@@ -33,6 +33,7 @@ define('_LOGGER_MEM_ESTIMATED', "%s [uppskattad]");
 define('_LOGGER_NONE', "Inga");
 define('_LOGGER_ALL', "Alla");
 define('_LOGGER_ERRORS', "Fel");
+define('_LOGGER_DEPRECATED', "Inaktuell");
 define('_LOGGER_QUERIES', "Frågor");
 define('_LOGGER_BLOCKS', "Block");
 define('_LOGGER_EXTRA', "Extra");
