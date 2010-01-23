@@ -33,7 +33,7 @@ define('_LOGGER_MEM_ESTIMATED', "%s [примерно]");
 define('_LOGGER_NONE', "Ничего");
 define('_LOGGER_ALL', "Всё");
 define('_LOGGER_ERRORS', "Ошибки");
-define('_LOGGER_DEPRECATED', "Deprecated");
+define('_LOGGER_DEPRECATED', "Устаревшее");
 define('_LOGGER_QUERIES', "Запросы");
 define('_LOGGER_BLOCKS', "Блоки");
 define('_LOGGER_EXTRA', "Дополнительно");
