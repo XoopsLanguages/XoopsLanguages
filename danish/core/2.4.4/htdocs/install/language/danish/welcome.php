@@ -28,7 +28,7 @@ $content .= '
 <li>Forbered database til XOOPS sitet.</li>
 <li>Forbered din bruger konto og adgangsrettigheder til databasen.</li>
 <li>G&oslash;r f&oslash;lgende mapper og filer skrivbare: %s</li>
-<li>Af sikkerhedsm&aelig;ssige &aring;rsager, anbefales det at flytte f&oslash;lgende to mapper ud af <a href="http://phpsec.org/projects/guide/3.html" rel="external">document root</a>, og &aelig;ndre folder-navnene. %s</li>
+<li>Af sikkerhedsm&aelig;ssige &aring;rsager, anbefales det at flytte f&oslash;lgende to mapper ud af <a href="http://phpsec.org/projects/guide/3.html" rel="external">document root</a>, og &aelig;ndre foldernavnene. %s</li>
 <li>Opret (hvis de ikke findes) og g&oslash;r f&oslash;lgende mapper skrivbare: %s</li>
 <li>Tillad  cookie og JavaScript i din browser.</li>
 </ol>

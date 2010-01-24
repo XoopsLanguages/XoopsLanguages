@@ -1,5 +1,8 @@
 <?php
 // $Id$
+// _LANGCODE: da
+// _CHARSET : UTF-8
+// Translator: Anders Kristiansen (anderssk) www.xoopsnordic.org
 
 define('_AD_SYSOPTIONS','System indstillinger');
 define('_AD_INSTALLEDMODULES','Installerede moduler');
@@ -53,7 +56,7 @@ define('_MD_OXYGEN_AUTHENTICATION','Godkendelses muligheder');
 
 //add for styles name
 define('_MD_LANG_SILVER','Sølv');
-define('_MD_LANG_DARK',';Mørk');
+define('_MD_LANG_DARK','Mørk');
 define('_MD_LANG_ORANGE','Orange');
 
 // help
