@@ -1,0 +1,90 @@
+/* $Id: fa.css 3478 2009-08-21 07:32:55Z voltan1 $ */
+body {
+	font-family: Tahoma !important;
+}
+
+table,table td,table tr,ul,li,.content,#containBodyCP {
+	direction: rtl !important;
+	text-align: right !important;
+}
+
+input,textarea,input.formTextBox,select {
+	font: 11px tahoma !important;
+}
+
+div.confirmMsg {
+	text-align: center !important;
+	direction: rtl !important;
+}
+
+#navbarCP {
+	font: 11px Tahoma !important;
+	direction: rtl !important;
+	text-align: right !important;
+}
+
+#navbarCP ul li {
+	float: right !important;
+	margin-right: 3px !important;
+}
+
+#navOptionsCP a {
+	float: left !important;
+	margin-left: 2px !important;
+}
+
+.cpicon a,.cpicon a:hover,.cpiconmodules a,.cpiconmodules a:hover {
+	direction: rtl !important;
+	text-align: center !important;
+	float: right !important;
+}
+
+#navOptionsCP .modname {
+	float: right !important;
+}
+
+#navbarCP ul.menu li {
+	float: right !important;
+}
+
+#navbarCP ul.menu ul ul {
+	right: 126px !important;
+}
+
+#navbarCP ul.menu .sub {
+	background-position: left  !important;
+}
+
+#navbarCP ul.menu ul {
+	background: none !important;
+}
+
+#navbarCP ul.menu ul li {
+	padding-right: 0px !important;
+}
+
+#choosestyle a {
+	float: left !important;
+}
+
+#logoHead td.other {
+	float: left !important;
+}
+
+#main_logo {
+	float: right !important;
+}
+
+#xo-logger-output td,#xo-logger-output th,#xo-logger-tabs {
+	direction: ltr !important;
+	text-align: left !important;
+}
+
+.errorMsg {
+	direction: rtl !important;
+}
+
+.CPbigTitle {
+	background-position: right top !important;
+	padding-right: 40px !important;
+}
