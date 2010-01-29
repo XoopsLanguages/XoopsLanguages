@@ -33,6 +33,7 @@ define('_LOGGER_MEM_ESTIMATED', "%s [تخمین زده]");
 define('_LOGGER_NONE', "هیچ");
 define('_LOGGER_ALL', "همه");
 define('_LOGGER_ERRORS', "خطاها");
+define('_LOGGER_DEPRECATED', "توصیه شده");
 define('_LOGGER_QUERIES', "پرس و جو ها");
 define('_LOGGER_BLOCKS', "بلاک ها");
 define('_LOGGER_EXTRA', "اضافی");
