@@ -3,19 +3,21 @@
 // Module Info
 
 // The name of this module
-define("_MI_POLLS_NAME","نظر سنجی");
+define("_MI_POLLS_NAME","نظرسنجی");
 
 // A brief description of this module
 define("_MI_POLLS_DESC","برای گذاشتن نظرسنجی در بلاک");
 
 // Names of blocks for this module (Not all module has blocks)
-define("_MI_POLLS_BNAME1","نظر سنجی");
+define("_MI_POLLS_BNAME1","نظرسنجی");
 
 // Names of admin menu items
-define("_MI_POLLS_ADMENU1","فهرست نظر سنجی ها");
-define("_MI_POLLS_ADMENU2","اضافه کردن نظر سنجی");
+define("_MI_POLLS_ADMENU1","فهرست نظرسنجی ها");
+define("_MI_POLLS_ADMENU2","اضافه کردن نظرسنجی");
 
-// wellwine
-define("_MI_POLLS_LOOKUPHOST","یه جای آدرس IP  نام host را نمایش بده");
-define("_MI_POLLS_LOOKUPHOSTDESC","فهرست نام هاست ها به جای آدرس IP  در نمایش اطلاعات نظر سنجی ها. اگر نام هاست  انتخاب شود زمان بیشتری برای نمایش نام ها طول خواهد کشید.");
+//Module propertiesdefine("_MI_POLL_LIMITBYIP","محدود کردن شرکت در نظرسنجی به Ip کاربر");
+define("_MI_POLL_LIMITBYIPD","");
+define("_MI_POLL_LIMITBYUID","محدود کردن شرکت در نظرسنجی برای کاربر");
+define("_MI_POLL_LIMITBYUIDD","");
+
 ?>
