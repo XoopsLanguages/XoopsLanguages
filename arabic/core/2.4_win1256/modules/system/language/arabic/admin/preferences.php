@@ -115,7 +115,7 @@ define("_MD_AM_NOINDEXNOFOLLOW", "сЧ енЭЩ бЦэгэЩ цсЧ бцЧШи Чсуцок");
 define("_MD_AM_METAAUTHOR", "ЧсфЧдб");
 define("_MD_AM_METAAUTHORDSC", "ЧпЪШ Чгу фЧдб Чсуцок Уц еЧЭШх Ё  ЧпЪШ ШбэЯх  Уц Чгу дпбЪх Уц Чгу угЪЮЯух");
 define("_MD_AM_METACOPYR", "Эоцо Чсуцок");
-define("_MD_AM_METACOPYRDSC", "ЧпЪШ Эоцо уцокп уЫс ШбкЧэЩ нцлЧ нцб хэсШ");
+define("_MD_AM_METACOPYRDSC", "ЧпЪШ Эоцо уцокп хфЧ");
 define("_MD_AM_METADESC", "цен уцокп");
 define("_MD_AM_METADESCDSC", "ЧпЪШ цен уцокп ссЪкбэн Шх нэ уЭбпЧЪ ЧсШЭЫ");
 define("_MD_AM_METAFOOTER", "ЧсуэЪЧ ЪЧл ЧсхэЯб цЧснцЪб");

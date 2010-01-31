@@ -31,6 +31,7 @@ define('_LOGGER_MEM_ESTIMATED', '%s [«·„ﬁœ—…]');
 define('_LOGGER_NONE', '·« ‘Ì¡');
 define('_LOGGER_ALL', '«·ﬂ·');
 define('_LOGGER_ERRORS', '«·√Œÿ«¡');
+define('_LOGGER_DEPRECATED', "ÌÕ «Ã ·· ÿÊÌ—");
 define('_LOGGER_QUERIES', '«·«” ⁄·«„« ');
 define('_LOGGER_BLOCKS', '«·»·Êﬂ« ');
 define('_LOGGER_EXTRA', '√Œ—Ï');
