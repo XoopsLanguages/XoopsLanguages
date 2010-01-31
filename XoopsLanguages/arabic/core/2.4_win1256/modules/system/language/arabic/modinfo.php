@@ -25,7 +25,7 @@ define('_MI_SYSTEM_BNAME10', "รฺึวม ฬฯฯ");
 define('_MI_SYSTEM_BNAME11', "ยฮั วแสฺแํÞวส");
 // RMV-NOTIFY
 define('_MI_SYSTEM_BNAME12', "ฮํวัวส วแสศแํÛ");
-define('_MI_SYSTEM_BNAME13', "วแÞๆวแศ");
+define('_MI_SYSTEM_BNAME13', "วแหํใวส");
 
 // Names of admin menu items
 define("_MI_SYSTEM_ADMENU1","วแลฺแวไวส");

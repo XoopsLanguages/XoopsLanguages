@@ -42,7 +42,7 @@ define("_MB_SYSTEM_NODISPGR","Аг йзяж гАцзжга хЕпЕ гАЦяйхи :");
 define("_MB_SYSTEM_DISPLAYC","зяж %s йзАМчгй");
 define("_MB_SYSTEM_SECURE", "йслМА онФА бЦД");
 
-define("_MB_SYSTEM_NUMTHEME", "%s чгАх");
+define("_MB_SYSTEM_NUMTHEME", "%s кМЦ");
 define("_MB_SYSTEM_THSHOW", "зяж гАуФяи гАйФжМмМи");
 define("_MB_SYSTEM_THWIDTH", "млЦ зяж гАуФяи гАйФжМмМи");
 define('_MB_SYSTEM_REMEMBERME', 'йпъяДМ');

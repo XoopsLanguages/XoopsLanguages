@@ -53,7 +53,8 @@ define('_MD_OXYGEN_SEARCH',' Џѕнб«  «б»ЌЋ');
 define('_MD_OXYGEN_MAILER',' ен∆… «б»—нѕ');
 define('_MD_OXYGEN_AUTHENTICATION','ќн«—«  «б Ќёё гд «бехжнш…');
 
-//Add for styles name
+//add for styles name
+
 define('_MD_LANG_SILVER','Ё÷шн');
 define('_MD_LANG_DARK','√”жѕ');
 define('_MD_LANG_ORANGE','»— ё«бн');

@@ -4,9 +4,9 @@
 // _CHARSET : windows-1256
 // Translator: Arab XOOPS Team
 
-define( "_XOOPS_UPGRADE", "„⁄«·Ã  —ﬁÌ… «·„Ã·…" );
+define( "_XOOPS_UPGRADE", "„⁄«·Ã  —ﬁÌ… ‰Ÿ«„ ≈œ«—… «·„Õ ÊÏ" );
 define( "_CHECKING_APPLIED", "«· Õﬁﬁ „‰  —ﬁÌ«  ”«»ﬁ…:" );
-define( "_SET_FILES_WRITABLE", " √ﬂœ „‰ √‰ «·„·›«  «· «·Ì… ﬁ«»·… ··ﬂ «»… ﬁ»·  —ﬁÌ… «·„Ã·…:" );
+define( "_SET_FILES_WRITABLE", " √ﬂœ „‰ √‰ «·„·›«  «· «·Ì… ﬁ«»·… ··ﬂ «»… ﬁ»·  —ﬁÌ… ‰Ÿ«„ ≈œ«—… «·„Õ ÊÏ:" );
 define( "_NO_NEED_UPGRADE", "·«  Õ «Ã ≈·Ï «· —ﬁÌ… «·¬‰ ° «·—Ã«¡ Õ–› „Ã·œ «· —ﬁÌ… „‰ „Êﬁ⁄ﬂ" );
 define( "_NEED_UPGRADE", " —ﬁÌ… ÷—Ê—Ì…" );
 define( "_PROCEED_UPGRADE", "≈Ã—«¡ «· —ﬁÌ…" );
