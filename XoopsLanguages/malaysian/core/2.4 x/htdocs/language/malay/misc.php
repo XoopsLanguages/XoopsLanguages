@@ -24,25 +24,25 @@ defined('XOOPS_ROOT_PATH') or die('Restricted access');
 
 // _LANGCODE: en
 // _CHARSET : UTF-8
-// Translator: XOOPS Translation Team
-define('_MSC_YOURNAMEC', 'Your Name: ');
-define('_MSC_YOUREMAILC', 'Your Email: ');
-define('_MSC_FRIENDNAMEC', 'Friend Name: ');
-define('_MSC_FRIENDEMAILC', 'Friend Email: ');
-define('_MSC_RECOMMENDSITE', 'Recommend this Site to a Friend');
+// Translator: Sabahan 
+define('_MSC_YOURNAMEC', 'Nama anda: ');
+define('_MSC_YOUREMAILC', 'Email anda: ');
+define('_MSC_FRIENDNAMEC', 'Nama rakan anda: ');
+define('_MSC_FRIENDEMAILC', 'Emel rakan anda: ');
+define('_MSC_RECOMMENDSITE', 'Rekomen laman web ini kepada rakan');
 // %s is your site name
-define('_MSC_INTSITE', 'Interesting Site: %s');
-define('_MSC_REFERENCESENT', 'The reference to our site has been sent to your friend. Thanks!');
-define('_MSC_ENTERYNAME', 'Please enter your name');
-define('_MSC_ENTERFNAME', 'Please enter your friend\'s name');
-define('_MSC_ENTERFMAIL', 'Please enter your friend\'s email address');
-define('_MSC_NEEDINFO', 'You need to enter required info!');
-define('_MSC_INVALIDEMAIL1', 'The email address you provided is not a valid address.');
-define('_MSC_INVALIDEMAIL2', 'Please check the address and try again.');
-define('_MSC_AVAVATARS', 'Available Avatars');
+define('_MSC_INTSITE', 'Laman web menarik: %s');
+define('_MSC_REFERENCESENT', 'Rujukan kepada laman web kami telah dihantar kepada rakan anda. Terima Kasih!');
+define('_MSC_ENTERYNAME', 'Sila masukkan nama anda');
+define('_MSC_ENTERFNAME', 'Sila masukkan nama rakan anda');
+define('_MSC_ENTERFMAIL', 'Sila masukkan emel rakan anda');
+define('_MSC_NEEDINFO', 'Andala perlu masukkan info yang wajib!');
+define('_MSC_INVALIDEMAIL1', 'Emel yang anda masukkan tidak sah.');
+define('_MSC_INVALIDEMAIL2', 'Sila periksa alamat emel tersebut dan sila cuba lagi.');
+define('_MSC_AVAVATARS', 'Avatar yang sedia ada');
 define('_MSC_SMILIES', 'Smilies');
-define('_MSC_CLICKASMILIE', 'Click a smilie to insert it into your message.');
-define('_MSC_CODE', 'Code');
+define('_MSC_CLICKASMILIE', 'Sila klik smilie untuk dimasukkan ke dalam mesej anda.');
+define('_MSC_CODE', 'Kod');
 define('_MSC_EMOTION', 'Emotion');
 
 ?>
