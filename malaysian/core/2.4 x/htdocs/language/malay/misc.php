@@ -30,7 +30,7 @@ define('_MSC_YOUREMAILC', 'Email anda: ');
 define('_MSC_FRIENDNAMEC', 'Nama rakan anda: ');
 define('_MSC_FRIENDEMAILC', 'Emel rakan anda: ');
 define('_MSC_RECOMMENDSITE', 'Rekomen laman web ini kepada rakan');
-// %s is your site name
+// %s adalah nama laman web
 define('_MSC_INTSITE', 'Laman web menarik: %s');
 define('_MSC_REFERENCESENT', 'Rujukan kepada laman web kami telah dihantar kepada rakan anda. Terima Kasih!');
 define('_MSC_ENTERYNAME', 'Sila masukkan nama anda');
