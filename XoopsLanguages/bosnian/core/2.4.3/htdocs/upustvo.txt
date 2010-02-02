@@ -1,0 +1,7 @@
+Vozdra xoops obožavaoci!
+Naravno ovo je samo prevod xoops2.4.3 verzije i ordnere trebate u svoj root server dodati osim ordnera xoops_trust_path
+kojeg ste po upustvu instalacije na svom serveru dodali i tu u protector ide prevod.
+Za sve informacije i pomoæ možete mi se obratiti na mail info@g-orahovica.com ili
+na mojoj webstranici kontaktirati na http://g-orahovica.com
+Srdaèan pozz xoops fanovima
+Saba 
