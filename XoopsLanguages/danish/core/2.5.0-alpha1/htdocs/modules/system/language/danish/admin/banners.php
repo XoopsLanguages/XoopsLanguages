@@ -28,7 +28,7 @@ define("_AM_SYSTEM_BANNERS_NCLICKS","% Klik");
 define("_AM_SYSTEM_BANNERS_CLINAME","Klient navn");
 define("_AM_SYSTEM_BANNERS_FUNCTION","Funktioner");
 define("_AM_SYSTEM_BANNERS_UNLIMIT","Ubegrænset");
-define("_AM_SYSTEM_BANNERS_VIEW","Vis banner")
+define("_AM_SYSTEM_BANNERS_VIEW","Vis banner");
 define("_AM_SYSTEM_BANNERS_EDIT","Redigér");
 define("_AM_SYSTEM_BANNERS_DELETE","Slet");
 define("_AM_SYSTEM_BANNERS_FINISHBNR","Afsluttede bannere");
@@ -40,7 +40,7 @@ define("_AM_SYSTEM_BANNERS_ACTIVEBNR","Aktive Bannere");
 define("_AM_SYSTEM_BANNERS_CONTNAME","Kontakt Navn");
 define("_AM_SYSTEM_BANNERS_CONTMAIL","Kontakt Email");
 define("_AM_SYSTEM_BANNERS_CLINAMET","Klient Navn:");
-define("_AM_SYSTEM_BANNERS_ADDNWBNR","Tilfør nyt banner");
+define("_AM_SYSTEM_BANNERS_ADDNWBNR","Tilføj nyt banner");
 define("_AM_SYSTEM_BANNERS_IMPPURCHT","Visninger købt:");
 define("_AM_SYSTEM_BANNERS_IMGURLT","Billed URL:");
 define("_AM_SYSTEM_BANNERS_CLICKURLT","Klik URL:");
@@ -50,7 +50,7 @@ define("_AM_SYSTEM_BANNERS_CONTNAMET","Kontakt Navn:");
 define("_AM_SYSTEM_BANNERS_CONTMAILT","Kontakt Email:");
 define("_AM_SYSTEM_BANNERS_CLILOGINT","Klient Login:");
 define("_AM_SYSTEM_BANNERS_CLIPASST","Klient Password:");
-define("_AM_SYSTEM_BANNERS_ADDCLI","Tilfør klient");
+define("_AM_SYSTEM_BANNERS_ADDCLI","Tilføj klient");
 define("_AM_SYSTEM_BANNERS_DELEBNR","Slet Banner");
 define("_AM_SYSTEM_BANNERS_SUREDELE","Er du sikker på at du ønsker at slette dette banner?");
 define("_AM_SYSTEM_BANNERS_NO","Nej");
@@ -71,5 +71,12 @@ define("_AM_SYSTEM_BANNERS_EXTINFO","Ekstra information:");
 define("_AM_SYSTEM_BANNERS_CHGCLI","Skift klient");
 define("_AM_SYSTEM_BANNERS_USEHTML","Brug HTML?");
 define("_AM_SYSTEM_BANNERS_CODEHTML","HTML kode:");
+
+// Tips
+define( "_AM_SYSTEM_BANNERS_NAV_TIPS", '
+<ul>
+<li>Tilføj, redigér og opdatér kategori, banner og klienter.</li>
+</ul>
+');
 
 ?>
