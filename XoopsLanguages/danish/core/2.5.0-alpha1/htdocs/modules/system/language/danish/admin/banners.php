@@ -1,59 +1,75 @@
 <?php
-// $Id: banners.php 1529 2008-05-01 08:14:55Z phppp $
-//%%%%%%        Admin Module Name  Banners         %%%%%
-define("_AM_DBUPDATED",_MD_AM_DBUPDATED);
+/**
+ * @copyright   The XOOPS Project http://sourceforge.net/projects/xoops/
+ * @license     http://www.fsf.org/copyleft/gpl.html GNU public license
+ * _LANGCODE    en
+ * _CHARSET     UTF-8
+ * _TRANSLATER	Anders Kristiansen (anderssk)
+ * @version     $Id: banners.php 4091 2010-01-05 17:02:11Z forxoops $
+ */
 
-define('_AM_CURACTBNR', 'Aktive Bannere');
-define('_AM_BANNERID', 'Banner ID');
-define("_AM_CLIENTID","Klient ID");
-define('_AM_IMPRESION', 'Aftryk');
-define('_AM_IMPLEFT', 'Aftryk tilbage');
-define('_AM_CLICKS', 'Klik');
-define('_AM_NCLICKS', '% Klik');
-define('_AM_CLINAME', 'Klient Navn');
-define('_AM_FUNCTION', 'Funktioner');
-define('_AM_UNLIMIT', 'Ubegrænset');
-define('_AM_EDIT', 'Redigér');
-define('_AM_DELETE', 'Slet');
-define('_AM_FINISHBNR', 'Afsluttede Bannere');
-define('_AM_IMPD', 'Aftryk');
-define('_AM_STARTDATE', 'Startdato');
-define('_AM_ENDDATE', 'Slutdato');
-define('_AM_ADVCLI', 'Reklameklienter');
-define('_AM_ACTIVEBNR', 'Aktive Bannere');
-define('_AM_CONTNAME', 'Kontakt navn');
-define('_AM_CONTMAIL', 'Kontakt email');
-define('_AM_CLINAMET', 'Klientnavn:');
-define('_AM_ADDNWBNR', 'Tilføj nyt banner');
-define('_AM_IMPPURCHT', 'Antal aftryk købt:');
-define('_AM_IMGURLT', 'Billede URL:');
-define('_AM_CLICKURLT', 'Klik URL:');
-define('_AM_ADDBNR', 'Tilføj Banner');
-define('_AM_ADDNWCLI', 'Tilføj en ny klient');
-define('_AM_CONTNAMET', 'Kontakt navn:');
-define('_AM_CONTMAILT', 'Kontakt email:');
-define('_AM_CLILOGINT', 'Klientens login:');
-define('_AM_CLIPASST', 'Klientens Adgangskode:');
-define('_AM_ADDCLI', 'Tilføj klient');
-define('_AM_DELEBNR', 'Slet banner');
-define('_AM_SUREDELE', 'Er du sikker på, at du ønsker at slette dette banner?');
-define('_AM_NO', 'Nej');
-define('_AM_YES', 'Ja');
-define('_AM_EDITBNR', 'Redigér banner');
-define('_AM_ADDIMPT', 'Tilføj flere aftryk:');
-define('_AM_PURCHT', 'Købt:');
-define('_AM_MADET', 'Lavet:');
-define('_AM_CHGBNR', 'Skift banner');
-define('_AM_DELEADC', 'Slet reklameklient');
-define('_AM_SUREDELCLI', 'Du er ved at slette klienten <strong>%s</strong> og alle tilhørende bannere!!!');
-define('_AM_NOBNRRUN', 'Denne klient har ingen bannere kørende nu.');
-define('_AM_WARNING', 'ADVARSEL!!!');
-define('_AM_ACTBNRRUN', 'Denne klient har følgende AKTIVE BANNERE kørende på vores side:');
-define('_AM_SUREDELBNR', 'Er du sikker på, at du ønsker at slette denne klient og ALLE tilhørende bannere?');
-define('_AM_EDITADVCLI', 'Redigér reklameklient');
-define('_AM_EXTINFO', 'Ekstra information:');
-define('_AM_CHGCLI', 'Skift klient');
-define('_AM_USEHTML', 'Brug HTML?');
-define('_AM_CODEHTML', 'HTML kode:');
+//%%%%%%        Admin Module Name  Banners         %%%%%
+define("_AM_SYSTEM_BANNERS_DBUPDATED",_AM_SYSTEM_DBUPDATED);
+
+//Nav
+define("_AM_SYSTEM_BANNERS_NAV_MANAGER","Banner Vedligehold");
+define("_AM_SYSTEM_BANNERS_NAV_MAIN","Banner og klient liste");
+define("_AM_SYSTEM_BANNERS_NAV_EDITBNR","Redigér banner");
+define("_AM_SYSTEM_BANNERS_NAV_ADDBNR","Tilføj nyt banner");
+define("_AM_SYSTEM_BANNERS_NAV_EDITADVCLI","Rediger klient");
+define("_AM_SYSTEM_BANNERS_NAV_ADDNWCLI","Tilføj ny klient");
+
+define("_AM_SYSTEM_BANNERS_CURACTBNR","Aktive Bannere");
+define("_AM_SYSTEM_BANNERS_BANNERID","Banner ID");
+define("_AM_SYSTEM_BANNERS_IMPRESION","Visninger");
+define("_AM_SYSTEM_BANNERS_IMPLEFT","Visninger tilbage");
+define("_AM_SYSTEM_BANNERS_CLICKS","Klik");
+define("_AM_SYSTEM_BANNERS_NCLICKS","% Klik");
+define("_AM_SYSTEM_BANNERS_CLINAME","Klient navn");
+define("_AM_SYSTEM_BANNERS_FUNCTION","Funktioner");
+define("_AM_SYSTEM_BANNERS_UNLIMIT","Ubegrænset");
+define("_AM_SYSTEM_BANNERS_VIEW","Vis banner")
+define("_AM_SYSTEM_BANNERS_EDIT","Redigér");
+define("_AM_SYSTEM_BANNERS_DELETE","Slet");
+define("_AM_SYSTEM_BANNERS_FINISHBNR","Afsluttede bannere");
+define("_AM_SYSTEM_BANNERS_IMPD","Visninger");
+define("_AM_SYSTEM_BANNERS_STARTDATE","Startet den");
+define("_AM_SYSTEM_BANNERS_ENDDATE","Sluttet den");
+define("_AM_SYSTEM_BANNERS_ADVCLI","Klient");
+define("_AM_SYSTEM_BANNERS_ACTIVEBNR","Aktive Bannere");
+define("_AM_SYSTEM_BANNERS_CONTNAME","Kontakt Navn");
+define("_AM_SYSTEM_BANNERS_CONTMAIL","Kontakt Email");
+define("_AM_SYSTEM_BANNERS_CLINAMET","Klient Navn:");
+define("_AM_SYSTEM_BANNERS_ADDNWBNR","Tilfør nyt banner");
+define("_AM_SYSTEM_BANNERS_IMPPURCHT","Visninger købt:");
+define("_AM_SYSTEM_BANNERS_IMGURLT","Billed URL:");
+define("_AM_SYSTEM_BANNERS_CLICKURLT","Klik URL:");
+define("_AM_SYSTEM_BANNERS_ADDBNR","Tilføj banner");
+define("_AM_SYSTEM_BANNERS_ADDNWCLI","Tilføj ny klient");
+define("_AM_SYSTEM_BANNERS_CONTNAMET","Kontakt Navn:");
+define("_AM_SYSTEM_BANNERS_CONTMAILT","Kontakt Email:");
+define("_AM_SYSTEM_BANNERS_CLILOGINT","Klient Login:");
+define("_AM_SYSTEM_BANNERS_CLIPASST","Klient Password:");
+define("_AM_SYSTEM_BANNERS_ADDCLI","Tilfør klient");
+define("_AM_SYSTEM_BANNERS_DELEBNR","Slet Banner");
+define("_AM_SYSTEM_BANNERS_SUREDELE","Er du sikker på at du ønsker at slette dette banner?");
+define("_AM_SYSTEM_BANNERS_NO","Nej");
+define("_AM_SYSTEM_BANNERS_YES","Ja");
+define("_AM_SYSTEM_BANNERS_EDITBNR","Redigér Banner");
+define("_AM_SYSTEM_BANNERS_ADDIMPT","Tilføj flere visninger:");
+define("_AM_SYSTEM_BANNERS_PURCHT","Købt:");
+define("_AM_SYSTEM_BANNERS_MADET","Lavet:");
+define("_AM_SYSTEM_BANNERS_CHGBNR","Skift banner");
+define("_AM_SYSTEM_BANNERS_DELEADC","Slet klient");
+define("_AM_SYSTEM_BANNERS_SUREDELCLI","Du er ved at slette klient <strong>%s</strong> og alle tilhørende bannere!!!");
+define("_AM_SYSTEM_BANNERS_NOBNRRUN","Klienten har ingen bannere i øjeblikket.");
+define("_AM_SYSTEM_BANNERS_WARNING","ADVARSEL!!!");
+define("_AM_SYSTEM_BANNERS_ACTBNRRUN","Denne klient har følgende AKTIVE BANNERE kørende:");
+define("_AM_SYSTEM_BANNERS_SUREDELBNR","Er du sikker på, at du ønsker at slette denne klient og ALLE tilhørende bannere?");
+define("_AM_SYSTEM_BANNERS_EDITADVCLI","Redigér klient");
+define("_AM_SYSTEM_BANNERS_EXTINFO","Ekstra information:");
+define("_AM_SYSTEM_BANNERS_CHGCLI","Skift klient");
+define("_AM_SYSTEM_BANNERS_USEHTML","Brug HTML?");
+define("_AM_SYSTEM_BANNERS_CODEHTML","HTML kode:");
 
 ?>
