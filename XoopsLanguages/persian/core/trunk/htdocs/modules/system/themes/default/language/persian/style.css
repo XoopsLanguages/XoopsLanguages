@@ -88,3 +88,10 @@ div.confirmMsg {
 	background-position: right top !important;
 	padding-right: 40px !important;
 }
+
+#xo-Breadcrumb {
+    width: 95% !important;
+}
+
+.floatleft{ float:right !important;}
+.floatright{ float:left !important;}

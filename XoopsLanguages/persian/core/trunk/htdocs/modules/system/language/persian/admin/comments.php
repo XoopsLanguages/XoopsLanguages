@@ -1,15 +1,52 @@
 <?php
-// $Id$
-// _LANGCODE: fa
-// _CHARSET : UTF-8
-// Translator: XOOPS Translation Team
+/**
+ * @copyright   The XOOPS Project http://sourceforge.net/projects/xoops/
+ * @license     http://www.fsf.org/copyleft/gpl.html GNU public license
+ * _LANGCODE    en
+ * _CHARSET     UTF-8
+ * @version     $Id: comments.php 4091 2010-01-05 17:02:11Z forxoops $
+ */
+ 
+// Manager
+define('_AM_SYSTEM_COMMENTS_NAV_MANAGER','مدیریت نظر ها');
+define('_AM_SYSTEM_COMMENTS_NAV_MAIN','فهرست');
+define('_AM_SYSTEM_COMMENTS_NAV_PURGE','پاکسازی نظر ها');
 
-//%%%%%% Comment Manager %%%%%
-define('_MD_AM_COMMMAN','مدیریت نظرها');
+// Nav
+define('_AM_SYSTEM_COMMENTS_MODULE_ADMIN','مدیریت ماژول');
 
-define('_MD_AM_LISTCOMM','فهرست نظرها');
-define('_MD_AM_ALLMODS','همه ماژول‌ها');
-define('_MD_AM_ALLSTATUS','هر وضعیتی');
-define('_MD_AM_MODULE','ماژول');
-define('_MD_AM_COMFOUND','%s نظر پیدا شد');
+// Tips
+define('_AM_SYSTEM_COMMENTS_NAV_TIPS','
+<ul>
+<li>مدیریت نظر های ارسالی در تمام ماژول ها.</li>
+<li>حذف ساده نظر ها به وسیله پاکسازی.</li>
+</ul>');
+
+// Form
+define('_AM_SYSTEM_COMMENTS_FORM_LIST_COMMENTS','فهرست نظرها');
+define('_AM_SYSTEM_COMMENTS_FORM_ALL_MODS','تمام ماژول ها');
+define('_AM_SYSTEM_COMMENTS_FORM_ALL_STATUS','هر وضعیت');
+
+define('_AM_SYSTEM_COMMENTS_FORM_PURGE','پاکسازی');
+define('_AM_SYSTEM_COMMENTS_FORM_PURGE_DATE_AFTER','بعد از این تاریخ (برای برسی تمام تاریخ ها  این گزینه را خالی بگذارید)');
+define('_AM_SYSTEM_COMMENTS_FORM_PURGE_DATE_BEFORE','قبل از این تاریخ (برای برسی تمام تاریخ ها  این گزینه را خالی بگذارید)');
+define('_AM_SYSTEM_COMMENTS_FORM_PURGE_GROUPS', 'گروه');
+define('_AM_SYSTEM_COMMENTS_FORM_PURGE_USER', 'نام کاربر');
+define('_AM_SYSTEM_COMMENTS_FORM_PURGE_STATUS', 'وضعیت');
+define('_AM_SYSTEM_COMMENTS_FORM_PURGE_MODULES', 'ماژول');
+
+// Tab
+define('_AM_SYSTEM_COMMENTS_TITLE','عنوان');
+define('_AM_SYSTEM_COMMENTS_POSTED','فرستنده');
+define('_AM_SYSTEM_COMMENTS_IP','IP');
+define('_AM_SYSTEM_COMMENTS_MODULE','ماژول');
+define('_AM_SYSTEM_COMMENTS_STATUS','وضعیت');
+define('_AM_SYSTEM_COMMENTS_ACTION','عملکرد');
+define('_AM_SYSTEM_COMMENTS_VIEW','نمایش نظر');
+
+define('_AM_SYSTEM_COMMENTS_NO_COMMENTS','هیچ نظری یافت نشد');
+define('_AM_SYSTEM_COMMENTS_COMMENTS_FOUND','%s یافت شد.');
+
+
+
 ?>

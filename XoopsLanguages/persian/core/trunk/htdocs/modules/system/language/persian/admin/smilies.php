@@ -1,26 +1,38 @@
-﻿<?php
-// $Id$
-// _LANGCODE: fa
-// _CHARSET : UTF-8
-// Translator: XOOPS Translation Team
+<?php
+/**
+ * @copyright   The XOOPS Project http://sourceforge.net/projects/xoops/
+ * @license     http://www.fsf.org/copyleft/gpl.html GNU public license
+ * _LANGCODE    en
+ * _CHARSET     UTF-8
+ * @version     $Id: smilies.php 4091 2010-01-05 17:02:11Z forxoops $
+ */
+//Nav
+define('_AM_SYSTEM_SMILIES_NAV_MANAGER','مدیریت لبخند ها');
+define('_AM_SYSTEM_SMILIES_NAV_LIST','فهرست لبخند ها');
+define('_AM_SYSTEM_SMILIES_NAV_ADD','اضافه کردن لبخند ');
+define('_AM_SYSTEM_SMILIES_NAV_EDIT','ویرایش لبخند');
 
-//%%%%%%	Admin Module Name  Smilies 	%%%%%
-define('_AM_DBUPDATED',_MD_AM_DBUPDATED);
+// Tips
+define('_AM_SYSTEM_SMILIES_NAV_TIPS','<ul><li>اضافه , ویرایش یا حذف لبخند ها</li></ul>');
+define('_AM_SYSTEM_SMILIES_NAV_TIPS_FORM1','<ul><li>فهرست فرمت های مجاز: %s</li>');
+define('_AM_SYSTEM_SMILIES_NAV_TIPS_FORM2','<li>بیشترین حجم فایل برای بارگذاری: %s ko</li></ul>');
 
-define('_AM_SMILESCONTROL','تنظیمات لبخندکها (Smilies Control)');
-define('_AM_CODE','کد');
-define('_AM_SMILIE','لبخندک (Smilie)');
-define('_AM_ACTION','انجام عمل');
-define('_AM_EDIT','ویرایش');
-define('_AM_DEL','حذف');
-define('_AM_CNRFTSD','فراخوانی لبخندک از پایگاه داده با مشکل روبرو شد');
-define('_AM_ADDSMILE','اضافه کردن لبخندک:');
-define('_AM_EDITSMILE','ویرایش لبخندک:');
-define('_AM_SMILECODE','کد لبخندک:');
-define('_AM_SMILEURL','آدرس تصویر:');
-define('_AM_SMILEEMOTION','شرح:');
-define('_AM_ADD','اضافه');
-define('_AM_SAVE','ذخیره');
-define('_AM_WAYSYWTDTS','هشدار: ایا مطمئنید که می‌خواهید این لبخندک را حذف کنید؟');
-define('_AM_DISPLAYF', 'در ویرایشگر نشان داده شود؟');
+//Infos
+define('_AM_SYSTEM_SMILIES_ACTION','انجام عمل');
+define('_AM_SYSTEM_SMILIES_ADD','اضافه کردن لبخند جدید');
+define('_AM_SYSTEM_SMILIES_CODE','کد');
+define('_AM_SYSTEM_SMILIES_DELETE','حذف لبخند');
+define('_AM_SYSTEM_SMILIES_DESCRIPTION','توضیحات');
+define('_AM_SYSTEM_SMILIES_DISPLAY','نمایش در فرم');
+define('_AM_SYSTEM_SMILIES_EDIT','ویرایش لبخند');
+define('_AM_SYSTEM_SMILIES_FILE','فایل لبخند');
+define('_AM_SYSTEM_SMILIES_IMAGE_PATH', 'فایل های موجود در: %s');
+define('_AM_SYSTEM_SMILIES_OFF','نمایش در فرم ');
+define('_AM_SYSTEM_SMILIES_ON','عدم نمایش در فرم');
+define('_AM_SYSTEM_SMILIES_SMILIE','لبخند');
+define('_AM_SYSTEM_SMILIES_SUREDEL', 'آیا مطمئنید که می‌خواهید این لبخند را حذف کنید؟');
+define('_AM_SYSTEM_SMILIES_UPLOADS', 'بارگذاری');
+
+define('_AM_SYSTEM_SMILIES_SAVE',_AM_SYSTEM_DBUPDATED);
+
 ?>

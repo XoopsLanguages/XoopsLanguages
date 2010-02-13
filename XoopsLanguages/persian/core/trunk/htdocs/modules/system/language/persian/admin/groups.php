@@ -1,53 +1,38 @@
 <?php
-// $Id$
-// _LANGCODE: fa
+// $Id: groups.php 4091 2010-01-05 17:02:11Z forxoops $
+// _LANGCODE: en
 // _CHARSET : UTF-8
 // Translator: XOOPS Translation Team
-
 // %%%%%%	Admin Module Name  AdminGroup 	%%%%%
-define("_AM_DBUPDATED", _MD_AM_DBUPDATED);
 
-define("_AM_EDITADG","ویرایش گروه");
-define("_AM_MODIFY","اصلاح");
-define("_AM_DELETE","حذف");
-define("_AM_CREATENEWADG","ساختن گروه جدید");
-define("_AM_NAME","نام");
-define("_AM_DESCRIPTION","شرح");
-define("_AM_INDICATES","* نمایش فیلدهای لازم");
-define("_AM_SYSTEMRIGHTS","دادن مدیریت برای ماژول سیستم");
-define("_AM_ACTIVERIGHTS","دادن مدیریت برای بقیه ماژول ها");
-define("_AM_IFADMIN","اگر مدیریت یک ماژول برای گروهی فعال باشد، دسترسی به ماژول برای آن گروه به طور خود به خود فعال خواهد بود");
-define("_AM_ACCESSRIGHTS","دادن دسترسی به ماژول‌ها");
-define("_AM_UPDATEADG","به روز کن");
-define("_AM_MODIFYADG","اصلاح کن");
-define("_AM_DELETEADG","حذف کن");
-define("_AM_AREUSUREDEL","آیا مطمئنید که می‌خواهید گروه را حذف کنید؟");
-define("_AM_YES","بله");
-define("_AM_NO","نه");
-define("_AM_EDITMEMBER","ویرایش اعضای این گروه");
-define("_AM_MEMBERS","اعضا");
-define("_AM_NONMEMBERS","غیر اعضا");
-define("_AM_ADDBUTTON","اضافه -->");
-define("_AM_DELBUTTON","حذف <--");
-define("_AM_UNEED2ENTER","باید اطلاعات مورد نیاز را وارد کنید !");
+//Nav
+define('_AM_SYSTEM_GROUPS_NAV_MANAGER','مدیریت گروه ها');
+define('_AM_SYSTEM_GROUPS_NAV_LIST','فهرست گروه ها');
+define('_AM_SYSTEM_GROUPS_NAV_ADD','اضافه کردن گروه جدید');
+define('_AM_SYSTEM_GROUPS_NAV_EDIT','ویرایش گروه');
 
-// Added in RC3
-define("_AM_BLOCKRIGHTS","دادن دسترسی به بلاک‌ها");
+// Tips
+define('_AM_SYSTEM_GROUPS_NAV_TIPS_1','<ul><li>یک گروه جدید با دسترسی های جدید بسازید.</li><li>برای تغییر دسترسی گروه ها را ویرایش کنید.</li></ul>');
+define('_AM_SYSTEM_GROUPS_NAV_TIPS_2','<ul><li>دسترسی های این گروه را تغییر دهید یا دسترسی جدید ایجاد کنید, تغییرات شما برای تمام کاربران این گروه اعمال میشود.</li></ul>');
 
-define('_AM_FINDU4GROUP', 'پیدا کردن عضو برای اضافه‌کردن به این گروه');
-define('_AM_GROUPSMAIN', 'صفحه‌ی اصلی گروه‌ها');
+//Infos
+define('_AM_SYSTEM_GROUPS_ACCESSRIGHTS', 'دادن دسترسی به ماژول‌ها');
+define('_AM_SYSTEM_GROUPS_ACTION','عملکرد');
+define('_AM_SYSTEM_GROUPS_ACTIVERIGHTS', 'دادن مدیریت برای بقیه ماژول ها');
+define('_AM_SYSTEM_GROUPS_ADD','اضافه کردن گروه جدید');
+define('_AM_SYSTEM_GROUPS_BLOCKRIGHTS', 'دادن دسترسی به بلاک‌ها');
+define('_AM_SYSTEM_GROUPS_CUSTOMBLOCK', 'بلاک دست ساز');
+define('_AM_SYSTEM_GROUPS_DELETE','حذف گروه');
+define('_AM_SYSTEM_GROUPS_DESCRIPTION','شرح');
+define('_AM_SYSTEM_GROUPS_EDIT','ویرایش گروه');
+define('_AM_SYSTEM_GROUPS_ERROR_DELETE', 'شما نمیتوانید این گروه را حذف کنید');
+define('_AM_SYSTEM_GROUPS_ID','ID');
+define('_AM_SYSTEM_GROUPS_NAME','نام گروه');
+define('_AM_SYSTEM_GROUPS_NB_USERS_BY_GROUPS', 'تعداد اعضای گروه');
+define('_AM_SYSTEM_GROUPS_NB_USERS_BY_GROUPS_USERS', '%s کاربر');
+define('_AM_SYSTEM_GROUPS_SUREDEL', 'آیا مطمئنید که می‌خواهید گروه را حذف کنید؟');
+define('_AM_SYSTEM_GROUPS_SYSTEMRIGHTS', 'دادن مدیریت برای ماژول سیستم');
 
-define('_AM_ADMINNO', 'در گروه گردانندگان سایت (webmasters) حتما باید حداقل یک عضو وجود داشته باشد');
-
-// Custom block, suggested by trabis
-define("_AM_CUSTOMBLOCK","بلاک دست ساز");
-/**
-* New in 2.4.0
-*/
-define('_AM_LIST_GROUPS', 'لیست گروه ها');
-define('_XO_AD_GROUP_ID', '#');
-define('_XO_AD_GROUP_NAME', 'نام گروه');
-define('_XO_AD_GROUP_DESCRIPTION', 'توصیف گروه');
-define('_XO_AD_GROUP_ACTION', 'عملکرد');
+define("_AM_SYSTEM_GROUPS_DBUPDATED", _AM_SYSTEM_DBUPDATED);
 
 ?>
