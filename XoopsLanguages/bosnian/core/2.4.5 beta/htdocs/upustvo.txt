@@ -1,0 +1,7 @@
+Ovo je kompletan prevod xoops 2.4.5 beta verzije, samo je profil modul prevod sa http://myxoops.org od module programera "Alfred" eprofile v.1.68
+Dakle taj modul skinite sa navedene stranice.
+ove podatke jednostavno u svoj htdocs(html) root prekopirajte i u administraciji izaberite language bosabski.
+Prevode modula aktuelnih možete zatražiti na http://g-orahovica.com naravno ili na mail
+info@g-orahovica.com
+Srdaèan pozz
+saba
