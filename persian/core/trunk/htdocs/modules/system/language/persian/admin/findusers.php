@@ -1,11 +1,6 @@
 <?php
-// $Id$
-// _LANGCODE: fa
-// _CHARSET : UTF-8
-// Translator: XOOPS Translation Team
-
-//%%%%%%	File Name findusers.php 	%%%%%
-
+// $Id$// _LANGCODE: fa// _CHARSET : UTF-8// Translator: XOOPS Translation Team
+//%%%%%%	File Name findusers.php 	%%%%%
 define("_AM_FINDUS","پیدا‌کردن اعضا");
 define("_AM_AVATAR","تصویر عضو (Avatar)");
 define("_AM_REALNAME","نام واقعی");
@@ -54,4 +49,5 @@ define("_AM_SENDMAIL", "ارسال پست‌الکترونیکی");
 define("_AM_ADD2GROUP", "اضافه کردن عضو به گروه %s");
 
 define("_AM_GROUPS", "گروه‌ها");
+
 ?>

@@ -1,13 +1,37 @@
 <?php
-// $Id$
-// _LANGCODE: fa
-// _CHARSET : UTF-8
-// Translator: XOOPS Translation Team
-
-//%%%%%%    Admin Module Name  AdminGroup   %%%%%
+/**
+ * @copyright   The XOOPS Project http://sourceforge.net/projects/xoops/
+ * @license     http://www.fsf.org/copyleft/gpl.html GNU public license
+ * _LANGCODE    en
+ * _CHARSET     UTF-8
+ * @version     $Id: preferences.php 4091 2010-01-05 17:02:11Z forxoops $
+ */
+ 
 // dont change
-define("_AM_DBUPDATED",_MD_AM_DBUPDATED);
+define("_AM_DBUPDATED",_AM_SYSTEM_DBUPDATED);
 
+//Nav
+define('_AM_SYSTEM_PREFERENCES_NAV_MAIN', 'ویژگی ها');
+/*define('_AM_SYSTEM_PREFERENCES_NAV_MD_AM_GENERAL', 'General Settings');
+define('_AM_SYSTEM_PREFERENCES_NAV_MD_AM_USERSETTINGS', 'User Info Settings');
+define('_AM_SYSTEM_PREFERENCES_NAV_MD_AM_METAFOOTER', 'Meta Tags and Footer');
+define('_AM_SYSTEM_PREFERENCES_NAV_MD_AM_CENSOR', 'Word Censoring Options');
+define('_AM_SYSTEM_PREFERENCES_NAV_MD_AM_SEARCH', 'Search Options');
+define('_AM_SYSTEM_PREFERENCES_NAV_MD_AM_MAILER', 'Mail Setup');
+define('_AM_SYSTEM_PREFERENCES_NAV_MD_AM_AUTHENTICATION', 'Authentication Options');*/
+
+//Tips
+define('_AM_SYSTEM_PREFERENCES_NAV_TIPS', '<ul><li>مدیریت تمام تنظیمات وب سایت.</li></ul>');
+/*
+
+define('_AM_SYSTEM_PREFERENCES_NAV_TIPS_MD_AM_GENERAL', 'A faire');
+define('_AM_SYSTEM_PREFERENCES_NAV_TIPS_MD_AM_USERSETTINGS', 'A faire');
+define('_AM_SYSTEM_PREFERENCES_NAV_TIPS_MD_AM_METAFOOTER', 'A faire');
+define('_AM_SYSTEM_PREFERENCES_NAV_TIPS_MD_AM_CENSOR', 'A faire');
+define('_AM_SYSTEM_PREFERENCES_NAV_TIPS_MD_AM_SEARCH', 'A faire');
+define('_AM_SYSTEM_PREFERENCES_NAV_TIPS_MD_AM_MAILER', 'A faire');
+define('_AM_SYSTEM_PREFERENCES_NAV_TIPS_MD_AM_AUTHENTICATION', 'A faire');
+*/
 define("_MD_AM_SITEPREF","ویژگی‌های سایت (Preferences)");
 define("_MD_AM_SITENAME","عنوان سایت");
 define("_MD_AM_SLOGAN","شعار برای سایت شما");
@@ -299,4 +323,7 @@ define("_MD_AM_WELCOMETYPE_BOTH", "پست‌الکترونیکی و پیام ش�
 
 define("_MD_AM_MODULEPREF", "ویژگی ماژول ها");
 
+// Preference module system
+
+define('_AM_SYSTEM_PREFERENCES_SETTINGS', 'تنظیمات ماژول سیستم');
 ?>
