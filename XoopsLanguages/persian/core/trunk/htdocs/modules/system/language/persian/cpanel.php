@@ -1,6 +1,6 @@
 <?php
 // $Id: cpanel.php 3317 2009-07-04 13:18:43Z trabis $
-// _LANGCODE: en
+// _LANGCODE: fa
 // _CHARSET : UTF-8
 // Translator: XOOPS Translation Team
 

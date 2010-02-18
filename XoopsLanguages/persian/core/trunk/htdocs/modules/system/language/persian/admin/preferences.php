@@ -2,7 +2,7 @@
 /**
  * @copyright   The XOOPS Project http://sourceforge.net/projects/xoops/
  * @license     http://www.fsf.org/copyleft/gpl.html GNU public license
- * _LANGCODE    en
+ * _LANGCODE    fa
  * _CHARSET     UTF-8
  * @version     $Id: preferences.php 4091 2010-01-05 17:02:11Z forxoops $
  */
@@ -11,7 +11,7 @@
 define("_AM_DBUPDATED",_AM_SYSTEM_DBUPDATED);
 
 //Nav
-define('_AM_SYSTEM_PREFERENCES_NAV_MAIN', 'ویژگی ها');
+define('_AM_SYSTEM_PREFERENCES_NAV_MAIN', 'ویژگی‌ها');
 /*define('_AM_SYSTEM_PREFERENCES_NAV_MD_AM_GENERAL', 'General Settings');
 define('_AM_SYSTEM_PREFERENCES_NAV_MD_AM_USERSETTINGS', 'User Info Settings');
 define('_AM_SYSTEM_PREFERENCES_NAV_MD_AM_METAFOOTER', 'Meta Tags and Footer');
@@ -116,7 +116,7 @@ define('_MD_AM_ALLWCHGMAILDSC', '');
 define('_MD_AM_IPBAN', 'IP Banning');
 define('_MD_AM_BADEMAILS', 'پست‌های‌الکترونیکی را که اعضا مجاز به انتخاب آن نیستند وارد کنید');
 define('_MD_AM_BADEMAILSDSC', 'هر کدام را با <b>|</b> از هم جدا کنید،غیر حساس به حروف بزرگ و کوچک، عضویت سریع فعال');
-define('_MD_AM_BADUNAMES', 'شناسه هایی را که اعضا مجاز به انتخاب آن نیستند وارد کنید');
+define('_MD_AM_BADUNAMES', 'شناسه‌هایی را که اعضا مجاز به انتخاب آن نیستند وارد کنید');
 define('_MD_AM_BADUNAMESDSC', 'هر کدام را با <b>|</b>از هم جدا کنید، غیر حساس به حروف بزرگ و کوچک، عضویت سریع فعال');
 define('_MD_AM_DOBADIPS', 'فعال کردن بستن IP ؟');
 define('_MD_AM_DOBADIPSDSC', 'کاربرانی که آدرس IP مشخص شده است نمی‌توانند سایت شما را ببینند');
@@ -224,8 +224,8 @@ define("_MD_AM_SOAP_PASSWORD", "SOAP - واژه رمز SOAP");
 define("_MD_AM_SOAP_PASSWORDDESC","اگر شما برای کارگزار soap به واژه رمز نیاز دارید آن را اینجا وارد کنید.");
 define("_MD_AM_SOAP_KEEPCLIENT", "SOAP - مشتری زنده");
 define("_MD_AM_SOAP_KEEPCLIENTDESC","مشتری Soap را زنده نگه دار.");
-define("_MD_AM_SOAP_FILTERPERSON", "SOAP - حساب های اختصاصی");
-define("_MD_AM_SOAP_FILTERPERSONDESC","حساب های اختصاصی که از تایید صندیت زوپس استفاده میکنند.");
+define("_MD_AM_SOAP_FILTERPERSON", "SOAP - حساب‌های اختصاصی");
+define("_MD_AM_SOAP_FILTERPERSONDESC","حساب‌های اختصاصی که از تایید صندیت زوپس استفاده میکنند.");
 define("_MD_AM_SOAP_CLIENTPROXYHOST", "SOAP - نام میزبان Proxy");
 define("_MD_AM_SOAP_CLIENTPROXYHOSTDESC","Proxy Server کارگزار SOAP.");
 define("_MD_AM_SOAP_CLIENTPROXYPORT", "SOAP - پورت Proxy");
@@ -235,9 +235,9 @@ define("_MD_AM_SOAP_CLIENTPROXYUSERNAMEDESC","نام کاربری Proxy Server �
 define("_MD_AM_SOAP_CLIENTPROXYPASSWORD", "SOAP - واژه رمز Proxy");
 define("_MD_AM_SOAP_CLIENTPROXYPASSWORDDESC","واژه رمز Proxy Server کارگزار SOAP");
 define("_MD_AM_SOAP_SOAP_TIMEOUT", "SOAP - SOAP Timeout");
-define("_MD_AM_SOAP_SOAP_TIMEOUTDESC","نگهداری پرس و جو های زنده Soap برای <strong>xx</strong> ثانیه.");
+define("_MD_AM_SOAP_SOAP_TIMEOUTDESC","نگهداری پرس و جو‌های زنده Soap برای <strong>xx</strong> ثانیه.");
 define("_MD_AM_SOAP_SOAP_RESPONSETIMEOUT", "SOAP - زمان پاسخ SOAP گذشت");
-define("_MD_AM_SOAP_SOAP_RESPONSETIMEOUTDESC","نگهداری پرس و جو های زنده Soap برای <strong>xx</strong> ثانیه.");
+define("_MD_AM_SOAP_SOAP_RESPONSETIMEOUTDESC","نگهداری پرس و جو‌های زنده Soap برای <strong>xx</strong> ثانیه.");
 define("_MD_AM_SOAP_FIELDMAPPING","فیلدهای جستجوی کارگزار Xoops-Auth");
 define("_MD_AM_SOAP_FIELDMAPPINGDESC","توضیح این نقشه برداری بین فیلد‌های پایگاه داده‌های زوپس و فیلد‌های سندیت سیستم LDAP ." .
 		"<br><br>شکل [Xoops Database field]=[Auth system SOAP attribute]" .
@@ -279,7 +279,7 @@ define("_MD_AM_LDAP_USERS_BYPASS", "اجازه به کاربران برای سن
 define("_MD_AM_LDAP_USERS_BYPASS_DESC", "سندیت کاربران به وسیله روش داخلی زوپس");
 
 define("_MD_AM_LDAP_USETLS", "استفاده از اتصال TLS");
-define("_MD_AM_LDAP_USETLS_DESC", "استفاده از اتصال TLS (Transport Layer Security یا انتقال امن لایه ها). TLS به طور استاندارد از پورت 389 استفاده میکند<BR>" .
+define("_MD_AM_LDAP_USETLS_DESC", "استفاده از اتصال TLS (Transport Layer Security یا انتقال امن لایه‌ها). TLS به طور استاندارد از پورت 389 استفاده میکند<BR>" .
 								  "و نسخه LDAP باید روی 3 تنظیم شده باشد.");
 
 define("_MD_AM_LDAP_LOGINLDAP_ATTR", "خاصیت LDAP در جستجوی کاربران استفاده شود");
@@ -321,7 +321,7 @@ define("_MD_AM_WELCOMETYPE_EMAIL", "پست‌الکترونیکی");
 define("_MD_AM_WELCOMETYPE_PM", "پیام شخصی");
 define("_MD_AM_WELCOMETYPE_BOTH", "پست‌الکترونیکی و پیام شخصی");
 
-define("_MD_AM_MODULEPREF", "ویژگی ماژول ها");
+define("_MD_AM_MODULEPREF", "ویژگی ماژول‌ها");
 
 // Preference module system
 

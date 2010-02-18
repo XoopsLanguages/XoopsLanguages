@@ -2,24 +2,24 @@
 /**
  * @copyright   The XOOPS Project http://sourceforge.net/projects/xoops/
  * @license     http://www.fsf.org/copyleft/gpl.html GNU public license
- * _LANGCODE    en
+ * _LANGCODE    fa
  * _CHARSET     UTF-8
  * @version     $Id: tplsets.php 4256 2010-02-01 05:36:43Z beckmi $
  */
  
  //Nav
-define('_AM_SYSTEM_TEMPLATES_NAV_MANAGER','مدیریت الگو ها');
-define('_AM_SYSTEM_TEMPLATES_NAV_MAIN','مدیریت الگو ها');
+define('_AM_SYSTEM_TEMPLATES_NAV_MANAGER','مدیریت الگو‌ها');
+define('_AM_SYSTEM_TEMPLATES_NAV_MAIN','مدیریت الگو‌ها');
 //Tips
 define('_AM_SYSTEM_TEMPLATES_NAV_TIPS','
 <ul>
-<li>ویرایش قالب ها و الگوی ماژول ها, و فایل های سی اس اس به صورت آنلاین.</li>
+<li>ویرایش قالب‌ها و الگوی ماژول‌ها, و فایل‌های سی اس اس به صورت آنلاین.</li>
 <li>Generate all overide modules templates.</li>
 <li>If you force generate, this will erase all previous modification.</li>
 </ul>
 ');
 
-define('_AM_SYSTEM_TEMPLATES_YOUR_THEMES','قالب های شما :');
+define('_AM_SYSTEM_TEMPLATES_YOUR_THEMES','قالب‌های شما :');
 define('_AM_SYSTEM_TEMPLATES_GENERATE','Generated surcharge');
 define('_AM_SYSTEM_TEMPLATES_SELECT_THEME','انتخاب قالب');
 define('_AM_SYSTEM_TEMPLATES_FORCE_GENERATED','Forced file generation');

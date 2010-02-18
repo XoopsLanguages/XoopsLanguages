@@ -2,7 +2,7 @@
 /**
  * @copyright   The XOOPS Project http://sourceforge.net/projects/xoops/
  * @license     http://www.fsf.org/copyleft/gpl.html GNU public license
- * _LANGCODE    en
+ * _LANGCODE    fa
  * _CHARSET     UTF-8
  * @version     $Id: images.php 4091 2010-01-05 17:02:11Z forxoops $
  */
@@ -16,7 +16,7 @@ define( '_AM_SYSTEM_IMAGES_IMGLIST','فهرست تصاویر' );
 define( '_AM_SYSTEM_IMAGES_ADDCAT', 'اضافه کردن شاخه' );
 define( '_AM_SYSTEM_IMAGES_ADDIMG', 'اضافه کردن تصویر' );
 define( '_AM_SYSTEM_IMAGES_EDITIMG', 'ویرایش تصویر' );
-define( '_AM_SYSTEM_IMAGES_CATLIST', 'فهرست شاخه ها' );
+define( '_AM_SYSTEM_IMAGES_CATLIST', 'فهرست شاخه‌ها' );
 define( '_AM_SYSTEM_IMAGES_NOCAT', 'هیچ شاخه ای موجود نیست' );
 define( '_AM_SYSTEM_IMAGES_NAME', 'نام' );
 define( '_AM_SYSTEM_IMAGES_NBIMAGES', 'تصویر' );
@@ -40,7 +40,7 @@ define( '_AM_SYSTEM_IMAGES_ON', 'عدم نمایش در مدیریت تصاوی�
 
 // Messages
 define( '_AM_SYSTEM_IMAGES_RUDELIMG', 'آیا مطمئنید که می‌خواهید این شاخه و همه‌ی تصاویر موجود در آن را حذف کنید؟' );
-define( '_AM_SYSTEM_IMAGES_FAILSAVE', 'ایراد در ذخیره تصویر %s در پایگاه داده ها');
+define( '_AM_SYSTEM_IMAGES_FAILSAVE', 'ایراد در ذخیره تصویر %s در پایگاه داده‌ها');
 define( '_AM_SYSTEM_IMAGES_RUDELIMGCAT', 'آیا مطمئنید که می‌خواهید این شاخه و همه‌ی تصاویر موجود در آن را حذف کنید؟' );
 define( '_AM_SYSTEM_IMAGES_FAILDEL', 'ایراد در حذف تصویر %s از پایگاه‌داده' );
 define( '_AM_SYSTEM_IMAGES_FAILDELCAT', 'ایراد در حذف شاخه‌ی تصاویر %s از پایگاه‌داده' );

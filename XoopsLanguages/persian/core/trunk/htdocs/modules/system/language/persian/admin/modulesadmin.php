@@ -2,14 +2,14 @@
 /**
  * @copyright   The XOOPS Project http://sourceforge.net/projects/xoops/
  * @license     http://www.fsf.org/copyleft/gpl.html GNU public license
- * _LANGCODE    en
+ * _LANGCODE    fa
  * _CHARSET     UTF-8
  * @version     $Id: modulesadmin.php 4091 2010-01-05 17:02:11Z forxoops $
  */
 
 // Navigation
-define( '_AM_SYSTEM_MODULES_ADMIN', 'مدیریت ماژول ها' );
-define( '_AM_SYSTEM_MODULES_LIST', 'فهرست ماژول ها');
+define( '_AM_SYSTEM_MODULES_ADMIN', 'مدیریت ماژول‌ها' );
+define( '_AM_SYSTEM_MODULES_LIST', 'فهرست ماژول‌ها');
 define( '_AM_SYSTEM_MODULES_TOINSTALL', 'نصب ماژول' );
 define( '_AM_SYSTEM_MODULES_VALIDATE', 'تغییرات اعتبارسنجی' );
 define( '_AM_SYSTEM_MODULES_SUBMITRES', 'ارسال نتایج');
@@ -54,6 +54,9 @@ define( "_AM_SYSTEM_MODULES_VERSION","نسخه");
 define( "_AM_SYSTEM_MODULES_LASTUP","آخرین به روز‌رسانی");
 define( "_AM_SYSTEM_MODULES_DEACTIVATED","غیر فعال شده");
 define( "_AM_SYSTEM_MODULES_ACTION","انجام عمل");
+define( '_AM_SYSTEM_MODULES_MENU', 'اصلی' );
+define( '_AM_SYSTEM_MODULES_HIDE', 'مخفی' );
+define( '_AM_SYSTEM_MODULES_SHOW', 'نمایش' );
 
 define( "_AM_SYSTEM_MODULES_DUPEN","ورود اطلاعات در جدول ماژول به صورت دوتایی انجام شده است");
 define( "_AM_SYSTEM_MODULES_DEACTED","ماژول انتخاب شده غیر‌فعال شد شما می‌توانید به سهولت ماژول را از نصب خارج کنید (uninstall)");
@@ -114,7 +117,7 @@ define( '_AM_SYSTEM_MODULES_BLOCKS_DELETE', 'حذف بلاک ...');
 define( '_AM_SYSTEM_MODULES_BLOCKS_REBUILD', 'دوباره‌سازی بلاک ...');
 define( '_AM_SYSTEM_MODULES_BLOCK_ID', ' شماره‌ی بلاک: %s ');
 define( '_AM_SYSTEM_MODULES_BLOCK_ACCESS', 'دسترسی بلاک‌های اضافه شده درست است');
-define( '_AM_SYSTEM_MODULES_BLOCK_ACCESS_ERROR', 'خطا: ناتوان در اضافه کردن دسترسی صحیح بلاک ها');
+define( '_AM_SYSTEM_MODULES_BLOCK_ACCESS_ERROR', 'خطا: ناتوان در اضافه کردن دسترسی صحیح بلاک‌ها');
 define( '_AM_SYSTEM_MODULES_BLOCK_ADD', 'بلاک %s اضافه شد ');
 define( '_AM_SYSTEM_MODULES_BLOCK_ADD_ERROR', 'خطا: ناتوان در اضافه کردن بلاک %s به پایگاه‌های داده! ');
 define( '_AM_SYSTEM_MODULES_BLOCK_ADD_ERROR_DATABASE', 'خطای پایگاه‌های داده: %s ');
@@ -166,9 +169,9 @@ define( '_AM_SYSTEM_MODULES_TABLE_DROPPED_FAILDED', 'خطا: عدم دسترسی
 // Tips
 define( '_AM_SYSTEM_MODULES_TIPS', 
 '<ul>
-<li>اگر یک ماژول جدید نصب کنید, به یاد داشته باشید ویژگی های ماژول , بلاک ها و دسترسی اعضا را تنظیم کنید !</li>
+<li>اگر یک ماژول جدید نصب کنید, به یاد داشته باشید ویژگی‌های ماژول , بلاک‌ها و دسترسی اعضا را تنظیم کنید !</li>
 <li>برای مخفی کردن ماژول از منوی اصلی , وزن چینش را بر روی صفر قرار دهید.</li>
-<li>فایل های مربوط به ماژول هایی را که از آنها استفاده نمیکنید از روی سرور حذف کنید تا امنیت سایت شما افزایش یابد.</li>
+<li>فایل‌های مربوط به ماژول‌هایی را که از آنها استفاده نمیکنید از روی سرور حذف کنید تا امنیت سایت شما افزایش یابد.</li>
 </ul>');
 define( '_AM_SYSTEM_MODULES_CONFIRM_TIPS',
 '<ul>

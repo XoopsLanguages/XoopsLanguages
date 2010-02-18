@@ -2,7 +2,7 @@
 /**
  * @copyright   The XOOPS Project http://sourceforge.net/projects/xoops/
  * @license     http://www.fsf.org/copyleft/gpl.html GNU public license
- * _LANGCODE    en
+ * _LANGCODE    fa
  * _CHARSET     UTF-8
  * @version     $Id: users.php 4091 2010-01-05 17:02:11Z forxoops $
  */
@@ -32,7 +32,7 @@ define("_AM_SYSTEM_USERS_EMAIL","پست‌الکترونیکی");
 define("_AM_SYSTEM_USERS_EDIT_GROUPS","ویرایش گروه");
 define("_AM_SYSTEM_USERS_REG_DATE","تاریخ ثبت نام");
 define("_AM_SYSTEM_USERS_LAST_LOGIN","آخرین ورود");
-define("_AM_SYSTEM_USERS_POSTS","پست ها / نظر ها");
+define("_AM_SYSTEM_USERS_POSTS","پست‌ها / نظر‌ها");
 define("_AM_SYSTEM_USERS_LEVEL","سطح");
 define("_AM_SYSTEM_USERS_ACTION","فعال");
 define("_AM_SYSTEM_USERS_FINDUS","یافتن اعضا");
@@ -82,7 +82,7 @@ define("_AM_SYSTEM_USERS_INACTIVE","فقط کاربران غیرفعال");
 define("_AM_SYSTEM_USERS_BOTH", "همه‌ی اعضا");
 define("_AM_SYSTEM_USERS_SENDMAIL", "ارسال پست‌الکترونیکی");
 define("_AM_SYSTEM_USERS_ADD2GROUP", "اضافه کردن اعضا به گروه %s");
-define("_AM_SYSTEM_USERS_GROUPS", "گروه ها");
+define("_AM_SYSTEM_USERS_GROUPS", "گروه‌ها");
 define("_AM_SYSTEM_USERS_ADD_GROUPS", "اضافه کردن گروه");
 define("_AM_SYSTEM_USERS_DELETE_GROUPS", "حذف گروه");
 define("_AM_SYSTEM_USERS_AYSYWTDU","ایا مطمئنید که می‌خواهید عضوی با شناسه‌ی کاربری %s را حذف کنید؟");
@@ -113,7 +113,7 @@ define("_AM_SYSTEM_USERS_USERINFO","اطلاعات عضو");
 define("_AM_SYSTEM_USERS_USERID","شناسه (Id) عضو");
 define("_AM_SYSTEM_USERS_RETYPEPD","باز نویسی واژه‌ی رمز");
 define("_AM_SYSTEM_USERS_CHANGEONLY","(فقط برای تغییرات)");
-define("_AM_SYSTEM_USERS_USERPOST","پست های عضو");
+define("_AM_SYSTEM_USERS_USERPOST","پست‌های عضو");
 define("_AM_SYSTEM_USERS_STORIES","نوشته‌ها (Stories)");
 define("_AM_SYSTEM_USERS_COMMENTS","پست‌ها");
 define("_AM_SYSTEM_USERS_PTBBTSDIYT","اگر فکر می‌کنید تعداد پست این عضو با تعداد واقعی آن تفاوت دارد دکمه زیر را بزنید تا تعداد واقعی با تعداد نشان داده شده یکسان شود");

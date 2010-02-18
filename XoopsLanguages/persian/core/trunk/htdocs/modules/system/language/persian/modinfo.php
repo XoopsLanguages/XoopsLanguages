@@ -1,6 +1,7 @@
 <?php
 // $Id$// _LANGCODE: fa// _CHARSET : UTF-8// Translator: XOOPS Translation Team
-// Module Info// The name of this moduledefine("_MI_SYSTEM_NAME","سیستم");
+// Module Info
+// The name of this moduledefine("_MI_SYSTEM_NAME","سیستم");
 
 // A brief description of this moduledefine("_MI_SYSTEM_DESC","برای مدیریت هسته‌ی اصلی وب سایت");
 

@@ -1,24 +1,25 @@
 <?php
 // $Id: groups.php 4091 2010-01-05 17:02:11Z forxoops $
-// _LANGCODE: en
+// _LANGCODE: fa
 // _CHARSET : UTF-8
 // Translator: XOOPS Translation Team
 // %%%%%%	Admin Module Name  AdminGroup 	%%%%%
 
 //Nav
-define('_AM_SYSTEM_GROUPS_NAV_MANAGER','مدیریت گروه ها');
-define('_AM_SYSTEM_GROUPS_NAV_LIST','فهرست گروه ها');
+define('_AM_SYSTEM_GROUPS_NAV_MANAGER','مدیریت گروه‌ها');
+define('_AM_SYSTEM_GROUPS_NAV_LIST','فهرست گروه‌ها');
 define('_AM_SYSTEM_GROUPS_NAV_ADD','اضافه کردن گروه جدید');
 define('_AM_SYSTEM_GROUPS_NAV_EDIT','ویرایش گروه');
+define('_AM_SYSTEM_GROUPS_NAV_DELETE','حذف گروه');
 
 // Tips
-define('_AM_SYSTEM_GROUPS_NAV_TIPS_1','<ul><li>یک گروه جدید با دسترسی های جدید بسازید.</li><li>برای تغییر دسترسی گروه ها را ویرایش کنید.</li></ul>');
-define('_AM_SYSTEM_GROUPS_NAV_TIPS_2','<ul><li>دسترسی های این گروه را تغییر دهید یا دسترسی جدید ایجاد کنید, تغییرات شما برای تمام کاربران این گروه اعمال میشود.</li></ul>');
+define('_AM_SYSTEM_GROUPS_NAV_TIPS_1','<ul><li>یک گروه جدید با دسترسی‌های جدید بسازید.</li><li>برای تغییر دسترسی گروه‌ها را ویرایش کنید.</li></ul>');
+define('_AM_SYSTEM_GROUPS_NAV_TIPS_2','<ul><li>دسترسی‌های این گروه را تغییر دهید یا دسترسی جدید ایجاد کنید, تغییرات شما برای تمام کاربران این گروه اعمال میشود.</li></ul>');
 
 //Infos
 define('_AM_SYSTEM_GROUPS_ACCESSRIGHTS', 'دادن دسترسی به ماژول‌ها');
 define('_AM_SYSTEM_GROUPS_ACTION','عملکرد');
-define('_AM_SYSTEM_GROUPS_ACTIVERIGHTS', 'دادن مدیریت برای بقیه ماژول ها');
+define('_AM_SYSTEM_GROUPS_ACTIVERIGHTS', 'دادن مدیریت برای بقیه ماژول‌ها');
 define('_AM_SYSTEM_GROUPS_ADD','اضافه کردن گروه جدید');
 define('_AM_SYSTEM_GROUPS_BLOCKRIGHTS', 'دادن دسترسی به بلاک‌ها');
 define('_AM_SYSTEM_GROUPS_CUSTOMBLOCK', 'بلاک دست ساز');

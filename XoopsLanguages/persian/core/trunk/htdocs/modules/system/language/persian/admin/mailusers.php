@@ -2,12 +2,12 @@
 /**
  * @copyright   The XOOPS Project http://sourceforge.net/projects/xoops/
  * @license     http://www.fsf.org/copyleft/gpl.html GNU public license
- * _LANGCODE    en
+ * _LANGCODE    fa
  * _CHARSET     UTF-8
  * @version     $Id: mailusers.php 4183 2010-01-21 22:16:09Z mageg $
  */
  
-define("_AM_SYSTEM_MAILUSERS_AMIFCHECKD", "اگر این گزینه انتخاب شود, تمام پیام ها خصوصی در بالا نادیده گرفته میشوند");
+define("_AM_SYSTEM_MAILUSERS_AMIFCHECKD", "اگر این گزینه انتخاب شود, تمام پیام‌ها خصوصی در بالا نادیده گرفته میشوند");
 define("_AM_SYSTEM_MAILUSERS_EMAIL","پست‌الکترونیکی");
 define("_AM_SYSTEM_MAILUSERS_GROUPIS","انتخاب گروه -");
 define("_AM_SYSTEM_MAILUSERS_DAY", " - آخرین ورود:");
@@ -25,7 +25,7 @@ define("_AM_SYSTEM_MAILUSERS_REGDMAX", "قبل از");
 define("_AM_SYSTEM_MAILUSERS_INACTIVE","ارسال پیام فقط به اعضای غیر فعال");
 define("_AM_SYSTEM_MAILUSERS_MAILOK","ارسال پیام فقط به اعضایی که آگهی رسانی از طرف سایت را فعال کرده‌اند");
 
-define("_AM_SYSTEM_MAILUSERS_OPTIONAL", "گزینه های اختیاری");
+define("_AM_SYSTEM_MAILUSERS_OPTIONAL", "گزینه‌های اختیاری");
 
 define("_AM_SYSTEM_MAILUSERS_LIST", "ارسال پیام به اعضا");
 define("_AM_SYSTEM_MAILUSERS_MAILBODY","متن");

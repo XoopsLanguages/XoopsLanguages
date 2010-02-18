@@ -2,7 +2,7 @@
 /**
  * @copyright   The XOOPS Project http://sourceforge.net/projects/xoops/
  * @license     http://www.fsf.org/copyleft/gpl.html GNU public license
- * _LANGCODE    en
+ * _LANGCODE    fa
  * _CHARSET     UTF-8
  * @version     $Id$
  */
@@ -42,20 +42,22 @@ define('_AM_SYSTEM_FILEMANAGER_RESTORE_ERROR_FILE_EXISTS','Error : File not exis
 define('_AM_SYSTEM_FILEMANAGER_RESTORE_ERROR_FILE_DELETE','Error : File not delete');
 define('_AM_SYSTEM_FILEMANAGER_RESTORE_ERROR_FILE_RENAME','Error : File not rename');
 define('_AM_SYSTEM_FILEMANAGER_BACK','Back');
-define('_AM_SYSTEM_FILEMANER_DELETE','Delete');
+define('_AM_SYSTEM_FILEMANAGER_DELETE','Delete');
 define('_AM_SYSTEM_FILEMANAGER_ERROR','Error');
 define('_AM_SYSTEM_FILEMANAGER_EDIT','Edit of :');
 define('_AM_SYSTEM_FILEMANAGER_EMPTY_FILE','File empty');
+define('_AM_SYSTEM_FILEMANAGER_DELDIR_NOTOK','Error : delete this directory');
+define('_AM_SYSTEM_FILEMANAGER_DELDIR_OK','Directory successfully deleted');
 
 // Message
 define('_AM_SYSTEM_FILEMANAGER_UPLOAD_FILE','Files successfully uploaded');
 define('_AM_SYSTEM_FILEMANAGER_EXTRACT_FILE','Files successfully extracted');
-define('_AM_SYSTEM_FILEMANAGER_EXTRACT_ERROR','Files successfully extracted');
+define('_AM_SYSTEM_FILEMANAGER_EXTRACT_ERROR','Files could not be extracted');
 define('_AM_SYSTEM_FILEMANAGER_DELETE_FILE','Files successfully deleted');
 define('_AM_SYSTEM_FILEMANAGER_DIR_SUCCESS','Directory successfully created');
-define('_AM_SYSTEM_FILEMANAGER_DIR_ERROR','Directory successfully created');
+define('_AM_SYSTEM_FILEMANAGER_DIR_ERROR','Directory could not be created');
 define('_AM_SYSTEM_FILEMANAGER_DIR_RYSDEL','Are you sure that you want to delete this folder ?');
 define('_AM_SYSTEM_FILEMANAGER_FILE_SUCCESS','File successfully created');
 define('_AM_SYSTEM_FILEMANAGER_SUREDEL', 'Are you sure you want to delete this file %s ?');
-
+define('_AM_SYSTEM_FILEMANAGER_DIR_SUREDEL', 'Are you sure you want to delete this directory %s ?<br />Warning : all subdirectories and files file will be deleted');
 ?>

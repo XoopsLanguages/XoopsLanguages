@@ -2,7 +2,7 @@
 /**
  * @copyright   The XOOPS Project http://sourceforge.net/projects/xoops/
  * @license     http://www.fsf.org/copyleft/gpl.html GNU public license
- * _LANGCODE    en
+ * _LANGCODE    fa
  * _CHARSET     UTF-8
  * @version     $Id: admin.php 4251 2010-01-31 16:54:19Z forxoops $
  */
@@ -11,11 +11,14 @@
 define('_AM_SYSTEM_CONFIG', 'پیکربندی سیستم' );
 define('_AM_SYSTEM_CPANEL', 'منوی مدیریت' );
 define('_AM_SYSTEM_UPDATE', 'به روز رسانی' );
+define('_AM_SYSTEM_GOTOMODULE', 'برو به ماژول' );
+define('_AM_SYSTEM_HELP', 'راهنمایی' );
 define('_AM_SYSTEM_TIPS', 'تیپ‌ها' );
 define('_AM_SYSTEM_SECTION', 'بخش' );
 define('_AM_SYSTEM_DESC', 'توضیحات' );
 define('_AM_SYSTEM_GO', 'دسترسی به این بخش' );
 define('_AM_SYSTEM_STATUS', 'تغییر وضعیت این بخش' );
+define('_AM_SYSTEM_LOADING', 'بارگذاری');
 
 define('_AM_SYSTEM_AVATAR_INFO', 'There is <span class="bold">%s</span> avatars.' );
 
