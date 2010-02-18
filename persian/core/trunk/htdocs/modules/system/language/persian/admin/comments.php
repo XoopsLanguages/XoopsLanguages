@@ -2,15 +2,15 @@
 /**
  * @copyright   The XOOPS Project http://sourceforge.net/projects/xoops/
  * @license     http://www.fsf.org/copyleft/gpl.html GNU public license
- * _LANGCODE    en
+ * _LANGCODE    fa
  * _CHARSET     UTF-8
  * @version     $Id: comments.php 4091 2010-01-05 17:02:11Z forxoops $
  */
  
 // Manager
-define('_AM_SYSTEM_COMMENTS_NAV_MANAGER','مدیریت نظر ها');
+define('_AM_SYSTEM_COMMENTS_NAV_MANAGER','مدیریت نظر‌ها');
 define('_AM_SYSTEM_COMMENTS_NAV_MAIN','فهرست');
-define('_AM_SYSTEM_COMMENTS_NAV_PURGE','پاکسازی نظر ها');
+define('_AM_SYSTEM_COMMENTS_NAV_PURGE','پاکسازی نظر‌ها');
 
 // Nav
 define('_AM_SYSTEM_COMMENTS_MODULE_ADMIN','مدیریت ماژول');
@@ -18,18 +18,18 @@ define('_AM_SYSTEM_COMMENTS_MODULE_ADMIN','مدیریت ماژول');
 // Tips
 define('_AM_SYSTEM_COMMENTS_NAV_TIPS','
 <ul>
-<li>مدیریت نظر های ارسالی در تمام ماژول ها.</li>
-<li>حذف ساده نظر ها به وسیله پاکسازی.</li>
+<li>مدیریت نظر‌های ارسالی در تمام ماژول‌ها.</li>
+<li>حذف ساده نظر‌ها به وسیله پاکسازی.</li>
 </ul>');
 
 // Form
 define('_AM_SYSTEM_COMMENTS_FORM_LIST_COMMENTS','فهرست نظرها');
-define('_AM_SYSTEM_COMMENTS_FORM_ALL_MODS','تمام ماژول ها');
+define('_AM_SYSTEM_COMMENTS_FORM_ALL_MODS','تمام ماژول‌ها');
 define('_AM_SYSTEM_COMMENTS_FORM_ALL_STATUS','هر وضعیت');
 
 define('_AM_SYSTEM_COMMENTS_FORM_PURGE','پاکسازی');
-define('_AM_SYSTEM_COMMENTS_FORM_PURGE_DATE_AFTER','بعد از این تاریخ (برای برسی تمام تاریخ ها  این گزینه را خالی بگذارید)');
-define('_AM_SYSTEM_COMMENTS_FORM_PURGE_DATE_BEFORE','قبل از این تاریخ (برای برسی تمام تاریخ ها  این گزینه را خالی بگذارید)');
+define('_AM_SYSTEM_COMMENTS_FORM_PURGE_DATE_AFTER','بعد از این تاریخ (برای برسی تمام تاریخ‌ها  این گزینه را خالی بگذارید)');
+define('_AM_SYSTEM_COMMENTS_FORM_PURGE_DATE_BEFORE','قبل از این تاریخ (برای برسی تمام تاریخ‌ها  این گزینه را خالی بگذارید)');
 define('_AM_SYSTEM_COMMENTS_FORM_PURGE_GROUPS', 'گروه');
 define('_AM_SYSTEM_COMMENTS_FORM_PURGE_USER', 'نام کاربر');
 define('_AM_SYSTEM_COMMENTS_FORM_PURGE_STATUS', 'وضعیت');

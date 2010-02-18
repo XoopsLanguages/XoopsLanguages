@@ -2,7 +2,7 @@
 /**
  * @copyright   The XOOPS Project http://sourceforge.net/projects/xoops/
  * @license     http://www.fsf.org/copyleft/gpl.html GNU public license
- * _LANGCODE    en
+ * _LANGCODE    fa
  * _CHARSET     UTF-8
  * @version     $Id: blocksadmin.php 4256 2010-02-01 05:36:43Z beckmi $
  */
@@ -47,7 +47,7 @@ define( '_AM_SYSTEM_BLOCKS_WEIGHT', 'وزن چینش' );
 define( '_AM_SYSTEM_BLOCKS_VISIBLE', 'قابل دیدن');
 define( '_AM_SYSTEM_BLOCKS_VISIBLEIN', 'قابل دیدن در' );
 define( '_AM_SYSTEM_BLOCKS_TOPPAGE', 'صفحه اول' );
-define( '_AM_SYSTEM_BLOCKS_ALLPAGES', 'همه صفحه ها' );
+define( '_AM_SYSTEM_BLOCKS_ALLPAGES', 'همه صفحه‌ها' );
 define( '_AM_SYSTEM_BLOCKS_UNASSIGNED', 'واگذار نشده' );
 define( '_AM_SYSTEM_BLOCKS_TITLE', 'عنوان' );
 define( '_AM_SYSTEM_BLOCKS_CONTENT', 'متن' );
@@ -64,21 +64,21 @@ define( '_AM_SYSTEM_BLOCKS_CUSTOMPHP', 'بلاک دست‌نویس (PHP)');
 define( '_AM_SYSTEM_BLOCKS_CUSTOMSMILE', 'بلاک دست‌نویس (فرمت خودکار + لبخندک)');
 define( '_AM_SYSTEM_BLOCKS_CUSTOMNOSMILE', 'بلاک دست‌نویس (فرمت خودکار)');
 define( '_AM_SYSTEM_BLOCKS_EDITTPL', 'ویرایش الگو' );
-define( '_AM_SYSTEM_BLOCKS_OPTIONS', 'گزینه ها' );
+define( '_AM_SYSTEM_BLOCKS_OPTIONS', 'گزینه‌ها' );
 define( '_AM_SYSTEM_BLOCKS_DRAG', 'پایین بردن یا مرتب کردن بلاک' );
 
 // Messages
 define( '_AM_SYSTEM_BLOCKS_DBUPDATED', _AM_SYSTEM_DBUPDATED );
 define( '_AM_SYSTEM_BLOCKS_RUSUREDEL', 'آیا اطمینان دارید که میخواهید این بلاک را حذف کنید؟ <div class="bold">%s</div>' );
-define( '_AM_SYSTEM_BLOCKS_SYSTEMCANT', 'بلاک های سیستم را نمیتوان حذف کرد' );
+define( '_AM_SYSTEM_BLOCKS_SYSTEMCANT', 'بلاک‌های سیستم را نمیتوان حذف کرد' );
 define( '_AM_SYSTEM_BLOCKS_MODULECANT', 'این بلاک را به طور مستقیم نمیشود حذف کرد! اگر میخواهید این بلاک را غیرفعال کنید, باید این ماژول را غیر فعال کنید.' );
 
 // Tips
 define( '_AM_SYSTEM_BLOCKS_TIPS', 
 '<ul>
-<li>شما با سادگی میتوانید محل یا موقعیت بلاک ها را به وسیله Drag n Drop تغییر دهید, با کلیک بر روی این تصویر <img class="tooltip" src="images/icons/default/actions/blocks.png" alt="'._AM_SYSTEM_BLOCKS_DRAG.'" title="'._AM_SYSTEM_BLOCKS_DRAG.'" /> و تنظیم سایت مطابق میل خودتان</li>
+<li>شما با سادگی میتوانید محل یا موقعیت بلاک‌ها را به وسیله Drag n Drop تغییر دهید, با کلیک بر روی این تصویر <img class="tooltip" src="images/icons/default/actions/blocks.png" alt="'._AM_SYSTEM_BLOCKS_DRAG.'" title="'._AM_SYSTEM_BLOCKS_DRAG.'" /> و تنظیم سایت مطابق میل خودتان</li>
 <li>اضافه کردن بلاک دست ساز جدید</li>
-<li>با کلیک بر روی<img class="tooltip" width="16" src="images/icons/default/actions/agt_action_success.png" alt="'._AM_SYSTEM_BLOCKS_DISPLAY.'" title="'._AM_SYSTEM_BLOCKS_DISPLAY.'"/> یا <img class="tooltip" width="16" src="images/icons/default/actions/button_cancel.png" alt="'._AM_SYSTEM_BLOCKS_HIDE.'" title="'._AM_SYSTEM_BLOCKS_HIDE.'" /> بلاک ها را فعال یا غیر فعال کنید</li>
+<li>با کلیک بر روی<img class="tooltip" width="16" src="images/icons/default/actions/agt_action_success.png" alt="'._AM_SYSTEM_BLOCKS_DISPLAY.'" title="'._AM_SYSTEM_BLOCKS_DISPLAY.'"/> یا <img class="tooltip" width="16" src="images/icons/default/actions/button_cancel.png" alt="'._AM_SYSTEM_BLOCKS_HIDE.'" title="'._AM_SYSTEM_BLOCKS_HIDE.'" /> بلاک‌ها را فعال یا غیر فعال کنید</li>
 </ul>' );
 
 ?>

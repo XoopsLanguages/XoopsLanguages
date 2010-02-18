@@ -2,19 +2,20 @@
 /**
  * @copyright   The XOOPS Project http://sourceforge.net/projects/xoops/
  * @license     http://www.fsf.org/copyleft/gpl.html GNU public license
- * _LANGCODE    en
+ * _LANGCODE    fa
  * _CHARSET     UTF-8
  * @version     $Id: smilies.php 4091 2010-01-05 17:02:11Z forxoops $
  */
 //Nav
-define('_AM_SYSTEM_SMILIES_NAV_MANAGER','مدیریت لبخند ها');
-define('_AM_SYSTEM_SMILIES_NAV_LIST','فهرست لبخند ها');
+define('_AM_SYSTEM_SMILIES_NAV_MANAGER','مدیریت لبخند‌ها');
+define('_AM_SYSTEM_SMILIES_NAV_LIST','فهرست لبخند‌ها');
 define('_AM_SYSTEM_SMILIES_NAV_ADD','اضافه کردن لبخند ');
 define('_AM_SYSTEM_SMILIES_NAV_EDIT','ویرایش لبخند');
+define('_AM_SYSTEM_SMILIES_NAV_DELETE','حذف لبخند');
 
 // Tips
-define('_AM_SYSTEM_SMILIES_NAV_TIPS','<ul><li>اضافه , ویرایش یا حذف لبخند ها</li></ul>');
-define('_AM_SYSTEM_SMILIES_NAV_TIPS_FORM1','<ul><li>فهرست فرمت های مجاز: %s</li>');
+define('_AM_SYSTEM_SMILIES_NAV_TIPS','<ul><li>اضافه , ویرایش یا حذف لبخند‌ها</li></ul>');
+define('_AM_SYSTEM_SMILIES_NAV_TIPS_FORM1','<ul><li>فهرست فرمت‌های مجاز: %s</li>');
 define('_AM_SYSTEM_SMILIES_NAV_TIPS_FORM2','<li>بیشترین حجم فایل برای بارگذاری: %s ko</li></ul>');
 
 //Infos
@@ -26,7 +27,7 @@ define('_AM_SYSTEM_SMILIES_DESCRIPTION','توضیحات');
 define('_AM_SYSTEM_SMILIES_DISPLAY','نمایش در فرم');
 define('_AM_SYSTEM_SMILIES_EDIT','ویرایش لبخند');
 define('_AM_SYSTEM_SMILIES_FILE','فایل لبخند');
-define('_AM_SYSTEM_SMILIES_IMAGE_PATH', 'فایل های موجود در: %s');
+define('_AM_SYSTEM_SMILIES_IMAGE_PATH', 'فایل‌های موجود در: %s');
 define('_AM_SYSTEM_SMILIES_OFF','نمایش در فرم ');
 define('_AM_SYSTEM_SMILIES_ON','عدم نمایش در فرم');
 define('_AM_SYSTEM_SMILIES_SMILIE','لبخند');

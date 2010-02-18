@@ -2,7 +2,7 @@
 /**
  * @copyright   The XOOPS Project http://sourceforge.net/projects/xoops/
  * @license     http://www.fsf.org/copyleft/gpl.html GNU public license
- * _LANGCODE    en
+ * _LANGCODE    fa
  * _CHARSET     UTF-8
  * @version     $Id: banners.php 4091 2010-01-05 17:02:11Z forxoops $
  */
@@ -11,12 +11,15 @@
 define("_AM_SYSTEM_BANNERS_DBUPDATED",_AM_SYSTEM_DBUPDATED);
 
 //Nav
-define("_AM_SYSTEM_BANNERS_NAV_MANAGER","مدیریت بنر ها");
-define("_AM_SYSTEM_BANNERS_NAV_MAIN","فهرست بنر ها و مشتری ها");
+define("_AM_SYSTEM_BANNERS_NAV_MANAGER","مدیریت بنر‌ها");
+define("_AM_SYSTEM_BANNERS_NAV_MAIN","فهرست بنر‌ها و مشتری‌ها");
 define("_AM_SYSTEM_BANNERS_NAV_EDITBNR","ویرایش بنر");
+define("_AM_SYSTEM_BANNERS_NAV_DELETEBNR","حذف بنر");
+define("_AM_SYSTEM_BANNERS_NAV_DELETEFINISHBNR","حذف بنر پایان یافته");
 define("_AM_SYSTEM_BANNERS_NAV_ADDBNR","اضافه کردن بنر جدید");
-define("_AM_SYSTEM_BANNERS_NAV_EDITADVCLI","ویرایش مشتری ها");
+define("_AM_SYSTEM_BANNERS_NAV_EDITADVCLI","ویرایش مشتری‌ها");
 define("_AM_SYSTEM_BANNERS_NAV_ADDNWCLI","اضافه کردن مشتری جدید");
+define("_AM_SYSTEM_BANNERS_NAV_DELETECLI","حذف بنر");
 
 define("_AM_SYSTEM_BANNERS_CURACTBNR","بنر‌های فعال در حال حاضر");
 define("_AM_SYSTEM_BANNERS_BANNERID","شناسه (ID) بنر");
@@ -74,7 +77,7 @@ define("_AM_SYSTEM_BANNERS_CODEHTML","کد Html:");
 // Tips
 define( "_AM_SYSTEM_BANNERS_NAV_TIPS", '
 <ul>
-<li>اضافه , ویرایش و به روز رسانی شاخه , بنر ها و مشتریان.</li>
+<li>اضافه , ویرایش و به روز رسانی شاخه , بنر‌ها و مشتریان.</li>
 </ul>
 ');
 

@@ -1,6 +1,6 @@
 <?php
 // $Id: version.php 4091 2010-01-05 17:02:11Z forxoops $
-// _LANGCODE: en
+// _LANGCODE: fa
 // _CHARSET : UTF-8
 // Translator: XOOPS Translation Team
 
