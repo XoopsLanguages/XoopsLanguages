@@ -23,7 +23,6 @@ define('_OXYGEN_ABOUT_TEXT','برنامه مدیریت محتوای زوپس, CM
 define('_OXYGEN_XOOPS_LINKS','لینک های زوپس');
 
 define('_OXYGEN_XOOPSPROJECT','پروژه زوپس');
-define('_OXYGEN_LOCALSUPPORT','سایت های پشتیبان محلی');
 define('_OXYGEN_XOOPSCORE','هسته زوپس');
 define('_OXYGEN_XOOPSTHEME','قالب های زوپس');
 define('_OXYGEN_XOOPSWIKI','دانشنامه زوپس');
@@ -34,7 +33,7 @@ define('_OXYGEN_CODESVN','مخازن SVN');
 define('_OXYGEN_REPORTBUG','گزارش ایرادات');
 define('_OXYGEN_XGIFTSHOP','فروشگاه هدایای زوپس');
 define('_OXYGEN_XDONATIONS','کمک به پروژه زوپس');
-define('_OXYGEN_XDONATIONS_TEXT','<h2>We Need Your Help - Make a Donation!</h2>
+define('_OXYGEN_XDONATIONS_TEXT','<h2>کمک به پروژه زوپس</h2>
 اگر شما به سیستم زوپس علاقه دارید, و دوست دارید در برگشت چیز های دریافت کنید, شما میتوانید به بنیاد زوپس کمک کنید! با استفاده از حساب PayPal مبلغ مورد نظر خود را به حساب بنیاد زوپس منتقل کنید.<br>
 تمام پرداخت های شما برای ترویج و پیشرفت استفاده و توسعه زوپس هزینه خواهد شد.<br>
 بنیاد زوپس به عنوان یک سازمان بدون منفعت مالی در آمریکا ثبت شده است, و در راستای تقویت زوپس فعالیت میکند!<br>
@@ -52,7 +51,6 @@ define('_OXYGEN_AUTHENTICATION','گزینه‌های تایید سندیت');
 define('_OXYGEN_MODULESETTINGS','تنظیمات ماژول سیستم');
 
 //add for styles name
-
 define('_OXYGEN_SILVER','نقره ای');
 define('_OXYGEN_DARK','تیره');
 define('_OXYGEN_ORANGE','نارنجی');
