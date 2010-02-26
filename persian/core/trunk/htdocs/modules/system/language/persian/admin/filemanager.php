@@ -8,56 +8,56 @@
  */
  
  //Nav
-define('_AM_SYSTEM_FILEMANAGER_NAV_MANAGER','File Manager');
-define('_AM_SYSTEM_FILEMANAGER_NAV_MAIN','File Manager');
+define('_AM_SYSTEM_FILEMANAGER_NAV_MANAGER','مدیریت فایل‌ها');
+define('_AM_SYSTEM_FILEMANAGER_NAV_MAIN','مدیریت فایل‌ها');
 
 //Tips
 define('_AM_SYSTEM_FILEMANAGER_NAV_TIPS','
 <ul>
-<li>Change file permission, content or just delete an unused file from your Xoops.</li>
+<li>تغییر دسترسی فایل‌ها, محتوا و خذف فایل‌های غیر ضروری از روی زوپس.</li>
 </ul>
 ');
 
 // Main
-define('_AM_SYSTEM_FILEMANAGER_DIRECTORY','Directory');
-define('_AM_SYSTEM_FILEMANAGER_FILES','Files');
+define('_AM_SYSTEM_FILEMANAGER_DIRECTORY','شاخه');
+define('_AM_SYSTEM_FILEMANAGER_FILES','فایل‌ها');
 define('_AM_SYSTEM_FILEMANAGER_GENERATE','Generated surcharge');
-define('_AM_SYSTEM_FILEMANAGER_SELECT_THEME','Select theme');
+define('_AM_SYSTEM_FILEMANAGER_SELECT_THEME','انتخاب قالب');
 define('_AM_SYSTEM_FILEMANAGER_FORCE_GENERATED','Forced the generate');
-define('_AM_SYSTEM_FILEMANAGER_NAV_FILE_GENERATED','Files generated');
-define('_AM_SYSTEM_FILEMANAGER_NOT_CREATED','Not files created');
-define('_AM_SYSTEM_FILEMANAGER_HOME','Home');
-define('_AM_SYSTEM_FILEMANAGER_SAVE','Save');
-define('_AM_SYSTEM_FILEMANAGER_CANCEL','Cancel');
-define('_AM_SYSTEM_FILEMANAGER_RESTORE','Restore');
-define('_AM_SYSTEM_FILEMANAGER_REFRESH','Refresh');
-define('_AM_SYSTEM_FILEMANAGER_UPLOAD','Upload file');
-define('_AM_SYSTEM_FILEMANAGER_UPLOAD_CHOOSE','Choose file to upload');
-define('_AM_SYSTEM_FILEMANAGER_ADDDIR','Add Directory');
-define('_AM_SYSTEM_FILEMANAGER_ADDDIR_NAME','Choose name of directory');
-define('_AM_SYSTEM_FILEMANAGER_ADDFILE','Add New File');
-define('_AM_SYSTEM_FILEMANAGER_DELDIR','Delete Directory');
+define('_AM_SYSTEM_FILEMANAGER_NAV_FILE_GENERATED','فایل‌ها ساخته شد');
+define('_AM_SYSTEM_FILEMANAGER_NOT_CREATED','هیچ فایلی ایجاد نشد');
+define('_AM_SYSTEM_FILEMANAGER_HOME','خانه');
+define('_AM_SYSTEM_FILEMANAGER_SAVE','دخیره');
+define('_AM_SYSTEM_FILEMANAGER_CANCEL','لغو');
+define('_AM_SYSTEM_FILEMANAGER_RESTORE','بازگرداندن');
+define('_AM_SYSTEM_FILEMANAGER_REFRESH','تازه کن');
+define('_AM_SYSTEM_FILEMANAGER_UPLOAD','بارگذاری فایل');
+define('_AM_SYSTEM_FILEMANAGER_UPLOAD_CHOOSE','انتخاب فایل برای بارگذاری');
+define('_AM_SYSTEM_FILEMANAGER_ADDDIR','اضافه کردن شاخه');
+define('_AM_SYSTEM_FILEMANAGER_ADDDIR_NAME','انتخاب نام شاخه');
+define('_AM_SYSTEM_FILEMANAGER_ADDFILE','اضافه کردن فایل جدید');
+define('_AM_SYSTEM_FILEMANAGER_DELDIR','حذف شاخه');
 
-define('_AM_SYSTEM_FILEMANAGER_RESTORE_ERROR_FILE_EXISTS','Error : File not exist');
-define('_AM_SYSTEM_FILEMANAGER_RESTORE_ERROR_FILE_DELETE','Error : File not delete');
-define('_AM_SYSTEM_FILEMANAGER_RESTORE_ERROR_FILE_RENAME','Error : File not rename');
-define('_AM_SYSTEM_FILEMANAGER_BACK','Back');
-define('_AM_SYSTEM_FILEMANAGER_DELETE','Delete');
-define('_AM_SYSTEM_FILEMANAGER_ERROR','Error');
-define('_AM_SYSTEM_FILEMANAGER_EDIT','Edit of :');
-define('_AM_SYSTEM_FILEMANAGER_EMPTY_FILE','File empty');
-define('_AM_SYSTEM_FILEMANAGER_DELDIR_NOTOK','Error : delete this directory');
-define('_AM_SYSTEM_FILEMANAGER_DELDIR_OK','Directory successfully deleted');
+define('_AM_SYSTEM_FILEMANAGER_RESTORE_ERROR_FILE_EXISTS','خطا : فایل موجود نیست');
+define('_AM_SYSTEM_FILEMANAGER_RESTORE_ERROR_FILE_DELETE','خطا : فایل حذف نشد');
+define('_AM_SYSTEM_FILEMANAGER_RESTORE_ERROR_FILE_RENAME','خطا : نام فایل تغییر نکرد');
+define('_AM_SYSTEM_FILEMANAGER_BACK','عقب');
+define('_AM_SYSTEM_FILEMANAGER_DELETE','حذف');
+define('_AM_SYSTEM_FILEMANAGER_ERROR','خطا');
+define('_AM_SYSTEM_FILEMANAGER_EDIT','ویرایش :');
+define('_AM_SYSTEM_FILEMANAGER_EMPTY_FILE','فایل خالی');
+define('_AM_SYSTEM_FILEMANAGER_DELDIR_NOTOK','خطا : حذف این شاخه');
+define('_AM_SYSTEM_FILEMANAGER_DELDIR_OK','شاخه با موفقیت حذف شد');
 
 // Message
-define('_AM_SYSTEM_FILEMANAGER_UPLOAD_FILE','Files successfully uploaded');
-define('_AM_SYSTEM_FILEMANAGER_EXTRACT_FILE','Files successfully extracted');
-define('_AM_SYSTEM_FILEMANAGER_EXTRACT_ERROR','Files could not be extracted');
-define('_AM_SYSTEM_FILEMANAGER_DELETE_FILE','Files successfully deleted');
-define('_AM_SYSTEM_FILEMANAGER_DIR_SUCCESS','Directory successfully created');
-define('_AM_SYSTEM_FILEMANAGER_DIR_ERROR','Directory could not be created');
-define('_AM_SYSTEM_FILEMANAGER_DIR_RYSDEL','Are you sure that you want to delete this folder ?');
-define('_AM_SYSTEM_FILEMANAGER_FILE_SUCCESS','File successfully created');
-define('_AM_SYSTEM_FILEMANAGER_SUREDEL', 'Are you sure you want to delete this file %s ?');
-define('_AM_SYSTEM_FILEMANAGER_DIR_SUREDEL', 'Are you sure you want to delete this directory %s ?<br />Warning : all subdirectories and files file will be deleted');
+define('_AM_SYSTEM_FILEMANAGER_UPLOAD_FILE','فایل با موفقیت بارگذاری شد');
+define('_AM_SYSTEM_FILEMANAGER_EXTRACT_FILE','فایل با موفقیت استخراج شد');
+define('_AM_SYSTEM_FILEMANAGER_EXTRACT_ERROR','ناتوان در استخراج فایل');
+define('_AM_SYSTEM_FILEMANAGER_DELETE_FILE','فایل با موفقیت حذف شد');
+define('_AM_SYSTEM_FILEMANAGER_DIR_SUCCESS','شاخه با موفقیت ساخته شد');
+define('_AM_SYSTEM_FILEMANAGER_DIR_ERROR','ناتوان در ساخت شاخه');
+define('_AM_SYSTEM_FILEMANAGER_DIR_RYSDEL','آیا شما اطمینان دارید که میخواهید این شاخه را حذف کنید؟');
+define('_AM_SYSTEM_FILEMANAGER_FILE_SUCCESS','فایل با موفقیت ساخته شد');
+define('_AM_SYSTEM_FILEMANAGER_SUREDEL', 'آیا شما اطمینان دارید که میخواهید فایل %s را حذف کنید؟');
+define('_AM_SYSTEM_FILEMANAGER_DIR_SUREDEL', 'آیا شما اطمینان دارید که میخواهید شاخه %s را حذف کنید؟<br />اخطار : تمام زیرشاخه‌ها و فایل‌ها حذف میشود.');
 ?>
