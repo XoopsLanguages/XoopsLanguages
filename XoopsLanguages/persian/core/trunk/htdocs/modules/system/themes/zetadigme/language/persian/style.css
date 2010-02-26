@@ -51,3 +51,8 @@ div#navOptionsCP .modname {
 div#navbarCP ul li ul {
 	right: 0 !important;
 }
+
+table.tablesorter thead tr .header,table.tablesorter thead tr .headerSortUp,table.tablesorter thead tr .headerSortDown
+	{
+	background-position: center left !important;
+}

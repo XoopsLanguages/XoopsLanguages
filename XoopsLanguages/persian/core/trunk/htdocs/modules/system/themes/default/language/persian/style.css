@@ -43,6 +43,10 @@ div.confirmMsg {
 	float: right !important;
 }
 
+#toolbar {
+	float: left !important;
+}
+
 #navbarCP ul.menu li {
 	float: right !important;
 }
@@ -52,7 +56,7 @@ div.confirmMsg {
 }
 
 #navbarCP ul.menu .sub {
-	background-position: left  !important;
+	background-position: left !important;
 }
 
 #navbarCP ul.menu ul {
@@ -89,9 +93,23 @@ div.confirmMsg {
 	padding-right: 40px !important;
 }
 
-#xo-Breadcrumb {
-    width: 95% !important;
+#xo-breadcrumb {
+	width: 98% !important;
 }
 
-.floatleft{ float:right !important;}
-.floatright{ float:left !important;}
+#xo-breadcrumb li {
+	margin-left: 10px !important;
+}
+
+.floatleft {
+	float: right !important;
+}
+
+.floatright {
+	float: left !important;
+}
+
+table.tablesorter thead tr .header,table.tablesorter thead tr .headerSortUp,table.tablesorter thead tr .headerSortDown
+	{
+	background-position: center left !important;
+}
