@@ -48,7 +48,7 @@ define("_AM_SYSTEM_MAILUSERS_SENDTO","ارسال به صورت");
 define("_AM_SYSTEM_MAILUSERS_SENDTOUSERS","ارسال پیام به اعضای عضو این گروه‌ها:");
 define("_AM_SYSTEM_MAILUSERS_SENDTOUSERS2","ارسال به:");
 define("_AM_SYSTEM_MAILUSERS_SENT", "اعضایی که پیام به آنها فرستاده شده");
-define("_AM_SYSTEM_MAILUSERS_SENTNUM", "%s - %s (همه: %s users)");
+define("_AM_SYSTEM_MAILUSERS_SENTNUM", "%s - %s (همه: %s عضو)");
 define("_AM_SYSTEM_MAILUSERS_TIMEFORMAT", "(فرمت تاریخ yyyy-mm-dd, اختیاری)");
 
 ?>

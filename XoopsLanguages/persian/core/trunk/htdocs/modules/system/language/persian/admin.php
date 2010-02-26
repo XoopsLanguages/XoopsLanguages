@@ -12,6 +12,7 @@ define('_AM_SYSTEM_CONFIG', 'پیکربندی سیستم' );
 define('_AM_SYSTEM_CPANEL', 'منوی مدیریت' );
 define('_AM_SYSTEM_UPDATE', 'به روز رسانی' );
 define('_AM_SYSTEM_GOTOMODULE', 'برو به ماژول' );
+define('_AM_SYSTEM_HELP', 'راهنمایی' );
 define('_AM_SYSTEM_HELP_VIEW', 'نمایش راهنمایی' );
 define('_AM_SYSTEM_HELP_HIDE', 'مخفی کردن راهنمایی' );
 define('_AM_SYSTEM_TIPS', 'تیپ‌ها' );
