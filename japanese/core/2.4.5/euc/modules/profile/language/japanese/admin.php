@@ -81,9 +81,7 @@ define("_PROFILE_AM_LONGDATE", "長い 日付");
 
 define("_PROFILE_AM_ADDOPTION", "オプション 追加");
 define("_PROFILE_AM_REMOVEOPTIONS", "オプション 削除");
-define("_PROFILE_AM_KEY", "Value to be stored");
 define("_PROFILE_AM_KEY", "キー");
-define("_PROFILE_AM_VALUE", "Text to be displayed");
 define("_PROFILE_AM_VALUE", "値");
 
 // User management
