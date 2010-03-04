@@ -1,6 +1,6 @@
 <?php
 // $Id$
-// _LANGCODE: en
+// _LANGCODE: ja
 // _CHARSET : UTF-8
 // Translator: XOOPS Translation Team
 
@@ -13,10 +13,10 @@ $supports["english"] = array(
 );
 
 // Add extra support sites, use corresponding language folder name as key, for instance:
-/*
-$supports["french"] = array(
-    "url"   => "http://www.frxoops.org/",
-    "title" => "Support francophone"
+
+$supports["japanese"] = array(
+    "url"   => "http://xoopscms.jp/",
+    "title" => "日本語サポート"
 );
-*/
+
 ?>

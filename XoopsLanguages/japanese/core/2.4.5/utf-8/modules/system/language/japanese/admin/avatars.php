@@ -5,7 +5,7 @@
 // Translator: XOOPS Translation Team
 
 //%%%%%% Avatar Manager %%%%%
-define('_MD_AVATARMAN','アバター マネジャー');
+define('_MD_AVATARMAN','アバター管理');
 
 define('_MD_SYSAVATARS','システムアバター');
 define('_MD_CSTAVATARS','カスタムアバター');
