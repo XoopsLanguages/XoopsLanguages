@@ -61,7 +61,7 @@ define('_MA_USER_SORT', '検索');
 define('_MA_USER_ORDER', '方法');
 define("_MA_USER_LASTLOGIN", "前回ログイン");
 define('_MA_USER_POSTS', '投稿数');
-define('_MA_USER_ASC , '昇順');
+define('_MA_USER_ASC' , '昇順');
 define('_MA_USER_DESC', '降順');
 define('_MA_USER_LIMIT', 'ページのユーザー数');
 define('_MA_USER_RESULTS', '検索結果');
