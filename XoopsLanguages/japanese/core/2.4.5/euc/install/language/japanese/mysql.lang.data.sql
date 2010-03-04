@@ -21,7 +21,7 @@ INSERT INTO smiles VALUES (4, ':-o', 'smil3dbd4d8676346.gif', 'エッ', 1);
 INSERT INTO smiles VALUES (5, ':-?', 'smil3dbd4d99c6eaa.gif', 'んー', 1);
 INSERT INTO smiles VALUES (6, '8-)', 'smil3dbd4daabd491.gif', 'フフフ', 1);
 INSERT INTO smiles VALUES (7, ':lol:', 'smil3dbd4dbc14f3f.gif', '爆笑', 1);
-INSERT INTO smiles VALUES (8, ':-x', 'smil3dbd4dcd7b9f4.gif', 'お口ミッフィ', 1);
+INSERT INTO smiles VALUES (8, ':-x', 'smil3dbd4dcd7b9f4.gif', 'むぅー', 1);
 INSERT INTO smiles VALUES (9, ':-P', 'smil3dbd4ddd6835f.gif', 'べぇー', 1);
 INSERT INTO smiles VALUES (10, ':oops:', 'smil3dbd4df1944ee.gif', 'はー', 0);
 INSERT INTO smiles VALUES (11, ':cry:', 'smil3dbd4e02c5440.gif', 'しくしく', 0);

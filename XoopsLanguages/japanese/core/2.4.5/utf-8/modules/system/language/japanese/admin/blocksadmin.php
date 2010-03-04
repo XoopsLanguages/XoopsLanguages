@@ -73,7 +73,7 @@ define('_AM_GROUP', 'グループ');
 define('_AM_UNASSIGNED', '未割り当て');
 
 define("_AM_CUSTOM","カスタムブロック");
-define('_AM_GENERATOR', 'ブロック作成者: %s');
+define('_AM_GENERATOR', 'ブロック生成: %s');
 define('_AM_TYPES', '全種類');
 
 ?>
