@@ -36,13 +36,13 @@ define('_US_THANKYOUFORVISIT', 'ご利用いただき、ありがとうござい
 define('_US_INCORRECTLOGIN', 'ログインできません！');
 define('_US_LOGGINGU', 'ログインありがとうございます %s さん');
 // 2001-11-17 ADD
-define('_US_NOACTTPADM', '選択されたユーザはまだ存在しないか、承認が完了していません。<br />詳細をサイト管理者へお問い合せください。');
+define('_US_NOACTTPADM', '選択されたユーザーはまだ存在しないか、承認が完了していません。<br />詳細をサイト管理者へお問い合せください。');
 define('_US_ACTKEYNOT', '承認キーに誤りがあります！');
 define('_US_ACONTACT', '選択されたアカウントはすでに承認が完了しています！');
 define('_US_ACTLOGIN', 'あなたのアカウントを承認しました。登録したパスワードを用いてログインしてください。');
-define('_US_NOPERMISS', 'ごめんなさい。ユーザ情報を変更することはできません。');
-define('_US_SURETODEL', 'ユーザアカウントを本当に削除してよろしいですか？');
-define('_US_REMOVEINFO', 'アカウントを削除した場合、すべてのユーザ情報が失われます');
+define('_US_NOPERMISS', 'ごめんなさい。ユーザー情報を変更することはできません。');
+define('_US_SURETODEL', 'ユーザーアカウントを本当に削除してよろしいですか？');
+define('_US_REMOVEINFO', 'アカウントを削除した場合、すべてのユーザー情報が失われます');
 define('_US_BEENDELED', 'アカウントを削除しました。');
 define('_US_ACTFAILD', 'Activation failed!');
 //%%%%%%		File Name register.php 		%%%%%
@@ -69,7 +69,7 @@ define('_US_YOURREGISTERED', '登録が完了しました。記載されたメ�
 define('_US_YOURREGMAILNG', '登録が完了しました。しかし、サーバ内部エラーにより承認キーが記載されたメールを送信することができませんでした。大変申し訳ございませんが、サイト管理者までお問い合わせください');
 define('_US_YOURREGISTERED2', '登録が完了いたしました。サイト管理者がアカウントを承認するまでお待ちください。承認完了時には E-mail でご連絡いたします。');
 // %s is your site name
-define('_US_NEWUSERREGAT', '新規登録ユーザ %s さん');
+define('_US_NEWUSERREGAT', '%s - 新規登録ユーザー');
 // %s is a username
 define('_US_HASJUSTREG', '%s さん が新たに登録しました！');
 define('_US_INVALIDMAIL', 'エラー: 不正なメールアドレス');
@@ -82,15 +82,15 @@ define('_US_NICKNAMENOSPACES', 'ユーザーの名前に空白を含めないで
 define('_US_NICKNAMETAKEN', 'エラー: このユーザーの名前はすでに使われています');
 define('_US_EMAILTAKEN', 'エラー: このメールアドレスはすでに登録されています');
 define('_US_ENTERPWD', 'エラー: パスワードを入力して下さい');
-define('_US_SORRYNOTFOUND', 'ごめんなさい。ユーザ情報が見つかりませんでした');
+define('_US_SORRYNOTFOUND', 'ごめんなさい。ユーザー情報が見つかりませんでした');
 define('_US_NEWPWDREQ', '新たなパスワードリクエスト %s さん');
-define('_US_YOURACCOUNT', 'ユーザアカウント　%s');
-define('_US_MAILPWDNG', 'mail_password: ユーザ情報の更新に失敗しました。お手数かけますが、サイト管理者までお問合せください。');
+define('_US_YOURACCOUNT', 'ユーザーアカウント %s');
+define('_US_MAILPWDNG', 'mail_password: ユーザー情報の更新に失敗しました。お手数かけますが、サイト管理者までお問合せください。');
 // %s is a username
 define('_US_PWDMAILED', 'パスワードを %s さんへ送信しました');
 define('_US_CONFMAIL', 'パスワード取得用リンクが記載されたメールを %s さんへ送信しました。');
 define('_US_ACTVMAILNG', 'メール送信に失敗しました %s さん宛');
-define('_US_ACTVMAILOK', 'メールを送信しました　%s　さん宛');
+define('_US_ACTVMAILOK', 'メールを送信しました %s さん宛');
 //%%%%%%		File Name userinfo.php 		%%%%%
 define('_US_SELECTNG', 'ユーザが選択されていません！ 戻って再度行って下さい');
 define('_US_PM', 'PM');
