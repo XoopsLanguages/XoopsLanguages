@@ -3,7 +3,7 @@ body {
 	font-family: Tahoma !important;
 }
 
-table,table td,table tr,ul,li,.content,#containBodyCP {
+table,table td,table tr,ul,li,.content,#xo-body-contain {
 	direction: rtl !important;
 	text-align: right !important;
 }
@@ -17,53 +17,54 @@ div.confirmMsg {
 	direction: rtl !important;
 }
 
-#navbarCP {
+#xo_globalnav {
 	font: 11px Tahoma !important;
 	direction: rtl !important;
 	text-align: right !important;
 }
 
-#navbarCP ul li {
+#xo_globalnav ul li {
 	float: right !important;
 	margin-right: 3px !important;
 }
 
-#navOptionsCP a {
+#xo-nav-options a {
 	float: left !important;
 	margin-left: 2px !important;
 }
 
-.cpicon a,.cpicon a:hover,.cpiconmodules a,.cpiconmodules a:hover {
+#xo-icon a,#xo-icon a:hover,#xo-module-icons a,#xo-module-icons a:hover
+	{
 	direction: rtl !important;
 	text-align: center !important;
 	float: right !important;
 }
 
-#navOptionsCP .modname {
+#xo-modname {
 	float: right !important;
 }
 
-#toolbar {
+#xo-toolbar, #xo-headnav {
 	float: left !important;
 }
 
-#navbarCP ul.menu li {
+#xo_globalnav ul.menu li {
 	float: right !important;
 }
 
-#navbarCP ul.menu ul ul {
+#xo_globalnav ul.menu ul ul {
 	right: 126px !important;
 }
 
-#navbarCP ul.menu .sub {
+#xo_globalnav ul.menu .sub {
 	background-position: left !important;
 }
 
-#navbarCP ul.menu ul {
+#xo_globalnav ul.menu ul {
 	background: none !important;
 }
 
-#navbarCP ul.menu ul li {
+#xo_globalnav ul.menu ul li {
 	padding-right: 0px !important;
 }
 
@@ -71,11 +72,11 @@ div.confirmMsg {
 	float: left !important;
 }
 
-#logoHead td.other {
+#xo-logo-head td.other {
 	float: left !important;
 }
 
-#main_logo {
+#main-logo {
 	float: right !important;
 }
 
@@ -88,7 +89,7 @@ div.confirmMsg {
 	direction: rtl !important;
 }
 
-.CPbigTitle {
+#xo-title {
 	background-position: right top !important;
 	padding-right: 40px !important;
 }
