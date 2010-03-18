@@ -41,6 +41,7 @@ define("_MI_SYSTEM_PREFERENCE_TIPS","کمک رسانی آنلاین؟");
 define("_MI_SYSTEM_PREFERENCE_TIPS_DSC","این گزینه به شما انواع تیپ و پشتیبانی آنلاین میدهد؟");
 define("_MI_SYSTEM_PREFERENCE_ICONS","آیکن‌ها");
 define("_MI_SYSTEM_PREFERENCE_BREADCRUMB","Breadcrumb");
+define("_MI_SYSTEM_PREFERENCE_JQUERY_THEME", "قالب JQuery");
 
 define("_MI_SYSTEM_PREFERENCE_BREAK_ACTIVE","بخش‌های فعال");
 define("_MI_SYSTEM_PREFERENCE_ACTIVE_AVATARS","تصاویر اعضا فعال");
