@@ -186,4 +186,12 @@ define("_MI_NW_IMAGE_MAX_HEIGHT", "بیشترین اندازه ارتفاع تص
 define("_MI_NW_CLONER", "تکثیر");
 
 define("_MI_NW_LATESTNEWS_BLOCK", "بلاک آخرین اخبار");
+
+// Added in version 1.68
+define("_MI_NW_TOPICDISPLAY", "نمایش سرفصل ها ");
+define("_MI_NW_TOPICDISPLAYDESC", "این گزینه نمایش عنوان سرفصل اخبار در عنوان هدر را فعال و غیر فعال میکند");
+
+define("_MI_NW_SEOENABLE", "فعال کردن SEO ");
+define("_MI_NW_SEOENABLEDESC", "این گزینه SEO را فعال یا غیر فعال میکند");
+
 ?>
