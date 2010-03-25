@@ -115,4 +115,8 @@ define("_MA_NW_BOOKMARK_TO_YAHOO","ارسال خبر به یاهو");
 define('_MA_NW_NOTYETSTORY',"متاسفانه خبر انتخاب‌شده شما هنوز منتشر نشده‌است. لطفا بعدا مراجعه و امتحان کنید.");
 define('_MA_NW_SELECT_IMAGE', "انتخاب تصویر برای اضافه شدن به خبر");
 define('_MA_NW_CURENT_PICTURE', "تصویر فعلی");
+
+// Added in version 1.68
+define("_MA_NW_SP", ":");
+define("_MA_NW_POSTED", "فرستاده شده در تاریخ");
 ?>
