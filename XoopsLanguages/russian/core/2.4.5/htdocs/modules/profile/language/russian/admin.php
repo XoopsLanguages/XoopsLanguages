@@ -34,13 +34,6 @@ define("_PROFILE_AM_TXTAREA", "Блок текста");
 define("_PROFILE_AM_TXTBOX", "Текстовое поле");
 define("_PROFILE_AM_URL", "Адрес");
 define("_PROFILE_AM_OTHER", "Другое");
-define("_PROFILE_AM_FLOAT", "Плавающая запятая");
-define("_PROFILE_AM_DECIMAL", "Десятичное число");
-define("_PROFILE_AM_UNICODE_ARRAY", "Unicode Array");
-define("_PROFILE_AM_UNICODE_EMAIL", "Unicode Email");
-define("_PROFILE_AM_UNICODE_TXTAREA", "Unicode Text Area");
-define("_PROFILE_AM_UNICODE_TXTBOX", "Unicode Text field");
-define("_PROFILE_AM_UNICODE_URL", "Unicode URL");
 
 define("_PROFILE_AM_PROF_VISIBLE_ON", "Поле отображается в профиле этих групп (Опубликованные поля у групп)");
 define("_PROFILE_AM_PROF_VISIBLE_FOR", "Группы видящие данные из поля (доступ для чтения)");
