@@ -2,37 +2,37 @@
 /**
  * @copyright   The XOOPS Project http://sourceforge.net/projects/xoops/
  * @license     http://www.fsf.org/copyleft/gpl.html GNU public license
- * _LANGCODE    en
+ * _LANGCODE    ru
  * _CHARSET     UTF-8
- * @version     $Id: userrank.php 4435 2010-02-16 22:29:08Z forxoops $
+ * Translator   2010-04-25 andrey3761
  */
  //Nav
-define('_AM_SYSTEM_USERRANK_NAV_MANAGER','Ranks Manager');
-define('_AM_SYSTEM_USERRANK_NAV_MAIN','Ranks list');
-define('_AM_SYSTEM_USERRANK_NAV_ADD','Add a new rank');
-define('_AM_SYSTEM_USERRANK_NAV_EDIT','Edit rank');
-define('_AM_SYSTEM_USERRANK_NAV_DELETE','Delete rank');
+define('_AM_SYSTEM_USERRANK_NAV_MANAGER','Управление рангами');
+define('_AM_SYSTEM_USERRANK_NAV_MAIN','Список рангов');
+define('_AM_SYSTEM_USERRANK_NAV_ADD','Добавить новый ранг');
+define('_AM_SYSTEM_USERRANK_NAV_EDIT','Редактировать ранг');
+define('_AM_SYSTEM_USERRANK_NAV_DELETE','Удалить ранг');
 
-define('_AM_SYSTEM_USERRANK_ACTION','Action');
-define('_AM_SYSTEM_USERRANK_ADD','Add a new rank');
-define('_AM_SYSTEM_USERRANK_DELETE','Delete rank');
-define('_AM_SYSTEM_USERRANK_EDIT','Edit rank');
-define("_AM_SYSTEM_USERRANK_IMAGE","Image");
-define('_AM_SYSTEM_USERRANK_IMAGE_PATH', 'Files exist in: %s');
-define("_AM_SYSTEM_USERRANK_MAXPOST","Max. Posts");
-define("_AM_SYSTEM_USERRANK_MINPOST","Min. Posts");
-define('_AM_SYSTEM_USERRANK_OFF','Special rank');
-define('_AM_SYSTEM_USERRANK_ON','Does not special rank');
+define('_AM_SYSTEM_USERRANK_ACTION','Действие');
+define('_AM_SYSTEM_USERRANK_ADD','Добавить новый ранг');
+define('_AM_SYSTEM_USERRANK_DELETE','Удалить ранг');
+define('_AM_SYSTEM_USERRANK_EDIT','Редактировать ранг');
+define("_AM_SYSTEM_USERRANK_IMAGE","Рисунок");
+define('_AM_SYSTEM_USERRANK_IMAGE_PATH', 'Файлы существуют в: %s');
+define("_AM_SYSTEM_USERRANK_MAXPOST","Макс. сообщений");
+define("_AM_SYSTEM_USERRANK_MINPOST","Мин. сообщений");
+define('_AM_SYSTEM_USERRANK_OFF','выкл');
+define('_AM_SYSTEM_USERRANK_ON','вкл');
 define('_AM_SYSTEM_USERRANK_SAVE',_AM_SYSTEM_DBUPDATED);
-define("_AM_SYSTEM_USERRANK_SPECIAL","Special Ranks");
-define("_AM_SYSTEM_USERRANK_SPECIAL_CAN","(Special ranks can be assigned to users irrespective of the number of user posts)");
-define('_AM_SYSTEM_USERRANK_SUREDEL', 'Are you sure you want to delete this ranking?');
-define("_AM_SYSTEM_USERRANK_TITLE","Title");
-define("_AM_SYSTEM_USERRANK_UPLOAD","Upload");
+define("_AM_SYSTEM_USERRANK_SPECIAL","Специальный ранг");
+define("_AM_SYSTEM_USERRANK_SPECIAL_CAN","(Специальный ранг, может быть присвоен независимо от количества сообщений пользователем)");
+define('_AM_SYSTEM_USERRANK_SUREDEL', 'Вы уверены, что хотите удалить этот ранг?');
+define("_AM_SYSTEM_USERRANK_TITLE","Наименование");
+define("_AM_SYSTEM_USERRANK_UPLOAD","Загрузить");
 
 // Tips
-define('_AM_SYSTEM_USERRANK_TIPS', '<ul><li>Add, update or delete user rank</li></ul>');
-define('_AM_SYSTEM_USERRANK_TIPS_FORM1','<ul><li>Authorized mime types: %s</li>');
-define('_AM_SYSTEM_USERRANK_TIPS_FORM2','<li>Max uploaded files size: %s ko</li></ul>');
+define('_AM_SYSTEM_USERRANK_TIPS', '<ul><li>Сдесь Вы можете добавлять, изменять или удалять ранги пользователей.</li></ul>');
+define('_AM_SYSTEM_USERRANK_TIPS_FORM1','<ul><li>Разрешенные типы файлов: %s</li>');
+define('_AM_SYSTEM_USERRANK_TIPS_FORM2','<li>Максимально допустимый размер загружаемого файла: %s kb</li></ul>');
 
 ?>

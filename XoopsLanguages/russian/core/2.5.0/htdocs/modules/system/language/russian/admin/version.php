@@ -1,8 +1,8 @@
 <?php
 // $Id: version.php 4091 2010-01-05 17:02:11Z forxoops $
-// _LANGCODE: en
+// _LANGCODE: ru
 // _CHARSET : UTF-8
-// Translator: XOOPS Translation Team
+// Translator:   2010-04-25 andrey3761
 
 //%%%%%%	Admin Module Name  Version 	%%%%%
 define("_AM_DBUPDATED",_AM_SYSTEM_DBUPDATED);
