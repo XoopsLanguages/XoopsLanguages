@@ -2,44 +2,44 @@
 /**
  * @copyright   The XOOPS Project http://sourceforge.net/projects/xoops/
  * @license     http://www.fsf.org/copyleft/gpl.html GNU public license
- * _LANGCODE    en
+ * _LANGCODE    ru
  * _CHARSET     UTF-8
- * @version     $Id: tplsets.php 4256 2010-02-01 05:36:43Z beckmi $
+ * Translator   2010-04-25 andrey3761
  */
  
  //Nav
-define('_AM_SYSTEM_TEMPLATES_NAV_MANAGER','Templates Manager');
-define('_AM_SYSTEM_TEMPLATES_NAV_MAIN','Templates Manager');
+define('_AM_SYSTEM_TEMPLATES_NAV_MANAGER','Менеджер шаблонов');
+define('_AM_SYSTEM_TEMPLATES_NAV_MAIN','Менеджер шаблонов');
 //Tips
 define('_AM_SYSTEM_TEMPLATES_NAV_TIPS','
 <ul>
-<li>Edit theme and modules templates, stylsheet online.</li>
-<li>Generate all overide modules templates.</li>
-<li>If you force generate, this will erase all previous modification.</li>
+<li>Редактируйте темы, шаблоны и стили модулей в интерактивном режиме.</li>
+<li>Генерируйте шаблоны для всех модулей.</li>
+<li>Если Вы будете использовать принудительную генерацию, то это отменит все придыдущие изменения.</li>
 </ul>
 ');
 
-define('_AM_SYSTEM_TEMPLATES_YOUR_THEMES','Your themes :');
-define('_AM_SYSTEM_TEMPLATES_GENERATE','Generated surcharge');
-define('_AM_SYSTEM_TEMPLATES_SELECT_THEME','Select theme');
-define('_AM_SYSTEM_TEMPLATES_FORCE_GENERATED','Forced file generation');
-define('_AM_SYSTEM_TEMPLATES_NAV_FILE_GENERATED','Files generated');
-define('_AM_SYSTEM_TEMPLATES_NOT_CREATED','No files created');
-define('_AM_SYSTEM_TEMPLATES_SAVE','Save');
-define('_AM_SYSTEM_TEMPLATES_RESTORE','Restore');
-define('_AM_SYSTEM_TEMPLATES_CANCEL','Cancel');
-define('_AM_SYSTEM_TEMPLATES_ERROR','Error');
-define('_AM_SYSTEM_TEMPLATES_EDIT','Edit of :');
-define('_AM_SYSTEM_TEMPLATES_SELECT_MODULES','Select Module');
-define('_AM_SYSTEM_TEMPLATES_MODULES','Modules : ');
-define('_AM_SYSTEM_TEMPLATES_FILES','Files');
+define('_AM_SYSTEM_TEMPLATES_YOUR_THEMES','Ваши темы :');
+define('_AM_SYSTEM_TEMPLATES_GENERATE','Генерация шаблонов');
+define('_AM_SYSTEM_TEMPLATES_SELECT_THEME','Выберите тему');
+define('_AM_SYSTEM_TEMPLATES_FORCE_GENERATED','Принудительная генерация');
+define('_AM_SYSTEM_TEMPLATES_NAV_FILE_GENERATED','Файлы сгенерированы');
+define('_AM_SYSTEM_TEMPLATES_NOT_CREATED','Файлы не созданы');
+define('_AM_SYSTEM_TEMPLATES_SAVE','Сохранить');
+define('_AM_SYSTEM_TEMPLATES_RESTORE','Востановление');
+define('_AM_SYSTEM_TEMPLATES_CANCEL','Отмена');
+define('_AM_SYSTEM_TEMPLATES_ERROR','Ошибка');
+define('_AM_SYSTEM_TEMPLATES_EDIT','Редактирование :');
+define('_AM_SYSTEM_TEMPLATES_SELECT_MODULES','Выберите модуль');
+define('_AM_SYSTEM_TEMPLATES_MODULES','Модули : ');
+define('_AM_SYSTEM_TEMPLATES_FILES','Файлы');
 define('_AM_SYSTEM_TEMPLATES_TYPES','Types');
-define('_AM_SYSTEM_TEMPLATES_STATUS','Status');
-define('_AM_SYSTEM_TEMPLATES_TEMPLATES','Templates');
-define('_AM_SYSTEM_TEMPLATES_BLOCKS','Blocks');
-define('_AM_SYSTEM_TEMPLATES_SELECT_TEMPLATES','Select Templates');
-define('_AM_SYSTEM_TEMPLATES_ALL_MODULES','All modules');
-define('_AM_SYSTEM_TEMPLATES_RESTORE_OK','Successfuly restored');
-define('_AM_SYSTEM_TEMPLATES_RESTORE_NOTOK','Successfuly not restored');
+define('_AM_SYSTEM_TEMPLATES_STATUS','Статус');
+define('_AM_SYSTEM_TEMPLATES_TEMPLATES','Шаблоны');
+define('_AM_SYSTEM_TEMPLATES_BLOCKS','Блоки');
+define('_AM_SYSTEM_TEMPLATES_SELECT_TEMPLATES','Выбор шаблонов');
+define('_AM_SYSTEM_TEMPLATES_ALL_MODULES','Все модули');
+define('_AM_SYSTEM_TEMPLATES_RESTORE_OK','Востановление прошло успешно');
+define('_AM_SYSTEM_TEMPLATES_RESTORE_NOTOK','Востановление закончилось неудачей');
 
 ?>
