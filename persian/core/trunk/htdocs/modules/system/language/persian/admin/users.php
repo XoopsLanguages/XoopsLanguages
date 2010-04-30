@@ -128,6 +128,7 @@ define("_AM_SYSTEM_USERS_LIST","فهرست");
 define("_AM_SYSTEM_USERS_NOUSERS", "هیچ عضوی انتخاب نشده است");
 define("_AM_SYSTEM_USERS_CNRNU2","کاربر جدید را نمی‌توان به %s اضافه کرد.");
 define("_AM_SYSTEM_USERS_SEARCH","جستجو");
+define("_AM_SYSTEM_USERS_SEARCH_USER","جستجوی کاربر :");
 define("_AM_SYSTEM_USERS_ADVANCED_SEARCH","جستجوی پیشرفته");
 define("_AM_SYSTEM_USERS_EDIT","ویرایش عضو");
 define("_AM_SYSTEM_USERS_DEL","حذف عضو");
@@ -140,4 +141,12 @@ define("_AM_SYSTEM_USERS_NO_FOUND","هیچ کاربری یافت نشد");
 define("_AM_SYSTEM_USERS_NOT_CONNECT","بدون اتصال");
 define("_AM_SYSTEM_USERS_FORM_SURE_DEL","حذف کاربر : %s");
 define("_AM_SYSTEM_USERS_FORM_SURE_DEL2","حذف");
+define("_AM_SYSTEM_USERS_NO_SUPP", "نمیتوان کاربر را حذف کرد: %s <br />");
+define("_AM_SYSTEM_USERS_NO_ADMINSUPP", "کاربر با دسترسی مدیر را نمیتوان حذف کرد: %s <br />");
+define("_AM_SYSTEM_USERS_ERROR", "خطا:<br /><br /> %s");
+define("_AM_SYSTEM_USERS_ALLGROUP", "همه گروه ها");
+define("_AM_SYSTEM_USERS_ALLUSER", "همه کاربران");
+define("_AM_SYSTEM_USERS_ACTIVEUSER", "فقط کاربران فعال");
+define("_AM_SYSTEM_USERS_INACTIVEUSER", "فقط کاربران غیر فعال");
+
 ?>

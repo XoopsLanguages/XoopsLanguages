@@ -16,18 +16,18 @@ define( '_AM_SYSTEM_MODULES_SUBMITRES', 'ارسال نتایج');
 
 // Messages
 define( '_AM_SYSTEM_MODULES_RUSUREINS', 'برای نصب ماژول دکمه‌ی زیر را بزنید');
-define( '_AM_SYSTEM_MODULES_RUSUREUNINS', 'آیا مطمئنید که می‌خواهید این ماژول را از نصب خارج کنید؟ (Uninstall)');
+define( '_AM_SYSTEM_MODULES_RUSUREUNINS', 'آیا مطمئنید که می‌خواهید این ماژول را از نصب خارج کنید؟');
 define( '_AM_SYSTEM_MODULES_RUSUREUPD', 'برای به روز کردن ماژول دکمه‌ی زیر را بزنید');
 define( '_AM_SYSTEM_MODULES_BTOMADMIN','بازگشت به صفحه‌ی اصلی مدیریت ماژول‌ها');
 define( '_AM_SYSTEM_MODULES_INSTALLING', 'نصب ');
-define( '_AM_SYSTEM_MODULES_UNINSTALL','خارج کردن از نصب (Uninstall)');
+define( '_AM_SYSTEM_MODULES_UNINSTAL','خارج کردن از نصب ');
 define( '_AM_SYSTEM_MODULES_DEACTIVATED','غیر فعال شده');
 define( '_AM_SYSTEM_MODULES_ACTIVATE','فعال کن');
 define( '_AM_SYSTEM_MODULES_UPDATING', 'به روز کن ');
 
 // Main
 define( '_AM_SYSTEM_MODULES_INSTALL', 'نصب' );
-define( '_AM_SYSTEM_MODULES_UNINSTALL', 'خارج کردن از نصب (Uninstall)' );
+define( '_AM_SYSTEM_MODULES_UNINSTALL', 'خارج کردن از نصب ' );
 define( '_AM_SYSTEM_MODULES_UPDATE', 'به روز کردن' );
 define( '_AM_SYSTEM_MODULES_VIEWLARGE', 'نمایش تصاویر' );
 define( '_AM_SYSTEM_MODULES_VIEWLINE', 'نمایش خطی' );
@@ -59,22 +59,22 @@ define( '_AM_SYSTEM_MODULES_HIDE', 'مخفی' );
 define( '_AM_SYSTEM_MODULES_SHOW', 'نمایش' );
 
 define( "_AM_SYSTEM_MODULES_DUPEN","ورود اطلاعات در جدول ماژول به صورت دوتایی انجام شده است");
-define( "_AM_SYSTEM_MODULES_DEACTED","ماژول انتخاب شده غیر‌فعال شد شما می‌توانید به سهولت ماژول را از نصب خارج کنید (uninstall)");
+define( "_AM_SYSTEM_MODULES_DEACTED","ماژول انتخاب شده غیر‌فعال شد شما می‌توانید به سهولت ماژول را از نصب خارج کنید");
 define( "_AM_SYSTEM_MODULES_ACTED","ماژول انتخاب شده فعال شد");
 define( "_AM_SYSTEM_MODULES_UPDTED","ماژول انتخاب شده به روز شد!");
 define( "_AM_SYSTEM_MODULES_SYSNO","ماژول سیستم را نمی‌توان غیر فعال کرد");
-define( "_AM_SYSTEM_MODULES_STRTNO","این ماژول به عنوان صفحه اول انتخاب شده است. لطفا در قسمت ویژگی‌ها (preferences) ماژول صفحه اول را به ماژولی که می‌خواهید عوض کنید.");
+define( "_AM_SYSTEM_MODULES_STRTNO","این ماژول به عنوان صفحه اول انتخاب شده است. لطفا در قسمت ویژگی‌ها ماژول صفحه اول را به ماژولی که می‌خواهید عوض کنید.");
 
 define( "_AM_SYSTEM_MODULES_ORDER","محل قرار‌گیری در منوی اصلی");
 define( "_AM_SYSTEM_MODULES_ORDER0","(0 = در منوی اصلی نشان داده نمی‌شود)");
-define( "_AM_SYSTEM_MODULES_ACTIVE","فعال (Active)");
-define( "_AM_SYSTEM_MODULES_INACTIVE","غیر‌فعال (Inactive)");
+define( "_AM_SYSTEM_MODULES_ACTIVE","فعال");
+define( "_AM_SYSTEM_MODULES_INACTIVE","غیر‌فعال");
 define( "_AM_SYSTEM_MODULES_NOTINSTALLED","نصب‌نشده");
 define( "_AM_SYSTEM_MODULES_NOCHANGE","بدون تغییر");
 define( "_AM_SYSTEM_MODULES_SUBMIT","ارسال");
 define( "_AM_SYSTEM_MODULES_CANCEL","انصراف");
 define( "_AM_SYSTEM_MODULES_DBUPDATE","پایگاه‌داده با موفقیت به روز شد!");
-define( '_AM_SYSTEM_MODULES_LISTUPBLKS', 'بلاک‌های زیر آپدیت شدند <br />انتخاب کنید که کدام یک از گزینه‌ها دوباره نویسی (Overwrite) شوند؟<br />');
+define( '_AM_SYSTEM_MODULES_LISTUPBLKS', 'بلاک‌های زیر آپدیت شدند <br />انتخاب کنید که کدام یک از گزینه‌ها دوباره نویسی  شوند؟<br />');
 define( '_AM_SYSTEM_MODULES_NEWBLKS', 'بلاک‌های جدید');
 define( '_AM_SYSTEM_MODULES_DEPREBLKS', 'بلاک‌های Deparced');
 
@@ -100,7 +100,9 @@ define( '_AM_SYSTEM_MODULES_TEMPLATES_DELETE', 'حذف تمپلیت ...');
 define( '_AM_SYSTEM_MODULES_TEMPLATES_UPDATE', 'به روز کردن تمپلیت ...');
 define( '_AM_SYSTEM_MODULES_TEMPLATE_ID', 'شماره تمپلیت: %s ');
 define( '_AM_SYSTEM_MODULES_TEMPLATE_ADD_DATA', 'تمپلیت %s به پایگاه‌های داده اضافه شد');
-define( '_AM_SYSTEM_MODULES_TEMPLATE_ADD_ERROR', 'خطا: ناتوان در وارد کردن تمپلیت %s به پایگاه‌های داده.');define( '_AM_SYSTEM_MODULES_TEMPLATE_COMPILED', 'تمپلیت %s تالیف شد ');define( '_AM_SYSTEM_MODULES_TEMPLATE_COMPILED_FAILED', 'خطا: اشکال در تالیف تمپلیت %s ');
+define( '_AM_SYSTEM_MODULES_TEMPLATE_ADD_ERROR', 'خطا: ناتوان در وارد کردن تمپلیت %s به پایگاه‌های داده.');
+define( '_AM_SYSTEM_MODULES_TEMPLATE_COMPILED', 'تمپلیت %s تالیف شد ');
+define( '_AM_SYSTEM_MODULES_TEMPLATE_COMPILED_FAILED', 'خطا: اشکال در تالیف تمپلیت %s ');
 define( '_AM_SYSTEM_MODULES_TEMPLATE_DELETE_DATA', 'تمپلیت %s از پایگاه‌های‌دادهحذف شد. ');
 define( '_AM_SYSTEM_MODULES_TEMPLATE_DELETE_DATA_FAILD', 'خطا: ناتوان در حذف تمپلیت %s از پایگاه‌های‌داده. ');
 define( '_AM_SYSTEM_MODULES_TEMPLATE_INSERT_DATA', 'تمپلیت %s به پایگاه‌های‌داده وارد شد. ');
