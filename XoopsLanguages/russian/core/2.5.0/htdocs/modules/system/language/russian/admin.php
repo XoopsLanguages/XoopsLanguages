@@ -26,45 +26,45 @@ define('_AM_SYSTEM_AVATAR_INFO', 'Существуют <span class="bold">%s</sp
 
 // Admin Module Names and description
 define( '_AM_SYSTEM_ADGS', 'Группы');
-define( '_AM_SYSTEM_ADGS_DESC', 'Вы можете добавлять различные группы<br />пользователей и управлять правами доступа<br />для каждой группы');
+define( '_AM_SYSTEM_ADGS_DESC', 'Вы можете добавлять <br /> и редактировать группы пользователей.');
 define( '_AM_SYSTEM_BANS', 'Банеры');
-define( '_AM_SYSTEM_BANS_DESC', 'You can manage your <br /> banners from here');
-define( '_AM_SYSTEM_BLOCKS', 'Blocks' );
-define( '_AM_SYSTEM_BLOCKS_DESC', 'With blocks you can <br /> add many thing for <br /> your users' );
-define( '_AM_SYSTEM_MODULES', 'Modules' );
-define( '_AM_SYSTEM_MODULES_DESC', 'At here you can install <br /> and unistall your xoops <br /> modules. Do you know <br /> what module is ?' );
-define( '_AM_SYSTEM_SMLS', 'Smilies');
-define( '_AM_SYSTEM_SMLS_DESC', 'You and your users can use <br /> this smilies in your posts , <br /> pms , comments and ...');
-define( '_AM_SYSTEM_RANK', 'User Ranks');
-define( '_AM_SYSTEM_RANK_DESC', 'You can add ranks <br /> for your users');
-define( '_AM_SYSTEM_USER', 'Users');
-define( '_AM_SYSTEM_USER_DESC', 'With this options you <br /> can add new user or <br /> edit old user and userinfo, <br /> change groupss and many <br /> other things');
-define( '_AM_SYSTEM_PREF', 'Preferences');
-define( '_AM_SYSTEM_PREF_DESC', 'Xoops and all of your <br /> modules have a preferences <br /> for manage module options');
-define( '_AM_SYSTEM_MLUS', 'Mail Users');
-define( '_AM_SYSTEM_MLUS_DESC', 'If you need send mail <br /> or mp for your users, <br /> you can use this option');
-define( '_AM_SYSTEM_IMAGES', 'Image Manager');
-define( '_AM_SYSTEM_IMAGES_DESC', 'You can add your image <br /> here and make some <br /> Category for yourself');
-define( '_AM_SYSTEM_AVATARS', 'Avatars' );
-define( '_AM_SYSTEM_AVATARS_DESC', 'Add some avatars for your <br /> users, they can use this <br /> avatars on them profiles' );
-define( '_AM_SYSTEM_TPLSETS', 'Templates');
-define( '_AM_SYSTEM_TPLSETS_DESC', 'If you need add some changes <br /> in core or modules template use <br /> this options for create theme override');
-define( '_AM_SYSTEM_COMMENTS', 'Comments');
-define( '_AM_SYSTEM_COMMENTS_DESC', 'Your users add some Comments <br /> on your website, for your news, <br /> photos , weblog post links and ... <br /> manage user comments from here');
-define( '_AM_SYSTEM_FILEMANAGER', 'File Manager');
-define( '_AM_SYSTEM_FILEMANAGER_DESC', 'You can add some changes <br /> in any file inside your xoops');
-define( '_AM_SYSTEM_MAINTENANCE', 'Maintenance');
-define( '_AM_SYSTEM_MAINTENANCE_DESC', 'Maintenance tools for database tables, <br /> clean cache folder and session table');
+define( '_AM_SYSTEM_BANS_DESC', 'Здесь Вы можете <br /> управлять банерами.');
+define( '_AM_SYSTEM_BLOCKS', 'Блоки' );
+define( '_AM_SYSTEM_BLOCKS_DESC', 'Создание и добавление <br /> инфомационных блоков блоков <br /> для пользователей.' );
+define( '_AM_SYSTEM_MODULES', 'Модули' );
+define( '_AM_SYSTEM_MODULES_DESC', 'Установка, удаление <br /> и управление модлями.' );
+define( '_AM_SYSTEM_SMLS', 'Смайлики');
+define( '_AM_SYSTEM_SMLS_DESC', 'Вы и Ваши плользователи <br /> могут использовать эти смайлики...');
+define( '_AM_SYSTEM_RANK', 'Ранги пользователей');
+define( '_AM_SYSTEM_RANK_DESC', 'Здесь Вы сможете <br /> добавлять рангди <br /> для пользователей.');
+define( '_AM_SYSTEM_USER', 'Редактирование пользователей');
+define( '_AM_SYSTEM_USER_DESC', 'Здесь Вы сможете <br /> добавлять, редактировать <br /> и удалять пользователей. <br /> Назначить пользователю <br /> группы и ранг.');
+define( '_AM_SYSTEM_PREF', 'Конфигурация');
+define( '_AM_SYSTEM_PREF_DESC', 'Центр управления Вашим сайтом<br /> настраивайте системные модули,<br /> настраивайте параметры системы.');
+define( '_AM_SYSTEM_MLUS', 'E-mail для пользователей');
+define( '_AM_SYSTEM_MLUS_DESC', 'Если Вам необходимо <br /> отправить почту или ЛС <br /> пользователям, Вы сможете <br /> это сделать сдесь.');
+define( '_AM_SYSTEM_IMAGES', 'Менеджер изображений');
+define( '_AM_SYSTEM_IMAGES_DESC', 'Здесь Вы сможете управлять изображениями,<br /> создавать категории и устанавливать права доступа к ним.');
+define( '_AM_SYSTEM_AVATARS', 'Аватары' );
+define( '_AM_SYSTEM_AVATARS_DESC', 'Добавьте аватары для <br /> пользователей. Они смогут <br /> выбрать их в профиле.' );
+define( '_AM_SYSTEM_TPLSETS', 'Шаблоны');
+define( '_AM_SYSTEM_TPLSETS_DESC', 'Если Вам необходимо сделать <br /> изменения в шаблонах, <br /> сделайте это здесь.');
+define( '_AM_SYSTEM_COMMENTS', 'Комментарии');
+define( '_AM_SYSTEM_COMMENTS_DESC', 'Ваши пользователи могут <br /> добавлять коментарии к новостям, <br /> вебблогам и т.д... Здесь Вы можете <br /> управлять коментариями.');
+define( '_AM_SYSTEM_FILEMANAGER', 'Менеджер файлов');
+define( '_AM_SYSTEM_FILEMANAGER_DESC', 'Здесь Вы сможете управлять всеми<br /> файлами своего сайта');
+define( '_AM_SYSTEM_MAINTENANCE', 'Техническое обслуживание');
+define( '_AM_SYSTEM_MAINTENANCE_DESC', 'Инструменты для работы с таблицами базы данных,<br /> очистка папок кэша и сесий');
 
 // Messages
-define('_AM_SYSTEM_DBUPDATED', 'Database Updated Successfully!');
-define('_AM_SYSTEM_DBERROR', 'Database was not updated due to some error!');
-define('_AM_SYSTEM_NOTACTIVE', 'This section is not active!');
+define('_AM_SYSTEM_DBUPDATED', 'База данных успешно обновлена!');
+define('_AM_SYSTEM_DBERROR', 'База данных не была обновлена в связи с  ошибками!');
+define('_AM_SYSTEM_NOTACTIVE', 'Эта секция не активирована!');
 
 // Group permission phrases
-define('_MD_AM_PERMADDNG', 'Could not add %s permission to %s for group %s');
-define('_MD_AM_PERMADDOK', 'Added %s permission to %s for group %s');
-define('_MD_AM_PERMRESETNG', 'Could not reset group permission for module %s');
-define('_MD_AM_PERMADDNGP', 'All parent items must be selected.');
+define('_MD_AM_PERMADDNG', 'Невозможно добавить права %s в %s для группы %s');
+define('_MD_AM_PERMADDOK', 'Права %s в %s для группы %s успешно добавлены');
+define('_MD_AM_PERMRESETNG', 'Невозможно сбросить права группы для модуля %s');
+define('_MD_AM_PERMADDNGP', 'Должны быть выбраны все родительские записи.');
 
 ?>
