@@ -1,6 +1,6 @@
 <?php
 // $Id: modinfo.php 4208 2010-01-25 23:10:18Z kraven30 $
-// _LANGCODE: en
+// _LANGCODE: ru
 // _CHARSET : UTF-8
 // Translator: 2010-05-01 andrey3761
 
