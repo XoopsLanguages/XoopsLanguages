@@ -1,7 +1,8 @@
 Hej {X_UNAME}!
 
 En webbanvändare från {IP} har begärt ett nytt lösenord för ditt konto på {SITENAME}.
-Du kan få ditt lösenord genom att klicka på länken nedan:
+
+För att bekräfta att du vill ha ett nytt lösenord, vänligen klicka på länken nedan, så skickas ett e-postmeddelande med ditt nya lösenord till dig.
 {NEWPWD_LINK}
 
 Om du inte begärde det här behöver du inte vidta några åtgärder, utan kan radera det här meddelandet.
