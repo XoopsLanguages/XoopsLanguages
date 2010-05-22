@@ -8,7 +8,7 @@ table.toptable,table.maintable,table.footertable,.itemTitle a,.itemPoster,.foot,
 	text-align: right !important;
 }
 
-table,.formButton,.comUserName,th,div#content,div#forum_header,p.desc,tr.head td
+.formButton,.comUserName,th,div#content,div#forum_header,p.desc,tr.head td
 	{
 	direction: rtl !important;
 	text-align: right !important;
@@ -19,7 +19,7 @@ div#xo-logger-output,div#xo-logger-tabs {
 	text-align: left !important;
 }
 
-body td,p,div,a:link,a:active,a:visited,a:hover,h1,h2,h4,.item,.itemHead,th,.comTitle,.comUserStat,.blockTitle,.blockContent
+body td,p,a:link,a:active,a:visited,a:hover,h1,h2,h4,.item,.itemHead,th,.comTitle,.comUserStat,.blockTitle,.blockContent
 	{
 	direction: rtl !important;
 }
