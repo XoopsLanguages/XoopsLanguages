@@ -68,7 +68,7 @@ class XoopsLocal extends XoopsLocalAbstract
      */
     function money_format($format, $number)
     {
-        setlocale(LC_MONETARY, 'ar');
+        setlocale(LC_MONETARY, 'en_US');
         return money_format($format, $number);
     }
 }
