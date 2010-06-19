@@ -1,10 +1,38 @@
 XOOPS Changelog
+
+
+===============================
+2010/06/19: Version 2.4.5 RC3
+===============================
+- Reverted calendar realted functionality to XOOPS 2.3 series due to license conflicts (phppp/mamba)
+- Improved file inclusion for Framework in XoopsLoad: stop including a file if it is not detected (phppp)
+
+===============================
+2010/05/22: Version 2.4.5 RC2
+===============================
+Updates upon community:
+- Reverted: Added Support for unicode object vars (trabis)
+- Added: .htaccess into uploads folder for extra security (mamba)
+- Fixed: _CM_RE renamed to _RE (trabis/mowaffaq)
+
+===============================
+2010/02/10: Version 2.4.5 RC
+===============================
+Updates upon community:
+- Fixed: Flash banners are not displayed in the expected position (kris_fr/trabis)
+- Improved current link in system block : mainmenu and usermenu (trabis/kris_fr)
+- Reverted: Support for unicode object vars, reverting object behavior to 2.3.x (trabis)
+- Reverted: Changes in module textsanitizer related to the code box fix (trabis)
+
+Removed Language defines:
+- Please refer to modules/profile/changelog.txt (trabis)
+
 ===============================
 2010/02/04: Version 2.4.5 beta
 ===============================
 Updates upon community:
-Fixed: Adding missing constructor classes for php4 compatibility
-Fixed: Problems with & a m p ; character
+- Fixed: Adding missing constructor classes for php4 compatibility (trabis)
+- Fixed: Problems with & a m p ; character (trabis)
 
 
 ===============================
