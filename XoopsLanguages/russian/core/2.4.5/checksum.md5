@@ -171,7 +171,7 @@ class/mail/phpmailer/language/phpmailer.lang-nl.php:f16deb5ae7099cbb655df0dfefb2
 class/mail/phpmailer/language/phpmailer.lang-no.php:0ba3da5cc39844b3c52c15eb25bff87d
 class/mail/phpmailer/language/phpmailer.lang-pl.php:c852a96bc91277a20c583334e413e7f3
 class/mail/phpmailer/language/phpmailer.lang-ro.php:3a71314885266365662a94fdfcce4db6
-class/mail/phpmailer/language/phpmailer.lang-ru.php:d6cab73dfe93f6098601ff670a8c050a
+class/mail/phpmailer/language/phpmailer.lang-ru.php:be16a5faa30a568fabd1185f3585c7b0
 class/mail/phpmailer/language/phpmailer.lang-se.php:e0d8fff18a2dc8a2474646294045e465
 class/mail/phpmailer/language/phpmailer.lang-tr.php:d534d8209d8425138f497ef45f73b003
 class/model/index.html:e1aedf4e788d40c9dbb4f2520f8feffd
@@ -3536,10 +3536,10 @@ xoops_lib/modules/protector/language/portuguesebr/admin.php:cad19bc00eae35aea474
 xoops_lib/modules/protector/language/portuguesebr/index.html:e1aedf4e788d40c9dbb4f2520f8feffd
 xoops_lib/modules/protector/language/portuguesebr/main.php:2abdd45ecd7087128cf66ebf05990139
 xoops_lib/modules/protector/language/portuguesebr/modinfo.php:e152ee4e0b8c3d34e7572b19b38ead40
-xoops_lib/modules/protector/language/russian/admin.php:56114e201dad7b3ab5e6cb7fe3325752
+xoops_lib/modules/protector/language/russian/admin.php:8c931b0271b433d9037419585a49d169
 xoops_lib/modules/protector/language/russian/index.html:e1aedf4e788d40c9dbb4f2520f8feffd
-xoops_lib/modules/protector/language/russian/main.php:545618b569f3783067f7a5a155465033
-xoops_lib/modules/protector/language/russian/modinfo.php:fa75cfe3902d9ebb803c412330952a2b
+xoops_lib/modules/protector/language/russian/main.php:8a4904f8f5e4bd735fb176405887d7be
+xoops_lib/modules/protector/language/russian/modinfo.php:2552da40c3d200236425c3c36be3c40e
 xoops_lib/modules/protector/language/schinese_utf8/admin.php:93e9c5a1f77ab0f3d852be313eace29c
 xoops_lib/modules/protector/language/schinese_utf8/index.html:e1aedf4e788d40c9dbb4f2520f8feffd
 xoops_lib/modules/protector/language/schinese_utf8/main.php:5daf014a609364dd6c0c97c3007df3c8
