@@ -21,7 +21,7 @@
 
 error_reporting( 0 );
 
-header( "Content-type: text/plain" );
+header( "Content-type: text/plain; charset=utf-8" );
 
 $md5_file = "./checksum.md5";
 $root = ( is_dir("./htdocs") ? "./htdocs" : "." );
@@ -31,8 +31,8 @@ if ( isset($_GET["root"]) && false === strpos($_GET["root"], "..") ) {
 }
 $num_files = check_folder($root);
 
-echo "There are {$num_files} files checked.\n";
-echo "Please remove the file $md5_file and ".basename(__FILE__)." as soon as possible.\n";
+echo "Было проверенно {$num_files} файлов.\n";
+echo "Пожалуйста удалите файлы $md5_file и " . basename(__FILE__) . " как можно скорее.\n";
 
 function check_file ($line, $path = ".") 
 {
@@ -43,12 +43,12 @@ function check_file ($line, $path = ".")
 		$file = $path."/".$file;
 	}
 	if ( !file_exists( $file ) ) {
-		echo "$file missing !\n";
+		echo "$file отсутствует !\n";
 	} else {
 		$txt = file_get_contents( "$file" );
 		$txt = str_replace( array( "\r\n", "\r" ), "\n", $txt );
 		if ( md5($txt) != $sum ) {
-			echo "$file content invalid\n";
+			echo "$file неправильное содержимое\n";
 		}
 	}
 }
@@ -57,7 +57,7 @@ function check_folder( $path = '.', $recursive = false ) {
     global $md5_file;
 	$num_files = 0;
     if ( !is_file( $md5_file ) || !is_readable( $md5_file ) ) {
-    	echo "$md5_file file not found.\n";
+    	echo "Файл $md5_file не найден.\n";
     	return false;
     }
     $sums = explode( "\n", rtrim( file_get_contents( $md5_file ) ) );
