@@ -35,10 +35,17 @@ $menu[] = array(
 */
 
 $menu[] = array(
-    'link'      => 'http://xoops2.ru',
+    'link'      => 'http://xoops2.ru/',
     'title'     => 'Русскоязычная техподдержка',
     'absolute'  => 1,
-    'icon'      => XOOPS_URL . '/modules/system/class/gui/oxygen/images/xoops.png'
+    'icon'      => XOOPS_URL . '/modules/system/class/gui/oxygen/img/xoops.png'
+);
+
+$menu[] = array(
+    'link'      => 'http://xoops.ws/',
+    'title'     => 'Приднестровская техподдержка',
+    'absolute'  => 1,
+    'icon'      => XOOPS_URL . '/modules/system/class/gui/oxygen/img/xoops.ws.png'
 );
 
 return $menu;
