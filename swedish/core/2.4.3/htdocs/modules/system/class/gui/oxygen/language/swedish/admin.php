@@ -15,7 +15,7 @@ define('_SOURCEFORGE','Sourceforge');
 define('_MD_OXYGEN_VERSION','Version');
 define('_MD_OXYGEN_VERSION_XOOPS','XOOPS-version');
 define('_MD_OXYGEN_VERSION_PHP','PHP-version');
-define('_MD_OXYGEN_VERSION_MYSQL','mySQL-ersion');
+define('_MD_OXYGEN_VERSION_MYSQL','mySQL-version');
 define('_MD_OXYGEN_Server_API','Server-API');
 define('_MD_OXYGEN_OS','OS');
 define('_MD_OXYGEN_ABOUT','Om XOOPS');
