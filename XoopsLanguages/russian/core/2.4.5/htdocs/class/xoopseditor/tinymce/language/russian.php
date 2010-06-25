@@ -8,17 +8,17 @@
  * @subpackage	xoopseditor
  * @since       2.3.0
  * @author		Taiwen Jiang <phppp@users.sourceforge.net>
- * @version		$Id: english.php 2154 2008-09-22 02:38:32Z phppp $
+ * @version		$Id: english.php 4864 2010-06-16 05:57:08Z luciorota $
  */
 /*
  * Assocated with editor_registry.php
  */
-// _LANGCODE: ru
+ // _LANGCODE: ru
 // _CHARSET : UTF-8
 // Translator: andrey3761
 
 // Name of the editor
-define("_XOOPS_EDITOR_TINYMCE", "TinyMCE");
+define("_XOOPS_EDITOR_TINYMCE", "TinyMCE v3.3.7");
 
 // The value must be the same as /tinymce/jscripts/langs/your_language_code, for example, "en" for English, "fr" for French
 // For details, check http://tinymce.moxiecode.com/download_i18n.php
