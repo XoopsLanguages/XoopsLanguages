@@ -1,0 +1,123 @@
+/* $Id$ */ /* Localization stylesheet */
+	/*============= Style for blocks left columns ===========*/
+#xo-canvas-leftcolumn .xo-blockcontent {
+	padding-right: 16px !important;
+}
+
+/*============= Style for lists =========================*/
+#xo-canvas-content ul {
+	text-align: right !important;
+}
+
+/*============= Style for tinymce editor ( for rtl ) ====*/
+body.mceContentBody {
+	text-align: right !important;
+}
+
+/*============= Style for show banner image to left =====*/
+#xo-banner {
+	text-align: left !important;
+}
+
+/*=== if you use persian language folder in your themes you have to use this code for rtl user side ===*/
+body,table td,.comDate,p,.admin_menu,.admin_menu a,.admin_menu_thumb a,.admin_menu_thumb,.button,.checkbox,.listbox,.sortorder_options,form
+	{
+	font-family: Tahoma !important;
+}
+
+table.toptable,table.maintable,table.footertable,.itemTitle a,.itemPoster,.foot,th a:link,th a:active,th a:visited,.headerlogo,td.sideboxcontent
+	{
+	direction: rtl !important;
+}
+
+.sCommentThread,.sCommentRank {
+	text-align: right !important;
+}
+
+table,.formButton,.comUserName,th,div#content,div#forum_header,p.desc,tr.head td
+	{
+	direction: rtl !important;
+	text-align: right !important;
+}
+
+div#xo-logger-output,div#xo-logger-tabs {
+	direction: ltr !important;
+	text-align: left !important;
+}
+
+body td,p,div,a:link,a:active,a:visited,a:hover,h1,h2,h4,.item,.itemHead,th,.comTitle,.comUserStat,.blockTitle,.blockContent
+	{
+	direction: rtl !important;
+	font-family: Tahoma !important;
+}
+
+input,select,textarea,.itemTitle,.itemStats,.outer,.head,.even,.odd,div.confirmMsg,div.xoopsQuote,td#mainmenu a,td#usermenu a,tr.even td,tr.odd td,td#content
+	{
+	direction: rtl !important;
+	font-family: Tahoma !important;
+	text-align: right !important;
+}
+
+.itemBody,.itemText,.comText {
+	direction: rtl !important;
+	font-family: Tahoma !important;
+	text-align: Justify !important;
+}
+
+/* =================== for Titles =================== */
+ul {
+	padding-left: 0 !important;
+	padding-right: 10px !important;
+	text-align: right !important;
+	font-family: Tahoma !important;
+	direction: rtl !important;
+	margin-left: 0 !important;
+	margin-right: 10px !important;
+}
+
+ol {
+	padding-left: 0 !important;
+	padding-right: 10px !important;
+	margin-left: 0 !important;
+	margin-right: 10px !important;
+}
+
+ul ul {
+	margin-left: 0 !important;
+	margin-right: 10px !important;
+}
+
+ol ol {
+	margin-left: 0 !important;
+	margin-right: 12px !important;
+}
+
+li {
+	padding-left: 0 !important;
+	padding-right: 3px !important;
+	margin-left: 0 !important;
+	margin-right: 4px !important;
+}
+
+/* ========== styles used in the  article  of contents (exemple : news) ============*/
+.itemPostDate,.itemInfo,.itemFoot {
+	font-family: Tahoma !important;
+	direction: rtl !important;
+	text-align: left !important;
+}
+
+/* ===== core messages ===== */
+div.xoopsCode {
+	font-family: Tahoma !important;
+	direction: ltr !important;
+}
+
+/*=========== for main menu and user menu ===========*/
+td#mainmenu a.menuSub {
+	padding-right: 10px !important;
+}
+
+/*================== for block ======================*/
+.footerbar {
+	text-align: center !important;
+}
