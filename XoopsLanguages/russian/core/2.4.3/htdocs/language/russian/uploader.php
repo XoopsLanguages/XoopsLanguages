@@ -37,10 +37,10 @@ define('_ER_UP_FAILEDOPENDIRWRITE', 'Ошибка открытия папки с
 define('_ER_UP_FILESIZETOOLARGE', 'Размер файла слишком большой (Максимум %u байт): %u байт');
 define('_ER_UP_FILEWIDTHTOOLARGE', 'Ширина рисунка слишком велика (Максимум %u px): %u px');
 define('_ER_UP_FILEHEIGHTTOOLARGE', 'Высота рисунка слишком велика (Максимум %u px): %u px');
-define('_ER_UP_MIMETYPENOTALLOWED', 'MIME-тип не разрешен: %s');
+define('_ER_UP_MIMETYPENOTALLOWED', 'MIME-тип не разрешён: %s');
 define('_ER_UP_FAILEDUPLOADFILE', 'Ошибка при загрузке файла: %s');
 define('_ER_UP_FAILEDFETCHIMAGESIZE', 'Ошибка приведения размеров рисунка %s, пропуск проверки максимальных размеров...');
-define('_ER_UP_UNKNOWNFILETYPEREJECTED', 'Отклонен неизвестный тип файла');
+define('_ER_UP_UNKNOWNFILETYPEREJECTED', 'Отклонён неизвестный тип файла');
 define('_ER_UP_ERRORSRETURNED', 'Ошибки в процессе загрузки файла: %s');
 define('_ER_UP_INVALIDIMAGEFILE', 'Неверный файл рисунка');
 define('_ER_UP_SUSPICIOUSREFUSED', 'Загрузка подозрительного изображения отклонена');
