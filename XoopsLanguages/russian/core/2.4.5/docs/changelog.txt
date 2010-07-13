@@ -2,6 +2,12 @@ XOOPS Changelog
 
 
 ===============================
+2010/06/26: Version 2.4.5 Final
+===============================
+- Formulated coding style and restored author/copyright information in header blocks (phppp)
+- Fixed bug #3025455: return value was missing in {@XoopsObject} getVar method (phppp/catzwolf)
+
+===============================
 2010/06/19: Version 2.4.5 RC3
 ===============================
 - Reverted calendar realted functionality to XOOPS 2.3 series due to license conflicts (phppp/mamba)
