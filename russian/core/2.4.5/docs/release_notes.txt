@@ -1,15 +1,14 @@
-XOOPS 2.4.5 RC3 Release
+XOOPS 2.4.5 Final Release
 
-The XOOPS Development Team is pleased to announce the release of XOOPS 2.4.5 RC3.
+The XOOPS Development Team is pleased to announce the release of XOOPS 2.4.5 Final.
 
-This release is mainly for further bugfix, as well as removing calendar related code that causes license conflicts.
-TinyMCE editor has been upgraded to 3.3.7 (thanks goes to Lucio Rota).
-Please check changelog for details.
+This release is mainly for bugfixes and cleaning up conflicts in previous 2.4 series.
+Some features including tinyMCE/ckeditor editors are improved.
+Please check changlog for details.
+ 
+Some known issues will be addressed in XOOPS 2.4.6, which is very likely the last version in XOOPS 2.4 series mainly for code cleaning up.
 
-This release intended to be the last RC release before 2.4.5 final release. Some known issues will be addressed in XOOPS 2.4.6, which is very likely the last version in XOOPS 2.4 series mainly for code cleaning up.
-And we would advise module developers not use classes/methods introduced in 2.4 series before code cleaning up is done in 2.4.6.
-
-Download from [url=https://sourceforge.net/projects/xoops/files/XOOPS%20Core%20%28Beta%20Releases%29/]Sourceforge repository[/url].
+Download from [url=https://sourceforge.net/projects/xoops/files/XOOPS%20Core%20%28stable%20releases%29/]Sourceforge repository[/url].
 
 
 System requirements
@@ -159,4 +158,4 @@ Release announcement: https://lists.sourceforge.net/lists/listinfo/xoops-announc
 
 
 XOOPS Development Team
-June 19th, 2010 
+July 12th, 2010 
