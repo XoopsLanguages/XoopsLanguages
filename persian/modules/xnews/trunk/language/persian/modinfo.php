@@ -187,11 +187,28 @@ define("_MI_NW_CLONER", "تکثیر");
 
 define("_MI_NW_LATESTNEWS_BLOCK", "بلاک آخرین اخبار");
 
-// Added in version 1.68
+// Added in version 1.68 BETA
 define("_MI_NW_TOPICDISPLAY", "نمایش سرفصل ها ");
 define("_MI_NW_TOPICDISPLAYDESC", "این گزینه نمایش عنوان سرفصل اخبار در عنوان هدر را فعال و غیر فعال میکند");
 
 define("_MI_NW_SEOENABLE", "فعال کردن SEO ");
-define("_MI_NW_SEOENABLEDESC", "این گزینه SEO را فعال یا غیر فعال میکند");
+define("_MI_NW_SEOENABLEDESC", "این بخش قابلیت SEO را فعال/غیر فعال میکند.<br /> اگر <b>htaccess</b> انتخاب شود لینک به صورت زیر است: <br /> http://your.site.com/<b>xnews</b>/topics.1/your-topic-title.html <br /> اگر <b> path-info </b> انتخاب شود لینک به صورت زیر است: <br /> http://your.site.com/modules/xnews/index.php/topics.1/your-topic-title.html");
 
+// Added in version 1.68 RC1
+define("_MI_NW_EXTEND_META_DATA", "گسترش متا داده های ورودی");
+define("_MI_NW_EXTEND_META_DATA_DESC", "این قسمت بین متن و محل متن قرار میگیرد تا کاربرا بتواند گسترش متا داده های ورودی را مدیریت کند.<br /> برای هر دو بخش توضیع و کلمات کلیدی.");
+
+define("_MI_NW_NONE", "نمایش نده");
+define("_MI_NW_TOPONLY", "فقط در بالا");
+define("_MI_NW_BOTTOMONLY", "فقط در پایین");
+define("_MI_NW_BOTH", "هر دو");
+define("_MI_NW_DISPLAYLINKICNS", "نمایش آیکن ها");
+define("_MI_NW_DISPLAYLINKICNSDESC", "نمایش آیکن چاپ و پی دی اف و تماس با دوستان در بالا یا پایین یا هر دو قسمت خبر");
+
+define("_MI_NW_SEOPATH", "مسیر SEO");
+define("_MI_NW_SEOPATHDESC", "میتوانید عنوانی برای لینک SEO در هر دو روش <b>htaccess</b> و <b>path-info</b> انتخاب کنید. <br /> اگر این بخش را خالی بگذارید لینک به صورت زیر است: <br /> http://your.site.com/topics.1/your-topic-title.html <br /> اگر عبارت <b>news</b> را وارد کنید لینک به صورت زیر میشود: <br /> http://your.site.com/<b>news</b>/topics.1/your-topic-title.html <br /><br /> <b>کارکتر های a-z و منها قابل قبول است . مثال : news-of-day</b>");
+define("_MI_NW_SEOLEVEL", "سطح SEO");
+define("_MI_NW_SEOLEVELDESC", "شما میتوایند انتخاب کنید که htaccess را در شاخه اصلی زوپس داشته باشید یا هر ماژول. <br /> ابن تنظیم ظاهر آدرس را تغییر میدهد . <br /> برپایه هسته: <br /> http://your.site.com/news/topics.1/your-topic-title.html <br /> برپایه ماژول: <br /> http://your.site.com/modules/xnews/news.topics.1/your-topic-title.html<br /><br /> این تنظیم فقط در حالت htaccess کار میکند و htaccess باید متناسب با این روش نصب شده باشد.");
+define("_MI_NW_MODULE_LEVEL", "برپایه ماژول");
+define("_MI_NW_ROOT_LEVEL", "برپایه هسته");
 ?>

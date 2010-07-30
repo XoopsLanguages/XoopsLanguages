@@ -204,7 +204,7 @@ define("_AM_NW_CLONER_DIRFOL", "مسیر/پوشه");
 define("_AM_NW_CLONER_VERSION", "نسخه");
 
 define("_AM_NW_CLONER_NEWNAME", "نام ماژول جدید");
-define("_AM_NW_CLONER_NEWNAMEDESC", "This will also affect the creation of the new module folder. <br /> Case sensitivity and spaces are ignored and will be auto corrected. <br /> eg. new name = <b>Library</b> new dir  = <b>library</b>, <br /> new name <b>My Library</b> new dir = <b>mylibrary</b>. <br /><br /> نام ماژول فعلی: <font color='#008400'><b> %s </b></font><br />");
+define("_AM_NW_CLONER_NEWNAMEDESC", "این قسمت یک پوشه جدید برای ماژول ایجاد میکند. <br /> حساسیت ها و نام های نا صحیح به طور خودکار اصلاح میشود. <br /> به طور مثال. نام جدید = <b>Library</b> شاخه جدید  = <b>library</b>, <br /> نام جدید <b>My Library</b> شاخه جدید = <b>mylibrary</b>. <br /><br /> نام ماژول فعلی: <font color='#008400'><b> %s </b></font><br />");
 define("_AM_NW_CLONER_NEWNAMELABEL", "ماژول جدید:");
 
 define("_AM_NW_CLONER_DIREXISTS", "مسیر/شاخه '%s' هم اکنون موجود است !!");
@@ -225,4 +225,17 @@ define("_AM_NW_CLONER_IMPORTNEWSDESC2", "این گزینه زمانی فعال �
                                          اگر شما هم اکنون اطلاعات را از ماژول اخبار منتقل کرده اید از این بخش خارج شود.");
 define("_AM_NW_CLONER_IMPORTNEWSSUB", "وارد کردن");
 define("_AM_NW_CLONER_NEWSIMPORTED", "اطلاعات ماژول اصلی اخبار هم اکنون منتقل شذ");
+
+// Added in version 1.68 Beta
+define("_AM_NW_DESCRIPTION", "<H3>ماژول xNews نسخه تکثیر شونده ماژول News</H3> 
+							  کاربران میتوانند خبر یا نظر ارسال کنند . این ماژول میتواند تکثیر شود و با یک روش امکان استفاده های متفاوت را فراهم کند . همچنین علاوه بر اخبار برای استفاده های دیگر هم مناسب است . و میتوانید آن را با استفاده از عنوان ها و بلاک ها و تنظیمات  شخصی سازی کنید. ");
+
+// Added in version 1.68 RC1
+define("_AM_NW_CLONER_CLONEDELETED", "کلون '%s' با موفقیت حذف شد .");
+define("_AM_NW_CLONER_CLONEDELETEDERR", "کلون '%s' حذف نشد . لطفا دسترسی ها را برسی کنید");
+define("_AM_NW_CLONER_CLONEUPGRADED", "به روز شده");
+define("_AM_NW_CLONER_UPGRADEFORCE", "آپگرید اجباری");
+define("_AM_NW_CLONER_CLONEDELETION", "حذف کلون");
+define("_AM_NW_CLONER_SUREDELETE", "آیا اطمینان دارید که میخواهید کلون <font color='#000000'>'%s'</font> را حذف کنید؟<br />");
+define("_AM_NW_CLONER_CLONEID", "ID کلون تنظیم نشده است !"); 
 ?>
