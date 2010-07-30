@@ -1,29 +1,7 @@
 <?php
-/*
- You may not change or alter any portion of this comment or credits
- of supporting developers from this source code or any supporting source code 
- which is considered copyrighted (c) material of the original comment or credit authors.
- 
- This program is distributed in the hope that it will be useful,
- but WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
-*/
-
-/**
- *  Xoops Language
- *
- * @copyright       The XOOPS Project http://sourceforge.net/projects/xoops/
- * @license         http://www.fsf.org/copyleft/gpl.html GNU public license
- * @package         kernel
- * @subpackage      Xoops Notification Language
- * @since           2.0.0
- * @author          Kazumi Ono <onokazu@xoops.org>
- * @version         $Id: notification.php $
- */
-defined('XOOPS_ROOT_PATH') or die('Restricted access');
-
+// $Id: notification.php $
 // _LANGCODE: ja
-// _CHARSET : UTF-8
+// _CHARSET : EUC-JP
 // Translator: XOOPS Translation Team
 // RMV-NOTIFY
 // Text for various templates...
@@ -59,9 +37,10 @@ define('_NOT_NOTIFICATION', 'イベント通知機能');
 define('_NOT_CONFIG_ENABLED', 'イベント通知機能の設定');
 define('_NOT_CONFIG_ENABLEDDSC', 'このモジュールでは、ある特定のイベントが発生した際に、当該イベント購読者に対し通知メッセージが送られるように設定できます。この機能を有効にするには「はい」を選択してください');
 define('_NOT_CONFIG_EVENTS', '特定イベントを有効にする');
-define('_NOT_CONFIG_EVENTSDSC', 'ユーザが選択可能なイベントを設定してください');
-define('_NOT_CONFIG_ENABLE', 'お知らせ機能の設定');
-define('_NOT_CONFIG_DISABLE', '無効');
+define('_NOT_CONFIG_EVENTSDSC', 'ユーザーへが選択可能なイベントを設定してください');
+define('_NOT_CONFIG_ENABLE', 'お知らせ機能 有効');
+define('_NOT_CONFIG_ENABLEDSC', '特定のイベントが発生した時、ユーザーへお知らせする事ができます。 ユーザーによりブロックに表示するか、メインコンテンツ下部に表示するか、両方有効にするかを選んで下さい。');
+define('_NOT_CONFIG_DISABLE', 'お知らせ機能 無効');
 define('_NOT_CONFIG_ENABLEBLOCK', 'イベント選択オプションをブロックに表示');
 define('_NOT_CONFIG_ENABLEINLINE', 'イベント選択オプションをメインコンテンツ下部に表示');
 define('_NOT_CONFIG_ENABLEBOTH', 'イベント選択オプションをブロック・メインコンテンツ下部に表示');

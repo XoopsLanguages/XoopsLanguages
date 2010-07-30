@@ -1,27 +1,5 @@
 <?php
-/*
- You may not change or alter any portion of this comment or credits
- of supporting developers from this source code or any supporting source code 
- which is considered copyrighted (c) material of the original comment or credit authors.
- 
- This program is distributed in the hope that it will be useful,
- but WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
-*/
-
-/**
- *  Xoops Language
- *
- * @copyright       The XOOPS Project http://sourceforge.net/projects/xoops/
- * @license         http://www.fsf.org/copyleft/gpl.html GNU public license
- * @package         kernel
- * @subpackage      Xoops Find Users Language
- * @since           2.0.0
- * @author          Kazumi Ono <onokazu@xoops.org>
- * @version         $Id: findusers.php $
- */
-defined('XOOPS_ROOT_PATH') or die('Restricted access');
-
+// $Id: findusers.php $
 // _LANGCODE: ja
 // _CHARSET : UTF-8
 // Translator: XOOPS Translation Team
@@ -39,7 +17,6 @@ define('_MA_USER_RANK', 'ランク');
 define('_MA_USER_FINDUS', 'ユーザーが見つかりました');
 define('_MA_USER_AVATAR', 'アバター');
 define('_MA_USER_REALNAME', '名前');
-define('_MA_USER_REGDATE', 'Joined Date');
 define('_MA_USER_REGDATE', '登録日');
 define('_MA_USER_EMAIL', 'E-mail');
 define('_MA_USER_PREVIOUS', '前');
@@ -61,7 +38,7 @@ define('_MA_USER_SORT', '検索');
 define('_MA_USER_ORDER', '方法');
 define("_MA_USER_LASTLOGIN", "前回ログイン");
 define('_MA_USER_POSTS', '投稿数');
-define('_MA_USER_ASC , '昇順');
+define('_MA_USER_ASC' , '昇順');
 define('_MA_USER_DESC', '降順');
 define('_MA_USER_LIMIT', 'ページのユーザー数');
 define('_MA_USER_RESULTS', '検索結果');

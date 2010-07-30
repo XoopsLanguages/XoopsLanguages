@@ -20,7 +20,7 @@
 defined('XOOPS_ROOT_PATH') or die('Restricted access');
 
 // _LANGCODE: ja
-// _CHARSET : UTF-8
+// _CHARSET : EUC-JP
 // Translator: XOOPS Translation Team
 /**
  * Localized fonts 
