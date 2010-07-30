@@ -1,28 +1,7 @@
 <?php
-/*
- You may not change or alter any portion of this comment or credits
- of supporting developers from this source code or any supporting source code
- which is considered copyrighted (c) material of the original comment or credit authors.
-
- This program is distributed in the hope that it will be useful,
- but WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
-*/
-
-/**
-* Xoops Language
-*
-* @copyright The XOOPS Project http://sourceforge.net/projects/xoops/
-* @license http://www.fsf.org/copyleft/gpl.html GNU public license
-* @package kernel
-* @subpackage Xoops Banners Language
-* @since 2.0.0
-* @author Kazumi Ono <onokazu@xoops.org>
-* @version $Id: banners.php $
-*/
-defined('XOOPS_ROOT_PATH') or die('Restricted access');
+// $Id: banners.php $
 // _LANGCODE: ja
-// _CHARSET : UTF-8
+// _CHARSET : EUC-JP
 // Translator: XOOPS Translation Team
 define('_BANNERS_MANAGEMENT', 'バナー管理');
 define('_BANNERS_WELCOMEBACK', 'Welcome: %s');
@@ -65,9 +44,9 @@ define('_BANNERS_MAIL_MESSAGE', ' %s バナー統計 :\n\n\n
 クリック数: %s\n
 クリック率: %f \n\n\n
 作成レポート: %s');
-define('_BANNERS_MAIL_NOT_OK', 'We have encountered an error sending your email. Please contact the webmaster regarding this issue.');
+define('_BANNERS_MAIL_NOT_OK', 'メール送信でエラーが発生しました。管理者へ連絡してください');
 define('_BANNERS_MAIL_OK', 'バナー統計をメールへ送信しました');
-define('_BANNERS_MAIL_ERROR', 'クライアントに関連しているメールがありません。 %s<br />管理人に連絡してください');
+define('_BANNERS_MAIL_ERROR', 'クライアントに関連しているメールがありません。 %s<br />管理者へ連絡してください');
 define('_BANNERS_DBUPDATED', '内容・データベースを更新しました');
 define('_BANNERS_DBERROR', 'エラーにより、データベースは更新されていません！');
 define('_BANNERS_CHANGE', '変更');

@@ -23,7 +23,7 @@
 defined('XOOPS_ROOT_PATH') or die('Restricted access');
 
 // _LANGCODE: ja
-// _CHARSET : UTF-8
+// _CHARSET : EUC-JP
 // Translator: XOOPS Translation Team
 define('_LOGGER_DEBUG', "デバック");
 define('_LOGGER_INCLUDED_FILES', "挿入ファイル");

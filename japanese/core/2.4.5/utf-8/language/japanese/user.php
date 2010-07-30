@@ -1,27 +1,5 @@
 <?php
-/*
- You may not change or alter any portion of this comment or credits
- of supporting developers from this source code or any supporting source code 
- which is considered copyrighted (c) material of the original comment or credit authors.
- 
- This program is distributed in the hope that it will be useful,
- but WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
-*/
-
-/**
- *  Xoops Language
- *
- * @copyright       The XOOPS Project http://sourceforge.net/projects/xoops/
- * @license         http://www.fsf.org/copyleft/gpl.html GNU public license
- * @package         kernel
- * @subpackage      Xoops User Language
- * @since           2.0.0
- * @author          Kazumi Ono <onokazu@xoops.org>
- * @version         $Id: user.php $
- */
-defined('XOOPS_ROOT_PATH') or die('Restricted access');
-
+// $Id: user.php $
 // _LANGCODE: ja
 // _CHARSET : UTF-8
 // Translator: XOOPS Translation Team
@@ -44,7 +22,7 @@ define('_US_NOPERMISS', 'ごめんなさい。ユーザー情報を変更する�
 define('_US_SURETODEL', 'ユーザーアカウントを本当に削除してよろしいですか？');
 define('_US_REMOVEINFO', 'アカウントを削除した場合、すべてのユーザー情報が失われます');
 define('_US_BEENDELED', 'アカウントを削除しました。');
-define('_US_ACTFAILD', 'Activation failed!');
+define('_US_ACTFAILD', '実行に失敗しました！');
 //%%%%%%		File Name register.php 		%%%%%
 define('_US_USERREG', 'ユーザー登録');
 define('_US_NICKNAME', 'ユーザー名');
@@ -57,7 +35,7 @@ define('_US_VERIFYPASS', 'パスワード 確認');
 define('_US_SUBMIT', '送信');
 define('_US_USERNAME', 'ユーザー名');
 define('_US_FINISH', '完了');
-define('_US_REGISTERNG', '新規ユーザを登録できませんでした。');
+define('_US_REGISTERNG', '新規ユーザーを登録できませんでした。');
 define('_US_MAILOK', '新着情報などを E-mail で受け取る');
 define('_US_DISCLAIMER', 'サイト 利用規約');
 define('_US_IAGREE', '利用規約に同意');
@@ -83,7 +61,8 @@ define('_US_NICKNAMETAKEN', 'エラー: このユーザーの名前はすでに�
 define('_US_EMAILTAKEN', 'エラー: このメールアドレスはすでに登録されています');
 define('_US_ENTERPWD', 'エラー: パスワードを入力して下さい');
 define('_US_SORRYNOTFOUND', 'ごめんなさい。ユーザー情報が見つかりませんでした');
-define('_US_NEWPWDREQ', '新たなパスワードリクエスト %s さん');
+// %s is your site name
+define('_US_NEWPWDREQ', '%s - 新たなパスワードリクエスト');
 define('_US_YOURACCOUNT', 'ユーザーアカウント %s');
 define('_US_MAILPWDNG', 'mail_password: ユーザー情報の更新に失敗しました。お手数かけますが、サイト管理者までお問合せください。');
 // %s is a username

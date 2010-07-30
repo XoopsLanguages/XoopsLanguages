@@ -1,29 +1,7 @@
 <?php
-/*
- You may not change or alter any portion of this comment or credits
- of supporting developers from this source code or any supporting source code 
- which is considered copyrighted (c) material of the original comment or credit authors.
- 
- This program is distributed in the hope that it will be useful,
- but WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
-*/
-
-/**
- *  Xoops Language
- *
- * @copyright       The XOOPS Project http://sourceforge.net/projects/xoops/
- * @license         http://www.fsf.org/copyleft/gpl.html GNU public license
- * @package         kernel
- * @subpackage      Xoops Search Language
- * @since           2.0.0
- * @author          Kazumi Ono <onokazu@xoops.org>
- * @version         $Id: search.php $
- */
-defined('XOOPS_ROOT_PATH') or die('Restricted access');
-
+// $Id: search.php $
 // _LANGCODE: ja
-// _CHARSET : UTF-8
+// _CHARSET : EUC-JP
 // Translator: XOOPS Translation Team
 //%%%%%%    File Name search.php    %%%%%
 define('_SR_SEARCH', '¸¡º÷');

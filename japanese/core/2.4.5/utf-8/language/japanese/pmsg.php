@@ -1,27 +1,5 @@
 <?php
-/*
- You may not change or alter any portion of this comment or credits
- of supporting developers from this source code or any supporting source code 
- which is considered copyrighted (c) material of the original comment or credit authors.
- 
- This program is distributed in the hope that it will be useful,
- but WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
-*/
-
-/**
- *  Xoops Language
- *
- * @copyright       The XOOPS Project http://sourceforge.net/projects/xoops/
- * @license         http://www.fsf.org/copyleft/gpl.html GNU public license
- * @package         kernel
- * @subpackage      Xoops Private Messages Language
- * @since           2.0.0
- * @author          Kazumi Ono <onokazu@xoops.org>
- * @version         $Id: pmsg.php $
- */
-defined('XOOPS_ROOT_PATH') or die('Restricted access');
-
+// $Id: pmsg.php $
 // _LANGCODE: ja
 // _CHARSET : UTF-8
 // Translator: XOOPS Translation Team
@@ -41,8 +19,8 @@ define('_PM_NEXT', '次のメッセージ');
 define('_PM_SORRY', 'ごめんなさい！ あなたはユーザ登録していません');
 define('_PM_REGISTERNOW', '今すぐ登録！');
 define('_PM_GOBACK', '戻る');
-define('_PM_USERNOEXIST', '選択したユーザは存在しませんでした');
-define('_PM_PLZTRYAGAIN', 'ユーザ名を確認しもう一度やり直してください');
+define('_PM_USERNOEXIST', '選択したユーザーは存在しませんでした');
+define('_PM_PLZTRYAGAIN', 'ユーザー名を確認しもう一度やり直してください');
 define('_PM_MESSAGEPOSTED', 'メッセージを送信しました');
 define('_PM_CLICKHERE', 'プライベートメッセージの受信箱を表示');
 define('_PM_ORCLOSEWINDOW', 'このウィンドウを閉じる');
@@ -60,7 +38,7 @@ define('_PM_NOTREAD', '未読');
 define('_PM_SEND', '送信');
 define('_PM_DELETE', '削除');
 define('_PM_REPLY', '返信');
-define('_PM_PLZREG', 'プライベートメッセージを送信するためにはユーザ登録を行って下さい！');
+define('_PM_PLZREG', 'プライベートメッセージを送信するためにはユーザー登録を行って下さい！');
 define('_PM_ONLINE', 'オンライン');
 
 ?>
