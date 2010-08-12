@@ -6,11 +6,11 @@
  * @license		http://www.fsf.org/copyleft/gpl.html GNU public license
  * @author		Taiwen Jiang (phppp or D.J.) <php_pp@hotmail.com>
  * @since		1.00
- * @version		$Id$
+ * @version		$Id: config.php 2292 2008-10-12 04:53:18Z phppp $
  * @package		tag
  */
 
-if (!defined('XOOPS_ROOT_PATH')){ exit(); }
+if (!defined('XOOPS_ROOT_PATH')) { exit(); }
 
 
 /* 
@@ -19,8 +19,8 @@ if (!defined('XOOPS_ROOT_PATH')){ exit(); }
  *
  * Tips:
  * For English sites, you can set as array(",", ";", " ", "|")
- * For Chinese sites, set as array(",", ";", " ", "|", "£¬")
+ * For Chinese sites, set as array(",", ";", " ", "|", "£،")
  */
-$GLOBALS["tag_delimiter"] = array(",", "|", ";", "،", "؛");
+$GLOBALS["tag_delimiter"] = array(",", " ", "|", ";");
 
 ?>

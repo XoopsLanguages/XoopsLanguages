@@ -31,43 +31,19 @@ define("TAG_MD_INVALID", "جستجوی غیر مجاز");
  *	</li>
  * </ul>
  */
- $GLOBALS["TAG_MD_ADDONS"] = array(
+$GLOBALS["TAG_MD_ADDONS"] = array(
 	"google"	=> array(
-						"title"		=> "گوگل",
+						"title"		=> "Google",
 						"link"		=> "http://www.google.com/search?q=%s",
-						),
-  "Yahoo"	=> array(
-						"title"		=> "یاهو",
-						"link"		=> "http://search.yahoo.com/bin/search?p=%s&ei=UTF-8",
-            ),
-  "MSN"	=> array(
-						"title"		=> "ام اس ان",
-						"link"		=> "http://search.msn.com/results.aspx?q=%s",
-            ),	  
-            	
-  "AltaVista"	=> array(
-						"title"		=> "آلتا ویستا",
-						"link"		=> "http://www.altavista.com/cgi-bin/query?q=%s",
-            ),
-  "Ask"	=> array(
-						"title"		=> "آسک",
-						"link"		=> "http://search.ask.com/web?q=%s",
-            ),
-  "AOL"	=> array(
-						"title"		=> "آ او ال",
-						"link"		=> "http://search.aol.com/aolcom/search?query=%s",
 						),	
-   "A9"	=> array(
-						"title"		=> "آ ناین",
-						"link"		=> "http://a9.com/%s",
+	"techno"	=> array(
+						"title"		=> "Technorati",
+						"link"		=> "http://technorati.com/tag/%s/",
 						),	
-  "Clusty"	=> array(
-						"title"		=> "کلاستی",
-						"link"		=> "http://clusty.com/search?query=%s",
+	"flickr"	=> array(
+						"title"		=> "Flickr",
+						"link"		=> "http://www.flickr.com/photos/tags/%s/",
+						"function"	=> "utf8_encode",
 						),	
-  "GigaBlast"	=> array(
-						"title"		=> "گیگا بلست",
-						"link"		=> "http://gigablast.com/search?q=%s",
-            ),	                    
 	);
 ?>
