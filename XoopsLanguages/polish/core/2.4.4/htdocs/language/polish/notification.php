@@ -70,13 +70,13 @@ define('_NOT_CONFIG_ENABLEINLINE', 'Włącz tylko powiadamianie w module (Inline
 define('_NOT_CONFIG_ENABLEBOTH', 'Włącz powiadamianie w bloku/module (oba style)');
 // For notification about comment events
 define('_NOT_COMMENT_NOTIFY', 'Komentarz dodany');
-define('_NOT_COMMENT_NOTIFYCAP', 'Powiadom mnie gdy zostanie dodany komentarz do tej pozycji.');
-define('_NOT_COMMENT_NOTIFYDSC', 'Otrzymasz powiadomienie gdy jakikolwiek nowy Komentarz zostanie dodany (albo zaaprobowany) do tej pozycji.');
+define('_NOT_COMMENT_NOTIFYCAP', 'Powiadom mnie, gdy zostanie dodany nowy komentarz do tej pozycji.');
+define('_NOT_COMMENT_NOTIFYDSC', 'Otrzymasz powiadomienie, gdy nowy komentarz zostanie dodany (albo zatwierdzony) do tej pozycji.');
 define('_NOT_COMMENT_NOTIFYSBJ', '[{X_SITENAME}] {X_MODULE} auto-notify: Dodany komentarz do {X_ITEM_TYPE}');
-define('_NOT_COMMENTSUBMIT_NOTIFY', 'Komentarz dodany');
-define('_NOT_COMMENTSUBMIT_NOTIFYCAP', 'Powiadom mnie gdy zostanie dodany Komentarz do tej pojzycji.');
-define('_NOT_COMMENTSUBMIT_NOTIFYDSC', 'Otrzymasz powiadomienie gdy jakiolwiek nowy komentarz zostanie dodany (albo zaaprobowany) do tej pozycji.');
-define('_NOT_COMMENTSUBMIT_NOTIFYSBJ', '[{X_SITENAME}] {X_MODULE} auto-notify: Dodany komentarz do {X_ITEM_TYPE}');
+define('_NOT_COMMENTSUBMIT_NOTIFY', 'Komentarz zgłoszony');
+define('_NOT_COMMENTSUBMIT_NOTIFYCAP', 'Powiadom mnie, gdy zostanie zgłoszony (wysłany i oczekuje na zatwierdzenie) nowy komentarz do tej pojzycji.');
+define('_NOT_COMMENTSUBMIT_NOTIFYDSC', 'Otrzymasz powiadomienie, gdy nowy komentarz zostanie zgłoszony (wysłany, ale oczekuje na zatwierdzenie) do tej pozycji.');
+define('_NOT_COMMENTSUBMIT_NOTIFYSBJ', '[{X_SITENAME}] {X_MODULE} auto-notify: Zgłoszony komentarz do {X_ITEM_TYPE}');
 // For notification bookmark feature
 // (Not really notification, but easy to do with this module)
 define('_NOT_BOOKMARK_NOTIFY', 'Ulubione');

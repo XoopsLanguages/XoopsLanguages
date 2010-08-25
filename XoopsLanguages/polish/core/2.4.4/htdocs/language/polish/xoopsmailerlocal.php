@@ -21,7 +21,7 @@
  * @version         $Id: xoopsmailerlocal.php 3152 2009-04-18 13:30:57Z catzwolf $
  */
 defined('XOOPS_ROOT_PATH') or die('Restricted access');
-
+/**
  * Localize the mail functions
  *
  * The English localization is solely for demonstration
