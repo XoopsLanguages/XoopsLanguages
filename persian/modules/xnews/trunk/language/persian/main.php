@@ -124,7 +124,9 @@ define("_MA_NW_POSTED", "فرستاده شده در تاریخ");
 define("_MA_NW_NO_COMMENT", "بدون نظر");
 define("_MA_NW_METASIZE", "متاسفانه شما نمیتوانید مطالب را به صورت '+len+' در محل ورود متن وارد کنید باید آنها را به طور کامل وارد کنید.");
 
+// Added in version 1.68 RC3
 define("_MA_NW_SEO_TOPICS", "شاخه ها");
 define("_MA_NW_SEO_ARTICLES", "مطالب");
 define("_MA_NW_SEO_PRINT", "چاپ");
+define("_MA_NW_SEO_PDF", "pdf");
 ?>

@@ -238,4 +238,12 @@ define("_AM_NW_CLONER_UPGRADEFORCE", "آپگرید اجباری");
 define("_AM_NW_CLONER_CLONEDELETION", "حذف کلون");
 define("_AM_NW_CLONER_SUREDELETE", "آیا اطمینان دارید که میخواهید کلون <font color='#000000'>'%s'</font> را حذف کنید؟<br />");
 define("_AM_NW_CLONER_CLONEID", "ID کلون تنظیم نشده است !"); 
+
+// Added in version 1.68 RC2
+define("_AM_NW_INDEX", "صفحه اصلی مدیریت"); 
+
+// Added in version 1.68 RC3
+define("_AM_NW_DOLINEBREAK", "فعال کردن خط شکسته");
+
+define("_AM_NW_TOPICS","سرفصل ها");
 ?>
