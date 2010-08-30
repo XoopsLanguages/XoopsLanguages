@@ -43,7 +43,6 @@ define("_MI_NW_STORYCOUNTADMIN","تعداد خبرهای جدیدی که در ص
 define('_MI_NW_UPLOADFILESIZE', 'حداکثر حجم فایل مجاز برای بارگذاری (کیلوبایت) 1048576 = 1 مگابایت');
 define("_MI_NW_UPLOADGROUPS","گروه‌های مجاز برای بارگذاری");
 
-
 // Description of each config items
 define('_MI_NW_STORYHOMEDSC', '');
 define('_MI_NW_NOTIFYSUBMITDSC', '');
@@ -69,7 +68,6 @@ define("_MI_NW_UPLOAD_GROUP2","فقط تاییدکننده‌ها");
 define("_MI_NW_UPLOAD_GROUP3","غیر‌فعال کردن امکان بارگذاری فایل");
 
 // Text for notifications
-
 define('_MI_NW_GLOBAL_NOTIFY', 'کلی');
 define('_MI_NW_GLOBAL_NOTIFYDSC', 'تنظیمات اطلاع‌رسانی اخبار');
 
@@ -211,4 +209,12 @@ define("_MI_NW_SEOLEVEL", "سطح SEO");
 define("_MI_NW_SEOLEVELDESC", "شما میتوایند انتخاب کنید که htaccess را در شاخه اصلی زوپس داشته باشید یا هر ماژول. <br /> ابن تنظیم ظاهر آدرس را تغییر میدهد . <br /> برپایه هسته: <br /> http://your.site.com/news/topics.1/your-topic-title.html <br /> برپایه ماژول: <br /> http://your.site.com/modules/xnews/news.topics.1/your-topic-title.html<br /><br /> این تنظیم فقط در حالت htaccess کار میکند و htaccess باید متناسب با این روش نصب شده باشد.");
 define("_MI_NW_MODULE_LEVEL", "برپایه ماژول");
 define("_MI_NW_ROOT_LEVEL", "برپایه هسته");
+
+//ADDED wishcraft 1.68 RC3
+define("_MI_NW_SEOENDOFURL", "انتهای URL");
+define("_MI_NW_SEOENDOFURL_DESC", "پسوند فایل ها برای فایل های HTML");
+define("_MI_NW_SEOENDOFURLRSS", "انتهای URL");
+define("_MI_NW_SEOENDOFURLRSS_DESC", "پسوند فایل ها برای صفحات RSS");
+define("_MI_NW_SEOENDOFURLPDF", "انتهای URL");
+define("_MI_NW_SEOENDOFURLPDF_DESC", "پسوند فایل ها برای فایل های PDF");
 ?>
