@@ -63,5 +63,13 @@ define('_OXYGEN_RSS','خوراک');
 define('_OXYGEN_POWERED_BY','Powered by');
 define('_OXYGEN_SOURCEFORGE_TEXT','پروژه زوپس در سایت SourceForge میزبانی میشود.');
 define('_OXYGEN_ADMINISTRATION','مدیریت زوپس');
+define('_OXYGEN_UPTOP','بالا صفحه');
 
+//Add help 
+define('_OXYGEN_HELP_1','How I can make content ?');
+define('_OXYGEN_HELP_DESC_1','For make content First you must install some modules after that you can public your articles - for instal modules use <a href="modules/system/help.php?mid=1&page=modulesadmin">this article </a> and for download module go to : <a href="http://www.xoops.org" rel="external">XOOPS site</a>');
+define('_OXYGEN_HELP_2','What is the Block?');
+define('_OXYGEN_HELP_DESC_2','Blocks are discreet sections of content that can be created and configured in the admin interface. Custom blocks can be created and are typically made up of text, graphics and pictures. The content in these blocks may be formatted individually or inherit the site formatting. (<a href="modules/system/help.php?mid=1&page=blocksadmin">more ...</a>)');
+define('_OXYGEN_HELP_3','How I can find more help?');
+define('_OXYGEN_HELP_DESC_3','If you need more help and information to using XOOPS you can use <a href="modules/system/help.php">Help pages </a> in system module or use <a href="http://www.xoops.org" rel="external">XOOPS Local supoet sites </a>');
 ?>

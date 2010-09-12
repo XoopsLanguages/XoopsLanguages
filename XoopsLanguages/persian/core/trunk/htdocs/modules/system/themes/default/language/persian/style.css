@@ -18,6 +18,7 @@ div.confirmMsg {
 }
 
 #xo_globalnav {
+	font: 11px Tahoma !important;
 	direction: rtl !important;
 	text-align: right !important;
 }
@@ -99,6 +100,22 @@ div.confirmMsg {
 
 #xo-breadcrumb li {
 	margin-left: 10px !important;
+}
+
+#xo-body-icons {
+	float: right;
+}
+
+#xo-tabs {
+	float: left;
+}
+
+#xo-modules {
+	float: right;
+}
+
+#xo-accordion {
+	float: left;
 }
 
 .floatleft {
