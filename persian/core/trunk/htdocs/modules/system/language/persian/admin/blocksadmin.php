@@ -15,6 +15,7 @@ define( '_AM_SYSTEM_BLOCKS_EDITBLOCK', 'ویرایش بلاک' );
 define( '_AM_SYSTEM_BLOCKS_CLONEBLOCK', 'تکثیر بلاک' );
 
 // Forms
+define( '_AM_SYSTEM_BLOCKS_SAVE', 'Save' );
 define( '_AM_SYSTEM_BLOCKS_CUSTOM', 'بلاک دست ساز');
 define( '_AM_SYSTEM_BLOCKS_TYPES', 'همه‌ی انواع');
 define( '_AM_SYSTEM_BLOCKS_GENERATOR', 'ماژول');
@@ -27,7 +28,7 @@ define( '_AM_SYSTEM_BLOCKS_SIDELEFT', 'چپ');
 define( '_AM_SYSTEM_BLOCKS_SIDETOPLEFT', 'بالا چپ');
 define( '_AM_SYSTEM_BLOCKS_SIDETOPCENTER', 'بالا وسط');
 define( '_AM_SYSTEM_BLOCKS_SIDETOPRIGHT', 'بالا راست');
-define( '_AM_SYSTEM_BLOCKS_RIGHT', 'راست');
+define( '_AM_SYSTEM_BLOCKS_SIDERIGHT', 'راست');
 define( '_AM_SYSTEM_BLOCKS_SIDEBOTTOMLEFT', 'پایین چپ');
 define( '_AM_SYSTEM_BLOCKS_SIDEBOTTOMCENTER', 'پایین وسط');
 define( '_AM_SYSTEM_BLOCKS_SIDEBOTTOMRIGHT', 'پایین راست');
