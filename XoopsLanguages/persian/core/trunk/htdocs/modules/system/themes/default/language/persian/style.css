@@ -89,7 +89,7 @@ div.confirmMsg {
 	direction: rtl !important;
 }
 
-#xo-title {
+.xo-title {
 	background-position: right top !important;
 	padding-right: 40px !important;
 }
@@ -103,19 +103,19 @@ div.confirmMsg {
 }
 
 #xo-body-icons {
-	float: right;
+	float: right !important;
 }
 
 #xo-tabs {
-	float: left;
+	float: left !important;
 }
 
 #xo-modules {
-	float: right;
+	float: right !important;
 }
 
 #xo-accordion {
-	float: left;
+	float: left !important;
 }
 
 .floatleft {
@@ -129,4 +129,8 @@ div.confirmMsg {
 table.tablesorter thead tr .header,table.tablesorter thead tr .headerSortUp,table.tablesorter thead tr .headerSortDown
 	{
 	background-position: center left !important;
+}
+
+.tabs li { 
+	float: right !important;	 
 }

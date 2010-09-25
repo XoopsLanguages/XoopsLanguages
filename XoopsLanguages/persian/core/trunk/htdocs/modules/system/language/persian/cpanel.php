@@ -20,4 +20,7 @@ define("_MD_CPANEL_VERSION", "%s نسخه");
 define("_MD_CPANEL_QUICKLINKS", "پیوند‌های سریع");
 
 define("_MD_CPANEL_SITE_ADMINISTRATION", "مدیریت %s");
+
+// for help page 
+define("_MD_CPANEL_HELPCENTER", "Welcom to XOOPS help center");
 ?>
