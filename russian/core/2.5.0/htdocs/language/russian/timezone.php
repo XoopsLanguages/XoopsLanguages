@@ -1,30 +1,8 @@
 <?php
-/*
- You may not change or alter any portion of this comment or credits
- of supporting developers from this source code or any supporting source code 
- which is considered copyrighted (c) material of the original comment or credit authors.
- 
- This program is distributed in the hope that it will be useful,
- but WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
-*/
-
-/**
- *  Xoops Language
- *
- * @copyright       The XOOPS Project http://sourceforge.net/projects/xoops/
- * @license         http://www.fsf.org/copyleft/gpl.html GNU public license
- * @package         kernel
- * @subpackage      Xoops TimeZone Language
- * @since           2.0.0
- * @author          Kazumi Ono <onokazu@xoops.org>
- * @version         $Id: timezone.php 3152 2009-04-18 13:30:57Z catzwolf $
- */
-defined('XOOPS_ROOT_PATH') or die('Restricted access');
-
+// $Id: timezone.php 4897 2010-06-19 02:55:48Z phppp $
 // _LANGCODE: ru
 // _CHARSET : UTF-8
-// Translator: andrey3761
+// Translator: 2010-10-09 andrey3761
 //%%%%%		Time Zone	%%%%
 define('_TZ_GMTM12', '(GMT-12:00) Эневеток, Кваджалейн');
 define('_TZ_GMTM11', '(GMT-11:00) о-в Мидуэй, Самоа');

@@ -1,30 +1,7 @@
 <?php
-/*
- You may not change or alter any portion of this comment or credits
- of supporting developers from this source code or any supporting source code
- which is considered copyrighted (c) material of the original comment or credit authors.
-
- This program is distributed in the hope that it will be useful,
- but WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
-*/
-
-/**
- *  Xoops Language
- *
- * @copyright       The XOOPS Project http://sourceforge.net/projects/xoops/
- * @license         http://www.fsf.org/copyleft/gpl.html GNU public license
- * @package         kernel
- * @subpackage      Xoops Countries Language
- * @since           2.0.0
- * @author          Kazumi Ono <onokazu@xoops.org>
- * @version         $Id: countries.php 3284 2009-06-12 13:30:57Z trabis $
- */
-defined('XOOPS_ROOT_PATH') or die('Restricted access');
-
 // _LANGCODE: ru
 // _CHARSET : UTF-8
-// Translator: andrey3761
+// Translator: 2010-10-09 andrey3761
 /* 
  * ISO 3166 Maintenance agency (ISO 3166/MA) - ISO's focal point for country codes 
  * Website: http://www.iso.org/iso/country_codes.htm
