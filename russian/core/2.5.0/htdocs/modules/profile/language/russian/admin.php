@@ -1,5 +1,5 @@
 <?php
-// $Id: admin.php 3397 2009-08-02 05:02:25Z wishcraft $
+// $Id: admin.php 4751 2010-05-01 15:35:45Z trabis $
 // _LANGCODE: ru
 // _CHARSET : UTF-8
 // Translator: 2009-04-22 andrey3761

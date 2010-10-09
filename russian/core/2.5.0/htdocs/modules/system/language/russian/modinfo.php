@@ -1,8 +1,8 @@
 <?php
-// $Id: modinfo.php 4208 2010-01-25 23:10:18Z kraven30 $
+// $Id: modinfo.php 5105 2010-08-26 20:58:26Z trabis $
 // _LANGCODE: ru
 // _CHARSET : UTF-8
-// Translator: 2010-05-01 andrey3761
+// Translator: 2010-10-09 andrey3761
 
 // Module Info
 
@@ -42,8 +42,6 @@ define("_MI_SYSTEM_ADMENU13", "Рисунки");
 define("_MI_SYSTEM_ADMENU14", "Аватары");
 define("_MI_SYSTEM_ADMENU15", "Шаблоны");
 define("_MI_SYSTEM_ADMENU16", "Комментарии");
-define("_MI_SYSTEM_ADMENU17", "Менеджер файлов");
-define("_MI_SYSTEM_ADMENU18", "Техническое обслуживание");
 
 //Preference
 define("_MI_SYSTEM_PREFERENCE_BREAK_GENERAL","Основыне настройки");
@@ -89,11 +87,5 @@ define("_MI_SYSTEM_PREFERENCE_GENERAL_EDITOR_DSC","");
 define("_MI_SYSTEM_PREFERENCE_ANONPOST","");
 define("_MI_SYSTEM_PREFERENCE_REDIRECT","");
 
-
-
-
-
-
-
-
+define("_MI_SYSTEM_PREFERENCE_JQUERY_THEME", "jQuery theme");
 ?>

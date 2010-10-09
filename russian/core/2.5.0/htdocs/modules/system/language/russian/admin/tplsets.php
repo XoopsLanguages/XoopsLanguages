@@ -4,7 +4,7 @@
  * @license     http://www.fsf.org/copyleft/gpl.html GNU public license
  * _LANGCODE    ru
  * _CHARSET     UTF-8
- * Translator   2010-04-25 andrey3761
+ * @version     $Id: tplsets.php 5054 2010-08-26 09:13:17Z forxoops $
  */
  
  //Nav

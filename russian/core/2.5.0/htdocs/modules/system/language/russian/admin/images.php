@@ -5,6 +5,7 @@
  * _LANGCODE    ru
  * _CHARSET     UTF-8
  * Translator   2010-04-25 andrey3761
+ * @version     $Id: images.php 5014 2010-08-23 08:08:45Z forxoops $
  */
 
 // Navigation

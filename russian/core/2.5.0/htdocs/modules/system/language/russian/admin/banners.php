@@ -5,6 +5,7 @@
  * _LANGCODE    ru
  * _CHARSET     UTF-8
  * Translator   2010-04-22 andrey3761
+ * @version     $Id: banners.php 4988 2010-08-22 11:30:13Z forxoops $
  */
 
 //%%%%%%        Admin Module Name  Banners         %%%%%

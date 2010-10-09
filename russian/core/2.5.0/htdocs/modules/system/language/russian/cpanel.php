@@ -1,8 +1,8 @@
 <?php
-// $Id: cpanel.php 3317 2009-07-04 13:18:43Z trabis $
+// $Id: cpanel.php 5312 2010-09-18 18:52:43Z voltan1 $
 // _LANGCODE: en
 // _CHARSET : UTF-8
-// Translator: 2009-08-12 andrey3761
+// Translator: 2010-10-09 andrey3761
 
 define("_MD_CPANEL_NEWS", "Новости");
 define("_MD_CPANEL_NEWS_DESC", " XOOPS новости");
@@ -20,5 +20,8 @@ define("_MD_CPANEL_VERSION", "Версия %s ");
 define("_MD_CPANEL_QUICKLINKS", "Разделы");
 
 define("_MD_CPANEL_SITE_ADMINISTRATION", "%s администрирование");
+
+// for help page 
+define("_MD_CPANEL_HELPCENTER", "Добро пожаловать в центр помощи XOOPS");
 
 ?>

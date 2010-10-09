@@ -1,10 +1,11 @@
 <?php
 /**
  * @copyright   The XOOPS Project http://sourceforge.net/projects/xoops/
- * @license     http://www.fsf.org/copyleft/gpl.html GNU public license
- * _LANGCODE    ru
+ * @license     GNU GPL 2 (http://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
+ * _LANGCODE    en
  * _CHARSET     UTF-8
- * Translator   2010-04-22 andrey3761
+ * Translator   2010-10-09 andrey3761
+ * @version     $Id: avatars.php 5106 2010-08-27 13:33:06Z trabis $
  */
 
 // Navigation
@@ -23,7 +24,7 @@ define( '_AM_SYSTEM_AVATAR_USE_FILE', 'Выбрать файлы: %s' );
 define( '_AM_SYSTEM_AVATAR_UPLOAD', 'Загрузить:' );
 // Messages
 define( '_AM_SYSTEM_AVATAR_FAILDEL', 'Не удалось удалить аватар %s из базы данных' );
-define( '_AM_SYSTEM_AVATAR_DELETE', 'Вы уверены, что хотите удалить этот аватар?' );
+define( '_AM_SYSTEM_AVATAR_SUREDEL', 'Вы уверены, что хотите удалить этот аватар?' );
 
 // Tips
 define( '_AM_SYSTEM_AVATAR_TIPS', '

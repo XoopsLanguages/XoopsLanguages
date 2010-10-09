@@ -5,6 +5,7 @@
  * _LANGCODE    ru
  * _CHARSET     UTF-8
  * Translator   2010-04-25 andrey3761
+ * @version     $Id: comments.php 5000 2010-08-22 21:06:04Z forxoops $
  */
  
 // Manager
