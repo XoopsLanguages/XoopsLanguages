@@ -1,87 +1,48 @@
 XOOPS Changelog
 
-=================================
-2010/02/25: Version 2.5.0 Alpha 2
-=================================
-System Module General Changes:
 
-+ Added: Help System (ForMuss)
-+ Added: Help template (voltan)
-+ Added: Help screens content (mamba)
-+ Added: Dump in Maintenance (kraven_30)
-+ Added: New Redirect messaging (kraven_30)
-+ Added: Column sorting in tables (ForMuss)
+===============================
+2010/07/12: Version 2.4.5 Final
+===============================
+- Formulated coding style and restored author/copyright information in header blocks (phppp)
+- Fixed bug #3025455: return value was missing in {@XoopsObject} getVar method (phppp/catzwolf)
 
-=================================
-2010/02/01: Version 2.5.0 Alpha 1
-=================================
+===============================
+2010/06/19: Version 2.4.5 RC3
+===============================
+- Reverted calendar realted functionality to XOOPS 2.3 series due to license conflicts (phppp/mamba)
+- Improved file inclusion for Framework in XoopsLoad: stop including a file if it is not detected (phppp)
+
+===============================
+2010/05/22: Version 2.4.5 RC2
+===============================
 Updates upon community:
-- Changed: System module is now AJAX-ed (formuss/kraven_30/mage)
+- Reverted: Added Support for unicode object vars (trabis)
+- Added: .htaccess into uploads folder for extra security (mamba)
+- Fixed: _CM_RE renamed to _RE (trabis/mowaffaq)
 
-System Module General Changes:
+===============================
+2010/02/10: Version 2.4.5 RC
+===============================
+Updates upon community:
+- Fixed: Flash banners are not displayed in the expected position (kris_fr/trabis)
+- Improved current link in system block : mainmenu and usermenu (trabis/kris_fr)
+- Reverted: Support for unicode object vars, reverting object behavior to 2.3.x (trabis)
+- Reverted: Changes in module textsanitizer related to the code box fix (trabis)
 
-+ Added: smarty plugin for icon pack
-+ Added: smarty plugin for breadcrumb navigation
-+ Added: jQuery plugins for display popup or manage drag & drop
-+ Added: File Manager
-+ Added: Maintenance with Cache Clean-up, and Tables Maintenance
-+ Added: Visual module ordering with drag & drop
-+ Added: Visual block placement with drag & drop
-+ Added: Refactor all PHP code for use XOOPS API
-+ Added: Use template in the same way that front user, admin side for module can call a main template define in xoops_version.php
-+ Added: Allow override of template in admin theme like frontend if we set template in ADMIN_THEME/modules/system/admin/*
-+ Added: New variable 'system_menu' in xoops_version.php of each module, this variable generate a tab menu for module admin side if set to 1, this feature is for give one unique tab menu for all menu (eg: module PM for).
-+ Added: add jquery plugin in xoops_lib
-+ Added: change install for install admin template and admin setting
-+ Added: manage editor for blocks, comments and for all module if module developper want to use it activate or deactivate system section
-+ Added: choose number of line for admin section
-+ Added: display or hide tips
+Removed Language defines:
+- Please refer to modules/profile/changelog.txt (trabis)
 
-Avatar:
-+ Added: activate/deactivate avatar with ajax
-
-Banners:
-+ Added: jquery popup for display banners
-
-Block admin:
-+ Added: drag & drop block for manage position and weight
-+ Added: jquery popup for preview
-
-Comments:
-+ Added: multiple selection for deletion
-+ Added: purge
-
-Groups:
-+ Added: number of users per group
-+ Added: new disposition
-
-Images:
-+ Added: lightbox preview + thumbs
-
-Modulea Admin:
-+ Added: jquery popup for display info
-
-Preferences:
-+ Added: system settings
-
-Smilies:
-+ Added: activate/deactivate smilies with ajax
-
-Templates:
-+ Added: manage overide of all template online
-+ Added: generated file come from database
-
-User Rank:
-+ Added: activate/deactivate userrank with ajax
-
-Users:
-+ Added: advanced user management
-+ Added: new disposition
-+ Added: simple and advanced search
+===============================
+2010/02/04: Version 2.4.5 beta
+===============================
+Updates upon community:
+- Fixed: Adding missing constructor classes for php4 compatibility (trabis)
+- Fixed: Problems with & a m p ; character (trabis)
 
 
 ===============================
-2010/01/22: Version 2.4.4
+2010/01/16: Version 2.4.4
 ===============================
 Updates upon community:
 - Added: Frameworks/textsanitizer (beckmi/culex)

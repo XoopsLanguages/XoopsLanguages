@@ -5,6 +5,7 @@
  * _LANGCODE    ru
  * _CHARSET     UTF-8
  * Translator   2010-04-25 andrey3761
+ * @version     $Id: smilies.php 5043 2010-08-25 09:59:25Z forxoops $
  */
 //Nav
 define('_AM_SYSTEM_SMILIES_NAV_MANAGER','Менеджер смайликов');

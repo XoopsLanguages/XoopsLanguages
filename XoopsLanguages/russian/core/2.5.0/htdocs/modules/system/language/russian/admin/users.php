@@ -5,6 +5,7 @@
  * _LANGCODE    ru
  * _CHARSET     UTF-8
  * Translator   2010-05-01 andrey3761
+ * @version     $Id: users.php 5075 2010-08-26 11:56:22Z forxoops $
  */
 
 // Navigation
@@ -128,6 +129,7 @@ define("_AM_SYSTEM_USERS_LIST","Список");
 define("_AM_SYSTEM_USERS_NOUSERS", "Нет выбранных пользователей");
 define("_AM_SYSTEM_USERS_CNRNU2","Новый пользователь не может быть добавлен в группу: %s.");
 define("_AM_SYSTEM_USERS_SEARCH","Поиск");
+define("_AM_SYSTEM_USERS_SEARCH_USER","Поиск пользователей:");
 define("_AM_SYSTEM_USERS_ADVANCED_SEARCH","Расширенный поиск");
 define("_AM_SYSTEM_USERS_EDIT","Редактировать участника");
 define("_AM_SYSTEM_USERS_DEL","Удалить участника");
@@ -140,4 +142,12 @@ define("_AM_SYSTEM_USERS_NO_FOUND","Пользователи не найдены
 define("_AM_SYSTEM_USERS_NOT_CONNECT","Never connect");
 define("_AM_SYSTEM_USERS_FORM_SURE_DEL","Удалить пользователя: %s");
 define("_AM_SYSTEM_USERS_FORM_SURE_DEL2","Удалить");
+define("_AM_SYSTEM_USERS_NO_SUPP", "Пользователь не может быть удалён: %s <br />");
+define("_AM_SYSTEM_USERS_NO_ADMINSUPP", "Администратор не может быть удалён: %s <br />");
+define("_AM_SYSTEM_USERS_ERROR", "Ошибка:<br /><br /> %s");
+define("_AM_SYSTEM_USERS_ALLGROUP", "Все группы");
+define("_AM_SYSTEM_USERS_ALLUSER", "Все пользователи");
+define("_AM_SYSTEM_USERS_ACTIVEUSER", "Только активные пользователи");
+define("_AM_SYSTEM_USERS_INACTIVEUSER", "Только не активные пользователи");
+
 ?>

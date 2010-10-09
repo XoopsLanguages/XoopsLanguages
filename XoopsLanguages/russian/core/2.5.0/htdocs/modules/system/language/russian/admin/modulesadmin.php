@@ -5,6 +5,7 @@
  * _LANGCODE    ru
  * _CHARSET     UTF-8
  * Translator   2010-04-25 andrey3761
+ * @version     $Id: modulesadmin.php 5034 2010-08-25 07:45:11Z forxoops $
  */
 
 // Navigation

@@ -1,10 +1,11 @@
 <?php
 /**
  * @copyright   The XOOPS Project http://sourceforge.net/projects/xoops/
- * @license     http://www.fsf.org/copyleft/gpl.html GNU public license
+ * @license     GNU GPL 2 (http://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
  * _LANGCODE    ru
  * _CHARSET     UTF-8
- * Translator   2010-04-25 andrey3761
+ * Translator   2010-10-09 andrey3761
+ * @version     $Id: admin.php 5176 2010-09-02 14:52:42Z forxoops $
  */
 
 // Main
@@ -21,6 +22,7 @@ define('_AM_SYSTEM_DESC', 'Описание' );
 define('_AM_SYSTEM_GO', 'Доступ к этой секции' );
 define('_AM_SYSTEM_STATUS', 'Изменить статус секции' );
 define('_AM_SYSTEM_LOADING', 'Загрузка');
+define('_AM_SYSTEM_ALL', 'Все');
 
 define('_AM_SYSTEM_AVATAR_INFO', 'Существуют <span class="bold">%s</span> аватары.' );
 

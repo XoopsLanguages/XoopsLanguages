@@ -4,7 +4,8 @@
  * @license     http://www.fsf.org/copyleft/gpl.html GNU public license
  * _LANGCODE    ru
  * _CHARSET     UTF-8
- * Translator   2010-04-22 andrey3761
+ * Translator   2010-10-09 andrey3761
+ * @version     $Id: blocksadmin.php 5116 2010-08-27 22:57:09Z trabis $
  */
 
 // Navigation
@@ -15,6 +16,7 @@ define( '_AM_SYSTEM_BLOCKS_EDITBLOCK', 'Редактировать блок' );
 define( '_AM_SYSTEM_BLOCKS_CLONEBLOCK', 'Клонировать блок' );
 
 // Forms
+define( '_AM_SYSTEM_BLOCKS_SAVE', 'Сохранить' );
 define( '_AM_SYSTEM_BLOCKS_CUSTOM', 'Блок пользователя' );
 define( '_AM_SYSTEM_BLOCKS_TYPES', 'Все типы' );
 define( '_AM_SYSTEM_BLOCKS_GENERATOR', 'Модули' );
@@ -27,7 +29,7 @@ define( '_AM_SYSTEM_BLOCKS_SIDELEFT', 'Левый');
 define( '_AM_SYSTEM_BLOCKS_SIDETOPLEFT', 'Верхний левый');
 define( '_AM_SYSTEM_BLOCKS_SIDETOPCENTER', 'Верхний центральный');
 define( '_AM_SYSTEM_BLOCKS_SIDETOPRIGHT', 'Верхний правый');
-define( '_AM_SYSTEM_BLOCKS_RIGHT', 'Правый');
+define( '_AM_SYSTEM_BLOCKS_SIDERIGHT', 'Правый');
 define( '_AM_SYSTEM_BLOCKS_SIDEBOTTOMLEFT', 'Нижний левый');
 define( '_AM_SYSTEM_BLOCKS_SIDEBOTTOMCENTER', 'Нижний центральный');
 define( '_AM_SYSTEM_BLOCKS_SIDEBOTTOMRIGHT', 'Нижний правый');
@@ -73,12 +75,16 @@ define( '_AM_SYSTEM_BLOCKS_RUSUREDEL', 'Вы действительно хоти
 define( '_AM_SYSTEM_BLOCKS_SYSTEMCANT', 'Системные блоки не могут быть удалены!' );
 define( '_AM_SYSTEM_BLOCKS_MODULECANT', 'Этот блок не может быть удален напрямую! Если вы хотите отключить этот блок, то выключите модуль.' );
 
+// Error
+define( '_AM_SYSTEM_BLOCKS_PSEUDO_ERROR', 'Имя пользователя %s уже существует' );
+define( '_AM_SYSTEM_BLOCKS_MAIL_ERROR', 'E-mail пользователя %s уже существует' );
+
 // Tips
 define( '_AM_SYSTEM_BLOCKS_TIPS', 
 '<ul>
-<li>You can easily change side or order position with the drag\'n drop, click on <img class="tooltip" src="images/icons/default/actions/blocks.png" alt="'._AM_SYSTEM_BLOCKS_DRAG.'" title="'._AM_SYSTEM_BLOCKS_DRAG.'" /> this image and set your site just the way you want it</li>
+<li>You can easily change side or order position with the drag\'n drop, click on <img class="tooltip" src="%s" alt="'._AM_SYSTEM_BLOCKS_DRAG.'" title="'._AM_SYSTEM_BLOCKS_DRAG.'" /> this image and set your site just the way you want it</li>
 <li>Add a new custom block</li>
-<li>Set block online or offline by clicking on <img class="tooltip" width="16" src="images/icons/default/actions/agt_action_success.png" alt="'._AM_SYSTEM_BLOCKS_DISPLAY.'" title="'._AM_SYSTEM_BLOCKS_DISPLAY.'"/> or <img class="tooltip" width="16" src="images/icons/default/actions/button_cancel.png" alt="'._AM_SYSTEM_BLOCKS_HIDE.'" title="'._AM_SYSTEM_BLOCKS_HIDE.'" /></li>
+<li>Set block online or offline by clicking on <img class="tooltip" width="16" src="%s" alt="'._AM_SYSTEM_BLOCKS_DISPLAY.'" title="'._AM_SYSTEM_BLOCKS_DISPLAY.'"/> or <img class="tooltip" width="16" src="%s" alt="'._AM_SYSTEM_BLOCKS_HIDE.'" title="'._AM_SYSTEM_BLOCKS_HIDE.'" /></li>
 </ul>' );
 
 ?>

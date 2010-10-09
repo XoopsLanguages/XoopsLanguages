@@ -1,5 +1,5 @@
 <?php
-// $Id: groups.php 4435 2010-02-16 22:29:08Z forxoops $
+// $Id: groups.php 5011 2010-08-22 23:16:46Z forxoops $
 // _LANGCODE: ru
 // _CHARSET : UTF-8
 // Translator: 2010-04-25 andrey3761

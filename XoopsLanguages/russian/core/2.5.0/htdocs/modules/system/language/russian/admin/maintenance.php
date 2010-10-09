@@ -5,6 +5,7 @@
  * _LANGCODE    ru
  * _CHARSET     UTF-8
  * Translator   2010-04-25 andrey3761
+ * @version     $Id$
  */
 
 //Nav

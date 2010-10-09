@@ -5,6 +5,7 @@
  * _LANGCODE    ru
  * _CHARSET     UTF-8
  * Translator   2010-04-25 andrey3761
+ * @version     $Id: mailusers.php 5016 2010-08-23 08:20:54Z forxoops $
  */
  
 define("_AM_SYSTEM_MAILUSERS_AMIFCHECKD", "Если это отмечено, то все вышеуказанное и личные сообщения будут игнорироваться");

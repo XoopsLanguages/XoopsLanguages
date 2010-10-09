@@ -5,6 +5,7 @@
  * _LANGCODE    ru
  * _CHARSET     UTF-8
  * Translator   2010-04-25 andrey3761
+ * @version     $Id: userrank.php 5066 2010-08-26 11:30:41Z forxoops $
  */
  //Nav
 define('_AM_SYSTEM_USERRANK_NAV_MANAGER','Управление рангами');
