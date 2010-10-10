@@ -19,7 +19,7 @@ define('_MD_OXYGEN_VERSION','Версия');
 define('_MD_OXYGEN_VERSION_XOOPS','Версия XOOPS');
 define('_MD_OXYGEN_VERSION_PHP','Версия PHP');
 define('_MD_OXYGEN_VERSION_MYSQL','Версия Mysql');
-define('_MD_OXYGEN_Server_API','Server API');
+define('_MD_OXYGEN_Server_API','API сервера');
 define('_MD_OXYGEN_OS','ОС');
 define('_MD_OXYGEN_ABOUT','О Xoops');
 define('_MD_OXYGEN_ABOUT_TEXT','XOOPS - это динамический OO (Объектно-Ориентированный) основанный на открытом исходном коде скрипт портала, написанный на PHP. XOOPS поддерживает различные базы данных, XOOPS - это идеальный инструмент для создания небольших высоко-динамичных сообществ вэб-сайтов, внутренних порталов компании, корпоративных порталов, web-публикаторов и многого другого. Прочитайте <a href="http://www.xoops.org/modules/wfchannel/" rel="external">Всё о XOOPS</a> чтобы узнать дополнительные детали.');
@@ -33,16 +33,16 @@ define('_MD_OXYGEN_XOOPSWIKI','Xoops Wiki');
 define('_MD_OXYGEN_XOOPSBOOKS','Книги о XOOPS');
 define('_MD_OXYGEN_NEWMODULE','Новые модули');
 define('_MD_OXYGEN_XOOPSFAQ','Xoops FAQ');
-define('_MD_OXYGEN_CODESVN','Code Svn');
-define('_MD_OXYGEN_REPORTBUG','Report Bug');
-define('_MD_OXYGEN_XGIFTSHOP','Xoops Gift Shop');
+define('_MD_OXYGEN_CODESVN','SVN хранилище');
+define('_MD_OXYGEN_REPORTBUG','Сообщения об ошибках');
+define('_MD_OXYGEN_XGIFTSHOP','Магазин XOOPS атрибутики');
 define('_MD_OXYGEN_XDONATIONS','Помощь проекту');
-define('_MD_OXYGEN_XDONATIONS_TEXT','<h2>We Need Your Help - Make a Donation!</h2>
-If you like the XOOPS system, and would like to give something in return, you can make a donation to the XOOPS Foundation! Simply use the PayPal payment system to transfer your donation to the Foundation account.<br />
-Your donation will be used to promote and advance the use and development of the XOOPS system. Guaranteed.<br />
-The XOOPS Foundation is a registered not-for-profit organisation in the USA, dedicated to promote XOOPS!<br />
-All donators will get the Friend of XOOPS rank here on this website. Thanks to the Friends of XOOPS for their donations and continued support<br />
-For Make a Donation and more info please visite <a href="http://www.xoops.org/modules/xdonations/" rel="external">here</a>');
+define('_MD_OXYGEN_XDONATIONS_TEXT','<h4>Нам нужна Ваша мопощь - Пожалуйста сделайте пожертвование!</h4>
+Если Вам нравится система XOOPS, и Вы хотите дать что-то в замен, то Вы можете сделать пожертвование в фонд XOOPS! Для этого достаточно воспользоваться простой платёжной системой PayPal.<br />
+Ваше пожертвование будет использоваться для поощрения, продвижения и развития проекта XOOPS.<br />
+Фонд XOOPS зарегистрирован на некомерческую организацию в США, которая направленна на эффективное продвижение XOOPS!<br />
+Все мецtнаты получат на сайте xoops.org ранг "Друг XOOPS". Мы благодарим всех друзей XOOPS за их пожертвование и постоянную поддержку.<br />
+Для дополнительной информации об пожертвовании перейдите по <a href="http://www.xoops.org/modules/xdonations/" rel="external">этой</a> ссылке.');
 
 define('_MD_OXYGEN_SITEPREF','Конфигурация');
 define('_MD_OXYGEN_GENERAL','Основные настройки');
@@ -80,7 +80,7 @@ define('_MD_OXYGEN_KEY','Ключ XOOPS');
 define('_MD_OXYGEN_LICENSE','Лицензия');
 define('_MD_OXYGEN_RSS','Rss выдача');
 define('_MD_OXYGEN_POWERED_BY','Powered by');
-define('_MD_OXYGEN_SOURCEFORGE_TEXT','XOOPS Code hosted on SourceForge');
+define('_MD_OXYGEN_SOURCEFORGE_TEXT','Код XOOPS размещается на SourceForge');
 define('_MD_OXYGEN_ADMINISTRATION','Администрирование XOOPS');
 
 ?>
