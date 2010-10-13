@@ -34,5 +34,26 @@ $menu[] = array(
 );
 */
 
+$menu[] = array(
+    'link'      => 'http://www.xoops.org',
+    'title'     => 'Офсайт XOOPS',
+    'absolute'  => 1,
+    'icon'      => XOOPS_ADMINTHEME_URL . '/zetadigme/img/xoops.png'
+);
+
+$menu[] = array(
+    'link'      => 'http://xoops2.ru/',
+    'title'     => 'Русскоязычная техподдержка',
+    'absolute'  => 1,
+    'icon'      => XOOPS_ADMINTHEME_URL . '/zetadigme/img/xoops.png'
+);
+
+$menu[] = array(
+    'link'      => 'http://xoops.ws/',
+    'title'     => 'Приднестровская техподдержка',
+    'absolute'  => 1,
+    'icon'      => XOOPS_ADMINTHEME_URL . '/zetadigme/img/xoops.ws.png'
+);
+
 return $menu;
 ?>
