@@ -29,8 +29,8 @@ define( '_AM_SYSTEM_AVATAR_SUREDEL', 'Вы уверены, что хотите �
 // Tips
 define( '_AM_SYSTEM_AVATAR_TIPS', '
 <ul id="newsticker" class="newsticker">
-<li>Управление всеми системными или выборочными аватарами</li>
-<li>Site members can optionally fashion their own online personal called avatars.<br />This option can be set off from module User preferences.</li>
+<li>Управление всеми системными или пользовательскими аватарами</li>
+<li>Пользователи сайта могут прикреплять изображения рядом со своим ником - это называется аватарами.</li>
 </ul>' );
 
 ?>

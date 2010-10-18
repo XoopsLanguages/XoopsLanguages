@@ -5,7 +5,7 @@
 // Translator: 2010-10-09 andrey3761
 
 define('_PLEASEWAIT','Пожалуйста подождите');
-define('_FETCHING','Загрузка....');
+define('_FETCHING','Загрузка...');
 define('_TAKINGBACK','Вернитесь назад туда, где были...');
 define('_LOGOUT','Завершение сеанса');
 define('_SUBJECT','Тема');

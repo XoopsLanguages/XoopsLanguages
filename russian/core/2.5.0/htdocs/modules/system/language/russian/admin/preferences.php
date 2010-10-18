@@ -355,5 +355,5 @@ define("_MD_AM_MODULEPREF", "Конфигурация модулей");
 
 // Preference module system
 
-define('_AM_SYSTEM_PREFERENCES_SETTINGS', 'System Module Settings');
+define('_AM_SYSTEM_PREFERENCES_SETTINGS', 'Конфигурация модуля системы');
 ?>
