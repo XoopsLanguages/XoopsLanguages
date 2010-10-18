@@ -4,8 +4,8 @@
  * @license     http://www.fsf.org/copyleft/gpl.html GNU public license
  * _LANGCODE    ru
  * _CHARSET     UTF-8
- * Translator   2010-04-25 andrey3761
- * @version     $Id: modulesadmin.php 5034 2010-08-25 07:45:11Z forxoops $
+ * Translator   2010-10-18 andrey3761
+ * @version     $Id: modulesadmin.php 5536 2010-10-18 03:29:42Z beckmi $
  */
 
 // Navigation
@@ -175,6 +175,7 @@ define( '_AM_SYSTEM_MODULES_TIPS',
 <li>Если Вы устанавливаете новый модуль, не забудьте после установки в настройках модуля установить права доступа к модулю и блокам!</li>
 <li>Для того, чтобы модуль не отображался в Главном меню - установте вес модуля равным нулю</li>
 <li>Воизбежание нарушения безопасности НАСТОЯТЕЛЬНО рекомендуется удалить файлы неиспользуемых модулей с сервера</li>
+<li>Чтобы изменить порядок отображения модулей в главном меню просто перетащите модули в нужное место.</li>
 </ul>');
 define( '_AM_SYSTEM_MODULES_CONFIRM_TIPS',
 '<ul>

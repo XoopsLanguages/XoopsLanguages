@@ -70,7 +70,7 @@ define('_OXYGEN_UPTOP','На верх');
 
 //Add help 
 define('_OXYGEN_HELP_1','Как я могу создать контент на сайте?');
-define('_OXYGEN_HELP_DESC_1','Для первого добавления контента Вы должны установить некоторые модули - для установки модулей используют прочтите <a href="modules/system/help.php?mid=1&page=modulesadmin">эту статью</a> и для загрузки модуля перейдите на : <a href="http://www.xoops.org" rel="external">сайт XOOPS</a>');
+define('_OXYGEN_HELP_DESC_1','Для первого добавления контента Вы должны установить некоторые модули - для установки модулей прочтите <a href="modules/system/help.php?mid=1&page=modulesadmin">эту статью</a> и для загрузки модуля перейдите на : <a href="http://www.xoops.org" rel="external">сайт XOOPS</a>');
 define('_OXYGEN_HELP_2','Что такое блок?');
 define('_OXYGEN_HELP_DESC_2','Блоки выводят некоторую информацию, которая может быть создана и настроена в интерфейсе администрирования (<a href="modules/system/help.php?mid=1&page=blocksadmin">Далее ...</a>)');
 define('_OXYGEN_HELP_3','Как я могу найти дополнительную помощь?');

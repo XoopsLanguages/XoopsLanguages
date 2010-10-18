@@ -1,8 +1,8 @@
 <?php
-// $Id: blocks.php 2411 2008-11-14 21:01:07Z julionc $
+// $Id: blocks.php 5536 2010-10-18 03:29:42Z beckmi $
 // _LANGCODE: ru
 // _CHARSET : UTF-8
-// Translator: 2009-03-12 andrey3761
+// Translator: 2010-10-18 andrey3761
 
 // Блоки
 define("_MB_SYSTEM_ADMENU","Администрированиe");
@@ -23,6 +23,9 @@ define("_MB_SYSTEM_MLNKS","Измененных ссылок");
 define("_MB_SYSTEM_WDLS","Ожидающих файлов");
 define("_MB_SYSTEM_BFLS","Поврежденных файлов");
 define("_MB_SYSTEM_MFLS","Измененных файлов");
+define("_MB_SYSTEM_TDMDOWNLOADS","Ожидающих файлов");
+define("_MB_SYSTEM_EXTGALLERY","Ожидающих фотографий");
+define("_MB_SYSTEM_SMARTSECTION","Статей");
 define("_MB_SYSTEM_HOME","Главная"); // link to home page in main menu block
 define("_MB_SYSTEM_RECO","Рекомендуйте нас");
 define("_MB_SYSTEM_PWWIDTH","Ширина всплывающего окна");
