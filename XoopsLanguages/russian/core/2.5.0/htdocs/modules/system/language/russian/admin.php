@@ -4,8 +4,8 @@
  * @license     GNU GPL 2 (http://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
  * _LANGCODE    ru
  * _CHARSET     UTF-8
- * Translator   2010-10-09 andrey3761
- * @version     $Id: admin.php 5176 2010-09-02 14:52:42Z forxoops $
+ * Translator   2010-10-18 andrey3761
+ * @version     $Id: admin.php 5536 2010-10-18 03:29:42Z beckmi $
  */
 
 // Main
@@ -24,7 +24,15 @@ define('_AM_SYSTEM_STATUS', 'Изменить статус секции' );
 define('_AM_SYSTEM_LOADING', 'Загрузка');
 define('_AM_SYSTEM_ALL', 'Все');
 
-define('_AM_SYSTEM_AVATAR_INFO', 'Существуют <span class="bold">%s</span> аватары.' );
+define('_AM_SYSTEM_TIPS_MAIN','<ul><li>Включите или отключите разделы модуля системы или доступ к нему.</li></ul>');
+define('_AM_SYSTEM_AVATAR_INFO', '<ul><li><span class="bold red">%s</span> аватаров.</li></ul>' );
+define('_AM_SYSTEM_BANNER_INFO', '<ul><li><span class="bold red">%s</span> банеров.</li></ul>' );
+define('_AM_SYSTEM_COMMENT_INFO', '<ul><li><span class="bold red">%s</span> комментариев.</li></ul>' );
+define('_AM_SYSTEM_GROUP_INFO', '<ul><li><span class="bold red">%s</span> групп.</li></ul>' );
+define('_AM_SYSTEM_IMG_INFO', '<ul><li><span class="bold red">%s</span> изображений.</li></ul>' );
+define('_AM_SYSTEM_SMILIES_INFO', '<ul><li><span class="bold red">%s</span> смайлов.</li></ul>' );
+define('_AM_SYSTEM_RANKS_INFO', '<ul><li><span class="bold red">%s</span> рангов пользователей.</li></ul>' );
+define('_AM_SYSTEM_USERS_INFO', '<ul><li><span class="bold red">%s</span> пользователей.</li></ul>' );
 
 // Admin Module Names and description
 define( '_AM_SYSTEM_ADGS', 'Группы');

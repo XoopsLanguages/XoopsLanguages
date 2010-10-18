@@ -1,8 +1,8 @@
 <?php
-// $Id: welcome.php 2843 2009-02-21 10:31:52Z phppp $
+// $Id: welcome.php 5536 2010-10-18 03:29:42Z beckmi $
 // _LANGCODE: ru
 // _CHARSET : UTF-8
-// Translator: 2009-03-15 andrey3761
+// Translator: 2010-10-18 andrey3761
 
 $content .='
 <u><b>Что это?</b></u>
@@ -21,8 +21,8 @@ XOOPS распространяется по условиям лицензии <a
 <h3>Технические требования</h3>
 <ul>
 <li>WWW сервер (<a href="http://www.apache.org/" rel="external">Apache</a>, IIS, Roxen, etc)</li>
-<li><a href="http://www.php.net/" rel="external">PHP</a> 4.3.0 или выше  </li>
-<li><a href="http://www.mysql.com/" rel="external">База данных  MySQL</a> 3.23(рекомендуется 4.1 или выше)</li>
+<li><a href="http://www.php.net/" rel="external">PHP</a> 5.2 или выше</li>
+<li><a href="http://www.mysql.com/" rel="external">База данных  MySQL</a> 5.1 или выше</li>
 </ul>
 
 <h3>Перед установкой</h3>

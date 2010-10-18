@@ -1,38 +1,30 @@
+XOOPS 2.5.0 RC Release
 
-The XOOPS Development Team is pleased to announce the release of XOOPS 2.5.0 Alpha 2.
+The XOOPS Development Team is pleased to announce the release of XOOPS 2.5.0 RC.
 
-This release builds on the successful XOOPS 2.4.x series and is a major redesign of the System Module, which has been AJAX-ed using jQuery, done mainly by our December 2009 Innovators: Nicolas Andricq (ForMusS), Cointin Maxime (kraven_30), and Grégory Mage (Mage). 
+This release builds on the successful XOOPS 2.4.x series and is a major redesign of the System Module, which has been AJAX-ed using jQuery, done mainly by Nicolas Andricq (ForMusS), Cointin Maxime (kraven_30), and Grégory Mage (Mage). Other major contributors include Trabis, Voltan, and Kris_fr. 
 
 Some of the major improvements/additions include: 
-
-Alpha 2
-
-* Help System for Admin
-* MySQL Dump in Maintenance 
-* New Redirect messaging 
-* Column sorting in tables (ForMuss)
-
-Alpha 1
 
 * visual block placement using "Drag & Drop" 
 * visual ordering of modules
 * clean-up of cache and table maintenance 
-* File Manager
+* File Manager (as Plugin)
 * Image Manager
-* new way to edit templates
+* new way to change templates
 * central management of editors for blocks, comments, and modules
 * help tips
 
 and many more.
 
 
-Download from [url=http://sourceforge.net/projects/xoops/files/]Sourceforge repository[/url].
+Download from [url=https://sourceforge.net/projects/xoops/files/XOOPS%20Core%20%28Beta%20Releases%29/]Sourceforge repository[/url].
 
 System requirements
 -----------------------------------
 
 PHP:
-Any PHP version >= 5.2 
+Any PHP version >= 5.0 (PHP 5.2+ is strongly recommended)
 
 MySQL:
 MySQL server 5.0+ 
@@ -47,13 +39,11 @@ Downloading XOOPS
 Your can get this release package from the sourceforge.net file repository.
 Both .zip and .gz archives are provided.
 
-===============
-WARNING: This is ALPHA release for testing only!!!! 
+-----------
+WARNING: This is RC (Release Candidate) release for testing only!!!! 
 
 DO NOT install it on a production site and DO NOT upgrade any production site with it!!!
-
-This is NOT an Update to Alpha 1. You HAVE TO install it as a FRESH Install. 
-===============
+-----------
 
 
 Installing XOOPS
@@ -76,7 +66,6 @@ Debug information display level
 
 Since XOOPS 2.3.1 debug information display level is enabled as a temporary solution for 2.3* to show debug information to different level of users: to all users, to members or to admins only.
 The configuration can be set in /xoops_data/configs/xoopsconfig.php
-A new debug information tools will be available for 2.4 using FireBug (see http://tinyurl.com/nmnjdp)
 
 
 Files integrity check
@@ -105,4 +94,4 @@ Release announcement: https://lists.sourceforge.net/lists/listinfo/xoops-announc
 
 
 XOOPS Development Team
-February 25, 2010
+October 18, 2010
