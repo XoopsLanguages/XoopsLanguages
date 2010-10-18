@@ -48,11 +48,11 @@ define('_LOGGER_NOT_CACHED', "Без кеша");
 define('_LOGGER_CACHED', "Из кеша (обновление кеша каждые %s секунд)");
 
 define('_LOGGER_UNKNOWN', "Unknown");
-define('_LOGGER_E_USER_NOTICE', "Notice");
-define('_LOGGER_E_USER_WARNING', "Warning");
-define('_LOGGER_E_USER_ERROR', "Error");
-define('_LOGGER_E_NOTICE', "Notice");
-define('_LOGGER_E_WARNING', "Warning");
+define('_LOGGER_E_USER_NOTICE', "Замечание");
+define('_LOGGER_E_USER_WARNING', "Предупреждение");
+define('_LOGGER_E_USER_ERROR', "Ошибка");
+define('_LOGGER_E_NOTICE', "Замечание");
+define('_LOGGER_E_WARNING', "Предупреждение");
 define('_LOGGER_E_STRICT', "Strict");
 define('_LOGGER_FILELINE', "%s в файле %s строка %s");
 

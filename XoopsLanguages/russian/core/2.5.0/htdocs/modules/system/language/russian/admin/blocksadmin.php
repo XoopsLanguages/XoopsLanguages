@@ -82,9 +82,9 @@ define( '_AM_SYSTEM_BLOCKS_MAIL_ERROR', 'E-mail пользователя %s уж
 // Tips
 define( '_AM_SYSTEM_BLOCKS_TIPS', 
 '<ul>
-<li>You can easily change side or order position with the drag\'n drop, click on <img class="tooltip" src="%s" alt="'._AM_SYSTEM_BLOCKS_DRAG.'" title="'._AM_SYSTEM_BLOCKS_DRAG.'" /> this image and set your site just the way you want it</li>
-<li>Add a new custom block</li>
-<li>Set block online or offline by clicking on <img class="tooltip" width="16" src="%s" alt="'._AM_SYSTEM_BLOCKS_DISPLAY.'" title="'._AM_SYSTEM_BLOCKS_DISPLAY.'"/> or <img class="tooltip" width="16" src="%s" alt="'._AM_SYSTEM_BLOCKS_HIDE.'" title="'._AM_SYSTEM_BLOCKS_HIDE.'" /></li>
+<li>Вы можете легко изменять размещение блока простым перетаскиванием через drag\'n drop, нажмите на <img class="tooltip" src="%s" alt="'._AM_SYSTEM_BLOCKS_DRAG.'" title="'._AM_SYSTEM_BLOCKS_DRAG.'" /> это изображение и перетащите блок в нужное место</li>
+<li>Добавляйте новый пользовательский блок</li>
+<li>Установите статус блока активный или не активный, нажав на изображение <img class="tooltip" width="16" src="%s" alt="'._AM_SYSTEM_BLOCKS_DISPLAY.'" title="'._AM_SYSTEM_BLOCKS_DISPLAY.'"/> или <img class="tooltip" width="16" src="%s" alt="'._AM_SYSTEM_BLOCKS_HIDE.'" title="'._AM_SYSTEM_BLOCKS_HIDE.'" /></li>
 </ul>' );
 
 ?>
