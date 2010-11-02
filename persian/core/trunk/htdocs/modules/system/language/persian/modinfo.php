@@ -1,7 +1,12 @@
 <?php
-// $Id$// _LANGCODE: fa// _CHARSET : UTF-8// Translator: XOOPS Translation Team
+// $Id$
+// _LANGCODE: fa
+// _CHARSET : UTF-8
+// Translator: XOOPS Translation Team
+
 // Module Info
-// The name of this moduledefine("_MI_SYSTEM_NAME","سیستم");
+
+// The name of this moduledefine("_MI_SYSTEM_NAME","سیستم");
 
 // A brief description of this moduledefine("_MI_SYSTEM_DESC","برای مدیریت هسته‌ی اصلی وب سایت");
 
@@ -11,12 +16,12 @@ define("_MI_SYSTEM_BNAME4","جستجو");
 define("_MI_SYSTEM_BNAME5","ارسال‌های منتظر");
 define("_MI_SYSTEM_BNAME6","منوی اصلی");
 define("_MI_SYSTEM_BNAME7","اطلاعات سایت");
-define('_MI_SYSTEM_BNAME8', "افراد آنلاین");
-define('_MI_SYSTEM_BNAME9', "اعضای دارای بیشترین پیام");
-define('_MI_SYSTEM_BNAME10', "اعضای جدید");
-define('_MI_SYSTEM_BNAME11', "نظر‌های جدید");
-// RMV-NOTIFYdefine('_MI_SYSTEM_BNAME12', "گزینه‌های آگهی‌رسانی");
-define('_MI_SYSTEM_BNAME13', "قالب‌ها");
+define("_MI_SYSTEM_BNAME8", "افراد آنلاین");
+define("_MI_SYSTEM_BNAME9", "اعضای دارای بیشترین پیام");
+define("_MI_SYSTEM_BNAME10", "اعضای جدید");
+define("_MI_SYSTEM_BNAME11", "نظر‌های جدید");
+// RMV-NOTIFYdefine("_MI_SYSTEM_BNAME12", "گزینه‌های آگهی‌رسانی");
+define("_MI_SYSTEM_BNAME13", "قالب‌ها");
 
 // Names of admin menu itemsdefine("_MI_SYSTEM_ADMENU1","بنر‌ها");
 define("_MI_SYSTEM_ADMENU2","بلاک‌ها");
@@ -41,7 +46,6 @@ define("_MI_SYSTEM_PREFERENCE_TIPS","کمک رسانی آنلاین؟");
 define("_MI_SYSTEM_PREFERENCE_TIPS_DSC","این گزینه به شما انواع تیپ و پشتیبانی آنلاین میدهد؟");
 define("_MI_SYSTEM_PREFERENCE_ICONS","آیکن‌ها");
 define("_MI_SYSTEM_PREFERENCE_BREADCRUMB","Breadcrumb");
-define("_MI_SYSTEM_PREFERENCE_JQUERY_THEME", "قالب JQuery");
 
 define("_MI_SYSTEM_PREFERENCE_BREAK_ACTIVE","بخش‌های فعال");
 define("_MI_SYSTEM_PREFERENCE_ACTIVE_AVATARS","تصاویر اعضا فعال");
@@ -80,11 +84,5 @@ define("_MI_SYSTEM_PREFERENCE_GENERAL_EDITOR_DSC","");
 define("_MI_SYSTEM_PREFERENCE_ANONPOST","");
 define("_MI_SYSTEM_PREFERENCE_REDIRECT","");
 
-
-
-
-
-
-
-
+define("_MI_SYSTEM_PREFERENCE_JQUERY_THEME", "قالب JQuery");
 ?>

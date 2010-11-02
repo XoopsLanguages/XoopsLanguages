@@ -4,8 +4,8 @@
 // _CHARSET : UTF-8
 // Translator: XOOPS Translation Team
 
-define('_PROFILE_MA_REGISTER_NOTGROUP', 'کاربر جدید عضو گروه مکاتبهشده نشده است.');
-define('_PROFILE_MA_FINISH_LOGIN','حساب کاربری شما با موفقفیت ساخته شد, لطفا برای ورود کلیک کنید.');
+define("_PROFILE_MA_REGISTER_NOTGROUP", "کاربر جدید عضو گروه مکاتبهشده نشده است.");
+define("_PROFILE_MA_FINISH_LOGIN","حساب کاربری شما با موفقفیت ساخته شد, لطفا برای ورود کلیک کنید.");
 define("_PROFILE_MA_REGISTER_FINISH", "از ثبت نام شما سپاسگذاریم");
 define("_PROFILE_MA_REGISTER_STEPS", "مراحل ثبت نام:");
 
@@ -16,11 +16,11 @@ define("_PROFILE_MA_NOSTEPSAVAILABLE", "ثبت نام در سایت در این 
 define("_PROFILE_MA_EXPIRED", "این پردازش باطل شده است, لطفا برگدید و دوباره امتحان کنید.");
 
 
-define('_PROFILE_MA_RECENTACTIVITY','فعالیت‌های اخیر');
-define('_PROFILE_MA_THEME','قالب');
-define('_PROFILE_MA_ACTIVATE','فعال');
-define('_PROFILE_MA_DEACTIVATE','غیر فعال');
-define('_PROFILE_MA_SENDPM','ارسال پیام');
+define("_PROFILE_MA_RECENTACTIVITY","فعالیت‌های اخیر");
+define("_PROFILE_MA_THEME","قالب");
+define("_PROFILE_MA_ACTIVATE","فعال");
+define("_PROFILE_MA_DEACTIVATE","غیر فعال");
+define("_PROFILE_MA_SENDPM","ارسال پیام");
 
 //changepass.php
 define("_PROFILE_MA_CHANGEPASSWORD", "تغییر واژه رمز");

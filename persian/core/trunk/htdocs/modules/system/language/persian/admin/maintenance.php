@@ -63,9 +63,9 @@ define("_AM_SYSTEM_MAINTENANCE_DUMP_RESULT", "نتایج");
 define("_AM_SYSTEM_MAINTENANCE_DUMP_RECORDS", "رکورد‌ها");
 
 // Tips
-define( '_AM_SYSTEM_MAINTENANCE_TIPS', 
-'<ul>
+define("_AM_SYSTEM_MAINTENANCE_TIPS", 
+"<ul>
 <li>شما میتوانید تغمیرات ساده ای بر روی زوپس خود اعمال کنید: خالی کردن کش و جدول نشست‌ها, و تعمیر جدول‌های پایگاه داده‌ها</li>
-</ul>' );
+</ul>");
 
 ?>

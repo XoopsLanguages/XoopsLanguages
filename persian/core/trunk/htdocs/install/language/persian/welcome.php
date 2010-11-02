@@ -19,8 +19,8 @@ $content .= '
 <h3>نیازمندی‌ها</h3>
 <ul>
 	<li>کارگزار وب (<a href="http://www.apache.org/" target="_blank">آپاچی</a>، IIS, Roxen، و غیره...)</li>
-	<li><a href="http://www.php.net/" target="_blank">PHP</a> نسخه ۴.۳.۰ یا بالاتر (نسخه ۵.۲ یا بالاتر توصیه می‌شود)</li>
-	<li><a href="http://www.mysql.com/" target="_blank">MySQL</a> نسخه ۳.۲۳ یابالاتر (نسخه ۴.۱ یا بالاتر توصیه می‌شود)</li>
+	<li><a href="http://www.php.net/" target="_blank">PHP</a> نسخه ۵.۲.۰ یا بالاتر</li>
+	<li><a href="http://www.mysql.com/" target="_blank">MySQL</a> نسخه ۵.۱ یابالاتر</li>
 </ul>
 <h3>قبل از نصب</h3>
 <ol>
