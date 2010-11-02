@@ -4,22 +4,22 @@
  * @license     http://www.fsf.org/copyleft/gpl.html GNU public license
  * _LANGCODE    fa
  * _CHARSET     UTF-8
- * @version     $Id: users.php 4091 2010-01-05 17:02:11Z forxoops $
+ * @version     $Id$
  */
 
 // Navigation
-define('_AM_SYSTEM_USERS_NAV_MANAGER','مدیریت کاربران');
-define('_AM_SYSTEM_USERS_NAV_MAIN','مدیریت کاربران');
-define('_AM_SYSTEM_USERS_NAV_ADVANCED_SEARCH','جستجوی پیشرفته');
-define('_AM_SYSTEM_USERS_NAV_ADD_USER','اضافه کردن عضو');
-define('_AM_SYSTEM_USERS_NAV_EDIT_USER','ویرایش عضو');
-define('_AM_SYSTEM_USERS_NAV_DELETE_USER','حذف عضو');
+define("_AM_SYSTEM_USERS_NAV_MANAGER","مدیریت کاربران");
+define("_AM_SYSTEM_USERS_NAV_MAIN","مدیریت کاربران");
+define("_AM_SYSTEM_USERS_NAV_ADVANCED_SEARCH","جستجوی پیشرفته");
+define("_AM_SYSTEM_USERS_NAV_ADD_USER","اضافه کردن عضو");
+define("_AM_SYSTEM_USERS_NAV_EDIT_USER","ویرایش عضو");
+define("_AM_SYSTEM_USERS_NAV_DELETE_USER","حذف عضو");
 
 // Tips
-define('_AM_SYSTEM_USERS_NAV_TIPS','
+define("_AM_SYSTEM_USERS_NAV_TIPS","
 <ul>
 <li>مدیریت کاربران زوپس</li>
-</ul>');
+</ul>");
 
 // Main
 define("_AM_SYSTEM_USERS_USER","کاربر");
@@ -60,6 +60,9 @@ define("_AM_SYSTEM_USERS_LOCATION","محل زندگی");
 define("_AM_SYSTEM_USERS_OCCUPATION","شغل");
 define("_AM_SYSTEM_USERS_INTEREST","علاقمندی‌ها");
 define("_AM_SYSTEM_USERS_URLC","وب‌سایت شخصی");
+define("_AM_SYSTEM_USERS_LOCATIONC","Location contains");
+define("_AM_SYSTEM_USERS_OCCUPATIONC","Occupation contains");
+define("_AM_SYSTEM_USERS_INTERESTC","Interest contains");
 define("_AM_SYSTEM_USERS_LASTLOGMORE","آخرین ورود بیشتر از <span style='color:#ff0000;'>X</span> روز پیش");
 define("_AM_SYSTEM_USERS_LASTLOGLESS","آخرین ورود کمتر از <span style='color:#ff0000;'>X</span> روز پیش");
 define("_AM_SYSTEM_USERS_REGMORE","تاریخ عضویت بیشتر از <span style='color:#ff0000;'>X</span> روز پیش");
@@ -148,5 +151,9 @@ define("_AM_SYSTEM_USERS_ALLGROUP", "همه گروه ها");
 define("_AM_SYSTEM_USERS_ALLUSER", "همه کاربران");
 define("_AM_SYSTEM_USERS_ACTIVEUSER", "فقط کاربران فعال");
 define("_AM_SYSTEM_USERS_INACTIVEUSER", "فقط کاربران غیر فعال");
+
+// Error
+define("_AM_SYSTEM_USERS_PSEUDO_ERROR","نام کاربری %s موجود است.");
+define("_AM_SYSTEM_USERS_MAIL_ERROR","پست الکترونیک %s موجود است.");
 
 ?>

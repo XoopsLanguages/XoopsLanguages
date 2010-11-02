@@ -21,6 +21,9 @@ define("_MB_SYSTEM_MLNKS","پیوندهای اصلاح شده");
 define("_MB_SYSTEM_WDLS","پرونده‌های منتظر");
 define("_MB_SYSTEM_BFLS","پرونده‌های خراب");
 define("_MB_SYSTEM_MFLS","پرونده‌های اصلاح شده");
+define("_MB_SYSTEM_TDMDOWNLOADS","پرونده‌های منتظر");
+define("_MB_SYSTEM_EXTGALLERY","تصاویر منتظر");
+define("_MB_SYSTEM_SMARTSECTION","مقالات");
 define("_MB_SYSTEM_HOME","صفحه‌ی اول"); // link to home page in main menu blockdefine("_MB_SYSTEM_RECO","ما را پیشنهاد کنید");
 define("_MB_SYSTEM_PWWIDTH","عرض پنجره Pop-Up");
 define("_MB_SYSTEM_PWHEIGHT","ارتفاع پنجره Pop-Up");
@@ -40,6 +43,6 @@ define("_MB_SYSTEM_SECURE", "ورود امن (Secure Login)");
 define("_MB_SYSTEM_NUMTHEME", "%s قالب");
 define("_MB_SYSTEM_THSHOW", "تصویر (screenshot) قالب را نشان بده");
 define("_MB_SYSTEM_THWIDTH", "عرض تصویر (screenshot)");
-define('_MB_SYSTEM_REMEMBERME', 'ورود خودکار');
+define("_MB_SYSTEM_REMEMBERME", "ورود خودکار");
 
 ?>

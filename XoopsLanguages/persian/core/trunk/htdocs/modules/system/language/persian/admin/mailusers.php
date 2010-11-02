@@ -2,9 +2,9 @@
 /**
  * @copyright   The XOOPS Project http://sourceforge.net/projects/xoops/
  * @license     http://www.fsf.org/copyleft/gpl.html GNU public license
- * _LANGCODE    fa
+ * _LANGCODE    en
  * _CHARSET     UTF-8
- * @version     $Id: mailusers.php 4183 2010-01-21 22:16:09Z mageg $
+ * @version     $Id$
  */
  
 define("_AM_SYSTEM_MAILUSERS_AMIFCHECKD", "اگر این گزینه انتخاب شود, تمام پیام‌ها خصوصی در بالا نادیده گرفته میشوند");

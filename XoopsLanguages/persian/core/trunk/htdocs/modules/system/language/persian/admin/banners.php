@@ -4,7 +4,7 @@
  * @license     http://www.fsf.org/copyleft/gpl.html GNU public license
  * _LANGCODE    fa
  * _CHARSET     UTF-8
- * @version     $Id: banners.php 4091 2010-01-05 17:02:11Z forxoops $
+ * @version     $Id$
  */
 
 //%%%%%%        Admin Module Name  Banners         %%%%%
@@ -75,10 +75,10 @@ define("_AM_SYSTEM_BANNERS_USEHTML","کد‌های Html فعال شود؟");
 define("_AM_SYSTEM_BANNERS_CODEHTML","کد Html:");
 
 // Tips
-define( "_AM_SYSTEM_BANNERS_NAV_TIPS", '
+define("_AM_SYSTEM_BANNERS_NAV_TIPS", "
 <ul>
 <li>اضافه , ویرایش و به روز رسانی شاخه , بنر‌ها و مشتریان.</li>
 </ul>
-');
+");
 
 ?>

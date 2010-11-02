@@ -4,6 +4,8 @@
 // _CHARSET : UTF-8
 // Translator: XOOPS Translation Team
 
+define("_MD_AM_VRSN", "نسخه");
+define("_MD_AM_FINDUSER", "پیداکردن اعضا");
 define("_MD_CPANEL_NEWS", "اخبار");
 define("_MD_CPANEL_NEWS_DESC", "اخبار توسعه‌ی زوپس");
 define("_MD_CPANEL_PROJECT", "پروژه");
