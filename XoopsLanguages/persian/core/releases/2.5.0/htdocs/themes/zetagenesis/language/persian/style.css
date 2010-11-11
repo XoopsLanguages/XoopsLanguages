@@ -1,0 +1,20 @@
+/* $Id$ */ /* Localization stylesheet */
+	/*============= Style for blocks left columns ===========*/
+#xo-canvas-leftcolumn .xo-blockcontent {
+	padding-right: 16px !important;
+}
+
+/*============= Style for lists =========================*/
+#xo-canvas-content ul {
+	text-align: right !important;
+}
+
+/*============= Style for tinymce editor ( for rtl ) ====*/
+body.mceContentBody {
+	text-align: right !important;
+}
+
+/*============= Style for show banner image to left =====*/
+#xo-banner {
+	text-align: left !important;
+}
