@@ -11,7 +11,7 @@
  * @author      Skalpa Keo <skalpa@xoops.org>
  * @author      Taiwen Jiang <phppp@users.sourceforge.net>
  * @author      dugris <dugris@frxoops.org>
- * @version     $Id: install.php 5536 2010-10-18 03:29:42Z beckmi $
+ * @version     $Id: install.php 5478 2010-10-10 20:55:48Z forxoops $
  */
 
 // _LANGCODE: ru

@@ -1,11 +1,11 @@
 <?php
-// $Id: main.php 3899 2009-11-17 20:52:14Z trabis $
+// $Id: main.php 5567 2010-10-20 12:23:25Z beckmi $
 // _LANGCODE: ru
 // _CHARSET : UTF-8
 // Translator: 14.09.2009 andrey3761
 
-define('_PROFILE_MA_REGISTER_NOTGROUP', 'Новый пользователь не зарегистрирован в соответствующих группах.');
-define('_PROFILE_MA_FINISH_LOGIN','Ваша учетная запись создана успешно. Пожалуйста используйте имя и пароль введенные при регистрации.');
+define("_PROFILE_MA_REGISTER_NOTGROUP", "Новый пользователь не зарегистрирован в соответствующих группах.");
+define("_PROFILE_MA_FINISH_LOGIN", "Ваша учетная запись создана успешно. Пожалуйста используйте имя и пароль введенные при регистрации.");
 define("_PROFILE_MA_REGISTER_FINISH", "Спасибо за регистрацию");
 define("_PROFILE_MA_REGISTER_STEPS", "Шаги регистрации:");
 
@@ -16,11 +16,11 @@ define("_PROFILE_MA_NOSTEPSAVAILABLE", "Извините, на данный мо
 define("_PROFILE_MA_EXPIRED", "Процесс прерван. Пожалуйста, вернитесь назад, чтобы повторить попытку.");
 
 
-define('_PROFILE_MA_RECENTACTIVITY','Активность пользователя');
-define('_PROFILE_MA_THEME','Тема оформления');
-define('_PROFILE_MA_ACTIVATE','Активировать');
-define('_PROFILE_MA_DEACTIVATE','Деактивировать');
-define('_PROFILE_MA_SENDPM','Отправить сообщение');
+define("_PROFILE_MA_RECENTACTIVITY","Активность пользователя");
+define("_PROFILE_MA_THEME","Тема оформления");
+define("_PROFILE_MA_ACTIVATE","Активировать");
+define("_PROFILE_MA_DEACTIVATE","Деактивировать");
+define("_PROFILE_MA_SENDPM","Отправить сообщение");
 
 //changepass.php
 define("_PROFILE_MA_CHANGEPASSWORD", "Смена пароля");
