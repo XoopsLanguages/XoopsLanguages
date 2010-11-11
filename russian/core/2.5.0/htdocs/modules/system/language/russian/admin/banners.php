@@ -5,7 +5,7 @@
  * _LANGCODE    ru
  * _CHARSET     UTF-8
  * Translator   2010-04-22 andrey3761
- * @version     $Id: banners.php 4988 2010-08-22 11:30:13Z forxoops $
+ * @version     $Id: banners.php 5580 2010-10-21 19:38:48Z forxoops $
  */
 
 //%%%%%%        Admin Module Name  Banners         %%%%%
@@ -76,10 +76,10 @@ define("_AM_SYSTEM_BANNERS_USEHTML","Использовать HTML?");
 define("_AM_SYSTEM_BANNERS_CODEHTML","HTML-код:");
 
 // Tips
-define( "_AM_SYSTEM_BANNERS_NAV_TIPS", '
+define( "_AM_SYSTEM_BANNERS_NAV_TIPS", "
 <ul>
 <li>Добавление, редактирование и обновление категорий, баннеров и клиентов.</li>
 </ul>
-');
+");
 
 ?>

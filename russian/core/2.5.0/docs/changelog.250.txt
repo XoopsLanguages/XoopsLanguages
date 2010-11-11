@@ -1,7 +1,35 @@
 ===============================
-Updated 2010/10/17: Version 2.5.0
+Updated 2010/10/23: Version 2.5.0
 ===============================
 Bug Fixes:
+ 
+ - Fix security bug in Profile (gaba/phppp)
+ - Fix save in edit avatar and change path to avatar in form (formuss)
+ - include jQuery in admin page (formuss)
+ - Fix: Banners - "add" buttons disappear after deleting all banners. (trabis)
+ - Fix: Banners - Blank page when deleting clients. (trabis)
+ - Fix: Impossible to edit a user if uname contains a ', it shows uname already taken. (trabis) 
+ - Fix: Some user defines(Error messages) were placed in blocks language file! They were moved to user language file and renamed. (trabis)
+ - Fix: Impossible to "delete" or "update groups" of selected users. Table sorting does not work with select fields! Table sorting was disabled for now. Also, the action for deleting users was not matching the action requested by the submit form.
+ - Improving fix for "Arbitrary file deletion" reported by Ono. Make sure file is inside "themes" directory. (onokazu/trabis)
+ - Fixing Xss attack, and possible sql injections on admin user page(reported by Ono).. (onokazu/trabis)
+ - Added 3 language constants for interest, occupation and location for usage on "search user" page. . (trabis) 
+ - Altered 3 language constants for interest, occupation and location used on "add/edit user" page.. (trabis) 
+ - Fixed error messages constants that were using old definitions. . (trabis) 
+ - Fixing "full path disclosure" (onokazu/trabis) 
+ - Fix an error when we commit with blank.gif (formuss)
+ - Add default image for avatar (formuss)
+ - Clean variables passed by submit (formuss)
+ - Add case in clean variable function (formuss)
+ - Load english language as default (formuss)
+ - Fix errors with _AM_SYSTEM_DBUPDATED define in sub file (formuss)
+ - Fix an error on banners client deletion (formuss)
+ - Fix banners error on search client name (formuss)
+ - Fix an error when add smilies with existing file (formuss)
+ - Fix banners error on search client name (formuss)
+ - Fix an error when add smilies with existing file (formuss)
+ - Fix an error with IE (formuss)
+ - Fix problem for changing module name (formuss)
  - ID: 3089455 (wrong width in Profile Style.css) (Mamba)
  - ID: 3081037 (Updated PHP & MySQL requirementes) (Anderssk/Mamba)
  - ID: 3089251 (Checkboxes in Block Accees not working) (Mamba/Formuss)
@@ -23,6 +51,7 @@ Bug Fixes:
  - Removing file class/xoopsform/formtree.php, class is not working and not following Xoops naming conventions (trabis)
 
 Design Fixes:
+ - update legacy admin gui (change link in header) - xoops 2.5.0 (kris_fr)
  - correction of image links and cleaning css code in legacy admin gui (kris_fr)
  - correction and cleaning css code and deleting unused images in installer (kris_fr)
  - correction define language, cleaning css code and deleting unused files in zetadigme admin gui (kris_fr)
@@ -30,6 +59,7 @@ Design Fixes:
  - design template system_preferences.html in zetadigme admin gui (kris_fr)
  - suico theme : delete french language, correction filemanager link and language define for baradmin/footerstatic, add if no avatar in userbar popup (kris_fr)
  - suico theme : minors fixes for list : ol li (kris_fr)
+ - fix suico thm for ie (kris_fr)
  - fix and cleaning css code in modules/system/css (kris_fr)
  - complete generic class in modules/system/css/class.css (kris_fr)
  - rebuild default admin gui based by morphogenesis 3.1.3 (voltan)
@@ -48,6 +78,12 @@ Design Fixes:
  - add imagemanager.css for imagemanager.html (voltan)
  - redesign fatal error message (kris_fr)
  - redesign upgrade process (kris_fr)
+ - complete legacy admin gui : icons missing and link for help page (kris_fr)
+ - fix block theme with pm module (kris_fr)
+ - fix td align in pm_pmlite.html (kris_fr)
+ - fix cookie Styleswitch - problem with old orange style for default admin gui (kris_fr)
+ - fix color link under ie8/9 in default admin gui footer (kris_fr)
+ - add help page in zetadigme admin gui (kris_fr)
 
 XOOPS:
  - user.php: User page

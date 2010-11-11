@@ -1,5 +1,5 @@
 <?php
-// $Id: welcome.php 5536 2010-10-18 03:29:42Z beckmi $
+// $Id: welcome.php 5529 2010-10-18 02:16:05Z beckmi $
 // _LANGCODE: ru
 // _CHARSET : UTF-8
 // Translator: 2010-10-18 andrey3761
