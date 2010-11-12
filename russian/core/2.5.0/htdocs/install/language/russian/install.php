@@ -50,7 +50,7 @@ define( "XOOPS_INSTALL_WIZARD", "Мастер установки XOOPS" );
 define( "LANGUAGE_SELECTION", "Выбор языка" );
 define( "LANGUAGE_SELECTION_TITLE", "Выберите язык, который будет использоваться в процессе установки");        // L128
 define( "INTRODUCTION", "Введение" );
-define( "INTRODUCTION_TITLE", "Добро пожаловать в мастер установки XOOPS 2.3" );        // L0
+define( "INTRODUCTION_TITLE", "Добро пожаловать в мастер установки XOOPS 2.5" );        // L0
 define( "CONFIGURATION_CHECK", "Проверка конфигурации" );
 define( "CONFIGURATION_CHECK_TITLE", "Проверка конфигурации сервера" );
 define( "PATHS_SETTINGS", "Пути" );
