@@ -1,8 +1,8 @@
-XOOPS 2.5.0 RC Release
+XOOPS 2.5.0 Final Release
 
-The XOOPS Development Team is pleased to announce the release of XOOPS 2.5.0 RC.
+The XOOPS Development Team is pleased to announce the release of XOOPS 2.5.0 Final. Several bugs have been corrected and we would like to thank everybody who contributed in finding bugs and fixing them.
 
-This release builds on the successful XOOPS 2.4.x series and is a major redesign of the System Module, which has been AJAX-ed using jQuery, done mainly by Nicolas Andricq (ForMusS), Cointin Maxime (kraven_30), and Grégory Mage (Mage). Other major contributors include Trabis, Voltan, and Kris_fr. 
+This version builds on the successful XOOPS 2.4.x series and is a major redesign of the System Module, which has been AJAX-ed using jQuery, done mainly by Nicolas Andricq (ForMusS), Cointin Maxime (kraven_30), and Grégory Mage (Mage). Other major contributors include Trabis, Voltan, and Kris_fr. We also appreciate extra contributions to this release from Onokazu.
 
 Some of the major improvements/additions include: 
 
@@ -18,7 +18,7 @@ Some of the major improvements/additions include:
 and many more.
 
 
-Download from [url=https://sourceforge.net/projects/xoops/files/XOOPS%20Core%20%28Beta%20Releases%29/]Sourceforge repository[/url].
+Download from [url=https://sourceforge.net/projects/xoops/files/XOOPS%20Core%20%28stable%20releases%29/XOOPS%202.5.0/]Sourceforge repository[/url].
 
 System requirements
 -----------------------------------
@@ -37,13 +37,7 @@ Downloading XOOPS
 -----------------------------------
 
 Your can get this release package from the sourceforge.net file repository.
-Both .zip and .gz archives are provided.
-
------------
-WARNING: This is RC (Release Candidate) release for testing only!!!! 
-
-DO NOT install it on a production site and DO NOT upgrade any production site with it!!!
------------
+There are .7z, .zip and .gz archives provided.
 
 
 Installing XOOPS
@@ -94,4 +88,4 @@ Release announcement: https://lists.sourceforge.net/lists/listinfo/xoops-announc
 
 
 XOOPS Development Team
-October 18, 2010
+November 10, 2010

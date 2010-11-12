@@ -1,8 +1,8 @@
 <?php
-// $Id: cpanel.php 5536 2010-10-18 03:29:42Z beckmi $
+// $Id: cpanel.php 5566 2010-10-20 11:45:26Z beckmi $
 // _LANGCODE: ru
 // _CHARSET : UTF-8
-// Translator: 2010-10-18 andrey3761
+// Translator: 2010-11-12 andrey3761
 
 define("_MD_AM_VRSN", "Версия");
 define("_MD_AM_FINDUSER", "Поиск пользователей");

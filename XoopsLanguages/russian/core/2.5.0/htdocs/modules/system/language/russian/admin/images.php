@@ -4,7 +4,7 @@
  * @license     http://www.fsf.org/copyleft/gpl.html GNU public license
  * _LANGCODE    ru
  * _CHARSET     UTF-8
- * Translator   2010-04-25 andrey3761
+ * Translator   2010-11-11 andrey3761
  * @version     $Id: images.php 5566 2010-10-20 11:45:26Z beckmi $
  */
 

@@ -4,7 +4,7 @@
  * @license     http://www.fsf.org/copyleft/gpl.html GNU public license
  * _LANGCODE    ru
  * _CHARSET     UTF-8
- * Translator   2010-10-10 andrey3761
+ * Translator   2010-11-11 andrey3761
  * @version     $Id$
  */
 
@@ -64,9 +64,9 @@ define("_AM_SYSTEM_MAINTENANCE_DUMP_RESULT", "Результат");
 define("_AM_SYSTEM_MAINTENANCE_DUMP_RECORDS", "запись(ей)");
 
 // Tips
-define( '_AM_SYSTEM_MAINTENANCE_TIPS', 
-'<ul>
+define( "_AM_SYSTEM_MAINTENANCE_TIPS", 
+"<ul>
 <li>Вы можете сделать простое обслуживание системы XOOPS: очистить кэш и таблицу сессий, обслуживать таблицы базы данных</li>
-</ul>' );
+</ul>" );
 
 ?>

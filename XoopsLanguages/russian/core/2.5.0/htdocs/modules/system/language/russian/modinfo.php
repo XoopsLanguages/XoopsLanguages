@@ -1,8 +1,8 @@
 <?php
-// $Id: modinfo.php 5105 2010-08-26 20:58:26Z trabis $
+// $Id: modinfo.php 5566 2010-10-20 11:45:26Z beckmi $
 // _LANGCODE: ru
 // _CHARSET : UTF-8
-// Translator: 2010-10-09 andrey3761
+// Translator: 2010-11-12 andrey3761
 
 // Module Info
 
@@ -19,13 +19,13 @@ define("_MI_SYSTEM_BNAME4", "Поиск");
 define("_MI_SYSTEM_BNAME5", "В ожидании");
 define("_MI_SYSTEM_BNAME6", "Основное меню");
 define("_MI_SYSTEM_BNAME7", "Информация сайта");
-define('_MI_SYSTEM_BNAME8', "Кто онлайн");
-define('_MI_SYSTEM_BNAME9', "Лучшие отправители");
-define('_MI_SYSTEM_BNAME10', "Новые участники");
-define('_MI_SYSTEM_BNAME11', "Последние комментарии");
+define("_MI_SYSTEM_BNAME8", "Кто онлайн");
+define("_MI_SYSTEM_BNAME9", "Лучшие отправители");
+define("_MI_SYSTEM_BNAME10", "Новые участники");
+define("_MI_SYSTEM_BNAME11", "Последние комментарии");
 // RMV-NOTIFY
-define('_MI_SYSTEM_BNAME12', "Настройки оповещения");
-define('_MI_SYSTEM_BNAME13', "Темы оформления");
+define("_MI_SYSTEM_BNAME12", "Настройки оповещения");
+define("_MI_SYSTEM_BNAME13", "Темы оформления");
 
 // Names of admin menu items
 define("_MI_SYSTEM_ADMENU1", "Баннеры");

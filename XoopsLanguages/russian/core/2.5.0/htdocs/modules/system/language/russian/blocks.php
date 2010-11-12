@@ -1,8 +1,8 @@
 <?php
-// $Id: blocks.php 5536 2010-10-18 03:29:42Z beckmi $
+// $Id: blocks.php 5566 2010-10-20 11:45:26Z beckmi $
 // _LANGCODE: ru
 // _CHARSET : UTF-8
-// Translator: 2010-10-18 andrey3761
+// Translator: 2010-11-12 andrey3761
 
 // Блоки
 define("_MB_SYSTEM_ADMENU","Администрированиe");
@@ -48,6 +48,6 @@ define("_MB_SYSTEM_SECURE", "Безопасный вход");
 define("_MB_SYSTEM_NUMTHEME","Тема оформления: %s");
 define("_MB_SYSTEM_THSHOW","Показывать скриншот ");
 define("_MB_SYSTEM_THWIDTH","Ширина скриншота");
-define('_MB_SYSTEM_REMEMBERME', 'Запомнить меня');
+define("_MB_SYSTEM_REMEMBERME", "Запомнить меня");
 
 ?>
