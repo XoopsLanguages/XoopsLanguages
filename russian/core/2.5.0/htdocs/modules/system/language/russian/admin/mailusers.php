@@ -4,8 +4,8 @@
  * @license     http://www.fsf.org/copyleft/gpl.html GNU public license
  * _LANGCODE    ru
  * _CHARSET     UTF-8
- * Translator   2010-04-25 andrey3761
- * @version     $Id: mailusers.php 5016 2010-08-23 08:20:54Z forxoops $
+ * Translator   2010-11-11 andrey3761
+ * @version     $Id: mailusers.php 5566 2010-10-20 11:45:26Z beckmi $
  */
  
 define("_AM_SYSTEM_MAILUSERS_AMIFCHECKD", "Если это отмечено, то все вышеуказанное и личные сообщения будут игнорироваться");

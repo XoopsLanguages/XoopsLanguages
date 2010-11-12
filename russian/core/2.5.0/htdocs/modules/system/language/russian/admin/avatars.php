@@ -4,7 +4,7 @@
  * @license     GNU GPL 2 (http://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
  * _LANGCODE    en
  * _CHARSET     UTF-8
- * Translator   2010-10-09 andrey3761
+ * Translator   2010-11-11 andrey3761
  * @version     $Id: avatars.php 5106 2010-08-27 13:33:06Z trabis $
  */
 

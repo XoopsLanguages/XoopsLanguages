@@ -4,34 +4,34 @@
  * @license     http://www.fsf.org/copyleft/gpl.html GNU public license
  * _LANGCODE    ru
  * _CHARSET     UTF-8
- * Translator   2010-10-09 andrey3761
- * @version     $Id: preferences.php 5036 2010-08-25 09:40:27Z forxoops $
+ * Translator   2010-11-11 andrey3761
+ * @version     $Id: preferences.php 5570 2010-10-20 20:51:35Z beckmi $
  */
 
 // dont change
 define("_AM_DBUPDATED",_AM_SYSTEM_DBUPDATED);
 
 //Nav
-define('_AM_SYSTEM_PREFERENCES_NAV_MAIN', 'Конфигурация');
-/*define('_AM_SYSTEM_PREFERENCES_NAV_MD_AM_GENERAL', 'General Settings');
-define('_AM_SYSTEM_PREFERENCES_NAV_MD_AM_USERSETTINGS', 'User Info Settings');
-define('_AM_SYSTEM_PREFERENCES_NAV_MD_AM_METAFOOTER', 'Meta Tags and Footer');
-define('_AM_SYSTEM_PREFERENCES_NAV_MD_AM_CENSOR', 'Word Censoring Options');
-define('_AM_SYSTEM_PREFERENCES_NAV_MD_AM_SEARCH', 'Search Options');
-define('_AM_SYSTEM_PREFERENCES_NAV_MD_AM_MAILER', 'Mail Setup');
-define('_AM_SYSTEM_PREFERENCES_NAV_MD_AM_AUTHENTICATION', 'Authentication Options');*/
+define("_AM_SYSTEM_PREFERENCES_NAV_MAIN", "Конфигурация");
+/*define("_AM_SYSTEM_PREFERENCES_NAV_MD_AM_GENERAL", "General Settings");
+define("_AM_SYSTEM_PREFERENCES_NAV_MD_AM_USERSETTINGS", "User Info Settings");
+define("_AM_SYSTEM_PREFERENCES_NAV_MD_AM_METAFOOTER", "Meta Tags and Footer");
+define("_AM_SYSTEM_PREFERENCES_NAV_MD_AM_CENSOR", "Word Censoring Options");
+define("_AM_SYSTEM_PREFERENCES_NAV_MD_AM_SEARCH", "Search Options");
+define("_AM_SYSTEM_PREFERENCES_NAV_MD_AM_MAILER", "Mail Setup");
+define("_AM_SYSTEM_PREFERENCES_NAV_MD_AM_AUTHENTICATION", "Authentication Options");*/
 
 //Tips
-define('_AM_SYSTEM_PREFERENCES_NAV_TIPS', '<ul><li>Центр управления параметрами сайта.</li></ul>');
+define("_AM_SYSTEM_PREFERENCES_NAV_TIPS", "<ul><li>Центр управления параметрами сайта.</li></ul>");
 /*
 
-define('_AM_SYSTEM_PREFERENCES_NAV_TIPS_MD_AM_GENERAL', 'A faire');
-define('_AM_SYSTEM_PREFERENCES_NAV_TIPS_MD_AM_USERSETTINGS', 'A faire');
-define('_AM_SYSTEM_PREFERENCES_NAV_TIPS_MD_AM_METAFOOTER', 'A faire');
-define('_AM_SYSTEM_PREFERENCES_NAV_TIPS_MD_AM_CENSOR', 'A faire');
-define('_AM_SYSTEM_PREFERENCES_NAV_TIPS_MD_AM_SEARCH', 'A faire');
-define('_AM_SYSTEM_PREFERENCES_NAV_TIPS_MD_AM_MAILER', 'A faire');
-define('_AM_SYSTEM_PREFERENCES_NAV_TIPS_MD_AM_AUTHENTICATION', 'A faire');
+define("_AM_SYSTEM_PREFERENCES_NAV_TIPS_MD_AM_GENERAL", "A faire");
+define("_AM_SYSTEM_PREFERENCES_NAV_TIPS_MD_AM_USERSETTINGS", "A faire");
+define("_AM_SYSTEM_PREFERENCES_NAV_TIPS_MD_AM_METAFOOTER", "A faire");
+define("_AM_SYSTEM_PREFERENCES_NAV_TIPS_MD_AM_CENSOR", "A faire");
+define("_AM_SYSTEM_PREFERENCES_NAV_TIPS_MD_AM_SEARCH", "A faire");
+define("_AM_SYSTEM_PREFERENCES_NAV_TIPS_MD_AM_MAILER", "A faire");
+define("_AM_SYSTEM_PREFERENCES_NAV_TIPS_MD_AM_AUTHENTICATION", "A faire");
 */
 define("_MD_AM_SITEPREF","Конфигурация сайта");
 define("_MD_AM_SITENAME","Наименование сайта");
@@ -77,7 +77,7 @@ define("_MD_AM_USEMYSESSDSC","Выберите Да, для использова
 define("_MD_AM_SESSNAME","Имя сессии");
 define("_MD_AM_SESSNAMEDSC","Имя сессии (Действительно только, если 'Использовать обычную сессию' включено)");
 define("_MD_AM_SESSEXPIRE","Истечение срока сессий");
-define("_MD_AM_SESSEXPIREDSC","Максимальная продолжительность сессии в режиме ожидания в секундах (Действительно только если включен режим использования обычных сессий. Работает только если Вы используете PHP4.2.0 или выше)");
+define("_MD_AM_SESSEXPIREDSC","Максимальная продолжительность сессии в режиме ожидания в секундах (Действительно только если включен режим использования обычных сессий.)");
 define("_MD_AM_BANNERS","Включить поддержку баннеров?");
 define("_MD_AM_BANNERSDSC", "");
 define("_MD_AM_MYIP","Ваш IP адрес");
@@ -355,5 +355,5 @@ define("_MD_AM_MODULEPREF", "Конфигурация модулей");
 
 // Preference module system
 
-define('_AM_SYSTEM_PREFERENCES_SETTINGS', 'Конфигурация модуля системы');
+define("_AM_SYSTEM_PREFERENCES_SETTINGS", "Конфигурация модуля системы");
 ?>

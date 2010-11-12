@@ -4,7 +4,7 @@
  * @license     http://www.fsf.org/copyleft/gpl.html GNU public license
  * _LANGCODE    ru
  * _CHARSET     UTF-8
- * Translator   2010-10-09 andrey3761
+ * Translator   2010-11-11 andrey3761
  * @version     $Id: blocksadmin.php 5608 2010-10-23 17:36:57Z trabis $
  */
 

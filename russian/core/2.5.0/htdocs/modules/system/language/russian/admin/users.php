@@ -4,23 +4,23 @@
  * @license     http://www.fsf.org/copyleft/gpl.html GNU public license
  * _LANGCODE    ru
  * _CHARSET     UTF-8
- * Translator   2010-05-01 andrey3761
- * @version     $Id: users.php 5075 2010-08-26 11:56:22Z forxoops $
+ * Translator   2010-11-11 andrey3761
+ * @version     $Id: users.php 5608 2010-10-23 17:36:57Z trabis $
  */
 
 // Navigation
-define('_AM_SYSTEM_USERS_NAV_MANAGER','Менеджер пользователей');
-define('_AM_SYSTEM_USERS_NAV_MAIN','Управление пользователями');
-define('_AM_SYSTEM_USERS_NAV_ADVANCED_SEARCH','Расширенный поиск');
-define('_AM_SYSTEM_USERS_NAV_ADD_USER','Добавление пользователя');
-define('_AM_SYSTEM_USERS_NAV_EDIT_USER','Редактировать пользователя');
-define('_AM_SYSTEM_USERS_NAV_DELETE_USER','Удалить пользователя');
+define("_AM_SYSTEM_USERS_NAV_MANAGER","Менеджер пользователей");
+define("_AM_SYSTEM_USERS_NAV_MAIN","Управление пользователями");
+define("_AM_SYSTEM_USERS_NAV_ADVANCED_SEARCH","Расширенный поиск");
+define("_AM_SYSTEM_USERS_NAV_ADD_USER","Добавление пользователя");
+define("_AM_SYSTEM_USERS_NAV_EDIT_USER","Редактировать пользователя");
+define("_AM_SYSTEM_USERS_NAV_DELETE_USER","Удалить пользователя");
 
 // Tips
-define('_AM_SYSTEM_USERS_NAV_TIPS','
+define("_AM_SYSTEM_USERS_NAV_TIPS","
 <ul>
 <li>Здесь Вы сможете управлять зарегестрированными пользователями вашего сайта</li>
-</ul>');
+</ul>");
 
 // Main
 define("_AM_SYSTEM_USERS_USER","User");
@@ -61,6 +61,9 @@ define("_AM_SYSTEM_USERS_LOCATION","Местожительство");
 define("_AM_SYSTEM_USERS_OCCUPATION","Род занятий");
 define("_AM_SYSTEM_USERS_INTEREST","Интересы");
 define("_AM_SYSTEM_USERS_URLC","URL contains");
+define("_AM_SYSTEM_USERS_LOCATIONC","Местожительство:");
+define("_AM_SYSTEM_USERS_OCCUPATIONC","Род занятий:");
+define("_AM_SYSTEM_USERS_INTERESTC","Интересы:");
 define("_AM_SYSTEM_USERS_LASTLOGMORE","Последний визит был более чем <span style='color:#ff0000;'>X</span> дней назад");
 define("_AM_SYSTEM_USERS_LASTLOGLESS","Последний визит был менее че <span style='color:#ff0000;'>X</span> дней назад");
 define("_AM_SYSTEM_USERS_REGMORE","Дата регистрации более чем <span style='color:#ff0000;'>X</span> дней назад");
@@ -149,5 +152,9 @@ define("_AM_SYSTEM_USERS_ALLGROUP", "Все группы");
 define("_AM_SYSTEM_USERS_ALLUSER", "Все пользователи");
 define("_AM_SYSTEM_USERS_ACTIVEUSER", "Только активные пользователи");
 define("_AM_SYSTEM_USERS_INACTIVEUSER", "Только не активные пользователи");
+
+// Error
+define("_AM_SYSTEM_USERS_PSEUDO_ERROR","Пользователь %s уже существует");
+define("_AM_SYSTEM_USERS_MAIL_ERROR","Почтовый ящик %s уже существует");
 
 ?>
