@@ -49,7 +49,7 @@ define("_US_YOURREGISTERED2", "Du er nu registreret. Vent venligst til din konto
 // %s is your site name
 define("_US_NEWUSERREGAT", "Ny bruger registrering ved %s");
 // %s is a username
-define("_US_HASJUSTREG", "%S har netop registreret!");
+define("_US_HASJUSTREG", "%s har netop registreret!");
 define("_US_INVALIDMAIL", "FEJL: Ugyldig e-mail");
 define("_US_EMAILNOSPACES", "FEJL: E-mail adresser kan ikke indeholder mellemrum.");
 define("_US_INVALIDNICKNAME", "FEJL: Ugyldigt brugernavn");
