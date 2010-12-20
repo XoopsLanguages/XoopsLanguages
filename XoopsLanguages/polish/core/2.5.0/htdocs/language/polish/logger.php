@@ -30,14 +30,14 @@ define('_LOGGER_INCLUDED_FILES', "Included files");
 define('_LOGGER_FILES', "%s plików");
 define('_LOGGER_MEM_USAGE', "Zużycie pamięci");
 define('_LOGGER_MEM_ESTIMATED', "%s [Szacunkowo]");
-define('_LOGGER_NONE', "Żade (None)");
+define('_LOGGER_NONE', "Żadne (None)");
 define('_LOGGER_ALL', "Wszystkie (All)");
 define('_LOGGER_ERRORS', "Błędy (Errors)");
-define('_LOGGER_DEPRECATED', "Prestarzałe (Deprecated)");
+define('_LOGGER_DEPRECATED', "Przestarzałe (Deprecated)");
 define('_LOGGER_QUERIES', "Zapytania (Queries)");
 define('_LOGGER_BLOCKS', "Bloki (Blocks)");
-define('_LOGGER_EXTRA', "Dodatowe (Extra)");
-define('_LOGGER_TIMERS', "Liczniki czasu (Timers)");
+define('_LOGGER_EXTRA', "Dodatkowe (Extra)");
+define('_LOGGER_TIMERS', "Czasy ładowania (Timers)");
 
 
 define('_LOGGER_TIMETOLOAD', "%s took %s seconds to load.");

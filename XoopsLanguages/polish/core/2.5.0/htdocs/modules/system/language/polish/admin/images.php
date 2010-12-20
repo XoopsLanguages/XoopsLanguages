@@ -13,8 +13,8 @@ define("_AM_SYSTEM_IMAGES_MAIN","Pliki graficzne - strona główna");
 define("_AM_SYSTEM_IMAGES_IMGLIST","Lista plików graficznych");
 
 // Main
-define("_AM_SYSTEM_IMAGES_ADDCAT","Dodaj kategorię plików graficznych");
-define("_AM_SYSTEM_IMAGES_ADDIMG","Dodaj plik");
+define("_AM_SYSTEM_IMAGES_ADDCAT","Dodaj kategorię dla obrazków");
+define("_AM_SYSTEM_IMAGES_ADDIMG","Dodaj obrazek");
 define("_AM_SYSTEM_IMAGES_EDITIMG","Edytuj obraz");
 define("_AM_SYSTEM_IMAGES_CATLIST","Lista kategorii plików graficznych");
 define("_AM_SYSTEM_IMAGES_NOCAT","Brak dostępnych kategorii");
@@ -29,14 +29,14 @@ define("_AM_SYSTEM_IMAGES_VIEW","Pokaż");
 define("_AM_SYSTEM_IMAGES_INDB","Zapisuj w bazie danych (jako dane binarne typu 'blob')");
 define("_AM_SYSTEM_IMAGES_ASFILE","Zapisuj jako pliki (w zdefiniowanym katalogu 'uploads)<br />");
 define("_AM_SYSTEM_IMAGES_IMGCATNAME","Nazwa kategorii:");
-define("_AM_SYSTEM_IMAGES_IMGCATRGRP",'Wybierz grupy mogące używać Menedżera obrazów:<br /><br /><span style="font-weight: normal;">Te grupy mogą wybierać obrazy ale nie mogą ich dodawać. Webmaster ma uprawnienia automatyczne.</span>');
+define("_AM_SYSTEM_IMAGES_IMGCATRGRP",'Wybierz grupy mające dostęp do tej kategorii:<br /><br /><span style="font-weight: normal;">Te grupy mogą wybierać obrazki z tej kategorii, ale nie mogą ich dodawać. Webmaster ma uprawnienia automatyczne.</span>');
 define("_AM_SYSTEM_IMAGES_IMGCATWGRP",'Wybierz grupy mogące dodawać obrazy:<br /><br /><span style="font-weight: normal;">Najczęściej używane dla grup moderatorów i administratorów.</span>');
-define("_AM_SYSTEM_IMAGES_IMGCATDISPLAY","Wyświetlić tę kategorię ?");
+define("_AM_SYSTEM_IMAGES_IMGCATDISPLAY","Wyświetlić tę kategorię?");
 define("_AM_SYSTEM_IMAGES_IMGCATSTRTYPE","Pliki zostały przesłane do:");
 define("_AM_SYSTEM_IMAGES_STRTYOPENG","Tego ustawienia nie można później zmienić!");
 define("_AM_SYSTEM_IMAGES_IMGCATWEIGHT","Kolejność wyświetlania:");
-define("_AM_SYSTEM_IMAGES_OFF","Wyświetlaj w menadzerze");
-define("_AM_SYSTEM_IMAGES_ON","Nie wyświetlaj w menadzerze");
+define("_AM_SYSTEM_IMAGES_OFF","Wyświetlaj");
+define("_AM_SYSTEM_IMAGES_ON","Nie wyświetlaj");
 
 // Messages
 define("_AM_SYSTEM_IMAGES_RUDELIMG","Czy na pewno chcesz usunąć ten obraz?");
