@@ -21,7 +21,7 @@ define("_AM_SYSTEM_PREFERENCES_NAV_MD_AM_MAILER","Mail Setup");
 define("_AM_SYSTEM_PREFERENCES_NAV_MD_AM_AUTHENTICATION","Authentication Options");*/
 
 //Tips
-define("_AM_SYSTEM_PREFERENCES_NAV_TIPS","<ul><li>Manage all site settings.</li></ul>");
+define("_AM_SYSTEM_PREFERENCES_NAV_TIPS","<ul><li>Zarządzanie ustawieniami strony.</li></ul>");
 /*
 
 define("_AM_SYSTEM_PREFERENCES_NAV_TIPS_MD_AM_GENERAL","A faire");

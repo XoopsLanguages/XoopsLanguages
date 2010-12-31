@@ -29,10 +29,10 @@ define("_AM_SYSTEM_MAINTENANCE_CHOICE2","Sprawdź");
 define("_AM_SYSTEM_MAINTENANCE_CHOICE3","Napraw");
 define("_AM_SYSTEM_MAINTENANCE_CHOICE4","Analizuj");
 define("_AM_SYSTEM_MAINTENANCE_TABLES_DESC", 
-"ANALYZE TABLE analyzes and stores the key distribution for a table. During the analysis, the table is locked with a read lock.<br />
-CHECK TABLE checks a table or tables for errors.<br />
-OPTIMIZE TABLE to reclaim the unused space and to defragment the data file.<br />
-REPAIR TABLE repairs a possibly corrupted table.");
+"Analizuj [ANALYZE TABLE] - Analizuje i zbiera statystyki dla tabeli, które służą silnikowi bazy danych do optymalizacji pracy. W czasie analizy tabela zostaje zablokowana.<br />
+Sprawdź [CHECK TABLE] - Sprawdza poprawność tabeli i uaktualnia jej kluczowe statystyki.<br />
+Optymalizuj [OPTIMIZE TABLE] - Zwalnia nieużywaną przestrzeń i defragmentuje pliki danych.<br />
+Napraw [REPAIR TABLE] - Naprawia uszkodzoną tabelę.");
 
 define("_AM_SYSTEM_MAINTENANCE_RESULT","Wynik");
 define("_AM_SYSTEM_MAINTENANCE_RESULT_NO_RESULT","Brak wyniku");
@@ -65,7 +65,7 @@ define("_AM_SYSTEM_MAINTENANCE_DUMP_RECORDS", "rekord(ów)");
 // Tips
 define("_AM_SYSTEM_MAINTENANCE_TIPS", 
 "<ul>
-<li>Tutaj możesz w prosty sposób wykonać podstawowe czynności konserwacji zainstalowanego systemu Xoops: czyszczenie plików tymczasowych Cache, czyszczenie tabeli z zapisem sesji, podstawowe operacje serwisowe na tabelach mySql</li>
+<li>Tutaj możesz w prosty sposób wykonać podstawowe czynności konserwacji zainstalowanego systemu Xoops: czyszczenie plików tymczasowych Cache, czyszczenie tabeli z zapisem sesji, podstawowe operacje serwisowe na tabelach MySQL</li>
 </ul>");
 
 ?>
