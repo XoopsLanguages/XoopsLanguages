@@ -28,8 +28,8 @@ define("_AM_SYSTEM_AVATAR_SUREDEL","Jesteś pewien, że chcesz skasować tego Av
 // Tips
 define("_AM_SYSTEM_AVATAR_TIPS","
 <ul id='newsticker' class='newsticker'>
-<li>Manage all System or cutom avatars</li>
-<li>Site members can optionally fashion their own online personal called avatars.<br />This option can be set off from module User preferences.</li>
+<li>Zarządzanie systemowymi i dodatkowymi avatarami</li>
+<li>Użytkownicy mogą przyozdobić swoje profile na stronie tak zwanymi avatarami.<br />Ta opcja może zostać wyłączona poprzez preferencje Ustawienia użytkownika.</li>
 </ul>");
 
 ?>

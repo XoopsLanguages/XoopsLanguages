@@ -18,8 +18,8 @@ define("_AM_SYSTEM_COMMENTS_MODULE_ADMIN","Moduły - administracja");
 // Tips
 define("_AM_SYSTEM_COMMENTS_NAV_TIPS","
 <ul>
-<li>Manage comments for all your modules.</li>
-<li>Delete comments easily with the purge.</li>
+<li>Zarządzanie komentarzami ze wszystkich modułów.</li>
+<li>Łatwe usuwanie komentarzy poprzez przycisk Czyszczenie.</li>
 </ul>");
 
 // Form

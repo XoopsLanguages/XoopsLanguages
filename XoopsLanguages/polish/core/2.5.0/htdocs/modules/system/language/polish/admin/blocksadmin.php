@@ -70,16 +70,16 @@ define("_AM_SYSTEM_BLOCKS_DRAG","Przemieść blok");
 
 // Messages
 define("_AM_SYSTEM_BLOCKS_DBUPDATED", _AM_SYSTEM_DBUPDATED);
-define("_AM_SYSTEM_BLOCKS_RUSUREDEL",'Czy na pewno chcesz skasować blok ? <div class="bold">%s</div>');
+define("_AM_SYSTEM_BLOCKS_RUSUREDEL",'Czy na pewno chcesz skasować ten blok? <div class="bold">%s</div>');
 define("_AM_SYSTEM_BLOCKS_SYSTEMCANT","Nie można skasować bloku systemowego!");
 define("_AM_SYSTEM_BLOCKS_MODULECANT","Ten blok nie może teraz zostać skasowany! Jeśli chcesz go skasować musisz najpierw wyłączyć moduł.");
 
 // Tips
 define("_AM_SYSTEM_BLOCKS_TIPS",
 '<ul>
-<li>You can easily change side or order position with the drag\'n drop, click on <img class="tooltip" src="%s" alt="'._AM_SYSTEM_BLOCKS_DRAG.'" title="'._AM_SYSTEM_BLOCKS_DRAG.'" /> this image and set your site just the way you want it</li>
-<li>Add a new custom block</li>
-<li>Set block online or offline by clicking on <img class="tooltip" width="16" src="%s" alt="'._AM_SYSTEM_BLOCKS_DISPLAY.'" title="'._AM_SYSTEM_BLOCKS_DISPLAY.'"/> or <img class="tooltip" width="16" src="%s" alt="'._AM_SYSTEM_BLOCKS_HIDE.'" title="'._AM_SYSTEM_BLOCKS_HIDE.'" /></li>
+<li>Można łatwo zmienić położenie i kolejność wyświetlania bloków poprzez ich przeciąganie (drag\'n drop), kliknij na <img class="tooltip" src="%s" alt="'._AM_SYSTEM_BLOCKS_DRAG.'" title="'._AM_SYSTEM_BLOCKS_DRAG.'" /> i przesuń gdzie chcesz</li>
+<li>Dodawanie nowych własnych bloków</li>
+<li>Ustawienie czy dany blok ma być widoczny czy nie kliknięciem na <img class="tooltip" width="16" src="%s" alt="'._AM_SYSTEM_BLOCKS_DISPLAY.'" title="'._AM_SYSTEM_BLOCKS_DISPLAY.'"/> lub <img class="tooltip" width="16" src="%s" alt="'._AM_SYSTEM_BLOCKS_HIDE.'" title="'._AM_SYSTEM_BLOCKS_HIDE.'" /></li>
 </ul>');
 
 ?>

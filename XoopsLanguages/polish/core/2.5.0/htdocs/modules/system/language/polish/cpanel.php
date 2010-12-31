@@ -24,5 +24,5 @@ define("_MD_CPANEL_QUICKLINKS", "Linki");
 define("_MD_CPANEL_SITE_ADMINISTRATION", "Administracja %s");
 
 // for help page 
-define("_MD_CPANEL_HELPCENTER", "Welcome to XOOPS Help Center");
+define("_MD_CPANEL_HELPCENTER", "Witamy w Centrum Pomocy XOOPS");
 ?>

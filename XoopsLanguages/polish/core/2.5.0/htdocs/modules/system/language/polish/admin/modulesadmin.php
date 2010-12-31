@@ -171,10 +171,10 @@ define("_AM_SYSTEM_MODULES_TABLE_DROPPED_FAILDED", "BŁĄD: Nie masz praw do usu
 // Tips
 define("_AM_SYSTEM_MODULES_TIPS", 
 "<ul>
-<li>If you install a new module, remember to setup module preferences, blocks and users permissions!</li>
-<li>For hide module into Main Menu block, set order to 0</li>
-<li>Delete unused module files from your server to avoid security issues and keep your website safe.</li>
-<li>To change order of modules (which will be reflected in the Menu), you just need to drag and drop the modules to the desired placement.</li>
+<li>Po instalacji modułu należy pamiętać o ustawieniu preferencji modułu, bloków i uprawnień dla użytkowników!</li>
+<li>Aby ukryć moduł w bloku Menu Główne, ustawić kolejność na 0</li>
+<li>Należy usuwać pliki niezainstalowanych i nieużywanych modułów z serwera aby zminimalizować prawdopobieństwo wystąpienia dziur i błędów, które moga zagrozić bezpieczeństwu.</li>
+<li>Aby zmienić kolejność modułow (co ma odbicie w Menu Głównym), wystarczy przeniść metodą drag and drop moduł w odpowiednie miejsce.</li>
 </ul>");
 define("_AM_SYSTEM_MODULES_CONFIRM_TIPS",
 "<ul>
