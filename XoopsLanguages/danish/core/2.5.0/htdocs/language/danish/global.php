@@ -54,7 +54,7 @@ define("_QUOTEC", "Citat:");
 // %%%%%%    File Name admin.php     %%%%%
 define("_NOPERM", "Beklager, du har ikke rettighed til dette område.");
 // %%%%%        Common Phrases        %%%%%
-define("_NO", "Ingen");
+define("_NO", "Nej");
 define("_YES", "Ja");
 define("_EDIT", "Redigér");
 define("_DELETE", "Slet");
@@ -75,8 +75,8 @@ define("_CREDITS", "Medvirkende");
 define("_LICENCE", "Licens");
 define("_ERRORS", "Fejl");
 define("_NONE", "Ingen");
-define("_ON", "om");
-define("_READS", "læser");
+define("_ON", "den");
+define("_READS", "læst");
 define("_WELCOMETO", "Velkommen til %s");
 define("_SEARCH", "Søg");
 define("_ALL", "Alle");
