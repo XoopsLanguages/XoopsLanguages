@@ -1,5 +1,25 @@
 <?php
-// $Id: global.php 5683 2010-11-01 11:03:22Z kris_fr $
+/**
+ * Language definitions for {@link XoopsFormDhtmlTextArea}
+ *
+ * You may not change or alter any portion of this comment or credits
+ * of supporting developers from this source code or any supporting source code
+ * which is considered copyrighted (c) material of the original comment or credit authors.
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ *
+ * @copyright       The XOOPS Project http://sourceforge.net/projects/xoops/
+ * @license         http://www.fsf.org/copyleft/gpl.html GNU public license
+ * @package         kernel
+ * @subpackage      Xoops Global Language
+ * @since           2.3.0
+ * @author          Kazumi Ono <onokazu@xoops.org>
+ * @version         $Id: global.php 3751 2009-10-17 15:21:00Z trabis $
+ */
+defined('XOOPS_ROOT_PATH') or die('Restricted access');
+
+
 // _LANGCODE: pl
 // _CHARSET : UTF-8
 // Translator: tstempko, madreus
@@ -24,9 +44,11 @@ define('_NEWESTFIRST', 'Najpierw najnowsze');
 define('_MORE', 'więcej...');
 define('_MULTIPAGE', 'Aby podzielić twój artykuł na wiele stron, wpisz wyrażenie <font color=red>[pagebreak]</font> (razem z nawiasami) w treści artykułu.');
 define('_IFNOTRELOAD', 'Jeśli strona nie przeładowała się automatycznie, proszę kliknąć <a href=%s>tutaj</a>');
+
 // Error messages issued by XoopsObject::cleanVars()
 define('_XOBJ_ERR_REQUIRED', '%s jest wymagany');
 define('_XOBJ_ERR_SHORTERTHAN', '%s musi być krótszy niż %d znaków.');
+
 //%%%%%%	File Name themeuserpost.php 	%%%%%
 define('_PROFILE', 'Profil');
 define('_POSTEDBY', 'Napisał');
@@ -35,24 +57,31 @@ define('_SENDPMTO', 'Wyślij prywatną wiadomość do %s');
 define('_SENDEMAILTO', 'Wyślij email do %s');
 define('_ADD', 'Dodaj');
 define('_REPLY', 'Odpowiedz');
-define('_DATE', 'Data');// Posted date
+define('_DATE', 'Data');
+// Posted date
+
 //%%%%%%	File Name admin_functions.php 	%%%%%
 define('_MAIN', 'Główna');
 define('_MANUAL', 'Instrukcja obsługi');
 define('_INFO', 'Informacje');
 define('_CPHOME', 'Administracja');
 define('_YOURHOME', 'Twoja strona');
+
 //%%%%%%	File Name misc.php (who's-online popup)	%%%%%
 define('_WHOSONLINE', 'Kto jest na stronie?');
 define('_GUESTS', 'Goście');
 define('_MEMBERS', 'Użytkownicy');
 define('_ONLINEPHRASE', '<strong>%s</strong> użytkowników jest na stronie');
 define('_ONLINEPHRASEX', '<strong>%s</strong> użytkowników przegląda  <strong>%s </strong>');
-define('_CLOSE', 'Zamknij');// Close window
+define('_CLOSE', 'Zamknij');
+// Close window
+
 //%%%%%%	File Name module.textsanitizer.php 	%%%%%
 define('_QUOTEC', 'Cytat: ');
+
 //%%%%%%	File Name admin.php 	%%%%%
 define('_NOPERM', 'Przepraszamy, nie masz praw dostępu do tej części serwisu.');
+
 //%%%%%		Common Phrases		%%%%%
 define('_NO', 'Nie');
 define('_YES', 'Tak');
@@ -65,7 +94,10 @@ define('_LEFT', 'Lewa');
 define('_CENTER', 'Środek');
 define('_RIGHT', 'Prawa');
 define('_FORM_ENTER', 'Proszę wpisać %s');
-define('_MUSTWABLE', 'Plik %s musi mieć udostępnione prawo zapisu!');// %s represents file name
+
+// %s represents file name
+define('_MUSTWABLE', 'Plik %s musi mieć udostępnione prawo zapisu!');
+
 // Module info
 define('_PREFERENCES', 'Preferencje');
 define('_VERSION', 'Wersja');
@@ -112,7 +144,7 @@ define('_MD_IMGMAIN', 'Kategoria');
 define('_MD_EDITIMGCAT', 'Edytuj kategorię');
 define('_IMGMANAGER', 'Obrazki');
 define('_NUMIMAGES', '%s obrazków');
-define('_ADDIMAGE', 'Dodaj obrazek');
+define('_ADDIMAGE', 'Dodaj plik obrazka');
 define('_IMAGENAME', 'Nazwa:');
 define('_IMGMAXSIZE', 'Maksymalny dozwolony rozmiar (w bajtach): ');
 define('_IMGMAXWIDTH', 'Maksymalna dozwolona szerokość (w pikselach): ');
@@ -157,7 +189,7 @@ define('_MESSAGETOOLONG', 'Twoja wiadomość jest zbyt długa.');
 /**
 * xoops smilie
 */
-define('_AM_ADDSMILE', 'Dodaj emotikon');
+define('_AM_ADDSMILE',' Dodaj nową emotikonkę');
 define('_AM_SMILECODE', 'Kod');
 define('_AM_SMILEEMOTION', 'Opis');
 define('_AM_DISPLAYF', 'Wyświetlać w formularzu');

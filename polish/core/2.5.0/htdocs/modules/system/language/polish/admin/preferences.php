@@ -21,7 +21,7 @@ define("_AM_SYSTEM_PREFERENCES_NAV_MD_AM_MAILER","Mail Setup");
 define("_AM_SYSTEM_PREFERENCES_NAV_MD_AM_AUTHENTICATION","Authentication Options");*/
 
 //Tips
-define("_AM_SYSTEM_PREFERENCES_NAV_TIPS","<ul><li>Zarządzanie ustawieniami strony.</li></ul>");
+define("_AM_SYSTEM_PREFERENCES_NAV_TIPS","<ul><li>Zarządzaj wszystkimi ustawieniami witryny.</li></ul>");
 /*
 
 define("_AM_SYSTEM_PREFERENCES_NAV_TIPS_MD_AM_GENERAL","A faire");
@@ -51,8 +51,8 @@ define("_MD_AM_DEFAULTTZDSC", "");
 define("_MD_AM_DTHEME", "Domyślny temat (theme)");
 define("_MD_AM_DTHEMEDSC", "");
 define("_MD_AM_THEMESET", "Zestaw tematów");
-define("_MD_AM_CUSTOM_REDIRECT", "Use jGrowl redirect");
-define("_MD_AM_CUSTOM_REDIRECT_DESC", "replace old redirection by an jQuery redirection");
+define("_MD_AM_CUSTOM_REDIRECT", "Używaj przekierowania jGrowl redirect");
+define("_MD_AM_CUSTOM_REDIRECT_DESC", "Zamień stare przekierowania przekierowaniami jQuery redirection");
 define("_MD_AM_ANONNAME", "Nazwa dla użytkowników anonimowych");
 define("_MD_AM_ANONNAMEDSC", "");
 define("_MD_AM_MINPASS", "Minimalna długość hasła");

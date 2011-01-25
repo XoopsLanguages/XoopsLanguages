@@ -9,7 +9,7 @@
  
 // Main
 define("_AM_SYSTEM_CONFIG","Konfiguracja systemu");
-define("_AM_SYSTEM_CPANEL","Panel kontrolny");
+define("_AM_SYSTEM_CPANEL","Panel Systemu");
 define("_AM_SYSTEM_UPDATE","Aktualizacja");
 define("_AM_SYSTEM_GOTOMODULE","Przejdź do modułu");
 define("_AM_SYSTEM_HELP","Pomoc");

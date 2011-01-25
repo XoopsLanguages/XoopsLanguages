@@ -1,6 +1,6 @@
 <?php
 // $Id: groups.php 5580 2010-10-21 19:38:48Z forxoops $
-// _LANGCODE: en
+// _LANGCODE: pl
 // _CHARSET : UTF-8
 // Translator: XOOPS Translation Team
 // %%%%%%	Admin Module Name  AdminGroup 	%%%%%

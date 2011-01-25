@@ -1,8 +1,26 @@
 <?php
-// $Id: admin.php 4897 2010-06-19 02:55:48Z phppp $
-// _LANGCODE: pl
-// _CHARSET : UTF-8
-// Translator: tstempko
+/*
+ You may not change or alter any portion of this comment or credits
+ of supporting developers from this source code or any supporting source code 
+ which is considered copyrighted (c) material of the original comment or credit authors.
+ 
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+*/
+
+/**
+ *  Xoops Language
+ *
+ * @copyright       The XOOPS Project http://sourceforge.net/projects/xoops/
+ * @license         http://www.fsf.org/copyleft/gpl.html GNU public license
+ * @package         kernel
+ * @subpackage      Xoops Admin Language
+ * @since           2.0.0
+ * @author          Kazumi Ono <onokazu@xoops.org>
+ * @version         $Id: admin.php 0000 15/04/2009 16:03:56 
+ */
+defined('XOOPS_ROOT_PATH') or die('Restricted access');
 
 define("_AD_NORIGHT", "Nie masz uprawnień dostępu do tej strefy");
 define("_AD_ACTION", "Akcja");
@@ -13,7 +31,6 @@ define("_AD_NICKNAME", "Nick");
 define("_AD_EMAIL", "Email");
 define("_AD_AVATAR", "Avatar");
 define("_AD_REGISTERED", "Zarejestrowany dnia");
-// define("_AD_PRESSGEN", "To twoja pierwsza próba wejścia do sekcji administracji. Kliknij przycisk poniżej aby kontynuować.");
 define("_AD_LOGINADMIN", "Trwa logowanie...");
 define("_AD_WARNINGINSTALL","OSTRZEŻENIE: Katalog %s wciąż istnieje na serwerze. <br />Ze względu na zachowanie bezpieczeństwa serwisu należy całkowicie usunąć ten katalog.");
 define("_AD_WARNINGWRITEABLE","OSTRZEŻENIE: Plik %s ma wciąż prawa zapisu na serwerze. <br />Ze względu na zachowanie bezpieczeństwa serwisu proszę zmienić prawa dostępu dla tego pliku.<br /> dla Unix-a (444), dla Win32 (read-only/tylko do odczytu)");

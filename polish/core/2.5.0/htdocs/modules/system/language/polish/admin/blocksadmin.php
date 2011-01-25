@@ -2,7 +2,7 @@
 /**
  * @copyright   The XOOPS Project http://sourceforge.net/projects/xoops/
  * @license     http://www.fsf.org/copyleft/gpl.html GNU public license
- * _LANGCODE    en
+ * _LANGCODE    pl
  * _CHARSET     UTF-8
  * @version     $Id: blocksadmin.php 5608 2010-10-23 17:36:57Z trabis $
  */
