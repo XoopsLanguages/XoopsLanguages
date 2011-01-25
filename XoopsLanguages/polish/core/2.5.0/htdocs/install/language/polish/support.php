@@ -15,7 +15,11 @@ $supports = array();
 // Support site for Polish
 $supports["polish"] = array(
     "url"    => "http://www.xoops.pl/",
-    "title"  => "www.xoops.pl"
+    "title"  => "www.xoops.pl",
+    "url2"   => "http://www.xoops.com.pl/",
+    "title2" => "www.xoops.com.pl",
+    "url3"   => "http://www.xoops.org/",
+    "title3" => "www.xoops.org",
 );
 
 

@@ -47,4 +47,8 @@ define("THEME_MLUS",					"Wyślij email");
 define("THEME_AVATARS",					"Zarządzanie avatarkami");
 define("THEME_TPLS",					"Zarządzanie szablonami");
 define("THEME_COMMENTS",				"Zarządzanie komentarzami");
+define("THEME_ADMTOOLS",				"Narzędzia");
+define("THEME_ADMCLEAN",				"Utrzymanie");
+define("THEME_SYSSETTING",				"Ustawienia Modyły Sytemowego");
+
 ?>

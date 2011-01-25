@@ -2,7 +2,7 @@
 /**
  * @copyright   The XOOPS Project http://sourceforge.net/projects/xoops/
  * @license     http://www.fsf.org/copyleft/gpl.html GNU public license
- * _LANGCODE    en
+ * _LANGCODE    pl
  * _CHARSET     UTF-8
  * @version     $Id: banners.php 5580 2010-10-21 19:38:48Z forxoops $
  */

@@ -2,14 +2,14 @@
 /**
  * @copyright   The XOOPS Project http://sourceforge.net/projects/xoops/
  * @license     GNU GPL 2 (http://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
- * _LANGCODE    en
+ * _LANGCODE    pl
  * _CHARSET     UTF-8
  * @version     $Id: avatars.php 5573 2010-10-21 09:12:57Z kris_fr $
  */
 
 // Navigation
-define("_AM_SYSTEM_AVATAR_MANAGER", "Zarządzanie avatarami");
-define("_AM_SYSTEM_AVATAR_MAIN","Main");
+define("_AM_SYSTEM_AVATAR_MANAGER", "Menedżer avatarów");
+define("_AM_SYSTEM_AVATAR_MAIN","Menadżer");
 define("_AM_SYSTEM_AVATAR_SYSTEM", "Avatary systemowe");
 define("_AM_SYSTEM_AVATAR_CUSTOM", "Avatary dodatkowe");
 define("_AM_SYSTEM_AVATAR_ADD", "Dodaj Avatar");
@@ -20,10 +20,10 @@ define("_AM_SYSTEM_AVATAR_DELETE","Usuń Avatar");
 define("_AM_SYSTEM_AVATAR_ERROR","Błąd");
 define("_AM_SYSTEM_AVATAR_USERS","Użytkownicy używający tego avatara");
 define("_AM_SYSTEM_AVATAR_USE_FILE","Wybierz plik w: %s");
-define("_AM_SYSTEM_AVATAR_UPLOAD","Prześlij:");
+define("_AM_SYSTEM_AVATAR_UPLOAD","Wyślij na serwer(upload):");
 // Messages
-define("_AM_SYSTEM_AVATAR_FAILDEL","Nie udało się usunąć z bazy danych Avatara %s");
-define("_AM_SYSTEM_AVATAR_SUREDEL","Jesteś pewien, że chcesz skasować tego Avatara ?");
+define("_AM_SYSTEM_AVATAR_FAILDEL","Nie udało się usunąć avatara %s z bazy danych");
+define("_AM_SYSTEM_AVATAR_SUREDEL","Jesteś pewien, że chcesz usunąć tego avatara ?");
 
 // Tips
 define("_AM_SYSTEM_AVATAR_TIPS","

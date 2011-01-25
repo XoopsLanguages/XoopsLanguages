@@ -4,9 +4,8 @@
 // _CHARSET : UTF-8
 // Translator: tstempko
 
-// License
-define('LICENSE_NOT_WRITEABLE', 'License is %s . <br/><font style="colour:#ff0000">Make ../include/license.php Writable</font>');
-define('LICENSE_IS_WRITEABLE', 'License is %s');
+define('LICENSE_NOT_WRITEABLE', 'Licencja %s . <br/><font style="colour:#ff0000">Ustaw plik ../include/license.php jako zapisywalny</font>');
+define('LICENSE_IS_WRITEABLE', 'Licencja %s');
 
 define("_INSTALL_WEBMASTER","Webmasterzy");
 define("_INSTALL_WEBMASTERD","Webmasterzy tego serwisu");

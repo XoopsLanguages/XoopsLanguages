@@ -2,7 +2,7 @@
 /**
  * @copyright   The XOOPS Project http://sourceforge.net/projects/xoops/
  * @license     http://www.fsf.org/copyleft/gpl.html GNU public license
- * _LANGCODE    en
+ * _LANGCODE    pl
  * _CHARSET     UTF-8
  * @version     $Id: comments.php 5566 2010-10-20 11:45:26Z beckmi $
  */

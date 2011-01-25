@@ -2,7 +2,7 @@
 /**
  * @copyright   The XOOPS Project http://sourceforge.net/projects/xoops/
  * @license     http://www.fsf.org/copyleft/gpl.html GNU public license
- * _LANGCODE    en
+ * _LANGCODE    pl
  * _CHARSET     UTF-8
  * @version     $Id: modulesadmin.php 5580 2010-10-21 19:38:48Z forxoops $
  */
@@ -19,8 +19,8 @@ define("_AM_SYSTEM_MODULES_RUSUREINS","Zaintalować moduł?");
 define("_AM_SYSTEM_MODULES_RUSUREUNINS","Chcesz odinstalować ten moduł?");
 define("_AM_SYSTEM_MODULES_RUSUREUPD","Aktualizować moduł?");
 define("_AM_SYSTEM_MODULES_BTOMADMIN","Powrót do administracji modułami");
-define("_AM_SYSTEM_MODULES_INSTALLING","Installing ");
-define("_AM_SYSTEM_MODULES_UNINSTAL","Uninstall ");
+define("_AM_SYSTEM_MODULES_INSTALLING","Instalowanie ");
+define("_AM_SYSTEM_MODULES_UNINSTAL","Odinstaluj ");
 define("_AM_SYSTEM_MODULES_DEACTIVATE","Wyłącz ");
 define("_AM_SYSTEM_MODULES_ACTIVATE","Włącz ");
 define("_AM_SYSTEM_MODULES_UPDATING","Aktualizacja ");
@@ -40,7 +40,7 @@ define("_AM_SYSTEM_MODULES_FAILUPD", "Nie można zaktualizować %s.");
 define("_AM_SYSTEM_MODULES_FAILUNINS", "Nie można odinstalować %s.");
 define("_AM_SYSTEM_MODULES_FAILORDER", "Nie można posortować %s.");
 define("_AM_SYSTEM_MODULES_FAILWRITE", "Nie można zapisać do głównego menu.");
-define("_AM_SYSTEM_MODULES_ALEXISTS", "Moduł %s juz jest zainstalowany.");
+define("_AM_SYSTEM_MODULES_ALEXISTS", "Moduł %s jest już zainstalowany.");
 define("_AM_SYSTEM_MODULES_ERRORSC", "Błąd:");
 define("_AM_SYSTEM_MODULES_OKINS", "Moduł %s został zainstalowany.");
 define("_AM_SYSTEM_MODULES_OKACT", "Moduł %s został włączony.");
@@ -171,10 +171,10 @@ define("_AM_SYSTEM_MODULES_TABLE_DROPPED_FAILDED", "BŁĄD: Nie masz praw do usu
 // Tips
 define("_AM_SYSTEM_MODULES_TIPS", 
 "<ul>
-<li>Po instalacji modułu należy pamiętać o ustawieniu preferencji modułu, bloków i uprawnień dla użytkowników!</li>
-<li>Aby ukryć moduł w bloku Menu Główne, ustawić kolejność na 0</li>
-<li>Należy usuwać pliki niezainstalowanych i nieużywanych modułów z serwera aby zminimalizować prawdopobieństwo wystąpienia dziur i błędów, które moga zagrozić bezpieczeństwu.</li>
-<li>Aby zmienić kolejność modułow (co ma odbicie w Menu Głównym), wystarczy przeniść metodą drag and drop moduł w odpowiednie miejsce.</li>
+<li>Jeśli instalujesz nowy moduł pamiętaj aby ustawić Preferencje modułu, bloki i uprawnienia użytkowników!</li>
+<li>Aby ukryć moduł w bloku Menu Główne, ustaw kolejność na 0</li>
+<li>Usuń nieużywane pliki modułów z serwera. Poprawi to bezpieczeństwo witryny.</li>
+<li>Aby zmienić kolejność modułów (która będzie odzwierciedlona w Menu), wystarczy że złapiesz i upuścisz (Drag and Drop) moduł we właściwym miejscu.</li>
 </ul>");
 define("_AM_SYSTEM_MODULES_CONFIRM_TIPS",
 "<ul>

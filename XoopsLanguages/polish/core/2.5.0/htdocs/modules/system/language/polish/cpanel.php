@@ -1,8 +1,9 @@
 <?php
-// $Id: cpanel.php 5566 2010-10-20 11:45:26Z beckmi $
+// $Id: cpanel.php 3317 2009-07-04 13:18:43Z trabis $
 // _LANGCODE: pl
 // _CHARSET : UTF-8
-// Translator: XOOPS Translation Team
+// Translator: tstempko
+//%%%%%%		File Name cpanel.php 		%%%%%%
 
 define("_MD_AM_VRSN", "Wersja");
 define("_MD_AM_FINDUSER", "Znajdź użytkowników");

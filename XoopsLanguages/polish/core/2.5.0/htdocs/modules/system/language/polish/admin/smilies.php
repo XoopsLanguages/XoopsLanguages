@@ -2,7 +2,7 @@
 /**
  * @copyright   The XOOPS Project http://sourceforge.net/projects/xoops/
  * @license     http://www.fsf.org/copyleft/gpl.html GNU public license
- * _LANGCODE    en
+ * _LANGCODE    pl
  * _CHARSET     UTF-8
  * @version     $Id: smilies.php 5580 2010-10-21 19:38:48Z forxoops $
  */
@@ -26,12 +26,12 @@ define("_AM_SYSTEM_SMILIES_DESCRIPTION","Opis");
 define("_AM_SYSTEM_SMILIES_DISPLAY","Dostępny w formularzach");
 define("_AM_SYSTEM_SMILIES_EDIT","Edytuj");
 define("_AM_SYSTEM_SMILIES_FILE","Plik");
-define("_AM_SYSTEM_SMILIES_IMAGE_PATH","Files exist in: %s");
+define("_AM_SYSTEM_SMILIES_IMAGE_PATH","Pliki są w: %s");
 define("_AM_SYSTEM_SMILIES_OFF","Aktywny ");
 define("_AM_SYSTEM_SMILIES_ON","Wyłączony ");
 define("_AM_SYSTEM_SMILIES_SMILIE","Emotikon");
 define("_AM_SYSTEM_SMILIES_SUREDEL","Na pewno usunąć ten emotikon?");
-define("_AM_SYSTEM_SMILIES_UPLOADS","Upload");
+define("_AM_SYSTEM_SMILIES_UPLOADS","Wyślij (upload)");
 
 define("_AM_SYSTEM_SMILIES_SAVE",_AM_SYSTEM_DBUPDATED);
 
