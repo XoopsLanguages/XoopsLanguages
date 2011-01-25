@@ -1,0 +1,12 @@
+Witaj,
+
+Jeœli bêdziesz instalowa³ XOOPSa:
+ 1. Po prostu przegraj wszystkie pliki do katalogu g³ównego XOOPS (zanim dokonasz jakichkolwiek zmian w oryginalnej strukturze katalogów).
+
+Jeœli wykona³eœ ju¿ instalacjê i chcesz tylko dodaæ jêzyk polski do dzia³aj¹cego XOOPSa:
+ 1. Skasuj katalog install - nie bêdzie on potrzebny. Poniewa¿ podczas instalacji pewne teksty s¹ wprowadzane do bazy danych (np. nazwy grup, zasady korzystania serwisu www, nazwy emotikon), bêdziesz musia³ dokonaæ stosownych poprawek samodzielnie.
+
+ 2. Jeœli w twojej instalacji katalog xoops_lib jest w innym miejscu, to przenieœ zawartoœæ katalogu xoops_lib z tej paczki do katalogu xoops_lib w twojej instalacji xoops.
+
+
+Owocnej pracy :-)
