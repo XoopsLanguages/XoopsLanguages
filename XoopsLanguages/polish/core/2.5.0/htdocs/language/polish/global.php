@@ -80,7 +80,7 @@ define('_CLOSE', 'Zamknij');
 define('_QUOTEC', 'Cytat: ');
 
 //%%%%%%	File Name admin.php 	%%%%%
-define('_NOPERM', 'Przepraszamy, nie masz praw dostępu do tej części serwisu.');
+define('_NOPERM', 'Przepraszamy, nie masz praw dostępu do tej części serwisu.  <br> Jeśli nie jesteś zalogowany, to zaloguj się i spróbuj raz jeszcze. ');
 
 //%%%%%		Common Phrases		%%%%%
 define('_NO', 'Nie');
