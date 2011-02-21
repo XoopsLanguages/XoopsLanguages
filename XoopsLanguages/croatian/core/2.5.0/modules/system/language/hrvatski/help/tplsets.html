@@ -1,0 +1,30 @@
+﻿<div id="help-template" class="outer">
+<h1 class="head">Pomoć: Predlošci</h1>
+
+<h4 class="odd">Opis</h4>
+<p class="even">
+XOOPS omogućava nam odvajanje između stvarne prezentacije na stranici (“<em>skina</em>” ili korisničkog sučelja) i koda koji se vrti u pozadini. Prvim se rukovodi sofisticiranim mehanizmom baziranom na globalnoj temi. Tema može uključivati, u svojem osnovnom obliku, važne HTML predloške koji definiraju vizualno sučelje stranice, kao i stilove i slike potrebne za kompletno vizualno sučelje. Teme su izmjenjive preko administracijskog sučelja, pa se mijenjanje cijelog izgleda XOOPS portala svodi na obični klik na “Prihvati”. XOOPS također pruža administratorima mogućnost da korisnici sami biraju između nekoliko dostupnih im tema.<br /><br />
+
+Prosto rečeno, <strong><em>tema</em></strong> je vizualni framework stranica na visokoj razini: tema definira, recimo, opći izgled stranice; s druge strane, obično ne utjeće na distribuciju sadržaja unutar bloka. To se definira drugim subjektom zvani <em><strong>set predložaka</strong></em>. Set predložaka<em> </em>je skup HTML predložaka koji definiraju prezentaciju sadržaja unutar svih blokova koji čine XOOPS web strenice. Ako želimo još jednostavniju metaforu, mogli bismo reći da je tema arhitekt kuće, dok je set predložaka dekorater unutrašnjosti. Prvi dio postavlja zidove i definira općenitu distribuciju, dok je drugi zadužen za “<em>površinsku obradu</em>” tih zidova.<br /><br />
+
+Ako je aktivna tema jednostavna koja uključuje samo datoteku, CSS datoteku i neke slike, XOOPS zapošljava zadani predložak da definira prezentaciju blokova. Kako bilo, neke dovoljno složene teme mogu imati svoje vlastite predloške. U tom slučaju, administrator stranica mora koristiti administracijsko sučelje kako bi podesio oboje, temu i set predložaka <br /><br />
+
+Kako se postiže <em>magija</em> teme? Tako je, Kako HTML predlošci mogu uključivati dinamički sadržaj? To se ne postiže zrcalima i dimom, nego mudrim engine-om predložaka zvanim 
+<strong><a rel="external" href="http://www.smarty.net/">Smarty</a></strong> koji čini djelovanje koje smo navikli nazivati 
+<em><strong>interpolacija varijabli</strong></em>. Jednostavno rečeno, mogli bismo reći da XOOPS sustav koristi PHP datoteke koje sadrže logiku modula (pristup bazi podataka, podešavanje varijabli, upravljanje pravima...), HTML datoteke sa ubačenim Smarty varijablama kako bi stvarno vizualno sučelje i Smarty engine koji ubacuje vrijednosti i tekstove na određena mjesta unutar HTML koji tvori stranice koje vidi krajnji korisnik. Sve u svemu, što to vama znači, možemo objediniti: zahvaljujući sustavu tema, XOOPS dozvoljava dizajnerima izradu još zanimljivijih i vizualno dorađenijih web stranica bez previše brige o tome što se dešava ispod haube.
+
+<h4 class="odd">Kloniranje i download setova predložaka</h4>
+<p class="even">
+Ako želite stvoriti korisniči set predložaka možete napraviti kopiju zadanog seta (ili bilo kojeg drugog) izabirom ‘<em>kloniraj</em>’ linka (Morat ćete upisati novo ime za set). Za razliku od zadanog, drugi setovi predložaka se mogu slobodno uređivati. Također možete spremiti kopiju seta predložaka na disk izabirom ‘<em>download</em>’ linka, ili ga ukloniti sa ‘<em>izbriši</em>’ linkom. Ponekad možete vidjeti dodatni ‘<em>Stvori</em>’ link odmah do novih modula za koje predlošci još nisu stvoreni.
+</p>
+
+<h4 class="odd">Uređivanje predložaka</h4>
+<p class="even">
+Možete vidjeti cijelu listu dostupnih predložaka pregledavanjem stablastog prikaza mape. Kad izaberete predložak, XOOPS će otvoriti jedan uređivač gdje ga možete urediti. <br /><br />
+
+Dok uređujete predloške morate uključiti opciju u postavkama koja automatski ažurira predloške modula .html daoteke ako postoje novije datoteke u themes/your theme/templates mapi za trenutnu temu (Sustavski modul -> Postavke  -> Opće postavke -> Ažuriraj predložak modula .html datoteke iz vašeg themes/your theme/templates mape? -> ‘<em>Da</em>’). Ovo bi trebalo biti ugašeno kad stranice postanu dostupne javnosti.<br /><br />
+Ako slučajno zabrljate predložak ne zaboravite da možete povratiti ‘<em>dobru</em>’ kopiju iz zadanog seta predložaka. Ako radite sa nestandarnim predllošcima dobra ideja bi bila pohraniti ih na disk prije nego ih krenete mijenjati.
+
+</p>
+
+</div> 
