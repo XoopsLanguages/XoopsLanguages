@@ -1,0 +1,83 @@
+XOOPS 2.5.1 RC Release
+
+The XOOPS Development Team is pleased to announce the release of XOOPS 2.5.1 RC. Several bugs have been fixed as well as security enhancement based on Aung Khant's report.
+Please be aware that the bugfix is not complete and 2.5 series will be following small but frequent release rule so that users can take advantage of quick fixes.
+
+This 2.5 series builds on the XOOPS 2.4.x series with objectives of usability improvements instead of architecture or API changes.
+The system module is updated with a major redesign with jQuery based AJAX, done mainly by ForMusS, kraven_30, Mage with contributions from trabis, voltan, Kris_fr, onokazu etc.
+Besides usability, some proof-of-concept experiments have also been proven for module and theme development. Unavoidably there are bugs and incompatibility introduced.
+Developers are encouraged to improve the new functions and APIs but not advised to use them immediately in their modules since the they are designed with new architecture in XOOPS 3 (or Xoops Engine).
+Developers can check Xoops Engine details at http:://dev.xoopsengine.org to prepare for their next version of modules and themes.
+
+Download XOOPS 2.5.1 RC from [url=https://sourceforge.net/projects/xoops/files/XOOPS%20Core%20%28Beta%20Releases%29/XOOPS%202.5.1%20RC/]Sourceforge repository[/url].
+
+System requirements
+-----------------------------------
+
+PHP:
+Any PHP version >= 5.2 (PHP 5.3+ is strongly recommended)
+
+MySQL:
+MySQL server 5.0+
+
+Web server:
+Any server supporting the required PHP version (Apache highly recommended)
+
+
+Downloading XOOPS
+-----------------------------------
+
+Your can get this release package from the sourceforge.net file repository.
+There are .7z, .zip and .gz archives provided.
+
+
+Installing XOOPS
+-----------------------------------
+
+   1. Copy the content of the htdocs/ folder where it can be accessed by your server
+   2. Ensure mainfile.php and uploads/ are writable by the web server
+   3. For security considerations, you are encouraged to move directories "/xoops_lib" (for XOOPS libraries) and "/xoops_data" (for XOOPS data) out of Document Root, and change the folder names.
+   4. Make the directory xoops_data/ writable; Create (if not already present) and make the directories xoops_data/caches/, xoops_data/caches/xoops_cache/, xoops_data/caches/smarty_cache/ and  xoops_data/caches/smarty_compile/ writable.
+   5. Access the folder where you installed the htdocs/ files using your web browser to launch the installation wizard
+
+
+Installing Protector in XOOPS
+-----------------------------------
+We also highly recommend the installation of the PROTECTOR module which will bring additional security protection and logging capabilities to your site.
+
+
+Debug information display level
+-----------------------------------
+
+Since XOOPS 2.3.1 debug information display level is enabled as a temporary solution for 2.3* to show debug information to different level of users: to all users, to members or to admins only.
+The configuration can be set in /xoops_data/configs/xoopsconfig.php
+
+
+Files integrity check
+-----------------------------------
+
+The full XOOPS package is released with a script able to check if all the system files have been correctly uploaded to the server. To use it, follow these instructions:
+
+   1. Upload the checksum.php and checksum.md5 files located in the XOOPS package root to your XOOPS server folder (putting them next to mainfile.php).
+   2. Execute checksum.php with your browser
+   3. If necessary, re-upload the missing or corrupted system files
+   4. Remove checksum.php and checksum.md5 from your server
+
+
+Modules
+-----------------------------------
+
+This release contains only the "system-related modules". You are invited to browse the XOOPS modules repository to if you need additional functionality. Note: as a new repository is being built, the current repository is not up-to-date, PLEASE VISIT INDIVIDUAL DEVELOPERS' WEBSITES TO MAKE SURE YOU ARE USING LATEST VERSION OF MODULES.
+
+
+How to contribute
+-----------------------------------
+Bug report: http://sourceforge.net/tracker/?group_id=41586&atid=430840
+Patch and enhancement: http://sourceforge.net/tracker/?group_id=41586&atid=430842
+Feature design: http://sourceforge.net/tracker/?group_id=41586&atid=430843
+Release announcement: https://lists.sourceforge.net/lists/listinfo/xoops-announcement
+Xoops Engine development: http://www.xoopsengine.org
+
+
+XOOPS Development Team
+March 15, 2011
