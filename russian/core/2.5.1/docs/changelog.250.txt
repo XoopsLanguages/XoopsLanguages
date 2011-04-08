@@ -1,5 +1,19 @@
-
 XOOPS 2.5 Changelog
+===============================
+2011/03/23: Version 2.5.1 Final
+===============================
+Bugfixes:
+ - ID: 3219412 Block Cloning : parent module (mid) not saved when cloning(trabis)
+ - ID: 3219408 Block management : data not saved when editing(trabis)
+ - ID: 3229007 Setting # of banner impressions has no effect(trabis)
+
+
+===============================
+2011/03/15: Version 2.5.1 RC
+===============================
+Updates:
+ - Updated suico and zetagenesis themes, zetadigme system admin theme (kris_fr)
+
 
 ===============================
 2011/03/15: Version 2.5.1 RC
