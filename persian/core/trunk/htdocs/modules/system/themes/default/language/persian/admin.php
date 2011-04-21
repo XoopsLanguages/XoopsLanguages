@@ -66,7 +66,7 @@ define("_OXYGEN_ADMINISTRATION","مدیریت زوپس");
 define("_OXYGEN_UPTOP","بالا صفحه");
 
 //Add help 
-define("_OXYGEN_HELP_1","چگونه میتوانم ملب منتشر کنم؟");
+define("_OXYGEN_HELP_1","چگونه میتوانم مطلب منتشر کنم؟");
 define("_OXYGEN_HELP_DESC_1","برای انتشار مطالب شما ابتدا باید چند ماژول نصب کنید بعد از آن میتواند مطالب خود را منتشر کنید - برای نصب ماژول  <a href='modules/system/help.php?mid=1&page=modulesadmin'>این مقاله </a>را مطالعه کنید و برای دریافت ماژول ها به : <a href='http://www.xoops.ir/modules/TDMDownloads/index.php' rel='external'>سایت زوپس فارسی</a> مراجعه کنید.");
 define("_OXYGEN_HELP_2","بلاک چیست؟");
 define("_OXYGEN_HELP_DESC_2","بلاک ها بخش های مخصوصی از ماژول ها هستند که میتوانند خلاصه مطالب آن ماژول را به اشکال مختلف در قسمت های مختلف وب سایت نمایش دهند. همچنین بلاک های دست ساز را میتوانید  بسیازید و در آنها متن عکس یا انمیشی یا هر نوع کد HTML و PHP را قرار دهید. اطلاعات داخل بلاک ها به شکل متفاوتی از اطلاعات اصلی سایت نمایش داده میشوند. (<a href='modules/system/help.php?mid=1&page=blocksadmin'> اطلاعات بیشتر ...</a>)");
