@@ -89,7 +89,7 @@ div.confirmMsg {
 	direction: rtl !important;
 }
 
-.xo-title {
+.xo-title , .CPbigTitle ,.navigation{
 	background-position: right top !important;
 	padding-right: 40px !important;
 }

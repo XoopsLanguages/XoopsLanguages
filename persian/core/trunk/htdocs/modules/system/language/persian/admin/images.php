@@ -37,6 +37,7 @@ define("_AM_SYSTEM_IMAGES_STRTYOPENG", "بعدا نمی‌توانید آن را
 define("_AM_SYSTEM_IMAGES_IMGCATWEIGHT", "تعیین محل قرارگیری در مدیریت تصاویر");
 define("_AM_SYSTEM_IMAGES_OFF", "نمایش در مدیریت تصاویر" );
 define("_AM_SYSTEM_IMAGES_ON", "عدم نمایش در مدیریت تصاویر" );
+define("_AM_SYSTEM_IMAGES_URL","نمایش لینک تصویر");
 
 // Messages
 define("_AM_SYSTEM_IMAGES_RUDELIMG", "آیا مطمئنید که می‌خواهید این شاخه و همه‌ی تصاویر موجود در آن را حذف کنید؟" );
