@@ -1,0 +1,113 @@
+﻿--------------------------------------
+XOOPS 2.5.1 / 2.5.1a Versione Finale
+--------------------------------------
+--------------------------------------
+
+Su richiesta della comunità Xoops è stata rilasciata la versione 2.5.1a come fix di alcuni bug della versione 2.5.1 relativi al nome e all'ordinamento dei moduli e al campo mancante 'tipo di blocco' durante la creazione di un blocco personalizzato. Vedi news a questo link: http://xoops.org/modules/news/article.php?storyid=5889.
+Vi sono bug e vulerabilità nel ramo 2.5 ma XOOPS 2.5.1 risolve tutti i problemi di sicurezza noti al momento e il team di sviluppo lavora costantemente per migliorare.
+
+Nel ramo 2.5 sono state inserite alcune funzioni sperimentali e API e si consiglia agli sviluppatori di moduli di non implementarle con troppa rapidità, per evitare probelmi di compatibilità.
+Gli sviluppatori possono intanto tenere d'occhio i progessi dello XOOPS ENGINE (http://www.xoopsengine.org) per programmare l'agiornamento dei propri moduli e temi.
+
+Scarica XOOPS all'indirizzo https://sourceforge.net/projects/xoops/files/XOOPS%20Core%20%28stable%20releases%29/XOOPS%202.5.1/
+
+
+-----------------------------------
+
+Alcune nuove caratteristiche del ramo 2.5 di XOOPS:
+* collocazione visuale dei blocchi tramite drag&drop
+* ordinamento dei moduli visuale tramite drag&drop
+* pulizia delle cache tramite funzionalità apposita (manutenzione)
+* File manager (da installare a parte dalla cartella /extras)
+* nuovo sistema di gestione dei template
+* gestione centralizzata delgi editor testuali per blocchi commenti e moduli
+* guida/aiuto integrata
+
+Consultare il changelog per il ramo 2.5 (nella cartella docs) (in inglese) per i dettagli.
+ 
+
+
+Requisiti di sistema
+-----------------------------------
+
+PHP:
+Qualsiasi versione PHP >= 5.2 (PHP 5.2+ è fortemente raccomandato)
+
+MySQL:
+MySQL server 5.0+ (MySQL 5.0+ è fortemente raccomandato)
+
+Web server:
+Qualsiasi server che supporti la versione PHP richiesta (Apache è fortemente raccomandato)
+
+
+Scaricare XOOPS
+-----------------------------------
+
+E' possibile scaricare questo rilascio dall'archivio file di Sourceforge.net
+Sono disponibili glia archivi in formato .zip e .gz
+
+
+Installare XOOPS
+-----------------------------------
+
+   1. Copiare il contenuto della cartella htdocs/ dove può essere raggiunta dal vostro server
+   2. Assicurarsi che mainfile.php e uploads/ siano scrivibili (chmod 777) dal server
+   3. Per ragioni di sicurezza si consiglia di spostare le cartelle "/xoops_lib" (librerie XOOPS) e "/xoops_data" (XOOPS data) al di fuori della cartella principale (root) di Xoopa, o almeno rinominarle.
+   4. Rendere scrivibile la cartella xoops_data/ ; Creare (se non esistono già) e rendere scrivibili le cartelle xoops_data/caches/, xoops_data/caches/xoops_cache/, xoops_data/caches/smarty_cache/ e xoops_data/caches/smarty_compile/ .
+   5. Per lanciare la routine di installazione, accedere via browser alla directory in cui avete installato i files nella cartella htdocs/ .
+
+
+Installazione di PROTECTOR in XOOPS
+-----------------------------------
+
+Si raccomanda fortemente l'installazione del modulo PROTECTOR che è in grado di fornire ulteriore sicurezza e migliori possibilità di logging al vostro sito.
+
+
+
+Aggiornamento degli Editor Xoops
+----------------------------------------
+
+Nel pacchetto Xoops sono inclusi tre editor: dhtmltextarea e textarea per testo semplice e TinyMCE per WYSIWYG HTML.
+Vi sono altri sei Editor WYSIWYG disponibili: FCKeditor, Koivi, NiceEdit, Wymeditor, Xinha, eSpaw2 che possono essere scaricati da Xoops SourceForge (http://sourceforge.net/projects/xoops/files/XOOPS%20Editors/)
+Poichè vi sono alcune modifiche nella struttra della directory negli editor fckeditor e tinymce, si raccomanda di rimuovere gli editor presenti prima di caricare i nuovi editor.
+Infine, se si utilizza l'editor FCKeditor nei moduli, modificare le configurazioni specifiche del modulo nel file/fckeditor/modules/, soprattutto se si utilizza il modulo Article.
+
+
+Modalità di visualizzazione delle informazioni di DEBUG
+--------------------------------------------------------
+
+Dalla versione di XOOPS 2.3.1 la modalità di visualizzazione del debug è stata impostata come soluzione temporanea per impostare l'accesso al debug secondo livelli di utenza: per tutti gli utenti (to all users), solo utenti registrati (to members) o solo per gli amministratori (to admins only).
+La modalità può essere impostata /xoops_data/configs/xoopsconfig.php.
+
+
+Verifica dell'integrità dei files (Files Integrity Check)
+-----------------------------------
+
+Tutto il pacchetto XOOPS è realizzato con uno script in grado di verificare che i file di sistema siano stati caricati correttamente sul server. Per utilizzarlo seguire queste istruzioni:
+
+   1. Caricare sul server i files checksum.php e checksum.md5 dalla root del pacchetto XOOPS (collocandoli subito dopo il file mainfile.php).
+   2. Eseguire checksum.php nel browser (www.nomedelsito.xx/checksum.php)
+   3. Se necessario ricaricare i file di systema mancanti o non corretti
+   4. Rimuovere checksum.php e checksum.md5 dal server
+
+
+Moduli
+-----------------------------------
+Questo rilascio contiene solo i moduli di base per il sistema. Si invita a consultare l'archivio "XOOPS modules" per accedere a ulteriori funzionalità. (http://www.xoops.org/modules/repository/)
+Nota: poichè sta venendo organizzato un nuovo archivio, quello attuale potrebbe non essere aggiornato.
+PER FAVORE VISITARE I SITI WEB DEGLI SVILUPPATORI PER ASSICURARSI DI UTILIZZARE LA VERSIONE PIU' RECENTE DEL MODULO.
+
+
+Come contribuire
+-----------------------------------
+Segnalazione Bug: http://sourceforge.net/tracker/?group_id=41586&atid=430840
+Patch e modifiche: http://sourceforge.net/tracker/?group_id=41586&atid=430842
+Richiesta nuove caratteristiche: http://sourceforge.net/tracker/?group_id=41586&atid=430843
+Annunci di rilasci: https://lists.sourceforge.net/lists/listinfo/xoops-announcement
+
+
+XOOPS Development Team
+10 Novembre 2010
+==========================
+Traduzione a cura di Ianez - Xoops Italia Staff - www.xoopsitalia.org - 31 Luglio 2010
+Utlimo Aggiornamento 10/04/2011

@@ -1,0 +1,8 @@
+
+Localizzazione del tema
+
+Struttura della cartella di localizzazione:
+themes/themefolder/italian:
+    main.php -  definizioni principali 
+    style.css - foglio di stile localizzato (supporto scrittura da destra a sinistra per esempio)
+    script.js - script localizzato
