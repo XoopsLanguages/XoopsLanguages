@@ -1,0 +1,13 @@
+<div id="help-template" class="outer">
+<h1 class="head">Guida: Banner</h1>
+
+<h4 class="odd">Descrizione</h4>
+<p class="even">
+I banner sono elementi di pubblicit&agrave; visualizzati all'interno di una pagina. Possono essere immagini, video flash o immagini animate come il banner XOOPS installato di default.<br />
+Xoops possiede un sistema integrato per la gestione dei banner e per la creazione di account per clienti pubblicitari, raggiungibile dal Pannello di Controllo. &Egrave; possibile gestire/visualizzare in contemporanea diversi banner in un sito Xoops - nell'area selezionata i banner verranno visualizzati a rotazione in automatico ogni volta che una nujova pagina del sito verr&agrave; caricata.<br /><br />
+
+Ogni volta che un banner viene caricato da un visitatore, aumenter&agrave; il conteggio delle 'visualizzazioni' (impressions), che sono l'unit&agrave; di misura dei banner. I clienti tipicamente pagano per un certo numero di visualizzazioni sul vostro sito, vale a dire per fare in modo che la loro pubblicit&agrave; venga visualizzata un certo numero di volte.<br /><br />
+
+Attenzione. Se si &egrave; intenzionati a vendere spazi pubblicitari sul proprio sito ricordarsi di effettuare un'importante operazione: andate in Preferenze -> Impostazioni generali e compilate il campo 'Il tuo indirizzo IP', se ne possedete uno. Questo impedir&agrave; che le vostre visite al sito vengano conteggiate come visualizzazione di banner. Un'impropria impostazione di questa opzione potrebbe essere considerata in qualche modo disonesta (ricordado che molto spesso gli Amministratori non utilizzano un IP unico per collegarsi).
+</p>
+</div> 

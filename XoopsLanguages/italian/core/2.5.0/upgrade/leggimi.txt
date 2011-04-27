@@ -1,0 +1,85 @@
+----------------------------------------------------------------------------------------------------------------
+Consultare le NOTE di RILASCIO dei singoli rilasci per istruzioni dettagliate sull'aggiornamento di versione
+----------------------------------------------------------------------------------------------------------------
+
+
+Aggiornamento da una versione precedente
+-----------------------------------
+
+Aggiornamento da XOOPS 2.3.3 e 2.4.x (modo rapido)
+	*Si raccomanda un backup completo di tutti i files e del database prima di procedere
+
+1. Scaricare il pacchetto di aggiornamento corretto dall'archivio file sourceforge
+2. Sovrascrivere i files nella directory XOOPS sul vostro server con il contenuto della cartella /htdocs nel pacchetto che avete scaricato
+    * se è stata rinominata la cartella /xoops_lib, assicurarsi di copiare il contenuto di /xoops_lib nel pacchetto di aggiornamento nella cartella corrispondente sul server (dovrebbe essere la vostra attuale directory XOOPS_TRUST_PATH), a quel punto rimuovere la cartella /xoops_lib creata durante la sovrascrittura. Non vi possono essere due directory con il contenuto di /xoops_lib
+3. Se era stato installato Protector come modulo a parte, aprire il file "mainfile.php", e rimuovere le linee Pre-check e Post-check lines (se presenti):
+
+    include XOOPS_TRUST_PATH.'/modules/protector/include/precheck.inc.php' ;
+    include XOOPS_TRUST_PATH.'/modules/protector/include/postcheck.inc.php' ;
+
+4. Se si aggiorna da XOOPS 2.4.x, rendere scrivibile il file /include/license.php (permessi 0777 su Linux)
+5. Accedere ad /upgrade/ con un browser e seguire le istruzioni
+6. Seguire le istruzioni poer aggiornare il database
+7. Eliminare la cartella "upgrade" dal server
+8. Aggiornare il modulo "system" dall'Amministrazione moduli. Si raccomanda di aggiornare anche gli altri moduli come "Profile" o "Protector"
+
+
+Aggiornamento da XOOPS 2.0.* (dalla versione 2.0.14 in su) e 2.2.* (utilizzando il pacchetto completo)
+	*Si raccomanda un backup completo di tutti i files e del database prima di procedere
+
+0. Scompattare l'archivio sul computer LOCALE (PC) in una cartella provvisoria.
+1. Spostare la cartella "upgrade" all'interno della cartella "htdocs" (è stata tenuta fuori perchè non necessaria per nuove isntallazioni) sul computer LOCALE
+2. Eliminare: htdocs/mainfile.php, htdocs/install/, htdocs/cache/, htdocs/template_c/, htdocs/themes/ and htdocs/uploads/ dalla cartella "htdocs" folder sul computer LOCALE
+    * se è stata creata la cartella XOOPS_TRUST_PATH sul vostro server, copiare il contenuto di /xoops_lib in quella cartella ed eliminare xoops_lib dalla cartella "htdocs" sul computer LOCALE
+3. Copiare e sovrascrivere il contenuto della cartella /htdocs folder sul computer LOCALE sui file presenti sul server
+4. Per ragioni di sicurezza si consiglia di spostare le cartelle "/xoops_lib" (librerie XOOPS) e "/xoops_data" (XOOPS data) al di fuori della cartella principale (root) di Xoopa, o almeno rinominarle.
+5. Rendere scrivibile la cartella xoops_data/ ; Creare (se non esistono già) e rendere scrivibili le cartelle xoops_data/caches/, xoops_data/caches/xoops_cache/, xoops_data/caches/smarty_cache/ e xoops_data/caches/smarty_compile/ (permessi 0777 su Linux).
+6. Assicurarsi che il server possa scrivere il file: mainfile.php (permessi 0777 su Linux)
+7. Se era stato installato Protector come modulo a parte, aprire il file "mainfile.php", e rimuovere le linee Pre-check e Post-check lines (se presenti):
+
+    include XOOPS_TRUST_PATH.'/modules/protector/include/precheck.inc.php' ;
+    include XOOPS_TRUST_PATH.'/modules/protector/include/postcheck.inc.php' ;
+
+8. Accedere ad /upgrade/ con un browser e seguire le istruzioni
+9. Seguire le istruzioni poer aggiornare il databas
+10. Proteggere in scrittura il file: mainfile.php again (permessi 0444 su Linux)
+11. Eliminare la cartella "upgrade" dal server
+12. Aggiornare il modulo "system" dall'Amministrazione moduli. Si raccomanda di aggiornare anche gli altri moduli come "Profile" o "Protector"
+
+
+Aggiornamento da qualsiasi versione di XOOPS dalla 2.0.7 alla 2.0.13.2 (utilizzando il pacchetto completo):
+	*Si raccomanda un backup completo di tutti i files e del database prima di procedere
+
+
+0. Scompattare l'archivio sul computer LOCALE (PC) in una cartella provvisoria.
+1. Spostare la cartella "upgrade" all'interno della cartella "htdocs" (è stata tenuta fuori perchè non necessaria per nuove isntallazioni) sul computer LOCALE
+2. Eliminare: htdocs/mainfile.php, htdocs/install/, htdocs/cache/, htdocs/template_c/, htdocs/themes/ and htdocs/uploads/ dalla cartella "htdocs" folder sul computer LOCALE
+    * se è stata creata la cartella XOOPS_TRUST_PATH sul vostro server, copiare il contenuto di /xoops_lib in quella cartella ed eliminare xoops_lib dalla cartella "htdocs" sul computer LOCALE
+3. Copiare e sovrascrivere il contenuto della cartella /htdocs folder sul computer LOCALE sui file presenti sul server
+4. Eliminare le seguenti cartelle dal vostro server (appartengono a una vecchia versione):
+    * class/smarty/core
+    * class/smarty/plugins/resource.db.php
+5. Assicurarsi che il server possa scrivere il file: mainfile.php (permessi 0777 su Linux)
+6. Se era stato installato Protector come modulo a parte, aprire il file "mainfile.php", e rimuovere le linee Pre-check e Post-check lines (se presenti):
+
+    include XOOPS_TRUST_PATH.'/modules/protector/include/precheck.inc.php' ;
+    include XOOPS_TRUST_PATH.'/modules/protector/include/postcheck.inc.php' ;
+
+7. Per ragioni di sicurezza si consiglia di spostare le cartelle "/xoops_lib" (librerie XOOPS) e "/xoops_data" (XOOPS data) al di fuori della cartella principale (root) di Xoopa, o almeno rinominarle.
+8. Rendere scrivibile la cartella xoops_data/ ; Creare (se non esistono già) e rendere scrivibili le cartelle xoops_data/caches/, xoops_data/caches/xoops_cache/, xoops_data/caches/smarty_cache/ e xoops_data/caches/smarty_compile/ (permessi 0777 su Linux).
+9. Accedere ad /upgrade/ con un browser e seguire le istruzioni
+10. Seguire le istruzioni poer aggiornare il databas
+11. Proteggere in scrittura il file: mainfile.php again (permessi 0444 su Linux)
+12. Eliminare la cartella "upgrade" dal server
+13. Aggiornare il modulo "system" dall'Amministrazione moduli. Si raccomanda di aggiornare anche gli altri moduli 
+
+
+AGGIORNAMENTO DI UN SITO NON UTF-8
+---------------------------------------
+
+La codifica UTF-8 è stata inserita da XOOPS 2.3 come il set di caratteri di default. In ogni caso, potrebbero esserci alcuni problemi nel convertire siti pre-esistenti da una codifica non UTF-8 ad una UTF-8
+In attesa che vi sia una soluzione adeguata per questa conversione, si raccomandano le seguenti impostazioni quando  si aggiorna un sito pre-esistente, se non si è esperti:
+ - Selezionare l'opzione "Non modificare" nello step "Set di caratteri del Database e collazione" durante il processo di aggiornamento
+ - Modificare il file  /languages/italian/global.php per utilizzare il valore _CHARSET precedente (in caso non sia presente sostituire con  define('_CHARSET', 'ISO-8859-1');
+	*se è stato applicato/installato il pacchetto italiano di Xoops decommentare la linea define('_CHARSET', 'ISO-8859-1'); e commentare la linea define('_CHARSET', 'UTF-8');
+
