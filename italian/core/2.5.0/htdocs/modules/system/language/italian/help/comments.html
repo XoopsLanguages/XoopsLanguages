@@ -1,0 +1,17 @@
+<div id="help-template" class="outer">
+<h1 class="head">Guida: Commenti</h1>
+
+<h4 class="odd">Descrizione</h4>
+<p class="even">
+Gli amministratori di un sito posso permettere ai loro utenti di inviare dei commenti. I commenti possonon essere aggiunti a molti moduli e visualizzati in diverse modalit&agrave;. I commenti possono essere controllati, filtrati e resi disponibili solo a gruppi specifici. Questa funzione permette una semplice interazione degli utenti con il sito, mantenedo allo steso tempo un buon livello di iscurezza. 
+<br /><br />
+
+
+La Gestione Commenti peremtte agli amministratori di modificare o eliminare qualsiasi commento inviato al sito, generato in quei moduli che supportano questa funzione.
+Come per la Gestione Blocchi sono disponibili alcuni filtri che aiutano l'amministrazione dei commenti.
+<br /><br />
+
+&Egrave; anche possibile selezionare pi&ugrave; commenti e rimuoverli tutti contemporaneamente
+</p>
+
+</div> 

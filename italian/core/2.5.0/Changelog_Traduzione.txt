@@ -1,0 +1,220 @@
+*********************************************************************************
+************* CHANGELOG TRADUZIONE per CORE XOOPS ***************************
+---------------------------------------------------------------------------------
+-- Ultimo aggiornamento: 20/04/2011 ----------------------- by Xoops Italia -----
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+
+* 2.5.0 *
+--------------------------------------------------------------
+-Nuova traduzione completa del lato admin
+-Aggiunti file di lingua necessari per nuove funzioni
+-Aggiunta traduzione editor tinymce (grazie luciorota)
+-Aggiunta traduzione completa dell'aiuto online (Ianez/luciorota)
+-Aggiunte immagini in italiano per lightbox jquery (per gestione immagini)
+-Aggiunte icone generiche profilo/elimina/rispondi/annulla in italiano (a parte in cartella extras)
+-Aggiunta traduzione file manager (a parte in cartella extras) (grazie luciorota)
+
+-Modificate le intestazioni commentate dei file php
+-Revisione e correzione installer (path mysql + ortografia)
+-Corretti diversi errori ortografici
+
+**MODULI PACCHETTO BASE**
+-------------------------
+-Revisionata la traduzione dei moduli
+
+
+
+
+* 2.4.5 *
+--------------------------------------------------------------
+-Aggiunto define: language/english/logger.php _LOGGER_DEPRECATED
+
+-Corretto file: /language/italian/banners.php
+-Corretto file: /language/italian/user.php
+
+
+
+* 2.4.3 *
+--------------------------------------------------------------
+
+-Aggiunta cartella /themes/zetagenesis/language/italian (e relativi files tradotti)
+-Aggiunta cartella /modules/system/class/gui/oxygene/language/italian (e relativi files tradotti)
+-Aggiunto file: /install/include/functions.php (voci relative alla licenza xoops)
+-Aggiunto file: /install/language/italian/support.png
+-Aggiunto file: /install/language/italian/support.php
+-Aggiunto file: /language/italian/style.css
+
+
+-Modificato file lingua: /language/italian/banners.php
+-Rimossa cartella: /modules/system/class/gui/default
+-Reimpostazione intestazioni file di lingua
+
+**MODULI PACCHETTO BASE**
+-------------------------
+-Aggiornata traduzione modulo protector (xoops_lib/modules/protector/language/italian/)
+
+
+
+* 2.4.2 *
+-----------------------------------------
+
+-Modificato file lingua: /install/language/italian/[tutti i files]
+
+
+-Aggiunto file lingua: /language/italian/countries.php
+-Aggiunto file lingua: /language/italian/errors.php
+-Aggiunto file lingua: /language/italian/logger.php
+-Aggiunto file lingua: htdocs/class/calendar/JSCal2/language/italian.php
+-Aggiunta directory: /modules/system/admin/
+
+
+
+-Modificato file lingua: /language/italian/admin.php
+-Modificato file lingua: /language/italian/auth.php
+-Modificato file lingua: /language/italian/calendar.php
+-Modificato file lingua: /language/italian/captcha.php
+-Modificato file lingua: /language/italian/comment.php
+-Modificato file lingua: /language/italian/formdhtmltextarea.php
+-Modificato file lingua: /language/italian/misc.php
+-Modificato file lingua: /language/italian/notification.php
+-Modificato file lingua: /language/italian/pmsg.php
+-Modificato file lingua: /language/italian/search.php
+-Modificato file lingua: /language/italian/user.php
+-Modificato file lingua: /htdocs/install/language/italian/finish.php
+-Modificato file lingua: /htdocs/install/language/italian/install.php
+-Modificato file lingua: /htdocs/install/language/italian/install2.php
+-Modificato file lingua: /htdocs/install/language/italian/welcome.php
+-Modificato file lingua: /htdocs/install/language/italian/mysql.lang.data.sql
+
+**MODULI PACCHETTO BASE**
+-------------------------
+-Modificato file lingua: /modules/pm/language/italian/admin.php
+-Modificato file lingua: /modules/pm/language/italian/main.php
+-Modificato file lingua: /modules/pm/language/italian/modinfo.php
+-Modificato file lingua: /modules/profile/language/italian/admin.php
+-Modificato file lingua: /modules/profile/language/italian/main.php
+-Modificato file lingua: /modules/profile/language/italian/modinfo.php
+
+
+
+* 2.3* (Unificazione rami 2.0.x e 2.2.x)
+-----------------------------------------
+
+**CORE**
+--------
+- Aggiunto file lingua: /language/italian/captcha.php
+- Aggiunto file lingua: /language/italian/formdhtmltextarea.php
+- Aggiunto file lingua: /language/italian/locale.php
+- Aggiunto file lingua: /language/italian/mail_template/welcome.tpl
+- Aggiunto file lingua: /modules/system/language/italian/cpanel.php
+- Aggiunto file locale: /modules/system/class/gui/exm/language/italian/admin.php
+- Aggiunto file locale: /modules/system/class/gui/default/style/it.css
+- Aggiunto file locale: /modules/system/class/gui/exm/style/it.css
+- Aggiunto file locale upgrade/cnt-2.2.x-to-2.3.0/language/italian.php
+- Aggiunto file locale upgrade/upd-2.0.18-to-2.3.0/language/italian.php
+
+- Aggiunta traduzione completa della classe xoopseditor (fckeditor, tinymce, koivi) [Lucio Rota]
+- Aggiunta/revisione traduzione del programma di installazione
+
+- Aggiunte nuove costanti in /language/italian/user.php
+- Aggiunte nuove costanti in modules/system/language/italian/admin/blocksadmin.php
+- Aggiunte nuove costanti in modules/system/language/italian/admin/modulesadmin.php (routine installazione)
+- Aggiunte nuove costanti in modules/system/language/italian/admin/preferences.php
+- Aggiornamento traduzione /upgrade/language/italian/upgrade.php
+
+
+- Migliorie/Revisione traduzione in: /language/italian/[diversi files]
+- Migliorie/Revisione traduzione in: /modules/system/language/italian/[diversi files]
+
+- Conversione di tutti i caratteri speciali(èùà..) in valori HTML, per maggiore compatibilità
+- Verifica conversione codifica files in UTF8 (per adeguamento nuovo charset)
+
+
+**MODULI PACCHETTO BASE**
+-------------------------
+- Aggiunta traduzione modulo Protector 3.20 [Defkon]
+- Aggiunta traduzione modulo Profile 1.51 [Urban/Ianez]
+- Aggiunta traduzione modulo Private Messaging 1 [Urban/Ianez]
+- Aggiunta traduzione modulo ThAdmin 1.1 [Ottagon/Ianez]
+
+
+*********************************************************************************
+*********************************************************************************
+
+
+* 2.0.18.1 *
+-----------------------
+
+- Migliorie/Revisione traduzione in: /language/italian/[diversi files]
+
+
+
+
+* 2.0.18 *
+-----------------------
+
+- Aggiornamento delle condizioni di utilizzo generali del sito (d.lgs 196/03)
+- Aggiornamento globale intestazioni/id files di lingua
+
+- Aggiunto file: /language/italian/banners.php
+- Aggiunto file: /upgrade/language/italian/upgrade.php (solo in pacchetti completi)
+- Aggiunto file: /modules/system/xoopsversion.php
+
+- Aggiunta costante in /language/italian/findusers.php
+- Aggiunte costanti in /language/italian/global.php
+
+- Migliorie/Revisione traduzione per installazione (/install/language/italian)
+- Migliorie/Revisione traduzione in: /language/italian/[diversi files]
+- Migliorie/Revisione traduzione in: modules/system/language/italian/[diversi files]
+
+
+
+* 2.0.17/2.0.17.1 *
+-----------------------
+- Aggiunto file:  /language/italian/findusers.php
+- Aggiunto file:  /language/italian/uploader.php
+
+- Aggiunta costante _AM_GROUPS in  /modules/system/language/italian/admin/findusers.php
+- Aggiunta costante _MD_AM_CONFIG in /modules/system/language/italian/admin.php
+- Aggiunta costante _AM_CNRNU2 in  /modules/system/language/italian/admin/users.php
+- Aggiunte costanti _MD_AM_LDAP_USETLS e _MD_AM_LDAP_USETLS_DESC a /modules/system/language/italian/admin/preferences.php
+- Aggiunta costante _AUTH_LDAP_START_TLS_FAILED in /languages/italian/auth.php
+- Aggiunta costante _NOT_NOTHINGTODELETE in /languages/italian/notification.php 
+
+- Migliorie traduzione in /modules/system/language/italian/admin/users.php
+- Migliorie traduzione in /modules/system/language/italian/admin.php
+- Migliorie traduzione in /modules/system/language/italian/admin/preferences.php
+
+- Modifica voce 'Messaggi in arrivo' in 'Posta in arrivo' nel Men&ugrave; utente.
+
+
+
+* 2.0.16 *
+-----------------------
+- Aggiunti files lingua per language/italian/xoopsmailerlocal.php e language/italian/auth.php
+- Aggiunto file lingua in class/mail/phpmailer/phpmailerlang-it.php
+- Aggiunte costanti mappatura campi per autenticazione in system/language/italian/admin/preferences.php
+- Miglioramento linguaggio per metodo notifica (modifica profilo)
+
+
+* 2.0.14/2.0.15 *
+-----------------------
+- Modificata voce "Menu' di amministrazione" in "Amministrazione"
+- Aggiunta costante in: system/admin/smileys (_AM_DISPLAYF)
+- Aggiunte tre nuove costanti in: system/admin/blocksadmin (_AM_CBBOTTOM, _AM_CBBOTTOMLEFT, _AM_CBBOTTOMRIGHT)
+- Modificate alcune costanti in: system/admin/preferences (_MD_AM_DEBUGMODE1,_MD_AM_DEBUGMODE2,_MD_AM_THEMEFILE,_MD_AM_THEMEFILEDSC)
+- Aggiunta una costante a: language/english/comment.php (_CM_RE)
+- aggiunt nuove costanti per le opzioni di autenticazione in: system/admin/preferences
+- Piccole correzioni linguistiche
+- Miglioramento linguaggio per metodo notifica (modifica profilo)
+
+
+----------------------------------------------------------------------------------
+Creato il: 10/10/2008 ** by Xoops Italia Staff -----------------------------------
+----------------------------------------------------------------------------------
+----------------------------------------------------------------------------------
+Traduzione orginale by BlueAngel, Dantom - Revisione a cura di Ianez -------------
+----------------------------------------------------------------------------------
+Supporto: www.xoopsitalia.org - www.xoops.org [Eng] ------------------------------
+__________________________________________________________________________________
