@@ -1,0 +1,15 @@
+<div id="help-template" class="outer">
+<h1 class="head">Aiuto: Faccine</h1>
+
+<h4 class="odd">Descrizione</h4>
+<p class="even">
+Le faccine (o emoticon o smiley) sono riproduzioni stilizzate di quelle principali espressioni facciali umane che si manifestano in presenza di un'emozione (sorriso, broncio, ghigno, ecc.). Vengono utilizzate prevalentemente per sopperire alla mancanza del linguaggio non verbale nella comunicazione scritta. Il nome emoticon nasce dall'accostamento delle parole "emotional" e "icon" e sta ad indicare proprio un' icona che esprime emozioni.
+Le faccine possono esser inserite in ogni articolo, commento o post. XOOPS di default fornisce 17 faccine. Qualcuna di queste &egrave; visualizzabile direttamente nei form di vari moduli (i moduli forums, news, downloads, links e altri). Per inserire le faccine &egrave; sufficiente cliccare sulle faccine. Le faccine possono esser inserite anche digitando la combinazione di caretteri univoca ad esse associata; per esempio: &egrave; possibile inserire in un post la faccina <img src="http://www.xoops.org/uploads/smil42e7a3d4c7b9f.gif" alt=""/> digitando ':' '-' 'D' <br /><br />
+
+La lista completa di faccine disponibili per il vostro sito e i rispettivi codici sono accessibili in Gestione Faccine. &Egrave; possibile aggiungere, aggiornate o eliminare le faccine, inoltre &egrave; possibile controllare quali facine saranno visibili nei form (di default solo 9 faccine su 17 sono visibili)<br /><br />
+
+Nel caso si desideri un sito senza faccine &egrave; possibile disabilitare la casella "Visibile nei form" (la faccina non apparir&agrave; nei form ma sar&agrave; comunque inseribile utilizzando la combinazione di caratteri ad essa associata), oppure cliccare sull'icona "Elimina" (per eliminare definitivamente la faccina).
+</p>
+
+</div> 
+
