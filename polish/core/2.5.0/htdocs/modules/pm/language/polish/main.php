@@ -60,7 +60,7 @@ define("_PM_RECEIVE", "RECEIVE");
 define("_PM_POST", "POST");
 define("_PM_READBOX", "READBOX");
 define("_PM_RSAVEBOX", "Receive_SAVEBOX");
-define("_PM_OUTBOX", "Odebrane");
+define("_PM_OUTBOX", "Wysłane");
 define("_PM_SAVEBOX", "Zapisane");
 define("_PM_SENTBOX", "Skrzynka nadawcza");
 define("_PM_PSAVEBOX", "Post_SAVEBOX");
