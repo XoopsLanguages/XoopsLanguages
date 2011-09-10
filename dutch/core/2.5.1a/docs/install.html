@@ -1,0 +1,136 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//NL">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>XOOPS Installatie handleiding</title>
+    <meta name="keywords" content="XOOPS" />
+    <meta name="description" content="XOOPS installatie handleiding" />
+    <style type="text/css">
+        body {
+            font-family:                        Lucida Grande, Verdana, Geneva, Sans-serif;
+            margin:                             0;
+            padding:                            0;
+            font-size:                          13px;
+            color:                              #333;
+            background-color:                   #fff;
+        }
+
+        a {
+            color:                              #3D9DD3;
+            background-color:                   transparent;
+            text-decoration:                    none;
+            font-weight:                        normal;
+        }
+
+        a:visited {
+            color:                              #3D9DD3;
+            background-color:                   transparent;
+            text-decoration:                    none;
+        }
+
+        a:hover {
+            color:                              #3D9DD3;
+            text-decoration:                    none;
+            background-color:                   transparent;
+        }
+
+        .page {
+            background-color:                   #fff;
+            margin:                             10px 30px 0;
+            padding:                            0;
+        }
+
+        .page h1 {
+            background-color:                   transparent;
+            border-bottom:                      1px solid #999;
+            color:                              #000;
+            font-size:                          18px;
+            font-weight:                        bold;
+            margin:                             28px 0 16px 0;
+            padding:                            5px 0 6px 0;
+        }
+
+        .page h2 {
+            background-color:                   transparent;
+            color:                              #000;
+            font-size:                          16px;
+            font-weight:                        bold;
+            margin:                             28px 0 16px 0;
+            padding:                            5px 0 6px 0;
+        }
+
+        .page h3 {
+            background-color:                   transparent;
+            color:                              #000;
+            font-size:                          14px;
+            font-weight:                        bold;
+        }
+
+        .page ul {
+            margin:                             20px 0 15px 0;
+        }
+
+        .page li {
+            margin-bottom:                      9px;
+        }
+
+        .page li p {
+            margin-left:                        0;
+            margin-right:                       0;
+        }
+
+        p {    }
+
+    </style>
+</head>
+<body>
+
+<div class="page">
+<h1>XOOPS Installeren</h1>
+
+<h2>Eerste installatie</h2>
+<h3>Voorwoord:</h3>
+<p>
+    <acronym title="eXtensible Object-Oriented Portal System">XOOPS</acronym> is een Open-Source Object-Georiënteerd Web Content Management Systeem geschreven in PHP. Dit maakt het tot een ideale tool voor het ontwikkelen van kleine tot grote, dynamische community websites, intranet portalen, bedrijfs portalen, weblogs en meer.
+</p>
+
+<p>
+    XOOPS is vrijgegeven onder de voorwaarden van de 
+    <a href="http://www.gnu.org/copyleft/gpl.html" target="_blank">GNU General Public License (GPL)</a>
+    en mag vrij gebruikt en gewijzigd worden .
+    Het staat vrij de code te delen zolang u de distributie voorwaarden van de GPL respecteert.
+</p>
+
+  <h2>Systeemvereisten:</h2>
+<ul>
+    <li>Webserver (<a href="http://www.apache.org/" target="_blank">Apache</a>, IIS, Roxen, enz)</li>
+    <li><a href="http://www.php.net/" target="_blank">PHP</a> 5.1.0 of hoger</li>
+    <li><a href="http://www.mysql.com/" target="_blank">MySQL</a> 5.1 of hoger</li>
+</ul>
+
+<h2>Voor de installatie</h2>
+<ol>
+  <li>Zorg voor een web-server met PHP en een (MySQL) database server.</li>
+  <li>Maak een nieuwe database aan voor de XOOPS website.</li>
+  <li>Maak een gebruikers account voor deze database en geef de gebruiker lees/schrijfrechten voor de zojuist gemaakte database.</li>
+  <li>Zorg ervoor dat de map <em>/uploads</em> en het bestand <em>mainfile.php</em> door de server beschrijfbaar zijn (Linux: CHMOD 777, Windows: het vinkje bij alleen-lezen weghalen)</li>
+  <li>Om veiligheidsredenen is het sterk aan te raden de volgende twee mappen buiten de <a href="http://phpsec.org/projects/guide/3.html" target="_blank">hoofdmap</a> te plaatsen: <em>/xoops_lib</em> (voor XOOPS gemeenschappelijke bibliotheken) en <em>/xoops_data/</em> (voor tijdelijke XOOPS gegevens en instellingen), tevens is het aan te raden de mapnamen te wijzigen.</li>
+  <li>Zorg ervoor dat de map <em>/xoops_data/</em> en de onderliggende mappen <em>/xoops_data/configs/</em>, <em>/xoops_data/caches/</em>, <em>/xoops_data/caches/xoops_cache/</em>, <em>/xoops_data/caches/smarty_cache/</em> en <em>/xoops_data/caches/smarty_compile/</em> door de server beschrijfbaar zijn. Of maak deze mappen zelf aan als ze niet aanwezig zouden zijn.</li>
+  <li>Zorg er voor dat cookie en JavaScript ondersteuning in uw browser is ingeschakeld.</li>
+</ol>
+
+
+<h2>Lokale Installatie</h2>
+<p>Zorg ervoor dat uw test server installatie voldoet aan de voorgaande benodigdheden voor het draaien van XOOPS.
+  Nadat u dit gecontroleerd heeft, kopieert u de bestanden in de map htdocs van het XOOPS-archief naar de web hoofdmap van uw (test) web omgeving. Als de bestanden zijn gekopieerd kunt u de XOOPS installatie wizard starten door naar "http://uw-domein.ext", of naar "http://localhost/" (als uw computer niet aan een domein gelinkt is) te surfen in uw webbrowser.</p>
+
+<h2>Installatie op een hosting platform</h2>
+  <p>Als u werkt binnen een gehoste web omgeving, pak dan het XOOPS-archief lokaal uit, of op de server als u telnet of SSH toegang heeft. Als dit gedaan is, moeten alle Xoops bestanden uit de htdocs-map naar uw web hoofdmap gekopieerd of verplaatst worden (Uw provider/isp geeft deze locatie meestal aan bij de instellingen of help). Als de bestanden zijn gekopieerd kunt u de XOOPS installatie wizard starten door naar "http://uw-domein.ext" te surfen in uw webbrowser.</p>
+
+
+<h2>Voortzetten van de installatie</h2>
+<p>Volg de stap-voor-stap instructies van de installatie wizard.</p>
+
+</div>
+</body>
+</html>
