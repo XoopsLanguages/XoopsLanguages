@@ -4,22 +4,22 @@
 // _CHARSET : UTF-8
 // Translator: XOOPS Translation Team
 
-define("_PROFILE_AM_FIELD", "Field");
-define("_PROFILE_AM_FIELDS", "Fields");
-define("_PROFILE_AM_CATEGORY", "Category");
-define("_PROFILE_AM_STEP", "Step");
+define("_PROFILE_AM_FIELD", "Medan");
+define("_PROFILE_AM_FIELDS", "Medan-Medan");
+define("_PROFILE_AM_CATEGORY", "Kategori");
+define("_PROFILE_AM_STEP", "Langkah");
 
-define("_PROFILE_AM_SAVEDSUCCESS", "%s saved successfully");
-define("_PROFILE_AM_DELETEDSUCCESS", "%s deleted successfully");
-define("_PROFILE_AM_RUSUREDEL", "Are you sure you want to delete %s");
+define("_PROFILE_AM_SAVEDSUCCESS", "%s berjaya disimpan");
+define("_PROFILE_AM_DELETEDSUCCESS", "%s berjaya dihapuskan");
+define("_PROFILE_AM_RUSUREDEL", "Adakah anda pasti untuk hapus %s");
 define("_PROFILE_AM_FIELDNOTCONFIGURABLE", "The field is not configurable.");
 
-define("_PROFILE_AM_ADD", "Add %s");
+define("_PROFILE_AM_ADD", "Tambah %s");
 define("_PROFILE_AM_EDIT", "Edit %s");
-define("_PROFILE_AM_TYPE", "Field Type");
-define("_PROFILE_AM_VALUETYPE", "Value Type");
-define("_PROFILE_AM_NAME", "Name");
-define("_PROFILE_AM_TITLE", "Title");
+define("_PROFILE_AM_TYPE", "Jenis Medan");
+define("_PROFILE_AM_VALUETYPE", "Nilai Medan");
+define("_PROFILE_AM_NAME", "Nama");
+define("_PROFILE_AM_TITLE", "Tajuk");
 define("_PROFILE_AM_DESCRIPTION", "Description");
 define("_PROFILE_AM_REQUIRED", "Required?");
 define("_PROFILE_AM_MAXLENGTH", "Maximum Length");
@@ -28,7 +28,7 @@ define("_PROFILE_AM_DEFAULT", "Default");
 define("_PROFILE_AM_NOTNULL", "Not Null?");
 
 define("_PROFILE_AM_ARRAY", "Array");
-define("_PROFILE_AM_EMAIL", "Email");
+define("_PROFILE_AM_EMAIL", "Emel");
 define("_PROFILE_AM_INT", "Integer");
 define("_PROFILE_AM_TXTAREA", "Text Area");
 define("_PROFILE_AM_TXTBOX", "Text field");
@@ -85,17 +85,17 @@ define("_PROFILE_AM_KEY", "Value to be stored");
 define("_PROFILE_AM_VALUE", "Text to be displayed");
 
 // User management
-define("_PROFILE_AM_EDITUSER", "Edit User");
-define("_PROFILE_AM_SELECTUSER", "Select User");
-define("_PROFILE_AM_ADDUSER","Add User");
+define("_PROFILE_AM_EDITUSER", "Edit Pengguna");
+define("_PROFILE_AM_SELECTUSER", "Pilih Pengguna");
+define("_PROFILE_AM_ADDUSER","Tambah Pengguna");
 define("_PROFILE_AM_THEME","Theme");
-define("_PROFILE_AM_RANK","Rank");
+define("_PROFILE_AM_RANK","Pangkat");
 define("_PROFILE_AM_USERDONEXIT","User doesn't exist!");
 define("_PROFILE_MA_USERLEVEL", "User Level");
 
-define("_PROFILE_MA_ACTIVE", "Active");
-define("_PROFILE_MA_INACTIVE", "Inactive");
-define("_PROFILE_AM_USERCREATED", "User Created");
+define("_PROFILE_MA_ACTIVE", "Aktif");
+define("_PROFILE_MA_INACTIVE", "Tidak aktif");
+define("_PROFILE_AM_USERCREATED", "Pengguna Created");
 
 define("_PROFILE_AM_CANNOTDELETESELF", "Deleting your own account is not allowed - use your profile page to delete your own account");
 define("_PROFILE_AM_CANNOTDELETEADMIN", "Deleting an administrator account is not allowed");
@@ -106,9 +106,9 @@ define("_PROFILE_AM_USER_DEACTIVATED", "User deactivated");
 define("_PROFILE_AM_USER_NOT_ACTIVATED", "Error: User NOT activated");
 define("_PROFILE_AM_USER_NOT_DEACTIVATED", "Error: User NOT deactivated");
 
-define("_PROFILE_AM_STEPNAME", "Step name");
-define("_PROFILE_AM_STEPORDER", "Step order");
-define("_PROFILE_AM_STEPSAVE", "Save after step");
-define("_PROFILE_AM_STEPINTRO", "Step description");
+define("_PROFILE_AM_STEPNAME", "Nama langkah");
+define("_PROFILE_AM_STEPORDER", "Susunan Langkah");
+define("_PROFILE_AM_STEPSAVE", "Simpan selepas langkah");
+define("_PROFILE_AM_STEPINTRO", "Keterangan Langkah");
 
 ?>
