@@ -1,5 +1,27 @@
 <?php
-// $Id$
+/*
+ You may not change or alter any portion of this comment or credits
+ of supporting developers from this source code or any supporting source code 
+ which is considered copyrighted (c) material of the original comment or credit authors.
+ 
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+*/
+
+/**
+ *  Xoops Language
+ *
+ * @copyright       The XOOPS Project http://sourceforge.net/projects/xoops/
+ * @license         http://www.fsf.org/copyleft/gpl.html GNU public license
+ * @package         kernel
+ * @subpackage      Xoops Private Messages Language
+ * @since           2.0.0
+ * @author          Kazumi Ono <onokazu@xoops.org>
+ * @version         $Id$
+ */
+defined('XOOPS_ROOT_PATH') or die('Restricted access');
+
 // _LANGCODE: en
 // _CHARSET : UTF-8
 // Translator: XOOPS Translation Team
@@ -35,12 +57,10 @@ define('_PM_SUBMIT', 'Submit');
 define('_PM_SUBJECT', 'Subject');
 define('_PM_DATE', 'Date');
 define('_PM_NOTREAD', 'Not Read');
-define('_PM_READ', 'Already Read');
 define('_PM_SEND', 'Send');
 define('_PM_DELETE', 'Delete');
 define('_PM_REPLY', 'Reply');
 define('_PM_PLZREG', 'Please register first to send private messages!');
 define('_PM_ONLINE', 'Online');
-define('_PM_RUSUREDELETE',"Are you sure you want to delete these message(s)?");
-
+define('_PM_SURE_TO_DELETE',"Are you sure you want to delete these message(s)?");
 ?>
