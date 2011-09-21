@@ -17,15 +17,15 @@ define('_MD_A_MYMENU_MYPREFERENCES','Preferencje');
 
 // index.php
 define("_AM_TH_DATETIME","Data");
-define("_AM_TH_USER","U¿ytkownik");
+define("_AM_TH_USER","UÅ¼ytkownik");
 define("_AM_TH_IP","IP");
-define("_AM_TH_AGENT","Przegl±darka");
+define("_AM_TH_AGENT","PrzeglÄ…darka");
 define("_AM_TH_TYPE","Typ");
-define("_AM_TH_DESCRIPTION","Szczegó³y");
+define("_AM_TH_DESCRIPTION","SzczegÃ³Å‚y");
 
-define( "_AM_TH_BADIPS" , 'Zbanowane IP<br /><br /><span style="font-weight:normal;">Wpisz ka¿de IP w osobnej linii.<br />Pozostaw puste aby wy³±czyæ blokowanie IP.</span>' ) ;
+define( "_AM_TH_BADIPS" , 'Zbanowane IP<br /><br /><span style="font-weight:normal;">Wpisz kaÅ¼de IP w osobnej linii.<br />Pozostaw puste aby wyÅ‚Ä…czyÄ‡ blokowanie IP.</span>' ) ;
 
-define( "_AM_TH_GROUP1IPS" , 'Dozwolone IP dla grupy=1<br /><br /><span style="font-weight:normal;">Wpisz ka¿de IP w osobnej linii.<br />192.168. oznacza 192.168.*</span>' ) ;
+define( "_AM_TH_GROUP1IPS" , 'Dozwolone IP dla grupy=1<br /><br /><span style="font-weight:normal;">Wpisz kaÅ¼de IP w osobnej linii.<br />192.168. oznacza 192.168.*</span>' ) ;
 
 define( "_AM_LABEL_COMPACTLOG" , "Compact log" ) ;
 define( "_AM_BUTTON_COMPACTLOG" , "Compact it!" ) ;
@@ -33,34 +33,34 @@ define( "_AM_JS_COMPACTLOGCONFIRM" , "Duplicated (IP,Type) records will be remov
 define( "_AM_LABEL_REMOVEALL" , "Remove all records" ) ;
 define( "_AM_BUTTON_REMOVEALL" , "Remove all!" ) ;
 define( "_AM_JS_REMOVEALLCONFIRM" , "All logs are removed absolutely. Are you really OK?" ) ;
-define( "_AM_LABEL_REMOVE" , "Usuñ zaznaczone wpisy:" ) ;
-define( "_AM_BUTTON_REMOVE" , "Usuñ!" ) ;
+define( "_AM_LABEL_REMOVE" , "UsuÅ„ zaznaczone wpisy:" ) ;
+define( "_AM_BUTTON_REMOVE" , "UsuÅ„!" ) ;
 define( "_AM_JS_REMOVECONFIRM" , "Na pewno?" ) ;
-define( "_AM_MSG_IPFILESUPDATED" , "Pliki z adresami IP zosta³y uaktualnione" ) ;
-define( "_AM_MSG_BADIPSCANTOPEN" , "Plik z zablokowanymi adresami IP nie mo¿e zostaæ odczytany" ) ;
-define( "_AM_MSG_GROUP1IPSCANTOPEN" , "Plik z adresami IP dla grupy=1 nie mo¿e zostaæ odczytany" ) ;
-define( "_AM_MSG_REMOVED" , "Zaznaczone wpisy zosta³y usuniête" ) ;
+define( "_AM_MSG_IPFILESUPDATED" , "Pliki z adresami IP zostaÅ‚y uaktualnione" ) ;
+define( "_AM_MSG_BADIPSCANTOPEN" , "Plik z zablokowanymi adresami IP nie moÅ¼e zostaÄ‡ odczytany" ) ;
+define( "_AM_MSG_GROUP1IPSCANTOPEN" , "Plik z adresami IP dla grupy=1 nie moÅ¼e zostaÄ‡ odczytany" ) ;
+define( "_AM_MSG_REMOVED" , "Zaznaczone wpisy zostaÅ‚y usuniÄ™te" ) ;
 define( "_AM_FMT_CONFIGSNOTWRITABLE" , "Nadaj prawa zapisu dla katalogu: %s" ) ;
 
 
 // prefix_manager.php
 define( "_AM_H3_PREFIXMAN" , "Manager prefixu" ) ;
-define( "_AM_MSG_DBUPDATED" , "Baza danych zosta³a uaktualniona!" ) ;
-define( "_AM_CONFIRM_DELETE" , "Wszystkie dane zostan± zrzucone. OK?" ) ;
-define( "_AM_TXT_HOWTOCHANGEDB" , "Je¶li chcesz zmieniæ prefix w bazie,<br /> wyedytuj %s/mainfile.php za pomoc± dowolnego edytora.<br /><br />define('XOOPS_DB_PREFIX', '<b>%s</b>');" ) ;
+define( "_AM_MSG_DBUPDATED" , "Baza danych zostaÅ‚a uaktualniona!" ) ;
+define( "_AM_CONFIRM_DELETE" , "Wszystkie dane zostanÄ… zrzucone. OK?" ) ;
+define( "_AM_TXT_HOWTOCHANGEDB" , "JeÅ›li chcesz zmieniÄ‡ prefix w bazie,<br /> wyedytuj %s/mainfile.php za pomocÄ… dowolnego edytora.<br /><br />define('XOOPS_DB_PREFIX', '<b>%s</b>');" ) ;
 
 
 // advisory.php
 define("_AM_ADV_NOTSECURE","Niebezpieczne");
 
-define("_AM_ADV_REGISTERGLOBALS","Takie ustawienie pozwala na wiele ataków typu injections.<br />Je¶li to mo¿liwe umie¶æ plik .htaccess, wyedytuj lub utwórz...");
-define("_AM_ADV_ALLOWURLFOPEN","To ustawienie pozwala na wykonanie niechcianych skryptów na zdalnych serwerach.<br />tylko administrator serwera mo¿e zmieniæ t± opcje.<br />Je¿eli nim jeste¶, wyedytuj php.ini lub httpd.conf.<br /><b>Przyk³ad edycji httpd.conf:<br /> &nbsp; php_admin_flag &nbsp; allow_url_fopen &nbsp; off</b><br />Je¶li nie jeste¶ adminem serwera, popro¶ go o to!.");
-define("_AM_ADV_USETRANSSID","Twoje ID sesji bêdzie widoczne w tagach odno¶ników.<br />Aby zabezpieczyæ siê przed kradzie¿± sesji, dodaj nastêpuj±c± liniê w pliku .htaccess w katalogu XOOPS_ROOT_PATH.<br /><b>php_flag session.use_trans_sid off</b>");
-define("_AM_ADV_DBPREFIX","Takie ustawienie pozwala na atak typu 'SQL Injections'.<br />Nie zapomnij uaktywniæ w ustawieniach opcji 'Wymuszone czyszczanie *'.");
-define("_AM_ADV_LINK_TO_PREFIXMAN","Przejd¼ do managera prefixu");
-define("_AM_ADV_MAINUNPATCHED","Powiniene¶ wyedytowaæ plik mainfile.php tak jak napisano w pliku README.");
+define("_AM_ADV_REGISTERGLOBALS","Takie ustawienie pozwala na wiele atakÃ³w typu injections.<br />JeÅ›li to moÅ¼liwe umieÅ›Ä‡ plik .htaccess, wyedytuj lub utwÃ³rz...");
+define("_AM_ADV_ALLOWURLFOPEN","To ustawienie pozwala na wykonanie niechcianych skryptÃ³w na zdalnych serwerach.<br />tylko administrator serwera moÅ¼e zmieniÄ‡ tÄ… opcje.<br />JeÅ¼eli nim jesteÅ›, wyedytuj php.ini lub httpd.conf.<br /><b>PrzykÅ‚ad edycji httpd.conf:<br /> &nbsp; php_admin_flag &nbsp; allow_url_fopen &nbsp; off</b><br />JeÅ›li nie jesteÅ› adminem serwera, poproÅ› go o to!.");
+define("_AM_ADV_USETRANSSID","Twoje ID sesji bÄ™dzie widoczne w tagach odnoÅ›nikÃ³w.<br />Aby zabezpieczyÄ‡ siÄ™ przed kradzieÅ¼Ä… sesji, dodaj nastÄ™pujÄ…cÄ… liniÄ™ w pliku .htaccess w katalogu XOOPS_ROOT_PATH.<br /><b>php_flag session.use_trans_sid off</b>");
+define("_AM_ADV_DBPREFIX","Takie ustawienie pozwala na atak typu 'SQL Injections'.<br />Nie zapomnij uaktywniÄ‡ w ustawieniach opcji 'Wymuszone czyszczanie *'.");
+define("_AM_ADV_LINK_TO_PREFIXMAN","PrzejdÅº do managera prefixu");
+define("_AM_ADV_MAINUNPATCHED","PowinieneÅ› wyedytowaÄ‡ plik mainfile.php tak jak napisano w pliku README.");
 
-define("_AM_ADV_SUBTITLECHECK","Sprawd¼, czy Protector jest skuteczny.");
+define("_AM_ADV_SUBTITLECHECK","SprawdÅº, czy Protector jest skuteczny.");
 define("_AM_ADV_CHECKCONTAMI","Zanieczyszczenie danych");
 define("_AM_ADV_CHECKISOCOM","Odseparowanie komentarzy");
 
