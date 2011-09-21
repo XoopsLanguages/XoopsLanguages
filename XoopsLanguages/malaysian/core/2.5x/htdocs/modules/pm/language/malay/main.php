@@ -95,7 +95,7 @@ define("_PM_ACTION_DONE", "Operasi berjaya");
 define("_PM_ACTION_ERROR", "Operasi tidak berjaya");
 
 //XOOPS 2.5.2
-define("_PM_READ","Suda Dibaca");
+define("_PM_READ","Telah Dibaca");
 define("_PM_SUBJECT_ICONS","Ikon Subjek: ");
 
 ?>
