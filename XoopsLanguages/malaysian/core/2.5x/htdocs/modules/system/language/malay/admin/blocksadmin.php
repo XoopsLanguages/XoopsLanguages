@@ -15,7 +15,6 @@ define("_AM_SYSTEM_BLOCKS_EDITBLOCK","Edit a block");
 define("_AM_SYSTEM_BLOCKS_CLONEBLOCK","Create a clone block");
 
 // Forms
-define("_AM_SYSTEM_BLOCKS_SAVE","Save");
 define("_AM_SYSTEM_BLOCKS_CUSTOM","Custom Block");
 define("_AM_SYSTEM_BLOCKS_TYPES","All types");
 define("_AM_SYSTEM_BLOCKS_GENERATOR","Modules");

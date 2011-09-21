@@ -12,7 +12,7 @@ define("_PROFILE_AM_STEP", "Langkah");
 define("_PROFILE_AM_SAVEDSUCCESS", "%s berjaya disimpan");
 define("_PROFILE_AM_DELETEDSUCCESS", "%s berjaya dihapuskan");
 define("_PROFILE_AM_RUSUREDEL", "Adakah anda pasti untuk hapus %s");
-define("_PROFILE_AM_FIELDNOTCONFIGURABLE", "The field is not configurable.");
+define("_PROFILE_AM_FIELDNOTCONFIGURABLE", "Medan ini tidak boleh dikonfigurasikan.");
 
 define("_PROFILE_AM_ADD", "Tambah %s");
 define("_PROFILE_AM_EDIT", "Edit %s");
@@ -20,10 +20,10 @@ define("_PROFILE_AM_TYPE", "Jenis Medan");
 define("_PROFILE_AM_VALUETYPE", "Nilai Medan");
 define("_PROFILE_AM_NAME", "Nama");
 define("_PROFILE_AM_TITLE", "Tajuk");
-define("_PROFILE_AM_DESCRIPTION", "Description");
-define("_PROFILE_AM_REQUIRED", "Required?");
-define("_PROFILE_AM_MAXLENGTH", "Maximum Length");
-define("_PROFILE_AM_WEIGHT", "Weight");
+define("_PROFILE_AM_DESCRIPTION", "Keterangan");
+define("_PROFILE_AM_REQUIRED", "Diperlukan?");
+define("_PROFILE_AM_MAXLENGTH", "Panjang Maksimum");
+define("_PROFILE_AM_WEIGHT", "Pemberat");
 define("_PROFILE_AM_DEFAULT", "Default");
 define("_PROFILE_AM_NOTNULL", "Not Null?");
 
@@ -33,7 +33,7 @@ define("_PROFILE_AM_INT", "Integer");
 define("_PROFILE_AM_TXTAREA", "Text Area");
 define("_PROFILE_AM_TXTBOX", "Text field");
 define("_PROFILE_AM_URL", "URL");
-define("_PROFILE_AM_OTHER", "Other");
+define("_PROFILE_AM_OTHER", "Lain-Lain");
 define("_PROFILE_AM_FLOAT", "Floating Point");
 define("_PROFILE_AM_DECIMAL", "Decimal Number");
 define("_PROFILE_AM_UNICODE_ARRAY", "Unicode Array");
@@ -42,25 +42,25 @@ define("_PROFILE_AM_UNICODE_TXTAREA", "Unicode Text Area");
 define("_PROFILE_AM_UNICODE_TXTBOX", "Unicode Text field");
 define("_PROFILE_AM_UNICODE_URL", "Unicode URL");
 
-define("_PROFILE_AM_PROF_VISIBLE_ON", "Field visible on these groups' profile");
-define("_PROFILE_AM_PROF_VISIBLE_FOR", "Field visible on profile for these groups");
-define("_PROFILE_AM_PROF_VISIBLE", "Visibility");
-define("_PROFILE_AM_PROF_EDITABLE", "Field editable from profile");
-define("_PROFILE_AM_PROF_REGISTER", "Show in registration form");
-define("_PROFILE_AM_PROF_SEARCH", "Searchable by these groups");
-define("_PROFILE_AM_PROF_ACCESS", "Profile accessible by these groups");
+define("_PROFILE_AM_PROF_VISIBLE_ON", "Medan yang boleh dilihat dalam profil kumpulan ini");
+define("_PROFILE_AM_PROF_VISIBLE_FOR", "Medan yang boleh dilihat dalam profile untuk kumpulan ini");
+define("_PROFILE_AM_PROF_VISIBLE", "Kebolehnampakan");
+define("_PROFILE_AM_PROF_EDITABLE", "Medan boleh diedit dalam profil");
+define("_PROFILE_AM_PROF_REGISTER", "Paparkan dalam borang pendaftaran pengguna");
+define("_PROFILE_AM_PROF_SEARCH", "Boleh dicari oleh kumpulan ini");
+define("_PROFILE_AM_PROF_ACCESS", "Profil boleh diakses oleh kumpulan ini");
 define("_PROFILE_AM_PROF_ACCESS_DESC", 
         "<ul>" .
-        "<li>Admin groups: If a user belongs to admin groups, the current user has access if and only if one of the current user's groups is allowed to access admin group; else</li>" .
-        "<li>Non basic groups: If a user belongs to one or more non basic groups (NOT admin, user, anonymous), the current user has access if and only if one of the current user's groups is allowed to allowed to any of the non basic groups; else</li>" .
-        "<li>User group: If a user belongs to User group only, the current user has access if and only if one of his groups is allowed to access User group</li>" .
+        "<li>Kumpulan Pentadbir: If a user belongs to admin groups, the current user has access if and only if one of the current user's groups is allowed to access admin group; else</li>" .
+        "<li>Kumpulan bukan asas: If a user belongs to one or more non basic groups (NOT admin, user, anonymous), the current user has access if and only if one of the current user's groups is allowed to allowed to any of the non basic groups; else</li>" .
+        "<li>Kumpulan Penggula: If a user belongs to User group only, the current user has access if and only if one of his groups is allowed to access User group</li>" .
         "</ul>");
 
-define("_PROFILE_AM_FIELDVISIBLE", "The field ");
-define("_PROFILE_AM_FIELDVISIBLEFOR", " is visible for ");
-define("_PROFILE_AM_FIELDVISIBLEON", " viewing a profile of ");
-define("_PROFILE_AM_FIELDVISIBLETOALL", "- Everyone");
-define("_PROFILE_AM_FIELDNOTVISIBLE", "is not visible");
+define("_PROFILE_AM_FIELDVISIBLE", "Medan ");
+define("_PROFILE_AM_FIELDVISIBLEFOR", " boleh dilihat oleh ");
+define("_PROFILE_AM_FIELDVISIBLEON", " melihat profil");
+define("_PROFILE_AM_FIELDVISIBLETOALL", "- Semua");
+define("_PROFILE_AM_FIELDNOTVISIBLE", "tidak boleh dilihat");
 
 define("_PROFILE_AM_CHECKBOX", "Checkbox");
 define("_PROFILE_AM_GROUP", "Group Select");
@@ -79,10 +79,10 @@ define("_PROFILE_AM_AUTOTEXT", "Auto Text");
 define("_PROFILE_AM_DATETIME", "Date and Time");
 define("_PROFILE_AM_LONGDATE", "Long Date");
 
-define("_PROFILE_AM_ADDOPTION", "Add Option");
-define("_PROFILE_AM_REMOVEOPTIONS", "Remove Options");
-define("_PROFILE_AM_KEY", "Value to be stored");
-define("_PROFILE_AM_VALUE", "Text to be displayed");
+define("_PROFILE_AM_ADDOPTION", "TamBAH pILIHAN");
+define("_PROFILE_AM_REMOVEOPTIONS", "Buang pilihan");
+define("_PROFILE_AM_KEY", "Nilai yang akan disimpan");
+define("_PROFILE_AM_VALUE", "Teks yang akan dipaparkan");
 
 // User management
 define("_PROFILE_AM_EDITUSER", "Edit Pengguna");
@@ -90,21 +90,21 @@ define("_PROFILE_AM_SELECTUSER", "Pilih Pengguna");
 define("_PROFILE_AM_ADDUSER","Tambah Pengguna");
 define("_PROFILE_AM_THEME","Theme");
 define("_PROFILE_AM_RANK","Pangkat");
-define("_PROFILE_AM_USERDONEXIT","User doesn't exist!");
-define("_PROFILE_MA_USERLEVEL", "User Level");
+define("_PROFILE_AM_USERDONEXIT","Pengguna tidak wujud!");
+define("_PROFILE_MA_USERLEVEL", "Tahap Pengguna");
 
 define("_PROFILE_MA_ACTIVE", "Aktif");
 define("_PROFILE_MA_INACTIVE", "Tidak aktif");
 define("_PROFILE_AM_USERCREATED", "Pengguna Created");
 
-define("_PROFILE_AM_CANNOTDELETESELF", "Deleting your own account is not allowed - use your profile page to delete your own account");
-define("_PROFILE_AM_CANNOTDELETEADMIN", "Deleting an administrator account is not allowed");
+define("_PROFILE_AM_CANNOTDELETESELF", "Menghapuskan akaun anda sendiri tidak dibenarkan - sila guna laman profil anda untuk menghapuskan akaun anda.");
+define("_PROFILE_AM_CANNOTDELETEADMIN", "Menghapuskan akaun pentadbir adalah tidak dibenarkan");
 
-define("_PROFILE_AM_NOSELECTION", "No user selected");
-define("_PROFILE_AM_USER_ACTIVATED", "User activated");
-define("_PROFILE_AM_USER_DEACTIVATED", "User deactivated");
-define("_PROFILE_AM_USER_NOT_ACTIVATED", "Error: User NOT activated");
-define("_PROFILE_AM_USER_NOT_DEACTIVATED", "Error: User NOT deactivated");
+define("_PROFILE_AM_NOSELECTION", "Tiada pengguna yang dipilih");
+define("_PROFILE_AM_USER_ACTIVATED", "Pengguna diaktifkan");
+define("_PROFILE_AM_USER_DEACTIVATED", "Pengguna dinyahaktifkan");
+define("_PROFILE_AM_USER_NOT_ACTIVATED", "Ralat: Pengguna TIDAK diaktifkan");
+define("_PROFILE_AM_USER_NOT_DEACTIVATED", "Ralat: Pengguna TIDAK dinyahaktifkan");
 
 define("_PROFILE_AM_STEPNAME", "Nama langkah");
 define("_PROFILE_AM_STEPORDER", "Susunan Langkah");
