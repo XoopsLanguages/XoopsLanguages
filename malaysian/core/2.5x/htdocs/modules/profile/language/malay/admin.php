@@ -51,9 +51,9 @@ define("_PROFILE_AM_PROF_SEARCH", "Boleh dicari oleh kumpulan ini");
 define("_PROFILE_AM_PROF_ACCESS", "Profil boleh diakses oleh kumpulan ini");
 define("_PROFILE_AM_PROF_ACCESS_DESC", 
         "<ul>" .
-        "<li>Kumpulan Pentadbir: If a user belongs to admin groups, the current user has access if and only if one of the current user's groups is allowed to access admin group; else</li>" .
-        "<li>Kumpulan bukan asas: If a user belongs to one or more non basic groups (NOT admin, user, anonymous), the current user has access if and only if one of the current user's groups is allowed to allowed to any of the non basic groups; else</li>" .
-        "<li>Kumpulan Penggula: If a user belongs to User group only, the current user has access if and only if one of his groups is allowed to access User group</li>" .
+        "<li>Kumpulan Pentadbir: Sekiranya seorang berada dalam Kumpulan Pentadbir(admin), pengguna semasa itu mempunyai akses sekiranya dan hanya sekiranya salah satu kumpulannya dibenarkan untuk akses Kumpulan Pentadbir; melainkan</li>" .
+        "<li>Kumpulan bukan asas: Sekiranya seorang berada dalam satu atau lebih kumpulan bukan asas (BUKAN pentadbir, pengguna, tanpa nama) pengguna semasa itu mempunyai akses sekiranya dan hanya sekiranya salah satu kumpulannya dibenarkan untuk membenarkan akses kepada mana-mana kumpulan bukan asas; melainkan</li>" .
+        "<li>Kumpulan Pengguna: Sekiranya seorang berada dalam Kumpulan Pengguna sahaja, pengguna semasa itu mempunyai akses sekiranya dan hanya sekiranya salah satu kumpulannya dibenarkan untuk akses Kumpulan Pengguna</li>" .
         "</ul>");
 
 define("_PROFILE_AM_FIELDVISIBLE", "Medan ");
