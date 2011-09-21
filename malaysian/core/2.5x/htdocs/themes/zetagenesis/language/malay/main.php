@@ -13,8 +13,8 @@ define("_THEME_INBOX",              "View your messages");
 define("_THEME_INBOX_NOTREAD",      "message(s) unread");
 define("_THEME_NOTIFICATIONS",      "View your notifications");
 define("_THEME_PROFILE",            "View your profile");
-define("_THEME_ADMINISTRATION",     "Administration");
-define("_THEME_LOGOUT",             "Click to logout");
+define("_THEME_ADMINISTRATION",     "Pentadbiran");
+define("_THEME_LOGOUT",             "Klik untuk Log Keluar");
 
 define("THEME_WELLCOME",				"Welcome");
 define("THEME_EDITPROFILE",				"Edit profil");

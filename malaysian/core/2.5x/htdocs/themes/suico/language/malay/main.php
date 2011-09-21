@@ -21,8 +21,8 @@ define("THEME_DESC_SEARCH",				"Search this site");
 define("THEME_KEYWORDS",				"Put the keywords");
 
 // blockszone and centerblocks.html
-define("THEME_THISBLOCK_EDIT",			"Edit this block");
-define("THEME_VIEWALL",					"View All");
+define("THEME_THISBLOCK_EDIT",			"Edit blok ini");
+define("THEME_VIEWALL",					"Lihat Semua");
 
 // xo_globalnav.html
 define("THEME_NAVTITLE",				"Navigation");
@@ -45,8 +45,8 @@ define("THEME_MODULE4_DESC",			"See our movies");
 define("THEME_MODULE5",					"Web Links");
 define("THEME_MODULE5_DESC",			"Visit our web links");
 
-define("THEME_MODULE6",					"Downloads");
-define("THEME_MODULE6_DESC",			"Download our files");
+define("THEME_MODULE6",					"Muat Turun");
+define("THEME_MODULE6_DESC",			"Muat Turun Semua Fail");
 
 define("THEME_MODULE7",					"");
 define("THEME_MODULE7_DESC",			"");
