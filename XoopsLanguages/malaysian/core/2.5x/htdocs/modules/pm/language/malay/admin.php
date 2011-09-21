@@ -4,14 +4,14 @@
 // _CHARSET : UTF-8
 // Translator: XOOPS Translation Team
 
-define("_PM_AM_PRUNE", "Prune");
-define("_PM_AM_PRUNEAFTER", "Prune messages posted after this date (leave blank for no start date)");
-define("_PM_AM_PRUNEBEFORE", "Prune messages posted before this date (leave blank for no end date)");
-define("_PM_AM_ONLYREADMESSAGES", "Prune only read messages");
-define("_PM_AM_INCLUDESAVE", "Include messages in users' \"save\" folders");
-define("_PM_AM_NOTIFYUSERS", "Notify affected users about the prune?");
+define("_PM_AM_PRUNE", "Hapus");
+define("_PM_AM_PRUNEAFTER", "Hapus mesej yang dihantar selepas tarikh ini (Biarkan kosong untuk tiada tarikh mula)");
+define("_PM_AM_PRUNEBEFORE", "Hapus Mesej yang dihantar sebelum tarikh ini(Biarkan kosong untuk tiada tarikh tamat)");
+define("_PM_AM_ONLYREADMESSAGES", "Hapus mesej yang telah dibaca sahaja");
+define("_PM_AM_INCLUDESAVE", "Masukkan mesej yang disimpan dalam peti simpan pengguna");
+define("_PM_AM_NOTIFYUSERS", "Maklumkan pengguna terlibat mengenai penghapusan mesej?");
 
-define("_PM_AM_MESSAGESPRUNED", "%u Messages Pruned");
-define("_PM_AM_ERRORWHILEPRUNING", "An error occurred during prune");
+define("_PM_AM_MESSAGESPRUNED", "%u Mesej telah dihapuskan");
+define("_PM_AM_ERRORWHILEPRUNING", "Terdapat ralat ketika operasi penghapusan");
 
 ?>
