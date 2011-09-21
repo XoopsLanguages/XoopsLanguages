@@ -54,7 +54,7 @@ define("_PM_EMPTIED","Peti telah dikosongkan");
 define("_PM_RUSUREEMPTY","Adakah anda pasti untuk mengosongkan peti ini?");
 define("_PM_SURE_TO_DELETE","Adakah anda pasti untuk hapuskan mesej ini?");
 
-define("_PM_ONLINE", "Online");
+define("_PM_ONLINE", "Dalam Talian");
 
 define("_PM_RECEIVE","Terima");
 define("_PM_POST","Kirim");
@@ -71,7 +71,7 @@ define("_PM_TOC","Dari: ");
 //WANISYS.NET PM HACK1.5
 define("_PM_SORT","Susun");
 define("_PM_ORDER","Susunan");
-define("_PM_UID","Partner's UID");
+define("_PM_UID","UID Rakan");
 define("_PM_TIME","Tarikh Kiriman");
 define("_PM_ASC","Menaik");
 define("_PM_DESC","Menurun");
@@ -81,11 +81,11 @@ define("_PM_SORTSUBMIT","Hantar");
 define("_PM_PREVIOUSP","Sebelum");
 define("_PM_NEXTP","Selepas");
 
-define("_PM_MAILNOTIFY","%s-You've got a new PM from %s");
-define("_PM_MAILMESSAGE","Hello!\nA New PM has arrived from %s\n\nTitle of PM is\n%s\n\nYou can view the PM here\n%s\n\n-----------\nYou are receiving this message because you selected to be notified when you receive a new PM\n\nYou can change your PM-Config\n%s\n\nPlease do not reply to this message\n\n---------\nBest Regards\n%s\n%s\n%s");
+define("_PM_MAILNOTIFY","%s-Anda mendapat mesej peribadi baru dari %s"); 	
+define("_PM_MAILMESSAGE","Hi!\nMesej peribadi baru dari %s\n\nSubjek mesej peribadi ialah \n%s\n\nAnda boleh melihat mesej ini di sini\n%s\n\n-----------\nAnda menerima mesej ini disebabkan anda telah memilih untuk dimaklumkan bila anda menerima mesej peribadi yang baru\n\nAnda boleh mengubah setting PM-Config\n%s\n\nSila jangan balas mesej ini\n\n---------\nDaripada\n%s\n%s\n%s");
 
-define("_PM_EMAIL", "Forward to email");
-define("_PM_EMAIL_DESC", "Dear %s, this is a message transfered from your account at ".$GLOBALS['xoopsConfig']['sitename']);
+define("_PM_EMAIL", "Pindah ke emel"); 
+define("_PM_EMAIL_DESC", "%s, Mesej ini dipindahkan dari akaun anda di ".$GLOBALS['xoopsConfig']['sitename']);
 define("_PM_EMAIL_FROM", "Dari %s");
 define("_PM_EMAIL_TO", "Kepada %s");
 define("_PM_EMAIL_SUBJECT", "[message]%s");
