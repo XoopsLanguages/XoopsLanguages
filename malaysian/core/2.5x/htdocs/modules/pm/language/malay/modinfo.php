@@ -4,27 +4,27 @@
 // _CHARSET : UTF-8
 // Translator: XOOPS Translation Team
 
-define("_PM_MI_NAME", "Private Messaging");
-define("_PM_MI_DESC", "Module for private messaging between users");
+define("_PM_MI_NAME", "Mesej Peribadi");
+define("_PM_MI_DESC", "Module untuk menghantar mesej peribadi diantara pengguna");
 
 define("_PM_MI_INDEX", "Index");
-define("_PM_MI_PRUNE", "Prune Messages");
+define("_PM_MI_PRUNE", "Hapus Mesej");
 
-define("_PM_MI_LINK_TITLE", "PM Link");
-define("_PM_MI_LINK_DESCRIPTION", "Shows a link to send a private message to the user");
-define("_PM_MI_MESSAGE", "Write a message to");
+define("_PM_MI_LINK_TITLE", "Pautan Mesej Peribadi");
+define("_PM_MI_LINK_DESCRIPTION", "Paparkan pautan untuk menghantar mesej peribadi kepada pengguna");
+define("_PM_MI_MESSAGE", "Hantar mesej kepada");
 
-define("_PM_MI_PRUNESUBJECT", "Prune PM subject line");
-define("_PM_MI_PRUNESUBJECT_DESC", "This will be the subject of the PM to the user, received after a PM prune");
-define("_PM_MI_PRUNEMESSAGE", "Prune PM body message");
-define("_PM_MI_PRUNEMESSAGE_DESC", "This message will be in the body of the message to users after one or more of their messages have been removed from their inbox during a PM prune. Use {PM_COUNT} in the text to be replaced with the number of messages removed from this user's inbox");
-define("_PM_MI_PRUNESUBJECTDEFAULT", "Messages deleted during cleanup");
-define("_PM_MI_PRUNEMESSAGEDEFAULT", "During a cleanup of the Private Messaging, we have deleted {PM_COUNT} of the messages in your inbox to save space and resources");
+define("_PM_MI_PRUNESUBJECT", "Subjek Penghapusan Mesej");
+define("_PM_MI_PRUNESUBJECT_DESC", "Ini merupakan subjek mesej untuk pengguna yang akan diterima selepas penghapusan mesej");
+define("_PM_MI_PRUNEMESSAGE", "Buang kandungan mesej penghapusan");
+define("_PM_MI_PRUNEMESSAGE_DESC", "Mesej ini merupakan kandungan mesej kepada pengguna setelah satu atau lebih mesej mereka dibuang dari peti masuk mereka semasa operasi penghapusan mesej. Gunakan {PM_COUNT} dalam text digantikan dengan jumlah mesej yang dibuang dari peti simpan pengguna");
+define("_PM_MI_PRUNESUBJECTDEFAULT", "Mesej dihapuskan semasa operasi pembersihan mesej");
+define("_PM_MI_PRUNEMESSAGEDEFAULT", "Semasa proses pembersihan mesej peribadi, kami telah buang {PM_COUNT} mesej dari peti simpan anda untuk menjimatkan ruang dan sumber.");
 
-define("_PM_MI_MAXSAVE", "Maximum items in savebox");
+define("_PM_MI_MAXSAVE", "Mesej maksimum dalam peti simpanan");
 define("_PM_MI_MAXSAVE_DESC", "");
 
-define("_PM_MI_PERPAGE", "Items per page");
+define("_PM_MI_PERPAGE", "Jumlah mesej untuk setiap halaman");
 define("_PM_MI_PERPAGE_DESC", "");
 
 ?>
