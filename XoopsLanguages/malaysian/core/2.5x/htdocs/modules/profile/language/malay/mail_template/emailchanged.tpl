@@ -1,8 +1,8 @@
-Hello {X_UNAME},
+Hi {X_UNAME},
 
-You email address at {SITENAME} has been successfully changed. 
+Alamat emel anda di {SITENAME} telah berjaya diubah.
 
-If you have any question, please feel free to contact us.
+Sekiranya anda ada sebarang soalan, sila hubungi kami. Terima Kasih
 
 -----------
 {SITENAME} ({SITEURL}) 
