@@ -3,174 +3,174 @@
 // _LANGCODE: en
 // _CHARSET : UTF-8
 // Translator: XOOPS Translation Team
-define('_PLEASEWAIT', 'Please Wait');
+define('_PLEASEWAIT', 'Sila tunggu');
 define('_FETCHING', 'Loading...');
-define('_TAKINGBACK', 'Taking you back to where you were....');
-define('_LOGOUT', 'Logout');
-define('_SUBJECT', 'Subject');
-define('_MESSAGEICON', 'Message Icon');
-define('_COMMENTS', 'Comments');
+define('_TAKINGBACK', 'Membawa anda kembali ke halaman anda sebelum ini....');
+define('_LOGOUT', 'Log Keluar');
+define('_SUBJECT', 'Subjek');
+define('_MESSAGEICON', 'Ikon Mesej');
+define('_COMMENTS', 'Komen');
 define('_POSTANON', 'Post Anonymously');
 define('_DISABLESMILEY', 'Disable smiley');
 define('_DISABLEHTML', 'Disable html');
 define('_PREVIEW', 'Preview');
 define('_GO', 'Go!');
 define('_NESTED', 'Nested');
-define('_NOCOMMENTS', 'No Comments');
+define('_NOCOMMENTS', 'Tiada Komen');
 define('_FLAT', 'Flat');
 define('_THREADED', 'Threaded');
-define('_OLDESTFIRST', 'Oldest First');
-define('_NEWESTFIRST', 'Newest First');
-define('_MORE', 'more...');
-define('_MULTIPAGE', 'To have your article span multiple pages, insert the word <font color=red>[pagebreak]</font> (with brackets) in the article.');
-define('_IFNOTRELOAD', 'If the page does not automatically reload, please click <a href=\'%s\'>here</a>');
+define('_OLDESTFIRST', 'Lama Duluan');
+define('_NEWESTFIRST', 'Baru Duluan');
+define('_MORE', 'Lagi...');
+define('_MULTIPAGE', 'Untuk menjadikan artikel anda mempunyai muka surat, masukkan perkataan <font color=red>[pagebreak]</font> (dengan kurungan) dalam artikel.');
+define('_IFNOTRELOAD', 'Sekiranya halaman itidak automatik reload, sila kilik di <a href=\'%s\'>sini</a>');
 // Error messages issued by XoopsObject::cleanVars()
-define('_XOBJ_ERR_REQUIRED', '%s is required');
-define('_XOBJ_ERR_SHORTERTHAN', '%s must be shorter than %d characters.');
+define('_XOBJ_ERR_REQUIRED', '%s diperlukan');
+define('_XOBJ_ERR_SHORTERTHAN', '%s mesti pendek dari %d aksara.');
 // %%%%%%    File Name themeuserpost.php     %%%%%
-define('_PROFILE', 'Profile');
-define('_POSTEDBY', 'Posted by');
-define('_VISITWEBSITE', 'Visit Website');
-define('_SENDPMTO', 'Send Private Message to %s');
-define('_SENDEMAILTO', 'Send Email to %s');
-define('_ADD', 'Add');
-define('_REPLY', 'Reply');
-define('_DATE', 'Date'); // Posted date
+define('_PROFILE', 'Profil');
+define('_POSTEDBY', 'Dikirim oleh');
+define('_VISITWEBSITE', 'Lawat Laman Web');
+define('_SENDPMTO', 'Hantar Mesej Peribadi Kepada %s');
+define('_SENDEMAILTO', 'Hantar Emel Kepada %s');
+define('_ADD', 'Tambah');
+define('_REPLY', 'Balas');
+define('_DATE', 'Tarikh'); // Posted date
 // %%%%%%    File Name admin_functions.php     %%%%%
-define('_MAIN', 'Main');
+define('_MAIN', 'Utama');
 define('_MANUAL', 'Manual');
 define('_INFO', 'Info');
-define('_CPHOME', 'Control Panel Home');
-define('_YOURHOME', 'Home Page');
+define('_CPHOME', 'Panel Kawalan Utama');
+define('_YOURHOME', 'Halaman Utama');
 // %%%%%%    File Name misc.php (who's-online popup)    %%%%%
 define('_WHOSONLINE', 'Who\'s Online');
-define('_GUESTS', 'Guests');
-define('_MEMBERS', 'Members');
-define('_ONLINEPHRASE', '<strong>%s</strong> user(s) are online');
-define('_ONLINEPHRASEX', '<strong>%s</strong> user(s) are browsing <strong>%s</strong>');
-define('_CLOSE', 'Close'); // Close window
+define('_GUESTS', 'Tetamu');
+define('_MEMBERS', 'Ahli');
+define('_ONLINEPHRASE', '<strong>%s</strong> pengguna sedang berada dalam talian');
+define('_ONLINEPHRASEX', '<strong>%s</strong> pengguna sedang melayari <strong>%s</strong>');
+define('_CLOSE', 'Tutup'); // Close window
 // %%%%%%    File Name module.textsanitizer.php     %%%%%
 define('_QUOTEC', 'Quote:');
 // %%%%%%    File Name admin.php     %%%%%
-define('_NOPERM', 'Sorry, you don\'t have the permission to access this area.');
+define('_NOPERM', 'Maaf, anda tidak mempunyai kebenaran untuk akses halaman ini');
 // %%%%%        Common Phrases        %%%%%
-define('_NO', 'No');
-define('_YES', 'Yes');
+define('_NO', 'Tidak');
+define('_YES', 'Ya');
 define('_EDIT', 'Edit');
-define('_DELETE', 'Delete');
-define('_SUBMIT', 'Submit');
-define('_MODULENOEXIST', 'Selected module does not exist!');
+define('_DELETE', 'Hapus');
+define('_SUBMIT', 'Hantar');
+define('_MODULENOEXIST', 'Modul yang dipilih tidak wujud!');
 define('_ALIGN', 'Align');
-define('_LEFT', 'Left');
-define('_CENTER', 'Center');
-define('_RIGHT', 'Right');
-define('_FORM_ENTER', 'Please enter %s');
+define('_LEFT', 'Kiri');
+define('_CENTER', 'Tengah');
+define('_RIGHT', 'Kanan');
+define('_FORM_ENTER', 'Sila masukkan %s');
 define('_MUSTWABLE', 'File %s must be writable by the server!'); // %s represents file name
 // Module info
-define('_PREFERENCES', 'Preferences');
-define('_VERSION', 'Version');
-define('_DESCRIPTION', 'Description');
-define('_AUTHOR', 'Author');
-define('_CREDITS', 'Credits');
-define('_LICENCE', 'Licence');
-define('_ERRORS', 'Errors');
-define('_NONE', 'None');
-define('_ON', 'on');
-define('_READS', 'reads');
-define('_WELCOMETO', 'Welcome to %s');
-define('_SEARCH', 'Search');
-define('_ALL', 'All');
-define('_TITLE', 'Title');
-define('_OPTIONS', 'Options');
-define('_QUOTE', 'Quote');
-define('_LIST', 'List');
-define('_LOGIN', 'User Login');
-define('_USERNAME', 'Username: ');
-define('_PASSWORD', 'Password: ');
-define('_SELECT', 'Select');
-define('_IMAGE', 'Image');
-define('_SEND', 'Send');
-define('_CANCEL', 'Cancel');
-define('_ASCENDING', 'Ascending order');
-define('_DESCENDING', 'Descending order');
-define('_BACK', 'Back');
-define('_NOTITLE', 'No title');
+define('_PREFERENCES', 'Pilihan Utama');
+define('_VERSION', 'Versi');
+define('_DESCRIPTION', 'Keterangan');
+define('_AUTHOR', 'Pengarang');
+define('_CREDITS', 'Kredit');
+define('_LICENCE', 'Lesen');
+define('_ERRORS', 'Ralat');
+define('_NONE', 'Tiada');
+define('_ON', 'pada');
+define('_READS', 'Bacaan');
+define('_WELCOMETO', 'Selamat Datang ke %s');
+define('_SEARCH', 'Cari');
+define('_ALL', 'Semua');
+define('_TITLE', 'Tajuk');
+define('_OPTIONS', 'Pilihan');
+define('_QUOTE', 'Petik');
+define('_LIST', 'Senarai');
+define('_LOGIN', 'Log Masuk Pengguna');
+define('_USERNAME', 'Nama Pengguna: ');
+define('_PASSWORD', 'Kata Laluan: ');
+define('_SELECT', 'Pilih');
+define('_IMAGE', 'Imej');
+define('_SEND', 'Hantar');
+define('_CANCEL', 'Batal');
+define('_ASCENDING', 'Susunan Menaik');
+define('_DESCENDING', 'Susunan Menurun');
+define('_BACK', 'Kembali');
+define('_NOTITLE', 'Tiada Tajuk');
 /**
 * Image manager
 */
-define("_MD_ADDIMGCAT","Add Category");
-define("_MD_IMGCATNAME","Category name");
-define("_MD_IMGCATRGRP","Select groups for image manager use");
-define("_MD_IMGCATWGRP","Select groups allowed to upload images");
-define("_MD_IMGCATWEIGHT","Display order in image manager");
-define("_MD_IMGCATDISPLAY","Display");
-define("_MD_IMGCATSTRTYPE","Images are uploaded to:");
-define("_MD_STRTYOPENG","This can not be changed afterwards!");
-define("_MD_ASFILE","Store as files (in uploads directory)");
-define("_MD_INDB","Store in the database (as binary \"blob\" data)");
-define ("_MD_IMGMAIN","Category"); 
-define ("_MD_EDITIMGCAT", "Images Settings");
-define('_IMGMANAGER', 'Image Manager');
-define('_NUMIMAGES', '%s images');
-define('_ADDIMAGE', 'Add Image File');
-define('_IMAGENAME', 'Name:');
-define('_IMGMAXSIZE', 'Max size allowed (bytes):');
-define('_IMGMAXWIDTH', 'Max width allowed (pixels):');
-define('_IMGMAXHEIGHT', 'Max height allowed (pixels):');
-define('_IMAGECAT', 'Category:');
-define('_IMAGEFILE', 'Image file:');
-define('_IMGWEIGHT', 'Display order in image manager:');
-define('_IMGDISPLAY', 'Display this image?');
+define("_MD_ADDIMGCAT","Tambah Kategori");
+define("_MD_IMGCATNAME","Nama Kategori");
+define("_MD_IMGCATRGRP","Pilih kumpulan dibenarkan menggunakan Pengurusan imej");
+define("_MD_IMGCATWGRP","Pilih Kumpulan dibenarkan untuk muat naik imej");
+define("_MD_IMGCATWEIGHT","Susunan Paparan Dalam Pengurusan Imej");
+define("_MD_IMGCATDISPLAY","Paparan");
+define("_MD_IMGCATSTRTYPE","Imej dimuat naik ke:");
+define("_MD_STRTYOPENG","Ini tidak diubah kemudian!");
+define("_MD_ASFILE","Simpan sebagai fail(dalam direktori uploads)");
+define("_MD_INDB","Simpan dalam pangkalan data (sebagai binary \"blob\" data)");
+define ("_MD_IMGMAIN","Kategori"); 
+define ("_MD_EDITIMGCAT", "Tetapan Imej");
+define('_IMGMANAGER', 'Pengurusan Imej');
+define('_NUMIMAGES', '%s imej');
+define('_ADDIMAGE', 'Tambah Fail Imej');
+define('_IMAGENAME', 'Nama:');
+define('_IMGMAXSIZE', 'Saiz Maksimum yang dibenarkan (bytes):');
+define('_IMGMAXWIDTH', 'Lebar Maksimum yang dibenarkand (pixels):');
+define('_IMGMAXHEIGHT', 'Ketinggina Maksimum yang dibenarkan (pixels):');
+define('_IMAGECAT', 'Kategori:');
+define('_IMAGEFILE', 'Fail Imej:');
+define('_IMGWEIGHT', 'Susunan Paparan Dalam Pengurusan Imej:');
+define('_IMGDISPLAY', 'Papar imej ini?');
 define('_IMAGEMIME', 'MIME type:');
-define('_FAILFETCHIMG', 'Could not get uploaded file %s');
-define('_FAILSAVEIMG', 'Failed storing image %s into the database');
-define('_NOCACHE', 'No Cache');
-define('_CLONE', 'Clone');
+define('_FAILFETCHIMG', 'Tidak dapat mengambil fail yang dimuat naik %s');
+define('_FAILSAVEIMG', 'Gagal untuk menyimpan imej  %s dalam pangkalan data');
+define('_NOCACHE', 'Tiada Cache');
+define('_CLONE', 'Klon');
 // %%%%%    For xoopsform files %%%%%
-define('_STARTSWITH', 'Starts with');
-define('_ENDSWITH', 'Ends with');
-define('_MATCHES', 'Matches');
-define('_CONTAINS', 'Contains');
-define('_REQUIRED', 'Required');
+define('_STARTSWITH', 'Bermula dengan');
+define('_ENDSWITH', 'Berakhir dengan');
+define('_MATCHES', 'Padanan');
+define('_CONTAINS', 'Mengandungi');
+define('_REQUIRED', 'Diperlukan');
 // %%%%%%    File Name commentform.php     %%%%%
-define('_REGISTER', 'Register');
+define('_REGISTER', 'Pendaftaran');
 // %%%%%%    File Name xoopscodes.php     %%%%%
-define('_SIZE', 'SIZE'); // font size
+define('_SIZE', 'SAIZ'); // font size
 define('_FONT', 'FONT'); // font family
-define('_COLOR', 'COLOR'); // font color
-define('_EXAMPLE', 'SAMPLE');
-define('_ENTERURL', 'Enter the URL of the link you want to add:');
-define('_ENTERWEBTITLE', 'Enter the web site title:');
-define('_ENTERIMGURL', 'Enter the URL of the image you want to add.');
-define('_ENTERIMGPOS', 'Now, enter the position of the image.');
-define('_IMGPOSRORL', '\'R\' or \'r\' for right, \'L\' or \'l\' for left, or leave it blank.');
-define('_ERRORIMGPOS', 'ERROR! Enter the position of the image.');
-define('_ENTEREMAIL', 'Enter the email address you want to add.');
-define('_ENTERCODE', 'Enter the codes that you want to add.');
-define('_ENTERQUOTE', 'Enter the text that you want to be quoted.');
-define('_ENTERTEXTBOX', 'Please input text into the textbox.');
-define('_ALLOWEDCHAR', 'Allowed max chars length: ');
-define('_CURRCHAR', 'Current chars length: ');
-define('_PLZCOMPLETE', 'Please complete the subject and message fields.');
-define('_MESSAGETOOLONG', 'Your message is too long.');
+define('_COLOR', 'WARNA'); // font color
+define('_EXAMPLE', 'SAMPEL');
+define('_ENTERURL', 'Masukkan URL pautan yang anda ingin tambah:');
+define('_ENTERWEBTITLE', 'Masukkan nama Laman Web:');
+define('_ENTERIMGURL', 'Masukkan URL imej yang anda ingin tambah.');
+define('_ENTERIMGPOS', 'Sekarang, masukkan posisi imej.');
+define('_IMGPOSRORL', '\'R\' atau \'r\' untuk Kanan, \'L\' atau \'l\' untuk kiri, atau biarkan ia kosong.');
+define('_ERRORIMGPOS', 'RALAT! Masukkan posisi imej.');
+define('_ENTEREMAIL', 'Masukkan alamat emel yang anda ingin tambah.');
+define('_ENTERCODE', 'Masukkan kod yang anda ingin tambah.');
+define('_ENTERQUOTE', 'Masukkan teks yang ingin petik.');
+define('_ENTERTEXTBOX', 'Masukkan teks dalam kotak teks.');
+define('_ALLOWEDCHAR', 'Panjang aksara maksimum yang dibenarkan: ');
+define('_CURRCHAR', 'Panjang aksara semasa: ');
+define('_PLZCOMPLETE', 'Sila lengkapkan medan subjek dan mesej.');
+define('_MESSAGETOOLONG', 'Mesej anda terlalu panjang.');
 /**
 * xoops smilie
 */
-define('_AM_ADDSMILE',' Add a new smilie');
-define('_AM_SMILECODE','Code');
-define('_AM_SMILEEMOTION','Description');
+define('_AM_ADDSMILE',' Tambah smilie baru');
+define('_AM_SMILECODE','Kod');
+define('_AM_SMILEEMOTION','Keterangan');
 define('_AM_DISPLAYF','Display in the form');
 // %%%%%        TIME FORMAT SETTINGS   %%%%%
-define('_SECOND', '1 second');
-define('_SECONDS', '%s seconds');
-define('_MINUTE', '1 minute');
-define('_MINUTES', '%s minutes');
-define('_HOUR', '1 hour');
-define('_HOURS', '%s hours');
-define('_DAY', '1 day');
-define('_DAYS', '%s days');
-define('_WEEK', '1 week');
-define('_MONTH', '1 month');
+define('_SECOND', '1 saat');
+define('_SECONDS', '%s saat');
+define('_MINUTE', '1 minit');
+define('_MINUTES', '%s minit');
+define('_HOUR', '1 jam');
+define('_HOURS', '%s jam');
+define('_DAY', '1 hari');
+define('_DAYS', '%s hari');
+define('_WEEK', '1 minggu');
+define('_MONTH', '1 bulan');
 define('_DATESTRING', 'Y/n/j G:i:s');
 define('_MEDIUMDATESTRING', 'Y/n/j G:i');
 define('_SHORTDATESTRING', 'Y/n/j');
