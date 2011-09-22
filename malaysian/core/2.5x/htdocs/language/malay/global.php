@@ -65,7 +65,7 @@ define('_LEFT', 'Kiri');
 define('_CENTER', 'Tengah');
 define('_RIGHT', 'Kanan');
 define('_FORM_ENTER', 'Sila masukkan %s');
-define('_MUSTWABLE', 'File %s must be writable by the server!'); // %s represents file name
+define('_MUSTWABLE', 'Fail %s mesti boleh diubahsuai oleh server!'); // %s represents file name
 // Module info
 define('_PREFERENCES', 'Pilihan Utama');
 define('_VERSION', 'Versi');
