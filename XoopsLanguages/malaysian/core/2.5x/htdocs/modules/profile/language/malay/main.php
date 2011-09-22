@@ -4,23 +4,23 @@
 // _CHARSET : UTF-8
 // Translator: XOOPS Translation Team
 
-define("_PROFILE_MA_REGISTER_NOTGROUP", "New user is not registered to corresponding groups.");
-define("_PROFILE_MA_FINISH_LOGIN","Your account has been created successfully, please click to log on.");
-define("_PROFILE_MA_REGISTER_FINISH", "Thanks for registering");
+define("_PROFILE_MA_REGISTER_NOTGROUP", "Pengguna baru tidak didaftarkan dengan kumpulan yang sama.");
+define("_PROFILE_MA_FINISH_LOGIN","Akaun akan telah berjaya didaftarkan, sila klik disini untuk Log Masuk.");
+define("_PROFILE_MA_REGISTER_FINISH", "Terima kasih kerana mendaftar");
 define("_PROFILE_MA_REGISTER_STEPS", "Langkah pendaftaran:");
 
 define("_PROFILE_MA_DEFAULT", "Maklumat Asas");
 
 define("_PROFILE_MA_ERRORDURINGSAVE", "Ralat semasa simpan");
-define("_PROFILE_MA_NOSTEPSAVAILABLE", "Registration is not allowed at this moment, please come back later.");
-define("_PROFILE_MA_EXPIRED", "The process has been expired, please go back to try again.");
+define("_PROFILE_MA_NOSTEPSAVAILABLE", "Pendaftaran adalah ditutup buat masa sekarang, sila kembali kemudian.");
+define("_PROFILE_MA_EXPIRED", "Maaf, proses telah tamat tempoh, sila cuba lagi.");
 
 
-define("_PROFILE_MA_RECENTACTIVITY","Recent Activities");
+define("_PROFILE_MA_RECENTACTIVITY","Aktiviti Terkini");
 define("_PROFILE_MA_THEME","Theme");
-define("_PROFILE_MA_ACTIVATE","Activate");
-define("_PROFILE_MA_DEACTIVATE","Deactivate");
-define("_PROFILE_MA_SENDPM","Send Message");
+define("_PROFILE_MA_ACTIVATE","Aktifkan");
+define("_PROFILE_MA_DEACTIVATE","Nyaktifkan");
+define("_PROFILE_MA_SENDPM","Hantar mesej");
 
 //changepass.php
 define("_PROFILE_MA_CHANGEPASSWORD", "Tukar Kata Laluan");
@@ -30,13 +30,13 @@ define("_PROFILE_MA_NEWPASSWORD", "Kata Laluan Baru");
 define("_PROFILE_MA_WRONGPASSWORD", "Kata Laluan lama adalah salah");
 
 //search.php
-define("_PROFILE_MA_SORTBY", "Sort By");
-define("_PROFILE_MA_ORDER", "Order");
-define("_PROFILE_MA_PERPAGE", "Users per page");
-define("_PROFILE_MA_LATERTHAN", "%s is later than");
-define("_PROFILE_MA_EARLIERTHAN", "%s is earlier than");
-define("_PROFILE_MA_LARGERTHAN", "%s is larger than");
-define("_PROFILE_MA_SMALLERTHAN", "%s is smaller than");
+define("_PROFILE_MA_SORTBY", "Susun mengikut");
+define("_PROFILE_MA_ORDER", "Susunan");
+define("_PROFILE_MA_PERPAGE", "Jumlah pengguna untuk setiap halaman");
+define("_PROFILE_MA_LATERTHAN", "%s kemudian daripada");
+define("_PROFILE_MA_EARLIERTHAN", "%s awal daripada");
+define("_PROFILE_MA_LARGERTHAN", "%s lebih besar daripada");
+define("_PROFILE_MA_SMALLERTHAN", "%s lebih kecil daripada");
 
 define("_PROFILE_MA_NOUSERSFOUND", "Tiada Pengguna ditemui");
 define("_PROFILE_MA_RESULTS", "Hasil Carian");
