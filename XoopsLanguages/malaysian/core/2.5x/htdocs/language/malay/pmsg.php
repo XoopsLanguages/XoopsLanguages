@@ -26,41 +26,42 @@ defined('XOOPS_ROOT_PATH') or die('Restricted access');
 // _CHARSET : UTF-8
 // Translator: XOOPS Translation Team
 //%%%%%%    File Name readpmsg.php  %%%%%
-define('_PM_DELETED', 'Your message(s) has been deleted');
-define('_PM_PRIVATEMESSAGE', 'Private Messages');
-define('_PM_INBOX', 'Inbox');
-define('_PM_FROM', 'From');
-define('_PM_YOUDONTHAVE', 'You don\'t have any private messages');
-define('_PM_FROMC', 'From: ');
-define('_PM_SENTC', 'Sent: '); // The date of message sent
-define('_PM_PROFILE', 'Profile');
+define('_PM_DELETED', 'Mesej anda telah dihapuskan');
+define('_PM_PRIVATEMESSAGE', 'Mesej Peribadi');
+define('_PM_INBOX', 'Peti Masuk');
+define('_PM_FROM', 'Dari');
+define('_PM_YOUDONTHAVE', 'Anda tidak mempunyai mesej');
+define('_PM_FROMC', 'Dari: ');
+define('_PM_SENTC', 'Dihantar pada: '); // The date of message sent
+define('_PM_PROFILE', 'Profil');
 // %s is a username
-define('_PM_PREVIOUS', 'Previous Message');
-define('_PM_NEXT', 'Next Message');
+define('_PM_PREVIOUS', 'Mesej sebelumnya');
+define('_PM_NEXT', 'Mesej seterusnya');
 //%%%%%%    File Name pmlite.php    %%%%%
-define('_PM_SORRY', 'Sorry! You are not a registered user.');
-define('_PM_REGISTERNOW', 'Register Now!');
-define('_PM_GOBACK', 'Go Back');
-define('_PM_USERNOEXIST', 'The selected user doesn\'t exist in the database.');
-define('_PM_PLZTRYAGAIN', 'Please check the name and try again.');
-define('_PM_MESSAGEPOSTED', 'Your message has been posted');
-define('_PM_CLICKHERE', 'You can click here to view your private messages');
-define('_PM_ORCLOSEWINDOW', 'Or click here to close this window.');
-define('_PM_USERWROTE', '%s wrote:');
-define('_PM_TO', 'To: ');
-define('_PM_SUBJECTC', 'Subject: ');
-define('_PM_MESSAGEC', 'Message: ');
-define('_PM_CLEAR', 'Clear');
-define('_PM_CANCELSEND', 'Cancel Send');
-define('_PM_SUBMIT', 'Submit');
+define('_PM_SORRY', 'Maaf, Anda bukan pengguna berdaftar.');
+define('_PM_REGISTERNOW', 'Daftar sekarang!');
+define('_PM_GOBACK', 'Kembali');
+define('_PM_USERNOEXIST', 'Pengguna yang dipilih tidak wujud dalam pangkalan data.');
+define('_PM_PLZTRYAGAIN', 'Sila periksa nama tersebut dan cuba lagi.');
+define('_PM_MESSAGEPOSTED', 'Mesej anda telah dikirim');
+define('_PM_CLICKHERE', 'Anda boleh klik disini untuk melihat mesej peribadi anda');
+define('_PM_ORCLOSEWINDOW', 'atau klik disini untuk tutup window ini.');
+define('_PM_USERWROTE', '%s menulis:');
+define('_PM_TO', 'Kepada: ');
+define('_PM_SUBJECTC', 'Subjek: ');
+define('_PM_MESSAGEC', 'Mesej: ');
+define('_PM_CLEAR', 'Padam');
+define('_PM_CANCELSEND', 'Batal Penghantaran');
+define('_PM_SUBMIT', 'Hantar');
 //%%%%%%    File Name viewpmsg.php  %%%%%
-define('_PM_SUBJECT', 'Subject');
-define('_PM_DATE', 'Date');
-define('_PM_NOTREAD', 'Not Read');
-define('_PM_SEND', 'Send');
-define('_PM_DELETE', 'Delete');
-define('_PM_REPLY', 'Reply');
-define('_PM_PLZREG', 'Please register first to send private messages!');
-define('_PM_ONLINE', 'Online');
-define('_PM_SURE_TO_DELETE',"Are you sure you want to delete these message(s)?");
+define('_PM_SUBJECT', 'Subjek');
+define('_PM_DATE', 'Tarikh');
+define('_PM_NOTREAD', 'Belum dibaca');
+define('_PM_READ', 'Sudah dibaca');
+define('_PM_SEND', 'Hantar');
+define('_PM_DELETE', 'Hapus');
+define('_PM_REPLY', 'Balas');
+define('_PM_PLZREG', 'Sila mendaftar terlebih dahulu sebelum menghantar mesej peribadi!');
+define('_PM_ONLINE', 'Dalam talian');
+define('_PM_SURE_TO_DELETE',"Adakah anda pasti untuk menghapus mesej ini?");
 ?>
