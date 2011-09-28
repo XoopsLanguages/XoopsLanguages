@@ -184,6 +184,7 @@ define( "ICONV_CONVERSION", "Konwersja znaków");
 define( "ZLIB_COMPRESSION", "Kompresja Zlib");
 define( "IMAGE_FUNCTIONS", "Funkcje związane z obrazami");
 define( "IMAGE_METAS", "Image meta data (exif)");
+define( "FILTER_FUNCTIONS", "Funkcje filtrujące");
 
 define( "ADMIN_EXIST", "Konto administratora już jest utworzone.<br />Naciśnij <em>Dalej</em> aby kontynuować.");
 
