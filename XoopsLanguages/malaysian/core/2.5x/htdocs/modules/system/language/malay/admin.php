@@ -8,20 +8,20 @@
  */
 
 // Main
-define("_AM_SYSTEM_CONFIG","System Configuration");
-define("_AM_SYSTEM_CPANEL","Control Panel");
-define("_AM_SYSTEM_UPDATE","Update");
-define("_AM_SYSTEM_GOTOMODULE","Go to module");
-define("_AM_SYSTEM_HELP","Help");
-define("_AM_SYSTEM_HELP_VIEW","Display Help");
-define("_AM_SYSTEM_HELP_HIDE","Hide Help");
+define("_AM_SYSTEM_CONFIG","Konfigurasi Sistem");
+define("_AM_SYSTEM_CPANEL","Panel Kawalan");
+define("_AM_SYSTEM_UPDATE","Kemaskini");
+define("_AM_SYSTEM_GOTOMODULE","Pergi kepada module");
+define("_AM_SYSTEM_HELP","Bantuan");
+define("_AM_SYSTEM_HELP_VIEW","Papar Bantuan");
+define("_AM_SYSTEM_HELP_HIDE","Sembunyikan Bantuan");
 define("_AM_SYSTEM_TIPS","Tips");
-define("_AM_SYSTEM_SECTION","Section");
-define("_AM_SYSTEM_DESC","Description");
-define("_AM_SYSTEM_GO","Access to this section");
-define("_AM_SYSTEM_STATUS","Change status section");
+define("_AM_SYSTEM_SECTION","Seksyen");
+define("_AM_SYSTEM_DESC","Penerangan");
+define("_AM_SYSTEM_GO","Akses kepada seksyen ini");
+define("_AM_SYSTEM_STATUS","Ubah status seksyen");
 define("_AM_SYSTEM_LOADING","Loading");
-define("_AM_SYSTEM_ALL","All");
+define("_AM_SYSTEM_ALL","Semua");
 
 define("_AM_SYSTEM_TIPS_MAIN","<ul><li>Enable or disable sections of system module or just access to it.</li></ul>");
 define("_AM_SYSTEM_AVATAR_INFO","<ul><li><span class='bold red'>%s</span> avatars.</li></ul>");
@@ -66,9 +66,9 @@ define("_AM_SYSTEM_MAINTENANCE","Maintenance");
 define("_AM_SYSTEM_MAINTENANCE_DESC","Maintenance tools for database tables, <br /> clean cache folder and session table");
 
 // Messages
-define("_AM_SYSTEM_DBUPDATED","Database Updated Successfully!");
-define("_AM_SYSTEM_DBERROR","Database was not updated due to some error!");
-define("_AM_SYSTEM_NOTACTIVE","This section is not active!");
+define("_AM_SYSTEM_DBUPDATED","Pangkalan data berjaya dikemaskini!");
+define("_AM_SYSTEM_DBERROR","Pangkalan data tidak dikemaskini akibat ralat!");
+define("_AM_SYSTEM_NOTACTIVE","Seksyen ini tidak aktif!");
 
 // Group permission phrases
 define("_MD_AM_PERMADDNG","Could not add %s permission to %s for group %s");
