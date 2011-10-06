@@ -122,6 +122,8 @@ define($constpref.'_SPAMURI4UDSC','Het aantal URLs gevonden in POST data van and
 define($constpref.'_SPAMURI4G','Anti-SPAM: URLs voor gasten');
 define($constpref.'_SPAMURI4GDSC','Het aantal URLs gevonden in POST data van gasten (anonieme gebruikers), dan wordt deze aangemerkt als SPAM. 0 betekent uitschakeling van deze functie.');
 
+define($constpref.'_STOPFORUMSPAM_ACTION','Forum Spam voorkomen');
+define($constpref.'_STOPFORUMSPAM_ACTIONDSC','Controleert geplaatste informatie met spammers die bekend zijn in www.stopforumspam.com database. php CURL lib benodigd.'); 
 }
 
 ?>
