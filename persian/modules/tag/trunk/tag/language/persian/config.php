@@ -21,6 +21,6 @@ if (!defined('XOOPS_ROOT_PATH')) { exit(); }
  * For English sites, you can set as array(",", ";", " ", "|")
  * For Chinese sites, set as array(",", ";", " ", "|", "£،")
  */
-$GLOBALS["tag_delimiter"] = array(",", " ", "|", ";");
+$GLOBALS["tag_delimiter"] = array(",", "|", ";");
 
 ?>

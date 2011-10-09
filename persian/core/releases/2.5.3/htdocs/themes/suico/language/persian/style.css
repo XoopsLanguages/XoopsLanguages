@@ -1,0 +1,14 @@
+/* $Id$ */
+/* Localization stylesheet */
+#xo-userbar {
+	float: 					   left !important;
+}
+#menu1 {
+	float:                     right !important;
+}
+.menu .items ul {
+	padding-right: 			   65px !important;
+}
+.menu .items li {
+   float: 			           right !important;
+}
