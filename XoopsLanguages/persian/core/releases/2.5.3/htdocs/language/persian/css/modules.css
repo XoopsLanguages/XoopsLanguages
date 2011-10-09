@@ -1,0 +1,22 @@
+/*for weblinks */
+.weblinks_guidance,td.weblinks_main_category,div.weblinks_link_single_frame_time_update,div.weblinks_link_single_frame_category,div.weblinks_link_single_frame_description,div.weblinks_links_list_frame_description,.weblinks_list_catpath,.weblinks_list_footer,div.weblinks_forum_title,div.weblinks_forum_thread_title,div.weblinks_forum_post_title
+div.weblinks_forum_post_text {
+	text-align: right !important;
+}
+
+img.weblinks_list_image {
+	float: right !important;
+}
+
+/*for oledrion */
+.box_blue-clip_01 {
+	width: 33px !important;
+}
+
+.box_blue-clip_03 {
+	width: 44px !important;
+}
+
+.page-curl_01 {
+	padding: 10px 28px 10px 10px !important;
+}

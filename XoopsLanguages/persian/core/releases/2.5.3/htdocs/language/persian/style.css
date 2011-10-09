@@ -1,0 +1,75 @@
+@import url(css/modules.css);
+
+body,table td,.comDate,p,.admin_menu,.admin_menu a,.admin_menu_thumb a,.admin_menu_thumb,.button,.checkbox,.listbox,.sortorder_options,form
+	{
+	font-family: Tahoma;
+}
+
+table.toptable,table.maintable,table.footertable,.itemTitle a,.itemPoster,.foot,th a:link,th a:active,th a:visited,.headerlogo,td.sideboxcontent
+	{
+	direction: rtl;
+}
+
+.sCommentThread,.sCommentRank, #xo-canvas-content ul {
+	text-align: right;
+}
+
+table,.formButton,.comUserName,th,div#content,div#forum_header,p.desc,tr.head td,#imageform,#imageform td
+	{
+	direction: rtl;
+	text-align: right;
+}
+
+div#xo-logger-output,div#xo-logger-tabs {
+	direction: ltr;
+	text-align: left;
+}
+
+body td,p,div,a:link,a:active,a:visited,a:hover,h1,h2,h4,.item,.itemHead,th,.comTitle,.comUserStat,.blockTitle,.blockContent
+	{
+	direction: rtl;
+	font-family: Tahoma;
+}
+
+input,select,textarea,.itemTitle,.itemStats,.outer,.head,.even,.odd,div.confirmMsg,div.xoopsQuote,td#mainmenu a,td#usermenu a,tr.even td,tr.odd td,td#content,ul,ol,li
+	{
+	direction: rtl;
+	font-family: Tahoma;
+	text-align: right;
+}
+
+.itemBody,.itemText,.comText {
+	direction: rtl;
+	font-family: Tahoma;
+	text-align: Justify;
+}
+
+/* ========== styles used in the  article  of contents (exemple : news) ============*/
+.itemPostDate,.itemInfo,.itemFoot {
+	font-family: Tahoma;
+	direction: rtl;
+	text-align: left;
+}
+
+/* ===== core messages ===== */
+div.xoopsCode {
+	font-family: Tahoma;
+	direction: ltr;
+}
+
+/*=========== for main menu and user menu ===========*/
+td#mainmenu a.menuSub {
+	padding-right: 10px;
+}
+
+.footerbar {
+	text-align: center;
+}
+ 
+.floatleft {
+	float: right !important;
+}
+
+.floatright {
+	float: left !important;
+}

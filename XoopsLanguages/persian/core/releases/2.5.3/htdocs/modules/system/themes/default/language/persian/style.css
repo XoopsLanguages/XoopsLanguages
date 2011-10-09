@@ -1,0 +1,136 @@
+/* $Id: fa.css 3478 2009-08-21 07:32:55Z voltan1 $ */
+body {
+	font-family: Tahoma !important;
+}
+
+table,table td,table tr,ul,li,.content,#xo-body-contain {
+	direction: rtl !important;
+	text-align: right !important;
+}
+
+input,textarea,input.formTextBox,select {
+	font: 11px tahoma !important;
+}
+
+div.confirmMsg {
+	text-align: center !important;
+	direction: rtl !important;
+}
+
+#xo_globalnav {
+	font: 11px Tahoma !important;
+	direction: rtl !important;
+	text-align: right !important;
+}
+
+#xo_globalnav ul li {
+	float: right !important;
+	margin-right: 3px !important;
+}
+
+#xo-nav-options a {
+	float: left !important;
+	margin-left: 2px !important;
+}
+
+#xo-icon a,#xo-icon a:hover,#xo-module-icons a,#xo-module-icons a:hover
+	{
+	direction: rtl !important;
+	text-align: center !important;
+	float: right !important;
+}
+
+#xo-modname {
+	float: right !important;
+}
+
+#xo-toolbar, #xo-headnav {
+	float: left !important;
+}
+
+#xo_globalnav ul.menu li {
+	float: right !important;
+}
+
+#xo_globalnav ul.menu ul ul {
+	right: 160px !important;
+}
+
+#xo_globalnav ul.menu .sub {
+	background-position: left !important;
+}
+
+#xo_globalnav ul.menu ul {
+	background: none !important;
+}
+
+#xo_globalnav ul.menu ul li {
+	padding-right: 0px !important;
+}
+
+#choosestyle a {
+	float: left !important;
+}
+
+#xo-logo-head td.other {
+	float: left !important;
+}
+
+#main-logo {
+	float: right !important;
+}
+
+#xo-logger-output td,#xo-logger-output th,#xo-logger-tabs {
+	direction: ltr !important;
+	text-align: left !important;
+}
+
+.errorMsg {
+	direction: rtl !important;
+}
+
+.xo-title , .CPbigTitle ,.navigation{
+	background-position: right top !important;
+	padding-right: 40px !important;
+}
+
+#xo-breadcrumb {
+	width: 99% !important;
+}
+
+#xo-breadcrumb li {
+	margin-left: 10px !important;
+}
+
+#xo-body-icons {
+	float: right !important;
+}
+
+#xo-tabs {
+	float: left !important;
+}
+
+#xo-modules {
+	float: right !important;
+}
+
+#xo-accordion {
+	float: left !important;
+}
+
+.floatleft {
+	float: right !important;
+}
+
+.floatright {
+	float: left !important;
+}
+
+table.tablesorter thead tr .header,table.tablesorter thead tr .headerSortUp,table.tablesorter thead tr .headerSortDown
+	{
+	background-position: center left !important;
+}
+
+.tabs li { 
+	float: right !important;	 
+}
