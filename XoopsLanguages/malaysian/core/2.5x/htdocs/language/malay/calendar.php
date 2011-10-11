@@ -5,8 +5,6 @@
 // Translator: XOOPS Translation Team
 
 //%%%%%     Time Zone   %%%%
-define("_CAL_DEF_DATE_FORMAT", "dd-mm-y");
-define("_CAL_TT_DATE_FORMAT", "dd-mm-y");
 
 define("_CAL_SUNDAY", "Ahad");
 define("_CAL_MONDAY", "Isnin");

@@ -79,7 +79,7 @@ define("_PROFILE_AM_AUTOTEXT", "Auto Text");
 define("_PROFILE_AM_DATETIME", "Date and Time");
 define("_PROFILE_AM_LONGDATE", "Long Date");
 
-define("_PROFILE_AM_ADDOPTION", "TamBAH pILIHAN");
+define("_PROFILE_AM_ADDOPTION", "Tambah Pilihan");
 define("_PROFILE_AM_REMOVEOPTIONS", "Buang pilihan");
 define("_PROFILE_AM_KEY", "Nilai yang akan disimpan");
 define("_PROFILE_AM_VALUE", "Teks yang akan dipaparkan");
@@ -110,5 +110,6 @@ define("_PROFILE_AM_STEPNAME", "Nama langkah");
 define("_PROFILE_AM_STEPORDER", "Susunan Langkah");
 define("_PROFILE_AM_STEPSAVE", "Simpan selepas langkah");
 define("_PROFILE_AM_STEPINTRO", "Keterangan Langkah");
-
+//1.62
+define('_PROFILE_AM_ACTION', 'Action');
 ?>
