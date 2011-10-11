@@ -8,8 +8,7 @@
  */
 
 // Navigation
-define("_AM_SYSTEM_USERS_NAV_MANAGER","Users Manager");
-define("_AM_SYSTEM_USERS_NAV_MAIN","Users Managment");
+define("_AM_SYSTEM_USERS_NAV_MAIN","Users Management");
 define("_AM_SYSTEM_USERS_NAV_ADVANCED_SEARCH","Advanced search");
 define("_AM_SYSTEM_USERS_NAV_ADD_USER","Add user");
 define("_AM_SYSTEM_USERS_NAV_EDIT_USER","Edit user");
@@ -24,10 +23,10 @@ define("_AM_SYSTEM_USERS_NAV_TIPS","
 // Main
 define("_AM_SYSTEM_USERS_USER","User");
 define("_AM_SYSTEM_USERS_ADMIN","Admin");
-define("_AM_SYSTEM_USERS_UID","Uid");
+define("_AM_SYSTEM_USERS_UID","User ID");
 define("_AM_SYSTEM_USERS_STATUS","Status");
 define("_AM_SYSTEM_USERS_NAME","Name");
-define("_AM_SYSTEM_USERS_UNAME","Uname");
+define("_AM_SYSTEM_USERS_UNAME","User Name");
 define("_AM_SYSTEM_USERS_EMAIL","Email");
 define("_AM_SYSTEM_USERS_EDIT_GROUPS","Edit groups");
 define("_AM_SYSTEM_USERS_REG_DATE","Registered date");
@@ -40,7 +39,7 @@ define("_AM_SYSTEM_USERS_AVATAR","Avatar");
 define("_AM_SYSTEM_USERS_REALNAME","Real Name");
 define("_AM_SYSTEM_USERS_REGDATE","Joined Date");
 define("_AM_SYSTEM_USERS_PM","PM");
-define("_AM_SYSTEM_USERS_URL","URL");
+define("_AM_SYSTEM_USERS_URL","Web URL");
 define("_AM_SYSTEM_USERS_PREVIOUS","Previous");
 define("_AM_SYSTEM_USERS_NEXT","Next");
 define("_AM_SYSTEM_USERS_USERSFOUND","%s user(s) found");
@@ -48,9 +47,11 @@ define("_AM_SYSTEM_USERS_ACTUS", "Active Users: %s");
 define("_AM_SYSTEM_USERS_INACTUS", "Inactive Users: %s");
 define("_AM_SYSTEM_USERS_NOFOUND","No Users Found");
 define("_AM_SYSTEM_USERS_ICQ","ICQ Number");
-define("_AM_SYSTEM_USERS_AIM","AIM Handle");
-define("_AM_SYSTEM_USERS_YIM","YIM Handle");
-define("_AM_SYSTEM_USERS_MSNM","MSNM Handle");
+define("_AM_SYSTEM_USERS_AIM","AIM Link");
+define("_AM_SYSTEM_USERS_YIM","YIM Link");
+define("_AM_SYSTEM_USERS_FACEBOOK","Facebook Link"); //TODO
+define("_AM_SYSTEM_USERS_SKYPE","Skype Link"); //TODO
+define("_AM_SYSTEM_USERS_MSNM","MSNM Link");
 define("_AM_SYSTEM_USERS_TIMEZONE","Time Zone");
 define("_AM_SYSTEM_USERS_SHOWSIG","Always attach my signature");
 define("_AM_SYSTEM_USERS_CDISPLAYMODE","Comments Display Mode");
@@ -95,7 +96,7 @@ define("_AM_SYSTEM_USERS_NO","No");
 define("_AM_SYSTEM_USERS_YMCACF","You must complete all required fields");
 define("_AM_SYSTEM_USERS_CNRNU","Could not register new user.");
 define("_AM_SYSTEM_USERS_EDEUSER","Edit/Delete Users");
-define("_AM_SYSTEM_USERS_NICKNAME","Nickname");
+define("_AM_SYSTEM_USERS_NICKNAME","User Name");
 define("_AM_SYSTEM_USERS_MODIFYUSER","Modify User");
 define("_AM_SYSTEM_USERS_DELUSER","Delete User");
 define("_AM_SYSTEM_USERS_GO","Go!");
@@ -123,10 +124,10 @@ define("_AM_SYSTEM_USERS_PTBBTSDIYT","Push the button below to synchronize data 
 define("_AM_SYSTEM_USERS_SYNCHRONIZE","Synchronize");
 define("_AM_SYSTEM_USERS_USERDONEXIT","User doesn't exist!");
 define("_AM_SYSTEM_USERS_STNPDNM","Sorry, the new passwords do not match. Click back and try again");
-define("_AM_SYSTEM_USERS_CNGTCOM","Could not get total comments");
-define("_AM_SYSTEM_USERS_CNGTST","Could not get total stories");
+define("_AM_SYSTEM_USERS_CNGTCOM","Could not get all comments");
+define("_AM_SYSTEM_USERS_CNGTST","Could not get all stories");
 define("_AM_SYSTEM_USERS_CNUUSER","Could not update user");
-define("_AM_SYSTEM_USERS_CNGUSERID","Could not get user IDS");
+define("_AM_SYSTEM_USERS_CNGUSERID","Could not get user ID");
 define("_AM_SYSTEM_USERS_LIST","List");
 define("_AM_SYSTEM_USERS_NOUSERS", "No users selected");
 define("_AM_SYSTEM_USERS_CNRNU2","The new user could not be added to groups: %s.");
@@ -140,8 +141,8 @@ define("_AM_SYSTEM_USERS_SUBMIT","Submit");
 define("_AM_SYSTEM_USERS_PURGE","Purge");
 define("_AM_SYSTEM_USERS_ADD","Add member");
 define("_AM_SYSTEM_USERS_VIEW","View info member");
-define("_AM_SYSTEM_USERS_NO_FOUND","No found users");
-define("_AM_SYSTEM_USERS_NOT_CONNECT","Never connect");
+define("_AM_SYSTEM_USERS_NO_FOUND","No user(s) found");
+define("_AM_SYSTEM_USERS_NOT_CONNECT","Never connected");
 define("_AM_SYSTEM_USERS_FORM_SURE_DEL","Delete user : %s");
 define("_AM_SYSTEM_USERS_FORM_SURE_DEL2","Delete");
 define("_AM_SYSTEM_USERS_NO_SUPP", "User cannot be deleted: %s <br />");
@@ -153,7 +154,7 @@ define("_AM_SYSTEM_USERS_ACTIVEUSER", "Only active users");
 define("_AM_SYSTEM_USERS_INACTIVEUSER", "Only inactive users");
 
 // Error
-define("_AM_SYSTEM_USERS_PSEUDO_ERROR","User name %s already exists");
-define("_AM_SYSTEM_USERS_MAIL_ERROR","User mail %s already exists");
+define("_AM_SYSTEM_USERS_PSEUDO_ERROR","Username %s already exists");
+define("_AM_SYSTEM_USERS_MAIL_ERROR","User email %s already exists");
 
 ?>

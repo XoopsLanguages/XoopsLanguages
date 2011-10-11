@@ -77,6 +77,8 @@ define('_US_ICQ', 'ICQ');
 define('_US_AIM', 'AIM');
 define('_US_YIM', 'YIM');
 define('_US_MSNM', 'MSNM');
+define('_US_SKYPE', 'Skype');
+define('_US_FACEBOOK', 'Facebook');
 define('_US_LOCATION', 'Location');
 define('_US_OCCUPATION', 'Occupation');
 define('_US_INTEREST', 'Interest');
