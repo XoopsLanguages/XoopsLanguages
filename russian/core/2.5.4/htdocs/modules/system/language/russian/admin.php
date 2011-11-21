@@ -4,10 +4,9 @@
  * @license     GNU GPL 2 (http://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
  * _LANGCODE    ru
  * _CHARSET     UTF-8
- * Translator   2010-11-12 andrey3761
- * @version     $Id: admin.php 5572 2010-10-21 09:10:49Z kris_fr $
+ * Translator   2011-11-21 andrey3761
+ * @version     $Id: admin.php 8066 2011-11-06 05:09:33Z beckmi $
  */
-
 // Main
 define("_AM_SYSTEM_CONFIG", "Конфигурация системы" );
 define("_AM_SYSTEM_CPANEL", "Контрольная панель" );

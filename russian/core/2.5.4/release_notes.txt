@@ -1,12 +1,13 @@
-XOOPS 2.5.4 Beta
+XOOPS 2.5.4 Final
 
-The XOOPS Development Team is pleased to announce the release of XOOPS 2.5.4 Beta. 
+The XOOPS Development Team is pleased to announce the release of XOOPS 2.5.4 Final. 
 
 This release is focused on updating our libraries to the latest versions:
 
 - phpMailer 5.1
 - TinyMCE  3.4.6
-- jQuery 1.6.4
+- jQuery 1.7.0
+- jQueryUI 1.8.16
 
 We have also updated all Core modules (PM, Profile, Protector) to the ModuleAdmin GUI, so all of them have a consistent "look & feel"
 
@@ -55,7 +56,8 @@ Upgrading from 2.5.x:
     1. Get the right update package from the sourceforge file repository
     2. Overwrite files in XOOPS directory on your server with the content of /htdocs
         * make sure that you copy the content of /xoops_lib to whatever directory you keep it on the server now (it should be your current XOOPS_TRUST_PATH directory), then delete the /xoops_lib directory. There can NOT be two directories with the content of /xoops_lib
-    3. Update the "System" module from the modules administration interface. Other modules, especially "Profile", "PM",  and "Protector" are recommended to update as well
+    3. Update the "System" module from the modules administration interface, as well as "Profile", "PM",  and "Protector", as they have new GUI. 
+    4) Clear caches, using the Admin's Maintenance function
 
 Upgrading from versions older than 2.5.0:
 ------------------------------------------    
@@ -114,4 +116,4 @@ Release announcement: https://lists.sourceforge.net/lists/listinfo/xoops-announc
 
 
 XOOPS Development Team
-October 9th, 2011
+November 20th, 2011

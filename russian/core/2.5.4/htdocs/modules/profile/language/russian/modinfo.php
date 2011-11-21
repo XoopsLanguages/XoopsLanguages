@@ -51,4 +51,8 @@ define("_PROFILE_MI_CATEGORY_COMMUNITY", "Статистика");
 
 define("_PROFILE_MI_NEVER_LOGGED_IN", "Никогда не посещал");
 
+//1.62
+define("_PROFILE_MI_ABOUT", "О модуле");
+define("_PROFILE_MI_HOME", "Главная");
+
 ?>

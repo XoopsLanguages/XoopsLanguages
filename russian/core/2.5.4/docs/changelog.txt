@@ -885,8 +885,7 @@ Added language files:
 - Fixed bug #1554972 : Auth provisionning maintain (option) after user creation (pemen)
 - Fixed bug #1591544: XOOPS session is not destroyed properly when custom session is enabled (phppp/xuser)
 - Fixed a bug that causes reset of block options over module update (phppp)
-+ Added fields mapping between Xoops User Database and Auth Server atttribute. The user
-can choose wich field to synchronize. (pemen)
++ Added fields mapping between Xoops User Database and Auth Server atttribute. The user can choose which field to synchronize. (pemen)
 
 
 ============================

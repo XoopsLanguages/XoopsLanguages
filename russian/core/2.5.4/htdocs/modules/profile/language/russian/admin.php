@@ -2,7 +2,7 @@
 // $Id: admin.php 4751 2010-05-01 15:35:45Z trabis $
 // _LANGCODE: ru
 // _CHARSET : UTF-8
-// Translator: 2009-04-22 andrey3761
+// Translator: 2011-11-21 andrey3761
 
 define("_PROFILE_AM_FIELD", "Поле");
 define("_PROFILE_AM_FIELDS", "Поля");

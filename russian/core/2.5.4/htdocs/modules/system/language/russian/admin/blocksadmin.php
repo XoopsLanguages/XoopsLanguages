@@ -4,10 +4,9 @@
  * @license     http://www.fsf.org/copyleft/gpl.html GNU public license
  * _LANGCODE    ru
  * _CHARSET     UTF-8
- * Translator   2010-11-11 andrey3761
- * @version     $Id: blocksadmin.php 5608 2010-10-23 17:36:57Z trabis $
+ * Translator   2011-11-21 andrey3761
+ * @version     $Id: blocksadmin.php 8066 2011-11-06 05:09:33Z beckmi $
  */
-
 // Navigation
 define( "_AM_SYSTEM_BLOCKS_ADMIN", "Администрирование блоков" );
 define( "_AM_SYSTEM_BLOCKS_MANAGMENT", "Управление" );
@@ -70,7 +69,7 @@ define( "_AM_SYSTEM_BLOCKS_DRAG", "Перетащите блок в нужное
 
 // Messages
 define( "_AM_SYSTEM_BLOCKS_DBUPDATED", _AM_SYSTEM_DBUPDATED );
-define( "_AM_SYSTEM_BLOCKS_RUSUREDEL", 'Вы действительно хотите удалить блок? <div class="bold">%s</div>' );
+define( "_AM_SYSTEM_BLOCKS_RUSUREDEL", 'Вы действительно хотите удалить этот блок? <div class="bold">%s</div>' );
 define( "_AM_SYSTEM_BLOCKS_SYSTEMCANT", "Системные блоки не могут быть удалены!" );
 define( "_AM_SYSTEM_BLOCKS_MODULECANT", "Этот блок не может быть удален напрямую! Если вы хотите отключить этот блок, то выключите модуль." );
 

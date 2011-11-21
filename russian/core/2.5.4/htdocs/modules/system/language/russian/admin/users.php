@@ -4,10 +4,9 @@
  * @license     http://www.fsf.org/copyleft/gpl.html GNU public license
  * _LANGCODE    ru
  * _CHARSET     UTF-8
- * Translator   2011-10-10 andrey3761
- * @version     $Id: users.php 5608 2010-10-23 17:36:57Z trabis $
+ * Translator   2011-11-21 andrey3761
+ * @version     $Id: users.php 8066 2011-11-06 05:09:33Z beckmi $
  */
-
 // Navigation
 define("_AM_SYSTEM_USERS_NAV_MAIN","Управление пользователями");
 define("_AM_SYSTEM_USERS_NAV_ADVANCED_SEARCH","Расширенный поиск");
@@ -118,30 +117,23 @@ define("_AM_SYSTEM_USERS_USERINFO","Информация пользовател�
 define("_AM_SYSTEM_USERS_USERID","Номер пользователя");
 define("_AM_SYSTEM_USERS_RETYPEPD","Повторный ввод пароля");
 define("_AM_SYSTEM_USERS_CHANGEONLY","(только для изменений)");
-define("_AM_SYSTEM_USERS_USERPOST","Сообщения пользователя");
-define("_AM_SYSTEM_USERS_STORIES","Статьи");
-define("_AM_SYSTEM_USERS_COMMENTS","Комментарии");
-define("_AM_SYSTEM_USERS_PTBBTSDIYT","Нажмите на кнопку для синхронизации данных если Вы думаете информация о сообщениях пользователя не соответствует актуальным данным");
 define("_AM_SYSTEM_USERS_SYNCHRONIZE","Синхронизация");
 define("_AM_SYSTEM_USERS_USERDONEXIT","Пользователь не существует!");
 define("_AM_SYSTEM_USERS_STNPDNM","Извините, новые пароли не совпадают. Вернитесь назад и попробуйте снова");
-define("_AM_SYSTEM_USERS_CNGTCOM","Не могу получить количество комментариев");
-define("_AM_SYSTEM_USERS_CNGTST","Не могу получить количество статей");
 define("_AM_SYSTEM_USERS_CNUUSER","Не могу обновить пользователя");
 define("_AM_SYSTEM_USERS_CNGUSERID","Не могу прочитать номера пользователей");
-define("_AM_SYSTEM_USERS_LIST","Список");
 define("_AM_SYSTEM_USERS_NOUSERS", "Нет выбранных пользователей");
 define("_AM_SYSTEM_USERS_CNRNU2","Новый пользователь не может быть добавлен в группу: %s.");
 define("_AM_SYSTEM_USERS_SEARCH","Поиск");
 define("_AM_SYSTEM_USERS_SEARCH_USER","Поиск пользователей:");
 define("_AM_SYSTEM_USERS_ADVANCED_SEARCH","Расширенный поиск");
-define("_AM_SYSTEM_USERS_EDIT","Редактировать участника");
-define("_AM_SYSTEM_USERS_DEL","Удалить участника");
+define("_AM_SYSTEM_USERS_EDIT","Редактировать пользователя");
+define("_AM_SYSTEM_USERS_DEL","Удалить пользователя");
 define("_AM_SYSTEM_USERS_DELETE","Удалить");
 define("_AM_SYSTEM_USERS_SUBMIT","Отправить");
 define("_AM_SYSTEM_USERS_PURGE","Очистить");
-define("_AM_SYSTEM_USERS_ADD","Добавить участника");
-define("_AM_SYSTEM_USERS_VIEW","Посмотреть информацию учатника");
+define("_AM_SYSTEM_USERS_ADD","Добавить пользователя");
+define("_AM_SYSTEM_USERS_VIEW","Посмотреть информацию пользователя");
 define("_AM_SYSTEM_USERS_NO_FOUND","Пользователи не найдены");
 define("_AM_SYSTEM_USERS_NOT_CONNECT","Never connect");
 define("_AM_SYSTEM_USERS_FORM_SURE_DEL","Удалить пользователя: %s");
@@ -157,5 +149,8 @@ define("_AM_SYSTEM_USERS_INACTIVEUSER", "Только не активные по
 // Error
 define("_AM_SYSTEM_USERS_PSEUDO_ERROR","Пользователь %s уже существует");
 define("_AM_SYSTEM_USERS_MAIL_ERROR","Почтовый ящик %s уже существует");
+
+//2.5.4
+define("_AM_SYSTEM_USERS_ACCEPT_EMAIL","Принимать письма от администратора");
 
 ?>

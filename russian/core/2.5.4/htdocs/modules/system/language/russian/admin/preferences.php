@@ -4,35 +4,18 @@
  * @license     http://www.fsf.org/copyleft/gpl.html GNU public license
  * _LANGCODE    ru
  * _CHARSET     UTF-8
- * Translator   2011-10-10 andrey3761
- * @version     $Id: preferences.php 5570 2010-10-20 20:51:35Z beckmi $
+ * Translator   2011-11-21 andrey3761
+ * @version     $Id: preferences.php 8066 2011-11-06 05:09:33Z beckmi $
  */
-
 // dont change
 define("_AM_DBUPDATED",_AM_SYSTEM_DBUPDATED);
 
 //Nav
 define("_AM_SYSTEM_PREFERENCES_NAV_MAIN", "Конфигурация");
-/*define("_AM_SYSTEM_PREFERENCES_NAV_MD_AM_GENERAL", "General Settings");
-define("_AM_SYSTEM_PREFERENCES_NAV_MD_AM_USERSETTINGS", "User Info Settings");
-define("_AM_SYSTEM_PREFERENCES_NAV_MD_AM_METAFOOTER", "Meta Tags and Footer");
-define("_AM_SYSTEM_PREFERENCES_NAV_MD_AM_CENSOR", "Word Censoring Options");
-define("_AM_SYSTEM_PREFERENCES_NAV_MD_AM_SEARCH", "Search Options");
-define("_AM_SYSTEM_PREFERENCES_NAV_MD_AM_MAILER", "Mail Setup");
-define("_AM_SYSTEM_PREFERENCES_NAV_MD_AM_AUTHENTICATION", "Authentication Options");*/
 
 //Tips
 define("_AM_SYSTEM_PREFERENCES_NAV_TIPS", "<ul><li>Центр управления параметрами сайта.</li></ul>");
-/*
 
-define("_AM_SYSTEM_PREFERENCES_NAV_TIPS_MD_AM_GENERAL", "A faire");
-define("_AM_SYSTEM_PREFERENCES_NAV_TIPS_MD_AM_USERSETTINGS", "A faire");
-define("_AM_SYSTEM_PREFERENCES_NAV_TIPS_MD_AM_METAFOOTER", "A faire");
-define("_AM_SYSTEM_PREFERENCES_NAV_TIPS_MD_AM_CENSOR", "A faire");
-define("_AM_SYSTEM_PREFERENCES_NAV_TIPS_MD_AM_SEARCH", "A faire");
-define("_AM_SYSTEM_PREFERENCES_NAV_TIPS_MD_AM_MAILER", "A faire");
-define("_AM_SYSTEM_PREFERENCES_NAV_TIPS_MD_AM_AUTHENTICATION", "A faire");
-*/
 define("_MD_AM_SITEPREF","Конфигурация сайта");
 define("_MD_AM_SITENAME","Наименование сайта");
 define("_MD_AM_SITENAMEDSC", "");
@@ -53,7 +36,7 @@ define("_MD_AM_DTHEME","Тема оформления по умолчанию");
 define("_MD_AM_DTHEMEDSC", "");
 define("_MD_AM_THEMESET","Пакет темы");
 define("_MD_AM_CUSTOM_REDIRECT", "Использовать jGrowl редирект");
-define("_MD_AM_CUSTOM_REDIRECT_DESC", "заменить старые редиректы на редиректы, с использованием jQuery");
+define("_MD_AM_CUSTOM_REDIRECT_DESC", "заменить старые редиректы на редиректы, с использованием jGrowl<br />jGrowl является плагином JQuery, который создаёт ненавязчивые сообщения в XOOPS");
 define("_MD_AM_ANONNAME","Имя для анонимных пользователей");
 define("_MD_AM_ANONNAMEDSC", "");
 define("_MD_AM_MINPASS","Минимальная требуемая длина пароля");
@@ -62,7 +45,6 @@ define("_MD_AM_NEWUNOTIFY","Известить по E-mail при регистр
 define("_MD_AM_NEWUNOTIFYDSC", "");
 define("_MD_AM_SELFDELETE","Разрешить пользователям удалять свою учетную запись?");
 define("_MD_AM_SELFDELETEDSC", "");
-//define("_MD_AM_LOADINGIMG","Загрузка... рисунок?");
 define("_MD_AM_USEGZIP","Использовать gzip сжатие?");
 define("_MD_AM_USEGZIPDSC", "");
 define("_MD_AM_UNAMELVL","Выберите уровень фильтрации при выборе имени пользователя");
@@ -91,7 +73,7 @@ define("_MD_AM_ADMNOTSET","E-mail администратора не введен
 define("_MD_AM_YES","Да");
 define("_MD_AM_NO","Нет");
 define("_MD_AM_DONTCHNG","Не изменено!");
-define("_MD_AM_REMEMBER","Не забудьте сделать chmod 666 для этого файла, чтобы система могла корректно записать в него данные.");
+define("_MD_AM_REMEMBER","Не забудьте сделать chmod 644 для этого файла, чтобы система могла корректно записать в него данные.");
 define("_MD_AM_IFUCANT","Если Вы не измените права, то сможете отредактировать его данные вручную.");
 
 define("_MD_AM_COMMODE","Тип вывода комментариев по умолчанию");
@@ -112,7 +94,6 @@ define("_MD_AM_AVATARHDSC", "");
 define("_MD_AM_AVATARMAX","Максимальный размер файла аватара (байт)");
 define("_MD_AM_AVATARMAXDSC", "");
 define("_MD_AM_AVATARCONF","Настройки пользовательского аватара");
-//define("_MD_AM_CHNGUTHEME","Изменить тему оформления для всех пользователей");
 define("_MD_AM_NOTIFYTO","Выберите группу, которой будет поступать предупреждение при регистрации новых пользователей");
 define("_MD_AM_NOTIFYTODSC", "");
 define("_MD_AM_ALLOWTHEME","Разрешить пользователям выбирать тему оформления?");
@@ -126,7 +107,7 @@ define("_MD_AM_ACTVTYPEDSC", "");
 define("_MD_AM_ACTVGROUP","Выберите группу которая будет рассылать активацию");
 define("_MD_AM_ACTVGROUPDSC","Действительно только если выбрана активация администраторами");
 define('_MD_AM_USESSL', 'Использовать SSL для входа?');
-define("_MD_AM_USESSLDSC", "");
+define("_MD_AM_USESSLDSC", ", SSL используется для безопасной аутентификации и требует сертификат. Свяжитесь с хостинг-провайдером о том, как получить сертификат для Вашего сайта.");
 define('_MD_AM_SSLPOST', 'Имя переменной передаваемой SSL');
 define('_MD_AM_SSLPOSTDSC', 'Имя переменной используемое для передачи значения сессии через POST. Если Вы не уверены, то введите любое мало используемое значение.');
 define('_MD_AM_DEBUGMODE0','Выключено');

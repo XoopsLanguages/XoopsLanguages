@@ -2,7 +2,7 @@
 // $Id: modinfo.php 2411 2008-11-14 21:01:07Z julionc $
 // _LANGCODE: ru
 // _CHARSET : UTF-8
-// Translator: 10.10.2011 andrey3761
+// Translator: 2011-11-21 andrey3761
 
 define("_PM_MI_NAME", "Личные сообщения");
 define("_PM_MI_DESC", "Модуль обмена личными сообщениями между пользователями сайта");
