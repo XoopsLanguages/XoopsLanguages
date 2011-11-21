@@ -2,8 +2,7 @@
 // $Id: findusers.php 4897 2010-06-19 02:55:48Z phppp $
 // _LANGCODE: en
 // _CHARSET : UTF-8
-// Translator: 2010-10-09 andrey3761
-
+// Translator: 2011-11-21 andrey3761
 define('_MA_USER_MORE', 'Поиск пользователей');
 define('_MA_USER_REMOVE', 'Удалить невыбранных пользователей');
 
@@ -60,4 +59,7 @@ define('_MA_USER_NOUSERSELECTED', 'Пользователи не выбраны'
 define('_MA_USER_USERADDED', 'Пользователь добавлен');
 define('_MA_USER_SENDMAIL','Отослать E-mail');
 
+//2.5.4
+define('_MA_USER_FACEBOOK', 'Фейсбук'); //TO DO
+define('_MA_USER_SKYPE', 'Скайп');//TO DO
 ?>

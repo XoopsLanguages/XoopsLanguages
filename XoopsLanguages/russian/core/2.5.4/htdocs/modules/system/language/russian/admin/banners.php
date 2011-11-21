@@ -4,10 +4,9 @@
  * @license     http://www.fsf.org/copyleft/gpl.html GNU public license
  * _LANGCODE    ru
  * _CHARSET     UTF-8
- * Translator   2010-11-11 andrey3761
- * @version     $Id: banners.php 5580 2010-10-21 19:38:48Z forxoops $
+ * Translator   2011-11-21 andrey3761
+ * @version     $Id: banners.php 8066 2011-11-06 05:09:33Z beckmi $
  */
-
 //%%%%%%        Admin Module Name  Banners         %%%%%
 define("_AM_SYSTEM_BANNERS_DBUPDATED",_AM_SYSTEM_DBUPDATED);
 
@@ -72,7 +71,7 @@ define("_AM_SYSTEM_BANNERS_SUREDELBNR","Вы действительно хоти
 define("_AM_SYSTEM_BANNERS_EDITADVCLI","Редактирование рекламируемого клиента");
 define("_AM_SYSTEM_BANNERS_EXTINFO","Дополнительная информация:");
 define("_AM_SYSTEM_BANNERS_CHGCLI","Сохранить изменения");
-define("_AM_SYSTEM_BANNERS_USEHTML","Использовать HTML?");
+define("_AM_SYSTEM_BANNERS_USEHTML","Использовать HTML теги?");
 define("_AM_SYSTEM_BANNERS_CODEHTML","HTML-код:");
 
 // Tips

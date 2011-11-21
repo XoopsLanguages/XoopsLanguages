@@ -1,8 +1,8 @@
 <?php
-// $Id$
+// $Id: admin.php 8066 2011-11-06 05:09:33Z beckmi $
 // _LANGCODE: ru
 // _CHARSET : UTF-8
-// Translator: 2011-10-10 andrey3761
+// Translator: 2011-11-21 andrey3761
 
 define('_OXYGEN_SYSOPTIONS','Конфигурация системы');
 define('_OXYGEN_INSTALLEDMODULES','Установленные модули');

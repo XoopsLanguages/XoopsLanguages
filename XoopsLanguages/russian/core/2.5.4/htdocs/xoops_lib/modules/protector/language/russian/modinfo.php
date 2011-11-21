@@ -126,6 +126,13 @@ define($constpref.'_SPAMURI4UDSC','Если колличество ссылок 
 define($constpref.'_SPAMURI4G','anti-SPAM: Колличество ссылок для гостей');
 define($constpref.'_SPAMURI4GDSC','Если колличество ссылок  в сообщениях от гостей, превышает указанное, сообщение определяется как СПАМ.<br />  0 - отключено.');
 
+//3.40b
+define($constpref."_ADMINHOME","Главная");
+define($constpref."_ADMINABOUT","О модуле");
+//3.50
+define($constpref.'_STOPFORUMSPAM_ACTION','Блокировка спама');
+define($constpref.'_STOPFORUMSPAM_ACTIONDSC','Проверяет данные, переданные методом POST, от спамеров, зарегистрированных в базе данных www.stopforumspam.com. Необходима библиотека php CURL.');
+
 }
 
 ?>

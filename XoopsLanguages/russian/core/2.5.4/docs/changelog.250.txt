@@ -1,44 +1,63 @@
-XOOPS 2.5 Changelog
+XOOPS 2.5.x Changelog (Language changes: see: /docs/lang_diff.txt)
+
+===============================
+2011/10/20: Version 2.5.4 Final
+===============================
+Bugfixes:
+ - ID: 3430112 Java problem in xoops editor (voltan/mamba/trabis)
+ - dhtml smilie is always inserted in the end (mamba/trabis)
+ - tinymce using body background color (trabis)
+ - jquery ui css no loaded correctly on admin side (trabis)
+ - ID: 3432017 HTML tags not closed (kris_fr/mamba)
+
+Updated:
+ - updated jQuery to 1.7 (mamba)
+
+===============================
+2011/10/10: Version 2.5.4 RC
+===============================
+Bugfixes:
+ - quoteConv causing problems with large number of quotes (Roby73/trabis)
+ - Cache bug. The key's not generated correctly (andrey3761/trabis)
+ - ID: 3425970 Unknown: Function split() (cesag/trabis)
+ - ID: 3424295 Undefined index: tplset (cesag/trabis)
+ - Preferences not using description field correctly, tooltip showing title and description without space (trabis)
+ - Extra height in admin page when warnings are not displayed (timgno/trabis)
+ - Files loaded with browse.php (*.js, *.css, etc) are not cached by the browser (trabis)
+ - ID: 3421180 CBB 4.05 and Xoops 2.5.4 error with Framework (cesag/trabis)
+
+Improved:
+ - Replacing deprecated Database::getInstance(); calls with XoopsDatabaseFactory::getDatabaseConnection(); (trabis)
+ - Logging deprecated methods and files that will be removed on XOOPS 2.6.0 (trabis)
+
 ===============================
 2011/10/05: Version 2.5.4 Beta
 ===============================
 Bugfixes:
+ - Remove a call of non existing css file in admin menu
  - ID: 3419812 Drag and drop Xoops 2.5.3 bug (cesag/trabis)
  - Calendar form element does not work properly (trabis)
  - Make sure xoops_data/data is writable during install (trabis)
  - ID: 3419332 Logout bug (cesag/trabis)
 
 Updated:
- - Update tinymce to version 3.4.6
- - Update PhpMailer to version 5.1
- - Update jQuery o version 1.6.4
+ - Update jQueryUI to version 1.8.16 (voltan)
+ - Update tinymce to version 3.4.6 (ForMuss)
+ - Update PhpMailer to version 5.1 (dhsoft)
+ - Update jQuery o version 1.6.4 (ForMuss)
  - Update Core modules (PM, Profile, Protector) to ModuleAdmin GUI (mamba)
 
 Deleted:
  - Delete xoops_lib/data/secure.php file for exclude update error
 
-Languages:
-- updated several English translations (DCrussader/Mamba)
-- deleted language/english/calendar.php _CAL_DEF_DATE_FORMAT
-- deleted language/english/calendar.php _CAL_TT_DATE_FORMAT
-- deleted modules/system/language/english/admin/users.php _AM_SYSTEM_USERS_NAV_MANAGER
-- deleted modules/system/language/english/admin/preferences.php _MD_AM_LOADINGIMG
-- deleted modules/system/language/english/admin/preferences.php _MD_AM_CHNGUTHEME
-- deleted modules/pm/language/english/admin/main.php _PM_RECEIVE, _PM_POST, _PM_READBOX, _PM_RSAVEBOX, _PM_SENTBOX, _PM_PSAVEBOX, _PM_SAVED, _PM_TOC
-- added /modules/profile/language/english/admin.php _PROFILE_AM_ACTION
-- added /modules/profile/language/english/main.php _PROFILE_MI_ABOUT
-- added /modules/profile/language/english/main.php _PROFILE_MI_HOME
-- added /modules/pm/language/english/modinfo.php _PM_MI_ABOUT
-- added modules/system/language/english/admin/users.php _AM_SYSTEM_USERS_FACEBOOK, _AM_SYSTEM_USERS_SKYPE
-- added language/english/user.php _US_SKYPE, _US_FACEBOOK
-
-
+===============================
 2011/10/03: Version 2.5.3
 ===============================
 Bugfixes:
  - Style switcher does not work on default admin GUI(trabis)
  - Reverting fix for bug ID: 2672723 Changed the code in Install to omits the SQL command: "ALTER DATABASE ... CHARACTER SET ..." (trabis)
 
+===============================
 2011/09/29: Version 2.5.2 Final
 ===============================
 Bugfixes:
@@ -130,13 +149,7 @@ Improved:
  - Blocks admin using cookies to save select boxes status (trabis)
  - Moved js and css from xo_scripts template into gui class(using $xoTheme) to avoid module conflicts
  - require class/xoopslocal.php causing problems with RMCommon (mamba/trabis)
-Language:
- - added language/english/misc.php _MSC_CLICK_TO_OPEN_IMAGE, _MSC_RESIZED_IMAGE, _MSC_ORIGINAL_IMAGE
- - added language/english/pmsg.php _PM_SURE_TO_DELETE
- - added modules/pm/language/english/admin/main.php _PM_READ, _PM_SUBJECT_ICONS
- - modules\system/language/english/admin/tplsets.php _AM_SYSTEM_TEMPLATES_SET
- - removed modules/system/themes/default/language/english/admin/admin.php _OXYGEN_XOOPSENGINE
- - removed modules/system/language/english/admin/blocksadmin.php _AM_SYSTEM_BLOCKS_SAVE
+
 ===============================
 2011/04/12: Version 2.5.2 Beta
 ===============================
@@ -162,7 +175,6 @@ Bugfixes:
 Updates:
  - Updated suico and zetagenesis themes, zetadigme system admin theme (kris_fr)
 
-
 ===============================
 2011/03/15: Version 2.5.1 RC
 ===============================
@@ -180,17 +192,6 @@ Bugfixes:
  - ID: 3153597 Banner management: URL click mandatory(trabis)
  - ID: 3111137 Module Block is cloned as custom block(trabis)
 
-Added Language constants:
-  modules/system/language/english/admin/images.php _AM_SYSTEM_IMAGES_URL
-  modules/system/themes/default/language/english/admin/admin.php _OXYGEN_XOOPSENGINE
-
-Modified Language constants:
-  modules/system/themes/default/language/english/admin/admin.php _OXYGEN_ABOUT_TEXT, _OXYGEN_WEBSITE
-  modules/system/language/english/helper/help_center.html, modulesadmin.html
-
-Removed Language constants:
-  modules/system/themes/default/language/english/admin/admin.php _OXYGEN_XGIFTSHOP, _OXYGEN_XDONATIONS, _OXYGEN_XDONATIONS_TEXT, _OXYGEN_KEY, _OXYGEN_LICENSE, _OXYGEN_SOURCEFORGE_TEXT, _OXYGEN_POWERED_BY
-  modules/system/themes/default/language/english/admin/admin.php _OXYGEN_XGIFTSHOP, _OXYGEN_XDONATIONS, _OXYGEN_XDONATIONS_TEXT, _OXYGEN_KEY, _OXYGEN_LICENSE, _OXYGEN_SOURCEFORGE_TEXT, _OXYGEN_POWERED_BY
 
 ===============================
 Updated 2010/10/23: Version 2.5.0

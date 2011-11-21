@@ -1,8 +1,8 @@
 <?php
-// $Id: modinfo.php 5566 2010-10-20 11:45:26Z beckmi $
+// $Id: modinfo.php 8066 2011-11-06 05:09:33Z beckmi $
 // _LANGCODE: ru
 // _CHARSET : UTF-8
-// Translator: 2010-11-12 andrey3761
+// Translator: 2011-11-21 andrey3761
 
 // Module Info
 

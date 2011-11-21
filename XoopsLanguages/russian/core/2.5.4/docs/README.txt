@@ -1,18 +1,13 @@
-XOOPS 2.5.4 Beta
+XOOPS 2.5.2 Release Candidate
 
-The XOOPS Development Team is pleased to announce the release of XOOPS 2.5.4 Beta. 
+The XOOPS Development Team is pleased to announce the release of XOOPS 2.5.2 RC. Several bugs have been fixed as well as security enhancement based on report from High-Tech Bridge Security Research Lab.
 
-This release is focused on updating our libraries to the latest versions:
+This 2.5 series builds on the XOOPS 2.4.x series with objectives of usability improvements instead of architecture or API changes.
+The system module is updated with a major redesign with jQuery based AJAX, done mainly by ForMusS, kraven_30, Mage with contributions from trabis, voltan, Kris_fr, onokazu etc.
+Besides usability, some proof-of-concept experiments have also been proven for module and theme development. Unavoidably there are bugs and incompatibility introduced.
 
-- phpMailer 5.1
-- TinyMCE  3.4.6
-- jQuery 1.6.4
+Download XOOPS 2.5.2 from [url=https://sourceforge.net/projects/xoops/files/XOOPS%20Core%20%28stable%20releases%29/XOOPS%202.5.2/]Sourceforge repository[/url].
 
-We have also updated all Core modules (PM, Profile, Protector) to the ModuleAdmin GUI, so all of them have a consistent "look & feel"
-
-And we have fixed few bugs. See the Changelog for more details.
-
-You can get this release package from the [url=https://sourceforge.net/projects/xoops/files/XOOPS%20Core%20%28Beta%20Releases%29/XOOPS_2.5.4_Beta/]Sourceforge repository[/url].
 
 How to contribute
 -----------------------------------
@@ -22,4 +17,4 @@ Feature design: http://sourceforge.net/tracker/?group_id=41586&atid=430843
 Release announcement: https://lists.sourceforge.net/lists/listinfo/xoops-announcement
 
 XOOPS Development Team
-October 9th, 2011
+September 15th, 2011

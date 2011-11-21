@@ -4,12 +4,11 @@
  * @license     http://www.fsf.org/copyleft/gpl.html GNU public license
  * _LANGCODE    ru
  * _CHARSET     UTF-8
- * Translator   2010-11-11 andrey3761
- * @version     $Id: comments.php 5566 2010-10-20 11:45:26Z beckmi $
+ * Translator   2011-11-21 andrey3761
+ * @version     $Id: comments.php 8066 2011-11-06 05:09:33Z beckmi $
  */
- 
 // Manager
-define("_AM_SYSTEM_COMMENTS_NAV_MANAGER","Менеджер комментариев");
+define("_AM_SYSTEM_COMMENTS_NAV_MANAGER","Управление комментариями");
 define("_AM_SYSTEM_COMMENTS_NAV_MAIN","Список");
 define("_AM_SYSTEM_COMMENTS_NAV_PURGE","Очистка");
 
@@ -32,7 +31,7 @@ define("_AM_SYSTEM_COMMENTS_FORM_PURGE","Очистка");
 define("_AM_SYSTEM_COMMENTS_FORM_PURGE_DATE_AFTER","Очистить сообщения, отправленные после этой даты (оставьте поле пустым, если нет начальной даты)");
 define("_AM_SYSTEM_COMMENTS_FORM_PURGE_DATE_BEFORE","Очистить сообщения, отправленные до этой даты (оставьте поле пустым, если нет конечной даты)");
 define("_AM_SYSTEM_COMMENTS_FORM_PURGE_GROUPS", "Группы");
-define("_AM_SYSTEM_COMMENTS_FORM_PURGE_USER", "Ник пользователя");
+define("_AM_SYSTEM_COMMENTS_FORM_PURGE_USER", "Имя пользователя");
 define("_AM_SYSTEM_COMMENTS_FORM_PURGE_STATUS", "Статус");
 define("_AM_SYSTEM_COMMENTS_FORM_PURGE_MODULES", "Модули");
 

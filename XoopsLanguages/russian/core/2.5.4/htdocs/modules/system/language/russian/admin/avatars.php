@@ -4,10 +4,9 @@
  * @license     GNU GPL 2 (http://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
  * _LANGCODE    en
  * _CHARSET     UTF-8
- * Translator   2010-11-11 andrey3761
- * @version     $Id: avatars.php 5106 2010-08-27 13:33:06Z trabis $
+ * Translator   2011-11-21 andrey3761
+ * @version     $Id: avatars.php 8066 2011-11-06 05:09:33Z beckmi $
  */
-
 // Navigation
 define( "_AM_SYSTEM_AVATAR_MANAGER", "Управление аватарами" );
 define( "_AM_SYSTEM_AVATAR_MAIN", "Главная" );
@@ -24,7 +23,7 @@ define( "_AM_SYSTEM_AVATAR_USE_FILE", "Выбрать файлы: %s" );
 define( "_AM_SYSTEM_AVATAR_UPLOAD", "Загрузить:" );
 // Messages
 define( "_AM_SYSTEM_AVATAR_FAILDEL", "Не удалось удалить аватар %s из базы данных" );
-define( "_AM_SYSTEM_AVATAR_SUREDEL", "Вы уверены, что хотите удалить этот аватар?" );
+define( "_AM_SYSTEM_AVATAR_SUREDEL", "Вы действительно хотите удалить этот аватар?" );
 
 // Tips
 define( "_AM_SYSTEM_AVATAR_TIPS", "

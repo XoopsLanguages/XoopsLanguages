@@ -2,7 +2,7 @@
 // $Id: main.php 3355 2009-07-14 21:36:49Z trabis $
 // _LANGCODE: ru
 // _CHARSET : UTF-8
-// Translator: 14.09.2009 andrey3761
+// Translator: 21.11.2011 andrey3761
 
 //%%%%%%	File Name readpmsg.php 	%%%%%
 define("_PM_DELETED","Ваши сообщения были удалены");
@@ -56,22 +56,14 @@ define("_PM_RUSUREDELETE","Вы действительно хотите удал
 
 define("_PM_ONLINE", "В сети");
 
-//define("_PM_RECEIVE","RECEIVE");
-//define("_PM_POST","POST");
-//define("_PM_READBOX","READBOX");
-//define("_PM_RSAVEBOX","Receive_SAVEBOX");
 define("_PM_OUTBOX","Отправленные");
 define("_PM_SAVEBOX","Сохраненные");
-//define("_PM_SENTBOX","SENTBOX");
-//define("_PM_PSAVEBOX","Post_SAVEBOX");
 define("_PM_SAVE","SAVE");
-//define("_PM_SAVED","Успешно сохранено");
-//define("_PM_TOC","От: ");
 
 //WANISYS.NET PM HACK1.5
 define("_PM_SORT","SORT");
 define("_PM_ORDER","ORDER");
-define("_PM_UID","Partner's UID");
+
 define("_PM_TIME","Дата отправки");
 define("_PM_ASC","ASC");
 define("_PM_DESC","DESC");
