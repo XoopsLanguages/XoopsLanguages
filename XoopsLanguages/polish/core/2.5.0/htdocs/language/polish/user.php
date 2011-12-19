@@ -58,7 +58,7 @@ define('_US_AVATAR', 'Avatar');
 define('_US_VERIFYPASS', 'Powtórz hasło');
 define('_US_SUBMIT', 'Zatwierdź');
 define('_US_USERNAME', 'Nazwa użytkownika');
-define('_US_FINISH', 'Koniec');
+define('_US_FINISH', 'Potwierdź rejestrację');
 define('_US_REGISTERNG', 'Nie można zarejestrować nowego użytkownika.');
 define('_US_MAILOK', 'Pozwolić administratorowi i <br /> moderatorom na wysyłanie wiadomości?');
 define('_US_DISCLAIMER', 'Regulamin');
