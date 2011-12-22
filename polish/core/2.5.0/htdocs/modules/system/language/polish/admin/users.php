@@ -151,8 +151,8 @@ define("_AM_SYSTEM_USERS_NO_ADMINSUPP", "Admin nie może być usunięty: %s <br 
 define("_AM_SYSTEM_USERS_ERROR", "Błąd:<br /><br /> %s");
 define("_AM_SYSTEM_USERS_ALLGROUP", "Wszystkie grupy");
 define("_AM_SYSTEM_USERS_ALLUSER", "Wszyscy użytkownicy");
-define("_AM_SYSTEM_USERS_ACTIVEUSER", "Tylko aktywni użytkownicy");
-define("_AM_SYSTEM_USERS_INACTIVEUSER", "Tylko nieaktywni użytkownicy");
+define("_AM_SYSTEM_USERS_ACTIVEUSER", "Uaktywnij użytkownika");
+define("_AM_SYSTEM_USERS_INACTIVEUSER", "Dezaktywuj użytkownika");
 
 // Error
 define("_AM_SYSTEM_USERS_PSEUDO_ERROR","Nazwa użytkownika %s już istnieje");
