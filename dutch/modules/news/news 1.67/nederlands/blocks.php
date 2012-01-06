@@ -1,6 +1,6 @@
 <?php
 // $Id: blocks.php,v 1.16 2004/09/01 17:48:07 hthouzard Exp $
-define("_MB_NEWS_NOTYET","Er is vandaag nog geen grootste artikel.");
+define("_MB_NEWS_NOTYET","Er is vandaag nog geen belangijkste artikel.");
 define("_MB_NEWS_TMRSI","Vandaag meest gelezen artikel is:");
 define("_MB_NEWS_ORDER","Sorteer op");
 define("_MB_NEWS_DATE","Publicatie datum");
@@ -26,7 +26,7 @@ define("_MB_NEWS_SPOTLIGHT_ARTICLE", "Selecteer een artikel:");
 define("_MB_READMORE","Lees Verder...");
 define("_MB_NEWS_RATE","Waardering");
 define("_MB_NEWS_SHOW_NEWS_COUNT","Nieuwsteller tonen?");
-define("_MB_NEWS_SPOTLIGHT_TITLE", "Spotlight");
+define("_MB_NEWS_SPOTLIGHT_TITLE", "Schijnwerper");
 define("_MB_NEWS_VIEW_TYPE1", "Klassiek");
 define("_MB_NEWS_VIEW_TYPE2", "Getabbed");
 define("_MB_NEWS_TAB_COLOR1", "Kleurinstelling van de overzichtslijn (dit is de regel direct onder de tabknoppen)");
@@ -43,7 +43,7 @@ define("_MB_NEWS_CAL_YEAR", "Jaar");
 define("_MB_NEWS_CAL_MONTH", "Maand");
 define("_MB_NEWS_STARTING_DATE", "Startdatum");
 define("_MB_NEWS_ENDING_DATE", "Einddatum");
-define("_MB_NEWS_UNTIL_TODAY", "Of to vandaag");
+define("_MB_NEWS_UNTIL_TODAY", "Of tot vandaag");
 define("_MB_NEWS_RECENT_FIRST", "Meest recente bericht eerst");
 define("_MB_NEWS_OLDER_FIRST", "Oudste bericht eerst");
 ?>

@@ -4,8 +4,8 @@
 define("_NW_PRINTER","Printvriendelijke pagina");
 define("_NW_SENDSTORY","Stuur dit nieuwsbercht naar een kennis");
 define("_NW_READMORE","Lees Verder...");
-define("_NW_COMMENTS","Commenta(a)r(en)?");
-define("_NW_ONECOMMENT","1 commentaar");
+define("_NW_COMMENTS","Reactie(s))?");
+define("_NW_ONECOMMENT","1 reactie");
 define("_NW_BYTESMORE","%s bytes meer");
 define("_NW_NUMCOMMENTS","%s commentaren");
 define("_NW_MORERELEASES", "Meer artikelen in: ");
@@ -100,19 +100,35 @@ define('_AM_NEWS_TOPICS_DIRECTORY',"Onderwerp Directorie");
 define("_NW_PAGE_AUTO_SUMMARY","Pagina %d : %s");
 
 // Added in version 1.51
-define("_NW_BOOKMARK_TO_BLINKLIST","Bookmark op Blinklist");
-define("_NW_BOOKMARK_TO_DELICIOUS","Bookmark op del.icio.us");
-define("_NW_BOOKMARK_TO_DIGG","Bookmark op Digg");
-define("_NW_BOOKMARK_TO_FARK","Bookmark op Fark");
-define("_NW_BOOKMARK_TO_FURL","Bookmark op Furl");
-define("_NW_BOOKMARK_TO_NEWSVINE","Bookmark op Newsvine");
-define("_NW_BOOKMARK_TO_REDDIT","Bookmark op Reddit");
-define("_NW_BOOKMARK_TO_SIMPY","Bookmark op Simpy");
-define("_NW_BOOKMARK_TO_SPURL","Bookmark op Spurl");
-define("_NW_BOOKMARK_TO_YAHOO","Bookmark op Yahoo");
+define("_NW_BOOKMARK_TO_BLINKLIST","Delen via Blinklist");
+define("_NW_BOOKMARK_TO_DELICIOUS","Delen via del.icio.us");
+define("_NW_BOOKMARK_TO_DIGG","Delen via Digg");
+define("_NW_BOOKMARK_TO_FARK","Delen via Fark");
+define("_NW_BOOKMARK_TO_FURL","Delen via Furl");
+define("_NW_BOOKMARK_TO_NEWSVINE","Delen via Newsvine");
+define("_NW_BOOKMARK_TO_REDDIT","Delen via Reddit");
+define("_NW_BOOKMARK_TO_SIMPY","Delen via Simpy");
+define("_NW_BOOKMARK_TO_SPURL","Delen via Spurl");
+define("_NW_BOOKMARK_TO_YAHOO","Delen via Yahoo");
 
 // Added in version 1.56
 define('_NW_NOTYETSTORY',"Sorry, het geselecteerde nieuwsartikel is nog niet gepubliseerd. Kom later terug en probeer opnieuw.");
 define('_NW_SELECT_IMAGE', "Selecteer een afbeelding om toe te voegen aan het nieuwsartikel");
 define('_NW_CURENT_PICTURE', "Huidige afbeelding");
+// Added in version 1.67
+define("_NW_BOOKMARK_TO_FACEBOOK", "Delen via Facebook");
+define("_NW_BOOKMARK_TO_TWITTER", "Delen via Twitter");
+define("_NW_BOOKMARK_TO_SCRIPSTYLE", "Delen via Scripstyle");
+define("_NW_BOOKMARK_TO_STUMBLE", "Delen via Stumble");
+define("_NW_BOOKMARK_TO_TECHNORATI", "Delen via Technorati");
+define("_NW_BOOKMARK_TO_MIXX", "Delen via Mixx");
+define("_NW_BOOKMARK_TO_MYSPACE", "Delen via Myspace");
+define("_NW_BOOKMARK_TO_DESIGNFLOAT", "Delen via Designfloat");
+define("_NW_BOOKMARK_TO_BALATARIN", "Delen via Balatarin");
+define("_NW_BOOKMARK_TO_GOOLGEBUZZ", "Delen via Google Buzz");
+define("_NW_BOOKMARK_TO_GOOLGEREADER", "Delen via Google Reader");
+define("_NW_BOOKMARK_TO_GOOLGEBOOKMARKS", "Delen via Google Bookmarks");
+
+define("_NW_DELETE", "Verwijderen");
+define("_NW_EDIT", "Bewerken");
 ?>
