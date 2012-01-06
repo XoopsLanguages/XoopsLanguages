@@ -101,7 +101,7 @@ define("_MI_CONTACT_MOREINFODSC", "\"Meer Informatie\" items maken het mogelijk 
 // index.php
 //define("_MI_CONTACT_ADMIN_INDEX",                  "Home");
 
-define('_MI_CONTACT_MENU_00',"Home"); 
+define('_MI_CONTACT_MENU_00',"Overzicht"); 
 define("_MI_CONTACT_ADMIN_HOME_DESC","Ga terug naar begin");
 
 define("_MI_CONTACT_ADMIN_ABOUT",                  "Over");
