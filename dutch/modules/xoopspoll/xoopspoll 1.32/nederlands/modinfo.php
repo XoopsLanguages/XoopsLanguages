@@ -22,7 +22,7 @@ define("_MI_POLL_LIMITBYUID","Voorkom dat een gebruiker meermaals kan stemmen");
 define("_MI_POLL_LIMITBYUIDD","");
 
 // index.php
-define("_AM_POLLS_HOME",                  "Startpagina");
+define("_AM_POLLS_HOME",                  "Overzicht");
 define("_AM_POLLS_ADMENU1",                  "Overzicht van peilingen");
 define("_AM_POLLS_ADMENU2",                 "Peiling toevoegen");
 define("_AM_POLLS_ADMIN_ABOUT",                  "Over");

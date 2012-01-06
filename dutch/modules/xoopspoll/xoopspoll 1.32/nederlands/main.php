@@ -26,5 +26,11 @@ define("_PL_ENDSAT","Verstrijkt op %s");
 define("_PL_ENDEDAT","Verstreken op %s");
 define("_PL_VOTE","Stem!");
 define("_PL_RESULTS","Resultaten");
+// 1.32
+//file /admin/index.php
+define("_MD_XOOPSPOLL_DASHBOARD","Xoops peilingen overzicht");
+define("_MD_XOOPSPOLL_TOTALPOLLS","Totaal peilingen: <strong>%s</strong> ");
+define("_MD_XOOPSPOLL_TOTALACTIVE","Actieve peilingen: <strong>%s</strong> ");
+define("_MD_XOOPSPOLL_TOTALNONACTIVE","Verlopen peilingen: <strong>%s</strong> ");
 
 ?>
