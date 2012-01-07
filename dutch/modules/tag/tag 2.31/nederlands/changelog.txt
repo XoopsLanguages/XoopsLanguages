@@ -1,0 +1,25 @@
+2.31 Beta (July 10, 2011)
+================================= 
+- removed all icon files and point them to /Frameworks/moduleclasses (Mamba)
++ Updated GUI to XOOPS Module Standard (Mamba)
++ Fix tag phrase (Voltan)
+
+2.3 Final (August 11th, 2010)
+================================= 
++ Fixed footer.php file inclusion
+
+2.30 RC (October 12th, 2008)
+================================= 
++ For XOOPS 2.3+
+
+2.0 (May 4th, 2008)
+================================= 
++ For XOOPS 2.3.0
+
+1.60 (Jan 3rd, 2007)
+================================= 
++ Added global search
+
+Oct 29th, 2006
+================================= 
++ Minor bugfix by Gizmhail
