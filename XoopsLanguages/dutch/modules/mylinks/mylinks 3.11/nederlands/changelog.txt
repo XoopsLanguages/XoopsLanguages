@@ -1,0 +1,67 @@
+v3.11 [2011/04/10] (ZySpec)
+=================================
++ added pre-install check to verify min versions for PHP/MySQL/Xoops
++ added category class to manage categories
++ added ability to bulk import categories on new installation
++ added Preferences option to include/exclude admin hits in hit counter
++ added Random Listing display block
++ added nederlands translation (thanks to ÜberRookie)
++ added Preferences setting to select which auto screenshot provider to use
++ added input variable sanitization to eliminate SQL injection
++ added check to only display hits/ratings tables if there are hits>0 and ratings>0 respectively
++ changed to use XoopsObjectTree instead of deprecated XoopsTree class
++ changed deprecated 'TYPE' to 'ENGINE' in /sql/mysql.sql
++ changed from using xoops_module_header in templates to using xoTheme class
++ changed theme changer to disabled as the default (must enable in ./header.php)
++ changed 'letter' menu, only make char a hyperlink if there are web links with that letter
++ changed html/CSS in both admin and front side page display to be more XHTML compliant
++ changed block/group administration for XOOPS > 2.2 to be similar to XOOPS 2.0.x
++ changed hard coded language strings to language files
++ changed 'letter' menu characters to language file to ease translation
++ changed numerous configuration options from ./header.php to module Preferences
++ changed most module icons to /images/icons directory
++ changed Action buttons in listBrokenLinks to standard icons (Mamba)
++ fixed various english language typos and grammer (Mamba / ZySpec)
++ fixed missing language definition strings in admin
++ fixed bug in ./admin/about.php to display release status
++ fixed bug in ./rating.php where checking for form submitted with no rating selected
++ fixed bug where module couldn't be relocated to alternate directory
++ removed display of 'Modify' link if user is not logged in
++ removed additional XOOPS search block in ./singlelink.php display
++ removed ./include/xoopssearchform.php as it's no longer used
++ general code cleanup to improve readability
++ updated readme.txt
+
+v3.10 [2011/02/23] (Mamba)
+=================================
++ Changed to standardized XOOPS Module GUI
+
+Ver3.0-[2008-11-25] (Wanikoo)
+=================================
++ bookmark button
++ bug/typo fix!(Sorry for my stupid mistake!!)
++ Code refined
++ etc.
+
+-Ver2.5-[2008-05-27]
+=================================
++ minimize/restore button
++ Internal search block
++ enhanced page-navigation
++ etc.
+
+-Ver2.0-[2008-04-20]
+=================================
++ Category Jump box
++ print button
++ pdf button
++ qrcode button ( qrcode module needed! )
++ etc.
+
+-Ver1.5-
+=================================
++ Module Theme changer
++ Search function!
++ Index Browsing
++ Code refined
++ etc.
