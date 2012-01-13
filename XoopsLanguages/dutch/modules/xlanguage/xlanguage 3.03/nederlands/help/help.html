@@ -1,0 +1,91 @@
+<div id="help-template" class="outer">
+    <h1 class="head">Help:
+        <a class="ui-corner-all tooltip" href="<{$xoops_url}>/modules/xlanguage/admin/index.php"
+           title="Terug naar de administratie van xLanguage"> xLanguage <img src="<{xoAdminIcons home.png}>"
+                                                                       alt="Terug naar de administratie van xLanguage"/>
+        </a></h1>
+    <!-- -----Help Content ---------- -->
+
+    <h4 class="odd">Omschrijving</h4>
+
+    <p class="even">
+        Een uitgebreid Multi-taal beheer plugin voor inhoud- en karaktercodering binnen XOOPS websites. <br /><br />
+Multitaal beheer zorgt voor het weergeven van de inhoud van verschillende talen, zoals Engels, Frans en Chinees. <br /><br />
+Karaktercodering beheer zorgt voor de inhoud van andere coderingsets voor één taal , zoals GB2312 (Vereenvoudigd Chinees) en BIG5 (Traditioneel Chinees) voor Chinees. <br /><br />
+
+
+  <h4 class="odd">Wat kan met xlanguage wel?</h4>
+
+1 Het weergeven van inhoud van een opgegeven taal op basis van de gebruiker zijn keuze <br /><br />
+2 het omzetten van inhoud van de ene karakterset naar de andere .<br /><br /> </p>
+
+  <h4 class="odd">Wat kan met xlanguage NIET?</h4>
+
+1 xlanguage heeft niet de mogelijkheid van het vertalen van de inhoud van de ene taal naar een andere. De inhoud van de verschillende talen dient door de beheerder zelf aangemaakt te worden <br /><br />
+2 xlanguage werkt niet zonder het toevoegen van een regel aan XOOPS/include/common.php (Zie handleiding hieronder) <br /><br />
+3 xlanguage heeft niet de mogelijkheid van het omzetten van de inhoud van de ene karakterset naar een ander als "iconv", "mb_string" of "xconv" niet beschikbaar is. <br /><br />
+
+</p>
+
+
+
+  <h4 class="odd">Functies</h4>
+
+1 auto-detectie van taal voor bezoeker bij eerste bezoek <br /><br />
+2 Bewaren van gebruiker zijn taal instellingen<br /><br />
+3 Schakelen tussen verschillende taal/karaktersets <br /><br />
+4 Ondersteuning van M-S-M mode voor karaktercodering<br /><br />
+Opmerkinge:<br /><br />
+M-S-M: Multiple encoding input, Single encoding storage, Multiple encoding output. M-S-M staat een site toe waar verschillende gebruikers andere taal/karaktersets gebruiken. Bijvoorbeeld, een site heeft xlanguage geimplementeerd en stelt gebruikers in staat om content toe te voegen ofwel met GB2312, met BIG5 of UTF-8 codering en deze content op te slaan in de database met specifieke codering, zoals GB2312, en vervolgens weer te geven met GB2312, BIG5 of UTF-8 codering.
+<br /><br />
+
+
+
+
+
+  <h4 class="odd">Installeren/de-installeren</h4>
+
+Geen speciale maatregelen zijn nodig, volg de standaard installatieprocedure – pak de /xlanguage map uit in de ../modules map. Installeer de module via Administratie -> Modules -> Systeembeheer -> Modules. <br/><br/>
+    Gedetailleerde instructies voor het installeren van modules zijn beschikbaar in de <a href="http://goo.gl/adT2i">XOOPS Gebruikershandleiding</a> </p>
+
+    <h4 class="odd">Gebruiksaanwijzing</h4>
+    <p class="even">
+
+
+1 installeer "xlanguage" als elk andere module<br /><br />
+   
+2 select basic langauges (from an available language list) and add extended languages (upon a selected basic language) from module admin page<br />
+	for instance, to make language switch between: English, Simplified Chinese (gb2312), Traditional Chinese (big5) and UTF-8 Chinese:<br />
+	base 1: 	name: english; 		description(optional): English; 			charset: iso-8859-1; 	code: en (or anyother like "xen", not a true language code, just the tag for indicating English content)<br />
+	base 2: 	name: schinese; 	description(optional): Simplified Chinese; 	charset: gb2312; 		code: zh (or anyother like "sc", not a true language code, just the tag for indicating Chinese content)<br />
+	extended lang of schinese 1: name: tchinese; 	description(optional): Traditional Chinese; 		charset: big5 	code: zh-TW (the true language code of Traditional Chinese)		base: schinese<br />
+	extended lang of schinese 2: name: utf8; 		description(optional): Simplified Chinese UTF-8; 	charset: utf-8 	code: zh-CN (the true language code of Simplified Chinese)		base: schinese<br /><br />
+
+3 maa het blok "Taalselectie" zichtbaar<br /><br />
+
+4 add multilingual content with according tags sepcified for each base language (in step 3) to your modules, templates or themes[Skip this step if you do not use multi-language content display but only use charset encoding]: <br />
+	wrap content of each language with respective tag specified in step 3:<br />
+	[langcode1]Content of the language1[/langcode1] [langcode2]Content of the language2[/langcode2] [langcode3]Content of the language3[/langcode3] ...<br />
+	if two or more languages have same content, you do not need add them one by one but use delimiter "|":	<br />
+	[langcode1|langcode2]Content shared by language1&2[/langcode1|langcode2] [langcode3]Content of the language3[/langcode3] ...<br />
+	a true example (suppose the lang_codes specified in step 4 are: English-en; French-fr; SimplifiedChiense-sc):<br />
+	[en]My XOOPS[/en][fr]Moi XOOPS[/fr][sc]我的XOOPS[/sc]<br />
+	OR:<br />
+	[english|french]This is my content in English and French[/english|french][schinese]这是我在中国的内容[/schinese]<br /><br />
+
+5 automatic conversion of content from one charset(extended language) to another [Actually on action needed in this step]<br /><br />
+
+6 __if__ you would like to insert hardcoded scripts for language switch in your theme or any template besides the language selection box:<br />
+	1) modify /modules/xlanguage/api.php "$xlanguage_theme_enable = true;"<br />
+	2) config options "$options = array("images", " ", 5); // display mode, delimitor, number per line";<br />
+	3) insert &lt;{$smarty.const.XLANGUAGE_SWITCH_CODE}&gt; into your theme or template files anywhere you prefer it present	<br /><br />
+	
+	
+	
+<h4 class="odd">Handleiding</h4>
+    <p class="even">
+        Niet beschikbaar op dit moment. 
+
+    <!-- -----Help Content ---------- -->
+
+</div>
