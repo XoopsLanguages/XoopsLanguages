@@ -108,7 +108,7 @@ define("_MD_AM_ACTVTYPEDSC", "");
 define("_MD_AM_ACTVGROUP", "Selecteer groep waarheen activatie mail wordt verzonden");
 define("_MD_AM_ACTVGROUPDSC", "Alleen geldig wanneer 'Activatie door beheerder' is ingeschakeld");
 define("_MD_AM_USESSL", "SSL gebruiken bij inloggen?");
-define("_MD_AM_USESSLDSC", "");
+define("_MD_AM_USESSLDSC", ", SSL wordt gebruikt voor beveiligde login en hiervoor is en certificaat benodigd. Neem contact op met de hoster hoe een certificaat is te verkrijgen.");
 define("_MD_AM_SSLPOST", "SSL Post variabele naam");
 define("_MD_AM_SSLPOSTDSC", "De naam van de variabele gebruikt om de sessie waarde overdracht via POST. Als u twijfelt, zet elke naam die moeilijk te raden.");
 define("_MD_AM_DEBUGMODE0", "Uit");
