@@ -18,10 +18,10 @@ define("_THEME_PROFILE",            "Bekijk uw profiel");
 define("_THEME_ADMINISTRATION",     "Administratie");
 define("_THEME_LOGOUT",             "Klik hier om uit te loggen");
 
-define("THEME_WELLCOME",        "Welkom");
+define("THEME_WELCOME", 	       "Welkom");
 define("THEME_EDITPROFILE",        "Bewerk profiel");
-define("THEME_NOTIFICATION",      "Bekijk notificatie");
-define("THEME_MESSAGE",          "Bekijk bericht");
+define("THEME_NOTIFICATION",	   "Bekijk notificatie");
+define("THEME_MESSAGE",         	"Bekijk bericht");
 define("THEME_YOUHAVE",          "U heeft");
 define("THEME_NOTREAD",          "ongelezen bericht(en)");
 define("THEME_MYACCOUNT",        "Mijn account");
