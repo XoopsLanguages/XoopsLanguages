@@ -106,6 +106,18 @@ define('_NOTITLE', 'Geen titel');
 /**
 * Image manager
 */
+define("_MD_ADDIMGCAT","Categorie toevoegen");
+define("_MD_IMGCATNAME","Categorienaam");
+define("_MD_IMGCATRGRP","Selecteer groepen welke afbeeldingenbeheer mogen gebruiken");
+define("_MD_IMGCATWGRP","Selecteer groepen die afbeeldingen mogen plaatsen");
+define("_MD_IMGCATWEIGHT","Display order in image manager");
+define("_MD_IMGCATDISPLAY","Weergeven");
+define("_MD_IMGCATSTRTYPE","Afbeeldingen zijn geplaatst in:");
+define("_MD_STRTYOPENG","Dit kan achteraf niet gewijzigd worden!");
+define("_MD_ASFILE","Opslaan als bestanden (in uploads map)");
+define("_MD_INDB","Opslaan in de database (als binair \"blob\" data)");
+define ("_MD_IMGMAIN","Categorie"); 
+define ("_MD_EDITIMGCAT", "Afbeeldingsinstellingen");
 define('_IMGMANAGER', 'Beheer Afbeeldingen');
 define('_NUMIMAGES', ' %s afbeeldingen');
 define('_ADDIMAGE', 'Afbeelding toevoegen');
