@@ -20,7 +20,7 @@ define("_XOOPS_WEBSITE","XOOPS.ORG");
 define("_SOURCEFORGE","Sourceforge");
 define("_AD_XDONATIONS","Donaties");
 
-define("THEME_WELLCOME",				"Welkom");
+define("THEME_WELCOME",				"Welkom");
 define("THEME_PROFILE",					"Profiel bekijken");
 define("THEME_EDITPROFILE",				"Profiel bewerken");
 define("THEME_NOTIFICATION",			"Notificaties bekijken");
@@ -54,7 +54,7 @@ define("_MD_VERSION_XOOPS","XOOPS Versie");
 define("_MD_VERSION_PHP","PHP Versie");
 define("_MD_VERSION_MYSQL","mySQL Versie");
 define("_MD_Server_API","Server API");
-define("_MD_OS","OS", "Besturingssysteem");
+define("_MD_OS", "Besturingssysteem");
 define("_MD_ABOUT","Meer over XOOPS");
 define("_MD_ABOUT_TEXT",'Bekijk de <a href="http://www.xoops.org/modules/wfchannel/" rel="external">Alles over XOOPS</a> pagina voor meer details.');
 define("_MD_XOOPS_LINKS","XOOPS Links");
