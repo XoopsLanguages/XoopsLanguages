@@ -28,5 +28,5 @@ define('_PM_MI_PERPAGE', 'Getoonde berichten per pagina');
 define('_PM_MI_PERPAGE_DESC', 'Aantal berichten dat per pagina getoond wordt');
 
 //toegevoegd in 2.5.4
-define('__PM_MI_ABOUT', 'Over');
+define('_PM_MI_ABOUT', 'Over');
 ?>
