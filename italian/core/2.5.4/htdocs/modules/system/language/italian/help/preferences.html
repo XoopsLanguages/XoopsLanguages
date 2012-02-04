@@ -1,0 +1,62 @@
+<div id="help-template" class="outer">
+
+<h1 class="head">Guida: Preferenze di Sistema</h1>
+<h4 class="odd">Descrizione</h4>
+
+<p class="even">
+I pannelli delle prefeenze permettono di configurare le impostazioni del vostro sito. Vale la pena prendersi del tempo per esplorarle poich&eacute; alcune opzioni possono avere un impatto significativo sulla performance, la sicurezza e la velocit&agrave; di utilizzo del vostro sito.
+</p>
+<h4 class="odd">Impostazioni generali</h4>
+<p class="even">
+Queste sono le preferenze pi&ugrave; importanti e utilizzate. Qui &egrave; possibile impostare il Nome e lo slogan del vostro sito, selezionare il tema generale di default e quello per l'Amministrazione, se si ha bisogno di fare delle modifiche, chiudere il sito a tutti gli utenti e infine &egrave; possibile stabilire la durata dell'archiviazione in cache dei dati di ciascun modulo.
+</p>
+
+<h4 class="odd">Metatag e pi&egrave; di pagina</h4>
+<p class="even">
+I metatag forniscono informazioni sui vostri contenuti, riassumono cio&egrave; le caratteristiche del vostro sito. La loro funzione princiaple &egrave; quella di aiutare i motori di ricerca e i loro robots, a indicizzare il vostro sito correttamente, cosicch&egrave; possa essere raggiunto pi&ugrave; facilemnte. I termini che inserite saranno inclusi nel codice html iniziale (head) di ogni vostra pagina web e dovrebbero riassumere il contenuto e lo scopo del sito. I metatag sonon gli stessi in ogni pagina e non possono essere personalizzati per ogni modulo, a meno che non sia il modulo stesso a permettere di creare metatag specifici per i propri contenuti.
+<br /><br />
+&Egrave; bene ricordare che ogni motore di ricerca utilizza una propria tecnica per indicizzare i siti web. Alcuni termini possono quindi avere un peso specifico maggiore o pefino essere ignorati completamente. Un utilizzo attento delle meta informazioni pu&ograve; aiutare il vostro sito (anche se non &egrave; il solo fattore determinante) ad avere un migliore posizionamento nei motori ed &egrave; anche un buon strumento per avere informazioni (tramite le statistiche di accesso) su come venite indicizzati dai siti che puntano al vostro portale (referrers).
+<br /><br />
+
+Cercate di essere precisi e coerenti nel fornire metadati. Non provate a ‘<em>ingannare</em>’ i motori di ricerca per ottenere un miglior posizionamento perch&eacute; potrebbero accorgersi di questo comportamento e il sito potrebbe anche venire declassato o perfino rimosso dai loro indici.
+</p>
+
+<h4 class="odd">Censura delle parole</h4>
+<p class="even">
+XOOPS pu&ograve; bloccare automaticamente parole indesiderate che potrebbero essere inviate dagli utenti e pu&ograve; sostituirle con termini alternativi a vostra scelta. La funzione di censura impegna un po' di risorse e potrebbe rallentare in qualche modo il vostro sistema, per questa  ragione &egrave; disattivata quando si installa Xoops.
+<br /><br />
+
+Per attivare la censura delle parole sul vostro sito selezionate il pulsante radio '<em>Si</em>'. &Egrave; necessario inserire una lista delle parole indesiderate nel campo '<em>Parole da censurare</em>', separandole con il carattere | (pipe). La funzione non &egrave; sensibile a caratteri maiuscoli o minuscoli. Inserite poi un termine sostitutivo adeguato nel campo '<em>Caratteri sostitutivi delle parole censurate</em>', il valore predefintio &egrave; #OOPS#.
+</p>
+
+<h4 class="odd">Opzioni di ricerca nel sito</h4>
+<p class="even">
+La funzione di ricerca &egrave; una delle pi&ugrave; importanti funzioni per trovare informazioni in un portale. La Ricerca di XOOPS suddivide i risultati in base al modulo, per esempio come elemeenti delle news, dei downloads, dei link o di altri moduli che avete installato.
+<br /><br />
+
+La ricerca generale nel vostro sito &egrave; abilitata di default. Se disabilitate questa funzione il blocco per la ricerca non funzioner&agrave;.
+La lunghezza minima per un termine di ricerca &egrave; di cinque caratteri. Qualsiasi termine pi&ugrave; corto sar&agrave; ignorato. Questa funzione &egrave; utile per controllare la precisione delle ricerche, anche se svantaggiosa per ricerca come "mappa del sito". Termini di ricerca brevi rischiano di essere pi&ugrave; generici e possono quindi generare un alto numero di risultati, molti dei quali non rilevanti. Termini pi&ugrave; lunghi danno invece meno risultati ma con maggiore livello di accuratezza.
+<br /><br />
+
+Inoltre la ricerca &egrave; dispendiosa in termini computazionali e quindi l'esclusione di parole molto brevi riduce il carico sul server. In ogni caso tenete presente che in alcuni casi pu&ograve; essere utile poter utilizzare parole brevi.
+</p>
+
+<h4 class="odd">Parametri invio email</h4>
+<p class="even">
+Questa sezione del pannello &egrave; utilizzata per configurare il vostro indirizzo email nel sistema. Si raccomanda di lasciare il valore del campo 'Metodo di spedizione delle email' sul valore predefinito "PHP mail()". Non &egrave; necessario modificare il valore dei campi successivi a meno che non si utilizzi un altro metodo di spedizione email.
+</p>
+
+<h4 class="odd">Opzioni di autenticazione</h4>
+<p class="even">
+Lasciare il valore del Metodo di autenticazione su "Database Xoops" e si potranno cos&igrave; ignorare tutte le opzioni a seguire.
+<br /><br />
+
+LDAP o Active Directory di Microsoft sono sistemi alternativi alla normale autenticazione degli utenti Xoops e si rendono necessari poich&eacute; molte aziende hanno gi&agrave; un database di utenti basato su ADS o LDAP e tramite questi metodi &egrave; possibile accedere al sito Xoops senza bisogno di creare un altro account.
+</p>
+
+<h4 class="odd">Configurazione del modulo di Sistema</h4>
+<p class="even">
+In questo pannello &egrave; possibile attivare/disattivare ogni singola sezione del Sistema ed &egrave; possibile impostare altri valori predefiniti per le pagine di amministrazione del sito, per esempio il numero di commenti visualizzati in ogni pagina. &Egrave;  anche possibile definire l'editor predefinto per i blocchi, i commenti e per tutti i moduli.
+</p>
+
+</div> 
