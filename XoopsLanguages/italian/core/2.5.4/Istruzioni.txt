@@ -1,0 +1,39 @@
+*********************************************************************************
+************* INSTALLAZIONE TRADUZIONE CORE XOOPS *******************************
+---------------------------------------------------------------------------------
+-- Ultimo aggiornamento: 10/07/2010 ----------------------- by Xoops Italia -----
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+
+
+*APPLICAZIONE TRADUZIONE SU XOOPS GIA INSTALLATO*
+-------------------------------------------------
+
+- Estrarre dall'archivio la cartella principale sul desktop o dove si preferisce
+- Accedere (in locale o remoto) alla root (cartella principale) della propria installazione XOOPS
+- Accedere alla cartella appena estratta e aprire la cartella HTDOCS
+- Selezionare TUTTI i files e cartelle contenuti nella cartella HTDOCS e trascinarli all'interno della root della propria installazione di Xoops
+- Permettere che TUTTI i files vengano sovrascritti se vi viene richiesto
+- Eliminare la cartella "install" dalla root della propria installazione Xoops
+
+
+*APPLICAZIONE TRADUZIONE PRIMA DI INSTALLARE*
+-------------------------------------------------
+
+- Estrarre dall'archivio la cartella principale sul desktop o dove si preferisce
+- Accedere (in locale o remoto) alla root (cartella principale) dove avete messo i files di XOOPS
+- Accedere alla cartella appena estratta e aprire la cartella HTDOCS
+- Selezionare TUTTI i files e cartelle contenuti nella cartella HTDOCS e trascinarli all'interno della cartella in cui avete messo i files di Xoops
+- Permettere che TUTTI i files vengano sovrascritti se vi viene richiesto
+- Accedere via browser e seguire le istruzioni
+
+
+*NOTE*
+--------------------------------------------
+- Quando possibile si consiglia di applicare i files di traduzione PRIMA di installare Xoops
+
+
+----------------------------------------------------------------------------------
+----------------------------------------------------------------------------------
+Supporto: www.xoopsitalia.org - www.xoops.org [Eng] ------------------------------
+__________________________________________________________________________________
