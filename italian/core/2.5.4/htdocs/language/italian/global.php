@@ -1,5 +1,5 @@
 <?php
-// $Id: global.php 5683 2010-11-01 11:03:22Z kris_fr $
+// $Id: global.php 8889 2010-11-01 11:03:22Z kris_fr $
 // _LANGCODE: it
 // _CHARSET : UTF-8
 // Translator: Xoops Italia Team - www.xoopsitalia.org
@@ -57,6 +57,8 @@ define("_NOPERM","Non si possiedono i permessi per accedere a quest'area");
 //%%%%%		Common Phrases		%%%%%
 define("_NO","No");
 define("_YES","Si");
+define("_ONLINE", "Online");
+define("_OFFLINE", "Offline");
 define("_EDIT","Modifica");
 define("_DELETE","Elimina");
 define("_SUBMIT","Invia");
@@ -109,8 +111,8 @@ define("_MD_IMGCATSTRTYPE","Modalit&agrave; di salvataggio delle immagini:");
 define("_MD_STRTYOPENG","Non &egrave; possibile modificare questa scelta in seguito!");
 define("_MD_ASFILE","Come file nella cartella 'uploads'");
 define("_MD_INDB","Come dato binario (blob) nel database");
-define ("_MD_IMGMAIN","Categoria"); 
-define ("_MD_EDITIMGCAT", "Modifica categoria");
+define("_MD_IMGMAIN","Categoria"); 
+define("_MD_EDITIMGCAT", "Modifica categoria");
 define('_IMGMANAGER', 'Gestore immagini');
 define('_NUMIMAGES', '%s immagine(i)');
 define('_ADDIMAGE', 'Nuova Immagine');
@@ -209,7 +211,7 @@ define("_SHORTDATESTRING","j/n/Y");
 'latin_swedish' decommentare la linea successiva e commentare: define('_CHARSET', 'UTF-8'), per preservare la visualizzazione delle parole accentate nel sito.*/
 //define('_CHARSET', 'ISO-8859-1');
 define('_CHARSET', 'UTF-8');
-define('_LANGCODE', 'it');
+define('_LANGCODE', 'it_IT');
 // cambiare da 0 a 1 se questa lingua è multi-bytes (non modificare)
 define('XOOPS_USE_MULTIBYTES', '0');
 /**
@@ -217,4 +219,24 @@ define('XOOPS_USE_MULTIBYTES', '0');
 **/
 define('_RESET', 'Reset');
 define('_RE', 'Re:');
+// Module vars
+define("_ID","Id");
+define("_PID","Sub Id");
+define("_ABOUT","Informazioni");
+define("_WEIGHT","Peso");
+define("_CATEGORY","Categoria");
+define("_CATEGORIES","Categorie");
+define("_PERMISSION","Permesso");
+define("_PERMISSIONS","Permessi");
+define("_DASHBOARD","Cruscotto");
+define("_SUBMITTER","Inviato da");
+define("_CREATED","Creato il");
+define("_PUBLISHED","Pubblicato il");
+define("_PUBLISHER","Pubblicatore");
+define("_EXPIRED","Terminato");
+define("_STATUS","Stato");
+define("_KEYWORDS","Parole chiave");
+define("_WAITING","In attesa");
+define("_FORMACTION","Azione");
+define("_FORMUPLOAD","Carica File");
 ?>
