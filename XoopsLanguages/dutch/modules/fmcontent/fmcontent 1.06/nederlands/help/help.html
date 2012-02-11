@@ -1,0 +1,62 @@
+<div id="help-template" class="outer">
+    <h1 class="head">Help:
+        <a class="ui-corner-all tooltip" href="<{$xoops_url}>/modules/fmcontent/admin/index.php"
+           title="Terug naar de administratie van fmContent"> fmContent <img src="<{xoAdminIcons home.png}>"
+                                                                       alt="Terug naar de administratie van fmContent"/>
+        </a></h1>
+    <!-- -----Help Content ---------- -->
+
+    <h4 class="odd">Omschrijving</h4>
+
+    <p class="even">
+        fmContent is een XOOPS module waarmee scrollende teksten gemaakt worden (fmContents). Er kan een onbeperkt aantal aan fmContents aangemaakt worden
+        en hiervoor 4 verschillende blokken gebruiken. Teksten kunnen scrollen van rechts naar links en van boven naar beneden.</p>
+
+    <p class="even">
+        Maak gebruik een WYSIWYG-editor om de content nog aantrekkelijker te maken.</p>
+
+    <!-- -----Help Content ---------- -->
+
+ <h4 class="odd">Hoofdlijn</h4>
+  <ul>
+    <li>Deze module biedt content management voor XOOPS.</li>
+    <li>Daarnaast zorgt het voor beheer van pagina-inhoud en een dynamisch menu</li>
+  </ul>
+  <h4 class="odd">Home</h4>
+  <ul>
+    <li>Bekijk alle gecreëerde contentpagina's door gebruik te maken van de volgende pictogrammen.</li>
+    <li>
+      <img src="<{$xoops_url}>/modules/fmcontent/images/icons/up.png" alt="<{$smarty.const._CONTENT_INDEX_UP}>" title="<{$smarty.const._CONTENT_INDEX_UP}>" />&nbsp;
+      <img src="<{$xoops_url}>/modules/fmcontent/images/icons/down.png" alt="<{$smarty.const._CONTENT_INDEX_DOWN}>" title="<{$smarty.const._CONTENT_INDEX_DOWN}>" />&nbsp;:&nbsp;Herordenen pagina en sub-pagina.
+    </li>
+    <li>
+      <img src="<{$xoops_url}>/modules/fmcontent/images/icons/display.png" alt="<{$smarty.const._PREVIEW}>" title="<{$smarty.const._PREVIEW}>" />&nbsp;Bekijken, 
+      <img src="<{$xoops_url}>/modules/fmcontent/images/icons/edit.png" alt="<{$smarty.const._EDIT}>" title="<{$smarty.const._EDIT}>" />&nbsp;bewerken en  
+      <img src="<{$xoops_url}>/modules/fmcontent/images/icons/delete.png" alt="<{$smarty.const._DELETE}" title="<{$smarty.const._DELETE}" />&nbsp;verwijderen van een pagina.</li>
+  </ul>
+  <h4 class="odd">Content</h4>
+  <ul>
+    <li>Add some different content for Xoops like page, link, section header and separator.</li>
+    <li>All differnet content permit to create a dynamic menu link to the content page.</li>
+    <li>
+      "content": create your own page.<br />
+      You must specify a page title, a menu title and the text of your page.<br />
+      You can also define a page alias for choose an unique page name which is use for the url. (This is not mandatory, module can create the alias with the page name define)
+    </li>
+    <li>
+      "link": add an internal or external link in your dynamic menu.<br />
+      For exemple, you can create a simple link for redirect the the homepage of your site.
+    </li>
+    <li>"section header": create a non-clickable section for your menu.</li>
+    <li>"Scheiding": create a separator for your menu.</li>
+  </ul>
+  <h4 class="odd">Instellingen</h4>
+  <ul>
+    <li>"Form Option": Choose your WYSIWYG editor. This setting need to have the xoops editor class made by phppp (DJ)</li>
+    <li>"Use friendly url?": Use the standard mode for have url like 'index.php?page=My-Content', or use the friendly mode for have url like 'index.php/My-Content' and finally you can activate the url rewriting if your server permit this option for have url like 'content/My-Content.html' (You must copy the .htaccess in your modules directory or in the root path see the extras/readme.txt for more information)</li>
+    <li>"Choose the url rewriting base": this setting work only if url rewriting module is activate on your server. This option permit to choose if you want to display the '/module/' in your url.</li>
+    <li>"Groups access": Define the genral rule for group access.</li>
+    <li>"Use module Tell a friend?": If Tell a friend module is installed on your Xoops, you can see this option and use it for send email.</li>
+  </ul>
+
+</div>
