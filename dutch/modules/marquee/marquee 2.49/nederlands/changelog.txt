@@ -1,0 +1,74 @@
+v2.49 2011/03/31:
+=================================
+- added new Admin Menu Class (Mage, mamba)
+
+v2.48 2011/02/23:
+=================================
+- updated GUI to XOOPS Standard  (mamba)
+
+v2.47
+=================================
+- You can use different editors (not only kiovi) 
+
+v2.46
+=================================
+- Bugs corrections
+
+v2.42
+=================================
+- I have replaced the PHP glob() function with another one (because of some hosts)
+- I have corrected a bug in the administration's menu (bad link)
+
+v2.41
+=================================
+- Two new plugins, one for article 0.95 and another one for TplLeagueStats 1 - thank you very much Defkon1 !
+
+v2.4
+=================================
+- I have added a plugin for catads
+
+v2.0 & 2.2
+=================================
+- You can use kiovi to create, in the module's admin part, kiovi to create your marquees
+- If the module detects that a web spyder is reading its content then it will replace the marquees with pure text
+- You can add blocks on-fly as following (so it means that you can create as many marquees as you want, not only 4).
+	1 Enter 'Administration Menu'=>"block admin"=>"Add new block"
+	2 In the "Add a new block":
+	2.1 Block Type: choose anyone as you prefer
+	2.2 Weight: input any valid value as you prefer
+	2.3 Visible: select any one as you prefer
+	2.4 Visible in: set any one as you prefer
+	2.5 Title: input any valid text as you prefer
+	2.6 Content:
+
+		include_once(XOOPS_ROOT_PATH . '/modules/marquee/blocks/marquee_bloc.php');
+		b_marquee_custom(1);
+
+	2.7 Content Type: MUSTBE "PHP Script"
+	2.8 Cache lifetime: choose any one as you prefer
+	2.9 Preview, Submit: press any one as you prefer, BE SURE press at least one time "submit" before leaving block admin
+
+	Explanation : the number between parenthesis, in b_marquee_custom(1), is the marquee's ID you want to display.
+	You can see this ID in the module's admin part (that's the first column in the admin's index)
+- You have the choice to use a dhtml marquee or the html marquee's tag
+- You can show the last informations from the folowing modules :
+	- Xoops comments
+	- News (1.2 or greater)
+	- Newbb & CBB
+	- Mylinks
+	- Mydownloads
+	- XoopsFaq
+	- XoopsPoll
+	- Smartclient
+	- Smartfaq
+	- Smartmedia
+	- Smartpartner
+	- Smartsection
+	- Wfdownloads 3
+	- Wfsection 1
+	- Xfsection
+	- Xoopspartners
+
+
+- You can select the number of items to display if you have selected to display a content coming from a module
+- You can select the date's format
