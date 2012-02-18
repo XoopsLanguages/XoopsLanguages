@@ -1,0 +1,29 @@
+# python
+
+import os
+mydir= 'C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\www\warszawa.oaza.pl\modules\simplywiki\language\polish'
+
+def changeEncoding(filePath):
+    '''take a full path to a file as input, and change its encoding from gb18030 to utf-16'''
+    print filePath
+
+    tempName=filePath+'~-~'
+
+    input = open(filePath,'rb')
+    content=unicode(input.read(),'windows-1250')
+    input.close()
+
+    output = open(tempName,'wb')
+    output.write(content.encode('utf-8'))
+    output.close()
+
+    os.remove(filePath)
+    os.rename(tempName,filePath)
+
+
+def myfun(dummy, dirr, filess):
+    for child in filess:
+        if os.path.isfile(dirr+'\\'+child):
+            changeEncoding(dirr+'\\'+child)
+
+os.path.walk(mydir, myfun, 'dumb')
