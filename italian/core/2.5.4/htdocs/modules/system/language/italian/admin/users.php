@@ -158,4 +158,7 @@ define("_AM_SYSTEM_USERS_INACTIVEUSER", "Solo utenti non attivi");
 define("_AM_SYSTEM_USERS_PSEUDO_ERROR","Il nome utente %s &egrave; gi&agrave; utilizzato");
 define("_AM_SYSTEM_USERS_MAIL_ERROR","L'indirizzo email %s &egrave; gi&agrave; utilizzato");
 
+//2.5.4
+define("_AM_SYSTEM_USERS_ACCEPT_EMAIL","Accetta e-mail dagli Amministratori");
+
 ?>
