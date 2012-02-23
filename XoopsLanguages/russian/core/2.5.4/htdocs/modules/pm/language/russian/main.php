@@ -2,7 +2,7 @@
 // $Id: main.php 3355 2009-07-14 21:36:49Z trabis $
 // _LANGCODE: ru
 // _CHARSET : UTF-8
-// Translator: 21.11.2011 andrey3761
+// Translator: 2012-02-23 andrey3761
 
 //%%%%%%	File Name readpmsg.php 	%%%%%
 define("_PM_DELETED","Ваши сообщения были удалены");
@@ -85,5 +85,9 @@ define("_PM_EMAIL_MESSAGE", "Текст сообщения");
 
 define("_PM_ACTION_DONE", "Операция успешно выполнена");
 define("_PM_ACTION_ERROR", "Ошибка выполнения операции");
+
+//XOOPS 2.5.2
+define("_PM_READ", "Уже прочитаны");
+define("_PM_SUBJECT_ICONS", "Иконка сообщения: ");
 
 ?>
