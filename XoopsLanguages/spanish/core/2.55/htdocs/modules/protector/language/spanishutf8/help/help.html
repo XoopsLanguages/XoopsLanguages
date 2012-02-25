@@ -1,0 +1,66 @@
+<div id="help-template" class="outer">
+    <h1 class="head">Help:
+        <a class="ui-corner-all tooltip" href="<{$xoops_url}>/modules/protector/admin/index.php"
+           title="Back to the administration of Protector"> Protector <img src="<{xoAdminIcons home.png}>"
+                                                                         alt="Back to the Administration of Protector"/>
+        </a></h1>
+    <!-- -----Help Content ---------- -->
+
+    <h4 class="odd">Descripción</h4>
+
+    <p class="even">
+        Protector es un módulo para defender su CMS XOOPS de varios ataques maliciosos.
+    <h4 class="odd">Instalar/desinstalar</h4>
+
+    Primero, defina XOOPS_TRUST_PATH en mainfile.php si nunca lo ha hecho.<br/><br/>
+
+Copie html/modules/protector en el archivo dentro de su XOOPS_ROOT_PATH/modules/<br/>
+Copie xoops_trust_path/modules/protector en el archivo dentro de su XOOPS_TRUST_PATH/modules/<br/><br/>
+
+Ponga escribible los permisos de XOOPS_TRUST_PATH/modules/protector/configs </p>
+    
+    <h4 class="odd">= Como rescatar =</h4>
+    <br/>Si usted ha sido baneado de Protector, elimine los archivos bajo XOOPS_TRUST_PATH/modules/protector/configs/<br/><br/></p>
+
+    <h4 class="odd">Introducción para filter-plugins en este archivo.</h4>
+- postcommon_post_deny_by_rbl.php<br/>
+un plugin  anti-SPAM.<br/>
+Todos los Mensajes desde la IP registrada en RBL serán rechazadas.<br/>
+Este plugin puede disminuir el rendimiento de Mensajes, en especial de chat módulos.<br/><br/>
+
+- postcommon_post_deny_by_httpbl.php<br/>
+un plugin  anti-SPAM.<br/>
+Todos los mensajes desde IP registrada en http:BL will serán rechazadas.<br/>
+Antes de usar esto, optenga HTTPBL_KEY de http://www.projecthoneypot.org/ y póngalo dentro de el archivo filtro.<br/>
+define( 'PROTECTOR_HTTPBL_KEY' , '............' ) ;<br/><br/>
+
+- postcommon_post_need_multibyte.php<br/>
+un plugin  anti-SPAM.<br/>
+Mensajes sin caracteres multi-byte serán rechazados.<br/>
+Este plugin es solo para sitios en japanese, tchinese, schinese, y korean.<br/><br/>
+
+-postcommon_post_htmlpurify4guest.php<br/>
+Todos los enviós de datos enviados por invitados serán purificados por HTMLPurifier.<br/>
+Si usted permite a los invitados publicar HTML, Le recomiendo encarecidamente que active esta carácterística.<br/><br/>
+
+-postcommon_register_insert_js_check.php<br/>
+Este plugin previene su sitio de registro de usuarios robots.<br/>
+Se Require JavaScript trabajando en el navegador de los visitantes.<br/><br/>
+
+-bruteforce_overrun_message.php<br/>
+Especifica un mensaje para visitantes que prueban con contraseñas equivocadas mas de las veces especificadas.<br/>
+Todos los plugins nombrados *_message.php especifica el mensaje para acceso denegado.<br/><br/>
+
+-precommon_bwlimit_errorlog.php<br/>
+Cuando por desgracia hay limitaciones de ancho de banda, este plugin lo registra en en registro de Apache.<br/><br/>
+Todos los plugins nombrados *_errorlog.php registro de algunas informaciones en Apaches error_log.<br/>
+</p>
+    
+    <h4 class="odd">Tutorial</h4>
+
+    
+        El Tutorial vendrá pronto</a>
+
+        <!-- -----Help Content ---------- -->
+
+</div>
