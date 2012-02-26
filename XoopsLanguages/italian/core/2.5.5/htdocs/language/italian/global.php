@@ -219,6 +219,7 @@ define('XOOPS_USE_MULTIBYTES', '0');
 **/
 define('_RESET', 'Reset');
 define('_RE', 'Re:');
+// Added by TXMod Xoops
 // Module vars
 define("_ID","Id");
 define("_PID","Sub Id");
@@ -239,4 +240,10 @@ define("_KEYWORDS","Parole chiave");
 define("_WAITING","In attesa");
 define("_FORMACTION","Azione");
 define("_FORMUPLOAD","Carica File");
+/**
+ * Additions to 2.5.5
+**/
+define('_DBDATESTRING', 'Y-m-d');
+define('_DBTIMESTRING', 'H:i:s');
+define('_DBTIMESTAMPSTRING', 'Y-m-d H:i:s');
 ?>
