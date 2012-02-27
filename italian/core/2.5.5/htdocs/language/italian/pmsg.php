@@ -44,4 +44,6 @@ define("_PM_ONLINE", "Online");
 // Translator: TXMod Xoops - www.txmodxoops.org
 // Last translation update: 03/10/2011
 define('_PM_SURE_TO_DELETE',"Sei sicuro di voler cancellare questo(i) messaggio(i)?"); 
+//XOOPS 2.5.5
+define('_PM_READ', 'Gi&#224; letto');
 ?>
