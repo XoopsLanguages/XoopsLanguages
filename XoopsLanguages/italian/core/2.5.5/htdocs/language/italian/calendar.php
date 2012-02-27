@@ -6,6 +6,8 @@
 // Last translation update: 08/03/2011
 
 //%%%%%     Time Zone   %%%%
+define("_CAL_FORMAT","Y-m-d");
+
 define("_CAL_SUNDAY", "Domenica");
 define("_CAL_MONDAY", "Luned&igrave;");
 define("_CAL_TUESDAY", "Marted&igrave;");
