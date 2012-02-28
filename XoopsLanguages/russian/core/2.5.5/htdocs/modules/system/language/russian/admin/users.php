@@ -135,7 +135,7 @@ define("_AM_SYSTEM_USERS_PURGE","Очистить");
 define("_AM_SYSTEM_USERS_ADD","Добавить пользователя");
 define("_AM_SYSTEM_USERS_VIEW","Посмотреть информацию пользователя");
 define("_AM_SYSTEM_USERS_NO_FOUND","Пользователи не найдены");
-define("_AM_SYSTEM_USERS_NOT_CONNECT","Never connect");
+define("_AM_SYSTEM_USERS_NOT_CONNECT","Никогда не посещал");
 define("_AM_SYSTEM_USERS_FORM_SURE_DEL","Удалить пользователя: %s");
 define("_AM_SYSTEM_USERS_FORM_SURE_DEL2","Удалить");
 define("_AM_SYSTEM_USERS_NO_SUPP", "Пользователь не может быть удалён: %s <br />");
