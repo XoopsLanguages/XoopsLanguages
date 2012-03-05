@@ -1,70 +1,43 @@
 <?php
 
-// $Id: main.php,v 1.3 2007/08/23 20:07:40 kurak_bu Exp $
-//  ------------------------------------------------------------------------ //
-//                    xcGallery - XOOPS Gallery Modul                        //
-//                    Copyright (c) 2003 Derya Kiran                         //
-//                           meeresstille@gmx.de                             //
-//         http://www.myxoopsforge.org/modules/xfmod/project/?xcgal          //
-//  ------------------------------------------------------------------------ //
-//  Based on Coppermine Photo Gallery 1.10                                   //
-//  (http://coppermine.sourceforge.net/)                                     //
-//  developed by Grégory DEMAR                                               //
-//  ------------------------------------------------------------------------ //
-//  This program is free software; you can redistribute it and/or modify     //
-//  it under the terms of the GNU General Public License as published by     //
-//  the Free Software Foundation; either version 2 of the License, or        //
-//  (at your option) any later version.                                      //
-//                                                                           //
-//  You may not change or alter any portion of this comment or credits       //
-//  of supporting developers from this source code or any supporting         //
-//  source code which is considered copyrighted (c) material of the          //
-//  original comment or credit authors.                                      //
-//                                                                           //
-//  This program is distributed in the hope that it will be useful,          //
-//  but WITHOUT ANY WARRANTY; without even the implied warranty of           //
-//  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the            //
-//  GNU General Public License for more details.                             //
-//                                                                           //
-//  You should have received a copy of the GNU General Public License        //
-//  along with this program; if not, write to the Free Software              //
-//  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 USA //
-//  ------------------------------------------------------------------------ //
-
-
 define("_MD_EXTGALLERY_CATEGORIESALBUMS","Kategorie / Albumy");
 define("_MD_EXTGALLERY_ALBUMS","Albumy");
-define("_MD_EXTGALLERY_NBALBUMS","Albumów");
-define("_MD_EXTGALLERY_NBPHOTOS","Zdjêæ");
+define("_MD_EXTGALLERY_NBALBUMS","AlbumÃ³w");
+define("_MD_EXTGALLERY_NBPHOTOS","ZdjÄ™Ä‡");
 define("_MD_EXTGALLERY_DESC","Opis");
-define("_MD_EXTGALLERY_SEND_ECARD","Wy¶lij e-kartkê");
+define("_MD_EXTGALLERY_SEND_ECARD","WyÅ›lij e-kartkÄ™");
 define("_MD_EXTGALLERY_EXTRA_INFO","Dodatkowe informacje");
-define("_MD_EXTGALLERY_NOPERM","Nie masz uprawnieñ do wykonywania tej czynno¶ci");
-define("_MD_EXTGALLERY_PHOTO_TITLE","Tytu³");
+define("_MD_EXTGALLERY_NOPERM","Nie masz uprawnieÅ„ do wykonywania tej czynnoÅ›ci");
+define("_MD_EXTGALLERY_PHOTO_TITLE","TytuÅ‚");
 define("_MD_EXTGALLERY_PHOTO_WEIGHT","Waga");
+define("_MD_EXTGALLERY_RSS","KanaÅ‚ RSS galerii");
+define("_MD_EXTGALLERY_ALBUMRSS","KanaÅ‚ RSS albumu");
 
 // Album page
-define("_MD_EXTGALLERY_HITS","Wy¶wietleñ");
+define("_MD_EXTGALLERY_HITS","WyÅ›wietleÅ„");
 define("_MD_EXTGALLERY_COMMENTS","Komentarzy");
+define("_MD_EXTGALLERY_RATING_SCORE","Ocena");
+define("_MD_EXTGALLERY_INFODATE","Data:");
+
 
 // Photo page
-define("_MD_EXTGALLERY_PREVIEW","Wstecz");
-define("_MD_EXTGALLERY_NEXT","Dalej");
+define("_MD_EXTGALLERY_PREVIEW","Poprzednie");
+define("_MD_EXTGALLERY_NEXT","NastÄ™pne");
 define("_MD_EXTGALLERY_OF","z");
-define("_MD_EXTGALLERY_VOTE_FOR_THIS_PHOTO","G³osuj na to zdjêcie");
+define("_MD_EXTGALLERY_VOTE_FOR_THIS_PHOTO","GÅ‚osuj na to zdjÄ™cie");
 define("_MD_EXTGALLERY_PHOTO_INFORMATION","Informacje");
-define("_MD_EXTGALLERY_RESOLUTION","Rozdzielczo¶æ");
-define("_MD_EXTGALLERY_PIXELS","pixeli");
+define("_MD_EXTGALLERY_RESOLUTION","RozdzielczoÅ›Ä‡");
+define("_MD_EXTGALLERY_PIXELS","pikseli");
 define("_MD_EXTGALLERY_VIEW","Liczba");
 define("_MD_EXTGALLERY_FILE_SIZE","Rozmiar");
 define("_MD_EXTGALLERY_ADDED","Dodano");
 define("_MD_EXTGALLERY_SCORE","Wynik");
-define("_MD_EXTGALLERY_VOTES","g³osów");
-define("_MD_EXTGALLERY_DOWNLOAD_ORIG","Pobierz orygina³");
-define("_MD_EXTGALLERY_DOWNLOADS","pobrañ");
-define("_MD_EXTGALLERY_SENDS","wys³añ");
-define("_MD_EXTGALLERY_ALL_PHOTO_BY","wszystkie zdjêcia ");
-define("_MD_EXTGALLERY_SUBMITTER","Doda³");
+define("_MD_EXTGALLERY_VOTES","gÅ‚osÃ³w");
+define("_MD_EXTGALLERY_DOWNLOAD_ORIG","Pobierz oryginaÅ‚");
+define("_MD_EXTGALLERY_DOWNLOADS","pobraÅ„");
+define("_MD_EXTGALLERY_SENDS","wysÅ‚aÅ„");
+define("_MD_EXTGALLERY_ALL_PHOTO_BY","wszystkie zdjÄ™cia ");
+define("_MD_EXTGALLERY_SUBMITTER","DodaÅ‚");
 
 // Send eCard page
 define("_MD_EXTGALLERY_TO","Do");
@@ -73,49 +46,100 @@ define("_MD_EXTGALLERY_FROM_NAME","Nazwa");
 define("_MD_EXTGALLERY_FROM_EMAIL","E-mail");
 define("_MD_EXTGALLERY_TO_NAME","Nazwa");
 define("_MD_EXTGALLERY_TO_EMAIL","E-mail");
-define("_MD_EXTGALLERY_GREETINGS","Tre¶æ");
+define("_MD_EXTGALLERY_GREETINGS","TreÅ›Ä‡");
 define("_MD_EXTGALLERY_SECURITY","Przepisz kod z obrazka");
 
 // View eCard page and mail
-define("_MD_EXTGALLERY_CLICK_FOR_MORE","Kliknij tutaj aby zobaczyæ wiêcej zdjêæ!");
+define("_MD_EXTGALLERY_CLICK_FOR_MORE","Kliknij tutaj aby zobaczyÄ‡ wiÄ™cej zdjÄ™Ä‡!");
 define("_MD_EXTGALLERY_ECARD_TITLE","E-karkta od %s dla Ciebie");
 
 // Public upload page
-define("_MD_EXTGALLERY_PUBLIC_UPLOAD","Wy¶lij zdjêcie do galerii");
-define("_MD_EXTGALLERY_PHOTO","Zdjêcie");
-define('_MD_EXTGALLERY_NOT_AN_ALBUM',"Musisz wybraæ poprawny album");
-define('_MD_EXTGALLERY_UPLOAD_ERROR',"B³±d podczas wysy³ania");
+define("_MD_EXTGALLERY_PUBLIC_UPLOAD","WyÅ›lij zdjÄ™cie do galerii");
+define("_MD_EXTGALLERY_PHOTO","ZdjÄ™cie");
+define('_MD_EXTGALLERY_NOT_AN_ALBUM',"Musisz wybraÄ‡ poprawny album");
+define('_MD_EXTGALLERY_UPLOAD_ERROR',"BÅ‚Ä…d podczas wysyÅ‚ania");
 
-// Public modify page
-define("_MD_EXTGALLERY_MODIFY_PHOTO","Modifikuj zdjêcie");
+// Applet upload page
+// Lang for the photo upload applet. Available language value :
+// br, cz, de, dk, en, eo, es, fr, hr, hu, il, it, ja, nl, no, pl, pt, pt_BR, ru, se, si, sk, tr, us, zh, zh_TW
+define('_MD_EXTGALLERY_APPLET_LANG',"pl");
+
+// Public modification page
+define("_MD_EXTGALLERY_MODIFY_PHOTO","Modifikuj zdjÄ™cie");
 define("_MD_EXTGALLERY_CATEGORY","Kategoria");
-define("_MD_EXTGALLERY_PHOTO_UPDATED","Zdjêie zmodyfikowane");
+define("_MD_EXTGALLERY_PHOTO_UPDATED","ZdjÄ™ie zmodyfikowane");
 
 // Public rating page
-define("_MD_EXTGALLERY_VOTE_THANKS","Dziêkujemy za oddany g³os");
-define("_MD_EXTGALLERY_ALREADY_VOTED","Ju¿ g³osowa³e¶ na to zdjêcie");
+define("_MD_EXTGALLERY_VOTE_THANKS","DziÄ™kujemy za oddany gÅ‚os");
+define("_MD_EXTGALLERY_ALREADY_VOTED","JuÅ¼ gÅ‚osowaÅ‚eÅ› na to zdjÄ™cie");
 
 // Public send eCard page
-define("_MD_EXTGALLERY_ECARD_SENT","Wys³ano");
-define("_MD_EXTGALLERY_CAPTCHA_ERROR","¬le przepisany kod. Spróbuj ponownie.");
+define("_MD_EXTGALLERY_ECARD_SENT","WysÅ‚ano");
+define("_MD_EXTGALLERY_CAPTCHA_ERROR","Å¹le przepisany kod. SprÃ³buj ponownie.");
 
 // Public Upload photo page
-define("_MD_EXTGALLERY_PHOTO_UPLOADED","Wy³ano pomy¶lnie. Dziêkujemy.");
-define("_MD_EXTGALLERY_PHOTO_PENDING","Dziêkujemy za dodanie, Twoje zdjêcie musi byæ zatwierdzone przez admina.");
+define("_MD_EXTGALLERY_PHOTO_UPLOADED","WyÅ‚ano pomyÅ›lnie. DziÄ™kujemy.");
+define("_MD_EXTGALLERY_PHOTO_PENDING","DziÄ™kujemy za dodanie, Twoje zdjÄ™cie musi byÄ‡ zatwierdzone przez admina.");
 
 // Public user's album
-define("_MD_EXTGALLERY_USERS_SUB_PHOTO_ALBUM"," - w³asny album");
-/*define("_MD_EXTGALLERY_","");
-define("_MD_EXTGALLERY_","");
-define("_MD_EXTGALLERY_","");
-define("_MD_EXTGALLERY_","");
-define("_MD_EXTGALLERY_","");
-define("_MD_EXTGALLERY_","");
-define("_MD_EXTGALLERY_","");
-define("_MD_EXTGALLERY_","");
-define("_MD_EXTGALLERY_","");
-define("_MD_EXTGALLERY_","");
-define("_MD_EXTGALLERY_","");
-define("_MD_EXTGALLERY_","");*/
+define("_MD_EXTGALLERY_USERS_SUB_PHOTO_ALBUM"," - wÅ‚asny album");
+// Public Slideshow
+define("_MD_EXTGALLERY_MOREINFO","WiÄ™cej");
+define("_MD_EXTGALLERY_GFIC_DOWNLOAD","Pobierz oryginalne zdjÄ™cie"); 
+define("_MD_EXTGALLERY_GFIC_PLAY","WÅ‚Ä…cz"); 
+define("_MD_EXTGALLERY_GFIC_PAUSE","Pauza"); 
+define("_MD_EXTGALLERY_GFIC_NEXT","Dalej"); 
+define("_MD_EXTGALLERY_GFIC_PREVIOUS","Wstecz"); 
+define("_MD_EXTGALLERY_GFIC_NEXTP","Dalej &rsaquo;"); 
+define("_MD_EXTGALLERY_GFIC_PREVIOUSP","&lsaquo; Wstecz"); 
+
+// Public bookmarks
+define("_MD_EXTGALLERY_BOOKMARK_ME", "Dodaj zakÅ‚adkÄ™");
+define("_MD_EXTGALLERY_BOOKMARK_TO_BLINKLIST", "ZakÅ‚adka do Blinklist");
+define("_MD_EXTGALLERY_BOOKMARK_TO_DELICIOUS", "ZakÅ‚adka do del.icio.us");
+define("_MD_EXTGALLERY_BOOKMARK_TO_DIGG", "Bookmark to Digg");
+define("_MD_EXTGALLERY_BOOKMARK_TO_FARK", "Bookmark to Fark");
+define("_MD_EXTGALLERY_BOOKMARK_TO_FURL", "Bookmark to Furl");
+define("_MD_EXTGALLERY_BOOKMARK_TO_NEWSVINE", "Bookmark to Newsvine");
+define("_MD_EXTGALLERY_BOOKMARK_TO_REDDIT", "Bookmark to Reddit");
+define("_MD_EXTGALLERY_BOOKMARK_TO_SIMPY", "Bookmark to Simpy");
+define("_MD_EXTGALLERY_BOOKMARK_TO_SPURL", "Bookmark to Spurl");
+define("_MD_EXTGALLERY_BOOKMARK_TO_YAHOO", "Bookmark to Yahoo");
+define("_MD_EXTGALLERY_BOOKMARK_TO_FACEBOOK", "Bookmark to Faceboom");
+define("_MD_EXTGALLERY_BOOKMARK_TO_TWITTER", "Bookmark to Twitter");
+define("_MD_EXTGALLERY_BOOKMARK_TO_SCRIPSTYLE", "Bookmark to Scripstyle");
+define("_MD_EXTGALLERY_BOOKMARK_TO_STUMBLE", "Bookmark to Stumble");
+define("_MD_EXTGALLERY_BOOKMARK_TO_TECHNORATI", "Bookmark to Technorati");
+define("_MD_EXTGALLERY_BOOKMARK_TO_MIXX", "Bookmark to Mixx");
+define("_MD_EXTGALLERY_BOOKMARK_TO_MYSPACE", "Bookmark to Myspace");
+define("_MD_EXTGALLERY_BOOKMARK_TO_DESIGNFLOAT", "Bookmark to Designfloat");
+define("_MD_EXTGALLERY_BOOKMARK_TO_BALATARIN", "Bookmark to Balatarin");
+define("_MD_EXTGALLERY_BOOKMARK_TO_GOOLGEBUZZ", "Bookmark to Google Buzz");
+define("_MD_EXTGALLERY_BOOKMARK_TO_GOOLGEREADER", "Bookmark to Google Reader");
+define("_MD_EXTGALLERY_BOOKMARK_TO_GOOLGEBOOKMARKS", "Bookmark to Google Bookmarks");
+
+// Public order and sort
+define("_MD_EXTGALLERY_ORDERBY","UporzÄ…dkowane wedÅ‚ug : ");
+define("_MD_EXTGALLERY_ORDERBY_DATEASC","Data, nowe zdjÄ™cia w pierwszej kolejnoÅ›ci");
+define("_MD_EXTGALLERY_ORDERBY_DATEDESC","Data, najstarsze zdjÄ™cia najpierw");
+define("_MD_EXTGALLERY_ORDERBY_TITREASC","Nazwa, A - Z");
+define("_MD_EXTGALLERY_ORDERBY_TITREDESC","Nazwa, Z - A");
+define("_MD_EXTGALLERY_ORDERBY_HITSASC","KlikniÄ™cia, najbardziej popularne najpierw");
+define("_MD_EXTGALLERY_ORDERBY_HITSDESC","KlikniÄ™cia, najmniej popularne najpierw");
+define("_MD_EXTGALLERY_ORDERBY_NOTEASC","Ocena, nawyÅ¼ej oceniane najpierw");
+define("_MD_EXTGALLERY_ORDERBY_NOTEDESC","Ocena, najnirzej oceniane najpierw");
+define("_MD_EXTGALLERY_SORTDATE","Data");
+define("_MD_EXTGALLERY_SORTDATEASC","Stare zdjÄ™cia najpierw");
+define("_MD_EXTGALLERY_SORTDATEDESC","Nowe zdjÄ™cia najpierw");
+define("_MD_EXTGALLERY_SORTNAME","Nazwa");
+define("_MD_EXTGALLERY_SORTNAMEASC","Nazwa, A - Z");
+define("_MD_EXTGALLERY_SORTNAMEDESC","Nazwa, Z - A");
+define("_MD_EXTGALLERY_SORTHITS","KlikniÄ™cia");
+define("_MD_EXTGALLERY_SORTHITSASC","Najmniej popularne najpierw");
+define("_MD_EXTGALLERY_SORTHITSDESC","Najbardziej popularne najpierw");
+define("_MD_EXTGALLERY_SORTNOTE","Oceny");
+define("_MD_EXTGALLERY_SORTNOTEASC","Najgorzej oceniane najpierw");
+define("_MD_EXTGALLERY_SORTNOTEDESC","Najlepiej oceniane najpierw");
+
 
 ?>

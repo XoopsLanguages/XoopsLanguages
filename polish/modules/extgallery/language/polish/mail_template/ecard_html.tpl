@@ -1,6 +1,6 @@
 <p style="text-align:center;">
 	<a href="{ECARD_LINK}">
-		Click here if you have problem to see your eCard
+		Kliknij tutaj jeśli masz problem z obejrzeniem e-Kartki
 	</a>
 </p>
 <table style="border:1px solid black; padding:7px; margin:0px auto 0px auto;">
@@ -20,5 +20,5 @@
 	</tr>
 </table>
 <p style="text-align:center;">
-	<a href="{MODULE_LINK}">Click here to see more photo !</a>
+	<a href="{MODULE_LINK}">Kliknij tu aby zobaczyć więcej zdjęć!</a>
 </p>

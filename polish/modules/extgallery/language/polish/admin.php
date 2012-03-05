@@ -1,151 +1,330 @@
 <?php
 
-define('_AM_EXTGALLERY_CATEGORY',"Wybierz kategoriê");
+define('_AM_EXTGALLERY_CATEGORY',"Wybierz kategoriÄ™");
 define('_AM_EXTGALLERY_INFORMATION',"Informacje");
-define('_AM_EXTGALLERY_PARENT_CAT',"Parent category");
+define('_AM_EXTGALLERY_PARENT_CAT',"Kategoria nadrzÄ™dna");
 define('_AM_EXTGALLERY_DESC',"Opis");
 define('_AM_EXTGALLERY_PHOTO',"Zdjcie");
 define('_AM_EXTGALLERY_WEIGHT',"Waga");
-define('_AM_EXTGALLERY_TITLE',"Tytu³");
+define('_AM_EXTGALLERY_TITLE',"TytuÅ‚");
 
 // Main administration menu
-define('_AM_EXTGALLERY_GO_TO_MODULE',"Id¼ do modu³u");
+define('_AM_EXTGALLERY_GO_TO_MODULE',"IdÅº do moduÅ‚u");
 define('_AM_EXTGALLERY_PREFERENCES',"Preferencje");
 define('_AM_EXTGALLERY_ADMINISTRATION',"- Administracja");
 
 // Index page
 define('_AM_EXTGALLERY_UPDATE',"Uaktualnij");
-define('_AM_EXTGALLERY_CHECK_UPDATE_ERROR',"B³±d podczas pobierana informacji o ostatniej wersji eXtGalley.");
-define('_AM_EXTGALLERY_UPDATE_KO',"Twoja wersja eXtGallery jest przestarza³a. Zalecamy instalacjê najnowszej wersji eXtGallery z <a href=\"http://www.zoullou.net/\">Zoullou.net</a>.");
+define('_AM_EXTGALLERY_UPDATE_INFO',"Uaktualnienie - informacje");
+define('_AM_EXTGALLERY_UPDATE_UPGRADE',"Kliknij tutaj aby uaktualniÄ‡ moduÅ‚ do nowszej wersji");
+define('_AM_EXTGALLERY_CHECK_UPDATE_ERROR',"BÅ‚Ä…d podczas pobierana informacji o ostatniej wersji eXtGalley.");
+define('_AM_EXTGALLERY_UPDATE_KO',"Twoja wersja eXtGallery jest przestarzaÅ‚a. Zalecamy instalacjÄ™ najnowszej wersji eXtGallery z <a href=\"http://www.zoullou.net/\">Zoullou.net</a>.");
 define('_AM_EXTGALLERY_UPDATE_OK',"Twoja wersja eXtGallery jest aktualna.");
 define('_AM_EXTGALLERY_SERVER_CONF',"Konfiguracja serwera");
 define('_AM_EXTGALLERY_XOOPS_VERSION',"Wersja XOOPS");
 define('_AM_EXTGALLERY_GRAPH_GD_LIB_VERSION',"Wersja biblioteki <b>GD</b>");
 define('_AM_EXTGALLERY_GRAPH_IM_LIB_VERSION',"Wersja biblioteki <b>ImageMagick</b>");
-define('_AM_EXTGALLERY_GIF_SUPPORT',"Dostêpno¶æ GIF");
-define('_AM_EXTGALLERY_JPEG_SUPPORT',"Dostêpno¶æ JPEG");
-define('_AM_EXTGALLERY_PNG_SUPPORT',"Dostêpno¶æ PNG");
-define('_AM_EXTGALLERY_PUBLIC_ORIG_PATH',"Public original path");
-define('_AM_EXTGALLERY_PUBLIC_LARGE_PATH',"Public large path");
-define('_AM_EXTGALLERY_PUBLIC_MEDIUM_PATH',"Public medium path");
-define('_AM_EXTGALLERY_PUBLIC_THUMB_PATH',"Public thumb path");
+define('_AM_EXTGALLERY_GIF_SUPPORT',"DostÄ™pnoÅ›Ä‡ GIF");
+define('_AM_EXTGALLERY_JPEG_SUPPORT',"DostÄ™pnoÅ›Ä‡ JPEG");
+define('_AM_EXTGALLERY_PNG_SUPPORT',"DostÄ™pnoÅ›Ä‡ PNG");
+define('_AM_EXTGALLERY_PUBLIC_ORIG_PATH',"Katalog zdjÄ™Ä‡ oryginalnych");
+define('_AM_EXTGALLERY_PUBLIC_LARGE_PATH',"Katalog zdjÄ™Ä‡ duÅ¼ych");
+define('_AM_EXTGALLERY_PUBLIC_MEDIUM_PATH',"Katalog zdjÄ™Ä‡ Å›rednich");
+define('_AM_EXTGALLERY_PUBLIC_THUMB_PATH',"Katalog miniaturek");
 define('_AM_EXTGALLERY_NOT_CREATED',"Nie utworzono");
-define('_AM_EXTGALLERY_NOT_WRITABLE',"Brak mo¿liwo¶ci zapisu ");
+define('_AM_EXTGALLERY_NOT_WRITABLE',"Brak moÅ¼liwoÅ›ci zapisu ");
+define('_AM_EXTGALLERY_CHANGELOG',"Lista zmian (changelog)");
+define('_AM_EXTGALLERY_XOOPS_VERSION_NOT_SUPPORTED',"Twoja wersja XOOPS nie wspÃ³Å‚pracuje z nowÄ… wersjÄ… eXtGallery. Uaktualnij proszÄ™ XOOPS do wersj <b>%s</b> lub wyÅ¼szej.");
+define('_AM_EXTGALLERY_EXTGALLERY_VERSION',"Wersja eXtGallery");
+
 
 // Public category page
-define('_AM_EXTGALLERY_MODDELETE_PUBLICCAT',"Modyfikuj lub usuñ kategoriê");
-define('_AM_EXTGALLERY_MODDELETE_PUBLICCAT_INFO',"Tutaj znajduje siê lista wszystkich kategorii/albumów umieszczonych na stronie. Numer w nawiasie oznacza wagê kategorii.");
-define('_AM_EXTGALLERY_ADD_PUBLIC_CAT',"Dodaj kategoriê");
-define('_AM_EXTGALLERY_ADD_PUBLIC_CAT_INFO',"Mo¿esz dodaæ kategoriê tylko pod istniej±c± kategoriê bez zdjêæ. Tylko te kategorie, które spe³niaj± ten warunek, s± umieszczone poni¿ej..");
+define('_AM_EXTGALLERY_MODDELETE_PUBLICCAT',"Modyfikuj lub usuÅ„ kategoriÄ™");
+define('_AM_EXTGALLERY_MODDELETE_PUBLICCAT_INFO',"Tutaj znajduje siÄ™ lista wszystkich kategorii/albumÃ³w umieszczonych na stronie. Numer w nawiasie oznacza wagÄ™ kategorii.");
+define('_AM_EXTGALLERY_ADD_PUBLIC_CAT',"Dodaj kategoriÄ™");
+define('_AM_EXTGALLERY_ADD_PUBLIC_CAT_INFO',"MoÅ¼esz dodaÄ‡ kategoriÄ™ tylko pod istniejÄ…cÄ… kategoriÄ™ bez zdjÄ™Ä‡. Tylko te kategorie, ktÃ³re speÅ‚niajÄ… ten warunek, sÄ… umieszczone poniÅ¼ej..");
 define('_AM_EXTGALLERY_NAME',"Nazwa");
-define('_AM_EXTGALLERY_DELETE_CAT_CONFIRM',"Ca³a zawarto¶ tej kategorii b±d¼ tego albumu zostanie usuniêta.");
+define('_AM_EXTGALLERY_DELETE_CAT_CONFIRM',"CaÅ‚a zawartoÅ› tej kategorii bÄ…dÅº tego albumu zostanie usuniÄ™ta.");
 define('_AM_EXTGALLERY_MOD_PUBLIC_CAT',"Modify a public category");
-define('_AM_EXTGALLERY_THUMB',"Miniaturka");
 define('_AM_EXTGALLERY_CAT_IMG',"Obrazek kategorii");
-define('_AM_EXTGALLERY_CAT_CREATED',"Utworzono kategoriê");
+define('_AM_EXTGALLERY_THUMB',"Miniaturka");
+define('_AM_EXTGALLERY_CAT_CREATED',"Utworzono kategoriÄ™");
 define('_AM_EXTGALLERY_CAT_MODIFIED',"Kategoria zmodyfikowana");
-define('_AM_EXTGALLERY_CAT_DELETED',"Kategoria usuniêta");
-define('_AM_EXTGALLERY_NO_CATEGORY_SELECTED',"Nie wybrano ¿adnej kategorii");
+define('_AM_EXTGALLERY_CAT_DELETED',"Kategoria usuniÄ™ta");
+define('_AM_EXTGALLERY_NO_CATEGORY_SELECTED',"Nie wybrano Å¼adnej kategorii");
 
 // Photo page
-define('_AM_EXTGALLERY_ADD_BATCH',"Masowe dodawanie zdjêæ");
-define('_AM_EXTGALLERY_BATCH_PATH',"Folder dla zdjêæ");
-define('_AM_EXTGALLERY_ADD_BATCH_INFO',"W folderze znajduje siê <b>%d</b> zdjêæ. Poprzez naci¶niêcie guzika ZAPISZ poni¿ej, wszystkie zdjêcia z folderu masowego dodawania zostan± przpisane do wybranej kategorii.");
-define('_AM_EXTGALLERY_EDITDELETE_PHOTO',"Edytuj/Kasuj zdjêcie");
-define('_AM_EXTGALLERY_EDITDELETE_PHOTO_INFO',"Wybierz kategoriê, z której chcesz edytowaæ lub kasowaæ zdjêcie.");
-define('_AM_EXTGALLERY_PENDING_PHOTO',"Zdjêcia oczekuj±ce");
-define('_AM_EXTGALLERY_APPROVE_INFO',"<b>Zatwierd¼</b> to zdjêcie");
-define('_AM_EXTGALLERY_EDIT_INFO',"<b>Edytuj</b> to zdjêcie przed zatwierdzeniem");
-define('_AM_EXTGALLERY_DELETE_INFO',"<b>Kasuj</b> to zdjêcie");
+define('_AM_EXTGALLERY_ADD_BATCH',"Masowe dodawanie zdjÄ™Ä‡");
+define('_AM_EXTGALLERY_BATCH_PATH',"Folder dla zdjÄ™Ä‡");
+define('_AM_EXTGALLERY_ADD_BATCH_INFO',"W folderze znajduje siÄ™ <b>%d</b> zdjÄ™Ä‡. Poprzez naciÅ›niÄ™cie guzika ZAPISZ poniÅ¼ej, wszystkie zdjÄ™cia z folderu masowego dodawania zostanÄ… przpisane do wybranej kategorii.");
+define('_AM_EXTGALLERY_EDITDELETE_PHOTO',"Edytuj/Kasuj zdjÄ™cie");
+define('_AM_EXTGALLERY_EDITDELETE_PHOTO_INFO',"Wybierz kategoriÄ™, z ktÃ³rej chcesz edytowaÄ‡ lub kasowaÄ‡ zdjÄ™cie.");
+define('_AM_EXTGALLERY_PENDING_PHOTO',"ZdjÄ™cia oczekujÄ…ce");
+define('_AM_EXTGALLERY_APPROVE_INFO',"<b>ZatwierdÅº</b> to zdjÄ™cie");
+define('_AM_EXTGALLERY_EDIT_INFO',"<b>Edytuj</b> to zdjÄ™cie przed zatwierdzeniem");
+define('_AM_EXTGALLERY_DELETE_INFO',"<b>Kasuj</b> to zdjÄ™cie");
 define('_AM_EXTGALLERY_ACTION',"Akcja");
-define('_AM_EXTGALLERY_APPROVE',"Zatwierd¼");
-define('_AM_EXTGALLERY_EDITDELETE_PHOTOTABLE_INFO',"Tylko zdjêcie, które zosta³o zaznaczone zostanie edytowane lub skasowane.");
-define('_AM_EXTGALLERY_APPLY_CHANGE',"Zatwierd¼ zmiany");
-define('_AM_EXTGALLERY_X_PHOTO_ADDED',"Liczba dodanych zdjêæ: %d ");
-define('_AM_EXTGALLERY_X_PHOTO_APPROVED',"Liczba zatwierdzonych zdjêæ: %d ");
-define('_AM_EXTGALLERY_X_PHOTO_DELETED',"Liczba skasowanych zdjêæ: %d ");
-define('_AM_EXTGALLERY_X_PHOTO_MODIFIED',"Liczba zmodyfikowanych zdjêæ: %d ");
-define('_AM_EXTGALLERY_PHOTO_MODIFIED',"Zdjêcie zosta³o zmodyfikowane");
-define('_AM_EXTGALLERY_BATCH_CONTINUE_MESSAGE',"Dodano zdjêæ: %d , %d wiêcej. Kliknij aby kontynuowaæ.");
-define('_AM_EXTGALLERY_NOT_AN_ALBUM',"Musisz zaznaczyæ odpowiedni album");
+define('_AM_EXTGALLERY_APPROVE',"ZatwierdÅº");
+define('_AM_EXTGALLERY_EDITDELETE_PHOTOTABLE_INFO',"Tylko zdjÄ™cie, ktÃ³re zostaÅ‚o zaznaczone zostanie edytowane lub skasowane.");
+define('_AM_EXTGALLERY_APPLY_CHANGE',"ZatwierdÅº zmiany");
+define('_AM_EXTGALLERY_X_PHOTO_ADDED',"Liczba dodanych zdjÄ™Ä‡: %d ");
+define('_AM_EXTGALLERY_X_PHOTO_APPROVED',"Liczba zatwierdzonych zdjÄ™Ä‡: %d ");
+define('_AM_EXTGALLERY_X_PHOTO_DELETED',"Liczba skasowanych zdjÄ™Ä‡: %d ");
+define('_AM_EXTGALLERY_X_PHOTO_MODIFIED',"Liczba zmodyfikowanych zdjÄ™Ä‡: %d ");
+define('_AM_EXTGALLERY_PHOTO_MODIFIED',"ZdjÄ™cie zostaÅ‚o zmodyfikowane");
+define('_AM_EXTGALLERY_BATCH_CONTINUE_MESSAGE',"Dodano zdjÄ™Ä‡: %d , %d wiÄ™cej. Kliknij aby kontynuowaÄ‡.");
+define('_AM_EXTGALLERY_NOT_AN_ALBUM',"Musisz zaznaczyÄ‡ odpowiedni album");
 define('_AM_EXTGALLERY_ALBUM',"Album");
-define('_AM_EXTGALLERY_NO_PHOTO_IN_BATCH_DIR',"Nie ma zdjêæ w folderze masowego dodawania.");
-define('_AM_EXTGALLERY_NO_PHOTO_SELECTED',"To nie s± zaznaczone zdjêcia");
-define('_AM_EXTGALLERY_NO_PHOTO_IN_THIS_ALBUM',"Nie ma ¿adnych zdjêæ w tym albumie");
+define('_AM_EXTGALLERY_NO_PHOTO_IN_BATCH_DIR',"Nie ma zdjÄ™Ä‡ w folderze masowego dodawania.");
+define('_AM_EXTGALLERY_NO_PHOTO_SELECTED',"To nie sÄ… zaznaczone zdjÄ™cia");
+define('_AM_EXTGALLERY_NO_PHOTO_IN_THIS_ALBUM',"Nie ma Å¼adnych zdjÄ™Ä‡ w tym albumie");
+define('_AM_EXTGALLERY_THUMB_REBUILDED',"Miniaturki zostaÅ‚y przbudowane");
+define('_AM_EXTGALLERY_REBUILD_THUMB',"Przebuduj miniaturki");
+define('_AM_EXTGALLERY_REBUILD_THUMB_INFO',"Wybierz kategoriÄ™ w ktÃ³rej miniaturki majÄ… byÄ‡ przebudowane. Ta funkcja jest przydatna jeÅ›li chcesz zmieniÅ¼ wielkoÅ›Ä‡ miniaturek lub ich jakoÅ›Ä‡.");
 
 // Permissions
-define('_AM_EXTGALLERY_PUBLIC_PERM_MASK',"Publiczna maska uprawnieñ");
-define('_AM_EXTGALLERY_PUBLIC_PERM_MASK_INFO',"Tutaj mo¿esz ustawiæ domy¶ln± maskê uprawnieñ, która bêdzie dotyczy³a nowej kategorii. B±d¼ ostro¿ny, poniewa¿ takie same uprawnienia bêd± nadawane ka¿dym kolejnie tworzonym kategoriom.");
+define('_AM_EXTGALLERY_PUBLIC_PERM_MASK',"Publiczna maska uprawnieÅ„");
+define('_AM_EXTGALLERY_PUBLIC_PERM_MASK_INFO',"Tutaj moÅ¼esz ustawiÄ‡ domyÅ›lnÄ… maskÄ™ uprawnieÅ„, ktÃ³ra bÄ™dzie dotyczyÅ‚a nowej kategorii. BÄ…dÅº ostroÅ¼ny, poniewaÅ¼ takie same uprawnienia bÄ™dÄ… nadawane kaÅ¼dym kolejnie tworzonym kategoriom.");
 define('_AM_EXTGALLERY_GROUP_NAME',"Nazwa grupy");
-define('_AM_EXTGALLERY_CAN_ACCESS',"Ma dostêp");
-define('_AM_EXTGALLERY_CAN_RATE',"Mo¿e oceniaæ");
-define('_AM_EXTGALLERY_CAN_SEND_ECARD',"Mo¿e wysy³aæ e-kartki");
-define('_AM_EXTGALLERY_CAN_DOWNLOAD',"Mo¿e pobieraæ zdjêcia");
-define('_AM_EXTGALLERY_CAN_DOWNLOAD_ORIG',"Mo¿e pobieraæ oryginalne zdjêcia");
-define('_AM_EXTGALLERY_CAN_UPLOAD',"Mo¿e wysy³aæ zdjêcia na serwer");
-define('_AM_EXTGALLERY_AUTOAPPROVE',"Zdjêcie nie musi byæ zatwierdzane przez admina");
+define('_AM_EXTGALLERY_CAN_ACCESS',"Ma dostÄ™p");
+define('_AM_EXTGALLERY_CAN_RATE',"MoÅ¼e oceniaÄ‡");
+define('_AM_EXTGALLERY_CAN_SEND_ECARD',"MoÅ¼e wysyÅ‚aÄ‡ e-kartki");
+define('_AM_EXTGALLERY_CAN_DOWNLOAD',"MoÅ¼e pobieraÄ‡ zdjÄ™cia");
+define('_AM_EXTGALLERY_CAN_DOWNLOAD_ORIG',"MoÅ¼e pobieraÄ‡ oryginalne zdjÄ™cia");
+define('_AM_EXTGALLERY_CAN_UPLOAD',"MoÅ¼e wysyÅ‚aÄ‡ zdjÄ™cia na serwer");
+define('_AM_EXTGALLERY_AUTOAPPROVE',"ZdjÄ™cie nie musi byÄ‡ zatwierdzane przez admina");
+define('_AM_EXTGALLERY_DISPLAYED',"WidocznoÅ›Ä‡ albumu");
 
-define('_AM_EXTGALLERY_PERM_MASK_UPDATED',"Maska uprawnieñ uaktualniona");
+define('_AM_EXTGALLERY_PERM_MASK_UPDATED',"Maska uprawnieÅ„ uaktualniona");
 
-define('_AM_EXTGALLERY_ACCESS_PERM',"Uprawnienia dostêpu");
-define('_AM_EXTGALLERY_ACCESS_PERM_DESC',"Wybierz kategorie, które bêd± dostêpne");
-define('_AM_EXTGALLERY_ACCESS_PERM_INFO',"This permission allow you to retrict the acces to category. An user can't see a category who isn't allowed to access.");
+define('_AM_EXTGALLERY_SELECT_PERM',"Wybierz uprawnienia");
+define('_AM_EXTGALLERY_SELECT_PERM_DESC',"SprawdÅº proszÄ™ wszystkie czÄ™Å›ci i uaktualnij uprawnienia. JeÅ›li chcesz aby uÅ¼ytkownicy mieli dostÄ™p do oglÄ…dania albumÃ³w i zdjÄ™Ä‡ musisz wybraÄ‡ uprawnienia dla wszystkich grup");
+
+define('_AM_EXTGALLERY_ACCESS_PERM',"Uprawnienia dostÄ™pu");
+define('_AM_EXTGALLERY_ACCESS_PERM_DESC',"Wybierz kategorie, ktÃ³re bÄ™dÄ… dostÄ™pne");
+define('_AM_EXTGALLERY_ACCESS_PERM_INFO',"To uprawnienie pozwala ograniczyÄ‡ dostÄ™p do kategorii. Bez tego uprawnienia uÅ¼ytkownik nie bÄ™dzie widziaÅ‚ kategorii.");
 
 define('_AM_EXTGALLERY_RATE_PERM',"Ocenianie");
-define('_AM_EXTGALLERY_RATE_PERM_DESC',"Wybierz kategorie, w których u¿ytkownik mo¿e oceniaæ zdjêcia");
-define('_AM_EXTGALLERY_RATE_PERM_INFO',"This permission allow you to restrict the rating feature. An disallowed user can rate in a cat but can  see the score of picture.");
+define('_AM_EXTGALLERY_RATE_PERM_DESC',"Wybierz kategorie, w ktÃ³rych uÅ¼ytkownik moÅ¼e oceniaÄ‡ zdjÄ™cia");
+define('_AM_EXTGALLERY_RATE_PERM_INFO',"To uprawnienie pozwala ograniczyÄ‡ dostÄ™pnoÅ›Ä‡ funkcji oceniania. Bez tego uprawnienia nie moÅ¼na oceniaÄ‡ w kategorii ale nadal moÅ¼na oglÄ…daÄ‡ jak inni ocenili zdjÄ™cie.");
 
-define('_AM_EXTGALLERY_PUBLIC_ECARD',"Wysy³anie eCards (e-kartki)");
-define('_AM_EXTGALLERY_PUBLIC_ECARD_DESC',"Wybierz kategorie, z których u¿ytkownik mo¿e wysy³aæ e-kartki");
-define('_AM_EXTGALLERY_PUBLIC_ECARD_INFO',"This permission allow you to restrict the send eCard feature. All eCard's sender IP are logged.");
+define('_AM_EXTGALLERY_PUBLIC_ECARD',"WysyÅ‚anie eCards (e-kartki)");
+define('_AM_EXTGALLERY_PUBLIC_ECARD_DESC',"Wybierz kategorie, z ktÃ³rych uÅ¼ytkownik moÅ¼e wysyÅ‚aÄ‡ e-kartki");
+define('_AM_EXTGALLERY_PUBLIC_ECARD_INFO',"To uprawnienie pozwala ograniczyÄ‡ moÅ¼liwoÅ›Ä‡ wysyÅ‚ania e-kartek. (Dla bezpieczeÅ„stwa eXtGallery zapisuje (loguje) wszystkie adresy IP wysyÅ‚ajÄ…cych e-kartki).");
 
 define('_AM_EXTGALLERY_PUBLIC_DOWNLOAD',"Pobieranie");
-define('_AM_EXTGALLERY_PUBLIC_DOWNLOAD_DESC',"Wybierz kategorie, z których u¿ytkownik mo¿e pobieraæ zdjêcia");
-define('_AM_EXTGALLERY_PUBLIC_DOWNLOAD_INFO',"This permission allow you to restrict the download of large image. If an user is allowed to download, he can access to the large image if the \"Save large photo\" is enable in preferences.");
+define('_AM_EXTGALLERY_PUBLIC_DOWNLOAD_DESC',"Wybierz kategorie, z ktÃ³rych uÅ¼ytkownik moÅ¼e pobieraÄ‡ zdjÄ™cia");
+define('_AM_EXTGALLERY_PUBLIC_DOWNLOAD_INFO',"To uprawnienie pozwala ograniczyÄ‡ moÅ¼liwoÅ›Ä‡ pobierania duÅ¼ych wersji zdjÄ™Ä‡. JeÅ›li uÅ¼ytkownik jest uprawniony do pobierania duÅ¼ych zdjÄ™Ä‡, moÅ¼e to robiÄ‡ jeÅ›li opcja \"Zapisz duÅ¼e zdjÄ™cia\" jest wÅ‚Ä…czona w preferencjach moduÅ‚u.");
 
-define('_AM_EXTGALLERY_PUBLIC_DOWNLOAD_ORIG',"Pobieranie orygina³ów");
-define('_AM_EXTGALLERY_PUBLIC_DOWNLOAD_ORIG_DESC',"Wybierz kategorie, z których u¿ytkownik mo¿e pobieraæ oryginalne zdjêcia.<br />Opcja zachowania oryginalnych obrazków musi byæ w³±czona w opcjach.");
-define('_AM_EXTGALLERY_PUBLIC_DOWNLOAD_ORIG_INFO',"This permission allow you to restrict the download of original image. If an user is allowed to download original, he can access to the original image (without border and watermark, and not resized) if the \"Save original photo\" is enable in preferences.");
+define('_AM_EXTGALLERY_PUBLIC_DOWNLOAD_ORIG',"Pobieranie oryginaÅ‚Ã³w");
+define('_AM_EXTGALLERY_PUBLIC_DOWNLOAD_ORIG_DESC',"Wybierz kategorie, z ktÃ³rych uÅ¼ytkownik moÅ¼e pobieraÄ‡ oryginalne zdjÄ™cia.<br />Opcja zachowania oryginalnych obrazkÃ³w musi byÄ‡ wÅ‚Ä…czona w opcjach.");
+define('_AM_EXTGALLERY_PUBLIC_DOWNLOAD_ORIG_INFO',"To uprawnienie pozwala ograniczyÄ‡ moÅ¼liwoÅ›Ä‡ pobierania oryginalnych wersji zdjÄ™Ä‡. JeÅ›li uÅ¼ytkownik jest do tego uprawniony, bÄ™dzie mÃ³gÅ‚ pobieraÄ‡ oryginalne zdjÄ™cia (bez ramki, znaku wodnego, przed przeskalowaniem) jeÅ›li tylko opcja \"Zapisz oryginaÅ‚y zdjÄ™Ä‡\" jest wÅ‚Ä…czona w preferencjach moduÅ‚u.");
 
-define('_AM_EXTGALLERY_PUBLIC_UPLOAD',"Wysy³anie na serwer");
-define('_AM_EXTGALLERY_PUBLIC_UPLOAD_DESC',"Wybierz kategorie, do których u¿ytkownik mo¿e wysy³aæ zdjêcia");
-define('_AM_EXTGALLERY_PUBLIC_UPLOAD_INFO',"This permission allow you to restrict the upload/submit of new image on public albums.");
+define('_AM_EXTGALLERY_PUBLIC_UPLOAD',"WysyÅ‚anie na serwer");
+define('_AM_EXTGALLERY_PUBLIC_UPLOAD_DESC',"Wybierz kategorie, do ktÃ³rych uÅ¼ytkownik moÅ¼e wysyÅ‚aÄ‡ zdjÄ™cia");
+define('_AM_EXTGALLERY_PUBLIC_UPLOAD_INFO',"To uprawnienie ogranicza moÅ¼liwoÅ›Ä‡ wysyÅ‚ania nowych zdjÄ™Ä‡ do publicznych abumÃ³w.");
 
 define('_AM_EXTGALLERY_PUBLIC_AUTOAPROVE',"Kategorie bez zatwierdzania");
-define('_AM_EXTGALLERY_PUBLIC_AUTOAPROVE_DESC',"Wybierz kategorie, w których zdjêcia nie bêd± wymaga³y zatwierdzania");
-define('_AM_EXTGALLERY_PUBLIC_AUTOAPROVE_INFO',"This permission allow you to don't display submitted image until they are approve by an admin. Select category where user upload mustn't be approve. User's must are allowed to submit photo to enable this permission.");
+define('_AM_EXTGALLERY_PUBLIC_AUTOAPROVE_DESC',"Wybierz kategorie, w ktÃ³rych zdjÄ™cia nie bÄ™dÄ… wymagaÅ‚y zatwierdzania");
+define('_AM_EXTGALLERY_PUBLIC_AUTOAPROVE_INFO',"To uprawnienie pozwala wybraÄ‡ kategorie w ktÃ³rych nie bÄ™dzie wymagane zatwierdzenie zdjÄ™cia przez administratora. W pozostaÅ‚ych kategoriach zdjÄ™cie przesÅ‚ane do albumu bÄ™dzie oczekiwaÅ‚o na zatwierdzenie przez administratora zanim zostanie opublikowane.");
+
+define('_AM_EXTGALLERY_PUBLIC_DISPLAYED',"WyÅ›wietl uprawnienia albumÃ³w");
+define('_AM_EXTGALLERY_PUBLIC_DISPLAYED_DESC',"Wybierz kategorie do wyÅ›wietlenia");
+define('_AM_EXTGALLERY_PUBLIC_DISPLAYED_INFO',"Pozwala ukryÄ‡ nazwy kategorii, a jednoczeÅ›nie wyÅ›wietlaÄ‡ zdjÄ™cia z ukrytej kategorii. To moÅ¼e byÄ‡ wykorzystane np. gdy chcesz uÅ¼yÄ‡ zdjÄ™Ä‡ jako czÄ™Å›Ä‡ swojego serwisu www i nie chcesz by te zdjÄ™cia byÅ‚y widoczne jako album.");
 
 // Watermark and border page
-define('_AM_EXTGALLERY_AVAILABLE_FONT',"Dostêpne czcionki");
-define('_AM_EXTGALLERY_ADD_FONT',"Dodaj czionkê (TTF)");
-define('_AM_EXTGALLERY_FONT_FILE',"Plik z czcionk±");
-define('_AM_EXTGALLERY_FONT_MANAGMENT',"Zarz±dzanie czcionkami");
-define('_AM_EXTGALLERY_ADD_FONT_LINK',"Dostêpnych czcionek: %s . <a href=\"watermark-border.php?op=uploadfont\">Klknij tutaj</a> aby dodaæ");
-define('_AM_EXTGALLERY_WATERMARK_CONF',"Watermarks configuration");
+define('_AM_EXTGALLERY_AVAILABLE_FONT',"DostÄ™pne czcionki");
+define('_AM_EXTGALLERY_ADD_FONT',"Dodaj czionkÄ™ (TTF)");
+define('_AM_EXTGALLERY_FONT_FILE',"Plik z czcionkÄ…");
+define('_AM_EXTGALLERY_FONT_MANAGMENT',"ZarzÄ…dzanie czcionkami");
+define('_AM_EXTGALLERY_ADD_FONT_LINK',"DostÄ™pnych czcionek: %s . <a href=\"watermark-border.php?op=uploadfont\">Klknij tutaj</a> aby dodaÄ‡");
+define('_AM_EXTGALLERY_WATERMARK_FREETYPE_WARN',"<b>PHP musi byÄ‡ skompilowane z FreeType by dziaÅ‚aÅ‚y znaki wodne. Zobacz <a href=\"http://www.freetype.org/\">FreeType.org</a> aby uzyskaÄ‡ wiÄ™cej informacji.</b>");
+define('_AM_EXTGALLERY_WATERMARK_CONF',"Konfiguracja znakÃ³w wodnych");
 define('_AM_EXTGALLERY_FONT',"Czcionka");
-define('_AM_EXTGALLERY_WATERMARK_TEXT',"Tre¶æ znaku wodnego");
+define('_AM_EXTGALLERY_WATERMARK_TEXT',"TreÅ›Ä‡ znaku wodnego");
 define('_AM_EXTGALLERY_POSITION',"Pozycja");
-define('_AM_EXTGALLERY_TOP_LEFT',"Góra lewo");
-define('_AM_EXTGALLERY_TOP_RIGHT',"Góra prawo");
-define('_AM_EXTGALLERY_BOTTOM_LEFT',"Dó³ lewo");
-define('_AM_EXTGALLERY_BOTTOM_RIGHT',"Dó³ prawo");
-define('_AM_EXTGALLERY_TOP_CENTER',"Góra ¶rodek");
-define('_AM_EXTGALLERY_BOTTOM_CENTER',"Dó³ ¶rodek");
-define('_AM_EXTGALLERY_LEFT_CENTER',"Lewo ¶rodek");
-define('_AM_EXTGALLERY_RIGHT_CENTER',"Prawo ¶rodek");
-define('_AM_EXTGALLERY_CENTER_CENTER',"¦rodek");
+define('_AM_EXTGALLERY_TOP_LEFT',"GÃ³ra lewo");
+define('_AM_EXTGALLERY_TOP_RIGHT',"GÃ³ra prawo");
+define('_AM_EXTGALLERY_BOTTOM_LEFT',"DÃ³Å‚ lewo");
+define('_AM_EXTGALLERY_BOTTOM_RIGHT',"DÃ³Å‚ prawo");
+define('_AM_EXTGALLERY_TOP_CENTER',"GÃ³ra Å›rodek");
+define('_AM_EXTGALLERY_BOTTOM_CENTER',"DÃ³Å‚ Å›rodek");
+define('_AM_EXTGALLERY_LEFT_CENTER',"Lewo Å›rodek");
+define('_AM_EXTGALLERY_RIGHT_CENTER',"Prawo Å›rodek");
+define('_AM_EXTGALLERY_CENTER_CENTER',"Â¦rodek");
 define('_AM_EXTGALLERY_WATERMARK_COLOR',"Kolor tekstu");
 define('_AM_EXTGALLERY_WATERMARK_FONT_SIZE',"Rozmiar czcionki (px)");
 define('_AM_EXTGALLERY_WATERMARK_PADDING',"Padding (px)");
 define('_AM_EXTGALLERY_BORDER_CONF',"Ustawienia ramki");
-define('_AM_EXTGALLERY_INNER_BORDER_COLOR',"Kolor ramki wewnêtrznej");
-define('_AM_EXTGALLERY_INNER_BORDER_SIZE',"Rozmiar ramki wewnêtrznej (px)");
-define('_AM_EXTGALLERY_OUTER_BORDER_COLOR',"Kolor ramki zewnêtrznej");
-define('_AM_EXTGALLERY_OUTER_BORDER_SIZE',"Rozmiar ramki zewnêtrznej (px)");
-define('_AM_EXTGALLERY_WATERMARK_BORDER_EXEMPLE',"Przyk³ad znaku wodnego i ramki");
-define('_AM_EXTGALLERY_WATERMARK_BORDER_EXEMPLE_INFO',"Je¿eli nie widzisz obrazka - od¶wie¿ stronê.");
+define('_AM_EXTGALLERY_INNER_BORDER_COLOR',"Kolor ramki wewnÄ™trznej");
+define('_AM_EXTGALLERY_INNER_BORDER_SIZE',"Rozmiar ramki wewnÄ™trznej (px)");
+define('_AM_EXTGALLERY_OUTER_BORDER_COLOR',"Kolor ramki zewnÄ™trznej");
+define('_AM_EXTGALLERY_OUTER_BORDER_SIZE',"Rozmiar ramki zewnÄ™trznej (px)");
+define('_AM_EXTGALLERY_WATERMARK_BORDER_EXEMPLE',"PrzykÅ‚ad znaku wodnego i ramki");
+define('_AM_EXTGALLERY_WATERMARK_BORDER_EXEMPLE_INFO',"JeÅ¼eli nie widzisz obrazka - odÅ›wieÅ¼ stronÄ™.");
 define('_AM_EXTGALLERY_FONT_ADDED',"Czionka dodana");
 define('_AM_EXTGALLERY_CONFIGURATION_SAVED',"Ustawienia zapisane");
-define('_AM_EXTGALLERY_PRINT_SUBMITTER_UNAME',"Wy¶wietl nazwê dodaj±cego");
+define('_AM_EXTGALLERY_PRINT_SUBMITTER_UNAME',"WyÅ›wietl nazwÄ™ dodajÄ…cego");
 
+// Slideshow
+define('_AM_EXTGALLERY_SLIDESHOW_CONF',"Pokaz slajdÃ³w - konfiguracja");
+define('_AM_EXTGALLERY_GVIEW_CONF',"Widok galerii - konfiguracja");
+define('_AM_EXTGALLERY_GRIA_CONF',"Galeria - konfiguracja");
+define('_AM_EXTGALLERY_GFIC_CONF',"Konfiguracja Galleriffic");
+define('_AM_EXTGALLERY_SLIDESHOW_NOT_ENABLE',"SlideShow not enabled . you can set slidshow options at here but for use slideshow in user side you must enable slideshow from module Preferences");
+define('_AM_EXTGALLERY_SLIDESHOW_ENABLE',"SlideShow enabled . you can select which script you want use and set options");
+define('_AM_EXTGALLERY_USE_SLIDESHOW_EFFECTS',"Type of show SlideShow");
+define('_AM_EXTGALLERY_SLIDESHOW_GVIEW',"galleryview");
+define('_AM_EXTGALLERY_SLIDESHOW_GRIA',"galleria");
+define('_AM_EXTGALLERY_SLIDESHOW_MICRO',"microgallery");
+define('_AM_EXTGALLERY_SLIDESHOW_GFIC',"galleriffic");
+define('_AM_EXTGALLERY_GVIEW_PANELWIDE',"Panel width");
+define('_AM_EXTGALLERY_GVIEW_PANELHEIGHT',"Panle hight");
+define('_AM_EXTGALLERY_GVIEW_FARMEWIDTH',"Farme width");
+define('_AM_EXTGALLERY_GVIEW_FARMEHEIGHT',"Farme hight");
+define('_AM_EXTGALLERY_GVIEW_TSPEED',"Transition speed");
+define('_AM_EXTGALLERY_GVIEW_TTERVAL',"Transitionin terval");
+define('_AM_EXTGALLERY_GVIEW_OPACITY',"Overlay opacity");
+define('_AM_EXTGALLERY_GVIEW_OVERLYAHEIGHT',"Overlay height");
+define('_AM_EXTGALLERY_GVIEW_OVERLAYFS',"Overlay font size");
+define('_AM_EXTGALLERY_GVIEW_BORDERWIDTH',"Border width");
+define('_AM_EXTGALLERY_GVIEW_BORDERCOLOR',"Border color");
+define('_AM_EXTGALLERY_GVIEW_BGCOLOR',"Background color");
+define('_AM_EXTGALLERY_GVIEW_OVERLAYCOLOR',"Overlay color");
+define('_AM_EXTGALLERY_GVIEW_OVERLAYTC',"Overlay text color");
+define('_AM_EXTGALLERY_GVIEW_CAPTIONTC',"Caption text color");
+define('_AM_EXTGALLERY_GVIEW_NAVTHEME',"Nav theme");
+define('_AM_EXTGALLERY_GVIEW_LIGHT',"Light");
+define('_AM_EXTGALLERY_GVIEW_DARK',"Dark");
+define('_AM_EXTGALLERY_GVIEW_CUSTOM',"Custom");
+define('_AM_EXTGALLERY_GVIEW_POSITION',"Position");
+define('_AM_EXTGALLERY_GVIEW_BOTTOM',"Bottom");
+define('_AM_EXTGALLERY_GVIEW_TOP',"Top");
+define('_AM_EXTGALLERY_GVIEW_EASING',"Easing");
+define('_AM_EXTGALLERY_GVIEW_EASING_OP1',"swing");
+define('_AM_EXTGALLERY_GVIEW_EASING_OP2',"linear");
+define('_AM_EXTGALLERY_GVIEW_EASING_OP3',"easeInOutBack");
+define('_AM_EXTGALLERY_GVIEW_EASING_OP4',"easeInOutQuad");
+define('_AM_EXTGALLERY_GVIEW_EASING_OP5',"easeOutBounce");
+define('_AM_EXTGALLERY_GRIA_HEIGHT',"Height");
+define('_AM_EXTGALLERY_GRIA_PANELWIDTH',"Panel width");
+define('_AM_EXTGALLERY_GRIA_BGCOLOR',"Background color");
+define('_AM_EXTGALLERY_GRIA_BCOLOR',"Border color");
+define('_AM_EXTGALLERY_GRIA_BGIMG',"Background image");
+define('_AM_EXTGALLERY_GRIA_BGIMG_OP1',"white");
+define('_AM_EXTGALLERY_GRIA_BGIMG_OP2',"block");
+define('_AM_EXTGALLERY_GRIA_AUTOPLAY',"Activate Autoplay");
+define('_AM_EXTGALLERY_GRIA_TRANS',"Transition type");
+define('_AM_EXTGALLERY_GRIA_TRANS_TYP1',"fade");
+define('_AM_EXTGALLERY_GRIA_TRANS_TYP2',"flash");
+define('_AM_EXTGALLERY_GRIA_TRANS_TYP3',"pulse");
+define('_AM_EXTGALLERY_GRIA_TRANS_TYP4',"slide");
+define('_AM_EXTGALLERY_GRIA_TRANS_TYP5',"fadeslide");
+define('_AM_EXTGALLERY_GRIA_TSPEED',"Transition speed");
+define('_AM_EXTGALLERY_GFIC_HEIGHT',"Max picture height");
+define('_AM_EXTGALLERY_GFIC_WIDTH',"Max picture width");
+define('_AM_EXTGALLERY_GFIC_BGCOLOR',"Background color");
+define('_AM_EXTGALLERY_GFIC_BCOLOR',"Border color");
+define('_AM_EXTGALLERY_GFIC_FONTCOLOR',"Font color");
+define('_AM_EXTGALLERY_GFIC_AUTOPLAY',"Activate Autoplay");
+define('_AM_EXTGALLERY_GFIC_NB_THUMBS',"Number of thumbs in thumbsnavigation");
+define('_AM_EXTGALLERY_GFIC_NB_COLTHUMBS',"Number of columns in thumbsnavigation");
+define('_AM_EXTGALLERY_GFIC_NB_PRELOAD',"Number of preloaded pictures");
+define('_AM_EXTGALLERY_GFIC_TDELAY',"Transition delay");
+define('_AM_EXTGALLERY_GFIC_TSPEED',"Transition speed");
+define('_AM_EXTGALLERY_GFIC_SHOW_DESCR',"Show picture description");
+define('_AM_EXTGALLERY_GFIC_DOWNLOAD',"Allow download of original picture (if available)");
+
+// Album 
+define('_AM_EXTGALLERY_USE_AJAX_EFFECTS',"Ajax effects ");
+define('_AM_EXTGALLERY_USE_AJAX_EFFECTS_DESC',"Selecting effects will change photo display when thumbs are clicked. Ajax effects or Normal can be selected.<br /><br /> <b>Normal</b> :  No effects<br /><b>Lightbox</b> : Use Lightbox effect<br /><b>Overlay</b> : use Overlay effect<br /><b>Tooltip</b> : use Tooltip effect<br /><b>Fancybox</b> : use Fancybox effect<br /><b>PrettyPhoto</b> : use PrettyPhoto effect<br />");
+define('_AM_EXTGALLERY_ALBUM_CONF',"Album configuration");
+define('_AM_EXTGALLERY_OVERLAY_CONF',"Overlay configuration");
+define('_AM_EXTGALLERY_TOOLTIP_CONF',"Tooltip configuration");
+define('_AM_EXTGALLERY_FANCYBOX_CONF',"Fancybox configuration");
+define('_AM_EXTGALLERY_PRETTPHOTO_CONF',"PrettPhoto configuration");
+define('_AM_EXTGALLERY_ALBUM_NOT_ENABLE',"Album not enabled. you can set Album options at here but for use Album in user side you must enable Album from module Preferences");
+define('_AM_EXTGALLERY_ALBUM_ENABLE',"Album enabled. you can select which script you want use and set options");
+define('_AM_EXTGALLERY_AJAX_NONE',"Normal");
+define('_AM_EXTGALLERY_AJAX_LIGHTBOX',"Lightbox");
+define('_AM_EXTGALLERY_AJAX_OVERLAY',"Overlay");
+define('_AM_EXTGALLERY_AJAX_TOOLTIP',"Tooltip");
+define('_AM_EXTGALLERY_AJAX_FANCYBOX',"Fancybox");
+define('_AM_EXTGALLERY_AJAX_PRETTPHOTO',"PrettPhoto");
+define('_AM_EXTGALLERY_FANCYBOX_BGCOLOR',"Background color");
+define('_AM_EXTGALLERY_FANCYBOX_OPACITY',"Opacity");
+define('_AM_EXTGALLERY_FANCYBOX_TIN',"Transition in");
+define('_AM_EXTGALLERY_FANCYBOX_TOUT',"Transition out");
+define('_AM_EXTGALLERY_FANCYBOX_NONE',"None");
+define('_AM_EXTGALLERY_FANCYBOX_ELASTIC',"Elastic");
+define('_AM_EXTGALLERY_FANCYBOX_TITLEPOSITION',"Title position");
+define('_AM_EXTGALLERY_FANCYBOX_OVER',"Over");
+define('_AM_EXTGALLERY_FANCYBOX_INSIDE',"Inside");
+define('_AM_EXTGALLERY_FANCYBOX_OUTSIDE',"Outside");
+define('_AM_EXTGALLERY_FANCYBOX_SHOWTYPE',"Show type");
+define('_AM_EXTGALLERY_FANCYBOX_SINGLE',"Single");
+define('_AM_EXTGALLERY_FANCYBOX_GROUP',"Group");
+define('_AM_EXTGALLERY_OVERLAY_BG',"Overlay background");
+define('_AM_EXTGALLERY_OVERLAY_WIDHT',"Overlay widht");
+define('_AM_EXTGALLERY_OVERLAY_HEIGHT',"Overlay height");
+define('_AM_EXTGALLERY_TOOLTIP_WIDHT',"Tooltip Widht");
+define('_AM_EXTGALLERY_TOOLTIP_BORDER_WIDHT',"Tooltip border Widht");
+define('_AM_EXTGALLERY_TOOLTIP_BORDERCOLOR',"Tooltip border color");
+define('_AM_EXTGALLERY_PRETTPHOTO_SPEED',"Animation Speed");
+define('_AM_EXTGALLERY_PRETTPHOTO_FAST',"Fast");
+define('_AM_EXTGALLERY_PRETTPHOTO_SLOW',"Slow");
+define('_AM_EXTGALLERY_PRETTPHOTO_THEME',"Theme");
+define('_AM_EXTGALLERY_PRETTPHOTO_THEME1',"dark_rounded");
+define('_AM_EXTGALLERY_PRETTPHOTO_THEME2',"dark_square");
+define('_AM_EXTGALLERY_PRETTPHOTO_THEME3',"facebook");
+define('_AM_EXTGALLERY_PRETTPHOTO_THEME4',"light_rounded");
+define('_AM_EXTGALLERY_PRETTPHOTO_THEME5',"light_square");
+define('_AM_EXTGALLERY_PRETTPHOTO_AUTOPLAY',"Slideshow autoplay");
+define('_AM_EXTGALLERY_PRETTPHOTO_AUTOPLAY_T',"true");
+define('_AM_EXTGALLERY_PRETTPHOTO_AUTOPLAY_F',"false");
+define('_AM_EXTGALLERY_PRETTPHOTO_SLIDESPEED',"Slideshow speed");
+
+// Update
+define('_AM_EXTGALLERY_MD_FILE_DONT_EXIST',"Module files don't exist on repository :<br /><b>Server : </b>%s<br /><b>File : </b>%s");
+define('_AM_EXTGALLERY_LG_FILE_DONT_EXIST',"Language files don't exist on repository :<br /><b>Server : </b>%s<br /><b>File : </b>%s");
+define('_AM_EXTGALLERY_DOWN_DONE',"Downloading done. Click here to install files");
+define('_AM_EXTGALLERY_INSTALL',"Install files");
+define('_AM_EXTGALLERY_MD_FILE_DONT_EXIST_SHORT',"Module files don't exist");
+define('_AM_EXTGALLERY_INSTALL_DONE',"Installing done. Click here to update your module");
+
+// Extention
+define('_AM_EXTGALLERY_EXTENTION_INFO',"Extention information");
+define('_AM_EXTGALLERY_EXTENTION_NOT_INSTALLED',"Extention not installed");
+define('_AM_EXTGALLERY_INSTALL_EXTENTION',"Install extention");
+define('_AM_EXTGALLERY_EXTENTION_OK',"Extention availlable");
+define('_AM_EXTGALLERY_EXTENTION_NOTICE',"This extention allow you to display photo on all the site just by adding a <b>gallery</b> tag to your text. A button (<img src=\"../images/extgallery-posticon.gif\" />) is displayed on XOOPS editor.");
+define('_AM_EXTGALLERY_EXT_FILE_DONT_EXIST',"Extention file don't exist on repository :<br /><b>Server : </b>%s<br /><b>File : </b>%s");
+define('_AM_EXTGALLERY_EXT_FILE_DONT_EXIST_SHORT',"Extention file don't exist");
+define('_AM_EXTGALLERY_EXTENTION_INSTALLED',"Extention installed");
+define('_AM_EXTGALLERY_EXTENTION_HOWTO',"How to use:");
+define('_AM_EXTGALLERY_EXTENTION_HOWTODESC',"For install manual and use this Extention you must do these steps: <br />
+<div class=\"marg10\">1- Add <b>gallery.php</b> to <b>XOOPS_ROOT_PACH /class/textsanitizer/gallery/gallery.php</b> ( you can find  gallery.php in module archive)</div>
+<div class=\"marg10\">2- Edit <b>XOOPS_ROOT_PACH /class/textsanitizer/config.php</b> and add (( <b>\"gallery\" => 1</b> )) to config extensions  array ( you can find edited file in module archive)</div>
+<div class=\"marg10\"><img src=\"../images/extensions.png\" /></div>
+<div class=\"marg10\">3- You can download <b>gallery.php</b> and <b>config.php</b> at XOOPS SVN</div>
+<div class=\"marg10\">4- If you want use module install function you must <b>XOOPS_ROOT_PACH /class/textsanitizer</b> chmod to 777 . after installtion you must change chmod to 644.</div>
+");
+define('_AM_EXTGALLERY_EXTENTION_DOWNLOAD',"Download files from XOOPS SVN");
+
+// About.php
+define("_AM_EXTGALLERY_ABOUT_RELEASEDATE",        "Update date: ");
+define("_AM_EXTGALLERY_ABOUT_AUTHOR",                   "Author: ");
+define("_AM_EXTGALLERY_ABOUT_CREDITS",                  "Credits: ");
+define("_AM_EXTGALLERY_ABOUT_LICENSE",                  "License: ");
+define("_AM_EXTGALLERY_ABOUT_MODULE_STATUS",            "Status: ");
+define("_AM_EXTGALLERY_ABOUT_WEBSITE",                  "Website: ");
+define("_AM_EXTGALLERY_ABOUT_AUTHOR_NAME",              "Author name: ");
+define("_AM_EXTGALLERY_ABOUT_CHANGELOG",                "Change Log");
+define("_AM_EXTGALLERY_ABOUT_MODULE_INFO",              "Module Infos");
+define("_AM_EXTGALLERY_ABOUT_AUTHOR_INFO",              "Author Infos");
+define("_AM_EXTGALLERY_ABOUT_DESCRIPTION",          "Description: ");
+
+// text in admin footer
+define("_AM_EXTGALLERY_ADMIN_FOOTER",                 "<div class='right smallsmall italic pad5'>XOOPS Tag is maintened by the <a class='tooltip' rel='external' href='http://xoops.org/' title='Visitez XOOPS Community'>XOOPS Community</a></div>");
+define('_EXTGALLERY_ADMIN_'," "); //
 ?>

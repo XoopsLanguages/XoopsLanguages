@@ -1,8 +1,9 @@
-Dear {REC_NAME},
+﻿Drogi {REC_NAME},
 
-{EXP_NAME} ({EXP_EMAIL}) sent you an eCard.
+{EXP_NAME} ({EXP_EMAIL}) wysłał Tobie e-Kartkę.
 
-You can view it here : {ECARD_LINK}
+Możesz zobaczyć ją tutaj : {ECARD_LINK}
 
-Yours
-{SITE_NAME} team ({SITE_URL})
+Pozdrawiamy
+Administratorzy {SITE_NAME}
+({SITE_URL})

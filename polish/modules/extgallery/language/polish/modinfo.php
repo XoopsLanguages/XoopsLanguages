@@ -1,80 +1,179 @@
 <?php
 
 define('_MI_EXTGAL_NAME',"eXtGallery");
-define('_MI_EXTGAL_DESC',"eXtGallery jest potê¿nym skryptem galerii dla XOOPSa");
+define('_MI_EXTGAL_DESC',"Prosta i duÅ¼o potrafiÄ…ca galeria dla XOOPSa");
 
 // Main menu
-define('_MI_EXTGALLERY_PUBLIC_UPLOAD',"Wy¶lij zdjêcie");
+define('_MI_EXTGALLERY_USERALBUM',"MÃ³j album");
+define('_MI_EXTGALLERY_PUBLIC_UPLOAD',"WyÅ›lij zdjÄ™cie");
 
 // Main administration menu
-define('_MI_EXTGALLERY_INDEX',"Strona g³ówna");
+define('_MI_EXTGALLERY_INDEX',"Strona gÅ‚Ã³wna");
 define('_MI_EXTGALLERY_PUBLIC_CAT',"Kategorie/Albumy");
-define('_MI_EXTGALLERY_PHOTO',"Zdjêcia");
+define('_MI_EXTGALLERY_PHOTO',"ZdjÄ™cia");
 define('_MI_EXTGALLERY_PERMISSIONS',"Uprawnienia");
 define('_MI_EXTGALLERY_WATERMARK_BORDER',"Znak wodny &amp; ramka");
+define('_MI_EXTGALLERY_SLIDESHOW',"Pokaz slajdÃ³w");
+define('_MI_EXTGALLERY_EXTENTION',"Rozszerzenie");
+define('_MI_EXTGALLERY_ALBUM',"Album");
+define('_MI_EXTGALLERY_ABOUT',"O galerii");
+
 
 // Module options
+define('_MI_EXTGAL_DISP_TYPE',"Tryb wyÅ›wietlania");
+define('_MI_EXTGAL_DISP_TYPE_DESC',"Wybierz tryb wyÅ›wietlania dla zdjÄ™cia");
+define('_MI_EXTGAL_DISP_SET_ORDER',"PorzÄ…dek wyÅ›wietlania zdjÄ™Ä‡");
+define('_MI_EXTGAL_DISP_SET_ORDER_DESC',"PorzÄ…dek wyÅ›wietlania zdjÄ™Ä‡, malejÄ…cy lub rosnÄ…cy, bazujÄ…cy na czasie wysÅ‚ania zdjÄ™cia do galerii");
+define('_MI_EXTGALLERY_DESC',"MalejÄ…co");
+define('_MI_EXTGALLERY_ASC',"RosnÄ…co");
 define('_MI_EXTGAL_NB_COLUMN',"Liczba kolumn w albumie");
-define('_MI_EXTGAL_NB_COLUMN_DESC',"Ile kolumn ma byæ u¿ytych do wy¶wietlania miniaturek");
+define('_MI_EXTGAL_NB_COLUMN_DESC',"Ile kolumn ma byÄ‡ uÅ¼ytych do wyÅ›wietlania miniaturek");
 define('_MI_EXTGAL_NB_LINE',"Liczba wierszy w albumie");
-define('_MI_EXTGAL_NB_LINE_DESC',"Ile wierszy ma byæ u¿ytych do wy¶wietlania miniaturek");
-define('_MI_EXTGAL_SAVE_L',"Zapisuj olbrzymie zdjêcia");
-define('_MI_EXTGAL_SAVE_L_DESC',"Czy chcesz zapisywaæ zdjêcia wiêksze ni¿ rozmiar ¶redni? Je¿eli zapiszesz, to link do zdjêcia w oryginalnych rozmiarach bêdzie wy¶wietlony pod zmniejszonym.");
-define('_MI_EXTGAL_M_WIDTH',"Szeroko¶æ ¶redniego zdjêcia");
-define('_MI_EXTGAL_M_WIDTH_DESC',"Zdjêcie bêdzie przeskalowane do podanej szeroko¶ci");
-define('_MI_EXTGAL_M_HEIGTH',"Wysoko¶æ ¶redniego zdjêcia");
-define('_MI_EXTGAL_M_HEIGTH_DESC',"Zdjêcie bêdzie przeskalowane do podanej wysoko¶ci");
-define('_MI_EXTGAL_T_WIDTH',"Szeroko¶æ miniaturki");
-define('_MI_EXTGAL_T_WIDTH_DESC',"Maksymalna szeroko¶æ miniaturki");
-define('_MI_EXTGAL_T_HEIGTH',"Wysoko¶æ miniaturki");
-define('_MI_EXTGAL_T_HEIGTH_DESC',"Maksymalna wysoko¶æ miniaturki");
-define('_MI_EXTGAL_M_WATERMARK',"W³±cz znak wodny dla ¶rednich zdjêæ");
-define('_MI_EXTGAL_M_WATERMARK_DESC',"Ta opcja pozwoli na dodawanie znaku wodnego do ¶rednich zdjêæ, ale dopiero gdy zmienisz ustawienia znaków wodnych.");
-define('_MI_EXTGAL_M_BORDER',"W³±cz ramkê dla ¶rednich zdjêæ");
-define('_MI_EXTGAL_M_BORDER_DESC',"Ta opcja pozwoli na dodawanie ramki do ¶rednich zdjêæ, ale dopiero gdy zmienisz ustawienia ramek.");
-define('_MI_EXTGAL_L_WATERMARK',"W³±cz znak wodny dla olbrzymich zdjêæ");
-define('_MI_EXTGAL_L_WATERMARK_DESC',"Ta opcja pozwoli na dodawanie znaku wodnego do olbrzymich zdjêæ, ale dopiero gdy zmienisz ustawienia znaków wodnych.");
-define('_MI_EXTGAL_L_BORDER',"W³±cz ramki dla olbrzymich zdjêæ");
-define('_MI_EXTGAL_L_BORDER_DESC',"Ta opcja pozwoli na dodawanie ramki do olbrzymich zdjêæ, ale dopiero gdy zmienisz ustawienia ramek.");
+define('_MI_EXTGAL_NB_LINE_DESC',"Ile wierszy ma byÄ‡ uÅ¼ytych do wyÅ›wietlania miniaturek");
+define('_MI_EXTGAL_SAVE_L',"Zapisuj olbrzymie zdjÄ™cia");
+define('_MI_EXTGAL_SAVE_L_DESC',"Czy chcesz zapisywaÄ‡ zdjÄ™cia wiÄ™ksze niÅ¼ rozmiar Å›redni? JeÅ¼eli zapiszesz, to link do zdjÄ™cia w oryginalnych rozmiarach bÄ™dzie wyÅ›wietlony pod zmniejszonym.");
+define('_MI_EXTGAL_M_WIDTH',"SzerokoÅ›Ä‡ Å›redniego zdjÄ™cia");
+define('_MI_EXTGAL_M_WIDTH_DESC',"ZdjÄ™cie bÄ™dzie przeskalowane do podanej szerokoÅ›ci");
+define('_MI_EXTGAL_M_HEIGTH',"WysokoÅ›Ä‡ Å›redniego zdjÄ™cia");
+define('_MI_EXTGAL_M_HEIGTH_DESC',"ZdjÄ™cie bÄ™dzie przeskalowane do podanej wysokoÅ›ci");
+define('_MI_EXTGAL_T_WIDTH',"SzerokoÅ›Ä‡ miniaturki");
+define('_MI_EXTGAL_T_WIDTH_DESC',"Maksymalna szerokoÅ›Ä‡ miniaturki");
+define('_MI_EXTGAL_T_HEIGTH',"WysokoÅ›Ä‡ miniaturki");
+define('_MI_EXTGAL_T_HEIGTH_DESC',"Maksymalna wysokoÅ›Ä‡ miniaturki");
+define('_MI_EXTGAL_M_WATERMARK',"WÅ‚Ä…cz znak wodny dla Å›rednich zdjÄ™Ä‡");
+define('_MI_EXTGAL_M_WATERMARK_DESC',"Ta opcja pozwoli na dodawanie znaku wodnego do Å›rednich zdjÄ™Ä‡, ale dopiero gdy zmienisz ustawienia znakÃ³w wodnych.");
+define('_MI_EXTGAL_M_BORDER',"WÅ‚Ä…cz ramkÄ™ dla Å›rednich zdjÄ™Ä‡");
+define('_MI_EXTGAL_M_BORDER_DESC',"Ta opcja pozwoli na dodawanie ramki do Å›rednich zdjÄ™Ä‡, ale dopiero gdy zmienisz ustawienia ramek.");
+define('_MI_EXTGAL_L_WATERMARK',"WÅ‚Ä…cz znak wodny dla olbrzymich zdjÄ™Ä‡");
+define('_MI_EXTGAL_L_WATERMARK_DESC',"Ta opcja pozwoli na dodawanie znaku wodnego do olbrzymich zdjÄ™Ä‡, ale dopiero gdy zmienisz ustawienia znakÃ³w wodnych.");
+define('_MI_EXTGAL_L_BORDER',"WÅ‚Ä…cz ramki dla olbrzymich zdjÄ™Ä‡");
+define('_MI_EXTGAL_L_BORDER_DESC',"Ta opcja pozwoli na dodawanie ramki do olbrzymich zdjÄ™Ä‡, ale dopiero gdy zmienisz ustawienia ramek.");
 define('_MI_EXTGAL_NAME_PATTERN',"Automatyczny szablon nazwy");
-define('_MI_EXTGAL_NAME_PATTERN_DESC',"Je¿eli nie dodasz opisu do zdjêcia, jego nazwa zostanie u¿yta do tego celu.<br />Z nazwy \"Tournament-06-may-2006_1.jpg\" otrzymasz \"Tournament 06 may 2006\".");
-define('_MI_EXTGAL_DISPLAY_EXTRA',"Wy¶wietl dodatkowe pole");
-define('_MI_EXTGAL_DISPLAY_EXTRA_DESC',"ta opcja pozwala na dodanie wiêkszej ilo¶ci informacji w formularzu dodawania zdjêcie. Mo¿esz na przyk³ad wstawiæ przycisk paypal dla ka¿dego dodawanego zdjêcia.");
-define('_MI_EXTGAL_HIDDEN_FIELD',"Ta sta³a jest u¿ywana tylko do pozbywania siê powiadomienia PHP. Ten tekst nie jest u¿ywany w module.");
-define('_MI_EXTGAL_SAVE_ORIG',"Zapisuj oryginalne zdjêcie");
-define('_MI_EXTGAL_SAVE_ORIG_DESC',"Dziêki tej opcji na serwerze zostan± zapisane zdjêcia w wersji oryginalnej (bez znaku wodnego i ramki). Opcja \"Zapisuj olbrzymie zdjêcia\" <b>musi</b> byæ w³±czona aby wszystko poprawnie funkcjonowa³o.<br /><b>Zdjêcie w wersji oryginalnej mo¿e byæ pobrane tylko, gdy u¿ytkownik ma ustawione odpowiednie uprawnienia dla \"Pobierania orygina³ów\"</b>.");
-define('_MI_EXTGAL_ADM_NBPHOTO',"Liczba wy¶wietlonych zdjêæ na stronach administracyjnych");
-define('_MI_EXTGAL_ADM_NBPHOTO_DESC',"Podaj liczbê zdjêæ wy¶wietlanych na stronach edycji oraz zatwierdzania.");
+define('_MI_EXTGAL_NAME_PATTERN_DESC',"JeÅ¼eli nie dodasz opisu do zdjÄ™cia, jego nazwa zostanie uÅ¼yta do tego celu.<br />Z nazwy \"Tournament-06-may-2006_1.jpg\" otrzymasz \"Tournament 06 may 2006\".");
+define('_MI_EXTGAL_DISPLAY_EXTRA',"WyÅ›wietl dodatkowe pole");
+define('_MI_EXTGAL_DISPLAY_EXTRA_DESC',"ta opcja pozwala na dodanie wiÄ™kszej iloÅ›ci informacji w formularzu dodawania zdjÄ™cie. MoÅ¼esz na przykÅ‚ad wstawiÄ‡ przycisk paypal dla kaÅ¼dego dodawanego zdjÄ™cia.");
+define('_MI_EXTGAL_ALLOW_HTML',"DopuÅ›Ä‡ HTML w dodatkowym polu");
+define('_MI_EXTGAL_ALLOW_HTML_DESC',"DopuÅ›Ä‡ lub nie kod HTML w opisie i dodatkowym polu.");
+define('_MI_EXTGAL_HIDDEN_FIELD',"Ta staÅ‚a jest uÅ¼ywana tylko do pozbywania siÄ™ powiadomienia PHP. Ten tekst nie jest uÅ¼ywany w module.");
+define('_MI_EXTGAL_SAVE_ORIG',"Zapisuj oryginalne zdjÄ™cie");
+define('_MI_EXTGAL_SAVE_ORIG_DESC',"DziÄ™ki tej opcji na serwerze zostanÄ… zapisane zdjÄ™cia w wersji oryginalnej (bez znaku wodnego i ramki). Opcja \"Zapisuj olbrzymie zdjÄ™cia\" <b>musi</b> byÄ‡ wÅ‚Ä…czona aby wszystko poprawnie funkcjonowaÅ‚o.<br /><b>ZdjÄ™cie w wersji oryginalnej moÅ¼e byÄ‡ pobrane tylko, gdy uÅ¼ytkownik ma ustawione odpowiednie uprawnienia dla \"Pobierania oryginaÅ‚Ã³w\"</b>.");
+define('_MI_EXTGAL_ADM_NBPHOTO',"Liczba wyÅ›wietlonych zdjÄ™Ä‡ na stronach administracyjnych");
+define('_MI_EXTGAL_ADM_NBPHOTO_DESC',"Podaj liczbÄ™ zdjÄ™Ä‡ wyÅ›wietlanych na stronach edycji oraz zatwierdzania.");
 define('_MI_EXTGAL_GRAPHLIB',"Biblioteka graficzna");
-define('_MI_EXTGAL_GRAPHLIB_DESC',"Wybierz, któr± bibliotekê chcesz u¿ywaæ. Nie modyfikuj tej opcji je¿eli nie wiesz co robisz.");
-define('_MI_EXTGAL_GRAPHLIB_PATH',"¦cie¿ka do biblioteki graficznej");
+define('_MI_EXTGAL_GRAPHLIB_DESC',"Wybierz, ktÃ³rÄ… bibliotekÄ™ chcesz uÅ¼ywaÄ‡. Nie modyfikuj tej opcji jeÅ¼eli nie wiesz co robisz.");
+define('_MI_EXTGAL_GRAPHLIB_PATH',"ÅšcieÅ¼ka do biblioteki graficznej");
 define('_MI_EXTGAL_GRAPHLIB_PATH_DESC',"Path to the graphic library on the serveur <b>WITH</b> trailing slash.");
-define('_MI_EXTGAL_ENABLE_RATING',"W³±cz mo¿liwo¶æ oceniania zdjêæ");
+define('_MI_EXTGAL_ENABLE_RATING',"WÅ‚Ä…cz moÅ¼liwoÅ›Ä‡ oceniania zdjÄ™Ä‡");
 define('_MI_EXTGAL_ENABLE_RATING_DESC',"This option allow you to globaly enable or disable the rating feature.");
 
-define('_MI_EXTGAL_DISP_PH_TITLE',"Pokazuj tytu³ zdjêcia");
-define('_MI_EXTGAL_DISP_PH_TITLE_DESC',"Ta opcja pozwala wybraæ czy w widoku albumu tytu³ zdjêcia ma byæ pokazywany.");
+define('_MI_EXTGAL_DISP_PH_TITLE',"Pokazuj tytuÅ‚ zdjÄ™cia");
+define('_MI_EXTGAL_DISP_PH_TITLE_DESC',"Ta opcja pozwala wybraÄ‡ czy w widoku albumu tytuÅ‚ zdjÄ™cia ma byÄ‡ pokazywany.");
 define('_MI_EXTGAL_DISP_CAT_IMG',"Obrazek kategorii");
-define('_MI_EXTGAL_DISP_CAT_IMG_DESC',"Wybierz, czy chcesz mieæ mo¿liwo¶æ dodawania obrazka do kategorii.");
+define('_MI_EXTGAL_DISP_CAT_IMG_DESC',"Wybierz, czy chcesz mieÄ‡ moÅ¼liwoÅ›Ä‡ dodawania obrazka do kategorii.");
+define('_MI_EXTGAL_M_QUALITY',"Medium photo quality");
+define('_MI_EXTGAL_M_QUALITY_DESC',"Quality for medium photo from 0 (bad) to 100 (good)");
+define('_MI_EXTGAL_T_QUALITY',"Thumb photo quality");
+define('_MI_EXTGAL_T_QUALITY_DESC',"Quality for thumb photo from 0 (bad) to 100 (good)");
+//define('_MI_EXTGALLERY_ALBUM',"Album");
+define('_MI_EXTGAL_EXT_UPLOAD',"Upload type page");
+define('_MI_EXTGAL_EXT_UPLOAD_DESC',"Select the upload type that is provided to user. Extended require Java plugin.");
+define('_MI_EXTGALLERY_EXTENDED',"Extended");
+define('_MI_EXTGALLERY_STANDARD',"Standard");
+
+// Bloc Name
+define('_MI_EXTGAL_B_PHOTO',"ZdjÄ™cia");
+define('_MI_EXTGAL_B_SUB',"Najaktywniejsi ");
+define('_MI_EXTGAL_B_AJAX',"ZdjÄ™cia - pokaz slajdÃ³w");
+define('_MI_EXTGAL_B_TOP_TAG',"eXtGallery Top Tagi");
+define('_MI_EXTGAL_B_TAG_CLOUD',"eXtGallery Top Cloud");
 
 // Notifications
 define('_MI_EXTGAL_GLOBAL_NOTIFY',"Globalne");
 define('_MI_EXTGAL_GLOBAL_NOTIFYDSC',"GLOBAL_NOTIFYDSC");
 define('_MI_EXTGAL_ALBUM_NOTIFY',"Album");
 define('_MI_EXTGAL_ALBUM_NOTIFYDSC',"_MI_EXTGAL_CAT_NOTIFYDSC");
-define('_MI_EXTGAL_PHOTO_NOTIFY',"Zdjêcie");
+define('_MI_EXTGAL_PHOTO_NOTIFY',"ZdjÄ™cie");
 define('_MI_EXTGAL_PHOTO_NOTIFYDSC',"_MI_EXTGAL_PHOTO_NOTIFYDSC");
-
-define('_MI_EXTGAL_NEW_PHOTO_NOTIFY',"Nowe zdjêcie");
-define('_MI_EXTGAL_NEW_PHOTO_NOTIFYCAP',"Powiadom mnie o dodaniu nowego zdjêcia");
+define('_MI_EXTGAL_NEW_PHOTO_NOTIFY',"Nowe zdjÄ™cie");
+define('_MI_EXTGAL_NEW_PHOTO_NOTIFYCAP',"Powiadom mnie o dodaniu nowego zdjÄ™cia");
 define('_MI_EXTGAL_NEW_PHOTO_NOTIFYDSC',"NEW_PHOTO_NOTIFYDSC");
-define('_MI_EXTGAL_NEW_PHOTO_NOTIFYSBJ',"Wys³ano nowe zdjêcie");
-define('_MI_EXTGAL_NEW_PHOTO_PENDING_NOTIFY',"Nowe zdjêcie oczekuje na zatwierdzenie");
-define('_MI_EXTGAL_NEW_PHOTO_PENDING_NOTIFYCAP',"Powiadom mnie o dodaniu nowego zdjêcia oczekuj±cego na zatwierdzenie");
+define('_MI_EXTGAL_NEW_PHOTO_NOTIFYSBJ',"WysÅ‚ano nowe zdjÄ™cie");
+define('_MI_EXTGAL_NEW_PHOTO_PENDING_NOTIFY',"Nowe zdjÄ™cie oczekuje na zatwierdzenie");
+define('_MI_EXTGAL_NEW_PHOTO_PENDING_NOTIFYCAP',"Powiadom mnie o dodaniu nowego zdjÄ™cia oczekujÄ…cego na zatwierdzenie");
 define('_MI_EXTGAL_NEW_PHOTO_PENDING_NOTIFYDSC',"_MI_EXTGAL_NEW_PHOTO_PENDING_NOTIFYDSC");
-define('_MI_EXTGAL_NEW_PHOTO_PENDING_NOTIFYSBJ',"Nowe zdjêcie oczekuje na zatwierdzenie");
-define('_MI_EXTGAL_NEW_PHOTO_ALBUM_NOTIFY',"Powiadom mnie o dodaniu nowego zdjêcia do tego albumu");
-define('_MI_EXTGAL_NEW_PHOTO_ALBUM_NOTIFYCAP',"Powiadom mnie o dodaniu nowego zdjêcia do tego albumu");
+define('_MI_EXTGAL_NEW_PHOTO_PENDING_NOTIFYSBJ',"Nowe zdjÄ™cie oczekuje na zatwierdzenie");
+define('_MI_EXTGAL_NEW_PHOTO_ALBUM_NOTIFY',"Powiadom mnie o dodaniu nowego zdjÄ™cia do tego albumu");
+define('_MI_EXTGAL_NEW_PHOTO_ALBUM_NOTIFYCAP',"Powiadom mnie o dodaniu nowego zdjÄ™cia do tego albumu");
 define('_MI_EXTGAL_NEW_PHOTO_ALBUM_NOTIFYDSC',"_MI_EXTGAL_NEW_PHOTO_ALBUM_NOTIFYDSC");
-define('_MI_EXTGAL_NEW_PHOTO_ALBUM_NOTIFYSBJ',"Dodano nowe zdjêcie");
+define('_MI_EXTGAL_NEW_PHOTO_ALBUM_NOTIFYSBJ',"Dodano nowe zdjÄ™cie");
+
+// DNPROSSI ADDED in ver 1.09
+define('_MI_EXTGAL_FORM_OPTIONS',"Form Option");
+define('_MI_EXTGAL_FORM_OPTIONS_DESC',"Select the editor to use. If you have a 'simple' install (e.g you use only xoops core editor class, provided in the standard xoops core package), then you can just select DHTML and Compact");
+define('_MI_EXTGAL_ENABLE_INFO',"Photo Info View");
+define('_MI_EXTGAL_ENABLE_INFO_DESC',"If disabled all photo info (submitter, resolution, date etc.) will not be viewed");
+define('_MI_EXTGAL_ENABLE_ECARDS',"E-cards View");
+define('_MI_EXTGAL_ENABLE_ECARDS_DESC',"Enables/disables E-card Icon View when <b>Photo Info View</b> is enabled");
+define('_MI_EXTGAL_ENABLE_PHOTO_HITS',"Photo Hits View");
+define('_MI_EXTGAL_ENABLE_PHOTO_HITS_DESC',"Enables/disables Photo Hits View when <b>Photo Info View</b> is enabled");
+define('_MI_EXTGAL_ENABLE_SUBMITTER_LNK',"Submitter View");
+define('_MI_EXTGAL_ENABLE_SUBMITTER_LNK_DESC',"Enables/disables Submitter View when <b>Photo Info View</b> is enabled");
+define('_MI_EXTGAL_ENABLE_RESOLUTION',"Resolution View");
+define('_MI_EXTGAL_ENABLE_RESOLUTION_DESC',"Enables/disables Resolution View when <b>Photo Info View</b> is enabled");
+define('_MI_EXTGAL_ENABLE_DATE',"Date View");
+define('_MI_EXTGAL_ENABLE_DATE_DESC',"Enables/disables Date View when <b>Photo Info View</b> is enabled");
+define('_MI_EXTGAL_ENABLE_DOWNLOAD',"Download View");
+define('_MI_EXTGAL_ENABLE_DOWNLOAD_DESC',"Enables/disables Download and Download Count View when <b>Photo Info View</b> is enabled");
+define('_MI_EXTGAL_ENABLE_SHOW_COMMENTS',"Comments View");
+define('_MI_EXTGAL_ENABLE_SHOW_COMMENTS_DESC',"Enables/disables Comments Count View when <b>Photo Info View</b> is enabled");
+
+define('_MI_EXTGAL_INFO_VIEW',"Info View");
+define('_MI_EXTGAL_INFO_VIEW_DESC',"Shows-hides info from album thumbs or photo");
+define('_MI_EXTGAL_INFO_BOTH',"Both");
+define('_MI_EXTGAL_INFO_ALBUM',"Album");
+define('_MI_EXTGAL_INFO_PHOTO',"Photo");
+define('_MI_EXTGAL_INFO_PUBUSR',"Public or User Info");
+define('_MI_EXTGAL_INFO_PUBUSR_DESC',"Shows-hides info from public or user album and photo");
+define('_MI_EXTGAL_INFO_PUBLIC',"Public");
+define('_MI_EXTGAL_INFO_USER',"User");
+define('_MI_EXTGAL_JQUERY',"Use jQuery");
+define('_MI_EXTGAL_JQUERY_DESC',"You can enables/disables jQuery in module templates. if jQuery loaded in your theme and you have problem whit theme Ajax effects (Interference jQuery library),you must disables jQuery in extgallery and use theme jQuery.");
+define('_MI_EXTGAL_SOCIAL',"Use Social network");
+define('_MI_EXTGAL_SOCIAL_DESC',"You can use Social network and bookmark icone for ecah photo");
+define('_MI_EXTGAL_NONE',"None");
+define('_MI_EXTGAL_SOCIALNETWORM',"Social Networks");
+define('_MI_EXTGAL_BOOKMARK',"Bookmark me");
+define('_MI_EXTGAL_TAG', 'Use TAG module to generate tags');
+define('_MI_EXTGAL_TAG_DESC', 'You have to install TAG module in order to use this option');
+define('_MI_EXTGAL_SHOW_RSS',"Show RSS icon");
+define('_MI_EXTGAL_SHOW_RSS_DESC',"Shows-hides RSS icon in module");
+define('_MI_EXTGAL_PERPAGEÙ€RSS',"RSS number of photos");
+define('_MI_EXTGAL_PERPAGEÙ€RSSÙ€DSC',"Select number of new photos in RSS page");
+define('_MI_EXTGAL_TIMECACHEÙ€RSS',"RSS cache time");
+define('_MI_EXTGAL_TIMECACHEÙ€RSSÙ€DSC',"Cache time for RSS pages in minutes");
+define('_MI_EXTGAL_LOGOÙ€RSS',"Site logo for RSS pages");
+define('_MI_EXTGAL_MAX_SIZE',"Max photo size");
+define('_MI_EXTGAL_MAX_SIZE_DESC',"Select max upload photo size for all upload sides");
+
+define('_MI_EXTGAL_AJAX_NONE',"Normal");
+define('_MI_EXTGAL_AJAX_LIGHTBOX',"Lightbox");
+define('_MI_EXTGAL_AJAX_OVERLAY',"Overlay");
+define('_MI_EXTGAL_AJAX_TOOLTIP',"Tooltip");
+define('_MI_EXTGAL_AJAX_FANCYBOX',"Fancybox");
+define('_MI_EXTGAL_AJAX_PRETTPHOTO',"PrettPhoto");
+
+define('_MI_EXTGAL_SLIDESHOW_GVIEW',"galleryview");
+define('_MI_EXTGAL_SLIDESHOW_GRIA',"galleria");
+define('_MI_EXTGAL_SLIDESHOW_MICRO',"microgallery");
+define('_MI_EXTGAL_SLIDESHOW_GFIC',"galleriffic");
+
+define('_MI_EXTGAL_PREFERENCE_BREAK_GENERAL',"General");
+define('_MI_EXTGAL_PREFERENCE_BREAK_PHOTO',"Photo");
+define('_MI_EXTGAL_PREFERENCE_BREAK_INFO',"Information");
+define('_MI_EXTGAL_PREFERENCE_BREAK_ADMIN',"Admin");
+define('_MI_EXTGAL_PREFERENCE_BREAK_RSS',"Rss");
+define('_MI_EXTGAL_PREFERENCE_BREAK_GRAPHLIB',"Graphic library");
+define('_MI_EXTGAL_PREFERENCE_BREAK_COMNOTI',"Comments and notifications");
+define('_MI_EXTGAL_PREFERENCE_BREAK_ALBUM',"Album");
+define('_MI_EXTGAL_PREFERENCE_BREAK_SLIDESHOW',"Skideshow");
 ?>
