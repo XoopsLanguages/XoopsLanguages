@@ -1,17 +1,18 @@
-Hello {X_UNAME},
+Witaj {X_UNAME},
 
-{X_ITEM_NBPHOTO} new photo has been added on "{X_ITEM_CAT}" at {X_SITENAME}.
+{X_ITEM_NBPHOTO} nowe zdjęcie zostało dodane w witrynie {X_SITENAME} w albumie "{X_ITEM_CAT}".
 
-You can view it here : {X_ITEM_URL}
+Możesz obejrzeć je tutaj : {X_ITEM_URL}
 
 -----------
 
-You are receiving this message because you selected to be notified when new photo are added to our site.
 
-If this is an error or you wish not to receive further such notifications, please update your subscriptions by visiting the link below:
+Otrzymałeś tę wiadomość ponieważ wybrałeś by być powiadamianym gdy nowe zdjęcia są dodawane do naszej witryny.
+
+Jeśli to pomyłka, albo nie życzysz sobie więcej takich powiadomień, proszę uaktualnij swoje ustawienia pod adresem:
 {X_UNSUBSCRIBE_URL}
 
-Please do not reply to this message.
+Proszę nie odpowiadaj na tę wiadomość.
 
 -----------
 

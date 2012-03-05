@@ -1,17 +1,17 @@
-Hello {X_UNAME},
+Witaj {X_UNAME},
 
-{X_ITEM_NBPHOTO} new photo has been added on "{X_ITEM_CAT}" at {X_SITENAME} and are waiting for approvement.
+{X_ITEM_NBPHOTO} nowe zdjęcie zostało dodane do "{X_ITEM_CAT}" w witrynie {X_SITENAME} i czeka na zatwierdzenie.
 
-You can view it here : {X_ITEM_URL}
+Możesz zobaczyć je tutaj : {X_ITEM_URL}
 
 -----------
 
-You are receiving this message because you selected to be notified when new photo are added to our site.
+Otrzymałeś tę wiadomość ponieważ wybrałeś by być powiadamianym gdy nowe zdjęcia są dodawane do naszej witryny.
 
-If this is an error or you wish not to receive further such notifications, please update your subscriptions by visiting the link below:
+Jeśli to pomyłka, albo nie życzysz sobie więcej takich powiadomień, proszę uaktualnij swoje ustawienia pod adresem:
 {X_UNSUBSCRIBE_URL}
 
-Please do not reply to this message.
+Proszę nie odpowiadaj na tę wiadomość.
 
 -----------
 
