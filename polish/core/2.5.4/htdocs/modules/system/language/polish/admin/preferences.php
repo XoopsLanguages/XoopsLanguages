@@ -147,8 +147,8 @@ define("_MD_AM_BADUNAMES", "Wprowadź nazwy, które nie mogą być rejestrowane 
 define("_MD_AM_BADUNAMESDSC", "Odziel je używając <strong>|</strong>, wielkość znaków nie ma znaczenia, można używać wyrażeń regularnych.");
 define("_MD_AM_DOBADIPS", "Włączyć blokowanie adresów IP?");
 define("_MD_AM_DOBADIPSDSC", "Użytkownicy z podanych adresów IP nie będą mieli dostępu do strony");
-define("_MD_AM_BADIPS", "Podaj adresy IP, które powinny być blokowane.<br />Oddziel je używając <strong>|</strong>, wielkość liter nie ma znaczenia, można używać wyrażeń regularnych.");
-define("_MD_AM_BADIPSDSC", "^aaa.bbb.ccc zablokuje użytkowników, których IP zaczyna się od aaa.bbb.ccc<br />aaa.bbb.ccc$ zablokuje użytkowników, których IP kończy się na aaa.bbb.ccc<br />aaa.bbb.ccc zablokuje użytkowników z IP zawierającym aaa.bbb.ccc");
+define("_MD_AM_BADIPS", "Podaj adresy IP, które powinny być blokowane.<br />Oddziel je używając <strong>|</strong>, wielkość liter nie ma znaczenia, można używać wyrażeń regularnych (np. kropka - '.' - oznacza 'dowolny znak'.");
+define("_MD_AM_BADIPSDSC", "^aaa\.bbb\.ccc zablokuje użytkowników, których IP zaczyna się od aaa.bbb.ccc<br />aaa\.bbb\.ccc$ zablokuje użytkowników, których IP kończy się na aaa.bbb.ccc<br />aaa\.bbb\.ccc zablokuje użytkowników z IP zawierającym aaa.bbb.ccc");
 define("_MD_AM_PREFMAIN", "Ustawienia główne");
 define("_MD_AM_METAKEY", "Słowa kluczowe (Meta Keywords)");
 define("_MD_AM_METAKEYDSC", "Słowa kluczowe opisujące zawartość serwisu. Wpisz odpowiedenie słowa oddzielając przecinkami lub spacjami (np. XOOPS, PHP, MySQL, portal system)");
