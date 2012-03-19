@@ -1,0 +1,81 @@
+<div id="help-template" class="outer">
+    <h1 class="head">Help:
+        <a class="ui-corner-all tooltip" href="<{$xoops_url}>/modules/xlanguage/admin/index.php"
+           title="Back to the administration of xLanguage"> xLanguage <img src="<{xoAdminIcons home.png}>"
+                                                                       alt="Back to the Administration of xLanguage"/>
+        </a></h1>
+    <!-- -----Help Content ---------- -->
+
+    <h4 class="odd">Description</h4>
+
+    <p class="even">
+        Un eXtensible Multi-language contenuto e la codifica dei caratteri di gestione plug-in
+Gestione multilingua gestisce la visualizzazione del contenuto di diverse lingue, come inglese, francese e cinese
+La codifica dei caratteri di gestione gestisce il contenuto di diversi set di codifica per una lingua, come GB2312 (cinese semplificato) e BIG5 (cinese tradizionale) per il cinese. <br /><br />
+
+
+  <h4 class="odd">Cosa pu&#242; fare xlanguage</h4>
+
+1 visualizzare il contenuto del linguaggio specificato in base alla scelta dinamica dell'utente <br /><br />
+2 convertire il contenuto da un set di caratteri codificato ad un'altro<br /><br /> </p>
+
+  <h4 class="odd">Cosa non pu&#242; fare xlanguage</h4>
+
+1 xLanguage non ha la capacit&#224; di tradurre i contenuti da una lingua ad un'altra. Devi inserire contenuti di lingue diverse manualmente<br /><br />
+2 xLanguage non funziona senza l'aggiunta di una riga a XOOPS/include/common.php (vedere guida sotto) <br /><br />
+3 xLanguage non ha la possibilit&#224; di convertire i contenuti da una codifica dei caratteri ad un altro se nessuno dei "iconv", "mb_string" o "xconv" &#232; disponibile. <br /><br /></p>
+
+<h4 class="odd">Caratteristiche</h4>
+
+1 rilevamento automatico della lingua del visitatore dal suo primo visitatore <br /><br />
+2 memorizzare le preferenze di lingua degli utenti<br /><br />
+3 commutazione contenuto di diverse lingue/set di codifica on-fly <br /><br />
+4 sostenere modalit&#224; di M-S-M per il gestore codifica dei caratteri<br /><br />
+Nota:<br /><br />
+M-S-M: Codifica di input multipli, storage singola codifica, codifica di output multipli. M-S-M consente un sito per adattarsi vari utenti con diversi usi linguistici codifica dei caratteri. Ad esempio, un sito con xLanguage porperly implementato consente agli utenti di contenuti in ingresso sia con GB2312, con BIG5 o codifica UTF-8 e per memorizzare il contenuto in DB con codifica specificata, per dire GB2312, e di visualizzare il contenuto o con GB2312, con BIG5 o con codifica UTF-8.
+<br /><br />
+<h4 class="odd">Installa/Disinstalla</h4>
+
+Non sono necessarie misure particolari, seguire il processo di installazione standard estrarre la cartella xLanguage nelle directory .. /moduli.<br /> Installare il modulo con Admin -> Sistema -> Modulo Moduli. <br /><br />
+Istruzioni dettagliate su come installare i moduli sono disponibili nella <a href="http://goo.gl/adT2i">XOOPS Operations Manual</a> </p>
+
+    <h4 class="odd">Istruzioni per l'uso</h4>
+    <p class="even">
+
+
+1 installa "xLanguage" come un normale modulo<br /><br />
+   
+2 selezionare le lingue di base (da un elenco di lingue disponibili) e aggiungere le lingue (estesi su una lingua selezionata di base) dalla pagina del modulo admin <br />
+per esempio, per rendere Cambia lingua tra: inglese, cinese semplificato (GB2312), cinese tradizionale (big5) e UTF-8 cinese: <br />
+base 1: Nome: inglese; descrizione (opzionale): inglese; charset: ISO-8859-1, codice: en (o ogni altro tipo "Xen", non un codice di lingua vera, solo il tag per indicare contenuti in inglese) <br / >
+base 2: nome: schinese; descrizione (opzionale): cinese semplificato, charset: GB2312, codice: zh (o ogni altro come "sc", non un codice di lingua vera, solo il tag per indicare il contenuto cinese) <br />
+esteso lang di schinese 1: Nome: tchinese; descrizione (opzionale): Tradizionale Cinese; charset: big5 codice: zh-TW (il codice vero linguaggio di cinese tradizionale) base: schinese <br />
+esteso lang di schinese 2: nome: utf8; descrizione (opzionale): cinese semplificato UTF-8; charset: utf-8 code: ZH-CN (il codice del linguaggio vero Cinese Semplificato) base: schinese
+<br /><br />
+
+3 fai la "selezione della lingua" blocco visibile<br /><br />
+
+4 aggiungere contenuti multilingue con tag secondo specificati per ogni lingua base (al punto 3) per i moduli, template o temi [Saltare questo punto se non si utilizza multi-lingua per visualizzazione dei contenuti, ma utilizzare solo la codifica charset]: <br />
+avvolgere il contenuto di ogni lingua con tag rispettivi specificata nel passaggio 3: <br />
+[langcode1] Contenuto della language1[/langcode1][langcode2]Contenuto della language2[/langcode2][langcode3] Contenuto della language3 [/langcode3] ... <br />
+se due o pi&#249; lingue hanno gli stessi contenuti, non &#232; necessario aggiungere uno per uno, ma usare delimitatore "|": <br />
+[langcode1|langcode2] Contenuto condiviso da language1 & 2 [/langcode1|langcode2][langcode3] Contenuto della language3[/langcode3]... <br />
+un vero esempio (si supponga che i lang_codes specificate al punto 4 sono: inglese-en; francese-fr; SimplifiedChiense-sc): <br />
+[en]My XOOPS[/en][fr]XOOPS Moi[/fr][SC] æ'çš "XOOPS[/sc]<br />
+OR: <br />
+[inglese | francese] Questo &#232; il mio contenuto in inglese e<br /><br />
+
+5 conversione automatica di contenuti da un charset (lingua estesa) ad un altro [In realt&#224; sulle azioni necessarie in questa fase]<br /><br />
+
+6 __if__ volete inserire gli script codificati per l'interruttore della lingua nel tuo tema o qualsiasi modello, oltre la finestra di selezione della lingua: <br />
+    1) modificare /modules/xLanguage/api.php "$xlanguage_theme_enable = true;" <br />
+    2) le opzioni di configurazione "$ options = array (" immagini "," ", 5); // display mode, delimitor, il numero per riga"; <br />
+    3) inserire &#60;&#123;&#36;smarty&#46;const&#46;XLANGUAGE_SWITCH_CODE&#125;&#62; nel tuo tema o template ovunque si preferisce lo presenta	<br /><br />
+	
+<h4 class="odd">Tutorial</h4>
+    <p class="even">  
+        Non c'&#232; nessun tutorial disponibile al momento.
+
+    <!-- -----Help Content ---------- -->
+
+</div>
