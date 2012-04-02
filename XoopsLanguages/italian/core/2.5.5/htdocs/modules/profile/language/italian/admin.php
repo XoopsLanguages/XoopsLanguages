@@ -111,4 +111,12 @@ define("_PROFILE_AM_STEPNAME", "Nome");
 define("_PROFILE_AM_STEPORDER", "Ordine");
 define("_PROFILE_AM_STEPSAVE", "Salvataggio al termine della compilazione");
 define("_PROFILE_AM_STEPINTRO", "Descrizione");
+
+define ('_PROFILE_AM_REQUIRED_TOGGLE', 'Campo Toggle obbligatorio');
+define ('_PROFILE_AM_REQUIRED_TOGGLE_SUCCESS', 'Campo Obbligatorio cambiato con successo');
+define ('_PROFILE_AM_REQUIRED_TOGGLE_FAILED', 'Modifica Campo obbligatorio fallito');
+
+define ('_PROFILE_AM_SAVESTEP_TOGGLE', 'Salva Toggle');
+define ('_PROFILE_AM_SAVESTEP_TOGGLE_SUCCESS', 'Salva Passo Successivo cambiato con successo');
+define ('_PROFILE_AM_SAVESTEP_TOGGLE_FAILED', "Modifica 'Salva Passo Successivo' non riuscita");
 ?>
