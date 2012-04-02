@@ -212,5 +212,7 @@ define( "PASSWORD_WEAK", "Debole");
 define( "PASSWORD_BETTER", "Adeguata");
 define( "PASSWORD_MEDIUM", "Media");
 define( "PASSWORD_STRONG", "Alta");
-define( "PASSWORD_STRONGEST", "Massima")
+define( "PASSWORD_STRONGEST", "Massima");
+// Aggiunto in 2.5.5-rc
+define( "FILTER_FUNCTIONS", "Funzioni Filtro");
 ?>
