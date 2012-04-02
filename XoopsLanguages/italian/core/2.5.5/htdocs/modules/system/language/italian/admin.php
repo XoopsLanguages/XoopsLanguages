@@ -80,4 +80,6 @@ define('_MD_AM_PERMADDNGP', 'Tutti gli elementi genitore devono essere seleziona
 
 //Last Update: 30/11/2011 by TXMod Xoops
 define("_AM_SYSTEM_TEMPLATES_SET","Selezionare il Template");
+//Last Update: 02/04/2012 by TXMod Xoops
+define("_AM_SYSTEM_UNINSTALL","Disinstalla");
 ?>
