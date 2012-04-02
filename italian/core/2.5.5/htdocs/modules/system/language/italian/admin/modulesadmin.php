@@ -22,7 +22,7 @@ define("_AM_SYSTEM_MODULES_RUSUREUNINS","Si &egrave; sicuri di voler disinstalla
 define("_AM_SYSTEM_MODULES_RUSUREUPD","Premere il pulsante per aggiornare questo modulo");
 define("_AM_SYSTEM_MODULES_BTOMADMIN","Torna alla Gestione Moduli");
 define("_AM_SYSTEM_MODULES_INSTALLING","Installazione in corso ");
-define("_AM_SYSTEM_MODULES_UNINSTAL","Disinstalla ");
+define("_AM_SYSTEM_MODULES_UNINSTALL","Disinstalla");
 define("_AM_SYSTEM_MODULES_DEACTIVATE","Disattiva ");
 define("_AM_SYSTEM_MODULES_ACTIVATE","Attiva ");
 define("_AM_SYSTEM_MODULES_UPDATING","Aggiornamento in corso ");
