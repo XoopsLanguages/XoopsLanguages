@@ -1,0 +1,34 @@
+<div id="help-template" class="outer">
+<h1 class="head">Hulp: Sjablonen</h1>
+
+<h4 class="odd">Omschrijving</h4>
+<p class="even">
+XOOPS zorgt voor een zekere scheiding tussen de feitelijke presentatie van de site (de "<em> uitstraling </ em>" of gebruikersinterface) en de code die wordt uitgevoerd in de achtergrond. De eerste is geregeld door een uitgekiend mechanisme op basis van grafische thema's. Een thema kan, in zijn basisvorm, de essentiële HTML-templates omvatten die de visuele interface bepalen van de site, evenals de style sheets en afbeeldingen die nodig zijn om de visuele interface aan te vullen. Thema's zijn schakelbaar in de administratiepaneel, dus het veranderen van de hele verschijning van een XOOPS site is gewoon een kwestie van het veranderen van de waarde van een keuzevak en te klikken op "Accepteren". XOOPS biedt ook de beheerders van de website de mogelijkheid om gebruikers te laten kiezen uit een aantal beschikbare thema's.
+</p>
+<h4 class="odd">Visuele kader</h4>
+<p class="even">
+Over het algemeen gezien, is een <strong> <em> thema </em> </strong> in hoge mate het visuele kader van een site: het thema definieert, bijvoorbeeld, de algemene lay-out van de site; aan de andere kant, het doet meestal niet het definiëren van de specifieke distributie van content binnen een blok. Dit wordt afgehandeld door een andere entiteit genaamd een <em> <strong> sjabloonset</strong> </em>. Een sjabloonset is een model dat bestaat uit een verzameling van HTML templates die de presentatie van de inhoud definiëren binnen alle blokken die gezamenlijk een XOOPS website vormen. Als we een meer duidelijke metafoor willen gebruiken voor deze, kunnen we zeggen dat het thema net is als de architect van een huis, terwijl het model dat is opgenomen is als het interieur. De eerste stelt de muren en definieert de algemene distributie, maar het is de tweede die in de "<em> aankleding </em>" van die muren bepaald. <br/> <br/>
+</p>
+<h4 class="odd">Complexe thema's</h4>
+<p class="even">
+Als het actieve thema een eenvoudige is die alleen bestaat uit een thema-bestand, CSS-bestanden en een aantal afbeeldingen, gebruikt XOOPS de standaard sjabloonset om de presentatie van de blokken te definiëren. Echter, sommige complexe thema's zijn geavanceerd genoeg om hun eigen sjabloonset samen te stellen. In dit geval moet de beheerder van deze site gebruik maken van het administratieve controlepaneel om zowel het thema als het model in te stellen.
+</p>
+<h4 class="odd">Template engine SMARTY</h4>
+<p class="even">
+Hoe is het thema <em> magic </ em> opgebouwd? Ander gezegd, hoe kunnen HTML-templates dynamische inhoud weergeven? Dit wordt niet gedaan met tovenarij, maar met een slimme template engine genaamd <strong> <a rel="external" href="http://www.smarty.net/"> Smarty </a> </strong> die de functie maakt van wat vroeger heette <em> <strong> variabele interpolatie </strong> </em>. Uitgedrukt in een eenvoudige manier, kunnen we zeggen dat het XOOPS systeem gebruik maakt van PHP bestanden om de logica van de modules te behouden(toegang tot de database, de toewijzing van variabelen, het beheer van rechten ...), HTML-bestanden met Smarty variabelen om het beheer van de werkelijke visuele interface te beheren en de Smarty engine om waarden en strings in bepaalde plaatsen in te voegen in de HTML waarmee de pagina’s worden opgebouwd die gezien worden door de eindgebruiker.  Al met al, wat dit betekent voor u kan eenvoudig worden samengevat: dankzij het themasysteem stelt XOOPS site-ontwerpers in staat om sites te bouwen die  interessantere en visueel verbluffende  efffecten bevat zonder veel bezorgdheid over wat er gebeurt onder de motorkap.
+
+<h4 class="odd"> Klonen en het downloaden van sjabloonsets </h4>
+<p class="even">
+Als u graag een aangepaste sjabloon wenst te maken kunt u een kopie van de standaard (of een andere) sjabloonset maken door het selecteren van de '<em> kloon </ em>' knop (u wordt gevraagd om de nieuwe sjabloonset een naam geven ). In tegenstelling tot de standaard, kunnen andere sjabloonsets vrij worden bewerkt. U kunt een kopie van een model dat is opgenomen op de harde schijf ook opslaan door het selecteren van de '<em> download </ em>' link, of verwijderen met de '<em> verwijderen </ em>' link. U ziet soms ook een extra '<em> Genereer </ em>' link naast nieuwe modules voor welke templates nog niet zijn gemaakt.
+</P>
+
+<h4 class="odd"> bewerken sjablonen</h4>
+<p class="even">
+U kunt een volledige lijst van beschikbare sjablonen zien door te bladeren door de mappenstructuur. Wanneer u een sjabloon selecteert, opent XOOPS deze in een editor waar u het kunt bewerken. <br/> <br/>
+
+Tijdens het bewerken van sjablonen die u in staat moet stellen een voorkeur die automatisch wordt bijgewerkt module template html-bestanden als er nieuwere bestanden staan onder de thema's / uw thema / templates directory voor de huidige thema (System Module -.> Voorkeuren -> Algemene instellingen -> Update-module sjabloon. html bestanden van thema's / uw thema / templates map -> '<em> Ja </em>'). Dit moet worden uitgeschakeld zodra de site het publiek gaat. <br/> <br/>
+Als u per ongeluk puinhoop van een sjabloon vergeet niet dat je een '<em> goede </em>' kopie van de standaardsjabloon op te halen. Als u werkt met niet-standaard sjablonen kan het een goed idee om een kopie op schijf opslaan voordat u begint ze te veranderen.
+
+</p>
+
+</div> 
