@@ -1,13 +1,14 @@
-XOOPS 2.5.5 Beta
+XOOPS 2.5.5 RC
 
-The XOOPS Development Team is pleased to announce the release of XOOPS 2.5.5 Beta. 
+The XOOPS Development Team is pleased to announce the release of XOOPS 2.5.5 RC (Release Candidate). 
 
 This release is focused on fixing open bugs, and on updating our libraries to the latest versions:
 
 - phpMailer 5.2.1
-- TinyMCE  3.4.8
-- jQuery 1.7.1
-- jQueryUI 1.8.17
+- TinyMCE  3.4.9
+- jQuery 1.7.2
+- jQueryUI 1.8.18
+- HTML Purifier to 4.4.0
 
 See the Changelog for more details.
  
@@ -27,7 +28,7 @@ Any server supporting the required PHP version (Apache highly recommended)
 Downloading XOOPS
 -----------------------------------
 
-You can get this release package from the [url=https://sourceforge.net/projects/xoops/files/XOOPS%20Core%20%28Beta%20Releases%29/XOOPS_2.5.5_Beta/]Sourceforge repository[/url].
+You can get this release package from the [url=https://sourceforge.net/projects/xoops/files/XOOPS%20Core%20%28Beta%20Releases%29/XOOPS_2.5.5_RC/]Sourceforge repository[/url].
 There are .zip, .7z, and .gz archives provided.
 
 
@@ -35,7 +36,17 @@ Installing XOOPS (new installation)
 -----------------------------------
 
     1. Copy the content of the htdocs/ folder where it can be accessed by your server
-    2. Ensure mainfile.php and uploads/ are writable by the web server
+    2. Ensure that directories:
+        - uploads/, 
+        - uploads/avatars/
+        - uploads/images/
+        - uploads/ranks/
+        - uploads/smilies/
+        - xoops_lib/modules/protector/configs/
+       and files:
+        - mainfile.php and 
+        - include/license.php
+       are writable by the web server
     3. For security considerations, you are encouraged to move directories "/xoops_lib" (for XOOPS libraries) and "/xoops_data" (for XOOPS data) out of Document Root, and change the folder names.
     4. Make the directory xoops_data/ writable; Create (if not already present) and make the directories xoops_data/caches/, xoops_data/caches/xoops_cache/, xoops_data/caches/smarty_cache/ and  xoops_data/caches/smarty_compile/ writable.
     5. Access the folder where you installed the htdocs/ files using your web browser to launch the installation wizard
@@ -114,4 +125,4 @@ Release announcement: https://lists.sourceforge.net/lists/listinfo/xoops-announc
 
 
 XOOPS Development Team
-February 21st, 2012
+April 2nd, 2012

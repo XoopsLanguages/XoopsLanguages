@@ -112,5 +112,13 @@ define("_PROFILE_AM_STEPSAVE", "Сохранить шаг");
 define("_PROFILE_AM_STEPINTRO", "Описание шага");
 //1.62
 define('_PROFILE_AM_ACTION', 'Действие');
+//1.63
+define('_PROFILE_AM_REQUIRED_TOGGLE', 'Обязательное поле');
+define('_PROFILE_AM_REQUIRED_TOGGLE_SUCCESS', 'Обязательное поле успешно изменено');
+define('_PROFILE_AM_REQUIRED_TOGGLE_FAILED', 'Обязательное поле не удалось изменить');
+
+define('_PROFILE_AM_SAVESTEP_TOGGLE', 'Toggle Save');
+define('_PROFILE_AM_SAVESTEP_TOGGLE_SUCCESS', 'Successfully Changed Save After Step');
+define('_PROFILE_AM_SAVESTEP_TOGGLE_FAILED', "Changing 'Save After Step' Failed");
 
 ?>
