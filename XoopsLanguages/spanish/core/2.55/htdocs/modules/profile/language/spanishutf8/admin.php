@@ -1,18 +1,18 @@
 <?php
-// $Id: admin.php 2641 2009-01-10 05:40:52Z phppp $
-// _LANGCODE: es
+// $Id$
+// _LANGCODE: en
 // _CHARSET : UTF-8
-// Translator: XOOPS Spanish Support (http://www.esxoops.com)
+// Translator: XOOPS Translation Team
 
 define("_PROFILE_AM_FIELD", "Campo");
 define("_PROFILE_AM_FIELDS", "Campos");
 define("_PROFILE_AM_CATEGORY", "Categoría");
-define("_PROFILE_AM_STEP", "Paso");	 
+define("_PROFILE_AM_STEP", "Paso");
 
 define("_PROFILE_AM_SAVEDSUCCESS", "%s se ha guardado correctamente");
 define("_PROFILE_AM_DELETEDSUCCESS", "%s se ha borrado correctamente");
 define("_PROFILE_AM_RUSUREDEL", "¿Estás seguro de querer borrar %s?");
- define("_PROFILE_AM_FIELDNOTCONFIGURABLE", "El campo no es configurable.");		 
+define("_PROFILE_AM_FIELDNOTCONFIGURABLE", "El campo no es configurable.");
 
 define("_PROFILE_AM_ADD", "Agregar");
 define("_PROFILE_AM_EDIT", "Editar");
@@ -25,7 +25,7 @@ define("_PROFILE_AM_REQUIRED", "¿Requerido?");
 define("_PROFILE_AM_MAXLENGTH", "Tama&ntilde;o máximo");
 define("_PROFILE_AM_WEIGHT", "Peso");
 define("_PROFILE_AM_DEFAULT", "Por defecto");
-define("_PROFILE_AM_NOTNULL", "¿No nulo?"); 
+define("_PROFILE_AM_NOTNULL", "¿No nulo?");
 
 define("_PROFILE_AM_ARRAY", "Arreglo");
 define("_PROFILE_AM_EMAIL", "E-mail");
@@ -43,17 +43,17 @@ define("_PROFILE_AM_UNICODE_TXTBOX", "Text field Unicode");
 define("_PROFILE_AM_UNICODE_URL", "URL Unicode");
 
 define("_PROFILE_AM_PROF_VISIBLE_ON", "Campo visible en el perfil de estos grupos");
-define("_PROFILE_AM_PROF_VISIBLE_FOR", "Campo visible en el perfil para estos grupos"); 
+define("_PROFILE_AM_PROF_VISIBLE_FOR", "Campo visible en el perfil para estos grupos");
 define("_PROFILE_AM_PROF_VISIBLE", "Visibilidad");
 define("_PROFILE_AM_PROF_EDITABLE", "Campo editable desde el perfil");
 define("_PROFILE_AM_PROF_REGISTER", "Mostrar en la forma de registro");
 define("_PROFILE_AM_PROF_SEARCH", "Buscable por estos grupos");
 define("_PROFILE_AM_PROF_ACCESS", "Perfil accesible por estos grupos");
-define("_PROFILE_AM_PROF_ACCESS_DESC",
+define("_PROFILE_AM_PROF_ACCESS_DESC", 
         "<ul>" .
-        "<li>Grupos Admin: Si un usuario pertenece a grupos de administrador, el usuario actual tiene acceso si y sólo si a uno de los actuales grupos del usuario se le permite el acceso al grupo de administrador; else</li>" .
-        "<li>No grupos básicos: Si un usuario pertenece a uno o más grupos básicos (NO administrador, usuario, anónimo), el usuario actual tiene acceso si y sólo si uno de los actuales grupos del usuario está autorizado a permitir que cualquiera de los grupos básicos no; else</li>" .
-        "<li>Grupo usuario: Si un usuario pertenece al grupo de usuarios solo, el usuario actual tiene acceso si y sólo si uno de sus grupos tiene permitido el acceso al grupo usuario</li>" .
+        "<li>Admin groups: If a user belongs to admin groups, the current user has access if and only if one of the current user's groups is allowed to access admin group; else</li>" .
+        "<li>Non basic groups: If a user belongs to one or more non basic groups (NOT admin, user, anonymous), the current user has access if and only if one of the current user's groups is allowed to allowed to any of the non basic groups; else</li>" .
+        "<li>User group: If a user belongs to User group only, the current user has access if and only if one of his groups is allowed to access User group</li>" .
         "</ul>");
 
 define("_PROFILE_AM_FIELDVISIBLE", "El campo ");
@@ -86,16 +86,17 @@ define("_PROFILE_AM_VALUE", "Texto a mostrar");
 
 // User management
 define("_PROFILE_AM_EDITUSER", "Editar usuario");
-define("_PROFILE_AM_SELECTUSER", "Seleccionar usuario");	
-define("_PROFILE_AM_ADDUSER","Agregar usuario");	
-define("_PROFILE_AM_THEME","Tema");	 
-define("_PROFILE_AM_RANK","Rango");	
-define("_PROFILE_AM_USERDONEXIT","El usuario no existe");  
-define("_PROFILE_MA_USERLEVEL", "Nivel del usuario");					
+define("_PROFILE_AM_SELECTUSER", "Seleccionar usuario");
+define("_PROFILE_AM_ADDUSER","Agregar usuario");
+define("_PROFILE_AM_THEME","Tema");
+define("_PROFILE_AM_RANK","Rango");
+define("_PROFILE_AM_USERDONEXIT","El usuario no existe");
+define("_PROFILE_MA_USERLEVEL", "Nivel del usuario");
 
-define("_PROFILE_MA_ACTIVE", "Activo");	
+define("_PROFILE_MA_ACTIVE", "Activo");
 define("_PROFILE_MA_INACTIVE", "Inactivo");
-define("_PROFILE_AM_USERCREATED", "Usuario creado"); 
+define("_PROFILE_AM_USERCREATED", "Usuario creado");
+
 define("_PROFILE_AM_CANNOTDELETESELF", "No puede eliminar su propia cuenta - utilice su página de perfil para eliminar su propia cuenta");
 define("_PROFILE_AM_CANNOTDELETEADMIN", "No está permitido eliminar una cueta de administrador");
 
@@ -103,7 +104,7 @@ define("_PROFILE_AM_NOSELECTION", "No se eligió ningún usuario");
 define("_PROFILE_AM_USER_ACTIVATED", "Usuario activado");
 define("_PROFILE_AM_USER_DEACTIVATED", "Usuario desactivado");
 define("_PROFILE_AM_USER_NOT_ACTIVATED", "Error: Usuario no activado");
-define("_PROFILE_AM_USER_NOT_DEACTIVATED", "Error: Usuario no desactivado");		 
+define("_PROFILE_AM_USER_NOT_DEACTIVATED", "Error: Usuario no desactivado");
 
 define("_PROFILE_AM_STEPNAME", "Nombre del paso");
 define("_PROFILE_AM_STEPORDER", "Orden del paso");
@@ -111,4 +112,13 @@ define("_PROFILE_AM_STEPSAVE", "Guardar después del paso");
 define("_PROFILE_AM_STEPINTRO", "Descripción del paso");
 //1.62
 define('_PROFILE_AM_ACTION', 'Acción');
+//1.63
+define('_PROFILE_AM_REQUIRED_TOGGLE', 'Alternar campo obligatorio');
+define('_PROFILE_AM_REQUIRED_TOGGLE_SUCCESS', 'El Campo obligatorio se ha cambiado correctamente ');
+define('_PROFILE_AM_REQUIRED_TOGGLE_FAILED', 'Error al Cambiar el Campo Obligatorio');
+
+define('_PROFILE_AM_SAVESTEP_TOGGLE', 'Alternar guardar');
+define('_PROFILE_AM_SAVESTEP_TOGGLE_SUCCESS', 'Cambiado correctamente guardar después del paso');
+define('_PROFILE_AM_SAVESTEP_TOGGLE_FAILED', "No se pudo cambiar 'Guardar después del paso'");
+
 ?>
