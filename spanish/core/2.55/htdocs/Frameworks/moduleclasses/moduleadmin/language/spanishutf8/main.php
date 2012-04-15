@@ -33,4 +33,17 @@ define('_AM_MODULEADMIN_ABOUT_MODULESTATUS','Estado:');
 define('_AM_MODULEADMIN_ABOUT_UPDATEDATE','Fecha de actualización:');
 define('_AM_MODULEADMIN_ABOUT_WEBSITE',"Sitio web:");
 
-?>
+define("_AM_MODULEADMIN_ABOUT_RELEASEDATE","Lanzado: ");
+define("_AM_MODULEADMIN_ABOUT_AUTHOR","Autor: ");
+define("_AM_MODULEADMIN_ABOUT_CREDITS","Créditos: ");
+define("_AM_MODULEADMIN_ABOUT_LICENSE","Licencia: ");
+define("_AM_MODULEADMIN_ABOUT_AUTHOR_NAME","Autor: ");
+define("_AM_MODULEADMIN_ABOUT_AUTHOR_INFO","Info de Autor");
+
+define("_AM_MODULEADMIN_HOME", "Inicio");
+define("_AM_MODULEADMIN_DASHBOARD", "Panel de Control");
+define("_AM_MODULEADMIN_ABOUT", "Acerca de");
+define("_AM_MODULEADMIN_PERMISSIONS", "Permisos");
+
+//ModuleAdmin
+define("_AM_MODULEADMIN_ADMIN_FOOTER", "<div class='center smallsmall italic pad5'>Este módulo es mantenido por la <a class='tooltip' rel='external' href='http://xoops.org/' title='Visite la comunidad de XOOPS'>Comunidad de XOOPS</a></div>");
