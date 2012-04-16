@@ -1,7 +1,21 @@
 XOOPS 2.5.x Changelog (Language changes: see: /docs/lang_diff.txt)
 
 ===============================
-2011/03/14: Version 2.5.5 RC
+2012/04/15: Version 2.5.5 Final
+===============================
+Bugfixes:
+ - preventing division by zero in pagenav.php (timgno)
+ - ID: 3466534 tooltip "$ not defined" fix (culex)
+ - ID: 3513787 wrong cookie_domain (arion92fr) 
+ - ID: 3518291 Fix of variables assigned by reference in formelementtray (mamba)
+ - problem in formtextdateselect (wishcraft)
+ 
+Updated:
+ - phpThumb to 1.7.11 (mamba)
+ - jGrowl to 1.2.6 (mowaffaq/mamba)
+
+===============================
+2012/03/14: Version 2.5.5 RC
 ===============================
 Bugfixes:
  - ID: 3494895 When changing the # of visible entries in Protector, it goes to Admin (jcweb/mamba)
@@ -22,7 +36,7 @@ Updated:
  - jQueryUI to version 1.8.18 (mamba)
 
 ===============================
-2011/02/19: Version 2.5.5 Beta
+2012/02/19: Version 2.5.5 Beta
 ===============================
 Security fixes:
  - XSS (Cross Site Scripting) vulnerability in PM module and tinymce (High-Tech Bridge Security Research Lab/trabis)

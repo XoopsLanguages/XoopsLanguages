@@ -223,10 +223,16 @@ define('_LANGCODE', 'ru');
 
 // change 0 to 1 if this language is a multi-bytes language
 define('XOOPS_USE_MULTIBYTES', '1');
-
 /**
 * Additions to 2.4.0
 **/
 define('_RESET', 'Сброс');
 define('_RE', 'Re:');
+/**
+ * Additions to 2.5.5
+**/
+define('_DBDATESTRING', 'Y-m-d');
+define('_DBTIMESTRING', 'H:i:s');
+define('_DBTIMESTAMPSTRING', 'Y-m-d H:i:s');
+
 ?>

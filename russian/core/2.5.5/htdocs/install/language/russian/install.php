@@ -182,6 +182,7 @@ define( "ICONV_CONVERSION", "Character set conversion");
 define( "ZLIB_COMPRESSION", "Zlib сжатия");
 define( "IMAGE_FUNCTIONS", "Функции изображения");
 define( "IMAGE_METAS", "Мета данных изображения (exif)");
+define( "FILTER_FUNCTIONS", "Функции Filter");
 
 define( "ADMIN_EXIST", "Учетная запись администратора уже существует.<br />Нажмите <strong>дальше</strong> чтобы приступить к следующему шагу.");
 
