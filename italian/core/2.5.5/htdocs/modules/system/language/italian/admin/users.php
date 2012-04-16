@@ -117,6 +117,7 @@ define("_AM_SYSTEM_USERS_UPDATEUSER","Aggiorna utente");
 define("_AM_SYSTEM_USERS_USERINFO","Info utente");
 define("_AM_SYSTEM_USERS_USERID","ID utente");
 define("_AM_SYSTEM_USERS_RETYPEPD","Reinserire password");
+define("_AM_SYSTEM_USERS_ACCEPT_EMAIL","Accettare le email dagli Amministratori?");
 define("_AM_SYSTEM_USERS_CHANGEONLY","(solo per le modifiche)");
 define("_AM_SYSTEM_USERS_USERPOST","Post");
 define("_AM_SYSTEM_USERS_STORIES","Articoli");
