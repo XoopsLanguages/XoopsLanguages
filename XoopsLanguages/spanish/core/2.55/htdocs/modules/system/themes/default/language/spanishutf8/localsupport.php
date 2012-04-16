@@ -6,10 +6,10 @@ $menu = array();
 // sample for English  support
 
 $menu[] = array(
-    'link'      => 'http://www.esxoops.com',
+    'link'      => 'http://www.aleros.net',
     'title'     => 'XOOPS',
     'absolute'  => 1,
-    'icon'      => XOOPS_URL . '/modules/system/class/gui/oxygen/images/xoops.png'
+    'icon'      => XOOPS_ADMINTHEME_URL . '/default/images/xoops.png'
 );
 /*
 $menu[] = array(
