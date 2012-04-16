@@ -34,7 +34,6 @@ define("_AM_MODULEADMIN_DASHBOARD", "Dashboard");
 define("_AM_MODULEADMIN_ABOUT", "Informazioni");
 define("_AM_MODULEADMIN_PERMISSIONS", "Permessi");
 define("_AM_MODULEADMIN_ABOUT_AUTHOR","Autore: ");
-define("_AM_MODULEADMIN_ABOUT_CREDITS","Crediti: ");
 define("_AM_MODULEADMIN_ABOUT_LICENSE","Licenza: ");
 define("_AM_MODULEADMIN_ABOUT_AUTHOR_NAME","Nome Autore: ");
 define("_AM_MODULEADMIN_ABOUT_AUTHOR_INFO","Info Autore");
