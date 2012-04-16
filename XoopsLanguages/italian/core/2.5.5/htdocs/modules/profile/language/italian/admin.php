@@ -25,8 +25,9 @@ define("_PROFILE_AM_DESCRIPTION", "Descrizione");
 define("_PROFILE_AM_REQUIRED", "Obbligatorio");
 define("_PROFILE_AM_MAXLENGTH", "Massimo numero di caratteri");
 define("_PROFILE_AM_WEIGHT", "Peso");
-define("_PROFILE_AM_DEFAULT", "Default");
-define("_PROFILE_AM_NOTNULL", "Not Null?");
+define("_PROFILE_AM_ACTION", "Azione");
+define("_PROFILE_AM_DEFAULT", "Predefinito");
+define("_PROFILE_AM_NOTNULL", "No Nullo?");
 
 define("_PROFILE_AM_ARRAY", "Set di valori (Array)");
 define("_PROFILE_AM_EMAIL", "Email");
