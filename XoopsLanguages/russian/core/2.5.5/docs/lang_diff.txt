@@ -3,7 +3,7 @@ LANGUAGE DIFFERENCES
 
 Below are language differences from a version to next version.
 ===============================
-2012/04/02: Version 2.5.5 
+2012/04/15: Version 2.5.5
 ===============================
 ADDED/DELETED DEFINES
 
@@ -18,6 +18,35 @@ ADDED/DELETED DEFINES
 - added define("_AM_MODULEADMIN_ABOUT_LICENSE","License: ");
 - added define("_AM_MODULEADMIN_ABOUT_AUTHOR_NAME","Author name: ");
 - added define("_AM_MODULEADMIN_ABOUT_AUTHOR_INFO","Author Info");
+- added define("_AM_MODULEADMIN_ADMIN_FOOTER", "<div class='center smallsmall italic pad5'>This module is maintained by the <a class='tooltip' rel='external' href='http://xoops.org/' title='Visit XOOPS Community'>XOOPS Community</a></div>");
+
+/language/english/calendar.php
+- added define("_CAL_FORMAT","Y-m-d");
+
+/xoops_lib/modules/protector/language/english/modinfo.php
+
+- added  define($constpref."_ADMINHOME","Home");
+- added define($constpref."_ADMINABOUT","About");
+- added define($constpref.'_STOPFORUMSPAM_ACTION','Stop Forum Spam');
+- added define($constpref.'_STOPFORUMSPAM_ACTIONDSC','Checks POST data against spammers registered on www.stopforumspam.com database. Requires php CURL lib.');
+
+
+/install/language/english/install.php
+- added define( "FILTER_FUNCTIONS", "Filter functions");
+
+/language/english/global.php
+- added define('_DBDATESTRING', 'Y-m-d');
+- added define('_DBTIMESTRING', 'H:i:s');
+- added define('_DBTIMESTAMPSTRING', 'Y-m-d H:i:s');
+
+/language/english/pmsg.php
+- added define('_PM_READ', 'Already Read');
+
+/modules/system/language/english/admin.php
+- added define("_AM_SYSTEM_UNINSTALL","Uninstall");
+
+SEE ALSO:
+/modules/profile/docs/lang_diff.txt
 
 ===============================
 2011/11/17: Version 2.5.4 

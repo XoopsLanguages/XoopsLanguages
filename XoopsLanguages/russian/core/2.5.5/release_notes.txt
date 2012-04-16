@@ -1,6 +1,6 @@
-XOOPS 2.5.5 RC
+XOOPS 2.5.5 Final
 
-The XOOPS Development Team is pleased to announce the release of XOOPS 2.5.5 RC (Release Candidate). 
+The XOOPS Development Team is pleased to announce the release of XOOPS 2.5.5 Final. 
 
 This release is focused on fixing open bugs, and on updating our libraries to the latest versions:
 
@@ -9,6 +9,8 @@ This release is focused on fixing open bugs, and on updating our libraries to th
 - jQuery 1.7.2
 - jQueryUI 1.8.18
 - HTML Purifier to 4.4.0
+- phpThumb 1.7.11 
+- jGrowl 1.2.6 
 
 See the Changelog for more details.
  
@@ -28,7 +30,7 @@ Any server supporting the required PHP version (Apache highly recommended)
 Downloading XOOPS
 -----------------------------------
 
-You can get this release package from the [url=https://sourceforge.net/projects/xoops/files/XOOPS%20Core%20%28Beta%20Releases%29/XOOPS_2.5.5_RC/]Sourceforge repository[/url].
+You can get this release package from the [url=https://sourceforge.net/projects/xoops/files/XOOPS%20Core%20%28stable%20releases%29/XOOPS_2.5.5/]Sourceforge repository[/url].
 There are .zip, .7z, and .gz archives provided.
 
 
@@ -73,9 +75,9 @@ Upgrading from versions older than 2.5.0:
     Following are instructions for upgrading from XOOPS 2.4.5 to 2.5 provided by John Healy:
     0. Verify the system requirements, in particular the version of PHP. Backup your XOOPS database and site directory. (There are several ways to do these actions, which are discussed elsewhere.) Turning your site off is optional.
         Change the permissions on mainfile.php and /include/license.php to be writable, for example:
-                File         Normal For upgrade
-                mainfile.php 400 700
-                /include/license.php 444 777
+                File         		Normal For upgrade
+                mainfile.php 		400 	700
+                /include/license.php 	444 	777
         Get the correct update package from the SourceForge file repository.
     1. In the upgrade package folder, move the "upgrade" folder inside the "htdocs" folder, if it's not already there. Remove the install folder from the "htdocs" folder, if it's there. Remove the mainfile.php file from the "htdocs" folder, if it's there.
         If you've moved the xoops_data and xoops_lib folders outside your site's root directory, move these folders out of the "htdocs" folder in the upgrade package folder.
@@ -95,7 +97,7 @@ Upgrading from versions older than 2.5.0:
 Debug information display level
 -----------------------------------
 
-Since XOOPS 2.3.1 debug information display level is enabled as a temporary solution for 2.3* to show debug information to different level of users: to all users, to members or to admins only.
+Debug information display level is enabled at a different level of users: to all users, to members or to admins only.
 The configuration can be set in /xoops_data/configs/xoopsconfig.php
 As a default, the display level is set for Admin only.
 
@@ -125,4 +127,4 @@ Release announcement: https://lists.sourceforge.net/lists/listinfo/xoops-announc
 
 
 XOOPS Development Team
-April 2nd, 2012
+April 15th, 2012
