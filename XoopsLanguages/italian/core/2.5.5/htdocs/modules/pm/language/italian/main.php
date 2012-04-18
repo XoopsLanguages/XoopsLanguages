@@ -94,4 +94,8 @@ define("_PM_EMAIL_MESSAGE", "Contenuto del messaggio");
 
 define("_PM_ACTION_DONE", "Operazione eseguita con successo");
 define("_PM_ACTION_ERROR", "Operazione non riuscita");
+
+//XOOPS 2.5.2
+define("_PM_READ","Gi&#224; letto");
+define("_PM_SUBJECT_ICONS","Icone Oggetto: ");
 ?>
