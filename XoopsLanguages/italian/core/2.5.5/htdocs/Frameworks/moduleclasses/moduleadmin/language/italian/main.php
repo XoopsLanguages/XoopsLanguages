@@ -50,4 +50,5 @@ define('_AM_MODULEADMIN_ABOUT_UPDATEDATE', 'Aggiornato:');
 define('_AM_MODULEADMIN_ABOUT_RELEASEDATE', 'Rilasciato:');
 define('_AM_MODULEADMIN_ABOUT_WEBSITE', 'Sito Web:');
 
-?>
+//ModuleAdmin
+define("_AM_MODULEADMIN_ADMIN_FOOTER", "<div class='center smallsmall italic pad5'>Questo module &#232 mantenuto da <a class='tooltip' rel='external' href='http://xoops.org/' title='Visita XOOPS Community'>XOOPS Community</a></div>");
