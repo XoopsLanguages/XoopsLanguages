@@ -118,6 +118,7 @@ define($constpref.'_SPAMURI4UDSC','Se in un invio di dati POST da parte di un ut
 define($constpref.'_SPAMURI4G','Anti-SPAM: numero di indirizzi per gli utenti anonimi');
 define($constpref.'_SPAMURI4GDSC','Se in un invio di dati POST da parte di un utente anonimi vengono rilevati pi&ugrave; indirizzi URL di quanto consentito qui, l\'invio viene considerato SPAM. Impostare 0 per disabilitare questa funzionalit&agrave;..');
 
+//3.50
+define($constpref.'_STOPFORUMSPAM_ACTION','Bloccare lo Spam sul Forum');
+define($constpref.'_STOPFORUMSPAM_ACTIONDSC','Verifica dati POST contro gli spammer registrati su database www.stopforumspam.com. Rechiede php CURL lib.');
 }
-
-?>
