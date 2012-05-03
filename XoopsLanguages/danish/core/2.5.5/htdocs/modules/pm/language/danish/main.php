@@ -48,31 +48,33 @@ define("_PM_EMPTY", "Tomme");
 define("_PM_REPLY", "Svar");
 define("_PM_PLZREG", "Register dig som bruger for at sende private meddelelser!");
 define("_PM_SAVED_PART", "Du er tilladt %d i din gemt boks og du gemte %d meddelelser");
+
 define("_PM_SAVED_ALL", "Meddelelser er blevet flyttet til gemt");
 define("_PM_UNSAVED", "Meddelelser er blevet fjernet fra gemt");
 define("_PM_EMPTIED", "Boksen er blevet tømt");
 define("_PM_RUSUREEMPTY", "Er du sikker på du vil tømme?");
-define("_PM_RUSUREDELETE", "Er du sikker på du vil slette disse meddelelser?");
+define("_PM_SURE_TO_DELETE", "Er du sikker på du vil slette disse meddelelser?");
+
 
 define("_PM_ONLINE", "Online");
 
-define("_PM_RECEIVE", "MODTAG");
-define("_PM_POST", "POST");
-define("_PM_READBOX", "LÆS");
-define("_PM_RSAVEBOX", "Modtag_GEMT");
-define("_PM_OUTBOX", "Udbakke");
+define("_PM_OUTBOX","Udboks");
+
+
+
+
 define("_PM_SAVEBOX", "GEMT");
-define("_PM_SENTBOX", "Udbakke");
-define("_PM_PSAVEBOX", "Post_GEMT");
 define("_PM_SAVE", "GEM");
-define("_PM_SAVED", "Gemt");
-define("_PM_TOC", "Fra:");
+
+
+
+
 
 //WANISYS.NET PM HACK1.5
 define("_PM_SORT", "Sortér");
 define("_PM_ORDER", "Rækkefølge");
-define("_PM_UID", "Partner's UID");
 define("_PM_TIME", "Dato");
+
 define("_PM_ASC", "Stigende");
 define("_PM_DESC", "Faldende");
 define("_PM_LIMIT", "PM'er pr side");
@@ -83,6 +85,7 @@ define("_PM_NEXTP", "Næste");
 
 define("_PM_MAILNOTIFY", "%s-Du fik en ny PM fra %s ");
 define("_PM_MAILMESSAGE", "Hej!\nA Der er kommet en ny PM fra %s\n\nTitlen på PM er\n%s\n\nDu kan se din PM her\n%s\n\n-----------\nDu modtager denne besked, fordi du valgte at blive underrettet, når du modtager en ny PM \n\n\Du kan ændre din PM-konfiguration\n%s\n\nBesvar ikke at besvare denne meddelelse\n\n---------\nMed venlig hilsen\n%s\n%s\n%s ");
+
 
 define("_PM_EMAIL", "Videresend til e-mail");
 define("_PM_EMAIL_DESC", "Kære %s, dette er en meddelelse fra din konto på ".$GLOBALS['xoopsConfig']['sitename']);
