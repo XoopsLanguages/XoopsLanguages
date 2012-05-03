@@ -27,5 +27,7 @@ define("_PM_MI_MAXSAVE_DESC", "");
 define("_PM_MI_PERPAGE", "Meddelelser per side");
 define("_PM_MI_PERPAGE_DESC", "");
 
+//1.07
+define("_PM_MI_ABOUT", "Om");
 ?>
 <?php // Translation done by xtransam & anderssk - 2010-10-19 07:26 ?>

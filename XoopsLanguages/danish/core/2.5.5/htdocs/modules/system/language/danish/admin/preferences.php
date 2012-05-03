@@ -145,11 +145,7 @@ define("_MD_AM_BADEMAILS", "Indtast e-mails, der ikke må anvendes i brugerprofi
 define("_MD_AM_BADEMAILSDSC", "Opdel med en <strong>|</strong>,  ingen forskel på store og små bogstaver, regex aktiveret.");
 define("_MD_AM_BADUNAMES", "Indtaste navne, der ikke må vælges som brugernavn");
 define("_MD_AM_BADUNAMESDSC", "Særskilt hver med en <strong>|,</strong> sag ufølsomme, regex aktiveret.");
-define("_MD_AM_DOBADIPS", "Aktiver IP spærring?");define("_MD_AM_INDEXFOLLOW", "Index, Follow");
-define("_MD_AM_NOINDEXFOLLOW", "No Index, Follow");
-define("_MD_AM_INDEXNOFOLLOW", "Index, No Follow");
-define("_MD_AM_NOINDEXNOFOLLOW", "No Index, No Follow");
-define("_MD_AM_METAAUTHOR", "Meta Author");
+define("_MD_AM_DOBADIPS", "Aktiver IP spærring?");
 define("_MD_AM_DOBADIPSDSC", "Brugere fra bestemte IP-adresser vil ikke være i stand til at se dit websted");
 define("_MD_AM_BADIPS", "Indtast IP-adresser, der skal udelukket fra sitet. <br /> Særskilt hver med en <strong>|</strong>, ingen forskel på store og små bogstaver, regex aktiveret.");
 define("_MD_AM_BADIPSDSC", "^aaa.bbb.ccc vil afvise besøgende med en IP der starter med aaa.bbb.ccc <br /> aaa.bbb.ccc$ vil afvise besøgende med en IP, der ender med aaa.bbb.ccc <br /> aaa.bbb.ccc vil ikke tillade besøgende med en IP, der indeholder aaa.bbb.ccc");
@@ -359,4 +355,4 @@ define("_MD_AM_MODULEPREF", "Modul Indstillinger");
 // Preference module system
 
 define("_AM_SYSTEM_PREFERENCES_SETTINGS", "System Indstillinger");
-?><?php // Translation done by xtransam & anderssk - 2010-10-19 07:12 ?>
+?><?php // Translation done by culex - 2012-05-03 17:01 ?>
