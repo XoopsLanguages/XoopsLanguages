@@ -5,6 +5,8 @@
 // Translator: XOOPS Translation Team
 
 //%%%%%     Time Zone   %%%%
+define("_CAL_FORMAT","d-m-Y");
+
 define("_CAL_SUNDAY", "Søndag");
 define("_CAL_MONDAY", "Mandag");
 define("_CAL_TUESDAY", "Tirsdag");

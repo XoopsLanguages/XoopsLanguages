@@ -181,6 +181,7 @@ define( "ICONV_CONVERSION", "Character set conversion");
 define( "ZLIB_COMPRESSION", "Zlib Compression");
 define( "IMAGE_FUNCTIONS", "Image functions");
 define( "IMAGE_METAS", "Image meta data (exif)");
+define( "FILTER_FUNCTIONS", "Filteringsfunctioner");
 
 define( "ADMIN_EXIST", "Administratorskontoen findes allerede.<br />Klik <strong>n&aelig;ste</strong> for at g&aring; til n&aelig;ste trin.");
 
