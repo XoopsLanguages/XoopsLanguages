@@ -1,0 +1,36 @@
+<!-- [* $Id$ *] -->
+<div id="help-template" class="outer">
+	<h1 class="head">Aide : Préférences</h1>
+	<h4 class="odd">Description</h4>
+	<p class="even">Sans doute une des  premièrse pages à laquelle vous accéderez sur votre site sous XOOPS. Le <strong>Panneau des Préférences</strong> est la page d'accès aux principales sections de configuration fonctionnelle de votre site.<br />Il est donc nécessaire de prendre son temps de les analyser car certains paramètres peuvent avoir un impact significatif sur les performances, la sécurité et la facilité de prise en main future de votre site.</p>
+	<h4 class="odd">Paramètres généraux</h4>
+	<p class="even">Ce sont les paramètres de configuration les plus important et auxquels vous accéderez régulièrement. C'est ici que vous préciser le nom et le slogan de votre site web, vous y indiquerez  le thème graphique par défaut pour le côté <em>"utilisateur"</em> et celui de votre interface d'administration.<br />Et si vous en avez la nécessité pour intervenir profondément sur votre site, c'est ici également que  vous pourrez y fermer l'accès aux utilisateurs. Une attention particulière sera également le réglage du cache temporaire global des modules.</p>
+	<h4 class="odd">Balises META et Pied de page</h4>
+	<div class="even">
+		<p>Les balises <em>"META"</em> fournissent des informations aux navigateurs internet et aux robots et annuaires de référencement. Elles décrivent la nature et consistance de votre site Web.<br />L'information que vous y indiquée sera  incluse dans l'entête de chacune de vos pages, elles doivent donc représenter le plus clairement le contenu du site sur son entier.<br />Certains modules possèdent la fonctionnalités d'y apporter leurs propres Meta ou de compléter les existantes.
+		</p>
+		<p>Sachez cependant que les principaux moteurs de recherche utilisent des stratégies différentes pour indexer les sites web. Ils peuvent par exemple donner une valeur plus ou moins importante à certaines balises META, voire en ignorer certaines.<br />L'utilisation judicieuse des balises <em>"Meta"</em> pourra vous aider  à gagner des places dans les classements des  moteurs de recherche, il est donc important et utile de rechercher des informations sur les stratégies d'indexation de vos principaux référents. Ceci vous permettra d'optimiser et d'affiner les informations renseignées dans ces balises.</p>
+		<p>Soyez précis et honnête en renseignant les informations <em>"Meta"</em>, manipuler faussement les moteurs de recherche afin d'obtenir un meilleur classement, pourrait avoir l'effet totalement contraire, voire la mise sur une liste de noir de leur indexation.</p>
+	</div>
+	<h4 class="odd">Paramétrage des mots censurés</h4>
+	<div class="even">
+		<p>XOOPS peut de manière automatique et transparente, bloquer des mots indésirables (que vous aurez préalablement défini) susceptible d'être utilisés dans les contributions de vos visiteurs, et les remplacer par un autre mot de votre choix. Cette fonctionalité utilise des ressources système et peut éventuellement ralentir légèrement votre site. Par défaut, elle est désactivée.</p>
+		<p>Pour activer sur votre site cette fonctionalité, vous devez sélectionner <em>"oui"</em> à la question <em>"Activer la censure des mots censurés"</em>. Vous devrez compléter la liste de mots non désirés dans le champ correspondant, en les séparant par un <strong>|</strong>, cette fonction n'est pas sensible à la casse. Vous indiquerez ensuite les mots de remplacement.</p>
+	</div>
+	<h4 class="odd">Options de recherche</h4>
+	<div class="even">
+		<p>La fonction de recherche est l'un des outils les plus important et puissant pour retrouver une information sur un site de type portail internet. Le résultat d'une recherche réalisée à l'aide du moteur de XOOPS, sera affiché et regroupé par module, les enregistrements seront donc clairement localisés.</p>
+		<p>La recherche globale sur tout le contenu de votre site est activée par défaut. Si vous désactivez cette fonction de recherche, elle ne sera plus disponible et le bloc de recherche  inactif.<br />La taille minimale par défaut d'un mot clef est réglé sur  5 caréctères. Toute recherche à partir d'un mot-clé inférieur à cette limite, sera ignorée.<br />Ceci s'avère utile pour la affiner la précision des recherches, les mots courts étant les plus usuels, ils peuvent renvoyer un nombre trop important de résultats, sans améliorer la pertinence de la recherche.<br />La fonction de recherche consomme des ressources système, en excluant ainsi des mots courts, la charge sur le serveur se trouve réduite. Cependant,
+	d'un site particulier, il peut-être nécessaire de descendre la limite de caractères pour les mots-clés.</p>
+</div>
+	<h4 class="odd">Paramètres Email</h4>
+	<p class="even">Vous y configurerez les paramètres d'expédition des emails. La méthode paramétrée par défaut  <em>"PHP mail()"</em> est la plus générique et de demande pas, généralement, de modification. Vous n'avez alors, plus besoin de renseigner les informations sur le chemin vers <em>"Sendmail"</em>, ni la configuration des hôtes <em>"SMTP"</em>, excepté  si vous devez utiliser une autre méthode d'expédition.<br />Pour ces paramètres particuliers, vous pouvez vous référer à la documentation de votre hébergeur.
+	</p>
+	<h4 class="odd">Options d'Authentication</h4>
+	<div class="even">
+		<p>Dans la grande majorité des cas, l'utilisation par défaut de <em>"Base de données XOOPS"</em> sera utiliser, les  autres options sont principalement employées dans le cadre d'intranet ou de sites complexes.</p>
+		<p>Les principales méthodes d'authentification <em>"LDAP"</em> et <em>"Microsoft Active directory"</em> ont été ajoutés pour permettre l'utilisation de XOOPS sur d'importants systèmes Intranet, afin de ne posséder qu'une unique base d'utilisateurs inscrits.</p>
+	</div>
+	<h4 class="odd">Paramètres du module système</h4>
+	<p class="even">Vvous pourrez y activer ou désactiver certaines fonctionnalités du système, et spécifier les valeurs globales à utiliser par défaut (par exemple, le nombre d'avatars affichés par page).<br />La sélection du choix des éditeurs de texte par défaut pour les blocs, commentaires et  modules se fera dans cette partie de l'administration de votre site.</p>
+</div> 
