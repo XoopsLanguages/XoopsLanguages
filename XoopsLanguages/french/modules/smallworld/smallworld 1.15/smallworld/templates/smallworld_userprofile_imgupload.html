@@ -1,0 +1,32 @@
+	<{if $xoops_isuser}>	
+		<{if $check >= 1}>
+			<div id="file_upload" class="smallworld_content" title="<{$smarty.const._SMALLWORLD_UPLOAD_TITLE}>">
+				<{$smarty.const._SMALLWORLD_UPLOAD_HOWTO}>
+				<{section name=i loop=$uploadform}>
+					<{$uploadform[i]}>
+				<{/section}> 
+				<table class="files">
+					<tr class="file_upload_template" style="display:none;">
+						<td class="file_upload_preview"></td>
+						<td class="file_name"></td>
+						<td class="file_size"></td>
+						<td class="file_upload_progress"><div></div></td>
+						<td class="file_upload_start"><button><{$smarty.const._SMALLWORLD_IMAGES_START}></button></td>
+						<td class="file_upload_cancel"><button><{$smarty.const._SMALLWORLD_IMAGES_CANCEL}></button></td>
+					</tr>
+					<tr class="file_download_template" style="display:none;">
+						<td class="file_download_preview"></td>
+						<td class="file_name"><a></a></td>
+						<td class="file_size"></td>
+						<td class="file_download_delete" colspan="3"><button><{$smarty.const._SMALLWORLD_IMAGES_DELETE}></button></td>
+					</tr>
+				</table>
+				<div class="file_upload_overall_progress"><div style="display:none;"></div></div>
+				<div class="file_upload_buttons">
+					<button class="file_upload_start"><{$smarty.const._SMALLWORLD_IMAGES_STARTALL}></button> 
+					<button class="file_upload_cancel"><{$smarty.const._SMALLWORLD_IMAGES_CANCELALL}></button> 
+					<button class="file_download_delete"><{$smarty.const._SMALLWORLD_IMAGES_DELETEALL}></button>
+				</div>
+			</div>
+			<{/if}>
+	<{/if}>
