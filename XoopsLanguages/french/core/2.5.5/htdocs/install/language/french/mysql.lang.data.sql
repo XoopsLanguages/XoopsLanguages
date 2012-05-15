@@ -26,8 +26,8 @@ INSERT INTO smiles VALUES (9, ':-P', 'smilies/smil3dbd4ddd6835f.gif', 'Ironique'
 INSERT INTO smiles VALUES (10, ':oops:', 'smilies/smil3dbd4df1944ee.gif', 'Embarrassé(e)', 0);
 INSERT INTO smiles VALUES (11, ':cry:', 'smilies/smil3dbd4e02c5440.gif', 'Pleurs (très triste)', 0);
 INSERT INTO smiles VALUES (12, ':evil:', 'smilies/smil3dbd4e1748cc9.gif', 'Mauvais ou très Fou', 0);
-INSERT INTO smiles VALUES (13, ':roll:', 'smilies/smil3dbd4e29bbcc7.gif', 'Je fais l\'innocent(e)', 0);
-INSERT INTO smiles VALUES (14, ';-)', 'smilies/smil3dbd4e398ff7b.gif', 'Clin d\'oeil', 0);
+INSERT INTO smiles VALUES (13, ':roll:', 'smilies/smil3dbd4e29bbcc7.gif', 'Je fais l innocent(e)', 0);
+INSERT INTO smiles VALUES (14, ';-)', 'smilies/smil3dbd4e398ff7b.gif', 'Clin d oeil', 0);
 INSERT INTO smiles VALUES (15, ':pint:', 'smilies/smil3dbd4e4c2e742.gif', 'Une autre pinte de bière', 0);
 INSERT INTO smiles VALUES (16, ':hammer:', 'smilies/smil3dbd4e5e7563a.gif', 'En plein travail', 0);
-INSERT INTO smiles VALUES (17, ':idea:', 'smilies/smil3dbd4e7853679.gif', 'J\'ai une idée', 0);
+INSERT INTO smiles VALUES (17, ':idea:', 'smilies/smil3dbd4e7853679.gif', 'J ai une idée', 0);
