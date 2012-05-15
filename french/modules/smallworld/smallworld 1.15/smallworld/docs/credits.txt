@@ -1,0 +1,16 @@
+Credits
+===============
+Originally developed by Michael Albertsen (http://culex.dk) <culex@culex.dk>
+
+Development first aid for keeping ready for blue move by Mamba
+
+Testing and feedback especially by Mariane, Pavlina, Dante7237, Mcron & Mamba
+
+Credit also to original plugins that I have moderated to fix this project
+
+Srinivas Tamada for his tutorials on Php & JQuery, Andris Valums (Jquery.ajax upload plugin),
+Keith Wood (Jquery.bookmark & Jquery.countdown plugins), Jack Moore (Jquery.colorbox plugin),
+Jan Jarfalk (Jquery.elastic plugin), Sebastian Tschan (Jquery.blueImp plugin),
+Trent Foley (Jquery.galleriffic plugin), Andrew Mee (Jquery.Oembed plugin),
+Washington Botelho dos Santos (Jquery.stepy plugin), GeekTantra (jquery.validate plugin),
+Bob Hitching (jquery.geo_autocomplete)
