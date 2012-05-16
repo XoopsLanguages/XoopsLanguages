@@ -1,0 +1,30 @@
+<div id="help-template" class="outer">
+	<h1 class="head">Aide : <a class="ui-corner-all tooltip" href="<{$xoops_url}>/modules/protector/admin/index.php" title="Revenir à l'interface d'administration du module"> Protector <img src="<{xoAdminIcons home.png}>" alt="Accueil Protector"/></a></h1>
+	<!-- -----Help Content ---------- -->
+	<h4 class="odd">Description</h4>
+	<p class="even">Protector est un module qui permet d'accroître la sécurité de XOOPS contre divers types d'attaques malicieuses.</p>
+	<h4 class="odd">Installion / Désinstallation</h4>
+	<p>Aucune mesure spéciale n'est nécessaire, suivre le processus de base d'installation -> installation et désinstallation du module via l'interface d'administration de ces derniers  Administration -> Module System -> Modules. </p>
+	<p>Un tutoriel détaillé d'installation des modules dans Xoops est disponible à partir de ce lien <a href="http://goo.gl/adT2i" title="Manuel d'Utilisation de XOOPS">Manuel d'Utilisation de XOOPS</a> </p>
+	<p>Assurez vous que le dossier XOOPS_TRUST_PATH/modules/protector/configs possède bien les permissions d'écriture</p>
+	<h4 class="odd">= Sauvetage =</h4>
+	<p>ISi vous êtes banni par protector, il vous faut juste supprimer les fichiers dans XOOPS_TRUST_PATH/modules/protector/configs/</p>
+	<h4 class="odd">Introduction for filter-plugins in this archive.</h4>
+	<h5>- postcommon_post_deny_by_rbl.php and anti-SPAM plugin.</h5>
+	<p>All of Post from IP registered in RBL will be rejected.<br/>This plugin can slow the performance of Post, especially chat modules.</p>
+	<h5>- postcommon_post_deny_by_httpbl.php and anti-SPAM plugin.</h5>
+	<p>All of Post from IP registered in http:BL will be rejected.<br/>Before using it, get HTTPBL_KEY from http://www.projecthoneypot.org/ and set it into the filter file.<br/>define( 'PROTECTOR_HTTPBL_KEY' , '............' ) ;</p>
+	<h5>- postcommon_post_need_multibyte.php an anti-SPAM plugin.</h5>
+	<p>Post without multi-byte characters will be rejected.<br/>This plugin is only for sites of japanese, tchinese, schinese, and korean.</p>
+	<h5>-postcommon_post_htmlpurify4guest.php</h5>
+	<p>All post data sent by guests will be purified by HTMLPurifier.<br/>If you allow guests posting HTML, I strongly recommend you to enable it.</p>
+	<h5>-postcommon_register_insert_js_check.php</h5>
+	<p>This plugin prevents your site from robot's user registering.<br/>Required JavaScript working on the vistors browser.</p>
+	<h5>-bruteforce_overrun_message.php</h5>
+	<p>Specify a message for visitors tried wrong passwords more than the specified times.<br/>All plugins named *_message.php specifys the message for rejected accesses.</p>
+	<h5>-precommon_bwlimit_errorlog.php</h5>
+	<p>When band width limitaion works unfortunately, this plugin logs it into Apache's error_log.<br />All plugins named *_errorlog.php log some informations into Apaches error_log.</p>
+	<h4 class="odd">Tutoriel</h4>
+	<p>En cours d'élaboration</p>
+	<!-- -----Help Content ---------- -->
+</div>
