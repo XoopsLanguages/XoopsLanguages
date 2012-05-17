@@ -1,5 +1,5 @@
 <?php
-// $Id$
+// $Id: modinfo.php 1687 2012-05-17 13:20:50Z cesag $
 // Module Info
 
 // The name of this module
@@ -118,7 +118,7 @@ define('_MI_NEWS_DATEFORMAT_DESC',"S'il vous plaît se référer à la documentation
 define('_MI_NEWS_META_DATA', "Permettre la saisie des données meta (keywords et description) ?");
 define('_MI_NEWS_META_DATA_DESC', "Si vous positionnez cette option sur 'Oui', alors les approbateurs pourront entrer les données meta suivantes : keywords et description");
 define('_MI_NEWS_BNAME8','Articles Aléatoires');
-define('_MI_NEWS_NEWSLETTER','Bulletin d'information');
+define('_MI_NEWS_NEWSLETTER',"Bulletin d'information");
 define('_MI_NEWS_STATS','Statistiques');
 define("_MI_NEWS_FORM_OPTIONS","Option de formulaire");
 define("_MI_NEWS_FORM_COMPACT","Compact");
