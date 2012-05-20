@@ -101,9 +101,9 @@ define("_SMALLWORLD_MOREINFO","Pour plus d'informations, cliquez ici");
 /*--------------------- Messages and boxes -----------------------------*/
 define("_SMALLWORLD_NOTYETUSER_GREETING","Bienvenue");
 define("_SMALLWORLD_NOTYETUSER_BOXTEXT","Afin d'utiliser ce module, vous devez remplir un formulaire de profil supplémentaire.
-		<br><br>Cliquez sur S'enregister pour continuer l'enregistrement ou cliquez sur Annuler<br>pour revenir à la page d'accueil.");
+		<br /><br />Cliquez sur S'enregister pour continuer l'enregistrement ou cliquez sur Annuler<br />pour revenir à la page d'accueil.");
 define("_SMALLWORLD_NOTYETREGISTERED_TITLE","Continuez pour terminer l'enregistrement");	
-define ("_SMALLWORLD_TEXTBEFORESUBMIT","Continuez en cliquant sur Enregistrer pour enregistrer vos informations dans la base de données.<br><br>Après cela, vous serez en mesure de visiter votre page, <br>et les pages des autres utilisateurs.<br><br>En vous remerciant d'avoir pris le temps de remplir ce formulaire.");
+define ("_SMALLWORLD_TEXTBEFORESUBMIT","Continuez en cliquant sur Enregistrer pour enregistrer vos informations dans la base de données.<br /><br />Après cela, vous serez en mesure de visiter votre page, <br />et les pages des autres utilisateurs.<br /><br />En vous remerciant d'avoir pris le temps de remplir ce formulaire.");
 define("_SMALLWORLD_FRIENDSINVITATIONS","Ajouter en ami");
 define("_SMALLWORLD_DATERECIEVED","Date");
 define("_SMALLWORLD_ACCEPT","Accepter");
@@ -245,12 +245,12 @@ define("_SMALLWORLD_INTERESTS_TITLE","Intérêts et contact");
 define("_SMALLWORLD_MORE"," .. tous les détails");
 
 /*-------------- Upload form --------------------*/
-define('_SMALLWORLD_UPLOAD_HOWTO','Toutes les images de votre album sont affichées ici. Vous pouvez utiliser cet outil pour télécharger ou supprimer des images<br><br>Cliquez sur les fichiers de téléchargement vert, Sélectionnez vos images à télécharger&thinsp;: <br> 1) Une par une à l\'aide des - src="images/icon_start.PNG" style="display: inline-block;height:13px;"/>icônes.<br> 2)Sélectionnez-en plusieurs en parcourant ou * en faisant glisser les fichiers sur le téléchargement vert (* ne fonctionne pas sous IE) et cliquez sur Démarrer <br> Remarque&thinsp;:. Si vous choisissez d\'autres types de fichiers autres que des fichiers d\'image, le script échouera. La taille de l\'image peut aller jusqu\'à 5 Mo <br> ');
+define('_SMALLWORLD_UPLOAD_HOWTO','Toutes les images de votre album sont affichées ici. Vous pouvez utiliser cet outil pour télécharger ou supprimer des images.<br /><br />Cliquez sur le bouton vert "Envoi d&#145;images" et sélectionnez vos images à télécharger&thinsp; : <br /> 1) Soit une par une à l&#145;aide des icônes de flèche. <img src="images/icon_start.png" style="display: inline-block;height:13px;"/><br /> 2) Soit en en séléctionnant plusieurs (CTRL ou Shift du clavier + clic de la souris puis le bouton "Ouvrir") ou simplement en faisant glisser les fichiers sur le bouton vert (ne fonctionne pas sous IE ni Opera) et cliquez sur "Tout envoyer".<br /> Remarque&thinsp;: Si vous choisissez d&#145;autres types de fichiers que des fichiers d&#145;images, le script échouera. La taille de l&#145;image peut aller jusqu&#145;à 5 Mo.<br /> ');
 define('_SMALLWORLD_UPLOADTITLE','Titre de l\'image');
 define('_SMALLWORLD_UPLOADDESC','Description de l\'image');
 define('_SMALLWORLD_UPLOAD_TITLE','Télécharger les images vers votre album d\'images');
 define('_SMALLWORLD_UPLOADTEXT','Démarrer le téléchargement');
-define('_SMALLWORLD_UPLOADFILESTEXT','Sélectionnez une ou plusieurs images');
+define('_SMALLWORLD_UPLOADFILESTEXT',"Envoi d'images");
 define('_SMALLWORLD_IMGDESCRIPTION','Description de l\'image');
 define('_SMALLWORLD_IMGTITLE','Titre de l\'image');
 define('_SMALLWORLD_IMAGE_EDIT_TITLE','Modifier la description');
@@ -286,12 +286,12 @@ define("_SMALLWORLD_JSON_ADDFRIEND","Votre demande d'ami a été envoyée à ");
 define("_SMALLWORLD_JSON_CANCEL_ADDFRIEND","Vous avez annulé votre demande d'ami pour ");
 define("_SMALLWORLD_JSON_DELETE_FRIEND_START","Suppression faite ");
 define("_SMALLWORLD_JSON_DELETE_FRIEND_END"," de cette personne en tant qu'ami.");
-define("_SMALLWORLD_JSON_REQUEST_PENDING","<br><br>Demande d'amitié en attente d'approbation.");
+define("_SMALLWORLD_JSON_REQUEST_PENDING","<br /><br />Demande d'amitié en attente d'approbation.");
 
 define ("_SMALLWORLD_JSON_FOLLOWINGFRIEND","Suivi activé concernant&thinsp;: ");
-define ("_SMALLWORLD_JSON_FOLLOWINGFRIEND_DESC","<br><br>Tous les messages qu'il ou elle écrit dans son mur apparaîtront également sur le vôtre.");
+define ("_SMALLWORLD_JSON_FOLLOWINGFRIEND_DESC","<br /><br />Tous les messages qu'il ou elle écrit dans son mur apparaîtront également sur le vôtre.");
 define ("_SMALLWORLD_JSON_UNFOLLOWINGFRIEND","Vous ne suivez plus&thinsp;: ");
-define ("_SMALLWORLD_JSON_UNFOLLOWINGFRIEND_DESC","<br><br>Les messages de son mur n'apparaîtront plus dans le vôtre.");
+define ("_SMALLWORLD_JSON_UNFOLLOWINGFRIEND_DESC","<br /><br />Les messages de son mur n'apparaîtront plus dans le vôtre.");
 
 define("_SMALLWORLD_JSON_ADDFR_TEXT","Ajouter en ami");
 define("_SMALLWORLD_JSON_CANCELFR_TEXT","Annuler la demande d'ami");
@@ -360,7 +360,7 @@ define("_SMALLWORLD_COMP_MSG_LNK_DESC","Cliquez ici pour voir le message en caus
 define("_SMALLWORLD_MAIL_NEWFRIENDFOLLOWER", "Nouvelle demande d'ami ou nouvel utilisateur qui vous suit à ");
 
 /* ------------ Inspection & countdown ---------------- */
-define("_SMALLWORLD_INSPEC_DESC","L'Administrateur a suspendu ce compte afin effectuer un contrôle.<br/><br/>Temps estimé de l'inspection&thinsp;:");
+define("_SMALLWORLD_INSPEC_DESC","L'Administrateur a suspendu ce compte afin effectuer un contrôle.<br /><br />Temps estimé de l'inspection&thinsp;:");
 define("_SMALLWORLD_INSPEC_DESC2","Revenez à ce moment là.");
 define("_SMALLWORLD_BDAY_TODAY","Aujourd'hui");
 define("_SMALLWORLD_BDAY_ISIN","Anniversaire dans&thinsp;: ");
@@ -370,7 +370,7 @@ define("_SMALLWORLD_BDAY_YEARS","ans");
 define("_SMALLWORLD_SHARELINK","Partager");
 define("_SMALLWORLD_SHAREBOX_TITLE","Partage&thinsp;/&thinsp;Signet");
 define("_SMALLWORLD_UPDATEONSITEMETA"," mise à jour sur - ");
-define("_SMALLWORLD_BOOKMARK_NOPERM_MESSAGE","Signet illégal. Vous n'avez pas la permission de partager&thinsp;!<br><br>Veuillez créer un profil<br><br><a href='register.php'>Inscrivez-vous ici</a>");
+define("_SMALLWORLD_BOOKMARK_NOPERM_MESSAGE","Signet illégal. Vous n'avez pas la permission de partager&thinsp;!<br /><br />Veuillez créer un profil<br /><br /><a href='register.php'>Inscrivez-vous ici</a>");
 
 /* ------------- Statistics and about ------------------- */
 define("_SMALLWORLD_STATS_NEWESTUSERS","Nouveaux utilisateurs");
@@ -383,5 +383,14 @@ define("_SMALLWORLD_STATS_LIKETHISMODULE","Vous aimez ce module&thinsp;?");
 
 /* ----------------- donate link -------------- */
 define("_SMALLWORLD_DONATETEXT"," Offrez-moi un café ici ");
-//Traduit par Cesag (frxoops.org) le 5 Mai 2012
+
+/**
+ * @translation     Communauté Francophone des Utilisateurs de Xoops
+ * @specification   _LANGCODE: fr
+ * @specification   _CHARSET: UTF-8 sans Bom
+ *
+ * @Translator      Cesag
+ *
+ * @version         $Id $
+**/
 ?>

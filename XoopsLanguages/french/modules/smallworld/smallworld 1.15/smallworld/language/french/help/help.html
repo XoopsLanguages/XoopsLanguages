@@ -1,75 +1,40 @@
 <div id="help-template" class="outer">
-    <h1 class="head">Aide :
-        <a class="ui-corner-all tooltip" href="<{$xoops_url}>/modules/smallworld/admin/index.php"
-           title="Retour à l'administration de SmallWorld"> SmallWorld
-            <img src="<{xoAdminIcons home.png}>"
-                 alt="Retour à l'administration de SmallWorld"/>
-        </a></h1>
-
-    <h4 class="odd">Description</h4>
-
-    <p class="even">Smallworld est un système de Réseau Social. Inspiré par les didacticiels de Srinivas Tamada sur Facebook
-        script. Le système de base a été réécrit, adapté et développé en grande partie par Culex pour Xoops.
-		Le module est doté de votes "j'aime"/"je n'aime pas", signets, système de murs, gallerie d'images et utilise Xim (module de discussion) si il est installé.
-        L'administration propose la suppression des utilisateurs, l'interdiction d'utilisateurs pendant un temps. Un compte à rebours est affiché côté utilisateur pour préciser quand il peut à nouveau utiliser son compte.
-	    Il y a beaucoup d'autres options. Le module est entièrement compatible pour la version XOOPS 2.5.0 et supérieur.<br/> <br/>
-        Smallworld est distribué sous les termes de la licence publique générale de GNU (GPL) et est libre d'être utilisé et modifié. Il
-        est libre de redistribution tant que vous respectez les termes de la distribution GPL.</p>
-
-    <h4 class="odd">Installation/Désinstallation</h4> <br/>
-
-	Aucune mesure spéciale n'est nécessaire, suivez la procédure d'installation standard - extraire le dossier smallworld dans le
-    répertoire .../modules. Installez le module dans la partie administration -> Modules.<br/> <br/>
-
-    Vérifiez si la version téléchargée de Smallworld est la dernière version réalisée.
-    Activez les cookies et le JavaScript de votre navigateur.<br/> <br/>
-    <b>Installation chez un hébergeur</b>
-    <ul>
-        <li>Téléchargez le dossier dézippé Smallworld vers votre répertoire de module.</li>
-        <li>Installation à l'aide de l'installation de module XOOPS comme toute autre installation de module.</li>
+	<h1 class="head">Aide : <a class="ui-corner-all tooltip" href="<{$xoops_url}>/modules/smallworld/admin/index.php" title="Retour à l'administration de SmallWorld"> SmallWorld  <img src="<{xoAdminIcons home.png}>" alt="Retour à l'administration de SmallWorld"/></a></h1>
+	<h4 class="odd">Description</h4>
+	<p class="even">Smallworld est un système de Réseau Social. Inspiré par les didacticiels de Srinivas Tamada sur Facebook script. Le système de base a été réécrit, adapté et développé en grande partie par Culex pour Xoops. Le module est doté de votes "j'aime"/"je n'aime pas", signets, système de murs, gallerie d'images et utilise Xim (module de discussion) si il est installé. L'administration propose la suppression des utilisateurs, l'interdiction d'utilisateurs pendant un temps. Un compte à rebours est affiché côté utilisateur pour préciser quand il peut à nouveau utiliser son compte. Il y a beaucoup d'autres options. Le module est entièrement compatible pour la version XOOPS 2.5.0 et supérieur.</p>
+	<p>Smallworld est distribué sous les termes de la licence publique générale de GNU (GPL) et est libre d'être utilisé et modifié. Il est libre de redistribution tant que vous respectez les termes de la distribution GPL.</p>
+	<h4 class="odd">Installation/Désinstallation</h4>
+	<p>Aucune mesure spéciale n'est nécessaire, suivez la procédure d'installation standard - extraire le dossier smallworld dans le répertoire .../modules. Installez le module dans la partie administration -> Modules.</p>
+	<p>Vérifiez si la version téléchargée de Smallworld est la dernière version réalisée.
+	Activez les cookies et le JavaScript de votre navigateur.</p>
+	<h5>Installation chez un hébergeur</h5>
+	<ul>
+		<li>Téléchargez le dossier dézippé Smallworld vers votre répertoire de module.</li>
+		<li>Installation à l'aide de l'installation de module XOOPS comme toute autre installation de module.</li>
 		<li>Rendez le block visible pour les groupes d'utilisateurs que vous souhaitez (administrateurs/modérateurs etc...).</li>
-    </ul>
-
-    <b>Mise à niveau depuis une version précédente</b>
-    <ul>
-        <li>Assurez-vous que vous utilisez la version la plus récente</li>
-        <li>Lisez le fichier "readme.txt" dans le dossier "docs"</li>
-        <li>Faire éventuellement une sauvegarde de vos tables</li>
-    </ul>
-    Des instructions détaillées sur l'installation de modules sont disponibles dans le
-    <a href="http://goo.gl/adT2i">Manuel des opérations de XOOPS</a> <br/> <br/>
-
-
-    <h4 class="odd">Opérations</h4> <br/>
-
-    Des instructions détaillées sur la configuration des droits d'accès pour les groupes d'utilisateurs sont disponibles dans le
-    <a href="http://goo.gl/adT2i">Manuel des opérations de XOOPS</a><br/> <br/>
-
-    <h4 class="odd">Résolution de problèmes</h4> <br/>
-
-    <b>J'obtiens une page blanche, je ne peux pas cliquer sur le nom d'utilisateur, le bloc n'est pas visible...</b><br/> <br/>
-    <ul>
-        <li>Assurez-vous que votre version de Xoops est supérieure à 2.5.0. Les anciennes versions de Xoops n'ont pas les prérequis nécessaires.
-        </li>
-        <li>Activez le débogage (mode debug) et regardez si des erreurs s'affichent.</li>
-        <li>À l'aide de FireFox, cliquez avec le bouton droit sur l'écran, choisissez "inspecter l'élément", choisissez la console dans les onglets et vérifiez
-            s'il y a des erreurs.
-        </li>
-        <li>Si il n'y a pas d'erreurs, utilisez Firebug (cliquez droit -> inspecter l'élément -> console) et regardez si il y a des erreurs jQuery.
-        </li>
-        <li>S'il n'y a aucune erreur jQuery, videz le cache -> mettez à jour le module Smallworld dans la partie administration des modules.</li>
-        <li>Si la page est encore blanche, allez au module Protector -> Préférences et écrivez smallworld dans le champ
-            "Modules à exclure du contrôle DoS (F5)/Crawler".
-        </li>
-    </ul>
-    <br/>
-
-    <h4 class="odd">Tutoriel</h4>
-
-    <p class="even">Il n'y a aucun tutoriel disponible pour le moment</p>
-
-    <h4 class="odd">Questions</h4>
-
-    <p class="even">Si vous rencontrez encore des erreurs ou avez des questions, veuillez les publier sur le <a href="http://www.frxoops.org/modules/newbb">Forum de support Xoops</a></p>
+	</ul>
+	<h5>Mise à niveau depuis une version précédente</h5>
+	<ul>
+		<li>Assurez-vous que vous utilisez la version la plus récente</li>
+		<li>Lisez le fichier "readme.txt" dans le dossier "docs"</li>
+		<li>Faire éventuellement une sauvegarde de vos tables</li>
+	</ul>
+	<p>Des instructions détaillées sur l'installation de modules sont disponibles dans le <a href="http://goo.gl/adT2i">Manuel des opérations de XOOPS</a> </p>
+	<h4 class="odd">Opérations</h4>
+	<p>Des instructions détaillées sur la configuration des droits d'accès pour les groupes d'utilisateurs sont disponibles dans le  <a href="http://goo.gl/adT2i" rel="external">Manuel des opérations de XOOPS</a></p>
+	<h4 class="odd">Résolution de problèmes</h4>
+	<h5>J'obtiens une page blanche, je ne peux pas cliquer sur le nom d'utilisateur, le bloc n'est pas visible...</h5>
+	<ul>
+		<li>Assurez-vous que votre version de Xoops est supérieure à 2.5.0. Les anciennes versions de Xoops n'ont pas les prérequis nécessaires.</li>
+		<li>Activez le débogage (mode debug) et regardez si des erreurs s'affichent.</li>
+		<li>À l'aide de FireFox, cliquez avec le bouton droit sur l'écran, choisissez "inspecter l'élément", choisissez la console dans les onglets et vérifiez s'il y a des erreurs.</li>
+		<li>Si il n'y a pas d'erreurs, utilisez Firebug (cliquez droit -> inspecter l'élément -> console) et regardez si il y a des erreurs jQuery.</li>
+		<li>S'il n'y a aucune erreur jQuery, videz le cache -> mettez à jour le module Smallworld dans la partie administration des modules.</li>
+		<li>Si la page est encore blanche, allez au module Protector -> Préférences et écrivez smallworld dans le champ "Modules à exclure du contrôle DoS (F5)/Crawler".</li>
+	</ul>
+	<h4 class="odd">Tutoriel</h4>
+	<p class="even">Il n'y a aucun tutoriel disponible pour le moment</p>
+	<h4 class="odd">Questions</h4>
+	<p class="even">Si vous rencontrez encore des erreurs ou avez des questions, veuillez les publier sur le <a href="http://www.frxoops.org/modules/newbb" rel="external">Forum de support Xoops</a></p>
 <!-- Traduction Cesag (frxoops.org) le 5 Mai 2012 -->
 </div>
