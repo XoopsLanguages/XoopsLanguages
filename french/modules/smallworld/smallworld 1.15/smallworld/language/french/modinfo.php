@@ -42,26 +42,26 @@ define("_MI_SMALLWORLD_MSGTOSHOW_DESC","Nombres de messages (mis à jour) à aff
 
 // Use validation
 define("_MI_SMALLWORLD_VALIDATIONSTRENGHT","Validation par étapes");
-define("_MI_SMALLWORLD_VALIDATIONSTRENGHT_DESC","Demander la validation pour l'enregistrement et les modifications du profil.<br><br>Les options sont&thinsp;:<br><br>Non&thinsp;:&thinsp;Pas besoin de validation<br>Oui&thinsp;:&thinsp;Les champs les plus * importants * doivent être validés.");
+define("_MI_SMALLWORLD_VALIDATIONSTRENGHT_DESC","Demander la validation pour l'enregistrement et les modifications du profil.<br /><br />Les options sont&thinsp;:<br /><br />Non&thinsp;:&thinsp;Pas besoin de validation<br />Oui&thinsp;:&thinsp;Les champs les plus * importants * doivent être validés.");
 
 // Smallworld take-over user name links ?
 define ("_MI_SMALLWORLD_TAKEOVERLINKS","Convertir les liens des noms d'utilisateurs pour Smallworld");
-define ("_MI_SMALLWORLD_TAKEOVERLINKS_DESC","Smallworld utilisera un petit javascript pour modifier les liens au chargement et les pointer vers le profil utilisateur, plutôt que vers userinfo.php<br><br>La valeur par défaut est 'non'.");
+define ("_MI_SMALLWORLD_TAKEOVERLINKS_DESC","Smallworld utilisera un petit javascript pour modifier les liens au chargement et les pointer vers le profil utilisateur, plutôt que vers userinfo.php<br /><br />La valeur par défaut est 'non'.");
 
 define ("_MI_SMALLWORLD_USERSOWNMSGCOUNTS","Vérifier le nombre de messages des utilisateurs&thinsp;? ");
-define ("_MI_SMALLWORLD_USERSOWNMSGCOUNTS_DESC","Toutes les 10 secondes, les messages des utilisateurs qui vous suivent sont comptés et un bouton d'actualisation s'affichera, si le résultat n'est pas 0.<br>Si vous choisissez Oui, ce bouton s'affichera aussi lorsque vous écrirez ou supprimerez des messages.");
+define ("_MI_SMALLWORLD_USERSOWNMSGCOUNTS_DESC","Toutes les 10 secondes, les messages des utilisateurs qui vous suivent sont comptés et un bouton d'actualisation s'affichera, si le résultat n'est pas 0.<br />Si vous choisissez Oui, ce bouton s'affichera aussi lorsque vous écrirez ou supprimerez des messages.");
 
 define ("_MI_SMALLWORLD_BOOKMARSAVATARS","Utiliser le logo de Smallworld lors de la création de signets&thinsp;? ");
-define ("_MI_SMALLWORLD_BOOKMARKSAVATARS_DESC","Quand les messages sont publics et que vous souhaitez partager sur les réseaux sociaux, vous pouvez décider d'utiliser l'image du logo Smallworld ou<br>« non » = affichage de l'avatar des utilisateurs. <br > La valeur par défaut est «oui» = logo Smallworld.");
+define ("_MI_SMALLWORLD_BOOKMARKSAVATARS_DESC","Quand les messages sont publics et que vous souhaitez partager sur les réseaux sociaux, vous pouvez décider d'utiliser l'image du logo Smallworld ou<br />« non » = affichage de l'avatar des utilisateurs. <br > La valeur par défaut est «oui» = logo Smallworld.");
 
 define ("_MI_SMALLWORLD_USEMAILNOTIFICATION","Notifications par courrier électronique&thinsp;? ");
-define ("_MI_SMALLWORLD_USEMAILNOTIFICATION_DESC","Quand un nouvel utilisateur s'inscrit, un message est envoyé à l'Administrateur par courrier éléctronique.<br>Quand un commentaire a été ajouté à un message dont un utilisateur a participé, un courrier électronique lui est envoyé.<br><br>La valeur par défaut est 'Oui'.");
+define ("_MI_SMALLWORLD_USEMAILNOTIFICATION_DESC","Quand un nouvel utilisateur s'inscrit, un message est envoyé à l'Administrateur par courrier éléctronique.<br />Quand un commentaire a été ajouté à un message dont un utilisateur a participé, un courrier électronique lui est envoyé.<br /><br />La valeur par défaut est 'Oui'.");
 
 // Select fields & Mandetory fields
 define ('_MI_SMALLWORLD_VIEWFIELDS','Champs pour l\'enregistrement et le profil');
-define ('_MI_SMALLWORLD_VIEWFIELDS_DESC','Sélectionnez les champs à utiliser dans le formulaire d\'inscription, qui seront ensuite affichés dans le profil.<br> Utilisez la touche CTRL du clavier et cliquez avec la souris pour en sélectionner plusieurs.');
+define ('_MI_SMALLWORLD_VIEWFIELDS_DESC','Sélectionnez les champs à utiliser dans le formulaire d\'inscription, qui seront ensuite affichés dans le profil.<br /> Utilisez la touche CTRL du clavier et cliquez avec la souris pour en sélectionner plusieurs.');
 define ('_MI_SMALLWORLD_VERIFYFIELDS','Vérifier les champs lors de l\'enregistrement.');
-define ('_MI_SMALLWORLD_VERIFYFIELDS_DESC','Sélectionnez les champs qui seront obligatoires (*) dans le formulaire d\'inscription.<br> Utilisez la touche CTRL du clavier et cliquez avec la souris pour en sélectionner plusieurs.');
+define ('_MI_SMALLWORLD_VERIFYFIELDS_DESC','Sélectionnez les champs qui seront obligatoires (*) dans le formulaire d\'inscription.<br /> Utilisez la touche CTRL du clavier et cliquez avec la souris pour en sélectionner plusieurs.');
 
 define ('_MI_SMALLWORLD_REALNAME','Nom de famille');
 define ('_MI_SMALLWORLD_GENDER','Sexe');
@@ -89,5 +89,14 @@ define ('_MI_SMALLWORLD_FAVOURITEBOOKS','Livres préférés');
 define ('_MI_SMALLWORLD_ABOUTME','À propos de moi');
 define ('_MI_SMALLWORLD_EDUCATION','Education');
 define ('_MI_SMALLWORLD_EMPLOYMENT','Emploi');
-//Traduit par Cesag (frxoops.org) le 5 Mai 2012
+
+/**
+ * @translation     Communauté Francophone des Utilisateurs de Xoops
+ * @specification   _LANGCODE: fr
+ * @specification   _CHARSET: UTF-8 sans Bom
+ *
+ * @Translator      Cesag
+ *
+ * @version         $Id $
+**/
 ?>

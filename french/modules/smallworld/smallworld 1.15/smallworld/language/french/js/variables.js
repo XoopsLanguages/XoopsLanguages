@@ -4,7 +4,7 @@ Traduit par Cesag (frxoops.org) le 5 Mai 2012 */
 
 var language = 'fr';
 var countryshort = 'fr';
-var countrylong = 'france';
+var countrylong = 'France';
 
 var _smallworldContinueToReg = "S'enregistrer";
 var _smallworldCancel = "Annuler";

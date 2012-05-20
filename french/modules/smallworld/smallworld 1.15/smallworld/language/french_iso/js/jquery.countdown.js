@@ -1,4 +1,4 @@
-/* http://keith-wood.name/countdown.html
+ï»¿/* http://keith-wood.name/countdown.html
    Countdown for jQuery v1.5.10.
    Written by Keith Wood (kbwood{at}iinet.com.au) January 2008.
    Dual licensed under the GPL (http://dev.jquery.com/browser/trunk/jquery/GPL-LICENSE.txt) and 
@@ -10,12 +10,12 @@
     http://keith-wood.name/countdown.html#l10nPkgs
     */   
 
-/* Traduction française de l'extension jQuery "countdown"
+/* Traduction franÃ§aise de l'extension jQuery "countdown"
    par Cesag (frxoops.org) le 5 Mai 2012. */
 (function(xoops_smallworld) {
 	xoops_smallworld.countdown.regional['fr'] = {
-		labels: ['Années', 'Mois', 'Semaines', 'Jours', 'Heures', 'Minutes', 'Secondes'],
-		labels1: ['Année', 'Mois', 'Semaine', 'Jour', 'Heure', 'Minute', 'Seconde'],
+		labels: ['AnnÃ©es', 'Mois', 'Semaines', 'Jours', 'Heures', 'Minutes', 'Secondes'],
+		labels1: ['AnnÃ©e', 'Mois', 'Semaine', 'Jour', 'Heure', 'Minute', 'Seconde'],
 		compactLabels: ['a', 'm', 's', 'j'], // Textes compacts pour les compteurs
 		whichLabels: null,
 		timeSeparator: ':', isRTL: false};
