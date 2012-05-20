@@ -20,4 +20,4 @@
 		whichLabels: null,
 		timeSeparator: ':', isRTL: false};
 	xoops_smallworld.countdown.setDefaults(xoops_smallworld.countdown.regional['fr']);
-})(jQuery);
+});
