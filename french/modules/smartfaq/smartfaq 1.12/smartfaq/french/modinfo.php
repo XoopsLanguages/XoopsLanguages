@@ -331,7 +331,7 @@ développement actif et son utilisation est sous votre propre responsabilité, c
 
 
 // Final
-define('_MI_SF_WARNING_FINAL', "Ce module est tel quel, sans aucune garantie. Bien que cette
+define('_MI_SF_WARNING_FINAL', "Ce module est tel quel, sans aucune garantie. Même si ce
 module n'est pas une version bêta, il est toujours en développement actif. Cette version peut être utilisée dans un site Web en ligne
 ou un environnement de production, mais son utilisation est sous votre propre responsabilité, ce qui signifie que l'auteur
 n'est pas responsable.");
