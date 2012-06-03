@@ -1,5 +1,5 @@
 <?php
-define("_MI_PUBLISHER_ADMENU1", "Accueil");
+define("_MI_PUBLISHER_ADMENU1", "Résumé");
 define("_MI_PUBLISHER_ADMENU2", "Catégories");
 
 define("_MI_PUBLISHER_ADMENU3", "Articles");
