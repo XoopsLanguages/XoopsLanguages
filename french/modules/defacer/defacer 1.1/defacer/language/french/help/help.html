@@ -1,0 +1,80 @@
+<div id="help-template" class="outer">
+    <h1 class="head">Aide :
+        <a class="ui-corner-all tooltip" href="<{$xoops_url}>/modules/defacer/admin/index.php"
+           title="Retour à l'administration de Defacer"> Defacer
+            <img src="<{xoAdminIcons home.png}>"
+                 alt="Retour à l'administration de Defacer"/>
+        </a></h1>
+
+    <h4 class="odd">Description</h4>
+
+    <p>Defacer est un nouveau module XOOPS révolutionnaire qui vous permet de modifier des thèmes, métadonnées et
+        autorisations pour une page donnée sur le site XOOPS, vous donnant ainsi un niveau de contrôle et de personnalisation
+        jamais vus auparavavant. </p>
+
+    <p>Il contient également un système de redirection JGrowl et apporte la capacité d'utiliser des blocs n'importe où dans vos thèmes et
+        modèles </p><br/>
+
+    <p>
+        Avec ce module Xoops, vous pouvez :
+    <ul>
+        <li>changer les thèmes, les métadonnées et les permissions pour n'importe quelle page donnée.</li>
+        <li>activer le système de redirection JGrowl</li>
+        <li>utiliser les blocs n'importe où</li>
+    </ul>
+    </p>
+
+    <h4 class="odd">Installation / désinstallation</h4>
+
+    <p class="even">Copiez le dossier Defacer dans le répertoire /modules de votre site Web.
+        Puis connectez-vous à votre site en tant qu'administrateur, allez dans votre système Admin > Modules, recherchez l'icône
+        du module Defacer dans la liste des modules et cliquez sur l'icône d'installation.
+        Suivez les instructions à l'écran.<br/> <br/>
+        Des instructions détaillées sur l'installation de modules sont disponibles dans le
+        <a href="http://goo.gl/adT2i">Manuel des opérations de XOOPS</a></p>
+
+
+    <h4 class="odd">Instructions d'exploitation</h4>
+
+    <p class="even">
+        Lors de la création des pages, vous pouvez utiliser le symbole '*' dans le champ des liens pour faire correspondre à n'importe quelle adresse internet.
+
+        Vous devez utiliser des chemins relatifs
+        Si vous sélectionnez le module News, votre chemin est votresite/module/news/
+        Vous devez ajouter par exemple
+        index.php et non pas modules/news/index.php<br/> <br/>
+
+        Le module System est relatif à la racine
+        Vous pouvez sélectionner le module System et entrer cette adresse internet afin de couvrir toutes les pages de userinfo (infos utilisateur) :
+        userinfo.php*<br/> <br/>
+
+        Conseils pour les blocs n'importe où (xoops 2.4 uniquement)<br/>
+        =========<br/> <br/>
+        Mettez simplement le préfixe du titre de votre bloc avec un tiret-bas et vous pourrez l'utiliser
+        comme une variable smarty dans votre thème ou modèle <br/>
+        Exemple: <br/>
+        - Modifiez le bloc du menu utilisateur et renommez-le en _User Menu <br/>
+        - Sachez que la « soumission » dans l'adresse internet, pour ce cas, est « 1 »
+        modules/system/admin.php?fct=blocksadmin&op=edit&bid=1 <br/>
+        - Utilisation sur thème / modèle<br/>
+        < {$xoops_block_1.title} > --> retours sur le menu utilisateur <br/>
+        < {$xoops_block_1.content} > --> retours le contenu du bloc
+
+    </p>
+
+    <h4 class="odd">Limites</h4>
+
+    <p class="even">
+        Le bloc pour changer les thèmes est désactivé lors de l'utilisation du modificateur de thèmes de Defacer.
+
+    </p>
+
+    <h4 class="odd">Tutoriel</h4>
+
+    <p class="even">
+        Il n'existe actuellement aucun tutoriel.
+
+    </p>
+
+<!-- Traduction faite par Cesag pour frxoops.org le 04 Juin 2012 -->
+</div>
