@@ -1,0 +1,7 @@
+INSTALL/UNISTALL
+=================
+
+In order to install the module please do following:
+
+Install Boox just like another module
+

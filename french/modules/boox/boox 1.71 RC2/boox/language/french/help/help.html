@@ -1,0 +1,63 @@
+<div id="help-template" class="outer">
+    <h1 class="head">Aide :
+        <a class="ui-corner-all tooltip"
+           href="<{$xoops_url}>/modules/boox/admin/index.php"
+           title="Retour à l'administration de Boox"> Boox <img
+                src="<{xoAdminIcons home.png}>"
+                alt="Retour à l'administration de Boox"/>
+        </a></h1>
+
+    <h4 class="odd">Description</h4><br/>
+
+    Boox (Blocks Out Of Xoops) est un module qui vous aide à gérer le contenu dont Xoops n'a pas accès, mais qui fait partie de votre site.<br/><br/>
+
+    Généralement, ce contenu est créé sous forme de blocs, qui ne sont pas des parties d'un module Xoops et c'est aussi un contenu qui est, en général, placé dans le thème.
+    Avec ce module, vous pouvez créer de nombreux « blocs virtuels » comme vous le souhaitez, ils sont enregistrés dans les fichiers (le module n'utilise pas de base de données), et il vous suffit de les rappeler à votre thème avec une ligne de code.<br/><br/>
+
+    Il est donc possible de créer un contenu, que vous pouvez modifier sans mettre vos mains dans le thème (sauf la première fois, pour écrire les commandes include).
+    Le module fonctionne avec tous les éditeurs de Xoops, vous pouvez utiliser : Spaw, l'éditeur Fck, Htmlarea, l'éditeur Tiny et Kiovi<br/><br/>
+
+    Un des avantages principaux de ce module est que vous pouvez donner aux propriétaires du site la possibilité de modifier les blocs prédéfinis de XOOPS sans leur donner accès à l'administration des blocs. Il suffit de leur donner accès à l'administraton de Boox. Par exemple :<br/><br/>
+
+    * Assurez-vous que Koivi ou autre éditeur WYSIWYG est défini dans les préférences de Boox<br/>
+    * Ouvrez l'administration de Boox et cliquez sur « Ajouter »<br/>
+    * Entrez un nom de fichier, par exemple « homepageblock »<br/>
+    * Ajoutez du contenu à l'aide de l'éditeur<br/>
+    * Cliquez sur « Soumettre »<br/><br/>
+
+    Cela devrait écrire un fichier dans /uploads appelé « homepageblock » (vous pouvez modifier l'emplacement du fichier dans les préférences).<br/><br/>
+
+    Dans l'administration des blocs de Xoops, collez l'instruction include pour le fichier dans un bloc PHP, moins les balises PHP par exemple :<br/><br/>
+
+    include_once '/var/www/exemple.com/uploads/homepageblock';<br/><br/>
+
+
+    Maintenant le propriétaire du site peut modifier le contenu de ce bloc par l'administration de Boox, simplement en cliquant sur le bouton Modifier.<br/><br/>
+
+
+    <h4 class="odd">Installation / Désinstallation</h4><br/>
+
+    Aucune mesure particulière n'est nécessaire Suivre le processus d'installation standard :
+    envoyez le dossier du module dans le répertoire .../modules. Installez le module
+    par Admin-> Système-> Modules. <br/><br/>
+    Des instructions détaillées sur l'installation de modules sont disponibles dans le <a
+        href="http://goo.gl/adT2i">Manuel des opérations de XOOPS</a> <br/><br/>
+
+
+    <h4 class="odd">Instructions d'exploitation</h4><br/>
+
+    Pour mettre en place ce module, vous devez :<br/><br/>
+    i) Configurer vos préférences pour le module (voir « Préférences ») et
+    éventuellement le bloc Partenaires si vous avez l'intention de l'utiliser (voir
+    « Blocs »)<br/><br/>
+    ii) Vérifiez que vous avez donné les droits d'accès au bloc nécessaires à vos groupes d'utilisateurs,
+    pour utiliser ce module. Les autorisations des groupes sont définies par
+    le Menu d'Administration-> système-> groupes. <br/><br/>Des instructions détaillées
+    sur la configuration de l'accès des droits pour les groupes d'utilisateurs sont disponibles dans le <a
+        href="http://goo.gl/adT2i">Manuel des opérations de XOOPS</a><br/><br/>
+
+    <h4 class="odd">Tutoriel</h4><br/>
+
+    Non disponible pour le moment.<br />
+<!-- Traduction faite par Cesag pour frxoops.org le 06 Juin 2012. -->
+</div>
