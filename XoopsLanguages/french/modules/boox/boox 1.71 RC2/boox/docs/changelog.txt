@@ -1,0 +1,23 @@
+============================
+Version 1.71 2011/04/02:
+============================
+- Conversion to XOOPS 2.5.0 GUI (mamba)
+
+============================
+Version 1.70 2011/12/12:
+============================
+- The module requires at least Xoops 2.3
+- Better support for Xoops 2.3 (and up) editors
+
+============================
+Version 1.60 2006/9/8:
+============================
+- Better support of Xoops 2.3
+- Addition of support for the TinyMCEeditor
+- New module's icon
+- Translations available in UTF8 (French & English)
+
+============================
+Version 1.40 2006/9/8:
+============================
+- original release (hervet)
