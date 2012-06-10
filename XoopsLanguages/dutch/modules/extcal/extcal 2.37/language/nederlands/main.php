@@ -70,7 +70,7 @@ define('_MD_EXTCAL_ETABLISSEMENT_ADD', 'Locatie toevoegen');
 define('_MD_EXTCAL_ETABLISSEMENT_ADRESSE', 'Adres');
 define('_MD_EXTCAL_ETABLISSEMENT_ADRESSE2', 'Adres 2');
 define('_MD_EXTCAL_ETABLISSEMENT_CATEGORIE', 'Categorie');
-define('_MD_EXTCAL_ETABLISSEMENT_CP', 'Postode');
+define('_MD_EXTCAL_ETABLISSEMENT_CP', 'Postcode');
 define('_MD_EXTCAL_ETABLISSEMENT_DATE', 'Datum');
 define('_MD_EXTCAL_ETABLISSEMENT_DEBUT', 'Start');
 define('_MD_EXTCAL_ETABLISSEMENT_DELETE', 'Locatie verwijderen');
