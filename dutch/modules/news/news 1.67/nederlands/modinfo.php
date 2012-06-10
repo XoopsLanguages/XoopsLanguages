@@ -1,4 +1,7 @@
 <?php
+//
+//  Update vertaling 03-05-2012 By Ritchie for NLXOOPS.NL //
+//
 // $Id: modinfo.php,v 1.21 2004/09/01 17:48:07 hthouzard Exp $
 // Module Info
 
@@ -25,14 +28,14 @@ define('_MI_NEWS_ADMENU2', 'Categorieën Manager');
 define('_MI_NEWS_ADMENU3', 'Post/bewerk Nieuws');
 define('_MI_NEWS_GROUPPERMS', 'Permissies');
 // Added by Hervé for prune option
-define('_MI_NEWS_PRUNENEWS', 'Nieuws opruimen');
+define('_MI_NEWS_PRUNENEWS', 'Nieuws Opruimen');
 // Added by Hervé
 define('_MI_NEWS_EXPORT', 'Nieuws Exporteren');
 
 // Title of config items
 define('_MI_STORYHOME', 'Aantal nieuwsartikelen op nieuws Index pagina'); //top
 define('_MI_NOTIFYSUBMIT', 'Stuur notificatie naar de admin/webmaster bij nieuw artikel');
-define('_MI_DISPLAYNAV', 'Tonen navigatiebox');
+define('_MI_DISPLAYNAV', 'Toon navigatiebox');
 define('_MI_AUTOAPPROVE','Nieuwsinzendingen automatisch goedkeuren.');
 define("_MI_ALLOWEDSUBMITGROUPS", "Groepen die nieuws mogen inzenden");
 define("_MI_ALLOWEDAPPROVEGROUPS", "Groepen die nieuwsinzendingen mogen goedkeuren");
@@ -40,18 +43,18 @@ define("_MI_NEWSDISPLAY", "Nieuws Display Layout");
 define("_MI_NAMEDISPLAY","Auteursnaam");
 define("_MI_COLUMNMODE","Kolommen");
 define("_MI_STORYCOUNTADMIN","Aantal artikelen dat getoond moet worden in de admin sectie. (Deze instelling zal ook worden toegepast mbt het aantal te tonen onderwerpen en statistiekoverzicht in de adminsectie) : ");
-define('_MI_UPLOADFILESIZE', 'MAX Filesize Upload (KB) 1048576 = 1 Meg');
+define('_MI_UPLOADFILESIZE', 'MAX Upload toegestaan in (KB) 1048576 = 1 Meg');
 define("_MI_UPLOADGROUPS","Groepen die mogen uploaden"); //Authorized groups to upload
 
 
 // Description of each config items
-define('_MI_STORYHOMEDSC', 'Selecteer het aantal nieuwsartikelen dat getoond moet worden op de  nieuws Index pagina'); //top
+define('_MI_STORYHOMEDSC', 'Selecteer het aantal nieuwsartikelen dat getoond moet worden op de nieuws Index pagina'); //top
 define('_MI_NOTIFYSUBMITDSC', 'Selecteer JA indien er bij een nieuwe inzending een notificatie naar de admin/webmaster gestuurd moet worden');
 define('_MI_DISPLAYNAVDSC', 'Selecteer JA indien de navigatiebox op iedere nieuwspagina bovenaan getoond moet worden');
 define('_MI_AUTOAPPROVEDSC', 'Nieuwsinzendingen automatisch goedkeuren. (zonder admin interventie)?');
 define("_MI_ALLOWEDSUBMITGROUPSDESC", "De geselecteerde groepen mogen nieuws inzenden"); //The selected groups will be able to submit news items
 define("_MI_ALLOWEDAPPROVEGROUPSDESC", "De geselecteerde groepen mogen nieuws goedkeuren"); //The selected groups will be able to approve news items
-define("_MI_NEWSDISPLAYDESC", "Classis toont all nieuws gesorteerd op publicatiedatum.>br />Nieuws tonen op onderwerp groeppeerd het nieuws op onderwerp, waarbij het laatste artikel volledig getoond wordt en de overige artikelen op alleen de titel"); //Classic shows all news ordered by date of publish. News by topic will group the news by topic with the latest story in full and the others with just the title
+define("_MI_NEWSDISPLAYDESC", "Classic toont alle nieuws gesorteerd op publicatiedatum.>br />Nieuws tonen op onderwerp sorteed het nieuws op onderwerp, waarbij het laatste artikel volledig getoond wordt en de overige artikelen op alleen de titel"); //Classic shows all news ordered by date of publish. News by topic will group the news by topic with the latest story in full and the others with just the title
 define('_MI_ADISPLAYNAMEDSC', 'Selecteer hoe de auteursnaam getoond moet worden');
 define("_MI_COLUMNMODE_DESC","Kies het aantal kolommen waarin de artikelen getoond dienen te worden"); //You can choose the number of columns to display articles list
 define("_MI_STORYCOUNTADMIN_DESC","");
@@ -113,8 +116,8 @@ define('_MI_NEWS_TOPICS_RSS','RSS feeds per categorie activeren?');
 define('_MI_NEWS_TOPICS_RSS_DESC',"Als deze instelling op JA staat dan zal de categorie inhoud als RSS feed beschikbaar zijn");
 define('_MI_NEWS_DATEFORMAT', "Datum Formaat");
 define('_MI_NEWS_DATEFORMAT_DESC',"Bekijk de PHP documentatie op (http://fr.php.net/manual/en/function.date.php) voor meer informatie over het te selecteren formaat. Attentie: Indien je geen instelling aangeeft dan zal het standaard datum formaat gebruikt worden. ");
-define('_MI_NEWS_META_DATA', "Meta data mogelijk maken (keywords en beschrijving)?");
-define('_MI_NEWS_META_DATA_DESC', "Als de instelling op JA staat dan mogen de  approvers de volgende meta data invoeren: keywords and beschrijving");
+define('_MI_NEWS_META_DATA', "Meta data mogelijk maken (sleutelwoorden en beschrijving)?");
+define('_MI_NEWS_META_DATA_DESC', "Als de instelling op JA staat dan mogen de gekozen gebruikers de volgende meta data invoeren: sleutelwoorden en beschrijving");
 define('_MI_NEWS_BNAME8','Willekeurig nieuws');
 define('_MI_NEWS_NEWSLETTER','Nieuwsbrief');
 define('_MI_NEWS_STATS','Statistieken');
@@ -126,9 +129,9 @@ define("_MI_NEWS_FORM_HTMLAREA","HtmlArea Editor");
 define("_MI_NEWS_FORM_FCK","FCK Editor");
 define("_MI_NEWS_FORM_KOIVI","Koivi Editor");
 define("_MI_NEWS_FORM_OPTIONS_DESC","Selecteer de editor die je wilt gebruiken. Als je een eenvoudige installatie hebt gedaan (bijv.: je hebt alleen de standaard xoops editor tot je beschikking), dan kun je alleen kiezen tussen: DHTML of Standaard Xoopseditor");
-define("_MI_NEWS_KEYWORDS_HIGH","Keywords highlighting gebruiken?");
+define("_MI_NEWS_KEYWORDS_HIGH","Sleutelwoorden benadrukken gebruiken?");
 define("_MI_NEWS_KEYWORDS_HIGH_DESC","Als je van deze optie gebruik maakt, zullen de gezochte sleutelwoorden in de nieuwsartikel resultaten oplichten");
-define("_MI_NEWS_HIGH_COLOR","Kleur van highlight keywords ?");
+define("_MI_NEWS_HIGH_COLOR","Kleur van benadrukken sleutelwoorden ?");
 define("_MI_NEWS_HIGH_COLOR_DES","Gebruik deze optie alléén als JA bij de vorige instelling is gekozen!");
 define("_MI_NEWS_INFOTIPS","Lengte van Tooltips");
 define("_MI_NEWS_INFOTIPS_DES","Als je van deze optie gebruik maakt zullen links gerelateerd naar het nieuwsartikel de eerste (n) karakters van het betreffende bericht tonen. Als je de waarde op 0 zet dan zal de infotips leeg zijn");
@@ -149,20 +152,20 @@ define("_MI_NEWS_SKIN_8","ZDnet style");
 define('_MI_NEWS_BNAME9','Archieven');
 define("_MI_NEWS_FORM_TINYEDITOR","TinyEditor");
 define("_MI_NEWS_FOOTNOTES","Toon links in printbare versies van de artikelen ?");
-define("_MI_NEWS_DUBLINCORE","Ativeer Dublin Core Metadata ?");
-define("_MI_NEWS_DUBLINCORE_DSC","Voor meer informatie, <a href='http://dublincore.org/'>visit this link</a>");
+define("_MI_NEWS_DUBLINCORE","Ativeer Dublin Core Metadata?");
+define("_MI_NEWS_DUBLINCORE_DSC","Voor meer informatie, <a href='http://dublincore.org/'>bezoek deze link</a>");
 define("_MI_NEWS_BOOKMARK_ME","'Bookmark dit artikel in deze sites blok weergeven?");
 define("_MI_NEWS_BOOKMARK_ME_DSC","Dit blok zal zichtbaar zijn op de artikelen pagina");
 define("_MI_NEWS_FF_MICROFORMAT","Activeer Firefox 2 Micro Summaries ?");
-define("_MI_NEWS_FF_MICROFORMAT_DSC","Voor meer informatie, zie <a href='http://wiki.mozilla.org/Microsummaries' target='_blank'>this page</a>");
+define("_MI_NEWS_FF_MICROFORMAT_DSC","Voor meer informatie, zie <a href='http://wiki.mozilla.org/Microsummaries' target='_blank'>deze pagina</a>");
 define("_MI_NEWS_WHOS_WHO","Wie is Wie");
 define("_MI_NEWS_METAGEN","Metagen");
 define("_MI_NEWS_TOPICS_DIRECTORY","Onderwerp Directorie");
 define("_MI_NEWS_ADVERTISEMENT","Advertentie");
-define("_MI_NEWS_ADV_DESCR","Plaats tekst of een javasscript code on te tonen in je artikelen");
-define("_MI_NEWS_MIME_TYPES","Enter authorized Mime Types for upload (scheiden door te beginnen op een nieuwe regel)");
-define("_MI_NEWS_ENHANCED_PAGENAV","Gebruik uitgebreide pagina navigator ?");
-define("_MI_NEWS_ENHANCED_PAGENAV_DSC","Met deze optie kun je de pagina scheiden met bijvoorbeeld : [pagebreak:Page Title], De links to the pagina's worden vervangen door een dropdownlijst en je kan [summary] gebruiken voor het maken van een automatische samenvatting van pagina's.");
+define("_MI_NEWS_ADV_DESCR","Plaats tekst of een javasscript code om te tonen in je artikelen");
+define("_MI_NEWS_MIME_TYPES","Type toegestane Mime Types voor upload (scheiden door te beginnen op een nieuwe regel)");
+define("_MI_NEWS_ENHANCED_PAGENAV","Gebruik uitgebreide pagina navigator?");
+define("_MI_NEWS_ENHANCED_PAGENAV_DSC","Met deze optie kun je de pagina scheiden met bijvoorbeeld : [pagebreak:Page Title], De links naar de pagina's worden vervangen door een dropdownlijst en je kan [summary] gebruiken voor het maken van een automatische samenvatting van pagina's.");
 
 // Added in version 1.54
 define('_MI_NEWS_CATEGORY_NOTIFY','Categorie');
@@ -171,14 +174,14 @@ define('_MI_NEWS_CATEGORY_NOTIFYDSC','Notificatie opties welke horen bij de huid
 define('_MI_NEWS_CATEGORY_STORYPOSTED_NOTIFY', 'Nieuw artikel geplaatst');
 define('_MI_NEWS_CATEGORY_STORYPOSTED_NOTIFYCAP', 'Notificeer mij wanneer een nieuw artikel is geplaatst in deze categorie.');
 define('_MI_NEWS_CATEGORY_STORYPOSTED_NOTIFYDSC', 'Ontvang notificatie wanneer een nieuw artikel is geplaatst in deze categorie.');
-define('_MI_NEWS_CATEGORY_STORYPOSTED_NOTIFYSBJ', '[{X_SITENAME}] {X_MODULE} auto-notify : Nieuw news artikel');
+define('_MI_NEWS_CATEGORY_STORYPOSTED_NOTIFYSBJ', '[{X_SITENAME}] {X_MODULE} auto-notify : Nieuw nieuws artikel');
 
 // Added in version 1.63
 define('_MI_NEWS_TAGS', "Gebruik het tags systeem?");
-define('_MI_NEWS_TAGS_DSC', "Dit is gebaseerd op de XOOPS module TAG from phppp");
+define('_MI_NEWS_TAGS_DSC', "Dit is gebaseerd op de XOOPS module TAG van phppp");
 define("_MI_NEWS_BNAME10", "Tags Cloud");
 define("_MI_NEWS_BNAME11", "Top Tags");
-define("_MI_NEWS_INTRO_TEXT", "Introducte tekst om te tonen op de submit pagina");
+define("_MI_NEWS_INTRO_TEXT", "Introductie tekst om te tonen op de submit pagina");
 define("_MI_NEWS_IMAGE_MAX_WIDTH", "Maximale afbeeldingshoogte wanneer dit is aangepast");
 define("_MI_NEWS_IMAGE_MAX_HEIGHT", "Maximale afbeeldingshoogte wanneer dit is aangepast");
 //Added in 1.67
@@ -191,8 +194,10 @@ U kunt allerlei artikelen aanmaken en ze organiseren in onderwerpen.</br></br>
 Met het ingebouwde permissiemanagement kunt u groepen rechten geven om artikelen in te dienen, groepen rechten geven om artikelen goed te keuren en bepalen welke groepen de artikelen mogen bekijken.");
 
 define("_MI_NEWS_SHARE_ME","Social media iconen weergeven ?");
-define("_MI_NEWS_SHARE_ME_DSC","Deel iconen naar facebook ,twitter , google buzz tonen onder elk artikel");
+define("_MI_NEWS_SHARE_ME_DSC","Deel iconen naar facebook, twitter, google buzz tonen onder elk artikel");
 define("_MI_NEWS_SHOWICONS","Item iconen weergeven ?");
 define("_MI_NEWS_SHOWICONS_DSC","Print, PDF and e-mail iconen weergeven onderaan elk artikel");
-
+//1.67
+define("_MI_NEWS_FACEBOOKCOMMENTS","Gebruik Facebook reacties?");
+define("_MI_NEWS_FACEBOOKCOMMENTS_DSC","Laat de bezoekers gebruik maken van Facebook om reacties toe te voegen bij de artikelen");
 ?>

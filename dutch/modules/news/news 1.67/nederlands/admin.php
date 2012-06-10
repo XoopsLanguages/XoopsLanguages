@@ -1,4 +1,7 @@
 <?php
+//
+//  Update vertaling 03-05-2012 By Ritchie for NLXOOPS.NL //
+//
 // $Id: admin.php,v 1.18 2004/07/26 17:51:25 hthouzard Exp $
 //%%%%%%	Admin Module Name  Articles 	%%%%%
 define("_AM_DBUPDATED","De Database is succesvol bijgewerkt!");
@@ -10,10 +13,10 @@ define("_AM_TOPIC","Categorie"); //Topic
 define("_AM_POSTER","Auteur");
 define("_AM_PROGRAMMED","Ingestelde Datum/Tijd"); //Programmed Date/Time
 define("_AM_ACTION","Actie");
-define("_AM_EDIT","Bewerk");
+define("_AM_EDIT","Bewerken");
 define("_AM_DELETE","Verwijder");
 define("_AM_LAST10ARTS","Laatste %d Artikelen");
-define("_AM_PUBLISHED","Gepubliceerd"); // Published Date
+define("_AM_PUBLISHED","Gepubliceerd op"); // Published Date
 define("_AM_GO","Ga!");
 define("_AM_EDITARTICLE","Bewerk artikel");
 define("_AM_POSTNEWARTICLE","Post Nieuw Artikel");
@@ -53,7 +56,7 @@ define("_AM_TOPICNAME","Categorie Naam");
 // Warning, changed from 40 to 255 characters.
 define("_AM_MAX40CHAR","(max: 255 karakters)");
 define("_AM_TOPICIMG","Categorie Afbeelding");
-define("_AM_IMGNAEXLOC","naam afbeelding + extensie gelocaliseerd in %s");
+define("_AM_IMGNAEXLOC","naam afbeelding + extensie gevonden in %s");
 define("_AM_FEXAMPLE","bijvoorbeeld: games.gif");
 define("_AM_ADDSUBTOPIC","Voeg een SUB Categorie toe");
 define("_AM_IN","in");
@@ -61,7 +64,7 @@ define("_AM_MODIFYTOPIC","Categorie wijzigen");
 define("_AM_MODIFY","Modificeer");
 define("_AM_PARENTTOPIC","Ouder Categorie");
 define("_AM_SAVECHANGE","Wijzigingen opslaan");
-define("_AM_DEL","Delete");
+define("_AM_DEL","Verwijder");
 define("_AM_CANCEL","Annuleren"); //Cancel
 define("_AM_WAYSYWTDTTAL","WAARSCHUWING: Weet je zeker dat je deze Categorie en al haar daarin gelegen Artikelen en Commenta(a)r(en) wilt verwijderen?");
 
@@ -70,7 +73,7 @@ define("_AM_WAYSYWTDTTAL","WAARSCHUWING: Weet je zeker dat je deze Categorie en 
 define("_AM_TOPICSMNGR","Categoriebeheer");
 define("_AM_PEARTICLES","Post/Bewerk Artikelen");
 define("_AM_NEWSUB","Nieuwe Inzendingen"); //Submissions
-define("_AM_POSTED","Gepost"); //Posted
+define("_AM_POSTED","Gepost op"); //Posted
 define("_AM_GENERALCONF","Algemene Instellingen"); //Configuration
 
 // Added in RC2
@@ -83,7 +86,7 @@ define("_AM_EXPARTS","Verlopen Artikelen"); //expired articles
 define("_AM_EXPIRED","Verlopen"); //expired
 define("_AM_CHANGEEXPDATETIME","Wijzig de verloopdatum/-tijd");
 define("_AM_SETEXPDATETIME","Stel de verloopdatum/-tijd in");
-define("_AM_NOWSETEXPTIME","Het is nu ingesteld op: %s");
+define("_AM_NOWSETEXPTIME","Deze is nu ingesteld op: %s");
 
 // Added in RC3
 define("_AM_ERRORTOPICNAME", "Je moet een categorienaam invoeren!"); //You must enter a topic name
@@ -91,7 +94,7 @@ define("_AM_EMPTYNODELETE", "Er valt niets te verwijderen!");
 
 // Added 240304 (Mithrandir)
 define('_AM_GROUPPERM', 'Inzenden/Goedkeuren/Lees Permissies'); //Submit/Approve/View Permissions
-define('_AM_SELFILE','Selecteer het bestand dat u je wilt uploaden'); //Selecteer  file to upload
+define('_AM_SELFILE','Selecteer het bestand dat je wilt uploaden'); //Selecteer  file to upload
 
 // Added by Hervé
 define('_AM_UPLOAD_DBERROR_SAVE','FOUT: Kon dit artikel niet voorzien van de bijlage '); //Error while attaching file to the story
@@ -105,7 +108,7 @@ define('_AM_SUBMITFORM_DESC', 'Selecteer wie nieuws-artikelen mag Inzenden/Plaat
 define('_AM_VIEWFORM_DESC', 'Selecteer wie welke Categorieën mag lezen');
 define('_AM_DELETE_SELFILES', 'Verwijder de geselcteerde bestanden');
 define('_AM_TOPIC_PICTURE', 'Upload afbeelding');
-define('_AM_UPLOAD_WARNING', '<B>ATTENTIE, vergeet niet de juiste lees-/schrijfrechten (Chmodt) in te stellen voor de navolgende folder: %s</B>');
+define('_AM_UPLOAD_WARNING', '<B>ATTENTIE, vergeet niet de juiste lees-/schrijfrechten (Chmod) in te stellen voor de navolgende folder: %s</B>');
 
 define('_AM_NEWS_UPGRADECOMPLETE', 'Upgrade Compleet');
 define('_AM_NEWS_UPDATEMODULE', 'Update module templates en blokken');
@@ -127,9 +130,9 @@ define('_AM_PUBLISH_FRONTPAGE', "Op nieuws Indexpagina publiceren?"); //Publish 
 define('_AM_NEWS_UPGRADEFAILED1', 'Niet mogelijk om de tabel stories_files aan te maken');
 define('_AM_NEWS_UPGRADEFAILED2', "Niet mogelijk om de lengte van de onderwerptitel aan te passen");
 define('_AM_NEWS_UPGRADEFAILED21', "Niet mogelijk om nieuwe velden aan de onderwerptabel toe te voegen");
-define('_AM_NEWS_UPGRADEFAILED3', "Niet mogelijk om omde tabel stories_votedata aan te maken");
+define('_AM_NEWS_UPGRADEFAILED3', "Niet mogelijk om om de tabel stories_votedata aan te maken");
 define('_AM_NEWS_UPGRADEFAILED4', "Niet mogelijk om de twee velden 'cijfer' en 'stemmen' voor de 'story' tabel aan te maken");
-define('_AM_NEWS_UPGRADEFAILED0', "Please note the messages and try to correct the problems with phpMyadmin and the sql definition's file available in the 'sql' folder of the news module");
+define('_AM_NEWS_UPGRADEFAILED0', "Neem a.u.b notie van dit bericht en probeer het probleem te verhelpen met bijvoorbeeld phpMyadmin en het sql definitie bestand. Deze is beschikbaar in de map 'sql' van de nieuws module.");
 define('_AM_NEWS_UPGR_ACCESS_ERROR',"FOUT, om het upgrade script te gebruiken, moet u een admin van deze module zijn");
 
 define('_AM_NEWS_PRUNE_BEFORE',"Artikelen opruimen die gepubliceerd zijn voor:"); //stories that were published before
@@ -138,13 +141,13 @@ define('_AM_NEWS_PRUNE_CONFIRM',"WAARSCHUWING: Je gaat PERMANENT artikelen verwi
 define('_AM_NEWS_PRUNE_TOPICS',"Geef categorieën aan"); //Limit to the following topics
 define('_AM_NEWS_PRUNENEWS', 'Opruimen nieuws');
 define('_AM_NEWS_EXPORT_NEWS', 'Nieuws-artikelen Exporteren');
-define('_AM_NEWS_EXPORT_NOTHING', "Sorrie, maar er valt niets te exporteren. Svp controleer je criteria");
+define('_AM_NEWS_EXPORT_NOTHING', "Sorry, maar er valt niets te exporteren. Controleer je criteria");
 define('_AM_NEWS_PRUNE_DELETED', '%d nieuws is verwijderd');
 define('_AM_NEWS_PERM_WARNING', '<h4>ATTENTIE, er zijn drie afzonderlijke permissie formulieren. De permissie-instellingen moeten per formulier verstuurd worden </h4>'); //you have 3 forms so you have 3 submit buttons
 define('_AM_NEWS_EXPORT_BETWEEN', 'Exporteer nieuws gepubliceerd tussen');
 define('_AM_NEWS_EXPORT_AND', ' en ');
 define('_AM_NEWS_EXPORT_PRUNE_DSC', "Als je geen Categorie(ën) aangeeft zal het opruimen op alle categorieën toegepast worden.<br/>In het andere geval alléén op de aangegeven categorieën.");
-define('_AM_NEWS_EXPORT_INCTOPICS', 'Include Categorie Definities ?');
+define('_AM_NEWS_EXPORT_INCTOPICS', 'Inclusief Categorie Definities ?');
 define('_AM_NEWS_EXPORT_ERROR', 'Error gedurende het creëeren van het bestand: %s. Operatie is gestopt.');
 define('_AM_NEWS_EXPORT_READY', "Je xml export bestand is klaar om te downloaden. <br /><a href='%s'>Klik op deze link om het bestand te downloaden</a>.<br />Vergeet niet om het te <a href='%s'>verwijderen</a> zodra je klaar bent.");
 define('_AM_NEWS_RSS_URL', "URL van RSS feed");
@@ -168,9 +171,9 @@ define('_AM_NEWS_STATS10','Auteurs statististieken');
 define('_AM_NEWS_STATS11',"Artikel telling");
 define('_AM_NEWS_HELP',"Help");
 define("_AM_NEWS_MODULEADMIN","Module Admin");
-define("_AM_NEWS_GENERALSET", "Nieuws Module Settings" );
+define("_AM_NEWS_GENERALSET", "Nieuws Module Instellingen" );
 define('_AM_NEWS_GOTOMOD','Ga naar nieuwsmodule');
-define('_AM_NEWS_NOTHING',"Sorrie, maar er valt niets te downloaden. Veririeër je criteria !");
+define('_AM_NEWS_NOTHING',"Sorry, maar er valt niets te downloaden. Verfieër je criteria !");
 define('_AM_NEWS_NOTHING_PRUNE',"Sorry, maar er valt geen nieuws op te ruimen. Verifieër je criteria  !");
 define('_AM_NEWS_TOPIC_COLOR',"Categorie Kleur");
 define('_AM_NEWS_COLOR',"Kleur");
@@ -213,4 +216,15 @@ define("_AM_NEWS_ABOUT_DESCRIPTION",          "Omschrijving: ");
 define("_AM_NEWS_CONFIG_CHECK","Configuratiecontrole");
 define("_AM_NEWS_CONFIG_PHP","Minimum PHP versie benodigd: %s (huidige versie is %s)");
 define("_AM_NEWS_CONFIG_XOOPS","Minimum XOOPS versie benodigd:  %s (huidige versie is %s)"); 
+
+define ("_AM_NEWS_STATISTICS", "Nieuws Dashboard");
+define ("_AM_NEWS_THEREARE_STORIES", "Er zijn <span class='red bold'>%s</span> artikelen in de database");
+define ("_AM_NEWS_THEREARE_STORIES_ONLINE", "Er zijn <span class='red bold'>%s</span> artikelen Online");
+define ("_AM_NEWS_THEREARE_STORIES_FILES", "Er zijn <span class='red bold'>%s</span> Stories_files in de database");
+define ("_AM_NEWS_THEREARE_STORIES_FILES_ONLINE", "TEr zijn <span class='red bold'>%s</span> Stories_files online");
+define ("_AM_NEWS_THEREARE_TOPICS", "Er zijn <span class='red bold'>%s</span> categoriën in de database");
+define ("_AM_NEWS_THEREARE_TOPICS_ONLINE", "Er zijn <span class='red bold'>%s</span> categoriën Online");
+define ("_AM_NEWS_THEREARE_STORIES_VOTEDATA", "Er zijn <span class='red bold'>%s</span> artikelen bekeken");
+define ("_AM_NEWS_THEREARE_STORIES_IMPORTED", "Er zijn <span class='red bold'>%s</span> artikelen geimporteerd");
+define ("_AM_NEWS_THEREARE_STORIES_EXPORTED", "Er zijn <span class='red bold'>%s</span> Stories exported");
 ?>
