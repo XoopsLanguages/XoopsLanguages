@@ -227,4 +227,8 @@ define ("_AM_NEWS_THEREARE_TOPICS_ONLINE", "Er zijn <span class='red bold'>%s</s
 define ("_AM_NEWS_THEREARE_STORIES_VOTEDATA", "Er zijn <span class='red bold'>%s</span> artikelen bekeken");
 define ("_AM_NEWS_THEREARE_STORIES_IMPORTED", "Er zijn <span class='red bold'>%s</span> artikelen geimporteerd");
 define ("_AM_NEWS_THEREARE_STORIES_EXPORTED", "Er zijn <span class='red bold'>%s</span> Stories exported");
+define ("_AM_NEWS_THEREARE_STORIES_EXPIRED", "Er zijn <span class='red bold'>%s</span> artikelen verlopen");
+define ("_AM_NEWS_THEREARE_STORIES_EXPIRED_SOON", "Er zijn <span class='red bold'>%s</span> artikelen bijna verlopen");
+define ("_AM_NEWS_THEREARE_STORIES_APPROVED", "Er zijn <span class='red bold'>%s</span> Goedgekeurde artikelen");
+define ("_AM_NEWS_THEREARE_STORIES_NEED_APPROVAL", "Er zijn <span class='red bold'>%s</span> artikelen voor goedkeuring");
 ?>
