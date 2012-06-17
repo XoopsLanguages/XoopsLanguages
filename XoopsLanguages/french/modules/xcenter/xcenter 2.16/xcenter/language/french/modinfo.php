@@ -77,65 +77,65 @@ License: See /docs - GPL 2.0
 	define('_XTR_TEMPLATE_INDEX', 'xcenter_index.html');
 	define('_XTR_TEMPLATE_INDEX_DESC', 'Index File for Xcenter');
 	define('_XTR_TEMPLATE_BREADCRUMB', 'xcenter_breadcrumb.html');
-	define('_XTR_TEMPLATE_BREADCRUMB_DESC', 'Fil d\'Ariane pour le fichier Index de Xcenter');
+	define('_XTR_TEMPLATE_BREADCRUMB_DESC', 'Breadcrumb for Index File for Xcenter');
 	define('_XTR_TEMPLATE_CPANEL_ADDEDITPAGE', 'xcenter_cpanel_addeditpage.html');
-	define('_XTR_TEMPLATE_CPANEL_ADDEDITPAGE_DESC', 'Modifications XCenter Cpanel pour Xcenter');
+	define('_XTR_TEMPLATE_CPANEL_ADDEDITPAGE_DESC', 'Xcenter Cpanel Edit From for Xcenter');
 	define('_XTR_TEMPLATE_CPANEL_ADDEDITCATEGORY', 'xcenter_cpanel_addeditcategory.html');
-	define('_XTR_TEMPLATE_CPANEL_ADDEDITCATEGORY_DESC', 'Modifications XCenter Cpanel pour les catégories');
+	define('_XTR_TEMPLATE_CPANEL_ADDEDITCATEGORY_DESC', 'Xcenter Cpanel Edit From for Category');
 	define('_XTR_TEMPLATE_CPANEL_ADDEDITBLOCK', 'xcenter_cpanel_addeditblock.html');
-	define('_XTR_TEMPLATE_CPANEL_ADDEDITBLOCK_DESC', 'Modifications XCenter Cpanel pour les blocs');	
+	define('_XTR_TEMPLATE_CPANEL_ADDEDITBLOCK_DESC', 'Xcenter Cpanel Edit From for block');	
 	define('_XTR_TEMPLATE_INDEX_ADDEDITPAGE', 'xcenter_index_addeditpage.html');
-	define('_XTR_TEMPLATE_INDEX_ADDEDITPAGE_DESC', 'Modifications XCenter Index pour Xcenter');
+	define('_XTR_TEMPLATE_INDEX_ADDEDITPAGE_DESC', 'Xcenter Index Edit From for Xcenter');
 	define('_XTR_TEMPLATE_INDEX_ADDEDITCATEGORY', 'xcenter_index_addeditcategory.html');
-	define('_XTR_TEMPLATE_INDEX_ADDEDITCATEGORY_DESC', 'Modifications XCenter Index pour les catégories');
+	define('_XTR_TEMPLATE_INDEX_ADDEDITCATEGORY_DESC', 'Xcenter Index Edit From for Category');
 	define('_XTR_TEMPLATE_INDEX_ADDEDITBLOCK', 'xcenter_index_addeditblock.html');
-	define('_XTR_TEMPLATE_INDEX_ADDEDITBLOCK_DESC', 'Modifications XCenter Cpanel pour les blocs');
+	define('_XTR_TEMPLATE_INDEX_ADDEDITBLOCK_DESC', 'Xcenter Cpanel Edit From for block');
 	define('_XTR_TEMPLATE_CPANEL_JSON_ADDEDITPAGE', 'xcenter_cpanel_json_addeditpage.html');
-	define('_XTR_TEMPLATE_CPANEL_JSON_ADDEDITPAGE_DESC', 'Modifications XCenter Cpanel pour le json de Xcenter');
+	define('_XTR_TEMPLATE_CPANEL_JSON_ADDEDITPAGE_DESC', 'Xcenter Cpanel Edit From for Xcenter for json');
 	define('_XTR_TEMPLATE_CPANEL_JSON_ADDEDITCATEGORY', 'xcenter_cpanel_json_addeditcategory.html');
-	define('_XTR_TEMPLATE_CPANEL_JSON_ADDEDITCATEGORY_DESC', 'Modifications XCenter Cpanel pour le json des catégories');
+	define('_XTR_TEMPLATE_CPANEL_JSON_ADDEDITCATEGORY_DESC', 'Xcenter Cpanel Edit From for Category for json');
 	define('_XTR_TEMPLATE_CPANEL_JSON_ADDEDITBLOCK', 'xcenter_cpanel_json_addeditblock.html');
-	define('_XTR_TEMPLATE_CPANEL_JSON_ADDEDITBLOCK_DESC', 'Modifications XCenter Cpanel pour le json des blocs');	
+	define('_XTR_TEMPLATE_CPANEL_JSON_ADDEDITBLOCK_DESC', 'Xcenter Cpanel Edit From for block for json');	
 	define('_XTR_TEMPLATE_INDEX_JSON_ADDEDITPAGE', 'xcenter_index_json_addeditpage.html');
-	define('_XTR_TEMPLATE_INDEX_JSON_ADDEDITPAGE_DESC', 'Modifications XCenter Index pour le json de Xcenter');
+	define('_XTR_TEMPLATE_INDEX_JSON_ADDEDITPAGE_DESC', 'Xcenter Index Edit From for Xcenter for json');
 	define('_XTR_TEMPLATE_INDEX_JSON_ADDEDITCATEGORY', 'xcenter_index_json_addeditcategory.html');
-	define('_XTR_TEMPLATE_INDEX_JSON_ADDEDITCATEGORY_DESC', 'Modifications XCenter Index pour le json des catégories');
+	define('_XTR_TEMPLATE_INDEX_JSON_ADDEDITCATEGORY_DESC', 'Xcenter Index Edit From for Category for json');
 	define('_XTR_TEMPLATE_INDEX_JSON_ADDEDITBLOCK', 'xcenter_index_json_addeditblock.html');
-	define('_XTR_TEMPLATE_INDEX_JSON_ADDEDITBLOCK_DESC', 'Modifications XCenter Index pour le json des blocs');		
+	define('_XTR_TEMPLATE_INDEX_JSON_ADDEDITBLOCK_DESC', 'Xcenter Cpanel Edit From for block for json');		
 	define('_XTR_TEMPLATE_INDEX_MANAGE', 'xcenter_index_manage.html');
-	define('_XTR_TEMPLATE_INDEX_MANAGE_DESC', 'Modèle du gestionnaire Xcenter - affichage de listes');	
+	define('_XTR_TEMPLATE_INDEX_MANAGE_DESC', 'Xcenter Manager Template - Displays lists');	
 	define('_XTR_TEMPLATE_INDEX_PASSWORD', 'xcenter_index_password.html');
-	define('_XTR_TEMPLATE_INDEX_PASSWORD_DESC', 'Modèle pour l\'invite de mot de passe de Xcenter');	
+	define('_XTR_TEMPLATE_INDEX_PASSWORD_DESC', 'Xcenter Password Prompt Template');	
 	
 	//CLASS NAMES // DO NOT CHANGE
 	define('_XTR_CLASS_XCENTER', 'xcenter');
-	define('_XTR_CLASS_CATEGORY', 'catégorie');
-	define('_XTR_CLASS_TEXT', 'texte');
-	define('_XTR_CLASS_BLOCK', 'bloc');
+	define('_XTR_CLASS_CATEGORY', 'category');
+	define('_XTR_CLASS_TEXT', 'text');
+	define('_XTR_CLASS_BLOCK', 'block');
 	define('_XTR_CLASS_XLANGUAGE_EXT', 'xlanguage_ext');
 	
 	//FUNCTIOnAL PAGE OpERATORs -- DO NOT CHANGE
-	define('_XTR_URL_OP_SAVE', 'enregistrer');
-	define('_XTR_URL_OP_EDIT', 'modifier');
-	define('_XTR_URL_OP_ADD', 'ajouter');
-	define('_XTR_URL_OP_DELETE', 'supprimer');
-	define('_XTR_URL_OP_COPY', 'copier');
-	define('_XTR_URL_OP_MANAGE', 'gérer');
-	define('_XTR_URL_OP_PERMISSIONS', 'autorisations');
+	define('_XTR_URL_OP_SAVE', 'save');
+	define('_XTR_URL_OP_EDIT', 'edit');
+	define('_XTR_URL_OP_ADD', 'add');
+	define('_XTR_URL_OP_DELETE', 'delete');
+	define('_XTR_URL_OP_COPY', 'copy');
+	define('_XTR_URL_OP_MANAGE', 'manage');
+	define('_XTR_URL_OP_PERMISSIONS', 'permissions');
 	define('_XTR_URL_FORM_XCENTER', 'xcenter');
-	define('_XTR_URL_FORM_CATEGORY', 'catégorie');
-	define('_XTR_URL_FORM_BLOCK', 'bloc');
-	define('_XTR_URL_FCT_CATEGORIES', 'catégories');
+	define('_XTR_URL_FORM_CATEGORY', 'category');
+	define('_XTR_URL_FORM_BLOCK', 'block');
+	define('_XTR_URL_FCT_CATEGORIES', 'categories');
 	define('_XTR_URL_FCT_XCENTER', 'xcenter');
-	define('_XTR_URL_FCT_CATEGORY', 'catégorie');
-	define('_XTR_URL_FCT_BLOCK', 'bloc');
-	define('_XTR_URL_FCT_BLOCKS', 'blocs');
+	define('_XTR_URL_FCT_CATEGORY', 'category');
+	define('_XTR_URL_FCT_BLOCK', 'block');
+	define('_XTR_URL_FCT_BLOCKS', 'blocks');
 	define('_XTR_URL_FCT_PAGES', 'pages');
-	define('_XTR_URL_FCT_TEMPLATE', 'modèle');
+	define('_XTR_URL_FCT_TEMPLATE', 'template');
 	
 	//ENUMERATORS // DO NOT CHANGE
-	define('_XTR_ENUM_TYPE_BLOCK', 'bloc');
-	define('_XTR_ENUM_TYPE_CATEGORY', 'catégorie');
+	define('_XTR_ENUM_TYPE_BLOCK', 'block');
+	define('_XTR_ENUM_TYPE_CATEGORY', 'category');
 	define('_XTR_ENUM_TYPE_XCENTER', 'xcenter');
 	
 	// PATHs // DO NOT CHANGE
@@ -165,24 +165,24 @@ License: See /docs - GPL 2.0
 	define('_XTR_PATH_PHP_FORM_HTMLTEMPLATES', '/modules/'._XTR_DIRNAME.'/include/formselecttemplates.php');
 	
 	// PERMiSSION OPTIONS // DO NOT CHANGE
-	define('_XTR_PERM_VIEW_CATEGORY', 'Affichage des autorisations des catégories');
-	define('_XTR_PERM_VIEW_XCENTER', 'Affichage des autorisations du contenu');
-	define('_XTR_PERM_VIEW_BLOCK', 'Affichage des autorisations des blocs');
-	define('_XTR_PERM_EDIT_CATEGORY', 'Modification des autorisations des catégories');
-	define('_XTR_PERM_EDIT_XCENTER', 'Modification des autorisations du contenu');
-	define('_XTR_PERM_EDIT_BLOCK', 'Modification des autorisations des blocs');
-	define('_XTR_PERM_ADD_CATEGORY', 'Ajout des autorisations des catégories');
-	define('_XTR_PERM_ADD_XCENTER', 'Ajout des autorisations du contenu');
-	define('_XTR_PERM_ADD_BLOCK', 'Ajout des autorisations des blocs');
-	define('_XTR_PERM_DEFAULT_TEMPLATE', 'Autorisations par défaut');
+	define('_XTR_PERM_VIEW_CATEGORY', 'Categories Viewing Permissions');
+	define('_XTR_PERM_VIEW_XCENTER', 'Content Viewing Permissions');
+	define('_XTR_PERM_VIEW_BLOCK', 'Block Viewing Permissions');
+	define('_XTR_PERM_EDIT_CATEGORY', 'Categories Edit Permissions');
+	define('_XTR_PERM_EDIT_XCENTER', 'Content Edit Permissions');
+	define('_XTR_PERM_EDIT_BLOCK', 'Block Edit Permissions');
+	define('_XTR_PERM_ADD_CATEGORY', 'Categories Adding Permissions');
+	define('_XTR_PERM_ADD_XCENTER', 'Content Adding Permissions');
+	define('_XTR_PERM_ADD_BLOCK', 'Block Adding Permissions');
+	define('_XTR_PERM_DEFAULT_TEMPLATE', 'Default Permissions');
 
 	// PERMISSION TYPES & MODES // DO NOT CHANGE
-	define('_XTR_PERM_MODE_VIEW', 'voir');
-	define('_XTR_PERM_MODE_EDIT', 'modifier');
-	define('_XTR_PERM_MODE_ADD', 'ajouter');
-	define('_XTR_PERM_MODE_COPY', 'copier');
-	define('_XTR_PERM_MODE_DELETE', 'supprimer');
-	define('_XTR_PERM_MODE_ALL', 'tout');
+	define('_XTR_PERM_MODE_VIEW', 'view');
+	define('_XTR_PERM_MODE_EDIT', 'edit');
+	define('_XTR_PERM_MODE_ADD', 'add');
+	define('_XTR_PERM_MODE_COPY', 'copy');
+	define('_XTR_PERM_MODE_DELETE', 'delete');
+	define('_XTR_PERM_MODE_ALL', 'all');
 	define('_XTR_PERM_TYPE_CATEGORY', '_category');
 	define('_XTR_PERM_TYPE_XCENTER', '_xcenter');
 	define('_XTR_PERM_TYPE_BLOCK', '_block');
@@ -245,7 +245,7 @@ License: See /docs - GPL 2.0
 	define('_XTR_SECURITY_DESC', 'Type de complexité de la sécurité que vous souhaitez utiliser !');
 	define('_XTR_MUlTILINGUAL', 'Documents Multilingues');
 	define('_XTR_SUPPORTTAGS', 'Soutien du module Tag');
-	define('_XTR_SUPPORTTAGS_DESC', 'Soutien du module Tag (2.3 ou supérieur)<br/><a href="http://sourceforge.net/projects/xoops/files/XOOPS%20Module%20Repository/XOOPS%20tag%202.30%20RC/">Télécharger le module Tag</a>');
+	define('_XTR_SUPPORTTAGS_DESC', 'Soutien du module Tag (2.3 ou supérieur)<br/><a href="http://xoops.svn.sourceforge.net/viewvc/xoops/XoopsModules/tag/trunk/tag/?view=tar">Télécharger le module Tag</a>');
 	define('_XTR_MUlTILINGUAL_DESC', 'Permet de spécifier plusieurs langues par page');
 	define('_XTR_XCENTER_NAME', 'Contenu multilingue');
 	define('_XTR_XCENTER_DIRNAME', 'xcenter');
@@ -288,8 +288,8 @@ License: See /docs - GPL 2.0
 	
 	// Version 2.16
 	//FUNCTIOnAL PAGE OpERATORs -- DO NOT CHANGE
-	define('_XTR_URL_OP_DASHBOARD', 'Tableau de bord');
-	define('_XTR_URL_OP_ABOUT', 'À propos');
+	define('_XTR_URL_OP_DASHBOARD', 'dashboard');
+	define('_XTR_URL_OP_ABOUT', 'about');
 	
 	//ADMINISTRATION SETTINGS // DO NOT CHANGE
 	define('_XTR_HASADMIN', true);
