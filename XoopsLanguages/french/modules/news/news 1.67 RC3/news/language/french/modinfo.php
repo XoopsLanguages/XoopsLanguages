@@ -1,5 +1,5 @@
 <?php
-// $Id: modinfo.php 1687 2012-05-17 13:20:50Z cesag $
+// $Id$
 // Module Info
 
 // The name of this module
@@ -41,7 +41,7 @@ define("_MI_NEWSDISPLAY", "Mise en page des articles");
 define("_MI_NAMEDISPLAY","Nom d'auteur à utiliser");
 define("_MI_COLUMNMODE","Colonnes");
 define("_MI_STORYCOUNTADMIN","Nombre d'articles à afficher dans l'administration : ");
-define("_MI_UPLOADFILESIZE", "Taille maximale des fichiers joints en Ko (1048576 = 1 Méga)");
+define('_MI_UPLOADFILESIZE', "Taille maximale des fichiers joints en Ko (1048576 = 1 Méga)");
 define("_MI_UPLOADGROUPS","Groupes autorisés à joindre des fichiers aux articles");
 
 // Description of each config items
@@ -105,7 +105,7 @@ define('_MI_NEWSBYTHISAUTHOR', 'Articles du même auteur');
 define('_MI_NEWSBYTHISAUTHORDSC', "Si vous mettez cette option à OUI, alors un lien 'Articles du même auteur' sera affiché");
 
 define('_MI_NEWS_PREVNEX_LINK','Afficher les liens vers les articles précédents et suivants ?');
-define("_MI_NEWS_PREVNEX_LINK_DESC","Si cette option est activée, deux nouveaux liens seront visibles en bas de chaque article. Ces liens seront utiles pour lire l'article précédent et suivant en fonction de la date de publication");
+define('_MI_NEWS_PREVNEX_LINK_DESC',"Si cette option est activée, deux nouveaux liens seront visibles en bas de chaque article. Ces liens seront utiles pour lire l'article précédent et suivant en fonction de la date de publication");
 define('_MI_NEWS_SUMMARY_SHOW','Afficher la table de sommaire ?');
 define('_MI_NEWS_SUMMARY_SHOW_DESC','Quand vous utilisez cette option, une table sommaire contenant les liens vers tous les articles récents publiés sur le même thème sera visible en bas de chaque article');
 define('_MI_NEWS_AUTHOR_EDIT',"Permettre aux auteurs d'éditer leurs articles ?");

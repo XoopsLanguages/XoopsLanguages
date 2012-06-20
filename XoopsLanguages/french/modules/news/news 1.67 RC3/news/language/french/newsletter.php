@@ -1,5 +1,6 @@
 <?php
 $newslettertemplate=<<<contentend
+
 Titre : %title%
 Sujet : %topic_title%
 Auteur : %publisher%

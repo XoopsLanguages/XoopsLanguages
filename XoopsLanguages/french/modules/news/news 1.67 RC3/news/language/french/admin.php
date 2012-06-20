@@ -216,22 +216,23 @@ define("_AM_NEWS_CONFIG_XOOPS","Version minimum de XOOPS requise:  %s (votre ver
 
 define ("_AM_NEWS_STATISTICS", "Statistiques des articles");
 define ("_AM_NEWS_THEREARE_STORIES", "Il y a <span class='red bold'>%s</span> Articles dans la base de données");
-define ("_AM_NEWS_THEREARE_STORIES_ONLINE", "Il y a <span class='red bold'>%s</span> Articles en ligne");
+define ("_AM_NEWS_THEREARE_STORIES_ONLINE", "Il y a <span class='red bold'>%s</span> Articles publiés à l'accueil");
 define ("_AM_NEWS_THEREARE_STORIES_FILES", "Il y a  <span class='red bold'>%s</span> Fichiers d'articles dans la base de données");
 define ("_AM_NEWS_THEREARE_STORIES_FILES_ONLINE", "Il y a <span class='red bold'>%s</span> Fichiers d'articles en ligne");
 define ("_AM_NEWS_THEREARE_TOPICS", "Il y a <span class='red bold'>%s</span> Catégories dans la base de données");
-define ("_AM_NEWS_THEREARE_TOPICS_ONLINE", "Il y a <span class='red bold'>%s</span> Catégories en ligne");
+define ("_AM_NEWS_THEREARE_TOPICS_ONLINE", "Il y a <span class='red bold'>%s</span> Catégories visibles dans le Menu");
 define ("_AM_NEWS_THEREARE_STORIES_VOTEDATA", "Il y a <span class='red bold'>%s</span> Articles visionnés");
 define ("_AM_NEWS_THEREARE_STORIES_IMPORTED", "Il y a <span class='red bold'>%s</span> Articles importés");
 define ("_AM_NEWS_THEREARE_STORIES_EXPORTED", "Il y a <span class='red bold'>%s</span> Articles exportés");
-
-define("_AM_NEWS_NOPERMSSET","L'autorisation ne peut être donnée : il n'y a aucun sujet créé encore! Veuillez d'abord créer un sujet.");
-
+define ("_AM_NEWS_THEREARE_STORIES_EXPIRED", "Il y a <span class='red bold'>%s</span> Articles expirés");
+define ("_AM_NEWS_THEREARE_STORIES_EXPIRED_SOON", "Il y a <span class='red bold'>%s</span> Articles qui vont expirer bientôt");
+define ("_AM_NEWS_THEREARE_STORIES_APPROVED", "Il y a <span class='red bold'>%s</span> Articles approuvées");
+define ("_AM_NEWS_THEREARE_STORIES_NEED_APPROVAL", "Il y a <span class='red bold'>%s</span> Articles qui sont en attente d'approbation");
 /**
  * @translation     Communauté Francophone des Utilisateurs de Xoops
  * @specification   _LANGCODE: fr
  * @specification   _CHARSET: UTF-8 sans Bom
- * Mis à jour par Cesag le 16 Mai 2012
+ * Mis à jour par Cesag le 17 juin 2012
  * @version         $Id $
 **/
 

@@ -74,7 +74,7 @@ define('_NW_NORATING',"Aucune note sélectionnée.");
 define('_NW_USERAVG',"Note moyenne");
 define('_NW_DLRATINGS',"Note des articles (nombre total de vote: %s)");
 define('_NW_ONEVOTE',"1 vote");
-define('_NW_NUMVOTES',"%s votes");
+define('_NW_NUMVOTES',"%u votes");		// Warning
 define('_NW_CANTVOTEOWN',"Vous ne pouvez pas  voter pour une ressource que vous avez proposé.<br />All votes are logged and reviewed.");
 define('_NW_VOTEDELETED',"Données de vote supprimées.");
 define('_NW_VOTEONCE',"Merci de ne pas  voter pour une même ressource plus d'une fois.");
