@@ -124,9 +124,9 @@ define('_NW_BOOKMARK_TO_MIXX', "Mettre en favoris dans Mixx");
 define('_NW_BOOKMARK_TO_MYSPACE', "Mettre en favoris dans Myspace");
 define('_NW_BOOKMARK_TO_DESIGNFLOAT', "Mettre en favoris dans Designfloat");
 define('_NW_BOOKMARK_TO_BALATARIN', "Mettre en favoris dans Balatarin");
-define('_NW_BOOKMARK_TO_GOOLGEBUZZ', "Mettre en favoris dans Google Buzz");
-define('_NW_BOOKMARK_TO_GOOLGEREADER', "Mettre en favoris dans Google Reader");
-define('_NW_BOOKMARK_TO_GOOLGEBOOKMARKS', "Mettre en favoris dans Google Bookmarks");
+define('_NW_BOOKMARK_TO_GOOGLEPLUS', "Mettre en favoris dans Google Plus");
+define('_NW_BOOKMARK_TO_GOOGLEREADER', "Mettre en favoris dans Google Reader");
+define('_NW_BOOKMARK_TO_GOOGLEBOOKMARKS', "Mettre en favoris dans Google Bookmarks");
 
 define('_NW_DELETE', "Supprimer");
 define('_NW_EDIT', "Editer");
