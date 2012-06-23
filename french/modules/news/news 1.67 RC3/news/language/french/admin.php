@@ -235,5 +235,3 @@ define ("_AM_NEWS_THEREARE_STORIES_NEED_APPROVAL", "Il y a <span class='red bold
  * Mis à jour par Cesag le 17 juin 2012
  * @version         $Id $
 **/
-
-?>
