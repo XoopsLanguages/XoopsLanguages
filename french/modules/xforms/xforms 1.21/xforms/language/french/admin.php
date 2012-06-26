@@ -14,7 +14,7 @@ define("_AM_ELE_ORDER","Ordre");
 define("_AM_ELE_DISPLAY","Afficher");
 
 define("_AM_ELE_TEXT","Champs texte");
-define("_AM_ELE_TEXT_DESC","{UNAME} imprime le pseudo d'utilisateur;<br />{EMAIL} imprime l'adress mail;<br />{NAME} imprime le nom réel de l'utilisateur;<br />{FROM} imprime la localisation de l'utilisateur;<br />{INFO} imprime les infos;<br />{ICQ} imprime l'adresse ICQ;<br />{AIM} imprime l'adresse AIM;<br />{YIM} imprime l'adresse YIM;<br />{MSNM} imprime l'adresse MSN;<br />{OCCUP} imprime la profession");
+define("_AM_ELE_TEXT_DESC","{UNAME} affichera le pseudoyme de l'utilisateur ;<br />{EMAIL} affichera l'adresse électronique ;<br />{NAME} affichera le nom de famille de l'utilisateur ;<br />{FROM} affichera la localisation de l'utilisateur ;<br />{INFO} affichera les informations ;<br />{ICQ} affichera l'adresse ICQ ;<br />{AIM} affichera l'adresse AIM ;<br />{YIM} affichera l'adresse YIM ;<br />{MSNM} affichera l'adresse MSN ;<br />{OCCUP} affichera la profession.");
 define("_AM_ELE_TAREA","Zone de texte");
 define("_AM_ELE_SELECT","Sélectionner boîte");
 define("_AM_ELE_CHECK","Cocher élément");
