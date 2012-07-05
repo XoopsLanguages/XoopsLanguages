@@ -52,15 +52,15 @@ define("_MD_TDMDOWNLOADS_CAT_TITLEZTOA","Titre (de Z à A)");
 define("_MD_TDMDOWNLOADS_CAT_VOTE","Votes");
 
 // singlefile.php:
-define("_MD_TDMDOWNLOADS_SINGLEFILE_AUTHOR","Soumis par");
+define("_MD_TDMDOWNLOADS_SINGLEFILE_AUTHOR","Soumis par : ");
 define("_MD_TDMDOWNLOADS_SINGLEFILE_COMMENTS","(%s) Commentaires");
-define("_MD_TDMDOWNLOADS_SINGLEFILE_DATEPROP","Date de soumission");
+define("_MD_TDMDOWNLOADS_SINGLEFILE_DATEPROP","Date de soumission : ");
 define("_MD_TDMDOWNLOADS_SINGLEFILE_ICI","Ici");
 define("_MD_TDMDOWNLOADS_SINGLEFILE_INTFILEFOUND","Voici un fichier important %s");
 define("_MD_TDMDOWNLOADS_SINGLEFILE_LIMITGLOBAL","Vous avez téléchargé les fichiers de %s de ce site et la limite est de s % en 24 h ");
 define("_MD_TDMDOWNLOADS_SINGLEFILE_LIMITLID","Vous avez téléchargé cette fois de s fichier % et la limite est de s % en 24 h");
 define("_MD_TDMDOWNLOADS_SINGLEFILE_MODIFY","Modifier");
-define("_MD_TDMDOWNLOADS_SINGLEFILE_NBTELECH","Téléchargé %s fois");
+define("_MD_TDMDOWNLOADS_SINGLEFILE_NBTELECH","Téléchargements : %s");
 define("_MD_TDMDOWNLOADS_SINGLEFILE_NONEXISTENT","Ce téléchargement n'existe pas dans notre base de données");
 define("_MD_TDMDOWNLOADS_SINGLEFILE_NOPERMDOWNLOAD","Vous n'avez pas le droit de télécharger ce fichier");
 define("_MD_TDMDOWNLOADS_SINGLEFILE_RATING","Cote");
@@ -149,8 +149,8 @@ define("_MD_TDMDOWNLOADS_BOOKMARK_TO_MIXX", "Marque vers Mixx");
 define("_MD_TDMDOWNLOADS_BOOKMARK_TO_MYSPACE", "Marque vers Myspace");
 define("_MD_TDMDOWNLOADS_BOOKMARK_TO_DESIGNFLOAT", "Marque vers Designfloat");
 define("_MD_TDMDOWNLOADS_BOOKMARK_TO_BALATARIN", "Marque vers Balatarin");
-define("_MD_TDMDOWNLOADS_BOOKMARK_TO_GOOLGEBUZZ", "Marque vers Google Buzz");
-define("_MD_TDMDOWNLOADS_BOOKMARK_TO_GOOLGEREADER", "Marque vers Google Buzz");
-define("_MD_TDMDOWNLOADS_BOOKMARK_TO_GOOLGEBOOKMARKS", "Marque vers Google Bookmarks");
+define("_MD_TDMDOWNLOADS_BOOKMARK_TO_GOOGLEPLUS", "Marque vers Google Plus");
+define("_MD_TDMDOWNLOADS_BOOKMARK_TO_GOOGLEREADER", "Marque vers Google Reader");
+define("_MD_TDMDOWNLOADS_BOOKMARK_TO_GOOGLEBOOKMARKS", "Marque vers Google Bookmarks");
 // Traduction par Cesag pour frxoops.org le 1er Juin 2012
 ?>
