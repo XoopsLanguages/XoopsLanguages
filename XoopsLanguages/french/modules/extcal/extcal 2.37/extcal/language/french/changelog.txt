@@ -1,64 +1,64 @@
 2012/02/02: Version 2.37 (JJD.fr)
 ===================================
-- Ajout du champ icÃ´ne dans la table event_event
-- Ajout du champ icÃ´ne dans la table event_cat
-- Affichage de l'icÃ´ne de event/cat dans l'infobulle
-- Mise Ã  jour des constantes de langue
-- Patch de mise Ã  jour des tables
+- Ajout du champ icône dans la table event_event
+- Ajout du champ icône dans la table event_cat
+- Affichage de l'icône de event/cat dans l'infobulle
+- Mise à jour des constantes de langue
+- Patch de mise à jour des tables
 
 2012/01/31: Version 2.36 (JJD.fr)
 ===================================
 - Correction d'affichage
-- Remplacement des infobulles par un autre modÃ¨le plus pro
+- Remplacement des infobulles par un autre modèle plus pro
 
 2012/01/21: Version 2.35 (JJD.fr)
 ===================================
-- RÃ©intrÃ©gation du fichier de mise Ã  jour extcal_2_34.php omis dans la version prÃ©cÃ©dente
+- Réintrégation du fichier de mise à jour extcal_2_34.php omis dans la version précédente
 - Correction du zoom sur les photos dans certaines vue
-- Correction valeur par dÃ©faut Ã  0 de event_etablissement dans la table event
+- Correction valeur par défaut à 0 de event_etablissement dans la table event
 - Instanciation de extcalConfig <=> xoopsModuleConfig pour les blocks
 
 2012/01/06: Version 2.34 (JJD.fr)
 ===================================
- - Correction de la gestion des images des Ã©vÃ¨nements et de l'Ã©tablissement
+ - Correction de la gestion des images des évènements et de l'établissement
  - Correction du flux RSS
- - Correction du motif des expressions rÃ©guliÃ¨res pour la validation des dates
- - Correction du lien sur le site de l'Ã©tablissement
- - Suppression du retour Ã  la ligne avant la devise dans la fiche de l'Ã©tablissement
+ - Correction du motif des expressions régulières pour la validation des dates
+ - Correction du lien sur le site de l'établissement
+ - Suppression du retour à la ligne avant la devise dans la fiche de l'établissement
 
 ===================================
 2011/12/30: Version 2.34 (JJD.fr)
 ===================================
- - Champ "desc" de la table "etablissement" renomÃ© en "description".
- - Correction template, admin et font-office pour les Ã©tablissements
+ - Champ "desc" de la table "etablissement" renomé en "description".
+ - Correction template, admin et font-office pour les établissements
 
 ===================================
 2011/12/30: Version 2.33 (JJD.fr)
 ===================================
-- rÃ© Ã©criture des fonctions
+- ré écriture des fonctions
   bExtcalMinicalShow
   bExtcalMinicaledit (utilisation de xoopsform)
   bExtcalMinicalAddEventToArray (simplication du code))
 
 - Ajout de la constante 'CALENDAR_ROOT' dans le fichier constantes.php 
-    et suppression de cette dÃ©claration dans tous les autres fichiers puisque
-    le fichier 'constantes.php' est inclus systÃ©matiquement.
-    Par ailleurs cela permettra Ã  terme de dÃ©placer la bibliothÃ¨que 'pear'
+    et suppression de cette déclaration dans tous les autres fichiers puisque
+    le fichier 'constantes.php' est inclus systématiquement.
+    Par ailleurs cela permettra à terme de déplacer la bibliothèque 'pear'
     avec les autres libraires comme jQuery, en vue de pourvoir l'utiliser avec d'autre modules,
-    sans que cette librairie ne soit recopiÃ©e Ã  chaque utilisation.
-    Cette librairie sera supprimÃ©e du module dans une prochaine version.
-    Il est d'ors et dÃ©jÃ  possible de changer
+    sans que cette librairie ne soit recopiée à chaque utilisation.
+    Cette librairie sera supprimée du module dans une prochaine version.
+    Il est d'ors et déjà possible de changer
     define('_EXTCAL_PEAR_CALENDAR', XOOPS_ROOT_PATH . '/modules/extcal/class/pear/Calendar');
     par
     define('_EXTCAL_PEAR_CALENDAR', XOOPS_PATH . '/pear/Calendar');
-    si la librairie 'pear' est installÃ©e au mÃªme endroit que jQuery.
+    si la librairie 'pear' est installée au même endroit que jQuery.
     
-- Adminstration des Ã©vÃ¨nements "catÃ©gories" et "Ã©tablissements" :
-  Ajout d'un lien sur le nom pour accÃ©der directement Ã  la fiche en modification.
+- Adminstration des évènements "catégories" et "établissements" :
+  Ajout d'un lien sur le nom pour accéder directement à la fiche en modification.
 
-- RÃ©partition des blocks dans des fichiers diffÃ©rents pour faciliter la lecture et le chargement
+- Répartition des blocks dans des fichiers différents pour faciliter la lecture et le chargement
   Supression du block "excal_block.php"
-  CrÃ©ation des blocks: 
+  Création des blocks: 
        "minical.php"
        "spotlight_events.php"
        "upcoming.php"
@@ -67,18 +67,18 @@
        "random_events.php"
        "catetogy_events.php"
 
-- Ajout des onglets dans la fiche d'Ã©dition d'un Ã©vÃ¨nement
+- Ajout des onglets dans la fiche d'édition d'un évènement
  
-- Ajout dans le menu principal de gauche de l'accÃ¨s aux onglets visibles
+- Ajout dans le menu principal de gauche de l'accès aux onglets visibles
 
-- Mutualisation des listes de sÃ©lection dans le "template" "navBar"
+- Mutualisation des listes de sélection dans le "template" "navBar"
 
 - Correction du CSS des infobulles
   Supression de la classe "*" et ajout de la taille de la police dans "zone1"
 
 - Options du module :
-  Ajout de l'ordre d'affichage des onglets (influe Ã©galement sur le menu latÃ©ral)
-  Ajout d'une option du module pour le positionnement des listes de sÃ©lection
+  Ajout de l'ordre d'affichage des onglets (influe également sur le menu latéral)
+  Ajout d'une option du module pour le positionnement des listes de sélection
     
 - Classe "event" : remplacement des fonctions ci-dessous par la fonction unique getEventOnPeriode
   getEventDay, getEventWeek, getEventCalendarWeek, getEventCalendarMonth,
@@ -86,25 +86,25 @@
 - Ajout de l'affichage d'une horloge flash avec le mini calendrier
   ajout du "template" "horloge"
   
-- Ajout d'un "template" pour l'image xoops affichÃ©e en option avec le mini calendrier,
+- Ajout d'un "template" pour l'image xoops affichée en option avec le mini calendrier,
   et suppression du code smarty dans le block "minicalendrier".
 
 2011/10/21a: Version 2.32 (JJD.fr)
 ===================================
- - Correction de la fonction "getSearchEvent" utilisÃ©e par la recherche de Xoops;
+ - Correction de la fonction "getSearchEvent" utilisée par la recherche de Xoops;
    Elle ne prenait en compte que le premier mot d'une expression.
-   De plus elle a Ã©tÃ© adaptÃ©e pour une recherche Ã  partir du module lui-mÃªme
-   avec des critÃ¨res spÃ©cifiques (expression + catÃ©gorie et par la suite sur le mois et l'annÃ©e sont prÃ©vus).
-   Le recherche Ã©tait faite sur les champs 'event_title','event_desc','event_contact','event_address'.
-   Le champ 'cat_name' a Ã©tÃ© ajoutÃ© dans la recherche pour permettre 
-   de trouver des mots dans le titre de la catÃ©gorie.
+   De plus elle a été adaptée pour une recherche à partir du module lui-même
+   avec des critères spécifiques (expression + catégorie et par la suite sur le mois et l'année sont prévus).
+   Le recherche était faite sur les champs 'event_title','event_desc','event_contact','event_address'.
+   Le champ 'cat_name' a été ajouté dans la recherche pour permettre 
+   de trouver des mots dans le titre de la catégorie.
 
  - ajout d'une vue de recherche.
-   Cette vue permet une recherche plus Ã©tendue sur une expression, une catÃ©gorie,
-   sur l'annÃ©e, le mois, ... 
-   La date aura Ã©tÃ© modifiÃ©e en "datatime" au lieu de int(11).
+   Cette vue permet une recherche plus étendue sur une expression, une catégorie,
+   sur l'année, le mois, ... 
+   La date aura été modifiée en "datatime" au lieu de int(11).
    important:
-   Il faut penser Ã  ajouter cet onglet dans ceux visibles dans les options du module.
+   Il faut penser à ajouter cet onglet dans ceux visibles dans les options du module.
       
 2011/10/21a: Version 2.31 (JJD.fr)
 ===================================
@@ -112,67 +112,67 @@
  - Correction de la devise et ajout des constantes de devises
    define('_MD_EXTCAL_DEVISE1', "Euro");
    define('_MD_EXTCAL_DEVISE2', "Euros");
-   define('_MD_EXTCAL_DEVISE3', "â‚¬");
+   define('_MD_EXTCAL_DEVISE3', "€");
  - Modification de la feuille de style des infobulles.
    Suppression de la largeur de la classe  ".tip-top"
    Pour permettre un redimensionnement automatique.
    Ajout des attributs 'infoBulle_zone1', 'infoBulle_zone2' et 'infoBulle_zone3' 
    pour pemettre l'affichage de l'image et du texte. 
-   'infoBulle_zone1' : positionne la premiÃ¨re infobulle image ou texte
-   'infoBulle_zone2' : positionne la 2Ã¨me infobulle Ã  droite de la premiÃ¨re si il y une image
-   'infoBulle_zone3' : positionne la 2Ã¨me infobulle sous la premiÃ¨re si il y une image
-   Pour modifier la position de la deuxiÃ¨me infobulle changer 'infoBulle_zone2'
+   'infoBulle_zone1' : positionne la première infobulle image ou texte
+   'infoBulle_zone2' : positionne la 2ème infobulle à droite de la première si il y une image
+   'infoBulle_zone3' : positionne la 2ème infobulle sous la première si il y une image
+   Pour modifier la position de la deuxième infobulle changer 'infoBulle_zone2'
    par 'infoBulle_zone3' dans le template extcal_infobulle.html.
- - Simplification des "templates" par insertion de "templates" gÃ©nÃ©riques 
-   pour les infobulles et les catÃ©gories
+ - Simplification des "templates" par insertion de "templates" génériques 
+   pour les infobulles et les catégories
    
 2011/10/21a: Version 2.30 (JJD.fr)
 ===================================
- - Ajout de la suppression par lot ou par sÃ©lection 
-   dans la page d'administration des Ã©vÃ¨nements.
-   suppression des images liÃ©es Ã  l'Ã©vÃ¨nement.
+ - Ajout de la suppression par lot ou par sélection 
+   dans la page d'administration des évènements.
+   suppression des images liées à l'évènement.
    
 2011/09/04: Version 2.29  (JJD-fr)
 ====================================
- - GÃ©nÃ©ralisation des infobulles new look Ã  toutes les vues.
- - Masquage de l'image dans les vues "jour" et "semaine" si elle n'est pas dÃ©finie.
+ - Généralisation des infobulles new look à toutes les vues.
+ - Masquage de l'image dans les vues "jour" et "semaine" si elle n'est pas définie.
  - Corrections de mise en forme dans les vues "jour" et "semaines" et "mois":"
    ajout du changement de couleur de fond 10 lignes sur 2
-   class=head pour la ligne d'entÃªte, ...
- - Fichiers de langue "english" et "spanish" complÃ¨tes
- - Enregistrement d'un Ã©vÃ¨nement clone sur validation du formulaire au lieu du click sur l'icÃ´ne.
- - ParamÃ©trage dans les options du module (nbeventsByPage) du nombre d'Ã©vÃ¨nements dans la liste de l'administration
+   class=head pour la ligne d'entête, ...
+ - Fichiers de langue "english" et "spanish" complètes
+ - Enregistrement d'un évènement clone sur validation du formulaire au lieu du click sur l'icône.
+ - Paramétrage dans les options du module (nbeventsByPage) du nombre d'évènements dans la liste de l'administration
   
 ====================================
 2011/09/04: Version 2.29  (JJD-fr)
 ====================================
-- Ajout d'un bloc "EvÃ¨nements Ã  venir par catÃ©gorie"
-  Le bloc est bordÃ© sur la gauche et au dessus de chaque catÃ©gorie 
-  par la couleur de cette derniÃ¨re.
+- Ajout d'un bloc "Evènements à venir par catégorie"
+  Le bloc est bordé sur la gauche et au dessus de chaque catégorie 
+  par la couleur de cette dernière.
   
 ====================================
 2011/08/22: Version 2.28  (JJD-fr)
 ====================================
 - Fusion des versions "2.22 plus" de Mamba et "2.27" 
     * Ajout de la table "etablissement"
-    * Formulaire de saisie pour les Ã©tablissements
-    * Ajout de la sÃ©lection de l'Ã©tablissement dans l'Ã©vÃ¨nement
+    * Formulaire de saisie pour les établissements
+    * Ajout de la sélection de l'établissement dans l'évènement
 - Correction du nombre de jours dans "agenda-day"
 - Ajout d'infobulles dans les vues agenda_day-view et agenda_week-view
-- Ajustement des zones de saisie des Ã©vÃ¨nements
-- Ajout d'une fonction de clonage d'un Ã©vÃ¨nement.
+- Ajustement des zones de saisie des évènements
+- Ajout d'une fonction de clonage d'un évènement.
 
 ====================================
 2011/08/07: Version 2.27  (JJD-fr)
 ====================================
 - Correction include constantes dans xoops_version.php
-- Correction rÃ©cuperation xoopsModuleConfig dans le block minical
-- Important : complÃ©ment d'information dans le fichier doc/install.txt
+- Correction récuperation xoopsModuleConfig dans le block minical
+- Important : complément d'information dans le fichier doc/install.txt
 - Correction des fichiers de langues
-- Ajout de la sÃ©lection des onglets Ã  afficher dans les options du module.
+- Ajout de la sélection des onglets à afficher dans les options du module.
 - Correcion du lien sur le mini calendrier.
-  Affiche maintenant la vue 'stat_page' paramÃ©trÃ©e dans les options.
-  La vue 'start_page' doit Ãªtre visible.
+  Affiche maintenant la vue 'stat_page' paramétrée dans les options.
+  La vue 'start_page' doit être visible.
 
 ====================================
 2011/08/07: Version 2.26  (JJD-fr)
@@ -189,37 +189,37 @@
 ====================================
 2011/08/03: Version 2.25  (JJD-fr)
 ====================================
-- Ajout de la sÃ©lection des onglets Ã  afficher dans les options du module.
+- Ajout de la sélection des onglets à afficher dans les options du module.
 - Correction du lien sur le mini calendrier.
-  Affiche maintenant la vue 'stat_page' paramÃ©trÃ©e dans les options.
-  La vue 'start_page' doit Ãªtre visible.
-- Ajout d'un vue agenda jour sous forme de grille : affiche 1 ou plusieurs journÃ©es avec des tranches horaires.
-  Les Ã©vÃ©nements sont affichÃ© avec un carre colorÃ© avec son titre.
-- Ajout d'un vue agenda semaine sous forme de grille : affiche 1 ou plusieurs journÃ©es avec des tranches horaires.
-  Les Ã©vÃ©nements sont affichÃ© avec un carre.
-  Le titre et les heures de dÃ©but et de fin sont affichÃ© dans l'info-bulle au survol de la souris.
-  Permet d'avoir une vue synthÃ©tique de la semaine ou la quinzaine par exemple.
-- Ajouts des options de paramÃ©trages pour les deux vues 'agenda'
-  * heures de dÃ©but de la journÃ©e
-  * heur de fin de la journÃ©e
+  Affiche maintenant la vue 'stat_page' paramétrée dans les options.
+  La vue 'start_page' doit être visible.
+- Ajout d'un vue agenda jour sous forme de grille : affiche 1 ou plusieurs journées avec des tranches horaires.
+  Les événements sont affiché avec un carre coloré avec son titre.
+- Ajout d'un vue agenda semaine sous forme de grille : affiche 1 ou plusieurs journées avec des tranches horaires.
+  Les événements sont affiché avec un carre.
+  Le titre et les heures de début et de fin sont affiché dans l'info-bulle au survol de la souris.
+  Permet d'avoir une vue synthétique de la semaine ou la quinzaine par exemple.
+- Ajouts des options de paramétrages pour les deux vues 'agenda'
+  * heures de début de la journée
+  * heur de fin de la journée
   * Nombre de minutes par tranche
   * Nb de jours pour chacune des deux vues agenda.
-- Renommage de toutes les fichiers php et template de vues avec ajout du prÃ©fixe 'view'
+- Renommage de toutes les fichiers php et template de vues avec ajout du préfixe 'view'
   pour faciliter la maintenance;
-- remplacement du tableau '$lang' dans les template par l'Ã©quivalent '$smarty;const'
+- remplacement du tableau '$lang' dans les template par l'équivalent '$smarty;const'
 - Modification des fonctions  _getEventWeekCriteria et getEventWeek.
-  ajout du paramÃ¨tres $nbJours pour rÃ©cupÃ©rer les Ã©vÃ©nements sur une plage
-  autre que 7 jours; '$nbjours' doit Ãªtre > 0; attention Ã  l'affichage de plus de 20 jours
-  dans l'agenda semaine peut ne pas Ãªtre pratique.
-  Ce sont les deux paramÃ¨tres ajoutÃ©s dans les options du module;
-- Ajout du fichier 'agenda_fnc.php' qui contient les fonctions de crÃ©ation des tableaux
+  ajout du paramètres $nbJours pour récupérer les événements sur une plage
+  autre que 7 jours; '$nbjours' doit être > 0; attention à l'affichage de plus de 20 jours
+  dans l'agenda semaine peut ne pas être pratique.
+  Ce sont les deux paramètres ajoutés dans les options du module;
+- Ajout du fichier 'agenda_fnc.php' qui contient les fonctions de création des tableaux
   pour alimenter les agenda;
-- remplacement du remplissage des liste de sÃ©lection des annÃ©es, moi, jours et catÃ©gories,
-  par des fonctions gÃ©nÃ©riques.
-- remplacement des codes pour la sÃ©lection des vues par des constantes (fichier 'constantes.php')
+- remplacement du remplissage des liste de sélection des années, moi, jours et catégories,
+  par des fonctions génériques.
+- remplacement des codes pour la sélection des vues par des constantes (fichier 'constantes.php')
 - Ajouts des options 'agenda_nb_years_before' et 'agenda_nb_years_after'
-  pour le remplissage des listes dÃ©roulantes de sÃ©lection des annÃ©es.  
-  Permet de limiter les annÃ©es antÃ©rieures par exemple.
+  pour le remplissage des listes déroulantes de sélection des années.  
+  Permet de limiter les années antérieures par exemple.
    
    
   
