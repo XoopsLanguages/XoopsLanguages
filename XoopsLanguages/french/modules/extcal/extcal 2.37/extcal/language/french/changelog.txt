@@ -1,0 +1,406 @@
+2012/02/02: Version 2.37 (JJD.fr)
+===================================
+- Ajout du champ icône dans la table event_event
+- Ajout du champ icône dans la table event_cat
+- Affichage de l'icône de event/cat dans l'infobulle
+- Mise à jour des constantes de langue
+- Patch de mise à jour des tables
+
+2012/01/31: Version 2.36 (JJD.fr)
+===================================
+- Correction d'affichage
+- Remplacement des infobulles par un autre modèle plus pro
+
+2012/01/21: Version 2.35 (JJD.fr)
+===================================
+- Réintrégation du fichier de mise à jour extcal_2_34.php omis dans la version précédente
+- Correction du zoom sur les photos dans certaines vue
+- Correction valeur par défaut à 0 de event_etablissement dans la table event
+- Instanciation de extcalConfig <=> xoopsModuleConfig pour les blocks
+
+2012/01/06: Version 2.34 (JJD.fr)
+===================================
+ - Correction de la gestion des images des évènements et de l'établissement
+ - Correction du flux RSS
+ - Correction du motif des expressions régulières pour la validation des dates
+ - Correction du lien sur le site de l'établissement
+ - Suppression du retour à la ligne avant la devise dans la fiche de l'établissement
+
+===================================
+2011/12/30: Version 2.34 (JJD.fr)
+===================================
+ - Champ "desc" de la table "etablissement" renomé en "description".
+ - Correction template, admin et font-office pour les établissements
+
+===================================
+2011/12/30: Version 2.33 (JJD.fr)
+===================================
+- ré écriture des fonctions
+  bExtcalMinicalShow
+  bExtcalMinicaledit (utilisation de xoopsform)
+  bExtcalMinicalAddEventToArray (simplication du code))
+
+- Ajout de la constante 'CALENDAR_ROOT' dans le fichier constantes.php 
+    et suppression de cette déclaration dans tous les autres fichiers puisque
+    le fichier 'constantes.php' est inclus systématiquement.
+    Par ailleurs cela permettra à terme de déplacer la bibliothèque 'pear'
+    avec les autres libraires comme jQuery, en vue de pourvoir l'utiliser avec d'autre modules,
+    sans que cette librairie ne soit recopiée à chaque utilisation.
+    Cette librairie sera supprimée du module dans une prochaine version.
+    Il est d'ors et déjà possible de changer
+    define('_EXTCAL_PEAR_CALENDAR', XOOPS_ROOT_PATH . '/modules/extcal/class/pear/Calendar');
+    par
+    define('_EXTCAL_PEAR_CALENDAR', XOOPS_PATH . '/pear/Calendar');
+    si la librairie 'pear' est installée au même endroit que jQuery.
+    
+- Adminstration des évènements "catégories" et "établissements" :
+  Ajout d'un lien sur le nom pour accéder directement à la fiche en modification.
+
+- Répartition des blocks dans des fichiers différents pour faciliter la lecture et le chargement
+  Supression du block "excal_block.php"
+  Création des blocks: 
+       "minical.php"
+       "spotlight_events.php"
+       "upcoming.php"
+       "day_events.php"
+       "new_events.php"
+       "random_events.php"
+       "catetogy_events.php"
+
+- Ajout des onglets dans la fiche d'édition d'un évènement
+ 
+- Ajout dans le menu principal de gauche de l'accès aux onglets visibles
+
+- Mutualisation des listes de sélection dans le "template" "navBar"
+
+- Correction du CSS des infobulles
+  Supression de la classe "*" et ajout de la taille de la police dans "zone1"
+
+- Options du module :
+  Ajout de l'ordre d'affichage des onglets (influe également sur le menu latéral)
+  Ajout d'une option du module pour le positionnement des listes de sélection
+    
+- Classe "event" : remplacement des fonctions ci-dessous par la fonction unique getEventOnPeriode
+  getEventDay, getEventWeek, getEventCalendarWeek, getEventCalendarMonth,
+  
+- Ajout de l'affichage d'une horloge flash avec le mini calendrier
+  ajout du "template" "horloge"
+  
+- Ajout d'un "template" pour l'image xoops affichée en option avec le mini calendrier,
+  et suppression du code smarty dans le block "minicalendrier".
+
+2011/10/21a: Version 2.32 (JJD.fr)
+===================================
+ - Correction de la fonction "getSearchEvent" utilisée par la recherche de Xoops;
+   Elle ne prenait en compte que le premier mot d'une expression.
+   De plus elle a été adaptée pour une recherche à partir du module lui-même
+   avec des critères spécifiques (expression + catégorie et par la suite sur le mois et l'année sont prévus).
+   Le recherche était faite sur les champs 'event_title','event_desc','event_contact','event_address'.
+   Le champ 'cat_name' a été ajouté dans la recherche pour permettre 
+   de trouver des mots dans le titre de la catégorie.
+
+ - ajout d'une vue de recherche.
+   Cette vue permet une recherche plus étendue sur une expression, une catégorie,
+   sur l'année, le mois, ... 
+   La date aura été modifiée en "datatime" au lieu de int(11).
+   important:
+   Il faut penser à ajouter cet onglet dans ceux visibles dans les options du module.
+      
+2011/10/21a: Version 2.31 (JJD.fr)
+===================================
+ - Correction du chargement des images dans le "front-office"
+ - Correction de la devise et ajout des constantes de devises
+   define('_MD_EXTCAL_DEVISE1', "Euro");
+   define('_MD_EXTCAL_DEVISE2', "Euros");
+   define('_MD_EXTCAL_DEVISE3', "€");
+ - Modification de la feuille de style des infobulles.
+   Suppression de la largeur de la classe  ".tip-top"
+   Pour permettre un redimensionnement automatique.
+   Ajout des attributs 'infoBulle_zone1', 'infoBulle_zone2' et 'infoBulle_zone3' 
+   pour pemettre l'affichage de l'image et du texte. 
+   'infoBulle_zone1' : positionne la première infobulle image ou texte
+   'infoBulle_zone2' : positionne la 2ème infobulle à droite de la première si il y une image
+   'infoBulle_zone3' : positionne la 2ème infobulle sous la première si il y une image
+   Pour modifier la position de la deuxième infobulle changer 'infoBulle_zone2'
+   par 'infoBulle_zone3' dans le template extcal_infobulle.html.
+ - Simplification des "templates" par insertion de "templates" génériques 
+   pour les infobulles et les catégories
+   
+2011/10/21a: Version 2.30 (JJD.fr)
+===================================
+ - Ajout de la suppression par lot ou par sélection 
+   dans la page d'administration des évènements.
+   suppression des images liées à l'évènement.
+   
+2011/09/04: Version 2.29  (JJD-fr)
+====================================
+ - Généralisation des infobulles new look à toutes les vues.
+ - Masquage de l'image dans les vues "jour" et "semaine" si elle n'est pas définie.
+ - Corrections de mise en forme dans les vues "jour" et "semaines" et "mois":"
+   ajout du changement de couleur de fond 10 lignes sur 2
+   class=head pour la ligne d'entête, ...
+ - Fichiers de langue "english" et "spanish" complètes
+ - Enregistrement d'un évènement clone sur validation du formulaire au lieu du click sur l'icône.
+ - Paramétrage dans les options du module (nbeventsByPage) du nombre d'évènements dans la liste de l'administration
+  
+====================================
+2011/09/04: Version 2.29  (JJD-fr)
+====================================
+- Ajout d'un bloc "Evènements à venir par catégorie"
+  Le bloc est bordé sur la gauche et au dessus de chaque catégorie 
+  par la couleur de cette dernière.
+  
+====================================
+2011/08/22: Version 2.28  (JJD-fr)
+====================================
+- Fusion des versions "2.22 plus" de Mamba et "2.27" 
+    * Ajout de la table "etablissement"
+    * Formulaire de saisie pour les établissements
+    * Ajout de la sélection de l'établissement dans l'évènement
+- Correction du nombre de jours dans "agenda-day"
+- Ajout d'infobulles dans les vues agenda_day-view et agenda_week-view
+- Ajustement des zones de saisie des évènements
+- Ajout d'une fonction de clonage d'un évènement.
+
+====================================
+2011/08/07: Version 2.27  (JJD-fr)
+====================================
+- Correction include constantes dans xoops_version.php
+- Correction récuperation xoopsModuleConfig dans le block minical
+- Important : complément d'information dans le fichier doc/install.txt
+- Correction des fichiers de langues
+- Ajout de la sélection des onglets à afficher dans les options du module.
+- Correcion du lien sur le mini calendrier.
+  Affiche maintenant la vue 'stat_page' paramétrée dans les options.
+  La vue 'start_page' doit être visible.
+
+====================================
+2011/08/07: Version 2.26  (JJD-fr)
+====================================
+- Fixed include  constantes.php in xoops_version.php 
+- Fixed the block recovery xoopsModuleConfig minical 
+- Important: additional information in the file doc / install.txt 
+- Fixed language files 
+- Added a selection of tabs displayed in optins module. 
+- Correcion the link on the mini calendar. 
+  Now shows view 'stat_page' set in options. 
+  View 'start_page' should be visible. 
+
+====================================
+2011/08/03: Version 2.25  (JJD-fr)
+====================================
+- Ajout de la sélection des onglets à afficher dans les options du module.
+- Correction du lien sur le mini calendrier.
+  Affiche maintenant la vue 'stat_page' paramétrée dans les options.
+  La vue 'start_page' doit être visible.
+- Ajout d'un vue agenda jour sous forme de grille : affiche 1 ou plusieurs journées avec des tranches horaires.
+  Les événements sont affiché avec un carre coloré avec son titre.
+- Ajout d'un vue agenda semaine sous forme de grille : affiche 1 ou plusieurs journées avec des tranches horaires.
+  Les événements sont affiché avec un carre.
+  Le titre et les heures de début et de fin sont affiché dans l'info-bulle au survol de la souris.
+  Permet d'avoir une vue synthétique de la semaine ou la quinzaine par exemple.
+- Ajouts des options de paramétrages pour les deux vues 'agenda'
+  * heures de début de la journée
+  * heur de fin de la journée
+  * Nombre de minutes par tranche
+  * Nb de jours pour chacune des deux vues agenda.
+- Renommage de toutes les fichiers php et template de vues avec ajout du préfixe 'view'
+  pour faciliter la maintenance;
+- remplacement du tableau '$lang' dans les template par l'équivalent '$smarty;const'
+- Modification des fonctions  _getEventWeekCriteria et getEventWeek.
+  ajout du paramètres $nbJours pour récupérer les événements sur une plage
+  autre que 7 jours; '$nbjours' doit être > 0; attention à l'affichage de plus de 20 jours
+  dans l'agenda semaine peut ne pas être pratique.
+  Ce sont les deux paramètres ajoutés dans les options du module;
+- Ajout du fichier 'agenda_fnc.php' qui contient les fonctions de création des tableaux
+  pour alimenter les agenda;
+- remplacement du remplissage des liste de sélection des années, moi, jours et catégories,
+  par des fonctions génériques.
+- remplacement des codes pour la sélection des vues par des constantes (fichier 'constantes.php')
+- Ajouts des options 'agenda_nb_years_before' et 'agenda_nb_years_after'
+  pour le remplissage des listes déroulantes de sélection des années.  
+  Permet de limiter les années antérieures par exemple.
+   
+   
+  
+============================
+2011/03/21: Version 2.24
+============================
+
++ Zend Coding Standard (Mamba)
++ Changed to standardized XOOPS Module GUI (mamba, Mage)
++ Spanish translation (josespi)
++ fix problem in upcoming events block (josespi)
+
+============================
+2008/10/09: Version 2.2.2
+============================
+
+- Fix bug : Event not display in upcomming bloc if anonymous aren't allowed to view
+- Fix bug : First occur for monthly reccur event could be not displayed
+- Fix bug : Now, Date on RSS was replace by the event start date
+- Add Flash slideshow on Minical block
+
+
+Lang var change :
+
+blocks.php
+_MB_EXTCAL_SS_WIDTH
+_MB_EXTCAL_SS_HEIGHT
+_MB_EXTCAL_SS_TRANS_TIME
+_MB_EXTCAL_SS_PAUSE_TIME
+_MB_EXTCAL_SS_NB_PHOTOS
+_MB_EXTCAL_PX
+_MB_EXTCAL_SECONDES
+
+============================
+2008/13/08: Version 2.2.1
+============================
+
+- Fix bug : typo fix on the monthly reccur rule string
+- Fix bug : 404 error when we update notifications
+- Fix bug : Yearly "Same as event start date" recur option don't work. This option allow to set an event a the same day number in month as the start date. This allow to create reccuring event like birthday
+- Fix bug : Member of Webmaster Group can't edit event if they aren't eXtCal edit permission
+- Fix bug : Event in list view aren't sorted according to module preferences
+- Fix bug : Navigation in weekly list view don't work if the first day of the week isn't Monday
+- Fix bug : eXtCal upload directory isn't created when we make module update
+- Fix bug : Who's not going don't work without new module install. The who's not going table isn't created when we make a module update
+- Fix bug : Space in day's name on calendar pages
+- Fix bug : Minical image aren't get random.
+- Add Edit my event feature
+
+
+Lang var change :
+
+admin.php
+_AM_EXTCAL_CONFIRM_DELETE_EVENT
+_AM_EXTCAL_EVENT_DELETED
+
+============================
+2008/14/06: Version 2.2.0
+============================
+
+- Fix bug : Event year selection box don't work on year.php page
+- Fix bug : Blank page when event is submitted with wrong date format
+- Fix bug : Timezone offset bug on calendar pages and event page
+- fix bug : Recurring bug on Monthly rule
+- Fix bug : Translate error on minical day's letter
+
+
+============================
+2008/21/05: Version 2.1.9
+============================
+
+- Add tooltips box on all pages to display start and end date when mouse over the event name (need Mootools)
+- Add list navig for event on admin side
+- Fix bug : File isn't attached when event is submitted from admin side
+- Fix bug : Timezone offset bug on block and pages
+
+
+Lang var change :
+
+blocks.php
+_MB_EXTCAL_DISPLAY
+_MB_EXTCAL_EVENT
+_MB_EXTCAL_TITLE_LENGTH
+
+Add mail_template directory
+
+============================
+2008/07/05: Version 2.1.8
+============================
+
+- Add a feature to make a module update just by clicking on module admin side. The server will download, install files and update the module.
+- Fix bug : User could submit event without perm by accessing directly to the submit page
+- Fix bug : Recur rule aren't updated when an event is edited
+- Fix bug : Timezone bug when user timezone is different than server timezone
+
+
+============================
+2008/28/03: Version 2.1.7
+============================
+
+- Fix bug : event_submitdate field wasn't created during upgrade from version before 2.0.4
+- Fix bug : wrong link when week start in month before the current view (stefan88)
+- Add the send notification function
+- Allow HTML for textarea fields
+- Add the Comments system
+- Add the Notifications system
+
+
+============================
+2008/21/01: Version 2.1.6
+============================
+
+- Fix error when submit an event from public side
+- Fix Bug : Category perm are not respected to display event
+- Fix Bug : Translation file isn't loaded
+- Fix bug : An user could be in the who's going and who's not going list
+
+
+============================
+2008/28/12: Version 2.1.5
+============================
+
+- Add Reccuring rule description on event view
+- Add the RSS page
+- Extend the search function to address and contact field
+- Set the update proc to upgrade from eXtCal 2.0.4
+- Add the navigation tab menu
+
+
+============================
+2007/18/12: Version 2.1.4
+============================
+
+- Add reccuring event feature
+
+
+============================
+2007/10/07: Version 2.1.3
+============================
+
+- Add a file attachement feature to the module
+- Add a "who's not going" feature
+- Add a version checker (display a message if a new version of the module is out)
+
+
+============================
+2007/28/04: Version 2.1.2
+============================
+
+- Add a preview feature on submit event page
+- Fix a bug that disallow fresh install
+
+
+============================
+2007/25/04: Version 2.1.1
+============================
+
+- Add the "hide past event" feature
+
+
+============================
+2007/22/04: Version 2.1.0
+============================
+
+- Rewrite the module from scratch
+
+
+============================
+2006/11/04: Version 2.0.4 RC2
+============================
+
+- Add the possibility to display more than 1 event on spotlight bloc
+- Bug fix : eXtCal don't work with XOOPS under 2.0.15
+
+
+============================
+2006/31/10: Version 2.0.4 RC1
+============================
+
+- Add a "flat" monthly view
+- Little display improvement
+- Fix an error on pruning page
+- Add property to event to set a maximum member limit per event
+- Change the month template to display all event's infos
