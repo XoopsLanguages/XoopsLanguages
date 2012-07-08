@@ -151,5 +151,5 @@ define('_MI_EXTCAL_DAY_THURSDAY', "Jeudi");
 define('_MI_EXTCAL_DAY_FRIDAY', "Vendredi");
 define('_MI_EXTCAL_DAY_SATURDAY', "Samedi");
 define('_MI_EXTCAL_DAY_SUNDAY', "Dimanche");
-
+define('_MI_EXTCAL_SHOW_OTHEROPTIONS', "Autres Options");
 ?>
