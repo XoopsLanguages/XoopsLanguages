@@ -126,7 +126,7 @@ define('_AM_TDMDOWNLOADS_FORMIMG',"Logo");
 define('_AM_TDMDOWNLOADS_FORMPAYPAL',"Adresse de PayPal pour les dons");
 define('_AM_TDMDOWNLOADS_FORMPATH',"Les fichiers existent dans : %s");
 define('_AM_TDMDOWNLOADS_FORMPERMDOWNLOAD',"Sélectionnez les groupes qui peuvent télécharger ce fichier");
-define('_AM_TDMDOWNLOADS_FORMPLATFORM',"Plate-forme");
+define('_AM_TDMDOWNLOADS_FORMPLATFORM',"Version de XOOPS");
 define('_AM_TDMDOWNLOADS_FORMPOSTER',"Posté par ");
 define('_AM_TDMDOWNLOADS_FORMRATING',"Note");
 define('_AM_TDMDOWNLOADS_FORMSIZE',"Taille des fichiers(en bytes)");
@@ -148,7 +148,7 @@ define('_AM_TDMDOWNLOADS_FORMWITHFILE',"Avec le fichier : ");
 //Message d'erreur
 define('_AM_TDMDOWNLOADS_ERREUR_CAT',"Vous ne pouvez pas utiliser cette catégorie (en boucle sur elle-même)");
 define('_AM_TDMDOWNLOADS_ERREUR_NOBMODDOWNLOADS',"Il n'y a aucune modification des téléchargements");
-define('_AM_TDMDOWNLOADS_ERREUR_NOBROKENDOWNLOADS',"Il n'y a aucun liens de téléchargements brisés");
+define('_AM_TDMDOWNLOADS_ERREUR_NOBROKENDOWNLOADS',"Il n'y a aucun lien de téléchargement brisé");
 define('_AM_TDMDOWNLOADS_ERREUR_NOCAT',"Vous devez choisir une catégorie !");
 define('_AM_TDMDOWNLOADS_ERREUR_NODESCRIPTION',"Vous devez écrire une description");
 define('_AM_TDMDOWNLOADS_ERREUR_NODOWNLOADS',"Il n'y a aucun fichier à télécharger");
