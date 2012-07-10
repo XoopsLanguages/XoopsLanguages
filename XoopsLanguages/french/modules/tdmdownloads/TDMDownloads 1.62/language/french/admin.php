@@ -126,7 +126,7 @@ define('_AM_TDMDOWNLOADS_FORMIMG',"Logo");
 define('_AM_TDMDOWNLOADS_FORMPAYPAL',"Adresse de PayPal pour les dons");
 define('_AM_TDMDOWNLOADS_FORMPATH',"Les fichiers existent dans : %s");
 define('_AM_TDMDOWNLOADS_FORMPERMDOWNLOAD',"Sélectionnez les groupes qui peuvent télécharger ce fichier");
-define('_AM_TDMDOWNLOADS_FORMPLATFORM',"Version de XOOPS");
+define('_AM_TDMDOWNLOADS_FORMPLATFORM',"Plateforme : ");
 define('_AM_TDMDOWNLOADS_FORMPOSTER',"Posté par ");
 define('_AM_TDMDOWNLOADS_FORMRATING',"Note");
 define('_AM_TDMDOWNLOADS_FORMSIZE',"Taille des fichiers(en bytes)");

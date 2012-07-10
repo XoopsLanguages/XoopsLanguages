@@ -52,9 +52,9 @@ define("_MD_TDMDOWNLOADS_CAT_TITLEZTOA","Titre (de Z à A)");
 define("_MD_TDMDOWNLOADS_CAT_VOTE","Votes");
 
 // singlefile.php:
-define("_MD_TDMDOWNLOADS_SINGLEFILE_AUTHOR","Soumis par");
+define("_MD_TDMDOWNLOADS_SINGLEFILE_AUTHOR","Soumis par : ");
 define("_MD_TDMDOWNLOADS_SINGLEFILE_COMMENTS","(%s) Commentaires");
-define("_MD_TDMDOWNLOADS_SINGLEFILE_DATEPROP","Date de soumission");
+define("_MD_TDMDOWNLOADS_SINGLEFILE_DATEPROP","Date de soumission : ");
 define("_MD_TDMDOWNLOADS_SINGLEFILE_ICI","Ici");
 define("_MD_TDMDOWNLOADS_SINGLEFILE_INTFILEFOUND","Voici un fichier important %s");
 define("_MD_TDMDOWNLOADS_SINGLEFILE_LIMITGLOBAL","Vous avez téléchargé les fichiers de %s de ce site et la limite est de s % en 24 h ");
@@ -63,7 +63,7 @@ define("_MD_TDMDOWNLOADS_SINGLEFILE_MODIFY","Modifier");
 define("_MD_TDMDOWNLOADS_SINGLEFILE_NBTELECH","Téléchargé %s fois");
 define("_MD_TDMDOWNLOADS_SINGLEFILE_NONEXISTENT","Ce téléchargement n'existe pas dans notre base de données");
 define("_MD_TDMDOWNLOADS_SINGLEFILE_NOPERMDOWNLOAD","Vous n'avez pas le droit de télécharger ce fichier");
-define("_MD_TDMDOWNLOADS_SINGLEFILE_RATING","Cote");
+define("_MD_TDMDOWNLOADS_SINGLEFILE_RATING","Cote : ");
 define("_MD_TDMDOWNLOADS_SINGLEFILE_RATHFILE","Noter cette image");
 define("_MD_TDMDOWNLOADS_SINGLEFILE_REPORTBROKEN","Signaler un fichier brisé");
 define("_MD_TDMDOWNLOADS_SINGLEFILE_TELLAFRIEND","Envoyer à un ami");
