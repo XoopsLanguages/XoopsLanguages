@@ -167,8 +167,9 @@ define("_MI_TDMDOWNLOADS_FILE_APPROVE_NOTIFY", "Fichier approuvé");
 define("_MI_TDMDOWNLOADS_FILE_APPROVE_NOTIFYCAP", "M'avertir quand ce fichier est approuvé.");
 define("_MI_TDMDOWNLOADS_FILE_APPROVE_NOTIFYDSC", "Recevoir une notification lorsque ce fichier est approuvé.");
 define("_MI_TDMDOWNLOADS_FILE_APPROVE_NOTIFYSBJ", "[{X_SITENAME}] {X_MODULE} notification automatique : fichier approuvé");
-// Traduction par Cesag pour frxoops.org le 1er Juin 2012
 
 //1.62
 define("_MI_TDMDOWNLOADS_SHOW_LATEST_FILES", "Afficher les fichiers les plus récents");
 define("_MI_TDMDOWNLOADS_SHOW_LATEST_FILES_DSC", "Cela montrera les fichiers les plus récents, côté utilisateur");
+// Traduction par Cesag pour frxoops.org le 10 Juillet 2012
+?>
