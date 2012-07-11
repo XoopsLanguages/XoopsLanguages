@@ -85,7 +85,7 @@ define('_NW_AUTHOR',"Auteur");
 define('_NW_META_DESCRIPTION',"Description Meta");
 define('_NW_META_KEYWORDS',"Meta mots clés");
 define('_NW_MAKEPDF',"Créer un fichier PDF à partir de cet article");
-define('_MD_POSTEDON',"Publiée le : ");
+define('_MD_POSTEDON',"Publié le  ");
 define('_NW_AUTHOR_ID',"ID de l'auteur");
 define('_NW_POST_SORRY',"Désolé mais soit il n'y a pas de sujets soit vous n'avez pas le droit de créer des articles dans les sujets existants. Si vous êtes les webmaster, allez dans les permissions et définissez les permissions de 'Soumettre'.");
 
