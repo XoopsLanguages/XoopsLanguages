@@ -186,7 +186,7 @@ define("_MI_NEWS_IMAGE_MAX_HEIGHT", "Hauteur maximale de l'image lorsqu'elle est
 
 //Added in 1.67
 define("_MI_NEWS_HELP","Aide");
-define("_MI_NEWS_ABOUT","A propos");
+define("_MI_NEWS_ABOUT","À propos");
 define("_MI_NEWS_HOME","Accueil");
 define("_MI_NEWS_UPGRADE","Mise à jour");
 define("_MI_NEWS_DESCRIPTION","Avec ce module Xoops, vous pouvez créer un nombre illimité d'articles sur votre site. <br /> <br />
