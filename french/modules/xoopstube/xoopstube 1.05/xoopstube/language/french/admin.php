@@ -173,11 +173,11 @@ define("_AM_XTUBE_MINDEX_RESPONSE", "Temps de Réponse");
 define("_AM_XTUBE_SUB_SUBMITTEDFILES", "Vidéos soumises");
 define("_AM_XTUBE_SUB_FILESWAITINGINFO", "Information sur les Vidéos en attente");
 define("_AM_XTUBE_SUB_FILESWAITINGVALIDATION", "Vidéos en attente de validation : ");
-define("_AM_XTUBE_SUB_APPROVEWAITINGFILE", "<b>Approuver</b> les nouvelle vidéos sans validation.");
+define("_AM_XTUBE_SUB_APPROVEWAITINGFILE", "<b>Approuver</b> les nouvelles vidéos sans validation.");
 define("_AM_XTUBE_SUB_EDITWAITINGFILE", "<b>Modifer</b> les nouvelles vidéos puis les valider.");
 define("_AM_XTUBE_SUB_DELETEWAITINGFILE", "<b>Effacer</b> les nouvelles vidéos.");
 define("_AM_XTUBE_SUB_NOFILESWAITING", "Aucune Vidéo avec ce critère à afficher");
-define("_AM_XTUBE_SUB_NEWFILECREATED", "Nouvelle Vidéo ajoutée et la base de données mise à jour");
+define("_AM_XTUBE_SUB_NEWFILECREATED", "Nouvelle Vidéo ajoutée et base de données mise à jour");
 // Vote Information
 define("_AM_XTUBE_VOTE_RATINGINFOMATION", "Information de vote");
 define("_AM_XTUBE_VOTE_TOTALVOTES", "Total des votes : ");
@@ -188,27 +188,27 @@ define("_AM_XTUBE_VOTE_IP", "Adresse IP");
 define("_AM_XTUBE_VOTE_DATE", "Soumis");
 define("_AM_XTUBE_VOTE_RATING", "Estimation");
 define("_AM_XTUBE_VOTE_NOREGVOTES", "Pas de vote d'utilisateur enregistré");
-define("_AM_XTUBE_VOTE_NOUNREGVOTES", "Pas de vote d'utilisateur anonyme");
+define("_AM_XTUBE_VOTE_NOUNREGVOTES", "Pas de votes d'utilisateurs anonymes");
 define("_AM_XTUBE_VOTE_VOTEDELETED", "Données de votes effacées.");
 define("_AM_XTUBE_VOTE_ID", "ID");
 define("_AM_XTUBE_VOTE_FILETITLE", "Titre de la Vidéo");
 define("_AM_XTUBE_VOTE_DISPLAYVOTES", "Données de vote");
-define("_AM_XTUBE_VOTE_NOVOTES", "Pas de votes d'utilisateur à afficher");
-define("_AM_XTUBE_VOTE_DELETE", "Pas de votes d'utilisateur à afficher");
+define("_AM_XTUBE_VOTE_NOVOTES", "Pas de votes d'utilisateurs à afficher");
+define("_AM_XTUBE_VOTE_DELETE", "Pas de votes d'utilisateurs à afficher");
 define("_AM_XTUBE_VOTE_DELETEDSC", "<b>Effacement</b> du vote de la base de donnée");
 define("_AM_XTUBE_VOTEDELETED", "Vote sélectionné effacé et base de donnée mise à jour");
 
-define("_AM_XTUBE_VOTE_USERAVG", "Estimation moyenne d'utilisateur");
+define("_AM_XTUBE_VOTE_USERAVG", "Estimation moyenne d'utilisateurs");
 define("_AM_XTUBE_VOTE_TOTALRATE", "Total de Votes");
-define("_AM_XTUBE_VOTE_MAXRATE", "Vote Max d'Item");
-define("_AM_XTUBE_VOTE_MINRATE", "Vote Min d'Item");
+define("_AM_XTUBE_VOTE_MAXRATE", "Votes Max");
+define("_AM_XTUBE_VOTE_MINRATE", "Votes Min");
 define("_AM_XTUBE_VOTE_MOSTVOTEDTITLE", "La plus votée");
 define("_AM_XTUBE_VOTE_LEASTVOTEDTITLE", "La moins votée");
 define("_AM_XTUBE_VOTE_MOSTVOTERSUID", "Votants les plus actifs");
 define("_AM_XTUBE_VOTE_REGISTERED", "Votes des utilisateurs enregistrés");
 define("_AM_XTUBE_VOTE_NONREGISTERED", "Votes des utilisateurs anonymes");
 // Modifications
-define("_AM_XTUBE_MOD_TOTMODREQUESTS", "Total des demandes de modification: ");
+define("_AM_XTUBE_MOD_TOTMODREQUESTS", "Total des demandes de modification : ");
 define("_AM_XTUBE_MOD_MODREQUESTS", "Vidéos modifiées");
 define("_AM_XTUBE_MOD_MODREQUESTSINFO", "Information des Vidéos modifiées");
 define("_AM_XTUBE_MOD_MODID", "ID");
@@ -219,7 +219,7 @@ define("_AM_XTUBE_MOD_NOMODREQUEST", "Il n'y a aucune demande de modification av
 define("_AM_XTUBE_MOD_TITLE", "Titre de la Vidéo: ");
 define("_AM_XTUBE_MOD_LID", "ID de la Vidéo: ");
 define("_AM_XTUBE_MOD_CID", "Catégorie : ");
-define("_AM_XTUBE_MOD_URL", "Url de la Vidéo : ");
+define("_AM_XTUBE_MOD_URL", "Lien de la Vidéo : ");
 define("_AM_XTUBE_MOD_PUBLISHER", "Auteur : ");
 define("_AM_XTUBE_MOD_SCREENSHOT", "Capture d'écran: ");
 define("_AM_XTUBE_MOD_DESCRIPTION", "Description : ");
@@ -357,8 +357,8 @@ define("_AM_XTUBE_ICO_ACK", "Rapport de vidéo brisée connu");
 define("_AM_XTUBE_ICO_REPORT", "Rapport de vidéo brisée connu ?");
 define("_AM_XTUBE_ICO_CONFIRM", "Rapport de vidéo brisée confirmé");
 define("_AM_XTUBE_ICO_CONBROKEN", "Confirmer le rapport de vidéo brisée connu ?");
-define("_AM_XTUBE_ICO_RES", "Modifier les Sources / Liens de cete Vidéo");
-define("_AM_XTUBE_MOD_URLRATING", "Cote du contenu Internet");
+define("_AM_XTUBE_ICO_RES", "Modifier les sources/liens de cette Vidéo");
+define("_AM_XTUBE_MOD_URLRATING", "Cote du contenu internet");
 // Alternate category
 define("_AM_XTUBE_ALTCAT_CREATEF", "Ajouter une catégorie alternative");
 define("_AM_XTUBE_MALTCAT", "Gestion des catégories alternatives");
@@ -375,10 +375,10 @@ define("_AM_XTUBE_RES_TYPE", "Type de la ressource");
 define("_AM_XTUBE_RES_USER", "Utilisateur");
 define("_AM_XTUBE_RES_CREATEF", "Ajouter une ressource");
 define("_AM_XTUBE_RES_MODIFYF", "Modifier une ressource");
-define("_AM_XTUBE_RES_NAMEF", "Nom de la ressource:");
+define("_AM_XTUBE_RES_NAMEF", "Nom de la ressource :");
 define("_AM_XTUBE_RES_DESCF", "Description de la ressource:");
-define("_AM_XTUBE_RES_URLF", "URL de la ressource:");
-define("_AM_XTUBE_RES_ITEMIDF", "Item ID de la ressource:");
+define("_AM_XTUBE_RES_URLF", "Lien de la ressource :");
+define("_AM_XTUBE_RES_ITEMIDF", "Item ID de la ressource :");
 define("_AM_XTUBE_RES_INFOTEXT", "<ul><li>De nouvelles ressources peuvent-être ajoutées, modifiées ou effacées facilement via ce formulaire.</li>
 	<li>Liste de toutes les ressources liées à une vidéo</li>
 	<li>Modifier le nom et la description de la ressource</li></ul>
@@ -474,7 +474,7 @@ define("_AM_XTUBE_MIMENOTALLOW", "Type MIME non autorisé : ");
 define("_AM_XTUBE_FAILEDUPLOADING", "Échec de téléchargement du fichier : ");
 define("_AM_XTUBE_ALREADYEXISTTRYAGAIN", " Le fichier existe déjà sur le serveur. Veuillez le renommer et essayez à nouveau.<br />");
 define("_AM_XTUBE_ERRORSRETURNUPLOAD", "<h4>Erreurs renvoyées pendant le téléchargement</h4>");
-define("_AM_XTUBE_DOESNOTEXIST", " n'existe pas!");
+define("_AM_XTUBE_DOESNOTEXIST", " n'existe pas !");
 
 // Version 1.04 RC-2
 define("_AM_XTUBE_CLIPFISH", "ClipFish");
