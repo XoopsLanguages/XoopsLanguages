@@ -44,10 +44,10 @@ define("_AM_XTUBE_BLOCKADMIN", "Blocs");
 define("_AM_XTUBE_GOMODULE", "Aller au Module");
 define("_AM_XTUBE_ABOUT", "A propos");
 // Admin Summary
-define("_AM_XTUBE_SCATEGORY", "Catégories: ");
-define("_AM_XTUBE_SFILES", "Vidéos: ");
-define("_AM_XTUBE_SNEWFILESVAL", "Proposées: ");
-define("_AM_XTUBE_SMODREQUEST", "Modifiées: ");
+define("_AM_XTUBE_SCATEGORY", "Catégories : <strong>%s</strong>");
+define("_AM_XTUBE_SFILES", "Vidéos : <strong>%s</strong>");
+define("_AM_XTUBE_SNEWFILESVAL", "Proposées : <strong>%s</strong>");
+define("_AM_XTUBE_SMODREQUEST", "Modifiées : <strong>%s</strong>");
 define("_AM_XTUBE_SREVIEWS", "Revisées: ");
 
 // Admin Main Menu
@@ -292,7 +292,7 @@ define("_AM_XTUBE_VIDEO_PUBLISHER", "Auteur : ");
 /**
  * Broken links defines
  */
-define("_AM_XTUBE_SBROKENSUBMIT", "Vidéos brisées: ");
+define("_AM_XTUBE_SBROKENSUBMIT", "Vidéos brisées : <strong>%s</strong>");
 define("_AM_XTUBE_BROKEN_FILE", "Rapport des vidéos brisées");
 define("_AM_XTUBE_BROKEN_FILEIGNORED", "Rapport de vidéo brisée ignoré et base de donnée mise à jour avec succès !");
 define("_AM_XTUBE_BROKEN_NOWACK", "Le statut à été constaté, modifié et la base de données mise à jour avec succès !");
