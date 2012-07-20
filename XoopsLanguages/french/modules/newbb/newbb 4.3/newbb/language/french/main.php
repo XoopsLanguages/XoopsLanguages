@@ -238,7 +238,7 @@ define('_MD_TIMEISUPDEL','Vous avez atteins la date limite de suppression des me
 //reply.php
 define('_MD_ON','sur'); //Posted on
 define('_MD_USERWROTE','%s a écrit :'); // %s is username
-define('_MD_RE','Re : ');
+define('_MD_RE','Re ');
 
 //post.php
 define('_MD_EDITNOTALLOWED','Vous n\'êtes pas autorisé à modifier ce message.');
@@ -306,10 +306,12 @@ define('_MD_DESC_DELETE','Lorsque vous aurez appuyé sur le bouton Supprimer en 
 define('_MD_DESC_MOVE','Lorsque vous aurez appuyé sur le bouton Déplacer en bas de ce formulaire, le sujet que vous avez sélectionné, et tous ses messages connexes, seront déplacés sur le forum que vous avez sélectionné.');
 define('_MD_DESC_MERGE','Lorsque vous aurez appuyé sur le bouton Fusionner en bas de ce formulaire, le sujet que vous avez sélectionné, et ses messages connexes, seront regroupés à la rubrique que vous avez sélectionnée.<br /><strong>l\'ID de rubrique de destination doit être plus petit que celui actuel</strong>.');
 define('_MD_DESC_LOCK','Lorsque vous aurez appuyé sur le bouton de Verrouiller en bas de ce formulaire, le sujet que vous avez sélectionné sera verrouillé. Vous pourrez le déverrouiller plus tard si vous le souhaitez.');
+
 define('_MD_DESC_UNLOCK','Lorsque vous aurez appuyé sur le bouton Déverrouiller en bas de ce formulaire, le sujet que vous avez sélectionné sera déverrouillé. Vous pourrez le verrouiller à nouveau plus tard si vous le souhaitez.');
 define('_MD_DESC_STICKY','Lorsque vous aurez appuyé sur le bouton Agrafer en bas de ce formulaire, le sujet que vous avez sélectionné sera agrafé. Vous pourrez le dégrafer plus tard si vous le souhaitez.');
 define('_MD_DESC_UNSTICKY','Lorsque vous aurez appuyé sur le bouton Dégrafer en bas de ce formulaire, le sujet que vous avez sélectionné sera dégrafé. Vous pourrez l\'agrafer à nouveau plus tard si vous le souhaitez.');
 define('_MD_DESC_DIGEST','Lorsque vous aurez appuyé sur le bouton Classer en bas de ce formulaire, le sujet que vous avez sélectionné sera classé. Vous pourrez le déclasser à nouveau plus tard si vous le souhaitez.');
+
 define('_MD_DESC_UNDIGEST','Lorsque vous aurez appuyé sur le bouton Déclasser en bas de ce formulaire, le sujet que vous avez sélectionné sera déclassé. Vous pourrez le classer à nouveau plus tard si vous le souhaitez.');
 define('_MD_MERGETOPICTO','Fusionner le sujet à :');
 define('_MD_MOVETOPICTO','Déplacer le sujet à :');
@@ -478,3 +480,8 @@ define('_MD_SHARE_TECHNORATI', "Technorati");
 define('_MD_SHARE_MRWONG', "M. Wong");
 //4.3
 define("_MD_GO", "Ok");
+define('_MD_NEWBB_SEEUSERDATA',"Informations sur l'utilisateur");
+define('_MD_NEWBB_MAXKB',"Le fichier est trop gros (max %s Ko possible).");
+define('_MD_NEWBB_UPLOAD_ERRNODEF',"Erreur non définie");
+define('_MD_NEWBB_MAXUPLOADFILEINI',"Le fichier téléchargé excède la directive upload_max_filesize dans php.ini.");
+?>
