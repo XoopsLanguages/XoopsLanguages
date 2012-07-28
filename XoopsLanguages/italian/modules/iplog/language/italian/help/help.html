@@ -1,0 +1,54 @@
+<!--
+-- Logs Guest and users IP Addresses for a period of time and provides
+-- basic statistic of them in XOOPS Copyright (C) 2012 Simon Roberts 
+-- Contact: wishcraft - simon@chronolabs.com
+--
+-- This program is free software: you can redistribute it and/or modify
+-- it under the terms of the GNU General Public License as published by
+-- the Free Software Foundation, either version 3 of the License, or
+-- (at your option) any later version.
+-- 
+-- This program is distributed in the hope that it will be useful,
+-- but WITHOUT ANY WARRANTY; without even the implied warranty of
+-- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+-- GNU General Public License for more details.
+-- 
+-- You should have received a copy of the GNU General Public License
+-- along with this program. If not, see <http://www.gnu.org/licenses/>.
+-- See /docs/license.pdf for full license.
+-- 
+-- Shouts:- 	Mamba (www.xoops.org), flipse (www.nlxoops.nl)
+-- 				Many thanks for your additional work with version 1.01
+-- 
+-- Version:		1.01 Final
+-- Published:	Chronolabs
+-- Download:	http://code.google.com/p/chronolabs
+-- This File:	help.html
+-- Description:	Online help Root Smarty Template File
+-- Date:		28/07/2015 5:45PM AEST
+-- License:		GNU3
+--> 
+<div id="help-template" class="outer">
+    <h1 class="head">Aiuto:
+        <a class="ui-corner-all tooltip" href="<{$xoops_url}>/modules/iplog/admin/dashboard.php"
+           title="Torna alla Amministrazione di IP Log"> IP Log <img src="<{xoAdminIcons home.png}>"
+                                                                         alt="Torna alla Amministrazione di IP Log"/>
+        </a></h1>
+    <!-- -----Help Content ---------- -->
+
+    <h4 class="odd">Descriptione</h4>
+
+    <p class="even">
+        IP Log &#232; un modulo per registrare gli indirizzi IP solo degli utenti, oppure gli utenti ed ospiti anonimi.<br /><br />
+    </p>
+    <h4 class="odd">Installa/disinstalla</h4>
+
+    Misure speciali necessarie, non seguire il processo di installazione standard - estrarre /htdocs nella cartella
+    XOOPS ROOT Path. Installare il modulo attraverso Admin -> System Module -> Modules. Se avete bisogno di dettagliate
+    istruzioni su come installare un modulo, si prega di consultare il <a href="http://goo.gl/adT2i">XOOPS Operations
+    Manual</a>.<br /><br />
+    Assicurarsi di installare la chiave API di IPInfoDB.com nelle preferenze altrimenti il modulo non funziona,
+    Questo avviene correttamente andando su www.ipinfodb.com registrarsi, e dopo aver confermato il tuo 
+    indirizzo e-mail, ti verr&#224; fornita la chiave API per incollarla nel suo campo nelle preferenze.</p>
+    <!-- -----Help Content ---------- -->
+</div>
