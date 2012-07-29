@@ -179,9 +179,13 @@ define('_DAY', '1 dag');
 define('_DAYS', ' %s  dagen');
 define('_WEEK', '1 week');
 define('_MONTH', '1 maand');
-define('_DATESTRING', 'j-n-Y H:i:s'); // kan naar eigen voorkeur aangepast worden
-define('_MEDIUMDATESTRING', 'j-n-Y H:i'); // kan naar eigen voorkeur aangepast worden
-define('_SHORTDATESTRING', 'j-n-Y'); // kan naar eigen voorkeur aangepast worden
+//define('_DATESTRING', 'j-n-Y H:i:s'); // kan naar eigen voorkeur aangepast worden
+//define('_MEDIUMDATESTRING', 'j-n-Y H:i'); // kan naar eigen voorkeur aangepast worden
+//define('_SHORTDATESTRING', 'j-n-Y'); // kan naar eigen voorkeur aangepast worden
+define('_DATESTRING', 'd-m-Y H:i:s'); // kan naar eigen voorkeur aangepast worden
+define('_MEDIUMDATESTRING', 'd-m-Y H:i'); // kan naar eigen voorkeur aangepast worden
+define('_SHORTDATESTRING', 'd-m-Y'); // kan naar eigen voorkeur aangepast worden
+
 /**
 * The following characters are recognized in the format string:
 * a - 'am' or 'pm'
@@ -224,7 +228,10 @@ define('_RE', 'Re:');
 /**
  * Additions to 2.5.5
 **/
-define('_DBDATESTRING', 'j-n-Y');
+//define('_DBDATESTRING', 'j-n-Y');
+//define('_DBTIMESTRING', 'H:i:s');
+//define('_DBTIMESTAMPSTRING', 'j-n-Y H:i:s');
+define('_DBDATESTRING', 'd-m-Y');
 define('_DBTIMESTRING', 'H:i:s');
-define('_DBTIMESTAMPSTRING', 'j-n-Y H:i:s');
+define('_DBTIMESTAMPSTRING', 'd-m-Y H:i:s');
 ?>

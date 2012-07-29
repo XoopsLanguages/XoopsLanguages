@@ -15,8 +15,8 @@ setlocale(LC_ALL, 'nl_NL');
 
 // !!IMPORTANT!! insert '\' before any char among reserved chars: "a", "A", "B", "c", "d", "D", "F", "g", "G", "h", "H", "i", "I", "j", "l", "L", "m", "M", "n", "O", "r", "s", "S", "t", "T", "U", "w", "W", "Y", "y", "z", "Z"    
 // insert double '\' before 't', 'r', 'n'
-define("_TODAY", "Vandaag G:i");
-define("_YESTERDAY", "Gisteren G:i");
+define("_TODAY", "\V\a\\n\d\a\a\g G:i");
+define("_YESTERDAY", "\G\i\s\\t\e\\r\e\\n G:i");
 define("_MONTHDAY", "j /n G:i");
 define("_YEARMONTHDAY", "j/n/Y G:i");
 define("_ELAPSE", " %s  geleden");
