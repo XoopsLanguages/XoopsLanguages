@@ -30,7 +30,7 @@ define("_MI_MARQUEE_BDESC_03",	"Scrollende tekst 03 weergeven");
 define("_MI_MARQUEE_BNAME_04",	"Scrollende tekst 04");
 define("_MI_MARQUEE_BDESC_04",	"Scrollende tekst 04 weergeven");
 define("_MI_MARQUEE_MENU_01",	"Scrollende teksten");
-define("_MI_MARQUEE_USE_KIOVI", "Kiovi gebruiken?");
+define("_MI_MARQUEE_USE_KIOVI","Kiovi gebruiken?");
 define("_MI_MARQUEE_USE_KIOVI_DESC","Indien gedetecteerd wordt koivi gebruikt");
 define("_MI_MARQUEE_METHOD","Methode om te gebruiken");
 define("_MI_MARQUEE_METHOD_DESC","Wanneer de 'Scrollende tekst' methode is geselecteerd dan gebruikt de module de html marquee's code, Deze methode is niet compatibel met alle browsers maar biedt vele opties.<br>
@@ -44,7 +44,7 @@ define("_MI_MARQUE_ITEMSCOUNT_DESC","Wanneer de content van een andere module wo
 define("_MI_MARQUE_TITLELENGTH","Titel lengte");
 define("_MI_MARQUE_TITLELENGTH_DESC","Stel de maximale lengte in voor de titellengte van de scrollende teksten (0=geen limiet)");
 
-define("_MI_MARQUEE_TEXT_EDITOR", "Teksteditor gebruiken");
+define("_MI_MARQUEE_TEXT_EDITOR","Teksteditor gebruiken");
 define("_MI_MARQUEE_FORM_COMPACT","Compact");
 define("_MI_MARQUEE_FORM_DHTML","DHTML");
 define("_MI_MARQUEE_FORM_SPAW","Spaw Editor");

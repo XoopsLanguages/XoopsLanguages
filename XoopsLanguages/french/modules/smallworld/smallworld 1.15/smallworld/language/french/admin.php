@@ -79,7 +79,7 @@ define('_AM_SMALLWORLD_STATS_AMOUNT','Nombre');
 define('_AM_SMALLWORLD_STATS_IMG','Icône');
 
 define('_AM_SMALLWORLD_SP','<img style="margin: 0pt 5px 0pt 0pt; vertical-align: middle;" src="../images/sp.png" height="30px" width="30px"> <a style="position: relative; margin: 0px;vertical-align: middle;" href="javascript:void(0);" id="smallworldDonate">Si vous aimez ce module et le travail effectué, vous pouvez me garder éveillé en m\'offrant un café</a>');
-define('_AM_SMALLWORLD_FOOTER', "<div class='center smallsmall italic pad5'>Le module SmallWorld est suivi par <a class='tooltip' rel='external' href='http://culex.dk/' title='Visitez mon site internet'>Culex</a></div>");
+define('_AM_SMALLWORLD_FOOTER',"<div class='center smallsmall italic pad5'>Le module SmallWorld est suivi par <a class='tooltip' rel='external' href='http://culex.dk/' title='Visitez mon site internet'>Culex</a></div>");
 
 /**
  * @translation     Communauté Francophone des Utilisateurs de Xoops

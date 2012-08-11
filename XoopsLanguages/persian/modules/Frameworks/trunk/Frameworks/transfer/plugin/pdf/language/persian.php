@@ -13,6 +13,6 @@
  * @package		Frameworks::transfer
  */
  
-define("_MD_TRANSFER_PDF", "PDF");
-define("_MD_TRANSFER_PDF_DESC", "ساختن PDF");
+define("_MD_TRANSFER_PDF","PDF");
+define("_MD_TRANSFER_PDF_DESC","ساختن PDF");
 ?>

@@ -41,8 +41,8 @@ define("_PM_DATE","Ημερομηνία");
 define("_PM_NOTREAD","Δεν έχει διαβαστεί");
 define("_PM_SEND","Αποστολή");
 define("_PM_DELETE","Διαγραφή");
-define("_PM_REPLY", "Απάντηση");
+define("_PM_REPLY","Απάντηση");
 define("_PM_PLZREG","Σας παρακαλούμε να γραφτείτε πρώτα για να μπορέσετε να στείλετε προσωπικά μηνύματα!");
 
-define("_PM_ONLINE", "Online");
+define("_PM_ONLINE","Online");
 ?>

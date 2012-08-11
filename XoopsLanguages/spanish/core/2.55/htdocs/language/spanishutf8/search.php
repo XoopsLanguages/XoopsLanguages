@@ -21,9 +21,9 @@ define('_SR_PREVIOUS','Anterior');
 define('_SR_KEYWORDS','Palabra(s) clave');
 define('_SR_TYPE','Tipo');
 define('_SR_SEARCHIN','Buscar en');
-define('_SR_KEYTOOSHORT', 'Las palabras clave(keywords) deben contener al menos <b>%s</b> caracteres');
-define('_SR_KEYIGNORE', 'Las palabras clave con menos de <b>%s</b> caracteres serán ignoradas');
-define('_SR_SEARCHRULE', 'Reglas para la búsqueda');
-define('_SR_IGNOREDWORDS', 'Las siguientes palabras son demasiado cortas (menos de %u caracteres). No serán incluidas en la búsqueda:');
+define('_SR_KEYTOOSHORT','Las palabras clave(keywords) deben contener al menos <b>%s</b> caracteres');
+define('_SR_KEYIGNORE','Las palabras clave con menos de <b>%s</b> caracteres serán ignoradas');
+define('_SR_SEARCHRULE','Reglas para la búsqueda');
+define('_SR_IGNOREDWORDS','Las siguientes palabras son demasiado cortas (menos de %u caracteres). No serán incluidas en la búsqueda:');
 
 ?>

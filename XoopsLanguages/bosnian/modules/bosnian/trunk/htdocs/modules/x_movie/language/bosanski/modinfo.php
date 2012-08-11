@@ -46,63 +46,63 @@ define('_MI_X_MOVIE_AUTOAPPROVE','Svi uplodani videi se automatski odobravaju.')
 define('_MI_X_MOVIE_FLASH_AUTOSTART','Flash video auto start on ili off');
 
 // Description of each config items
-define('_MI_X_MOVIE_POPULARDSC', '');
-define('_MI_X_MOVIE_NEWLINKSDSC', '');
-define('_MI_X_MOVIE_PERPAGEDSC', '');
-define('_MI_X_MOVIE_USESHOTSDSC', 'Izaberi "Da" ako se u video prezentaciji i dodatne informacije trebaju prikazati.');
-define('_MI_X_MOVIE_SHOTWIDTHDSC', 'Max. video prezentacije &scaron;irina');
+define('_MI_X_MOVIE_POPULARDSC','');
+define('_MI_X_MOVIE_NEWLINKSDSC','');
+define('_MI_X_MOVIE_PERPAGEDSC','');
+define('_MI_X_MOVIE_USESHOTSDSC','Izaberi "Da" ako se u video prezentaciji i dodatne informacije trebaju prikazati.');
+define('_MI_X_MOVIE_SHOTWIDTHDSC','Max. video prezentacije &scaron;irina');
 define('_MI_X_MOVIE_AUTOAPPROVEDSC','Izaberi "Da", ako se svi videi koji su poslati bez provjere Administratora odobravaju');
 define('_MI_X_MOVIE_FLASH_AUTOSTARTDSC','Odredi dali treba flash video auto start na on ili off postaviti');
 // Text for notifications
 
-define('_MI_X_MOVIE_GLOBAL_NOTIFY', 'Globalne obavijesti');
-define('_MI_X_MOVIE_GLOBAL_NOTIFYDSC', 'Opcije obavijesti: Globalno');
+define('_MI_X_MOVIE_GLOBAL_NOTIFY','Globalne obavijesti');
+define('_MI_X_MOVIE_GLOBAL_NOTIFYDSC','Opcije obavijesti: Globalno');
 
-define('_MI_X_MOVIE_CATEGORY_NOTIFY', 'Kategorija obavijesti');
-define('_MI_X_MOVIE_CATEGORY_NOTIFYDSC', 'Opcija obavijesti: Kategorija');
+define('_MI_X_MOVIE_CATEGORY_NOTIFY','Kategorija obavijesti');
+define('_MI_X_MOVIE_CATEGORY_NOTIFYDSC','Opcija obavijesti: Kategorija');
 
-define('_MI_X_MOVIE_LINK_NOTIFY', 'Video obavijest');
-define('_MI_X_MOVIE_LINK_NOTIFYDSC', 'Opcija obavijest: Video');
+define('_MI_X_MOVIE_LINK_NOTIFY','Video obavijest');
+define('_MI_X_MOVIE_LINK_NOTIFYDSC','Opcija obavijest: Video');
 
-define('_MI_X_MOVIE_GLOBAL_NEWCATEGORY_NOTIFY', 'Nova kategorija');
-define('_MI_X_MOVIE_GLOBAL_NEWCATEGORY_NOTIFYCAP', 'Obavjesti me ako ima novih videa u kategoriji.');
-define('_MI_X_MOVIE_GLOBAL_NEWCATEGORY_NOTIFYDSC', 'Obavjesti me ako je nova kategorija za video napravljena.');
-define('_MI_X_MOVIE_GLOBAL_NEWCATEGORY_NOTIFYSBJ', '[{X_SITENAME}] {X_MODULE} auto-obavijest : Nova kategorija za video je napravljena.');
+define('_MI_X_MOVIE_GLOBAL_NEWCATEGORY_NOTIFY','Nova kategorija');
+define('_MI_X_MOVIE_GLOBAL_NEWCATEGORY_NOTIFYCAP','Obavjesti me ako ima novih videa u kategoriji.');
+define('_MI_X_MOVIE_GLOBAL_NEWCATEGORY_NOTIFYDSC','Obavjesti me ako je nova kategorija za video napravljena.');
+define('_MI_X_MOVIE_GLOBAL_NEWCATEGORY_NOTIFYSBJ','[{X_SITENAME}] {X_MODULE} auto-obavijest : Nova kategorija za video je napravljena.');
 
-define('_MI_X_MOVIE_GLOBAL_LINKMODIFY_NOTIFY', 'Zahtjevi za promjenu videa');
-define('_MI_X_MOVIE_GLOBAL_LINKMODIFY_NOTIFYCAP', 'Obavjesti me ako je neko podnio zahtjev za promjenu video/link-a.');
-define('_MI_X_MOVIE_GLOBAL_LINKMODIFY_NOTIFYDSC', 'Obavjesti me ako je neko video/link htjeo da izmijeni.');
-define('_MI_X_MOVIE_GLOBAL_LINKMODIFY_NOTIFYSBJ', '[{X_SITENAME}] {X_MODULE}: Video/link zahtjev za izmjenu je gotov.');
+define('_MI_X_MOVIE_GLOBAL_LINKMODIFY_NOTIFY','Zahtjevi za promjenu videa');
+define('_MI_X_MOVIE_GLOBAL_LINKMODIFY_NOTIFYCAP','Obavjesti me ako je neko podnio zahtjev za promjenu video/link-a.');
+define('_MI_X_MOVIE_GLOBAL_LINKMODIFY_NOTIFYDSC','Obavjesti me ako je neko video/link htjeo da izmijeni.');
+define('_MI_X_MOVIE_GLOBAL_LINKMODIFY_NOTIFYSBJ','[{X_SITENAME}] {X_MODULE}: Video/link zahtjev za izmjenu je gotov.');
 
-define('_MI_X_MOVIE_GLOBAL_LINKBROKEN_NOTIFY', 'Neispravni video/linkovi-dojave');
-define('_MI_X_MOVIE_GLOBAL_LINKBROKEN_NOTIFYCAP', 'Obavjesti me ako je neko poslao dojavu da je video/link neispravan.');
-define('_MI_X_MOVIE_GLOBAL_LINKBROKEN_NOTIFYDSC', 'Obavjesti me ako ima neispravnih video/linkova.');
-define('_MI_X_MOVIE_GLOBAL_LINKBROKEN_NOTIFYSBJ', '[{X_SITENAME}] {X_MODULE}: Video/link prijava je uradno obavljena.');
+define('_MI_X_MOVIE_GLOBAL_LINKBROKEN_NOTIFY','Neispravni video/linkovi-dojave');
+define('_MI_X_MOVIE_GLOBAL_LINKBROKEN_NOTIFYCAP','Obavjesti me ako je neko poslao dojavu da je video/link neispravan.');
+define('_MI_X_MOVIE_GLOBAL_LINKBROKEN_NOTIFYDSC','Obavjesti me ako ima neispravnih video/linkova.');
+define('_MI_X_MOVIE_GLOBAL_LINKBROKEN_NOTIFYSBJ','[{X_SITENAME}] {X_MODULE}: Video/link prijava je uradno obavljena.');
 
-define('_MI_X_MOVIE_GLOBAL_LINKSUBMIT_NOTIFY', 'Novi video/link je poslat');
-define('_MI_X_MOVIE_GLOBAL_LINKSUBMIT_NOTIFYCAP', 'Obavjesti me ako je neko novi video/link poslao.');
-define('_MI_X_MOVIE_GLOBAL_LINKSUBMIT_NOTIFYDSC', 'Obavjesti me ako je novi video/link poslat.');
-define('_MI_X_MOVIE_GLOBAL_LINKSUBMIT_NOTIFYSBJ', '[{X_SITENAME}] {X_MODULE}: Novi video/link je poslat.');
+define('_MI_X_MOVIE_GLOBAL_LINKSUBMIT_NOTIFY','Novi video/link je poslat');
+define('_MI_X_MOVIE_GLOBAL_LINKSUBMIT_NOTIFYCAP','Obavjesti me ako je neko novi video/link poslao.');
+define('_MI_X_MOVIE_GLOBAL_LINKSUBMIT_NOTIFYDSC','Obavjesti me ako je novi video/link poslat.');
+define('_MI_X_MOVIE_GLOBAL_LINKSUBMIT_NOTIFYSBJ','[{X_SITENAME}] {X_MODULE}: Novi video/link je poslat.');
 
-define('_MI_X_MOVIE_GLOBAL_NEWLINK_NOTIFY', 'Novi video poslat');
-define('_MI_X_MOVIE_GLOBAL_NEWLINK_NOTIFYCAP', 'Obavjesti me ako je novi video/link poslat.');
-define('_MI_X_MOVIE_GLOBAL_NEWLINK_NOTIFYDSC', 'Obavijest ako je neko video/link poslao.');
-define('_MI_X_MOVIE_GLOBAL_NEWLINK_NOTIFYSBJ', '[{X_SITENAME}] {X_MODULE}: Novi vido/link je poslat.');
+define('_MI_X_MOVIE_GLOBAL_NEWLINK_NOTIFY','Novi video poslat');
+define('_MI_X_MOVIE_GLOBAL_NEWLINK_NOTIFYCAP','Obavjesti me ako je novi video/link poslat.');
+define('_MI_X_MOVIE_GLOBAL_NEWLINK_NOTIFYDSC','Obavijest ako je neko video/link poslao.');
+define('_MI_X_MOVIE_GLOBAL_NEWLINK_NOTIFYSBJ','[{X_SITENAME}] {X_MODULE}: Novi vido/link je poslat.');
 
-define('_MI_X_MOVIE_CATEGORY_LINKSUBMIT_NOTIFY', 'Novi video post by category');
-define('_MI_X_MOVIE_CATEGORY_LINKSUBMIT_NOTIFYCAP', 'Notify me when a new video/link is posted to the current category.');
-define('_MI_X_MOVIE_CATEGORY_LINKSUBMIT_NOTIFYDSC', 'Notify me when a new video/link is posted to the current category.');
-define('_MI_X_MOVIE_CATEGORY_LINKSUBMIT_NOTIFYSBJ', '[{X_SITENAME}] {X_MODULE}: New video/link is posted.');
+define('_MI_X_MOVIE_CATEGORY_LINKSUBMIT_NOTIFY','Novi video post by category');
+define('_MI_X_MOVIE_CATEGORY_LINKSUBMIT_NOTIFYCAP','Notify me when a new video/link is posted to the current category.');
+define('_MI_X_MOVIE_CATEGORY_LINKSUBMIT_NOTIFYDSC','Notify me when a new video/link is posted to the current category.');
+define('_MI_X_MOVIE_CATEGORY_LINKSUBMIT_NOTIFYSBJ','[{X_SITENAME}] {X_MODULE}: New video/link is posted.');
 
-define('_MI_X_MOVIE_CATEGORY_NEWLINK_NOTIFY', 'New video post by category');
-define('_MI_X_MOVIE_CATEGORY_NEWLINK_NOTIFYCAP', 'Notify me when a new video/link is posted to the current category.');
-define('_MI_X_MOVIE_CATEGORY_NEWLINK_NOTIFYDSC', 'Notify me when a new video/link is posted to the current category.');
-define('_MI_X_MOVIE_CATEGORY_NEWLINK_NOTIFYSBJ', '[{X_SITENAME}] {X_MODULE}: New video/link was posted.');
+define('_MI_X_MOVIE_CATEGORY_NEWLINK_NOTIFY','New video post by category');
+define('_MI_X_MOVIE_CATEGORY_NEWLINK_NOTIFYCAP','Notify me when a new video/link is posted to the current category.');
+define('_MI_X_MOVIE_CATEGORY_NEWLINK_NOTIFYDSC','Notify me when a new video/link is posted to the current category.');
+define('_MI_X_MOVIE_CATEGORY_NEWLINK_NOTIFYSBJ','[{X_SITENAME}] {X_MODULE}: New video/link was posted.');
 
-define('_MI_X_MOVIE_LINK_APPROVE_NOTIFY', 'Video odobrenje');
-define('_MI_X_MOVIE_LINK_APPROVE_NOTIFYCAP', 'Notify me when this video/link is approved');
-define('_MI_X_MOVIE_LINK_APPROVE_NOTIFYDSC', 'Notify me when this video/link is approved');
-define('_MI_X_MOVIE_LINK_APPROVE_NOTIFYSBJ', '[{X_SITENAME}] {X_MODULE}: This video/link is approved.');
+define('_MI_X_MOVIE_LINK_APPROVE_NOTIFY','Video odobrenje');
+define('_MI_X_MOVIE_LINK_APPROVE_NOTIFYCAP','Notify me when this video/link is approved');
+define('_MI_X_MOVIE_LINK_APPROVE_NOTIFYDSC','Notify me when this video/link is approved');
+define('_MI_X_MOVIE_LINK_APPROVE_NOTIFYSBJ','[{X_SITENAME}] {X_MODULE}: This video/link is approved.');
 
 define("_MI_X_MOVIE_WINOBJWIDTH","Appoint Windows Media Player object width:");
 define("_MI_X_MOVIE_WINOBJWIDTHDSC","Windows Media Player (e.g. 500)");
@@ -145,7 +145,7 @@ define("_MI_X_MOVIE_IMG_UPLOAD","Path to images");
 define("_MI_X_MOVIE_IMG_UPLOADDSC","Same as 'Path to upload videos'");
 
 define("_MI_X_MOVIE_MOVIE_SIZE","Max upload video size");
-define("_MI_X_MOVIE_MOVIE_SIZEDSC","The limitation of the php.ini size;<br />memory_limit = 8M (default)<br />post_max_size = 8M (default)<br />upload_max_filesize =2M (default)<br />If the size is greater than the above default value, please rewrite php.ini file.<br />1KBÅÅ1024Å@1MBÅÅ1048576");
+define("_MI_X_MOVIE_MOVIE_SIZEDSC","The limitation of the php.ini size;<br />memory_limit = 8M (default)<br />post_max_size = 8M (default)<br />upload_max_filesize =2M (default)<br />If the size is greater than the above default value, please rewrite php.ini file.<br />1KB¬Å¬Å1024¬Å@1MB¬Å¬Å1048576");
 
 define("_MI_X_MOVIE_MOVIE_TYPE","Video file extensions can be uploaded");
 define("_MI_X_MOVIE_MOVIE_TYPEDSC","All characters must be lowercase. Input file types of extensions with separator '|'. (e.g. 'asf|asx|wma|wmv')<br />Never add any extensions other than video file types.");
@@ -188,7 +188,7 @@ define("_MI_X_MOVIE_ADMINSUBMITDSC","Select 'Yes' and only the administrator can
 
 define("_MI_X_MOVIE_VIDEOGET","Video Get Engine activate (No recommend)");
 define("_MI_X_MOVIE_VIDEOGETDSC","Select 'Yes' and it enables to output the URL for the video downloading.<br />
-<small>YouTubeÅEGoogleVideoÅEWacthme.TVÅEare compatible with uploaded files.</small>");
+<small>YouTube¬ÅEGoogleVideo¬ÅEWacthme.TV¬ÅEare compatible with uploaded files.</small>");
 
 define("_MI_X_MOVIE_GDMODE","Make thumbnail image");
 define("_MI_X_MOVIE_GDMODEDSC","Select 'Yes' if you want to make thumbnail images.");

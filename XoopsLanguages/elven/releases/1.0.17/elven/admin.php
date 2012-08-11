@@ -11,6 +11,6 @@ define("_AD_NICKNAME","Essa");
 define("_AD_EMAIL","E-Lekmee");
 define("_AD_AVATAR","Amin");
 define("_AD_REGISTERED","Yanwyassene"); //Yanwyassene Yaluumesse
-define('_AD_PRESSGEN', 'Sina lle yeste\' coiasira a\' enter tanya Cala\'Quessir. Istkerta nuntikse ont\'amin.');
-define('_AD_LOGINADMIN', 'Yanwyamen\'');
+define('_AD_PRESSGEN','Sina lle yeste\' coiasira a\' enter tanya Cala\'Quessir. Istkerta nuntikse ont\'amin.');
+define('_AD_LOGINADMIN','Yanwyamen\'');
 ?>

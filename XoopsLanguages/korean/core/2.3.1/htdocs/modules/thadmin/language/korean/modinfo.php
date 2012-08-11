@@ -16,14 +16,14 @@
  */
 
 // Main
-define('_THADMIN_MODULE_NAME', 'ThAdmin');
-define('_THADMIN_MODULE_DESC', 'ThAdmin Àº °ü¸®È­¸é¿ë Å×¸¶¸¦ °ü¸®ÇÒ ¼ö ÀÖ´Â ¸ðµâÀÔ´Ï´Ù.');
+define('_THADMIN_MODULE_NAME','ThAdmin');
+define('_THADMIN_MODULE_DESC','ThAdmin ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½È­ï¿½ï¿½ï¿½ ï¿½×¸ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½Ö´ï¿½ ï¿½ï¿½ï¿½ï¿½Ô´Ï´ï¿½.');
 // Menu
-define('_THADMIN_MENU_HOME', 'Home');
-define('_THADMIN_MENU_HELP', 'µµ¿ò¸»');
+define('_THADMIN_MENU_HOME','Home');
+define('_THADMIN_MENU_HELP','ï¿½ï¿½ï¿½ï¿½');
 // Settings
-define('_THADMIN_ADMINTHEME', '±âº»Å×¸¶');
-define('_THADMIN_ADMINTHEME_DESC', '°ü¸®È­¸é¿ë ±âº»Å×¸¶¸¦ ¼±ÅÃÇØ ÁÖ¼¼¿ä!');
-define('_THADMIN_CPANELEONLY', '°æ°í¸¦ Ç¥½Ã?');
-define('_THADMIN_CPANELEONLY_DESC', '°ü¸®È­¸é ÀÎÅÍÆäÀÌ½º¿¡¼­ °æ°í¿ë ¸Þ¼¼Áö¸¦ ¼û±æ ¼ö ÀÖ½À´Ï´Ù.');
+define('_THADMIN_ADMINTHEME','ï¿½âº»ï¿½×¸ï¿½');
+define('_THADMIN_ADMINTHEME_DESC','ï¿½ï¿½ï¿½ï¿½È­ï¿½ï¿½ï¿½ ï¿½âº»ï¿½×¸ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ö¼ï¿½ï¿½ï¿½!');
+define('_THADMIN_CPANELEONLY','ï¿½ï¿½ï¿½ï¿½ Ç¥ï¿½ï¿½?');
+define('_THADMIN_CPANELEONLY_DESC','ï¿½ï¿½ï¿½ï¿½È­ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Þ¼ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½Ö½ï¿½ï¿½Ï´ï¿½.');
 ?>

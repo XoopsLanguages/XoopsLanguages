@@ -35,10 +35,10 @@ define("_AM_UNEED2ENTER","&Egrave; necessario riempire i campi obbligatori!");
 // Added in RC3
 define("_AM_BLOCKRIGHTS","Permessi di visualizzazione dei blocchi");
 
-define('_AM_FINDU4GROUP', 'Cerca gli utenti di questo gruppo');
-define('_AM_GROUPSMAIN', 'Gestione Gruppi');
+define('_AM_FINDU4GROUP','Cerca gli utenti di questo gruppo');
+define('_AM_GROUPSMAIN','Gestione Gruppi');
 
-define('_AM_ADMINNO', 'Deve esserci sempre almeno un utente nel gruppo Webmaster');
+define('_AM_ADMINNO','Deve esserci sempre almeno un utente nel gruppo Webmaster');
 
 // Custom block, suggested by trabis
 define("_AM_CUSTOMBLOCK","Blocchi personalizzati");

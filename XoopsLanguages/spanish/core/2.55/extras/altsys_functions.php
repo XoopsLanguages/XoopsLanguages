@@ -58,11 +58,11 @@ function altsys_include_language_file( $type )
 }
 
 
-define( 'ALTSYS_CORE_TYPE_X20' , 1 ) ; // 2.0.0-2.0.13 and 2.0.x-JP
-define( 'ALTSYS_CORE_TYPE_X20S' , 2 ) ; // 2.0.14- from xoops.org Skalpa's "S"
-define( 'ALTSYS_CORE_TYPE_ORE' , 4 ) ; // ORETEKI by marijuana
-define( 'ALTSYS_CORE_TYPE_X22' , 8 ) ; // 2.2 from xoops.org
-define( 'ALTSYS_CORE_TYPE_XC21L' , 16 ) ; // XOOPS Cube 2.1 Legacy
+define('ALTSYS_CORE_TYPE_X20' , 1 ) ; // 2.0.0-2.0.13 and 2.0.x-JP
+define('ALTSYS_CORE_TYPE_X20S' , 2 ) ; // 2.0.14- from xoops.org Skalpa's "S"
+define('ALTSYS_CORE_TYPE_ORE' , 4 ) ; // ORETEKI by marijuana
+define('ALTSYS_CORE_TYPE_X22' , 8 ) ; // 2.2 from xoops.org
+define('ALTSYS_CORE_TYPE_XC21L' , 16 ) ; // XOOPS Cube 2.1 Legacy
 
 function altsys_get_core_type()
 {

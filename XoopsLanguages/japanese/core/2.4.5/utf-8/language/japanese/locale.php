@@ -25,14 +25,14 @@ defined('XOOPS_ROOT_PATH') or die('Restricted access');
 
 setlocale(LC_ALL, 'ja_JP');
 
-// !!IMPORTANT!! insert '\' before any char among reserved chars: "a", "A", "B", "c", "d", "D", "F", "g", "G", "h", "H", "i", "I", "j", "l", "L", "m", "M", "n", "O", "r", "s", "S", "t", "T", "U", "w", "W", "Y", "y", "z", "Z"    
-// insert double '\' before 't', 'r', 'n'
-define("_TODAY", "今日 G:i");
-define("_YESTERDAY", "昨日 G:i");
-define("_MONTHDAY", "n-j G:i");
-define("_YEARMONTHDAY", "Y-n-j G:i");
-define("_ELAPSE", "%s 日前");
-define("_TIMEFORMAT_DESC", "Valid formats: \"s\" - " . _SHORTDATESTRING . "; \"m\" - " . _MEDIUMDATESTRING . "; \"l\" - " . _DATESTRING . ";<br />" . "\"c\" or \"custom\" - format determined according to interval to present; \"e\" - Elapsed; \"mysql\" - Y-m-d H:i:s;<br />" . "specified string - Refer to <a href=\"http://php.net/manual/en/function.date.php\" rel=\"external\">PHP manual</a>.");
+// !!IMPORTANT!! insert '\' before any char among reserved chars: "a","A","B","c","d","D","F","g","G","h","H","i","I","j","l","L","m","M","n","O","r","s","S","t","T","U","w","W","Y","y","z","Z"    
+// insert double '\' before 't','r','n'
+define("_TODAY","ä»Šæ—¥ G:i");
+define("_YESTERDAY","æ˜¨æ—¥ G:i");
+define("_MONTHDAY","n-j G:i");
+define("_YEARMONTHDAY","Y-n-j G:i");
+define("_ELAPSE","%s æ—¥å‰");
+define("_TIMEFORMAT_DESC","Valid formats: \"s\" - " . _SHORTDATESTRING . "; \"m\" - " . _MEDIUMDATESTRING . "; \"l\" - " . _DATESTRING . ";<br />" . "\"c\" or \"custom\" - format determined according to interval to present; \"e\" - Elapsed; \"mysql\" - Y-m-d H:i:s;<br />" . "specified string - Refer to <a href=\"http://php.net/manual/en/function.date.php\" rel=\"external\">PHP manual</a>.");
 
 /**
  * A Xoops Local
@@ -53,7 +53,7 @@ class XoopsLocal extends XoopsLocalAbstract
      */
     function number_format($number)
     {
-        return number_format($number, 2, '.', ',');
+        return number_format($number, 2, '.',',');
     }
     
     /**

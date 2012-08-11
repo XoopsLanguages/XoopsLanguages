@@ -26,5 +26,5 @@
 //  ------------------------------------------------------------------------ //
 
 define("_MI_INSTANTMESSENGER_MODULE_NAME","IM");
-define("_MI_INSTANTMESSENGER_MODULE_DESC", "Viser en blok med online brugere Klik på brugernavn for at åbne chat vindue");
+define("_MI_INSTANTMESSENGER_MODULE_DESC","Viser en blok med online brugere Klik pÃ¥ brugernavn for at Ã¥bne chat vindue");
 ?>

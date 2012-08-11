@@ -12,7 +12,7 @@ define("_INSTALL_L165","Webstedet er i øjeblikket lukket for vedligeholdelse. v
 
 define("_INSTALL_ANON","Anonym");
 
-define("_INSTALL_DISCLMR", "Administratorerne af denne side vil forsøge at fjerne 
+define("_INSTALL_DISCLMR","Administratorerne af denne side vil forsøge at fjerne 
 eller tilrette alt generelt relevant materiale så hurtigt som muligt. Det er 
 umuligt at gennemse alle besked. Derfor bør du være opmærksom på at alle indlæg 
 der er lavet til denne side tilkendegiver meninger og holdninger af de forskellige forfattere og ikke 

@@ -1,23 +1,23 @@
 <?php
 // $Id: search.php,v 1.7 2003/10/02 07:41:48 okazu Exp $
 //%%%%%%	File Name search.php 	%%%%%
-define("_SR_SEARCH","Traûi");
+define("_SR_SEARCH","Tra≈æi");
 define("_SR_PLZENTER","Molimo, unesite sve potrebne podatke!");
-define("_SR_SEARCHRESULTS","Rezultati pretraûivanja");
-define("_SR_NOMATCH","Nema rezultata prema vaöem upitu");
-define("_SR_FOUND","Pronaeno <b>%s</b>");
+define("_SR_SEARCHRESULTS","Rezultati pretra≈æivanja");
+define("_SR_NOMATCH","Nema rezultata prema va≈°em upitu");
+define("_SR_FOUND","Prona√∞eno <b>%s</b>");
 define("_SR_SHOWING","(Pokazujem %d - %d)");
 define("_SR_ANY","Bilo koji (ILI)");
 define("_SR_ALL","Sve (I)");
-define("_SR_EXACT","ToËna podudarnost");
-define("_SR_SHOWALLR","Prikaûi sve rezultate");
-define("_SR_NEXT","SlijedeÊe >>");
+define("_SR_EXACT","To√®na podudarnost");
+define("_SR_SHOWALLR","Prika≈æi sve rezultate");
+define("_SR_NEXT","Slijede√¶e >>");
 define("_SR_PREVIOUS","<< Prethodno");
-define("_SR_KEYWORDS","KljuËne rijeËi");
-define("_SR_TYPE","Upiöi");
-define("_SR_SEARCHIN","Traûi u");
-define('_SR_KEYTOOSHORT', 'KljuËne rijeËi moraju sadrûavati najmanje <b>%s</b> znakova');
-define('_SR_KEYIGNORE', 'KljuËne rijeËi kraÊe od <b>%s</b> znakova Êe biti zanemarene');
-define('_SR_SEARCHRULE', 'Pravilo pretraûivanja');
-define('_SR_IGNOREDWORDS', 'SlijedeÊe rijeËi su kraÊe od dozvoljene minimalne duûine (%u znakova) neÊe biti ukljuËene u vaöe pretraûivanje:');
+define("_SR_KEYWORDS","Klju√®ne rije√®i");
+define("_SR_TYPE","Upi≈°i");
+define("_SR_SEARCHIN","Tra≈æi u");
+define('_SR_KEYTOOSHORT','Klju√®ne rije√®i moraju sadr≈æavati najmanje <b>%s</b> znakova');
+define('_SR_KEYIGNORE','Klju√®ne rije√®i kra√¶e od <b>%s</b> znakova √¶e biti zanemarene');
+define('_SR_SEARCHRULE','Pravilo pretra≈æivanja');
+define('_SR_IGNOREDWORDS','Slijede√¶e rije√®i su kra√¶e od dozvoljene minimalne du≈æine (%u znakova) ne√¶e biti uklju√®ene u va≈°e pretra≈æivanje:');
 ?>

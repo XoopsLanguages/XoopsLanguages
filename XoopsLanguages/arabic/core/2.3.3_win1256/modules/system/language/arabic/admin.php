@@ -5,32 +5,32 @@
 // Translator: Arab XOOPS Team
 
 //%%%%%%    File Name  admin.php    %%%%%
-define('_MD_AM_DBUPDATED','Êã ÊÍÏíË ÞÇÚÏÉ ÇáÈíÇäÇÊ');
-define('_MD_AM_DBERROR', 'áã íÊã ÊÍÏíË ÞÇÚÏÉ ÇáÈíÇäÇÊ äÊíÌÉ áÍÏæË Îáá');
+define('_MD_AM_DBUPDATED','ÃŠÃ£ ÃŠÃÃÃ­Ã‹ ÃžÃ‡ÃšÃÃ‰ Ã‡Ã¡ÃˆÃ­Ã‡Ã¤Ã‡ÃŠ');
+define('_MD_AM_DBERROR','Ã¡Ã£ Ã­ÃŠÃ£ ÃŠÃÃÃ­Ã‹ ÃžÃ‡ÃšÃÃ‰ Ã‡Ã¡ÃˆÃ­Ã‡Ã¤Ã‡ÃŠ Ã¤ÃŠÃ­ÃŒÃ‰ Ã¡ÃÃÃ¦Ã‹ ÃŽÃ¡Ã¡');
 
-define('_MD_AM_CONFIG','ÇáÅÚÏÇÏÇÊ ÇáÚÇãÉ');
+define('_MD_AM_CONFIG','Ã‡Ã¡Ã…ÃšÃÃ‡ÃÃ‡ÃŠ Ã‡Ã¡ÃšÃ‡Ã£Ã‰');
 
 // Admin Module Names
-define('_MD_AM_ADGS','ÇáãÌãæÚÇÊ');
-define('_MD_AM_BANS','ÇáÅÚáÇäÇÊ');
-define('_MD_AM_BKAD','ÇáÈáæßÇÊ');
-define('_MD_AM_MDAD','ÇáÈÑÇãÌ');
-define('_MD_AM_SMLS','ÇáæÌæå ÇáÊÚÈíÑíÉ');
-define('_MD_AM_RANK','ÑÊÈ ÇáÃÚÖÇÁ');
-define('_MD_AM_USER','ÊÍÑíÑ ÇáÃÚÖÇÁ');
-define('_MD_AM_FINDUSER', 'ÇáÈÍË Úä ÇáÃÚÖÇÁ');
-define('_MD_AM_PREF','ÇáÎíÇÑÇÊ');
-define('_MD_AM_VRSN','ÇáÅÕÏÇÑ');
-define('_MD_AM_MLUS', 'ãÑÇÓáÉ ÇáÃÚÖÇÁ');
-define('_MD_AM_IMAGES', 'ÅÏÇÑÉ ÇáÕæÑ');
-define('_MD_AM_AVATARS', 'ÇáÕæÑ ÇáÔÎÕíÉ');
-define('_MD_AM_TPLSETS', 'ÇáÞæÇáÈ');
-define('_MD_AM_COMMENTS', 'ÇáÊÚáíÞÇÊ');
+define('_MD_AM_ADGS','Ã‡Ã¡Ã£ÃŒÃ£Ã¦ÃšÃ‡ÃŠ');
+define('_MD_AM_BANS','Ã‡Ã¡Ã…ÃšÃ¡Ã‡Ã¤Ã‡ÃŠ');
+define('_MD_AM_BKAD','Ã‡Ã¡ÃˆÃ¡Ã¦ÃŸÃ‡ÃŠ');
+define('_MD_AM_MDAD','Ã‡Ã¡ÃˆÃ‘Ã‡Ã£ÃŒ');
+define('_MD_AM_SMLS','Ã‡Ã¡Ã¦ÃŒÃ¦Ã¥ Ã‡Ã¡ÃŠÃšÃˆÃ­Ã‘Ã­Ã‰');
+define('_MD_AM_RANK','Ã‘ÃŠÃˆ Ã‡Ã¡ÃƒÃšÃ–Ã‡Ã');
+define('_MD_AM_USER','ÃŠÃÃ‘Ã­Ã‘ Ã‡Ã¡ÃƒÃšÃ–Ã‡Ã');
+define('_MD_AM_FINDUSER','Ã‡Ã¡ÃˆÃÃ‹ ÃšÃ¤ Ã‡Ã¡ÃƒÃšÃ–Ã‡Ã');
+define('_MD_AM_PREF','Ã‡Ã¡ÃŽÃ­Ã‡Ã‘Ã‡ÃŠ');
+define('_MD_AM_VRSN','Ã‡Ã¡Ã…Ã•ÃÃ‡Ã‘');
+define('_MD_AM_MLUS','Ã£Ã‘Ã‡Ã“Ã¡Ã‰ Ã‡Ã¡ÃƒÃšÃ–Ã‡Ã');
+define('_MD_AM_IMAGES','Ã…ÃÃ‡Ã‘Ã‰ Ã‡Ã¡Ã•Ã¦Ã‘');
+define('_MD_AM_AVATARS','Ã‡Ã¡Ã•Ã¦Ã‘ Ã‡Ã¡Ã”ÃŽÃ•Ã­Ã‰');
+define('_MD_AM_TPLSETS','Ã‡Ã¡ÃžÃ¦Ã‡Ã¡Ãˆ');
+define('_MD_AM_COMMENTS','Ã‡Ã¡ÃŠÃšÃ¡Ã­ÃžÃ‡ÃŠ');
 
 // Group permission phrases
-define('_MD_AM_PERMADDNG','áã äÓÊØíÚ ÇÚØÇÁ ÇáÕáÇÍíÉ (ÇáÕáÇÍíÉ : %s ÇáãÌãæÚÉ : %s)');
-define('_MD_AM_PERMADDOK','Êã ÇÚØÇÁ ÇáÕáÇÍíÉ ááãÌãæÚÉ (ÇáÕáÇÍíÉ : %s ÇáãÌãæÚÉ : %s)');
-define('_MD_AM_PERMRESETNG','áã äÓÊØíÚ ÇÚÇÏÉ ÇáÊÕÑíÍ áæÖÚå áÈÑäÇãÌ  %s');
-define('_MD_AM_PERMADDNGP', 'ßá ÇáÅÎÊíÇÑÇÊ ÇáÑÆíÓíÉ íÌÈ ÊÍÏíÏåÇ');
+define('_MD_AM_PERMADDNG','Ã¡Ã£ Ã¤Ã“ÃŠÃ˜Ã­Ãš Ã‡ÃšÃ˜Ã‡Ã Ã‡Ã¡Ã•Ã¡Ã‡ÃÃ­Ã‰ (Ã‡Ã¡Ã•Ã¡Ã‡ÃÃ­Ã‰ : %s Ã‡Ã¡Ã£ÃŒÃ£Ã¦ÃšÃ‰ : %s)');
+define('_MD_AM_PERMADDOK','ÃŠÃ£ Ã‡ÃšÃ˜Ã‡Ã Ã‡Ã¡Ã•Ã¡Ã‡ÃÃ­Ã‰ Ã¡Ã¡Ã£ÃŒÃ£Ã¦ÃšÃ‰ (Ã‡Ã¡Ã•Ã¡Ã‡ÃÃ­Ã‰ : %s Ã‡Ã¡Ã£ÃŒÃ£Ã¦ÃšÃ‰ : %s)');
+define('_MD_AM_PERMRESETNG','Ã¡Ã£ Ã¤Ã“ÃŠÃ˜Ã­Ãš Ã‡ÃšÃ‡ÃÃ‰ Ã‡Ã¡ÃŠÃ•Ã‘Ã­Ã Ã¡Ã¦Ã–ÃšÃ¥ Ã¡ÃˆÃ‘Ã¤Ã‡Ã£ÃŒ  %s');
+define('_MD_AM_PERMADDNGP','ÃŸÃ¡ Ã‡Ã¡Ã…ÃŽÃŠÃ­Ã‡Ã‘Ã‡ÃŠ Ã‡Ã¡Ã‘Ã†Ã­Ã“Ã­Ã‰ Ã­ÃŒÃˆ ÃŠÃÃÃ­ÃÃ¥Ã‡');
 
 ?>

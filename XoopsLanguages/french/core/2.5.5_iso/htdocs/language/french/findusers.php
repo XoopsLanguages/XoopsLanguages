@@ -3,65 +3,65 @@
 // _LANGCODE: fr
 // _CHARSET : iso-8859-1
 // Translator: XOOPS Translation Team
-define("_MA_USER_MORE", "Rechercher un utilisateur ");
-define("_MA_USER_REMOVE", "Retirer les utilisateurs non sélectionnés");
+define("_MA_USER_MORE","Rechercher un utilisateur ");
+define("_MA_USER_REMOVE","Retirer les utilisateurs non sÃ©lectionnÃ©s");
 
 //%%%%%%        File Name findusers.php         %%%%%
-define("_MA_USER_ADD_SELECTED", "Ajouter les utilisateurs sélectionnés");
-define("_MA_USER_GROUP", "Groupe");
-define("_MA_USER_LEVEL", "Niveau");
-define("_MA_USER_LEVEL_ACTIVE", "Actif");
-define("_MA_USER_LEVEL_INACTIVE", "Inactif");
-define("_MA_USER_LEVEL_DISABLED", "Désactivé");
-define("_MA_USER_RANK", "Classement");
+define("_MA_USER_ADD_SELECTED","Ajouter les utilisateurs sÃ©lectionnÃ©s");
+define("_MA_USER_GROUP","Groupe");
+define("_MA_USER_LEVEL","Niveau");
+define("_MA_USER_LEVEL_ACTIVE","Actif");
+define("_MA_USER_LEVEL_INACTIVE","Inactif");
+define("_MA_USER_LEVEL_DISABLED","DÃ©sactivÃ©");
+define("_MA_USER_RANK","Classement");
 define("_MA_USER_FINDUS","Trouver des utilisateurs");
 define("_MA_USER_AVATAR","Avatar");
-define("_MA_USER_REALNAME","Nom réel");
+define("_MA_USER_REALNAME","Nom rÃ©el");
 define("_MA_USER_REGDATE","Inscrit le");
 define("_MA_USER_EMAIL","Adresse Email");
-define("_MA_USER_PREVIOUS","Précédent");
+define("_MA_USER_PREVIOUS","PrÃ©cÃ©dent");
 define("_MA_USER_NEXT","Suivant");
-define("_MA_USER_USERSFOUND","%s utilisateur(s) trouvé(s)");
-define("_MA_USER_ACTUS", "Nombre d'utilisateurs actifs : %s");
-define("_MA_USER_INACTUS", "Nombre d'utilisateurs inactifs : %s");
-define("_MA_USER_NOFOUND","Aucun utilisateur trouvé");
+define("_MA_USER_USERSFOUND","%s utilisateur(s) trouvÃ©(s)");
+define("_MA_USER_ACTUS","Nombre d'utilisateurs actifs : %s");
+define("_MA_USER_INACTUS","Nombre d'utilisateurs inactifs : %s");
+define("_MA_USER_NOFOUND","Aucun utilisateur trouvÃ©");
 define("_MA_USER_UNAME","Identifiant");
 define("_MA_USER_ICQ","ICQ");
 define("_MA_USER_AIM","AIM");
 define("_MA_USER_YIM","YIM");
 define("_MA_USER_MSNM","MSN");
-define("_MA_USER_LOCATION","Résidence contenant");
+define("_MA_USER_LOCATION","RÃ©sidence contenant");
 define("_MA_USER_OCCUPATION","Profession contenant");
-define("_MA_USER_INTEREST","Centre d'intérêt contenant");
+define("_MA_USER_INTEREST","Centre d'intÃ©rÃªt contenant");
 define("_MA_USER_URLC","Adresse Internet contenant");
-define("_MA_USER_SORT","Trié par");
+define("_MA_USER_SORT","TriÃ© par");
 define("_MA_USER_ORDER","Ordre");
-define("_MA_USER_LASTLOGIN","Dernière connexion");
+define("_MA_USER_LASTLOGIN","DerniÃ¨re connexion");
 define("_MA_USER_POSTS","Nombre d'envois");
 define("_MA_USER_ASC","Ordre ascendant");
 define("_MA_USER_DESC","Ordre descendant");
 define("_MA_USER_LIMIT","Nombre d'utilisateurs par page");
-define("_MA_USER_RESULTS", "Résultats de la recherche");
-define("_MA_USER_SHOWMAILOK", "Type d'utilisateurs à afficher");
+define("_MA_USER_RESULTS","RÃ©sultats de la recherche");
+define("_MA_USER_SHOWMAILOK","Type d'utilisateurs Ã  afficher");
 define("_MA_USER_MAILOK","Uniquement les utilisateurs acceptant des emails");
 define("_MA_USER_MAILNG","Uniquement les utilisateurs n'acceptant pas d'emails");
-define("_MA_USER_BOTH", "Tous");
-define("_MA_USER_RANGE_LAST_LOGIN","Dernière connexion remontant à plus de <span style='color:#ff0000;'>X</span> jours");
+define("_MA_USER_BOTH","Tous");
+define("_MA_USER_RANGE_LAST_LOGIN","DerniÃ¨re connexion remontant Ã  plus de <span style='color:#ff0000;'>X</span> jours");
 define("_MA_USER_RANGE_USER_REGDATE","Inscrit depuis plus de <span style='color:#ff0000;'>X</span> jours");
 define("_MA_USER_RANGE_POSTS","Nombre de contributions");
-define("_MA_USER_HASAVATAR", "Possède un avatar");
-define("_MA_USER_MODE_SIMPLE", "Mode simple");
-define("_MA_USER_MODE_ADVANCED", "Mode avancé");
-define("_MA_USER_MODE_QUERY", "Mode requête");
-define("_MA_USER_QUERY", "Requête");
-define("_MA_USER_SEARCHAGAIN", "Recherche de nouveau");
-define("_MA_USER_NOUSERSELECTED", "Aucun utilisateur sélectionné");
-define("_MA_USER_USERADDED", "Des utilisateurs ont été ajoutés");
-define("_MA_USER_SENDMAIL","Envoyé un courrier par email");
+define("_MA_USER_HASAVATAR","PossÃ¨de un avatar");
+define("_MA_USER_MODE_SIMPLE","Mode simple");
+define("_MA_USER_MODE_ADVANCED","Mode avancÃ©");
+define("_MA_USER_MODE_QUERY","Mode requÃªte");
+define("_MA_USER_QUERY","RequÃªte");
+define("_MA_USER_SEARCHAGAIN","Recherche de nouveau");
+define("_MA_USER_NOUSERSELECTED","Aucun utilisateur sÃ©lectionnÃ©");
+define("_MA_USER_USERADDED","Des utilisateurs ont Ã©tÃ© ajoutÃ©s");
+define("_MA_USER_SENDMAIL","EnvoyÃ© un courrier par email");
 
 //2.5.4
-define("_MA_USER_FACEBOOK", "Facebook"); //TO DO
-define("_MA_USER_SKYPE", "Skype");//TO DO
+define("_MA_USER_FACEBOOK","Facebook"); //TO DO
+define("_MA_USER_SKYPE","Skype");//TO DO
 
 /**  
  * Traductions frxoops, kris

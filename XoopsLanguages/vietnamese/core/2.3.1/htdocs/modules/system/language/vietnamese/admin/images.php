@@ -17,7 +17,7 @@ define('_MD_INDB',' Lưu trong cơ sở dử liệu (as binary "blob" data)');//
 define('_MD_ASFILE',' Lưu bằng hồ sơ (trong thư mục upload)<br />');//Store as files (in uploads directory)<br />
 define('_MD_RUDELIMGCAT','Bạn có chắc chắn muốn xóa bỏ danh mục nầy và tất cả hình ảnh ở trong đây?');//Are you sure that you want to delete this category and all of its images files?
 define('_MD_RUDELIMG','Bạn có chắc chắn muốn xóa bỏ những hình ảnh nầy không?');//Are you sure that you want to delete this images file?
-define('_MD_FAILDEL', 'Không xóa được ảnh %s trong cơ sở dử liệu');//Failed deleting image %s from the database
-define('_MD_FAILDELCAT', 'Không xóa được danh mục ảnh %s trong cơ sở dử liệu');//Failed deleting image category %s from the database
-define('_MD_FAILUNLINK', 'Không xóa được ảnh %s trong thư mục máy chủ');//Failed deleting image %s from the server directory
+define('_MD_FAILDEL','Không xóa được ảnh %s trong cơ sở dử liệu');//Failed deleting image %s from the database
+define('_MD_FAILDELCAT','Không xóa được danh mục ảnh %s trong cơ sở dử liệu');//Failed deleting image category %s from the database
+define('_MD_FAILUNLINK','Không xóa được ảnh %s trong thư mục máy chủ');//Failed deleting image %s from the server directory
 ?>

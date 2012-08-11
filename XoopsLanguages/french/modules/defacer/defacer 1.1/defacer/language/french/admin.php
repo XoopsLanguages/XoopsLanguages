@@ -46,5 +46,5 @@ define("_AM_DEFACER_PERMISSION_GROUPS","Groupes autorisés");
 define('_AM_DEFACER_MODULEADMIN_MISSING','Erreur : La classe ModuleAdmin est manquante. Veuillez installer la classe ModuleAdmin dans /Frameworks (voir /docs/readme.txt)');
 
 // Text for Admin footer
-//define("_AM_DEFACER_FOOTER", "<div class='center smallsmall italic pad5'>Defacer est maintenu par la <a class='tooltip' rel='external' href='http://xoops.org/' title='Visit XOOPS Community'>Communauté XOOPS</a></div>");
+//define("_AM_DEFACER_FOOTER","<div class='center smallsmall italic pad5'>Defacer est maintenu par la <a class='tooltip' rel='external' href='http://xoops.org/' title='Visit XOOPS Community'>Communauté XOOPS</a></div>");
 // Traduction faite par Cesag pour frxoops.org le 04 Juin 2012.

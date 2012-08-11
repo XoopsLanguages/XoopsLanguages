@@ -18,7 +18,7 @@ define("_NESTED","Nästlat");
 define("_NOCOMMENTS","Inga kommentarer");
 define("_FLAT","Platt");
 define("_THREADED","Trådat");
-define("_OLDESTFIRST","Äldsta f�rst");
+define("_OLDESTFIRST","Äldsta f�rst");
 define("_NEWESTFIRST","Nyaste först");
 define("_MORE","mer...");
 define("_MULTIPAGE","För att få din artikel att spänna över flera sidor, sätt in ordet <font color=red>[pagebreak]</font> (med klamrar) i artikeln.");
@@ -27,8 +27,8 @@ define("_WARNINSTALL2","VARNING: Katalogen %s existerar på din server. <br />V�
 define("_WARNINWRITEABLE","VARNING: Filen %s är skrivbar av servern. <br />Väligen ändra rättigheterna på filen av säkerhetsskäl.<br /> i Unix (444), i Win32 (read-only)");
 
 // Error messages issued by XoopsObject::cleanVars()
-define( "_XOBJ_ERR_REQUIRED", "%s är nödvändig" );
-define( "_XOBJ_ERR_SHORTERTHAN", "%s måste vara kortare än %d tecken." );
+define("_XOBJ_ERR_REQUIRED","%s är nödvändig" );
+define("_XOBJ_ERR_SHORTERTHAN","%s måste vara kortare än %d tecken." );
 
 //%%%%%%	File Name themeuserpost.php 	%%%%%
 define("_PROFILE","Profil");
@@ -49,8 +49,8 @@ define("_YOURHOME","Hemsida");
 
 //%%%%%%	File Name misc.php (who's-online popup)	%%%%%
 define("_WHOSONLINE","Vem är online");
-define('_GUESTS', 'Gäster');
-define('_MEMBERS', 'Medlemmar');
+define('_GUESTS','Gäster');
+define('_MEMBERS','Medlemmar');
 define("_ONLINEPHRASE","<b>%s</b> användare är online");
 define("_ONLINEPHRASEX","<b>%s</b> användare surfar <b>%s</b>");
 define("_CLOSE","Stäng");  // Close window
@@ -72,27 +72,27 @@ define("_ALIGN","Justera");
 define("_LEFT","Vänster");
 define("_CENTER","Centrerat");
 define("_RIGHT","Höger");
-define("_FORM_ENTER", "Skriv in %s");
+define("_FORM_ENTER","Skriv in %s");
 // %s represents file name
 define("_MUSTWABLE","Filen %s måste vara skrivbar för servern!");
 // Module info
-define('_PREFERENCES', 'Inställningar');
-define("_VERSION", "Version");
-define("_DESCRIPTION", "Beskrivning");
-define("_AUTHOR", "Författare");
-define("_CREDITS", "Beröm");
-define("_LICENCE", "Licens");
-define("_ERRORS", "Fel");
-define("_NONE", "Inga");
+define('_PREFERENCES','Inställningar');
+define("_VERSION","Version");
+define("_DESCRIPTION","Beskrivning");
+define("_AUTHOR","Författare");
+define("_CREDITS","Beröm");
+define("_LICENCE","Licens");
+define("_ERRORS","Fel");
+define("_NONE","Inga");
 define('_ON','på');
 define('_READS','läsningar');
 define('_WELCOMETO','Välkommen till %s');
 define('_SEARCH','Sök');
-define('_ALL', 'Alla');
-define('_TITLE', 'Titel');
-define('_OPTIONS', 'Alternativ');
-define('_QUOTE', 'Citat');
-define('_LIST', 'Lista');
+define('_ALL','Alla');
+define('_TITLE','Titel');
+define('_OPTIONS','Alternativ');
+define('_QUOTE','Citat');
+define('_LIST','Lista');
 define('_LOGIN','Logga in');
 define('_USERNAME','Användarnamn: ');
 define('_PASSWORD','Lösenord: ');
@@ -102,12 +102,12 @@ define("_SEND","Skicka");
 define("_CANCEL","Avbryt");
 define("_ASCENDING","Stigande ordning");
 define("_DESCENDING","Fallande ordning");
-define('_BACK', 'Tillbaka');
-define('_NOTITLE', 'Ingen rubrik');
+define('_BACK','Tillbaka');
+define('_NOTITLE','Ingen rubrik');
 
 /* Image manager */
 define('_IMGMANAGER','Bildhanterare');
-define('_NUMIMAGES', '%s bilder');
+define('_NUMIMAGES','%s bilder');
 define('_ADDIMAGE','Lägg till bildfil');
 define('_IMAGENAME','Namn:');
 define('_IMGMAXSIZE','Tillåten maxstorlek (kb):');
@@ -118,16 +118,16 @@ define('_IMAGEFILE','Bildfil:');
 define('_IMGWEIGHT','Visningsordning i bildhanteraren:');
 define('_IMGDISPLAY','Visa denna bild?');
 define('_IMAGEMIME','MIME-typ:');
-define('_FAILFETCHIMG', 'Kunde inte hämta den uppladdade filen %s');
-define('_FAILSAVEIMG', 'Misslyckades att spara bilden %s i databasen');
-define('_NOCACHE', 'Inget cache');
-define('_CLONE', 'Klona');
+define('_FAILFETCHIMG','Kunde inte hämta den uppladdade filen %s');
+define('_FAILSAVEIMG','Misslyckades att spara bilden %s i databasen');
+define('_NOCACHE','Inget cache');
+define('_CLONE','Klona');
 
 //%%%%%	File Name class/xoopsform/formmatchoption.php 	%%%%%
-define("_STARTSWITH", "Börjar med");
-define("_ENDSWITH", "Slutar med");
-define("_MATCHES", "Matchar");
-define("_CONTAINS", "Innehåller");
+define("_STARTSWITH","Börjar med");
+define("_ENDSWITH","Slutar med");
+define("_MATCHES","Matchar");
+define("_CONTAINS","Innehåller");
 
 //%%%%%%	File Name commentform.php 	%%%%%
 define("_REGISTER","Registrera");
@@ -153,16 +153,16 @@ define("_PLZCOMPLETE","Vänligen fyll i ämnes och meddelandefälten.");
 define("_MESSAGETOOLONG","Ditt meddelande är för långt.");
 
 //%%%%%		TIME FORMAT SETTINGS   %%%%%
-define('_SECOND', '1 sekund');
-define('_SECONDS', '%s sekunder');
-define('_MINUTE', '1 minut');
-define('_MINUTES', '%s minuter');
-define('_HOUR', '1 timme');
-define('_HOURS', '%s timmar');
-define('_DAY', '1 dag');
-define('_DAYS', '%s dagar');
-define('_WEEK', '1 vecka');
-define('_MONTH', '1 månad');
+define('_SECOND','1 sekund');
+define('_SECONDS','%s sekunder');
+define('_MINUTE','1 minut');
+define('_MINUTES','%s minuter');
+define('_HOUR','1 timme');
+define('_HOURS','%s timmar');
+define('_DAY','1 dag');
+define('_DAYS','%s dagar');
+define('_WEEK','1 vecka');
+define('_MONTH','1 månad');
 
 define("_DATESTRING","y-m-d H:i:s");
 define("_MEDIUMDATESTRING","y-m-d H:i");
@@ -186,7 +186,7 @@ m - month; i.e. "01" to "12"
 n - month without leading zeros; i.e. "1" to "12"
 M - month, textual, 3 letters; i.e. "Jan"
 s - seconds; i.e. "00" to "59"
-S - English ordinal suffix, textual, 2 characters; i.e. "th", "nd"
+S - English ordinal suffix, textual, 2 characters; i.e. "th","nd"
 t - number of days in the given month; i.e. "28" to "31"
 T - Timezone setting of this machine; i.e. "MDT"
 U - seconds since the epoch
@@ -199,9 +199,9 @@ Z - timezone offset in seconds (i.e. "-43200" to "43200")
 
 
 //%%%%%		LANGUAGE SPECIFIC SETTINGS   %%%%%
-define('_CHARSET', 'UTF-8');
-define('_LANGCODE', 'se');
+define('_CHARSET','UTF-8');
+define('_LANGCODE','se');
 
 // change 0 to 1 if this language is a multi-bytes language
-define("XOOPS_USE_MULTIBYTES", "0");
+define("XOOPS_USE_MULTIBYTES","0");
 ?>

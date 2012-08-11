@@ -38,7 +38,7 @@ define('_US_REGISTERNG','无法注册新帐号。');
 define('_US_MAILOK','是否接收事件通知');
 define('_US_DISCLAIMER','注册条款');
 define('_US_IAGREE','我接受以上条款');
-define('_US_UNEEDAGREE', '抱歉，您必须接受这些条款才能注册。');
+define('_US_UNEEDAGREE','抱歉，您必须接受这些条款才能注册。');
 define('_US_NOREGISTER','抱歉，目前我们不接受新会员。');
 
 
@@ -71,15 +71,15 @@ define('_US_SORRYNOTFOUND','抱歉, 无法找到该帐号信息。');
 
 // %s is your site name
 define('_US_NEWPWDREQ','有会员在 %s 索取新密码。');
-define('_US_YOURACCOUNT', '您在 %s 的帐号');
+define('_US_YOURACCOUNT','您在 %s 的帐号');
 
 define('_US_MAILPWDNG','密码发送：无法更新用户资料，请联系网站管理员。');
 
 // %s is a username
 define('_US_PWDMAILED','给 %s 的密码已经通过 Email 发出。');
 define('_US_CONFMAIL','给 %s 的确认信已经通过 Email 发出。');
-define('_US_ACTVMAILNG', '给 %s 发送邮件通知时失败。');
-define('_US_ACTVMAILOK', '给 %s 的邮件通知已发出。');
+define('_US_ACTVMAILNG','给 %s 发送邮件通知时失败。');
+define('_US_ACTVMAILOK','给 %s 的邮件通知已发出。');
 
 //%%%%%%		File Name userinfo.php 		%%%%%
 define('_US_SELECTNG','未选择用户! 请返回并重试。');
@@ -123,22 +123,22 @@ define('_US_PROFUPDATED','个人资料已更新!');
 define('_US_USECOOKIE','保存帐号(不含密码)1年');
 define('_US_NO',' 否 ');
 define('_US_DELACCOUNT','删除帐号');
-define('_US_MYAVATAR', '个人头像');
-define('_US_UPLOADMYAVATAR', '上传头像');
+define('_US_MYAVATAR','个人头像');
+define('_US_UPLOADMYAVATAR','上传头像');
 define('_US_MAXPIXEL','最大宽与高度(像素)');
 define('_US_MAXIMGSZ','最大文件大小(字节)');
 define('_US_SELFILE','选择文件');
 define('_US_OLDDELETED','您原来的头像将被删除！');
-define('_US_CHOOSEAVT', '选择头像');
+define('_US_CHOOSEAVT','选择头像');
 
-define('_US_PRESSLOGIN', '点击下面的按钮登录。');
+define('_US_PRESSLOGIN','点击下面的按钮登录。');
 
-define('_US_ADMINNO', '管理员组的成员不能被直接删除。');
-define('_US_GROUPS', '会员群组');
+define('_US_ADMINNO','管理员组的成员不能被直接删除。');
+define('_US_GROUPS','会员群组');
 
-define('_US_REMEMBERME', '记住我');
+define('_US_REMEMBERME','记住我');
 
 // Welcoming emai/PM subject
-define('_US_WELCOME_SUBJECT', '欢迎光临 %s');
+define('_US_WELCOME_SUBJECT','欢迎光临 %s');
 
 ?>

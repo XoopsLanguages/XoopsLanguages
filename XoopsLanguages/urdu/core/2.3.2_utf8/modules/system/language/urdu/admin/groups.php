@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 // $Id: groups.php 2067 2008-09-12 03:42:35Z phppp $
 //%%%%%%	Admin Module Name  AdminGroup 	%%%%%
 define("_AM_DBUPDATED",_MD_AM_DBUPDATED);
@@ -30,10 +30,10 @@ define("_AM_UNEED2ENTER","آپکو ضروری معلومات داخل کرنے �
 // Added in RC3
 define("_AM_BLOCKRIGHTS","تختے کے رسائ کے حقوق");
 
-define('_AM_FINDU4GROUP', 'اس گروپ کیلۓ ارکان تلاش کریں');
-define('_AM_GROUPSMAIN', 'مرکزی گروپس');
+define('_AM_FINDU4GROUP','اس گروپ کیلۓ ارکان تلاش کریں');
+define('_AM_GROUPSMAIN','مرکزی گروپس');
 
-define('_AM_ADMINNO', 'ویب ماسٹر گروپ میں کم از کم ایک رکن کا ہونا ضروری ہے');
+define('_AM_ADMINNO','ویب ماسٹر گروپ میں کم از کم ایک رکن کا ہونا ضروری ہے');
 
 // Custom block, suggested by trabis
 define("_AM_CUSTOMBLOCK","مرضی کے تختے");

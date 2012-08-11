@@ -23,16 +23,16 @@
 
 setlocale(LC_ALL, 'gl_GL');
 
-// !!IMPORTANT!! insert '\' before any char among reserved chars: "a", "A", "B", "c", "d", "D", "F", "g", "G", "h", "H", "i", "I", "j", "l", "L", "m", "M", "n", "O", "r", "s", "S", "t", "T", "U", "w", "W", "Y", "y", "z", "Z"	
-// insert double '\' before 't', 'r', 'n'
-define("_TODAY", "\H\o\x\e G:i");
-define("_YESTERDAY", "\O\n\t\e G:i");
-define("_MONTHDAY", "j/n G:i");
-define("_YEARMONTHDAY", "j/n/Y G:i");
+// !!IMPORTANT!! insert '\' before any char among reserved chars: "a","A","B","c","d","D","F","g","G","h","H","i","I","j","l","L","m","M","n","O","r","s","S","t","T","U","w","W","Y","y","z","Z"	
+// insert double '\' before 't','r','n'
+define("_TODAY","\H\o\x\e G:i");
+define("_YESTERDAY","\O\n\t\e G:i");
+define("_MONTHDAY","j/n G:i");
+define("_YEARMONTHDAY","j/n/Y G:i");
 
-define("_ELAPSE", "Fai %s");
+define("_ELAPSE","Fai %s");
 
-define("_TIMEFORMAT_DESC", "Formatos v·lidos: \"s\" - "._SHORTDATESTRING."; \"m\" - "._MEDIUMDATESTRING."; \"l\" - "._DATESTRING.";<br />".
+define("_TIMEFORMAT_DESC","Formatos v√°lidos: \"s\" - "._SHORTDATESTRING."; \"m\" - "._MEDIUMDATESTRING."; \"l\" - "._DATESTRING.";<br />".
 							"\"c\" or \"persoalizado\" - formato determinado do intervalo a actualidade; \"e\" - Elapsed; \"mysql\" - Y-m-d H:i:s;<br />".
                             "cadea espeficicada - Referida a <a href=\"http://php.net/manual/en/function.date.php\" rel=\"externa\">PHP manual</a>."
 							);
@@ -42,7 +42,7 @@ class XoopsLocal extends XoopsLocalAbstract
 	
 	function number_format($number)
 	{
-    	return number_format($number, 2, '.', ',');
+    	return number_format($number, 2, '.',',');
 	}
 	
 	function money_format($format, $number)

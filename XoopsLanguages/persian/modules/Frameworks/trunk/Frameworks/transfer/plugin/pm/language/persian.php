@@ -13,6 +13,6 @@
  * @package		Frameworks::transfer
  */
  
-define("_MD_TRANSFER_PM", "پیام شخصی");
-define("_MD_TRANSFER_PM_DESC", "یک پیام شخصی به نویسنده این پست ارسال کن");
+define("_MD_TRANSFER_PM","پیام شخصی");
+define("_MD_TRANSFER_PM_DESC","یک پیام شخصی به نویسنده این پست ارسال کن");
 ?>

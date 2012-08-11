@@ -16,8 +16,8 @@ define("_SR_PREVIOUS","<< 上一页");
 define("_SR_KEYWORDS","关键字");
 define("_SR_TYPE","类型");
 define("_SR_SEARCHIN","搜索范围");
-define('_SR_KEYTOOSHORT', '关键字不能少于 <strong>%s</strong> 字符。');
-define('_SR_KEYIGNORE', '关键字少于 <strong>%s</strong> 个字符将会被忽略。');
-define('_SR_SEARCHRULE', '搜索规则');
-define('_SR_IGNOREDWORDS', '下列关键字太短（不能少于%u个字符），所以没有搜索这个关键字。');
+define('_SR_KEYTOOSHORT','关键字不能少于 <strong>%s</strong> 字符。');
+define('_SR_KEYIGNORE','关键字少于 <strong>%s</strong> 个字符将会被忽略。');
+define('_SR_SEARCHRULE','搜索规则');
+define('_SR_IGNOREDWORDS','下列关键字太短（不能少于%u个字符），所以没有搜索这个关键字。');
 ?>

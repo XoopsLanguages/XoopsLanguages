@@ -1,5 +1,5 @@
 <?php
-// polish lang ver. 0.3 alpha by Stanis³aw Wolanin, admin@polfran.pl 
+// polish lang ver. 0.3 alpha by StanisÂ³aw Wolanin, admin@polfran.pl 
 // $Id: modinfo.php,v 1.1 2007/02/10 18:55:29 dap997 Exp $
 //  ------------------------------------------------------------------------ //
 //                    xcGallery - XOOPS Gallery Modul                        //
@@ -9,7 +9,7 @@
 //  ------------------------------------------------------------------------ //
 //  Based on Coppermine Photo Gallery 1.10                                   //
 //  (http://coppermine.sourceforge.net/)                                     //
-//  developed by Grégory DEMAR                                               //
+//  developed by GrÃ©gory DEMAR                                               //
 //  ------------------------------------------------------------------------ //
 //  This program is free software; you can redistribute it and/or modify     //
 //  it under the terms of the GNU General Public License as published by     //
@@ -31,72 +31,72 @@
 //  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 USA //
 //  ------------------------------------------------------------------------ //
 define("_MI_XCGAL_NAME","xcGallery");
-define("_MI_XCGAL_ADMENU1", "Admin overview");
-define("_MI_XCGAL_ADMENU2", "Kategorie");
-define("_MI_XCGAL_ADMENU3", "U¿ytkownicy");
-define("_MI_XCGAL_ADMENU4", "Grupy");
-define("_MI_XCGAL_ADMENU5", "E-kartki");
-define("_MI_XCGAL_ADMENU6", "Wsadowe dodanie plików");
+define("_MI_XCGAL_ADMENU1","Admin overview");
+define("_MI_XCGAL_ADMENU2","Kategorie");
+define("_MI_XCGAL_ADMENU3","UÂ¿ytkownicy");
+define("_MI_XCGAL_ADMENU4","Grupy");
+define("_MI_XCGAL_ADMENU5","E-kartki");
+define("_MI_XCGAL_ADMENU6","Wsadowe dodanie plikÃ³w");
 
 define("_MI_XCGAL_SCROLL","Miniatury przewijane");
 define("_MI_XCGAL_CATMENU","xcGallery Kategorie");
 define("_MI_XCGAL_STATIC","Miniatury statyczne");
 define("_MI_XCGAL_METAALB","Meta Albums");
 
-define("_MI_ANONSEE", "Pozwoliæ go¶ciom na obejrzenie plików?");
-define("_MI_SUBCAT_LEVEL", "Widok albumów: Ilo¶æ kategorii do wy¶wietlenia");
-define("_MI_ALB_PER_PAGE", "Widok albumów: Ilo¶æ albumów do wy¶wietlenia");
-define("_MI_ALB_LIST_COLS", "Widok albumów: Ilo¶æ kolumn w li¶cie albumów");
-define("_MI_ALB_THUMB_SIZE", "Widok albumów: Rozmiar miniatur w pikselach");
-define("_MI_MAIN_LAYOUT", "Widok albumów: Zawarto¶æ strony g³ównej modu³u");
-define("_MI_THUMBCOLS", "Widok miniatur: Ilo¶æ kolumn na stronie miniatur");
-define("_MI_THUMBROWS", "Widok miniatur: Ilo¶æ wierszy na stronie miniatur");
-define("_MI_MAX_TABS", "Widok miniatur: Maksymalna ilo¶æ pasków do wy¶wietlenia");
-define("_MI_TEXT_THUMBVIEW", "Widok miniatur: Wy¶wietl opis pliku (oprócz tytu³u) poni¿ej miniatury");
-define("_MI_COM_COUNT", "Widok miniatur: Wy¶wietl ilo¶æ komentarzy poni¿ej miniatury");
-define("_MI_DEF_SORT", "Widok miniatur: Domy¶lny porz±dek sortowania plików");
-define("_MI_SORT_NA", "Nazwa rosn±co");
-define("_MI_SORT_ND", "Nazwa malej±co");
-define("_MI_SORT_DA", "Data rosn±co");
-define("_MI_SORT_DD", "Data malej±co");
-define("_MI_MIN_VOTES", "Widok miniatur: Minimalna ilo¶æ g³osów niezbêdna do umieszczenia pliku w kategorii 'Top Lista'");
-define("_MI_DIS_PICINFO", "Przegl±danie obrazów: Domy¶lne pokazywanie informacji o pliku");
-define("_MI_JPG_QUAL", "Ustawienia plików i miniatur: Jako¶æ plików JPEG");
-define("_MI_THUMB_WIDTH", "Ustawienia plików i miniatur: Maksymalny rozmiar miniatury *");
-define("_MI_MAKE_INTERM", "Ustawienia plików i miniatur: Twórz zdjêcia po¶redniej wielko¶ci");
-define("_MI_PICTURE_WIDTH", "Ustawienia plików i miniatur: Maksymalna wielko¶æ po¶redniego zdjêcia *");
-define("_MI_MAX_UPL_SIZE", "Ustawienia plików i miniatur: Maksymalny rozmiar przesy³anych plików (KB)");
-define("_MI_MAX_UPL_WIDTH", "Ustawienia plików i miniatur: Maksymana wysoko¶æ lub szeroko¶æ przesy³anych zdjêæ (w pikselach)");
-define("_MI_ALLOW_PRIVATE", "Ustawienia u¿ytkowników: U¿ytkownicy mog± tworzyæ albumy prywatne");
-define("_MI_UF_NAME1", "Nazwa 1 dodatkowego póla do opisu pliku (pozostaw puste, je¿eli nie u¿ywane)");
-define("_MI_UF_NAME2", "Nazwa 2 dodatkowego póla do opisu pliku (pozostaw puste, je¿eli nie u¿ywane)");
-define("_MI_UF_NAME3", "Nazwa 3 dodatkowego póla do opisu pliku (pozostaw puste, je¿eli nie u¿ywane)");
-define("_MI_UF_NAME4", "Nazwa 4 dodatkowego póla do opisu pliku (pozostaw puste, je¿eli nie u¿ywane)");
-define("_MI_FORB_FNAME", "Znaki zakazane w nazwach plików");
-define("_MI_FILE_EXT", "Akceptowalne typy plików");
-define("_MI_THUMB_METHOD", "Metoda skalowania obrazów");
-define("_MI_IMPATH", "¦cie¿ka dostêpu do oprogramowania \'konwertuj±cego\' ImageMagick (example /usr/bin/X11/)");
-define("_MI_ALLOW_IMG_TYPES", "Dozwolone pliki (w³a¶ciwe dla ImageMagick)");
-define("_MI_IM_OPTIONS", "Komendy linii poleceñ dla ImageMagick");
-define("_MI_READ_EXIF", "Czytaj dane EXIF w plikach JPEG (wymagane w php rozszerzenie exif");
-define("_MI_FULLPATH", "Katalog albumów *");
-define("_MI_USERPICS", "Nazwa katalogu na pliki u¿ytkowników *");
-define("_MI_NORMAL_PFX", "Prefix dla zdjêæ po¶rednich *");
-define("_MI_THUMB_PFX", "Prefix dla miniatur *");
-define("_MI_DIR_MODE", "Domy¶lne uprawnienia katalogów");
-define("_MI_PIC_MODE", "Domy¶lne uprawnienia plików");
-define("_MI_COOKIE_NAME", "Nazwa plików cookie tworzonych przez skrypt");
-define("_MI_COOKIE_PATH", "¦cie¿ka plików cookie tworzonych przez skrypt");
-define("_MI_DEBUG_MODE", "W³±cz tryb debugowania");
-define("_MI_ECRAD_SEE_MORE", "Adres docelowy w linku 'Zobacz wiêcej zdjêæ' wysy³anym z e-kartkami");
-define("_MI_ECRAD_TYPE", "Wybierz typ e-kartki");
-define("_MI_TEXT_CARD", "Tekstowe");
-define("_MI_HTML_CARD", "Html");
-define("_MI_ECRAD_PER_HOUR", "Ilo¶æ e-kartek, jak± mo¿na wys³aæ w ci±gu godziny");
-define("_MI_ECRAD_SAVE", "Jak d³ugo pamiêtaæ e-kartki (dni)");
+define("_MI_ANONSEE","PozwoliÃ¦ goÂ¶ciom na obejrzenie plikÃ³w?");
+define("_MI_SUBCAT_LEVEL","Widok albumÃ³w: IloÂ¶Ã¦ kategorii do wyÂ¶wietlenia");
+define("_MI_ALB_PER_PAGE","Widok albumÃ³w: IloÂ¶Ã¦ albumÃ³w do wyÂ¶wietlenia");
+define("_MI_ALB_LIST_COLS","Widok albumÃ³w: IloÂ¶Ã¦ kolumn w liÂ¶cie albumÃ³w");
+define("_MI_ALB_THUMB_SIZE","Widok albumÃ³w: Rozmiar miniatur w pikselach");
+define("_MI_MAIN_LAYOUT","Widok albumÃ³w: ZawartoÂ¶Ã¦ strony gÂ³Ã³wnej moduÂ³u");
+define("_MI_THUMBCOLS","Widok miniatur: IloÂ¶Ã¦ kolumn na stronie miniatur");
+define("_MI_THUMBROWS","Widok miniatur: IloÂ¶Ã¦ wierszy na stronie miniatur");
+define("_MI_MAX_TABS","Widok miniatur: Maksymalna iloÂ¶Ã¦ paskÃ³w do wyÂ¶wietlenia");
+define("_MI_TEXT_THUMBVIEW","Widok miniatur: WyÂ¶wietl opis pliku (oprÃ³cz tytuÂ³u) poniÂ¿ej miniatury");
+define("_MI_COM_COUNT","Widok miniatur: WyÂ¶wietl iloÂ¶Ã¦ komentarzy poniÂ¿ej miniatury");
+define("_MI_DEF_SORT","Widok miniatur: DomyÂ¶lny porzÂ±dek sortowania plikÃ³w");
+define("_MI_SORT_NA","Nazwa rosnÂ±co");
+define("_MI_SORT_ND","Nazwa malejÂ±co");
+define("_MI_SORT_DA","Data rosnÂ±co");
+define("_MI_SORT_DD","Data malejÂ±co");
+define("_MI_MIN_VOTES","Widok miniatur: Minimalna iloÂ¶Ã¦ gÂ³osÃ³w niezbÃªdna do umieszczenia pliku w kategorii 'Top Lista'");
+define("_MI_DIS_PICINFO","PrzeglÂ±danie obrazÃ³w: DomyÂ¶lne pokazywanie informacji o pliku");
+define("_MI_JPG_QUAL","Ustawienia plikÃ³w i miniatur: JakoÂ¶Ã¦ plikÃ³w JPEG");
+define("_MI_THUMB_WIDTH","Ustawienia plikÃ³w i miniatur: Maksymalny rozmiar miniatury *");
+define("_MI_MAKE_INTERM","Ustawienia plikÃ³w i miniatur: TwÃ³rz zdjÃªcia poÂ¶redniej wielkoÂ¶ci");
+define("_MI_PICTURE_WIDTH","Ustawienia plikÃ³w i miniatur: Maksymalna wielkoÂ¶Ã¦ poÂ¶redniego zdjÃªcia *");
+define("_MI_MAX_UPL_SIZE","Ustawienia plikÃ³w i miniatur: Maksymalny rozmiar przesyÂ³anych plikÃ³w (KB)");
+define("_MI_MAX_UPL_WIDTH","Ustawienia plikÃ³w i miniatur: Maksymana wysokoÂ¶Ã¦ lub szerokoÂ¶Ã¦ przesyÂ³anych zdjÃªÃ¦ (w pikselach)");
+define("_MI_ALLOW_PRIVATE","Ustawienia uÂ¿ytkownikÃ³w: UÂ¿ytkownicy mogÂ± tworzyÃ¦ albumy prywatne");
+define("_MI_UF_NAME1","Nazwa 1 dodatkowego pÃ³la do opisu pliku (pozostaw puste, jeÂ¿eli nie uÂ¿ywane)");
+define("_MI_UF_NAME2","Nazwa 2 dodatkowego pÃ³la do opisu pliku (pozostaw puste, jeÂ¿eli nie uÂ¿ywane)");
+define("_MI_UF_NAME3","Nazwa 3 dodatkowego pÃ³la do opisu pliku (pozostaw puste, jeÂ¿eli nie uÂ¿ywane)");
+define("_MI_UF_NAME4","Nazwa 4 dodatkowego pÃ³la do opisu pliku (pozostaw puste, jeÂ¿eli nie uÂ¿ywane)");
+define("_MI_FORB_FNAME","Znaki zakazane w nazwach plikÃ³w");
+define("_MI_FILE_EXT","Akceptowalne typy plikÃ³w");
+define("_MI_THUMB_METHOD","Metoda skalowania obrazÃ³w");
+define("_MI_IMPATH","Â¦cieÂ¿ka dostÃªpu do oprogramowania \'konwertujÂ±cego\' ImageMagick (example /usr/bin/X11/)");
+define("_MI_ALLOW_IMG_TYPES","Dozwolone pliki (wÂ³aÂ¶ciwe dla ImageMagick)");
+define("_MI_IM_OPTIONS","Komendy linii poleceÃ± dla ImageMagick");
+define("_MI_READ_EXIF","Czytaj dane EXIF w plikach JPEG (wymagane w php rozszerzenie exif");
+define("_MI_FULLPATH","Katalog albumÃ³w *");
+define("_MI_USERPICS","Nazwa katalogu na pliki uÂ¿ytkownikÃ³w *");
+define("_MI_NORMAL_PFX","Prefix dla zdjÃªÃ¦ poÂ¶rednich *");
+define("_MI_THUMB_PFX","Prefix dla miniatur *");
+define("_MI_DIR_MODE","DomyÂ¶lne uprawnienia katalogÃ³w");
+define("_MI_PIC_MODE","DomyÂ¶lne uprawnienia plikÃ³w");
+define("_MI_COOKIE_NAME","Nazwa plikÃ³w cookie tworzonych przez skrypt");
+define("_MI_COOKIE_PATH","Â¦cieÂ¿ka plikÃ³w cookie tworzonych przez skrypt");
+define("_MI_DEBUG_MODE","WÂ³Â±cz tryb debugowania");
+define("_MI_ECRAD_SEE_MORE","Adres docelowy w linku 'Zobacz wiÃªcej zdjÃªÃ¦' wysyÂ³anym z e-kartkami");
+define("_MI_ECRAD_TYPE","Wybierz typ e-kartki");
+define("_MI_TEXT_CARD","Tekstowe");
+define("_MI_HTML_CARD","Html");
+define("_MI_ECRAD_PER_HOUR","IloÂ¶Ã¦ e-kartek, jakÂ± moÂ¿na wysÂ³aÃ¦ w ciÂ±gu godziny");
+define("_MI_ECRAD_SAVE","Jak dÂ³ugo pamiÃªtaÃ¦ e-kartki (dni)");
 define("_MI_ECRAD_TEXT","Tekst e-kartki");
 define("_MI_ECRAD_TEXTDESC","(for text ecards and as alternative text for html ecards)<br /><b>Useful Tags</b><br />{X_SITEURL} will print ".XOOPS_URL."<br />{X_SITENAME} will print ".$xoopsConfig['sitename']."<br />{R_NAME} will print recipient name<br />{R_MAIL} will print recipient email<br />{S_NAME} will print sender name<br />{S_MAIL} will print sender email<br />{SAVE_DAYS} will print number of day an ecard is saved in db<br />{CARD_LINK} will print the ecard pick-up url");
 define("_MI_ECRAD_TEXT_VALUE","Dear {R_NAME},\n\n{S_NAME}({S_MAIL}) has sent an ecard for you.\nPlease, pick it up at {CARD_LINK}).\nYour ecard will be saved {SAVE_DAYS} days in our database.\n\nregards\n{X_SITENAME} team ({X_SITEURL})");
-define("_MI_KEEP_VOTES", "jak d³ugo pamiêtaæ g³osy(dni) (0 je¶ci bez limitu");
-define("_MI_SEARCH_THUMB", "Wy¶wietlaæ miniatury w stronach wyszukiwania i informacyjnych?");
+define("_MI_KEEP_VOTES","jak dÂ³ugo pamiÃªtaÃ¦ gÂ³osy(dni) (0 jeÂ¶ci bez limitu");
+define("_MI_SEARCH_THUMB","WyÂ¶wietlaÃ¦ miniatury w stronach wyszukiwania i informacyjnych?");
 ?>

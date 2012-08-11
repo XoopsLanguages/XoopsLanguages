@@ -37,8 +37,8 @@ define("_PM_DATE","Dato");
 define("_PM_NOTREAD","ikke lest");
 define("_PM_SEND","Send");
 define("_PM_DELETE","Slett");
-define("_PM_REPLY", "Besvar");
+define("_PM_REPLY","Besvar");
 define("_PM_PLZREG","Du må være registrert for å sende private meldinger!");
 
-define("_PM_ONLINE", "Pålogget");
+define("_PM_ONLINE","Pålogget");
 ?>

@@ -14,7 +14,7 @@ define("_AD_NICKNAME","Ψευδώνυμο");
 define("_AD_EMAIL","Email");
 define("_AD_AVATAR","Εικονίδιο");
 define("_AD_REGISTERED","Εγγεγραμμένος από"); //Registered Date
-define('_AD_PRESSGEN', 'Αυτή είναι η πρώτη φορά που κάνετε χρήση του τομέα διαχείρισης. Κάντε click στο κουμπί για να προχωρήσετε.');
-define('_AD_LOGINADMIN', 'Πραγματοποιείται η σύνδεση σας...');
+define('_AD_PRESSGEN','Αυτή είναι η πρώτη φορά που κάνετε χρήση του τομέα διαχείρισης. Κάντε click στο κουμπί για να προχωρήσετε.');
+define('_AD_LOGINADMIN','Πραγματοποιείται η σύνδεση σας...');
 
 ?>

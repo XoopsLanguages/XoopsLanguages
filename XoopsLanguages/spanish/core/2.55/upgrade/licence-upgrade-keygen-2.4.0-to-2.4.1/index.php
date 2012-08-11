@@ -113,7 +113,7 @@ class licence_upgrade_path extends xoopsUpgrade
 		$checksums = array(1 => 'md5', 2 => 'sha1');
 
 		// Remember to upgrade versions string with each release there after.
-		$versions = array('XOOPS 2.4.0', 'XOOPS 2.4.1');
+		$versions = array('XOOPS 2.4.0','XOOPS 2.4.1');
 		
 		error_reporting(E_ALL);
 		foreach($checksums as $funcid => $func) {
@@ -214,7 +214,7 @@ class licence_upgrade_path extends xoopsUpgrade
                 }
             }
         }
-        $ret = str_replace('--', '-', $ret);
+        $ret = str_replace('--','-', $ret);
         if (substr($ret, 0, 1) == '-') {
             $ret = substr($ret, 2, strlen($ret));
         }

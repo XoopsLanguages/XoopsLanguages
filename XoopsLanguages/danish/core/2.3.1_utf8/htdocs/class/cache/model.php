@@ -90,7 +90,7 @@ class XoopsCacheModel extends XoopsCacheEngine
     function init($settings)
     {
         parent::init($settings);
-        $defaults = array('fields' => array('data', 'expires'));
+        $defaults = array('fields' => array('data','expires'));
         $this->settings = array_merge($defaults, $this->settings);
         $this->fields = $this->settings['fields'];
         $this->model = new XoopsCacheModelHandler($GLOBALS["xoopsDB"]);

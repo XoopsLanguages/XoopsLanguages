@@ -25,7 +25,7 @@
 //  ------------------------------------------------------------------------ //
 
 define('_AM_USERPAGE_STATS'," %u صفحه در سایت وجود دارد");
-define("_AM_USERPAGE_GENERALSET", "گزینه های ماژول" );
+define("_AM_USERPAGE_GENERALSET","گزینه های ماژول" );
 define("_AM_USERPAGE_GOTOMOD","برو به ماژول");
 define("_AM_USERPAGE_MODULEADMIN","مدیریت ماژول");
 ?>

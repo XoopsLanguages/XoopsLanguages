@@ -13,7 +13,7 @@
  *
  * Assocated with editor_registry.php
  */
-define("_XOOPS_EDITOR_FCKEDITOR", "FCK Editor");
+define("_XOOPS_EDITOR_FCKEDITOR","FCK Editor");
 define("_XOOPS_EDITOR_FCKEDITOR_FONTLIST",'Arial;Comic Sans MS;Courier New;Tahoma;Times New Roman;Verdana');
-define("_XOOPS_EDITOR_FCKEDITOR_LANGUAGE", "de");
+define("_XOOPS_EDITOR_FCKEDITOR_LANGUAGE","de");
 ?>

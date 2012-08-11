@@ -8,7 +8,7 @@ define("_AM_NEWBB_REORDERFORUM","Переупорядочивание");
 define("_AM_NEWBB_FORUM_MANAGER","Форумы");
 define("_AM_NEWBB_PRUNE_TITLE","Быстрое редактирование");
 define("_AM_NEWBB_CATADMIN","Категории");
-define("_AM_NEWBB_GENERALSET", "Основные настройки" );
+define("_AM_NEWBB_GENERALSET","Основные настройки" );
 define("_AM_NEWBB_MODULEADMIN","Администрирование модуля:");
 define("_AM_NEWBB_HELP","Помощь");
 define("_AM_NEWBB_ABOUT","Описание");
@@ -94,8 +94,8 @@ define("_AM_NEWBB_EDITTHISFORUM","Редактирование форума:");
 define("_AM_NEWBB_SET_FORUMORDER","Вес форума:");
 define("_AM_NEWBB_ALLOWPOLLS","Разрешить опросы:");
 define("_AM_NEWBB_ATTACHMENT_SIZE" ,"Макс. размер в кб:");
-define("_AM_NEWBB_ALLOWED_EXTENSIONS", "Допустимые расширения:<span style='font-size: xx-small; font-weight: normal; display: block;'>'*' - без ограничений.<br> Через '|'</span>");
-define("_AM_NEWBB_ALLOW_ATTACHMENTS", "Разрешить вложения:");
+define("_AM_NEWBB_ALLOWED_EXTENSIONS","Допустимые расширения:<span style='font-size: xx-small; font-weight: normal; display: block;'>'*' - без ограничений.<br> Через '|'</span>");
+define("_AM_NEWBB_ALLOW_ATTACHMENTS","Разрешить вложения:");
 define("_AM_NEWBB_ALLOWHTML","Разрешить HTML:");
 define("_AM_NEWBB_YES","Да");
 define("_AM_NEWBB_NO","Нет");
@@ -108,8 +108,8 @@ define("_AM_NEWBB_HOTTOPICTHRESHOLD","Сообщений, чтоб стать п
 //define("_AM_NEWBB_SHOWSMILIESPANEL","Показывать панель смайлов:");
 define("_AM_NEWBB_MODERATOR_REMOVE","Удаление модераторов");
 define("_AM_NEWBB_MODERATOR_ADD","Добавление модераторов");
-define("_AM_NEWBB_ALLOW_SUBJECT_PREFIX", "Разрешить префиксы в теме");
-define("_AM_NEWBB_ALLOW_SUBJECT_PREFIX_DESC", "Разрешает добавлять префиксы в тему");
+define("_AM_NEWBB_ALLOW_SUBJECT_PREFIX","Разрешить префиксы в теме");
+define("_AM_NEWBB_ALLOW_SUBJECT_PREFIX_DESC","Разрешает добавлять префиксы в тему");
 
 // admin_cat_manager.php
 
@@ -194,48 +194,48 @@ define("_AM_NEWBB_PERM_SETBYGROUP","разрешения Набора непос
 
 // admin_forum_prune.php
 
-define ("_AM_NEWBB_PRUNE_RESULTS_TITLE","Результаты быстрого редактирования");
-define ("_AM_NEWBB_PRUNE_RESULTS_TOPICS","Темы");
-define ("_AM_NEWBB_PRUNE_RESULTS_POSTS","Сообщения");
-define ("_AM_NEWBB_PRUNE_RESULTS_FORUMS","Форумы");
-define ("_AM_NEWBB_PRUNE_STORE","Сохранить сообщения в этом форуме, вместо удаления");
-define ("_AM_NEWBB_PRUNE_ARCHIVE","Сделать копии сообщений в архив");
-define ("_AM_NEWBB_PRUNE_FORUMSELERROR","Вы забыли выбрать форумы для быстрого редактирования");
+define("_AM_NEWBB_PRUNE_RESULTS_TITLE","Результаты быстрого редактирования");
+define("_AM_NEWBB_PRUNE_RESULTS_TOPICS","Темы");
+define("_AM_NEWBB_PRUNE_RESULTS_POSTS","Сообщения");
+define("_AM_NEWBB_PRUNE_RESULTS_FORUMS","Форумы");
+define("_AM_NEWBB_PRUNE_STORE","Сохранить сообщения в этом форуме, вместо удаления");
+define("_AM_NEWBB_PRUNE_ARCHIVE","Сделать копии сообщений в архив");
+define("_AM_NEWBB_PRUNE_FORUMSELERROR","Вы забыли выбрать форумы для быстрого редактирования");
 
-define ("_AM_NEWBB_PRUNE_DAYS","Удалить темы без ответа в течение:");
-define ("_AM_NEWBB_PRUNE_FORUMS","Редактируемые форумы");
-define ("_AM_NEWBB_PRUNE_STICKY","Сохранить прикреплённые темы");
-define ("_AM_NEWBB_PRUNE_DIGEST","Сохранить темы-дайджесты");
-define ("_AM_NEWBB_PRUNE_LOCK","Сохранить закрытые темы");
-define ("_AM_NEWBB_PRUNE_HOT","Сохранить темы с количеством ответом больше чем");
-define ("_AM_NEWBB_PRUNE_SUBMIT","Ok");
-define ("_AM_NEWBB_PRUNE_RESET","Очистить");
-define ("_AM_NEWBB_PRUNE_YES","Да");
-define ("_AM_NEWBB_PRUNE_NO","Нет");
-define ("_AM_NEWBB_PRUNE_WEEK","недели");
-define ("_AM_NEWBB_PRUNE_2WEEKS","двух недель");
-define ("_AM_NEWBB_PRUNE_MONTH","месяца");
-define ("_AM_NEWBB_PRUNE_2MONTH","двух месяцев");
-define ("_AM_NEWBB_PRUNE_4MONTH","четырёх месяцев");
-define ("_AM_NEWBB_PRUNE_YEAR","года");
-define ("_AM_NEWBB_PRUNE_2YEARS","двух лет");
+define("_AM_NEWBB_PRUNE_DAYS","Удалить темы без ответа в течение:");
+define("_AM_NEWBB_PRUNE_FORUMS","Редактируемые форумы");
+define("_AM_NEWBB_PRUNE_STICKY","Сохранить прикреплённые темы");
+define("_AM_NEWBB_PRUNE_DIGEST","Сохранить темы-дайджесты");
+define("_AM_NEWBB_PRUNE_LOCK","Сохранить закрытые темы");
+define("_AM_NEWBB_PRUNE_HOT","Сохранить темы с количеством ответом больше чем");
+define("_AM_NEWBB_PRUNE_SUBMIT","Ok");
+define("_AM_NEWBB_PRUNE_RESET","Очистить");
+define("_AM_NEWBB_PRUNE_YES","Да");
+define("_AM_NEWBB_PRUNE_NO","Нет");
+define("_AM_NEWBB_PRUNE_WEEK","недели");
+define("_AM_NEWBB_PRUNE_2WEEKS","двух недель");
+define("_AM_NEWBB_PRUNE_MONTH","месяца");
+define("_AM_NEWBB_PRUNE_2MONTH","двух месяцев");
+define("_AM_NEWBB_PRUNE_4MONTH","четырёх месяцев");
+define("_AM_NEWBB_PRUNE_YEAR","года");
+define("_AM_NEWBB_PRUNE_2YEARS","двух лет");
 
 // About.php constants
-define('_AM_NEWBB_AUTHOR_INFO', "Информация об авторе");
-define('_AM_NEWBB_AUTHOR_NAME', "Автор");
-define('_AM_NEWBB_AUTHOR_WEBSITE', "Сайт автора");
-define('_AM_NEWBB_AUTHOR_EMAIL', "email автора");
-define('_AM_NEWBB_AUTHOR_CREDITS', "Благодарности");
-define('_AM_NEWBB_MODULE_INFO', "Информация о разработке модуля");
-define('_AM_NEWBB_MODULE_STATUS', "Статус");
-define('_AM_NEWBB_MODULE_DEMO', "Демо-сайт");
-define('_AM_NEWBB_MODULE_SUPPORT', "Официальная поддержка");
-define('_AM_NEWBB_MODULE_BUG', "Рапорт о багах");
-define('_AM_NEWBB_MODULE_FEATURE', "Запрос новых функций");
-define('_AM_NEWBB_MODULE_DISCLAIMER', "Уведомление");
-define('_AM_NEWBB_AUTHOR_WORD', "Авторы по всему миру");
+define('_AM_NEWBB_AUTHOR_INFO',"Информация об авторе");
+define('_AM_NEWBB_AUTHOR_NAME',"Автор");
+define('_AM_NEWBB_AUTHOR_WEBSITE',"Сайт автора");
+define('_AM_NEWBB_AUTHOR_EMAIL',"email автора");
+define('_AM_NEWBB_AUTHOR_CREDITS',"Благодарности");
+define('_AM_NEWBB_MODULE_INFO',"Информация о разработке модуля");
+define('_AM_NEWBB_MODULE_STATUS',"Статус");
+define('_AM_NEWBB_MODULE_DEMO',"Демо-сайт");
+define('_AM_NEWBB_MODULE_SUPPORT',"Официальная поддержка");
+define('_AM_NEWBB_MODULE_BUG',"Рапорт о багах");
+define('_AM_NEWBB_MODULE_FEATURE',"Запрос новых функций");
+define('_AM_NEWBB_MODULE_DISCLAIMER',"Уведомление");
+define('_AM_NEWBB_AUTHOR_WORD',"Авторы по всему миру");
 define('_AM_NEWBB_BY','От');
-define('_AM_NEWBB_AUTHOR_WORD_EXTRA', "
+define('_AM_NEWBB_AUTHOR_WORD_EXTRA',"
 <br /><br />
 Chinese Forum supported by <a href='http://xoops.org.cn' target='_blank'>Xoops China Support Team</a>:<br />
 images:<br />
@@ -271,24 +271,24 @@ define("_AM_NEWBB_DIGESTADMIN","Управление дайджестами");
 define("_AM_NEWBB_DIGESTCONTENT","Содержание дайджеста");
 
 // admin_votedata.php
-define("_AM_NEWBB_VOTE_RATINGINFOMATION", "Информация по голосованиям");
-define("_AM_NEWBB_VOTE_TOTALVOTES", "Всего голосов: ");
-define("_AM_NEWBB_VOTE_REGUSERVOTES", "Голосов зарегистрированных пользователей: %s");
-define("_AM_NEWBB_VOTE_ANONUSERVOTES", "Голосов анонимных пользователей: %s");
-define("_AM_NEWBB_VOTE_USER", "Пользователь");
-define("_AM_NEWBB_VOTE_IP", "IP адрес");
-define("_AM_NEWBB_VOTE_USERAVG", "Средний рейтинг");
-define("_AM_NEWBB_VOTE_TOTALRATE", "Общий рейтинг");
-define("_AM_NEWBB_VOTE_DATE", "Отправлено");
-define("_AM_NEWBB_VOTE_RATING", "Рейтинг");
-define("_AM_NEWBB_VOTE_NOREGVOTES", "Нет голосов от зарегистрированных пользователей");
-define("_AM_NEWBB_VOTE_NOUNREGVOTES", "Нет голосов от анонимных пользователей");
-define("_AM_NEWBB_VOTEDELETED", "Данные голосования удалены.");
-define("_AM_NEWBB_VOTE_ID", "ID");
-define("_AM_NEWBB_VOTE_FILETITLE", "Заголовок темы");
-define("_AM_NEWBB_VOTE_DISPLAYVOTES", "Информация по голосованию");
-define("_AM_NEWBB_VOTE_NOVOTES", "Нет голосов пользователей");
-define("_AM_NEWBB_VOTE_DELETE", "Нет голосов пользователей");
-define("_AM_NEWBB_VOTE_DELETEDSC", "<b>Удаляет</b> выбранную информацию из БД.");
+define("_AM_NEWBB_VOTE_RATINGINFOMATION","Информация по голосованиям");
+define("_AM_NEWBB_VOTE_TOTALVOTES","Всего голосов: ");
+define("_AM_NEWBB_VOTE_REGUSERVOTES","Голосов зарегистрированных пользователей: %s");
+define("_AM_NEWBB_VOTE_ANONUSERVOTES","Голосов анонимных пользователей: %s");
+define("_AM_NEWBB_VOTE_USER","Пользователь");
+define("_AM_NEWBB_VOTE_IP","IP адрес");
+define("_AM_NEWBB_VOTE_USERAVG","Средний рейтинг");
+define("_AM_NEWBB_VOTE_TOTALRATE","Общий рейтинг");
+define("_AM_NEWBB_VOTE_DATE","Отправлено");
+define("_AM_NEWBB_VOTE_RATING","Рейтинг");
+define("_AM_NEWBB_VOTE_NOREGVOTES","Нет голосов от зарегистрированных пользователей");
+define("_AM_NEWBB_VOTE_NOUNREGVOTES","Нет голосов от анонимных пользователей");
+define("_AM_NEWBB_VOTEDELETED","Данные голосования удалены.");
+define("_AM_NEWBB_VOTE_ID","ID");
+define("_AM_NEWBB_VOTE_FILETITLE","Заголовок темы");
+define("_AM_NEWBB_VOTE_DISPLAYVOTES","Информация по голосованию");
+define("_AM_NEWBB_VOTE_NOVOTES","Нет голосов пользователей");
+define("_AM_NEWBB_VOTE_DELETE","Нет голосов пользователей");
+define("_AM_NEWBB_VOTE_DELETEDSC","<b>Удаляет</b> выбранную информацию из БД.");
 
 ?>

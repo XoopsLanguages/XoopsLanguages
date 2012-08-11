@@ -51,24 +51,24 @@ define("_AM_RUSUREDEL","Sei sicuro di voler eliminare il blocco <strong>%s</stro
 define("_AM_NAME","Descrizione");
 define("_AM_USEFULTAGS","Tag utili:");
 define("_AM_BLOCKTAG1","%s visualizzer&agrave; %s");
-define('_AM_SVISIBLEIN', 'Visibili in %s');
-define('_AM_TOPPAGE', 'Home Page');
-define('_AM_VISIBLEIN', 'Visibile in');
-define('_AM_ALLPAGES', 'Tutte le pagine');
-define('_AM_TOPONLY', 'Solo in Home Psge');
-define('_AM_ADVANCED', 'Impostazioni avanzate');
-define('_AM_BCACHETIME', 'Durata Cache');
-define('_AM_BALIAS', 'Pseudonimo');
-define('_AM_CLONE', 'Clona');  // Clona un blocco
-define('_AM_CLONEBLK', 'Clonato'); // Blocco clonato
-define('_AM_CLONEBLOCK', 'Clona un blocco');
-define('_AM_NOTSELNG', "'%s' non &egrave; selezionato!"); // messaggio di errore
-define('_AM_EDITTPL', 'Modifica Template');
-define('_AM_MODULE', 'Modulo');
-define('_AM_GROUP', 'Gruppo');
-define('_AM_UNASSIGNED', 'Non assegnato');
+define('_AM_SVISIBLEIN','Visibili in %s');
+define('_AM_TOPPAGE','Home Page');
+define('_AM_VISIBLEIN','Visibile in');
+define('_AM_ALLPAGES','Tutte le pagine');
+define('_AM_TOPONLY','Solo in Home Psge');
+define('_AM_ADVANCED','Impostazioni avanzate');
+define('_AM_BCACHETIME','Durata Cache');
+define('_AM_BALIAS','Pseudonimo');
+define('_AM_CLONE','Clona');  // Clona un blocco
+define('_AM_CLONEBLK','Clonato'); // Blocco clonato
+define('_AM_CLONEBLOCK','Clona un blocco');
+define('_AM_NOTSELNG',"'%s' non &egrave; selezionato!"); // messaggio di errore
+define('_AM_EDITTPL','Modifica Template');
+define('_AM_MODULE','Modulo');
+define('_AM_GROUP','Gruppo');
+define('_AM_UNASSIGNED','Non assegnato');
 
 define("_AM_CUSTOM","Personalizzati");
-define('_AM_GENERATOR', 'Modulo\Tipo %s');
-define('_AM_TYPES', 'Tutti');
+define('_AM_GENERATOR','Modulo\Tipo %s');
+define('_AM_TYPES','Tutti');
 ?>

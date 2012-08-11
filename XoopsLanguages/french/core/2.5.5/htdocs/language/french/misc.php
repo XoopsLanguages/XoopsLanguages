@@ -23,9 +23,9 @@ define("_MSC_CLICKASMILIE","Cliquez sur un émoticône pour l'insérer dans votr
 define("_MSC_CODE","Code");
 define("_MSC_EMOTION","Emotion");
 
-define("_MSC_CLICK_TO_OPEN_IMAGE", "Cliquez pour afficher l'image originale dans une nouvelle fenêtre");
-define("_MSC_RESIZED_IMAGE", "Image redimensionnée");
-define("_MSC_ORIGINAL_IMAGE", "Image originale");
+define("_MSC_CLICK_TO_OPEN_IMAGE","Cliquez pour afficher l'image originale dans une nouvelle fenêtre");
+define("_MSC_RESIZED_IMAGE","Image redimensionnée");
+define("_MSC_ORIGINAL_IMAGE","Image originale");
 
 /**  
  * Traductions frxoops, kris

@@ -62,7 +62,7 @@ define("_AM_DEBASER_TRACK","Track:");
 define("_AM_DEBASER_GENRE","Kategorie:");
 define("_AM_DEBASER_LENGTH","Länge:");
 define("_AM_DEBASER_WEIGHT","Gewichtung:");
-define("_AM_DEBASER_WEIGHT_DSC", "Falls die 'Sortiert nach Gewichtung'-Option in den Voreinstellungen aktiviert ist, werden die Dateien nach ihrer Gewichtung sortiert auf der Indexseite angezeigt.");
+define("_AM_DEBASER_WEIGHT_DSC","Falls die 'Sortiert nach Gewichtung'-Option in den Voreinstellungen aktiviert ist, werden die Dateien nach ihrer Gewichtung sortiert auf der Indexseite angezeigt.");
 
 //language defines for amplaymanage.html
 define("_AM_DEBASER_NEWPLAYADD","Neuer Player hinzugefügt");
@@ -208,6 +208,6 @@ define("_AM_DEBASER_PERM_FPERMISSIONS","Datei-Berechtigungen");
 define("_AM_DEBASER_PERM_FNOFILES","Berechtigungen konnten nicht festgelegt werden, da noch keine Dateien vorhanden sind!");
 define("_AM_DEBASER_PERM_FSELECTPERMISSIONS","Auswahl der Dateien die jede Gruppe sehen darf");
 
-define("_AM_DEBASER_FCATEGORY_CIMAGE", "Kategoriebild auswählen:");
-define("_AM_DEBASER_FCATEGORY_GROUPPROMPT", "Kategoriezugriffsberechtigungen:");
+define("_AM_DEBASER_FCATEGORY_CIMAGE","Kategoriebild auswählen:");
+define("_AM_DEBASER_FCATEGORY_GROUPPROMPT","Kategoriezugriffsberechtigungen:");
 ?>

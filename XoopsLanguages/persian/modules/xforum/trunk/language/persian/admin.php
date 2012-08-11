@@ -8,7 +8,7 @@ define("_AM_XFORUM_REORDERFORUM","مرتب سازی دوباره");
 define("_AM_XFORUM_FORUM_MANAGER","انجمن‌ها");
 define("_AM_XFORUM_PRUNE_TITLE","هرس کردن");
 define("_AM_XFORUM_CATADMIN","شاخه‌ها");
-define("_AM_XFORUM_GENERALSET", "تنظیمات ماژول" );
+define("_AM_XFORUM_GENERALSET","تنظیمات ماژول" );
 define("_AM_XFORUM_MODULEADMIN","مدیریت ماژول:");
 define("_AM_XFORUM_HELP","کمک");
 define("_AM_XFORUM_ABOUT","درباره");
@@ -94,8 +94,8 @@ define("_AM_XFORUM_EDITTHISFORUM","ویرایش انجمن:");
 define("_AM_XFORUM_SET_FORUMORDER","تنظیم محل قرارگیری انجمن:");
 define("_AM_XFORUM_ALLOWPOLLS","اجازه‌دادن نظرسنجی‌ها:");
 define("_AM_XFORUM_ATTACHMENT_SIZE" ,"حداکثر سایز ممکن بر حسب KB:");
-define("_AM_XFORUM_ALLOWED_EXTENSIONS", "پسوند های مجاز:<span style='font-size: xx-small; font-weight: normal; display: block;'>'*' یعنی بدون محدودیت. برای جدا کردن از نشان '|' استفاده کنید.</span>");
-//define("_AM_XFORUM_ALLOW_ATTACHMENTS", "اجازه دادن پیوست:");
+define("_AM_XFORUM_ALLOWED_EXTENSIONS","پسوند های مجاز:<span style='font-size: xx-small; font-weight: normal; display: block;'>'*' یعنی بدون محدودیت. برای جدا کردن از نشان '|' استفاده کنید.</span>");
+//define("_AM_XFORUM_ALLOW_ATTACHMENTS","اجازه دادن پیوست:");
 define("_AM_XFORUM_ALLOWHTML","اجازه دادن استفاده از HTML:");
 define("_AM_XFORUM_YES","بله");
 define("_AM_XFORUM_NO","خیر");
@@ -108,8 +108,8 @@ define("_AM_XFORUM_HOTTOPICTHRESHOLD","تعداد عنوان های مهم:");
 //define("_AM_XFORUM_SHOWSMILIESPANEL","نمایش پنل Smiley ها:");
 define("_AM_XFORUM_MODERATOR_REMOVE","حذف ناظر های کنونی");
 define("_AM_XFORUM_MODERATOR_ADD","اظافه کردن ناظر");
-define("_AM_XFORUM_ALLOW_SUBJECT_PREFIX", "اجازه استفاده از پیشوند برای عنوان ها در این انجمن");
-define("_AM_XFORUM_ALLOW_SUBJECT_PREFIX_DESC", "این به کاربران اجازه می دهد پیوندی مناسب با موضوع عنوان به عنوان های این انجمن اضافه کنند");
+define("_AM_XFORUM_ALLOW_SUBJECT_PREFIX","اجازه استفاده از پیشوند برای عنوان ها در این انجمن");
+define("_AM_XFORUM_ALLOW_SUBJECT_PREFIX_DESC","این به کاربران اجازه می دهد پیوندی مناسب با موضوع عنوان به عنوان های این انجمن اضافه کنند");
 
 
 // admin_cat_manager.php
@@ -194,48 +194,48 @@ define("_AM_XFORUM_PERM_SETBYGROUP","اعمال دسترسی برای گروه �
 
 // admin_forum_prune.php
 
-define ("_AM_XFORUM_PRUNE_RESULTS_TITLE","نتیجه‌ی هرس‌کردن");
-define ("_AM_XFORUM_PRUNE_RESULTS_TOPICS","تاپیک‌ های هرس شده");
-define ("_AM_XFORUM_PRUNE_RESULTS_POSTS","پست‌های هرس شده");
-define ("_AM_XFORUM_PRUNE_RESULTS_FORUMS","انجمن‌های هرس شده");
-define ("_AM_XFORUM_PRUNE_STORE","به جای حذف کردن آن در این انجمن قرارشان بده:");
-define ("_AM_XFORUM_PRUNE_ARCHIVE","یک کپی از پست‌ها در آرشیو نگه دار");
-define ("_AM_XFORUM_PRUNE_FORUMSELERROR","شما فراموش کرده‌اید که انجمنی را برای هرس انتخاب کنید.");
+define("_AM_XFORUM_PRUNE_RESULTS_TITLE","نتیجه‌ی هرس‌کردن");
+define("_AM_XFORUM_PRUNE_RESULTS_TOPICS","تاپیک‌ های هرس شده");
+define("_AM_XFORUM_PRUNE_RESULTS_POSTS","پست‌های هرس شده");
+define("_AM_XFORUM_PRUNE_RESULTS_FORUMS","انجمن‌های هرس شده");
+define("_AM_XFORUM_PRUNE_STORE","به جای حذف کردن آن در این انجمن قرارشان بده:");
+define("_AM_XFORUM_PRUNE_ARCHIVE","یک کپی از پست‌ها در آرشیو نگه دار");
+define("_AM_XFORUM_PRUNE_FORUMSELERROR","شما فراموش کرده‌اید که انجمنی را برای هرس انتخاب کنید.");
 
-define ("_AM_XFORUM_PRUNE_DAYS","پاک کردن تاپیک بدون پاسخ در :");
-define ("_AM_XFORUM_PRUNE_FORUMS","انجمن‌هایی که هرس می‌شوند:");
-define ("_AM_XFORUM_PRUNE_STICKY","تاپیک‌های مهم(Sticky) را حفظ کن.");
-define ("_AM_XFORUM_PRUNE_DIGEST","تاپیک های خلاصه را حفظ کن");
-define ("_AM_XFORUM_PRUNE_LOCK","تاپیک‌های قفل را حفظ کن");
-define ("_AM_XFORUM_PRUNE_HOT","تاپیک‌هایی که بیشتر از این پاسخ‌ها را دارند نگه دار");
-define ("_AM_XFORUM_PRUNE_SUBMIT","تایید");
-define ("_AM_XFORUM_PRUNE_RESET","تنظیم دوباره");
-define ("_AM_XFORUM_PRUNE_YES","بله");
-define ("_AM_XFORUM_PRUNE_NO","نه");
-define ("_AM_XFORUM_PRUNE_WEEK","یک هفته");
-define ("_AM_XFORUM_PRUNE_2WEEKS","دو هفته");
-define ("_AM_XFORUM_PRUNE_MONTH","یک ماه");
-define ("_AM_XFORUM_PRUNE_2MONTH","دو ماه");
-define ("_AM_XFORUM_PRUNE_4MONTH","چهار ماه");
-define ("_AM_XFORUM_PRUNE_YEAR","یک سال");
-define ("_AM_XFORUM_PRUNE_2YEARS","دو سال");
+define("_AM_XFORUM_PRUNE_DAYS","پاک کردن تاپیک بدون پاسخ در :");
+define("_AM_XFORUM_PRUNE_FORUMS","انجمن‌هایی که هرس می‌شوند:");
+define("_AM_XFORUM_PRUNE_STICKY","تاپیک‌های مهم(Sticky) را حفظ کن.");
+define("_AM_XFORUM_PRUNE_DIGEST","تاپیک های خلاصه را حفظ کن");
+define("_AM_XFORUM_PRUNE_LOCK","تاپیک‌های قفل را حفظ کن");
+define("_AM_XFORUM_PRUNE_HOT","تاپیک‌هایی که بیشتر از این پاسخ‌ها را دارند نگه دار");
+define("_AM_XFORUM_PRUNE_SUBMIT","تایید");
+define("_AM_XFORUM_PRUNE_RESET","تنظیم دوباره");
+define("_AM_XFORUM_PRUNE_YES","بله");
+define("_AM_XFORUM_PRUNE_NO","نه");
+define("_AM_XFORUM_PRUNE_WEEK","یک هفته");
+define("_AM_XFORUM_PRUNE_2WEEKS","دو هفته");
+define("_AM_XFORUM_PRUNE_MONTH","یک ماه");
+define("_AM_XFORUM_PRUNE_2MONTH","دو ماه");
+define("_AM_XFORUM_PRUNE_4MONTH","چهار ماه");
+define("_AM_XFORUM_PRUNE_YEAR","یک سال");
+define("_AM_XFORUM_PRUNE_2YEARS","دو سال");
 
 // About.php constants
-define('_AM_XFORUM_AUTHOR_INFO', "اطلاعات نویسنده:");
-define('_AM_XFORUM_AUTHOR_NAME', "نویسنده:");
-define('_AM_XFORUM_AUTHOR_WEBSITE', "وب‌ سایت‌ نویسنده:");
-define('_AM_XFORUM_AUTHOR_EMAIL', "پست الکترونیکی نویسنده:");
-define('_AM_XFORUM_AUTHOR_CREDITS', "اعتبارات");
-define('_AM_XFORUM_MODULE_INFO', "اطلاعات سازندگان ماژول");
-define('_AM_XFORUM_MODULE_STATUS', "وضعیت");
-define('_AM_XFORUM_MODULE_DEMO', "سایت نمایشی");
-define('_AM_XFORUM_MODULE_SUPPORT', "سایت پشتیبان رسمی");
-define('_AM_XFORUM_MODULE_BUG', "گزارش دادن یک باگ برای این ماژول");
-define('_AM_XFORUM_MODULE_FEATURE', "امکانات جدیدی برای این ماژول پیشنهاد کنید.");
-define('_AM_XFORUM_MODULE_DISCLAIMER', "توضیحات");
-define('_AM_XFORUM_AUTHOR_WORD', "سخن موسس");
+define('_AM_XFORUM_AUTHOR_INFO',"اطلاعات نویسنده:");
+define('_AM_XFORUM_AUTHOR_NAME',"نویسنده:");
+define('_AM_XFORUM_AUTHOR_WEBSITE',"وب‌ سایت‌ نویسنده:");
+define('_AM_XFORUM_AUTHOR_EMAIL',"پست الکترونیکی نویسنده:");
+define('_AM_XFORUM_AUTHOR_CREDITS',"اعتبارات");
+define('_AM_XFORUM_MODULE_INFO',"اطلاعات سازندگان ماژول");
+define('_AM_XFORUM_MODULE_STATUS',"وضعیت");
+define('_AM_XFORUM_MODULE_DEMO',"سایت نمایشی");
+define('_AM_XFORUM_MODULE_SUPPORT',"سایت پشتیبان رسمی");
+define('_AM_XFORUM_MODULE_BUG',"گزارش دادن یک باگ برای این ماژول");
+define('_AM_XFORUM_MODULE_FEATURE',"امکانات جدیدی برای این ماژول پیشنهاد کنید.");
+define('_AM_XFORUM_MODULE_DISCLAIMER',"توضیحات");
+define('_AM_XFORUM_AUTHOR_WORD',"سخن موسس");
 define('_AM_XFORUM_BY','توسط');
-define('_AM_XFORUM_AUTHOR_WORD_EXTRA', "
+define('_AM_XFORUM_AUTHOR_WORD_EXTRA',"
 ");
 
 // admin_report.php
@@ -253,23 +253,23 @@ define("_AM_XFORUM_DIGESTADMIN","مدیریت خلاصه ها");
 define("_AM_XFORUM_DIGESTCONTENT","متن خلاصه ها");
 
 // admin_votedata.php
-define("_AM_XFORUM_VOTE_RATINGINFOMATION", "اطلاعات ارزش گذاری");
-define("_AM_XFORUM_VOTE_TOTALVOTES", "همه رای ها: ");
-define("_AM_XFORUM_VOTE_REGUSERVOTES", "رای های کاربران عضو: %s");
-define("_AM_XFORUM_VOTE_ANONUSERVOTES", "رای های کاربران مهمان: %s");
-define("_AM_XFORUM_VOTE_USER", "کاربر");
-define("_AM_XFORUM_VOTE_IP", "آدرس IP");
-define("_AM_XFORUM_VOTE_USERAVG", "متوسط ارزش گذاری کاربران");
-define("_AM_XFORUM_VOTE_TOTALRATE", "همه ارزش گذاری ها");
-define("_AM_XFORUM_VOTE_DATE", "ارسال شده ها");
-define("_AM_XFORUM_VOTE_RATING", "ارزش");
-define("_AM_XFORUM_VOTE_NOREGVOTES", "هیچ کاربر عضوی رای نداده است");
-define("_AM_XFORUM_VOTE_NOUNREGVOTES", "هیچ کاربر مهمانی رای نداده است");
-define("_AM_XFORUM_VOTEDELETED", "اطلاعات ارزش گذاری حذف شد.");
-define("_AM_XFORUM_VOTE_ID", "ID");
-define("_AM_XFORUM_VOTE_FILETITLE", "نام تاپیک");
-define("_AM_XFORUM_VOTE_DISPLAYVOTES", "اطلاعات ارزش گذاری");
-define("_AM_XFORUM_VOTE_NOVOTES", "هیچ رایی برای نشان دادن نیست");
-define("_AM_XFORUM_VOTE_DELETE", "هیچ رایی برای نشان دادن نیست");
-define("_AM_XFORUM_VOTE_DELETEDSC", "رای های انتخاب شده از دیتابیس <b>حذف شدند</b>");
+define("_AM_XFORUM_VOTE_RATINGINFOMATION","اطلاعات ارزش گذاری");
+define("_AM_XFORUM_VOTE_TOTALVOTES","همه رای ها: ");
+define("_AM_XFORUM_VOTE_REGUSERVOTES","رای های کاربران عضو: %s");
+define("_AM_XFORUM_VOTE_ANONUSERVOTES","رای های کاربران مهمان: %s");
+define("_AM_XFORUM_VOTE_USER","کاربر");
+define("_AM_XFORUM_VOTE_IP","آدرس IP");
+define("_AM_XFORUM_VOTE_USERAVG","متوسط ارزش گذاری کاربران");
+define("_AM_XFORUM_VOTE_TOTALRATE","همه ارزش گذاری ها");
+define("_AM_XFORUM_VOTE_DATE","ارسال شده ها");
+define("_AM_XFORUM_VOTE_RATING","ارزش");
+define("_AM_XFORUM_VOTE_NOREGVOTES","هیچ کاربر عضوی رای نداده است");
+define("_AM_XFORUM_VOTE_NOUNREGVOTES","هیچ کاربر مهمانی رای نداده است");
+define("_AM_XFORUM_VOTEDELETED","اطلاعات ارزش گذاری حذف شد.");
+define("_AM_XFORUM_VOTE_ID","ID");
+define("_AM_XFORUM_VOTE_FILETITLE","نام تاپیک");
+define("_AM_XFORUM_VOTE_DISPLAYVOTES","اطلاعات ارزش گذاری");
+define("_AM_XFORUM_VOTE_NOVOTES","هیچ رایی برای نشان دادن نیست");
+define("_AM_XFORUM_VOTE_DELETE","هیچ رایی برای نشان دادن نیست");
+define("_AM_XFORUM_VOTE_DELETEDSC","رای های انتخاب شده از دیتابیس <b>حذف شدند</b>");
 ?>

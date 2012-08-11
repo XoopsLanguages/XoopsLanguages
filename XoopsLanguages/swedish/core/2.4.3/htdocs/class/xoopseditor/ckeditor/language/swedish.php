@@ -13,6 +13,6 @@
 /*
  * Associated with editor_registry.php
  */
-define("_XOOPS_EDITOR_CKEDITOR", "CK Editor");
-define("_XOOPS_EDITOR_CKEDITOR_LANGUAGE", "sv");
+define("_XOOPS_EDITOR_CKEDITOR","CK Editor");
+define("_XOOPS_EDITOR_CKEDITOR_LANGUAGE","sv");
 ?>

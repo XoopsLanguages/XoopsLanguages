@@ -9,10 +9,10 @@
 define("_MI_WAITING_NAME","Waiting Contents Extensible");
 
 // A brief description of this module
-define("_MI_WAITING_DESC","Zeigt ein Block mit wartenden Übermittlungen.");
+define("_MI_WAITING_DESC","Zeigt ein Block mit wartenden ÃƒÅ“bermittlungen.");
 
 // Names of blocks for this module (Not all module has blocks)
-define("_MI_WAITING_BNAME1", "Waiting Contents Ext");
+define("_MI_WAITING_BNAME1","Waiting Contents Ext");
 
 
 ?>

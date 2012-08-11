@@ -21,8 +21,8 @@ define("_AM_PREVIOUS","Vorige");
 define("_AM_NEXT","Volgende");
 define("_AM_USERSFOUND","Er is / zijn %s  gebruikers gevonden.");
 
-define("_AM_ACTUS", "Actieve Gebruikers: %s");
-define("_AM_INACTUS", "Inactieve Gebruikers: %s");
+define("_AM_ACTUS","Actieve Gebruikers: %s");
+define("_AM_INACTUS","Inactieve Gebruikers: %s");
 define("_AM_NOFOUND","Geen gebuikers gevonden");
 define("_AM_UNAME","Gebruikersnaam");
 define("_AM_ICQ","ICQ");
@@ -46,16 +46,16 @@ define("_AM_POSTS","Aantal berichten");
 define("_AM_ASC","Oplopend");
 define("_AM_DESC","Aflopen");
 define("_AM_LIMIT","Het aantal gebruikers op een pagina");
-define("_AM_RESULTS", "Zoek resultaten");
-define("_AM_SHOWMAILOK", "Type gebruikers om te laten zien");
+define("_AM_RESULTS","Zoek resultaten");
+define("_AM_SHOWMAILOK","Type gebruikers om te laten zien");
 define("_AM_MAILOK","Alleen gebruikers die e-mail accepteren");
 define("_AM_MAILNG","Alleen gebruikers die geen e-mail accepteren");
-define("_AM_SHOWTYPE", "Type gebruikers om te laten zien");
+define("_AM_SHOWTYPE","Type gebruikers om te laten zien");
 define("_AM_ACTIVE","Alleen actieve gebruikers");
 define("_AM_INACTIVE","Alleem actieve gebruikers");
-define("_AM_BOTH", "Alle gebruikers");
-define("_AM_SENDMAIL", "Verstuur e-mail");
-define("_AM_ADD2GROUP", "De gebruikers toevoegen aan de %s groep");
+define("_AM_BOTH","Alle gebruikers");
+define("_AM_SENDMAIL","Verstuur e-mail");
+define("_AM_ADD2GROUP","De gebruikers toevoegen aan de %s groep");
 
-define("_AM_GROUPS", "Groepen");
+define("_AM_GROUPS","Groepen");
 ?>

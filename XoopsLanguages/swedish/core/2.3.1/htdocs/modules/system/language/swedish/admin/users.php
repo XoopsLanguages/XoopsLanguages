@@ -54,7 +54,7 @@ define("_AM_CNGTST","Kunde inte hämta totalt antal berättelser");
 define("_AM_CNUUSER","Kunde inte uppdatera användaren");
 define("_AM_CNGUSERID","Kunde inte hämta användar-ID:n");
 define("_AM_LIST","Lista");
-define("_AM_NOUSERS", "Inga användare valda");
+define("_AM_NOUSERS","Inga användare valda");
 
-define('_AM_CNRNU2', 'Den nya använder kunde inte lägges till gruppen: %s.');
+define('_AM_CNRNU2','Den nya använder kunde inte lägges till gruppen: %s.');
 ?>

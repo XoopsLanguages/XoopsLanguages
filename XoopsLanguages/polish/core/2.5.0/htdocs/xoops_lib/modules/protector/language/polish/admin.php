@@ -23,31 +23,31 @@ define("_AM_TH_AGENT","Przeglądarka");
 define("_AM_TH_TYPE","Typ");
 define("_AM_TH_DESCRIPTION","Szczegóły");
 
-define( "_AM_TH_BADIPS" , 'Zbanowane IP<br /><br /><span style="font-weight:normal;">Wpisz każde IP w osobnej linii.<br />Pozostaw puste aby wyłączyć blokowanie IP.</span>' ) ;
+define("_AM_TH_BADIPS" , 'Zbanowane IP<br /><br /><span style="font-weight:normal;">Wpisz każde IP w osobnej linii.<br />Pozostaw puste aby wyłączyć blokowanie IP.</span>' ) ;
 
-define( "_AM_TH_GROUP1IPS" , 'Dozwolone IP dla grupy=1<br /><br /><span style="font-weight:normal;">Wpisz każde IP w osobnej linii.<br />192.168. oznacza 192.168.*</span>' ) ;
+define("_AM_TH_GROUP1IPS" , 'Dozwolone IP dla grupy=1<br /><br /><span style="font-weight:normal;">Wpisz każde IP w osobnej linii.<br />192.168. oznacza 192.168.*</span>' ) ;
 
-define( "_AM_LABEL_COMPACTLOG" , "Compact log" ) ;
-define( "_AM_BUTTON_COMPACTLOG" , "Compact it!" ) ;
-define( "_AM_JS_COMPACTLOGCONFIRM" , "Duplicated (IP,Type) records will be removed" ) ;
-define( "_AM_LABEL_REMOVEALL" , "Remove all records" ) ;
-define( "_AM_BUTTON_REMOVEALL" , "Remove all!" ) ;
-define( "_AM_JS_REMOVEALLCONFIRM" , "All logs are removed absolutely. Are you really OK?" ) ;
-define( "_AM_LABEL_REMOVE" , "Usuń zaznaczone wpisy:" ) ;
-define( "_AM_BUTTON_REMOVE" , "Usuń!" ) ;
-define( "_AM_JS_REMOVECONFIRM" , "Na pewno?" ) ;
-define( "_AM_MSG_IPFILESUPDATED" , "Pliki z adresami IP zostały uaktualnione" ) ;
-define( "_AM_MSG_BADIPSCANTOPEN" , "Plik z zablokowanymi adresami IP nie może zostać odczytany" ) ;
-define( "_AM_MSG_GROUP1IPSCANTOPEN" , "Plik z adresami IP dla grupy=1 nie może zostać odczytany" ) ;
-define( "_AM_MSG_REMOVED" , "Zaznaczone wpisy zostały usunięte" ) ;
-define( "_AM_FMT_CONFIGSNOTWRITABLE" , "Nadaj prawa zapisu dla katalogu: %s" ) ;
+define("_AM_LABEL_COMPACTLOG" , "Compact log" ) ;
+define("_AM_BUTTON_COMPACTLOG" , "Compact it!" ) ;
+define("_AM_JS_COMPACTLOGCONFIRM" , "Duplicated (IP,Type) records will be removed" ) ;
+define("_AM_LABEL_REMOVEALL" , "Remove all records" ) ;
+define("_AM_BUTTON_REMOVEALL" , "Remove all!" ) ;
+define("_AM_JS_REMOVEALLCONFIRM" , "All logs are removed absolutely. Are you really OK?" ) ;
+define("_AM_LABEL_REMOVE" , "Usuń zaznaczone wpisy:" ) ;
+define("_AM_BUTTON_REMOVE" , "Usuń!" ) ;
+define("_AM_JS_REMOVECONFIRM" , "Na pewno?" ) ;
+define("_AM_MSG_IPFILESUPDATED" , "Pliki z adresami IP zostały uaktualnione" ) ;
+define("_AM_MSG_BADIPSCANTOPEN" , "Plik z zablokowanymi adresami IP nie może zostać odczytany" ) ;
+define("_AM_MSG_GROUP1IPSCANTOPEN" , "Plik z adresami IP dla grupy=1 nie może zostać odczytany" ) ;
+define("_AM_MSG_REMOVED" , "Zaznaczone wpisy zostały usunięte" ) ;
+define("_AM_FMT_CONFIGSNOTWRITABLE" , "Nadaj prawa zapisu dla katalogu: %s" ) ;
 
 
 // prefix_manager.php
-define( "_AM_H3_PREFIXMAN" , "Manager prefixu" ) ;
-define( "_AM_MSG_DBUPDATED" , "Baza danych została uaktualniona!" ) ;
-define( "_AM_CONFIRM_DELETE" , "Wszystkie dane zostaną zrzucone. OK?" ) ;
-define( "_AM_TXT_HOWTOCHANGEDB" , "Jeśli chcesz zmienić prefix w bazie,<br /> wyedytuj %s/mainfile.php za pomocą dowolnego edytora.<br /><br />define('XOOPS_DB_PREFIX', '<b>%s</b>');" ) ;
+define("_AM_H3_PREFIXMAN" , "Manager prefixu" ) ;
+define("_AM_MSG_DBUPDATED" , "Baza danych została uaktualniona!" ) ;
+define("_AM_CONFIRM_DELETE" , "Wszystkie dane zostaną zrzucone. OK?" ) ;
+define("_AM_TXT_HOWTOCHANGEDB" , "Jeśli chcesz zmienić prefix w bazie,<br /> wyedytuj %s/mainfile.php za pomocą dowolnego edytora.<br /><br />define('XOOPS_DB_PREFIX','<b>%s</b>');" ) ;
 
 
 // advisory.php

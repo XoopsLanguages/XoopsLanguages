@@ -25,34 +25,34 @@
 //  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 USA //
 //  ------------------------------------------------------------------------ //
 
-define('_MI_XPARTNERS_NAME', 'Partners');
-define('_MI_XPARTNERS_DESC', 'Toon de partnersites in een blok en module');
-define('_MI_XPARTNERS_ADMIN', 'Partners beheren');
-define('_MI_XPARTNERS_ADMIN_ADD', 'Partner toevoegen');
-define('_MI_XPARTNERS_ID', 'ID');
-define('_MI_XPARTNERS_HITS', 'Klikken');
-define('_MI_XPARTNERS_TITLE', 'Titel');
-define('_MI_XPARTNERS_WEIGHT', 'Gewicht');
-define('_MI_XPARTNERS_RECLICK', 'Reclick tijd:');
-define('_MI_XPARTNERS_IMAGES', 'Afbeeldingen');
-define('_MI_XPARTNERS_TEXT', 'Tekst Links');
-define('_MI_XPARTNERS_BOTH', 'Beide');
-define('_MI_XPARTNERS_MLIMIT', 'Beperk de hoofdpagina tot xx entries: (0 = geen limiet)');
-define('_MI_XPARTNERS_MLIMITDSC', '');
-define('_MI_XPARTNERS_MSHOW', 'Weergeven op hoofdpagina:');
-define('_MI_XPARTNERS_MSCHODSC', '');
-define('_MI_XPARTNERS_MORDER', 'Sorteer inhoud hoofpagina op:');
-define('_MI_XPARTNERS_MORDERDSC', '');
-define('_MI_XPARTNERS_HOUR', '1 uur');
-define('_MI_XPARTNERS_3HOURS', '3 uur');
-define('_MI_XPARTNERS_5HOURS', '5 uur');
-define('_MI_XPARTNERS_10HOURS', '10 uur');
-define('_MI_XPARTNERS_DAY', '1 dag');
+define('_MI_XPARTNERS_NAME','Partners');
+define('_MI_XPARTNERS_DESC','Toon de partnersites in een blok en module');
+define('_MI_XPARTNERS_ADMIN','Partners beheren');
+define('_MI_XPARTNERS_ADMIN_ADD','Partner toevoegen');
+define('_MI_XPARTNERS_ID','ID');
+define('_MI_XPARTNERS_HITS','Klikken');
+define('_MI_XPARTNERS_TITLE','Titel');
+define('_MI_XPARTNERS_WEIGHT','Gewicht');
+define('_MI_XPARTNERS_RECLICK','Reclick tijd:');
+define('_MI_XPARTNERS_IMAGES','Afbeeldingen');
+define('_MI_XPARTNERS_TEXT','Tekst Links');
+define('_MI_XPARTNERS_BOTH','Beide');
+define('_MI_XPARTNERS_MLIMIT','Beperk de hoofdpagina tot xx entries: (0 = geen limiet)');
+define('_MI_XPARTNERS_MLIMITDSC','');
+define('_MI_XPARTNERS_MSHOW','Weergeven op hoofdpagina:');
+define('_MI_XPARTNERS_MSCHODSC','');
+define('_MI_XPARTNERS_MORDER','Sorteer inhoud hoofpagina op:');
+define('_MI_XPARTNERS_MORDERDSC','');
+define('_MI_XPARTNERS_HOUR','1 uur');
+define('_MI_XPARTNERS_3HOURS','3 uur');
+define('_MI_XPARTNERS_5HOURS','5 uur');
+define('_MI_XPARTNERS_10HOURS','10 uur');
+define('_MI_XPARTNERS_DAY','1 dag');
 
 //1.11
 // index.php
-define('_MI_XPARTNERS_MENU_01', 'Home');
-define('_MI_XPARTNERS_ADMIN_ABOUT', 'Over');
-define('_MI_XPARTNERS_ADMIN_HELP', 'Hulp');
-define('_MI_XPARTNERS_ADMIN_MANAGE', 'Overzicht Partners');
-define('_MI_XPARTNERS_ADMIN_ADDP', 'Partner toevoegen');
+define('_MI_XPARTNERS_MENU_01','Home');
+define('_MI_XPARTNERS_ADMIN_ABOUT','Over');
+define('_MI_XPARTNERS_ADMIN_HELP','Hulp');
+define('_MI_XPARTNERS_ADMIN_MANAGE','Overzicht Partners');
+define('_MI_XPARTNERS_ADMIN_ADDP','Partner toevoegen');

@@ -1,32 +1,32 @@
 <?php // Xoops Galician
 // $Id: blocks.php,v 1.14 2003/03/27 18:06:47 w4z004 Exp $
 // Blocks
-define("_MB_SYSTEM_ADMENU","Administraci髇");
-define("_MB_SYSTEM_RNOW","<b>Rex韘trese</b> agora!");
+define("_MB_SYSTEM_ADMENU","Administraci贸n");
+define("_MB_SYSTEM_RNOW","<b>Rex铆strese</b> agora!");
 define("_MB_SYSTEM_LPASS","Recuperar contrasinal?");
 define("_MB_SYSTEM_SEARCH","Procurar");
 define("_MB_SYSTEM_ADVS","Procura Avanzada");
 define("_MB_SYSTEM_VACNT","Amosar conta");
 define("_MB_SYSTEM_EACNT","Editar conta");
 // RMV-NOTIFY
-define("_MB_SYSTEM_NOTIF", "Notificaci髇s");
+define("_MB_SYSTEM_NOTIF","Notificaci贸ns");
 define("_MB_SYSTEM_LOUT","Desconectarse");
 define("_MB_SYSTEM_INBOX","Bandexa de entrada");
 define("_MB_SYSTEM_SUBMS","Artigos enviados");
-define("_MB_SYSTEM_WLNKS","Ligaz髇s agardando");
-define("_MB_SYSTEM_BLNK","Ligaz髇s non v醠idas");
-define("_MB_SYSTEM_MLNKS","Ligaz髇s Modif.");
+define("_MB_SYSTEM_WLNKS","Ligaz贸ns agardando");
+define("_MB_SYSTEM_BLNK","Ligaz贸ns non v谩lidas");
+define("_MB_SYSTEM_MLNKS","Ligaz贸ns Modif.");
 define("_MB_SYSTEM_WDLS","Descargas agardando");
-define("_MB_SYSTEM_BFLS","Arquivos non v醠idos");
+define("_MB_SYSTEM_BFLS","Arquivos non v谩lidos");
 define("_MB_SYSTEM_MFLS","Descargas Modif.");
 define("_MB_SYSTEM_HOME","Comezo");
-define("_MB_SYSTEM_RECO","Recom閚denos");
+define("_MB_SYSTEM_RECO","Recom茅ndenos");
 define("_MB_SYSTEM_PWWIDTH","Ancho de fiestra emerxente");
 define("_MB_SYSTEM_PWHEIGHT","Alto de fiestra emerxente");
 define("_MB_SYSTEM_LOGO","Arquivo de imaxen do Logo no directorio %s");
-define("_MB_SYSTEM_COMPEND", "Comentarios");
+define("_MB_SYSTEM_COMPEND","Comentarios");
 
-define("_MB_SYSTEM_LOGGEDINAS", "Identificouse coma");
+define("_MB_SYSTEM_LOGGEDINAS","Identificouse coma");
 define("_MB_SYSTEM_SADMIN","Amosar grupos Admin");
 define("_MB_SYSTEM_SPMTO","Enviar mensaxe privada a %s");
 define("_MB_SYSTEM_SEMTO","Enviar correo a %s");
@@ -36,10 +36,10 @@ define("_MB_SYSTEM_DISPLAYA","Amosar avatares");
 define("_MB_SYSTEM_NODISPGR","Non amosar usuarios co rango:");
 
 define("_MB_SYSTEM_DISPLAYC","Amosar %s comentarios");
-define("_MB_SYSTEM_SECURE", "Login Seguro");
+define("_MB_SYSTEM_SECURE","Login Seguro");
 
-define("_MB_SYSTEM_NUMTHEME", "%s dese駉s");
-define("_MB_SYSTEM_THSHOW", "Amosar Captura de Pantalla");
-define("_MB_SYSTEM_THWIDTH", "Ancho da Captura");
-define('_MB_SYSTEM_REMEMBERME', 'Rec髍deme');
+define("_MB_SYSTEM_NUMTHEME","%s dese帽os");
+define("_MB_SYSTEM_THSHOW","Amosar Captura de Pantalla");
+define("_MB_SYSTEM_THWIDTH","Ancho da Captura");
+define('_MB_SYSTEM_REMEMBERME','Rec贸rdeme');
 ?>

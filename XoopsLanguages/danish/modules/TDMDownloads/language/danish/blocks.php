@@ -4,13 +4,13 @@
  *  - TDMDownloads By TDM   - TEAM DEV MODULE FOR XOOPS
  *  - GNU Licence Copyright (c)  (www.xoops.org)
  *
- * La licence GNU GPL, garanti à l'utilisateur les droits suivants
+ * La licence GNU GPL, garanti ï¿½ l'utilisateur les droits suivants
  *
- * 1. La liberté d'exécuter le logiciel, pour n'importe quel usage,
- * 2. La liberté de l' étudier et de l'adapter à ses besoins,
- * 3. La liberté de redistribuer des copies,
- * 4. La liberté d'améliorer et de rendre publiques les modifications afin
- * que l'ensemble de la communauté en bénéficie.
+ * 1. La libertï¿½ d'exï¿½cuter le logiciel, pour n'importe quel usage,
+ * 2. La libertï¿½ de l' ï¿½tudier et de l'adapter ï¿½ ses besoins,
+ * 3. La libertï¿½ de redistribuer des copies,
+ * 4. La libertï¿½ d'amï¿½liorer et de rendre publiques les modifications afin
+ * que l'ensemble de la communautï¿½ en bï¿½nï¿½ficie.
  *
  * @copyright   http://www.tdmxoops.net
  * @license     http://www.fsf.org/copyleft/gpl.html GNU public license
@@ -18,11 +18,11 @@
  *
  * ****************************************************************************
  */
-define("_MB_TDMDOWNLOADS_ALLCAT", "Alle kategorier");
-define("_MB_TDMDOWNLOADS_CATTODISPLAY", "VÃ¦lg viste kategorier");
-define("_MB_TDMDOWNLOADS_CHARS", "Titel lÃ¦ngde");
-define("_MB_TDMDOWNLOADS_DISP", "Vis");
-define("_MB_TDMDOWNLOADS_FILES", "Filer");
-define("_MB_TDMDOWNLOADS_LENGTH", "Tegn");
+define("_MB_TDMDOWNLOADS_ALLCAT","Alle kategorier");
+define("_MB_TDMDOWNLOADS_CATTODISPLAY","VÃ¦lg viste kategorier");
+define("_MB_TDMDOWNLOADS_CHARS","Titel lÃ¦ngde");
+define("_MB_TDMDOWNLOADS_DISP","Vis");
+define("_MB_TDMDOWNLOADS_FILES","Filer");
+define("_MB_TDMDOWNLOADS_LENGTH","Tegn");
 ?>
 <?php // Translation done by xtransam & anderssk - 2009-08-30 20:35 ?>

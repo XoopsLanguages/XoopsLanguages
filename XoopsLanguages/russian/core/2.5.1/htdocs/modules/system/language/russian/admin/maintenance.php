@@ -9,7 +9,7 @@
  */
 
 //Nav
-define("_AM_SYSTEM_MAINTENANCE_NAV_MANAGER", "Техническое обслуживание");
+define("_AM_SYSTEM_MAINTENANCE_NAV_MANAGER","Техническое обслуживание");
 define("_AM_SYSTEM_MAINTENANCE_NAV_LIST","Все виды обслуживания");
 define("_AM_SYSTEM_MAINTENANCE_NAV_DUMP","Дамп");
 
@@ -52,19 +52,19 @@ define("_AM_SYSTEM_MAINTENANCE_TABLES_ANALYZE","Проанализированн
 define("_AM_SYSTEM_MAINTENANCE_DUMP","Дамп");
 define("_AM_SYSTEM_MAINTENANCE_DUMP_TABLES_OR_MODULES","Выберите таблицы или модули");
 define("_AM_SYSTEM_MAINTENANCE_DUMP_DROP","Добавить команду DROP TABLE IF EXISTS 'tables' в дамп");
-define("_AM_SYSTEM_MAINTENANCE_DUMP_OR", "или");
-define("_AM_SYSTEM_MAINTENANCE_DUMP_AND", "и");
-define("_AM_SYSTEM_MAINTENANCE_DUMP_ERROR_TABLES_OR_MODULES", "Вы должны выбрать таблицы или модули");
-define("_AM_SYSTEM_MAINTENANCE_DUMP_NO_TABLES", "Нет таблиц");
-define("_AM_SYSTEM_MAINTENANCE_DUMP_TABLES", "Таблицы");
-define("_AM_SYSTEM_MAINTENANCE_DUMP_STRUCTURES", "Структуры");
-define("_AM_SYSTEM_MAINTENANCE_DUMP_NB_RECORDS", "Количество записей");
-define("_AM_SYSTEM_MAINTENANCE_DUMP_FILE_CREATED", "Файл создан");
-define("_AM_SYSTEM_MAINTENANCE_DUMP_RESULT", "Результат");
-define("_AM_SYSTEM_MAINTENANCE_DUMP_RECORDS", "запись(ей)");
+define("_AM_SYSTEM_MAINTENANCE_DUMP_OR","или");
+define("_AM_SYSTEM_MAINTENANCE_DUMP_AND","и");
+define("_AM_SYSTEM_MAINTENANCE_DUMP_ERROR_TABLES_OR_MODULES","Вы должны выбрать таблицы или модули");
+define("_AM_SYSTEM_MAINTENANCE_DUMP_NO_TABLES","Нет таблиц");
+define("_AM_SYSTEM_MAINTENANCE_DUMP_TABLES","Таблицы");
+define("_AM_SYSTEM_MAINTENANCE_DUMP_STRUCTURES","Структуры");
+define("_AM_SYSTEM_MAINTENANCE_DUMP_NB_RECORDS","Количество записей");
+define("_AM_SYSTEM_MAINTENANCE_DUMP_FILE_CREATED","Файл создан");
+define("_AM_SYSTEM_MAINTENANCE_DUMP_RESULT","Результат");
+define("_AM_SYSTEM_MAINTENANCE_DUMP_RECORDS","запись(ей)");
 
 // Tips
-define( "_AM_SYSTEM_MAINTENANCE_TIPS", 
+define("_AM_SYSTEM_MAINTENANCE_TIPS", 
 "<ul>
 <li>Вы можете сделать простое обслуживание системы XOOPS: очистить кэш и таблицу сессий, обслуживать таблицы базы данных</li>
 </ul>" );

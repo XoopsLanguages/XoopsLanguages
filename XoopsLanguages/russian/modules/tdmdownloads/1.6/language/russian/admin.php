@@ -62,15 +62,15 @@ define("_AM_TDMDOWNLOADS_PERMISSIONS_8","Изменять файлы");
 define("_AM_TDMDOWNLOADS_PERMISSIONS_16","Оценивать файлы");
 define("_AM_TDMDOWNLOADS_PERMISSIONS_32","Загружать файлы");
 define("_AM_TDMDOWNLOADS_PERMISSIONS_64","Автоодобрение файлов приложений");
-define("_AM_TDMDOWNLOADS_PERM_AUTRES", "Другие права");
-define("_AM_TDMDOWNLOADS_PERM_AUTRES_DSC", "Выберите группы, которые могут:");
-define("_AM_TDMDOWNLOADS_PERM_DOWNLOAD", "Разрешения загрузок");
-define("_AM_TDMDOWNLOADS_PERM_DOWNLOAD_DSC", "Выберите группы, которые могут загружать в категории");
-define("_AM_TDMDOWNLOADS_PERM_DOWNLOAD_DSC2", "Выберите группы, которые могут загружать файлы");
-define("_AM_TDMDOWNLOADS_PERM_SUBMIT", "Права на добавление");
-define("_AM_TDMDOWNLOADS_PERM_SUBMIT_DSC", "Выберите группы, которые могут добавлять файлы в категории");
-define("_AM_TDMDOWNLOADS_PERM_VIEW", "Права на просмотр");
-define("_AM_TDMDOWNLOADS_PERM_VIEW_DSC", "Выберите группы, которые могут просматривать файлы в категориях");
+define("_AM_TDMDOWNLOADS_PERM_AUTRES","Другие права");
+define("_AM_TDMDOWNLOADS_PERM_AUTRES_DSC","Выберите группы, которые могут:");
+define("_AM_TDMDOWNLOADS_PERM_DOWNLOAD","Разрешения загрузок");
+define("_AM_TDMDOWNLOADS_PERM_DOWNLOAD_DSC","Выберите группы, которые могут загружать в категории");
+define("_AM_TDMDOWNLOADS_PERM_DOWNLOAD_DSC2","Выберите группы, которые могут загружать файлы");
+define("_AM_TDMDOWNLOADS_PERM_SUBMIT","Права на добавление");
+define("_AM_TDMDOWNLOADS_PERM_SUBMIT_DSC","Выберите группы, которые могут добавлять файлы в категории");
+define("_AM_TDMDOWNLOADS_PERM_VIEW","Права на просмотр");
+define("_AM_TDMDOWNLOADS_PERM_VIEW_DSC","Выберите группы, которые могут просматривать файлы в категориях");
 
 // Import.php
 define("_AM_TDMDOWNLOADS_IMPORT1","Импорт");
@@ -133,7 +133,7 @@ define("_AM_TDMDOWNLOADS_FORMSIZE","Размер файла");
 define("_AM_TDMDOWNLOADS_FORMSTATUS","Состояние загрузки");
 define("_AM_TDMDOWNLOADS_FORMSTATUS_OK","Одобрено");
 define("_AM_TDMDOWNLOADS_FORMSUBMITTER","Сообщения");
-define("_AM_TDMDOWNLOADS_FORMSUREDEL", "Вы уверены, что хотите удалить : <b><span style='color : Red'> %s </span></b>");
+define("_AM_TDMDOWNLOADS_FORMSUREDEL","Вы уверены, что хотите удалить : <b><span style='color : Red'> %s </span></b>");
 define("_AM_TDMDOWNLOADS_FORMTEXT","Описание");
 define("_AM_TDMDOWNLOADS_FORMTEXTDOWNLOADS","Описание : <br><br>Используйте разделитель '<b>[pagebreak]</b>' для разделения анонса описания. <br> Анонс позволяет уменьшить размер текста на главной странице модуля в категориях.");
 define("_AM_TDMDOWNLOADS_FORMTITLE","Заголовок");
@@ -161,7 +161,7 @@ define("_AM_TDMDOWNLOADS_REDIRECT_NOCAT","Вы должны создать ка�
 define("_AM_TDMDOWNLOADS_REDIRECT_NODELFIELD","Вы не можете удалить эту область (Основная Область)");
 define("_AM_TDMDOWNLOADS_REDIRECT_SAVE","Файл сохранен");
 
-define('_AM_TDMDOWNLOADS_NOPERMSSET', "Разрешение не может быть установлено: Нет созданной категории! Пожалуйста, создайте Категорию.");
+define('_AM_TDMDOWNLOADS_NOPERMSSET',"Разрешение не может быть установлено: Нет созданной категории! Пожалуйста, создайте Категорию.");
 
 //Bytes sizes
 define('_AM_TDMDOWNLOADS_BYTES','байт');

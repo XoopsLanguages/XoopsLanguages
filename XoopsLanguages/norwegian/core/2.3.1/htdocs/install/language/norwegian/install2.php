@@ -12,7 +12,7 @@ define("_INSTALL_L165","Hjemmesiden er for øyeblikket lukket på grunn av vedli
 
 define("_INSTALL_ANON","Anonym");
 
-define("_INSTALL_DISCLMR", "Administratorerne og moderatorerne vil fjerne
+define("_INSTALL_DISCLMR","Administratorerne og moderatorerne vil fjerne
 materiale, som generelt må anses for å være
 anstøtende eller i konflikt med gjeldende 
 lovgivning, så snart de blir oppmerksom 

@@ -29,7 +29,7 @@
 // Translator: 2009/04/05 andrey3761
 
 define("_AM_ISEARCH_DBUPDATED","База данных успешно обновлена");
-define("_AM_ISEARCH_GENERALSET", "Настройки модуля" );
+define("_AM_ISEARCH_GENERALSET","Настройки модуля" );
 define("_AM_ISEARCH_GOTOMOD","Перейти к модулю");
 define("_AM_ISEARCH_MODULEADMIN","Администрирование модуля");
 define("_AM_ISEARCH_STATS","Статистика поиска (%d слов записанно)");
@@ -52,12 +52,12 @@ define("_AM_ISEARCH_PRUNE_DESC","If you don't enter a word the the script will p
 define("_AM_ISEARCH_PRUNE_CONFIRM","Do you confirm the deletion of %u elements ?");
 define("_AM_ISEARCH_NOTHING_PRUNE","Нечего удалять");
 define("_AM_ISEARCH_EXPORT","Экспорт");
-define('_AM_ISEARCH_EXPORT_BETWEEN', 'Экспортировать поиск, сделанный между ');
+define('_AM_ISEARCH_EXPORT_BETWEEN','Экспортировать поиск, сделанный между ');
 define('_AM_ISEARCH_EXPORT_AND'," и ");
 define("_AM_ISEARCH_DATE_FORMAT","Формат даты (в формате PHP)");
 define("_AM_ISEARCH_DELIMITER","Разделитель полей");
 define("_AM_ISEARCH_EXPORT_ERROR","Ошибка, не возможно создать файл экспорта %s");
-define('_AM_ISEARCH_EXPORT_READY', "Ваш экспортный файл доступен.<br /><a href='%s'>Нажмите здесь для загрузки</a>.<br />Не забывайте <a href='%s'>удалить</a> файл после закачки.");
+define('_AM_ISEARCH_EXPORT_READY',"Ваш экспортный файл доступен.<br /><a href='%s'>Нажмите здесь для загрузки</a>.<br />Не забывайте <a href='%s'>удалить</a> файл после закачки.");
 define('_AM_ISEARCH_DELETED_OK',"Файл успешно удалён");
 define('_AM_ISEARCH_DELETED_PB',"Ошибка, невозможно удалить файл");
 define("_AM_ISEARCH_NOTHING_TO_EXPORT","Нечего экспортировать!");

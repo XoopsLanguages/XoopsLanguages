@@ -25,7 +25,7 @@ defined('XOOPS_ROOT_PATH') or die('制限されたアクセス');
 // _LANGCODE: ja
 // _CHARSET : UTF-8
 // Translator: XOOPS Translation Team
-define('_XO_ER_FILENOTFOUND', '要求されたファイル: <b>%s</b> が見つかれなかった。');
-define('_XO_ER_CLASSNOTFOUND', '要求されたクラス %s が見つかれなかった。');
+define('_XO_ER_FILENOTFOUND','要求されたファイル: <b>%s</b> が見つかれなかった。');
+define('_XO_ER_CLASSNOTFOUND','要求されたクラス %s が見つかれなかった。');
 
 ?>

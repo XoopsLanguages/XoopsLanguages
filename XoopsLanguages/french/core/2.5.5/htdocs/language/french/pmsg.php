@@ -37,13 +37,13 @@ define("_PM_DATE","Date");
 define("_PM_NOTREAD","Non lu");
 define("_PM_SEND","Envoi");
 define("_PM_DELETE","Effacer");
-define("_PM_REPLY", "Répondre");
+define("_PM_REPLY","Répondre");
 define("_PM_PLZREG","Vous devez d'abord vous enregistrer pour pouvoir envoyer des messages privés !");
-define("_PM_ONLINE", "En ligne !");
+define("_PM_ONLINE","En ligne !");
 //XOOPS 2.5.2
 define('_PM_SURE_TO_DELETE',"Are you sure you want to delete these message(s)?");
 //XOOPS 2.5.5
-define('_PM_READ', 'Déjà lu');
+define('_PM_READ','Déjà lu');
 
 /**  
  * Traductions frxoops, kris

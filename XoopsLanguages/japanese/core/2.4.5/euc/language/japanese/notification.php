@@ -5,69 +5,69 @@
 // Translator: XOOPS Translation Team
 // RMV-NOTIFY
 // Text for various templates...
-define('_NOT_NOTIFICATIONOPTIONS', '¥¤¥Ù¥ó¥È¤ÎÁªÂò');
-define('_NOT_UPDATENOW', 'º£¤¹¤°¹¹¿·');
-define('_NOT_UPDATEOPTIONS', '¥¤¥Ù¥ó¥È¤Î¹¹¿·');
-define('_NOT_CLEAR', '¥¯¥ê¥¢');
-define('_NOT_CHECKALL', 'Á´ÁªÂò');
-define('_NOT_MODULE', '¥â¥¸¥å¡¼¥ë');
-define('_NOT_CATEGORY', '¥«¥Æ¥´¥ê');
-define('_NOT_ITEMID', 'ID');
-define('_NOT_ITEMNAME', 'Ì¾¾Î');
-define('_NOT_EVENT', '¥¤¥Ù¥ó¥È');
-define('_NOT_EVENTS', '¥¤¥Ù¥ó¥È');
-define('_NOT_ACTIVENOTIFICATIONS', 'Í­¸ú¤Ê¥¤¥Ù¥ó¥È');
-define('_NOT_NAMENOTAVAILABLE', 'Âê¤Ê¤·');
+define('_NOT_NOTIFICATIONOPTIONS','ï¿½ï¿½ï¿½Ù¥ï¿½È¤ï¿½ï¿½ï¿½ï¿½ï¿½');
+define('_NOT_UPDATENOW','ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½');
+define('_NOT_UPDATEOPTIONS','ï¿½ï¿½ï¿½Ù¥ï¿½È¤Î¹ï¿½ï¿½ï¿½');
+define('_NOT_CLEAR','ï¿½ï¿½ï¿½ê¥¢');
+define('_NOT_CHECKALL','ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½');
+define('_NOT_MODULE','ï¿½â¥¸ï¿½å¡¼ï¿½ï¿½');
+define('_NOT_CATEGORY','ï¿½ï¿½ï¿½Æ¥ï¿½ï¿½ï¿½');
+define('_NOT_ITEMID','ID');
+define('_NOT_ITEMNAME','Ì¾ï¿½ï¿½');
+define('_NOT_EVENT','ï¿½ï¿½ï¿½Ù¥ï¿½ï¿½');
+define('_NOT_EVENTS','ï¿½ï¿½ï¿½Ù¥ï¿½ï¿½');
+define('_NOT_ACTIVENOTIFICATIONS','Í­ï¿½ï¿½ï¿½Ê¥ï¿½ï¿½Ù¥ï¿½ï¿½');
+define('_NOT_NAMENOTAVAILABLE','ï¿½ï¿½Ê¤ï¿½');
 // RMV-NEW : TODO: remove NAMENOTAVAILBLE above
-define('_NOT_ITEMNAMENOTAVAILABLE', '¹àÌÜÌ¾¤¬Ìµ¸ú¤Ç¤¹');
-define('_NOT_ITEMTYPENOTAVAILABLE', '¹àÌÜ¥¿¥¤¥×¤¬Ìµ¸ú¤Ç¤¹');
-define('_NOT_ITEMURLNOTAVAILABLE', '¹àÌÜ URL ¤¬Ìµ¸ú¤Ç¤¹');
-define('_NOT_DELETINGNOTIFICATIONS', 'ÁªÂò¥¤¥Ù¥ó¥È¤Îºï½ü');
-define('_NOT_DELETESUCCESS', 'ÁªÂò¤µ¤ì¤¿¥¤¥Ù¥ó¥È¤òºï½ü¤·¤Þ¤·¤¿');
-define('_NOT_UPDATEOK', '¥¤¥Ù¥ó¥È¤ò¹¹¿·¤·¤Þ¤·¤¿');
-define('_NOT_NOTIFICATIONMETHODIS', 'ÄÌÃÎÊýË¡');
-define('_NOT_EMAIL', 'E-mail');
-define('_NOT_PM', '¥×¥é¥¤¥Ù¡¼¥È¥á¥Ã¥»¡¼¥¸');
-define('_NOT_DISABLE', 'Ìµ¸ú');
-define('_NOT_CHANGE', 'ÊÑ¹¹');
-define('_NOT_NOACCESS', '¤³¤Î¥Ú¡¼¥¸¤Ø¤Î¥¢¥¯¥»¥¹¸¢¸Â¤Ï¤¢¤ê¤Þ¤»¤ó¡£');
+define('_NOT_ITEMNAMENOTAVAILABLE','ï¿½ï¿½ï¿½ï¿½Ì¾ï¿½ï¿½Ìµï¿½ï¿½ï¿½Ç¤ï¿½');
+define('_NOT_ITEMTYPENOTAVAILABLE','ï¿½ï¿½ï¿½Ü¥ï¿½ï¿½ï¿½ï¿½×¤ï¿½Ìµï¿½ï¿½ï¿½Ç¤ï¿½');
+define('_NOT_ITEMURLNOTAVAILABLE','ï¿½ï¿½ï¿½ï¿½ URL ï¿½ï¿½Ìµï¿½ï¿½ï¿½Ç¤ï¿½');
+define('_NOT_DELETINGNOTIFICATIONS','ï¿½ï¿½ï¿½ò¥¤¥Ù¥ï¿½È¤Îºï¿½ï¿½');
+define('_NOT_DELETESUCCESS','ï¿½ï¿½ï¿½ò¤µ¤ì¤¿ï¿½ï¿½ï¿½Ù¥ï¿½È¤ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Þ¤ï¿½ï¿½ï¿½');
+define('_NOT_UPDATEOK','ï¿½ï¿½ï¿½Ù¥ï¿½È¤ò¹¹¿ï¿½ï¿½ï¿½ï¿½Þ¤ï¿½ï¿½ï¿½');
+define('_NOT_NOTIFICATIONMETHODIS','ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ë¡');
+define('_NOT_EMAIL','E-mail');
+define('_NOT_PM','ï¿½×¥é¥¤ï¿½Ù¡ï¿½ï¿½È¥ï¿½Ã¥ï¿½ï¿½ï¿½ï¿½ï¿½');
+define('_NOT_DISABLE','Ìµï¿½ï¿½');
+define('_NOT_CHANGE','ï¿½Ñ¹ï¿½');
+define('_NOT_NOACCESS','ï¿½ï¿½ï¿½Î¥Ú¡ï¿½ï¿½ï¿½ï¿½Ø¤Î¥ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â¤Ï¤ï¿½ï¿½ï¿½Þ¤ï¿½ï¿½ï¿½');
 // Text for module config options
-define('_NOT_ENABLE', 'Í­¸ú');
-define('_NOT_NOTIFICATION', '¥¤¥Ù¥ó¥ÈÄÌÃÎµ¡Ç½');
-define('_NOT_CONFIG_ENABLED', '¥¤¥Ù¥ó¥ÈÄÌÃÎµ¡Ç½¤ÎÀßÄê');
-define('_NOT_CONFIG_ENABLEDDSC', '¤³¤Î¥â¥¸¥å¡¼¥ë¤Ç¤Ï¡¢¤¢¤ëÆÃÄê¤Î¥¤¥Ù¥ó¥È¤¬È¯À¸¤·¤¿ºÝ¤Ë¡¢Åö³º¥¤¥Ù¥ó¥È¹ØÆÉ¼Ô¤ËÂÐ¤·ÄÌÃÎ¥á¥Ã¥»¡¼¥¸¤¬Á÷¤é¤ì¤ë¤è¤¦¤ËÀßÄê¤Ç¤­¤Þ¤¹¡£¤³¤Îµ¡Ç½¤òÍ­¸ú¤Ë¤¹¤ë¤Ë¤Ï¡Ö¤Ï¤¤¡×¤òÁªÂò¤·¤Æ¤¯¤À¤µ¤¤');
-define('_NOT_CONFIG_EVENTS', 'ÆÃÄê¥¤¥Ù¥ó¥È¤òÍ­¸ú¤Ë¤¹¤ë');
-define('_NOT_CONFIG_EVENTSDSC', '¥æ¡¼¥¶¡¼¤Ø¤¬ÁªÂò²ÄÇ½¤Ê¥¤¥Ù¥ó¥È¤òÀßÄê¤·¤Æ¤¯¤À¤µ¤¤');
-define('_NOT_CONFIG_ENABLE', '¤ªÃÎ¤é¤»µ¡Ç½ Í­¸ú');
-define('_NOT_CONFIG_ENABLEDSC', 'ÆÃÄê¤Î¥¤¥Ù¥ó¥È¤¬È¯À¸¤·¤¿»þ¡¢¥æ¡¼¥¶¡¼¤Ø¤ªÃÎ¤é¤»¤¹¤ë»ö¤¬¤Ç¤­¤Þ¤¹¡£ ¥æ¡¼¥¶¡¼¤Ë¤è¤ê¥Ö¥í¥Ã¥¯¤ËÉ½¼¨¤¹¤ë¤«¡¢¥á¥¤¥ó¥³¥ó¥Æ¥ó¥Ä²¼Éô¤ËÉ½¼¨¤¹¤ë¤«¡¢Î¾ÊýÍ­¸ú¤Ë¤¹¤ë¤«¤òÁª¤ó¤Ç²¼¤µ¤¤¡£');
-define('_NOT_CONFIG_DISABLE', '¤ªÃÎ¤é¤»µ¡Ç½ Ìµ¸ú');
-define('_NOT_CONFIG_ENABLEBLOCK', '¥¤¥Ù¥ó¥ÈÁªÂò¥ª¥×¥·¥ç¥ó¤ò¥Ö¥í¥Ã¥¯¤ËÉ½¼¨');
-define('_NOT_CONFIG_ENABLEINLINE', '¥¤¥Ù¥ó¥ÈÁªÂò¥ª¥×¥·¥ç¥ó¤ò¥á¥¤¥ó¥³¥ó¥Æ¥ó¥Ä²¼Éô¤ËÉ½¼¨');
-define('_NOT_CONFIG_ENABLEBOTH', '¥¤¥Ù¥ó¥ÈÁªÂò¥ª¥×¥·¥ç¥ó¤ò¥Ö¥í¥Ã¥¯¡¦¥á¥¤¥ó¥³¥ó¥Æ¥ó¥Ä²¼Éô¤ËÉ½¼¨');
+define('_NOT_ENABLE','Í­ï¿½ï¿½');
+define('_NOT_NOTIFICATION','ï¿½ï¿½ï¿½Ù¥ï¿½ï¿½ï¿½ï¿½ï¿½Îµï¿½Ç½');
+define('_NOT_CONFIG_ENABLED','ï¿½ï¿½ï¿½Ù¥ï¿½ï¿½ï¿½ï¿½ï¿½Îµï¿½Ç½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½');
+define('_NOT_CONFIG_ENABLEDDSC','ï¿½ï¿½ï¿½Î¥â¥¸ï¿½å¡¼ï¿½ï¿½Ç¤Ï¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î¥ï¿½ï¿½Ù¥ï¿½È¤ï¿½È¯ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ý¤Ë¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ù¥ï¿½È¹ï¿½ï¿½É¼Ô¤ï¿½ï¿½Ð¤ï¿½ï¿½ï¿½ï¿½Î¥ï¿½Ã¥ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½è¤¦ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç¤ï¿½ï¿½Þ¤ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Îµï¿½Ç½ï¿½ï¿½Í­ï¿½ï¿½ï¿½Ë¤ï¿½ï¿½ï¿½Ë¤Ï¡Ö¤Ï¤ï¿½ï¿½×¤ï¿½ï¿½ï¿½ï¿½ò¤·¤Æ¤ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½');
+define('_NOT_CONFIG_EVENTS','ï¿½ï¿½ï¿½ê¥¤ï¿½Ù¥ï¿½È¤ï¿½Í­ï¿½ï¿½ï¿½Ë¤ï¿½ï¿½ï¿½');
+define('_NOT_CONFIG_EVENTSDSC','ï¿½æ¡¼ï¿½ï¿½ï¿½ï¿½ï¿½Ø¤ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç½ï¿½Ê¥ï¿½ï¿½Ù¥ï¿½È¤ï¿½ï¿½ï¿½ï¿½ê¤·ï¿½Æ¤ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½');
+define('_NOT_CONFIG_ENABLE','ï¿½ï¿½ï¿½Î¤é¤»ï¿½ï¿½Ç½ Í­ï¿½ï¿½');
+define('_NOT_CONFIG_ENABLEDSC','ï¿½ï¿½ï¿½ï¿½Î¥ï¿½ï¿½Ù¥ï¿½È¤ï¿½È¯ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½æ¡¼ï¿½ï¿½ï¿½ï¿½ï¿½Ø¤ï¿½ï¿½Î¤é¤»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç¤ï¿½ï¿½Þ¤ï¿½ï¿½ï¿½ ï¿½æ¡¼ï¿½ï¿½ï¿½ï¿½ï¿½Ë¤ï¿½ï¿½Ö¥ï¿½Ã¥ï¿½ï¿½ï¿½É½ï¿½ï¿½ï¿½ï¿½ï¿½ë¤«ï¿½ï¿½ï¿½á¥¤ï¿½ó¥³¥ï¿½Æ¥ï¿½Ä²ï¿½ï¿½ï¿½ï¿½É½ï¿½ï¿½ï¿½ï¿½ï¿½ë¤«ï¿½ï¿½Î¾ï¿½ï¿½Í­ï¿½ï¿½ï¿½Ë¤ï¿½ï¿½ë¤«ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½');
+define('_NOT_CONFIG_DISABLE','ï¿½ï¿½ï¿½Î¤é¤»ï¿½ï¿½Ç½ Ìµï¿½ï¿½');
+define('_NOT_CONFIG_ENABLEBLOCK','ï¿½ï¿½ï¿½Ù¥ï¿½ï¿½ï¿½ï¿½ï¿½ò¥ª¥×¥ï¿½ï¿½ï¿½ï¿½ï¿½Ö¥ï¿½Ã¥ï¿½ï¿½ï¿½É½ï¿½ï¿½');
+define('_NOT_CONFIG_ENABLEINLINE','ï¿½ï¿½ï¿½Ù¥ï¿½ï¿½ï¿½ï¿½ï¿½ò¥ª¥×¥ï¿½ï¿½ï¿½ï¿½ï¿½á¥¤ï¿½ó¥³¥ï¿½Æ¥ï¿½Ä²ï¿½ï¿½ï¿½ï¿½É½ï¿½ï¿½');
+define('_NOT_CONFIG_ENABLEBOTH','ï¿½ï¿½ï¿½Ù¥ï¿½ï¿½ï¿½ï¿½ï¿½ò¥ª¥×¥ï¿½ï¿½ï¿½ï¿½ï¿½Ö¥ï¿½Ã¥ï¿½ï¿½ï¿½ï¿½á¥¤ï¿½ó¥³¥ï¿½Æ¥ï¿½Ä²ï¿½ï¿½ï¿½ï¿½É½ï¿½ï¿½');
 // For notification about comment events
-define('_NOT_COMMENT_NOTIFY', '¥³¥á¥ó¥È¤òÄÉ²Ã¤·¤Þ¤·¤¿');
-define('_NOT_COMMENT_NOTIFYCAP', '¿·¤¿¤Ê¥³¥á¥ó¥È¤¬ÄÉ²Ã¤µ¤ì¤¿ºÝ¤ËÄÌÃÎ');
-define('_NOT_COMMENT_NOTIFYDSC', '¿·¤·¤¤¥³¥á¥ó¥È¤¬ÄÉ²Ã¤µ¤ì¤¿»þ¤Ë¤Ï¾ï¤Ë¤ªÃÎ¤é¤»¤¹¤ë');
-define('_NOT_COMMENT_NOTIFYSBJ', '[{X_SITENAME}] {X_MODULE}: ¥³¥á¥ó¥ÈÄÉ²Ã {X_ITEM_TYPE} ');
-define('_NOT_COMMENTSUBMIT_NOTIFY', '¿·µ¬¥³¥á¥ó¥È¤ÎÅê¹Æ¤¬¤¢¤ê¤Þ¤·¤¿');
-define('_NOT_COMMENTSUBMIT_NOTIFYCAP', '¾µÇ§¤¬É¬Í×¤Ê¥³¥á¥ó¥È¤¬Åê¹Æ¤µ¤ì¤¿ºÝ¤ËÄÌÃÎ');
-define('_NOT_COMMENTSUBMIT_NOTIFYDSC', '¾µÇ§ÂÔ¤Á¤Î¥³¥á¥ó¥È¤¬Á÷¿®¤µ¤ì¤¿»þ¤Ï¾ï¤ËÄÌÃÎ');
-define('_NOT_COMMENTSUBMIT_NOTIFYSBJ', '[{X_SITENAME}] {X_MODULE}: ¥³¥á¥ó¥ÈÅê¹Æ {X_ITEM_TYPE}');
+define('_NOT_COMMENT_NOTIFY','ï¿½ï¿½ï¿½ï¿½ï¿½È¤ï¿½ï¿½É²Ã¤ï¿½ï¿½Þ¤ï¿½ï¿½ï¿½');
+define('_NOT_COMMENT_NOTIFYCAP','ï¿½ï¿½ï¿½ï¿½ï¿½Ê¥ï¿½ï¿½ï¿½ï¿½È¤ï¿½ï¿½É²Ã¤ï¿½ï¿½ì¤¿ï¿½Ý¤ï¿½ï¿½ï¿½ï¿½ï¿½');
+define('_NOT_COMMENT_NOTIFYDSC','ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È¤ï¿½ï¿½É²Ã¤ï¿½ï¿½ì¤¿ï¿½ï¿½ï¿½Ë¤Ï¾ï¿½Ë¤ï¿½ï¿½Î¤é¤»ï¿½ï¿½ï¿½ï¿½');
+define('_NOT_COMMENT_NOTIFYSBJ','[{X_SITENAME}] {X_MODULE}: ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É²ï¿½ {X_ITEM_TYPE} ');
+define('_NOT_COMMENTSUBMIT_NOTIFY','ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È¤ï¿½ï¿½ï¿½Æ¤ï¿½ï¿½ï¿½ï¿½ï¿½Þ¤ï¿½ï¿½ï¿½');
+define('_NOT_COMMENTSUBMIT_NOTIFYCAP','ï¿½ï¿½Ç§ï¿½ï¿½É¬ï¿½×¤Ê¥ï¿½ï¿½ï¿½ï¿½È¤ï¿½ï¿½ï¿½Æ¤ï¿½ï¿½ì¤¿ï¿½Ý¤ï¿½ï¿½ï¿½ï¿½ï¿½');
+define('_NOT_COMMENTSUBMIT_NOTIFYDSC','ï¿½ï¿½Ç§ï¿½Ô¤ï¿½ï¿½Î¥ï¿½ï¿½ï¿½ï¿½È¤ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ì¤¿ï¿½ï¿½ï¿½Ï¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½');
+define('_NOT_COMMENTSUBMIT_NOTIFYSBJ','[{X_SITENAME}] {X_MODULE}: ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ {X_ITEM_TYPE}');
 // For notification bookmark feature
 // (Not really notification, but easy to do with this module)
-define('_NOT_BOOKMARK_NOTIFY', '¥Ö¥Ã¥¯¥Þ¡¼¥¯');
-define('_NOT_BOOKMARK_NOTIFYCAP', '¤³¤Î¹àÌÜ¤ò¥Ö¥Ã¥¯¥Þ¡¼¥¯¤¹¤ë');
-define('_NOT_BOOKMARK_NOTIFYDSC', '¤³¤Î¹àÌÜ¤ò¥Ö¥Ã¥¯¥Þ¡¼¥¯¤·¤Þ¤¹¡£ÄÌÃÎ¥á¥Ã¥»¡¼¥¸¤ÏÁ÷¤é¤ì¤Þ¤»¤ó¡£');
+define('_NOT_BOOKMARK_NOTIFY','ï¿½Ö¥Ã¥ï¿½ï¿½Þ¡ï¿½ï¿½ï¿½');
+define('_NOT_BOOKMARK_NOTIFYCAP','ï¿½ï¿½ï¿½Î¹ï¿½ï¿½Ü¤ï¿½Ö¥Ã¥ï¿½ï¿½Þ¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½');
+define('_NOT_BOOKMARK_NOTIFYDSC','ï¿½ï¿½ï¿½Î¹ï¿½ï¿½Ü¤ï¿½Ö¥Ã¥ï¿½ï¿½Þ¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Þ¤ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î¥ï¿½Ã¥ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Þ¤ï¿½ï¿½ï¿½');
 // For user profile
 // FIXME: These should be reworded a little...
-define('_NOT_NOTIFYMETHOD', '¥¤¥Ù¥ó¥È¹¹¿·ÄÌÃÎ¥á¥Ã¥»¡¼¥¸¤Î¼õ¿®ÊýË¡');
-define('_NOT_METHOD_EMAIL', 'E-mail');
-define('_NOT_METHOD_PM', '¥×¥é¥¤¥Ù¡¼¥È¥á¥Ã¥»¡¼¥¸');
-define('_NOT_METHOD_DISABLE', '°ì»þÅª¤ËÌµ¸ú');
-define('_NOT_NOTIFYMODE', '¥Ç¥Õ¥©¥ë¥È¤Î¥¤¥Ù¥ó¥ÈÄÌÃÎ¥â¡¼¥É');
-define('_NOT_MODE_SENDALWAYS', '¤¹¤Ù¤Æ¤Î¥¤¥Ù¥ó¥È¹¹¿·¤òÄÌÃÎ');
-define('_NOT_MODE_SENDONCE', '°ìÅÙ¤À¤±ÄÌÃÎ');
-define('_NOT_MODE_SENDONCEPERLOGIN', '°ìÅÙÄÌÃÎ¸å¡¢ºÆÅÙ¥í¥°¥¤¥ó¤¹¤ë¤Þ¤ÇÄÌÃÎ¤·¤Ê¤¤');
-define('_NOT_NOTHINGTODELETE', 'ºï½ü¤¹¤ë¤â¤Î¤Ï¤¢¤ê¤Þ¤»¤ó');
+define('_NOT_NOTIFYMETHOD','ï¿½ï¿½ï¿½Ù¥ï¿½È¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î¥ï¿½Ã¥ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î¼ï¿½ï¿½ï¿½ï¿½ï¿½Ë¡');
+define('_NOT_METHOD_EMAIL','E-mail');
+define('_NOT_METHOD_PM','ï¿½×¥é¥¤ï¿½Ù¡ï¿½ï¿½È¥ï¿½Ã¥ï¿½ï¿½ï¿½ï¿½ï¿½');
+define('_NOT_METHOD_DISABLE','ï¿½ï¿½ï¿½Åªï¿½ï¿½Ìµï¿½ï¿½');
+define('_NOT_NOTIFYMODE','ï¿½Ç¥Õ¥ï¿½ï¿½ï¿½È¤Î¥ï¿½ï¿½Ù¥ï¿½ï¿½ï¿½ï¿½ï¿½Î¥â¡¼ï¿½ï¿½');
+define('_NOT_MODE_SENDALWAYS','ï¿½ï¿½ï¿½Ù¤Æ¤Î¥ï¿½ï¿½Ù¥ï¿½È¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½');
+define('_NOT_MODE_SENDONCE','ï¿½ï¿½ï¿½Ù¤ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½');
+define('_NOT_MODE_SENDONCEPERLOGIN','ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î¸å¡¢ï¿½ï¿½ï¿½Ù¥ï¿½ï¿½ï¿½ï¿½ï¿½ó¤¹¤ï¿½Þ¤ï¿½ï¿½ï¿½ï¿½Î¤ï¿½ï¿½Ê¤ï¿½');
+define('_NOT_NOTHINGTODELETE','ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î¤Ï¤ï¿½ï¿½ï¿½Þ¤ï¿½ï¿½ï¿½');
 
 ?>

@@ -76,7 +76,7 @@ define("_AM_SYSTEM_BANNERS_USEHTML","Koristi HTML?");
 define("_AM_SYSTEM_BANNERS_CODEHTML","HTML kod:");
 
 // Tips
-define("_AM_SYSTEM_BANNERS_NAV_TIPS", "
+define("_AM_SYSTEM_BANNERS_NAV_TIPS","
 <ul>
 <li>Dodavanje, uređivanje i ažuriranje kategorija, oglasa i stranaka.</li>
 </ul>

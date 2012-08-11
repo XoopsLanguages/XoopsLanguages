@@ -25,8 +25,8 @@ define("_MORE","Plus ...");
 define("_MULTIPAGE","Pour avoir votre article sur plusieurs pages, insérer le mot <span style='color:red;'>[pagebreak]</span> (avec les crochets) dans l'article.");
 define("_IFNOTRELOAD","Si la page ne se recharge pas automatiquement, merci de cliquer <a href='%s' title=''>sur ce lien</a>");
 // Error messages issued by XoopsObject::cleanVars()
-define( "_XOBJ_ERR_REQUIRED", "%s est requis" );
-define( "_XOBJ_ERR_SHORTERTHAN", "%s doit contenir moins de %d caractères." );
+define("_XOBJ_ERR_REQUIRED","%s est requis" );
+define("_XOBJ_ERR_SHORTERTHAN","%s doit contenir moins de %d caractères." );
 //%%%%%%        File Name themeuserpost.php         %%%%%
 define("_PROFILE","Profil");
 define("_POSTEDBY","Publié par");
@@ -44,8 +44,8 @@ define("_CPHOME","Panneau de contrôle");
 define("_YOURHOME","Page d'accueil");
 //%%%%%%        File Name misc.php (who's-online popup)        %%%%%
 define("_WHOSONLINE","Qui est en ligne");
-define("_GUESTS", "Invité(s)");
-define("_MEMBERS", "Utilisateur(s)");
+define("_GUESTS","Invité(s)");
+define("_MEMBERS","Utilisateur(s)");
 define("_ONLINEPHRASE","<strong>%s</strong> Personne(s) en ligne");
 define("_ONLINEPHRASEX","<strong>%s</strong> Personne(s) connectée(s) sur <strong>%s</strong>");
 define("_CLOSE","Fermer");  // Close window
@@ -64,26 +64,26 @@ define("_ALIGN","Alignement");
 define("_LEFT","Gauche");
 define("_CENTER","Centre");
 define("_RIGHT","Droite");
-define("_FORM_ENTER", "Merci d'entrer %s"); 
+define("_FORM_ENTER","Merci d'entrer %s"); 
 define("_MUSTWABLE","Le fichier \"%s\" doit être accessible en écriture sur le serveur !");
 // Module info
-define("_PREFERENCES", "Préférences");
-define("_VERSION", "Version");
-define("_DESCRIPTION", "Description");
-define("_AUTHOR", "Auteur");
-define("_CREDITS", "Crédits");
-define("_LICENCE", "Licence");
-define("_ERRORS", "Erreur(s)");
-define("_NONE", "Aucun(e)");
+define("_PREFERENCES","Préférences");
+define("_VERSION","Version");
+define("_DESCRIPTION","Description");
+define("_AUTHOR","Auteur");
+define("_CREDITS","Crédits");
+define("_LICENCE","Licence");
+define("_ERRORS","Erreur(s)");
+define("_NONE","Aucun(e)");
 define("_ON","le");
 define("_READS","lectures");
 define("_WELCOMETO","Bienvenue sur \"%s\"");
 define("_SEARCH","Recherche");
-define("_ALL", "Tous");
-define("_TITLE", "Titre");
-define("_OPTIONS", "Options");
-define("_QUOTE", "Citation");
-define("_LIST", "Liste");
+define("_ALL","Tous");
+define("_TITLE","Titre");
+define("_OPTIONS","Options");
+define("_QUOTE","Citation");
+define("_LIST","Liste");
 define("_LOGIN","Connexion");
 define("_USERNAME","Identifiant : ");
 define("_PASSWORD","Mot de passe : ");
@@ -93,8 +93,8 @@ define("_SEND","Envoyer");
 define("_CANCEL","Annuler");
 define("_ASCENDING","Ordre ascendant");
 define("_DESCENDING","Ordre déscendant");
-define("_BACK", "Retour");
-define("_NOTITLE", "Aucun titre");
+define("_BACK","Retour");
+define("_NOTITLE","Aucun titre");
 /**
 * Image manager
 */
@@ -108,10 +108,10 @@ define("_MD_IMGCATSTRTYPE","Paramètre d'enregistrement");
 define("_MD_STRTYOPENG","Impossible de revenir en arrière ensuite !");
 define("_MD_ASFILE","Fichier");
 define("_MD_INDB","Base de données");
-define ("_MD_IMGMAIN","Catégories"); 
-define ("_MD_EDITIMGCAT", "Editer la catégorie");
+define("_MD_IMGMAIN","Catégories"); 
+define("_MD_EDITIMGCAT","Editer la catégorie");
 define("_IMGMANAGER","Gestionnaire d'images");
-define("_NUMIMAGES", "%s images");
+define("_NUMIMAGES","%s images");
 define("_ADDIMAGE","Ajouter un fichier image");
 define("_IMAGENAME","Nom :");
 define("_IMGMAXSIZE","Taille maximum autorisée (ko) :");
@@ -122,16 +122,16 @@ define("_IMAGEFILE","Fichier image :");
 define("_IMGWEIGHT","Ordre d'affichage dans le gestionnaire d'images :");
 define("_IMGDISPLAY","Afficher cette image ?");
 define("_IMAGEMIME","Type MIME :");
-define("_FAILFETCHIMG", "Impossible de télécharger le fichier %s");
-define("_FAILSAVEIMG", "Impossible d'inscrire l'image %s dans la base de données");
-define("_NOCACHE", "Pas de Cache");
-define("_CLONE", "Cloner");
+define("_FAILFETCHIMG","Impossible de télécharger le fichier %s");
+define("_FAILSAVEIMG","Impossible d'inscrire l'image %s dans la base de données");
+define("_NOCACHE","Pas de Cache");
+define("_CLONE","Cloner");
 // %%%%%    For xoopsform files %%%%%
-define("_STARTSWITH", "Débutant par");
-define("_ENDSWITH", "Se terminant par");
-define("_MATCHES", "Correspondant à");
-define("_CONTAINS", "Contenant");
-define("_REQUIRED", "Requis");
+define("_STARTSWITH","Débutant par");
+define("_ENDSWITH","Se terminant par");
+define("_MATCHES","Correspondant à");
+define("_CONTAINS","Contenant");
+define("_REQUIRED","Requis");
 // %%%%%%    File Name commentform.php     %%%%%
 define("_REGISTER","Enregistrement");
 // %%%%%%    File Name xoopscodes.php     %%%%%
@@ -161,16 +161,16 @@ define("_AM_SMILECODE","Code");
 define("_AM_SMILEEMOTION","Description");
 define("_AM_DISPLAYF","Afficher dans le formulaire");
 // %%%%%        TIME FORMAT SETTINGS   %%%%%
-define("_SECOND", "1 seconde");
-define("_SECONDS", "%s secondes");
-define("_MINUTE", "1 minute");
-define("_MINUTES", "%s minutes");
-define("_HOUR", "1 heure");
-define("_HOURS", "%s heures");
-define("_DAY", "1 jour");
-define("_DAYS", "%s jours");
-define("_WEEK", "1 semaine");
-define("_MONTH", "1 mois");
+define("_SECOND","1 seconde");
+define("_SECONDS","%s secondes");
+define("_MINUTE","1 minute");
+define("_MINUTES","%s minutes");
+define("_HOUR","1 heure");
+define("_HOURS","%s heures");
+define("_DAY","1 jour");
+define("_DAYS","%s jours");
+define("_WEEK","1 semaine");
+define("_MONTH","1 mois");
 define("_DATESTRING","d/m/Y H:i:s");
 define("_MEDIUMDATESTRING","d/m/Y H:i");
 define("_SHORTDATESTRING","d/m/Y");
@@ -193,7 +193,7 @@ m - month; i.e. '01' to '12'
 n - month without leading zeros; i.e. '1' to '12'
 M - month, textual, 3 letters; i.e. 'Jan'
 s - seconds; i.e. '00' to '59'
-S - English ordinal suffix, textual, 2 characters; i.e. 'th', 'nd'
+S - English ordinal suffix, textual, 2 characters; i.e. 'th','nd'
 t - number of days in the given month; i.e. '28' to '31'
 T - Timezone setting of this machine; i.e. 'MDT'
 U - seconds since the epoch
@@ -207,18 +207,18 @@ Z - timezone offset in seconds (i.e. '-43200' to '43200')
 define("_CHARSET","UTF-8");
 define("_LANGCODE","fr");
 // change 0 to 1 if this language is a multi-bytes language
-define("XOOPS_USE_MULTIBYTES", "0");
+define("XOOPS_USE_MULTIBYTES","0");
 /**
 * Ajout pour 2.4.0
 **/
-define("_RESET", "Réinitialisé");
-define("_RE", "Re:");
+define("_RESET","Réinitialisé");
+define("_RE","Re:");
 /**
  * Ajout pour 2.5.5
 **/
-define('_DBDATESTRING', 'd-m-Y');
-define('_DBTIMESTRING', 'H:i:s');
-define('_DBTIMESTAMPSTRING', 'd-m-Y H:i:s');
+define('_DBDATESTRING','d-m-Y');
+define('_DBTIMESTRING','H:i:s');
+define('_DBTIMESTAMPSTRING','d-m-Y H:i:s');
 
 /**  
  * Traductions frxoops, kris

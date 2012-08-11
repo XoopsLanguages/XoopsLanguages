@@ -8,9 +8,9 @@
  */
 
 // Navigation
-define("_AM_SYSTEM_MODULES_ADMIN", "Administracija Modula");
-define("_AM_SYSTEM_MODULES_LIST", "Lista Modula");
-define("_AM_SYSTEM_MODULES_TOINSTALL", "Instaliraj Modul");
+define("_AM_SYSTEM_MODULES_ADMIN","Administracija Modula");
+define("_AM_SYSTEM_MODULES_LIST","Lista Modula");
+define("_AM_SYSTEM_MODULES_TOINSTALL","Instaliraj Modul");
 define("_AM_SYSTEM_MODULES_VALIDATE","Potvrdi izmjenu");
 define("_AM_SYSTEM_MODULES_SUBMITRES","Pošalji");
 
@@ -166,7 +166,7 @@ define("_AM_SYSTEM_MODULES_NOTIFICATIONS_DELETE_ERROR","GREŠKA: Nemogu se izbri
 define("_AM_SYSTEM_MODULES_NOTIFICATIONS_DELETED","Obavještenja su izbrisana");
 define("_AM_SYSTEM_MODULES_TABLE_DROPPED","Tabae %s dropirana!");
 define("_AM_SYSTEM_MODULES_TABLE_DROPPED_ERROR","GREŠKA: Nemože se dropati tabla %s");
-define("_AM_SYSTEM_MODULES_TABLE_DROPPED_FAILDED", "GREŠKA: Nije dozvoljeno dropanje table %s !");
+define("_AM_SYSTEM_MODULES_TABLE_DROPPED_FAILDED","GREŠKA: Nije dozvoljeno dropanje table %s !");
 
 // Tips
 define("_AM_SYSTEM_MODULES_TIPS", 

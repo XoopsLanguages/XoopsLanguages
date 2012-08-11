@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 /**
  * Frameworks Module Admin
  *
@@ -43,10 +43,10 @@ define("_AM_MODULEADMIN_ABOUT_LICENSE","License: ");
 define("_AM_MODULEADMIN_ABOUT_AUTHOR_NAME","Author name: ");
 define("_AM_MODULEADMIN_ABOUT_AUTHOR_INFO","Author Info");
 
-define("_AM_MODULEADMIN_HOME", "Home");
-define("_AM_MODULEADMIN_DASHBOARD", "Dashboard");
-define("_AM_MODULEADMIN_ABOUT", "About");
-define("_AM_MODULEADMIN_PERMISSIONS", "Permissions");
+define("_AM_MODULEADMIN_HOME","Home");
+define("_AM_MODULEADMIN_DASHBOARD","Dashboard");
+define("_AM_MODULEADMIN_ABOUT","About");
+define("_AM_MODULEADMIN_PERMISSIONS","Permissions");
 
 //ModuleAdmin
-define("_AM_MODULEADMIN_ADMIN_FOOTER", "<div class='center smallsmall italic pad5'>Ce module est maintenu par la <a class='tooltip' rel='external' href='http://xoops.org/' title='Visitez la Communauté XOOPS'>Communauté XOOPS</a></div>");
+define("_AM_MODULEADMIN_ADMIN_FOOTER","<div class='center smallsmall italic pad5'>Ce module est maintenu par la <a class='tooltip' rel='external' href='http://xoops.org/' title='Visitez la Communauté XOOPS'>Communauté XOOPS</a></div>");

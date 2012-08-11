@@ -30,10 +30,10 @@ define('_AM_SYSTEM_COMMENTS_FORM_ALL_STATUS','Cualquier estado');
 define('_AM_SYSTEM_COMMENTS_FORM_PURGE','Eliminar');
 define('_AM_SYSTEM_COMMENTS_FORM_PURGE_DATE_AFTER','Posterior a esta fecha (dejar en blanco para cualuier fecha)');
 define('_AM_SYSTEM_COMMENTS_FORM_PURGE_DATE_BEFORE','Anterior a esta fecha (dejar en blanco para cualuier fecha)');
-define('_AM_SYSTEM_COMMENTS_FORM_PURGE_GROUPS', 'Grupos');
-define('_AM_SYSTEM_COMMENTS_FORM_PURGE_USER', 'Nick del usuario');
-define('_AM_SYSTEM_COMMENTS_FORM_PURGE_STATUS', 'Estado');
-define('_AM_SYSTEM_COMMENTS_FORM_PURGE_MODULES', 'Módulos');
+define('_AM_SYSTEM_COMMENTS_FORM_PURGE_GROUPS','Grupos');
+define('_AM_SYSTEM_COMMENTS_FORM_PURGE_USER','Nick del usuario');
+define('_AM_SYSTEM_COMMENTS_FORM_PURGE_STATUS','Estado');
+define('_AM_SYSTEM_COMMENTS_FORM_PURGE_MODULES','Módulos');
 
 // Tab
 define('_AM_SYSTEM_COMMENTS_TITLE','Título');

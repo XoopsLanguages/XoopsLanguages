@@ -30,10 +30,10 @@ define("_AM_UNEED2ENTER","Du måste fylla i obligatoriska fält!");
 // Added in RC3
 define("_AM_BLOCKRIGHTS","Åtkomsträttigheter till block");
 
-define('_AM_FINDU4GROUP', 'Hitta medlemmar i denna grupp');
-define('_AM_GROUPSMAIN', 'Huvudsida för grupper');
+define('_AM_FINDU4GROUP','Hitta medlemmar i denna grupp');
+define('_AM_GROUPSMAIN','Huvudsida för grupper');
 
-define('_AM_ADMINNO', 'Det måste finnas åtminstone en användare i webmastergruppen');
+define('_AM_ADMINNO','Det måste finnas åtminstone en användare i webmastergruppen');
 // Custom block, suggested by trabis
 define("_AM_CUSTOMBLOCK","Egenudviklet blok");
 ?>

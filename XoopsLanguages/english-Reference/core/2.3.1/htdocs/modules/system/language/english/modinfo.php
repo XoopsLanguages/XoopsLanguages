@@ -15,13 +15,13 @@ define("_MI_SYSTEM_BNAME4","Search");
 define("_MI_SYSTEM_BNAME5","Waiting Contents");
 define("_MI_SYSTEM_BNAME6","Main Menu");
 define("_MI_SYSTEM_BNAME7","Site Info");
-define('_MI_SYSTEM_BNAME8', "Who's Online");
-define('_MI_SYSTEM_BNAME9', "Top Posters");
-define('_MI_SYSTEM_BNAME10', "New Members");
-define('_MI_SYSTEM_BNAME11', "Recent Comments");
+define('_MI_SYSTEM_BNAME8',"Who's Online");
+define('_MI_SYSTEM_BNAME9',"Top Posters");
+define('_MI_SYSTEM_BNAME10',"New Members");
+define('_MI_SYSTEM_BNAME11',"Recent Comments");
 // RMV-NOTIFY
-define('_MI_SYSTEM_BNAME12', "Notification Options");
-define('_MI_SYSTEM_BNAME13', "Themes");
+define('_MI_SYSTEM_BNAME12',"Notification Options");
+define('_MI_SYSTEM_BNAME13',"Themes");
 
 // Names of admin menu items
 define("_MI_SYSTEM_ADMENU1","Banners");
@@ -33,9 +33,9 @@ define("_MI_SYSTEM_ADMENU7","Smilies");
 define("_MI_SYSTEM_ADMENU9","User Ranks");
 define("_MI_SYSTEM_ADMENU10","Edit User");
 define("_MI_SYSTEM_ADMENU11","Mail Users");
-define("_MI_SYSTEM_ADMENU12", "Find Users");
-define("_MI_SYSTEM_ADMENU13", "Images");
-define("_MI_SYSTEM_ADMENU14", "Avatars");
-define("_MI_SYSTEM_ADMENU15", "Templates");
-define("_MI_SYSTEM_ADMENU16", "Comments");
+define("_MI_SYSTEM_ADMENU12","Find Users");
+define("_MI_SYSTEM_ADMENU13","Images");
+define("_MI_SYSTEM_ADMENU14","Avatars");
+define("_MI_SYSTEM_ADMENU15","Templates");
+define("_MI_SYSTEM_ADMENU16","Comments");
 ?>

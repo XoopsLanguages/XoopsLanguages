@@ -24,31 +24,31 @@ define("_AM_TH_AGENT","AGENT");
 define("_AM_TH_TYPE","Type");
 define("_AM_TH_DESCRIPTION","Omschrijving");
 
-define( "_AM_TH_BADIPS" , 'Slechte IPs<br /><br /><span style="font-weight:normal;">Schrijf elke IP op een aparte regel<br />blanco betekent dat alle IPs zijn toegestaan</span>' ) ;
+define("_AM_TH_BADIPS" , 'Slechte IPs<br /><br /><span style="font-weight:normal;">Schrijf elke IP op een aparte regel<br />blanco betekent dat alle IPs zijn toegestaan</span>' ) ;
 
-define( "_AM_TH_GROUP1IPS" , 'IPs toegestaan voor Groep=1<br /><br /><span style="font-weight:normal;">Schrijf elke IP op een aparte regel.<br />192.168. betekent 192.168.*<br />blanco betekent dat alle IPs zijn toegestaan</span>' ) ;
+define("_AM_TH_GROUP1IPS" , 'IPs toegestaan voor Groep=1<br /><br /><span style="font-weight:normal;">Schrijf elke IP op een aparte regel.<br />192.168. betekent 192.168.*<br />blanco betekent dat alle IPs zijn toegestaan</span>' ) ;
 
-define( "_AM_LABEL_COMPACTLOG" , "Log comprimeren" ) ;
-define( "_AM_BUTTON_COMPACTLOG" , "Comprimeren!" ) ;
-define( "_AM_JS_COMPACTLOGCONFIRM" , "Dubbel (IP,Type) records zullen worden verwijderd" ) ;
-define( "_AM_LABEL_REMOVEALL" , "Verwijder alle records" ) ;
-define( "_AM_BUTTON_REMOVEALL" , "Alles verwijderen!" ) ;
-define( "_AM_JS_REMOVEALLCONFIRM" , "Alle logs worden geheel verwijderd. Weet u het zeker?" ) ;
-define( "_AM_LABEL_REMOVE" , "Verwijder de geselecteerde records:" ) ;
-define( "_AM_BUTTON_REMOVE" , "Verwijder!" ) ;
-define( "_AM_JS_REMOVECONFIRM" , "OK om te verwijderen?" ) ;
-define( "_AM_MSG_IPFILESUPDATED" , "IP bestanden zijn bijgewerkt" ) ;
-define( "_AM_MSG_BADIPSCANTOPEN" , "Het bestand voor slechte IP's kan niet worden geopend" ) ;
-define( "_AM_MSG_GROUP1IPSCANTOPEN" , "Het bestand voor groep=1 permissies kan niet worden geopend" ) ;
-define( "_AM_MSG_REMOVED" , "Records zijn verwijderd" ) ;
-define( "_AM_FMT_CONFIGSNOTWRITABLE" , "Maak de configs directory schrijfbaar: %s" ) ;
+define("_AM_LABEL_COMPACTLOG" , "Log comprimeren" ) ;
+define("_AM_BUTTON_COMPACTLOG" , "Comprimeren!" ) ;
+define("_AM_JS_COMPACTLOGCONFIRM" , "Dubbel (IP,Type) records zullen worden verwijderd" ) ;
+define("_AM_LABEL_REMOVEALL" , "Verwijder alle records" ) ;
+define("_AM_BUTTON_REMOVEALL" , "Alles verwijderen!" ) ;
+define("_AM_JS_REMOVEALLCONFIRM" , "Alle logs worden geheel verwijderd. Weet u het zeker?" ) ;
+define("_AM_LABEL_REMOVE" , "Verwijder de geselecteerde records:" ) ;
+define("_AM_BUTTON_REMOVE" , "Verwijder!" ) ;
+define("_AM_JS_REMOVECONFIRM" , "OK om te verwijderen?" ) ;
+define("_AM_MSG_IPFILESUPDATED" , "IP bestanden zijn bijgewerkt" ) ;
+define("_AM_MSG_BADIPSCANTOPEN" , "Het bestand voor slechte IP's kan niet worden geopend" ) ;
+define("_AM_MSG_GROUP1IPSCANTOPEN" , "Het bestand voor groep=1 permissies kan niet worden geopend" ) ;
+define("_AM_MSG_REMOVED" , "Records zijn verwijderd" ) ;
+define("_AM_FMT_CONFIGSNOTWRITABLE" , "Maak de configs directory schrijfbaar: %s" ) ;
 
 
 // prefix_manager.php
-define( "_AM_H3_PREFIXMAN" , "Prefix Manager" ) ;
-define( "_AM_MSG_DBUPDATED" , "Database succesvol bijgewerkt!" ) ;
-define( "_AM_CONFIRM_DELETE" , "Alle data wordt gewist. OK?" ) ;
-define( "_AM_TXT_HOWTOCHANGEDB" , "Als u de prefix wilt veranderen,<br />pas dan ook %s/mainfile.php aan.<br /><br />define('XOOPS_DB_PREFIX', '<b>%s</b>');" ) ;
+define("_AM_H3_PREFIXMAN" , "Prefix Manager" ) ;
+define("_AM_MSG_DBUPDATED" , "Database succesvol bijgewerkt!" ) ;
+define("_AM_CONFIRM_DELETE" , "Alle data wordt gewist. OK?" ) ;
+define("_AM_TXT_HOWTOCHANGEDB" , "Als u de prefix wilt veranderen,<br />pas dan ook %s/mainfile.php aan.<br /><br />define('XOOPS_DB_PREFIX','<b>%s</b>');" ) ;
 
 
 // advisory.php
@@ -66,12 +66,12 @@ define("_AM_ADV_CHECKCONTAMI","Vervuilingen");
 define("_AM_ADV_CHECKISOCOM","Enkel commentaarteken");
 
 // Localization by ezsky
-define("_AM_EZ_PREFIX", "Prefix");
-define("_AM_EZ_TABLES", "Tabellen");
-define("_AM_EZ_UPDATED", "Bijgewerkt");
-define("_AM_EZ_COPY", "Kopieer");
-define("_AM_EZ_ACTIONS", "Handelingen");
-define("_AM_EZ_BACKUP", "Backup");
-define("_AM_EZ_DELETE", "Verwijder");
+define("_AM_EZ_PREFIX","Prefix");
+define("_AM_EZ_TABLES","Tabellen");
+define("_AM_EZ_UPDATED","Bijgewerkt");
+define("_AM_EZ_COPY","Kopieer");
+define("_AM_EZ_ACTIONS","Handelingen");
+define("_AM_EZ_BACKUP","Backup");
+define("_AM_EZ_DELETE","Verwijder");
 
 ?>

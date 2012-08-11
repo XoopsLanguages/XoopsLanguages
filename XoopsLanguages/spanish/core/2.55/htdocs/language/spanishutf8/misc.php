@@ -23,7 +23,7 @@ define('_MSC_SMILIES','Caritas');
 define('_MSC_CLICKASMILIE','Presione sobre una carita para insertarla dentro de su mensaje.');
 define('_MSC_CODE','Código');
 define('_MSC_EMOTION','Carita');
-define('_MSC_CLICK_TO_OPEN_IMAGE', 'Haga Clic para ver la Imagen original en una ventana nueva');
-define('_MSC_RESIZED_IMAGE', 'Imagen Redimencionada');
-define('_MSC_ORIGINAL_IMAGE', 'Imagen Original');
+define('_MSC_CLICK_TO_OPEN_IMAGE','Haga Clic para ver la Imagen original en una ventana nueva');
+define('_MSC_RESIZED_IMAGE','Imagen Redimencionada');
+define('_MSC_ORIGINAL_IMAGE','Imagen Original');
 ?>

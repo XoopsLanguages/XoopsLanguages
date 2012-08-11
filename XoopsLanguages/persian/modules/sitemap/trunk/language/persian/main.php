@@ -1,5 +1,5 @@
 <?php
 
-define('_MD_SITEMAP_HOME', 'خانه');
+define('_MD_SITEMAP_HOME','خانه');
 
 ?>

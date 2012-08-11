@@ -12,6 +12,6 @@
 /**
  * Assocated with editor_registry.php
  */
-define( '_XOOPS_EDITOR_DHTMLTEXTAREA', 'DHTML Forma sa xCode' );
+define('_XOOPS_EDITOR_DHTMLTEXTAREA','DHTML Forma sa xCode' );
 
 ?>

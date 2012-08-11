@@ -28,5 +28,5 @@
 /*
  * Assocated with editor_registry.php
  */
-define("_XOOPS_EDITOR_TINYEDITOR", "ویرایشگر tinyeditor");
+define("_XOOPS_EDITOR_TINYEDITOR","ویرایشگر tinyeditor");
 ?>

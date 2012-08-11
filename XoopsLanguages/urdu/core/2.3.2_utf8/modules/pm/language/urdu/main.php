@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 // $Id: main.php 2025 2008-08-31 04:16:39Z phppp $
 //%%%%%%	File Name readpmsg.php 	%%%%%
 define("_PM_DELETED","حذف کردیا گیا(s) آپکا پیغام ");
@@ -30,7 +30,7 @@ define("_PM_MESSAGEC",": پیغام");
 define("_PM_CLEAR","صاف کریں");
 define("_PM_CANCELSEND","بھیجنا منسوخ کریں");
 define("_PM_SUBMIT","ارسال کرين");
-define("_PM_SAVEINOUTBOX", "نقل آپکئے ان بکس میں محفوظ کیا جاۓ");
+define("_PM_SAVEINOUTBOX","نقل آپکئے ان بکس میں محفوظ کیا جاۓ");
 
 //%%%%%%	File Name viewpmsg.php 	%%%%%
 define("_PM_SUBJECT","مضموں");
@@ -41,7 +41,7 @@ define("_PM_DELETE","حذف");
 define("_PM_TOSAVE","حفاظتی ڈبے میں ڈالیں");
 define("_PM_UNSAVE","حفاظتی ڈبے سے باہر نکالیں");
 define("_PM_EMPTY","خالی");
-define("_PM_REPLY", "خواب");
+define("_PM_REPLY","خواب");
 define("_PM_PLZREG","!برایۓ مہربانی شخصی پیغام بھیجنے سے پہلے رجسٹر کریں");
 define("_PM_SAVED_PART","آپکو اجازت ہے %d محفوظ ڈبے کے اندر اور محفوظ شدہ پیغامات اس وقت %d ");
 define("_PM_SAVED_ALL","پیغامات آپکے محفوظ ڈبے میں ڈالے گۓ");
@@ -50,7 +50,7 @@ define("_PM_EMPTIED","ڈبہ خالی کردیا گیا");
 define("_PM_RUSUREEMPTY","کیا آپکو یقیں ہے کہ آپ اس ڈبے کو خالی کرنا چاہتے ہیں؟");
 define("_PM_RUSUREDELETE","؟(s)کیا آپکو یقین ہے کہ آپ یہ پیغامات حذف کرنا چاہتے ہیں");
 
-define("_PM_ONLINE", "آن لین");
+define("_PM_ONLINE","آن لین");
 
 define("_PM_RECEIVE","وصول ");
 define("_PM_POST","ارسال");
@@ -80,13 +80,13 @@ define("_PM_NEXTP","اگلا");
 define("_PM_MAILNOTIFY","%s- سے آپکو نیا پیغام آیا  %s");
 define("_PM_MAILMESSAGE","ہیلو!\nA سے نیا پیغام آیا %s\n\nپیغام کا عنواں \n%s\n\nآپ ہیاں پیغام دیکھ سکتے ہیں \n%s\n\n-----------\nآپ اس پیغام کو وصول کر رہے ہیں کیونکہ آپ نے اطلاعاتی پیغام وصول کرنے کا انتخاب کیا ہے ۔\n\n\ سے تبدیل کرسکتے ہیں PM-Config آپ اسے \n%s\n\nبراۓ مہربانی اس پیغام کا جواب نہ دیں \n\n---------\n آپکا خیر خواہ \n%s\n%s\n%s");
 
-define("_PM_EMAIL", "ایمیل کو بھیجیں");
-define("_PM_EMAIL_DESC", "پیارے یہ وہ پیغام ہے جو آپکے اکاؤنٹ سے اس سایٹ کو ٹراسفر ہوا ۔ %s  ".$xoopsConfig['sitename']);
-define("_PM_EMAIL_FROM", " %s منجانب");
-define("_PM_EMAIL_TO", " %s کو");
-define("_PM_EMAIL_SUBJECT", "[پیغام]%s");
-define("_PM_EMAIL_MESSAGE", "پیغام کا مواد");
+define("_PM_EMAIL","ایمیل کو بھیجیں");
+define("_PM_EMAIL_DESC","پیارے یہ وہ پیغام ہے جو آپکے اکاؤنٹ سے اس سایٹ کو ٹراسفر ہوا ۔ %s  ".$xoopsConfig['sitename']);
+define("_PM_EMAIL_FROM"," %s منجانب");
+define("_PM_EMAIL_TO"," %s کو");
+define("_PM_EMAIL_SUBJECT","[پیغام]%s");
+define("_PM_EMAIL_MESSAGE","پیغام کا مواد");
 
-define("_PM_ACTION_DONE", "عمل کامیابی سے مکمل ہوا");
-define("_PM_ACTION_ERROR", "عمل ناکام ہوا");
+define("_PM_ACTION_DONE","عمل کامیابی سے مکمل ہوا");
+define("_PM_ACTION_ERROR","عمل ناکام ہوا");
 ?>

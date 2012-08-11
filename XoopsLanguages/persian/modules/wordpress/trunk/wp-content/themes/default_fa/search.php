@@ -18,7 +18,7 @@
 				<h3 id="post-<?php the_ID(); ?>"><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php _e('Permanent Link to','kubrick');?> <?php the_title(); ?>"><?php the_title(); ?></a></h3>
 				<small><?php the_time('l, F jS, Y') ?></small>
 
-				<p class="postmetadata"><?php _e('Posted in','kubrick'); ?> <?php the_category(', ') ?> | <?php edit_post_link(__('Edit','kubrick'), '', ' | '); ?>  <?php comments_popup_link(__('No Comments &#187;','kubrick'), __('1 Comment &#187;','kubrick'), __('% Comments &#187;','kubrick')); ?></p>
+				<p class="postmetadata"><?php _e('Posted in','kubrick'); ?> <?php the_category(',') ?> | <?php edit_post_link(__('Edit','kubrick'), '',' | '); ?>  <?php comments_popup_link(__('No Comments &#187;','kubrick'), __('1 Comment &#187;','kubrick'), __('% Comments &#187;','kubrick')); ?></p>
 			</div>
 
 		<?php endwhile; ?>

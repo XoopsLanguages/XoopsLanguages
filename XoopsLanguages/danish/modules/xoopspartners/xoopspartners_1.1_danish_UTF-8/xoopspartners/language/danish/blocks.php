@@ -25,19 +25,19 @@
 //  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 USA //
 //  ------------------------------------------------------------------------ //
 
-define('_MB_PARTNERS_PSPACE', 'Indsæt mellemrum mellem partners?');
-define('_MB_BRAND', 'Tilfældige partners i blocks?');
-define('_MB_BLIMIT', 'Begræns blocks til xx visninger: (0 = uendeligt)');
-define('_MB_BSHOW', 'Vis i blocks:');
-define('_MB_BORDER', 'Sorter indhold i blocks efter:');
-define('_MB_ID', 'ID');
-define('_MB_HITS', 'Hits');
-define('_MB_TITLE', 'Titel');
-define('_MB_WEIGHT', 'Vægtning');
-define('_MB_ASC', 'Stigende');
-define('_MB_DESC', 'Faldende');
-define('_MB_IMAGES', 'Billeder');
-define('_MB_TEXT', 'Tekst links');
-define('_MB_BOTH', 'Begge');
-define('_MB_FADE', 'Fade billed');
+define('_MB_PARTNERS_PSPACE','Indsæt mellemrum mellem partners?');
+define('_MB_BRAND','Tilfældige partners i blocks?');
+define('_MB_BLIMIT','Begræns blocks til xx visninger: (0 = uendeligt)');
+define('_MB_BSHOW','Vis i blocks:');
+define('_MB_BORDER','Sorter indhold i blocks efter:');
+define('_MB_ID','ID');
+define('_MB_HITS','Hits');
+define('_MB_TITLE','Titel');
+define('_MB_WEIGHT','Vægtning');
+define('_MB_ASC','Stigende');
+define('_MB_DESC','Faldende');
+define('_MB_IMAGES','Billeder');
+define('_MB_TEXT','Tekst links');
+define('_MB_BOTH','Begge');
+define('_MB_FADE','Fade billed');
 ?>

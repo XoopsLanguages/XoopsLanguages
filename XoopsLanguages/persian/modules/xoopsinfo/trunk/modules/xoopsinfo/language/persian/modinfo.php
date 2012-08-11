@@ -33,8 +33,8 @@ define("_MI_XI_ADMENU5","اطلاعات ادیتور ها");
 define("_MI_XI_ADMENU6","اطلاعات تمپلیت ها");
 define("_MI_XI_ADMENU7","فرمت ها");
 
-define("_MI_XI_XOOPS_DEBUG", "حالات خطا گیری");
-define("_MI_XI_XOOPS_THEME", "فعال کردن قالب پیش فرض");
+define("_MI_XI_XOOPS_DEBUG","حالات خطا گیری");
+define("_MI_XI_XOOPS_THEME","فعال کردن قالب پیش فرض");
 define("_MI_XI_XOOPS_CACHE","پاک کردن فایل های کش");
 define("_MI_XI_XOOPS_TEMPLATE","پاک کردن فایل ها ی template_c");
 define("_MI_XI_XOOPS_PROTECTOR","<font color='#CC0000'>پروتکتو : </font>نمایش موقت");
@@ -50,7 +50,7 @@ define("_MI_XI_UPDATE_MODULE","<font color='#CC0000'>به روز کردن ماژ
 define("_MI_XI_NEWVERSION","<font color='#000099'>نسخه ی جدید ماژول</font>");
 define("_MI_XI_HELP","کمک");
 
-define("_AM_XI_MODULE_LEGEND_UPDATE", "به روز رسانی ماژول با موفقیت همراه نبوده است!!!");
+define("_AM_XI_MODULE_LEGEND_UPDATE","به روز رسانی ماژول با موفقیت همراه نبوده است!!!");
 define("_AM_XI_MODULE_LEGEND_DOWNLOAD","نسخه ی جدید ماژول برای دریافت آماده است");
 
 // Options

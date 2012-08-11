@@ -4,51 +4,51 @@
 // _CHARSET : windows-1256
 // Translator: Arab XOOPS Team
 
-define("_PROFILE_MI_NAME", "ÇáãáÝ ÇáÔÎÕí");
-define("_PROFILE_MI_DESC", "ÈÑäÇãÌ ááÊÍßã Ýí ÎÇäÇÊ ÇáãáÝ ÇáÔÎÕí");
+define("_PROFILE_MI_NAME","Ã‡Ã¡Ã£Ã¡Ã Ã‡Ã¡Ã”ÃŽÃ•Ã­");
+define("_PROFILE_MI_DESC","ÃˆÃ‘Ã¤Ã‡Ã£ÃŒ Ã¡Ã¡ÃŠÃÃŸÃ£ ÃÃ­ ÃŽÃ‡Ã¤Ã‡ÃŠ Ã‡Ã¡Ã£Ã¡Ã Ã‡Ã¡Ã”ÃŽÃ•Ã­");
 
 //Main menu links
-define("_PROFILE_MI_EDITACCOUNT", "ÊÚÏíá ÇáÇÔÊÑÇß");
-define("_PROFILE_MI_CHANGEPASS", "ÊÚÏíá ßáãÉ ÇáãÑæÑ");
-define("_PROFILE_MI_CHANGEMAIL", "ÊÚÏíá ÇáÈÑíÏ ÇáÇáßÊÑæäí");
+define("_PROFILE_MI_EDITACCOUNT","ÃŠÃšÃÃ­Ã¡ Ã‡Ã¡Ã‡Ã”ÃŠÃ‘Ã‡ÃŸ");
+define("_PROFILE_MI_CHANGEPASS","ÃŠÃšÃÃ­Ã¡ ÃŸÃ¡Ã£Ã‰ Ã‡Ã¡Ã£Ã‘Ã¦Ã‘");
+define("_PROFILE_MI_CHANGEMAIL","ÃŠÃšÃÃ­Ã¡ Ã‡Ã¡ÃˆÃ‘Ã­Ã Ã‡Ã¡Ã‡Ã¡ÃŸÃŠÃ‘Ã¦Ã¤Ã­");
 
 //Admin links
-define("_PROFILE_MI_INDEX", "ÇáÑÆíÓíÉ");
-define("_PROFILE_MI_CATEGORIES", "ÇáÃÞÓÇã");
-define("_PROFILE_MI_FIELDS", "ÇáÎÇäÇÊ");
-define("_PROFILE_MI_USERS", "ÇáÃÚÖÇÁ");
-define("_PROFILE_MI_STEPS", "ãÑÇÍá ÇáÊÓÌíá");
-define("_PROFILE_MI_PERMISSIONS", "ÇáÕáÇÍíÇÊ");
+define("_PROFILE_MI_INDEX","Ã‡Ã¡Ã‘Ã†Ã­Ã“Ã­Ã‰");
+define("_PROFILE_MI_CATEGORIES","Ã‡Ã¡ÃƒÃžÃ“Ã‡Ã£");
+define("_PROFILE_MI_FIELDS","Ã‡Ã¡ÃŽÃ‡Ã¤Ã‡ÃŠ");
+define("_PROFILE_MI_USERS","Ã‡Ã¡ÃƒÃšÃ–Ã‡Ã");
+define("_PROFILE_MI_STEPS","Ã£Ã‘Ã‡ÃÃ¡ Ã‡Ã¡ÃŠÃ“ÃŒÃ­Ã¡");
+define("_PROFILE_MI_PERMISSIONS","Ã‡Ã¡Ã•Ã¡Ã‡ÃÃ­Ã‡ÃŠ");
 
 //User Profile Category
-define("_PROFILE_MI_CATEGORY_TITLE", "ÇáãáÝ ÇáÔÎÕí");
-define("_PROFILE_MI_CATEGORY_DESC", "ÇáÍÞæá ÇáÎÇÕÉ ÈÇáãÔÊÑß");
+define("_PROFILE_MI_CATEGORY_TITLE","Ã‡Ã¡Ã£Ã¡Ã Ã‡Ã¡Ã”ÃŽÃ•Ã­");
+define("_PROFILE_MI_CATEGORY_DESC","Ã‡Ã¡ÃÃžÃ¦Ã¡ Ã‡Ã¡ÃŽÃ‡Ã•Ã‰ ÃˆÃ‡Ã¡Ã£Ã”ÃŠÃ‘ÃŸ");
 
 //User Profile Fields
-define("_PROFILE_MI_URL_TITLE", "ÇáãæÞÚ");
+define("_PROFILE_MI_URL_TITLE","Ã‡Ã¡Ã£Ã¦ÃžÃš");
 
 //Configuration categories
-define("_PROFILE_MI_CAT_SETTINGS", "ÇáÊÚÏíáÇÊ ÇáÚÇãÉ");
-define("_PROFILE_MI_CAT_SETTINGS_DSC", "");
-define("_PROFILE_MI_CAT_USER", "ÊÚÏíáÇÊ ÇáÚÖæ");
-define("_PROFILE_MI_CAT_USER_DSC", "");
+define("_PROFILE_MI_CAT_SETTINGS","Ã‡Ã¡ÃŠÃšÃÃ­Ã¡Ã‡ÃŠ Ã‡Ã¡ÃšÃ‡Ã£Ã‰");
+define("_PROFILE_MI_CAT_SETTINGS_DSC","");
+define("_PROFILE_MI_CAT_USER","ÃŠÃšÃÃ­Ã¡Ã‡ÃŠ Ã‡Ã¡ÃšÃ–Ã¦");
+define("_PROFILE_MI_CAT_USER_DSC","");
 
 //Configuration items
-define("_PROFILE_MI_PROFILE_SEARCH", "ÚÑÖ ÂÎÑ ÇáäÔÇØÇÊ Ýí ÇáãáÝ ÇáÔÎÕí");
+define("_PROFILE_MI_PROFILE_SEARCH","ÃšÃ‘Ã– Ã‚ÃŽÃ‘ Ã‡Ã¡Ã¤Ã”Ã‡Ã˜Ã‡ÃŠ ÃÃ­ Ã‡Ã¡Ã£Ã¡Ã Ã‡Ã¡Ã”ÃŽÃ•Ã­");
 
 //Pages
-define("_PROFILE_MI_PAGE_INFO", "ãÚáæãÇÊ ÇáÇÔÊÑÇß");
-define("_PROFILE_MI_PAGE_EDIT", "ÊÍÑíÑ ÇáÇÔÊÑÇß");
-define("_PROFILE_MI_PAGE_SEARCH", "ÈÍË");
+define("_PROFILE_MI_PAGE_INFO","Ã£ÃšÃ¡Ã¦Ã£Ã‡ÃŠ Ã‡Ã¡Ã‡Ã”ÃŠÃ‘Ã‡ÃŸ");
+define("_PROFILE_MI_PAGE_EDIT","ÃŠÃÃ‘Ã­Ã‘ Ã‡Ã¡Ã‡Ã”ÃŠÃ‘Ã‡ÃŸ");
+define("_PROFILE_MI_PAGE_SEARCH","ÃˆÃÃ‹");
 
-define("_PROFILE_MI_STEP_BASIC", "ãÚáæãÇÊ ÇÓÇÓíÉ");
-define("_PROFILE_MI_STEP_COMPLEMENTARY", "ãÚáæãÇÊ ÇÖÇÝíÉ");
+define("_PROFILE_MI_STEP_BASIC","Ã£ÃšÃ¡Ã¦Ã£Ã‡ÃŠ Ã‡Ã“Ã‡Ã“Ã­Ã‰");
+define("_PROFILE_MI_STEP_COMPLEMENTARY","Ã£ÃšÃ¡Ã¦Ã£Ã‡ÃŠ Ã‡Ã–Ã‡ÃÃ­Ã‰");
 
-define("_PROFILE_MI_CATEGORY_PERSONAL", "ãÚáæãÇÊ ÔÎÕíÉ");
-define("_PROFILE_MI_CATEGORY_MESSAGING", "ãÚáæãÇÊ ÇáÇÊÕÇá");
-define("_PROFILE_MI_CATEGORY_SETTINGS", "ÇáÊÚÏíáÇÊ");
-define("_PROFILE_MI_CATEGORY_COMMUNITY", "ãÚáæãÇÊ ÇÌÊãÇÚíÉ");
+define("_PROFILE_MI_CATEGORY_PERSONAL","Ã£ÃšÃ¡Ã¦Ã£Ã‡ÃŠ Ã”ÃŽÃ•Ã­Ã‰");
+define("_PROFILE_MI_CATEGORY_MESSAGING","Ã£ÃšÃ¡Ã¦Ã£Ã‡ÃŠ Ã‡Ã¡Ã‡ÃŠÃ•Ã‡Ã¡");
+define("_PROFILE_MI_CATEGORY_SETTINGS","Ã‡Ã¡ÃŠÃšÃÃ­Ã¡Ã‡ÃŠ");
+define("_PROFILE_MI_CATEGORY_COMMUNITY","Ã£ÃšÃ¡Ã¦Ã£Ã‡ÃŠ Ã‡ÃŒÃŠÃ£Ã‡ÃšÃ­Ã‰");
 
-define("_PROFILE_MI_NEVER_LOGGED_IN", "áã íÞã ÈÊÓÌíá ÇáÏÎæá ÈÚÏ");
+define("_PROFILE_MI_NEVER_LOGGED_IN","Ã¡Ã£ Ã­ÃžÃ£ ÃˆÃŠÃ“ÃŒÃ­Ã¡ Ã‡Ã¡ÃÃŽÃ¦Ã¡ ÃˆÃšÃ");
 
 ?>

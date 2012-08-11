@@ -178,8 +178,8 @@ function smarty_function_html_select_time($params, &$smarty)
         }
         $html_result .= '>'."\n";
         
-        $html_result .= smarty_function_html_options(array('output'          => array('AM', 'PM'),
-                                                           'values'          => array('am', 'pm'),
+        $html_result .= smarty_function_html_options(array('output'          => array('AM','PM'),
+                                                           'values'          => array('am','pm'),
                                                            'selected'      => strtolower(strftime('%p', $time)),
                                                            'print_result' => false),
                                                      $smarty);

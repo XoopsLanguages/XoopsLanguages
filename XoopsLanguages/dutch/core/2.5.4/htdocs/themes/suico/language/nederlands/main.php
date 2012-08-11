@@ -75,7 +75,7 @@ define("THEME_CONNECT",					"Verbinding");
 define("THEME_LOSTACCOUNT",				"Wachtwoord vergeten ?"); // add for suico theme
 define("THEME_CLOSEPOPUP",				"Sluiten"); // add for suico theme
 
-define("THEME_WELCOME",					"Welkom");
+define("THEME_WELLCOME",				"Welkom");
 define("THEME_PROFILE",					"Profiel bekijken");
 define("THEME_NOTIFICATION",			"Notificaties bekijken");
 define("THEME_MESSAGE",					"Bekijk prive berichten");

@@ -65,58 +65,58 @@ define($constpref.'_GUESTVOTE_IVLDSC','Set this 0, to disable voting from guest.
 
 
 // Notify Categories
-define($constpref.'_NOTCAT_TOPIC', 'This topic'); 
-define($constpref.'_NOTCAT_TOPICDSC', 'Notifications about the targetted topic');
-define($constpref.'_NOTCAT_FORUM', 'This forum'); 
-define($constpref.'_NOTCAT_FORUMDSC', 'Notifications about the targetted forum');
-define($constpref.'_NOTCAT_CAT', 'This category');
-define($constpref.'_NOTCAT_CATDSC', 'Notifications about the targetted category');
-define($constpref.'_NOTCAT_GLOBAL', 'This module');
-define($constpref.'_NOTCAT_GLOBALDSC', 'Notifications about whole of the module');
+define($constpref.'_NOTCAT_TOPIC','This topic'); 
+define($constpref.'_NOTCAT_TOPICDSC','Notifications about the targetted topic');
+define($constpref.'_NOTCAT_FORUM','This forum'); 
+define($constpref.'_NOTCAT_FORUMDSC','Notifications about the targetted forum');
+define($constpref.'_NOTCAT_CAT','This category');
+define($constpref.'_NOTCAT_CATDSC','Notifications about the targetted category');
+define($constpref.'_NOTCAT_GLOBAL','This module');
+define($constpref.'_NOTCAT_GLOBALDSC','Notifications about whole of the module');
 
 // Each Notifications
-define($constpref.'_NOTIFY_TOPIC_NEWPOST', 'New post in the topic');
-define($constpref.'_NOTIFY_TOPIC_NEWPOSTCAP', 'Notify me of new posts in the current topic.');
-define($constpref.'_NOTIFY_TOPIC_NEWPOSTSBJ', '[{X_SITENAME}] {X_MODULE}:{TOPIC_TITLE} New post in topic');
+define($constpref.'_NOTIFY_TOPIC_NEWPOST','New post in the topic');
+define($constpref.'_NOTIFY_TOPIC_NEWPOSTCAP','Notify me of new posts in the current topic.');
+define($constpref.'_NOTIFY_TOPIC_NEWPOSTSBJ','[{X_SITENAME}] {X_MODULE}:{TOPIC_TITLE} New post in topic');
 
-define($constpref.'_NOTIFY_FORUM_NEWPOST', 'New post in the forum');
-define($constpref.'_NOTIFY_FORUM_NEWPOSTCAP', 'Notify me of new posts in the current forum.');
-define($constpref.'_NOTIFY_FORUM_NEWPOSTSBJ', '[{X_SITENAME}] {X_MODULE}:{FORUM_TITLE} New post in forum');
+define($constpref.'_NOTIFY_FORUM_NEWPOST','New post in the forum');
+define($constpref.'_NOTIFY_FORUM_NEWPOSTCAP','Notify me of new posts in the current forum.');
+define($constpref.'_NOTIFY_FORUM_NEWPOSTSBJ','[{X_SITENAME}] {X_MODULE}:{FORUM_TITLE} New post in forum');
 
-define($constpref.'_NOTIFY_FORUM_NEWTOPIC', 'New topic in the forum');
-define($constpref.'_NOTIFY_FORUM_NEWTOPICCAP', 'Notify me of new topics in the current forum.');
-define($constpref.'_NOTIFY_FORUM_NEWTOPICSBJ', '[{X_SITENAME}] {X_MODULE}:{FORUM_TITLE} New topic in forum');
+define($constpref.'_NOTIFY_FORUM_NEWTOPIC','New topic in the forum');
+define($constpref.'_NOTIFY_FORUM_NEWTOPICCAP','Notify me of new topics in the current forum.');
+define($constpref.'_NOTIFY_FORUM_NEWTOPICSBJ','[{X_SITENAME}] {X_MODULE}:{FORUM_TITLE} New topic in forum');
 
-define($constpref.'_NOTIFY_CAT_NEWPOST', 'New post in the category');
-define($constpref.'_NOTIFY_CAT_NEWPOSTCAP', 'Notify me of new posts in the current category.');
-define($constpref.'_NOTIFY_CAT_NEWPOSTSBJ', '[{X_SITENAME}] {X_MODULE}:{CAT_TITLE} New post in category');
+define($constpref.'_NOTIFY_CAT_NEWPOST','New post in the category');
+define($constpref.'_NOTIFY_CAT_NEWPOSTCAP','Notify me of new posts in the current category.');
+define($constpref.'_NOTIFY_CAT_NEWPOSTSBJ','[{X_SITENAME}] {X_MODULE}:{CAT_TITLE} New post in category');
 
-define($constpref.'_NOTIFY_CAT_NEWTOPIC', 'New topic in the category');
-define($constpref.'_NOTIFY_CAT_NEWTOPICCAP', 'Notify me of new topics in the current category.');
-define($constpref.'_NOTIFY_CAT_NEWTOPICSBJ', '[{X_SITENAME}] {X_MODULE}:{CAT_TITLE} New topic in category');
+define($constpref.'_NOTIFY_CAT_NEWTOPIC','New topic in the category');
+define($constpref.'_NOTIFY_CAT_NEWTOPICCAP','Notify me of new topics in the current category.');
+define($constpref.'_NOTIFY_CAT_NEWTOPICSBJ','[{X_SITENAME}] {X_MODULE}:{CAT_TITLE} New topic in category');
 
-define($constpref.'_NOTIFY_CAT_NEWFORUM', 'New forum in the category');
-define($constpref.'_NOTIFY_CAT_NEWFORUMCAP', 'Notify me of new forums in the current category.');
-define($constpref.'_NOTIFY_CAT_NEWFORUMSBJ', '[{X_SITENAME}] {X_MODULE}:{CAT_TITLE} New forum in category');
+define($constpref.'_NOTIFY_CAT_NEWFORUM','New forum in the category');
+define($constpref.'_NOTIFY_CAT_NEWFORUMCAP','Notify me of new forums in the current category.');
+define($constpref.'_NOTIFY_CAT_NEWFORUMSBJ','[{X_SITENAME}] {X_MODULE}:{CAT_TITLE} New forum in category');
 
-define($constpref.'_NOTIFY_GLOBAL_NEWPOST', 'New post in the module');
-define($constpref.'_NOTIFY_GLOBAL_NEWPOSTCAP', 'Notify me of new posts in the module.');
-define($constpref.'_NOTIFY_GLOBAL_NEWPOSTSBJ', '[{X_SITENAME}] {X_MODULE}: New post');
+define($constpref.'_NOTIFY_GLOBAL_NEWPOST','New post in the module');
+define($constpref.'_NOTIFY_GLOBAL_NEWPOSTCAP','Notify me of new posts in the module.');
+define($constpref.'_NOTIFY_GLOBAL_NEWPOSTSBJ','[{X_SITENAME}] {X_MODULE}: New post');
 
-define($constpref.'_NOTIFY_GLOBAL_NEWTOPIC', 'New topic in the module');
-define($constpref.'_NOTIFY_GLOBAL_NEWTOPICCAP', 'Notify me of new topics in the module.');
-define($constpref.'_NOTIFY_GLOBAL_NEWTOPICSBJ', '[{X_SITENAME}] {X_MODULE}: New topic');
+define($constpref.'_NOTIFY_GLOBAL_NEWTOPIC','New topic in the module');
+define($constpref.'_NOTIFY_GLOBAL_NEWTOPICCAP','Notify me of new topics in the module.');
+define($constpref.'_NOTIFY_GLOBAL_NEWTOPICSBJ','[{X_SITENAME}] {X_MODULE}: New topic');
 
-define($constpref.'_NOTIFY_GLOBAL_NEWFORUM', 'New forum in the module');
-define($constpref.'_NOTIFY_GLOBAL_NEWFORUMCAP', 'Notify me of new forums in the module.');
-define($constpref.'_NOTIFY_GLOBAL_NEWFORUMSBJ', '[{X_SITENAME}] {X_MODULE}: New forum');
+define($constpref.'_NOTIFY_GLOBAL_NEWFORUM','New forum in the module');
+define($constpref.'_NOTIFY_GLOBAL_NEWFORUMCAP','Notify me of new forums in the module.');
+define($constpref.'_NOTIFY_GLOBAL_NEWFORUMSBJ','[{X_SITENAME}] {X_MODULE}: New forum');
 
-define($constpref.'_NOTIFY_GLOBAL_NEWPOSTFULL', 'New Post (Full Text)');
-define($constpref.'_NOTIFY_GLOBAL_NEWPOSTFULLCAP', 'Notify me of any new posts (include full text in message).');
-define($constpref.'_NOTIFY_GLOBAL_NEWPOSTFULLSBJ', '[{X_SITENAME}] {POST_TITLE}');
-define($constpref.'_NOTIFY_GLOBAL_WAITING', 'New waiting');
-define($constpref.'_NOTIFY_GLOBAL_WAITINGCAP', 'Notify me of new posts waiting approval. For admins only');
-define($constpref.'_NOTIFY_GLOBAL_WAITINGSBJ', '[{X_SITENAME}] {X_MODULE}: New waiting');
+define($constpref.'_NOTIFY_GLOBAL_NEWPOSTFULL','New Post (Full Text)');
+define($constpref.'_NOTIFY_GLOBAL_NEWPOSTFULLCAP','Notify me of any new posts (include full text in message).');
+define($constpref.'_NOTIFY_GLOBAL_NEWPOSTFULLSBJ','[{X_SITENAME}] {POST_TITLE}');
+define($constpref.'_NOTIFY_GLOBAL_WAITING','New waiting');
+define($constpref.'_NOTIFY_GLOBAL_WAITINGCAP','Notify me of new posts waiting approval. For admins only');
+define($constpref.'_NOTIFY_GLOBAL_WAITINGSBJ','[{X_SITENAME}] {X_MODULE}: New waiting');
 
 }
 

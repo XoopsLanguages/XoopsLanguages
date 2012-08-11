@@ -82,13 +82,13 @@ define($GLOBALS["VAR_PREFIXU"]."_MD_SUBMITTER","ارسال کننده");
 define($GLOBALS["VAR_PREFIXU"]."_MD_VIEWS","بازدید");
 define($GLOBALS["VAR_PREFIXU"]."_MD_RATE","رای");
 define($GLOBALS["VAR_PREFIXU"]."_MD_RATEIT","رای دهید!");
-define($GLOBALS["VAR_PREFIXU"]."_MD_TIME", "زمان");
+define($GLOBALS["VAR_PREFIXU"]."_MD_TIME","زمان");
 
-define($GLOBALS["VAR_PREFIXU"]."_MD_UPDATED", "وبلاگ با %s مطلب وارد شده به روز شد");
-define($GLOBALS["VAR_PREFIXU"]."_MD_DBUPDATED", "پایگاه داده ها به روز شد");
+define($GLOBALS["VAR_PREFIXU"]."_MD_UPDATED","وبلاگ با %s مطلب وارد شده به روز شد");
+define($GLOBALS["VAR_PREFIXU"]."_MD_DBUPDATED","پایگاه داده ها به روز شد");
 
-define($GLOBALS["VAR_PREFIXU"]."_MD_PREVIOUS", "<<");
-define($GLOBALS["VAR_PREFIXU"]."_MD_NEXT", ">>");
+define($GLOBALS["VAR_PREFIXU"]."_MD_PREVIOUS","<<");
+define($GLOBALS["VAR_PREFIXU"]."_MD_NEXT",">>");
 
 
 define($GLOBALS["VAR_PREFIXU"]."_MD_PENDING","منتظر برای تایید");
@@ -96,7 +96,7 @@ define($GLOBALS["VAR_PREFIXU"]."_MD_ACTIVE","فعال");
 define($GLOBALS["VAR_PREFIXU"]."_MD_EXPIRED","منقضی شده");
 
 /*
-define($GLOBALS["VAR_PREFIXU"]."_MD_TYPES", "Types");
+define($GLOBALS["VAR_PREFIXU"]."_MD_TYPES","Types");
 define($GLOBALS["VAR_PREFIXU"]."_MD_APPROVED","Approved");
 define($GLOBALS["VAR_PREFIXU"]."_MD_DELETED","Deleted");
 define($GLOBALS["VAR_PREFIXU"]."_MD_EXPIRATION","Expiration date");
@@ -113,20 +113,20 @@ define($GLOBALS["VAR_PREFIXU"]."_MD_VIEWALL","View full text");
 define($GLOBALS["VAR_PREFIXU"]."_MD_COMMENTS","نظر ها");
 define($GLOBALS["VAR_PREFIXU"]."_MD_CLICKTOCOPY","کلیک برای کپی برداری");
 
-define($GLOBALS["VAR_PREFIXU"]."_MD_SORT", "نوع");
+define($GLOBALS["VAR_PREFIXU"]."_MD_SORT","نوع");
 
-define($GLOBALS["VAR_PREFIXU"]."_MD_FULLVIEW", "متن کامل");
-define($GLOBALS["VAR_PREFIXU"]."_MD_LISTVIEW", "لیست");
-define($GLOBALS["VAR_PREFIXU"]."_MD_RATING", "رتبه");
-define($GLOBALS["VAR_PREFIXU"]."_MD_DEFAULT", "پیش فرض");
-define($GLOBALS["VAR_PREFIXU"]."_MD_BLOGS", "وبلاگ ها");
-define($GLOBALS["VAR_PREFIXU"]."_MD_BOOKMARKS", "بوکمارک ها");
-define($GLOBALS["VAR_PREFIXU"]."_MD_HOME", "خانه");
+define($GLOBALS["VAR_PREFIXU"]."_MD_FULLVIEW","متن کامل");
+define($GLOBALS["VAR_PREFIXU"]."_MD_LISTVIEW","لیست");
+define($GLOBALS["VAR_PREFIXU"]."_MD_RATING","رتبه");
+define($GLOBALS["VAR_PREFIXU"]."_MD_DEFAULT","پیش فرض");
+define($GLOBALS["VAR_PREFIXU"]."_MD_BLOGS","وبلاگ ها");
+define($GLOBALS["VAR_PREFIXU"]."_MD_BOOKMARKS","بوکمارک ها");
+define($GLOBALS["VAR_PREFIXU"]."_MD_HOME","خانه");
 
-define($GLOBALS["VAR_PREFIXU"]."_MD_BLOGEXISTS", "وبلاگ این خوراک در حال حاضر موجود است.");
-define($GLOBALS["VAR_PREFIXU"]."_MD_EMPTY_BLOG", "خالی کن");
+define($GLOBALS["VAR_PREFIXU"]."_MD_BLOGEXISTS","وبلاگ این خوراک در حال حاضر موجود است.");
+define($GLOBALS["VAR_PREFIXU"]."_MD_EMPTY_BLOG","خالی کن");
 
-define($GLOBALS["VAR_PREFIXU"]."_MD_TRANSFER", "انتقال");
-define($GLOBALS["VAR_PREFIXU"]."_MD_TRANSFER_DESC", "این مطلب را به یک بخش دیگر منتقل کن");
+define($GLOBALS["VAR_PREFIXU"]."_MD_TRANSFER","انتقال");
+define($GLOBALS["VAR_PREFIXU"]."_MD_TRANSFER_DESC","این مطلب را به یک بخش دیگر منتقل کن");
 define($GLOBALS["VAR_PREFIXU"]."_MD_TRANSFER_DONE","این عمل با موفقیت انجام شد: %s");
 ?>

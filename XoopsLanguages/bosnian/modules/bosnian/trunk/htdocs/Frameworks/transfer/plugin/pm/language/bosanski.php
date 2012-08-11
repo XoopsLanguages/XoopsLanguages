@@ -13,6 +13,6 @@
  * @package         Frameworks
  * @subpackage      transfer
  */
-define("_MD_TRANSFER_PM", "PM");
-define("_MD_TRANSFER_PM_DESC", "Po&scaron;alji Autoru PM ");
+define("_MD_TRANSFER_PM","PM");
+define("_MD_TRANSFER_PM_DESC","Po&scaron;alji Autoru PM ");
 ?>

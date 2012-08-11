@@ -4,16 +4,16 @@
 // _CHARSET : iso-8859-2
 // Translator: by saba
 
-define("_PROFILE_MA_REGISTER_NOTGROUP", "Novi &#269;lanovi ne&#263;e biti registrirani u odgovaraju&#263;e grupe.");
+define("_PROFILE_MA_REGISTER_NOTGROUP","Novi &#269;lanovi ne&#263;e biti registrirani u odgovaraju&#263;e grupe.");
 define("_PROFILE_MA_FINISH_LOGIN","Tvoj Profil je uspješno registrovan, molimo te klikni i uloguj se.");
-define("_PROFILE_MA_REGISTER_FINISH", "Zahvaljujemo ti se na registraciji");
-define("_PROFILE_MA_REGISTER_STEPS", "Etape registracije:");
+define("_PROFILE_MA_REGISTER_FINISH","Zahvaljujemo ti se na registraciji");
+define("_PROFILE_MA_REGISTER_STEPS","Etape registracije:");
 
-define("_PROFILE_MA_DEFAULT", "Standardno pode&scaron;avanje");
+define("_PROFILE_MA_DEFAULT","Standardno pode&scaron;avanje");
 
-define("_PROFILE_MA_ERRORDURINGSAVE", "Do&scaron;lo je do gre&scaron;ke prilikom memorisanja");
-define("_PROFILE_MA_NOSTEPSAVAILABLE", "Registracija trenutno nije dostupna. Molimo te navrati malo kasnije i probaj ponovo.");
-define("_PROFILE_MA_EXPIRED", "Vrijeme ti je isteklo, molimo te vrati se nazad i probaj ponovo.");
+define("_PROFILE_MA_ERRORDURINGSAVE","Do&scaron;lo je do gre&scaron;ke prilikom memorisanja");
+define("_PROFILE_MA_NOSTEPSAVAILABLE","Registracija trenutno nije dostupna. Molimo te navrati malo kasnije i probaj ponovo.");
+define("_PROFILE_MA_EXPIRED","Vrijeme ti je isteklo, molimo te vrati se nazad i probaj ponovo.");
 
 
 define('_PROFILE_MA_RECENTACTIVITY','Izaberi aktivnosti');
@@ -23,32 +23,32 @@ define('_PROFILE_MA_DEACTIVATE','Deaktivirati');
 define('_PROFILE_MA_SENDPM','Poruku po&scaron;alji');
 
 //changepass.php
-define("_PROFILE_MA_CHANGEPASSWORD", "Lozinku promjeni");
-define("_PROFILE_MA_PASSWORDCHANGED", "Lozinka je uspje&scaron;no promijenjena");
-define("_PROFILE_MA_OLDPASSWORD", "Aktuelna lozinka");
-define("_PROFILE_MA_NEWPASSWORD", "Nova lozinka");
-define("_PROFILE_MA_WRONGPASSWORD", "Gre&scaron;ka: Pogre&scaron;no upisana lozinka");
+define("_PROFILE_MA_CHANGEPASSWORD","Lozinku promjeni");
+define("_PROFILE_MA_PASSWORDCHANGED","Lozinka je uspje&scaron;no promijenjena");
+define("_PROFILE_MA_OLDPASSWORD","Aktuelna lozinka");
+define("_PROFILE_MA_NEWPASSWORD","Nova lozinka");
+define("_PROFILE_MA_WRONGPASSWORD","Gre&scaron;ka: Pogre&scaron;no upisana lozinka");
 
 //search.php
-define("_PROFILE_MA_SORTBY", "Sortirati po");
-define("_PROFILE_MA_ORDER", "Redoslijed");
-define("_PROFILE_MA_PERPAGE", "Objekata po stranici");
-define("_PROFILE_MA_LATERTHAN", "%s je kasnije od");
-define("_PROFILE_MA_EARLIERTHAN", "%s je prije od");
-define("_PROFILE_MA_LARGERTHAN", "%s je vi&scaron;e od");
-define("_PROFILE_MA_SMALLERTHAN", "%s je manje od");
+define("_PROFILE_MA_SORTBY","Sortirati po");
+define("_PROFILE_MA_ORDER","Redoslijed");
+define("_PROFILE_MA_PERPAGE","Objekata po stranici");
+define("_PROFILE_MA_LATERTHAN","%s je kasnije od");
+define("_PROFILE_MA_EARLIERTHAN","%s je prije od");
+define("_PROFILE_MA_LARGERTHAN","%s je vi&scaron;e od");
+define("_PROFILE_MA_SMALLERTHAN","%s je manje od");
 
-define("_PROFILE_MA_NOUSERSFOUND", "Nijedan &#269;lan nije prona&#273;en");
-define("_PROFILE_MA_RESULTS", "Rezultat pretrage");
-define("_PROFILE_MA_SEARCH", "Tra&#382;i &#269;lana");
+define("_PROFILE_MA_NOUSERSFOUND","Nijedan &#269;lan nije prona&#273;en");
+define("_PROFILE_MA_RESULTS","Rezultat pretrage");
+define("_PROFILE_MA_SEARCH","Tra&#382;i &#269;lana");
 
 //changemail.php
-define("_PROFILE_MA_CHANGEMAIL", "E-Mail-Adresu promjeni");
-define("_PROFILE_MA_NEWMAIL", "Nova E-Mail-Adresa");
+define("_PROFILE_MA_CHANGEMAIL","E-Mail-Adresu promjeni");
+define("_PROFILE_MA_NEWMAIL","Nova E-Mail-Adresa");
 
-define("_PROFILE_MA_NEWEMAIL", "E-Mail-Adresa je %s");
-define("_PROFILE_MA_EMAILCHANGED", "E-Mail-Adresa je promijenjena");
-define("_PROFILE_MA_SITEDEFAULT", "Standardna stranica");
+define("_PROFILE_MA_NEWEMAIL","E-Mail-Adresa je %s");
+define("_PROFILE_MA_EMAILCHANGED","E-Mail-Adresa je promijenjena");
+define("_PROFILE_MA_SITEDEFAULT","Standardna stranica");
 
 define("_PROFILE_MA_USERINFO","Profil &#269;lana");
 define("_PROFILE_MA_REGISTER","Formular za registraciju");
@@ -95,8 +95,8 @@ define("_PROFILE_MA_VIDEOS","Video klipovi");
 define("_PROFILE_MA_FRIENDS","Dru&scaron;tvo");
 define("_PROFILE_MA_TRIBES","Grupe");
 define("_PROFILE_MA_AUDIOS","MP3 Audio");
-define("_PROFILE_MA_USERS", "Gleda&scaron; Profil od &#268;lana");
-define("_PROFILE_MA_FACEBOOK", "Facebook");
+define("_PROFILE_MA_USERS","Gleda&scaron; Profil od &#268;lana");
+define("_PROFILE_MA_FACEBOOK","Facebook");
 
 define("_PROFILE_MA_NOPERM","Ova funkcija nije dozvoljena.");
 define("_PROFILE_MA_DIRNOEXIST","Direktorij <b>%s</b> ne postoji ili CHMOD nije pode&scaron;en da se u njega upisivati podaci mogu");
@@ -202,7 +202,7 @@ define("_PROFILE_MA_VIDEODELETED","Video je izbrisan");
 define("_PROFILE_MA_VIDEOSAVED","Video je memorisan");
 
 //pm
-define("_PROFILE_MA_PMNAME", "Privatne poruke");
+define("_PROFILE_MA_PMNAME","Privatne poruke");
 define("_PROFILE_MA_PMINBOX","Po&scaron;tansko sandu&#269;e");
 define("_PROFILE_MA_PMFROM","Od");
 define("_PROFILE_MA_PMYOUDONTHAVE","Trenutno nema&scaron; privatnih poruka");
@@ -217,7 +217,7 @@ define("_PROFILE_MA_PMDELETE","Izbri&scaron;i");
 define("_PROFILE_MA_PMTOSAVE","Memori&scaron;i");
 define("_PROFILE_MA_PMUNSAVE","Memoriju poni&scaron;ti");
 define("_PROFILE_MA_PMEMPTY","Isprazni");
-define("_PROFILE_MA_PMREPLY", "Odgovori");
+define("_PROFILE_MA_PMREPLY","Odgovori");
 
 define("_PROFILE_MI_NEVER_LOGED_IN","nikada");
 
@@ -225,15 +225,15 @@ define("_PROFILE_MA_CONFIGSMESSAGES","Privatne poruke");
 define("_PROFILE_MA_CONFIGSMESSNO","isklju&#269;ene");
 define("_PROFILE_MA_CONFIGSMESSYES","uklju&#269;ene");
 define("_PROFILE_MA_CONFIGSMESSYESMAIL","uklju&#269;ene sa Email obavje&scaron;tenjem");
-define("_PROFILE_MA_PMACTION_DONE", "Akcija je uspje&scaron;no izvr&scaron;ena ");
-define("_PROFILE_MA_PMACTION_ERROR", "Akcija nije uspjela");
+define("_PROFILE_MA_PMACTION_DONE","Akcija je uspje&scaron;no izvr&scaron;ena ");
+define("_PROFILE_MA_PMACTION_ERROR","Akcija nije uspjela");
 define("_PROFILE_MA_PMTO","Za: ");
 define("_PROFILE_MA_PMSUBJECTC","Razlog: ");
 define("_PROFILE_MA_PMMESSAGEC","Poruka: ");
 define("_PROFILE_MA_PMCLEAR","Isprazni");
 define("_PROFILE_MA_PMCANCELSEND","Odustani");
 define("_PROFILE_MA_PMSUBMIT","Po&scaron;alji");
-define("_PROFILE_MA_PMSAVEINOUTBOX", "Kopiju izlazne po&scaron;te memorisati?");
+define("_PROFILE_MA_PMSAVEINOUTBOX","Kopiju izlazne po&scaron;te memorisati?");
 define("_PROFILE_MA_PMRUSUREDELETE","&#381;eli&scaron; li ovu(e) poruku(e) stvarno izbrisati?");
 define("_PROFILE_MA_PMSAVED_ALL","Poruke su up izlaznu po&scaron;tu preba&#269;ene");
 define("_PROFILE_MA_PMUNSAVED","Poruke su iz izlazne po&scaron;te izbrisane");
@@ -244,12 +244,12 @@ define("_PROFILE_MA_PMUSERWROTE","%s ti pi&scaron;e:");
 define("_PROFILE_MA_PMSAVED_PART","Tebi je dozvoljeno %d Privatnih poruka da memori&scaron;e&scaron; i trenutno sada ima&scaron; %d Privatnih poruka");
 define("_PROFILE_MA_PMMAILNOTIFY","%s - ima&scaron; novu Privatnu poruku od %s");
 define("_PROFILE_MA_PMMAILMESSAGE","Vozdra!\n Ti im&scaron; novu Privatnu poruku od %s \n\n Naziv Privatne poruke je \n%s\n\n Privatnu poruku mo&#382;e&scaron; ovdje pro&#269;itati \n%s\n\n-----------\n Ova obavijest ti je do&scaron;la, jer si sam(a) zahtijevao(la) da te obavijestimo, konfiguraciju za nove privatne poruke\n\n mo&#382;e&scaron; u PP-Konfiguraciji promjeniti i podesiti\n%s\n\n Molimo te da nam ne odgovara&scaron; na ovu poruku\n\n---------\nDrugarski pozz\n%s\n%s\n%s");
-define("_PROFILE_MA_PMEMAIL", "E-Mail");
-define("_PROFILE_MA_PMEMAIL_DESC", "Vozdra %s, ovo je obavijest za tebe sa tvog Profila na ".$xoopsConfig['sitename']);
-define("_PROFILE_MA_PMEMAIL_FROM", "Od %s");
-define("_PROFILE_MA_PMEMAIL_TO", "Za %s");
-define("_PROFILE_MA_PMEMAIL_SUBJECT", "[Obavijest]%s");
-define("_PROFILE_MA_PMEMAIL_MESSAGE", "Sadr&#382;aj obavijesti");
+define("_PROFILE_MA_PMEMAIL","E-Mail");
+define("_PROFILE_MA_PMEMAIL_DESC","Vozdra %s, ovo je obavijest za tebe sa tvog Profila na ".$xoopsConfig['sitename']);
+define("_PROFILE_MA_PMEMAIL_FROM","Od %s");
+define("_PROFILE_MA_PMEMAIL_TO","Za %s");
+define("_PROFILE_MA_PMEMAIL_SUBJECT","[Obavijest]%s");
+define("_PROFILE_MA_PMEMAIL_MESSAGE","Sadr&#382;aj obavijesti");
 define("_PROFILE_MA_PMMAILNOTIFYSUBJECT","Dobio(la) si(te) novu poruku");
 define("_PROFILE_MA_ASKCONFIRMPICTURESASAVATAR","Izabranu sliku kao svoj Avatar koristi?");
 ?>

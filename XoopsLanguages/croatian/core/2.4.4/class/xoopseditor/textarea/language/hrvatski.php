@@ -13,5 +13,5 @@
 /*
  * Assocated with editor_registry.php
  */
-define("_XOOPS_EDITOR_TEXTAREA", "Čisti tekst");
+define("_XOOPS_EDITOR_TEXTAREA","Ã„Å’isti tekst");
 ?>

@@ -59,7 +59,7 @@ define("_AM_CNGTST","Impossibile ottenere il numero totale delle news");
 define("_AM_CNUUSER","Impossibile aggiornare il profilo dell'utente");
 define("_AM_CNGUSERID","Impossibile ottenere l'ID dell'utente");
 define("_AM_LIST","Elenca");
-define("_AM_NOUSERS", "Nessun utente selezionato");
+define("_AM_NOUSERS","Nessun utente selezionato");
 
 define("_AM_CNRNU2","Impossibile aggiungere il nuovo utente al gruppo: %s.");
 ?>

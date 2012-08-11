@@ -13,7 +13,7 @@ if( !defined('_WEBLINKS_PI_WAITING_LANG_LOADED') )
 
 define('_WEBLINKS_PI_WAITING_LANG_LOADED', 1);
 
-define('_WEBLINKS_PI_WAITING_WAITINGS', 'Ventende');
+define('_WEBLINKS_PI_WAITING_WAITINGS','Ventende');
 define('_WEBLINKS_PI_WAITING_BROKENS',  'Brudte');
 define('_WEBLINKS_PI_WAITING_MODREQS',  'rette Reqs');
 define('_WEBLINKS_PI_WAITING_DELREQS',  'Slet Reqs');

@@ -9,116 +9,116 @@
  * @version		$Id: schinese.php 1319 2008-02-12 10:56:44Z phppp $
  * @package		xoopseditor
  */
-define("_XOOPS_EDITOR_KOIVI", "¿ÉÊÓ»¯Koivi±à¼­Æ÷");
+define("_XOOPS_EDITOR_KOIVI","ï¿½ï¿½ï¿½Ó»ï¿½Koiviï¿½à¼­ï¿½ï¿½");
 
 $GLOBALS["KOIVI_FONTLIST"] = array(
-	'ºÚÌå'			=> 'ºÚÌå',
-	'ËÎÌå'			=> 'ËÎÌå',
-	'¿¬Ìå'			=> '¿¬Ìå',
+	'ï¿½ï¿½ï¿½ï¿½'			=> 'ï¿½ï¿½ï¿½ï¿½',
+	'ï¿½ï¿½ï¿½ï¿½'			=> 'ï¿½ï¿½ï¿½ï¿½',
+	'ï¿½ï¿½ï¿½ï¿½'			=> 'ï¿½ï¿½ï¿½ï¿½',
 	'Courier New'	=> 'Courier New, Courier, monospace', 
 	'MS Serif'		=> 'MS Serif, New York, serif', 
 	'Verdana'		=> 'Verdana, Geneva, Arial, Helvetica, sans-serif'
 	);
 
-define("_XK_LEFTTORIGHT","´Ó×óÖÁÓÒ");
-define("_XK_RIGHTTOLEFT","´ÓÓÒÖÁ×ó");
+define("_XK_LEFTTORIGHT","ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
+define("_XK_RIGHTTOLEFT","ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
 
-define("_MSC_SMILIES","Á³Æ×");
-define("_MSC_CLICKASMILIE","µã»÷±íÇé·û²åÈëµ½ÎÄ±¾ÖÐ.");
-define("_MSC_CODE","´úÂë");
-define("_MSC_EMOTION","±íÇé·û");
+define("_MSC_SMILIES","ï¿½ï¿½ï¿½ï¿½");
+define("_MSC_CLICKASMILIE","ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ëµ½ï¿½Ä±ï¿½ï¿½ï¿½.");
+define("_MSC_CODE","ï¿½ï¿½ï¿½ï¿½");
+define("_MSC_EMOTION","ï¿½ï¿½ï¿½ï¿½ï¿½");
 
 define('_XK_FONT','Font');
-define('_XK_FONT_SIZE','×ÖÌå´óÐ¡');
-define('_XK_FONT_XSMALL','ÌØÐ¡');
+define('_XK_FONT_SIZE','ï¿½ï¿½ï¿½ï¿½ï¿½Ð¡');
+define('_XK_FONT_XSMALL','ï¿½ï¿½Ð¡');
 define('_XK_FONT_SMALL','Ð¡');
-define('_XK_FONT_MEDIUM','ÖÐ');
-define('_XK_FONT_LARGE','´ó');
-define('_XK_FONT_XLARGE','ÌØ´ó');
-define('_XK_FONT_XXLARGE','³¬´ó');
-define('_XK_FONT_FORMAT','¸ñÊ½');
-define('_XK_FONT_NONE','ÎÞ');
-define('_XK_FONT_HEADING1','±êÌâ 1');
-define('_XK_FONT_HEADING2','±êÌâ 2');
-define('_XK_FONT_HEADING3','±êÌâ 3');
-define('_XK_FONT_HEADING4','±êÌâ 4');
-define('_XK_FONT_HEADING5','±êÌâ 5');
-define('_XK_FONT_HEADING6','±êÌâ 6');
-define('_XK_FONT_ADDRESS','µØÖ·');
-define('_XK_FONT_PARAGRAPH','¶ÎÂä');
-define('_XK_FONT_FORMATTED','¸ñÊ½»¯');
+define('_XK_FONT_MEDIUM','ï¿½ï¿½');
+define('_XK_FONT_LARGE','ï¿½ï¿½');
+define('_XK_FONT_XLARGE','ï¿½Ø´ï¿½');
+define('_XK_FONT_XXLARGE','ï¿½ï¿½ï¿½ï¿½');
+define('_XK_FONT_FORMAT','ï¿½ï¿½Ê½');
+define('_XK_FONT_NONE','ï¿½ï¿½');
+define('_XK_FONT_HEADING1','ï¿½ï¿½ï¿½ï¿½ 1');
+define('_XK_FONT_HEADING2','ï¿½ï¿½ï¿½ï¿½ 2');
+define('_XK_FONT_HEADING3','ï¿½ï¿½ï¿½ï¿½ 3');
+define('_XK_FONT_HEADING4','ï¿½ï¿½ï¿½ï¿½ 4');
+define('_XK_FONT_HEADING5','ï¿½ï¿½ï¿½ï¿½ 5');
+define('_XK_FONT_HEADING6','ï¿½ï¿½ï¿½ï¿½ 6');
+define('_XK_FONT_ADDRESS','ï¿½ï¿½Ö·');
+define('_XK_FONT_PARAGRAPH','ï¿½ï¿½ï¿½ï¿½');
+define('_XK_FONT_FORMATTED','ï¿½ï¿½Ê½ï¿½ï¿½');
 
-define('_XK_TOGLE_MODE','ÇÐ»»Ä£Ê½');
-define('_XK_ENABLECSS_MODE','ÆôÓÃCSS´Ó¶ø²é¿´ÕæÊµÐ§¹û');
-define('_XK_TABLEBORDERS_TOGGLE','ÇÐ»»±í¸ñ±ß¿òÄ£Ê½');
-define('_XK_UNDO','È¡Ïû');
-define('_XK_REDO','ÖØ¸´');
-define('_XK_FORECOLOR','ÑÕÉ«');
-define('_XK_HILITECOLOR','¸ßÁÁÏÔÊ¾');
-define('_XK_CUT','¼ôÇÐ');
-define('_XK_COPY','¿½±´');
-define('_XK_PASTE','Õ³Ìù');
-define('_XK_PASTESPECIAL','Õ³ÌùÌØÊâ¸ñÊ½...');
-define('_XK_PASTEINSTRUCTIONS','Ê¹ÓÃCtrl+vÕ³Ìù');
-define('_XK_BOLD','¼ÓÖØ');
-define('_XK_ITALIC','Ð±Ìå');
-define('_XK_UNDERLINE','ÏÂ»®Ïß');
-define('_XK_STRIKETHROUGH','ºá´©Ïß');
-define('_XK_REMOVEFORMAT','Çå³ý¸ñÊ½');
-define('_XK_JUSTIFYLEFT','×ó¶ÔÆë');
-define('_XK_JUSTIFYCENTER','¾ÓÖÐ');
-define('_XK_JUSTIFYRIGHT','ÓÒ¶ÔÆë');
-define('_XK_JUSTIFYFULL','Á½¶Ë¶ÔÆë');
-define('_XK_NEWPARAGRAPH','ÇÐ»»¶ÎÂä¸ñÊ½');
-define('_XK_INSERTORDEREDLIST','ÓÐÐòÁÐ±í');
-define('_XK_INSERTUNORDEREDLIST','ÎÞÐòÁÐ±í');
-define('_XK_SPELLCHECK','Æ´Ð´¼ì²é');
-define('_XK_PRINT','´òÓ¡');
-define('_XK_INDENT','Ôö¼ÓËõ½ø');
-define('_XK_OUTDENT','¼õÉÙËõ½ø');
-define('_XK_SUPERSCRIPT','ÉÏ½Ç±ê');
-define('_XK_SUBSCRIPT','ÏÂ½Ç±ê');
-define('_XK_CODE','´úÂë');
+define('_XK_TOGLE_MODE','ï¿½Ð»ï¿½Ä£Ê½');
+define('_XK_ENABLECSS_MODE','ï¿½ï¿½ï¿½ï¿½CSSï¿½Ó¶ï¿½ï¿½é¿´ï¿½ï¿½ÊµÐ§ï¿½ï¿½');
+define('_XK_TABLEBORDERS_TOGGLE','ï¿½Ð»ï¿½ï¿½ï¿½ï¿½ß¿ï¿½Ä£Ê½');
+define('_XK_UNDO','È¡ï¿½ï¿½');
+define('_XK_REDO','ï¿½Ø¸ï¿½');
+define('_XK_FORECOLOR','ï¿½ï¿½É«');
+define('_XK_HILITECOLOR','ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê¾');
+define('_XK_CUT','ï¿½ï¿½ï¿½ï¿½');
+define('_XK_COPY','ï¿½ï¿½ï¿½ï¿½');
+define('_XK_PASTE','Õ³ï¿½ï¿½');
+define('_XK_PASTESPECIAL','Õ³ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê½...');
+define('_XK_PASTEINSTRUCTIONS','Ê¹ï¿½ï¿½Ctrl+vÕ³ï¿½ï¿½');
+define('_XK_BOLD','ï¿½ï¿½ï¿½ï¿½');
+define('_XK_ITALIC','Ð±ï¿½ï¿½');
+define('_XK_UNDERLINE','ï¿½Â»ï¿½ï¿½ï¿½');
+define('_XK_STRIKETHROUGH','ï¿½á´©ï¿½ï¿½');
+define('_XK_REMOVEFORMAT','ï¿½ï¿½ï¿½ï¿½ï¿½Ê½');
+define('_XK_JUSTIFYLEFT','ï¿½ï¿½ï¿½ï¿½ï¿½');
+define('_XK_JUSTIFYCENTER','ï¿½ï¿½ï¿½ï¿½');
+define('_XK_JUSTIFYRIGHT','ï¿½Ò¶ï¿½ï¿½ï¿½');
+define('_XK_JUSTIFYFULL','ï¿½ï¿½ï¿½Ë¶ï¿½ï¿½ï¿½');
+define('_XK_NEWPARAGRAPH','ï¿½Ð»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê½');
+define('_XK_INSERTORDEREDLIST','ï¿½ï¿½ï¿½ï¿½ï¿½Ð±ï¿½');
+define('_XK_INSERTUNORDEREDLIST','ï¿½ï¿½ï¿½ï¿½ï¿½Ð±ï¿½');
+define('_XK_SPELLCHECK','Æ´Ð´ï¿½ï¿½ï¿½');
+define('_XK_PRINT','ï¿½ï¿½Ó¡');
+define('_XK_INDENT','ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½');
+define('_XK_OUTDENT','ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½');
+define('_XK_SUPERSCRIPT','ï¿½Ï½Ç±ï¿½');
+define('_XK_SUBSCRIPT','ï¿½Â½Ç±ï¿½');
+define('_XK_CODE','ï¿½ï¿½ï¿½ï¿½');
 define('_XK_QUOTE','Quote');
-define('_XK_CREATELINK','¼ÓÈëÁ´½Ó');
-define('_XK_UNLINK','Çå³ýÁ´½Ó');
-define('_XK_INSERTHORIZONTALRULE','²åÈëºáÏß');
-define('_XK_INSERTANCHOR','²åÈë&lt;a&gt;±ê¼Ç');
-define('_XK_CREATEQUICKTABLE','¿ìËÙ²åÈë±í¸ñ');
-define('_XK_INSERTIMAGE','²åÈëÍ¼Æ¬');
-define('_XK_INSERTIMAGEM','Í¼Æ¬¹ÜÀíÆ÷');
-define('_XK_FLOAT','ÇÐ»»¹¤¾ßÀ¸¸ñÊ½');
-define('_XK_SYMBOLS','·ûºÅ');
-define('_XK_INSERTDATE','²åÈëÊ±¼äÈÕÆÚ');
-define('_XK_CLASS','Àà');
+define('_XK_CREATELINK','ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½');
+define('_XK_UNLINK','ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½');
+define('_XK_INSERTHORIZONTALRULE','ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½');
+define('_XK_INSERTANCHOR','ï¿½ï¿½ï¿½ï¿½&lt;a&gt;ï¿½ï¿½ï¿½');
+define('_XK_CREATEQUICKTABLE','ï¿½ï¿½ï¿½Ù²ï¿½ï¿½ï¿½ï¿½ï¿½');
+define('_XK_INSERTIMAGE','ï¿½ï¿½ï¿½ï¿½Í¼Æ¬');
+define('_XK_INSERTIMAGEM','Í¼Æ¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½');
+define('_XK_FLOAT','ï¿½Ð»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê½');
+define('_XK_SYMBOLS','ï¿½ï¿½ï¿½ï¿½');
+define('_XK_INSERTDATE','ï¿½ï¿½ï¿½ï¿½Ê±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½');
+define('_XK_CLASS','ï¿½ï¿½');
 
 //Image properties dialog
-define('_XK_EDITIMAGE','±à¼­Í¼Æ¬');
+define('_XK_EDITIMAGE','ï¿½à¼­Í¼Æ¬');
 define('_XK_IMAGE','Image');
-define('_XK_IMAGEWIDTH','¿í¶È');
-define('_XK_IMAGEHEIGHT','¸ß¶È');
-define('_XK_IMAGEPROPS','ÊôÐÔ');
-define('_XK_MARGINS','±ßÏ¶');
+define('_XK_IMAGEWIDTH','ï¿½ï¿½ï¿½');
+define('_XK_IMAGEHEIGHT','ï¿½ß¶ï¿½');
+define('_XK_IMAGEPROPS','ï¿½ï¿½ï¿½ï¿½');
+define('_XK_MARGINS','ï¿½ï¿½Ï¶');
 define('_XK_ALT','Alt');
-define('_XK_SRC','µØÖ·');
-define('_XK_IMAGEALIGN','¶ÔÆë·½Ê½');
-define('_XK_HSPACE','´¹Ö±¼ä¾à');
-define('_XK_VSPACE','Ë®Æ½¼ä¾à');
-define('_XK_BWIDTH','¿í¶È');
+define('_XK_SRC','ï¿½ï¿½Ö·');
+define('_XK_IMAGEALIGN','ï¿½ï¿½ï¿½ë·½Ê½');
+define('_XK_HSPACE','ï¿½ï¿½Ö±ï¿½ï¿½ï¿½');
+define('_XK_VSPACE','Ë®Æ½ï¿½ï¿½ï¿½');
+define('_XK_BWIDTH','ï¿½ï¿½ï¿½');
 
 //table dialog
-define('_XK_INSERTTABLE','²åÈë±í¸ñ');
-define('_XK_EDITTABLE','±à¼­±í¸ñ');
-define('_XK_ROWS','ÐÐÊý');
-define('_XK_COLS','ÁÐÊý');
-define('_XK_WIDTH','¿í¶È');
-define('_XK_HEIGHT','¸ß¶È');
-define('_XK_UNITS','µ¥Î»');
-define('_XK_BORDER','±ß¿ò');
-define('_XK_HALIGNMENT','Ë®Æ½¶ÔÆë·½Ê½');
-define('_XK_VALIGNMENT','´¹Ö±¶ÔÆë·½Ê½');
-define('_XK_SPACING','µ¥Ôª¼ä¾Ý(Spacing)');
-define('_XK_PADDING','µ¥Ôª¼äÏ¶(Padding)');
+define('_XK_INSERTTABLE','ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½');
+define('_XK_EDITTABLE','ï¿½à¼­ï¿½ï¿½ï¿½');
+define('_XK_ROWS','ï¿½ï¿½ï¿½ï¿½');
+define('_XK_COLS','ï¿½ï¿½ï¿½ï¿½');
+define('_XK_WIDTH','ï¿½ï¿½ï¿½');
+define('_XK_HEIGHT','ï¿½ß¶ï¿½');
+define('_XK_UNITS','ï¿½ï¿½Î»');
+define('_XK_BORDER','ï¿½ß¿ï¿½');
+define('_XK_HALIGNMENT','Ë®Æ½ï¿½ï¿½ï¿½ë·½Ê½');
+define('_XK_VALIGNMENT','ï¿½ï¿½Ö±ï¿½ï¿½ï¿½ë·½Ê½');
+define('_XK_SPACING','ï¿½ï¿½Ôªï¿½ï¿½ï¿½(Spacing)');
+define('_XK_PADDING','ï¿½ï¿½Ôªï¿½ï¿½Ï¶(Padding)');
 define('_XK_LEFT','Left');
 define('_XK_RIGHT','Right');
 define('_XK_CENTER','Center');
@@ -130,59 +130,59 @@ define('_XK_BOTTOM','Bottom');
 define('_XK_ABSBOTTOM','Absolute Bottom');
 define('_XK_BASELINE','Baseline');
 define('_XK_DEFAULT','Default');
-define('_XK_BORDERCOLOR','±ß¿òÑÕÉ«');
-define('_XK_BCOLLPASE','±à¿òÖØµþ');
+define('_XK_BORDERCOLOR','ï¿½ß¿ï¿½ï¿½ï¿½É«');
+define('_XK_BCOLLPASE','ï¿½ï¿½ï¿½ï¿½Øµï¿½');
 
 
 //table tools
-define('_XK_INSERTCELL','²åÈëµ¥Ôª');
-define('_XK_INSERTCOL','²åÈëÁÐ');
-define('_XK_INSERTROW','²åÈëÐÐ');
-define('_XK_DELCELL','É¾³ýµ¥Ôª');
-define('_XK_DELROW','É¾³ýÐÐ');
-define('_XK_DELCOL','É¾³ýÁÐ');
-define('_XK_TABLEPROPS','±í¸ñÊôÐÔ');
-define('_XK_TABLETOOLS','±í¸ñ¹¤¾ß');
-define('_XK_MORECOLSPAN','Ôö¼ÓÁÐ²ð·Ö');
-define('_XK_LESSCOLSPAN','¼õÉÙÁÐ²ð·Ö');
-define('_XK_MOREROWSPAN','Ôö¼ÓÐÐ²ð·Ö');
-define('_XK_LESSROWSPAN','¼õÉÙ²ð·Ö');
+define('_XK_INSERTCELL','ï¿½ï¿½ï¿½ëµ¥Ôª');
+define('_XK_INSERTCOL','ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½');
+define('_XK_INSERTROW','ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½');
+define('_XK_DELCELL','É¾ï¿½ï¿½ï¿½ï¿½Ôª');
+define('_XK_DELROW','É¾ï¿½ï¿½ï¿½ï¿½');
+define('_XK_DELCOL','É¾ï¿½ï¿½ï¿½ï¿½');
+define('_XK_TABLEPROPS','ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½');
+define('_XK_TABLETOOLS','ï¿½ï¿½ñ¹¤¾ï¿½');
+define('_XK_MORECOLSPAN','ï¿½ï¿½ï¿½ï¿½ï¿½Ð²ï¿½ï¿½');
+define('_XK_LESSCOLSPAN','ï¿½ï¿½ï¿½ï¿½ï¿½Ð²ï¿½ï¿½');
+define('_XK_MOREROWSPAN','ï¿½ï¿½ï¿½ï¿½ï¿½Ð²ï¿½ï¿½');
+define('_XK_LESSROWSPAN','ï¿½ï¿½ï¿½Ù²ï¿½ï¿½');
 
 //CELL TOOLS
-define('_XK_IMGBACK','±³¾°É«');
-define('_XK_CELLALIGN','µ¥ÔªÅÅÁÐ·½Ê½');
-define('_XK_CELLPROPS','µ¥ÔªÊôÐÔ');
-define('_XK_CELLALIGNLEFTTOP','×ó¶¥');
-define('_XK_CELLALIGNLEFTMIDDLE','×óÖÐ');
-define('_XK_CELLALIGNLEFTBOTTOM','×óµ×');
-define('_XK_CELLALIGNRIGHTTOP','ÓÒ¶¥');
-define('_XK_CELLALIGNRIGHTMIDDLE','ÓÒÖÐ');
-define('_XK_CELLALIGNRIGHTBOTTOM','ÓÒµ×');
-define('_XK_CELLALIGNCENTERTOP','ÖÐ¶¥');
-define('_XK_CELLALIGNCENTERMIDDLE','ÖÐÖÐ');
-define('_XK_CELLALIGNCENTERBOTTOM','ÖÐµ×');
-define('_XK_PREVIEW','Ô¤ÀÀ');
-define('_XK_OTHERS','ÆäËü');
-define('_XK_CELLOVERFLOW','³¬½ç´¦Àí');
-define('_XK_CELLWIDTH','¿í');
-define('_XK_CELLHEIGHT','¸ß');
-define('_XK_CELLPADDING','µ¥Ôª¼äÏ¶');
+define('_XK_IMGBACK','ï¿½ï¿½ï¿½ï¿½É«');
+define('_XK_CELLALIGN','ï¿½ï¿½Ôªï¿½ï¿½ï¿½Ð·ï¿½Ê½');
+define('_XK_CELLPROPS','ï¿½ï¿½Ôªï¿½ï¿½ï¿½ï¿½');
+define('_XK_CELLALIGNLEFTTOP','ï¿½ï¿½');
+define('_XK_CELLALIGNLEFTMIDDLE','ï¿½ï¿½ï¿½ï¿½');
+define('_XK_CELLALIGNLEFTBOTTOM','ï¿½ï¿½ï¿½');
+define('_XK_CELLALIGNRIGHTTOP','ï¿½Ò¶ï¿½');
+define('_XK_CELLALIGNRIGHTMIDDLE','ï¿½ï¿½ï¿½ï¿½');
+define('_XK_CELLALIGNRIGHTBOTTOM','ï¿½Òµï¿½');
+define('_XK_CELLALIGNCENTERTOP','ï¿½Ð¶ï¿½');
+define('_XK_CELLALIGNCENTERMIDDLE','ï¿½ï¿½ï¿½ï¿½');
+define('_XK_CELLALIGNCENTERBOTTOM','ï¿½Ðµï¿½');
+define('_XK_PREVIEW','Ô¤ï¿½ï¿½');
+define('_XK_OTHERS','ï¿½ï¿½ï¿½ï¿½');
+define('_XK_CELLOVERFLOW','ï¿½ï¿½ï¿½ç´¦ï¿½ï¿½');
+define('_XK_CELLWIDTH','ï¿½ï¿½');
+define('_XK_CELLHEIGHT','ï¿½ï¿½');
+define('_XK_CELLPADDING','ï¿½ï¿½Ôªï¿½ï¿½Ï¶');
 
 //BORDERS
-define('_XK_BORDERS','±ß¿ò');
-define('_XK_BORDERSWIDTH','±ß¿ò¿í¶È');
-define('_XK_BORDERLEFT','×ó±ß¿ò');
-define('_XK_BORDERRIGHT','ÓÒ±ß¿ò');
-define('_XK_BORDERTOP','¶¥±ß¿ò');
-define('_XK_BORDERBOTTOM','µ×±ß¿ò');
+define('_XK_BORDERS','ï¿½ß¿ï¿½');
+define('_XK_BORDERSWIDTH','ï¿½ß¿ï¿½ï¿½ï¿½');
+define('_XK_BORDERLEFT','ï¿½ï¿½ß¿ï¿½');
+define('_XK_BORDERRIGHT','ï¿½Ò±ß¿ï¿½');
+define('_XK_BORDERTOP','ï¿½ï¿½ï¿½ß¿ï¿½');
+define('_XK_BORDERBOTTOM','ï¿½×±ß¿ï¿½');
 
 //REMOVE FORMAT
-define('_XK_REMOVE_DESC','Çå³ý¸ñÊ½¹¤¾ß');
-define('_XK_REMOVE_LINEBREAKS','Çå³ý»»ÐÐ·û');
-define('_XK_REMOVE_SPANF','Çå³ý <strong>&lt;span&gt;</strong>');
-define('_XK_REMOVE_FONTF','Çå³ý <strong>&lt;font&gt;</strong>');
-define('_XK_REMOVE_WORDF','Çå³ýWordÎÄµµ¸ñÊ½');
-define('_XK_REMOVE_EMPTYF','Çå³ý¿ÕTAG');
-define('_XK_REMOVE_ALLF','Çå³ýËùÓÐ¸ñÊ½');
-define('_XK_CLOSE_APASTE','Õ³Ìùºó¹Ø±Õ´°¿Ú');
+define('_XK_REMOVE_DESC','ï¿½ï¿½ï¿½ï¿½ï¿½Ê½ï¿½ï¿½ï¿½ï¿½');
+define('_XK_REMOVE_LINEBREAKS','ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð·ï¿½');
+define('_XK_REMOVE_SPANF','ï¿½ï¿½ï¿½ <strong>&lt;span&gt;</strong>');
+define('_XK_REMOVE_FONTF','ï¿½ï¿½ï¿½ <strong>&lt;font&gt;</strong>');
+define('_XK_REMOVE_WORDF','ï¿½ï¿½ï¿½Wordï¿½Äµï¿½ï¿½ï¿½Ê½');
+define('_XK_REMOVE_EMPTYF','ï¿½ï¿½ï¿½ï¿½ï¿½TAG');
+define('_XK_REMOVE_ALLF','ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð¸ï¿½Ê½');
+define('_XK_CLOSE_APASTE','Õ³ï¿½ï¿½ï¿½ï¿½Ø±Õ´ï¿½ï¿½ï¿½');
 ?>

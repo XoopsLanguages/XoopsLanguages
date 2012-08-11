@@ -37,8 +37,8 @@ define('_PM_DATE','Datum');
 define('_PM_NOTREAD','Nepročitano');
 define('_PM_SEND','Pošalji');
 define('_PM_DELETE','Izbriši');
-define('_PM_REPLY', 'Odgovori');
+define('_PM_REPLY','Odgovori');
 define('_PM_PLZREG','Za slanje privatnih poruka morate biti registrirani!');
-define('_PM_ONLINE', 'Online');
+define('_PM_ONLINE','Online');
 
 ?>

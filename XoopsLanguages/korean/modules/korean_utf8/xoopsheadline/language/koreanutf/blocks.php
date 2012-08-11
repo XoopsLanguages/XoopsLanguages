@@ -31,6 +31,6 @@
 
 // Blocks
 
-define('_MB_HEADLINES_DISPLAYF', '사이트 로고 표시');
-define('_MB_HEADLINES_MAXITEM', '헤드라인별 최대 표시기사 수');
+define('_MB_HEADLINES_DISPLAYF','사이트 로고 표시');
+define('_MB_HEADLINES_MAXITEM','헤드라인별 최대 표시기사 수');
 ?>

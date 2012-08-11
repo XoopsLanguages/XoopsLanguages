@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 /**
  * @copyright   The XOOPS Project http://sourceforge.net/projects/xoops/
  * @license     http://www.fsf.org/copyleft/gpl.html GNU public license
@@ -9,7 +9,7 @@
  */
 
 //Nav
-define("_AM_SYSTEM_MAINTENANCE_NAV_MANAGER", "Održavanje");
+define("_AM_SYSTEM_MAINTENANCE_NAV_MANAGER","Održavanje");
 define("_AM_SYSTEM_MAINTENANCE_NAV_LIST","Održavanje svega");
 define("_AM_SYSTEM_MAINTENANCE_NAV_DUMP","Deponij");
 
@@ -52,16 +52,16 @@ define("_AM_SYSTEM_MAINTENANCE_TABLES_ANALYZE","Analiziranje");
 define("_AM_SYSTEM_MAINTENANCE_DUMP","Deponij");
 define("_AM_SYSTEM_MAINTENANCE_DUMP_TABLES_OR_MODULES","Izaberite tablice ili module");
 define("_AM_SYSTEM_MAINTENANCE_DUMP_DROP","Dodavanje komande DROP TABLE IF EXISTS 'tablica' u deponiju");
-define("_AM_SYSTEM_MAINTENANCE_DUMP_OR", "ILI");
-define("_AM_SYSTEM_MAINTENANCE_DUMP_AND", "I");
-define("_AM_SYSTEM_MAINTENANCE_DUMP_ERROR_TABLES_OR_MODULES", "Morate izabrati tablice ili module");
-define("_AM_SYSTEM_MAINTENANCE_DUMP_NO_TABLES", "Nema tablica");
-define("_AM_SYSTEM_MAINTENANCE_DUMP_TABLES", "Tablice");
-define("_AM_SYSTEM_MAINTENANCE_DUMP_STRUCTURES", "Strukture");
-define("_AM_SYSTEM_MAINTENANCE_DUMP_NB_RECORDS", "Broj zapisa");
-define("_AM_SYSTEM_MAINTENANCE_DUMP_FILE_CREATED", "Stvoreno datoteka");
-define("_AM_SYSTEM_MAINTENANCE_DUMP_RESULT", "Rezultat");
-define("_AM_SYSTEM_MAINTENANCE_DUMP_RECORDS", "zapis(a)");
+define("_AM_SYSTEM_MAINTENANCE_DUMP_OR","ILI");
+define("_AM_SYSTEM_MAINTENANCE_DUMP_AND","I");
+define("_AM_SYSTEM_MAINTENANCE_DUMP_ERROR_TABLES_OR_MODULES","Morate izabrati tablice ili module");
+define("_AM_SYSTEM_MAINTENANCE_DUMP_NO_TABLES","Nema tablica");
+define("_AM_SYSTEM_MAINTENANCE_DUMP_TABLES","Tablice");
+define("_AM_SYSTEM_MAINTENANCE_DUMP_STRUCTURES","Strukture");
+define("_AM_SYSTEM_MAINTENANCE_DUMP_NB_RECORDS","Broj zapisa");
+define("_AM_SYSTEM_MAINTENANCE_DUMP_FILE_CREATED","Stvoreno datoteka");
+define("_AM_SYSTEM_MAINTENANCE_DUMP_RESULT","Rezultat");
+define("_AM_SYSTEM_MAINTENANCE_DUMP_RECORDS","zapis(a)");
 
 // Tips
 define("_AM_SYSTEM_MAINTENANCE_TIPS", 

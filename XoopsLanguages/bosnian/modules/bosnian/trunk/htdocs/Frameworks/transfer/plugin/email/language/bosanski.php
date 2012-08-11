@@ -14,9 +14,9 @@
  * @subpackage      transfer
  */
  
-define("_MD_TRANSFER_EMAIL", "Email");
-define("_MD_TRANSFER_EMAIL_DESC", "Po&scaron;alji email");
-define("_MD_TRANSFER_EMAIL_ADDRESS", "Email adresa");
-define("_MD_TRANSFER_EMAIL_TITLE", "Naslov");
-define("_MD_TRANSFER_EMAIL_CONTENT", "Sadr&#382;aj");
+define("_MD_TRANSFER_EMAIL","Email");
+define("_MD_TRANSFER_EMAIL_DESC","Po&scaron;alji email");
+define("_MD_TRANSFER_EMAIL_ADDRESS","Email adresa");
+define("_MD_TRANSFER_EMAIL_TITLE","Naslov");
+define("_MD_TRANSFER_EMAIL_CONTENT","Sadr&#382;aj");
 ?>

@@ -2,8 +2,8 @@
 
 // mymenu
 define('_MD_A_MYMENU_MYTPLSADMIN','');
-define('_MD_A_MYMENU_MYBLOCKSADMIN','Blok Pode¹avanja');
-define('_MD_A_MYMENU_MYPREFERENCES','Pode¹avanja');
+define('_MD_A_MYMENU_MYBLOCKSADMIN','Blok PodeÂ¹avanja');
+define('_MD_A_MYMENU_MYPREFERENCES','PodeÂ¹avanja');
 
 // index.php
 define("_AM_TH_DATETIME","Vrijeme");
@@ -13,31 +13,31 @@ define("_AM_TH_AGENT","AGENT");
 define("_AM_TH_TYPE","Type");
 define("_AM_TH_DESCRIPTION","Opis");
 
-define( "_AM_TH_BADIPS" , 'Lo&scaron;e IP<br /><br /><span style="font-weight:normal;">Svaka IP adresa u novi red<br />Ako je prazno polje za IP adrese onda je svakoj IP dozvoljen pristup stranici</span>' ) ;
+define("_AM_TH_BADIPS" , 'Lo&scaron;e IP<br /><br /><span style="font-weight:normal;">Svaka IP adresa u novi red<br />Ako je prazno polje za IP adrese onda je svakoj IP dozvoljen pristup stranici</span>' ) ;
 
-define( "_AM_TH_GROUP1IPS" , 'Odobrene IP adrese za Grupe=1<br /><br /><span style="font-weight:normal;">Svaka IP adresa u novi red.<br />192.168. zna&#269;i 192.168.*<br />Ako je prazno polje za IP adrese onda je svakoj IP dozvoljen pristup administraciji</span>' ) ;
+define("_AM_TH_GROUP1IPS" , 'Odobrene IP adrese za Grupe=1<br /><br /><span style="font-weight:normal;">Svaka IP adresa u novi red.<br />192.168. zna&#269;i 192.168.*<br />Ako je prazno polje za IP adrese onda je svakoj IP dozvoljen pristup administraciji</span>' ) ;
 
-define( "_AM_LABEL_COMPACTLOG" , "Kompaktni protokol" ) ;
-define( "_AM_BUTTON_COMPACTLOG" , "Kompaktiraj ga!" ) ;
-define( "_AM_JS_COMPACTLOGCONFIRM" , "Duple (IP,Typovi) bi&#263;e iz arhive izbrisani" ) ;
-define( "_AM_LABEL_REMOVEALL" , "Izbri&scaron;i sve iz arhive" ) ;
-define( "_AM_BUTTON_REMOVEALL" , "Izbri&scaron;i sve!" ) ;
-define( "_AM_JS_REMOVEALLCONFIRM" , "Svi protokoli bi&#263;e iz arhive izbrisani, OK?" ) ;
-define( "_AM_LABEL_REMOVE" , "Markirane izvje&scaron;taje izbri&scaron;i:" ) ;
-define( "_AM_BUTTON_REMOVE" , "Izbri&scaron;i!" ) ;
-define( "_AM_JS_REMOVECONFIRM" , "Izbrisati treba,jel OK?" ) ;
-define( "_AM_MSG_IPFILESUPDATED" , "Podaci za IP adrese su aktulizirani" ) ;
-define( "_AM_MSG_BADIPSCANTOPEN" , "Podatak za lo&scaron;e IP adrese se nemo&#382;e otvoriti" ) ;
-define( "_AM_MSG_GROUP1IPSCANTOPEN" , "Podatak za Grupe=1 se nemo&#382;e otvoriti" ) ;
-define( "_AM_MSG_REMOVED" , "Izvje&scaron;aji su izbrisani" ) ;
-define( "_AM_FMT_CONFIGSNOTWRITABLE" , "Ovaj direktorij mora biti odobren za systemsko upisivanje(cmod): %s" ) ;
+define("_AM_LABEL_COMPACTLOG" , "Kompaktni protokol" ) ;
+define("_AM_BUTTON_COMPACTLOG" , "Kompaktiraj ga!" ) ;
+define("_AM_JS_COMPACTLOGCONFIRM" , "Duple (IP,Typovi) bi&#263;e iz arhive izbrisani" ) ;
+define("_AM_LABEL_REMOVEALL" , "Izbri&scaron;i sve iz arhive" ) ;
+define("_AM_BUTTON_REMOVEALL" , "Izbri&scaron;i sve!" ) ;
+define("_AM_JS_REMOVEALLCONFIRM" , "Svi protokoli bi&#263;e iz arhive izbrisani, OK?" ) ;
+define("_AM_LABEL_REMOVE" , "Markirane izvje&scaron;taje izbri&scaron;i:" ) ;
+define("_AM_BUTTON_REMOVE" , "Izbri&scaron;i!" ) ;
+define("_AM_JS_REMOVECONFIRM" , "Izbrisati treba,jel OK?" ) ;
+define("_AM_MSG_IPFILESUPDATED" , "Podaci za IP adrese su aktulizirani" ) ;
+define("_AM_MSG_BADIPSCANTOPEN" , "Podatak za lo&scaron;e IP adrese se nemo&#382;e otvoriti" ) ;
+define("_AM_MSG_GROUP1IPSCANTOPEN" , "Podatak za Grupe=1 se nemo&#382;e otvoriti" ) ;
+define("_AM_MSG_REMOVED" , "Izvje&scaron;aji su izbrisani" ) ;
+define("_AM_FMT_CONFIGSNOTWRITABLE" , "Ovaj direktorij mora biti odobren za systemsko upisivanje(cmod): %s" ) ;
 
 
 // prefix_manager.php
-define( "_AM_H3_PREFIXMAN" , "Prefix Menadzer" ) ;
-define( "_AM_MSG_DBUPDATED" , "Baza podataka je uspje&scaron;no aktulizirana!" ) ;
-define( "_AM_CONFIRM_DELETE" , "Svi podaci bi&#263;e izbrisani. OK?" ) ;
-define( "_AM_TXT_HOWTOCHANGEDB" , "Ako Prefix mjenjati &#382;eli&scaron;<br /> uredi %s/mainfile.php manuelno.<br /><br />define('XOOPS_DB_PREFIX', '<b>%s</b>');" ) ;
+define("_AM_H3_PREFIXMAN" , "Prefix Menadzer" ) ;
+define("_AM_MSG_DBUPDATED" , "Baza podataka je uspje&scaron;no aktulizirana!" ) ;
+define("_AM_CONFIRM_DELETE" , "Svi podaci bi&#263;e izbrisani. OK?" ) ;
+define("_AM_TXT_HOWTOCHANGEDB" , "Ako Prefix mjenjati &#382;eli&scaron;<br /> uredi %s/mainfile.php manuelno.<br /><br />define('XOOPS_DB_PREFIX','<b>%s</b>');" ) ;
 
 
 // advisory.php
@@ -57,13 +57,13 @@ define("_AM_ADV_CHECKCONTAMI","Infekcije");
 define("_AM_ADV_CHECKISOCOM","Isolirani komentari");
 
 // Localization by ezsky
-define("_AM_EZ_PREFIX", "Prefix");
-define("_AM_EZ_TABLES", "Tabele");
-define("_AM_EZ_UPDATED", "Aktulizirano");
-define("_AM_EZ_COPY", "Copy");
-define("_AM_EZ_ACTIONS", "Akcija");
-define("_AM_EZ_BACKUP", "Backup");
-define("_AM_EZ_DELETE", "Izbri&scaron;i");
+define("_AM_EZ_PREFIX","Prefix");
+define("_AM_EZ_TABLES","Tabele");
+define("_AM_EZ_UPDATED","Aktulizirano");
+define("_AM_EZ_COPY","Copy");
+define("_AM_EZ_ACTIONS","Akcija");
+define("_AM_EZ_BACKUP","Backup");
+define("_AM_EZ_DELETE","Izbri&scaron;i");
 
 
 ?>

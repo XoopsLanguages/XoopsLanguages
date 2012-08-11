@@ -1,7 +1,7 @@
 <?php
 // $Id: error.php,v 1.1.2.2 2005/07/28 07:47:29 mithyt2 Exp $
 // Error messages
-define("SYSTEM_ERROR1", "[b]Why am I being redirected here?[/b]
+define("SYSTEM_ERROR1","[b]Why am I being redirected here?[/b]
 
 {SITE_NAME} site security has detected that your computer has a firewall setting that is preventing you from registering on the site. We use 'Referrer-checking' know as HTTP_REFERER which makes sure that all contents posted are from authorised users only. Your firewall settings are blocking this information, so this will prevent you from registering properly if you try and proceed. 
 

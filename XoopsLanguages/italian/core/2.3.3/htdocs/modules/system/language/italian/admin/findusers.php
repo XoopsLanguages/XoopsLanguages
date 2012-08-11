@@ -18,8 +18,8 @@ define("_AM_PREVIOUS","Precedente");
 define("_AM_NEXT","Successivo");
 define("_AM_USERSFOUND","%s utenti(i) trovato(i)");
 
-define("_AM_ACTUS", "Utenti attivi: %s");
-define("_AM_INACTUS", "Utenti non attivi: %s");
+define("_AM_ACTUS","Utenti attivi: %s");
+define("_AM_INACTUS","Utenti non attivi: %s");
 define("_AM_NOFOUND","Nessun utente trovato");
 define("_AM_UNAME","Nome utente");
 define("_AM_ICQ","ICQ");
@@ -43,16 +43,16 @@ define("_AM_POSTS","Numero di messaggi");
 define("_AM_ASC","Ordine crescente");
 define("_AM_DESC","Ordine decrescente");
 define("_AM_LIMIT","Numero di utenti per pagina");
-define("_AM_RESULTS", "Risultati della ricerca");
-define("_AM_SHOWMAILOK", "Tipo di utenti da mostrare");
+define("_AM_RESULTS","Risultati della ricerca");
+define("_AM_SHOWMAILOK","Tipo di utenti da mostrare");
 define("_AM_MAILOK","Solo gli utenti che accettano le email");
 define("_AM_MAILNG","Solo gli utenti che non accettano le email");
-define("_AM_SHOWTYPE", "Stato degli utenti");
+define("_AM_SHOWTYPE","Stato degli utenti");
 define("_AM_ACTIVE","Solo utenti attivi");
 define("_AM_INACTIVE","Solo utenti non attivi");
-define("_AM_BOTH", "Tutti gli utenti");
-define("_AM_SENDMAIL", "Invia un email");
-define("_AM_ADD2GROUP", "Aggiungi gli utenti al gruppo %s");
+define("_AM_BOTH","Tutti gli utenti");
+define("_AM_SENDMAIL","Invia un email");
+define("_AM_ADD2GROUP","Aggiungi gli utenti al gruppo %s");
 
-define("_AM_GROUPS", "Gruppi");
+define("_AM_GROUPS","Gruppi");
 ?>

@@ -29,39 +29,39 @@
 // ------------------------------------------------------------------------- //
 
 //xoops_version.php
-define('_MI_RWBANNER_NAME', 'پیام نما');
-define('_MI_RWBANNER_DESC', 'سیستمی برای نمایش و مدیریت بلاک ها.');
-define('_MI_RWBANNER_DIR_NAME', 'rw_banner');
+define('_MI_RWBANNER_NAME','پیام نما');
+define('_MI_RWBANNER_DESC','سیستمی برای نمایش و مدیریت بلاک ها.');
+define('_MI_RWBANNER_DIR_NAME','rw_banner');
 
-define('_MI_RWBANNER_TABLE1', 'rw_بنر های');
-define('_MI_RWBANNER_TABLE2', 'rw_شاخه های');
-define('_MI_RWBANNER_TABLE3', 'rw_تگ های');
+define('_MI_RWBANNER_TABLE1','rw_بنر های');
+define('_MI_RWBANNER_TABLE2','rw_شاخه های');
+define('_MI_RWBANNER_TABLE3','rw_تگ های');
 
-define('_MI_RWBLOCK1_NAME', 'بنر تصادفی');
-define('_MI_RWBLOCK1_NAME_DESC', 'ساخت بلاک از 1 یا تعداد بیشتری بنر');
-define('_MI_RWBLOCK2_NAME', 'آمار مشتری');
-define('_MI_RWBLOCK2_NAME_DESC', 'ساخت بلاک برای نمایش به مشتری در مورد آمار بنر هایش');
-define('_MI_RWBLOCK3_NAME', 'بنر های DHTML');
-define('_MI_RWBLOCK3_NAME_DESC', 'ایجاد یک بلاک که پنجره ای با فرمت DHTML را با زمان بسته شدن اتوماتیک در وسط صفحه نمایان می کند.');
-define('_MI_RWBLOCK4_NAME', 'بنر های AJAX');
-define('_MI_RWBLOCK4_NAME_DESC', 'ساخت بلاک برای نمایش بنر و استفاده از تکنولوژی AJAX برای نمایش و ریفرش بنر ها.');
-define('_MI_RWBLOCK5_NAME', 'بنر های Drop-in');
-define('_MI_RWBLOCK5_NAME_DESC', 'ایجاد یک بلاک محتوی یک DHTML باکس که در صفحه با بنرهای درخواستی نمایان می شود.');
-define('_MI_RWBLOCK6_NAME', 'بنر لایت باکس');
-define('_MI_RWBLOCK6_NAME_DESC', 'نمایش بنرها با فرمت DHTML DIV full به همراه جلوه های باحال.');
+define('_MI_RWBLOCK1_NAME','بنر تصادفی');
+define('_MI_RWBLOCK1_NAME_DESC','ساخت بلاک از 1 یا تعداد بیشتری بنر');
+define('_MI_RWBLOCK2_NAME','آمار مشتری');
+define('_MI_RWBLOCK2_NAME_DESC','ساخت بلاک برای نمایش به مشتری در مورد آمار بنر هایش');
+define('_MI_RWBLOCK3_NAME','بنر های DHTML');
+define('_MI_RWBLOCK3_NAME_DESC','ایجاد یک بلاک که پنجره ای با فرمت DHTML را با زمان بسته شدن اتوماتیک در وسط صفحه نمایان می کند.');
+define('_MI_RWBLOCK4_NAME','بنر های AJAX');
+define('_MI_RWBLOCK4_NAME_DESC','ساخت بلاک برای نمایش بنر و استفاده از تکنولوژی AJAX برای نمایش و ریفرش بنر ها.');
+define('_MI_RWBLOCK5_NAME','بنر های Drop-in');
+define('_MI_RWBLOCK5_NAME_DESC','ایجاد یک بلاک محتوی یک DHTML باکس که در صفحه با بنرهای درخواستی نمایان می شود.');
+define('_MI_RWBLOCK6_NAME','بنر لایت باکس');
+define('_MI_RWBLOCK6_NAME_DESC','نمایش بنرها با فرمت DHTML DIV full به همراه جلوه های باحال.');
 
-define('_MI_RW_DIRIMAGES', 'شاخهء بنر ها:');
-define('_MI_RW_DIRIMAGES_DESC', 'شاخهء پیشفرض آپلود بنر ها');
-define('_MI_RW_SHOWCADFORM', 'اجازه ی ثبت:');
-define('_MI_RW_SHOWCADFORM_DESC', 'اجازه به کاربران برای پر کردن فرم از طریق صفحهء اصلی ماژول اگر بر روی بله باشد، فرم نمایان خواهد بود.');
-define('_MI_RW_NUMREGISTROS', 'تعداد بنر ها:');
-define('_MI_RW_NUMREGISTROS_DESC', 'تعداد بنرهای نمایان در صفحهء مدیریتی.');
-define('_MI_RW_PERMCLIENT', 'مشتری میتواند بنر را عوض کند:');
-define('_MI_RW_PERMCLIENT_DESC', 'با انتخاب بله به مشتری اجازه میدهید بنر خود را عوض کند');
-define('_MI_RW_CAMPOSPERM', 'فیلد های مجاز:');
-define('_MI_RW_CAMPOSPERM_DESC', 'چنانچه امکا بالا فعال است، فیلد های مجاز برای ویرایش را انتخاب کنید.');
+define('_MI_RW_DIRIMAGES','شاخهء بنر ها:');
+define('_MI_RW_DIRIMAGES_DESC','شاخهء پیشفرض آپلود بنر ها');
+define('_MI_RW_SHOWCADFORM','اجازه ی ثبت:');
+define('_MI_RW_SHOWCADFORM_DESC','اجازه به کاربران برای پر کردن فرم از طریق صفحهء اصلی ماژول اگر بر روی بله باشد، فرم نمایان خواهد بود.');
+define('_MI_RW_NUMREGISTROS','تعداد بنر ها:');
+define('_MI_RW_NUMREGISTROS_DESC','تعداد بنرهای نمایان در صفحهء مدیریتی.');
+define('_MI_RW_PERMCLIENT','مشتری میتواند بنر را عوض کند:');
+define('_MI_RW_PERMCLIENT_DESC','با انتخاب بله به مشتری اجازه میدهید بنر خود را عوض کند');
+define('_MI_RW_CAMPOSPERM','فیلد های مجاز:');
+define('_MI_RW_CAMPOSPERM_DESC','چنانچه امکا بالا فعال است، فیلد های مجاز برای ویرایش را انتخاب کنید.');
 
-define('_MI_RWBANNER_HISTORY', '<b>=> ورژن (10/09/2006)<br/>
+define('_MI_RWBANNER_HISTORY','<b>=> ورژن (10/09/2006)<br/>
 ===================================<br/></b>
 <ul>
 <li>Finally, the counting problem for the flash banner was solved. Each action script of the banner module was rewritten and the bugs corrected.</li>
@@ -114,7 +114,7 @@ define('_MI_RWBANNER_HISTORY', '<b>=> ورژن (10/09/2006)<br/>
 <li>Public Release of the first test version.</li>
 </ul>');
 
-define('_MI_RWBANNER_AUTHOR_WORD_DESC', 'I thank all my friends at the
+define('_MI_RWBANNER_AUTHOR_WORD_DESC','I thank all my friends at the
  <a href=\'http://www.xoopstotal.com.br\' target=\'_blank\'>XoopsTotal</a> Comunity that they had helped with ideas and suggestions for the development of this module.
  A special gratefulness to the great friends
  <a href=\'http://www.xoopstotal.com.br/userinfo.php?uid=11\' target=\'_blank\'>Wilson</a> ,
@@ -123,36 +123,36 @@ define('_MI_RWBANNER_AUTHOR_WORD_DESC', 'I thank all my friends at the
 for the enormous aid, its shining ideas, translations and also for the contribution in all the phases of tests of the module.');
 
 // About.php constants
-define('_MI_RWBANNER_AUTHOR_INFO', 'توسعه دهنده');
-define('_MI_RWBANNER_DEVELOPER_LEAD', 'سرپرست توسعه دهندگی');
-define('_MI_RWBANNER_DEVELOPER_CONTRIBUTOR', 'شرکت کنندگان');
-define('_MI_RWBANNER_DEVELOPER_WEBSITE', 'سایت وب');
-define('_MI_RWBANNER_DEVELOPER_EMAIL', 'پست الکترونیکی');
-define('_MI_RWBANNER_DEVELOPER_CREDITS', 'اعتبارات');
-define('_MI_RWBANNER_MODULE_INFO', 'اطلاعات توسعه دهندگی ماژول');
-define('_MI_RWBANNER_MODULE_STATUS', 'وضعیت');
-define('_MI_RWBANNER_MODULE_RELEASE_DATE', 'تاریخ نسخه');
-define('_MI_RWBANNER_MODULE_DEMO', 'سایت نمایشی');
-define('_MI_RWBANNER_MODULE_SUPPORT', 'سایت رسمی پشتیبانی');
-define('_MI_RWBANNER_MODULE_BUG', 'گزارش دادن باگ های این ماژول');
-define('_MI_RWBANNER_MODULE_SUBMIT_BUG', 'اطلاع دادن یک باگ');
-define('_MI_RWBANNER_MODULE_FEATURE', 'پیشنهادات و امکاات جدید برای ماژول');
-define('_MI_RWBANNER_MODULE_SUBMIT_FEATURE', 'ارسال درخواست برای امکانات جدید');
-define('_MI_RWBANNER_MODULE_DISCLAIMER', 'حقوق');
-define('_MI_RWBANNER_AUTHOR_WORD', 'سخن سازنده');
-define('_MI_RWBANNER_VERSION_HISTORY', 'تاریخچهء نسخه');
-define('_MI_RWBANNER_BY', 'توسط');
+define('_MI_RWBANNER_AUTHOR_INFO','توسعه دهنده');
+define('_MI_RWBANNER_DEVELOPER_LEAD','سرپرست توسعه دهندگی');
+define('_MI_RWBANNER_DEVELOPER_CONTRIBUTOR','شرکت کنندگان');
+define('_MI_RWBANNER_DEVELOPER_WEBSITE','سایت وب');
+define('_MI_RWBANNER_DEVELOPER_EMAIL','پست الکترونیکی');
+define('_MI_RWBANNER_DEVELOPER_CREDITS','اعتبارات');
+define('_MI_RWBANNER_MODULE_INFO','اطلاعات توسعه دهندگی ماژول');
+define('_MI_RWBANNER_MODULE_STATUS','وضعیت');
+define('_MI_RWBANNER_MODULE_RELEASE_DATE','تاریخ نسخه');
+define('_MI_RWBANNER_MODULE_DEMO','سایت نمایشی');
+define('_MI_RWBANNER_MODULE_SUPPORT','سایت رسمی پشتیبانی');
+define('_MI_RWBANNER_MODULE_BUG','گزارش دادن باگ های این ماژول');
+define('_MI_RWBANNER_MODULE_SUBMIT_BUG','اطلاع دادن یک باگ');
+define('_MI_RWBANNER_MODULE_FEATURE','پیشنهادات و امکاات جدید برای ماژول');
+define('_MI_RWBANNER_MODULE_SUBMIT_FEATURE','ارسال درخواست برای امکانات جدید');
+define('_MI_RWBANNER_MODULE_DISCLAIMER','حقوق');
+define('_MI_RWBANNER_AUTHOR_WORD','سخن سازنده');
+define('_MI_RWBANNER_VERSION_HISTORY','تاریخچهء نسخه');
+define('_MI_RWBANNER_BY','توسط');
 // RC
-define('_MI_RWBANNER_WARNING_RC', 'This module is available as it is. This module is a Release Candidate and can not be used in a production site. This module is under active development and its use is of your own responsability, which means the authors are not responsible for any harms.');
+define('_MI_RWBANNER_WARNING_RC','This module is available as it is. This module is a Release Candidate and can not be used in a production site. This module is under active development and its use is of your own responsability, which means the authors are not responsible for any harms.');
 
 //admin/menu.php
-define('_ADM_MENU_TITLE1', 'صفحه ی اصلی');
-define('_ADM_MENU_TITLE2', 'بلاک ها/ گروه ها');
-define('_ADM_MENU_TITLE3', 'اضافه کردن بنر');
-define('_ADM_MENU_TITLE4', 'اضافه کردن نوع تبلیغ');
-define('_ADM_MENU_TITLE5', 'پشتیبانی');
-define('_ADM_MENU_TITLE6', 'درباره ی ماژول');
-define('_ADM_MENU_TITLE7', 'ویژگی ها');
-define('_ADM_MENU_TITLE8', 'اضافه کردن تگ ها');
+define('_ADM_MENU_TITLE1','صفحه ی اصلی');
+define('_ADM_MENU_TITLE2','بلاک ها/ گروه ها');
+define('_ADM_MENU_TITLE3','اضافه کردن بنر');
+define('_ADM_MENU_TITLE4','اضافه کردن نوع تبلیغ');
+define('_ADM_MENU_TITLE5','پشتیبانی');
+define('_ADM_MENU_TITLE6','درباره ی ماژول');
+define('_ADM_MENU_TITLE7','ویژگی ها');
+define('_ADM_MENU_TITLE8','اضافه کردن تگ ها');
 
 ?>

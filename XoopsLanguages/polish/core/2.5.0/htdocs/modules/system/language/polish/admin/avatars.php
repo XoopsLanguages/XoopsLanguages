@@ -8,11 +8,11 @@
  */
 
 // Navigation
-define("_AM_SYSTEM_AVATAR_MANAGER", "Menedżer avatarów");
+define("_AM_SYSTEM_AVATAR_MANAGER","Menedżer avatarów");
 define("_AM_SYSTEM_AVATAR_MAIN","Menadżer");
-define("_AM_SYSTEM_AVATAR_SYSTEM", "Avatary systemowe");
-define("_AM_SYSTEM_AVATAR_CUSTOM", "Avatary dodatkowe");
-define("_AM_SYSTEM_AVATAR_ADD", "Dodaj Avatar");
+define("_AM_SYSTEM_AVATAR_SYSTEM","Avatary systemowe");
+define("_AM_SYSTEM_AVATAR_CUSTOM","Avatary dodatkowe");
+define("_AM_SYSTEM_AVATAR_ADD","Dodaj Avatar");
 define("_AM_SYSTEM_AVATAR_EDIT","Edytuj Avatar");
 define("_AM_SYSTEM_AVATAR_DELETE","Usuń Avatar");
 

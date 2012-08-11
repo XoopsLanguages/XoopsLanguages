@@ -10,19 +10,19 @@
  * @since        2.2
  */
 
-// !!IMPORTANT!! insert '\' before any char among reserved chars: "a", "A", "B", "c", "d", "D", "F", "g", "G", "h", "H", "i", "I", "j", "l", "L", "m", "M", "n", "O", "r", "s", "S", "t", "T", "U", "w", "W", "Y", "y", "z", "Z"	
-// insert double '\' before 't', 'r', 'n'
+// !!IMPORTANT!! insert '\' before any char among reserved chars: "a","A","B","c","d","D","F","g","G","h","H","i","I","j","l","L","m","M","n","O","r","s","S","t","T","U","w","W","Y","y","z","Z"	
+// insert double '\' before 't','r','n'
 if(!defined("_YEARMONTHDAY")) {
-define("_TODAY", "امروز G:i:s");
-define("_YESTERDAY", "دیروز G:i:s");
-define("_MONTHDAY", "G:i:s l j F Y");
-define("_YEARMONTHDAY", "G:i l j F Y");
+define("_TODAY","امروز G:i:s");
+define("_YESTERDAY","دیروز G:i:s");
+define("_MONTHDAY","G:i:s l j F Y");
+define("_YEARMONTHDAY","G:i l j F Y");
 define("_JDF_USE_HEGIRADATE","1"); // change 1 to 0 if u dont want hegira date
 }
 
-define("_ELAPSE", "%s پیش");
+define("_ELAPSE","%s پیش");
 
-define("_TIMEFORMAT_DESC", "Valid formats: \"s\" - "._SHORTDATESTRING."; \"m\" - "._MEDIUMDATESTRING."; \"l\" - "._DATESTRING.";<br />".
+define("_TIMEFORMAT_DESC","Valid formats: \"s\" - "._SHORTDATESTRING."; \"m\" - "._MEDIUMDATESTRING."; \"l\" - "._DATESTRING.";<br />".
 							"\"c\" or \"custom\" - format determined according to interval to present; \"e\" - Elapsed; \"mysql\" - Y-m-d H:i:s;<br />".
 							"specified string - Refer to <a href=\"http://php.net/manual/en/function.date.php\" target=\"_blank\">PHP manual</a>."
 							);

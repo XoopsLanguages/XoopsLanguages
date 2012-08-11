@@ -5,7 +5,7 @@ $mytrustdirpath = dirname( __FILE__ ) ;
 
 // language files
 // Validates $xoopsConfig['language'] in case xoops_lib is located inside webroot
-$language = empty($xoopsConfig['language']) ? "english" : preg_replace("/[^a-z0-9_\-]/i", "", $xoopsConfig['language']);
+$language = empty($xoopsConfig['language']) ? "english" : preg_replace("/[^a-z0-9_\-]/i","", $xoopsConfig['language']);
 if( file_exists( "$mydirpath/language/$language/blocks.php" ) ) {
     // user customized language file (already read by class/xoopsblock.php etc)
     // include_once "$mydirpath/language/$language/blocks.php" ;

@@ -5,8 +5,8 @@
 // Translator: 2009-09-14 andrey3761
 
 // License
-define('LICENSE_NOT_WRITEABLE', 'Лицензия %s . <br/><font style="colour:#ff0000">Установите файлу ../include/license.php права на запись.</font>');
-define('LICENSE_IS_WRITEABLE', 'Лицензия %s');
+define('LICENSE_NOT_WRITEABLE','Лицензия %s . <br/><font style="colour:#ff0000">Установите файлу ../include/license.php права на запись.</font>');
+define('LICENSE_IS_WRITEABLE','Лицензия %s');
 
 define("_INSTALL_WEBMASTER","Web-Мастеры");
 define("_INSTALL_WEBMASTERD","Группа Web-Мастеров этого сайта");
@@ -17,18 +17,18 @@ define("_INSTALL_ANONUSERSD","Группа анонимных пользоват
 /**
 * New Group types
 */
-define('_INSTALL_BANNEDUSERS', 'Забаненые пользователи');
-define('_INSTALL_BANNEDUSERSD', 'Группа забаненых пользователей');
-define('_INSTALL_MODERATORUSERS', 'Модераторы');
-define('_INSTALL_MODERATORUSERSD', 'Модераторы сайта');
-define('_INSTALL_SUBMITTERUSERS', 'Отправители');
-define('_INSTALL_SUBMITTERUSERSD', 'Эта группа может отправлять статьи на сайт');
-define('_INSTALL_DEVELOPEUSERS', 'Разработчики');
-define('_INSTALL_DEVELOPEUSERSD', 'Этот пользователь имеет привилегии разработчика и может видеть отладочные сообщения.');
+define('_INSTALL_BANNEDUSERS','Забаненые пользователи');
+define('_INSTALL_BANNEDUSERSD','Группа забаненых пользователей');
+define('_INSTALL_MODERATORUSERS','Модераторы');
+define('_INSTALL_MODERATORUSERSD','Модераторы сайта');
+define('_INSTALL_SUBMITTERUSERS','Отправители');
+define('_INSTALL_SUBMITTERUSERSD','Эта группа может отправлять статьи на сайт');
+define('_INSTALL_DEVELOPEUSERS','Разработчики');
+define('_INSTALL_DEVELOPEUSERSD','Этот пользователь имеет привилегии разработчика и может видеть отладочные сообщения.');
 
 define("_INSTALL_L165","В настоящее время сайт закрыт на техническое обслуживание. Извините за предоставленные неудобства.");
 define("_INSTALL_ANON","Гость");
-define("_INSTALL_DISCLMR", "Администраторы и модераторы этого сайта будут
+define("_INSTALL_DISCLMR","Администраторы и модераторы этого сайта будут
 пытаться удалять или редактировать любой нежелательный материал настолько
 быстро, насколько это возможно, но невозможно просматривать каждое сообщение.
 Поэтому знайте, что все сообщения сделанные на этом сайте выражают точку

@@ -113,21 +113,21 @@ define("_MA_NW_BOOKMARK_TO_YAHOO","Bookmark to Yahoo");
 
 // Added in version 1.56
 define('_MA_NW_NOTYETSTORY',"Ten news zostanie opublikowany później. Odwiedź nas za jakiś czas.");
-define("_MA_NW_SELECT_IMAGE", "Wybierz obrazek do dołączenia do newsa");
-define("_MA_NW_CURENT_PICTURE", "Bieżący obrazek");
+define("_MA_NW_SELECT_IMAGE","Wybierz obrazek do dołączenia do newsa");
+define("_MA_NW_CURENT_PICTURE","Bieżący obrazek");
 
 // Added in version 1.68 BETA
-define("_MA_NW_SP", ":");
-define("_MA_NW_POSTED", "Wysłany");
+define("_MA_NW_SP",":");
+define("_MA_NW_POSTED","Wysłany");
 
 // Added in version 1.68 RC1
-define("_MA_NW_NO_COMMENT", "Brak komentarzy");
-define("_MA_NW_METASIZE", "Przepraszamy, ale nie możesz dodać więcej niż '+len+' znaków w polu któe właśnie wypełniłeś.");
+define("_MA_NW_NO_COMMENT","Brak komentarzy");
+define("_MA_NW_METASIZE","Przepraszamy, ale nie możesz dodać więcej niż '+len+' znaków w polu któe właśnie wypełniłeś.");
 
 // Added in version 1.68 RC3
-define("_MA_NW_SEO_TOPICS", "tematy");
-define("_MA_NW_SEO_ARTICLES", "newsy");
-define("_MA_NW_SEO_PRINT", "drukuj");
-define("_MA_NW_SEO_PDF", "pdf");
+define("_MA_NW_SEO_TOPICS","tematy");
+define("_MA_NW_SEO_ARTICLES","newsy");
+define("_MA_NW_SEO_PRINT","drukuj");
+define("_MA_NW_SEO_PDF","pdf");
 
 ?>

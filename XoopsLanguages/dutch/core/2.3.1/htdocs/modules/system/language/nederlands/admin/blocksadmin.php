@@ -59,24 +59,24 @@ define("_AM_RUSUREDEL","Weet je zeker dat je het blok <strong>%s</strong> wilt v
 define("_AM_NAME","Naam");
 define("_AM_USEFULTAGS","Handige Tags:");
 define("_AM_BLOCKTAG1","%s zal %s neerzetten");
-define('_AM_SVISIBLEIN', 'Blokken zichtbaar in %s');
-define('_AM_TOPPAGE', 'Home Pagina');
-define('_AM_VISIBLEIN', 'Zichtbaar in');
-define('_AM_ALLPAGES', "Alle Pagina's");
-define('_AM_TOPONLY', 'Alleen de Homepagina');
-define('_AM_ADVANCED', 'Geavanceerde instellingen');
-define('_AM_BCACHETIME', 'Cache levensduur');
-define('_AM_BALIAS', 'Alias naam');
-define('_AM_CLONE', 'Cloon');  // clone a block
-define('_AM_CLONEBLK', 'Cloon'); // cloned block
-define('_AM_CLONEBLOCK', 'Maak een cloon blok');
-define('_AM_NOTSELNG', "'%s' is niet geselecteerd!"); // error message
-define('_AM_EDITTPL', 'Bewerk Template');
-define('_AM_MODULE', 'Module');
-define('_AM_GROUP', 'Groeps toegang');
-define('_AM_UNASSIGNED', 'Niet aangegeven');
+define('_AM_SVISIBLEIN','Blokken zichtbaar in %s');
+define('_AM_TOPPAGE','Home Pagina');
+define('_AM_VISIBLEIN','Zichtbaar in');
+define('_AM_ALLPAGES',"Alle Pagina's");
+define('_AM_TOPONLY','Alleen de Homepagina');
+define('_AM_ADVANCED','Geavanceerde instellingen');
+define('_AM_BCACHETIME','Cache levensduur');
+define('_AM_BALIAS','Alias naam');
+define('_AM_CLONE','Cloon');  // clone a block
+define('_AM_CLONEBLK','Cloon'); // cloned block
+define('_AM_CLONEBLOCK','Maak een cloon blok');
+define('_AM_NOTSELNG',"'%s' is niet geselecteerd!"); // error message
+define('_AM_EDITTPL','Bewerk Template');
+define('_AM_MODULE','Module');
+define('_AM_GROUP','Groeps toegang');
+define('_AM_UNASSIGNED','Niet aangegeven');
 
 define("_AM_CUSTOM","Eigen Blok");
-define('_AM_GENERATOR', 'Blok gemaakt door %s');
-define('_AM_TYPES', 'Alle types');
+define('_AM_GENERATOR','Blok gemaakt door %s');
+define('_AM_TYPES','Alle types');
 ?>

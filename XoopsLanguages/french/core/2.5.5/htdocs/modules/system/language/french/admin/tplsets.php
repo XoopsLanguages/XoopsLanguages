@@ -42,7 +42,7 @@ define("_AM_SYSTEM_TEMPLATES_SELECT_TEMPLATES","Sélectionnez les templates");
 define("_AM_SYSTEM_TEMPLATES_ALL_MODULES","Tous les modules");
 define("_AM_SYSTEM_TEMPLATES_RESTORE_OK","Restauré correctement");
 define("_AM_SYSTEM_TEMPLATES_RESTORE_NOTOK","Non restauré.");
-define("_AM_SYSTEM_TEMPLATES_SET", "Choisir le thème");
+define("_AM_SYSTEM_TEMPLATES_SET","Choisir le thème");
 
 /**
  * @translation     Communauté Francophone des Utilisateurs de Xoops

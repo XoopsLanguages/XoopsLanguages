@@ -17,46 +17,46 @@
 
 
 // General
-define('_THADMIN_PREFERENCES', 'ÀÏ¹Ý¼³Á¤');
-define('_THADMIN_UPDATE', '¾÷µ¥ÀÌÆ®');
-define('_THADMIN_TITLE', '°ü¸®'); 
-define('_THADMIN_NAVIGATION', '³×ºñ°ÔÀÌ¼Ç');
-define('_THADMIN_ADMINHOME', '°ü¸®È­¸éHome');
-define('_THADMIN_SITEHOME', '»çÀÌÆ®Home');
-define('_THADMIN_LINKS', 'À¯¿ëÇÑ ¸µÅ©');
-define('_THADMIN_LINKS_XOOPSPROJECT', 'XOOPS Project');
-define('_THADMIN_LINKS_XOOPSCOMMUNITY', 'XOOPS Community');
-define('_THADMIN_LINKS_LOCAL', 'Local Support');
-define('_THADMIN_LINKS_FORXOOPS', 'ForXoops');
-define('_THADMIN_LOGOUT', '·Î±×¾Æ¿ô');
-define('_THADMIN_MODULES', '¸ðµâ');
-define('_THADMIN_MODULEADMIN' , '°ü¸®');
-define('_THADMIN_BLOCKS', 'ºí·Ï');
-define('_THADMIN_BLOCKADMIN', '°ü¸®');
-define('_THADMIN_USERS', '»ç¿ëÀÚ');
-define('_THADMIN_MISCS', 'Tool');
+define('_THADMIN_PREFERENCES','ï¿½Ï¹Ý¼ï¿½ï¿½ï¿½');
+define('_THADMIN_UPDATE','ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ®');
+define('_THADMIN_TITLE','ï¿½ï¿½ï¿½ï¿½'); 
+define('_THADMIN_NAVIGATION','ï¿½×ºï¿½ï¿½ï¿½Ì¼ï¿½');
+define('_THADMIN_ADMINHOME','ï¿½ï¿½ï¿½ï¿½È­ï¿½ï¿½Home');
+define('_THADMIN_SITEHOME','ï¿½ï¿½ï¿½ï¿½Æ®Home');
+define('_THADMIN_LINKS','ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Å©');
+define('_THADMIN_LINKS_XOOPSPROJECT','XOOPS Project');
+define('_THADMIN_LINKS_XOOPSCOMMUNITY','XOOPS Community');
+define('_THADMIN_LINKS_LOCAL','Local Support');
+define('_THADMIN_LINKS_FORXOOPS','ForXoops');
+define('_THADMIN_LOGOUT','ï¿½Î±×¾Æ¿ï¿½');
+define('_THADMIN_MODULES','ï¿½ï¿½ï¿½');
+define('_THADMIN_MODULEADMIN' , 'ï¿½ï¿½ï¿½ï¿½');
+define('_THADMIN_BLOCKS','ï¿½ï¿½ï¿½');
+define('_THADMIN_BLOCKADMIN','ï¿½ï¿½ï¿½ï¿½');
+define('_THADMIN_USERS','ï¿½ï¿½ï¿½ï¿½ï¿½');
+define('_THADMIN_MISCS','Tool');
 
 // CPanel Description
-define('_THADMIN_OVERVIEW', '½Ã½ºÅÛ °³¿ä');
-define('_THADMIN_OVERVIEW_DESC', '½Ã½ºÅÛ ¼³Á¤À» È®ÀÎÇÒ ¼ö ÀÖ´Ù.');
-define('_THADMIN_PHPEXTENSIONS', 'PHP ¼³Á¤');
-define('_THADMIN_PHPEXTENSIONS_DESC', '·ÎµåµÈ php extension À» È®ÀÎÇÒ ¼ö ÀÖ´Ù.');
-define('_THADMIN_PREF_DESC', '»çÀÌÆ® ¹× ¼³Ä¡µÈ ¸ðµâ °ü·Ã ÀÏ¹Ý¼³Á¤À» ÇÏ½Ç ¼ö ÀÖ½À´Ï´Ù.');
-define('_THADMIN_MODULES_DESC', '¼³Ä¡µÈ ¸ðµç ¸ðµâÀ» °ü¸®ÇÒ ¼ö ÀÖ´Ù.');
-define('_THADMIN_BLOCKS_DESC', '¸ðµç ºí·ÏÀÇ ¼³Á¤À» °ü¸®ÇÒ ¼ö ÀÖ´Ù.');
-define('_THADMIN_USERS_DESC', '¸ðµç »ç¿ëÀÚ °ü·Ã ¼³Á¤/ÀÛ¾÷À» ÇÒ ¼ö ÀÖ´Ù.');
-define('_THADMIN_MISCS_DESC', '¸ðµç tool °ü·Ã ¼³Á¤/ÀÛ¾÷À» ÇÒ ¼ö ÀÖ´Ù.');
+define('_THADMIN_OVERVIEW','ï¿½Ã½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½');
+define('_THADMIN_OVERVIEW_DESC','ï¿½Ã½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ È®ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½Ö´ï¿½.');
+define('_THADMIN_PHPEXTENSIONS','PHP ï¿½ï¿½ï¿½ï¿½');
+define('_THADMIN_PHPEXTENSIONS_DESC','ï¿½Îµï¿½ï¿½ php extension ï¿½ï¿½ È®ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½Ö´ï¿½.');
+define('_THADMIN_PREF_DESC','ï¿½ï¿½ï¿½ï¿½Æ® ï¿½ï¿½ ï¿½ï¿½Ä¡ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ï¹Ý¼ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ï½ï¿½ ï¿½ï¿½ ï¿½Ö½ï¿½ï¿½Ï´ï¿½.');
+define('_THADMIN_MODULES_DESC','ï¿½ï¿½Ä¡ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½Ö´ï¿½.');
+define('_THADMIN_BLOCKS_DESC','ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½Ö´ï¿½.');
+define('_THADMIN_USERS_DESC','ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½/ï¿½Û¾ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ ï¿½Ö´ï¿½.');
+define('_THADMIN_MISCS_DESC','ï¿½ï¿½ï¿½ tool ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½/ï¿½Û¾ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ ï¿½Ö´ï¿½.');
 // Index
-define('_THADMIN_NAME', 'ÀÌ¸§:');
-define('_THADMIN_AUTHOR', 'Á¦ÀÛÀÚ:');
-define('_THADMIN_VERSION', '¹öÀü:');
-define('_THADMIN_ACTIVE', 'È°¼ºÈ­:');
+define('_THADMIN_NAME','ï¿½Ì¸ï¿½:');
+define('_THADMIN_AUTHOR','ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½:');
+define('_THADMIN_VERSION','ï¿½ï¿½ï¿½ï¿½:');
+define('_THADMIN_ACTIVE','È°ï¿½ï¿½È­:');
 // Upload form
-define('_THADMIN_UPLOAD', '»õ Å×¸¶¸¦ ¾÷·Îµå');
-define('_THADMIN_UPLOAD_FILE', 'Å×¸¶ ÆÄÀÏ ¼±ÅÃ');
-define('_THADMIN_UPLOAD_DIRNAME', 'Å×¸¶ µð·ºÅä¸®¸í');
-define('_THADMIN_UPLOAD_INSTALL', '¾÷·ÎµåÈÄ ¼³Ä¡');
-define('_THADMIN_UPLOAD_INSTALLATION', '¼³Ä¡ ÁøÇà');
-define('_THADMIN_UPLOAD_UPLOADED', '»õ Å×¸¶°¡ Áö±Ý ¼³Ä¡µÉ ¼ö ÀÖ½À´Ï´Ù.');
-define('_THADMIN_UPLOAD_ERROR', 'ÆÄÀÏÀÌ ¾÷·ÎµåµÇÁö ¾Ê¾Ò½À´Ï´Ù.');
+define('_THADMIN_UPLOAD','ï¿½ï¿½ ï¿½×¸ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Îµï¿½');
+define('_THADMIN_UPLOAD_FILE','ï¿½×¸ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½');
+define('_THADMIN_UPLOAD_DIRNAME','ï¿½×¸ï¿½ ï¿½ï¿½ï¿½ä¸®ï¿½ï¿½');
+define('_THADMIN_UPLOAD_INSTALL','ï¿½ï¿½ï¿½Îµï¿½ï¿½ï¿½ ï¿½ï¿½Ä¡');
+define('_THADMIN_UPLOAD_INSTALLATION','ï¿½ï¿½Ä¡ ï¿½ï¿½ï¿½ï¿½');
+define('_THADMIN_UPLOAD_UPLOADED','ï¿½ï¿½ ï¿½×¸ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ä¡ï¿½ï¿½ ï¿½ï¿½ ï¿½Ö½ï¿½ï¿½Ï´ï¿½.');
+define('_THADMIN_UPLOAD_ERROR','ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Îµï¿½ï¿½ï¿½ï¿½ ï¿½Ê¾Ò½ï¿½ï¿½Ï´ï¿½.');
 ?>

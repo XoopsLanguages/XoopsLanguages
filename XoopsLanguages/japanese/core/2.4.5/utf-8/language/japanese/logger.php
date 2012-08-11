@@ -25,35 +25,35 @@ defined('XOOPS_ROOT_PATH') or die('Restricted access');
 // _LANGCODE: ja
 // _CHARSET : UTF-8
 // Translator: XOOPS Translation Team
-define('_LOGGER_DEBUG', "デバック");
-define('_LOGGER_INCLUDED_FILES', "挿入ファイル");
-define('_LOGGER_FILES', "%s ファイル");
-define('_LOGGER_MEM_USAGE', "使用メモリ");
-define('_LOGGER_MEM_ESTIMATED', "%s [Estimated]");
-define('_LOGGER_NONE', "None");
-define('_LOGGER_ALL', "All");
-define('_LOGGER_ERRORS', "エラー");
-define('_LOGGER_DEPRECATED', "Deprecated");
-define('_LOGGER_QUERIES', "クエリー");
-define('_LOGGER_BLOCKS', "ブロック");
-define('_LOGGER_EXTRA', "Extra");
-define('_LOGGER_TIMERS', "Timers");
+define('_LOGGER_DEBUG',"デバック");
+define('_LOGGER_INCLUDED_FILES',"挿入ファイル");
+define('_LOGGER_FILES',"%s ファイル");
+define('_LOGGER_MEM_USAGE',"使用メモリ");
+define('_LOGGER_MEM_ESTIMATED',"%s [Estimated]");
+define('_LOGGER_NONE',"None");
+define('_LOGGER_ALL',"All");
+define('_LOGGER_ERRORS',"エラー");
+define('_LOGGER_DEPRECATED',"Deprecated");
+define('_LOGGER_QUERIES',"クエリー");
+define('_LOGGER_BLOCKS',"ブロック");
+define('_LOGGER_EXTRA',"Extra");
+define('_LOGGER_TIMERS',"Timers");
 
 
-define('_LOGGER_TIMETOLOAD', "%s took %s seconds to load.");
+define('_LOGGER_TIMETOLOAD',"%s took %s seconds to load.");
 
-define('_LOGGER_TOTAL', "計");
+define('_LOGGER_TOTAL',"計");
 
-define('_LOGGER_NOT_CACHED', "Not cached");
-define('_LOGGER_CACHED', "Cached (regenerates every %s seconds)");
+define('_LOGGER_NOT_CACHED',"Not cached");
+define('_LOGGER_CACHED',"Cached (regenerates every %s seconds)");
 
-define('_LOGGER_UNKNOWN', "Unknown");
-define('_LOGGER_E_USER_NOTICE', "Notice");
-define('_LOGGER_E_USER_WARNING', "注意");
-define('_LOGGER_E_USER_ERROR', "エラー");
-define('_LOGGER_E_NOTICE', "Notice");
-define('_LOGGER_E_WARNING', "Warning");
-define('_LOGGER_E_STRICT', "Strict");
-define('_LOGGER_FILELINE', "%s in file %s line %s");
+define('_LOGGER_UNKNOWN',"Unknown");
+define('_LOGGER_E_USER_NOTICE',"Notice");
+define('_LOGGER_E_USER_WARNING',"注意");
+define('_LOGGER_E_USER_ERROR',"エラー");
+define('_LOGGER_E_NOTICE',"Notice");
+define('_LOGGER_E_WARNING',"Warning");
+define('_LOGGER_E_STRICT',"Strict");
+define('_LOGGER_FILELINE',"%s in file %s line %s");
 
 ?>

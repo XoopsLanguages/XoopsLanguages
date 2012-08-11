@@ -13,5 +13,5 @@ define('_MD_CSTAVATARS','Avatar personalizzati');
 define('_MD_ADDAVT','Aggiungi avatar');
 define('_MD_USERS','Utenti che utilizzano questo avatar');
 define('_MD_RUDELIMG',"Sei sicuro di voler eliminare l'immagine di questo avatar?");
-define('_MD_FAILDEL', "Il tentativo di rimuovere l'avatar %s dal database &egrave; fallito!");
+define('_MD_FAILDEL',"Il tentativo di rimuovere l'avatar %s dal database &egrave; fallito!");
 ?>

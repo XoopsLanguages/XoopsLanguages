@@ -102,7 +102,7 @@ define("_WLS_SITETITLE","Website titel");
 define("_WLS_SITEURL","Website URL");
 define("_WLS_OPTIONS","Muligheder");
 
-define("_WLS_NOTIFYAPPROVE", "Giv mig besked når dette link er godkendt");
+define("_WLS_NOTIFYAPPROVE","Giv mig besked når dette link er godkendt");
 //define("_WLS_SHOTIMAGE","Screenshot Img: ");
 define("_WLS_SENDREQUEST","Indsend ønske");
 
@@ -283,7 +283,7 @@ define('_WLS_EMAILNOTFOUND',"E-mail adresse stemmer ikke.");
 
 
 // error message
-define("_WLS_ERROR_FILL", "Fejl: Indtast %s");
+define("_WLS_ERROR_FILL","Fejl: Indtast %s");
 define("_WLS_ERROR_ILLEGAL","Fejl: Forkert format %s");
 define("_WLS_ERROR_CID",  "Fejl: Vælg kategori");
 define("_WLS_ERROR_URL_EXIST","Fejl: Linket er allerede registreret. ");
@@ -317,24 +317,24 @@ define("_WLS_CATEGORY_LINK_DELETED","Kategori og relaterede links blev slettet."
 define("_WLS_CATEGORY_DELETED","Slettede kategotier");
 define("_WLS_LINK_DELETED","Slettede links");
 
-define("_WLS_ERROR_CATEGORY", "Fejl: Kategori ikke er valgt"); 
-define("_WLS_ERROR_MAX_SUBCAT", "Fejl: Antal udvalgte kategorier overstiger det maksimale antal der kan slettes på én gang"); 
-define("_WLS_ERROR_MAX_LINK_BELONG", "Fejl: Antal valgte relaterede links overstiger det maksimale antal, der kan slettes på en gang."); 
-define("_WLS_ERROR_MAX_LINK_DEL", "Fejl: Antal udvalgte links overstiger det maksimale antal, der kan slettes på en gang.");
+define("_WLS_ERROR_CATEGORY","Fejl: Kategori ikke er valgt"); 
+define("_WLS_ERROR_MAX_SUBCAT","Fejl: Antal udvalgte kategorier overstiger det maksimale antal der kan slettes på én gang"); 
+define("_WLS_ERROR_MAX_LINK_BELONG","Fejl: Antal valgte relaterede links overstiger det maksimale antal, der kan slettes på en gang."); 
+define("_WLS_ERROR_MAX_LINK_DEL","Fejl: Antal udvalgte links overstiger det maksimale antal, der kan slettes på en gang.");
 
 // recommend site, mutual site
 define("_WLS_MARK","mærk");
 define("_WLS_ADMINCOMMENT","admin kommentar");
 
 // broken link check
-define("_WLS_BROKEN_COUNTER", "Brudte link tæller");
+define("_WLS_BROKEN_COUNTER","Brudte link tæller");
 
 // RSS/ATOM URL
-define("_WLS_RSS_URL", "URL af RSS/Atom"); 
-define("_WLS_RSS_URL_0", "ingen brug"); 
-define("_WLS_RSS_URL_1", "RSS-type"); 
-define("_WLS_RSS_URL_2", "ATOM type"); 
-define("_WLS_RSS_URL_3", "auto opdagelse");
+define("_WLS_RSS_URL","URL af RSS/Atom"); 
+define("_WLS_RSS_URL_0","ingen brug"); 
+define("_WLS_RSS_URL_1","RSS-type"); 
+define("_WLS_RSS_URL_2","ATOM type"); 
+define("_WLS_RSS_URL_3","auto opdagelse");
 
 define("_WLS_ATOMFEED_DISTRIBUTE","Distribution af RSS/Atom feeds, som vises her.");
 define("_WLS_ATOMFEED_FIREFOX","Hvis du benytter <a href='http://www.mozilla.org/products/firefox/' target='_blank'>Firefox</a>, så gem ikke denne side under favoritte, du kan browse RSS/ATOM feed. ");

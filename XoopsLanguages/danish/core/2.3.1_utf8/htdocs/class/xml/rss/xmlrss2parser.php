@@ -617,7 +617,7 @@ class RssCategoryHandler extends XmlTagHandler
             $parser->setChannelData('category', $data);
             break;
         case 'item':
-            $parser->setTempArr('category', $data, ', ');
+            $parser->setTempArr('category', $data, ',');
         default:
             break;
         }

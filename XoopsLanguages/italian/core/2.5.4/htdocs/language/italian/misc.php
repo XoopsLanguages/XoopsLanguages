@@ -25,7 +25,7 @@ define("_MSC_CODE","Codice");
 define("_MSC_EMOTION","Messaggio");
 // Translator: TXMod Xoops - www.txmodxoops.org
 // Last translation update: 03/10/2011
-define('_MSC_CLICK_TO_OPEN_IMAGE', 'Clicca per vedere l&#39;Immagine originale in un nuova finestra.');
-define('_MSC_RESIZED_IMAGE', 'Immagine Ridimensionata');
-define('_MSC_ORIGINAL_IMAGE', 'Immagine Originale');
+define('_MSC_CLICK_TO_OPEN_IMAGE','Clicca per vedere l&#39;Immagine originale in un nuova finestra.');
+define('_MSC_RESIZED_IMAGE','Immagine Ridimensionata');
+define('_MSC_ORIGINAL_IMAGE','Immagine Originale');
 ?>

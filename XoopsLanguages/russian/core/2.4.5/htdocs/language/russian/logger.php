@@ -25,35 +25,35 @@ defined('XOOPS_ROOT_PATH') or die('Restricted access');
 // _LANGCODE: ru
 // _CHARSET : UTF-8
 // Translator: 14.09.2009 andrey3761
-define('_LOGGER_DEBUG', "Отладка");
-define('_LOGGER_INCLUDED_FILES', "Подключённые файлы");
-define('_LOGGER_FILES', "%s файлов");
-define('_LOGGER_MEM_USAGE', "Использование памяти");
-define('_LOGGER_MEM_ESTIMATED', "%s [примерно]");
-define('_LOGGER_NONE', "Ничего");
-define('_LOGGER_ALL', "Всё");
-define('_LOGGER_ERRORS', "Ошибки");
-define('_LOGGER_DEPRECATED', "Устаревшее");
-define('_LOGGER_QUERIES', "Запросы");
-define('_LOGGER_BLOCKS', "Блоки");
-define('_LOGGER_EXTRA', "Дополнительно");
-define('_LOGGER_TIMERS', "Таймеры");
+define('_LOGGER_DEBUG',"Отладка");
+define('_LOGGER_INCLUDED_FILES',"Подключённые файлы");
+define('_LOGGER_FILES',"%s файлов");
+define('_LOGGER_MEM_USAGE',"Использование памяти");
+define('_LOGGER_MEM_ESTIMATED',"%s [примерно]");
+define('_LOGGER_NONE',"Ничего");
+define('_LOGGER_ALL',"Всё");
+define('_LOGGER_ERRORS',"Ошибки");
+define('_LOGGER_DEPRECATED',"Устаревшее");
+define('_LOGGER_QUERIES',"Запросы");
+define('_LOGGER_BLOCKS',"Блоки");
+define('_LOGGER_EXTRA',"Дополнительно");
+define('_LOGGER_TIMERS',"Таймеры");
 
 
-define('_LOGGER_TIMETOLOAD', "%s сгенерированно за %s секунд.");
+define('_LOGGER_TIMETOLOAD',"%s сгенерированно за %s секунд.");
 
-define('_LOGGER_TOTAL', "Всего");
+define('_LOGGER_TOTAL',"Всего");
 
-define('_LOGGER_NOT_CACHED', "Без кеша");
-define('_LOGGER_CACHED', "Из кеша (обновление кеша каждые %s секунд)");
+define('_LOGGER_NOT_CACHED',"Без кеша");
+define('_LOGGER_CACHED',"Из кеша (обновление кеша каждые %s секунд)");
 
-define('_LOGGER_UNKNOWN', "Unknown");
-define('_LOGGER_E_USER_NOTICE', "Notice");
-define('_LOGGER_E_USER_WARNING', "Warning");
-define('_LOGGER_E_USER_ERROR', "Error");
-define('_LOGGER_E_NOTICE', "Notice");
-define('_LOGGER_E_WARNING', "Warning");
-define('_LOGGER_E_STRICT', "Strict");
-define('_LOGGER_FILELINE', "%s в файле %s строка %s");
+define('_LOGGER_UNKNOWN',"Unknown");
+define('_LOGGER_E_USER_NOTICE',"Notice");
+define('_LOGGER_E_USER_WARNING',"Warning");
+define('_LOGGER_E_USER_ERROR',"Error");
+define('_LOGGER_E_NOTICE',"Notice");
+define('_LOGGER_E_WARNING',"Warning");
+define('_LOGGER_E_STRICT',"Strict");
+define('_LOGGER_FILELINE',"%s в файле %s строка %s");
 
 ?>

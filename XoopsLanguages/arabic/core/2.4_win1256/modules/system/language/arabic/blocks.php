@@ -5,46 +5,46 @@
 // Translator: Arab XOOPS Team
 
 // Blocks
-define("_MB_SYSTEM_ADMENU","áæÍÉ ÇáÅÏÇÑÉ");
-define("_MB_SYSTEM_RNOW","ÇÔÊÑß ÇáÂä !");
-define("_MB_SYSTEM_LPASS","ßáãÉ ÇáãÑæÑ ãÝÞæÏÉ¿");
-define("_MB_SYSTEM_SEARCH","ÇáÈÍË");
-define("_MB_SYSTEM_ADVS","ÈÍË ãÊÞÏã");
-define("_MB_SYSTEM_VACNT","ÚÑÖ ÇáÇÔÊÑÇß");
-define("_MB_SYSTEM_EACNT","ÊÍÑíÑ ÇáÇÔÊÑÇß");
+define("_MB_SYSTEM_ADMENU","ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
+define("_MB_SYSTEM_RNOW","ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ !");
+define("_MB_SYSTEM_LPASS","ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½É¿");
+define("_MB_SYSTEM_SEARCH","ï¿½ï¿½ï¿½ï¿½ï¿½");
+define("_MB_SYSTEM_ADVS","ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½");
+define("_MB_SYSTEM_VACNT","ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
+define("_MB_SYSTEM_EACNT","ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
 // RMV-NOTIFY
-define("_MB_SYSTEM_NOTIF", "ÇáÊÈáíÛÇÊ");
-define("_MB_SYSTEM_LOUT","ÊÓÌíá ÎÑæÌ");
-define("_MB_SYSTEM_INBOX","ÇáæÇÑÏ");
-define("_MB_SYSTEM_SUBMS","ÃÎÈÇÑ ãÖÇÝÉ");
-define("_MB_SYSTEM_WLNKS","ÑæÇÈØ ÊäÊÙÑ ÇáäÔÑ");
-define("_MB_SYSTEM_BLNK","æÕáÇÊ ÎÇØÆÉ");
-define("_MB_SYSTEM_MLNKS","ÑæÇÈØ ãÚÏáÉ");
-define("_MB_SYSTEM_WDLS","ÈÑÇãÌ ÊäÊÙÑ ÇáäÔÑ");
-define("_MB_SYSTEM_BFLS","æÕáå ÈÑäÇãÌ ÎØÃ");
-define("_MB_SYSTEM_MFLS","ÈÑÇãÌ ãÚÏáÉ");
-define("_MB_SYSTEM_HOME","ÇáÑÆíÓíÉ"); // link to home page in main menu block
-define("_MB_SYSTEM_RECO","ÃÎÈÑ Úä ãæÞÚäÇ");
-define("_MB_SYSTEM_PWWIDTH","ÚÑÖ ÇáäÇÝÐÉ ÇáÕÛíÑÉ");
-define("_MB_SYSTEM_PWHEIGHT","ÇÑÊÝÇÚ ÇáäÇÝÐÉ ÇáÕÛíÑÉ");
-define("_MB_SYSTEM_LOGO"," ÕæÑÉ ÇáÔÚÇÑ ÏÇÎá%sãÌáÏ");  // %s is your root image directory name
-define("_MB_SYSTEM_COMPEND", "ÊÚáíÞÇÊ");
+define("_MB_SYSTEM_NOTIF","ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
+define("_MB_SYSTEM_LOUT","ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½");
+define("_MB_SYSTEM_INBOX","ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
+define("_MB_SYSTEM_SUBMS","ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½");
+define("_MB_SYSTEM_WLNKS","ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½");
+define("_MB_SYSTEM_BLNK","ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½");
+define("_MB_SYSTEM_MLNKS","ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½");
+define("_MB_SYSTEM_WDLS","ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½");
+define("_MB_SYSTEM_BFLS","ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½");
+define("_MB_SYSTEM_MFLS","ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½");
+define("_MB_SYSTEM_HOME","ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"); // link to home page in main menu block
+define("_MB_SYSTEM_RECO","ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
+define("_MB_SYSTEM_PWWIDTH","ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
+define("_MB_SYSTEM_PWHEIGHT","ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
+define("_MB_SYSTEM_LOGO"," ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½%sï¿½ï¿½ï¿½ï¿½");  // %s is your root image directory name
+define("_MB_SYSTEM_COMPEND","ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
 
-//define("_MB_SYSTEM_LOGGEDINAS", "Êã ÊÓÌíá ÏÎæáß ÈÅÓã");
-define("_MB_SYSTEM_SADMIN","ÚÑÖ ãÌãæÚÇÊ ÇáÅÏÇÑÉ");
-define("_MB_SYSTEM_SPMTO","ÃÑÓá ÑÓÇáÉ ÎÇÕÉ Åáì %s");
-define("_MB_SYSTEM_SEMTO","ÃÑÓá ÈÑíÏÇ Åáì %s");
+//define("_MB_SYSTEM_LOGGEDINAS","ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½");
+define("_MB_SYSTEM_SADMIN","ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
+define("_MB_SYSTEM_SPMTO","ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ %s");
+define("_MB_SYSTEM_SEMTO","ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ %s");
 
-define("_MB_SYSTEM_DISPLAY","ÚÑÖ %s ÚÖæ");
-define("_MB_SYSTEM_DISPLAYA","ÚÑÖ ÇáÕæÑÉ ÇáÔÎÕíÉ ááÚÖæ");
-define("_MB_SYSTEM_NODISPGR","áÇ ÊÚÑÖ ÇáÃÚÖÇÁ ÈåÐå ÇáãÑÊÈÉ :");
+define("_MB_SYSTEM_DISPLAY","ï¿½ï¿½ï¿½ %s ï¿½ï¿½ï¿½");
+define("_MB_SYSTEM_DISPLAYA","ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½");
+define("_MB_SYSTEM_NODISPGR","ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ :");
 
-define("_MB_SYSTEM_DISPLAYC","ÚÑÖ %s ÊÚáíÞÇÊ");
-define("_MB_SYSTEM_SECURE", "ÊÓÌíá ÏÎæá Âãä");
+define("_MB_SYSTEM_DISPLAYC","ï¿½ï¿½ï¿½ %s ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
+define("_MB_SYSTEM_SECURE","ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½");
 
-define("_MB_SYSTEM_NUMTHEME", "%s Ëíã");
-define("_MB_SYSTEM_THSHOW", "ÚÑÖ ÇáÕæÑÉ ÇáÊæÖíÍíÉ");
-define("_MB_SYSTEM_THWIDTH", "ÍÌã ÚÑÖ ÇáÕæÑÉ ÇáÊæÖíÍíÉ");
-define('_MB_SYSTEM_REMEMBERME', 'ÊÐßÑäí');
+define("_MB_SYSTEM_NUMTHEME","%s ï¿½ï¿½ï¿½");
+define("_MB_SYSTEM_THSHOW","ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
+define("_MB_SYSTEM_THWIDTH","ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
+define('_MB_SYSTEM_REMEMBERME','ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½');
 
 ?>

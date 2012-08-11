@@ -32,39 +32,39 @@
 //%%%%%%	Admin Module Name  AdminGroup 	%%%%%
 define("_AM_DBUPDATED",_MD_AM_DBUPDATED);
 
-define("_AM_EDITADG","±×·ì°ü¸®");
-define("_AM_MODIFY","ÆíÁý");
-define("_AM_DELETE","»èÁ¦");
-define("_AM_CREATENEWADG","½Å±Ô ±×·ì ÀÛ¼º");
-define("_AM_NAME","±×·ì¸í");
-define("_AM_DESCRIPTION","¼³¸í");
-define("_AM_INDICATES","* Àº ÇÊ¼öÇ×¸ñÀ» ÀÇ¹ÌÇÕ´Ï´Ù.");
-define("_AM_SYSTEMRIGHTS","½Ã½ºÅÛ °ü¸®ÀÚ ±ÇÇÑ");
-define("_AM_ACTIVERIGHTS","¸ðµâ °ü¸®ÀÚ ±ÇÇÑ");
-define("_AM_IFADMIN","¸ðµâ °ü¸®ÀÚ±ÇÇÑÀÌ ÁÖ¾îÁø °æ¿ì¿£ ¾×¼¼½º ±ÇÇÑµµ ÀÚµ¿ºÎ¿©µË´Ï´Ù.");
-define("_AM_ACCESSRIGHTS","¸ðµâ ¾×¼¼½º ±ÇÇÑ");
-define("_AM_UPDATEADG","±×·ìÁ¤º¸ °»½Å");
-define("_AM_MODIFYADG","±×·ì ÆíÁý");
-define("_AM_DELETEADG","±×·ì »èÁ¦");
-define("_AM_AREUSUREDEL","ÀÌ ±×·ìÀ» Á¤¸»·Î »èÁ¦ÇÏ½Ç °Ç°¡¿ä?");
-define("_AM_YES","¿¹");
-define("_AM_NO","¾Æ´Ï¿ä");
-define("_AM_EDITMEMBER","±×·ì ¸â¹ö Ãß°¡/»èÁ¦");
-define("_AM_MEMBERS","¸â¹ö");
-define("_AM_NONMEMBERS","ºñ¸â¹ö");
-define("_AM_ADDBUTTON"," Ãß°¡ --> ");
-define("_AM_DELBUTTON","<--»èÁ¦");
-define("_AM_UNEED2ENTER","ÇÊ¿äÇÑ Á¤º¸¸¦ ¸ðµÎ ÀÔ·ÂÇØ ÁÖ¼¼¿ä!");
+define("_AM_EDITADG","ï¿½×·ï¿½ï¿½ï¿½ï¿½");
+define("_AM_MODIFY","ï¿½ï¿½ï¿½ï¿½");
+define("_AM_DELETE","ï¿½ï¿½ï¿½ï¿½");
+define("_AM_CREATENEWADG","ï¿½Å±ï¿½ ï¿½×·ï¿½ ï¿½Û¼ï¿½");
+define("_AM_NAME","ï¿½×·ï¿½ï¿½");
+define("_AM_DESCRIPTION","ï¿½ï¿½ï¿½ï¿½");
+define("_AM_INDICATES","* ï¿½ï¿½ ï¿½Ê¼ï¿½ï¿½×¸ï¿½ï¿½ï¿½ ï¿½Ç¹ï¿½ï¿½Õ´Ï´ï¿½.");
+define("_AM_SYSTEMRIGHTS","ï¿½Ã½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½");
+define("_AM_ACTIVERIGHTS","ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½");
+define("_AM_IFADMIN","ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ú±ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ö¾ï¿½ï¿½ï¿½ ï¿½ï¿½ì¿£ ï¿½×¼ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ñµï¿½ ï¿½Úµï¿½ï¿½Î¿ï¿½ï¿½Ë´Ï´ï¿½.");
+define("_AM_ACCESSRIGHTS","ï¿½ï¿½ï¿½ ï¿½×¼ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½");
+define("_AM_UPDATEADG","ï¿½×·ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½");
+define("_AM_MODIFYADG","ï¿½×·ï¿½ ï¿½ï¿½ï¿½ï¿½");
+define("_AM_DELETEADG","ï¿½×·ï¿½ ï¿½ï¿½ï¿½ï¿½");
+define("_AM_AREUSUREDEL","ï¿½ï¿½ ï¿½×·ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï½ï¿½ ï¿½Ç°ï¿½ï¿½ï¿½?");
+define("_AM_YES","ï¿½ï¿½");
+define("_AM_NO","ï¿½Æ´Ï¿ï¿½");
+define("_AM_EDITMEMBER","ï¿½×·ï¿½ ï¿½ï¿½ï¿½ ï¿½ß°ï¿½/ï¿½ï¿½ï¿½ï¿½");
+define("_AM_MEMBERS","ï¿½ï¿½ï¿½");
+define("_AM_NONMEMBERS","ï¿½ï¿½ï¿½ï¿½");
+define("_AM_ADDBUTTON"," ï¿½ß°ï¿½ --> ");
+define("_AM_DELBUTTON","<--ï¿½ï¿½ï¿½ï¿½");
+define("_AM_UNEED2ENTER","ï¿½Ê¿ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½Ô·ï¿½ï¿½ï¿½ ï¿½Ö¼ï¿½ï¿½ï¿½!");
 
 // Added in RC3
-define("_AM_BLOCKRIGHTS","ºí·Ï ¾×¼¼½º ±ÇÇÑ");
+define("_AM_BLOCKRIGHTS","ï¿½ï¿½ï¿½ ï¿½×¼ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½");
 
-define('_AM_FINDU4GROUP', 'ÀÌ ±×·ì¿¡ Ãß°¡ÇÒ µî·ÏÈ¸¿øÀ» °Ë»ö');
-define('_AM_GROUPSMAIN', '±×·ì°ü¸®');
+define('_AM_FINDU4GROUP','ï¿½ï¿½ ï¿½×·ì¿¡ ï¿½ß°ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½È¸ï¿½ï¿½ï¿½ï¿½ ï¿½Ë»ï¿½');
+define('_AM_GROUPSMAIN','ï¿½×·ï¿½ï¿½ï¿½ï¿½');
 
-define('_AM_ADMINNO', '°ü¸®ÀÚ±×·ì¿¡´Â ¹Ýµå½Ã 1ÀÎ ÀÌ»óÀÇ ¸â¹ö°¡ µî·ÏµÇ¾îÀÖ¾î¾ßÇÕ´Ï´Ù.');
+define('_AM_ADMINNO','ï¿½ï¿½ï¿½ï¿½ï¿½Ú±×·ì¿¡ï¿½ï¿½ ï¿½Ýµï¿½ï¿½ 1ï¿½ï¿½ ï¿½Ì»ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ÏµÇ¾ï¿½ï¿½Ö¾ï¿½ï¿½ï¿½Õ´Ï´ï¿½.');
 
 // Custom block, suggested by trabis
-define("_AM_CUSTOMBLOCK","Ä¿½ºÅÒ ºí·Ï");
+define("_AM_CUSTOMBLOCK","Ä¿ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½");
 
 ?>

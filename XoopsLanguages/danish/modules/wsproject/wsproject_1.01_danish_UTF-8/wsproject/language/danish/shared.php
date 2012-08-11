@@ -16,7 +16,7 @@ define("_WS_DEADLINE",       "Deadline");
 define("_WS_PROJECTSTART",   "Projekt start");
 define("_WS_PROJECTDEADLINE","Projekt deadline");
 define("_WS_TODO",           "Todo emner");
-define("_WS_COMPLETEDTASKS", "Færdige emner");
+define("_WS_COMPLETEDTASKS","Færdige emner");
 define("_WS_RESP_USER",      "Bruger");
 define("_WS_HOURSTODO",      "Total timeforbrug tilbage");
 define("_WS_HOURSDONE",      "Total timeforbrug brugt");
@@ -28,7 +28,7 @@ define("_WS_USERNAME",       "Brugernavn");
 define("_WS_RANK",           "Rank");
 define("_WS_PROJECTS",       "Projekter");
 define("_WS_OPENTASKS",      "Åbne opgaver");
-define("_WS_USERDETAILSFOR", "Brugerdetaljer for ");
+define("_WS_USERDETAILSFOR","Brugerdetaljer for ");
 
 define("_WS_PROJECT",        "Projekt");
 define("_WS_TITLE",          "Titel");

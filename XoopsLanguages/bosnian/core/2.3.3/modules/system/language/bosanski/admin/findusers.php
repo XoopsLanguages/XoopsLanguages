@@ -17,8 +17,8 @@ define('_AM_PREVIOUS','Prethodna');
 define('_AM_NEXT','Sljede&#263;a');
 define('_AM_USERSFOUND','%s &#269;lanova je prona&#273;eno');
 
-define('_AM_ACTUS', 'Aktivni &#269;lanovi: %s');
-define('_AM_INACTUS', 'Neaktivni &#269;lanovi: %s');
+define('_AM_ACTUS','Aktivni &#269;lanovi: %s');
+define('_AM_INACTUS','Neaktivni &#269;lanovi: %s');
 define('_AM_NOFOUND','Nema &#269;lanova prona&#273;enih');
 define('_AM_UNAME','Nik ime');
 define('_AM_ICQ','ICQ');
@@ -42,16 +42,16 @@ define('_AM_POSTS','Broju postova');
 define('_AM_ASC','Noviji redoslijed');
 define('_AM_DESC','Stariji redoslijed');
 define('_AM_LIMIT','Broj &#269;lanova po stranici');
-define('_AM_RESULTS', 'Rezultati pretrage');
-define('_AM_SHOWMAILOK', 'Typ prikazanih &#269;lanova');
+define('_AM_RESULTS','Rezultati pretrage');
+define('_AM_SHOWMAILOK','Typ prikazanih &#269;lanova');
 define('_AM_MAILOK','&#268;lanovi sa E-Mailom koji imaju suglasnost slanja');
 define('_AM_MAILNG','&#268;lanovi sa E-Mailom koji nemaju suglasnost slanja');
-define('_AM_SHOWTYPE', 'Typ prikazanih &#269;lanova');
+define('_AM_SHOWTYPE','Typ prikazanih &#269;lanova');
 define('_AM_ACTIVE','Samo aktivni &#269;lanovi');
 define('_AM_INACTIVE','Samo neaktivni &#269;lanovi');
-define('_AM_BOTH', 'Svi &#269;lanovi');
-define('_AM_SENDMAIL', 'E-Mail po&scaron;alji');
-define('_AM_ADD2GROUP', '&#268;lana u %s Grupu dodaj');
+define('_AM_BOTH','Svi &#269;lanovi');
+define('_AM_SENDMAIL','E-Mail po&scaron;alji');
+define('_AM_ADD2GROUP','&#268;lana u %s Grupu dodaj');
 
-define("_AM_GROUPS", "Grupe");
+define("_AM_GROUPS","Grupe");
 ?>

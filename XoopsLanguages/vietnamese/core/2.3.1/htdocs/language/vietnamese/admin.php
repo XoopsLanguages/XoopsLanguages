@@ -12,6 +12,6 @@ define("_AD_NICKNAME","Biệt danh");//Nickname
 define("_AD_EMAIL","Email");
 define("_AD_AVATAR","Hình đại diện");//Avatar
 define("_AD_REGISTERED","Đăng ký ngày"); //Registered Date
-define('_AD_PRESSGEN', 'Đây là lần đầu tiên bạn truy nhập vào khu vực chính quản trị. Nhấn vào nút ở dưới để tiếp tục.');//This is your first time to enter the administration section. Press the button below to proceed
-define('_AD_LOGINADMIN', 'Bạn đang được đăng nhập...');//Logging you in...
+define('_AD_PRESSGEN','Đây là lần đầu tiên bạn truy nhập vào khu vực chính quản trị. Nhấn vào nút ở dưới để tiếp tục.');//This is your first time to enter the administration section. Press the button below to proceed
+define('_AD_LOGINADMIN','Bạn đang được đăng nhập...');//Logging you in...
 ?>

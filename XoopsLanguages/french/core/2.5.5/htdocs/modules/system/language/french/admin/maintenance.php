@@ -8,7 +8,7 @@
  */
 
 //Nav
-define("_AM_SYSTEM_MAINTENANCE_NAV_MANAGER", "Maintenance");
+define("_AM_SYSTEM_MAINTENANCE_NAV_MANAGER","Maintenance");
 define("_AM_SYSTEM_MAINTENANCE_NAV_LIST","Toute la maintenance");
 define("_AM_SYSTEM_MAINTENANCE_NAV_DUMP","Copie");
 
@@ -51,16 +51,16 @@ define("_AM_SYSTEM_MAINTENANCE_TABLES_ANALYZE","Analyser");
 define("_AM_SYSTEM_MAINTENANCE_DUMP","Copie");
 define("_AM_SYSTEM_MAINTENANCE_DUMP_TABLES_OR_MODULES","Sélectionnez les tables ou les modules");
 define("_AM_SYSTEM_MAINTENANCE_DUMP_DROP","Ajouter la commande DROP TABLE IF EXISTS 'tables' dans la copie");
-define("_AM_SYSTEM_MAINTENANCE_DUMP_OR", "OU");
-define("_AM_SYSTEM_MAINTENANCE_DUMP_AND", "ET");
-define("_AM_SYSTEM_MAINTENANCE_DUMP_ERROR_TABLES_OR_MODULES", "Vous devez sélectionner les tables ou les modules");
-define("_AM_SYSTEM_MAINTENANCE_DUMP_NO_TABLES", "Aucune table");
-define("_AM_SYSTEM_MAINTENANCE_DUMP_TABLES", "Tables");
-define("_AM_SYSTEM_MAINTENANCE_DUMP_STRUCTURES", "Structures");
-define("_AM_SYSTEM_MAINTENANCE_DUMP_NB_RECORDS", "Nombre d'enregistrements");
-define("_AM_SYSTEM_MAINTENANCE_DUMP_FILE_CREATED", "Fichier créé");
-define("_AM_SYSTEM_MAINTENANCE_DUMP_RESULT", "Résultat");
-define("_AM_SYSTEM_MAINTENANCE_DUMP_RECORDS", "enregistrement(s)");
+define("_AM_SYSTEM_MAINTENANCE_DUMP_OR","OU");
+define("_AM_SYSTEM_MAINTENANCE_DUMP_AND","ET");
+define("_AM_SYSTEM_MAINTENANCE_DUMP_ERROR_TABLES_OR_MODULES","Vous devez sélectionner les tables ou les modules");
+define("_AM_SYSTEM_MAINTENANCE_DUMP_NO_TABLES","Aucune table");
+define("_AM_SYSTEM_MAINTENANCE_DUMP_TABLES","Tables");
+define("_AM_SYSTEM_MAINTENANCE_DUMP_STRUCTURES","Structures");
+define("_AM_SYSTEM_MAINTENANCE_DUMP_NB_RECORDS","Nombre d'enregistrements");
+define("_AM_SYSTEM_MAINTENANCE_DUMP_FILE_CREATED","Fichier créé");
+define("_AM_SYSTEM_MAINTENANCE_DUMP_RESULT","Résultat");
+define("_AM_SYSTEM_MAINTENANCE_DUMP_RECORDS","enregistrement(s)");
 
 // Tips
 define("_AM_SYSTEM_MAINTENANCE_TIPS", 

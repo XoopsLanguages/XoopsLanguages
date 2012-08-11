@@ -10,7 +10,7 @@ define("_MM_PREVIOUS","Zurück");
 define("_MM_NEXT","Weiter");
 define("_MM_USERSFOUND","%s Mitglied(er) gefunden");
 define("_AM_GROUPS","Gruppen");
-define("_MM_TOTALUSERS", "Gesamt : %s Mitglieder");
+define("_MM_TOTALUSERS","Gesamt : %s Mitglieder");
 define("_MM_NOFOUND","Kein Mitglied gefunden");
 define("_MM_UNAME","Mitgliedsname");
 define("_MM_ICQ","ICQ");
@@ -28,6 +28,6 @@ define("_MM_POSTS","Beiträge");
 define("_MM_ASC","Aufsteigende Reihenfolge");
 define("_MM_DESC","Absteigende Reihenfolge");
 define("_MM_LIMIT","Anzahl der Mitglieder pro Seite");
-define("_MM_RESULTS", "Suchergebnisse");
+define("_MM_RESULTS","Suchergebnisse");
 define("_MM_ADMIN","Admin");
 ?>

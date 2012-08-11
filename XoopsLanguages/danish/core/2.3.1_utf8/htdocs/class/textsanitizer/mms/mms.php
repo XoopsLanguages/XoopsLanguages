@@ -32,7 +32,7 @@ class MytsMms extends MyTextSanitizerExtension
                     var selection="mms://"+selection;
                     var text = selection;
                 } else {
-                    var text = prompt(enterMmsPhrase+"       mms or http", "mms://");
+                    var text = prompt(enterMmsPhrase+"       mms or http","mms://");
                 }
                 var domobj = xoopsGetElementById(id);
                 if ( text.length > 0 && text != "mms://") {

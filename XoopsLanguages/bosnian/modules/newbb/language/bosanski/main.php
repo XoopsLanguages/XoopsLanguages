@@ -50,7 +50,7 @@ define('_MD_SUBJECT','Tema: ');
 define('_MD_INACTIVEFORUM_NEWPOSTS','Inaktivni Forum sa novim postovima');
 define('_MD_INACTIVEFORUM_NONEWPOSTS','Inaktivni Forum bez novih postova');
 define('_MD_SUBFORUMS','Podfore');
-define('_MD_MAINFORUMOPT', 'Glavna opcija');
+define('_MD_MAINFORUMOPT','Glavna opcija');
 define("_MD_PENDING_POSTS_FOR_AUTH","Postovi koji &#269;ekaju odobrenje:");
 
 
@@ -98,34 +98,34 @@ define('_MD_FROMLASTHOURS','U zadnjih %s Sati');
 define('_MD_FROMLASTDAYS','U zadnjih %s dana');
 define('_MD_THELASTYEAR','U pro&scaron;loj godini');
 define('_MD_BEGINNING','Od po&#269;etka otvoranja Foruma');
-define('_MD_SEARCHTHISFORUM', 'Pretra&#382;i ovaj Forum');
+define('_MD_SEARCHTHISFORUM','Pretra&#382;i ovaj Forum');
 define('_MD_TOPIC_SUBJECTC','Prefix Tema:');
 
 
 define('_MD_RATINGS','Ocjene');
-define("_MD_CAN_ACCESS", "<b>Dozvoljeno ti je</b>, u ovaj Forum u&#263;i.<br />");
-define("_MD_CANNOT_ACCESS", "<b>Nije ti dozvoljeno</b>, u ovaj Forum u&#263;i.<br />");
-define("_MD_CAN_POST", "<b>Dozvoljeno ti je</b>, novu Temu da otvori&scaron;.<br />");
-define("_MD_CANNOT_POST", "<b>Nije ti dozvoljeno</b>, novu Temu da otvori&scaron;.<br />");
-define("_MD_CAN_VIEW", "<b>Dozvoljeno ti je</b>, Teme da vidi&scaron;.<br />");
-define("_MD_CANNOT_VIEW", "<b>Nije ti dozvoljeno</b>, Teme da vidi&scaron;.<br />");
-define("_MD_CAN_REPLY", "<b>Dozvoljeno ti je</b>, na postove da odgovori&scaron;.<br />");
-define("_MD_CANNOT_REPLY", "<b>Nije ti dozvoljeno</b>, na postove da odgovori&scaron;.<br />");
-define("_MD_CAN_EDIT", "<b>Dozvoljeno ti je</b>, postove da uredi&scaron;.<br />");
-define("_MD_CANNOT_EDIT", "<b>Nije ti dozvoljeno</b>, postove da uredi&scaron;.<br />");
-define("_MD_CAN_DELETE", "<b>Dozvoljeno ti je</b>, postove da izbri&scaron;e&scaron;.<br />");
-define("_MD_CANNOT_DELETE", "<b>Nije ti dozvoljeno</b>, postove da izbri&scaron;e&scaron;.<br />");
-define("_MD_CAN_ADDPOLL", "<b>Dozvoljeno ti je</b>, novu Anketu da napravi&scaron;.<br />");
-define("_MD_CANNOT_ADDPOLL", "<b>Nije ti dozvoljeno</b>, novu Anketu da napravi&scaron;.<br />");
-define("_MD_CAN_VOTE", "<b>Dozvoljeno ti je</b>, u Anketi da glasa&scaron;.<br />");
-define("_MD_CANNOT_VOTE", "<b>Nije ti dozvoljeno</b>, u Anketi da glasa&scaron;.<br />");
-define("_MD_CAN_ATTACH", "<b>Dozvoljeno ti je</b>, Podatak uploadati u post.<br />");
-define("_MD_CANNOT_ATTACH", "<b>Nije ti dozvoljeno</b>, Podatak uploadati u post.<br />");
-define("_MD_CAN_NOAPPROVE", "<b>Dozvoljeno ti je</b>, postove bez odobrenja pisati.<br />");
-define("_MD_CANNOT_NOAPPROVE", "<b>Nije ti dozvoljeno</b>, postove bez odobrenja pisati.<br />");
+define("_MD_CAN_ACCESS","<b>Dozvoljeno ti je</b>, u ovaj Forum u&#263;i.<br />");
+define("_MD_CANNOT_ACCESS","<b>Nije ti dozvoljeno</b>, u ovaj Forum u&#263;i.<br />");
+define("_MD_CAN_POST","<b>Dozvoljeno ti je</b>, novu Temu da otvori&scaron;.<br />");
+define("_MD_CANNOT_POST","<b>Nije ti dozvoljeno</b>, novu Temu da otvori&scaron;.<br />");
+define("_MD_CAN_VIEW","<b>Dozvoljeno ti je</b>, Teme da vidi&scaron;.<br />");
+define("_MD_CANNOT_VIEW","<b>Nije ti dozvoljeno</b>, Teme da vidi&scaron;.<br />");
+define("_MD_CAN_REPLY","<b>Dozvoljeno ti je</b>, na postove da odgovori&scaron;.<br />");
+define("_MD_CANNOT_REPLY","<b>Nije ti dozvoljeno</b>, na postove da odgovori&scaron;.<br />");
+define("_MD_CAN_EDIT","<b>Dozvoljeno ti je</b>, postove da uredi&scaron;.<br />");
+define("_MD_CANNOT_EDIT","<b>Nije ti dozvoljeno</b>, postove da uredi&scaron;.<br />");
+define("_MD_CAN_DELETE","<b>Dozvoljeno ti je</b>, postove da izbri&scaron;e&scaron;.<br />");
+define("_MD_CANNOT_DELETE","<b>Nije ti dozvoljeno</b>, postove da izbri&scaron;e&scaron;.<br />");
+define("_MD_CAN_ADDPOLL","<b>Dozvoljeno ti je</b>, novu Anketu da napravi&scaron;.<br />");
+define("_MD_CANNOT_ADDPOLL","<b>Nije ti dozvoljeno</b>, novu Anketu da napravi&scaron;.<br />");
+define("_MD_CAN_VOTE","<b>Dozvoljeno ti je</b>, u Anketi da glasa&scaron;.<br />");
+define("_MD_CANNOT_VOTE","<b>Nije ti dozvoljeno</b>, u Anketi da glasa&scaron;.<br />");
+define("_MD_CAN_ATTACH","<b>Dozvoljeno ti je</b>, Podatak uploadati u post.<br />");
+define("_MD_CANNOT_ATTACH","<b>Nije ti dozvoljeno</b>, Podatak uploadati u post.<br />");
+define("_MD_CAN_NOAPPROVE","<b>Dozvoljeno ti je</b>, postove bez odobrenja pisati.<br />");
+define("_MD_CANNOT_NOAPPROVE","<b>Nije ti dozvoljeno</b>, postove bez odobrenja pisati.<br />");
 define("_MD_IMTOPICS","Va&#382;ne Teme");
 define("_MD_NOTIMTOPICS","Forumske Teme");
-define('_MD_FORUMOPTION', 'Forumske opcije');
+define('_MD_FORUMOPTION','Forumske opcije');
 
 define('_MD_VAUP','Prika&#382;i sve postove bez odgovora');
 define('_MD_VANP','Prika&#382;i sve nove postove');
@@ -165,12 +165,12 @@ define('_MD_AIM','AIM');
 define('_MD_YIM','YIM');
 define('_MD_MSNM','MSNM');
 define('_MD_ICQ','ICQ');
-define('_MD_PRINT_TOPIC_LINK', 'URL za ovu Temu');
+define('_MD_PRINT_TOPIC_LINK','URL za ovu Temu');
 define('_MD_ADDTOLIST','U listu kontakata dodaj');
-define('_MD_TOPICOPT', 'Opcije Tema');
-define('_MD_VIEWMODE', 'Modus prikazivanja');
-define('_MD_NEWEST', 'Aktuelne prvo');
-define('_MD_OLDEST', 'Starije prvo');
+define('_MD_TOPICOPT','Opcije Tema');
+define('_MD_VIEWMODE','Modus prikazivanja');
+define('_MD_NEWEST','Aktuelne prvo');
+define('_MD_OLDEST','Starije prvo');
 
 define('_MD_FORUMSEARCH','Forum pretra&#382;i');
 
@@ -185,8 +185,8 @@ define('_MD_RATE4','Dobra');
 define('_MD_RATE5','Vrlo dobra');
 
 define('_MD_TOPICOPTION','Opcije Tema');
-define('_MD_KARMA_REQUIREMENT', 'Li&#269;na Karma %s nije dovoljna za odre&#273;enu Karmu od  %s. <br /> Molim te kasnije probaj ponovo.');
-define('_MD_REPLY_REQUIREMENT', 'Da bi ovaj post mogao(la) da &#269;ita&scaron;, mora&scaron; se prvo ulogovati i plus onda mo&#382;e&scaron; i odgovor dati.');
+define('_MD_KARMA_REQUIREMENT','Li&#269;na Karma %s nije dovoljna za odre&#273;enu Karmu od  %s. <br /> Molim te kasnije probaj ponovo.');
+define('_MD_REPLY_REQUIREMENT','Da bi ovaj post mogao(la) da &#269;ita&scaron;, mora&scaron; se prvo ulogovati i plus onda mo&#382;e&scaron; i odgovor dati.');
 define('_MD_TOPICOPTIONADMIN','Tema-Admin Opcija');
 define('_MD_POLLOPTIONADMIN','Anketa-Admin Opcija');
 
@@ -277,7 +277,7 @@ define('_MD_DOSMILEY','Smilise aktiviraj');
 define('_MD_DOXCODE','XOOPS-Code aktiviraj');
 define('_MD_DOBR','Prelamanje novog reda uklju&#269;i (Isklju&#269;i, ako je HTML uklju&#269;en)');
 define('_MD_DOHTML','HTML aktiviraj');
-define('_MD_NEWPOSTNOTIFY', 'Obavijesti me ako ima novih Postova u ovoj Temi');
+define('_MD_NEWPOSTNOTIFY','Obavijesti me ako ima novih Postova u ovoj Temi');
 define('_MD_ATTACHSIG','Signaturu zaka&#269;i');
 define('_MD_POST','Objavi');
 define('_MD_SUBMIT','Po&scaron;alji');
@@ -342,13 +342,13 @@ define('_MD_FROM','Iz:');
 define('_MD_JOINED','Registrovan(a)');
 define('_MD_ONLINE','Online');
 define('_MD_OFFLINE','Offline');
-define('_MD_FLAT', 'Ravno');
+define('_MD_FLAT','Ravno');
 
 
 // online.php
-define('_MD_USERS_ONLINE', 'Posjetilaca online:');
-define('_MD_ANONYMOUS_USERS', 'Anonyman(ih)');
-define('_MD_REGISTERED_USERS', '&#268;lan(ova): ');
+define('_MD_USERS_ONLINE','Posjetilaca online:');
+define('_MD_ANONYMOUS_USERS','Anonyman(ih)');
+define('_MD_REGISTERED_USERS','&#268;lan(ova): ');
 define('_MD_BROWSING_FORUM','&#268;lan(ova) je(su) u Forumu');
 define('_MD_TOTAL_ONLINE','Ukupno %d posjetilaca online.');
 define('_MD_ADMINISTRATOR','Administrator');
@@ -357,10 +357,10 @@ define('_MD_NO_SUCH_FILE','Podatak ne postoji!');
 define('_MD_ERROR_UPATEATTACHMENT','Do&scaron;lo je do gre&scaron;ke prilikom zaka&#269;ke podatka');
 
 // ratethread.php
-define("_MD_CANTVOTEOWN", "Za svoju Temu ti nesmije&scaron; glasati..<br />Sva glasanja se provjeravaju i bilje&#382;e se.");
-define("_MD_VOTEONCE", "Molim te samo jednom glasaj za istu Temu.");
-define("_MD_VOTEAPPRE", "Tvoja ocjena je dobrodo&scaron;la.");
-define("_MD_THANKYOU", "Hvala ti za tvoje cijenjeno vrijeme i %s datoj ocjeni."); // %s is your site name
+define("_MD_CANTVOTEOWN","Za svoju Temu ti nesmije&scaron; glasati..<br />Sva glasanja se provjeravaju i bilje&#382;e se.");
+define("_MD_VOTEONCE","Molim te samo jednom glasaj za istu Temu.");
+define("_MD_VOTEAPPRE","Tvoja ocjena je dobrodo&scaron;la.");
+define("_MD_THANKYOU","Hvala ti za tvoje cijenjeno vrijeme i %s datoj ocjeni."); // %s is your site name
 define("_MD_VOTES","Glasovi");
 define("_MD_NOVOTERATE","Ova Tema nije jo&scaron; ocijenjena.");
 
@@ -368,37 +368,37 @@ define("_MD_NOVOTERATE","Ova Tema nije jo&scaron; ocijenjena.");
 // polls.php
 define("_MD_POLL_DBUPDATED","Baza podataka je uspje&scaron;no aktulizirana!");
 define("_MD_POLL_POLLCONF","Konfiguracija Anketa");
-define("_MD_POLL_POLLSLIST", "Lista Anketa");
-define("_MD_POLL_AUTHOR", "Autor ove Ankete");
-define("_MD_POLL_DISPLAYBLOCK", "U Bloku prika&#382;i?");
-define("_MD_POLL_POLLQUESTION", "Naslov Ankete");
-define("_MD_POLL_VOTERS", "Ima ukupno glasova");
-define("_MD_POLL_VOTES", "Glasova ukupno");
-define("_MD_POLL_EXPIRATION", "Datum isticanja");
-define("_MD_POLL_EXPIRED", "Istekla");
+define("_MD_POLL_POLLSLIST","Lista Anketa");
+define("_MD_POLL_AUTHOR","Autor ove Ankete");
+define("_MD_POLL_DISPLAYBLOCK","U Bloku prika&#382;i?");
+define("_MD_POLL_POLLQUESTION","Naslov Ankete");
+define("_MD_POLL_VOTERS","Ima ukupno glasova");
+define("_MD_POLL_VOTES","Glasova ukupno");
+define("_MD_POLL_EXPIRATION","Datum isticanja");
+define("_MD_POLL_EXPIRED","Istekla");
 define("_MD_POLL_VIEWLOG","Logo prika&#382;i");
-define("_MD_POLL_CREATNEWPOLL", "Novu Anketu napravi");
-define("_MD_POLL_POLLDESC", "Opis Ankete");
-define("_MD_POLL_DISPLAYORDER", "Pozicija");
-define("_MD_POLL_ALLOWMULTI", "Smijeli se vi&scaron;e puta davati svoj glas?");
-define("_MD_POLL_NOTIFY", "Autora Ankete nakon njenog isticanja treba li obavijestiti?");
-define("_MD_POLL_POLLOPTIONS", "Opcije");
-define("_MD_POLL_EDITPOLL", "Anketu uredi");
-define("_MD_POLL_FORMAT", "Format: yyyy-mm-dd hh:mm:ss");
-define("_MD_POLL_CURRENTTIME", "Aktuelno vrijeme je %s");
-define("_MD_POLL_EXPIREDAT", "Isti&#269;e %s");
-define("_MD_POLL_RESTART", "Ovu Anketu ponovo startuj");
-define("_MD_POLL_ADDMORE", "Vi&scaron;e opcija dodaj");
-define("_MD_POLL_RUSUREDEL", "Jesi li siguran(a) da ovu Anketu i sve njene glasove treba izbrisati?");
-define("_MD_POLL_RESTARTPOLL", "Anketu ponovo startuj");
-define("_MD_POLL_RESET", "Ponovo startuj Logo ove Ankete?");
+define("_MD_POLL_CREATNEWPOLL","Novu Anketu napravi");
+define("_MD_POLL_POLLDESC","Opis Ankete");
+define("_MD_POLL_DISPLAYORDER","Pozicija");
+define("_MD_POLL_ALLOWMULTI","Smijeli se vi&scaron;e puta davati svoj glas?");
+define("_MD_POLL_NOTIFY","Autora Ankete nakon njenog isticanja treba li obavijestiti?");
+define("_MD_POLL_POLLOPTIONS","Opcije");
+define("_MD_POLL_EDITPOLL","Anketu uredi");
+define("_MD_POLL_FORMAT","Format: yyyy-mm-dd hh:mm:ss");
+define("_MD_POLL_CURRENTTIME","Aktuelno vrijeme je %s");
+define("_MD_POLL_EXPIREDAT","Isti&#269;e %s");
+define("_MD_POLL_RESTART","Ovu Anketu ponovo startuj");
+define("_MD_POLL_ADDMORE","Vi&scaron;e opcija dodaj");
+define("_MD_POLL_RUSUREDEL","Jesi li siguran(a) da ovu Anketu i sve njene glasove treba izbrisati?");
+define("_MD_POLL_RESTARTPOLL","Anketu ponovo startuj");
+define("_MD_POLL_RESET","Ponovo startuj Logo ove Ankete?");
 define("_MD_POLL_ADDPOLL","Anketu dodaj");
 define("_MD_POLLMODULE_ERROR","Xoops Ankete Modul ne postoji za uslugu");
 
 //report.php
-define("_MD_REPORTED", "Hvala ti na prijavljivanju ovog Posta/Teme! Jedan od Moderatora &#263;e se pobrinuti za ovu prijavu.");
-define("_MD_REPORT_ERROR", "Do&scaron;lo je do gre&scaron;ke prilikom slanja prijave.");
-define("_MD_REPORT_TEXT", "Tekst prijave:");
+define("_MD_REPORTED","Hvala ti na prijavljivanju ovog Posta/Teme! Jedan od Moderatora &#263;e se pobrinuti za ovu prijavu.");
+define("_MD_REPORT_ERROR","Do&scaron;lo je do gre&scaron;ke prilikom slanja prijave.");
+define("_MD_REPORT_TEXT","Tekst prijave:");
 
 define("_MD_PDF","Napravi PDF za ovaj Post");
 define("_MD_PDF_PAGE","Stranica %s");
@@ -445,27 +445,27 @@ define("_MD_TYPE_PENDING","Odobri postove");
 define("_MD_TYPE_DELETED","Izbri&scaron;i postove");
 define("_MD_TYPE_SUSPEND","Banuj &#268;lana");
 
-define("_MD_DBUPDATED", "Update u Bazu podataka je uspjelo!");
+define("_MD_DBUPDATED","Update u Bazu podataka je uspjelo!");
 
-define("_MD_SUSPEND_SUBJECT", "&#268;lan %s je za %d dana Banovan");
-define("_MD_SUSPEND_TEXT", "&#268;lan %s je za %d dana Banovan. Razlog:<br />[quote]%s[/quote]<br /><br />Ban do %s va&#382;i");
-define("_MD_SUSPEND_UID", "&#268;lanov ID");
-define("_MD_SUSPEND_IP", "IP Segmenti (Puni ili samo Segmenti)");
-define("_MD_SUSPEND_DURATION", "Trajanje Bana (dana)");
-define("_MD_SUSPEND_DESC", "Razlog Banovanja");
-define("_MD_SUSPEND_LIST", "Lista Banovanih");
-define("_MD_SUSPEND_START", "Start");
-define("_MD_SUSPEND_EXPIRE", "Kraj");
-define("_MD_SUSPEND_SCOPE", "Podru&#269;je");
-define("_MD_SUSPEND_MANAGEMENT", "Moderacijski Menadzer");
-define("_MD_SUSPEND_NOACCESS", "Ulaz ti je zabranjen. Tvoj ID ili IP je Banovan");
+define("_MD_SUSPEND_SUBJECT","&#268;lan %s je za %d dana Banovan");
+define("_MD_SUSPEND_TEXT","&#268;lan %s je za %d dana Banovan. Razlog:<br />[quote]%s[/quote]<br /><br />Ban do %s va&#382;i");
+define("_MD_SUSPEND_UID","&#268;lanov ID");
+define("_MD_SUSPEND_IP","IP Segmenti (Puni ili samo Segmenti)");
+define("_MD_SUSPEND_DURATION","Trajanje Bana (dana)");
+define("_MD_SUSPEND_DESC","Razlog Banovanja");
+define("_MD_SUSPEND_LIST","Lista Banovanih");
+define("_MD_SUSPEND_START","Start");
+define("_MD_SUSPEND_EXPIRE","Kraj");
+define("_MD_SUSPEND_SCOPE","Podru&#269;je");
+define("_MD_SUSPEND_MANAGEMENT","Moderacijski Menadzer");
+define("_MD_SUSPEND_NOACCESS","Ulaz ti je zabranjen. Tvoj ID ili IP je Banovan");
 
-// !!IMPORTANT!! insert '\' before any char among reserved chars: "a", "A","B","c","d","D","F","g","G","h","H","i","I","j","l","L","m","M","n","O","r","s","S","t","T","U","w","W","Y","y","z","Z"
-// insert double '\' before 't', 'r', 'n'
-define("_MD_TODAY", "\d\a\\n\\a\s G:i:s");
-define("_MD_YESTERDAY", "\j\u\&#269;\e\\r G:i:s");
-define("_MD_MONTHDAY", "j/n G:i:s");
-define("_MD_YEARMONTHDAY", "Y/j/n G:i");
+// !!IMPORTANT!! insert '\' before any char among reserved chars: "a","A","B","c","d","D","F","g","G","h","H","i","I","j","l","L","m","M","n","O","r","s","S","t","T","U","w","W","Y","y","z","Z"
+// insert double '\' before 't','r','n'
+define("_MD_TODAY","\d\a\\n\\a\s G:i:s");
+define("_MD_YESTERDAY","\j\u\&#269;\e\\r G:i:s");
+define("_MD_MONTHDAY","j/n G:i:s");
+define("_MD_YEARMONTHDAY","Y/j/n G:i");
 
 define("_NEWBB_SECURITY_CODE","Sigurnosni code upi&scaron;i");
 define("_NEWBB_SECURITY_CODE_FAILED","Sigurnosni code je pogre&scaron;no upisan");
@@ -488,19 +488,19 @@ class User_language extends User
     	$userbar = array();
         $userbar[] = array("link"=>XOOPS_URL . "/userinfo.php?uid=" . $user->getVar("uid"), "name" =>_PROFILE);
 		if (is_object($xoopsUser))
-        $userbar[]= array("link"=>"javascript:void openWithSelfMain('" . XOOPS_URL . "/pmlite.php?send2=1&amp;to_userid=" . $user->getVar("uid") . "', 'pmlite', 450, 380);", "name"=>_MD_PM);
+        $userbar[]= array("link"=>"javascript:void openWithSelfMain('" . XOOPS_URL . "/pmlite.php?send2=1&amp;to_userid=" . $user->getVar("uid") . "','pmlite', 450, 380);","name"=>_MD_PM);
         if($user->getVar('user_viewemail') || $isadmin)
-        $userbar[]= array("link"=>"javascript:void window.open('mailto:" . $user->getVar('email') . "', 'new');", "name"=>_MD_EMAIL);
+        $userbar[]= array("link"=>"javascript:void window.open('mailto:" . $user->getVar('email') . "','new');","name"=>_MD_EMAIL);
         if($user->getVar('url'))
-        $userbar[]= array("link"=>"javascript:void window.open('" . $user->getVar('url') . "', 'new');", "name"=>_MD_WWW);
+        $userbar[]= array("link"=>"javascript:void window.open('" . $user->getVar('url') . "','new');","name"=>_MD_WWW);
         if($user->getVar('user_icq'))
-        $userbar[]= array("link"=>"javascript:void window.open('http://wwp.icq.com/scripts/search.dll?to=" . $user->getVar('user_icq')."', 'new');", "name" => _MD_ICQ);
+        $userbar[]= array("link"=>"javascript:void window.open('http://wwp.icq.com/scripts/search.dll?to=" . $user->getVar('user_icq')."','new');","name" => _MD_ICQ);
         if($user->getVar('user_aim'))
-        $userbar[]= array("link"=>"javascript:void window.open('aim:goim?screenname=" . $user->getVar('user_aim') . "&amp;message=Hi+" . $user->getVar('user_aim') . "+Are+you+there?" . "', 'new');", "name"=>_MD_AIM);
+        $userbar[]= array("link"=>"javascript:void window.open('aim:goim?screenname=" . $user->getVar('user_aim') . "&amp;message=Hi+" . $user->getVar('user_aim') . "+Are+you+there?" . "','new');","name"=>_MD_AIM);
         if($user->getVar('user_yim'))
-        $userbar[]= array("link"=>"javascript:void window.open('http://edit.yahoo.com/config/send_webmesg?.target=" . $user->getVar('user_yim') . "&.src=pg" . "', 'new');", "name"=> _MD_YIM);
+        $userbar[]= array("link"=>"javascript:void window.open('http://edit.yahoo.com/config/send_webmesg?.target=" . $user->getVar('user_yim') . "&.src=pg" . "','new');","name"=> _MD_YIM);
         if($user->getVar('user_msnm'))
-        $userbar[]= array("link"=>"javascript:void window.open('http://members.msn.com?mem=" . $user->getVar('user_msnm') . "', 'new');", "name" => _MD_MSNM);
+        $userbar[]= array("link"=>"javascript:void window.open('http://members.msn.com?mem=" . $user->getVar('user_msnm') . "','new');","name" => _MD_MSNM);
 		return $userbar;
     }
 }

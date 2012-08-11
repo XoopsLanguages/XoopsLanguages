@@ -3,8 +3,8 @@
 * $Id: main.php,v 1.0.4 24/05/2006 00:48 BitC3R0 Exp $             *
 * ----------------------------------------------------             *
 * RMSOFT MyFolder 1.0                                              *
-* Módulo para el manejo de un portafolio profesional               *
-* CopyRight © 2006. Red México Soft                                *
+* MÃ³dulo para el manejo de un portafolio profesional               *
+* CopyRight Â© 2006. Red MÃ©xico Soft                                *
 * Autor: BitC3R0                                                   *
 * http://www.redmexico.com.mx                                      *
 * http://www.xoops-mexico.net                                      *
@@ -26,24 +26,24 @@
 *                                                                  *
 * ----------------------------------------------------             *
 * main.php:                                                        *
-* Archivo de lenguaje para la sección frontal del archivo          *
+* Archivo de lenguaje para la secciÃ³n frontal del archivo          *
 * ----------------------------------------------------             *
-* @copyright: © 2006. BitC3R0.                                     *
+* @copyright: Â© 2006. BitC3R0.                                     *
 * @autor: BitC3R0                                                  *
 * @paquete: RMSOFT GS 2.0                                          *
 * @version: 1.0.4                                                  *
-* @Polskie t³umaczenie - Sylwester Pyrka www.ibr.org.pl            *
+* @Polskie tÂ³umaczenie - Sylwester Pyrka www.ibr.org.pl            *
 *******************************************************************/
 
-define('_RMMF_CATEGOS', 'Kategorie');
-define('_RMMF_FEATURED', 'Wyró¿nione prace');
-define('_RMMF_RECENTS', 'Wcze¶niejsze prace');
-define('_RMMF_WORKS', 'Prace');
-define('_RMMF_VIEWINFO', 'Poka¿ szczegó³y');
-define('_RMMF_FOR', 'Wykonano dla:');
-define('_RMMF_DESC', 'Opis:');
-define('_RMMF_URL', 'Odno¶niki:');
-define('_RMMF_COMMENT', '%s komentarzy:');
-define('_RMMF_MOREIMAGES', 'Obrazy:');
-define('_RMMF_PAGES', 'Strony:');
+define('_RMMF_CATEGOS','Kategorie');
+define('_RMMF_FEATURED','WyrÃ³Â¿nione prace');
+define('_RMMF_RECENTS','WczeÂ¶niejsze prace');
+define('_RMMF_WORKS','Prace');
+define('_RMMF_VIEWINFO','PokaÂ¿ szczegÃ³Â³y');
+define('_RMMF_FOR','Wykonano dla:');
+define('_RMMF_DESC','Opis:');
+define('_RMMF_URL','OdnoÂ¶niki:');
+define('_RMMF_COMMENT','%s komentarzy:');
+define('_RMMF_MOREIMAGES','Obrazy:');
+define('_RMMF_PAGES','Strony:');
 ?>

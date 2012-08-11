@@ -8,19 +8,19 @@
  * Licence: GNU
  */
 // Blocks
-define("_MB_WB_DATE", "Data publikacji");
-define("_MB_WB_DELTERM", "Usuñ ten wpis");
-define("_MB_WB_DISP", "Wy¶wietl");
-define("_MB_WB_EDITTERM", "Edytuj ten wpis");
-define("_MB_WB_HITS", "Ods³on");
-define("_MB_WB_INTENTRY", "Zobacz definicjê na %s");
-define("_MB_WB_INTENTRYFOUND", "Znalaz³em ciekaw± definicjê na %s");
-define("_MB_WB_ORDER", "Porz±dek wy¶wietlania");
-define("_MB_WB_PRINTTERM", "Drukuj");
-define("_MB_WB_RANDOMTITLE", "Losowy termin");
-define("_MB_WB_SEEMORE", "Wiêcej definicji...");
-define("_MB_WB_SENDTOFRIEND", "Wy¶lij tê definicjê znajomemu");
-define("_MB_WB_TERMS", "definicji");
-define("_MB_WB_TITLE", "Tytu³");
-define("_MB_WB_WEIGHT", "Lista wed³ug wagi");
+define("_MB_WB_DATE","Data publikacji");
+define("_MB_WB_DELTERM","UsuÃ± ten wpis");
+define("_MB_WB_DISP","WyÂ¶wietl");
+define("_MB_WB_EDITTERM","Edytuj ten wpis");
+define("_MB_WB_HITS","OdsÂ³on");
+define("_MB_WB_INTENTRY","Zobacz definicjÃª na %s");
+define("_MB_WB_INTENTRYFOUND","ZnalazÂ³em ciekawÂ± definicjÃª na %s");
+define("_MB_WB_ORDER","PorzÂ±dek wyÂ¶wietlania");
+define("_MB_WB_PRINTTERM","Drukuj");
+define("_MB_WB_RANDOMTITLE","Losowy termin");
+define("_MB_WB_SEEMORE","WiÃªcej definicji...");
+define("_MB_WB_SENDTOFRIEND","WyÂ¶lij tÃª definicjÃª znajomemu");
+define("_MB_WB_TERMS","definicji");
+define("_MB_WB_TITLE","TytuÂ³");
+define("_MB_WB_WEIGHT","Lista wedÂ³ug wagi");
 ?>

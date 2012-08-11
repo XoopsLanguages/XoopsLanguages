@@ -20,8 +20,8 @@ define("_SR_PREVIOUS","<< Precedente");
 define("_SR_KEYWORDS","Parola(e) chiave");
 define("_SR_TYPE","Modalit&agrave;");
 define("_SR_SEARCHIN","Cerca in");
-define('_SR_KEYTOOSHORT', 'Le parole chiave devono essere essere composte da almeno <strong>%s</strong> caratteri!');
-define('_SR_KEYIGNORE', 'Le parole chiave pi&ugrave; corte di <strong>%s</strong> caratteri saranno ignorate durante la ricerca');
-define('_SR_SEARCHRULE', 'Regole per la ricerca');
-define('_SR_IGNOREDWORDS', 'Le seguenti parole sono di lunghezza inferiore alla minima richiesta (%u caratteri) e non sono state incluse nella ricerca:');
+define('_SR_KEYTOOSHORT','Le parole chiave devono essere essere composte da almeno <strong>%s</strong> caratteri!');
+define('_SR_KEYIGNORE','Le parole chiave pi&ugrave; corte di <strong>%s</strong> caratteri saranno ignorate durante la ricerca');
+define('_SR_SEARCHRULE','Regole per la ricerca');
+define('_SR_IGNOREDWORDS','Le seguenti parole sono di lunghezza inferiore alla minima richiesta (%u caratteri) e non sono state incluse nella ricerca:');
 ?>

@@ -38,15 +38,15 @@
 // Module Info
 
 // The name of this module
-define('_MI_ACHAT_NAME', 'پیام کوتاه');
+define('_MI_ACHAT_NAME','پیام کوتاه');
 // A brief description of this module
 define('_MI_ACHAT_DESC','اين ماژول براي چت کردن و با تکنلوژي آزاکس ساخته شده');
 
 // Menu
-define("_MI_ACHAT_HOME", "خانه");
-define("_MI_ACHAT_PURGE", "پاكسازي كردن");
-define("_MI_ACHAT_PERM", "دسترسي ها");
-define("_MI_ACHAT_UTILITIES", "ابزار ها");
+define("_MI_ACHAT_HOME","خانه");
+define("_MI_ACHAT_PURGE","پاكسازي كردن");
+define("_MI_ACHAT_PERM","دسترسي ها");
+define("_MI_ACHAT_UTILITIES","ابزار ها");
 
 define("_MI_ACHAT_SMNAME1","ديدن گزارش ها");
 define("_MI_ACHAT_SMNAME2","ديدن آرشيو");

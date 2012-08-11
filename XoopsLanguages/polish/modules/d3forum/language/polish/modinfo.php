@@ -11,7 +11,7 @@ define( $constpref.'_LOADED' , 1 ) ;
 define($constpref."_NAME","Forum");
 
 // A brief description of this module
-define($constpref."_DESC","Modu³ forum dla XOOPS");
+define($constpref."_DESC","ModuÂ³ forum dla XOOPS");
 
 // Names of blocks for this module (Not all module has blocks)
 define($constpref."_BNAME_LIST_TOPICS","Tematy");
@@ -24,99 +24,99 @@ define($constpref.'_ADMENU_FORUMACCESS','Uprawnienia dla forum');
 define($constpref.'_ADMENU_ADVANCEDADMIN','Opcje zaawansowane');
 
 // configurations
-define($constpref.'_TOP_MESSAGE','Wiadomo¶æ powitalna (widoczna na górze forum)');
-define($constpref.'_TOP_MESSAGEDEFAULT','<h1 class="d3f_title">Forum</h1><p class="d3f_welcome">Rozpocznij przygodê na forum od wybrania kategorii któr± chcesz odwiedziæ.</p>');
-define($constpref.'_ALLOW_HTML','Zezwól na HTML');
-define($constpref.'_ALLOW_HTMLDSC','Nie u¿ywaæ bezmy¶lnie, mo¿e powodowaæ ataki hakerów przy pomocy skryptów.');
-define($constpref.'_ALLOW_TEXTIMG','Pozwalaj na wy¶wietlanie zewnêtrznych grafik w po¶cie');
+define($constpref.'_TOP_MESSAGE','WiadomoÂ¶Ã¦ powitalna (widoczna na gÃ³rze forum)');
+define($constpref.'_TOP_MESSAGEDEFAULT','<h1 class="d3f_title">Forum</h1><p class="d3f_welcome">Rozpocznij przygodÃª na forum od wybrania kategorii ktÃ³rÂ± chcesz odwiedziÃ¦.</p>');
+define($constpref.'_ALLOW_HTML','ZezwÃ³l na HTML');
+define($constpref.'_ALLOW_HTMLDSC','Nie uÂ¿ywaÃ¦ bezmyÂ¶lnie, moÂ¿e powodowaÃ¦ ataki hakerÃ³w przy pomocy skryptÃ³w.');
+define($constpref.'_ALLOW_TEXTIMG','Pozwalaj na wyÂ¶wietlanie zewnÃªtrznych grafik w poÂ¶cie');
 define($constpref.'_ALLOW_TEXTIMGDSC','If some attackers post an external image using [img], he can know IPs or User-Agents of users visited your site.');
-define($constpref.'_ALLOW_SIG','Zezwól na sygnatury');
+define($constpref.'_ALLOW_SIG','ZezwÃ³l na sygnatury');
 define($constpref.'_ALLOW_SIGDSC','');
-define($constpref.'_ALLOW_SIGIMG','Pozwala na wy¶wietlanie zewnêtrznych obrazków w sygnaturze');
+define($constpref.'_ALLOW_SIGIMG','Pozwala na wyÂ¶wietlanie zewnÃªtrznych obrazkÃ³w w sygnaturze');
 define($constpref.'_ALLOW_SIGIMGDSC','If some attackers post an external image using [img], he can know IPs or User-Agents of users visited your site.');
-define($constpref.'_USE_VOTE','W³±cz opcjê g³osowania');
-define($constpref.'_USE_SOLVED','W³±cz opcjê oznaczania jako rozwi±zany');
-define($constpref.'_ALLOW_MARK','W³±cz opcjê oznaczania jako wyró¿niony');
-define($constpref.'_ALLOW_HIDEUID','Pozwól zarejestrowanym u¿ytkownikom postowaæ nie ukazuj±c swojego imienia');
-define($constpref.'_POSTS_PER_TOPIC','Maksymalna liczba postów w temacie');
-define($constpref.'_POSTS_PER_TOPICDSC','Temat ma limit postów.');
-define($constpref.'_HOT_THRESHOLD','Ilo¶æ postów potrzebnych aby temat zosta³ oznaczony jako popularny');
+define($constpref.'_USE_VOTE','WÂ³Â±cz opcjÃª gÂ³osowania');
+define($constpref.'_USE_SOLVED','WÂ³Â±cz opcjÃª oznaczania jako rozwiÂ±zany');
+define($constpref.'_ALLOW_MARK','WÂ³Â±cz opcjÃª oznaczania jako wyrÃ³Â¿niony');
+define($constpref.'_ALLOW_HIDEUID','PozwÃ³l zarejestrowanym uÂ¿ytkownikom postowaÃ¦ nie ukazujÂ±c swojego imienia');
+define($constpref.'_POSTS_PER_TOPIC','Maksymalna liczba postÃ³w w temacie');
+define($constpref.'_POSTS_PER_TOPICDSC','Temat ma limit postÃ³w.');
+define($constpref.'_HOT_THRESHOLD','IloÂ¶Ã¦ postÃ³w potrzebnych aby temat zostaÂ³ oznaczony jako popularny');
 define($constpref.'_HOT_THRESHOLDDSC','');
-define($constpref.'_TOPICS_PER_PAGE','Ilo¶æ tematów wy¶wietlanych na jednej stronie');
+define($constpref.'_TOPICS_PER_PAGE','IloÂ¶Ã¦ tematÃ³w wyÂ¶wietlanych na jednej stronie');
 define($constpref.'_TOPICS_PER_PAGEDSC','');
-define($constpref.'_VIEWALLBREAK','Ilo¶æ tematów wy¶wietlanych na jednej stronie (in the view crossing forums)');
+define($constpref.'_VIEWALLBREAK','IloÂ¶Ã¦ tematÃ³w wyÂ¶wietlanych na jednej stronie (in the view crossing forums)');
 define($constpref.'_VIEWALLBREAKDSC','');
-define($constpref.'_SELFEDITLIMIT','Okres mo¿liwo¶ci edycji posta (sekundy)');
-define($constpref.'_SELFEDITLIMITDSC','Wpisz ilo¶æ sekund po których u¿ytkownik nie bêdzie mia³ mo¿liwo¶ci edycji swojego posta. Aby wy³±czyæ mo¿liwo¶æ edycji wpisz warto¶æ 0 (zero)');
-define($constpref.'_SELFDELLIMIT','Okres mo¿liwo¶ci kasowania posta (sekundy)');
-define($constpref.'_SELFDELLIMITDSC','Wpisz ilo¶æ sekund po których u¿ytkownik nie bêdzie mia³ mo¿liwo¶ci kasowania swojego posta. Aby wy³±czyæ mo¿liwo¶æ kasowania wpisz warto¶æ 0 (zero)');
-define($constpref.'_CSS_URI','¦cie¿ka do pliku CSS dla forum');
-define($constpref.'_CSS_URIDSC','Mo¿esz u¿yæ ¶cie¿ki relatywnej lub absolutnej. Domy¶lnie: index.css');
-define($constpref.'_IMAGES_DIR','Katalog dla zdjêæ');
-define($constpref.'_IMAGES_DIRDSC','¦cie¿ka relatywna, powinna byæ w katalogu modu³u. Domy¶lnie: images');
+define($constpref.'_SELFEDITLIMIT','Okres moÂ¿liwoÂ¶ci edycji posta (sekundy)');
+define($constpref.'_SELFEDITLIMITDSC','Wpisz iloÂ¶Ã¦ sekund po ktÃ³rych uÂ¿ytkownik nie bÃªdzie miaÂ³ moÂ¿liwoÂ¶ci edycji swojego posta. Aby wyÂ³Â±czyÃ¦ moÂ¿liwoÂ¶Ã¦ edycji wpisz wartoÂ¶Ã¦ 0 (zero)');
+define($constpref.'_SELFDELLIMIT','Okres moÂ¿liwoÂ¶ci kasowania posta (sekundy)');
+define($constpref.'_SELFDELLIMITDSC','Wpisz iloÂ¶Ã¦ sekund po ktÃ³rych uÂ¿ytkownik nie bÃªdzie miaÂ³ moÂ¿liwoÂ¶ci kasowania swojego posta. Aby wyÂ³Â±czyÃ¦ moÂ¿liwoÂ¶Ã¦ kasowania wpisz wartoÂ¶Ã¦ 0 (zero)');
+define($constpref.'_CSS_URI','Â¦cieÂ¿ka do pliku CSS dla forum');
+define($constpref.'_CSS_URIDSC','MoÂ¿esz uÂ¿yÃ¦ Â¶cieÂ¿ki relatywnej lub absolutnej. DomyÂ¶lnie: index.css');
+define($constpref.'_IMAGES_DIR','Katalog dla zdjÃªÃ¦');
+define($constpref.'_IMAGES_DIRDSC','Â¦cieÂ¿ka relatywna, powinna byÃ¦ w katalogu moduÂ³u. DomyÂ¶lnie: images');
 define($constpref.'_ANONYMOUS_NAME','Nazwa dla anonima');
 define($constpref.'_ANONYMOUS_NAMEDSC','');
 define($constpref.'_ICON_MEANINGS','Znaczenie ikon');
-define($constpref.'_ICON_MEANINGSDSC','Okre¶l znaczniki ALT dla ikon. Oddzielaj pionow± kresk± (|). pierwsza ikona to "posticon0.gif".');
+define($constpref.'_ICON_MEANINGSDSC','OkreÂ¶l znaczniki ALT dla ikon. Oddzielaj pionowÂ± kreskÂ± (|). pierwsza ikona to "posticon0.gif".');
 define($constpref.'_ICON_MEANINGSDEF','none|normal|unhappy|happy|raise it|lower it|report|question');
-define($constpref.'_GUESTVOTE_IVL','Pozwól niezarejestrowanym g³osowaæ');
-define($constpref.'_GUESTVOTE_IVLDSC','Ustaw warto¶æ na 0 (zero) aby wy³±czyæ mo¿liwo¶æ g³osowania dla niezarejestrowanych. Inna warto¶æ bêdzie oznacza³a czas (w sekundach) oczekiwania na ponown± mo¿liwo¶æ g³osowania z tego samego IP.');
+define($constpref.'_GUESTVOTE_IVL','PozwÃ³l niezarejestrowanym gÂ³osowaÃ¦');
+define($constpref.'_GUESTVOTE_IVLDSC','Ustaw wartoÂ¶Ã¦ na 0 (zero) aby wyÂ³Â±czyÃ¦ moÂ¿liwoÂ¶Ã¦ gÂ³osowania dla niezarejestrowanych. Inna wartoÂ¶Ã¦ bÃªdzie oznaczaÂ³a czas (w sekundach) oczekiwania na ponownÂ± moÂ¿liwoÂ¶Ã¦ gÂ³osowania z tego samego IP.');
 
 
 
 // Notify Categories
-define($constpref.'_NOTCAT_TOPIC', 'Temat');
-define($constpref.'_NOTCAT_TOPICDSC', 'Powiadomienia dotycz±ce wybranego tematu');
-define($constpref.'_NOTCAT_FORUM', 'Forum');
-define($constpref.'_NOTCAT_FORUMDSC', 'Powiadomienia dotycz±ce wybranego forum');
-define($constpref.'_NOTCAT_CAT', 'Kategoria');
-define($constpref.'_NOTCAT_CATDSC', 'Powiadomienia dotycz±ce wybranej kategorii');
-define($constpref.'_NOTCAT_GLOBAL', 'Modu³');
-define($constpref.'_NOTCAT_GLOBALDSC', 'Powiadomienia dotycz±ce ca³ego modu³u.');
+define($constpref.'_NOTCAT_TOPIC','Temat');
+define($constpref.'_NOTCAT_TOPICDSC','Powiadomienia dotyczÂ±ce wybranego tematu');
+define($constpref.'_NOTCAT_FORUM','Forum');
+define($constpref.'_NOTCAT_FORUMDSC','Powiadomienia dotyczÂ±ce wybranego forum');
+define($constpref.'_NOTCAT_CAT','Kategoria');
+define($constpref.'_NOTCAT_CATDSC','Powiadomienia dotyczÂ±ce wybranej kategorii');
+define($constpref.'_NOTCAT_GLOBAL','ModuÂ³');
+define($constpref.'_NOTCAT_GLOBALDSC','Powiadomienia dotyczÂ±ce caÂ³ego moduÂ³u.');
 
 // Each Notifications
-define($constpref.'_NOTIFY_TOPIC_NEWPOST', 'Nowy post w temacie');
-define($constpref.'_NOTIFY_TOPIC_NEWPOSTCAP', 'Powiadom mnie o nowych postach w tym temacie.');
-define($constpref.'_NOTIFY_TOPIC_NEWPOSTSBJ', '[{X_SITENAME}] {X_MODULE}:{TOPIC_TITLE} Nowy post w temacie');
+define($constpref.'_NOTIFY_TOPIC_NEWPOST','Nowy post w temacie');
+define($constpref.'_NOTIFY_TOPIC_NEWPOSTCAP','Powiadom mnie o nowych postach w tym temacie.');
+define($constpref.'_NOTIFY_TOPIC_NEWPOSTSBJ','[{X_SITENAME}] {X_MODULE}:{TOPIC_TITLE} Nowy post w temacie');
 
-define($constpref.'_NOTIFY_FORUM_NEWPOST', 'Nowy post w forum');
-define($constpref.'_NOTIFY_FORUM_NEWPOSTCAP', 'Powiadom mnie o nowych postach w tym forum.');
-define($constpref.'_NOTIFY_FORUM_NEWPOSTSBJ', '[{X_SITENAME}] {X_MODULE}:{FORUM_TITLE} Nowy post w forum');
+define($constpref.'_NOTIFY_FORUM_NEWPOST','Nowy post w forum');
+define($constpref.'_NOTIFY_FORUM_NEWPOSTCAP','Powiadom mnie o nowych postach w tym forum.');
+define($constpref.'_NOTIFY_FORUM_NEWPOSTSBJ','[{X_SITENAME}] {X_MODULE}:{FORUM_TITLE} Nowy post w forum');
 
-define($constpref.'_NOTIFY_FORUM_NEWTOPIC', 'Nowy tmeat w forum');
-define($constpref.'_NOTIFY_FORUM_NEWTOPICCAP', 'Powiadom mnie o nowych tematach w tym forum.');
-define($constpref.'_NOTIFY_FORUM_NEWTOPICSBJ', '[{X_SITENAME}] {X_MODULE}:{FORUM_TITLE} Nowy tmeat w forum');
+define($constpref.'_NOTIFY_FORUM_NEWTOPIC','Nowy tmeat w forum');
+define($constpref.'_NOTIFY_FORUM_NEWTOPICCAP','Powiadom mnie o nowych tematach w tym forum.');
+define($constpref.'_NOTIFY_FORUM_NEWTOPICSBJ','[{X_SITENAME}] {X_MODULE}:{FORUM_TITLE} Nowy tmeat w forum');
 
-define($constpref.'_NOTIFY_CAT_NEWPOST', 'Nowy post w kategorii');
-define($constpref.'_NOTIFY_CAT_NEWPOSTCAP', 'Powiadom mnie o nowych postach w tej kategorii .');
-define($constpref.'_NOTIFY_CAT_NEWPOSTSBJ', '[{X_SITENAME}] {X_MODULE}:{CAT_TITLE} Nowy post w kategorii');
+define($constpref.'_NOTIFY_CAT_NEWPOST','Nowy post w kategorii');
+define($constpref.'_NOTIFY_CAT_NEWPOSTCAP','Powiadom mnie o nowych postach w tej kategorii .');
+define($constpref.'_NOTIFY_CAT_NEWPOSTSBJ','[{X_SITENAME}] {X_MODULE}:{CAT_TITLE} Nowy post w kategorii');
 
-define($constpref.'_NOTIFY_CAT_NEWTOPIC', 'Nowy temat w kategorii');
-define($constpref.'_NOTIFY_CAT_NEWTOPICCAP', 'Powiadom mnie o nowych tematach w tej kategorii.');
-define($constpref.'_NOTIFY_CAT_NEWTOPICSBJ', '[{X_SITENAME}] {X_MODULE}:{CAT_TITLE} Nowy temat w kategorii');
+define($constpref.'_NOTIFY_CAT_NEWTOPIC','Nowy temat w kategorii');
+define($constpref.'_NOTIFY_CAT_NEWTOPICCAP','Powiadom mnie o nowych tematach w tej kategorii.');
+define($constpref.'_NOTIFY_CAT_NEWTOPICSBJ','[{X_SITENAME}] {X_MODULE}:{CAT_TITLE} Nowy temat w kategorii');
 
-define($constpref.'_NOTIFY_CAT_NEWFORUM', 'Nowe forum w kategorii');
-define($constpref.'_NOTIFY_CAT_NEWFORUMCAP', 'Powiadom mnie o nowych forach w tyj kategorii.');
-define($constpref.'_NOTIFY_CAT_NEWFORUMSBJ', '[{X_SITENAME}] {X_MODULE}:{CAT_TITLE} Nowe forum w kategorii');
+define($constpref.'_NOTIFY_CAT_NEWFORUM','Nowe forum w kategorii');
+define($constpref.'_NOTIFY_CAT_NEWFORUMCAP','Powiadom mnie o nowych forach w tyj kategorii.');
+define($constpref.'_NOTIFY_CAT_NEWFORUMSBJ','[{X_SITENAME}] {X_MODULE}:{CAT_TITLE} Nowe forum w kategorii');
 
-define($constpref.'_NOTIFY_GLOBAL_NEWPOST', 'Nowy post');
-define($constpref.'_NOTIFY_GLOBAL_NEWPOSTCAP', 'Powiadom mnie o nowych postach w tym module.');
-define($constpref.'_NOTIFY_GLOBAL_NEWPOSTSBJ', '[{X_SITENAME}] {X_MODULE}: Nowy post');
+define($constpref.'_NOTIFY_GLOBAL_NEWPOST','Nowy post');
+define($constpref.'_NOTIFY_GLOBAL_NEWPOSTCAP','Powiadom mnie o nowych postach w tym module.');
+define($constpref.'_NOTIFY_GLOBAL_NEWPOSTSBJ','[{X_SITENAME}] {X_MODULE}: Nowy post');
 
-define($constpref.'_NOTIFY_GLOBAL_NEWTOPIC', 'Nowy temat');
-define($constpref.'_NOTIFY_GLOBAL_NEWTOPICCAP', 'Powiadom mnie o nowych tematach w tym module.');
-define($constpref.'_NOTIFY_GLOBAL_NEWTOPICSBJ', '[{X_SITENAME}] {X_MODULE}: Nowy temat');
+define($constpref.'_NOTIFY_GLOBAL_NEWTOPIC','Nowy temat');
+define($constpref.'_NOTIFY_GLOBAL_NEWTOPICCAP','Powiadom mnie o nowych tematach w tym module.');
+define($constpref.'_NOTIFY_GLOBAL_NEWTOPICSBJ','[{X_SITENAME}] {X_MODULE}: Nowy temat');
 
-define($constpref.'_NOTIFY_GLOBAL_NEWFORUM', 'Nowe forum');
-define($constpref.'_NOTIFY_GLOBAL_NEWFORUMCAP', 'Powiadom mnie o nowych forach w tym module.');
-define($constpref.'_NOTIFY_GLOBAL_NEWFORUMSBJ', '[{X_SITENAME}] {X_MODULE}: Nowe forum');
+define($constpref.'_NOTIFY_GLOBAL_NEWFORUM','Nowe forum');
+define($constpref.'_NOTIFY_GLOBAL_NEWFORUMCAP','Powiadom mnie o nowych forach w tym module.');
+define($constpref.'_NOTIFY_GLOBAL_NEWFORUMSBJ','[{X_SITENAME}] {X_MODULE}: Nowe forum');
 
-define($constpref.'_NOTIFY_GLOBAL_NEWPOSTFULL', 'Nowy post (pe³ny tekst)');
-define($constpref.'_NOTIFY_GLOBAL_NEWPOSTFULLCAP', 'Powiadom mnie o nowych postach (zawrzyj tre¶æ posta).');
-define($constpref.'_NOTIFY_GLOBAL_NEWPOSTFULLSBJ', '[{X_SITENAME}] {POST_TITLE}');
-define($constpref.'_NOTIFY_GLOBAL_WAITING', 'Nowe oczekuj±ce');
-define($constpref.'_NOTIFY_GLOBAL_WAITINGCAP', 'Powiadom mnie o nowych postach oczekuj±cych na akceptacjê. Tylko dla adminów');
-define($constpref.'_NOTIFY_GLOBAL_WAITINGSBJ', '[{X_SITENAME}] {X_MODULE}: Nowe oczekuj±ce');
+define($constpref.'_NOTIFY_GLOBAL_NEWPOSTFULL','Nowy post (peÂ³ny tekst)');
+define($constpref.'_NOTIFY_GLOBAL_NEWPOSTFULLCAP','Powiadom mnie o nowych postach (zawrzyj treÂ¶Ã¦ posta).');
+define($constpref.'_NOTIFY_GLOBAL_NEWPOSTFULLSBJ','[{X_SITENAME}] {POST_TITLE}');
+define($constpref.'_NOTIFY_GLOBAL_WAITING','Nowe oczekujÂ±ce');
+define($constpref.'_NOTIFY_GLOBAL_WAITINGCAP','Powiadom mnie o nowych postach oczekujÂ±cych na akceptacjÃª. Tylko dla adminÃ³w');
+define($constpref.'_NOTIFY_GLOBAL_WAITINGSBJ','[{X_SITENAME}] {X_MODULE}: Nowe oczekujÂ±ce');
 
 }
 

@@ -28,26 +28,26 @@
 //  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 USA //
 //  ------------------------------------------------------------------------ //
 
-define("_ER_UP_MIMETYPELOAD", "MIME Å¸ÀÔÀÇ ·Îµù¿¡ ½ÇÆÐÇÏ¿´½À´Ï´Ù.");
-define("_ER_UP_FILENOTFOUND", "ÆÄÀÏÀÌ ¾ø½À´Ï´Ù.");
-define("_ER_UP_INVALIDFILESIZE", "À¯È¿ÇÏÁö ¾ÊÀº ÆÄÀÏ »çÀÌÁîÀÔ´Ï´Ù.");
-define("_ER_UP_FILENAMEEMPTY", "ÆÄÀÏ¸íÀÌ ºñ¾îÀÖ½À´Ï´Ù.");
-define("_ER_UP_NOFILEUPLOADED", "ÆÄÀÏÀÌ ¾÷·ÎµåµÇÁö ¾Ê¾Ò½À´Ï´Ù.");
-define("_ER_UP_ERROROCCURRED", "¿¡·¯ ¹ß»ý: ¿¡·¯ #%s");
-define("_ER_UP_UPLOADDIRNOTSET", "Upload µð·ºÅä¸®°¡ ¼³Á¤µÇ¾î ÀÖÁö ¾Ê½À´Ï´Ù.");
-define("_ER_UP_FAILEDOPENDIR", "µð·ºÅä¸® %s ¸¦ ¿©´Âµ¥ ½ÇÆÐÇÏ¿´½À´Ï´Ù.");
-define("_ER_UP_FAILEDOPENDIRWRITE", "µð·ºÅä¸® %s ¿¡ ´ëÇÑ ¾²±â±ÇÇÑÀÌ ¾ø½À´Ï´Ù.");
-define("_ER_UP_FILESIZETOOLARGE", "ÆÄÀÏ »çÀÌÁî ÃÊ°ú(Maximum %u bytes): %u bytes");
-define("_ER_UP_FILEWIDTHTOOLARGE", "ÆÄÀÏ Æø ÃÊ°ú(Maximum %u px): %u px");
-define("_ER_UP_FILEHEIGHTTOOLARGE", "ÆÄÀÏ ³ôÀÌ ÃÊ°ú(Maximum %u px): %u px");
-define("_ER_UP_MIMETYPENOTALLOWED", "Çã°¡µÇÁö ¾ÊÀº MIME Å¸ÀÔ: %s");
-define("_ER_UP_FAILEDUPLOADFILE", "ÆÄÀÏÀÇ ¾÷·Îµå ½ÇÆÐ: %s");
-define("_ER_UP_FAILEDFETCHIMAGESIZE", "%sÀÇ ÀÌ¹ÌÁö»çÀÌÁî Ãëµæ¿¡ ½ÇÆÐ! Max dimension check´Â Skip...");
-define("_ER_UP_UNKNOWNFILETYPEREJECTED", "¿Ã¹Ù¸£Áö ¾ÊÀº ÆÄÀÏÅ¸ÀÔÀÌ¾î¼­ °ÅºÎµÇ¾îÁ³½À´Ï´Ù.");
-define("_ER_UP_ERRORSRETURNED", "¾÷·ÎµåÁß ¿¡·¯°¡ ¹ß»ýÇÏ¿´½À´Ï´Ù.");
-define("_ER_UP_INVALIDIMAGEFILE", "¿Ã¹Ù¸¥ image ÆÄÀÏÀÌ ¾Æ´Õ´Ï´Ù.");
-define("_ER_UP_SUSPICIOUSREFUSED", "ÀÇ½É½º·¯¿î imageÀÇ ¾÷·Îµå°¡ °ÅºÎµÇ¾îÁ³½À´Ï´Ù.");
-define("_ER_UP_INVALIDFILENAME", "¿Ã¹Ù¸£Áö ¾ÊÀº ÆÄÀÏ¸í");
-define("_ER_UP_FAILEDSAVEFILE", "Failed to save file to %s");
+define("_ER_UP_MIMETYPELOAD","MIME Å¸ï¿½ï¿½ï¿½ï¿½ ï¿½Îµï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï¿ï¿½ï¿½ï¿½ï¿½Ï´ï¿½.");
+define("_ER_UP_FILENOTFOUND","ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï´ï¿½.");
+define("_ER_UP_INVALIDFILESIZE","ï¿½ï¿½È¿ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô´Ï´ï¿½.");
+define("_ER_UP_FILENAMEEMPTY","ï¿½ï¿½ï¿½Ï¸ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ö½ï¿½ï¿½Ï´ï¿½.");
+define("_ER_UP_NOFILEUPLOADED","ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Îµï¿½ï¿½ï¿½ï¿½ ï¿½Ê¾Ò½ï¿½ï¿½Ï´ï¿½.");
+define("_ER_UP_ERROROCCURRED","ï¿½ï¿½ï¿½ï¿½ ï¿½ß»ï¿½: ï¿½ï¿½ï¿½ï¿½ #%s");
+define("_ER_UP_UPLOADDIRNOTSET","Upload ï¿½ï¿½ï¿½ä¸®ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ç¾ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ê½ï¿½ï¿½Ï´ï¿½.");
+define("_ER_UP_FAILEDOPENDIR","ï¿½ï¿½ï¿½ä¸® %s ï¿½ï¿½ ï¿½ï¿½ï¿½Âµï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï¿ï¿½ï¿½ï¿½ï¿½Ï´ï¿½.");
+define("_ER_UP_FAILEDOPENDIRWRITE","ï¿½ï¿½ï¿½ä¸® %s ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï´ï¿½.");
+define("_ER_UP_FILESIZETOOLARGE","ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ê°ï¿½(Maximum %u bytes): %u bytes");
+define("_ER_UP_FILEWIDTHTOOLARGE","ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½Ê°ï¿½(Maximum %u px): %u px");
+define("_ER_UP_FILEHEIGHTTOOLARGE","ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ê°ï¿½(Maximum %u px): %u px");
+define("_ER_UP_MIMETYPENOTALLOWED","ï¿½ã°¡ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ MIME Å¸ï¿½ï¿½: %s");
+define("_ER_UP_FAILEDUPLOADFILE","ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Îµï¿½ ï¿½ï¿½ï¿½ï¿½: %s");
+define("_ER_UP_FAILEDFETCHIMAGESIZE","%sï¿½ï¿½ ï¿½Ì¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½æ¿¡ ï¿½ï¿½ï¿½ï¿½! Max dimension checkï¿½ï¿½ Skip...");
+define("_ER_UP_UNKNOWNFILETYPEREJECTED","ï¿½Ã¹Ù¸ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Å¸ï¿½ï¿½ï¿½Ì¾î¼­ ï¿½ÅºÎµÇ¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï´ï¿½.");
+define("_ER_UP_ERRORSRETURNED","ï¿½ï¿½ï¿½Îµï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ß»ï¿½ï¿½Ï¿ï¿½ï¿½ï¿½ï¿½Ï´ï¿½.");
+define("_ER_UP_INVALIDIMAGEFILE","ï¿½Ã¹Ù¸ï¿½ image ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Æ´Õ´Ï´ï¿½.");
+define("_ER_UP_SUSPICIOUSREFUSED","ï¿½Ç½É½ï¿½ï¿½ï¿½ï¿½ï¿½ imageï¿½ï¿½ ï¿½ï¿½ï¿½Îµå°¡ ï¿½ÅºÎµÇ¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï´ï¿½.");
+define("_ER_UP_INVALIDFILENAME","ï¿½Ã¹Ù¸ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ï¸ï¿½");
+define("_ER_UP_FAILEDSAVEFILE","Failed to save file to %s");
 
 ?>

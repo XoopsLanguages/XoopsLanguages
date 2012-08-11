@@ -48,7 +48,7 @@ define('_AM_PI_VIEWMONTHLY','Monatsansicht');
 define('_AM_PI_VIEWWEEKLY','Wochenansicht');
 define('_AM_PI_VIEWDAILY','Tagesansicht');
 
-define( 'PICAL_AM_LOADED' , 1 ) ;
+define('PICAL_AM_LOADED' , 1 ) ;
 
 
 // titles
@@ -114,45 +114,45 @@ define("_AM_IO_TH4","Regeln für wiederkehrende Termine");
 define("_AM_IO_TH5","Freigabe");
 
 // Group's Permissions
-define( '_AM_GPERM_G_INSERTABLE' , "dürfen hinzufügen" ) ;
-define( '_AM_GPERM_G_SUPERINSERT' , "dürfen uneingeschränkt hinzufügen" ) ;
-define( '_AM_GPERM_G_EDITABLE' , "dürfen editieren" ) ;
-define( '_AM_GPERM_G_SUPEREDIT' , "dürfen uneingeschränkt editieren" ) ;
-define( '_AM_GPERM_G_DELETABLE' , "dürfen löschen") ;
-define( '_AM_GPERM_G_SUPERDELETE' , "dürfen uneingeschränkt löschen" ) ;
-define( '_AM_GPERM_G_TOUCHOTHERS' , "dürfen die Eingaben anderer Benutzer ändern" ) ;
-define( '_AM_CAT2GROUPDESC' , "Kategorien auswählen, zu denen Zugriff gewährt werden soll" ) ;
-define( '_AM_GROUPPERMDESC' , "Hier können die Berechtigungen für jede Benutzergruppe einzeln eingestellt werden.<br />Um diese Funktion zu aktivieren, muss zuerst unter 'Einstellungen -> Berechtigungen für Benutzer' die Option 'Festgelegt durch Gruppenberechtigungen' ausgewählt werden.<br />Anmerkung: Die Einstellungen für die beiden Gruppen 'Administratoren'(Webmasters) und 'Gäste'(Anonymous Users) werden ignoriert." ) ;
+define('_AM_GPERM_G_INSERTABLE' , "dürfen hinzufügen" ) ;
+define('_AM_GPERM_G_SUPERINSERT' , "dürfen uneingeschränkt hinzufügen" ) ;
+define('_AM_GPERM_G_EDITABLE' , "dürfen editieren" ) ;
+define('_AM_GPERM_G_SUPEREDIT' , "dürfen uneingeschränkt editieren" ) ;
+define('_AM_GPERM_G_DELETABLE' , "dürfen löschen") ;
+define('_AM_GPERM_G_SUPERDELETE' , "dürfen uneingeschränkt löschen" ) ;
+define('_AM_GPERM_G_TOUCHOTHERS' , "dürfen die Eingaben anderer Benutzer ändern" ) ;
+define('_AM_CAT2GROUPDESC' , "Kategorien auswählen, zu denen Zugriff gewährt werden soll" ) ;
+define('_AM_GROUPPERMDESC' , "Hier können die Berechtigungen für jede Benutzergruppe einzeln eingestellt werden.<br />Um diese Funktion zu aktivieren, muss zuerst unter 'Einstellungen -> Berechtigungen für Benutzer' die Option 'Festgelegt durch Gruppenberechtigungen' ausgewählt werden.<br />Anmerkung: Die Einstellungen für die beiden Gruppen 'Administratoren'(Webmasters) und 'Gäste'(Anonymous Users) werden ignoriert." ) ;
 
 // Table Maintenance
-define( '_AM_MB_SUCCESSUPDATETABLE' , "Tabellen-Update war erfolgreich" ) ;
-define( '_AM_MB_FAILUPDATETABLE' , "Tabellen-Update ist fehlgeschlagen" ) ;
-define( '_AM_NOTICE_NOERRORS' , "Es existiert kein Fehler in den Tabellen oder Einträgen." ) ;
-define( '_AM_ALRT_CATTABLENOTEXIST' , "Die Kategorie-Tabelle existiert nicht.<br />\nSoll diese Tabelle erstellt werden?" ) ;
-define( '_AM_ALRT_OLDTABLE' , "Die Tabellenstruktur der Termin-Tabelle ist veraltet.<br />\nSoll diese Tabelle aktualisiert werden?" ) ;
-define( '_AM_ALRT_TOOOLDTABLE' , "Ein Tabellen-Fehler ist aufgetreten.<br />\nVielleicht wird piCal 0.3x (oder fr�her) verwendet.<br />\nZuerst auf 0.4x oder 0.5x updaten." ) ;
-define( '_AM_FMT_WRONGSTZ' , "%s Termin(e) sind mit einer falschen Zeitzone eingetragen.<br />Soll das repariert werden?" ) ;
+define('_AM_MB_SUCCESSUPDATETABLE' , "Tabellen-Update war erfolgreich" ) ;
+define('_AM_MB_FAILUPDATETABLE' , "Tabellen-Update ist fehlgeschlagen" ) ;
+define('_AM_NOTICE_NOERRORS' , "Es existiert kein Fehler in den Tabellen oder Einträgen." ) ;
+define('_AM_ALRT_CATTABLENOTEXIST' , "Die Kategorie-Tabelle existiert nicht.<br />\nSoll diese Tabelle erstellt werden?" ) ;
+define('_AM_ALRT_OLDTABLE' , "Die Tabellenstruktur der Termin-Tabelle ist veraltet.<br />\nSoll diese Tabelle aktualisiert werden?" ) ;
+define('_AM_ALRT_TOOOLDTABLE' , "Ein Tabellen-Fehler ist aufgetreten.<br />\nVielleicht wird piCal 0.3x (oder fr�her) verwendet.<br />\nZuerst auf 0.4x oder 0.5x updaten." ) ;
+define('_AM_FMT_WRONGSTZ' , "%s Termin(e) sind mit einer falschen Zeitzone eingetragen.<br />Soll das repariert werden?" ) ;
 
 // Categories
-define( '_AM_CAT_TH_TITLE' , 'Titel' ) ;
-define( '_AM_CAT_TH_DESC' , 'Beschreibung' ) ;
-define( '_AM_CAT_TH_PARENT' , 'Übergeordnete Kategorie' ) ;
-define( '_AM_CAT_TH_OPTIONS' , 'Optionen' ) ;
-define( '_AM_CAT_TH_LASTMODIFY' , 'Letzte Änderung' ) ;
-define( '_AM_CAT_TH_OPERATION' , 'Operation' ) ;
-define( '_AM_CAT_TH_ENABLED' , 'Aktivieren' ) ;
-define( '_AM_CAT_TH_WEIGHT' , 'Position' ) ;
-define( '_AM_CAT_TH_SUBMENU' , 'im Untermenü eintragen' ) ;
-define( '_AM_BTN_UPDATE' , 'Aktualisieren' ) ;
-define( '_AM_MENU_CAT_EDIT' , 'Kategorie editieren' ) ;
-define( '_AM_MENU_CAT_NEW' , 'Neue Kategorie erstellen' ) ;
-define( '_AM_MB_MAKESUBCAT' , 'Unterkategorie' ) ;
-define( '_AM_MB_MAKETOPCAT' , 'Top-Level-Kategorie erstellen' ) ;
-define( '_AM_MB_CAT_INSERTED' , 'Neue Kategorie erstellt' ) ;
-define( '_AM_MB_CAT_UPDATED' , 'Kategorie aktualisiert' ) ;
-define( '_AM_FMT_CAT_DELETED' , '%s Kategorie(n) gelöscht' ) ;
-define( '_AM_FMT_CAT_BATCHUPDATED' , '%s Kategorie(n) aktualisiert' ) ;
-define( '_AM_FMT_CATDELCONFIRM' , 'Soll die Kategorie %s gelöscht werden?' ) ;
+define('_AM_CAT_TH_TITLE' , 'Titel' ) ;
+define('_AM_CAT_TH_DESC' , 'Beschreibung' ) ;
+define('_AM_CAT_TH_PARENT' , 'Übergeordnete Kategorie' ) ;
+define('_AM_CAT_TH_OPTIONS' , 'Optionen' ) ;
+define('_AM_CAT_TH_LASTMODIFY' , 'Letzte Änderung' ) ;
+define('_AM_CAT_TH_OPERATION' , 'Operation' ) ;
+define('_AM_CAT_TH_ENABLED' , 'Aktivieren' ) ;
+define('_AM_CAT_TH_WEIGHT' , 'Position' ) ;
+define('_AM_CAT_TH_SUBMENU' , 'im Untermenü eintragen' ) ;
+define('_AM_BTN_UPDATE' , 'Aktualisieren' ) ;
+define('_AM_MENU_CAT_EDIT' , 'Kategorie editieren' ) ;
+define('_AM_MENU_CAT_NEW' , 'Neue Kategorie erstellen' ) ;
+define('_AM_MB_MAKESUBCAT' , 'Unterkategorie' ) ;
+define('_AM_MB_MAKETOPCAT' , 'Top-Level-Kategorie erstellen' ) ;
+define('_AM_MB_CAT_INSERTED' , 'Neue Kategorie erstellt' ) ;
+define('_AM_MB_CAT_UPDATED' , 'Kategorie aktualisiert' ) ;
+define('_AM_FMT_CAT_DELETED' , '%s Kategorie(n) gelöscht' ) ;
+define('_AM_FMT_CAT_BATCHUPDATED' , '%s Kategorie(n) aktualisiert' ) ;
+define('_AM_FMT_CATDELCONFIRM' , 'Soll die Kategorie %s gelöscht werden?' ) ;
 
 
 }

@@ -10,6 +10,6 @@ define("_AD_NICKNAME","Alias");
 define("_AD_EMAIL","E-post");
 define("_AD_AVATAR","Avatar");
 define("_AD_REGISTERED","Registrerad"); //Registered Date
-define('_AD_PRESSGEN', 'Det här är första gången du går in i administrationssektionen. Klicka på knappen för att fortsätta.');
-define('_AD_LOGINADMIN', 'Loggar in dig...');
+define('_AD_PRESSGEN','Det här är första gången du går in i administrationssektionen. Klicka på knappen för att fortsätta.');
+define('_AD_LOGINADMIN','Loggar in dig...');
 ?>

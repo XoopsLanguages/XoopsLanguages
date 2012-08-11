@@ -72,7 +72,7 @@ define("_MD_AM_FAILUNINS","%s 모듈의 제거에 실패하였습니다.");
 define("_MD_AM_FAILORDER","%s 모듈의 표시순위변경에 실패하였습니다.");
 define("_MD_AM_FAILWRITE","메인 메뉴 파일에의 쓰기에 실패하였습니다.");
 define("_MD_AM_ALEXISTS","%s 모듈은 이미 존재합니다.");
-define("_MD_AM_ERRORSC", "에러:");
+define("_MD_AM_ERRORSC","에러:");
 define("_MD_AM_OKINS","%s 모듈의 설치가 성공적으로 완료되었습니다.");
 define("_MD_AM_OKACT","%s 모듈의 활성화처리가 성공적으로 완료되었습니다.");
 define("_MD_AM_OKDEACT","%s 모듈의 비활성화처리가 성공적으로 완료되었습니다.");
@@ -80,10 +80,10 @@ define("_MD_AM_OKUPD","%s 모듈의 업그레이드처리가 성공적으로 완
 define("_MD_AM_OKUNINS","%s 모듈이 성공적으로 제거(언인스톨)되었습니다.");
 define("_MD_AM_OKORDER","%s 모듈의 표시순위변경이 성공적으로 이루어졌습니다.");
 
-define('_MD_AM_RUSUREINS', '이 모듈을 설치하시려면 아래의 버튼을 클릭해 주세요');
-define('_MD_AM_RUSUREUPD', '이 모듈을 업그레이드하시려면 아래의 버튼을 클릭해 주세요');
-define('_MD_AM_RUSUREUNINS', '정말로 이 모듈을 제거(언인스톨)하실 건가요?');
-define('_MD_AM_LISTUPBLKS', '모듈을 업그레이드처리합니다.<br />선택하신 블록의 내용(템플릿과 옵션)은 덮어쓰기 처리됩니다.<br />');
-define('_MD_AM_NEWBLKS', '신규 블록');
-define('_MD_AM_DEPREBLKS', 'Deprecated Blocks');
+define('_MD_AM_RUSUREINS','이 모듈을 설치하시려면 아래의 버튼을 클릭해 주세요');
+define('_MD_AM_RUSUREUPD','이 모듈을 업그레이드하시려면 아래의 버튼을 클릭해 주세요');
+define('_MD_AM_RUSUREUNINS','정말로 이 모듈을 제거(언인스톨)하실 건가요?');
+define('_MD_AM_LISTUPBLKS','모듈을 업그레이드처리합니다.<br />선택하신 블록의 내용(템플릿과 옵션)은 덮어쓰기 처리됩니다.<br />');
+define('_MD_AM_NEWBLKS','신규 블록');
+define('_MD_AM_DEPREBLKS','Deprecated Blocks');
 ?>

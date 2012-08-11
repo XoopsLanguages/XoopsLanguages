@@ -13,31 +13,31 @@ define("_AM_TH_AGENT","AGENT");
 define("_AM_TH_TYPE","Typ");
 define("_AM_TH_DESCRIPTION","Beskrivning");
 
-define( "_AM_TH_BADIPS" , 'Otillåtna IP-adresser<br /><br /><span style="font-weight:normal;">Skriv varje IP-adress på en egen rad.<br />Helt blankt fält betyder att alla IP-adresser är tillåtna</span>' ) ;
+define("_AM_TH_BADIPS" , 'Otillåtna IP-adresser<br /><br /><span style="font-weight:normal;">Skriv varje IP-adress på en egen rad.<br />Helt blankt fält betyder att alla IP-adresser är tillåtna</span>' ) ;
 
-define( "_AM_TH_GROUP1IPS" , 'Tillåtna IP adresser för grupp=1<br /><br /><span style="font-weight:normal;">Skriv varje IP-adress på en egen rad.<br />192.168. betyder 192.168.*<br />Helt blankt fält betyder att alla IP-adresser är tillåtna</span>' ) ;
+define("_AM_TH_GROUP1IPS" , 'Tillåtna IP adresser för grupp=1<br /><br /><span style="font-weight:normal;">Skriv varje IP-adress på en egen rad.<br />192.168. betyder 192.168.*<br />Helt blankt fält betyder att alla IP-adresser är tillåtna</span>' ) ;
 
-define( "_AM_LABEL_COMPACTLOG" , "Pressa ihop log" ) ;
-define( "_AM_BUTTON_COMPACTLOG" , "Pressa ihop den!" ) ;
-define( "_AM_JS_COMPACTLOGCONFIRM" , "Dubletter (IP,typ) kommer tas bort" ) ;
-define( "_AM_LABEL_REMOVEALL" , "Ta bort all data" ) ;
-define( "_AM_BUTTON_REMOVEALL" , "Ta bort allt!" ) ;
-define( "_AM_JS_REMOVEALLCONFIRM" , "Alla loggar tas bort permanent. Är du säker på att du vill göra det här?" ) ;
-define( "_AM_LABEL_REMOVE" , "Ta bort valda loggar:" ) ;
-define( "_AM_BUTTON_REMOVE" , "Ta bort!" ) ;
-define( "_AM_JS_REMOVECONFIRM" , "Är du säker på att du vill ta bort valda loggar?" ) ;
-define( "_AM_MSG_IPFILESUPDATED" , "Filer för IP-adresser har uppdaterats" ) ;
-define( "_AM_MSG_BADIPSCANTOPEN" , "Filen för otillåtna IP-adresser kan inte öppnas" ) ;
-define( "_AM_MSG_GROUP1IPSCANTOPEN" , "Filen för att tillåta grupp=1 kan inte öppnas" ) ;
-define( "_AM_MSG_REMOVED" , "Data borttaget" ) ;
-define( "_AM_FMT_CONFIGSNOTWRITABLE" , "Gör konfigureringskatalogen skrivbar: %s" ) ;
+define("_AM_LABEL_COMPACTLOG" , "Pressa ihop log" ) ;
+define("_AM_BUTTON_COMPACTLOG" , "Pressa ihop den!" ) ;
+define("_AM_JS_COMPACTLOGCONFIRM" , "Dubletter (IP,typ) kommer tas bort" ) ;
+define("_AM_LABEL_REMOVEALL" , "Ta bort all data" ) ;
+define("_AM_BUTTON_REMOVEALL" , "Ta bort allt!" ) ;
+define("_AM_JS_REMOVEALLCONFIRM" , "Alla loggar tas bort permanent. Är du säker på att du vill göra det här?" ) ;
+define("_AM_LABEL_REMOVE" , "Ta bort valda loggar:" ) ;
+define("_AM_BUTTON_REMOVE" , "Ta bort!" ) ;
+define("_AM_JS_REMOVECONFIRM" , "Är du säker på att du vill ta bort valda loggar?" ) ;
+define("_AM_MSG_IPFILESUPDATED" , "Filer för IP-adresser har uppdaterats" ) ;
+define("_AM_MSG_BADIPSCANTOPEN" , "Filen för otillåtna IP-adresser kan inte öppnas" ) ;
+define("_AM_MSG_GROUP1IPSCANTOPEN" , "Filen för att tillåta grupp=1 kan inte öppnas" ) ;
+define("_AM_MSG_REMOVED" , "Data borttaget" ) ;
+define("_AM_FMT_CONFIGSNOTWRITABLE" , "Gör konfigureringskatalogen skrivbar: %s" ) ;
 
 
 // prefix_manager.php
-define( "_AM_H3_PREFIXMAN" , "Prefixhanterare" ) ;
-define( "_AM_MSG_DBUPDATED" , "Databasen uppdaterades!" ) ;
-define( "_AM_CONFIRM_DELETE" , "All data kommer raderas. Är du säker på att du vill gör det här?" ) ;
-define( "_AM_TXT_HOWTOCHANGEDB" , "Om du vill ändra prefix,<br /> redigera %s/mainfile.php manuellt.<br /><br />define('XOOPS_DB_PREFIX', '<b>%s</b>');" ) ;
+define("_AM_H3_PREFIXMAN" , "Prefixhanterare" ) ;
+define("_AM_MSG_DBUPDATED" , "Databasen uppdaterades!" ) ;
+define("_AM_CONFIRM_DELETE" , "All data kommer raderas. Är du säker på att du vill gör det här?" ) ;
+define("_AM_TXT_HOWTOCHANGEDB" , "Om du vill ändra prefix,<br /> redigera %s/mainfile.php manuellt.<br /><br />define('XOOPS_DB_PREFIX','<b>%s</b>');" ) ;
 
 
 // advisory.php

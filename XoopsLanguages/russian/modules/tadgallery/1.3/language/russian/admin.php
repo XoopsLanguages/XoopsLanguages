@@ -27,12 +27,12 @@ define("_BP_ADD","Добавить новые данные");
 define("_MA_INPUT_CATE_FORM","Управление фотоальбомом");
 define("_MA_SAVE","Сохранить");
 
-define("_MI_TADGAL_ADMENU1", "Фотографии");
-define("_MI_TADGAL_ADMENU2", "Альбом");
-define("_MI_TADGAL_ADMENU3", "Лучшие фотографии");
-define("_MI_TADGAL_ADMENU4", "Обновление");
-define("_MI_TADGAL_ADMENU5", "Генерация Media RSS");
-define("_MI_TADGAL_ADMENU6", "Групповая загрузка");
+define("_MI_TADGAL_ADMENU1","Фотографии");
+define("_MI_TADGAL_ADMENU2","Альбом");
+define("_MI_TADGAL_ADMENU3","Лучшие фотографии");
+define("_MI_TADGAL_ADMENU4","Обновление");
+define("_MI_TADGAL_ADMENU5","Генерация Media RSS");
+define("_MI_TADGAL_ADMENU6","Групповая загрузка");
 
 //cate.php
 define("_MA_TADGAL_SN","Серийный номер");

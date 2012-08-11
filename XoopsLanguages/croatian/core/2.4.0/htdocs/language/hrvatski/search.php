@@ -41,9 +41,9 @@ define('_SR_PREVIOUS','<< Prethodno');
 define('_SR_KEYWORDS','Ključna(e) riječ(i)');
 define('_SR_TYPE','Upiši');
 define('_SR_SEARCHIN','Traži u');
-define('_SR_KEYTOOSHORT', 'Ključne riječi moraju sadržavati najmanje <strong>%s</strong> znakova');
-define('_SR_KEYIGNORE', 'Ključne riječi kraće od <strong>%s</strong> znakova će biti zanemarene');
-define('_SR_SEARCHRULE', 'Pravilo pretraživanja');
-define('_SR_IGNOREDWORDS', 'Slijedeće riječi su kraće od dozvoljene minimalne dužine (%u znakova) i neće biti uključene u vaše pretraživanje:');
+define('_SR_KEYTOOSHORT','Ključne riječi moraju sadržavati najmanje <strong>%s</strong> znakova');
+define('_SR_KEYIGNORE','Ključne riječi kraće od <strong>%s</strong> znakova će biti zanemarene');
+define('_SR_SEARCHRULE','Pravilo pretraživanja');
+define('_SR_IGNOREDWORDS','Slijedeće riječi su kraće od dozvoljene minimalne dužine (%u znakova) i neće biti uključene u vaše pretraživanje:');
 
 ?>

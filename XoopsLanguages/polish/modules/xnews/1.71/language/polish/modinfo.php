@@ -168,66 +168,66 @@ define("_MI_NW_ENHANCED_PAGENAV_DSC","With this option you can separate your pag
 define('_MI_NW_CATEGORY_NOTIFY','Dotyczące tematu/działu');
 define('_MI_NW_CATEGORY_NOTIFYDSC','Opcje powiadamiania które odnoszą się do bieżącej kategorii');
 
-define('_MI_NW_CATEGORY_STORYPOSTED_NOTIFY', 'Nowy news został wysłany');
-define('_MI_NW_CATEGORY_STORYPOSTED_NOTIFYCAP', 'Powiadom mnie gdy nowa wiadomość będzie wysłana w tym temacie.');
-define('_MI_NW_CATEGORY_STORYPOSTED_NOTIFYDSC', 'Otbieraj powiadomienia kiedy nowa wiadomość jest wysłana w tym temacie.');
-define('_MI_NW_CATEGORY_STORYPOSTED_NOTIFYSBJ', '[{X_SITENAME}] {X_MODULE} : Nowy news');
+define('_MI_NW_CATEGORY_STORYPOSTED_NOTIFY','Nowy news został wysłany');
+define('_MI_NW_CATEGORY_STORYPOSTED_NOTIFYCAP','Powiadom mnie gdy nowa wiadomość będzie wysłana w tym temacie.');
+define('_MI_NW_CATEGORY_STORYPOSTED_NOTIFYDSC','Otbieraj powiadomienia kiedy nowa wiadomość jest wysłana w tym temacie.');
+define('_MI_NW_CATEGORY_STORYPOSTED_NOTIFYSBJ','[{X_SITENAME}] {X_MODULE} : Nowy news');
 
 // Added in version 1.63
-define('_MI_NW_TAGS', "Używać systemu tagów ?");
-define('_MI_NW_TAGS_DSC', "Ta opcja bazuje na module XOOPS Tag napisanym przez phppp");
-define("_MI_NW_BNAME10", "Chmura tagów");
-define("_MI_NW_BNAME11", "Top Tags");
-define("_MI_NW_INTRO_TEXT", "Tekst wprowadzenia pojawi się na stronie wysyłania newsa");
-define("_MI_NW_IMAGE_MAX_WIDTH", "Maksymalna szerokość obrazka gdy jest przeskalowany");
-define("_MI_NW_IMAGE_MAX_HEIGHT", "Maksymalna wysokość obrazka gdy jest przeskalowany");
+define('_MI_NW_TAGS',"Używać systemu tagów ?");
+define('_MI_NW_TAGS_DSC',"Ta opcja bazuje na module XOOPS Tag napisanym przez phppp");
+define("_MI_NW_BNAME10","Chmura tagów");
+define("_MI_NW_BNAME11","Top Tags");
+define("_MI_NW_INTRO_TEXT","Tekst wprowadzenia pojawi się na stronie wysyłania newsa");
+define("_MI_NW_IMAGE_MAX_WIDTH","Maksymalna szerokość obrazka gdy jest przeskalowany");
+define("_MI_NW_IMAGE_MAX_HEIGHT","Maksymalna wysokość obrazka gdy jest przeskalowany");
 
 // Added in version 1.67
-define("_MI_NW_CLONER", "Menadżer klonowania");
+define("_MI_NW_CLONER","Menadżer klonowania");
 
-define("_MI_NW_LATESTNEWS_BLOCK", "Blok najnowszych newsów");
+define("_MI_NW_LATESTNEWS_BLOCK","Blok najnowszych newsów");
 
 // Added in version 1.68 BETA
-define("_MI_NW_TOPICDISPLAY", "Wyświetl tematy ");
-define("_MI_NW_TOPICDISPLAYDESC", "Wyświetlanie tytułów tematów w tytułowych nagłówkach");
+define("_MI_NW_TOPICDISPLAY","Wyświetl tematy ");
+define("_MI_NW_TOPICDISPLAYDESC","Wyświetlanie tytułów tematów w tytułowych nagłówkach");
 
-define("_MI_NW_SEOENABLE", "Włącz SEO ");
-define("_MI_NW_SEOENABLEDESC", "This will enable/disable SEO activity.<br /> If <b>htaccess</b> is selected you will get: <br /> http://your.site.com/<b>xnews</b>/topics.1/your-topic-title.html <br /> If path-info is selected you will get: <br /> http://your.site.com/modules/xnews/index.php/topics.1/your-topic-title.html");
+define("_MI_NW_SEOENABLE","Włącz SEO ");
+define("_MI_NW_SEOENABLEDESC","This will enable/disable SEO activity.<br /> If <b>htaccess</b> is selected you will get: <br /> http://your.site.com/<b>xnews</b>/topics.1/your-topic-title.html <br /> If path-info is selected you will get: <br /> http://your.site.com/modules/xnews/index.php/topics.1/your-topic-title.html");
 
 // Added in version 1.68 RC1
-define("_MI_NW_EXTEND_META_DATA", "Extend meta-data input");
-define("_MI_NW_EXTEND_META_DATA_DESC", "This will toggle between text and textarea for user edit meta-data input<br /> for both description and keywords.");
+define("_MI_NW_EXTEND_META_DATA","Extend meta-data input");
+define("_MI_NW_EXTEND_META_DATA_DESC","This will toggle between text and textarea for user edit meta-data input<br /> for both description and keywords.");
 
-define("_MI_NW_NONE", "None");
-define("_MI_NW_TOPONLY", "Top only");
-define("_MI_NW_BOTTOMONLY", "Bottom only");
-define("_MI_NW_BOTH", "Both");
-define("_MI_NW_DISPLAYLINKICNS", "Display Link Icons");
-define("_MI_NW_DISPLAYLINKICNSDESC", "Display print, friend and pdf icons none-top-bottom-both");
+define("_MI_NW_NONE","None");
+define("_MI_NW_TOPONLY","Top only");
+define("_MI_NW_BOTTOMONLY","Bottom only");
+define("_MI_NW_BOTH","Both");
+define("_MI_NW_DISPLAYLINKICNS","Display Link Icons");
+define("_MI_NW_DISPLAYLINKICNSDESC","Display print, friend and pdf icons none-top-bottom-both");
 
-define("_MI_NW_SEOPATH", "SEO path ");
-define("_MI_NW_SEOPATHDESC", "This will add a title to SEO url for both <b>htaccess</b> and <b>path-info</b> modes. <br /> If left empty you will get: <br /> http://your.site.com/topics.1/your-topic-title.html <br /> If you type <b>news</b> you will get: <br /> http://your.site.com/<b>news</b>/topics.1/your-topic-title.html <br /><br /> <b>a-z chars and minus char accepted. eg. news-of-day</b>");
-define("_MI_NW_SEOLEVEL", "SEO level ");
-define("_MI_NW_SEOLEVELDESC", "Here you can chose whether to have htaccess in xoops root dir or in module one. <br /> This will change the appearance of the url. <br /> In root level: <br /> http://your.site.com/news/topics.1/your-topic-title.html <br /> In module level: <br /> http://your.site.com/modules/xnews/news.topics.1/your-topic-title.html<br /><br /> Only works in htaccess mode and htaccess files will have to be installed accordingly.");
-define("_MI_NW_MODULE_LEVEL", "Module level");
-define("_MI_NW_ROOT_LEVEL", "Root level");
+define("_MI_NW_SEOPATH","SEO path ");
+define("_MI_NW_SEOPATHDESC","This will add a title to SEO url for both <b>htaccess</b> and <b>path-info</b> modes. <br /> If left empty you will get: <br /> http://your.site.com/topics.1/your-topic-title.html <br /> If you type <b>news</b> you will get: <br /> http://your.site.com/<b>news</b>/topics.1/your-topic-title.html <br /><br /> <b>a-z chars and minus char accepted. eg. news-of-day</b>");
+define("_MI_NW_SEOLEVEL","SEO level ");
+define("_MI_NW_SEOLEVELDESC","Here you can chose whether to have htaccess in xoops root dir or in module one. <br /> This will change the appearance of the url. <br /> In root level: <br /> http://your.site.com/news/topics.1/your-topic-title.html <br /> In module level: <br /> http://your.site.com/modules/xnews/news.topics.1/your-topic-title.html<br /><br /> Only works in htaccess mode and htaccess files will have to be installed accordingly.");
+define("_MI_NW_MODULE_LEVEL","Module level");
+define("_MI_NW_ROOT_LEVEL","Root level");
 
 //ADDED wishcraft 1.68
-define("_MI_NW_SEOENDOFURL", "End of URL");
-define("_MI_NW_SEOENDOFURL_DESC", "File Extension to HTML Files");
-define("_MI_NW_SEOENDOFURLRSS", "End of URL");
-define("_MI_NW_SEOENDOFURLRSS_DESC", "File Extension to RSS Pages");
-define("_MI_NW_SEOENDOFURLPDF", "End of URL");
-define("_MI_NW_SEOENDOFURLPDF_DESC", "File Extension to Adobe Acrobat (PDF) Files");
+define("_MI_NW_SEOENDOFURL","End of URL");
+define("_MI_NW_SEOENDOFURL_DESC","File Extension to HTML Files");
+define("_MI_NW_SEOENDOFURLRSS","End of URL");
+define("_MI_NW_SEOENDOFURLRSS_DESC","File Extension to RSS Pages");
+define("_MI_NW_SEOENDOFURLPDF","End of URL");
+define("_MI_NW_SEOENDOFURLPDF_DESC","File Extension to Adobe Acrobat (PDF) Files");
 
 //ADDED in version 1.71
-define("_MI_NW_PDF_DISPLAY", "Wyświetlaj dołączone pliki PDF");
-define("_MI_NW_PDF_DISPLAY_DESC", "Wyświetla dołączone pliki PDF na stronie newsa.");
-define("_MI_NW_PDF_DETECT", "Włącz wykrywanie pluginów PDF");
-define("_MI_NW_PDF_DETECT_DESC", "Włączenie spowoduje, że przeglądarka użytkownika nie będzie pokazywać ramek iframe PDF <br />  gdy plugin PDF nie jest zainstalowany w przeglądarce. <br /> Działa razem z opcją Wyświetlaj dołączone pliki PDF.");
-define("_MI_NW_IMAGES_DISPLAY", "Wyświetlaj załączone obrazy");
-define("_MI_NW_IMAGES_DISPLAY_DESC", "Wyświetla załączone obrazy na stronie newsa.");
-define("_MI_NW_THUMB_MAX_WIDTH", "Maksymalna szerokość miniaturki załączonego obrazu gdy ten jest przeskalowany");
-define("_MI_NW_THUMB_MAX_HEIGHT", "Maksymalna wysokość miniaturki załączonego obrazu gdy ten jest przeskalowany");
+define("_MI_NW_PDF_DISPLAY","Wyświetlaj dołączone pliki PDF");
+define("_MI_NW_PDF_DISPLAY_DESC","Wyświetla dołączone pliki PDF na stronie newsa.");
+define("_MI_NW_PDF_DETECT","Włącz wykrywanie pluginów PDF");
+define("_MI_NW_PDF_DETECT_DESC","Włączenie spowoduje, że przeglądarka użytkownika nie będzie pokazywać ramek iframe PDF <br />  gdy plugin PDF nie jest zainstalowany w przeglądarce. <br /> Działa razem z opcją Wyświetlaj dołączone pliki PDF.");
+define("_MI_NW_IMAGES_DISPLAY","Wyświetlaj załączone obrazy");
+define("_MI_NW_IMAGES_DISPLAY_DESC","Wyświetla załączone obrazy na stronie newsa.");
+define("_MI_NW_THUMB_MAX_WIDTH","Maksymalna szerokość miniaturki załączonego obrazu gdy ten jest przeskalowany");
+define("_MI_NW_THUMB_MAX_HEIGHT","Maksymalna wysokość miniaturki załączonego obrazu gdy ten jest przeskalowany");
 
 ?>

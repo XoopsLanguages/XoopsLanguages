@@ -25,7 +25,7 @@ defined('XOOPS_ROOT_PATH') or die('Ograniceni pristup');
 // _LANGCODE: hr
 // _CHARSET : UTF-8
 // Translator: XoopsHR.org / Ivan Kosak / 27.10.2009.
-define('_XO_ER_FILENOTFOUND', 'Tražena datoteka: <b>%s</b> nije pronaðena ');
-define('_XO_ER_CLASSNOTFOUND', 'Tražena klasa %s nije pronaðena');
+define('_XO_ER_FILENOTFOUND','TraÅ¾ena datoteka: <b>%s</b> nije pronaÃ°ena ');
+define('_XO_ER_CLASSNOTFOUND','TraÅ¾ena klasa %s nije pronaÃ°ena');
 
 ?>

@@ -83,7 +83,7 @@ define("_AM_CNGTST","Could not get total stories");
 define("_AM_CNUUSER","등록회원 정보 갱신에 실패하였습니다.");
 define("_AM_CNGUSERID","등록회원번호 취득에 실패하였습니다.");
 define("_AM_LIST","리스트");
-define("_AM_NOUSERS", "등록회원이 선택되어져 있지 않습니다.");
+define("_AM_NOUSERS","등록회원이 선택되어져 있지 않습니다.");
 
 define("_AM_CNRNU2","등록회원을 그룹에 추가하지 못했습니다: %s.");
 

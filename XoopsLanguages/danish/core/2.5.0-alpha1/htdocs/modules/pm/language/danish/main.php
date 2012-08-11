@@ -30,7 +30,7 @@ define("_PM_MESSAGEC","Besked: ");
 define("_PM_CLEAR","Slet");
 define("_PM_CANCELSEND","Fortryd send");
 define("_PM_SUBMIT","Accepter");
-define("_PM_SAVEINOUTBOX", "Gem en kopi i din udbakke?");
+define("_PM_SAVEINOUTBOX","Gem en kopi i din udbakke?");
 
 //%%%%%%	File Name viewpmsg.php 	%%%%%
 define("_PM_SUBJECT","Emne");
@@ -41,7 +41,7 @@ define("_PM_DELETE","Slet");
 define("_PM_TOSAVE","Gem");
 define("_PM_UNSAVE","Fortryd gem");
 define("_PM_EMPTY","Tøm");
-define("_PM_REPLY", "Svar");
+define("_PM_REPLY","Svar");
 define("_PM_PLZREG","Registrer først for at du kan sende private meddelelser!");
 define("_PM_SAVED_PART","Du har ikke adgang lige nu %d til din gem boks og du har gemt %d meddelelser lige nu");
 define("_PM_SAVED_ALL","Meddelelser er blevet flyttet til din gem boks");
@@ -50,7 +50,7 @@ define("_PM_EMPTIED","Boksen er blevet tømt");
 define("_PM_RUSUREEMPTY","Er du sikker på du vil tømme boksen?");
 define("_PM_RUSUREDELETE","Er du sikker på du vil slette meddelelse(er)?");
 
-define("_PM_ONLINE", "Online");
+define("_PM_ONLINE","Online");
 
 define("_PM_RECEIVE","Modtag");
 define("_PM_POST","Meddelelser");
@@ -80,13 +80,13 @@ define("_PM_NEXTP","Næste");
 define("_PM_MAILNOTIFY","%s-du har fået en PM fra %s");
 define("_PM_MAILMESSAGE","Hej!\nA Du har fået en ny PM fra %s\n\nTitle af PM is\n%s\n\nYou kan se PM here\n%s\n\n-----------\nDu modtager denne meddelelse fordi du har valgt at blive adviseret når du modtager en ny PM\n\nDu kan ændrer din PM indstillinger\n%s\n\nSvar ikke på denne meddelse\n\n---------\nBest Venlig hilsen\n%s\n%s\n%s");
 
-define("_PM_EMAIL", "Email");
-define("_PM_EMAIL_DESC", "Dette %s, er en meddelelse overført fra din konto ved ".$xoopsConfig['sitename']);
-define("_PM_EMAIL_FROM", "Fra %s");
-define("_PM_EMAIL_TO", "Til %s");
-define("_PM_EMAIL_SUBJECT", "[meddelelse]%s");
-define("_PM_EMAIL_MESSAGE", "Meddelelses indhold");
+define("_PM_EMAIL","Email");
+define("_PM_EMAIL_DESC","Dette %s, er en meddelelse overført fra din konto ved ".$xoopsConfig['sitename']);
+define("_PM_EMAIL_FROM","Fra %s");
+define("_PM_EMAIL_TO","Til %s");
+define("_PM_EMAIL_SUBJECT","[meddelelse]%s");
+define("_PM_EMAIL_MESSAGE","Meddelelses indhold");
 
-define("_PM_ACTION_DONE", "Operationen udført");
-define("_PM_ACTION_ERROR", "Operationen IKKE udført");
+define("_PM_ACTION_DONE","Operationen udført");
+define("_PM_ACTION_ERROR","Operationen IKKE udført");
 ?>

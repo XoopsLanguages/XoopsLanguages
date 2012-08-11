@@ -4,19 +4,19 @@
 // _CHARSET : windows-1256
 // Translator: Arab XOOPS Team
 
-define("_MD_CPANEL_NEWS", "ÇáÃÎÈÇÑ");
-define("_MD_CPANEL_NEWS_DESC", "ÃÎÈÇÑ ÇáÊØæíÑ");
-define("_MD_CPANEL_PROJECT", "ÇáãÔÑæÚ");
-define("_MD_CPANEL_PROJECT_DESC", "ãæÞÚ ÇáãÔÑæÚ");
-define("_MD_CPANEL_COMMUNITY", "ÓÇÍÉ ÇáäÞÇÔ");
-define("_MD_CPANEL_COMMUNITY_DESC", "ÇáãæÞÚ ÇáÑÓãí");
-define("_MD_CPANEL_LOCAL", "ÏÚã ÇááÛÇÊ ÇáÃÎÑì");
-define("_MD_CPANEL_LOCAL_DESC", "ãæÇÞÚ ÏÚã ÇááÛÇÊ ÇáÃÎÑì ÇáÑÓãíÉ");
+define("_MD_CPANEL_NEWS","Ã‡Ã¡ÃƒÃŽÃˆÃ‡Ã‘");
+define("_MD_CPANEL_NEWS_DESC","ÃƒÃŽÃˆÃ‡Ã‘ Ã‡Ã¡ÃŠÃ˜Ã¦Ã­Ã‘");
+define("_MD_CPANEL_PROJECT","Ã‡Ã¡Ã£Ã”Ã‘Ã¦Ãš");
+define("_MD_CPANEL_PROJECT_DESC","Ã£Ã¦ÃžÃš Ã‡Ã¡Ã£Ã”Ã‘Ã¦Ãš");
+define("_MD_CPANEL_COMMUNITY","Ã“Ã‡ÃÃ‰ Ã‡Ã¡Ã¤ÃžÃ‡Ã”");
+define("_MD_CPANEL_COMMUNITY_DESC","Ã‡Ã¡Ã£Ã¦ÃžÃš Ã‡Ã¡Ã‘Ã“Ã£Ã­");
+define("_MD_CPANEL_LOCAL","ÃÃšÃ£ Ã‡Ã¡Ã¡Ã›Ã‡ÃŠ Ã‡Ã¡ÃƒÃŽÃ‘Ã¬");
+define("_MD_CPANEL_LOCAL_DESC","Ã£Ã¦Ã‡ÃžÃš ÃÃšÃ£ Ã‡Ã¡Ã¡Ã›Ã‡ÃŠ Ã‡Ã¡ÃƒÃŽÃ‘Ã¬ Ã‡Ã¡Ã‘Ã“Ã£Ã­Ã‰");
 
-define("_MD_CPANEL_OVERVIEW", "ãæÇÕÝÇÊ ÇáäÙÇã");
-define("_MD_CPANEL_PHPEXTENSIONS", "ÅÖÇÝÇÊ PHP ÇáãËÈÊÉ");
-define("_MD_CPANEL_VERSION", "%s ÇáÅÕÏÇÑÉ");
+define("_MD_CPANEL_OVERVIEW","Ã£Ã¦Ã‡Ã•ÃÃ‡ÃŠ Ã‡Ã¡Ã¤Ã™Ã‡Ã£");
+define("_MD_CPANEL_PHPEXTENSIONS","Ã…Ã–Ã‡ÃÃ‡ÃŠ PHP Ã‡Ã¡Ã£Ã‹ÃˆÃŠÃ‰");
+define("_MD_CPANEL_VERSION","%s Ã‡Ã¡Ã…Ã•ÃÃ‡Ã‘Ã‰");
 
-define("_MD_CPANEL_QUICKLINKS", "ÑæÇÈØ ÓÑíÚÉ");
+define("_MD_CPANEL_QUICKLINKS","Ã‘Ã¦Ã‡ÃˆÃ˜ Ã“Ã‘Ã­ÃšÃ‰");
 
 ?>

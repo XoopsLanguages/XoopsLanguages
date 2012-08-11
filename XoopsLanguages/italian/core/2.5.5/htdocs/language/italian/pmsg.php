@@ -38,12 +38,12 @@ define("_PM_DATE","Data");
 define("_PM_NOTREAD","Non letto");
 define("_PM_SEND","Invia");
 define("_PM_DELETE","Elimina");
-define("_PM_REPLY", "Rispondi");
+define("_PM_REPLY","Rispondi");
 define("_PM_PLZREG","Si prega di registrarsi, se si desidera inviare messaggi privati agli utenti di questo sito!");
-define("_PM_ONLINE", "Online");
+define("_PM_ONLINE","Online");
 // Translator: TXMod Xoops - www.txmodxoops.org
 // Last translation update: 03/10/2011
 define('_PM_SURE_TO_DELETE',"Sei sicuro di voler cancellare questo(i) messaggio(i)?"); 
 //XOOPS 2.5.5
-define('_PM_READ', 'Gi&#224; letto');
+define('_PM_READ','Gi&#224; letto');
 ?>

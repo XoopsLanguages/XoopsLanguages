@@ -15,7 +15,7 @@
 
 // 2005-10-10
 define("_WHATSNEW_BLOCK_MODULE","ماژول");
-define('_WHATSNEW_BLOCK_CATEGORY', 'شاخه');
+define('_WHATSNEW_BLOCK_CATEGORY','شاخه');
 define("_WHATSNEW_BLOCK_TITLE","عنوان");
 define("_WHATSNEW_BLOCK_USER","فرستنده");
 define("_WHATSNEW_BLOCK_HITS","تعداد بازدید");

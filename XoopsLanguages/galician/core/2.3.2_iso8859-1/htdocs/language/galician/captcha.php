@@ -1,16 +1,16 @@
 <?php
 // $Id$
-define("_CAPTCHA_CAPTION", "Código de confirmación");
-define("_CAPTCHA_INVALID_CODE", "O código de confirmación non é válido");
-define("_CAPTCHA_TOOMANYATTEMPTS", "Demasiados intentos");
-define("_CAPTCHA_MAXATTEMPTS", "Número máximo de intentos: %d");
+define("_CAPTCHA_CAPTION","CÃ³digo de confirmaciÃ³n");
+define("_CAPTCHA_INVALID_CODE","O cÃ³digo de confirmaciÃ³n non Ã© vÃ¡lido");
+define("_CAPTCHA_TOOMANYATTEMPTS","Demasiados intentos");
+define("_CAPTCHA_MAXATTEMPTS","NÃºmero mÃ¡ximo de intentos: %d");
 
 // For image mode
-define("_CAPTCHA_RULE_IMAGE", "Escriba as letras que aparecen na imaxe");
-define("_CAPTCHA_RULE_CASESENSITIVE", "O código é sensible a maiúsculas e minúsculas");
-define("_CAPTCHA_RULE_CASEINSENSITIVE", "O código distingue entre maiúsculas e minúsculas");
-define("_CAPTCHA_REFRESH", "Se o código non é o suficientemente claro, por favor, faga clic na imaxe para actualizalo");
+define("_CAPTCHA_RULE_IMAGE","Escriba as letras que aparecen na imaxe");
+define("_CAPTCHA_RULE_CASESENSITIVE","O cÃ³digo Ã© sensible a maiÃºsculas e minÃºsculas");
+define("_CAPTCHA_RULE_CASEINSENSITIVE","O cÃ³digo distingue entre maiÃºsculas e minÃºsculas");
+define("_CAPTCHA_REFRESH","Se o cÃ³digo non Ã© o suficientemente claro, por favor, faga clic na imaxe para actualizalo");
 
 // For text mode
-define("_CAPTCHA_RULE_TEXT", "Ingrese o resulado dende a expresión");
+define("_CAPTCHA_RULE_TEXT","Ingrese o resulado dende a expresiÃ³n");
 ?>

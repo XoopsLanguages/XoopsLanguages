@@ -32,64 +32,64 @@
 // Module Info
 
 // The name of this module
-define('_MI_NEWS_NAME','´º½º');
+define('_MI_NEWS_NAME','ï¿½ï¿½ï¿½ï¿½');
 
 // A brief description of this module
-define('_MI_NEWS_DESC','ÄÚ¸àÆ® °¡´É ´º½º±â»ç ½Ã½ºÅÛÀ» ±¸ÃàÇÕ´Ï´Ù.');
+define('_MI_NEWS_DESC','ï¿½Ú¸ï¿½Æ® ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ã½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Õ´Ï´ï¿½.');
 
 // Names of blocks for this module (Not all module has blocks)
-define('_MI_NEWS_BNAME1','´º½º ÅäÇÈ ºí·Ï');
-define('_MI_NEWS_BNAME3','¿À´ÃÀÇ Åé´º½º ºí·Ï');
-define('_MI_NEWS_BNAME4','Åé´º½º ºí·Ï');
-define('_MI_NEWS_BNAME5','ÃÖ½Å´º½º ºí·Ï');
+define('_MI_NEWS_BNAME1','ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½');
+define('_MI_NEWS_BNAME3','ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½é´ºï¿½ï¿½ ï¿½ï¿½ï¿½');
+define('_MI_NEWS_BNAME4','ï¿½é´ºï¿½ï¿½ ï¿½ï¿½ï¿½');
+define('_MI_NEWS_BNAME5','ï¿½Ö½Å´ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½');
 
 // Sub menus in main menu block
-define('_MI_NEWS_SMNAME1','´º½º Åõ°í');
-define('_MI_NEWS_SMNAME2','¾ÆÄ«ÀÌºê');
+define('_MI_NEWS_SMNAME1','ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½');
+define('_MI_NEWS_SMNAME2','ï¿½ï¿½Ä«ï¿½Ìºï¿½');
 
 // Names of admin menu items
-define('_MI_NEWS_ADMENU2', 'ÅäÇÈ °ü¸®');
-define('_MI_NEWS_ADMENU3', '´º½º±â»ç Åõ°í/ÆíÁý');
+define('_MI_NEWS_ADMENU2','ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½');
+define('_MI_NEWS_ADMENU3','ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½/ï¿½ï¿½ï¿½ï¿½');
 
 // Title of config items
-define('_MI_STORYHOME', '¸ÞÀÎÆäÀÌÁö¿¡ °ÔÀçÇÒ ±â»ç ¼ö');
-define('_MI_NOTIFYSUBMIT', '½Å±Ô Åõ°í°¡ ÀÖÀ» °æ¿ì ¸ÞÀÏ·Î ÅëÁö');
-define('_MI_DISPLAYNAV', '³×ºñ°Ô¼Ç ¹Ú½º¸¦ Ç¥½Ã');
-define('_MI_ANONPOST','¼Õ´ÔÀÇ ´º½ºÅõ°í¸¦ Çã°¡ÇÔ');
-define('_MI_AUTOAPPROVE','½Å±Ô Åõ°í ±â»ç¸¦ ÀÚµ¿½ÂÀÎ/°ÔÀç Ã³¸®ÇÔ');
+define('_MI_STORYHOME','ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½');
+define('_MI_NOTIFYSUBMIT','ï¿½Å±ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ï·ï¿½ ï¿½ï¿½ï¿½ï¿½');
+define('_MI_DISPLAYNAV','ï¿½×ºï¿½Ô¼ï¿½ ï¿½Ú½ï¿½ï¿½ï¿½ Ç¥ï¿½ï¿½');
+define('_MI_ANONPOST','ï¿½Õ´ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ã°¡ï¿½ï¿½');
+define('_MI_AUTOAPPROVE','ï¿½Å±ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ç¸¦ ï¿½Úµï¿½ï¿½ï¿½ï¿½ï¿½/ï¿½ï¿½ï¿½ï¿½ Ã³ï¿½ï¿½ï¿½ï¿½');
 
 // Description of each config items
-define('_MI_STORYHOMEDSC', '¸ÞÀÎ(Åé)ÆäÀÌÁö¿¡ Ç¥½ÃÇÒ ±â»çÀÇ ¼ö¸¦ ÁöÁ¤ÇØ ÁÖ¼¼¿ä');
-define('_MI_NOTIFYSUBMITDSC', '½Å±Ô Åõ°í°¡ ÀÖÀ» °æ¿ì ¸ÞÀÏ·Î °ü¸®ÀÚ¿¡°Ô ÅëÁöÇÒÁö¸¦ ¼±ÅÃÇØ ÁÖ¼¼¿ä');
-define('_MI_DISPLAYNAVDSC', 'Ä«Å×°í¸®¼±ÅÃ¿ë ³×ºñ°ÔÀÌ¼Ç¹Ú½º¸¦ ±â»çÀÇ »óºÎ¿¡ Ç¥½ÃÇÒÁö¸¦ ¼±ÅÃÇØ ÁÖ¼¼¿ä');
-define('_MI_AUTOAPPROVEDSC', '½Å±Ô Åõ°í ±â»ç¸¦ ÀÚµ¿½ÂÀÎ/°ÔÀç Ã³¸®ÇÒÁö¸¦ ¼±ÅÃÇØ ÁÖ¼¼¿ä');
+define('_MI_STORYHOMEDSC','ï¿½ï¿½ï¿½ï¿½(ï¿½ï¿½)ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Ç¥ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ö¼ï¿½ï¿½ï¿½');
+define('_MI_NOTIFYSUBMITDSC','ï¿½Å±ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ï·ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ú¿ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ö¼ï¿½ï¿½ï¿½');
+define('_MI_DISPLAYNAVDSC','Ä«ï¿½×°ï¿½ï¿½ï¿½ï¿½ï¿½Ã¿ï¿½ ï¿½×ºï¿½ï¿½ï¿½Ì¼Ç¹Ú½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Î¿ï¿½ Ç¥ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ö¼ï¿½ï¿½ï¿½');
+define('_MI_AUTOAPPROVEDSC','ï¿½Å±ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ç¸¦ ï¿½Úµï¿½ï¿½ï¿½ï¿½ï¿½/ï¿½ï¿½ï¿½ï¿½ Ã³ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ö¼ï¿½ï¿½ï¿½');
 
 // Text for notifications
 
-define('_MI_NEWS_GLOBAL_NOTIFY', '¸ðµâ ÀüÃ¼');
-define('_MI_NEWS_GLOBAL_NOTIFYDSC', '´º½º ¸ðµâ ÀüÃ¼¿¡ ´ëÇÑ ÅëÁö ¿É¼Ç');
+define('_MI_NEWS_GLOBAL_NOTIFY','ï¿½ï¿½ï¿½ ï¿½ï¿½Ã¼');
+define('_MI_NEWS_GLOBAL_NOTIFYDSC','ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½Ã¼ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½É¼ï¿½');
 
-define('_MI_NEWS_STORY_NOTIFY', 'Çö ´º½º±â»ç');
-define('_MI_NEWS_STORY_NOTIFYDSC', 'Çö ´º½º±â»ç¿¡ ´ëÇÑ ÅëÁö ¿É¼Ç');
+define('_MI_NEWS_STORY_NOTIFY','ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½');
+define('_MI_NEWS_STORY_NOTIFYDSC','ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ç¿¡ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½É¼ï¿½');
 
-define('_MI_NEWS_GLOBAL_NEWCATEGORY_NOTIFY', '½Å±Ô ÅäÇÈ');
-define('_MI_NEWS_GLOBAL_NEWCATEGORY_NOTIFYCAP', '½Å±Ô ÅäÇÈÀÌ ÀÛ¼ºµÈ °æ¿ì ÅëÁöÇÔ.');
-define('_MI_NEWS_GLOBAL_NEWCATEGORY_NOTIFYDSC', '½Å±Ô ÅäÇÈÀÌ ÀÛ¼ºµÈ °æ¿ì ÅëÁöÇÕ´Ï´Ù.');
-define('_MI_NEWS_GLOBAL_NEWCATEGORY_NOTIFYSBJ', '[{X_SITENAME}] {X_MODULE} auto-notify : ½Å±Ô ÅäÇÈÀÌ ÀÛ¼ºµÇ¾ú½À´Ï´Ù.');
+define('_MI_NEWS_GLOBAL_NEWCATEGORY_NOTIFY','ï¿½Å±ï¿½ ï¿½ï¿½ï¿½ï¿½');
+define('_MI_NEWS_GLOBAL_NEWCATEGORY_NOTIFYCAP','ï¿½Å±ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Û¼ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.');
+define('_MI_NEWS_GLOBAL_NEWCATEGORY_NOTIFYDSC','ï¿½Å±ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Û¼ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Õ´Ï´ï¿½.');
+define('_MI_NEWS_GLOBAL_NEWCATEGORY_NOTIFYSBJ','[{X_SITENAME}] {X_MODULE} auto-notify : ï¿½Å±ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Û¼ï¿½ï¿½Ç¾ï¿½ï¿½ï¿½ï¿½Ï´ï¿½.');
 
-define('_MI_NEWS_GLOBAL_STORYSUBMIT_NOTIFY', '½Å±Ô ´º½º±â»ç Åõ°í');       
-define('_MI_NEWS_GLOBAL_STORYSUBMIT_NOTIFYCAP', '½Å±Ô ´º½º±â»çÀÇ Åõ°í°¡ ÀÖÀ» °æ¿ì ÅëÁöÇÔ.');                           
-define('_MI_NEWS_GLOBAL_STORYSUBMIT_NOTIFYDSC', '½Å±Ô ´º½º±â»çÀÇ Åõ°í°¡ ÀÖÀ» °æ¿ì ÅëÁöÇÕ´Ï´Ù.');                
-define('_MI_NEWS_GLOBAL_STORYSUBMIT_NOTIFYSBJ', '[{X_SITENAME}] {X_MODULE} auto-notify : ½Å±Ô ´º½º±â»ç°¡ Åõ°íµÇ¾ú½À´Ï´Ù.');                              
+define('_MI_NEWS_GLOBAL_STORYSUBMIT_NOTIFY','ï¿½Å±ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½');       
+define('_MI_NEWS_GLOBAL_STORYSUBMIT_NOTIFYCAP','ï¿½Å±ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.');                           
+define('_MI_NEWS_GLOBAL_STORYSUBMIT_NOTIFYDSC','ï¿½Å±ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Õ´Ï´ï¿½.');                
+define('_MI_NEWS_GLOBAL_STORYSUBMIT_NOTIFYSBJ','[{X_SITENAME}] {X_MODULE} auto-notify : ï¿½Å±ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ç°¡ ï¿½ï¿½ï¿½ï¿½Ç¾ï¿½ï¿½ï¿½ï¿½Ï´ï¿½.');                              
 
-define('_MI_NEWS_GLOBAL_NEWSTORY_NOTIFY', '½Å±Ô ´º½º±â»ç °ÔÀç');       
-define('_MI_NEWS_GLOBAL_NEWSTORY_NOTIFYCAP', '½Å±Ô ´º½º±â»ç°¡ Á¤½Ä °ÔÀçµÈ °æ¿ì ÅëÁöÇÔ');
-define('_MI_NEWS_GLOBAL_NEWSTORY_NOTIFYDSC', '½Å±Ô ´º½º±â»ç°¡ Á¤½Ä °ÔÀçµÈ °æ¿ì ÅëÁöÇÕ´Ï´Ù.');
-define('_MI_NEWS_GLOBAL_NEWSTORY_NOTIFYSBJ', '[{X_SITENAME}] {X_MODULE} auto-notify : ½Å±Ô ´º½º±â»ç°¡ Á¤½Ä°ÔÀçµÇ¾ú½À´Ï´Ù.');                              
+define('_MI_NEWS_GLOBAL_NEWSTORY_NOTIFY','ï¿½Å±ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½');       
+define('_MI_NEWS_GLOBAL_NEWSTORY_NOTIFYCAP','ï¿½Å±ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ç°¡ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½');
+define('_MI_NEWS_GLOBAL_NEWSTORY_NOTIFYDSC','ï¿½Å±ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ç°¡ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Õ´Ï´ï¿½.');
+define('_MI_NEWS_GLOBAL_NEWSTORY_NOTIFYSBJ','[{X_SITENAME}] {X_MODULE} auto-notify : ï¿½Å±ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ç°¡ ï¿½ï¿½ï¿½Ä°ï¿½ï¿½ï¿½Ç¾ï¿½ï¿½ï¿½ï¿½Ï´ï¿½.');                              
 
-define('_MI_NEWS_STORY_APPROVE_NOTIFY', '´º½º±â»ç ½ÂÀÎ/°ÔÀç');
-define('_MI_NEWS_STORY_APPROVE_NOTIFYCAP', 'ÀÌ ´º½º±â»ç°¡ Á¤½Ä ½ÂÀÎ/°ÔÀçµÈ °æ¿ì ÅëÁöÇÔ');
-define('_MI_NEWS_STORY_APPROVE_NOTIFYDSC', 'ÀÌ ´º½º±â»ç°¡ Á¤½Ä ½ÂÀÎ/°ÔÀçµÈ °æ¿ì ÅëÁöÇÕ´Ï´Ù.');
-define('_MI_NEWS_STORY_APPROVE_NOTIFYSBJ', '[{X_SITENAME}] {X_MODULE} auto-notify : ´º½º±â»ç°¡ ½ÂÀÎ/°ÔÀçµÇ¾ú½À´Ï´Ù.');
+define('_MI_NEWS_STORY_APPROVE_NOTIFY','ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½/ï¿½ï¿½ï¿½ï¿½');
+define('_MI_NEWS_STORY_APPROVE_NOTIFYCAP','ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ç°¡ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½/ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½');
+define('_MI_NEWS_STORY_APPROVE_NOTIFYDSC','ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ç°¡ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½/ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Õ´Ï´ï¿½.');
+define('_MI_NEWS_STORY_APPROVE_NOTIFYSBJ','[{X_SITENAME}] {X_MODULE} auto-notify : ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ç°¡ ï¿½ï¿½ï¿½ï¿½/ï¿½ï¿½ï¿½ï¿½Ç¾ï¿½ï¿½ï¿½ï¿½Ï´ï¿½.');
 
 ?>

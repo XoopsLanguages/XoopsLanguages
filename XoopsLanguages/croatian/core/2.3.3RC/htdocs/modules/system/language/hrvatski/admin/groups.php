@@ -34,10 +34,10 @@ define("_AM_UNEED2ENTER","Trebate unijeti tražene informacije!");
 // Added in RC3
 define("_AM_BLOCKRIGHTS","Pristupna prava blokovima");
 
-define('_AM_FINDU4GROUP', 'Pronađi korisnike ove grupe');
-define('_AM_GROUPSMAIN', 'Grupe');
+define('_AM_FINDU4GROUP','Pronađi korisnike ove grupe');
+define('_AM_GROUPSMAIN','Grupe');
 
-define('_AM_ADMINNO', 'Barem jedan korisnik mora biti u webmasters grupi');
+define('_AM_ADMINNO','Barem jedan korisnik mora biti u webmasters grupi');
 
 // Custom block, suggested by trabis
 define("_AM_CUSTOMBLOCK","Korisnički Blok");

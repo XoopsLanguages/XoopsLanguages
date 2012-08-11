@@ -16,7 +16,7 @@ define("_INSTALL_L165","Il sito &egrave; al momento chiuso per manutenzione. Si 
 
 define("_INSTALL_ANON","Anonimi");
 
-define("_INSTALL_DISCLMR", "Gli amministratori e moderatori di questo sito cancelleranno o modificheranno, il pi&ugrave; velocemente possibile, qualsiasi contenuto ritenuto sgradevole o offensivo.
+define("_INSTALL_DISCLMR","Gli amministratori e moderatori di questo sito cancelleranno o modificheranno, il pi&ugrave; velocemente possibile, qualsiasi contenuto ritenuto sgradevole o offensivo.
 &Egrave; in ogni caso impossibile esaminare ogni messaggio e si mette quindi a conoscenza che tutti i messaggi esprimono opinioni e punti di vista dei loro autori e non degli amministratori, moderatori o webmaster (ad eccezione dei messaggi inviati da questi utenti) e sono per questa ragione al di fuori della responsabilit&agrave; diretta degli amministratori del sito.
 
 Si accetta di non inviare messaggi e/o allegati osceni, volgari, calunniosi, discriminatori, 

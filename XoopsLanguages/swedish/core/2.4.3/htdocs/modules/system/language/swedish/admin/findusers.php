@@ -17,8 +17,8 @@ define("_AM_PREVIOUS","Föregående");
 define("_AM_NEXT","Nästa");
 define("_AM_USERSFOUND","%s användare hittades");
 
-define("_AM_ACTUS", "Aktiva användare: %s");
-define("_AM_INACTUS", "Inaktiva användare: %s");
+define("_AM_ACTUS","Aktiva användare: %s");
+define("_AM_INACTUS","Inaktiva användare: %s");
 define("_AM_NOFOUND","Inga användare hittades");
 define("_AM_UNAME","Användarnamn");
 define("_AM_ICQ","ICQ-nummer");
@@ -42,17 +42,17 @@ define("_AM_POSTS","Antalet inlägg");
 define("_AM_ASC","Stigande ordning");
 define("_AM_DESC","Fallande ordning");
 define("_AM_LIMIT","Antalet användare per sida");
-define("_AM_RESULTS", "Sökresultat");
-define("_AM_SHOWMAILOK", "Typ av användare som ska visas");
+define("_AM_RESULTS","Sökresultat");
+define("_AM_SHOWMAILOK","Typ av användare som ska visas");
 define("_AM_MAILOK","Bara användare som vill ta emot e-post");
 define("_AM_MAILNG","Bara användare som inte vill ta emot e-post");
-define("_AM_SHOWTYPE", "Typ av användare som ska visas");
+define("_AM_SHOWTYPE","Typ av användare som ska visas");
 define("_AM_ACTIVE","Bara aktiva användare");
 define("_AM_INACTIVE","Bara inaktiva användare");
-define("_AM_BOTH", "Alla användare");
-define("_AM_SENDMAIL", "Skicka e-post");
-define("_AM_ADD2GROUP", "Lägg till användare till gruppen %s");
+define("_AM_BOTH","Alla användare");
+define("_AM_SENDMAIL","Skicka e-post");
+define("_AM_ADD2GROUP","Lägg till användare till gruppen %s");
 
-define("_AM_GROUPS", "Grupper");
+define("_AM_GROUPS","Grupper");
 
 ?>

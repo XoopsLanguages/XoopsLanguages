@@ -17,7 +17,7 @@
 // _CHARSET : UTF-8
 // Translator: andrey3761
 
-define("_XOOPS_EDITOR_FCKEDITOR", "FCK редактор");
+define("_XOOPS_EDITOR_FCKEDITOR","FCK редактор");
 define("_XOOPS_EDITOR_FCKEDITOR_FONTLIST",'Arial;Comic Sans MS;Courier New;Tahoma;Times New Roman;Verdana');
-define("_XOOPS_EDITOR_FCKEDITOR_LANGUAGE", "ru");
+define("_XOOPS_EDITOR_FCKEDITOR_LANGUAGE","ru");
 ?>

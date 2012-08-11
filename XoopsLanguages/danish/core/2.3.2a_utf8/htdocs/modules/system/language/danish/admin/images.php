@@ -19,7 +19,7 @@ define('_MD_ASFILE',' Gem som filer (i uploads directory)<br />');
 define('_MD_RUDELIMGCAT','Er du sikker på, at du vil slette denne kategori og alle tilhørende billedfiler?');
 define('_MD_RUDELIMG','Er du sikker på, at du vil slette dette billede?');
 
-define('_MD_FAILDEL', 'Det lykkedes ikke at slette billedet %s fra databasen');
-define('_MD_FAILDELCAT', 'Det lykkedes ikke at slette billedkategorien %s fra databasen');
-define('_MD_FAILUNLINK', 'Det lykkedes ikke at slette billedet %s fra serverens directory');
+define('_MD_FAILDEL','Det lykkedes ikke at slette billedet %s fra databasen');
+define('_MD_FAILDELCAT','Det lykkedes ikke at slette billedkategorien %s fra databasen');
+define('_MD_FAILUNLINK','Det lykkedes ikke at slette billedet %s fra serverens directory');
 ?>

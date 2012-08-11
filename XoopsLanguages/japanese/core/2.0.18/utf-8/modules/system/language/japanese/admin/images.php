@@ -19,7 +19,7 @@ define('_MD_ASFILE',' ファイルとして保存（uploadsディレクトリに
 define('_MD_RUDELIMGCAT','本当にこのカテゴリとカテゴリ内の全てのイメージを削除してもよろしいですか？');
 define('_MD_RUDELIMG','このイメージファイルを削除してもよろしいですか？');
 
-define('_MD_FAILDEL', 'イメージデータ %s のデータベースからの削除ができませんでした。');
-define('_MD_FAILDELCAT', 'カテゴリ %s のデータベースからの削除ができませんでした。');
-define('_MD_FAILUNLINK', 'イメージファイル %s のサーバからの削除ができませんでした。');
+define('_MD_FAILDEL','イメージデータ %s のデータベースからの削除ができませんでした。');
+define('_MD_FAILDELCAT','カテゴリ %s のデータベースからの削除ができませんでした。');
+define('_MD_FAILUNLINK','イメージファイル %s のサーバからの削除ができませんでした。');
 ?>

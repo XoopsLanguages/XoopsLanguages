@@ -67,7 +67,7 @@ define("_MI_WEBLINKS_ADMENU7","Defekte links anmeldt");
 // Title of config items
 //-------------------------------------
 define('_MI_WEBLINKS_LOGOSHOW','Vis modul logo'); 
-define('_MI_WEBLINKS_LOGOSHOWDSC', 'Vælg "JA" for at vise modul logo billed.');
+define('_MI_WEBLINKS_LOGOSHOWDSC','Vælg "JA" for at vise modul logo billed.');
 
 define('_MI_WEBLINKS_TITLESHOW','Vis titel'); 
 define('_MI_WEBLINKS_TITLESHOWDSC','Vælg "JA" for at vise titel');
@@ -96,16 +96,16 @@ define('_MI_WEBLINKS_POPULAR','Vælg antallet af hits for links, der skal marker
 define('_MI_WEBLINKS_POPULARDSC','Indtast det mindste antal hits for at vise "populære"-ikon. <br /> Hvis værdien sættes til 0, vises ikonet ikke.'); 
 define('_MI_WEBLINKS_NEWLINKS','Vælg det maksimale antal nye links vises på top siden');
 
-//define('_MI_WEBLINKS_NEWLINKSDSC', 'Enter the maximum number of links to be displayed in the "New Links" block. ');
+//define('_MI_WEBLINKS_NEWLINKSDSC','Enter the maximum number of links to be displayed in the "New Links" block. ');
 define('_MI_WEBLINKS_NEWLINKSDSC','Indtast det maksimale antal links, der skal vises på hovedsiden.'); 
 
 define('_MI_WEBLINKS_PERPAGE','Vælg det maksimale antal links der skal vises på hver side'); 
 define('_MI_WEBLINKS_PERPAGEDSC','Indtast det maksimale antal links, der skal vises med oplysninger per side');
 
-//define('_MI_WEBLINKS_USESHOTS', 'Select yes to display screenshot images for each link');
-//define('_MI_WEBLINKS_USESHOTSDSC', '');
-//define('_MI_WEBLINKS_SHOTWIDTH', 'Maximum allowed width of each screenshot image');
-//define('_MI_WEBLINKS_SHOTWIDTHDSC', '');
+//define('_MI_WEBLINKS_USESHOTS','Select yes to display screenshot images for each link');
+//define('_MI_WEBLINKS_USESHOTSDSC','');
+//define('_MI_WEBLINKS_SHOTWIDTH','Maximum allowed width of each screenshot image');
+//define('_MI_WEBLINKS_SHOTWIDTHDSC','');
 
 //define('_MI_WEBLINKS_ANONPOST','Allow anonymous users to post links?');
 //define('_MI_WEBLINKS_AUTOAPPROVE','Auto approve new links without admin intervention?');
@@ -121,13 +121,13 @@ define('_MI_WEBLINKS_GLOBAL_NOTIFYDSC','Globale link besked muligheder.');
 define('_MI_WEBLINKS_CATEGORY_NOTIFY','Kategori'); 
 define('_MI_WEBLINKS_CATEGORY_NOTIFYDSC','Besked muligheder, der gælder for den aktuelle link kategori.');
 
-define('_MI_WEBLINKS_LINK_NOTIFY', 'Link');
-define('_MI_WEBLINKS_LINK_NOTIFYDSC', 'Besked muligheder der vedrører det aktuelle link.');
+define('_MI_WEBLINKS_LINK_NOTIFY','Link');
+define('_MI_WEBLINKS_LINK_NOTIFYDSC','Besked muligheder der vedrører det aktuelle link.');
 
 define('_MI_WEBLINKS_GLOBAL_NEWCATEGORY_NOTIFY','Ny kategori'); 
 define('_MI_WEBLINKS_GLOBAL_NEWCATEGORY_NOTIFYCAP','Giv mig besked, når en ny kategori er oprettet.'); 
 define('_MI_WEBLINKS_GLOBAL_NEWCATEGORY_NOTIFYDSC','Få besked,når en ny link kategori er oprettet.'); 
-define('_MI_WEBLINKS_GLOBAL_NEWCATEGORY_NOTIFYSBJ', '[{X_SITENAME}] {X_MODULE} auto-besked: Ny link kategori');
+define('_MI_WEBLINKS_GLOBAL_NEWCATEGORY_NOTIFYSBJ','[{X_SITENAME}] {X_MODULE} auto-besked: Ny link kategori');
 
 define('_MI_WEBLINKS_GLOBAL_LINKMODIFY_NOTIFY','Ændring af link ønsket'); 
 define('_MI_WEBLINKS_GLOBAL_LINKMODIFY_NOTIFYCAP','Giv mig besked om eventuelle link modifikation anmodning.'); 
@@ -137,7 +137,7 @@ define('_MI_WEBLINKS_GLOBAL_LINKMODIFY_NOTIFYSBJ','[{X_SITENAME}] {X_MODULE} aut
 define('_MI_WEBLINKS_GLOBAL_LINKBROKEN_NOTIFY','Brudte link indsendt'); 
 define('_MI_WEBLINKS_GLOBAL_LINKBROKEN_NOTIFYCAP','Giv mig besked om eventuelle brudte link der rapporteres.'); 
 define('_MI_WEBLINKS_GLOBAL_LINKBROKEN_NOTIFYDSC','få besked, når et brudt link rapporteres.'); 
-define('_MI_WEBLINKS_GLOBAL_LINKBROKEN_NOTIFYSBJ', '[{X_SITENAME}] {X_MODULE} auto-besked: Brudte link rapporteret');
+define('_MI_WEBLINKS_GLOBAL_LINKBROKEN_NOTIFYSBJ','[{X_SITENAME}] {X_MODULE} auto-besked: Brudte link rapporteret');
 
 define('_MI_WEBLINKS_GLOBAL_LINKSUBMIT_NOTIFY','Nye link indsendt'); 
 define('_MI_WEBLINKS_GLOBAL_LINKSUBMIT_NOTIFYCAP','Giv mig besked, når et nyt link er indsendt (afventer godkendelse ).'); 
@@ -197,45 +197,45 @@ define('_MI_WEBLINKS_LINKIMAGE_USEDSC','Vælg "JA" for at vise link billeder, n�
 
 // 2005-10-20 K.OHWADA
 define('_MI_WEBLINKS_TOPTEN_STYLE','Top 10 stil');
-define('_MI_WEBLINKS_TOPTEN_STYLE_DSC', 'Vælg stil i "Populær side" og "Topscore side". ');
+define('_MI_WEBLINKS_TOPTEN_STYLE_DSC','Vælg stil i "Populær side" og "Topscore side". ');
 define('_MI_WEBLINKS_TOPTEN_STYLE_0','Hver top kategori');
 define('_MI_WEBLINKS_TOPTEN_STYLE_1','Mix: Alle kategorier');
 
-define('_MI_WEBLINKS_TOPTEN_LINKS', 'Max antal top10 links');
-define('_MI_WEBLINKS_TOPTEN_LINKS_DSC', 'Skriv max antal links der vises i "populær side" of "topscore side". ');
+define('_MI_WEBLINKS_TOPTEN_LINKS','Max antal top10 links');
+define('_MI_WEBLINKS_TOPTEN_LINKS_DSC','Skriv max antal links der vises i "populær side" of "topscore side". ');
 
 define('_MI_WEBLINKS_TOPTEN_CATS','Max antal kategorier i top10');
-define('_MI_WEBLINKS_TOPTEN_CATS_DSC', 'Skriv max antal kategorier der vises i "populær side" of "topscore side". <br />Der sker timeout hvis for mange kategorier er valgt');
+define('_MI_WEBLINKS_TOPTEN_CATS_DSC','Skriv max antal kategorier der vises i "populær side" of "topscore side". <br />Der sker timeout hvis for mange kategorier er valgt');
 
 // 2006-03-26
 // REQ 3807: Main Page Introductory Text
 //define('_MI_WEBLINKS_INDEX_DESC','Main Page Introductory Text');
-//define('_MI_WEBLINKS_INDEX_DESC_DSC', 'You can use this section to display some descriptive or introductory text. HTML is allowed.');
-//define('_MI_WEBLINKS_INDEX_DESC_DEFAULT', '<div align="center"><font color="blue">Here is where your page introduction goes.<br />You can edit it at "Module Configuration 2".</font><br /></div>');
+//define('_MI_WEBLINKS_INDEX_DESC_DSC','You can use this section to display some descriptive or introductory text. HTML is allowed.');
+//define('_MI_WEBLINKS_INDEX_DESC_DEFAULT','<div align="center"><font color="blue">Here is where your page introduction goes.<br />You can edit it at "Module Configuration 2".</font><br /></div>');
 
 // 2006-05-15
-define('_MI_WEBLINKS_ADMENU0', 'Index');
+define('_MI_WEBLINKS_ADMENU0','Index');
 
 // 2006-11-03
 // random block
 define('_MI_WEBLINKS_BNAME_RANDOM',  'tilfældig link');
-define('_MI_WEBLINKS_BNAME_GENERIC', 'Alm link blok');
+define('_MI_WEBLINKS_BNAME_GENERIC','Alm link blok');
 
 // 2007-04-08
-define('_MI_WEBLINKS_BNAME_RANDOM_PHOTO', 'tilfældig billede');
+define('_MI_WEBLINKS_BNAME_RANDOM_PHOTO','tilfældig billede');
 
 // 2007-09-01
 // notification: new_link_admin
-define('_MI_WEBLINKS_GLOBAL_NEWLINK_ADMIN', '[Admin] Nyt link (med kommentar for admin)');
-define('_MI_WEBLINKS_GLOBAL_NEWLINK_ADMIN_CAP', '[Admin] Giv besked når nyt link indsendes (med admin kommentar)');
-define('_MI_WEBLINKS_GLOBAL_NEWLINK_ADMIN_DSC', 'Modtag notifikation når nyt link er postet (med kommentar for admin)');
-define('_MI_WEBLINKS_GLOBAL_NEWLINK_ADMIN_SBJ', '[{X_SITENAME}] {X_MODULE} auto-notify : Nyt Link');
+define('_MI_WEBLINKS_GLOBAL_NEWLINK_ADMIN','[Admin] Nyt link (med kommentar for admin)');
+define('_MI_WEBLINKS_GLOBAL_NEWLINK_ADMIN_CAP','[Admin] Giv besked når nyt link indsendes (med admin kommentar)');
+define('_MI_WEBLINKS_GLOBAL_NEWLINK_ADMIN_DSC','Modtag notifikation når nyt link er postet (med kommentar for admin)');
+define('_MI_WEBLINKS_GLOBAL_NEWLINK_ADMIN_SBJ','[{X_SITENAME}] {X_MODULE} auto-notify : Nyt Link');
 
 // notification: new_link_comment
-define('_MI_WEBLINKS_GLOBAL_NEWLINK_COMMENT', '[Admin] Nyt Link (hvis skrevet kommentar for admin)');
-define('_MI_WEBLINKS_GLOBAL_NEWLINK_COMMENT_CAP', '[Admin] Giv besked når nyt link er postet (hvis skrevet kommentar for admin)');
-define('_MI_WEBLINKS_GLOBAL_NEWLINK_COMMENT_DSC', 'Modtag notifikation når nyt link er postet (hvis skrevet en kommentar for admin)');
-define('_MI_WEBLINKS_GLOBAL_NEWLINK_COMMENT_SBJ', '[{X_SITENAME}] {X_MODULE} auto-notify : Nyt Link)');
+define('_MI_WEBLINKS_GLOBAL_NEWLINK_COMMENT','[Admin] Nyt Link (hvis skrevet kommentar for admin)');
+define('_MI_WEBLINKS_GLOBAL_NEWLINK_COMMENT_CAP','[Admin] Giv besked når nyt link er postet (hvis skrevet kommentar for admin)');
+define('_MI_WEBLINKS_GLOBAL_NEWLINK_COMMENT_DSC','Modtag notifikation når nyt link er postet (hvis skrevet en kommentar for admin)');
+define('_MI_WEBLINKS_GLOBAL_NEWLINK_COMMENT_SBJ','[{X_SITENAME}] {X_MODULE} auto-notify : Nyt Link)');
 
 }
 // --- define language begin ---

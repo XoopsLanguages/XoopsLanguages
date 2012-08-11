@@ -56,71 +56,71 @@ define("_PROFILE_MA_SITEDEFAULT","Standaard binnen deze site");
 define("_PROFILE_MA_USERINFO","Gebruikersprofiel");
 define("_PROFILE_MA_REGISTER","Registratieformulier");
 
-define("_PROFILE_MA_ACTUS", "Actieve Gebruikers: %s");
-define("_PROFILE_MA_FOUNDUSER", "%s gebruikers gevonden");
+define("_PROFILE_MA_ACTUS","Actieve Gebruikers: %s");
+define("_PROFILE_MA_FOUNDUSER","%s gebruikers gevonden");
 
-define("_PROFILE_VALIDATE", "Formulier valideren");
-define("_PROFILE_VALIDATE_PASS", "<font color='#00FF00'>Validatie geslaagd!</font>");
-define("_PROFILE_VALIDATE_FAIL", "<font color='#FF0000'>Validatie mislukt!</font>");
-define("_PROFILE_VALIDATE_PASSKEYFAILED", "<font color='#FF0000'>60 Minutes has passed and you no longer have a valid pass key token, you need to refresh the page!</font>");
+define("_PROFILE_VALIDATE","Formulier valideren");
+define("_PROFILE_VALIDATE_PASS","<font color='#00FF00'>Validatie geslaagd!</font>");
+define("_PROFILE_VALIDATE_FAIL","<font color='#FF0000'>Validatie mislukt!</font>");
+define("_PROFILE_VALIDATE_PASSKEYFAILED","<font color='#FF0000'>60 Minutes has passed and you no longer have a valid pass key token, you need to refresh the page!</font>");
 
 //Directory Language Files
-define('_PROFILE_LANG_UID', 'Gebruikers ID');
-define('_PROFILE_LANG_UNAME', 'Gebruikersnaam');
-define('_PROFILE_LANG_EMAIL', 'E-mail');
-define('_PROFILE_LANG_URL', 'Homepagina');
-define('_PROFILE_LANG_NAME', 'Naam,');
-define('_PROFILE_LANG_USER_OCC', 'Titel');
-define('_PROFILE_LANG_USER_AVATAR', 'Afbeelding');
-define('_PROFILE_LANG_USER_REGDATE', 'Lid sinds');
-define('_PROFILE_LANG_USER_VIEWEMAIL', 'Toon e-mail');
-define('_PROFILE_LANG_PASS', 'Wachtwoord');
-define('_PROFILE_LANG_POSTS', 'Posts');
-define('_PROFILE_LANG_RANK', 'Gebruikersrang');
-define('_PROFILE_LANG_LEVEL', 'Level');
-define('_PROFILE_LANG_THEME', 'Thema');
-define('_PROFILE_LANG_TIMEZONE_OFFSET', 'Tijdszone');
-define('_PROFILE_LANG_LAST_LOGIN', 'Laatst ingelogd');
-define('_PROFILE_LANG_UMODE', 'Weergavemodus reacties');
-define('_PROFILE_LANG_NOTIFY_METHOD', 'Standaard notificatie mode');
-define('_PROFILE_LANG_UORDER', 'Sorteervolgorde reacties');
-define('_PROFILE_AD_SEARCH', 'Zoekmap');
+define('_PROFILE_LANG_UID','Gebruikers ID');
+define('_PROFILE_LANG_UNAME','Gebruikersnaam');
+define('_PROFILE_LANG_EMAIL','E-mail');
+define('_PROFILE_LANG_URL','Homepagina');
+define('_PROFILE_LANG_NAME','Naam,');
+define('_PROFILE_LANG_USER_OCC','Titel');
+define('_PROFILE_LANG_USER_AVATAR','Afbeelding');
+define('_PROFILE_LANG_USER_REGDATE','Lid sinds');
+define('_PROFILE_LANG_USER_VIEWEMAIL','Toon e-mail');
+define('_PROFILE_LANG_PASS','Wachtwoord');
+define('_PROFILE_LANG_POSTS','Posts');
+define('_PROFILE_LANG_RANK','Gebruikersrang');
+define('_PROFILE_LANG_LEVEL','Level');
+define('_PROFILE_LANG_THEME','Thema');
+define('_PROFILE_LANG_TIMEZONE_OFFSET','Tijdszone');
+define('_PROFILE_LANG_LAST_LOGIN','Laatst ingelogd');
+define('_PROFILE_LANG_UMODE','Weergavemodus reacties');
+define('_PROFILE_LANG_NOTIFY_METHOD','Standaard notificatie mode');
+define('_PROFILE_LANG_UORDER','Sorteervolgorde reacties');
+define('_PROFILE_AD_SEARCH','Zoekmap');
 
 //Version 1.67
-define('_PROFILE_MA_VALIDATIONFAILED', 'Validatie niet te controleren, probeer opnieuw!');
+define('_PROFILE_MA_VALIDATIONFAILED','Validatie niet te controleren, probeer opnieuw!');
 
 // Version 1.68
-define('_PROFILE_MA_PUZZEL', 'Puzzel oplossen');
-define('_PROFILE_MN_NOSOLVEPUZZEL', 'De puzzel is niet correct opgelost');
-define('_PROFILE_LANG_USER_FROM', 'Gebruikersformulier');
-define('_PROFILE_LANG_DONATION_MADE', 'Donatie gemaakt');
+define('_PROFILE_MA_PUZZEL','Puzzel oplossen');
+define('_PROFILE_MN_NOSOLVEPUZZEL','De puzzel is niet correct opgelost');
+define('_PROFILE_LANG_USER_FROM','Gebruikersformulier');
+define('_PROFILE_LANG_DONATION_MADE','Donatie gemaakt');
 
 //Version 1.69
-define('_PROFILE_MA_NETFOUND', 'Het netwerk adres van <em>%s</em> is <strong>Actief door een andere gebruiker</strong>');
-define('_PROFILE_MN_FIELD_IP', 'Het IP Adres van <strong>%s</strong> wordt opgeslagen!');
-define('_PROFILE_MN_FIELD_PROXYIP', 'Het Proxy IP Adres van <strong>%s</strong> wordt opgeslagen!');
-define('_PROFILE_MN_FIELD_NETWORKADDY', 'Het Netbios Adres van <strong>%s</strong> wordt opgeslagen!');
+define('_PROFILE_MA_NETFOUND','Het netwerk adres van <em>%s</em> is <strong>Actief door een andere gebruiker</strong>');
+define('_PROFILE_MN_FIELD_IP','Het IP Adres van <strong>%s</strong> wordt opgeslagen!');
+define('_PROFILE_MN_FIELD_PROXYIP','Het Proxy IP Adres van <strong>%s</strong> wordt opgeslagen!');
+define('_PROFILE_MN_FIELD_NETWORKADDY','Het Netbios Adres van <strong>%s</strong> wordt opgeslagen!');
 
 // Version 1.75
-define('_PROFILE_MA_NOTLOCAL_H1', 'Vanuit de locatie mag niet geregistreerd worden!');
-define('_PROFILE_MA_NOTLOCAL_P', 'De locatie behoort niet tot de regio waarvandaan geregistreerd mag worden. Helaas is het niet mogelijk om voor deze site te registreren!');
-define('_PROFILE_MA_IPDETAILS_H2', 'De IP Details voor dit IP zijn als volgt');
-define('_PROFILE_MA_PERMITTED_COUNTRYCODES_H2', 'Toegestane landcodes');
-define('_PROFILE_MA_PERMITTED_DISTRICTS_H2', 'Toegestane postcodes');
-define('_PROFILE_MA_PERMITTED_CITIES_H2', 'Toegestane steden');
-define('_PROFILE_MA_NOTSPEEDY_H1', 'De internetverbinding is niet snel genoeg om te registreren');
-define('_PROFILE_MA_NOTSPEEDY_P', 'Helaas is de link die wordt gebruikt niet geschikt om te registreren op deze site, de onderstaande getallen zijn in Mbps.');
-define('_PROFILE_MA_DOWNLINK_H2', 'Downlink');
-define('_PROFILE_MA_PASS_H2', 'Geslaagd');
-define('_PROFILE_MA_FAIL_H2', 'Mislukt');
-define('_PROFILE_MA_DOWNLINK_TESTED_P', 'Downlinksnelheid getest');
-define('_PROFILE_MA_DOWNLINK_REQUIRED_P', 'Downlinksnelheid vereist');
-define('_PROFILE_MA_DOWNLINK_BEATBY_P', 'Downlink overtreft snelheid met');
-define('_PROFILE_MA_DOWNLINK_NEEDSMORE_P', 'Downlink vereist ongeveer dit aan meer snelheid');
-define('_PROFILE_MA_UPLINK_H2', 'Uplink');
-define('_PROFILE_MA_UPLINK_TESTED_P', 'Uplinksnelheid getest');
-define('_PROFILE_MA_UPLINK_REQUIRED_P', 'Uplinksnelheid vereist');
-define('_PROFILE_MA_UPLINK_BEATBY_P', 'Uplink overtreft snelheid met');
-define('_PROFILE_MA_UPLINK_NEEDSMORE_P', 'Uplink vereist ongeveer dit aan meer snelheid');
-define('_PROFILE_MA_SPEED_MBPS', 'Mbps');
+define('_PROFILE_MA_NOTLOCAL_H1','Vanuit de locatie mag niet geregistreerd worden!');
+define('_PROFILE_MA_NOTLOCAL_P','De locatie behoort niet tot de regio waarvandaan geregistreerd mag worden. Helaas is het niet mogelijk om voor deze site te registreren!');
+define('_PROFILE_MA_IPDETAILS_H2','De IP Details voor dit IP zijn als volgt');
+define('_PROFILE_MA_PERMITTED_COUNTRYCODES_H2','Toegestane landcodes');
+define('_PROFILE_MA_PERMITTED_DISTRICTS_H2','Toegestane postcodes');
+define('_PROFILE_MA_PERMITTED_CITIES_H2','Toegestane steden');
+define('_PROFILE_MA_NOTSPEEDY_H1','De internetverbinding is niet snel genoeg om te registreren');
+define('_PROFILE_MA_NOTSPEEDY_P','Helaas is de link die wordt gebruikt niet geschikt om te registreren op deze site, de onderstaande getallen zijn in Mbps.');
+define('_PROFILE_MA_DOWNLINK_H2','Downlink');
+define('_PROFILE_MA_PASS_H2','Geslaagd');
+define('_PROFILE_MA_FAIL_H2','Mislukt');
+define('_PROFILE_MA_DOWNLINK_TESTED_P','Downlinksnelheid getest');
+define('_PROFILE_MA_DOWNLINK_REQUIRED_P','Downlinksnelheid vereist');
+define('_PROFILE_MA_DOWNLINK_BEATBY_P','Downlink overtreft snelheid met');
+define('_PROFILE_MA_DOWNLINK_NEEDSMORE_P','Downlink vereist ongeveer dit aan meer snelheid');
+define('_PROFILE_MA_UPLINK_H2','Uplink');
+define('_PROFILE_MA_UPLINK_TESTED_P','Uplinksnelheid getest');
+define('_PROFILE_MA_UPLINK_REQUIRED_P','Uplinksnelheid vereist');
+define('_PROFILE_MA_UPLINK_BEATBY_P','Uplink overtreft snelheid met');
+define('_PROFILE_MA_UPLINK_NEEDSMORE_P','Uplink vereist ongeveer dit aan meer snelheid');
+define('_PROFILE_MA_SPEED_MBPS','Mbps');
 ?>

@@ -20,7 +20,7 @@
  */
 
 // !!IMPORTANT!! insert '\' before any char among reserved chars: "a", "A", "B", "c", "d", "D", "F", "g", "G", "h", "H", "i", "I", "j", "l", "L", "m", "M", "n", "O", "r", "s", "S", "t", "T", "U", "w", "W", "Y", "y", "z", "Z"	
-// insert double '\' before 't', 'r', 'n'
+// insert double '\' before 't','r','n'
 if(!defined("_YEARMONTHDAY")) {
 define("_TODAY", "\V\a\\n\d\a\a\g G:i");
 define("_YESTERDAY", "\G\i\s\\t\e\\r\e\\n G:i");

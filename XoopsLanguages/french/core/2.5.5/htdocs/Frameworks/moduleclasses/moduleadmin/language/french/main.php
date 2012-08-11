@@ -39,13 +39,13 @@ define("_AM_MODULEADMIN_ABOUT_LICENSE","License: ");
 define("_AM_MODULEADMIN_ABOUT_AUTHOR_NAME","Nom de l'auteur: ");
 define("_AM_MODULEADMIN_ABOUT_AUTHOR_INFO","Informations de l'auteur");
 
-define("_AM_MODULEADMIN_HOME", "Accueil");
-define("_AM_MODULEADMIN_DASHBOARD", "Tableau de bord");
-define("_AM_MODULEADMIN_ABOUT", "À propos");
-define("_AM_MODULEADMIN_PERMISSIONS", "Permissions");
+define("_AM_MODULEADMIN_HOME","Accueil");
+define("_AM_MODULEADMIN_DASHBOARD","Tableau de bord");
+define("_AM_MODULEADMIN_ABOUT","À propos");
+define("_AM_MODULEADMIN_PERMISSIONS","Permissions");
 
 //ModuleAdmin
-define("_AM_MODULEADMIN_ADMIN_FOOTER", "<div class='center smallsmall italic pad5'>Ce module est suivi par la <a class='tooltip' rel='external' href='http://frxoops.org/' title='Visitez la Communauté Xoops'>Communauté Xoops</a></div>");
+define("_AM_MODULEADMIN_ADMIN_FOOTER","<div class='center smallsmall italic pad5'>Ce module est suivi par la <a class='tooltip' rel='external' href='http://frxoops.org/' title='Visitez la Communauté Xoops'>Communauté Xoops</a></div>");
 
 /**
  * @translation     Communauté Francophone des Utilisateurs de Xoops

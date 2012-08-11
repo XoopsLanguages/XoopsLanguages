@@ -28,24 +28,24 @@
 //  along with this program; if not, write to the Free Software              //
 //  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 USA //
 //  ------------------------------------------------------------------------ //
-define('_MB_XCGAL_TYPE', 'Type:');
-define('_MB_XCGAL_NEWST', 'Sidste uploads');
-define('_MB_XCGAL_TOP', 'Top bedømte');
-define('_MB_XCGAL_VIEW', 'Mest sete');
-define('_MB_XCGAL_RANDOM', 'Tilfældige');
-define('_MB_XCGAL_COMMENTS', 'Sidste kommentarer');
-define('_MB_XCGAL_MOSTSENT', 'Mest sendte postkort');
-define('_MB_XCGAL_LASTHITS', 'Sidste hits');
-define('_MB_XCGAL_DISPLAY', 'Justering');
-define('_MB_XCGAL_HORIZONTALLY', 'horisontalt');
-define('_MB_XCGAL_VERTICALLY', 'vertikalt');
-define('_MB_XCGAL_CAPTION', 'Vis overskrifter?');
-define('_MB_XCGAL_COUNT', 'Foto antal:');
-define('_MB_XCGAL_WIDTH', 'Højde på visning område i px');
-define('_MB_FUNC_VIEW', '%s visninger');
-define('_MB_FUNC_VOTE', '%s stemmer');
-define('_MB_FUNC_CARD', '%s gange');
-define('_MB_XCGAL_METAALBS', 'Meta Albums: ');
-define('_MB_XCGAL_PICSPERROW', 'Foto pr Række: ');
+define('_MB_XCGAL_TYPE','Type:');
+define('_MB_XCGAL_NEWST','Sidste uploads');
+define('_MB_XCGAL_TOP','Top bedømte');
+define('_MB_XCGAL_VIEW','Mest sete');
+define('_MB_XCGAL_RANDOM','Tilfældige');
+define('_MB_XCGAL_COMMENTS','Sidste kommentarer');
+define('_MB_XCGAL_MOSTSENT','Mest sendte postkort');
+define('_MB_XCGAL_LASTHITS','Sidste hits');
+define('_MB_XCGAL_DISPLAY','Justering');
+define('_MB_XCGAL_HORIZONTALLY','horisontalt');
+define('_MB_XCGAL_VERTICALLY','vertikalt');
+define('_MB_XCGAL_CAPTION','Vis overskrifter?');
+define('_MB_XCGAL_COUNT','Foto antal:');
+define('_MB_XCGAL_WIDTH','Højde på visning område i px');
+define('_MB_FUNC_VIEW','%s visninger');
+define('_MB_FUNC_VOTE','%s stemmer');
+define('_MB_FUNC_CARD','%s gange');
+define('_MB_XCGAL_METAALBS','Meta Albums: ');
+define('_MB_XCGAL_PICSPERROW','Foto pr Række: ');
 
 ?>

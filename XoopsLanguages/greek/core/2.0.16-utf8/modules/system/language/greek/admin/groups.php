@@ -30,8 +30,8 @@ define("_AM_UNEED2ENTER","You need to enter required info!");
 // Added in RC3
 define("_AM_BLOCKRIGHTS","Block Access Rights");
 
-define('_AM_FINDU4GROUP', 'Find users for this group');
-define('_AM_GROUPSMAIN', 'Groups Main');
+define('_AM_FINDU4GROUP','Find users for this group');
+define('_AM_GROUPSMAIN','Groups Main');
 
-define('_AM_ADMINNO', 'There must be at least one user in the webmasters group');
+define('_AM_ADMINNO','There must be at least one user in the webmasters group');
 ?>

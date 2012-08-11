@@ -43,7 +43,7 @@ define('_US_REGISTERNG','Der neue Mitgliedsname konnte nicht registriert werden.
 define('_US_MAILOK','Möchten Sie, das die Administratoren und Moderatoren, Ihnen E-Mail - Nachrichten zu schicken ?');
 define('_US_DISCLAIMER','Haftungsausschluß');
 define('_US_IAGREE','Ich habe den Haftungsausschluß gelesen und stimme ihm zu.');
-define('_US_UNEEDAGREE', 'Verzeihung, aber Sie müssen dem Haftungsausschluß zustimmen, um sich registrieren zu können.');
+define('_US_UNEEDAGREE','Verzeihung, aber Sie müssen dem Haftungsausschluß zustimmen, um sich registrieren zu können.');
 define('_US_NOREGISTER','Verzeihung, im Moment werden keine Neuregistrierungen durchgeführt');
 
 
@@ -76,15 +76,15 @@ define('_US_SORRYNOTFOUND','Keine entsprechenden Mitgliedinformationen gefunden!
 
 // %s is your site name
 define('_US_NEWPWDREQ','Neue Passwortanforderung auf %s');
-define('_US_YOURACCOUNT', 'Ihr Konto auf %s');
+define('_US_YOURACCOUNT','Ihr Konto auf %s');
 
 define('_US_MAILPWDNG','E-Mail-Passwort: Ihre Einstellungen konnten nicht aktualisiert werden!. Setzen Sie sich bitte mit dem Webmaster in Verbindung!');
 
 // %s is a username
 define('_US_PWDMAILED','Passwort für %s verschickt.');
 define('_US_CONFMAIL','Bestätigungs-E-Mail für %s verschickt.');
-define('_US_ACTVMAILNG', 'Fehler beim Versenden der Aktivierungs-E-Mail an %s');
-define('_US_ACTVMAILOK', 'Aktivierungs-E-Mail an %s verschickt.');
+define('_US_ACTVMAILNG','Fehler beim Versenden der Aktivierungs-E-Mail an %s');
+define('_US_ACTVMAILOK','Aktivierungs-E-Mail an %s verschickt.');
 
 //%%%%%%                File Name userinfo.php                 %%%%%
 define('_US_SELECTNG','Es wurde kein Mitglied ausgewählt! Bitte gehen Sie zurück und versuchen es erneut.');
@@ -128,22 +128,22 @@ define('_US_PROFUPDATED','Ihr Konto wurde aktualisiert!');
 define('_US_USECOOKIE','Soll Ihr Mitgliedsname für ein Jahr in einem Cookie gespeichert werden?');
 define('_US_NO','Nein');
 define('_US_DELACCOUNT','Konto löschen');
-define('_US_MYAVATAR', 'Mein Avatar');
-define('_US_UPLOADMYAVATAR', 'Laden Sie Ihren Avatar hoch');
+define('_US_MYAVATAR','Mein Avatar');
+define('_US_UPLOADMYAVATAR','Laden Sie Ihren Avatar hoch');
 define('_US_MAXPIXEL','max. Bildgröße');
 define('_US_MAXIMGSZ','max. Dateigröße');
 define('_US_SELFILE','Durchsuchen');
 define('_US_OLDDELETED','Ihr altes Avatarbild wird dann gelöscht!');
-define('_US_CHOOSEAVT', 'Wählen Sie einen Avatar aus der Liste!');
+define('_US_CHOOSEAVT','Wählen Sie einen Avatar aus der Liste!');
 
-define('_US_PRESSLOGIN', 'Klicken Sie auf den untenstehenden Button um sich einzuloggen');
+define('_US_PRESSLOGIN','Klicken Sie auf den untenstehenden Button um sich einzuloggen');
 
-define('_US_ADMINNO', 'Mitglieder aus der Webmastergruppe können nicht entfernt werden');
-define('_US_GROUPS', 'Gruppe des Mitglieds');
+define('_US_ADMINNO','Mitglieder aus der Webmastergruppe können nicht entfernt werden');
+define('_US_GROUPS','Gruppe des Mitglieds');
 
-define('_US_REMEMBERME', 'Login Speichern');
+define('_US_REMEMBERME','Login Speichern');
 
 // Welcoming emai/PM subject
-define('_US_WELCOME_SUBJECT', 'Willkommen bei %s');
+define('_US_WELCOME_SUBJECT','Willkommen bei %s');
 
 ?>

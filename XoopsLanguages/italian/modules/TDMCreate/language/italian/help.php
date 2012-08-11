@@ -18,18 +18,18 @@
  * ****************************************************************************
  */
 // Help Descriptions
-define("_AM_TDMCREATE_HELP_MODULE_NAME", "TDMCreate");
+define("_AM_TDMCREATE_HELP_MODULE_NAME","TDMCreate");
 
-define ("_AM_TDMCREATE_HELP_DESCRIPTION_DESC", "Il modulo TDMCreate puÚ essere utilizzato per creare nuovi moduli di XOOPS <br /> <br />");
+define("_AM_TDMCREATE_HELP_DESCRIPTION_DESC","Il modulo TDMCreate pu√≤ essere utilizzato per creare nuovi moduli di XOOPS <br /> <br />");
 
-define ("_AM_TDMCREATE_HELP_INSTALLUNINSTALL_DESC", "Nessuna misura particolare, seguire il processo di installazione standard &#232; estrarre la cartella TDMCreate nella cartella ../modules Installare il modulo con Admin -> Module System -> Moduli <br /> <br /> istruzioni dettagliate su come installare i moduli sono disponibili nella <a href='http://goo.gl/adT2i'> XOOPS Manuale operativo</a>");
+define("_AM_TDMCREATE_HELP_INSTALLUNINSTALL_DESC","Nessuna misura particolare, seguire il processo di installazione standard &#232; estrarre la cartella TDMCreate nella cartella ../modules Installare il modulo con Admin -> Module System -> Moduli <br /> <br /> istruzioni dettagliate su come installare i moduli sono disponibili nella <a href='http://goo.gl/adT2i'> XOOPS Manuale operativo</a>");
 
-define ("_AM_TDMCREATE_HELP_OPERATINGINSTRUCTIONS_DESC", "Il modulo Sondaggi Ë molto semplice da configurare e utilizzare Fondamentalmente Ë necessario:. <br /> <br />
-i) Creare uno o pi˘ sondaggi per le persone a votare (amministrazione Sondaggi -> Aggiungi sondaggio) <br /> <br />
-ii) Visualizza il Sondaggi blocco da qualche parte sul tuo sito web (non &#232; strettamente necessario che le persone possono anche accedervi attraverso il &#232; link nel menu principale, ma la visualizzazione del blocco sondaggi in una posizione prominente incoragger‡ la gente di voto) <br /> <br />
+define("_AM_TDMCREATE_HELP_OPERATINGINSTRUCTIONS_DESC","Il modulo Sondaggi √® molto semplice da configurare e utilizzare Fondamentalmente √® necessario:. <br /> <br />
+i) Creare uno o pi√π sondaggi per le persone a votare (amministrazione Sondaggi -> Aggiungi sondaggio) <br /> <br />
+ii) Visualizza il Sondaggi blocco da qualche parte sul tuo sito web (non &#232; strettamente necessario che le persone possono anche accedervi attraverso il &#232; link nel menu principale, ma la visualizzazione del blocco sondaggi in una posizione prominente incoragger√† la gente di voto) <br /> <br />
 iii) Assicurare che i gruppi di utenti interessati hanno diritto di accesso per: a) il modulo Sondaggi e b) il Sondaggi blocco in modo che possano vedere e votare. Istruzioni dettagliate su come configurare i diritti di accesso per gruppi di utenti sono disponibili nel <a href='http://goo.gl/adT2i'> XOOPS Manuale operativo </ a> <br /> <br />
 iv) la maggior parte delle funzioni di gestione per i sondaggi esistenti si trovano in amministrazione Sondaggi -> sondaggi List ").;
 
-define ("_AM_TDMCREATE_HELP_TUTORIAL_DESC", "Si pu&#242; trovare un tutorial pi&#249; dettagliato <a href='http://goo.gl/bxYAI'>qui</a>");
+define("_AM_TDMCREATE_HELP_TUTORIAL_DESC","Si pu&#242; trovare un tutorial pi&#249; dettagliato <a href='http://goo.gl/bxYAI'>qui</a>");
 
 ?>

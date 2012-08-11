@@ -25,13 +25,13 @@ defined('XOOPS_ROOT_PATH') or die('Restricted access');
 // _LANGCODE: ar
 // _CHARSET : windows-1256
 // Translator: Arab XOOPS Team
-define('_MAIL_MSGBODY', 'áã íÊã ÇÑÓÇá ÇáÑÓÇáÉ');
-define('_MAIL_FAILOPTPL', 'áã íÊã ÝÊÍ ãáÝ ÇáÞÇáÈ');
-define('_MAIL_FNAMENG', 'áã ÊßÊÈ ÇÓã ÇáãÑÓá Çáíå');
-define('_MAIL_FEMAILNG', 'áã ÊßÊÈ ÇÓã ÚäæÇä ÇáÈÑíÏ');
-define('_MAIL_SENDMAILNG', 'áã äÓÊØíÚ ÇÑÓÇá ÇáÈÑíÏ Çáì %s .');
-define('_MAIL_MAILGOOD', 'Êã ÇÑÓÇá ÇáÈÑíÏ Çáì %s.');
-define('_MAIL_SENDPMNG', 'áã äÓÊØíÚ ÇÑÓÇá ÇáÑÓÇáÉ ÇáÎÇÕÉ Çáì %s .');
-define('_MAIL_PMGOOD', 'Êã ÇÑÓÇá ÇáÑÓÇáÉ ÇáÎÇÕÉ Çáì  %s .');
+define('_MAIL_MSGBODY','Ã¡Ã£ Ã­ÃŠÃ£ Ã‡Ã‘Ã“Ã‡Ã¡ Ã‡Ã¡Ã‘Ã“Ã‡Ã¡Ã‰');
+define('_MAIL_FAILOPTPL','Ã¡Ã£ Ã­ÃŠÃ£ ÃÃŠÃ Ã£Ã¡Ã Ã‡Ã¡ÃžÃ‡Ã¡Ãˆ');
+define('_MAIL_FNAMENG','Ã¡Ã£ ÃŠÃŸÃŠÃˆ Ã‡Ã“Ã£ Ã‡Ã¡Ã£Ã‘Ã“Ã¡ Ã‡Ã¡Ã­Ã¥');
+define('_MAIL_FEMAILNG','Ã¡Ã£ ÃŠÃŸÃŠÃˆ Ã‡Ã“Ã£ ÃšÃ¤Ã¦Ã‡Ã¤ Ã‡Ã¡ÃˆÃ‘Ã­Ã');
+define('_MAIL_SENDMAILNG','Ã¡Ã£ Ã¤Ã“ÃŠÃ˜Ã­Ãš Ã‡Ã‘Ã“Ã‡Ã¡ Ã‡Ã¡ÃˆÃ‘Ã­Ã Ã‡Ã¡Ã¬ %s .');
+define('_MAIL_MAILGOOD','ÃŠÃ£ Ã‡Ã‘Ã“Ã‡Ã¡ Ã‡Ã¡ÃˆÃ‘Ã­Ã Ã‡Ã¡Ã¬ %s.');
+define('_MAIL_SENDPMNG','Ã¡Ã£ Ã¤Ã“ÃŠÃ˜Ã­Ãš Ã‡Ã‘Ã“Ã‡Ã¡ Ã‡Ã¡Ã‘Ã“Ã‡Ã¡Ã‰ Ã‡Ã¡ÃŽÃ‡Ã•Ã‰ Ã‡Ã¡Ã¬ %s .');
+define('_MAIL_PMGOOD','ÃŠÃ£ Ã‡Ã‘Ã“Ã‡Ã¡ Ã‡Ã¡Ã‘Ã“Ã‡Ã¡Ã‰ Ã‡Ã¡ÃŽÃ‡Ã•Ã‰ Ã‡Ã¡Ã¬  %s .');
 
 ?>

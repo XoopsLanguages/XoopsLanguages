@@ -16,7 +16,7 @@ define("_INSTALL_L165","Diese Seite ist wegen Wartungsarbeiten geschlossen! Bitt
 
 define('_INSTALL_ANON','Gast');
 
-define('_INSTALL_DISCLMR', 'Diese Seite übernimmt keinerlei Haftung für Schäden, die durch das System (die Internetseite) oder 
+define('_INSTALL_DISCLMR','Diese Seite übernimmt keinerlei Haftung für Schäden, die durch das System (die Internetseite) oder 
 die angebotenen Dateien entstehen. Alle Dateien sind auf Viren geprüft. Der User wird hiermit 
 darauf hingewiesen, selber die Dateien auf Viren und ähnliches zu prüfen. 
 Eine Garantie für die Sicherheit der Dateien kann nicht gegeben gegeben werden, da diese Dateien 

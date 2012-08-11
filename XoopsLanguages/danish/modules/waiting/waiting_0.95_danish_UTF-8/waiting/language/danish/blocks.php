@@ -5,8 +5,8 @@
 // WEB		::	Ryu's Planning <http://ryus.biz/>
 //
 
-define('_MB_WAITING_NOWAITING_DISPLAY', 'Vis Altid');
-define('_MB_WAITING_SQL_CACHE', 'SQL cache');
-define('_MB_WAITING_LINKTOPLUGINCHECK', 'Check plugins');
+define('_MB_WAITING_NOWAITING_DISPLAY','Vis Altid');
+define('_MB_WAITING_SQL_CACHE','SQL cache');
+define('_MB_WAITING_LINKTOPLUGINCHECK','Check plugins');
 
 ?>

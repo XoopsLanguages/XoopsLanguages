@@ -28,12 +28,12 @@ define("_AM_SYSTEM_SMILIES_DESCRIPTION","Description");
 define("_AM_SYSTEM_SMILIES_DISPLAY","Visible");
 define("_AM_SYSTEM_SMILIES_EDIT","Éditer l'émoticône");
 define("_AM_SYSTEM_SMILIES_FILE","Fichier de l'émoticône");
-define("_AM_SYSTEM_SMILIES_IMAGE_PATH", "Le fichier de l'émoticône est localisé dans : %s");
+define("_AM_SYSTEM_SMILIES_IMAGE_PATH","Le fichier de l'émoticône est localisé dans : %s");
 define("_AM_SYSTEM_SMILIES_OFF","Afficher dans le formulaire ");
 define("_AM_SYSTEM_SMILIES_ON","Ne pas afficher dans le formulaire");
 define("_AM_SYSTEM_SMILIES_SMILIE","Émoticône");
-define("_AM_SYSTEM_SMILIES_SUREDEL", "Êtes-vous sûr de vouloir suprimer cette émoticône ?");
-define("_AM_SYSTEM_SMILIES_UPLOADS", "Télécharger");
+define("_AM_SYSTEM_SMILIES_SUREDEL","Êtes-vous sûr de vouloir suprimer cette émoticône ?");
+define("_AM_SYSTEM_SMILIES_UPLOADS","Télécharger");
 
 define("_AM_SYSTEM_SMILIES_SAVE",_AM_SYSTEM_DBUPDATED);
 

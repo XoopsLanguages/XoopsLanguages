@@ -77,7 +77,7 @@ define("_AM_SYSTEM_BANNERS_USEHTML","Utilizzare Html?");
 define("_AM_SYSTEM_BANNERS_CODEHTML","Codice Html:");
 
 // Tips
-define("_AM_SYSTEM_BANNERS_NAV_TIPS", "
+define("_AM_SYSTEM_BANNERS_NAV_TIPS","
 <ul>
 <li>Permette di aggiungere, modificare o aggiornare banner e clienti pubblicitari.</li>
 </ul>

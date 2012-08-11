@@ -21,11 +21,11 @@ define('_MI_SYSTEM_BNAME6',  'Menú');
 define('_MI_SYSTEM_BNAME7',  'Info del sitio');
 define('_MI_SYSTEM_BNAME8',  'Usuarios conectados');
 define('_MI_SYSTEM_BNAME9',  'Top Envíos');
-define('_MI_SYSTEM_BNAME10', 'Max. Colaboradores');
-define('_MI_SYSTEM_BNAME11', 'Comentarios recientes');
+define('_MI_SYSTEM_BNAME10','Max. Colaboradores');
+define('_MI_SYSTEM_BNAME11','Comentarios recientes');
 // RMV-NOTIFY
-define('_MI_SYSTEM_BNAME12', 'Opciones de notificación');
-define('_MI_SYSTEM_BNAME13', 'Diseños');
+define('_MI_SYSTEM_BNAME12','Opciones de notificación');
+define('_MI_SYSTEM_BNAME13','Diseños');
 
 // Names of admin menu items
 define('_MI_SYSTEM_ADMENU1',  'Banners');
@@ -35,13 +35,13 @@ define('_MI_SYSTEM_ADMENU5',  'Módulos');
 define('_MI_SYSTEM_ADMENU6',  'Preferencias');
 define('_MI_SYSTEM_ADMENU7',  'Caritas');
 define('_MI_SYSTEM_ADMENU9',  'Rangos de usuario');
-define('_MI_SYSTEM_ADMENU10', 'Editar usuario');
-define('_MI_SYSTEM_ADMENU11', 'Correo a usuarios');
-define('_MI_SYSTEM_ADMENU12', 'Encontrar usuario');
-define('_MI_SYSTEM_ADMENU13', 'Imágenes');
-define('_MI_SYSTEM_ADMENU14', 'Avatares');
-define('_MI_SYSTEM_ADMENU15', 'Juego de plantillas');
-define('_MI_SYSTEM_ADMENU16', 'Comentarios');
+define('_MI_SYSTEM_ADMENU10','Editar usuario');
+define('_MI_SYSTEM_ADMENU11','Correo a usuarios');
+define('_MI_SYSTEM_ADMENU12','Encontrar usuario');
+define('_MI_SYSTEM_ADMENU13','Imágenes');
+define('_MI_SYSTEM_ADMENU14','Avatares');
+define('_MI_SYSTEM_ADMENU15','Juego de plantillas');
+define('_MI_SYSTEM_ADMENU16','Comentarios');
 
 //Preference
 define("_MI_SYSTEM_PREFERENCE_BREAK_GENERAL","Config. General");
@@ -87,5 +87,5 @@ define("_MI_SYSTEM_PREFERENCE_GENERAL_EDITOR_DSC","");
 define("_MI_SYSTEM_PREFERENCE_ANONPOST","");
 define("_MI_SYSTEM_PREFERENCE_REDIRECT","");
 
-define("_MI_SYSTEM_PREFERENCE_JQUERY_THEME", "Tema jQuery");
+define("_MI_SYSTEM_PREFERENCE_JQUERY_THEME","Tema jQuery");
 ?>

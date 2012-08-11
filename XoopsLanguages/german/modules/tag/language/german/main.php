@@ -14,13 +14,13 @@ if (!defined('XOOPS_ROOT_PATH')){ exit(); }
 
 
 
-define("TAG_MD_TAGS", "Tags");
-define("TAG_MD_TAG_ON", "Tag an");
-define("TAG_MD_TAGVIEW", 'Objekte im Tag [<b>%1$s</b>] in %2$s');
-define("TAG_MD_TAGLIST", "Tag Liste von <strong>%s</strong>");
-define("TAG_MD_JUMPTO", "Gehe zu");
-define("TAG_MD_TAG_DELIMITER", "Folgende Trennzeichen sind für Tags gültig");
-define("TAG_MD_INVALID", "Ungültige Anfrage");
+define("TAG_MD_TAGS","Tags");
+define("TAG_MD_TAG_ON","Tag an");
+define("TAG_MD_TAGVIEW",'Objekte im Tag [<b>%1$s</b>] in %2$s');
+define("TAG_MD_TAGLIST","Tag Liste von <strong>%s</strong>");
+define("TAG_MD_JUMPTO","Gehe zu");
+define("TAG_MD_TAG_DELIMITER","Folgende Trennzeichen sind für Tags gültig");
+define("TAG_MD_INVALID","Ungültige Anfrage");
 
 /**
  * Customize addons:

@@ -22,5 +22,5 @@ define('_AM_SMILEEMOTION','Beschreibung:');
 define('_AM_ADD','Hinzufügen');
 define('_AM_SAVE','Sichern');
 define('_AM_WAYSYWTDTS','WARNUNG: Wollen Sie den Smilie wirklich löschen?');
-define('_AM_DISPLAYF', 'In Formular anzeigen?');
+define('_AM_DISPLAYF','In Formular anzeigen?');
 ?>

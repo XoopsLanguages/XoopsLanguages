@@ -55,7 +55,7 @@ if ( $admin && $op == 'SmilesAdd' ) {
     }
     $db =& Database::getInstance();
     include_once XOOPS_ROOT_PATH.'/class/uploader.php';
-    $uploader = new XoopsMediaUploader(XOOPS_UPLOAD_PATH, array('image/gif', 'image/jpeg', 'image/pjpeg', 'image/x-png', 'image/png'), 100000, 120, 120);
+    $uploader = new XoopsMediaUploader(XOOPS_UPLOAD_PATH, array('image/gif','image/jpeg','image/pjpeg','image/x-png','image/png'), 100000, 120, 120);
     $uploader->setPrefix('smil');
     if ($uploader->fetchMedia($_POST['xoops_upload_file'][0])) {
         if (!$uploader->upload()) {
@@ -174,17 +174,17 @@ if ( !$_SESSION['XoopsEmotions'] && !$admin) {
             $smile_form->setExtra('enctype="multipart/form-data"');
             $smile_form->addElement(new XoopsFormText(_AM_SMILECODE, 'smile_code', 26, 25, ''), true);
             $smile_form->addElement(new XoopsFormText(_AM_SMILEEMOTION, 'smile_desc', 26, 25, ''), true);
-            $smile_select = new XoopsFormFile('', 'smile_url', 5000000);
-            $smile_label = new XoopsFormLabel('', '<img src="'.XOOPS_UPLOAD_URL.'/blank.gif" alt="" />');
-            $smile_tray = new XoopsFormElementTray(_IMAGEFILE.':', '&nbsp;');
+            $smile_select = new XoopsFormFile('','smile_url', 5000000);
+            $smile_label = new XoopsFormLabel('','<img src="'.XOOPS_UPLOAD_URL.'/blank.gif" alt="" />');
+            $smile_tray = new XoopsFormElementTray(_IMAGEFILE.':','&nbsp;');
             $smile_tray->addElement($smile_select);
             $smile_tray->addElement($smile_label);
             $smile_form->addElement($smile_tray);
             $smile_form->addElement(new XoopsFormRadioYN(_AM_DISPLAYF, 'smile_display', 1));
-            $smile_form->addElement(new XoopsFormHidden('id', ''));
-            $smile_form->addElement(new XoopsFormHidden('op', 'SmilesAdd'));
-            $smile_form->addElement(new XoopsFormHidden('fct', 'smilies'));
-            $smile_form->addElement(new XoopsFormButton('', 'submit', _SUBMIT, 'submit'));
+            $smile_form->addElement(new XoopsFormHidden('id',''));
+            $smile_form->addElement(new XoopsFormHidden('op','SmilesAdd'));
+            $smile_form->addElement(new XoopsFormHidden('fct','smilies'));
+            $smile_form->addElement(new XoopsFormButton('','submit', _SUBMIT, 'submit'));
 
             $smile_form->display();
         }

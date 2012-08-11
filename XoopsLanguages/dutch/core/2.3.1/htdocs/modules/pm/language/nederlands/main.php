@@ -38,7 +38,7 @@ define("_PM_MESSAGEC","Bericht: ");
 define("_PM_CLEAR","Legen");
 define("_PM_CANCELSEND","Verzenden anuleren");
 define("_PM_SUBMIT","Verstuur");
-define("_PM_SAVEINOUTBOX", "Een kopië opslaan in je uitbox?");
+define("_PM_SAVEINOUTBOX","Een kopiÃ« opslaan in je uitbox?");
 
 //%%%%%%	File Name viewpmsg.php 	%%%%%
 define("_PM_SUBJECT","Onderwerp");
@@ -49,7 +49,7 @@ define("_PM_DELETE","Verwijder");
 define("_PM_TOSAVE","Opslaan in bewaarbox");
 define("_PM_UNSAVE","Verwijderen uit je bewaarbox");
 define("_PM_EMPTY","Legen");
-define("_PM_REPLY", "Antwoorden");
+define("_PM_REPLY","Antwoorden");
 define("_PM_PLZREG","AUB eerst registreren voor je een prive bericht verstuurd!");
 define("_PM_SAVED_PART","Je mag max. %d bericht(en) in je bewaarbox bewaren en je hebt %d berichten opgeslagen op het moment");
 define("_PM_SAVED_ALL","Bericht(en) zijn verplaatst naar je bewaarbox");
@@ -58,7 +58,7 @@ define("_PM_EMPTIED","Je bewaarbox is geleegd");
 define("_PM_RUSUREEMPTY","Weet je zeker dat je je bewaarbox leeg wil gooien?");
 define("_PM_RUSUREDELETE","Weet je zeker dat je dit/deze bericht(en) wilt verwijderen?");
 
-define("_PM_ONLINE", "Online");
+define("_PM_ONLINE","Online");
 
 define("_PM_RECEIVE","ONTVANGEN");
 define("_PM_POST","VERSTUURD");
@@ -88,13 +88,13 @@ define("_PM_NEXTP","Volgende >");
 define("_PM_MAILNOTIFY","%s-Je hevt een nieuw bericht van %s");
 define("_PM_MAILMESSAGE","Hallo!\nA Een je hebt een nieuw bericht. %s\n\nDe titel van het bericht is \n%s\n\nJe kan het bericht hier lezen\n%s\n\n-----------\nJe ontvangt dit bericht omdat je hebt ingesteld dat je een melding wild als je een nieuw bericht krijgt.\n\nJe kan je bericht instellingen aanpassen\n%s\n\nStuur aub geen bericht terug naar dit adres!\n\n---------\nMet vrientdelijke groet\n%s\n%s\n%s");
 
-define("_PM_EMAIL", "Doorsturen naar email");
-define("_PM_EMAIL_DESC", "Beste %s, dit is een bericht doorgestuurd vanuit ".$xoopsConfig['sitename']);
-define("_PM_EMAIL_FROM", "Van %s");
-define("_PM_EMAIL_TO", "Naar %s");
-define("_PM_EMAIL_SUBJECT", "[bericht]%s");
-define("_PM_EMAIL_MESSAGE", "Bericht inhoud");
+define("_PM_EMAIL","Doorsturen naar email");
+define("_PM_EMAIL_DESC","Beste %s, dit is een bericht doorgestuurd vanuit ".$xoopsConfig['sitename']);
+define("_PM_EMAIL_FROM","Van %s");
+define("_PM_EMAIL_TO","Naar %s");
+define("_PM_EMAIL_SUBJECT","[bericht]%s");
+define("_PM_EMAIL_MESSAGE","Bericht inhoud");
 
-define("_PM_ACTION_DONE", "Opdracht succesvol voltooid");
-define("_PM_ACTION_ERROR", "Opdracht mislukt");
+define("_PM_ACTION_DONE","Opdracht succesvol voltooid");
+define("_PM_ACTION_ERROR","Opdracht mislukt");
 ?>

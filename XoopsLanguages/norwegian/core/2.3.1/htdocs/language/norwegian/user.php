@@ -38,16 +38,16 @@ define('_US_REGISTERNG','Kunne ikke registrere ny bruker.');
 define('_US_MAILOK','Motta epost <br />fra administratorer og moderatorer?');
 define('_US_DISCLAIMER','Ansvarsfraskrivelse');
 define('_US_IAGREE','Jeg godtar det ovenforstående');
-define('_US_UNEEDAGREE', 'Beklager, du må godta vår anvarsfraskrivelse for å registrere deg.');
+define('_US_UNEEDAGREE','Beklager, du må godta vår anvarsfraskrivelse for å registrere deg.');
 define('_US_NOREGISTER','Beklager, vi har for øyeblikket stengt for nye brukerregistreringer.');
 
 
 // %s is username. This is a subject for email
 define('_US_USERKEYFOR','Aktiveringsnøkkel for %s');
 
-define('_US_YOURREGISTERED', 'En epost med aktiveringsnøkkel er sendt til den epost du har registrert. Følg instruksjonene for å aktivere kontoen.');
-define('_US_YOURREGMAILNG', 'Du er nå registrert. Men vi var ikke i stand til å sende en epost med aktiveringsnøkkel til din epost pga en intern feil som er oppstått på vår server. Vi beklager dette, venligst send en epost til administator og forklar problemet.');
-define('_US_YOURREGISTERED2', 'Du er nå registrert.  Vent til din konto blir aktivert av adminstratoren.  Du vil motta en epost når kontoen er aktivert.  Dette kan ta stund så vær tålmodig...');
+define('_US_YOURREGISTERED','En epost med aktiveringsnøkkel er sendt til den epost du har registrert. Følg instruksjonene for å aktivere kontoen.');
+define('_US_YOURREGMAILNG','Du er nå registrert. Men vi var ikke i stand til å sende en epost med aktiveringsnøkkel til din epost pga en intern feil som er oppstått på vår server. Vi beklager dette, venligst send en epost til administator og forklar problemet.');
+define('_US_YOURREGISTERED2','Du er nå registrert.  Vent til din konto blir aktivert av adminstratoren.  Du vil motta en epost når kontoen er aktivert.  Dette kan ta stund så vær tålmodig...');
 
 // %s is your site name
 define('_US_NEWUSERREGAT','Ny brukerregistrering hos %s');
@@ -71,15 +71,15 @@ define('_US_SORRYNOTFOUND','Beklager, ingen brukerinfo funnet.');
 
 // %s is your site name
 define('_US_NEWPWDREQ','Ny passord-forespørsel hos %s');
-define('_US_YOURACCOUNT', 'Din konto hos %s');
+define('_US_YOURACCOUNT','Din konto hos %s');
 
 define('_US_MAILPWDNG','post_passord: kunne ikke oppdatere bruker. Kontakt administrator');
 
 // %s is a username
 define('_US_PWDMAILED','Passordet sendt til %s .');
 define('_US_CONFMAIL','Bekreftelse sendt til %s .');
-define('_US_ACTVMAILNG', 'Feil ved sending av varsling til %s');
-define('_US_ACTVMAILOK', 'Varsling sendt til %s .');
+define('_US_ACTVMAILNG','Feil ved sending av varsling til %s');
+define('_US_ACTVMAILOK','Varsling sendt til %s .');
 
 //%%%%%%		File Name userinfo.php 		%%%%%
 define('_US_SELECTNG','Ingen bruker valgt! Gå tilbake og prøv igjen.');
@@ -123,22 +123,22 @@ define('_US_PROFUPDATED','Profilen er oppdatert!');
 define('_US_USECOOKIE','Legg brukernavnet mitt i en informasjonskapsel (cookie) i 1 år.');
 define('_US_NO','Nei');
 define('_US_DELACCOUNT','Slett kontoen');
-define('_US_MYAVATAR', 'Min Avatar');
-define('_US_UPLOADMYAVATAR', 'Last opp Avatar');
+define('_US_MYAVATAR','Min Avatar');
+define('_US_UPLOADMYAVATAR','Last opp Avatar');
 define('_US_MAXPIXEL','Maks Piksler');
 define('_US_MAXIMGSZ','Maks bildestørrelse (Bytes)');
 define('_US_SELFILE','Velg fil');
 define('_US_OLDDELETED','Ditt nåværende avatar vil bli slettet!');
-define('_US_CHOOSEAVT', 'Velg et avatar fra listen');
+define('_US_CHOOSEAVT','Velg et avatar fra listen');
 
-define('_US_PRESSLOGIN', 'Klikk knappen nedenfor for å logge inn');
+define('_US_PRESSLOGIN','Klikk knappen nedenfor for å logge inn');
 
-define('_US_ADMINNO', 'Brukere i webmasters gruppen kan ikke fjernes');
-define('_US_GROUPS', 'Brukere\Grupper');
+define('_US_ADMINNO','Brukere i webmasters gruppen kan ikke fjernes');
+define('_US_GROUPS','Brukere\Grupper');
 
-define('_US_REMEMBERME', 'Husk meg!');
+define('_US_REMEMBERME','Husk meg!');
 
 // Welcoming emai/PM subject
-define('_US_WELCOME_SUBJECT', 'Velkommen til %s');
+define('_US_WELCOME_SUBJECT','Velkommen til %s');
 
 ?>

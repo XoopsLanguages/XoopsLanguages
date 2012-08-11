@@ -26,12 +26,12 @@ defined('XOOPS_ROOT_PATH') or die('制限されたアクセス');
 // _CHARSET : UTF-8
 // Translator: XOOPS Translation Team
 
-define('_AUTH_MSG_AUTH_METHOD', " %s 認証方法を使用");
-define('_AUTH_LDAP_EXTENSION_NOT_LOAD', 'PHP LDAP拡張子がロードしてません (貴方のPHPコンフィギュレーションファイル php.ini　を質して下さい)');
-define('_AUTH_LDAP_SERVER_NOT_FOUND', "サーバーに繋ぐことが出来ません");
-define('_AUTH_LDAP_USER_NOT_FOUND', " %s　のディレクトリサーバー (%s)　にメンバー　%s　が見つからなかった。");
-define('_AUTH_LDAP_CANT_READ_ENTRY', "エントリ　%s　を読めない");
-define('_AUTH_LDAP_XOOPS_USER_NOTFOUND', "コネクション：　%s　に合わせるユーザーデーターをXOOPS データーベースに見つけれない <br>" . "自動プロビジョニングのユーザーデーターを子細を質して下さい");
-define('_AUTH_LDAP_START_TLS_FAILED', "TLSコネクションを見つけれない");
+define('_AUTH_MSG_AUTH_METHOD'," %s 認証方法を使用");
+define('_AUTH_LDAP_EXTENSION_NOT_LOAD','PHP LDAP拡張子がロードしてません (貴方のPHPコンフィギュレーションファイル php.ini　を質して下さい)');
+define('_AUTH_LDAP_SERVER_NOT_FOUND',"サーバーに繋ぐことが出来ません");
+define('_AUTH_LDAP_USER_NOT_FOUND'," %s　のディレクトリサーバー (%s)　にメンバー　%s　が見つからなかった。");
+define('_AUTH_LDAP_CANT_READ_ENTRY',"エントリ　%s　を読めない");
+define('_AUTH_LDAP_XOOPS_USER_NOTFOUND',"コネクション：　%s　に合わせるユーザーデーターをXOOPS データーベースに見つけれない <br>" . "自動プロビジョニングのユーザーデーターを子細を質して下さい");
+define('_AUTH_LDAP_START_TLS_FAILED',"TLSコネクションを見つけれない");
 
 ?>

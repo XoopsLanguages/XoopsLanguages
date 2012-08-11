@@ -25,24 +25,24 @@
 //  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 USA // 
 //  ------------------------------------------------------------------------ // 
  
-define('_MI_PARTNERS_NAME', 'Partneri'); 
-define('_MI_PARTNERS_DESC', 'Prikazuje stranice partnera u bloku i u modulu'); 
-define('_MI_PARTNERS_ADMIN', 'Ureðivanje partnera'); 
-define('_MI_PARTNERS_ADMIN_ADD', 'Dodaj novo partnera'); 
-define('_MI_ID', 'ID'); 
-define('_MI_HITS', 'Prekleda'); 
-define('_MI_TITLE', 'Naslov'); 
-define('_MI_WEIGHT', 'Redoslijed'); 
-define('_MI_RECLICK', 'Vrijeme replika:'); 
-define('_MI_IMAGES', 'Slike'); 
-define('_MI_TEXT', 'Tekst linkovi'); 
-define('_MI_BOTH', 'Oboje'); 
-define('_MI_MLIMIT', 'Ogranièi glavnu stranicu s xx unosa: (0 = bez ogranièenja)'); 
-define('_MI_MSHOW', 'Na glavnoj stranici prikaži:'); 
-define('_MI_MORDER', 'Posloži sadržaj glavne stranice po:'); 
-define('_MI_HOUR', '1 sat'); 
-define('_MI_3HOURS', '3 sata'); 
-define('_MI_5HOURS', '5 sati'); 
-define('_MI_10HOURS', '10 sati'); 
-define('_MI_DAY', '1 dan'); 
+define('_MI_PARTNERS_NAME','Partneri'); 
+define('_MI_PARTNERS_DESC','Prikazuje stranice partnera u bloku i u modulu'); 
+define('_MI_PARTNERS_ADMIN','UreÃ°ivanje partnera'); 
+define('_MI_PARTNERS_ADMIN_ADD','Dodaj novo partnera'); 
+define('_MI_ID','ID'); 
+define('_MI_HITS','Prekleda'); 
+define('_MI_TITLE','Naslov'); 
+define('_MI_WEIGHT','Redoslijed'); 
+define('_MI_RECLICK','Vrijeme replika:'); 
+define('_MI_IMAGES','Slike'); 
+define('_MI_TEXT','Tekst linkovi'); 
+define('_MI_BOTH','Oboje'); 
+define('_MI_MLIMIT','OgraniÃ¨i glavnu stranicu s xx unosa: (0 = bez ograniÃ¨enja)'); 
+define('_MI_MSHOW','Na glavnoj stranici prikaÅ¾i:'); 
+define('_MI_MORDER','PosloÅ¾i sadrÅ¾aj glavne stranice po:'); 
+define('_MI_HOUR','1 sat'); 
+define('_MI_3HOURS','3 sata'); 
+define('_MI_5HOURS','5 sati'); 
+define('_MI_10HOURS','10 sati'); 
+define('_MI_DAY','1 dan'); 
 ?>

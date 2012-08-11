@@ -13,7 +13,7 @@ define("_INSTALL_L165","Web stranice su trenutno zatvorene zbog održavanja. Mol
 
 define("_INSTALL_ANON","Anonimac");
 
-define("_INSTALL_DISCLMR", "Dok će administratori i moderatori ovih stranica pokušati ukloniti ili
+define("_INSTALL_DISCLMR","Dok će administratori i moderatori ovih stranica pokušati ukloniti ili
 urediti sve opće upitne materijale koliko god budu mogli brže, nemoguće je
 pregledati sve i jednu poruku. Pa vas zato obavještavamo da sve poruke na
 na ovim web stranicama odražavaju gledišta i mišljenja autora, a ne

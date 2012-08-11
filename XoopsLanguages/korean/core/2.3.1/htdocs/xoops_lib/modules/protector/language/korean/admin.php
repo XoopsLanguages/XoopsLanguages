@@ -2,75 +2,75 @@
 
 // mymenu
 define('_MD_A_MYMENU_MYTPLSADMIN','');
-define('_MD_A_MYMENU_MYBLOCKSADMIN','¾×¼¼½º±ÇÇÑ');
-define('_MD_A_MYMENU_MYPREFERENCES','ÀÏ¹Ý¼³Á¤');
+define('_MD_A_MYMENU_MYBLOCKSADMIN','ï¿½×¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½');
+define('_MD_A_MYMENU_MYPREFERENCES','ï¿½Ï¹Ý¼ï¿½ï¿½ï¿½');
 
 // index.php
-define("_AM_TH_DATETIME","ÀÏ½Ã");
+define("_AM_TH_DATETIME","ï¿½Ï½ï¿½");
 define("_AM_TH_USER","User");
 define("_AM_TH_IP","IP");
 define("_AM_TH_AGENT","AGENT");
-define("_AM_TH_TYPE","Á¾·ù");
-define("_AM_TH_DESCRIPTION","»ó¼¼Á¤º¸");
+define("_AM_TH_TYPE","ï¿½ï¿½ï¿½ï¿½");
+define("_AM_TH_DESCRIPTION","ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
 
-define( "_AM_TH_BADIPS" , "±ÝÁö IP ¸®½ºÆ®<br /><br />ÇÑÁÙ¿¡ ÇÏ³ª¾¿ IPÁÖ¼Ò ±âÀçÇÏ½Ã±â ¹Ù¶ø´Ï´Ù. °ø¹éÀ¸·Î µÎ½Ã¸é ¸ðµÎ Çã°¡ÇÏ°Ô µË´Ï´Ù." ) ;
-//define( "_AM_TH_ENABLEIPBANS" , "IPÁÖ¼Ò¿¡ ÀÇÇÑ Á¢±Ù±ÝÁö¸¦ »ç¿ëÇÔ" ) ;
+define("_AM_TH_BADIPS" , "ï¿½ï¿½ï¿½ï¿½ IP ï¿½ï¿½ï¿½ï¿½Æ®<br /><br />ï¿½ï¿½ï¿½Ù¿ï¿½ ï¿½Ï³ï¿½ï¿½ï¿½ IPï¿½Ö¼ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï½Ã±ï¿½ ï¿½Ù¶ï¿½ï¿½Ï´ï¿½. ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Î½Ã¸ï¿½ ï¿½ï¿½ï¿½ ï¿½ã°¡ï¿½Ï°ï¿½ ï¿½Ë´Ï´ï¿½." ) ;
+//define("_AM_TH_ENABLEIPBANS" , "IPï¿½Ö¼Ò¿ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ù±ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½" ) ;
 
-define( "_AM_TH_GROUP1IPS" , '°ü¸®ÀÚ ±×·ì(1) Çã°¡ IP<br /><br />ÇÑÁÙ¿¡ ÇÏ³ª¾¿ IPÁÖ¼Ò ±âÀçÇÏ½Ã±â ¹Ù¶ø´Ï´Ù. °ø¹éÀ¸·Î µÎ½Ã¸é ¸ðµÎ Çã°¡ÇÏ°Ô µË´Ï´Ù.<br />192.168. means 192.168.*<br />blank means all IPs are allowed</span>' ) ;
+define("_AM_TH_GROUP1IPS" , 'ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½×·ï¿½(1) ï¿½ã°¡ IP<br /><br />ï¿½ï¿½ï¿½Ù¿ï¿½ ï¿½Ï³ï¿½ï¿½ï¿½ IPï¿½Ö¼ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï½Ã±ï¿½ ï¿½Ù¶ï¿½ï¿½Ï´ï¿½. ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Î½Ã¸ï¿½ ï¿½ï¿½ï¿½ ï¿½ã°¡ï¿½Ï°ï¿½ ï¿½Ë´Ï´ï¿½.<br />192.168. means 192.168.*<br />blank means all IPs are allowed</span>' ) ;
 
-define( "_AM_LABEL_COMPACTLOG" , "·Î±×¸¦ ÄÄÆÑÆ®È­" ) ;
-define( "_AM_BUTTON_COMPACTLOG" , "ÄÄÆÑÆ®È­ ½ÇÇà" ) ;
-define( "_AM_JS_COMPACTLOGCONFIRM" , "Áßº¹µÈ(IP,Type) ·¹ÄÚµå¸¦ »èÁ¦Ã³¸®ÇÕ´Ï´Ù." ) ;
-define( "_AM_LABEL_REMOVEALL" , "¸ðµç ·¹ÄÚµå¸¦ »èÁ¦:" ) ;
-define( "_AM_BUTTON_REMOVEALL" , "¸ðµÎ»èÁ¦ ½ÇÇà" ) ;
-define( "_AM_JS_REMOVEALLCONFIRM" , "¸ðµç ·Î±×¸¦ »èÁ¦Ã³¸®ÇÕ´Ï´Ù. °è¼Ó ÇÏ½Ã°Ú½À´Ï±î?" ) ;
+define("_AM_LABEL_COMPACTLOG" , "ï¿½Î±×¸ï¿½ ï¿½ï¿½ï¿½ï¿½Æ®È­" ) ;
+define("_AM_BUTTON_COMPACTLOG" , "ï¿½ï¿½ï¿½ï¿½Æ®È­ ï¿½ï¿½ï¿½ï¿½" ) ;
+define("_AM_JS_COMPACTLOGCONFIRM" , "ï¿½ßºï¿½ï¿½ï¿½(IP,Type) ï¿½ï¿½ï¿½Úµå¸¦ ï¿½ï¿½ï¿½ï¿½Ã³ï¿½ï¿½ï¿½Õ´Ï´ï¿½." ) ;
+define("_AM_LABEL_REMOVEALL" , "ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Úµå¸¦ ï¿½ï¿½ï¿½ï¿½:" ) ;
+define("_AM_BUTTON_REMOVEALL" , "ï¿½ï¿½Î»ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½" ) ;
+define("_AM_JS_REMOVEALLCONFIRM" , "ï¿½ï¿½ï¿½ ï¿½Î±×¸ï¿½ ï¿½ï¿½ï¿½ï¿½Ã³ï¿½ï¿½ï¿½Õ´Ï´ï¿½. ï¿½ï¿½ï¿½ ï¿½Ï½Ã°Ú½ï¿½ï¿½Ï±ï¿½?" ) ;
 
-define( "_AM_LABEL_REMOVE" , "Ã¼Å©ÇÑ ·¹ÄÚµå¸¦ »èÁ¦ÇÔ:" ) ;
-define( "_AM_BUTTON_REMOVE" , "»èÁ¦½ÇÇà" ) ;
-define( "_AM_JS_REMOVECONFIRM" , "Á¤¸»·Î »èÁ¦ÇÏ½Ç °Ç°¡¿ä?" ) ;
-//define( "_AM_MSG_PRUPDATED" , "¼³Á¤À» ¼º°øÀûÀ¸·Î °»½ÅÇÏ¿´½À´Ï´Ù!" ) ;
-define( "_AM_MSG_REMOVED" , "»èÁ¦ÇÏ¿´½À´Ï´Ù." ) ;
+define("_AM_LABEL_REMOVE" , "Ã¼Å©ï¿½ï¿½ ï¿½ï¿½ï¿½Úµå¸¦ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½:" ) ;
+define("_AM_BUTTON_REMOVE" , "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½" ) ;
+define("_AM_JS_REMOVECONFIRM" , "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï½ï¿½ ï¿½Ç°ï¿½ï¿½ï¿½?" ) ;
+//define("_AM_MSG_PRUPDATED" , "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï¿ï¿½ï¿½ï¿½ï¿½Ï´ï¿½!" ) ;
+define("_AM_MSG_REMOVED" , "ï¿½ï¿½ï¿½ï¿½ï¿½Ï¿ï¿½ï¿½ï¿½ï¿½Ï´ï¿½." ) ;
 
-define( "_AM_MSG_IPFILESUPDATED" , "IP ¸®½ºÆ®ÆÄÀÏÀ» °»½ÅÇÏ¿´½À´Ï´Ù." ) ;
-define( "_AM_MSG_BADIPSCANTOPEN" , "°ÅºÎIP(bad ip)¸®½ºÆ®ÆÄÀÏÀ» ¿­¼ö°¡ ¾ø½À´Ï´Ù." ) ;
-define( "_AM_MSG_GROUP1IPSCANTOPEN" , "°ü¸®ÀÚ¿ëIP ¸®½ºÆ®ÆÄÀÏÀ» ¿­¼ö°¡ ¾ø½À´Ï´Ù." ) ;
-define( "_AM_FMT_CONFIGSNOTWRITABLE" , "configs µð·ºÅä¸®¸¦ ¾²±â°¡´ÉÀ¸·Î ¼³Á¤ÇØ ÁÖ¼¼¿ä!: %s" ) ;
+define("_AM_MSG_IPFILESUPDATED" , "IP ï¿½ï¿½ï¿½ï¿½Æ®ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï¿ï¿½ï¿½ï¿½ï¿½Ï´ï¿½." ) ;
+define("_AM_MSG_BADIPSCANTOPEN" , "ï¿½Åºï¿½IP(bad ip)ï¿½ï¿½ï¿½ï¿½Æ®ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï´ï¿½." ) ;
+define("_AM_MSG_GROUP1IPSCANTOPEN" , "ï¿½ï¿½ï¿½ï¿½ï¿½Ú¿ï¿½IP ï¿½ï¿½ï¿½ï¿½Æ®ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï´ï¿½." ) ;
+define("_AM_FMT_CONFIGSNOTWRITABLE" , "configs ï¿½ï¿½ï¿½ä¸®ï¿½ï¿½ ï¿½ï¿½ï¿½â°¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ö¼ï¿½ï¿½ï¿½!: %s" ) ;
 
 
 // prefix_manager.php
-define( "_AM_H3_PREFIXMAN" , "Á¢µÎ¾î(Prefix) °ü¸®ÀÚ" ) ;
-define( "_AM_MSG_DBUPDATED" , "µ¥ÀÌÅ¸º£ÀÌ½º°¡ ¼º°øÀûÀ¸·Î °»½ÅµÇ¾ú½À´Ï´Ù." ) ;
-define( "_AM_CONFIRM_DELETE" , "¸ðµç Å×ÀÌºíÀÌ »èÁ¦µË´Ï´Ù. °è¼ÓÇÏ½Ã°Ú½À´Ï±î?" ) ;
-define( "_AM_TXT_HOWTOCHANGEDB" , "Å×ÀÌºí Á¢µÎ¾î(prefix)¸¦ º¯°æÇÏ½Ç °æ¿ì´Â <br />%s/mainfile.php ÀÇ ´ÙÀ½ ºÎºÐÀ» Á÷Á¢ ÆíÁýÇØÁÖ¼Å¾ß ÇÕ´Ï´Ù.<br /><br />define('XOOPS_DB_PREFIX', '<b>%s</b>');" ) ;
+define("_AM_H3_PREFIXMAN" , "ï¿½ï¿½ï¿½Î¾ï¿½(Prefix) ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½" ) ;
+define("_AM_MSG_DBUPDATED" , "ï¿½ï¿½ï¿½ï¿½Å¸ï¿½ï¿½ï¿½Ì½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ÅµÇ¾ï¿½ï¿½ï¿½ï¿½Ï´ï¿½." ) ;
+define("_AM_CONFIRM_DELETE" , "ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ìºï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ë´Ï´ï¿½. ï¿½ï¿½ï¿½ï¿½Ï½Ã°Ú½ï¿½ï¿½Ï±ï¿½?" ) ;
+define("_AM_TXT_HOWTOCHANGEDB" , "ï¿½ï¿½ï¿½Ìºï¿½ ï¿½ï¿½ï¿½Î¾ï¿½(prefix)ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï½ï¿½ ï¿½ï¿½ï¿½ï¿½ <br />%s/mainfile.php ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Îºï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö¼Å¾ï¿½ ï¿½Õ´Ï´ï¿½.<br /><br />define('XOOPS_DB_PREFIX','<b>%s</b>');" ) ;
 
 
 // advisory.php
 define("_AM_ADV_NOTSECURE","Insecure");
 
-define("_AM_ADV_REGISTERGLOBALS","Çö ¼³Á¤Àº º¯¼ö¿Í °ü·ÃµÈ ´Ù¾çÇÑ ÇüÅÂÀÇ °ø°ÝÀ» °¡´ÉÇÏ°Ô ÇÕ´Ï´Ù. <br />¸¸¾à .htaccess À» »ç¿ëÇÒ ¼ö ÀÖ´Â ¼­¹ö¶ó¸é Áï½Ã °ü·Ã¼³Á¤À» ÇÏ½Ã±â ¹Ù¶ø´Ï´Ù. ÀÚ¼¼ÇÑ »çÇ×Àº °ü¸®ÀÚ¿¡°Ô ¹®ÀÇÇÏ½Ã±â ¹Ù¶ø´Ï´Ù.");
-define("_AM_ADV_ALLOWURLFOPEN","Çö ¼³Á¤Àº ¿ÜºÎÀÇ ½ºÅ©¸³Æ®¸¦ ½ÇÇà°¡´ÉÄÉÇÒ À§Çè¼ºÀÌ ÀÖ½À´Ï´Ù .<br />ÀÌ ¼³Á¤ÀÇ º¯°æÀ» À§ÇØ¼± ¼­¹ö°ü¸®ÀÚ±ÇÇÑÀÌ ÇÊ¿äÇÕ´Ï´Ù.<br />¼­¹ö°ü¸®ÀÚ¶ó¸é php.ini , httpd.conf ÀÇ °ü·Ã¼³Á¤À» ÆíÁýÇÏ½Ã±â ¹Ù¶ø´Ï´Ù.<br /><b>Sample of httpd.conf:<br /> &nbsp; php_admin_flag &nbsp; allow_url_fopen &nbsp; off</b><br />¸¸¾à °ü¸®ÀÚ°¡ ¾Æ´Ï¶ó¸é ¼­¹ö°ü¸®ÀÚ¿¡°Ô ¹®ÀÇÇÏ½Ã±â ¹Ù¶ø´Ï´Ù.");
-define("_AM_ADV_USETRANSSID","¼¼¼Ç ID°¡ ÀÚµ¿ÀûÀ¸·Î ¸µÅ©¿¡ Ç¥½ÃµÇ¾îÁö´Â ¼³Á¤À¸·Î µÇ¾î ÀÖ½À´Ï´Ù. ¼¼¼Ç °¡·ÎÃ¤±â°ø°ÝÀÇ À§ÇèÀÌ ÀÖÀ¸´Ï XOOPS_ROOT_PATH¿¡ .htaccessÀ» ´ÙÀ½°ú °°ÀÌ ÀÛ¼ºÇÏ½Ã±â ¹Ù¶ø´Ï´Ù.<br /><b>php_flag session.use_trans_sid off</b>");
-define("_AM_ADV_DBPREFIX","Å×ÀÌºí Á¢µÎ¾î(Prefix)°¡ ±âº»°ªÀÎ xoopsÀÎ °æ¿ì´Â 'SQL Injections'ÀÇ À§Çèµµ°¡ ³ô¾ÆÁý´Ï´Ù.<br />'Isolated CommentsÇÊÅÍ¸µ'(Force sanitizing *) µî SQL Injection ¹æÁö°ü·ÃÀÇ ¼³Á¤À» ONÀ¸·Î ÇØ ÁÖ½Ã±â ¹Ù¶ø´Ï´Ù.");
-define("_AM_ADV_LINK_TO_PREFIXMAN","Á¢µÎ¾î(prefix) °ü¸®ÀÚ·Î");
-define("_AM_ADV_MAINUNPATCHED","Xoops Protector°¡ Á¦±â´ÉÀ» ´ÙÇÏ±â À§ÇØ¼± mainfile.phpÀ» º¯°æÇÒ ÇÊ¿ä°¡ ÀÖ½À´Ï´Ù. <br />README¸¦ ¼÷µ¶ÇÏ½Å ÈÄ mainfile.php °ü·Ã º¯°æÀ» ÇØ ÁÖ½Ã±â ¹Ù¶ø´Ï´Ù.");
-//define("_AM_ADV_RESCUEPASSWORD","ºñ»ó¿ë ÆÐ½º¿öµå(Rescue Password)");
-//define("_AM_ADV_RESCUEPASSWORDUNSET","¹Ì¼³Á¤");
-//define("_AM_ADV_RESCUEPASSWORDSHORT","°¡´ÉÇÑ 6 ÀÚÀÌ»óÀ¸·Î ¼³Á¤ÇÏ½Ã±â ¹Ù¶ø´Ï´Ù. (min 6 charactors)");
+define("_AM_ADV_REGISTERGLOBALS","ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ãµï¿½ ï¿½Ù¾ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï°ï¿½ ï¿½Õ´Ï´ï¿½. <br />ï¿½ï¿½ï¿½ï¿½ .htaccess ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½Ö´ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ã¼ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ï½Ã±ï¿½ ï¿½Ù¶ï¿½ï¿½Ï´ï¿½. ï¿½Ú¼ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ú¿ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï½Ã±ï¿½ ï¿½Ù¶ï¿½ï¿½Ï´ï¿½.");
+define("_AM_ADV_ALLOWURLFOPEN","ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Üºï¿½ï¿½ï¿½ ï¿½ï¿½Å©ï¿½ï¿½Æ®ï¿½ï¿½ ï¿½ï¿½ï¿½à°¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½è¼ºï¿½ï¿½ ï¿½Ö½ï¿½ï¿½Ï´ï¿½ .<br />ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ø¼ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ú±ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ê¿ï¿½ï¿½Õ´Ï´ï¿½.<br />ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ú¶ï¿½ï¿½ php.ini , httpd.conf ï¿½ï¿½ ï¿½ï¿½ï¿½Ã¼ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï½Ã±ï¿½ ï¿½Ù¶ï¿½ï¿½Ï´ï¿½.<br /><b>Sample of httpd.conf:<br /> &nbsp; php_admin_flag &nbsp; allow_url_fopen &nbsp; off</b><br />ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ú°ï¿½ ï¿½Æ´Ï¶ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ú¿ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï½Ã±ï¿½ ï¿½Ù¶ï¿½ï¿½Ï´ï¿½.");
+define("_AM_ADV_USETRANSSID","ï¿½ï¿½ï¿½ï¿½ IDï¿½ï¿½ ï¿½Úµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Å©ï¿½ï¿½ Ç¥ï¿½ÃµÇ¾ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ç¾ï¿½ ï¿½Ö½ï¿½ï¿½Ï´ï¿½. ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ã¤ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ XOOPS_ROOT_PATHï¿½ï¿½ .htaccessï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Û¼ï¿½ï¿½Ï½Ã±ï¿½ ï¿½Ù¶ï¿½ï¿½Ï´ï¿½.<br /><b>php_flag session.use_trans_sid off</b>");
+define("_AM_ADV_DBPREFIX","ï¿½ï¿½ï¿½Ìºï¿½ ï¿½ï¿½ï¿½Î¾ï¿½(Prefix)ï¿½ï¿½ ï¿½âº»ï¿½ï¿½ï¿½ï¿½ xoopsï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ 'SQL Injections'ï¿½ï¿½ ï¿½ï¿½ï¿½èµµï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï´ï¿½.<br />'Isolated Commentsï¿½ï¿½ï¿½Í¸ï¿½'(Force sanitizing *) ï¿½ï¿½ SQL Injection ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ONï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½Ö½Ã±ï¿½ ï¿½Ù¶ï¿½ï¿½Ï´ï¿½.");
+define("_AM_ADV_LINK_TO_PREFIXMAN","ï¿½ï¿½ï¿½Î¾ï¿½(prefix) ï¿½ï¿½ï¿½ï¿½ï¿½Ú·ï¿½");
+define("_AM_ADV_MAINUNPATCHED","Xoops Protectorï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ï±ï¿½ ï¿½ï¿½ï¿½Ø¼ï¿½ mainfile.phpï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ê¿ä°¡ ï¿½Ö½ï¿½ï¿½Ï´ï¿½. <br />READMEï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï½ï¿½ ï¿½ï¿½ mainfile.php ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½Ö½Ã±ï¿½ ï¿½Ù¶ï¿½ï¿½Ï´ï¿½.");
+//define("_AM_ADV_RESCUEPASSWORD","ï¿½ï¿½ï¿½ï¿½ ï¿½Ð½ï¿½ï¿½ï¿½ï¿½ï¿½(Rescue Password)");
+//define("_AM_ADV_RESCUEPASSWORDUNSET","ï¿½Ì¼ï¿½ï¿½ï¿½");
+//define("_AM_ADV_RESCUEPASSWORDSHORT","ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ 6 ï¿½ï¿½ï¿½Ì»ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï½Ã±ï¿½ ï¿½Ù¶ï¿½ï¿½Ï´ï¿½. (min 6 charactors)");
 
-define("_AM_ADV_SUBTITLECHECK","Protector ÀÛµ¿ Ã¼Å©");
-//define("_AM_ADV_AT1STSETPASSWORD","ÀÚ±âÀÚ½ÅÀÌ ±ÝÁö IP ¸®½ºÆ®¿¡ ¿Ã¶ó°¥ °¡´É¼ºµµ ¹èÁ¦ÇÒ ¼ö ¾øÀ¸¹Ç·Î ¸ÕÀú ºñ»ó¿ë ÆÐ½º¿öµå¸¦ ¼³Á¤ÇÏ½Ã±â ¹Ù¶ø´Ï´Ù.");
-define("_AM_ADV_CHECKCONTAMI","º¯¼ö ¿À¿°");
-define("_AM_ADV_CHECKISOCOM","°í¸³ ÄÚ¸àÆ®");
+define("_AM_ADV_SUBTITLECHECK","Protector ï¿½Ûµï¿½ Ã¼Å©");
+//define("_AM_ADV_AT1STSETPASSWORD","ï¿½Ú±ï¿½ï¿½Ú½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ IP ï¿½ï¿½ï¿½ï¿½Æ®ï¿½ï¿½ ï¿½Ã¶ï¿½ ï¿½ï¿½ï¿½É¼ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ç·ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ð½ï¿½ï¿½ï¿½ï¿½å¸¦ ï¿½ï¿½ï¿½ï¿½ï¿½Ï½Ã±ï¿½ ï¿½Ù¶ï¿½ï¿½Ï´ï¿½.");
+define("_AM_ADV_CHECKCONTAMI","ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½");
+define("_AM_ADV_CHECKISOCOM","ï¿½ï¿½ï¿½ ï¿½Ú¸ï¿½Æ®");
 
 
 // Localization by ezsky
-define("_AM_EZ_PREFIX", "Prefix");
-define("_AM_EZ_TABLES", "Tables");
-define("_AM_EZ_UPDATED", "Updated");
-define("_AM_EZ_COPY", "Copy");
-define("_AM_EZ_ACTIONS", "Actions");
-define("_AM_EZ_BACKUP", "Backup");
-define("_AM_EZ_DELETE", "Delete");
+define("_AM_EZ_PREFIX","Prefix");
+define("_AM_EZ_TABLES","Tables");
+define("_AM_EZ_UPDATED","Updated");
+define("_AM_EZ_COPY","Copy");
+define("_AM_EZ_ACTIONS","Actions");
+define("_AM_EZ_BACKUP","Backup");
+define("_AM_EZ_DELETE","Delete");
 
 
 ?>

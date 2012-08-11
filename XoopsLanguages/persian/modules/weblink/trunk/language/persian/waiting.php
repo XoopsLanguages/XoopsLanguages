@@ -11,7 +11,7 @@ if( !defined('WEBLINKS_LANG_PI_WAITING_LOADED') )
 
 define('WEBLINKS_LANG_PI_WAITING_LOADED', 1);
 
-define('_WEBLINKS_PI_WAITING_WAITINGS', 'منتظر ها');
+define('_WEBLINKS_PI_WAITING_WAITINGS','منتظر ها');
 define('_WEBLINKS_PI_WAITING_BROKENS',  'شکسته ها');
 define('_WEBLINKS_PI_WAITING_MODREQS',  'درخواست ویرایش');
 define('_WEBLINKS_PI_WAITING_DELREQS',  'درخواست حذف');

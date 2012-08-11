@@ -37,7 +37,7 @@ define("_MD_CAT_FIRST","В начало");
 define("_MD_CAT_LAST","В конец");
 define("_MD_TO_MOD","Перейти в модуль");
 
-define("_MI_CAT_ADMENU1", "Папка");
-define("_MI_CAT_ADMENU2", "Разрешение");
+define("_MI_CAT_ADMENU1","Папка");
+define("_MI_CAT_ADMENU2","Разрешение");
 
 ?>

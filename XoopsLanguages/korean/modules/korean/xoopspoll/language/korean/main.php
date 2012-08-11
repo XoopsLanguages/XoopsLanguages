@@ -30,28 +30,28 @@
 //  ------------------------------------------------------------------------ //
 
 //%%%%%%	File Name pollresults.php 	%%%%%
-define("_PL_TOTALVOTES","ÃÑ ÅõÇ¥ ¼ö: %s");
-define("_PL_TOTALVOTERS","ÃÑ ÅõÇ¥ÀÚ ¼ö: %s");
+define("_PL_TOTALVOTES","ï¿½ï¿½ ï¿½ï¿½Ç¥ ï¿½ï¿½: %s");
+define("_PL_TOTALVOTERS","ï¿½ï¿½ ï¿½ï¿½Ç¥ï¿½ï¿½ ï¿½ï¿½: %s");
 
 //%%%%%%	File Name index.php 	%%%%%
-define("_PL_POLLSLIST","ÅõÇ¥ ¸®½ºÆ®");
-define("_PL_ALREADYVOTED", "ÁË¼ÛÇÕ´Ï´Ù¸¸ ÅõÇ¥´Â 1È¸·Î Á¦ÇÑµÇ¾î ÀÖ½À´Ï´Ù.");
-define("_PL_THANKSFORVOTE","ÅõÇ¥ÇØ ÁÖ¼Å¼­ Á¤¸»·Î °¨»çÇÕ´Ï´Ù.");
-define("_PL_SORRYEXPIRED", "ÀÌ ÅõÇ¥´Â ÀÌ¹Ì Á¾·áµÈ »óÅÂÀÔ´Ï´Ù.");
-define("_PL_YOURPOLLAT", "%s ´Ô, ÅõÇ¥°¡ Á¾·áµÇ¾ú½À´Ï´Ù.(%s)"); // 1st %s is user name, 2nd %s is site name
-define("_PL_PREV", "ÀÌÀü ÆäÀÌÁö");
-define("_PL_NEXT", "´ÙÀ½ ÆäÀÌÁö");
-define("_PL_POLLQUESTION", "Áú¹®");
-define("_PL_VOTERS", "ÃÑ ÅõÇ¥ÀÚ ¼ö");
-define("_PL_VOTES", "ÃÑ ÅõÇ¥ ¼ö");
-define("_PL_EXPIRATION", "Á¾·áÀÏ½Ã");
-define("_PL_EXPIRED", "Á¾·á");
+define("_PL_POLLSLIST","ï¿½ï¿½Ç¥ ï¿½ï¿½ï¿½ï¿½Æ®");
+define("_PL_ALREADYVOTED","ï¿½Ë¼ï¿½ï¿½Õ´Ï´Ù¸ï¿½ ï¿½ï¿½Ç¥ï¿½ï¿½ 1È¸ï¿½ï¿½ ï¿½ï¿½ï¿½ÑµÇ¾ï¿½ ï¿½Ö½ï¿½ï¿½Ï´ï¿½.");
+define("_PL_THANKSFORVOTE","ï¿½ï¿½Ç¥ï¿½ï¿½ ï¿½Ö¼Å¼ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Õ´Ï´ï¿½.");
+define("_PL_SORRYEXPIRED","ï¿½ï¿½ ï¿½ï¿½Ç¥ï¿½ï¿½ ï¿½Ì¹ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ô´Ï´ï¿½.");
+define("_PL_YOURPOLLAT","%s ï¿½ï¿½, ï¿½ï¿½Ç¥ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ç¾ï¿½ï¿½ï¿½ï¿½Ï´ï¿½.(%s)"); // 1st %s is user name, 2nd %s is site name
+define("_PL_PREV","ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
+define("_PL_NEXT","ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
+define("_PL_POLLQUESTION","ï¿½ï¿½ï¿½ï¿½");
+define("_PL_VOTERS","ï¿½ï¿½ ï¿½ï¿½Ç¥ï¿½ï¿½ ï¿½ï¿½");
+define("_PL_VOTES","ï¿½ï¿½ ï¿½ï¿½Ç¥ ï¿½ï¿½");
+define("_PL_EXPIRATION","ï¿½ï¿½ï¿½ï¿½ï¿½Ï½ï¿½");
+define("_PL_EXPIRED","ï¿½ï¿½ï¿½ï¿½");
 
 //%%%%%%	File Name xoopspollrenderer.php 	%%%%%
 // %s represents date
-define("_PL_ENDSAT","%s ¿¡ Á¾·áµË´Ï´Ù.");
-define("_PL_ENDEDAT","%s ¿¡ Á¾·áµÇ¾ú½À´Ï´Ù.");
-define("_PL_VOTE","ÅõÇ¥");
-define("_PL_RESULTS","°á°ú");
+define("_PL_ENDSAT","%s ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ë´Ï´ï¿½.");
+define("_PL_ENDEDAT","%s ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ç¾ï¿½ï¿½ï¿½ï¿½Ï´ï¿½.");
+define("_PL_VOTE","ï¿½ï¿½Ç¥");
+define("_PL_RESULTS","ï¿½ï¿½ï¿½");
 
 ?>

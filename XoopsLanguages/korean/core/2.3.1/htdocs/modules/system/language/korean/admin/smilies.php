@@ -32,20 +32,20 @@
 //%%%%%%	Admin Module Name  Smilies 	%%%%%
 define('_AM_DBUPDATED',_MD_AM_DBUPDATED);
 
-define('_AM_SMILESCONTROL','¾ó±¼ ¾ÆÀÌÄÜ °ü¸®');
-define('_AM_CODE','¾ó±¼¾ÆÀÌÄÜÄÚµå');
-define('_AM_SMILIE','¾ó±¼¾ÆÀÌÄÜ');
+define('_AM_SMILESCONTROL','ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½');
+define('_AM_CODE','ï¿½ó±¼¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Úµï¿½');
+define('_AM_SMILIE','ï¿½ó±¼¾ï¿½ï¿½ï¿½ï¿½ï¿½');
 define('_AM_ACTION','');
-define('_AM_EDIT','ÆíÁý');
-define('_AM_DEL','»èÁ¦');
-define('_AM_CNRFTSD','µ¥ÀÌÅ¸º£ÀÌ½º¿¡¼­ µ¥ÀÌÅ¸¸¦ °¡Á®¿À´Âµ¥ ½ÇÆÐÇÏ¿´½À´Ï´Ù.');
-define('_AM_ADDSMILE','¾ó±¼¾ÆÀÌÄÜÃß°¡');
-define('_AM_EDITSMILE','¾ó±¼¾ÆÀÌÄÜÆíÁý');
-define('_AM_SMILECODE','¾ó±¼¾ÆÀÌÄÜÄÚµå:');
-define('_AM_SMILEURL','ÀÌ¹ÌÁö URL:');
-define('_AM_SMILEEMOTION','ÀÇ¹Ì:');
-define('_AM_ADD','Ãß°¡');
-define('_AM_SAVE','ÀúÀå');
-define('_AM_WAYSYWTDTS','ÀÌ ¾ó±¼¾ÆÀÌÄÜÀ» Á¤¸»·Î »èÁ¦ÇÏ½Ç°Ç°¡¿ä?');
-define('_AM_DISPLAYF', 'Form ¿¡ Ç¥½Ã');
+define('_AM_EDIT','ï¿½ï¿½ï¿½ï¿½');
+define('_AM_DEL','ï¿½ï¿½ï¿½ï¿½');
+define('_AM_CNRFTSD','ï¿½ï¿½ï¿½ï¿½Å¸ï¿½ï¿½ï¿½Ì½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Å¸ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Âµï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï¿ï¿½ï¿½ï¿½ï¿½Ï´ï¿½.');
+define('_AM_ADDSMILE','ï¿½ó±¼¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ß°ï¿½');
+define('_AM_EDITSMILE','ï¿½ó±¼¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½');
+define('_AM_SMILECODE','ï¿½ó±¼¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Úµï¿½:');
+define('_AM_SMILEURL','ï¿½Ì¹ï¿½ï¿½ï¿½ URL:');
+define('_AM_SMILEEMOTION','ï¿½Ç¹ï¿½:');
+define('_AM_ADD','ï¿½ß°ï¿½');
+define('_AM_SAVE','ï¿½ï¿½ï¿½ï¿½');
+define('_AM_WAYSYWTDTS','ï¿½ï¿½ ï¿½ó±¼¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï½Ç°Ç°ï¿½ï¿½ï¿½?');
+define('_AM_DISPLAYF','Form ï¿½ï¿½ Ç¥ï¿½ï¿½');
 ?>

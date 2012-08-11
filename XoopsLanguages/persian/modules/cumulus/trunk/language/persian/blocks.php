@@ -12,14 +12,14 @@
 
 if (!defined('XOOPS_ROOT_PATH')) { exit(); }
 
-define("TAG_MB_ITEMS", "تعداد تگ های نمایش داده شده");
-define("TAG_MB_FONTSIZE_MAX", "بیشترین اندازه فونت (%) برای نمایش");
-define("TAG_MB_FONTSIZE_MIN", "کمترین اندازه فونت (%) برای نمایش");
-define("TAG_MB_TIME_DURATION", "مدت زمان نمایش, در روز");
-define("TAG_MB_FLASH_TRANSPARENCY", "شفافیت فلش");
-define("TAG_MB_FLASH_WIDTH", "عرض فلش");
-define("TAG_MB_FLASH_HEIGHT", "ارتفاع فلش");
-define("TAG_MB_FLASH_BACKGROUND", "فلش پس زمینه");
+define("TAG_MB_ITEMS","تعداد تگ های نمایش داده شده");
+define("TAG_MB_FONTSIZE_MAX","بیشترین اندازه فونت (%) برای نمایش");
+define("TAG_MB_FONTSIZE_MIN","کمترین اندازه فونت (%) برای نمایش");
+define("TAG_MB_TIME_DURATION","مدت زمان نمایش, در روز");
+define("TAG_MB_FLASH_TRANSPARENCY","شفافیت فلش");
+define("TAG_MB_FLASH_WIDTH","عرض فلش");
+define("TAG_MB_FLASH_HEIGHT","ارتفاع فلش");
+define("TAG_MB_FLASH_BACKGROUND","فلش پس زمینه");
 define("TAG_MB_FLASH_TRANSPARENT","شفافیت");
 define("TAG_MB_FLASH_MINFONTCOLOR","کمترین رنگ فونت");
 define("TAF_MB_FLASH_MAXFONTCOLOR","بیشترین رنگ فونت");

@@ -144,7 +144,7 @@ class db_manager
 
     function report()
     {
-        $commands = array( 'create', 'insert', 'alter', 'drop' );
+        $commands = array( 'create','insert','alter','drop' );
         $content = '<ul class="log">';
         foreach ($commands as $cmd) {
             if (!@empty($this->s_tables[$cmd])) {

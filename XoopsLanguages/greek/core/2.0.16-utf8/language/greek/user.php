@@ -31,7 +31,7 @@ define('_US_BEENDELED','Ο λογαριασμός σας έχει διαγραφ
 //%%%%%%		File Name register.php 		%%%%%
 define('_US_USERREG','Εγγραφή Χρήστη');
 define('_US_NICKNAME','Ψευδώνυμο');
-define('_US_REALNAME', 'Πραγματικό όνομα');
+define('_US_REALNAME','Πραγματικό όνομα');
 define('_US_EMAIL','Email');
 define('_US_ALLOWVIEWEMAIL','Να είναι εμφανής η ηλεκτρονική μου διεύθυνση στους άλλους Χρήστες');
 define('_US_WEBSITE','Δικτυακός τόπος');
@@ -45,7 +45,7 @@ define('_US_REGISTERNG','Δεν ήταν δυνατή η εγγραφή νέου
 define('_US_MAILOK','Να λαμβάνω κατά περίπτωση ειδοποιήσεις <br />από τους Διαχειριστές και τους Συντονιστές;');
 define('_US_DISCLAIMER','Δήλωση Αποποίησης Ευθύνης');
 define('_US_IAGREE','Συμφωνώ με τα ανωτέρω');
-define('_US_UNEEDAGREE', 'Θα πρέπει να συμφωνήσετε με τη Δήλωση Αποποίησης Ευθύνης για να εγγραφείτε.');
+define('_US_UNEEDAGREE','Θα πρέπει να συμφωνήσετε με τη Δήλωση Αποποίησης Ευθύνης για να εγγραφείτε.');
 define('_US_NOREGISTER','Λυπούμεθα αλλά προσωρινά δεν γίνονται εγγραφές');
 
 // %s is username. This is a subject for email
@@ -75,15 +75,15 @@ define('_US_SORRYNOTFOUND','Λυπούμεθα, δεν βρέθηκε αντίσ
 
 // %s is your site name
 define('_US_NEWPWDREQ','Αίτηση για νέο κωδικό πρόσβασης στο %s');
-define('_US_YOURACCOUNT', 'Ο Λογαριασμός σας στο %s');
+define('_US_YOURACCOUNT','Ο Λογαριασμός σας στο %s');
 
 define('_US_MAILPWDNG','mail_password: could not update user entry. Contact the Administrator');
 
 // %s is a username
 define('_US_PWDMAILED','Ο κωδικός πρόσβασης για το %s έχει αποσταλεί.');
 define('_US_CONFMAIL','Το email επιβεβαίωσης για τον %s έχει αποσταλεί.');
-define('_US_ACTVMAILNG', 'Σφάλμα αποστολής μηνύματος ειδοποίησης στον %s');
-define('_US_ACTVMAILOK', 'Εστάλη μήνυμα ειδοποίησης στον %s.');
+define('_US_ACTVMAILNG','Σφάλμα αποστολής μηνύματος ειδοποίησης στον %s');
+define('_US_ACTVMAILOK','Εστάλη μήνυμα ειδοποίησης στον %s.');
 
 //%%%%%%		File Name userinfo.php 		%%%%%
 define('_US_SELECTNG','Δεν επιλέχθηκε Χρήστης. Παρακαλούμε επιστρέψτε και δοκιμάστε πάλι.');
@@ -123,21 +123,21 @@ define('_US_SAVECHANGES','Αποθήκευση αλλαγών');
 define('_US_NOEDITRIGHT',"Λυπούμεθα αλλά δεν έχετε δικαίωμα αλλαγής των στοιχείων αυτού του Χρήστη.");
 define('_US_PASSNOTSAME','Και οι δύο Κωδικοί είναι διαφορετικοί. Θα πρέπει να είναι ίδιοι.');
 define('_US_PWDTOOSHORT','Λυπούμεθα αλλά ο Κωδικός σας θα πρέπει να έχει <b>%s</b> τουλάχιστον χαρακτήρες.');
-define("_US_NOPASSWORD", "Παρακαλούμε εισάγετε άνα Κωδικό");
+define("_US_NOPASSWORD","Παρακαλούμε εισάγετε άνα Κωδικό");
 define('_US_PROFUPDATED','Το Προφίλ σας ενημερώθηκε!');
 define('_US_USECOOKIE','Αποθήκευση σε cookie του Ψευδώνυμου μου για ένα έτος');
 define('_US_NO','Όχι');
 define('_US_DELACCOUNT','Διαγραφή Λογαριασμού');
-define('_US_MYAVATAR', 'Το Εικονίδιό μου');
-define('_US_UPLOADMYAVATAR', 'Ανέβασμα Εικονιδίου');
+define('_US_MYAVATAR','Το Εικονίδιό μου');
+define('_US_UPLOADMYAVATAR','Ανέβασμα Εικονιδίου');
 define('_US_MAXPIXEL','Μέγιστος αρ. Pixels');
 define('_US_MAXIMGSZ','Μέγιστο μέγεθος Εικονιδίου (Bytes)');
 define('_US_SELFILE','Επιλέξτε αρχείο');
 define('_US_OLDDELETED','Το παλιό σας Εικονίδιο θα διαγραφεί!');
-define('_US_CHOOSEAVT', 'Επιλέξτε ένα Εικονίδιο από τη διαθέσιμη λίστα');
+define('_US_CHOOSEAVT','Επιλέξτε ένα Εικονίδιο από τη διαθέσιμη λίστα');
 
-define('_US_PRESSLOGIN', 'Πιέστε το παρακάτω κουμπί για την εισαγωγή');
+define('_US_PRESSLOGIN','Πιέστε το παρακάτω κουμπί για την εισαγωγή');
 
-define('_US_ADMINNO', 'Οι χρήστες που ανήκουν στην ομάδα των Διαχειριστών δεν μπορούν να διαγραφούν.');
-define('_US_GROUPS', 'Ομάδες Χρηστών');
+define('_US_ADMINNO','Οι χρήστες που ανήκουν στην ομάδα των Διαχειριστών δεν μπορούν να διαγραφούν.');
+define('_US_GROUPS','Ομάδες Χρηστών');
 ?>

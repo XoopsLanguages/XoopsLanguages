@@ -26,12 +26,12 @@ defined('XOOPS_ROOT_PATH') or die('Endast behöriga användare');
 // _CHARSET : UTF-8
 // Translator: XOOPS Translation Team
 
-define('_AUTH_MSG_AUTH_METHOD', "använder autentiseringsmetoden %s");
-define('_AUTH_LDAP_EXTENSION_NOT_LOAD', 'PHP LDAP-tillägg är inte laddade (kontrollera din konfigurationsfil för PHP, php.ini)');
-define('_AUTH_LDAP_SERVER_NOT_FOUND', "Kan inte ansluta till servern");
-define('_AUTH_LDAP_USER_NOT_FOUND', "Medlem %s hittades inte på server (%s) i %s");
-define('_AUTH_LDAP_CANT_READ_ENTRY', "Kan inte läsa rad %s");
-define('_AUTH_LDAP_XOOPS_USER_NOTFOUND', "Ingen användarinformation har hittats i XOOPS databas för anslutningen %s <br>" . "Kontrollera användardatat eller slå på automatisk användarhantering");
-define('_AUTH_LDAP_START_TLS_FAILED', "Misslyckades med att öppna en TLS-anslutning");
+define('_AUTH_MSG_AUTH_METHOD',"använder autentiseringsmetoden %s");
+define('_AUTH_LDAP_EXTENSION_NOT_LOAD','PHP LDAP-tillägg är inte laddade (kontrollera din konfigurationsfil för PHP, php.ini)');
+define('_AUTH_LDAP_SERVER_NOT_FOUND',"Kan inte ansluta till servern");
+define('_AUTH_LDAP_USER_NOT_FOUND',"Medlem %s hittades inte på server (%s) i %s");
+define('_AUTH_LDAP_CANT_READ_ENTRY',"Kan inte läsa rad %s");
+define('_AUTH_LDAP_XOOPS_USER_NOTFOUND',"Ingen användarinformation har hittats i XOOPS databas för anslutningen %s <br>" . "Kontrollera användardatat eller slå på automatisk användarhantering");
+define('_AUTH_LDAP_START_TLS_FAILED',"Misslyckades med att öppna en TLS-anslutning");
 
 ?>

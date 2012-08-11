@@ -12,8 +12,8 @@ define("_MI_WAITING_NAME","Waiting Content");
 define("_MI_WAITING_DESC","Toon een blok met op moderatie wachtende content van andere modules.");
 
 // Names of blocks for this module (Not all module has blocks)
-define("_MI_WAITING_BNAME1", "Wachtende Content");
+define("_MI_WAITING_BNAME1","Wachtende Content");
 
-define("_MI_WAITING_MENU_HOME", "Index");
-define("_MI_WAITING_MENU_ABOUT", "Over");
-define("_MI_WAITING_MENU_PLUGINS", "Plugins");
+define("_MI_WAITING_MENU_HOME","Index");
+define("_MI_WAITING_MENU_ABOUT","Over");
+define("_MI_WAITING_MENU_PLUGINS","Plugins");

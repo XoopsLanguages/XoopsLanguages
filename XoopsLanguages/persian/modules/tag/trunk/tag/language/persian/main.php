@@ -12,13 +12,13 @@
 
 if (!defined('XOOPS_ROOT_PATH')){ exit(); }
 
-define("TAG_MD_TAGS", "برچسب‌ها");
-define("TAG_MD_TAG_ON", "جستجوی برچسب‌ها در");
-define("TAG_MD_TAGVIEW", 'موارد پیدا شده  از برچسب <strong>%1$s</strong> در %2$s');
-define("TAG_MD_TAGLIST", "فهرست برچسب‌ها در سایت <strong>%s</strong>");
-define("TAG_MD_JUMPTO", "برو به");
-define("TAG_MD_TAG_DELIMITER", "جداکننده‌های نوشته شده در روبرو برای جدا کردن کلمات‌کلیدی از هم مجاز هستند");
-define("TAG_MD_INVALID", "جستجوی غیر مجاز");
+define("TAG_MD_TAGS","برچسب‌ها");
+define("TAG_MD_TAG_ON","جستجوی برچسب‌ها در");
+define("TAG_MD_TAGVIEW",'موارد پیدا شده  از برچسب <strong>%1$s</strong> در %2$s');
+define("TAG_MD_TAGLIST","فهرست برچسب‌ها در سایت <strong>%s</strong>");
+define("TAG_MD_JUMPTO","برو به");
+define("TAG_MD_TAG_DELIMITER","جداکننده‌های نوشته شده در روبرو برای جدا کردن کلمات‌کلیدی از هم مجاز هستند");
+define("TAG_MD_INVALID","جستجوی غیر مجاز");
 
 /**
  * Customize addons:

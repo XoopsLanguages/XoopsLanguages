@@ -51,8 +51,8 @@ define("_YOURHOME","Αρχική σελίδα");
 
 //%%%%%%	File Name misc.php (who's-online popup)	%%%%%
 define("_WHOSONLINE","Ποιός είναι Online");
-define('_GUESTS', 'Επισκέπτες');
-define('_MEMBERS', 'Μέλη');
+define('_GUESTS','Επισκέπτες');
+define('_MEMBERS','Μέλη');
 define("_ONLINEPHRASE","Online Χρήστες: <b>%s</b>");
 define("_ONLINEPHRASEX","<b>%s</b> χρήστες στην ενότητα: <b>%s</b>");
 define("_CLOSE","Κλείσιμο");  // Close window
@@ -74,24 +74,24 @@ define("_ALIGN","Στοίχιση");
 define("_LEFT","Αριστερά");
 define("_CENTER","Κέντρο");
 define("_RIGHT","Δεξιά"); 
-define("_FORM_ENTER", "Παρακαλούμε καταχωρήστε %s");
+define("_FORM_ENTER","Παρακαλούμε καταχωρήστε %s");
 // %s represents file name
 define("_MUSTWABLE","Το αρχείο %s θα πρέπει να είναι επανεγράψιμο από τον server!");
 // Module info
-define('_PREFERENCES', 'Ρυθμίσεις');
-define("_VERSION", "Έκδοση");
-define("_DESCRIPTION", "Περιγραφή");
-define("_ERRORS", "Σφάλματα");
-define("_NONE", "Κανένα");
+define('_PREFERENCES','Ρυθμίσεις');
+define("_VERSION","Έκδοση");
+define("_DESCRIPTION","Περιγραφή");
+define("_ERRORS","Σφάλματα");
+define("_NONE","Κανένα");
 define('_ON','on');
 define('_READS','αναγνώσεις');
 define('_WELCOMETO','Καλώς ήρθατε στο %s');
 define('_SEARCH','Αναζήτηση');
-define('_ALL', 'Όλα');
-define('_TITLE', 'Τίτλος');
-define('_OPTIONS', 'Επιλογές');
-define('_QUOTE', 'Παράθεση');
-define('_LIST', 'Λίστα');
+define('_ALL','Όλα');
+define('_TITLE','Τίτλος');
+define('_OPTIONS','Επιλογές');
+define('_QUOTE','Παράθεση');
+define('_LIST','Λίστα');
 define('_LOGIN','Είσοδος Χρήστη');
 define('_USERNAME','Όνομα Χρήστη: ');
 define('_PASSWORD','Κωδικός: ');
@@ -101,12 +101,12 @@ define("_SEND","Αποστολή");
 define("_CANCEL","Ακύρωση");
 define("_ASCENDING","Αύξουσα σειρά");
 define("_DESCENDING","Φθίνουσα σειρά");
-define('_BACK', 'Πίσω');
-define('_NOTITLE', 'Χωρίς Τίτλο');
+define('_BACK','Πίσω');
+define('_NOTITLE','Χωρίς Τίτλο');
 
 /* Image manager */
 define('_IMGMANAGER','Image Manager');
-define('_NUMIMAGES', '%s εικόνες');
+define('_NUMIMAGES','%s εικόνες');
 define('_ADDIMAGE','Πρόσθεση αρχείου εικόνας');
 define('_IMAGENAME','Όνομα:');
 define('_IMGMAXSIZE','Μέγιστο επιτρεπόμενο μέγεθος (bytes):');
@@ -117,16 +117,16 @@ define('_IMAGEFILE','Αρχείο εικόνας:');
 define('_IMGWEIGHT','Σειρά εμφάνισης εικόνων στον image manager:');
 define('_IMGDISPLAY','Να εμφανιστεί αυτή η εικόνα?');
 define('_IMAGEMIME','MIME type:');
-define('_FAILFETCHIMG', 'Δεν είναι εφικτό να γίνει upload αυτό το αρχείο: %s');
-define('_FAILSAVEIMG', 'Αποτυχία αποθήκευσης της εικόνας %s στη βάση δεδομένων');
-define('_NOCACHE', 'No Cache');
-define('_CLONE', 'Clone');
+define('_FAILFETCHIMG','Δεν είναι εφικτό να γίνει upload αυτό το αρχείο: %s');
+define('_FAILSAVEIMG','Αποτυχία αποθήκευσης της εικόνας %s στη βάση δεδομένων');
+define('_NOCACHE','No Cache');
+define('_CLONE','Clone');
 
 //%%%%%	File Name class/xoopsform/formmatchoption.php 	%%%%%
-define("_STARTSWITH", "Αρχίζει με");
-define("_ENDSWITH", "Τελειώνει με");
-define("_MATCHES", "Ταιριάζει");
-define("_CONTAINS", "Περιλαμβάνει");
+define("_STARTSWITH","Αρχίζει με");
+define("_ENDSWITH","Τελειώνει με");
+define("_MATCHES","Ταιριάζει");
+define("_CONTAINS","Περιλαμβάνει");
 
 //%%%%%%	File Name commentform.php 	%%%%%
 define("_REGISTER","Εγγραφή"); //Register
@@ -152,16 +152,16 @@ define("_PLZCOMPLETE","Σας παρακαλούμε να συμπληρώσετ
 define("_MESSAGETOOLONG","Το μήνυμα σας είναι πολύ μεγάλο.");
 
 //%%%%%		TIME FORMAT SETTINGS   %%%%%
-define('_SECOND', '1 δευτερόλεπτο');
-define('_SECONDS', '%s δευτερόλεπτα');
-define('_MINUTE', '1 λεπτό');
-define('_MINUTES', '%s λεπτά');
-define('_HOUR', '1 ώρα');
-define('_HOURS', '%s ώρες');
-define('_DAY', '1 μέρα');
-define('_DAYS', '%s μέρες');
-define('_WEEK', '1 εβδομάδα');
-define('_MONTH', '1 μήνας');
+define('_SECOND','1 δευτερόλεπτο');
+define('_SECONDS','%s δευτερόλεπτα');
+define('_MINUTE','1 λεπτό');
+define('_MINUTES','%s λεπτά');
+define('_HOUR','1 ώρα');
+define('_HOURS','%s ώρες');
+define('_DAY','1 μέρα');
+define('_DAYS','%s μέρες');
+define('_WEEK','1 εβδομάδα');
+define('_MONTH','1 μήνας');
 
 define("_DATESTRING","j/n/y G:i");
 define("_MEDIUMDATESTRING","j/n/y G:i");
@@ -185,7 +185,7 @@ m - month; i.e. "01" to "12"
 n - month without leading zeros; i.e. "1" to "12"
 M - month, textual, 3 letters; i.e. "Jan"
 s - seconds; i.e. "00" to "59"
-S - English ordinal suffix, textual, 2 characters; i.e. "th", "nd"
+S - English ordinal suffix, textual, 2 characters; i.e. "th","nd"
 t - number of days in the given month; i.e. "28" to "31"
 T - Timezone setting of this machine; i.e. "MDT"
 U - seconds since the epoch
@@ -198,9 +198,9 @@ Z - timezone offset in seconds (i.e. "-43200" to "43200")
 
 
 //%%%%%		LANGUAGE SPECIFIC SETTINGS   %%%%%
-define('_CHARSET', 'UTF-8');
-define('_LANGCODE', 'el');
+define('_CHARSET','UTF-8');
+define('_LANGCODE','el');
 
 // change 0 to 1 if this language is a multi-bytes language
-define("XOOPS_USE_MULTIBYTES", "1");
+define("XOOPS_USE_MULTIBYTES","1");
 ?>

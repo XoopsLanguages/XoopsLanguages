@@ -25,7 +25,7 @@ defined('XOOPS_ROOT_PATH') or die('Restricted access');
 // _LANGCODE: fa
 // _CHARSET : UTF-8
 // Translator: XOOPS Translation Team
-define('_XO_ER_FILENOTFOUND', 'فایل ضروری: <b>%s</b> یافت نشد ');
-define('_XO_ER_CLASSNOTFOUND', 'کلاس ضروری %s یافت نشد');
+define('_XO_ER_FILENOTFOUND','فایل ضروری: <b>%s</b> یافت نشد ');
+define('_XO_ER_CLASSNOTFOUND','کلاس ضروری %s یافت نشد');
 
 ?>

@@ -34,6 +34,6 @@
 
 defined('XOOPS_ROOT_PATH') or die('Beperkte toegang');
 
-define('_XO_ER_FILENOTFOUND', 'Het bestand <b>%s</b> is niet gevonden');
-define('_XO_ER_CLASSNOTFOUND', 'De PHP klasse <b>%s</b> is niet gevonden');
+define('_XO_ER_FILENOTFOUND','Het bestand <b>%s</b> is niet gevonden');
+define('_XO_ER_CLASSNOTFOUND','De PHP klasse <b>%s</b> is niet gevonden');
 ?>

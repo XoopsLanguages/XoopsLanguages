@@ -25,7 +25,7 @@ defined('XOOPS_ROOT_PATH') or die('Begrænset adgang');
 // _LANGCODE: da
 // _CHARSET : UTF-8
 // Translator: Anders Kristiansen (anderssk)
-define('_XO_ER_FILENOTFOUND', 'Filen: <b>%s</b> blev ikke fundet ');
-define('_XO_ER_CLASSNOTFOUND', 'Klassen %s blev ikke fundet');
+define('_XO_ER_FILENOTFOUND','Filen: <b>%s</b> blev ikke fundet ');
+define('_XO_ER_CLASSNOTFOUND','Klassen %s blev ikke fundet');
 
 ?>

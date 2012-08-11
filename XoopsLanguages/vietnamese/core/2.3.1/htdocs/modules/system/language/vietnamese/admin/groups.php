@@ -29,7 +29,7 @@ define("_AM_DELBUTTON","<--Xóa bỏ");
 define("_AM_UNEED2ENTER","Bạn phải điền vào những thông tin cần thiết!");//You need to enter required info!
 // Added in RC3
 define("_AM_BLOCKRIGHTS","Quyền truy nhập khối");//Block Access Rights
-define('_AM_FINDU4GROUP', 'Tìm những thành viên cho nhóm nầy');//Find users for this group
-define('_AM_GROUPSMAIN', 'Nhóm chính');//Groups Main
-define('_AM_ADMINNO', 'Phải có ít nhất một thành viên trong nhóm quản trị mạng');//There must be at least one user in the webmasters group
+define('_AM_FINDU4GROUP','Tìm những thành viên cho nhóm nầy');//Find users for this group
+define('_AM_GROUPSMAIN','Nhóm chính');//Groups Main
+define('_AM_ADMINNO','Phải có ít nhất một thành viên trong nhóm quản trị mạng');//There must be at least one user in the webmasters group
 ?>

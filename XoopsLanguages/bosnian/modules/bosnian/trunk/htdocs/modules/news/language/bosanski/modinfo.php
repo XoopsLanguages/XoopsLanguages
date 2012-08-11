@@ -21,86 +21,86 @@ define('_MI_NEWS_SMNAME1','Vijest napi&scaron;i');
 define('_MI_NEWS_SMNAME2','Arhiva');
 
 // Names of admin menu items
-define('_MI_NEWS_ADMENU2', 'Menadzer Tema');
-define('_MI_NEWS_ADMENU3', 'Vijest objavi / uredi');
-define('_MI_NEWS_GROUPPERMS', 'Odobrenja');
-// Added by Hervé for prune option
-define('_MI_NEWS_PRUNENEWS', 'Vijesti pokupi');
-// Added by Hervé
-define('_MI_NEWS_EXPORT', 'Vijesti exportiraj');
+define('_MI_NEWS_ADMENU2','Menadzer Tema');
+define('_MI_NEWS_ADMENU3','Vijest objavi / uredi');
+define('_MI_NEWS_GROUPPERMS','Odobrenja');
+// Added by HervÃ© for prune option
+define('_MI_NEWS_PRUNENEWS','Vijesti pokupi');
+// Added by HervÃ©
+define('_MI_NEWS_EXPORT','Vijesti exportiraj');
 
 // Title of config items
-define('_MI_STORYHOME', 'Koliko vijesti treba prikazati na glavnoj Index stranici?');
-define('_MI_NOTIFYSUBMIT', 'Obavjesti webmastera ako pristigne nova vijest?');
-define('_MI_DISPLAYNAV', 'Navigacijski-Box prika&#382;i?');
+define('_MI_STORYHOME','Koliko vijesti treba prikazati na glavnoj Index stranici?');
+define('_MI_NOTIFYSUBMIT','Obavjesti webmastera ako pristigne nova vijest?');
+define('_MI_DISPLAYNAV','Navigacijski-Box prika&#382;i?');
 define('_MI_AUTOAPPROVE','Vijest automatski objavi?');
-define("_MI_ALLOWEDSUBMITGROUPS", "Grupe, koje smiju vijesti pisati/slati");
-define("_MI_ALLOWEDAPPROVEGROUPS", "Grupe, koje smiju vijesti odobriti");
-define("_MI_NEWSDISPLAY", "Layout pregledih sadr&#382;aja");
+define("_MI_ALLOWEDSUBMITGROUPS","Grupe, koje smiju vijesti pisati/slati");
+define("_MI_ALLOWEDAPPROVEGROUPS","Grupe, koje smiju vijesti odobriti");
+define("_MI_NEWSDISPLAY","Layout pregledih sadr&#382;aja");
 define("_MI_NAMEDISPLAY","Ime Autora");
 define("_MI_COLUMNMODE","Kolumni");
 define("_MI_STORYCOUNTADMIN","Broj novih vijesti u Admin-Pregledu. (Ova opcija limitira broj Tema u adminovom podru&#269;ju i prikazu statistike): ");
-define('_MI_UPLOADFILESIZE', 'MAX Upload- u (KB) 1048576 = 1 Meg');
+define('_MI_UPLOADFILESIZE','MAX Upload- u (KB) 1048576 = 1 Meg');
 define("_MI_UPLOADGROUPS","Grupe koje imaju odobrenje za upload");
 
 
 // Description of each config items
-define('_MI_STORYHOMEDSC', '');
-define('_MI_NOTIFYSUBMITDSC', '');
-define('_MI_DISPLAYNAVDSC', '');
-define('_MI_AUTOAPPROVEDSC', '');
-define("_MI_ALLOWEDSUBMITGROUPSDESC", "Izabrane Grupe smiju vijesti pisati i slati.");
-define("_MI_ALLOWEDAPPROVEGROUPSDESC", "Izabrane grupe smiju poslate vijesti nakon pregleda odobriti i objaviti.");
-define("_MI_NEWSDISPLAYDESC", "Klasi&#269;no, prikazuju se sve vijesti sortirane po datumu objavljivanja. Vijesti po Temama, grupi&scaron;u se vijesti po temama sa najnovijom vijesti u punom prikazu i ostale ispod po linkovanim naslovima vijesti");
-define('_MI_ADISPLAYNAMEDSC', 'Izaberi opciju, kako treba Autora vijesti prikazivati javno');
+define('_MI_STORYHOMEDSC','');
+define('_MI_NOTIFYSUBMITDSC','');
+define('_MI_DISPLAYNAVDSC','');
+define('_MI_AUTOAPPROVEDSC','');
+define("_MI_ALLOWEDSUBMITGROUPSDESC","Izabrane Grupe smiju vijesti pisati i slati.");
+define("_MI_ALLOWEDAPPROVEGROUPSDESC","Izabrane grupe smiju poslate vijesti nakon pregleda odobriti i objaviti.");
+define("_MI_NEWSDISPLAYDESC","Klasi&#269;no, prikazuju se sve vijesti sortirane po datumu objavljivanja. Vijesti po Temama, grupi&scaron;u se vijesti po temama sa najnovijom vijesti u punom prikazu i ostale ispod po linkovanim naslovima vijesti");
+define('_MI_ADISPLAYNAMEDSC','Izaberi opciju, kako treba Autora vijesti prikazivati javno');
 define("_MI_COLUMNMODE_DESC","Mo&#382;e&scaron; izabrati opciju koliko vijesti treba prikazati");
 define("_MI_STORYCOUNTADMIN_DESC","");
 define("_MI_UPLOADFILESIZE_DESC","");
 define("_MI_UPLOADGROUPS_DESC","Izaberi Grupe koje smiju podatke uploadati na Server.");
 
 // Name of config item values
-define("_MI_NEWSCLASSIC", "Klasi&#269;no");
-define("_MI_NEWSBYTOPIC", "Po Temama");
-define("_MI_DISPLAYNAME1", "Nik ime");
-define("_MI_DISPLAYNAME2", "Pravo ime");
-define("_MI_DISPLAYNAME3", "Autora ne prikazuj");
+define("_MI_NEWSCLASSIC","Klasi&#269;no");
+define("_MI_NEWSBYTOPIC","Po Temama");
+define("_MI_DISPLAYNAME1","Nik ime");
+define("_MI_DISPLAYNAME2","Pravo ime");
+define("_MI_DISPLAYNAME3","Autora ne prikazuj");
 define("_MI_UPLOAD_GROUP1","Autor i Ovla&scaron;teni");
 define("_MI_UPLOAD_GROUP2","Samo Ovla&scaron;teni");
 define("_MI_UPLOAD_GROUP3","Upload nije dozvoljen");
 
 // Text for notifications
 
-define('_MI_NEWS_GLOBAL_NOTIFY', 'Globalno');
-define('_MI_NEWS_GLOBAL_NOTIFYDSC', 'Opcije obavje&scaron;tavanja globalne.');
+define('_MI_NEWS_GLOBAL_NOTIFY','Globalno');
+define('_MI_NEWS_GLOBAL_NOTIFYDSC','Opcije obavje&scaron;tavanja globalne.');
 
-define('_MI_NEWS_STORY_NOTIFY', 'Vijest');
-define('_MI_NEWS_STORY_NOTIFYDSC', 'Opcije obavje&scaron;tavanja za aktuelnu vijest.');
+define('_MI_NEWS_STORY_NOTIFY','Vijest');
+define('_MI_NEWS_STORY_NOTIFYDSC','Opcije obavje&scaron;tavanja za aktuelnu vijest.');
 
-define('_MI_NEWS_GLOBAL_NEWCATEGORY_NOTIFY', 'Nova Tema');
-define('_MI_NEWS_GLOBAL_NEWCATEGORY_NOTIFYCAP', 'Obavijest ako se nova Tema kreira za vijesti..');
-define('_MI_NEWS_GLOBAL_NEWCATEGORY_NOTIFYDSC', 'Obavijest ako je nova Tema kreirana.');
-define('_MI_NEWS_GLOBAL_NEWCATEGORY_NOTIFYSBJ', '[{X_SITENAME}] {X_MODULE} Automatska obavijest: Nova Tema');
+define('_MI_NEWS_GLOBAL_NEWCATEGORY_NOTIFY','Nova Tema');
+define('_MI_NEWS_GLOBAL_NEWCATEGORY_NOTIFYCAP','Obavijest ako se nova Tema kreira za vijesti..');
+define('_MI_NEWS_GLOBAL_NEWCATEGORY_NOTIFYDSC','Obavijest ako je nova Tema kreirana.');
+define('_MI_NEWS_GLOBAL_NEWCATEGORY_NOTIFYSBJ','[{X_SITENAME}] {X_MODULE} Automatska obavijest: Nova Tema');
 
-define('_MI_NEWS_GLOBAL_STORYSUBMIT_NOTIFY', 'Nova vijest je poslata.');
-define('_MI_NEWS_GLOBAL_STORYSUBMIT_NOTIFYCAP', 'Obavijest ako je nova vijest poslata (i objavljena).');
-define('_MI_NEWS_GLOBAL_STORYSUBMIT_NOTIFYDSC', 'Dobija se obavijest ako je nova vijest poslata i objavljena.');
-define('_MI_NEWS_GLOBAL_STORYSUBMIT_NOTIFYSBJ', '[{X_SITENAME}] {X_MODULE} Automatska obavijest: Nova vijest je poslata.');
+define('_MI_NEWS_GLOBAL_STORYSUBMIT_NOTIFY','Nova vijest je poslata.');
+define('_MI_NEWS_GLOBAL_STORYSUBMIT_NOTIFYCAP','Obavijest ako je nova vijest poslata (i objavljena).');
+define('_MI_NEWS_GLOBAL_STORYSUBMIT_NOTIFYDSC','Dobija se obavijest ako je nova vijest poslata i objavljena.');
+define('_MI_NEWS_GLOBAL_STORYSUBMIT_NOTIFYSBJ','[{X_SITENAME}] {X_MODULE} Automatska obavijest: Nova vijest je poslata.');
 
-define('_MI_NEWS_GLOBAL_NEWSTORY_NOTIFY', 'Nova vijest');
-define('_MI_NEWS_GLOBAL_NEWSTORY_NOTIFYCAP', 'Obavijest ako je nova vijest objavljena.');
-define('_MI_NEWS_GLOBAL_NEWSTORY_NOTIFYDSC', 'Dobija se obavijest ako je nova vijest objavljena.');
-define('_MI_NEWS_GLOBAL_NEWSTORY_NOTIFYSBJ', '[{X_SITENAME}] {X_MODULE} Automatska vijest: Nova vijest je objavljena.');
+define('_MI_NEWS_GLOBAL_NEWSTORY_NOTIFY','Nova vijest');
+define('_MI_NEWS_GLOBAL_NEWSTORY_NOTIFYCAP','Obavijest ako je nova vijest objavljena.');
+define('_MI_NEWS_GLOBAL_NEWSTORY_NOTIFYDSC','Dobija se obavijest ako je nova vijest objavljena.');
+define('_MI_NEWS_GLOBAL_NEWSTORY_NOTIFYSBJ','[{X_SITENAME}] {X_MODULE} Automatska vijest: Nova vijest je objavljena.');
 
-define('_MI_NEWS_STORY_APPROVE_NOTIFY', 'Vijest objavljena');
-define('_MI_NEWS_STORY_APPROVE_NOTIFYCAP', 'Obavijesti me ako je ova vijest objavljena.');
-define('_MI_NEWS_STORY_APPROVE_NOTIFYDSC', 'Dobija se obavijest ako je ova vijest objavljena.');
-define('_MI_NEWS_STORY_APPROVE_NOTIFYSBJ', '[{X_SITENAME}] {X_MODULE} Automatska obavijest: Vijest je objavljena');
+define('_MI_NEWS_STORY_APPROVE_NOTIFY','Vijest objavljena');
+define('_MI_NEWS_STORY_APPROVE_NOTIFYCAP','Obavijesti me ako je ova vijest objavljena.');
+define('_MI_NEWS_STORY_APPROVE_NOTIFYDSC','Dobija se obavijest ako je ova vijest objavljena.');
+define('_MI_NEWS_STORY_APPROVE_NOTIFYSBJ','[{X_SITENAME}] {X_MODULE} Automatska obavijest: Vijest je objavljena');
 
-define('_MI_RESTRICTINDEX', 'Teme na index stranici ne prikazivati?');
-define('_MI_RESTRICTINDEXDSC', 'Ako je DA izabrano, onda se na index stranici vide samo nove vijesti bez oznaka na Teme za koje Grupe imaju svoje odobrenje');
+define('_MI_RESTRICTINDEX','Teme na index stranici ne prikazivati?');
+define('_MI_RESTRICTINDEXDSC','Ako je DA izabrano, onda se na index stranici vide samo nove vijesti bez oznaka na Teme za koje Grupe imaju svoje odobrenje');
 
-define('_MI_NEWSBYTHISAUTHOR', 'Vijesti od istog Autora');
-define('_MI_NEWSBYTHISAUTHORDSC', 'Ako je ova opcija izabrana, onda se prikazuje link \'Vijesti od istog Autora\' ');
+define('_MI_NEWSBYTHISAUTHOR','Vijesti od istog Autora');
+define('_MI_NEWSBYTHISAUTHORDSC','Ako je ova opcija izabrana, onda se prikazuje link \'Vijesti od istog Autora\' ');
 
 define('_MI_NEWS_PREVNEX_LINK','Prikazati? \'Prethodna vijest\' i \'Sljede&#263;a vijest\' link');
 define('_MI_NEWS_PREVNEX_LINK_DESC','Ako je ova opcija izabrana, onda se prikazuju dva linka ispod vijesti.');
@@ -111,10 +111,10 @@ define('_MI_NEWS_AUTHOR_EDIT_DESC','Ako je ova opcija izabrana, onda Autori mogu
 define('_MI_NEWS_RATE_NEWS','Smiju li posjetioci vijesti ocjenuti?');
 define('_MI_NEWS_TOPICS_RSS','Treba li RSS feeds za Teme aktivirati?');
 define('_MI_NEWS_TOPICS_RSS_DESC',"Ako je ova opcija izabrana, onda se Teme sa svojim sadr&#382;ajem u RSS feeds mogu opozivati.");
-define('_MI_NEWS_DATEFORMAT', "Datumski format");
+define('_MI_NEWS_DATEFORMAT',"Datumski format");
 define('_MI_NEWS_DATEFORMAT_DESC',"Daljne informacije za formatiranje datuma su ovdje: (http://de3.php.net/manual/de/function.date.php) Ako nikakav format nije upisan u ovo polje, onda se standardni format prikazuje.");
-define('_MI_NEWS_META_DATA', "Smiju li se Meta podaci (klju&#269;ne rije&#269;i i opis) dodavati?");
-define('_MI_NEWS_META_DATA_DESC', "Ako je ova opcija izabrana, onda Grupe koje imaju odobrenja vijesti od drugih odobravati mogu Meta podatke u vijest dodavati.");
+define('_MI_NEWS_META_DATA',"Smiju li se Meta podaci (klju&#269;ne rije&#269;i i opis) dodavati?");
+define('_MI_NEWS_META_DATA_DESC',"Ako je ova opcija izabrana, onda Grupe koje imaju odobrenja vijesti od drugih odobravati mogu Meta podatke u vijest dodavati.");
 define('_MI_NEWS_BNAME8','Slu&#269;ajna vijest');
 define('_MI_NEWS_NEWSLETTER','Newsletter');
 define('_MI_NEWS_STATS','Statistika');
@@ -168,13 +168,13 @@ define("_MI_NEWS_ENHANCED_PAGENAV_DSC","With this option you can separate your p
 define('_MI_NEWS_CATEGORY_NOTIFY','Kategorije');
 define('_MI_NEWS_CATEGORY_NOTIFYDSC','Opcija obavje&scaron;tavanja kod novih upisanih sadr&#382;aja u Kategorijama');
 
-define('_MI_NEWS_CATEGORY_STORYPOSTED_NOTIFY', 'Novi sadr&#382;aj je poslat');
-define('_MI_NEWS_CATEGORY_STORYPOSTED_NOTIFYCAP', 'Obavjesti me, ako je novi sadr&#382;aj u ovoj kategoriji objavljen.');
-define('_MI_NEWS_CATEGORY_STORYPOSTED_NOTIFYDSC', 'Obavjest, ako je novi sadr&#382;aj u ovoj kategoriji objavljen.');
-define('_MI_NEWS_CATEGORY_STORYPOSTED_NOTIFYSBJ', '[{X_SITENAME}] {X_MODULE} auto-obavijest : Novi sadr&#382;aj');
+define('_MI_NEWS_CATEGORY_STORYPOSTED_NOTIFY','Novi sadr&#382;aj je poslat');
+define('_MI_NEWS_CATEGORY_STORYPOSTED_NOTIFYCAP','Obavjesti me, ako je novi sadr&#382;aj u ovoj kategoriji objavljen.');
+define('_MI_NEWS_CATEGORY_STORYPOSTED_NOTIFYDSC','Obavjest, ako je novi sadr&#382;aj u ovoj kategoriji objavljen.');
+define('_MI_NEWS_CATEGORY_STORYPOSTED_NOTIFYSBJ','[{X_SITENAME}] {X_MODULE} auto-obavijest : Novi sadr&#382;aj');
 // Added in version 1.63
-define('_MI_NEWS_TAGS', "Koristi tagove sistema ?");
-define('_MI_NEWS_TAGS_DSC', "Oni se nalaze u XOOPS modulu koji se zove Tag od phppp");
-define("_MI_NEWS_BNAME10", "Skup Tagova");
-define("_MI_NEWS_BNAME11", "Top Tagovi");
+define('_MI_NEWS_TAGS',"Koristi tagove sistema ?");
+define('_MI_NEWS_TAGS_DSC',"Oni se nalaze u XOOPS modulu koji se zove Tag od phppp");
+define("_MI_NEWS_BNAME10","Skup Tagova");
+define("_MI_NEWS_BNAME11","Top Tagovi");
 ?>

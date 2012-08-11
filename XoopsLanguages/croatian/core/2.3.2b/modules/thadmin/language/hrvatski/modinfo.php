@@ -17,14 +17,14 @@
 
 // prijevod na hrvatski: Ivan Kosak (www.xoopshr.org) 14.2.2009
 // Main
-define('_THADMIN_MODULE_NAME', 'ThAdmin');
-define('_THADMIN_MODULE_DESC', 'ThAdmin je modul za upravljanje vašom administracijskom temom');
+define('_THADMIN_MODULE_NAME','ThAdmin');
+define('_THADMIN_MODULE_DESC','ThAdmin je modul za upravljanje vašom administracijskom temom');
 // Menu
-define('_THADMIN_MENU_HOME', 'Početna');
-define('_THADMIN_MENU_HELP', 'Pomoć');
+define('_THADMIN_MENU_HOME','Početna');
+define('_THADMIN_MENU_HELP','Pomoć');
 // Settings
-define('_THADMIN_ADMINTHEME', 'Zadana tema');
-define('_THADMIN_ADMINTHEME_DESC', 'Izaberi zadanu temu za vaš administracijski dio');
-define('_THADMIN_CPANELEONLY', 'Prikaz upozorenja ?');
-define('_THADMIN_CPANELEONLY_DESC', 'Sakriva poruke upozorenja na sučelju kontrolne ploče');
+define('_THADMIN_ADMINTHEME','Zadana tema');
+define('_THADMIN_ADMINTHEME_DESC','Izaberi zadanu temu za vaš administracijski dio');
+define('_THADMIN_CPANELEONLY','Prikaz upozorenja ?');
+define('_THADMIN_CPANELEONLY_DESC','Sakriva poruke upozorenja na sučelju kontrolne ploče');
 ?>

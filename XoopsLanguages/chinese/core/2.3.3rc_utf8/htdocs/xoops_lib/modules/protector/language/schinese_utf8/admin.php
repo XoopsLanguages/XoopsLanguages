@@ -13,31 +13,31 @@ define("_AM_TH_AGENT","浏览器");
 define("_AM_TH_TYPE","类型");
 define("_AM_TH_DESCRIPTION","描述");
 
-define( "_AM_TH_BADIPS" , '恶意IP地址<br /><br /><span style="font-weight:normal;">每行一个IP地址<br />如果此项为空，则所有的IP地址都可以访问。</span>' ) ;
+define("_AM_TH_BADIPS" , '恶意IP地址<br /><br /><span style="font-weight:normal;">每行一个IP地址<br />如果此项为空，则所有的IP地址都可以访问。</span>' ) ;
 
-define( "_AM_TH_GROUP1IPS" , '允许登录管理员群组的IP地址（Group=1）<br /><br /><span style="font-weight:normal;">每行一个IP地址。<br />192.168. means 192.168.*<br />如果此项为空，则所有的IP地址都可以访问。</span>' ) ;
+define("_AM_TH_GROUP1IPS" , '允许登录管理员群组的IP地址（Group=1）<br /><br /><span style="font-weight:normal;">每行一个IP地址。<br />192.168. means 192.168.*<br />如果此项为空，则所有的IP地址都可以访问。</span>' ) ;
 
-define( "_AM_LABEL_COMPACTLOG" , "压缩日志  " ) ;
-define( "_AM_BUTTON_COMPACTLOG" , "确定" ) ;
-define( "_AM_JS_COMPACTLOGCONFIRM" , "重复的 (IP地址,类型) 记录将被删除" ) ;
-define( "_AM_LABEL_REMOVEALL" , "删除全部记录  " ) ;
-define( "_AM_BUTTON_REMOVEALL" , "确定" ) ;
-define( "_AM_JS_REMOVEALLCONFIRM" , "确认删除全部记录" ) ;
-define( "_AM_LABEL_REMOVE" , "删除所选记录: " ) ;
-define( "_AM_BUTTON_REMOVE" , "确定" ) ;
-define( "_AM_JS_REMOVECONFIRM" , "确定是否删除所选记录" ) ;
-define( "_AM_MSG_IPFILESUPDATED" , "IP地址记录文件已经更新" ) ;
-define( "_AM_MSG_BADIPSCANTOPEN" , "恶意IP地址记录文件无法打开" ) ;
-define( "_AM_MSG_GROUP1IPSCANTOPEN" , "管理员组（ group=1 ）IP地址访问配置文件无法打开" ) ;
-define( "_AM_MSG_REMOVED" , "记录已被删除" ) ;
-define( "_AM_FMT_CONFIGSNOTWRITABLE" , "设置配置文件目录: %s 属性为可写。" ) ;
+define("_AM_LABEL_COMPACTLOG" , "压缩日志  " ) ;
+define("_AM_BUTTON_COMPACTLOG" , "确定" ) ;
+define("_AM_JS_COMPACTLOGCONFIRM" , "重复的 (IP地址,类型) 记录将被删除" ) ;
+define("_AM_LABEL_REMOVEALL" , "删除全部记录  " ) ;
+define("_AM_BUTTON_REMOVEALL" , "确定" ) ;
+define("_AM_JS_REMOVEALLCONFIRM" , "确认删除全部记录" ) ;
+define("_AM_LABEL_REMOVE" , "删除所选记录: " ) ;
+define("_AM_BUTTON_REMOVE" , "确定" ) ;
+define("_AM_JS_REMOVECONFIRM" , "确定是否删除所选记录" ) ;
+define("_AM_MSG_IPFILESUPDATED" , "IP地址记录文件已经更新" ) ;
+define("_AM_MSG_BADIPSCANTOPEN" , "恶意IP地址记录文件无法打开" ) ;
+define("_AM_MSG_GROUP1IPSCANTOPEN" , "管理员组（ group=1 ）IP地址访问配置文件无法打开" ) ;
+define("_AM_MSG_REMOVED" , "记录已被删除" ) ;
+define("_AM_FMT_CONFIGSNOTWRITABLE" , "设置配置文件目录: %s 属性为可写。" ) ;
 
 
 // prefix_manager.php
-define( "_AM_H3_PREFIXMAN" , "数据表前缀管理" ) ;
-define( "_AM_MSG_DBUPDATED" , "数据库更新成功" ) ;
-define( "_AM_CONFIRM_DELETE" , "所有数据将被删除" ) ;
-define( "_AM_TXT_HOWTOCHANGEDB" , "如果你想改变前缀,<br /> 请手动编辑 %s/mainfile.php .<br /><br />define('XOOPS_DB_PREFIX', '<b>%s</b>');" ) ;
+define("_AM_H3_PREFIXMAN" , "数据表前缀管理" ) ;
+define("_AM_MSG_DBUPDATED" , "数据库更新成功" ) ;
+define("_AM_CONFIRM_DELETE" , "所有数据将被删除" ) ;
+define("_AM_TXT_HOWTOCHANGEDB" , "如果你想改变前缀,<br /> 请手动编辑 %s/mainfile.php .<br /><br />define('XOOPS_DB_PREFIX','<b>%s</b>');" ) ;
 
 
 // advisory.php

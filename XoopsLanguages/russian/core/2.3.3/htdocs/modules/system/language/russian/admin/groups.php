@@ -34,10 +34,10 @@ define("_AM_UNEED2ENTER","Необходимо заполнить обязате
 // Added in RC3
 define("_AM_BLOCKRIGHTS","Права доступа к блокам");
 
-define('_AM_FINDU4GROUP', 'Искать пользователей для этой группы');
-define('_AM_GROUPSMAIN', 'Группы участников');
+define('_AM_FINDU4GROUP','Искать пользователей для этой группы');
+define('_AM_GROUPSMAIN','Группы участников');
 
-define('_AM_ADMINNO', 'Хотя бы один пользователь должен быть в данной группе (Web-мастеры)');
+define('_AM_ADMINNO','Хотя бы один пользователь должен быть в данной группе (Web-мастеры)');
 
 // Custom block, suggested by trabis
 define("_AM_CUSTOMBLOCK","Блоки пользователя");

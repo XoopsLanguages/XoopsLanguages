@@ -1,14 +1,14 @@
 <?php
 //Permission
-define( "GPERM_MESS" , 8 ) ;
-define( "GPERM_OEIL" , 32 ) ;
-define( "GPERM_EXP" , 64 ) ;
-define( "GPERM_UP" , 128 ) ;
+define("GPERM_MESS" , 8 ) ;
+define("GPERM_OEIL" , 32 ) ;
+define("GPERM_EXP" , 64 ) ;
+define("GPERM_UP" , 128 ) ;
 
 //form
 define("_MP_HOME","Po&#269;etna stranica");
 define("_PM_RECE","Ulazna po&scaron;ta");
-define("_MD_NUMBYTES", "%s bita");
+define("_MD_NUMBYTES","%s bita");
 define("_PM_REDNON","Gre&scaron;ka: Tebi nije dozvoljeno da ovu radnju izvr&scaron;i&scaron;");
 define("_PM_REDPURGE","Gre&scaron;ka: Hvala ti &scaron;to si sortirao(la) svoje poruke");
 define("_PM_PURGEMES","Gre&scaron;ka: Hvala ti &scaron;to si sortirao(la) svoje poruke");
@@ -244,7 +244,7 @@ define("_MP_INDEX_OPTN_DESC","Pristup za postavke tvoga Profila �privatne poru
 //217
 
 define("_MP_MDELALL","Isprazni");
-define("_MP_NHTML", "Nije dozvoljeno HTML koristiti");
+define("_MP_NHTML","Nije dozvoljeno HTML koristiti");
 define('_MP_OHTML','Dozvoljeno je HTML koristiti');
 define('_MP_NONESUBJ','Bez razloga');
 ?>

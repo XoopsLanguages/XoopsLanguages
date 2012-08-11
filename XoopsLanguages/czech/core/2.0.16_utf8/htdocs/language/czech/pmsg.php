@@ -37,8 +37,8 @@ define("_PM_DATE","Datum");
 define("_PM_NOTREAD","Nepřečteno");
 define("_PM_SEND","Odeslat");
 define("_PM_DELETE","Smazat");
-define("_PM_REPLY", "Odpovědět");
+define("_PM_REPLY","Odpovědět");
 define("_PM_PLZREG","Nejprve se prosím zaregistrujte!");
 
-define("_PM_ONLINE", "Online");
+define("_PM_ONLINE","Online");
 ?>

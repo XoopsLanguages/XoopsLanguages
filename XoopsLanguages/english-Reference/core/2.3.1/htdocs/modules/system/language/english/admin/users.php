@@ -54,7 +54,7 @@ define("_AM_CNGTST","Could not get total stories");
 define("_AM_CNUUSER","Could not update user");
 define("_AM_CNGUSERID","Could not get user IDS");
 define("_AM_LIST","List");
-define("_AM_NOUSERS", "No users selected");
+define("_AM_NOUSERS","No users selected");
 
 define("_AM_CNRNU2","The new user could not be added to groups: %s.");
 ?>

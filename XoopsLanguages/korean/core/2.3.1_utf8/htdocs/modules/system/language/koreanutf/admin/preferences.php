@@ -102,87 +102,87 @@ define("_MD_AM_ADMINACTV","관리자가 계정 활성화 여부를 결정");
 define("_MD_AM_ACTVTYPE","신규 회원 계정의 활성화 방식을 선택해 주세요!");
 define("_MD_AM_ACTVGROUP","계정 활성화 확인 의뢰 메일을 받을 그룹을 선택해 주세요!");
 define("_MD_AM_ACTVGROUPDSC","관리자가 계정 활성화 여부를 결정 을 선택하신 경우만 유효함");
-define('_MD_AM_USESSL', '로그인에 SSL을 사용');
-define('_MD_AM_SSLPOST', 'SSL로그인시에 사용할 POST변수의 이름');
-define('_MD_AM_SSLPOSTDSC', 'The name of variable used to transfer session value via POST. If you are unsure, set any name that is hard to guess.');
+define('_MD_AM_USESSL','로그인에 SSL을 사용');
+define('_MD_AM_SSLPOST','SSL로그인시에 사용할 POST변수의 이름');
+define('_MD_AM_SSLPOSTDSC','The name of variable used to transfer session value via POST. If you are unsure, set any name that is hard to guess.');
 define('_MD_AM_DEBUGMODE0','오프(껌)');
 define('_MD_AM_DEBUGMODE1','디버그 사용(인라인 모드)');
 define('_MD_AM_DEBUGMODE2','디버그 사용(팝업 모드)');
 define('_MD_AM_DEBUGMODE3','Smarty 템플렛 디버그');
-define('_MD_AM_MINUNAME', '아이디의 최저 문자수(byte)');
-define('_MD_AM_MAXUNAME', '아이디의 최대 문자수(byte)');
-define('_MD_AM_GENERAL', '일반설정');
-define('_MD_AM_USERSETTINGS', '등록회원 정보설정');
-define('_MD_AM_ALLWCHGMAIL', '등록회원의 자기 메일주소 변경을 허용함');
-define('_MD_AM_ALLWCHGMAILDSC', '');
-define('_MD_AM_IPBAN', 'IP 차단(IP Banning)');
-define('_MD_AM_BADEMAILS', '회원의 메일주소로서 사용할 수 없는 문자열');
-define('_MD_AM_BADEMAILSDSC', '각각의 문자열은 <b>|</b> 로 구분, 대소문자는 구별하지 않음, 정규식 사용가능');
-define('_MD_AM_BADUNAMES', '아이디로 사용할 수 없는 문자열');
-define('_MD_AM_BADUNAMESDSC', '각각의 문자열은 <b>|</b> 로 구분, 대소문자는 구별하지 않음, 정규식 사용가능');
-define('_MD_AM_DOBADIPS', 'IP 차단(IP bans) 사용');
-define('_MD_AM_DOBADIPSDSC', '해당 IP 주소로부터 이 사이트로의 접속은 차단됩니다.');
-define('_MD_AM_BADIPS', '차단 처리할 IP 주소를 입력해 주세요!<br />각 IP주소는 <b>|</b> 로 구분, 대소문자 구별하지 않음, 정규식 사용가능');
-define('_MD_AM_BADIPSDSC', '^aaa.bbb.ccc 는 aaa.bbb.ccc 로 시작하는 IP주소를 차단,<br />aaa.bbb.ccc$ 는 aaa.bbb.ccc로 끝나는 IP주소를 차단,<br />aaa.bbb.ccc 는 aaa.bbb.ccc 를 포함한 IP주소를 차단합니다.');
-define('_MD_AM_PREFMAIN', '시스템 설정 메인');
-define('_MD_AM_METAKEY', 'Meta태그(키워드[Keywords])');
-define('_MD_AM_METAKEYDSC', '키워드[Keywords] Meta태그는 사이트의 내용을 표현합니다. 각 키워드는 쉼표(콤마)로 구분해 주세요!(Ex. XOOPS, PHP, mySQL, portal system)');
-define('_MD_AM_METARATING', 'Meta태그(등급[Rating])');
-define('_MD_AM_METARATINGDSC', '사이트 접속 대상 연령층을 지정합니다.');
-define('_MD_AM_METAOGEN', 'General');
-define('_MD_AM_METAO14YRS', '14 years');
-define('_MD_AM_METAOREST', 'Restricted');
-define('_MD_AM_METAOMAT', 'Mature');
-define('_MD_AM_METAROBOTS', 'Meta태그(검색로봇[Robots])');
-define('_MD_AM_METAROBOTSDSC', '검색로봇에의 대응방식을 지정합니다.');
-define('_MD_AM_INDEXFOLLOW', 'Index, Follow');
-define('_MD_AM_NOINDEXFOLLOW', 'No Index, Follow');
-define('_MD_AM_INDEXNOFOLLOW', 'Index, No Follow');
-define('_MD_AM_NOINDEXNOFOLLOW', 'No Index, No Follow');
-define('_MD_AM_METAAUTHOR', 'Meta태그(작성자[Author])');
-define('_MD_AM_METAAUTHORDSC', '작성자 Meta태크는 사이트 문서의 작성자 정보를 정의합니다. 이름, 웹마스터 메일주소, 회사명, URL등을 기입하실 수 있습니다. ');
-define('_MD_AM_METACOPYR', 'Meta태그(저작권[Copyright])');
-define('_MD_AM_METACOPYRDSC', '저작권 Meta태그는 사이트 내의 정보에 대한 저작권정보를 정의합니다.');
-define('_MD_AM_METADESC', 'Meta태그(내용설명[Description])');
-define('_MD_AM_METADESCDSC', '내용설명 Meta태그는 사이트의 내용을 설명하기위한 태그입니다.');
-define('_MD_AM_METAFOOTER', 'Meta태그/Footer 설정');
-define('_MD_AM_FOOTER', 'Footer');
-define('_MD_AM_FOOTERDSC', '링크를 기술하실때에는 반드시 전체 패스(http://~)를 입력하시기 바랍니다. 그렇게 하지 않으면 모듈내의 페이지에서 올바르게 표시되지 않을 수 있습니다.');
-define('_MD_AM_CENSOR', '금지용어 설정');
-define('_MD_AM_DOCENSOR', '금지용어 설정을 사용함');
-define('_MD_AM_DOCENSORDSC', '이 기능을 ON(사용)할 경우엔 금지용어를 체크하게 됩니다.(사이트 처리스피드를 중시할 경우엔 OFF로 설정하세요.)');
-define('_MD_AM_CENSORWRD', '금지용어');
-define('_MD_AM_CENSORWRDDSC', '사용자가 투고시 사용을 금지할 문자열을 입력해 주세요!<br />각 문자열은 <b>|</b>로 구분, 대소문자 구별하지 않음.');
-define('_MD_AM_CENSORRPLC', '금지용어 대신 표시할 문자열:');
-define('_MD_AM_CENSORRPLCDSC', '금지용어가 있을 경우 이곳에 기입하신 문자열로 대치되게 됩니다.');
+define('_MD_AM_MINUNAME','아이디의 최저 문자수(byte)');
+define('_MD_AM_MAXUNAME','아이디의 최대 문자수(byte)');
+define('_MD_AM_GENERAL','일반설정');
+define('_MD_AM_USERSETTINGS','등록회원 정보설정');
+define('_MD_AM_ALLWCHGMAIL','등록회원의 자기 메일주소 변경을 허용함');
+define('_MD_AM_ALLWCHGMAILDSC','');
+define('_MD_AM_IPBAN','IP 차단(IP Banning)');
+define('_MD_AM_BADEMAILS','회원의 메일주소로서 사용할 수 없는 문자열');
+define('_MD_AM_BADEMAILSDSC','각각의 문자열은 <b>|</b> 로 구분, 대소문자는 구별하지 않음, 정규식 사용가능');
+define('_MD_AM_BADUNAMES','아이디로 사용할 수 없는 문자열');
+define('_MD_AM_BADUNAMESDSC','각각의 문자열은 <b>|</b> 로 구분, 대소문자는 구별하지 않음, 정규식 사용가능');
+define('_MD_AM_DOBADIPS','IP 차단(IP bans) 사용');
+define('_MD_AM_DOBADIPSDSC','해당 IP 주소로부터 이 사이트로의 접속은 차단됩니다.');
+define('_MD_AM_BADIPS','차단 처리할 IP 주소를 입력해 주세요!<br />각 IP주소는 <b>|</b> 로 구분, 대소문자 구별하지 않음, 정규식 사용가능');
+define('_MD_AM_BADIPSDSC','^aaa.bbb.ccc 는 aaa.bbb.ccc 로 시작하는 IP주소를 차단,<br />aaa.bbb.ccc$ 는 aaa.bbb.ccc로 끝나는 IP주소를 차단,<br />aaa.bbb.ccc 는 aaa.bbb.ccc 를 포함한 IP주소를 차단합니다.');
+define('_MD_AM_PREFMAIN','시스템 설정 메인');
+define('_MD_AM_METAKEY','Meta태그(키워드[Keywords])');
+define('_MD_AM_METAKEYDSC','키워드[Keywords] Meta태그는 사이트의 내용을 표현합니다. 각 키워드는 쉼표(콤마)로 구분해 주세요!(Ex. XOOPS, PHP, mySQL, portal system)');
+define('_MD_AM_METARATING','Meta태그(등급[Rating])');
+define('_MD_AM_METARATINGDSC','사이트 접속 대상 연령층을 지정합니다.');
+define('_MD_AM_METAOGEN','General');
+define('_MD_AM_METAO14YRS','14 years');
+define('_MD_AM_METAOREST','Restricted');
+define('_MD_AM_METAOMAT','Mature');
+define('_MD_AM_METAROBOTS','Meta태그(검색로봇[Robots])');
+define('_MD_AM_METAROBOTSDSC','검색로봇에의 대응방식을 지정합니다.');
+define('_MD_AM_INDEXFOLLOW','Index, Follow');
+define('_MD_AM_NOINDEXFOLLOW','No Index, Follow');
+define('_MD_AM_INDEXNOFOLLOW','Index, No Follow');
+define('_MD_AM_NOINDEXNOFOLLOW','No Index, No Follow');
+define('_MD_AM_METAAUTHOR','Meta태그(작성자[Author])');
+define('_MD_AM_METAAUTHORDSC','작성자 Meta태크는 사이트 문서의 작성자 정보를 정의합니다. 이름, 웹마스터 메일주소, 회사명, URL등을 기입하실 수 있습니다. ');
+define('_MD_AM_METACOPYR','Meta태그(저작권[Copyright])');
+define('_MD_AM_METACOPYRDSC','저작권 Meta태그는 사이트 내의 정보에 대한 저작권정보를 정의합니다.');
+define('_MD_AM_METADESC','Meta태그(내용설명[Description])');
+define('_MD_AM_METADESCDSC','내용설명 Meta태그는 사이트의 내용을 설명하기위한 태그입니다.');
+define('_MD_AM_METAFOOTER','Meta태그/Footer 설정');
+define('_MD_AM_FOOTER','Footer');
+define('_MD_AM_FOOTERDSC','링크를 기술하실때에는 반드시 전체 패스(http://~)를 입력하시기 바랍니다. 그렇게 하지 않으면 모듈내의 페이지에서 올바르게 표시되지 않을 수 있습니다.');
+define('_MD_AM_CENSOR','금지용어 설정');
+define('_MD_AM_DOCENSOR','금지용어 설정을 사용함');
+define('_MD_AM_DOCENSORDSC','이 기능을 ON(사용)할 경우엔 금지용어를 체크하게 됩니다.(사이트 처리스피드를 중시할 경우엔 OFF로 설정하세요.)');
+define('_MD_AM_CENSORWRD','금지용어');
+define('_MD_AM_CENSORWRDDSC','사용자가 투고시 사용을 금지할 문자열을 입력해 주세요!<br />각 문자열은 <b>|</b>로 구분, 대소문자 구별하지 않음.');
+define('_MD_AM_CENSORRPLC','금지용어 대신 표시할 문자열:');
+define('_MD_AM_CENSORRPLCDSC','금지용어가 있을 경우 이곳에 기입하신 문자열로 대치되게 됩니다.');
 
-define('_MD_AM_SEARCH', '검색 옵션');
-define('_MD_AM_DOSEARCH', '글로벌 검색기능을 사용함');
-define('_MD_AM_DOSEARCHDSC', '사이트내의 투고글/기사등에 대한 전체검색을 실시합니다.');
-define('_MD_AM_MINSEARCH', '키워드 최저문자수');
-define('_MD_AM_MINSEARCHDSC', '검색을 할 때 필요한 키워드의 최저문자수를 지정합니다.');
-define('_MD_AM_MODCONFIG', '모듈 설정 옵션');
-define('_MD_AM_DSPDSCLMR', '이용약관(disclaimer)을 표시');
-define('_MD_AM_DSPDSCLMRDSC', '예 를 선택하시면 신규등록페이지에 이용약관을 표시합니다.');
-define('_MD_AM_REGDSCLMR', '이용약관(Registration disclaimer)');
-define('_MD_AM_REGDSCLMRDSC', '신규등록 페이지에 표시할 이용약관을 입력해 주세요!');
-define('_MD_AM_ALLOWREG', '신규 회원의 등록을 허용함');
-define('_MD_AM_ALLOWREGDSC', '예 를 선택하시면 신규 회원 등록을 허용하게 됩니다.');
-define('_MD_AM_THEMEFILE', 'themes/ 디렉토리로부터의 자동 업그레이드기능을 사용');
-define('_MD_AM_THEMEFILEDSC', '현재 사용중인 테마보다 갱신일이 더 최근인 파일이 themes/ 디렉토리내에 존재할 경우 자동적으로 DB의 내용을 갱신하게 됩니다. 공개사이트에서는 OFF(껌)로 설정할 것을 추천합니다.');
-define('_MD_AM_CLOSESITE', '사이트 공개중지');
-define('_MD_AM_CLOSESITEDSC', '특정 그룹 이외에는 사이트에 접속하지 못하게 합니다.');
-define('_MD_AM_CLOSESITEOK', '사이트 공개중지시에도 접속을 허용할 그룹');
-define('_MD_AM_CLOSESITEOKDSC', '기본 관리자그룹은 자동적으로 접속이 허용됩니다.');
-define('_MD_AM_CLOSESITETXT', '사이트 공개중지의 이유');
-define('_MD_AM_CLOSESITETXTDSC', '입력하신 글은 사이트 공개중지시에 표시되게 됩니다.');
-define('_MD_AM_SITECACHE', '사이트 캐쉬');
-define('_MD_AM_SITECACHEDSC', '사이트내의 콘텐츠를 모듈별로 캐쉬합니다. 사이트 캐쉬기능은 모듈의 독자적인 캐쉬기능(있는 경우)보다 우선시 됩니다.');
-define('_MD_AM_MODCACHE', '모듈 캐쉬');
-define('_MD_AM_MODCACHEDSC', '각 모듈의 콘텐츠를 캐쉬해 둘 시간의 길이를 지정해 주세요. 모듈에 독자적 캐쉬기능이 있는 경우에는 캐쉬않음 을 선택하실 것을 추천합니다.(블록캐쉬는 포함되지 않습니다.) ');
-define('_MD_AM_NOMODULE', '캐쉬가능한 모듈이 존재하지 않습니다.');
-define('_MD_AM_DTPLSET', '기본 템플렛 세트');
-define('_MD_AM_SSLLINK', 'SSL로그인 페이지 URL');
+define('_MD_AM_SEARCH','검색 옵션');
+define('_MD_AM_DOSEARCH','글로벌 검색기능을 사용함');
+define('_MD_AM_DOSEARCHDSC','사이트내의 투고글/기사등에 대한 전체검색을 실시합니다.');
+define('_MD_AM_MINSEARCH','키워드 최저문자수');
+define('_MD_AM_MINSEARCHDSC','검색을 할 때 필요한 키워드의 최저문자수를 지정합니다.');
+define('_MD_AM_MODCONFIG','모듈 설정 옵션');
+define('_MD_AM_DSPDSCLMR','이용약관(disclaimer)을 표시');
+define('_MD_AM_DSPDSCLMRDSC','예 를 선택하시면 신규등록페이지에 이용약관을 표시합니다.');
+define('_MD_AM_REGDSCLMR','이용약관(Registration disclaimer)');
+define('_MD_AM_REGDSCLMRDSC','신규등록 페이지에 표시할 이용약관을 입력해 주세요!');
+define('_MD_AM_ALLOWREG','신규 회원의 등록을 허용함');
+define('_MD_AM_ALLOWREGDSC','예 를 선택하시면 신규 회원 등록을 허용하게 됩니다.');
+define('_MD_AM_THEMEFILE','themes/ 디렉토리로부터의 자동 업그레이드기능을 사용');
+define('_MD_AM_THEMEFILEDSC','현재 사용중인 테마보다 갱신일이 더 최근인 파일이 themes/ 디렉토리내에 존재할 경우 자동적으로 DB의 내용을 갱신하게 됩니다. 공개사이트에서는 OFF(껌)로 설정할 것을 추천합니다.');
+define('_MD_AM_CLOSESITE','사이트 공개중지');
+define('_MD_AM_CLOSESITEDSC','특정 그룹 이외에는 사이트에 접속하지 못하게 합니다.');
+define('_MD_AM_CLOSESITEOK','사이트 공개중지시에도 접속을 허용할 그룹');
+define('_MD_AM_CLOSESITEOKDSC','기본 관리자그룹은 자동적으로 접속이 허용됩니다.');
+define('_MD_AM_CLOSESITETXT','사이트 공개중지의 이유');
+define('_MD_AM_CLOSESITETXTDSC','입력하신 글은 사이트 공개중지시에 표시되게 됩니다.');
+define('_MD_AM_SITECACHE','사이트 캐쉬');
+define('_MD_AM_SITECACHEDSC','사이트내의 콘텐츠를 모듈별로 캐쉬합니다. 사이트 캐쉬기능은 모듈의 독자적인 캐쉬기능(있는 경우)보다 우선시 됩니다.');
+define('_MD_AM_MODCACHE','모듈 캐쉬');
+define('_MD_AM_MODCACHEDSC','각 모듈의 콘텐츠를 캐쉬해 둘 시간의 길이를 지정해 주세요. 모듈에 독자적 캐쉬기능이 있는 경우에는 캐쉬않음 을 선택하실 것을 추천합니다.(블록캐쉬는 포함되지 않습니다.) ');
+define('_MD_AM_NOMODULE','캐쉬가능한 모듈이 존재하지 않습니다.');
+define('_MD_AM_DTPLSET','기본 템플렛 세트');
+define('_MD_AM_SSLLINK','SSL로그인 페이지 URL');
 
 // added for mailer
 define("_MD_AM_MAILER","메일 설정");
@@ -210,13 +210,13 @@ define("_MD_AM_THEMEOK","선택가능한 테마");
 define("_MD_AM_THEMEOKDSC","사용자가 기본테마로 선택할 수 있게 할 테마를 선택해 주세요.");
 
 // Xoops Authentication constants
-define("_MD_AM_AUTH_CONFOPTION_XOOPS", "XOOPS Database");
-define("_MD_AM_AUTH_CONFOPTION_LDAP", "Standard LDAP Directory");
-define("_MD_AM_AUTH_CONFOPTION_AD", "Microsoft Active Directory &copy");
-define("_MD_AM_AUTHENTICATION", "인증 옵션");
-define("_MD_AM_AUTHMETHOD", "인증 방식");
-define("_MD_AM_AUTHMETHODDESC", "사용자 인증을 위해 어떤 인증방식을 사용하시겠습니까?");
-define("_MD_AM_LDAP_MAIL_ATTR", "LDAP - Mail 필드명");
+define("_MD_AM_AUTH_CONFOPTION_XOOPS","XOOPS Database");
+define("_MD_AM_AUTH_CONFOPTION_LDAP","Standard LDAP Directory");
+define("_MD_AM_AUTH_CONFOPTION_AD","Microsoft Active Directory &copy");
+define("_MD_AM_AUTHENTICATION","인증 옵션");
+define("_MD_AM_AUTHMETHOD","인증 방식");
+define("_MD_AM_AUTHMETHODDESC","사용자 인증을 위해 어떤 인증방식을 사용하시겠습니까?");
+define("_MD_AM_LDAP_MAIL_ATTR","LDAP - Mail 필드명");
 define("_MD_AM_LDAP_MAIL_ATTR_DESC","LDAP directory tree에서의 E-Mail 필드명");
 define("_MD_AM_LDAP_NAME_ATTR","LDAP - Common Name 필드명");
 define("_MD_AM_LDAP_NAME_ATTR_DESC","LDAP directory에서의 Common Name 필드명");
@@ -224,63 +224,63 @@ define("_MD_AM_LDAP_SURNAME_ATTR","LDAP - Surname 필드명");
 define("_MD_AM_LDAP_SURNAME_ATTR_DESC","LDAP directory에서의 성(Surname) 필드명");
 define("_MD_AM_LDAP_GIVENNAME_ATTR","LDAP - Given Name 필드명");
 define("_MD_AM_LDAP_GIVENNAME_ATTR_DSC","LDAP directory에서의 Given Name 필드명");
-define("_MD_AM_LDAP_BASE_DN", "LDAP - Base DN");
-define("_MD_AM_LDAP_BASE_DN_DESC", "LDAP directory tree의 base DN (Distinguished Name)");
+define("_MD_AM_LDAP_BASE_DN","LDAP - Base DN");
+define("_MD_AM_LDAP_BASE_DN_DESC","LDAP directory tree의 base DN (Distinguished Name)");
 define("_MD_AM_LDAP_PORT","LDAP - 포트 번호");
 define("_MD_AM_LDAP_PORT_DESC","LDAP directory server 액세스용 포트번호");
 define("_MD_AM_LDAP_SERVER","LDAP - 서버명");
 define("_MD_AM_LDAP_SERVER_DESC","LDAP directory server의 서버명");
 
-define("_MD_AM_LDAP_MANAGER_DN", "LDAP manager의 DN");
-define("_MD_AM_LDAP_MANAGER_DN_DESC", "LDAP manager역할 사용자의 DN");
-define("_MD_AM_LDAP_MANAGER_PASS", "LDAP manager의 패스워드");
-define("_MD_AM_LDAP_MANAGER_PASS_DESC", "LDAP manager역할 사용자의 패스워드");
-define("_MD_AM_LDAP_VERSION", "LDAP 버전 프로토콜");
-define("_MD_AM_LDAP_VERSION_DESC", "LDAP 버전 프로토콜 : 2 또는 3");
+define("_MD_AM_LDAP_MANAGER_DN","LDAP manager의 DN");
+define("_MD_AM_LDAP_MANAGER_DN_DESC","LDAP manager역할 사용자의 DN");
+define("_MD_AM_LDAP_MANAGER_PASS","LDAP manager의 패스워드");
+define("_MD_AM_LDAP_MANAGER_PASS_DESC","LDAP manager역할 사용자의 패스워드");
+define("_MD_AM_LDAP_VERSION","LDAP 버전 프로토콜");
+define("_MD_AM_LDAP_VERSION_DESC","LDAP 버전 프로토콜 : 2 또는 3");
 
-define("_MD_AM_LDAP_USERS_BYPASS", "Users allowed to bypass LDAP authentication");
-define("_MD_AM_LDAP_USERS_BYPASS_DESC", "Users to be authenticated with native XOOPS method");
+define("_MD_AM_LDAP_USERS_BYPASS","Users allowed to bypass LDAP authentication");
+define("_MD_AM_LDAP_USERS_BYPASS_DESC","Users to be authenticated with native XOOPS method");
 
-define("_MD_AM_LDAP_USETLS", " Use TLS connection");
-define("_MD_AM_LDAP_USETLS_DESC", "Use a TLS (Transport Layer Security) connection. TLS use standard 389 port number<BR>" .
+define("_MD_AM_LDAP_USETLS"," Use TLS connection");
+define("_MD_AM_LDAP_USETLS_DESC","Use a TLS (Transport Layer Security) connection. TLS use standard 389 port number<BR>" .
 								  " and the LDAP version must be set to 3.");
 
 define("_MD_AM_LDAP_LOGINLDAP_ATTR","LDAP Attribute use to search the user");
 define("_MD_AM_LDAP_LOGINLDAP_ATTR_D","When Login name use in the DN option is set to yes, must correspond to the login name XOOPS");
-define("_MD_AM_LDAP_LOGINNAME_ASDN", "Login name use in the DN");
-define("_MD_AM_LDAP_LOGINNAME_ASDN_D", "The XOOPS login name is used in the LDAP DN (eg : uid=<loginname>,dc=xoops,dc=org)<br>The entry is directly read in the LDAP Server without search");
+define("_MD_AM_LDAP_LOGINNAME_ASDN","Login name use in the DN");
+define("_MD_AM_LDAP_LOGINNAME_ASDN_D","The XOOPS login name is used in the LDAP DN (eg : uid=<loginname>,dc=xoops,dc=org)<br>The entry is directly read in the LDAP Server without search");
 
-define("_MD_AM_LDAP_FILTER_PERSON", "The search filter LDAP query to find user");
-define("_MD_AM_LDAP_FILTER_PERSON_DESC", "Special LDAP Filter to find user. @@loginname@@ is replace by the users's login name<br> MUST BE BLANK IF YOU DON'T KNOW WHAT YOU DO' !" .
+define("_MD_AM_LDAP_FILTER_PERSON","The search filter LDAP query to find user");
+define("_MD_AM_LDAP_FILTER_PERSON_DESC","Special LDAP Filter to find user. @@loginname@@ is replace by the users's login name<br> MUST BE BLANK IF YOU DON'T KNOW WHAT YOU DO' !" .
 		"<br>Ex : (&(objectclass=person)(samaccountname=@@loginname@@)) for AD" .
 		"<br>Ex : (&(objectclass=inetOrgPerson)(uid=@@loginname@@)) for LDAP");
 
-define("_MD_AM_LDAP_DOMAIN_NAME", "The domain name");
-define("_MD_AM_LDAP_DOMAIN_NAME_DESC", "Windows domain name. for ADS and NT Server only");
+define("_MD_AM_LDAP_DOMAIN_NAME","The domain name");
+define("_MD_AM_LDAP_DOMAIN_NAME_DESC","Windows domain name. for ADS and NT Server only");
 
-define("_MD_AM_LDAP_PROVIS", "Automatic xoops account provisionning");
-define("_MD_AM_LDAP_PROVIS_DESC", "Create xoops user database if not exists");
+define("_MD_AM_LDAP_PROVIS","Automatic xoops account provisionning");
+define("_MD_AM_LDAP_PROVIS_DESC","Create xoops user database if not exists");
 
-define("_MD_AM_LDAP_PROVIS_GROUP", "Default affect group");
-define("_MD_AM_LDAP_PROVIS_GROUP_DSC", "The new user is assign to these groups");
+define("_MD_AM_LDAP_PROVIS_GROUP","Default affect group");
+define("_MD_AM_LDAP_PROVIS_GROUP_DSC","The new user is assign to these groups");
 
-define("_MD_AM_LDAP_FIELD_MAPPING_ATTR", "Xoops-Auth server fields mapping");
-define("_MD_AM_LDAP_FIELD_MAPPING_DESC", "Describe here the mapping between the Xoops database field and the LDAP Authentication system field." .
+define("_MD_AM_LDAP_FIELD_MAPPING_ATTR","Xoops-Auth server fields mapping");
+define("_MD_AM_LDAP_FIELD_MAPPING_DESC","Describe here the mapping between the Xoops database field and the LDAP Authentication system field." .
 		"<br><br>Format [Xoops Database field]=[Auth system LDAP attribute]" .
 		"<br>for example : email=mail" .
 		"<br>Separate each with a |" .
 		"<br><br>!! For advanced users !!");
 
-define("_MD_AM_LDAP_PROVIS_UPD", "Maintain xoops account provisionning");
-define("_MD_AM_LDAP_PROVIS_UPD_DESC", "The Xoops User account is always synchronized with the Authentication Server");
+define("_MD_AM_LDAP_PROVIS_UPD","Maintain xoops account provisionning");
+define("_MD_AM_LDAP_PROVIS_UPD_DESC","The Xoops User account is always synchronized with the Authentication Server");
 
-define("_MD_AM_CPANEL", "관리화면용 테마");
-define("_MD_AM_CPANELDSC", "관리섹션에서 사용하실 테마를 선택해 주세요!");
+define("_MD_AM_CPANEL","관리화면용 테마");
+define("_MD_AM_CPANELDSC","관리섹션에서 사용하실 테마를 선택해 주세요!");
 
-define("_MD_AM_WELCOMETYPE", "환영메세지 보내기");
-define("_MD_AM_WELCOMETYPE_DESC", "신규 등록회원에게 환영메세지를 보내는 방법을 선택해 주세요!");
-define("_MD_AM_WELCOMETYPE_EMAIL", "메일");
-define("_MD_AM_WELCOMETYPE_PM", "PM쪽지");
-define("_MD_AM_WELCOMETYPE_BOTH", "메일과 PM쪽지 모두");
+define("_MD_AM_WELCOMETYPE","환영메세지 보내기");
+define("_MD_AM_WELCOMETYPE_DESC","신규 등록회원에게 환영메세지를 보내는 방법을 선택해 주세요!");
+define("_MD_AM_WELCOMETYPE_EMAIL","메일");
+define("_MD_AM_WELCOMETYPE_PM","PM쪽지");
+define("_MD_AM_WELCOMETYPE_BOTH","메일과 PM쪽지 모두");
 
 ?>

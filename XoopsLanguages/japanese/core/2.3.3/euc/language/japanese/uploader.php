@@ -1,24 +1,24 @@
 <?php
 // $Id: uploader.php 2008-07-29 06:22+09:00  2 8 6 $
-define("_ER_UP_MIMETYPELOAD", "mimetypes¤ÎÄêµÁ¤¬¥¨¥é¡¼¤Ç¤¹");
-define("_ER_UP_FILENOTFOUND", "¥Õ¥¡¥¤¥ë¤¬¸«¤Ä¤«¤ê¤Þ¤»¤ó");
-define("_ER_UP_INVALIDFILESIZE", "Ìµ¸ú¤Î¥Õ¥¡¥¤¥ë¥µ¥¤¥º¤Ç¤¹");
-define("_ER_UP_FILENAMEEMPTY", "¥Õ¥¡¥¤¥ëÌ¾¤¬¶õ¤Ç¤¹¡£");
-define("_ER_UP_NOFILEUPLOADED", "¥¢¥Ã¥×¥í¡¼¥É¤Ç¤­¤Þ¤»¤ó¤Ç¤·¤¿");
-define("_ER_UP_ERROROCCURRED", "¥¨¥é¡¼È¯À¸ ¥¨¥é¡¼ #%s");
-define("_ER_UP_UPLOADDIRNOTSET", "¥¢¥Ã¥×¥í¡¼¥ÉÀè¤Î¥Ç¥£¥ì¥¯¥È¥ê¤¬ÀßÃÖ¤µ¤ì¤Æ¤¤¤Þ¤»¤ó");
-define("_ER_UP_FAILEDOPENDIR", "¥Ç¥£¥ì¥¯¥È¥ê¤¬³«¤±¤Þ¤»¤ó¤Ç¤·¤¿: %s");
-define("_ER_UP_FAILEDOPENDIRWRITE", "½ñ¤­¹þ¤ß¸¢¸Â¤¬¤Ê¤¤¤¿¤á%s¤Î¥Ç¥£¥ì¥¯¥È¥ê¤Ë½ñ¤­¹þ¤ß½ÐÍè¤Þ¤»¤ó¤Ç¤·¤¿¡£");
-define("_ER_UP_FILESIZETOOLARGE", "¥Õ¥¡¥¤¥ë¥µ¥¤¥º¤¬¥ª¡¼¥Ð¡¼¤Ç¤¹ (ºÇÂç %u bytes): %u bytes");
-define("_ER_UP_FILEWIDTHTOOLARGE", "¥Õ¥¡¥¤¥ëÉý¤¬¥ª¡¼¥Ð¡¼¤Ç¤¹(ºÇÂç %u px): %u px");
-define("_ER_UP_FILEHEIGHTTOOLARGE", "¥Õ¥¡¥¤¥ë¹â¤µ¤¬¥ª¡¼¥Ð¡¼¤Ç¤¹ (ºÇÂç %u px): %u px");
-define("_ER_UP_MIMETYPENOTALLOWED", "MIME ¥¿¥¤¥×¤¬µö²Ä¤µ¤ì¤Æ¤¤¤Þ¤»¤ó: %s");
-define("_ER_UP_FAILEDUPLOADFILE", "¥Õ¥¡¥¤¥ë¤¬¥¢¥Ã¥×¥í¡¼¥É½ÐÍè¤Þ¤»¤ó¤Ç¤·¤¿: %s");
-define("_ER_UP_FAILEDFETCHIMAGESIZE", "%s¤Î¥¤¥á¡¼¥¸¥µ¥¤¥º¤ò³ÎÇ§¤Ç¤­¤Þ¤»¤ó¤Ç¤·¤¿¡£ ºÇÂçÀ£Ë¡¤Î¥Á¥§¥Ã¥¯¤ò¥¹¥­¥Ã¥×¤·¤Þ¤¹");
-define("_ER_UP_UNKNOWNFILETYPEREJECTED", "ÅÐÏ¿¤µ¤ì¤Æ¤¤¤Ê¤¤ filetype ¤ÏµñÀä¤·¤Þ¤¹");
-define("_ER_UP_ERRORSRETURNED", "¥¢¥Ã¥×¥í¡¼¥ÉÃæ¤Ë¥¨¥é¡¼¤Ë¤Ê¤ê¤Þ¤·¤¿");
-define("_ER_UP_INVALIDIMAGEFILE", "Ìµ¸ú¤Î¥¤¥á¡¼¥¸¥Õ¥¡¥¤¥ë¤Ç¤¹");
-define("_ER_UP_SUSPICIOUSREFUSED", "µ¿¤ï¤·¤²¤Ê¥¤¥á¡¼¥¸¥¢¥Ã¥×¥í¡¼¥É¤ÏµñÈÝ¤·¤Þ¤·¤¿¡£");
-define("_ER_UP_INVALIDFILENAME", "Ìµ¸ú¤Î¥Õ¥¡¥¤¥ëÌ¾¤Ç¤¹");
-define("_ER_UP_FAILEDSAVEFILE", " %s¤Î¥Õ¥¡¥¤¥ë¤¬ÊÝÂ¸¤Ç¤­¤Þ¤»¤ó¤Ç¤·¤¿");
+define("_ER_UP_MIMETYPELOAD","mimetypesï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½é¡¼ï¿½Ç¤ï¿½");
+define("_ER_UP_FILENOTFOUND","ï¿½Õ¥ï¿½ï¿½ï¿½ï¿½ë¤¬ï¿½ï¿½ï¿½Ä¤ï¿½ï¿½ï¿½Þ¤ï¿½ï¿½ï¿½");
+define("_ER_UP_INVALIDFILESIZE","Ìµï¿½ï¿½ï¿½Î¥Õ¥ï¿½ï¿½ï¿½ï¿½ë¥µï¿½ï¿½ï¿½ï¿½ï¿½Ç¤ï¿½");
+define("_ER_UP_FILENAMEEMPTY","ï¿½Õ¥ï¿½ï¿½ï¿½ï¿½ï¿½Ì¾ï¿½ï¿½ï¿½ï¿½ï¿½Ç¤ï¿½ï¿½ï¿½");
+define("_ER_UP_NOFILEUPLOADED","ï¿½ï¿½ï¿½Ã¥×¥ï¿½ï¿½ï¿½É¤Ç¤ï¿½ï¿½Þ¤ï¿½ï¿½ï¿½Ç¤ï¿½ï¿½ï¿½");
+define("_ER_UP_ERROROCCURRED","ï¿½ï¿½ï¿½é¡¼È¯ï¿½ï¿½ ï¿½ï¿½ï¿½é¡¼ #%s");
+define("_ER_UP_UPLOADDIRNOTSET","ï¿½ï¿½ï¿½Ã¥×¥ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î¥Ç¥ï¿½ï¿½ì¥¯ï¿½È¥ê¤¬ï¿½ï¿½ï¿½Ö¤ï¿½ï¿½ï¿½Æ¤ï¿½ï¿½Þ¤ï¿½ï¿½ï¿½");
+define("_ER_UP_FAILEDOPENDIR","ï¿½Ç¥ï¿½ï¿½ì¥¯ï¿½È¥ê¤¬ï¿½ï¿½ï¿½ï¿½ï¿½Þ¤ï¿½ï¿½ï¿½Ç¤ï¿½ï¿½ï¿½: %s");
+define("_ER_UP_FAILEDOPENDIRWRITE","ï¿½ñ¤­¹ï¿½ï¿½ß¸ï¿½ï¿½Â¤ï¿½ï¿½Ê¤ï¿½ï¿½ï¿½ï¿½ï¿½%sï¿½Î¥Ç¥ï¿½ï¿½ì¥¯ï¿½È¥ï¿½Ë½ñ¤­¹ï¿½ï¿½ß½ï¿½ï¿½ï¿½Þ¤ï¿½ï¿½ï¿½Ç¤ï¿½ï¿½ï¿½ï¿½ï¿½");
+define("_ER_UP_FILESIZETOOLARGE","ï¿½Õ¥ï¿½ï¿½ï¿½ï¿½ë¥µï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð¡ï¿½ï¿½Ç¤ï¿½ (ï¿½ï¿½ï¿½ï¿½ %u bytes): %u bytes");
+define("_ER_UP_FILEWIDTHTOOLARGE","ï¿½Õ¥ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð¡ï¿½ï¿½Ç¤ï¿½(ï¿½ï¿½ï¿½ï¿½ %u px): %u px");
+define("_ER_UP_FILEHEIGHTTOOLARGE","ï¿½Õ¥ï¿½ï¿½ï¿½ï¿½ï¿½â¤µï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð¡ï¿½ï¿½Ç¤ï¿½ (ï¿½ï¿½ï¿½ï¿½ %u px): %u px");
+define("_ER_UP_MIMETYPENOTALLOWED","MIME ï¿½ï¿½ï¿½ï¿½ï¿½×¤ï¿½ï¿½ï¿½ï¿½Ä¤ï¿½ï¿½ï¿½Æ¤ï¿½ï¿½Þ¤ï¿½ï¿½ï¿½: %s");
+define("_ER_UP_FAILEDUPLOADFILE","ï¿½Õ¥ï¿½ï¿½ï¿½ï¿½ë¤¬ï¿½ï¿½ï¿½Ã¥×¥ï¿½ï¿½ï¿½É½ï¿½ï¿½ï¿½Þ¤ï¿½ï¿½ï¿½Ç¤ï¿½ï¿½ï¿½: %s");
+define("_ER_UP_FAILEDFETCHIMAGESIZE","%sï¿½Î¥ï¿½ï¿½á¡¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç§ï¿½Ç¤ï¿½ï¿½Þ¤ï¿½ï¿½ï¿½Ç¤ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ë¡ï¿½Î¥ï¿½ï¿½ï¿½ï¿½Ã¥ï¿½ï¿½ò¥¹¥ï¿½ï¿½Ã¥×¤ï¿½ï¿½Þ¤ï¿½");
+define("_ER_UP_UNKNOWNFILETYPEREJECTED","ï¿½ï¿½Ï¿ï¿½ï¿½ï¿½ï¿½Æ¤ï¿½ï¿½Ê¤ï¿½ filetype ï¿½Ïµï¿½ï¿½ä¤·ï¿½Þ¤ï¿½");
+define("_ER_UP_ERRORSRETURNED","ï¿½ï¿½ï¿½Ã¥×¥ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ë¥ï¿½ï¿½é¡¼ï¿½Ë¤Ê¤ï¿½Þ¤ï¿½ï¿½ï¿½");
+define("_ER_UP_INVALIDIMAGEFILE","Ìµï¿½ï¿½ï¿½Î¥ï¿½ï¿½á¡¼ï¿½ï¿½ï¿½Õ¥ï¿½ï¿½ï¿½ï¿½ï¿½Ç¤ï¿½");
+define("_ER_UP_SUSPICIOUSREFUSED","ï¿½ï¿½ï¿½ï¤·ï¿½ï¿½ï¿½Ê¥ï¿½ï¿½á¡¼ï¿½ï¿½ï¿½ï¿½ï¿½Ã¥×¥ï¿½ï¿½ï¿½É¤Ïµï¿½ï¿½Ý¤ï¿½ï¿½Þ¤ï¿½ï¿½ï¿½ï¿½ï¿½");
+define("_ER_UP_INVALIDFILENAME","Ìµï¿½ï¿½ï¿½Î¥Õ¥ï¿½ï¿½ï¿½ï¿½ï¿½Ì¾ï¿½Ç¤ï¿½");
+define("_ER_UP_FAILEDSAVEFILE"," %sï¿½Î¥Õ¥ï¿½ï¿½ï¿½ï¿½ë¤¬ï¿½ï¿½Â¸ï¿½Ç¤ï¿½ï¿½Þ¤ï¿½ï¿½ï¿½Ç¤ï¿½ï¿½ï¿½");
 ?>

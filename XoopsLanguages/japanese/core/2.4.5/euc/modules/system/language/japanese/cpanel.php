@@ -4,20 +4,20 @@
 // _CHARSET : UTF-8
 // Translator: XOOPS Translation Team
 
-define("_MD_CPANEL_NEWS", "¥Ë¥å¡¼¥¹");
-define("_MD_CPANEL_NEWS_DESC", "XOOPS development news");
-define("_MD_CPANEL_PROJECT", "¥×¥í¥¸¥§¥¯¥È");
-define("_MD_CPANEL_PROJECT_DESC", "XOOPS Project website");
-define("_MD_CPANEL_COMMUNITY", "¥³¥ß¥å¥Ë¥Æ¥£");
-define("_MD_CPANEL_COMMUNITY_DESC", "XOOPS Official Community website");
-define("_MD_CPANEL_LOCAL", "¥í¡¼¥«¥ë¥µ¥Ý¡¼¥È");
-define("_MD_CPANEL_LOCAL_DESC", "XOOPS Certified Local Support websites");
+define("_MD_CPANEL_NEWS","ï¿½Ë¥å¡¼ï¿½ï¿½");
+define("_MD_CPANEL_NEWS_DESC","XOOPS development news");
+define("_MD_CPANEL_PROJECT","ï¿½×¥ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
+define("_MD_CPANEL_PROJECT_DESC","XOOPS Project website");
+define("_MD_CPANEL_COMMUNITY","ï¿½ï¿½ï¿½ß¥ï¿½Ë¥Æ¥ï¿½");
+define("_MD_CPANEL_COMMUNITY_DESC","XOOPS Official Community website");
+define("_MD_CPANEL_LOCAL","ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ë¥µï¿½Ý¡ï¿½ï¿½ï¿½");
+define("_MD_CPANEL_LOCAL_DESC","XOOPS Certified Local Support websites");
 
-define("_MD_CPANEL_OVERVIEW", "System Overview");
-define("_MD_CPANEL_PHPEXTENSIONS", "Loaded PHP extensions");
-define("_MD_CPANEL_VERSION", "%s Version");
+define("_MD_CPANEL_OVERVIEW","System Overview");
+define("_MD_CPANEL_PHPEXTENSIONS","Loaded PHP extensions");
+define("_MD_CPANEL_VERSION","%s Version");
 
-define("_MD_CPANEL_QUICKLINKS", "¥¯¥ê¥Ã¥¯¥ê¥ó¥¯");
+define("_MD_CPANEL_QUICKLINKS","ï¿½ï¿½ï¿½ï¿½Ã¥ï¿½ï¿½ï¿½ï¿½");
 
-define("_MD_CPANEL_SITE_ADMINISTRATION", "%s ´ÉÍý¼Ô");
+define("_MD_CPANEL_SITE_ADMINISTRATION","%s ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
 ?>

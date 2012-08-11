@@ -77,14 +77,14 @@
 	list($tinyed_id, $tinyed_gid, $tinyed_row1, $tinyed_row2, $tinyed_row3, $activeplugs, $validelements, $extvalidelements, $invalidelements) = $xoopsDB->fetchRow($resultgetbuts);
 
 	$arrayrow1 = split(' ', $tinyed_row1);
-		if (in_array('style', $arrayrow1)) $tinyed_row1 = str_replace('style', 'styleprops', $tinyed_row1);
-		if (in_array('layer', $arrayrow1)) $tinyed_row1 = str_replace('layer', 'insertlayer moveforward movebackward absolute', $tinyed_row1);
+		if (in_array('style', $arrayrow1)) $tinyed_row1 = str_replace('style','styleprops', $tinyed_row1);
+		if (in_array('layer', $arrayrow1)) $tinyed_row1 = str_replace('layer','insertlayer moveforward movebackward absolute', $tinyed_row1);
 	$arrayrow2 = split(' ', $tinyed_row2);
-		if (in_array('style', $arrayrow2)) $tinyed_row2 = str_replace('style', 'styleprops', $tinyed_row2);
-		if (in_array('layer', $arrayrow2)) $tinyed_row2 = str_replace('layer', 'insertlayer moveforward movebackward absolute', $tinyed_row2);
+		if (in_array('style', $arrayrow2)) $tinyed_row2 = str_replace('style','styleprops', $tinyed_row2);
+		if (in_array('layer', $arrayrow2)) $tinyed_row2 = str_replace('layer','insertlayer moveforward movebackward absolute', $tinyed_row2);
 	$arrayrow3 = split(' ', $tinyed_row3);
-		if (in_array('style', $arrayrow3)) $tinyed_row3 = str_replace('style', 'styleprops', $tinyed_row3);
-		if (in_array('layer', $arrayrow3)) $tinyed_row3 = str_replace('layer', 'insertlayer moveforward movebackward absolute', $tinyed_row3);
+		if (in_array('style', $arrayrow3)) $tinyed_row3 = str_replace('style','styleprops', $tinyed_row3);
+		if (in_array('layer', $arrayrow3)) $tinyed_row3 = str_replace('layer','insertlayer moveforward movebackward absolute', $tinyed_row3);
 	$tinyed_plugs = split(' ', $activeplugs);
 
 	// fallback to english if language is not defined in preferences
@@ -225,8 +225,8 @@
 				echo 'content_css: "'.xoops_getcss($xoopsConfig['theme_set']).'",';
 				fclose($handle);
 			} else {
-			$buffer = preg_replace('/(.*)\(|\)(.*)/msU', '', trim($buffer));
-			$buffer = str_replace(';', '', $buffer);
+			$buffer = preg_replace('/(.*)\(|\)(.*)/msU','', trim($buffer));
+			$buffer = str_replace(';','', $buffer);
 			$fallbackcssfile = str_replace(XOOPS_THEME_PATH, XOOPS_THEME_URL, $fallbackcssfile);
 			$cssfilename = end(explode("/", $fallbackcssfile));
 			$fallbackcssfile = str_replace($cssfilename, $buffer, $fallbackcssfile);
@@ -310,22 +310,22 @@
 	
 		// weird code, I know, but tinyMCE is to blame ;-)
 		if ($validelements != '')
-			echo 'valid_elements : "'.$myts->undoHtmlSpecialChars(str_replace(' ', '', trim($validelements))).'",';
+			echo 'valid_elements : "'.$myts->undoHtmlSpecialChars(str_replace(' ','', trim($validelements))).'",';
 		if ($extvalidelements != '') 
-			echo 'extended_valid_elements : "'.$myts->undoHtmlSpecialChars(str_replace(' ', '', trim($extvalidelements))).'",';
+			echo 'extended_valid_elements : "'.$myts->undoHtmlSpecialChars(str_replace(' ','', trim($extvalidelements))).'",';
 		if ($invalidelements != '')
-			echo 'invalid_elements : "'.$myts->undoHtmlSpecialChars(str_replace(' ', '', trim($invalidelements))).'",';
+			echo 'invalid_elements : "'.$myts->undoHtmlSpecialChars(str_replace(' ','', trim($invalidelements))).'",';
 
 	echo 'theme_advanced_toolbar_location: "'.$moduleConfig['tinyedtbloc'].'",';
 	echo 'theme_advanced_path_location: "'.$moduleConfig['tinyedpathloc'].'",';
 	echo 'theme_advanced_buttons1: "';
-		echo (str_replace(' ', ',', $tinyed_row1));
+		echo (str_replace(' ',',', $tinyed_row1));
 		echo '",';
 	echo 'theme_advanced_buttons2: "';
-		echo (str_replace(' ', ',', $tinyed_row2));
+		echo (str_replace(' ',',', $tinyed_row2));
 		echo '",';
 	echo 'theme_advanced_buttons3: "';
-		echo (str_replace(' ', ',', $tinyed_row3));
+		echo (str_replace(' ',',', $tinyed_row3));
 		echo '",';
 	echo 'plugin_insertdate_dateFormat: "'.$moduleConfig['tinyedplugdate'].'",';
 	echo 'plugin_insertdate_timeFormat: "'.$moduleConfig['tinyedplugtime'].'",';

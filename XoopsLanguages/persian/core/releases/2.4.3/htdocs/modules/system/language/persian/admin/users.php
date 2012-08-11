@@ -58,7 +58,7 @@ define("_AM_CNGTST","تعدا نوشته‌های عضو (Stories) مشخص نی
 define("_AM_CNUUSER","به روز کردن عضو امکان پذیر نیست");
 define("_AM_CNGUSERID","شناسه (Id) عضو مشخص نیست");
 define("_AM_LIST","فهرست");
-define("_AM_NOUSERS", "هیچ عضوی انتخاب نشده است");
+define("_AM_NOUSERS","هیچ عضوی انتخاب نشده است");
 
 define("_AM_CNRNU2","کاربر جدید را نمی‌توان به %s اضافه کرد.");
 ?>

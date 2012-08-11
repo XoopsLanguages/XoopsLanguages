@@ -27,12 +27,12 @@ define("_AM_SYSTEM_SMILIES_DESCRIPTION","توضیحات");
 define("_AM_SYSTEM_SMILIES_DISPLAY","نمایش در فرم");
 define("_AM_SYSTEM_SMILIES_EDIT","ویرایش لبخند");
 define("_AM_SYSTEM_SMILIES_FILE","فایل لبخند");
-define("_AM_SYSTEM_SMILIES_IMAGE_PATH", "فایل‌های موجود در: %s");
+define("_AM_SYSTEM_SMILIES_IMAGE_PATH","فایل‌های موجود در: %s");
 define("_AM_SYSTEM_SMILIES_OFF","نمایش در فرم ");
 define("_AM_SYSTEM_SMILIES_ON","عدم نمایش در فرم");
 define("_AM_SYSTEM_SMILIES_SMILIE","لبخند");
-define("_AM_SYSTEM_SMILIES_SUREDEL", "آیا مطمئنید که می‌خواهید این لبخند را حذف کنید؟");
-define("_AM_SYSTEM_SMILIES_UPLOADS", "بارگذاری");
+define("_AM_SYSTEM_SMILIES_SUREDEL","آیا مطمئنید که می‌خواهید این لبخند را حذف کنید؟");
+define("_AM_SYSTEM_SMILIES_UPLOADS","بارگذاری");
 
 define("_AM_SYSTEM_SMILIES_SAVE",_AM_SYSTEM_DBUPDATED);
 

@@ -55,7 +55,7 @@ define("_AM_CNGTST","Không tính được tổng số truyện");//Could not ge
 define("_AM_CNUUSER","hông thể cập nhật thành viên");//Could not update user
 define("_AM_CNGUSERID","Không thể lấy được thành viên mã số");//Could not get user IDS
 define("_AM_LIST","Danh sách");//List
-define("_AM_NOUSERS", "Không chọn thành viên nào");//No users selected
+define("_AM_NOUSERS","Không chọn thành viên nào");//No users selected
 
 define("_AM_CNRNU2","Thành viên mới này không thể thêm vào nhóm : %s được.");//The new user could not be added to groups
 ?>

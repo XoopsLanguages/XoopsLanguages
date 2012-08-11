@@ -30,9 +30,9 @@ define("_MI_HEADLINES_INDEX_VIEWMODED","Vælg en visningstype, som er en topside
 define("_MI_HEADLINES_INDEX_VIEWMODE_MIXED","Blandet & Nyere er øverst");
 define("_MI_HEADLINES_INDEX_VIEWMODE_CLASSIC","Klassisk");
 define("_MI_HEADLINES_MIXED_MAXITEM","Maks. enheder");
-define("_MI_HEADLINES_MIXED_MAXITEMD", "Angiv maks antal RSS/ATOMer i seneste visning (enheder)");
+define("_MI_HEADLINES_MIXED_MAXITEMD","Angiv maks antal RSS/ATOMer i seneste visning (enheder)");
 define("_MI_HEADLINES_MIXED_MAXLEN","Maks. længde");
-define("_MI_HEADLINES_MIXED_MAXLEND", "Angiv maks antal tegn på titler i seneste visning (byte)");
+define("_MI_HEADLINES_MIXED_MAXLEND","Angiv maks antal tegn på titler i seneste visning (byte)");
 define("_MI_HEADLINES_PROXY_HOST","Proxy host");
 define("_MI_HEADLINES_PROXY_HOSTD","Hvis du henter RSS/ATOM gennem en proxy server, angiv navnet eller IP-adressen her<br />Ellers lad den stå blank.");
 define("_MI_HEADLINES_PROXY_PORT","Proxy port");

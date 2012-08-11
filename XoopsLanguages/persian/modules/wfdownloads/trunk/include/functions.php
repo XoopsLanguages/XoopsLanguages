@@ -302,7 +302,7 @@ function wfdownloads_openclose_collapsable($name, $icon)
 	$path = $urls['phpself'];
 
 	$cookie_name = $path . '_wfdownloads_collaps_' . $name;
-	$cookie_name = str_replace('.', '_', $cookie_name);
+	$cookie_name = str_replace('.','_', $cookie_name);
 	$cookie = wfdownloads_getCookieVar($cookie_name, '');
 
 	if ($cookie == 'none') {
@@ -1126,7 +1126,7 @@ function wfd_GetDownloadTime($size = 0, $gmodem = 1, $gisdn = 1, $gdsl = 1, $gsl
     $asout = array();
     $aflag = array($gmodem, $gisdn, $gdsl, $gslan, $gflan);
     $amtime = array($size / 6300 / 60, $size / 7200 / 60, $size / 86400 / 60, $size / 1125000 / 60, $size / 11250000 / 60);
-    $amname = array('Modem(56k)', 'ISDN(64k)', 'DSL(768k)', 'LAN(10M)', 'LAN(100M');
+    $amname = array('Modem(56k)','ISDN(64k)','DSL(768k)','LAN(10M)','LAN(100M');
     for($i = 0;$i < 5;$i++)
     {
         $artime[$i] = ($amtime[$i] % 60);

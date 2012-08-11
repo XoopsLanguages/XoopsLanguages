@@ -4,72 +4,72 @@
 // _CHARSET : iso-8859-2
 // Translator: by saba
 
-define("_PROFILE_MI_NAME", "Profili &#268;lanova");
-define("_PROFILE_MI_DESC", "Modul sa kojim se mogu Profili &#268;lanova pro&scaron;iriti i urediti");
+define("_PROFILE_MI_NAME","Profili &#268;lanova");
+define("_PROFILE_MI_DESC","Modul sa kojim se mogu Profili &#268;lanova pro&scaron;iriti i urediti");
 
 //Main menu links
-define("_PROFILE_MI_EDITACCOUNT", "Profil uredi");
-define("_PROFILE_MI_CHANGEPASS", "Lozinku promjeni");
-define("_PROFILE_MI_CHANGEMAIL", "E-Mail promjeni");
+define("_PROFILE_MI_EDITACCOUNT","Profil uredi");
+define("_PROFILE_MI_CHANGEPASS","Lozinku promjeni");
+define("_PROFILE_MI_CHANGEMAIL","E-Mail promjeni");
 
 //Admin links
-define("_PROFILE_MI_INDEX", "Index");
-define("_PROFILE_MI_CATEGORIES", "Kategorije");
-define("_PROFILE_MI_FIELDS", "Polja");
-define("_PROFILE_MI_USERS", "&#268;lanovi");
-define("_PROFILE_MI_STEPS", "Etape registracije");
-define("_PROFILE_MI_PERMISSIONS", "Odobrenja");
+define("_PROFILE_MI_INDEX","Index");
+define("_PROFILE_MI_CATEGORIES","Kategorije");
+define("_PROFILE_MI_FIELDS","Polja");
+define("_PROFILE_MI_USERS","&#268;lanovi");
+define("_PROFILE_MI_STEPS","Etape registracije");
+define("_PROFILE_MI_PERMISSIONS","Odobrenja");
 
 //User Profile Category
-define("_PROFILE_MI_CATEGORY_TITLE", "Profil &#268;lana");
-define("_PROFILE_MI_CATEGORY_DESC", "Za ovog &#268;lana polja");
+define("_PROFILE_MI_CATEGORY_TITLE","Profil &#268;lana");
+define("_PROFILE_MI_CATEGORY_DESC","Za ovog &#268;lana polja");
 
 //User Profile Fields
-define("_PROFILE_MI_URL_TITLE", "Web stranica");
+define("_PROFILE_MI_URL_TITLE","Web stranica");
 
 //Configuration categories
-define("_PROFILE_MI_CAT_SETTINGS", "Generalno pode&scaron;avanje");
-define("_PROFILE_MI_CAT_SETTINGS_DSC", "");
-define("_PROFILE_MI_CAT_USER", "Pode&scaron;avanje &#268;lanova");
-define("_PROFILE_MI_CAT_USER_DSC", "");
+define("_PROFILE_MI_CAT_SETTINGS","Generalno pode&scaron;avanje");
+define("_PROFILE_MI_CAT_SETTINGS_DSC","");
+define("_PROFILE_MI_CAT_USER","Pode&scaron;avanje &#268;lanova");
+define("_PROFILE_MI_CAT_USER_DSC","");
 
 //Configuration items
-define("_PROFILE_MI_PROFILE_SEARCH", "Zadnji upis/post &#268;lana u njegovom Profilu prikazati");
-define("_PROFILE_MI_PROFILE_SEARCH_DESC", "");
+define("_PROFILE_MI_PROFILE_SEARCH","Zadnji upis/post &#268;lana u njegovom Profilu prikazati");
+define("_PROFILE_MI_PROFILE_SEARCH_DESC","");
 
 //Pages
-define("_PROFILE_MI_PAGE_INFO", "Info &#268;lana");
-define("_PROFILE_MI_PAGE_EDIT", "&#268;lana uredi");
-define("_PROFILE_MI_PAGE_SEARCH", "Tra&#382;i");
+define("_PROFILE_MI_PAGE_INFO","Info &#268;lana");
+define("_PROFILE_MI_PAGE_EDIT","&#268;lana uredi");
+define("_PROFILE_MI_PAGE_SEARCH","Tra&#382;i");
 
-define("_PROFILE_MI_STEP_BASIC", "Osnovno pode&scaron;avanje");
-define("_PROFILE_MI_STEP_COMPLEMENTARY", "Dodatno");
+define("_PROFILE_MI_STEP_BASIC","Osnovno pode&scaron;avanje");
+define("_PROFILE_MI_STEP_COMPLEMENTARY","Dodatno");
 
-define("_PROFILE_MI_CATEGORY_PERSONAL", "Li&#269;ni podaci");
-define("_PROFILE_MI_CATEGORY_MESSAGING", "Mogu&#263;i kontakt");
-define("_PROFILE_MI_CATEGORY_SETTINGS", "Pode&scaron;avanje");
-define("_PROFILE_MI_CATEGORY_COMMUNITY", "Aktivnost na stranici");
+define("_PROFILE_MI_CATEGORY_PERSONAL","Li&#269;ni podaci");
+define("_PROFILE_MI_CATEGORY_MESSAGING","Mogu&#263;i kontakt");
+define("_PROFILE_MI_CATEGORY_SETTINGS","Pode&scaron;avanje");
+define("_PROFILE_MI_CATEGORY_COMMUNITY","Aktivnost na stranici");
 
-define("_PROFILE_MI_NEVER_LOGED_IN", "do sada se nije ulogovao/la");
+define("_PROFILE_MI_NEVER_LOGED_IN","do sada se nije ulogovao/la");
 
 //---------------------------------------
 // new Profilesystem with integrated yogurt
 //--------------------------------------
 
 define("_PROFILE_MI_PROFILE_EMAILS","Emailsystem aktivirati");
-define("_PROFILE_MI_PROFILE_EMAILS_DESC", "omogu&#263;uje se komunikacija preko Email-a izme&#273;u &#269;lanova bez razmjene Email adresa");
+define("_PROFILE_MI_PROFILE_EMAILS_DESC","omogu&#263;uje se komunikacija preko Email-a izme&#273;u &#269;lanova bez razmjene Email adresa");
 define("_PROFILE_MI_PROFILE_SCRAPS","Knjige gostiju aktivirati");
 define("_PROFILE_MI_PROFILE_SCRAPS_DESC","Knjige gostiju za registrovane &#269;lanove mo&#382;e&scaron; aktivirati ili deaktivirati");
 define("_PROFILE_MI_PROFILE_FRIENDS","Liste prijatelja aktivirati");
 define("_PROFILE_MI_PROFILE_FRIENDS_DESC","&#268;lanovi mogu sebi Liste prijatelja kreirati");
 define("_PROFILE_MI_PROFILE_PICTURES","Albume slika aktivirati");
-define("_PROFILE_MI_PROFILE_PICTURES_DESC", "omogu&#263;uje se &#269;lanovima da svoje slike uploadaju u svoje Albume slika");
+define("_PROFILE_MI_PROFILE_PICTURES_DESC","omogu&#263;uje se &#269;lanovima da svoje slike uploadaju u svoje Albume slika");
 define("_PROFILE_MI_PROFILE_VIDEOS","Video sekcije aktivirati");
 define("_PROFILE_MI_PROFILE_VIDEOS_DESC","&#269;lanovi mogu postavljati svoje video klipove");
 define("_PROFILE_MI_PROFILE_AUDIOS","MP3 sekciju aktivirati");
 define("_PROFILE_MI_PROFILE_AUDIOS_DESC","&#269;lanovi mogu postavljati MP3 muziku u svoju sekciju");
 define("_PROFILE_MI_PROFILE_TRIBES","Grupe aktivirati");
-define("_PROFILE_MI_PROFILE_TRIBES_DESC", "omogu&#263;uje se &#269;lanovima da svoje Grupe organizuju gdje se drugi &#269;lanovi mogu u kreiranu Grupu priklju&#269;iti");
+define("_PROFILE_MI_PROFILE_TRIBES_DESC","omogu&#263;uje se &#269;lanovima da svoje Grupe organizuju gdje se drugi &#269;lanovi mogu u kreiranu Grupu priklju&#269;iti");
 define("_PROFILE_MI_PROFILE_PREVIEW","Broj objekata za prikazati");
 define("_PROFILE_MI_PROFILE_PREVIEW_DESC","odredi broj objekata koji se trebaju u preglednoj stranici prikazati<br />0 = deaktivirati");
 define("_PROFILE_MI_PROFILE_PICTURESMAXSPACE","max. memorija za pohranu podataka za svakog &#269;lana");

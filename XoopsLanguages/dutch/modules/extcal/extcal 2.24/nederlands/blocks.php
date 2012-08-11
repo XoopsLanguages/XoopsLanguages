@@ -13,12 +13,12 @@ define("_MB_EXTCAL_SUBMIT_LINK_TEXT","Toevoegen evenement");
 define("_MB_EXTCAL_DISPLAY","Weergeven");
 define("_MB_EXTCAL_EVENT","Evenementen");
 define("_MB_EXTCAL_TITLE_LENGTH","Titel lengte");
-define('_MB_EXTCAL_SS_WIDTH', 'Slideshow breedte');
-define('_MB_EXTCAL_SS_HEIGHT', 'Slideshow hoogte');
-define('_MB_EXTCAL_SS_TRANS_TIME', 'Slideshow trans tijd');
-define('_MB_EXTCAL_SS_PAUSE_TIME', 'Slideshow pause tijd');
-define('_MB_EXTCAL_SS_NB_PHOTOS', 'Slideshow vs fotos');
-define('_MB_EXTCAL_PX', 'px');
-define('_MB_EXTCAL_SECONDES', 'seconden');
+define('_MB_EXTCAL_SS_WIDTH','Slideshow breedte');
+define('_MB_EXTCAL_SS_HEIGHT','Slideshow hoogte');
+define('_MB_EXTCAL_SS_TRANS_TIME','Slideshow trans tijd');
+define('_MB_EXTCAL_SS_PAUSE_TIME','Slideshow pause tijd');
+define('_MB_EXTCAL_SS_NB_PHOTOS','Slideshow vs fotos');
+define('_MB_EXTCAL_PX','px');
+define('_MB_EXTCAL_SECONDES','seconden');
 
 ?>

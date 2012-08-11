@@ -11,21 +11,21 @@
  */
 
 if (!defined('XOOPS_ROOT_PATH')){ exit(); }
-define("TAG_AM_TERM", "برچسب (کلمات کلیدی)");
+define("TAG_AM_TERM","برچسب (کلمات کلیدی)");
 
-define("TAG_AM_STATS", "اطلاعات ایستا");
-define("TAG_AM_COUNT_TAG", "تعداد برچسب‌ها");
-define("TAG_AM_COUNT_ITEM", "تعداد موارد");
-define("TAG_AM_COUNT_MODULE", "تعداد ماژول‌ها");
+define("TAG_AM_STATS","اطلاعات ایستا");
+define("TAG_AM_COUNT_TAG","تعداد برچسب‌ها");
+define("TAG_AM_COUNT_ITEM","تعداد موارد");
+define("TAG_AM_COUNT_MODULE","تعداد ماژول‌ها");
 
-define("TAG_AM_EDIT", "مدیریت برچسب");
-define("TAG_AM_SYNCHRONIZATION", "همزمانی");
+define("TAG_AM_EDIT","مدیریت برچسب");
+define("TAG_AM_SYNCHRONIZATION","همزمانی");
 
-define("TAG_AM_ACTIVE", "فعال");
-define("TAG_AM_INACTIVE", "غیرفعال");
-define("TAG_AM_GLOBAL", "عمومی");
-define("TAG_AM_ALL", "همه ماژول‌ها");
-define("TAG_AM_NUM", "تعداد برای هر زمان");
-define("TAG_AM_IN_PROCESS", "همزمانی داده‌ها در حال انجام است، لطفا چند لحظه صبر کنید ...");
-define("TAG_AM_FINISHED", "همزمانی داده‌ها انجام شد.");
+define("TAG_AM_ACTIVE","فعال");
+define("TAG_AM_INACTIVE","غیرفعال");
+define("TAG_AM_GLOBAL","عمومی");
+define("TAG_AM_ALL","همه ماژول‌ها");
+define("TAG_AM_NUM","تعداد برای هر زمان");
+define("TAG_AM_IN_PROCESS","همزمانی داده‌ها در حال انجام است، لطفا چند لحظه صبر کنید ...");
+define("TAG_AM_FINISHED","همزمانی داده‌ها انجام شد.");
 ?>

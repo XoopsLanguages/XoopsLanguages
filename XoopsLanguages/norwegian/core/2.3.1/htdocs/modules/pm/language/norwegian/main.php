@@ -30,7 +30,7 @@ define("_PM_MESSAGEC","Beskjed: ");
 define("_PM_CLEAR","Slett");
 define("_PM_CANCELSEND","Avbryt");
 define("_PM_SUBMIT","Aksepter");
-define("_PM_SAVEINOUTBOX", "Lagre en kopi i din utboks?");
+define("_PM_SAVEINOUTBOX","Lagre en kopi i din utboks?");
 
 //%%%%%%	File Name viewpmsg.php 	%%%%%
 define("_PM_SUBJECT","Emne");
@@ -41,7 +41,7 @@ define("_PM_DELETE","Slett");
 define("_PM_TOSAVE","Lagre");
 define("_PM_UNSAVE","Avbryt");
 define("_PM_EMPTY","Tom");
-define("_PM_REPLY", "Svar");
+define("_PM_REPLY","Svar");
 define("_PM_PLZREG","Registrer deg for å sende private meldinger!");
 define("_PM_SAVED_PART","Du har ikke adgang akkurat nå %d til din lagret boks og du har lagret %d meldinger");
 define("_PM_SAVED_ALL","Meldinger er flyttet til din lagre-boks");
@@ -50,7 +50,7 @@ define("_PM_EMPTIED","Boksen er tømt");
 define("_PM_RUSUREEMPTY","Er du sikker på at du vil tømme boksen?");
 define("_PM_RUSUREDELETE","Er du sikker på at du vil slette meldingen(ene)?");
 
-define("_PM_ONLINE", "Pålogget");
+define("_PM_ONLINE","Pålogget");
 
 define("_PM_RECEIVE","Motta");
 define("_PM_POST","Meldinger");
@@ -80,13 +80,13 @@ define("_PM_NEXTP","Neste");
 define("_PM_MAILNOTIFY","%s-du har fått en PM fra %s");
 define("_PM_MAILMESSAGE","Hei!\nA Du har fått en ny PM fra %s\n\nTitle av PM is\n%s\n\nDu kan se PM her\n%s\n\n-----------\nDu mottar denne meldingen fordi du har valgt å bli varslet når du mottar en ny PM\n\nDu kan endre din PM indstilling\n%s\n\nSvar ikke på denne meldingen\n\n---------\nBest Vennlig hilsen\n%s\n%s\n%s");
 
-define("_PM_EMAIL", "Email");
-define("_PM_EMAIL_DESC", "Dette %s, er en melding overført fra din konto ved ".$xoopsConfig['sitename']);
-define("_PM_EMAIL_FROM", "Fra %s");
-define("_PM_EMAIL_TO", "Til %s");
-define("_PM_EMAIL_SUBJECT", "[meldinng]%s");
-define("_PM_EMAIL_MESSAGE", "meldings-innhold");
+define("_PM_EMAIL","Email");
+define("_PM_EMAIL_DESC","Dette %s, er en melding overført fra din konto ved ".$xoopsConfig['sitename']);
+define("_PM_EMAIL_FROM","Fra %s");
+define("_PM_EMAIL_TO","Til %s");
+define("_PM_EMAIL_SUBJECT","[meldinng]%s");
+define("_PM_EMAIL_MESSAGE","meldings-innhold");
 
-define("_PM_ACTION_DONE", "Operasjonen utført");
-define("_PM_ACTION_ERROR", "Operasjonen IKKE utført");
+define("_PM_ACTION_DONE","Operasjonen utført");
+define("_PM_ACTION_ERROR","Operasjonen IKKE utført");
 ?>

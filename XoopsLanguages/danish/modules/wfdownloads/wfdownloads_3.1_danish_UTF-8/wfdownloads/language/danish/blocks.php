@@ -9,8 +9,8 @@
  */
  
 // Blocks
-define('_MB_WFD_DISP', 'Vis');
-define('_MB_WFD_FILES', 'Filer');
-define('_MB_WFD_CHARS', 'Længde på titel');
-define('_MB_WFD_LENGTH', 'karakterer');
+define('_MB_WFD_DISP','Vis');
+define('_MB_WFD_FILES','Filer');
+define('_MB_WFD_CHARS','Længde på titel');
+define('_MB_WFD_LENGTH','karakterer');
 ?>

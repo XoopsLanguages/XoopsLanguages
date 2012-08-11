@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 // $Id: global.php 747 2006-09-20 20:42:11Z skalpa $
 // Add Urdu Language by Waqar  Project www.xoops.org
 //%%%%%%	File Name mainfile.php 	%%%%%
@@ -28,8 +28,8 @@ define("_WARNINSTALL2",": خبردار %s ڈایرئکٹری سرور میں م�
 define("_WARNINWRITEABLE",": خبردار %s  لکھنے کے قابل ہے .<br />براۓ مہربانی حفاظت کے پیش نظر اجازت نامے تبدیل کریں (permission) .<br />  (unix) ونڈوز (444), یونکس سسٹم کیلۓ (Win32) کیلۓ (read-only) صرف پڑھنے کے قابل بنایئں.");
 
 // Error messages issued by XoopsObject::cleanVars()
-define( "_XOBJ_ERR_REQUIRED", "%s ضروری ہے" );
-define( "_XOBJ_ERR_SHORTERTHAN", "%s سے چھوٹا ہونا چاہیۓ %d حروف." );
+define("_XOBJ_ERR_REQUIRED","%s ضروری ہے" );
+define("_XOBJ_ERR_SHORTERTHAN","%s سے چھوٹا ہونا چاہیۓ %d حروف." );
 
 //%%%%%%	File Name themeuserpost.php 	%%%%%
 define("_PROFILE","ذاتی معلومات");
@@ -50,8 +50,8 @@ define("_YOURHOME","پہلا صفحہ");
 
 //%%%%%%	File Name misc.php (who's-online popup)	%%%%%
 define("_WHOSONLINE","کون آن لین ہے");
-define('_GUESTS', 'مهمان');
-define('_MEMBERS', 'ارکان');
+define('_GUESTS','مهمان');
+define('_MEMBERS','ارکان');
 define("_ONLINEPHRASE","<b>%s</b> ارکان آن لین ہیں");
 define("_ONLINEPHRASEX","<b>%s</b> ارکان دیکھ رہے ہیں <b>%s</b>");
 define("_CLOSE","بند کریں");  // Close window
@@ -73,27 +73,27 @@ define("_ALIGN","برابر");
 define("_LEFT","بايئں");
 define("_CENTER","درمیاں");
 define("_RIGHT","دايئں");
-define("_FORM_ENTER", "داخل کریں %s راۓ مہربانی");
+define("_FORM_ENTER","داخل کریں %s راۓ مہربانی");
 // %s represents file name
 define("_MUSTWABLE","فائل %s لکھنے والا ہونا چاہۓ سرور پر(writeble) فائل!");
 // Module info
-define('_PREFERENCES', 'ترجیحات');
-define("_VERSION", "نسخه");
-define("_DESCRIPTION", "تفصیل");
-define("_AUTHOR", "مصنف");
-define("_CREDITS", "سہرا");
-define("_LICENCE", "مجوز");
-define("_ERRORS", "غلطیاں");
-define("_NONE", "کوئ نہیں");
+define('_PREFERENCES','ترجیحات');
+define("_VERSION","نسخه");
+define("_DESCRIPTION","تفصیل");
+define("_AUTHOR","مصنف");
+define("_CREDITS","سہرا");
+define("_LICENCE","مجوز");
+define("_ERRORS","غلطیاں");
+define("_NONE","کوئ نہیں");
 define('_ON',' تاريخ');
 define('_READS','پڑھا گیا');
 define('_WELCOMETO','پر %s خوش‌آمديد');
 define('_SEARCH','تلاش');
-define('_ALL', 'سارے');
-define('_TITLE', 'عنوان');
-define('_OPTIONS', 'انتخاب کریں');
-define('_QUOTE', 'قول');
-define('_LIST', 'فهرست');
+define('_ALL','سارے');
+define('_TITLE','عنوان');
+define('_OPTIONS','انتخاب کریں');
+define('_QUOTE','قول');
+define('_LIST','فهرست');
 define('_LOGIN','رکں کے داخل ہونے کیلۓ');
 define('_USERNAME','رکن کی شناخت: ');
 define('_PASSWORD','پاس ورڈ: ');
@@ -103,12 +103,12 @@ define("_SEND","بھیجیں");
 define("_CANCEL","تنسیخ");
 define("_ASCENDING","اوپر کی طرف آراستہ کرنا");
 define("_DESCENDING","نچلی جانب آراستہ کرنا");
-define('_BACK', 'پیچھے');
-define('_NOTITLE', 'کوئ موضوع نہیں');
+define('_BACK','پیچھے');
+define('_NOTITLE','کوئ موضوع نہیں');
 
 /* Image manager */
 define('_IMGMANAGER','تصویر منتظم');
-define('_NUMIMAGES', 'تصاویر %s');
+define('_NUMIMAGES','تصاویر %s');
 define('_ADDIMAGE','تصویر شامل کریں');
 define('_IMAGENAME','نام');
 define('_IMGMAXSIZE','زیادہ سے زیادہ کی اجازت ہے(نائٹس)');
@@ -119,16 +119,16 @@ define('_IMAGEFILE','تصویر والا فایل:');
 define('_IMGWEIGHT','تصویر کے وزن کے مطابق ');
 define('_IMGDISPLAY','اس تصویر کو دکھایۓ؟');
 define('_IMAGEMIME','قسم MIME:');
-define('_FAILFETCHIMG', 'اپلوڈ ہوا فائل %s اٹھا نہ سکا');
-define('_FAILSAVEIMG', 'ٔتصویر %s و ڈیٹابیس میں ترتیب نہ دے سکا');
-define('_NOCACHE', 'زخیرہ');
-define('_CLONE', 'نقل ہوبہو');
+define('_FAILFETCHIMG','اپلوڈ ہوا فائل %s اٹھا نہ سکا');
+define('_FAILSAVEIMG','ٔتصویر %s و ڈیٹابیس میں ترتیب نہ دے سکا');
+define('_NOCACHE','زخیرہ');
+define('_CLONE','نقل ہوبہو');
 
 //%%%%%	File Name class/xoopsform/formmatchoption.php 	%%%%%
-define("_STARTSWITH", "آکے ساتھ شروع ہونا");
-define("_ENDSWITH", "کے ساتھ ختم ہونا");
-define("_MATCHES", "یک جیسے");
-define("_CONTAINS", "اجزاء");
+define("_STARTSWITH","آکے ساتھ شروع ہونا");
+define("_ENDSWITH","کے ساتھ ختم ہونا");
+define("_MATCHES","یک جیسے");
+define("_CONTAINS","اجزاء");
 
 //%%%%%%	File Name commentform.php 	%%%%%
 define("_REGISTER","رجسٹر");
@@ -154,16 +154,16 @@ define("_PLZCOMPLETE","براۓ مھربانی عنوان اور پیغام کے
 define("_MESSAGETOOLONG","آپکا پیغام بہت لمبا ہے");
 
 //%%%%%		TIME FORMAT SETTINGS   %%%%%
-define('_SECOND', '1 سیکنڈ');
-define('_SECONDS', 'سیکنڈز %s');
-define('_MINUTE', '1 منٹ');
-define('_MINUTES', 'منٹس%s');
-define('_HOUR', ' 1 گھنٹہ ');
-define('_HOURS', 'گھنٹے %s');
-define('_DAY', '1 دن');
-define('_DAYS', 'دنیں %s');
-define('_WEEK', '1 هفته');
-define('_MONTH', ' 1 مہینہ ');
+define('_SECOND','1 سیکنڈ');
+define('_SECONDS','سیکنڈز %s');
+define('_MINUTE','1 منٹ');
+define('_MINUTES','منٹس%s');
+define('_HOUR',' 1 گھنٹہ ');
+define('_HOURS','گھنٹے %s');
+define('_DAY','1 دن');
+define('_DAYS','دنیں %s');
+define('_WEEK','1 هفته');
+define('_MONTH',' 1 مہینہ ');
 
 define("_DATESTRING","Y/n/j G:i:s");
 define("_MEDIUMDATESTRING","Y/n/j G:i");
@@ -187,7 +187,7 @@ m - month; i.e. "01" to "12"
 n - month without leading zeros; i.e. "1" to "12"
 M - month, textual, 3 letters; i.e. "Jan"
 s - seconds; i.e. "00" to "59"
-S - English ordinal suffix, textual, 2 characters; i.e. "th", "nd"
+S - English ordinal suffix, textual, 2 characters; i.e. "th","nd"
 t - number of days in the given month; i.e. "28" to "31"
 T - Timezone setting of this machine; i.e. "MDT"
 U - seconds since the epoch
@@ -200,9 +200,9 @@ Z - timezone offset in seconds (i.e. "-43200" to "43200")
 
 
 //%%%%%		LANGUAGE SPECIFIC SETTINGS   %%%%%
-define('_CHARSET', 'utf-8');
-define('_LANGCODE', 'fa');
+define('_CHARSET','utf-8');
+define('_LANGCODE','fa');
 
 // change 0 to 1 if this language is a multi-bytes language
-define("XOOPS_USE_MULTIBYTES", "1");
+define("XOOPS_USE_MULTIBYTES","1");
 ?>

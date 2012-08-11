@@ -52,11 +52,11 @@ define("_MB_SHOUTBOX_CLEAR","Slet AllE");
 define("_MB_SHOUTBOX_BBCODEON","BBcode=Tændt");
 define("_MB_SHOUTBOX_BBCODEOFF","BBcode=Slukket");
 define("_MB_SHOUTBOX_AUTOREFRESH","Auto-Refresh Tændt");
-define("_MB_SHOUTBOX_REFRESH", "Refresh");
-define("_MB_SHOUTBOX_POPUP", "Popup");
+define("_MB_SHOUTBOX_REFRESH","Refresh");
+define("_MB_SHOUTBOX_POPUP","Popup");
 
-define("_MB_SHOUTBOX_SHOUT_TITLE", "Shout");
-define("_MB_SHOUTBOX_NICK", "Nick");
+define("_MB_SHOUTBOX_SHOUT_TITLE","Shout");
+define("_MB_SHOUTBOX_NICK","Nick");
 
-define("_MB_SHOUTBOX_CONFIRMDEL", "Er du sikker på du vil slette alt data i database/fil?");
+define("_MB_SHOUTBOX_CONFIRMDEL","Er du sikker på du vil slette alt data i database/fil?");
 ?>

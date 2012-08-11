@@ -3,17 +3,17 @@
 // _LANGCODE: es
 // _CHARSET : UTF-8
 // Translator: XOOPS Translation Team
-define('_MA_USER_MORE', 'Búsqueda de usuarios');
-define('_MA_USER_REMOVE', 'Eliminar usuarios no-seleccionados');
+define('_MA_USER_MORE','Búsqueda de usuarios');
+define('_MA_USER_REMOVE','Eliminar usuarios no-seleccionados');
 
 //%%%%%%	File Name findusers.php 	%%%%%
-define('_MA_USER_ADD_SELECTED', 'Añadir usuarios a la selección');
-define('_MA_USER_GROUP', 'Grupo');
-define('_MA_USER_LEVEL', 'Nivel');
-define('_MA_USER_LEVEL_ACTIVE', 'Activo');
-define('_MA_USER_LEVEL_INACTIVE', 'Inactivo');
-define('_MA_USER_LEVEL_DISABLED', 'Deshabilitado');
-define('_MA_USER_RANK', 'Rango');
+define('_MA_USER_ADD_SELECTED','Añadir usuarios a la selección');
+define('_MA_USER_GROUP','Grupo');
+define('_MA_USER_LEVEL','Nivel');
+define('_MA_USER_LEVEL_ACTIVE','Activo');
+define('_MA_USER_LEVEL_INACTIVE','Inactivo');
+define('_MA_USER_LEVEL_DISABLED','Deshabilitado');
+define('_MA_USER_RANK','Rango');
 define('_MA_USER_FINDUS','Encontrar usuarios');
 define('_MA_USER_AVATAR','Avatar');
 define('_MA_USER_REALNAME','Nombre real');
@@ -22,8 +22,8 @@ define('_MA_USER_EMAIL','Correo-E');
 define('_MA_USER_PREVIOUS','Anterior');
 define('_MA_USER_NEXT','Siguiente');
 define('_MA_USER_USERSFOUND','%s ususario(s) encontrados');
-define('_MA_USER_ACTUS', 'Usuarios activos: %s');
-define('_MA_USER_INACTUS', 'Usuarios inactivos: %s');
+define('_MA_USER_ACTUS','Usuarios activos: %s');
+define('_MA_USER_INACTUS','Usuarios inactivos: %s');
 define('_MA_USER_NOFOUND','Sin coincidencias');
 define('_MA_USER_UNAME','Nombre de usuario');
 define('_MA_USER_ICQ','Num. ICQ');
@@ -41,25 +41,25 @@ define('_MA_USER_POSTS','Número de posts');
 define('_MA_USER_ASC','Orden ascendente');
 define('_MA_USER_DESC','Orden descendente');
 define('_MA_USER_LIMIT','Número de usuarios por página');
-define('_MA_USER_RESULTS', 'Resultados de la búsqueda');
-define('_MA_USER_SHOWMAILOK', 'Tipo de usuarios a mostrar');
+define('_MA_USER_RESULTS','Resultados de la búsqueda');
+define('_MA_USER_SHOWMAILOK','Tipo de usuarios a mostrar');
 define('_MA_USER_MAILOK','Sólo usuarios que acepten correo');
 define('_MA_USER_MAILNG','Sólo usuarios que no acepten correo');
-define('_MA_USER_BOTH', 'Todos');
+define('_MA_USER_BOTH','Todos');
 define('_MA_USER_RANGE_LAST_LOGIN','Autentificados en los últimos <span style="color:#ff0000;">X</span>días');
 define('_MA_USER_RANGE_USER_REGDATE','Registrados durante los últimos <span style="color:#ff0000;">X</span>días');
 define('_MA_USER_RANGE_POSTS','Posts');
-define('_MA_USER_HASAVATAR', 'Tienen avatar');
-define('_MA_USER_MODE_SIMPLE', 'Modo simple');
-define('_MA_USER_MODE_ADVANCED', 'Modo avanzado');
-define('_MA_USER_MODE_QUERY', 'Modo escrutinio');
-define('_MA_USER_QUERY', 'Escrutar');
-define('_MA_USER_SEARCHAGAIN', 'Buscar de nuevo');
-define('_MA_USER_NOUSERSELECTED', 'Usuario no elegido');
-define('_MA_USER_USERADDED', 'Usuarios añadidos');
+define('_MA_USER_HASAVATAR','Tienen avatar');
+define('_MA_USER_MODE_SIMPLE','Modo simple');
+define('_MA_USER_MODE_ADVANCED','Modo avanzado');
+define('_MA_USER_MODE_QUERY','Modo escrutinio');
+define('_MA_USER_QUERY','Escrutar');
+define('_MA_USER_SEARCHAGAIN','Buscar de nuevo');
+define('_MA_USER_NOUSERSELECTED','Usuario no elegido');
+define('_MA_USER_USERADDED','Usuarios añadidos');
 define('_MA_USER_SENDMAIL','Enviar correo');
 
 //2.5.4
-define('_MA_USER_FACEBOOK', 'Enlace de Facebook'); //TO DO
-define('_MA_USER_SKYPE', 'Enlace de Skype');//TO DO
+define('_MA_USER_FACEBOOK','Enlace de Facebook'); //TO DO
+define('_MA_USER_SKYPE','Enlace de Skype');//TO DO
 ?>

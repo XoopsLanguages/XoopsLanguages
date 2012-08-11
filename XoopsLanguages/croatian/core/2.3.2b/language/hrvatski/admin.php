@@ -11,6 +11,6 @@ define("_AD_NICKNAME","Nadimak");
 define("_AD_EMAIL","Email");
 define("_AD_AVATAR","Avatar");
 define("_AD_REGISTERED","Registriran"); //Datum registracije
-define('_AD_PRESSGEN', 'Ovo vam je prvi put da ulazite u administracijski dio. Pritisnite donju tipku da bi nastavili.');
-define('_AD_LOGINADMIN', 'Prijavljujem vas...');
+define('_AD_PRESSGEN','Ovo vam je prvi put da ulazite u administracijski dio. Pritisnite donju tipku da bi nastavili.');
+define('_AD_LOGINADMIN','Prijavljujem vas...');
 ?>

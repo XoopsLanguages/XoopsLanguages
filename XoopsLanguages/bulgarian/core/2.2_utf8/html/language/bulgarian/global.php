@@ -45,8 +45,8 @@ define("_YOURHOME","Начална страница");
 
 //%%%%%%	File Name misc.php (who's-online popup)	%%%%%
 define("_WHOSONLINE","Кой е на линия ?");
-define('_GUESTS', 'Гости');
-define('_MEMBERS', 'Членове');
+define('_GUESTS','Гости');
+define('_MEMBERS','Членове');
 define("_ONLINEPHRASE","<b>%s</b> потребител(я) са на линия");
 define("_ONLINEPHRASEX","<b>%s</b> потребител(я) разглеждат <b>%s</b>");
 define("_CLOSE","Затвори");  // Close window
@@ -68,24 +68,24 @@ define("_ALIGN","Подравнява");
 define("_LEFT","Ляво");
 define("_CENTER","Център");
 define("_RIGHT","Дясно");
-define("_FORM_ENTER", "Моля, попълнете %s");
+define("_FORM_ENTER","Моля, попълнете %s");
 // %s represents file name
 define("_MUSTWABLE","Файла %s трябва да е с права за презапис от сървера!");
 // Module info
-define('_PREFERENCES', 'Настройки');
-define("_VERSION", "Версия");
-define("_DESCRIPTION", "Описание");
-define("_ERRORS", "Грешки");
-define("_NONE", "Няма");
+define('_PREFERENCES','Настройки');
+define("_VERSION","Версия");
+define("_DESCRIPTION","Описание");
+define("_ERRORS","Грешки");
+define("_NONE","Няма");
 define('_ON','на');
 define('_READS','прочита');
 define('_WELCOMETO','Добре дошли в %s');
 define('_SEARCH','Търсене');
-define('_ALL', 'Всички');
-define('_TITLE', 'Заглавие');
-define('_OPTIONS', 'Опции');
-define('_QUOTE', 'Цитат');
-define('_LIST', 'Списък');
+define('_ALL','Всички');
+define('_TITLE','Заглавие');
+define('_OPTIONS','Опции');
+define('_QUOTE','Цитат');
+define('_LIST','Списък');
 define('_LOGIN','Вход');
 define('_USERNAME','Потребител: ');
 define('_PASSWORD','Парола: ');
@@ -95,12 +95,12 @@ define("_SEND","Изпраща");
 define("_CANCEL","Отказва");
 define("_ASCENDING","Възходящ ред");
 define("_DESCENDING","Низходящ ред");
-define('_BACK', 'Назад');
-define('_NOTITLE', 'Няма заглавие');
+define('_BACK','Назад');
+define('_NOTITLE','Няма заглавие');
 
 /* Image manager */
 define('_IMGMANAGER','Управление на изображенията');
-define('_NUMIMAGES', '%s изображения');
+define('_NUMIMAGES','%s изображения');
 define('_ADDIMAGE','Добавя графичен файл');
 define('_IMAGENAME','Име:');
 define('_IMGMAXSIZE','Макс. позволен размер (байтове):');
@@ -111,16 +111,16 @@ define('_IMAGEFILE','Изображние:');
 define('_IMGWEIGHT','Ред на показване в управлението:');
 define('_IMGDISPLAY','Да показва ли това изображение?');
 define('_IMAGEMIME','MIME тип:');
-define('_FAILFETCHIMG', 'Качването на %s е неуспешно');
-define('_FAILSAVEIMG', 'Грешка при запазването на файла %s в базата');
-define('_NOCACHE', 'Без кеш');
-define('_CLONE', 'Клонира');
+define('_FAILFETCHIMG','Качването на %s е неуспешно');
+define('_FAILSAVEIMG','Грешка при запазването на файла %s в базата');
+define('_NOCACHE','Без кеш');
+define('_CLONE','Клонира');
 
 //%%%%%	File Name class/xoopsform/formmatchoption.php 	%%%%%
-define("_STARTSWITH", "Започва с");
-define("_ENDSWITH", "Завършва с");
-define("_MATCHES", "Съвпадения");
-define("_CONTAINS", "Съдържа");
+define("_STARTSWITH","Започва с");
+define("_ENDSWITH","Завършва с");
+define("_MATCHES","Съвпадения");
+define("_CONTAINS","Съдържа");
 
 //%%%%%%	File Name commentform.php 	%%%%%
 define("_REGISTER","Регистрация");
@@ -146,26 +146,26 @@ define("_PLZCOMPLETE","Моля, попълнете 'Относно' и само
 define("_MESSAGETOOLONG","Вашето съобщение е прекалено дълго.");
 
 //%%%%%		TIME FORMAT SETTINGS   %%%%%
-define('_SECOND', '1 секунда');
-define('_SECONDS', '%s секунди');
-define('_MINUTE', '1 минута');
-define('_MINUTES', '%s минути');
-define('_HOUR', '1 час');
-define('_HOURS', '%s часа');
-define('_DAY', '1 ден');
-define('_DAYS', '%s дни');
-define('_WEEK', '1 седмица');
-define('_MONTH', '1 месец');
+define('_SECOND','1 секунда');
+define('_SECONDS','%s секунди');
+define('_MINUTE','1 минута');
+define('_MINUTES','%s минути');
+define('_HOUR','1 час');
+define('_HOURS','%s часа');
+define('_DAY','1 ден');
+define('_DAYS','%s дни');
+define('_WEEK','1 седмица');
+define('_MONTH','1 месец');
 
 define("_DATESTRING","Y/n/j G:i:s");
 define("_MEDIUMDATESTRING","Y/n/j G:i");
 define("_SHORTDATESTRING","Y/n/j");
-// !!IMPORTANT!! insert '\' before any char among reserved chars: "a", "A","B","c","d","D","F","g","G","h","H","i","I","j","l","L","m","M","n","O","r","s","S","t","T","U","w","W","Y","y","z","Z"	
-// insert double '\' before 't', 'r', 'n'
-define("_TODAY", "\To\d\a\y G:i:s");
-define("_YESTERDAY", "\Ye\s\\te\\r\d\a\y G:i:s");
-define("_MONTHDAY", "n/j G:i:s");
-define("_YEARMONTHDAY", "Y/n/j G:i");
+// !!IMPORTANT!! insert '\' before any char among reserved chars: "a","A","B","c","d","D","F","g","G","h","H","i","I","j","l","L","m","M","n","O","r","s","S","t","T","U","w","W","Y","y","z","Z"	
+// insert double '\' before 't','r','n'
+define("_TODAY","\To\d\a\y G:i:s");
+define("_YESTERDAY","\Ye\s\\te\\r\d\a\y G:i:s");
+define("_MONTHDAY","n/j G:i:s");
+define("_YEARMONTHDAY","Y/n/j G:i");
 /*
 The following characters are recognized in the format string:
 a - "am" or "pm"
@@ -185,7 +185,7 @@ m - month; i.e. "01" to "12"
 n - month without leading zeros; i.e. "1" to "12"
 M - month, textual, 3 letters; i.e. "Jan"
 s - seconds; i.e. "00" to "59"
-S - English ordinal suffix, textual, 2 characters; i.e. "th", "nd"
+S - English ordinal suffix, textual, 2 characters; i.e. "th","nd"
 t - number of days in the given month; i.e. "28" to "31"
 T - Timezone setting of this machine; i.e. "MDT"
 U - seconds since the epoch
@@ -198,21 +198,21 @@ Z - timezone offset in seconds (i.e. "-43200" to "43200")
 
 
 //%%%%%		LANGUAGE SPECIFIC SETTINGS   %%%%%
-define('_CHARSET', 'UTF-8');
-define('_LANGCODE', 'bg');
+define('_CHARSET','UTF-8');
+define('_LANGCODE','bg');
 
 // change 0 to 1 if this language is a multi-bytes language
-define("XOOPS_USE_MULTIBYTES", "0");
+define("XOOPS_USE_MULTIBYTES","0");
 
 // Error messaging
-define("_NOERRORMESSAGE", "Няма дефинирано съобщение за грешка");
+define("_NOERRORMESSAGE","Няма дефинирано съобщение за грешка");
 
 // Added in XOOPS 2.2
 define("_SELECTEDITOR","Изберете редактор");
 
-define("_REMOVE", "Премавахва");
-define("_REQUIRED", "Задължително");
+define("_REMOVE","Премавахва");
+define("_REQUIRED","Задължително");
 
 // Used for "theme" type profile field
-define("_SITEDEFAULT", "По подразбиране");
+define("_SITEDEFAULT","По подразбиране");
 ?>

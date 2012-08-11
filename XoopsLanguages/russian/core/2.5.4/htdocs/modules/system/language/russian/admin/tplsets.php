@@ -43,6 +43,6 @@ define("_AM_SYSTEM_TEMPLATES_SELECT_TEMPLATES","Выбор шаблонов");
 define("_AM_SYSTEM_TEMPLATES_ALL_MODULES","Все модули");
 define("_AM_SYSTEM_TEMPLATES_RESTORE_OK","Востановление прошло успешно");
 define("_AM_SYSTEM_TEMPLATES_RESTORE_NOTOK","Востановление закончилось неудачей");
-define("_AM_SYSTEM_TEMPLATES_SET", "Выбрать шаблон");
+define("_AM_SYSTEM_TEMPLATES_SET","Выбрать шаблон");
 
 ?>

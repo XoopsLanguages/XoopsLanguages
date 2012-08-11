@@ -15,6 +15,6 @@ define('_AD_NICKNAME','Nick');
 define('_AD_EMAIL','Email');
 define('_AD_AVATAR','Avatar');
 define('_AD_REGISTERED','Registrazione'); //Data di registrazione
-define('_AD_PRESSGEN', 'Questa &egrave; la prima volta che accedi al pannello di amministrazione. Premi \'Invia\' per procedere.');
-define('_AD_LOGINADMIN', 'Stai entrando...');
+define('_AD_PRESSGEN','Questa &egrave; la prima volta che accedi al pannello di amministrazione. Premi \'Invia\' per procedere.');
+define('_AD_LOGINADMIN','Stai entrando...');
 ?>

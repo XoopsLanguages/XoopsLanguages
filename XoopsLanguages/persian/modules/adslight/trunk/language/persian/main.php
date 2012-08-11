@@ -44,7 +44,7 @@
 
 define("_ADSLIGHT_ADDON","Addon");
 define("_ADSLIGHT_ANNONCES","آگهی های تبلیعاتی شاخه");
-define("_ADSLIGHT_LOGOLINK", "ماژول رایگان زوپس AdsLight (آگهی تبلیغات)");
+define("_ADSLIGHT_LOGOLINK","ماژول رایگان زوپس AdsLight (آگهی تبلیغات)");
 define("_ADSLIGHT_MAIN","صفحه اصلی");
 define("_ADSLIGHT_ADDFROM","آگهی و نیازمندیها");
 define("_ADSLIGHT_NEWTOD","آگهی های جدید  اضافه شده در این شاخه امروز");
@@ -240,7 +240,7 @@ define("_ADSLIGHT_VIEW_MY_ADS","مشاهده تمام آگهی ها از ");
 define("_ADSLIGHT_COMMENTS_HEAD","<h3>نظرات در مورد این فروشنده</h3>");
 define("_ADSLIGHT_PREMIUM_DAY","<b> روز, اگر شما آن را تغییر ندهید.</b> ");
 define("_ADSLIGHT_PREMIUM_LONG_HEAD","<b>آگهی و نیازمندیها شما فورا شروع خواهد شد.</b> ");
-define("_ADSLIGHT_PREMIUM_MEMBER", "<b>از آنجا که شما عضو ویژه هستید.شما می توانید انتخاب کنید مدت زمان آگهی خود را.<br /><br />این آخرین بار خواهد بود </b>");
+define("_ADSLIGHT_PREMIUM_MEMBER","<b>از آنجا که شما عضو ویژه هستید.شما می توانید انتخاب کنید مدت زمان آگهی خود را.<br /><br />این آخرین بار خواهد بود </b>");
 define("_ADSLIGHT_PREMIUM_MODERATED_HEAD","<b>آگهی شما در صف انتظار تائید قرار گرفت</b>");
 
 // ADDED FOR RATINGS
@@ -305,14 +305,14 @@ define("_ADSLIGHT_CONTACT_BY_BOTH","هر دو پست الکترونیک و PM");
 define("_ADSLIGHT_CONTACT_BY_PHONE","فقط به وسیله تلفن");
 define("_ADSLIGHT_ORBY"," با استفاده از ");
 define("_ADSLIGHT_CONTACTBYMP"," پیام خصوصی(PM) ");
-define("_ADSLIGHT_PREMYOUHAVE", "شما دارید %s تصویر در البوم خود.");
-define("_ADSLIGHT_YOUHAVE", "شما دارید %s تصویر در البوم تصاویر.");
-define("_ADSLIGHT_YOUCANHAVE", "به عنوان عضو ویژه شما میتوانید %s تصویر در آلبوم خود داشته باشید.");
-define("_ADSLIGHT_BMCANHAVE", "به عنوان عضو عادی شما میتوانید %s تصویر در آلبوم خود داشته باشید");
-define("_ADSLIGHT_UPGRADE_NOW", "ارتقا به عضو ویژه");
-define("_ADSLIGHT_DELETE", "حذف");
-define("_ADSLIGHT_EDITDESC", "ویرایش توضیحات");
-define("_ADSLIGHT_TOKENEXPIRED", "Your Security Token has Expired<br /> مجدد سعی کنید");
+define("_ADSLIGHT_PREMYOUHAVE","شما دارید %s تصویر در البوم خود.");
+define("_ADSLIGHT_YOUHAVE","شما دارید %s تصویر در البوم تصاویر.");
+define("_ADSLIGHT_YOUCANHAVE","به عنوان عضو ویژه شما میتوانید %s تصویر در آلبوم خود داشته باشید.");
+define("_ADSLIGHT_BMCANHAVE","به عنوان عضو عادی شما میتوانید %s تصویر در آلبوم خود داشته باشید");
+define("_ADSLIGHT_UPGRADE_NOW","ارتقا به عضو ویژه");
+define("_ADSLIGHT_DELETE","حذف");
+define("_ADSLIGHT_EDITDESC","ویرایش توضیحات");
+define("_ADSLIGHT_TOKENEXPIRED","Your Security Token has Expired<br /> مجدد سعی کنید");
 define("_ADSLIGHT_DESC_EDITED","توضیحات تصویر شما با موفقیت ویرایش شد");
 define("_ADSLIGHT_DELETED","تصویر با موفقیت حذف شد");
 define("_ADSLIGHT_SUBMIT_PIC_TITLE","ارسال عکس به آلبوم شما");
@@ -350,23 +350,23 @@ define("_ADSLIGHT_PAGES","صفحه -");
 define("_ADSLIGHT_REALNAME","اسم");
 define("_ADSLIGHT_VIEW_YOUR_LISTINGS","مشاهده آگهی های شما");
 define("_ADSLIGHT_REPLIED_BY","پاسخ از طرف : ");
-define("_ADSLIGHT_DELETE_REPLY", "حذف این پاسخ");
-define("_ADSLIGHT_NO_REPLIES", "پاسخی وجود ندارد");
-define("_ADSLIGHT_THANKS", "با تشکر از شما برای ما با استفاده از تبلیغات و نیازمندیها");
-define("_ADSLIGHT_WEBMASTER", "وبمستر");
-define("_ADSLIGHT_YOUR_AD", "آگهی شما");
+define("_ADSLIGHT_DELETE_REPLY","حذف این پاسخ");
+define("_ADSLIGHT_NO_REPLIES","پاسخی وجود ندارد");
+define("_ADSLIGHT_THANKS","با تشکر از شما برای ما با استفاده از تبلیغات و نیازمندیها");
+define("_ADSLIGHT_WEBMASTER","وبمستر");
+define("_ADSLIGHT_YOUR_AD","آگهی شما");
 define("_ADSLIGHT_AT","در");
-define("_ADSLIGHT_VEDIT_AD", "مشاهده و یا ویرایش آگهی شما در اینجا");
-define("_ADSLIGHT_ALMOST", "آگهی شما در حال انقضا می باشد");
-define("_ADSLIGHT_EXPIRED", "منقضی شده و حذف شده است");
-define("_ADSLIGHT_YOUR_AD_ON", "آگهی شما در");
+define("_ADSLIGHT_VEDIT_AD","مشاهده و یا ویرایش آگهی شما در اینجا");
+define("_ADSLIGHT_ALMOST","آگهی شما در حال انقضا می باشد");
+define("_ADSLIGHT_EXPIRED","منقضی شده و حذف شده است");
+define("_ADSLIGHT_YOUR_AD_ON","آگهی شما در");
 define("_ADSLIGHT_VU","آگهی شما مشاهده شده است");
 define("_ADSLIGHT_TIMES","زمان.");
 define("_ADSLIGHT_STOP","آگهی و نیازمندیها شما منقضی شده است");
 define("_ADSLIGHT_SOON","بزودی منقضی می شود");
 define("_ADSLIGHT_MUSTLOGIN","برای تماس با صاحب این آگهی <br /> یا ارسال نظر شما باید وارد سیستم شوید.");
-define("_ADSLIGHT_VIEW_AD", "نمایش آگهی شما در");
-define("_ADSLIGHT_MORE_PHOTOS", "مشاهده موارد بیشتری عکس");
+define("_ADSLIGHT_VIEW_AD","نمایش آگهی شما در");
+define("_ADSLIGHT_MORE_PHOTOS","مشاهده موارد بیشتری عکس");
 define("_ADSLIGHT_CANCEL","انصراف");
 
 //Added for 1.2 RC1
@@ -374,7 +374,7 @@ define("_ADSLIGHT_ADDED_TO_CAT","یک آگهی جدید به شاخه اضافه
 define("_ADSLIGHT_RECIEVING_NOTIF","شما عضو هستید برای دریافت اطلاعیه از این نوع.");
 define("_ADSLIGHT_ERROR_NOTIF","اگر این خطا است یا شما مایل به دریافت اطلاعیه بیشتر نیستید، لطفا  به بخش آگاهی رسانی اشتراک خود مراجعه نمائید از طریق لینک زیر :");
 define("_ADSLIGHT_FOLLOW_LINK","در اینجاهست یک لینک به آگهی جدید");
-define("_ADSLIGHT_YOU_CAN_VIEW_BELOW", "شما می توانید آگهی کامل را در لینک زیر ببینید");
+define("_ADSLIGHT_YOU_CAN_VIEW_BELOW","شما می توانید آگهی کامل را در لینک زیر ببینید");
 define("_ADSLIGHT_LISTING_NUMBER","تعداد آگهی :");
 
 define("_ADSLIGHT_NOREPLY","!!!  به این پیام پاسخ ندهید, شما جوابی دریافت نمی کنید.  !!!");
@@ -397,43 +397,43 @@ define("_ADSLIGHT_MI_ADSLIGHT_SMENU3","جستجو");
 //viewads.php
 define("_ADSLIGHT_ALERTEABUS","گزارش تخلف");
 define("_ADSLIGHT_CONTACT_SUBMITTER","تماس با");
-define("_ADSLIGHT_SENDFRIENDS", "معرفی این آگهی به دوستان");
+define("_ADSLIGHT_SENDFRIENDS","معرفی این آگهی به دوستان");
 
 //report-abuse.php
-define("_ADSLIGHT_REPORTSENDTO", "<b>گزارش این آگهی:</b><br/><br/>آگهی شماره. ");
-define("_ADSLIGHT_REPORTANNSEND", "با تشکر از راهنمایی شما.<br/>آگهی فقط به مدیر گزارش شود.");
-define("_ADSLIGHT_REPORTSUBJET", "[هشدار] آگهی نامناسب ");
-define("_ADSLIGHT_REPORTMESSAGE", "معتقد است که این اطلاعیه غیر قانونی است و می خواست شما بدانید.");
+define("_ADSLIGHT_REPORTSENDTO","<b>گزارش این آگهی:</b><br/><br/>آگهی شماره. ");
+define("_ADSLIGHT_REPORTANNSEND","با تشکر از راهنمایی شما.<br/>آگهی فقط به مدیر گزارش شود.");
+define("_ADSLIGHT_REPORTSUBJET","[هشدار] آگهی نامناسب ");
+define("_ADSLIGHT_REPORTMESSAGE","معتقد است که این اطلاعیه غیر قانونی است و می خواست شما بدانید.");
 
 //index.php >> Infos Bulle //
-define("_ADSLIGHT_ADD_LISTING_BULL", "برای اضافه کردن آگهی<br />لطفا در سایت ثبت نام کنید ");
-define("_ADSLIGHT_ADD_LISTING_SUB", "ثبت نام در سایت");
-define("_ADSLIGHT_ADD_LISTING_BULLOK", "شما می توانید آگهی اضافه کنید<br />برای ارسال تبلیغات : ");
-define("_ADSLIGHT_ADD_LISTING_SUBOK", "کلیک کنید");
+define("_ADSLIGHT_ADD_LISTING_BULL","برای اضافه کردن آگهی<br />لطفا در سایت ثبت نام کنید ");
+define("_ADSLIGHT_ADD_LISTING_SUB","ثبت نام در سایت");
+define("_ADSLIGHT_ADD_LISTING_BULLOK","شما می توانید آگهی اضافه کنید<br />برای ارسال تبلیغات : ");
+define("_ADSLIGHT_ADD_LISTING_SUBOK","کلیک کنید");
 
 //index.php >> Title Menu //
-define("_ADSLIGHT_ADD_TITLEMENU1", "ویرایش / حذف تبلیغات خود ، و همچنین گزارش به عنوان [رزرو شده] ...");
-define("_ADSLIGHT_ADD_TITLEMENU2", "ارسال رایگان آگهی ،  شما می توانید انتخاب کنید ازفهرست موضوعات");
-define("_ADSLIGHT_ADD_TITLEMENU4", "راهنمایی های خوب برای نوشتن آگهی.");
-define("_ADSLIGHT_ADD_TITLEMENU5", "جستجوی Cyble یا جستجو در منطقه شما.");
-define("_ADSLIGHT_ADD_TITLEMENU6", "خواندن و ارسال pm");
-define("_ADSLIGHT_ADD_TITLEMENU7", "شما یک پیام جدید دارید.");
-define("_ADSLIGHT_ADD_TITLEMENU8", "شما باید برای خواندن پیامهاهایتان وارد سایت شوید");
-define("_ADSLIGHT_ADD_TITLEMENU9", "شما باید برای دیدن مشخصات خود وارد سایت شوید.");
-define("_ADSLIGHT_ADD_TITLEMENU10", "مشاهده و یا ویرایش مشخصات خود در اینجا.");
+define("_ADSLIGHT_ADD_TITLEMENU1","ویرایش / حذف تبلیغات خود ، و همچنین گزارش به عنوان [رزرو شده] ...");
+define("_ADSLIGHT_ADD_TITLEMENU2","ارسال رایگان آگهی ،  شما می توانید انتخاب کنید ازفهرست موضوعات");
+define("_ADSLIGHT_ADD_TITLEMENU4","راهنمایی های خوب برای نوشتن آگهی.");
+define("_ADSLIGHT_ADD_TITLEMENU5","جستجوی Cyble یا جستجو در منطقه شما.");
+define("_ADSLIGHT_ADD_TITLEMENU6","خواندن و ارسال pm");
+define("_ADSLIGHT_ADD_TITLEMENU7","شما یک پیام جدید دارید.");
+define("_ADSLIGHT_ADD_TITLEMENU8","شما باید برای خواندن پیامهاهایتان وارد سایت شوید");
+define("_ADSLIGHT_ADD_TITLEMENU9","شما باید برای دیدن مشخصات خود وارد سایت شوید.");
+define("_ADSLIGHT_ADD_TITLEMENU10","مشاهده و یا ویرایش مشخصات خود در اینجا.");
 
 //viewcats.php >> Infos Bulle //
-define("_ADSLIGHT_ADD_LISTING_BULLCATS", "شما می توانید اضافه کنید یک یا چند<br />آگهی  تبلیغاتی در این شاخه<br />");
-define("_ADSLIGHT_ADD_LISTING_BULLCATSOK", "برای اضافه کردن یک <br />آگهی  تبلیغاتی در این شاخه<br />شما باید درسایت عضو باشید");
+define("_ADSLIGHT_ADD_LISTING_BULLCATS","شما می توانید اضافه کنید یک یا چند<br />آگهی  تبلیغاتی در این شاخه<br />");
+define("_ADSLIGHT_ADD_LISTING_BULLCATSOK","برای اضافه کردن یک <br />آگهی  تبلیغاتی در این شاخه<br />شما باید درسایت عضو باشید");
 
 // Reserved
-define("_ADSLIGHT_RESERVED", "رزرو شده");
+define("_ADSLIGHT_RESERVED","رزرو شده");
 
 // tips_writing_ad.php
-define("_ADSLIGHT_TIPSWRITE", "قوانین سایت برای نوشتن یک آگهی مناسب<br />پیشنهاد ما برای نوشتن یک آگهی خوب<br />بنویسید یک آگهی مناسب برای سلیقه های مختلف");
-define("_ADSLIGHT_TIPSWRITE_TITLE", "نکاتی که برای نوشتن یک اگهی باید رعایت کنید");
+define("_ADSLIGHT_TIPSWRITE","قوانین سایت برای نوشتن یک آگهی مناسب<br />پیشنهاد ما برای نوشتن یک آگهی خوب<br />بنویسید یک آگهی مناسب برای سلیقه های مختلف");
+define("_ADSLIGHT_TIPSWRITE_TITLE","نکاتی که برای نوشتن یک اگهی باید رعایت کنید");
 
-define("_ADSLIGHT_TIPSWRITE_TEXT", "<b>1. Une ou des photos</b><br><br>
+define("_ADSLIGHT_TIPSWRITE_TEXT","<b>1. Une ou des photos</b><br><br>
 Le premier contact qu&rsquo;auront les visiteurs avec votre annonce, va &ecirc;tre une ou des photos de l'objet que vous allez vendre.<br>Il est vivement conseill&eacute; de mettre une ou des photos de votre objet.<br>
 Une petite annonce avec photo est 7 fois plus consult&eacute;e qu&rsquo;une annonce sans photo ! <br>Elle donne aussi une premi&egrave;re id&eacute;e de l&rsquo;&eacute;tat de votre objet.<br><br>
 <br>- Un objet propre est toujours plus attrayante.<br>- Soignez la qualit&eacute; de la photo. (Pas trop sombre)<br>- Cadrez l'objet de sorte qu&rsquo;il soit visible. <br>- &Eacute;vitez les photos &lsquo;floues&rsquo;<br><br><b>2. Claire et d&eacute;taill&eacute;e</b><br><br>
@@ -450,8 +450,8 @@ Et n'oubliez pas, une bonne affaire, <br>c'est lorsque l&rsquo;acheteur et le ve
 
 //version 1.053
 // maps.php
-define("_ADSLIGHT_MAPS_TITLE", "جستجو بر اساس منطقه");
-define("_ADSLIGHT_MAPS_TEXT", "انتخاب منطقه بر روی نقشه<br />برای دیدن آگهی های تبلیغاتی در منطقه است.");
+define("_ADSLIGHT_MAPS_TITLE","جستجو بر اساس منطقه");
+define("_ADSLIGHT_MAPS_TEXT","انتخاب منطقه بر روی نقشه<br />برای دیدن آگهی های تبلیغاتی در منطقه است.");
 
 //viewads.php
 define("_ADSLIGHT_NOCLAS","در حال حاضر تبلیغات وجود ندارد<br />در این شاخه ...");
@@ -459,9 +459,9 @@ define("_ADSLIGHT_NOCLAS","در حال حاضر تبلیغات وجود ندار
 //version 1.063
 // viawcats.php
 
-define("_ADSLIGHT_ADD_LISTING_NOTADDSINTHISCAT", "هیچ آگهی در این مجموعه وجود ندارد.<br />");
-define("_ADSLIGHT_ADD_LISTING_NOTADDSSUBMIT", "اضافه کردن تبلیغ");
+define("_ADSLIGHT_ADD_LISTING_NOTADDSINTHISCAT","هیچ آگهی در این مجموعه وجود ندارد.<br />");
+define("_ADSLIGHT_ADD_LISTING_NOTADDSSUBMIT","اضافه کردن تبلیغ");
 
 //version 1.064
-define("_ADSLIGHT_CATPLUS", "<br/>&#187;&nbsp;بیشتر ...");
+define("_ADSLIGHT_CATPLUS","<br/>&#187;&nbsp;بیشتر ...");
 ?>

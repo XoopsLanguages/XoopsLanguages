@@ -1,17 +1,17 @@
 <?php
 if( ! defined( 'XPRESS_MODINFO_LANG_INCLUDED' ) ) {
-	define( 'XPRESS_MODINFO_LANG_INCLUDED' , 1 ) ;
+	define('XPRESS_MODINFO_LANG_INCLUDED' , 1 ) ;
 
 	// The name of this module
-	define("_MI_XPRESS_NAME", "XPress");
+	define("_MI_XPRESS_NAME","XPress");
 
 	// A brief description of this module
-	define("_MI_XPRESS_DESC", "وردپرس برای زوپس");
+	define("_MI_XPRESS_DESC","وردپرس برای زوپس");
 
-	define("_MI_XPRESS_ADMENU_INDEX", "صفحه اصلی");
-	define("_MI_XPRESS_ADMENU_PERMISSION", "دسترسی ها");
-	define("_MI_XPRESS_ADMENU_BLOCK", "بلاک ها");
-	define("_MI_XPRESS_ADMENU_OPTION", "تنظیمات وردپرس");
+	define("_MI_XPRESS_ADMENU_INDEX","صفحه اصلی");
+	define("_MI_XPRESS_ADMENU_PERMISSION","دسترسی ها");
+	define("_MI_XPRESS_ADMENU_BLOCK","بلاک ها");
+	define("_MI_XPRESS_ADMENU_OPTION","تنظیمات وردپرس");
 	define("_MI_XPRESS_ADMENU_GENERAL","تنظیمات عمومی");	
 	define("_MI_XPRESS_UPDATE","به روز رسانی ماژول");
 	define("_MI_XPRESS_GO_MODULE","برو به ماژول");
@@ -19,37 +19,37 @@ if( ! defined( 'XPRESS_MODINFO_LANG_INCLUDED' ) ) {
 	define("_MI_XPRESS_ADMENU_DISPLAY","نمایش تنظیمات");
 		
 	// Sub menu titles
-	define("_MI_XPRESS_MENU_SUBMIT", "ارسال پست");
+	define("_MI_XPRESS_MENU_SUBMIT","ارسال پست");
 	define("_MI_XPRESS_MENU_EDIT","مدیریت");
 
 	// Configs
-	define("_MI_XPRESS_ENABLE_MU", "فعال کردن حالت چندکاربره");
-	define("_MI_XPRESS_ENABLE_MU_DESC", "پشتیبانی از حالت چندکاربره");
+	define("_MI_XPRESS_ENABLE_MU","فعال کردن حالت چندکاربره");
+	define("_MI_XPRESS_ENABLE_MU_DESC","پشتیبانی از حالت چندکاربره");
 
-	define("_MI_XPRESS_NUM_POSTS", "تعداد پست های نمایش داده شده در نوار کناری");
-	define("_MI_XPRESS_NUM_POSTS_DESC", "");
+	define("_MI_XPRESS_NUM_POSTS","تعداد پست های نمایش داده شده در نوار کناری");
+	define("_MI_XPRESS_NUM_POSTS_DESC","");
 
 
-	define("_MI_XPRESS_NUM_COMMENTS", "تعداد نظر های نمایش داده شده در نوار کناری");
-	define("_MI_XPRESS_NUM_COMMENTS_DESC", "");
+	define("_MI_XPRESS_NUM_COMMENTS","تعداد نظر های نمایش داده شده در نوار کناری");
+	define("_MI_XPRESS_NUM_COMMENTS_DESC","");
 
-	define("_MI_XPRESS_NUM_AUTHORS", "تعداد نویسندگان نمایش داده شده در نوار کناری");
-	define("_MI_XPRESS_NUM_AUTHORS_DESC", "");
+	define("_MI_XPRESS_NUM_AUTHORS","تعداد نویسندگان نمایش داده شده در نوار کناری");
+	define("_MI_XPRESS_NUM_AUTHORS_DESC","");
 
-	define("_MI_XPRESS_LENG_COMMENT", "طول نظر ها برای نمایش در نوار کناری");
-	define("_MI_XPRESS_LENG_COMMENT_DESC", "");
+	define("_MI_XPRESS_LENG_COMMENT","طول نظر ها برای نمایش در نوار کناری");
+	define("_MI_XPRESS_LENG_COMMENT_DESC","");
 
-	define("_MI_XPRESS_STYLE", "استایل نمایش داده شده");
-	define("_MI_XPRESS_STYLE_DESC", "استایل زوپس , استایل وردپرس, یا انتخاب به وسیله کاربر");
+	define("_MI_XPRESS_STYLE","استایل نمایش داده شده");
+	define("_MI_XPRESS_STYLE_DESC","استایل زوپس , استایل وردپرس, یا انتخاب به وسیله کاربر");
 
-	define("_MI_XPRESS_THEMESET", "تنظیمات قالب ماژول");
-	define("_MI_XPRESS_THEMESET_DESC", "Module-wide, select '"._NONE."' will use site-wide theme");
+	define("_MI_XPRESS_THEMESET","تنظیمات قالب ماژول");
+	define("_MI_XPRESS_THEMESET_DESC","Module-wide, select '"._NONE."' will use site-wide theme");
 
-	define("_MI_XPRESS_RSSCHARSET", "RSS charset");
-	define("_MI_XPRESS_RSSCHARSET_DESC", "Charset for creating RSS/ATOM feeds");
+	define("_MI_XPRESS_RSSCHARSET","RSS charset");
+	define("_MI_XPRESS_RSSCHARSET_DESC","Charset for creating RSS/ATOM feeds");
 
-	define("_MI_XPRESS_SHOWEXCERPT", "Show excerpt");
-	define("_MI_XPRESS_SHOWEXCERPT_DESC", "Display excerpt instead of full article on index page");
+	define("_MI_XPRESS_SHOWEXCERPT","Show excerpt");
+	define("_MI_XPRESS_SHOWEXCERPT_DESC","Display excerpt instead of full article on index page");
 
 	define("_MI_XPRESS_LENG_EXCERPT","Excerpt number");
 	define("_MI_XPRESS_LENG_EXCERPT_DESC","Excerpt number on index page");
@@ -123,12 +123,12 @@ if( ! defined( 'XPRESS_MODINFO_LANG_INCLUDED' ) ) {
 	define("_MI_XPRESS_CURL_PATH_DESC","Passing to the cURL library to which snoopy refers when SSL is used is specified.");
 
 	// Block Name
-	define("_MI_XPRESS_BLOCK_CALENDAR", "تقویم");
-	define("_MI_XPRESS_BLOCK_SIDEBAR", "Sidebar ناوبری");
-	define("_MI_XPRESS_BLOCK_AUTHORS", "لیست نویسندگان");
-	define("_MI_XPRESS_BLOCK_POSTS", "جدید ترین عنوان پست ها");
-	define("_MI_XPRESS_BLOCK_CONTENT", "جدید پست های نظر دار");
-	define("_MI_XPRESS_BLOCK_COMMENTS", "جدید ترین نظر ها");
+	define("_MI_XPRESS_BLOCK_CALENDAR","تقویم");
+	define("_MI_XPRESS_BLOCK_SIDEBAR","Sidebar ناوبری");
+	define("_MI_XPRESS_BLOCK_AUTHORS","لیست نویسندگان");
+	define("_MI_XPRESS_BLOCK_POSTS","جدید ترین عنوان پست ها");
+	define("_MI_XPRESS_BLOCK_CONTENT","جدید پست های نظر دار");
+	define("_MI_XPRESS_BLOCK_COMMENTS","جدید ترین نظر ها");
 	define("_MI_XPRESS_BLOCK_SEARCH","جستجو");
 	define("_MI_XPRESS_BLOCK_CATEGORY","شاخه");
 	define("_MI_XPRESS_BLOCK_ARCHIVE","آرشیو");
@@ -162,51 +162,51 @@ if( ! defined( 'XPRESS_MODINFO_LANG_INCLUDED' ) ) {
 
 
 // Notify Categories
-define('_MI_XPRESS_NOTCAT_GLOBAL', 'ALL');
-define('_MI_XPRESS_NOTCAT_GLOBALDSC', 'Notification option in the entire blog');
-define('_MI_XPRESS_NOTCAT_CAT', 'Category under selection');
-define('_MI_XPRESS_NOTCAT_CATDSC', 'Notification option to category under selection');
-define('_MI_XPRESS_NOTCAT_AUTHOR', 'Author who is selecting it'); 
-define('_MI_XPRESS_NOTCAT_AUTHORDSC', 'Notification option to author who is selecting it');
-define('_MI_XPRESS_NOTCAT_POST', 'Article on display'); 
-define('_MI_XPRESS_NOTCAT_POSTDSC', 'Notification option to article on display');
+define('_MI_XPRESS_NOTCAT_GLOBAL','ALL');
+define('_MI_XPRESS_NOTCAT_GLOBALDSC','Notification option in the entire blog');
+define('_MI_XPRESS_NOTCAT_CAT','Category under selection');
+define('_MI_XPRESS_NOTCAT_CATDSC','Notification option to category under selection');
+define('_MI_XPRESS_NOTCAT_AUTHOR','Author who is selecting it'); 
+define('_MI_XPRESS_NOTCAT_AUTHORDSC','Notification option to author who is selecting it');
+define('_MI_XPRESS_NOTCAT_POST','Article on display'); 
+define('_MI_XPRESS_NOTCAT_POSTDSC','Notification option to article on display');
 
 // Each Notifications
-define('_MI_XPRESS_NOTIFY_GLOBAL_WAITING', 'Approval waiting');
-define('_MI_XPRESS_NOTIFY_GLOBAL_WAITINGCAP', 'It notifies when the contribution and the edit that requires approving are done. Manager exclusive use');
-define('_MI_XPRESS_NOTIFY_GLOBAL_WAITINGSBJ', '[{X_SITENAME}] {X_MODULE}: Approval waiting');
+define('_MI_XPRESS_NOTIFY_GLOBAL_WAITING','Approval waiting');
+define('_MI_XPRESS_NOTIFY_GLOBAL_WAITINGCAP','It notifies when the contribution and the edit that requires approving are done. Manager exclusive use');
+define('_MI_XPRESS_NOTIFY_GLOBAL_WAITINGSBJ','[{X_SITENAME}] {X_MODULE}: Approval waiting');
 
-define('_MI_XPRESS_NOTIFY_GLOBAL_NEWPOST', 'Contribution of article');
-define('_MI_XPRESS_NOTIFY_GLOBAL_NEWPOSTCAP', 'It notifies when the article is contributed in either of the entire this blog. ');
-define('_MI_XPRESS_NOTIFY_GLOBAL_NEWPOSTSBJ', '[{XPRESS_BLOG_NAME}]Article: "{XPRESS_POST_TITLE}"');
+define('_MI_XPRESS_NOTIFY_GLOBAL_NEWPOST','Contribution of article');
+define('_MI_XPRESS_NOTIFY_GLOBAL_NEWPOSTCAP','It notifies when the article is contributed in either of the entire this blog. ');
+define('_MI_XPRESS_NOTIFY_GLOBAL_NEWPOSTSBJ','[{XPRESS_BLOG_NAME}]Article: "{XPRESS_POST_TITLE}"');
 
-define('_MI_XPRESS_NOTIFY_GLOBAL_NEWCOMMENT', 'Comment contribution');
-define('_MI_XPRESS_NOTIFY_GLOBAL_NEWCOMMENTCAP', 'It notifies when the comment is contributed in either of the entire this blog. ');
-define('_MI_XPRESS_NOTIFY_GLOBAL_NEWCOMMENTSBJ', '[{XPRESS_BLOG_NAME}]Comment: "{XPRESS_POST_TITLE}"');
+define('_MI_XPRESS_NOTIFY_GLOBAL_NEWCOMMENT','Comment contribution');
+define('_MI_XPRESS_NOTIFY_GLOBAL_NEWCOMMENTCAP','It notifies when the comment is contributed in either of the entire this blog. ');
+define('_MI_XPRESS_NOTIFY_GLOBAL_NEWCOMMENTSBJ','[{XPRESS_BLOG_NAME}]Comment: "{XPRESS_POST_TITLE}"');
 
-define('_MI_XPRESS_NOTIFY_CAT_NEWPOST', 'Article contribution to selection category');
-define('_MI_XPRESS_NOTIFY_CAT_NEWPOSTCAP', 'It notifies when there is an article contribution in this category.');
-define('_MI_XPRESS_NOTIFY_CAT_NEWPOSTSBJ', '[{XPRESS_BLOG_NAME}]Article: "{XPRESS_POST_TITLE}" (Condition:Category="{XPRESS_CAT_TITLE}")');
+define('_MI_XPRESS_NOTIFY_CAT_NEWPOST','Article contribution to selection category');
+define('_MI_XPRESS_NOTIFY_CAT_NEWPOSTCAP','It notifies when there is an article contribution in this category.');
+define('_MI_XPRESS_NOTIFY_CAT_NEWPOSTSBJ','[{XPRESS_BLOG_NAME}]Article: "{XPRESS_POST_TITLE}" (Condition:Category="{XPRESS_CAT_TITLE}")');
 
-define('_MI_XPRESS_NOTIFY_CAT_NEWCOMMENT', 'Comment contribution to selection category');
-define('_MI_XPRESS_NOTIFY_CAT_NEWCOMMENTCAP', 'It notifies when there is a comment contribution in this category. ');
-define('_MI_XPRESS_NOTIFY_CAT_NEWCOMMENTSBJ', '[{XPRESS_BLOG_NAME}]Comment: (Article"{XPRESS_POST_TITLE}") (Condition:Category="{XPRESS_CAT_TITLE}")');
+define('_MI_XPRESS_NOTIFY_CAT_NEWCOMMENT','Comment contribution to selection category');
+define('_MI_XPRESS_NOTIFY_CAT_NEWCOMMENTCAP','It notifies when there is a comment contribution in this category. ');
+define('_MI_XPRESS_NOTIFY_CAT_NEWCOMMENTSBJ','[{XPRESS_BLOG_NAME}]Comment: (Article"{XPRESS_POST_TITLE}") (Condition:Category="{XPRESS_CAT_TITLE}")');
 
-define('_MI_XPRESS_NOTIFY_AUT_NEWPOST', 'Article contribution by selection contributor');
-define('_MI_XPRESS_NOTIFY_AUT_NEWPOSTCAP', 'It notifies when there is an article contribution from this contributor. ');
-define('_MI_XPRESS_NOTIFY_AUT_NEWPOSTSBJ', '[{XPRESS_BLOG_NAME}]Article: "{XPRESS_POST_TITLE}" (Condition:Author="{XPRESS_AUTH_NAME}")');
+define('_MI_XPRESS_NOTIFY_AUT_NEWPOST','Article contribution by selection contributor');
+define('_MI_XPRESS_NOTIFY_AUT_NEWPOSTCAP','It notifies when there is an article contribution from this contributor. ');
+define('_MI_XPRESS_NOTIFY_AUT_NEWPOSTSBJ','[{XPRESS_BLOG_NAME}]Article: "{XPRESS_POST_TITLE}" (Condition:Author="{XPRESS_AUTH_NAME}")');
 
-define('_MI_XPRESS_NOTIFY_AUT_NEWCOMMENT', 'Comment contribution to selection contributor article');
-define('_MI_XPRESS_NOTIFY_AUT_NEWCOMMENTCAP', 'It notifies when the comment contribution is in the article by this contributor. ');
-define('_MI_XPRESS_NOTIFY_AUT_NEWCOMMENTSBJ', '[{XPRESS_BLOG_NAME}]Comment: (Article"{XPRESS_POST_TITLE}") (Condition:Author="{XPRESS_AUTH_NAME}")');
+define('_MI_XPRESS_NOTIFY_AUT_NEWCOMMENT','Comment contribution to selection contributor article');
+define('_MI_XPRESS_NOTIFY_AUT_NEWCOMMENTCAP','It notifies when the comment contribution is in the article by this contributor. ');
+define('_MI_XPRESS_NOTIFY_AUT_NEWCOMMENTSBJ','[{XPRESS_BLOG_NAME}]Comment: (Article"{XPRESS_POST_TITLE}") (Condition:Author="{XPRESS_AUTH_NAME}")');
 
-define('_MI_XPRESS_NOTIFY_POST_EDITPOST', 'Article change');
-define('_MI_XPRESS_NOTIFY_POST_EDITPOSTCAP', 'It notifies when there is a change in the article on the display. ');
-define('_MI_XPRESS_NOTIFY_POST_EDITPOSTSBJ', '[{XPRESS_BLOG_NAME}]Article: "{XPRESS_POST_TITLE}"Change (Condition:Article specification)');
+define('_MI_XPRESS_NOTIFY_POST_EDITPOST','Article change');
+define('_MI_XPRESS_NOTIFY_POST_EDITPOSTCAP','It notifies when there is a change in the article on the display. ');
+define('_MI_XPRESS_NOTIFY_POST_EDITPOSTSBJ','[{XPRESS_BLOG_NAME}]Article: "{XPRESS_POST_TITLE}"Change (Condition:Article specification)');
 
-define('_MI_XPRESS_NOTIFY_POST_NEWCOMMENT', 'Comment contribution to article');
-define('_MI_XPRESS_NOTIFY_POST_NEWCOMMENTCAP', 'It notifies when the comment is contributed in the article on the display. ');
-define('_MI_XPRESS_NOTIFY_POST_NEWCOMMENTSBJ', '[{XPRESS_BLOG_NAME}]Comment: (Article"{XPRESS_POST_TITLE}") (Condition:Article specification)');
+define('_MI_XPRESS_NOTIFY_POST_NEWCOMMENT','Comment contribution to article');
+define('_MI_XPRESS_NOTIFY_POST_NEWCOMMENTCAP','It notifies when the comment is contributed in the article on the display. ');
+define('_MI_XPRESS_NOTIFY_POST_NEWCOMMENTSBJ','[{XPRESS_BLOG_NAME}]Comment: (Article"{XPRESS_POST_TITLE}") (Condition:Article specification)');
 
 
 }

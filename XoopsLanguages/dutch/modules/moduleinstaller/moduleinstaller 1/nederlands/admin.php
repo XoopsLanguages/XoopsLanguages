@@ -21,7 +21,7 @@
  */
 define("_AM_MARQUEE_CONFIG","Marquees Configuration");
 define("_AM_MARQUEE_ID","ID");
-define("_AM_MARQUEE_GENERALSET", "Preferences" );
+define("_AM_MARQUEE_GENERALSET","Preferences" );
 define("_AM_MARQUEE_MODULEADMIN","Module's administration");
 define("_AM_MARQUEE_DIRECTION","Direction");
 define("_AM_MARQUEE_BEHAVIOUR","Behaviour");

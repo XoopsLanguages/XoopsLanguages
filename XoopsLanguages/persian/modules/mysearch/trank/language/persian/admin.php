@@ -25,7 +25,7 @@
 //  ------------------------------------------------------------------------ //
 
 define("_AM_MYSEARCH_DBUPDATED","پایگاه داده با موفقیت به روز شد");
-define("_AM_MYSEARCH_GENERALSET", "ویژگی های ماژول" );
+define("_AM_MYSEARCH_GENERALSET","ویژگی های ماژول" );
 define("_AM_MYSEARCH_GOTOMOD","نمایش ماژول");
 define("_AM_MYSEARCH_MODULEADMIN","مدیریت ماژول");
 define("_AM_MYSEARCH_STATS","آمار جست و جو (%d کلمه ذخیره شده اند)");
@@ -48,12 +48,12 @@ define("_AM_MYSEARCH_PRUNE_DESC","اگر کلمه ای وارد نکنید ، ا
 define("_AM_MYSEARCH_PRUNE_CONFIRM","آیا پاک کردن  این%u مورد را تائید می کنید؟ ");
 define("_AM_MYSEARCH_NOTHING_PRUNE","چیزی برای پاک کردن پیدا نشد");
 define("_AM_MYSEARCH_EXPORT","خروجی");
-define('_AM_MYSEARCH_EXPORT_BETWEEN', 'جست و جوی انجام شده بین این تاریخ را خارج کن ');
+define('_AM_MYSEARCH_EXPORT_BETWEEN','جست و جوی انجام شده بین این تاریخ را خارج کن ');
 define('_AM_MYSEARCH_EXPORT_AND'," و ");
 define("_AM_MYSEARCH_DATE_FORMAT","فرمت تاریخ (بر اساس فرمت PHP)");
 define("_AM_MYSEARCH_DELIMITER","جداساز بین فیلد ها");
 define("_AM_MYSEARCH_EXPORT_ERROR","خطا: ناتوانی در خارج کردن فایل %s");
-define('_AM_MYSEARCH_EXPORT_READY', "خروجی شما موجود می باشد<br /><a href='%s'>برای دریافت فایل اینجا را کلیک کنید</a>.<br />فراموش نکنید <a href='%s'>آن را پاک کنید </a> وقتی تمام کردید.");
+define('_AM_MYSEARCH_EXPORT_READY',"خروجی شما موجود می باشد<br /><a href='%s'>برای دریافت فایل اینجا را کلیک کنید</a>.<br />فراموش نکنید <a href='%s'>آن را پاک کنید </a> وقتی تمام کردید.");
 define('_AM_MYSEARCH_DELETED_OK',"فایل پاک شد");
 define('_AM_MYSEARCH_DELETED_PB',"خطا: ناتونی در پاک کردن فایل");
 define("_AM_MYSEARCH_NOTHING_TO_EXPORT","چیزی برای خروج پیدا نشد");

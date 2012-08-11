@@ -38,7 +38,7 @@ define('_US_REGISTERNG','Could not register new user.');
 define('_US_MAILOK','Receive occasional email notices <br />from administrators and moderators?');
 define('_US_DISCLAIMER','Disclaimer');
 define('_US_IAGREE','I agree to the above');
-define('_US_UNEEDAGREE', 'Sorry, you have to agree to our disclaimer to get registered.');
+define('_US_UNEEDAGREE','Sorry, you have to agree to our disclaimer to get registered.');
 define('_US_NOREGISTER','Sorry, we are currently closed for new user registrations');
 
 
@@ -71,15 +71,15 @@ define('_US_SORRYNOTFOUND','Sorry, no corresponding user info was found.');
 
 // %s is your site name
 define('_US_NEWPWDREQ','New Password Request at %s');
-define('_US_YOURACCOUNT', 'Your account at %s');
+define('_US_YOURACCOUNT','Your account at %s');
 
 define('_US_MAILPWDNG','mail_password: could not update user entry. Contact the Administrator');
 
 // %s is a username
 define('_US_PWDMAILED','Password for %s mailed.');
 define('_US_CONFMAIL','Confirmation Mail for %s mailed.');
-define('_US_ACTVMAILNG', 'Failed sending notification mail to %s');
-define('_US_ACTVMAILOK', 'Notification mail to %s sent.');
+define('_US_ACTVMAILNG','Failed sending notification mail to %s');
+define('_US_ACTVMAILOK','Notification mail to %s sent.');
 
 //%%%%%%		File Name userinfo.php 		%%%%%
 define('_US_SELECTNG','No User Selected! Please go back and try again.');
@@ -123,16 +123,16 @@ define('_US_PROFUPDATED','Your Profile Updated!');
 define('_US_USECOOKIE','Store my user name in a cookie for 1 year');
 define('_US_NO','No');
 define('_US_DELACCOUNT','Delete Account');
-define('_US_MYAVATAR', 'My Avatar');
-define('_US_UPLOADMYAVATAR', 'Upload Avatar');
+define('_US_MYAVATAR','My Avatar');
+define('_US_UPLOADMYAVATAR','Upload Avatar');
 define('_US_MAXPIXEL','Max Pixels');
 define('_US_MAXIMGSZ','Max Image Size (Bytes)');
 define('_US_SELFILE','Select file');
 define('_US_OLDDELETED','Your old avatar will be deleted!');
-define('_US_CHOOSEAVT', 'Choose avatar from the available list');
+define('_US_CHOOSEAVT','Choose avatar from the available list');
 
-define('_US_PRESSLOGIN', 'Press the button below to login');
+define('_US_PRESSLOGIN','Press the button below to login');
 
-define('_US_ADMINNO', 'User in the webmasters group cannot be removed');
-define('_US_GROUPS', 'User\'s Groups');
+define('_US_ADMINNO','User in the webmasters group cannot be removed');
+define('_US_GROUPS','User\'s Groups');
 ?>

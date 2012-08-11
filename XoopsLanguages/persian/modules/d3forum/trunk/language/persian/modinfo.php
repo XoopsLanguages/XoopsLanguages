@@ -96,58 +96,58 @@ define($constpref.'_GUESTVOTE_IVLDSC','با انتخاب صفر امکان را�
 
 
 // Notify Categories
-define($constpref.'_NOTCAT_TOPIC', 'این گفتگو'); 
-define($constpref.'_NOTCAT_TOPICDSC', 'اطلاع در مورد هدف این گفتگو');
-define($constpref.'_NOTCAT_FORUM', 'این انجمن'); 
-define($constpref.'_NOTCAT_FORUMDSC', 'اطلاع در مورد هدف این انجمن');
-define($constpref.'_NOTCAT_CAT', 'این شاخه');
-define($constpref.'_NOTCAT_CATDSC', 'اطلاع در مورد هدف این شاخه');
-define($constpref.'_NOTCAT_GLOBAL', 'این ماژول');
-define($constpref.'_NOTCAT_GLOBALDSC', 'اطلاع در مورد هدف این ماژول');
+define($constpref.'_NOTCAT_TOPIC','این گفتگو'); 
+define($constpref.'_NOTCAT_TOPICDSC','اطلاع در مورد هدف این گفتگو');
+define($constpref.'_NOTCAT_FORUM','این انجمن'); 
+define($constpref.'_NOTCAT_FORUMDSC','اطلاع در مورد هدف این انجمن');
+define($constpref.'_NOTCAT_CAT','این شاخه');
+define($constpref.'_NOTCAT_CATDSC','اطلاع در مورد هدف این شاخه');
+define($constpref.'_NOTCAT_GLOBAL','این ماژول');
+define($constpref.'_NOTCAT_GLOBALDSC','اطلاع در مورد هدف این ماژول');
 
 // Each Notifications
-define($constpref.'_NOTIFY_TOPIC_NEWPOST', 'پیام جدید در گفتگو');
-define($constpref.'_NOTIFY_TOPIC_NEWPOSTCAP', 'وقتی پیام جدیدی  در این گفتگو خورد مرا با خبر کن.');
-define($constpref.'_NOTIFY_TOPIC_NEWPOSTSBJ', '[{X_SITENAME}] {X_MODULE}:{TOPIC_TITLE} پیام جدید در گفتگو');
+define($constpref.'_NOTIFY_TOPIC_NEWPOST','پیام جدید در گفتگو');
+define($constpref.'_NOTIFY_TOPIC_NEWPOSTCAP','وقتی پیام جدیدی  در این گفتگو خورد مرا با خبر کن.');
+define($constpref.'_NOTIFY_TOPIC_NEWPOSTSBJ','[{X_SITENAME}] {X_MODULE}:{TOPIC_TITLE} پیام جدید در گفتگو');
 
-define($constpref.'_NOTIFY_FORUM_NEWPOST', 'پیام جدید در انجمن');
-define($constpref.'_NOTIFY_FORUM_NEWPOSTCAP', 'وقتی پیام جدیدی در این انجمن زده شد مرا با خبر کن');
-define($constpref.'_NOTIFY_FORUM_NEWPOSTSBJ', '[{X_SITENAME}] {X_MODULE}:{FORUM_TITLE} پیام جدید در انجمن');
+define($constpref.'_NOTIFY_FORUM_NEWPOST','پیام جدید در انجمن');
+define($constpref.'_NOTIFY_FORUM_NEWPOSTCAP','وقتی پیام جدیدی در این انجمن زده شد مرا با خبر کن');
+define($constpref.'_NOTIFY_FORUM_NEWPOSTSBJ','[{X_SITENAME}] {X_MODULE}:{FORUM_TITLE} پیام جدید در انجمن');
 
-define($constpref.'_NOTIFY_FORUM_NEWTOPIC', 'گفتگو جدید در این انجمن');
-define($constpref.'_NOTIFY_FORUM_NEWTOPICCAP', 'وقتی گفتگو جدیدی در این انجمن باز شد مرا با خبر کن.');
-define($constpref.'_NOTIFY_FORUM_NEWTOPICSBJ', '[{X_SITENAME}] {X_MODULE}:{FORUM_TITLE} گفتگو جدید در انجمن');
+define($constpref.'_NOTIFY_FORUM_NEWTOPIC','گفتگو جدید در این انجمن');
+define($constpref.'_NOTIFY_FORUM_NEWTOPICCAP','وقتی گفتگو جدیدی در این انجمن باز شد مرا با خبر کن.');
+define($constpref.'_NOTIFY_FORUM_NEWTOPICSBJ','[{X_SITENAME}] {X_MODULE}:{FORUM_TITLE} گفتگو جدید در انجمن');
 
-define($constpref.'_NOTIFY_CAT_NEWPOST', 'پیام جدید در این شاخه');
-define($constpref.'_NOTIFY_CAT_NEWPOSTCAP', 'وقتی پیام جدیدی در این شاخه زده شد مرا با خبر کن .');
-define($constpref.'_NOTIFY_CAT_NEWPOSTSBJ', '[{X_SITENAME}] {X_MODULE}:{CAT_TITLE} پیام جدید در شاخه');
+define($constpref.'_NOTIFY_CAT_NEWPOST','پیام جدید در این شاخه');
+define($constpref.'_NOTIFY_CAT_NEWPOSTCAP','وقتی پیام جدیدی در این شاخه زده شد مرا با خبر کن .');
+define($constpref.'_NOTIFY_CAT_NEWPOSTSBJ','[{X_SITENAME}] {X_MODULE}:{CAT_TITLE} پیام جدید در شاخه');
 
-define($constpref.'_NOTIFY_CAT_NEWTOPIC', 'گفتگو جدید در این شاخه');
-define($constpref.'_NOTIFY_CAT_NEWTOPICCAP', 'وقتی گفتگو جدیدی در این شاخه زده شد مرا با خبر کن.');
-define($constpref.'_NOTIFY_CAT_NEWTOPICSBJ', '[{X_SITENAME}] {X_MODULE}:{CAT_TITLE} گفتگو جدید در شاخه');
+define($constpref.'_NOTIFY_CAT_NEWTOPIC','گفتگو جدید در این شاخه');
+define($constpref.'_NOTIFY_CAT_NEWTOPICCAP','وقتی گفتگو جدیدی در این شاخه زده شد مرا با خبر کن.');
+define($constpref.'_NOTIFY_CAT_NEWTOPICSBJ','[{X_SITENAME}] {X_MODULE}:{CAT_TITLE} گفتگو جدید در شاخه');
 
-define($constpref.'_NOTIFY_CAT_NEWFORUM', 'انجمن جدید در این شاخه');
-define($constpref.'_NOTIFY_CAT_NEWFORUMCAP', 'وقتی انجمن جدیدی در این شاخه زده شد مرا با خبر کن');
-define($constpref.'_NOTIFY_CAT_NEWFORUMSBJ', '[{X_SITENAME}] {X_MODULE}:{CAT_TITLE} انجمن جدید در شاخه');
+define($constpref.'_NOTIFY_CAT_NEWFORUM','انجمن جدید در این شاخه');
+define($constpref.'_NOTIFY_CAT_NEWFORUMCAP','وقتی انجمن جدیدی در این شاخه زده شد مرا با خبر کن');
+define($constpref.'_NOTIFY_CAT_NEWFORUMSBJ','[{X_SITENAME}] {X_MODULE}:{CAT_TITLE} انجمن جدید در شاخه');
 
-define($constpref.'_NOTIFY_GLOBAL_NEWPOST', 'پیام جدید در این ماژول');
-define($constpref.'_NOTIFY_GLOBAL_NEWPOSTCAP', 'وقتی پیام جدیدی در این ماژول خورد مرا با خبر کن');
-define($constpref.'_NOTIFY_GLOBAL_NEWPOSTSBJ', '[{X_SITENAME}] {X_MODULE}: پیام جدید');
+define($constpref.'_NOTIFY_GLOBAL_NEWPOST','پیام جدید در این ماژول');
+define($constpref.'_NOTIFY_GLOBAL_NEWPOSTCAP','وقتی پیام جدیدی در این ماژول خورد مرا با خبر کن');
+define($constpref.'_NOTIFY_GLOBAL_NEWPOSTSBJ','[{X_SITENAME}] {X_MODULE}: پیام جدید');
 
-define($constpref.'_NOTIFY_GLOBAL_NEWTOPIC', 'گفتگو جدید در این ماژول');
-define($constpref.'_NOTIFY_GLOBAL_NEWTOPICCAP', 'وقتی گفتگو جدیدی در این ماژول خورد مرا با خبر کن');
-define($constpref.'_NOTIFY_GLOBAL_NEWTOPICSBJ', '[{X_SITENAME}] {X_MODULE}: گفتگو جدید');
+define($constpref.'_NOTIFY_GLOBAL_NEWTOPIC','گفتگو جدید در این ماژول');
+define($constpref.'_NOTIFY_GLOBAL_NEWTOPICCAP','وقتی گفتگو جدیدی در این ماژول خورد مرا با خبر کن');
+define($constpref.'_NOTIFY_GLOBAL_NEWTOPICSBJ','[{X_SITENAME}] {X_MODULE}: گفتگو جدید');
 
-define($constpref.'_NOTIFY_GLOBAL_NEWFORUM', 'انجمن جدید در این ماژول');
-define($constpref.'_NOTIFY_GLOBAL_NEWFORUMCAP', 'وقتی انجمن جدیدی در این ماژول زده شد مرا با خبر کن');
-define($constpref.'_NOTIFY_GLOBAL_NEWFORUMSBJ', '[{X_SITENAME}] {X_MODULE}:انجمن جدید');
+define($constpref.'_NOTIFY_GLOBAL_NEWFORUM','انجمن جدید در این ماژول');
+define($constpref.'_NOTIFY_GLOBAL_NEWFORUMCAP','وقتی انجمن جدیدی در این ماژول زده شد مرا با خبر کن');
+define($constpref.'_NOTIFY_GLOBAL_NEWFORUMSBJ','[{X_SITENAME}] {X_MODULE}:انجمن جدید');
 
-define($constpref.'_NOTIFY_GLOBAL_NEWPOSTFULL', 'پیام جدید (متن کامل)');
-define($constpref.'_NOTIFY_GLOBAL_NEWPOSTFULLCAP', 'هر پیام جدیدی را به من اطلاع بده (تمام پیام را در پیام بنویس).');
-define($constpref.'_NOTIFY_GLOBAL_NEWPOSTFULLSBJ', '[{X_SITENAME}] {POST_TITLE}');
-define($constpref.'_NOTIFY_GLOBAL_WAITING', 'بتازگی، درحال انتظار');
-define($constpref.'_NOTIFY_GLOBAL_WAITINGCAP', 'وقتی یک پیام منتظر تایید است اطلاع بده . فقط برای مدیر');
-define($constpref.'_NOTIFY_GLOBAL_WAITINGSBJ', '[{X_SITENAME}] {X_MODULE}: New waiting');
+define($constpref.'_NOTIFY_GLOBAL_NEWPOSTFULL','پیام جدید (متن کامل)');
+define($constpref.'_NOTIFY_GLOBAL_NEWPOSTFULLCAP','هر پیام جدیدی را به من اطلاع بده (تمام پیام را در پیام بنویس).');
+define($constpref.'_NOTIFY_GLOBAL_NEWPOSTFULLSBJ','[{X_SITENAME}] {POST_TITLE}');
+define($constpref.'_NOTIFY_GLOBAL_WAITING','بتازگی، درحال انتظار');
+define($constpref.'_NOTIFY_GLOBAL_WAITINGCAP','وقتی یک پیام منتظر تایید است اطلاع بده . فقط برای مدیر');
+define($constpref.'_NOTIFY_GLOBAL_WAITINGSBJ','[{X_SITENAME}] {X_MODULE}: New waiting');
 
 }
 

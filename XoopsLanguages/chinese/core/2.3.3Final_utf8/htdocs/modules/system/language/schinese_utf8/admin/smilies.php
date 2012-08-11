@@ -18,5 +18,5 @@ define('_AM_SMILEEMOTION','表情含义:');
 define('_AM_ADD','添加');
 define('_AM_SAVE','保存');
 define('_AM_WAYSYWTDTS','注意: 您确定要删除这个表情图吗？');
-define('_AM_DISPLAYF', '在表单中显示吗？');
+define('_AM_DISPLAYF','在表单中显示吗？');
 ?>

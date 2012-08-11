@@ -14,8 +14,8 @@
 
 			<div class="entry">
 				<?php the_content(__('Read the rest of this entry &raquo;','kubrick')); ?>
-				<?php if (function_exists('the_tags')) : ?><?php the_tags(__('Tags: ','kubrick'), __(', ','kubrick'), '');?><br /> <?php endif; ?> 
-				<?php wp_link_pages(array('before' => __('<p><strong>Pages:</strong> ','kubrick'), 'after' => '</p>', 'next_or_number' => 'number')); ?>
+				<?php if (function_exists('the_tags')) : ?><?php the_tags(__('Tags: ','kubrick'), __(',','kubrick'), '');?><br /> <?php endif; ?> 
+				<?php wp_link_pages(array('before' => __('<p><strong>Pages:</strong> ','kubrick'), 'after' => '</p>','next_or_number' => 'number')); ?>
 
 				<p class="postmetadata alt">
 					<small>
@@ -25,7 +25,7 @@
 							http://binarybonsai.com/archives/2004/08/17/time-since-plugin/ */
 							/* $entry_datetime = abs(strtotime($post->post_date) - (60*120)); echo time_since($entry_datetime); _e('ago','kubrick'); */ ?>
 						<?php the_time('l, F jS, Y') ?> <?php _e('at','kubrick'); ?> <?php the_time() ?>
-						<?php _e('and is filed under','kubrick'); ?> <?php the_category(', ') ?>.
+						<?php _e('and is filed under','kubrick'); ?> <?php the_category(',') ?>.
 						<?php _e('You can follow any responses to this entry through the','kubrick'); ?> <?php comments_rss_link('RSS 2.0'); ?> <?php _e('feed','kubrick'); ?>.
 
 						<?php if (('open' == $post-> comment_status) && ('open' == $post->ping_status)) {

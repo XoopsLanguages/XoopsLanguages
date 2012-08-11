@@ -25,26 +25,26 @@ defined('XOOPS_ROOT_PATH') or die('Restricted access');
 /// _LANGCODE: ba
 // _CHARSET : UTF-8
 // Translator: XOOPSBA.ORG Team, http://www.xoopsba.org
-define('_ER_UP_MIMETYPELOAD', 'Greška prilikom unosa definicije mime tipova');
-define('_ER_UP_FILENOTFOUND', 'Fajl nije pronađen');
-define('_ER_UP_INVALIDFILESIZE', 'Nedozvoljena veličina fajla');
-define('_ER_UP_FILENAMEEMPTY', 'Ime fajla je prazno');
-define('_ER_UP_NOFILEUPLOADED', 'Nijedan fajl nije unešen');
-define('_ER_UP_ERROROCCURRED', 'Došlo je do greške: Greška #%s');
-define('_ER_UP_UPLOADDIRNOTSET', 'Direktorij za unos nije podešen');
-define('_ER_UP_FAILEDOPENDIR', 'Greška prilikom otvaranja direktorija: %s');
-define('_ER_UP_FAILEDOPENDIRWRITE', 'Greška prilikom otvaranja direktorija zbog nemogućnosti pisanja (permisija): %s');
-define('_ER_UP_FILESIZETOOLARGE', 'Veličina fajla je prevelika (Maks. %u byt-a): %u byt-a');
-define('_ER_UP_FILEWIDTHTOOLARGE', 'Širina fajla je prevelika (Maks. %u px): %u px');
-define('_ER_UP_FILEHEIGHTTOOLARGE', 'Visina fajla je prevelika (Maks. %u px): %u pxx');
-define('_ER_UP_MIMETYPENOTALLOWED', 'MIME tip nije dozvoljen: %s');
-define('_ER_UP_FAILEDUPLOADFILE', 'Greška prilokom unosa fajla: %s');
-define('_ER_UP_FAILEDFETCHIMAGESIZE', 'Kontrola veličine %s nespješna, kontrola poništena..');
-define('_ER_UP_UNKNOWNFILETYPEREJECTED', 'Nepoznati tip fajla odbijen');
-define('_ER_UP_ERRORSRETURNED', 'Greške prilikom unosa: %s');
-define('_ER_UP_INVALIDIMAGEFILE', 'Pogrešan fajl slike');
-define('_ER_UP_SUSPICIOUSREFUSED', 'Unos sumnjive slike odbijen');
-define('_ER_UP_INVALIDFILENAME', 'Pogrešno ime fajla');
-define('_ER_UP_FAILEDSAVEFILE', 'Greška prilikom spremanja fajla %s');
+define('_ER_UP_MIMETYPELOAD','Greška prilikom unosa definicije mime tipova');
+define('_ER_UP_FILENOTFOUND','Fajl nije pronađen');
+define('_ER_UP_INVALIDFILESIZE','Nedozvoljena veličina fajla');
+define('_ER_UP_FILENAMEEMPTY','Ime fajla je prazno');
+define('_ER_UP_NOFILEUPLOADED','Nijedan fajl nije unešen');
+define('_ER_UP_ERROROCCURRED','Došlo je do greške: Greška #%s');
+define('_ER_UP_UPLOADDIRNOTSET','Direktorij za unos nije podešen');
+define('_ER_UP_FAILEDOPENDIR','Greška prilikom otvaranja direktorija: %s');
+define('_ER_UP_FAILEDOPENDIRWRITE','Greška prilikom otvaranja direktorija zbog nemogućnosti pisanja (permisija): %s');
+define('_ER_UP_FILESIZETOOLARGE','Veličina fajla je prevelika (Maks. %u byt-a): %u byt-a');
+define('_ER_UP_FILEWIDTHTOOLARGE','Širina fajla je prevelika (Maks. %u px): %u px');
+define('_ER_UP_FILEHEIGHTTOOLARGE','Visina fajla je prevelika (Maks. %u px): %u pxx');
+define('_ER_UP_MIMETYPENOTALLOWED','MIME tip nije dozvoljen: %s');
+define('_ER_UP_FAILEDUPLOADFILE','Greška prilokom unosa fajla: %s');
+define('_ER_UP_FAILEDFETCHIMAGESIZE','Kontrola veličine %s nespješna, kontrola poništena..');
+define('_ER_UP_UNKNOWNFILETYPEREJECTED','Nepoznati tip fajla odbijen');
+define('_ER_UP_ERRORSRETURNED','Greške prilikom unosa: %s');
+define('_ER_UP_INVALIDIMAGEFILE','Pogrešan fajl slike');
+define('_ER_UP_SUSPICIOUSREFUSED','Unos sumnjive slike odbijen');
+define('_ER_UP_INVALIDFILENAME','Pogrešno ime fajla');
+define('_ER_UP_FAILEDSAVEFILE','Greška prilikom spremanja fajla %s');
 
 ?>

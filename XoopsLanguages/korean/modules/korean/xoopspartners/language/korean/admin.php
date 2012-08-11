@@ -29,29 +29,29 @@
 //  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 USA //
 //  ------------------------------------------------------------------------ //
 
-define('_MD_PARTNERADMIN', 'ÆÄÆ®³Ê»çÀÌÆ® °ü¸®');
-define('_MD_URL', 'URL');
-define('_MD_HITS', '¹æ¹®¼ö');
-define('_MD_IMAGE', '±×¸²ÆÄÀÏ');
-define('_MD_TITLE', 'Å¸ÀÌÆ²');
-define('_MD_WEIGHT', 'Ç¥½Ã¼ø');
-define('_MD_DESCRIPTION', '¼³¸í');
-define('_MD_STATUS', '»óÅÂ');
-define('_MD_ACTIVE', 'È°¼ºÈ­');
-define('_MD_INACTIVE', 'ºñÈ°¼ºÈ­');
-define('_MD_REORDER', 'Á¤·Ä');
-define('_MD_UPDATED', '¼³Á¤À» ¼º°øÀûÀ¸·Î °»½ÅÇÏ¿´½À´Ï´Ù.');
-define('_MD_NOTUPDATED', '¼³Á¤ÀÇ °»½Å¿¡ ½ÇÆÐÇÏ¿´½À´Ï´Ù.');
-define('_MD_BESURE', 'Å¸ÀÌÆ², URL, ¼³¸íÀ» ¸ðµÎ ÀÔ·ÂÇÏ¼Å¾ß¸¸ ÇÕ´Ï´Ù.');
-define('_MD_NOEXITS', "±×¸²ÆÄÀÏÀÌ Á¸ÀçÇÏÁö ¾Ê½À´Ï´Ù.");
-define('_MD_ADDPARTNER', 'Ãß°¡');
-define('_MD_EDITPARTNER', '°»½Å');
-define('_MD_EDIT', 'ÆíÁý');
-define('_MD_DELETE', '»èÁ¦');
-define('_MD_SUREDELETE', 'Á¤¸»·Î ÀÌ ÆÄÆ®³Ê»çÀÌÆ®¸¦ »èÁ¦ÇÏ½Ç °Ç°¡¿ä??');
-define('_MD_YES', '¿¹');
-define('_MD_NO', '¾Æ´Ï¿ä');
-define('_MD_IMAGE_ERROR', '±×¸²ÆÄÀÏÀÇ »çÀÌÁî°¡ 110x50 À» ÃÊ°úÇÏ¿´½À´Ï´Ù.');
-define('_MD_PARTNERS_ADD','ÆÄÆ®³Ê»çÀÌÆ® Ãß°¡');
-define('_MD_AUTOMATIC_SORT', 'ÀÚµ¿Á¤·ÄÃ³¸®');
+define('_MD_PARTNERADMIN','ï¿½ï¿½Æ®ï¿½Ê»ï¿½ï¿½ï¿½Æ® ï¿½ï¿½ï¿½ï¿½');
+define('_MD_URL','URL');
+define('_MD_HITS','ï¿½æ¹®ï¿½ï¿½');
+define('_MD_IMAGE','ï¿½×¸ï¿½ï¿½ï¿½ï¿½ï¿½');
+define('_MD_TITLE','Å¸ï¿½ï¿½Æ²');
+define('_MD_WEIGHT','Ç¥ï¿½Ã¼ï¿½');
+define('_MD_DESCRIPTION','ï¿½ï¿½ï¿½ï¿½');
+define('_MD_STATUS','ï¿½ï¿½ï¿½ï¿½');
+define('_MD_ACTIVE','È°ï¿½ï¿½È­');
+define('_MD_INACTIVE','ï¿½ï¿½È°ï¿½ï¿½È­');
+define('_MD_REORDER','ï¿½ï¿½ï¿½ï¿½');
+define('_MD_UPDATED','ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï¿ï¿½ï¿½ï¿½ï¿½Ï´ï¿½.');
+define('_MD_NOTUPDATED','ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Å¿ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï¿ï¿½ï¿½ï¿½ï¿½Ï´ï¿½.');
+define('_MD_BESURE','Å¸ï¿½ï¿½Æ², URL, ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½Ô·ï¿½ï¿½Ï¼Å¾ß¸ï¿½ ï¿½Õ´Ï´ï¿½.');
+define('_MD_NOEXITS',"ï¿½×¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ê½ï¿½ï¿½Ï´ï¿½.");
+define('_MD_ADDPARTNER','ï¿½ß°ï¿½');
+define('_MD_EDITPARTNER','ï¿½ï¿½ï¿½ï¿½');
+define('_MD_EDIT','ï¿½ï¿½ï¿½ï¿½');
+define('_MD_DELETE','ï¿½ï¿½ï¿½ï¿½');
+define('_MD_SUREDELETE','ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½Æ®ï¿½Ê»ï¿½ï¿½ï¿½Æ®ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï½ï¿½ ï¿½Ç°ï¿½ï¿½ï¿½??');
+define('_MD_YES','ï¿½ï¿½');
+define('_MD_NO','ï¿½Æ´Ï¿ï¿½');
+define('_MD_IMAGE_ERROR','ï¿½×¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½î°¡ 110x50 ï¿½ï¿½ ï¿½Ê°ï¿½ï¿½Ï¿ï¿½ï¿½ï¿½ï¿½Ï´ï¿½.');
+define('_MD_PARTNERS_ADD','ï¿½ï¿½Æ®ï¿½Ê»ï¿½ï¿½ï¿½Æ® ï¿½ß°ï¿½');
+define('_MD_AUTOMATIC_SORT','ï¿½Úµï¿½ï¿½ï¿½ï¿½ï¿½Ã³ï¿½ï¿½');
 ?>

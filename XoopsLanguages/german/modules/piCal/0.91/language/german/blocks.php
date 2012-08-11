@@ -17,7 +17,7 @@ define('_MB_PICAL_CATSEL','Kategorie');
 define('_MB_PICAL_CATSELSUB','Zeige auch Unterkategorien');
 define('_MB_PICAL_UNTILDAYS','Bis %s höchste Tage (0 ist Unendlich)');
 
-define( 'PICAL_BL_LOADED' , 1 ) ;
+define('PICAL_BL_LOADED' , 1 ) ;
 
 // for monthly calendar block
 define('_MB_PICAL_PREV_MONTH','zurück');

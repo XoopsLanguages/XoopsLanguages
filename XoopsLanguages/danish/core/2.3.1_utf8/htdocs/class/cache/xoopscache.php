@@ -143,7 +143,7 @@ class XoopsCache
         }
 
         $settings = $_this->configs[$name];
-        return compact('engine', 'settings');
+        return compact('engine','settings');
     }
     
     /**
@@ -202,7 +202,7 @@ class XoopsCache
      * @param string $key Identifier for the data
      * @param mixed $value Data to be cached - anything except a resource
      * @param mixed $duration Optional - string configuration name OR how long to cache the data, either in seconds or a
-     *            string that can be parsed by the strtotime() function OR array('config' => 'default', 'duration' => '3600')
+     *            string that can be parsed by the strtotime() function OR array('config' => 'default','duration' => '3600')
      * @return boolean True if the data was successfully cached, false on failure
      * @access public
      */
@@ -378,7 +378,7 @@ class XoopsCache
         if (empty($key)) {
             return false;
         }
-        $key = str_replace(array('/', '.'), '_', strval($key));
+        $key = str_replace(array('/','.'), '_', strval($key));
         return $key;
     }
 }

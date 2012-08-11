@@ -5,24 +5,24 @@
 // Translator: Arab XOOPS Team
 
 //%%%%%%    File Name search.php    %%%%%
-define("_SR_SEARCH","«·»ÕÀ");
-define("_SR_PLZENTER","Ì—ÃÏ ﬂ «»… ﬂ· «·„⁄·Ê„«  «·„ÿ·Ê»…");
-define("_SR_SEARCHRESULTS","‰ «∆Ã «·»ÕÀ");
-define("_SR_NOMATCH","·„ Ì „ «ÌÃ«œ ‘Ì¡");
-define("_SR_FOUND"," „ «ÌÃ«œ <strong>%s</strong> ‰ ÌÃ…");
-define("_SR_SHOWING","(⁄—÷ %d - %d)");
-define("_SR_ANY","√Ê");
-define("_SR_ALL","«·ﬂ·");
-define("_SR_EXACT","»ÕÀ œﬁÌﬁ");
-define("_SR_SHOWALLR","⁄—÷ ﬂ· «·‰ «∆Ã");
-define("_SR_NEXT","«· «·Ì <<");
-define("_SR_PREVIOUS",">> «·”«»ﬁ");
-define("_SR_KEYWORDS","«·ﬂ·„«  «·„› «ÕÌ…");
-define("_SR_TYPE","ÿ—Ìﬁ… «·»ÕÀ");
-define("_SR_SEARCHIN","«·»ÕÀ ›Ì");
-define('_SR_KEYTOOSHORT', 'ﬂ·„… «·»ÕÀ ÌÃ» «‰    ⁄œÏ <strong>%s</strong> Õ—›');
-define('_SR_KEYIGNORE', 'ﬂ·„… «·»ÕÀ √ﬁ· „‰ <strong>%s</strong> Õ—Ê›  ”Ì „  Ã«Â·Â«');
-define('_SR_SEARCHRULE', '‘—Êÿ «·»ÕÀ');
-define('_SR_IGNOREDWORDS', '«·ﬂ·„«  «·„› «ÕÌ… √ﬁ· „‰ ⁄œœ «·Õ—Ê› «·„ÿ·Ê» (%u Õ—›) Ê·« Ì„ﬂ‰ «ÌÃ«œÂ« ›Ì «·»ÕÀ :');
+define("_SR_SEARCH","√á√°√à√ç√ã");
+define("_SR_PLZENTER","√≠√ë√å√¨ √ü√ä√á√à√â √ü√° √á√°√£√ö√°√¶√£√á√ä √á√°√£√ò√°√¶√à√â");
+define("_SR_SEARCHRESULTS","√§√ä√á√Ü√å √á√°√à√ç√ã");
+define("_SR_NOMATCH","√°√£ √≠√ä√£ √á√≠√å√á√è √î√≠√Å");
+define("_SR_FOUND","√ä√£ √á√≠√å√á√è <strong>%s</strong> √§√ä√≠√å√â");
+define("_SR_SHOWING","(√ö√ë√ñ %d - %d)");
+define("_SR_ANY","√É√¶");
+define("_SR_ALL","√á√°√ü√°");
+define("_SR_EXACT","√à√ç√ã √è√û√≠√û");
+define("_SR_SHOWALLR","√ö√ë√ñ √ü√° √á√°√§√ä√á√Ü√å");
+define("_SR_NEXT","√á√°√ä√á√°√≠ <<");
+define("_SR_PREVIOUS",">> √á√°√ì√á√à√û");
+define("_SR_KEYWORDS","√á√°√ü√°√£√á√ä √á√°√£√ù√ä√á√ç√≠√â");
+define("_SR_TYPE","√ò√ë√≠√û√â √á√°√à√ç√ã");
+define("_SR_SEARCHIN","√á√°√à√ç√ã √ù√≠");
+define('_SR_KEYTOOSHORT','√ü√°√£√â √á√°√à√ç√ã √≠√å√à √á√§  √ä√ä√ö√è√¨ <strong>%s</strong> √ç√ë√ù');
+define('_SR_KEYIGNORE','√ü√°√£√â √á√°√à√ç√ã √É√û√° √£√§ <strong>%s</strong> √ç√ë√¶√ù  √ì√≠√ä√£ √ä√å√á√•√°√•√á');
+define('_SR_SEARCHRULE','√î√ë√¶√ò √á√°√à√ç√ã');
+define('_SR_IGNOREDWORDS','√á√°√ü√°√£√á√ä √á√°√£√ù√ä√á√ç√≠√â √É√û√° √£√§ √ö√è√è √á√°√ç√ë√¶√ù √á√°√£√ò√°√¶√à (%u √ç√ë√ù) √¶√°√á √≠√£√ü√§ √á√≠√å√á√è√•√á √ù√≠ √á√°√à√ç√ã :');
 
 ?>

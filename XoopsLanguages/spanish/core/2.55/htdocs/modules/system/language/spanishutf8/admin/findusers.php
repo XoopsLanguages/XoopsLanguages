@@ -43,7 +43,7 @@ define("_AM_ASC","Orden ascendente");
 define("_AM_DESC","Orden descendente");
 define("_AM_LIMIT","Número de coincidencias por página");
 define("_AM_RESULTS","Buscar resultados");
-define("_AM_SHOWMAILOK", "Tipo de usuarios a mostrar");
+define("_AM_SHOWMAILOK","Tipo de usuarios a mostrar");
 define("_AM_MAILOK","Usuarios que acepten correo");
 define("_AM_MAILNG","Usuarios que no lo acepten");
 define("_AM_SHOWTYPE","Filtrar tipo de usuario");
@@ -51,8 +51,8 @@ define("_AM_ACTIVE","Usuarios activos");
 define("_AM_INACTIVE","Usuarios inactivos");
 define("_AM_BOTH","Todos los usuarios");
 define("_AM_SENDMAIL","Enviar correo");
-define("_AM_ADD2GROUP", "Agregar usuarios al grupo %s");
+define("_AM_ADD2GROUP","Agregar usuarios al grupo %s");
 
-define("_AM_GROUPS", "Grupos");
+define("_AM_GROUPS","Grupos");
 
 ?>

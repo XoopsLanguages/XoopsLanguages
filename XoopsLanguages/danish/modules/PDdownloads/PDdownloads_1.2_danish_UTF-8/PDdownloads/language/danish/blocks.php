@@ -11,9 +11,9 @@
 if( defined( 'FOR_XOOPS_LANG_CHECKER' ) || ! defined( '_MB_PDD_DISP' ) ) {
  
 // Blocks
-define("_MB_PDD_DISP", "Vis"); 
-define("_MB_PDD_FILES", "Filer"); 
-define("_MB_PDD_CHARS", "Længde af titlen"); 
-define("_MB_PDD_LENGTH", "Tegn");
+define("_MB_PDD_DISP","Vis"); 
+define("_MB_PDD_FILES","Filer"); 
+define("_MB_PDD_CHARS","Længde af titlen"); 
+define("_MB_PDD_LENGTH","Tegn");
 }
 ?>

@@ -3,19 +3,19 @@
 // Polish version by 'plxoops project'.
 
 // Cat/Article listing index.
-define("_MD_CATLIST_CAPTION",  "Artyku³y");			// Caption of category/article list
-define("_MD_INDEX_PAGE_TITLE", "Tytu³ strony g³ównej");	// Title of category/article list page (not used in shipped package)
-define("_MD_ARTICLE_VIEW_CAP",	"ods³on");				// Caption for number of views
-define("_MD_NUM_ARTICLE_CAP", "artyku³ów");			// Caption for number of articles for category
+define("_MD_CATLIST_CAPTION",  "ArtykuÂ³y");			// Caption of category/article list
+define("_MD_INDEX_PAGE_TITLE","TytuÂ³ strony gÂ³Ã³wnej");	// Title of category/article list page (not used in shipped package)
+define("_MD_ARTICLE_VIEW_CAP",	"odsÂ³on");				// Caption for number of views
+define("_MD_NUM_ARTICLE_CAP","artykuÂ³Ã³w");			// Caption for number of articles for category
 
 // Article page
-define("_MD_INDEXLINKTEXT",   "Powrót");		// Text for return to index page
+define("_MD_INDEXLINKTEXT",   "PowrÃ³t");		// Text for return to index page
 define("_MD_INDEXLINKPRINT",  "Drukuj");		// Text for printable version
 define("_MD_POSTEDON",          "Napisany");	// Posted on text
-define("_MD_READS",                "ods³on");		// Text for reads
+define("_MD_READS",                "odsÂ³on");		// Text for reads
 define("_MD_EMAIL",                 "E-mail");		// Text for email friend.
-define("_MD_NOARTICLE",         "Przepraszamy ale artyku³ którego szukasz nie istnieje.");		// Text for email friend.
-define("_MD_PAGENEXT",          "nastêpny");
+define("_MD_NOARTICLE",         "Przepraszamy ale artykuÂ³ ktÃ³rego szukasz nie istnieje.");		// Text for email friend.
+define("_MD_PAGENEXT",          "nastÃªpny");
 define("_MD_PAGEPREV",          "poprzedni");
 define("_MD_PAGENUM",           "strona");
 define("_MD_PAGEOF",              "z");
@@ -23,22 +23,22 @@ define("_MD_ART_POSTER",      "przez");
 
 
 // E-mail page
-define("_MD_EMAILHEADTTL", 		 "Wy¶lij ten artyku³ mailem do znajomego");
-define("_MD_EMAILYOURNAME",		 "Twoje imiê:");
-define("_MD_EMAILYOUREMAIL",	     "Twój e-mail:");
+define("_MD_EMAILHEADTTL", 		 "WyÂ¶lij ten artykuÂ³ mailem do znajomego");
+define("_MD_EMAILYOURNAME",		 "Twoje imiÃª:");
+define("_MD_EMAILYOUREMAIL",	     "TwÃ³j e-mail:");
 define("_MD_EMAILRECIPIENT",       "Odbiorca:");
-define("_MD_EMAILMESSAGE",        "Wiadomo¶æ:");
-define("_MD_EMAILMESSAGEDESC", "To bêdzie do³±czone do maila.");
-define("_MD_EMAILSEND",               "wy¶lij");
-define("_MD_EMAILSET",                 "wyczy¶æ");
+define("_MD_EMAILMESSAGE",        "WiadomoÂ¶Ã¦:");
+define("_MD_EMAILMESSAGEDESC","To bÃªdzie doÂ³Â±czone do maila.");
+define("_MD_EMAILSEND",               "wyÂ¶lij");
+define("_MD_EMAILSET",                 "wyczyÂ¶Ã¦");
 define("_MD_EMAILSECNOTE",		"<strong>Please note:</strong> Some security information will be sent along with the e-mail to help trace anyone who abuses this service."); 
 
 // Print page
-define("_MD_ARTPRINTTITLE",		"Tytu³ artyku³u:");
-define("_MD_ARTPRINTPOSTED",	"Pierwszy nades³any:");
+define("_MD_ARTPRINTTITLE",		"TytuÂ³ artykuÂ³u:");
+define("_MD_ARTPRINTPOSTED",	"Pierwszy nadesÂ³any:");
 define("_MD_ARTPRINTDESCRIP",	"Opis:");
-define("_MD_ARTPRINTTEXT",		"Tekst artyku³u:");
-define("_MD_ARTPRINTPUB",		"Ten artyku³ zosta³ opublikowany na:");
+define("_MD_ARTPRINTTEXT",		"Tekst artykuÂ³u:");
+define("_MD_ARTPRINTPUB",		"Ten artykuÂ³ zostaÂ³ opublikowany na:");
 define("_MD_ARTPRINTSITENAME",	"Strona:");
 define("_MD_ARTPRINTSITEURL",	"URL:");
 
@@ -46,43 +46,43 @@ define("_MD_ARTPRINTSITEURL",	"URL:");
 define("_MD_MOD_WHOBY",		"<span style=\"font-size: smaller; text-align: center;\">Articles Copyright &copy 2003 <a href=\"ajmills@sirium.net\">Andrew Mills</a></span>");
 
 // Confirmation messages
-define("_MD_DBUPDATED",					"Zaktualizowano Bazê Danych!");
+define("_MD_DBUPDATED",					"Zaktualizowano BazÃª Danych!");
 define("_MD_DBNOTUPDATED",				"Nie zaktualizowano Bazy Danych!");
-define("_MD_ITEMDELETED",				"Element zosta³ usuniêty!");
-define("_MD_ITEMNOTDELETED",			"Element nie zosta³ usuniêty!");
+define("_MD_ITEMDELETED",				"Element zostaÂ³ usuniÃªty!");
+define("_MD_ITEMNOTDELETED",			"Element nie zostaÂ³ usuniÃªty!");
 define("_MD_ITEM_DELETED_CANCELLED",	"Anulowano usuwanie!");
-define("_MD_CONFIRMDELETE",             "Czy na pewno chcesz usun±æ ten element?");
-define("_MD_DBSUBMITTED",				"Dziêkujemy za nades³anie nam artyku³u, opublikujemy go tak szybko jak to bêdzie mo¿liwe.");
+define("_MD_CONFIRMDELETE",             "Czy na pewno chcesz usunÂ±Ã¦ ten element?");
+define("_MD_DBSUBMITTED",				"DziÃªkujemy za nadesÂ³anie nam artykuÂ³u, opublikujemy go tak szybko jak to bÃªdzie moÂ¿liwe.");
 
 // Errors
-define("_MD_NOACCESSHERE",	"Nie masz uprawnieñ do przegl±dania tej strony.");
-define("_MD_LOGGEDIN",		"Musisz byæ zalogowany aby mieæ dostêp do tej strony.");
-define("_MD_EMLMAXCHARS",	"Wpisa³e¶ za du¿o znaków.");
-define("_MD_NOTALLOWED",	"Nie masz dostêpu do tej strony.");
+define("_MD_NOACCESSHERE",	"Nie masz uprawnieÃ± do przeglÂ±dania tej strony.");
+define("_MD_LOGGEDIN",		"Musisz byÃ¦ zalogowany aby mieÃ¦ dostÃªp do tej strony.");
+define("_MD_EMLMAXCHARS",	"WpisaÂ³eÂ¶ za duÂ¿o znakÃ³w.");
+define("_MD_NOTALLOWED",	"Nie masz dostÃªpu do tej strony.");
 
 // Submit page
-define("_MD_ART_SUBINTRO",		"Wykorzystaj poni¿szy formularz aby przes³aæ nam swój artyku³. Pamiêtaj ¿e bêdzie on musia³ byæ zatwierdzony przez redakcjê przed opublikowaniem.");
-define("_MD_SUBMIT_PAGE_TITLE", "Przedstaw nam swój artyku³");
-define("_MD_ART_SUBALERTTITLE",	"Tytu³ musi siê sk³adaæ z przynajmniej 3 znaków.");
-define("_MD_ART_SUBALERTCAT",	"Wybierz kategoriê.");
-define("_MD_ART_SUBTITLE",		"Tytu³:");
+define("_MD_ART_SUBINTRO",		"Wykorzystaj poniÂ¿szy formularz aby przesÂ³aÃ¦ nam swÃ³j artykuÂ³. PamiÃªtaj Â¿e bÃªdzie on musiaÂ³ byÃ¦ zatwierdzony przez redakcjÃª przed opublikowaniem.");
+define("_MD_SUBMIT_PAGE_TITLE","Przedstaw nam swÃ³j artykuÂ³");
+define("_MD_ART_SUBALERTTITLE",	"TytuÂ³ musi siÃª skÂ³adaÃ¦ z przynajmniej 3 znakÃ³w.");
+define("_MD_ART_SUBALERTCAT",	"Wybierz kategoriÃª.");
+define("_MD_ART_SUBTITLE",		"TytuÂ³:");
 define("_MD_ART_SUBCAT",		"Kategoria:");
 define("_MD_ART_SUBDESC",		"Opis:");
-define("_MD_ART_SUBTART",		"Artyku³:");
+define("_MD_ART_SUBTART",		"ArtykuÂ³:");
 define("_MD_ART_SUBTNOTIFY",	"Powiadamianie:");
-define("_MD_ART_SUBTNOTIFYDES",	"Powiadomiæ Ciê gdy artyku³ zostanie opublikowany?");
-define("_MD_ART_SUBMIT",		" Przedstaw artyku³ ");
-define("_MD_ART_SUBRESET",		" Wyczy¶æ ");
-define("_MD_ART_PREVIEW",		" Podgl±d ");
-define("_MD_SUBMITTEDMSG",		"Artyku³ przedstawiony");
-define("_MD_SUBMITTEDMSGDESC",	"Dziêkujemy za nades³anie nam artyku³u, opublikujemy go tak szybko jak to bêdzie mo¿liwe.");
-define("_MD_FORMCAPTIONPAGEBRK",	"U¿yj <strong>[pagebreak]</strong> aby podzieliæ artyku³ na strony.");
-define("_MD_FORMCAPTIONNOHTML",		"Wy³±cz tagi HTML");
-define("_MD_FORMCAPTIONNOSMILEY",	"Wy³±cz ikonki emotikonów");
-define("_MD_FORMCAPTIONNOXCODE",	"Wy³±cz kody XOOPSa");
-define("_MD_FORMCAPTIONNOIMAGE",	"Wy³±cz obrazki (gdy u¿ywasz kodów XOOPSa)");
-define("_MD_FORMCAPTIONNOBR",		"Wy³±cz automatyczne za³amywanie wierszy");
-define("_MD_FORMCAPTIONSELECT",		"Wybierz kategoriê");
+define("_MD_ART_SUBTNOTIFYDES",	"PowiadomiÃ¦ CiÃª gdy artykuÂ³ zostanie opublikowany?");
+define("_MD_ART_SUBMIT",		" Przedstaw artykuÂ³ ");
+define("_MD_ART_SUBRESET",		" WyczyÂ¶Ã¦ ");
+define("_MD_ART_PREVIEW",		" PodglÂ±d ");
+define("_MD_SUBMITTEDMSG",		"ArtykuÂ³ przedstawiony");
+define("_MD_SUBMITTEDMSGDESC",	"DziÃªkujemy za nadesÂ³anie nam artykuÂ³u, opublikujemy go tak szybko jak to bÃªdzie moÂ¿liwe.");
+define("_MD_FORMCAPTIONPAGEBRK",	"UÂ¿yj <strong>[pagebreak]</strong> aby podzieliÃ¦ artykuÂ³ na strony.");
+define("_MD_FORMCAPTIONNOHTML",		"WyÂ³Â±cz tagi HTML");
+define("_MD_FORMCAPTIONNOSMILEY",	"WyÂ³Â±cz ikonki emotikonÃ³w");
+define("_MD_FORMCAPTIONNOXCODE",	"WyÂ³Â±cz kody XOOPSa");
+define("_MD_FORMCAPTIONNOIMAGE",	"WyÂ³Â±cz obrazki (gdy uÂ¿ywasz kodÃ³w XOOPSa)");
+define("_MD_FORMCAPTIONNOBR",		"WyÂ³Â±cz automatyczne zaÂ³amywanie wierszy");
+define("_MD_FORMCAPTIONSELECT",		"Wybierz kategoriÃª");
 
 
 ?>

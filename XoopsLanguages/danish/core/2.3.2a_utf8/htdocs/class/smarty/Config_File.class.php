@@ -326,7 +326,7 @@ class Config_File {
 
                 } else {
                     /* handle simple value */
-                    $var_value = preg_replace('/^([\'"])(.*)\1$/', '\2', rtrim($match[2]));
+                    $var_value = preg_replace('/^([\'"])(.*)\1$/','\2', rtrim($match[2]));
                     $booleanize = $this->booleanize;
 
                 }

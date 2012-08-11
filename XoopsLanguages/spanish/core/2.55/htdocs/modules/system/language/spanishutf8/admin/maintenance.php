@@ -8,7 +8,7 @@
  */
 
 //Nav
-define("_AM_SYSTEM_MAINTENANCE_NAV_MANAGER", "Mantenimiento");
+define("_AM_SYSTEM_MAINTENANCE_NAV_MANAGER","Mantenimiento");
 define("_AM_SYSTEM_MAINTENANCE_NAV_LIST","Mantenimiento completo");
 define("_AM_SYSTEM_MAINTENANCE_NAV_DUMP","Basurero");
 
@@ -51,19 +51,19 @@ define("_AM_SYSTEM_MAINTENANCE_TABLES_ANALYZE","Analizar");
 define("_AM_SYSTEM_MAINTENANCE_DUMP","Basurero");
 define("_AM_SYSTEM_MAINTENANCE_DUMP_TABLES_OR_MODULES","Seleccione tablas o módulos");
 define("_AM_SYSTEM_MAINTENANCE_DUMP_DROP","Agregar el comando DROP TABLE IF EXISTS 'tablas' en el basurero");
-define("_AM_SYSTEM_MAINTENANCE_DUMP_OR", "OR");
-define("_AM_SYSTEM_MAINTENANCE_DUMP_AND", "AND");
-define("_AM_SYSTEM_MAINTENANCE_DUMP_ERROR_TABLES_OR_MODULES", "Debe seleccionar las tablas o módulos");
-define("_AM_SYSTEM_MAINTENANCE_DUMP_NO_TABLES", "No hay tablas");
-define("_AM_SYSTEM_MAINTENANCE_DUMP_TABLES", "Tablas");
-define("_AM_SYSTEM_MAINTENANCE_DUMP_STRUCTURES", "Estructuras");
-define("_AM_SYSTEM_MAINTENANCE_DUMP_NB_RECORDS", "Número de registros");
-define("_AM_SYSTEM_MAINTENANCE_DUMP_FILE_CREATED", "Archivo creado");
-define("_AM_SYSTEM_MAINTENANCE_DUMP_RESULT", "Resultado");
-define("_AM_SYSTEM_MAINTENANCE_DUMP_RECORDS", "registro(s)");
+define("_AM_SYSTEM_MAINTENANCE_DUMP_OR","OR");
+define("_AM_SYSTEM_MAINTENANCE_DUMP_AND","AND");
+define("_AM_SYSTEM_MAINTENANCE_DUMP_ERROR_TABLES_OR_MODULES","Debe seleccionar las tablas o módulos");
+define("_AM_SYSTEM_MAINTENANCE_DUMP_NO_TABLES","No hay tablas");
+define("_AM_SYSTEM_MAINTENANCE_DUMP_TABLES","Tablas");
+define("_AM_SYSTEM_MAINTENANCE_DUMP_STRUCTURES","Estructuras");
+define("_AM_SYSTEM_MAINTENANCE_DUMP_NB_RECORDS","Número de registros");
+define("_AM_SYSTEM_MAINTENANCE_DUMP_FILE_CREATED","Archivo creado");
+define("_AM_SYSTEM_MAINTENANCE_DUMP_RESULT","Resultado");
+define("_AM_SYSTEM_MAINTENANCE_DUMP_RECORDS","registro(s)");
 
 // Tips
-define( '_AM_SYSTEM_MAINTENANCE_TIPS', 
+define('_AM_SYSTEM_MAINTENANCE_TIPS', 
 '<ul>
 <li>Podrá hacer un mantenimiento de la instalación de sus Xoops: Vaciar su tabla de sesiones y caché, así como mantener el resto de sus tablas</li>
 </ul>' );

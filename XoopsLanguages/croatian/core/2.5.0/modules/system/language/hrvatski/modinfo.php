@@ -19,13 +19,13 @@ define("_MI_SYSTEM_BNAME4","Traži");
 define("_MI_SYSTEM_BNAME5","Čekajući sadržaj");
 define("_MI_SYSTEM_BNAME6","Glavni izbornik");
 define("_MI_SYSTEM_BNAME7","Informacije o stranici");
-define("_MI_SYSTEM_BNAME8", "Tko je online");
-define("_MI_SYSTEM_BNAME9", "Najviše objava");
-define("_MI_SYSTEM_BNAME10", "Novi članovi");
-define("_MI_SYSTEM_BNAME11", "Nedavni komentari");
+define("_MI_SYSTEM_BNAME8","Tko je online");
+define("_MI_SYSTEM_BNAME9","Najviše objava");
+define("_MI_SYSTEM_BNAME10","Novi članovi");
+define("_MI_SYSTEM_BNAME11","Nedavni komentari");
 // RMV-NOTIFY
-define("_MI_SYSTEM_BNAME12", "Opcije obaviještavanja");
-define("_MI_SYSTEM_BNAME13", "Teme");
+define("_MI_SYSTEM_BNAME12","Opcije obaviještavanja");
+define("_MI_SYSTEM_BNAME13","Teme");
 
 // Names of admin menu items
 define("_MI_SYSTEM_ADMENU1","Reklamne poruke");
@@ -87,5 +87,5 @@ define("_MI_SYSTEM_PREFERENCE_GENERAL_EDITOR_DSC","");
 define("_MI_SYSTEM_PREFERENCE_ANONPOST","");
 define("_MI_SYSTEM_PREFERENCE_REDIRECT","");
 
-define("_MI_SYSTEM_PREFERENCE_JQUERY_THEME", "jQuery tema");
+define("_MI_SYSTEM_PREFERENCE_JQUERY_THEME","jQuery tema");
 ?>

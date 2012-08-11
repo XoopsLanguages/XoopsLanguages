@@ -1,32 +1,32 @@
 <?php
 // $Id: error.php,v 1.1.2.2 2005/07/28 07:47:29 mithyt2 Exp $
 // Error messages
-define("SYSTEM_ERROR1", "[b]Zašto sam preusmjeren ovamo?[/b]
+define("SYSTEM_ERROR1","[b]ZaÅ¡to sam preusmjeren ovamo?[/b]
 
-{SITE_NAME} ima sigurnosni sistem, koji je pronašao da imate namješten vatrozid, koji sprijeèava vašu  registraciju. Upotrebljavamo 'Referrer-checking' poznat kao HTTP_REFERER, koji je upotrebljen radi sigurnosti korisnika.Postavke vašega vatrozida blokiraju tu informaciju, što vam sprijeèava registraciju. 
+{SITE_NAME} ima sigurnosni sistem, koji je pronaÅ¡ao da imate namjeÅ¡ten vatrozid, koji sprijeÃ¨ava vaÅ¡u  registraciju. Upotrebljavamo 'Referrer-checking' poznat kao HTTP_REFERER, koji je upotrebljen radi sigurnosti korisnika.Postavke vaÅ¡ega vatrozida blokiraju tu informaciju, Å¡to vam sprijeÃ¨ava registraciju. 
 
-Možda ste se veæ u prošlosti uspješno registrirali sada imate probleme prilikom objave poruke. U tom sluèaju ste vjerojatno namjestili svoj vatrozid nakon registracije ili ste promijenili postavke postojeæe instalacije. 
+MoÅ¾da ste se veÃ¦ u proÅ¡losti uspjeÅ¡no registrirali sada imate probleme prilikom objave poruke. U tom sluÃ¨aju ste vjerojatno namjestili svoj vatrozid nakon registracije ili ste promijenili postavke postojeÃ¦e instalacije. 
 
-[b]Želim saznati više...[/b]
+[b]Å½elim saznati viÅ¡e...[/b]
 
-Kada kliknete na tipku ili povezanost na mrežnoj stranici, vaš preglednik pošalje poslužitelju informacije o novoj stranici. Na takav naèin naš poslužitelj zna, da je bila zadnja stranica, koju ste posjetili dio naše stranice.To je važno, jer su neke stranice dostupne samo, kad ste prijavljeni. Drugim rijeèima, preglednik pošalje poruku 'Ovu stranicu mogu prikazati, jer je osoba registrirana i prijavljena'  Neki vatrozidi automatski blokiraju tu informaciju, da je vi ne bi širili opasnim stranicana. [i]Ništa nije pogrešno sa postavkama vašega vatrozida ili sa ovom stranicom. Jednostavno morate najprije postavku ukljuèiti, da bi mogli normalno pretraživati po stranici.[/i]
+Kada kliknete na tipku ili povezanost na mreÅ¾noj stranici, vaÅ¡ preglednik poÅ¡alje posluÅ¾itelju informacije o novoj stranici. Na takav naÃ¨in naÅ¡ posluÅ¾itelj zna, da je bila zadnja stranica, koju ste posjetili dio naÅ¡e stranice.To je vaÅ¾no, jer su neke stranice dostupne samo, kad ste prijavljeni. Drugim rijeÃ¨ima, preglednik poÅ¡alje poruku 'Ovu stranicu mogu prikazati, jer je osoba registrirana i prijavljena'  Neki vatrozidi automatski blokiraju tu informaciju, da je vi ne bi Å¡irili opasnim stranicana. [i]NiÅ¡ta nije pogreÅ¡no sa postavkama vaÅ¡ega vatrozida ili sa ovom stranicom. Jednostavno morate najprije postavku ukljuÃ¨iti, da bi mogli normalno pretraÅ¾ivati po stranici.[/i]
 
-[b]Što mogu uèiniti ?[/b]
+[b]Å to mogu uÃ¨initi ?[/b]
 
-Najprije iskljuèite / onemoguèite programe, kao što su:
+Najprije iskljuÃ¨ite / onemoguÃ¨ite programe, kao Å¡to su:
 
 - WebWasher Standard Filter / URL Filter
 - programi za blokiranje reklama
-- programi za blokiranje nadležnih prozora 
+- programi za blokiranje nadleÅ¾nih prozora 
 
-[b]Naravno mora i vaš pretraživaè imati omoguæene takozvane kolaèiæe za stranicu {SITE_URL} [/b]Molimo pogledajte pomoè pri upotrebi kolaèiæa.
+[b]Naravno mora i vaÅ¡ pretraÅ¾ivaÃ¨ imati omoguÃ¦ene takozvane kolaÃ¨iÃ¦e za stranicu {SITE_URL} [/b]Molimo pogledajte pomoÃ¨ pri upotrebi kolaÃ¨iÃ¦a.
 
-Slijedeæi jednostavni koraci su obavezno potrebni, da svojim korisnicima ponudite najbolju sigurnost.
-Molimo provjerite postavke vatrozidai kolaèiæa te nakon toga ponovno kliknite na 'Registracija'.
+SlijedeÃ¦i jednostavni koraci su obavezno potrebni, da svojim korisnicima ponudite najbolju sigurnost.
+Molimo provjerite postavke vatrozidai kolaÃ¨iÃ¦a te nakon toga ponovno kliknite na 'Registracija'.
 
 [b]Ovdje je primjer koraka za Norton (NIS), Zone Alarm Pro i Windows XP vatrozid- [/b]
 
-Postupak prikazuje kako dodati stranicu {SITE_URL} u povjerenja vrijedne stranice u vašem vatrozidu.
+Postupak prikazuje kako dodati stranicu {SITE_URL} u povjerenja vrijedne stranice u vaÅ¡em vatrozidu.
 
 [b]Norton Internet Security 2002 (ili stariji) [/b]
 
@@ -39,7 +39,7 @@ Postupak prikazuje kako dodati stranicu {SITE_URL} u povjerenja vrijedne stranic
 7. Unesite {SITE_URL}  i kliknite OK. Ime stranice se sada pojavi na lijevoj strani prozora Advanced Options. 
 8. Kliknite na ime stranice. 
 9. Kliknite oznaku Privacy. 
-10. Oznaèite \"Use these rules for...\". 
+10. OznaÃ¨ite \"Use these rules for...\". 
 11. Promijenite Referrer iz \"Block\" na \"Permit\" 
 12. Kliknite Apply, zatim kliknite OK. 
 13. Kliknite OK za zatvaranj Options prozora. 
@@ -47,14 +47,14 @@ Postupak prikazuje kako dodati stranicu {SITE_URL} u povjerenja vrijedne stranic
 [b]Norton Internet Security 2003/2004 [/b]
 
 1. Otvorite NIS ili NPF. 
-2. Napravite jedno od slijedeæaga. 
+2. Napravite jedno od slijedeÃ¦aga. 
 * V NIS/NPF 2003, kliknite Options > Internet Security ili Personal Firewall (Taj korak nije uvijek potreban), i zatim kliknite Web Content oznaku . 
 * V NIS/NPF 2004, dupli klik na Privacy Control, i zatim kliknite Advanced. 
 3. Kliknite Add Site. Pojavi se prozor new site/domain. 
 4. Unesi {SITE_URL}  i kliknite OK. Ime stranice se sada pojavi na lijevoj strani prozora Advanced Options.
 5. Kliknite na ime stranice. 
 6. Kliknite oznaku Global Settings. 
-7. U sekciji \"Information about visited sites\" odznaèite \"Use default settings\" 
+7. U sekciji \"Information about visited sites\" odznaÃ¨ite \"Use default settings\" 
 8. Kliknite Permit. 
 9. Kliknite OK za zatvaranje prozora Options. 
 ---------------------------------------------------------- 
@@ -63,16 +63,16 @@ Postupak prikazuje kako dodati stranicu {SITE_URL} u povjerenja vrijedne stranic
 1. Kliknite Privacy 
 2. Kliknite Cookie Control 
 3. Kliknite Custom 
-4. Odznaèite \"remove private header information\" 
-5- Možda morate oznaèiti još 'allow third party cookies'
+4. OdznaÃ¨ite \"remove private header information\" 
+5- MoÅ¾da morate oznaÃ¨iti joÅ¡ 'allow third party cookies'
 ---------------------------------------------------------- 
 [b]Windows XP's SP2 vatrozid [/b]
 
-1. Otvorite XP kontrolnu ploèu 
+1. Otvorite XP kontrolnu ploÃ¨u 
 2. Dupli klik na Networking and Internet Connections 
 3. Izberite Network Connections 
 4. Desni klik na vezu Disable, zatim izaberite Properties 
-5. Na oznaci Advanced odznaèite izbor Protect my computer ali network  
+5. Na oznaci Advanced odznaÃ¨ite izbor Protect my computer ali network  
 6. Kliknite OK ");
 
 ?>

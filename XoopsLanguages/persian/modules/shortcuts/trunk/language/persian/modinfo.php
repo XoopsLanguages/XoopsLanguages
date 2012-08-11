@@ -5,7 +5,7 @@
  * Copyright (c) Herv Thouzard of Instant Zero (http://www.instant-zero.com)
  * ****************************************************************************
  */
-define('_MI_SHORTCUTS_NAME', 'لینک های سریع');
+define('_MI_SHORTCUTS_NAME','لینک های سریع');
 define('_MI_SHORTCUTS_DESC','به کاربران این امکان را می دهد که بتوانند لینک های خودشان را مدیریت کنند');
 define('_MI_SHORTCUTS_BNAME1','لینک های سریع');
 define('_MI_SHORTCUTS_BNAME1_DESC','نمایش ، اضافه کردن و حذف لینک های سریع');

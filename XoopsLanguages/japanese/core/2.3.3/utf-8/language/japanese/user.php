@@ -38,7 +38,7 @@ define('_US_REGISTERNG','登録できませんでした');
 define('_US_MAILOK','当サイトの新着情報などを<br />メールで受け取る');
 define('_US_DISCLAIMER','免責');
 define('_US_IAGREE','私は上記事項に同意します。');
-define('_US_UNEEDAGREE', '申し訳ございません。登録するためには免責事項にご同意いただく必要があります。');
+define('_US_UNEEDAGREE','申し訳ございません。登録するためには免責事項にご同意いただく必要があります。');
 define('_US_NOREGISTER','申し訳ございません。現在このサイトでは新規ユーザの登録受付を行っておりません。');
 
 
@@ -71,15 +71,15 @@ define('_US_SORRYNOTFOUND','ユーザ情報が見つかりませんでした。'
 
 // %s is your site name
 define('_US_NEWPWDREQ','新規パスワードのリクエスト＠%s');
-define('_US_YOURACCOUNT', '%sでのユーザアカウント');
+define('_US_YOURACCOUNT','%sでのユーザアカウント');
 
 define('_US_MAILPWDNG','mail_password: ユーザ情報の更新に失敗しました。お手数ですが、サイト管理者までお問合せください。');
 
 // %s is a username
 define('_US_PWDMAILED','%sさん宛にパスワードを送信しました。');
 define('_US_CONFMAIL','パスワード取得用リンクが記載されたメールを%sさん宛に送信しました。');
-define('_US_ACTVMAILNG', '%sさんへのメール送信に失敗しました。');
-define('_US_ACTVMAILOK', '%sさんへメールを送信しました。');
+define('_US_ACTVMAILNG','%sさんへのメール送信に失敗しました。');
+define('_US_ACTVMAILOK','%sさんへメールを送信しました。');
 
 //%%%%%%		File Name userinfo.php 		%%%%%
 define('_US_SELECTNG','ユーザが選択されていません');
@@ -123,22 +123,22 @@ define('_US_PROFUPDATED','プロフィールを更新しました。');
 define('_US_USECOOKIE','ユーザ名を１年間クッキーに保存する');
 define('_US_NO','いいえ');
 define('_US_DELACCOUNT','アカウントを削除する');
-define('_US_MYAVATAR', 'アップロード済みアバター');
-define('_US_UPLOADMYAVATAR', 'アバターをアップロードする');
+define('_US_MYAVATAR','アップロード済みアバター');
+define('_US_UPLOADMYAVATAR','アバターをアップロードする');
 define('_US_MAXPIXEL','最大ピクセル数');
 define('_US_MAXIMGSZ','最大ファイルサイズ');
 define('_US_SELFILE','ファイル選択');
 define('_US_OLDDELETED','古いアバター画像は上書きされます。');
-define('_US_CHOOSEAVT', 'アバターを一覧から選択してください。');
+define('_US_CHOOSEAVT','アバターを一覧から選択してください。');
 
-define('_US_PRESSLOGIN', '下記ボタンをクリックしてログインしてください。');
+define('_US_PRESSLOGIN','下記ボタンをクリックしてログインしてください。');
 
-define('_US_ADMINNO', '管理者グループに属するユーザは削除できません');
-define('_US_GROUPS', '所属グループ');
+define('_US_ADMINNO','管理者グループに属するユーザは削除できません');
+define('_US_GROUPS','所属グループ');
 
-define('_US_REMEMBERME', 'Remember me');
+define('_US_REMEMBERME','Remember me');
 
 // Welcoming emai/PM subject
-define('_US_WELCOME_SUBJECT', 'Welcome to %s');
+define('_US_WELCOME_SUBJECT','Welcome to %s');
 
 ?>

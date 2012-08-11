@@ -41,9 +41,9 @@ define("_SR_PREVIOUS","<< Prethodne");
 define("_SR_KEYWORDS","Keyword(s)");
 define("_SR_TYPE","Typ");
 define("_SR_SEARCHIN","Tra&#382;i u");
-define('_SR_KEYTOOSHORT', 'Keywords mora imati najmanje <strong>%s</strong> oznaka');
-define('_SR_KEYIGNORE', 'Keywords kra&#263;e od <strong>%s</strong> bi&#263;e ignorisane oznake');
-define('_SR_SEARCHRULE', 'Tra&#382;i pravilno');
-define('_SR_IGNOREDWORDS', 'Sljedeæe rijeèi su kraæi od minmum dozvoljena du¾ine (%u oznaka) i nisu bili uklju&#269;ene u pretra¾ivanje:');
+define('_SR_KEYTOOSHORT','Keywords mora imati najmanje <strong>%s</strong> oznaka');
+define('_SR_KEYIGNORE','Keywords kra&#263;e od <strong>%s</strong> bi&#263;e ignorisane oznake');
+define('_SR_SEARCHRULE','Tra&#382;i pravilno');
+define('_SR_IGNOREDWORDS','SljedeÃ¦e rijeÃ¨i su kraÃ¦i od minmum dozvoljena duÂ¾ine (%u oznaka) i nisu bili uklju&#269;ene u pretraÂ¾ivanje:');
 
 ?>

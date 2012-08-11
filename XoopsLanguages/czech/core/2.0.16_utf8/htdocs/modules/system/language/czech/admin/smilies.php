@@ -18,5 +18,5 @@ define('_AM_SMILEEMOTION','Význam');
 define('_AM_ADD','Přidat');
 define('_AM_SAVE','Uložit');
 define('_AM_WAYSYWTDTS','POZOR: Opravdu chcete smazat tento emotikon?');
-define('_AM_DISPLAYF', 'Zobrazit ve formuláři?');
+define('_AM_DISPLAYF','Zobrazit ve formuláři?');
 ?>

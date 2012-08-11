@@ -31,7 +31,7 @@ define("_PM_MESSAGEC","Poruka: ");
 define("_PM_CLEAR","Obriši");
 define("_PM_CANCELSEND","Poništi slanje");
 define("_PM_SUBMIT","Pošalji");
-define("_PM_SAVEINOUTBOX", "Spremi kopiju u svoju odlazne poruke?");
+define("_PM_SAVEINOUTBOX","Spremi kopiju u svoju odlazne poruke?");
 
 //%%%%%%	File Name viewpmsg.php 	%%%%%
 define("_PM_SUBJECT","Tema");
@@ -42,7 +42,7 @@ define("_PM_DELETE","Obriši");
 define("_PM_TOSAVE","Premjesti u Spremište");
 define("_PM_UNSAVE","Premjesti iz Spremišta");
 define("_PM_EMPTY","Prazno");
-define("_PM_REPLY", "Odgovori");
+define("_PM_REPLY","Odgovori");
 define("_PM_PLZREG","Molimo, prvo se registrirajte kako bi mogli slati privatne poruke!");
 define("_PM_SAVED_PART","Dozvoljeno vam je %d u vašem Spremištu a vi sad imate spremljeno %d poruka");
 define("_PM_SAVED_ALL","Poruke su premještene u spremište");
@@ -51,7 +51,7 @@ define("_PM_EMPTIED","Sandučić je ispražnjen");
 define("_PM_RUSUREEMPTY","Da li ste sigurni da želite isprazniti sandučić?");
 define("_PM_RUSUREDELETE","Da li ste sigurni da želite obrisati ove poruke?");
 
-define("_PM_ONLINE", "Online");
+define("_PM_ONLINE","Online");
 
 define("_PM_RECEIVE","PRIMA");
 define("_PM_POST","OBJAVI");
@@ -81,13 +81,13 @@ define("_PM_NEXTP","Sljedeće");
 define("_PM_MAILNOTIFY","%s-Dobili ste novu PP od %s");
 define("_PM_MAILMESSAGE","Halo!\nNova PP je stigla od %s\n\nNaslov PP-e je\n%s\n\nPP možete ju vidjeti ovdje\n%s\n\n-----------\nPrimili ste ovu poruku jer ste izabrali da vas se obavijesti kad primite novu PP\n\nPostavke PP možete promjeniti\n%s\n\nMolimo ne odgovarajte na ovu poruku\n\n---------\nSve najbolje\n%s\n%s\n%s");
 
-define("_PM_EMAIL", "Prosljedi na email");
-define("_PM_EMAIL_DESC", "Poštovanje %s, ova poruka je prosljeđena sa vašeg korisničkog računa sa ".$xoopsConfig['sitename']);
-define("_PM_EMAIL_FROM", "Od %s");
-define("_PM_EMAIL_TO", "Za %s");
-define("_PM_EMAIL_SUBJECT", "[poruka]%s");
-define("_PM_EMAIL_MESSAGE", "Sadržaj poruke");
+define("_PM_EMAIL","Prosljedi na email");
+define("_PM_EMAIL_DESC","Poštovanje %s, ova poruka je prosljeđena sa vašeg korisničkog računa sa ".$xoopsConfig['sitename']);
+define("_PM_EMAIL_FROM","Od %s");
+define("_PM_EMAIL_TO","Za %s");
+define("_PM_EMAIL_SUBJECT","[poruka]%s");
+define("_PM_EMAIL_MESSAGE","Sadržaj poruke");
 
-define("_PM_ACTION_DONE", "Radnja se uspješno izvršila");
-define("_PM_ACTION_ERROR", "Radnja nije uspjela");
+define("_PM_ACTION_DONE","Radnja se uspješno izvršila");
+define("_PM_ACTION_ERROR","Radnja nije uspjela");
 ?>

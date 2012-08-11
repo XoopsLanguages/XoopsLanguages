@@ -24,7 +24,7 @@
 //  along with this program; if not, write to the Free Software              //
 //  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 USA //
 //  ------------------------------------------------------------------------ //
-// Author: Jochen Büînagel (job@buennagel.com)                               //
+// Author: Jochen BÃ¼Ã®nagel (job@buennagel.com)                               //
 // URL:  http://www.xoops.org												 //
 // Project: The XOOPS Project                                                //
 // ------------------------------------------------------------------------- //
@@ -37,7 +37,7 @@ if (!defined("XOOPS_ROOT_PATH")) {
  * 
  * @filesource 
  *
- * @author		Jochen Büînagel	<jb@buennagel.com>
+ * @author		Jochen BÃ¼Ã®nagel	<jb@buennagel.com>
  * @copyright	copyright (c) 2000-2003 The XOOPS Project (http://www.xoops.org)
  *
  * @version		$Id: xoopsmultimailer.php 1501 2008-04-26 11:47:55Z phppp $
@@ -81,7 +81,7 @@ class XoopsMultiMailer extends PHPMailer {
 	 */
 	var $FromName 	= "";
 
-	// can be "smtp", "sendmail", or "mail"
+	// can be "smtp","sendmail", or "mail"
 	/**
 	 * Method to be used when sending the mail.
 	 * 
@@ -194,7 +194,7 @@ class XoopsMultiMailer extends PHPMailer {
         if(empty($addr[1]))
             $formatted = $addr[0];
         else
-            $formatted = sprintf('%s <%s>', '=?'.$this->CharSet.'?B?'.base64_encode($addr[1]).'?=', $addr[0]);
+            $formatted = sprintf('%s <%s>','=?'.$this->CharSet.'?B?'.base64_encode($addr[1]).'?=', $addr[0]);
 
         return $formatted;
     }
@@ -248,7 +248,7 @@ class XoopsMultiMailer extends PHPMailer {
         if ($count > 0) {
             for ($i = 0; $i < $count; $i++) {
                 if ($i != 0) { 
-                    $error .= ", ";
+                    $error .= ",";
                 }
                 $error .= $bad_rcpt[$i];
             }

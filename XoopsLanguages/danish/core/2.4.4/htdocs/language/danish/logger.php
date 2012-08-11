@@ -25,35 +25,35 @@ defined('XOOPS_ROOT_PATH') or die('Restricted access');
 // _LANGCODE: da
 // _CHARSET : UTF-8
 // Translator: Anders Kristiansen (anderssk)
-define('_LOGGER_DEBUG', "Debug");
-define('_LOGGER_INCLUDED_FILES', "Inkluderede filer");
-define('_LOGGER_FILES', "%s filer");
-define('_LOGGER_MEM_USAGE', "Hukemmelse brug");
-define('_LOGGER_MEM_ESTIMATED', "%s [Skønnet]");
-define('_LOGGER_NONE', "Ingen");
-define('_LOGGER_ALL', "Alle");
-define('_LOGGER_ERRORS', "Fejl");
-define('_LOGGER_DEPRECATED', "Deprecated");
-define('_LOGGER_QUERIES', "Forespørgelser");
-define('_LOGGER_BLOCKS', "Blokke");
-define('_LOGGER_EXTRA', "Ekstra");
-define('_LOGGER_TIMERS', "Timere");
+define('_LOGGER_DEBUG',"Debug");
+define('_LOGGER_INCLUDED_FILES',"Inkluderede filer");
+define('_LOGGER_FILES',"%s filer");
+define('_LOGGER_MEM_USAGE',"Hukemmelse brug");
+define('_LOGGER_MEM_ESTIMATED',"%s [Skønnet]");
+define('_LOGGER_NONE',"Ingen");
+define('_LOGGER_ALL',"Alle");
+define('_LOGGER_ERRORS',"Fejl");
+define('_LOGGER_DEPRECATED',"Deprecated");
+define('_LOGGER_QUERIES',"Forespørgelser");
+define('_LOGGER_BLOCKS',"Blokke");
+define('_LOGGER_EXTRA',"Ekstra");
+define('_LOGGER_TIMERS',"Timere");
 
 
-define('_LOGGER_TIMETOLOAD', "%s tog %s sekunder at indlæse.");
+define('_LOGGER_TIMETOLOAD',"%s tog %s sekunder at indlæse.");
 
-define('_LOGGER_TOTAL', "Total");
+define('_LOGGER_TOTAL',"Total");
 
-define('_LOGGER_NOT_CACHED', "Ikke cached");
-define('_LOGGER_CACHED', "Cached (regenereres hvert %s sekund)");
+define('_LOGGER_NOT_CACHED',"Ikke cached");
+define('_LOGGER_CACHED',"Cached (regenereres hvert %s sekund)");
 
-define('_LOGGER_UNKNOWN', "Ukendt");
-define('_LOGGER_E_USER_NOTICE', "Bemærk");
-define('_LOGGER_E_USER_WARNING', "Advarsel");
-define('_LOGGER_E_USER_ERROR', "Fejl");
-define('_LOGGER_E_NOTICE', "Bemærk");
-define('_LOGGER_E_WARNING', "Advarsel");
-define('_LOGGER_E_STRICT', "Streng");
-define('_LOGGER_FILELINE', "%s i filen %s linie %s");
+define('_LOGGER_UNKNOWN',"Ukendt");
+define('_LOGGER_E_USER_NOTICE',"Bemærk");
+define('_LOGGER_E_USER_WARNING',"Advarsel");
+define('_LOGGER_E_USER_ERROR',"Fejl");
+define('_LOGGER_E_NOTICE',"Bemærk");
+define('_LOGGER_E_WARNING',"Advarsel");
+define('_LOGGER_E_STRICT',"Streng");
+define('_LOGGER_FILELINE',"%s i filen %s linie %s");
 
 ?>

@@ -50,27 +50,27 @@ define('_MD_LANG_DARK','Mørk');
 define('_MD_LANG_ORANGE','Orange');
 
 //help
-define ( '_MD_AM_BANS_HELP', 'Administrer dine bannere <br> herfra');
-define ( '_MD_AM_BKAD_HELP', 'Styr system og modul blokke <br>, der giver ekstra info til dig eller dine brugere');
-define ( '_MD_AM_ADGS_HELP', 'Tilføj/Rediger grupper og <br> administrere tilladelser <br> for hver gruppe');
-define ( '_MD_AM_IMAGES_HELP', 'Opret kategori for dine billeder <br> og tilføje billeder i kategorier');
-define ( '_MD_AM_MDAD_HELP', 'Installere og afinstallere din XOOPS moduler. <br> Tjek på modulstatus');
-define ( '_MD_AM_PREF_HELP', 'Administrer Xoops og individuelle <br> modulers indstillinger');
-define ( '_MD_AM_SMLS_HELP', 'Administrer smiliesikoner, der skal anvendes i <br> dine indlæg, PMS, kommentarer, osv.');
-define ( '_MD_AM_RANK_HELP', 'Administrer brugerrang');
-define ( '_MD_AM_USER_HELP', 'Tilføj/Rediger bruger og <br> hans/hendes oplysninger');
-define ( '_MD_AM_FINDUSER_HELP', 'Find en bruger, baseret på de foreliggende <br> detaljer, fx e-mail, brugernavn');
-define ( '_MD_AM_MLUS_HELP', 'Send e-mail eller PM til udvalgte brugere');
-define ( '_MD_AM_AVATARS_HELP', 'Tilføj avatarer til dine brugere, <br> der kan anvendes i deres profiler');
-define ( '_MD_AM_TPLSETS_HELP', 'Ændre/tilpas Xoops skabeloner');
-define ( '_MD_AM_COMMENTS_HELP', 'Administrer bruger kommentarer');
+define('_MD_AM_BANS_HELP','Administrer dine bannere <br> herfra');
+define('_MD_AM_BKAD_HELP','Styr system og modul blokke <br>, der giver ekstra info til dig eller dine brugere');
+define('_MD_AM_ADGS_HELP','Tilføj/Rediger grupper og <br> administrere tilladelser <br> for hver gruppe');
+define('_MD_AM_IMAGES_HELP','Opret kategori for dine billeder <br> og tilføje billeder i kategorier');
+define('_MD_AM_MDAD_HELP','Installere og afinstallere din XOOPS moduler. <br> Tjek på modulstatus');
+define('_MD_AM_PREF_HELP','Administrer Xoops og individuelle <br> modulers indstillinger');
+define('_MD_AM_SMLS_HELP','Administrer smiliesikoner, der skal anvendes i <br> dine indlæg, PMS, kommentarer, osv.');
+define('_MD_AM_RANK_HELP','Administrer brugerrang');
+define('_MD_AM_USER_HELP','Tilføj/Rediger bruger og <br> hans/hendes oplysninger');
+define('_MD_AM_FINDUSER_HELP','Find en bruger, baseret på de foreliggende <br> detaljer, fx e-mail, brugernavn');
+define('_MD_AM_MLUS_HELP','Send e-mail eller PM til udvalgte brugere');
+define('_MD_AM_AVATARS_HELP','Tilføj avatarer til dine brugere, <br> der kan anvendes i deres profiler');
+define('_MD_AM_TPLSETS_HELP','Ændre/tilpas Xoops skabeloner');
+define('_MD_AM_COMMENTS_HELP','Administrer bruger kommentarer');
 
 //Add 10 des
-define ( '_MD_OXYGEN_XOOPS_LICENSE', 'Xoops Licens');
-define ( '_MD_OXYGEN_KEY', 'Xoops Key');
-define ( '_MD_OXYGEN_LICENSE', 'Licens');
-define ( '_MD_OXYGEN_RSS', 'RSS feed');
-define ( '_MD_OXYGEN_POWERED_BY', 'Powered by');
-define ( '_MD_OXYGEN_SOURCEFORGE_TEXT', 'Xoops Code på SourceForge');
-define ( '_MD_OXYGEN_ADMINISTRATION', 'Xoops administration');
+define('_MD_OXYGEN_XOOPS_LICENSE','Xoops Licens');
+define('_MD_OXYGEN_KEY','Xoops Key');
+define('_MD_OXYGEN_LICENSE','Licens');
+define('_MD_OXYGEN_RSS','RSS feed');
+define('_MD_OXYGEN_POWERED_BY','Powered by');
+define('_MD_OXYGEN_SOURCEFORGE_TEXT','Xoops Code på SourceForge');
+define('_MD_OXYGEN_ADMINISTRATION','Xoops administration');
 ?>

@@ -66,14 +66,14 @@ define("_AM_SYSTEM_MAINTENANCE","Konserwacja");
 define("_AM_SYSTEM_MAINTENANCE_DESC","Narzędzia dla bazy danych, <br /> czyszczenia folderów cache i tabeli sesji.");
 
 // Messages
-define('_AM_SYSTEM_DBUPDATED', 'Uaktualniono bazę danych!');
-define('_AM_SYSTEM_DBERROR', 'Nie uaktualniono bazy danych, bo wystapił nieokreślony błąd!');
+define('_AM_SYSTEM_DBUPDATED','Uaktualniono bazę danych!');
+define('_AM_SYSTEM_DBERROR','Nie uaktualniono bazy danych, bo wystapił nieokreślony błąd!');
 define("_AM_SYSTEM_NOTACTIVE","Ta sekcja nie jest aktywna!");
 
 // Group permission phrases
-define('_MD_AM_PERMADDNG', 'Nie mogłem nadać %s uprawnień do %s grupie %s');
-define('_MD_AM_PERMADDOK', 'Nadano %s uprawnień do %s grupie %s');
-define('_MD_AM_PERMRESETNG', 'Nie mogłem zresetować uprawnień grupy w module %s');
-define('_MD_AM_PERMADDNGP', 'Wszystkie nadrzędne pozycje muszą być zaznaczone.');
+define('_MD_AM_PERMADDNG','Nie mogłem nadać %s uprawnień do %s grupie %s');
+define('_MD_AM_PERMADDOK','Nadano %s uprawnień do %s grupie %s');
+define('_MD_AM_PERMRESETNG','Nie mogłem zresetować uprawnień grupy w module %s');
+define('_MD_AM_PERMADDNGP','Wszystkie nadrzędne pozycje muszą być zaznaczone.');
 
 ?>

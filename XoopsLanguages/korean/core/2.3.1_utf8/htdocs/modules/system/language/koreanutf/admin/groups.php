@@ -59,10 +59,10 @@ define("_AM_UNEED2ENTER","필요한 정보를 모두 입력해 주세요!");
 // Added in RC3
 define("_AM_BLOCKRIGHTS","블록 액세스 권한");
 
-define('_AM_FINDU4GROUP', '이 그룹에 추가할 등록회원을 검색');
-define('_AM_GROUPSMAIN', '그룹관리');
+define('_AM_FINDU4GROUP','이 그룹에 추가할 등록회원을 검색');
+define('_AM_GROUPSMAIN','그룹관리');
 
-define('_AM_ADMINNO', '관리자그룹에는 반드시 1인 이상의 멤버가 등록되어있어야합니다.');
+define('_AM_ADMINNO','관리자그룹에는 반드시 1인 이상의 멤버가 등록되어있어야합니다.');
 
 // Custom block, suggested by trabis
 define("_AM_CUSTOMBLOCK","커스텀 블록");

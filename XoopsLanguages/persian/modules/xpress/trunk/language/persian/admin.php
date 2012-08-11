@@ -1,25 +1,25 @@
 <?php
 if( ! defined( 'XPRESS_ADMIN_LANG_INCLUDED' ) ) {
-	define( 'XPRESS_ADMIN_LANG_INCLUDED' , 1 ) ;
+	define('XPRESS_ADMIN_LANG_INCLUDED' , 1 ) ;
 		
-	define("_AM_XPRESS_CONFIG", "اطلاعات سیستم");
-	define("_AM_XPRESS_STATS", "وضعیت وردپرس");
-	define("_AM_XPRESS_CATEGORIES", "تعدا شاخه ها");
-	define("_AM_XPRESS_ARTICLES", "تعداد پست های ارسال شده در وبلاگ");
-	define("_AM_XPRESS_AUTHORS", "تعداد نویسندگان");
-	define("_AM_XPRESS_PERM", "دسترسی ها");
+	define("_AM_XPRESS_CONFIG","اطلاعات سیستم");
+	define("_AM_XPRESS_STATS","وضعیت وردپرس");
+	define("_AM_XPRESS_CATEGORIES","تعدا شاخه ها");
+	define("_AM_XPRESS_ARTICLES","تعداد پست های ارسال شده در وبلاگ");
+	define("_AM_XPRESS_AUTHORS","تعداد نویسندگان");
+	define("_AM_XPRESS_PERM","دسترسی ها");
 	define("_AM_XPRESS_PERM_XOOPS","کاربری که به وردپرس دسترسی دارد رد یکی از گروه زوپس قرار میگیرد. <br />کاربران قرار گرفته در این گروه نمیتوانند به حالت وردپرس بروند. ");
 	define("_AM_XPRESS_PERM_WP",'The XOOPS group that registers as a user of WordPress is selected. < br /> new user authority is set about "New user default authority" on the WordPress side according to the setting. < br />The registered user can change the authority to WordPress side by the user management of WordPress. ');
 	define("_AM_XPRESS_PERM_NOTE1","*NOTES if the authority of the attention user registration is removed, the user registered on the WordPress side once is not deleted. Please delete it on the WordPress side of the user. ");
 	define("_AM_XPRESS_PERM_NOTE2","*NOTES XOOPS manager owns the full powers limit of WordPress. ");
 
 	define("_AM_XPRESS_PERM_REGIST","ثبت نام کاربر");
-	define("_AM_XPRESS_PERM_DRAFT", "ایجاد پیش نویس");
-	define("_AM_XPRESS_PERM_POST", "ارسال پست");
-	define("_AM_XPRESS_PERM_MODERATE", "ویرایش سراسری");
+	define("_AM_XPRESS_PERM_DRAFT","ایجاد پیش نویس");
+	define("_AM_XPRESS_PERM_POST","ارسال پست");
+	define("_AM_XPRESS_PERM_MODERATE","ویرایش سراسری");
 	define("_AM_XPRESS_PERM_ADMIN","مدیریت");
 
-	define("_AM_XPRESS_PERM_UPLOAD", "بارگذاری فایل‌");
+	define("_AM_XPRESS_PERM_UPLOAD","بارگذاری فایل‌");
 
 	define("_AM_XPRESS_D3F_EXPORT","مدیریت نظر ها");
 	define("_AM_XPRESS_D3F_CONFIG","وضعیت تنظیمت D3forum");

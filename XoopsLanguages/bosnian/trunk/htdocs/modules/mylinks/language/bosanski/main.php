@@ -52,7 +52,7 @@ define("_MD_LINKID","Link ID: ");
 define("_MD_SITETITLE","Naziv webstranice: ");
 define("_MD_SITEURL","URL od webstranice: ");
 define("_MD_OPTIONS","Opcije: ");
-define("_MD_NOTIFYAPPROVE", "Obavijestite me kada ovaj link bude odobren");
+define("_MD_NOTIFYAPPROVE","Obavijestite me kada ovaj link bude odobren");
 define("_MD_SHOTIMAGE","Izgled stranice: ");
 define("_MD_SENDREQUEST","Po&scaron;alji zahtjev");
 

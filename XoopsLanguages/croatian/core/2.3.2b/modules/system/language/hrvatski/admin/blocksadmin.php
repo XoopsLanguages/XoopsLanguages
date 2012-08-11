@@ -52,24 +52,24 @@ define("_AM_RUSUREDEL","Da li sigurno želite izbrisati blok <b>%s</b>?");
 define("_AM_NAME","Ime");
 define("_AM_USEFULTAGS","Korisne oznake:");
 define("_AM_BLOCKTAG1","%s će ispisati %s");
-define('_AM_SVISIBLEIN', 'Prikaži blokove vidljive u %s');
-define('_AM_TOPPAGE', 'Početna stranica');
-define('_AM_VISIBLEIN', 'Vidljivo u');
-define('_AM_ALLPAGES', 'Sve stranice');
-define('_AM_TOPONLY', 'Početna stranica');
-define('_AM_ADVANCED', 'Napredne postavke');
-define('_AM_BCACHETIME', 'Vijek trajanja međuspremnika');
-define('_AM_BALIAS', 'Drugi naziv');
-define('_AM_CLONE', 'Klon');  // clone a block
-define('_AM_CLONEBLK', 'Kloniranje'); // cloned block
-define('_AM_CLONEBLOCK', 'Stvori indentičan blok');
-define('_AM_NOTSELNG', "'%s' nije izabran!"); // error message
-define('_AM_EDITTPL', 'Uredi predloške');
-define('_AM_MODULE', 'Modul');
-define('_AM_GROUP', 'Grupa');
-define('_AM_UNASSIGNED', 'Nedodijeljen');
+define('_AM_SVISIBLEIN','Prikaži blokove vidljive u %s');
+define('_AM_TOPPAGE','Početna stranica');
+define('_AM_VISIBLEIN','Vidljivo u');
+define('_AM_ALLPAGES','Sve stranice');
+define('_AM_TOPONLY','Početna stranica');
+define('_AM_ADVANCED','Napredne postavke');
+define('_AM_BCACHETIME','Vijek trajanja međuspremnika');
+define('_AM_BALIAS','Drugi naziv');
+define('_AM_CLONE','Klon');  // clone a block
+define('_AM_CLONEBLK','Kloniranje'); // cloned block
+define('_AM_CLONEBLOCK','Stvori indentičan blok');
+define('_AM_NOTSELNG',"'%s' nije izabran!"); // error message
+define('_AM_EDITTPL','Uredi predloške');
+define('_AM_MODULE','Modul');
+define('_AM_GROUP','Grupa');
+define('_AM_UNASSIGNED','Nedodijeljen');
 
 define("_AM_CUSTOM","Korisnički Blok");
-define('_AM_GENERATOR', 'Blokove je stvorio %s');
-define('_AM_TYPES', 'Svi tipovi');
+define('_AM_GENERATOR','Blokove je stvorio %s');
+define('_AM_TYPES','Svi tipovi');
 ?>

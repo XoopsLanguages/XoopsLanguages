@@ -40,16 +40,16 @@
 	
 	define('_MI_SPIDERS_NAME','Robotstyring');
 	define('_MI_SPIDERS_DESCRIPTION','Dette module er for robotstyring');	
-	define('_MI_SPIDERS_LOGON', 'Logon Session');
-	define('_MI_SPIDERS_LOGONDESC', 'Når en robot er opdaget log den ind under dens brugernavn.');	
+	define('_MI_SPIDERS_LOGON','Logon Session');
+	define('_MI_SPIDERS_LOGONDESC','Når en robot er opdaget log den ind under dens brugernavn.');	
 	
-	define('_MI_SPIDERS_MM1', 'Statistik');
-	define('_MI_SPIDERS_MM2', 'Senest her rapport');	
-	define('_MI_SPIDERS_ADMINMENU1', 'Styr Robotter');
-	define('_MI_SPIDERS_ADMINMENU2', 'Tilføj Robot');
-	define('_MI_SPIDERS_ADMINMENU3', 'Import Robotdefinitioner');		
+	define('_MI_SPIDERS_MM1','Statistik');
+	define('_MI_SPIDERS_MM2','Senest her rapport');	
+	define('_MI_SPIDERS_ADMINMENU1','Styr Robotter');
+	define('_MI_SPIDERS_ADMINMENU2','Tilføj Robot');
+	define('_MI_SPIDERS_ADMINMENU3','Import Robotdefinitioner');		
 	
-	define('_MI_SPIDERS_GROUP_TYPE', 'Spider');
-	define('_MI_SPIDERS_GROUP_NAME', 'Robots, Crawlers & Spiders');
-	define('_MI_SPIDERS_GROUP_DESCRIPTION', 'Robots, Crawlers & Spiders som skanner din webside og har tilladelse.');	
+	define('_MI_SPIDERS_GROUP_TYPE','Spider');
+	define('_MI_SPIDERS_GROUP_NAME','Robots, Crawlers & Spiders');
+	define('_MI_SPIDERS_GROUP_DESCRIPTION','Robots, Crawlers & Spiders som skanner din webside og har tilladelse.');	
 ?>

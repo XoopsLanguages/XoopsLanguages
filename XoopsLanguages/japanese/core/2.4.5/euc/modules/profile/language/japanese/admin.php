@@ -4,111 +4,111 @@
 // _CHARSET : UTF-8
 // Translator: XOOPS Translation Team
 
-define("_PROFILE_AM_FIELD", "¹àÌÜ");
-define("_PROFILE_AM_FIELDS", "¹àÌÜ");
-define("_PROFILE_AM_CATEGORY", "¥«¥Æ¥´¥ê");
-define("_PROFILE_AM_STEP", "¥¹¥Æ¥Ã¥×");
+define("_PROFILE_AM_FIELD","ï¿½ï¿½ï¿½ï¿½");
+define("_PROFILE_AM_FIELDS","ï¿½ï¿½ï¿½ï¿½");
+define("_PROFILE_AM_CATEGORY","ï¿½ï¿½ï¿½Æ¥ï¿½ï¿½ï¿½");
+define("_PROFILE_AM_STEP","ï¿½ï¿½ï¿½Æ¥Ã¥ï¿½");
 
-define("_PROFILE_AM_SAVEDSUCCESS", "%s ¤òÊÝÂ¸¤·¤Þ¤·¤¿");
-define("_PROFILE_AM_DELETEDSUCCESS", "%s ¤òºï½ü¤·¤Þ¤·¤¿");
-define("_PROFILE_AM_RUSUREDEL", "ËÜÅö¤Ë %s ¤òºï½ü¤·¤Æ¤è¤í¤·¤¤¤Ç¤¹¤«¡©");
-define("_PROFILE_AM_FIELDNOTCONFIGURABLE", "¤½¤Î¹àÌÜ¤ÏÀßÄêÊÑ¹¹¤Ç¤­¤Þ¤»¤ó");
+define("_PROFILE_AM_SAVEDSUCCESS","%s ï¿½ï¿½ï¿½ï¿½Â¸ï¿½ï¿½ï¿½Þ¤ï¿½ï¿½ï¿½");
+define("_PROFILE_AM_DELETEDSUCCESS","%s ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Þ¤ï¿½ï¿½ï¿½");
+define("_PROFILE_AM_RUSUREDEL","ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ %s ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ¤ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç¤ï¿½ï¿½ï¿½ï¿½ï¿½");
+define("_PROFILE_AM_FIELDNOTCONFIGURABLE","ï¿½ï¿½ï¿½Î¹ï¿½ï¿½Ü¤ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ñ¹ï¿½ï¿½Ç¤ï¿½ï¿½Þ¤ï¿½ï¿½ï¿½");
 
-define("_PROFILE_AM_ADD", "%s ÄÉ²Ã");
-define("_PROFILE_AM_EDIT", "%s ÊÔ½¸");
-define("_PROFILE_AM_TYPE", "¹àÌÜ¥¿¥¤¥×");
-define("_PROFILE_AM_VALUETYPE", "ÃÍ¥¿¥¤¥×");
-define("_PROFILE_AM_NAME", "¹àÌÜÌ¾");
-define("_PROFILE_AM_TITLE", "¥¿¥¤¥È¥ë");
-define("_PROFILE_AM_DESCRIPTION", "ÀâÌÀ");
-define("_PROFILE_AM_REQUIRED", "É¬¿Ü¹àÌÜ¡©");
-define("_PROFILE_AM_MAXLENGTH", "ºÇÂçÊ¸»ú¿ô");
-define("_PROFILE_AM_WEIGHT", "½ÅÍ×ÅÙ");
-define("_PROFILE_AM_DEFAULT", "¥Ç¥Õ¥©¥ë¥È");
-define("_PROFILE_AM_NOTNULL", "¶õÍó¤òµö¤¹");
+define("_PROFILE_AM_ADD","%s ï¿½É²ï¿½");
+define("_PROFILE_AM_EDIT","%s ï¿½Ô½ï¿½");
+define("_PROFILE_AM_TYPE","ï¿½ï¿½ï¿½Ü¥ï¿½ï¿½ï¿½ï¿½ï¿½");
+define("_PROFILE_AM_VALUETYPE","ï¿½Í¥ï¿½ï¿½ï¿½ï¿½ï¿½");
+define("_PROFILE_AM_NAME","ï¿½ï¿½ï¿½ï¿½Ì¾");
+define("_PROFILE_AM_TITLE","ï¿½ï¿½ï¿½ï¿½ï¿½È¥ï¿½");
+define("_PROFILE_AM_DESCRIPTION","ï¿½ï¿½ï¿½ï¿½");
+define("_PROFILE_AM_REQUIRED","É¬ï¿½Ü¹ï¿½ï¿½Ü¡ï¿½");
+define("_PROFILE_AM_MAXLENGTH","ï¿½ï¿½ï¿½ï¿½Ê¸ï¿½ï¿½ï¿½ï¿½");
+define("_PROFILE_AM_WEIGHT","ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
+define("_PROFILE_AM_DEFAULT","ï¿½Ç¥Õ¥ï¿½ï¿½ï¿½ï¿½");
+define("_PROFILE_AM_NOTNULL","ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
 
-define("_PROFILE_AM_ARRAY", "Array");
-define("_PROFILE_AM_EMAIL", "E-mail");
-define("_PROFILE_AM_INT", "Integer");
-define("_PROFILE_AM_TXTAREA", "¥Æ¥­¥¹¥È¥¨¥ê¥¢");
-define("_PROFILE_AM_TXTBOX", "¥Æ¥­¥¹¥È¥Õ¥£¡¼¥ë¥É");
-define("_PROFILE_AM_URL", "URL");
-define("_PROFILE_AM_OTHER", "¤½¤ÎÂ¾");
-define("_PROFILE_AM_FLOAT", "Floating Point");
-define("_PROFILE_AM_DECIMAL", "Decimal Number");
-define("_PROFILE_AM_UNICODE_ARRAY", "Unicode Array");
-define("_PROFILE_AM_UNICODE_EMAIL", "Unicode Email");
-define("_PROFILE_AM_UNICODE_TXTAREA", "Unicode Text Area");
-define("_PROFILE_AM_UNICODE_TXTBOX", "Unicode Text field");
-define("_PROFILE_AM_UNICODE_URL", "Unicode URL");
+define("_PROFILE_AM_ARRAY","Array");
+define("_PROFILE_AM_EMAIL","E-mail");
+define("_PROFILE_AM_INT","Integer");
+define("_PROFILE_AM_TXTAREA","ï¿½Æ¥ï¿½ï¿½ï¿½ï¿½È¥ï¿½ï¿½ê¥¢");
+define("_PROFILE_AM_TXTBOX","ï¿½Æ¥ï¿½ï¿½ï¿½ï¿½È¥Õ¥ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
+define("_PROFILE_AM_URL","URL");
+define("_PROFILE_AM_OTHER","ï¿½ï¿½ï¿½ï¿½Â¾");
+define("_PROFILE_AM_FLOAT","Floating Point");
+define("_PROFILE_AM_DECIMAL","Decimal Number");
+define("_PROFILE_AM_UNICODE_ARRAY","Unicode Array");
+define("_PROFILE_AM_UNICODE_EMAIL","Unicode Email");
+define("_PROFILE_AM_UNICODE_TXTAREA","Unicode Text Area");
+define("_PROFILE_AM_UNICODE_TXTBOX","Unicode Text field");
+define("_PROFILE_AM_UNICODE_URL","Unicode URL");
 
-define("_PROFILE_AM_PROF_VISIBLE_ON", "³Æ¥°¥ë¡¼¥×¤Î¥æ¡¼¥¶¡¼¾ðÊó¤Ë¤ª¤±¤ë¸ø³«¹àÌÜ");
-define("_PROFILE_AM_PROF_VISIBLE_FOR", "³Æ¥°¥ë¡¼¥×¤Î¥æ¡¼¥¶¡¼¤¬±ÜÍ÷¤Ç¤­¤ë¹àÌÜ");
-define("_PROFILE_AM_PROF_VISIBLE", "¸ø³«²ÄÇ½");
-define("_PROFILE_AM_PROF_EDITABLE", "¥¢¥«¥¦¥ó¥ÈÊÔ½¸¤ÇÊÑ¹¹²ÄÇ½¤Ê¹àÌÜ");
-define("_PROFILE_AM_PROF_REGISTER", "ÅÐÏ¿»þ¤ËÆþÎÏ¤·¤Æ¤â¤é¤¦¹àÌÜ");
-define("_PROFILE_AM_PROF_SEARCH", "¸¡º÷¾ò·ï¤È¤·¤Æ»ØÄê²ÄÇ½¤Ê¹àÌÜ");
-define("_PROFILE_AM_PROF_ACCESS", "¤³¤ì¤é¤Î¥°¥ë¡¼¥×¤Ë¤è¤ê¥¢¥¯¥»¥¹²ÄÇ½¤Ê¥×¥í¥Õ¥£¡¼¥ë");
+define("_PROFILE_AM_PROF_VISIBLE_ON","ï¿½Æ¥ï¿½ï¿½ë¡¼ï¿½×¤Î¥æ¡¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ë¤ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
+define("_PROFILE_AM_PROF_VISIBLE_FOR","ï¿½Æ¥ï¿½ï¿½ë¡¼ï¿½×¤Î¥æ¡¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç¤ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
+define("_PROFILE_AM_PROF_VISIBLE","ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç½");
+define("_PROFILE_AM_PROF_EDITABLE","ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô½ï¿½ï¿½ï¿½ï¿½Ñ¹ï¿½ï¿½ï¿½Ç½ï¿½Ê¹ï¿½ï¿½ï¿½");
+define("_PROFILE_AM_PROF_REGISTER","ï¿½ï¿½Ï¿ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï¤ï¿½ï¿½Æ¤ï¿½é¤¦ï¿½ï¿½ï¿½ï¿½");
+define("_PROFILE_AM_PROF_SEARCH","ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È¤ï¿½ï¿½Æ»ï¿½ï¿½ï¿½ï¿½Ç½ï¿½Ê¹ï¿½ï¿½ï¿½");
+define("_PROFILE_AM_PROF_ACCESS","ï¿½ï¿½ï¿½ï¿½ï¿½Î¥ï¿½ï¿½ë¡¼ï¿½×¤Ë¤ï¿½ê¥¢ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç½ï¿½Ê¥×¥ï¿½Õ¥ï¿½ï¿½ï¿½ï¿½ï¿½");
 define("_PROFILE_AM_PROF_ACCESS_DESC", 
         "<ul>" .
-        "<li>´ÉÍý¼Ô¥°¥ë¡¼¥×: ´ÉÍý¼Ô¥°¥ë¡¼¥×¤ËÂ°¤·¤Æ¤¤¤ë¥æ¡¼¥¶¡¼¤Ë¤Ä¤¤¤Æ¡¢¸½¥æ¡¼¥¶¡¼¤Ï´ÉÍý¼Ô¥°¥ë¡¼¥×¤Ø¤Î¥¢¥¯¥»¥¹¤òµö²Ä¤µ¤ì¤Æ¤¤¤ë¾ì¹ç¤Î¤ß¥¢¥¯¥»¥¹²ÄÇ½¤Ç¤¹¡£; else</li>" .
-        "<li>ÆÃÄê¤Î¥°¥ë¡¼¥×: £±¤Ä°Ê¾å¤ÎÆÃÄê¤Î¥°¥ë¡¼¥×(´ÉÍý¼Ô¡¢¥æ¡¼¥¶¡¼¡¢¥²¥¹¥È°Ê³°)¤ËÂ°¤·¤Æ¤¤¤ë¥æ¡¼¥¶¡¼¤Ë¤Ä¤¤¤Æ¡¢¸½¥æ¡¼¥¶¡¼¤ÏÆÃÄê¤Î¥°¥ë¡¼¥×¤Ø¤Î¥¢¥¯¥»¥¹¤òµö²Ä¤µ¤ì¤Æ¤¤¤ë¾ì¹ç¤Î¤ß¥¢¥¯¥»¥¹²ÄÇ½¤Ç¤¹¡£; else</li>" .
-        "<li>¥æ¡¼¥¶¡¼¥°¥ë¡¼¥×: ¥æ¡¼¥¶¡¼¥°¥ë¡¼¥×¤Ë¤Î¤ßÂ°¤·¤Æ¤¤¤ë¥æ¡¼¥¶¡¼¤Ë¤Ä¤¤¤Æ¡¢¸½¥æ¡¼¥¶¡¼¤Ï¤½¤Î¥æ¡¼¥¶¡¼¥°¥ë¡¼¥×¤Ø¤Î¥¢¥¯¥»¥¹¤òµö²Ä¤µ¤ì¤Æ¤¤¤ë¾ì¹ç¤Î¤ß¥¢¥¯¥»¥¹²ÄÇ½¤Ç¤¹¡£</li>" .
+        "<li>ï¿½ï¿½ï¿½ï¿½ï¿½Ô¥ï¿½ï¿½ë¡¼ï¿½ï¿½: ï¿½ï¿½ï¿½ï¿½ï¿½Ô¥ï¿½ï¿½ë¡¼ï¿½×¤ï¿½Â°ï¿½ï¿½ï¿½Æ¤ï¿½ï¿½ï¿½æ¡¼ï¿½ï¿½ï¿½ï¿½ï¿½Ë¤Ä¤ï¿½ï¿½Æ¡ï¿½ï¿½ï¿½ï¿½æ¡¼ï¿½ï¿½ï¿½ï¿½ï¿½Ï´ï¿½ï¿½ï¿½ï¿½Ô¥ï¿½ï¿½ë¡¼ï¿½×¤Ø¤Î¥ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¤ï¿½ï¿½ï¿½Æ¤ï¿½ï¿½ï¿½ï¿½ï¿½Î¤ß¥ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç½ï¿½Ç¤ï¿½ï¿½ï¿½; else</li>" .
+        "<li>ï¿½ï¿½ï¿½ï¿½Î¥ï¿½ï¿½ë¡¼ï¿½ï¿½: ï¿½ï¿½ï¿½Ä°Ê¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î¥ï¿½ï¿½ë¡¼ï¿½ï¿½(ï¿½ï¿½ï¿½ï¿½ï¿½Ô¡ï¿½ï¿½æ¡¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È°Ê³ï¿½)ï¿½ï¿½Â°ï¿½ï¿½ï¿½Æ¤ï¿½ï¿½ï¿½æ¡¼ï¿½ï¿½ï¿½ï¿½ï¿½Ë¤Ä¤ï¿½ï¿½Æ¡ï¿½ï¿½ï¿½ï¿½æ¡¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î¥ï¿½ï¿½ë¡¼ï¿½×¤Ø¤Î¥ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¤ï¿½ï¿½ï¿½Æ¤ï¿½ï¿½ï¿½ï¿½ï¿½Î¤ß¥ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç½ï¿½Ç¤ï¿½ï¿½ï¿½; else</li>" .
+        "<li>ï¿½æ¡¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ë¡¼ï¿½ï¿½: ï¿½æ¡¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ë¡¼ï¿½×¤Ë¤Î¤ï¿½Â°ï¿½ï¿½ï¿½Æ¤ï¿½ï¿½ï¿½æ¡¼ï¿½ï¿½ï¿½ï¿½ï¿½Ë¤Ä¤ï¿½ï¿½Æ¡ï¿½ï¿½ï¿½ï¿½æ¡¼ï¿½ï¿½ï¿½ï¿½ï¿½Ï¤ï¿½ï¿½Î¥æ¡¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ë¡¼ï¿½×¤Ø¤Î¥ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¤ï¿½ï¿½ï¿½Æ¤ï¿½ï¿½ï¿½ï¿½ï¿½Î¤ß¥ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç½ï¿½Ç¤ï¿½ï¿½ï¿½</li>" .
         "</ul>");
 
-define("_PROFILE_AM_FIELDVISIBLE", "¤½¤Î¹àÌÜ¤Ï ");
-define("_PROFILE_AM_FIELDVISIBLEFOR", "¸ø³«²ÄÇ½");
-define("_PROFILE_AM_FIELDVISIBLEON", "±ÜÍ÷¤¹¤ë¤³¤È¤Î½ÐÍè¤ë¹àÌÜ");
-define("_PROFILE_AM_FIELDVISIBLETOALL", "- ¤¹¤Ù¤Æ");
-define("_PROFILE_AM_FIELDNOTVISIBLE", "¸ø³«ÉÔ²Ä");
+define("_PROFILE_AM_FIELDVISIBLE","ï¿½ï¿½ï¿½Î¹ï¿½ï¿½Ü¤ï¿½ ");
+define("_PROFILE_AM_FIELDVISIBLEFOR","ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç½");
+define("_PROFILE_AM_FIELDVISIBLEON","ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ë¤³ï¿½È¤Î½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
+define("_PROFILE_AM_FIELDVISIBLETOALL","- ï¿½ï¿½ï¿½Ù¤ï¿½");
+define("_PROFILE_AM_FIELDNOTVISIBLE","ï¿½ï¿½ï¿½ï¿½ï¿½Ô²ï¿½");
 
-define("_PROFILE_AM_CHECKBOX", "¥Á¥§¥Ã¥¯¥Ü¥Ã¥¯¥¹");
-define("_PROFILE_AM_GROUP", "Group Select");
-define("_PROFILE_AM_GROUPMULTI", "Group Multi Select");
-define("_PROFILE_AM_LANGUAGE", "¸À¸ì¤ÎÁªÂò");
-define("_PROFILE_AM_RADIO", "¥é¥¸¥ª¥Ü¥¿¥ó");
-define("_PROFILE_AM_SELECT", "Select");
-define("_PROFILE_AM_SELECTMULTI", "Multi Select");
-define("_PROFILE_AM_TEXTAREA", "¥Æ¥­¥¹¥È¥¨¥ê¥¢");
-define("_PROFILE_AM_DHTMLTEXTAREA", "DHTML ¥Æ¥­¥¹¥È¥¨¥ê¥¢");
-define("_PROFILE_AM_TEXTBOX", "¥Æ¥­¥¹¥È¥Ü¥Ã¥¯¥¹");
-define("_PROFILE_AM_TIMEZONE", "¥¿¥¤¥à¥¾¡¼¥ó");
-define("_PROFILE_AM_YESNO", "¥é¥¸¥ª¥Ü¥¿¥ó ¤Ï¤¤¡¦¤¤¤¤¤¨");
-define("_PROFILE_AM_DATE", "ÆüÉÕ");
-define("_PROFILE_AM_AUTOTEXT", "Auto Text");
-define("_PROFILE_AM_DATETIME", "Æü»þ");
-define("_PROFILE_AM_LONGDATE", "Ä¹¤¤ ÆüÉÕ");
+define("_PROFILE_AM_CHECKBOX","ï¿½ï¿½ï¿½ï¿½ï¿½Ã¥ï¿½ï¿½Ü¥Ã¥ï¿½ï¿½ï¿½");
+define("_PROFILE_AM_GROUP","Group Select");
+define("_PROFILE_AM_GROUPMULTI","Group Multi Select");
+define("_PROFILE_AM_LANGUAGE","ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
+define("_PROFILE_AM_RADIO","ï¿½é¥¸ï¿½ï¿½ï¿½Ü¥ï¿½ï¿½ï¿½");
+define("_PROFILE_AM_SELECT","Select");
+define("_PROFILE_AM_SELECTMULTI","Multi Select");
+define("_PROFILE_AM_TEXTAREA","ï¿½Æ¥ï¿½ï¿½ï¿½ï¿½È¥ï¿½ï¿½ê¥¢");
+define("_PROFILE_AM_DHTMLTEXTAREA","DHTML ï¿½Æ¥ï¿½ï¿½ï¿½ï¿½È¥ï¿½ï¿½ê¥¢");
+define("_PROFILE_AM_TEXTBOX","ï¿½Æ¥ï¿½ï¿½ï¿½ï¿½È¥Ü¥Ã¥ï¿½ï¿½ï¿½");
+define("_PROFILE_AM_TIMEZONE","ï¿½ï¿½ï¿½ï¿½ï¿½à¥¾ï¿½ï¿½ï¿½ï¿½");
+define("_PROFILE_AM_YESNO","ï¿½é¥¸ï¿½ï¿½ï¿½Ü¥ï¿½ï¿½ï¿½ ï¿½Ï¤ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
+define("_PROFILE_AM_DATE","ï¿½ï¿½ï¿½ï¿½");
+define("_PROFILE_AM_AUTOTEXT","Auto Text");
+define("_PROFILE_AM_DATETIME","ï¿½ï¿½ï¿½ï¿½");
+define("_PROFILE_AM_LONGDATE","Ä¹ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½");
 
-define("_PROFILE_AM_ADDOPTION", "¥ª¥×¥·¥ç¥ó ÄÉ²Ã");
-define("_PROFILE_AM_REMOVEOPTIONS", "¥ª¥×¥·¥ç¥ó ºï½ü");
-define("_PROFILE_AM_KEY", "¥­¡¼");
-define("_PROFILE_AM_VALUE", "ÃÍ");
+define("_PROFILE_AM_ADDOPTION","ï¿½ï¿½ï¿½×¥ï¿½ï¿½ï¿½ï¿½ ï¿½É²ï¿½");
+define("_PROFILE_AM_REMOVEOPTIONS","ï¿½ï¿½ï¿½×¥ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½");
+define("_PROFILE_AM_KEY","ï¿½ï¿½ï¿½ï¿½");
+define("_PROFILE_AM_VALUE","ï¿½ï¿½");
 
 // User management
-define("_PROFILE_AM_EDITUSER", "¥æ¡¼¥¶¡¼ÊÔ½¸");
-define("_PROFILE_AM_SELECTUSER", "¥æ¡¼¥¶¡¼ÁªÂò");
-define("_PROFILE_AM_ADDUSER","¥æ¡¼¥¶¡¼ÄÉ²Ã");
-define("_PROFILE_AM_THEME","¥Æ¡¼¥Þ");
-define("_PROFILE_AM_RANK","¥é¥ó¥¯");
-define("_PROFILE_AM_USERDONEXIT","¥æ¡¼¥¶¡¼¤¬Â¸ºß¤·¤Þ¤»¤ó¡ª");
-define("_PROFILE_MA_USERLEVEL", "¥æ¡¼¥¶¡¼¥ì¥Ù¥ë");
+define("_PROFILE_AM_EDITUSER","ï¿½æ¡¼ï¿½ï¿½ï¿½ï¿½ï¿½Ô½ï¿½");
+define("_PROFILE_AM_SELECTUSER","ï¿½æ¡¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
+define("_PROFILE_AM_ADDUSER","ï¿½æ¡¼ï¿½ï¿½ï¿½ï¿½ï¿½É²ï¿½");
+define("_PROFILE_AM_THEME","ï¿½Æ¡ï¿½ï¿½ï¿½");
+define("_PROFILE_AM_RANK","ï¿½ï¿½ï¿½");
+define("_PROFILE_AM_USERDONEXIT","ï¿½æ¡¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â¸ï¿½ß¤ï¿½ï¿½Þ¤ï¿½ï¿½ï¿½");
+define("_PROFILE_MA_USERLEVEL","ï¿½æ¡¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ù¥ï¿½");
 
-define("_PROFILE_MA_ACTIVE", "Í­¸ú");
-define("_PROFILE_MA_INACTIVE", "Ìµ¸ú");
-define("_PROFILE_AM_USERCREATED", "¥æ¡¼¥¶¡¼¤òºîÀ®¤·¤Þ¤·¤¿");
+define("_PROFILE_MA_ACTIVE","Í­ï¿½ï¿½");
+define("_PROFILE_MA_INACTIVE","Ìµï¿½ï¿½");
+define("_PROFILE_AM_USERCREATED","ï¿½æ¡¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Þ¤ï¿½ï¿½ï¿½");
 
-define("_PROFILE_AM_CANNOTDELETESELF", "¤³¤³¤Ç¤Ï¼«Ê¬¼«¿È¤Î¥¢¥«¥¦¥ó¥È¤Ïºï½ü¤Ç¤­¤Þ¤»¤ó - ¥æ¡¼¥¶¾ðÊó¥Ú¡¼¥¸¤«¤éºï½ü¤·¤Æ¤¯¤À¤µ¤¤");
-define("_PROFILE_AM_CANNOTDELETEADMIN", "´ÉÍý¼Ô¥¢¥«¥¦¥ó¥È¤Ïºï½ü¤Ç¤­¤Þ¤»¤ó");
+define("_PROFILE_AM_CANNOTDELETESELF","ï¿½ï¿½ï¿½ï¿½ï¿½Ç¤Ï¼ï¿½Ê¬ï¿½ï¿½ï¿½È¤Î¥ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È¤Ïºï¿½ï¿½ï¿½Ç¤ï¿½ï¿½Þ¤ï¿½ï¿½ï¿½ - ï¿½æ¡¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ú¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ¤ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
+define("_PROFILE_AM_CANNOTDELETEADMIN","ï¿½ï¿½ï¿½ï¿½ï¿½Ô¥ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È¤Ïºï¿½ï¿½ï¿½Ç¤ï¿½ï¿½Þ¤ï¿½ï¿½ï¿½");
 
-define("_PROFILE_AM_NOSELECTION", "¥æ¡¼¥¶¡¼¤¬ÁªÂò¤µ¤ì¤Æ¤¤¤Þ¤»¤ó");
-define("_PROFILE_AM_USER_ACTIVATED", "¥æ¡¼¥¶¡¼¤¬Í­¸ú²½¤µ¤ì¤Þ¤·¤¿");
-define("_PROFILE_AM_USER_DEACTIVATED", "¥æ¡¼¥¶¡¼¤¬Ìµ¸ú²½¤µ¤ì¤Þ¤·¤¿");
-define("_PROFILE_AM_USER_NOT_ACTIVATED", "¥¨¥é¡¼: ¥æ¡¼¥¶¡¼¤¬Í­¸ú¤Ë¤Ê¤Ã¤Æ¤¤¤Þ¤»¤ó");
-define("_PROFILE_AM_USER_NOT_DEACTIVATED", "¥¨¥é¡¼: ¥æ¡¼¥¶¡¼¤¬Ìµ¸ú¤Ë¤Ê¤Ã¤Æ¤¤¤Þ¤»¤ó");
+define("_PROFILE_AM_NOSELECTION","ï¿½æ¡¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ò¤µ¤ï¿½Æ¤ï¿½ï¿½Þ¤ï¿½ï¿½ï¿½");
+define("_PROFILE_AM_USER_ACTIVATED","ï¿½æ¡¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í­ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Þ¤ï¿½ï¿½ï¿½");
+define("_PROFILE_AM_USER_DEACTIVATED","ï¿½æ¡¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ìµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Þ¤ï¿½ï¿½ï¿½");
+define("_PROFILE_AM_USER_NOT_ACTIVATED","ï¿½ï¿½ï¿½é¡¼: ï¿½æ¡¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í­ï¿½ï¿½ï¿½Ë¤Ê¤Ã¤Æ¤ï¿½ï¿½Þ¤ï¿½ï¿½ï¿½");
+define("_PROFILE_AM_USER_NOT_DEACTIVATED","ï¿½ï¿½ï¿½é¡¼: ï¿½æ¡¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ìµï¿½ï¿½ï¿½Ë¤Ê¤Ã¤Æ¤ï¿½ï¿½Þ¤ï¿½ï¿½ï¿½");
 
-define("_PROFILE_AM_STEPNAME", "¥¹¥Æ¥Ã¥×Ì¾");
-define("_PROFILE_AM_STEPORDER", "¥¹¥Æ¥Ã¥×½ç");
-define("_PROFILE_AM_STEPSAVE", "ÊÝÂ¸");
-define("_PROFILE_AM_STEPINTRO", "¥¹¥Æ¥Ã¥× ÀâÌÀ");
+define("_PROFILE_AM_STEPNAME","ï¿½ï¿½ï¿½Æ¥Ã¥ï¿½Ì¾");
+define("_PROFILE_AM_STEPORDER","ï¿½ï¿½ï¿½Æ¥Ã¥×½ï¿½");
+define("_PROFILE_AM_STEPSAVE","ï¿½ï¿½Â¸");
+define("_PROFILE_AM_STEPINTRO","ï¿½ï¿½ï¿½Æ¥Ã¥ï¿½ ï¿½ï¿½ï¿½ï¿½");
 
 ?>

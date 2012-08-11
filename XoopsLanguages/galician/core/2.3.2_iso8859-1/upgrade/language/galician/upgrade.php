@@ -1,26 +1,26 @@
 <?php
 // $Id: upgrade.php 2129 2008-09-21 06:36:03Z phppp $
 
-define( "_XOOPS_UPGRADE", "Actualización de XOOPS" );
-define( "_CHECKING_APPLIED", "Comprobando as actualizacións aplicables:" );
-define( "_SET_FILES_WRITABLE", "Asigne permisos de escritura ós siguintes arquivos:" );
-define( "_NO_NEED_UPGRADE", "Non é necesaria a actualización. Por favor, elimine este directorio do servidor" );
-define( "_NEED_UPGRADE", "Actualización requirida" );
-define( "_PROCEED_UPGRADE", "Proceder coa actualización" );
-define( "_PERFORMING_UPGRADE", "Realizando actualización %s" );
+define("_XOOPS_UPGRADE","ActualizaciÃ³n de XOOPS" );
+define("_CHECKING_APPLIED","Comprobando as actualizaciÃ³ns aplicables:" );
+define("_SET_FILES_WRITABLE","Asigne permisos de escritura Ã³s siguintes arquivos:" );
+define("_NO_NEED_UPGRADE","Non Ã© necesaria a actualizaciÃ³n. Por favor, elimine este directorio do servidor" );
+define("_NEED_UPGRADE","ActualizaciÃ³n requirida" );
+define("_PROCEED_UPGRADE","Proceder coa actualizaciÃ³n" );
+define("_PERFORMING_UPGRADE","Realizando actualizaciÃ³n %s" );
 
-define( "_USER_LOGIN", "Autenticación" );
+define("_USER_LOGIN","AutenticaciÃ³n" );
 
-define( "_MANUAL_INSTRUCTIONS", "Instruccións de actualización manual" );
+define("_MANUAL_INSTRUCTIONS","InstrucciÃ³ns de actualizaciÃ³n manual" );
 
 // %s is filename
-define( "_FAILED_PATCH", "Prodúxose un erro ó aplicar %s" );
-define( "_APPLY_NEXT", "Aplicar siguinte actualización (%s)" );
-define( "_COPY_RED_LINES", "Engadir as siguintes liñas vermellas a %s" );
+define("_FAILED_PATCH","ProdÃºxose un erro Ã³ aplicar %s" );
+define("_APPLY_NEXT","Aplicar siguinte actualizaciÃ³n (%s)" );
+define("_COPY_RED_LINES","Engadir as siguintes liÃ±as vermellas a %s" );
 
-define( "_FINISH", "Rematar" );
-define( "_RELOAD", "Recargar" );
+define("_FINISH","Rematar" );
+define("_RELOAD","Recargar" );
 
-define('_UPGRADE_CHARSET', 'UTF-8'); 
+define('_UPGRADE_CHARSET','UTF-8'); 
 
 ?>

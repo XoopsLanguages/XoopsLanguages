@@ -112,7 +112,7 @@ define("_MI_YOGURT_MYCONFIGS","Pode&scaron;avanje");
 define("_MI_YOG_PICTURE_TEMPLATECONFIGSDESC","Template za pode&scaron;avanje &#269;lanova");
 define("_MI_YOG_PICTURE_TEMPLATEFOOTERDESC","Template za pode&scaron;avanje dna stranice Modula");
 define("_MI_YOG_PICTURE_TEMPLATEEDITTRIBE","Template za pode&scaron;avanje pripadnika web stranica");
-define("_MI_YOGURT_LICENSE",'Creative Commons Atribuição - Sendo Vedada a Criação de Obras Derivadas 2.5 Brasil License');
+define("_MI_YOGURT_LICENSE",'Creative Commons AtribuiÃ§Ã£o - Sendo Vedada a CriaÃ§Ã£o de Obras Derivadas 2.5 Brasil License');
 
 //19/10/2007
 define("_MI_YOG_TRIBESPERPAGE_TITLE","Web stranica po stranici");
@@ -145,8 +145,8 @@ define("_MI_YOGURT_FRIENDS_DESC","Drugari");
 define("_MI_YOGURT_FRIENDS","Drugari");
 
 //26/01/2008
-define("_MI_YOG_IMGORDER_TITLE", "Redoslijed slika");
-define("_MI_YOG_IMGORDER_DESC", "Trebali prikazati prvo najnovije slike?");
+define("_MI_YOG_IMGORDER_TITLE","Redoslijed slika");
+define("_MI_YOG_IMGORDER_DESC","Trebali prikazati prvo najnovije slike?");
 
 //08/04/2008
 define("_MI_YOG_PICTURE_TEMPLATENOTIFICATIONS","Template za obavijesti");

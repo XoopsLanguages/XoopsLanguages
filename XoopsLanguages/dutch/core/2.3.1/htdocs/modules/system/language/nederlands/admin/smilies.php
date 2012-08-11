@@ -25,5 +25,5 @@ define('_AM_SMILEEMOTION','Beschrijving:');
 define('_AM_ADD','Toevoegen');
 define('_AM_SAVE','Opslaan');
 define('_AM_WAYSYWTDTS','WAARSCHUWING: Weet je zeker dat je deze smilie wilt verwijderen?')
-;define('_AM_DISPLAYF', 'Laat zien in formulier?');
+;define('_AM_DISPLAYF','Laat zien in formulier?');
 ?>

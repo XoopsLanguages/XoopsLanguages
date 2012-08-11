@@ -28,18 +28,18 @@
 //  along with this program; if not, write to the Free Software              //
 //  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 USA //
 //  ------------------------------------------------------------------------ //
-define("_INSTALL_WEBMASTER","°ü¸®ÀÚ");
-define("_INSTALL_WEBMASTERD","°ü¸®ÀÚ±×·ì");
-define("_INSTALL_REGUSERS","µî·ÏÈ¸¿ø");
-define("_INSTALL_REGUSERSD","µî·ÏÈ¸¿ø±×·ì");
-define("_INSTALL_ANONUSERS","¼Õ´Ô");
-define("_INSTALL_ANONUSERSD","¼Õ´Ô±×·ì");
+define("_INSTALL_WEBMASTER","ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
+define("_INSTALL_WEBMASTERD","ï¿½ï¿½ï¿½ï¿½ï¿½Ú±×·ï¿½");
+define("_INSTALL_REGUSERS","ï¿½ï¿½ï¿½È¸ï¿½ï¿½");
+define("_INSTALL_REGUSERSD","ï¿½ï¿½ï¿½È¸ï¿½ï¿½ï¿½×·ï¿½");
+define("_INSTALL_ANONUSERS","ï¿½Õ´ï¿½");
+define("_INSTALL_ANONUSERSD","ï¿½Õ´Ô±×·ï¿½");
 
-define("_INSTALL_L165","ÀÌ »çÀÌÆ®´Â ÇöÀç Á¡°ËÀ» À§ÇØ ÀÓ½Ã ¿î¿µÁßÁö »óÅÂÀÔ´Ï´Ù. Àá½ÃÈÄ¿¡ ´Ù½Ã ¹æ¹®ÇØ ÁÖ½Ê½Ã¿À!");
+define("_INSTALL_L165","ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Æ®ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ó½ï¿½ ï¿½î¿µï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ô´Ï´ï¿½. ï¿½ï¿½ï¿½ï¿½Ä¿ï¿½ ï¿½Ù½ï¿½ ï¿½æ¹®ï¿½ï¿½ ï¿½Ö½Ê½Ã¿ï¿½!");
 
-define("_INSTALL_ANON","¼Õ´Ô");
+define("_INSTALL_ANON","ï¿½Õ´ï¿½");
 
-define("_INSTALL_DISCLMR", "While the administrators and moderators of this site will attempt to remove
+define("_INSTALL_DISCLMR","While the administrators and moderators of this site will attempt to remove
 or edit any generally objectionable material as quickly as possible, it is
 impossible to review every message. Therefore you acknowledge that all posts
 made to this site express the views and opinions of the author and not the

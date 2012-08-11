@@ -11,15 +11,15 @@
 // ---------------------------------------------------------------- //
 
 //%%%%%%	File Name popup.php 	%%%%%
-define("_MD_SHOUTBOX_POPUP_ENTERNAME","Unesi korisnièko ime: ");
+define("_MD_SHOUTBOX_POPUP_ENTERNAME","Unesi korisniÃ¨ko ime: ");
 define("_MD_SHOUTBOX_POPUP_FORCE","Prisili: ");
-define("_MD_SHOUTBOX_POPUP_USE_AUTOREFRESH","Auto-osvježavanje? ");
-define("_MD_SHOUTBOX_POPUP_REFRESHTIME","Vrijeme osvježenja: ");
+define("_MD_SHOUTBOX_POPUP_USE_AUTOREFRESH","Auto-osvjeÅ¾avanje? ");
+define("_MD_SHOUTBOX_POPUP_REFRESHTIME","Vrijeme osvjeÅ¾enja: ");
 define("_MD_SHOUTBOX_POPUP_CONNECT","Spoji");
 define("_MD_SHOUTBOX_POPUP_SHOUT","Reci");
 define("_MD_SHOUTBOX_POPUP_TITLE","Shoutbox Chat");
 define("_MD_SHOUTBOX_POPUP_CONNECTED",": spojen kao ");
-define("_MD_SHOUTBOX_POPUP_REFRESH", "Osvježi");
-define("_MD_SHOUTBOX_POPUP_NOSHOUTS", "Nema prièe!");
-define("_MD_SHOUTBOX_POPUP_AUTOFOCUS", "Auto-Fokus");
+define("_MD_SHOUTBOX_POPUP_REFRESH","OsvjeÅ¾i");
+define("_MD_SHOUTBOX_POPUP_NOSHOUTS","Nema priÃ¨e!");
+define("_MD_SHOUTBOX_POPUP_AUTOFOCUS","Auto-Fokus");
 ?>

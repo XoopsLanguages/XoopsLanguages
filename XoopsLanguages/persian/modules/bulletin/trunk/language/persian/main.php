@@ -51,7 +51,7 @@ define("_MD_ADD_RELATION","اضافه کردن نوشته وابسته"); // ver
 define("_MD_CHECKED_AS_RELATION","اضافه کردن مانند اخبار وابسته"); // ver 2.00 added
 define("_MD_DISP_BLOCK","نمایش در بلاک"); // ver 2.00 added
 define("_MD_RUSUREDEL","آیا شما میخواهید این خبر و نظر های زیر آن را حذف کنید؟"); // ver 2.00 added
-define("_MD_EMPTYNODELETE", "نا توان در حذف."); // ver 2.00 added
+define("_MD_EMPTYNODELETE","نا توان در حذف."); // ver 2.00 added
 //          archive.php          //
 define("_MD_NEWSARCHIVES","آرشیو اخبار");
 define("_MD_ARTICLES","اخبار");
@@ -85,6 +85,6 @@ define("_MD_URLFORSTORY","آدرس این خبر:");
 define("_MD_THISCOMESFROM","خبر های بیشتر را بخوانید در %s.");// %s represents your site name
 
 //          header.php          //
-define("_MD_RSS", "RSS");
+define("_MD_RSS","RSS");
 define("_MD_ARCHIVES","آرشیو"); // ver 2.00 added
 ?>

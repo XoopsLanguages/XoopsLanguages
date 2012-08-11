@@ -20,9 +20,9 @@
  * @version    $Id $
  */
 
-define( '_MI_AVAMAN_MODULENAME' , 'AVAMAN' ) ;
-define( '_MI_AVAMAN_MODULEDESC' , 'Gestion des avatars du système et des smileys' ) ;
+define('_MI_AVAMAN_MODULENAME' , 'AVAMAN' ) ;
+define('_MI_AVAMAN_MODULEDESC' , 'Gestion des avatars du système et des smileys' ) ;
 
-define( '_MI_AVAMAN_AVATARMANAGER' , 'Gestionnaire d\'avatars' ) ;
-define( '_MI_AVAMAN_SMILIESMANAGER' , 'Gestionnaire de Smileys' ) ;
+define('_MI_AVAMAN_AVATARMANAGER' , 'Gestionnaire d\'avatars' ) ;
+define('_MI_AVAMAN_SMILIESMANAGER' , 'Gestionnaire de Smileys' ) ;
 // Traduction par Cesag pour frxoops.org  le 03 Juin 2012

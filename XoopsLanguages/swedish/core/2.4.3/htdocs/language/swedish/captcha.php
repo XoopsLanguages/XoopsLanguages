@@ -25,21 +25,21 @@ defined('XOOPS_ROOT_PATH') or die('Endast behöriga användare');
 // _LANGCODE: en
 // _CHARSET : UTF-8
 // Translator: XOOPS Translation Team
-define('_CAPTCHA_CAPTION', 'Bekräftelsekod');
-define('_CAPTCHA_INVALID_CODE', 'Ogiltig bekräftelsekod!');
-define('_CAPTCHA_TOOMANYATTEMPTS', 'För många försök!');
-define('_CAPTCHA_MAXATTEMPTS', 'Max antal försök: %d');
+define('_CAPTCHA_CAPTION','Bekräftelsekod');
+define('_CAPTCHA_INVALID_CODE','Ogiltig bekräftelsekod!');
+define('_CAPTCHA_TOOMANYATTEMPTS','För många försök!');
+define('_CAPTCHA_MAXATTEMPTS','Max antal försök: %d');
 // For image mode
-define('_CAPTCHA_RULE_IMAGE', 'Fyll i bokstäverna på bilden');
-define('_CAPTCHA_RULE_CASESENSITIVE', 'Koden gör skillnad på stora och små bokstäver');
-define('_CAPTCHA_RULE_CASEINSENSITIVE', 'Koden gör inte skillnad på stora och små bokstäver');
-define('_CAPTCHA_REFRESH', 'Klicka för att uppdatera bilden om den inte är tydlig nog.');
+define('_CAPTCHA_RULE_IMAGE','Fyll i bokstäverna på bilden');
+define('_CAPTCHA_RULE_CASESENSITIVE','Koden gör skillnad på stora och små bokstäver');
+define('_CAPTCHA_RULE_CASEINSENSITIVE','Koden gör inte skillnad på stora och små bokstäver');
+define('_CAPTCHA_REFRESH','Klicka för att uppdatera bilden om den inte är tydlig nog.');
 // For text mode
-define('_CAPTCHA_RULE_TEXT', 'Fyll i resultatet av uttrycket');
+define('_CAPTCHA_RULE_TEXT','Fyll i resultatet av uttrycket');
 
 /**
  * Error defines
  */
-define('_CAPTCHA_LOADFILEERROR', 'Fel: Kunde inte ladda filen %u i filen %s på rad %s. ');
+define('_CAPTCHA_LOADFILEERROR','Fel: Kunde inte ladda filen %u i filen %s på rad %s. ');
 
 ?>

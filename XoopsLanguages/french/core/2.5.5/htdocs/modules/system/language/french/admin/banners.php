@@ -75,7 +75,7 @@ define("_AM_SYSTEM_BANNERS_USEHTML","Utiliser du code Html ?");
 define("_AM_SYSTEM_BANNERS_CODEHTML","Code Html :");
 
 // Tips
-define( "_AM_SYSTEM_BANNERS_NAV_TIPS", "
+define("_AM_SYSTEM_BANNERS_NAV_TIPS","
 <ul>
 <li>Ajouter, modifier et mettre à jour les catégories, les annonceurs et les bannières.</li>
 </ul>

@@ -16,5 +16,5 @@ define('_AM_SMILEURL','Връзка към картинката:');
 define('_AM_SMILEEMOTION','Описание:');
 define('_AM_ADD','Добавя');
 define('_AM_SAVE','Записва');
-define('_AM_WAYSYWTDTS','ВНИМАНИЕ: Сигурен ли сте, че искате да изтриете тази емотикона?');define('_AM_DISPLAYF', 'Да я показва ли в форма?');
+define('_AM_WAYSYWTDTS','ВНИМАНИЕ: Сигурен ли сте, че искате да изтриете тази емотикона?');define('_AM_DISPLAYF','Да я показва ли в форма?');
 ?>

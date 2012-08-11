@@ -10,9 +10,9 @@
 **/
  
 // Navigation
-define("_AM_SYSTEM_MODULES_ADMIN", "Beheer modules");
-define("_AM_SYSTEM_MODULES_LIST", "Lijst van modules");
-define("_AM_SYSTEM_MODULES_TOINSTALL", "Module installeren");
+define("_AM_SYSTEM_MODULES_ADMIN","Beheer modules");
+define("_AM_SYSTEM_MODULES_LIST","Lijst van modules");
+define("_AM_SYSTEM_MODULES_TOINSTALL","Module installeren");
 define("_AM_SYSTEM_MODULES_VALIDATE","Veranderingen valideren");
 define("_AM_SYSTEM_MODULES_SUBMITRES","Resultaat bevestigen");
 
@@ -120,16 +120,16 @@ define("_AM_SYSTEM_MODULES_BLOCKS_ADD","Blokken toevoegen...");
 define("_AM_SYSTEM_MODULES_BLOCKS_DELETE","Blokken verwijderen...");
 define("_AM_SYSTEM_MODULES_BLOCKS_REBUILD","Blokken vernieuwen...");
 define("_AM_SYSTEM_MODULES_BLOCK_ID"," Blok ID: %s ");
-define('_AM_SYSTEM_MODULES_BLOCK_ACCESS', "Toegangsrecht blok toegevoegd");
-define('_AM_SYSTEM_MODULES_BLOCK_ACCESS_ERROR', "FOUT: Toegang tot het blok is geweigerd");
-define('_AM_SYSTEM_MODULES_BLOCK_ADD', "Blok %s  toegevoegd");
-define('_AM_SYSTEM_MODULES_BLOCK_ADD_ERROR', "FOUT: Kon blok %s niet aan de database toevoegen!");
-define('_AM_SYSTEM_MODULES_BLOCK_ADD_ERROR_DATABASE', "Database fout: %s ");
-define('_AM_SYSTEM_MODULES_BLOCK_CREATED', "Blok %s aangemaakt");
-define('_AM_SYSTEM_MODULES_BLOCK_DELETE', "Blok %s verwijderd.");
-define('_AM_SYSTEM_MODULES_BLOCK_DELETE_DATA', "Bloksjabloon %s verwijderd uit de database.");
-define('_AM_SYSTEM_MODULES_BLOCK_DELETE_ERROR', "FOUT: Kon blok %s niet verwijderen");
-define('_AM_SYSTEM_MODULES_BLOCK_DELETE_TEMPLATE_ERROR', "FOUT: Kon bloksjabloon %s niet verwijderen uit de database");
+define('_AM_SYSTEM_MODULES_BLOCK_ACCESS',"Toegangsrecht blok toegevoegd");
+define('_AM_SYSTEM_MODULES_BLOCK_ACCESS_ERROR',"FOUT: Toegang tot het blok is geweigerd");
+define('_AM_SYSTEM_MODULES_BLOCK_ADD',"Blok %s  toegevoegd");
+define('_AM_SYSTEM_MODULES_BLOCK_ADD_ERROR',"FOUT: Kon blok %s niet aan de database toevoegen!");
+define('_AM_SYSTEM_MODULES_BLOCK_ADD_ERROR_DATABASE',"Database fout: %s ");
+define('_AM_SYSTEM_MODULES_BLOCK_CREATED',"Blok %s aangemaakt");
+define('_AM_SYSTEM_MODULES_BLOCK_DELETE',"Blok %s verwijderd.");
+define('_AM_SYSTEM_MODULES_BLOCK_DELETE_DATA',"Bloksjabloon %s verwijderd uit de database.");
+define('_AM_SYSTEM_MODULES_BLOCK_DELETE_ERROR',"FOUT: Kon blok %s niet verwijderen");
+define('_AM_SYSTEM_MODULES_BLOCK_DELETE_TEMPLATE_ERROR',"FOUT: Kon bloksjabloon %s niet verwijderen uit de database");
 define("_AM_SYSTEM_MODULES_BLOCK_DEPRECATED","Block template %s deprecated ");
 define("_AM_SYSTEM_MODULES_BLOCK_DEPRECATED_ERROR","ERROR: Could not remove deprecated block template.  ");
 define("_AM_SYSTEM_MODULES_BLOCK_UPDATE","Blok %s bijgewerkt.");
@@ -168,7 +168,7 @@ define("_AM_SYSTEM_MODULES_NOTIFICATIONS_DELETE_ERROR","FOUT: Kon meldingen niet
 define("_AM_SYSTEM_MODULES_NOTIFICATIONS_DELETED","Meldingen verwijderd");
 define("_AM_SYSTEM_MODULES_TABLE_DROPPED","Tabel %s verwijderd!");
 define("_AM_SYSTEM_MODULES_TABLE_DROPPED_ERROR","FOUT: Kon tabel %s niet verwijderen");
-define("_AM_SYSTEM_MODULES_TABLE_DROPPED_FAILDED", "FOUT: Niet toegestaan om tabel %s te verwijderen!");
+define("_AM_SYSTEM_MODULES_TABLE_DROPPED_FAILDED","FOUT: Niet toegestaan om tabel %s te verwijderen!");
 
 // Tips
 define("_AM_SYSTEM_MODULES_TIPS", 

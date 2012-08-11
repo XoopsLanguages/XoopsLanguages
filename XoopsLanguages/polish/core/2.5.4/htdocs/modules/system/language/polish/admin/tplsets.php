@@ -42,5 +42,5 @@ define("_AM_SYSTEM_TEMPLATES_SELECT_TEMPLATES","Wybierz szablony");
 define("_AM_SYSTEM_TEMPLATES_ALL_MODULES","Wszystkie moduły");
 define("_AM_SYSTEM_TEMPLATES_RESTORE_OK","Pomyślnie przywrócone");
 define("_AM_SYSTEM_TEMPLATES_RESTORE_NOTOK","Nie udało się przywrócić");
-define("_AM_SYSTEM_TEMPLATES_SET", "Wybierz szablon");
+define("_AM_SYSTEM_TEMPLATES_SET","Wybierz szablon");
 ?>

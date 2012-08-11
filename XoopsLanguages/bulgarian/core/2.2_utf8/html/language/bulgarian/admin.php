@@ -10,7 +10,7 @@ define("_AD_NICKNAME","Потребител");
 define("_AD_EMAIL","Email");
 define("_AD_AVATAR","Аватар");
 define("_AD_REGISTERED","Регистриран"); //Registered Date
-define('_AD_PRESSGEN', 'Това е първото Ви влизане в Административната секция. Натиснете бутона за да продължите.');
-define('_AD_LOGINADMIN', 'Влизане..');
-define('_AD_NAVIGATION', "Навигация");
+define('_AD_PRESSGEN','Това е първото Ви влизане в Административната секция. Натиснете бутона за да продължите.');
+define('_AD_LOGINADMIN','Влизане..');
+define('_AD_NAVIGATION',"Навигация");
 ?>

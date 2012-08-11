@@ -40,8 +40,8 @@ define('_PM_DATE','Datum');
 define('_PM_NOTREAD','Nicht gelesen');
 define('_PM_SEND','neue PN senden');
 define('_PM_DELETE','Löschen');
-define('_PM_REPLY', 'Antworten');
+define('_PM_REPLY','Antworten');
 define('_PM_PLZREG','Bitte registrieren Sie sich, um private Nachrichten senden zu können!');
 
-define('_PM_ONLINE', 'Online');
+define('_PM_ONLINE','Online');
 ?>

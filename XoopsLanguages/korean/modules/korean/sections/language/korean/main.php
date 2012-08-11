@@ -29,48 +29,48 @@
 //  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 USA //
 //  ------------------------------------------------------------------------ //
 
-define("_AM_SECCONF","¼½¼Ç ¼³Á¤");
-define("_MD_MUSTREGFIRST","º¯°æ¿äÃ»À» º¸³»±â À§ÇØ¼± ¸ÕÀú È¸¿øµî·ÏÀ» ÇÏ½Ç ÇÊ¿ä°¡ ÀÖ½À´Ï´Ù.");
+define("_AM_SECCONF","ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½");
+define("_MD_MUSTREGFIRST","ï¿½ï¿½ï¿½ï¿½ï¿½Ã»ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ø¼ï¿½ ï¿½ï¿½ï¿½ï¿½ È¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ï½ï¿½ ï¿½Ê¿ä°¡ ï¿½Ö½ï¿½ï¿½Ï´ï¿½.");
 define("_MD_WELCOMETOSEC","");  // %s is your site name
 define("_MD_HEREUCANFIND","");
 define("_MD_THISISSECTION","<b>%s</b>");  // %s is a section name
-define("_MD_THEFOLLOWING","ÀÌ ¼½¼Ç¿¡´Â ´ÙÀ½°ú °°Àº ±â»çµéÀÌ ÀÖ½À´Ï´Ù.");
-define("_MD_PRINTERPAGE","ÀÎ¼â¿ë ÆäÀÌÁö");
-define("_MD_RETURN2INDEX","¼½¼Ç ¸ÞÀÎÆäÀÌÁö·Î µ¹¾Æ°¨");
-define("_MD_BACK2SEC","%s ·Î µ¹¾Æ°¨");
-define("_MD_NEXTPAGE","´ÙÀ½ ÆäÀÌÁö");
-define("_MD_PREVPAGE","ÀÌÀü ÆäÀÌÁö");
-define("_MD_COMESFROM","´õ¿í ¸¹Àº ±â»ç¸¦ º¸½Ç¼ö ÀÖ½À´Ï´Ù. ¸¹Àº ÀÌ¿ë¹Ù¶ø´Ï´Ù.( %s)");
-define("_MD_URLFORTHIS","ÀÌ ´º½º±â»ç°¡ °ÔÀçµÇ¾îÀÖ´Â °÷ÀÇ URL:");
+define("_MD_THEFOLLOWING","ï¿½ï¿½ ï¿½ï¿½ï¿½Ç¿ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ö½ï¿½ï¿½Ï´ï¿½.");
+define("_MD_PRINTERPAGE","ï¿½Î¼ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
+define("_MD_RETURN2INDEX","ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Æ°ï¿½");
+define("_MD_BACK2SEC","%s ï¿½ï¿½ ï¿½ï¿½ï¿½Æ°ï¿½");
+define("_MD_NEXTPAGE","ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
+define("_MD_PREVPAGE","ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
+define("_MD_COMESFROM","ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ç¸¦ ï¿½ï¿½ï¿½Ç¼ï¿½ ï¿½Ö½ï¿½ï¿½Ï´ï¿½. ï¿½ï¿½ï¿½ï¿½ ï¿½Ì¿ï¿½Ù¶ï¿½ï¿½Ï´ï¿½.( %s)");
+define("_MD_URLFORTHIS","ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ç°¡ ï¿½ï¿½ï¿½ï¿½Ç¾ï¿½ï¿½Ö´ï¿½ ï¿½ï¿½ï¿½ï¿½ URL:");
 
-define("_MD_CURACTIVESEC","¼½¼Ç ¸®½ºÆ®");
-define("_MD_CLICK2EDIT","ÆíÁýÀ» À§ÇØ¼± ¼½¼Ç¸íÀ» Å¬¸¯ÇØ ÁÖ¼¼¿ä");
-define("_MD_ADDARTICLE","¼½¼Ç³»¿¡ ±â»ç¸¦ Ãß°¡ÇÔ");
-define("_MD_TITLEC","Á¦¸ñ:");
-define("_MD_CONTENTC","º»¹®:");
-define("_MD_DOADDARTICLE","º¸³»±â");
-define("_MD_LAST20ART","ÃÖ±Ù ±â»ç 20");
-define("_MD_EDIT","ÆíÁý");
-define("_MD_EDITARTID","ÆíÁýÇÒ ±â»ç ID:");
-define("_MD_GO","º¸³»±â");
-define("_MD_ADDNEWSEC","½Å±Ô ¼½¼Ç Ãß°¡");
-define("_MD_SECNAMEC","¼½¼Ç¸í:");
-define("_MD_MAXCHAR","(ÃÖ´ë 20ÀÚ)");
-define("_MD_SECIMAGEC","¼½¼Ç ±×¸²ÆÄÀÏ:");
-define("_MD_EXIMAGE","(¿¹: opinion.gif)");
-define("_MD_GOADDSECTION","º¸³»±â");
-define("_MD_EDITARTICLE","±â»ç ÆíÁý");
-define("_MD_SAVECHANGES","º¯°æÀúÀå");
-define("_MD_DELETE","»èÁ¦");
-define("_MD_EDITTHISSEC","ÆíÁýÇÒ ¼½¼Ç: %s"); // %s is a section name
-define("_MD_THISSECHAS","ÀÌ ¼½¼Ç¿¡´Â %s °ÇÀÇ ±â»ç°¡ ÀÖ½À´Ï´Ù.");
-define("_MD_RUSUREDELSEC","Á¤¸»·Î ÀÌ ¼½¼ÇÀ» »èÁ¦ÇÏ½Ç °Ç°¡¿ä?");
-define("_MD_THISDELETESALL","¼½¼ÇÀ» »èÁ¦ÇÏ½Ã¸é ±×¿¡ ¼ÓÇÑ ¸ðµç ±â»çµéµµ »èÁ¦µË´Ï´Ù!");
-define("_MD_YES","¿¹");
-define("_MD_NO","¾Æ´Ï¿ä");
-define("_MD_DELETETHISART","»èÁ¦ÇÒ ±â»ç: %s"); // %s is a section name
-define("_MD_RUSUREDELART","Á¤¸»·Î ÀÌ ±â»ç¸¦ »èÁ¦ÇÏ½Ç °Ç°¡¿ä??");
-define("_MD_DBUPDATED","µ¥ÀÌÅ¸º£ÀÌ½º¸¦ ¼º°øÀûÀ¸·Î °»½ÅÇÏ¿´½À´Ï´Ù!");
-define("_MD_ERRORSECNAME", "¼½¼Ç¸íÀ» ÀÔ·ÂÇÏ¼Å¾ß¸¸ ÇÕ´Ï´Ù!");
-define("_MD_DBNOTUPDATED","±â»çÀÇ Ãß°¡¿¡ ½ÇÆÐÇÏ¿´½À´Ï´Ù.<br/>¼½¼ÇÀÌ ¿Ã¹Ù¸£°Ô ¼±ÅÃµÇ¾îÁ® ÀÖ´ÂÁö ´Ù½Ã ÇÑ¹ø È®ÀÎÇØ ÁÖ¼¼¿ä.");
+define("_MD_CURACTIVESEC","ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Æ®");
+define("_MD_CLICK2EDIT","ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ø¼ï¿½ ï¿½ï¿½ï¿½Ç¸ï¿½ï¿½ï¿½ Å¬ï¿½ï¿½ï¿½ï¿½ ï¿½Ö¼ï¿½ï¿½ï¿½");
+define("_MD_ADDARTICLE","ï¿½ï¿½ï¿½Ç³ï¿½ï¿½ï¿½ ï¿½ï¿½ç¸¦ ï¿½ß°ï¿½ï¿½ï¿½");
+define("_MD_TITLEC","ï¿½ï¿½ï¿½ï¿½:");
+define("_MD_CONTENTC","ï¿½ï¿½ï¿½ï¿½:");
+define("_MD_DOADDARTICLE","ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
+define("_MD_LAST20ART","ï¿½Ö±ï¿½ ï¿½ï¿½ï¿½ 20");
+define("_MD_EDIT","ï¿½ï¿½ï¿½ï¿½");
+define("_MD_EDITARTID","ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ID:");
+define("_MD_GO","ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
+define("_MD_ADDNEWSEC","ï¿½Å±ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ß°ï¿½");
+define("_MD_SECNAMEC","ï¿½ï¿½ï¿½Ç¸ï¿½:");
+define("_MD_MAXCHAR","(ï¿½Ö´ï¿½ 20ï¿½ï¿½)");
+define("_MD_SECIMAGEC","ï¿½ï¿½ï¿½ï¿½ ï¿½×¸ï¿½ï¿½ï¿½ï¿½ï¿½:");
+define("_MD_EXIMAGE","(ï¿½ï¿½: opinion.gif)");
+define("_MD_GOADDSECTION","ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
+define("_MD_EDITARTICLE","ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½");
+define("_MD_SAVECHANGES","ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
+define("_MD_DELETE","ï¿½ï¿½ï¿½ï¿½");
+define("_MD_EDITTHISSEC","ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½: %s"); // %s is a section name
+define("_MD_THISSECHAS","ï¿½ï¿½ ï¿½ï¿½ï¿½Ç¿ï¿½ï¿½ï¿½ %s ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ç°¡ ï¿½Ö½ï¿½ï¿½Ï´ï¿½.");
+define("_MD_RUSUREDELSEC","ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï½ï¿½ ï¿½Ç°ï¿½ï¿½ï¿½?");
+define("_MD_THISDELETESALL","ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï½Ã¸ï¿½ ï¿½×¿ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½éµµ ï¿½ï¿½ï¿½ï¿½ï¿½Ë´Ï´ï¿½!");
+define("_MD_YES","ï¿½ï¿½");
+define("_MD_NO","ï¿½Æ´Ï¿ï¿½");
+define("_MD_DELETETHISART","ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½: %s"); // %s is a section name
+define("_MD_RUSUREDELART","ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ç¸¦ ï¿½ï¿½ï¿½ï¿½ï¿½Ï½ï¿½ ï¿½Ç°ï¿½ï¿½ï¿½??");
+define("_MD_DBUPDATED","ï¿½ï¿½ï¿½ï¿½Å¸ï¿½ï¿½ï¿½Ì½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï¿ï¿½ï¿½ï¿½ï¿½Ï´ï¿½!");
+define("_MD_ERRORSECNAME","ï¿½ï¿½ï¿½Ç¸ï¿½ï¿½ï¿½ ï¿½Ô·ï¿½ï¿½Ï¼Å¾ß¸ï¿½ ï¿½Õ´Ï´ï¿½!");
+define("_MD_DBNOTUPDATED","ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ß°ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï¿ï¿½ï¿½ï¿½ï¿½Ï´ï¿½.<br/>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ã¹Ù¸ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ÃµÇ¾ï¿½ï¿½ï¿½ ï¿½Ö´ï¿½ï¿½ï¿½ ï¿½Ù½ï¿½ ï¿½Ñ¹ï¿½ È®ï¿½ï¿½ï¿½ï¿½ ï¿½Ö¼ï¿½ï¿½ï¿½.");
 ?>

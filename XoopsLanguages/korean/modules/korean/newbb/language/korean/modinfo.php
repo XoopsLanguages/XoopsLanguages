@@ -32,67 +32,67 @@
 // Module Info
 
 // The name of this module
-define("_MI_NEWBB_NAME","Æ÷·³");
+define("_MI_NEWBB_NAME","ï¿½ï¿½ï¿½ï¿½");
 
 // A brief description of this module
-define("_MI_NEWBB_DESC","XOOPS Æ÷·³ ¸ðµâ");
+define("_MI_NEWBB_DESC","XOOPS ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½");
 
 // Names of blocks for this module (Not all module has blocks)
-define("_MI_NEWBB_BNAME1","ÃÖ±Ù Åõ°í±Û");
-define("_MI_NEWBB_BNAME2","ÂüÁ¶¼ö°¡ ¸¹Àº ÅäÇÈ");
-define("_MI_NEWBB_BNAME3","Åõ°í¼ö°¡ ¸¹Àº ÅäÇÈ");
-define("_MI_NEWBB_BNAME4","ºñ°ø°³Åä·Ð¹æÀÇ ÃÖ±Ù Åõ°í±Û");
+define("_MI_NEWBB_BNAME1","ï¿½Ö±ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½");
+define("_MI_NEWBB_BNAME2","ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½");
+define("_MI_NEWBB_BNAME3","ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½");
+define("_MI_NEWBB_BNAME4","ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð¹ï¿½ï¿½ï¿½ ï¿½Ö±ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½");
 
 // Names of admin menu items
-define("_MI_NEWBB_ADMENU1","Åä·Ð¹æ Ãß°¡");
-define("_MI_NEWBB_ADMENU2","Åä·Ð¹æ ÆíÁý");
-define("_MI_NEWBB_ADMENU3","ºñ°ø°³Åä·Ð¹æ ¼³Á¤");
-define("_MI_NEWBB_ADMENU4","Åõ°í±Û¼öÀÇ ÀçÁý°è");
-define("_MI_NEWBB_ADMENU5","Ä«Å×°í¸® Ã·°¡");
-define("_MI_NEWBB_ADMENU6","Ä«Å×°í¸® ÆíÁý");
-define("_MI_NEWBB_ADMENU7","Ä«Å×°í¸® »èÁ¦");
-define("_MI_NEWBB_ADMENU8","Ä«Å×°í¸® À§Ä¡º¯°æ");
+define("_MI_NEWBB_ADMENU1","ï¿½ï¿½Ð¹ï¿½ ï¿½ß°ï¿½");
+define("_MI_NEWBB_ADMENU2","ï¿½ï¿½Ð¹ï¿½ ï¿½ï¿½ï¿½ï¿½");
+define("_MI_NEWBB_ADMENU3","ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð¹ï¿½ ï¿½ï¿½ï¿½ï¿½");
+define("_MI_NEWBB_ADMENU4","ï¿½ï¿½ï¿½ï¿½Û¼ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
+define("_MI_NEWBB_ADMENU5","Ä«ï¿½×°ï¿½ï¿½ Ã·ï¿½ï¿½");
+define("_MI_NEWBB_ADMENU6","Ä«ï¿½×°ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½");
+define("_MI_NEWBB_ADMENU7","Ä«ï¿½×°ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½");
+define("_MI_NEWBB_ADMENU8","Ä«ï¿½×°ï¿½ï¿½ ï¿½ï¿½Ä¡ï¿½ï¿½ï¿½ï¿½");
 
 // RMV-NOTIFY
 // Notification event descriptions and mail templates
 
-define ('_MI_NEWBB_THREAD_NOTIFY', 'Ç¥½ÃÁßÀÎ ÅäÇÈ');
-define ('_MI_NEWBB_THREAD_NOTIFYDSC', 'Ç¥½ÃÁßÀÎ ÅäÇÈ¿¡ ´ëÇÑ ÅëÁö¿É¼Ç');
+define('_MI_NEWBB_THREAD_NOTIFY','Ç¥ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½');
+define('_MI_NEWBB_THREAD_NOTIFYDSC','Ç¥ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½È¿ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½É¼ï¿½');
 
-define ('_MI_NEWBB_FORUM_NOTIFY', 'Ç¥½ÃÁßÀÎ Åä·Ð¹æ');
-define ('_MI_NEWBB_FORUM_NOTIFYDSC', 'Ç¥½ÃÁßÀÎ Åä·Ð¹æ¿¡ ´ëÇÑ ÅëÁö¿É¼Ç');
+define('_MI_NEWBB_FORUM_NOTIFY','Ç¥ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ð¹ï¿½');
+define('_MI_NEWBB_FORUM_NOTIFYDSC','Ç¥ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ð¹æ¿¡ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½É¼ï¿½');
 
-define ('_MI_NEWBB_GLOBAL_NOTIFY', '¸ðµâÀüÃ¼');
-define ('_MI_NEWBB_GLOBAL_NOTIFYDSC', 'Æ÷·³¸ðµâ ÀüÃ¼¿¡ ´ëÇÑ ÅëÁö¿É¼Ç');
+define('_MI_NEWBB_GLOBAL_NOTIFY','ï¿½ï¿½ï¿½ï¿½ï¿½Ã¼');
+define('_MI_NEWBB_GLOBAL_NOTIFYDSC','ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ã¼ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½É¼ï¿½');
 
-define ('_MI_NEWBB_THREAD_NEWPOST_NOTIFY', '´ä±ÛÀÇ Åõ°í');
-define ('_MI_NEWBB_THREAD_NEWPOST_NOTIFYCAP', 'ÀÌ ÅäÇÈ¿¡ ´ëÇÑ ´ä±ÛÀÌ Åõ°íµÈ °æ¿ì ÅëÁöÇÔ');
-define ('_MI_NEWBB_THREAD_NEWPOST_NOTIFYDSC', 'ÀÌ ÅäÇÈ¿¡ ´ëÇÑ ´ä±ÛÀÌ Åõ°íµÈ °æ¿ì ÅëÁöÇØ ÁÝ´Ï´Ù.');
-define ('_MI_NEWBB_THREAD_NEWPOST_NOTIFYSBJ', '[{X_SITENAME}] {X_MODULE} auto-notify : ÅäÇÈ³»¿¡ »õ·Î¿î ´ä±ÛÀÌ Åõ°íµÇ¾ú½À´Ï´Ù.');
+define('_MI_NEWBB_THREAD_NEWPOST_NOTIFY','ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½');
+define('_MI_NEWBB_THREAD_NEWPOST_NOTIFYCAP','ï¿½ï¿½ ï¿½ï¿½ï¿½È¿ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½');
+define('_MI_NEWBB_THREAD_NEWPOST_NOTIFYDSC','ï¿½ï¿½ ï¿½ï¿½ï¿½È¿ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ý´Ï´ï¿½.');
+define('_MI_NEWBB_THREAD_NEWPOST_NOTIFYSBJ','[{X_SITENAME}] {X_MODULE} auto-notify : ï¿½ï¿½ï¿½È³ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Î¿ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ç¾ï¿½ï¿½ï¿½ï¿½Ï´ï¿½.');
 
-define ('_MI_NEWBB_FORUM_NEWTHREAD_NOTIFY', '½Å±Ô ÅäÇÈ');
-define ('_MI_NEWBB_FORUM_NEWTHREAD_NOTIFYCAP', 'ÀÌ Åä·Ð¹æ¿¡ ½Å±Ô ÅäÇÈÀÌ ½Å¼³µÈ °æ¿ì ÅëÁöÇÔ.');
-define ('_MI_NEWBB_FORUM_NEWTHREAD_NOTIFYDSC', 'ÀÌ Åä·Ð¹æ¿¡ ½Å±Ô ÅäÇÈÀÌ ½Å¼³µÈ °æ¿ì ÅëÁöÇØ ÁÝ´Ï´Ù..');
-define ('_MI_NEWBB_FORUM_NEWTHREAD_NOTIFYSBJ', '[{X_SITENAME}] {X_MODULE} auto-notify : Åä·Ð¹æ¿¡ ½Å±Ô ÅäÇÈÀÌ Åõ°íµÇ¾ú½À´Ï´Ù.');
+define('_MI_NEWBB_FORUM_NEWTHREAD_NOTIFY','ï¿½Å±ï¿½ ï¿½ï¿½ï¿½ï¿½');
+define('_MI_NEWBB_FORUM_NEWTHREAD_NOTIFYCAP','ï¿½ï¿½ ï¿½ï¿½Ð¹æ¿¡ ï¿½Å±ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Å¼ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.');
+define('_MI_NEWBB_FORUM_NEWTHREAD_NOTIFYDSC','ï¿½ï¿½ ï¿½ï¿½Ð¹æ¿¡ ï¿½Å±ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Å¼ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ý´Ï´ï¿½..');
+define('_MI_NEWBB_FORUM_NEWTHREAD_NOTIFYSBJ','[{X_SITENAME}] {X_MODULE} auto-notify : ï¿½ï¿½Ð¹æ¿¡ ï¿½Å±ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ç¾ï¿½ï¿½ï¿½ï¿½Ï´ï¿½.');
 
-define ('_MI_NEWBB_GLOBAL_NEWFORUM_NOTIFY', '½Å±Ô Åä·Ð¹æ');
-define ('_MI_NEWBB_GLOBAL_NEWFORUM_NOTIFYCAP', '½Å±Ô Åä·Ð¹æÀÌ ¸¸µé¾îÁø °æ¿ì ÅëÁöÇÔ.');
-define ('_MI_NEWBB_GLOBAL_NEWFORUM_NOTIFYDSC', '½Å±Ô Åä·Ð¹æÀÌ ¸¸µé¾îÁø °æ¿ì ÅëÁöÇØ ÁÝ´Ï´Ù.');
-define ('_MI_NEWBB_GLOBAL_NEWFORUM_NOTIFYSBJ', '[{X_SITENAME}] {X_MODULE} auto-notify : ½Å±Ô Åä·Ð¹æÀÌ ¸¸µé¾îÁ³½À´Ï´Ù.');
+define('_MI_NEWBB_GLOBAL_NEWFORUM_NOTIFY','ï¿½Å±ï¿½ ï¿½ï¿½Ð¹ï¿½');
+define('_MI_NEWBB_GLOBAL_NEWFORUM_NOTIFYCAP','ï¿½Å±ï¿½ ï¿½ï¿½Ð¹ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.');
+define('_MI_NEWBB_GLOBAL_NEWFORUM_NOTIFYDSC','ï¿½Å±ï¿½ ï¿½ï¿½Ð¹ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ý´Ï´ï¿½.');
+define('_MI_NEWBB_GLOBAL_NEWFORUM_NOTIFYSBJ','[{X_SITENAME}] {X_MODULE} auto-notify : ï¿½Å±ï¿½ ï¿½ï¿½Ð¹ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï´ï¿½.');
 
-define ('_MI_NEWBB_GLOBAL_NEWPOST_NOTIFY', '½Å±Ô Åõ°í');
-define ('_MI_NEWBB_GLOBAL_NEWPOST_NOTIFYCAP', '½Å±Ô ÅäÇÈ ¶Ç´Â ´ä±ÛÀÌ Åõ°íµÈ °æ¿ì ÅëÁöÇÔ.');
-define ('_MI_NEWBB_GLOBAL_NEWPOST_NOTIFYDSC', '½Å±Ô ÅäÇÈ ¶Ç´Â ´ä±ÛÀÌ Åõ°íµÈ °æ¿ì ÅëÁöÇØ ÁÝ´Ï´Ù.');
-define ('_MI_NEWBB_GLOBAL_NEWPOST_NOTIFYSBJ', '[{X_SITENAME}] {X_MODULE} auto-notify : ½Å±Ô Åõ°í°¡ ÀÖ¾ú½À´Ï´Ù.');
+define('_MI_NEWBB_GLOBAL_NEWPOST_NOTIFY','ï¿½Å±ï¿½ ï¿½ï¿½ï¿½ï¿½');
+define('_MI_NEWBB_GLOBAL_NEWPOST_NOTIFYCAP','ï¿½Å±ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ç´ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.');
+define('_MI_NEWBB_GLOBAL_NEWPOST_NOTIFYDSC','ï¿½Å±ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ç´ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ý´Ï´ï¿½.');
+define('_MI_NEWBB_GLOBAL_NEWPOST_NOTIFYSBJ','[{X_SITENAME}] {X_MODULE} auto-notify : ï¿½Å±ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ö¾ï¿½ï¿½ï¿½ï¿½Ï´ï¿½.');
 
-define ('_MI_NEWBB_FORUM_NEWPOST_NOTIFY', '½Å±Ô Åõ°í');
-define ('_MI_NEWBB_FORUM_NEWPOST_NOTIFYCAP', 'ÀÌ Åä·Ð¹æ¿¡ ½Å±Ô Åõ°í°¡ ÀÖ´Â °æ¿ì ÅëÁöÇÔ.');
-define ('_MI_NEWBB_FORUM_NEWPOST_NOTIFYDSC', 'ÀÌ Åä·Ð¹æ¿¡ ½Å±Ô Åõ°í°¡ ÀÖ´Â °æ¿ì ÅëÁöÇØ ÁÝ´Ï´Ù.');
-define ('_MI_NEWBB_FORUM_NEWPOST_NOTIFYSBJ', '[{X_SITENAME}] {X_MODULE} auto-notify : Åä·Ð¹æ¿¡ ½Å±Ô Åõ°í°¡ ÀÖ¾ú½À´Ï´Ù.');
+define('_MI_NEWBB_FORUM_NEWPOST_NOTIFY','ï¿½Å±ï¿½ ï¿½ï¿½ï¿½ï¿½');
+define('_MI_NEWBB_FORUM_NEWPOST_NOTIFYCAP','ï¿½ï¿½ ï¿½ï¿½Ð¹æ¿¡ ï¿½Å±ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ö´ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.');
+define('_MI_NEWBB_FORUM_NEWPOST_NOTIFYDSC','ï¿½ï¿½ ï¿½ï¿½Ð¹æ¿¡ ï¿½Å±ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ö´ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ý´Ï´ï¿½.');
+define('_MI_NEWBB_FORUM_NEWPOST_NOTIFYSBJ','[{X_SITENAME}] {X_MODULE} auto-notify : ï¿½ï¿½Ð¹æ¿¡ ï¿½Å±ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ö¾ï¿½ï¿½ï¿½ï¿½Ï´ï¿½.');
 
-define ('_MI_NEWBB_GLOBAL_NEWFULLPOST_NOTIFY', '½Å±Ô Åõ°í (Åõ°í±Û Æ÷ÇÔ)');
-define ('_MI_NEWBB_GLOBAL_NEWFULLPOST_NOTIFYCAP', '½Å±Ô ÅäÇÈ ¶Ç´Â ´ä±ÛÀÌ Åõ°íµÈ °æ¿ì ÅëÁöÇÔ(Åõ°í±ÛÆ÷ÇÔ)');
-define ('_MI_NEWBB_GLOBAL_NEWFULLPOST_NOTIFYDSC', '½Å±Ô ÅäÇÈ ¶Ç´Â ´ä±ÛÀÌ Åõ°íµÈ °æ¿ì Åõ°í±Ûµµ Æ÷ÇÔÇØ¼­ ÅëÁöÇØ ÁÝ´Ï´Ù.');
-define ('_MI_NEWBB_GLOBAL_NEWFULLPOST_NOTIFYSBJ', '[{X_SITENAME}] {X_MODULE} auto-notify : ½Å±Ô Åõ°í°¡ ÀÖ¾ú½À´Ï´Ù. (Åõ°í±Û Æ÷ÇÔ)');
+define('_MI_NEWBB_GLOBAL_NEWFULLPOST_NOTIFY','ï¿½Å±ï¿½ ï¿½ï¿½ï¿½ï¿½ (ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½)');
+define('_MI_NEWBB_GLOBAL_NEWFULLPOST_NOTIFYCAP','ï¿½Å±ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ç´ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½(ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½)');
+define('_MI_NEWBB_GLOBAL_NEWFULLPOST_NOTIFYDSC','ï¿½Å±ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ç´ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ûµï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ø¼ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ý´Ï´ï¿½.');
+define('_MI_NEWBB_GLOBAL_NEWFULLPOST_NOTIFYSBJ','[{X_SITENAME}] {X_MODULE} auto-notify : ï¿½Å±ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ö¾ï¿½ï¿½ï¿½ï¿½Ï´ï¿½. (ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½)');
 
 ?>

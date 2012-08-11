@@ -12,12 +12,12 @@
 
 if (!defined('XOOPS_ROOT_PATH')) { exit(); }
 
-define('TAG_MB_ITEMS', 'Aantal om weer te geven');
-define('TAG_MB_FONTSIZE_MAX', "Maximum lettergrootte(%) om weer te geven");
-define('TAG_MB_FONTSIZE_MIN', "Minimum lettergrootte(%) om weer te geven");
-define('TAG_MB_TIME_DURATION', 'Tijdsduur voor de statistieken, in dagen');
-define('TAG_MB_SORT', 'Sorteercriteria');
-define('TAG_MB_ALPHABET', 'Alfabet');
-define('TAG_MB_COUNT', 'Aantal items');
-define('TAG_MB_TIME', 'Tijd');
+define('TAG_MB_ITEMS','Aantal om weer te geven');
+define('TAG_MB_FONTSIZE_MAX',"Maximum lettergrootte(%) om weer te geven");
+define('TAG_MB_FONTSIZE_MIN',"Minimum lettergrootte(%) om weer te geven");
+define('TAG_MB_TIME_DURATION','Tijdsduur voor de statistieken, in dagen');
+define('TAG_MB_SORT','Sorteercriteria');
+define('TAG_MB_ALPHABET','Alfabet');
+define('TAG_MB_COUNT','Aantal items');
+define('TAG_MB_TIME','Tijd');
 ?>

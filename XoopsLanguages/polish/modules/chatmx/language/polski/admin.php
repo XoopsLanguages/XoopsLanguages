@@ -1,6 +1,6 @@
 <?php
 //  ------------------------------------------------------------------------ //
-// Author:   Carlos Leopoldo Magaña Zavala                                   //
+// Author:   Carlos Leopoldo MagaÃ±a Zavala                                   //
 // Mail:     carloslmz@msn.com                                               //
 // URL:      http://www.xoopsmx.com & http://www.miguanajuato.com            //
 // Module:   ChatMX                                                          //
@@ -10,18 +10,18 @@
 
 // Admin pages
 define("_AM_CHAT_ADMIN","Ustawienia");
-define("_AM_CHAT_ELIGE","Wybierz opcjê:");
-define("_AM_CHAT_ADMI", "Administracja");
-define("_AM_CHAT_ADM2", "Chat Flash Admin");
-define("_AM_CHAT_ADM3", "Nick");
-define("_AM_CHAT_ADM4", "Has³o");
-define("_AM_CHAT_ADM5", "Wej¶cie");
-define("_AM_CHAT_ADUS", "Nie ma nikogo w tym pokoju");
-define("_AM_CHAT_ADEX", "Wyrzuæ");
-define("_AM_CHAT_ADIN", "Banuj");
-define("_AM_CHAT_ADNI", "Nie ma ¿adnych zbanowanych IP w tym pokoju");
-define("_AM_CHAT_ADPE", "Przepraszam");
-define("_AM_CHAT_ADIP", "Ustawienia zbanowanych IP");
-define("_AM_CHAT_ADII", "Czat nie u¿ywa IP wiêc nie mo¿e banowaæ IP");
-define("_AM_CHAT_ADAU", "Ustawienia u¿ytkowników");
+define("_AM_CHAT_ELIGE","Wybierz opcjÃª:");
+define("_AM_CHAT_ADMI","Administracja");
+define("_AM_CHAT_ADM2","Chat Flash Admin");
+define("_AM_CHAT_ADM3","Nick");
+define("_AM_CHAT_ADM4","HasÂ³o");
+define("_AM_CHAT_ADM5","WejÂ¶cie");
+define("_AM_CHAT_ADUS","Nie ma nikogo w tym pokoju");
+define("_AM_CHAT_ADEX","WyrzuÃ¦");
+define("_AM_CHAT_ADIN","Banuj");
+define("_AM_CHAT_ADNI","Nie ma Â¿adnych zbanowanych IP w tym pokoju");
+define("_AM_CHAT_ADPE","Przepraszam");
+define("_AM_CHAT_ADIP","Ustawienia zbanowanych IP");
+define("_AM_CHAT_ADII","Czat nie uÂ¿ywa IP wiÃªc nie moÂ¿e banowaÃ¦ IP");
+define("_AM_CHAT_ADAU","Ustawienia uÂ¿ytkownikÃ³w");
 ?>

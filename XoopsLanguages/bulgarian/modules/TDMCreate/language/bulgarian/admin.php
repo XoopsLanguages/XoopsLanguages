@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 /**
  * ****************************************************************************
  *  - TDMCreate By TDM   - TEAM DEV MODULE FOR XOOPS
@@ -37,8 +37,8 @@ define("_AM_TDMCREATE_TABLES_CHAMPS_MORE_REQUIRED","Form : Required field");
 //General
 define("_AM_TDMCREATE_FORMOK","Записано");
 define("_AM_TDMCREATE_FORMDELOK","Изтрито");
-define("_AM_TDMCREATE_FORMSUREDEL", "Сигурни ли сте, че искате да изтриете : <b><span style='color : Red'> %s </span></b>");
-define("_AM_TDMCREATE_FORMSURERENEW", "Сигурни ли сте, че искате да обоновите : <b><span style='color : Red'> %s </span></b>");
+define("_AM_TDMCREATE_FORMSUREDEL","Сигурни ли сте, че искате да изтриете : <b><span style='color : Red'> %s </span></b>");
+define("_AM_TDMCREATE_FORMSURERENEW","Сигурни ли сте, че искате да обоновите : <b><span style='color : Red'> %s </span></b>");
 define("_AM_TDMCREATE_FORMUPLOAD","Качване");
 define("_AM_TDMCREATE_FORMIMAGE_PATH","Файла се намира в %s");
 define("_AM_TDMCREATE_FORMACTION","Действие");
@@ -134,17 +134,17 @@ define("_AM_TDMCREATE_CONST_OK_COMS","Creation files for the coms");
 define("_AM_TDMCREATE_CONST_OK_INCLUDE_FUNCTIONS","Създаване на functions.php в папката include");
 define("_AM_TDMCREATE_CONST_OK_ADMIN_PERMISSIONS","Създаване на permissions.php в административната папка");
 //NOTOK
-define("_AM_TDMCREATE_CONST_NOTOK_ARCHITECTURE", "Проблеми с: Създаването на архитектурата на модула (файлове, index.html, икони...)");
-define("_AM_TDMCREATE_CONST_NOTOK_XOOPS_VERSION", "Проблеми с : Създаването на xoops_version.php");
-define("_AM_TDMCREATE_CONST_NOTOK_CLASS", "Проблеми с : Създаването на клас %s.php");
-define("_AM_TDMCREATE_CONST_NOTOK_CLASS_MENU", "Проблеми с : Създаването на клас menu.php");
-define("_AM_TDMCREATE_CONST_NOTOK_BLOCS", "Проблеми с : Създаването на блокове");
-define("_AM_TDMCREATE_CONST_NOTOK_SQL", "Проблеми с : Създаването на файла mysql.sql");
-define("_AM_TDMCREATE_CONST_NOTOK_ADMIN_HEADER", "Проблеми с : Създаването на admin_header.php");
-define("_AM_TDMCREATE_CONST_NOTOK_ADMIN_MENU", "Проблеми с : Създаването на menu.php");
-define("_AM_TDMCREATE_CONST_NOTOK_ADMIN_INDEX", "Проблеми с : Създаването на index.php");
-define("_AM_TDMCREATE_CONST_NOTOK_ADMIN_PAGES", "Проблеми с : Създаването на %s.php");
-define("_AM_TDMCREATE_CONST_NOTOK_ADMIN_ABOUT", "Проблеми с : Създаването на about.php");
+define("_AM_TDMCREATE_CONST_NOTOK_ARCHITECTURE","Проблеми с: Създаването на архитектурата на модула (файлове, index.html, икони...)");
+define("_AM_TDMCREATE_CONST_NOTOK_XOOPS_VERSION","Проблеми с : Създаването на xoops_version.php");
+define("_AM_TDMCREATE_CONST_NOTOK_CLASS","Проблеми с : Създаването на клас %s.php");
+define("_AM_TDMCREATE_CONST_NOTOK_CLASS_MENU","Проблеми с : Създаването на клас menu.php");
+define("_AM_TDMCREATE_CONST_NOTOK_BLOCS","Проблеми с : Създаването на блокове");
+define("_AM_TDMCREATE_CONST_NOTOK_SQL","Проблеми с : Създаването на файла mysql.sql");
+define("_AM_TDMCREATE_CONST_NOTOK_ADMIN_HEADER","Проблеми с : Създаването на admin_header.php");
+define("_AM_TDMCREATE_CONST_NOTOK_ADMIN_MENU","Проблеми с : Създаването на menu.php");
+define("_AM_TDMCREATE_CONST_NOTOK_ADMIN_INDEX","Проблеми с : Създаването на index.php");
+define("_AM_TDMCREATE_CONST_NOTOK_ADMIN_PAGES","Проблеми с : Създаването на %s.php");
+define("_AM_TDMCREATE_CONST_NOTOK_ADMIN_ABOUT","Проблеми с : Създаването на about.php");
 define("_AM_TDMCREATE_CONST_NOTOK_ADMIN_LANGUAGE","Проблеми с : Създаването на admin.php");
 define("_AM_TDMCREATE_CONST_NOTOK_BLOCS_LANGUAGE","Проблеми с : Създаването на blocks.php");
 define("_AM_TDMCREATE_CONST_NOTOK_BLOCS_TEMPLATE","Проблеми с : Създаването на blocks.html");

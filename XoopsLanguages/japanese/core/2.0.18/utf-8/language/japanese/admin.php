@@ -10,6 +10,6 @@ define('_AD_NICKNAME','ユーザ名');
 define('_AD_EMAIL','メールアドレス');
 define('_AD_AVATAR','アバター');
 define('_AD_REGISTERED','登録日');
-define('_AD_PRESSGEN', 'インストール後初めて管理画面を開きます。下のボタンをクリックすると続行します。');
-define('_AD_LOGINADMIN', '管理画面へログイン中..');
+define('_AD_PRESSGEN','インストール後初めて管理画面を開きます。下のボタンをクリックすると続行します。');
+define('_AD_LOGINADMIN','管理画面へログイン中..');
 ?>

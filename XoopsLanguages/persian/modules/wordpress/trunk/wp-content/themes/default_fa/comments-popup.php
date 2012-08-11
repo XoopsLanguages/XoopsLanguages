@@ -1,6 +1,6 @@
 <?php
 /* Don't remove these lines. */
-add_filter('comment_text', 'popuplinks');
+add_filter('comment_text','popuplinks');
 while ( have_posts()) : the_post();
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">

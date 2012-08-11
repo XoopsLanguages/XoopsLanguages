@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 // $Id: pmsg.php 2 2005-11-02 18:23:29Z skalpa $
 //%%%%%%	File Name readpmsg.php 	%%%%%
 define("_PM_DELETED"," حذف کردیا گیا (s) آپکا پیغام");
@@ -37,8 +37,8 @@ define("_PM_DATE","تاریخ");
 define("_PM_NOTREAD","پڑھا نہیں گیا");
 define("_PM_SEND","بھیجیں");
 define("_PM_DELETE","حذف کریں");
-define("_PM_REPLY", "جواب");
+define("_PM_REPLY","جواب");
 define("_PM_PLZREG","براۓ مہربانی شخصی پیغام بھیجنے کیلۓ پہلے رجسٹر کریں");
 
-define("_PM_ONLINE", "آن لیں");
+define("_PM_ONLINE","آن لیں");
 ?>

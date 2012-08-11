@@ -10,9 +10,9 @@
 //Last translation update: 20/02/2011
 
 // Navigation
-define("_AM_SYSTEM_MODULES_ADMIN", "Gestione Moduli");
-define("_AM_SYSTEM_MODULES_LIST", "Elenco moduli");
-define("_AM_SYSTEM_MODULES_TOINSTALL", "Installazione modulo");
+define("_AM_SYSTEM_MODULES_ADMIN","Gestione Moduli");
+define("_AM_SYSTEM_MODULES_LIST","Elenco moduli");
+define("_AM_SYSTEM_MODULES_TOINSTALL","Installazione modulo");
 define("_AM_SYSTEM_MODULES_VALIDATE","Conferma modifiche");
 define("_AM_SYSTEM_MODULES_SUBMITRES","Invio risultati");
 
@@ -91,7 +91,7 @@ define("_AM_SYSTEM_MODULES_MODULEID"," ID Modulo: %s");
 define("_AM_SYSTEM_MODULES_SQL_FOUND","File SQL rilevato in %s ");
 define("_AM_SYSTEM_MODULES_SQL_NOT_FOUND","File SQL non rilevato in %s");
 define("_AM_SYSTEM_MODULES_SQL_NOT_CREATE","ERRORE: Impossibile creare %s ");
-define("_AM_SYSTEM_MODULES_SQL_NOT_VALID","%s non è SQL valido!");
+define("_AM_SYSTEM_MODULES_SQL_NOT_VALID","%s non Ã¨ SQL valido!");
 define("_AM_SYSTEM_MODULES_GROUP_ID"," ID Gruppo: %s ");
 define("_AM_SYSTEM_MODULES_NAME"," Nome: ");
 define("_AM_SYSTEM_MODULES_VALUE"," Valore: ");
@@ -168,7 +168,7 @@ define("_AM_SYSTEM_MODULES_NOTIFICATIONS_DELETE_ERROR","ERRORE: Impossibile elim
 define("_AM_SYSTEM_MODULES_NOTIFICATIONS_DELETED","Notifiche eliminate");
 define("_AM_SYSTEM_MODULES_TABLE_DROPPED","Tabella %s eliminata!");
 define("_AM_SYSTEM_MODULES_TABLE_DROPPED_ERROR","ERRORE: Impossibile eliminare la tabella %s");
-define("_AM_SYSTEM_MODULES_TABLE_DROPPED_FAILDED", "ERRORE: Non autorizzato a eliminare la tabella %s !");
+define("_AM_SYSTEM_MODULES_TABLE_DROPPED_FAILDED","ERRORE: Non autorizzato a eliminare la tabella %s !");
 
 // Tips
 define("_AM_SYSTEM_MODULES_TIPS", 

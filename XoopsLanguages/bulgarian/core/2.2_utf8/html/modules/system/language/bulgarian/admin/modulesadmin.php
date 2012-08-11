@@ -43,7 +43,7 @@ define("_MD_AM_FAILUNINS","Невъзможно де-инсталиране на
 define("_MD_AM_FAILORDER","Невъзможно пренареждане %s.");
 define("_MD_AM_FAILWRITE","Невъзможен запис в главното меню.");
 define("_MD_AM_ALEXISTS","Модула %s вече го има.");
-define("_MD_AM_ERRORSC", "Грешка(и):");
+define("_MD_AM_ERRORSC","Грешка(и):");
 define("_MD_AM_OKINS","Модула %s е инсталиран успешно.");
 define("_MD_AM_OKACT","Модула %s е активиран успешно.");
 define("_MD_AM_OKDEACT","Модула %s е деактивиран успешно.");
@@ -51,14 +51,14 @@ define("_MD_AM_OKUPD","Модула %s е обновен успешно.");
 define("_MD_AM_OKUNINS","Модула %s е де-инсталиран успешно.");
 define("_MD_AM_OKORDER","Модула %s е сменен успешно.");
 
-define('_MD_AM_RUSUREINS', 'Натиснете бутона за да инсталирате този модул');
-define('_MD_AM_RUSUREUPD', 'Натиснете бутона за да обновите този модул');
-define('_MD_AM_RUSUREUNINS', 'Сигурен ли сте, че искате да деинсталирате модула?');
-define('_MD_AM_LISTUPBLKS', 'Следните блокове ще бъдат обновени.<br />Изберете блоковете които ще бъдат обновени.<br />');
-define('_MD_AM_NEWBLKS', 'Нови блокове');
-define('_MD_AM_DEPREBLKS', 'Неизползваеми блокове');
+define('_MD_AM_RUSUREINS','Натиснете бутона за да инсталирате този модул');
+define('_MD_AM_RUSUREUPD','Натиснете бутона за да обновите този модул');
+define('_MD_AM_RUSUREUNINS','Сигурен ли сте, че искате да деинсталирате модула?');
+define('_MD_AM_LISTUPBLKS','Следните блокове ще бъдат обновени.<br />Изберете блоковете които ще бъдат обновени.<br />');
+define('_MD_AM_NEWBLKS','Нови блокове');
+define('_MD_AM_DEPREBLKS','Неизползваеми блокове');
 
 // added in 2.2
-define("_MD_AM_SELECT_ADMINS", "Изберете групи с админ. права");
-define("_MD_AM_SELECT_ACCESS", "Изберете групи с права за достъп");
+define("_MD_AM_SELECT_ADMINS","Изберете групи с админ. права");
+define("_MD_AM_SELECT_ACCESS","Изберете групи с права за достъп");
 ?>

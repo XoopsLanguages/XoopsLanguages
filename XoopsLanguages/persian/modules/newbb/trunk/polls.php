@@ -58,10 +58,10 @@ if (!is_object($xoopspoll) || !$xoopspoll->getVar('isactive')) {
 
 include XOOPS_ROOT_PATH."/header.php";
 
-$topic_handler =& xoops_getmodulehandler('topic', 'newbb');
+$topic_handler =& xoops_getmodulehandler('topic','newbb');
 $topic_obj =& $topic_handler->get($topic_id);
 $forum = $topic_obj->getVar('forum_id');
-$forum_handler =& xoops_getmodulehandler('forum', 'newbb');
+$forum_handler =& xoops_getmodulehandler('forum','newbb');
 $forum_obj =& $forum_handler->get($forum);
 if (!$forum_handler->getPermission($forum_obj)) {
     redirect_header("index.php", 2, _MD_NORIGHTTOACCESS);
@@ -436,7 +436,7 @@ if ( $op == "delete" ) {
 	//include XOOPS_ROOT_PATH."/header.php";
 	echo "<h4>"._MD_POLL_POLLCONF."</h4>";
 	$poll = new XoopsPoll($_GET['poll_id']);
-	xoops_confirm(array('op' => 'delete_ok', 'topic_id' => $topic_id, 'poll_id' => $poll->getVar('poll_id')), 'polls.php', sprintf(_MD_POLL_RUSUREDEL,$poll->getVar("question")));
+	xoops_confirm(array('op' => 'delete_ok','topic_id' => $topic_id, 'poll_id' => $poll->getVar('poll_id')), 'polls.php', sprintf(_MD_POLL_RUSUREDEL,$poll->getVar("question")));
 	//include XOOPS_ROOT_PATH."/footer.php";
 	//exit();
 }

@@ -21,7 +21,7 @@
 /**
  * Localized fonts 
  */
-$GLOBALS["formtextdhtml_fonts"] = array("Arial", "Courier", "Georgia", "Helvetica", "Impact", "Verdana", "Haettenschweiler");
+$GLOBALS["formtextdhtml_fonts"] = array("Arial","Courier","Georgia","Helvetica","Impact","Verdana","Haettenschweiler");
 
 /**
  * Localized font sizes: "font size value" => "font size name"
@@ -36,40 +36,40 @@ $GLOBALS["formtextdhtml_sizes"] = array(
     "xx-large"  => "xx-Large",
     );
 
-define("_XOOPS_FORM_ALT_URL", "URL");
-define("_XOOPS_FORM_ALT_EMAIL", "¸ÞÀÏ");
-define("_XOOPS_FORM_ALT_IMG", "±×¸²ÆÄÀÏ");
-define("_XOOPS_FORM_ALT_IMAGE", "Inside images");
-define("_XOOPS_FORM_ALT_SMILEY", "¾ó±¼¾ÆÀÌÄÜ");
-define("_XOOPS_FORM_ALT_CODE", "¼Ò½ºÄÚµå");
-define("_XOOPS_FORM_ALT_QUOTE", "ÀÎ¿ë");
-define("_XOOPS_FORM_ALT_BOLD", "ÁøÇÏ°Ô");
-define("_XOOPS_FORM_ALT_ITALIC", "ÀÌÅÅ¸¯");
-define("_XOOPS_FORM_ALT_UNDERLINE", "¹ØÁÙ");
-define("_XOOPS_FORM_ALT_LINETHROUGH", "°¡¿îµ¥ÁÙ");
-define("_XOOPS_FORM_ALT_ENTERHEIGHT", "³ôÀÌ:");
-define("_XOOPS_FORM_ALT_ENTERWIDTH", "Æø:");
-define("_XOOPS_FORM_ALT_LEFT", "¿ÞÂÊ");
-define("_XOOPS_FORM_ALT_RIGHT", "¿À¸¥ÂÊ");
-define("_XOOPS_FORM_ALT_CENTER", "Áß¾Ó");
-define("_XOOPS_FORM_ALTFLASH", "Flash");
-define("_XOOPS_FORM_ALTMMS", "MMS");
-define("_XOOPS_FORM_ALTRTSP", "Real Player");
-define("_XOOPS_FORM_ALTIFRAME", "IFRAME");
-define("_XOOPS_FORM_ALTWIKI", "WIKI ¸µÅ©");
-define("_XOOPS_FORM_ENTERIFRAMEURL", "IFRAME URL:");
-define("_XOOPS_FORM_ENTERMMSURL", "RMMS URL:");
-define("_XOOPS_FORM_ENTERWMPURL", "WMP URL:");
-define("_XOOPS_FORM_ENTERFLASHURL", "FLASH URL:");
-define("_XOOPS_FORM_ENTERYOUTUBEURL", "Youtube URL:");
-define("_XOOPS_FORM_ENTERRTSPURL", "RTSP URL:");
-define("_XOOPS_FORM_ENTERWIKITERM", "Wiki¿¡ ¿¬°áµÇ¾îÁú ´Ü¾î:");
-define("_XOOPS_FORM_ALTMP3", "MP3");
-define("_XOOPS_FORM_ENTERMP3URL", "MP3 URL");
+define("_XOOPS_FORM_ALT_URL","URL");
+define("_XOOPS_FORM_ALT_EMAIL","ï¿½ï¿½ï¿½ï¿½");
+define("_XOOPS_FORM_ALT_IMG","ï¿½×¸ï¿½ï¿½ï¿½ï¿½ï¿½");
+define("_XOOPS_FORM_ALT_IMAGE","Inside images");
+define("_XOOPS_FORM_ALT_SMILEY","ï¿½ó±¼¾ï¿½ï¿½ï¿½ï¿½ï¿½");
+define("_XOOPS_FORM_ALT_CODE","ï¿½Ò½ï¿½ï¿½Úµï¿½");
+define("_XOOPS_FORM_ALT_QUOTE","ï¿½Î¿ï¿½");
+define("_XOOPS_FORM_ALT_BOLD","ï¿½ï¿½ï¿½Ï°ï¿½");
+define("_XOOPS_FORM_ALT_ITALIC","ï¿½ï¿½ï¿½Å¸ï¿½");
+define("_XOOPS_FORM_ALT_UNDERLINE","ï¿½ï¿½ï¿½ï¿½");
+define("_XOOPS_FORM_ALT_LINETHROUGH","ï¿½ï¿½ï¿½îµ¥ï¿½ï¿½");
+define("_XOOPS_FORM_ALT_ENTERHEIGHT","ï¿½ï¿½ï¿½ï¿½:");
+define("_XOOPS_FORM_ALT_ENTERWIDTH","ï¿½ï¿½:");
+define("_XOOPS_FORM_ALT_LEFT","ï¿½ï¿½ï¿½ï¿½");
+define("_XOOPS_FORM_ALT_RIGHT","ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
+define("_XOOPS_FORM_ALT_CENTER","ï¿½ß¾ï¿½");
+define("_XOOPS_FORM_ALTFLASH","Flash");
+define("_XOOPS_FORM_ALTMMS","MMS");
+define("_XOOPS_FORM_ALTRTSP","Real Player");
+define("_XOOPS_FORM_ALTIFRAME","IFRAME");
+define("_XOOPS_FORM_ALTWIKI","WIKI ï¿½ï¿½Å©");
+define("_XOOPS_FORM_ENTERIFRAMEURL","IFRAME URL:");
+define("_XOOPS_FORM_ENTERMMSURL","RMMS URL:");
+define("_XOOPS_FORM_ENTERWMPURL","WMP URL:");
+define("_XOOPS_FORM_ENTERFLASHURL","FLASH URL:");
+define("_XOOPS_FORM_ENTERYOUTUBEURL","Youtube URL:");
+define("_XOOPS_FORM_ENTERRTSPURL","RTSP URL:");
+define("_XOOPS_FORM_ENTERWIKITERM","Wikiï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ç¾ï¿½ï¿½ï¿½ ï¿½Ü¾ï¿½:");
+define("_XOOPS_FORM_ALTMP3","MP3");
+define("_XOOPS_FORM_ENTERMP3URL","MP3 URL");
 
-define("_XOOPS_FORM_ALT_CHECKLENGTH", "±Û ±æÀÌ Ã¼Å©");
-define("_XOOPS_FORM_ALT_LENGTH", "ÇöÀçÀÇ ±æÀÌ: %s");
-define("_XOOPS_FORM_ALT_LENGTH_MAX", "ÃÖ´ë±æÀÌ: ");
+define("_XOOPS_FORM_ALT_CHECKLENGTH","ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ Ã¼Å©");
+define("_XOOPS_FORM_ALT_LENGTH","ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½: %s");
+define("_XOOPS_FORM_ALT_LENGTH_MAX","ï¿½Ö´ï¿½ï¿½ï¿½ï¿½: ");
 
-define("_XOOPS_FORM_PREVIEW_CONTENT", "½ÇÁ¦·Î ¾î¶»°Ô Ç¥½ÃµÇ¾îÁö´ÂÁö È®ÀÎÇØ º¸½Ã·Á¸é <strong>" . _PREVIEW . "</strong>À» Å¬¸¯ÇÏ¼Å¿ä!");
+define("_XOOPS_FORM_PREVIEW_CONTENT","ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½î¶»ï¿½ï¿½ Ç¥ï¿½ÃµÇ¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ È®ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ã·ï¿½ï¿½ï¿½ <strong>" . _PREVIEW . "</strong>ï¿½ï¿½ Å¬ï¿½ï¿½ï¿½Ï¼Å¿ï¿½!");
 ?>

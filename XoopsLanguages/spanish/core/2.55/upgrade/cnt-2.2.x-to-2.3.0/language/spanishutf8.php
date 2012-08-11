@@ -4,7 +4,7 @@
 // _CHARSET : UTF-8
 // Translator: XOOPS Translation Team
 
-define( '_CONFIRM_UPGRADE_220', '
+define('_CONFIRM_UPGRADE_220','
 Los scripts de actualización migraran los datos existentes del módulo "profile".<br />
 Favor no desinstalar el módulo "profile" manualmente, de otra manera los datos correspondientes no se migrarán.<br /><br />
 Una vez que el proceso de actualización esté completo <stong>valla a la administración de módulos para actualizar el módulo 'profile'</strong>, by which profile data will be migrated completely.<br /><br />

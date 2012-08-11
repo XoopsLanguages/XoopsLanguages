@@ -12,17 +12,17 @@ define("_PROFILE_AM_STEP",				"Schritt weiter");
 define("_PROFILE_AM_SAVEDSUCCESS",		"%s erfolgreich gespeichert");
 define("_PROFILE_AM_DELETEDSUCCESS",	"%s erfolgreich gelöscht");
 define("_PROFILE_AM_RUSUREDEL",			"Wollen Sie %s wirklich löschen?");
-define("_PROFILE_AM_FIELDNOTCONFIGURABLE", "Dieses Feld ist nicht einstellbar.");
+define("_PROFILE_AM_FIELDNOTCONFIGURABLE","Dieses Feld ist nicht einstellbar.");
 
 define("_PROFILE_AM_ADD",		"Hinzufügen");
 define("_PROFILE_AM_EDIT",		"Bearbeiten");
 define("_PROFILE_AM_TYPE",		"Feldtyp");
-define("_PROFILE_AM_VALUETYPE", "Werttyp");
+define("_PROFILE_AM_VALUETYPE","Werttyp");
 define("_PROFILE_AM_NAME",		"Name");
 define("_PROFILE_AM_TITLE",		"Titel");
 define("_PROFILE_AM_DESCRIPTION","Beschreibung");
 define("_PROFILE_AM_REQUIRED",	"Erforderlich?");
-define("_PROFILE_AM_MAXLENGTH", "Maximale Länge");
+define("_PROFILE_AM_MAXLENGTH","Maximale Länge");
 define("_PROFILE_AM_WEIGHT",	"Position");
 define("_PROFILE_AM_DEFAULT",	"Vorgabe");
 define("_PROFILE_AM_NOTNULL",	"Nicht Null?");
@@ -91,7 +91,7 @@ define("_PROFILE_MA_INACTIVE",		"Inaktiv");
 define("_PROFILE_AM_USERCREATED",   "User erstellt");
 
 define("_PROFILE_AM_CANNOTDELETESELF",	"Das Löschen Ihres eigenen Accounts ist nicht erlaubt - benutzen Sie Ihre Profilseite, um Ihren eigenen Account zu löschen");
-define("_PROFILE_AM_CANNOTDELETEADMIN", "Das Löschen eines Administratorkontos ist nicht erlaubt.");
+define("_PROFILE_AM_CANNOTDELETEADMIN","Das Löschen eines Administratorkontos ist nicht erlaubt.");
 
 define("_PROFILE_AM_NOSELECTION",			"Kein User Ausgewählt");
 define("_PROFILE_AM_USER_ACTIVATED",		"User aktivieren");

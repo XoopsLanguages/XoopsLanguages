@@ -39,7 +39,7 @@ define("_AM_PHP","PHP Script");
 define("_AM_AFWSMILE","فرمت خودکار (لبخندک‌ها فعال)");
 define("_AM_AFNOSMILE","فرمت خودکار (لبخندکها غیر فعال)");
 define("_AM_SUBMIT","ارسال");
-define("_AM_CUSTOMHTML", "بلاک دست‌نویس (HTML)");
+define("_AM_CUSTOMHTML","بلاک دست‌نویس (HTML)");
 define("_AM_CUSTOMPHP","بلاک دست‌نویس (PHP)");
 define("_AM_CUSTOMSMILE","بلاک دست‌نویس (فرمت خودکار + لبخندک)");
 define("_AM_CUSTOMNOSMILE","بلاک دست‌نویس (فرمت خودکار)");
@@ -52,24 +52,24 @@ define("_AM_RUSUREDEL","آیا مطمئنید که می‌خواهید بلاک 
 define("_AM_NAME","نام");
 define("_AM_USEFULTAGS","کد‌های قابل استفاده:");
 define("_AM_BLOCKTAG1","%s به صورت %s در بلاک نمایش داده خواهد شد");
-define('_AM_SVISIBLEIN', 'بلاک‌های قابل دیدن در %s را نشان بده. ');
-define('_AM_TOPPAGE', 'صفحه‌ی اصلی (Top page)');
-define('_AM_VISIBLEIN', 'قابل دیدن در');
-define('_AM_ALLPAGES', 'همه‌ی صفحات');
-define('_AM_TOPONLY', 'فقط صفحه‌ی اصلی (Top Page)');
-define('_AM_ADVANCED', 'تنظیمات پیشرفته');
-define('_AM_BCACHETIME', 'زمان کش (Cache)');
-define('_AM_BALIAS', 'نام مستعار (Alias)');
-define('_AM_CLONE', 'کپی برداری');  // clone a block
-define('_AM_CLONEBLK', 'بلاک کپی شده (cloned)'); // cloned block
-define('_AM_CLONEBLOCK', 'ساختن یک کپی (Clone) از بلاک');
-define('_AM_NOTSELNG', "'%s' انتخاب نشده است"); // error message
-define('_AM_EDITTPL', 'ویرایش تمپلیت');
-define('_AM_MODULE', 'ماژول');
-define('_AM_GROUP', 'گروه');
-define('_AM_UNASSIGNED', 'واگذار نشده (Unassigned)');
+define('_AM_SVISIBLEIN','بلاک‌های قابل دیدن در %s را نشان بده. ');
+define('_AM_TOPPAGE','صفحه‌ی اصلی (Top page)');
+define('_AM_VISIBLEIN','قابل دیدن در');
+define('_AM_ALLPAGES','همه‌ی صفحات');
+define('_AM_TOPONLY','فقط صفحه‌ی اصلی (Top Page)');
+define('_AM_ADVANCED','تنظیمات پیشرفته');
+define('_AM_BCACHETIME','زمان کش (Cache)');
+define('_AM_BALIAS','نام مستعار (Alias)');
+define('_AM_CLONE','کپی برداری');  // clone a block
+define('_AM_CLONEBLK','بلاک کپی شده (cloned)'); // cloned block
+define('_AM_CLONEBLOCK','ساختن یک کپی (Clone) از بلاک');
+define('_AM_NOTSELNG',"'%s' انتخاب نشده است"); // error message
+define('_AM_EDITTPL','ویرایش تمپلیت');
+define('_AM_MODULE','ماژول');
+define('_AM_GROUP','گروه');
+define('_AM_UNASSIGNED','واگذار نشده (Unassigned)');
 
 define("_AM_CUSTOM","بلاک دست ساز");
-define('_AM_GENERATOR', 'بلاک‌های ساخته شده به وسیله %s');
-define('_AM_TYPES', 'همه‌ی انواع');
+define('_AM_GENERATOR','بلاک‌های ساخته شده به وسیله %s');
+define('_AM_TYPES','همه‌ی انواع');
 ?>

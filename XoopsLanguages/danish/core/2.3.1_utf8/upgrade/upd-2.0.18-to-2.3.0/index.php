@@ -28,7 +28,7 @@ include_once dirname(__FILE__) . "/pathcontroller.php";
 class upgrade_230 extends xoopsUpgrade
 {
     var $usedFiles = array( 'mainfile.php' );
-    var $tasks = array('config', 'cache', 'path', 'db', 'bmlink');
+    var $tasks = array('config','cache','path','db','bmlink');
 
     function upgrade_230()
     {
@@ -41,7 +41,7 @@ class upgrade_230 extends xoopsUpgrade
      */
     function check_config()
     {
-        $sql = "SELECT COUNT(*) FROM `" . $GLOBALS['xoopsDB']->prefix('config') . "` WHERE `conf_name` IN ('welcome_type', 'cpanel')";
+        $sql = "SELECT COUNT(*) FROM `" . $GLOBALS['xoopsDB']->prefix('config') . "` WHERE `conf_name` IN ('welcome_type','cpanel')";
         if ( !$result = $GLOBALS['xoopsDB']->queryF( $sql ) ) {
             return false;
         }
@@ -101,7 +101,7 @@ class upgrade_230 extends xoopsUpgrade
             if ($row['Key_name'] == 'PRIMARY') {
                 $primary_add = false;
             }
-            if ( in_array($row['Key_name'], array('block_id', 'module_id')) ) {
+            if ( in_array($row['Key_name'], array('block_id','module_id')) ) {
                 $keys_drop[] = $row['Key_name'];
             }
         }
@@ -123,7 +123,7 @@ class upgrade_230 extends xoopsUpgrade
             $sql = "INSERT INTO " . $GLOBALS['xoopsDB']->prefix('config') . 
                     " (conf_id, conf_modid, conf_catid, conf_name, conf_title, conf_value, conf_desc, conf_formtype, conf_valuetype, conf_order) " .
                     " VALUES " .
-                    " (NULL, 0, 1, 'cpanel', '_MD_AM_CPANEL', 'default', '_MD_AM_CPANELDSC', 'cpanel', 'other', 11)";
+                    " (NULL, 0, 1, 'cpanel','_MD_AM_CPANEL','default','_MD_AM_CPANELDSC','cpanel','other', 11)";
 
             $result *= $GLOBALS['xoopsDB']->queryF( $sql );
         }
@@ -140,7 +140,7 @@ class upgrade_230 extends xoopsUpgrade
             $sql = "INSERT INTO " . $GLOBALS['xoopsDB']->prefix('config') . 
                     " (conf_id, conf_modid, conf_catid, conf_name, conf_title, conf_value, conf_desc, conf_formtype, conf_valuetype, conf_order) " .
                     " VALUES " .
-                    " (NULL, 0, 2, 'welcome_type', '_MD_AM_WELCOMETYPE', '1', '_MD_AM_WELCOMETYPE_DESC', 'select', 'int', 3)";
+                    " (NULL, 0, 2, 'welcome_type','_MD_AM_WELCOMETYPE','1','_MD_AM_WELCOMETYPE_DESC','select','int', 3)";
 
             if (!$GLOBALS['xoopsDB']->queryF( $sql )) {
                 return false;
@@ -150,10 +150,10 @@ class upgrade_230 extends xoopsUpgrade
             $sql = "INSERT INTO " . $GLOBALS['xoopsDB']->prefix('configoption') . 
                     " (confop_id, confop_name, confop_value, conf_id)" .
                     " VALUES" .
-                    " (NULL, '_NO', '0', {$config_id})," .
-                    " (NULL, '_MD_AM_WELCOMETYPE_EMAIL', '1', {$config_id})," .
-                    " (NULL, '_MD_AM_WELCOMETYPE_PM', '2', {$config_id})," .
-                    " (NULL, '_MD_AM_WELCOMETYPE_BOTH', '3', {$config_id})";
+                    " (NULL, '_NO','0', {$config_id})," .
+                    " (NULL, '_MD_AM_WELCOMETYPE_EMAIL','1', {$config_id})," .
+                    " (NULL, '_MD_AM_WELCOMETYPE_PM','2', {$config_id})," .
+                    " (NULL, '_MD_AM_WELCOMETYPE_BOTH','3', {$config_id})";
             if ( !$result = $GLOBALS['xoopsDB']->queryF( $sql ) ) {
                 return false;
             }
@@ -267,8 +267,8 @@ class upgrade_230 extends xoopsUpgrade
     					if ( preg_match('/(enum)|(set)/', $result['Type']) ) {
     						$binary_querys[] = "ALTER TABLE `$table` MODIFY `" . $result['Field'] . '` ' . $result['Type'] . ' CHARACTER SET binary ' . ( ( (!empty($result['Default'])) || ($result['Default'] === '0') || ($result['Default'] === 0) ) ? "DEFAULT '". $result['Default'] ."' " : '' ) . ( 'YES' == $result['Null'] ? '' : 'NOT ' ) . 'NULL';
     					} else {
-    						$result['Type'] = preg_replace('/char/', 'binary', $result['Type']);
-    						$result['Type'] = preg_replace('/text/', 'blob', $result['Type']);
+    						$result['Type'] = preg_replace('/char/','binary', $result['Type']);
+    						$result['Type'] = preg_replace('/text/','blob', $result['Type']);
     						$binary_querys[] = "ALTER TABLE `$table` MODIFY `" . $result['Field'] . '` ' . $result['Type'] . ' ' . ( ( (!empty($result['Default'])) || ($result['Default'] === '0') || ($result['Default'] === 0) ) ? "DEFAULT '". $result['Default'] ."' " : '' ) . ( 'YES' == $result['Null'] ? '' : 'NOT ' ) . 'NULL';
     					}
     				}
@@ -289,7 +289,7 @@ class upgrade_230 extends xoopsUpgrade
     					$tmp_gen_index_query = "ALTER TABLE `$table` ADD FULLTEXT `$key_name`(";
     					$fields_names = array_keys($column);
     					for ($i = 1; $i <= count($column); $i++)
-    						$tmp_gen_index_query .= $fields_names[$i - 1] . (($i == count($column)) ? '' : ', ');
+    						$tmp_gen_index_query .= $fields_names[$i - 1] . (($i == count($column)) ? '' : ',');
     					$gen_index_querys[] = $tmp_gen_index_query . ')';
     				}
     			}
@@ -333,7 +333,7 @@ class upgrade_230 extends xoopsUpgrade
                             : "0"
                           );
                 $lines[$ln] = preg_replace( "/(define\()([\"'])(XOOPS_[^\"']+)\\2,\s*([0-9]+)\s*\)/", 
-                    "define( '" . $matches[3] . "', " . $val . " )", 
+                    "define('" . $matches[3] . "', " . $val . " )", 
                     $lines[$ln] );
             } elseif( preg_match( "/(define\()([\"'])(XOOPS_[^\"']+)\\2,\s*([\"'])([^\"']*?)\\4\s*\)/", $lines[$ln], $matches ) ) {
                 $val = isset( $vars[$matches[3]] )
@@ -343,12 +343,12 @@ class upgrade_230 extends xoopsUpgrade
                             : ""
                           );
                 $lines[$ln] = preg_replace( "/(define\()([\"'])(XOOPS_[^\"']+)\\2,\s*([\"'])(.*?)\\4\s*\)/",
-                    "define( '" . $matches[3] . "', '" . $val . "' )", 
+                    "define('" . $matches[3] . "','" . $val . "' )", 
                     $lines[$ln] );
             }
         }
         
-        $fp = fopen( XOOPS_ROOT_PATH . '/mainfile.php', 'wt' );
+        $fp = fopen( XOOPS_ROOT_PATH . '/mainfile.php','wt' );
         if ( !$fp ) {
             echo ERR_COULD_NOT_WRITE_MAINFILE;
             echo "<pre style='border: 1px solid black; width: 80%; overflow: auto;'><div style='color: #ff0000; font-weight: bold;'><div>" . implode("</div><div>", array_map("htmlspecialchars", $lines)) . "</div></div></pre>";

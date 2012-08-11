@@ -13,8 +13,8 @@
  * @package         Frameworks
  * @subpackage      transfer
  */
-define("_MD_TRANSFER", "Programski halat");
-define("_MD_TRANSFER_DESC", "Proslijedi prema drugim aplikacijama");
-define("_MD_TRANSFER_DONE", "Operacija je uspjela");
-define("_MD_TRANSFER_MORE", "Vi&scaron;e opcija");
+define("_MD_TRANSFER","Programski halat");
+define("_MD_TRANSFER_DESC","Proslijedi prema drugim aplikacijama");
+define("_MD_TRANSFER_DONE","Operacija je uspjela");
+define("_MD_TRANSFER_MORE","Vi&scaron;e opcija");
 ?>

@@ -13,7 +13,7 @@ function smarty_resource_db_source($tpl_name, &$tpl_source, &$smarty) {
 		return false;
 	}
 	if ( is_object( $tpl ) ) {
-		$tpl_source = $tpl->getVar( 'tpl_source', 'n' );
+		$tpl_source = $tpl->getVar( 'tpl_source','n' );
 	} else {
 		$fp = fopen( $tpl, 'r' );
 		$tpl_source = fread( $fp, filesize( $tpl ) );
@@ -27,7 +27,7 @@ function smarty_resource_db_timestamp($tpl_name, &$tpl_timestamp, &$smarty) {
 		return false;
 	}
 	if ( is_object( $tpl ) ) {
-		$tpl_timestamp = $tpl->getVar( 'tpl_lastmodified', 'n' );
+		$tpl_timestamp = $tpl->getVar( 'tpl_lastmodified','n' );
 	} else {
 		$tpl_timestamp = filemtime( $tpl );
 	}
@@ -70,8 +70,8 @@ function smarty_resource_db_tplinfo( $tpl_name ) {
 		return $cache[$tpl_name] = false;
 	}
 	$tplobj = $tplobj[0];
-	$module = $tplobj->getVar( 'tpl_module', 'n' );
-	$type = $tplobj->getVar( 'tpl_type', 'n' );
+	$module = $tplobj->getVar( 'tpl_module','n' );
+	$type = $tplobj->getVar( 'tpl_type','n' );
 	$blockpath = ( $type == 'block' ) ? 'blocks/' : '';
 	// First, check for an overloaded version within the theme folder
 	$filepath = XOOPS_THEME_PATH . "/$theme/modules/$module/$blockpath$tpl_name";

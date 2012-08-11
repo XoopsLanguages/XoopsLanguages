@@ -8,7 +8,7 @@ define("_AM_NEWBB_REORDERFORUM","Neu ordnen");
 define("_AM_NEWBB_FORUM_MANAGER","Foren");
 define("_AM_NEWBB_PRUNE_TITLE","Aufräumen");
 define("_AM_NEWBB_CATADMIN","Kategorien");
-define("_AM_NEWBB_GENERALSET", "Moduleinstellungen" );
+define("_AM_NEWBB_GENERALSET","Moduleinstellungen" );
 define("_AM_NEWBB_MODULEADMIN","Moduladministration:");
 define("_AM_NEWBB_HELP","Hilfe");
 define("_AM_NEWBB_ABOUT","Über");
@@ -94,8 +94,8 @@ define("_AM_NEWBB_EDITTHISFORUM","Forum bearbeiten:");
 define("_AM_NEWBB_SET_FORUMORDER","Forumsposition angeben:");
 define("_AM_NEWBB_ALLOWPOLLS","Umfragen zulassen?");
 define("_AM_NEWBB_ATTACHMENT_SIZE" ,"Max. Größe in KB:");
-define("_AM_NEWBB_ALLOWED_EXTENSIONS", "Zugelassene Erweiterungen:<span style='font-size: xx-small; font-weight: normal; display: block;'>'*' bedeutet keine Einschränkungen.<br /> Erweiterungen werden durch '|' getrennt.</span>");
-define("_AM_NEWBB_ALLOW_ATTACHMENTS", "Anhänge zulassen?");
+define("_AM_NEWBB_ALLOWED_EXTENSIONS","Zugelassene Erweiterungen:<span style='font-size: xx-small; font-weight: normal; display: block;'>'*' bedeutet keine Einschränkungen.<br /> Erweiterungen werden durch '|' getrennt.</span>");
+define("_AM_NEWBB_ALLOW_ATTACHMENTS","Anhänge zulassen?");
 define("_AM_NEWBB_ALLOWHTML","HTML zulassen?");
 define("_AM_NEWBB_YES","Ja");
 define("_AM_NEWBB_NO","Nein");
@@ -108,8 +108,8 @@ define("_AM_NEWBB_HOTTOPICTHRESHOLD","Schwellenwert für 'Heisse Themen':");
 //define("_AM_NEWBB_SHOWSMILIESPANEL","Show smilies panel:");
 define("_AM_NEWBB_MODERATOR_REMOVE","Derzeitige Moderatoren entfernen");
 define("_AM_NEWBB_MODERATOR_ADD","Moderator(en) hinzufügen");
-define("_AM_NEWBB_ALLOW_SUBJECT_PREFIX", "Themen-Präfixe zulassen?");
-define("_AM_NEWBB_ALLOW_SUBJECT_PREFIX_DESC", "Dies lässt Präfixe zu, die zur Themenbezeichnung hinzugefügt werden.");
+define("_AM_NEWBB_ALLOW_SUBJECT_PREFIX","Themen-Präfixe zulassen?");
+define("_AM_NEWBB_ALLOW_SUBJECT_PREFIX_DESC","Dies lässt Präfixe zu, die zur Themenbezeichnung hinzugefügt werden.");
 
 
 // admin_cat_manager.php
@@ -194,48 +194,48 @@ define("_AM_NEWBB_PERM_SETBYGROUP","Berechtigung je Gruppe festlegen");
 
 // admin_forum_prune.php
 
-define ("_AM_NEWBB_PRUNE_RESULTS_TITLE","Ergebnisse aufräumen");
-define ("_AM_NEWBB_PRUNE_RESULTS_TOPICS","Aufgeräumte Themen");
-define ("_AM_NEWBB_PRUNE_RESULTS_POSTS","Aufgeräumte Beiträge");
-define ("_AM_NEWBB_PRUNE_RESULTS_FORUMS","Aufgeräumte Foren");
-define ("_AM_NEWBB_PRUNE_STORE","In diesem Forum speichern anstatt die Beiträge zu löschen:");
-define ("_AM_NEWBB_PRUNE_ARCHIVE","Kopien der Beiträge im Archiv sichern");
-define ("_AM_NEWBB_PRUNE_FORUMSELERROR","Fehler, kein aufzuräumendes Forum angegeben.");
+define("_AM_NEWBB_PRUNE_RESULTS_TITLE","Ergebnisse aufräumen");
+define("_AM_NEWBB_PRUNE_RESULTS_TOPICS","Aufgeräumte Themen");
+define("_AM_NEWBB_PRUNE_RESULTS_POSTS","Aufgeräumte Beiträge");
+define("_AM_NEWBB_PRUNE_RESULTS_FORUMS","Aufgeräumte Foren");
+define("_AM_NEWBB_PRUNE_STORE","In diesem Forum speichern anstatt die Beiträge zu löschen:");
+define("_AM_NEWBB_PRUNE_ARCHIVE","Kopien der Beiträge im Archiv sichern");
+define("_AM_NEWBB_PRUNE_FORUMSELERROR","Fehler, kein aufzuräumendes Forum angegeben.");
 
-define ("_AM_NEWBB_PRUNE_DAYS","Entferne Themen ohne Beiträge seit:");
-define ("_AM_NEWBB_PRUNE_FORUMS","Foren zum Aufräumen");
-define ("_AM_NEWBB_PRUNE_STICKY","Sticky-Themen behalten");
-define ("_AM_NEWBB_PRUNE_DIGEST","Zusammenfassungen behalten");
-define ("_AM_NEWBB_PRUNE_LOCK","Geschlossene Themen behalten");
-define ("_AM_NEWBB_PRUNE_HOT","Themen behalten die mehr als diese Anzahl Antworten haben:");
-define ("_AM_NEWBB_PRUNE_SUBMIT","OK");
-define ("_AM_NEWBB_PRUNE_RESET","Zurücksetzen");
-define ("_AM_NEWBB_PRUNE_YES","Ja");
-define ("_AM_NEWBB_PRUNE_NO","Nein");
-define ("_AM_NEWBB_PRUNE_WEEK","Eine Woche");
-define ("_AM_NEWBB_PRUNE_2WEEKS","Zwei Wochen");
-define ("_AM_NEWBB_PRUNE_MONTH","Ein Monat");
-define ("_AM_NEWBB_PRUNE_2MONTH","Zwei Monate");
-define ("_AM_NEWBB_PRUNE_4MONTH","Vier Monate");
-define ("_AM_NEWBB_PRUNE_YEAR","Ein Jahr");
-define ("_AM_NEWBB_PRUNE_2YEARS","2 Jahre");
+define("_AM_NEWBB_PRUNE_DAYS","Entferne Themen ohne Beiträge seit:");
+define("_AM_NEWBB_PRUNE_FORUMS","Foren zum Aufräumen");
+define("_AM_NEWBB_PRUNE_STICKY","Sticky-Themen behalten");
+define("_AM_NEWBB_PRUNE_DIGEST","Zusammenfassungen behalten");
+define("_AM_NEWBB_PRUNE_LOCK","Geschlossene Themen behalten");
+define("_AM_NEWBB_PRUNE_HOT","Themen behalten die mehr als diese Anzahl Antworten haben:");
+define("_AM_NEWBB_PRUNE_SUBMIT","OK");
+define("_AM_NEWBB_PRUNE_RESET","Zurücksetzen");
+define("_AM_NEWBB_PRUNE_YES","Ja");
+define("_AM_NEWBB_PRUNE_NO","Nein");
+define("_AM_NEWBB_PRUNE_WEEK","Eine Woche");
+define("_AM_NEWBB_PRUNE_2WEEKS","Zwei Wochen");
+define("_AM_NEWBB_PRUNE_MONTH","Ein Monat");
+define("_AM_NEWBB_PRUNE_2MONTH","Zwei Monate");
+define("_AM_NEWBB_PRUNE_4MONTH","Vier Monate");
+define("_AM_NEWBB_PRUNE_YEAR","Ein Jahr");
+define("_AM_NEWBB_PRUNE_2YEARS","2 Jahre");
 
 // About.php constants
-define('_AM_NEWBB_AUTHOR_INFO', "Autoreninformation");
-define('_AM_NEWBB_AUTHOR_NAME', "Autor");
-define('_AM_NEWBB_AUTHOR_WEBSITE', "Webseite des Autors");
-define('_AM_NEWBB_AUTHOR_EMAIL', "E-Mail des Autors");
-define('_AM_NEWBB_AUTHOR_CREDITS', "Credits");
-define('_AM_NEWBB_MODULE_INFO', "Modulentwicklungsinformation");
-define('_AM_NEWBB_MODULE_STATUS', "Status");
-define('_AM_NEWBB_MODULE_DEMO', "Demo Website");
-define('_AM_NEWBB_MODULE_SUPPORT', "Offizielle Supportwebsite");
-define('_AM_NEWBB_MODULE_BUG', "Einen Modulfehler melden");
-define('_AM_NEWBB_MODULE_FEATURE', "Einen Vorschlag für zukünftige Erweiterung des Moduls machen");
-define('_AM_NEWBB_MODULE_DISCLAIMER', "Disclaimer");
-define('_AM_NEWBB_AUTHOR_WORD', "Bemerkungen des Entwicklers");
+define('_AM_NEWBB_AUTHOR_INFO',"Autoreninformation");
+define('_AM_NEWBB_AUTHOR_NAME',"Autor");
+define('_AM_NEWBB_AUTHOR_WEBSITE',"Webseite des Autors");
+define('_AM_NEWBB_AUTHOR_EMAIL',"E-Mail des Autors");
+define('_AM_NEWBB_AUTHOR_CREDITS',"Credits");
+define('_AM_NEWBB_MODULE_INFO',"Modulentwicklungsinformation");
+define('_AM_NEWBB_MODULE_STATUS',"Status");
+define('_AM_NEWBB_MODULE_DEMO',"Demo Website");
+define('_AM_NEWBB_MODULE_SUPPORT',"Offizielle Supportwebsite");
+define('_AM_NEWBB_MODULE_BUG',"Einen Modulfehler melden");
+define('_AM_NEWBB_MODULE_FEATURE',"Einen Vorschlag für zukünftige Erweiterung des Moduls machen");
+define('_AM_NEWBB_MODULE_DISCLAIMER',"Disclaimer");
+define('_AM_NEWBB_AUTHOR_WORD',"Bemerkungen des Entwicklers");
 define('_AM_NEWBB_BY','Von');
-define('_AM_NEWBB_AUTHOR_WORD_EXTRA', "
+define('_AM_NEWBB_AUTHOR_WORD_EXTRA',"
 ");
 
 // admin_report.php
@@ -253,23 +253,23 @@ define("_AM_NEWBB_DIGESTADMIN","Digest Manager");
 define("_AM_NEWBB_DIGESTCONTENT","Digest Inhalte");
 
 // admin_votedata.php
-define("_AM_NEWBB_VOTE_RATINGINFOMATION", "Abstimmungsinformationen");
-define("_AM_NEWBB_VOTE_TOTALVOTES", "Gesamtzahl Abstimmungen: ");
-define("_AM_NEWBB_VOTE_REGUSERVOTES", "Abstimmungen registrierter User: %s");
-define("_AM_NEWBB_VOTE_ANONUSERVOTES", "Abstimmungen nicht registrierter User: %s");
-define("_AM_NEWBB_VOTE_USER", "Benutzer");
-define("_AM_NEWBB_VOTE_IP", "IP-Adresse");
-define("_AM_NEWBB_VOTE_USERAVG", "Durchschnittliche Bewertung");
-define("_AM_NEWBB_VOTE_TOTALRATE", "Gesamtzahl Bewertungen");
-define("_AM_NEWBB_VOTE_DATE", "Eingereicht");
-define("_AM_NEWBB_VOTE_RATING", "Bewertung");
-define("_AM_NEWBB_VOTE_NOREGVOTES", "Keine Abstimmung durch registrierte User möglich.");
-define("_AM_NEWBB_VOTE_NOUNREGVOTES", "Keine Abstimmung durch nicht registrierte User möglich.");
-define("_AM_NEWBB_VOTEDELETED", "Abstimmungsdaten gelöscht.");
-define("_AM_NEWBB_VOTE_ID", "ID");
-define("_AM_NEWBB_VOTE_FILETITLE", "Thementitel");
-define("_AM_NEWBB_VOTE_DISPLAYVOTES", "Abstimmungsinformationen");
-define("_AM_NEWBB_VOTE_NOVOTES", "Keine Abstimmungen vorhanden");
-define("_AM_NEWBB_VOTE_DELETE", "Abstimmungsdaten löschen?");
-define("_AM_NEWBB_VOTE_DELETEDSC", "<b>Löscht</b> die ausgewählten Abstimmungsdaten aus der Datenbank.");
+define("_AM_NEWBB_VOTE_RATINGINFOMATION","Abstimmungsinformationen");
+define("_AM_NEWBB_VOTE_TOTALVOTES","Gesamtzahl Abstimmungen: ");
+define("_AM_NEWBB_VOTE_REGUSERVOTES","Abstimmungen registrierter User: %s");
+define("_AM_NEWBB_VOTE_ANONUSERVOTES","Abstimmungen nicht registrierter User: %s");
+define("_AM_NEWBB_VOTE_USER","Benutzer");
+define("_AM_NEWBB_VOTE_IP","IP-Adresse");
+define("_AM_NEWBB_VOTE_USERAVG","Durchschnittliche Bewertung");
+define("_AM_NEWBB_VOTE_TOTALRATE","Gesamtzahl Bewertungen");
+define("_AM_NEWBB_VOTE_DATE","Eingereicht");
+define("_AM_NEWBB_VOTE_RATING","Bewertung");
+define("_AM_NEWBB_VOTE_NOREGVOTES","Keine Abstimmung durch registrierte User möglich.");
+define("_AM_NEWBB_VOTE_NOUNREGVOTES","Keine Abstimmung durch nicht registrierte User möglich.");
+define("_AM_NEWBB_VOTEDELETED","Abstimmungsdaten gelöscht.");
+define("_AM_NEWBB_VOTE_ID","ID");
+define("_AM_NEWBB_VOTE_FILETITLE","Thementitel");
+define("_AM_NEWBB_VOTE_DISPLAYVOTES","Abstimmungsinformationen");
+define("_AM_NEWBB_VOTE_NOVOTES","Keine Abstimmungen vorhanden");
+define("_AM_NEWBB_VOTE_DELETE","Abstimmungsdaten löschen?");
+define("_AM_NEWBB_VOTE_DELETEDSC","<b>Löscht</b> die ausgewählten Abstimmungsdaten aus der Datenbank.");
 ?>

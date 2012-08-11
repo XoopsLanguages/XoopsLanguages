@@ -13,7 +13,7 @@
 //=========================================================
 
 // Blocks
-define('_MB_RSSC_HEADLINE_DISPLAYF', 'نمایش لوگوی  سایت');
-define('_MB_RSSC_HEADLINE_MAXITEM', 'Max number of items for each headline');
+define('_MB_RSSC_HEADLINE_DISPLAYF','نمایش لوگوی  سایت');
+define('_MB_RSSC_HEADLINE_MAXITEM','Max number of items for each headline');
 
 ?>

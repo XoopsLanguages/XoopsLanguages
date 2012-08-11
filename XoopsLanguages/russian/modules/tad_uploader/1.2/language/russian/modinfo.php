@@ -7,8 +7,8 @@
 
 define("_MI_CAT_NAME","Загрузчик");
 define("_MI_CAT_DESC","Модуль для загрузки файлов");
-define("_MI_CAT_ADMENU1", "Папка");
-define("_MI_CAT_ADMENU2", "Разрешение");
+define("_MI_CAT_ADMENU1","Папка");
+define("_MI_CAT_ADMENU2","Разрешение");
 
 define("_MI_CAT_BNAME1","Последние Файлы");
 define("_MI_CAT_BDESC1","Недавно загруженные файлы");

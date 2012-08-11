@@ -22,6 +22,6 @@ define('_AM_SMILEEMOTION','Beskrivning:');
 define('_AM_ADD','Lägg till');
 define('_AM_SAVE','Spara');
 define('_AM_WAYSYWTDTS','VARNING: Är du säker på att du vill radera den här smilien?');
-define('_AM_DISPLAYF', 'Visa i formulär?');
+define('_AM_DISPLAYF','Visa i formulär?');
 
 ?>

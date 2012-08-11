@@ -13,31 +13,31 @@ define("_AM_TH_AGENT","Agent");
 define("_AM_TH_TYPE","Type");
 define("_AM_TH_DESCRIPTION","Description");
 
-define( "_AM_TH_BADIPS" , 'IPs bannies<br /><br /><span style="font-weight:normal;">Ecrivez chaque ip sur une ligne.<br />Ne rien mettre signifie que toutes les IPs sont autorisées</span>' ) ;
+define("_AM_TH_BADIPS" , 'IPs bannies<br /><br /><span style="font-weight:normal;">Ecrivez chaque ip sur une ligne.<br />Ne rien mettre signifie que toutes les IPs sont autorisées</span>' ) ;
 
-define( "_AM_TH_GROUP1IPS" , 'IPs autorisées pour le groupe administrateurs<br /><br /><span style="font-weight:normal;">Ecrivez chaque ip sur une ligne.<br />192.168. signifie 192.168.*<br />Ne rien mettre signifie que toutes les IPs sont autorisées</span>' ) ;
+define("_AM_TH_GROUP1IPS" , 'IPs autorisées pour le groupe administrateurs<br /><br /><span style="font-weight:normal;">Ecrivez chaque ip sur une ligne.<br />192.168. signifie 192.168.*<br />Ne rien mettre signifie que toutes les IPs sont autorisées</span>' ) ;
 
-define( "_AM_LABEL_COMPACTLOG", "Compacter les logs");
-define( "_AM_BUTTON_COMPACTLOG", "Compacter !");
-define( "_AM_JS_COMPACTLOGCONFIRM", "Les enregistrements doublons (IP,Type) seront supprimés");
-define( "_AM_LABEL_REMOVEALL", "Supprimer tous les enregistrements");
-define( "_AM_BUTTON_REMOVEALL", "Tout supprimer!");
-define( "_AM_JS_REMOVEALLCONFIRM", "Tous les journaux sont supprimés. Etes-vous vraiment sûr ?");
-define( "_AM_LABEL_REMOVE" , "Supprimer les enregistrements cochés :" ) ;
-define( "_AM_BUTTON_REMOVE" , "Supprimer!" ) ;
-define( "_AM_JS_REMOVECONFIRM" , "Confirmation de la suppression ?" ) ;
-define( "_AM_MSG_IPFILESUPDATED" , "Les fichiers pour IPs ont été mis à jour" ) ;
-define( "_AM_MSG_BADIPSCANTOPEN" , "Le fichier des IPs bannies ne peut être ouvert" ) ;
-define( "_AM_MSG_GROUP1IPSCANTOPEN" , "Le fichier pour le groupe=1 ne peut être ouvert" ) ;
-define( "_AM_MSG_REMOVED" , "Les enregistrements ont été supprimés" ) ;
-define( "_AM_FMT_CONFIGSNOTWRITABLE" , "Configurez le répertoire en lecture-écriture : %s" ) ;
+define("_AM_LABEL_COMPACTLOG","Compacter les logs");
+define("_AM_BUTTON_COMPACTLOG","Compacter !");
+define("_AM_JS_COMPACTLOGCONFIRM","Les enregistrements doublons (IP,Type) seront supprimés");
+define("_AM_LABEL_REMOVEALL","Supprimer tous les enregistrements");
+define("_AM_BUTTON_REMOVEALL","Tout supprimer!");
+define("_AM_JS_REMOVEALLCONFIRM","Tous les journaux sont supprimés. Etes-vous vraiment sûr ?");
+define("_AM_LABEL_REMOVE" , "Supprimer les enregistrements cochés :" ) ;
+define("_AM_BUTTON_REMOVE" , "Supprimer!" ) ;
+define("_AM_JS_REMOVECONFIRM" , "Confirmation de la suppression ?" ) ;
+define("_AM_MSG_IPFILESUPDATED" , "Les fichiers pour IPs ont été mis à jour" ) ;
+define("_AM_MSG_BADIPSCANTOPEN" , "Le fichier des IPs bannies ne peut être ouvert" ) ;
+define("_AM_MSG_GROUP1IPSCANTOPEN" , "Le fichier pour le groupe=1 ne peut être ouvert" ) ;
+define("_AM_MSG_REMOVED" , "Les enregistrements ont été supprimés" ) ;
+define("_AM_FMT_CONFIGSNOTWRITABLE" , "Configurez le répertoire en lecture-écriture : %s" ) ;
 
 
 // prefix_manager.php
-define( "_AM_H3_PREFIXMAN" , "Gestionnaire de préfixe" ) ;
-define( "_AM_MSG_DBUPDATED" , "Base de données mise à jour avec succès!" ) ;
-define( "_AM_CONFIRM_DELETE" , "Toutes les données vont être supprimées. OK ?" ) ;
-define( "_AM_TXT_HOWTOCHANGEDB" , "Si vous voulez changer le préfixe, éditez manuellement le fichier %s/mainfile.php pour cette ligne :<br />  define('XOOPS_DB_PREFIX', '<strong>%s</strong>';);" ) ;
+define("_AM_H3_PREFIXMAN" , "Gestionnaire de préfixe" ) ;
+define("_AM_MSG_DBUPDATED" , "Base de données mise à jour avec succès!" ) ;
+define("_AM_CONFIRM_DELETE" , "Toutes les données vont être supprimées. OK ?" ) ;
+define("_AM_TXT_HOWTOCHANGEDB" , "Si vous voulez changer le préfixe, éditez manuellement le fichier %s/mainfile.php pour cette ligne :<br />  define('XOOPS_DB_PREFIX','<strong>%s</strong>';);" ) ;
 
 
 // advisory.php

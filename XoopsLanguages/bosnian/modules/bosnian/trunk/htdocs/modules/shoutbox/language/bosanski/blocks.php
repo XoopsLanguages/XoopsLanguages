@@ -55,13 +55,13 @@ define("_MB_SHOUTBOX_CLEAR","Poni&scaron;ti sve");
 define("_MB_SHOUTBOX_BBCODEON","BBcode=on");
 define("_MB_SHOUTBOX_BBCODEOFF","BBcode=off");
 define("_MB_SHOUTBOX_AUTOREFRESH","Auto-Aktulizaciju uklju&#269;i");
-define("_MB_SHOUTBOX_REFRESH", "Aktuliziraj");
-define("_MB_SHOUTBOX_POPUP", "Popup Prozor");
+define("_MB_SHOUTBOX_REFRESH","Aktuliziraj");
+define("_MB_SHOUTBOX_POPUP","Popup Prozor");
 
-define("_MB_SHOUTBOX_SHOUT_TITLE", "Upi&scaron;i Poruku");
-define("_MB_SHOUTBOX_NICK", "Nik ime");
+define("_MB_SHOUTBOX_SHOUT_TITLE","Upi&scaron;i Poruku");
+define("_MB_SHOUTBOX_NICK","Nik ime");
 
-define("_MB_SHOUTBOX_CONFIRMDEL", "Dali si siguran(a) da &#382;eli&scaron; izbrisati SVE postove u Bazi podataka/tekst podatku?");
+define("_MB_SHOUTBOX_CONFIRMDEL","Dali si siguran(a) da &#382;eli&scaron; izbrisati SVE postove u Bazi podataka/tekst podatku?");
 ?>=======
 <?php
 //  ------------------------------------------------------------------------ //
@@ -117,11 +117,11 @@ define("_MB_SHOUTBOX_CLEAR","Poni&scaron;ti");
 define("_MB_SHOUTBOX_BBCODEON","BBcode=on");
 define("_MB_SHOUTBOX_BBCODEOFF","BBcode=of");
 define("_MB_SHOUTBOX_AUTOREFRESH","Auto-aktualizacija?");
-define("_MB_SHOUTBOX_REFRESH", "Aktualizacija");
-define("_MB_SHOUTBOX_POPUP", "Popup Prozor");
+define("_MB_SHOUTBOX_REFRESH","Aktualizacija");
+define("_MB_SHOUTBOX_POPUP","Popup Prozor");
 
-define("_MB_SHOUTBOX_SHOUT_TITLE", "Upi&scaron;i Poruku");
-define("_MB_SHOUTBOX_NICK", "Nik ime");
+define("_MB_SHOUTBOX_SHOUT_TITLE","Upi&scaron;i Poruku");
+define("_MB_SHOUTBOX_NICK","Nik ime");
 
-define("_MB_SHOUTBOX_CONFIRMDEL", "Dali si siguran(a) da &#382;eli&scaron; izbrisati SVE postove u Bazi podataka/tekst podatku?");
+define("_MB_SHOUTBOX_CONFIRMDEL","Dali si siguran(a) da &#382;eli&scaron; izbrisati SVE postove u Bazi podataka/tekst podatku?");
 ?>>>>>>>> .r2418

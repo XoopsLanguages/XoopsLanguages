@@ -25,23 +25,23 @@
 //  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 USA // 
 //  ------------------------------------------------------------------------ // 
  
-define("_MD_EDIT", "Uredi"); 
-define("_MD_DELETE", "Izbriöi"); 
-define("_MD_JOIN", "Postani partner"); 
-define("_MD_PARTNERS", "Partneri"); 
-define("_MD_PARTNER", "Partner"); 
-define("_MD_DESCRIPTION", "Opis"); 
-define("_MD_HITS", "Pregleda"); 
-define("_MD_NOPART", "Nema takvog partnera."); 
+define("_MD_EDIT","Uredi"); 
+define("_MD_DELETE","Izbri≈°i"); 
+define("_MD_JOIN","Postani partner"); 
+define("_MD_PARTNERS","Partneri"); 
+define("_MD_PARTNER","Partner"); 
+define("_MD_DESCRIPTION","Opis"); 
+define("_MD_HITS","Pregleda"); 
+define("_MD_NOPART","Nema takvog partnera."); 
 //file join.php 
-define("_MD_IMAGE", "Slika:"); 
-define("_MD_TITLE", "Naslov:"); 
-define("_MD_URL", "URL:"); 
-define("_MD_SEND", "Poöalji email"); 
-define("_MD_ERROR1", "<center>GREäKA: Doölo je do greöke. <a href='javascript:history.back(1)'>Pokuöaj ponovo</a></center>"); 
-define("_MD_ERROR2", "<center>Dimenzije slike su veËe od 110x50. <a href='javascript:history.back(1)'>Probajte s nekom drugom slikom</a></center>"); 
-define("_MD_ERROR3", "<center>Slika ne postoji. <a href='javascript:history.back(1)'>Probajte s nekom drugom slikom</a></center>"); 
-define("_MD_GOBACK", "<a href='javascript:history.back(1)'>Nazad</a>"); 
-define("_MD_NEWPARTNER", "%s zahtjev za partnera"); 
-define("_MD_SENDMAIL", "Zahtjev je poslan administratoru.<br /><a href='index.php'>Vratite se na poËetnu </a>"); 
+define("_MD_IMAGE","Slika:"); 
+define("_MD_TITLE","Naslov:"); 
+define("_MD_URL","URL:"); 
+define("_MD_SEND","Po≈°alji email"); 
+define("_MD_ERROR1","<center>GRE≈†KA: Do≈°lo je do gre≈°ke. <a href='javascript:history.back(1)'>Poku≈°aj ponovo</a></center>"); 
+define("_MD_ERROR2","<center>Dimenzije slike su ve√®e od 110x50. <a href='javascript:history.back(1)'>Probajte s nekom drugom slikom</a></center>"); 
+define("_MD_ERROR3","<center>Slika ne postoji. <a href='javascript:history.back(1)'>Probajte s nekom drugom slikom</a></center>"); 
+define("_MD_GOBACK","<a href='javascript:history.back(1)'>Nazad</a>"); 
+define("_MD_NEWPARTNER","%s zahtjev za partnera"); 
+define("_MD_SENDMAIL","Zahtjev je poslan administratoru.<br /><a href='index.php'>Vratite se na po√®etnu </a>"); 
 ?>

@@ -159,15 +159,15 @@ define("KS_CART","سبد خرید");
 define("KS_ADDSHOPCART","اضافه کردن به سبد خرید");
 define("KS_REQTERMS","برای ادامه کار شما باید شرایط را بپذیرید.");
 define("KS_REQRETURNS","برای ادامه کار شما باید قوانین پس دادن محصول را بپذیرید.");
-define ("KS_PRODUCTS","محصولات");
-define ("KS_OPTION","گزینه: ");
-define ("KS_ORDRSCSS","سفارش شما با موفقیت انجام شد!");
-define ("KS_ORDRNOTOK","به دلیل رخ دادن یک خطا، در این زمان نمی توانیم سفارش شما را قبول کنیم.");
+define("KS_PRODUCTS","محصولات");
+define("KS_OPTION","گزینه: ");
+define("KS_ORDRSCSS","سفارش شما با موفقیت انجام شد!");
+define("KS_ORDRNOTOK","به دلیل رخ دادن یک خطا، در این زمان نمی توانیم سفارش شما را قبول کنیم.");
 
 //ver 2.2
-define ("KS_NOPRODINCAT","هیچ محصولی موجود نیست");
-define ("KS_ADDTOCARTOK","محصول به سبد خرید شما اضافه شد");
-define ("KS_PLZLOGIN","برای رفتن به قسمت صورت حساب لطفا لاگین یا ثبت نام کنید");
+define("KS_NOPRODINCAT","هیچ محصولی موجود نیست");
+define("KS_ADDTOCARTOK","محصول به سبد خرید شما اضافه شد");
+define("KS_PLZLOGIN","برای رفتن به قسمت صورت حساب لطفا لاگین یا ثبت نام کنید");
 define("KS_ORDDTLS","جزییات سفارش");
 define("KS_ORDRNUM","تعداد سفارش");
 define("KS_DATE","تاریخ");

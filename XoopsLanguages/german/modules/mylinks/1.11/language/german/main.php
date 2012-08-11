@@ -52,7 +52,7 @@ define('_MD_LINKID','Link-ID: ');
 define('_MD_SITETITLE','Website-Titel: ');
 define('_MD_SITEURL','Website-URL: ');
 define("_MD_OPTIONS","Optionen: ");
-define("_MD_NOTIFYAPPROVE", "Benachrichtigen wenn dieser Link freigegeben ist");
+define("_MD_NOTIFYAPPROVE","Benachrichtigen wenn dieser Link freigegeben ist");
 define('_MD_SHOTIMAGE','Screenshot: ');
 define('_MD_SENDREQUEST','Anfrage senden');
 

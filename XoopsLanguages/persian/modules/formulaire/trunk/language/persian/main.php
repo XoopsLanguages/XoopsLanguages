@@ -1,10 +1,10 @@
 <?php
-define("_FORMULAIRE_FORM_TITLE", "با تکمیل این فرم با ما تماس بگیرید.");
+define("_FORMULAIRE_FORM_TITLE","با تکمیل این فرم با ما تماس بگیرید.");
 //define("_FORMULAIRE_MSG_SUBJECT", $xoopsConfig['sitename'].' - Contact Us Form');
-define("_FORMULAIRE_MSG_SUBJECT", '['.$xoopsConfig['sitename'].'] -');
-define("_FORMULAIRE_MSG_FORM", ' فرم: ');
-define("_FORMULAIRE_MSG_SENT", "پیام شما ارسال شد.");
-define("_FORMULAIRE_MSG_THANK", "<br />از ارسال شما متشکریمs.");
+define("_FORMULAIRE_MSG_SUBJECT",'['.$xoopsConfig['sitename'].'] -');
+define("_FORMULAIRE_MSG_FORM",' فرم: ');
+define("_FORMULAIRE_MSG_SENT","پیام شما ارسال شد.");
+define("_FORMULAIRE_MSG_THANK","<br />از ارسال شما متشکریمs.");
 define("_FORMULAIRE_MSG_SUP","<br /> فایل care پاک شد");
 define("_FORMULAIRE_MSG_BIG","حجم فایل پیوست شده توسط شما برای بارگذاری زیاد است.");
 define("_FORMULAIRE_MSG_UNSENT","لطفا فایل خود را پیوست کنید با حجمی کمتر از ");
@@ -56,11 +56,11 @@ define("_FORM_ELESEND","عناصر ارسال در ایمیل");
 
 define("_FORM_TABELE_SEND","ارسال به :"); 
 define("_FORM_TABELE_SUB","ارسال به وسیله:"); 
-define("_FORM_TABELE_IP", "آدرس IP :"); 
+define("_FORM_TABELE_IP","آدرس IP :"); 
 define("_FORM_TABELE_NAV","آگاهی رسانی :"); 
 
-define("_FORM_SAVE_SEND", "ذخیره ارسال ها"); 
-define("_FORM_ONLYONE_SEND", "هر کاربر فقط یک بار ارسال کند"); 
+define("_FORM_SAVE_SEND","ذخیره ارسال ها"); 
+define("_FORM_ONLYONE_SEND","هر کاربر فقط یک بار ارسال کند"); 
 define("_FORM_NBDAYS","تعداد روز های فاصله بین دو ارسال (با انتخاب 0 فقط یک ارسال امکان پذیر است)");
 
 define("_ANSWERS","پاسخ");
@@ -112,23 +112,23 @@ define("_MAIL_NAV","User agent : ");
 
 define("_BUTTON_SEND","ارسال");
 
-define("_AM_FORM_DOWN_IMAGEINFO", "وضعیت سرور");
-define("_AM_FORM_DOWN_SPHPINI", "<b>اطلاعات گرفته شده از قایل PHP ini:</b>");
-define("_AM_FORM_DOWN_SAFEMODESTATUS", "وضعیت حالت امن: ");
-define("_AM_FORM_DOWN_REGISTERGLOBALS", "ثبت سراسری: ");
-define("_AM_FORM_DOWN_SERVERUPLOADSTATUS", "وضعیت بارگذاری سرور: ");
-define("_AM_FORM_DOWN_MAXUPLOADSIZE", "بیشترن حجم قابل بارگذاری در سرور: ");
-define("_AM_FORM_DOWN_MAXPOSTSIZE", "بیشترین حجم پست قابل ارسال: ");
-define("_AM_FORM_DOWN_SAFEMODEPROBLEMS", " (این یک مشکل کش دارد)");
-define("_AM_FORM_DOWN_GDLIBSTATUS", "پشتیبانی از کتابخانه گرافیکی GD: ");
-define("_AM_FORM_DOWN_GDLIBVERSION", "نسخه کتاب خانه گرافیکی GD: ");
-define("_AM_FORM_DOWN_GDON", "<b>فعال شده</b> (تصاویر بند انگشتی در دسترس است)");
-define("_AM_FORM_DOWN_GDOFF", "<b>فعال نشده</b> (تصاویر بند انگشتی در دسترس نیست)");
-define("_AM_FORM_DOWN_OFF", "<b>خاموش</b>");
-define("_AM_FORM_DOWN_ON", "<b>روشن</b>");
-define("_AM_FORM_DOWN_APACHE", "<b>اطلاعات گرفته شده از محیط آپاچی:</b>");
-define("_AM_FORM_DOWN_VERSION", "نسخه آپاچی مورد استفاده : ");
-define("_AM_FORM_DOWN_CHARSET", "Accepted charset : ");
+define("_AM_FORM_DOWN_IMAGEINFO","وضعیت سرور");
+define("_AM_FORM_DOWN_SPHPINI","<b>اطلاعات گرفته شده از قایل PHP ini:</b>");
+define("_AM_FORM_DOWN_SAFEMODESTATUS","وضعیت حالت امن: ");
+define("_AM_FORM_DOWN_REGISTERGLOBALS","ثبت سراسری: ");
+define("_AM_FORM_DOWN_SERVERUPLOADSTATUS","وضعیت بارگذاری سرور: ");
+define("_AM_FORM_DOWN_MAXUPLOADSIZE","بیشترن حجم قابل بارگذاری در سرور: ");
+define("_AM_FORM_DOWN_MAXPOSTSIZE","بیشترین حجم پست قابل ارسال: ");
+define("_AM_FORM_DOWN_SAFEMODEPROBLEMS"," (این یک مشکل کش دارد)");
+define("_AM_FORM_DOWN_GDLIBSTATUS","پشتیبانی از کتابخانه گرافیکی GD: ");
+define("_AM_FORM_DOWN_GDLIBVERSION","نسخه کتاب خانه گرافیکی GD: ");
+define("_AM_FORM_DOWN_GDON","<b>فعال شده</b> (تصاویر بند انگشتی در دسترس است)");
+define("_AM_FORM_DOWN_GDOFF","<b>فعال نشده</b> (تصاویر بند انگشتی در دسترس نیست)");
+define("_AM_FORM_DOWN_OFF","<b>خاموش</b>");
+define("_AM_FORM_DOWN_ON","<b>روشن</b>");
+define("_AM_FORM_DOWN_APACHE","<b>اطلاعات گرفته شده از محیط آپاچی:</b>");
+define("_AM_FORM_DOWN_VERSION","نسخه آپاچی مورد استفاده : ");
+define("_AM_FORM_DOWN_CHARSET","Accepted charset : ");
 
 define("_AM_DEBUG_MODE","اضافه/حذف خطا گیر PHP");
 

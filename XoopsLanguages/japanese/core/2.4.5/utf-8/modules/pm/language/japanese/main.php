@@ -34,7 +34,7 @@ define("_PM_MESSAGEC","Message: ");
 define("_PM_CLEAR","Clear");
 define("_PM_CANCELSEND","Cancel Send");
 define("_PM_SUBMIT","Submit");
-define("_PM_SAVEINOUTBOX", "送信箱にカーボンコピーを置く");
+define("_PM_SAVEINOUTBOX","送信箱にカーボンコピーを置く");
 
 //%%%%%%	File Name viewpmsg.php 	%%%%%
 define("_PM_SUBJECT","Subject");
@@ -54,7 +54,7 @@ define("_PM_EMPTIED","空にする");
 define("_PM_RUSUREEMPTY","本当に空にしてよろしいですか？");
 define("_PM_RUSUREDELETE","本当に削除してよろしいですか？");
 
-define("_PM_ONLINE", "オンライン");
+define("_PM_ONLINE","オンライン");
 
 define("_PM_RECEIVE","受信");
 define("_PM_POST","送信");
@@ -84,14 +84,14 @@ define("_PM_NEXTP","次");
 define("_PM_MAILNOTIFY","%s さんへ %s さんから新しいメッセージが届いています");
 define("_PM_MAILMESSAGE","%s さんより新しいメッセージが届いています");	//上記を簡略化
 
-define("_PM_EMAIL", "E-mail");
-define("_PM_EMAIL_DESC", "%s さんへ、これはあなたのアカウントから送信されたメッセージです。".$xoopsConfig['sitename']);
-define("_PM_EMAIL_FROM", "%s から");
-define("_PM_EMAIL_TO", "%s へ");
-define("_PM_EMAIL_SUBJECT", "[message]%s");
-define("_PM_EMAIL_MESSAGE", "本文");
+define("_PM_EMAIL","E-mail");
+define("_PM_EMAIL_DESC","%s さんへ、これはあなたのアカウントから送信されたメッセージです。".$xoopsConfig['sitename']);
+define("_PM_EMAIL_FROM","%s から");
+define("_PM_EMAIL_TO","%s へ");
+define("_PM_EMAIL_SUBJECT","[message]%s");
+define("_PM_EMAIL_MESSAGE","本文");
 
-define("_PM_ACTION_DONE", "成功しました");
-define("_PM_ACTION_ERROR", "失敗しました");
+define("_PM_ACTION_DONE","成功しました");
+define("_PM_ACTION_ERROR","失敗しました");
 
 ?>

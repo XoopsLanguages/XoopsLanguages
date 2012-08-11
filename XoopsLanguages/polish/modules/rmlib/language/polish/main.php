@@ -3,7 +3,7 @@
 // $Id: main.php,v 2.0 03/11/2005 13:59:49 BitC3R0 Exp $                    //
 // ------------------------------------------------------------------------ //
 //                         RM+Soft Library 2.0                              //
-//                   Copyright © 2005. Red Mexico Soft                      //
+//                   Copyright Â© 2005. Red Mexico Soft                      //
 //                     <http:www.redmexico.com.mx/>                         //
 // ------------------------------------------------------------------------ //
 // This program is free software; you can redistribute it and/or modify     //
@@ -25,59 +25,59 @@
 // Preguntas, errores o cualquier comentario escribeme                      //
 // <adminone@redmexico.com.mx>                                              //
 // ------------------------------------------------------------------------ //
-// Visita http://www.xoops-mexico.net para obtener los últimos módulos      //
-// de Red México Soft.                                                      //
+// Visita http://www.xoops-mexico.net para obtener los Ãºltimos mÃ³dulos      //
+// de Red MÃ©xico Soft.                                                      //
 //                                                                          //
-// For more modules from Red México Soft visit http://www.xoops-mexico.net  //
+// For more modules from Red MÃ©xico Soft visit http://www.xoops-mexico.net  //
 // ------------------------------------------------------------------------ //
 //////////////////////////////////////////////////////////////////////////////
 
-define('_RML_INSECTION', 'W %s');
-define('_RML_SUBSECTIONS', 'Subsekcje:');
-define('_RML_YOU_AREHERE', '<span style="color: #FF9900;">Jeste¶ tutaj:</span>');
-define('_RML_OTHER_SECTION', 'Pozosta³e sekcje:');
-define('_RML_BOOK_TYPE', 'Typ:');
-define('_RML_BOOK_SINCE', 'Z:');
-define('_RML_BOOK_READS', 'Przegl±dano: <strong>%s</strong> razy');
-define('_RML_BOOK_INDEX', 'Spis tre¶ci');
-define('_RML_BOOK_DOWNLOAD', 'Dokument dostêpny w:');
-define('_RML_CONTENT_READ', 'Przeczytano: <strong>%s</strong>');
-define('_RML_CONTENT_UPDATE', 'Aktualizacja: <strong>%s</strong>');
-define('_RML_CONTENT_BY', 'Edytowany przez: <strong>%s</strong>');
-define('_RML_CONTENT_COVERBOOK', 'Ok³adka:');
-define('_RML_CONTACT_AUTHOR', 'Kontakt z autorem "%s"');
-define('_RML_CONTACT_YOURMAIL', 'Twój mail');
-define('_RML_CONTACT_SUBJECT', 'Temat');
-define('_RML_CONTACT_TEXT', 'Wiadomo¶æ');
-define('_RML_CONTACT_SEND', 'Wy¶lij');
-define('_RML_CONTACT_CANCEL', 'Skasuj');
-define('_RML_BOOK_RECOMMEND', 'Rekomenduj ksi±¿kê');
-define('_RML_BOOK_FRIENDMAIL', 'E-mail przyjaciela');
-define('_RML_FRIEND_SUBJECT', 'Temat');
-define('_RML_EMAIL_BODY', 'Tre¶æ rekomendacji:');
-define('_RML_EDIT_CONTENT', 'Edytuj zawarto¶æ');
-define('_RML_EDIT_TEXT', 'Tekst:');
-define('_RML_FOOT_TITLE', 'Napisz komentarz');
-define('_RML_FOOT_LINK', 'Powi±zania');
+define('_RML_INSECTION','W %s');
+define('_RML_SUBSECTIONS','Subsekcje:');
+define('_RML_YOU_AREHERE','<span style="color: #FF9900;">JesteÂ¶ tutaj:</span>');
+define('_RML_OTHER_SECTION','PozostaÂ³e sekcje:');
+define('_RML_BOOK_TYPE','Typ:');
+define('_RML_BOOK_SINCE','Z:');
+define('_RML_BOOK_READS','PrzeglÂ±dano: <strong>%s</strong> razy');
+define('_RML_BOOK_INDEX','Spis treÂ¶ci');
+define('_RML_BOOK_DOWNLOAD','Dokument dostÃªpny w:');
+define('_RML_CONTENT_READ','Przeczytano: <strong>%s</strong>');
+define('_RML_CONTENT_UPDATE','Aktualizacja: <strong>%s</strong>');
+define('_RML_CONTENT_BY','Edytowany przez: <strong>%s</strong>');
+define('_RML_CONTENT_COVERBOOK','OkÂ³adka:');
+define('_RML_CONTACT_AUTHOR','Kontakt z autorem "%s"');
+define('_RML_CONTACT_YOURMAIL','TwÃ³j mail');
+define('_RML_CONTACT_SUBJECT','Temat');
+define('_RML_CONTACT_TEXT','WiadomoÂ¶Ã¦');
+define('_RML_CONTACT_SEND','WyÂ¶lij');
+define('_RML_CONTACT_CANCEL','Skasuj');
+define('_RML_BOOK_RECOMMEND','Rekomenduj ksiÂ±Â¿kÃª');
+define('_RML_BOOK_FRIENDMAIL','E-mail przyjaciela');
+define('_RML_FRIEND_SUBJECT','Temat');
+define('_RML_EMAIL_BODY','TreÂ¶Ã¦ rekomendacji:');
+define('_RML_EDIT_CONTENT','Edytuj zawartoÂ¶Ã¦');
+define('_RML_EDIT_TEXT','Tekst:');
+define('_RML_FOOT_TITLE','Napisz komentarz');
+define('_RML_FOOT_LINK','PowiÂ±zania');
 
 // Mensajes
-define('_RML_SECTION_NOEXIST', 'Nie ma wybranej sekcji');
-define('_RML_INDEX_NOEXIST', 'Nie ma spisu tre¶ci');
-define('_RML_NO_ALLOWED', 'Niestety nie masz uprawnieñ do tej sekcji');
-define('_RML_BOOK_NOEMAIL', 'Wyst±pi³ b³±d. Podano b³êdny adres autora');
-define('_RML_NO_DATA', 'Proszê wpisaæ tytu³ wiadomo¶ci');
-define('_RML_NO_EMAIL', 'Proszê wpisaæ adres e-mail osoby, któr± chcesz powiadomiæ');
-define('_RML_CONTACT_SENDMAIL', 'Wiadomo¶æ zosta³a wys³ana');
-define('_RML_NOEDIT_ALLOW', 'Nie masz uprawnieñ do edycji tego dokumentu');
-define('_RML_ERRON_DB', 'Wyst±pi³ b³±d podczas wykonywania tej operacji');
-define('_RML_NOTE_OK', 'Komentarz zosta³ dodany');
-define('_RML_CONTENT_OK', 'Zabezpieczono dokument');
+define('_RML_SECTION_NOEXIST','Nie ma wybranej sekcji');
+define('_RML_INDEX_NOEXIST','Nie ma spisu treÂ¶ci');
+define('_RML_NO_ALLOWED','Niestety nie masz uprawnieÃ± do tej sekcji');
+define('_RML_BOOK_NOEMAIL','WystÂ±piÂ³ bÂ³Â±d. Podano bÂ³Ãªdny adres autora');
+define('_RML_NO_DATA','ProszÃª wpisaÃ¦ tytuÂ³ wiadomoÂ¶ci');
+define('_RML_NO_EMAIL','ProszÃª wpisaÃ¦ adres e-mail osoby, ktÃ³rÂ± chcesz powiadomiÃ¦');
+define('_RML_CONTACT_SENDMAIL','WiadomoÂ¶Ã¦ zostaÂ³a wysÂ³ana');
+define('_RML_NOEDIT_ALLOW','Nie masz uprawnieÃ± do edycji tego dokumentu');
+define('_RML_ERRON_DB','WystÂ±piÂ³ bÂ³Â±d podczas wykonywania tej operacji');
+define('_RML_NOTE_OK','Komentarz zostaÂ³ dodany');
+define('_RML_CONTENT_OK','Zabezpieczono dokument');
 
 // Tipos de publicaciones
-define('_MA_RML_BOOK', 'Ksi±¿ka');
-define('_MA_RML_MANUAL', 'Manual');
-define('_MA_RML_TUTOR', 'Tutorial');
-define('_MA_RML_FAQ', 'FAQ');
-define('_MA_RML_MAGAZINE', 'Czasopismo');
-define('_MA_RML_LISTOPTIONS', 'Opcje');
+define('_MA_RML_BOOK','KsiÂ±Â¿ka');
+define('_MA_RML_MANUAL','Manual');
+define('_MA_RML_TUTOR','Tutorial');
+define('_MA_RML_FAQ','FAQ');
+define('_MA_RML_MAGAZINE','Czasopismo');
+define('_MA_RML_LISTOPTIONS','Opcje');
 ?>

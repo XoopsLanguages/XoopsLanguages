@@ -12,7 +12,7 @@ define("_INSTALL_L165","The site is currently closed for maintenance. Please com
 
 define("_INSTALL_ANON","Anonymous");
 
-define("_INSTALL_DISCLMR", "While the administrators and moderators of this site will attempt to remove
+define("_INSTALL_DISCLMR","While the administrators and moderators of this site will attempt to remove
 or edit any generally objectionable material as quickly as possible, it is
 impossible to review every message. Therefore you acknowledge that all posts
 made to this site express the views and opinions of the author and not the

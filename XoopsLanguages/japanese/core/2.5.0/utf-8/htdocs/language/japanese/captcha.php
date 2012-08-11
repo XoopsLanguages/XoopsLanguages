@@ -25,21 +25,21 @@ defined('XOOPS_ROOT_PATH') or die('制限されたアクセス');
 // _LANGCODE: ja
 // _CHARSET : UTF-8
 // Translator: XOOPS Translation Team
-define('_CAPTCHA_CAPTION', '確証コード');
-define('_CAPTCHA_INVALID_CODE', '無効な確証コード！');
-define('_CAPTCHA_TOOMANYATTEMPTS', '未遂しすぎ！');
-define('_CAPTCHA_MAXATTEMPTS', '最大の試み: %d');
+define('_CAPTCHA_CAPTION','確証コード');
+define('_CAPTCHA_INVALID_CODE','無効な確証コード！');
+define('_CAPTCHA_TOOMANYATTEMPTS','未遂しすぎ！');
+define('_CAPTCHA_MAXATTEMPTS','最大の試み: %d');
 // For image mode
-define('_CAPTCHA_RULE_IMAGE', '画像内の文字をエンターして下さい');
-define('_CAPTCHA_RULE_CASESENSITIVE', '大文字／小文字気を付けって下さい');
-define('_CAPTCHA_RULE_CASEINSENSITIVE', '大文字／小文字関係が有りません');
-define('_CAPTCHA_REFRESH', 'イメージを新たにするクリック');
+define('_CAPTCHA_RULE_IMAGE','画像内の文字をエンターして下さい');
+define('_CAPTCHA_RULE_CASESENSITIVE','大文字／小文字気を付けって下さい');
+define('_CAPTCHA_RULE_CASEINSENSITIVE','大文字／小文字関係が有りません');
+define('_CAPTCHA_REFRESH','イメージを新たにするクリック');
 // For text mode
-define('_CAPTCHA_RULE_TEXT', 'Input the result from the expression');
+define('_CAPTCHA_RULE_TEXT','Input the result from the expression');
 
 /**
  * Error defines
  */
-define('_CAPTCHA_LOADFILEERROR', 'Error: Could not load file %u in file %s at line %s. ');
+define('_CAPTCHA_LOADFILEERROR','Error: Could not load file %u in file %s at line %s. ');
 
 ?>

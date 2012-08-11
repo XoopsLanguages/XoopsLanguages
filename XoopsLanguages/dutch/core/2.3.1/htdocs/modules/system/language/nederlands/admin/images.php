@@ -25,7 +25,7 @@ define('_MD_ASFILE',' Opslaan als bestanden (In de upload map)<br />');
 define('_MD_RUDELIMGCAT','Weet je zeker dat je deze categorie en alle afbeeldingen erin wilt verwijderen?');
 define('_MD_RUDELIMG','Weet je zeker dat je deze afbeelding wilt verwijderen?');
 
-define('_MD_FAILDEL', 'Het verwijderen van %s uit de database is mislukt');
-define('_MD_FAILDELCAT', 'Het verwijderen van de categorie %s uit de database is mislukt');
-define('_MD_FAILUNLINK', 'Het verwijden van %s uit de uploads map is mislukt');
+define('_MD_FAILDEL','Het verwijderen van %s uit de database is mislukt');
+define('_MD_FAILDELCAT','Het verwijderen van de categorie %s uit de database is mislukt');
+define('_MD_FAILUNLINK','Het verwijden van %s uit de uploads map is mislukt');
 ?>

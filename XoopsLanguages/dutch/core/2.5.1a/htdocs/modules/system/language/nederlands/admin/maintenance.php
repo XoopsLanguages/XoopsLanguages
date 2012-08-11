@@ -14,7 +14,7 @@
  **/
 
 //Nav
-define("_AM_SYSTEM_MAINTENANCE_NAV_MANAGER", "Onderhoud");
+define("_AM_SYSTEM_MAINTENANCE_NAV_MANAGER","Onderhoud");
 define("_AM_SYSTEM_MAINTENANCE_NAV_LIST","Onderhoudslijst");
 define("_AM_SYSTEM_MAINTENANCE_NAV_DUMP","Dump");
 
@@ -57,16 +57,16 @@ define("_AM_SYSTEM_MAINTENANCE_TABLES_ANALYZE","Analyseren");
 define("_AM_SYSTEM_MAINTENANCE_DUMP","Dump");
 define("_AM_SYSTEM_MAINTENANCE_DUMP_TABLES_OR_MODULES","Tabellen of modules selecteren");
 define("_AM_SYSTEM_MAINTENANCE_DUMP_DROP","Voeg commando DROP TABLE IF EXISTS 'tables' toe aan de dump");
-define("_AM_SYSTEM_MAINTENANCE_DUMP_OR", "OF");
-define("_AM_SYSTEM_MAINTENANCE_DUMP_AND", "EN");
-define("_AM_SYSTEM_MAINTENANCE_DUMP_ERROR_TABLES_OR_MODULES", "Tabellen of modules moeten geselecteerd worden.");
-define("_AM_SYSTEM_MAINTENANCE_DUMP_NO_TABLES", "Geen tabellen");
-define("_AM_SYSTEM_MAINTENANCE_DUMP_TABLES", "Tabellen");
-define("_AM_SYSTEM_MAINTENANCE_DUMP_STRUCTURES", "Structuren");
-define("_AM_SYSTEM_MAINTENANCE_DUMP_NB_RECORDS", "Aantal records");
-define("_AM_SYSTEM_MAINTENANCE_DUMP_FILE_CREATED", "Bestand aangemaakt");
-define("_AM_SYSTEM_MAINTENANCE_DUMP_RESULT", "Resultaat");
-define("_AM_SYSTEM_MAINTENANCE_DUMP_RECORDS", "record(s)");
+define("_AM_SYSTEM_MAINTENANCE_DUMP_OR","OF");
+define("_AM_SYSTEM_MAINTENANCE_DUMP_AND","EN");
+define("_AM_SYSTEM_MAINTENANCE_DUMP_ERROR_TABLES_OR_MODULES","Tabellen of modules moeten geselecteerd worden.");
+define("_AM_SYSTEM_MAINTENANCE_DUMP_NO_TABLES","Geen tabellen");
+define("_AM_SYSTEM_MAINTENANCE_DUMP_TABLES","Tabellen");
+define("_AM_SYSTEM_MAINTENANCE_DUMP_STRUCTURES","Structuren");
+define("_AM_SYSTEM_MAINTENANCE_DUMP_NB_RECORDS","Aantal records");
+define("_AM_SYSTEM_MAINTENANCE_DUMP_FILE_CREATED","Bestand aangemaakt");
+define("_AM_SYSTEM_MAINTENANCE_DUMP_RESULT","Resultaat");
+define("_AM_SYSTEM_MAINTENANCE_DUMP_RECORDS","record(s)");
 
 // Tips
 define("_AM_SYSTEM_MAINTENANCE_TIPS", 

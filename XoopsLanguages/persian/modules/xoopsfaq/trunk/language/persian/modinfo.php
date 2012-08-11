@@ -24,23 +24,23 @@ defined( 'XOOPS_ROOT_PATH' ) or die( 'Restricted access' );
 /**
  * Module Version
  */
-define( '_XO_MI_XOOPSFAQ_NAME', 'پرسش های همگانی زوپس' );
-define( '_XO_MI_XOOPSFAQ_DESC', 'سیستم مدیریت پرسش های همگانی' );
+define('_XO_MI_XOOPSFAQ_NAME','پرسش های همگانی زوپس' );
+define('_XO_MI_XOOPSFAQ_DESC','سیستم مدیریت پرسش های همگانی' );
 
 /**
  * Module Menu
  */
-define( '_XO_MI_MENU_MODULEHOME', 'صفحه اصلی ماژول' );
-define( '_XO_MI_MENU_MODULEBLOCKS', 'بلاک ها' );
-define( '_XO_MI_MENU_MODULETEMPLATES', 'الگو ها' );
-define( '_XO_MI_MENU_MODULECOMMENTS', 'نظر ها' );
-define( '_XO_MI_MENU_ADMININDEX', ' صفحه اصلی مدیریت' );
-define( '_XO_MI_MENU_ADMINCATEGORY', 'شاخه' );
+define('_XO_MI_MENU_MODULEHOME','صفحه اصلی ماژول' );
+define('_XO_MI_MENU_MODULEBLOCKS','بلاک ها' );
+define('_XO_MI_MENU_MODULETEMPLATES','الگو ها' );
+define('_XO_MI_MENU_MODULECOMMENTS','نظر ها' );
+define('_XO_MI_MENU_ADMININDEX',' صفحه اصلی مدیریت' );
+define('_XO_MI_MENU_ADMINCATEGORY','شاخه' );
 
 /**
  * Module Prefs
  */
-define( '_XO_MI_XOOPSFAQ_EDITORS', 'انتخاب ویرایشگر:' );
-define( '_XO_MI_XOOPSFAQ_EDITORS_DSC', 'لطفا ویرایشگری را که میخواهید از آن استفاده کنید انتخاب کنید؟ <br />شاید لازم باشد قبل از استفاده از ویرایشگر آن را نصب کنید.' );
+define('_XO_MI_XOOPSFAQ_EDITORS','انتخاب ویرایشگر:' );
+define('_XO_MI_XOOPSFAQ_EDITORS_DSC','لطفا ویرایشگری را که میخواهید از آن استفاده کنید انتخاب کنید؟ <br />شاید لازم باشد قبل از استفاده از ویرایشگر آن را نصب کنید.' );
 
 ?>

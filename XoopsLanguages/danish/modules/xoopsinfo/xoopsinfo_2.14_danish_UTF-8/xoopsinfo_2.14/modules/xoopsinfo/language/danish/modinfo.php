@@ -33,8 +33,8 @@ define("_MI_XI_ADMENU5","Editors Info.");
 define("_MI_XI_ADMENU6","Overriding Info.");
 define("_MI_XI_ADMENU7","Mimetypes");
 
-define("_MI_XI_XOOPS_DEBUG", "Debug mode");
-define("_MI_XI_XOOPS_THEME", "Aktiver Tema som standard");
+define("_MI_XI_XOOPS_DEBUG","Debug mode");
+define("_MI_XI_XOOPS_THEME","Aktiver Tema som standard");
 define("_MI_XI_XOOPS_CACHE","Slet cache filer");
 define("_MI_XI_XOOPS_TEMPLATE","Slet template_c filer");
 define("_MI_XI_XOOPS_PROTECTOR","<font color='#CC0000'>Protector : </font>Temporary disabled");
@@ -50,7 +50,7 @@ define("_MI_XI_UPDATE_MODULE","<font color='#CC0000'>Opdater modul</font>");
 define("_MI_XI_NEWVERSION","<font color='#000099'>Ny modul version</font>");
 define("_MI_XI_HELP","Hjælp");
 
-define("_AM_XI_MODULE_LEGEND_UPDATE", "Opdateringen af modulet blev ikke gennemført !!!");
+define("_AM_XI_MODULE_LEGEND_UPDATE","Opdateringen af modulet blev ikke gennemført !!!");
 define("_AM_XI_MODULE_LEGEND_DOWNLOAD","En ny version af modulet er tilgængelige i download");
 
 // Options
@@ -78,8 +78,8 @@ define("_MI_XI_PASSWORD_DSC","Hvis du af en eller anden grund ikke har adgang ti
 
 
  // Version 2.12
-define("_MI_XI_REFERER", "Henvisning godkendt til <font color='#CC0000'>xoopsinfo.php</font>");
-define("_MI_XI_REFERER_DSC", "adskilt af <font color='#CC0000'><b>|</b></font>");
+define("_MI_XI_REFERER","Henvisning godkendt til <font color='#CC0000'>xoopsinfo.php</font>");
+define("_MI_XI_REFERER_DSC","adskilt af <font color='#CC0000'><b>|</b></font>");
 
 define("_MI_XI_ADMENU8","System info");
 
@@ -93,7 +93,7 @@ define("_MI_PHPSYSINFO_LANG_DEF","en");
 define("_MI_PHPSYSINFO_THEME","[PHPSYSINFO] Standard tema");
 define("_MI_PHPSYSINFO_THEME_DSC","Temaerne er listet i filen skabeloner af phpsysinfo");
 
-define("_MI_XI_XOOPS_SESSION_TABLE", "Optimer session table");
+define("_MI_XI_XOOPS_SESSION_TABLE","Optimer session table");
 
  // Version 2.13
 define("_MI_XI_ADMENU9","PHP Sikkerheds Information");

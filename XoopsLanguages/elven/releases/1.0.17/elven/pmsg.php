@@ -17,7 +17,7 @@ define("_PM_NEXT","Ento Lekmee");
 
 //%%%%%%	Ai Parma Esse pmlite.php 	%%%%%
 define("_PM_SORRY","Aiya! Lle are not a' yanwyassene gwaith.");
-define("_PM_REGISTERNOW","Register n�Umaw!");
+define("_PM_REGISTERNOW","Register nâ€™Umaw!");
 define("_PM_GOBACK","Na'Sii' Back");
 define("_PM_USERNOEXIST","Tanya yassene gwaith doesn't turs'sinta yassene tanya database.");
 define("_PM_PLZTRYAGAIN","Please check tanya name and try au'.");
@@ -35,11 +35,11 @@ define("_PM_SUBMIT","Sama");
 //%%%%%%	Ai Parma Esse viewpmsg.php 	%%%%%
 define("_PM_SUBJECT","Essain");
 define("_PM_DATE","Yaluumesse");
-define("_PM_NOTREAD","n�Umat Read");
+define("_PM_NOTREAD","nâ€™Umat Read");
 define("_PM_SEND","Fain");
 define("_PM_DELETE","Kela");
-define("_PM_REPLY", "Yellekmee");
+define("_PM_REPLY","Yellekmee");
 define("_PM_PLZREG","Yanwyassein first a' sama dina lekmees!");
 
-define("_PM_ONLINE", "Yassene");
+define("_PM_ONLINE","Yassene");
 ?>

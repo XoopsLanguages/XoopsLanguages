@@ -26,7 +26,7 @@ define("_AM_CBLEFT","Централен блок - Ляво");
 define("_AM_CBRIGHT","Централен блок - Дясно");
 define("_AM_CBCENTER","Централен блок - Център");
 define("_AM_OPTIONS","Опции");
-define("_AM_CONTENT", "Съдържание");
+define("_AM_CONTENT","Съдържание");
 define("_AM_SUBMIT","Потвърди");
 define("_AM_DISPRIGHT","Показва само десните блокове");
 define("_AM_SAVECHANGES","Запазва промените");
@@ -37,28 +37,28 @@ define("_AM_RUSUREDEL","Сигурен ли сте, че искате да из�
 define("_AM_NAME","Име");
 define("_AM_USEFULTAGS","Полезни тагове:");
 define("_AM_BLOCKTAG1","%s ще извади %s");
-define('_AM_SVISIBLEIN', 'Показва блокове видими в %s');
-define('_AM_TOPPAGE', 'Главна страница');
-define('_AM_VISIBLEIN', 'Видим в');
-define('_AM_ALLPAGES', 'Всички главни страници');
-define('_AM_TOPONLY', 'Само на главната страница');
-define('_AM_ADVANCED', 'Допълнителни настройки');
-define('_AM_BCACHETIME', 'Време в кеша');
-define('_AM_BALIAS', 'Присъединено име');
-define('_AM_CLONE', 'Клонирай');  // clone a block
-define('_AM_CLONEBLK', 'Клониран'); // cloned block
-define('_AM_CLONEBLOCK', 'Създава клониран блок');
-define('_AM_NOTSELNG', "'%s' не е избран!"); // error message
-define('_AM_EDITTPL', 'Редактира структурата');
-define('_AM_MODULE', 'Модул');
-define('_AM_GROUP', 'Група');
-define('_AM_UNASSIGNED', 'Не е прикачен');
-define('_AM_ADMINBLOCK', 'Админ. Главна страница');
-define("_AM_NOTVISIBLE", "Не е видим");
-define("_AM_VISIBLETOGROUPS", "Видим за групи");
+define('_AM_SVISIBLEIN','Показва блокове видими в %s');
+define('_AM_TOPPAGE','Главна страница');
+define('_AM_VISIBLEIN','Видим в');
+define('_AM_ALLPAGES','Всички главни страници');
+define('_AM_TOPONLY','Само на главната страница');
+define('_AM_ADVANCED','Допълнителни настройки');
+define('_AM_BCACHETIME','Време в кеша');
+define('_AM_BALIAS','Присъединено име');
+define('_AM_CLONE','Клонирай');  // clone a block
+define('_AM_CLONEBLK','Клониран'); // cloned block
+define('_AM_CLONEBLOCK','Създава клониран блок');
+define('_AM_NOTSELNG',"'%s' не е избран!"); // error message
+define('_AM_EDITTPL','Редактира структурата');
+define('_AM_MODULE','Модул');
+define('_AM_GROUP','Група');
+define('_AM_UNASSIGNED','Не е прикачен');
+define('_AM_ADMINBLOCK','Админ. Главна страница');
+define("_AM_NOTVISIBLE","Не е видим");
+define("_AM_VISIBLETOGROUPS","Видим за групи");
 
-define("_AM_ERRORDURINGSAVE", "Грешка по време на записа, моля разрешете дебуга и опитайте отново");
+define("_AM_ERRORDURINGSAVE","Грешка по време на записа, моля разрешете дебуга и опитайте отново");
 
-define("_AM_ALLMODULEPAGES", "На всяка страница");
-define("_AM_SYSTEMLEVEL", "Системно ниво");
+define("_AM_ALLMODULEPAGES","На всяка страница");
+define("_AM_SYSTEMLEVEL","Системно ниво");
 ?>

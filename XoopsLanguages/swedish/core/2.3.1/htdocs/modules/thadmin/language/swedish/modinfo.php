@@ -16,14 +16,14 @@
  */
 
 // Main
-define('_THADMIN_MODULE_NAME', 'ThAdmin');
-define('_THADMIN_MODULE_DESC', 'ThAdmin �r en modul f�r att hantera teman enkom f�r administrationsdelen');
+define('_THADMIN_MODULE_NAME','ThAdmin');
+define('_THADMIN_MODULE_DESC','ThAdmin �r en modul f�r att hantera teman enkom f�r administrationsdelen');
 // Menu
-define('_THADMIN_MENU_HOME', 'Hem');
-define('_THADMIN_MENU_HELP', 'Hj�lp');
+define('_THADMIN_MENU_HOME','Hem');
+define('_THADMIN_MENU_HELP','Hj�lp');
 // Settings
-define('_THADMIN_ADMINTHEME', 'Standard tema');
-define('_THADMIN_ADMINTHEME_DESC', 'Välj ett standradtema för administrationsdelen');
-define('_THADMIN_CPANELEONLY', 'Visa varningar ?');
-define('_THADMIN_CPANELEONLY_DESC', 'Dölj varningsmeddelande i kontrollpanelens (cpanel) gränssnitt');
+define('_THADMIN_ADMINTHEME','Standard tema');
+define('_THADMIN_ADMINTHEME_DESC','Välj ett standradtema för administrationsdelen');
+define('_THADMIN_CPANELEONLY','Visa varningar ?');
+define('_THADMIN_CPANELEONLY_DESC','Dölj varningsmeddelande i kontrollpanelens (cpanel) gränssnitt');
 ?>

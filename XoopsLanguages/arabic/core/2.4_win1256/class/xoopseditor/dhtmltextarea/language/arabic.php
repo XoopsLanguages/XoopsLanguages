@@ -12,6 +12,6 @@
 /**
  * Assocated with editor_registry.php
  */
-define('_XOOPS_EDITOR_DHTMLTEXTAREA', 'ãÍÑÑ äÕæÕ ãÚ ÃßæÇÏ ÒææÈÓ');
+define('_XOOPS_EDITOR_DHTMLTEXTAREA','Ã£ÃÃ‘Ã‘ Ã¤Ã•Ã¦Ã• Ã£Ãš ÃƒÃŸÃ¦Ã‡Ã Ã’Ã¦Ã¦ÃˆÃ“');
 
 ?>

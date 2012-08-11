@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 /**
  * @copyright   The XOOPS Project http://sourceforge.net/projects/xoops/
  * @license     http://www.fsf.org/copyleft/gpl.html GNU public license
@@ -58,6 +58,6 @@ define('_AM_SYSTEM_FILEMANAGER_DIR_SUCCESS','Folder utworzony');
 define('_AM_SYSTEM_FILEMANAGER_DIR_ERROR','Nie udało się utworzyć folderu');
 define('_AM_SYSTEM_FILEMANAGER_DIR_RYSDEL','Czy jesteś pewien, że chcesz usunąć ten folder ?');
 define('_AM_SYSTEM_FILEMANAGER_FILE_SUCCESS','Plik utworzony');
-define('_AM_SYSTEM_FILEMANAGER_SUREDEL', 'Czy jesteś pewien że chces usunąć ten plik %s ?');
-define('_AM_SYSTEM_FILEMANAGER_DIR_SUREDEL', 'Czy jesteś pewien, że chcesz usunąć ten folder %s ?<br />UWAGA: wszystkie podfoldery i pliki zostaną usunięte');
+define('_AM_SYSTEM_FILEMANAGER_SUREDEL','Czy jesteś pewien że chces usunąć ten plik %s ?');
+define('_AM_SYSTEM_FILEMANAGER_DIR_SUREDEL','Czy jesteś pewien, że chcesz usunąć ten folder %s ?<br />UWAGA: wszystkie podfoldery i pliki zostaną usunięte');
 ?>

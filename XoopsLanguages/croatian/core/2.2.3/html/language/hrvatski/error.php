@@ -1,42 +1,42 @@
 <?php
-define("_ER_UP_MIMETYPELOAD", "Greöka pri uËitavanju mimetyp definicija");
-define("_ER_UP_FILENOTFOUND", "Datoteka nije pronaena");
-define("_ER_UP_INVALIDFILESIZE", "Neispravna veliËina datoteke");
-define("_ER_UP_FILENAMEEMPTY", "Ime datoteke je prazano");
-define("_ER_UP_NOFILEUPLOADED", "Nema datoteke za uËitavanje");
-define("_ER_UP_ERROROCCURRED", "Nastala greöka: Greöka #%s");
-define("_ER_UP_UPLOADDIRNOTSET", "Mapa za uËitavanje nije postavljena");
-define("_ER_UP_FAILEDOPENDIR", "Neuspjeöno otvaranje mape: %s");
-define("_ER_UP_FAILEDOPENDIRWRITE", "Neuspjeöno otvaranje mape s upisanom dozvolom: %s");
-define("_ER_UP_FILESIZETOOLARGE", "VeliËina datoteke je prevelika: %u");
-define("_ER_UP_FILEWIDTHTOOLARGE", "Datoteka mora biti manja od %u");
-define("_ER_UP_FILEHEIGHTTOOLARGE", "Visina datoteke mora biti manja od %u");
-define("_ER_UP_MIMETYPENOTALLOWED", "MIME tip nije dozvoljen: %s");
-define("_ER_UP_FAILEDUPLOADFILE", "Neuspjeöano uËitavanje datoteke: %s");
-define("_ER_UP_FAILEDFETCHIMAGESIZE", "Ne mogu dobaviti veliËinu slike %s, preskaÊem provjeru dimenzije..");
-define("_ER_UP_UNKNOWNFILETYPEREJECTED", "Nepoznata vrsta datoteke je odbijena");
-define("_ER_UP_ERRORSRETURNED", "Pojavila se greöka pri uËitavanju");
+define("_ER_UP_MIMETYPELOAD","Gre≈°ka pri u√®itavanju mimetyp definicija");
+define("_ER_UP_FILENOTFOUND","Datoteka nije prona√∞ena");
+define("_ER_UP_INVALIDFILESIZE","Neispravna veli√®ina datoteke");
+define("_ER_UP_FILENAMEEMPTY","Ime datoteke je prazano");
+define("_ER_UP_NOFILEUPLOADED","Nema datoteke za u√®itavanje");
+define("_ER_UP_ERROROCCURRED","Nastala gre≈°ka: Gre≈°ka #%s");
+define("_ER_UP_UPLOADDIRNOTSET","Mapa za u√®itavanje nije postavljena");
+define("_ER_UP_FAILEDOPENDIR","Neuspje≈°no otvaranje mape: %s");
+define("_ER_UP_FAILEDOPENDIRWRITE","Neuspje≈°no otvaranje mape s upisanom dozvolom: %s");
+define("_ER_UP_FILESIZETOOLARGE","Veli√®ina datoteke je prevelika: %u");
+define("_ER_UP_FILEWIDTHTOOLARGE","Datoteka mora biti manja od %u");
+define("_ER_UP_FILEHEIGHTTOOLARGE","Visina datoteke mora biti manja od %u");
+define("_ER_UP_MIMETYPENOTALLOWED","MIME tip nije dozvoljen: %s");
+define("_ER_UP_FAILEDUPLOADFILE","Neuspje≈°ano u√®itavanje datoteke: %s");
+define("_ER_UP_FAILEDFETCHIMAGESIZE","Ne mogu dobaviti veli√®inu slike %s, preska√¶em provjeru dimenzije..");
+define("_ER_UP_UNKNOWNFILETYPEREJECTED","Nepoznata vrsta datoteke je odbijena");
+define("_ER_UP_ERRORSRETURNED","Pojavila se gre≈°ka pri u√®itavanju");
 
-define("_ER_OB_ISREQUIRED", "%s je obavezno.");
-define("_ER_OB_MUSTBESHORTER", "%s mora sadrûavati manje od %u znakova.");
-define("_ER_OB_INVALIDEMAIL", "Neispravan email");
+define("_ER_OB_ISREQUIRED","%s je obavezno.");
+define("_ER_OB_MUSTBESHORTER","%s mora sadr≈æavati manje od %u znakova.");
+define("_ER_OB_INVALIDEMAIL","Neispravan email");
 
-define("_ER_SEC_TOKENEXPIRED", "VaûeÊa oznaka je zastarjela");
-define("_ER_SEC_NOTOKENFOUND", "Nije pronaena vaûeÊa sigurnosna oznaka u sesiji");
+define("_ER_SEC_TOKENEXPIRED","Va≈æe√¶a oznaka je zastarjela");
+define("_ER_SEC_NOTOKENFOUND","Nije prona√∞ena va≈æe√¶a sigurnosna oznaka u sesiji");
 
-define('_ER_US_INVALIDMAIL','GREäKA: Nesipravan email');
-define('_ER_US_EMAILNOSPACES','GREäKA: Email adrese ne sadrûe razmak.');
-define('_ER_US_INVALIDNICKNAME','GREäKA: Neispravno korisniËko ime');
-define('_ER_US_NICKNAMETOOLONG','KorisniËko ime je predugo. Mora sadrûavati manje od %s znakova.');
-define('_ER_US_NICKNAMETOOSHORT','KorisniËko ime je prekratko. Mora sadrûavat viöe od %s znakova.');
-define('_ER_US_NAMERESERVED','GREäKA: Ime je zauzeto.');
-define('_ER_US_NICKNAMENOSPACES','U korisniËkom imenu ne moûete imati razmake.');
-define('_ER_US_NICKNAMETAKEN','GREäKA: KorisniËko ime je zauzeto.');
-define('_ER_US_EMAILTAKEN','GREäKA: Email adresa se veÊ koristi.');
-define('_ER_US_ENTERPWD','GREäKA: Morate upisati lozinku.');
-define('_ER_US_SORRYNOTFOUND','Oprostite, ne mogu pronaÊi informacije o korisniku.');
-define('_ER_US_PASSNOTSAME','Lozinke se razlikuju. Obje lozinke moraju biti identiËne.');
-define('_ER_US_PWDTOOSHORT','Oprostite, vaöa lozinka mora sadrûavati barem <b>%s</b> znakova.');
+define('_ER_US_INVALIDMAIL','GRE≈†KA: Nesipravan email');
+define('_ER_US_EMAILNOSPACES','GRE≈†KA: Email adrese ne sadr≈æe razmak.');
+define('_ER_US_INVALIDNICKNAME','GRE≈†KA: Neispravno korisni√®ko ime');
+define('_ER_US_NICKNAMETOOLONG','Korisni√®ko ime je predugo. Mora sadr≈æavati manje od %s znakova.');
+define('_ER_US_NICKNAMETOOSHORT','Korisni√®ko ime je prekratko. Mora sadr≈æavat vi≈°e od %s znakova.');
+define('_ER_US_NAMERESERVED','GRE≈†KA: Ime je zauzeto.');
+define('_ER_US_NICKNAMENOSPACES','U korisni√®kom imenu ne mo≈æete imati razmake.');
+define('_ER_US_NICKNAMETAKEN','GRE≈†KA: Korisni√®ko ime je zauzeto.');
+define('_ER_US_EMAILTAKEN','GRE≈†KA: Email adresa se ve√¶ koristi.');
+define('_ER_US_ENTERPWD','GRE≈†KA: Morate upisati lozinku.');
+define('_ER_US_SORRYNOTFOUND','Oprostite, ne mogu prona√¶i informacije o korisniku.');
+define('_ER_US_PASSNOTSAME','Lozinke se razlikuju. Obje lozinke moraju biti identi√®ne.');
+define('_ER_US_PWDTOOSHORT','Oprostite, va≈°a lozinka mora sadr≈æavati barem <b>%s</b> znakova.');
 
-define("_ER_MAIL_PMMODULENOEXIST", "Trebate instalirati modul privatnih poruka (PM modul), da bi se mogli slati privatne poruke (PM poruke)");
+define("_ER_MAIL_PMMODULENOEXIST","Trebate instalirati modul privatnih poruka (PM modul), da bi se mogli slati privatne poruke (PM poruke)");
 ?>

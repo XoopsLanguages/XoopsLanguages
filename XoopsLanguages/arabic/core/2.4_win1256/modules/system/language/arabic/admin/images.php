@@ -6,24 +6,24 @@
 
 //%%%%%% Image Manager %%%%%
 
-define('_MD_IMGMAIN','ÅÏÇÑÉ ÇáÕæÑ');
+define('_MD_IMGMAIN','ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½');
 
-define('_MD_ADDIMGCAT','ÅÖÇÝÉ ÞÓã ááÕæÑ :');
-define('_MD_EDITIMGCAT','ÊÍÑíÑ ÞÓã ÇáÕæÑ :');
-define('_MD_IMGCATNAME','ÇÓã ÇáÞÓã :');
-define('_MD_IMGCATRGRP','ÍÏÏ ÇáãÌãæÚÉ ÇáÊí ÓÊÓÊÎÏã ÅÏÇÑÉ ÇáÕæÑ :<br /><br /><span style="font-weight: normal;">åÐå ÇáãÌãæÚÉ ÝÞØ ÊÓÊØíÚ ÇáÏÎæá æ ÇÓÊÎÏÇã ÇáÕæÑ¡ æ áßä áÇ ÊÓÊØíÚ  ÇáÊÍãíá  (Úãá ÃÈ áæÏ)  </span>');
-define('_MD_IMGCATWGRP','ÇÎÊÑ ÇáãÌãæÚÉ ÇáÊí ÊÓÊØíÚ Úãá ÃÈ áæÏ ááÕæÑ :<br /><br /><span style="font-weight: normal;">íÝÖá ÇÓÊÎÏÇãåÇ ÝÞØ ááãÏíÑ æÇáãÔÑÝíä</span>');
-define('_MD_IMGCATWEIGHT','ÊÑÊíÈ ÇáÚÑÖ Ýí ÅÏÇÑÉ ÇáÕæÑ:');
-define('_MD_IMGCATDISPLAY','ÚÑÖ åÐÇ ÇáÞÓã ¿');
-define('_MD_IMGCATSTRTYPE','ÇáÕæÑÉ Êã ÊÍãíáåÇ Çáì :');
-define('_MD_STRTYOPENG','åÐå áÇíãßä ÊÛíÑåÇ ÝíãÇ ÈÚÏ');
-define('_MD_INDB',' ÊÎÒíäåÇ Ýí ÞÇÚÏÉ ÇáÈíÇäÇÊ (ÈÕíÛÉ ÈíäÇÑí)');
-define('_MD_ASFILE',' ÊÎÒíäåÇ ßãáÝ ÚÇÏí (Ýí ÇáãÌáÏ ÇáãÎÕÕ ááÃÈáæÏ)<br />');
-define('_MD_RUDELIMGCAT','åá ÃäÊ ãÊÃßÏ ãä ãÓÍ åÐÇ ÇáÞÓã æ ÕæÑå ¿');
-define('_MD_RUDELIMG','åá ÃäÊ ãÊÃßÏ ãä ãÓÍ åÐå ÇáÕæÑÉ ¿');
+define('_MD_ADDIMGCAT','ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ :');
+define('_MD_EDITIMGCAT','ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ :');
+define('_MD_IMGCATNAME','ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ :');
+define('_MD_IMGCATRGRP','ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ :<br /><br /><span style="font-weight: normal;">ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ñ¡ ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½  ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½  (ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½)  </span>');
+define('_MD_IMGCATWGRP','ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ :<br /><br /><span style="font-weight: normal;">ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</span>');
+define('_MD_IMGCATWEIGHT','ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½:');
+define('_MD_IMGCATDISPLAY','ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½');
+define('_MD_IMGCATSTRTYPE','ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ :');
+define('_MD_STRTYOPENG','ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½');
+define('_MD_INDB',' ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ (ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½)');
+define('_MD_ASFILE',' ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ (ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½)<br />');
+define('_MD_RUDELIMGCAT','ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½');
+define('_MD_RUDELIMG','ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½');
 
-define('_MD_FAILDEL', 'áÞÏ ÊÚËÑ ãÓÍ ÇáÕæÑÉ  %s ãä ÞÇÚÏÉ ÇáÈíÇäÇÊ');
-define('_MD_FAILDELCAT', 'áÞÏ ÊÚËÑ ãÓÍ ÇáÞÓã  %s ãä ÞÇÚÏÉ ÇáÈíÇäÇÊ');
-define('_MD_FAILUNLINK', 'áÞÏ ÊÚËÑ ãÓÍ ÇáÕæÑÉ  %s ãä ÇáãÌáÏ ÇáãæÌæÏ Ýí ãæÞÚß');
+define('_MD_FAILDEL','ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½  %s ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½');
+define('_MD_FAILDELCAT','ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½  %s ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½');
+define('_MD_FAILUNLINK','ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½  %s ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½');
 
 ?>

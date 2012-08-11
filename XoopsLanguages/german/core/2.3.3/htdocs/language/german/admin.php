@@ -14,8 +14,8 @@ define("_AD_NICKNAME","Mitgliedsname:");
 define("_AD_EMAIL","E-Mail:");
 define("_AD_AVATAR","Avatar:");
 define("_AD_REGISTERED","Registriert am:"); //Registered Date
-define('_AD_PRESSGEN', 'Dies ist das erste Mal, dass Du den Admin-Bereich betrittst. Bitte klicke auf \"Abschicken\" um fortzufahren.');
-define('_AD_LOGINADMIN', 'EINLOGGEN...');
+define('_AD_PRESSGEN','Dies ist das erste Mal, dass Du den Admin-Bereich betrittst. Bitte klicke auf \"Abschicken\" um fortzufahren.');
+define('_AD_LOGINADMIN','EINLOGGEN...');
 
 define("_AD_WARNINGINSTALL","WARNUNG: Das Verzeichnis %s existiert noch auf dem Server. Entfernen Sie bitte dieses Verzeichnis aus Sicherheitsgründen.");
 define("_AD_WARNINGWRITEABLE","WARNUNG: Die Datei %s ist nicht schreibgeschützt auf dem Server. <br />Bitte setzen Sie die Zugriffsrechte richtig. Ansonsten wird das zu einem Sicherheitsrisiko!<br /> (unter Unix (444), unter Win32 (schreibgeschützt))");

@@ -75,7 +75,7 @@ define("_AM_SYSTEM_BANNERS_USEHTML","Use Html?");
 define("_AM_SYSTEM_BANNERS_CODEHTML","Code Html:");
 
 // Tips
-define("_AM_SYSTEM_BANNERS_NAV_TIPS", "
+define("_AM_SYSTEM_BANNERS_NAV_TIPS","
 <ul>
 <li>Add, modify and update category, banners and client.</li>
 </ul>

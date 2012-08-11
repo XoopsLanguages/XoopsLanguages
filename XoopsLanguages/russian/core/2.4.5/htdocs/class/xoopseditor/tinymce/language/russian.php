@@ -18,12 +18,12 @@
 // Translator: andrey3761
 
 // Name of the editor
-define("_XOOPS_EDITOR_TINYMCE", "TinyMCE v3.3.7");
+define("_XOOPS_EDITOR_TINYMCE","TinyMCE v3.3.7");
 
 // The value must be the same as /tinymce/jscripts/langs/your_language_code, for example, "en" for English, "fr" for French
 // For details, check http://tinymce.moxiecode.com/download_i18n.php
-define("_XOOPS_EDITOR_TINYMCE_LANGUAGE", "ru");
+define("_XOOPS_EDITOR_TINYMCE_LANGUAGE","ru");
 
 // FONT LIST, FORMAT: "Name=value1,value2;Name=value"
-define("_XOOPS_EDITOR_TINYMCE_FONTS", "Arial=arial,helvetica,sans-serif;Courier New=courier new,courier,monospace;Georgia=georgia,times new roman,times,serif;Tahoma=tahoma,arial,helvetica,sans-serif;Times New Roman=times new roman,times,serif;Verdana=verdana,arial,helvetica,sans-serif;Impact=impact;WingDings=wingdings");
+define("_XOOPS_EDITOR_TINYMCE_FONTS","Arial=arial,helvetica,sans-serif;Courier New=courier new,courier,monospace;Georgia=georgia,times new roman,times,serif;Tahoma=tahoma,arial,helvetica,sans-serif;Times New Roman=times new roman,times,serif;Verdana=verdana,arial,helvetica,sans-serif;Impact=impact;WingDings=wingdings");
 ?>

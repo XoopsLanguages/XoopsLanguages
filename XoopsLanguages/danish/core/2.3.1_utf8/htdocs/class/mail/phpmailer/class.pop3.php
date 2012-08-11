@@ -242,7 +242,7 @@ class POP3
       //  Increase the stream time-out
 
       //  Check for PHP 4.3.0 or later
-      if (version_compare(phpversion(), '4.3.0', 'ge'))
+      if (version_compare(phpversion(), '4.3.0','ge'))
       {
         stream_set_timeout($this->pop_conn, $tval, 0);
       }

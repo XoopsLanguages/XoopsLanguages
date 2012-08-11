@@ -26,7 +26,7 @@
 
 class upgrade_240 extends xoopsUpgrade
 {
-    var $tasks = array('keys', 'version');
+    var $tasks = array('keys','version');
 
     function check_version()
     {
@@ -149,7 +149,7 @@ class upgrade_240 extends xoopsUpgrade
                 }
             }
         }
-        $ret = str_replace('--', '-', $ret);
+        $ret = str_replace('--','-', $ret);
         if (substr($ret, 0, 1) == '-') {
             $ret = substr($ret, 2, strlen($ret));
         }
@@ -165,9 +165,9 @@ class upgrade_240 extends xoopsUpgrade
      */
     function check_keys()
     {
-        $tables['modules']        = array('isactive', 'weight', 'hascomments');
+        $tables['modules']        = array('isactive','weight','hascomments');
         $tables['users']          = array('level');
-        $tables['online']         = array('online_updated', 'online_uid');
+        $tables['online']         = array('online_updated','online_uid');
         $tables['config']         = array('conf_order');
         $tables['xoopscomments']  = array('com_status');
 
@@ -195,9 +195,9 @@ class upgrade_240 extends xoopsUpgrade
      */
     function apply_keys()
     {
-        $tables['modules']        = array('isactive', 'weight', 'hascomments');
+        $tables['modules']        = array('isactive','weight','hascomments');
         $tables['users']          = array('level');
-        $tables['online']         = array('online_updated', 'online_uid');
+        $tables['online']         = array('online_updated','online_uid');
         $tables['config']         = array('conf_order');
         $tables['xoopscomments']  = array('com_status');
 

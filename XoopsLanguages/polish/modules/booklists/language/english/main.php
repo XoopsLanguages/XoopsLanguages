@@ -56,7 +56,7 @@ define("_MD_LINKID","Link ID: ");
 define("_MD_SITETITLE","Book Title: ");
 define("_MD_SITEURL","Website/Reseller URL: ");
 define("_MD_OPTIONS","Options: ");
-define("_MD_NOTIFYAPPROVE", "Notify me when this submission is approved");
+define("_MD_NOTIFYAPPROVE","Notify me when this submission is approved");
 define("_MD_SHOTIMAGE","Screenshot Img: ");
 define("_MD_SENDREQUEST","Send Request");
 

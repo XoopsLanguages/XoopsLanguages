@@ -59,8 +59,8 @@ define('_PM_DATE','Дата');
 define('_PM_NOTREAD','Не прочитано');
 define('_PM_SEND','Отправить сообщение');
 define('_PM_DELETE','Удалить');
-define('_PM_REPLY', 'Ответить');
+define('_PM_REPLY','Ответить');
 define('_PM_PLZREG','Пожалуйста сначала зарегистрируйтесь для отправки личных сообщений!');
-define('_PM_ONLINE', 'Пользователь активен');
+define('_PM_ONLINE','Пользователь активен');
 
 ?>

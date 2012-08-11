@@ -14,8 +14,8 @@
 /*
  * Assocated with editor_registry.php
  */
-define("_XOOPS_EDITOR_XINHA", "Xinha v0.95");
-define("_XOOPS_EDITOR_XINHA_LANGUAGE", "ar");
+define("_XOOPS_EDITOR_XINHA","Xinha v0.95");
+define("_XOOPS_EDITOR_XINHA_LANGUAGE","ar");
 // FONT LIST, FORMAT: "Name=value1,value2;Name=value"
-define("_XOOPS_EDITOR_XINHA_FONTS", "Arabic Transparent=Arabic Transparent;Traditional Arabic=Traditional Arabic;Andalus=Andalus;Arial=arial,helvetica,sans-serif;Courier New=courier new,courier,monospace;Georgia=georgia,times new roman,times,serif;Tahoma=tahoma,arial,helvetica,sans-serif;Times New Roman=times new roman,times,serif;Verdana=verdana,arial,helvetica,sans-serif;Impact=impact;WingDings=wingdings");
+define("_XOOPS_EDITOR_XINHA_FONTS","Arabic Transparent=Arabic Transparent;Traditional Arabic=Traditional Arabic;Andalus=Andalus;Arial=arial,helvetica,sans-serif;Courier New=courier new,courier,monospace;Georgia=georgia,times new roman,times,serif;Tahoma=tahoma,arial,helvetica,sans-serif;Times New Roman=times new roman,times,serif;Verdana=verdana,arial,helvetica,sans-serif;Impact=impact;WingDings=wingdings");
 ?>

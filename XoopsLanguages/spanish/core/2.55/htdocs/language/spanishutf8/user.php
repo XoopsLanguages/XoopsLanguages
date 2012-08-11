@@ -39,7 +39,7 @@ define('_US_REGISTERNG','Imposible registrar al nuevo usuario.');
 define('_US_MAILOK','¿Recibir noticias <br /> enviadas por los administradores?');
 define('_US_DISCLAIMER','Condiciones de registro');
 define('_US_IAGREE','He leído y acepto las condiciones');
-define('_US_UNEEDAGREE', 'Es necesario aceptar las condiciones para poder registrarse.');
+define('_US_UNEEDAGREE','Es necesario aceptar las condiciones para poder registrarse.');
 define('_US_NOREGISTER','Disculpe, el registro de usuarios está deshabilitado.');
 // %s is username. This is a subject for email
 define('_US_USERKEYFOR','Activación de usuario para %s'); 
@@ -63,13 +63,13 @@ define('_US_ENTERPWD','Error: no ha proporcionado una contraseña');
 define('_US_SORRYNOTFOUND','Lo Lamento, información correspondiente al usuario no encontrada.');
 // %s is your site name
 define('_US_NEWPWDREQ','Nueva contraseña requerida en %s');
-define('_US_YOURACCOUNT', 'Su cuenta en %s');
+define('_US_YOURACCOUNT','Su cuenta en %s');
 define('_US_MAILPWDNG','mail_password: no fue posible actualizar. Contacte a la Administración');
 // %s is a username
 define('_US_PWDMAILED','Nueva contraseña para %s enviada.');
 define('_US_CONFMAIL','Mensaje de confirmación para %s enviado.');
-define('_US_ACTVMAILNG', 'Falló el envío de notificación por correo a %s');
-define('_US_ACTVMAILOK', 'Notificación por correo a %s enviado.');
+define('_US_ACTVMAILNG','Falló el envío de notificación por correo a %s');
+define('_US_ACTVMAILOK','Notificación por correo a %s enviado.');
 //%%%%%%		File Name userinfo.php 		%%%%%
 define('_US_SELECTNG','¡Usuario no seleccionado! Por favor, regrese e inténtelo de nuevo.');
 define('_US_PM','Mensaje Privado');
@@ -117,15 +117,15 @@ define('_US_MAXPIXEL','Max. Píxeles');
 define('_US_MAXIMGSZ','Max. tamaño de imagen (bytes)');
 define('_US_SELFILE','Seleccionar archivo');
 define('_US_OLDDELETED','¡Al cambiar de avatar el antiguo será eliminado!');
-define('_US_CHOOSEAVT', 'Elegir avatar desde una lista.');
-define('_US_PRESSLOGIN', 'Pulse sobre el botón para identificarse');
-define('_US_ADMINNO', 'Es imposible eliminar a los administradores');
-define('_US_GROUPS', 'Grupos de usuario');	
-define('_US_REMEMBERME', 'Recordar');	 
+define('_US_CHOOSEAVT','Elegir avatar desde una lista.');
+define('_US_PRESSLOGIN','Pulse sobre el botón para identificarse');
+define('_US_ADMINNO','Es imposible eliminar a los administradores');
+define('_US_GROUPS','Grupos de usuario');	
+define('_US_REMEMBERME','Recordar');	 
 // Welcoming emai/PM subject
-define('_US_WELCOME_SUBJECT', 'Bienvenido a %s');
+define('_US_WELCOME_SUBJECT','Bienvenido a %s');
 
 //XOOPS 2.5.4
-define('_US_SKYPE', 'Skype');
-define('_US_FACEBOOK', 'Facebook');
+define('_US_SKYPE','Skype');
+define('_US_FACEBOOK','Facebook');
 ?>

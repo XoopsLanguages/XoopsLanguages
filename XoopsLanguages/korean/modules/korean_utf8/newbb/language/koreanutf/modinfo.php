@@ -56,43 +56,43 @@ define("_MI_NEWBB_ADMENU8","카테고리 위치변경");
 // RMV-NOTIFY
 // Notification event descriptions and mail templates
 
-define ('_MI_NEWBB_THREAD_NOTIFY', '표시중인 토픽');
-define ('_MI_NEWBB_THREAD_NOTIFYDSC', '표시중인 토픽에 대한 통지옵션');
+define('_MI_NEWBB_THREAD_NOTIFY','표시중인 토픽');
+define('_MI_NEWBB_THREAD_NOTIFYDSC','표시중인 토픽에 대한 통지옵션');
 
-define ('_MI_NEWBB_FORUM_NOTIFY', '표시중인 토론방');
-define ('_MI_NEWBB_FORUM_NOTIFYDSC', '표시중인 토론방에 대한 통지옵션');
+define('_MI_NEWBB_FORUM_NOTIFY','표시중인 토론방');
+define('_MI_NEWBB_FORUM_NOTIFYDSC','표시중인 토론방에 대한 통지옵션');
 
-define ('_MI_NEWBB_GLOBAL_NOTIFY', '모듈전체');
-define ('_MI_NEWBB_GLOBAL_NOTIFYDSC', '포럼모듈 전체에 대한 통지옵션');
+define('_MI_NEWBB_GLOBAL_NOTIFY','모듈전체');
+define('_MI_NEWBB_GLOBAL_NOTIFYDSC','포럼모듈 전체에 대한 통지옵션');
 
-define ('_MI_NEWBB_THREAD_NEWPOST_NOTIFY', '답글의 투고');
-define ('_MI_NEWBB_THREAD_NEWPOST_NOTIFYCAP', '이 토픽에 대한 답글이 투고된 경우 통지함');
-define ('_MI_NEWBB_THREAD_NEWPOST_NOTIFYDSC', '이 토픽에 대한 답글이 투고된 경우 통지해 줍니다.');
-define ('_MI_NEWBB_THREAD_NEWPOST_NOTIFYSBJ', '[{X_SITENAME}] {X_MODULE} auto-notify : 토픽내에 새로운 답글이 투고되었습니다.');
+define('_MI_NEWBB_THREAD_NEWPOST_NOTIFY','답글의 투고');
+define('_MI_NEWBB_THREAD_NEWPOST_NOTIFYCAP','이 토픽에 대한 답글이 투고된 경우 통지함');
+define('_MI_NEWBB_THREAD_NEWPOST_NOTIFYDSC','이 토픽에 대한 답글이 투고된 경우 통지해 줍니다.');
+define('_MI_NEWBB_THREAD_NEWPOST_NOTIFYSBJ','[{X_SITENAME}] {X_MODULE} auto-notify : 토픽내에 새로운 답글이 투고되었습니다.');
 
-define ('_MI_NEWBB_FORUM_NEWTHREAD_NOTIFY', '신규 토픽');
-define ('_MI_NEWBB_FORUM_NEWTHREAD_NOTIFYCAP', '이 토론방에 신규 토픽이 신설된 경우 통지함.');
-define ('_MI_NEWBB_FORUM_NEWTHREAD_NOTIFYDSC', '이 토론방에 신규 토픽이 신설된 경우 통지해 줍니다..');
-define ('_MI_NEWBB_FORUM_NEWTHREAD_NOTIFYSBJ', '[{X_SITENAME}] {X_MODULE} auto-notify : 토론방에 신규 토픽이 투고되었습니다.');
+define('_MI_NEWBB_FORUM_NEWTHREAD_NOTIFY','신규 토픽');
+define('_MI_NEWBB_FORUM_NEWTHREAD_NOTIFYCAP','이 토론방에 신규 토픽이 신설된 경우 통지함.');
+define('_MI_NEWBB_FORUM_NEWTHREAD_NOTIFYDSC','이 토론방에 신규 토픽이 신설된 경우 통지해 줍니다..');
+define('_MI_NEWBB_FORUM_NEWTHREAD_NOTIFYSBJ','[{X_SITENAME}] {X_MODULE} auto-notify : 토론방에 신규 토픽이 투고되었습니다.');
 
-define ('_MI_NEWBB_GLOBAL_NEWFORUM_NOTIFY', '신규 토론방');
-define ('_MI_NEWBB_GLOBAL_NEWFORUM_NOTIFYCAP', '신규 토론방이 만들어진 경우 통지함.');
-define ('_MI_NEWBB_GLOBAL_NEWFORUM_NOTIFYDSC', '신규 토론방이 만들어진 경우 통지해 줍니다.');
-define ('_MI_NEWBB_GLOBAL_NEWFORUM_NOTIFYSBJ', '[{X_SITENAME}] {X_MODULE} auto-notify : 신규 토론방이 만들어졌습니다.');
+define('_MI_NEWBB_GLOBAL_NEWFORUM_NOTIFY','신규 토론방');
+define('_MI_NEWBB_GLOBAL_NEWFORUM_NOTIFYCAP','신규 토론방이 만들어진 경우 통지함.');
+define('_MI_NEWBB_GLOBAL_NEWFORUM_NOTIFYDSC','신규 토론방이 만들어진 경우 통지해 줍니다.');
+define('_MI_NEWBB_GLOBAL_NEWFORUM_NOTIFYSBJ','[{X_SITENAME}] {X_MODULE} auto-notify : 신규 토론방이 만들어졌습니다.');
 
-define ('_MI_NEWBB_GLOBAL_NEWPOST_NOTIFY', '신규 투고');
-define ('_MI_NEWBB_GLOBAL_NEWPOST_NOTIFYCAP', '신규 토픽 또는 답글이 투고된 경우 통지함.');
-define ('_MI_NEWBB_GLOBAL_NEWPOST_NOTIFYDSC', '신규 토픽 또는 답글이 투고된 경우 통지해 줍니다.');
-define ('_MI_NEWBB_GLOBAL_NEWPOST_NOTIFYSBJ', '[{X_SITENAME}] {X_MODULE} auto-notify : 신규 투고가 있었습니다.');
+define('_MI_NEWBB_GLOBAL_NEWPOST_NOTIFY','신규 투고');
+define('_MI_NEWBB_GLOBAL_NEWPOST_NOTIFYCAP','신규 토픽 또는 답글이 투고된 경우 통지함.');
+define('_MI_NEWBB_GLOBAL_NEWPOST_NOTIFYDSC','신규 토픽 또는 답글이 투고된 경우 통지해 줍니다.');
+define('_MI_NEWBB_GLOBAL_NEWPOST_NOTIFYSBJ','[{X_SITENAME}] {X_MODULE} auto-notify : 신규 투고가 있었습니다.');
 
-define ('_MI_NEWBB_FORUM_NEWPOST_NOTIFY', '신규 투고');
-define ('_MI_NEWBB_FORUM_NEWPOST_NOTIFYCAP', '이 토론방에 신규 투고가 있는 경우 통지함.');
-define ('_MI_NEWBB_FORUM_NEWPOST_NOTIFYDSC', '이 토론방에 신규 투고가 있는 경우 통지해 줍니다.');
-define ('_MI_NEWBB_FORUM_NEWPOST_NOTIFYSBJ', '[{X_SITENAME}] {X_MODULE} auto-notify : 토론방에 신규 투고가 있었습니다.');
+define('_MI_NEWBB_FORUM_NEWPOST_NOTIFY','신규 투고');
+define('_MI_NEWBB_FORUM_NEWPOST_NOTIFYCAP','이 토론방에 신규 투고가 있는 경우 통지함.');
+define('_MI_NEWBB_FORUM_NEWPOST_NOTIFYDSC','이 토론방에 신규 투고가 있는 경우 통지해 줍니다.');
+define('_MI_NEWBB_FORUM_NEWPOST_NOTIFYSBJ','[{X_SITENAME}] {X_MODULE} auto-notify : 토론방에 신규 투고가 있었습니다.');
 
-define ('_MI_NEWBB_GLOBAL_NEWFULLPOST_NOTIFY', '신규 투고 (투고글 포함)');
-define ('_MI_NEWBB_GLOBAL_NEWFULLPOST_NOTIFYCAP', '신규 토픽 또는 답글이 투고된 경우 통지함(투고글포함)');
-define ('_MI_NEWBB_GLOBAL_NEWFULLPOST_NOTIFYDSC', '신규 토픽 또는 답글이 투고된 경우 투고글도 포함해서 통지해 줍니다.');
-define ('_MI_NEWBB_GLOBAL_NEWFULLPOST_NOTIFYSBJ', '[{X_SITENAME}] {X_MODULE} auto-notify : 신규 투고가 있었습니다. (투고글 포함)');
+define('_MI_NEWBB_GLOBAL_NEWFULLPOST_NOTIFY','신규 투고 (투고글 포함)');
+define('_MI_NEWBB_GLOBAL_NEWFULLPOST_NOTIFYCAP','신규 토픽 또는 답글이 투고된 경우 통지함(투고글포함)');
+define('_MI_NEWBB_GLOBAL_NEWFULLPOST_NOTIFYDSC','신규 토픽 또는 답글이 투고된 경우 투고글도 포함해서 통지해 줍니다.');
+define('_MI_NEWBB_GLOBAL_NEWFULLPOST_NOTIFYSBJ','[{X_SITENAME}] {X_MODULE} auto-notify : 신규 투고가 있었습니다. (투고글 포함)');
 
 ?>

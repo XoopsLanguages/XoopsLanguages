@@ -20,13 +20,13 @@ define("_MI_SYSTEM_BNAME4","Ricerca");
 define("_MI_SYSTEM_BNAME5","Contenuti in attesa");
 define("_MI_SYSTEM_BNAME6","Men&ugrave; principale");
 define("_MI_SYSTEM_BNAME7","Informazioni sul sito");
-define('_MI_SYSTEM_BNAME8', "Utenti online");
-define('_MI_SYSTEM_BNAME9', "Utenti pi&ugrave; attivi");
-define('_MI_SYSTEM_BNAME10', "Nuovi utenti");
-define('_MI_SYSTEM_BNAME11', "Ultimi commenti");
+define('_MI_SYSTEM_BNAME8',"Utenti online");
+define('_MI_SYSTEM_BNAME9',"Utenti pi&ugrave; attivi");
+define('_MI_SYSTEM_BNAME10',"Nuovi utenti");
+define('_MI_SYSTEM_BNAME11',"Ultimi commenti");
 // RMV-NOTIFY
-define('_MI_SYSTEM_BNAME12', "Opzioni di notifica");
-define('_MI_SYSTEM_BNAME13', "Temi");
+define('_MI_SYSTEM_BNAME12',"Opzioni di notifica");
+define('_MI_SYSTEM_BNAME13',"Temi");
 
 // Names of admin menu items
 define("_MI_SYSTEM_ADMENU1","Banner");
@@ -38,11 +38,11 @@ define("_MI_SYSTEM_ADMENU7","Faccine");
 define("_MI_SYSTEM_ADMENU9","Livelli Utente");
 define("_MI_SYSTEM_ADMENU10","Utenti");
 define("_MI_SYSTEM_ADMENU11","Mail Utenti");
-define("_MI_SYSTEM_ADMENU12", "Trova utenti");
-define("_MI_SYSTEM_ADMENU13", "Immagini");
-define("_MI_SYSTEM_ADMENU14", "Avatar");
-define("_MI_SYSTEM_ADMENU15", "Templates");
-define("_MI_SYSTEM_ADMENU16", "Commenti");
+define("_MI_SYSTEM_ADMENU12","Trova utenti");
+define("_MI_SYSTEM_ADMENU13","Immagini");
+define("_MI_SYSTEM_ADMENU14","Avatar");
+define("_MI_SYSTEM_ADMENU15","Templates");
+define("_MI_SYSTEM_ADMENU16","Commenti");
 
 //Configurazione del modulo di sistema
 define("_MI_SYSTEM_PREFERENCE_BREAK_GENERAL","Generali");
@@ -88,5 +88,5 @@ define("_MI_SYSTEM_PREFERENCE_GENERAL_EDITOR_DSC","");
 define("_MI_SYSTEM_PREFERENCE_ANONPOST","");
 define("_MI_SYSTEM_PREFERENCE_REDIRECT","");
 
-define("_MI_SYSTEM_PREFERENCE_JQUERY_THEME", "Tema jQuery");
+define("_MI_SYSTEM_PREFERENCE_JQUERY_THEME","Tema jQuery");
 ?>

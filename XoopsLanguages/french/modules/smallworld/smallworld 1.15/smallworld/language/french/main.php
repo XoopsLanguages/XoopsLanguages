@@ -28,7 +28,7 @@ define("_SMALLWORLD_SYSERROR","Erreur système&thinsp;!");
 define("_SMALLWORLD_SYSNAME","Smallworld");
 define("_SMALLWORLD_ALL_FIELDS_DISABLED","Aucune information disponible");
 define("_SMALLWORLD_RECENTACTIVITY","Activités récentes");
-define("_SMALLWORLD_MESSAGEHISTORIC", "Derniers messages");
+define("_SMALLWORLD_MESSAGEHISTORIC","Derniers messages");
 define("_SMALLWORLD_UPLOADFILEBUTTONTEXT","Envoyer");
 
 /*----------- Personal info ------------------*/
@@ -38,10 +38,10 @@ define("_SMALLWORLD_GENDER","Sexe");
 define("_SMALLWORLD_INTERESTEDIN","Intéressé(e) par");
 define("_SMALLWORLD_RELATIONSHIPSTATUS","Statut de la relation");
 define("_SMALLWORLD_PARTNER","Partenaire");
-define("_SMALLWORLD_LOOKINGFOR", "A la recherche de");
-define("_SMALLWORLD_BIRTHPLACE", "Lieu de naissance");
-define("_SMALLWORLD_POLITICALVIEW", "Opinion politique");
-define("_SMALLWORLD_RELIGIOUSVIEW", "Religion");
+define("_SMALLWORLD_LOOKINGFOR","A la recherche de");
+define("_SMALLWORLD_BIRTHPLACE","Lieu de naissance");
+define("_SMALLWORLD_POLITICALVIEW","Opinion politique");
+define("_SMALLWORLD_RELIGIOUSVIEW","Religion");
 define("_SMALLWORLD_EMAILS","Adresse électronique");
 
 /*--------------- contact info -----------------*/
@@ -103,7 +103,7 @@ define("_SMALLWORLD_NOTYETUSER_GREETING","Bienvenue");
 define("_SMALLWORLD_NOTYETUSER_BOXTEXT","Afin d'utiliser ce module, vous devez remplir un formulaire de profil supplémentaire.
 		<br /><br />Cliquez sur S'enregister pour continuer l'enregistrement ou cliquez sur Annuler<br />pour revenir à la page d'accueil.");
 define("_SMALLWORLD_NOTYETREGISTERED_TITLE","Continuez pour terminer l'enregistrement");	
-define ("_SMALLWORLD_TEXTBEFORESUBMIT","Continuez en cliquant sur Enregistrer pour enregistrer vos informations dans la base de données.<br /><br />Après cela, vous serez en mesure de visiter votre page, <br />et les pages des autres utilisateurs.<br /><br />En vous remerciant d'avoir pris le temps de remplir ce formulaire.");
+define("_SMALLWORLD_TEXTBEFORESUBMIT","Continuez en cliquant sur Enregistrer pour enregistrer vos informations dans la base de données.<br /><br />Après cela, vous serez en mesure de visiter votre page, <br />et les pages des autres utilisateurs.<br /><br />En vous remerciant d'avoir pris le temps de remplir ce formulaire.");
 define("_SMALLWORLD_FRIENDSINVITATIONS","Ajouter en ami");
 define("_SMALLWORLD_DATERECIEVED","Date");
 define("_SMALLWORLD_ACCEPT","Accepter");
@@ -122,7 +122,7 @@ define("_SMALLWORLD_STEP3","Étape 3 sur 6");
 define("_SMALLWORLD_STEP4","Étape 4 sur 6");
 define("_SMALLWORLD_STEP5","Étape 5 sur 6");
 define("_SMALLWORLD_STEP6","Fin");
-define ("_SMALLWORLD_BELIEFS","Croyances");
+define("_SMALLWORLD_BELIEFS","Croyances");
 define("_SMALLWORLD_FAVOURITETHINGS","Choses que je préfère");
 define("_SMALLWORLD_FAVOURITEBOOKS","Livres préférés");
 define("_SMALLWORLD_FAVOURITEMOVIE","Films préférés");
@@ -198,16 +198,16 @@ define("_SMALLWORLD_SUBMIT","Enregistrer");
 define("_SMALLWORLD_EMAILADRESSES","Adresse(s) éléctronique(s)");
 
 // dropdown screen names
-define ("_SMALLWORLD_SCREENNAME_AIM", "MSN");
-define ("_SMALLWORLD_SCREENNAME_FACEBOOK", "Facebook");
-define ("_SMALLWORLD_SCREENNAME_GOOGLE", "Google +");
-define ("_SMALLWORLD_SCREENNAME_ICQ", "ICQ");
-define ("_SMALLWORLD_SCREENNAME_SKYPE", "Skype");
-define ("_SMALLWORLD_SCREENNAME_TWITTER", "Twitter");
-define ("_SMALLWORLD_SCREENNAME_MYSPACE", "MySpace");
-define ("_SMALLWORLD_SCREENNAME_XOOPS", "Xoops (UID) ");
-define ("_SMALLWORLD_SCREENNAME_YAHOO", "Yahoo");
-define ("_SMALLWORLD_SCREENNAME_YOUTUBE", "Youtube");
+define("_SMALLWORLD_SCREENNAME_AIM","MSN");
+define("_SMALLWORLD_SCREENNAME_FACEBOOK","Facebook");
+define("_SMALLWORLD_SCREENNAME_GOOGLE","Google +");
+define("_SMALLWORLD_SCREENNAME_ICQ","ICQ");
+define("_SMALLWORLD_SCREENNAME_SKYPE","Skype");
+define("_SMALLWORLD_SCREENNAME_TWITTER","Twitter");
+define("_SMALLWORLD_SCREENNAME_MYSPACE","MySpace");
+define("_SMALLWORLD_SCREENNAME_XOOPS","Xoops (UID) ");
+define("_SMALLWORLD_SCREENNAME_YAHOO","Yahoo");
+define("_SMALLWORLD_SCREENNAME_YOUTUBE","Youtube");
 define("_SMALLWORLD_ADDMORE","Ajouter");
 define("_SMALLWORLD_REMOVE","Supprimer");
 
@@ -288,10 +288,10 @@ define("_SMALLWORLD_JSON_DELETE_FRIEND_START","Suppression faite ");
 define("_SMALLWORLD_JSON_DELETE_FRIEND_END"," de cette personne en tant qu'ami.");
 define("_SMALLWORLD_JSON_REQUEST_PENDING","<br /><br />Demande d'amitié en attente d'approbation.");
 
-define ("_SMALLWORLD_JSON_FOLLOWINGFRIEND","Suivi activé concernant&thinsp;: ");
-define ("_SMALLWORLD_JSON_FOLLOWINGFRIEND_DESC","<br /><br />Tous les messages qu'il ou elle écrit dans son mur apparaîtront également sur le vôtre.");
-define ("_SMALLWORLD_JSON_UNFOLLOWINGFRIEND","Vous ne suivez plus&thinsp;: ");
-define ("_SMALLWORLD_JSON_UNFOLLOWINGFRIEND_DESC","<br /><br />Les messages de son mur n'apparaîtront plus dans le vôtre.");
+define("_SMALLWORLD_JSON_FOLLOWINGFRIEND","Suivi activé concernant&thinsp;: ");
+define("_SMALLWORLD_JSON_FOLLOWINGFRIEND_DESC","<br /><br />Tous les messages qu'il ou elle écrit dans son mur apparaîtront également sur le vôtre.");
+define("_SMALLWORLD_JSON_UNFOLLOWINGFRIEND","Vous ne suivez plus&thinsp;: ");
+define("_SMALLWORLD_JSON_UNFOLLOWINGFRIEND_DESC","<br /><br />Les messages de son mur n'apparaîtront plus dans le vôtre.");
 
 define("_SMALLWORLD_JSON_ADDFR_TEXT","Ajouter en ami");
 define("_SMALLWORLD_JSON_CANCELFR_TEXT","Annuler la demande d'ami");
@@ -357,7 +357,7 @@ define("_SMALLWORLD_GOTOSMALLWORLDHERE","Aller à la page d'accueil ici");
 
 define("_SMALLWORLD_MAIL_COMPLAINT","Signalement de plainte à ");
 define("_SMALLWORLD_COMP_MSG_LNK_DESC","Cliquez ici pour voir le message en cause");
-define("_SMALLWORLD_MAIL_NEWFRIENDFOLLOWER", "Nouvelle demande d'ami ou nouvel utilisateur qui vous suit à ");
+define("_SMALLWORLD_MAIL_NEWFRIENDFOLLOWER","Nouvelle demande d'ami ou nouvel utilisateur qui vous suit à ");
 
 /* ------------ Inspection & countdown ---------------- */
 define("_SMALLWORLD_INSPEC_DESC","L'Administrateur a suspendu ce compte afin effectuer un contrôle.<br /><br />Temps estimé de l'inspection&thinsp;:");

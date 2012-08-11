@@ -15,13 +15,13 @@ define("_MI_SYSTEM_BNAME4","搜索");
 define("_MI_SYSTEM_BNAME5","等待验证");
 define("_MI_SYSTEM_BNAME6","网站导航");
 define("_MI_SYSTEM_BNAME7","本站信息");
-define('_MI_SYSTEM_BNAME8', "在线用户");
-define('_MI_SYSTEM_BNAME9', "积分排行榜");
-define('_MI_SYSTEM_BNAME10', "欢迎新会员");
-define('_MI_SYSTEM_BNAME11', "最新评论");
+define('_MI_SYSTEM_BNAME8',"在线用户");
+define('_MI_SYSTEM_BNAME9',"积分排行榜");
+define('_MI_SYSTEM_BNAME10',"欢迎新会员");
+define('_MI_SYSTEM_BNAME11',"最新评论");
 // RMV-NOTIFY
-define('_MI_SYSTEM_BNAME12', "通知选项");
-define('_MI_SYSTEM_BNAME13', "网站风格");
+define('_MI_SYSTEM_BNAME12',"通知选项");
+define('_MI_SYSTEM_BNAME13',"网站风格");
 
 // Names of admin menu items
 define("_MI_SYSTEM_ADMENU1","广告管理");
@@ -33,9 +33,9 @@ define("_MI_SYSTEM_ADMENU7","表情管理");
 define("_MI_SYSTEM_ADMENU9","用户等级");
 define("_MI_SYSTEM_ADMENU10","编辑用户");
 define("_MI_SYSTEM_ADMENU11","邮件群发");
-define("_MI_SYSTEM_ADMENU12", "查找用户");
-define("_MI_SYSTEM_ADMENU13", "图片管理");
-define("_MI_SYSTEM_ADMENU14", "头像管理");
-define("_MI_SYSTEM_ADMENU15", "模板管理");
-define("_MI_SYSTEM_ADMENU16", "评论管理");
+define("_MI_SYSTEM_ADMENU12","查找用户");
+define("_MI_SYSTEM_ADMENU13","图片管理");
+define("_MI_SYSTEM_ADMENU14","头像管理");
+define("_MI_SYSTEM_ADMENU15","模板管理");
+define("_MI_SYSTEM_ADMENU16","评论管理");
 ?>

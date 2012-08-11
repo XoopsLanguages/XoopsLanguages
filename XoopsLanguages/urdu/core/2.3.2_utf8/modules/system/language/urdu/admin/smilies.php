@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 // $Id: smilies.php 2026 2008-08-31 08:10:34Z phppp $
 //%%%%%%	Admin Module Name  Smilies 	%%%%%
 define('_AM_DBUPDATED',_MD_AM_DBUPDATED);
@@ -18,5 +18,5 @@ define('_AM_SMILEEMOTION','تفصیل:');
 define('_AM_ADD','شامل کریں');
 define('_AM_SAVE','محفوظ کریں');
 define('_AM_WAYSYWTDTS','خبردار: آپکو یقین ہے کہ آپ اس مسکراہٹ کو حذف کرنا چاہتے ہیں؟');
-define('_AM_DISPLAYF', 'فارم کے اندر دکھایئں؟');
+define('_AM_DISPLAYF','فارم کے اندر دکھایئں؟');
 ?>

@@ -33,13 +33,13 @@ define("_MI_MYADDRESSES_ADMENU5","Promijenjene Adrese");
 define("_MI_MYADDRESSES_ADMENU6","Provjera linkovaod Adresa");
 
 // Title of config items
-define('_MI_MYADDRESSES_POPULAR', 'Odredi koliko jedna Adresa treba da ima klikov pa da bi bila popularna');
-define('_MI_MYADDRESSES_NEWLINKS', 'Odredi koji max. broj Adresa treba prikazati po stranici');
-define('_MI_MYADDRESSES_PERPAGE', 'Odredi koji max. broj Adresa treba prikazati po stranici');
-define('_MI_MYADDRESSES_USESHOTS', 'Izaberi DA da se prikazuje baner/logo slike kod Adresa koje ih imaju');
-define('_MI_MYADDRESSES_USEFRAMES', '&#381;eli&scaron; li prikazati linkovane Adrese unutar Frame?');
-define('_MI_MYADDRESSES_SHOTWIDTH', 'Max. dozvoljena &scaron;irina slike za baner/logo');
-define('_MI_MYADDRESSES_ANONPOST','Dozvoljava&scaron; li gostima da ¹alju Adrese?');
+define('_MI_MYADDRESSES_POPULAR','Odredi koliko jedna Adresa treba da ima klikov pa da bi bila popularna');
+define('_MI_MYADDRESSES_NEWLINKS','Odredi koji max. broj Adresa treba prikazati po stranici');
+define('_MI_MYADDRESSES_PERPAGE','Odredi koji max. broj Adresa treba prikazati po stranici');
+define('_MI_MYADDRESSES_USESHOTS','Izaberi DA da se prikazuje baner/logo slike kod Adresa koje ih imaju');
+define('_MI_MYADDRESSES_USEFRAMES','&#381;eli&scaron; li prikazati linkovane Adrese unutar Frame?');
+define('_MI_MYADDRESSES_SHOTWIDTH','Max. dozvoljena &scaron;irina slike za baner/logo');
+define('_MI_MYADDRESSES_ANONPOST','Dozvoljava&scaron; li gostima da Â¹alju Adrese?');
 define('_MI_MYADDRESSES_AUTOAPPROVE','Automatski objavljivati Adrese bez intervencije Webmastera?');
 //hack LUCIO - start
 define('_MI_MYADDRESSES_API_KEY','[Google karta]<br />Paste here your Google Maps API Key for:<br \>'.XOOPS_URL.'/modules/addresses/');
@@ -50,16 +50,16 @@ define('_MI_MYADDRESSES_DEFAULT_ADDR','[Google karta]<br />Standardna Adresa:');
 define('_MI_MYADDRESSES_POPUP_OPTIONS','[Google karta]<br />Google karta popup prozora atributi:');
 
 // Options of config items
-define('_MI_MYADDRESSES_PERPAGE_ALL', 'Sve');
+define('_MI_MYADDRESSES_PERPAGE_ALL','Sve');
 //hack LUCIO - end
 
 // Description of each config items
-define('_MI_MYADDRESSES_POPULARDSC', '');
-define('_MI_MYADDRESSES_NEWLINKSDSC', '');
-define('_MI_MYADDRESSES_PERPAGEDSC', '');
-define('_MI_MYADDRESSES_USEFRAMEDSC', '');
-define('_MI_MYADDRESSES_USESHOTSDSC', '');
-define('_MI_MYADDRESSES_SHOTWIDTHDSC', '');
+define('_MI_MYADDRESSES_POPULARDSC','');
+define('_MI_MYADDRESSES_NEWLINKSDSC','');
+define('_MI_MYADDRESSES_PERPAGEDSC','');
+define('_MI_MYADDRESSES_USEFRAMEDSC','');
+define('_MI_MYADDRESSES_USESHOTSDSC','');
+define('_MI_MYADDRESSES_SHOTWIDTHDSC','');
 define('_MI_MYADDRESSES_AUTOAPPROVEDSC','');
 
 //hack LUCIO - start
@@ -72,53 +72,53 @@ define('_MI_MYADDRESSES_POPUP_OPTIONSDSC','Bez &#39; ili &quot;<br />Vidi Javasc
 //hack LUCIO - start
 
 // Text for notifications
-define('_MI_MYADDRESSES_GLOBAL_NOTIFY', 'Globalno');
-define('_MI_MYADDRESSES_GLOBAL_NOTIFYDSC', 'Globalna opcija obavijesti za Adresar.');
+define('_MI_MYADDRESSES_GLOBAL_NOTIFY','Globalno');
+define('_MI_MYADDRESSES_GLOBAL_NOTIFYDSC','Globalna opcija obavijesti za Adresar.');
 
-define('_MI_MYADDRESSES_CATEGORY_NOTIFY', 'Kategorija');
-define('_MI_MYADDRESSES_CATEGORY_NOTIFYDSC', 'Obavijest o mogu&#263;nostima koja se odnose na trenutnu adresu kategorija.');
+define('_MI_MYADDRESSES_CATEGORY_NOTIFY','Kategorija');
+define('_MI_MYADDRESSES_CATEGORY_NOTIFYDSC','Obavijest o mogu&#263;nostima koja se odnose na trenutnu adresu kategorija.');
 
-define('_MI_MYADDRESSES_LINK_NOTIFY', 'Adresa');
-define('_MI_MYADDRESSES_LINK_NOTIFYDSC', 'Obavijest o mogu&#263;nostima koja se odnose na trenutnu adresu.');
+define('_MI_MYADDRESSES_LINK_NOTIFY','Adresa');
+define('_MI_MYADDRESSES_LINK_NOTIFYDSC','Obavijest o mogu&#263;nostima koja se odnose na trenutnu adresu.');
 
-define('_MI_MYADDRESSES_GLOBAL_NEWCATEGORY_NOTIFY', 'Nova kategorija');
-define('_MI_MYADDRESSES_GLOBAL_NEWCATEGORY_NOTIFYCAP', 'Obavijesti me kada se nova adresa u kategoriji obajavi.');
-define('_MI_MYADDRESSES_GLOBAL_NEWCATEGORY_NOTIFYDSC', 'Primi obavijest ako se nova adresa u kategoriji objavi');
-define('_MI_MYADDRESSES_GLOBAL_NEWCATEGORY_NOTIFYSBJ', '[{X_SITENAME}] {X_MODULE} auto-notify : New address category');
+define('_MI_MYADDRESSES_GLOBAL_NEWCATEGORY_NOTIFY','Nova kategorija');
+define('_MI_MYADDRESSES_GLOBAL_NEWCATEGORY_NOTIFYCAP','Obavijesti me kada se nova adresa u kategoriji obajavi.');
+define('_MI_MYADDRESSES_GLOBAL_NEWCATEGORY_NOTIFYDSC','Primi obavijest ako se nova adresa u kategoriji objavi');
+define('_MI_MYADDRESSES_GLOBAL_NEWCATEGORY_NOTIFYSBJ','[{X_SITENAME}] {X_MODULE} auto-notify : New address category');
 
-define('_MI_MYADDRESSES_GLOBAL_LINKMODIFY_NOTIFY', 'Zahtjev za promjenu Adrese');
-define('_MI_MYADDRESSES_GLOBAL_LINKMODIFY_NOTIFYCAP', 'Obavijesti me ako je bilo kakav zahtjev za promjenu Adrese poslat.');
-define('_MI_MYADDRESSES_GLOBAL_LINKMODIFY_NOTIFYDSC', 'Primi obavijest ako je bilo ko podnio zahtjev da promijeni svoju upisanu Adresu.');
-define('_MI_MYADDRESSES_GLOBAL_LINKMODIFY_NOTIFYSBJ', '[{X_SITENAME}] {X_MODULE} auto-obavijest : Zahtjev za promjenu Adrese');
+define('_MI_MYADDRESSES_GLOBAL_LINKMODIFY_NOTIFY','Zahtjev za promjenu Adrese');
+define('_MI_MYADDRESSES_GLOBAL_LINKMODIFY_NOTIFYCAP','Obavijesti me ako je bilo kakav zahtjev za promjenu Adrese poslat.');
+define('_MI_MYADDRESSES_GLOBAL_LINKMODIFY_NOTIFYDSC','Primi obavijest ako je bilo ko podnio zahtjev da promijeni svoju upisanu Adresu.');
+define('_MI_MYADDRESSES_GLOBAL_LINKMODIFY_NOTIFYSBJ','[{X_SITENAME}] {X_MODULE} auto-obavijest : Zahtjev za promjenu Adrese');
 
-define('_MI_MYADDRESSES_GLOBAL_LINKBROKEN_NOTIFY', 'Prijava neispravne Adrese');
-define('_MI_MYADDRESSES_GLOBAL_LINKBROKEN_NOTIFYCAP', 'Obavijesti me ako je bilo ko prijavio neku neispravnu Adresu.');
-define('_MI_MYADDRESSES_GLOBAL_LINKBROKEN_NOTIFYDSC', 'Primi obavijest ako je bilo ko podnio prijavu za neispravnu Adresu.');
-define('_MI_MYADDRESSES_GLOBAL_LINKBROKEN_NOTIFYSBJ', '[{X_SITENAME}] {X_MODULE} auto-obavijest : Prijava neispravne Adrese');
+define('_MI_MYADDRESSES_GLOBAL_LINKBROKEN_NOTIFY','Prijava neispravne Adrese');
+define('_MI_MYADDRESSES_GLOBAL_LINKBROKEN_NOTIFYCAP','Obavijesti me ako je bilo ko prijavio neku neispravnu Adresu.');
+define('_MI_MYADDRESSES_GLOBAL_LINKBROKEN_NOTIFYDSC','Primi obavijest ako je bilo ko podnio prijavu za neispravnu Adresu.');
+define('_MI_MYADDRESSES_GLOBAL_LINKBROKEN_NOTIFYSBJ','[{X_SITENAME}] {X_MODULE} auto-obavijest : Prijava neispravne Adrese');
 
-define('_MI_MYADDRESSES_GLOBAL_LINKSUBMIT_NOTIFY', 'Nova Adresa je poslata');
-define('_MI_MYADDRESSES_GLOBAL_LINKSUBMIT_NOTIFYCAP', 'Obavijesti me ako je neko poslao novu Adresu (koje &#269;ekaju odobrenje).');
-define('_MI_MYADDRESSES_GLOBAL_LINKSUBMIT_NOTIFYDSC', 'Primi obavijest ako je neko poslao novu Adresu (koja &#269;eka odobrenje).');
-define('_MI_MYADDRESSES_GLOBAL_LINKSUBMIT_NOTIFYSBJ', '[{X_SITENAME}] {X_MODULE} auto-obavijest : Nova Adresa je poslata');
+define('_MI_MYADDRESSES_GLOBAL_LINKSUBMIT_NOTIFY','Nova Adresa je poslata');
+define('_MI_MYADDRESSES_GLOBAL_LINKSUBMIT_NOTIFYCAP','Obavijesti me ako je neko poslao novu Adresu (koje &#269;ekaju odobrenje).');
+define('_MI_MYADDRESSES_GLOBAL_LINKSUBMIT_NOTIFYDSC','Primi obavijest ako je neko poslao novu Adresu (koja &#269;eka odobrenje).');
+define('_MI_MYADDRESSES_GLOBAL_LINKSUBMIT_NOTIFYSBJ','[{X_SITENAME}] {X_MODULE} auto-obavijest : Nova Adresa je poslata');
 
-define('_MI_MYADDRESSES_GLOBAL_NEWLINK_NOTIFY', 'Nova Adresa');
-define('_MI_MYADDRESSES_GLOBAL_NEWLINK_NOTIFYCAP', 'Obavijesti me ako je nova Adresa poslata.');
-define('_MI_MYADDRESSES_GLOBAL_NEWLINK_NOTIFYDSC', 'Dobij obavijest ako je nova Adresa poslata.');
-define('_MI_MYADDRESSES_GLOBAL_NEWLINK_NOTIFYSBJ', '[{X_SITENAME}] {X_MODULE} auto-obavijest : Nova Adresa');
+define('_MI_MYADDRESSES_GLOBAL_NEWLINK_NOTIFY','Nova Adresa');
+define('_MI_MYADDRESSES_GLOBAL_NEWLINK_NOTIFYCAP','Obavijesti me ako je nova Adresa poslata.');
+define('_MI_MYADDRESSES_GLOBAL_NEWLINK_NOTIFYDSC','Dobij obavijest ako je nova Adresa poslata.');
+define('_MI_MYADDRESSES_GLOBAL_NEWLINK_NOTIFYSBJ','[{X_SITENAME}] {X_MODULE} auto-obavijest : Nova Adresa');
 
-define('_MI_MYADDRESSES_CATEGORY_LINKSUBMIT_NOTIFY', 'Nova Adresa je poslata');
-define('_MI_MYADDRESSES_CATEGORY_LINKSUBMIT_NOTIFYCAP', 'Obavijesti me ako je nova Adresa poslata (koja &#269;eka odobrenje) u aktuelnoj kategoriji.');
-define('_MI_MYADDRESSES_CATEGORY_LINKSUBMIT_NOTIFYDSC', 'Dobij obavijest ako je nova Adresa poslata (koja &#269;eka odobrenje) u aktuelnoj kategoriji.');
-define('_MI_MYADDRESSES_CATEGORY_LINKSUBMIT_NOTIFYSBJ', '[{X_SITENAME}] {X_MODULE} auto-obavijest : Nova Adresa je poslata u kategoriju');
+define('_MI_MYADDRESSES_CATEGORY_LINKSUBMIT_NOTIFY','Nova Adresa je poslata');
+define('_MI_MYADDRESSES_CATEGORY_LINKSUBMIT_NOTIFYCAP','Obavijesti me ako je nova Adresa poslata (koja &#269;eka odobrenje) u aktuelnoj kategoriji.');
+define('_MI_MYADDRESSES_CATEGORY_LINKSUBMIT_NOTIFYDSC','Dobij obavijest ako je nova Adresa poslata (koja &#269;eka odobrenje) u aktuelnoj kategoriji.');
+define('_MI_MYADDRESSES_CATEGORY_LINKSUBMIT_NOTIFYSBJ','[{X_SITENAME}] {X_MODULE} auto-obavijest : Nova Adresa je poslata u kategoriju');
 
-define('_MI_MYADDRESSES_CATEGORY_NEWLINK_NOTIFY', 'Nova Adresa');
-define('_MI_MYADDRESSES_CATEGORY_NEWLINK_NOTIFYCAP', 'Obavijesti me kada se nova Adresa objavi u kategoriji.');
-define('_MI_MYADDRESSES_CATEGORY_NEWLINK_NOTIFYDSC', 'Dobij obavijest ako se nova Adresa objavi u kategoriji.');
-define('_MI_MYADDRESSES_CATEGORY_NEWLINK_NOTIFYSBJ', '[{X_SITENAME}] {X_MODULE} auto-obavijest : Nova Adresa u kategoriji');
+define('_MI_MYADDRESSES_CATEGORY_NEWLINK_NOTIFY','Nova Adresa');
+define('_MI_MYADDRESSES_CATEGORY_NEWLINK_NOTIFYCAP','Obavijesti me kada se nova Adresa objavi u kategoriji.');
+define('_MI_MYADDRESSES_CATEGORY_NEWLINK_NOTIFYDSC','Dobij obavijest ako se nova Adresa objavi u kategoriji.');
+define('_MI_MYADDRESSES_CATEGORY_NEWLINK_NOTIFYSBJ','[{X_SITENAME}] {X_MODULE} auto-obavijest : Nova Adresa u kategoriji');
 
-define('_MI_MYADDRESSES_LINK_APPROVE_NOTIFY', 'Adresa je objavljena');
-define('_MI_MYADDRESSES_LINK_APPROVE_NOTIFYCAP', 'Obavijesti me kada bude ova Adresa objavljena.');
-define('_MI_MYADDRESSES_LINK_APPROVE_NOTIFYDSC', 'Dobij obavijest kada se bude ova Adresa objavila.');
-define('_MI_MYADDRESSES_LINK_APPROVE_NOTIFYSBJ', '[{X_SITENAME}] {X_MODULE} auto-obavijest : Adresa je objavljena');
+define('_MI_MYADDRESSES_LINK_APPROVE_NOTIFY','Adresa je objavljena');
+define('_MI_MYADDRESSES_LINK_APPROVE_NOTIFYCAP','Obavijesti me kada bude ova Adresa objavljena.');
+define('_MI_MYADDRESSES_LINK_APPROVE_NOTIFYDSC','Dobij obavijest kada se bude ova Adresa objavila.');
+define('_MI_MYADDRESSES_LINK_APPROVE_NOTIFYSBJ','[{X_SITENAME}] {X_MODULE} auto-obavijest : Adresa je objavljena');
 
 ?>

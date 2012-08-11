@@ -4,55 +4,55 @@
 // _CHARSET : windows-1256
 // Translator: Arab XOOPS Team
 
-define('_PROFILE_MA_REGISTER_NOTGROUP', 'ÇáãÔÊÑß ÇáÌÏíÏ áíÓ ãÓÌáÇð Ýí ÇíÉ ãÌãæÚÉ.');
-define('_PROFILE_MA_FINISH_LOGIN','Êã ÇäÔÇÁ ÍÓÇÈß ÈäÌÇÍ. ãä ÝÖáß ÇÖÛØ ááÏÎæá.');
-define("_PROFILE_MA_REGISTER_FINISH", "ÔßÑÇð áÊÓÌíáß Ýí ãæÞÚäÇ");
-define("_PROFILE_MA_REGISTER_STEPS", "ãÑÇÍá ÇáÊÓÌíá:");
+define('_PROFILE_MA_REGISTER_NOTGROUP','Ã‡Ã¡Ã£Ã”ÃŠÃ‘ÃŸ Ã‡Ã¡ÃŒÃÃ­Ã Ã¡Ã­Ã“ Ã£Ã“ÃŒÃ¡Ã‡Ã° ÃÃ­ Ã‡Ã­Ã‰ Ã£ÃŒÃ£Ã¦ÃšÃ‰.');
+define('_PROFILE_MA_FINISH_LOGIN','ÃŠÃ£ Ã‡Ã¤Ã”Ã‡Ã ÃÃ“Ã‡ÃˆÃŸ ÃˆÃ¤ÃŒÃ‡Ã. Ã£Ã¤ ÃÃ–Ã¡ÃŸ Ã‡Ã–Ã›Ã˜ Ã¡Ã¡ÃÃŽÃ¦Ã¡.');
+define("_PROFILE_MA_REGISTER_FINISH","Ã”ÃŸÃ‘Ã‡Ã° Ã¡ÃŠÃ“ÃŒÃ­Ã¡ÃŸ ÃÃ­ Ã£Ã¦ÃžÃšÃ¤Ã‡");
+define("_PROFILE_MA_REGISTER_STEPS","Ã£Ã‘Ã‡ÃÃ¡ Ã‡Ã¡ÃŠÃ“ÃŒÃ­Ã¡:");
 
-define("_PROFILE_MA_DEFAULT", "ÇáãÚáæãÇÊ ÇáÇÓÇÓíÉ");
+define("_PROFILE_MA_DEFAULT","Ã‡Ã¡Ã£ÃšÃ¡Ã¦Ã£Ã‡ÃŠ Ã‡Ã¡Ã‡Ã“Ã‡Ã“Ã­Ã‰");
 
-define("_PROFILE_MA_ERRORDURINGSAVE", "ÎØÃ ÇËäÇÁ ÇáÍÝÙ");
-define("_PROFILE_MA_NOSTEPSAVAILABLE", "ÈÇÈ ÇáÊÓÌíá ãÞÝá Ýí ÇáæÞÊ ÇáÍÇÖÑ, ãä ÝÖáß ÍÇæá Ýí æÞÊ áÇÍÞ.");
-define("_PROFILE_MA_EXPIRED", "ÇäÊåì ÇáæÞÊ ÇáãÎÕÕ ááÚãáíÉ, ãä ÝÖáß ÚÏ ááÎáÝ æÍÇæá ãÑÉ ÇÎÑì.");
+define("_PROFILE_MA_ERRORDURINGSAVE","ÃŽÃ˜Ãƒ Ã‡Ã‹Ã¤Ã‡Ã Ã‡Ã¡ÃÃÃ™");
+define("_PROFILE_MA_NOSTEPSAVAILABLE","ÃˆÃ‡Ãˆ Ã‡Ã¡ÃŠÃ“ÃŒÃ­Ã¡ Ã£ÃžÃÃ¡ ÃÃ­ Ã‡Ã¡Ã¦ÃžÃŠ Ã‡Ã¡ÃÃ‡Ã–Ã‘, Ã£Ã¤ ÃÃ–Ã¡ÃŸ ÃÃ‡Ã¦Ã¡ ÃÃ­ Ã¦ÃžÃŠ Ã¡Ã‡ÃÃž.");
+define("_PROFILE_MA_EXPIRED","Ã‡Ã¤ÃŠÃ¥Ã¬ Ã‡Ã¡Ã¦ÃžÃŠ Ã‡Ã¡Ã£ÃŽÃ•Ã• Ã¡Ã¡ÃšÃ£Ã¡Ã­Ã‰, Ã£Ã¤ ÃÃ–Ã¡ÃŸ ÃšÃ Ã¡Ã¡ÃŽÃ¡Ã Ã¦ÃÃ‡Ã¦Ã¡ Ã£Ã‘Ã‰ Ã‡ÃŽÃ‘Ã¬.");
 
 
-define('_PROFILE_MA_RECENTACTIVITY','ÇÎÑ ÇáäÔÇØÇÊ');
-define('_PROFILE_MA_THEME','ÇáËíã');
-define('_PROFILE_MA_ACTIVATE','ãÝÚá');
-define('_PROFILE_MA_DEACTIVATE','ãÚØá');
-define('_PROFILE_MA_SENDPM','ÇÑÓÇá ÑÓÇáÉ');
+define('_PROFILE_MA_RECENTACTIVITY','Ã‡ÃŽÃ‘ Ã‡Ã¡Ã¤Ã”Ã‡Ã˜Ã‡ÃŠ');
+define('_PROFILE_MA_THEME','Ã‡Ã¡Ã‹Ã­Ã£');
+define('_PROFILE_MA_ACTIVATE','Ã£ÃÃšÃ¡');
+define('_PROFILE_MA_DEACTIVATE','Ã£ÃšÃ˜Ã¡');
+define('_PROFILE_MA_SENDPM','Ã‡Ã‘Ã“Ã‡Ã¡ Ã‘Ã“Ã‡Ã¡Ã‰');
 
 //changepass.php
-define("_PROFILE_MA_CHANGEPASSWORD", "ÊÛííÑ ßáãÉ ÇáãÑæÑ");
-define("_PROFILE_MA_PASSWORDCHANGED", "Êã ÊÛííÑ ßáãÉ ÇáãÑæÑ ÈäÌÇÍ");
-define("_PROFILE_MA_OLDPASSWORD", "ßáãÉ ÇáãÑæÑ ÇáÍÇáíÉ");
-define("_PROFILE_MA_NEWPASSWORD", "ßáãÉ ÇáãÑæÑ ÇáÌÏíÏÉ");
-define("_PROFILE_MA_WRONGPASSWORD", "ßáãÉ ÇáãÑæÑ ÇáÞÏíãÉ ÎÇØÆÉ");
+define("_PROFILE_MA_CHANGEPASSWORD","ÃŠÃ›Ã­Ã­Ã‘ ÃŸÃ¡Ã£Ã‰ Ã‡Ã¡Ã£Ã‘Ã¦Ã‘");
+define("_PROFILE_MA_PASSWORDCHANGED","ÃŠÃ£ ÃŠÃ›Ã­Ã­Ã‘ ÃŸÃ¡Ã£Ã‰ Ã‡Ã¡Ã£Ã‘Ã¦Ã‘ ÃˆÃ¤ÃŒÃ‡Ã");
+define("_PROFILE_MA_OLDPASSWORD","ÃŸÃ¡Ã£Ã‰ Ã‡Ã¡Ã£Ã‘Ã¦Ã‘ Ã‡Ã¡ÃÃ‡Ã¡Ã­Ã‰");
+define("_PROFILE_MA_NEWPASSWORD","ÃŸÃ¡Ã£Ã‰ Ã‡Ã¡Ã£Ã‘Ã¦Ã‘ Ã‡Ã¡ÃŒÃÃ­ÃÃ‰");
+define("_PROFILE_MA_WRONGPASSWORD","ÃŸÃ¡Ã£Ã‰ Ã‡Ã¡Ã£Ã‘Ã¦Ã‘ Ã‡Ã¡ÃžÃÃ­Ã£Ã‰ ÃŽÃ‡Ã˜Ã†Ã‰");
 
 //search.php
-define("_PROFILE_MA_SORTBY", "ÊÑÊíÈ ÍÓÈ");
-define("_PROFILE_MA_ORDER", "ÇáÊÑÊíÈ");
-define("_PROFILE_MA_PERPAGE", "ÚÏÏ ÇáÃÚÖÇÁ Ýí ßá ÕÝÍÉ");
-define("_PROFILE_MA_LATERTHAN", "%s ßÇä ÈÚÏ");
-define("_PROFILE_MA_EARLIERTHAN", "%s ßÇä ÞÈá ");
-define("_PROFILE_MA_LARGERTHAN", "%s ßÇä ÇßÈÑ ãä");
-define("_PROFILE_MA_SMALLERTHAN", "%s ßÇä ÇÕÛÑ ãä");
+define("_PROFILE_MA_SORTBY","ÃŠÃ‘ÃŠÃ­Ãˆ ÃÃ“Ãˆ");
+define("_PROFILE_MA_ORDER","Ã‡Ã¡ÃŠÃ‘ÃŠÃ­Ãˆ");
+define("_PROFILE_MA_PERPAGE","ÃšÃÃ Ã‡Ã¡ÃƒÃšÃ–Ã‡Ã ÃÃ­ ÃŸÃ¡ Ã•ÃÃÃ‰");
+define("_PROFILE_MA_LATERTHAN","%s ÃŸÃ‡Ã¤ ÃˆÃšÃ");
+define("_PROFILE_MA_EARLIERTHAN","%s ÃŸÃ‡Ã¤ ÃžÃˆÃ¡ ");
+define("_PROFILE_MA_LARGERTHAN","%s ÃŸÃ‡Ã¤ Ã‡ÃŸÃˆÃ‘ Ã£Ã¤");
+define("_PROFILE_MA_SMALLERTHAN","%s ÃŸÃ‡Ã¤ Ã‡Ã•Ã›Ã‘ Ã£Ã¤");
 
-define("_PROFILE_MA_NOUSERSFOUND", "áã íÊã ÇáÚËæÑ Úáì Çí ãÔÊÑß");
-define("_PROFILE_MA_RESULTS", "äÊÇÆÌ ÇáÈÍË");
-define("_PROFILE_MA_SEARCH", "ÇáÈÍË Úä ÇáãÔÊÑßíä");
+define("_PROFILE_MA_NOUSERSFOUND","Ã¡Ã£ Ã­ÃŠÃ£ Ã‡Ã¡ÃšÃ‹Ã¦Ã‘ ÃšÃ¡Ã¬ Ã‡Ã­ Ã£Ã”ÃŠÃ‘ÃŸ");
+define("_PROFILE_MA_RESULTS","Ã¤ÃŠÃ‡Ã†ÃŒ Ã‡Ã¡ÃˆÃÃ‹");
+define("_PROFILE_MA_SEARCH","Ã‡Ã¡ÃˆÃÃ‹ ÃšÃ¤ Ã‡Ã¡Ã£Ã”ÃŠÃ‘ÃŸÃ­Ã¤");
 
 //changemail.php
-define("_PROFILE_MA_CHANGEMAIL", "ÊÛííÑ ÇáÈÑíÏ ÇáÇáßÊÑæäí");
-define("_PROFILE_MA_NEWMAIL", "ÇáÈÑíÏ ÇáÇáßÊÑæäí ÇáÌÏíÏ");
+define("_PROFILE_MA_CHANGEMAIL","ÃŠÃ›Ã­Ã­Ã‘ Ã‡Ã¡ÃˆÃ‘Ã­Ã Ã‡Ã¡Ã‡Ã¡ÃŸÃŠÃ‘Ã¦Ã¤Ã­");
+define("_PROFILE_MA_NEWMAIL","Ã‡Ã¡ÃˆÃ‘Ã­Ã Ã‡Ã¡Ã‡Ã¡ÃŸÃŠÃ‘Ã¦Ã¤Ã­ Ã‡Ã¡ÃŒÃÃ­Ã");
 
-define("_PROFILE_MA_NEWEMAIL", "ÈÑíÏ ÇáßÊÑæäí ÌÏíÏ Ýí %s");
-define("_PROFILE_MA_EMAILCHANGED", "Êã ÊÛííÑ ÈÑíÏß ÇáÇáßÊÑæäí");
-define("_PROFILE_MA_SITEDEFAULT", "ÇáãæÞÚ ÇáÇÝÊÑÇÖí");
+define("_PROFILE_MA_NEWEMAIL","ÃˆÃ‘Ã­Ã Ã‡Ã¡ÃŸÃŠÃ‘Ã¦Ã¤Ã­ ÃŒÃÃ­Ã ÃÃ­ %s");
+define("_PROFILE_MA_EMAILCHANGED","ÃŠÃ£ ÃŠÃ›Ã­Ã­Ã‘ ÃˆÃ‘Ã­ÃÃŸ Ã‡Ã¡Ã‡Ã¡ÃŸÃŠÃ‘Ã¦Ã¤Ã­");
+define("_PROFILE_MA_SITEDEFAULT","Ã‡Ã¡Ã£Ã¦ÃžÃš Ã‡Ã¡Ã‡ÃÃŠÃ‘Ã‡Ã–Ã­");
 
-define("_PROFILE_MA_USERINFO","ÇáãáÝ ÇáÔÎÕí");
-define("_PROFILE_MA_REGISTER","ÕÝÍÉ ÇáÊÓÌíá");
+define("_PROFILE_MA_USERINFO","Ã‡Ã¡Ã£Ã¡Ã Ã‡Ã¡Ã”ÃŽÃ•Ã­");
+define("_PROFILE_MA_REGISTER","Ã•ÃÃÃ‰ Ã‡Ã¡ÃŠÃ“ÃŒÃ­Ã¡");
 
-define("_PROFILE_MA_ACTUS", "ÇáÃÚÖÇÁ ÇáãÝÚáíä: %s");
-define("_PROFILE_MA_FOUNDUSER", "%s ÚÖæ Êã ÅíÌÇÏå");
+define("_PROFILE_MA_ACTUS","Ã‡Ã¡ÃƒÃšÃ–Ã‡Ã Ã‡Ã¡Ã£ÃÃšÃ¡Ã­Ã¤: %s");
+define("_PROFILE_MA_FOUNDUSER","%s ÃšÃ–Ã¦ ÃŠÃ£ Ã…Ã­ÃŒÃ‡ÃÃ¥");
 ?>

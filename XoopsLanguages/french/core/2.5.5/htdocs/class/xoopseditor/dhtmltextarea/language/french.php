@@ -12,7 +12,7 @@
 /**
  * Assocated with editor_registry.php
  */
-define( "_XOOPS_EDITOR_DHTMLTEXTAREA", "Editeur DHTML avec xCode" );
+define("_XOOPS_EDITOR_DHTMLTEXTAREA","Editeur DHTML avec xCode" );
 
 /**
  * @translation     Communauté Francophone des Utilisateurs de Xoops

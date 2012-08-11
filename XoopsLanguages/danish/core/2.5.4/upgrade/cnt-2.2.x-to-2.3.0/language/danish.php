@@ -4,7 +4,7 @@
 // _CHARSET : UTF-8
 // Translator: Culex
 
-define( "_CONFIRM_UPGRADE_220", "
+define("_CONFIRM_UPGRADE_220","
 Opdate skriptet vil migrere data fra eksisterende 'profile' modul.<br />
 Af-installer ikke det eksisterende 'profile' modul manuelt, da tilhørende data ikke vil blive migreret.<br /><br />
 Når opgraderingsprocessen er færdig venligst <stong>gå til moduleadministration for at opgradere 'profile' modulet</strong>, hvor data vil blive migreret fuldt.<br /><br />

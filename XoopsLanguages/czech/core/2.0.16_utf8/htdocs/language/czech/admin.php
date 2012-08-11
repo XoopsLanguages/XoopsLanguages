@@ -10,6 +10,6 @@ define("_AD_NICKNAME","Uživatel");
 define("_AD_EMAIL","E-mail");
 define("_AD_AVATAR","Ikona");
 define("_AD_REGISTERED","Registrován"); //Registered Date
-define('_AD_PRESSGEN', 'Toto je váš první vstup do administrace. Stiskněte tlačítko niže.');
-define('_AD_LOGINADMIN', 'Přihlašování..');
+define('_AD_PRESSGEN','Toto je váš první vstup do administrace. Stiskněte tlačítko niže.');
+define('_AD_LOGINADMIN','Přihlašování..');
 ?>

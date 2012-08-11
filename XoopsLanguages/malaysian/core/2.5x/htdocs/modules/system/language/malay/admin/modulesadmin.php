@@ -8,9 +8,9 @@
  */
 
 // Navigation
-define("_AM_SYSTEM_MODULES_ADMIN", "Modules Administration");
-define("_AM_SYSTEM_MODULES_LIST", "Module List");
-define("_AM_SYSTEM_MODULES_TOINSTALL", "Install module");
+define("_AM_SYSTEM_MODULES_ADMIN","Modules Administration");
+define("_AM_SYSTEM_MODULES_LIST","Module List");
+define("_AM_SYSTEM_MODULES_TOINSTALL","Install module");
 define("_AM_SYSTEM_MODULES_VALIDATE","Validate changes");
 define("_AM_SYSTEM_MODULES_SUBMITRES","Submit Result");
 
@@ -166,7 +166,7 @@ define("_AM_SYSTEM_MODULES_NOTIFICATIONS_DELETE_ERROR","ERROR: Could not delete 
 define("_AM_SYSTEM_MODULES_NOTIFICATIONS_DELETED","Notifications deleted");
 define("_AM_SYSTEM_MODULES_TABLE_DROPPED","Table %s dropped!");
 define("_AM_SYSTEM_MODULES_TABLE_DROPPED_ERROR","ERROR: Could not drop table %s");
-define("_AM_SYSTEM_MODULES_TABLE_DROPPED_FAILDED", "ERROR: Not allowed to drop table %s !");
+define("_AM_SYSTEM_MODULES_TABLE_DROPPED_FAILDED","ERROR: Not allowed to drop table %s !");
 
 // Tips
 define("_AM_SYSTEM_MODULES_TIPS", 

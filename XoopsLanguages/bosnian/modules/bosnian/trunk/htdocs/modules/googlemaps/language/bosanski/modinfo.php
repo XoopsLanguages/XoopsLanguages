@@ -26,9 +26,9 @@ define("_MI_GMAPS_ADMENU8","Napravi Liniju povezivanja");
 define("_MI_GMAPS_ADMENU9","Promjeni/Izbri&scaron;i Liniju povezivanja");
 
 // Title of config items
-define('_MI_GMAPS_TITLE', 'Naslov Karte');
-define('_MI_GMAPS_API', 'Ovdje upi&scaron;i api key http://www.tvojastranica.net/ .');
-define('_MI_GMAPS_MAPTYPE', 'Standardna karta');
+define('_MI_GMAPS_TITLE','Naslov Karte');
+define('_MI_GMAPS_API','Ovdje upi&scaron;i api key http://www.tvojastranica.net/ .');
+define('_MI_GMAPS_MAPTYPE','Standardna karta');
 define('_MI_GMAPS_MAPWIDTH','&Scaron;irina karte');
 define('_MI_GMAPS_MAPWIDTHDSC','&Scaron;irinu karte podesi za Web stranicu');
 define('_MI_GMAPS_MAPHEIGHT','Visina karte');
@@ -51,9 +51,9 @@ define("_MI_INSTRUCTIONS","<b>Upustvo</b><br>
 - Za promjenu i upis va&scaron;eg Mjesta boravka morate se prvo ulogovati");
 
 // Description of each config items
-define('_MI_GMAPS_TITLEDSC', 'Bi&#263;e u naslovu Karte prikazano');
-define('_MI_GMAPS_APIDSC', 'Pravi api key gimaju naf <a href="http://www.google.com/apis/maps/">http://www.google.com/apis/maps/</a>');
-define('_MI_GMAPS_MAPTYPEDSC', 'Promjeni Standardni pregled Karte na pregled Karte, Satellitski pregled ili Hybridni pregled');
+define('_MI_GMAPS_TITLEDSC','Bi&#263;e u naslovu Karte prikazano');
+define('_MI_GMAPS_APIDSC','Pravi api key gimaju naf <a href="http://www.google.com/apis/maps/">http://www.google.com/apis/maps/</a>');
+define('_MI_GMAPS_MAPTYPEDSC','Promjeni Standardni pregled Karte na pregled Karte, Satellitski pregled ili Hybridni pregled');
 define('_MI_GMAPS_DISTYPEDSC','Koju oznaku treba za Mjesto oznake preko Karte prikazati?');
 define('_MI_GMAPS_DISPLAYTYPE_USER','Ime &#269;lana');
 define('_MI_GMAPS_DISPLAYTYPE_LOCATION','Naziv oznake');

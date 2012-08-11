@@ -22,8 +22,8 @@
  * ****************************************************************************
  */
 // Main
-define("_MI_TDMCREATE_NAME", "TDMCreate");
-define("_MI_TDMCREATE_DESC", "Met deze module is iedereen in staat een andere module te maken."); 
+define("_MI_TDMCREATE_NAME","TDMCreate");
+define("_MI_TDMCREATE_DESC","Met deze module is iedereen in staat een andere module te maken."); 
 // Admin
 define("_MI_TDMCREATE_ADMIN_NAME","TDMCreate");
 define("_MI_TDMCREATE_ADMIN_DESC","Deze module heeft de volgende functionaliteit: ");
@@ -32,8 +32,8 @@ define("_MI_TDMCREATE_ADMENU1","Home");
 define("_MI_TDMCREATE_ADMENU2","Modules");
 define("_MI_TDMCREATE_ADMENU3","Tabellen");
 define("_MI_TDMCREATE_ADMENU4","Talen");
-define("_MI_TDMCREATE_ADMENU5", "Css");
-define("_MI_TDMCREATE_ADMENU6", "Wijzigingsbeheer");
+define("_MI_TDMCREATE_ADMENU5","Css");
+define("_MI_TDMCREATE_ADMENU6","Wijzigingsbeheer");
 define("_MI_TDMCREATE_ADMENU7","Maken");
 define("_MI_TDMCREATE_ADMENU8","Bestandsbeheer");
 define("_MI_TDMCREATE_ADMENU9","Over");
@@ -41,10 +41,10 @@ define("_MI_TDMCREATE_ADMENU9","Over");
 //Config
 define("_MI_TDMCREATE_EDITOR","Bewerker");
 define("_MI_TDMCREATE_EDITOR_DESC","Selecteer een editor voor tekstvakken");
-define("_MI_TDMCREATE_ADMINPERPAGE", "Admin per pagina");
-define("_MI_TDMCREATE_ADMINPERPAGE_DESC", "Resultaten van de weergave admin per pagina");
-define("_MI_TDMCREATE_IDPAYPAL", "Paypal ID");
-define("_MI_TDMCREATE_IDPAYPAL_DESC", "Vul hier een paypal ID in voor donaties.");
-define("_MI_TDMCREATE_SIZE", "Bestandsgrootte");
-define("_MI_TDMCREATE_MIMETYPES", "Mime types");
+define("_MI_TDMCREATE_ADMINPERPAGE","Admin per pagina");
+define("_MI_TDMCREATE_ADMINPERPAGE_DESC","Resultaten van de weergave admin per pagina");
+define("_MI_TDMCREATE_IDPAYPAL","Paypal ID");
+define("_MI_TDMCREATE_IDPAYPAL_DESC","Vul hier een paypal ID in voor donaties.");
+define("_MI_TDMCREATE_SIZE","Bestandsgrootte");
+define("_MI_TDMCREATE_MIMETYPES","Mime types");
 ?>

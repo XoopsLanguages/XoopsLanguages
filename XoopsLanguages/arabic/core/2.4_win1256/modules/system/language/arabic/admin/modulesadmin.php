@@ -5,164 +5,164 @@
 // Translator: Arab XOOPS Team
 
 //%%%%%%	File Name  modulesadmin.php 	%%%%%
-define("_MD_AM_MODADMIN","·ÊÕ… «· Õﬂ„ ›Ì «·„ÊœÌ·«  («·»—«„Ã)");
-define("_MD_AM_MODULE","«·„ÊœÌ· («·»—‰«„Ã)");
-define("_MD_AM_VERSION","«·≈’œ«—");
-define("_MD_AM_LASTUP","¬Œ—  ÕœÌÀ");
-define("_MD_AM_DEACTIVATED","„ Êﬁ›");
-define("_MD_AM_ACTION","≈Ã—«¡« ");
-define("_MD_AM_DEACTIVATE","≈Ìﬁ«›");
-define("_MD_AM_ACTIVATE"," ‘€Ì·");
-define("_MD_AM_UPDATE"," ÕœÌÀ");
-define("_MD_AM_DUPEN","‰”Œ… «Õ Ì«ÿÌ… ·„œŒ·«  «·„ÊœÌ·«  («·»—«„Ã)");
-define("_MD_AM_DEACTED"," „ ≈Ìﬁ«› «·„ÊœÌ· («·»—‰«„Ã) »‰Ã«Õ Ì„ﬂ‰ﬂ «·¬‰ ≈“«·…  —ﬂÌ» «·»—‰«„Ã");
-define("_MD_AM_ACTED"," „  ‘€Ì· «·„ÊœÌ· («·»—‰«„Ã) «·–Ì Õœœ Â");
-define("_MD_AM_UPDTED"," „  ÕœÌÀ «·„ÊœÌ· («·»—‰«„Ã) «·–Ì Õœœ Â");
-define("_MD_AM_SYSNO","·« Ì„ﬂ‰ ≈Ìﬁ«› ·ÊÕ… «· Õﬂ„ «·⁄«„…");
-define("_MD_AM_STRTNO","Â–« «·»—‰«„Ã Ì⁄„· ﬂ»œ«Ì… ··„Êﬁ⁄ ° Ì„ﬂ‰ﬂ  €ÌÌ—Â „‰ Œ·«· ·ÊÕ… «· Õﬂ„");
+define("_MD_AM_MODADMIN","√°√¶√ç√â √á√°√ä√ç√ü√£ √ù√≠ √á√°√£√¶√è√≠√°√á√ä (√á√°√à√ë√á√£√å)");
+define("_MD_AM_MODULE","√á√°√£√¶√è√≠√° (√á√°√à√ë√§√á√£√å)");
+define("_MD_AM_VERSION","√á√°√Ö√ï√è√á√ë");
+define("_MD_AM_LASTUP","√Ç√é√ë √ä√ç√è√≠√ã");
+define("_MD_AM_DEACTIVATED","√£√ä√¶√û√ù");
+define("_MD_AM_ACTION","√Ö√å√ë√á√Å√á√ä");
+define("_MD_AM_DEACTIVATE","√Ö√≠√û√á√ù");
+define("_MD_AM_ACTIVATE","√ä√î√õ√≠√°");
+define("_MD_AM_UPDATE","√ä√ç√è√≠√ã");
+define("_MD_AM_DUPEN","√§√ì√é√â √á√ç√ä√≠√á√ò√≠√â √°√£√è√é√°√á√ä √á√°√£√¶√è√≠√°√á√ä (√á√°√à√ë√á√£√å)");
+define("_MD_AM_DEACTED","√ä√£ √Ö√≠√û√á√ù √á√°√£√¶√è√≠√° (√á√°√à√ë√§√á√£√å) √à√§√å√á√ç √≠√£√ü√§√ü √á√°√Ç√§ √Ö√í√á√°√â √ä√ë√ü√≠√à √á√°√à√ë√§√á√£√å");
+define("_MD_AM_ACTED","√ä√£ √ä√î√õ√≠√° √á√°√£√¶√è√≠√° (√á√°√à√ë√§√á√£√å) √á√°√ê√≠ √ç√è√è√ä√•");
+define("_MD_AM_UPDTED","√ä√£ √ä√ç√è√≠√ã √á√°√£√¶√è√≠√° (√á√°√à√ë√§√á√£√å) √á√°√ê√≠ √ç√è√è√ä√•");
+define("_MD_AM_SYSNO","√°√á √≠√£√ü√§ √Ö√≠√û√á√ù √°√¶√ç√â √á√°√ä√ç√ü√£ √á√°√ö√á√£√â");
+define("_MD_AM_STRTNO","√•√ê√á √á√°√à√ë√§√á√£√å √≠√ö√£√° √ü√à√è√á√≠√â √°√°√£√¶√û√ö ¬° √≠√£√ü√§√ü √ä√õ√≠√≠√ë√• √£√§ √é√°√á√° √°√¶√ç√â √á√°√ä√ç√ü√£");
 
 // added in RC2
-define("_MD_AM_PCMFM","Ì—ÃÏ «·≈ﬂ„«·:");
+define("_MD_AM_PCMFM","√≠√ë√å√¨ √á√°√Ö√ü√£√á√°:");
 
 // added in RC3
-define("_MD_AM_ORDER","„ﬂ«‰ «· Ê«Ãœ");
-define("_MD_AM_ORDER0","(0 = ≈Œ›«¡)");
-define("_MD_AM_ACTIVE","Ì⁄„·");
-define("_MD_AM_INACTIVE","·« Ì⁄„·");
-define("_MD_AM_NOTINSTALLED","·„ Ì „  —ﬂÌ»Â");
-define("_MD_AM_NOCHANGE","·«  €Ì—« ");
-define("_MD_AM_INSTALL"," —ﬂÌ»");
-define("_MD_AM_UNINSTALL","≈“«·…  —ﬂÌ»");
-define("_MD_AM_SUBMIT","√—”·");
-define("_MD_AM_CANCEL"," —«Ã⁄");
-define("_MD_AM_DBUPDATE"," „  ÕœÌÀ ﬁ«⁄œ… «·»Ì«‰« ");
-define("_MD_AM_BTOMADMIN","«·⁄Êœ… ≈·Ï ’›Õ… «· Õﬂ„ ›Ì «·„ÊœÌ·«  («·»—«„Ã)");
+define("_MD_AM_ORDER","√£√ü√á√§ √á√°√ä√¶√á√å√è");
+define("_MD_AM_ORDER0","(0 = √Ö√é√ù√á√Å)");
+define("_MD_AM_ACTIVE","√≠√ö√£√°");
+define("_MD_AM_INACTIVE","√°√á √≠√ö√£√°");
+define("_MD_AM_NOTINSTALLED","√°√£ √≠√ä√£ √ä√ë√ü√≠√à√•");
+define("_MD_AM_NOCHANGE","√°√á √ä√õ√≠√ë√á√ä");
+define("_MD_AM_INSTALL","√ä√ë√ü√≠√à");
+define("_MD_AM_UNINSTALL","√Ö√í√á√°√â √ä√ë√ü√≠√à");
+define("_MD_AM_SUBMIT","√É√ë√ì√°");
+define("_MD_AM_CANCEL","√ä√ë√á√å√ö");
+define("_MD_AM_DBUPDATE","√ä√£ √ä√ç√è√≠√ã √û√á√ö√è√â √á√°√à√≠√á√§√á√ä");
+define("_MD_AM_BTOMADMIN","√á√°√ö√¶√è√â √Ö√°√¨ √ï√ù√ç√â √á√°√ä√ç√ü√£ √ù√≠ √á√°√£√¶√è√≠√°√á√ä (√á√°√à√ë√á√£√å)");
 
 // %s represents module name
-define("_MD_AM_FAILINS","·« Ì„ﬂ‰  —ﬂÌ» «·„ÊœÌ· («·»—‰«„Ã) %s.");
-define("_MD_AM_FAILACT","·« Ì„ﬂ‰  ‘€Ì· «·„ÊœÌ· («·»—‰«„Ã) %s.");
-define("_MD_AM_FAILDEACT","·« Ì„ﬂ‰ ≈Ìﬁ«›  ‘€Ì· «·„ÊœÌ· («·»—‰«„Ã) %s.");
-define("_MD_AM_FAILUPD","·« Ì„ﬂ‰ «· ÕœÌÀ ··„ÊœÌ· («·»—‰«„Ã) %s.");
-define("_MD_AM_FAILUNINS","·« Ì„ﬂ‰ ≈“«·…  —ﬂÌ» «·„ÊœÌ· («·»—‰«„Ã) %s.");
-define("_MD_AM_FAILORDER","·« Ì„ﬂ‰  ÕœÌœ „ﬂ«‰ «· Ê«Ãœ ··„ÊœÌ· («·»—‰«„Ã) %s.");
-define("_MD_AM_FAILWRITE","·« Ì„ﬂ‰ «·ﬂ «»… ›Ì «··ÊÕ… «·—∆Ì”Ì…");
-define("_MD_AM_ALEXISTS","«·„ÊœÌ· («·»—‰«„Ã) %s „ÊÃÊœ „”»ﬁ«");
-define("_MD_AM_ERRORSC", "Œÿ√/√Œÿ«¡:");
-define("_MD_AM_OKINS","«·„ÊœÌ· («·»—‰«„Ã) %s  „  —ﬂÌ»Â »‰Ã«Õ");
-define("_MD_AM_OKACT","«·„ÊœÌ· («·»—‰«„Ã) %s  „  ‘€Ì·Â »‰Ã«Õ");
-define("_MD_AM_OKDEACT","«·„ÊœÌ· («·»—‰«„Ã) %s  „ ≈Ìﬁ«›Â »‰Ã«Õ");
-define("_MD_AM_OKUPD","«·„ÊœÌ· («·»—‰«„Ã) %s  „  ÕœÌÀÂ »‰Ã«Õ");
-define("_MD_AM_OKUNINS","«·„ÊœÌ· («·»—‰«„Ã) %s  „  ≈“«·…  À»Ì Â »‰Ã«Õ");
-define("_MD_AM_OKORDER","«·„ÊœÌ· («·»—‰«„Ã) %s  „  ÕœÌœ „Ê÷⁄Â »‰Ã«Õ");
+define("_MD_AM_FAILINS","√°√á √≠√£√ü√§ √ä√ë√ü√≠√à √á√°√£√¶√è√≠√° (√á√°√à√ë√§√á√£√å) %s.");
+define("_MD_AM_FAILACT","√°√á √≠√£√ü√§ √ä√î√õ√≠√° √á√°√£√¶√è√≠√° (√á√°√à√ë√§√á√£√å) %s.");
+define("_MD_AM_FAILDEACT","√°√á √≠√£√ü√§ √Ö√≠√û√á√ù √ä√î√õ√≠√° √á√°√£√¶√è√≠√° (√á√°√à√ë√§√á√£√å) %s.");
+define("_MD_AM_FAILUPD","√°√á √≠√£√ü√§ √á√°√ä√ç√è√≠√ã √°√°√£√¶√è√≠√° (√á√°√à√ë√§√á√£√å) %s.");
+define("_MD_AM_FAILUNINS","√°√á √≠√£√ü√§ √Ö√í√á√°√â √ä√ë√ü√≠√à √á√°√£√¶√è√≠√° (√á√°√à√ë√§√á√£√å) %s.");
+define("_MD_AM_FAILORDER","√°√á √≠√£√ü√§ √ä√ç√è√≠√è √£√ü√á√§ √á√°√ä√¶√á√å√è √°√°√£√¶√è√≠√° (√á√°√à√ë√§√á√£√å) %s.");
+define("_MD_AM_FAILWRITE","√°√á √≠√£√ü√§ √á√°√ü√ä√á√à√â √ù√≠ √á√°√°√¶√ç√â √á√°√ë√Ü√≠√ì√≠√â");
+define("_MD_AM_ALEXISTS","√á√°√£√¶√è√≠√° (√á√°√à√ë√§√á√£√å) %s √£√¶√å√¶√è √£√ì√à√û√á");
+define("_MD_AM_ERRORSC","√é√ò√É/√É√é√ò√á√Å:");
+define("_MD_AM_OKINS","√á√°√£√¶√è√≠√° (√á√°√à√ë√§√á√£√å) %s √ä√£ √ä√ë√ü√≠√à√• √à√§√å√á√ç");
+define("_MD_AM_OKACT","√á√°√£√¶√è√≠√° (√á√°√à√ë√§√á√£√å) %s √ä√£ √ä√î√õ√≠√°√• √à√§√å√á√ç");
+define("_MD_AM_OKDEACT","√á√°√£√¶√è√≠√° (√á√°√à√ë√§√á√£√å) %s √ä√£ √Ö√≠√û√á√ù√• √à√§√å√á√ç");
+define("_MD_AM_OKUPD","√á√°√£√¶√è√≠√° (√á√°√à√ë√§√á√£√å) %s √ä√£ √ä√ç√è√≠√ã√• √à√§√å√á√ç");
+define("_MD_AM_OKUNINS","√á√°√£√¶√è√≠√° (√á√°√à√ë√§√á√£√å) %s √ä√£√ä √Ö√í√á√°√â √ä√ã√à√≠√ä√• √à√§√å√á√ç");
+define("_MD_AM_OKORDER","√á√°√£√¶√è√≠√° (√á√°√à√ë√§√á√£√å) %s √ä√£ √ä√ç√è√≠√è √£√¶√ñ√ö√• √à√§√å√á√ç");
 
-define('_MD_AM_RUSUREINS', '«÷€ÿ ⁄·Ï «·“— √œ‰«Â · —ﬂÌ» «·»—‰«„Ã');
-define('_MD_AM_RUSUREUPD', '«÷€ÿ ⁄·Ï «·“— √œ‰«Â · ÕœÌÀ «·»—‰«„Ã');
-define('_MD_AM_RUSUREUNINS', 'Â· √‰  „ √ﬂœ  „‰  ≈“«·…  —ﬂÌ» «·»—‰«„Ã ø');
-define('_MD_AM_LISTUPBLKS', '«·»·Êﬂ«  «· «·Ì… ”Ì „  ÕœÌÀÂ« <br />⁄‰œ ≈‘«— ﬂ ⁄·Ï «·»·Êﬂ ”Ì „ „”Õ „⁄·Ê„« Â «·ﬁœÌ„<br />');
-define('_MD_AM_NEWBLKS', '»·Êﬂ ÃœÌœ');
-define('_MD_AM_DEPREBLKS', ' Ã«Â· «·»·Êﬂ');
+define('_MD_AM_RUSUREINS','√á√ñ√õ√ò √ö√°√¨ √á√°√í√ë √É√è√§√á√• √°√ä√ë√ü√≠√à √á√°√à√ë√§√á√£√å');
+define('_MD_AM_RUSUREUPD','√á√ñ√õ√ò √ö√°√¨ √á√°√í√ë √É√è√§√á√• √°√ä√ç√è√≠√ã √á√°√à√ë√§√á√£√å');
+define('_MD_AM_RUSUREUNINS','√•√° √É√§√ä √£√ä√É√ü√è  √£√§  √Ö√í√á√°√â √ä√ë√ü√≠√à √á√°√à√ë√§√á√£√å ¬ø');
+define('_MD_AM_LISTUPBLKS','√á√°√à√°√¶√ü√á√ä √á√°√ä√á√°√≠√â √ì√≠√ä√£ √ä√ç√è√≠√ã√•√á <br />√ö√§√è √Ö√î√á√ë√ä√ü √ö√°√¨ √á√°√à√°√¶√ü √ì√≠√ä√£ √£√ì√ç √£√ö√°√¶√£√á√ä√• √á√°√û√è√≠√£<br />');
+define('_MD_AM_NEWBLKS','√à√°√¶√ü √å√è√≠√è');
+define('_MD_AM_DEPREBLKS','√ä√å√á√•√° √á√°√à√°√¶√ü');
 
 // added in 2.3 - julionc
-define('_MD_AM_INSTALLING', ' À»Ì  ');
-define('_MD_AM_TABLE_RESERVED', '%s ÂÊ ÃœÊ· „ÕÃÊ“!');
-define('_MD_AM_CREATE_TABLES', '≈‰‘«¡ «·Ãœ«Ê·....');
-define('_MD_AM_TABLE_CREATED', '«·ÃœÊ· %s „ı‰‘√');
-define('_MD_AM_INSERT_DATA', '&nbsp;&nbsp;  „¯ «·≈œ—«Ã ›Ì «·Ãœ«Ê· %s');
-define('_MD_AM_INSERT_DATA_FAILD', '·« Ì„ﬂ‰ «·≈œ—«Ã %s ÷„‰ ﬁ«⁄œ… «·»Ì«‰« .');
-define('_MD_AM_INSERT_DATA_DONE', ' „¯ «·≈œ„«Ã »‰Ã«Õ.');
-define('_MD_AM_MODULEID', ' „⁄¯—› «·„ÊœÌÊ·: %s');
-define('_MD_AM_SQL_FOUND', 'SQL ÊÃœ  ›Ì %s ');
-define('_MD_AM_SQL_NOT_FOUND', 'SQL ·„ Ì „¯ ≈ÌÃ«œÂ« at %s');
-define('_MD_AM_SQL_NOT_CREATE', 'Œÿ√: ·« Ì„ﬂ‰ «‰‘«¡ %s ');
-define('_MD_AM_SQL_NOT_VALID', '%s ·Ì”  ’ÕÌÕ… SQL!');
+define('_MD_AM_INSTALLING','√ä√ã√à√≠√ä ');
+define('_MD_AM_TABLE_RESERVED','%s √•√¶ √å√è√¶√° √£√ç√å√¶√í!');
+define('_MD_AM_CREATE_TABLES','√Ö√§√î√á√Å √á√°√å√è√á√¶√°....');
+define('_MD_AM_TABLE_CREATED','√á√°√å√è√¶√° %s √£√µ√§√î√É');
+define('_MD_AM_INSERT_DATA','&nbsp;&nbsp; √ä√£√∏ √á√°√Ö√è√ë√á√å √ù√≠ √á√°√å√è√á√¶√° %s');
+define('_MD_AM_INSERT_DATA_FAILD','√°√á √≠√£√ü√§ √á√°√Ö√è√ë√á√å %s √ñ√£√§ √û√á√ö√è√â √á√°√à√≠√á√§√á√ä.');
+define('_MD_AM_INSERT_DATA_DONE','√ä√£√∏ √á√°√Ö√è√£√á√å √à√§√å√á√ç.');
+define('_MD_AM_MODULEID',' √£√ö√∏√ë√ù √á√°√£√¶√è√≠√¶√°: %s');
+define('_MD_AM_SQL_FOUND','SQL √¶√å√è√ä √ù√≠ %s ');
+define('_MD_AM_SQL_NOT_FOUND','SQL √°√£ √≠√ä√£√∏ √Ö√≠√å√á√è√•√á at %s');
+define('_MD_AM_SQL_NOT_CREATE','√é√ò√É: √°√á √≠√£√ü√§ √á√§√î√á√Å %s ');
+define('_MD_AM_SQL_NOT_VALID','%s √°√≠√ì√ä √ï√ç√≠√ç√â SQL!');
 
-define('_MD_AM_GROUP_ID', ' „⁄—¯› «·„Ã„Ê⁄…: %s ');
-define('_MD_AM_NAME', ' «·«”„: ');
-define('_MD_AM_VALUE', ' «·ﬁÌ„…: ');
+define('_MD_AM_GROUP_ID',' √£√ö√ë√∏√ù √á√°√£√å√£√¶√ö√â: %s ');
+define('_MD_AM_NAME',' √á√°√á√ì√£: ');
+define('_MD_AM_VALUE',' √á√°√û√≠√£√â: ');
 
 /* Templates */
-define('_MD_AM_TEMPLATES_ADD', '≈÷«›… «·ﬁÊ«·»....');
-define('_MD_AM_TEMPLATES_DELETE', '„”Õ «·ﬁÊ«·»....');
-define('_MD_AM_TEMPLATES_UPDATE', ' ÕœÌÀ «·ﬁÊ«·»...');
+define('_MD_AM_TEMPLATES_ADD','√Ö√ñ√á√ù√â √á√°√û√¶√á√°√à....');
+define('_MD_AM_TEMPLATES_DELETE','√£√ì√ç √á√°√û√¶√á√°√à....');
+define('_MD_AM_TEMPLATES_UPDATE','√ä√ç√è√≠√ã √á√°√û√¶√á√°√à...');
 
-define('_MD_AM_TEMPLATE_ID', '„⁄—› «·ﬁ«·»: %s ');
+define('_MD_AM_TEMPLATE_ID','√£√ö√ë√ù √á√°√û√á√°√à: %s ');
 
-define('_MD_AM_TEMPLATE_ADD_DATA', 'ﬁ«·» %s „÷«› ≈·Ï ﬁ«⁄œ… «·»Ì«‰« ');
-define('_MD_AM_TEMPLATE_ADD_ERROR', 'Œÿ√: ·« Ì„ﬂ‰ ≈œ—«Ã «·ﬁ«·» %s ÷„‰ ﬁ«⁄œ… «·»Ì«‰« ');
-define('_MD_AM_TEMPLATE_COMPILED', '«·ﬁ«·» %s „÷«› ');
-define('_MD_AM_TEMPLATE_COMPILED_FAILED', 'Œÿ√:  ⁄À¯— ≈÷«›… «·ﬁ«·» %s ');
-define('_MD_AM_TEMPLATE_DELETE_DATA', '«·ﬁ«·» %s  „¯ „”ÕÂ „‰ ﬁ«⁄œ… «·»Ì«‰«  ');
-define('_MD_AM_TEMPLATE_DELETE_DATA_FAILD', 'Œÿ√: ·„ Ì„”Õ «·ﬁ«·» %s„‰ ﬁ«⁄œ… «·»Ì«‰«  ');
-define('_MD_AM_TEMPLATE_INSERT_DATA', '«·ﬁ«·» %s „œ—Ã ›Ì ﬁ«⁄œ… «·»Ì«‰«  ');
-define('_MD_AM_TEMPLATE_RECOMPILE', '«·ﬁ«·» %s √⁄Ìœ  Ã„Ì⁄Â');
-define('_MD_AM_TEMPLATE_RECOMPILE_FAILD', 'Œÿ√: «·ﬁ«·» %s ›Ì ≈⁄«œ…  Ã„Ì⁄ «·ﬁ«·»');
-define('_MD_AM_TEMPLATE_RECOMPILE_ERROR', 'Œÿ√: ·« Ì„ﬂ‰ ≈⁄«œ…  Ã„Ì⁄ «·ﬁ«·» %s ');
-define('_MD_AM_TEMPLATE_DELETE_OLD_ERROR', 'Œÿ√: ·„ ‰ „ﬂ‰ „‰ ≈“«·… «·ﬁ«·» «·ﬁœÌ„ %s.  Ã«Â·  ÕœÌÀ Â–« «·„·› ');
-define('_MD_AM_TEMPLATE_UPDATE', '«·ﬁ«·» %s „Õœ¯À ');
-define('_MD_AM_TEMPLATE_UPDATE_ERROR', 'Œÿ√: ·„ ‰ „ﬂ‰ „‰  ÕœÌÀ %s «·ﬁ«·». ');
+define('_MD_AM_TEMPLATE_ADD_DATA','√û√á√°√à %s √£√ñ√á√ù √Ö√°√¨ √û√á√ö√è√â √á√°√à√≠√á√§√á√ä');
+define('_MD_AM_TEMPLATE_ADD_ERROR','√é√ò√É: √°√á √≠√£√ü√§ √Ö√è√ë√á√å √á√°√û√á√°√à %s √ñ√£√§ √û√á√ö√è√â √á√°√à√≠√á√§√á√ä');
+define('_MD_AM_TEMPLATE_COMPILED','√á√°√û√á√°√à %s √£√ñ√á√ù ');
+define('_MD_AM_TEMPLATE_COMPILED_FAILED','√é√ò√É: √ä√ö√ã√∏√ë √Ö√ñ√á√ù√â √á√°√û√á√°√à %s ');
+define('_MD_AM_TEMPLATE_DELETE_DATA','√á√°√û√á√°√à %s √ä√£√∏ √£√ì√ç√• √£√§ √û√á√ö√è√â √á√°√à√≠√á√§√á√ä ');
+define('_MD_AM_TEMPLATE_DELETE_DATA_FAILD','√é√ò√É: √°√£ √≠√£√ì√ç √á√°√û√á√°√à %s√£√§ √û√á√ö√è√â √á√°√à√≠√á√§√á√ä ');
+define('_MD_AM_TEMPLATE_INSERT_DATA','√á√°√û√á√°√à %s √£√è√ë√å √ù√≠ √û√á√ö√è√â √á√°√à√≠√á√§√á√ä ');
+define('_MD_AM_TEMPLATE_RECOMPILE','√á√°√û√á√°√à %s √É√ö√≠√è √ä√å√£√≠√ö√•');
+define('_MD_AM_TEMPLATE_RECOMPILE_FAILD','√é√ò√É: √á√°√û√á√°√à %s √ù√≠ √Ö√ö√á√è√â √ä√å√£√≠√ö √á√°√û√á√°√à');
+define('_MD_AM_TEMPLATE_RECOMPILE_ERROR','√é√ò√É: √°√á √≠√£√ü√§ √Ö√ö√á√è√â √ä√å√£√≠√ö √á√°√û√á√°√à %s ');
+define('_MD_AM_TEMPLATE_DELETE_OLD_ERROR','√é√ò√É: √°√£ √§√ä√£√ü√§ √£√§ √Ö√í√á√°√â √á√°√û√á√°√à √á√°√û√è√≠√£ %s. √ä√å√á√•√° √ä√ç√è√≠√ã √•√ê√á √á√°√£√°√ù ');
+define('_MD_AM_TEMPLATE_UPDATE','√á√°√û√á√°√à %s √£√ç√è√∏√ã ');
+define('_MD_AM_TEMPLATE_UPDATE_ERROR','√é√ò√É: √°√£ √§√ä√£√ü√§ √£√§ √ä√ç√è√≠√ã %s √á√°√û√á√°√à. ');
 
 /* Blocks */
-define('_MD_AM_BLOCKS_ADD', '≈÷«›… «·»·Êﬂ« ...');
-define('_MD_AM_BLOCKS_DELETE', '„”Õ «·»·Êﬂ« ...');
-define('_MD_AM_BLOCKS_REBUILD', '≈⁄«œ… »‰«¡ «·»·Êﬂ« ');
+define('_MD_AM_BLOCKS_ADD','√Ö√ñ√á√ù√â √á√°√à√°√¶√ü√á√ä...');
+define('_MD_AM_BLOCKS_DELETE','√£√ì√ç √á√°√à√°√¶√ü√á√ä...');
+define('_MD_AM_BLOCKS_REBUILD','√Ö√ö√á√è√â √à√§√á√Å √á√°√à√°√¶√ü√á√ä');
 
-define('_MD_AM_BLOCK_ID', ' „⁄—¯› «·»·Êﬂ: %s ');
+define('_MD_AM_BLOCK_ID',' √£√ö√ë√∏√ù √á√°√à√°√¶√ü: %s ');
 
-define('_MD_AM_BLOCK_ACCESS', '≈⁄ÿ«¡ ’·«ÕÌ«  œŒÊ· «·»·Êﬂ« ');
-define('_MD_AM_BLOCK_ACCESS_ERROR', 'Œÿ√: ·„ ‰ „ﬂ‰ „‰ ≈⁄ÿ«¡ ’·«ÕÌ«  œŒÊ· «·»·Êﬂ« ');
-define('_MD_AM_BLOCK_ADD', '«·»·Êﬂ %s „ı÷«› ');
-define('_MD_AM_BLOCK_ADD_ERROR', 'Œÿ√: ·„ ‰ „ﬂ‰ „‰ ≈÷«›… «·»·Êﬂ %s ≈·Ï ﬁ«⁄œ… «·»Ì«‰« ! ');
-define('_MD_AM_BLOCK_ADD_ERROR_DATABASE', 'Œÿ√ ›Ì ﬁ«⁄œ… «·»Ì«‰« : %s ');
-define('_MD_AM_BLOCK_CREATED', '«·»·Êﬂ %s „‰‘√ ');
-define('_MD_AM_BLOCK_DELETE', '«·»·Êﬂ %s  „¯ „”ÕÂ ');
-define('_MD_AM_BLOCK_DELETE_DATA', 'ﬁ«·» «·»·Êﬂ %s „„”ÊÕ „‰ ﬁ«⁄œ… «·»Ì«‰«  ');
-define('_MD_AM_BLOCK_DELETE_ERROR', 'Œÿ√: ·„ ‰ „ﬂ‰ „‰ „”Õ «·»·Êﬂ %s');
-define('_MD_AM_BLOCK_DELETE_TEMPLATE_ERROR', 'Œÿ√: ·„ ‰ „ﬂ‰ „‰ „”Õ ﬁ«·» «·»·Êﬂ %s „‰ ﬁ«⁄œ… «·»Ì«‰« ');
-define('_MD_AM_BLOCK_DEPRECATED', 'ﬁ«·» «·»·Êﬂ %s ·„   „ «·„Ê«›ﬁ… ⁄·ÌÂ ');
-define('_MD_AM_BLOCK_DEPRECATED_ERROR', 'Œÿ√: ·„ Ì „ Õ–› ﬁ«·» «·»·Êﬂ €Ì— «·„Ê«›ﬁ ⁄·ÌÂ  ');
-define('_MD_AM_BLOCK_UPDATE', '«·»·Êﬂ %s  „  ÕœÌÀÂ ');
+define('_MD_AM_BLOCK_ACCESS','√Ö√ö√ò√á√Å √ï√°√á√ç√≠√á√ä √è√é√¶√° √á√°√à√°√¶√ü√á√ä');
+define('_MD_AM_BLOCK_ACCESS_ERROR','√é√ò√É: √°√£ √§√ä√£√ü√§ √£√§ √Ö√ö√ò√á√Å √ï√°√á√ç√≠√á√ä √è√é√¶√° √á√°√à√°√¶√ü√á√ä');
+define('_MD_AM_BLOCK_ADD','√á√°√à√°√¶√ü %s √£√µ√ñ√á√ù ');
+define('_MD_AM_BLOCK_ADD_ERROR','√é√ò√É: √°√£ √§√ä√£√ü√§ √£√§ √Ö√ñ√á√ù√â √á√°√à√°√¶√ü %s √Ö√°√¨ √û√á√ö√è√â √á√°√à√≠√á√§√á√ä! ');
+define('_MD_AM_BLOCK_ADD_ERROR_DATABASE','√é√ò√É √ù√≠ √û√á√ö√è√â √á√°√à√≠√á√§√á√ä: %s ');
+define('_MD_AM_BLOCK_CREATED','√á√°√à√°√¶√ü %s √£√§√î√É ');
+define('_MD_AM_BLOCK_DELETE','√á√°√à√°√¶√ü %s √ä√£√∏ √£√ì√ç√• ');
+define('_MD_AM_BLOCK_DELETE_DATA','√û√á√°√à √á√°√à√°√¶√ü %s √£√£√ì√¶√ç √£√§ √û√á√ö√è√â √á√°√à√≠√á√§√á√ä ');
+define('_MD_AM_BLOCK_DELETE_ERROR','√é√ò√É: √°√£ √§√ä√£√ü√§ √£√§ √£√ì√ç √á√°√à√°√¶√ü %s');
+define('_MD_AM_BLOCK_DELETE_TEMPLATE_ERROR','√é√ò√É: √°√£ √§√ä√£√ü√§ √£√§ √£√ì√ç √û√á√°√à √á√°√à√°√¶√ü %s √£√§ √û√á√ö√è√â √á√°√à√≠√á√§√á√ä');
+define('_MD_AM_BLOCK_DEPRECATED','√û√á√°√à √á√°√à√°√¶√ü %s √°√£ √ä√ä√£ √á√°√£√¶√á√ù√û√â √ö√°√≠√• ');
+define('_MD_AM_BLOCK_DEPRECATED_ERROR','√é√ò√É: √°√£ √≠√ä√£ √ç√ê√ù √û√á√°√à √á√°√à√°√¶√ü √õ√≠√ë √á√°√£√¶√á√ù√û √ö√°√≠√•  ');
+define('_MD_AM_BLOCK_UPDATE','√á√°√à√°√¶√ü %s √ä√£ √ä√ç√è√≠√ã√• ');
 
 /* Configs */
-define('_MD_AM_GONFIG_ID', '„⁄—¯› «· ÂÌ∆…: %s');
-define('_MD_AM_MODULE_DATA_ADD', '≈÷«›…  ‘ŒÌ’ „Õ ÊÏ «·»·Êﬂ');
-define('_MD_AM_MODULE_DATA_DELETE', '„”Õ  ‘ŒÌ’ „Õ ÊÏ «·»·Êﬂ...');
-define('_MD_AM_MODULE_DATA_UPDATE', ' „¯ ÕœÌÀ „Õ ÊÏ «·»·Êﬂ');
+define('_MD_AM_GONFIG_ID','√£√ö√ë√∏√ù √á√°√ä√•√≠√Ü√â: %s');
+define('_MD_AM_MODULE_DATA_ADD','√Ö√ñ√á√ù√â √ä√î√é√≠√ï √£√ç√ä√¶√¨ √á√°√à√°√¶√ü');
+define('_MD_AM_MODULE_DATA_DELETE','√£√ì√ç √ä√î√é√≠√ï √£√ç√ä√¶√¨ √á√°√à√°√¶√ü...');
+define('_MD_AM_MODULE_DATA_UPDATE','√ä√£√∏√ä√ç√è√≠√ã √£√ç√ä√¶√¨ √á√°√à√°√¶√ü');
 
-define('_MD_AM_CONFIG_ADD', '  „¯  ≈÷«›… ŒÌ«— «· ÂÌ∆…');
-define('_MD_AM_CONFIG_DATA_ADD', ' «· ÂÌ∆… %s „÷«›… ≈·Ï ﬁ«⁄œ… «·»Ì«‰« ');
-define('_MD_AM_CONFIG_DATA_ADD_ERROR', ' Œÿ√: ·„ ‰ „ﬂ‰ „‰ ≈÷«›… «· ÂÌ∆… %s ≈·Ï ﬁ«⁄œ… «·»Ì«‰«  ');
-define('_MD_AM_GONFIG_DATA_DELETE', ' ÂÌ∆… «·„Õ ÊÏ „„”ÊÕ „‰ ﬁ«⁄œ… «·»Ì«‰«  ');
-define('_MD_AM_CONFIG_DATA_DELETE_ERROR', 'Œÿ√: ·„ ‰ „ﬂ‰ „‰ „”Õ  ÂÌ∆… «·„Õ ÊÏ „‰ ﬁ«⁄œ… «·»Ì«‰« ');
+define('_MD_AM_CONFIG_ADD',' √ä√£√∏√ä √Ö√ñ√á√ù√â √é√≠√á√ë √á√°√ä√•√≠√Ü√â');
+define('_MD_AM_CONFIG_DATA_ADD',' √á√°√ä√•√≠√Ü√â %s √£√ñ√á√ù√â √Ö√°√¨ √û√á√ö√è√â √á√°√à√≠√á√§√á√ä');
+define('_MD_AM_CONFIG_DATA_ADD_ERROR',' √é√ò√É: √°√£ √§√ä√£√ü√§ √£√§ √Ö√ñ√á√ù√â √á√°√ä√•√≠√Ü√â %s √Ö√°√¨ √û√á√ö√è√â √á√°√à√≠√á√§√á√ä ');
+define('_MD_AM_GONFIG_DATA_DELETE','√ä√•√≠√Ü√â √á√°√£√ç√ä√¶√¨ √£√£√ì√¶√ç √£√§ √û√á√ö√è√â √á√°√à√≠√á√§√á√ä ');
+define('_MD_AM_CONFIG_DATA_DELETE_ERROR','√é√ò√É: √°√£ √§√ä√£√ü√§ √£√§ √£√ì√ç √ä√•√≠√Ü√â √á√°√£√ç√ä√¶√¨ √£√§ √û√á√ö√è√â √á√°√à√≠√á√§√á√ä');
 
 /* Access */
-define('_MD_AM_GROUP_SETTINGS_ADD', '≈”‰«œ ’·«ÕÌ«  «·„Ã„Ê⁄« ');
+define('_MD_AM_GROUP_SETTINGS_ADD','√Ö√ì√§√á√è √ï√°√á√ç√≠√á√ä √á√°√£√å√£√¶√ö√á√ä');
 
-define('_MD_AM_GROUP_PERMS_DELETE_ERROR', 'Œÿ√: ·„ ‰ „ﬂ‰ „‰ „”Õ  ’«—ÌÕ «·„Ã„Ê⁄…');
-define('_MD_AM_GROUP_PERMS_DELETED', ' „¯ „”Õ  ’«—ÌÕ «·„Ã„Ê⁄… ');
+define('_MD_AM_GROUP_PERMS_DELETE_ERROR','√é√ò√É: √°√£ √§√ä√£√ü√§ √£√§ √£√ì√ç √ä√ï√á√ë√≠√ç √á√°√£√å√£√¶√ö√â');
+define('_MD_AM_GROUP_PERMS_DELETED','√ä√£√∏ √£√ì√ç √ä√ï√á√ë√≠√ç √á√°√£√å√£√¶√ö√â ');
 
-define('_MD_AM_ACCESS_ADMIN_ADD', '≈⁄ÿ«¡ ’·«ÕÌ«  «·≈œ«—… ·„Ã„Ê⁄… %s');
-define('_MD_AM_ACCESS_ADMIN_ADD_ERROR', 'Œÿ√: ·„ ‰ „ﬂ‰ „‰ ≈⁄ÿ«¡ ’·«ÕÌ«  «·≈œ«—… ··„Ã„Ê⁄… %s');
-define('_MD_AM_ACCESS_USER_ADD_ERROR', '≈⁄ÿ«¡ ’·«ÕÌ«  «·œŒÊ· ··„Ã„Ê⁄…: %s');
-define('_MD_AM_ACCESS_USER_ADD_ERROR_ERROR', 'Œÿ√: ·„ ‰ „ﬂ‰ „‰ ≈⁄ÿ«¡ ’·«ÕÌ«  «·œŒÊ· ··„Ã„Ê⁄…: %s');
+define('_MD_AM_ACCESS_ADMIN_ADD','√Ö√ö√ò√á√Å √ï√°√á√ç√≠√á√ä √á√°√Ö√è√á√ë√â √°√£√å√£√¶√ö√â %s');
+define('_MD_AM_ACCESS_ADMIN_ADD_ERROR','√é√ò√É: √°√£ √§√ä√£√ü√§ √£√§ √Ö√ö√ò√á√Å √ï√°√á√ç√≠√á√ä √á√°√Ö√è√á√ë√â √°√°√£√å√£√¶√ö√â %s');
+define('_MD_AM_ACCESS_USER_ADD_ERROR','√Ö√ö√ò√á√Å √ï√°√á√ç√≠√á√ä √á√°√è√é√¶√° √°√°√£√å√£√¶√ö√â: %s');
+define('_MD_AM_ACCESS_USER_ADD_ERROR_ERROR','√é√ò√É: √°√£ √§√ä√£√ü√§ √£√§ √Ö√ö√ò√á√Å √ï√°√á√ç√≠√á√ä √á√°√è√é√¶√° √°√°√£√å√£√¶√ö√â: %s');
 
 // execute module specific install script if any
-define('_MD_AM_FAILED_EXECUTE', '›‘· ›Ì «· ‰›Ì– %s');
-define('_MD_AM_FAILED_SUCESS', '%s  „¯ «· ‰›Ì– »‰Ã«Õ');
+define('_MD_AM_FAILED_EXECUTE','√ù√î√° √ù√≠ √á√°√ä√§√ù√≠√ê %s');
+define('_MD_AM_FAILED_SUCESS','%s √ä√£√∏ √á√°√ä√§√ù√≠√ê √à√§√å√á√ç');
 
-define('_MD_AM_DELETE_ERROR', 'Œÿ√ : ·„ ‰ „ﬂ‰ „‰ «·„”Õ %s');
-define('_MD_AM_UPDATE_ERROR', 'Œÿ√: ·„ ‰ „ﬂ‰ „‰ «· ÕœÌÀ %s');
-define('_MD_AM_DELETE_MOD_TABLES', '„”Õ Ãœ«Ê· «·»—‰«„Ã...');
+define('_MD_AM_DELETE_ERROR','√é√ò√É : √°√£ √§√ä√£√ü√§ √£√§ √á√°√£√ì√ç %s');
+define('_MD_AM_UPDATE_ERROR','√é√ò√É: √°√£ √§√ä√£√ü√§ √£√§ √á√°√ä√ç√è√≠√ã %s');
+define('_MD_AM_DELETE_MOD_TABLES','√£√ì√ç √å√è√á√¶√° √á√°√à√ë√§√á√£√å...');
 
-define('_MD_AM_COMMENTS_DELETE', '„”Õ «· ⁄·Ìﬁ« ...');
-define('_MD_AM_COMMENTS_DELETE_ERROR', 'Œÿ√: ·„ ‰ „ﬂ‰ „‰ „”Õ «· ⁄·Ìﬁ« ');
-define('_MD_AM_COMMENTS_DELETED', '«· ⁄·Ìﬁ«  „„”ÊÕ…');
+define('_MD_AM_COMMENTS_DELETE','√£√ì√ç √á√°√ä√ö√°√≠√û√á√ä...');
+define('_MD_AM_COMMENTS_DELETE_ERROR','√é√ò√É: √°√£ √§√ä√£√ü√§ √£√§ √£√ì√ç √á√°√ä√ö√°√≠√û√á√ä');
+define('_MD_AM_COMMENTS_DELETED','√á√°√ä√ö√°√≠√û√á√ä √£√£√ì√¶√ç√â');
 
-define('_MD_AM_NOTIFICATIONS_DELETE', '„”Õ «· »·Ì€« ...');
-define('_MD_AM_NOTIFICATIONS_DELETE_ERROR', 'Œÿ√: ·„ ‰ „ﬂ‰ „‰ „”Õ «· »·Ì€« ');
-define('_MD_AM_NOTIFICATIONS_DELETED', '«· »·Ì€«  „„”ÊÕ…');
+define('_MD_AM_NOTIFICATIONS_DELETE','√£√ì√ç √á√°√ä√à√°√≠√õ√á√ä...');
+define('_MD_AM_NOTIFICATIONS_DELETE_ERROR','√é√ò√É: √°√£ √§√ä√£√ü√§ √£√§ √£√ì√ç √á√°√ä√à√°√≠√õ√á√ä');
+define('_MD_AM_NOTIFICATIONS_DELETED','√á√°√ä√à√°√≠√õ√á√ä √£√£√ì√¶√ç√â');
 
-define('_MD_AM_TABLE_DROPPED', '«·ÃœÊ· %s √“Ì· ');
-define('_MD_AM_TABLE_DROPPED_ERROR', 'Œÿ√: ·„ ‰ „ﬂ‰ „‰ ≈“«·… «·Ãœ«Ê· %s');
-define('_MD_AM_TABLE_DROPPED_FAILDED', 'Œÿ√: ·« ’·«ÕÌ«  ·≈“«·… «·Ãœ«Ê· %s !');
+define('_MD_AM_TABLE_DROPPED','√á√°√å√è√¶√° %s √É√í√≠√°√ä');
+define('_MD_AM_TABLE_DROPPED_ERROR','√é√ò√É: √°√£ √§√ä√£√ü√§ √£√§ √Ö√í√á√°√â √á√°√å√è√á√¶√° %s');
+define('_MD_AM_TABLE_DROPPED_FAILDED','√é√ò√É: √°√á √ï√°√á√ç√≠√á√ä √°√Ö√í√á√°√â √á√°√å√è√á√¶√° %s !');
 
 ?>

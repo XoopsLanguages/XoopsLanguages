@@ -22,11 +22,11 @@
 // _CHARSET : UTF-8
 // Translator: 55region.org
 
-define('_MB_TDMDOWNLOADS_ALLCAT', 'Все Категории');
-define('_MB_TDMDOWNLOADS_CATTODISPLAY', 'Выберите отображаемые категории');
-define('_MB_TDMDOWNLOADS_CHARS', 'Длина заголовка');
-define('_MB_TDMDOWNLOADS_DISP', 'Показать');
-define('_MB_TDMDOWNLOADS_FILES', 'Файлы');
-define('_MB_TDMDOWNLOADS_LENGTH', 'Символы');
+define('_MB_TDMDOWNLOADS_ALLCAT','Все Категории');
+define('_MB_TDMDOWNLOADS_CATTODISPLAY','Выберите отображаемые категории');
+define('_MB_TDMDOWNLOADS_CHARS','Длина заголовка');
+define('_MB_TDMDOWNLOADS_DISP','Показать');
+define('_MB_TDMDOWNLOADS_FILES','Файлы');
+define('_MB_TDMDOWNLOADS_LENGTH','Символы');
 
 ?>

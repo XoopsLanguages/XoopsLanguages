@@ -30,8 +30,8 @@ define("_WARNINSTALL2","LƯU Ý: Thư mục %s đang tồn tại trong máy ch�
 define("_WARNINWRITEABLE","LƯU Ý: Hồ sơ %s đang ở chế độ ghi đè lên được. <br />Hãy thay đổi đặc tính cho phép của hồ sơ này vì lý do an toàn.<br /> trong hệ điều hành Unix (444), trong hệ điều hành Win32 (read-only)");//WARNING: File %s is writeable by the server. <br />Please change the permission of this file for security reasons.<br /> in Unix (444), in Win32 (read-only)
 
 // Error messages issued by XoopsObject::cleanVars()
-define( "_XOBJ_ERR_REQUIRED", "%s cần thiết" );//is required
-define( "_XOBJ_ERR_SHORTERTHAN", "%s phải ngắn hơn %d ký tự." );//must be shorter than %d characters
+define("_XOBJ_ERR_REQUIRED","%s cần thiết" );//is required
+define("_XOBJ_ERR_SHORTERTHAN","%s phải ngắn hơn %d ký tự." );//must be shorter than %d characters
 
 //%%%%%%	File Name themeuserpost.php 	%%%%%
 define("_PROFILE","Tiễu sử");//Profile
@@ -48,14 +48,14 @@ define("_MAIN","Chính");//Main
 define("_MANUAL","Tự làm");//Manual
 define("_INFO","Chi tiết");//Info
 define("_CPHOME","Trang chủ quản trị");//Control Panel Home
-define("_XNEWS", "Tin Xoops");
-define("_XNEWS1", "XoopsViệt");
+define("_XNEWS","Tin Xoops");
+define("_XNEWS1","XoopsViệt");
 define("_YOURHOME","Trang chủ");//Home Page
 
 //%%%%%%	File Name misc.php (who's-online popup)	%%%%%
 define("_WHOSONLINE","Ai Trực tuyến");//Who's Online
-define('_GUESTS', 'Khách');//Guests
-define('_MEMBERS', 'Thành viên');//Members
+define('_GUESTS','Khách');//Guests
+define('_MEMBERS','Thành viên');//Members
 define("_ONLINEPHRASE","<strong>%s</strong> người đang trực tuyến");//<strong>%s</strong> user(s) are online
 define("_ONLINEPHRASEX","<br><strong>%s</strong> thành viên đang ở trong <strong>%s</strong>");//<strong>%s</strong> user(s) are browsing <strong>%s</strong>
 define("_CLOSE","Đóng cửa sổ");  // Close window
@@ -77,27 +77,27 @@ define("_ALIGN","Sắp hàng");//Align
 define("_LEFT","Trái");//Left
 define("_CENTER","Trung tâm");//Center
 define("_RIGHT","Phải");//Right
-define("_FORM_ENTER", "Vui lòng điền vào %s");//Please enter %s
+define("_FORM_ENTER","Vui lòng điền vào %s");//Please enter %s
 // %s represents file name
 define("_MUSTWABLE","Hồ sơ %s phãi ở chế độ được ghi đè lên bởi máy chủ!");//File %s must be writable by the server!
 // Module info
-define('_PREFERENCES', 'Tùy chọn');//Preferences
-define("_VERSION", "Phiên bản");//Version
-define("_DESCRIPTION", "Mô tả");//Description
-define("_AUTHOR", "Tác giả");//Author
-define("_CREDITS", "Công trạng");//Credits
-define("_LICENCE", "Giấy phép");//Licence
-define("_ERRORS", "Lỗi");//Errors
-define("_NONE", "Không");//None
+define('_PREFERENCES','Tùy chọn');//Preferences
+define("_VERSION","Phiên bản");//Version
+define("_DESCRIPTION","Mô tả");//Description
+define("_AUTHOR","Tác giả");//Author
+define("_CREDITS","Công trạng");//Credits
+define("_LICENCE","Giấy phép");//Licence
+define("_ERRORS","Lỗi");//Errors
+define("_NONE","Không");//None
 define('_ON','vào ngày');//on
 define('_READS','lần đọc');//reads
 define('_WELCOMETO','Chào mừng bạn đến với %s');//Welcome to
 define('_SEARCH','Tìm kiếm');//Search
-define('_ALL', 'Tất cả');//All
-define('_TITLE', 'Tiêu đề');//Title
-define('_OPTIONS', 'Lựa chọn');//Options
-define('_QUOTE', 'Trích dẫn');//Quote
-define('_LIST', 'Danh sách');//List
+define('_ALL','Tất cả');//All
+define('_TITLE','Tiêu đề');//Title
+define('_OPTIONS','Lựa chọn');//Options
+define('_QUOTE','Trích dẫn');//Quote
+define('_LIST','Danh sách');//List
 define('_LOGIN','Đăng nhập');//User Login
 define('_USERNAME','Tài khoản: ');//Username: 
 define('_PASSWORD','Mật khẩu: ');//Password: 
@@ -107,12 +107,12 @@ define("_SEND","Gửi đi");//Send
 define("_CANCEL","Bãi bỏ");//Cancel
 define("_ASCENDING","Thứ tự lên");//Ascending order
 define("_DESCENDING","Thứ tự xuống");//Descending order
-define('_BACK', 'Trở lại');//Back
-define('_NOTITLE', 'Không có tiêu đề');//No title
+define('_BACK','Trở lại');//Back
+define('_NOTITLE','Không có tiêu đề');//No title
 
 /* Image manager */
 define('_IMGMANAGER','Quản lý hình ảnh');//Image Manager
-define('_NUMIMAGES', '%s ảnh');//images
+define('_NUMIMAGES','%s ảnh');//images
 define('_ADDIMAGE','Thêm hồ sơ ảnh');//Add Image File
 define('_IMAGENAME','Tên:');//Name:
 define('_IMGMAXSIZE','Kích thước cực đại cho phép (bytes):');//Max size allowed (bytes):
@@ -123,16 +123,16 @@ define('_IMAGEFILE','Hồ sơ ảnh:');//Image file:
 define('_IMGWEIGHT','Hiển thị theo thứ tự trong quản lý ảnh:');//Display order in image manager:
 define('_IMGDISPLAY','Hiển thị ảnh này?');//Display this image?
 define('_IMAGEMIME','Loại MIME:');//MIME type:
-define('_FAILFETCHIMG', 'Không lấy được hồ sơ tải lên %s');//Could not get uploaded file
-define('_FAILSAVEIMG', 'Lỗi lưu ảnh %s vào trong cơ sở dữ liệu');//Failed storing image %s into the database
-define('_NOCACHE', 'Không bộ nhớ');//No Cache
-define('_CLONE', 'Nhái');//Clone
+define('_FAILFETCHIMG','Không lấy được hồ sơ tải lên %s');//Could not get uploaded file
+define('_FAILSAVEIMG','Lỗi lưu ảnh %s vào trong cơ sở dữ liệu');//Failed storing image %s into the database
+define('_NOCACHE','Không bộ nhớ');//No Cache
+define('_CLONE','Nhái');//Clone
 
 //%%%%%	File Name class/xoopsform/formmatchoption.php 	%%%%%
-define("_STARTSWITH", "Bắt đầu với");//Starts with
-define("_ENDSWITH", "Kết thúc với");//Ends with
-define("_MATCHES", "Trùng với");//Matches
-define("_CONTAINS", "Chứa đựng");//Contains
+define("_STARTSWITH","Bắt đầu với");//Starts with
+define("_ENDSWITH","Kết thúc với");//Ends with
+define("_MATCHES","Trùng với");//Matches
+define("_CONTAINS","Chứa đựng");//Contains
 
 //%%%%%%	File Name commentform.php 	%%%%%
 define("_REGISTER","Đăng ký");//Register
@@ -158,16 +158,16 @@ define("_PLZCOMPLETE","Vui lòng nhập đầy đủ cho các lĩnh vực.");//P
 define("_MESSAGETOOLONG","Văn bản của bạn quá dài.");//Your message is too long.
 
 //%%%%%		TIME FORMAT SETTINGS   %%%%%
-define('_SECOND', '1 giây');
-define('_SECONDS', '%s giây');
-define('_MINUTE', '1 phút');
-define('_MINUTES', '%s phút');
-define('_HOUR', '1 giờ');
-define('_HOURS', '%s giờ');
-define('_DAY', '1 ngày');
-define('_DAYS', '%s ngày');
-define('_WEEK', '1 tuần');
-define('_MONTH', '1 tháng');
+define('_SECOND','1 giây');
+define('_SECONDS','%s giây');
+define('_MINUTE','1 phút');
+define('_MINUTES','%s phút');
+define('_HOUR','1 giờ');
+define('_HOURS','%s giờ');
+define('_DAY','1 ngày');
+define('_DAYS','%s ngày');
+define('_WEEK','1 tuần');
+define('_MONTH','1 tháng');
 
 define("_DATESTRING","Y/n/j G:i:s");
 define("_MEDIUMDATESTRING","Y/n/j G:i");
@@ -191,7 +191,7 @@ m - month; i.e. "01" to "12"
 n - month without leading zeros; i.e. "1" to "12"
 M - month, textual, 3 letters; i.e. "Jan"
 s - seconds; i.e. "00" to "59"
-S - English ordinal suffix, textual, 2 characters; i.e. "th", "nd"
+S - English ordinal suffix, textual, 2 characters; i.e. "th","nd"
 t - number of days in the given month; i.e. "28" to "31"
 T - Timezone setting of this machine; i.e. "MDT"
 U - seconds since the epoch
@@ -204,9 +204,9 @@ Z - timezone offset in seconds (i.e. "-43200" to "43200")
 
 
 //%%%%%		LANGUAGE SPECIFIC SETTINGS   %%%%%
-define('_CHARSET', 'UTF-8');
-define('_LANGCODE', 'en');
+define('_CHARSET','UTF-8');
+define('_LANGCODE','en');
 
 // change 0 to 1 if this language is a multi-bytes language
-define("XOOPS_USE_MULTIBYTES", "0");
+define("XOOPS_USE_MULTIBYTES","0");
 ?>

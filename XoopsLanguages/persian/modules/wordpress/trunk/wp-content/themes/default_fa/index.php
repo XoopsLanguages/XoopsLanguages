@@ -14,7 +14,7 @@
 					<?php the_content(__('Read the rest of this entry &raquo;','kubrick')); ?>
 				</div>
 
-				<p class="postmetadata"><?php if (function_exists('the_tags')) : ?><?php the_tags(__('Tags: ','kubrick'), __(', ','kubrick'), '');?><br /> <?php endif; ?> <?php _e('Posted in','kubrick'); ?> <?php the_category(', ') ?> | <?php edit_post_link(__('Edit','kubrick'), '', ' | '); ?>  <?php comments_popup_link(__('No Comments &#187;','kubrick'), __('1 Comment &#187;','kubrick'), __('% Comments &#187;','kubrick')); ?></p>
+				<p class="postmetadata"><?php if (function_exists('the_tags')) : ?><?php the_tags(__('Tags: ','kubrick'), __(',','kubrick'), '');?><br /> <?php endif; ?> <?php _e('Posted in','kubrick'); ?> <?php the_category(',') ?> | <?php edit_post_link(__('Edit','kubrick'), '',' | '); ?>  <?php comments_popup_link(__('No Comments &#187;','kubrick'), __('1 Comment &#187;','kubrick'), __('% Comments &#187;','kubrick')); ?></p>
 			</div>
 
 		<?php endwhile; ?>

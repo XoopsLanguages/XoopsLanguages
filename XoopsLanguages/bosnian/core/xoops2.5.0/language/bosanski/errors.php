@@ -25,7 +25,7 @@ defined('XOOPS_ROOT_PATH') or die('Restricted access');
 // _LANGCODE: ba
 // _CHARSET : UTF-8
 // Translator: XOOPSBA.ORG Team, http://www.xoopsba.org
-define('_XO_ER_FILENOTFOUND', 'Traženi fajl: <b>%s</b> nije pronađen ');
-define('_XO_ER_CLASSNOTFOUND', 'Tražena kategorija %s nije pronađena');
+define('_XO_ER_FILENOTFOUND','Traženi fajl: <b>%s</b> nije pronađen ');
+define('_XO_ER_CLASSNOTFOUND','Tražena kategorija %s nije pronađena');
 
 ?>

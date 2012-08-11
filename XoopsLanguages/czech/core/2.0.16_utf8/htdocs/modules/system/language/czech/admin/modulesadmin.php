@@ -43,7 +43,7 @@ define("_MD_AM_FAILUNINS","Nelze odinstalovat modul <b>%s</b>.");
 define("_MD_AM_FAILORDER","Nelze změnit váhu modulu <b>%s</b>.");
 define("_MD_AM_FAILWRITE","Nelze zapisovat do hlavní nabídky.");
 define("_MD_AM_ALEXISTS","Modul <b>%s</b> již existuje.");
-define("_MD_AM_ERRORSC", "Chyby:");
+define("_MD_AM_ERRORSC","Chyby:");
 define("_MD_AM_OKINS","Modul <b>%s</b> byl nainstalován.");
 define("_MD_AM_OKACT","Modul <b>%s</b> byl aktivován.");
 define("_MD_AM_OKDEACT","Modul <b>%s</b> byl deaktivován.");
@@ -51,10 +51,10 @@ define("_MD_AM_OKUPD","Modul <b>%s</b> byl aktualizován.");
 define("_MD_AM_OKUNINS","Modul <b>%s</b> byl odinstalován.");
 define("_MD_AM_OKORDER","Modul <b>%s</b> byl změněn.");
 
-define('_MD_AM_RUSUREINS', 'Potvrďte instalaci tohoto modulu');
-define('_MD_AM_RUSUREUPD', 'Potvrďte aktualizaci tohoto modulu');
-define('_MD_AM_RUSUREUNINS', 'Opravdu chcete odinstalovat tento modul?');
-define('_MD_AM_LISTUPBLKS', 'Následující bloky budou aktualizovány.<br />Vyberte bloky, jejichž obsah má být přepsán.<br />');
-define('_MD_AM_NEWBLKS', 'Nové bloky');
-define('_MD_AM_DEPREBLKS', 'Nepovolené bloky');
+define('_MD_AM_RUSUREINS','Potvrďte instalaci tohoto modulu');
+define('_MD_AM_RUSUREUPD','Potvrďte aktualizaci tohoto modulu');
+define('_MD_AM_RUSUREUNINS','Opravdu chcete odinstalovat tento modul?');
+define('_MD_AM_LISTUPBLKS','Následující bloky budou aktualizovány.<br />Vyberte bloky, jejichž obsah má být přepsán.<br />');
+define('_MD_AM_NEWBLKS','Nové bloky');
+define('_MD_AM_DEPREBLKS','Nepovolené bloky');
 ?>

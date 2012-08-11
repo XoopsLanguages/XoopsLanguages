@@ -28,7 +28,7 @@ if (!defined('XOOPS_ROOT_PATH')) {
 /*
  * Edit form with selected editor
  */
-$sample_form = new XoopsThemeForm('', 'sample_form', "action.php");
+$sample_form = new XoopsThemeForm('','sample_form', "action.php");
 $sample_form->setExtra('enctype="multipart/form-data"');
 
 // Not required but for user-friendly concern
@@ -63,7 +63,7 @@ $sample_form->addElement(new XoopsFormEditor(_MD_MESSAGEC, $options['name'], $op
 
 $sample_form->addElement(new XoopsFormText("SOME REQUIRED ELEMENTS", "required_element2", 50, 255, $required_element2), true);
 
-$sample_form->addElement(new XoopsFormButton('', 'save', _SUBMIT, "submit"));
+$sample_form->addElement(new XoopsFormButton('','save', _SUBMIT, "submit"));
 
 $sample_form->display();
 ?>

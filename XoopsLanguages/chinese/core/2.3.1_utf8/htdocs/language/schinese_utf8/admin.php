@@ -10,6 +10,6 @@ define("_AD_NICKNAME","昵称");
 define("_AD_EMAIL","电子邮件");
 define("_AD_AVATAR","个性头像");
 define("_AD_REGISTERED","注册日期"); //Registered Date
-define('_AD_PRESSGEN', '这是您首次进入管理区域，请点击下面的按钮继续。');
-define('_AD_LOGINADMIN', '以管理员身份登录...');
+define('_AD_PRESSGEN','这是您首次进入管理区域，请点击下面的按钮继续。');
+define('_AD_LOGINADMIN','以管理员身份登录...');
 ?>

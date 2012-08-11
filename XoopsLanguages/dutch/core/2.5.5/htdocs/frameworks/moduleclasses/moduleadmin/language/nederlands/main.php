@@ -29,10 +29,10 @@ define('_AM_MODULEADMIN_ABOUT_UPDATEDATE','Datum bijgewerkt:');
 define('_AM_MODULEADMIN_ABOUT_WEBSITE',"Website:");
 
 //added in 2.5.5 RC
-define("_AM_MODULEADMIN_HOME", "Home");
-define("_AM_MODULEADMIN_DASHBOARD", "Overzicht");
-define("_AM_MODULEADMIN_ABOUT", "Over");
-define("_AM_MODULEADMIN_PERMISSIONS", "Permissies");
+define("_AM_MODULEADMIN_HOME","Home");
+define("_AM_MODULEADMIN_DASHBOARD","Overzicht");
+define("_AM_MODULEADMIN_ABOUT","Over");
+define("_AM_MODULEADMIN_PERMISSIONS","Permissies");
 define("_AM_MODULEADMIN_ABOUT_RELEASEDATE","Vrijgegeven: ");
 define("_AM_MODULEADMIN_ABOUT_AUTHOR","Auteur: ");
 define("_AM_MODULEADMIN_ABOUT_CREDITS","Credits: ");
@@ -41,5 +41,5 @@ define("_AM_MODULEADMIN_ABOUT_AUTHOR_NAME","Naam auteur: ");
 define("_AM_MODULEADMIN_ABOUT_AUTHOR_INFO","Info auteur");
 
 //ModuleAdmin
-define("_AM_MODULEADMIN_ADMIN_FOOTER", "<div class='center smallsmall italic pad5'>Deze modules wordt onderhouden door de <a class='tooltip' rel='external' href='http://xoops.org/' title='Visit XOOPS Community'>XOOPS Community</a></div>");
+define("_AM_MODULEADMIN_ADMIN_FOOTER","<div class='center smallsmall italic pad5'>Deze modules wordt onderhouden door de <a class='tooltip' rel='external' href='http://xoops.org/' title='Visit XOOPS Community'>XOOPS Community</a></div>");
 ?>

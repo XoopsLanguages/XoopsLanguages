@@ -273,7 +273,7 @@ function rmgsEdit(){
 	echo makeNav();
 	include_once XOOPS_ROOT_PATH.'/modules/rmgs/common/form.class.php';
 	
-	$form = new RMForm(_AS_RMGS_EDITIMG, 'frmEdit', 'images.php');
+	$form = new RMForm(_AS_RMGS_EDITIMG, 'frmEdit','images.php');
 	$form->setExtra('enctype="multipart/form-data"');
 	$form->addElement(new RMText(_AS_RMGS_FTITLE, 'titulo', 50, 150, $image->getVar('title')));
 	$select = "<select name='idu'>";
@@ -473,7 +473,7 @@ function rmgsSizes(){
 	if ($image->getSizesCount()<$mc['sizes']){
 		echo "<br /><br />";
 		include XOOPS_ROOT_PATH . '/modules/rmgs/common/form.class.php';
-		$form = new RMForm(_AS_RMGS_ADDSIZE, 'frmAdd', 'images.php?op=addsize');
+		$form = new RMForm(_AS_RMGS_ADDSIZE, 'frmAdd','images.php?op=addsize');
 		$form->setExtra('enctype="multipart/form-data"');
 		$form->addElement(new RMText(_AS_RMGS_FTITLE, 'titulo', 50, 50));
 		if ($mc['sizes_local']){

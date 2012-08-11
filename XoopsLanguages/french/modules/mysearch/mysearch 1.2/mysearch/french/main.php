@@ -43,9 +43,9 @@ define("_MA_MYSEARCH_PREVIOUS","<< Précédent");
 define("_MA_MYSEARCH_KEYWORDS","Mots clés");
 define("_MA_MYSEARCH_TYPE","Type");
 define("_MA_MYSEARCH_SEARCHIN","Rechercher dans");
-define('_MA_MYSEARCH_KEYTOOSHORT', 'Les mots clés doivent avoir au moins <b>%s</b> caractères');
-define('_MA_MYSEARCH_KEYIGNORE', 'Les mots clés plus courts que <b>%s</b> caractères seront ignorés');
-define('_MA_MYSEARCH_SEARCHRULE', 'Mode de recherche');
-define('_MA_MYSEARCH_IGNOREDWORDS', 'Les mots suivants sont plus courts que le minimum de la longueur permise (%u signes) et n\'étaient pas inclus dans votre recherche :');
+define('_MA_MYSEARCH_KEYTOOSHORT','Les mots clés doivent avoir au moins <b>%s</b> caractères');
+define('_MA_MYSEARCH_KEYIGNORE','Les mots clés plus courts que <b>%s</b> caractères seront ignorés');
+define('_MA_MYSEARCH_SEARCHRULE','Mode de recherche');
+define('_MA_MYSEARCH_IGNOREDWORDS','Les mots suivants sont plus courts que le minimum de la longueur permise (%u signes) et n\'étaient pas inclus dans votre recherche :');
 // Traduction faite par Cesag le 31 Mai 2012 pour frxoops.org
 ?>

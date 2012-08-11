@@ -4,49 +4,49 @@
 define("_MB_SYSTEM_ADMENU","Administracija");
 define("_MB_SYSTEM_RNOW","Registracija!");
 define("_MB_SYSTEM_LPASS","Izgubljena lozinka?");
-define("_MB_SYSTEM_SEARCH","Traži");
-define("_MB_SYSTEM_ADVS","Napredno pretraživanje");
-define("_MB_SYSTEM_VACNT","Vaš raèun");
-define("_MB_SYSTEM_EACNT","Uredi raèun");
+define("_MB_SYSTEM_SEARCH","TraÅ¾i");
+define("_MB_SYSTEM_ADVS","Napredno pretraÅ¾ivanje");
+define("_MB_SYSTEM_VACNT","VaÅ¡ raÃ¨un");
+define("_MB_SYSTEM_EACNT","Uredi raÃ¨un");
 // RMV-NOTIFY
-define("_MB_SYSTEM_NOTIF", "Obavijesti");
+define("_MB_SYSTEM_NOTIF","Obavijesti");
 define("_MB_SYSTEM_LOUT","Odjava");
 define("_MB_SYSTEM_INBOX","Spremnik");
 define("_MB_SYSTEM_SUBMS","Podnesene novosti");
-define("_MB_SYSTEM_WLNKS","Èekajuæi linkovi");
+define("_MB_SYSTEM_WLNKS","ÃˆekajuÃ¦i linkovi");
 define("_MB_SYSTEM_BLNK","Neispravni linkovi");
 define("_MB_SYSTEM_MLNKS","Promijenjeni linkovi");
-define("_MB_SYSTEM_WDLS","Èekajuæi downloadi");
+define("_MB_SYSTEM_WDLS","ÃˆekajuÃ¦i downloadi");
 define("_MB_SYSTEM_BFLS","Nesipravne datoteke");
 define("_MB_SYSTEM_MFLS","Promijenjeni downloadi");
-define("_MB_SYSTEM_HOME","Poèetna"); // link to home page in main menu block
-define("_MB_SYSTEM_RECO","Preporuèite nas");
-define("_MB_SYSTEM_PWWIDTH","Širina pojavnog prozora");
+define("_MB_SYSTEM_HOME","PoÃ¨etna"); // link to home page in main menu block
+define("_MB_SYSTEM_RECO","PreporuÃ¨ite nas");
+define("_MB_SYSTEM_PWWIDTH","Å irina pojavnog prozora");
 define("_MB_SYSTEM_PWHEIGHT","Visina pojavnog prozora");
 define("_MB_SYSTEM_LOGO","Logo slika u imeniku %s");  // %s is your root image directory name
-define("_MB_SYSTEM_COMPEND", "Komentari");
+define("_MB_SYSTEM_COMPEND","Komentari");
 
-//define("_MB_SYSTEM_LOGGEDINAS", "Prijavljen kao");
-define("_MB_SYSTEM_SADMIN","Prikaži administrativne grupe");
-define("_MB_SYSTEM_SPMTO","Pošalji privatnu poruku za %s");
-define("_MB_SYSTEM_SEMTO","Pošalji email za %s");
+//define("_MB_SYSTEM_LOGGEDINAS","Prijavljen kao");
+define("_MB_SYSTEM_SADMIN","PrikaÅ¾i administrativne grupe");
+define("_MB_SYSTEM_SPMTO","PoÅ¡alji privatnu poruku za %s");
+define("_MB_SYSTEM_SEMTO","PoÅ¡alji email za %s");
 
-define("_MB_SYSTEM_DISPLAY","Prikaži %s korisnike");
-define("_MB_SYSTEM_DISPLAYA","Prikaži korisnièke avatare");
-define("_MB_SYSTEM_NODISPGR","Ne prikazuj korisnike èiji je rang:");
+define("_MB_SYSTEM_DISPLAY","PrikaÅ¾i %s korisnike");
+define("_MB_SYSTEM_DISPLAYA","PrikaÅ¾i korisniÃ¨ke avatare");
+define("_MB_SYSTEM_NODISPGR","Ne prikazuj korisnike Ã¨iji je rang:");
 
-define("_MB_SYSTEM_DISPLAYC","Prikaži %s komentare");
-define("_MB_SYSTEM_SECURE", "Sigurna prijava");
+define("_MB_SYSTEM_DISPLAYC","PrikaÅ¾i %s komentare");
+define("_MB_SYSTEM_SECURE","Sigurna prijava");
 
-define("_MB_SYSTEM_NUMTHEME", "%s teme");
-define("_MB_SYSTEM_THSHOW", "Prikaži sliku zauzetog zaslona");
-define("_MB_SYSTEM_THWIDTH", "Širina slike zauzetog zaslona");
-//define('_MB_SYSTEM_REMEMBERME', 'Zapamti me');
+define("_MB_SYSTEM_NUMTHEME","%s teme");
+define("_MB_SYSTEM_THSHOW","PrikaÅ¾i sliku zauzetog zaslona");
+define("_MB_SYSTEM_THWIDTH","Å irina slike zauzetog zaslona");
+//define('_MB_SYSTEM_REMEMBERME','Zapamti me');
 //Custom block
-define("_MB_SYSTEM_CONTENT", "Sadržaj");
-define("_MB_SYSTEM_CONTENTTYPE", "Vrsta sadržaja");
+define("_MB_SYSTEM_CONTENT","SadrÅ¾aj");
+define("_MB_SYSTEM_CONTENTTYPE","Vrsta sadrÅ¾aja");
 define("_MB_SYSTEM_HTMLBLOCK","HTML");
 define("_MB_SYSTEM_PHPBLOCK","PHP Skripta");
-define("_MB_SYSTEM_SMILEYBLOCK","Auto. format (smajliæi omoguæeni)");
-define("_MB_SYSTEM_NOSMILEYBLOCK","Auto. format (smajliæi onemoguæeni)");
+define("_MB_SYSTEM_SMILEYBLOCK","Auto. format (smajliÃ¦i omoguÃ¦eni)");
+define("_MB_SYSTEM_NOSMILEYBLOCK","Auto. format (smajliÃ¦i onemoguÃ¦eni)");
 ?>

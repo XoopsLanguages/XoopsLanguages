@@ -640,7 +640,7 @@ class XoopsFolderHandler
             return false;
         }
 
-        $exceptions = array_merge(array('.', '..', '.svn'), $options['skip']);
+        $exceptions = array_merge(array('.','..','.svn'), $options['skip']);
         $handle = opendir($fromDir);
         if ($handle) {
             while (false !== ($item = readdir($handle))) {

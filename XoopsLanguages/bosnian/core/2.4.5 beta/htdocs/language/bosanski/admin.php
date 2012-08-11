@@ -31,8 +31,8 @@ define("_AD_NICKNAME","Nik ime:");
 define("_AD_EMAIL","E-Mail:");
 define("_AD_AVATAR","Avatar:");
 define("_AD_REGISTERED","Registrovan(a):"); //Registered Date
-//define('_AD_PRESSGEN', 'Ovo je prvi puta da ulazi&scaron; Adminovo-Podru&#269;je. Molim te klikni na "Po&scaron;alji" da bi nastavili.');
-define('_AD_LOGINADMIN', 'Loguje se...');
+//define('_AD_PRESSGEN','Ovo je prvi puta da ulazi&scaron; Adminovo-Podru&#269;je. Molim te klikni na "Po&scaron;alji" da bi nastavili.');
+define('_AD_LOGINADMIN','Loguje se...');
 define("_AD_WARNINGINSTALL","UPOZORENJE: Direktorij %s postoji na Serveru. Iz sigurnosnih razloga ovaj direktorij mora&scaron; izbrisati.");
 define("_AD_WARNINGWRITEABLE","UPOZORENJE: Podatak %s za pisanje nije za&scaron;ti&#263;en sa CHMOD na Serveru. <br />Molimo te da pristup podatku za&scaron;titi&scaron; da nebi bilo problema sa Hakerima!<br /> (sa Unix serverima CHMOD je (444), a sa Win32  serverima(zabrani pisanje u podatak))");
 define("_AD_WARNINGNOTWRITEABLE","UPOZORENJE: U direktorij %s na Serveru se nemo&#382;e upisivati. <br />Molimo te podesi CHMOD za ovaj direktorij.<br /> za Unix (777), za Windows (readable)");

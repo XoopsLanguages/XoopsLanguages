@@ -8,12 +8,12 @@
 define('_AM_DBUPDATED',_MD_AM_DBUPDATED);
 
 //%%%%%%	blocks.php 	%%%%%
-define('_AM_BADMIN', 'Administracija Blokova');
-define('_AM_ADDBLOCK', 'Novi Blok napravi');
-define('_AM_LISTBLOCK', 'Sve Blokove izlistaj');
-define('_AM_SIDE', 'Stranica');
-define('_AM_BLKDESC', 'Opis Bloka');
-define('_AM_TITLE', 'Naslov');
+define('_AM_BADMIN','Administracija Blokova');
+define('_AM_ADDBLOCK','Novi Blok napravi');
+define('_AM_LISTBLOCK','Sve Blokove izlistaj');
+define('_AM_SIDE','Stranica');
+define('_AM_BLKDESC','Opis Bloka');
+define('_AM_TITLE','Naslov');
 define('_AM_WEIGHT','Pozicija');
 define('_AM_ACTION','Akcija');
 define('_AM_BLKTYPE','Typ Bloka');
@@ -55,24 +55,24 @@ define('_AM_RUSUREDEL','&#381;eli&scaron; li ovaj <b>%s</b> Blok stvarno izbrisa
 define('_AM_NAME','Nziv');
 define('_AM_USEFULTAGS','Korisni Tagovi:');
 define('_AM_BLOCKTAG1','%s su %s izdati');
-define('_AM_SVISIBLEIN', 'Blokovi vidni u %s');
-define('_AM_TOPPAGE', 'Start stranica');
-define('_AM_VISIBLEIN', 'Vidan u');
-define('_AM_ALLPAGES', 'Na svim stranicama');
-define('_AM_TOPONLY', 'Samo start stranica');
-define('_AM_ADVANCED', 'Dodatno pode&scaron;avanje');
-define('_AM_BCACHETIME', 'Cache-Vrijeme');
-define('_AM_BALIAS', 'Alias-Ime');
-define('_AM_CLONE', 'Blok kloniraj');  // clone a block
-define('_AM_CLONEBLK', 'Klonirani Blokovi'); // cloned block
-define('_AM_CLONEBLOCK', 'Klonirani Blok napravi');
-define('_AM_NOTSELNG', '"%s" nije izabran!'); // error message
-define('_AM_EDITTPL', 'Template uredi');
-define('_AM_MODULE', 'Moduli');
-define('_AM_GROUP', 'Grupe');
-define('_AM_UNASSIGNED', 'Nije odre&#273;eno');
+define('_AM_SVISIBLEIN','Blokovi vidni u %s');
+define('_AM_TOPPAGE','Start stranica');
+define('_AM_VISIBLEIN','Vidan u');
+define('_AM_ALLPAGES','Na svim stranicama');
+define('_AM_TOPONLY','Samo start stranica');
+define('_AM_ADVANCED','Dodatno pode&scaron;avanje');
+define('_AM_BCACHETIME','Cache-Vrijeme');
+define('_AM_BALIAS','Alias-Ime');
+define('_AM_CLONE','Blok kloniraj');  // clone a block
+define('_AM_CLONEBLK','Klonirani Blokovi'); // cloned block
+define('_AM_CLONEBLOCK','Klonirani Blok napravi');
+define('_AM_NOTSELNG','"%s" nije izabran!'); // error message
+define('_AM_EDITTPL','Template uredi');
+define('_AM_MODULE','Moduli');
+define('_AM_GROUP','Grupe');
+define('_AM_UNASSIGNED','Nije odre&#273;eno');
 
 define("_AM_CUSTOM","Posebni Blok");
-define('_AM_GENERATOR', 'Bloks generisan od %s');
-define('_AM_TYPES', 'Svi tipovi');
+define('_AM_GENERATOR','Bloks generisan od %s');
+define('_AM_TYPES','Svi tipovi');
 ?>

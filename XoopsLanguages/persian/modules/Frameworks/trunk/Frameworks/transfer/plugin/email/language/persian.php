@@ -13,9 +13,9 @@
  * @package		Frameworks::transfer
  */
  
-define("_MD_TRANSFER_EMAIL", "ایمیل");
-define("_MD_TRANSFER_EMAIL_DESC", "این پست را با ایمیل ارسال کن");
-define("_MD_TRANSFER_EMAIL_ADDRESS", "آدرس ایمیل");
-define("_MD_TRANSFER_EMAIL_TITLE", "نام");
-define("_MD_TRANSFER_EMAIL_CONTENT", "متن");
+define("_MD_TRANSFER_EMAIL","ایمیل");
+define("_MD_TRANSFER_EMAIL_DESC","این پست را با ایمیل ارسال کن");
+define("_MD_TRANSFER_EMAIL_ADDRESS","آدرس ایمیل");
+define("_MD_TRANSFER_EMAIL_TITLE","نام");
+define("_MD_TRANSFER_EMAIL_CONTENT","متن");
 ?>

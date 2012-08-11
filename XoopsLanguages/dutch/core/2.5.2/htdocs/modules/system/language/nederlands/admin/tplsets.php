@@ -43,6 +43,6 @@ define("_AM_SYSTEM_TEMPLATES_ALL_MODULES","Alle modules");
 define("_AM_SYSTEM_TEMPLATES_RESTORE_OK","Succesvol hersteld");
 define("_AM_SYSTEM_TEMPLATES_RESTORE_NOTOK","Succesvol niet hersteld");
 //Toegevoegd in 2.5.2
-define("_AM_SYSTEM_TEMPLATES_SET", "Sjablonenset");
+define("_AM_SYSTEM_TEMPLATES_SET","Sjablonenset");
 
 ?>

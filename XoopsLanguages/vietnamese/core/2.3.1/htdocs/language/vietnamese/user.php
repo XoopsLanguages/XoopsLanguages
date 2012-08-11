@@ -40,7 +40,7 @@ define('_US_REGISTERNG','Không thể đăng ký thành viên mới.');//Could n
 define('_US_MAILOK','Thỉnh thoảng nhận tin nhắn<br />từ ban quản trị hoặc ban điều hành?');//Receive occasional email notices <br />from administrators and moderators?
 define('_US_DISCLAIMER','Điều lệ');//Disclaimer
 define('_US_IAGREE','Tôi đã Đọc và đồng ý với những điều lệ ở trên');//I agree to the above
-define('_US_UNEEDAGREE', 'Xin lỗi, bạn phải đồng ý những điều lệ ở trên.');//Sorry, you have to agree to our disclaimer to get registered.
+define('_US_UNEEDAGREE','Xin lỗi, bạn phải đồng ý những điều lệ ở trên.');//Sorry, you have to agree to our disclaimer to get registered.
 define('_US_NOREGISTER','Xin lỗi, hiện giờ chúng tôi không mở cửa cho đăng ký thành viên mới');//Sorry, we are currently closed for new user registrations
 // %s is username. This is a subject for email
 define('_US_USERKEYFOR','Mã kích hoạt của %s');//User activation key for %s
@@ -66,15 +66,15 @@ define('_US_ENTERPWD','LỖI: Bạn phải cung cấp một mật khẩu.');//ER
 define('_US_SORRYNOTFOUND','Xin Lỗi, không có tìm thấy tên tài khoản tương ứng nầy.');//Sorry, no corresponding user info was found.
 // %s is your site name
 define('_US_NEWPWDREQ','Yêu cầu mật khẩu mới tại %s');//New Password Request at %s
-define('_US_YOURACCOUNT', 'Tài khoản của bạn tại %s');//Your account at %s
+define('_US_YOURACCOUNT','Tài khoản của bạn tại %s');//Your account at %s
 
 define('_US_MAILPWDNG','mail_password: không thể cập nhật thông tin thành viên. Vui lòng liên lạc với ban quản trị.');//mail_password: could not update user entry. Contact the Administrator
 
 // %s is a username
 define('_US_PWDMAILED','Mật khẩu cho %s đã được gửi đi.');//Password for %s mailed.
 define('_US_CONFMAIL','Thư từ xác nhận cho %s đã được gửi đi.');//Confirmation Mail for %s mailed.
-define('_US_ACTVMAILNG', 'Không thể gửi thư từ thông báo tới %s được');//Failed sending notification mail to %s
-define('_US_ACTVMAILOK', 'Thư thông báo tới %s đã được gửi đi.');//Notification mail to %s sent.
+define('_US_ACTVMAILNG','Không thể gửi thư từ thông báo tới %s được');//Failed sending notification mail to %s
+define('_US_ACTVMAILOK','Thư thông báo tới %s đã được gửi đi.');//Notification mail to %s sent.
 
 //%%%%%%		File Name userinfo.php 		%%%%%
 define('_US_SELECTNG','Không có thành viên nào được chọn, vui lòng quay lại và thử lần nữa.');//No User Selected! Please go back and try again.
@@ -118,19 +118,19 @@ define('_US_PROFUPDATED','Thông tin của bạn đả được thay đổi!');/
 define('_US_USECOOKIE','Lưu tên tài khoản của tôi trong cookie cho 1 năm');//Store my user name in a cookie for 1 year
 define('_US_NO','Không');
 define('_US_DELACCOUNT','Xóa bỏ tài khoản');//Delete Account
-define('_US_MYAVATAR', 'Hình đại diện');//My Avatar
-define('_US_UPLOADMYAVATAR', 'Tải lên hình đại diện');//Upload Avatar
+define('_US_MYAVATAR','Hình đại diện');//My Avatar
+define('_US_UPLOADMYAVATAR','Tải lên hình đại diện');//Upload Avatar
 define('_US_MAXPIXEL','Cực đại Pixels');//Max Pixels
 define('_US_MAXIMGSZ','Kích thước ảnh cho phép (Bytes)');//Max Image Size (Bytes)
 define('_US_SELFILE','Chọn hồ sơ');//Select file
 define('_US_OLDDELETED','Hình đại diện củ của bạn sẽ bị xóa!');//Your old avatar will be deleted!
-define('_US_CHOOSEAVT', 'Chọn hình đại diện từ danh sách sẵn có');//Choose avatar from the available list
-define('_US_PRESSLOGIN', 'Nhấn vào nút dưới đây để đăng nhập!');//Press the button below to login
-define('_US_ADMINNO', 'Không thể xóa thành viên trong ban quản trị.');//User in the webmasters group cannot be removed
-define('_US_GROUPS', 'Nhóm tên tài khoản');//User\'s Groups
+define('_US_CHOOSEAVT','Chọn hình đại diện từ danh sách sẵn có');//Choose avatar from the available list
+define('_US_PRESSLOGIN','Nhấn vào nút dưới đây để đăng nhập!');//Press the button below to login
+define('_US_ADMINNO','Không thể xóa thành viên trong ban quản trị.');//User in the webmasters group cannot be removed
+define('_US_GROUPS','Nhóm tên tài khoản');//User\'s Groups
 
-define('_US_REMEMBERME', 'Lưu mật khẩu!');//Remember me
+define('_US_REMEMBERME','Lưu mật khẩu!');//Remember me
 
 // Welcoming emai/PM subject
-define('_US_WELCOME_SUBJECT', 'Chào mừng bạn đến với %s');//Welcome to %s
+define('_US_WELCOME_SUBJECT','Chào mừng bạn đến với %s');//Welcome to %s
 ?>

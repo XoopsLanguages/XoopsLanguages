@@ -47,6 +47,6 @@ define('_AM_SYSTEM_TEMPLATES_SELECT_TEMPLATES','Seleccione las plantillas');
 define('_AM_SYSTEM_TEMPLATES_ALL_MODULES','Todos los módulos');
 define('_AM_SYSTEM_TEMPLATES_RESTORE_OK','Restauración correcta');
 define('_AM_SYSTEM_TEMPLATES_RESTORE_NOTOK','Restauración fallida');
-define('_AM_SYSTEM_TEMPLATES_SET', 'Elija la plantilla');
+define('_AM_SYSTEM_TEMPLATES_SET','Elija la plantilla');
 
 ?>

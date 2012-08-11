@@ -14,7 +14,7 @@
 // _CHARSET : UTF-8
 // Translator: andrey3761
 
-define("_XOOPS_EDITOR_KOIVI", "Koivi визуальный редактор");
+define("_XOOPS_EDITOR_KOIVI","Koivi визуальный редактор");
 
 define("_XK_LEFTTORIGHT","Left-Hand Writing");
 define("_XK_RIGHTTOLEFT","Right-Hand Writing");

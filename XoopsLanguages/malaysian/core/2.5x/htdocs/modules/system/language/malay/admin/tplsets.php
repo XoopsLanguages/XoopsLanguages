@@ -42,5 +42,5 @@ define("_AM_SYSTEM_TEMPLATES_SELECT_TEMPLATES","Select Templates");
 define("_AM_SYSTEM_TEMPLATES_ALL_MODULES","All modules");
 define("_AM_SYSTEM_TEMPLATES_RESTORE_OK","Successfuly restored");
 define("_AM_SYSTEM_TEMPLATES_RESTORE_NOTOK","Successfuly not restored");
-define("_AM_SYSTEM_TEMPLATES_SET", "Choose Template");
+define("_AM_SYSTEM_TEMPLATES_SET","Choose Template");
 ?>

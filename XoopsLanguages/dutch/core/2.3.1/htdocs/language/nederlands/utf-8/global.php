@@ -53,8 +53,8 @@ define("_YOURHOME","Je Home Pagina");
 
 //%%%%%%        File Name misc.php (who's-online popup)        %%%%%
 define("_WHOSONLINE","Wie is on-line");
-define('_GUESTS', 'Gasten');
-define('_MEMBERS', 'Leden');
+define('_GUESTS','Gasten');
+define('_MEMBERS','Leden');
 define("_ONLINEPHRASE","<b>%s</b> gebruiker(s) zijn on-line");
 define("_ONLINEPHRASEX","<b>%s</b> gebruiker(s) zijn op <b>%s</b>");
 define("_CLOSE","Sluiten");  // Close window
@@ -76,24 +76,24 @@ define("_ALIGN","Centreer");
 define("_LEFT","Links");
 define("_CENTER","Midden");
 define("_RIGHT","Rechts");
-define("_FORM_ENTER", "Bestands naam %s");  
+define("_FORM_ENTER","Bestands naam %s");  
 // %s represents file name
 define("_MUSTWABLE","Bestand %s moet beschrijfbaar zijn vanaf de server!");
 // Module info
-define('_PREFERENCES', 'Instellingen');
-define("_VERSION", "Versie");
-define("_DESCRIPTION", "Beschrijving");
-define("_ERRORS", "Fouten");
-define("_NONE", "Geen");
+define('_PREFERENCES','Instellingen');
+define("_VERSION","Versie");
+define("_DESCRIPTION","Beschrijving");
+define("_ERRORS","Fouten");
+define("_NONE","Geen");
 define('_ON','op');
 define('_READS','gelezen');
 define('_WELCOMETO','Welkom op %s');
 define('_SEARCH','Zoeken');
-define('_ALL', 'All');
-define('_TITLE', 'Titel');
-define('_OPTIONS', 'Opties');
-define('_QUOTE', 'Quote');
-define('_LIST', 'Lijst');
+define('_ALL','All');
+define('_TITLE','Titel');
+define('_OPTIONS','Opties');
+define('_QUOTE','Quote');
+define('_LIST','Lijst');
 define('_LOGIN','Inloggen');
 define('_USERNAME','Gebruikersnaam: ');
 define('_PASSWORD','Wachtwoord: ');
@@ -103,12 +103,12 @@ define("_SEND","Zenden");
 define("_CANCEL","Annuleren");
 define("_ASCENDING","Opgaande volgorde");
 define("_DESCENDING","Neergaande volgorde");
-define('_BACK', 'Terug');
-define('_NOTITLE', 'Geen titel');
+define('_BACK','Terug');
+define('_NOTITLE','Geen titel');
 
 /* Image manager */
 define('_IMGMANAGER','Afbeelding Manager');
-define('_NUMIMAGES', '%s afbeeldingen');
+define('_NUMIMAGES','%s afbeeldingen');
 define('_ADDIMAGE','Voeg afbeelding bestand toe');
 define('_IMAGENAME','Naam:');
 define('_IMGMAXSIZE','Max. grootte toegelaten (bytes):');
@@ -119,16 +119,16 @@ define('_IMAGEFILE','Afbeelding bestand:');
 define('_IMGWEIGHT','Toon volgorde in afb. manager:');
 define('_IMGDISPLAY','Tonen van afbeelding?');
 define('_IMAGEMIME','MIME type:');
-define('_FAILFETCHIMG', 'Kon het bestand niet uploaden %s');
-define('_FAILSAVEIMG', 'Mislukt uploaden afbeelding %s in de database');
-define('_NOCACHE', 'Geen Cache');
-define('_CLONE', 'Kloon');
+define('_FAILFETCHIMG','Kon het bestand niet uploaden %s');
+define('_FAILSAVEIMG','Mislukt uploaden afbeelding %s in de database');
+define('_NOCACHE','Geen Cache');
+define('_CLONE','Kloon');
 
 //%%%%%        File Name class/xoopsform/formmatchoption.php         %%%%%
-define("_STARTSWITH", "Start met");
-define("_ENDSWITH", "Eindig met");
-define("_MATCHES", "Vergelijkend");
-define("_CONTAINS", "Bevat");
+define("_STARTSWITH","Start met");
+define("_ENDSWITH","Eindig met");
+define("_MATCHES","Vergelijkend");
+define("_CONTAINS","Bevat");
 
 //%%%%%%        File Name commentform.php         %%%%%
 define("_REGISTER","Registreer");
@@ -159,29 +159,29 @@ define("_DATESTRING","j/m/Y G:i:s");
 define("_MEDIUMDATESTRING","j/m/Y G:i");
 define("_SHORTDATESTRING","j/m/Y");
 
-define('_JANUARY', 'januari');
-define('_FEBRUARY', 'februari');
-define('_MARCH', 'maart');
-define('_APRIL', 'april');
-define('_MAY', 'mei');
-define('_JUNE', 'juni');
-define('_JULY', 'juli');
-define('_AUGUST', 'augustus');
-define('_SEPTEMBER', 'september');
-define('_OCTOBER', 'oktober');
-define('_NOVEMBER', 'november');
-define('_DECEMBER', 'december');
+define('_JANUARY','januari');
+define('_FEBRUARY','februari');
+define('_MARCH','maart');
+define('_APRIL','april');
+define('_MAY','mei');
+define('_JUNE','juni');
+define('_JULY','juli');
+define('_AUGUST','augustus');
+define('_SEPTEMBER','september');
+define('_OCTOBER','oktober');
+define('_NOVEMBER','november');
+define('_DECEMBER','december');
 
-define('_SECOND', '1 seconde');
-define('_SECONDS', '%s seconden');
-define('_MINUTE', '1 minuut');
-define('_MINUTES', '%s minuten');
-define('_HOUR', '1 uur');
-define('_HOURS', '%s uren');
-define('_DAY', '1 dag');
-define('_DAYS', '%s dagen');
-define('_WEEK', '1 week');
-define('_MONTH', '1 maand');
+define('_SECOND','1 seconde');
+define('_SECONDS','%s seconden');
+define('_MINUTE','1 minuut');
+define('_MINUTES','%s minuten');
+define('_HOUR','1 uur');
+define('_HOURS','%s uren');
+define('_DAY','1 dag');
+define('_DAYS','%s dagen');
+define('_WEEK','1 week');
+define('_MONTH','1 maand');
 
 /*
 The following characters are recognized in the format string:
@@ -202,7 +202,7 @@ m - month; i.e. "01" to "12"
 n - month without leading zeros; i.e. "1" to "12"
 M - month, textual, 3 letters; i.e. "Jan"
 s - seconds; i.e. "00" to "59"
-S - English ordinal suffix, textual, 2 characters; i.e. "th", "nd"
+S - English ordinal suffix, textual, 2 characters; i.e. "th","nd"
 t - number of days in the given month; i.e. "28" to "31"
 T - Timezone setting of this machine; i.e. "MDT"
 U - seconds since the epoch
@@ -229,17 +229,17 @@ if ($xlang == "1"){
 }
 
 // change 0 to 1 if this language is a multi-bytes language
-define("XOOPS_USE_MULTIBYTES", "0");
+define("XOOPS_USE_MULTIBYTES","0");
 
 // Error messaging
-define("_NOERRORMESSAGE", "Geen foutmeldingsbericht aangegeven");
+define("_NOERRORMESSAGE","Geen foutmeldingsbericht aangegeven");
 
 // Added in XOOPS 2.2
 define("_SELECTEDITOR","Selecteer editor");
 
-define("_REMOVE", "Verwijder");
-define("_REQUIRED", "Benodigd");
+define("_REMOVE","Verwijder");
+define("_REQUIRED","Benodigd");
 
 // Used for "theme" type profile field
-define("_SITEDEFAULT", "Site Standaard");
+define("_SITEDEFAULT","Site Standaard");
 ?>

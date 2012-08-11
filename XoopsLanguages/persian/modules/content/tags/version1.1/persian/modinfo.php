@@ -23,44 +23,44 @@
  * Site: http://xoops.foreach.fr                                              *
  *----------------------------------------------------------------------------*/
 // Name
-define('_MI_CONTENT_NAME', 'محتوا');
+define('_MI_CONTENT_NAME','محتوا');
 // Description
-define('_MI_CONTENT_DESC', 'ماژول ویرایش محتوای (صفحه استاتیک) زوپس من');
+define('_MI_CONTENT_DESC','ماژول ویرایش محتوای (صفحه استاتیک) زوپس من');
 // Menu
-define('_MI_CONTENT_HOME', 'خانه');
-define('_MI_CONTENT_CONTENT', 'محتوا');
+define('_MI_CONTENT_HOME','خانه');
+define('_MI_CONTENT_CONTENT','محتوا');
 define('_MI_CONTENT_HELP','کمک رسانی');
 // Editor
 define("_MI_CONTENT_FORM_EDITOR","ویرایشگر صفحه");
 define("_MI_CONTENT_FORM_EDITOR_DESC","<i>ویرایشگر خود را برای استفاده انتخاب کنید. اگر شما نصب 'ساده' را دارید (شما به طور پیش فرض از ویرایشگر زوپس استفاده میکنید, که در هسته زوپس موجود است), همینطور شما میتوانید از Xoops editor یا Compact استفاده کنید</i>");
 define("_MI_CONTENT_FORM_COMPACT","Compact");
-define('_MI_CONTENT_FORM_XOOPS', 'Xoops Editor');
+define('_MI_CONTENT_FORM_XOOPS','Xoops Editor');
 define("_MI_CONTENT_FORM_DHTML","DHTML");
 define("_MI_CONTENT_FORM_HTMLAREA","HtmlArea Editor");
 define("_MI_CONTENT_FORM_FCK","FCK Editor");
 define("_MI_CONTENT_FORM_KOIVI","Koivi Editor");
 define("_MI_CONTENT_FORM_TINYEDITOR","TinyEditor");
-define('_MI_CONTENT_FORM_TINYMCE', 'TinyMCE');
+define('_MI_CONTENT_FORM_TINYMCE','TinyMCE');
 // Urls
-define('_MI_CONTENT_FRIENDLYURL', 'انتخاب آدرس کاربر پسند');
-define('_MI_CONTENT_FRIENDLYURL_DESC', 'شما میتوانید یک آدرس کاربر پسند داشته باشید بدون استفاده از آدرس قابل نوشتن با استفاده از روش کاربر پسند.');
-define('_MI_CONTENT_URL_STANDARD', 'روش استاندارد');
-define('_MI_CONTENT_URL_FRIENDLY', 'روش کاربر پسند');
-define('_MI_CONTENT_URL_REWRITE', 'روش قابل نوشتن');
+define('_MI_CONTENT_FRIENDLYURL','انتخاب آدرس کاربر پسند');
+define('_MI_CONTENT_FRIENDLYURL_DESC','شما میتوانید یک آدرس کاربر پسند داشته باشید بدون استفاده از آدرس قابل نوشتن با استفاده از روش کاربر پسند.');
+define('_MI_CONTENT_URL_STANDARD','روش استاندارد');
+define('_MI_CONTENT_URL_FRIENDLY','روش کاربر پسند');
+define('_MI_CONTENT_URL_REWRITE','روش قابل نوشتن');
 // Rewrite Mode
-define('_MI_CONTENT_REWRITEBASE', 'آدرسی که به طور پایه قابل نوشتن است انتخاب کنید ');
-define('_MI_CONTENT_REWRITEBASE_DESC', '
+define('_MI_CONTENT_REWRITEBASE','آدرسی که به طور پایه قابل نوشتن است انتخاب کنید ');
+define('_MI_CONTENT_REWRITEBASE_DESC','
 <ul>
   <li>"Module base": شما باید یک .htacces در شاخه ماژول قرار دهید.</li>
   <li>"Root base": شما باید یک .htacces در شاخه XOOPS_ROOT_PATH قرار دهید.</li>
 </ul>');
-define('_MI_CONTENT_REWRITEBASE_MODS', 'Module base');
-define('_MI_CONTENT_REWRITEBASE_ROOT', 'Root base');
+define('_MI_CONTENT_REWRITEBASE_MODS','Module base');
+define('_MI_CONTENT_REWRITEBASE_ROOT','Root base');
 // Group Access
 define('_MI_CONTENT_GROUPS','دسترسی گروه ها');
 define('_MI_CONTENT_GROUPS_DESC','تنظیم دسترسی سراسری گروه ها را انجام دهید.');
 // Block
-define('_MI_CONTENT_MENU', 'منو محتوا');
+define('_MI_CONTENT_MENU','منو محتوا');
 // Tell a friend
 define('_MI_CONTENT_TELLAFRIEND','استفاده از ماژول تماس با دوستان؟');
 define('_MI_CONTENT_TELLAFRIEND_DESC',''); 

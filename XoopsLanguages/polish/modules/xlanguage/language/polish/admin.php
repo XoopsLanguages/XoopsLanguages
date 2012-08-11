@@ -29,24 +29,24 @@
 // ------------------------------------------------------------------------- //
 
 define('_AM_XLANG_CONFIG'            ,'Konfiguracja XLanguage');
-define('_AM_XLANG_DELETE_CFM'        ,'Czy na pewno chcesz skasowaæ ten jêzyk?');
-define('_AM_XLANG_DELETED'           ,'Wybrany jêzyk zosta³ skasowany');
-define('_AM_XLANG_SAVED', 'The language has been saved');
-define('_AM_XLANG_EDITLANG', 'Edit language');
-define('_AM_XLANG_ADDLANG', 'Add language');
-define('_AM_XLANG_CREATED', 'The config file has been created');
-define('_AM_XLANG_CONFIGOK', 'Config file is availabe');
-define('_AM_XLANG_CONFIGNOTOK', 'Config file is not availabe');
-define('_AM_XLANG_ADDBASE', 'Add base language');
-define('_AM_XLANG_ADDEXT', 'Add extended language');
-define('_AM_XLANG_CREATECONFIG', 'Create config file');
-define('_AM_XLANG_ABOUT', 'About this module');
-define('_AM_XLANG_LANGLIST', 'language list');
-define('_AM_XLANG_DESC', 'Desc');
-define('_AM_XLANG_NAME', 'Name');
-define('_AM_XLANG_CHARSET', 'charset');
-define('_AM_XLANG_CODE', 'code');
-define('_AM_XLANG_IMAGE', 'Image');
-define('_AM_XLANG_WEIGHT', 'Weight');
-define('_AM_XLANG_BASE', 'Base language');
+define('_AM_XLANG_DELETE_CFM'        ,'Czy na pewno chcesz skasowaÃ¦ ten jÃªzyk?');
+define('_AM_XLANG_DELETED'           ,'Wybrany jÃªzyk zostaÂ³ skasowany');
+define('_AM_XLANG_SAVED','The language has been saved');
+define('_AM_XLANG_EDITLANG','Edit language');
+define('_AM_XLANG_ADDLANG','Add language');
+define('_AM_XLANG_CREATED','The config file has been created');
+define('_AM_XLANG_CONFIGOK','Config file is availabe');
+define('_AM_XLANG_CONFIGNOTOK','Config file is not availabe');
+define('_AM_XLANG_ADDBASE','Add base language');
+define('_AM_XLANG_ADDEXT','Add extended language');
+define('_AM_XLANG_CREATECONFIG','Create config file');
+define('_AM_XLANG_ABOUT','About this module');
+define('_AM_XLANG_LANGLIST','language list');
+define('_AM_XLANG_DESC','Desc');
+define('_AM_XLANG_NAME','Name');
+define('_AM_XLANG_CHARSET','charset');
+define('_AM_XLANG_CODE','code');
+define('_AM_XLANG_IMAGE','Image');
+define('_AM_XLANG_WEIGHT','Weight');
+define('_AM_XLANG_BASE','Base language');
 ?>

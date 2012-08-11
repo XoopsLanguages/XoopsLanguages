@@ -22,6 +22,6 @@ define("_BP_ADD","اضافه");
 
 define("_MA_INPUT_FORM","فرم ورود");
 define("_MA_SAVE","ذخیره");
-define("_MI_TADCBOX_ADMENU1", "پیام");
+define("_MI_TADCBOX_ADMENU1","پیام");
 
 ?>

@@ -55,8 +55,8 @@ define("_WARNINSTALL2","주의: 디렉토리/파일 %s 가 서버상에 존재�
 define("_WARNINWRITEABLE","주의: 파일 %s 가 쓰기가능 상태입니다.<br />이 파일의 퍼미션설정을 변경해 주십시오.<br /> in Unix (444), in Win32 (read-only)");
 
 // Error messages issued by XoopsObject::cleanVars()
-define( "_XOBJ_ERR_REQUIRED", "%s 은 필수항목입니다." );
-define( "_XOBJ_ERR_SHORTERTHAN", "%s 은 %d 문자(바이트)이하로 설정하셔야 합니다." );
+define("_XOBJ_ERR_REQUIRED","%s 은 필수항목입니다." );
+define("_XOBJ_ERR_SHORTERTHAN","%s 은 %d 문자(바이트)이하로 설정하셔야 합니다." );
 
 //%%%%%%	File Name themeuserpost.php 	%%%%%
 define("_PROFILE","프로필");
@@ -77,8 +77,8 @@ define("_YOURHOME","홈페이지");
 
 //%%%%%%	File Name misc.php (who's-online popup)	%%%%%
 define("_WHOSONLINE","온라인 상태");
-define('_GUESTS', '손님');
-define('_MEMBERS', '등록회원');
+define('_GUESTS','손님');
+define('_MEMBERS','등록회원');
 define("_ONLINEPHRASE","<b>%s</b> 분이 현재 온라인상태입니다.");
 define("_ONLINEPHRASEX","<b>%s</b> 분이 <b>%s</b>을 이용중이십니다.");
 define("_CLOSE","닫기");  // Close window
@@ -100,27 +100,27 @@ define("_ALIGN","위치");
 define("_LEFT","왼쪽");
 define("_CENTER","중앙");
 define("_RIGHT","오른쪽");
-define("_FORM_ENTER", "%s을(를) 입력해 주세요!");
+define("_FORM_ENTER","%s을(를) 입력해 주세요!");
 // %s represents file name
 define("_MUSTWABLE","파일 %s 에 대한 쓰기권한이 있어야합니다.");
 // Module info
-define('_PREFERENCES', '일반설정');
-define("_VERSION", "버전");
-define("_DESCRIPTION", "설명");
-define("_AUTHOR", "제작자");
-define("_CREDITS", "Credits");
-define("_LICENCE", "라이센스");
-define("_ERRORS", "에러");
-define("_NONE", "없음");
+define('_PREFERENCES','일반설정');
+define("_VERSION","버전");
+define("_DESCRIPTION","설명");
+define("_AUTHOR","제작자");
+define("_CREDITS","Credits");
+define("_LICENCE","라이센스");
+define("_ERRORS","에러");
+define("_NONE","없음");
 define('_ON','투고일시 : ');
 define('_READS','읽음');
 define('_WELCOMETO','%s님 어서오세요');
 define('_SEARCH','검색');
-define('_ALL', '모두');
-define('_TITLE', '제목');
-define('_OPTIONS', '선택항목');
-define('_QUOTE', '인용');
-define('_LIST', '리스트');
+define('_ALL','모두');
+define('_TITLE','제목');
+define('_OPTIONS','선택항목');
+define('_QUOTE','인용');
+define('_LIST','리스트');
 define('_LOGIN','로그인');
 define('_USERNAME','아이디: ');
 define('_PASSWORD','패스워드: ');
@@ -130,12 +130,12 @@ define("_SEND","보내기");
 define("_CANCEL","취소");
 define("_ASCENDING","오름차순");
 define("_DESCENDING","내림차순");
-define('_BACK', '뒤로');
-define('_NOTITLE', '제목 없음');
+define('_BACK','뒤로');
+define('_NOTITLE','제목 없음');
 
 /* Image manager */
 define('_IMGMANAGER','그림파일 관리기');
-define('_NUMIMAGES', '%s 개');
+define('_NUMIMAGES','%s 개');
 define('_ADDIMAGE','그림파일 추가');
 define('_IMAGENAME','그림파일명:');
 define('_IMGMAXSIZE','업로드 파일크기 제한 (bytes):');
@@ -146,16 +146,16 @@ define('_IMAGEFILE','그림파일명:');
 define('_IMGWEIGHT','그림파일 관리기 표시순:');
 define('_IMGDISPLAY','이 그림파일을 표시함');
 define('_IMAGEMIME','MIME 종류:');
-define('_FAILFETCHIMG', '업로드 파일 %s을(를) 가져오지 못했습니다.');
-define('_FAILSAVEIMG', '그림파일 %s을(를) 데이타베이스에 저장하지 못했습니다.');
-define('_NOCACHE', '캐쉬 않음');
-define('_CLONE', '복제');
+define('_FAILFETCHIMG','업로드 파일 %s을(를) 가져오지 못했습니다.');
+define('_FAILSAVEIMG','그림파일 %s을(를) 데이타베이스에 저장하지 못했습니다.');
+define('_NOCACHE','캐쉬 않음');
+define('_CLONE','복제');
 
 //%%%%%	File Name class/xoopsform/formmatchoption.php 	%%%%%
-define("_STARTSWITH", "로 시작하는");
-define("_ENDSWITH", "로 끝나는");
-define("_MATCHES", "완전일치");
-define("_CONTAINS", "를 포함한");
+define("_STARTSWITH","로 시작하는");
+define("_ENDSWITH","로 끝나는");
+define("_MATCHES","완전일치");
+define("_CONTAINS","를 포함한");
 
 //%%%%%%	File Name commentform.php 	%%%%%
 define("_REGISTER","등록");
@@ -181,16 +181,16 @@ define("_PLZCOMPLETE","제목과 내용글을 입력해 주세요!");
 define("_MESSAGETOOLONG","내용글이 너무 깁니다.");
 
 //%%%%%		TIME FORMAT SETTINGS   %%%%%
-define('_SECOND', '1 초');
-define('_SECONDS', '%s 초');
-define('_MINUTE', '1 분');
-define('_MINUTES', '%s 분');
-define('_HOUR', '1 시간');
-define('_HOURS', '%s 시간');
-define('_DAY', '1 일');
-define('_DAYS', '%s 일');
-define('_WEEK', '1 주');
-define('_MONTH', '1 달');
+define('_SECOND','1 초');
+define('_SECONDS','%s 초');
+define('_MINUTE','1 분');
+define('_MINUTES','%s 분');
+define('_HOUR','1 시간');
+define('_HOURS','%s 시간');
+define('_DAY','1 일');
+define('_DAYS','%s 일');
+define('_WEEK','1 주');
+define('_MONTH','1 달');
 
 define("_DATESTRING","Y/n/j G:i:s");
 define("_MEDIUMDATESTRING","Y/n/j G:i");
@@ -214,7 +214,7 @@ m - month; i.e. "01" to "12"
 n - month without leading zeros; i.e. "1" to "12"
 M - month, textual, 3 letters; i.e. "Jan"
 s - seconds; i.e. "00" to "59"
-S - English ordinal suffix, textual, 2 characters; i.e. "th", "nd"
+S - English ordinal suffix, textual, 2 characters; i.e. "th","nd"
 t - number of days in the given month; i.e. "28" to "31"
 T - Timezone setting of this machine; i.e. "MDT"
 U - seconds since the epoch
@@ -227,9 +227,9 @@ Z - timezone offset in seconds (i.e. "-43200" to "43200")
 
 
 //%%%%%		LANGUAGE SPECIFIC SETTINGS   %%%%%
-define('_CHARSET', 'UTF-8');
-define('_LANGCODE', 'ko');
+define('_CHARSET','UTF-8');
+define('_LANGCODE','ko');
 
 // change 0 to 1 if this language is a multi-bytes language
-define("XOOPS_USE_MULTIBYTES", "1");
+define("XOOPS_USE_MULTIBYTES","1");
 ?>

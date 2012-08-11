@@ -26,8 +26,8 @@ define("_IFNOTRELOAD","如果页面没有自动跳转，请<a href=%s>点击此�
 
 
 // Error messages issued by XoopsObject::cleanVars()
-define( "_XOBJ_ERR_REQUIRED", "%s 为必填项" );
-define( "_XOBJ_ERR_SHORTERTHAN", "%s 必须少于 %d 字符。" );
+define("_XOBJ_ERR_REQUIRED","%s 为必填项" );
+define("_XOBJ_ERR_SHORTERTHAN","%s 必须少于 %d 字符。" );
 
 //%%%%%%	File Name themeuserpost.php 	%%%%%
 define("_PROFILE","会员资料");
@@ -48,8 +48,8 @@ define("_YOURHOME","网站首页");
 
 //%%%%%%	File Name misc.php (who's-online popup)	%%%%%
 define("_WHOSONLINE","在线信息");
-define('_GUESTS', '游客');
-define('_MEMBERS', '会员');
+define('_GUESTS','游客');
+define('_MEMBERS','会员');
 define("_ONLINEPHRASE","<strong>%s</strong>人在线");
 define("_ONLINEPHRASEX","<strong>%s</strong>人在浏览<strong>%s</strong>");
 define("_CLOSE","关闭");  // Close window
@@ -71,26 +71,26 @@ define("_ALIGN","对齐方式");
 define("_LEFT","靠左");
 define("_CENTER","居中");
 define("_RIGHT","靠右");
-define("_FORM_ENTER", "请输入 %s");
+define("_FORM_ENTER","请输入 %s");
 define("_MUSTWABLE","文件 %s 的属性需设为可写！");// %s represents file name
 // Module info
-define('_PREFERENCES', '基本参数设置');
-define("_VERSION", "版本");
-define("_DESCRIPTION", "说明");
-define("_AUTHOR", "作者");
-define("_CREDITS", "鸣谢");
-define("_LICENCE", "许可协议");
-define("_ERRORS", "错误");
-define("_NONE", "无");
+define('_PREFERENCES','基本参数设置');
+define("_VERSION","版本");
+define("_DESCRIPTION","说明");
+define("_AUTHOR","作者");
+define("_CREDITS","鸣谢");
+define("_LICENCE","许可协议");
+define("_ERRORS","错误");
+define("_NONE","无");
 define('_ON','于');
 define('_READS','次阅读');
 define('_WELCOMETO','欢迎访问 %s');
 define('_SEARCH','搜索');
-define('_ALL', '全部');
-define('_TITLE', '标题');
-define('_OPTIONS', '选项');
-define('_QUOTE', '引文');
-define('_LIST', '列表');
+define('_ALL','全部');
+define('_TITLE','标题');
+define('_OPTIONS','选项');
+define('_QUOTE','引文');
+define('_LIST','列表');
 define('_LOGIN','会员登录');
 define('_USERNAME','帐号：');
 define('_PASSWORD','密码：');
@@ -100,12 +100,12 @@ define("_SEND","发送");
 define("_CANCEL","取消");
 define("_ASCENDING","升序排列");
 define("_DESCENDING","降序排列");
-define('_BACK', '返回');
-define('_NOTITLE', '无标题');
+define('_BACK','返回');
+define('_NOTITLE','无标题');
 
 /* Image manager */
 define('_IMGMANAGER','图片管理');
-define('_NUMIMAGES', '%s 张图片');
+define('_NUMIMAGES','%s 张图片');
 define('_ADDIMAGE','添加图片');
 define('_IMAGENAME','名称');
 define('_IMGMAXSIZE','最大文件（字节）：');
@@ -116,17 +116,17 @@ define('_IMAGEFILE','图片');
 define('_IMGWEIGHT','显示顺序：');
 define('_IMGDISPLAY','显示此图片?');
 define('_IMAGEMIME','MIME格式：');
-define('_FAILFETCHIMG', '文件 %s 无法上传。');
-define('_FAILSAVEIMG', '文件 %s 无法保存。');
-define('_NOCACHE', '不使用缓存');
-define('_CLONE', '复制');
+define('_FAILFETCHIMG','文件 %s 无法上传。');
+define('_FAILSAVEIMG','文件 %s 无法保存。');
+define('_NOCACHE','不使用缓存');
+define('_CLONE','复制');
 
 //%%%%%	File Name class/xoopsform/formmatchoption.php 	%%%%%
-define("_STARTSWITH", "起始");
-define("_ENDSWITH", "结束");
-define("_MATCHES", "符合");
-define("_CONTAINS", "包含");
-define("_REQUIRED", "必填");
+define("_STARTSWITH","起始");
+define("_ENDSWITH","结束");
+define("_MATCHES","符合");
+define("_CONTAINS","包含");
+define("_REQUIRED","必填");
 
 //%%%%%%	File Name commentform.php 	%%%%%
 define("_REGISTER","注册会员");
@@ -152,16 +152,16 @@ define("_PLZCOMPLETE","请填写主题和内容。");
 define("_MESSAGETOOLONG","内容太长");
 
 //%%%%%		TIME FORMAT SETTINGS   %%%%%
-define('_SECOND', '1秒');
-define('_SECONDS', '%s秒');
-define('_MINUTE', '1分钟');
-define('_MINUTES', '%s分钟');
-define('_HOUR', '1小时');
-define('_HOURS', '%s小时');
-define('_DAY', '1天');
-define('_DAYS', '%s天');
-define('_WEEK', '1周');
-define('_MONTH', '1月');
+define('_SECOND','1秒');
+define('_SECONDS','%s秒');
+define('_MINUTE','1分钟');
+define('_MINUTES','%s分钟');
+define('_HOUR','1小时');
+define('_HOURS','%s小时');
+define('_DAY','1天');
+define('_DAYS','%s天');
+define('_WEEK','1周');
+define('_MONTH','1月');
 
 define("_DATESTRING","Y年m月d日 H:i:s");
 define("_MEDIUMDATESTRING","m月d日 H:i");
@@ -185,7 +185,7 @@ m - month; i.e. "01" to "12"
 n - month without leading zeros; i.e. "1" to "12"
 M - month, textual, 3 letters; i.e. "Jan"
 s - seconds; i.e. "00" to "59"
-S - English ordinal suffix, textual, 2 characters; i.e. "th", "nd"
+S - English ordinal suffix, textual, 2 characters; i.e. "th","nd"
 t - number of days in the given month; i.e. "28" to "31"
 T - Timezone setting of this machine; i.e. "MDT"
 U - seconds since the epoch
@@ -198,9 +198,9 @@ Z - timezone offset in seconds (i.e. "-43200" to "43200")
 
 
 //%%%%%		LANGUAGE SPECIFIC SETTINGS   %%%%%
-define('_CHARSET', 'UTF-8');
-define('_LANGCODE', 'zh-CN');
+define('_CHARSET','UTF-8');
+define('_LANGCODE','zh-CN');
 
 // change 0 to 1 if this language is a multi-bytes language
-define("XOOPS_USE_MULTIBYTES", "1");
+define("XOOPS_USE_MULTIBYTES","1");
 ?>

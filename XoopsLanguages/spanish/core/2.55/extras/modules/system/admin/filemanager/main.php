@@ -19,10 +19,10 @@
 // Check users rights
 if ( !is_object($xoopsUser) || !is_object($xoopsModule) || !$xoopsUser->isAdmin($xoopsModule->mid()) ) exit( _NOPERM );
 //  Check is active
-if ( !xoops_getModuleOption('active_filemanager', 'system') ) redirect_header( 'admin.php', 2, _AM_SYSTEM_NOTACTIVE );
+if ( !xoops_getModuleOption('active_filemanager','system') ) redirect_header( 'admin.php', 2, _AM_SYSTEM_NOTACTIVE );
 
 // Get Action type
-$op = system_CleanVars ( $_REQUEST, 'op', 'default', 'string' );
+$op = system_CleanVars ( $_REQUEST, 'op','default','string' );
 // Define main template
 $xoopsOption['template_main'] = 'system_filemanager.html';
 // Call Header
@@ -38,9 +38,9 @@ $xoTheme->addScript('browse.php?modules/system/js/code_mirror/codemirror.js');
 // Define Stylesheet
 $xoTheme->addStylesheet( XOOPS_URL . '/modules/system/css/admin.css');
 $xoTheme->addStylesheet( XOOPS_URL . '/modules/system/css/code_mirror/docs.css');
-$xoTheme->addStylesheet( XOOPS_URL . '/modules/system/css/ui/' . xoops_getModuleOption('jquery_theme', 'system') . '/ui.all.css');
+$xoTheme->addStylesheet( XOOPS_URL . '/modules/system/css/ui/' . xoops_getModuleOption('jquery_theme','system') . '/ui.all.css');
 // Define Breadcrumb and tips
-$xoBreadCrumb->addLink( _AM_SYSTEM_FILEMANAGER_NAV_MAIN, system_adminVersion('filemanager', 'adminpath') );
+$xoBreadCrumb->addLink( _AM_SYSTEM_FILEMANAGER_NAV_MAIN, system_adminVersion('filemanager','adminpath') );
 
 xoops_load('XoopsFile');
 XoopsFile::load('file');
@@ -49,7 +49,7 @@ XoopsFile::load('file');
 switch ($op) {
 	default:
 		// Assign Breadcrumb menu
-		$xoBreadCrumb->addHelp( system_adminVersion('filemanager', 'help') );
+		$xoBreadCrumb->addHelp( system_adminVersion('filemanager','help') );
 		$xoBreadCrumb->addTips( _AM_SYSTEM_FILEMANAGER_NAV_TIPS );
 		$xoBreadCrumb->render();
 
@@ -92,7 +92,7 @@ switch ($op) {
                                 case 'zip': case 'rar': case 'tar': case 'gz':
                                     $extension_verif = 'rar';
                                     $edit = true;
-                                    $unzip = '<img class="cursorpointer" src="./images/icons/untar.png" onclick=\'filemanager_unzip_file("'.$path_file . $file.'", "'.$path_file.'", "'.$file.'");\' width="16" alt="edit" />&nbsp;';
+                                    $unzip = '<img class="cursorpointer" src="./images/icons/untar.png" onclick=\'filemanager_unzip_file("'.$path_file . $file.'","'.$path_file.'","'.$file.'");\' width="16" alt="edit" />&nbsp;';
                                     break;
                                 case 'css':
                                     $extension_verif = 'css';
@@ -226,7 +226,7 @@ switch ($op) {
         break;
 
 	case 'filemanager_add_dir_save':
-	    $path = system_CleanVars ( $_REQUEST, 'path', XOOPS_ROOT_PATH . '/', 'string' );
+	    $path = system_CleanVars ( $_REQUEST, 'path', XOOPS_ROOT_PATH . '/','string' );
 
 		xoops_load('XoopsFile');
         XoopsFile::load('folder');
@@ -241,7 +241,7 @@ switch ($op) {
         break;
 
     case 'filemanager_add_file_save':
-        $path = system_CleanVars ( $_REQUEST, 'path', XOOPS_ROOT_PATH . '/', 'string' );
+        $path = system_CleanVars ( $_REQUEST, 'path', XOOPS_ROOT_PATH . '/','string' );
         if ( $path == '' ) $path = XOOPS_ROOT_PATH . '/';
 		$open = fopen($path . $_REQUEST['file_name'],"w+");
 		fclose($open);

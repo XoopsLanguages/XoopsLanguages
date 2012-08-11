@@ -20,9 +20,9 @@ define("_SR_PREVIOUS","Vorherige");
 define("_SR_KEYWORDS","Suchbegriffe");
 define("_SR_TYPE","Typ");
 define("_SR_SEARCHIN","Suchen in");
-define('_SR_KEYTOOSHORT', 'Suchbegriffe müssen mehr als <b>%s</b> Buchstaben haben!');
-define('_SR_KEYIGNORE', 'Suchbegriffe mit weniger als <b>%s</b> Buchstaben werden ignoriert');
-define('_SR_SEARCHRULE', 'Suchregel');
-define('_SR_IGNOREDWORDS', 'Die folgenden Worte waren kürzer als die erlaubte Minimallänge (%u Zeichen) und wurden nicht in die Suche einbezogen:');
+define('_SR_KEYTOOSHORT','Suchbegriffe müssen mehr als <b>%s</b> Buchstaben haben!');
+define('_SR_KEYIGNORE','Suchbegriffe mit weniger als <b>%s</b> Buchstaben werden ignoriert');
+define('_SR_SEARCHRULE','Suchregel');
+define('_SR_IGNOREDWORDS','Die folgenden Worte waren kürzer als die erlaubte Minimallänge (%u Zeichen) und wurden nicht in die Suche einbezogen:');
 
 ?>

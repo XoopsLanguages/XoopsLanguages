@@ -58,6 +58,6 @@ define('_AM_SYSTEM_FILEMANAGER_DIR_SUCCESS','Mapper oprettet');
 define('_AM_SYSTEM_FILEMANAGER_DIR_ERROR','Mapper kunne ikke oprettes');
 define('_AM_SYSTEM_FILEMANAGER_DIR_RYSDEL','Er du sikker på at du vil slette denne mappe?');
 define('_AM_SYSTEM_FILEMANAGER_FILE_SUCCESS','Fil oprettet');
-define('_AM_SYSTEM_FILEMANAGER_SUREDEL', 'Er du sikker på at du vil slette denne fil %s ?');
-define('_AM_SYSTEM_FILEMANAGER_DIR_SUREDEL', 'Er du sikker på at du vil slette denne mappe %s ?<br />Advarsel: alle underliggende mapper og filer bliver også slettet');
+define('_AM_SYSTEM_FILEMANAGER_SUREDEL','Er du sikker på at du vil slette denne fil %s ?');
+define('_AM_SYSTEM_FILEMANAGER_DIR_SUREDEL','Er du sikker på at du vil slette denne mappe %s ?<br />Advarsel: alle underliggende mapper og filer bliver også slettet');
 ?>

@@ -13,6 +13,6 @@
  * @package		Frameworks::transfer
  */
  
-define("_MD_TRANSFER_NEWBB", "Forum");
-define("_MD_TRANSFER_NEWBB_DESC", "Diskutuj u Forumu");
+define("_MD_TRANSFER_NEWBB","Forum");
+define("_MD_TRANSFER_NEWBB_DESC","Diskutuj u Forumu");
 ?>

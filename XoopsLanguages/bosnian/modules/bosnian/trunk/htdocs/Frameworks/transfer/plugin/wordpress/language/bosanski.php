@@ -14,6 +14,6 @@
  * @subpackage      transfer
  */
  
-define("_MD_TRANSFER_WORDPRESS", "WordPress");
-define("_MD_TRANSFER_WORDPRESS_DESC", "Po&scaron;alji u WordPress");
+define("_MD_TRANSFER_WORDPRESS","WordPress");
+define("_MD_TRANSFER_WORDPRESS_DESC","Po&scaron;alji u WordPress");
 ?>

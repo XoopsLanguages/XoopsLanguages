@@ -19,10 +19,10 @@ define("_SR_PREVIOUS","<< Précédent");
 define("_SR_KEYWORDS","Mots-clés");
 define("_SR_TYPE","Type");
 define("_SR_SEARCHIN","Chercher dans");
-define("_SR_KEYTOOSHORT", "Les mots-clefs doivent avoir au moins <strong>%s</strong> caractères !");
-define("_SR_KEYIGNORE", "Les mots-clefs de moins de <strong>%s</strong> caractères seront ignorés");
-define("_SR_SEARCHRULE", "Règle de recherche");
-define("_SR_IGNOREDWORDS", "Les mots suivants sont plus courts que la taille minimale autorisée (%u caractères) et n'ont pas été inclus dans votre recherche :");
+define("_SR_KEYTOOSHORT","Les mots-clefs doivent avoir au moins <strong>%s</strong> caractères !");
+define("_SR_KEYIGNORE","Les mots-clefs de moins de <strong>%s</strong> caractères seront ignorés");
+define("_SR_SEARCHRULE","Règle de recherche");
+define("_SR_IGNOREDWORDS","Les mots suivants sont plus courts que la taille minimale autorisée (%u caractères) et n'ont pas été inclus dans votre recherche :");
 
 /**  
  * Traductions frxoops, kris

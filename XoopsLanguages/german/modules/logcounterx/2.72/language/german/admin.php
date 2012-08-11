@@ -10,10 +10,10 @@ define("_LCX_ADM_IMGSLCT", 	"Counter-Bild Auswahl");
 define("_LCX_ADM_DBCHECK", 	"Datenbank überprüfen");
 define("_LCX_ADM_BLOCKSADMIN", 	"Blockeinstellungen");
 define("_LCX_ADM_GENCONF_DESC",	"Counter-Anzeige");
-define("_LCX_ADM_LOGCONF_DESC", "Berichte Allgemeine Einstellungen");
-define("_LCX_ADM_REPCONF_DESC", "Berichtsanzeige");
-define("_LCX_ADM_REBUILD_DESC", "Protokoldaten neu berechnen<br />Dies nimmt viel Zeit in Anspruch.");
-define("_LCX_ADM_IMGSLCT_DESC", "Wählen Sie das Counter-Bild (die Counterbilder) aus");
+define("_LCX_ADM_LOGCONF_DESC","Berichte Allgemeine Einstellungen");
+define("_LCX_ADM_REPCONF_DESC","Berichtsanzeige");
+define("_LCX_ADM_REBUILD_DESC","Protokoldaten neu berechnen<br />Dies nimmt viel Zeit in Anspruch.");
+define("_LCX_ADM_IMGSLCT_DESC","Wählen Sie das Counter-Bild (die Counterbilder) aus");
 define("_LCX_ADM_DBCHECK_DESC", 	"Datenbank überprüfen und optimieren");
 define("_LCX_ADM_BLOCKSADMIN_DESC", 	"Blockseinstellungen. (Dank an GIJOE.)");
 
@@ -108,11 +108,11 @@ define("_LCX_ADM_IMG",		"nach Bild");
 define("_LCX_ADM_CHR",		"nach Zeichen");
 define("_LCX_ADM_CHGIMG_NOTE",	"Unabhängig von dieser Einstellungen werden vorrangig die Bilder benutzt, die sich im Verzeichnis mit dem gleichen Namen wie das aktive Theme befinden.");
 
-define ("_LCX_ADM_CHKDB_Name",		"Tabellenname");
-define ("_LCX_ADM_CHKDB_Rows",		"Datenreihen");
-define ("_LCX_ADM_CHKDB_Data_length",	"Datengröße");
-define ("_LCX_ADM_CHKDB_Avg_row_length","Größe/Reihen");
-define ("_LCX_ADM_CHKDB_Data_free",	"freier Platz");
-define ("_LCX_ADM_CHKDB_Update_time",	"Update am");
-define ("_LCX_ADM_CHKDB_OPTIMIZE_DESC",	"Tabelle optimieren");
+define("_LCX_ADM_CHKDB_Name",		"Tabellenname");
+define("_LCX_ADM_CHKDB_Rows",		"Datenreihen");
+define("_LCX_ADM_CHKDB_Data_length",	"Datengröße");
+define("_LCX_ADM_CHKDB_Avg_row_length","Größe/Reihen");
+define("_LCX_ADM_CHKDB_Data_free",	"freier Platz");
+define("_LCX_ADM_CHKDB_Update_time",	"Update am");
+define("_LCX_ADM_CHKDB_OPTIMIZE_DESC",	"Tabelle optimieren");
 ?>

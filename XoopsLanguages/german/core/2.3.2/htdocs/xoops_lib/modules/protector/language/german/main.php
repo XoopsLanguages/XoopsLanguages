@@ -30,7 +30,7 @@ define("_PM_MESSAGEC","Nachricht: ");
 define("_PM_CLEAR","Leeren");
 define("_PM_CANCELSEND","Versand abbrechen");
 define("_PM_SUBMIT","Abschicken");
-define("_PM_SAVEINOUTBOX", "Eine Kopie im Postausgang speichern?");
+define("_PM_SAVEINOUTBOX","Eine Kopie im Postausgang speichern?");
 
 //%%%%%%	File Name viewpmsg.php 	%%%%%
 define("_PM_SUBJECT","Betreff");
@@ -41,7 +41,7 @@ define("_PM_DELETE","Löschen");
 define("_PM_TOSAVE","Speichern");
 define("_PM_UNSAVE","Speichern rückgängig");
 define("_PM_EMPTY","Leeren");
-define("_PM_REPLY", "Antworten");
+define("_PM_REPLY","Antworten");
 define("_PM_PLZREG","Bitte registrieren Sie sich bevor Sie private Nachrichten verschicken!");
 define("_PM_SAVED_PART","Sie dürfen %d PNs speichern und haben momentan %d PNs gespeichert");
 define("_PM_SAVED_ALL","Nachrichten wurden in den Postausgang verschoben");
@@ -50,7 +50,7 @@ define("_PM_EMPTIED","Das Nachrichtenfach wurde geleert");
 define("_PM_RUSUREEMPTY","Wollen Sie das Nachrichtenfach wirklich leeren?");
 define("_PM_RUSUREDELETE","Wollen Sie diese Nachricht(en) wirklich löschen?");
 
-define("_PM_ONLINE", "Online");
+define("_PM_ONLINE","Online");
 
 //define("_PM_RECEIVE","RECEIVE");
 //define("_PM_POST","POST");
@@ -80,13 +80,13 @@ define("_PM_NEXTP","Nächste");
 define("_PM_MAILNOTIFY","%s - Sie haben eine neue PN von %s");
 define("_PM_MAILMESSAGE","Hallo!\nSie haben eine neue PN von %s erhalten\n\nTitel der PN ist\n%s\n\nSie können die PN hier lesen\n%s\n\n-----------\nSie erhalten diese Nachricht, weil Sie benachrichtigt werden wollten, wenn Sie eine neue PN haben\n\nSie können Ihre PM-Konfiguration ändern\n%s\n\nBitte antworten Sie nicht auf diese Nachricht\n\n---------\nMit freundlichen Grüßen\n%s\n%s\n%s");
 
-define("_PM_EMAIL", "E-Mail");
-define("_PM_EMAIL_DESC", "Hallo %s, dies ist eine Nachricht von Ihrem Konto auf ".$xoopsConfig['sitename']);
-define("_PM_EMAIL_FROM", "Von %s");
-define("_PM_EMAIL_TO", "An %s");
-define("_PM_EMAIL_SUBJECT", "[Nachricht]%s");
-define("_PM_EMAIL_MESSAGE", "Nachrichteninhalt");
+define("_PM_EMAIL","E-Mail");
+define("_PM_EMAIL_DESC","Hallo %s, dies ist eine Nachricht von Ihrem Konto auf ".$xoopsConfig['sitename']);
+define("_PM_EMAIL_FROM","Von %s");
+define("_PM_EMAIL_TO","An %s");
+define("_PM_EMAIL_SUBJECT","[Nachricht]%s");
+define("_PM_EMAIL_MESSAGE","Nachrichteninhalt");
 
-define("_PM_ACTION_DONE", "Aktion erfolgreich ausgeführt");
-define("_PM_ACTION_ERROR", "Aktion fehlgeschlagen");
+define("_PM_ACTION_DONE","Aktion erfolgreich ausgeführt");
+define("_PM_ACTION_ERROR","Aktion fehlgeschlagen");
 ?>

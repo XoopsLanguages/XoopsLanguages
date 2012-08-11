@@ -22,7 +22,7 @@
  * Auth: Andricq Nicolas (AKA MusS)                                           *
  * Site: http://xoops.foreach.fr                                              *
  *----------------------------------------------------------------------------*/
-define('_MB_CONTENT_TYPE', 'نوع منو: ');
-define('_MB_CONTENT_HORIZ', 'افقی');
-define('_MB_CONTENT_VERT', 'عمودی');
+define('_MB_CONTENT_TYPE','نوع منو: ');
+define('_MB_CONTENT_HORIZ','افقی');
+define('_MB_CONTENT_VERT','عمودی');
 ?>

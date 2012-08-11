@@ -43,7 +43,7 @@ define("_MM_PREVIOUS","이전");
 define("_MM_NEXT","다음");
 define("_MM_USERSFOUND","%s 명의 회원이 검색되었습니다.");
 
-define("_MM_TOTALUSERS", "총 등록회원수: %s 명");
+define("_MM_TOTALUSERS","총 등록회원수: %s 명");
 define("_MM_NOFOUND","조건을 만족하는 회원이 존재하지 않습니다.");
 define("_MM_UNAME","아이디");
 define("_MM_ICQ","ICQ Number");
@@ -67,5 +67,5 @@ define("_MM_POSTS","투고 수");
 define("_MM_ASC","오름차순");
 define("_MM_DESC","내림차순");
 define("_MM_LIMIT","페이지당 표시할 회원수");
-define("_MM_RESULTS", "검색결과");
+define("_MM_RESULTS","검색결과");
 ?>

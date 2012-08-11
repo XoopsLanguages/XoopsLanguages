@@ -17,18 +17,18 @@
 //=========================================================
 
 // top.html
-define("_MB_WEBLINKS_DISP", "Vis"); 
-define("_MB_WEBLINKS_LINKS", "Links"); 
-define("_MB_WEBLINKS_CHARS", "Længde af titlen"); 
-define("_MB_WEBLINKS_LENGTH", "tegn"); 
-define("_MB_WEBLINKS_NEWDAYS", "Dage af nyt link"); 
-define("_MB_WEBLINKS_DAYS", "dage"); 
-define("_MB_WEBLINKS_POPULAR", "Hits af populære link"); 
-define("_MB_WEBLINKS_HITS", "hits"); 
-define("_MB_WEBLINKS_PIXEL", "pixel"); 
-define("_MB_WEBLINKS_RATING", "Bedømmelse"); 
-define("_MB_WEBLINKS_VOTES", "stemmer"); 
-define("_MB_WEBLINKS_COMMENTS", "Kommentarer");
+define("_MB_WEBLINKS_DISP","Vis"); 
+define("_MB_WEBLINKS_LINKS","Links"); 
+define("_MB_WEBLINKS_CHARS","Længde af titlen"); 
+define("_MB_WEBLINKS_LENGTH","tegn"); 
+define("_MB_WEBLINKS_NEWDAYS","Dage af nyt link"); 
+define("_MB_WEBLINKS_DAYS","dage"); 
+define("_MB_WEBLINKS_POPULAR","Hits af populære link"); 
+define("_MB_WEBLINKS_HITS","hits"); 
+define("_MB_WEBLINKS_PIXEL","pixel"); 
+define("_MB_WEBLINKS_RATING","Bedømmelse"); 
+define("_MB_WEBLINKS_VOTES","stemmer"); 
+define("_MB_WEBLINKS_COMMENTS","Kommentarer");
 
 // catlist.html
 define("_MB_WEBLINKS_TOTAL_LINKS","Total"); 

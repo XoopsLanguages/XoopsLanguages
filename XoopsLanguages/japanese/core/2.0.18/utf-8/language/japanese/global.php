@@ -27,8 +27,8 @@ define('_WARNINSTALL2','注意：ファイル%sへの書き込みが可能とな
 define('_WARNINWRITEABLE','注意：ファイル %sへの書き込みが不可となっています。 <br />このファイルのパーミッション設定を変更してください。<br /> Unixの場合 (777) (書き込み可)へ');
 
 // Error messages issued by XoopsObject::cleanVars()
-define( "_XOBJ_ERR_REQUIRED", "%s が必要です" );
-define( "_XOBJ_ERR_SHORTERTHAN", "%s は %d 文字以下にしてください" );
+define("_XOBJ_ERR_REQUIRED","%s が必要です" );
+define("_XOBJ_ERR_SHORTERTHAN","%s は %d 文字以下にしてください" );
 
 //%%%%%%	File Name themeuserpost.php 	%%%%%
 define('_POSTEDBY','投稿者：'); // Posted date
@@ -49,8 +49,8 @@ define('_YOURHOME','ホームページ');
 
 //%%%%%%	File Name misc.php (who's-online popup)	%%%%%
 define('_WHOSONLINE','オンライン状況'); 
-define('_GUESTS', 'ゲスト');
-define('_MEMBERS', '登録ユーザ');
+define('_GUESTS','ゲスト');
+define('_MEMBERS','登録ユーザ');
 define('_ONLINEPHRASE','<b>%s</b> 人のユーザが現在オンラインです。');
 define('_ONLINEPHRASEX','<b>%s</b> 人のユーザが <b>%s</b> を参照しています。');
 define('_CLOSE','閉じる');  // Close window
@@ -72,24 +72,24 @@ define('_ALIGN','位置');
 define('_LEFT','左');
 define('_CENTER','中央');
 define('_RIGHT','右');
-define('_FORM_ENTER', '%sを入力してください');
+define('_FORM_ENTER','%sを入力してください');
 // %s represents file name
 define('_MUSTWABLE','ファイル %s への書き込み権限があるかどうか確認してください。');
 // Module info
-define('_PREFERENCES', '一般設定');
-define('_VERSION', 'バージョン');
-define('_DESCRIPTION', '説明');
-define('_ERRORS', 'エラー');
-define('_NONE', 'なし');
+define('_PREFERENCES','一般設定');
+define('_VERSION','バージョン');
+define('_DESCRIPTION','説明');
+define('_ERRORS','エラー');
+define('_NONE','なし');
 define('_ON','投稿日時：');
 define('_READS','ヒット');
 define('_WELCOMETO','%sへようこそ');
 define('_SEARCH','検索');
-define('_ALL', 'すべて');
-define('_TITLE', '題名');
-define('_OPTIONS', 'オプション');
-define('_QUOTE', '引用');
-define('_LIST', '一覧');
+define('_ALL','すべて');
+define('_TITLE','題名');
+define('_OPTIONS','オプション');
+define('_QUOTE','引用');
+define('_LIST','一覧');
 define('_LOGIN','ログイン');
 define('_USERNAME','ユーザ名: ');
 define('_PASSWORD','パスワード: ');
@@ -99,12 +99,12 @@ define('_SEND','送信');
 define('_CANCEL','キャンセル');
 define('_ASCENDING','昇順');
 define('_DESCENDING','降順');
-define('_BACK', '戻る');
-define('_NOTITLE', '無題');
+define('_BACK','戻る');
+define('_NOTITLE','無題');
 
 /* Image manager */
 define('_IMGMANAGER','イメージ・マネジャー');
-define('_NUMIMAGES', '%s 枚');
+define('_NUMIMAGES','%s 枚');
 define('_ADDIMAGE','画像ファイルの追加');
 define('_IMAGENAME','画像名:');
 define('_IMGMAXSIZE','アップロードを許可するファイルサイズ(Kバイト):');
@@ -115,16 +115,16 @@ define('_IMAGEFILE','画像ファイル名:');
 define('_IMGWEIGHT','イメージマネジャーでの表示順:');
 define('_IMGDISPLAY','この画像を表示する');
 define('_IMAGEMIME','MIMEタイプ:');
-define('_FAILFETCHIMG', 'アップロードファイル %s が取得できませんでした。');
-define('_FAILSAVEIMG', '画像ファイル %s をデータベースに格納できませんでした。');
-define('_NOCACHE', 'キャッシュなし');
-define('_CLONE', '複製');
+define('_FAILFETCHIMG','アップロードファイル %s が取得できませんでした。');
+define('_FAILSAVEIMG','画像ファイル %s をデータベースに格納できませんでした。');
+define('_NOCACHE','キャッシュなし');
+define('_CLONE','複製');
 
 //%%%%%	File Name class/xoopsform/formmatchoption.php 	%%%%%
-define('_STARTSWITH', '前方一致');
-define('_ENDSWITH', '後方一致');
-define('_MATCHES', '完全一致');
-define('_CONTAINS', '次の単語を含む');
+define('_STARTSWITH','前方一致');
+define('_ENDSWITH','後方一致');
+define('_MATCHES','完全一致');
+define('_CONTAINS','次の単語を含む');
 
 //%%%%%%	File Name commentform.php 	%%%%%
 define('_REGISTER','登録');
@@ -150,16 +150,16 @@ define('_PLZCOMPLETE','表題およびメッセージ文を記入してくださ
 define('_MESSAGETOOLONG','メッセージ文が長すぎます。');
 
 //%%%%%		TIME FORMAT SETTINGS   %%%%%
-define('_SECOND', '1秒');
-define('_SECONDS', '%s秒');
-define('_MINUTE', '1分');
-define('_MINUTES', '%s分');
-define('_HOUR', '1時間');
-define('_HOURS', '%s時間');
-define('_DAY', '1日');
-define('_DAYS', '%s日');
-define('_WEEK', '1週間');
-define('_MONTH', '1ヶ月');
+define('_SECOND','1秒');
+define('_SECONDS','%s秒');
+define('_MINUTE','1分');
+define('_MINUTES','%s分');
+define('_HOUR','1時間');
+define('_HOURS','%s時間');
+define('_DAY','1日');
+define('_DAYS','%s日');
+define('_WEEK','1週間');
+define('_MONTH','1ヶ月');
 
 define("_DATESTRING","Y-n-j G:i:s");
 define("_MEDIUMDATESTRING","Y-n-j G:i");
@@ -183,7 +183,7 @@ m - month; i.e. "01" to "12"
 n - month without leading zeros; i.e. "1" to "12"
 M - month, textual, 3 letters; i.e. "Jan"
 s - seconds; i.e. "00" to "59"
-S - English ordinal suffix, textual, 2 characters; i.e. "th", "nd"
+S - English ordinal suffix, textual, 2 characters; i.e. "th","nd"
 t - number of days in the given month; i.e. "28" to "31"
 T - Timezone setting of this machine; i.e. "MDT"
 U - seconds since the epoch
@@ -196,9 +196,9 @@ Z - timezone offset in seconds (i.e. "-43200" to "43200")
 
 
 //%%%%%		LANGUAGE SPECIFIC SETTINGS   %%%%%
-define('_CHARSET', 'UTF-8');
-define('_LANGCODE', 'ja');
+define('_CHARSET','UTF-8');
+define('_LANGCODE','ja');
 
 // change 0 to 1 if this language is a multi-bytes language
-define('XOOPS_USE_MULTIBYTES', '1');
+define('XOOPS_USE_MULTIBYTES','1');
 ?>

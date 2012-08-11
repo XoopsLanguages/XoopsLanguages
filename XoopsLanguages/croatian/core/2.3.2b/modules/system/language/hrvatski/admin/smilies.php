@@ -19,5 +19,5 @@ define('_AM_SMILEEMOTION','Opis:');
 define('_AM_ADD','Dodaj');
 define('_AM_SAVE','Spremi');
 define('_AM_WAYSYWTDTS','UPOZORENJE: Da li sigurno želite obrisati ovu emotikonu?');
-define('_AM_DISPLAYF', 'Prikaži u obrascu?');
+define('_AM_DISPLAYF','Prikaži u obrascu?');
 ?>

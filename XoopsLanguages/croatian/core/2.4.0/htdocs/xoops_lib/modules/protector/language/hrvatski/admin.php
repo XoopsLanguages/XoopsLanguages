@@ -13,31 +13,31 @@ define("_AM_TH_AGENT","AGENT");
 define("_AM_TH_TYPE","Tip");
 define("_AM_TH_DESCRIPTION","Opis");
 
-define( "_AM_TH_BADIPS" , 'Loši IP-ovi<br /><br /><span style="font-weight:normal;">Zapišite svaki IP u novi red<br />prazno znači da su svi IP-ovi dopušteni</span>' ) ;
+define("_AM_TH_BADIPS" , 'Loši IP-ovi<br /><br /><span style="font-weight:normal;">Zapišite svaki IP u novi red<br />prazno znači da su svi IP-ovi dopušteni</span>' ) ;
 
-define( "_AM_TH_GROUP1IPS" , 'Dopušteni IP-ovi za grupu=1<br /><br /><span style="font-weight:normal;">Zapišite svaki IP u novi red.<br />192.168. znači 192.168.*<br />prazno znači da su svi IP-ovi dopušteni</span>' ) ;
+define("_AM_TH_GROUP1IPS" , 'Dopušteni IP-ovi za grupu=1<br /><br /><span style="font-weight:normal;">Zapišite svaki IP u novi red.<br />192.168. znači 192.168.*<br />prazno znači da su svi IP-ovi dopušteni</span>' ) ;
 
-define( "_AM_LABEL_COMPACTLOG" , "Zbijeni zapis" ) ;
-define( "_AM_BUTTON_COMPACTLOG" , "Zbij ga!" ) ;
-define( "_AM_JS_COMPACTLOGCONFIRM" , "Duplicirani (IP,Tipovi) zapisi će biti obrisani" ) ;
-define( "_AM_LABEL_REMOVEALL" , "Obriši sve zapise" ) ;
-define( "_AM_BUTTON_REMOVEALL" , "Obriši sve!" ) ;
-define( "_AM_JS_REMOVEALLCONFIRM" , "Svi zapisi će biti potpuno obrisani. Jeste li SIGURNI?" ) ;
-define( "_AM_LABEL_REMOVE" , "Obriši označene zapise:" ) ;
-define( "_AM_BUTTON_REMOVE" , "Obriši!" ) ;
-define( "_AM_JS_REMOVECONFIRM" , "Brisanje UREDU?" ) ;
-define( "_AM_MSG_IPFILESUPDATED" , "Datoteke za IP-ove su ažurirane" ) ;
-define( "_AM_MSG_BADIPSCANTOPEN" , "Datoteka za loše IP-ove se ne može otvoriti" ) ;
-define( "_AM_MSG_GROUP1IPSCANTOPEN" , "Datoteka za dopuštenje grupe=1 se ne može otvoriti" ) ;
-define( "_AM_MSG_REMOVED" , "Zapisi su obrisani" ) ;
-define( "_AM_FMT_CONFIGSNOTWRITABLE" , "Omogućite zapisivanje u mapu sa postavkama: %s" ) ;
+define("_AM_LABEL_COMPACTLOG" , "Zbijeni zapis" ) ;
+define("_AM_BUTTON_COMPACTLOG" , "Zbij ga!" ) ;
+define("_AM_JS_COMPACTLOGCONFIRM" , "Duplicirani (IP,Tipovi) zapisi će biti obrisani" ) ;
+define("_AM_LABEL_REMOVEALL" , "Obriši sve zapise" ) ;
+define("_AM_BUTTON_REMOVEALL" , "Obriši sve!" ) ;
+define("_AM_JS_REMOVEALLCONFIRM" , "Svi zapisi će biti potpuno obrisani. Jeste li SIGURNI?" ) ;
+define("_AM_LABEL_REMOVE" , "Obriši označene zapise:" ) ;
+define("_AM_BUTTON_REMOVE" , "Obriši!" ) ;
+define("_AM_JS_REMOVECONFIRM" , "Brisanje UREDU?" ) ;
+define("_AM_MSG_IPFILESUPDATED" , "Datoteke za IP-ove su ažurirane" ) ;
+define("_AM_MSG_BADIPSCANTOPEN" , "Datoteka za loše IP-ove se ne može otvoriti" ) ;
+define("_AM_MSG_GROUP1IPSCANTOPEN" , "Datoteka za dopuštenje grupe=1 se ne može otvoriti" ) ;
+define("_AM_MSG_REMOVED" , "Zapisi su obrisani" ) ;
+define("_AM_FMT_CONFIGSNOTWRITABLE" , "Omogućite zapisivanje u mapu sa postavkama: %s" ) ;
 
 
 // prefix_manager.php
-define( "_AM_H3_PREFIXMAN" , "Upravitelj prefiksa" ) ;
-define( "_AM_MSG_DBUPDATED" , "Baza podataka je uspješno ažurirana!" ) ;
-define( "_AM_CONFIRM_DELETE" , "Podataka će biti obrisan. UREDU?" ) ;
-define( "_AM_TXT_HOWTOCHANGEDB" , "Ako želite promjeniti prefiks,<br /> uredite %s/mainfile.php rucno.<br /><br />odredite('XOOPS_DB_PREFIX', '<b>%s</b>');" ) ;
+define("_AM_H3_PREFIXMAN" , "Upravitelj prefiksa" ) ;
+define("_AM_MSG_DBUPDATED" , "Baza podataka je uspješno ažurirana!" ) ;
+define("_AM_CONFIRM_DELETE" , "Podataka će biti obrisan. UREDU?" ) ;
+define("_AM_TXT_HOWTOCHANGEDB" , "Ako želite promjeniti prefiks,<br /> uredite %s/mainfile.php rucno.<br /><br />odredite('XOOPS_DB_PREFIX','<b>%s</b>');" ) ;
 
 
 // advisory.php

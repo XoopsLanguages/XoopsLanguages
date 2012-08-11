@@ -18,5 +18,5 @@ define('_AM_SMILEEMOTION','Opis:');
 define('_AM_ADD','Dodaj');
 define('_AM_SAVE','Osiguraj');
 define('_AM_WAYSYWTDTS','Pa&#382;nja: &#381;eli&scaron; li Smilie stvarno izbrisati?');
-define('_AM_DISPLAYF', 'U formularu prika&#382;i?');
+define('_AM_DISPLAYF','U formularu prika&#382;i?');
 ?>

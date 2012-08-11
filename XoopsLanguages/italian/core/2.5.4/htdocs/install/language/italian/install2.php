@@ -6,8 +6,8 @@
 // Last translation update: 08/03/2011
 
 // License
-define('LICENSE_NOT_WRITEABLE', 'La licenza &egrave; %s . <br/><font style="colour:#ff0000">Rendere il file ../include/license.php scrivibile (chmod 777)</font>');
-define('LICENSE_IS_WRITEABLE', 'La licenza &egrave; %s');
+define('LICENSE_NOT_WRITEABLE','La licenza &egrave; %s . <br/><font style="colour:#ff0000">Rendere il file ../include/license.php scrivibile (chmod 777)</font>');
+define('LICENSE_IS_WRITEABLE','La licenza &egrave; %s');
 
 define("_INSTALL_WEBMASTER","Webmaster");
 define("_INSTALL_WEBMASTERD","Webmaster di questo sito");
@@ -18,18 +18,18 @@ define("_INSTALL_ANONUSERSD","Gruppo degli utenti non registrati che navigano il
 /**
 * New Group types
 */
-define('_INSTALL_BANNEDUSERS', 'Utenti bannati');
-define('_INSTALL_BANNEDUSERSD', 'Gruppo degli utenti cui non &egrave; permesso accedere al sito');
-define('_INSTALL_MODERATORUSERS', 'Moderatori');
-define('_INSTALL_MODERATORUSERSD', 'I moderatori del sito');
-define('_INSTALL_SUBMITTERUSERS', 'Autori');
-define('_INSTALL_SUBMITTERUSERSD', 'Utenti che possono inviare/inserire articoli sul sito');
-define('_INSTALL_DEVELOPEUSERS', 'Sviluppatore');
-define('_INSTALL_DEVELOPEUSERSD', 'Utente con privilegi amministrativi che pu&ograve; vedere i messaggi di debug.');
+define('_INSTALL_BANNEDUSERS','Utenti bannati');
+define('_INSTALL_BANNEDUSERSD','Gruppo degli utenti cui non &egrave; permesso accedere al sito');
+define('_INSTALL_MODERATORUSERS','Moderatori');
+define('_INSTALL_MODERATORUSERSD','I moderatori del sito');
+define('_INSTALL_SUBMITTERUSERS','Autori');
+define('_INSTALL_SUBMITTERUSERSD','Utenti che possono inviare/inserire articoli sul sito');
+define('_INSTALL_DEVELOPEUSERS','Sviluppatore');
+define('_INSTALL_DEVELOPEUSERSD','Utente con privilegi amministrativi che pu&ograve; vedere i messaggi di debug.');
 
 define("_INSTALL_L165","Il sito al momento &egrave; chiuso per manutenzione. Si prega di riprovare pi&ugrave; tardi.");
-define("_INSTALL_ANON", "Anonimo");
-define("_INSTALL_DISCLMR", "Gli amministratori e moderatori di questo sito cancelleranno o modificheranno, il pi&ugrave; velocemente possibile, qualsiasi contenuto ritenuto sgradevole o offensivo.
+define("_INSTALL_ANON","Anonimo");
+define("_INSTALL_DISCLMR","Gli amministratori e moderatori di questo sito cancelleranno o modificheranno, il pi&ugrave; velocemente possibile, qualsiasi contenuto ritenuto sgradevole o offensivo.
 &Egrave; in ogni caso impossibile esaminare ogni messaggio e si mette quindi a conoscenza che tutti i messaggi esprimono opinioni e punti di vista dei loro autori e non degli amministratori, moderatori o webmaster (ad eccezione dei messaggi inviati da questi utenti) e sono per questa ragione al di fuori della responsabilit&agrave; diretta degli amministratori del sito.
 
 Si accetta di non inviare messaggi e/o allegati osceni, volgari, calunniosi, discriminatori, 

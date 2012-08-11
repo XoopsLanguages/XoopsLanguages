@@ -12,7 +12,7 @@ define("_MI_WAITING_NAME","منتظر برای تایید ها");
 define("_MI_WAITING_DESC","بلاکی برای نشان دادن منتظر برای تایید های ماژول های زوپس");
 
 // Names of blocks for this module (Not all module has blocks)
-define("_MI_WAITING_BNAME1", "ارسال های منتظر برای تایید");
+define("_MI_WAITING_BNAME1","ارسال های منتظر برای تایید");
 
 
 ?>

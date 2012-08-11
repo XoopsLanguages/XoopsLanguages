@@ -19,13 +19,13 @@ define("_MI_SYSTEM_BNAME4","Cari");
 define("_MI_SYSTEM_BNAME5","Kandungan Menunggu");
 define("_MI_SYSTEM_BNAME6","Menu Utama");
 define("_MI_SYSTEM_BNAME7","Info Laman");
-define("_MI_SYSTEM_BNAME8", "Siapa dalam talian");
-define("_MI_SYSTEM_BNAME9", "Pengirim Terbanyak");
-define("_MI_SYSTEM_BNAME10", "Ahli Baru");
-define("_MI_SYSTEM_BNAME11", "Komen Terbaru");
+define("_MI_SYSTEM_BNAME8","Siapa dalam talian");
+define("_MI_SYSTEM_BNAME9","Pengirim Terbanyak");
+define("_MI_SYSTEM_BNAME10","Ahli Baru");
+define("_MI_SYSTEM_BNAME11","Komen Terbaru");
 // RMV-NOTIFY
-define("_MI_SYSTEM_BNAME12", "Pilihan Notifikasi");
-define("_MI_SYSTEM_BNAME13", "Themes");
+define("_MI_SYSTEM_BNAME12","Pilihan Notifikasi");
+define("_MI_SYSTEM_BNAME13","Themes");
 
 // Names of admin menu items
 define("_MI_SYSTEM_ADMENU1","Banners");
@@ -37,11 +37,11 @@ define("_MI_SYSTEM_ADMENU7","Smilies");
 define("_MI_SYSTEM_ADMENU9","Pangkat Pengguna");
 define("_MI_SYSTEM_ADMENU10","Edit Pengguna");
 define("_MI_SYSTEM_ADMENU11","Mel Pengguna");
-define("_MI_SYSTEM_ADMENU12", "Cari Pengguna");
-define("_MI_SYSTEM_ADMENU13", "Imej");
-define("_MI_SYSTEM_ADMENU14", "Avatars");
-define("_MI_SYSTEM_ADMENU15", "Templates");
-define("_MI_SYSTEM_ADMENU16", "Komen");
+define("_MI_SYSTEM_ADMENU12","Cari Pengguna");
+define("_MI_SYSTEM_ADMENU13","Imej");
+define("_MI_SYSTEM_ADMENU14","Avatars");
+define("_MI_SYSTEM_ADMENU15","Templates");
+define("_MI_SYSTEM_ADMENU16","Komen");
 
 //Preference
 define("_MI_SYSTEM_PREFERENCE_BREAK_GENERAL","Tetapan Umum");
@@ -87,5 +87,5 @@ define("_MI_SYSTEM_PREFERENCE_GENERAL_EDITOR_DSC","");
 define("_MI_SYSTEM_PREFERENCE_ANONPOST","");
 define("_MI_SYSTEM_PREFERENCE_REDIRECT","");
 
-define("_MI_SYSTEM_PREFERENCE_JQUERY_THEME", "jQuery theme");
+define("_MI_SYSTEM_PREFERENCE_JQUERY_THEME","jQuery theme");
 ?>

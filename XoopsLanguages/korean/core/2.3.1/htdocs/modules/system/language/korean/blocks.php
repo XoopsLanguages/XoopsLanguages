@@ -29,46 +29,46 @@
 //  ------------------------------------------------------------------------ //
 
 // Blocks
-define("_MB_SYSTEM_ADMENU","°ü¸®ÀÚ¸Þ´º");
-define("_MB_SYSTEM_RNOW","½Å±Ôµî·Ï");
-define("_MB_SYSTEM_LPASS","ÆÐ½º¿öµåºÐ½Ç");
-define("_MB_SYSTEM_SEARCH","°Ë»ö");
-define("_MB_SYSTEM_ADVS","»ó¼¼ °Ë»ö");
-define("_MB_SYSTEM_VACNT","°èÁ¤Á¤º¸º¸±â");
-define("_MB_SYSTEM_EACNT","°èÁ¤Á¤º¸ÆíÁý");
+define("_MB_SYSTEM_ADMENU","ï¿½ï¿½ï¿½ï¿½ï¿½Ú¸Þ´ï¿½");
+define("_MB_SYSTEM_RNOW","ï¿½Å±Ôµï¿½ï¿½");
+define("_MB_SYSTEM_LPASS","ï¿½Ð½ï¿½ï¿½ï¿½ï¿½ï¿½Ð½ï¿½");
+define("_MB_SYSTEM_SEARCH","ï¿½Ë»ï¿½");
+define("_MB_SYSTEM_ADVS","ï¿½ï¿½ ï¿½Ë»ï¿½");
+define("_MB_SYSTEM_VACNT","ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
+define("_MB_SYSTEM_EACNT","ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
 // RMV-NOTIFY
-define("_MB_SYSTEM_NOTIF", "ÀÌº¥Æ®ÅëÁö±â´É");
-define("_MB_SYSTEM_LOUT","·Î±×¾Æ¿ô");
-define("_MB_SYSTEM_INBOX","¼ö½Å¹Ú½º");
-define("_MB_SYSTEM_SUBMS","½Å±ÔÅõ°í´º½º");
-define("_MB_SYSTEM_WLNKS","½Å±ÔÅõ°í¸µÅ©");
-define("_MB_SYSTEM_BLNK","Àß¸øµÈ ¸µÅ©½Å°í");
-define("_MB_SYSTEM_MLNKS","º¯°æµÈ ¸µÅ©");
-define("_MB_SYSTEM_WDLS","½Å±ÔÅõ°í´Ù¿î·ÎµåÁ¤º¸");
-define("_MB_SYSTEM_BFLS","Àß¸øµÈ ÆÄÀÏ½Å°í");
-define("_MB_SYSTEM_MFLS","º¯°æµÈ ´Ù¿î·ÎµåÁ¤º¸");
+define("_MB_SYSTEM_NOTIF","ï¿½Ìºï¿½Æ®ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
+define("_MB_SYSTEM_LOUT","ï¿½Î±×¾Æ¿ï¿½");
+define("_MB_SYSTEM_INBOX","ï¿½ï¿½ï¿½Å¹Ú½ï¿½");
+define("_MB_SYSTEM_SUBMS","ï¿½Å±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
+define("_MB_SYSTEM_WLNKS","ï¿½Å±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å©");
+define("_MB_SYSTEM_BLNK","ï¿½ß¸ï¿½ï¿½ï¿½ ï¿½ï¿½Å©ï¿½Å°ï¿½");
+define("_MB_SYSTEM_MLNKS","ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Å©");
+define("_MB_SYSTEM_WDLS","ï¿½Å±ï¿½ï¿½ï¿½ï¿½ï¿½Ù¿ï¿½Îµï¿½ï¿½ï¿½ï¿½ï¿½");
+define("_MB_SYSTEM_BFLS","ï¿½ß¸ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ï½Å°ï¿½");
+define("_MB_SYSTEM_MFLS","ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ù¿ï¿½Îµï¿½ï¿½ï¿½ï¿½ï¿½");
 define("_MB_SYSTEM_HOME","È¨"); // link to home page in main menu block
-define("_MB_SYSTEM_RECO","ÀÌ »çÀÌÆ®¸¦ ÃßÃµ!");
-define("_MB_SYSTEM_PWWIDTH","ÆË¾÷À©µµ¿ì Æø");
-define("_MB_SYSTEM_PWHEIGHT","ÆË¾÷À©µµ¿ì ³ôÀÌ");
-define("_MB_SYSTEM_LOGO","%s µð·ºÅä¸®¾ÈÀÇ ·Î°íÆÄÀÏÀÌ¸§");  // %s is your root image directory name
-define("_MB_SYSTEM_COMPEND", "ÄÚ¸àÆ®");
+define("_MB_SYSTEM_RECO","ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Æ®ï¿½ï¿½ ï¿½ï¿½Ãµ!");
+define("_MB_SYSTEM_PWWIDTH","ï¿½Ë¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½");
+define("_MB_SYSTEM_PWHEIGHT","ï¿½Ë¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½");
+define("_MB_SYSTEM_LOGO","%s ï¿½ï¿½ï¿½ä¸®ï¿½ï¿½ï¿½ï¿½ ï¿½Î°ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì¸ï¿½");  // %s is your root image directory name
+define("_MB_SYSTEM_COMPEND","ï¿½Ú¸ï¿½Æ®");
 
-//define("_MB_SYSTEM_LOGGEDINAS", "Logged in as");
-define("_MB_SYSTEM_SADMIN","°ü¸®ÀÚ±×·ìÀ» Ç¥½ÃÇÔ");
-define("_MB_SYSTEM_SPMTO","%s ´Ô¿¡°Ô PMÂÊÁö¸¦ º¸³¿");
-define("_MB_SYSTEM_SEMTO","%s ´Ô¿¡°Ô ¸ÞÀÏÀ» º¸³¿");
+//define("_MB_SYSTEM_LOGGEDINAS","Logged in as");
+define("_MB_SYSTEM_SADMIN","ï¿½ï¿½ï¿½ï¿½ï¿½Ú±×·ï¿½ï¿½ï¿½ Ç¥ï¿½ï¿½ï¿½ï¿½");
+define("_MB_SYSTEM_SPMTO","%s ï¿½Ô¿ï¿½ï¿½ï¿½ PMï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½");
+define("_MB_SYSTEM_SEMTO","%s ï¿½Ô¿ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½");
 
-define("_MB_SYSTEM_DISPLAY","%s ¸íÀ» Ç¥½Ã");
-define("_MB_SYSTEM_DISPLAYA","µî·ÏÈ¸¿øÀÇ ¾Æ¹ÙÅ¸¸¦ Ç¥½Ã");
-define("_MB_SYSTEM_NODISPGR","ÀÌÇÏÀÇ Æ¯º°·©Å©ÀÇ µî·ÏÈ¸¿øÀº Ç¥½ÃÇÏÁö¾ÊÀ½:");
+define("_MB_SYSTEM_DISPLAY","%s ï¿½ï¿½ï¿½ï¿½ Ç¥ï¿½ï¿½");
+define("_MB_SYSTEM_DISPLAYA","ï¿½ï¿½ï¿½È¸ï¿½ï¿½ï¿½ï¿½ ï¿½Æ¹ï¿½Å¸ï¿½ï¿½ Ç¥ï¿½ï¿½");
+define("_MB_SYSTEM_NODISPGR","ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Æ¯ï¿½ï¿½ï¿½ï¿½Å©ï¿½ï¿½ ï¿½ï¿½ï¿½È¸ï¿½ï¿½ï¿½ï¿½ Ç¥ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½:");
 
-define("_MB_SYSTEM_DISPLAYC"," %s °³ÀÇ ÄÚ¸àÆ®¸¦ Ç¥½Ã");
-define("_MB_SYSTEM_SECURE", "SSL");
+define("_MB_SYSTEM_DISPLAYC"," %s ï¿½ï¿½ï¿½ï¿½ ï¿½Ú¸ï¿½Æ®ï¿½ï¿½ Ç¥ï¿½ï¿½");
+define("_MB_SYSTEM_SECURE","SSL");
 
-define("_MB_SYSTEM_NUMTHEME", "%s Å×¸¶");
-define("_MB_SYSTEM_THSHOW", "½ºÅ©¸°¼¦ ±×¸²ÆÄÀÏÀÇ Ç¥½Ã");
-define("_MB_SYSTEM_THWIDTH", "½ºÅ©¸°¼¦ ±×¸²ÆÄÀÏÀÇ Æø");
-define('_MB_SYSTEM_REMEMBERME', 'ÀÚµ¿·Î±×ÀÎ');
+define("_MB_SYSTEM_NUMTHEME","%s ï¿½×¸ï¿½");
+define("_MB_SYSTEM_THSHOW","ï¿½ï¿½Å©ï¿½ï¿½ï¿½ï¿½ ï¿½×¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Ç¥ï¿½ï¿½");
+define("_MB_SYSTEM_THWIDTH","ï¿½ï¿½Å©ï¿½ï¿½ï¿½ï¿½ ï¿½×¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½");
+define('_MB_SYSTEM_REMEMBERME','ï¿½Úµï¿½ï¿½Î±ï¿½ï¿½ï¿½');
 
 ?>

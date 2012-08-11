@@ -137,7 +137,7 @@ define($GLOBALS["ART_VAR_PREFIXU"]."_MD_SUBMITTED","ارسال شده‌ها");
 define($GLOBALS["ART_VAR_PREFIXU"]."_MD_PUBLISHED","قرار گرفته‌ها");
 define($GLOBALS["ART_VAR_PREFIXU"]."_MD_CREATED","ساخته شده‌ها");
 define($GLOBALS["ART_VAR_PREFIXU"]."_MD_REGISTERED","ثبت شده‌ها");
-define($GLOBALS["ART_VAR_PREFIXU"]."_MD_REGULAR", "معمولی");
+define($GLOBALS["ART_VAR_PREFIXU"]."_MD_REGULAR","معمولی");
 define($GLOBALS["ART_VAR_PREFIXU"]."_MD_CATEGORIES","شاخه‌ها");
 
 define($GLOBALS["ART_VAR_PREFIXU"]."_MD_SUBTITLES","زیر عنوان‌ها");
@@ -150,11 +150,11 @@ define($GLOBALS["ART_VAR_PREFIXU"]."_MD_RATE","رای");
 define($GLOBALS["ART_VAR_PREFIXU"]."_MD_RATEIT","رای دهید!");
 define($GLOBALS["ART_VAR_PREFIXU"]."_MD_RESETRATE","صفر کردن رای‌ها");
 
-define($GLOBALS["ART_VAR_PREFIXU"]."_MD_TIME", "زمان");
-//define($GLOBALS["ART_VAR_PREFIXU"]."_MD_PDF_PAGE", "صفحه %s");
+define($GLOBALS["ART_VAR_PREFIXU"]."_MD_TIME","زمان");
+//define($GLOBALS["ART_VAR_PREFIXU"]."_MD_PDF_PAGE","صفحه %s");
 
-define($GLOBALS["ART_VAR_PREFIXU"]."_MD_PREVIOUS", "مقاله قبلی >>");
-define($GLOBALS["ART_VAR_PREFIXU"]."_MD_NEXT", "<< مقاله بعدی");
+define($GLOBALS["ART_VAR_PREFIXU"]."_MD_PREVIOUS","مقاله قبلی >>");
+define($GLOBALS["ART_VAR_PREFIXU"]."_MD_NEXT","<< مقاله بعدی");
 
 define($GLOBALS["ART_VAR_PREFIXU"]."_MD_TEXTOPTIONS",'گزینه‌های متن');
 define($GLOBALS["ART_VAR_PREFIXU"]."_MD_DOHTML",'فعال‌کردن تگ‌های html');
@@ -162,22 +162,22 @@ define($GLOBALS["ART_VAR_PREFIXU"]."_MD_DOSMILEY",'فعال‌کردن لبخن�
 define($GLOBALS["ART_VAR_PREFIXU"]."_MD_DOXCODE",'فعال‌کردن کدهای زوپس');
 define($GLOBALS["ART_VAR_PREFIXU"]."_MD_DOBR",'فعال کردن شکستن خود به خود خط‌ها (پیشنهاد می‌شود در حالتیکه HTML فعال است این را انتخاب نکنید)');
 
-define($GLOBALS["ART_VAR_PREFIXU"]."_MD_SPONSORS", "حامیان");
+define($GLOBALS["ART_VAR_PREFIXU"]."_MD_SPONSORS","حامیان");
 
-define($GLOBALS["ART_VAR_PREFIXU"]."_MD_TIME_CREATE", "ایجاد شده در");
-define($GLOBALS["ART_VAR_PREFIXU"]."_MD_TIME_EXPIRE", "منقضی شده در");
-define($GLOBALS["ART_VAR_PREFIXU"]."_MD_TYPES", "نوع مقاله");
-define($GLOBALS["ART_VAR_PREFIXU"]."_MD_NAME", "نام");
-//define($GLOBALS["ART_VAR_PREFIXU"]."_MD_BIO", "زندگی نامه");
+define($GLOBALS["ART_VAR_PREFIXU"]."_MD_TIME_CREATE","ایجاد شده در");
+define($GLOBALS["ART_VAR_PREFIXU"]."_MD_TIME_EXPIRE","منقضی شده در");
+define($GLOBALS["ART_VAR_PREFIXU"]."_MD_TYPES","نوع مقاله");
+define($GLOBALS["ART_VAR_PREFIXU"]."_MD_NAME","نام");
+//define($GLOBALS["ART_VAR_PREFIXU"]."_MD_BIO","زندگی نامه");
 
-define($GLOBALS["ART_VAR_PREFIXU"]."_MD_FORMMODE", "حالت فرم");
-define($GLOBALS["ART_VAR_PREFIXU"]."_MD_BASIC", "ساده");
-define($GLOBALS["ART_VAR_PREFIXU"]."_MD_ADVANCE", "پیشرفته");
-define($GLOBALS["ART_VAR_PREFIXU"]."_MD_CUSTOM", "دست‌ساز");
+define($GLOBALS["ART_VAR_PREFIXU"]."_MD_FORMMODE","حالت فرم");
+define($GLOBALS["ART_VAR_PREFIXU"]."_MD_BASIC","ساده");
+define($GLOBALS["ART_VAR_PREFIXU"]."_MD_ADVANCE","پیشرفته");
+define($GLOBALS["ART_VAR_PREFIXU"]."_MD_CUSTOM","دست‌ساز");
 
 define($GLOBALS["ART_VAR_PREFIXU"]."_MD_INVALID_SUBMIT","ارسال غیر مجاز است.زمان ارسال شما به پایان رسیده است. یک پشتیبان از نوشته شما ساخته شده‌است لطفا دوباره روی ارسال بزنید.");
 
-//define($GLOBALS["ART_VAR_PREFIXU"]."_MD_KEYWORD_ON", "کلمات کلیدی در");
+//define($GLOBALS["ART_VAR_PREFIXU"]."_MD_KEYWORD_ON","کلمات کلیدی در");
 define($GLOBALS["ART_VAR_PREFIXU"]."_MD_SUBCATEGORIES","زیر شاخه‌ها");
 
 //define($GLOBALS["ART_VAR_PREFIXU"]."_MD_TAG_LIST","فهرست تگ ها");
@@ -239,47 +239,47 @@ define($GLOBALS["ART_VAR_PREFIXU"]."_MD_WEEK_5","جمعه");
 define($GLOBALS["ART_VAR_PREFIXU"]."_MD_WEEK_6","شنبه");
 define($GLOBALS["ART_VAR_PREFIXU"]."_MD_WEEK_7","یک‌شنبه");
 
-define($GLOBALS["ART_VAR_PREFIXU"]."_MD_IMAGE_CAPTION", "شرح تصویر");
-define($GLOBALS["ART_VAR_PREFIXU"]."_MD_IMAGE_CURRENT", "تصویر فعلی");
+define($GLOBALS["ART_VAR_PREFIXU"]."_MD_IMAGE_CAPTION","شرح تصویر");
+define($GLOBALS["ART_VAR_PREFIXU"]."_MD_IMAGE_CURRENT","تصویر فعلی");
 
-define($GLOBALS["ART_VAR_PREFIXU"]."_MD_SPOTLIGHT", "مقاله امروز");
-define($GLOBALS["ART_VAR_PREFIXU"]."_MD_LIST", "فهرست مقاله ها");
+define($GLOBALS["ART_VAR_PREFIXU"]."_MD_SPOTLIGHT","مقاله امروز");
+define($GLOBALS["ART_VAR_PREFIXU"]."_MD_LIST","فهرست مقاله ها");
 
-define($GLOBALS["ART_VAR_PREFIXU"]."_MD_DRAFTS", "نسخه‌های اولیه");
+define($GLOBALS["ART_VAR_PREFIXU"]."_MD_DRAFTS","نسخه‌های اولیه");
 /*
-define($GLOBALS["ART_VAR_PREFIXU"]."_MD_TRANSFER", "انتقال");
-define($GLOBALS["ART_VAR_PREFIXU"]."_MD_TRANSFER_DESC", "انتقال مقاله به یک برنامه دیگر");
+define($GLOBALS["ART_VAR_PREFIXU"]."_MD_TRANSFER","انتقال");
+define($GLOBALS["ART_VAR_PREFIXU"]."_MD_TRANSFER_DESC","انتقال مقاله به یک برنامه دیگر");
 define($GLOBALS["ART_VAR_PREFIXU"]."_MD_TRANSFER_DONE","عملیات با موفقیت انجام شد: %s");
 
 define($GLOBALS["ART_VAR_PREFIXU"]."_MD_SELECTEDITOR","انتخاب ویرایشگر");
-define($GLOBALS["ART_VAR_PREFIXU"]."_MD_REQUIRED", "ضروری");
+define($GLOBALS["ART_VAR_PREFIXU"]."_MD_REQUIRED","ضروری");
 */
-define($GLOBALS["ART_VAR_PREFIXU"]."_MD_REMOVE", "حذف");
+define($GLOBALS["ART_VAR_PREFIXU"]."_MD_REMOVE","حذف");
 
-define($GLOBALS["ART_VAR_PREFIXU"]."_MD_SAVE_BEFORE_SWITCH", "قبل از رفتن به صفحه دیگر نوشته را ذخیره کنید");
-define($GLOBALS["ART_VAR_PREFIXU"]."_MD_NEWPAGE_AVAILABLE", "هر وقت یک صفحه را ذخیره کردید، میتوانید صفحات دیگر را اضافه کنید");
+define($GLOBALS["ART_VAR_PREFIXU"]."_MD_SAVE_BEFORE_SWITCH","قبل از رفتن به صفحه دیگر نوشته را ذخیره کنید");
+define($GLOBALS["ART_VAR_PREFIXU"]."_MD_NEWPAGE_AVAILABLE","هر وقت یک صفحه را ذخیره کردید، میتوانید صفحات دیگر را اضافه کنید");
 
-define($GLOBALS["ART_VAR_PREFIXU"]."_MD_MOVE_CATEGORYANDARTICLE", "تمام زیر شاخه‌ها و مقاله هایش به شاخه والد منتقل خواهند شد.");
-define($GLOBALS["ART_VAR_PREFIXU"]."_MD_DELETE_CATEGORYANDARTICLE", "تمام زیر شاخه‌ها و مقاله هایش حذف خواهند شد.");
-define($GLOBALS["ART_VAR_PREFIXU"]."_MD_CONFIG_CATEGORYANDARTICLE", "تنظیمات را می‌توانید از طریق تغییرات در فایل article/include/plugin.php \$GLOBALS[\"xoopsModuleConfig\"][\"category_delete_forced\"] انجام دهید");
+define($GLOBALS["ART_VAR_PREFIXU"]."_MD_MOVE_CATEGORYANDARTICLE","تمام زیر شاخه‌ها و مقاله هایش به شاخه والد منتقل خواهند شد.");
+define($GLOBALS["ART_VAR_PREFIXU"]."_MD_DELETE_CATEGORYANDARTICLE","تمام زیر شاخه‌ها و مقاله هایش حذف خواهند شد.");
+define($GLOBALS["ART_VAR_PREFIXU"]."_MD_CONFIG_CATEGORYANDARTICLE","تنظیمات را می‌توانید از طریق تغییرات در فایل article/include/plugin.php \$GLOBALS[\"xoopsModuleConfig\"][\"category_delete_forced\"] انجام دهید");
 
-//define($GLOBALS["ART_VAR_PREFIXU"]."_MD_CATEGORY1_CAN_NOT_DELETE", "شاخه  با شماره cat_id=1 را نمیتوان حذف کرد");
+//define($GLOBALS["ART_VAR_PREFIXU"]."_MD_CATEGORY1_CAN_NOT_DELETE","شاخه  با شماره cat_id=1 را نمیتوان حذف کرد");
 
-define($GLOBALS["ART_VAR_PREFIXU"]."_MD_PARENT_CATEGORY", "شاخه بالاسری");
-define($GLOBALS["ART_VAR_PREFIXU"]."_MD_ENTRY_SELECT", "انتخاب مقاله ورودی");
-define($GLOBALS["ART_VAR_PREFIXU"]."_MD_ARTICLE_SELECT", "انتخاب مقاله");
+define($GLOBALS["ART_VAR_PREFIXU"]."_MD_PARENT_CATEGORY","شاخه بالاسری");
+define($GLOBALS["ART_VAR_PREFIXU"]."_MD_ENTRY_SELECT","انتخاب مقاله ورودی");
+define($GLOBALS["ART_VAR_PREFIXU"]."_MD_ARTICLE_SELECT","انتخاب مقاله");
 
-define($GLOBALS["ART_VAR_PREFIXU"]."_MD_DEFAULT", "پیش فرض");
-define($GLOBALS["ART_VAR_PREFIXU"]."_MD_DESC", "نزولی");
-define($GLOBALS["ART_VAR_PREFIXU"]."_MD_ASC", "صعودی");
-define($GLOBALS["ART_VAR_PREFIXU"]."_MD_SORTORDER", "چیده شده بر اساس %1\$s در %2\$s"); // sort, order
-define($GLOBALS["ART_VAR_PREFIXU"]."_MD_UPDATE_TIME", "زمان به روز شدن");
-define($GLOBALS["ART_VAR_PREFIXU"]."_MD_IMAGE_ARTICLE", "تصویر اسپات لایت مقاله");
-define($GLOBALS["ART_VAR_PREFIXU"]."_MD_IMAGE_UPLOADED", "تصویر بارگذاری شده");
+define($GLOBALS["ART_VAR_PREFIXU"]."_MD_DEFAULT","پیش فرض");
+define($GLOBALS["ART_VAR_PREFIXU"]."_MD_DESC","نزولی");
+define($GLOBALS["ART_VAR_PREFIXU"]."_MD_ASC","صعودی");
+define($GLOBALS["ART_VAR_PREFIXU"]."_MD_SORTORDER","چیده شده بر اساس %1\$s در %2\$s"); // sort, order
+define($GLOBALS["ART_VAR_PREFIXU"]."_MD_UPDATE_TIME","زمان به روز شدن");
+define($GLOBALS["ART_VAR_PREFIXU"]."_MD_IMAGE_ARTICLE","تصویر اسپات لایت مقاله");
+define($GLOBALS["ART_VAR_PREFIXU"]."_MD_IMAGE_UPLOADED","تصویر بارگذاری شده");
 
-define($GLOBALS["ART_VAR_PREFIXU"]."_MD_HELP", "کمک");
-define($GLOBALS["ART_VAR_PREFIXU"]."_MD_HELP_PUBLISH_ARTICLE", "متن فعلی را ذخیره کرده و ارسال کنید تا در سایت منتشر شود (برای انتشار در سایت ممکن است با توجه به دسترسی‌ها تایید مدیر لازم باشد)");
-define($GLOBALS["ART_VAR_PREFIXU"]."_MD_HELP_SAVE", "متن فعلی را ذخیره کن");
-define($GLOBALS["ART_VAR_PREFIXU"]."_MD_HELP_SAVE_EDIT", "ذخیره کردن متن فعلی و بازگشت به صفحه ویرایش (برای انتشار مقاله، اگر هنوز منتشر نشده است،لازم است مقاله را ارسال کنید تا منتشر شود)");
-define($GLOBALS["ART_VAR_PREFIXU"]."_MD_HELP_SAVE_DRAFT", "ذخیره کردن متن فعلی به عنوان یک چک‌نویس خصوصی (فقط خود نویسنده آن را می‌بیند، اگر تاریخ انقضا برای مقاله تعیین شده باشد در آن تاریخ از سایت حذف خواهد شد)");
+define($GLOBALS["ART_VAR_PREFIXU"]."_MD_HELP","کمک");
+define($GLOBALS["ART_VAR_PREFIXU"]."_MD_HELP_PUBLISH_ARTICLE","متن فعلی را ذخیره کرده و ارسال کنید تا در سایت منتشر شود (برای انتشار در سایت ممکن است با توجه به دسترسی‌ها تایید مدیر لازم باشد)");
+define($GLOBALS["ART_VAR_PREFIXU"]."_MD_HELP_SAVE","متن فعلی را ذخیره کن");
+define($GLOBALS["ART_VAR_PREFIXU"]."_MD_HELP_SAVE_EDIT","ذخیره کردن متن فعلی و بازگشت به صفحه ویرایش (برای انتشار مقاله، اگر هنوز منتشر نشده است،لازم است مقاله را ارسال کنید تا منتشر شود)");
+define($GLOBALS["ART_VAR_PREFIXU"]."_MD_HELP_SAVE_DRAFT","ذخیره کردن متن فعلی به عنوان یک چک‌نویس خصوصی (فقط خود نویسنده آن را می‌بیند، اگر تاریخ انقضا برای مقاله تعیین شده باشد در آن تاریخ از سایت حذف خواهد شد)");
 ?>

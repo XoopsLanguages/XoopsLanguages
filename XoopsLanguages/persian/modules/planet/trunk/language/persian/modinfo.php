@@ -16,10 +16,10 @@ if(defined($GLOBALS["VAR_PREFIXU"]."_LANG_EN_MODINFO")) return; define($GLOBALS[
 define($GLOBALS["VAR_PREFIXU"]."_MI_NAME","سیاره");
 define($GLOBALS["VAR_PREFIXU"]."_MI_DESC","خوراک سیاره برای زوپس !!");
 
-define($GLOBALS["VAR_PREFIXU"]."_MI_PAGE_INDEX", "صفحه اصلی");
-define($GLOBALS["VAR_PREFIXU"]."_MI_PAGE_ARTICLE", "مطالب");
-define($GLOBALS["VAR_PREFIXU"]."_MI_PAGE_ARCHIVE", "آرشیو");
-define($GLOBALS["VAR_PREFIXU"]."_MI_PAGE_LIST", "لیست");
+define($GLOBALS["VAR_PREFIXU"]."_MI_PAGE_INDEX","صفحه اصلی");
+define($GLOBALS["VAR_PREFIXU"]."_MI_PAGE_ARTICLE","مطالب");
+define($GLOBALS["VAR_PREFIXU"]."_MI_PAGE_ARCHIVE","آرشیو");
+define($GLOBALS["VAR_PREFIXU"]."_MI_PAGE_LIST","لیست");
 
 define($GLOBALS["VAR_PREFIXU"]."_MI_SUBMIT","ارسال");
 define($GLOBALS["VAR_PREFIXU"]."_MI_ARTICLE","مطالب");
@@ -29,15 +29,15 @@ define($GLOBALS["VAR_PREFIXU"]."_MI_CATEGORY_DESC","");
 define($GLOBALS["VAR_PREFIXU"]."_MI_BLOG","بلاگ ها");
 define($GLOBALS["VAR_PREFIXU"]."_MI_BLOG_DESC","");
 
-define($GLOBALS["VAR_PREFIXU"]."_MI_THEMESET", "انتخاب قالب");
-define($GLOBALS["VAR_PREFIXU"]."_MI_THEMESET_DESC", "Module-wide, select '"._NONE."' will use site-wide theme");
+define($GLOBALS["VAR_PREFIXU"]."_MI_THEMESET","انتخاب قالب");
+define($GLOBALS["VAR_PREFIXU"]."_MI_THEMESET_DESC","Module-wide, select '"._NONE."' will use site-wide theme");
 
 define($GLOBALS["VAR_PREFIXU"]."_MI_TIMEFORMAT","شکل نمایش تاریخ");
 define($GLOBALS["VAR_PREFIXU"]."_MI_TIMEFORMAT_DESC","");
 define($GLOBALS["VAR_PREFIXU"]."_MI_TIMEFORMAT_CUSTOM","عادی");
 
-define($GLOBALS["VAR_PREFIXU"]."_MI_DISPLAY_SUMMARY", "طول متن خلاصه که درلیست مطالب نمایش داده میشود");
-define($GLOBALS["VAR_PREFIXU"]."_MI_DISPLAY_SUMMARY_DESC", "0 برای متن کامل");
+define($GLOBALS["VAR_PREFIXU"]."_MI_DISPLAY_SUMMARY","طول متن خلاصه که درلیست مطالب نمایش داده میشود");
+define($GLOBALS["VAR_PREFIXU"]."_MI_DISPLAY_SUMMARY_DESC","0 برای متن کامل");
 
 define($GLOBALS["VAR_PREFIXU"]."_MI_DODEBUG","فعال کردن خطا گیری");
 define($GLOBALS["VAR_PREFIXU"]."_MI_DODEBUG_DESC","");
@@ -88,36 +88,36 @@ define($GLOBALS["VAR_PREFIXU"]."_MI_ADMENU_ARTICLE","مطالب");
 define($GLOBALS["VAR_PREFIXU"]."_MI_ADMENU_BLOCK","بلاک ها");
 define($GLOBALS["VAR_PREFIXU"]."_MI_ADMENU_ABOUT","درباره");
 
-define($GLOBALS["VAR_PREFIXU"]."_MI_GLOBAL_NOTIFY", "سراسری");
-define($GLOBALS["VAR_PREFIXU"]."_MI_GLOBAL_NOTIFYDSC", "گزینه های اطلاع رسانی سراسری");
-define($GLOBALS["VAR_PREFIXU"]."_MI_BLOG_NOTIFY", "وبلاگ");
-define($GLOBALS["VAR_PREFIXU"]."_MI_BLOG_NOTIFYDSC", "گزینه های آگاهی رسانی وبلاگ");
-define($GLOBALS["VAR_PREFIXU"]."_MI_ARTICLE_NOTIFY", "مطالب");
-define($GLOBALS["VAR_PREFIXU"]."_MI_ARTICLE_NOTIFYDSC", "گزینه های آگاهی رسانی مطالب");
-define($GLOBALS["VAR_PREFIXU"]."_MI_GLOBAL_BLOGSUBMIT_NOTIFY", "ارسال مطلب");
-define($GLOBALS["VAR_PREFIXU"]."_MI_GLOBAL_BLOGSUBMIT_NOTIFYCAP", "برای هر وبلاگ منتظر تایید من را آگاه کن");
-define($GLOBALS["VAR_PREFIXU"]."_MI_GLOBAL_BLOGSUBMIT_NOTIFYDSC", "دریافت آگاهی وقتی یک وبلاگ جدید ارسال شد");
-define($GLOBALS["VAR_PREFIXU"]."_MI_GLOBAL_BLOGSUBMIT_NOTIFYSBJ", "[{X_SITENAME}] {X_MODULE} آگاهی رسانی خودکار : ارسال وبلاگ جدید");
-define($GLOBALS["VAR_PREFIXU"]."_MI_GLOBAL_NEWBLOG_NOTIFY", "وبلاگ جدید");
-define($GLOBALS["VAR_PREFIXU"]."_MI_GLOBAL_NEWBLOG_NOTIFYCAP", "وقتی وبلاگ جدیدی منتشر شد من را آگاه کن");
-define($GLOBALS["VAR_PREFIXU"]."_MI_GLOBAL_NEWBLOG_NOTIFYDSC", "دریافت آگاهی وقتی که یک وبلاگ جدید منتشر شد");
-define($GLOBALS["VAR_PREFIXU"]."_MI_GLOBAL_NEWBLOG_NOTIFYSBJ", "[{X_SITENAME}] {X_MODULE} آگاهی رسانی خودکار : انتشار وبلاگ جدید");
-define($GLOBALS["VAR_PREFIXU"]."_MI_GLOBAL_ARTICLEMONITOR_NOTIFY", "نمایش مطلب");
-define($GLOBALS["VAR_PREFIXU"]."_MI_GLOBAL_ARTICLEMONITOR_NOTIFYCAP", "من را برای تمام اعمال انجام شده بر روی مطالب آگاه کن");
-define($GLOBALS["VAR_PREFIXU"]."_MI_GLOBAL_ARTICLEMONITOR_NOTIFYDSC", "دریافت آگاهی زمانی که هر نوع عملی بر روی مطالب من انجام شد");
-define($GLOBALS["VAR_PREFIXU"]."_MI_GLOBAL_ARTICLEMONITOR_NOTIFYSBJ", "[{X_SITENAME}] {X_MODULE} آگاهی رسانی خودکار : عمل جدید");
+define($GLOBALS["VAR_PREFIXU"]."_MI_GLOBAL_NOTIFY","سراسری");
+define($GLOBALS["VAR_PREFIXU"]."_MI_GLOBAL_NOTIFYDSC","گزینه های اطلاع رسانی سراسری");
+define($GLOBALS["VAR_PREFIXU"]."_MI_BLOG_NOTIFY","وبلاگ");
+define($GLOBALS["VAR_PREFIXU"]."_MI_BLOG_NOTIFYDSC","گزینه های آگاهی رسانی وبلاگ");
+define($GLOBALS["VAR_PREFIXU"]."_MI_ARTICLE_NOTIFY","مطالب");
+define($GLOBALS["VAR_PREFIXU"]."_MI_ARTICLE_NOTIFYDSC","گزینه های آگاهی رسانی مطالب");
+define($GLOBALS["VAR_PREFIXU"]."_MI_GLOBAL_BLOGSUBMIT_NOTIFY","ارسال مطلب");
+define($GLOBALS["VAR_PREFIXU"]."_MI_GLOBAL_BLOGSUBMIT_NOTIFYCAP","برای هر وبلاگ منتظر تایید من را آگاه کن");
+define($GLOBALS["VAR_PREFIXU"]."_MI_GLOBAL_BLOGSUBMIT_NOTIFYDSC","دریافت آگاهی وقتی یک وبلاگ جدید ارسال شد");
+define($GLOBALS["VAR_PREFIXU"]."_MI_GLOBAL_BLOGSUBMIT_NOTIFYSBJ","[{X_SITENAME}] {X_MODULE} آگاهی رسانی خودکار : ارسال وبلاگ جدید");
+define($GLOBALS["VAR_PREFIXU"]."_MI_GLOBAL_NEWBLOG_NOTIFY","وبلاگ جدید");
+define($GLOBALS["VAR_PREFIXU"]."_MI_GLOBAL_NEWBLOG_NOTIFYCAP","وقتی وبلاگ جدیدی منتشر شد من را آگاه کن");
+define($GLOBALS["VAR_PREFIXU"]."_MI_GLOBAL_NEWBLOG_NOTIFYDSC","دریافت آگاهی وقتی که یک وبلاگ جدید منتشر شد");
+define($GLOBALS["VAR_PREFIXU"]."_MI_GLOBAL_NEWBLOG_NOTIFYSBJ","[{X_SITENAME}] {X_MODULE} آگاهی رسانی خودکار : انتشار وبلاگ جدید");
+define($GLOBALS["VAR_PREFIXU"]."_MI_GLOBAL_ARTICLEMONITOR_NOTIFY","نمایش مطلب");
+define($GLOBALS["VAR_PREFIXU"]."_MI_GLOBAL_ARTICLEMONITOR_NOTIFYCAP","من را برای تمام اعمال انجام شده بر روی مطالب آگاه کن");
+define($GLOBALS["VAR_PREFIXU"]."_MI_GLOBAL_ARTICLEMONITOR_NOTIFYDSC","دریافت آگاهی زمانی که هر نوع عملی بر روی مطالب من انجام شد");
+define($GLOBALS["VAR_PREFIXU"]."_MI_GLOBAL_ARTICLEMONITOR_NOTIFYSBJ","[{X_SITENAME}] {X_MODULE} آگاهی رسانی خودکار : عمل جدید");
 
-define($GLOBALS["VAR_PREFIXU"]."_MI_BLOG_BLOGAPPROVE_NOTIFY", "تایید وبلاگ");
-define($GLOBALS["VAR_PREFIXU"]."_MI_BLOG_BLOGAPPROVE_NOTIFYCAP", "وقتی این وبلاگ تایید شد من را آگاه کن");
-define($GLOBALS["VAR_PREFIXU"]."_MI_BLOG_BLOGAPPROVE_NOTIFYDSC", "دریافت آگاهی وقتی این وبلاگ تایید شد");
-define($GLOBALS["VAR_PREFIXU"]."_MI_BLOG_BLOGAPPROVE_NOTIFYSBJ", "[{X_SITENAME}] {X_MODULE} آگاهی رسانی خودکار : تایید وبلاگ");
-define($GLOBALS["VAR_PREFIXU"]."_MI_BLOG_BLOGUPDATE_NOTIFY", "به روز شدن وبلاگ");
-define($GLOBALS["VAR_PREFIXU"]."_MI_BLOG_BLOGUPDATE_NOTIFYCAP", "وقتی این وبلاگ به روز شد من را آگاه کن");
-define($GLOBALS["VAR_PREFIXU"]."_MI_BLOG_BLOGUPDATE_NOTIFYDSC", "دریافت آگاهی وقتی که این وبلاگ به روز شد");
-define($GLOBALS["VAR_PREFIXU"]."_MI_BLOG_BLOGUPDATE_NOTIFYSBJ", "[{X_SITENAME}] {X_MODULE} آگاهی رسانی خودکار : به روز شدن وبلاگ جدید");
+define($GLOBALS["VAR_PREFIXU"]."_MI_BLOG_BLOGAPPROVE_NOTIFY","تایید وبلاگ");
+define($GLOBALS["VAR_PREFIXU"]."_MI_BLOG_BLOGAPPROVE_NOTIFYCAP","وقتی این وبلاگ تایید شد من را آگاه کن");
+define($GLOBALS["VAR_PREFIXU"]."_MI_BLOG_BLOGAPPROVE_NOTIFYDSC","دریافت آگاهی وقتی این وبلاگ تایید شد");
+define($GLOBALS["VAR_PREFIXU"]."_MI_BLOG_BLOGAPPROVE_NOTIFYSBJ","[{X_SITENAME}] {X_MODULE} آگاهی رسانی خودکار : تایید وبلاگ");
+define($GLOBALS["VAR_PREFIXU"]."_MI_BLOG_BLOGUPDATE_NOTIFY","به روز شدن وبلاگ");
+define($GLOBALS["VAR_PREFIXU"]."_MI_BLOG_BLOGUPDATE_NOTIFYCAP","وقتی این وبلاگ به روز شد من را آگاه کن");
+define($GLOBALS["VAR_PREFIXU"]."_MI_BLOG_BLOGUPDATE_NOTIFYDSC","دریافت آگاهی وقتی که این وبلاگ به روز شد");
+define($GLOBALS["VAR_PREFIXU"]."_MI_BLOG_BLOGUPDATE_NOTIFYSBJ","[{X_SITENAME}] {X_MODULE} آگاهی رسانی خودکار : به روز شدن وبلاگ جدید");
 
-define($GLOBALS["VAR_PREFIXU"]."_MI_ARTICLE_ARTICLEMONITOR_NOTIFY", "نمایش مطلب");
-define($GLOBALS["VAR_PREFIXU"]."_MI_ARTICLE_ARTICLEMONITOR_NOTIFYCAP", "وقتی هر عملی بر روی این مطلب انجام شد من را آگاه کن");
-define($GLOBALS["VAR_PREFIXU"]."_MI_ARTICLE_ARTICLEMONITOR_NOTIFYDSC", "ارسال آگاهی وقتی که هر عملی بر روی این مطلب انجام شد");
-define($GLOBALS["VAR_PREFIXU"]."_MI_ARTICLE_ARTICLEMONITOR_NOTIFYSBJ", "[{X_SITENAME}] {X_MODULE} آگاهی رسانی خودکار : انتشار مطلب جدید");
+define($GLOBALS["VAR_PREFIXU"]."_MI_ARTICLE_ARTICLEMONITOR_NOTIFY","نمایش مطلب");
+define($GLOBALS["VAR_PREFIXU"]."_MI_ARTICLE_ARTICLEMONITOR_NOTIFYCAP","وقتی هر عملی بر روی این مطلب انجام شد من را آگاه کن");
+define($GLOBALS["VAR_PREFIXU"]."_MI_ARTICLE_ARTICLEMONITOR_NOTIFYDSC","ارسال آگاهی وقتی که هر عملی بر روی این مطلب انجام شد");
+define($GLOBALS["VAR_PREFIXU"]."_MI_ARTICLE_ARTICLEMONITOR_NOTIFYSBJ","[{X_SITENAME}] {X_MODULE} آگاهی رسانی خودکار : انتشار مطلب جدید");
 ?>

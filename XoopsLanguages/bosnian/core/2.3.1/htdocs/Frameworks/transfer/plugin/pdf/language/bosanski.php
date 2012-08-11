@@ -14,6 +14,6 @@
  * @subpackage      transfer
  */
  
-define("_MD_TRANSFER_PDF", "PDF");
-define("_MD_TRANSFER_PDF_DESC", "Kreiraj PDF");
+define("_MD_TRANSFER_PDF","PDF");
+define("_MD_TRANSFER_PDF_DESC","Kreiraj PDF");
 ?>

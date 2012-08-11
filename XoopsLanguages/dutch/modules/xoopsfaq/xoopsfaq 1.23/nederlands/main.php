@@ -24,18 +24,18 @@ defined( 'XOOPS_ROOT_PATH' ) or die( 'Restricted access' );
 /**
  * Xoops FAQ Main Page
  */
-define( '_MD_XOOPSFAQ_FAQ', 'FAQ' );
-define( '_MD_XOOPSFAQ_TOC', 'Inhoudsopgave' );
-//define( '_MD_XOOPSFAQ_DOCS', 'FAQ' );
-define( '_MD_XOOPSFAQ_MAIN', 'Overzicht' );
-define( '_MD_XOOPSFAQ_BACKTOTOP', 'Terug naaar boven' );
-define( '_MD_XOOPSFAQ_BACKTOINDEX', 'Terug naar overzicht' );
+define('_MD_XOOPSFAQ_FAQ','FAQ' );
+define('_MD_XOOPSFAQ_TOC','Inhoudsopgave' );
+//define('_MD_XOOPSFAQ_DOCS','FAQ' );
+define('_MD_XOOPSFAQ_MAIN','Overzicht' );
+define('_MD_XOOPSFAQ_BACKTOTOP','Terug naaar boven' );
+define('_MD_XOOPSFAQ_BACKTOINDEX','Terug naar overzicht' );
 
 /**
  * Admin Defines
  */
-define("_MD_XOOPSFAQ_XOOPSFAQCONF", "Xoops FAQ overzicht");
-define("_MD_XOOPSFAQ_TOTALPUBLISHED", "Totaql gepubliseerde vragen: %s");
-define("_MD_XOOPSFAQ_TOTALNONACTIVE", "Totaal niet-actieve vragen: %s");
-define("_MD_XOOPSFAQ_TOTALFAQS", "Totaal vragen: %s");
-define("_MD_XOOPSFAQ_TOTALCATEGORIES", "Totaal Categoriën: %s");
+define("_MD_XOOPSFAQ_XOOPSFAQCONF","Xoops FAQ overzicht");
+define("_MD_XOOPSFAQ_TOTALPUBLISHED","Totaql gepubliseerde vragen: %s");
+define("_MD_XOOPSFAQ_TOTALNONACTIVE","Totaal niet-actieve vragen: %s");
+define("_MD_XOOPSFAQ_TOTALFAQS","Totaal vragen: %s");
+define("_MD_XOOPSFAQ_TOTALCATEGORIES","Totaal Categoriën: %s");

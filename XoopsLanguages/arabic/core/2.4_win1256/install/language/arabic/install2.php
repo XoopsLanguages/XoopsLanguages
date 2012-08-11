@@ -5,37 +5,37 @@
 // Translator: Arab XOOPS Team
 
 // License
-define('LICENSE_NOT_WRITEABLE', 'ãáÝ ÇáÊÑÎíÕ %s . <br/><font style="colour:#ff0000">ÇÌÚá ÇáãáÝ ../include/license.php ÞÇÈá ááßÊÇÈÉ Úáíå</font>');
-define('LICENSE_IS_WRITEABLE', 'ãáÝ ÇáÊÑÎíÕ %s');
+define('LICENSE_NOT_WRITEABLE','ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ %s . <br/><font style="colour:#ff0000">ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ../include/license.php ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½</font>');
+define('LICENSE_IS_WRITEABLE','ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ %s');
 
-define("_INSTALL_WEBMASTER","ÇáãÏíÑ");
-define("_INSTALL_WEBMASTERD","ãÌãæÚÉ ãÏÑÇÁ ÇáãæÞÚ");
-define("_INSTALL_REGUSERS","ÇáÃÚÖÇÁ");
-define("_INSTALL_REGUSERSD","ãÌãæÚÉ ÃÚÖÇÁ ÇáãæÞÚ");
-define("_INSTALL_ANONUSERS","ÇáÒæÇÑ");
-define("_INSTALL_ANONUSERSD","ãÌãæÚÉ ÒæÇÑ ÇáãæÞÚ");
+define("_INSTALL_WEBMASTER","ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
+define("_INSTALL_WEBMASTERD","ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
+define("_INSTALL_REGUSERS","ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
+define("_INSTALL_REGUSERSD","ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
+define("_INSTALL_ANONUSERS","ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
+define("_INSTALL_ANONUSERSD","ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
 /**
 * New Group types
 */
-define('_INSTALL_BANNEDUSERS', 'ÇáãæÞæÝíä');
-define('_INSTALL_BANNEDUSERSD', 'ãÌãæÚÉ ÇáÃÚÖÇÁ ÇáãæÞæÝíä');
-define('_INSTALL_MODERATORUSERS', 'ÇáãÔÑÝíä');
-define('_INSTALL_MODERATORUSERSD', 'ãÌãæÚÉ ÇáãÔÑÝíä Úáì ÇáãæÞÚ');
-define('_INSTALL_SUBMITTERUSERS', 'ÇáßÊøÇÈ');
-define('_INSTALL_SUBMITTERUSERSD', 'ãÌãæÚÉ ÇáÃÚÖÇÁ ÇáãÓãæÍ áåã ÈÅÑÓÇá ÃÎÈÇÑ æ ãæÇÏ ááãæÞÚ');
-define('_INSTALL_DEVELOPEUSERS', 'ÇáãØæÑæä');
-define('_INSTALL_DEVELOPEUSERSD', 'áÏì åÐå ÇáãÌãæÚÉ ÕáÇÍíÇÊ ÇáãØæÑ æ íãßäå ãÔÇåÏÉ ÑÓÇÆá ÇáÎØÃ');
+define('_INSTALL_BANNEDUSERS','ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½');
+define('_INSTALL_BANNEDUSERSD','ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½');
+define('_INSTALL_MODERATORUSERS','ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½');
+define('_INSTALL_MODERATORUSERSD','ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½');
+define('_INSTALL_SUBMITTERUSERS','ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½');
+define('_INSTALL_SUBMITTERUSERSD','ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½');
+define('_INSTALL_DEVELOPEUSERS','ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½');
+define('_INSTALL_DEVELOPEUSERSD','ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½');
 
-define("_INSTALL_L165","ÇáãæÞÚ ãÛáÞ ÍÇáíÇð ááÕíÇäÉ¡ ÇáÑÌÇÁ ÇáÒíÇÑÉ Ýí æÞÊ áÇÍÞ.");
-define("_INSTALL_ANON", "ÒÇÆÑ");
-define("_INSTALL_DISCLMR", "ÇáÅáÊÒÇã ÈÇáÂÏÇÈ ÇáÚÇãÉ:
-- íÌÈ Úáì ÇáÚÖæ ÇáãÓÌá Ãä íáÊÒã ÈÍÝÙ ÍÞæÞ ÇáÛíÑ æÚÏã äÔÑ  Ãæ äÓÎ Ãí Ôí ÛíÑ ãÑÎÕ Èå ãä ÇáßÇÊÈ.
-- áíÓ ááÚÖæ ÇáãÓÌá ÇáÍÞ Ýí ãØÇáÈÉ ÕÇÍÈ ÇáãæÞÚ ÈÃí þÔí äÙíÑ ßÊÇÈÇÊå.
-- Åä ãÏíÑ åÐÇ ÇáãæÞÚ áåã ÇáÍÞ Ýí ÅÒÇáÉ ¡ æÊÍÑíÑ ¡æäÞá Ãæ ÅÛáÇÞ Åí ãæÖæÚ Ýí Åí æÞÊ íÑÇå ãäÇÓÈÇ Ïæä ÅÔÚÇÑßã ÈÐáß
-æ ááÚáã  Åä ÇáãæÞÚ íÓÊÎÏã äÙÇã ÇáßæßíÒ áÊÎÒíä ÇáãÚáæãÇÊ Úáì ÇáÍÇÓÈ ¡ åÐÇ ÇáßæßíÒ áÇ íÍÊæí Úáì ÃíÉ ãä ÇáãÚáæãÇÊ
- ÇáãÏÎáÉ  ãäßã  Ýí ÃÚáÇå ¡ æÊÓÊÎÏã ÝÞØ áÊÍÓíä ÇáÊÕÝÍ æÊÓÑíÚå æÅÓÊÎÏÇã  ÚäæÇä ÇáÈÑíÏ ÇáÇáßÊÑæäí ÝÞØ áÊÃßíÏ  ÊÓÌíáßã æÅÑÓÇá  ÇáÊÝÇÕíá æßáãÉ ÇáÓÑ .
-ãáÇÍÙÉ : Åä ãÇ íäÔÑ Ýí ÇáãæÞÚ áÇ íÚÈÑ ÈÇáÖÑæÑÉ Úä ÑÃí ÃÕÍÇÈ ÇáãæÞÚ¡ Èá åí ÂÑÇÁ ÇáßÊÇÈ ÃäÝÓåã æåã íÊÍãáæä ÊÈÚÉ
- ÂÑÇÆåã¡ æÊÞÚ Úáíåã  ãÓÄæáíÉ ÇáÏÝÇÚ Úä ÃÝßÇÑåã æßáãÇÊåã æãÇ íÊÑÊÈ ÚáíåÇ ãä äÊÇÆÌ.
+define("_INSTALL_L165","ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É¡ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.");
+define("_INSTALL_ANON","ï¿½ï¿½ï¿½ï¿½");
+define("_INSTALL_DISCLMR","ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½:
+- ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½  ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.
+- ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.
+- ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½  ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½  ï¿½ï¿½ï¿½ï¿½  ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½  ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½  ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½  ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ .
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ : ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ú¡ ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½  ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½.
 
-ÈÇáÖÛØ Úáì ÒÑ ÇáÊÓÌíá Ýí ÇáÃÓÝá ÝÃäÊ ãæÇÝÞ Úáì ÇáÅáÊÒÇã ÈåÐå ÇáÔÑæØ.");
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.");
 ?>

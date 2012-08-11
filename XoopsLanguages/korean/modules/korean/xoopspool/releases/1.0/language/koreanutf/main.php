@@ -35,17 +35,17 @@ define("_PL_TOTALVOTERS","총 투표자 수: %s");
 
 //%%%%%%	File Name index.php 	%%%%%
 define("_PL_POLLSLIST","투표 리스트");
-define("_PL_ALREADYVOTED", "죄송합니다만 투표는 1회로 제한되어 있습니다.");
+define("_PL_ALREADYVOTED","죄송합니다만 투표는 1회로 제한되어 있습니다.");
 define("_PL_THANKSFORVOTE","투표해 주셔서 정말로 감사합니다.");
-define("_PL_SORRYEXPIRED", "이 투표는 이미 종료된 상태입니다.");
-define("_PL_YOURPOLLAT", "%s 님, 투표가 종료되었습니다.(%s)"); // 1st %s is user name, 2nd %s is site name
-define("_PL_PREV", "이전 페이지");
-define("_PL_NEXT", "다음 페이지");
-define("_PL_POLLQUESTION", "질문");
-define("_PL_VOTERS", "총 투표자 수");
-define("_PL_VOTES", "총 투표 수");
-define("_PL_EXPIRATION", "종료일시");
-define("_PL_EXPIRED", "종료");
+define("_PL_SORRYEXPIRED","이 투표는 이미 종료된 상태입니다.");
+define("_PL_YOURPOLLAT","%s 님, 투표가 종료되었습니다.(%s)"); // 1st %s is user name, 2nd %s is site name
+define("_PL_PREV","이전 페이지");
+define("_PL_NEXT","다음 페이지");
+define("_PL_POLLQUESTION","질문");
+define("_PL_VOTERS","총 투표자 수");
+define("_PL_VOTES","총 투표 수");
+define("_PL_EXPIRATION","종료일시");
+define("_PL_EXPIRED","종료");
 
 //%%%%%%	File Name xoopspollrenderer.php 	%%%%%
 // %s represents date

@@ -17,18 +17,18 @@ define('_AM_TITLEPATTERN','Uddrag med titlen <br /><span style="font-weight:norm
 define('_AM_TITLEEXCLUDE','Ekskluder med titlen<br /><span style="font-weight:normal;">(perl regex) Normally left blank</span>');
 define('_AM_LINKPATTERN','Uddrag med link <br /><span style="font-weight:normal;">Skriv her et regulært udtryk for perl fx) /business/<br />Efterlad normalt blankt</span>');
 define('_AM_LINKEXCLUDE','Ekskluder med link <br /><span style="font-weight:normal;">(perl regex) Normally left blank</span>');
-define('_AM_ORDER', 'Rækkefølge');
-define('_AM_ENCODING', 'Encoding');
-define('_AM_CACHETIME', 'Hent Cache');
-define('_AM_TIMEOUT', 'Time-out, når der hentes');
-define('_AM_ALLOWHTML', 'Tillad at vise HTML inden i XML<br /><span style="font-weight:normal;">Du bør ikke tillade HTML inden i en RSS/atom, der genereres fra indlæg fra besøgende på webstedet.</span>');
-define('_AM_MAINSETT', 'Indstillinger');
-define('_AM_BLOCKSETT', 'Blok indstillinger');
-define('_AM_DISPIMG', 'Vis billed');
-define('_AM_DISPFULL', 'Vis beskrivelse og udgivelses datoer');
-define('_AM_DISPMAX', 'Maks emner at vise');
-define('_AM_DISPLAY', 'Hoved ');
-define('_AM_ASBLOCK', 'Blok');
+define('_AM_ORDER','Rækkefølge');
+define('_AM_ENCODING','Encoding');
+define('_AM_CACHETIME','Hent Cache');
+define('_AM_TIMEOUT','Time-out, når der hentes');
+define('_AM_ALLOWHTML','Tillad at vise HTML inden i XML<br /><span style="font-weight:normal;">Du bør ikke tillade HTML inden i en RSS/atom, der genereres fra indlæg fra besøgende på webstedet.</span>');
+define('_AM_MAINSETT','Indstillinger');
+define('_AM_BLOCKSETT','Blok indstillinger');
+define('_AM_DISPIMG','Vis billed');
+define('_AM_DISPFULL','Vis beskrivelse og udgivelses datoer');
+define('_AM_DISPMAX','Maks emner at vise');
+define('_AM_DISPLAY','Hoved ');
+define('_AM_ASBLOCK','Blok');
 define('_AM_ADDHEADL','Tilføj overskrift');
 define('_AM_URLEDFXML','URI påRSS eller ATOM');
 define('_AM_SYNDICATIONTYPE','Typen på feed');
@@ -37,10 +37,10 @@ define('_AM_SAVEAS','Gem som');
 define('_AM_UPDATE','Opdatér og hent igen');
 define('_AM_EDITHEADL','Redigér overskrift');
 define('_AM_WANTDEL','Er du sikker på at du vil slette overskriften for %s?');
-define('_AM_INVALIDID', 'Ugyldig ID');
-define('_AM_OBJECTNG', 'Emnet fandtes ikke');
-define('_AM_FAILUPDATE', 'Det lykkedes ikke at gemme data i database for overskrift %s');
-define('_AM_FAILDELETE', 'Det lykkedes ikke at slette data i datebasen for overskrift %s');
+define('_AM_INVALIDID','Ugyldig ID');
+define('_AM_OBJECTNG','Emnet fandtes ikke');
+define('_AM_FAILUPDATE','Det lykkedes ikke at gemme data i database for overskrift %s');
+define('_AM_FAILDELETE','Det lykkedes ikke at slette data i datebasen for overskrift %s');
 }
 
 ?>

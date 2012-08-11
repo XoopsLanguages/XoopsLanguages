@@ -49,13 +49,13 @@ define("_MB_SHOUTBOX_CLEAR","پاک");
 define("_MB_SHOUTBOX_BBCODEON","کدهای زوپس=روشن");
 define("_MB_SHOUTBOX_BBCODEOFF","کد های زوپس=خاموش");
 define("_MB_SHOUTBOX_AUTOREFRESH","رفرش اوتو ماتیک");
-define("_MB_SHOUTBOX_REFRESH", "رفرش");
-define("_MB_SHOUTBOX_POPUP", "پاپ آپ");
+define("_MB_SHOUTBOX_REFRESH","رفرش");
+define("_MB_SHOUTBOX_POPUP","پاپ آپ");
 
-define("_MB_SHOUTBOX_SHOUT_TITLE", "محل نوشتن");
-define("_MB_SHOUTBOX_NICK", "نام انتخابی");
+define("_MB_SHOUTBOX_SHOUT_TITLE","محل نوشتن");
+define("_MB_SHOUTBOX_NICK","نام انتخابی");
 
-define("_MB_SHOUTBOX_CONFIRMDEL", "آیا اطمینان دارید که میخواهید تمام پیام ها در فایل/پایگاه داده را حذف کنید؟");
+define("_MB_SHOUTBOX_CONFIRMDEL","آیا اطمینان دارید که میخواهید تمام پیام ها در فایل/پایگاه داده را حذف کنید؟");
 
-define("_MB_SHOUTBOX_CONFIRMDEL", "ایا شما اطمینان دارید که میخواهید تمام پیام های درون پایگاه داده ها / فایل را حذف کنید؟");
+define("_MB_SHOUTBOX_CONFIRMDEL","ایا شما اطمینان دارید که میخواهید تمام پیام های درون پایگاه داده ها / فایل را حذف کنید؟");
 ?>

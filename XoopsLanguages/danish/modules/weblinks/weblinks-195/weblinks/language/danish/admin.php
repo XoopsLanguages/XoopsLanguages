@@ -70,13 +70,13 @@ define('_WEBLINKS_RSS_MODE_CONTENT_DSC','Hvis "JA", vises indhold med HTML-tag, 
 define('_WEBLINKS_RSS_NEW','Vælg det maksimale antal "nye RSS/Atom feeds", der vises på toppen side'); 
 define('_WEBLINKS_RSS_NEW_DSC','Indtast det maksimale antal nye RSS/Atom feeds, der skal vises i Main page.'); 
 define('_WEBLINKS_RSS_PERPAGE','Vælg det maksimale antal af RSS/Atom feeds vises i og Link detaljer side og RSS/Atom side');
-define('_WEBLINKS_RSS_PERPAGE_DSC', 'Indtast det maksimale antal af RSS/Atom feeds skal vises i RSS/Atom side.'); 
-define('_WEBLINKS_RSS_NUM_CONTENT', 'Antal feeds, som viser indhold'); 
-define('_WEBLINKS_RSS_NUM_CONTENT_DSC', 'Indtast antallet af feeds, der viser indholdet af RSS/Atom feeds i Link detaljer side. <br />Et resumé er vist på feeds mere end antallet.'); 
-define('_WEBLINKS_RSS_MAX_CONTENT', 'Maksimum antal tegn bruges til RSS/Atom-feed indhold'); 
-define('_WEBLINKS_RSS_MAX_CONTENT_DSC', 'Indtast det maksimale antal tegn, der skal anvendes til RSS/Atom-feed indholdet i RSS/Atom side. <br />Det er effektivt, når "Brug af HTML-tag af indholdet" er "NEJ" '); 
-define('_WEBLINKS_RSS_MAX_SUMMARY', 'Maksimum antal tegn bruges til RSS/Atom-feed summary'); 
-define('_WEBLINKS_RSS_MAX_SUMMARY_DSC', 'Indtast det maksimale antal tegn, der skal anvendes til RSS/Atom-feed resumé på hovedsiden.');
+define('_WEBLINKS_RSS_PERPAGE_DSC','Indtast det maksimale antal af RSS/Atom feeds skal vises i RSS/Atom side.'); 
+define('_WEBLINKS_RSS_NUM_CONTENT','Antal feeds, som viser indhold'); 
+define('_WEBLINKS_RSS_NUM_CONTENT_DSC','Indtast antallet af feeds, der viser indholdet af RSS/Atom feeds i Link detaljer side. <br />Et resumé er vist på feeds mere end antallet.'); 
+define('_WEBLINKS_RSS_MAX_CONTENT','Maksimum antal tegn bruges til RSS/Atom-feed indhold'); 
+define('_WEBLINKS_RSS_MAX_CONTENT_DSC','Indtast det maksimale antal tegn, der skal anvendes til RSS/Atom-feed indholdet i RSS/Atom side. <br />Det er effektivt, når "Brug af HTML-tag af indholdet" er "NEJ" '); 
+define('_WEBLINKS_RSS_MAX_SUMMARY','Maksimum antal tegn bruges til RSS/Atom-feed summary'); 
+define('_WEBLINKS_RSS_MAX_SUMMARY_DSC','Indtast det maksimale antal tegn, der skal anvendes til RSS/Atom-feed resumé på hovedsiden.');
 
 
 // use link field
@@ -94,94 +94,94 @@ define('_WEBLINKS_CHECK_DOUBLE_DSC','Når du vælge "NEJ", accepteres registreri
 define('_WEBLINKS_POST_UPDATED','Opdateret link områdets indstilling');
 
 // cateogry
-define('_WEBLINKS_ADMIN_CAT_SET', 'Indstilling af kategori'); 
-define('_WEBLINKS_CAT_SEL', 'Maksimum antal selektive kategorier'); 
-define('_WEBLINKS_CAT_SEL_DSC', 'Indtast det maksimale antal selektive kategorier fra et link'); 
-define('_WEBLINKS_CAT_SUB', 'Antallet af underkategorier'); 
-define('_WEBLINKS_CAT_SUB_DSC', 'Indstil antallet af underkategorier der vises på en kategori liste over top side'); 
-define('_WEBLINKS_CAT_IMG_MODE', 'Vælg kategori billede'); 
-define('_WEBLINKS_CAT_IMG_MODE_DSC', 'Når du vælge "ingen", vises ikke noget billedet. <br /> Når du vælge "Folder.gif", viser Folder.gif. <br /> Når du vælge "Indstilling", vises indstillings billeder for hver kategori. '); 
-define('_WEBLINKS_CAT_IMG_MODE_0', "ingen"); 
-define('_WEBLINKS_CAT_IMG_MODE_1', "Folder.gif"); 
-define('_WEBLINKS_CAT_IMG_MODE_2', "Indstilling"); 
-define('_WEBLINKS_CAT_IMG_WIDTH', 'Største bredde af et kategori billede'); 
-define('_WEBLINKS_CAT_IMG_HEIGHT', 'Største højde af et kategori billede'); 
-define('_WEBLINKS_CAT_IMG_SIZE_DSC', 'Effektiv når vælge "Indstilling".'); 
-define('_WEBLINKS_CAT_UPDATED', 'Opdateret kategori indstilling');
+define('_WEBLINKS_ADMIN_CAT_SET','Indstilling af kategori'); 
+define('_WEBLINKS_CAT_SEL','Maksimum antal selektive kategorier'); 
+define('_WEBLINKS_CAT_SEL_DSC','Indtast det maksimale antal selektive kategorier fra et link'); 
+define('_WEBLINKS_CAT_SUB','Antallet af underkategorier'); 
+define('_WEBLINKS_CAT_SUB_DSC','Indstil antallet af underkategorier der vises på en kategori liste over top side'); 
+define('_WEBLINKS_CAT_IMG_MODE','Vælg kategori billede'); 
+define('_WEBLINKS_CAT_IMG_MODE_DSC','Når du vælge "ingen", vises ikke noget billedet. <br /> Når du vælge "Folder.gif", viser Folder.gif. <br /> Når du vælge "Indstilling", vises indstillings billeder for hver kategori. '); 
+define('_WEBLINKS_CAT_IMG_MODE_0',"ingen"); 
+define('_WEBLINKS_CAT_IMG_MODE_1',"Folder.gif"); 
+define('_WEBLINKS_CAT_IMG_MODE_2',"Indstilling"); 
+define('_WEBLINKS_CAT_IMG_WIDTH','Største bredde af et kategori billede'); 
+define('_WEBLINKS_CAT_IMG_HEIGHT','Største højde af et kategori billede'); 
+define('_WEBLINKS_CAT_IMG_SIZE_DSC','Effektiv når vælge "Indstilling".'); 
+define('_WEBLINKS_CAT_UPDATED','Opdateret kategori indstilling');
 
 
 //======	cateogry_list.php 	======
-define("_WEBLINKS_ADMIN_CATEGORY_MANAGE", "Vedligeholdelse af kategori"); 
-define("_WEBLINKS_ADMIN_CATEGORY_LIST", "List kategorier"); 
-define("_WEBLINKS_ORDER_ID", "List efter ID"); 
-define("_WEBLINKS_ORDER_TREE", "List i træ"); 
-define("_WEBLINKS_CAT_ORDER", "Rækkefølgen af kategorier"); 
-define("_WEBLINKS_THERE_ARE_CATEGORY", "Der er <b>%s</b> kategorier i databasen"); 
-define("_WEBLINKS_ADMIN_CATEGORY_NOTICE_1", "Når du klikker på <b>Kategori ID</b>, kommer siden, hvor du kan redigere kategorien."); 
-define("_WEBLINKS_ADMIN_CATEGORY_NOTICE_2", "Klik på <b>Øverste kategori</b> eller <b>Titel</b>, for at ændre rækkefølge af kategorierne."); 
-define("_WEBLINKS_NO_CATEGORY", "Der er ingen tilhørende kategori."); 
-define("_WEBLINKS_NUM_SUBCAT", "Antal underkategorier"); 
-define("_WEBLINKS_ORDERS_UPDATED", "Opdateret rækkefølgen af kategorier");
+define("_WEBLINKS_ADMIN_CATEGORY_MANAGE","Vedligeholdelse af kategori"); 
+define("_WEBLINKS_ADMIN_CATEGORY_LIST","List kategorier"); 
+define("_WEBLINKS_ORDER_ID","List efter ID"); 
+define("_WEBLINKS_ORDER_TREE","List i træ"); 
+define("_WEBLINKS_CAT_ORDER","Rækkefølgen af kategorier"); 
+define("_WEBLINKS_THERE_ARE_CATEGORY","Der er <b>%s</b> kategorier i databasen"); 
+define("_WEBLINKS_ADMIN_CATEGORY_NOTICE_1","Når du klikker på <b>Kategori ID</b>, kommer siden, hvor du kan redigere kategorien."); 
+define("_WEBLINKS_ADMIN_CATEGORY_NOTICE_2","Klik på <b>Øverste kategori</b> eller <b>Titel</b>, for at ændre rækkefølge af kategorierne."); 
+define("_WEBLINKS_NO_CATEGORY","Der er ingen tilhørende kategori."); 
+define("_WEBLINKS_NUM_SUBCAT","Antal underkategorier"); 
+define("_WEBLINKS_ORDERS_UPDATED","Opdateret rækkefølgen af kategorier");
 
 //======	cateogry_manage.php 	======
-define("_WEBLINKS_IMGURL_MAIN", "URL til kategori billed"); 
-define("_WEBLINKS_IMGURL_MAIN_DSC1", "Dette er en mulighed. <br /> Juster automatisk, størrelsen af et billede. "); 
-define("_WEBLINKS_IMGURL_MAIN_DSC2", "Dette er effektivt i den hoved kategorien.");
+define("_WEBLINKS_IMGURL_MAIN","URL til kategori billed"); 
+define("_WEBLINKS_IMGURL_MAIN_DSC1","Dette er en mulighed. <br /> Juster automatisk, størrelsen af et billede. "); 
+define("_WEBLINKS_IMGURL_MAIN_DSC2","Dette er effektivt i den hoved kategorien.");
 
 
 //======	link_list.php 	======
-define("_WEBLINKS_ADMIN_LINK_MANAGE", "Vedligeholdelse af Link"); 
-define("_WEBLINKS_ADMIN_LINK_LIST", "Link liste"); 
-define("_WEBLINKS_ADMIN_LINK_BROKEN", "Liste over brudte link"); 
-define("_WEBLINKS_ADMIN_LINK_ALL_ASC", "Liste over alle links (Sorteret stigende efter ID)"); 
-define("_WEBLINKS_ADMIN_LINK_ALL_DESC", "Liste over alle links (sorteret faldende efter ID)"); 
-define("_WEBLINKS_ADMIN_LINK_NOURL", "Liste over link, hvor webadressen er ikke oprettet"); 
-define("_WEBLINKS_COUNT_BROKEN", "Antal af brudte link"); 
-define("_WEBLINKS_NO_LINK", "Der er ingen tilsvarende link."); 
-define("_WEBLINKS_ADMIN_PRESENT_SAVE", "Data der er gemt i databasen vises her.");
+define("_WEBLINKS_ADMIN_LINK_MANAGE","Vedligeholdelse af Link"); 
+define("_WEBLINKS_ADMIN_LINK_LIST","Link liste"); 
+define("_WEBLINKS_ADMIN_LINK_BROKEN","Liste over brudte link"); 
+define("_WEBLINKS_ADMIN_LINK_ALL_ASC","Liste over alle links (Sorteret stigende efter ID)"); 
+define("_WEBLINKS_ADMIN_LINK_ALL_DESC","Liste over alle links (sorteret faldende efter ID)"); 
+define("_WEBLINKS_ADMIN_LINK_NOURL","Liste over link, hvor webadressen er ikke oprettet"); 
+define("_WEBLINKS_COUNT_BROKEN","Antal af brudte link"); 
+define("_WEBLINKS_NO_LINK","Der er ingen tilsvarende link."); 
+define("_WEBLINKS_ADMIN_PRESENT_SAVE","Data der er gemt i databasen vises her.");
 
 //======	link_manage.php 	======
 define("_WEBLINKS_USERID","Bruger ID");
 define("_WEBLINKS_CREATE","Oprettet");
 
 //======	link_broken_check.php 	======
-define("_WEBLINKS_ADMIN_LINK_CHECK_UPDATE", "Link kontrol og opdatering"); 
-define("_WEBLINKS_ADMIN_LINK_BROKEN_CHECK", "Brudte link check"); 
-define("_WEBLINKS_ADMIN_BROKEN_CHECK", "check"); 
-define("_WEBLINKS_ADMIN_BROKEN_RESULT", "check resultat"); 
-define("_WEBLINKS_ADMIN_LINK_BROKEN_CHECK_CAUTION", "En timeout kan opstå, hvis der er mange brudt link. <br /> Så skal du ændre den numeriske værdi af grænsen. <br /> grænse = 0 er ingen begrænsning. <br />" ); 
-define("_WEBLINKS_ADMIN_LINK_BROKEN_CHECK_NOTICE", "En redigerings side åbnes, når du klikker på <b>link ID</b>. <br />Tilsvarende URL vil være åben, når du klikke på <b>web-adressen</b>. <br /> "); 
-define("_WEBLINKS_ADMIN_LINK_BROKEN_CHECK_GOOGLE", "Google-søgning vil åbnes, når du klikker på <b>sidens titel</b>. <br />"); 
-define("_WEBLINKS_ADMIN_LIMIT", "Højeste kontrol links (grænse)"); 
-define("_WEBLINKS_ADMIN_OFFSET", "Erstatning (offset)"); 
-define("_WEBLINKS_ADMIN_CHECK", "CHECK"); 
-define("_WEBLINKS_ADMIN_TIME_START", "Starttidspunkt"); 
-define("_WEBLINKS_ADMIN_TIME_END", "Slut tid"); 
-define("_WEBLINKS_ADMIN_TIME_ELAPSE", "Brugt tid"); 
-define("_WEBLINKS_ADMIN_LINK_NUM_ALL", "Alle links"); 
-define("_WEBLINKS_ADMIN_LINK_NUM_CHECK", "Kontrolleret links"); 
-define("_WEBLINKS_ADMIN_LINK_NUM_BROKEN", "Brudte links"); 
-define("_WEBLINKS_ADMIN_NUM", "links"); 
-define("_WEBLINKS_ADMIN_MIN_SEC", "%s min %s sek"); 
-define("_WEBLINKS_ADMIN_CHECK_NEXT", "Check næste %s links"); 
-define("_WEBLINKS_ADMIN_RSS_REFRESH_NOTE", "Udfør samtidig Auto opdagelse af RSS/Atom url");
+define("_WEBLINKS_ADMIN_LINK_CHECK_UPDATE","Link kontrol og opdatering"); 
+define("_WEBLINKS_ADMIN_LINK_BROKEN_CHECK","Brudte link check"); 
+define("_WEBLINKS_ADMIN_BROKEN_CHECK","check"); 
+define("_WEBLINKS_ADMIN_BROKEN_RESULT","check resultat"); 
+define("_WEBLINKS_ADMIN_LINK_BROKEN_CHECK_CAUTION","En timeout kan opstå, hvis der er mange brudt link. <br /> Så skal du ændre den numeriske værdi af grænsen. <br /> grænse = 0 er ingen begrænsning. <br />" ); 
+define("_WEBLINKS_ADMIN_LINK_BROKEN_CHECK_NOTICE","En redigerings side åbnes, når du klikker på <b>link ID</b>. <br />Tilsvarende URL vil være åben, når du klikke på <b>web-adressen</b>. <br /> "); 
+define("_WEBLINKS_ADMIN_LINK_BROKEN_CHECK_GOOGLE","Google-søgning vil åbnes, når du klikker på <b>sidens titel</b>. <br />"); 
+define("_WEBLINKS_ADMIN_LIMIT","Højeste kontrol links (grænse)"); 
+define("_WEBLINKS_ADMIN_OFFSET","Erstatning (offset)"); 
+define("_WEBLINKS_ADMIN_CHECK","CHECK"); 
+define("_WEBLINKS_ADMIN_TIME_START","Starttidspunkt"); 
+define("_WEBLINKS_ADMIN_TIME_END","Slut tid"); 
+define("_WEBLINKS_ADMIN_TIME_ELAPSE","Brugt tid"); 
+define("_WEBLINKS_ADMIN_LINK_NUM_ALL","Alle links"); 
+define("_WEBLINKS_ADMIN_LINK_NUM_CHECK","Kontrolleret links"); 
+define("_WEBLINKS_ADMIN_LINK_NUM_BROKEN","Brudte links"); 
+define("_WEBLINKS_ADMIN_NUM","links"); 
+define("_WEBLINKS_ADMIN_MIN_SEC","%s min %s sek"); 
+define("_WEBLINKS_ADMIN_CHECK_NEXT","Check næste %s links"); 
+define("_WEBLINKS_ADMIN_RSS_REFRESH_NOTE","Udfør samtidig Auto opdagelse af RSS/Atom url");
 
 //======	rss_manage.php 	======
-define("_WEBLINKS_ADMIN_RSS_MANAGE", "Vedligehold af RSS/Atom-feed"); 
-define("_WEBLINKS_ADMIN_RSS_REFRESH", "Opdatering af RSS/Atom"); 
-define("_WEBLINKS_ADMIN_RSS_REFRESH_LINK", "Opdater cache på link data"); 
-define("_WEBLINKS_ADMIN_RSS_REFRESH_SITE", "Opdater cache af RSS søgewebsted"); 
-define("_WEBLINKS_ADMIN_NUM_REFRESH_RSS_URL", "Antal RSS/Atom url opdateret"); 
-define("_WEBLINKS_ADMIN_NUM_REFRESH_RSS_SITE", "Antal RSS/Atom websted opdateret url"); 
-define("_WEBLINKS_ADMIN_NUM_REFRESH_ATOM_SITE", "Antal RSS/Atom websted opdateret feed"); 
-define("_WEBLINKS_ADMIN_NUM_REFRESH_ATOMFEED", "Antal RSS/Atom-feed opdateret"); 
-define("_WEBLINKS_ADMIN_RSS_CACHE_CLEAR", "Ryd cache af RSS/Atom-feed"); 
-define("_WEBLINKS_RSS_CLEAR_NUM", "Ryd cache af RSS/Atom-feed efter en dato, hvis mere end det angivne antal feeds."); 
-define("_WEBLINKS_RSS_NUMBER", "antallet af feeds"); 
-define("_WEBLINKS_RSS_CLEAR_LID", "Ryd cache, der er specificeret link ID"); 
-define("_WEBLINKS_RSS_CLEAR_ALL", "Ryd alle cache"); 
-define("_WEBLINKS_NUM_RSS_CLEAR_LINK", "Antal RSS/Atom cache ryddet"); 
-define("_WEBLINKS_NUM_RSS_CLEAR_ATOMFEED", "Antal ATOM/RSS-feed ryddet");
+define("_WEBLINKS_ADMIN_RSS_MANAGE","Vedligehold af RSS/Atom-feed"); 
+define("_WEBLINKS_ADMIN_RSS_REFRESH","Opdatering af RSS/Atom"); 
+define("_WEBLINKS_ADMIN_RSS_REFRESH_LINK","Opdater cache på link data"); 
+define("_WEBLINKS_ADMIN_RSS_REFRESH_SITE","Opdater cache af RSS søgewebsted"); 
+define("_WEBLINKS_ADMIN_NUM_REFRESH_RSS_URL","Antal RSS/Atom url opdateret"); 
+define("_WEBLINKS_ADMIN_NUM_REFRESH_RSS_SITE","Antal RSS/Atom websted opdateret url"); 
+define("_WEBLINKS_ADMIN_NUM_REFRESH_ATOM_SITE","Antal RSS/Atom websted opdateret feed"); 
+define("_WEBLINKS_ADMIN_NUM_REFRESH_ATOMFEED","Antal RSS/Atom-feed opdateret"); 
+define("_WEBLINKS_ADMIN_RSS_CACHE_CLEAR","Ryd cache af RSS/Atom-feed"); 
+define("_WEBLINKS_RSS_CLEAR_NUM","Ryd cache af RSS/Atom-feed efter en dato, hvis mere end det angivne antal feeds."); 
+define("_WEBLINKS_RSS_NUMBER","antallet af feeds"); 
+define("_WEBLINKS_RSS_CLEAR_LID","Ryd cache, der er specificeret link ID"); 
+define("_WEBLINKS_RSS_CLEAR_ALL","Ryd alle cache"); 
+define("_WEBLINKS_NUM_RSS_CLEAR_LINK","Antal RSS/Atom cache ryddet"); 
+define("_WEBLINKS_NUM_RSS_CLEAR_ATOMFEED","Antal ATOM/RSS-feed ryddet");
 
 //======	user_list.php 	======
 define("_WEBLINKS_ADMIN_USER_MANAGE","Vedligeholdelse af brugere"); 
@@ -190,19 +190,19 @@ define("_WEBLINKS_ADMIN_USER_LINK","Liste over de registrerede brugere, der har 
 define("_WEBLINKS_ADMIN_USER_NOLINK","Liste over de registrerede brugere, der ikke har nogen link oplysninger"); 
 define("_WEBLINKS_ADMIN_USER_EMAIL_DSC","Vis kun en email-adresse, hvis der er gentagelser"); 
 define("_WEBLINKS_ADMIN_USER_LINK_DSC","Brug 'Send Besked til Brugere' fra Xoops Core"); 
-define("_WEBLINKS_USER_ALL", "(alle)"); 
-define("_WEBLINKS_USER_MAX", "(hver %s personer)"); 
-define("_WEBLINKS_THERE_ARE_USER", "<b>%s</b> brugere fundet"); 
-define("_WEBLINKS_USER_NUM", "Vis fra %s person til %s person."); 
-define("_WEBLINKS_USER_NOFOUND", "Ingen Brugere fundet"); 
-define("_WEBLINKS_UID_EMAIL", "Email-adresse på afsender");
+define("_WEBLINKS_USER_ALL","(alle)"); 
+define("_WEBLINKS_USER_MAX","(hver %s personer)"); 
+define("_WEBLINKS_THERE_ARE_USER","<b>%s</b> brugere fundet"); 
+define("_WEBLINKS_USER_NUM","Vis fra %s person til %s person."); 
+define("_WEBLINKS_USER_NOFOUND","Ingen Brugere fundet"); 
+define("_WEBLINKS_UID_EMAIL","Email-adresse på afsender");
 
 //======	mail_users.php 	======
-define("_WEBLINKS_ADMIN_SENDMAIL", "Send Email"); 
-define("_WEBLINKS_THERE_ARE_EMAIL", "Der er <b>%s</b> e-mails"); 
-define("_WEBLINKS_SEND_NUM", "Send email form %s person til %s person"); 
-define("_WEBLINKS_SEND_NEXT", "Send næste %s e-mails"); 
-define("_WEBLINKS_SUBJECT_FROM", "Information fra %s"); 
+define("_WEBLINKS_ADMIN_SENDMAIL","Send Email"); 
+define("_WEBLINKS_THERE_ARE_EMAIL","Der er <b>%s</b> e-mails"); 
+define("_WEBLINKS_SEND_NUM","Send email form %s person til %s person"); 
+define("_WEBLINKS_SEND_NEXT","Send næste %s e-mails"); 
+define("_WEBLINKS_SUBJECT_FROM","Information fra %s"); 
 define("_WEBLINKS_HELLO","Hej %s"); 
 define("_WEBLINKS_MAIL_TAGS1","{W_NAME} vil indsætte brugernavn"); 
 define("_WEBLINKS_MAIL_TAGS2","{W_EMAIL} vil indsætte brugerens e-mail"); 
@@ -225,18 +225,18 @@ define("_WEBLINKS_ADMIN_NO_LINK_BROKEN_CHECK","Der er ingen link at kontrollerer
 define("_WEBLINKS_ADMIN_NO_RSS_REFRESH","Der er ikke noget link til at opdatere RSS");
 
 // 2005-10-20
-define("_WEBLINKS_LINK_APPROVED", "[{X_SITENAME}] {X_MODULE}: Dit indsendte link er godkendt");
+define("_WEBLINKS_LINK_APPROVED","[{X_SITENAME}] {X_MODULE}: Dit indsendte link er godkendt");
 define("_WEBLINKS_LINK_REFUSED",  "[{X_SITENAME}] {X_MODULE}: Dit indsendte link er IKKE godkendt");
 
 // 2006-05-15
 define('_AM_WEBLINKS_INDEX_DESC','Hovedsides introtekst');
-define('_AM_WEBLINKS_INDEX_DESC_DSC', 'Du kan bruge denne til at skrive en intro tekst. Html er tilladt.');
-define('_AM_WEBLINKS_INDEX_DESC_DEFAULT', '<div align="center" style="color: #0000ff">Her skrives din hovedside intro.<br />Du kan rette den i "Modulkonfiguration 2".<br /></div>');
+define('_AM_WEBLINKS_INDEX_DESC_DSC','Du kan bruge denne til at skrive en intro tekst. Html er tilladt.');
+define('_AM_WEBLINKS_INDEX_DESC_DEFAULT','<div align="center" style="color: #0000ff">Her skrives din hovedside intro.<br />Du kan rette den i "Modulkonfiguration 2".<br /></div>');
 
-define('_AM_WEBLINKS_ADD_CATEGORY', 'Tilføj ny kategori');
-define('_AM_WEBLINKS_ERROR_SOME', 'Der forefindes fejlmeddelelser');
+define('_AM_WEBLINKS_ADD_CATEGORY','Tilføj ny kategori');
+define('_AM_WEBLINKS_ERROR_SOME','Der forefindes fejlmeddelelser');
 define('_AM_WEBLINKS_LIST_ID_ASC',  'List efter gammel id');
-define('_AM_WEBLINKS_LIST_ID_DESC', 'List efter ny id');
+define('_AM_WEBLINKS_LIST_ID_DESC','List efter ny id');
 
 // config
 //define('_AM_WEBLINKS_WARNING_NOT_WRITABLE','The directory is not writeable');
@@ -254,17 +254,17 @@ define('_AM_WEBLINKS_USE_HITS_DSC','JA betyder der lægges til hits når man try
 define('_AM_WEBLINKS_USE_PASSWD','Password godkendelse');
 define('_AM_WEBLINKS_USE_PASSWD_DSC','JA, <b>anoyme brugere</b> må rette et link med godkendelse via password.<br />NEJ, <br />passwordfeltet vises ikke.');
 define('_AM_WEBLINKS_PASSWD_MIN','Minimum længde på password');
-define('_AM_WEBLINKS_POST_TEXT', 'Administrator har alle rettigheder');
-define('_AM_WEBLINKS_AUTH_DOHTML', 'Ret til at bruge HTML tags');
-define('_AM_WEBLINKS_AUTH_DOHTML_DSC', 'Angiv grupper der må bruge HTML tags');
-define('_AM_WEBLINKS_AUTH_DOSMILEY', 'Ret til smiley ikoner');
-define('_AM_WEBLINKS_AUTH_DOSMILEY_DSC', 'Angiv grupper der må bruge smileys');
-define('_AM_WEBLINKS_AUTH_DOXCODE', 'Ret til XOOPS codes');
-define('_AM_WEBLINKS_AUTH_DOXCODE_DSC', 'Angiv grupper der må bruge XOOPS codes');
-define('_AM_WEBLINKS_AUTH_DOIMAGE', 'Ret til billeder');
-define('_AM_WEBLINKS_AUTH_DOIMAGE_DSC', 'Angiv grupper der må bruge billeder');
-define('_AM_WEBLINKS_AUTH_DOBR', 'Ret til linebreaks');
-define('_AM_WEBLINKS_AUTH_DOBR_DSC', 'Angiv grupper der må bruge linebreak');
+define('_AM_WEBLINKS_POST_TEXT','Administrator har alle rettigheder');
+define('_AM_WEBLINKS_AUTH_DOHTML','Ret til at bruge HTML tags');
+define('_AM_WEBLINKS_AUTH_DOHTML_DSC','Angiv grupper der må bruge HTML tags');
+define('_AM_WEBLINKS_AUTH_DOSMILEY','Ret til smiley ikoner');
+define('_AM_WEBLINKS_AUTH_DOSMILEY_DSC','Angiv grupper der må bruge smileys');
+define('_AM_WEBLINKS_AUTH_DOXCODE','Ret til XOOPS codes');
+define('_AM_WEBLINKS_AUTH_DOXCODE_DSC','Angiv grupper der må bruge XOOPS codes');
+define('_AM_WEBLINKS_AUTH_DOIMAGE','Ret til billeder');
+define('_AM_WEBLINKS_AUTH_DOIMAGE_DSC','Angiv grupper der må bruge billeder');
+define('_AM_WEBLINKS_AUTH_DOBR','Ret til linebreaks');
+define('_AM_WEBLINKS_AUTH_DOBR_DSC','Angiv grupper der må bruge linebreak');
 define('_AM_WEBLINKS_SHOW_CATLIST','Vis kategoriliste i submenu');
 define('_AM_WEBLINKS_SHOW_CATLIST_DSC','JA viser kategorien i submenuen');
 define('_AM_WEBLINKS_VIEW_URL','URL visningsstil');
@@ -280,7 +280,7 @@ define('_AM_WEBLINKS_PRI_0','INGEN');
 define('_AM_WEBLINKS_PRI_1','Normal');
 define('_AM_WEBLINKS_PRI_2','Højere');
 define('_AM_WEBLINKS_LINK_IMAGE_AUTO','Auto opdater Banner billedstørrelse');
-define('_AM_WEBLINKS_LINK_IMAGE_AUTO_DSC', "JA <br />Opdater bannerbilled størrelse automatisk.");
+define('_AM_WEBLINKS_LINK_IMAGE_AUTO_DSC',"JA <br />Opdater bannerbilled størrelse automatisk.");
 define('_AM_WEBLINKS_RSS_USE','Brug RSS feed');
 define('_AM_WEBLINKS_RSS_USE_DSC','JA <br />Hent og vis RSS/ATOM feed.');
 
@@ -291,28 +291,28 @@ define('_AM_WEBLINKS_BULK_CAT','Masseimporter kategorier');
 define('_AM_WEBLINKS_BULK_CAT_DSC1','Beskriv kategorier');
 define('_AM_WEBLINKS_BULK_CAT_DSC2','Brug venstre-pil parentes (>) i begyndelse af kategori for at betegne en submenu.');
 define('_AM_WEBLINKS_BULK_LINK','Masse Import af Links');
-define('_AM_WEBLINKS_BULK_LINK_DSC1', 'Skriv en kategori på den 1ste linie.');
-define('_AM_WEBLINKS_BULK_LINK_DSC2', 'Beskriv linktitel, URL, of beskrivelse adskilt med komma (,) på linie 2.');
-define('_AM_WEBLINKS_BULK_LINK_DSC3', 'Brug dashes (---) for at adskille links horisontale barer.');
+define('_AM_WEBLINKS_BULK_LINK_DSC1','Skriv en kategori på den 1ste linie.');
+define('_AM_WEBLINKS_BULK_LINK_DSC2','Beskriv linktitel, URL, of beskrivelse adskilt med komma (,) på linie 2.');
+define('_AM_WEBLINKS_BULK_LINK_DSC3','Brug dashes (---) for at adskille links horisontale barer.');
 define('_AM_WEBLINKS_BULK_ERROR_LAYER','Specificer to eller flere underlag i kategoriens tree struktur. Denne behøber uddybning G.S.');
 define('_AM_WEBLINKS_BULK_ERROR_CID','Forkert kategori ID');
 define('_AM_WEBLINKS_BULK_ERROR_PID','Forkert hoved kategori ID');
 define('_AM_WEBLINKS_BULK_ERROR_FINISH','En fejl stoppede operationen');
 
 // command
-//define('_AM_WEBLINKS_CREATE_CONFIG', 'Create Config File');
-//define('_AM_WEBLINKS_TEST_EXEC', 'Test execute for %s');
+//define('_AM_WEBLINKS_CREATE_CONFIG','Create Config File');
+//define('_AM_WEBLINKS_TEST_EXEC','Test execute for %s');
 
 // === 2006-10-05 ===
 // menu
 define('_AM_WEBLINKS_MODULE_CONFIG_3','Module konfiguration 3');
 define('_AM_WEBLINKS_MODULE_CONFIG_4','Module konfiguration 4');
-define('_AM_WEBLINKS_VOTE_LIST', 'Afstemningsliste');
-define('_AM_WEBLINKS_CATLINK_LIST', 'Kategoriser Link Liste');
-//define('_AM_WEBLINKS_COMMAND_MANAGE', 'Command Management');
+define('_AM_WEBLINKS_VOTE_LIST','Afstemningsliste');
+define('_AM_WEBLINKS_CATLINK_LIST','Kategoriser Link Liste');
+//define('_AM_WEBLINKS_COMMAND_MANAGE','Command Management');
 define('_AM_WEBLINKS_TABLE_MANAGE',  'DB Tabel indstillinger');
-define('_AM_WEBLINKS_IMPORT_MANAGE', 'Import indstillinger');
-define('_AM_WEBLINKS_EXPORT_MANAGE', 'Ekspoter indstillinger');
+define('_AM_WEBLINKS_IMPORT_MANAGE','Import indstillinger');
+define('_AM_WEBLINKS_EXPORT_MANAGE','Ekspoter indstillinger');
 
 // config
 define('_AM_WEBLINKS_MODULE_CONFIG_DESC_2','Auth, kat, etc');
@@ -321,8 +321,8 @@ define('_AM_WEBLINKS_MODULE_CONFIG_DESC_4','RSS, Forum, kort');
 define('_AM_WEBLINKS_LINK_REGISTER','Link indstillinger: Beskrivelse');
 
 // bin configuration
-//define('_AM_WEBLINKS_FORM_BIN', 'Command Config');
-//define('_AM_WEBLINKS_FORM_BIN_DESC', 'It is used on bin command');
+//define('_AM_WEBLINKS_FORM_BIN','Command Config');
+//define('_AM_WEBLINKS_FORM_BIN_DESC','It is used on bin command');
 //define('_AM_WEBLINKS_CONF_BIN_PASS','Password');
 //define('_AM_WEBLINKS_CONF_BIN_PASS_DESC','');
 //define('_AM_WEBLINKS_CONF_BIN_SEND','Send Mail');
@@ -335,28 +335,28 @@ define('_AM_WEBLINKS_LINK_REGISTER','Link indstillinger: Beskrivelse');
 //define('_AM_WEBLINKS_RSS_DIRNAME_DESC','');
 
 // link manage
-define('_AM_WEBLINKS_DEL_LINK', 'Slet link');
-define('_AM_WEBLINKS_ADD_RSSC', 'Tilføj link til RSSC module');
-define('_AM_WEBLINKS_MOD_RSSC', 'Ret link i RSSC module');
-define('_AM_WEBLINKS_REFRESH_RSSC', 'Opdater link i RSSC module');
+define('_AM_WEBLINKS_DEL_LINK','Slet link');
+define('_AM_WEBLINKS_ADD_RSSC','Tilføj link til RSSC module');
+define('_AM_WEBLINKS_MOD_RSSC','Ret link i RSSC module');
+define('_AM_WEBLINKS_REFRESH_RSSC','Opdater link i RSSC module');
 define('_AM_WEBLINKS_APPROVE',     'Godkend nyt link');
-define('_AM_WEBLINKS_APPROVE_MOD', 'godkend rettet link');
-define('_AM_WEBLINKS_RSSC_LID_SAVED', 'Gemt rssc lid');
-define('_AM_WEBLINKS_GOTO_LINK_LIST', 'GÅ til link liste');
-define('_AM_WEBLINKS_GOTO_LINK_EDIT', 'GÅ til link ret');
-define('_AM_WEBLINKS_ADD_BANNER', 'Tilføj banner billedstørrelse');
-define('_AM_WEBLINKS_MOD_BANNER', 'Ret banner billedstørrelse');
+define('_AM_WEBLINKS_APPROVE_MOD','godkend rettet link');
+define('_AM_WEBLINKS_RSSC_LID_SAVED','Gemt rssc lid');
+define('_AM_WEBLINKS_GOTO_LINK_LIST','GÅ til link liste');
+define('_AM_WEBLINKS_GOTO_LINK_EDIT','GÅ til link ret');
+define('_AM_WEBLINKS_ADD_BANNER','Tilføj banner billedstørrelse');
+define('_AM_WEBLINKS_MOD_BANNER','Ret banner billedstørrelse');
 
 // vote list
-define('_AM_WEBLINKS_VOTE_USER', 'Registrede brugerstemmer');
-define('_AM_WEBLINKS_VOTE_ANON', 'Anonyme brugerstemmer');
+define('_AM_WEBLINKS_VOTE_USER','Registrede brugerstemmer');
+define('_AM_WEBLINKS_VOTE_ANON','Anonyme brugerstemmer');
 
 // locate
 define('_AM_WEBLINKS_CONF_LOCATE','Find konfiguration');
 define('_AM_WEBLINKS_CONF_COUNTRY_CODE','Landekode');
-define('_AM_WEBLINKS_CONF_COUNTRY_CODE_DESC', 'Skriv ccTLDs kode <br/> <a href="http://www.iana.org/cctld/cctld-whois.htm" target="_blank">IANA: Lande-kode top-niveau Domæner</a>');
-define('_AM_WEBLINKS_CONF_RENEW_COUNTRY_CODE_DESC', 'Opfrisk emnet som relaterer til landekoden. <br/> Emnet med <span style="color:#0000ff;">#</span> mærket');
-define('_AM_WEBLINKS_RENEW', 'Opfrisk');
+define('_AM_WEBLINKS_CONF_COUNTRY_CODE_DESC','Skriv ccTLDs kode <br/> <a href="http://www.iana.org/cctld/cctld-whois.htm" target="_blank">IANA: Lande-kode top-niveau Domæner</a>');
+define('_AM_WEBLINKS_CONF_RENEW_COUNTRY_CODE_DESC','Opfrisk emnet som relaterer til landekoden. <br/> Emnet med <span style="color:#0000ff;">#</span> mærket');
+define('_AM_WEBLINKS_RENEW','Opfrisk');
 
 // map
 define('_AM_WEBLINKS_CONF_MAP','Kort sideindstillinger');
@@ -368,11 +368,11 @@ define('_AM_WEBLINKS_CONF_MAP_TEMPLATE_DESC','Skriv template filnavn i template/
 define('_AM_WEBLINKS_CONF_GOOGLE_MAP','Google Maps indstillinger');
 define('_AM_WEBLINKS_CONF_GM_USE','Brug Google Maps');
 define('_AM_WEBLINKS_CONF_GM_APIKEY','Google Maps API key');
-define('_AM_WEBLINKS_CONF_GM_APIKEY_DESC', 'Hent API key på <br/> <a href="http://www.google.com/apis/maps/signup.html" target="_blank">http://www.google.com/apis/maps/signup.html</a> <br/> når du bruger GoogleMaps.' );
+define('_AM_WEBLINKS_CONF_GM_APIKEY_DESC','Hent API key på <br/> <a href="http://www.google.com/apis/maps/signup.html" target="_blank">http://www.google.com/apis/maps/signup.html</a> <br/> når du bruger GoogleMaps.' );
 define('_AM_WEBLINKS_CONF_GM_SERVER','Server Navn');
 define('_AM_WEBLINKS_CONF_GM_LANG',  'Sprogkode');
-define('_AM_WEBLINKS_CONF_GM_LOCATION', 'default lokalitet');
-define('_AM_WEBLINKS_CONF_GM_LATITUDE', 'default breddegrad');
+define('_AM_WEBLINKS_CONF_GM_LOCATION','default lokalitet');
+define('_AM_WEBLINKS_CONF_GM_LATITUDE','default breddegrad');
 define('_AM_WEBLINKS_CONF_GM_LONGITUDE','default længdegrad');
 define('_AM_WEBLINKS_CONF_GM_ZOOM',     'default Zoom niveau');
 
@@ -423,90 +423,90 @@ define('_AM_WEBLINKS_CAT_PATH_DSC','JA genarbejder kategoriens stitræ og gemmer
 define('_AM_WEBLINKS_CAT_COUNT','Kategori link tal');
 define('_AM_WEBLINKS_CAT_COUNT_DSC','JA sammenregner kategoriens link tal og gemmer i DB.<br />NEJ sammenregner ved visning.');
 
-define('_AM_WEBLINKS_POST_TEXT_4', 'Alle emner vises i Admin siden');
+define('_AM_WEBLINKS_POST_TEXT_4','Alle emner vises i Admin siden');
 define('_AM_WEBLINKS_LINK_REGISTER_1','Link indstillinger: Textarea1');
 
 define('_AM_WEBLINKS_CONF_LINK_GUEST','Gæst link registrer indstillinger');
 define('_AM_WEBLINKS_USE_CAPTCHA','Brug CAPTCHA');
 define('_AM_WEBLINKS_USE_CAPTCHA_DSC','CAPTCHA er en anti-spam teknik.<br />Denne funktion bruger Captcha module.<br />JA, <b>anonym bruger</b> skal bruge CAPTCHA når tilføjer eller retter link.<br />NEJ vises ikkeCAPTCHA felt.');
 define('_AM_WEBLINKS_CAPTCHA_FINDED',     'Captcha modul ver %s fundet.');
-define('_AM_WEBLINKS_CAPTCHA_NOT_FINDED', 'Captcha modul er ikke fundet');
+define('_AM_WEBLINKS_CAPTCHA_NOT_FINDED','Captcha modul er ikke fundet');
 
-define('_AM_WEBLINKS_CONF_SUBMIT', 'Beskrivelse af link registrer formen.');
+define('_AM_WEBLINKS_CONF_SUBMIT','Beskrivelse af link registrer formen.');
 define('_AM_WEBLINKS_SUBMIT_MAIN',    'Beskrivelse af nyt link: 1');
-define('_AM_WEBLINKS_SUBMIT_PENDING', 'Beskrivelse af nyt link: 2');
+define('_AM_WEBLINKS_SUBMIT_PENDING','Beskrivelse af nyt link: 2');
 define('_AM_WEBLINKS_SUBMIT_DOUBLE',  'Beskrivelse af nyt link: 3');
 define('_AM_WEBLINKS_SUBMIT_MAIN_DSC',   'Vises altid');
 define('_AM_WEBLINKS_SUBMIT_PENDING_DSC','Vis ved "admin skal godkende" mode');
-define('_AM_WEBLINKS_SUBMIT_DOUBLE_DSC', 'Vis ved "check om url eksisterer" mode');
+define('_AM_WEBLINKS_SUBMIT_DOUBLE_DSC','Vis ved "check om url eksisterer" mode');
 
 define('_AM_WEBLINKS_MODLINK_MAIN',     'Beskrivelse af ret link: 1');
 define('_AM_WEBLINKS_MODLINK_PENDING',  'Beskrivelse af ret link: 2');
 define('_AM_WEBLINKS_MODLINK_NOT_OWNER','Beskrivelse af ret link: 3');
 define('_AM_WEBLINKS_MODLINK_NOT_OWNER_DSC','Vis ved "admin skal godkende" mode og ikke ejer');
 
-define('_AM_WEBLINKS_CONF_CAT_FORUM', 'Vis forum i kategori');
-define('_AM_WEBLINKS_CONF_LINK_FORUM', 'Vis forum i link');
-//define('_AM_WEBLINKS_FORUM_SEL', 'Select Forum module');
-define('_AM_WEBLINKS_FORUM_THREAD_LIMIT', 'Antal tråde der vises');
-define('_AM_WEBLINKS_FORUM_POST_LIMIT', 'Antal poster der vises i hver tråd');
-define('_AM_WEBLINKS_FORUM_POST_ORDER', 'Post orden');
-define('_AM_WEBLINKS_FORUM_POST_ORDER_0', 'Ældre poster');
-define('_AM_WEBLINKS_FORUM_POST_ORDER_1', 'Nyere poster');
+define('_AM_WEBLINKS_CONF_CAT_FORUM','Vis forum i kategori');
+define('_AM_WEBLINKS_CONF_LINK_FORUM','Vis forum i link');
+//define('_AM_WEBLINKS_FORUM_SEL','Select Forum module');
+define('_AM_WEBLINKS_FORUM_THREAD_LIMIT','Antal tråde der vises');
+define('_AM_WEBLINKS_FORUM_POST_LIMIT','Antal poster der vises i hver tråd');
+define('_AM_WEBLINKS_FORUM_POST_ORDER','Post orden');
+define('_AM_WEBLINKS_FORUM_POST_ORDER_0','Ældre poster');
+define('_AM_WEBLINKS_FORUM_POST_ORDER_1','Nyere poster');
 //define('_AM_WEBLINKS_FORUM_INSTALLED',     'Forum module ( %s ) ver %s is installed');
-//define('_AM_WEBLINKS_FORUM_NOT_INSTALLED', 'Forum module ( %s ) is not installed');
+//define('_AM_WEBLINKS_FORUM_NOT_INSTALLED','Forum module ( %s ) is not installed');
 
 // === 2007-03-25 ===
 define('_AM_WEBLINKS_UPDATE_CAT_IMAGE_SIZE','Opdater kategoribilled størrelse');
 
-define('_AM_WEBLINKS_CONF_INDEX', 'Indeksside indstillinger');
-define('_AM_WEBLINKS_CONF_INDEX_GM_MODE', 'Google Map mode');
+define('_AM_WEBLINKS_CONF_INDEX','Indeksside indstillinger');
+define('_AM_WEBLINKS_CONF_INDEX_GM_MODE','Google Map mode');
 
 define('_AM_WEBLINKS_CAT_SHOW_GM',   'Vis Google map');
 define('_AM_WEBLINKS_MODE_NON',       'Vis ikke');
 define('_AM_WEBLINKS_MODE_DEFAULT',   'Default værdi');
 define('_AM_WEBLINKS_MODE_PARENT',    'Samme som hovedkategori');
-define('_AM_WEBLINKS_MODE_FOLLOWING', 'følgende værdi');
+define('_AM_WEBLINKS_MODE_FOLLOWING','følgende værdi');
 
 define('_AM_WEBLINKS_CONF_CAT_ALBUM',  'Vis album i kategori');
-define('_AM_WEBLINKS_CONF_LINK_ALBUM', 'Vis album i link');
-//define('_AM_WEBLINKS_ALBUM_SEL', 'Select Album module');
-define('_AM_WEBLINKS_ALBUM_LIMIT', 'Antal billeder der vises');
-define('_AM_WEBLINKS_WHEN_OMIT', 'Udfør ved send');
+define('_AM_WEBLINKS_CONF_LINK_ALBUM','Vis album i link');
+//define('_AM_WEBLINKS_ALBUM_SEL','Select Album module');
+define('_AM_WEBLINKS_ALBUM_LIMIT','Antal billeder der vises');
+define('_AM_WEBLINKS_WHEN_OMIT','Udfør ved send');
 
 define('_AM_WEBLINKS_MODULE_INSTALLED',     '%s modul ( %s ) ver %s er installeret');
-define('_AM_WEBLINKS_MODULE_NOT_INSTALLED', '%s modul ( %s ) er ikke installeret');
+define('_AM_WEBLINKS_MODULE_NOT_INSTALLED','%s modul ( %s ) er ikke installeret');
 
 // === 2007-04-08 ===
 define('_AM_WEBLINKS_CAT_DESC_MODE',  'Vis beskrivelse');
-define('_AM_WEBLINKS_CAT_SHOW_FORUM', 'Vis Forum');
-define('_AM_WEBLINKS_CAT_SHOW_ALBUM', 'Vis Album');
+define('_AM_WEBLINKS_CAT_SHOW_FORUM','Vis Forum');
+define('_AM_WEBLINKS_CAT_SHOW_ALBUM','Vis Album');
 define('_AM_WEBLINKS_MODE_SETTING',   'Indstillings værdi');
-define('_AM_WEBLINKS_MODE_OMIT_PARENT', 'Samme som hoved kategori ved send');
+define('_AM_WEBLINKS_MODE_OMIT_PARENT','Samme som hoved kategori ved send');
 
 // === 2007-06-10 ===
 // d3forum
-define('_AM_WEBLINKS_CONF_D3FORUM', 'Kommentar-integration med d3forum modul');
+define('_AM_WEBLINKS_CONF_D3FORUM','Kommentar-integration med d3forum modul');
 define('_AM_WEBLINKS_PLUGIN_SEL',   'Plugin vælg');
 define('_AM_WEBLINKS_DIRNAME_SEL',  'Modul vælg');
 
 // category
-define('_AM_WEBLINKS_CAT_PATH_STYLE', 'Vis kategori stiens stil');
+define('_AM_WEBLINKS_CAT_PATH_STYLE','Vis kategori stiens stil');
 
 // category page
-define('_AM_WEBLINKS_CONF_CAT_PAGE', 'Kategoriside indstillinger');
-define('_AM_WEBLINKS_CAT_COLS', 'Antal kolonner i kategorier');
-define('_AM_WEBLINKS_CAT_COLS_DESC', 'På kategorisiden angiv hvor mange kolonner der vises under et hieraki');
-define('_AM_WEBLINKS_CAT_SUB_MODE', 'Vis vidde af subkategorier');
-define('_AM_WEBLINKS_CAT_SUB_MODE_1', 'Kun kategorier i et hieraki');
-define('_AM_WEBLINKS_CAT_SUB_MODE_2', 'Alle kategorier under et og flere hierakier');
+define('_AM_WEBLINKS_CONF_CAT_PAGE','Kategoriside indstillinger');
+define('_AM_WEBLINKS_CAT_COLS','Antal kolonner i kategorier');
+define('_AM_WEBLINKS_CAT_COLS_DESC','På kategorisiden angiv hvor mange kolonner der vises under et hieraki');
+define('_AM_WEBLINKS_CAT_SUB_MODE','Vis vidde af subkategorier');
+define('_AM_WEBLINKS_CAT_SUB_MODE_1','Kun kategorier i et hieraki');
+define('_AM_WEBLINKS_CAT_SUB_MODE_2','Alle kategorier under et og flere hierakier');
 
 // === 2007-07-14 ===
 // highlight
-define('_AM_WEBLINKS_USE_HIGHLIGHT', 'Brug keyword fremhævning');
-define('_AM_WEBLINKS_CHECK_MAIL', 'Check emailformat');
-define('_AM_WEBLINKS_CHECK_MAIL_DSC', 'INGEN tillader alle formater. <br /> JA checker om emailformate er som abc@efg.com når der registreres et link. ');
-//define('_AM_WEBLINKS_NO_EMAIL', 'Not Set Email Address');
+define('_AM_WEBLINKS_USE_HIGHLIGHT','Brug keyword fremhævning');
+define('_AM_WEBLINKS_CHECK_MAIL','Check emailformat');
+define('_AM_WEBLINKS_CHECK_MAIL_DSC','INGEN tillader alle formater. <br /> JA checker om emailformate er som abc@efg.com når der registreres et link. ');
+//define('_AM_WEBLINKS_NO_EMAIL','Not Set Email Address');
 
 // === 2007-08-01 ===
 // config
@@ -521,8 +521,8 @@ define('_AM_WEBLINKS_MODULE_CONFIG_DESC_6','Google Map');
 define('_AM_WEBLINKS_GM_MAP_CONT',  'Map Control');
 define('_AM_WEBLINKS_GM_MAP_CONT_DESC',  'GLargeMapControl, GSmallMapControl, GSmallZoomControl');
 define('_AM_WEBLINKS_GM_MAP_CONT_NON',   'Vis ikke');
-define('_AM_WEBLINKS_GM_MAP_CONT_LARGE', 'Stor kontrol');
-define('_AM_WEBLINKS_GM_MAP_CONT_SMALL', 'Lille Control');
+define('_AM_WEBLINKS_GM_MAP_CONT_LARGE','Stor kontrol');
+define('_AM_WEBLINKS_GM_MAP_CONT_SMALL','Lille Control');
 define('_AM_WEBLINKS_GM_MAP_CONT_ZOOM',  'Zoom Control');
 define('_AM_WEBLINKS_GM_USE_TYPE_CONT',  'Brug map type kontrol');
 define('_AM_WEBLINKS_GM_USE_TYPE_CONT_DESC',  'GMapTypeControl');
@@ -530,11 +530,11 @@ define('_AM_WEBLINKS_GM_USE_SCALE_CONT',  'Use Skaler kontrol');
 define('_AM_WEBLINKS_GM_USE_SCALE_CONT_DESC',  'GScaleControl');
 define('_AM_WEBLINKS_GM_USE_OVERVIEW_CONT',  'Brug overblikskort Control');
 define('_AM_WEBLINKS_GM_USE_OVERVIEW_CONT_DESC',  'GOverviewMapControl');
-define('_AM_WEBLINKS_GM_MAP_TYPE', '[Søg] kort type');
-define('_AM_WEBLINKS_GM_MAP_TYPE_DESC', 'GMapType');
+define('_AM_WEBLINKS_GM_MAP_TYPE','[Søg] kort type');
+define('_AM_WEBLINKS_GM_MAP_TYPE_DESC','GMapType');
 define('_AM_WEBLINKS_GM_GEOCODE_KIND',  '[Søg] stil af Geocode');
 define('_AM_WEBLINKS_GM_GEOCODE_KIND_DESC',  'Søg længde og breddegrad på adresse<br /><b>Enkelt resultat</b><br />GClientGeocoder - getLatLng<br /><b>flere Resultater</b><br />GClientGeocoder - getLocations');
-define('_AM_WEBLINKS_GM_GEOCODE_KIND_LATLNG', 'Enkelt Resultat: getLatLng');
+define('_AM_WEBLINKS_GM_GEOCODE_KIND_LATLNG','Enkelt Resultat: getLatLng');
 define('_AM_WEBLINKS_GM_GEOCODE_KIND_LOCATIONS',   'Flere resultater: getLocations');
 define('_AM_WEBLINKS_GM_USE_GEOCODE_TOKYO',  '[Søg][Japan] Brug CSIS');
 define('_AM_WEBLINKS_GM_USE_GEOCODE_TOKYO_DESC',  'Bruges i  Japan<br />Søg længde -og breddegrad fra adresse');
@@ -550,28 +550,28 @@ define('_AM_WEBLINKS_GM_USE_CENTER_MARKER',  '[Marker] Vis center markør');
 define('_AM_WEBLINKS_GM_USE_CENTER_MARKER_DESC',  'I hovedmenu og kategorisiden vis centrermarkøren');
 
 // map jp
-define('_AM_WEBLINKS_MAP_JP_MANAGE', 'Japan kort indstillinger');
+define('_AM_WEBLINKS_MAP_JP_MANAGE','Japan kort indstillinger');
 
 // column
-define('_AM_WEBLINKS_COLUMN_MANAGE', 'Kolonnestyring');
-define('_AM_WEBLINKS_COLUMN_MANAGE_DESC', 'Tilføj f.eks. kolonne i link tabel og ret tabel');
-define('_AM_WEBLINKS_COLUMN_MANAGE_NOT_USE', 'Anvend ikke');
-define('_AM_WEBLINKS_THERE_ARE_COLUMN', 'Der er <b>%s</b> kolonner i linktabellen');
-define('_AM_WEBLINKS_COLUMN_NUM', 'Antal tilføjede kolonner');
-define('_AM_WEBLINKS_COLUMN_BIGGER_USE', 'Antal kolonner er større en antallet i link tabellen');
+define('_AM_WEBLINKS_COLUMN_MANAGE','Kolonnestyring');
+define('_AM_WEBLINKS_COLUMN_MANAGE_DESC','Tilføj f.eks. kolonne i link tabel og ret tabel');
+define('_AM_WEBLINKS_COLUMN_MANAGE_NOT_USE','Anvend ikke');
+define('_AM_WEBLINKS_THERE_ARE_COLUMN','Der er <b>%s</b> kolonner i linktabellen');
+define('_AM_WEBLINKS_COLUMN_NUM','Antal tilføjede kolonner');
+define('_AM_WEBLINKS_COLUMN_BIGGER_USE','Antal kolonner er større en antallet i link tabellen');
 define('_AM_WEBLINKS_COLUMN_UNMATCH',  'Kolonnerne passer ikke i antal.');
 define('_AM_WEBLINKS_PHPMYADMIN',  'Ret med passende software som f.eks phpMyAdmin');
-define('_AM_WEBLINKS_LINK_NUM_ETC', 'Antal af kolonner');
+define('_AM_WEBLINKS_LINK_NUM_ETC','Antal af kolonner');
 
 // latest
-define('_AM_WEBLINKS_INDEX_MODE_LATEST', 'Orden på seneste links');
-define('_AM_WEBLINKS_INDEX_MODE_LATEST_UPDATE', 'Opdateret Dato');
-define('_AM_WEBLINKS_INDEX_MODE_LATEST_CREATE', 'Oprettet Dato');
+define('_AM_WEBLINKS_INDEX_MODE_LATEST','Orden på seneste links');
+define('_AM_WEBLINKS_INDEX_MODE_LATEST_UPDATE','Opdateret Dato');
+define('_AM_WEBLINKS_INDEX_MODE_LATEST_CREATE','Oprettet Dato');
 
 // header
-define('_AM_WEBLINKS_CONF_HTML_STYLE', 'HTML Style indstillinger');
-define('_AM_WEBLINKS_HEADER_MODE', 'Brug xoops module header');
-define('_AM_WEBLINKS_HEADER_MODE_DESC', 'Ved "NEJ", vis stylesheet og javascript i bodytag<br />Ved "JA", vis dem i headertag, brugende xoops header<br />bemærk der er nogle temaer der ikke kan bruge denne metode');
+define('_AM_WEBLINKS_CONF_HTML_STYLE','HTML Style indstillinger');
+define('_AM_WEBLINKS_HEADER_MODE','Brug xoops module header');
+define('_AM_WEBLINKS_HEADER_MODE_DESC','Ved "NEJ", vis stylesheet og javascript i bodytag<br />Ved "JA", vis dem i headertag, brugende xoops header<br />bemærk der er nogle temaer der ikke kan bruge denne metode');
 
 // bulk
 define('_AM_WEBLINKS_BULK_SAMPLE','Du kan se et preview, tryk på previewknappen');
@@ -592,27 +592,27 @@ define('_AM_WEBLINKS_AUTH_DELETE_AUTO','Må godkende "Slet link"');
 define('_AM_WEBLINKS_AUTH_DELETE_AUTO_DSC','Angiv grupper der må slette links');
 
 // nofitication
-define('_AM_WEBLINKS_NOTIFICATION_MANAGE', 'Notifikationsindstillinger');
-define('_AM_WEBLINKS_NOTIFICATION_MANAGE_DESC', 'Indstillinger for hver modul administrator<br />Det er det samme som toppen af modulet');
-define('_AM_WEBLINKS_NOTIFICATION_MANAGE_NOT_USE', "Kan ikke anvendes i alle xoops versioner");
-define('_AM_WEBLINKS_NOTIFICATION_MANAGE_PLEASE', 'I så fald brug "I toppen af dette modul"');
-define('_AM_WEBLINKS_SUBJ_LINK_MOD_APPROVED', '[{X_SITENAME}] {X_MODULE}: Din ret link ansøgning er godkendt');
+define('_AM_WEBLINKS_NOTIFICATION_MANAGE','Notifikationsindstillinger');
+define('_AM_WEBLINKS_NOTIFICATION_MANAGE_DESC','Indstillinger for hver modul administrator<br />Det er det samme som toppen af modulet');
+define('_AM_WEBLINKS_NOTIFICATION_MANAGE_NOT_USE',"Kan ikke anvendes i alle xoops versioner");
+define('_AM_WEBLINKS_NOTIFICATION_MANAGE_PLEASE','I så fald brug "I toppen af dette modul"');
+define('_AM_WEBLINKS_SUBJ_LINK_MOD_APPROVED','[{X_SITENAME}] {X_MODULE}: Din ret link ansøgning er godkendt');
 define('_AM_WEBLINKS_SUBJ_LINK_MOD_REFUSED',  '[{X_SITENAME}] {X_MODULE}: Din ret link ansøgning er afslået');
-define('_AM_WEBLINKS_SUBJ_LINK_DEL_APPROVED', '[{X_SITENAME}] {X_MODULE}: Din slet link ansøgning er godkendt');
+define('_AM_WEBLINKS_SUBJ_LINK_DEL_APPROVED','[{X_SITENAME}] {X_MODULE}: Din slet link ansøgning er godkendt');
 define('_AM_WEBLINKS_SUBJ_LINK_DEL_REFUSED',  '[{X_SITENAME}] {X_MODULE}: Din ret link ansøgning er afslået');
 
 // config
-define('_AM_WEBLINKS_ADMIN_WAITING_SHOW', 'Vis admin ventende liste');
+define('_AM_WEBLINKS_ADMIN_WAITING_SHOW','Vis admin ventende liste');
 define('_AM_WEBLINKS_USER_WAITING_NUM',   'Antal af brugers links på ventende liste');
 define('_AM_WEBLINKS_USER_OWNER_NUM',     'Number of list user submitted list');
 define('_AM_WEBLINKS_USE_HITS_SINGLELINK','Countup hits ved vis singlelink');
 define('_AM_WEBLINKS_USE_HITS_SINGLELINK_DSC','JA for countup link hits tæller ved vis singlelink');
-define('_AM_WEBLINKS_MODE_RANDOM', 'Redirect ved tilfældig spring');
-define('_AM_WEBLINKS_MODE_RANDOM_URL', 'registreret side url');
-define('_AM_WEBLINKS_MODE_RANDOM_SINGLE', 'singlelink i dette modul');
+define('_AM_WEBLINKS_MODE_RANDOM','Redirect ved tilfældig spring');
+define('_AM_WEBLINKS_MODE_RANDOM_URL','registreret side url');
+define('_AM_WEBLINKS_MODE_RANDOM_SINGLE','singlelink i dette modul');
 
 // request list
-define('_AM_WEBLINKS_DEL_REQS', 'Sletning links ventende godkendelse');
+define('_AM_WEBLINKS_DEL_REQS','Sletning links ventende godkendelse');
 define('_AM_WEBLINKS_NO_DEL_REQ','Ingen linksletnings Request');
 define('_AM_WEBLINKS_DEL_REQ_DELETED','Sletnings Request er slettet');
 
@@ -620,32 +620,32 @@ define('_AM_WEBLINKS_DEL_REQ_DELETED','Sletnings Request er slettet');
 define('_AM_WEBLINKS_LINK_USERCOMMENT_DESC','Link liste med kommentarer for admin (Listes efter ny ID)');
 
 // clone
-define('_AM_WEBLINKS_CLONE_LINK', 'Klon');
-define('_AM_WEBLINKS_CLONE_MODULE', 'Klon til andet modul');
-define('_AM_WEBLINKS_CLONE_CONFIRM', 'Godkend klon');
-define('_AM_WEBLINKS_NO_MODULE', 'Der er ingen tilhørende modul');
+define('_AM_WEBLINKS_CLONE_LINK','Klon');
+define('_AM_WEBLINKS_CLONE_MODULE','Klon til andet modul');
+define('_AM_WEBLINKS_CLONE_CONFIRM','Godkend klon');
+define('_AM_WEBLINKS_NO_MODULE','Der er ingen tilhørende modul');
 
 // link form
-define('_AM_WEBLINKS_MODIFIED', 'Rettet');
-define('_AM_WEBLINKS_CHECK_CONFIRM', 'Godkendt');
-define('_AM_WEBLINKS_WARN_CONFIRM', 'Advarsel: marker "godkent" for %s');
-define('_AM_WEBLINKS_RSSC_LID_EXIST_MORE', 'Der er 2 eller flere links der har samme "RSSC ID"');
+define('_AM_WEBLINKS_MODIFIED','Rettet');
+define('_AM_WEBLINKS_CHECK_CONFIRM','Godkendt');
+define('_AM_WEBLINKS_WARN_CONFIRM','Advarsel: marker "godkent" for %s');
+define('_AM_WEBLINKS_RSSC_LID_EXIST_MORE','Der er 2 eller flere links der har samme "RSSC ID"');
 
 // web shot
-define('_AM_WEBLINKS_LINK_IMG_THUMB', 'Udskiftning af link billede');
-define('_AM_WEBLINKS_LINK_IMG_THUMB_DSC', 'Vis WEB side thumbnail istedet for link billede, <br />anvendende thumbnail web service, <br />hvis ikke sæt link image.');
-define('_AM_WEBLINKS_LINK_IMG_NON', 'ingen');
-//define('_AM_WEBLINKS_LINK_IMG_MOZSHOT', 'Use <a href="http://mozshot.nemui.org/" target="_blank">MozShot</a>');
-//define('_AM_WEBLINKS_LINK_IMG_SIMPLEAPI', 'Use <a href="http://img.simpleapi.net/" target="_blank">SimpleAPI</a>');
+define('_AM_WEBLINKS_LINK_IMG_THUMB','Udskiftning af link billede');
+define('_AM_WEBLINKS_LINK_IMG_THUMB_DSC','Vis WEB side thumbnail istedet for link billede, <br />anvendende thumbnail web service, <br />hvis ikke sæt link image.');
+define('_AM_WEBLINKS_LINK_IMG_NON','ingen');
+//define('_AM_WEBLINKS_LINK_IMG_MOZSHOT','Use <a href="http://mozshot.nemui.org/" target="_blank">MozShot</a>');
+//define('_AM_WEBLINKS_LINK_IMG_SIMPLEAPI','Use <a href="http://img.simpleapi.net/" target="_blank">SimpleAPI</a>');
 
 // === 2007-11-01 ===
 // google map
 define('_AM_WEBLINKS_GM_MARKER_WIDTH',  '[Marker] Bredde (pixel)');
 define('_AM_WEBLINKS_GM_MARKER_WIDTH_DESC',  'Bredde på kort marker info<br /><b>-1</b> er uspecificeret');
-define('_AM_WEBLINKS_LINK_IMG_USE', 'Brug %s');
+define('_AM_WEBLINKS_LINK_IMG_USE','Brug %s');
 
-define('_AM_WEBLINKS_RSS_SITE', 'Denne side');
-define('_AM_WEBLINKS_RSS_FEED', 'RSS feeds');
+define('_AM_WEBLINKS_RSS_SITE','Denne side');
+define('_AM_WEBLINKS_RSS_FEED','RSS feeds');
 
 // nameflag mainflag
 define('_AM_WEBLINKS_CONF_LINK_USER','Bruger Link Registrer indstilling');
@@ -655,36 +655,36 @@ define('_AM_WEBLINKS_USER_NAME_MAIL_FLAG_DESC','Default værdi nå en bruger reg
 define('_AM_WEBLINKS_USER_NAME_MAIL_FLAG_SEL','Brugervalg');
 
 // description length
-define('_AM_WEBLINKS_DESC_LENGTH', 'Maks længde karakterer');
-define('_AM_WEBLINKS_DESC_LENGTH_DSC', '<b>-1</b> eller Admin : 64KB grænse<br />');
+define('_AM_WEBLINKS_DESC_LENGTH','Maks længde karakterer');
+define('_AM_WEBLINKS_DESC_LENGTH_DSC','<b>-1</b> eller Admin : 64KB grænse<br />');
 
 // === 2007-12-09 ===
-define("_AM_WEBLINKS_D3FORUM_VIEW", "visningstype på kommentarer");
+define("_AM_WEBLINKS_D3FORUM_VIEW","visningstype på kommentarer");
 
 // === 2008-02-17 ===
 // config
 define('_AM_WEBLINKS_MODULE_CONFIG_7','Module konfig 7');
 define('_AM_WEBLINKS_MODULE_CONFIG_DESC_7','Menu');
-define('_AM_WEBLINKS_CONF_MENU', 'Menuvisning');
-define('_AM_WEBLINKS_CONF_MENU_DESC', 'Indstilling som relaterer til visning af menuen');
+define('_AM_WEBLINKS_CONF_MENU','Menuvisning');
+define('_AM_WEBLINKS_CONF_MENU_DESC','Indstilling som relaterer til visning af menuen');
 define('_AM_WEBLINKS_CONF_TITLE','Titel på menu');
 
 // htmlout
-define('_AM_WEBLINKS_OUTPUT_PLUGIN_MANAGE', 'HTML Output Plugin indstilling');
-define('_AM_WEBLINKS_HTMLOUT', 'HTML Output Plugin');
+define('_AM_WEBLINKS_OUTPUT_PLUGIN_MANAGE','HTML Output Plugin indstilling');
+define('_AM_WEBLINKS_HTMLOUT','HTML Output Plugin');
 define('_AM_WEBLINKS_RSSOUT',  'RSS Output Plugin');
 define('_AM_WEBLINKS_KMLOUT',  'KML Output Plugin');
 
 // pagerank
-define('_AM_WEBLINKS_LINK_CHECK_MANAGE', 'Link Check indstilling');
-define('_AM_WEBLINKS_USE_PAGERANK', 'Vis PageRank');
-define('_AM_WEBLINKS_USE_PAGERANK_DESC', '"Vis" : Vis pageRank i menubar, link liste, link single');
+define('_AM_WEBLINKS_LINK_CHECK_MANAGE','Link Check indstilling');
+define('_AM_WEBLINKS_USE_PAGERANK','Vis PageRank');
+define('_AM_WEBLINKS_USE_PAGERANK_DESC','"Vis" : Vis pageRank i menubar, link liste, link single');
 define('_AM_WEBLINKS_USE_PAGERANK_NON',   'Vis ikke');
 define('_AM_WEBLINKS_USE_PAGERANK_SHOW',  'Vis');
-define('_AM_WEBLINKS_USE_PAGERANK_CACHE', 'Vis pageRank når der hentes vha cache');
+define('_AM_WEBLINKS_USE_PAGERANK_CACHE','Vis pageRank når der hentes vha cache');
 
 // kml
-define('_AM_WEBLINKS_KML_USE', 'Vis KML');
+define('_AM_WEBLINKS_KML_USE','Vis KML');
 
 }
 

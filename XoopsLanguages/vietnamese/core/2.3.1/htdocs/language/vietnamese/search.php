@@ -18,8 +18,8 @@ define("_SR_PREVIOUS","<< Trước");//<< Previous
 define("_SR_KEYWORDS","Từ chìa khóa");//Keyword(s)
 define("_SR_TYPE","Kiểu");//Type
 define("_SR_SEARCHIN","Tìm trong");//Search in
-define('_SR_KEYTOOSHORT', 'Từ chìa khóa phải dài hơn <b>%s</b> ký tự');//Keywords must be at least <strong>%s</strong> characters long
-define('_SR_KEYIGNORE', 'Từ chìa khóa ngắn hơn <b>%s</b> ký tự sẽ bị bỏ qua');//Keywords shorter than <strong>%s</strong> characters will be ignored
-define('_SR_SEARCHRULE', 'Quy tắc tìm kiếm');//Seach Rule
-define('_SR_IGNOREDWORDS', 'Những từ sau đây ngắn hơn chiều dài cho phép (%u chars) và đả bị bỏ qua trong cuộc tìm kiếm nầy:');//The following words are shorter than allowed minmum length (%u chars) and were not included in your search:
+define('_SR_KEYTOOSHORT','Từ chìa khóa phải dài hơn <b>%s</b> ký tự');//Keywords must be at least <strong>%s</strong> characters long
+define('_SR_KEYIGNORE','Từ chìa khóa ngắn hơn <b>%s</b> ký tự sẽ bị bỏ qua');//Keywords shorter than <strong>%s</strong> characters will be ignored
+define('_SR_SEARCHRULE','Quy tắc tìm kiếm');//Seach Rule
+define('_SR_IGNOREDWORDS','Những từ sau đây ngắn hơn chiều dài cho phép (%u chars) và đả bị bỏ qua trong cuộc tìm kiếm nầy:');//The following words are shorter than allowed minmum length (%u chars) and were not included in your search:
 ?>

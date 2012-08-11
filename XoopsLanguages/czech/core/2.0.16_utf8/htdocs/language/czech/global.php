@@ -27,8 +27,8 @@ define("_WARNINSTALL2","POZOR: Adresář <b>%s</b> ještě existuje na vašem se
 define("_WARNINWRITEABLE","POPZOR: Soubor <b>%s</b> je přístupný pro zápis serverem. <br />Změňte práva přístupu k tomuto souboru.<br /> na Unixu (444), na Win32 (read-only)");
 
 // Error messages issued by XoopsObject::cleanVars()
-define( "_XOBJ_ERR_REQUIRED", "%s je povinný údaj" );
-define( "_XOBJ_ERR_SHORTERTHAN", "%s musí být kratší než %d znaků." );
+define("_XOBJ_ERR_REQUIRED","%s je povinný údaj" );
+define("_XOBJ_ERR_SHORTERTHAN","%s musí být kratší než %d znaků." );
 
 //%%%%%%	File Name themeuserpost.php 	%%%%%
 define("_PROFILE","Profil");
@@ -49,8 +49,8 @@ define("_YOURHOME","Hlavní stránka");
 
 //%%%%%%	File Name misc.php (who's-online popup)	%%%%%
 define("_WHOSONLINE","Kdo je přítomen");
-define('_GUESTS', 'Návštěvníci');
-define('_MEMBERS', 'Reg. uživatelé');
+define('_GUESTS','Návštěvníci');
+define('_MEMBERS','Reg. uživatelé');
 define("_ONLINEPHRASE","Uživatelů on-line: <b>%s</b><br />");
 define("_ONLINEPHRASEX","<b>%s</b> v sekci <b>%s</b>");
 define("_CLOSE","Zavřít");  // Close window
@@ -72,24 +72,24 @@ define("_ALIGN","Zarovnat");
 define("_LEFT","Vlevo");
 define("_CENTER","Střed");
 define("_RIGHT","Vpravo");
-define("_FORM_ENTER", "Vložte %s");
+define("_FORM_ENTER","Vložte %s");
 // %s represents file name
 define("_MUSTWABLE","Do souboru <b>%s</b> musí mít server právo zápisu!");
 // Module info
-define('_PREFERENCES', 'Nastavení');
-define("_VERSION", "Verze");
-define("_DESCRIPTION", "Popis");
-define("_ERRORS", "Chyby");
-define("_NONE", "Nic");
+define('_PREFERENCES','Nastavení');
+define("_VERSION","Verze");
+define("_DESCRIPTION","Popis");
+define("_ERRORS","Chyby");
+define("_NONE","Nic");
 define('_ON','dne');
 define('_READS','otevření');
 define('_WELCOMETO','Vítejte na <b>%s</b>');
 define('_SEARCH','Hledat');
-define('_ALL', 'Vše');
-define('_TITLE', 'Titulek');
-define('_OPTIONS', 'Možnosti');
-define('_QUOTE', 'Citace');
-define('_LIST', 'Seznam');
+define('_ALL','Vše');
+define('_TITLE','Titulek');
+define('_OPTIONS','Možnosti');
+define('_QUOTE','Citace');
+define('_LIST','Seznam');
 define('_LOGIN','Přihlášení');
 define('_USERNAME','Uživatel: ');
 define('_PASSWORD','Heslo: ');
@@ -99,12 +99,12 @@ define("_SEND","Odeslat");
 define("_CANCEL","Zrušit");
 define("_ASCENDING","Vzestupné řazení");
 define("_DESCENDING","Sestupné řazení");
-define('_BACK', 'Zpět');
-define('_NOTITLE', 'Bez titulku');
+define('_BACK','Zpět');
+define('_NOTITLE','Bez titulku');
 
 /* Image manager */
 define('_IMGMANAGER','Správce obrázků');
-define('_NUMIMAGES', '<b>%s</b> obrázků');
+define('_NUMIMAGES','<b>%s</b> obrázků');
 define('_ADDIMAGE','Přidat obrázek');
 define('_IMAGENAME','Název:');
 define('_IMGMAXSIZE','Max. velikost (kb):');
@@ -115,16 +115,16 @@ define('_IMAGEFILE','Soubor');
 define('_IMGWEIGHT','Váha ve správci obrázků:');
 define('_IMGDISPLAY','Zobrazit obrázek?');
 define('_IMAGEMIME','MIME type:');
-define('_FAILFETCHIMG', 'Nelze získat nahraný soubor %s');
-define('_FAILSAVEIMG', 'Selhalo vložení obrázku %s do databáze');
-define('_NOCACHE', 'Bez Cache');
-define('_CLONE', 'Klonovat');
+define('_FAILFETCHIMG','Nelze získat nahraný soubor %s');
+define('_FAILSAVEIMG','Selhalo vložení obrázku %s do databáze');
+define('_NOCACHE','Bez Cache');
+define('_CLONE','Klonovat');
 
 //%%%%%	File Name class/xoopsform/formmatchoption.php 	%%%%%
-define("_STARTSWITH", "Začíná na");
-define("_ENDSWITH", "Končí na");
-define("_MATCHES", "Je rovno");
-define("_CONTAINS", "Obsahuje");
+define("_STARTSWITH","Začíná na");
+define("_ENDSWITH","Končí na");
+define("_MATCHES","Je rovno");
+define("_CONTAINS","Obsahuje");
 
 //%%%%%%	File Name commentform.php 	%%%%%
 define("_REGISTER","Registrace");
@@ -138,7 +138,7 @@ define("_ENTERURL","URL odkazu, který chcete přidat:");
 define("_ENTERWEBTITLE","Titulek serveru:");
 define("_ENTERIMGURL","URL orázku.");
 define("_ENTERIMGPOS","Pozice obrázku.");
-define("_IMGPOSRORL","'R' nebo 'r' pro 'vpravo', 'L' nebo 'l' pro 'vlevo', nebo nechte prázdné.");
+define("_IMGPOSRORL","'R' nebo 'r' pro 'vpravo','L' nebo 'l' pro 'vlevo', nebo nechte prázdné.");
 define("_ERRORIMGPOS","CHYBA! Zadejte pozici obrázku.");
 define("_ENTEREMAIL","Zadejte e-mailovou adresu.");
 define("_ENTERCODE","Zadejte XOOPS kód.");
@@ -150,16 +150,16 @@ define("_PLZCOMPLETE","Vyplňte prosím předmět a text zprávy.");
 define("_MESSAGETOOLONG","Vaše zpráva je příliš dlouhá.");
 
 //%%%%%		TIME FORMAT SETTINGS   %%%%%
-define('_SECOND', '1 sekunda');
-define('_SECONDS', '%s sekund');
-define('_MINUTE', '1 minuta');
-define('_MINUTES', '%s minut');
-define('_HOUR', '1 hodina');
-define('_HOURS', '%s hodin');
-define('_DAY', '1 den');
-define('_DAYS', '%s dnů');
-define('_WEEK', '1 týden');
-define('_MONTH', '1 měsíc');
+define('_SECOND','1 sekunda');
+define('_SECONDS','%s sekund');
+define('_MINUTE','1 minuta');
+define('_MINUTES','%s minut');
+define('_HOUR','1 hodina');
+define('_HOURS','%s hodin');
+define('_DAY','1 den');
+define('_DAYS','%s dnů');
+define('_WEEK','1 týden');
+define('_MONTH','1 měsíc');
 
 define("_DATESTRING","j.n.Y \v G:i:s");
 define("_MEDIUMDATESTRING","G:i j.n.Y");
@@ -183,7 +183,7 @@ m - month; i.e. "01" to "12"
 n - month without leading zeros; i.e. "1" to "12"
 M - month, textual, 3 letters; i.e. "Jan"
 s - seconds; i.e. "00" to "59"
-S - English ordinal suffix, textual, 2 characters; i.e. "th", "nd"
+S - English ordinal suffix, textual, 2 characters; i.e. "th","nd"
 t - number of days in the given month; i.e. "28" to "31"
 T - Timezone setting of this machine; i.e. "MDT"
 U - seconds since the epoch
@@ -196,9 +196,9 @@ Z - timezone offset in seconds (i.e. "-43200" to "43200")
 
 
 //%%%%%		LANGUAGE SPECIFIC SETTINGS   %%%%%
-define('_CHARSET', 'UTF-8');
-define('_LANGCODE', 'cs');
+define('_CHARSET','UTF-8');
+define('_LANGCODE','cs');
 
 // change 0 to 1 if this language is a multi-bytes language
-define("XOOPS_USE_MULTIBYTES", "0");
+define("XOOPS_USE_MULTIBYTES","0");
 ?>

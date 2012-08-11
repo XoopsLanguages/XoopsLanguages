@@ -45,19 +45,19 @@
 //  Add definitions to elimnate all hard-coded text in templates             //
 //  ***                                                                      //
 
-define ( "_MD_SHOUTBOX_POPUP_ONLINE", "Hvem er Online");
-define ( "_MD_SHOUTBOX_POPUP_MESSAGES", "Shout Beskeder");
-define ( "_MD_SHOUTBOX_POPUP_CONSOLE", "Skrive konsol");
-define ( "_MD_SHOUTBOX_POPUP_ENTERNAME", "Udfyld et Brugernavn:");
-define ( "_MD_SHOUTBOX_POPUP_FORCE", "Forcer:");
-define ( "_MD_SHOUTBOX_POPUP_USE_AUTOREFRESH", "Auto-refresh?");
-define ( "_MD_SHOUTBOX_POPUP_REFRESHTIME", "Refreshtime:");
-define ( "_MD_SHOUTBOX_POPUP_CONNECT", "Connect");
-define ( "_MD_SHOUTBOX_POPUP_SHOUT", "Shout");
-define ( "_MD_SHOUTBOX_POPUP_TITLE", "Shoutbox Chat");
-define ( "_MD_SHOUTBOX_POPUP_CONNECTED", ": tilsluttet som");
-define ( "_MD_SHOUTBOX_POPUP_REFRESH", "Opdater");
-define ( "_MD_SHOUTBOX_POPUP_NOSHOUTS", "Ingen shouter!");
-define ( "_MD_SHOUTBOX_POPUP_AUTOFOCUS", "Auto Fokus");
-define ( "_MD_SHOUTBOX_POPUP_SOUND_ON", "Lyd ved ny besked er Aktiveret");
+define("_MD_SHOUTBOX_POPUP_ONLINE","Hvem er Online");
+define("_MD_SHOUTBOX_POPUP_MESSAGES","Shout Beskeder");
+define("_MD_SHOUTBOX_POPUP_CONSOLE","Skrive konsol");
+define("_MD_SHOUTBOX_POPUP_ENTERNAME","Udfyld et Brugernavn:");
+define("_MD_SHOUTBOX_POPUP_FORCE","Forcer:");
+define("_MD_SHOUTBOX_POPUP_USE_AUTOREFRESH","Auto-refresh?");
+define("_MD_SHOUTBOX_POPUP_REFRESHTIME","Refreshtime:");
+define("_MD_SHOUTBOX_POPUP_CONNECT","Connect");
+define("_MD_SHOUTBOX_POPUP_SHOUT","Shout");
+define("_MD_SHOUTBOX_POPUP_TITLE","Shoutbox Chat");
+define("_MD_SHOUTBOX_POPUP_CONNECTED",": tilsluttet som");
+define("_MD_SHOUTBOX_POPUP_REFRESH","Opdater");
+define("_MD_SHOUTBOX_POPUP_NOSHOUTS","Ingen shouter!");
+define("_MD_SHOUTBOX_POPUP_AUTOFOCUS","Auto Fokus");
+define("_MD_SHOUTBOX_POPUP_SOUND_ON","Lyd ved ny besked er Aktiveret");
 ?>  

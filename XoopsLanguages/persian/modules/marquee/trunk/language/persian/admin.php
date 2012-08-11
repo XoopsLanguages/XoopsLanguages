@@ -21,7 +21,7 @@
  */
 define("_AM_MARQUEE_CONFIG","پیکر بندی ماژول");
 define("_AM_MARQUEE_ID","ID");
-define("_AM_MARQUEE_GENERALSET", "گزینه های ماژول" );
+define("_AM_MARQUEE_GENERALSET","گزینه های ماژول" );
 define("_AM_MARQUEE_MODULEADMIN","مدیریت ماژول");
 define("_AM_MARQUEE_DIRECTION","جهت حرکت");
 define("_AM_MARQUEE_BEHAVIOUR","Behaviour");

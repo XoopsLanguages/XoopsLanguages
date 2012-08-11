@@ -61,7 +61,7 @@ define('_US_REGISTERNG','Ne mogu registrirati novog korisnika.');
 define('_US_MAILOK','Primi povremene obavijesti<br /> od administratora i moderatora?');
 define('_US_DISCLAIMER','Pridržavanje');
 define('_US_IAGREE','Slažem se s gore navedenim');
-define('_US_UNEEDAGREE', 'Oprostite, morate se slagati s uvjetima za uspješnu registraciju.');
+define('_US_UNEEDAGREE','Oprostite, morate se slagati s uvjetima za uspješnu registraciju.');
 define('_US_NOREGISTER','Oprostite, trenutno su onemogućene nove registracije');
 // %s is username. This is a subject for email
 define('_US_USERKEYFOR','Aktivacijski link za %s');
@@ -85,13 +85,13 @@ define('_US_ENTERPWD','GREŠKA: Morate upisati lozinku.');
 define('_US_SORRYNOTFOUND','Oprostite, ne možemo pronaći informacije o korisniku.');
 // %s is your site name
 define('_US_NEWPWDREQ','Traženje nove lozinke na %s');
-define('_US_YOURACCOUNT', 'Vaš korisnički račun na %s');
+define('_US_YOURACCOUNT','Vaš korisnički račun na %s');
 define('_US_MAILPWDNG','mail_lozinka: Ne mogu ažurirati nove podatke. Kontaktirajte Administratora');
 // %s is a username
 define('_US_PWDMAILED','Lozinka za %s je poslana.');
 define('_US_CONFMAIL','Email s potvrdom za %s je poslan.');
-define('_US_ACTVMAILNG', 'Oprostite, slanje obaviještajnog emaila za %s nije uspjelo');
-define('_US_ACTVMAILOK', 'Email obavijesti za %s je poslan.');
+define('_US_ACTVMAILNG','Oprostite, slanje obaviještajnog emaila za %s nije uspjelo');
+define('_US_ACTVMAILOK','Email obavijesti za %s je poslan.');
 //%%%%%%		File Name userinfo.php 		%%%%%
 define('_US_SELECTNG','Niste izabrali korisnika! Molimo vas vratite se nazad i pokušajte ponovo.');
 define('_US_PM','PP');
@@ -133,18 +133,18 @@ define('_US_PROFUPDATED','Vaš profil je ažuriran!');
 define('_US_USECOOKIE','Spremi moje korisničko ime u kolačić za 1 godinu');
 define('_US_NO','Ne');
 define('_US_DELACCOUNT','Izbriši račun');
-define('_US_MYAVATAR', 'Moj avatar');
-define('_US_UPLOADMYAVATAR', 'Upload avatara');
+define('_US_MYAVATAR','Moj avatar');
+define('_US_UPLOADMYAVATAR','Upload avatara');
 define('_US_MAXPIXEL','Maksimalno pixela');
 define('_US_MAXIMGSZ','Maksimalna veličina slike avatara (Bajtova)');
 define('_US_SELFILE','Izaberite datoteku');
 define('_US_OLDDELETED','Vaš stari avatar će biti izbrisan!');
-define('_US_CHOOSEAVT', 'Izaberite avatar iz raspoložive liste');
-define('_US_PRESSLOGIN', 'Kliknite na tipku ispod za prijavu');
-define('_US_ADMINNO', 'Korisnici u webmaster grupi ne mogu biti izbrisani');
-define('_US_GROUPS', 'Korisničke grupe');
-define('_US_REMEMBERME', 'Zapamti me');
+define('_US_CHOOSEAVT','Izaberite avatar iz raspoložive liste');
+define('_US_PRESSLOGIN','Kliknite na tipku ispod za prijavu');
+define('_US_ADMINNO','Korisnici u webmaster grupi ne mogu biti izbrisani');
+define('_US_GROUPS','Korisničke grupe');
+define('_US_REMEMBERME','Zapamti me');
 // Welcoming emai/PM subject
-define('_US_WELCOME_SUBJECT', 'Dobro došli na %s');
+define('_US_WELCOME_SUBJECT','Dobro došli na %s');
 
 ?>

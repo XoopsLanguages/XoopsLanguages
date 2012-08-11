@@ -2,61 +2,61 @@
 
 // mymenu
 define('_MD_A_MYMENU_MYTPLSADMIN','');
-define('_MD_A_MYMENU_MYBLOCKSADMIN','«· ’«—ÌÕ');
-define('_MD_A_MYMENU_MYPREFERENCES','«·ŒÌ«—« ');
+define('_MD_A_MYMENU_MYBLOCKSADMIN','√á√°√ä√ï√á√ë√≠√ç');
+define('_MD_A_MYMENU_MYPREFERENCES','√á√°√é√≠√á√ë√á√ä');
 
 // index.php
-define("_AM_TH_DATETIME","«·Êﬁ ");
-define("_AM_TH_USER","«·⁄÷Ê");
-define("_AM_TH_IP","«Ì»Ì");
-define("_AM_TH_AGENT","«·⁄„Ì·");
-define("_AM_TH_TYPE","‰Ê⁄ «·⁄„·Ì…");
-define("_AM_TH_DESCRIPTION","«·Ê’›");
+define("_AM_TH_DATETIME","√á√°√¶√û√ä");
+define("_AM_TH_USER","√á√°√ö√ñ√¶");
+define("_AM_TH_IP","√á√≠√à√≠");
+define("_AM_TH_AGENT","√á√°√ö√£√≠√°");
+define("_AM_TH_TYPE","√§√¶√ö √á√°√ö√£√°√≠√â");
+define("_AM_TH_DESCRIPTION","√á√°√¶√ï√ù");
 
-define( "_AM_TH_BADIPS" , '«·«Ì»ÌÂ«  «·”∆Ì…<br /><br /><span style="font-weight:normal;">«ﬂ » ﬂ· «Ì»Ì ›Ì ”ÿ— ÃœÌœ<br />« —ﬂ «·’‰œÊﬁ ›«—€ «‰ ·„  —€» »„‰⁄ «Ì ‘Œ’</span>' ) ;
+define("_AM_TH_BADIPS" , '√á√°√á√≠√à√≠√•√á√ä √á√°√ì√Ü√≠√â<br /><br /><span style="font-weight:normal;">√á√ü√ä√à √ü√° √á√≠√à√≠ √ù√≠ √ì√ò√ë √å√è√≠√è<br />√á√ä√ë√ü √á√°√ï√§√è√¶√û √ù√á√ë√õ √á√§ √°√£ √ä√ë√õ√à √à√£√§√ö √á√≠ √î√é√ï</span>' ) ;
 
-define( "_AM_TH_GROUP1IPS" , '„‰⁄ «⁄÷«¡ «·«œ«—…<br /><br /><span style="font-weight:normal;">«ﬂ » ﬂ· «Ì»Ì ›Ì ”ÿ—<br />192.168. Ì⁄‰Ì 192.168.*<br />« —ﬂ «·ÃœÊ· ›«—€« «‰ ·„  —€» »„‰⁄ «Ì „‰ «⁄÷«¡ «·«œ«—…</span>' ) ;
+define("_AM_TH_GROUP1IPS" , '√£√§√ö √á√ö√ñ√á√Å √á√°√á√è√á√ë√â<br /><br /><span style="font-weight:normal;">√á√ü√ä√à √ü√° √á√≠√à√≠ √ù√≠ √ì√ò√ë<br />192.168. √≠√ö√§√≠ 192.168.*<br />√á√ä√ë√ü √á√°√å√è√¶√° √ù√á√ë√õ√á √á√§ √°√£ √ä√ë√õ√à √à√£√§√ö √á√≠ √£√§ √á√ö√ñ√á√Å √á√°√á√è√á√ë√â</span>' ) ;
 
-define( "_AM_LABEL_COMPACTLOG" , "”Ã· «·„ ﬂ——" ) ;
-define( "_AM_BUTTON_COMPACTLOG" , "Õ–› «·„ ﬂ——" ) ;
-define( "_AM_JS_COMPACTLOGCONFIRM" , "”Ì „ Õ–› «·«Ì»ÌÂ«  «·„ ﬂ——… »«ﬂÀ— „‰ „Ê÷⁄" ) ;
-define( "_AM_LABEL_REMOVEALL" , "Õ–› ﬂ· «·”Ã·« " ) ;
-define( "_AM_BUTTON_REMOVEALL" , "«Õ–› «·ﬂ·" ) ;
-define( "_AM_JS_REMOVEALLCONFIRM" , "”Ì „ Õ–› ﬂ· «·”Ã·«  ‰Â«∆Ì«" ) ;
-define( "_AM_LABEL_REMOVE" , "Õ› «·„Õœœ „‰ «·ﬁ«∆„…" ) ;
-define( "_AM_BUTTON_REMOVE" , "Õ–›" ) ;
-define( "_AM_JS_REMOVECONFIRM" , "”Ì „ Õ–› «·„Õœœ" ) ;
-define( "_AM_MSG_IPFILESUPDATED" , " „  ÕœÌÀ  Õﬁ· «·«Ì»ÌÂ« " ) ;
-define( "_AM_MSG_BADIPSCANTOPEN" , "·„ ‰ „ﬂ‰ „‰ › Õ „·› «·«Ì»ÌÂ«  «·”Ì∆…" ) ;
-define( "_AM_MSG_GROUP1IPSCANTOPEN" , "·„ ‰ „ﬂ‰ › Õ „·›«  «·«Ì»ÌÂ«  ··«œ«—…" ) ;
-define( "_AM_MSG_REMOVED" , " „ Õ–› «·”Ã·« " ) ;
-define( "_AM_FMT_CONFIGSNOTWRITABLE" , "«⁄ÿÌ «· ’—Õ 777 ·„Ã·œ «·ﬂÊ‰›ÌÃ ›Ì: %s" ) ;
+define("_AM_LABEL_COMPACTLOG" , "√ì√å√° √á√°√£√ä√ü√ë√ë" ) ;
+define("_AM_BUTTON_COMPACTLOG" , "√ç√ê√ù √á√°√£√ä√ü√ë√ë" ) ;
+define("_AM_JS_COMPACTLOGCONFIRM" , "√ì√≠√ä√£ √ç√ê√ù √á√°√á√≠√à√≠√•√á√ä √á√°√£√ä√ü√ë√ë√â √à√á√ü√ã√ë √£√§ √£√¶√ñ√ö" ) ;
+define("_AM_LABEL_REMOVEALL" , "√ç√ê√ù √ü√° √á√°√ì√å√°√á√ä" ) ;
+define("_AM_BUTTON_REMOVEALL" , "√á√ç√ê√ù √á√°√ü√°" ) ;
+define("_AM_JS_REMOVEALLCONFIRM" , "√ì√≠√ä√£ √ç√ê√ù √ü√° √á√°√ì√å√°√á√ä √§√•√á√Ü√≠√á" ) ;
+define("_AM_LABEL_REMOVE" , "√ç√ù √á√°√£√ç√è√è √£√§ √á√°√û√á√Ü√£√â" ) ;
+define("_AM_BUTTON_REMOVE" , "√ç√ê√ù" ) ;
+define("_AM_JS_REMOVECONFIRM" , "√ì√≠√ä√£ √ç√ê√ù √á√°√£√ç√è√è" ) ;
+define("_AM_MSG_IPFILESUPDATED" , "√ä√£ √ä√ç√è√≠√ã  √ç√û√° √á√°√á√≠√à√≠√•√á√ä" ) ;
+define("_AM_MSG_BADIPSCANTOPEN" , "√°√£ √§√ä√£√ü√§ √£√§ √ù√ä√ç √£√°√ù √á√°√á√≠√à√≠√•√á√ä √á√°√ì√≠√Ü√â" ) ;
+define("_AM_MSG_GROUP1IPSCANTOPEN" , "√°√£ √§√ä√£√ü√§ √ù√ä√ç √£√°√ù√á√ä √á√°√á√≠√à√≠√•√á√ä √°√°√á√è√á√ë√â" ) ;
+define("_AM_MSG_REMOVED" , "√ä√£ √ç√ê√ù √á√°√ì√å√°√á√ä" ) ;
+define("_AM_FMT_CONFIGSNOTWRITABLE" , "√á√ö√ò√≠ √á√°√ä√ï√ë√ç 777 √°√£√å√°√è √á√°√ü√¶√§√ù√≠√å √ù√≠: %s" ) ;
 
 
 // prefix_manager.php
-define( "_AM_H3_PREFIXMAN" , "«œ«—… Õﬁ· «·ﬁ«⁄œ…" ) ;
-define( "_AM_MSG_DBUPDATED" , " „  ÕœÌÀ ﬁ«⁄œ… «·»Ì«‰« " ) ;
-define( "_AM_CONFIRM_DELETE" , "”Ì „ Õ–› ﬂ· «·»Ì«‰« " ) ;
-define( "_AM_TXT_HOWTOCHANGEDB" , "«– —€»  » €Ì— «”„ ÃœÊ· ﬁ«⁄œ… «·»Ì«‰« ,<br /> ⁄œ· „·›  %s/mainfile.php <br /><br />define('XOOPS_DB_PREFIX', '<b>%s</b>');" ) ;
+define("_AM_H3_PREFIXMAN" , "√á√è√á√ë√â √ç√û√° √á√°√û√á√ö√è√â" ) ;
+define("_AM_MSG_DBUPDATED" , "√ä√£ √ä√ç√è√≠√ã √û√á√ö√è√â √á√°√à√≠√á√§√á√ä" ) ;
+define("_AM_CONFIRM_DELETE" , "√ì√≠√ä√£ √ç√ê√ù √ü√° √á√°√à√≠√á√§√á√ä" ) ;
+define("_AM_TXT_HOWTOCHANGEDB" , "√á√ê √ë√õ√à√ä √à√ä√õ√≠√ë √á√ì√£ √å√è√¶√° √û√á√ö√è√â √á√°√à√≠√á√§√á√ä,<br /> √ö√è√° √£√°√ù  %s/mainfile.php <br /><br />define('XOOPS_DB_PREFIX','<b>%s</b>');" ) ;
 
 
 // advisory.php
-define("_AM_ADV_NOTSECURE","€Ì— „Õ„Ì");
+define("_AM_ADV_NOTSECURE","√õ√≠√ë √£√ç√£√≠");
 
-define("_AM_ADV_TRUSTPATHPUBLIC","«– ﬂ‰   ‘«Âœ «·’Ê—… »«·«⁄·Ï Ê»Â« Õ—›«‰ »«·«‰Ã·Ì“Ì… ›Â–« Ì⁄‰Ì «‰ „Ã·œ «·Õ«—” »„ﬂ«‰ €Ì— „Õ„Ì »‘ﬂ·  «„. «›÷· ‘Ì¡ Ê÷⁄ „Ã·œ «·Õ«—” Œ«—Ã —Ê  «·„Êﬁ⁄ Ê«‰ ·„ Ìﬂ‰ »«·«„ﬂ«‰ ›Ìﬂ›Ì  «»ﬁ«¡ „·› «·«ﬂ”” œ«Œ· «·„Ã·œ");
-define("_AM_ADV_TRUSTPATHPUBLICLINK"," «ﬂœ „‰ «‰ „Ã·œ «·Õ«—” „Õ„Ì »„·› «·«ﬂ”” . ÌÃ» «‰  Õ’· ⁄·Ï «·Œÿ« —ﬁ„ 404 «Ê 500 «Ê 403 Ê«‰ ·„  Õ’· ⁄·Ï „‰  ·ﬂ «·«Œÿ«¡ ›«·„Ã·œ «–« €Ì— „Õ„Ì »„·› «·«ﬂ””");
-define("_AM_ADV_REGISTERGLOBALS","Â–… «·Œ«’Ì…  „ﬂ‰ «·„Œ—»Ì‰ „‰ «·Õﬁ‰ »ﬁ«⁄œ… «·»Ì«‰«  .. ··Õ„«Ì… ﬁ„ » ⁄ÿÌ·Â« „‰ Œ·«· „·› «·«ﬂ”” »Ê÷⁄ «·ﬂÊœ  «· «·Ì »«·„·›");
-define("_AM_ADV_ALLOWURLFOPEN","Â–« «·«Œ Ì«— Ì„ﬂ‰ «·„Œ—»Ì‰ „‰   ‘€Ì· ”ﬂ—» «  »‘ﬂ· —Ì„Ê  ⁄·Ï ”Ì—›—ﬂ<br /><b>ﬁ„ »Ê÷⁄ «·ﬂÊœ «· «·Ì ›Ì „·› «·«ﬂ”” · ⁄ÿÌ·…:<br /> &nbsp; php_admin_flag &nbsp; allow_url_fopen &nbsp; off</b><br />«‰ ﬂ«‰ €Ì— „”„ÊÕ ·ﬂ »Â–« «· ⁄œÌ· —«”· «·„” ÷Ì› · ⁄ÿÌ·… ·ﬂ");
-define("_AM_ADV_USETRANSSID","·„‰⁄ ”—ﬁ… «·ﬂÊﬂÌ“ „‰ ÃÂ«“ﬂ «Ê Õﬁ‰Â «÷› Â–« «·ﬂÊœ »„·› «·«ﬂ”” »„Êﬁ⁄ﬂ<br /><b>php_flag session.use_trans_sid off</b>");
-define("_AM_ADV_DBPREFIX","Â–« «·ŒÌ«— Ì ÌÕ «·Õﬁ‰ ·ﬁ«⁄œ… «·»Ì«‰« <br />·«  ‰”Ï  ›⁄Ì· ŒÌ«— «· ⁄ﬁÌ„ „‰ ŒÌ«—«  «·„ÊœÌ·");
-define("_AM_ADV_LINK_TO_PREFIXMAN","«œ«—… ÃœÊ· ﬁ«⁄œ… «·„Êﬁ⁄");
-define("_AM_ADV_MAINUNPATCHED"," Ê«÷«›… «·ﬂÊœ «·„Œ’’ ·„ÊœÌ· «·Õ«—”mainfile.php ⁄·Ìﬂ  ⁄œÌ· „·› ");
-define("_AM_ADV_DBFACTORYPATCHED","ﬁ«⁄œ… «·»Ì«‰«  „Õ„Ì… „‰ «·Õﬁ‰ ");
-define("_AM_ADV_DBFACTORYUNPATCHED","    ﬁ«⁄œ… «·»Ì«‰«  €Ì— „Õ„Ì… »„«”ﬂ „«‰⁄ «·Õﬁ‰ .. ⁄·Ìﬁ ‰ﬁ· „·› «·„«”ﬂ «·Ì „·›«  „Êﬁ⁄ﬂ..  ");
+define("_AM_ADV_TRUSTPATHPUBLIC","√á√ê √ü√§√ä √ä√î√á√•√è √á√°√ï√¶√ë√â √à√á√°√á√ö√°√¨ √¶√à√•√á √ç√ë√ù√á√§ √à√á√°√á√§√å√°√≠√í√≠√â √ù√•√ê√á √≠√ö√§√≠ √á√§ √£√å√°√è √á√°√ç√á√ë√ì √à√£√ü√á√§ √õ√≠√ë √£√ç√£√≠ √à√î√ü√° √ä√á√£. √á√ù√ñ√° √î√≠√Å √¶√ñ√ö √£√å√°√è √á√°√ç√á√ë√ì √é√á√ë√å √ë√¶√ä √á√°√£√¶√û√ö √¶√á√§ √°√£ √≠√ü√§ √à√á√°√á√£√ü√á√§ √ù√≠√ü√ù√≠  √á√à√û√á√Å √£√°√ù √á√°√á√ü√ì√ì √è√á√é√° √á√°√£√å√°√è");
+define("_AM_ADV_TRUSTPATHPUBLICLINK","√ä√á√ü√è √£√§ √á√§ √£√å√°√è √á√°√ç√á√ë√ì √£√ç√£√≠ √à√£√°√ù √á√°√á√ü√ì√ì . √≠√å√à √á√§ √ä√ç√ï√° √ö√°√¨ √á√°√é√ò√á √ë√û√£ 404 √á√¶ 500 √á√¶ 403 √¶√á√§ √°√£ √ä√ç√ï√° √ö√°√¨ √£√§ √ä√°√ü √á√°√á√é√ò√á√Å √ù√á√°√£√å√°√è √á√ê√á √õ√≠√ë √£√ç√£√≠ √à√£√°√ù √á√°√á√ü√ì√ì");
+define("_AM_ADV_REGISTERGLOBALS","√•√ê√â √á√°√é√á√ï√≠√â √ä√£√ü√§ √á√°√£√é√ë√à√≠√§ √£√§ √á√°√ç√û√§ √à√û√á√ö√è√â √á√°√à√≠√á√§√á√ä .. √°√°√ç√£√á√≠√â √û√£ √à√ä√ö√ò√≠√°√•√á √£√§ √é√°√á√° √£√°√ù √á√°√á√ü√ì√ì √à√¶√ñ√ö √á√°√ü√¶√è  √á√°√ä√á√°√≠ √à√á√°√£√°√ù");
+define("_AM_ADV_ALLOWURLFOPEN","√•√ê√á √á√°√á√é√ä√≠√á√ë √≠√£√ü√§ √á√°√£√é√ë√à√≠√§ √£√§  √ä√î√õ√≠√° √ì√ü√ë√à√ä√á√ä √à√î√ü√° √ë√≠√£√¶√ä √ö√°√¨ √ì√≠√ë√ù√ë√ü<br /><b>√û√£ √à√¶√ñ√ö √á√°√ü√¶√è √á√°√ä√á√°√≠ √ù√≠ √£√°√ù √á√°√á√ü√ì√ì √°√ä√ö√ò√≠√°√â:<br /> &nbsp; php_admin_flag &nbsp; allow_url_fopen &nbsp; off</b><br />√á√§ √ü√á√§ √õ√≠√ë √£√ì√£√¶√ç √°√ü √à√•√ê√á √á√°√ä√ö√è√≠√° √ë√á√ì√° √á√°√£√ì√ä√ñ√≠√ù √°√ä√ö√ò√≠√°√â √°√ü");
+define("_AM_ADV_USETRANSSID","√°√£√§√ö √ì√ë√û√â √á√°√ü√¶√ü√≠√í √£√§ √å√•√á√í√ü √á√¶ √ç√û√§√• √á√ñ√ù √•√ê√á √á√°√ü√¶√è √à√£√°√ù √á√°√á√ü√ì√ì √à√£√¶√û√ö√ü<br /><b>php_flag session.use_trans_sid off</b>");
+define("_AM_ADV_DBPREFIX","√•√ê√á √á√°√é√≠√á√ë √≠√ä√≠√ç √á√°√ç√û√§ √°√û√á√ö√è√â √á√°√à√≠√á√§√á√ä<br />√°√á √ä√§√ì√¨ √ä√ù√ö√≠√° √é√≠√á√ë √á√°√ä√ö√û√≠√£ √£√§ √é√≠√á√ë√á√ä √á√°√£√¶√è√≠√°");
+define("_AM_ADV_LINK_TO_PREFIXMAN","√á√è√á√ë√â √å√è√¶√° √û√á√ö√è√â √á√°√£√¶√û√ö");
+define("_AM_ADV_MAINUNPATCHED"," √¶√á√ñ√á√ù√â √á√°√ü√¶√è √á√°√£√é√ï√ï √°√£√¶√è√≠√° √á√°√ç√á√ë√ìmainfile.php √ö√°√≠√ü √ä√ö√è√≠√° √£√°√ù ");
+define("_AM_ADV_DBFACTORYPATCHED","√û√á√ö√è√â √á√°√à√≠√á√§√á√ä √£√ç√£√≠√â √£√§ √á√°√ç√û√§ ");
+define("_AM_ADV_DBFACTORYUNPATCHED","    √û√á√ö√è√â √á√°√à√≠√á√§√á√ä √õ√≠√ë √£√ç√£√≠√â √à√£√á√ì√ü √£√á√§√ö √á√°√ç√û√§ .. √ö√°√≠√û √§√û√° √£√°√ù √á√°√£√á√ì√ü √á√°√≠ √£√°√ù√á√ä √£√¶√û√ö√ü..  ");
 
-define("_AM_ADV_SUBTITLECHECK"," «ﬂœ «‰ ﬂ«‰ „ÊœÌ· «·Õ«—” Ì⁄„·");
-define("_AM_ADV_CHECKCONTAMI"," ·ÊÌÀ");
-define("_AM_ADV_CHECKISOCOM"," ⁄·Ìﬁ«  „ ›—ﬁ…");
+define("_AM_ADV_SUBTITLECHECK","√ä√á√ü√è √á√§ √ü√á√§ √£√¶√è√≠√° √á√°√ç√á√ë√ì √≠√ö√£√°");
+define("_AM_ADV_CHECKCONTAMI","√ä√°√¶√≠√ã");
+define("_AM_ADV_CHECKISOCOM","√ä√ö√°√≠√û√á√ä √£√ä√ù√ë√û√â");
 
 
 

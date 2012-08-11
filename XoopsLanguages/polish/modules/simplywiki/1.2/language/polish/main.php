@@ -11,7 +11,7 @@
  *
  */
 
-define('_MD_SWIKI_MODIFIED_TXT', 'Ostatnio modyfikowane:');		
+define('_MD_SWIKI_MODIFIED_TXT','Ostatnio modyfikowane:');		
 define('_MD_SWIKI_BY','by');								
 define('_MD_SWIKI_HISTORY_TXT','Historia strony');		
 define('_MD_SWIKI_EDIT_TXT','Edytuj stronę');
@@ -56,7 +56,7 @@ if (!defined('_MI_SWIKI_HOME')){define('_MI_SWIKI_HOME','HomePage');}// Also nee
 define('_MI_SWIKI_404','IllegalName');
 
 // Added in version 1.1
-define('_MI_SWIKI_REVISION_SUMMARY', 'Podsumowanie wersji');
+define('_MI_SWIKI_REVISION_SUMMARY','Podsumowanie wersji');
 define('_MI_SWIKI_ALLOW_COMMENTS','Dopuść komentarze');
 define('_MD_SWIKI_ADDPAGE_BTN','Dodaj stronę');
 define('_MD_SWIKI_ADDPAGE','Utwórz nową stronę');
@@ -68,6 +68,6 @@ define('_MD_SWIKI_LASTVIEWED','Ta strona była ostatnio oglądana %s');
 define('_MD_SWIKI_VIEWED','Ta strona była oglądana %u raz(y)');
 
 //Added in version 1.2
-define('_MD_SWIKI_VIEWS', 'Widoki');
+define('_MD_SWIKI_VIEWS','Widoki');
 
 ?>

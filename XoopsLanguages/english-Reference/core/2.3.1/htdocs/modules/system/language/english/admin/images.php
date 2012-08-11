@@ -19,7 +19,7 @@ define('_MD_ASFILE',' Store as files (in uploads directory)<br />');
 define('_MD_RUDELIMGCAT','Are you sure that you want to delete this category and all of its images files?');
 define('_MD_RUDELIMG','Are you sure that you want to delete this images file?');
 
-define('_MD_FAILDEL', 'Failed deleting image %s from the database');
-define('_MD_FAILDELCAT', 'Failed deleting image category %s from the database');
-define('_MD_FAILUNLINK', 'Failed deleting image %s from the server directory');
+define('_MD_FAILDEL','Failed deleting image %s from the database');
+define('_MD_FAILDELCAT','Failed deleting image category %s from the database');
+define('_MD_FAILUNLINK','Failed deleting image %s from the server directory');
 ?>

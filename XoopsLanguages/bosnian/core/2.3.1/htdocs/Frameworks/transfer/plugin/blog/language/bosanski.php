@@ -14,6 +14,6 @@
  * @subpackage      transfer
  */
  
-define("_MD_TRANSFER_BLOG", "Blog");
-define("_MD_TRANSFER_BLOG_DESC", "Napi&scaron;i blog sa ovom sadr&#382;ajem");
+define("_MD_TRANSFER_BLOG","Blog");
+define("_MD_TRANSFER_BLOG_DESC","Napi&scaron;i blog sa ovom sadr&#382;ajem");
 ?>

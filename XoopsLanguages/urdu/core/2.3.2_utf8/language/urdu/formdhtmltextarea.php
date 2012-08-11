@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 /**
  * Language definitions for {@link XoopsFormDhtmlTextArea}
  *
@@ -21,7 +21,7 @@
 /**
  * Localized fonts 
  */
-$GLOBALS["formtextdhtml_fonts"] = array("Arial", "Courier", "Georgia", "Helvetica", "Impact", "Verdana", "Haettenschweiler");
+$GLOBALS["formtextdhtml_fonts"] = array("Arial","Courier","Georgia","Helvetica","Impact","Verdana","Haettenschweiler");
 
 /**
  * Localized font sizes: "font size value" => "font size name"
@@ -36,40 +36,40 @@ $GLOBALS["formtextdhtml_sizes"] = array(
     "xx-large"  => "بہت زیادہ بڑے",
     );
 
-define("_XOOPS_FORM_ALT_URL", "اڈریش");
-define("_XOOPS_FORM_ALT_EMAIL", "ایمیل");
-define("_XOOPS_FORM_ALT_IMG", "تصاویر");
-define("_XOOPS_FORM_ALT_IMAGE", "اندروني تصاویر");
-define("_XOOPS_FORM_ALT_SMILEY", "مسکراہٹ");
-define("_XOOPS_FORM_ALT_CODE", "بنیادی کوڈ");
-define("_XOOPS_FORM_ALT_QUOTE", "محاورہ");
-define("_XOOPS_FORM_ALT_BOLD", "موٹا");
-define("_XOOPS_FORM_ALT_ITALIC", "ڈھلوائ");
-define("_XOOPS_FORM_ALT_UNDERLINE", "زیر");
-define("_XOOPS_FORM_ALT_LINETHROUGH", "لکیر درمیان میں");
-define("_XOOPS_FORM_ALT_ENTERHEIGHT", "لمبائ");
-define("_XOOPS_FORM_ALT_ENTERWIDTH", "چوڑائ");
-define("_XOOPS_FORM_ALT_LEFT", "بایئں");
-define("_XOOPS_FORM_ALT_RIGHT", "دایئں");
-define("_XOOPS_FORM_ALT_CENTER", "درمیان");
-define("_XOOPS_FORM_ALTFLASH", "فلیش");
-define("_XOOPS_FORM_ALTMMS", "ایم ایم ایس");
-define("_XOOPS_FORM_ALTRTSP", "ریئل پلئر");
-define("_XOOPS_FORM_ALTIFRAME", "فریم");
-define("_XOOPS_FORM_ALTWIKI", "وکی لنک");
-define("_XOOPS_FORM_ENTERIFRAMEURL", "فریم کا اڈریس");
-define("_XOOPS_FORM_ENTERMMSURL", "RMMS اڈریس");
-define("_XOOPS_FORM_ENTERWMPURL", "WMP اڈریس");
-define("_XOOPS_FORM_ENTERFLASHURL", "FLASH اڈریس");
-define("_XOOPS_FORM_ENTERYOUTUBEURL", "Youtube اڈریس");
-define("_XOOPS_FORM_ENTERRTSPURL", "RTSP اڈریس");
-define("_XOOPS_FORM_ENTERWIKITERM", "الفاظ جو وکی کے ساتھ لنک کیۓ جایئں");
-define("_XOOPS_FORM_ALTMP3", "MP3");
-define("_XOOPS_FORM_ENTERMP3URL", "MP3 اڈریس");
+define("_XOOPS_FORM_ALT_URL","اڈریش");
+define("_XOOPS_FORM_ALT_EMAIL","ایمیل");
+define("_XOOPS_FORM_ALT_IMG","تصاویر");
+define("_XOOPS_FORM_ALT_IMAGE","اندروني تصاویر");
+define("_XOOPS_FORM_ALT_SMILEY","مسکراہٹ");
+define("_XOOPS_FORM_ALT_CODE","بنیادی کوڈ");
+define("_XOOPS_FORM_ALT_QUOTE","محاورہ");
+define("_XOOPS_FORM_ALT_BOLD","موٹا");
+define("_XOOPS_FORM_ALT_ITALIC","ڈھلوائ");
+define("_XOOPS_FORM_ALT_UNDERLINE","زیر");
+define("_XOOPS_FORM_ALT_LINETHROUGH","لکیر درمیان میں");
+define("_XOOPS_FORM_ALT_ENTERHEIGHT","لمبائ");
+define("_XOOPS_FORM_ALT_ENTERWIDTH","چوڑائ");
+define("_XOOPS_FORM_ALT_LEFT","بایئں");
+define("_XOOPS_FORM_ALT_RIGHT","دایئں");
+define("_XOOPS_FORM_ALT_CENTER","درمیان");
+define("_XOOPS_FORM_ALTFLASH","فلیش");
+define("_XOOPS_FORM_ALTMMS","ایم ایم ایس");
+define("_XOOPS_FORM_ALTRTSP","ریئل پلئر");
+define("_XOOPS_FORM_ALTIFRAME","فریم");
+define("_XOOPS_FORM_ALTWIKI","وکی لنک");
+define("_XOOPS_FORM_ENTERIFRAMEURL","فریم کا اڈریس");
+define("_XOOPS_FORM_ENTERMMSURL","RMMS اڈریس");
+define("_XOOPS_FORM_ENTERWMPURL","WMP اڈریس");
+define("_XOOPS_FORM_ENTERFLASHURL","FLASH اڈریس");
+define("_XOOPS_FORM_ENTERYOUTUBEURL","Youtube اڈریس");
+define("_XOOPS_FORM_ENTERRTSPURL","RTSP اڈریس");
+define("_XOOPS_FORM_ENTERWIKITERM","الفاظ جو وکی کے ساتھ لنک کیۓ جایئں");
+define("_XOOPS_FORM_ALTMP3","MP3");
+define("_XOOPS_FORM_ENTERMP3URL","MP3 اڈریس");
 
-define("_XOOPS_FORM_ALT_CHECKLENGTH", "الفاظ کی طول جانچۓ");
-define("_XOOPS_FORM_ALT_LENGTH", " %s جاری الفاظ کی طول");
-define("_XOOPS_FORM_ALT_LENGTH_MAX", "زیادہ سے زیادہ طول ");
+define("_XOOPS_FORM_ALT_CHECKLENGTH","الفاظ کی طول جانچۓ");
+define("_XOOPS_FORM_ALT_LENGTH"," %s جاری الفاظ کی طول");
+define("_XOOPS_FORM_ALT_LENGTH_MAX","زیادہ سے زیادہ طول ");
 
-define("_XOOPS_FORM_PREVIEW_CONTENT", "کلک کریں <strong>" . _PREVIEW . "</strong> اجزاء کو حرکت میں دیکھنے کیلۓ");
+define("_XOOPS_FORM_PREVIEW_CONTENT","کلک کریں <strong>" . _PREVIEW . "</strong> اجزاء کو حرکت میں دیکھنے کیلۓ");
 ?>

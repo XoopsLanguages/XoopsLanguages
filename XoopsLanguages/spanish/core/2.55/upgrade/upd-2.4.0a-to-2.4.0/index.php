@@ -26,7 +26,7 @@
 
 class upgrade_240a extends xoopsUpgrade
 {
-    var $tasks = array('config', 'configoption');
+    var $tasks = array('config','configoption');
 
     /**
      * Check if cpanel config already exists
@@ -34,7 +34,7 @@ class upgrade_240a extends xoopsUpgrade
      */
     function check_config()
     {
-        $sql = "SELECT COUNT(*) FROM `" . $GLOBALS['xoopsDB']->prefix('config') . "` WHERE `conf_name` IN ('systemkey', 'soap_xoops_username', 'soap_xoops_password', 'soap_soapclient', 'soap_wdsl', 'soap_keepclient', 'soap_filterperson', 'soap_proxyhost', 'soap_proxyport', 'soap_proxyusername', 'soap_proxypassword', 'soap_timeout', 'soap_responsetimeout', 'soap_fieldmapping', 'soap_provisionning', 'soap_provisionning_group')";
+        $sql = "SELECT COUNT(*) FROM `" . $GLOBALS['xoopsDB']->prefix('config') . "` WHERE `conf_name` IN ('systemkey','soap_xoops_username','soap_xoops_password','soap_soapclient','soap_wdsl','soap_keepclient','soap_filterperson','soap_proxyhost','soap_proxyport','soap_proxyusername','soap_proxypassword','soap_timeout','soap_responsetimeout','soap_fieldmapping','soap_provisionning','soap_provisionning_group')";
         if (!$result = $GLOBALS['xoopsDB']->queryF( $sql ) ) {
             return false;
         }
@@ -54,7 +54,7 @@ class upgrade_240a extends xoopsUpgrade
 
     function apply_config()
     {
-        $configs = array('systemkey', 'soap_xoops_username', 'soap_xoops_password', 'soap_soapclient', 'soap_wdsl', 'soap_keepclient', 'soap_filterperson', 'soap_proxyhost', 'soap_proxyport', 'soap_proxyusername', 'soap_proxypassword', 'soap_timeout', 'soap_responsetimeout', 'soap_fieldmapping', 'soap_provisionning', 'soap_provisionning_group');
+        $configs = array('systemkey','soap_xoops_username','soap_xoops_password','soap_soapclient','soap_wdsl','soap_keepclient','soap_filterperson','soap_proxyhost','soap_proxyport','soap_proxyusername','soap_proxypassword','soap_timeout','soap_responsetimeout','soap_fieldmapping','soap_provisionning','soap_provisionning_group');
         foreach ($configs as $config) {
             $config_installed = false;
             $sql = "SELECT COUNT(*) FROM " . $GLOBALS['xoopsDB']->prefix('config') .

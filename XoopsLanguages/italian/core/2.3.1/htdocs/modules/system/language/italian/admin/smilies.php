@@ -23,5 +23,5 @@ define('_AM_SMILEEMOTION','Descrizione');
 define('_AM_ADD','Aggiungi');
 define('_AM_SAVE','Salva');
 define('_AM_WAYSYWTDTS','ATTENZIONE: Sei certo di voler eliminare questa faccina?');
-define('_AM_DISPLAYF', 'Visualizzare nei form?');
+define('_AM_DISPLAYF','Visualizzare nei form?');
 ?>

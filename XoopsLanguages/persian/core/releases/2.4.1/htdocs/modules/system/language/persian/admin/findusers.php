@@ -17,8 +17,8 @@ define("_AM_PREVIOUS","قبلی");
 define("_AM_NEXT","بعدی");
 define("_AM_USERSFOUND","%s عضو پیدا شد.");
 
-define("_AM_ACTUS", "اعضای فعال (Active): %s");
-define("_AM_INACTUS", "اعضای غیرفعال (Inactive): %s");
+define("_AM_ACTUS","اعضای فعال (Active): %s");
+define("_AM_INACTUS","اعضای غیرفعال (Inactive): %s");
 define("_AM_NOFOUND","هیچ عضوی پیدا نشد");
 define("_AM_UNAME","شناسه‌ی کاربری");
 define("_AM_ICQ","شماره‌ی ICQ");
@@ -42,16 +42,16 @@ define("_AM_POSTS","تعداد پست");
 define("_AM_ASC","صعودی");
 define("_AM_DESC","نزولی");
 define("_AM_LIMIT","تعداد عضو در هر صفحه");
-define("_AM_RESULTS", "نتایج جستجو");
-define("_AM_SHOWMAILOK", "نوع اعضا برای نمایش");
+define("_AM_RESULTS","نتایج جستجو");
+define("_AM_SHOWMAILOK","نوع اعضا برای نمایش");
 define("_AM_MAILOK","فقط اعضایی که توسط پست‌الکترونیکی فعال شده اند");
 define("_AM_MAILNG","فقط اعضایی که توسط پست الکترونیکی فعال نشده‌اند");
-define("_AM_SHOWTYPE", "نوع اعضا برای نمایش");
+define("_AM_SHOWTYPE","نوع اعضا برای نمایش");
 define("_AM_ACTIVE","فقط اعضای فعال (Active)");
 define("_AM_INACTIVE","فقط اعضای غیر‌فعال (Inactive)");
-define("_AM_BOTH", "همه‌ی اعضا");
-define("_AM_SENDMAIL", "ارسال پست‌الکترونیکی");
-define("_AM_ADD2GROUP", "اضافه کردن عضو به گروه %s");
+define("_AM_BOTH","همه‌ی اعضا");
+define("_AM_SENDMAIL","ارسال پست‌الکترونیکی");
+define("_AM_ADD2GROUP","اضافه کردن عضو به گروه %s");
 
-define("_AM_GROUPS", "گروه‌ها");
+define("_AM_GROUPS","گروه‌ها");
 ?>

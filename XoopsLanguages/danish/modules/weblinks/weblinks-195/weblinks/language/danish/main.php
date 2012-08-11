@@ -135,7 +135,7 @@ define("_WLS_SITETITLE","Website titel");
 define("_WLS_SITEURL","Website URL");
 define("_WLS_OPTIONS","Muligheder");
 
-define("_WLS_NOTIFYAPPROVE", "Giv mig besked når dette link er godkendt");
+define("_WLS_NOTIFYAPPROVE","Giv mig besked når dette link er godkendt");
 //define("_WLS_SHOTIMAGE","Screenshot Img: ");
 define("_WLS_SENDREQUEST","Indsend ønske");
 
@@ -316,7 +316,7 @@ define('_WLS_EMAILNOTFOUND',"E-mail adresse stemmer ikke.");
 
 
 // error message
-define("_WLS_ERROR_FILL", "Fejl: Indtast %s");
+define("_WLS_ERROR_FILL","Fejl: Indtast %s");
 define("_WLS_ERROR_ILLEGAL","Fejl: Forkert format %s");
 define("_WLS_ERROR_CID",  "Fejl: Vælg kategori");
 define("_WLS_ERROR_URL_EXIST","Fejl: Linket er allerede registreret. ");
@@ -350,24 +350,24 @@ define("_WLS_CATEGORY_LINK_DELETED","Kategori og relaterede links blev slettet."
 define("_WLS_CATEGORY_DELETED","Slettede kategotier");
 define("_WLS_LINK_DELETED","Slettede links");
 
-define("_WLS_ERROR_CATEGORY", "Fejl: Kategori ikke er valgt"); 
-define("_WLS_ERROR_MAX_SUBCAT", "Fejl: Antal udvalgte kategorier overstiger det maksimale antal der kan slettes på én gang"); 
-define("_WLS_ERROR_MAX_LINK_BELONG", "Fejl: Antal valgte relaterede links overstiger det maksimale antal, der kan slettes på en gang."); 
-define("_WLS_ERROR_MAX_LINK_DEL", "Fejl: Antal udvalgte links overstiger det maksimale antal, der kan slettes på en gang.");
+define("_WLS_ERROR_CATEGORY","Fejl: Kategori ikke er valgt"); 
+define("_WLS_ERROR_MAX_SUBCAT","Fejl: Antal udvalgte kategorier overstiger det maksimale antal der kan slettes på én gang"); 
+define("_WLS_ERROR_MAX_LINK_BELONG","Fejl: Antal valgte relaterede links overstiger det maksimale antal, der kan slettes på en gang."); 
+define("_WLS_ERROR_MAX_LINK_DEL","Fejl: Antal udvalgte links overstiger det maksimale antal, der kan slettes på en gang.");
 
 // recommend site, mutual site
 define("_WLS_MARK","mærk");
 define("_WLS_ADMINCOMMENT","admin kommentar");
 
 // broken link check
-define("_WLS_BROKEN_COUNTER", "Brudte link tæller");
+define("_WLS_BROKEN_COUNTER","Brudte link tæller");
 
 // RSS/ATOM URL
-define("_WLS_RSS_URL", "URL af RSS/Atom"); 
-define("_WLS_RSS_URL_0", "ingen brug"); 
-define("_WLS_RSS_URL_1", "RSS-type"); 
-define("_WLS_RSS_URL_2", "ATOM type"); 
-define("_WLS_RSS_URL_3", "auto opdagelse");
+define("_WLS_RSS_URL","URL af RSS/Atom"); 
+define("_WLS_RSS_URL_0","ingen brug"); 
+define("_WLS_RSS_URL_1","RSS-type"); 
+define("_WLS_RSS_URL_2","ATOM type"); 
+define("_WLS_RSS_URL_3","auto opdagelse");
 
 define("_WLS_ATOMFEED_DISTRIBUTE","Distribution af RSS/Atom feeds, som vises her.");
 define("_WLS_ATOMFEED_FIREFOX","Hvis du benytter <a href='http://www.mozilla.org/products/firefox/' target='_blank'>Firefox</a>, så gem ikke denne side under favoritte, du kan browse RSS/ATOM feed. ");
@@ -377,57 +377,57 @@ define("_WLS_EMAIL_APPROVE","Giv besked hvis kodkendt");
 define("_WLS_TOPTEN_TITLE","%s Top %u");
 // %s is a link category title
 // %u is number of links
-define("_WLS_TOPTEN_ERROR", "Der er for mange top kategorier. Stoppede for at vise %u");
+define("_WLS_TOPTEN_ERROR","Der er for mange top kategorier. Stoppede for at vise %u");
 // %u is munber of categories
 
 // 2006-04-02
 if( !defined('_WEBLINKS_MID') ) {define('_WEBLINKS_MID','Rediger ID'); }
-if( !defined('_WEBLINKS_USERID') ) {define('_WEBLINKS_USERID', 'Bruger ID');}
-if( !defined('_WEBLINKS_CREATE') ) {define('_WEBLINKS_CREATE', 'Oprettet');}
+if( !defined('_WEBLINKS_USERID') ) {define('_WEBLINKS_USERID','Bruger ID');}
+if( !defined('_WEBLINKS_CREATE') ) {define('_WEBLINKS_CREATE','Oprettet');}
 
 // conflict with rssc
 //define('_HOME',  'Home');
 //define('_SAVE',  'Save');
-//define('_SAVED', 'Saved');
-//define('_CREATE', 'Create');
+//define('_SAVED','Saved');
+//define('_CREATE','Create');
 //define('_CREATED','Created');
 //define('_FINISH',   'Finish');
-//define('_FINISHED', 'Finished');
-//define('_EXECUTE', 'Execute');
+//define('_FINISHED','Finished');
+//define('_EXECUTE','Execute');
 //define('_EXECUTED','Executed');
 //define('_PRINT','Print');
 //define('_SAMPLE','Sample');
 
 define('_NO_MATCH_RECORD','Der er ingen matches');
 define('_MANY_MATCH_RECORD','Der er 2 eller flere matches');
-define('_NO_CATEGORY', 'Ingen kategori');	
-define('_NO_LINK', 'Intet link');
-define('_NO_TITLE', 'Ingen titel');
-define('_NO_URL', 'Ingen URL');
+define('_NO_CATEGORY','Ingen kategori');	
+define('_NO_LINK','Intet link');
+define('_NO_TITLE','Ingen titel');
+define('_NO_URL','Ingen URL');
 define('_NO_DESCRIPTION','Ingen beskrivelse');
 
 //define('_GOTO_MAIN',   'Go to Main');
-//define('_GOTO_MODULE', 'Go to Module');
+//define('_GOTO_MODULE','Go to Module');
 
 // config
-//define('_WEBLINKS_INIT_NOT', 'The config table is not initialized');
-//define('_WEBLINKS_INIT_EXEC', 'Config Table Initialized');
+//define('_WEBLINKS_INIT_NOT','The config table is not initialized');
+//define('_WEBLINKS_INIT_EXEC','Config Table Initialized');
 //define('_WEBLINKS_VERSION_NOT','This module is not version  %s yet. Update now');
 //define('_WEBLINKS_UPGRADE_EXEC','Upgrade the config table');
 
 // html tag
-define('_WEBLINKS_OPTIONS', 'indstillinger');
-define('_WEBLINKS_DOHTML', ' Brug HTML tags');
-define('_WEBLINKS_DOIMAGE', ' Brug billeder');
-define('_WEBLINKS_DOBREAK', ' Brug linebreak');
-define('_WEBLINKS_DOSMILEY', ' Brug smiley icons');
-define('_WEBLINKS_DOXCODE', ' Brug XOOPS codes');
+define('_WEBLINKS_OPTIONS','indstillinger');
+define('_WEBLINKS_DOHTML',' Brug HTML tags');
+define('_WEBLINKS_DOIMAGE',' Brug billeder');
+define('_WEBLINKS_DOBREAK',' Brug linebreak');
+define('_WEBLINKS_DOSMILEY',' Brug smiley icons');
+define('_WEBLINKS_DOXCODE',' Brug XOOPS codes');
 
 define('_WEBLINKS_PASSWORD_INCORRECT','Forkert Password');
-define('_WEBLINKS_ETC', 'osv');
+define('_WEBLINKS_ETC','osv');
 define('_WEBLINKS_AUTH_UID',    'Bruger ID Match');
-define('_WEBLINKS_AUTH_PASSWD', 'Password Match');
-define('_WEBLINKS_BANNER_SIZE', 'Banner Size');
+define('_WEBLINKS_AUTH_PASSWD','Password Match');
+define('_WEBLINKS_BANNER_SIZE','Banner Size');
 
 // === 2006-10-01 ===
 // conflict with rssc
@@ -435,138 +435,138 @@ define('_WEBLINKS_BANNER_SIZE', 'Banner Size');
 //{
 //	define('_HOME',  'Home');
 //	define('_SAVE',  'Save');
-//	define('_SAVED', 'Saved');
-//	define('_CREATE', 'Create');
+//	define('_SAVED','Saved');
+//	define('_CREATE','Create');
 //	define('_CREATED','Created');
-//	define('_EXECUTE', 'Execute');
+//	define('_EXECUTE','Execute');
 //	define('_EXECUTED','Executed');
 //}
 
-define('_WEBLINKS_MAP_USE', 'Brug Map Ikon');
+define('_WEBLINKS_MAP_USE','Brug Map Ikon');
 
 // rssc
 define('_WEBLINKS_RSSC_LID',  'RSSC Lid');
 define('_WEBLINKS_RSS_MODE',  'RSS Mode');
-define('_WEBLINKS_RSSC_NOT_INSTALLED', 'RSSC modul ( %s ) er ikke installeret');
+define('_WEBLINKS_RSSC_NOT_INSTALLED','RSSC modul ( %s ) er ikke installeret');
 define('_WEBLINKS_RSSC_INSTALLED',     'RSSC modul ( %s ) ver %s er installeret');
-define('_WEBLINKS_RSSC_REQUIRE', 'Skal bruge RSSC modul ver %s eller nyere');
-define('_WEBLINKS_GOTO_SINGLELINK', 'GÅ til Link Info');
+define('_WEBLINKS_RSSC_REQUIRE','Skal bruge RSSC modul ver %s eller nyere');
+define('_WEBLINKS_GOTO_SINGLELINK','GÅ til Link Info');
 
 // warnig
-define('_WEBLINKS_WARN_NOT_READ_URL', 'Advarsel: Kan ikke læse url');
-define('_WEBLINKS_WARN_BANNER_NOT_GET_SIZE', 'Advarsel: Kan ikke hente banner størrelse');
+define('_WEBLINKS_WARN_NOT_READ_URL','Advarsel: Kan ikke læse url');
+define('_WEBLINKS_WARN_BANNER_NOT_GET_SIZE','Advarsel: Kan ikke hente banner størrelse');
 
 // google map: hacked by wye <http://never-ever.info/>
 define('_WEBLINKS_GM_LATITUDE',  'Breddegrad');
-define('_WEBLINKS_GM_LONGITUDE', 'Længdegrad');
+define('_WEBLINKS_GM_LONGITUDE','Længdegrad');
 define('_WEBLINKS_GM_ZOOM',      'Zoom niveau');
-define('_WEBLINKS_GM_GET_LOCATION', 'Lokalitetens info er hentet med GoogleMaps');
-//define('_WEBLINKS_GM_GET_BUTTON', 'Get Latitude/Longitude/Zoom');
-define('_WEBLINKS_GM_DEFAULT_LOCATION', 'Default lokalitet');
-define('_WEBLINKS_GM_CURRENT_LOCATION', 'Nuværende Lokalitet');
+define('_WEBLINKS_GM_GET_LOCATION','Lokalitetens info er hentet med GoogleMaps');
+//define('_WEBLINKS_GM_GET_BUTTON','Get Latitude/Longitude/Zoom');
+define('_WEBLINKS_GM_DEFAULT_LOCATION','Default lokalitet');
+define('_WEBLINKS_GM_CURRENT_LOCATION','Nuværende Lokalitet');
 
 // === 2006-11-04 ===
 // google map inline mode
-define('_WEBLINKS_GOOGLE_MAPS', 'Google Maps');
-define('_WEBLINKS_JAVASCRIPT_INVALID', 'Din browser kan ikke bruge JavaScript');
+define('_WEBLINKS_GOOGLE_MAPS','Google Maps');
+define('_WEBLINKS_JAVASCRIPT_INVALID','Din browser kan ikke bruge JavaScript');
 define('_WEBLINKS_GM_NOT_COMPATIBLE',  'Din browser kan ikke bruge GoogleMaps');
-define('_WEBLINKS_GM_NEW_WINDOW', 'Vis i nyt vindue');
+define('_WEBLINKS_GM_NEW_WINDOW','Vis i nyt vindue');
 define('_WEBLINKS_GM_INLINE',   'Vis Inline');
-define('_WEBLINKS_GM_DISP_OFF', 'Slå display fra');
+define('_WEBLINKS_GM_DISP_OFF','Slå display fra');
 
 // google map: inverse Geocoder
-define('_WEBLINKS_GM_GET_LATITUDE', 'Hent breddegrad/Længdegrad/Zoom');
-define('_WEBLINKS_GM_GET_ADDR', 'Hent Addresse');
+define('_WEBLINKS_GM_GET_LATITUDE','Hent breddegrad/Længdegrad/Zoom');
+define('_WEBLINKS_GM_GET_ADDR','Hent Addresse');
 
 // === 2006-12-11 ===
 // google map: Geocode
-define('_WEBLINKS_GM_SEARCH_MAP_FROM_ADDRESS', 'Søg kort fra adressen');
-define('_WEBLINKS_GM_NO_MATCH_PLACE', 'Der er intet sted der matcher adressen');
-define('_WEBLINKS_GM_JP_SEARCH_MAP_FROM_ADDRESS', 'Søg kort for adresse i Japan');
-define('_WEBLINKS_GM_JP_TOKYO_AC_GEOCODE', 'Japan Tokyo University');
-define('_WEBLINKS_GM_JP_MLIT_ISJ', 'Japan Ministry of Land Infrastructure and Transport');
+define('_WEBLINKS_GM_SEARCH_MAP_FROM_ADDRESS','Søg kort fra adressen');
+define('_WEBLINKS_GM_NO_MATCH_PLACE','Der er intet sted der matcher adressen');
+define('_WEBLINKS_GM_JP_SEARCH_MAP_FROM_ADDRESS','Søg kort for adresse i Japan');
+define('_WEBLINKS_GM_JP_TOKYO_AC_GEOCODE','Japan Tokyo University');
+define('_WEBLINKS_GM_JP_MLIT_ISJ','Japan Ministry of Land Infrastructure and Transport');
 
 // link item
-define('_WEBLINKS_TIME_PUBLISH', 'Tid udgivet');
+define('_WEBLINKS_TIME_PUBLISH','Tid udgivet');
 define('_WEBLINKS_TIME_EXPIRE',  'Tid udløbet');
 define('_WEBLINKS_TEXTAREA',     'Textarea');
 
-define('_WEBLINKS_WARN_TIME_PUBLISH', 'Udgivelses tiden er ikke endu');
+define('_WEBLINKS_WARN_TIME_PUBLISH','Udgivelses tiden er ikke endu');
 define('_WEBLINKS_WARN_TIME_EXPIRE',  'Udløbstiden er overskredet');
-define('_WEBLINKS_WARN_BROKEN', 'Dette link er muligvis brudt');
+define('_WEBLINKS_WARN_BROKEN','Dette link er muligvis brudt');
 
 // === 2007-02-20 ===
 // forum
-define('_WEBLINKS_LATEST_FORUM', 'Seneste Forum');
+define('_WEBLINKS_LATEST_FORUM','Seneste Forum');
 define('_WEBLINKS_FORUM',  'Forum');
-define('_WEBLINKS_THREAD', 'Tråd');
+define('_WEBLINKS_THREAD','Tråd');
 define('_WEBLINKS_POST',   'Post');
 define('_WEBLINKS_FORUM_ID',  'Forum ID');
-define('_WEBLINKS_FORUM_SEL', 'Forum vælg');
+define('_WEBLINKS_FORUM_SEL','Forum vælg');
 define('_WEBLINKS_COMMENT_USE',  'Brug XOOPS kommentar');
 
 // aux
-define('_WEBLINKS_CAT_AUX_TEXT_1', 'aux_text_1');
-define('_WEBLINKS_CAT_AUX_TEXT_2', 'aux_text_2');
+define('_WEBLINKS_CAT_AUX_TEXT_1','aux_text_1');
+define('_WEBLINKS_CAT_AUX_TEXT_2','aux_text_2');
 define('_WEBLINKS_CAT_AUX_INT_1',  'aux_int_1');
 define('_WEBLINKS_CAT_AUX_INT_2',  'aux_int_2');
 
 // captcha
-define('_WEBLINKS_CAPTCHA', 'Captcha');
-define('_WEBLINKS_CAPTCHA_DESC', 'Anti-Spam');
+define('_WEBLINKS_CAPTCHA','Captcha');
+define('_WEBLINKS_CAPTCHA_DESC','Anti-Spam');
 define('_WEBLINKS_ERROR_CAPTCHA','Fejl: Fejl i Captcha');
-define('_WEBLINKS_ERROR', 'Fejl');
+define('_WEBLINKS_ERROR','Fejl');
 
 // hack for multi site
-define('_WEBLINKS_CAT_TITLE_JP', 'Japansk Titel');
-define('_WEBLINKS_DISABLE_FEATURE', 'Slå denne fra');
-define('_WEBLINKS_REDIRECT_JP_SITE', 'Spring til japans side');
+define('_WEBLINKS_CAT_TITLE_JP','Japansk Titel');
+define('_WEBLINKS_DISABLE_FEATURE','Slå denne fra');
+define('_WEBLINKS_REDIRECT_JP_SITE','Spring til japans side');
 
 // === 2007-03-25 ===
 define('_WEBLINKS_ALBUM_ID',  'Album ID');
-define('_WEBLINKS_ALBUM_SEL', 'Album Vælg');
+define('_WEBLINKS_ALBUM_SEL','Album Vælg');
 
 // === 2007-04-08 ===
 define('_WEBLINKS_GM_TYPE',  'Google kort Type');
 define('_WEBLINKS_GM_TYPE_MAP',       'Kort');
-define('_WEBLINKS_GM_TYPE_SATELLITE', 'Sattelit');
+define('_WEBLINKS_GM_TYPE_SATELLITE','Sattelit');
 define('_WEBLINKS_GM_TYPE_HYBRID',    'Hybrid');
 
 // === 2007-08-01 ===
-define('_WEBLINKS_GM_CURRENT_ADDRESS', 'Nuværende adresse');
-define('_WEBLINKS_GM_SEARCH_LIST', 'Søgeresultater');
+define('_WEBLINKS_GM_CURRENT_ADDRESS','Nuværende adresse');
+define('_WEBLINKS_GM_SEARCH_LIST','Søgeresultater');
 
 // === 2007-09-01 ===
 // waiting list
-define('_WEBLINKS_ADMIN_WAITING_LIST', "Admin's ventende liste");
+define('_WEBLINKS_ADMIN_WAITING_LIST',"Admin's ventende liste");
 define('_WEBLINKS_USER_WAITING_LIST',  'Din ventende liste');
 define('_WEBLINKS_USER_OWNER_LIST',    'Din indsendt liste');
 
 // submit form
-define('_WEBLINKS_TIME_PUBLISH_SET', 'Sæt udgivelsestiden');
+define('_WEBLINKS_TIME_PUBLISH_SET','Sæt udgivelsestiden');
 define('_WEBLINKS_TIME_PUBLISH_DESC','Hvis du ikke angiver vil udgivelsesdatoen blive udateret');
 define('_WEBLINKS_TIME_EXPIRE_SET',  'Sæt udløbsdato');
-define('_WEBLINKS_TIME_EXPIRE_DESC', 'Hvis du ikke angiver noget forbliver udløbsdatoen udateret');
+define('_WEBLINKS_TIME_EXPIRE_DESC','Hvis du ikke angiver noget forbliver udløbsdatoen udateret');
 define('_WEBLINKS_DEL_LINK_CONFIRM','Godkend slet');
-define('_WEBLINKS_DEL_LINK_REASON', 'Årsag til slet');
+define('_WEBLINKS_DEL_LINK_REASON','Årsag til slet');
 
 // === 2007-11-01 ===
-define('_WEBLINKS_ERROR_LENGTH', "Fejl: %s skal være mindre end %s tegn");
+define('_WEBLINKS_ERROR_LENGTH',"Fejl: %s skal være mindre end %s tegn");
 
 // === 2008-02-17 ===
 // linkitem
-define('_WEBLINKS_PAGERANK', 'PageRank');
-define('_WEBLINKS_PAGERANK_UPDATE', 'Pagerank Opdateringstid');
-define('_WEBLINKS_GM_KML_DEBUG', 'Debug visning af KML');
+define('_WEBLINKS_PAGERANK','PageRank');
+define('_WEBLINKS_PAGERANK_UPDATE','Pagerank Opdateringstid');
+define('_WEBLINKS_GM_KML_DEBUG','Debug visning af KML');
 
 // gmap
-define('_WEBLINKS_SITE_GMAP', 'GoogleMaps Side');
+define('_WEBLINKS_SITE_GMAP','GoogleMaps Side');
 define('_WEBLINKS_KML_LIST',  'KML Liste');
-define('_WEBLINKS_KML_LIST_DESC', 'Download KML og vis i GoogleEarth');
-define('_WEBLINKS_KML_PERPAGE', 'Antal der skal adskilles');
+define('_WEBLINKS_KML_LIST_DESC','Download KML og vis i GoogleEarth');
+define('_WEBLINKS_KML_PERPAGE','Antal der skal adskilles');
 
 // pagerank
-define('_WEBLINKS_SITE_PAGERANK', 'Højt PageRank side');
+define('_WEBLINKS_SITE_PAGERANK','Højt PageRank side');
 
 }
 // --- define language end ---

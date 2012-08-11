@@ -30,7 +30,7 @@ define("_PM_MESSAGEC","Съобщение: ");
 define("_PM_CLEAR","Изчисти");
 define("_PM_CANCELSEND","Отказва изпращането");
 define("_PM_SUBMIT","Изпрати");
-define("_PM_SAVEINOUTBOX", "Ще запазите ли копие при Вас?");
+define("_PM_SAVEINOUTBOX","Ще запазите ли копие при Вас?");
 
 //%%%%%%	File Name viewpmsg.php 	%%%%%
 define("_PM_SUBJECT","Относно");
@@ -41,7 +41,7 @@ define("_PM_DELETE","Изтрива");
 define("_PM_TOSAVE","Запазва");
 define("_PM_UNSAVE","Нулриа");
 define("_PM_EMPTY","Празно");
-define("_PM_REPLY", "Отговор");
+define("_PM_REPLY","Отговор");
 define("_PM_PLZREG","Моля, регистррирайте се за да можете да ползвате тази услуга!");
 define("_PM_SAVED_PART","Разрешено Ви е да имате %d в кутията *Запазени* и Вие имате %d съобщения за момента");
 define("_PM_SAVED_ALL","Съобщенията са преместени в *Запазени*");
@@ -50,7 +50,7 @@ define("_PM_EMPTIED","Кутията е изпразнена");
 define("_PM_RUSUREEMPTY","Сигурен ли сте, че искате да изпразните кутията?");
 define("_PM_RUSUREDELETE","Сигурен ли сте, че искате да изтриете съобщението(та)?");
 
-define("_PM_ONLINE", "На линия");
+define("_PM_ONLINE","На линия");
 
 define("_PM_RECEIVE","RECIEVE");
 define("_PM_POST","POST");
@@ -80,13 +80,13 @@ define("_PM_NEXTP","Next");
 define("_PM_MAILNOTIFY","%s-Имате ново съобщение от %s");
 define("_PM_MAILMESSAGE","Здравейте!\nНово лично съобщение пристигна %s\n\nЗаглавието е\n%s\n\nМожете да го видите от тук\n%s\n\n-----------\nВие получавате това писмо, понеже сте избрали да бъдете известяван при ново съобщение\n\nМожете да го промените от настройките в профила Ви\n%s\n\nМоля, не отговаряйте на това писмо\n\n---------\nПоздравления\n%s\n%s\n%s");
 
-define("_PM_EMAIL", "Email");
-define("_PM_EMAIL_DESC", "%s, Това съобщение е препратено от Вашият профил в ".$xoopsConfig['sitename']);
-define("_PM_EMAIL_FROM", "От %s");
-define("_PM_EMAIL_TO", "До %s");
-define("_PM_EMAIL_SUBJECT", "[message]%s");
-define("_PM_EMAIL_MESSAGE", "Съдържание");
+define("_PM_EMAIL","Email");
+define("_PM_EMAIL_DESC","%s, Това съобщение е препратено от Вашият профил в ".$xoopsConfig['sitename']);
+define("_PM_EMAIL_FROM","От %s");
+define("_PM_EMAIL_TO","До %s");
+define("_PM_EMAIL_SUBJECT","[message]%s");
+define("_PM_EMAIL_MESSAGE","Съдържание");
 
-define("_PM_ACTION_DONE", "Операцията е успешна");
-define("_PM_ACTION_ERROR", "Операцията пропадна");
+define("_PM_ACTION_DONE","Операцията е успешна");
+define("_PM_ACTION_ERROR","Операцията пропадна");
 ?>

@@ -52,7 +52,7 @@ define("_MD_LINKID","Link ID: ");
 define("_MD_SITETITLE","Website Titel: ");
 define("_MD_SITEURL","Website URL: ");
 define("_MD_OPTIONS","Valgmuligheder: ");
-define("_MD_NOTIFYAPPROVE", "Informer mig når dette link bliver godkendt");
+define("_MD_NOTIFYAPPROVE","Informer mig når dette link bliver godkendt");
 define("_MD_SHOTIMAGE","Website billede: ");
 define("_MD_SENDREQUEST","Afsend");
 

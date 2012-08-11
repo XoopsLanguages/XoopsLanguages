@@ -9,8 +9,8 @@ define("_MI_TADCBOX_NAME","Chat Box");
 define("_MI_TADCBOX_AUTHOR","tad");
 define("_MI_TADCBOX_CREDITS","TNC");
 define("_MI_TADCBOX_DESC","یک ماژول ساده و راحت برای چت.");
-define("_MI_TADCBOX_ADMENU1", "پیام");
-define("_MI_TADCBOX_TEMPLATE_DESC1", "تمپلیت index_tpl.html");
+define("_MI_TADCBOX_ADMENU1","پیام");
+define("_MI_TADCBOX_TEMPLATE_DESC1","تمپلیت index_tpl.html");
 define("_MI_TADCBOX_BNAME1","Chat Box");
 define("_MI_TADCBOX_BDESC1","نمایش بلاک چت باکس");
 

@@ -26,13 +26,13 @@
 //  ------------------------------------------------------------------------ //
 //  --  Author: Simon Roberts (simon@chronolabs.org.au)                   -- //
 //  ------------------------------------------------------------------------ //
-	define('_XV_XTRANSAM_NAME', 'L-Translator');
-	define('_XV_XTRANSAM_DESC', 'ماژول L-Translator برای ترجمه فایل های زوپس استفاده میشود.<br><em>Written in memory of John Miller (Microsoft Australia)</em>');	
+	define('_XV_XTRANSAM_NAME','L-Translator');
+	define('_XV_XTRANSAM_DESC','ماژول L-Translator برای ترجمه فایل های زوپس استفاده میشود.<br><em>Written in memory of John Miller (Microsoft Australia)</em>');	
 	
-	define('_MI_XTRANSAM_ADMENU1', 'جادو ترجمه');
-	define('_MI_XTRANSAM_ADMENU2', 'انجام ترجمه');	
-	define('_MI_XTRANSAM_ADMENU3', 'زبان های پایه');	
+	define('_MI_XTRANSAM_ADMENU1','جادو ترجمه');
+	define('_MI_XTRANSAM_ADMENU2','انجام ترجمه');	
+	define('_MI_XTRANSAM_ADMENU3','زبان های پایه');	
 	
-	define('_XTL_STORE_METHOD', 'روش ذخیره سازی');
-	define('_XTL_STORE_METHODDESC', 'از این روش در پایگاه داده ها برای ذخیره اطلاعات استفاده میشود');	
+	define('_XTL_STORE_METHOD','روش ذخیره سازی');
+	define('_XTL_STORE_METHODDESC','از این روش در پایگاه داده ها برای ذخیره اطلاعات استفاده میشود');	
 ?>

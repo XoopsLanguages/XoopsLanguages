@@ -12,12 +12,12 @@
 
 if (!defined('XOOPS_ROOT_PATH')) { exit(); }
 
-define("TAG_MB_ITEMS", "Число для показа");
-define("TAG_MB_FONTSIZE_MAX", "Максимальный размер шрифта (%) для отображения");
-define("TAG_MB_FONTSIZE_MIN", "Минимальный размер шрифта (%) для отображения");
-define("TAG_MB_TIME_DURATION", "Продолжительность времени для статистики, в днях");
-define("TAG_MB_SORT", "Критерий сортировки");
-define("TAG_MB_ALPHABET", "Алфавит");
-define("TAG_MB_COUNT", "Количество элементов");
-define("TAG_MB_TIME", "Время");
+define("TAG_MB_ITEMS","Число для показа");
+define("TAG_MB_FONTSIZE_MAX","Максимальный размер шрифта (%) для отображения");
+define("TAG_MB_FONTSIZE_MIN","Минимальный размер шрифта (%) для отображения");
+define("TAG_MB_TIME_DURATION","Продолжительность времени для статистики, в днях");
+define("TAG_MB_SORT","Критерий сортировки");
+define("TAG_MB_ALPHABET","Алфавит");
+define("TAG_MB_COUNT","Количество элементов");
+define("TAG_MB_TIME","Время");
 ?>

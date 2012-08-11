@@ -8,7 +8,7 @@ define("_NW_COMMENTS","نظر");
 define("_NW_ONECOMMENT","1 نظر");
 define("_NW_BYTESMORE","%s کلمه در ادامه متن");
 define("_NW_NUMCOMMENTS","%s نظر");
-define("_NW_MORERELEASES", "خبرهای دیگر از");
+define("_NW_MORERELEASES","خبرهای دیگر از");
 
 
 //%%%%%%		File Name submit.php		%%%%%
@@ -113,6 +113,6 @@ define("_NW_BOOKMARK_TO_YAHOO","ارسال خبر به یاهو");
 
 // Added in version 1.56
 define('_NW_NOTYETSTORY',"متاسفانه خبر انتخاب‌شده شما هنوز منتشر نشده‌است. لطفا بعدا مراجعه و امتحان کنید.");
-define('_NW_SELECT_IMAGE', "انتخاب تصویر برای اضافه شدن به خبر");
-define('_NW_CURENT_PICTURE', "تصویر فعلی");
+define('_NW_SELECT_IMAGE',"انتخاب تصویر برای اضافه شدن به خبر");
+define('_NW_CURENT_PICTURE',"تصویر فعلی");
 ?>

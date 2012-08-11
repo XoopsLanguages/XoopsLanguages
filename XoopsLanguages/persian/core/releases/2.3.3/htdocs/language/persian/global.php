@@ -29,8 +29,8 @@ define("_MULTIPAGE"," برای چند صفحه‌ای کردن نوشته خود
 define("_IFNOTRELOAD","در صورتی که صفحه‌ی جديد نیامد <a href='%s'>اینجا</a> را کليک کنيد.");
 
 // Error messages issued by XoopsObject::cleanVars()
-define( "_XOBJ_ERR_REQUIRED", "%s لازم است" );
-define( "_XOBJ_ERR_SHORTERTHAN", "%s باید کمتر از %d نویسه داشته باشد." );
+define("_XOBJ_ERR_REQUIRED","%s لازم است" );
+define("_XOBJ_ERR_SHORTERTHAN","%s باید کمتر از %d نویسه داشته باشد." );
 
 //%%%%%%	File Name themeuserpost.php 	%%%%%
 define("_PROFILE","ويژگی‌های فردی");
@@ -51,8 +51,8 @@ define("_YOURHOME","صفحه‌ی‌اول");
 
 //%%%%%%	File Name misc.php (who's-online popup)	%%%%%
 define("_WHOSONLINE","چه کسانی در سايت هستند");
-define('_GUESTS', 'مهمان');
-define('_MEMBERS', 'عضو');
+define('_GUESTS','مهمان');
+define('_MEMBERS','عضو');
 define("_ONLINEPHRASE","<b>%s</b> کاربر آن‌لاين است");
 define("_ONLINEPHRASEX","<b>%s</b> کاربر در حال مشاهده‌ی سایت <b>%s</b>");
 define("_CLOSE","بستن");  // Close window
@@ -74,27 +74,27 @@ define("_ALIGN","چينش");
 define("_LEFT","چپ");
 define("_CENTER","ميان");
 define("_RIGHT","راست");
-define("_FORM_ENTER", "لطفا %s را وارد کنيد");
+define("_FORM_ENTER","لطفا %s را وارد کنيد");
 // %s represents file name
 define("_MUSTWABLE","پرونده %s باید بر روی کارگزار قابل نوشتن (writeble) باشد!");
 // Module info
-define('_PREFERENCES', 'ويژگی‌ها');
-define("_VERSION", "نسخه");
-define("_DESCRIPTION", "توضيح");
-define("_AUTHOR", "نویسنده");
-define("_CREDITS", "دست‌اندرکاران");
-define("_LICENCE", "مجوز");
-define("_ERRORS", "خطاها");
-define("_NONE", "هيچ يک");
+define('_PREFERENCES','ويژگی‌ها');
+define("_VERSION","نسخه");
+define("_DESCRIPTION","توضيح");
+define("_AUTHOR","نویسنده");
+define("_CREDITS","دست‌اندرکاران");
+define("_LICENCE","مجوز");
+define("_ERRORS","خطاها");
+define("_NONE","هيچ يک");
 define('_ON','در تاريخ');
 define('_READS','بار خوانده شده');
 define('_WELCOMETO','به %s خوش‌آمديد');
 define('_SEARCH','جستجو');
-define('_ALL', 'همه');
-define('_TITLE', 'عنوان');
-define('_OPTIONS', 'گزينه‌ها');
-define('_QUOTE', 'نقل قول');
-define('_LIST', 'فهرست');
+define('_ALL','همه');
+define('_TITLE','عنوان');
+define('_OPTIONS','گزينه‌ها');
+define('_QUOTE','نقل قول');
+define('_LIST','فهرست');
 define('_LOGIN','ورود کاربر');
 define('_USERNAME','شناسه‌ی کاربری: ');
 define('_PASSWORD','رمزعبور: ');
@@ -104,12 +104,12 @@ define("_SEND","بفرست");
 define("_CANCEL","بازگشت");
 define("_ASCENDING","مرتب‌سازی افزايشی");
 define("_DESCENDING","مرتب سازی کاهشی");
-define('_BACK', 'بازگشت');
-define('_NOTITLE', 'بدون‌عنوان');
+define('_BACK','بازگشت');
+define('_NOTITLE','بدون‌عنوان');
 
 /* Image manager */
 define('_IMGMANAGER','مدير تصاوير');
-define('_NUMIMAGES', 'تصوير %s');
+define('_NUMIMAGES','تصوير %s');
 define('_ADDIMAGE','اضافه‌کردن پرونده‌ی تصوير جديد');
 define('_IMAGENAME','نام');
 define('_IMGMAXSIZE','محدوديت حجم (کیلوبایت)');
@@ -120,17 +120,17 @@ define('_IMAGEFILE','نام فايل:');
 define('_IMGWEIGHT','چگونگی نمايش ');
 define('_IMGDISPLAY','تصوير نمايش داده‌شود؟');
 define('_IMAGEMIME','نوع MIME:');
-define('_FAILFETCHIMG', 'موفق به دريافت پرونده‌ی فرستاده‌شده %s نشديم');
-define('_FAILSAVEIMG', 'ٔذخيره %s در پايگاه‌داده به مشکل برخورد');
-define('_NOCACHE', 'بدون ذخيره‌سازی');
-define('_CLONE', 'نسخه‌برداری');
+define('_FAILFETCHIMG','موفق به دريافت پرونده‌ی فرستاده‌شده %s نشديم');
+define('_FAILSAVEIMG','ٔذخيره %s در پايگاه‌داده به مشکل برخورد');
+define('_NOCACHE','بدون ذخيره‌سازی');
+define('_CLONE','نسخه‌برداری');
 
 //%%%%%	File Name class/xoopsform/formmatchoption.php 	%%%%%
-define("_STARTSWITH", "آغاز با");
-define("_ENDSWITH", "پايان با");
-define("_MATCHES", "تطبيق");
-define("_CONTAINS", "دارای");
-define("_REQUIRED", "لازم");
+define("_STARTSWITH","آغاز با");
+define("_ENDSWITH","پايان با");
+define("_MATCHES","تطبيق");
+define("_CONTAINS","دارای");
+define("_REQUIRED","لازم");
 
 //%%%%%%	File Name commentform.php 	%%%%%
 define("_REGISTER","ثبت نام");
@@ -156,16 +156,16 @@ define("_PLZCOMPLETE","لطفا عنوان نوشته و متن داخل نوش�
 define("_MESSAGETOOLONG","نوشته‌ی شما طولانی است");
 
 //%%%%%		TIME FORMAT SETTINGS   %%%%%
-define('_SECOND', '1 ثانیه');
-define('_SECONDS', 'ثانیه %s');
-define('_MINUTE', '1 دقیقه');
-define('_MINUTES', 'دقیقه%s');
-define('_HOUR', ' 1 ساعت ');
-define('_HOURS', 'ساعت %s');
-define('_DAY', '1 روز');
-define('_DAYS', 'روز %s');
-define('_WEEK', '1 هفته');
-define('_MONTH', ' 1 ماه ');
+define('_SECOND','1 ثانیه');
+define('_SECONDS','ثانیه %s');
+define('_MINUTE','1 دقیقه');
+define('_MINUTES','دقیقه%s');
+define('_HOUR',' 1 ساعت ');
+define('_HOURS','ساعت %s');
+define('_DAY','1 روز');
+define('_DAYS','روز %s');
+define('_WEEK','1 هفته');
+define('_MONTH',' 1 ماه ');
 
 define("_DATESTRING","Y/n/j G:i:s");
 define("_MEDIUMDATESTRING","Y/n/j G:i");
@@ -189,7 +189,7 @@ m - month; i.e. "01" to "12"
 n - month without leading zeros; i.e. "1" to "12"
 M - month, textual, 3 letters; i.e. "Jan"
 s - seconds; i.e. "00" to "59"
-S - English ordinal suffix, textual, 2 characters; i.e. "th", "nd"
+S - English ordinal suffix, textual, 2 characters; i.e. "th","nd"
 t - number of days in the given month; i.e. "28" to "31"
 T - Timezone setting of this machine; i.e. "MDT"
 U - seconds since the epoch
@@ -202,10 +202,10 @@ Z - timezone offset in seconds (i.e. "-43200" to "43200")
 
 
 //%%%%%		LANGUAGE SPECIFIC SETTINGS   %%%%%
-define('_CHARSET', 'utf-8');
-define('_LANGCODE', 'fa');
+define('_CHARSET','utf-8');
+define('_LANGCODE','fa');
 
 // change 0 to 1 if this language is a multi-bytes language
-define("XOOPS_USE_MULTIBYTES", "1");
+define("XOOPS_USE_MULTIBYTES","1");
 
 ?>

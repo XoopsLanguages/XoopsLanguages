@@ -48,48 +48,48 @@ define('_MI_NEWS_SMNAME1','뉴스 투고');
 define('_MI_NEWS_SMNAME2','아카이브');
 
 // Names of admin menu items
-define('_MI_NEWS_ADMENU2', '토픽 관리');
-define('_MI_NEWS_ADMENU3', '뉴스기사 투고/편집');
+define('_MI_NEWS_ADMENU2','토픽 관리');
+define('_MI_NEWS_ADMENU3','뉴스기사 투고/편집');
 
 // Title of config items
-define('_MI_STORYHOME', '메인페이지에 게재할 기사 수');
-define('_MI_NOTIFYSUBMIT', '신규 투고가 있을 경우 메일로 통지');
-define('_MI_DISPLAYNAV', '네비게션 박스를 표시');
+define('_MI_STORYHOME','메인페이지에 게재할 기사 수');
+define('_MI_NOTIFYSUBMIT','신규 투고가 있을 경우 메일로 통지');
+define('_MI_DISPLAYNAV','네비게션 박스를 표시');
 define('_MI_ANONPOST','손님의 뉴스투고를 허가함');
 define('_MI_AUTOAPPROVE','신규 투고 기사를 자동승인/게재 처리함');
 
 // Description of each config items
-define('_MI_STORYHOMEDSC', '메인(톱)페이지에 표시할 기사의 수를 지정해 주세요');
-define('_MI_NOTIFYSUBMITDSC', '신규 투고가 있을 경우 메일로 관리자에게 통지할지를 선택해 주세요');
-define('_MI_DISPLAYNAVDSC', '카테고리선택용 네비게이션박스를 기사의 상부에 표시할지를 선택해 주세요');
-define('_MI_AUTOAPPROVEDSC', '신규 투고 기사를 자동승인/게재 처리할지를 선택해 주세요');
+define('_MI_STORYHOMEDSC','메인(톱)페이지에 표시할 기사의 수를 지정해 주세요');
+define('_MI_NOTIFYSUBMITDSC','신규 투고가 있을 경우 메일로 관리자에게 통지할지를 선택해 주세요');
+define('_MI_DISPLAYNAVDSC','카테고리선택용 네비게이션박스를 기사의 상부에 표시할지를 선택해 주세요');
+define('_MI_AUTOAPPROVEDSC','신규 투고 기사를 자동승인/게재 처리할지를 선택해 주세요');
 
 // Text for notifications
 
-define('_MI_NEWS_GLOBAL_NOTIFY', '모듈 전체');
-define('_MI_NEWS_GLOBAL_NOTIFYDSC', '뉴스 모듈 전체에 대한 통지 옵션');
+define('_MI_NEWS_GLOBAL_NOTIFY','모듈 전체');
+define('_MI_NEWS_GLOBAL_NOTIFYDSC','뉴스 모듈 전체에 대한 통지 옵션');
 
-define('_MI_NEWS_STORY_NOTIFY', '현 뉴스기사');
-define('_MI_NEWS_STORY_NOTIFYDSC', '현 뉴스기사에 대한 통지 옵션');
+define('_MI_NEWS_STORY_NOTIFY','현 뉴스기사');
+define('_MI_NEWS_STORY_NOTIFYDSC','현 뉴스기사에 대한 통지 옵션');
 
-define('_MI_NEWS_GLOBAL_NEWCATEGORY_NOTIFY', '신규 토픽');
-define('_MI_NEWS_GLOBAL_NEWCATEGORY_NOTIFYCAP', '신규 토픽이 작성된 경우 통지함.');
-define('_MI_NEWS_GLOBAL_NEWCATEGORY_NOTIFYDSC', '신규 토픽이 작성된 경우 통지합니다.');
-define('_MI_NEWS_GLOBAL_NEWCATEGORY_NOTIFYSBJ', '[{X_SITENAME}] {X_MODULE} auto-notify : 신규 토픽이 작성되었습니다.');
+define('_MI_NEWS_GLOBAL_NEWCATEGORY_NOTIFY','신규 토픽');
+define('_MI_NEWS_GLOBAL_NEWCATEGORY_NOTIFYCAP','신규 토픽이 작성된 경우 통지함.');
+define('_MI_NEWS_GLOBAL_NEWCATEGORY_NOTIFYDSC','신규 토픽이 작성된 경우 통지합니다.');
+define('_MI_NEWS_GLOBAL_NEWCATEGORY_NOTIFYSBJ','[{X_SITENAME}] {X_MODULE} auto-notify : 신규 토픽이 작성되었습니다.');
 
-define('_MI_NEWS_GLOBAL_STORYSUBMIT_NOTIFY', '신규 뉴스기사 투고');       
-define('_MI_NEWS_GLOBAL_STORYSUBMIT_NOTIFYCAP', '신규 뉴스기사의 투고가 있을 경우 통지함.');                           
-define('_MI_NEWS_GLOBAL_STORYSUBMIT_NOTIFYDSC', '신규 뉴스기사의 투고가 있을 경우 통지합니다.');                
-define('_MI_NEWS_GLOBAL_STORYSUBMIT_NOTIFYSBJ', '[{X_SITENAME}] {X_MODULE} auto-notify : 신규 뉴스기사가 투고되었습니다.');                              
+define('_MI_NEWS_GLOBAL_STORYSUBMIT_NOTIFY','신규 뉴스기사 투고');       
+define('_MI_NEWS_GLOBAL_STORYSUBMIT_NOTIFYCAP','신규 뉴스기사의 투고가 있을 경우 통지함.');                           
+define('_MI_NEWS_GLOBAL_STORYSUBMIT_NOTIFYDSC','신규 뉴스기사의 투고가 있을 경우 통지합니다.');                
+define('_MI_NEWS_GLOBAL_STORYSUBMIT_NOTIFYSBJ','[{X_SITENAME}] {X_MODULE} auto-notify : 신규 뉴스기사가 투고되었습니다.');                              
 
-define('_MI_NEWS_GLOBAL_NEWSTORY_NOTIFY', '신규 뉴스기사 게재');       
-define('_MI_NEWS_GLOBAL_NEWSTORY_NOTIFYCAP', '신규 뉴스기사가 정식 게재된 경우 통지함');
-define('_MI_NEWS_GLOBAL_NEWSTORY_NOTIFYDSC', '신규 뉴스기사가 정식 게재된 경우 통지합니다.');
-define('_MI_NEWS_GLOBAL_NEWSTORY_NOTIFYSBJ', '[{X_SITENAME}] {X_MODULE} auto-notify : 신규 뉴스기사가 정식게재되었습니다.');                              
+define('_MI_NEWS_GLOBAL_NEWSTORY_NOTIFY','신규 뉴스기사 게재');       
+define('_MI_NEWS_GLOBAL_NEWSTORY_NOTIFYCAP','신규 뉴스기사가 정식 게재된 경우 통지함');
+define('_MI_NEWS_GLOBAL_NEWSTORY_NOTIFYDSC','신규 뉴스기사가 정식 게재된 경우 통지합니다.');
+define('_MI_NEWS_GLOBAL_NEWSTORY_NOTIFYSBJ','[{X_SITENAME}] {X_MODULE} auto-notify : 신규 뉴스기사가 정식게재되었습니다.');                              
 
-define('_MI_NEWS_STORY_APPROVE_NOTIFY', '뉴스기사 승인/게재');
-define('_MI_NEWS_STORY_APPROVE_NOTIFYCAP', '이 뉴스기사가 정식 승인/게재된 경우 통지함');
-define('_MI_NEWS_STORY_APPROVE_NOTIFYDSC', '이 뉴스기사가 정식 승인/게재된 경우 통지합니다.');
-define('_MI_NEWS_STORY_APPROVE_NOTIFYSBJ', '[{X_SITENAME}] {X_MODULE} auto-notify : 뉴스기사가 승인/게재되었습니다.');
+define('_MI_NEWS_STORY_APPROVE_NOTIFY','뉴스기사 승인/게재');
+define('_MI_NEWS_STORY_APPROVE_NOTIFYCAP','이 뉴스기사가 정식 승인/게재된 경우 통지함');
+define('_MI_NEWS_STORY_APPROVE_NOTIFYDSC','이 뉴스기사가 정식 승인/게재된 경우 통지합니다.');
+define('_MI_NEWS_STORY_APPROVE_NOTIFYSBJ','[{X_SITENAME}] {X_MODULE} auto-notify : 뉴스기사가 승인/게재되었습니다.');
 
 ?>

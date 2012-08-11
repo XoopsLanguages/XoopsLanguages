@@ -12,6 +12,6 @@ define('_MD_CSTAVATARS','Egna avatarer');
 define('_MD_ADDAVT','Lägg till avatar');
 define('_MD_USERS','Användare som använder den här avataren');
 define('_MD_RUDELIMG','Är du säker på att du vill radera den här avataren?');
-define('_MD_FAILDEL', 'Misslyckades med att radera avataren %s från databasen');
+define('_MD_FAILDEL','Misslyckades med att radera avataren %s från databasen');
 
 ?>

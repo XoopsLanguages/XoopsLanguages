@@ -38,7 +38,7 @@ define('_US_REGISTERNG','Nového uživatele nelze regiostrovat.');
 define('_US_MAILOK','Chci dostávat občasné informace od<br />administrátorů a moderátorů?');
 define('_US_DISCLAIMER','Prohlášení');
 define('_US_IAGREE','Potvrzuji, jak je uvedeno výše');
-define('_US_UNEEDAGREE', 'musíte souhlasit s prohlášením.');
+define('_US_UNEEDAGREE','musíte souhlasit s prohlášením.');
 define('_US_NOREGISTER','Omlouváme se, nyní je databáze uzamčena pro nové registrace');
 
 
@@ -71,15 +71,15 @@ define('_US_SORRYNOTFOUND','Omluváme se, odpovídající info o uživateli neby
 
 // %s is your site name
 define('_US_NEWPWDREQ','Požadavek na nové heslo na %s');
-define('_US_YOURACCOUNT', 'Váš účet na %s');
+define('_US_YOURACCOUNT','Váš účet na %s');
 
 define('_US_MAILPWDNG','mail_password: nelze aktualizovat uživatelská data. Spojte se se správcem');
 
 // %s is a username
 define('_US_PWDMAILED','Heslo pro uživatele %s bylo odesláno.');
 define('_US_CONFMAIL','Potvrzovací zpráva pro uživatele %s byla odeslána.');
-define('_US_ACTVMAILNG', 'Selhalo upozornění pro %s');
-define('_US_ACTVMAILOK', 'Upozornění pro uživatele %s bylo odesláno.');
+define('_US_ACTVMAILNG','Selhalo upozornění pro %s');
+define('_US_ACTVMAILOK','Upozornění pro uživatele %s bylo odesláno.');
 
 //%%%%%%		File Name userinfo.php 		%%%%%
 define('_US_SELECTNG','Nebyl vybrán žádný uživatel! Vraťte se zpět a zkuste to znovu.');
@@ -123,16 +123,16 @@ define('_US_PROFUPDATED','Váš profil byl aktualizován!');
 define('_US_USECOOKIE','Uložit Vaše uživatelské jméno do cookies ve vašem počítači na dobu jednoho roku.');
 define('_US_NO','Ne');
 define('_US_DELACCOUNT','Smazat účet');
-define('_US_MYAVATAR', 'Moje ikona');
-define('_US_UPLOADMYAVATAR', 'Nahrát vlastní ikonu');
+define('_US_MYAVATAR','Moje ikona');
+define('_US_UPLOADMYAVATAR','Nahrát vlastní ikonu');
 define('_US_MAXPIXEL','Max. pixelů');
 define('_US_MAXIMGSZ','Max. velikost ikony (Bytů)');
 define('_US_SELFILE','Vybrat soubor');
 define('_US_OLDDELETED','Vaše stará ikona byla smazána!');
-define('_US_CHOOSEAVT', 'Vyberte si ikonu se seznamu');
+define('_US_CHOOSEAVT','Vyberte si ikonu se seznamu');
 
-define('_US_PRESSLOGIN', 'Zvolte tlačítko níže pro přihlášení');
+define('_US_PRESSLOGIN','Zvolte tlačítko níže pro přihlášení');
 
-define('_US_ADMINNO', 'Ve skupině <b>webmasters</b> musí zůstat alespoň jeden uživatel');
-define('_US_GROUPS', 'Uživatelovy skupiny');
+define('_US_ADMINNO','Ve skupině <b>webmasters</b> musí zůstat alespoň jeden uživatel');
+define('_US_GROUPS','Uživatelovy skupiny');
 ?>

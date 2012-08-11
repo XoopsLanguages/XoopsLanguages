@@ -21,7 +21,7 @@
  */
 
 define("_AM_BOOX_DBUPDATED","Base de données mise à jour avec succès");
-define("_AM_BOOX_GENERALSET", "Options du module" );
+define("_AM_BOOX_GENERALSET","Options du module" );
 define("_AM_BOOX_MODULEADMIN","Administration du module");
 define("_AM_BOOX_EDIT","Modifier");
 define("_AM_BOOX_DELETE","Supprimer");

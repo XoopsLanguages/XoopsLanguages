@@ -255,8 +255,8 @@ if ($location=='indice'){
 	define('_RMDP_MAIL_SUBJECT','دانلود شما مورد تایید قرار گرفت');
 	define('_AM_RMDP_OSS','سیستم عاملها:');
 	// Mensajes y redirecciones
-	define('_AM_RMDP_DELCONFIRM', 'آیا مطمئن هستید که می خواهید این عنصر را پاک کنید؟');
-	define('_AM_RMDP_DELOK', 'این عنصر با موفقیت حذف شد.');
+	define('_AM_RMDP_DELCONFIRM','آیا مطمئن هستید که می خواهید این عنصر را پاک کنید؟');
+	define('_AM_RMDP_DELOK','این عنصر با موفقیت حذف شد.');
 	
 	// Nuevo en la version 1.3 //
 	define('_AM_RMDP_FFILEURL','آدرس فایل:');

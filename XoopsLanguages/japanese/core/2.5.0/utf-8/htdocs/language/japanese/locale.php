@@ -21,18 +21,18 @@
  * @version         $Id: locale.php 3152 2009-04-18 13:30:57Z catzwolf $
  * @todo            To be handled by i18n/l10n
  */
-defined('XOOPS_ROOT_PATH') or die('制限されたアクセス');
+defined('XOOPS_ROOT_PATH') or die('åˆ¶é™ã•ã‚ŒãŸã‚¢ã‚¯ã‚»ã‚¹');
 
 setlocale(LC_ALL, 'en_US');
 
-// !!IMPORTANT!! insert '\' before any char among reserved chars: "a", "A", "B", "c", "d", "D", "F", "g", "G", "h", "H", "i", "I", "j", "l", "L", "m", "M", "n", "O", "r", "s", "S", "t", "T", "U", "w", "W", "Y", "y", "z", "Z"    
-// insert double '\' before 't', 'r', 'n'
-define("_TODAY", "\T\o\d\a\y G:i");
-define("_YESTERDAY", "\Y\e\s\\t\e\\r\d\a\y G:i");
-define("_MONTHDAY", "n/j G:i");
-define("_YEARMONTHDAY", "Y/n/j G:i");
-define("_ELAPSE", "%s ago");
-define("_TIMEFORMAT_DESC", "Valid formats: \"s\" - " . _SHORTDATESTRING . "; \"m\" - " . _MEDIUMDATESTRING . "; \"l\" - " . _DATESTRING . ";<br />" . "\"c\" or \"custom\" - format determined according to interval to present; \"e\" - Elapsed; \"mysql\" - Y-m-d H:i:s;<br />" . "specified string - Refer to <a href=\"http://php.net/manual/en/function.date.php\" rel=\"external\">PHP manual</a>.");
+// !!IMPORTANT!! insert '\' before any char among reserved chars: "a","A","B","c","d","D","F","g","G","h","H","i","I","j","l","L","m","M","n","O","r","s","S","t","T","U","w","W","Y","y","z","Z"    
+// insert double '\' before 't','r','n'
+define("_TODAY","\T\o\d\a\y G:i");
+define("_YESTERDAY","\Y\e\s\\t\e\\r\d\a\y G:i");
+define("_MONTHDAY","n/j G:i");
+define("_YEARMONTHDAY","Y/n/j G:i");
+define("_ELAPSE","%s ago");
+define("_TIMEFORMAT_DESC","Valid formats: \"s\" - " . _SHORTDATESTRING . "; \"m\" - " . _MEDIUMDATESTRING . "; \"l\" - " . _DATESTRING . ";<br />" . "\"c\" or \"custom\" - format determined according to interval to present; \"e\" - Elapsed; \"mysql\" - Y-m-d H:i:s;<br />" . "specified string - Refer to <a href=\"http://php.net/manual/en/function.date.php\" rel=\"external\">PHP manual</a>.");
 
 /**
  * A Xoops Local
@@ -53,7 +53,7 @@ class XoopsLocal extends XoopsLocalAbstract
      */
     function number_format($number)
     {
-        return number_format($number, 2, '.', ',');
+        return number_format($number, 2, '.',',');
     }
     
     /**

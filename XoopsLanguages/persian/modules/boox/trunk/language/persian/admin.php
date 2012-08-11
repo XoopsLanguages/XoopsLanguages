@@ -21,7 +21,7 @@
  */
 
 define("_AM_BOOX_DBUPDATED","پایگاه داده ها با موفقیت به روز شد");
-define("_AM_BOOX_GENERALSET", "گزینه های ماژول" );
+define("_AM_BOOX_GENERALSET","گزینه های ماژول" );
 define("_AM_BOOX_MODULEADMIN","مدیریت ماژول");
 define("_AM_BOOX_EDIT","ویرایش");
 define("_AM_BOOX_DELETE","حذف");

@@ -2,21 +2,21 @@
 // $Id: main.php,v 1.9 2004/12/26 19:12:13 onokazu Exp $
 //%%%%%%	File Name pollresults.php 	%%%%%
 define("_PL_TOTALVOTES","Ukupno glasova: %s");
-define("_PL_TOTALVOTERS","Ukupno glasaËa: %s");
+define("_PL_TOTALVOTERS","Ukupno glasa√®a: %s");
 
 //%%%%%%	File Name index.php 	%%%%%
 define("_PL_POLLSLIST","Lista anketa");
-define("_PL_ALREADYVOTED", "éao mi je, vi ste veÊ dali svoj glas.");
-define("_PL_THANKSFORVOTE","Hvala öto ste glasovali!");
-define("_PL_SORRYEXPIRED", "éao mi je, anketa je zastarjela.");
-define("_PL_YOURPOLLAT", "%s, vaö glas na %s"); // 1st %s is user name, 2nd %s is site name
-define("_PL_PREV", "Proöla");
-define("_PL_NEXT", "SljedeÊa");
-define("_PL_POLLQUESTION", "Anketna pitanja");
-define("_PL_VOTERS", "Ukupno glasaËa");
-define("_PL_VOTES", "Ukupno glasova");
-define("_PL_EXPIRATION", "Zastarjeva");
-define("_PL_EXPIRED", "Zastarjelo");
+define("_PL_ALREADYVOTED","≈Ωao mi je, vi ste ve√¶ dali svoj glas.");
+define("_PL_THANKSFORVOTE","Hvala ≈°to ste glasovali!");
+define("_PL_SORRYEXPIRED","≈Ωao mi je, anketa je zastarjela.");
+define("_PL_YOURPOLLAT","%s, va≈° glas na %s"); // 1st %s is user name, 2nd %s is site name
+define("_PL_PREV","Pro≈°la");
+define("_PL_NEXT","Sljede√¶a");
+define("_PL_POLLQUESTION","Anketna pitanja");
+define("_PL_VOTERS","Ukupno glasa√®a");
+define("_PL_VOTES","Ukupno glasova");
+define("_PL_EXPIRATION","Zastarjeva");
+define("_PL_EXPIRED","Zastarjelo");
 
 //%%%%%%	File Name xoopspollrenderer.php 	%%%%%
 // %s represents date

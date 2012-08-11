@@ -38,8 +38,8 @@ define("_AM_UNEED2ENTER","Je moet de benodigde informatie invullen!");
 // Added in RC3
 define("_AM_BLOCKRIGHTS","Blokeer toegangs rechten");
 
-define('_AM_FINDU4GROUP', 'Zoek gebruikers voor deze groep');
-define('_AM_GROUPSMAIN', 'Groeps home');
+define('_AM_FINDU4GROUP','Zoek gebruikers voor deze groep');
+define('_AM_GROUPSMAIN','Groeps home');
 
-define('_AM_ADMINNO', 'Er moet op zijn minst een webmaster groep zijn');
+define('_AM_ADMINNO','Er moet op zijn minst een webmaster groep zijn');
 ?>

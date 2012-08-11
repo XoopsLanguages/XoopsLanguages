@@ -5,7 +5,7 @@
 define("_MD_THANKSFORINFO","Hvala ti na informaciji.Uskoro &#263;emo pregledati tvoj zahtjev.");
 define("_MD_THANKSFORHELP","Hvala ti na podr&scaron;ci.");
 define("_MD_FORSECURITY","Iz sigurnosnih razloga se Nik ime i IP adresa bilje&#382;, zbog zlonamjernih osoba kojima nije stalo do nas i koji &#382;ele da nam na&scaron;kode.");
-define("_MD_NOPERMISETOLINK", "Ovaj podatak nije vlasni&scaron;tvo stranice odakle nam ovdje linkuje&scaron; <br /><br />Molim te javi se tamo webmasteru i javi mu:   <br /><b>Ne kradi tu&#273;e!!</b> <br /><br /><b>Definicija kradljivaca:</b> Pojedini ukradu materijal sa drugih webstranica i na kraju tvrde da je to njihov materijal <br /><br />  Tvoja IP addresa <b>je zabilje&#382;ena</b>.");
+define("_MD_NOPERMISETOLINK","Ovaj podatak nije vlasni&scaron;tvo stranice odakle nam ovdje linkuje&scaron; <br /><br />Molim te javi se tamo webmasteru i javi mu:   <br /><b>Ne kradi tu&#273;e!!</b> <br /><br /><b>Definicija kradljivaca:</b> Pojedini ukradu materijal sa drugih webstranica i na kraju tvrde da je to njihov materijal <br /><br />  Tvoja IP addresa <b>je zabilje&#382;ena</b>.");
 define("_MD_ALL","SVE");
 define("_MD_DESCRIPTION","Opis");
 define("_MD_SEARCH","Search");
@@ -63,8 +63,8 @@ define("_MD_NUMBYTES","%s byta");
 define("_MD_PLATFORMC","Platforma: ");
 define("_MD_SHOTIMAGE","Pregledna slika: ");
 define("_MD_SENDREQUEST","Po&scaron;alji zahtjev");
-define("_MD_OPTIONS", 'Opcije: ');
-define("_MD_NOTIFYAPPROVE", 'Obavjesti me ako zahtjev bude odobren');
+define("_MD_OPTIONS",'Opcije: ');
+define("_MD_NOTIFYAPPROVE",'Obavjesti me ako zahtjev bude odobren');
 
 define("_MD_VOTEAPPRE","Tvoja ocjena je zabilje&#382;ena.");
 define("_MD_THANKYOU","Hvala ti na datom glasu za %s"); // %s is your site name
@@ -181,11 +181,11 @@ define("_MD_VISITAT","Vidi svoju Download sekciju na %s");
 define("_MD_DLRATINGS","Download ocjena (ukupno: %s)");
 define("_MD_ISAPPROVED","Odobren je tvoj Download");
 
-// Ajout Hervé
+// Ajout HervÃ©
 define("_MD_UPLOAD_FILE","Ili izarei podatak za upload:");
 define('_MD_UPLOAD_ERROR','Gre&scaron;ka kod uploada podatka');
 define("_MD_SUMMARY","Summary");
 define("_AM_MD_GO_TO_MODULE","Idi u modul");
-define("_AM_MD_ADMINISTRATION", "Administracija");
-define("_AM_MD_DEL_ITEM", "Jesi li siguran(a) da treba ovo izbrisati ?");
+define("_AM_MD_ADMINISTRATION","Administracija");
+define("_AM_MD_DEL_ITEM","Jesi li siguran(a) da treba ovo izbrisati ?");
 ?>

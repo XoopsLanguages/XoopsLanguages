@@ -44,7 +44,7 @@ define('_US_REGISTERNG','امکان ثبت کاربر جدید نیست');
 define('_US_MAILOK','دریافت اگهی‌های جدید در مورد سایت');
 define('_US_DISCLAIMER','شرایط عضویت');
 define('_US_IAGREE','شرایط بالا را قبول دارم');
-define('_US_UNEEDAGREE', 'متاسفانه، شما باید شرایط ما را قبول کنید تا بتوانید به عضویت سایت در‌آیید');
+define('_US_UNEEDAGREE','متاسفانه، شما باید شرایط ما را قبول کنید تا بتوانید به عضویت سایت در‌آیید');
 define('_US_NOREGISTER','متاسفانه در حال حاضر امکان عضو‌گیری جدید نداریم');
 
 
@@ -77,15 +77,15 @@ define('_US_SORRYNOTFOUND','متاسفانه هیچ هماهنگی بین اطل
 
 // %s is your site name
 define('_US_NEWPWDREQ','در خواست رمزعبور جدید در %s');
-define('_US_YOURACCOUNT', 'شناسه‌ی کاربری شما در %s');
+define('_US_YOURACCOUNT','شناسه‌ی کاربری شما در %s');
 
 define('_US_MAILPWDNG','فرستادن رمزعبور با پست‌الکترونیکی: به روز‌رسانی در پایگاه‌داده با مشکل روبرو شد، به مدیر سایت خبر دهید.');
 
 // %s is a username
 define('_US_PWDMAILED','رمزعبور %s به نشانی پست الکترونیکی‌اش فرستاده‌شد');
 define('_US_CONFMAIL','نامه‌ی تاییدیه برای %s فرستاده شد.');
-define('_US_ACTVMAILNG', 'فرستادن نامه‌ی آگهی‌رسانی برای %s با مشکل روبرو شد.');
-define('_US_ACTVMAILOK', 'نامه‌ی آگهی‌رسانی به %s با موفقیت ارسال شد.');
+define('_US_ACTVMAILNG','فرستادن نامه‌ی آگهی‌رسانی برای %s با مشکل روبرو شد.');
+define('_US_ACTVMAILOK','نامه‌ی آگهی‌رسانی به %s با موفقیت ارسال شد.');
 
 //%%%%%%		File Name userinfo.php 		%%%%%
 define('_US_SELECTNG','کاربری انتخاب نشده، برگردید و دوباره تلاش کنید');
@@ -129,22 +129,22 @@ define('_US_PROFUPDATED','ویژگی‌های فردی شما به روز شد')
 define('_US_USECOOKIE','شناسه‌ی کاربری من تا یک سال در Cookie نگه داری شود');
 define('_US_NO','نه');
 define('_US_DELACCOUNT','حذف‌ شناسه');
-define('_US_MYAVATAR', 'تصویر شما');
-define('_US_UPLOADMYAVATAR', 'واردکردن تصویر');
+define('_US_MYAVATAR','تصویر شما');
+define('_US_UPLOADMYAVATAR','واردکردن تصویر');
 define('_US_MAXPIXEL','بیشترین طول');
 define('_US_MAXIMGSZ','بیشترین حجم به بایت ');
 define('_US_SELFILE','انتخاب پرونده');
 define('_US_OLDDELETED','تصویر قبلی شما حذف شد');
-define('_US_CHOOSEAVT', 'تصویری از بین تصویر‌ها انتخاب کنید');
+define('_US_CHOOSEAVT','تصویری از بین تصویر‌ها انتخاب کنید');
 
-define('_US_PRESSLOGIN', 'کلید بالا را برای وارد‌شدن فشار دهید');
+define('_US_PRESSLOGIN','کلید بالا را برای وارد‌شدن فشار دهید');
 
-define('_US_ADMINNO', 'کاربری که عضو گروه گردانندگان سایت (وب مسترها) است را نمی‌توانید حذف کنید');
-define('_US_GROUPS', 'گروه‌ها');
+define('_US_ADMINNO','کاربری که عضو گروه گردانندگان سایت (وب مسترها) است را نمی‌توانید حذف کنید');
+define('_US_GROUPS','گروه‌ها');
 
-define('_US_REMEMBERME', 'ورود خودکار ');
+define('_US_REMEMBERME','ورود خودکار ');
 
 // Welcoming emai/PM subject
-define('_US_WELCOME_SUBJECT', 'به %s خوش آمدید');
+define('_US_WELCOME_SUBJECT','به %s خوش آمدید');
 
 ?>

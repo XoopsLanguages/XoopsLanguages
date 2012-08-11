@@ -2,7 +2,7 @@
 
 if( defined( 'FOR_XOOPS_LANG_CHECKER' ) || ! defined( 'MYALBUM_BL_LOADED' ) ) {
 
-define( 'MYALBUM_BL_LOADED' , 1 ) ;
+define('MYALBUM_BL_LOADED' , 1 ) ;
 
 // Blocks
 define("_ALBM_BTITLE_TOPNEW","تصاویر جدید");

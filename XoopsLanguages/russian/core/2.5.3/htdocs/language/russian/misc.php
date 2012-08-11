@@ -24,8 +24,8 @@ define('_MSC_CLICKASMILIE','Нажмите на смайлик для встав
 define('_MSC_CODE','Код');
 define('_MSC_EMOTION','Эмоция');
 
-define('_MSC_CLICK_TO_OPEN_IMAGE', 'Открыть изображение в новом окне');
-define('_MSC_RESIZED_IMAGE', 'Изменённое изображение');
-define('_MSC_ORIGINAL_IMAGE', 'Исходное изображение');
+define('_MSC_CLICK_TO_OPEN_IMAGE','Открыть изображение в новом окне');
+define('_MSC_RESIZED_IMAGE','Изменённое изображение');
+define('_MSC_ORIGINAL_IMAGE','Исходное изображение');
 
 ?>

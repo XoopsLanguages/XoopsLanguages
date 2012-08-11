@@ -29,7 +29,7 @@
 // Project: The XOOPS Project                                                //
 // ------------------------------------------------------------------------- //
 
-define("_XOOPS_EDITOR_KOIVI", "ویرایشگر Koivi");
+define("_XOOPS_EDITOR_KOIVI","ویرایشگر Koivi");
 
 define("_XK_LEFTTORIGHT","نوشتن از چپ به راست");
 define("_XK_RIGHTTOLEFT","نوشتن از راست به چپ");

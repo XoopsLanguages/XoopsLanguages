@@ -8,7 +8,7 @@ define("_MA_NW_COMMENTS","Komentari?");
 define("_MA_NW_ONECOMMENT","1 komentar");
 define("_MA_NW_BYTESMORE","%s bajta više");
 define("_MA_NW_NUMCOMMENTS","%s komentara");
-define("_MA_NW_MORERELEASES", "Više izdanja u ");
+define("_MA_NW_MORERELEASES","Više izdanja u ");
 
 
 //%%%%%%		File Name submit.php		%%%%%
@@ -113,20 +113,20 @@ define("_MA_NW_BOOKMARK_TO_YAHOO","Označi za Yahoo");
 
 // Added in version 1.56
 define("_MA_NW_NOTYETSTORY","Oprostite, izabrana objava još nije objavljena. Molimo navratite kasnije i probajte ponovo.");
-define("_MA_NW_SELECT_IMAGE", "Izaberite sliku koju ćete dodati novosti");
-define("_MA_NW_CURENT_PICTURE", "Trenutna slika");
+define("_MA_NW_SELECT_IMAGE","Izaberite sliku koju ćete dodati novosti");
+define("_MA_NW_CURENT_PICTURE","Trenutna slika");
 
 // Added in version 1.68 BETA
-define("_MA_NW_SP", ":");
-define("_MA_NW_POSTED", "Objavljeno");
+define("_MA_NW_SP",":");
+define("_MA_NW_POSTED","Objavljeno");
 
 // Added in version 1.68 RC1
-define("_MA_NW_NO_COMMENT", "Nema komenatara");
-define("_MA_NW_METASIZE", "Žao nam je, ne možete dodati više od '+len+' znakova u tekstno polje koje ste upravo ispunili.");
+define("_MA_NW_NO_COMMENT","Nema komenatara");
+define("_MA_NW_METASIZE","Žao nam je, ne možete dodati više od '+len+' znakova u tekstno polje koje ste upravo ispunili.");
 
 // Added in version 1.68 RC3
-define("_MA_NW_SEO_TOPICS", "kategorije");
-define("_MA_NW_SEO_ARTICLES", "članci");
-define("_MA_NW_SEO_PRINT", "ispis");
-define("_MA_NW_SEO_PDF", "pdf");
+define("_MA_NW_SEO_TOPICS","kategorije");
+define("_MA_NW_SEO_ARTICLES","članci");
+define("_MA_NW_SEO_PRINT","ispis");
+define("_MA_NW_SEO_PDF","pdf");
 ?>

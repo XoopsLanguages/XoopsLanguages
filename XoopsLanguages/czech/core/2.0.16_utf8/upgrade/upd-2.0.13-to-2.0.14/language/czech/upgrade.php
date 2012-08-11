@@ -1,21 +1,21 @@
 <?php
 // $Id: upgrade.php 506 2006-05-26 23:10:37Z skalpa $
-define("_UPGRADE_L0", "Vítejte v aktualizačním průvodci : Xoops 2.0.13 --> Xoops 2.0.14");
-define("_UPGRADE_L1", "Aktualizace Xoops 2.0.13 na 2.0.14");
-define("_UPGRADE_L2", "Před samotnou aktualizací se přihlašte jako administrátor!");
-define("_UPGRADE_L3", "XOOPS 2.0.14 obsahuje nový autentizační systém, který vyžaduje též aktualizaci databáze.<br />" .
+define("_UPGRADE_L0","Vítejte v aktualizačním průvodci : Xoops 2.0.13 --> Xoops 2.0.14");
+define("_UPGRADE_L1","Aktualizace Xoops 2.0.13 na 2.0.14");
+define("_UPGRADE_L2","Před samotnou aktualizací se přihlašte jako administrátor!");
+define("_UPGRADE_L3","XOOPS 2.0.14 obsahuje nový autentizační systém, který vyžaduje též aktualizaci databáze.<br />" .
 					"Možnosti budou LDAP, AD a XOOPS autentifikace<br><br>" .
 					"<b>Průběh aktualizace:</b><br><br>" .
 					"1 - ověřování souborů<br>" .
 					"2 - aktualizace databáze<br>" .
 					"3 - konec<br>");
-define("_UPGRADE_L4", "Ověřit soubory"); 
-define("_UPGRADE_L5", "Aktualizační skript ověřil soubory a nyní aktualizuje databázi");
-define("_UPGRADE_L6", "Aktualizace databáze");
-define("_UPGRADE_L7", " ");
-define("_UPGRADE_L9", "Konec");
-define("_UPGRADE_L10", " Soubor %s(%s) nebyl nalezen<br>");
-define("_UPGRADE_L11", " Ověřte vaše soubory<br>");
+define("_UPGRADE_L4","Ověřit soubory"); 
+define("_UPGRADE_L5","Aktualizační skript ověřil soubory a nyní aktualizuje databázi");
+define("_UPGRADE_L6","Aktualizace databáze");
+define("_UPGRADE_L7"," ");
+define("_UPGRADE_L9","Konec");
+define("_UPGRADE_L10"," Soubor %s(%s) nebyl nalezen<br>");
+define("_UPGRADE_L11"," Ověřte vaše soubory<br>");
  
 
 define("_UPGRADE_L42","Zpět");
@@ -52,8 +52,8 @@ define("_UPGRADE_L152","Soubor %s nelze otevřít.");
 define("_UPGRADE_L153","Nepodařilo se aktualizovat soubor %s.");
 define("_UPGRADE_L154","%s aktualizován.");
 
-define('_UPGRADE_L128', 'Vyberte si jazyk, který má být použit během aktualizačního procesu');
-define('_UPGRADE_L200', 'Obnovit');
+define('_UPGRADE_L128','Vyberte si jazyk, který má být použit během aktualizačního procesu');
+define('_UPGRADE_L200','Obnovit');
 
 
 define('_UPGRADE_CHARSET','UTF-8');

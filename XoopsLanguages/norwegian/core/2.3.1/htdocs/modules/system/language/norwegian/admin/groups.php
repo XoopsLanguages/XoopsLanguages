@@ -30,8 +30,8 @@ define("_AM_UNEED2ENTER","Du må legge til påkrevd info!");
 // Added in RC3
 define("_AM_BLOCKRIGHTS","Blokk tilgang.");
 
-define('_AM_FINDU4GROUP', 'Finn brukere i denne gruppen');
-define('_AM_GROUPSMAIN', 'Hovedmeny Grupper');
+define('_AM_FINDU4GROUP','Finn brukere i denne gruppen');
+define('_AM_GROUPSMAIN','Hovedmeny Grupper');
 
-define('_AM_ADMINNO', 'Det må være minst 1 medlem i webmasters gruppen');
+define('_AM_ADMINNO','Det må være minst 1 medlem i webmasters gruppen');
 ?>

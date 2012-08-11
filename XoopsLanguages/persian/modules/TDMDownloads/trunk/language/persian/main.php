@@ -121,7 +121,7 @@ define("_MD_TDMDOWNLOADS_EDITTHISDL","ویرایش این فایل");
 define("_MD_TDMDOWNLOADS_MOREDETAILS","<< اطلاعات بیشتر");
 
 //visit.php
-define("_MD_TDMDOWNLOADS_NOPERMISETOLINK", "This file does not belongs to the website grom where you are comming.<br /><br />thanks for writng an email to the webmaster of the website from where you are comming and telling him :<br /><b>NO OWNERSHIP OF LINKS FROM OTHER SITES !! (LEECH)</b><br /><br /><b>Leecher definition :</b> Someone who is lazy to link to its own server or steals the hard work done by other people <br /><br />You are already <b>registered</b>.");
+define("_MD_TDMDOWNLOADS_NOPERMISETOLINK","This file does not belongs to the website grom where you are comming.<br /><br />thanks for writng an email to the webmaster of the website from where you are comming and telling him :<br /><b>NO OWNERSHIP OF LINKS FROM OTHER SITES !! (LEECH)</b><br /><br /><b>Leecher definition :</b> Someone who is lazy to link to its own server or steals the hard work done by other people <br /><br />You are already <b>registered</b>.");
 
 //Message d'erreur
 define("_MD_TDMDOWNLOADS_ERREUR_NOCAT","شما باید یک شاخه انتخاب کنید!");

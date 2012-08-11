@@ -5,25 +5,25 @@ define('_INSTALL_WEBMASTERD','Administradores do sitio');
 define('_INSTALL_REGUSERS','Usuarios Inscritos');
 define('_INSTALL_REGUSERSD','Grupo de Usuarios Inscritos');
 define('_INSTALL_ANONUSERS','Visitantes');
-define('_INSTALL_ANONUSERSD','Grupo de usuarios anónimos (visitantes)');
+define('_INSTALL_ANONUSERSD','Grupo de usuarios anÃ³nimos (visitantes)');
 
-define('_INSTALL_ANON','Anónimo');
-define("_INSTALL_DISCLMR", "Os administradores e moderadores do sitio tentarán borrar ou modificar todo material ofensivo
-o máis rápido posíbel, mais é imposíbel revisar cada mensaxe. Por iso ponse no teu coñecemento que tódolos textos feitos para 
-esta web expresan o punto de vista e opinións do autor, e non dos administradores, moderadores ou webmaster (agás os textos de seu) 
-e polo tanto non será responsabeis.
+define('_INSTALL_ANON','AnÃ³nimo');
+define("_INSTALL_DISCLMR","Os administradores e moderadores do sitio tentarÃ¡n borrar ou modificar todo material ofensivo
+o mÃ¡is rÃ¡pido posÃ­bel, mais Ã© imposÃ­bel revisar cada mensaxe. Por iso ponse no teu coÃ±ecemento que tÃ³dolos textos feitos para 
+esta web expresan o punto de vista e opiniÃ³ns do autor, e non dos administradores, moderadores ou webmaster (agÃ¡s os textos de seu) 
+e polo tanto non serÃ¡ responsabeis.
 
 Vostede acepta non publicar calquera material obsceno, abusivo, vulgar, inxurioso, rancoroso, ameazante, sexual ou outros que puidesen
-violar calquera lei aplicábel a este sitio. Infrinxindo calquera delas, vostede pode ser inmediatamente excluido do acceso a web (banned) e 
-o seu provedor de internet pode ser informado. O enderezo IP do creador/editor de calquera material é gardado con este fin. A creación de múltiples 
-contas para un só usuario non está permitida. Vostede acepta que o webmaster, administradores e moderadores deste sitio teñen o dereito de 
-borrar, editar, mover ou pechar calquera tema en calquera momento. Como usuario acepta que toda a información dada por vostede será 
-almacenada nunha base de datos. Esta información non será compartida con terceiros sen o seu consentimento, polo que o webmaster, 
-administradores e moderadores non serán responsabilizados por calquera intento de roubo de información (hack) por terceiros.
+violar calquera lei aplicÃ¡bel a este sitio. Infrinxindo calquera delas, vostede pode ser inmediatamente excluido do acceso a web (banned) e 
+o seu provedor de internet pode ser informado. O enderezo IP do creador/editor de calquera material Ã© gardado con este fin. A creaciÃ³n de mÃºltiples 
+contas para un sÃ³ usuario non estÃ¡ permitida. Vostede acepta que o webmaster, administradores e moderadores deste sitio teÃ±en o dereito de 
+borrar, editar, mover ou pechar calquera tema en calquera momento. Como usuario acepta que toda a informaciÃ³n dada por vostede serÃ¡ 
+almacenada nunha base de datos. Esta informaciÃ³n non serÃ¡ compartida con terceiros sen o seu consentimento, polo que o webmaster, 
+administradores e moderadores non serÃ¡n responsabilizados por calquera intento de roubo de informaciÃ³n (hack) por terceiros.
 
-O sistema dobre o que se basa este sitio utiliza cookies para almacenar información no teu ordenador. Estas cookies non conteñen información
-inserida poor vostede anteriormente, sirven só para mellorar a súa navegación por este sitio. O enderezo de correo-e é usado só para confirmar 
+O sistema dobre o que se basa este sitio utiliza cookies para almacenar informaciÃ³n no teu ordenador. Estas cookies non conteÃ±en informaciÃ³n
+inserida poor vostede anteriormente, sirven sÃ³ para mellorar a sÃºa navegaciÃ³n por este sitio. O enderezo de correo-e Ã© usado sÃ³ para confirmar 
 o seu rexistro e contrasinal (e para enviar novos contrasinais se vostede esquece o actual).
 
-Premendo Rexistro vostede acepta estas condicións.");
+Premendo Rexistro vostede acepta estas condiciÃ³ns.");
 ?>

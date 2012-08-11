@@ -55,18 +55,18 @@ define("_MI_ADSLIGHT_BNAME2","آگهی های برتر");
 define("_MI_ADSLIGHT_BNAME2_DESC","بلاک آگهی های برتر");
 
 // Names of admin menu items
-define("_MI_ADSLIGHT_ADMENU0", "صفحه اصلی مدیریت");
-define("_MI_ADSLIGHT_ADMENU1", "مدیریت شاخه ها");
-define("_MI_ADSLIGHT_ADMENU2", "دسترسی ها");
-define("_MI_ADSLIGHT_ADMENU3", "بلاکها");
-define("_MI_ADSLIGHT_ADMENU4", "تنظیمات");
-define("_MI_ADSLIGHT_ADMENU5", "گزینه ها");
-define("_MI_ADSLIGHT_ADMENU6", "وارد کردن");
-define("_MI_ADSLIGHT_ADMENU7", "درباره");
-define("_MI_ADSLIGHT_ADMENU8", "اسناد");
-define("_MI_ADSLIGHT_ADMENU9", "برو به ماژول");
-define("_MI_ADSLIGHT_ADMENU10", "بروزرسانی");
-define("_MI_ADSLIGHT_ADMENU11", "انجمن پشتیبانی");
+define("_MI_ADSLIGHT_ADMENU0","صفحه اصلی مدیریت");
+define("_MI_ADSLIGHT_ADMENU1","مدیریت شاخه ها");
+define("_MI_ADSLIGHT_ADMENU2","دسترسی ها");
+define("_MI_ADSLIGHT_ADMENU3","بلاکها");
+define("_MI_ADSLIGHT_ADMENU4","تنظیمات");
+define("_MI_ADSLIGHT_ADMENU5","گزینه ها");
+define("_MI_ADSLIGHT_ADMENU6","وارد کردن");
+define("_MI_ADSLIGHT_ADMENU7","درباره");
+define("_MI_ADSLIGHT_ADMENU8","اسناد");
+define("_MI_ADSLIGHT_ADMENU9","برو به ماژول");
+define("_MI_ADSLIGHT_ADMENU10","بروزرسانی");
+define("_MI_ADSLIGHT_ADMENU11","انجمن پشتیبانی");
 
 define("_MI_ADSLIGHT_CONFSAVE","تنظیمات ذخیره شده");
 define("_MI_ADSLIGHT_CANPOST","کاربر مهمان می توانند آگهی ارسال کنند :");
@@ -106,59 +106,59 @@ define("_MI_ADSLIGHT_ORDER_TITLE","مرتب سازی آگهی ها بر اساس
 define("_MI_ADSLIGHT_ORDER_PRICE","مرتب سازی آگهی ها بر اساس قیمت");
 define("_MI_ADSLIGHT_ORDER_DATE","مرتب سازی آگهی ها بر اساس تاریخ (پیشفرض)");
 define("_MI_ADSLIGHT_ORDER_POP","مرتب سازی آگهی ها بر اساس بازدید");
-define("_MI_ADSLIGHT_DBUPDATED", 'پایگاه داده به روز شده است.');
+define("_MI_ADSLIGHT_DBUPDATED",'پایگاه داده به روز شده است.');
 define("_MI_ADSLIGHT_GPERM_G_ADD" , "Can add" ) ;
 define("_MI_ADSLIGHT_CAT2GROUPDESC" , "چک کردن شاخه ها که شما اجازه دسترسی دارید" ) ;
 define("_MI_ADSLIGHT_GROUPPERMDESC" , "انتخاب گروه (های) مجاز به ارسال آگهی." ) ;
-define("_MI_ADSLIGHT_GROUPPERM", "ارسال دسترسی ها");
-define("_MI_ADSLIGHT_SUBMITFORM", "دسترسی ارسال آگهی");
-define("_MI_ADSLIGHT_SUBMITFORM_DESC", "انتخاب کنید ، چه کسی می تواند آگهی ارسال کند.");
-define("_MI_ADSLIGHT_VIEWFORM", "دسترسی نمایش آگهی");
-define("_MI_ADSLIGHT_VIEWFORM_DESC", "انتخاب کنید ، چه کسی می تواند آگهی ها را مشاهده کند");
-define("_MI_ADSLIGHT_VIEW_RESUMEFORM_DESC", "انتخاب کنید ، چه کسی می تواند رزومه ها را مشاهده کند");
-define("_MI_ADSLIGHT_SUPPORT", "پشتیبانی از این نرم افزار");
-define("_MI_ADSLIGHT_OP", "Read my opinion");
-define("_MI_ADSLIGHT_PREMIUM", "دسترسی آگهی های ویژه");
-define("_MI_ADSLIGHT_PREMIUM_DESC", "چه کسی می تواند روزهای نمایش آگهی را مشخص کند");
+define("_MI_ADSLIGHT_GROUPPERM","ارسال دسترسی ها");
+define("_MI_ADSLIGHT_SUBMITFORM","دسترسی ارسال آگهی");
+define("_MI_ADSLIGHT_SUBMITFORM_DESC","انتخاب کنید ، چه کسی می تواند آگهی ارسال کند.");
+define("_MI_ADSLIGHT_VIEWFORM","دسترسی نمایش آگهی");
+define("_MI_ADSLIGHT_VIEWFORM_DESC","انتخاب کنید ، چه کسی می تواند آگهی ها را مشاهده کند");
+define("_MI_ADSLIGHT_VIEW_RESUMEFORM_DESC","انتخاب کنید ، چه کسی می تواند رزومه ها را مشاهده کند");
+define("_MI_ADSLIGHT_SUPPORT","پشتیبانی از این نرم افزار");
+define("_MI_ADSLIGHT_OP","Read my opinion");
+define("_MI_ADSLIGHT_PREMIUM","دسترسی آگهی های ویژه");
+define("_MI_ADSLIGHT_PREMIUM_DESC","چه کسی می تواند روزهای نمایش آگهی را مشخص کند");
 
-define("_MI_ADSLIGHT_CATEGORY_NOTIFY", 'شاخه'); 
-define("_MI_ADSLIGHT_CATEGORY_NOTIFYDSC", 'گزینه آگاه سازی برای همین شاخه');
-define("_MI_ADSLIGHT_NOTIFY", "Listing"); 
-define("_MI_ADSLIGHT_NOTIFYDSC", 'گزینه آگاه سازی برای همین آگهی.');	
-define("_MI_ADSLIGHT_GLOBAL_NOTIFY", 'تمام بخش های آگهی و نیازمندیها ');
-define("_MI_ADSLIGHT_GLOBAL_NOTIFYDSC", 'Global advert notification options.');
-define("_MI_ADSLIGHT_NEWPOST_NOTIFY", 'آگهی جدید');
-define("_MI_ADSLIGHT_NEWPOST_NOTIFYCAP", 'اطلاع به من برای قرار گرفتن آگهی جدید در این شاخه');
-define("_MI_ADSLIGHT_NEWPOST_NOTIFYDSC", 'دریافت آگهی وقتی آگهی جدید در این شاخه ارسال شد');
-define("_MI_ADSLIGHT_NEWPOST_NOTIFYSBJ", '[{X_SITENAME}] {X_MODULE}: آگاهی رسانی خودکار : آگهی جدید در شاخه');
-define("_MI_ADSLIGHT_VALIDATE_NEWPOST_NOTIFY", 'آگهی جدید');
-define("_MI_ADSLIGHT_VALIDATE_NEWPOST_NOTIFYCAP", 'وقتی آگهی جدید در این شاخه ارسال شد مرا خبر کن');
-define("_MI_ADSLIGHT_VALIDATE_NEWPOST_NOTIFYDSC", 'دریافت آگهی اطلاع رسانی وقتی آگهی جدید در این شاخه ارسال شد');
-define("_MI_ADSLIGHT_VALIDATE_NEWPOST_NOTIFYSBJ", '[{X_SITENAME}] {X_MODULE}: آگاهی رسانی خودکار: آگهی جدید در شاخه');
-define("_MI_ADSLIGHT_UPDATE_NEWPOST_NOTIFY", 'آگهی بروزرسانی شد');
-define("_MI_ADSLIGHT_UPDATE_NEWPOST_NOTIFYCAP", 'وقتی آگهی در این شاخه بروزرسانی شد مرا خبر کن');
-define("_MI_ADSLIGHT_UPDATE_NEWPOST_NOTIFYDSC", 'دریافت آگهی اطلاع رسانی وقتی آگهی ی در این شاخه بروز شد.');
-define("_MI_ADSLIGHT_UPDATE_NEWPOST_NOTIFYSBJ", '[{X_SITENAME}] {X_MODULE}: آگاهی رسانی خودکار : آگهی جدید در این شاخه');
-define("_MI_ADSLIGHT_DELETE_NEWPOST_NOTIFY", 'آگهی حذف شد');
-define("_MI_ADSLIGHT_DELETE_NEWPOST_NOTIFYCAP", 'وقتی آگهی در این شاخه حذف شد مرا خبر کن');
-define("_MI_ADSLIGHT_DELETE_NEWPOST_NOTIFYDSC", 'دریافت آگهی اطلاع رسانی وقتی آگهی ی در این شاخه حذف شد.');
-define("_MI_ADSLIGHT_DELETE_NEWPOST_NOTIFYSBJ", '[{X_SITENAME}] {X_MODULE}: آگاهی رسانی خودکار : آگهی جدید در این شاخه');
-define("_MI_ADSLIGHT_GLOBAL_NEWPOST_NOTIFY", 'آگهی جدید');
-define("_MI_ADSLIGHT_GLOBAL_NEWPOST_NOTIFYCAP", 'وقتی آگهی جدید در یکی از شاخه ها اضافه شد مرا خبر کن.');
-define("_MI_ADSLIGHT_GLOBAL_NEWPOST_NOTIFYDSC", 'دریافت آگهی اطلاع رسانی وقتی لیتی در یکی از شاخه ها اضافه شد.');
-define("_MI_ADSLIGHT_GLOBAL_NEWPOST_NOTIFYSBJ", '[{X_SITENAME}] {X_MODULE}: آگاهی رسانی خودکار : آگهی جدید در این شاخه');
-define("_MI_ADSLIGHT_GLOBAL_VALIDATE_NEWPOST_NOTIFY", 'آگهی جدید');
-define("_MI_ADSLIGHT_GLOBAL_VALIDATE_NEWPOST_NOTIFYCAP", 'وقتی آگهی جدید در یکی از شاخه ها اضافه شد مرا خبر کن..');
-define("_MI_ADSLIGHT_GLOBAL_VALIDATE_NEWPOST_NOTIFYDSC", 'دریافت آگهی اطلاع رسانی وقتی لیتی در یکی از شاخه ها اضافه شد..');
-define("_MI_ADSLIGHT_GLOBAL_VALIDATE_NEWPOST_NOTIFYSBJ", '[{X_SITENAME}] {X_MODULE}: آگاهی رسانی خودکار : آگهی جدید در این شاخه');
-define("_MI_ADSLIGHT_GLOBAL_UPDATE_NEWPOST_NOTIFY", 'آگهی بروزرسانی شد');
-define("_MI_ADSLIGHT_GLOBAL_UPDATE_NEWPOST_NOTIFYCAP", 'وقتی آگهی در یکی از شاخه ها بروزرسانی شد مرا خبر کن.');
-define("_MI_ADSLIGHT_GLOBAL_UPDATE_NEWPOST_NOTIFYDSC", 'دریافت آگهی اطلاع رسانی وقتی آگهی ی در یکی از شاخه ها بروز شد.');
-define("_MI_ADSLIGHT_GLOBAL_UPDATE_NEWPOST_NOTIFYSBJ", '[{X_SITENAME}] {X_MODULE}: آگاهی رسانی خودکار : آگهی آپدیت شد در شاخه');
-define("_MI_ADSLIGHT_GLOBAL_DELETE_NEWPOST_NOTIFY", 'آگهی حذف شد');
-define("_MI_ADSLIGHT_GLOBAL_DELETE_NEWPOST_NOTIFYCAP", 'وقتی آگهی در یکی از شاخه ها حذف شد مرا خبر کن.');
-define("_MI_ADSLIGHT_GLOBAL_DELETE_NEWPOST_NOTIFYDSC", 'دریافت آگهی اطلاع رسانی وقتی آگهیی در یکی از شاخه ها حذف شد.');
-define("_MI_ADSLIGHT_GLOBAL_DELETE_NEWPOST_NOTIFYSBJ", '[{X_SITENAME}] {X_MODULE}: آگاهی رسانی خودکار : آگهی حذف شد در شاخه');
+define("_MI_ADSLIGHT_CATEGORY_NOTIFY",'شاخه'); 
+define("_MI_ADSLIGHT_CATEGORY_NOTIFYDSC",'گزینه آگاه سازی برای همین شاخه');
+define("_MI_ADSLIGHT_NOTIFY","Listing"); 
+define("_MI_ADSLIGHT_NOTIFYDSC",'گزینه آگاه سازی برای همین آگهی.');	
+define("_MI_ADSLIGHT_GLOBAL_NOTIFY",'تمام بخش های آگهی و نیازمندیها ');
+define("_MI_ADSLIGHT_GLOBAL_NOTIFYDSC",'Global advert notification options.');
+define("_MI_ADSLIGHT_NEWPOST_NOTIFY",'آگهی جدید');
+define("_MI_ADSLIGHT_NEWPOST_NOTIFYCAP",'اطلاع به من برای قرار گرفتن آگهی جدید در این شاخه');
+define("_MI_ADSLIGHT_NEWPOST_NOTIFYDSC",'دریافت آگهی وقتی آگهی جدید در این شاخه ارسال شد');
+define("_MI_ADSLIGHT_NEWPOST_NOTIFYSBJ",'[{X_SITENAME}] {X_MODULE}: آگاهی رسانی خودکار : آگهی جدید در شاخه');
+define("_MI_ADSLIGHT_VALIDATE_NEWPOST_NOTIFY",'آگهی جدید');
+define("_MI_ADSLIGHT_VALIDATE_NEWPOST_NOTIFYCAP",'وقتی آگهی جدید در این شاخه ارسال شد مرا خبر کن');
+define("_MI_ADSLIGHT_VALIDATE_NEWPOST_NOTIFYDSC",'دریافت آگهی اطلاع رسانی وقتی آگهی جدید در این شاخه ارسال شد');
+define("_MI_ADSLIGHT_VALIDATE_NEWPOST_NOTIFYSBJ",'[{X_SITENAME}] {X_MODULE}: آگاهی رسانی خودکار: آگهی جدید در شاخه');
+define("_MI_ADSLIGHT_UPDATE_NEWPOST_NOTIFY",'آگهی بروزرسانی شد');
+define("_MI_ADSLIGHT_UPDATE_NEWPOST_NOTIFYCAP",'وقتی آگهی در این شاخه بروزرسانی شد مرا خبر کن');
+define("_MI_ADSLIGHT_UPDATE_NEWPOST_NOTIFYDSC",'دریافت آگهی اطلاع رسانی وقتی آگهی ی در این شاخه بروز شد.');
+define("_MI_ADSLIGHT_UPDATE_NEWPOST_NOTIFYSBJ",'[{X_SITENAME}] {X_MODULE}: آگاهی رسانی خودکار : آگهی جدید در این شاخه');
+define("_MI_ADSLIGHT_DELETE_NEWPOST_NOTIFY",'آگهی حذف شد');
+define("_MI_ADSLIGHT_DELETE_NEWPOST_NOTIFYCAP",'وقتی آگهی در این شاخه حذف شد مرا خبر کن');
+define("_MI_ADSLIGHT_DELETE_NEWPOST_NOTIFYDSC",'دریافت آگهی اطلاع رسانی وقتی آگهی ی در این شاخه حذف شد.');
+define("_MI_ADSLIGHT_DELETE_NEWPOST_NOTIFYSBJ",'[{X_SITENAME}] {X_MODULE}: آگاهی رسانی خودکار : آگهی جدید در این شاخه');
+define("_MI_ADSLIGHT_GLOBAL_NEWPOST_NOTIFY",'آگهی جدید');
+define("_MI_ADSLIGHT_GLOBAL_NEWPOST_NOTIFYCAP",'وقتی آگهی جدید در یکی از شاخه ها اضافه شد مرا خبر کن.');
+define("_MI_ADSLIGHT_GLOBAL_NEWPOST_NOTIFYDSC",'دریافت آگهی اطلاع رسانی وقتی لیتی در یکی از شاخه ها اضافه شد.');
+define("_MI_ADSLIGHT_GLOBAL_NEWPOST_NOTIFYSBJ",'[{X_SITENAME}] {X_MODULE}: آگاهی رسانی خودکار : آگهی جدید در این شاخه');
+define("_MI_ADSLIGHT_GLOBAL_VALIDATE_NEWPOST_NOTIFY",'آگهی جدید');
+define("_MI_ADSLIGHT_GLOBAL_VALIDATE_NEWPOST_NOTIFYCAP",'وقتی آگهی جدید در یکی از شاخه ها اضافه شد مرا خبر کن..');
+define("_MI_ADSLIGHT_GLOBAL_VALIDATE_NEWPOST_NOTIFYDSC",'دریافت آگهی اطلاع رسانی وقتی لیتی در یکی از شاخه ها اضافه شد..');
+define("_MI_ADSLIGHT_GLOBAL_VALIDATE_NEWPOST_NOTIFYSBJ",'[{X_SITENAME}] {X_MODULE}: آگاهی رسانی خودکار : آگهی جدید در این شاخه');
+define("_MI_ADSLIGHT_GLOBAL_UPDATE_NEWPOST_NOTIFY",'آگهی بروزرسانی شد');
+define("_MI_ADSLIGHT_GLOBAL_UPDATE_NEWPOST_NOTIFYCAP",'وقتی آگهی در یکی از شاخه ها بروزرسانی شد مرا خبر کن.');
+define("_MI_ADSLIGHT_GLOBAL_UPDATE_NEWPOST_NOTIFYDSC",'دریافت آگهی اطلاع رسانی وقتی آگهی ی در یکی از شاخه ها بروز شد.');
+define("_MI_ADSLIGHT_GLOBAL_UPDATE_NEWPOST_NOTIFYSBJ",'[{X_SITENAME}] {X_MODULE}: آگاهی رسانی خودکار : آگهی آپدیت شد در شاخه');
+define("_MI_ADSLIGHT_GLOBAL_DELETE_NEWPOST_NOTIFY",'آگهی حذف شد');
+define("_MI_ADSLIGHT_GLOBAL_DELETE_NEWPOST_NOTIFYCAP",'وقتی آگهی در یکی از شاخه ها حذف شد مرا خبر کن.');
+define("_MI_ADSLIGHT_GLOBAL_DELETE_NEWPOST_NOTIFYDSC",'دریافت آگهی اطلاع رسانی وقتی آگهیی در یکی از شاخه ها حذف شد.');
+define("_MI_ADSLIGHT_GLOBAL_DELETE_NEWPOST_NOTIFYSBJ",'[{X_SITENAME}] {X_MODULE}: آگاهی رسانی خودکار : آگهی حذف شد در شاخه');
 define("_MI_ADSLIGHT_RATE_USER","اجازه به کاربران برای ارزیابی فروشندگان ");
 define("_MI_ADSLIGHT_RATE_ITEM","اجازه به کاربران برای ارزیابی موارد ");
 define("_MI_ADSLIGHT_DIFF_NAME","اجازه به کاربران برای استفاده از نام های مختلف");
@@ -200,8 +200,8 @@ define("_MI_ADSLIGHT_MAIN_CAT","اجازه به کاربران برای اضاف
 define("_MI_ADSLIGHT_MAIN_CAT_DESC","یا فقط دسترسی اضافه کردن آگهی در زیر شاخه ها");
 define("_MI_ADSLIGHT_ADMIN_EDITOR","ویرایشگر برای استفاده مدیر:");
 define("_MI_ADSLIGHT_LIST_ADMIN_EDITORS","انتخاب ویرایشگر برای استفاده در بخش مدیریت.");
-define("_MI_ADSLIGHT_CAT_DESC", "توضیحات شاخه");
-define("_MI_ADSLIGHT_DESC_CAT_DESC", "اضافه کردن توضیحات برای هر شاخه بندی.");
+define("_MI_ADSLIGHT_CAT_DESC","توضیحات شاخه");
+define("_MI_ADSLIGHT_DESC_CAT_DESC","اضافه کردن توضیحات برای هر شاخه بندی.");
 define("_MI_ADSLIGHT_MUST_ADD_CAT","شما باید ابتدا یک شاخه اضافه کنید.");
 define("_MI_ADSLIGHT_BNAME3","آگهی های جدید با تصویر");
 define("_MI_ADSLIGHT_BNAME3_DESC","آگی های اخیر (با تصویر) بلاک");
@@ -215,17 +215,17 @@ define("_MI_ADSLIGHT_SMENU2","ارسال آگهی");
 define("_MI_ADSLIGHT_SMENU3","جستجو"); 
 
 // support.php 
-define("_MI_ADSLIGHT_SUPPORT01", " اگرشما پیشنهاد بهری دارید:<br /><br />- اصلاح<br />- ترجمه<br />- یک پیشنهاد<br />- گزارش مشکل <br />");
-define("_MI_ADSLIGHT_SUPPORT02", "به ما بپیوندید در پشتیبانی تالار گفتمان AdsLight ");
-define("_MI_ADSLIGHT_SUPPORT03", "> پشتیبانی تالار گفتمان AdsLight <");
+define("_MI_ADSLIGHT_SUPPORT01"," اگرشما پیشنهاد بهری دارید:<br /><br />- اصلاح<br />- ترجمه<br />- یک پیشنهاد<br />- گزارش مشکل <br />");
+define("_MI_ADSLIGHT_SUPPORT02","به ما بپیوندید در پشتیبانی تالار گفتمان AdsLight ");
+define("_MI_ADSLIGHT_SUPPORT03","> پشتیبانی تالار گفتمان AdsLight <");
 
 // Bloc Carte de France
-define("_MI_ADSLIGHT_MAPFRANCE", "نقشه فرانسه");
-define("_MI_ADSLIGHT_MAPFRANCE_DESC", "در منطقه شما");
+define("_MI_ADSLIGHT_MAPFRANCE","نقشه فرانسه");
+define("_MI_ADSLIGHT_MAPFRANCE_DESC","در منطقه شما");
 
 // Bloc Ajouter une annonce
-define("_MI_ADSLIGHT_ADDMENU", "اضافه کردن تبلیغ");
-define("_MI_ADSLIGHT_ADDMENU_DESC", "منو");
+define("_MI_ADSLIGHT_ADDMENU","اضافه کردن تبلیغ");
+define("_MI_ADSLIGHT_ADDMENU_DESC","منو");
 
 // version Adslight 1.0.2
 // Active RewriteUrl
@@ -252,11 +252,11 @@ define("_MI_ADSLIGHT_ADSLIGHT_USE_BANNER_DESC","اجازه می دهد به شم
 
 // Version 1.0.5
 // Code Adscence Catégories
-define("_MI_ADSLIGHT_ADSLIGHT_CATS_CODE", "Pub code on pages categories");
-define("_MI_ADSLIGHT_ADSLIGHT_CATS_CODE_DESC", "گوگل کد adsence و یا کد بنر:<br/>Format: عرض = 300 ارتفاع = 250");
+define("_MI_ADSLIGHT_ADSLIGHT_CATS_CODE","Pub code on pages categories");
+define("_MI_ADSLIGHT_ADSLIGHT_CATS_CODE_DESC","گوگل کد adsence و یا کد بنر:<br/>Format: عرض = 300 ارتفاع = 250");
 
 // adslight_theme_set
-define("_MI_ADSLIGHT_THEMESET", "Choice of template set");
+define("_MI_ADSLIGHT_THEMESET","Choice of template set");
 
 // Méta Description / keywords Categories
 define("_MI_ADSLIGHT_CAT_META","Allow the seizure Meta description, Meta keywords categories?");
@@ -265,19 +265,19 @@ define("_MI_ADSLIGHT_CAT_META_DESCRIPTION","اگر شما این گزینه بل
 
 // Version 1.0.51
 // tips_writing_ad.php
-define("_MI_ADSLIGHT_USE_TIPS_WRITE", "سفارشی کردن اطلاعات صفحه / اطلاع?");
-define("_MI_ADSLIGHT_USEDESC_TIPS_WRITE", "اگر شما 'بله'را انتخاب کنید  شما می توانید بنویسید.عنوان و متن اطلاعات صفحه /اطلاع");
-define("_MI_ADSLIGHT_TITLE_TIPS_WRITE", "عنوان صفحه اطلاعات / advice");
-define("_MI_ADSLIGHT_TITLEDESC_TIPS_WRITE", "عنوان را در اینجا بنویسید (در صفحه اطلاعات نشان داده خواهد شد)/ advice");
-define("_MI_ADSLIGHT_TEXT_TIPS_WRITE", "متن اطلاعات صفحه / advice");
-define("_MI_ADSLIGHT_TEXTDESC_TIPS_WRITE", "متن را در اینجا بنویسید (در صفحه اطلاعات نشان داده خواهد شد)/ advice");
+define("_MI_ADSLIGHT_USE_TIPS_WRITE","سفارشی کردن اطلاعات صفحه / اطلاع?");
+define("_MI_ADSLIGHT_USEDESC_TIPS_WRITE","اگر شما 'بله'را انتخاب کنید  شما می توانید بنویسید.عنوان و متن اطلاعات صفحه /اطلاع");
+define("_MI_ADSLIGHT_TITLE_TIPS_WRITE","عنوان صفحه اطلاعات / advice");
+define("_MI_ADSLIGHT_TITLEDESC_TIPS_WRITE","عنوان را در اینجا بنویسید (در صفحه اطلاعات نشان داده خواهد شد)/ advice");
+define("_MI_ADSLIGHT_TEXT_TIPS_WRITE","متن اطلاعات صفحه / advice");
+define("_MI_ADSLIGHT_TEXTDESC_TIPS_WRITE","متن را در اینجا بنویسید (در صفحه اطلاعات نشان داده خواهد شد)/ advice");
 
 // Version 1.0.53
 // adslight_maps
-define("_MI_ADSLIGHT_MAPSSET", "انتخاب کارت از کشور شما");
-define("_MI_ADSLIGHT_MAPSSET_DESC", "اگر می خواهید برای کشور خود نقشه درست کنید.<br />داکیومنت را مطالعه کنید.تشکر");
-define("_MI_ADSLIGHT_MAPSW_TITLE", "عرض نقشه");
-define("_MI_ADSLIGHT_MAPSH_TITLE", "ارتفاع نقشه");
+define("_MI_ADSLIGHT_MAPSSET","انتخاب کارت از کشور شما");
+define("_MI_ADSLIGHT_MAPSSET_DESC","اگر می خواهید برای کشور خود نقشه درست کنید.<br />داکیومنت را مطالعه کنید.تشکر");
+define("_MI_ADSLIGHT_MAPSW_TITLE","عرض نقشه");
+define("_MI_ADSLIGHT_MAPSH_TITLE","ارتفاع نقشه");
 
 
 ?>

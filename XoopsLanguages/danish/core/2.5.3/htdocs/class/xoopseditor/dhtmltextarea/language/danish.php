@@ -17,6 +17,6 @@
 // _CHARSET : UTF-8
 // Translator: Anders Kristiansen (anderssk) www.xoopsnordic.org
 
-define( '_XOOPS_EDITOR_DHTMLTEXTAREA', 'DHTML med xCode' );
+define('_XOOPS_EDITOR_DHTMLTEXTAREA','DHTML med xCode' );
 
 ?>
