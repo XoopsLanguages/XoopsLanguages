@@ -6,17 +6,17 @@ define("_PL_TOTALVOTERS","Totale antal vælgere: %s");
 
 //%%%%%%	File Name index.php 	%%%%%
 define("_PL_POLLSLIST","Afstemningsoversigt");
-define("_PL_ALREADYVOTED", "Beklager, du har allerede stemt én gang.");
+define("_PL_ALREADYVOTED","Beklager, du har allerede stemt én gang.");
 define("_PL_THANKSFORVOTE","Tak for din stemme!");
-define("_PL_SORRYEXPIRED", "Beklager, men denne afstemning er udløbet.");
-define("_PL_YOURPOLLAT", "%s, din afstemning på %s"); // 1st %s is user name, 2nd %s is site name
-define("_PL_PREV", "Foregående");
-define("_PL_NEXT", "Næste");
-define("_PL_POLLQUESTION", "Spørgsmål");
-define("_PL_VOTERS", "Antal vælgere");
-define("_PL_VOTES", "Antal stemmer");
-define("_PL_EXPIRATION", "Udløbsdato");
-define("_PL_EXPIRED", "Udløbet");
+define("_PL_SORRYEXPIRED","Beklager, men denne afstemning er udløbet.");
+define("_PL_YOURPOLLAT","%s, din afstemning på %s"); // 1st %s is user name, 2nd %s is site name
+define("_PL_PREV","Foregående");
+define("_PL_NEXT","Næste");
+define("_PL_POLLQUESTION","Spørgsmål");
+define("_PL_VOTERS","Antal vælgere");
+define("_PL_VOTES","Antal stemmer");
+define("_PL_EXPIRATION","Udløbsdato");
+define("_PL_EXPIRED","Udløbet");
 
 //%%%%%%	File Name xoopspollrenderer.php 	%%%%%
 // %s represents date

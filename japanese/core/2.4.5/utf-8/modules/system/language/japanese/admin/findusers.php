@@ -17,8 +17,8 @@ define("_AM_PREVIOUS","前");
 define("_AM_NEXT","次");
 define("_AM_USERSFOUND","%s 人ユーザが見つかりました");
 
-define("_AM_ACTUS", "承認完了ユーザー数： %s 人");
-define("_AM_INACTUS", "承認未完了ユーザー数： %s 人");
+define("_AM_ACTUS","承認完了ユーザー数： %s 人");
+define("_AM_INACTUS","承認未完了ユーザー数： %s 人");
 define("_AM_NOFOUND","条件に該当するユーザーは見つかりませんでした");
 define("_AM_UNAME","ユーザー名");
 define("_AM_ICQ","ICQ #");
@@ -42,17 +42,17 @@ define("_AM_POSTS","投稿数");
 define("_AM_ASC","昇順");
 define("_AM_DESC","降順");
 define("_AM_LIMIT","ページあたりの表示ユーザ数");
-define("_AM_RESULTS", "検索結果");
-define("_AM_SHOWMAILOK", "表示するユーザータイプ");
+define("_AM_RESULTS","検索結果");
+define("_AM_SHOWMAILOK","表示するユーザータイプ");
 define("_AM_MAILOK","メール受信可能なユーザーのみ");
 define("_AM_MAILNG","メール受信不可能なユーザーのみ");
-define("_AM_SHOWTYPE", "表示するユーザーの種類");
+define("_AM_SHOWTYPE","表示するユーザーの種類");
 define("_AM_ACTIVE","承認済ユーザーのみ");
 define("_AM_INACTIVE","未承認ユーザーのみ");
-define("_AM_BOTH", "すべてのユーザー");
-define("_AM_SENDMAIL", "メッセージ送信");
-define("_AM_ADD2GROUP", "%s グループにユーザー追加");
+define("_AM_BOTH","すべてのユーザー");
+define("_AM_SENDMAIL","メッセージ送信");
+define("_AM_ADD2GROUP","%s グループにユーザー追加");
 
-define("_AM_GROUPS", "グループ");
+define("_AM_GROUPS","グループ");
 
 ?>

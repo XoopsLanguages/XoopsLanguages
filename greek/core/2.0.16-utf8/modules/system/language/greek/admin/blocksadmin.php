@@ -51,20 +51,20 @@ define("_AM_RUSUREDEL","Are you sure you want to delete block <b>%s</b>?");
 define("_AM_NAME","Name");
 define("_AM_USEFULTAGS","Useful Tags:");
 define("_AM_BLOCKTAG1","%s will print %s");
-define('_AM_SVISIBLEIN', 'Show blocks visible in %s');
-define('_AM_TOPPAGE', 'Top Page');
-define('_AM_VISIBLEIN', 'Visible in');
-define('_AM_ALLPAGES', 'All Pages');
-define('_AM_TOPONLY', 'Top Page Only');
-define('_AM_ADVANCED', 'Advanced Settings');
-define('_AM_BCACHETIME', 'Cache lifetime');
-define('_AM_BALIAS', 'Alias name');
-define('_AM_CLONE', 'Clone');  // clone a block
-define('_AM_CLONEBLK', 'Clone'); // cloned block
-define('_AM_CLONEBLOCK', 'Create a clone block');
-define('_AM_NOTSELNG', "'%s' is not selected!"); // error message
-define('_AM_EDITTPL', 'Edit Template');
-define('_AM_MODULE', 'Module');
-define('_AM_GROUP', 'Group');
-define('_AM_UNASSIGNED', 'Unassigned');
+define('_AM_SVISIBLEIN','Show blocks visible in %s');
+define('_AM_TOPPAGE','Top Page');
+define('_AM_VISIBLEIN','Visible in');
+define('_AM_ALLPAGES','All Pages');
+define('_AM_TOPONLY','Top Page Only');
+define('_AM_ADVANCED','Advanced Settings');
+define('_AM_BCACHETIME','Cache lifetime');
+define('_AM_BALIAS','Alias name');
+define('_AM_CLONE','Clone');  // clone a block
+define('_AM_CLONEBLK','Clone'); // cloned block
+define('_AM_CLONEBLOCK','Create a clone block');
+define('_AM_NOTSELNG',"'%s' is not selected!"); // error message
+define('_AM_EDITTPL','Edit Template');
+define('_AM_MODULE','Module');
+define('_AM_GROUP','Group');
+define('_AM_UNASSIGNED','Unassigned');
 ?>

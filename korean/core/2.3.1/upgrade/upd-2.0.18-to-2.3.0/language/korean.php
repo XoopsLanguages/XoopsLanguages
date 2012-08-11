@@ -1,28 +1,28 @@
 <?php
 // $Id: english.php 2087 2008-09-15 04:50:23Z phppp $
 
-define( "LEGEND_XOOPS_PATHS", "XOOPSÀÇ °æ·Î(Physical paths)" );
-define( "LEGEND_DATABASE", "µ¥ÀÌÅ¸º£ÀÌ½º Character Set" );
+define("LEGEND_XOOPS_PATHS","XOOPSï¿½ï¿½ ï¿½ï¿½ï¿½(Physical paths)" );
+define("LEGEND_DATABASE","ï¿½ï¿½ï¿½ï¿½Å¸ï¿½ï¿½ï¿½Ì½ï¿½ Character Set" );
 
-define( "XOOPS_LIB_PATH_LABEL", "XOOPS ¶óÀÌºê¸® µð·ºÅä¸®" );
-define( "XOOPS_LIB_PATH_HELP", "XOOPS ¶óÀÌºê·¯¸® µð·ºÅä¸®ÀÇ ÀüÃ¼°æ·Î(Full Path)¸¦ ÀÔ·ÂÇØ ÁÖ¼¼¿ä! ³¡¿¡ [ / ]¸¦ ºÙÀÌÁö ¸¶½Ã±â ¹Ù¶ø´Ï´Ù. º¸¾ÈÀ» À§ÇØ " . XOOPS_ROOT_PATH . "ÀÇ ¿ÜºÎ¿¡ ÇØ´ç µð·ºÅä¸®¸¦ µÎ½Ã±â ¹Ù¶ø´Ï´Ù." );
-define( "XOOPS_DATA_PATH_LABEL", "XOOPS µ¥ÀÌÅ¸ µð·ºÅä¸®" );
-define( "XOOPS_DATA_PATH_HELP", "XOOPS µ¥ÀÌÅ¸ µð·ºÅä¸®ÀÇ ÀüÃ¼°æ·Î(Full Path)¸¦ ÀÔ·ÂÇØ ÁÖ¼¼¿ä! ³¡¿¡ [ / ]¸¦ ºÙÀÌÁö ¸¶½Ã±â ¹Ù¶ø´Ï´Ù. º¸¾ÈÀ» À§ÇØ " . XOOPS_ROOT_PATH . "ÀÇ ¿ÜºÎ¿¡ ÇØ´ç µð·ºÅä¸®¸¦ µÎ½Ã±â ¹Ù¶ø´Ï´Ù." );
+define("XOOPS_LIB_PATH_LABEL","XOOPS ï¿½ï¿½ï¿½Ìºê¸® ï¿½ï¿½ï¿½ä¸®" );
+define("XOOPS_LIB_PATH_HELP","XOOPS ï¿½ï¿½ï¿½Ìºê·¯ï¿½ï¿½ ï¿½ï¿½ï¿½ä¸®ï¿½ï¿½ ï¿½ï¿½Ã¼ï¿½ï¿½ï¿½(Full Path)ï¿½ï¿½ ï¿½Ô·ï¿½ï¿½ï¿½ ï¿½Ö¼ï¿½ï¿½ï¿½! ï¿½ï¿½ï¿½ï¿½ [ / ]ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ã±ï¿½ ï¿½Ù¶ï¿½ï¿½Ï´ï¿½. ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ " . XOOPS_ROOT_PATH . "ï¿½ï¿½ ï¿½ÜºÎ¿ï¿½ ï¿½Ø´ï¿½ ï¿½ï¿½ï¿½ä¸®ï¿½ï¿½ ï¿½Î½Ã±ï¿½ ï¿½Ù¶ï¿½ï¿½Ï´ï¿½." );
+define("XOOPS_DATA_PATH_LABEL","XOOPS ï¿½ï¿½ï¿½ï¿½Å¸ ï¿½ï¿½ï¿½ä¸®" );
+define("XOOPS_DATA_PATH_HELP","XOOPS ï¿½ï¿½ï¿½ï¿½Å¸ ï¿½ï¿½ï¿½ä¸®ï¿½ï¿½ ï¿½ï¿½Ã¼ï¿½ï¿½ï¿½(Full Path)ï¿½ï¿½ ï¿½Ô·ï¿½ï¿½ï¿½ ï¿½Ö¼ï¿½ï¿½ï¿½! ï¿½ï¿½ï¿½ï¿½ [ / ]ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ã±ï¿½ ï¿½Ù¶ï¿½ï¿½Ï´ï¿½. ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ " . XOOPS_ROOT_PATH . "ï¿½ï¿½ ï¿½ÜºÎ¿ï¿½ ï¿½Ø´ï¿½ ï¿½ï¿½ï¿½ä¸®ï¿½ï¿½ ï¿½Î½Ã±ï¿½ ï¿½Ù¶ï¿½ï¿½Ï´ï¿½." );
 
-define( "DB_COLLATION_LABEL", "µ¥ÀÌÅ¸º£ÀÌ½º character set and collation" );
-define( "DB_COLLATION_HELP",  "µ¥ÀÌÅ¸º£ÀÌ½º¿¡ ÀÍ¼÷ÇÏÁö ¾ÊÀ¸½Å ºÐµéÀº ¼³Á¤À» º¯°æÇÏÁö ¸¶½Ç °ÍÀ» ±ÇÇÕ´Ï´Ù. ¼³Á¤À» º¯°æÇÏ½Ç ºÐÀº ÁÖÀ§ÀÇ Àü¹®°¡ºÐ¿¡°Ô ¹®ÀÇÇØ º¸½Å ÈÄ ¼³Á¤À» º¯°æÇÏ½Ã±â ¹Ù¶ø´Ï´Ù.(As of 4.12 MySQL supports custom character set and collation. However it is more complex than expected, so DON'T make any change unless you are confident with your choice.)");
-define( "DB_COLLATION_NOCHANGE",  "º¯°æÇÏÁö ¾ÊÀ½");
+define("DB_COLLATION_LABEL","ï¿½ï¿½ï¿½ï¿½Å¸ï¿½ï¿½ï¿½Ì½ï¿½ character set and collation" );
+define("DB_COLLATION_HELP",  "ï¿½ï¿½ï¿½ï¿½Å¸ï¿½ï¿½ï¿½Ì½ï¿½ï¿½ï¿½ ï¿½Í¼ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ðµï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Õ´Ï´ï¿½. ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð¿ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï½Ã±ï¿½ ï¿½Ù¶ï¿½ï¿½Ï´ï¿½.(As of 4.12 MySQL supports custom character set and collation. However it is more complex than expected, so DON'T make any change unless you are confident with your choice.)");
+define("DB_COLLATION_NOCHANGE",  "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½");
 
-define( "XOOPS_PATH_FOUND", "ÆÐ½º(Path)¸¦ Ã£¾Ò½À´Ï´Ù." );
-define( "ERR_COULD_NOT_ACCESS", "ÁöÁ¤µÈ µð·ºÅä¸®¿¡ ¾×¼¼½ºÇÒ¼ö°¡ ¾ø½À´Ï´Ù. µð·ºÅä¸®°¡ Á¸ÀçÇÏ´ÂÁö È¤Àº ÀÐ±â±ÇÇÑÀÌ ÀÖ´ÂÁö È®ÀÎÇØ º¸½Ã±â ¹Ù¶ø´Ï´Ù." );
-define( "CHECKING_PERMISSIONS", "Checking file and directory permissions..." );
-define( "ERR_NEED_WRITE_ACCESS", "´ÙÀ½ÀÇ µð·ºÅä¸®µéÀ» ¾²±â°¡´ÉÀ¸·Î ¼³Á¤ÇØ ÁÖ½Ã±â ¹Ù¶ø´Ï´Ù. (¿¹: UNIX/LINUX ¼­¹ö 'chmod 777 directory_name' , Windows¼­¹ö ÀÐ±âÀü¿ëÇØÁ¦)" );
-define( "IS_NOT_WRITABLE", "ÆÄÀÏ %s Àº(´Â) ¾²±âºÒ°¡ »óÅÂÀÔ´Ï´Ù. ¾²±â°¡´ÉÀ¸·Î ¼³Á¤ÇØÁÖ¼¼¿ä!" );
-define( "IS_WRITABLE", "ÆÄÀÏ %s Àº(´Â) ¾²±â°¡´É »óÅÂÀÔ´Ï´Ù." );
-define( "ERR_COULD_NOT_WRITE_MAINFILE", "mainfile.php ÆÄÀÏ¿¡ÀÇ ¾²±â¿¡ ½ÇÆÐÇÏ¿´½À´Ï´Ù. ÆÄÀÏ±ÇÇÑ¼³Á¤ÀÌ ¿Ã¹Ù¸¥Áö ´Ù½Ã È®ÀÎÇØ ÁÖ½Ã±â ¹Ù¶ø´Ï´Ù." );
+define("XOOPS_PATH_FOUND","ï¿½Ð½ï¿½(Path)ï¿½ï¿½ Ã£ï¿½Ò½ï¿½ï¿½Ï´ï¿½." );
+define("ERR_COULD_NOT_ACCESS","ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ä¸®ï¿½ï¿½ ï¿½×¼ï¿½ï¿½ï¿½ï¿½Ò¼ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï´ï¿½. ï¿½ï¿½ï¿½ä¸®ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï´ï¿½ï¿½ï¿½ È¤ï¿½ï¿½ ï¿½Ð±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ö´ï¿½ï¿½ï¿½ È®ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ã±ï¿½ ï¿½Ù¶ï¿½ï¿½Ï´ï¿½." );
+define("CHECKING_PERMISSIONS","Checking file and directory permissions..." );
+define("ERR_NEED_WRITE_ACCESS","ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ä¸®ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½â°¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ö½Ã±ï¿½ ï¿½Ù¶ï¿½ï¿½Ï´ï¿½. (ï¿½ï¿½: UNIX/LINUX ï¿½ï¿½ï¿½ï¿½ 'chmod 777 directory_name' , Windowsï¿½ï¿½ï¿½ï¿½ ï¿½Ð±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½)" );
+define("IS_NOT_WRITABLE","ï¿½ï¿½ï¿½ï¿½ %s ï¿½ï¿½(ï¿½ï¿½) ï¿½ï¿½ï¿½ï¿½Ò°ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ô´Ï´ï¿½. ï¿½ï¿½ï¿½â°¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö¼ï¿½ï¿½ï¿½!" );
+define("IS_WRITABLE","ï¿½ï¿½ï¿½ï¿½ %s ï¿½ï¿½(ï¿½ï¿½) ï¿½ï¿½ï¿½â°¡ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ô´Ï´ï¿½." );
+define("ERR_COULD_NOT_WRITE_MAINFILE","mainfile.php ï¿½ï¿½ï¿½Ï¿ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½â¿¡ ï¿½ï¿½ï¿½ï¿½ï¿½Ï¿ï¿½ï¿½ï¿½ï¿½Ï´ï¿½. ï¿½ï¿½ï¿½Ï±ï¿½ï¿½Ñ¼ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ã¹Ù¸ï¿½ï¿½ï¿½ ï¿½Ù½ï¿½ È®ï¿½ï¿½ï¿½ï¿½ ï¿½Ö½Ã±ï¿½ ï¿½Ù¶ï¿½ï¿½Ï´ï¿½." );
 
-define( "LEGEND_XOOPS_MAINFILE_FORPROTECTOR", "XOOPS mainfile ÁØºñ");
-define( "XOOPS_MAINFILE_LABEL_FORPROTECTOR", "protector¸ðµâÀ» ¼³Ä¡ÇÏ½Ç °èÈ¹ÀÌ¸é <em>/upgrade/" . basename(dirname(dirname(__FILE__))) . "/mainfile.dist.php</em> ÆÄÀÏ ´ë½Å <em>/extras/mainfile.dist.php.protector</em>ÆÄÀÏÀ» ÀÌ¿ëÇÏ½Ã±â ¹Ù¶ø´Ï´Ù." .
-                                            " (Áï ÈÄÀÚÀÇ ÆÄÀÏ¸íÀ» <em>mainfile.dist.php</em>·Î ÀÌ¸§¹Ù²Ù±âÇÏ¿© ´ë½Å »ç¿ëÇÏ½Ã¸é µË´Ï´Ù.).<br />" .
-                                            "ÀÌ¹Ì protector¸ðµâÀÌ ¼º°øÀûÀ¸·Î ¼³Ä¡µÇ¾î ÀÖ´Ù¸é ÀÌ °úÁ¤Àº ¹«½ÃÇÏ½Ã¸é µË´Ï´Ù.");
+define("LEGEND_XOOPS_MAINFILE_FORPROTECTOR","XOOPS mainfile ï¿½Øºï¿½");
+define("XOOPS_MAINFILE_LABEL_FORPROTECTOR","protectorï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ä¡ï¿½Ï½ï¿½ ï¿½ï¿½È¹ï¿½Ì¸ï¿½ <em>/upgrade/" . basename(dirname(dirname(__FILE__))) . "/mainfile.dist.php</em> ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ <em>/extras/mainfile.dist.php.protector</em>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ì¿ï¿½ï¿½Ï½Ã±ï¿½ ï¿½Ù¶ï¿½ï¿½Ï´ï¿½." .
+                                            " (ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ï¸ï¿½ï¿½ï¿½ <em>mainfile.dist.php</em>ï¿½ï¿½ ï¿½Ì¸ï¿½ï¿½Ù²Ù±ï¿½ï¿½Ï¿ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ï½Ã¸ï¿½ ï¿½Ë´Ï´ï¿½.).<br />" .
+                                            "ï¿½Ì¹ï¿½ protectorï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ä¡ï¿½Ç¾ï¿½ ï¿½Ö´Ù¸ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï½Ã¸ï¿½ ï¿½Ë´Ï´ï¿½.");
 ?>

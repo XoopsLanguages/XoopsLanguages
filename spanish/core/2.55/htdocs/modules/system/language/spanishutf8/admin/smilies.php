@@ -27,12 +27,12 @@ define('_AM_SYSTEM_SMILIES_DESCRIPTION','Descripción');
 define('_AM_SYSTEM_SMILIES_DISPLAY','Mostrar en la lista');
 define('_AM_SYSTEM_SMILIES_EDIT','Modificar carita');
 define('_AM_SYSTEM_SMILIES_FILE','Archivo de la carita');
-define('_AM_SYSTEM_SMILIES_IMAGE_PATH', 'Archivos existentes en: %s');
+define('_AM_SYSTEM_SMILIES_IMAGE_PATH','Archivos existentes en: %s');
 define('_AM_SYSTEM_SMILIES_OFF','Mostrar en el formulario ');
 define('_AM_SYSTEM_SMILIES_ON','No mostrar en el formulario');
 define('_AM_SYSTEM_SMILIES_SMILIE','Carita');
-define('_AM_SYSTEM_SMILIES_SUREDEL', '¿Realmente desea eliminar la carita?');
-define('_AM_SYSTEM_SMILIES_UPLOADS', 'Subir');
+define('_AM_SYSTEM_SMILIES_SUREDEL','¿Realmente desea eliminar la carita?');
+define('_AM_SYSTEM_SMILIES_UPLOADS','Subir');
 
 define('_AM_SYSTEM_SMILIES_SAVE',_AM_SYSTEM_DBUPDATED);
 

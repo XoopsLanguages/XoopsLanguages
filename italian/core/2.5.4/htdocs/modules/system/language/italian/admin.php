@@ -70,13 +70,13 @@ define("_AM_SYSTEM_MAINTENANCE_DESC","Strumento di manutenzione per le tabelle d
 // Messages
 define("_AM_SYSTEM_DBUPDATED","Database aggiornato con successo!");
 define("_AM_SYSTEM_DBERROR","Database non aggiornato a causa di un errore!");
-define("_AM_SYSTEM_NOTACTIVE","Questa sezione non è abilitata!");
+define("_AM_SYSTEM_NOTACTIVE","Questa sezione non Ã¨ abilitata!");
 
 // Group permission phrases
-define('_MD_AM_PERMADDNG', 'Impossibile aggiungere il permesso %s a %s per il gruppo %s');
-define('_MD_AM_PERMADDOK', 'Il permesso %s a %s per il gruppo %s &egrave; stato aggiunto con successo');
-define('_MD_AM_PERMRESETNG', 'Non &egrave; stato possibile azzerare i permessi per il modulo %s');
-define('_MD_AM_PERMADDNGP', 'Tutti gli elementi genitore devono essere selezionati.');
+define('_MD_AM_PERMADDNG','Impossibile aggiungere il permesso %s a %s per il gruppo %s');
+define('_MD_AM_PERMADDOK','Il permesso %s a %s per il gruppo %s &egrave; stato aggiunto con successo');
+define('_MD_AM_PERMRESETNG','Non &egrave; stato possibile azzerare i permessi per il modulo %s');
+define('_MD_AM_PERMADDNGP','Tutti gli elementi genitore devono essere selezionati.');
 
 //Last Update: 30/11/2011 by TXMod Xoops
 define("_AM_SYSTEM_TEMPLATES_SET","Selezionare il Template");

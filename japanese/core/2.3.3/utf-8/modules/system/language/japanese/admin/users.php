@@ -54,7 +54,7 @@ define("_AM_CNGTST","投稿件数を取得できませんでした");
 define("_AM_CNUUSER","ユーザ情報を更新できませんでした");
 define("_AM_CNGUSERID","ユーザIDを取得できませんでした");
 define("_AM_LIST","一覧");
-define("_AM_NOUSERS", "ユーザが選択されていません");
+define("_AM_NOUSERS","ユーザが選択されていません");
 
 define('_AM_CNRNU2','新規ユーザーをグループ %sに登録できませんでした');
 ?>

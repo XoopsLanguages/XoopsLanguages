@@ -104,10 +104,10 @@ class XoopsXmlRpcApi
     function &_getPostFields($post_id = null, $blog_id = null)
     {
         $ret = array();
-        $ret['title'] = array('required' => true, 'form_type' => 'textbox', 'value_type' => 'text');
-        $ret['hometext'] = array('required' => false, 'form_type' => 'textarea', 'data_type' => 'textarea');
-        $ret['moretext'] = array('required' => false, 'form_type' => 'textarea', 'data_type' => 'textarea');
-        $ret['categories'] = array('required' => false, 'form_type' => 'select_multi', 'data_type' => 'array');
+        $ret['title'] = array('required' => true, 'form_type' => 'textbox','value_type' => 'text');
+        $ret['hometext'] = array('required' => false, 'form_type' => 'textarea','data_type' => 'textarea');
+        $ret['moretext'] = array('required' => false, 'form_type' => 'textarea','data_type' => 'textarea');
+        $ret['categories'] = array('required' => false, 'form_type' => 'select_multi','data_type' => 'array');
         /*
         if (!isset($blog_id)) {
             if (!isset($post_id)) {

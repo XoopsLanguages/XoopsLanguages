@@ -5,8 +5,8 @@
 // Translator: XoopsHR.org / Ivan Kosak / 27.10.2009.
 
 // License
-define('LICENSE_NOT_WRITEABLE', 'Licenca je %s . <br/><font style="colour:#ff0000">Postavite ../include/license.php za pisanje</font>');
-define('LICENSE_IS_WRITEABLE', 'Licenca je %s');
+define('LICENSE_NOT_WRITEABLE','Licenca je %s . <br/><font style="colour:#ff0000">Postavite ../include/license.php za pisanje</font>');
+define('LICENSE_IS_WRITEABLE','Licenca je %s');
 
 define('_INSTALL_WEBMASTER','Webmasteri');
 define('_INSTALL_WEBMASTERD','Webmasteri ovih stranica');
@@ -17,18 +17,18 @@ define('_INSTALL_ANONUSERSD','Grupa anonimnih korisnika');
 /**
 * New Group types
 */
-define('_INSTALL_BANNEDUSERS', 'Izbačeni korisnici');
-define('_INSTALL_BANNEDUSERSD', 'Grupa izbačenih korisnika');
-define('_INSTALL_MODERATORUSERS', 'Moderatori');
-define('_INSTALL_MODERATORUSERSD', 'Ovdje su moderatori vaše web stranice');
-define('_INSTALL_SUBMITTERUSERS', 'Podnositelji');
-define('_INSTALL_SUBMITTERUSERSD', 'Ova grupa može podnositi članke na vaše web stranice');
-define('_INSTALL_DEVELOPEUSERS', 'Programeri');
-define('_INSTALL_DEVELOPEUSERSD', 'Ova grupa ima programerska prava i mogu vidjeti debug poruke.');
+define('_INSTALL_BANNEDUSERS','Izbačeni korisnici');
+define('_INSTALL_BANNEDUSERSD','Grupa izbačenih korisnika');
+define('_INSTALL_MODERATORUSERS','Moderatori');
+define('_INSTALL_MODERATORUSERSD','Ovdje su moderatori vaše web stranice');
+define('_INSTALL_SUBMITTERUSERS','Podnositelji');
+define('_INSTALL_SUBMITTERUSERSD','Ova grupa može podnositi članke na vaše web stranice');
+define('_INSTALL_DEVELOPEUSERS','Programeri');
+define('_INSTALL_DEVELOPEUSERSD','Ova grupa ima programerska prava i mogu vidjeti debug poruke.');
 
-define("_INSTALL_L165", "Web stranice su trenutno zatvorene zbog održavanja. Molimo navratite kasnije.");
+define("_INSTALL_L165","Web stranice su trenutno zatvorene zbog održavanja. Molimo navratite kasnije.");
 define("_INSTALL_ANON","Anonimac");
-define("_INSTALL_DISCLMR", "Dok će administratori i moderatori ovih stranica pokušati ukloniti ili
+define("_INSTALL_DISCLMR","Dok će administratori i moderatori ovih stranica pokušati ukloniti ili
 urediti sve opće upitne materijale koliko god budu mogli brže, nemoguće je
 pregledati sve i jednu poruku. Pa vas zato obavještavamo da sve poruke na
 na ovim web stranicama odražavaju gledišta i mišljenja autora, a ne

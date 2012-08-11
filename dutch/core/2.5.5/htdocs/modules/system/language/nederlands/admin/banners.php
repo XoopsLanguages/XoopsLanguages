@@ -76,7 +76,7 @@ define("_AM_SYSTEM_BANNERS_USEHTML","HTML gebruiken?");
 define("_AM_SYSTEM_BANNERS_CODEHTML","HTML-code:");
 
 // Tips
-define("_AM_SYSTEM_BANNERS_NAV_TIPS", "
+define("_AM_SYSTEM_BANNERS_NAV_TIPS","
 <ul>
 <li>Toevoegen, wijzigen en bijwerken van categoriën, banners en klanten.</li>
 </ul>

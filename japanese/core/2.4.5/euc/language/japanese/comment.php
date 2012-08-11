@@ -3,42 +3,42 @@
 // _LANGCODE: ja
 // _CHARSET : EUC-JP
 // Translator: XOOPS Translation Team
-define('_CM_TITLE', '¥¿¥¤¥È¥ë');
-define('_CM_MESSAGE', '¥á¥Ã¥»¡¼¥¸');
-define('_CM_DOSMILEY', '´éÊ¸»ú Í­¸ú');
-define('_CM_DOHTML', 'HTML ¥¿¥° Í­¸ú');
-define('_CM_DOAUTOWRAP', '²þ¹Ô¤ò¼«Æ°ÁÞÆþ¤¹¤ë');
-define('_CM_DOXCODE', 'XOOPS¥³¡¼¥É Í­¸ú');
-define('_CM_REFRESH', '¹¹¿·');
-define('_CM_PENDING', '¾µÇ§ÂÔ¤Á');
-define('_CM_HIDDEN', 'ÈóÉ½¼¨');
-define('_CM_ACTIVE', '¥¢¥¯¥Æ¥£¥Ö');
-define('_CM_STATUS', '¥¹¥Æ¡¼¥¿¥¹');
-define('_CM_POSTCOMMENT', '¥³¥á¥ó¥ÈÅê¹Æ');
-define('_CM_REPLIES', 'ÊÖ¿®');
-define('_CM_PARENT', '¿Æ');
-define('_CM_TOP', '¾å¤Ø');
-define('_CM_BOTTOM', '²¼¤Ø');
-define('_CM_ONLINE', '¥ª¥ó¥é¥¤¥ó!');
-define('_CM_POSTED', 'Åê¹ÆÆü'); // Posted date
-define('_CM_UPDATED', '¹¹¿·Æü');
-define('_CM_THREAD', '¥¹¥ì¥Ã¥É');
-define('_CM_POSTER', 'Åê¹Æ¼Ô');
-define('_CM_JOINED', 'ÅÐÏ¿Æü');
-define('_CM_POSTS', 'Åê¹Æ¿ô');
-define('_CM_FROM', 'µï½»ÃÏ');
-define('_CM_COMDELETED', '¥³¥á¥ó¥È¤òºï½ü¤·¤Þ¤·¤¿');
-define('_CM_COMDELETENG', '¥³¥á¥ó¥È¤òºï½ü¤Ç¤­¤Þ¤»¤ó¤Ç¤·¤¿');
-define('_CM_DELETESELECT', '¥³¥á¥ó¥È¤Îºï½üÊýË¡¤òÁªÂò¤·¤Æ¤¯¤À¤µ¤¤¡£');
-define('_CM_DELETEONE', '¤³¤Î¥³¥á¥ó¥È¤À¤±ºï½ü¤¹¤ë');
-define('_CM_DELETEALL', '¤³¤Î¥³¥á¥ó¥È¤ËÂÐ¤¹¤ëÊÖ¿®¤âÁ´¤Æºï½ü¤¹¤ë');
-define('_CM_THANKSPOST', 'Åê¹Æ¤¢¤ê¤¬¤È¤¦¤´¤¶¤¤¤Þ¤¹!');
-define('_CM_NOTICE', "¥³¥á¥ó¥È¤Î¸¢Íø¤ÏÅê¹Æ¼Ô¤Ë¤¢¤ê¤Þ¤¹¡£»ä¤¿¤Á¤ÏÅê¹Æ¤µ¤ì¤¿¥³¥á¥ó¥È¤ËÀÕÇ¤¤ò»ý¤Ä¤³¤È¤Ï¤Ç¤­¤Þ¤»¤ó¡£");
-define('_CM_COMRULES', '¥³¥á¥ó¥ÈÅê¹Æ¤Ë´Ø¤¹¤ë¥ë¡¼¥ë');
-define('_CM_COMAPPROVEALL', '¥³¥á¥ó¥È¤Ë¾µÇ§¤ÏÉ¬Í×¤Ê¤¤');
-define('_CM_COMAPPROVEUSER', 'ÅÐÏ¿¥æ¡¼¥¶°Ê³°¤Î¥³¥á¥ó¥È¤Ï¾µÇ§¤¬É¬Í×');
-define('_CM_COMAPPROVEADMIN', '¥³¥á¥ó¥È¤ÏÁ´¤Æ¾µÇ§¤¬É¬Í×');
-define('_CM_COMANONPOST', 'Æ¿Ì¾¤Ë¤è¤ë¥³¥á¥ó¥ÈÅê¹Æ¤òµö²Ä¤·¤Þ¤¹¤«¡©');
-define('_CM_COMNOCOM', '¥³¥á¥ó¥Èµ¡Ç½¤òÌµ¸ú¤Ë¤¹¤ë');
+define('_CM_TITLE','ï¿½ï¿½ï¿½ï¿½ï¿½È¥ï¿½');
+define('_CM_MESSAGE','ï¿½ï¿½Ã¥ï¿½ï¿½ï¿½ï¿½ï¿½');
+define('_CM_DOSMILEY','ï¿½ï¿½Ê¸ï¿½ï¿½ Í­ï¿½ï¿½');
+define('_CM_DOHTML','HTML ï¿½ï¿½ï¿½ï¿½ Í­ï¿½ï¿½');
+define('_CM_DOAUTOWRAP','ï¿½ï¿½ï¿½Ô¤ï¿½Æ°ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½');
+define('_CM_DOXCODE','XOOPSï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Í­ï¿½ï¿½');
+define('_CM_REFRESH','ï¿½ï¿½ï¿½ï¿½');
+define('_CM_PENDING','ï¿½ï¿½Ç§ï¿½Ô¤ï¿½');
+define('_CM_HIDDEN','ï¿½ï¿½É½ï¿½ï¿½');
+define('_CM_ACTIVE','ï¿½ï¿½ï¿½ï¿½ï¿½Æ¥ï¿½ï¿½ï¿½');
+define('_CM_STATUS','ï¿½ï¿½ï¿½Æ¡ï¿½ï¿½ï¿½ï¿½ï¿½');
+define('_CM_POSTCOMMENT','ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½');
+define('_CM_REPLIES','ï¿½Ö¿ï¿½');
+define('_CM_PARENT','ï¿½ï¿½');
+define('_CM_TOP','ï¿½ï¿½ï¿½');
+define('_CM_BOTTOM','ï¿½ï¿½ï¿½ï¿½');
+define('_CM_ONLINE','ï¿½ï¿½ï¿½ï¿½é¥¤ï¿½ï¿½!');
+define('_CM_POSTED','ï¿½ï¿½ï¿½ï¿½ï¿½'); // Posted date
+define('_CM_UPDATED','ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½');
+define('_CM_THREAD','ï¿½ï¿½ï¿½ï¿½Ã¥ï¿½');
+define('_CM_POSTER','ï¿½ï¿½Æ¼ï¿½');
+define('_CM_JOINED','ï¿½ï¿½Ï¿ï¿½ï¿½');
+define('_CM_POSTS','ï¿½ï¿½Æ¿ï¿½');
+define('_CM_FROM','ï¿½ï½»ï¿½ï¿½');
+define('_CM_COMDELETED','ï¿½ï¿½ï¿½ï¿½ï¿½È¤ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Þ¤ï¿½ï¿½ï¿½');
+define('_CM_COMDELETENG','ï¿½ï¿½ï¿½ï¿½ï¿½È¤ï¿½ï¿½ï¿½ï¿½Ç¤ï¿½ï¿½Þ¤ï¿½ï¿½ï¿½Ç¤ï¿½ï¿½ï¿½');
+define('_CM_DELETESELECT','ï¿½ï¿½ï¿½ï¿½ï¿½È¤Îºï¿½ï¿½ï¿½ï¿½Ë¡ï¿½ï¿½ï¿½ï¿½ï¿½ò¤·¤Æ¤ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½');
+define('_CM_DELETEONE','ï¿½ï¿½ï¿½Î¥ï¿½ï¿½ï¿½ï¿½È¤ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½');
+define('_CM_DELETEALL','ï¿½ï¿½ï¿½Î¥ï¿½ï¿½ï¿½ï¿½È¤ï¿½ï¿½Ð¤ï¿½ï¿½ï¿½ï¿½Ö¿ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æºï¿½ï¿½ï¿½ï¿½ï¿½ï¿½');
+define('_CM_THANKSPOST','ï¿½ï¿½Æ¤ï¿½ï¿½ê¤¬ï¿½È¤ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Þ¤ï¿½!');
+define('_CM_NOTICE',"ï¿½ï¿½ï¿½ï¿½ï¿½È¤Î¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ¼Ô¤Ë¤ï¿½ï¿½ï¿½Þ¤ï¿½ï¿½ï¿½ï¿½ä¤¿ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ¤ï¿½ï¿½ì¤¿ï¿½ï¿½ï¿½ï¿½ï¿½È¤ï¿½ï¿½ï¿½Ç¤ï¿½ï¿½ï¿½ï¿½Ä¤ï¿½ï¿½È¤Ï¤Ç¤ï¿½ï¿½Þ¤ï¿½ï¿½ï¿½");
+define('_CM_COMRULES','ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ¤Ë´Ø¤ï¿½ï¿½ï¿½ë¡¼ï¿½ï¿½');
+define('_CM_COMAPPROVEALL','ï¿½ï¿½ï¿½ï¿½ï¿½È¤Ë¾ï¿½Ç§ï¿½ï¿½É¬ï¿½×¤Ê¤ï¿½');
+define('_CM_COMAPPROVEUSER','ï¿½ï¿½Ï¿ï¿½æ¡¼ï¿½ï¿½ï¿½Ê³ï¿½ï¿½Î¥ï¿½ï¿½ï¿½ï¿½È¤Ï¾ï¿½Ç§ï¿½ï¿½É¬ï¿½ï¿½');
+define('_CM_COMAPPROVEADMIN','ï¿½ï¿½ï¿½ï¿½ï¿½È¤ï¿½ï¿½ï¿½ï¿½Æ¾ï¿½Ç§ï¿½ï¿½É¬ï¿½ï¿½');
+define('_CM_COMANONPOST','Æ¿Ì¾ï¿½Ë¤ï¿½ë¥³ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ¤ï¿½ï¿½ï¿½Ä¤ï¿½ï¿½Þ¤ï¿½ï¿½ï¿½ï¿½ï¿½');
+define('_CM_COMNOCOM','ï¿½ï¿½ï¿½ï¿½ï¿½Èµï¿½Ç½ï¿½ï¿½Ìµï¿½ï¿½ï¿½Ë¤ï¿½ï¿½ï¿½');
 
 ?>

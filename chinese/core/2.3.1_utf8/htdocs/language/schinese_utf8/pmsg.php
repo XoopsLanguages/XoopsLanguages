@@ -37,8 +37,8 @@ define("_PM_DATE","日期");
 define("_PM_NOTREAD","未读");
 define("_PM_SEND","发送");
 define("_PM_DELETE","删除");
-define("_PM_REPLY", "回复");
+define("_PM_REPLY","回复");
 define("_PM_PLZREG","请先登录或注册才可发送短信。");
 
-define("_PM_ONLINE", "在线");
+define("_PM_ONLINE","在线");
 ?>

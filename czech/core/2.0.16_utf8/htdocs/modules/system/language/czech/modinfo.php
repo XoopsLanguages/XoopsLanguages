@@ -15,13 +15,13 @@ define("_MI_SYSTEM_BNAME4","Hledat");
 define("_MI_SYSTEM_BNAME5","Čeká na schválení");
 define("_MI_SYSTEM_BNAME6","Hlavní nabídka");
 define("_MI_SYSTEM_BNAME7","O nás");
-define('_MI_SYSTEM_BNAME8', "Kdo je přítomen");
-define('_MI_SYSTEM_BNAME9', "Nejaktivnější autoři");
-define('_MI_SYSTEM_BNAME10', "Noví členové");
-define('_MI_SYSTEM_BNAME11', "Nové komentáře");
+define('_MI_SYSTEM_BNAME8',"Kdo je přítomen");
+define('_MI_SYSTEM_BNAME9',"Nejaktivnější autoři");
+define('_MI_SYSTEM_BNAME10',"Noví členové");
+define('_MI_SYSTEM_BNAME11',"Nové komentáře");
 // RMV-NOTIFY
-define('_MI_SYSTEM_BNAME12', "Možnosti upozorňování");
-define('_MI_SYSTEM_BNAME13', "Vzhledy");
+define('_MI_SYSTEM_BNAME12',"Možnosti upozorňování");
+define('_MI_SYSTEM_BNAME13',"Vzhledy");
 
 // Names of admin menu items
 define("_MI_SYSTEM_ADMENU1","Bannery");
@@ -33,9 +33,9 @@ define("_MI_SYSTEM_ADMENU7","Emotikony");
 define("_MI_SYSTEM_ADMENU9","Zařazení uživatelů");
 define("_MI_SYSTEM_ADMENU10","Upravit uživatele");
 define("_MI_SYSTEM_ADMENU11","E-mail uživatelům");
-define("_MI_SYSTEM_ADMENU12", "Najít uživatele");
-define("_MI_SYSTEM_ADMENU13", "Obrázky");
-define("_MI_SYSTEM_ADMENU14", "Ikony");
-define("_MI_SYSTEM_ADMENU15", "Šablony");
-define("_MI_SYSTEM_ADMENU16", "Komentáře");
+define("_MI_SYSTEM_ADMENU12","Najít uživatele");
+define("_MI_SYSTEM_ADMENU13","Obrázky");
+define("_MI_SYSTEM_ADMENU14","Ikony");
+define("_MI_SYSTEM_ADMENU15","Šablony");
+define("_MI_SYSTEM_ADMENU16","Komentáře");
 ?>

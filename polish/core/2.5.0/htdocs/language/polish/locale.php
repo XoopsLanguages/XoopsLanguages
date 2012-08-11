@@ -29,17 +29,17 @@ defined('XOOPS_ROOT_PATH') or die('Restricted access');
 
 setlocale(LC_ALL, 'pl_PL');
 
-// !!IMPORTANT!! insert '\' before any char among reserved chars: "a", "A", "B", "c", "d", "D", "F", "g", "G", "h", "H", "i", "I", "j", "l", "L", "m", "M", "n", "O", "r", "s", "S", "t", "T", "U", "w", "W", "Y", "y", "z", "Z"    
-// insert double '\' before 't', 'r', 'n'
+// !!IMPORTANT!! insert '\' before any char among reserved chars: "a","A","B","c","d","D","F","g","G","h","H","i","I","j","l","L","m","M","n","O","r","s","S","t","T","U","w","W","Y","y","z","Z"    
+// insert double '\' before 't','r','n'
 
-define("_TODAY", "\D\z\i\ś G:i");
-define("_YESTERDAY", "\W\c\z\o\\r\a\j G:i");
-define("_MONTHDAY", "n/j G:i");
-define("_YEARMONTHDAY", "Y/n/j G:i");
+define("_TODAY","\D\z\i\Ã…â€º G:i");
+define("_YESTERDAY","\W\c\z\o\\r\a\j G:i");
+define("_MONTHDAY","n/j G:i");
+define("_YEARMONTHDAY","Y/n/j G:i");
 
-define("_ELAPSE", "%s temu");
+define("_ELAPSE","%s temu");
 
-define("_TIMEFORMAT_DESC", "Właściwa postać: \"s\" - " . _SHORTDATESTRING . "; \"m\" - " . _MEDIUMDATESTRING . "; \"l\" - " . _DATESTRING . ";<br />".
+define("_TIMEFORMAT_DESC","WÃ…â€šaÃ…â€ºciwa postaÃ„â€¡: \"s\" - " . _SHORTDATESTRING . "; \"m\" - " . _MEDIUMDATESTRING . "; \"l\" - " . _DATESTRING . ";<br />".
                             "\"c\" or \"custom\" - format determined according to interval to present; \"e\" - Elapsed; \"mysql\" - Y-m-d H:i:s;<br />".
                             "specified string - Refer to <a href=\"http://php.net/manual/en/function.date.php\" rel=\"external\">PHP manual</a>."
                             );
@@ -63,7 +63,7 @@ class XoopsLocal extends XoopsLocalAbstract
      */
     function number_format($number)
     {
-        return number_format($number, 2, ',', ' ');
+        return number_format($number, 2, ',',' ');
     }
     
     /**

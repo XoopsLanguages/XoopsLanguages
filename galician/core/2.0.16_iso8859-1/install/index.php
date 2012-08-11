@@ -69,7 +69,7 @@ if ( !empty($_POST['lang']) ) {
 		//$_SERVER['HTTP_ACCEPT_LANGUAGE'] = 'ja,en-us;q=0.7,zh-TW;q=0.6';
 		if (isset($_SERVER['HTTP_ACCEPT_LANGUAGE'])) {
 			$accept_langs = explode(',', $_SERVER['HTTP_ACCEPT_LANGUAGE']);
-			$language_array = array('en' => 'english', 'ja' => 'japanese', 'fr' => 'french', 'de' => 'german', 'nl' => 'dutch', 'gl' => 'galician', 'es' => 'spanish', 'tw' => 'tchinese', 'cn' => 'schinese', 'ro' => 'romanian');
+			$language_array = array('en' => 'english','ja' => 'japanese','fr' => 'french','de' => 'german','nl' => 'dutch','gl' => 'galician','es' => 'spanish','tw' => 'tchinese','cn' => 'schinese','ro' => 'romanian');
 			foreach ($accept_langs as $al) {
 				$al = strtolower($al);
 				$al_len = strlen($al);
@@ -128,7 +128,7 @@ default:
 case "langselect":
     $title = _INSTALL_L0;
 	if (!defined('_INSTALL_L128')) {
-		define('_INSTALL_L128', 'Choose language to be used for the installation process');
+		define('_INSTALL_L128','Choose language to be used for the installation process');
 	}
     $content = "<p>"._INSTALL_L128."</p>"
               ."<select name='lang'>";
@@ -547,76 +547,76 @@ case 'updateConfig_go':
 		include_once('../modules/system/cache/config.php');
 	}
 
-	$dbm->insert('config', " VALUES (1, 0, 1, 'sitename', '_MD_AM_SITENAME', '".addslashes($xoopsConfig['sitename'])."', '_MD_AM_SITENAMEDSC', 'textbox', 'text', 0)");
-	$dbm->insert('config', " VALUES (2, 0, 1, 'slogan', '_MD_AM_SLOGAN', '".addslashes($xoopsConfig['slogan'])."', '_MD_AM_SLOGANDSC', 'textbox', 'text', 2)");
-	$dbm->insert('config', " VALUES (3, 0, 1, 'language', '_MD_AM_LANGUAGE', '".$xoopsConfig['language']."', '_MD_AM_LANGUAGEDSC', 'language', 'other', 4)");
-	$dbm->insert('config', " VALUES (4, 0, 1, 'startpage', '_MD_AM_STARTPAGE', '--', '_MD_AM_STARTPAGEDSC', 'startpage', 'other', 6)");
-	$dbm->insert('config', " VALUES (5, 0, 1, 'server_TZ', '_MD_AM_SERVERTZ', '".addslashes($xoopsConfig['server_TZ'])."', '_MD_AM_SERVERTZDSC', 'timezone', 'float', 8)");
-	$dbm->insert('config', " VALUES (6, 0, 1, 'default_TZ', '_MD_AM_DEFAULTTZ', '".addslashes($xoopsConfig['default_TZ'])."', '_MD_AM_DEFAULTTZDSC', 'timezone', 'float', 10)");
-	$dbm->insert('config', " VALUES (7, 0, 1, 'theme_set', '_MD_AM_DTHEME', 'default', '_MD_AM_DTHEMEDSC', 'theme', 'other', 12)");
-	$dbm->insert('config', " VALUES (8, 0, 1, 'anonymous', '_MD_AM_ANONNAME', '".addslashes($xoopsConfig['anonymous'])."', '_MD_AM_ANONNAMEDSC', 'textbox', 'text', 15)");
-	$dbm->insert('config', " VALUES (9, 0, 1, 'gzip_compression', '_MD_AM_USEGZIP', '".intval($xoopsConfig['gzip_compression'])."', '_MD_AM_USEGZIPDSC', 'yesno', 'int', 16)");
-	$dbm->insert('config', " VALUES (10, 0, 1, 'usercookie', '_MD_AM_USERCOOKIE', '".addslashes($xoopsConfig['usercookie'])."', '_MD_AM_USERCOOKIEDSC', 'textbox', 'text', 18)");
-    $dbm->insert('config', " VALUES (11, 0, 1, 'session_expire', '_MD_AM_SESSEXPIRE', '15', '_MD_AM_SESSEXPIREDSC', 'textbox', 'int', 22)");
-	$dbm->insert('config', " VALUES (12, 0, 1, 'banners', '_MD_AM_BANNERS', '".intval($xoopsConfig['banners'])."', '_MD_AM_BANNERSDSC', 'yesno', 'int', 26)");
-	$dbm->insert('config', " VALUES (13, 0, 1, 'debug_mode', '_MD_AM_DEBUGMODE', '0', '_MD_AM_DEBUGMODEDSC', 'select', 'int', 24)");
-	$dbm->insert('config', " VALUES (14, 0, 1, 'my_ip', '_MD_AM_MYIP', '".addslashes($xoopsConfig['my_ip'])."', '_MD_AM_MYIPDSC', 'textbox', 'text', 29)");
-	$dbm->insert('config', " VALUES (15, 0, 1, 'use_ssl', '_MD_AM_USESSL', '0', '_MD_AM_USESSLDSC', 'yesno', 'int', 30)");
-    $dbm->insert('config', " VALUES (16, 0, 1, 'session_name', '_MD_AM_SESSNAME', 'xoops_session', '_MD_AM_SESSNAMEDSC', 'textbox', 'text', 20)");
-	$dbm->insert('config', " VALUES (17, 0, 2, 'minpass', '_MD_AM_MINPASS', '".intval($xoopsConfig['minpass'])."', '_MD_AM_MINPASSDSC', 'textbox', 'int', 1)");
-	$dbm->insert('config', " VALUES (18, 0, 2, 'minuname', '_MD_AM_MINUNAME', '5', '_MD_AM_MINUNAMEDSC', 'textbox', 'int', 2)");
-	$dbm->insert('config', " VALUES (19, 0, 2, 'new_user_notify', '_MD_AM_NEWUNOTIFY', '".intval($xoopsConfig['new_user_notify'])."', '_MD_AM_NEWUNOTIFYDSC', 'yesno', 'int', 4)");
-	$dbm->insert('config', " VALUES (20, 0, 2, 'new_user_notify_group', '_MD_AM_NOTIFYTO', ".intval($xoopsConfig['new_user_notify_group']).", '_MD_AM_NOTIFYTODSC', 'group', 'int', 6)");
-	$dbm->insert('config', " VALUES (21, 0, 2, 'activation_type', '_MD_AM_ACTVTYPE', '0', '_MD_AM_ACTVTYPEDSC', 'select', 'int', 8)");
-	$dbm->insert('config', " VALUES (22, 0, 2, 'activation_group', '_MD_AM_ACTVGROUP', ".XOOPS_GROUP_ADMIN.", '_MD_AM_ACTVGROUPDSC', 'group', 'int', 10)");
-	$dbm->insert('config', " VALUES (23, 0, 2, 'uname_test_level', '_MD_AM_UNAMELVL', '".intval($xoopsConfig['uname_test_level'])."', '_MD_AM_UNAMELVLDSC', 'select', 'int', 12)");
-	$dbm->insert('config', " VALUES (24, 0, 2, 'avatar_allow_upload', '_MD_AM_AVATARALLOW', '".intval($xoopsConfig['avatar_allow_upload'])."', '_MD_AM_AVATARALWDSC', 'yesno', 'int', 14)");
-	$dbm->insert('config', " VALUES (27, 0, 2, 'avatar_width', '_MD_AM_AVATARW', '".intval($xoopsConfig['avatar_width'])."', '_MD_AM_AVATARWDSC', 'textbox', 'int', 16)");
-	$dbm->insert('config', " VALUES (28, 0, 2, 'avatar_height', '_MD_AM_AVATARH', '".intval($xoopsConfig['avatar_height'])."', '_MD_AM_AVATARHDSC', 'textbox', 'int', 18)");
-	$dbm->insert('config', " VALUES (29, 0, 2, 'avatar_maxsize', '_MD_AM_AVATARMAX', '".intval($xoopsConfig['avatar_maxsize'])."', '_MD_AM_AVATARMAXDSC', 'textbox', 'int', 20)");
-	$dbm->insert('config', " VALUES (30, 0, 1, 'adminmail', '_MD_AM_ADMINML', '".addslashes($xoopsConfig['adminmail'])."', '_MD_AM_ADMINMLDSC', 'textbox', 'text', 3)");
-	$dbm->insert('config', " VALUES (31, 0, 2, 'self_delete', '_MD_AM_SELFDELETE', '".intval($xoopsConfig['self_delete'])."', '_MD_AM_SELFDELETEDSC', 'yesno', 'int', 22)");
-	$dbm->insert('config', " VALUES (32, 0, 1, 'com_mode', '_MD_AM_COMMODE', '".addslashes($xoopsConfig['com_mode'])."', '_MD_AM_COMMODEDSC', 'select', 'text', 34)");
-	$dbm->insert('config', " VALUES (33, 0, 1, 'com_order', '_MD_AM_COMORDER', '".intval($xoopsConfig['com_order'])."', '_MD_AM_COMORDERDSC', 'select', 'int', 36)");
-	$dbm->insert('config', " VALUES (34, 0, 2, 'bad_unames', '_MD_AM_BADUNAMES', '".addslashes(serialize(array('webmaster', '^xoops', '^admin')))."', '_MD_AM_BADUNAMESDSC', 'textarea', 'array', 24)");
-	$dbm->insert('config', " VALUES (35, 0, 2, 'bad_emails', '_MD_AM_BADEMAILS', '".addslashes(serialize(array('xoops.org$')))."', '_MD_AM_BADEMAILSDSC', 'textarea', 'array', 26)");
-	$dbm->insert('config', " VALUES (36, 0, 2, 'maxuname', '_MD_AM_MAXUNAME', '10', '_MD_AM_MAXUNAMEDSC', 'textbox', 'int', 3)");
-	$dbm->insert('config', " VALUES (37, 0, 1, 'bad_ips', '_MD_AM_BADIPS', '".addslashes(serialize(array('127.0.0.1')))."', '_MD_AM_BADIPSDSC', 'textarea', 'array', 42)");
-	$dbm->insert('config', " VALUES (38, 0, 3, 'meta_keywords', '_MD_AM_METAKEY', 'news, technology, headlines, xoops, xoop, nuke, myphpnuke, myphp-nuke, phpnuke, SE, geek, geeks, hacker, hackers, linux, software, download, downloads, free, community, mp3, forum, forums, bulletin, board, boards, bbs, php, survey, poll, polls, kernel, comment, comments, portal, odp, open, source, opensource, FreeSoftware, gnu, gpl, license, Unix, *nix, mysql, sql, database, databases, web site, weblog, guru, module, modules, theme, themes, cms, content management', '_MD_AM_METAKEYDSC', 'textarea', 'text', 0)");
-	$dbm->insert('config', " VALUES (39, 0, 3, 'footer', '_MD_AM_FOOTER', 'Powered by XOOPS 2.0 &copy; 2001-" . date('Y', time()) . " <a href=\"http://www.xoops.org/\" target=\"_blank\">The XOOPS Project</a>', '_MD_AM_FOOTERDSC', 'textarea', 'text', 20)");
-	$dbm->insert('config', " VALUES (40, 0, 4, 'censor_enable', '_MD_AM_DOCENSOR', '0', '_MD_AM_DOCENSORDSC', 'yesno', 'int', 0)");
-	$dbm->insert('config', " VALUES (41, 0, 4, 'censor_words', '_MD_AM_CENSORWRD', '".addslashes(serialize(array('fuck', 'shit')))."', '_MD_AM_CENSORWRDDSC', 'textarea', 'array', 1)");
-	$dbm->insert('config', " VALUES (42, 0, 4, 'censor_replace', '_MD_AM_CENSORRPLC', '#OOPS#', '_MD_AM_CENSORRPLCDSC', 'textbox', 'text', 2)");
-	$dbm->insert('config', " VALUES (43, 0, 3, 'meta_robots', '_MD_AM_METAROBOTS', 'index,follow', '_MD_AM_METAROBOTSDSC', 'select', 'text', 2)");
-	$dbm->insert('config', " VALUES (44, 0, 5, 'enable_search', '_MD_AM_DOSEARCH', '1', '_MD_AM_DOSEARCHDSC', 'yesno', 'int', 0)");
-	$dbm->insert('config', " VALUES (45, 0, 5, 'keyword_min', '_MD_AM_MINSEARCH', '5', '_MD_AM_MINSEARCHDSC', 'textbox', 'int', 1)");
-	$dbm->insert('config', " VALUES (46, 0, 2, 'avatar_minposts', '_MD_AM_AVATARMP', '0', '_MD_AM_AVATARMPDSC', 'textbox', 'int', 15)");
-	$dbm->insert('config', " VALUES (47, 0, 1, 'enable_badips', '_MD_AM_DOBADIPS', '0', '_MD_AM_DOBADIPSDSC', 'yesno', 'int', 40)");
-	$dbm->insert('config', " VALUES (48, 0, 3, 'meta_rating', '_MD_AM_METARATING', 'general', '_MD_AM_METARATINGDSC', 'select', 'text', 4)");
-	$dbm->insert('config', " VALUES (49, 0, 3, 'meta_author', '_MD_AM_METAAUTHOR', 'XOOPS', '_MD_AM_METAAUTHORDSC', 'textbox', 'text', 6)");
-	$dbm->insert('config', " VALUES (50, 0, 3, 'meta_copyright', '_MD_AM_METACOPYR', 'Copyright &copy; 2001-2003', '_MD_AM_METACOPYRDSC', 'textbox', 'text', 8)");
-	$dbm->insert('config', " VALUES (51, 0, 3, 'meta_description', '_MD_AM_METADESC', 'XOOPS is a dynamic Object Oriented based open source portal script written in PHP.', '_MD_AM_METADESCDSC', 'textarea', 'text', 1)");
-	$dbm->insert('config', " VALUES (52, 0, 2, 'allow_chgmail', '_MD_AM_ALLWCHGMAIL', '0', '_MD_AM_ALLWCHGMAILDSC', 'yesno', 'int', 3)");
-    $dbm->insert('config', " VALUES (53, 0, 1, 'use_mysession', '_MD_AM_USEMYSESS', '0', '_MD_AM_USEMYSESSDSC', 'yesno', 'int', 19)");
-	$dbm->insert('config', " VALUES (54, 0, 2, 'reg_dispdsclmr', '_MD_AM_DSPDSCLMR', 1, '_MD_AM_DSPDSCLMRDSC', 'yesno', 'int', 30)");
-	$dbm->insert('config', " VALUES (55, 0, 2, 'reg_disclaimer', '_MD_AM_REGDSCLMR', '".addslashes(_INSTALL_DISCLMR)."', '_MD_AM_REGDSCLMRDSC', 'textarea', 'text', 32)");
-	$dbm->insert('config', " VALUES (56, 0, 2, 'allow_register', '_MD_AM_ALLOWREG', 1, '_MD_AM_ALLOWREGDSC', 'yesno', 'int', 0)");
-	$dbm->insert('config', " VALUES (57, 0, 1, 'theme_fromfile', '_MD_AM_THEMEFILE', '0', '_MD_AM_THEMEFILEDSC', 'yesno', 'int', 13)");
-	$dbm->insert('config', " VALUES (58, 0, 1, 'closesite', '_MD_AM_CLOSESITE', '0', '_MD_AM_CLOSESITEDSC', 'yesno', 'int', 26)");
-	$dbm->insert('config', " VALUES (59, 0, 1, 'closesite_okgrp', '_MD_AM_CLOSESITEOK', '".addslashes(serialize(array('1')))."', '_MD_AM_CLOSESITEOKDSC', 'group_multi', 'array', 27)");
-	$dbm->insert('config', " VALUES (60, 0, 1, 'closesite_text', '_MD_AM_CLOSESITETXT', '"._INSTALL_L165."', '_MD_AM_CLOSESITETXTDSC', 'textarea', 'text', 28)");
-	$dbm->insert('config', " VALUES (61, 0, 1, 'sslpost_name', '_MD_AM_SSLPOST', 'xoops_ssl', '_MD_AM_SSLPOSTDSC', 'textbox', 'text', 31)");
-	$dbm->insert('config', " VALUES (62, 0, 1, 'module_cache', '_MD_AM_MODCACHE', '', '_MD_AM_MODCACHEDSC', 'module_cache', 'array', 50)");
-	$dbm->insert('config', " VALUES (63, 0, 1, 'template_set', '_MD_AM_DTPLSET', 'default', '_MD_AM_DTPLSETDSC', 'tplset', 'other', 14)");
+	$dbm->insert('config', " VALUES (1, 0, 1, 'sitename','_MD_AM_SITENAME','".addslashes($xoopsConfig['sitename'])."','_MD_AM_SITENAMEDSC','textbox','text', 0)");
+	$dbm->insert('config', " VALUES (2, 0, 1, 'slogan','_MD_AM_SLOGAN','".addslashes($xoopsConfig['slogan'])."','_MD_AM_SLOGANDSC','textbox','text', 2)");
+	$dbm->insert('config', " VALUES (3, 0, 1, 'language','_MD_AM_LANGUAGE','".$xoopsConfig['language']."','_MD_AM_LANGUAGEDSC','language','other', 4)");
+	$dbm->insert('config', " VALUES (4, 0, 1, 'startpage','_MD_AM_STARTPAGE','--','_MD_AM_STARTPAGEDSC','startpage','other', 6)");
+	$dbm->insert('config', " VALUES (5, 0, 1, 'server_TZ','_MD_AM_SERVERTZ','".addslashes($xoopsConfig['server_TZ'])."','_MD_AM_SERVERTZDSC','timezone','float', 8)");
+	$dbm->insert('config', " VALUES (6, 0, 1, 'default_TZ','_MD_AM_DEFAULTTZ','".addslashes($xoopsConfig['default_TZ'])."','_MD_AM_DEFAULTTZDSC','timezone','float', 10)");
+	$dbm->insert('config', " VALUES (7, 0, 1, 'theme_set','_MD_AM_DTHEME','default','_MD_AM_DTHEMEDSC','theme','other', 12)");
+	$dbm->insert('config', " VALUES (8, 0, 1, 'anonymous','_MD_AM_ANONNAME','".addslashes($xoopsConfig['anonymous'])."','_MD_AM_ANONNAMEDSC','textbox','text', 15)");
+	$dbm->insert('config', " VALUES (9, 0, 1, 'gzip_compression','_MD_AM_USEGZIP','".intval($xoopsConfig['gzip_compression'])."','_MD_AM_USEGZIPDSC','yesno','int', 16)");
+	$dbm->insert('config', " VALUES (10, 0, 1, 'usercookie','_MD_AM_USERCOOKIE','".addslashes($xoopsConfig['usercookie'])."','_MD_AM_USERCOOKIEDSC','textbox','text', 18)");
+    $dbm->insert('config', " VALUES (11, 0, 1, 'session_expire','_MD_AM_SESSEXPIRE','15','_MD_AM_SESSEXPIREDSC','textbox','int', 22)");
+	$dbm->insert('config', " VALUES (12, 0, 1, 'banners','_MD_AM_BANNERS','".intval($xoopsConfig['banners'])."','_MD_AM_BANNERSDSC','yesno','int', 26)");
+	$dbm->insert('config', " VALUES (13, 0, 1, 'debug_mode','_MD_AM_DEBUGMODE','0','_MD_AM_DEBUGMODEDSC','select','int', 24)");
+	$dbm->insert('config', " VALUES (14, 0, 1, 'my_ip','_MD_AM_MYIP','".addslashes($xoopsConfig['my_ip'])."','_MD_AM_MYIPDSC','textbox','text', 29)");
+	$dbm->insert('config', " VALUES (15, 0, 1, 'use_ssl','_MD_AM_USESSL','0','_MD_AM_USESSLDSC','yesno','int', 30)");
+    $dbm->insert('config', " VALUES (16, 0, 1, 'session_name','_MD_AM_SESSNAME','xoops_session','_MD_AM_SESSNAMEDSC','textbox','text', 20)");
+	$dbm->insert('config', " VALUES (17, 0, 2, 'minpass','_MD_AM_MINPASS','".intval($xoopsConfig['minpass'])."','_MD_AM_MINPASSDSC','textbox','int', 1)");
+	$dbm->insert('config', " VALUES (18, 0, 2, 'minuname','_MD_AM_MINUNAME','5','_MD_AM_MINUNAMEDSC','textbox','int', 2)");
+	$dbm->insert('config', " VALUES (19, 0, 2, 'new_user_notify','_MD_AM_NEWUNOTIFY','".intval($xoopsConfig['new_user_notify'])."','_MD_AM_NEWUNOTIFYDSC','yesno','int', 4)");
+	$dbm->insert('config', " VALUES (20, 0, 2, 'new_user_notify_group','_MD_AM_NOTIFYTO', ".intval($xoopsConfig['new_user_notify_group']).", '_MD_AM_NOTIFYTODSC','group','int', 6)");
+	$dbm->insert('config', " VALUES (21, 0, 2, 'activation_type','_MD_AM_ACTVTYPE','0','_MD_AM_ACTVTYPEDSC','select','int', 8)");
+	$dbm->insert('config', " VALUES (22, 0, 2, 'activation_group','_MD_AM_ACTVGROUP', ".XOOPS_GROUP_ADMIN.", '_MD_AM_ACTVGROUPDSC','group','int', 10)");
+	$dbm->insert('config', " VALUES (23, 0, 2, 'uname_test_level','_MD_AM_UNAMELVL','".intval($xoopsConfig['uname_test_level'])."','_MD_AM_UNAMELVLDSC','select','int', 12)");
+	$dbm->insert('config', " VALUES (24, 0, 2, 'avatar_allow_upload','_MD_AM_AVATARALLOW','".intval($xoopsConfig['avatar_allow_upload'])."','_MD_AM_AVATARALWDSC','yesno','int', 14)");
+	$dbm->insert('config', " VALUES (27, 0, 2, 'avatar_width','_MD_AM_AVATARW','".intval($xoopsConfig['avatar_width'])."','_MD_AM_AVATARWDSC','textbox','int', 16)");
+	$dbm->insert('config', " VALUES (28, 0, 2, 'avatar_height','_MD_AM_AVATARH','".intval($xoopsConfig['avatar_height'])."','_MD_AM_AVATARHDSC','textbox','int', 18)");
+	$dbm->insert('config', " VALUES (29, 0, 2, 'avatar_maxsize','_MD_AM_AVATARMAX','".intval($xoopsConfig['avatar_maxsize'])."','_MD_AM_AVATARMAXDSC','textbox','int', 20)");
+	$dbm->insert('config', " VALUES (30, 0, 1, 'adminmail','_MD_AM_ADMINML','".addslashes($xoopsConfig['adminmail'])."','_MD_AM_ADMINMLDSC','textbox','text', 3)");
+	$dbm->insert('config', " VALUES (31, 0, 2, 'self_delete','_MD_AM_SELFDELETE','".intval($xoopsConfig['self_delete'])."','_MD_AM_SELFDELETEDSC','yesno','int', 22)");
+	$dbm->insert('config', " VALUES (32, 0, 1, 'com_mode','_MD_AM_COMMODE','".addslashes($xoopsConfig['com_mode'])."','_MD_AM_COMMODEDSC','select','text', 34)");
+	$dbm->insert('config', " VALUES (33, 0, 1, 'com_order','_MD_AM_COMORDER','".intval($xoopsConfig['com_order'])."','_MD_AM_COMORDERDSC','select','int', 36)");
+	$dbm->insert('config', " VALUES (34, 0, 2, 'bad_unames','_MD_AM_BADUNAMES','".addslashes(serialize(array('webmaster','^xoops','^admin')))."','_MD_AM_BADUNAMESDSC','textarea','array', 24)");
+	$dbm->insert('config', " VALUES (35, 0, 2, 'bad_emails','_MD_AM_BADEMAILS','".addslashes(serialize(array('xoops.org$')))."','_MD_AM_BADEMAILSDSC','textarea','array', 26)");
+	$dbm->insert('config', " VALUES (36, 0, 2, 'maxuname','_MD_AM_MAXUNAME','10','_MD_AM_MAXUNAMEDSC','textbox','int', 3)");
+	$dbm->insert('config', " VALUES (37, 0, 1, 'bad_ips','_MD_AM_BADIPS','".addslashes(serialize(array('127.0.0.1')))."','_MD_AM_BADIPSDSC','textarea','array', 42)");
+	$dbm->insert('config', " VALUES (38, 0, 3, 'meta_keywords','_MD_AM_METAKEY','news, technology, headlines, xoops, xoop, nuke, myphpnuke, myphp-nuke, phpnuke, SE, geek, geeks, hacker, hackers, linux, software, download, downloads, free, community, mp3, forum, forums, bulletin, board, boards, bbs, php, survey, poll, polls, kernel, comment, comments, portal, odp, open, source, opensource, FreeSoftware, gnu, gpl, license, Unix, *nix, mysql, sql, database, databases, web site, weblog, guru, module, modules, theme, themes, cms, content management','_MD_AM_METAKEYDSC','textarea','text', 0)");
+	$dbm->insert('config', " VALUES (39, 0, 3, 'footer','_MD_AM_FOOTER','Powered by XOOPS 2.0 &copy; 2001-" . date('Y', time()) . " <a href=\"http://www.xoops.org/\" target=\"_blank\">The XOOPS Project</a>','_MD_AM_FOOTERDSC','textarea','text', 20)");
+	$dbm->insert('config', " VALUES (40, 0, 4, 'censor_enable','_MD_AM_DOCENSOR','0','_MD_AM_DOCENSORDSC','yesno','int', 0)");
+	$dbm->insert('config', " VALUES (41, 0, 4, 'censor_words','_MD_AM_CENSORWRD','".addslashes(serialize(array('fuck','shit')))."','_MD_AM_CENSORWRDDSC','textarea','array', 1)");
+	$dbm->insert('config', " VALUES (42, 0, 4, 'censor_replace','_MD_AM_CENSORRPLC','#OOPS#','_MD_AM_CENSORRPLCDSC','textbox','text', 2)");
+	$dbm->insert('config', " VALUES (43, 0, 3, 'meta_robots','_MD_AM_METAROBOTS','index,follow','_MD_AM_METAROBOTSDSC','select','text', 2)");
+	$dbm->insert('config', " VALUES (44, 0, 5, 'enable_search','_MD_AM_DOSEARCH','1','_MD_AM_DOSEARCHDSC','yesno','int', 0)");
+	$dbm->insert('config', " VALUES (45, 0, 5, 'keyword_min','_MD_AM_MINSEARCH','5','_MD_AM_MINSEARCHDSC','textbox','int', 1)");
+	$dbm->insert('config', " VALUES (46, 0, 2, 'avatar_minposts','_MD_AM_AVATARMP','0','_MD_AM_AVATARMPDSC','textbox','int', 15)");
+	$dbm->insert('config', " VALUES (47, 0, 1, 'enable_badips','_MD_AM_DOBADIPS','0','_MD_AM_DOBADIPSDSC','yesno','int', 40)");
+	$dbm->insert('config', " VALUES (48, 0, 3, 'meta_rating','_MD_AM_METARATING','general','_MD_AM_METARATINGDSC','select','text', 4)");
+	$dbm->insert('config', " VALUES (49, 0, 3, 'meta_author','_MD_AM_METAAUTHOR','XOOPS','_MD_AM_METAAUTHORDSC','textbox','text', 6)");
+	$dbm->insert('config', " VALUES (50, 0, 3, 'meta_copyright','_MD_AM_METACOPYR','Copyright &copy; 2001-2003','_MD_AM_METACOPYRDSC','textbox','text', 8)");
+	$dbm->insert('config', " VALUES (51, 0, 3, 'meta_description','_MD_AM_METADESC','XOOPS is a dynamic Object Oriented based open source portal script written in PHP.','_MD_AM_METADESCDSC','textarea','text', 1)");
+	$dbm->insert('config', " VALUES (52, 0, 2, 'allow_chgmail','_MD_AM_ALLWCHGMAIL','0','_MD_AM_ALLWCHGMAILDSC','yesno','int', 3)");
+    $dbm->insert('config', " VALUES (53, 0, 1, 'use_mysession','_MD_AM_USEMYSESS','0','_MD_AM_USEMYSESSDSC','yesno','int', 19)");
+	$dbm->insert('config', " VALUES (54, 0, 2, 'reg_dispdsclmr','_MD_AM_DSPDSCLMR', 1, '_MD_AM_DSPDSCLMRDSC','yesno','int', 30)");
+	$dbm->insert('config', " VALUES (55, 0, 2, 'reg_disclaimer','_MD_AM_REGDSCLMR','".addslashes(_INSTALL_DISCLMR)."','_MD_AM_REGDSCLMRDSC','textarea','text', 32)");
+	$dbm->insert('config', " VALUES (56, 0, 2, 'allow_register','_MD_AM_ALLOWREG', 1, '_MD_AM_ALLOWREGDSC','yesno','int', 0)");
+	$dbm->insert('config', " VALUES (57, 0, 1, 'theme_fromfile','_MD_AM_THEMEFILE','0','_MD_AM_THEMEFILEDSC','yesno','int', 13)");
+	$dbm->insert('config', " VALUES (58, 0, 1, 'closesite','_MD_AM_CLOSESITE','0','_MD_AM_CLOSESITEDSC','yesno','int', 26)");
+	$dbm->insert('config', " VALUES (59, 0, 1, 'closesite_okgrp','_MD_AM_CLOSESITEOK','".addslashes(serialize(array('1')))."','_MD_AM_CLOSESITEOKDSC','group_multi','array', 27)");
+	$dbm->insert('config', " VALUES (60, 0, 1, 'closesite_text','_MD_AM_CLOSESITETXT','"._INSTALL_L165."','_MD_AM_CLOSESITETXTDSC','textarea','text', 28)");
+	$dbm->insert('config', " VALUES (61, 0, 1, 'sslpost_name','_MD_AM_SSLPOST','xoops_ssl','_MD_AM_SSLPOSTDSC','textbox','text', 31)");
+	$dbm->insert('config', " VALUES (62, 0, 1, 'module_cache','_MD_AM_MODCACHE','','_MD_AM_MODCACHEDSC','module_cache','array', 50)");
+	$dbm->insert('config', " VALUES (63, 0, 1, 'template_set','_MD_AM_DTPLSET','default','_MD_AM_DTPLSETDSC','tplset','other', 14)");
 	$dbm->insert('config', " VALUES (64,0,6,'mailmethod','_MD_AM_MAILERMETHOD','mail','_MD_AM_MAILERMETHODDESC','select','text',4)");
-	$dbm->insert('config', " VALUES (65,0,6,'smtphost','_MD_AM_SMTPHOST','a:1:{i:0;s:0:\"\";}', '_MD_AM_SMTPHOSTDESC','textarea','array',6)");
+	$dbm->insert('config', " VALUES (65,0,6,'smtphost','_MD_AM_SMTPHOST','a:1:{i:0;s:0:\"\";}','_MD_AM_SMTPHOSTDESC','textarea','array',6)");
 	$dbm->insert('config', " VALUES (66,0,6,'smtpuser','_MD_AM_SMTPUSER','','_MD_AM_SMTPUSERDESC','textbox','text',7)");
 	$dbm->insert('config', " VALUES (67,0,6,'smtppass','_MD_AM_SMTPPASS','','_MD_AM_SMTPPASSDESC','password','text',8)");
 	$dbm->insert('config', " VALUES (68,0,6,'sendmailpath','_MD_AM_SENDMAILPATH','/usr/sbin/sendmail','_MD_AM_SENDMAILPATHDESC','textbox','text',5)");
 	$dbm->insert('config', " VALUES (69,0,6,'from','_MD_AM_MAILFROM','','_MD_AM_MAILFROMDESC','textbox','text',1)");
 	$dbm->insert('config', " VALUES (70,0,6,'fromname','_MD_AM_MAILFROMNAME','','_MD_AM_MAILFROMNAMEDESC','textbox','text',2)");
-	$dbm->insert('config', " VALUES (71, 0, 1, 'sslloginlink', '_MD_AM_SSLLINK', 'https://', '_MD_AM_SSLLINKDSC', 'textbox', 'text', 33)");
-	$dbm->insert('config', " VALUES (72, 0, 1, 'theme_set_allowed', '_MD_AM_THEMEOK', '".serialize(array('default'))."', '_MD_AM_THEMEOKDSC', 'theme_multi', 'array', 13)");
+	$dbm->insert('config', " VALUES (71, 0, 1, 'sslloginlink','_MD_AM_SSLLINK','https://','_MD_AM_SSLLINKDSC','textbox','text', 33)");
+	$dbm->insert('config', " VALUES (72, 0, 1, 'theme_set_allowed','_MD_AM_THEMEOK','".serialize(array('default'))."','_MD_AM_THEMEOKDSC','theme_multi','array', 13)");
 	$dbm->insert('config', " VALUES (73,0,6,'fromuid','_MD_AM_MAILFROMUID','1','_MD_AM_MAILFROMUIDDESC','user','int',3)");
 
 	$dbm->insert('config', " VALUES (74,0,7,'auth_method','_MD_AM_AUTHMETHOD','xoops','_MD_AM_AUTHMETHODDESC','select','text',1)");
@@ -628,7 +628,7 @@ case 'updateConfig_go':
 	$dbm->insert('config', " VALUES (80,0,7,'ldap_version','_MD_AM_LDAP_VERSION','3','_MD_AM_LDAP_VERSION_DESC','textbox','text', 7)");
 	$dbm->insert('config', " VALUES (81,0,7,'ldap_users_bypass','_MD_AM_LDAP_USERS_BYPASS','".serialize(array('admin'))."','_MD_AM_LDAP_USERS_BYPASS_DESC','textarea','array',8)");
 	$dbm->insert('config', " VALUES (82,0,7,'ldap_loginname_asdn','_MD_AM_LDAP_LOGINNAME_ASDN','uid_asdn','_MD_AM_LDAP_LOGINNAME_ASDN_D','yesno','int',9)");
-	$dbm->insert('config', " VALUES (83,0,7,'ldap_loginldap_attr', '_MD_AM_LDAP_LOGINLDAP_ATTR', 'uid', '_MD_AM_LDAP_LOGINLDAP_ATTR_D', 'textbox', 'text', 10)");
+	$dbm->insert('config', " VALUES (83,0,7,'ldap_loginldap_attr','_MD_AM_LDAP_LOGINLDAP_ATTR','uid','_MD_AM_LDAP_LOGINLDAP_ATTR_D','textbox','text', 10)");
 	$dbm->insert('config', " VALUES (84,0,7,'ldap_filter_person','_MD_AM_LDAP_FILTER_PERSON','','_MD_AM_LDAP_FILTER_PERSON_DESC','textbox','text',11)");
 	$dbm->insert('config', " VALUES (85,0,7,'ldap_domain_name','_MD_AM_LDAP_DOMAIN_NAME','mydomain','_MD_AM_LDAP_DOMAIN_NAME_DESC','textbox','text',12)");
 	$dbm->insert('config', " VALUES (86,0,7,'ldap_provisionning','_MD_AM_LDAP_PROVIS','0','_MD_AM_LDAP_PROVIS_DESC','yesno','int',13)");				
@@ -638,14 +638,14 @@ case 'updateConfig_go':
 	// default the default theme
 
     $time = time();
-    $dbm->insert('tplset', " VALUES (1, 'default', 'XOOPS Default Theme', '', ".$time.")");
+    $dbm->insert('tplset', " VALUES (1, 'default','XOOPS Default Theme','', ".$time.")");
 
 //	include_once './class/cachemanager.php';
 //    $cm = new cache_manager;
-//	$skinfiles = array('1' => 'skin.html', '2' => 'style.css'
+//	$skinfiles = array('1' => 'skin.html','2' => 'style.css'
 //                        , '3' => 'styleNN.css','4' =>  'styleMAC.css'
-//                        , '5' => 'skin_blockleft.html', '6' => 'skin_blockright.html'
-//                        , '7' => 'skin_blockcenter_l.html', '8' => 'skin_blockcenter_c.html'
+//                        , '5' => 'skin_blockleft.html','6' => 'skin_blockright.html'
+//                        , '7' => 'skin_blockcenter_l.html','8' => 'skin_blockcenter_c.html'
 //                        , '9' => 'skin_blockcenter_r.html');
 //    foreach ($skinfiles as $key => $skinfile) {
 //        if(preg_match('/\.css$/', $skinfile)) {
@@ -653,7 +653,7 @@ case 'updateConfig_go':
 //        }else{
 //            $type = 'skin';
 //        }
-//        $dbm->insert('tplfile', " VALUES ($key, 0, '', 'default', '$skinfile', '', $time, $time, '$type')");
+//        $dbm->insert('tplfile', " VALUES ($key, 0, '','default','$skinfile','', $time, $time, '$type')");
 
 //        $fp = fopen('./templates/default_skin/'.$skinfile, 'r');
 //        $skinsource = fread($fp, filesize('./templates/default_skin/'.$skinfile));
@@ -751,9 +751,9 @@ case 'updateModules_go':
 						$tplfile->setVar('tpl_lastimported', 0);
 						$tplfile->setVar('tpl_lastmodified', time());
 						if (preg_match("/\.css$/i", $tpl['file'])) {
-							$tplfile->setVar('tpl_type', 'css');
+							$tplfile->setVar('tpl_type','css');
 						} else {
-							$tplfile->setVar('tpl_type', 'module');
+							$tplfile->setVar('tpl_type','module');
 							//if ($xoopsConfig['default_theme'] == 'default') {
 							//	include_once XOOPS_ROOT_PATH.'/class/template.php';
 							//	xoops_template_touch($tplfile->getVar('tpl_id'));
@@ -761,7 +761,7 @@ case 'updateModules_go':
 						}
 						$tplfile->setVar('tpl_source', $tpldata, true);
 						$tplfile->setVar('tpl_module', $dirname);
-						$tplfile->setVar('tpl_tplset', 'default');
+						$tplfile->setVar('tpl_tplset','default');
 						$tplfile->setVar('tpl_file', $tpl['file'], true);
 						$tplfile->setVar('tpl_desc', $tpl['description'], true);
 						if (!$tplfile_handler->insert($tplfile)) {
@@ -811,10 +811,10 @@ case 'updateModules_go':
 										$tplfile =& $tplfile_handler->create();
 										$tplfile->setVar('tpl_refid', $fblock['bid']);
 										$tplfile->setVar('tpl_source', $content, true);
-										$tplfile->setVar('tpl_tplset', 'default');
+										$tplfile->setVar('tpl_tplset','default');
 										$tplfile->setVar('tpl_file', $blocks[$i]['template']);
 										$tplfile->setVar('tpl_module', $dirname);
-										$tplfile->setVar('tpl_type', 'block');
+										$tplfile->setVar('tpl_type','block');
 										$tplfile->setVar('tpl_desc', $blocks[$i]['description'], true);
 										$tplfile->setVar('tpl_lastimported', 0);
 										$tplfile->setVar('tpl_lastmodified', time());
@@ -836,7 +836,7 @@ case 'updateModules_go':
 							if ($fcount == 0) {
 								$newbid = $xoopsDB->genId($xoopsDB->prefix('newblocks').'_bid_seq');
 								$block_name = addslashes($blocks[$i]['name']);
-								$sql = "INSERT INTO ".$xoopsDB->prefix("newblocks")." (bid, mid, func_num, options, name, title, content, side, weight, visible, block_type, isactive, dirname, func_file, show_func, edit_func, template, last_modified) VALUES (".$newbid.", ".$mid.", ".$i.",'".addslashes($options)."','".$block_name."', '".$block_name."', '', 0, 0, 0, 'M', 1, '".addslashes($dirname)."', '".addslashes($blocks[$i]['file'])."', '".addslashes($blocks[$i]['show_func'])."', '".addslashes($editfunc)."', '".$template."', ".time().")";
+								$sql = "INSERT INTO ".$xoopsDB->prefix("newblocks")." (bid, mid, func_num, options, name, title, content, side, weight, visible, block_type, isactive, dirname, func_file, show_func, edit_func, template, last_modified) VALUES (".$newbid.", ".$mid.", ".$i.",'".addslashes($options)."','".$block_name."','".$block_name."','', 0, 0, 0, 'M', 1, '".addslashes($dirname)."','".addslashes($blocks[$i]['file'])."','".addslashes($blocks[$i]['show_func'])."','".addslashes($editfunc)."','".$template."', ".time().")";
 								$result = $xoopsDB->query($sql);
 								if (!$result) {
 									$msgs[] = '&nbsp;&nbsp;ERROR: Could not create '.$blocks[$i]['name'];
@@ -849,9 +849,9 @@ case 'updateModules_go':
 										$tplfile->setVar('tpl_module', $dirname);
 										$tplfile->setVar('tpl_refid', $newbid);
 										$tplfile->setVar('tpl_source', $content, true);
-										$tplfile->setVar('tpl_tplset', 'default');
+										$tplfile->setVar('tpl_tplset','default');
 										$tplfile->setVar('tpl_file', $blocks[$i]['template'], true);
-										$tplfile->setVar('tpl_type', 'block');
+										$tplfile->setVar('tpl_type','block');
 										$tplfile->setVar('tpl_lastimported', 0);
 										$tplfile->setVar('tpl_lastmodified', time());
 										$tplfile->setVar('tpl_desc', $blocks[$i]['description'], true);
@@ -883,15 +883,15 @@ case 'updateModules_go':
 				if ($configs != false) {
 					if ($modules[$mid]->getVar('hascomments') != 0) {
 						include_once(XOOPS_ROOT_PATH.'/include/comment_constants.php');
-						array_push($configs, array('name' => 'com_rule', 'title' => '_CM_COMRULES', 'description' => '', 'formtype' => 'select', 'valuetype' => 'int', 'default' => 1, 'options' => array('_CM_COMAPPROVEALL' => XOOPS_COMMENT_APPROVEALL, '_CM_COMAPPROVEUSER' => XOOPS_COMMENT_APPROVEUSER, '_CM_COMAPPROVEADMIN' => XOOPS_COMMENT_APPROVEADMIN)));
-						array_push($configs, array('name' => 'com_anonpost', 'title' => '_CM_COMANONPOST', 'description' => '', 'formtype' => 'yesno', 'valuetype' => 'int', 'default' => 0));
+						array_push($configs, array('name' => 'com_rule','title' => '_CM_COMRULES','description' => '','formtype' => 'select','valuetype' => 'int','default' => 1, 'options' => array('_CM_COMAPPROVEALL' => XOOPS_COMMENT_APPROVEALL, '_CM_COMAPPROVEUSER' => XOOPS_COMMENT_APPROVEUSER, '_CM_COMAPPROVEADMIN' => XOOPS_COMMENT_APPROVEADMIN)));
+						array_push($configs, array('name' => 'com_anonpost','title' => '_CM_COMANONPOST','description' => '','formtype' => 'yesno','valuetype' => 'int','default' => 0));
 					}
 				} else {
 					if ($modules[$mid]->getVar('hascomments') != 0) {
 						$configs = array();
 						include_once(XOOPS_ROOT_PATH.'/include/comment_constants.php');
-						$configs[] = array('name' => 'com_rule', 'title' => '_CM_COMRULES', 'description' => '', 'formtype' => 'select', 'valuetype' => 'int', 'default' => 1, 'options' => array('_CM_COMAPPROVEALL' => XOOPS_COMMENT_APPROVEALL, '_CM_COMAPPROVEUSER' => XOOPS_COMMENT_APPROVEUSER, '_CM_COMAPPROVEADMIN' => XOOPS_COMMENT_APPROVEADMIN));
-						array_push($configs, array('name' => 'com_anonpost', 'title' => '_CM_COMANONPOST', 'description' => '', 'formtype' => 'yesno', 'valuetype' => 'int', 'default' => 0));
+						$configs[] = array('name' => 'com_rule','title' => '_CM_COMRULES','description' => '','formtype' => 'select','valuetype' => 'int','default' => 1, 'options' => array('_CM_COMAPPROVEALL' => XOOPS_COMMENT_APPROVEALL, '_CM_COMAPPROVEUSER' => XOOPS_COMMENT_APPROVEUSER, '_CM_COMAPPROVEADMIN' => XOOPS_COMMENT_APPROVEADMIN));
+						array_push($configs, array('name' => 'com_anonpost','title' => '_CM_COMANONPOST','description' => '','formtype' => 'yesno','valuetype' => 'int','default' => 0));
 					}
 				}
 				// RMV-NOTIFY
@@ -900,7 +900,7 @@ case 'updateModules_go':
 						$configs = array();
 					}
 					include_once(XOOPS_ROOT_PATH.'/include/notification_constants.php');
-					$configs[] = array ('name' => 'notification_enabled', 'title' => '_NOT_CONFIG_ENABLED', 'description' => '_NOT_CONFIG_ENABLEDDSC', 'formtype' => 'select', 'valuetype' => 'int', 'default' => XOOPS_NOTIFICATION_ENABLEBOTH, 'options' => $options);
+					$configs[] = array ('name' => 'notification_enabled','title' => '_NOT_CONFIG_ENABLED','description' => '_NOT_CONFIG_ENABLEDDSC','formtype' => 'select','valuetype' => 'int','default' => XOOPS_NOTIFICATION_ENABLEBOTH, 'options' => $options);
 				}
 
 				if ($configs != false) {
@@ -1002,7 +1002,7 @@ case 'updateComments_go':
 	include '../class/xoopscomments.php';
 	include '../include/comment_constants.php';
 	$module_handler =& xoops_gethandler('module');
-	$old_commentd_mods = array('news' => 'comments', 'xoopspoll' => 'xoopspollcomments');
+	$old_commentd_mods = array('news' => 'comments','xoopspoll' => 'xoopspollcomments');
 	$title = _INSTALL_L147;
 	$content = '';
 	foreach ($old_commentd_mods as $module => $com_table) {
@@ -1020,7 +1020,7 @@ case 'updateComments_go':
 			$top_comments =& $xc->getAllComments(array('pid=0'));
 
 			foreach ($top_comments as $tc) {
-				$sql = sprintf("INSERT INTO %s (com_id, com_pid, com_modid, com_icon, com_title, com_text, com_created, com_modified, com_uid, com_ip, com_sig, com_itemid, com_rootid, com_status, dohtml, dosmiley, doxcode, doimage, dobr) VALUES (%u, %u, %u, '%s', '%s', '%s', %u, %u, %u, '%s', %u, %u, %u, %u, %u, %u, %u, %u, %u)", $xoopsDB->prefix('xoopscomments'), $tc->getVar('comment_id') + $offset, 0, $moduleobj->getVar('mid'), '', addslashes($tc->getVar('subject', 'n')), addslashes($tc->getVar('comment', 'n')), $tc->getVar('date'), $tc->getVar('date'), $tc->getVar('user_id'), $tc->getVar('ip'), 0, $tc->getVar('item_id'), $tc->getVar('comment_id') + $offset, XOOPS_COMMENT_ACTIVE, 0, 1, 1, 1, 1);
+				$sql = sprintf("INSERT INTO %s (com_id, com_pid, com_modid, com_icon, com_title, com_text, com_created, com_modified, com_uid, com_ip, com_sig, com_itemid, com_rootid, com_status, dohtml, dosmiley, doxcode, doimage, dobr) VALUES (%u, %u, %u, '%s','%s','%s', %u, %u, %u, '%s', %u, %u, %u, %u, %u, %u, %u, %u, %u)", $xoopsDB->prefix('xoopscomments'), $tc->getVar('comment_id') + $offset, 0, $moduleobj->getVar('mid'), '', addslashes($tc->getVar('subject','n')), addslashes($tc->getVar('comment','n')), $tc->getVar('date'), $tc->getVar('date'), $tc->getVar('user_id'), $tc->getVar('ip'), 0, $tc->getVar('item_id'), $tc->getVar('comment_id') + $offset, XOOPS_COMMENT_ACTIVE, 0, 1, 1, 1, 1);
 
 				if (!$xoopsDB->query($sql)) {
 					$content .= _NGIMG.sprintf(_INSTALL_L146, $tc->getVar('comment_id') + $offset).'<br />';
@@ -1028,7 +1028,7 @@ case 'updateComments_go':
 					$content .= _OKIMG.sprintf(_INSTALL_L145, $tc->getVar('comment_id') + $offset).'<br />';
 					$child_comments = $tc->getCommentTree();
 					foreach ($child_comments as $cc) {
-						$sql = sprintf("INSERT INTO %s (com_id, com_pid, com_modid, com_icon, com_title, com_text, com_created, com_modified, com_uid, com_ip, com_sig, com_itemid, com_rootid, com_status, dohtml, dosmiley, doxcode, doimage, dobr) VALUES (%u, %u, %u, '%s', '%s', '%s', %u, %u, %u, '%s', %u, %u, %u, %u, %u, %u, %u, %u, %u)", $xoopsDB->prefix('xoopscomments'), $cc->getVar('comment_id') + $offset, $cc->getVar('pid') + $offset, $moduleobj->getVar('mid'), '', addslashes($cc->getVar('subject', 'n')), addslashes($cc->getVar('comment', 'n')), $cc->getVar('date'), $cc->getVar('date'), $cc->getVar('user_id'), $cc->getVar('ip'), 0, $cc->getVar('item_id'), $tc->getVar('comment_id') + $offset, XOOPS_COMMENT_ACTIVE, 0, 1, 1, 1, 1);
+						$sql = sprintf("INSERT INTO %s (com_id, com_pid, com_modid, com_icon, com_title, com_text, com_created, com_modified, com_uid, com_ip, com_sig, com_itemid, com_rootid, com_status, dohtml, dosmiley, doxcode, doimage, dobr) VALUES (%u, %u, %u, '%s','%s','%s', %u, %u, %u, '%s', %u, %u, %u, %u, %u, %u, %u, %u, %u)", $xoopsDB->prefix('xoopscomments'), $cc->getVar('comment_id') + $offset, $cc->getVar('pid') + $offset, $moduleobj->getVar('mid'), '', addslashes($cc->getVar('subject','n')), addslashes($cc->getVar('comment','n')), $cc->getVar('date'), $cc->getVar('date'), $cc->getVar('user_id'), $cc->getVar('ip'), 0, $cc->getVar('item_id'), $tc->getVar('comment_id') + $offset, XOOPS_COMMENT_ACTIVE, 0, 1, 1, 1, 1);
 						if (!$xoopsDB->query($sql)) {
 							$content .= _NGIMG.sprintf(_INSTALL_L146, $cc->getVar('comment_id') + $offset).'<br />';
 						} else {
@@ -1058,7 +1058,7 @@ case 'updateSmilies_go':
 	$content = '';
 	$title = _INSTALL_L155;
 	if (!defined('XOOPS_UPLOAD_PATH')) {
-		define('XOOPS_UPLOAD_PATH', '../uploads');
+		define('XOOPS_UPLOAD_PATH','../uploads');
 	}
 	while ($smiley = $xoopsDB->fetchArray($result)) {
 		if (file_exists('../images/smilies/'.$smiley['smile_url']) && false != $fp = fopen('../images/smilies/'.$smiley['smile_url'], 'rb')) {
@@ -1122,7 +1122,7 @@ case 'updateAvatars_go':
 	$xoopsDB->query("UPDATE ".$xoopsDB->prefix('users')." SET user_avatar='blank.gif'");
 	$avt_handler =& xoops_gethandler('avatar');
 	if (!defined('XOOPS_UPLOAD_PATH')) {
-		define('XOOPS_UPLOAD_PATH', '../uploads');
+		define('XOOPS_UPLOAD_PATH','../uploads');
 	}
 	foreach ($avatars as $avatar_file) {
 		if (preg_match("/^([0-9]+)\.([a-zA-Z]+)$/", $avatar_file, $matched)) {
@@ -1139,10 +1139,10 @@ case 'updateAvatars_go':
 						} else {
 							$avatar =& $avt_handler->create();
 							$avatar->setVar('avatar_file', $newavatar);
-							$avatar->setVar('avatar_name', 'custom');
-							$avatar->setVar('avatar_mimetype', '');
+							$avatar->setVar('avatar_name','custom');
+							$avatar->setVar('avatar_mimetype','');
 							$avatar->setVar('avatar_display', 1);
-							$avatar->setVar('avatar_type', 'C');
+							$avatar->setVar('avatar_type','C');
 							if(!$avt_handler->insert($avatar)) {
 								$error = true;
 							} else {
@@ -1242,7 +1242,7 @@ case "insertData":
 
     $b_next = array('finish', _INSTALL_L117);
     $title = _INSTALL_L116;
-    setcookie('xoops_session', '', time() - 3600);
+    setcookie('xoops_session','', time() - 3600);
     include 'install_tpl.php';
 
     break;

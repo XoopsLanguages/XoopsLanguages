@@ -173,9 +173,9 @@ define("_AM_NEWS_REMOVE_BR","Den html tag &lt;br&gt; zu einer neuen Zeile konver
 define("_AM_NEWS_PLEASE_UPGRADE","<a href='upgrade.php'><font color='#FF0000'>Bitte das Modul updaten!</font></a>");
 
 // Added in verisn 1.50
-define('_AM_NEWS_NEWSLETTER_HEADER', "Header");
-define('_AM_NEWS_NEWSLETTER_FOOTER', "Footer");
-define('_AM_NEWS_NEWSLETTER_HTML_TAGS', "Html Tags entfernen?");
+define('_AM_NEWS_NEWSLETTER_HEADER',"Header");
+define('_AM_NEWS_NEWSLETTER_FOOTER',"Footer");
+define('_AM_NEWS_NEWSLETTER_HTML_TAGS',"Html Tags entfernen?");
 define('_AM_NEWS_VERIFY_TABLES','Datenbanktabellen bereinigen');
 define('_AM_NEWS_METAGEN',"Meta-Generator");
 define('_AM_NEWS_METAGEN_DESC',"Meta-Generator ist ein System das Sie bei der Indexierung für Suchmaschinen unterstützt. <br />Bitte beachten Sie, wenn Sie selbst Keywords und Meta Daten eingeben, wird das System diese automatisch generieren.");

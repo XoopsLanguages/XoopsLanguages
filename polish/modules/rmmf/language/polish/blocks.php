@@ -3,8 +3,8 @@
 * $Id: blocks.php,v 1.0.3 24/05/2006 00:48 BitC3R0 Exp $           *
 * ------------------------------------------------------           *
 * RMSOFT MyFolder 1.0                                              *
-* Módulo para el manejo de un portafolio profesional               *
-* CopyRight © 2006. Red México Soft                                *
+* MÃ³dulo para el manejo de un portafolio profesional               *
+* CopyRight Â© 2006. Red MÃ©xico Soft                                *
 * Autor: BitC3R0                                                   *
 * http://www.redmexico.com.mx                                      *
 * http://www.xoops-mexico.net                                      *
@@ -28,14 +28,14 @@
 * blocks.php:                                                      *
 * Archivo de lenguaje para los bloques                             *
 * ------------------------------------------------------           *
-* @copyright: © 2006. BitC3R0.                                     *
+* @copyright: Â© 2006. BitC3R0.                                     *
 * @autor: BitC3R0                                                  *
 * @paquete: RMSOFT GS 2.0                                          *
 * @version: 1.0.3                                                  *
 * @modificado: 24/05/2006 12:48:39 a.m.                            *
-* @Polskie t³umaczenie - Sylwester Pyrka www.ibr.org.pl            *
+* @Polskie tÂ³umaczenie - Sylwester Pyrka www.ibr.org.pl            *
 *******************************************************************/
 
-define('_BK_RMMF_NUMWORKS', 'Liczba prac:');
-define('_BK_RMMF_NUMCOMMS', 'Liczba komentarzy:');
+define('_BK_RMMF_NUMWORKS','Liczba prac:');
+define('_BK_RMMF_NUMCOMMS','Liczba komentarzy:');
 ?>

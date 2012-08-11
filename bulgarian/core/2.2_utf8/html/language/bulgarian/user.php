@@ -29,18 +29,18 @@ define('_US_NEWPWDREQ','Поискана нова парола за %s');
 define('_US_MAILPWDNG','mail_password: невъзможно обновяване на инфо. за потребителя. Свръжете се с Администратора');
 
 // AVATAR
-define('_US_MYAVATAR', 'Моят аватар');
-define('_US_UPLOADMYAVATAR', 'Качете аватар');
+define('_US_MYAVATAR','Моят аватар');
+define('_US_UPLOADMYAVATAR','Качете аватар');
 define('_US_MAXPIXEL','Макс. пиксели');
 define('_US_MAXIMGSZ','Макс. рамер на файла (байтове)');
 define('_US_SELFILE','Изберете файл');
 define('_US_OLDDELETED','Вашият предишен аватар ще бъде изтрит!');
-define('_US_CHOOSEAVT', 'Изберете аватар от списъка');
+define('_US_CHOOSEAVT','Изберете аватар от списъка');
 
-define('_US_PRESSLOGIN', 'Натиснете бутона за да влезете');
+define('_US_PRESSLOGIN','Натиснете бутона за да влезете');
 
-define('_US_ADMINNO', 'Потребител от Администраторската група не може да бъде изтрит');
-define('_US_GROUPS', 'Потребителска група');
+define('_US_ADMINNO','Потребител от Администраторската група не може да бъде изтрит');
+define('_US_GROUPS','Потребителска група');
 
-define("_US_RESENDACTIVATIONMAIL", "Изпрати активационното писмо отново");
+define("_US_RESENDACTIVATIONMAIL","Изпрати активационното писмо отново");
 ?>

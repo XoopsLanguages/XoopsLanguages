@@ -33,8 +33,8 @@
 // For more modules from Red México Soft visit http://www.xoops-mexico.net  //
 // Translate by hamid. http://irmob.com. http://farsixoops.com.             //
 //////////////////////////////////////////////////////////////////////////////
-define("_MI_RMDP_NAME", "RMSOFT دانلود پلاس");
-define("_MI_RMDP_DESC", "ماژول دانلود برای مدیران حرفه ای");
+define("_MI_RMDP_NAME","RMSOFT دانلود پلاس");
+define("_MI_RMDP_DESC","ماژول دانلود برای مدیران حرفه ای");
 
 /**
  * Menus del administrador

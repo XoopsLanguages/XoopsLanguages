@@ -6,53 +6,53 @@
 
 //%%%%%%	File Name findusers.php 	%%%%%
 
-define("_AM_FINDUS","วแศอห ฺไ วแรฺึวม");
-define("_AM_AVATAR","วแีๆัษ");
-define("_AM_REALNAME","วแวำใ วแอÞํÞํ");
-define("_AM_REGDATE","วแลไึใวใ");
-define("_AM_EMAIL","วแศัํฯ");
-define("_AM_PM","ัำวฦแ ฮวีษ");
-define("_AM_URL","วแฺไๆวไ");
-define("_AM_PREVIOUS","วแำวศÞ");
-define("_AM_NEXT","วแสวแํ");
-define("_AM_USERSFOUND","ๆฬฯไว %s ฺึๆ");
+define("_AM_FINDUS","รรกรรร รรค รรกรรร–รร");
+define("_AM_AVATAR","รรกร•รฆร‘ร");
+define("_AM_REALNAME","รรกรร“รฃ รรกรรรญรรญ");
+define("_AM_REGDATE","รรกร…รคร–รฃรรฃ");
+define("_AM_EMAIL","รรกรร‘รญร");
+define("_AM_PM","ร‘ร“รรรก รรร•ร");
+define("_AM_URL","รรกรรครฆรรค");
+define("_AM_PREVIOUS","รรกร“รรร");
+define("_AM_NEXT","รรกรรรกรญ");
+define("_AM_USERSFOUND","รฆรรรคร %s รร–รฆ");
 
-define("_AM_ACTUS", "รฺึวม ไิุๆไ: %s");
-define("_AM_INACTUS", "รฺึวม Ûํั ไิุํไ: %s");
-define("_AM_NOFOUND","แใ ํสใ ลํฬวฯ วแฺึๆ");
-define("_AM_UNAME","วำใ วแใำสฮฯใ");
-define("_AM_ICQ","ัÞใ ICQ");
+define("_AM_ACTUS","รรร–รร รคร”รรฆรค: %s");
+define("_AM_INACTUS","รรร–รร รรญร‘ รคร”รรญรค: %s");
+define("_AM_NOFOUND","รกรฃ รญรรฃ ร…รญรรร รรกรร–รฆ");
+define("_AM_UNAME","รร“รฃ รรกรฃร“รรรรฃ");
+define("_AM_ICQ","ร‘รรฃ ICQ");
 define("_AM_AIM","AIM");
 define("_AM_YIM","YIM");
 define("_AM_MSNM","MSNM");
-define("_AM_LOCATION","วแฯๆแษ");
-define("_AM_OCCUPATION","วแๆูํÝษ");
-define("_AM_INTEREST","วแๅๆวํวส");
-define("_AM_URLC","ฺไๆวไ วแใๆÞฺ");
-define("_AM_LASTLOGMORE","ยฮั สำฬํแ ฯฮๆแ ใไะ ร฿หั ใไ <span style='color:#ff0000;'>X</span> (ฺฯฯ วแรํวใ)");
-define("_AM_LASTLOGLESS","ยฮั สำฬํแ ฯฮๆแ ใไะ รÞแ ใไ <span style='color:#ff0000;'>X</span> (ฺฯฯ วแรํวใ)");
-define("_AM_REGMORE","สวัํฮ วแสำฬํแ ร฿หั ใไ <span style='color:#ff0000;'>X</span> (ฺฯฯ วแรํวใ)");
-define("_AM_REGLESS","สวัํฮ วแสำฬํแ รÞแ ใไ <span style='color:#ff0000;'>X</span> (ฺฯฯ วแรํวใ)");
-define("_AM_POSTSMORE","ฺฯฯ วแใิวั฿วส ร฿หั ใไ <span style='color:#ff0000;'>X</span>");
-define("_AM_POSTSLESS","ฺฯฯ วแใิวั฿วส วÞแ ใไ <span style='color:#ff0000;'>X</span>");
-define("_AM_SORT","วำแๆศ วแฺัึ");
-define("_AM_ORDER","ุัํÞษ วแฺัึ");
-define("_AM_LASTLOGIN","ยฮั สำฬํแ ฯฮๆแ");
-define("_AM_POSTS","วแใิวั฿วส");
-define("_AM_ASC","สีวฺฯํ");
-define("_AM_DESC","สไวาแํ");
-define("_AM_LIMIT","ฺฯฯ วแรฺึวม Ýํ ฿แ ีÝอษ");
-define("_AM_RESULTS", "ไสวฦฬ วแศอห");
-define("_AM_SHOWMAILOK", "ไๆฺ วแรฺึวม Ýํ วแฺัึ");
-define("_AM_MAILOK","ÝÞุ วแรฺึวม วแะํไ ํÞศแๆไ วแศัํฯ");
-define("_AM_MAILNG","ÝÞุ วแรฺึวม วแะํไ แว ํÞศแๆไ วแศัํฯ");
-define("_AM_SHOWTYPE", "ไๆฺ วแรฺึวม Ýํ วแฺัึ");
-define("_AM_ACTIVE","วแรฺึวม ใÝฺแๆ วแวิสัว฿ ÝÞุ");
-define("_AM_INACTIVE","วแรฺึวม Ûํั ใÝฺแํ วแวิสัว฿ ÝÞุ");
-define("_AM_BOTH", "฿แ วแรฺึวม");
-define("_AM_SENDMAIL", "รัำแ ศัํฯ");
-define("_AM_ADD2GROUP", "รึÝ วแฺึๆ รๆ วแรฺึวม แใฬใๆฺษ %s");
+define("_AM_LOCATION","รรกรรฆรกร");
+define("_AM_OCCUPATION","รรกรฆรรญรร");
+define("_AM_INTEREST","รรกรฅรฆรรญรร");
+define("_AM_URLC","รรครฆรรค รรกรฃรฆรร");
+define("_AM_LASTLOGMORE","รรร‘ รร“รรญรก รรรฆรก รฃรคร รรรร‘ รฃรค <span style='color:#ff0000;'>X</span> (รรร รรกรรญรรฃ)");
+define("_AM_LASTLOGLESS","รรร‘ รร“รรญรก รรรฆรก รฃรคร รรรก รฃรค <span style='color:#ff0000;'>X</span> (รรร รรกรรญรรฃ)");
+define("_AM_REGMORE","รรร‘รญร รรกรร“รรญรก รรรร‘ รฃรค <span style='color:#ff0000;'>X</span> (รรร รรกรรญรรฃ)");
+define("_AM_REGLESS","รรร‘รญร รรกรร“รรญรก รรรก รฃรค <span style='color:#ff0000;'>X</span> (รรร รรกรรญรรฃ)");
+define("_AM_POSTSMORE","รรร รรกรฃร”รร‘รรร รรรร‘ รฃรค <span style='color:#ff0000;'>X</span>");
+define("_AM_POSTSLESS","รรร รรกรฃร”รร‘รรร รรรก รฃรค <span style='color:#ff0000;'>X</span>");
+define("_AM_SORT","รร“รกรฆร รรกรร‘ร–");
+define("_AM_ORDER","รร‘รญรร รรกรร‘ร–");
+define("_AM_LASTLOGIN","รรร‘ รร“รรญรก รรรฆรก");
+define("_AM_POSTS","รรกรฃร”รร‘รรร");
+define("_AM_ASC","รร•รรรรญ");
+define("_AM_DESC","รรครร’รกรญ");
+define("_AM_LIMIT","รรร รรกรรร–รร รรญ รรก ร•รรร");
+define("_AM_RESULTS","รครรรร รรกรรร");
+define("_AM_SHOWMAILOK","รครฆร รรกรรร–รร รรญ รรกรร‘ร–");
+define("_AM_MAILOK","รรร รรกรรร–รร รรกรรญรค รญรรรกรฆรค รรกรร‘รญร");
+define("_AM_MAILNG","รรร รรกรรร–รร รรกรรญรค รกร รญรรรกรฆรค รรกรร‘รญร");
+define("_AM_SHOWTYPE","รครฆร รรกรรร–รร รรญ รรกรร‘ร–");
+define("_AM_ACTIVE","รรกรรร–รร รฃรรรกรฆ รรกรร”รร‘รร รรร");
+define("_AM_INACTIVE","รรกรรร–รร รรญร‘ รฃรรรกรญ รรกรร”รร‘รร รรร");
+define("_AM_BOTH","รรก รรกรรร–รร");
+define("_AM_SENDMAIL","รร‘ร“รก รร‘รญร");
+define("_AM_ADD2GROUP","รร–ร รรกรร–รฆ รรฆ รรกรรร–รร รกรฃรรฃรฆรร %s");
 
-define("_AM_GROUPS", "วแใฬใๆฺวส");
+define("_AM_GROUPS","รรกรฃรรฃรฆรรร");
 
 ?>

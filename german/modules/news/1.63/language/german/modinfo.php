@@ -21,80 +21,80 @@ define('_MI_NEWS_SMNAME1','Artikel schreiben');
 define('_MI_NEWS_SMNAME2','Archiv');
 
 // Names of admin menu items
-define('_MI_NEWS_ADMENU1', 'Index');
-define('_MI_NEWS_ADMENU2', 'Themenmanager');
-define('_MI_NEWS_ADMENU3', 'Artikel veröffentlichen / bearbeiten');
-define('_MI_NEWS_GROUPPERMS', 'Berechtigungen');
+define('_MI_NEWS_ADMENU1','Index');
+define('_MI_NEWS_ADMENU2','Themenmanager');
+define('_MI_NEWS_ADMENU3','Artikel veröffentlichen / bearbeiten');
+define('_MI_NEWS_GROUPPERMS','Berechtigungen');
 
 // Added by Hervé for prune option
-define('_MI_NEWS_PRUNENEWS', 'Artikel aufräumen');
+define('_MI_NEWS_PRUNENEWS','Artikel aufräumen');
 
 // Added by Hervé
-define('_MI_NEWS_EXPORT', 'Artikel exportieren');
+define('_MI_NEWS_EXPORT','Artikel exportieren');
 
 // Title of config items
-define('_MI_STORYHOME', 'Wieviel Artikel auf der Indexseite?');
-define('_MI_NOTIFYSUBMIT', 'Bei Artikeleingang den Webmaster benachrichtigen?');
-define('_MI_DISPLAYNAV', 'Navigations-Box anzeigen?');
+define('_MI_STORYHOME','Wieviel Artikel auf der Indexseite?');
+define('_MI_NOTIFYSUBMIT','Bei Artikeleingang den Webmaster benachrichtigen?');
+define('_MI_DISPLAYNAV','Navigations-Box anzeigen?');
 define('_MI_AUTOAPPROVE','Artikel automatisch veröffentlichen?');
-define("_MI_ALLOWEDSUBMITGROUPS", "Gruppen, die Artikel schreiben dürfen");
-define("_MI_ALLOWEDAPPROVEGROUPS", "Gruppen, die Artikel genehmigen dürfen");
-define("_MI_NEWSDISPLAY", "Layout der Artikelansicht");
+define("_MI_ALLOWEDSUBMITGROUPS","Gruppen, die Artikel schreiben dürfen");
+define("_MI_ALLOWEDAPPROVEGROUPS","Gruppen, die Artikel genehmigen dürfen");
+define("_MI_NEWSDISPLAY","Layout der Artikelansicht");
 define("_MI_NAMEDISPLAY","Name des Autors");
 define("_MI_COLUMNMODE","Spalten");
 define("_MI_STORYCOUNTADMIN","Anzahl der neuen Artikel in der Admin-Ansicht. (Diese Option limitiert die Anzahl der Themen im admin Bereich und der Statistikanzeige): ");
-define('_MI_UPLOADFILESIZE', 'MAX Upload-Dateigröße (KB) 1048576 = 1 Meg');
+define('_MI_UPLOADFILESIZE','MAX Upload-Dateigröße (KB) 1048576 = 1 Meg');
 define("_MI_UPLOADGROUPS","Für Upload berechtigte Gruppen");
 
 // Description of each config items
-define('_MI_STORYHOMEDSC', 'Artikelanzahl auf der Startseite');
-define('_MI_NOTIFYSUBMITDSC', 'Bei Artikeleingang eine Nachricht an den Webmaster schicken');
-define('_MI_DISPLAYNAVDSC', 'Wird diese Option gewählt, wird Navigations-Box (pull down) angezeigt mit der man durch die Themenbereiche nav. kann.');
-define('_MI_AUTOAPPROVEDSC', 'Artikel automatisch, ohne Genehmigungsprozedur veröffentlicht');
-define("_MI_ALLOWEDSUBMITGROUPSDESC", "Die selektierten Gruppen sind berechtigt neue Artikel zu schreiben");
-define("_MI_ALLOWEDAPPROVEGROUPSDESC", "Die selektierten Gruppen sind berechtigt neue Artikel zu genehmigen");
-define("_MI_NEWSDISPLAYDESC", "Klassisch, zeigt alle Artikel sortiert nach Datum der Veröffentlichung. Artikel nach Themen, gruppiert die Artikel nach Themen mit dem letzten Artikel im Ganzen und die anderen nur mit der Überschrift");
-define('_MI_ADISPLAYNAMEDSC', 'Wählen Sie, wie der Name des Autors angezeigt wird');
+define('_MI_STORYHOMEDSC','Artikelanzahl auf der Startseite');
+define('_MI_NOTIFYSUBMITDSC','Bei Artikeleingang eine Nachricht an den Webmaster schicken');
+define('_MI_DISPLAYNAVDSC','Wird diese Option gewählt, wird Navigations-Box (pull down) angezeigt mit der man durch die Themenbereiche nav. kann.');
+define('_MI_AUTOAPPROVEDSC','Artikel automatisch, ohne Genehmigungsprozedur veröffentlicht');
+define("_MI_ALLOWEDSUBMITGROUPSDESC","Die selektierten Gruppen sind berechtigt neue Artikel zu schreiben");
+define("_MI_ALLOWEDAPPROVEGROUPSDESC","Die selektierten Gruppen sind berechtigt neue Artikel zu genehmigen");
+define("_MI_NEWSDISPLAYDESC","Klassisch, zeigt alle Artikel sortiert nach Datum der Veröffentlichung. Artikel nach Themen, gruppiert die Artikel nach Themen mit dem letzten Artikel im Ganzen und die anderen nur mit der Überschrift");
+define('_MI_ADISPLAYNAMEDSC','Wählen Sie, wie der Name des Autors angezeigt wird');
 define("_MI_COLUMNMODE_DESC","Sie können die Anzahl der Spalten für die Artikelliste wählen");
 define("_MI_STORYCOUNTADMIN_DESC","");
 define("_MI_UPLOADFILESIZE_DESC","");
 define("_MI_UPLOADGROUPS_DESC","Wählen Sie die Gruppen die auf den Server hochladen dürfen");
 
 // Name of config item values
-define("_MI_NEWSCLASSIC", "Klassisch");
-define("_MI_NEWSBYTOPIC", "Nach Themen");
-define("_MI_DISPLAYNAME1", "Username");
-define("_MI_DISPLAYNAME2", "Realer Name");
-define("_MI_DISPLAYNAME3", "Autor nicht anzeigen");
+define("_MI_NEWSCLASSIC","Klassisch");
+define("_MI_NEWSBYTOPIC","Nach Themen");
+define("_MI_DISPLAYNAME1","Username");
+define("_MI_DISPLAYNAME2","Realer Name");
+define("_MI_DISPLAYNAME3","Autor nicht anzeigen");
 define("_MI_UPLOAD_GROUP1","Absender und Genehmiger");
 define("_MI_UPLOAD_GROUP2","Nur Genehmiger");
 define("_MI_UPLOAD_GROUP3","Upload nicht erlaubt");
 
 // Text for notifications
-define('_MI_NEWS_GLOBAL_NOTIFY', 'Allgemein');
-define('_MI_NEWS_GLOBAL_NOTIFYDSC', 'Allgemeine News-Benachrichtigungsoptionen.');
-define('_MI_NEWS_STORY_NOTIFY', 'Story');
-define('_MI_NEWS_STORY_NOTIFYDSC', 'Benachrichtigungsoptionen die den aktuellen Artikel betreffen.');
-define('_MI_NEWS_GLOBAL_NEWCATEGORY_NOTIFY', 'Neues Thema');
-define('_MI_NEWS_GLOBAL_NEWCATEGORY_NOTIFYCAP', 'Benachrichtigen wenn ein neues Thema angelegt worden ist.');
-define('_MI_NEWS_GLOBAL_NEWCATEGORY_NOTIFYDSC', 'Benachrichtigung wenn ein neues Thema angelegt worden ist.');
-define('_MI_NEWS_GLOBAL_NEWCATEGORY_NOTIFYSBJ', '[{X_SITENAME}] {X_MODULE} Automatische Benachrichtigung: Neues Thema');
-define('_MI_NEWS_GLOBAL_STORYSUBMIT_NOTIFY', 'Neuer Artikel eingeschickt');
-define('_MI_NEWS_GLOBAL_STORYSUBMIT_NOTIFYCAP', 'Benachrichtigen wenn ein neuer Artikel eingeschickt worden ist (noch freizugeben).');
-define('_MI_NEWS_GLOBAL_STORYSUBMIT_NOTIFYDSC', 'Eine Benachrichtigung erhalten wenn ein neuer Artikel eingeschickt worden ist, der noch freizugeben ist.');
-define('_MI_NEWS_GLOBAL_STORYSUBMIT_NOTIFYSBJ', '[{X_SITENAME}] {X_MODULE} Automatische Benachrichtigung: Neuer Artikel eingeschickt');
-define('_MI_NEWS_GLOBAL_NEWSTORY_NOTIFY', 'Neuer Artikel');
-define('_MI_NEWS_GLOBAL_NEWSTORY_NOTIFYCAP', 'Benachrichtigen wenn ein neuer Artikel veröffentlicht worden ist.');
-define('_MI_NEWS_GLOBAL_NEWSTORY_NOTIFYDSC', 'Eine Benachrichtigung erhalten wenn ein neuer Artikel veröffentlicht worden ist.');
-define('_MI_NEWS_GLOBAL_NEWSTORY_NOTIFYSBJ', '[{X_SITENAME}] {X_MODULE} Automatische Benachrichtigung: Neuer Artikel veröffentlicht');
-define('_MI_NEWS_STORY_APPROVE_NOTIFY', 'Artikel freigegeben');
-define('_MI_NEWS_STORY_APPROVE_NOTIFYCAP', 'Benachrichtigen wenn dieser Artikel freigegeben worden ist.');
-define('_MI_NEWS_STORY_APPROVE_NOTIFYDSC', 'Eine Benachrichtigung wenn dieser Artikel freigegeben worden ist.');
-define('_MI_NEWS_STORY_APPROVE_NOTIFYSBJ', '[{X_SITENAME}] {X_MODULE} Automatische Benachrichtigung: Artikel freigegeben');
-define('_MI_RESTRICTINDEX', 'Themen auf der Indexseite einschränken?');
-define('_MI_RESTRICTINDEXDSC', 'Wenn auf ja gesetzt, sehen die User im Index nur die Artikel aufgelistet, für die sie auch die Berechtigung haben');
-define('_MI_NEWSBYTHISAUTHOR', 'Artikel vom Autor');
-define('_MI_NEWSBYTHISAUTHORDSC', 'Wenn diese Option gewählt wird, erscheint ein link \'Artikel vom selben Autor\' ');
+define('_MI_NEWS_GLOBAL_NOTIFY','Allgemein');
+define('_MI_NEWS_GLOBAL_NOTIFYDSC','Allgemeine News-Benachrichtigungsoptionen.');
+define('_MI_NEWS_STORY_NOTIFY','Story');
+define('_MI_NEWS_STORY_NOTIFYDSC','Benachrichtigungsoptionen die den aktuellen Artikel betreffen.');
+define('_MI_NEWS_GLOBAL_NEWCATEGORY_NOTIFY','Neues Thema');
+define('_MI_NEWS_GLOBAL_NEWCATEGORY_NOTIFYCAP','Benachrichtigen wenn ein neues Thema angelegt worden ist.');
+define('_MI_NEWS_GLOBAL_NEWCATEGORY_NOTIFYDSC','Benachrichtigung wenn ein neues Thema angelegt worden ist.');
+define('_MI_NEWS_GLOBAL_NEWCATEGORY_NOTIFYSBJ','[{X_SITENAME}] {X_MODULE} Automatische Benachrichtigung: Neues Thema');
+define('_MI_NEWS_GLOBAL_STORYSUBMIT_NOTIFY','Neuer Artikel eingeschickt');
+define('_MI_NEWS_GLOBAL_STORYSUBMIT_NOTIFYCAP','Benachrichtigen wenn ein neuer Artikel eingeschickt worden ist (noch freizugeben).');
+define('_MI_NEWS_GLOBAL_STORYSUBMIT_NOTIFYDSC','Eine Benachrichtigung erhalten wenn ein neuer Artikel eingeschickt worden ist, der noch freizugeben ist.');
+define('_MI_NEWS_GLOBAL_STORYSUBMIT_NOTIFYSBJ','[{X_SITENAME}] {X_MODULE} Automatische Benachrichtigung: Neuer Artikel eingeschickt');
+define('_MI_NEWS_GLOBAL_NEWSTORY_NOTIFY','Neuer Artikel');
+define('_MI_NEWS_GLOBAL_NEWSTORY_NOTIFYCAP','Benachrichtigen wenn ein neuer Artikel veröffentlicht worden ist.');
+define('_MI_NEWS_GLOBAL_NEWSTORY_NOTIFYDSC','Eine Benachrichtigung erhalten wenn ein neuer Artikel veröffentlicht worden ist.');
+define('_MI_NEWS_GLOBAL_NEWSTORY_NOTIFYSBJ','[{X_SITENAME}] {X_MODULE} Automatische Benachrichtigung: Neuer Artikel veröffentlicht');
+define('_MI_NEWS_STORY_APPROVE_NOTIFY','Artikel freigegeben');
+define('_MI_NEWS_STORY_APPROVE_NOTIFYCAP','Benachrichtigen wenn dieser Artikel freigegeben worden ist.');
+define('_MI_NEWS_STORY_APPROVE_NOTIFYDSC','Eine Benachrichtigung wenn dieser Artikel freigegeben worden ist.');
+define('_MI_NEWS_STORY_APPROVE_NOTIFYSBJ','[{X_SITENAME}] {X_MODULE} Automatische Benachrichtigung: Artikel freigegeben');
+define('_MI_RESTRICTINDEX','Themen auf der Indexseite einschränken?');
+define('_MI_RESTRICTINDEXDSC','Wenn auf ja gesetzt, sehen die User im Index nur die Artikel aufgelistet, für die sie auch die Berechtigung haben');
+define('_MI_NEWSBYTHISAUTHOR','Artikel vom Autor');
+define('_MI_NEWSBYTHISAUTHORDSC','Wenn diese Option gewählt wird, erscheint ein link \'Artikel vom selben Autor\' ');
 define('_MI_NEWS_PREVNEX_LINK','Anzeigen? \'Voriger Artikel\' und \'Nächster Artikel link\' ');
 define('_MI_NEWS_PREVNEX_LINK_DESC','Wenn diese Option gewählt wird, erscheinen diese zwei links unten auf den Artikelseiten.');
 define('_MI_NEWS_SUMMARY_SHOW','Eine Zusammenfassung anzeigen?');
@@ -104,10 +104,10 @@ define('_MI_NEWS_AUTHOR_EDIT_DESC','Wenn diese Option gewählt wird, können die
 define('_MI_NEWS_RATE_NEWS','Dürfen Besucher die Artikel bewerten?');
 define('_MI_NEWS_TOPICS_RSS','Sollen RSS feeds für Themen aktiviert werden?');
 define('_MI_NEWS_TOPICS_RSS_DESC',"Wenn diese Option gewählt wird, sind die Themeninhalte per RSS feeds abrufbar.");
-define('_MI_NEWS_DATEFORMAT', "Datumsformat");
+define('_MI_NEWS_DATEFORMAT',"Datumsformat");
 define('_MI_NEWS_DATEFORMAT_DESC',"Weitere Informationen zur Formatierung findet man hier: (http://de3.php.net/manual/de/function.date.php) Wenn nichts eingetragen wird, wird die Standardformatierung verwendet.");
-define('_MI_NEWS_META_DATA', "Dürfen Meta Daten (Schlüsselwörter u. Beschreibungen) zugefügt werden?");
-define('_MI_NEWS_META_DATA_DESC', "Wenn diese Option gewählt wird, können die Gruppen die Artikel genehmigen dürfen Meta Daten zufügen.");
+define('_MI_NEWS_META_DATA',"Dürfen Meta Daten (Schlüsselwörter u. Beschreibungen) zugefügt werden?");
+define('_MI_NEWS_META_DATA_DESC',"Wenn diese Option gewählt wird, können die Gruppen die Artikel genehmigen dürfen Meta Daten zufügen.");
 define('_MI_NEWS_BNAME8','Zufällige Artikel');
 define('_MI_NEWS_NEWSLETTER','Newsletter');
 define('_MI_NEWS_STATS','Statistik');
@@ -160,8 +160,8 @@ define("_MI_NEWS_ENHANCED_PAGENAV_DSC",">Mit dieser Option bzw. durch diesen Bef
 // Added in version 1.54
 define('_MI_NEWS_CATEGORY_NOTIFY','Kategorie');
 define('_MI_NEWS_CATEGORY_NOTIFYDSC','Benachrichtigungsoption auf die gegenwärtige Kategorie');
-define('_MI_NEWS_CATEGORY_STORYPOSTED_NOTIFY', 'Der neuer Artikel wurde eingereicht');
-define('_MI_NEWS_CATEGORY_STORYPOSTED_NOTIFYCAP', 'Benachrichtige mich, wenn ein neuer Artikel in dieser Kategorie bekannt gegeben wird.');
-define('_MI_NEWS_CATEGORY_STORYPOSTED_NOTIFYDSC', 'Mitteilung erhalten, wenn ein neuer Artikel in dieser Kategorie bekannt gegeben wird.');
-define('_MI_NEWS_CATEGORY_STORYPOSTED_NOTIFYSBJ', '[{X_SITENAME}] {X_MODULE} auto-notify : Neuer Artikel');
+define('_MI_NEWS_CATEGORY_STORYPOSTED_NOTIFY','Der neuer Artikel wurde eingereicht');
+define('_MI_NEWS_CATEGORY_STORYPOSTED_NOTIFYCAP','Benachrichtige mich, wenn ein neuer Artikel in dieser Kategorie bekannt gegeben wird.');
+define('_MI_NEWS_CATEGORY_STORYPOSTED_NOTIFYDSC','Mitteilung erhalten, wenn ein neuer Artikel in dieser Kategorie bekannt gegeben wird.');
+define('_MI_NEWS_CATEGORY_STORYPOSTED_NOTIFYSBJ','[{X_SITENAME}] {X_MODULE} auto-notify : Neuer Artikel');
 ?>

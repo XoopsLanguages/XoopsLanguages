@@ -30,10 +30,10 @@ define("_AM_SYSTEM_COMMENTS_FORM_ALL_STATUS","هر وضعیت");
 define("_AM_SYSTEM_COMMENTS_FORM_PURGE","پاکسازی");
 define("_AM_SYSTEM_COMMENTS_FORM_PURGE_DATE_AFTER","بعد از این تاریخ (برای برسی تمام تاریخ‌ها  این گزینه را خالی بگذارید)");
 define("_AM_SYSTEM_COMMENTS_FORM_PURGE_DATE_BEFORE","قبل از این تاریخ (برای برسی تمام تاریخ‌ها  این گزینه را خالی بگذارید)");
-define("_AM_SYSTEM_COMMENTS_FORM_PURGE_GROUPS", "گروه");
-define("_AM_SYSTEM_COMMENTS_FORM_PURGE_USER", "نام کاربر");
-define("_AM_SYSTEM_COMMENTS_FORM_PURGE_STATUS", "وضعیت");
-define("_AM_SYSTEM_COMMENTS_FORM_PURGE_MODULES", "ماژول");
+define("_AM_SYSTEM_COMMENTS_FORM_PURGE_GROUPS","گروه");
+define("_AM_SYSTEM_COMMENTS_FORM_PURGE_USER","نام کاربر");
+define("_AM_SYSTEM_COMMENTS_FORM_PURGE_STATUS","وضعیت");
+define("_AM_SYSTEM_COMMENTS_FORM_PURGE_MODULES","ماژول");
 
 // Tab
 define("_AM_SYSTEM_COMMENTS_TITLE","عنوان");

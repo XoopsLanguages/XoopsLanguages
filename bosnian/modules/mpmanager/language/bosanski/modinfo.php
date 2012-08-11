@@ -54,7 +54,7 @@ define("_PM_CSSBBACK","Tekst nove poruke / Pozadinska farba");
 define("_PM_CLINOEIL","Aktivirati Winks");
 define("_PM_SENDUSER","Max. broj &#269;lanova kojima se privatna poruka odjedanput mo&#382;e poslati");
 define("_PM_NOTIF","Aktivirati mail obavje&scaron;tenja");
-define("_PM_DESC_NOTIF","Svaki &#269;lan pojedinaèno ovu opciju mo&#382;e isklju&#269;iti");
+define("_PM_DESC_NOTIF","Svaki &#269;lan pojedinaÃ¨no ovu opciju mo&#382;e isklju&#269;iti");
 define("_MP_WYSIWYG","Dozvoli kori&scaron;tenje Wysiwyg Editor");
 define("_MP_WYSIWYG_DESC","&#268;lanovima je onda omogu&#263;en izbor editora za upotrebu.");
 define("_PM_CORP_NOTIF","Mail body");
@@ -117,13 +117,13 @@ define("_MP_MIMETYPE","Dozvoljeni podaci su:");
 define("_MP_MIMEMAX","Max. veli&#269;ina podatka u bitima za upload");
 
 //profile
-define("_PM_MI_LINK_TITLE", "Privatne poruke link");
-define("_PM_MI_LINK_DESCRIPTION", "Prikazuje se direktni link od poruke &#269;lanu");
-define("_PM_MI_MESSAGE", "Napi&scaron;i poruku za");
+define("_PM_MI_LINK_TITLE","Privatne poruke link");
+define("_PM_MI_LINK_DESCRIPTION","Prikazuje se direktni link od poruke &#269;lanu");
+define("_PM_MI_MESSAGE","Napi&scaron;i poruku za");
 
 //2.7
-define("_MP_AUTOHTML", "Dozvoli HTML");
+define("_MP_AUTOHTML","Dozvoli HTML");
 define('_MP_AUTOHTML_DESC','Dozvoli html koristiti u privatnim porukama.');
-define("_MP_AUTO_MESS", "Uid zadnjeg.");
-define("_MP_MAXTITLE", "Max. broj slova(oznaka) za naslov poruke.");
+define("_MP_AUTO_MESS","Uid zadnjeg.");
+define("_MP_MAXTITLE","Max. broj slova(oznaka) za naslov poruke.");
 ?>

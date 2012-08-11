@@ -57,6 +57,6 @@ define("_PROFILE_MA_SITEDEFAULT","Standaard binnen deze site");
 define("_PROFILE_MA_USERINFO","Gebruikersprofiel");
 define("_PROFILE_MA_REGISTER","Registratieformulier");
 
-define("_PROFILE_MA_ACTUS", "Actieve Gebruikers: %s");
-define("_PROFILE_MA_FOUNDUSER", "%s gebruikers gevonden");
+define("_PROFILE_MA_ACTUS","Actieve Gebruikers: %s");
+define("_PROFILE_MA_FOUNDUSER","%s gebruikers gevonden");
 ?>

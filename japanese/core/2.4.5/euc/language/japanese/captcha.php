@@ -3,21 +3,21 @@
 // _LANGCODE: ja
 // _CHARSET : EUC-JP
 // Translator: XOOPS Translation Team
-define("_CAPTCHA_CAPTION", "Ç§¾Ú¥³¡¼¥É");
-define("_CAPTCHA_INVALID_CODE", "Ìµ¸ú¤ÊÇ§¾Ú¥³¡¼¥É¤Ç¤¹¡ª");
-define("_CAPTCHA_TOOMANYATTEMPTS", "Ç§¾Ú¤ÎÍ­¸ú²ó¿ô¤òÄ¶¤¨¤Þ¤·¤¿");
-define("_CAPTCHA_MAXATTEMPTS", "Ç§¾Ú²ÄÇ½²ó¿ô¤Ï %d ²ó¤Ç¤¹");
+define("_CAPTCHA_CAPTION","Ç§ï¿½Ú¥ï¿½ï¿½ï¿½ï¿½ï¿½");
+define("_CAPTCHA_INVALID_CODE","Ìµï¿½ï¿½ï¿½ï¿½Ç§ï¿½Ú¥ï¿½ï¿½ï¿½ï¿½É¤Ç¤ï¿½ï¿½ï¿½");
+define("_CAPTCHA_TOOMANYATTEMPTS","Ç§ï¿½Ú¤ï¿½Í­ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¶ï¿½ï¿½ï¿½Þ¤ï¿½ï¿½ï¿½");
+define("_CAPTCHA_MAXATTEMPTS","Ç§ï¿½Ú²ï¿½Ç½ï¿½ï¿½ï¿½ï¿½ %d ï¿½ï¿½Ç¤ï¿½");
 // For image mode
-define('_CAPTCHA_RULE_IMAGE', "²èÁü¤Ëµ­ºÜ¤·¤Æ¤¤¤ëÊ¸»ú¤òÆþÎÏ¤·¤Æ²¼¤µ¤¤");
-define("_CAPTCHA_RULE_CASESENSITIVE", "Ç§¾Ú¥³¡¼¥É");
-define("_CAPTCHA_RULE_CASEINSENSITIVE", "Ç§¾Ú¥³¡¼¥É");
-define("_CAPTCHA_REFRESH", "ÆÉ¤á¤Ê¤¤¾ì¹ç¤Ï²èÁü¤ò¥¯¥ê¥Ã¥¯»ö¤ÇÊÌ¤ÎÊ¸»ú¤òÉ½¼¨¤Ç¤­¤Þ¤¹");
+define('_CAPTCHA_RULE_IMAGE',"ï¿½ï¿½ï¿½ï¿½ï¿½Ëµï¿½ï¿½Ü¤ï¿½ï¿½Æ¤ï¿½ï¿½ï¿½Ê¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï¤ï¿½ï¿½Æ²ï¿½ï¿½ï¿½ï¿½ï¿½");
+define("_CAPTCHA_RULE_CASESENSITIVE","Ç§ï¿½Ú¥ï¿½ï¿½ï¿½ï¿½ï¿½");
+define("_CAPTCHA_RULE_CASEINSENSITIVE","Ç§ï¿½Ú¥ï¿½ï¿½ï¿½ï¿½ï¿½");
+define("_CAPTCHA_REFRESH","ï¿½É¤ï¿½Ê¤ï¿½ï¿½ï¿½ï¿½Ï²ï¿½ï¿½ï¿½ï¿½ò¥¯¥ï¿½Ã¥ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì¤ï¿½Ê¸ï¿½ï¿½ï¿½ï¿½É½ï¿½ï¿½ï¿½Ç¤ï¿½ï¿½Þ¤ï¿½");
 // For text mode
-define("_CAPTCHA_RULE_TEXT", "¼°¤ÎÅú¤¨¤òÆþÎÏ¤·¤Æ¤¯¤À¤µ¤¤");
+define("_CAPTCHA_RULE_TEXT","ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï¤ï¿½ï¿½Æ¤ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
 
 /**
  * Error defines
  */
-define('_CAPTCHA_LOADFILEERROR', '¥¨¥é¡¼: ¥Õ¥¡¥¤¥ë %u ¤¬ÆÉ¤ß¹þ¤á¤Þ¤»¤ó in file %s at line %s. ');
+define('_CAPTCHA_LOADFILEERROR','ï¿½ï¿½ï¿½é¡¼: ï¿½Õ¥ï¿½ï¿½ï¿½ï¿½ï¿½ %u ï¿½ï¿½ï¿½É¤ß¹ï¿½ï¿½ï¿½Þ¤ï¿½ï¿½ï¿½ in file %s at line %s. ');
 
 ?>

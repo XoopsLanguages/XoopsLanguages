@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 
 ////////////////////////////////////////////////////////////////
 //############################################################//
@@ -45,8 +45,8 @@ define("_PM_DATE","Datum");
 define("_PM_NOTREAD","Niet Gelezen");
 define("_PM_SEND","Verstuur");
 define("_PM_DELETE","Verwijder");
-define("_PM_REPLY", "Antwoorden");
+define("_PM_REPLY","Antwoorden");
 define("_PM_PLZREG","AUB eerst registreren voor u een bericht verstuurd!");
 
-define("_PM_ONLINE", "Online");
+define("_PM_ONLINE","Online");
 ?>

@@ -122,34 +122,34 @@ define("_MD_TDMDOWNLOADS_DOWNLOAD","Загрузка");
 define("_MD_TDMDOWNLOADS_RSS","RSS лента");
 
 //visit.php
-define("_MD_TDMDOWNLOADS_NOPERMISETOLINK", "This file does not belongs to the website grom where you are comming.<br /><br />thanks for writng an email to the webmaster of the website from where you are comming and telling him :<br /><b>NO OWNERSHIP OF LINKS FROM OTHER SITES !! (LEECH)</b><br /><br /><b>Leecher definition :</b> Someone who is lazy to link to its own server or steals the hard work done by other people <br /><br />You are already <b>registered</b>.");
+define("_MD_TDMDOWNLOADS_NOPERMISETOLINK","This file does not belongs to the website grom where you are comming.<br /><br />thanks for writng an email to the webmaster of the website from where you are comming and telling him :<br /><b>NO OWNERSHIP OF LINKS FROM OTHER SITES !! (LEECH)</b><br /><br /><b>Leecher definition :</b> Someone who is lazy to link to its own server or steals the hard work done by other people <br /><br />You are already <b>registered</b>.");
 
 //Message d'erreur
 define("_MD_TDMDOWNLOADS_ERREUR_NOCAT","Вы должны выбрать категорию!");
 define("_MD_TDMDOWNLOADS_ERREUR_SIZE","Размер файла должен быть числом");
 
 //Bookmarks 
-define("_MD_TDMDOWNLOADS_BOOKMARK_ME", "Мои закладки");
-define("_MD_TDMDOWNLOADS_BOOKMARK_TO_BLINKLIST", "Закладки в Blinklist");
-define("_MD_TDMDOWNLOADS_BOOKMARK_TO_DELICIOUS", "Закладки в del.icio.us");
-define("_MD_TDMDOWNLOADS_BOOKMARK_TO_DIGG", "Закладки в Digg");
-define("_MD_TDMDOWNLOADS_BOOKMARK_TO_FARK", "Закладки в Fark");
-define("_MD_TDMDOWNLOADS_BOOKMARK_TO_FURL", "Закладки в Furl");
-define("_MD_TDMDOWNLOADS_BOOKMARK_TO_NEWSVINE", "Закладки в Newsvine");
-define("_MD_TDMDOWNLOADS_BOOKMARK_TO_REDDIT", "Закладки в Reddit");
-define("_MD_TDMDOWNLOADS_BOOKMARK_TO_SIMPY", "Закладки в Simpy");
-define("_MD_TDMDOWNLOADS_BOOKMARK_TO_SPURL", "Закладки в Spurl");
-define("_MD_TDMDOWNLOADS_BOOKMARK_TO_YAHOO", "Закладки в Yahoo");
-define("_MD_TDMDOWNLOADS_BOOKMARK_TO_FACEBOOK", "Закладки в Faceboom");
-define("_MD_TDMDOWNLOADS_BOOKMARK_TO_TWITTER", "Закладки в Twitter");
-define("_MD_TDMDOWNLOADS_BOOKMARK_TO_SCRIPSTYLE", "Закладки в Scripstyle");
-define("_MD_TDMDOWNLOADS_BOOKMARK_TO_STUMBLE", "Закладки в Stumble");
-define("_MD_TDMDOWNLOADS_BOOKMARK_TO_TECHNORATI", "Закладки в Technorati");
-define("_MD_TDMDOWNLOADS_BOOKMARK_TO_MIXX", "Закладки в Mixx");
-define("_MD_TDMDOWNLOADS_BOOKMARK_TO_MYSPACE", "Закладки в Myspace");
-define("_MD_TDMDOWNLOADS_BOOKMARK_TO_DESIGNFLOAT", "Закладки в Designfloat");
-define("_MD_TDMDOWNLOADS_BOOKMARK_TO_BALATARIN", "Закладки в Balatarin");
-define("_MD_TDMDOWNLOADS_BOOKMARK_TO_GOOLGEBUZZ", "Закладки в Google Buzz");
-define("_MD_TDMDOWNLOADS_BOOKMARK_TO_GOOLGEREADER", "Закладки в Google Buzz");
-define("_MD_TDMDOWNLOADS_BOOKMARK_TO_GOOLGEBOOKMARKS", "Закладки в Google Bookmarks");
+define("_MD_TDMDOWNLOADS_BOOKMARK_ME","Мои закладки");
+define("_MD_TDMDOWNLOADS_BOOKMARK_TO_BLINKLIST","Закладки в Blinklist");
+define("_MD_TDMDOWNLOADS_BOOKMARK_TO_DELICIOUS","Закладки в del.icio.us");
+define("_MD_TDMDOWNLOADS_BOOKMARK_TO_DIGG","Закладки в Digg");
+define("_MD_TDMDOWNLOADS_BOOKMARK_TO_FARK","Закладки в Fark");
+define("_MD_TDMDOWNLOADS_BOOKMARK_TO_FURL","Закладки в Furl");
+define("_MD_TDMDOWNLOADS_BOOKMARK_TO_NEWSVINE","Закладки в Newsvine");
+define("_MD_TDMDOWNLOADS_BOOKMARK_TO_REDDIT","Закладки в Reddit");
+define("_MD_TDMDOWNLOADS_BOOKMARK_TO_SIMPY","Закладки в Simpy");
+define("_MD_TDMDOWNLOADS_BOOKMARK_TO_SPURL","Закладки в Spurl");
+define("_MD_TDMDOWNLOADS_BOOKMARK_TO_YAHOO","Закладки в Yahoo");
+define("_MD_TDMDOWNLOADS_BOOKMARK_TO_FACEBOOK","Закладки в Faceboom");
+define("_MD_TDMDOWNLOADS_BOOKMARK_TO_TWITTER","Закладки в Twitter");
+define("_MD_TDMDOWNLOADS_BOOKMARK_TO_SCRIPSTYLE","Закладки в Scripstyle");
+define("_MD_TDMDOWNLOADS_BOOKMARK_TO_STUMBLE","Закладки в Stumble");
+define("_MD_TDMDOWNLOADS_BOOKMARK_TO_TECHNORATI","Закладки в Technorati");
+define("_MD_TDMDOWNLOADS_BOOKMARK_TO_MIXX","Закладки в Mixx");
+define("_MD_TDMDOWNLOADS_BOOKMARK_TO_MYSPACE","Закладки в Myspace");
+define("_MD_TDMDOWNLOADS_BOOKMARK_TO_DESIGNFLOAT","Закладки в Designfloat");
+define("_MD_TDMDOWNLOADS_BOOKMARK_TO_BALATARIN","Закладки в Balatarin");
+define("_MD_TDMDOWNLOADS_BOOKMARK_TO_GOOLGEBUZZ","Закладки в Google Buzz");
+define("_MD_TDMDOWNLOADS_BOOKMARK_TO_GOOLGEREADER","Закладки в Google Buzz");
+define("_MD_TDMDOWNLOADS_BOOKMARK_TO_GOOLGEBOOKMARKS","Закладки в Google Bookmarks");
 ?>

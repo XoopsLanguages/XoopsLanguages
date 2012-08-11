@@ -47,8 +47,8 @@ define("_IFNOTRELOAD","Ako se stranica ne u&#269;ita automatski, klikni molim te
 //define("_WARNINWRITEABLE","Pa&#382;nja: Podaci %s nisu zaza&scaron;ti&#263;eni za pisanje na Serveru. <br />Molim te CMOD odobrenje ispravno postavi. Ina&#269;e ti je stranica izlo&#382;ena riziku!<br /> (Pod Unixom (444), pod Win32 (zabrani pisanje))");
 
 // Error messages issued by XoopsObject::cleanVars()
-define( "_XOBJ_ERR_REQUIRED", "%s je uspjelo" );
-define( "_XOBJ_ERR_SHORTERTHAN", "%s mora vi&scaron;e %d oznaka imati." );
+define("_XOBJ_ERR_REQUIRED","%s je uspjelo" );
+define("_XOBJ_ERR_SHORTERTHAN","%s mora vi&scaron;e %d oznaka imati." );
 //%%%%%%        File Name themeuserpost.php         %%%%%
 define("_PROFILE","Profil");
 define("_POSTEDBY","Post od");
@@ -66,8 +66,8 @@ define("_CPHOME","Administracija");
 define("_YOURHOME","Start stranica");
 //%%%%%%        File Name misc.php (who's-online popup)        %%%%%
 define("_WHOSONLINE","Ko je online");
-define('_GUESTS', 'Gosti');
-define('_MEMBERS', '&#268;lanova');
+define('_GUESTS','Gosti');
+define('_MEMBERS','&#268;lanova');
 define("_ONLINEPHRASE","<b>%s</b> posjetilaca je online");
 define("_ONLINEPHRASEX","<b>%s</b> posjetilaca se nalezi u <b>%s</b> .");
 define("_CLOSE","Zatvori prozor");  // Close window
@@ -86,27 +86,27 @@ define("_ALIGN","Raspored");
 define("_LEFT","Lijevo");
 define("_CENTER","Sredina");
 define("_RIGHT","Desno");
-define("_FORM_ENTER", "Molim te dodaj %s ");
+define("_FORM_ENTER","Molim te dodaj %s ");
 // %s represents file name
 define("_MUSTWABLE","Podatak %s mora na Serveru biti odobren za pisanje!");
 // Module info
-define('_PREFERENCES', 'Pode&scaron;avanja');
-define("_VERSION", "Verzija");
-define("_DESCRIPTION", "Opis");
-define("_AUTHOR", "Autor");
-define("_CREDITS", "Krediti");
-define("_LICENCE", "Licenca");
-define("_ERRORS", "Gre&scaron;ka");
-define("_NONE", "---Izaberi opciju---");
+define('_PREFERENCES','Pode&scaron;avanja');
+define("_VERSION","Verzija");
+define("_DESCRIPTION","Opis");
+define("_AUTHOR","Autor");
+define("_CREDITS","Krediti");
+define("_LICENCE","Licenca");
+define("_ERRORS","Gre&scaron;ka");
+define("_NONE","---Izaberi opciju---");
 define('_ON','dana');
 define('_READS','x &#269;itano');
 define('_WELCOMETO','Dobrodo&scaron;li na %s');
 define('_SEARCH','Tra&#382;i');
-define('_ALL', 'Sve');
-define('_TITLE', 'Naslov');
-define('_OPTIONS', 'Opcije');
-define('_QUOTE', 'Citat');
-define('_LIST', 'Lista');
+define('_ALL','Sve');
+define('_TITLE','Naslov');
+define('_OPTIONS','Opcije');
+define('_QUOTE','Citat');
+define('_LIST','Lista');
 define('_LOGIN','Uloguj se');
 define('_USERNAME','Nik ime: ');
 define('_PASSWORD','Lozinka: ');
@@ -116,11 +116,11 @@ define("_SEND","Po&scaron;alji");
 define("_CANCEL","Odustani");
 define("_ASCENDING","Redoslijed novih");
 define("_DESCENDING","Redoslijed starijih");
-define('_BACK', 'Nazad');
-define('_NOTITLE', 'Nema Naslova'); //added2.0.5
+define('_BACK','Nazad');
+define('_NOTITLE','Nema Naslova'); //added2.0.5
 /* Image manager */
 define('_IMGMANAGER','Menadzer slika');
-define('_NUMIMAGES', '%s slika');
+define('_NUMIMAGES','%s slika');
 define('_ADDIMAGE','Sliku dodaj');
 define('_IMAGENAME','Naziv:');
 define('_IMGMAXSIZE','maximalna veli&#269;ina (u Kb):');
@@ -131,16 +131,16 @@ define('_IMAGEFILE','Vrsta slike:');
 define('_IMGWEIGHT','Redoslijed u Menadzeru slika prika&#382;i:');
 define('_IMGDISPLAY','Ovu sliku prika&#382;i?');
 define('_IMAGEMIME','MIME-Typ:');
-define('_FAILFETCHIMG', 'Poslata slika %s se nemo&#382;e iz Baze podataka prikazati');
-define('_FAILSAVEIMG', 'Slika %s se nemo&#382;e u Bazu podataka dodati');
-define('_NOCACHE', 'Nema Cache');
-define('_CLONE', 'Kloniraj');
+define('_FAILFETCHIMG','Poslata slika %s se nemo&#382;e iz Baze podataka prikazati');
+define('_FAILSAVEIMG','Slika %s se nemo&#382;e u Bazu podataka dodati');
+define('_NOCACHE','Nema Cache');
+define('_CLONE','Kloniraj');
 //%%%%%        File Name class/xoopsform/formmatchoption.php         %%%%%
-define("_STARTSWITH", "Po&#269;inje sa");
-define("_ENDSWITH", "Zavr&scaron;ava sa");
-define("_MATCHES", "Suglasno");
-define("_CONTAINS", "Sadr&#382;i");
-define("_REQUIRED", "Obavezno");
+define("_STARTSWITH","Po&#269;inje sa");
+define("_ENDSWITH","Zavr&scaron;ava sa");
+define("_MATCHES","Suglasno");
+define("_CONTAINS","Sadr&#382;i");
+define("_REQUIRED","Obavezno");
 //%%%%%%        File Name commentform.php         %%%%%
 define("_REGISTER","Registriraj se");
 //%%%%%%        File Name xoopscodes.php         %%%%%
@@ -163,16 +163,16 @@ define("_CURRCHAR","Momentalna du&#382;ina teksta: ");
 define("_PLZCOMPLETE","Molim te ispuni sva zahtjevna polja.");
 define("_MESSAGETOOLONG","Tvoj post je preduga&#269;ak.");
 //%%%%%                TIME FORMAT SETTINGS   %%%%%
-define('_SECOND', '1 Sekunda');
-define('_SECONDS', '%s Sekundi');
-define('_MINUTE', '1 Minuta');
-define('_MINUTES', '%s Minuti');
-define('_HOUR', '1 Sat');
-define('_HOURS', '%s Sati');
-define('_DAY', '1 Dan');
-define('_DAYS', '%s Dana');
-define('_WEEK', '1 Sedmica');
-define('_MONTH', '1 Mjesec');
+define('_SECOND','1 Sekunda');
+define('_SECONDS','%s Sekundi');
+define('_MINUTE','1 Minuta');
+define('_MINUTES','%s Minuti');
+define('_HOUR','1 Sat');
+define('_HOURS','%s Sati');
+define('_DAY','1 Dan');
+define('_DAYS','%s Dana');
+define('_WEEK','1 Sedmica');
+define('_MONTH','1 Mjesec');
 define("_DATESTRING","d.m.Y H:i");
 define("_MEDIUMDATESTRING","d.m.Y H:i");
 define("_SHORTDATESTRING","d.m.Y");
@@ -195,7 +195,7 @@ m - month; i.e. "01" to "12"
 n - month without leading zeros; i.e. "1" to "12"
 M - month, textual, 3 letters; i.e. "Jan"
 s - seconds; i.e. "00" to "59"
-S - English ordinal suffix, textual, 2 characters; i.e. "th", "nd"
+S - English ordinal suffix, textual, 2 characters; i.e. "th","nd"
 t - number of days in the given month; i.e. "28" to "31"
 T - Timezone setting of this machine; i.e. "MDT"
 U - seconds since the epoch
@@ -208,16 +208,16 @@ Z - timezone offset in seconds (i.e. "-43200" to "43200")
 
 
 //%%%%%                LANGUAGE SPECIFIC SETTINGS   %%%%%
-define('_CHARSET', 'ISO-8859-2');
-define('_LANGCODE', 'ba');
+define('_CHARSET','ISO-8859-2');
+define('_LANGCODE','ba');
 
 // change 0 to 1 if this language is a multi-bytes language
-define("XOOPS_USE_MULTIBYTES", "0");
+define("XOOPS_USE_MULTIBYTES","0");
 // change 0 to 1 if this language written right-to-left (RTL)
-//define('XOOPS_USE_RTL', '0');
+//define('XOOPS_USE_RTL','0');
 /**
 * Additions to 2.4.0
 **/
-define('_RESET', 'Reset');
-define('_RE', 'Re:');
+define('_RESET','Reset');
+define('_RE','Re:');
 ?>

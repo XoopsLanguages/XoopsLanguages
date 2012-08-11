@@ -19,13 +19,13 @@ define('_MI_SYSTEM_BNAME4','Tra&#382;i');
 define('_MI_SYSTEM_BNAME5','Dojave na &#269;ekanju');
 define('_MI_SYSTEM_BNAME6','Glavni meni');
 define('_MI_SYSTEM_BNAME7','Web stranice info');
-define('_MI_SYSTEM_BNAME8', 'Ko je online');
-define('_MI_SYSTEM_BNAME9', 'Najaktivniji &#269;lanovi');
-define('_MI_SYSTEM_BNAME10', 'Novi &#269;lanovi');
-define('_MI_SYSTEM_BNAME11', 'Zadnji komentari');
+define('_MI_SYSTEM_BNAME8','Ko je online');
+define('_MI_SYSTEM_BNAME9','Najaktivniji &#269;lanovi');
+define('_MI_SYSTEM_BNAME10','Novi &#269;lanovi');
+define('_MI_SYSTEM_BNAME11','Zadnji komentari');
 // RMV-NOTIFY
-define('_MI_SYSTEM_BNAME12', 'Opcije obavje&scaron;tavanja');
-define('_MI_SYSTEM_BNAME13', 'Theme');
+define('_MI_SYSTEM_BNAME12','Opcije obavje&scaron;tavanja');
+define('_MI_SYSTEM_BNAME13','Theme');
 
 
 // Names of admin menu items
@@ -38,9 +38,9 @@ define('_MI_SYSTEM_ADMENU7','Smilisi');
 define('_MI_SYSTEM_ADMENU9','Rangovi &#269;lanova');
 define('_MI_SYSTEM_ADMENU10','Uredi &#269;lana');
 define('_MI_SYSTEM_ADMENU11','E-Mail po&scaron;alji &#269;lanovima');
-define('_MI_SYSTEM_ADMENU12', 'Prona&#273;i &#269;lana');
-define('_MI_SYSTEM_ADMENU13', 'Menadzer slika');
-define('_MI_SYSTEM_ADMENU14', 'Avatari');
-define('_MI_SYSTEM_ADMENU15', 'Templati');
-define('_MI_SYSTEM_ADMENU16', 'Komentari');
+define('_MI_SYSTEM_ADMENU12','Prona&#273;i &#269;lana');
+define('_MI_SYSTEM_ADMENU13','Menadzer slika');
+define('_MI_SYSTEM_ADMENU14','Avatari');
+define('_MI_SYSTEM_ADMENU15','Templati');
+define('_MI_SYSTEM_ADMENU16','Komentari');
 ?>

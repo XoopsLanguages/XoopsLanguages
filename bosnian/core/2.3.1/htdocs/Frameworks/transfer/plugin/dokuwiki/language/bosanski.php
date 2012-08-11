@@ -14,8 +14,8 @@
  * @subpackage      transfer
  */
  
-define("_MD_TRANSFER_DOKUWIKI", "DokuWiki");
-define("_MD_TRANSFER_DOKUWIKI_DESC", "Po&scaron;alji ovaj sadr&#382;aj u DokuWiki");
-define("_MD_TRANSFER_DOKUWIKI_NAMESPACE", "Wiki naziv");
-define("_MD_TRANSFER_DOKUWIKI_NAME", "Naslov sadr&#382;aja");
+define("_MD_TRANSFER_DOKUWIKI","DokuWiki");
+define("_MD_TRANSFER_DOKUWIKI_DESC","Po&scaron;alji ovaj sadr&#382;aj u DokuWiki");
+define("_MD_TRANSFER_DOKUWIKI_NAMESPACE","Wiki naziv");
+define("_MD_TRANSFER_DOKUWIKI_NAME","Naslov sadr&#382;aja");
 ?>

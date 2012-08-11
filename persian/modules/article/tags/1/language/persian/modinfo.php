@@ -16,18 +16,18 @@ if(defined($GLOBALS["ART_VAR_PREFIXU"]."_LANG_FA_MODINFO")) return; define($GLOB
 define($GLOBALS["ART_VAR_PREFIXU"]."_MI_NAME","مقاله ها");
 define($GLOBALS["ART_VAR_PREFIXU"]."_MI_DESC","ماژولی برای مدیریت بسیار پیشرفته مقاله ها");
 
-define($GLOBALS["ART_VAR_PREFIXU"]."_MI_PAGE_INDEX", "صفحه اصلی");
-define($GLOBALS["ART_VAR_PREFIXU"]."_MI_PAGE_ARTICLE", "مقاله ها");
-define($GLOBALS["ART_VAR_PREFIXU"]."_MI_PAGE_CATEGORY", "شاخه‌ها");
-define($GLOBALS["ART_VAR_PREFIXU"]."_MI_PAGE_TOPIC", "سرفصل‌ها");
-define($GLOBALS["ART_VAR_PREFIXU"]."_MI_PAGE_AUTHOR", "نویسندگان");
-define($GLOBALS["ART_VAR_PREFIXU"]."_MI_PAGE_KEYWORD", "کلمات کلیدی");
-define($GLOBALS["ART_VAR_PREFIXU"]."_MI_PAGE_BLOCKS", "بلاک‌ها");
-define($GLOBALS["ART_VAR_PREFIXU"]."_MI_PAGE_ARCHIVE", "آرشیو");
-define($GLOBALS["ART_VAR_PREFIXU"]."_MI_PAGE_LIST", "فهرست مقاله ها");
-define($GLOBALS["ART_VAR_PREFIXU"]."_MI_PAGE_SEARCH", "جستجو");
-define($GLOBALS["ART_VAR_PREFIXU"]."_MI_PAGE_MYPAGE", "صفحه من");
-define($GLOBALS["ART_VAR_PREFIXU"]."_MI_PAGE_TAGS", "فهرست کلمات کلیدی");
+define($GLOBALS["ART_VAR_PREFIXU"]."_MI_PAGE_INDEX","صفحه اصلی");
+define($GLOBALS["ART_VAR_PREFIXU"]."_MI_PAGE_ARTICLE","مقاله ها");
+define($GLOBALS["ART_VAR_PREFIXU"]."_MI_PAGE_CATEGORY","شاخه‌ها");
+define($GLOBALS["ART_VAR_PREFIXU"]."_MI_PAGE_TOPIC","سرفصل‌ها");
+define($GLOBALS["ART_VAR_PREFIXU"]."_MI_PAGE_AUTHOR","نویسندگان");
+define($GLOBALS["ART_VAR_PREFIXU"]."_MI_PAGE_KEYWORD","کلمات کلیدی");
+define($GLOBALS["ART_VAR_PREFIXU"]."_MI_PAGE_BLOCKS","بلاک‌ها");
+define($GLOBALS["ART_VAR_PREFIXU"]."_MI_PAGE_ARCHIVE","آرشیو");
+define($GLOBALS["ART_VAR_PREFIXU"]."_MI_PAGE_LIST","فهرست مقاله ها");
+define($GLOBALS["ART_VAR_PREFIXU"]."_MI_PAGE_SEARCH","جستجو");
+define($GLOBALS["ART_VAR_PREFIXU"]."_MI_PAGE_MYPAGE","صفحه من");
+define($GLOBALS["ART_VAR_PREFIXU"]."_MI_PAGE_TAGS","فهرست کلمات کلیدی");
 
 define($GLOBALS["ART_VAR_PREFIXU"]."_MI_SUBMIT","ارسال");
 define($GLOBALS["ART_VAR_PREFIXU"]."_MI_SPOTLIGHT","اسپات لایت");
@@ -40,9 +40,9 @@ define($GLOBALS["ART_VAR_PREFIXU"]."_MI_TOPIC","سرفصل‌ها");
 define($GLOBALS["ART_VAR_PREFIXU"]."_MI_TOPIC_DESC","");
 define($GLOBALS["ART_VAR_PREFIXU"]."_MI_AUTHOR","نویسندگان");
 define($GLOBALS["ART_VAR_PREFIXU"]."_MI_AUTHOR_DESC","");
-define($GLOBALS["ART_VAR_PREFIXU"]."_MI_BLOCK_RECENTNEWS", "خبر‌های جدید");
-define($GLOBALS["ART_VAR_PREFIXU"]."_MI_BLOCK_TAG_CLOUD", "ابر برچسب‌ها");
-define($GLOBALS["ART_VAR_PREFIXU"]."_MI_BLOCK_TAG_TOP", "بهترین برچسب‌ها");
+define($GLOBALS["ART_VAR_PREFIXU"]."_MI_BLOCK_RECENTNEWS","خبر‌های جدید");
+define($GLOBALS["ART_VAR_PREFIXU"]."_MI_BLOCK_TAG_CLOUD","ابر برچسب‌ها");
+define($GLOBALS["ART_VAR_PREFIXU"]."_MI_BLOCK_TAG_TOP","بهترین برچسب‌ها");
 
 define($GLOBALS["ART_VAR_PREFIXU"]."_MI_TIMEFORMAT","قالب زمان برای نمایش");
 load_functions("locale");
@@ -50,17 +50,17 @@ define($GLOBALS["ART_VAR_PREFIXU"]."_MI_TIMEFORMAT_DESC", XoopsLocal::getTimeFor
 
 define($GLOBALS["ART_VAR_PREFIXU"]."_MI_TIMEFORMAT_CUSTOM","دلخواه به صورت دستی");
 
-define($GLOBALS["ART_VAR_PREFIXU"]."_MI_CONFIGCAT_MODULE", "تنطیمات کلی");
-define($GLOBALS["ART_VAR_PREFIXU"]."_MI_CONFIGCAT_MODULE_DESC", "ویژگی‌های کلی ماژول");
+define($GLOBALS["ART_VAR_PREFIXU"]."_MI_CONFIGCAT_MODULE","تنطیمات کلی");
+define($GLOBALS["ART_VAR_PREFIXU"]."_MI_CONFIGCAT_MODULE_DESC","ویژگی‌های کلی ماژول");
 
-define($GLOBALS["ART_VAR_PREFIXU"]."_MI_CONFIGCAT_ARTICLE", "تنظیمات مقاله ها");
-define($GLOBALS["ART_VAR_PREFIXU"]."_MI_CONFIGCAT_ARTICLE_DESC", "تنظیماتی که فقط به مقاله ها مربوط می‌شوند");
+define($GLOBALS["ART_VAR_PREFIXU"]."_MI_CONFIGCAT_ARTICLE","تنظیمات مقاله ها");
+define($GLOBALS["ART_VAR_PREFIXU"]."_MI_CONFIGCAT_ARTICLE_DESC","تنظیماتی که فقط به مقاله ها مربوط می‌شوند");
 
-define($GLOBALS["ART_VAR_PREFIXU"]."_MI_THEMESET", "قرار دادن تم");
-define($GLOBALS["ART_VAR_PREFIXU"]."_MI_THEMESET_DESC", "قرار دادن تم خاصی برای ماژول ، اگر '"._NONE."' را انتخاب کنید همان تمی که برای کل سایت استفاده شده است استفاده خواهد شد.");
+define($GLOBALS["ART_VAR_PREFIXU"]."_MI_THEMESET","قرار دادن تم");
+define($GLOBALS["ART_VAR_PREFIXU"]."_MI_THEMESET_DESC","قرار دادن تم خاصی برای ماژول ، اگر '"._NONE."' را انتخاب کنید همان تمی که برای کل سایت استفاده شده است استفاده خواهد شد.");
 
-define($GLOBALS["ART_VAR_PREFIXU"]."_MI_DISPLAY_SUMMARY", "نمایش خلاصه در بخش فهرست مقاله ها");
-define($GLOBALS["ART_VAR_PREFIXU"]."_MI_DISPLAY_SUMMARY_DESC", "در صفحه اصلی، شاخه‌ها و سرفصل‌ها");
+define($GLOBALS["ART_VAR_PREFIXU"]."_MI_DISPLAY_SUMMARY","نمایش خلاصه در بخش فهرست مقاله ها");
+define($GLOBALS["ART_VAR_PREFIXU"]."_MI_DISPLAY_SUMMARY_DESC","در صفحه اصلی، شاخه‌ها و سرفصل‌ها");
 
 define($GLOBALS["ART_VAR_PREFIXU"]."_MI_FORUM","انجمن");
 define($GLOBALS["ART_VAR_PREFIXU"]."_MI_FORUM_DESC","انجمنی که برای بحث بیشتر مورد استفاده قرار می‌گیرد");
@@ -184,29 +184,29 @@ define($GLOBALS["ART_VAR_PREFIXU"]."_MI_GLOBAL_NEWARTICLE_NOTIFY","مقاله ج
 define($GLOBALS["ART_VAR_PREFIXU"]."_MI_GLOBAL_NEWARTICLE_NOTIFYCAP","هر مقاله جدیدی در سایت قرار گرفت مرا با خبر کن");
 define($GLOBALS["ART_VAR_PREFIXU"]."_MI_GLOBAL_NEWARTICLE_NOTIFYDSC","Receive notification when a new article is published");
 define($GLOBALS["ART_VAR_PREFIXU"]."_MI_GLOBAL_NEWARTICLE_NOTIFYSBJ","[{X_SITENAME}] {X_MODULE} آگهی‌رسانی خودکار: مقاله جدید");
-define($GLOBALS["ART_VAR_PREFIXU"]."_MI_GLOBAL_ARTICLEMONITOR_NOTIFY", "زیر نظر گرفتن مقاله");
-define($GLOBALS["ART_VAR_PREFIXU"]."_MI_GLOBAL_ARTICLEMONITOR_NOTIFYCAP", "هر عملیاتی روی مقاله های من انجام شد مرا با خبر کن");
-define($GLOBALS["ART_VAR_PREFIXU"]."_MI_GLOBAL_ARTICLEMONITOR_NOTIFYDSC", "Receive notification when an action is taken over my articles");
-define($GLOBALS["ART_VAR_PREFIXU"]."_MI_GLOBAL_ARTICLEMONITOR_NOTIFYSBJ", "[{X_SITENAME}] {X_MODULE} آگهی‌رسانی خودکار: یک عمل جدید روی مقاله شما انجام شده است");
-define($GLOBALS["ART_VAR_PREFIXU"]."_MI_GLOBAL_ARTICLETRACKBACK_NOTIFY", "نظارت بر ترک‌بک‌ها");
-define($GLOBALS["ART_VAR_PREFIXU"]."_MI_GLOBAL_ARTICLETRACKBACK_NOTIFYCAP", "مرا از تمام ترک‌بک‌های معلق با خبر کن");
-define($GLOBALS["ART_VAR_PREFIXU"]."_MI_GLOBAL_ARTICLETRACKBACK_NOTIFYDSC", "Receive notification when a new trackback is received for approval");
-define($GLOBALS["ART_VAR_PREFIXU"]."_MI_GLOBAL_ARTICLETRACKBACK_NOTIFYSBJ", "[{X_SITENAME}] {X_MODULE} آگهی‌رسانی خودکار: ترک‌بک جدید ارسال شده و معلق");
+define($GLOBALS["ART_VAR_PREFIXU"]."_MI_GLOBAL_ARTICLEMONITOR_NOTIFY","زیر نظر گرفتن مقاله");
+define($GLOBALS["ART_VAR_PREFIXU"]."_MI_GLOBAL_ARTICLEMONITOR_NOTIFYCAP","هر عملیاتی روی مقاله های من انجام شد مرا با خبر کن");
+define($GLOBALS["ART_VAR_PREFIXU"]."_MI_GLOBAL_ARTICLEMONITOR_NOTIFYDSC","Receive notification when an action is taken over my articles");
+define($GLOBALS["ART_VAR_PREFIXU"]."_MI_GLOBAL_ARTICLEMONITOR_NOTIFYSBJ","[{X_SITENAME}] {X_MODULE} آگهی‌رسانی خودکار: یک عمل جدید روی مقاله شما انجام شده است");
+define($GLOBALS["ART_VAR_PREFIXU"]."_MI_GLOBAL_ARTICLETRACKBACK_NOTIFY","نظارت بر ترک‌بک‌ها");
+define($GLOBALS["ART_VAR_PREFIXU"]."_MI_GLOBAL_ARTICLETRACKBACK_NOTIFYCAP","مرا از تمام ترک‌بک‌های معلق با خبر کن");
+define($GLOBALS["ART_VAR_PREFIXU"]."_MI_GLOBAL_ARTICLETRACKBACK_NOTIFYDSC","Receive notification when a new trackback is received for approval");
+define($GLOBALS["ART_VAR_PREFIXU"]."_MI_GLOBAL_ARTICLETRACKBACK_NOTIFYSBJ","[{X_SITENAME}] {X_MODULE} آگهی‌رسانی خودکار: ترک‌بک جدید ارسال شده و معلق");
 define($GLOBALS["ART_VAR_PREFIXU"]."_MI_CATEGORY_ARTICLESUBMIT_NOTIFY","ارسال مقاله");
 define($GLOBALS["ART_VAR_PREFIXU"]."_MI_CATEGORY_ARTICLESUBMIT_NOTIFYCAP","هر مقاله جدیدی در این شاخه ارسال شد  مرا با خبر کن");
 define($GLOBALS["ART_VAR_PREFIXU"]."_MI_CATEGORY_ARTICLESUBMIT_NOTIFYDSC","Receive notification when a new article is submitted in the current category");
 define($GLOBALS["ART_VAR_PREFIXU"]."_MI_CATEGORY_ARTICLESUBMIT_NOTIFYSBJ","[{X_SITENAME}] {X_MODULE} آگهی‌رسانی خودکار: مقاله ارسال شده");
-define($GLOBALS["ART_VAR_PREFIXU"]."_MI_CATEGORY_NEWARTICLE_NOTIFY", "مقاله جدید");
-define($GLOBALS["ART_VAR_PREFIXU"]."_MI_CATEGORY_NEWARTICLE_NOTIFYCAP", "هر مقاله جدیدی در این شاخه قرار گرفت مرا با خبر کن");
-define($GLOBALS["ART_VAR_PREFIXU"]."_MI_CATEGORY_NEWARTICLE_NOTIFYDSC", "Receive notification when a new article is published in the category");
-define($GLOBALS["ART_VAR_PREFIXU"]."_MI_CATEGORY_NEWARTICLE_NOTIFYSBJ", "[{X_SITENAME}] {X_MODULE} آگهی‌رسانی خودکار: مقاله جدید قرار گرفته در سایت");
+define($GLOBALS["ART_VAR_PREFIXU"]."_MI_CATEGORY_NEWARTICLE_NOTIFY","مقاله جدید");
+define($GLOBALS["ART_VAR_PREFIXU"]."_MI_CATEGORY_NEWARTICLE_NOTIFYCAP","هر مقاله جدیدی در این شاخه قرار گرفت مرا با خبر کن");
+define($GLOBALS["ART_VAR_PREFIXU"]."_MI_CATEGORY_NEWARTICLE_NOTIFYDSC","Receive notification when a new article is published in the category");
+define($GLOBALS["ART_VAR_PREFIXU"]."_MI_CATEGORY_NEWARTICLE_NOTIFYSBJ","[{X_SITENAME}] {X_MODULE} آگهی‌رسانی خودکار: مقاله جدید قرار گرفته در سایت");
 
 define($GLOBALS["ART_VAR_PREFIXU"]."_MI_ARTICLE_ARTICLEAPPROVE_NOTIFY","تایید شدن مقاله");
 define($GLOBALS["ART_VAR_PREFIXU"]."_MI_ARTICLE_ARTICLEAPPROVE_NOTIFYCAP","هر وقت این مقاله تایید شد مرا با خبر کن");
 define($GLOBALS["ART_VAR_PREFIXU"]."_MI_ARTICLE_ARTICLEAPPROVE_NOTIFYDSC","Receive notification when the article is approved");
 define($GLOBALS["ART_VAR_PREFIXU"]."_MI_ARTICLE_ARTICLEAPPROVE_NOTIFYSBJ","[{X_SITENAME}] {X_MODULE} آگهی‌رسانی خودکار: تایید شدن مقاله");
-define($GLOBALS["ART_VAR_PREFIXU"]."_MI_ARTICLE_ARTICLEMONITOR_NOTIFY", "زیر نظر گرفتن این مقاله");
-define($GLOBALS["ART_VAR_PREFIXU"]."_MI_ARTICLE_ARTICLEMONITOR_NOTIFYCAP", "هر عملیاتی روی این مقاله انجام شد مرا با خبر کن");
-define($GLOBALS["ART_VAR_PREFIXU"]."_MI_ARTICLE_ARTICLEMONITOR_NOTIFYDSC", "Receive notification when an action is taken on this article");
-define($GLOBALS["ART_VAR_PREFIXU"]."_MI_ARTICLE_ARTICLEMONITOR_NOTIFYSBJ", "[{X_SITENAME}] {X_MODULE} آگهی‌رسانی خودکار: یک عمل جدید روی مقاله انجام شد");
+define($GLOBALS["ART_VAR_PREFIXU"]."_MI_ARTICLE_ARTICLEMONITOR_NOTIFY","زیر نظر گرفتن این مقاله");
+define($GLOBALS["ART_VAR_PREFIXU"]."_MI_ARTICLE_ARTICLEMONITOR_NOTIFYCAP","هر عملیاتی روی این مقاله انجام شد مرا با خبر کن");
+define($GLOBALS["ART_VAR_PREFIXU"]."_MI_ARTICLE_ARTICLEMONITOR_NOTIFYDSC","Receive notification when an action is taken on this article");
+define($GLOBALS["ART_VAR_PREFIXU"]."_MI_ARTICLE_ARTICLEMONITOR_NOTIFYSBJ","[{X_SITENAME}] {X_MODULE} آگهی‌رسانی خودکار: یک عمل جدید روی مقاله انجام شد");
 ?>

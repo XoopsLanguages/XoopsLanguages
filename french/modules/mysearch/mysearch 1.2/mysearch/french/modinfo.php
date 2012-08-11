@@ -49,15 +49,15 @@ define('_MI_MYSEARCH_BNAME3',"Statistiques");
 define('_MI_MYSEARCH_BNAME4',"Recherche Ajax");
 
 // Added by Lankford on 2007/8/15
-define('_MI_MYSEARCH_DO_DEEP_SEARCH', "Activer la recherche « appronfondie » ?");
-define('_MI_MYSEARCH_DO_DEEP_SEARCH_DSC', "Vous désirez que votre page de résultats de recherche initiale indique combien de résultats ont été trouvés dans chaque module ?  Note : cette activation peut ralentir le processus de recherche !");
-define('_MI_MYSEARCH_INIT_SRCH_RSLTS', "Nombre de résultats de recherche initial : (pour la recherche « simple »)");
-define('_MI_MYSEARCH_INIT_SRCH_RSLTS_DSC', "Les recherches « simples » sont faites plus rapidement en limitant les résultats qui sont retournés pour chaque module sur la page de recherche initiale.");
-define('_MI_MYSEARCH_MDL_SRCH_RESULTS', "Nombre de résultats par page :");
-define('_MI_MYSEARCH_MDL_SRCH_RESULTS_DSC', "Cela détermine le nombre de visites par page qui sont apparues après l'exploration dans les résultats de la recherche d'un module particulier.");
+define('_MI_MYSEARCH_DO_DEEP_SEARCH',"Activer la recherche « appronfondie » ?");
+define('_MI_MYSEARCH_DO_DEEP_SEARCH_DSC',"Vous désirez que votre page de résultats de recherche initiale indique combien de résultats ont été trouvés dans chaque module ?  Note : cette activation peut ralentir le processus de recherche !");
+define('_MI_MYSEARCH_INIT_SRCH_RSLTS',"Nombre de résultats de recherche initial : (pour la recherche « simple »)");
+define('_MI_MYSEARCH_INIT_SRCH_RSLTS_DSC',"Les recherches « simples » sont faites plus rapidement en limitant les résultats qui sont retournés pour chaque module sur la page de recherche initiale.");
+define('_MI_MYSEARCH_MDL_SRCH_RESULTS',"Nombre de résultats par page :");
+define('_MI_MYSEARCH_MDL_SRCH_RESULTS_DSC',"Cela détermine le nombre de visites par page qui sont apparues après l'exploration dans les résultats de la recherche d'un module particulier.");
 
-define('_MI_MYSEARCH_MIN_SEARCH', 'Longueur minimum du mot-clé');
-define('_MI_MYSEARCH_MIN_SEARCH_DSC', 'Entrer la longueur de mot-clé minimum que les utilisateurs sont tenus d\'entrer pour effectuer la recherche');
+define('_MI_MYSEARCH_MIN_SEARCH','Longueur minimum du mot-clé');
+define('_MI_MYSEARCH_MIN_SEARCH_DSC','Entrer la longueur de mot-clé minimum que les utilisateurs sont tenus d\'entrer pour effectuer la recherche');
 
 define('_MI_MYSEARCH_ADMIN0',"Accueil");
 // Traduction faite par Cesag le 31 Mai 2012 pour frxoops.org

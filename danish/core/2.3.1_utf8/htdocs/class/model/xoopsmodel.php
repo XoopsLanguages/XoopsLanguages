@@ -86,7 +86,7 @@ class XoopsModelFactory
             if ( @include_once dirname(__FILE__) . "/{$name}.php" ) {
                 $className = "XoopsModel" . ucfirst($name);
                 $handler = new $className();
-            } elseif (xoops_load("model", "framework")) {
+            } elseif (xoops_load("model","framework")) {
                 $handler = XoopsModel::loadHandler($name);
             }
             

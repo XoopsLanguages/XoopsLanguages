@@ -1,133 +1,133 @@
 <?php
 // $Id: main.php,v 1.1 2007/02/10 18:55:22 dap997 Exp $
 //%%%%%%		File Name index.php 		%%%%%
-define("_AMS_NW_PRINTER","Drukuj Stronê");
-define("_AMS_NW_SENDSTORY","Wy¶lij ten artyku³ znajomemu");
-define("_AMS_NW_READMORE","Czytaj wiêcej...");
+define("_AMS_NW_PRINTER","Drukuj StronÃª");
+define("_AMS_NW_SENDSTORY","WyÂ¶lij ten artykuÂ³ znajomemu");
+define("_AMS_NW_READMORE","Czytaj wiÃªcej...");
 define("_AMS_NW_COMMENTS","Skomentujesz?");
 define("_AMS_NW_ONECOMMENT","1 komentarz");
-define("_AMS_NW_BYTESMORE","%s bajtów wiêcej");
+define("_AMS_NW_BYTESMORE","%s bajtÃ³w wiÃªcej");
 define("_AMS_NW_NUMCOMMENTS","%s kamentarz(y)");
-define("_AMS_NW_MORERELEASES", "Wiêcej wydañ w ");
+define("_AMS_NW_MORERELEASES","WiÃªcej wydaÃ± w ");
 
 
 //%%%%%%		File Name submit.php		%%%%%
-define("_AMS_NW_SUBMITNEWS","Dodaj artyku³");
-define("_AMS_NW_TITLE","Tytu³");
+define("_AMS_NW_SUBMITNEWS","Dodaj artykuÂ³");
+define("_AMS_NW_TITLE","TytuÂ³");
 define("_AMS_NW_TOPIC","Temat");
-define("_AMS_NW_THESCOOP","Tekst Artyku³u");
+define("_AMS_NW_THESCOOP","Tekst ArtykuÂ³u");
 define("_AMS_NW_NOTIFYPUBLISH","Poinformuj mnie gdy zostanie opublikowany");
 define("_AMS_NW_POST","Napisz");
-define("_AMS_NW_GO","Id¼!");
-define("_AMS_NW_THANKS","Dziêkujemy za napisanie artyku³u."); //submission of news article
+define("_AMS_NW_GO","IdÂ¼!");
+define("_AMS_NW_THANKS","DziÃªkujemy za napisanie artykuÂ³u."); //submission of news article
 
-define("_AMS_NW_NOTIFYSBJCT","Artyku³ na moj± stronê"); // Notification mail subject
-define("_AMS_NW_NOTIFYMSG","Masz now± wiadomo¶æ któr± mo¿esz przedstawiæ na swojej stronie."); // Notification mail message
+define("_AMS_NW_NOTIFYSBJCT","ArtykuÂ³ na mojÂ± stronÃª"); // Notification mail subject
+define("_AMS_NW_NOTIFYMSG","Masz nowÂ± wiadomoÂ¶Ã¦ ktÃ³rÂ± moÂ¿esz przedstawiÃ¦ na swojej stronie."); // Notification mail message
 
 //%%%%%%		File Name archive.php		%%%%%
-define("_AMS_NW_NEWSARCHIVES","Archiwum artyku³ów");
-define("_AMS_NW_ARTICLES","Artyku³y");
-define("_AMS_NW_VIEWS","Ods³on");
+define("_AMS_NW_NEWSARCHIVES","Archiwum artykuÂ³Ã³w");
+define("_AMS_NW_ARTICLES","ArtykuÂ³y");
+define("_AMS_NW_VIEWS","OdsÂ³on");
 define("_AMS_NW_DATE","Data");
-define("_AMS_NW_ACTIONS","Czynno¶æ");
-define("_AMS_NW_PRINTERFRIENDLY","Drukuj stronê");
+define("_AMS_NW_ACTIONS","CzynnoÂ¶Ã¦");
+define("_AMS_NW_PRINTERFRIENDLY","Drukuj stronÃª");
 
-define("_AMS_NW_THEREAREINTOTAL","Wszystkich artyku³ów w Bazie : %s ");
+define("_AMS_NW_THEREAREINTOTAL","Wszystkich artykuÂ³Ã³w w Bazie : %s ");
 
 // %s is your site name
-define("_AMS_NW_INTARTICLE","Ciekawy artyku³ na %s");
-define("_AMS_NW_INTARTFOUND","Znalaz³em ciekawy artyku³ na %s");
+define("_AMS_NW_INTARTICLE","Ciekawy artykuÂ³ na %s");
+define("_AMS_NW_INTARTFOUND","ZnalazÂ³em ciekawy artykuÂ³ na %s");
 
 define("_AMS_NW_TOPICC","Temat:");
 define("_AMS_NW_URL","URL:");
-define("_AMS_NW_NOSTORY","Przepraszamy, wybrany artyku³ nie istnieje.");
+define("_AMS_NW_NOSTORY","Przepraszamy, wybrany artykuÂ³ nie istnieje.");
 
 //%%%%%%	File Name print.php 	%%%%%
 
-define("_AMS_NW_URLFORSTORY","URL artyku³u to:");
+define("_AMS_NW_URLFORSTORY","URL artykuÂ³u to:");
 
 // %s represents your site name
-define("_AMS_NW_THISCOMESFROM","Ten artyku³ pochodzi z %s");
+define("_AMS_NW_THISCOMESFROM","Ten artykuÂ³ pochodzi z %s");
 
-// Added by Hervé
-define("_AMS_NW_ATTACHEDFILES","Do³±czone pliki:");
+// Added by HervÃ©
+define("_AMS_NW_ATTACHEDFILES","DoÂ³Â±czone pliki:");
 
-define("_AMS_NW_MAJOR", "Najistotniejsze zmiany?");
-define("_AMS_NW_STORYID", "ID Artyku³u");
-define("_AMS_NW_VERSION", "Wersja");
-define("_AMS_NW_SETVERSION", "Wybierz aktualn± wersjê");
-define("_AMS_NW_VERSIONUPDATED", "Aktualna wersja ustawiona na %s");
-define("_AMS_NW_OVERRIDE", "Przekroczenie");
-define("_AMS_NW_FINDVERSION", "Znajd¼ wersjê");
-define("_AMS_NW_REVISION", "Korekta");
-define("_AMS_NW_MINOR", "Mniejsza korekta");
-define("_AMS_NW_VERSIONDESC", "Wybierz poziom zmiany - Je¶li tego nie okre¶lisz, tekst nie zostanie zaktualizowany!");
-define("_AMS_NW_NOVERSIONCHANGE", "Nie nast±pi³a zmiana wersji");
+define("_AMS_NW_MAJOR","Najistotniejsze zmiany?");
+define("_AMS_NW_STORYID","ID ArtykuÂ³u");
+define("_AMS_NW_VERSION","Wersja");
+define("_AMS_NW_SETVERSION","Wybierz aktualnÂ± wersjÃª");
+define("_AMS_NW_VERSIONUPDATED","Aktualna wersja ustawiona na %s");
+define("_AMS_NW_OVERRIDE","Przekroczenie");
+define("_AMS_NW_FINDVERSION","ZnajdÂ¼ wersjÃª");
+define("_AMS_NW_REVISION","Korekta");
+define("_AMS_NW_MINOR","Mniejsza korekta");
+define("_AMS_NW_VERSIONDESC","Wybierz poziom zmiany - JeÂ¶li tego nie okreÂ¶lisz, tekst nie zostanie zaktualizowany!");
+define("_AMS_NW_NOVERSIONCHANGE","Nie nastÂ±piÂ³a zmiana wersji");
 
-define("_AMS_NW_RATEARTICLE", "Oceñ ten artyku³");
-define("_AMS_NW_RATE", "Oceñ artyku³");
-define("_AMS_NW_SUBMITRATING", "Potwierd¼ ocenê");
-define("_AMS_NW_RATING_SUCCESSFUL", "Oceniono artyku³");
-define("_AMS_NW_PUBLISHED_DATE", "Data publikacji: ");
-define("_AMS_NW_POSTEDBY", "Autor");
-define("_AMS_NW_READS", "Przeczytano");
-define("_AMS_NW_AUDIENCE", "Czytelnicy");
-define('_AMS_NW_SWITCHAUTHOR', "Zaktualizowaæ autora?");
+define("_AMS_NW_RATEARTICLE","OceÃ± ten artykuÂ³");
+define("_AMS_NW_RATE","OceÃ± artykuÂ³");
+define("_AMS_NW_SUBMITRATING","PotwierdÂ¼ ocenÃª");
+define("_AMS_NW_RATING_SUCCESSFUL","Oceniono artykuÂ³");
+define("_AMS_NW_PUBLISHED_DATE","Data publikacji: ");
+define("_AMS_NW_POSTEDBY","Autor");
+define("_AMS_NW_READS","Przeczytano");
+define("_AMS_NW_AUDIENCE","Czytelnicy");
+define('_AMS_NW_SWITCHAUTHOR',"ZaktualizowaÃ¦ autora?");
 
 //Warnings
-define("_AMS_NW_VERSIONSEXIST", "Istniej± %s wersje z wy¿sz± wersj± i <strong>zostan±</strong> nadpisane BEZ mo¿liwo¶ci odtworzenia:");
-define("_AMS_NW_AREYOUSUREOVERRIDE", "Czy napewno chcesz zamieniæ te wersje");
-define("_AMS_NW_CONFLICTWHAT2DO", "An article with the calculated version number exists<br />What do You want to do?<br />Override: This version is saved with the calculated version number and all higher versions in the same version group (xx.xx.xx) will be deleted<br />Find Version: Let the system find the next available version in the same version group");
-define("_AMS_NW_VERSIONCONFLICT", "Konflikt wersji");
-define("_AMS_NW_TRYINGTOSAVE", "Próba zapisu ");
+define("_AMS_NW_VERSIONSEXIST","IstniejÂ± %s wersje z wyÂ¿szÂ± wersjÂ± i <strong>zostanÂ±</strong> nadpisane BEZ moÂ¿liwoÂ¶ci odtworzenia:");
+define("_AMS_NW_AREYOUSUREOVERRIDE","Czy napewno chcesz zamieniÃ¦ te wersje");
+define("_AMS_NW_CONFLICTWHAT2DO","An article with the calculated version number exists<br />What do You want to do?<br />Override: This version is saved with the calculated version number and all higher versions in the same version group (xx.xx.xx) will be deleted<br />Find Version: Let the system find the next available version in the same version group");
+define("_AMS_NW_VERSIONCONFLICT","Konflikt wersji");
+define("_AMS_NW_TRYINGTOSAVE","PrÃ³ba zapisu ");
 
 //Error messages
-define("_AMS_NW_ERROR", "Wyst±pi³ b³±d!");
-define("_AMS_NW_RATING_FAILED", "Ocenianie nie powiod³o siê");
-define("_AMS_NW_SAVEFAILED", "B³±d podczas zapisywania artyku³u");
-define("_AMS_NW_TEXTSAVEFAILED", "Nie mo¿na zapisaæ tekstu artyku³u");
-define("_AMS_NW_VERSIONUPDATEFAILED", "Nie mo¿na zaktualizowaæ wersji");
-define("_AMS_NW_COULDNOTRESET", "Nie mo¿na wyczy¶ciæ wersji");
-define("_AMS_NW_COULDNOTUPDATEVERSION", "Nie mo¿na zmieniæ do obecnej wersji");
+define("_AMS_NW_ERROR","WystÂ±piÂ³ bÂ³Â±d!");
+define("_AMS_NW_RATING_FAILED","Ocenianie nie powiodÂ³o siÃª");
+define("_AMS_NW_SAVEFAILED","BÂ³Â±d podczas zapisywania artykuÂ³u");
+define("_AMS_NW_TEXTSAVEFAILED","Nie moÂ¿na zapisaÃ¦ tekstu artykuÂ³u");
+define("_AMS_NW_VERSIONUPDATEFAILED","Nie moÂ¿na zaktualizowaÃ¦ wersji");
+define("_AMS_NW_COULDNOTRESET","Nie moÂ¿na wyczyÂ¶ciÃ¦ wersji");
+define("_AMS_NW_COULDNOTUPDATEVERSION","Nie moÂ¿na zmieniÃ¦ do obecnej wersji");
 
-define("_AMS_NW_COULDNOTSAVERATING", "Nie mo¿na zapisaæ oceny");
-define("_AMS_NW_COULDNOTUPDATERATING", "Nie mo¿na zaktualizowaæ oceny artyku³u");
+define("_AMS_NW_COULDNOTSAVERATING","Nie moÂ¿na zapisaÃ¦ oceny");
+define("_AMS_NW_COULDNOTUPDATERATING","Nie moÂ¿na zaktualizowaÃ¦ oceny artykuÂ³u");
 
-define("_AMS_NW_COULDNOTADDLINK", "Nie mo¿na powi±zaæ linku z tym artyku³em");
-define("_AMS_NW_COULDNOTDELLINK", "B³±d - Nie usuniêto linka");
+define("_AMS_NW_COULDNOTADDLINK","Nie moÂ¿na powiÂ±zaÃ¦ linku z tym artykuÂ³em");
+define("_AMS_NW_COULDNOTDELLINK","BÂ³Â±d - Nie usuniÃªto linka");
 
-define("_AMS_NW_CANNOTVOTESELF", "Autor nie mo¿e oceniaæ artyku³u");
-define("_AMS_NW_ANONYMOUSVOTEDISABLED", "Ocenianie przez niezarejestrowanych u¿ytkowników wy³±czone");
-define("_AMS_NW_ANONYMOUSHASVOTED", "Kto¶ z tego IP ju¿ oceni³ ten artyku³");
-define("_AMS_NW_USERHASVOTED", "Ju¿ oceni³e¶ ten artyku³");
+define("_AMS_NW_CANNOTVOTESELF","Autor nie moÂ¿e oceniaÃ¦ artykuÂ³u");
+define("_AMS_NW_ANONYMOUSVOTEDISABLED","Ocenianie przez niezarejestrowanych uÂ¿ytkownikÃ³w wyÂ³Â±czone");
+define("_AMS_NW_ANONYMOUSHASVOTED","KtoÂ¶ z tego IP juÂ¿ oceniÂ³ ten artykuÂ³");
+define("_AMS_NW_USERHASVOTED","JuÂ¿ oceniÂ³eÂ¶ ten artykuÂ³");
 
-define("_AMS_NW_NOTALLOWEDAUDIENCE", "Nie mo¿esz czytaæ artyku³ów %s poziomu");
-define("_AMS_NW_NOERRORSENCOUNTERED", "Nie wyliczono ¿adnych b³êdów");
+define("_AMS_NW_NOTALLOWEDAUDIENCE","Nie moÂ¿esz czytaÃ¦ artykuÂ³Ã³w %s poziomu");
+define("_AMS_NW_NOERRORSENCOUNTERED","Nie wyliczono Â¿adnych bÂ³ÃªdÃ³w");
 
 //Additional constants
-define("_AMS_NW_USERNAME", "U¿ytkownik");
-define("_AMS_NW_ADDLINK", "Dodaj Link(i)");
-define("_AMS_NW_DELLINK", "Usuñ Link(i)");
-define("_AMS_NW_RELATEDARTICLES", "Zalecone odczytywanie");
-define("_AMS_NW_SEARCHRESULTS", "Wyniki Szukania:");
-define("_AMS_NW_MANAGELINK", "Linki");
-define("_AMS_NW_DELVERSIONS", "Usuñ wersje poni¿ej tej wersji");
-define("_AMS_NW_DELALLVERSIONS", "Usuñ wszystkie wersje na równi z t± wersj±");
-define("_AMS_NW_SUBMIT", "Zatwierd¼");
-define("_AMS_NW_RUSUREDELVERSIONS", "Czy na pewno chcesz usun±æ wszystkie wersje bêd±ce Poza Zasiêgiem Odtworzenia!!! poni¿ej tej wersji?");
-define("_AMS_NW_RUSUREDELALLVERSIONS", "Czy na pewno chcesz usun±æ wszystkie wersje bêd±ce Poza Zasiêgiem Odtworzenia!!! na równi z t± wersj±?");
-define("_AMS_NW_EXTERNALLINK", "Linki zewnêtrzne");
-define("_AMS_NW_ADDEXTERNALLINK", "Dodaj zewnêtrzny link");
-define("_AMS_NW_PREREQUISITEARTICLES", "Warunek wstêpny czytania");
-define("_AMS_NW_LINKTYPE", "Typ Linku");
-define("_AMS_NW_SETTITLE", "Ustaw tytu³ Linku");
-define("_AMS_NW_BANNER", "Banner/Sponsor");
+define("_AMS_NW_USERNAME","UÂ¿ytkownik");
+define("_AMS_NW_ADDLINK","Dodaj Link(i)");
+define("_AMS_NW_DELLINK","UsuÃ± Link(i)");
+define("_AMS_NW_RELATEDARTICLES","Zalecone odczytywanie");
+define("_AMS_NW_SEARCHRESULTS","Wyniki Szukania:");
+define("_AMS_NW_MANAGELINK","Linki");
+define("_AMS_NW_DELVERSIONS","UsuÃ± wersje poniÂ¿ej tej wersji");
+define("_AMS_NW_DELALLVERSIONS","UsuÃ± wszystkie wersje na rÃ³wni z tÂ± wersjÂ±");
+define("_AMS_NW_SUBMIT","ZatwierdÂ¼");
+define("_AMS_NW_RUSUREDELVERSIONS","Czy na pewno chcesz usunÂ±Ã¦ wszystkie wersje bÃªdÂ±ce Poza ZasiÃªgiem Odtworzenia!!! poniÂ¿ej tej wersji?");
+define("_AMS_NW_RUSUREDELALLVERSIONS","Czy na pewno chcesz usunÂ±Ã¦ wszystkie wersje bÃªdÂ±ce Poza ZasiÃªgiem Odtworzenia!!! na rÃ³wni z tÂ± wersjÂ±?");
+define("_AMS_NW_EXTERNALLINK","Linki zewnÃªtrzne");
+define("_AMS_NW_ADDEXTERNALLINK","Dodaj zewnÃªtrzny link");
+define("_AMS_NW_PREREQUISITEARTICLES","Warunek wstÃªpny czytania");
+define("_AMS_NW_LINKTYPE","Typ Linku");
+define("_AMS_NW_SETTITLE","Ustaw tytuÂ³ Linku");
+define("_AMS_NW_BANNER","Banner/Sponsor");
 
-define("_AMS_NW_NOTOPICS", "Nie ma tematu - proszê utworzyæ temat i nadaæ dla niego odpowiednie prawa dostêpu");
+define("_AMS_NW_NOTOPICS","Nie ma tematu - proszÃª utworzyÃ¦ temat i nadaÃ¦ dla niego odpowiednie prawa dostÃªpu");
 
-define("_AMS_NW_TOTALARTICLES", "Wszystkich artyku³ów");
+define("_AMS_NW_TOTALARTICLES","Wszystkich artykuÂ³Ã³w");
 
-define("_AMS_MA_INDEX", "Spis");
-define("_AMS_MA_SUBTOPICS", "Podtemat dla ");
-define("_AMS_MA_PAGEBREAK", "NASTÊPNA STRONA");
+define("_AMS_MA_INDEX","Spis");
+define("_AMS_MA_SUBTOPICS","Podtemat dla ");
+define("_AMS_MA_PAGEBREAK","NASTÃŠPNA STRONA");
 ?>

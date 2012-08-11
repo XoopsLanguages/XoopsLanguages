@@ -36,7 +36,7 @@ define("_AM_CONTACT_ABOUT_WEBSITE",                  "Website: ");
 define("_AM_CONTACT_ABOUT_AUTHOR_NAME",              "Naam Auteur: ");
 define("_AM_CONTACT_ABOUT_CHANGELOG",                "Wijzigingshistorie");
 define("_AM_CONTACT_ABOUT_MODULE_INFO",              "Module Info");
-define("_AM_CONTACT_ABOUT_AUTHOR_INFO",              "Auteur Info");
+define("_AM_CONTACT_ABOUT_AUTHOR_INFO",              "Auteur Infos");
 define("_AM_CONTACT_ABOUT_DESCRIPTION",          "Omschrijving: ");
 
 // index.php

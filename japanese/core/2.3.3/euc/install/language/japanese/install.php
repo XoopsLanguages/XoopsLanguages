@@ -13,149 +13,149 @@
  * @version     $Id: install.php 2008-07-29 05:43+0900 2 8 6 $
  */
 
-define( "SHOW_HIDE_HELP", "¥Ø¥ë¥×¤òÉ½¼¨/±£¤¹" );
+define("SHOW_HIDE_HELP","ï¿½Ø¥ï¿½×¤ï¿½É½ï¿½ï¿½/ï¿½ï¿½ï¿½ï¿½" );
 
 // Configuration check page
-define( "SERVER_API", "Server API" );
-define( "PHP_EXTENSION", "%s ¥¨¥¯¥¹¥Æ¥ó¥·¥ç¥ó" );
-define( "CHAR_ENCODING", "Ê¸»ú¥»¥Ã¥È¥¨¥ó¥³¡¼¥É" );
-define( "XML_PARSING", "XML parsing" );
-define( "REQUIREMENTS", "Í×·ï" );
-define( "_PHP_VERSION", "PHP ¥Ð¡¼¥¸¥ç¥ó" );
-define( "RECOMMENDED_SETTINGS", "¿ä¾©ÀßÄê" );
-define( "RECOMMENDED_EXTENSIONS", "¿ä¾©¥¨¥¯¥¹¥Æ¥ó¥·¥ç¥ó" );
-define( "SETTING_NAME", "ÀßÄêÌ¾" );
-define( "RECOMMENDED", "¿ä¾©" );
-define( "CURRENT", "Current" );
-define( "RECOMMENDED_EXTENSIONS_MSG", "¤³¤ì¤é¤Î¥¨¥¯¥¹¥Æ¥ó¥·¥ç¥ó¤ÏÄÌ¾ï¤ÏÉÔÍ×¤Ç¤¹¤¬¡¢¤¤¤¯¤Ä¤«¤ÎÆÃÄ§Åª¤ÊÍøÍÑÊýË¡¡ÊÂ¿¸À¸ì¡¢RSS¥µ¥Ý¡¼¥È¡Ë¤ò³èÍÑ¤¹¤ë¾ì¹ç¤Ë¤ÏÉ¬Í×¤Ç¤¹¡£" );
-define( "NONE", "¤Ê¤·" );
-define( "SUCCESS", "À®¸ù" );
-define( "WARNING", "·Ù¹ð" );
-define( "FAILED", "¼ºÇÔ" );
+define("SERVER_API","Server API" );
+define("PHP_EXTENSION","%s ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ¥ó¥·¥ï¿½ï¿½" );
+define("CHAR_ENCODING","Ê¸ï¿½ï¿½ï¿½ï¿½ï¿½Ã¥È¥ï¿½ï¿½ó¥³¡ï¿½ï¿½ï¿½" );
+define("XML_PARSING","XML parsing" );
+define("REQUIREMENTS","ï¿½×·ï¿½" );
+define("_PHP_VERSION","PHP ï¿½Ð¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½" );
+define("RECOMMENDED_SETTINGS","ï¿½ä¾©ï¿½ï¿½ï¿½ï¿½" );
+define("RECOMMENDED_EXTENSIONS","ï¿½ä¾©ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ¥ó¥·¥ï¿½ï¿½" );
+define("SETTING_NAME","ï¿½ï¿½ï¿½ï¿½Ì¾" );
+define("RECOMMENDED","ï¿½ä¾©" );
+define("CURRENT","Current" );
+define("RECOMMENDED_EXTENSIONS_MSG","ï¿½ï¿½ï¿½ï¿½ï¿½Î¥ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ¥ó¥·¥ï¿½ï¿½ï¿½ï¿½Ì¾ï¿½ï¿½ï¿½ï¿½ï¿½×¤Ç¤ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¤ï¿½ï¿½ï¿½ï¿½ï¿½Ä§Åªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ë¡ï¿½ï¿½Â¿ï¿½ï¿½ï¿½ì¡¢RSSï¿½ï¿½ï¿½Ý¡ï¿½ï¿½È¡Ë¤ï¿½ï¿½ï¿½Ñ¤ï¿½ï¿½ï¿½ï¿½ï¿½Ë¤ï¿½É¬ï¿½×¤Ç¤ï¿½ï¿½ï¿½" );
+define("NONE","ï¿½Ê¤ï¿½" );
+define("SUCCESS","ï¿½ï¿½ï¿½ï¿½" );
+define("WARNING","ï¿½Ù¹ï¿½" );
+define("FAILED","ï¿½ï¿½ï¿½ï¿½" );
 
 
 
 // Titles (main and pages)
-define( "XOOPS_INSTALL_WIZARD", "XOOPS ¥¤¥ó¥¹¥È¡¼¥ë¥¦¥£¥¶¡¼¥É" );
+define("XOOPS_INSTALL_WIZARD","XOOPS ï¿½ï¿½ï¿½ó¥¹¥È¡ï¿½ï¿½ë¥¦ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½" );
 
-define( "LANGUAGE_SELECTION", "¸À¸ìÁªÂò" );
-define( "LANGUAGE_SELECTION_TITLE", "¥¤¥ó¥¹¥È¡¼¥ëºî¶È¤Ë»ÈÍÑ¤¹¤ë¸À¸ì¤òÁªÂò¤·¤Æ¤¯¤À¤µ¤¤");		// L128
-define( "INTRODUCTION", "¥¤¥ó¥È¥í¥À¥¯¥·¥ç¥ó" );
-define( "INTRODUCTION_TITLE", "XOOPS ¥¤¥ó¥¹¥È¡¼¥ë¥¦¥£¥¶¡¼¥É¤Ø¤è¤¦¤³¤½" );		// L0
-define( "CONFIGURATION_CHECK", "¹½À®¥Á¥§¥Ã¥¯" );
-define( "CONFIGURATION_CHECK_TITLE", "¥µ¡¼¥Ð´Ä¶­¤Î¥Á¥§¥Ã¥¯" );
-define( "PATHS_SETTINGS", "¥Ñ¥¹¤ÎÀßÄê" );
-define( "PATHS_SETTINGS_TITLE", "¥Ñ¥¹¤ÎÀßÄê" );
-define( "DATABASE_CONNECTION", "¥Ç¡¼¥¿¥Ù¡¼¥¹ connection" );
-define( "DATABASE_CONNECTION_TITLE", "Database connection" );
-define( "DATABASE_CONFIG", "¥Ç¡¼¥¿¥Ù¡¼¥¹¹½À®" );
-define( "DATABASE_CONFIG_TITLE", "¥Ç¡¼¥¿¥Ù¡¼¥¹¹½À®" );
-define( "CONFIG_SAVE", "¹½À®ÊÝÂ¸" );
-define( "CONFIG_SAVE_TITLE", "¥·¥¹¥Æ¥à¹½À®¤òÊÝÂ¸¤·¤Þ¤¹¡£" );
-define( "TABLES_CREATION", "¥Æ¡¼¥Ö¥ëºîÀ®" );
-define( "TABLES_CREATION_TITLE", "¥Ç¡¼¥¿¥Ù¡¼¥¹¤Î¥Æ¡¼¥Ö¥ëºîÀ®" );
-define( "INITIAL_SETTINGS", "½é´üÀßÄê" );
-define( "INITIAL_SETTINGS_TITLE", "Please enter your initial settings" );
-define( "DATA_INSERTION", "¥Ç¡¼¥¿ÁÞÆþ" );
-define( "DATA_INSERTION_TITLE", "Saving your settings to the database" );
-define( "WELCOME", "¤è¤¦¤³¤½" );
-define( "WELCOME_TITLE", "XOOPS ¥¤¥ó¥¹¥È¡¼¥ë¤¬´°Î»¤·¤Þ¤·¤¿" );
+define("LANGUAGE_SELECTION","ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½" );
+define("LANGUAGE_SELECTION_TITLE","ï¿½ï¿½ï¿½ó¥¹¥È¡ï¿½ï¿½ï¿½ï¿½È¤Ë»ï¿½ï¿½Ñ¤ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ò¤·¤Æ¤ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");		// L128
+define("INTRODUCTION","ï¿½ï¿½ï¿½ï¿½È¥ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½" );
+define("INTRODUCTION_TITLE","XOOPS ï¿½ï¿½ï¿½ó¥¹¥È¡ï¿½ï¿½ë¥¦ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É¤Ø¤è¤¦ï¿½ï¿½ï¿½ï¿½" );		// L0
+define("CONFIGURATION_CHECK","ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ã¥ï¿½" );
+define("CONFIGURATION_CHECK_TITLE","ï¿½ï¿½ï¿½ï¿½ï¿½Ð´Ä¶ï¿½ï¿½Î¥ï¿½ï¿½ï¿½ï¿½Ã¥ï¿½" );
+define("PATHS_SETTINGS","ï¿½Ñ¥ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½" );
+define("PATHS_SETTINGS_TITLE","ï¿½Ñ¥ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½" );
+define("DATABASE_CONNECTION","ï¿½Ç¡ï¿½ï¿½ï¿½ï¿½Ù¡ï¿½ï¿½ï¿½ connection" );
+define("DATABASE_CONNECTION_TITLE","Database connection" );
+define("DATABASE_CONFIG","ï¿½Ç¡ï¿½ï¿½ï¿½ï¿½Ù¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½" );
+define("DATABASE_CONFIG_TITLE","ï¿½Ç¡ï¿½ï¿½ï¿½ï¿½Ù¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½" );
+define("CONFIG_SAVE","ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â¸" );
+define("CONFIG_SAVE_TITLE","ï¿½ï¿½ï¿½ï¿½ï¿½Æ¥à¹½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â¸ï¿½ï¿½ï¿½Þ¤ï¿½ï¿½ï¿½" );
+define("TABLES_CREATION","ï¿½Æ¡ï¿½ï¿½Ö¥ï¿½ï¿½ï¿½ï¿½" );
+define("TABLES_CREATION_TITLE","ï¿½Ç¡ï¿½ï¿½ï¿½ï¿½Ù¡ï¿½ï¿½ï¿½ï¿½Î¥Æ¡ï¿½ï¿½Ö¥ï¿½ï¿½ï¿½ï¿½" );
+define("INITIAL_SETTINGS","ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½" );
+define("INITIAL_SETTINGS_TITLE","Please enter your initial settings" );
+define("DATA_INSERTION","ï¿½Ç¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½" );
+define("DATA_INSERTION_TITLE","Saving your settings to the database" );
+define("WELCOME","ï¿½è¤¦ï¿½ï¿½ï¿½ï¿½" );
+define("WELCOME_TITLE","XOOPS ï¿½ï¿½ï¿½ó¥¹¥È¡ï¿½ï¿½ë¤¬ï¿½ï¿½Î»ï¿½ï¿½ï¿½Þ¤ï¿½ï¿½ï¿½" );
 
 
 // Settings (labels and help text)
-define( "XOOPS_PATHS", "XOOPS Physical paths" );
-define( "XOOPS_URLS", "Web locations" );
+define("XOOPS_PATHS","XOOPS Physical paths" );
+define("XOOPS_URLS","Web locations" );
 
-define( "XOOPS_ROOT_PATH_LABEL", "XOOPS documents root physical path" );
-define( "XOOPS_ROOT_PATH_HELP", "Physical path to the XOOPS documents (served) directory WITHOUT trailing slash" );
+define("XOOPS_ROOT_PATH_LABEL","XOOPS documents root physical path" );
+define("XOOPS_ROOT_PATH_HELP","Physical path to the XOOPS documents (served) directory WITHOUT trailing slash" );
 
-define( "XOOPS_LIB_PATH_LABEL", "XOOPS library directory" );
-define( "XOOPS_LIB_PATH_HELP", "Physical path to the XOOPS library directory WITHOUT trailing slash, for forward compatibility. Locate the folder out of " . XOOPS_ROOT_PATH_LABEL . " to make it secure.");
-define( "XOOPS_DATA_PATH_LABEL", "XOOPS datafiles directory" );
-define( "XOOPS_DATA_PATH_HELP", "Physical path to the XOOPS datafiles (writable) directory WITHOUT trailing slash, for forward compatibility. Locate the folder out of " . XOOPS_ROOT_PATH_LABEL . " to make it secure." );
+define("XOOPS_LIB_PATH_LABEL","XOOPS library directory" );
+define("XOOPS_LIB_PATH_HELP","Physical path to the XOOPS library directory WITHOUT trailing slash, for forward compatibility. Locate the folder out of " . XOOPS_ROOT_PATH_LABEL . " to make it secure.");
+define("XOOPS_DATA_PATH_LABEL","XOOPS datafiles directory" );
+define("XOOPS_DATA_PATH_HELP","Physical path to the XOOPS datafiles (writable) directory WITHOUT trailing slash, for forward compatibility. Locate the folder out of " . XOOPS_ROOT_PATH_LABEL . " to make it secure." );
 
-define( "XOOPS_URL_LABEL", "XOOPS¤Ø¤ÎURL" ); // L56
-define( "XOOPS_URL_HELP", "XOOPS ¤Ë¥¢¥¯¥»¥¹¤¹¤ëURL¤òÆþÎÏ¤·¤Æ¤¯¤À¤µ¤¤¡£<br />¡¡ËöÈø¤Ë¤Ï¡Ö/¡×¤òÉÕ²Ã¤·¤Ê¤¤¤Ç¤¯¤À¤µ¤¤¡£" ); // L58
+define("XOOPS_URL_LABEL","XOOPSï¿½Ø¤ï¿½URL" ); // L56
+define("XOOPS_URL_HELP","XOOPS ï¿½Ë¥ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½URLï¿½ï¿½ï¿½ï¿½ï¿½Ï¤ï¿½ï¿½Æ¤ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½<br />ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ë¤Ï¡ï¿½/ï¿½×¤ï¿½ï¿½Õ²Ã¤ï¿½ï¿½Ê¤ï¿½ï¿½Ç¤ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½" ); // L58
 
-define( "LEGEND_CONNECTION", "Server connection" );
-define( "LEGEND_DATABASE", "¥Ç¡¼¥¿¥Ù¡¼¥¹" ); // L51
+define("LEGEND_CONNECTION","Server connection" );
+define("LEGEND_DATABASE","ï¿½Ç¡ï¿½ï¿½ï¿½ï¿½Ù¡ï¿½ï¿½ï¿½" ); // L51
 
-define( "DB_HOST_LABEL", "¥Ç¡¼¥¿¥Ù¡¼¥¹¥µ¡¼¥Ð¤Î¥Û¥¹¥ÈÌ¾" );	// L27
-define( "DB_HOST_HELP",  "¡¡»ÈÍÑ¤¹¤ë¥Ç¡¼¥¿¥Ù¡¼¥¹¥µ¡¼¥Ð¤Î¥Û¥¹¥ÈÌ¾¤òÆþÎÏ¤·¤Æ¤¯¤À¤µ¤¤¡£<br />¡¡¤è¤¯Ê¬¤«¤é¤Ê¤¤¾ì¹ç¤Ï¡¢¡Ö<em>localhost</em>¡×¤È¤·¤Æ¡¢¤Û¤ÜÌäÂê¤Ï¤¢¤ê¤Þ¤»¤ó¡£"); // L67
-define( "DB_USER_LABEL", "¥Ç¡¼¥¿¥Ù¡¼¥¹¥æ¡¼¥¶Ì¾" );	// L28
-define( "DB_USER_HELP",  "¡¡¥Ç¡¼¥¿¥Ù¡¼¥¹¥µ¡¼¥Ð¤Ë¤ª¤±¤ë¥æ¡¼¥¶¥¢¥«¥¦¥ó¥ÈÌ¾¤òÆþÎÏ¤·¤Æ¤¯¤À¤µ¤¤¡£"); // L65
-define( "DB_PASS_LABEL", "¥Ç¡¼¥¿¥Ù¡¼¥¹¥Ñ¥¹¥ï¡¼¥É" );	// L52
-define( "DB_PASS_HELP",  "¡¡¥æ¡¼¥¶¥¢¥«¥¦¥ó¥È¤Î¥Ñ¥¹¥ï¡¼¥É¤òÆþÎÏ¤·¤Æ¤¯¤À¤µ¤¤¡£"); // L68
-define( "DB_NAME_LABEL", "¥Ç¡¼¥¿¥Ù¡¼¥¹Ì¾" );	// L29
-define( "DB_NAME_HELP",  "¡¡»ÈÍÑ¤¹¤ë¥Ç¡¼¥¿¥Ù¡¼¥¹Ì¾¤òÆþÎÏ¤·¤Æ¤¯¤À¤µ¤¤¡£<br />¡¡¸«¤Ä¤«¤é¤Ê¤¤¾ì¹ç¤Ï¡¢¤³¤ÎÌ¾¾Î¤Ç¥Ç¡¼¥¿¥Ù¡¼¥¹¤ÎºîÀ®¤ò»î¤ß¤Þ¤¹¡£"); // L64
-define( "DB_CHARSET_LABEL", "Database character set" );
-define( "DB_CHARSET_HELP",  "MySQL includes character set support that enables you to store data using a variety of character sets and perform comparisons according to a variety of collations.");
-define( "DB_COLLATION_LABEL", "Database collation" );
-define( "DB_COLLATION_HELP",  "A collation is a set of rules for comparing characters in a character set.");
-define( "DB_PREFIX_LABEL", "Table prefix" );    // L30
-define( "DB_PREFIX_HELP",  "This prefix will be added to all new tables created to avoid name conflicts in the database. If you are unsure, just keep the default"); // L63
-define( "DB_PCONNECT_LABEL", "¥Ç¡¼¥¿¥Ù¡¼¥¹¤Ø»ýÂ³ÅªÀÜÂ³" );	// L54
-define( "DB_PCONNECT_HELP",  "¡¡¥Ç¥Õ¥©¥ë¥È¤Ï¡Ö¤¤¤¤¤¨¡×¤Ç¤¹¡£¤è¤¯Ê¬¤«¤é¤Ê¤¤¾ì¹ç¤Ï¡Ö¤¤¤¤¤¨¡×¤òÁªÂò¤·¤Æ¤¯¤À¤µ¤¤¡£"); // L69
+define("DB_HOST_LABEL","ï¿½Ç¡ï¿½ï¿½ï¿½ï¿½Ù¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð¤Î¥Û¥ï¿½ï¿½ï¿½Ì¾" );	// L27
+define("DB_HOST_HELP",  "ï¿½ï¿½ï¿½ï¿½ï¿½Ñ¤ï¿½ï¿½ï¿½Ç¡ï¿½ï¿½ï¿½ï¿½Ù¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð¤Î¥Û¥ï¿½ï¿½ï¿½Ì¾ï¿½ï¿½ï¿½ï¿½ï¿½Ï¤ï¿½ï¿½Æ¤ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½<br />ï¿½ï¿½ï¿½è¤¯Ê¬ï¿½ï¿½ï¿½ï¿½Ê¤ï¿½ï¿½ï¿½ï¿½Ï¡ï¿½ï¿½ï¿½<em>localhost</em>ï¿½×¤È¤ï¿½ï¿½Æ¡ï¿½ï¿½Û¤ï¿½ï¿½ï¿½ï¿½ï¿½Ï¤ï¿½ï¿½ï¿½Þ¤ï¿½ï¿½ï¿½"); // L67
+define("DB_USER_LABEL","ï¿½Ç¡ï¿½ï¿½ï¿½ï¿½Ù¡ï¿½ï¿½ï¿½ï¿½æ¡¼ï¿½ï¿½Ì¾" );	// L28
+define("DB_USER_HELP",  "ï¿½ï¿½ï¿½Ç¡ï¿½ï¿½ï¿½ï¿½Ù¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð¤Ë¤ï¿½ï¿½ï¿½ï¿½ï¿½æ¡¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì¾ï¿½ï¿½ï¿½ï¿½ï¿½Ï¤ï¿½ï¿½Æ¤ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"); // L65
+define("DB_PASS_LABEL","ï¿½Ç¡ï¿½ï¿½ï¿½ï¿½Ù¡ï¿½ï¿½ï¿½ï¿½Ñ¥ï¿½ï¿½ï¡¼ï¿½ï¿½" );	// L52
+define("DB_PASS_HELP",  "ï¿½ï¿½ï¿½æ¡¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È¤Î¥Ñ¥ï¿½ï¿½ï¡¼ï¿½É¤ï¿½ï¿½ï¿½ï¿½Ï¤ï¿½ï¿½Æ¤ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"); // L68
+define("DB_NAME_LABEL","ï¿½Ç¡ï¿½ï¿½ï¿½ï¿½Ù¡ï¿½ï¿½ï¿½Ì¾" );	// L29
+define("DB_NAME_HELP",  "ï¿½ï¿½ï¿½ï¿½ï¿½Ñ¤ï¿½ï¿½ï¿½Ç¡ï¿½ï¿½ï¿½ï¿½Ù¡ï¿½ï¿½ï¿½Ì¾ï¿½ï¿½ï¿½ï¿½ï¿½Ï¤ï¿½ï¿½Æ¤ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½<br />ï¿½ï¿½ï¿½ï¿½ï¿½Ä¤ï¿½ï¿½ï¿½Ê¤ï¿½ï¿½ï¿½ï¿½Ï¡ï¿½ï¿½ï¿½ï¿½ï¿½Ì¾ï¿½Î¤Ç¥Ç¡ï¿½ï¿½ï¿½ï¿½Ù¡ï¿½ï¿½ï¿½ï¿½Îºï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ß¤Þ¤ï¿½ï¿½ï¿½"); // L64
+define("DB_CHARSET_LABEL","Database character set" );
+define("DB_CHARSET_HELP",  "MySQL includes character set support that enables you to store data using a variety of character sets and perform comparisons according to a variety of collations.");
+define("DB_COLLATION_LABEL","Database collation" );
+define("DB_COLLATION_HELP",  "A collation is a set of rules for comparing characters in a character set.");
+define("DB_PREFIX_LABEL","Table prefix" );    // L30
+define("DB_PREFIX_HELP",  "This prefix will be added to all new tables created to avoid name conflicts in the database. If you are unsure, just keep the default"); // L63
+define("DB_PCONNECT_LABEL","ï¿½Ç¡ï¿½ï¿½ï¿½ï¿½Ù¡ï¿½ï¿½ï¿½ï¿½Ø»ï¿½Â³Åªï¿½ï¿½Â³" );	// L54
+define("DB_PCONNECT_HELP",  "ï¿½ï¿½ï¿½Ç¥Õ¥ï¿½ï¿½ï¿½È¤Ï¡Ö¤ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½×¤Ç¤ï¿½ï¿½ï¿½ï¿½è¤¯Ê¬ï¿½ï¿½ï¿½ï¿½Ê¤ï¿½ï¿½ï¿½ï¿½Ï¡Ö¤ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½×¤ï¿½ï¿½ï¿½ï¿½ò¤·¤Æ¤ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"); // L69
 
-define( "LEGEND_ADMIN_ACCOUNT", "¥µ¥¤¥È´ÉÍý¼Ô¤Î¥æ¡¼¥¶¡¼Ì¾¡¢´ÉÍý¼Ô¥Ñ¥¹¥ï¡¼¥É¡¢¤ª¤è¤Ó¥á¡¼¥ë¥¢¥É¥ì¥¹¤òÆþÎÏ¤·¤Æ¤¯¤À¤µ¤¤¡£" );
-define( "ADMIN_LOGIN_LABEL", "´ÉÍý¼Ô¥æ¡¼¥¶Ì¾" ); // L37
-define( "ADMIN_EMAIL_LABEL", "´ÉÍý¼Ô¥á¡¼¥ë¥¢¥É¥ì¥¹" ); // L38
-define( "ADMIN_PASS_LABEL", "´ÉÍý¼Ô¥Ñ¥¹¥ï¡¼¥É" ); // L39
-define( "ADMIN_CONFIRMPASS_LABEL", "´ÉÍý¼Ô¥Ñ¥¹¥ï¡¼¥É(ºÆÆþÎÏ)" ); // L74
+define("LEGEND_ADMIN_ACCOUNT","ï¿½ï¿½ï¿½ï¿½ï¿½È´ï¿½ï¿½ï¿½ï¿½Ô¤Î¥æ¡¼ï¿½ï¿½ï¿½ï¿½Ì¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô¥Ñ¥ï¿½ï¿½ï¡¼ï¿½É¡ï¿½ï¿½ï¿½ï¿½ï¿½Ó¥á¡¼ï¿½ë¥¢ï¿½É¥ì¥¹ï¿½ï¿½ï¿½ï¿½ï¿½Ï¤ï¿½ï¿½Æ¤ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½" );
+define("ADMIN_LOGIN_LABEL","ï¿½ï¿½ï¿½ï¿½ï¿½Ô¥æ¡¼ï¿½ï¿½Ì¾" ); // L37
+define("ADMIN_EMAIL_LABEL","ï¿½ï¿½ï¿½ï¿½ï¿½Ô¥á¡¼ï¿½ë¥¢ï¿½É¥ì¥¹" ); // L38
+define("ADMIN_PASS_LABEL","ï¿½ï¿½ï¿½ï¿½ï¿½Ô¥Ñ¥ï¿½ï¿½ï¡¼ï¿½ï¿½" ); // L39
+define("ADMIN_CONFIRMPASS_LABEL","ï¿½ï¿½ï¿½ï¿½ï¿½Ô¥Ñ¥ï¿½ï¿½ï¡¼ï¿½ï¿½(ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½)" ); // L74
 
 // Buttons
-define( "BUTTON_PREVIOUS", "Ìá¤ë" ); // L42
-define( "BUTTON_NEXT", "¼¡¤Ø" ); // L47
+define("BUTTON_PREVIOUS","ï¿½ï¿½ï¿½" ); // L42
+define("BUTTON_NEXT","ï¿½ï¿½ï¿½ï¿½" ); // L47
 
 // Messages
-define( "XOOPS_FOUND", "%s found" );
-define( "CHECKING_PERMISSIONS", "¥Õ¥¡¥¤¥ë¡¦¥Õ¥©¥ë¥À¤Î¥¢¥¯¥»¥¹¸¢¤Î¥Á¥§¥Ã¥¯" ); // L82
-define( "IS_NOT_WRITABLE", "%s¤Ï¡¢½ñ¹þÉÔ²Ä¤È¤Ê¤Ã¤Æ¤¤¤Þ¤¹¡£¥Ñ¡¼¥ß¥Ã¥·¥ç¥ó¤ò³ÎÇ§¤·¤Æ¤¯¤À¤µ¤¤¡£" ); // L83
-define( "IS_WRITABLE", "%s¤Ï¡¢½ñ¹þ²Ä¤Ç¤¹¡£" ); // L84
+define("XOOPS_FOUND","%s found" );
+define("CHECKING_PERMISSIONS","ï¿½Õ¥ï¿½ï¿½ï¿½ï¿½ë¡¦ï¿½Õ¥ï¿½ï¿½ï¿½ï¿½ï¿½Î¥ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î¥ï¿½ï¿½ï¿½ï¿½Ã¥ï¿½" ); // L82
+define("IS_NOT_WRITABLE","%sï¿½Ï¡ï¿½ï¿½ï¿½ï¿½ï¿½Ô²Ä¤È¤Ê¤Ã¤Æ¤ï¿½ï¿½Þ¤ï¿½ï¿½ï¿½ï¿½Ñ¡ï¿½ï¿½ß¥Ã¥ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç§ï¿½ï¿½ï¿½Æ¤ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½" ); // L83
+define("IS_WRITABLE","%sï¿½Ï¡ï¿½ï¿½ï¿½ï¿½ï¿½Ä¤Ç¤ï¿½ï¿½ï¿½" ); // L84
 
-define( "XOOPS_PATH_FOUND", "Path found." );
+define("XOOPS_PATH_FOUND","Path found." );
 
-define( "READY_CREATE_TABLES", "<br />XOOPS¤Î¥·¥¹¥Æ¥à¥Æ¡¼¥Ö¥ë¤òºîÀ®¤·¤Þ¤¹¡£<br /> <em>¼¡¤Ø</em>¤ò²¡¤·¤Æ¼¡¤Î¥¹¥Æ¥Ã¥×¤Ë¿Ê¤ó¤Ç¤¯¤À¤µ¤¤¡£" );
-define( "XOOPS_TABLES_FOUND", "XOOPS¤Î¥Æ¡¼¥Ö¥ë¤¬¥Ç¡¼¥¿¥Ù¡¼¥¹¤Ë´û¤ËÂ¸ºß¤·¤Þ¤¹¡£<br /> <em>¼¡¤Ø</em>¤ò²¡¤·¤Æ¼¡¤Î¥¹¥Æ¥Ã¥×¤Ë¿Ê¤ó¤Ç¤¯¤À¤µ¤¤" ); // L131
-define( "XOOPS_TABLES_CREATED", "XOOPS system tables have been created.<br />Press <em>next</em> to go to the next step." );
-define( "READY_INSERT_DATA", "¥Ç¡¼¥¿¥Ù¡¼¥¹¤Ë½é´ü¥Ç¡¼¥¿¤ò¥¤¥ó¥µ¡¼¥È¤¹¤ë½àÈ÷¤¬½ÐÍè¤Þ¤·¤¿¡£" );
-define( "READY_SAVE_MAINFILE", "ÀßÄê¤ò<em>mainfile.php</em>¤Ë½ñ¤­¹þ¤à½àÈ÷¤¬½ÐÍè¤Þ¤·¤¿¡£<br /> <em>¼¡¤Ø</em>¤ò²¡¤¹¤È¼Â¹Ô¤·¤Þ¤¹¡£" );
-define( "SAVED_MAINFILE", "Saved settings in mainfile.php" );
-define( "SAVED_MAINFILE_MSG", "The installer has saved the specified settings to <em>mainfile.php</em>. Press <em>next</em> to go to the next step." );
-define( "DATA_ALREADY_INSERTED", "XOOPS data found in database.<br />Press <em>next</em> to go to the next step." );
-define( "DATA_INSERTED", "Initial data have been inserted into database.<br />Press <em>next</em> to go to the next step." );
+define("READY_CREATE_TABLES","<br />XOOPSï¿½Î¥ï¿½ï¿½ï¿½ï¿½Æ¥ï¿½Æ¡ï¿½ï¿½Ö¥ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Þ¤ï¿½ï¿½ï¿½<br /> <em>ï¿½ï¿½ï¿½ï¿½</em>ï¿½ò²¡¤ï¿½ï¿½Æ¼ï¿½ï¿½Î¥ï¿½ï¿½Æ¥Ã¥×¤Ë¿Ê¤ï¿½Ç¤ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½" );
+define("XOOPS_TABLES_FOUND","XOOPSï¿½Î¥Æ¡ï¿½ï¿½Ö¥ë¤¬ï¿½Ç¡ï¿½ï¿½ï¿½ï¿½Ù¡ï¿½ï¿½ï¿½ï¿½Ë´ï¿½ï¿½ï¿½Â¸ï¿½ß¤ï¿½ï¿½Þ¤ï¿½ï¿½ï¿½<br /> <em>ï¿½ï¿½ï¿½ï¿½</em>ï¿½ò²¡¤ï¿½ï¿½Æ¼ï¿½ï¿½Î¥ï¿½ï¿½Æ¥Ã¥×¤Ë¿Ê¤ï¿½Ç¤ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½" ); // L131
+define("XOOPS_TABLES_CREATED","XOOPS system tables have been created.<br />Press <em>next</em> to go to the next step." );
+define("READY_INSERT_DATA","ï¿½Ç¡ï¿½ï¿½ï¿½ï¿½Ù¡ï¿½ï¿½ï¿½ï¿½Ë½ï¿½ï¿½ï¿½Ç¡ï¿½ï¿½ï¿½ï¿½ò¥¤¥ó¥µ¡ï¿½ï¿½È¤ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Þ¤ï¿½ï¿½ï¿½ï¿½ï¿½" );
+define("READY_SAVE_MAINFILE","ï¿½ï¿½ï¿½ï¿½ï¿½<em>mainfile.php</em>ï¿½Ë½ñ¤­¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Þ¤ï¿½ï¿½ï¿½ï¿½ï¿½<br /> <em>ï¿½ï¿½ï¿½ï¿½</em>ï¿½ò²¡¤ï¿½ï¿½È¼Â¹Ô¤ï¿½ï¿½Þ¤ï¿½ï¿½ï¿½" );
+define("SAVED_MAINFILE","Saved settings in mainfile.php" );
+define("SAVED_MAINFILE_MSG","The installer has saved the specified settings to <em>mainfile.php</em>. Press <em>next</em> to go to the next step." );
+define("DATA_ALREADY_INSERTED","XOOPS data found in database.<br />Press <em>next</em> to go to the next step." );
+define("DATA_INSERTED","Initial data have been inserted into database.<br />Press <em>next</em> to go to the next step." );
 
 
 // %s is database name
-define( "DATABASE_CREATED", "¥Ç¡¼¥¿¥Ù¡¼¥¹%s¤òºîÀ®¤·¤Þ¤·¤¿!" ); // L43
+define("DATABASE_CREATED","ï¿½Ç¡ï¿½ï¿½ï¿½ï¿½Ù¡ï¿½ï¿½ï¿½%sï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Þ¤ï¿½ï¿½ï¿½!" ); // L43
 // %s is table name
-define( "TABLE_NOT_CREATED", "%s¥Æ¡¼¥Ö¥ë¤ÎºîÀ®¤Ë¼ºÇÔ¤·¤Þ¤·¤¿" ); // L118
-define( "TABLE_CREATED", "%s¥Æ¡¼¥Ö¥ë¤òºîÀ®¤·¤Þ¤·¤¿¡£" ); // L45
-define( "ROWS_INSERTED", "%d¸Ä¤Î¥Ç¡¼¥¿¤¬¥Ç¡¼¥¿¥Ù¡¼¥¹%s¤Ë¥¤¥ó¥µ¡¼¥È¤µ¤ì¤Þ¤·¤¿¡£" ); // L119
-define( "ROWS_FAILED", "%d¸Ä¤Î¥Ç¡¼¥¿¤ò¥Ç¡¼¥¿¥Ù¡¼¥¹%s¤Ë¥¤¥ó¥µ¡¼¥È¤¹¤ë¤³¤È¤Ë¼ºÇÔ¤·¤Þ¤·¤¿¡£" ); // L120
-define( "TABLE_ALTERED", "¥Æ¡¼¥Ö¥ë %s ¤ò¥¢¥Ã¥×¥Ç¡¼¥È¤·¤Þ¤·¤¿¡£"); // L133
-define( "TABLE_NOT_ALTERED", "¥Æ¡¼¥Ö¥ë %s ¤Î¥¢¥Ã¥×¥Ç¡¼¥È¤¬¼ºÇÔ¤·¤Þ¤·¤¿¡£"); // L134
-define( "TABLE_DROPPED", "¥Æ¡¼¥Ö¥ë %s ¤òºï½ü¤·¤Þ¤·¤¿¡£"); // L163
-define( "TABLE_NOT_DROPPED", "¥Æ¡¼¥Ö¥ë %s ¤Îºï½ü¤Ë¼ºÇÔ¤·¤Þ¤·¤¿¡£"); // L164
+define("TABLE_NOT_CREATED","%sï¿½Æ¡ï¿½ï¿½Ö¥ï¿½Îºï¿½ï¿½ï¿½ï¿½Ë¼ï¿½ï¿½Ô¤ï¿½ï¿½Þ¤ï¿½ï¿½ï¿½" ); // L118
+define("TABLE_CREATED","%sï¿½Æ¡ï¿½ï¿½Ö¥ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Þ¤ï¿½ï¿½ï¿½ï¿½ï¿½" ); // L45
+define("ROWS_INSERTED","%dï¿½Ä¤Î¥Ç¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç¡ï¿½ï¿½ï¿½ï¿½Ù¡ï¿½ï¿½ï¿½%sï¿½Ë¥ï¿½ï¿½ó¥µ¡ï¿½ï¿½È¤ï¿½ï¿½ï¿½Þ¤ï¿½ï¿½ï¿½ï¿½ï¿½" ); // L119
+define("ROWS_FAILED","%dï¿½Ä¤Î¥Ç¡ï¿½ï¿½ï¿½ï¿½ï¿½Ç¡ï¿½ï¿½ï¿½ï¿½Ù¡ï¿½ï¿½ï¿½%sï¿½Ë¥ï¿½ï¿½ó¥µ¡ï¿½ï¿½È¤ï¿½ï¿½ë¤³ï¿½È¤Ë¼ï¿½ï¿½Ô¤ï¿½ï¿½Þ¤ï¿½ï¿½ï¿½ï¿½ï¿½" ); // L120
+define("TABLE_ALTERED","ï¿½Æ¡ï¿½ï¿½Ö¥ï¿½ %s ï¿½ò¥¢¥Ã¥×¥Ç¡ï¿½ï¿½È¤ï¿½ï¿½Þ¤ï¿½ï¿½ï¿½ï¿½ï¿½"); // L133
+define("TABLE_NOT_ALTERED","ï¿½Æ¡ï¿½ï¿½Ö¥ï¿½ %s ï¿½Î¥ï¿½ï¿½Ã¥×¥Ç¡ï¿½ï¿½È¤ï¿½ï¿½ï¿½ï¿½Ô¤ï¿½ï¿½Þ¤ï¿½ï¿½ï¿½ï¿½ï¿½"); // L134
+define("TABLE_DROPPED","ï¿½Æ¡ï¿½ï¿½Ö¥ï¿½ %s ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Þ¤ï¿½ï¿½ï¿½ï¿½ï¿½"); // L163
+define("TABLE_NOT_DROPPED","ï¿½Æ¡ï¿½ï¿½Ö¥ï¿½ %s ï¿½Îºï¿½ï¿½ï¿½Ë¼ï¿½ï¿½Ô¤ï¿½ï¿½Þ¤ï¿½ï¿½ï¿½ï¿½ï¿½"); // L164
 
 // Error messages
-define( "ERR_COULD_NOT_ACCESS", "³ºÅö¤Î¥Õ¥©¥ë¥À¤¬¸«¤Ä¤«¤ê¤Þ¤»¤ó¤Ç¤·¤¿¡£ ¥µ¡¼¥Ð¤Ë³ºÅö¥Õ¥©¥ë¥À¤¬¤¢¤ë¤«¡¢¤Þ¤¿½ñ¤­¹þ¤ß²ÄÇ½¤«¤É¤¦¤«³ÎÇ§¤·¤Æ¤ß¤Æ¤¯¤À¤µ¤¤¡£" );
-define( "ERR_NO_XOOPS_FOUND", "XOOPS ¥¤¥ó¥¹¥È¡¼¥é¡¼¤¬¸«¤Ä¤«¤ê¤Þ¤»¤ó¡£" );
-define( "ERR_INVALID_EMAIL", "ÉÔÀµ¤Ê¥á¡¼¥ë¥¢¥É¥ì¥¹¤Ç¤¹¡£" ); // L73
-define( "ERR_REQUIRED", "É¬Í×¤Ê¥Ç¡¼¥¿¤ò¤¹¤Ù¤ÆÆþÎÏ¤·¤Æ¤¯¤À¤µ¤¤¡£" ); // L41
-define( "ERR_PASSWORD_MATCH", "The two passwords do not match" );
-define( "ERR_NEED_WRITE_ACCESS", "¥Ç¥£¥ì¥¯¥È¥ê¤ò¡¢¥µ¡¼¥Ð¤Ë¤è¤ë½ñ¤­¹þ¤ß¤¬²ÄÇ½¤ÊÀßÄê¤ÇºîÀ®¤·¤Æ¤¯¤À¤µ¤¤¡£¡ÊUNIX/LINUX¥µ¡¼¥Ð¤ò¤´»ÈÍÑ¤Î¾ì¹ç¡¢³Æ¥Ç¥£¥ì¥¯¥È¥ê¤Î¥Ñ¡¼¥ß¥Ã¥·¥ç¥ó¤ò777¤ËÀßÄê¤·¤Æ¤¯¤À¤µ¤¤¡£¡Ë" ); // L72
-define( "ERR_NO_DATABASE", "¥Ç¡¼¥¿¥Ù¡¼¥¹¤ÎºîÀ®¤Ë¼ºÇÔ¤·¤Þ¤·¤¿¡£<br /><br />ÀßÄê¤µ¤ì¤¿¥æ¡¼¥¶¥¢¥«¥¦¥ó¥È¤Î¸¢¸Â¤Ç¤Ï¥Ç¡¼¥¿¥Ù¡¼¥¹¤ÎºîÀ®¤¬¤Ç¤­¤Ê¤¤¾ì¹ç¤Ï¡¢ÊÌÅÓºîÀ®¤·¡¢¥¤¥ó¥¹¥È¡¼¥ë¤òÂ³¤±¤Æ¤¯¤À¤µ¤¤¡£<br />¤Þ¤¿¤Ï¡¢¤Ï¤¸¤á¤«¤é¤ä¤êÄ¾¤·¤Æ¤¯¤À¤µ¤¤¡£<br />¤è¤¯¤ï¤«¤é¤Ê¤¤¾ì¹ç¤Ï¡¢¥µ¡¼¥Ð´ÉÍý¼Ô¤Ë¤ªÌä¤¤¹ç¤ï¤»¤¯¤À¤µ¤¤¡£" ); // L31
-define( "ERR_NO_DBCONNECTION", "¥Ç¡¼¥¿¥Ù¡¼¥¹¥µ¡¼¥Ð¤ËÀÜÂ³¤Ç¤­¤Þ¤»¤ó¡£" ); // L106
-define( "ERR_WRITING_CONSTANT", "Äê¿ô%s¤Î½ñ¹þ¤ß¤Ë¼ºÇÔ¤·¤Þ¤·¤¿¡£" ); // L122
+define("ERR_COULD_NOT_ACCESS","ï¿½ï¿½ï¿½ï¿½ï¿½Î¥Õ¥ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¤ï¿½ï¿½ï¿½Þ¤ï¿½ï¿½ï¿½Ç¤ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ð¤Ë³ï¿½ï¿½ï¿½ï¿½Õ¥ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ë¤«ï¿½ï¿½ï¿½Þ¤ï¿½ï¿½ñ¤­¹ï¿½ï¿½ß²ï¿½Ç½ï¿½ï¿½ï¿½É¤ï¿½ï¿½ï¿½ï¿½ï¿½Ç§ï¿½ï¿½ï¿½Æ¤ß¤Æ¤ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½" );
+define("ERR_NO_XOOPS_FOUND","XOOPS ï¿½ï¿½ï¿½ó¥¹¥È¡ï¿½ï¿½é¡¼ï¿½ï¿½ï¿½ï¿½ï¿½Ä¤ï¿½ï¿½ï¿½Þ¤ï¿½ï¿½ï¿½" );
+define("ERR_INVALID_EMAIL","ï¿½ï¿½ï¿½ï¿½ï¿½Ê¥á¡¼ï¿½ë¥¢ï¿½É¥ì¥¹ï¿½Ç¤ï¿½ï¿½ï¿½" ); // L73
+define("ERR_REQUIRED","É¬ï¿½×¤Ê¥Ç¡ï¿½ï¿½ï¿½ï¿½ò¤¹¤Ù¤ï¿½ï¿½ï¿½ï¿½Ï¤ï¿½ï¿½Æ¤ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½" ); // L41
+define("ERR_PASSWORD_MATCH","The two passwords do not match" );
+define("ERR_NEED_WRITE_ACCESS","ï¿½Ç¥ï¿½ï¿½ì¥¯ï¿½È¥ï¿½ò¡¢¥ï¿½ï¿½ï¿½ï¿½Ð¤Ë¤ï¿½ï¿½ñ¤­¹ï¿½ï¿½ß¤ï¿½ï¿½ï¿½Ç½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Çºï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ¤ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½UNIX/LINUXï¿½ï¿½ï¿½ï¿½ï¿½Ð¤ò¤´»ï¿½ï¿½Ñ¤Î¾ï¿½ç¡¢ï¿½Æ¥Ç¥ï¿½ï¿½ì¥¯ï¿½È¥ï¿½Î¥Ñ¡ï¿½ï¿½ß¥Ã¥ï¿½ï¿½ï¿½ï¿½ï¿½777ï¿½ï¿½ï¿½ï¿½ï¿½ê¤·ï¿½Æ¤ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½" ); // L72
+define("ERR_NO_DATABASE","ï¿½Ç¡ï¿½ï¿½ï¿½ï¿½Ù¡ï¿½ï¿½ï¿½ï¿½Îºï¿½ï¿½ï¿½ï¿½Ë¼ï¿½ï¿½Ô¤ï¿½ï¿½Þ¤ï¿½ï¿½ï¿½ï¿½ï¿½<br /><br />ï¿½ï¿½ï¿½ê¤µï¿½ì¤¿ï¿½æ¡¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È¤Î¸ï¿½ï¿½Â¤Ç¤Ï¥Ç¡ï¿½ï¿½ï¿½ï¿½Ù¡ï¿½ï¿½ï¿½ï¿½Îºï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç¤ï¿½ï¿½Ê¤ï¿½ï¿½ï¿½ï¿½Ï¡ï¿½ï¿½ï¿½ï¿½Óºï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ó¥¹¥È¡ï¿½ï¿½ï¿½ï¿½Â³ï¿½ï¿½ï¿½Æ¤ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½<br />ï¿½Þ¤ï¿½ï¿½Ï¡ï¿½ï¿½Ï¤ï¿½ï¿½á¤«ï¿½ï¿½ï¿½ï¿½Ä¾ï¿½ï¿½ï¿½Æ¤ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½<br />ï¿½è¤¯ï¿½ï¤«ï¿½ï¿½Ê¤ï¿½ï¿½ï¿½ï¿½Ï¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð´ï¿½ï¿½ï¿½ï¿½Ô¤Ë¤ï¿½ï¿½ä¤¤ï¿½ï¿½ï¤»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½" ); // L31
+define("ERR_NO_DBCONNECTION","ï¿½Ç¡ï¿½ï¿½ï¿½ï¿½Ù¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð¤ï¿½ï¿½ï¿½Â³ï¿½Ç¤ï¿½ï¿½Þ¤ï¿½ï¿½ï¿½" ); // L106
+define("ERR_WRITING_CONSTANT","ï¿½ï¿½ï¿½%sï¿½Î½ï¿½ï¿½ï¿½ß¤Ë¼ï¿½ï¿½Ô¤ï¿½ï¿½Þ¤ï¿½ï¿½ï¿½ï¿½ï¿½" ); // L122
 
-define( "ERR_COPY_MAINFILE", "mainfile.php¤Ë¥Ç¥£¥¹¥È¥ê¥Ó¥å¡¼¥·¥ç¥ó¥Õ¥¡¥¤¥ë¤ò¥³¥Ô¡¼½ÐÍè¤Þ¤»¤ó¤Ç¤·¤¿¡£" );
-define( "ERR_WRITE_MAINFILE", "mainfile.php¤Ë½ñ¤­¹þ¤ß½ÐÍè¤Þ¤»¤ó¤Ç¤·¤¿¡£¥Ñ¡¼¥ß¥Ã¥·¥ç¥ó¡Ê666¡Ë¤ò³ÎÇ§¤·¤ÆºÆÅÙ¥È¥é¥¤¤·¤Æ¤ß¤Æ¤¯¤À¤µ¤¤¡£");
-define( "ERR_READ_MAINFILE", " mainfile.php¤ò³«¤¤¤ÆÆÉ¤ß¹þ¤à¤³¤È¤¬½ÐÍè¤Þ¤»¤ó¤Ç¤·¤¿¡£" );
+define("ERR_COPY_MAINFILE","mainfile.phpï¿½Ë¥Ç¥ï¿½ï¿½ï¿½ï¿½È¥ï¿½Ó¥å¡¼ï¿½ï¿½ï¿½ï¿½ï¿½Õ¥ï¿½ï¿½ï¿½ï¿½ï¿½ò¥³¥Ô¡ï¿½ï¿½ï¿½ï¿½ï¿½Þ¤ï¿½ï¿½ï¿½Ç¤ï¿½ï¿½ï¿½ï¿½ï¿½" );
+define("ERR_WRITE_MAINFILE","mainfile.phpï¿½Ë½ñ¤­¹ï¿½ï¿½ß½ï¿½ï¿½ï¿½Þ¤ï¿½ï¿½ï¿½Ç¤ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ñ¡ï¿½ï¿½ß¥Ã¥ï¿½ï¿½ï¿½ï¿½ï¿½666ï¿½Ë¤ï¿½ï¿½Ç§ï¿½ï¿½ï¿½Æºï¿½ï¿½Ù¥È¥é¥¤ï¿½ï¿½ï¿½Æ¤ß¤Æ¤ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
+define("ERR_READ_MAINFILE"," mainfile.phpï¿½ò³«¤ï¿½ï¿½ï¿½ï¿½É¤ß¹ï¿½ï¿½à¤³ï¿½È¤ï¿½ï¿½ï¿½ï¿½ï¿½Þ¤ï¿½ï¿½ï¿½Ç¤ï¿½ï¿½ï¿½ï¿½ï¿½" );
 
-define( "ERR_INVALID_DBCHARSET", "The charset '%s' is not supported." );
-define( "ERR_INVALID_DBCOLLATION", "The collation '%s' is not supported." );
-define( "ERR_CHARSET_NOT_SET", "Default character set is not set for XOOPS database." );
+define("ERR_INVALID_DBCHARSET","The charset '%s' is not supported." );
+define("ERR_INVALID_DBCOLLATION","The collation '%s' is not supported." );
+define("ERR_CHARSET_NOT_SET","Default character set is not set for XOOPS database." );
 
 //
 

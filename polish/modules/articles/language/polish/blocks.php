@@ -27,13 +27,13 @@
 
 // Polish version by 'plxoops project'
 // Latest Articles block
-define("_MB_ART_SHOW",      "Poka¿"); //
-define("_MB_ART_NUMBERS",   "ostatnich artyku³ów w bloku.");
-define("_MB_ART_CHARS",     "znaków dla tytu³u artyku³u");
-define("_MB_ART_TEXT",      "znaków dla tekstu artyku³u");
+define("_MB_ART_SHOW",      "PokaÂ¿"); //
+define("_MB_ART_NUMBERS",   "ostatnich artykuÂ³Ã³w w bloku.");
+define("_MB_ART_CHARS",     "znakÃ³w dla tytuÂ³u artykuÂ³u");
+define("_MB_ART_TEXT",      "znakÃ³w dla tekstu artykuÂ³u");
 
 // Popular Articles block
-#define("", "");
+#define("","");
 
 
 

@@ -8,7 +8,7 @@ define("_NW_COMMENTS","Komentari?");
 define("_NW_ONECOMMENT","1 komentar");
 define("_NW_BYTESMORE","%s bajta više");
 define("_NW_NUMCOMMENTS","%s komentara");
-define("_NW_MORERELEASES", "Više izdanja u ");
+define("_NW_MORERELEASES","Više izdanja u ");
 
 
 //%%%%%%		File Name submit.php		%%%%%
@@ -113,6 +113,6 @@ define("_NW_BOOKMARK_TO_YAHOO","Označi za Yahoo");
 
 // Added in version 1.56
 define('_NW_NOTYETSTORY',"Oprostite, izabrana objava još nije objavljena. Molimo navratite kasnije i probajte ponovo.");
-define('_NW_SELECT_IMAGE', "Izaberite sliku koju ćete dodati novostima");
-define('_NW_CURENT_PICTURE', "Trenutna slika");
+define('_NW_SELECT_IMAGE',"Izaberite sliku koju ćete dodati novostima");
+define('_NW_CURENT_PICTURE',"Trenutna slika");
 ?>

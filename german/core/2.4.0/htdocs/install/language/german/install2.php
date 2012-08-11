@@ -4,30 +4,30 @@
 // _CHARSET : UTF-8
 // Translator: XOOPS Translation Team
 
-define('_INSTALL_WEBMASTER', 'Webmaster');
-define('_INSTALL_WEBMASTERD', 'Webmaster dieser Seite');
-define('_INSTALL_REGUSERS', 'Registrierte Benutzer');
-define('_INSTALL_REGUSERSD', 'Registrierte Benutzer Gruppe');
-define('_INSTALL_ANONUSERS', 'Gäste');
-define('_INSTALL_ANONUSERSD', 'Gäste Benutzergruppe');
+define('_INSTALL_WEBMASTER','Webmaster');
+define('_INSTALL_WEBMASTERD','Webmaster dieser Seite');
+define('_INSTALL_REGUSERS','Registrierte Benutzer');
+define('_INSTALL_REGUSERSD','Registrierte Benutzer Gruppe');
+define('_INSTALL_ANONUSERS','Gäste');
+define('_INSTALL_ANONUSERSD','Gäste Benutzergruppe');
 
 /**
 * New Group types
 */
-define('_INSTALL_BANNEDUSERS', 'Gebannte Benutzer');
-define('_INSTALL_BANNEDUSERSD', 'Gebannte Benutzer Gruppe');
-define('_INSTALL_MODERATORUSERS', 'Moderatoren');
-define('_INSTALL_MODERATORUSERSD', 'Dies sind die Moderatoren Ihrer Webseite');
-define('_INSTALL_SUBMITTERUSERS', 'Autoren');
-define('_INSTALL_SUBMITTERUSERSD', 'Diese Gruppe kann Artikel auf Ihrer Webseite einstellen');
-define('_INSTALL_DEVELOPEUSERS', 'Entwickler');
-define('_INSTALL_DEVELOPEUSERSD', 'Dieser Benutzer hat Entwickler-Privilegien und kann Debugging-Meldungen einsehen.');
+define('_INSTALL_BANNEDUSERS','Gebannte Benutzer');
+define('_INSTALL_BANNEDUSERSD','Gebannte Benutzer Gruppe');
+define('_INSTALL_MODERATORUSERS','Moderatoren');
+define('_INSTALL_MODERATORUSERSD','Dies sind die Moderatoren Ihrer Webseite');
+define('_INSTALL_SUBMITTERUSERS','Autoren');
+define('_INSTALL_SUBMITTERUSERSD','Diese Gruppe kann Artikel auf Ihrer Webseite einstellen');
+define('_INSTALL_DEVELOPEUSERS','Entwickler');
+define('_INSTALL_DEVELOPEUSERSD','Dieser Benutzer hat Entwickler-Privilegien und kann Debugging-Meldungen einsehen.');
  
-define("_INSTALL_L165", "Diese Seite ist wegen Wartungsarbeiten geschlossen! Bitte kommen Sie später nocheinmal wieder!");
-define("_INSTALL_ANON", "Gast");
+define("_INSTALL_L165","Diese Seite ist wegen Wartungsarbeiten geschlossen! Bitte kommen Sie später nocheinmal wieder!");
+define("_INSTALL_ANON","Gast");
 
 
-define('_INSTALL_DISCLMR', 'Diese Seite übernimmt keinerlei Haftung für Schäden, die durch das System (die Internetseite) oder 
+define('_INSTALL_DISCLMR','Diese Seite übernimmt keinerlei Haftung für Schäden, die durch das System (die Internetseite) oder 
 die angebotenen Dateien entstehen. Alle Dateien sind auf Viren geprüft. Der User wird hiermit 
 darauf hingewiesen, selber die Dateien auf Viren und ähnliches zu prüfen. 
 Eine Garantie für die Sicherheit der Dateien kann nicht gegeben gegeben werden, da diese Dateien 

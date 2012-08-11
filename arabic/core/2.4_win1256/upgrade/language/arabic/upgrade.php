@@ -4,27 +4,27 @@
 // _CHARSET : windows-1256
 // Translator: Arab XOOPS Team
 
-define( "_XOOPS_UPGRADE", "ãÚÇáÌ ÊÑÞíÉ äÙÇã ÅÏÇÑÉ ÇáãÍÊæì" );
-define( "_CHECKING_APPLIED", "ÇáÊÍÞÞ ãä ÊÑÞíÇÊ ÓÇÈÞÉ:" );
-define( "_SET_FILES_WRITABLE", "ÊÃßÏ ãä Ãä ÇáãáÝÇÊ ÇáÊÇáíÉ ÞÇÈáÉ ááßÊÇÈÉ ÞÈá ÊÑÞíÉ äÙÇã ÅÏÇÑÉ ÇáãÍÊæì:" );
-define( "_NO_NEED_UPGRADE", "áÇ ÊÍÊÇÌ Åáì ÇáÊÑÞíÉ ÇáÂä ¡ ÇáÑÌÇÁ ÍÐÝ ãÌáÏ ÇáÊÑÞíÉ ãä ãæÞÚß" );
-define( "_NEED_UPGRADE", "ÊÑÞíÉ ÖÑæÑíÉ" );
-define( "_PROCEED_UPGRADE", "ÅÌÑÇÁ ÇáÊÑÞíÉ" );
-define( "_PERFORMING_UPGRADE", "ÊÌåíÒ ÇáÊÑÞíÉ %s" );
+define("_XOOPS_UPGRADE","Ã£ÃšÃ‡Ã¡ÃŒ ÃŠÃ‘ÃžÃ­Ã‰ Ã¤Ã™Ã‡Ã£ Ã…ÃÃ‡Ã‘Ã‰ Ã‡Ã¡Ã£ÃÃŠÃ¦Ã¬" );
+define("_CHECKING_APPLIED","Ã‡Ã¡ÃŠÃÃžÃž Ã£Ã¤ ÃŠÃ‘ÃžÃ­Ã‡ÃŠ Ã“Ã‡ÃˆÃžÃ‰:" );
+define("_SET_FILES_WRITABLE","ÃŠÃƒÃŸÃ Ã£Ã¤ ÃƒÃ¤ Ã‡Ã¡Ã£Ã¡ÃÃ‡ÃŠ Ã‡Ã¡ÃŠÃ‡Ã¡Ã­Ã‰ ÃžÃ‡ÃˆÃ¡Ã‰ Ã¡Ã¡ÃŸÃŠÃ‡ÃˆÃ‰ ÃžÃˆÃ¡ ÃŠÃ‘ÃžÃ­Ã‰ Ã¤Ã™Ã‡Ã£ Ã…ÃÃ‡Ã‘Ã‰ Ã‡Ã¡Ã£ÃÃŠÃ¦Ã¬:" );
+define("_NO_NEED_UPGRADE","Ã¡Ã‡ ÃŠÃÃŠÃ‡ÃŒ Ã…Ã¡Ã¬ Ã‡Ã¡ÃŠÃ‘ÃžÃ­Ã‰ Ã‡Ã¡Ã‚Ã¤ Â¡ Ã‡Ã¡Ã‘ÃŒÃ‡Ã ÃÃÃ Ã£ÃŒÃ¡Ã Ã‡Ã¡ÃŠÃ‘ÃžÃ­Ã‰ Ã£Ã¤ Ã£Ã¦ÃžÃšÃŸ" );
+define("_NEED_UPGRADE","ÃŠÃ‘ÃžÃ­Ã‰ Ã–Ã‘Ã¦Ã‘Ã­Ã‰" );
+define("_PROCEED_UPGRADE","Ã…ÃŒÃ‘Ã‡Ã Ã‡Ã¡ÃŠÃ‘ÃžÃ­Ã‰" );
+define("_PERFORMING_UPGRADE","ÃŠÃŒÃ¥Ã­Ã’ Ã‡Ã¡ÃŠÃ‘ÃžÃ­Ã‰ %s" );
 
-define( "_USER_LOGIN", "ÊÓÌíá ÇáÏÎæá" );
+define("_USER_LOGIN","ÃŠÃ“ÃŒÃ­Ã¡ Ã‡Ã¡ÃÃŽÃ¦Ã¡" );
 
-define( "_MANUAL_INSTRUCTIONS", "ØÑíÞÉ ÇáÊÚÏíá ÇáíÏæí" );
+define("_MANUAL_INSTRUCTIONS","Ã˜Ã‘Ã­ÃžÃ‰ Ã‡Ã¡ÃŠÃšÃÃ­Ã¡ Ã‡Ã¡Ã­ÃÃ¦Ã­" );
 
 // %s is filename
-define( "_FAILED_PATCH", "ÝÔá Ýí ÊÑÞíÉ %s" );
-define( "_APPLY_NEXT", "ÊäÝíÐ ÇáÊÑÞíÉ ÇáÊÇáíÉ (%s)" );
-define( "_COPY_RED_LINES", "ÅäÓÎ ÇáÃÓØÑ ÇáÍãÑÇÁ ÇáÊÇáíÉ Åáì %s" );
+define("_FAILED_PATCH","ÃÃ”Ã¡ ÃÃ­ ÃŠÃ‘ÃžÃ­Ã‰ %s" );
+define("_APPLY_NEXT","ÃŠÃ¤ÃÃ­Ã Ã‡Ã¡ÃŠÃ‘ÃžÃ­Ã‰ Ã‡Ã¡ÃŠÃ‡Ã¡Ã­Ã‰ (%s)" );
+define("_COPY_RED_LINES","Ã…Ã¤Ã“ÃŽ Ã‡Ã¡ÃƒÃ“Ã˜Ã‘ Ã‡Ã¡ÃÃ£Ã‘Ã‡Ã Ã‡Ã¡ÃŠÃ‡Ã¡Ã­Ã‰ Ã…Ã¡Ã¬ %s" );
 
-define( "_FINISH", "ÇáÊÇáí" );
-define( "_RELOAD", "ÊÍÏíË ÇáÕÝÍÉ" );
+define("_FINISH","Ã‡Ã¡ÃŠÃ‡Ã¡Ã­" );
+define("_RELOAD","ÃŠÃÃÃ­Ã‹ Ã‡Ã¡Ã•ÃÃÃ‰" );
 
-define('_UPGRADE_CHARSET', 'windows-1256'); 
-define( '_UPDATE_SYSTEM_MODULE', "ÊÍÏíË áæÍÉ ÇáÊÍßã ÇáÚÇãÉ" );
+define('_UPGRADE_CHARSET','windows-1256'); 
+define('_UPDATE_SYSTEM_MODULE',"ÃŠÃÃÃ­Ã‹ Ã¡Ã¦ÃÃ‰ Ã‡Ã¡ÃŠÃÃŸÃ£ Ã‡Ã¡ÃšÃ‡Ã£Ã‰" );
 
 ?>

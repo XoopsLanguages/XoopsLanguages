@@ -32,8 +32,8 @@ define("_WARNINSTALL2","ATTENZIONE: La cartella %s &egrave; ancora sul server. <
 define("_WARNINWRITEABLE","ATTENZIONE: Il file %s non &egrave; protetto in scrittura sul server. <br />Si prega di modificare i permessi di questo file, per motivi di sicurezza:<br /> su server Linux/Unix (CHMOD 444), su Windows (sola lettura)");
 
 // Error messages issued by XoopsObject::cleanVars()
-define( "_XOBJ_ERR_REQUIRED", "%s &egrave; richiesta/o" );
-define( "_XOBJ_ERR_SHORTERTHAN", "%s deve contenere meno di %d caratteri." );
+define("_XOBJ_ERR_REQUIRED","%s &egrave; richiesta/o" );
+define("_XOBJ_ERR_SHORTERTHAN","%s deve contenere meno di %d caratteri." );
 
 //%%%%%%	File Name themeuserpost.php 	%%%%%
 define("_PROFILE","Profilo");
@@ -54,8 +54,8 @@ define("_YOURHOME","Home Page");
 
 //%%%%%%	File Name misc.php (who's-online popup)	%%%%%
 define("_WHOSONLINE","Utenti online");
-define('_GUESTS', 'Ospiti');
-define('_MEMBERS', 'Iscritti');
+define('_GUESTS','Ospiti');
+define('_MEMBERS','Iscritti');
 define("_ONLINEPHRASE","<b>%s</b> utente(i) online<br />");
 define("_ONLINEPHRASEX","<b>%s</b> utente(i) in <b>%s</b>");
 define("_CLOSE","Chiudi");  // Close window
@@ -77,27 +77,27 @@ define("_ALIGN","Allineamento");
 define("_LEFT","Sinistra");
 define("_CENTER","Centro");
 define("_RIGHT","Destra");
-define("_FORM_ENTER", "Prego inserisci %s");
+define("_FORM_ENTER","Prego inserisci %s");
 // %s represents file name
 define("_MUSTWABLE","Il file %s non deve essere protetto in scrittura sul server!");
 // Module info
-define('_PREFERENCES', 'Preferenze');
-define("_VERSION", "Versione");
-define("_DESCRIPTION", "Descrizione");
-define("_AUTHOR", "Autore");
-define("_CREDITS", "Crediti");
-define("_LICENCE", "Licenza");
-define("_ERRORS", "Errori");
-define("_NONE", "Nessuno");
+define('_PREFERENCES','Preferenze');
+define("_VERSION","Versione");
+define("_DESCRIPTION","Descrizione");
+define("_AUTHOR","Autore");
+define("_CREDITS","Crediti");
+define("_LICENCE","Licenza");
+define("_ERRORS","Errori");
+define("_NONE","Nessuno");
 define('_ON','il');
 define('_READS','letture');
 define('_WELCOMETO','Benvenuto %s');
 define('_SEARCH','Cerca');
-define('_ALL', 'Tutto');
-define('_TITLE', 'Titolo');
-define('_OPTIONS', 'Opzioni');
-define('_QUOTE', 'Citazione');
-define('_LIST', 'Elenco');
+define('_ALL','Tutto');
+define('_TITLE','Titolo');
+define('_OPTIONS','Opzioni');
+define('_QUOTE','Citazione');
+define('_LIST','Elenco');
 define('_LOGIN','Login utente');
 define('_USERNAME','Nome utente: ');
 define('_PASSWORD','Password: ');
@@ -107,12 +107,12 @@ define("_SEND","Invia");
 define("_CANCEL","Annulla");
 define("_ASCENDING","Ordine crescente");
 define("_DESCENDING","Ordine decrescente");
-define('_BACK', 'Indietro');
-define('_NOTITLE', 'Nessun titolo');
+define('_BACK','Indietro');
+define('_NOTITLE','Nessun titolo');
 
 /* Image manager */
 define('_IMGMANAGER','Amministrazione immagini');
-define('_NUMIMAGES', '%s immagini');
+define('_NUMIMAGES','%s immagini');
 define('_ADDIMAGE','Aggiungi un\'immagine');
 define('_IMAGENAME','Nome:');
 define('_IMGMAXSIZE','Dimensione massima (bytes):');
@@ -123,17 +123,17 @@ define('_IMAGEFILE','Immagine:');
 define('_IMGWEIGHT','Ordine di visualizzazione delle immagini:');
 define('_IMGDISPLAY','Visualizzare l\'immagine?');
 define('_IMAGEMIME','MIME (estensione del file):');
-define('_FAILFETCHIMG', 'Impossibile eseguire l\'upload del file %s!');
-define('_FAILSAVEIMG', 'Caricamento nel database dell\'immagine %s: fallito!');
-define('_NOCACHE', 'Nessuna cache');
-define('_CLONE', 'Clona');
+define('_FAILFETCHIMG','Impossibile eseguire l\'upload del file %s!');
+define('_FAILSAVEIMG','Caricamento nel database dell\'immagine %s: fallito!');
+define('_NOCACHE','Nessuna cache');
+define('_CLONE','Clona');
 
 //%%%%%	File Name class/xoopsform/formmatchoption.php 	%%%%%
-define("_STARTSWITH", "Inizia con");
-define("_ENDSWITH", "Termina con");
-define("_MATCHES", "Coincide con");
-define("_CONTAINS", "Contiene");
-define("_REQUIRED", "Necessario");
+define("_STARTSWITH","Inizia con");
+define("_ENDSWITH","Termina con");
+define("_MATCHES","Coincide con");
+define("_CONTAINS","Contiene");
+define("_REQUIRED","Necessario");
 
 //%%%%%%	File Name commentform.php 	%%%%%
 define("_REGISTER","Registrati");
@@ -159,16 +159,16 @@ define("_PLZCOMPLETE","Per favore, inserire oggetto e corpo del messaggio.");
 define("_MESSAGETOOLONG","Il messaggio &egrave; troppo lungo.");
 
 //%%%%%		TIME FORMAT SETTINGS   %%%%%
-define('_SECOND', '1 secondo');
-define('_SECONDS', '%s secondi');
-define('_MINUTE', '1 minuto');
-define('_MINUTES', '%s minuti');
-define('_HOUR', '1 ora');
-define('_HOURS', '%s ore');
-define('_DAY', '1 giorno');
-define('_DAYS', '%s giorni');
-define('_WEEK', '1 settimana');
-define('_MONTH', '1 mese');
+define('_SECOND','1 secondo');
+define('_SECONDS','%s secondi');
+define('_MINUTE','1 minuto');
+define('_MINUTES','%s minuti');
+define('_HOUR','1 ora');
+define('_HOURS','%s ore');
+define('_DAY','1 giorno');
+define('_DAYS','%s giorni');
+define('_WEEK','1 settimana');
+define('_MONTH','1 mese');
 
 define("_DATESTRING","j/n/Y G:i:s");
 define("_MEDIUMDATESTRING","j/n/Y G:i");
@@ -192,7 +192,7 @@ m - month; i.e. "01" to "12"
 n - month without leading zeros; i.e. "1" to "12"
 M - month, textual, 3 letters; i.e. "Jan"
 s - seconds; i.e. "00" to "59"
-S - English ordinal suffix, textual, 2 characters; i.e. "th", "nd"
+S - English ordinal suffix, textual, 2 characters; i.e. "th","nd"
 t - number of days in the given month; i.e. "28" to "31"
 T - Timezone setting of this machine; i.e. "MDT"
 U - seconds since the epoch
@@ -206,12 +206,12 @@ Z - timezone offset in seconds (i.e. "-43200" to "43200")
 
 //%%%%%		LANGUAGE SPECIFIC SETTINGS   %%%%%
 /* ATTENZIONE! In caso di aggiornamento da versioni precedenti e di mantenimento della collazione del database in
-** latin_swedish decommentare la linea successiva e commentare: define('_CHARSET', 'UTF-8'),
+** latin_swedish decommentare la linea successiva e commentare: define('_CHARSET','UTF-8'),
 ** per preservare la visualizzazione delle parole accentate nel sito.*/
-//define('_CHARSET', 'ISO-8859-1');
-define('_CHARSET', 'UTF-8');
-define('_LANGCODE', 'it');
+//define('_CHARSET','ISO-8859-1');
+define('_CHARSET','UTF-8');
+define('_LANGCODE','it');
 
 // change 0 to 1 if this language is a multi-bytes language
-define("XOOPS_USE_MULTIBYTES", "0");
+define("XOOPS_USE_MULTIBYTES","0");
 ?>

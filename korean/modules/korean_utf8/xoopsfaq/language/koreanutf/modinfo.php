@@ -37,7 +37,7 @@ define("_MI_XOOPSFAQ_NAME","FAQ(참고질문)");
 define("_MI_XOOPSFAQ_DESC","FAQ(참고질문)을 작성하기 위한 모듈입니다.");
 
 // Names of admin menu items
-define("_MI_XOOPSFAQ_ADMENU1", "FAQ(참고질문) 리스트");
+define("_MI_XOOPSFAQ_ADMENU1","FAQ(참고질문) 리스트");
 
 // Names of blocks for this module (Not all module has blocks)
 //define("_MI_","");

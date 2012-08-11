@@ -3,15 +3,15 @@
 $mydirname = basename(dirname(dirname(dirname( __FILE__ ))));
 $GLOBALS["MRBS_PREFIX"] = strtoupper($mydirname);
 
-define("_MI_".$GLOBALS["MRBS_PREFIX"]."_MENU_PREFERENCES", "Instellingen");
-define("_MI_".$GLOBALS["MRBS_PREFIX"]."_MENU_PERMISSION", "Toegangsrechten");
-define("_MI_".$GLOBALS["MRBS_PREFIX"]."_MENU_DESC_PERMISSION", "Anonieme groep kan enkel details rechten hebben");
-define("_MI_".$GLOBALS["MRBS_PREFIX"]."_MENU_INDEX", "Index");
-define("_MI_".$GLOBALS["MRBS_PREFIX"]."_MENU_HOW_TO", "How To guide");
-define("_MI_".$GLOBALS["MRBS_PREFIX"]."_MENU_ABOUT", "Over");
-define("_MI_".$GLOBALS["MRBS_PREFIX"]."_MENU_ROOMS_AREAS", "Kamers en Gebouwen");
-define("_MI_".$GLOBALS["MRBS_PREFIX"]."_MENU_HELP", "Help");
-define("_MI_".$GLOBALS["MRBS_PREFIX"]."_MENU_UPDATES", "Updates");
+define("_MI_".$GLOBALS["MRBS_PREFIX"]."_MENU_PREFERENCES","Instellingen");
+define("_MI_".$GLOBALS["MRBS_PREFIX"]."_MENU_PERMISSION","Toegangsrechten");
+define("_MI_".$GLOBALS["MRBS_PREFIX"]."_MENU_DESC_PERMISSION","Anonieme groep kan enkel details rechten hebben");
+define("_MI_".$GLOBALS["MRBS_PREFIX"]."_MENU_INDEX","Index");
+define("_MI_".$GLOBALS["MRBS_PREFIX"]."_MENU_HOW_TO","How To guide");
+define("_MI_".$GLOBALS["MRBS_PREFIX"]."_MENU_ABOUT","Over");
+define("_MI_".$GLOBALS["MRBS_PREFIX"]."_MENU_ROOMS_AREAS","Kamers en Gebouwen");
+define("_MI_".$GLOBALS["MRBS_PREFIX"]."_MENU_HELP","Help");
+define("_MI_".$GLOBALS["MRBS_PREFIX"]."_MENU_UPDATES","Updates");
 
 define('_MI_'.$GLOBALS["MRBS_PREFIX"].'_VIEW_BOOKING','Toegang details');
 define('_MI_'.$GLOBALS["MRBS_PREFIX"].'_CREATE_BOOKING','Maken van een reservatie');
@@ -133,7 +133,7 @@ define('_MI_'.$GLOBALS["MRBS_PREFIX"].'_JAVASCRIPT_CURSOR','Javascript cursor');
 define('_MI_'.$GLOBALS["MRBS_PREFIX"].'_JAVASCRIPT_CURSOR_DESC','Werking actieve cursor in dag/week/maand overzicht.<br />
 Standaard gebruikt het systeem highlighting via de CSS :hover pseudo-class.<br />
 Oudere browsers zoals IE6 ondersteunen dit niet en MRBS zal automatisch overschakelen naar JavaScript highlighting.<br />
-Hierbij zijn er drie mogelijkheden: "bgcolor", "class" and "hybrid" (Zie volgende instelling).<br />
+Hierbij zijn er drie mogelijkheden: "bgcolor","class" and "hybrid" (Zie volgende instelling).<br />
 Bij echt oude browsers kan je JavaScript highlighting beter uitschakelen.
 ');
 define('_MI_'.$GLOBALS["MRBS_PREFIX"].'_JAVASCRIPT_CURSOR_TRUE','javascript cursor AAN');
@@ -217,7 +217,7 @@ define('_MI_'.$GLOBALS["MRBS_PREFIX"].'_MAIL_BOOKER_TRUE','Ja');
 define('_MI_'.$GLOBALS["MRBS_PREFIX"].'_MAIL_BOOKER_FALSE','Nee');
 define('_MI_'.$GLOBALS["MRBS_PREFIX"].'_MAIL_ADMIN_BACKEND','Emailsysteem');
 define('_MI_'.$GLOBALS["MRBS_PREFIX"].'_MAIL_ADMIN_BACKEND_DESC','Kies het mailsysteem dat je wenst te gebruiken.<br />
-Ofwel "mail", "smtp" of "sendmail".
+Ofwel "mail","smtp" of "sendmail".
 ');
 define('_MI_'.$GLOBALS["MRBS_PREFIX"].'_MAIL_ADMIN_BACKEND_MAIL','mail');
 define('_MI_'.$GLOBALS["MRBS_PREFIX"].'_MAIL_ADMIN_BACKEND_SMTP','smtp');

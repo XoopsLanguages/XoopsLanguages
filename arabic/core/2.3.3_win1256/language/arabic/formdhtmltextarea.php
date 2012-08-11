@@ -21,55 +21,55 @@
 /**
  * Localized fonts 
  */
-$GLOBALS["formtextdhtml_fonts"] = array("Arial", "Arabic Transparent", "Traditional Arabic", "Tahoma", "Times New Roman", "Verdana", "Andalus");
+$GLOBALS["formtextdhtml_fonts"] = array("Arial","Arabic Transparent","Traditional Arabic","Tahoma","Times New Roman","Verdana","Andalus");
 
 /**
  * Localized font sizes: "font size value" => "font size name"
  */
 $GLOBALS["formtextdhtml_sizes"] = array(
-    "xx-small"  => "√’€— Ãœ«",
-    "x-small"   => "√’€—",
-    "small"     => "’€Ì—",
-    "medium"    => "„ Ê”ÿ",
-    "large"     => "ﬂ»Ì—",
-    "x-large"   => "√ﬂ»—",
-    "xx-large"  => "√ﬂ»— Ãœ«",
+    "xx-small"  => "√É√ï√õ√ë √å√è√á",
+    "x-small"   => "√É√ï√õ√ë",
+    "small"     => "√ï√õ√≠√ë",
+    "medium"    => "√£√ä√¶√ì√ò",
+    "large"     => "√ü√à√≠√ë",
+    "x-large"   => "√É√ü√à√ë",
+    "xx-large"  => "√É√ü√à√ë √å√è√á",
     );
 
-define("_XOOPS_FORM_ALT_URL", "—«»ÿ");
-define("_XOOPS_FORM_ALT_EMAIL", "»—Ìœ ≈·ﬂ —Ê‰Ì");
-define("_XOOPS_FORM_ALT_IMG", "’Ê—…");
-define("_XOOPS_FORM_ALT_IMAGE", "„œÌ— «·’Ê—");
-define("_XOOPS_FORM_ALT_SMILEY", "≈» ”«„« ");
-define("_XOOPS_FORM_ALT_CODE", "ﬂÊœ »—„ÃÌ");
-define("_XOOPS_FORM_ALT_QUOTE", "≈ﬁ »«”");
-define("_XOOPS_FORM_ALT_BOLD", "€·ÌŸ");
-define("_XOOPS_FORM_ALT_ITALIC", "„«∆·");
-define("_XOOPS_FORM_ALT_UNDERLINE", "„”ÿ—");
-define("_XOOPS_FORM_ALT_LINETHROUGH", "„‘ÿÊ»");
-define("_XOOPS_FORM_ALT_ENTERHEIGHT", "«·≈— ›«⁄:");
-define("_XOOPS_FORM_ALT_ENTERWIDTH", "«·⁄—÷:");
-define("_XOOPS_FORM_ALT_LEFT", "Ì”«—");
-define("_XOOPS_FORM_ALT_RIGHT", "Ì„Ì‰");
-define("_XOOPS_FORM_ALT_CENTER", "„‰ ’›");
-define("_XOOPS_FORM_ALTFLASH", "›·«‘");
-define("_XOOPS_FORM_ALTMMS", "MMS");
-define("_XOOPS_FORM_ALTRTSP", "Real Player");
-define("_XOOPS_FORM_ALTIFRAME", "≈œ—«Ã ’›Õ…");
-define("_XOOPS_FORM_ALTWIKI", "—«»ÿ „Ê”Ê⁄…");
-define("_XOOPS_FORM_ENTERIFRAMEURL", "—«»ÿ «·’›Õ… «·„œ—Ã…:");
-define("_XOOPS_FORM_ENTERMMSURL", "—«»ÿ RMMS:");
-define("_XOOPS_FORM_ENTERWMPURL", "—«»ÿ WMP:");
-define("_XOOPS_FORM_ENTERFLASHURL", "—«»ÿ FLASH:");
-define("_XOOPS_FORM_ENTERYOUTUBEURL", "—«»ÿ Youtube:");
-define("_XOOPS_FORM_ENTERRTSPURL", "—«»ÿ RTSP:");
-define("_XOOPS_FORM_ENTERWIKITERM", "«·ﬂ·„… «·„—«œ —»ÿÂ« »«·„Ê”Ê⁄…:");
-define("_XOOPS_FORM_ALTMP3", "MP3");
-define("_XOOPS_FORM_ENTERMP3URL", "—«»ÿ MP3");
+define("_XOOPS_FORM_ALT_URL","√ë√á√à√ò");
+define("_XOOPS_FORM_ALT_EMAIL","√à√ë√≠√è √Ö√°√ü√ä√ë√¶√§√≠");
+define("_XOOPS_FORM_ALT_IMG","√ï√¶√ë√â");
+define("_XOOPS_FORM_ALT_IMAGE","√£√è√≠√ë √á√°√ï√¶√ë");
+define("_XOOPS_FORM_ALT_SMILEY","√Ö√à√ä√ì√á√£√á√ä");
+define("_XOOPS_FORM_ALT_CODE","√ü√¶√è √à√ë√£√å√≠");
+define("_XOOPS_FORM_ALT_QUOTE","√Ö√û√ä√à√á√ì");
+define("_XOOPS_FORM_ALT_BOLD","√õ√°√≠√ô");
+define("_XOOPS_FORM_ALT_ITALIC","√£√á√Ü√°");
+define("_XOOPS_FORM_ALT_UNDERLINE","√£√ì√ò√ë");
+define("_XOOPS_FORM_ALT_LINETHROUGH","√£√î√ò√¶√à");
+define("_XOOPS_FORM_ALT_ENTERHEIGHT","√á√°√Ö√ë√ä√ù√á√ö:");
+define("_XOOPS_FORM_ALT_ENTERWIDTH","√á√°√ö√ë√ñ:");
+define("_XOOPS_FORM_ALT_LEFT","√≠√ì√á√ë");
+define("_XOOPS_FORM_ALT_RIGHT","√≠√£√≠√§");
+define("_XOOPS_FORM_ALT_CENTER","√£√§√ä√ï√ù");
+define("_XOOPS_FORM_ALTFLASH","√ù√°√á√î");
+define("_XOOPS_FORM_ALTMMS","MMS");
+define("_XOOPS_FORM_ALTRTSP","Real Player");
+define("_XOOPS_FORM_ALTIFRAME","√Ö√è√ë√á√å √ï√ù√ç√â");
+define("_XOOPS_FORM_ALTWIKI","√ë√á√à√ò √£√¶√ì√¶√ö√â");
+define("_XOOPS_FORM_ENTERIFRAMEURL","√ë√á√à√ò √á√°√ï√ù√ç√â √á√°√£√è√ë√å√â:");
+define("_XOOPS_FORM_ENTERMMSURL","√ë√á√à√ò RMMS:");
+define("_XOOPS_FORM_ENTERWMPURL","√ë√á√à√ò WMP:");
+define("_XOOPS_FORM_ENTERFLASHURL","√ë√á√à√ò FLASH:");
+define("_XOOPS_FORM_ENTERYOUTUBEURL","√ë√á√à√ò Youtube:");
+define("_XOOPS_FORM_ENTERRTSPURL","√ë√á√à√ò RTSP:");
+define("_XOOPS_FORM_ENTERWIKITERM","√á√°√ü√°√£√â √á√°√£√ë√á√è √ë√à√ò√•√á √à√á√°√£√¶√ì√¶√ö√â:");
+define("_XOOPS_FORM_ALTMP3","MP3");
+define("_XOOPS_FORM_ENTERMP3URL","√ë√á√à√ò MP3");
 
-define("_XOOPS_FORM_ALT_CHECKLENGTH", "Õ”«» ÿÊ· «·‰’");
-define("_XOOPS_FORM_ALT_LENGTH", "ÿÊ· «·‰’ «·Õ«·Ì: %s");
-define("_XOOPS_FORM_ALT_LENGTH_MAX", "«·ÿÊ· «·√ﬁ’Ï: ");
+define("_XOOPS_FORM_ALT_CHECKLENGTH","√ç√ì√á√à √ò√¶√° √á√°√§√ï");
+define("_XOOPS_FORM_ALT_LENGTH","√ò√¶√° √á√°√§√ï √á√°√ç√á√°√≠: %s");
+define("_XOOPS_FORM_ALT_LENGTH_MAX","√á√°√ò√¶√° √á√°√É√û√ï√¨: ");
 
-define("_XOOPS_FORM_PREVIEW_CONTENT", "√‰ﬁ— ⁄·Ï <strong>" . _PREVIEW . "</strong> ·„⁄«Ì‰… «·„Õ ÊÏ ﬁ»· «·⁄—÷.");
+define("_XOOPS_FORM_PREVIEW_CONTENT","√É√§√û√ë √ö√°√¨ <strong>" . _PREVIEW . "</strong> √°√£√ö√á√≠√§√â √á√°√£√ç√ä√¶√¨ √û√à√° √á√°√ö√ë√ñ.");
 ?>

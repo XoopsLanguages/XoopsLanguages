@@ -14,6 +14,6 @@
  * @subpackage      transfer
  */
  
-define("_MD_TRANSFER_PRINT", "Od&scaron;tampaj");
-define("_MD_TRANSFER_PRINT_DESC", "Od&scaron;tampaj sadr&#382;aj");
+define("_MD_TRANSFER_PRINT","Od&scaron;tampaj");
+define("_MD_TRANSFER_PRINT_DESC","Od&scaron;tampaj sadr&#382;aj");
 ?>

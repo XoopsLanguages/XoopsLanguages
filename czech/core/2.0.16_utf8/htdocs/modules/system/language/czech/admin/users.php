@@ -54,5 +54,5 @@ define("_AM_CNGTST","Nelze získat celkový počet článků");
 define("_AM_CNUUSER","Uživatele nelze aktualizovat");
 define("_AM_CNGUSERID","Nelze získat ID uživatele");
 define("_AM_LIST","Seznam");
-define("_AM_NOUSERS", "Žádní uživatelé nejsou vybráni");
+define("_AM_NOUSERS","Žádní uživatelé nejsou vybráni");
 ?>

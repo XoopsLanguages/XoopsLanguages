@@ -12,5 +12,5 @@
 /*
  * Assocated with editor_registry.php
  */
-define("_XOOPS_EDITOR_TEXTAREA", "简易文本编辑框");
+define("_XOOPS_EDITOR_TEXTAREA","ç®€æ˜“æ–‡æœ¬ç¼–è¾‘æ¡†");
 ?>

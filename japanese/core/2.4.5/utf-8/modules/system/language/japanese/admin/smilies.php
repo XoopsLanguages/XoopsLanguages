@@ -22,6 +22,6 @@ define('_AM_SMILEEMOTION','意味：');
 define('_AM_ADD','追加');
 define('_AM_SAVE','保存');
 define('_AM_WAYSYWTDTS','この顔文字を削除してもよろしいですか？');
-define('_AM_DISPLAYF', '投稿フォームに表示する');
+define('_AM_DISPLAYF','投稿フォームに表示する');
 
 ?>

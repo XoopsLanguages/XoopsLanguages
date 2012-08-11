@@ -13,31 +13,31 @@ define("_AM_TH_AGENT","AGENT");
 define("_AM_TH_TYPE","種別");
 define("_AM_TH_DESCRIPTION","詳細");
 
-define( "_AM_TH_BADIPS" , '拒否IPリスト<br /><br /><span style="font-weight:normal;">１行１IPアドレスで記述してください（前方一致）。空欄なら全許可。</span>' ) ;
+define("_AM_TH_BADIPS" , '拒否IPリスト<br /><br /><span style="font-weight:normal;">１行１IPアドレスで記述してください（前方一致）。空欄なら全許可。</span>' ) ;
 
-define( "_AM_TH_GROUP1IPS" , '管理者グループ(1)の許可IP<br /><br /><span style="font-weight:normal;">１行１IPアドレスで記述してください（前方一致）。<br />192.168. とすれば、192.168.*からのみ管理者になれます。空欄なら全許可。</span>' ) ;
+define("_AM_TH_GROUP1IPS" , '管理者グループ(1)の許可IP<br /><br /><span style="font-weight:normal;">１行１IPアドレスで記述してください（前方一致）。<br />192.168. とすれば、192.168.*からのみ管理者になれます。空欄なら全許可。</span>' ) ;
 
-define( "_AM_LABEL_COMPACTLOG" , "ログをコンパクト化する" ) ;
-define( "_AM_BUTTON_COMPACTLOG" , "コンパクト化実行" ) ;
-define( "_AM_JS_COMPACTLOGCONFIRM" , "IPと種別の重複したレコードを削除します" ) ;
-define( "_AM_LABEL_REMOVEALL" , "全レコードを削除する:" ) ;
-define( "_AM_BUTTON_REMOVEALL" , "全削除実行" ) ;
-define( "_AM_JS_REMOVEALLCONFIRM" , "ログを無条件で削除します。本当によろしいですか？" ) ;
-define( "_AM_LABEL_REMOVE" , "チェックしたレコードを削除する:" ) ;
-define( "_AM_BUTTON_REMOVE" , "削除実行" ) ;
-define( "_AM_JS_REMOVECONFIRM" , "本当に削除してよろしいですか？" ) ;
-define( "_AM_MSG_IPFILESUPDATED" , "IPリストファイルを書き換えました" ) ;
-define( "_AM_MSG_BADIPSCANTOPEN" , "拒否IPリストファイルが開けません" ) ;
-define( "_AM_MSG_GROUP1IPSCANTOPEN" , "管理者用IPリストファイルが開けません" ) ;
-define( "_AM_MSG_REMOVED" , "削除しました" ) ;
-define( "_AM_FMT_CONFIGSNOTWRITABLE" , "configsディレクトリが書込許可されていません: %s" ) ;
+define("_AM_LABEL_COMPACTLOG" , "ログをコンパクト化する" ) ;
+define("_AM_BUTTON_COMPACTLOG" , "コンパクト化実行" ) ;
+define("_AM_JS_COMPACTLOGCONFIRM" , "IPと種別の重複したレコードを削除します" ) ;
+define("_AM_LABEL_REMOVEALL" , "全レコードを削除する:" ) ;
+define("_AM_BUTTON_REMOVEALL" , "全削除実行" ) ;
+define("_AM_JS_REMOVEALLCONFIRM" , "ログを無条件で削除します。本当によろしいですか？" ) ;
+define("_AM_LABEL_REMOVE" , "チェックしたレコードを削除する:" ) ;
+define("_AM_BUTTON_REMOVE" , "削除実行" ) ;
+define("_AM_JS_REMOVECONFIRM" , "本当に削除してよろしいですか？" ) ;
+define("_AM_MSG_IPFILESUPDATED" , "IPリストファイルを書き換えました" ) ;
+define("_AM_MSG_BADIPSCANTOPEN" , "拒否IPリストファイルが開けません" ) ;
+define("_AM_MSG_GROUP1IPSCANTOPEN" , "管理者用IPリストファイルが開けません" ) ;
+define("_AM_MSG_REMOVED" , "削除しました" ) ;
+define("_AM_FMT_CONFIGSNOTWRITABLE" , "configsディレクトリが書込許可されていません: %s" ) ;
 
 
 // prefix_manager.php
-define( "_AM_H3_PREFIXMAN" , "PREFIX マネージャ" ) ;
-define( "_AM_MSG_DBUPDATED" , "データベースが更新されました" ) ;
-define( "_AM_CONFIRM_DELETE" , "全テーブルが削除されますがよろしいですか?" ) ;
-define( "_AM_TXT_HOWTOCHANGEDB" , "prefixを変更する場合は、%s/mainfile.php 内の以下の部分を書き換えてください<br /><br />define('XOOPS_DB_PREFIX', '<b>%s</b>');" ) ;
+define("_AM_H3_PREFIXMAN" , "PREFIX マネージャ" ) ;
+define("_AM_MSG_DBUPDATED" , "データベースが更新されました" ) ;
+define("_AM_CONFIRM_DELETE" , "全テーブルが削除されますがよろしいですか?" ) ;
+define("_AM_TXT_HOWTOCHANGEDB" , "prefixを変更する場合は、%s/mainfile.php 内の以下の部分を書き換えてください<br /><br />define('XOOPS_DB_PREFIX','<b>%s</b>');" ) ;
 
 
 // advisory.php

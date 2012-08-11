@@ -12,13 +12,13 @@
 
 if (!defined('XOOPS_ROOT_PATH')) { exit(); }
 
-define('TAG_MD_TAGS', 'Labels');
-define('TAG_MD_TAG_ON', 'Label Aan');
-define('TAG_MD_TAGVIEW', "Items of Label <strong>%1\$s</strong> in %2\$s");
-define('TAG_MD_TAGLIST', "Label overzicht van <strong>%s</strong>");
-define('TAG_MD_JUMPTO', 'Ga naar');
-define('TAG_MD_TAG_DELIMITER', 'Volgende scheidingstekens zijn geldig voor meerdere labels');
-define('TAG_MD_INVALID', 'Ongeldige zoekopdracht');
+define('TAG_MD_TAGS','Labels');
+define('TAG_MD_TAG_ON','Label Aan');
+define('TAG_MD_TAGVIEW',"Items of Label <strong>%1\$s</strong> in %2\$s");
+define('TAG_MD_TAGLIST',"Label overzicht van <strong>%s</strong>");
+define('TAG_MD_JUMPTO','Ga naar');
+define('TAG_MD_TAG_DELIMITER','Volgende scheidingstekens zijn geldig voor meerdere labels');
+define('TAG_MD_INVALID','Ongeldige zoekopdracht');
 
 /**
  * Customize addons:

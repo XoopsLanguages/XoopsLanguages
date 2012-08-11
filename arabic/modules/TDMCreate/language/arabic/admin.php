@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 /**
  * ****************************************************************************
  *  - TDMCreate By TDM   - TEAM DEV MODULE FOR XOOPS
@@ -29,8 +29,8 @@ define("_AM_TDMCREATE_ADMIN_UPDATE","تحديث");
 //General
 define("_AM_TDMCREATE_FORMOK","تم الحفظ بنجاح");
 define("_AM_TDMCREATE_FORMDELOK","تم الحذف بنجاح");
-define("_AM_TDMCREATE_FORMSUREDEL", "هل انت متأكد انك تريد الحذف : <b><span style='color : Red'> %s </span></b>");
-define("_AM_TDMCREATE_FORMSURERENEW", "هل انت متأكد انك تريد التحديث : <b><span style='color : Red'> %s </span></b>");
+define("_AM_TDMCREATE_FORMSUREDEL","هل انت متأكد انك تريد الحذف : <b><span style='color : Red'> %s </span></b>");
+define("_AM_TDMCREATE_FORMSURERENEW","هل انت متأكد انك تريد التحديث : <b><span style='color : Red'> %s </span></b>");
 define("_AM_TDMCREATE_FORMUPLOAD","رفع");
 define("_AM_TDMCREATE_FORMIMAGE_PATH","الملف موجود في %s");
 define("_AM_TDMCREATE_FORMACTION","الوضع");
@@ -123,17 +123,17 @@ define("_AM_TDMCREATE_CONST_OK_SEARCH","انشاء ملف search.inc.php في م
 define("_AM_TDMCREATE_CONST_OK_INCLUDE_FUNCTIONS","انشاء ملف functions.php في مجلد include");
 define("_AM_TDMCREATE_CONST_OK_ADMIN_PERMISSIONS","انشاء ملف permissions.php في مجلد admin");
 //NOTOK
-define("_AM_TDMCREATE_CONST_NOTOK_ARCHITECTURE", "مسكلة : انشاء هندسة الموديول (الملفات, index.html, الايقونات,...)");
-define("_AM_TDMCREATE_CONST_NOTOK_XOOPS_VERSION", "مسكلة : انشاء xoops_version.php");
-define("_AM_TDMCREATE_CONST_NOTOK_CLASS", "مسكلة : انشاء class %s.php في مجلد class");
-define("_AM_TDMCREATE_CONST_NOTOK_CLASS_MENU", "مسكلة : انشاء كلاسة menu.php في مجلد class");
-define("_AM_TDMCREATE_CONST_NOTOK_BLOCS", "مسكلة : انشاء البلوكات في مجلد blocks");
-define("_AM_TDMCREATE_CONST_NOTOK_SQL", "مسكلة : انشاء  mysql.sql في مجلد sql");
-define("_AM_TDMCREATE_CONST_NOTOK_ADMIN_HEADER", "مسكلة : انشاء admin_header.php في مجلد admin");
-define("_AM_TDMCREATE_CONST_NOTOK_ADMIN_MENU", "مسكلة : انشاء menu.php في مجلد admin");
-define("_AM_TDMCREATE_CONST_NOTOK_ADMIN_INDEX", "مسكلة : انشاء index.php في مجلد admin");
-define("_AM_TDMCREATE_CONST_NOTOK_ADMIN_PAGES", "مسكلة : انشاء %s.php في مجلد admin");
-define("_AM_TDMCREATE_CONST_NOTOK_ADMIN_ABOUT", "مسكلة : انشاء about.php في مجلد admin");
+define("_AM_TDMCREATE_CONST_NOTOK_ARCHITECTURE","مسكلة : انشاء هندسة الموديول (الملفات, index.html, الايقونات,...)");
+define("_AM_TDMCREATE_CONST_NOTOK_XOOPS_VERSION","مسكلة : انشاء xoops_version.php");
+define("_AM_TDMCREATE_CONST_NOTOK_CLASS","مسكلة : انشاء class %s.php في مجلد class");
+define("_AM_TDMCREATE_CONST_NOTOK_CLASS_MENU","مسكلة : انشاء كلاسة menu.php في مجلد class");
+define("_AM_TDMCREATE_CONST_NOTOK_BLOCS","مسكلة : انشاء البلوكات في مجلد blocks");
+define("_AM_TDMCREATE_CONST_NOTOK_SQL","مسكلة : انشاء  mysql.sql في مجلد sql");
+define("_AM_TDMCREATE_CONST_NOTOK_ADMIN_HEADER","مسكلة : انشاء admin_header.php في مجلد admin");
+define("_AM_TDMCREATE_CONST_NOTOK_ADMIN_MENU","مسكلة : انشاء menu.php في مجلد admin");
+define("_AM_TDMCREATE_CONST_NOTOK_ADMIN_INDEX","مسكلة : انشاء index.php في مجلد admin");
+define("_AM_TDMCREATE_CONST_NOTOK_ADMIN_PAGES","مسكلة : انشاء %s.php في مجلد admin");
+define("_AM_TDMCREATE_CONST_NOTOK_ADMIN_ABOUT","مسكلة : انشاء about.php في مجلد admin");
 define("_AM_TDMCREATE_CONST_NOTOK_ADMIN_LANGUAGE","مسكلة : انشاء admin.php في مجلد language");
 define("_AM_TDMCREATE_CONST_NOTOK_BLOCS_LANGUAGE","مسكلة : انشاء blocks.php في مجلد language");
 define("_AM_TDMCREATE_CONST_NOTOK_BLOCS_TEMPLATE","مسكلة : انشاء blocks.html في مجلد templates/blocks");

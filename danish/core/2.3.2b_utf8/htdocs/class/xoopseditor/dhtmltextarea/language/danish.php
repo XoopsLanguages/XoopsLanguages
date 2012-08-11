@@ -11,6 +11,6 @@
  */
 /*
  * Assocated with editor_registry.php
- */ Æ - Ø - Å
-define("_XOOPS_EDITOR_DHTMLTEXTAREA", "DHTML med xCode");
+ */ Ãƒâ€  - ÃƒËœ - Ãƒâ€¦
+define("_XOOPS_EDITOR_DHTMLTEXTAREA","DHTML med xCode");
 ?>

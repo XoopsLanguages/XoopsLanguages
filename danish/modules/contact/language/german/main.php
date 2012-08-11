@@ -1,5 +1,5 @@
 <?php
-// deutscher Sprachfile ¸bersetzt von: studioC - Michael Hokamp - http://www.myxoops.org
+// deutscher Sprachfile √ºbersetzt von: studioC - Michael Hokamp - http://www.myxoops.org
 define("_CT_NAME","Name");
 define("_CT_EMAIL","Email");
 define("_CT_URL","URL");
@@ -11,20 +11,20 @@ define("_CT_SUBMIT","Abschicken");
 define("_CT_YOURMESSAGE","Ihre Nachricht:");
 define("_CT_WEBMASTER","Webmaster");
 define("_CT_HELLO","Hallo %s,");
-define("_CT_THANKYOUCOMMENTS","Vielen Dank f¸r die Nachricht an %s.");
+define("_CT_THANKYOUCOMMENTS","Vielen Dank f√ºr die Nachricht an %s.");
 define("_CT_SENTTOWEBMASTER","Ihre Nachricht an %s wurde verschickt.");
 define("_CT_SUBMITTED","%s schickt die folgende Nachricht:");
 define("_CT_MESSAGESENT","Nachricht an %s verschickt!");
-define("_CT_CONFIRM", "Best‰tigungs-Mail");
-define("_CT_SENDCONFIRMEMAIL", "Bestaetigungsmail an %s verschicken?");
-define("_CT_SENDCONFIRM", "Aktivieren, um ein Best‰tigungsmail zu erhalten!" );
-define("_CT_SENTASCONFIRM","Ihre Nachricht wurde an: %s als Best‰tigungsmail geschickt.");
-define("_CT_ADDRESS", "Addresse");
-define("_CT_SECURITY_CODE", "Sicherheitscode" );
-define("_CT_SECURITY_TYPE", "Bitte Sicherheitscode eingeben" );
-define("_CT_ERROR_CONDITIONHEAD", "Fehler!");
-define("_CT_ERROR_CONDITION", "<b>Bitte angegebenen Fehler korrigieren!</b><br />" );
-define("_CT_ERROR_BADSECVALUE_MSG", "Der Sicherheitscode ist ung¸ltig!<br />");
-define("_CT_ERROR_BADEMAIL_MSG", "Bitte pr¸fen Sie die eigegebene Email-Adresse!<br />");
-define("_CT_NO_SPAM", "Kein SPAM! Oder?");
+define("_CT_CONFIRM","Best√§tigungs-Mail");
+define("_CT_SENDCONFIRMEMAIL","Bestaetigungsmail an %s verschicken?");
+define("_CT_SENDCONFIRM","Aktivieren, um ein Best√§tigungsmail zu erhalten!" );
+define("_CT_SENTASCONFIRM","Ihre Nachricht wurde an: %s als Best√§tigungsmail geschickt.");
+define("_CT_ADDRESS","Addresse");
+define("_CT_SECURITY_CODE","Sicherheitscode" );
+define("_CT_SECURITY_TYPE","Bitte Sicherheitscode eingeben" );
+define("_CT_ERROR_CONDITIONHEAD","Fehler!");
+define("_CT_ERROR_CONDITION","<b>Bitte angegebenen Fehler korrigieren!</b><br />" );
+define("_CT_ERROR_BADSECVALUE_MSG","Der Sicherheitscode ist ung√ºltig!<br />");
+define("_CT_ERROR_BADEMAIL_MSG","Bitte pr√ºfen Sie die eigegebene Email-Adresse!<br />");
+define("_CT_NO_SPAM","Kein SPAM! Oder?");
 ?>

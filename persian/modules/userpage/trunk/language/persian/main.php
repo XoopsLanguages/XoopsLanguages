@@ -37,7 +37,7 @@ define("_USERPAGE_INTARTICLE","صفحه جالب در %s");
 define("_USERPAGE_INTARTFOUND","این یه صفحه جالبه که من در سایت %s پیدا کردم");
 define("_USERPAGE_EMPTY_PAGE","صفحه خالی است");
 define("_USERPAGE_DB_OK","پایگاه داده به روز شد");
-define("_USERPAGE_DB_PB", "خطا در هنگام به روز شدن پایگاه داده");
+define("_USERPAGE_DB_PB","خطا در هنگام به روز شدن پایگاه داده");
 define("_USERPAGE_PAGE_NOT_FOUND","صفحه پیدا نشد");
 define("_USERPAGE_PAGE_OF","صفحه ");
 define("_USERPAGE_THISCOMESFROM","این صفحه از سایت %s آدرس داده شده است");

@@ -13,6 +13,6 @@
  * @package		Frameworks::transfer
  */
  
-define("_MD_TRANSFER_WORDPRESS", "ورد پرس");
-define("_MD_TRANSFER_WORDPRESS_DESC", "ارسال به ورد پرس");
+define("_MD_TRANSFER_WORDPRESS","ورد پرس");
+define("_MD_TRANSFER_WORDPRESS_DESC","ارسال به ورد پرس");
 ?>

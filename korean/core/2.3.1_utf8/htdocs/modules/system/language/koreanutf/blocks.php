@@ -37,7 +37,7 @@ define("_MB_SYSTEM_ADVS","상세 검색");
 define("_MB_SYSTEM_VACNT","계정정보보기");
 define("_MB_SYSTEM_EACNT","계정정보편집");
 // RMV-NOTIFY
-define("_MB_SYSTEM_NOTIF", "이벤트통지기능");
+define("_MB_SYSTEM_NOTIF","이벤트통지기능");
 define("_MB_SYSTEM_LOUT","로그아웃");
 define("_MB_SYSTEM_INBOX","수신박스");
 define("_MB_SYSTEM_SUBMS","신규투고뉴스");
@@ -52,9 +52,9 @@ define("_MB_SYSTEM_RECO","이 사이트를 추천!");
 define("_MB_SYSTEM_PWWIDTH","팝업윈도우 폭");
 define("_MB_SYSTEM_PWHEIGHT","팝업윈도우 높이");
 define("_MB_SYSTEM_LOGO","%s 디렉토리안의 로고파일이름");  // %s is your root image directory name
-define("_MB_SYSTEM_COMPEND", "코멘트");
+define("_MB_SYSTEM_COMPEND","코멘트");
 
-//define("_MB_SYSTEM_LOGGEDINAS", "Logged in as");
+//define("_MB_SYSTEM_LOGGEDINAS","Logged in as");
 define("_MB_SYSTEM_SADMIN","관리자그룹을 표시함");
 define("_MB_SYSTEM_SPMTO","%s 님에게 PM쪽지를 보냄");
 define("_MB_SYSTEM_SEMTO","%s 님에게 메일을 보냄");
@@ -64,11 +64,11 @@ define("_MB_SYSTEM_DISPLAYA","등록회원의 아바타를 표시");
 define("_MB_SYSTEM_NODISPGR","이하의 특별랭크의 등록회원은 표시하지않음:");
 
 define("_MB_SYSTEM_DISPLAYC"," %s 개의 코멘트를 표시");
-define("_MB_SYSTEM_SECURE", "SSL");
+define("_MB_SYSTEM_SECURE","SSL");
 
-define("_MB_SYSTEM_NUMTHEME", "%s 테마");
-define("_MB_SYSTEM_THSHOW", "스크린샷 그림파일의 표시");
-define("_MB_SYSTEM_THWIDTH", "스크린샷 그림파일의 폭");
-define('_MB_SYSTEM_REMEMBERME', '자동로그인');
+define("_MB_SYSTEM_NUMTHEME","%s 테마");
+define("_MB_SYSTEM_THSHOW","스크린샷 그림파일의 표시");
+define("_MB_SYSTEM_THWIDTH","스크린샷 그림파일의 폭");
+define('_MB_SYSTEM_REMEMBERME','자동로그인');
 
 ?>

@@ -16,5 +16,5 @@
 // _CHARSET : UTF-8
 // Translator: andrey3761
 
-define("_XOOPS_EDITOR_TEXTAREA", "Простой текст");
+define("_XOOPS_EDITOR_TEXTAREA","Простой текст");
 ?>

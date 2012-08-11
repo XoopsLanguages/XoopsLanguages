@@ -34,8 +34,8 @@ define('_AD_NICKNAME','Nadimak');
 define('_AD_EMAIL','Email');
 define('_AD_AVATAR','Avatar');
 define('_AD_REGISTERED','Registriran'); //Datum registracije
-define('_AD_PRESSGEN', 'Ovo vam je prvi put da ulazite u administracijski dio. Pritisnite donju tipku da bi nastavili.');
-define('_AD_LOGINADMIN', 'Prijavljujem vas...');
+define('_AD_PRESSGEN','Ovo vam je prvi put da ulazite u administracijski dio. Pritisnite donju tipku da bi nastavili.');
+define('_AD_LOGINADMIN','Prijavljujem vas...');
 define('_AD_WARNINGINSTALL','WARNING: Mapa %s postoji na vašem poslužitelju. <br />Molimo obrišite ovu mapu iz sigurnosnih razloga.');
 define('_AD_WARNINGWRITEABLE','WARNING: U datoteku %s je moguće pisati sa poslužitelja. <br />Molimo promjenite dozvole ove datoteke iz sigurnosnih razloga.<br /> na Unixu (444), u Win32 (read-only)');
 define('_AD_WARNINGNOTWRITEABLE','WARNING: U mapu %s se ne može zapisivati sa poslužitelja. <br />Molimo promjenite dozvole ove mape.<br /> na Unixu (777), u Win32 (writable)');

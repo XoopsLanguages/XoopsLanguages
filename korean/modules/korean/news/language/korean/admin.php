@@ -30,90 +30,90 @@
 //  ------------------------------------------------------------------------ //
 
 //%%%%%%	Admin Module Name  Articles 	%%%%%
-define("_AM_DBUPDATED","µ¥ÀÌÅ¸º£ÀÌ½º¸¦ ¼º°øÀûÀ¸·Î °»½ÅÇÏ¿´½À´Ï´Ù!");
-define("_AM_CONFIG","´º½º ¼³Á¤");
-define("_AM_AUTOARTICLES","°ÔÀç ¿¹Á¤ ±â»ç");
-define("_AM_STORYID","´º½º±â»ç ID");
-define("_AM_TITLE","Á¦¸ñ");
-define("_AM_TOPIC","ÅäÇÈ");
-define("_AM_POSTER","Åõ°íÀÚ");
-define("_AM_PROGRAMMED","°ÔÀç ¿¹Á¤ ÀÏ½Ã");
-define("_AM_ACTION","°ü¸®");
-define("_AM_EDIT","ÆíÁý");
-define("_AM_DELETE","»èÁ¦");
-define("_AM_LAST10ARTS","ÃÖ½Å ´º½º±â»ç 10");
-define("_AM_PUBLISHED","°ÔÀçÀÏ½Ã"); // Published Date
-define("_AM_GO","º¸³»±â");
-define("_AM_EDITARTICLE","´º½º±â»ç ÆíÁý");
-define("_AM_POSTNEWARTICLE","½Å±Ô ´º½º±â»ç ÀÛ¼º");
-define("_AM_ARTPUBLISHED","´º½º±â»ç°¡ °ÔÀçµÇ¾ú½À´Ï´Ù.");
-define("_AM_HELLO","%s ´Ô,¾È³çÇÏ¼¼¿ä!");
-define("_AM_YOURARTPUB","´Ô²²¼­ Åõ°íÇÏ½Å ´º½º±â»ç°¡ Á¤½ÄÀ¸·Î µî·Ï/°ÔÀç µÇ¾ú½À´Ï´Ù.");
-define("_AM_TITLEC","Á¦¸ñ: ");
+define("_AM_DBUPDATED","ï¿½ï¿½ï¿½ï¿½Å¸ï¿½ï¿½ï¿½Ì½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï¿ï¿½ï¿½ï¿½ï¿½Ï´ï¿½!");
+define("_AM_CONFIG","ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½");
+define("_AM_AUTOARTICLES","ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½");
+define("_AM_STORYID","ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ID");
+define("_AM_TITLE","ï¿½ï¿½ï¿½ï¿½");
+define("_AM_TOPIC","ï¿½ï¿½ï¿½ï¿½");
+define("_AM_POSTER","ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
+define("_AM_PROGRAMMED","ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ï½ï¿½");
+define("_AM_ACTION","ï¿½ï¿½ï¿½ï¿½");
+define("_AM_EDIT","ï¿½ï¿½ï¿½ï¿½");
+define("_AM_DELETE","ï¿½ï¿½ï¿½ï¿½");
+define("_AM_LAST10ARTS","ï¿½Ö½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ 10");
+define("_AM_PUBLISHED","ï¿½ï¿½ï¿½ï¿½ï¿½Ï½ï¿½"); // Published Date
+define("_AM_GO","ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
+define("_AM_EDITARTICLE","ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½");
+define("_AM_POSTNEWARTICLE","ï¿½Å±ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Û¼ï¿½");
+define("_AM_ARTPUBLISHED","ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ç°¡ ï¿½ï¿½ï¿½ï¿½Ç¾ï¿½ï¿½ï¿½ï¿½Ï´ï¿½.");
+define("_AM_HELLO","%s ï¿½ï¿½,ï¿½È³ï¿½ï¿½Ï¼ï¿½ï¿½ï¿½!");
+define("_AM_YOURARTPUB","ï¿½Ô²ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ç°¡ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½/ï¿½ï¿½ï¿½ï¿½ ï¿½Ç¾ï¿½ï¿½ï¿½ï¿½Ï´ï¿½.");
+define("_AM_TITLEC","ï¿½ï¿½ï¿½ï¿½: ");
 define("_AM_URLC","URL: ");
-define("_AM_PUBLISHEDC","°ÔÀçÀÏ½Ã: ");
-define("_AM_RUSUREDEL","Á¤¸»·Î ÀÌ ´º½º±â»ç¿Í ±×¿¡ ¼ÓÇÑ ÄÚ¸àÆ®µîÀ» ¸ðµÎ »èÁ¦ÇÏ½Ç °Ç°¡¿ä?");
-define("_AM_YES","¿¹");
-define("_AM_NO","¾Æ´Ï¿ä");
-define("_AM_INTROTEXT","½ÃÀÛ º»¹®");
-define("_AM_EXTEXT","È®Àå º»¹®");
-define("_AM_ALLOWEDHTML","»ç¿ë°¡´É HTMLÅÂ±×:");
-define("_AM_DISAMILEY","¾ó±¼¾ÆÀÌÄÜÀ» ¹«È¿È­");
-define("_AM_DISHTML","HTMLÀ» ¹«È¿È­");
-define("_AM_APPROVE","½ÂÀÎ");
-define("_AM_MOVETOTOP","ÀÌ ±â»ç¸¦ ¸ÞÀÎÆäÀÌÁö ÃÖ»ó´ÜÀ¸·Î ÀÌµ¿ÇÔ");
-define("_AM_CHANGEDATETIME","°ÔÀçÀÏ½Ã¸¦ º¯°æÇÔ");
-define("_AM_NOWSETTIME","ÇöÀç °ÔÀç¿¹Á¤ÀÏ½Ã: %s"); // %s is datetime of publish
-define("_AM_CURRENTTIME","ÇöÀç ½Ã°¢: %s");  // %s is the current datetime
-define("_AM_SETDATETIME","°ÔÀçÀÏ½Ã¸¦ ¼³Á¤");
-define("_AM_MONTHC","¿ù:");
-define("_AM_DAYC","ÀÏ:");
-define("_AM_YEARC","³â:");
-define("_AM_TIMEC","½Ã°¢:");
-define("_AM_PREVIEW","¹Ì¸®º¸±â");
-define("_AM_SAVE","ÀúÀå");
-define("_AM_PUBINHOME","¸ÞÀÎÆäÀÌÁö¿¡ °ÔÀçÇÔ");
-define("_AM_ADD","Ã·°¡");
+define("_AM_PUBLISHEDC","ï¿½ï¿½ï¿½ï¿½ï¿½Ï½ï¿½: ");
+define("_AM_RUSUREDEL","ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½×¿ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ú¸ï¿½Æ®ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï½ï¿½ ï¿½Ç°ï¿½ï¿½ï¿½?");
+define("_AM_YES","ï¿½ï¿½");
+define("_AM_NO","ï¿½Æ´Ï¿ï¿½");
+define("_AM_INTROTEXT","ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½");
+define("_AM_EXTEXT","È®ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½");
+define("_AM_ALLOWEDHTML","ï¿½ï¿½ë°¡ï¿½ï¿½ HTMLï¿½Â±ï¿½:");
+define("_AM_DISAMILEY","ï¿½ó±¼¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½È¿È­");
+define("_AM_DISHTML","HTMLï¿½ï¿½ ï¿½ï¿½È¿È­");
+define("_AM_APPROVE","ï¿½ï¿½ï¿½ï¿½");
+define("_AM_MOVETOTOP","ï¿½ï¿½ ï¿½ï¿½ç¸¦ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ö»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ìµï¿½ï¿½ï¿½");
+define("_AM_CHANGEDATETIME","ï¿½ï¿½ï¿½ï¿½ï¿½Ï½Ã¸ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
+define("_AM_NOWSETTIME","ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ç¿¹ï¿½ï¿½ï¿½Ï½ï¿½: %s"); // %s is datetime of publish
+define("_AM_CURRENTTIME","ï¿½ï¿½ï¿½ï¿½ ï¿½Ã°ï¿½: %s");  // %s is the current datetime
+define("_AM_SETDATETIME","ï¿½ï¿½ï¿½ï¿½ï¿½Ï½Ã¸ï¿½ ï¿½ï¿½ï¿½ï¿½");
+define("_AM_MONTHC","ï¿½ï¿½:");
+define("_AM_DAYC","ï¿½ï¿½:");
+define("_AM_YEARC","ï¿½ï¿½:");
+define("_AM_TIMEC","ï¿½Ã°ï¿½:");
+define("_AM_PREVIEW","ï¿½Ì¸ï¿½ï¿½ï¿½ï¿½ï¿½");
+define("_AM_SAVE","ï¿½ï¿½ï¿½ï¿½");
+define("_AM_PUBINHOME","ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
+define("_AM_ADD","Ã·ï¿½ï¿½");
 
 //%%%%%%	Admin Module Name  Topics 	%%%%%
 
-define("_AM_ADDMTOPIC","¸ÞÀÎ ÅäÇÈ ÀÛ¼º");
-define("_AM_TOPICNAME","ÅäÇÈ¸í");
-define("_AM_MAX40CHAR","(ÃÖ´ë 20ÀÚ)");
-define("_AM_TOPICIMG","ÅäÇÈ ±×¸²ÆÄÀÏ");
-define("_AM_IMGNAEXLOC","%s ¿¡ ÀÖ´Â ±×¸²ÆÄÀÏ¸í");
-define("_AM_FEXAMPLE","¿¹: games.gif");
-define("_AM_ADDSUBTOPIC","¼­ºê ÅäÇÈ ÀÛ¼º");
-define("_AM_IN","ºÎ¸ð ÅäÇÈ");
-define("_AM_MODIFYTOPIC","ÅäÇÈ ÆíÁý");
-define("_AM_MODIFY","º¸³»±â");
-define("_AM_PARENTTOPIC","ºÎ¸ð ÅäÇÈ");
-define("_AM_SAVECHANGE","º¯°æÀúÀå");
-define("_AM_DEL","»èÁ¦");
-define("_AM_CANCEL","Ãë¼Ò");
-define("_AM_WAYSYWTDTTAL","WARNING: Á¤¸»·Î ÀÌ ÅäÇÈ°ú ÀÌ¿¡ ¼ÓÇÑ ¸ðµç ´º½º±â»ç,ÄÚ¸àÆ® µîÀ» »èÁ¦ÇÏ½Ã°Ú½À´Ï±î?");
+define("_AM_ADDMTOPIC","ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Û¼ï¿½");
+define("_AM_TOPICNAME","ï¿½ï¿½ï¿½È¸ï¿½");
+define("_AM_MAX40CHAR","(ï¿½Ö´ï¿½ 20ï¿½ï¿½)");
+define("_AM_TOPICIMG","ï¿½ï¿½ï¿½ï¿½ ï¿½×¸ï¿½ï¿½ï¿½ï¿½ï¿½");
+define("_AM_IMGNAEXLOC","%s ï¿½ï¿½ ï¿½Ö´ï¿½ ï¿½×¸ï¿½ï¿½ï¿½ï¿½Ï¸ï¿½");
+define("_AM_FEXAMPLE","ï¿½ï¿½: games.gif");
+define("_AM_ADDSUBTOPIC","ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Û¼ï¿½");
+define("_AM_IN","ï¿½Î¸ï¿½ ï¿½ï¿½ï¿½ï¿½");
+define("_AM_MODIFYTOPIC","ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½");
+define("_AM_MODIFY","ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
+define("_AM_PARENTTOPIC","ï¿½Î¸ï¿½ ï¿½ï¿½ï¿½ï¿½");
+define("_AM_SAVECHANGE","ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
+define("_AM_DEL","ï¿½ï¿½ï¿½ï¿½");
+define("_AM_CANCEL","ï¿½ï¿½ï¿½");
+define("_AM_WAYSYWTDTTAL","WARNING: ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½È°ï¿½ ï¿½Ì¿ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½,ï¿½Ú¸ï¿½Æ® ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï½Ã°Ú½ï¿½ï¿½Ï±ï¿½?");
 
 
 // Added in Beta6
-define("_AM_TOPICSMNGR","ÅäÇÈ °ü¸® ¸Þ´º");
-define("_AM_PEARTICLES","´º½º±â»ç Åõ°í/ÆíÁý");
-define("_AM_NEWSUB","½Å±Ô Åõ°í ±â»ç");
-define("_AM_POSTED","Åõ°íÀÏ½Ã");
-define("_AM_GENERALCONF","ÀÏ¹Ý¼³Á¤");
+define("_AM_TOPICSMNGR","ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Þ´ï¿½");
+define("_AM_PEARTICLES","ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½/ï¿½ï¿½ï¿½ï¿½");
+define("_AM_NEWSUB","ï¿½Å±ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½");
+define("_AM_POSTED","ï¿½ï¿½ï¿½ï¿½ï¿½Ï½ï¿½");
+define("_AM_GENERALCONF","ï¿½Ï¹Ý¼ï¿½ï¿½ï¿½");
 
 // Added in RC2
-define("_AM_TOPICDISPLAY","ÅäÇÈ ±×¸²ÆÄÀÏÀ» Ç¥½Ã");
-define("_AM_TOPICALIGN","À§Ä¡");
-define("_AM_RIGHT","¿À¸¥ÂÊ");
-define("_AM_LEFT","¿ÞÂÊ");
+define("_AM_TOPICDISPLAY","ï¿½ï¿½ï¿½ï¿½ ï¿½×¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Ç¥ï¿½ï¿½");
+define("_AM_TOPICALIGN","ï¿½ï¿½Ä¡");
+define("_AM_RIGHT","ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
+define("_AM_LEFT","ï¿½ï¿½ï¿½ï¿½");
 
-define("_AM_EXPARTS","±âÇÑÁ¾·á±â»ç");
-define("_AM_EXPIRED","±âÇÑÁ¾·á");
-define("_AM_CHANGEEXPDATETIME","À¯È¿±âÇÑÀ» º¯°æ");
-define("_AM_SETEXPDATETIME","À¯È¿±âÇÑÀ» ¼³Á¤");
-define("_AM_NOWSETEXPTIME","ÇöÀç ¼³Á¤µÈ ±âÇÑ : %s");
+define("_AM_EXPARTS","ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
+define("_AM_EXPIRED","ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
+define("_AM_CHANGEEXPDATETIME","ï¿½ï¿½È¿ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½");
+define("_AM_SETEXPDATETIME","ï¿½ï¿½È¿ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½");
+define("_AM_NOWSETEXPTIME","ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ : %s");
 
 // Added in RC3
-define("_AM_ERRORTOPICNAME", "ÅäÇÈ¸íÀÌ ±âÀÔµÇ¾î ÀÖÁö ¾Ê½À´Ï´Ù.");
-define("_AM_EMPTYNODELETE", "»èÁ¦ÇÒ °ÍÀÌ ¾ø½À´Ï´Ù.");
+define("_AM_ERRORTOPICNAME","ï¿½ï¿½ï¿½È¸ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ÔµÇ¾ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ê½ï¿½ï¿½Ï´ï¿½.");
+define("_AM_EMPTYNODELETE","ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï´ï¿½.");
 ?>

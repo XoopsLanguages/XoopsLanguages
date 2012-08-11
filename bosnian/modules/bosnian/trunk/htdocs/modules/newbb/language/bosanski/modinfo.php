@@ -71,18 +71,18 @@ define("_MI_IMAGELIB","Biblioteku grafike izaberi");
 define("_MI_IMAGELIB_DESC","Postavi sa &#269;ime treba thumbnails napraviti. AUTO se postavlja za automatsko prepoznavanje.");
 
 define("_MI_MAX_IMG_WIDTH","Maximalna &scaron;irina slike");
-define("_MI_MAX_IMG_WIDTH_DESC", "Stavi maximalnu dozvolu <strong>&scaron;irin</strong> uploadane slike. Ina&#269;e &#263;e se thumbnail napraviti. <br > 0 daj ako netreba thumbnails da se napravi.");
+define("_MI_MAX_IMG_WIDTH_DESC","Stavi maximalnu dozvolu <strong>&scaron;irin</strong> uploadane slike. Ina&#269;e &#263;e se thumbnail napraviti. <br > 0 daj ako netreba thumbnails da se napravi.");
 
 define("_MI_MAX_IMAGE_WIDTH","Maximalna &scaron;irina slike za thumbnail");
-define("_MI_MAX_IMAGE_WIDTH_DESC", "Stavi maximalnu &scaron;irinu uploadane slike za thumbnail .<br >Iz slike koja ima veliku  &scaron;irinu ne&#263;e thumbnail biti napravljen.");
+define("_MI_MAX_IMAGE_WIDTH_DESC","Stavi maximalnu &scaron;irinu uploadane slike za thumbnail .<br >Iz slike koja ima veliku  &scaron;irinu ne&#263;e thumbnail biti napravljen.");
 
 define("_MI_MAX_IMAGE_HEIGHT","Maximalna visina slike za thumbnail");
-define("_MI_MAX_IMAGE_HEIGHT_DESC", "Stavi maximalnu visinu uploadane slike za thumbnail .<br >Iz slike koja ima veliku  visinu ne&#263;e thumbnail biti napravljen.");
+define("_MI_MAX_IMAGE_HEIGHT_DESC","Stavi maximalnu visinu uploadane slike za thumbnail .<br >Iz slike koja ima veliku  visinu ne&#263;e thumbnail biti napravljen.");
 
 define("_MI_SHOW_DIS","Pravilnik prika&#382;i kod");
 define("_MI_DISCLAIMER","Pravilnik");
 define("_MI_DISCLAIMER_DESC","Ovde upi&scaron;i Pravilnik kojeg treba gore u izabranoj opciji prikazati.");
-define("_MI_DISCLAIMER_TEXT", "Forum na&scaron; ima jako puno informacija o Na&scaron;oj Orahovici i samim na&scaron;im Orahov&#269;anima. <br /><br />Molim vas da prije svega pro&#269;itate Pravilnik i da se pridr&#382;avate pravila,jer respektiranjem smo na nivou po&scaron;tovanja jedih prema drugim.Pregledajte Forum i izbjegavajte duple diskusije,pratite gdje se o &#269;emu diskutuje i raspravlja.Koristite Forumsku pretragu ona vam mo&#382;e u pretrazi najvi&scaron;e pomo&#263;i.Kontaktirajte nas ako trebate pomo&#263;,uvijek smo tu da vam svima pomognemo.");
+define("_MI_DISCLAIMER_TEXT","Forum na&scaron; ima jako puno informacija o Na&scaron;oj Orahovici i samim na&scaron;im Orahov&#269;anima. <br /><br />Molim vas da prije svega pro&#269;itate Pravilnik i da se pridr&#382;avate pravila,jer respektiranjem smo na nivou po&scaron;tovanja jedih prema drugim.Pregledajte Forum i izbjegavajte duple diskusije,pratite gdje se o &#269;emu diskutuje i raspravlja.Koristite Forumsku pretragu ona vam mo&#382;e u pretrazi najvi&scaron;e pomo&#263;i.Kontaktirajte nas ako trebate pomo&#263;,uvijek smo tu da vam svima pomognemo.");
 define("_MI_NONE","Nikome");
 define("_MI_POST","Post sa&#269;uvaj");
 define("_MI_REPLY","Odgovori");
@@ -93,21 +93,21 @@ define("_MI_WOL_ENABLE_DESC","Aktiviraj 'Ko je online' Blok u Forumskom pregledu
 //define("_MI_WOL_ADMIN_COL_DESC","Farbe mit der Administratoren innerhalb des 'Wer ist online' Block hervorgehoben werden sollen.");
 //define("_MI_WOL_MOD_COL","Moderator Highlight Farbe");
 //define("_MI_WOL_MOD_COL_DESC","Farbe mit der Moderatoren innerhalb des 'Wer ist online' Block hervorgehoben werden sollen.");
-//define("_MI_LEVELS_ENABLE", "HP/MP/EXP Levels Mod einschalten");
-//define("_MI_LEVELS_ENABLE_DESC", "<strong>HP</strong>  is determined by your average posts per day.<br /><strong>MP</strong>  is determined by your join date related to your post count.<br /><strong>EXP</strong> goes up each time you post, and when you get to 100%, you gain a level and the EXP drops to 0 again.");
-define("_MI_NULL", "isklju&#269;i");
-define("_MI_TEXT", "Tekst");
-define("_MI_GRAPHIC", "Grafi&#269;ki");
-define("_MI_USERLEVEL", "HP/MP/EXP Level Mod  uklju&#269;i");
-define("_MI_USERLEVEL_DESC", "<strong>HP</strong> = Ozna&#269;ava broj Postova na dan Tag.<br /><strong>MP</strong> = Veza izme&#273;u datuma registracije i Postova do sada u ovom vremenu.<br /><strong>EXP</strong> = Ova oznaka se povisuje kod svakog upianog Posta u Forumu. Kada bude 100% onda se Level iskustva podi&#382; za jedan stupanj i po&#269;inje iz po&#269;etka dalje.");
+//define("_MI_LEVELS_ENABLE","HP/MP/EXP Levels Mod einschalten");
+//define("_MI_LEVELS_ENABLE_DESC","<strong>HP</strong>  is determined by your average posts per day.<br /><strong>MP</strong>  is determined by your join date related to your post count.<br /><strong>EXP</strong> goes up each time you post, and when you get to 100%, you gain a level and the EXP drops to 0 again.");
+define("_MI_NULL","isklju&#269;i");
+define("_MI_TEXT","Tekst");
+define("_MI_GRAPHIC","Grafi&#269;ki");
+define("_MI_USERLEVEL","HP/MP/EXP Level Mod  uklju&#269;i");
+define("_MI_USERLEVEL_DESC","<strong>HP</strong> = Ozna&#269;ava broj Postova na dan Tag.<br /><strong>MP</strong> = Veza izme&#273;u datuma registracije i Postova do sada u ovom vremenu.<br /><strong>EXP</strong> = Ova oznaka se povisuje kod svakog upianog Posta u Forumu. Kada bude 100% onda se Level iskustva podi&#382; za jedan stupanj i po&#269;inje iz po&#269;etka dalje.");
 define("_MI_RSS_ENABLE","RSS-Feed aktiviraj");
 define("_MI_RSS_ENABLE_DESC","Aktivirani RSS-Feed. Molim te datu opciju promjeni i daj maximalni broj Postova i maximalnu du&#382;inu opisa unesi.");
-define("_MI_RSS_MAX_ITEMS", "Max. Postova");
-define("_MI_RSS_MAX_DESCRIPTION", "Max. du&#382;ina opisa");
-define("_MI_RSS_UTF8", "RSS-Codiranje sa UTF-8");
-define("_MI_RSS_UTF8_DESCRIPTION", "'UTF-8' se koristi, ako je ova opcija izabrana. SIna&#269;e se '"._CHARSET."' koristi.");
-define("_MI_RSS_CACHETIME", "RSS-Feed Cache vrijeme");
-define("_MI_RSS_CACHETIME_DESCRIPTION", "Cache vrijeme do RSS-Feed ponovo generiraj, u minutama.");
+define("_MI_RSS_MAX_ITEMS","Max. Postova");
+define("_MI_RSS_MAX_DESCRIPTION","Max. du&#382;ina opisa");
+define("_MI_RSS_UTF8","RSS-Codiranje sa UTF-8");
+define("_MI_RSS_UTF8_DESCRIPTION","'UTF-8' se koristi, ako je ova opcija izabrana. SIna&#269;e se '"._CHARSET."' koristi.");
+define("_MI_RSS_CACHETIME","RSS-Feed Cache vrijeme");
+define("_MI_RSS_CACHETIME_DESCRIPTION","Cache vrijeme do RSS-Feed ponovo generiraj, u minutama.");
 
 define("_MI_MEDIA_ENABLE","Media Features aktiviraj");
 define("_MI_MEDIA_ENABLE_DESC","Zaka&#269;enu sliku direktno u Postu prika&#382;i.");
@@ -129,77 +129,77 @@ define("_MI_MENUMODE_DESC","'Izbor' - preko pulldown izaberi<br />'hover' - hove
 
 define("_MI_REPORTMOD_ENABLE","Post prijavi");
 define("_MI_REPORTMOD_ENABLE_DESC","&#268;lanovi mogu svaki Post koji na neki na&#269;in nije uredu Moderatoru prijaviti. Ovde se mo&#382;e reagirati (npr. Post promjenuti ili izbrisati)");
-define("_MI_SHOW_JUMPBOX", "'Idi u' Box aktiviraj");
-define("_MI_JUMPBOXDESC", "Ako je aktiviran, onda se Forum u Combo Boxu prikazuje, ova funkcija se korisnicima odobrava ako sa Foruma u Forum se preska&#269;e.");
+define("_MI_SHOW_JUMPBOX","'Idi u' Box aktiviraj");
+define("_MI_JUMPBOXDESC","Ako je aktiviran, onda se Forum u Combo Boxu prikazuje, ova funkcija se korisnicima odobrava ako sa Foruma u Forum se preska&#269;e.");
 
-define("_MI_SHOW_PERMISSIONTABLE", "Tabele sa odorenjima prika&#382;i");
-define("_MI_SHOW_PERMISSIONTABLE_DESC", "Ako je Da izabrano onda &#263;e Lista sa odobrenjima i &#269;lanovima biti prikazana.");
+define("_MI_SHOW_PERMISSIONTABLE","Tabele sa odorenjima prika&#382;i");
+define("_MI_SHOW_PERMISSIONTABLE_DESC","Ako je Da izabrano onda &#263;e Lista sa odobrenjima i &#269;lanovima biti prikazana.");
 
-define("_MI_EMAIL_DIGEST", "Pregled Postova preko E-Maila");
-define("_MI_EMAIL_DIGEST_DESC", "Odredi vrijeme, kada se mo&#382;e preko E-Mail obavijest za pregled Postova poslati.");
-define("_MI_NEWBB_EMAIL_NONE", "Bez E-Mail");
-define("_MI_NEWBB_EMAIL_DAILY", "Dnevno");
-define("_MI_NEWBB_EMAIL_WEEKLY", "Sedmi&#269;no");
+define("_MI_EMAIL_DIGEST","Pregled Postova preko E-Maila");
+define("_MI_EMAIL_DIGEST_DESC","Odredi vrijeme, kada se mo&#382;e preko E-Mail obavijest za pregled Postova poslati.");
+define("_MI_NEWBB_EMAIL_NONE","Bez E-Mail");
+define("_MI_NEWBB_EMAIL_DAILY","Dnevno");
+define("_MI_NEWBB_EMAIL_WEEKLY","Sedmi&#269;no");
 
-define("_MI_SHOW_IP", "IP-Adresu korisnika prika&#382;i");
-define("_MI_SHOW_IP_DESC", "Ako je Da izabrano, onda Moderatori IP-Adrese mogu vidjeti.");
+define("_MI_SHOW_IP","IP-Adresu korisnika prika&#382;i");
+define("_MI_SHOW_IP_DESC","Ako je Da izabrano, onda Moderatori IP-Adrese mogu vidjeti.");
 
-define("_MI_ENABLE_KARMA", "'Karma zahtjevi' aktiviraj");
-define("_MI_ENABLE_KARMA_DESC", "Ovo omogu&#263;ava 'Karma zahtjevi' da drugi korisnici mogu vidjeti koliko neko ima aktivnosti na Forumu.");
+define("_MI_ENABLE_KARMA","'Karma zahtjevi' aktiviraj");
+define("_MI_ENABLE_KARMA_DESC","Ovo omogu&#263;ava 'Karma zahtjevi' da drugi korisnici mogu vidjeti koliko neko ima aktivnosti na Forumu.");
 
-define("_MI_KARMA_OPTIONS", "Karma pode&scaron;avanje za Postove");
-define("_MI_KARMA_OPTIONS_DESC", "',' ovo koristi za razmak ako ima vi&scaron;e opcija.");
+define("_MI_KARMA_OPTIONS","Karma pode&scaron;avanje za Postove");
+define("_MI_KARMA_OPTIONS_DESC","',' ovo koristi za razmak ako ima vi&scaron;e opcija.");
 
-define("_MI_SINCE_OPTIONS", "'Od' Opciju za 'Vidi' i 'Tra&#382;i'");
-define("_MI_SINCE_OPTIONS_DESC", "Pozitivne vrijednosti za dane i negativne vrijednosti za sate. ',' ovo koristi za razmak ako ima vi&scaron;e opcija.");
+define("_MI_SINCE_OPTIONS","'Od' Opciju za 'Vidi' i 'Tra&#382;i'");
+define("_MI_SINCE_OPTIONS_DESC","Pozitivne vrijednosti za dane i negativne vrijednosti za sate. ',' ovo koristi za razmak ako ima vi&scaron;e opcija.");
 
-define("_MI_SINCE_DEFAULT", "'Od' Daj vrijednost");
-define("_MI_SINCE_DEFAULT_DESC", "Daj vrijednost, ako nije druga&#269;ije od &#269;lana dato.");
+define("_MI_SINCE_DEFAULT","'Od' Daj vrijednost");
+define("_MI_SINCE_DEFAULT_DESC","Daj vrijednost, ako nije druga&#269;ije od &#269;lana dato.");
 
-define("_MI_MODERATOR_HTML", "HTML Tagove za Moderatore dozvoli");
-define("_MI_MODERATOR_HTML_DESC", "Ovo dozvoljava Moderatorima u polju posta svoje Postove HTML da koriste");
+define("_MI_MODERATOR_HTML","HTML Tagove za Moderatore dozvoli");
+define("_MI_MODERATOR_HTML_DESC","Ovo dozvoljava Moderatorima u polju posta svoje Postove HTML da koriste");
 
-define("_MI_USER_ANONYMOUS", "Registrovanima dozvoli da anonimno u Forumu pi&scaron;u?");
-define("_MI_USER_ANONYMOUS_DESC", "Ovde je dozvoljeno da registrovani mogu svoje Postove anonimno objavljivati.");
+define("_MI_USER_ANONYMOUS","Registrovanima dozvoli da anonimno u Forumu pi&scaron;u?");
+define("_MI_USER_ANONYMOUS_DESC","Ovde je dozvoljeno da registrovani mogu svoje Postove anonimno objavljivati.");
 
-define("_MI_ANONYMOUS_PRE", "Prefix za anonimne &#269;lanove");
-define("_MI_ANONYMOUS_PRE_DESC", "Ovde dati Prefix &#263;e u Postovima anonimnih Postova anonimno prestavljati.");
+define("_MI_ANONYMOUS_PRE","Prefix za anonimne &#269;lanove");
+define("_MI_ANONYMOUS_PRE_DESC","Ovde dati Prefix &#263;e u Postovima anonimnih Postova anonimno prestavljati.");
 
-define("_MI_REQUIRE_REPLY", "Natjeraj da se da odgovor da bi se neki Post mogao pro&#269;itati");
-define("_MI_REQUIRE_REPLY_DESC", "Ova opcija tjera &#269;itaoce Foruma da daju odgovor prije nego pro&#269;itaju Post");
+define("_MI_REQUIRE_REPLY","Natjeraj da se da odgovor da bi se neki Post mogao pro&#269;itati");
+define("_MI_REQUIRE_REPLY_DESC","Ova opcija tjera &#269;itaoce Foruma da daju odgovor prije nego pro&#269;itaju Post");
 
-define("_MI_EDIT_TIMELIMIT", "Vremenski limit, za koliko se Post vremena mo&#382;e urediti");
-define("_MI_EDIT_TIMELIMIT_DESC", "Stavi vremenski interval, u kojem &#269;lan mo&#382;e urediti svoj Post. U minutama, 0 je bez uvjeta.");
+define("_MI_EDIT_TIMELIMIT","Vremenski limit, za koliko se Post vremena mo&#382;e urediti");
+define("_MI_EDIT_TIMELIMIT_DESC","Stavi vremenski interval, u kojem &#269;lan mo&#382;e urediti svoj Post. U minutama, 0 je bez uvjeta.");
 
-define("_MI_DELETE_TIMELIMIT", "Vremenski limit, za koliko se Post vremena mo&#382;e izbrisati");
-define("_MI_DELETE_TIMELIMIT_DESC", "tavi vremenski interval, u kojem &#269;lan mo&#382;e izbrisati svoj Post. U minutama, 0 je bez uvjeta.");
+define("_MI_DELETE_TIMELIMIT","Vremenski limit, za koliko se Post vremena mo&#382;e izbrisati");
+define("_MI_DELETE_TIMELIMIT_DESC","tavi vremenski interval, u kojem &#269;lan mo&#382;e izbrisati svoj Post. U minutama, 0 je bez uvjeta.");
 
-define("_MI_POST_TIMELIMIT", "Vremenski limit, za koliko se  vremena mo&#382;e ponovo dalje pisati");
-define("_MI_POST_TIMELIMIT_DESC", "Vremenski limit, za koliko se  vremena mo&#382;e novi Post upisati. U minutama, 0 je bez uvjeta.");
+define("_MI_POST_TIMELIMIT","Vremenski limit, za koliko se  vremena mo&#382;e ponovo dalje pisati");
+define("_MI_POST_TIMELIMIT_DESC","Vremenski limit, za koliko se  vremena mo&#382;e novi Post upisati. U minutama, 0 je bez uvjeta.");
 
-define("_MI_RECORDEDIT_TIMELIMIT", "Vremenski limit, za koliko se  vremena mo&#382;e Post bez 'Promjenjeni Info' promjenuti mo&#382;e");
-define("_MI_RECORDEDIT_TIMELIMIT_DESC", "Stavi vremenski interval, u kojem mo&#382;e &#269;lan bez promjene informacija prikazati. U minutama, 0 je bez uvjeta.");
+define("_MI_RECORDEDIT_TIMELIMIT","Vremenski limit, za koliko se  vremena mo&#382;e Post bez 'Promjenjeni Info' promjenuti mo&#382;e");
+define("_MI_RECORDEDIT_TIMELIMIT_DESC","Stavi vremenski interval, u kojem mo&#382;e &#269;lan bez promjene informacija prikazati. U minutama, 0 je bez uvjeta.");
 
-define("_MI_SUBJECT_PREFIX", "Prefix za naziv Teme daj");
-define("_MI_SUBJECT_PREFIX_DESC", "Postavi Prefix, npr. [Rije&scaron;eno] na po&#269;etak razloga. za vi&scaron;e opcija koristi ',' za razmak oznaku. NEMA je bez Prefixa.");
-define("_MI_SUBJECT_PREFIX_DEFAULT", '<font color="#00CC00">[Rije&scaron;eno]</font>,<font color="#00CC00">[Gotovo]</font>,<font color="#FF0000">[Pitanje]</font>,<font color="#FF0000">[Prijava bug-a]</font>,<font color="#FF0000">[Ne zavr&scaron;eno]</font>');
+define("_MI_SUBJECT_PREFIX","Prefix za naziv Teme daj");
+define("_MI_SUBJECT_PREFIX_DESC","Postavi Prefix, npr. [Rije&scaron;eno] na po&#269;etak razloga. za vi&scaron;e opcija koristi ',' za razmak oznaku. NEMA je bez Prefixa.");
+define("_MI_SUBJECT_PREFIX_DEFAULT",'<font color="#00CC00">[Rije&scaron;eno]</font>,<font color="#00CC00">[Gotovo]</font>,<font color="#FF0000">[Pitanje]</font>,<font color="#FF0000">[Prijava bug-a]</font>,<font color="#FF0000">[Ne zavr&scaron;eno]</font>');
 
-define("_MI_SUBJECT_PREFIX_LEVEL", "Odobrenja za kori&scaron;tenje Prefixa");
-define("_MI_SUBJECT_PREFIX_LEVEL_DESC", "Grupa(e) izaberi koji smiju Prefix koristiti.");
-define("_MI_SPL_DISABLE", 'Isklju&#269;i');
-define("_MI_SPL_ANYONE", 'Svako');
-define("_MI_SPL_MEMBER", '&#268;lanovi');
-define("_MI_SPL_MODERATOR", 'Moderatori');
-define("_MI_SPL_ADMIN", 'Administratori');
+define("_MI_SUBJECT_PREFIX_LEVEL","Odobrenja za kori&scaron;tenje Prefixa");
+define("_MI_SUBJECT_PREFIX_LEVEL_DESC","Grupa(e) izaberi koji smiju Prefix koristiti.");
+define("_MI_SPL_DISABLE",'Isklju&#269;i');
+define("_MI_SPL_ANYONE",'Svako');
+define("_MI_SPL_MEMBER",'&#268;lanovi');
+define("_MI_SPL_MODERATOR",'Moderatori');
+define("_MI_SPL_ADMIN",'Administratori');
 
-define("_MI_SHOW_REALNAME", "Pravo ime prika&#382;i");
-define("_MI_SHOW_REALNAME_DESC", "Promjeni Nik ime sa pravim imenom, koje je u Profilu navedeno.");
+define("_MI_SHOW_REALNAME","Pravo ime prika&#382;i");
+define("_MI_SHOW_REALNAME_DESC","Promjeni Nik ime sa pravim imenom, koje je u Profilu navedeno.");
 
-define("_MI_CACHE_ENABLE", "Cache aktiviraj");
-define("_MI_CACHE_ENABLE_DESC", "Memori&scaron;u se rezultati trenutni da bi upiti bili br&#382;i");
+define("_MI_CACHE_ENABLE","Cache aktiviraj");
+define("_MI_CACHE_ENABLE_DESC","Memori&scaron;u se rezultati trenutni da bi upiti bili br&#382;i");
 
-define("_MI_QUICKREPLY_ENABLE", "Brzi odgovor aktiviraj");
-define("_MI_QUICKREPLY_ENABLE_DESC", "Ovim se aktivira Formular, sa kojim se direktno brzo na Post odgovara.");
+define("_MI_QUICKREPLY_ENABLE","Brzi odgovor aktiviraj");
+define("_MI_QUICKREPLY_ENABLE_DESC","Ovim se aktivira Formular, sa kojim se direktno brzo na Post odgovara.");
 
 define("_MI_POSTSPERPAGE","Postova po stranici");
 define("_MI_POSTSPERPAGE_DESC","Maximaleni broj Postova, koje po stranici treba prikazati.");
@@ -245,57 +245,57 @@ define("_MI_USERMODERATE_DESC","");
 // RMV-NOTIFY
 // Notification event descriptions and mail templates
 
-define ('_MI_NEWBB_THREAD_NOTIFY', 'Diskusije');
-define ('_MI_NEWBB_THREAD_NOTIFYDSC', 'Opcija obavje&scaron;tenja aktuelne diskusije.');
+define('_MI_NEWBB_THREAD_NOTIFY','Diskusije');
+define('_MI_NEWBB_THREAD_NOTIFYDSC','Opcija obavje&scaron;tenja aktuelne diskusije.');
 
-define ('_MI_NEWBB_FORUM_NOTIFY', 'Forum');
-define ('_MI_NEWBB_FORUM_NOTIFYDSC', 'Opcija obavje&scaron;tenja za aktuelni Forum.');
+define('_MI_NEWBB_FORUM_NOTIFY','Forum');
+define('_MI_NEWBB_FORUM_NOTIFYDSC','Opcija obavje&scaron;tenja za aktuelni Forum.');
 
-define ('_MI_NEWBB_GLOBAL_NOTIFY', 'Globalno');
-define ('_MI_NEWBB_GLOBAL_NOTIFYDSC', 'Globalno Forum-Opcija obavje&scaron;tenja.');
+define('_MI_NEWBB_GLOBAL_NOTIFY','Globalno');
+define('_MI_NEWBB_GLOBAL_NOTIFYDSC','Globalno Forum-Opcija obavje&scaron;tenja.');
 
-define ('_MI_NEWBB_THREAD_NEWPOST_NOTIFY', 'Novi Post');
-define ('_MI_NEWBB_THREAD_NEWPOST_NOTIFYCAP', 'Obavjesti me kod aktuelne diskusije u Forumu.');
-define ('_MI_NEWBB_THREAD_NEWPOST_NOTIFYDSC', 'Obavjesti me kod Novih Postova u aktuelnim diskusijama u Forumu.');
-define ('_MI_NEWBB_THREAD_NEWPOST_NOTIFYSBJ', '[{X_SITENAME}] {X_MODULE} Automatska obavijest: Novi Post u diskusiji');
+define('_MI_NEWBB_THREAD_NEWPOST_NOTIFY','Novi Post');
+define('_MI_NEWBB_THREAD_NEWPOST_NOTIFYCAP','Obavjesti me kod aktuelne diskusije u Forumu.');
+define('_MI_NEWBB_THREAD_NEWPOST_NOTIFYDSC','Obavjesti me kod Novih Postova u aktuelnim diskusijama u Forumu.');
+define('_MI_NEWBB_THREAD_NEWPOST_NOTIFYSBJ','[{X_SITENAME}] {X_MODULE} Automatska obavijest: Novi Post u diskusiji');
 
-define ('_MI_NEWBB_FORUM_NEWTHREAD_NOTIFY', 'Nova Tema');
-define ('_MI_NEWBB_FORUM_NEWTHREAD_NOTIFYCAP', 'Obavjesti me kod ako ima novih Tema u Forumu.');
-define ('_MI_NEWBB_FORUM_NEWTHREAD_NOTIFYDSC', 'Obavjesti me kod novih Tema u Forumu.');
-define ('_MI_NEWBB_FORUM_NEWTHREAD_NOTIFYSBJ', '[{X_SITENAME}] {X_MODULE} Automatska obavijest: Nova Tema u Forumu');
+define('_MI_NEWBB_FORUM_NEWTHREAD_NOTIFY','Nova Tema');
+define('_MI_NEWBB_FORUM_NEWTHREAD_NOTIFYCAP','Obavjesti me kod ako ima novih Tema u Forumu.');
+define('_MI_NEWBB_FORUM_NEWTHREAD_NOTIFYDSC','Obavjesti me kod novih Tema u Forumu.');
+define('_MI_NEWBB_FORUM_NEWTHREAD_NOTIFYSBJ','[{X_SITENAME}] {X_MODULE} Automatska obavijest: Nova Tema u Forumu');
 
-define ('_MI_NEWBB_GLOBAL_NEWFORUM_NOTIFY', 'Novi Forum');
-define ('_MI_NEWBB_GLOBAL_NEWFORUM_NOTIFYCAP', 'Obavjesti me ako novi Forum napravljen bude.');
-define ('_MI_NEWBB_GLOBAL_NEWFORUM_NOTIFYDSC', 'Obavjesti me ako novi Forum napravljen bude.');
-define ('_MI_NEWBB_GLOBAL_NEWFORUM_NOTIFYSBJ', '[{X_SITENAME}] {X_MODULE} Automatska obavijest: Novi Forum');
+define('_MI_NEWBB_GLOBAL_NEWFORUM_NOTIFY','Novi Forum');
+define('_MI_NEWBB_GLOBAL_NEWFORUM_NOTIFYCAP','Obavjesti me ako novi Forum napravljen bude.');
+define('_MI_NEWBB_GLOBAL_NEWFORUM_NOTIFYDSC','Obavjesti me ako novi Forum napravljen bude.');
+define('_MI_NEWBB_GLOBAL_NEWFORUM_NOTIFYSBJ','[{X_SITENAME}] {X_MODULE} Automatska obavijest: Novi Forum');
 
-define ('_MI_NEWBB_GLOBAL_NEWPOST_NOTIFY', 'Novi Post');
-define ('_MI_NEWBB_GLOBAL_NEWPOST_NOTIFYCAP', 'Obavjesti me kod upisa novih Postova.');
-define ('_MI_NEWBB_GLOBAL_NEWPOST_NOTIFYDSC', 'Obavjesti me kod upisa novih Postova.');
-define ('_MI_NEWBB_GLOBAL_NEWPOST_NOTIFYSBJ', '[{X_SITENAME}] {X_MODULE} Automatska obavijest: Novi Post');
+define('_MI_NEWBB_GLOBAL_NEWPOST_NOTIFY','Novi Post');
+define('_MI_NEWBB_GLOBAL_NEWPOST_NOTIFYCAP','Obavjesti me kod upisa novih Postova.');
+define('_MI_NEWBB_GLOBAL_NEWPOST_NOTIFYDSC','Obavjesti me kod upisa novih Postova.');
+define('_MI_NEWBB_GLOBAL_NEWPOST_NOTIFYSBJ','[{X_SITENAME}] {X_MODULE} Automatska obavijest: Novi Post');
 
-define ('_MI_NEWBB_FORUM_NEWPOST_NOTIFY', 'Novi Post');
-define ('_MI_NEWBB_FORUM_NEWPOST_NOTIFYCAP', 'Obavjesti me kod upisa novih Postova u aktuenom Forumu.');
-define ('_MI_NEWBB_FORUM_NEWPOST_NOTIFYDSC', 'Obavjesti me kod upisa novih Postova u aktuenom Forumu.');
-define ('_MI_NEWBB_FORUM_NEWPOST_NOTIFYSBJ', '[{X_SITENAME}] {X_MODULE} Automatska obavijest: Novi Post u im aktuelnom Forumu');
+define('_MI_NEWBB_FORUM_NEWPOST_NOTIFY','Novi Post');
+define('_MI_NEWBB_FORUM_NEWPOST_NOTIFYCAP','Obavjesti me kod upisa novih Postova u aktuenom Forumu.');
+define('_MI_NEWBB_FORUM_NEWPOST_NOTIFYDSC','Obavjesti me kod upisa novih Postova u aktuenom Forumu.');
+define('_MI_NEWBB_FORUM_NEWPOST_NOTIFYSBJ','[{X_SITENAME}] {X_MODULE} Automatska obavijest: Novi Post u im aktuelnom Forumu');
 
-define ('_MI_NEWBB_GLOBAL_NEWFULLPOST_NOTIFY', 'Novi Post (Kompletni Tekst)');
-define ('_MI_NEWBB_GLOBAL_NEWFULLPOST_NOTIFYCAP', 'Obavjesti me kod upisa novih Postova (Kompletni tekst u obavijesti prika&#382;i).');
-define ('_MI_NEWBB_GLOBAL_NEWFULLPOST_NOTIFYDSC', 'Obavjesti me kod upisa novih Postova (Kompletni tekst u obavijesti prika&#382;i).');
-define ('_MI_NEWBB_GLOBAL_NEWFULLPOST_NOTIFYSBJ', '[{X_SITENAME}] {X_MODULE} Automatska obavijest: Novi Post (Kompletni Tekst)');
+define('_MI_NEWBB_GLOBAL_NEWFULLPOST_NOTIFY','Novi Post (Kompletni Tekst)');
+define('_MI_NEWBB_GLOBAL_NEWFULLPOST_NOTIFYCAP','Obavjesti me kod upisa novih Postova (Kompletni tekst u obavijesti prika&#382;i).');
+define('_MI_NEWBB_GLOBAL_NEWFULLPOST_NOTIFYDSC','Obavjesti me kod upisa novih Postova (Kompletni tekst u obavijesti prika&#382;i).');
+define('_MI_NEWBB_GLOBAL_NEWFULLPOST_NOTIFYSBJ','[{X_SITENAME}] {X_MODULE} Automatska obavijest: Novi Post (Kompletni Tekst)');
 
-define ('_MI_NEWBB_GLOBAL_DIGEST_NOTIFY', 'Digest');
-define ('_MI_NEWBB_GLOBAL_DIGEST_NOTIFYCAP', 'Obavjesti me ako ima Digesta.');
-define ('_MI_NEWBB_GLOBAL_DIGEST_NOTIFYDSC', 'Digest primi.');
-define ('_MI_NEWBB_GLOBAL_DIGEST_NOTIFYSBJ', '[{X_SITENAME}] {X_MODULE} Automatska obavijest: Digest je objavljen');
+define('_MI_NEWBB_GLOBAL_DIGEST_NOTIFY','Digest');
+define('_MI_NEWBB_GLOBAL_DIGEST_NOTIFYCAP','Obavjesti me ako ima Digesta.');
+define('_MI_NEWBB_GLOBAL_DIGEST_NOTIFYDSC','Digest primi.');
+define('_MI_NEWBB_GLOBAL_DIGEST_NOTIFYSBJ','[{X_SITENAME}] {X_MODULE} Automatska obavijest: Digest je objavljen');
 
 // FOR installation
-define("_MI_NEWBB_INSTALL_CAT_TITLE", "Kategorija Test");
-define("_MI_NEWBB_INSTALL_CAT_DESC", "Kategorija za Test.");
-define("_MI_NEWBB_INSTALL_FORUM_NAME", "Forum Test");
-define("_MI_NEWBB_INSTALL_FORUM_DESC", "Forum za Test.");
-define("_MI_NEWBB_INSTALL_POST_SUBJECT", "Bravo! Forum radi.");
-define("_MI_NEWBB_INSTALL_POST_TEXT", "
+define("_MI_NEWBB_INSTALL_CAT_TITLE","Kategorija Test");
+define("_MI_NEWBB_INSTALL_CAT_DESC","Kategorija za Test.");
+define("_MI_NEWBB_INSTALL_FORUM_NAME","Forum Test");
+define("_MI_NEWBB_INSTALL_FORUM_DESC","Forum za Test.");
+define("_MI_NEWBB_INSTALL_POST_SUBJECT","Bravo! Forum radi.");
+define("_MI_NEWBB_INSTALL_POST_TEXT","
 	Dobrodo&scaron;li ".(htmlspecialchars($GLOBALS["xoopsConfig"]['sitename'], ENT_QUOTES))." u Forum.<br />
 	Sada se registruj, uloguj i stratuj Teme za diskusiju.<br /><br />
 	Ako ima pitanja za ovaj Modul Foruma idi na <a href=\"http://xoopsforge.com/modules/newbb/\" target=\"_blank\" title=\"CBB @ XoopsForge\">CBB Modul Seite</a> stranicu.

@@ -22,18 +22,18 @@ if( !defined('WEBLINKS_LANG_BL_LOADED') )
 define('WEBLINKS_LANG_BL_LOADED', 1);
 
 // top.html
-define("_MB_WEBLINKS_DISP", "Vis"); 
-define("_MB_WEBLINKS_LINKS", "Links"); 
-define("_MB_WEBLINKS_CHARS", "Længde af titlen"); 
-define("_MB_WEBLINKS_LENGTH", "tegn"); 
-define("_MB_WEBLINKS_NEWDAYS", "Dage af nyt link"); 
-define("_MB_WEBLINKS_DAYS", "dage"); 
-define("_MB_WEBLINKS_POPULAR", "Hits af populære link"); 
-define("_MB_WEBLINKS_HITS", "hits"); 
-define("_MB_WEBLINKS_PIXEL", "pixel"); 
-define("_MB_WEBLINKS_RATING", "Bedømmelse"); 
-define("_MB_WEBLINKS_VOTES", "stemmer"); 
-define("_MB_WEBLINKS_COMMENTS", "Kommentarer");
+define("_MB_WEBLINKS_DISP","Vis"); 
+define("_MB_WEBLINKS_LINKS","Links"); 
+define("_MB_WEBLINKS_CHARS","Længde af titlen"); 
+define("_MB_WEBLINKS_LENGTH","tegn"); 
+define("_MB_WEBLINKS_NEWDAYS","Dage af nyt link"); 
+define("_MB_WEBLINKS_DAYS","dage"); 
+define("_MB_WEBLINKS_POPULAR","Hits af populære link"); 
+define("_MB_WEBLINKS_HITS","hits"); 
+define("_MB_WEBLINKS_PIXEL","pixel"); 
+define("_MB_WEBLINKS_RATING","Bedømmelse"); 
+define("_MB_WEBLINKS_VOTES","stemmer"); 
+define("_MB_WEBLINKS_COMMENTS","Kommentarer");
 
 // catlist.html
 define("_MB_WEBLINKS_TOTAL_LINKS","Total"); 
@@ -58,7 +58,7 @@ define("_MB_WEBLINKS_MORE","Flere detaljer");
 // 2006-11-03
 // random block
 define('_MB_WEBLINKS_MAX_DESC','Max længde på beskrivelse');
-define('_MB_WEBLINKS_SHOW_DATE', 'Visning dato');
+define('_MB_WEBLINKS_SHOW_DATE','Visning dato');
 define('_MB_WEBLINKS_MODE_URL','visning stil på URl');
 define('_MB_WEBLINKS_MODE_URL_SINGLE','singlelink.php');
 define('_MB_WEBLINKS_MODE_URL_VISIT','visit.php');
@@ -77,7 +77,7 @@ define('_MB_WEBLINKS_ORDER_DESC','Gyldig når "tilfældig sortering" er NEJ');
 define('_MB_WEBLINKS_TIME_UPDATE','Tid opdater');
 define('_MB_WEBLINKS_TIME_CREATE','Tid lav');
 define('_MB_WEBLINKS_TITLE','Titel');
-define('_MB_WEBLINKS_ASC', 'Stigende');
+define('_MB_WEBLINKS_ASC','Stigende');
 define('_MB_WEBLINKS_DESC','Faldende');
 
 // === 2007-03-25 ===
@@ -92,7 +92,7 @@ define('_MB_WEBLINKS_GM_TIMEOUT','Delay tid for tegning');
 define('_MB_WEBLINKS_GM_TIMEOUT_DSC','msec  -1:window.onload');
 
 // 2007-04-08
-define('_MB_WEBLINKS_PHOTOS', 'Antal foto');
+define('_MB_WEBLINKS_PHOTOS','Antal foto');
 
 // === 2007-08-01 ===
 define('_MB_WEBLINKS_CAT_TITLE_LENGTH','Længde af kategori titel');

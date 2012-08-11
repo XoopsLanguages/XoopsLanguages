@@ -29,12 +29,12 @@ define("_MI_TDMCREATE_ADMIN_UPDATE","Mise &#224; jour");
 define("_MI_TDMCREATE_DESC","Module de cr&#233;ation de module &#233;labor&#233; par la TDM");
 
 // 1.37
-define("_MI_TDMCREATE_EDITOR", "Editor");
-define("_MI_TDMCREATE_EDITOR_DESC", "Select an editor to write");
-define('_MI_TDMCREATE_MAXSIZE', "Mime size");
-define('_MI_TDMCREATE_MAXSIZE_DESC', "Mime size for images");
-define('_MI_TDMCREATE_MIMETYPES', "Mime Types");
-define('_MI_TDMCREATE_MIMETYPES_DESC', "Mime Types for images");
-define("_MI_TDMCREATE_ADMINPERPAGE", "Admin per page");
-define("_MI_TDMCREATE_ADMINPERPAGE_DESC", "Set number of tables to view per page in admin.");
+define("_MI_TDMCREATE_EDITOR","Editor");
+define("_MI_TDMCREATE_EDITOR_DESC","Select an editor to write");
+define('_MI_TDMCREATE_MAXSIZE',"Mime size");
+define('_MI_TDMCREATE_MAXSIZE_DESC',"Mime size for images");
+define('_MI_TDMCREATE_MIMETYPES',"Mime Types");
+define('_MI_TDMCREATE_MIMETYPES_DESC',"Mime Types for images");
+define("_MI_TDMCREATE_ADMINPERPAGE","Admin per page");
+define("_MI_TDMCREATE_ADMINPERPAGE_DESC","Set number of tables to view per page in admin.");
 ?>

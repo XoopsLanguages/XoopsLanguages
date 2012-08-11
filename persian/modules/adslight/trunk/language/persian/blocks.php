@@ -61,7 +61,7 @@ define("_MB_ADSLIGHT_LOCAL2","موقعیت");
 define("_MB_ADSLIGHT_ITEM","عنوان");
 
 // Blocks Maps
-define("_MB_ADSLIGHT_SEARCH_FR", "جستجو در منطقه شما");
+define("_MB_ADSLIGHT_SEARCH_FR","جستجو در منطقه شما");
 
 
 ?>

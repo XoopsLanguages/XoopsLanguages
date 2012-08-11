@@ -25,26 +25,26 @@ defined('XOOPS_ROOT_PATH') or die('Restricted access');
 // _LANGCODE: ar
 // _CHARSET : windows-1256
 // Translator: Arab XOOPS Team
-define('_ER_UP_MIMETYPELOAD', 'ÎØÃ Ýí ÅãÊÏÇÏ ÇáãáÝ ÃËäÇÁ ÇáÑÝÚ');
-define('_ER_UP_FILENOTFOUND', 'ÇáãáÝ ÛíÑ ãæÌæÏ');
-define('_ER_UP_INVALIDFILESIZE', 'ÍÌã ÇáãáÝ ÛíÑ ÕÍíÍ');
-define('_ER_UP_FILENAMEEMPTY', 'ÇÓã ÇáãáÝ ÝÇÑÛ');
-define('_ER_UP_NOFILEUPLOADED', 'áã íÊã ÑÝÚ ÇáãáÝ');
-define('_ER_UP_ERROROCCURRED', 'ÍÏË ÎØÃ: ÎØÃ #%s');
-define('_ER_UP_UPLOADDIRNOTSET', 'áã íÊã ÊÍÏíÏ ãÓÇÑ ÊÎÒíä ÇáãáÝÇÊ');
-define('_ER_UP_FAILEDOPENDIR', 'ÝÔá Ýí ÝÊÍ ÇáãÌáÏ: %s');
-define('_ER_UP_FAILEDOPENDIRWRITE', 'ÝÔá Ýí ÝÊÍ ÇáãÌáÏ ÈÊÑÎíÕ ÇáßÊÇÈÉ: %s');
-define('_ER_UP_FILESIZETOOLARGE', 'ÍÌã ÇáãáÝ ßÈíÑ ÌÏÇð (ÇáÍÏ ÃáÃÞÕì %u ÈÇíÊ): %u ÈÇíÊ');
-define('_ER_UP_FILEWIDTHTOOLARGE', 'ÚÑÖ ÇáãáÝ ßÈíÑ ÌÏÇð (ÇáÍÏ ÇáÃÞÕì %u ÈíßÓá): %u ÈíßÓá');
-define('_ER_UP_FILEHEIGHTTOOLARGE', 'ÅÑÊÝÇÚ ÇáãáÝ ßÈíÑ ÌÏÇð (ÇáÍÏ ÇáÃÞÕì %u ÈíßÓá): %u ÈíßÓá');
-define('_ER_UP_MIMETYPENOTALLOWED', 'ÅãÊÏÇÏ ÇáãáÝ ÛíÑ ãÓãæÍ Èå: %s');
-define('_ER_UP_FAILEDUPLOADFILE', 'ÝÔá Ýí ÑÝÚ ÇáãáÝ: %s');
-define('_ER_UP_FAILEDFETCHIMAGESIZE', 'ÝÔá Ýí ãÚÑÝÉ ÍÌã ÇáÕæÑÉ %s, ÊÌÇæÒ ÊÍÏíÏ ÇáÃÈÚÇÏ ÇáÞÕæì..');
-define('_ER_UP_UNKNOWNFILETYPEREJECTED', 'ÃäæÇÚ ÇáãáÝÇÊ ÇáãÌåæáÉ ãÑÝæÖÉ');
-define('_ER_UP_ERRORSRETURNED', 'ÍÏË ÎØÃ ÃËäÇÁ ÇáÑÝÚ');
-define('_ER_UP_INVALIDIMAGEFILE', 'ãáÝ ÕæÑÉ ÛíÑ ÕÍíÍ');
-define('_ER_UP_SUSPICIOUSREFUSED', 'ÑÝÚ ãáÝÇÊ ÇáÕæÑ ÇáãÔÈæåÉ ãÑÝæÖ');
-define('_ER_UP_INVALIDFILENAME', 'ÇÓã ãáÝ ÛíÑ ÕÍíÍ');
-define('_ER_UP_FAILEDSAVEFILE', 'ÝÔá Ýí ÍÝÙ ÇáãáÝ Åáì %s');
+define('_ER_UP_MIMETYPELOAD','ÃŽÃ˜Ãƒ ÃÃ­ Ã…Ã£ÃŠÃÃ‡Ã Ã‡Ã¡Ã£Ã¡Ã ÃƒÃ‹Ã¤Ã‡Ã Ã‡Ã¡Ã‘ÃÃš');
+define('_ER_UP_FILENOTFOUND','Ã‡Ã¡Ã£Ã¡Ã Ã›Ã­Ã‘ Ã£Ã¦ÃŒÃ¦Ã');
+define('_ER_UP_INVALIDFILESIZE','ÃÃŒÃ£ Ã‡Ã¡Ã£Ã¡Ã Ã›Ã­Ã‘ Ã•ÃÃ­Ã');
+define('_ER_UP_FILENAMEEMPTY','Ã‡Ã“Ã£ Ã‡Ã¡Ã£Ã¡Ã ÃÃ‡Ã‘Ã›');
+define('_ER_UP_NOFILEUPLOADED','Ã¡Ã£ Ã­ÃŠÃ£ Ã‘ÃÃš Ã‡Ã¡Ã£Ã¡Ã');
+define('_ER_UP_ERROROCCURRED','ÃÃÃ‹ ÃŽÃ˜Ãƒ: ÃŽÃ˜Ãƒ #%s');
+define('_ER_UP_UPLOADDIRNOTSET','Ã¡Ã£ Ã­ÃŠÃ£ ÃŠÃÃÃ­Ã Ã£Ã“Ã‡Ã‘ ÃŠÃŽÃ’Ã­Ã¤ Ã‡Ã¡Ã£Ã¡ÃÃ‡ÃŠ');
+define('_ER_UP_FAILEDOPENDIR','ÃÃ”Ã¡ ÃÃ­ ÃÃŠÃ Ã‡Ã¡Ã£ÃŒÃ¡Ã: %s');
+define('_ER_UP_FAILEDOPENDIRWRITE','ÃÃ”Ã¡ ÃÃ­ ÃÃŠÃ Ã‡Ã¡Ã£ÃŒÃ¡Ã ÃˆÃŠÃ‘ÃŽÃ­Ã• Ã‡Ã¡ÃŸÃŠÃ‡ÃˆÃ‰: %s');
+define('_ER_UP_FILESIZETOOLARGE','ÃÃŒÃ£ Ã‡Ã¡Ã£Ã¡Ã ÃŸÃˆÃ­Ã‘ ÃŒÃÃ‡Ã° (Ã‡Ã¡ÃÃ ÃƒÃ¡ÃƒÃžÃ•Ã¬ %u ÃˆÃ‡Ã­ÃŠ): %u ÃˆÃ‡Ã­ÃŠ');
+define('_ER_UP_FILEWIDTHTOOLARGE','ÃšÃ‘Ã– Ã‡Ã¡Ã£Ã¡Ã ÃŸÃˆÃ­Ã‘ ÃŒÃÃ‡Ã° (Ã‡Ã¡ÃÃ Ã‡Ã¡ÃƒÃžÃ•Ã¬ %u ÃˆÃ­ÃŸÃ“Ã¡): %u ÃˆÃ­ÃŸÃ“Ã¡');
+define('_ER_UP_FILEHEIGHTTOOLARGE','Ã…Ã‘ÃŠÃÃ‡Ãš Ã‡Ã¡Ã£Ã¡Ã ÃŸÃˆÃ­Ã‘ ÃŒÃÃ‡Ã° (Ã‡Ã¡ÃÃ Ã‡Ã¡ÃƒÃžÃ•Ã¬ %u ÃˆÃ­ÃŸÃ“Ã¡): %u ÃˆÃ­ÃŸÃ“Ã¡');
+define('_ER_UP_MIMETYPENOTALLOWED','Ã…Ã£ÃŠÃÃ‡Ã Ã‡Ã¡Ã£Ã¡Ã Ã›Ã­Ã‘ Ã£Ã“Ã£Ã¦Ã ÃˆÃ¥: %s');
+define('_ER_UP_FAILEDUPLOADFILE','ÃÃ”Ã¡ ÃÃ­ Ã‘ÃÃš Ã‡Ã¡Ã£Ã¡Ã: %s');
+define('_ER_UP_FAILEDFETCHIMAGESIZE','ÃÃ”Ã¡ ÃÃ­ Ã£ÃšÃ‘ÃÃ‰ ÃÃŒÃ£ Ã‡Ã¡Ã•Ã¦Ã‘Ã‰ %s, ÃŠÃŒÃ‡Ã¦Ã’ ÃŠÃÃÃ­Ã Ã‡Ã¡ÃƒÃˆÃšÃ‡Ã Ã‡Ã¡ÃžÃ•Ã¦Ã¬..');
+define('_ER_UP_UNKNOWNFILETYPEREJECTED','ÃƒÃ¤Ã¦Ã‡Ãš Ã‡Ã¡Ã£Ã¡ÃÃ‡ÃŠ Ã‡Ã¡Ã£ÃŒÃ¥Ã¦Ã¡Ã‰ Ã£Ã‘ÃÃ¦Ã–Ã‰');
+define('_ER_UP_ERRORSRETURNED','ÃÃÃ‹ ÃŽÃ˜Ãƒ ÃƒÃ‹Ã¤Ã‡Ã Ã‡Ã¡Ã‘ÃÃš');
+define('_ER_UP_INVALIDIMAGEFILE','Ã£Ã¡Ã Ã•Ã¦Ã‘Ã‰ Ã›Ã­Ã‘ Ã•ÃÃ­Ã');
+define('_ER_UP_SUSPICIOUSREFUSED','Ã‘ÃÃš Ã£Ã¡ÃÃ‡ÃŠ Ã‡Ã¡Ã•Ã¦Ã‘ Ã‡Ã¡Ã£Ã”ÃˆÃ¦Ã¥Ã‰ Ã£Ã‘ÃÃ¦Ã–');
+define('_ER_UP_INVALIDFILENAME','Ã‡Ã“Ã£ Ã£Ã¡Ã Ã›Ã­Ã‘ Ã•ÃÃ­Ã');
+define('_ER_UP_FAILEDSAVEFILE','ÃÃ”Ã¡ ÃÃ­ ÃÃÃ™ Ã‡Ã¡Ã£Ã¡Ã Ã…Ã¡Ã¬ %s');
 
 ?>

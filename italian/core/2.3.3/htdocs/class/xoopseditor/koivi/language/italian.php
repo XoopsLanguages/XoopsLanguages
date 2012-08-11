@@ -15,7 +15,7 @@
  * @version         $Id: english.php 1573 2008-05-04 15:24:06Z phppp $
  */
 
-define("_XOOPS_EDITOR_KOIVI", "Editor WYSIWYG Koivi");
+define("_XOOPS_EDITOR_KOIVI","Editor WYSIWYG Koivi");
 
 define("_XK_LEFTTORIGHT","Scrittura da Sinistra a Destra");
 define("_XK_RIGHTTOLEFT","Scrittura Destra a Sinistra");

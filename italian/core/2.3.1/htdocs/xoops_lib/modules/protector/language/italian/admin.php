@@ -15,31 +15,31 @@ define("_AM_TH_AGENT","Agente");
 define("_AM_TH_TYPE","Tipo");
 define("_AM_TH_DESCRIPTION","Descrizione");
 
-define( "_AM_TH_BADIPS" , 'IP malevoli<br /><br /><span style="font-weight:normal;">Inserire un IP per linea.<br />Se lasciato vuoto, tutti gli IP sono autorizzati</span>' ) ;
+define("_AM_TH_BADIPS" , 'IP malevoli<br /><br /><span style="font-weight:normal;">Inserire un IP per linea.<br />Se lasciato vuoto, tutti gli IP sono autorizzati</span>' ) ;
 
-define( "_AM_TH_GROUP1IPS" , 'IP autorizzati per Gruppo=1<br /><br /><span style="font-weight:normal;">Inserire un IP per linea.<br />192.168. equivale a 192.168.*<br />Se lasciato vuoto, tutti gli IP sono autorizzati</span>' ) ;
+define("_AM_TH_GROUP1IPS" , 'IP autorizzati per Gruppo=1<br /><br /><span style="font-weight:normal;">Inserire un IP per linea.<br />192.168. equivale a 192.168.*<br />Se lasciato vuoto, tutti gli IP sono autorizzati</span>' ) ;
 
-define( "_AM_LABEL_COMPACTLOG" , "Log compatto: " ) ;
-define( "_AM_BUTTON_COMPACTLOG" , "Compatta!" ) ;
-define( "_AM_JS_COMPACTLOGCONFIRM" , "I record duplicati (IP,Tipo) verranno rimossi!" ) ;
-define( "_AM_LABEL_REMOVEALL" , "Rimuovere tutti i record: " ) ;
-define( "_AM_BUTTON_REMOVEALL" , "Rimuovi tutto! " ) ;
-define( "_AM_JS_REMOVEALLCONFIRM" , "Tutti i log verranno rimossi definitivamente. Sei VERAMENTE sicuro?" ) ;
-define( "_AM_LABEL_REMOVE" , "Rimuovere i record selezionati: " ) ;
-define( "_AM_BUTTON_REMOVE" , "Rimuovi!" ) ;
-define( "_AM_JS_REMOVECONFIRM" , "Sei sicuro di voler rimuovere i record selezionati?" ) ;
-define( "_AM_MSG_IPFILESUPDATED" , "File degli IP aggiornati" ) ;
-define( "_AM_MSG_BADIPSCANTOPEN" , "Il file degli IP malevoli non pu&ograve; essere aperto" ) ;
-define( "_AM_MSG_GROUP1IPSCANTOPEN" , "Il file delle autorizzazioni per il Gruppo=1 non pu&ograve; essere aperto" ) ;
-define( "_AM_MSG_REMOVED" , "Record rimossi" ) ;
-define( "_AM_FMT_CONFIGSNOTWRITABLE" , "Impostare come scrivibile la cartella delle opzioni : %s" ) ;
+define("_AM_LABEL_COMPACTLOG" , "Log compatto: " ) ;
+define("_AM_BUTTON_COMPACTLOG" , "Compatta!" ) ;
+define("_AM_JS_COMPACTLOGCONFIRM" , "I record duplicati (IP,Tipo) verranno rimossi!" ) ;
+define("_AM_LABEL_REMOVEALL" , "Rimuovere tutti i record: " ) ;
+define("_AM_BUTTON_REMOVEALL" , "Rimuovi tutto! " ) ;
+define("_AM_JS_REMOVEALLCONFIRM" , "Tutti i log verranno rimossi definitivamente. Sei VERAMENTE sicuro?" ) ;
+define("_AM_LABEL_REMOVE" , "Rimuovere i record selezionati: " ) ;
+define("_AM_BUTTON_REMOVE" , "Rimuovi!" ) ;
+define("_AM_JS_REMOVECONFIRM" , "Sei sicuro di voler rimuovere i record selezionati?" ) ;
+define("_AM_MSG_IPFILESUPDATED" , "File degli IP aggiornati" ) ;
+define("_AM_MSG_BADIPSCANTOPEN" , "Il file degli IP malevoli non pu&ograve; essere aperto" ) ;
+define("_AM_MSG_GROUP1IPSCANTOPEN" , "Il file delle autorizzazioni per il Gruppo=1 non pu&ograve; essere aperto" ) ;
+define("_AM_MSG_REMOVED" , "Record rimossi" ) ;
+define("_AM_FMT_CONFIGSNOTWRITABLE" , "Impostare come scrivibile la cartella delle opzioni : %s" ) ;
 
 
 // prefix_manager.php
-define( "_AM_H3_PREFIXMAN" , "Gestore prefissi" ) ;
-define( "_AM_MSG_DBUPDATED" , "Database aggiornato correttamente!" ) ;
-define( "_AM_CONFIRM_DELETE" , "Tutti i dati verranno eliminati. Sei sicuro?" ) ;
-define( "_AM_TXT_HOWTOCHANGEDB" , "Se vuoi cambiare il prefisso delle tabelle,<br /> modifica il file %s/mainfile.php manualmente.<br /><br />define('XOOPS_DB_PREFIX', '<b>%s</b>');" ) ;
+define("_AM_H3_PREFIXMAN" , "Gestore prefissi" ) ;
+define("_AM_MSG_DBUPDATED" , "Database aggiornato correttamente!" ) ;
+define("_AM_CONFIRM_DELETE" , "Tutti i dati verranno eliminati. Sei sicuro?" ) ;
+define("_AM_TXT_HOWTOCHANGEDB" , "Se vuoi cambiare il prefisso delle tabelle,<br /> modifica il file %s/mainfile.php manualmente.<br /><br />define('XOOPS_DB_PREFIX','<b>%s</b>');" ) ;
 
 
 // advisory.php
@@ -57,13 +57,13 @@ define("_AM_ADV_CHECKCONTAMI","Contaminazioni");
 define("_AM_ADV_CHECKISOCOM","Commenti isolati");
 
 // Localization by ezsky
-define("_AM_EZ_PREFIX", "Prefisso");
-define("_AM_EZ_TABLES", "Tabelle");
-define("_AM_EZ_UPDATED", "Aggiornamento");
-define("_AM_EZ_COPY", "Copia");
-define("_AM_EZ_ACTIONS", "Azioni");
-define("_AM_EZ_BACKUP", "Backup");
-define("_AM_EZ_DELETE", "Elimina");
+define("_AM_EZ_PREFIX","Prefisso");
+define("_AM_EZ_TABLES","Tabelle");
+define("_AM_EZ_UPDATED","Aggiornamento");
+define("_AM_EZ_COPY","Copia");
+define("_AM_EZ_ACTIONS","Azioni");
+define("_AM_EZ_BACKUP","Backup");
+define("_AM_EZ_DELETE","Elimina");
 
 
 ?>

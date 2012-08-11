@@ -13,5 +13,5 @@
  * Code: UTF-8 by Muki
  */
 
-define("_XOOPS_EDITOR_DHTMLTEXTAREA", "DHTML Editor");
+define("_XOOPS_EDITOR_DHTMLTEXTAREA","DHTML Editor");
 ?>

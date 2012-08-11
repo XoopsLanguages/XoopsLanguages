@@ -29,7 +29,7 @@ class MytsSyntaxhighlight extends MyTextSanitizerExtension
         $source = $ts->undoHtmlSpecialChars($source);
         $source = stripslashes($source);
         if ( $config['highlight'] == 'geshi' ) {
-            $language = str_replace('=', '', $language);
+            $language = str_replace('=','', $language);
             $language = ($language) ? $language : $config['language'];
             $language = strtolower($language);
             if ( $source = MytsSyntaxhighlight::geshi( $source, $language ) ) {

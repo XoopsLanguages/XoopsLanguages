@@ -61,7 +61,7 @@ define("_MI_WEBLINKS_ADMENU7","Defekte links anmeldt");
 // Title of config items
 //-------------------------------------
 define('_MI_WEBLINKS_LOGOSHOW','Vis modul logo'); 
-define('_MI_WEBLINKS_LOGOSHOWDSC', 'Vælg "JA" for at vise modul logo billed.');
+define('_MI_WEBLINKS_LOGOSHOWDSC','Vælg "JA" for at vise modul logo billed.');
 
 define('_MI_WEBLINKS_TITLESHOW','Vis titel'); 
 define('_MI_WEBLINKS_TITLESHOWDSC','Vælg "JA" for at vise titel');
@@ -90,16 +90,16 @@ define('_MI_WEBLINKS_POPULAR','Vælg antallet af hits for links, der skal marker
 define('_MI_WEBLINKS_POPULARDSC','Indtast det mindste antal hits for at vise "populære"-ikon. <br /> Hvis værdien sættes til 0, vises ikonet ikke.'); 
 define('_MI_WEBLINKS_NEWLINKS','Vælg det maksimale antal nye links vises på top siden');
 
-//define('_MI_WEBLINKS_NEWLINKSDSC', 'Enter the maximum number of links to be displayed in the "New Links" block. ');
+//define('_MI_WEBLINKS_NEWLINKSDSC','Enter the maximum number of links to be displayed in the "New Links" block. ');
 define('_MI_WEBLINKS_NEWLINKSDSC','Indtast det maksimale antal links, der skal vises på hovedsiden.'); 
 
 define('_MI_WEBLINKS_PERPAGE','Vælg det maksimale antal links der skal vises på hver side'); 
 define('_MI_WEBLINKS_PERPAGEDSC','Indtast det maksimale antal links, der skal vises med oplysninger per side');
 
-//define('_MI_WEBLINKS_USESHOTS', 'Select yes to display screenshot images for each link');
-//define('_MI_WEBLINKS_USESHOTSDSC', '');
-//define('_MI_WEBLINKS_SHOTWIDTH', 'Maximum allowed width of each screenshot image');
-//define('_MI_WEBLINKS_SHOTWIDTHDSC', '');
+//define('_MI_WEBLINKS_USESHOTS','Select yes to display screenshot images for each link');
+//define('_MI_WEBLINKS_USESHOTSDSC','');
+//define('_MI_WEBLINKS_SHOTWIDTH','Maximum allowed width of each screenshot image');
+//define('_MI_WEBLINKS_SHOTWIDTHDSC','');
 
 //define('_MI_WEBLINKS_ANONPOST','Allow anonymous users to post links?');
 //define('_MI_WEBLINKS_AUTOAPPROVE','Auto approve new links without admin intervention?');
@@ -115,13 +115,13 @@ define('_MI_WEBLINKS_GLOBAL_NOTIFYDSC','Globale link besked muligheder.');
 define('_MI_WEBLINKS_CATEGORY_NOTIFY','Kategori'); 
 define('_MI_WEBLINKS_CATEGORY_NOTIFYDSC','Besked muligheder, der gælder for den aktuelle link kategori.');
 
-define('_MI_WEBLINKS_LINK_NOTIFY', 'Link');
-define('_MI_WEBLINKS_LINK_NOTIFYDSC', 'Besked muligheder der vedrører det aktuelle link.');
+define('_MI_WEBLINKS_LINK_NOTIFY','Link');
+define('_MI_WEBLINKS_LINK_NOTIFYDSC','Besked muligheder der vedrører det aktuelle link.');
 
 define('_MI_WEBLINKS_GLOBAL_NEWCATEGORY_NOTIFY','Ny kategori'); 
 define('_MI_WEBLINKS_GLOBAL_NEWCATEGORY_NOTIFYCAP','Giv mig besked, når en ny kategori er oprettet.'); 
 define('_MI_WEBLINKS_GLOBAL_NEWCATEGORY_NOTIFYDSC','Få besked,når en ny link kategori er oprettet.'); 
-define('_MI_WEBLINKS_GLOBAL_NEWCATEGORY_NOTIFYSBJ', '[{X_SITENAME}] {X_MODULE} auto-besked: Ny link kategori');
+define('_MI_WEBLINKS_GLOBAL_NEWCATEGORY_NOTIFYSBJ','[{X_SITENAME}] {X_MODULE} auto-besked: Ny link kategori');
 
 define('_MI_WEBLINKS_GLOBAL_LINKMODIFY_NOTIFY','Ændring af link ønsket'); 
 define('_MI_WEBLINKS_GLOBAL_LINKMODIFY_NOTIFYCAP','Giv mig besked om eventuelle link modifikation anmodning.'); 
@@ -131,7 +131,7 @@ define('_MI_WEBLINKS_GLOBAL_LINKMODIFY_NOTIFYSBJ','[{X_SITENAME}] {X_MODULE} aut
 define('_MI_WEBLINKS_GLOBAL_LINKBROKEN_NOTIFY','Brudte link indsendt'); 
 define('_MI_WEBLINKS_GLOBAL_LINKBROKEN_NOTIFYCAP','Giv mig besked om eventuelle brudte link der rapporteres.'); 
 define('_MI_WEBLINKS_GLOBAL_LINKBROKEN_NOTIFYDSC','få besked, når et brudt link rapporteres.'); 
-define('_MI_WEBLINKS_GLOBAL_LINKBROKEN_NOTIFYSBJ', '[{X_SITENAME}] {X_MODULE} auto-besked: Brudte link rapporteret');
+define('_MI_WEBLINKS_GLOBAL_LINKBROKEN_NOTIFYSBJ','[{X_SITENAME}] {X_MODULE} auto-besked: Brudte link rapporteret');
 
 define('_MI_WEBLINKS_GLOBAL_LINKSUBMIT_NOTIFY','Nye link indsendt'); 
 define('_MI_WEBLINKS_GLOBAL_LINKSUBMIT_NOTIFYCAP','Giv mig besked, når et nyt link er indsendt (afventer godkendelse ).'); 

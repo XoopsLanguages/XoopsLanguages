@@ -25,15 +25,15 @@
 //  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 USA //
 //  ------------------------------------------------------------------------ //
 //Present in many files (videos pictures etc...)
-define("_MD_YOGURT_DELETE", "Usuñ");
-define("_MD_YOGURT_EDITDESC", "Zmieñ opis");
-define("_MD_YOGURT_TOKENEXPIRED", "Twoj token jest niepoprawny<br />Spróbuj jeszcze raz");
-define("_MD_YOGURT_DESC_EDITED","Opis zosta³ zmieniony");
+define("_MD_YOGURT_DELETE","UsuÃ±");
+define("_MD_YOGURT_EDITDESC","ZmieÃ± opis");
+define("_MD_YOGURT_TOKENEXPIRED","Twoj token jest niepoprawny<br />SprÃ³buj jeszcze raz");
+define("_MD_YOGURT_DESC_EDITED","Opis zostaÂ³ zmieniony");
 define("_MD_YOGURT_CAPTION","Opis");
-define("_MD_YOGURT_YOUCANUPLOAD","Mo¿esz wys³aæ Fotografie w formacie jpg's o razmiarze do %s KB");
-define("_MD_YOGURT_UPLOADPICTURE","Wy¶lij zdiêcie");
-define("_MD_YOGURT_NOCACHACA","Niestety ten modu³ wykona³ nieoczekiwan± operacjê!<br />
-Spróbuj wkrótce. ");//
+define("_MD_YOGURT_YOUCANUPLOAD","MoÂ¿esz wysÂ³aÃ¦ Fotografie w formacie jpg's o razmiarze do %s KB");
+define("_MD_YOGURT_UPLOADPICTURE","WyÂ¶lij zdiÃªcie");
+define("_MD_YOGURT_NOCACHACA","Niestety ten moduÂ³ wykonaÂ³ nieoczekiwanÂ± operacjÃª!<br />
+SprÃ³buj wkrÃ³tce. ");//
 define("_MD_YOGURT_PAGETITLE","%s - %s's Globalni");
 define("_MD_YOGURT_SUBMIT","Publikuj");
 define("_MD_YOGURT_VIDEOS","Video");
@@ -41,7 +41,7 @@ define("_MD_YOGURT_SCRAPBOOK","Notatki");
 define("_MD_YOGURT_PHOTOS","Fotki");
 define("_MD_YOGURT_FRIENDS","Znajomi");
 define("_MD_YOGURT_TRIBES","Grupy");
-define("_MD_YOGURT_NOTRIBESYET","Nie nale¿ysz do zadnych Klanów");
+define("_MD_YOGURT_NOTRIBESYET","Nie naleÂ¿ysz do zadnych KlanÃ³w");
 define("_MD_YOGURT_MYTRIBES","Moje Grupy");
 define("_MD_YOGURT_ALLTRIBES","Wszystkie Grupy");
 define("_MD_YOGURT_PROFILE","Profil");
@@ -50,44 +50,44 @@ define("_MD_YOGURT_CONFIGSTITLE","Ustawienia");
 
 ##################################################### PICTURES #######################################################
 //submit.php (for pictures submission
-define("_MD_YOGURT_UPLOADED","Wys³ono z powodzeniem");
+define("_MD_YOGURT_UPLOADED","WysÂ³ono z powodzeniem");
 
 //delpicture.php
-define("_MD_YOGURT_ASKCONFIRMDELETION","Czy usun±æ zdiêcie?");
+define("_MD_YOGURT_ASKCONFIRMDELETION","Czy usunÂ±Ã¦ zdiÃªcie?");
 define("_MD_YOGURT_CONFIRMDELETION","Tak!");
 
 //album.php
-define("_MD_YOGURT_YOUHAVE", " Masz %s zdiêæ w twoim albumie.");
-define("_MD_YOGURT_YOUCANHAVE", "Mo¿esz wys³aæ %s Fotek.");
-define("_MD_YOGURT_DELETED","Usuniêto z powodzeniem");
-define("_MD_YOGURT_SUBMIT_PIC_TITLE","Wy¶lij zdiêcie");
-define("_MD_YOGURT_SELECT_PHOTO","Wybierz Fotkê");
-define("_MD_YOGURT_NOTHINGYET","Jeszcze nie ma zdiêc w tym albumie");
-define("_MD_YOGURT_AVATARCHANGE","To ziêcie ma byæ moim AVATAREM");
-define("_MD_YOGURT_PRIVATIZE","Tylko ty mo¿esz ogladaæ zdiêcia w twoim albumie");
-define("_MD_YOGURT_UNPRIVATIZE","Wszyscy bêd± mogli ogl±daæ zdiêcie w twoim albumie");
+define("_MD_YOGURT_YOUHAVE"," Masz %s zdiÃªÃ¦ w twoim albumie.");
+define("_MD_YOGURT_YOUCANHAVE","MoÂ¿esz wysÂ³aÃ¦ %s Fotek.");
+define("_MD_YOGURT_DELETED","UsuniÃªto z powodzeniem");
+define("_MD_YOGURT_SUBMIT_PIC_TITLE","WyÂ¶lij zdiÃªcie");
+define("_MD_YOGURT_SELECT_PHOTO","Wybierz FotkÃª");
+define("_MD_YOGURT_NOTHINGYET","Jeszcze nie ma zdiÃªc w tym albumie");
+define("_MD_YOGURT_AVATARCHANGE","To ziÃªcie ma byÃ¦ moim AVATAREM");
+define("_MD_YOGURT_PRIVATIZE","Tylko ty moÂ¿esz ogladaÃ¦ zdiÃªcia w twoim albumie");
+define("_MD_YOGURT_UNPRIVATIZE","Wszyscy bÃªdÂ± mogli oglÂ±daÃ¦ zdiÃªcie w twoim albumie");
 define("_MD_YOGURT_MYPHOTOS","Moje Fotki");
 
 //avatar.php
-define("_MD_YOGURT_AVATAR_EDITED","Zmieniono zdiêcie g³ówne Twojego profilu!");
+define("_MD_YOGURT_AVATAR_EDITED","Zmieniono zdiÃªcie gÂ³Ã³wne Twojego profilu!");
 
 //private.php
-define("_MD_YOGURT_PRIVATIZED","Od teraz tylko ty mo¿esz ogladaæ to zdiêcie(a)");
-define("_MD_YOGURT_UNPRIVATIZED","Od tej chwili wszyscy widz± twoje zdiêcia");
+define("_MD_YOGURT_PRIVATIZED","Od teraz tylko ty moÂ¿esz ogladaÃ¦ to zdiÃªcie(a)");
+define("_MD_YOGURT_UNPRIVATIZED","Od tej chwili wszyscy widzÂ± twoje zdiÃªcia");
 
 ########################################################## FRIENDS ###################################################
 //friends.php
 define("_MD_YOGURT_FRIENDSTITLE","%s Znajomi");
-define("_MD_YOGURT_NOFRIENDSYET","Nie masz jeszcze przyjacó³");//also present in index.php
+define("_MD_YOGURT_NOFRIENDSYET","Nie masz jeszcze przyjacÃ³Â³");//also present in index.php
 define("_MD_YOGURT_MYFRIENDS","Moi Przyjaciele");
-define("_MD_YOGURT_FRIENDSHIPCONFIGS","Zmieñ ustawienia. Oceñ przyjació³.");
+define("_MD_YOGURT_FRIENDSHIPCONFIGS","ZmieÃ± ustawienia. OceÃ± przyjaciÃ³Â³.");
 
 //class/yogurtfriendship.php
-define("_MD_YOGURT_EDITFRIENDSHIP","Twoje relacje z u¿ytkownikiem:");
-define("_MD_YOGURT_FRIENDNAME","Imiê");
-define("_MD_YOGURT_LEVEL","Stopieñ przyja¼ni:");
-define("_MD_YOGURT_UNKNOWNACCEPTED","Zaakceptowa³em zaproszenie");
-define("_MD_YOGURT_AQUAITANCE","Znajomo¶æ");//also present in index.php
+define("_MD_YOGURT_EDITFRIENDSHIP","Twoje relacje z uÂ¿ytkownikiem:");
+define("_MD_YOGURT_FRIENDNAME","ImiÃª");
+define("_MD_YOGURT_LEVEL","StopieÃ± przyjaÂ¼ni:");
+define("_MD_YOGURT_UNKNOWNACCEPTED","ZaakceptowaÂ³em zaproszenie");
+define("_MD_YOGURT_AQUAITANCE","ZnajomoÂ¶Ã¦");//also present in index.php
 define("_MD_YOGURT_FRIEND","Kolega");//also present in index.php
 define("_MD_YOGURT_BESTFRIEND","Najlepszy przyjaciel");//also present in index.php
 define("_MD_YOGURT_FAN","Fan");//also present in index.php
@@ -103,108 +103,108 @@ define("_MD_YOGURT_COOL","Cool");
 define("_MD_YOGURT_COOLNO","Nope");
 define("_MD_YOGURT_COOLYES","Yes");
 define("_MD_YOGURT_COOLALOT","Very much");
-define("_MD_YOGURT_PHOTO","Zdiêcie u¿ytkownika");
-define("_MD_YOGURT_UPDATEFRIEND","Zmieñ");
+define("_MD_YOGURT_PHOTO","ZdiÃªcie uÂ¿ytkownika");
+define("_MD_YOGURT_UPDATEFRIEND","ZmieÃ±");
 
 //editfriendship.php
-define("_MD_YOGURT_FRIENDSHIPUPDATED","Zmiany uzytkownika wprowadzono pomy¶lnie");
+define("_MD_YOGURT_FRIENDSHIPUPDATED","Zmiany uzytkownika wprowadzono pomyÂ¶lnie");
 
 //submitfriendpetition.php
-define("_MD_YOGURT_PETITIONED","Zaproszenie do grona przyjació³ zosta³o wys³ane, Czekaj na akceptacjê Twojego zaproszenia:)");
-define("_MD_YOGURT_ALREADY_PETITIONED","Ju¿ pos³a³e¶ zaproszenie  do tego u¿ytkownika albo odwrotnie <br />, Czekaj zanim on przyjmie albo odrzuci twoje zaproszenie albo sprawd¼ kontrolnie otrzymane zaproszenia .");
+define("_MD_YOGURT_PETITIONED","Zaproszenie do grona przyjaciÃ³Â³ zostaÂ³o wysÂ³ane, Czekaj na akceptacjÃª Twojego zaproszenia:)");
+define("_MD_YOGURT_ALREADY_PETITIONED","JuÂ¿ posÂ³aÂ³eÂ¶ zaproszenie  do tego uÂ¿ytkownika albo odwrotnie <br />, Czekaj zanim on przyjmie albo odrzuci twoje zaproszenie albo sprawdÂ¼ kontrolnie otrzymane zaproszenia .");
 
 //makefriends.php
-define("_MD_YOGURT_FRIENDMADE","Dodano do grona przyjació³");
+define("_MD_YOGURT_FRIENDMADE","Dodano do grona przyjaciÃ³Â³");
 
 //delfriendship.php
-define("_MD_YOGURT_FRIENDSHIPTERMINATED","Zerwali¶cie relacje z tym u¿ytkownikiem!");
+define("_MD_YOGURT_FRIENDSHIPTERMINATED","ZerwaliÂ¶cie relacje z tym uÂ¿ytkownikiem!");
 
 ############################################ VIDEOS ############################################################
 //mainvideo.php
-define("_MD_YOGURT_SETMAINVIDEO","To video zosta³o ustawione jako g³ówne w Twoim profilu");
+define("_MD_YOGURT_SETMAINVIDEO","To video zostaÂ³o ustawione jako gÂ³Ã³wne w Twoim profilu");
 
 //seutubo.php
 define("_MD_YOGURT_YOUTUBECODE","YouTube KOD: lub Adres URL");
 define("_MD_YOGURT_ADDVIDEO","Dodaj video");
-define("_MD_YOGURT_ADDFAVORITEVIDEOS","Dodaj do ulubionych filmów");
-define("_MD_YOGURT_ADDVIDEOSHELP","Jesli chcesz wys³aæ nam swój film skarzystaj z tego linku
-<a href=http://www.youtube.com>YouTube</a> Nastêpnie wklej w swoim profilu ADRES URL do filmu"); //The name of the site will show after this
+define("_MD_YOGURT_ADDFAVORITEVIDEOS","Dodaj do ulubionych filmÃ³w");
+define("_MD_YOGURT_ADDVIDEOSHELP","Jesli chcesz wysÂ³aÃ¦ nam swÃ³j film skarzystaj z tego linku
+<a href=http://www.youtube.com>YouTube</a> NastÃªpnie wklej w swoim profilu ADRES URL do filmu"); //The name of the site will show after this
 define("_MD_YOGURT_MYVIDEOS","Moje Video");
-define("_MD_YOGURT_MAKEMAIN","Ten Film ma byæ moim g³ównym VIDEO");
-define("_MD_YOGURT_NOVIDEOSYET","Nie masz jeszcze filmów Video!");
+define("_MD_YOGURT_MAKEMAIN","Ten Film ma byÃ¦ moim gÂ³Ã³wnym VIDEO");
+define("_MD_YOGURT_NOVIDEOSYET","Nie masz jeszcze filmÃ³w Video!");
 
 //delvideo.php
-define("_MD_YOGURT_ASKCONFIRMVIDEODELETION","Czy napewno usun±æ ten film ?");
+define("_MD_YOGURT_ASKCONFIRMVIDEODELETION","Czy napewno usunÂ±Ã¦ ten film ?");
 define("_MD_YOGURT_CONFIRMVIDEODELETION","TAK!");
-define("_MD_YOGURT_VIDEODELETED","Film zosta³ usuniêty");
+define("_MD_YOGURT_VIDEODELETED","Film zostaÂ³ usuniÃªty");
 
 //video_submited.php
-define("_MD_YOGURT_VIDEOSAVED","Twoje wideo zosta³o zapisane");
+define("_MD_YOGURT_VIDEOSAVED","Twoje wideo zostaÂ³o zapisane");
 
 ############################## TRIBES ########################################################
 //class/yogurt_tribes.php
-define("_MD_YOGURT_SUBMIT_TRIBE","Stwórz now± grupê urzytkowników");
-define("_MD_YOGURT_UPLOADTRIBE","Zapisz GRUPÊ");//also present in many ther tribes related
-define("_MD_YOGURT_TRIBE_IMAGE","Symbol lub zdiêcie GRUPY");//also present in many ther tribes related
-define("_MD_YOGURT_TRIBE_TITLE","Tytu³");//also present in many ther tribes related
+define("_MD_YOGURT_SUBMIT_TRIBE","StwÃ³rz nowÂ± grupÃª urzytkownikÃ³w");
+define("_MD_YOGURT_UPLOADTRIBE","Zapisz GRUPÃŠ");//also present in many ther tribes related
+define("_MD_YOGURT_TRIBE_IMAGE","Symbol lub zdiÃªcie GRUPY");//also present in many ther tribes related
+define("_MD_YOGURT_TRIBE_TITLE","TytuÂ³");//also present in many ther tribes related
 define("_MD_YOGURT_TRIBE_DESC","Opis");//also present in many ther tribes related
-define("_MD_YOGURTCREATEYOURTRIBE","Utwórz!");//also present in many ther tribes related
+define("_MD_YOGURTCREATEYOURTRIBE","UtwÃ³rz!");//also present in many ther tribes related
 
 //abandontribe.php
-define("_MD_YOGURT_ASKCONFIRMABANDONTRIBE","Czy chcesz opu¶ciæ grupê?");
-define("_MD_YOGURT_CONFIRMABANDON","Tak chcê opu¶ciæ t± grupê!");
-define("_MD_YOGURT_TRIBEABANDONED","Nie mozesz do³aczyæ do grupy.");
+define("_MD_YOGURT_ASKCONFIRMABANDONTRIBE","Czy chcesz opuÂ¶ciÃ¦ grupÃª?");
+define("_MD_YOGURT_CONFIRMABANDON","Tak chcÃª opuÂ¶ciÃ¦ tÂ± grupÃª!");
+define("_MD_YOGURT_TRIBEABANDONED","Nie mozesz doÂ³aczyÃ¦ do grupy.");
 
 //becomemembertribe.php
-define("_MD_YOGURT_YOUAREMEMBERNOW","Jestes teraz cz³onkiem grupy");
-define("_MD_YOGURT_YOUAREMEMBERALREADY","Jeste¶ cz³onkiem tej Grupy ");
+define("_MD_YOGURT_YOUAREMEMBERNOW","Jestes teraz czÂ³onkiem grupy");
+define("_MD_YOGURT_YOUAREMEMBERALREADY","JesteÂ¶ czÂ³onkiem tej Grupy ");
 
 //delete_tribe.php
-define("_MD_YOGURT_ASKCONFIRMTRIBEDELETION","Czy jeste¶ pewien ¿e chcesz usun±æ t± Grupê?");
-define("_MD_YOGURT_CONFIRMTRIBEDELETION","Tak usuñ GRUPÊ!");
-define("_MD_YOGURT_TRIBEDELETED","Grupa Usuniêta!");
+define("_MD_YOGURT_ASKCONFIRMTRIBEDELETION","Czy jesteÂ¶ pewien Â¿e chcesz usunÂ±Ã¦ tÂ± GrupÃª?");
+define("_MD_YOGURT_CONFIRMTRIBEDELETION","Tak usuÃ± GRUPÃŠ!");
+define("_MD_YOGURT_TRIBEDELETED","Grupa UsuniÃªta!");
 
 //edit_tribe.php
-define("_MD_YOGURT_MAINTAINOLDIMAGE","Przypisz to zdiêcie");//also present in other tribes related
+define("_MD_YOGURT_MAINTAINOLDIMAGE","Przypisz to zdiÃªcie");//also present in other tribes related
 define("_MD_YOGURT_TRIBEEDITED","Grupa zmieniona");
 define("_MD_YOGURT_EDIT_TRIBE","Edycja Grupy");//also present in other tribes related
-define("_MD_YOGURT_TRIBEOWNER","Jeste¶ za³o¿ycielem tej grupy!");//also present in other tribes related
-define("_MD_YOGURT_MEMBERSDOFTRIBE","Cz³onkowie Grupy");//also present in other tribes related
+define("_MD_YOGURT_TRIBEOWNER","JesteÂ¶ zaÂ³oÂ¿ycielem tej grupy!");//also present in other tribes related
+define("_MD_YOGURT_MEMBERSDOFTRIBE","CzÂ³onkowie Grupy");//also present in other tribes related
 
 //submit_tribe.php
-define("_MD_YOGURT_TRIBE_CREATED","Grupa zosta³a stworzona");
+define("_MD_YOGURT_TRIBE_CREATED","Grupa zostaÂ³a stworzona");
 
 //kickfromtribe.php
-define("_MD_YOGURT_CONFIRMKICK","Wyrzuæ go z grupy!");
-define("_MD_YOGURT_ASKCONFIRMKICKFROMTRIBE","Jeste¶ pewien(na) ¿e chcesz usun±æ t± osobê z grupy ?");
-define("_MD_YOGURT_TRIBEKICKED","Dosta³es bana, kto wie spróbuj siê przy³±czyæ w przysz³o¶ci!");
+define("_MD_YOGURT_CONFIRMKICK","WyrzuÃ¦ go z grupy!");
+define("_MD_YOGURT_ASKCONFIRMKICKFROMTRIBE","JesteÂ¶ pewien(na) Â¿e chcesz usunÂ±Ã¦ tÂ± osobÃª z grupy ?");
+define("_MD_YOGURT_TRIBEKICKED","DostaÂ³es bana, kto wie sprÃ³buj siÃª przyÂ³Â±czyÃ¦ w przyszÂ³oÂ¶ci!");
 
 //Tribes.php
-define("_MD_YOGURT_TRIBE_ABANDON","Opu¶c grupê");
-define("_MD_YOGURT_TRIBE_JOIN","Do³acz do grupy i powiedz wszystkim KIM JESTE¶!");
+define("_MD_YOGURT_TRIBE_ABANDON","OpuÂ¶c grupÃª");
+define("_MD_YOGURT_TRIBE_JOIN","DoÂ³acz do grupy i powiedz wszystkim KIM JESTEÂ¶!");
 define("_MD_YOGURT_TRIBE_SEARCH","Szukaj grupy");
-define("_MD_YOGURT_TRIBE_SEARCHKEYWORD","S³owa kluczowe");
+define("_MD_YOGURT_TRIBE_SEARCHKEYWORD","SÂ³owa kluczowe");
 
 ######################################### SCRAPS #####################################################
 //scrapbook.php
 define('_MD_YOGURT_ENTERTEXTSCRAP',"Wpisz tekst lub KOD Xoops");
 define("_MD_YOGURT_SENDSCRAP","Nowa");
-define("_MD_YOGURT_ANSWERSCRAP","Odpowied¼");//also present in configs.php
-define("_MD_YOGURT_MYSCRAPBOOK","Moja ksia¿ka");
-define("_MD_YOGURT_CANCEL","Odrzuæ");//also present in configs.php
+define("_MD_YOGURT_ANSWERSCRAP","OdpowiedÂ¼");//also present in configs.php
+define("_MD_YOGURT_MYSCRAPBOOK","Moja ksiaÂ¿ka");
+define("_MD_YOGURT_CANCEL","OdrzuÃ¦");//also present in configs.php
 define("_MD_YOGURT_SCRAPTIPS","Notatki");
 define("_MD_YOGURT_BOLD","bold");
 define("_MD_YOGURT_ITALIC","italic");
-define("_MD_YOGURT_UNDERLINE","podkre¶lenie");
-define("_MD_YOGURT_NOSCRAPSYET","Nie masz ¿adnych notatek");
+define("_MD_YOGURT_UNDERLINE","podkreÂ¶lenie");
+define("_MD_YOGURT_NOSCRAPSYET","Nie masz Â¿adnych notatek");
 
 //submit_scrap.php
-define("_MD_YOGURT_SCRAP_SENT","Dziêkujemy, Notatka wys³ana");
+define("_MD_YOGURT_SCRAP_SENT","DziÃªkujemy, Notatka wysÂ³ana");
 
 //delete_scrap.php
-define("_MD_YOGURT_ASKCONFIRMSCRAPDELETION","Usun±æ tê notatkê?");
-define("_MD_YOGURT_CONFIRMSCRAPDELETION","TAK, usuñ j±.");
-define("_MD_YOGURT_SCRAPDELETED","Notatka usuniêta!");
+define("_MD_YOGURT_ASKCONFIRMSCRAPDELETION","UsunÂ±Ã¦ tÃª notatkÃª?");
+define("_MD_YOGURT_CONFIRMSCRAPDELETION","TAK, usuÃ± jÂ±.");
+define("_MD_YOGURT_SCRAPDELETED","Notatka usuniÃªta!");
 
 ############################ CONFIGS ##############################################
 //configs.php
@@ -212,7 +212,7 @@ define("_MD_YOGURT_CONFIGSEVERYONE","Wszyscy");
 define("_MD_YOGURT_CONFIGSONLYEUSERS","Zarejestrowani");
 define("_MD_YOGURT_CONFIGSONLYEFRIENDS","Znajomi.");
 define("_MD_YOGURT_CONFIGSONLYME","Tylko JA");
-define("_MD_YOGURT_CONFIGSPICTURES","Zdiêcia");
+define("_MD_YOGURT_CONFIGSPICTURES","ZdiÃªcia");
 define("_MD_YOGURT_CONFIGSVIDEOS","Filmy");
 define("_MD_YOGURT_CONFIGSTRIBES","Grupy");
 define("_MD_YOGURT_CONFIGSSCRAPS","Notatki");
@@ -221,102 +221,102 @@ define("_MD_YOGURT_CONFIGSFRIENDS","Znajomi");
 define("_MD_YOGURT_CONFIGSPROFILECONTACT","Dane Kontaktowe");
 define("_MD_YOGURT_CONFIGSPROFILEGENERAL","Info");
 define("_MD_YOGURT_CONFIGSPROFILESTATS","Statystyki");
-define("_MD_YOGURT_WHOCAN","Komu zezwalasz na przegl±danie:");
+define("_MD_YOGURT_WHOCAN","Komu zezwalasz na przeglÂ±danie:");
 
 //submit_configs.php
 define("_MD_YOGURT_CONFIGSSAVE","Kanfiguracja zapisana!");
 
 //class/yogurt_controler.php
-define("_MD_YOGURT_NOPRIVILEGE","W³a¶ciciel tego profilu zezwoli³ na , <br />wiêcej ni¿ wy macie teraz. <br />Wy¶li pro¶bê o zmianê uprawnieñ <br />Je¿eli nie logowa³ siê nie móg³ odpowiedzieæ na twoje zaproszenie");
+define("_MD_YOGURT_NOPRIVILEGE","WÂ³aÂ¶ciciel tego profilu zezwoliÂ³ na , <br />wiÃªcej niÂ¿ wy macie teraz. <br />WyÂ¶li proÂ¶bÃª o zmianÃª uprawnieÃ± <br />JeÂ¿eli nie logowaÂ³ siÃª nie mÃ³gÂ³ odpowiedzieÃ¦ na twoje zaproszenie");
 
 ###################################### OTHERS ##############################
 
 //index.php
-define("_MD_YOGURT_VISITORS","Odwiedzali twój profil (najczê¶ciej)");
-define("_MD_YOGURT_USERDETAILS","Szczegó³y uzytkownika");
-define("_MD_YOGURT_USERCONTRIBUTIONS","Wk³ad u¿ytkownika");
+define("_MD_YOGURT_VISITORS","Odwiedzali twÃ³j profil (najczÃªÂ¶ciej)");
+define("_MD_YOGURT_USERDETAILS","SzczegÃ³Â³y uzytkownika");
+define("_MD_YOGURT_USERCONTRIBUTIONS","WkÂ³ad uÂ¿ytkownika");
 define("_MD_YOGURT_FANS","Fani");
 define("_MD_YOGURT_UNKNOWNREJECTING","Nie znam tej osoby, nie dodawajjej do grona znajomych.");
-define("_MD_YOGURT_UNKNOWNACCEPTING","Jeszcze nie znam tej osoby, ale dodajê j± do znajomych.");
+define("_MD_YOGURT_UNKNOWNACCEPTING","Jeszcze nie znam tej osoby, ale dodajÃª jÂ± do znajomych.");
 define("_MD_YOGURT_ASKINGFRIEND","Czy %s jest twoim znajomym?");
-define("_MD_YOGURT_ASKBEFRIEND","Wys³aæ zaproszenie?");
+define("_MD_YOGURT_ASKBEFRIEND","WysÂ³aÃ¦ zaproszenie?");
 define("_MD_YOGURT_EDITPROFILE","Edytuj profil");
-define("_MD_YOGURT_SELECTAVATAR","Wy¶lij zdiêcia do swojego albumu i wybierz jedno jako swój AVATAR.");
-define("_MD_YOGURT_SELECTMAINVIDEO","Dodaj Filmy i wybierz jeden jako g³ówny w twoim profilu");
+define("_MD_YOGURT_SELECTAVATAR","WyÂ¶lij zdiÃªcia do swojego albumu i wybierz jedno jako swÃ³j AVATAR.");
+define("_MD_YOGURT_SELECTMAINVIDEO","Dodaj Filmy i wybierz jeden jako gÂ³Ã³wny w twoim profilu");
 define("_MD_YOGURT_NOAVATARYET","Nie wybrano AVATARA");
-define("_MD_YOGURT_NOMAINVIDEOYET","Nie wybrano g³ównego Video");
-define("_MD_YOGURT_MYPROFILE","Mój profil");
+define("_MD_YOGURT_NOMAINVIDEOYET","Nie wybrano gÂ³Ã³wnego Video");
+define("_MD_YOGURT_MYPROFILE","MÃ³j profil");
 define("_MD_YOGURT_YOUHAVEXPETITIONS","Masz %u odpowiedzi od znajomych.");
 define("_MD_YOGURT_CONTACTINFO","Kantakt Info");
-define("_MD_YOGURT_SUSPENDUSER","U¿ytkownicy w zawieszeniu");
+define("_MD_YOGURT_SUSPENDUSER","UÂ¿ytkownicy w zawieszeniu");
 define("_MD_YOGURT_SUSPENDTIME","Czas wstrzymania(w sek)");
-define("_MD_YOGURT_UNSUSPEND","Przywróceni");
-define("_MD_YOGURT_SUSPENSIONADMIN","Administracja ZAWIESZEÑ");
+define("_MD_YOGURT_UNSUSPEND","PrzywrÃ³ceni");
+define("_MD_YOGURT_SUSPENSIONADMIN","Administracja ZAWIESZEÃ‘");
 
 //suspend.php
 define("_MD_YOGURT_SUSPENDED","Zawieszony od %s");
 define("_MD_YOGURT_USERSUSPENDED","Zawieszony!");//als0 present in index.php
 
 //unsuspend.php
-define("_MD_YOGURT_USERUNSUSPENDED","Przywrócony");
+define("_MD_YOGURT_USERUNSUSPENDED","PrzywrÃ³cony");
 
 //searchmembers.php
-define("_MD_YOGURT_SEARCH","Szukaj Cz³onków");
+define("_MD_YOGURT_SEARCH","Szukaj CzÂ³onkÃ³w");
 define("_MD_YOGURT_AVATAR","Avatar");
-define("_MD_YOGURT_REALNAME","Prawdziwe imiê");
-define("_MD_YOGURT_REGDATE","Data wst±pienia");
+define("_MD_YOGURT_REALNAME","Prawdziwe imiÃª");
+define("_MD_YOGURT_REGDATE","Data wstÂ±pienia");
 define("_MD_YOGURT_EMAIL","Email");
 define("_MD_YOGURT_PM","PM");
 define("_MD_YOGURT_URL","URL");
 define("_MD_YOGURT_ADMIN","ADMIN");
 define("_MD_YOGURT_PREVIOUS","Wstecz");
 define("_MD_YOGURT_NEXT","Dalej");
-define("_MD_YOGURT_USERSFOUND","%s znaleziono u¿ytkowników ");
-define("_MD_YOGURT_TOTALUSERS", "Ogó³em: %s u¿ytkowników");
+define("_MD_YOGURT_USERSFOUND","%s znaleziono uÂ¿ytkownikÃ³w ");
+define("_MD_YOGURT_TOTALUSERS","OgÃ³Â³em: %s uÂ¿ytkownikÃ³w");
 define("_MD_YOGURT_NOFOUND","Nie znaleziono uzytkownika");
-define("_MD_YOGURT_UNAME","Nazwa u¿ytkownika");
+define("_MD_YOGURT_UNAME","Nazwa uÂ¿ytkownika");
 define("_MD_YOGURT_ICQ","ICQ Numer");
 define("_MD_YOGURT_AIM","AIM Handle");
 define("_MD_YOGURT_YIM","YIM Handle");
 define("_MD_YOGURT_MSNM","MSNM Handle");
 define("_MD_YOGURT_LOCATION","Lokalizacja");
-define("_MD_YOGURT_OCCUPATION","Zawód");
+define("_MD_YOGURT_OCCUPATION","ZawÃ³d");
 define("_MD_YOGURT_INTEREST","Zainteresowania");
 define("_MD_YOGURT_URLC","URL ");
-define("_MD_YOGURT_LASTLOGMORE","Ostatnio zalogowany pu¼niej ni¿<span style='color:#ff0000;'>X</span> dni temu");
-define("_MD_YOGURT_LASTLOGLESS","Ostatnio zalogowany wcze¶niej ni¿ <span style='color:#ff0000;'>X</span> dni temu");
-define("_MD_YOGURT_REGMORE","Do³±czy³ najpu¼niej <span style='color:#ff0000;'>X</span> dni temu");
-define("_MD_YOGURT_REGLESS","Do³±czy³ wcze¶niej ni¿ <span style='color:#ff0000;'>X</span> dni temu");
-define("_MD_YOGURT_POSTSMORE","Napisa³ wiêcej postów ni¿ <span style='color:#ff0000;'>X</span>");
-define("_MD_YOGURT_POSTSLESS","Napisa³ mniej postów ni¿<span style='color:#ff0000;'>X</span>");
+define("_MD_YOGURT_LASTLOGMORE","Ostatnio zalogowany puÂ¼niej niÂ¿<span style='color:#ff0000;'>X</span> dni temu");
+define("_MD_YOGURT_LASTLOGLESS","Ostatnio zalogowany wczeÂ¶niej niÂ¿ <span style='color:#ff0000;'>X</span> dni temu");
+define("_MD_YOGURT_REGMORE","DoÂ³Â±czyÂ³ najpuÂ¼niej <span style='color:#ff0000;'>X</span> dni temu");
+define("_MD_YOGURT_REGLESS","DoÂ³Â±czyÂ³ wczeÂ¶niej niÂ¿ <span style='color:#ff0000;'>X</span> dni temu");
+define("_MD_YOGURT_POSTSMORE","NapisaÂ³ wiÃªcej postÃ³w niÂ¿ <span style='color:#ff0000;'>X</span>");
+define("_MD_YOGURT_POSTSLESS","NapisaÂ³ mniej postÃ³w niÂ¿<span style='color:#ff0000;'>X</span>");
 define("_MD_YOGURT_SORT","Sortuj ");
 define("_MD_YOGURT_ORDER","Order");
 define("_MD_YOGURT_LASTLOGIN","ostatnie logowanie");
 define("_MD_YOGURT_POSTS","Posty");
-define("_MD_YOGURT_ASC","Rosn±co");
-define("_MD_YOGURT_DESC","Malej±co");
-define("_MD_YOGURT_LIMIT","Ilo¶æ rekordów na stronie");
-define("_MD_YOGURT_RESULTS", "Wynik wyszukiwania");
+define("_MD_YOGURT_ASC","RosnÂ±co");
+define("_MD_YOGURT_DESC","MalejÂ±co");
+define("_MD_YOGURT_LIMIT","IloÂ¶Ã¦ rekordÃ³w na stronie");
+define("_MD_YOGURT_RESULTS","Wynik wyszukiwania");
 
 //26/10/2007
-define("_MD_YOGURT_VIDEOSNOTENABLED", "Administrator wy³±czy³ tê sekcjê");
-define("_MD_YOGURT_FRIENDSNOTENABLED", "Administrator wy³±czy³ tê sekcjê");
-define("_MD_YOGURT_TRIBESNOTENABLED", "Administrator wy³±czy³ tê sekcjê");
-define("_MD_YOGURT_PICTURESNOTENABLED", "Administrator wy³±czy³ tê sekcjê");
-define("_MD_YOGURT_SCRAPSNOTENABLED", "Administrator wy³±czy³ tê sekcjê");
+define("_MD_YOGURT_VIDEOSNOTENABLED","Administrator wyÂ³Â±czyÂ³ tÃª sekcjÃª");
+define("_MD_YOGURT_FRIENDSNOTENABLED","Administrator wyÂ³Â±czyÂ³ tÃª sekcjÃª");
+define("_MD_YOGURT_TRIBESNOTENABLED","Administrator wyÂ³Â±czyÂ³ tÃª sekcjÃª");
+define("_MD_YOGURT_PICTURESNOTENABLED","Administrator wyÂ³Â±czyÂ³ tÃª sekcjÃª");
+define("_MD_YOGURT_SCRAPSNOTENABLED","Administrator wyÂ³Â±czyÂ³ tÃª sekcjÃª");
 
 
 //26/01/2008
-define("_MD_YOG_ALLFRIENDS" , "Poka¿ znajomych");
-define("_MD_YOG_ALLTRIBES" , "Poka¿ grupy");
+define("_MD_YOG_ALLFRIENDS" , "PokaÂ¿ znajomych");
+define("_MD_YOG_ALLTRIBES" , "PokaÂ¿ grupy");
 
 //31/01/2008
-define("_MD_YOGURT_FRIENDSHIPNOTACCEPTED" , "Znajomo¶c odrzucona");
+define("_MD_YOGURT_FRIENDSHIPNOTACCEPTED" , "ZnajomoÂ¶c odrzucona");
 
 //07/04/2008
 define("_MD_YOGURT_USERDOESNTEXIST","Ten uzytkownik nie istnieje");
-define("_MD_YOGURT_FANSTITLE","%s's Fanów");
-define("_MD_YOGURT_NOFANSYET","Nie ma ¿adnych Fanów");
+define("_MD_YOGURT_FANSTITLE","%s's FanÃ³w");
+define("_MD_YOGURT_NOFANSYET","Nie ma Â¿adnych FanÃ³w");
 
 
 

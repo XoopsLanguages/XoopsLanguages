@@ -8,8 +8,8 @@ define('_LOGOUT','Desconectar');
 define('_SUBJECT','Tema');
 define('_MESSAGEICON','Icona da Mensaxe');
 define('_COMMENTS','Comentarios');
-define('_POSTANON','Enviar anónimamente');
-define('_DISABLESMILEY','Desactivar cariñas');
+define('_POSTANON','Enviar anÃ³nimamente');
+define('_DISABLESMILEY','Desactivar cariÃ±as');
 define('_DISABLEHTML','Desactivar html');
 define('_PREVIEW','Previsualizar');
 
@@ -17,18 +17,18 @@ define('_GO','Continuar');
 define("_NESTED","Vista escalonada");
 define("_NOCOMMENTS","Sen comentarios");
 define('_FLAT','Vista vertical');
-define('_THREADED','Vista xerárquica');
+define('_THREADED','Vista xerÃ¡rquica');
 define('_OLDESTFIRST','Vellos primeiro');
 define('_NEWESTFIRST','Novos primeiro');
-define("_MORE","máis ....");
-define("_MULTIPAGE","Para dividir o artículo en múltiples páxinas <br />insira a palabra <font color=red>[pagebreak]</font> (con [] incluido) dentro do artigo para cada cambio de páxina.");
-define("_IFNOTRELOAD","Se a páxina non carga automaticamente, <br />por favor, prema <a href='%s'>aquí</a>");
-define('_WARNINSTALL2','ATENCIÓN: o directorio %s existe no seu servidor. <br />Por favor, elimíneo por razóns de seguridade.');
-define('_WARNINWRITEABLE','ATENCIÓN: o arquivo %s é escribíbel no servidor. <br />Por favor, cambie os permisos deste arquivo por razóns de seguridade. <br /> en Unix (444), en Win32 (só lectura)');
+define("_MORE","mÃ¡is ....");
+define("_MULTIPAGE","Para dividir o artÃ­culo en mÃºltiples pÃ¡xinas <br />insira a palabra <font color=red>[pagebreak]</font> (con [] incluido) dentro do artigo para cada cambio de pÃ¡xina.");
+define("_IFNOTRELOAD","Se a pÃ¡xina non carga automaticamente, <br />por favor, prema <a href='%s'>aquÃ­</a>");
+define('_WARNINSTALL2','ATENCIÃ“N: o directorio %s existe no seu servidor. <br />Por favor, elimÃ­neo por razÃ³ns de seguridade.');
+define('_WARNINWRITEABLE','ATENCIÃ“N: o arquivo %s Ã© escribÃ­bel no servidor. <br />Por favor, cambie os permisos deste arquivo por razÃ³ns de seguridade. <br /> en Unix (444), en Win32 (sÃ³ lectura)');
 
 // Error messages issued by XoopsObject::cleanVars()
-define( "_XOBJ_ERR_REQUIRED", "%s requerido" );
-define( "_XOBJ_ERR_SHORTERTHAN", "%s ha de ter menos de %d caracteres." );
+define("_XOBJ_ERR_REQUIRED","%s requerido" );
+define("_XOBJ_ERR_SHORTERTHAN","%s ha de ter menos de %d caracteres." );
 
 //%%%%%%	File Name themeuserpost.php 	%%%%%
 define('_PROFILE','Perfil');
@@ -45,18 +45,18 @@ define('_MAIN','Principal');
 define('_MANUAL','Manual');
 define('_INFO','Info');
 define('_CPHOME','Panel de Control');
-define('_YOURHOME','Páxina de inicio');
+define('_YOURHOME','PÃ¡xina de inicio');
 
 //%%%%%%	File Name misc.php (who's-online popup)	%%%%%
-define('_WHOSONLINE','Usuarios en liña');
-define('_GUESTS', 'Invitados');
-define('_MEMBERS', 'Rexistrados');
-define("_ONLINEPHRASE","<b>%s</b> usuario(s) en liña");
+define('_WHOSONLINE','Usuarios en liÃ±a');
+define('_GUESTS','Invitados');
+define('_MEMBERS','Rexistrados');
+define("_ONLINEPHRASE","<b>%s</b> usuario(s) en liÃ±a");
 define("_ONLINEPHRASEX","<b>%s</b> usuario(s) navegando <b>%s</b>");
 define('_CLOSE','Pechar');
 
 //%%%%%%	File Name module.textsanitizer.php 	%%%%%
-define('_QUOTEC','Acotación:');
+define('_QUOTEC','AcotaciÃ³n:');
 
 //%%%%%%	File Name admin.php 	%%%%%
 define('_NOPERM','Desculpe. Tentou acceder a zona restrinxida.');
@@ -67,29 +67,29 @@ define('_YES','Si');
 define('_EDIT','Editar');
 define('_DELETE','Borrar');
 define('_SUBMIT','Enviar');
-define('_MODULENOEXIST','¡O módulo seleccionado non existe!');
-define("_ALIGN","Aliñar");
+define('_MODULENOEXIST','Â¡O mÃ³dulo seleccionado non existe!');
+define("_ALIGN","AliÃ±ar");
 define('_LEFT','Esquerda');
 define('_CENTER','Centro');
 define('_RIGHT','Dereita');
 define('_FORM_ENTER','Por favor, indique %s');
 // %s represents file name
-define('_MUSTWABLE','¡O arquivo %s debe ser escribíbel no servidor!');
+define('_MUSTWABLE','Â¡O arquivo %s debe ser escribÃ­bel no servidor!');
 // Module info
-define('_PREFERENCES', 'Preferencias');
-define('_VERSION','Versión');
-define('_DESCRIPTION','Descrición');
+define('_PREFERENCES','Preferencias');
+define('_VERSION','VersiÃ³n');
+define('_DESCRIPTION','DescriciÃ³n');
 define('_ERRORS','Erros');
 define('_NONE','Nada');
 define('_ON','el');
 define('_READS','Lecturas');
 define('_WELCOMETO','Benvido a %s');
 define('_SEARCH','Procurar');
-define('_ALL', 'todos');
-define('_TITLE', 'Título');
-define('_OPTIONS', 'Opcións');
-define('_QUOTE', 'Acotación');
-define('_LIST', 'Listar');
+define('_ALL','todos');
+define('_TITLE','TÃ­tulo');
+define('_OPTIONS','OpciÃ³ns');
+define('_QUOTE','AcotaciÃ³n');
+define('_LIST','Listar');
 define('_LOGIN','Entrar');
 define('_USERNAME','Nome: ');
 define('_PASSWORD','Contrasinal: ');
@@ -99,67 +99,67 @@ define('_SEND','Enviar');
 define('_CANCEL','Cancelar');
 define('_ASCENDING','Orde Ascendente');
 define('_DESCENDING','Orde Descendente');
-define('_BACK', 'Retornar');
-define('_NOTITLE', 'Sen título');
+define('_BACK','Retornar');
+define('_NOTITLE','Sen tÃ­tulo');
 
 /* Image manager */
 define('_IMGMANAGER','Administrador de Imaxes');
-define('_NUMIMAGES', '%s imaxes');
+define('_NUMIMAGES','%s imaxes');
 define('_ADDIMAGE','Engadir arquivo de imaxe');
 define('_IMAGENAME','Nome');
-define('_IMGMAXSIZE','Max. tamaño permitido (bytes):');
-define('_IMGMAXWIDTH','Max. Ancho permitido (píxeles):');
-define('_IMGMAXHEIGHT','Max. Alto permitido (píxeles):');
-define('_IMAGECAT','Categoría');
+define('_IMGMAXSIZE','Max. tamaÃ±o permitido (bytes):');
+define('_IMGMAXWIDTH','Max. Ancho permitido (pÃ­xeles):');
+define('_IMGMAXHEIGHT','Max. Alto permitido (pÃ­xeles):');
+define('_IMAGECAT','CategorÃ­a');
 define('_IMAGEFILE','Arquivo de imaxe');
 define('_IMGWEIGHT','Orde para o administrador de imaxes');
 define('_IMGDISPLAY','Amosar a imaxe?');
 define('_IMAGEMIME','MIME type');
-define('_FAILFETCHIMG', 'Imposíbel subir o arquivo %s');
-define('_FAILSAVEIMG', 'Fallo ao almacenar a imaxe %s dentro da base de datos');
-define('_NOCACHE', 'Sen Caché');
-define('_CLONE', 'Clonar');
+define('_FAILFETCHIMG','ImposÃ­bel subir o arquivo %s');
+define('_FAILSAVEIMG','Fallo ao almacenar a imaxe %s dentro da base de datos');
+define('_NOCACHE','Sen CachÃ©');
+define('_CLONE','Clonar');
 
 //%%%%%	File Name class/xoopsform/formmatchoption.php 	%%%%%
 define('_STARTSWITH','Comeza con');
 define('_ENDSWITH','Remata en');
 define('_MATCHES','Coincidencias');
-define('_CONTAINS','Contén');
+define('_CONTAINS','ContÃ©n');
 
 //%%%%%%	File Name commentform.php 	%%%%%
 define('_REGISTER','Rexistrar');
 
 //%%%%%%	File Name xoopscodes.php 	%%%%%
-define('_SIZE','Tamaño');  // font size
+define('_SIZE','TamaÃ±o');  // font size
 define('_FONT','Fonte');  // font family
 define('_COLOR','Cor');  // font color
 define('_EXAMPLE','EXEMPLO');
-define('_ENTERURL','Introduza a URL da ligazón que queira engadir.');
-define('_ENTERWEBTITLE','Introduza o título do sitio web:');
+define('_ENTERURL','Introduza a URL da ligazÃ³n que queira engadir.');
+define('_ENTERWEBTITLE','Introduza o tÃ­tulo do sitio web:');
 define('_ENTERIMGURL','Introduza a URL da imaxe que quere engadir.                                              - Exemplo: http://www.xoops.org/images/logo.gif ');
-define('_ENTERIMGPOS','Defina agora a posición da imaxe.');
-define("_IMGPOSRORL","'R' o 'r' para dereita, 'L' o 'l' para esquerda, o déixea en branco.");
-define('_ERRORIMGPOS','¡ERROR! Defina a posición da imaxe.');
+define('_ENTERIMGPOS','Defina agora a posiciÃ³n da imaxe.');
+define("_IMGPOSRORL","'R' o 'r' para dereita, 'L' o 'l' para esquerda, o dÃ©ixea en branco.");
+define('_ERRORIMGPOS','Â¡ERROR! Defina a posiciÃ³n da imaxe.');
 define('_ENTEREMAIL','Introduza o enderezo de correo que queira engadir.                                             - Exemplo: eu@gmail.com ');
-define('_ENTERCODE','Indique os códigos que desexa emgadir.');
-define('_ENTERQUOTE','Insira o texto que será acotado.');
+define('_ENTERCODE','Indique os cÃ³digos que desexa emgadir.');
+define('_ENTERQUOTE','Insira o texto que serÃ¡ acotado.');
 define('_ENTERTEXTBOX','Por favor, insira o texto dentro do campo de texto.');
 define('_ALLOWEDCHAR','Lonxitude de caracteres max. permitida: ');
 define('_CURRCHAR','Lonxitude actual de caracteres: ');
 define('_PLZCOMPLETE','Por favor, cumprimente os campos tema e mensaxe');
-define('_MESSAGETOOLONG','A súa mensaxe é longa de máis');
+define('_MESSAGETOOLONG','A sÃºa mensaxe Ã© longa de mÃ¡is');
 
 //%%%%%		TIME FORMAT SETTINGS   %%%%%
-define('_SECOND', '1 segundo');
-define('_SECONDS', '%s segundos');
-define('_MINUTE', '1 minuto');
-define('_MINUTES', '%s minutos');
-define('_HOUR', '1 hora');
-define('_HOURS', '%s horas');
-define('_DAY', '1 día');
-define('_DAYS', '%s días');
-define('_WEEK', '1 semana');
-define('_MONTH', '1 mes');
+define('_SECOND','1 segundo');
+define('_SECONDS','%s segundos');
+define('_MINUTE','1 minuto');
+define('_MINUTES','%s minutos');
+define('_HOUR','1 hora');
+define('_HOURS','%s horas');
+define('_DAY','1 dÃ­a');
+define('_DAYS','%s dÃ­as');
+define('_WEEK','1 semana');
+define('_MONTH','1 mes');
 
 define('_DATESTRING','j/n/Y G:i:s');
 define('_MEDIUMDATESTRING','j/n/Y G:i');
@@ -183,7 +183,7 @@ m - month; i.e. '01' to '12'
 n - month without leading zeros; i.e. '1' to '12'
 M - month, textual, 3 letters; i.e. 'Jan'
 s - seconds; i.e. '00' to '59'
-S - English ordinal suffix, textual, 2 characters; i.e. 'th', 'nd'
+S - English ordinal suffix, textual, 2 characters; i.e. 'th','nd'
 t - number of days in the given month; i.e. '28' to '31'
 T - Timezone setting of this machine; i.e. 'MDT'
 U - seconds since the epoch
@@ -197,7 +197,7 @@ Z - timezone offset in seconds (i.e. '-43200' to '43200')
 
 //%%%%%		LANGUAGE SPECIFIC SETTINGS   %%%%%
 define("_CHARSET","ISO-8859-1");
-define('_LANGCODE', 'gl');
+define('_LANGCODE','gl');
 
 // change 0 to 1 if this language is a multi-bytes language
 define("XOOPS_USE_MULTIBYTES","0");

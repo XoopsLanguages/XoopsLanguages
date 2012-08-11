@@ -230,7 +230,7 @@ class XoopsMySQLDatabase extends XoopsDatabase
     function quoteString($str)
     {
         return $this->quote($str);
-        $str = "'".str_replace('\\"', '"', addslashes($str))."'";
+        $str = "'".str_replace('\\"','"', addslashes($str))."'";
         return $str;
     }
     
@@ -258,7 +258,7 @@ class XoopsMySQLDatabase extends XoopsDatabase
 			if (empty($start)) {
 				$start = 0;
 			}
-			$sql = $sql. ' LIMIT '.(int)$start.', '.(int)$limit;
+			$sql = $sql. ' LIMIT '.(int)$start.','.(int)$limit;
 		}
 		$result = mysql_query($sql, $this->conn);
 		if ( $result ) {

@@ -22,5 +22,5 @@ define('_AM_SMILEEMOTION','Описание:');
 define('_AM_ADD','Добавить');
 define('_AM_SAVE','Сохранить');
 define('_AM_WAYSYWTDTS','ПРЕДУПРЕЖДЕНИЕ: Вы действительно хотите удалить этот смайлик?');
-define('_AM_DISPLAYF', 'Показывать в формах?');
+define('_AM_DISPLAYF','Показывать в формах?');
 ?>

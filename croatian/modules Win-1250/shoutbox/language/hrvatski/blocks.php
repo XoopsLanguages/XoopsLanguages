@@ -13,14 +13,14 @@
 // Blocks
 define("_MB_SHOUTBOX_TITLE","Brbljaonica");
 define("_MB_SHOUTBOX_SHOUT","Reci");
-define("_MB_SHOUTBOX_CLEAR","Obriši");
+define("_MB_SHOUTBOX_CLEAR","ObriÅ¡i");
 define("_MB_SHOUTBOX_BBCODEON","BBcode=on");
 define("_MB_SHOUTBOX_BBCODEOFF","BBcode=off");
-define("_MB_SHOUTBOX_AUTOREFRESH","Auto-osvježavanje?");
-define("_MB_SHOUTBOX_REFRESH", "Osvježi");
-define("_MB_SHOUTBOX_POPUP", "Popup");
+define("_MB_SHOUTBOX_AUTOREFRESH","Auto-osvjeÅ¾avanje?");
+define("_MB_SHOUTBOX_REFRESH","OsvjeÅ¾i");
+define("_MB_SHOUTBOX_POPUP","Popup");
 
 // New definements (11/11/2004)
-define("_MB_SHOUTBOX_SHOUT_TITLE", "Reci");
-define("_MB_SHOUTBOX_NICK", "Nadimak");
+define("_MB_SHOUTBOX_SHOUT_TITLE","Reci");
+define("_MB_SHOUTBOX_NICK","Nadimak");
 ?>

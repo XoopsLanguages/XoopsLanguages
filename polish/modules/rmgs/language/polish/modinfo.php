@@ -34,80 +34,80 @@
 * @modificado: 16/12/2005 03:42:07 p.m.                                *
 ***********************************************************************/
 
-define('_MI_RMGS_NAME', 'RMSOFT GS 2.0');
-define('_MI_RMGS_DESC', 'Zaawansowany System Galerii i Albumów');
+define('_MI_RMGS_NAME','RMSOFT GS 2.0');
+define('_MI_RMGS_DESC','Zaawansowany System Galerii i Albumï¿½w');
 
 // Menu del Administrador
-define('_MI_RMGS_ADM1', 'Aktualny status');
-define('_MI_RMGS_ADM2', 'Kategorie');
-define('_MI_RMGS_ADM3', 'Nowa Kategoria');
-define('_MI_RMGS_ADM4', 'Wgraj Obrazy');
-define('_MI_RMGS_ADM5', 'U¿ytkownicy');
-define('_MI_RMGS_ADM6', 'Wys³ano');
+define('_MI_RMGS_ADM1','Aktualny status');
+define('_MI_RMGS_ADM2','Kategorie');
+define('_MI_RMGS_ADM3','Nowa Kategoria');
+define('_MI_RMGS_ADM4','Wgraj Obrazy');
+define('_MI_RMGS_ADM5','Uï¿½ytkownicy');
+define('_MI_RMGS_ADM6','Wysï¿½ano');
 
 // Menu de Usuarios
-define('_MI_RMGS_USR1', 'Moje Obrazy');
-define('_MI_RMGS_USR2', 'Wgraj Obrazy');
-define('_MI_RMGS_USR3', 'Szukaj Obrazów');
-define('_MI_RMGS_USR4', 'Ulubione');
+define('_MI_RMGS_USR1','Moje Obrazy');
+define('_MI_RMGS_USR2','Wgraj Obrazy');
+define('_MI_RMGS_USR3','Szukaj Obrazï¿½w');
+define('_MI_RMGS_USR4','Ulubione');
 
 // ConfiguraciÃ³n
-define('_MI_RMGS_FDATE', 'Format Daty:');
-define('_MI_RMGS_MODTITLE', 'Tytu³ Modu³u:');
-define('_MI_RMGS_UPLOADSQ', 'Liczba obrazów do wgrania w jednym czasie:');
-define('_MI_RMGS_STOREDIR', '¦cie¿ka przechowywania obrazów:');
-define('_MI_RMGS_STOREDIRDESC', '<span style=\'font-size: 10px;\'>¦cie¿ka musi mieæ prawa zapisu. Je¶li zmienisz tê ¶cie¿kêmusisz skopiowaæ zawartosæ skarego folderu, aby zapewniæ funkcjonowanie obrazów ze starego folderu.</span>');
-define('_MI_RMGS_QUOTA', 'Poczatkowy limit dysku dla u¿ytkowników:');
-define('_MI_RMGS_QUOTADESC', '<span style=\'font-size: 10px;\'>Wska¿ wielko¶æ w MB. W ka¿dej chwili mozesz zmieniæ tê warto¶æ dla ka¿dego u¿ytkownika.</span>');
-define('_MI_RMGS_IMGWIDTH', 'Szeroko¶æ obrazu:');
-define('_MI_RMGS_IMGHEIGHT', 'Wysoko¶æ obrazu:');
-define('_MI_RMGS_THWIDTH', 'Szeroko¶æ miniatury:');
-define('_MI_RMGS_THHEIGHT', 'Wysoko¶æ miniatury:');
-define('_MI_RMGS_ACTIVEOTHER', 'Mo¿liwe pozosta³e formaty:');
-define('_MI_RMGS_ACTIVEOTHER_DESC', '<span style="font-size: 10px;">Mo¿liwe pola dla wprowadznia pozosta³ych formatów.</span>');
-define('_MI_RMGS_OTHERLOCAL', 'Pozwól na lokalne wprowadzanie pozosta³ych formatów:');
-define('_MI_RMGS_OTHERSIZESLIMIT', 'Wielko¶ci pozosta³ych formatów:');
-define('_MI_RMGS_MINKEY', 'Minimalna d³ugo¶æ tagu (etykiety):');
-define('_MI_RMGS_MAXKEY', 'Maksymalna d³ugo¶æ tagu (etykiety):');
-define('_MI_RMGS_THUMSINDEX', 'Miniatur na stronie g³ównej:');
-define('_MI_RMGS_CATNEWDAYS', 'Ilo¶æ dni, dla których kategoria jest now±:');
-define('_MI_RMGS_COLUMNS', 'Kolumn w galerii:');
-define('_MI_RMGS_IMGASNEW', 'Ilo¶æ dni, dla których obraz jest nowym:');
-define('_MI_RMGS_IMGASUPDATE', 'Ilo¶æ dni, dla których obraz jest zaktualizowany:');
-define('_MI_RMGS_ALLOWUPLOAD', 'Mo¿liwo¶æ wgrywania obrazów:');
-define('_MI_RMGS_ALLOWSETS', 'Pozwól na dodawanie albumów:');
-define('_MI_RMGS_ALLOWPOSTAL', 'Tworzenie pocztówek:');
-define('_MI_RMGS_VOTEANONY', 'Zezwalaj anonimowym u¿ytkownikom na g³osowanie:');
-define('_MI_RMGS_POSTALDAYS', 'Ilosæ dni pozostawania pcoztówki w bazie danych:');
-define('_MI_RMGS_POSTALANONYM', 'Zezwalaj anonimowym u¿ytkownikom na wysy³anie pocztówek:');
-define('_MI_RMGS_EDITOR', 'Tytp Edytora:');
-define('_MI_RMGS_MAILPOSTAL', 'Email dla pocztówek:');
-define('_MI_RMGS_MAILPOSTAL_DESC', 'Ten adres e-mail bêdzie wy¶wietlony u odbiorcy.');
-define('_MI_RMGS_HOMEACCESS', 'Minimum wy¶wietleñ do pokazania obrazu na stronie g³ównej:');
-define('_MI_RMGS_HOMEWIDTH', 'Szeroko¶æ Obrazka na stronie g³ównej modu³u:');
-define('_MI_RMGS_HOMEUPDATE', 'Ilo¶æ dni do generowania obrazów na stronie g³ównej:');
-define('_MI_RMGS_POPULAR', 'Zezwól na rozwa¿anie obrazów jako popularnych:');
-define('_MI_RMGS_BESTVOTES', 'Liczba g³osów do rozwa¿enia obrazy za najlepiej oceniane:');
-define('_MI_RMGS_BESTVOTES_DESC', 'Kiedy obraz uzyska tak± ilo¶æ g³osów bêdzie wy¶wietlany w kategorii najwy¿ej ocenione');
+define('_MI_RMGS_FDATE','Format Daty:');
+define('_MI_RMGS_MODTITLE','Tytuï¿½ Moduï¿½u:');
+define('_MI_RMGS_UPLOADSQ','Liczba obrazï¿½w do wgrania w jednym czasie:');
+define('_MI_RMGS_STOREDIR','ï¿½cieï¿½ka przechowywania obrazï¿½w:');
+define('_MI_RMGS_STOREDIRDESC','<span style=\'font-size: 10px;\'>ï¿½cieï¿½ka musi mieï¿½ prawa zapisu. Jeï¿½li zmienisz tï¿½ ï¿½cieï¿½kï¿½musisz skopiowaï¿½ zawartosï¿½ skarego folderu, aby zapewniï¿½ funkcjonowanie obrazï¿½w ze starego folderu.</span>');
+define('_MI_RMGS_QUOTA','Poczatkowy limit dysku dla uï¿½ytkownikï¿½w:');
+define('_MI_RMGS_QUOTADESC','<span style=\'font-size: 10px;\'>Wskaï¿½ wielkoï¿½ï¿½ w MB. W kaï¿½dej chwili mozesz zmieniï¿½ tï¿½ wartoï¿½ï¿½ dla kaï¿½dego uï¿½ytkownika.</span>');
+define('_MI_RMGS_IMGWIDTH','Szerokoï¿½ï¿½ obrazu:');
+define('_MI_RMGS_IMGHEIGHT','Wysokoï¿½ï¿½ obrazu:');
+define('_MI_RMGS_THWIDTH','Szerokoï¿½ï¿½ miniatury:');
+define('_MI_RMGS_THHEIGHT','Wysokoï¿½ï¿½ miniatury:');
+define('_MI_RMGS_ACTIVEOTHER','Moï¿½liwe pozostaï¿½e formaty:');
+define('_MI_RMGS_ACTIVEOTHER_DESC','<span style="font-size: 10px;">Moï¿½liwe pola dla wprowadznia pozostaï¿½ych formatï¿½w.</span>');
+define('_MI_RMGS_OTHERLOCAL','Pozwï¿½l na lokalne wprowadzanie pozostaï¿½ych formatï¿½w:');
+define('_MI_RMGS_OTHERSIZESLIMIT','Wielkoï¿½ci pozostaï¿½ych formatï¿½w:');
+define('_MI_RMGS_MINKEY','Minimalna dï¿½ugoï¿½ï¿½ tagu (etykiety):');
+define('_MI_RMGS_MAXKEY','Maksymalna dï¿½ugoï¿½ï¿½ tagu (etykiety):');
+define('_MI_RMGS_THUMSINDEX','Miniatur na stronie gï¿½ï¿½wnej:');
+define('_MI_RMGS_CATNEWDAYS','Iloï¿½ï¿½ dni, dla ktï¿½rych kategoria jest nowï¿½:');
+define('_MI_RMGS_COLUMNS','Kolumn w galerii:');
+define('_MI_RMGS_IMGASNEW','Iloï¿½ï¿½ dni, dla ktï¿½rych obraz jest nowym:');
+define('_MI_RMGS_IMGASUPDATE','Iloï¿½ï¿½ dni, dla ktï¿½rych obraz jest zaktualizowany:');
+define('_MI_RMGS_ALLOWUPLOAD','Moï¿½liwoï¿½ï¿½ wgrywania obrazï¿½w:');
+define('_MI_RMGS_ALLOWSETS','Pozwï¿½l na dodawanie albumï¿½w:');
+define('_MI_RMGS_ALLOWPOSTAL','Tworzenie pocztï¿½wek:');
+define('_MI_RMGS_VOTEANONY','Zezwalaj anonimowym uï¿½ytkownikom na gï¿½osowanie:');
+define('_MI_RMGS_POSTALDAYS','Ilosï¿½ dni pozostawania pcoztï¿½wki w bazie danych:');
+define('_MI_RMGS_POSTALANONYM','Zezwalaj anonimowym uï¿½ytkownikom na wysyï¿½anie pocztï¿½wek:');
+define('_MI_RMGS_EDITOR','Tytp Edytora:');
+define('_MI_RMGS_MAILPOSTAL','Email dla pocztï¿½wek:');
+define('_MI_RMGS_MAILPOSTAL_DESC','Ten adres e-mail bï¿½dzie wyï¿½wietlony u odbiorcy.');
+define('_MI_RMGS_HOMEACCESS','Minimum wyï¿½wietleï¿½ do pokazania obrazu na stronie gï¿½ï¿½wnej:');
+define('_MI_RMGS_HOMEWIDTH','Szerokoï¿½ï¿½ Obrazka na stronie gï¿½ï¿½wnej moduï¿½u:');
+define('_MI_RMGS_HOMEUPDATE','Iloï¿½ï¿½ dni do generowania obrazï¿½w na stronie gï¿½ï¿½wnej:');
+define('_MI_RMGS_POPULAR','Zezwï¿½l na rozwaï¿½anie obrazï¿½w jako popularnych:');
+define('_MI_RMGS_BESTVOTES','Liczba gï¿½osï¿½w do rozwaï¿½enia obrazy za najlepiej oceniane:');
+define('_MI_RMGS_BESTVOTES_DESC','Kiedy obraz uzyska takï¿½ iloï¿½ï¿½ gï¿½osï¿½w bï¿½dzie wyï¿½wietlany w kategorii najwyï¿½ej ocenione');
 
 // Editores
-define('_MI_RMGS_FORM_COMPACT', 'Compact');
-define('_MI_RMGS_FORM_DHTML', 'DHTML');
-define('_MI_RMGS_FORM_SPAW', 'Spaw Editor');
-define('_MI_RMGS_FORM_HTMLAREA', 'HtmlArea Editor');
-define('_MI_RMGS_FORM_FCK', 'FCK Editor');
-define('_MI_RMGS_FORM_KOIVI', 'Koivi Editor');
+define('_MI_RMGS_FORM_COMPACT','Compact');
+define('_MI_RMGS_FORM_DHTML','DHTML');
+define('_MI_RMGS_FORM_SPAW','Spaw Editor');
+define('_MI_RMGS_FORM_HTMLAREA','HtmlArea Editor');
+define('_MI_RMGS_FORM_FCK','FCK Editor');
+define('_MI_RMGS_FORM_KOIVI','Koivi Editor');
 
 // Bloques
-define('_MI_RMGS_RANDOMBK', 'Przypadkowy obraz');
-define('_MI_RMGS_BKRECENTS', 'Ostatnio dodany obraz');
+define('_MI_RMGS_RANDOMBK','Przypadkowy obraz');
+define('_MI_RMGS_BKRECENTS','Ostatnio dodany obraz');
 
-define('_MI_RMGS_BKREC_IMAGES', 'poka¿ Obrazy:');
-define('_MI_RMGS_BKPOPULARS', 'Najbardziej popularne');
-define('_MI_RMGS_BKVOTED', 'Najlepiej ocenione');
-define('_MI_RMGS_BKCATS', 'Kategorie');
+define('_MI_RMGS_BKREC_IMAGES','pokaï¿½ Obrazy:');
+define('_MI_RMGS_BKPOPULARS','Najbardziej popularne');
+define('_MI_RMGS_BKVOTED','Najlepiej ocenione');
+define('_MI_RMGS_BKCATS','Kategorie');
 
 //Added by Kaotik
-define('_MI_RMGS_RANDOMIMGBK', 'Przypadkowe Obrazy');
-define('_MI_RMGS_BKCOL_NUMBER', 'Liczba Kolumn:');
+define('_MI_RMGS_RANDOMIMGBK','Przypadkowe Obrazy');
+define('_MI_RMGS_BKCOL_NUMBER','Liczba Kolumn:');
 ?>

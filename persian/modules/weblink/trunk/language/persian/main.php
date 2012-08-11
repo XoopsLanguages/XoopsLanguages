@@ -86,7 +86,7 @@ define("_WLS_SITETITLE","عنوان وب سايت");
 define("_WLS_SITEURL","آدرس وب سايت");
 define("_WLS_OPTIONS","گزينه ها");
 
-define("_WLS_NOTIFYAPPROVE", "زماني که لينک من پذيرش شد به من اطلاع بده");
+define("_WLS_NOTIFYAPPROVE","زماني که لينک من پذيرش شد به من اطلاع بده");
 //define("_WLS_SHOTIMAGE","Screenshot Img: ");
 define("_WLS_SENDREQUEST","درخواست ارسال");
 
@@ -268,7 +268,7 @@ define('_WLS_EMAILNOTFOUND',"آدرس پست الکترونيک همخواني �
 
 
 // error message
-define("_WLS_ERROR_FILL", "خطا : %s را پر کنيد");
+define("_WLS_ERROR_FILL","خطا : %s را پر کنيد");
 define("_WLS_ERROR_ILLEGAL","خطا : فرمت اشتباه %s");
 define("_WLS_ERROR_CID",  "خطا : شاخه را مشخص کنيد");
 define("_WLS_ERROR_URL_EXIST","خطا : لينک قبلا ثبت شده است");
@@ -329,54 +329,54 @@ define("_WLS_EMAIL_APPROVE","اگر تاييد شد اطلاع بده");
 define("_WLS_TOPTEN_TITLE","%s Top %u");
 // %s is a link category title
 // %u is number of links
-define("_WLS_TOPTEN_ERROR", "در اينجا بيش از حد لزوم  شاخه ي عالي موجود است.متوقف کردن نمايش به وسيله ي %u");
+define("_WLS_TOPTEN_ERROR","در اينجا بيش از حد لزوم  شاخه ي عالي موجود است.متوقف کردن نمايش به وسيله ي %u");
 // %u is munber of categories
 
 // 2006-04-02
-define('_WEBLINKS_MID', 'تغيير دادن ID');
-define('_WEBLINKS_USERID', 'ID کابر');
-define('_WEBLINKS_CREATE', 'ساختن');
+define('_WEBLINKS_MID','تغيير دادن ID');
+define('_WEBLINKS_USERID','ID کابر');
+define('_WEBLINKS_CREATE','ساختن');
 
 define('_HOME',  'خانه');
 define('_SAVE',  'ذخيره');
-define('_SAVED', 'ذخيره شد');
-define('_CREATE', 'ساختن');
+define('_SAVED','ذخيره شد');
+define('_CREATE','ساختن');
 define('_CREATED','ساخته شد');
 define('_FINISH',   'پايان دادن');
-define('_FINISHED', 'پايان يافت');
-define('_EXECUTE', 'اجرا کردن');
+define('_FINISHED','پايان يافت');
+define('_EXECUTE','اجرا کردن');
 define('_EXECUTED','اجرا شد');
 define('_PRINT','چاپ');
 define('_SAMPLE','نمونه');
 define('_NO_MATCH_RECORD','هيچ چيز مطابق بايگاني نيست');
 define('_MANY_MATCH_RECORD','2 يا موارد بيشتري مطابق بايگاني است');
-define('_NO_CATEGORY', 'بدون شاخه');
-define('_NO_LINK', 'بدون لينک');
-define('_NO_TITLE', 'بدون عنوان');
-define('_NO_URL', 'بدون URL');
+define('_NO_CATEGORY','بدون شاخه');
+define('_NO_LINK','بدون لينک');
+define('_NO_TITLE','بدون عنوان');
+define('_NO_URL','بدون URL');
 define('_NO_DESCRIPTION','بدون توصيف');
 define('_GOTO_MAIN',   'رفتن به صفحه ي اصلي');
-define('_GOTO_MODULE', 'رفتن به ماژول');
+define('_GOTO_MODULE','رفتن به ماژول');
 
 // config
-define('_WEBLINKS_INIT_NOT', 'پيکر بندي جدول آغاز نشده است');
-define('_WEBLINKS_INIT_EXEC', 'آغاز پيکر بندي جدول');
+define('_WEBLINKS_INIT_NOT','پيکر بندي جدول آغاز نشده است');
+define('_WEBLINKS_INIT_EXEC','آغاز پيکر بندي جدول');
 define('_WEBLINKS_VERSION_NOT','It is not version  %s');
 define('_WEBLINKS_UPGRADE_EXEC','پيکر بندي جدول  به روز شد');
 
 // html tag
-define('_WEBLINKS_OPTIONS', 'تنظيمات');
-define('_WEBLINKS_DOHTML', ' فعال سازي تگ هاي html');
-define('_WEBLINKS_DOIMAGE', ' فعال سازي عکس');
-define('_WEBLINKS_DOBREAK', ' فعال سازي خط شکسته');
-define('_WEBLINKS_DOSMILEY', ' فعال سازي لبخند ها');
-define('_WEBLINKS_DOXCODE', ' فعال سازي کد هاي زوپس');
+define('_WEBLINKS_OPTIONS','تنظيمات');
+define('_WEBLINKS_DOHTML',' فعال سازي تگ هاي html');
+define('_WEBLINKS_DOIMAGE',' فعال سازي عکس');
+define('_WEBLINKS_DOBREAK',' فعال سازي خط شکسته');
+define('_WEBLINKS_DOSMILEY',' فعال سازي لبخند ها');
+define('_WEBLINKS_DOXCODE',' فعال سازي کد هاي زوپس');
 
 define('_WEBLINKS_PASSWORD_INCORRECT','پسورد اشتباه است');
-define('_WEBLINKS_ETC', 'etc');
+define('_WEBLINKS_ETC','etc');
 define('_WEBLINKS_AUTH_UID',    'مطابقت شناسه ي کاربري');
-define('_WEBLINKS_AUTH_PASSWD', 'مطابقت پسورد');
-define('_WEBLINKS_BANNER_SIZE', 'اندازه ي بنر');
+define('_WEBLINKS_AUTH_PASSWD','مطابقت پسورد');
+define('_WEBLINKS_BANNER_SIZE','اندازه ي بنر');
 
  // === 2006-10-01 ===
 // conflict with rssc
@@ -384,138 +384,138 @@ if( !defined('_HOME') )
 {
 	define('_HOME',  'خانه');
 	define('_SAVE',  'ذخيره');
-	define('_SAVED', 'ذخيره شد');
-	define('_CREATE', 'ساختن');
+	define('_SAVED','ذخيره شد');
+	define('_CREATE','ساختن');
 	define('_CREATED','ساخته شد');
-	define('_EXECUTE', 'اجرا کردن');
+	define('_EXECUTE','اجرا کردن');
 	define('_EXECUTED','اجرا شد');
 }
 
-define('_WEBLINKS_MAP_USE', 'استفاده از ايکن نقشه ');
+define('_WEBLINKS_MAP_USE','استفاده از ايکن نقشه ');
 
 // rssc
 define('_WEBLINKS_RSSC_LID',  'سرپوش RSSC');
 define('_WEBLINKS_RSS_MODE',  'سبک RSS');
-define('_WEBLINKS_RSSC_NOT_INSTALLED', 'ماژول RSSC( %s ) نصب نشده است ');
+define('_WEBLINKS_RSSC_NOT_INSTALLED','ماژول RSSC( %s ) نصب نشده است ');
 define('_WEBLINKS_RSSC_INSTALLED',     'ماژول مرکز rss ( %s ) نسخه %s نصب شده است');
-define('_WEBLINKS_RSSC_REQUIRE', 'نسخه %s یا بالاتر ماژول مرکز  rss لازم است');
-define('_WEBLINKS_GOTO_SINGLELINK', 'برو به اطلاعات لينک');
+define('_WEBLINKS_RSSC_REQUIRE','نسخه %s یا بالاتر ماژول مرکز  rss لازم است');
+define('_WEBLINKS_GOTO_SINGLELINK','برو به اطلاعات لينک');
 
 // warnig
-define('_WEBLINKS_WARN_NOT_READ_URL', 'اخطار: ناتواني در خواندن url');
-define('_WEBLINKS_WARN_BANNER_NOT_GET_SIZE', 'اخطار: ناتواني در رفتن به اندازه ي بنر ها');
+define('_WEBLINKS_WARN_NOT_READ_URL','اخطار: ناتواني در خواندن url');
+define('_WEBLINKS_WARN_BANNER_NOT_GET_SIZE','اخطار: ناتواني در رفتن به اندازه ي بنر ها');
 
 // google map: hacked by wye <http://never-ever.info/>
 define('_WEBLINKS_GM_LATITUDE',  'عرض جغرافياي');
-define('_WEBLINKS_GM_LONGITUDE', 'طول جغرافياي');
+define('_WEBLINKS_GM_LONGITUDE','طول جغرافياي');
 define('_WEBLINKS_GM_ZOOM',      'مرجله ي زوم');
-define('_WEBLINKS_GM_GET_LOCATION', 'اطلاعات مکان به وسيله ي نقشه ي گوگل به دست مي آيد');
-define('_WEBLINKS_GM_GET_BUTTON', 'رفتن به طول جغرافياي/عضر جغرافياي/ زوم');
-define('_WEBLINKS_GM_DEFAULT_LOCATION', 'محل پيش فرض');
-define('_WEBLINKS_GM_CURRENT_LOCATION', 'محل فعلي');
+define('_WEBLINKS_GM_GET_LOCATION','اطلاعات مکان به وسيله ي نقشه ي گوگل به دست مي آيد');
+define('_WEBLINKS_GM_GET_BUTTON','رفتن به طول جغرافياي/عضر جغرافياي/ زوم');
+define('_WEBLINKS_GM_DEFAULT_LOCATION','محل پيش فرض');
+define('_WEBLINKS_GM_CURRENT_LOCATION','محل فعلي');
 
 // === 2006-11-04 ===
 // google map inline mode
-define('_WEBLINKS_GOOGLE_MAPS', 'نقشه های گوگل');
-define('_WEBLINKS_JAVASCRIPT_INVALID', 'مرورگر شما توانایی استفاده از جاوا اسکریپ را ندارد');
+define('_WEBLINKS_GOOGLE_MAPS','نقشه های گوگل');
+define('_WEBLINKS_JAVASCRIPT_INVALID','مرورگر شما توانایی استفاده از جاوا اسکریپ را ندارد');
 define('_WEBLINKS_GM_NOT_COMPATIBLE',  'مرورگر شما تومانایی استافده از نقشه های گوگل را ندارد');
-define('_WEBLINKS_GM_NEW_WINDOW', 'نمایش در صفحه ی جدید');
+define('_WEBLINKS_GM_NEW_WINDOW','نمایش در صفحه ی جدید');
 define('_WEBLINKS_GM_INLINE',   'نمایش در این خط');
-define('_WEBLINKS_GM_DISP_OFF', 'از کار انداختن نمایش');
+define('_WEBLINKS_GM_DISP_OFF','از کار انداختن نمایش');
 
 // google map: inverse Geocoder
-define('_WEBLINKS_GM_GET_LATITUDE', 'به دست آوردن طول جغرافياي/عضر جغرافياي/ زوم');
-define('_WEBLINKS_GM_GET_ADDR', 'به دست آوردن آدرس');
+define('_WEBLINKS_GM_GET_LATITUDE','به دست آوردن طول جغرافياي/عضر جغرافياي/ زوم');
+define('_WEBLINKS_GM_GET_ADDR','به دست آوردن آدرس');
 
 // === 2006-12-11 ===
 // google map: Geocode
-define('_WEBLINKS_GM_SEARCH_MAP_FROM_ADDRESS', 'جستجو ی نقشه بر اساس آدرس');
-define('_WEBLINKS_GM_NO_MATCH_PLACE', 'هیچ مکانی با این آدرس مطابقت ندارد');
-define('_WEBLINKS_GM_JP_SEARCH_MAP_FROM_ADDRESS', 'جستجوی نقشه بر اساس آدرس در ژاپن');
-define('_WEBLINKS_GM_JP_TOKYO_AC_GEOCODE', 'دانشگاه توکیو ژاپن');
-define('_WEBLINKS_GM_JP_MLIT_ISJ', 'Japan Ministry of Land Infrastructure and Transport');
+define('_WEBLINKS_GM_SEARCH_MAP_FROM_ADDRESS','جستجو ی نقشه بر اساس آدرس');
+define('_WEBLINKS_GM_NO_MATCH_PLACE','هیچ مکانی با این آدرس مطابقت ندارد');
+define('_WEBLINKS_GM_JP_SEARCH_MAP_FROM_ADDRESS','جستجوی نقشه بر اساس آدرس در ژاپن');
+define('_WEBLINKS_GM_JP_TOKYO_AC_GEOCODE','دانشگاه توکیو ژاپن');
+define('_WEBLINKS_GM_JP_MLIT_ISJ','Japan Ministry of Land Infrastructure and Transport');
 
 // link item
-define('_WEBLINKS_TIME_PUBLISH', 'زمان انتشار');
+define('_WEBLINKS_TIME_PUBLISH','زمان انتشار');
 define('_WEBLINKS_TIME_EXPIRE',  'زمان انقضا');
 define('_WEBLINKS_TEXTAREA',     'محل متن');
 
-define('_WEBLINKS_WARN_TIME_PUBLISH', 'زمان انتشار هنوز نرسیده');
+define('_WEBLINKS_WARN_TIME_PUBLISH','زمان انتشار هنوز نرسیده');
 define('_WEBLINKS_WARN_TIME_EXPIRE',  'زمان انقضا سپری شده');
-define('_WEBLINKS_WARN_BROKEN', 'شاید این لینک شکسته باشد');
+define('_WEBLINKS_WARN_BROKEN','شاید این لینک شکسته باشد');
 
 // === 2007-02-20 ===
 // forum
-define('_WEBLINKS_LATEST_FORUM', 'Leatest Forum');
+define('_WEBLINKS_LATEST_FORUM','Leatest Forum');
 define('_WEBLINKS_FORUM',  'انجمن');
-define('_WEBLINKS_THREAD', 'Thead');
+define('_WEBLINKS_THREAD','Thead');
 define('_WEBLINKS_POST',   'پست');
 define('_WEBLINKS_FORUM_ID',  'ID انجمن');
-define('_WEBLINKS_FORUM_SEL', 'انتخاب انجمن');
+define('_WEBLINKS_FORUM_SEL','انتخاب انجمن');
 define('_WEBLINKS_COMMENT_USE',  'استفاده از سیستم نظر های زوپس');
 
 // aux
-define('_WEBLINKS_CAT_AUX_TEXT_1', 'aux_text_1');
-define('_WEBLINKS_CAT_AUX_TEXT_2', 'aux_text_2');
+define('_WEBLINKS_CAT_AUX_TEXT_1','aux_text_1');
+define('_WEBLINKS_CAT_AUX_TEXT_2','aux_text_2');
 define('_WEBLINKS_CAT_AUX_INT_1',  'aux_int_1');
 define('_WEBLINKS_CAT_AUX_INT_2',  'aux_int_2');
 
 // captcha
-define('_WEBLINKS_CAPTCHA', 'تصاویر امنیتی');
-define('_WEBLINKS_CAPTCHA_DESC', 'ضد هرز نامه');
+define('_WEBLINKS_CAPTCHA','تصاویر امنیتی');
+define('_WEBLINKS_CAPTCHA_DESC','ضد هرز نامه');
 define('_WEBLINKS_ERROR_CAPTCHA','خطا:تصاویر امنیتی تنظیم نشده است');
-define('_WEBLINKS_ERROR', 'خطا');
+define('_WEBLINKS_ERROR','خطا');
 
 // hack for multi site
-define('_WEBLINKS_CAT_TITLE_JP', 'Japanse Title');
-define('_WEBLINKS_DISABLE_FEATURE', 'Disbale this feature');
-define('_WEBLINKS_REDIRECT_JP_SITE', 'Jump to Japanese Site');
+define('_WEBLINKS_CAT_TITLE_JP','Japanse Title');
+define('_WEBLINKS_DISABLE_FEATURE','Disbale this feature');
+define('_WEBLINKS_REDIRECT_JP_SITE','Jump to Japanese Site');
 
 // === 2007-03-25 ===
 define('_WEBLINKS_ALBUM_ID',  'آلبوم ID');
-define('_WEBLINKS_ALBUM_SEL', 'انتخاب آلبوم');
+define('_WEBLINKS_ALBUM_SEL','انتخاب آلبوم');
 
 // === 2007-04-08 ===
 define('_WEBLINKS_GM_TYPE',  'نوع نقشه گوگل');
 define('_WEBLINKS_GM_TYPE_MAP',       'نقشه');
-define('_WEBLINKS_GM_TYPE_SATELLITE', 'ماهواره');
+define('_WEBLINKS_GM_TYPE_SATELLITE','ماهواره');
 define('_WEBLINKS_GM_TYPE_HYBRID',    'Hybrid');
 
 // === 2007-08-01 ===
-define('_WEBLINKS_GM_CURRENT_ADDRESS', 'آدرس فعلی');
-define('_WEBLINKS_GM_SEARCH_LIST', 'جستجو در لیست نتایج');
+define('_WEBLINKS_GM_CURRENT_ADDRESS','آدرس فعلی');
+define('_WEBLINKS_GM_SEARCH_LIST','جستجو در لیست نتایج');
 
 // === 2007-09-01 ===
 // waiting list
-define('_WEBLINKS_ADMIN_WAITING_LIST', "لیست ارسال های منتظر برای مدیر");
+define('_WEBLINKS_ADMIN_WAITING_LIST',"لیست ارسال های منتظر برای مدیر");
 define('_WEBLINKS_USER_WAITING_LIST',  'لیست ارسال های منتظر برای تایید شما');
 define('_WEBLINKS_USER_OWNER_LIST',    'لیست فرستاده شده های شما');
 
 // submit form
-define('_WEBLINKS_TIME_PUBLISH_SET', 'تنظیم زمان انتشار');
+define('_WEBLINKS_TIME_PUBLISH_SET','تنظیم زمان انتشار');
 define('_WEBLINKS_TIME_PUBLISH_DESC','اگر این گزینه را تنظیم نکنید, زمان انتشار نا مشخص میماند');
 define('_WEBLINKS_TIME_EXPIRE_SET',  'تنظیم زمان خاتمه');
-define('_WEBLINKS_TIME_EXPIRE_DESC', 'اگر این گزینه را تنظیم نکنید, زمان خاتمه نا مشخص میماند');
+define('_WEBLINKS_TIME_EXPIRE_DESC','اگر این گزینه را تنظیم نکنید, زمان خاتمه نا مشخص میماند');
 define('_WEBLINKS_DEL_LINK_CONFIRM','تایید برای حذف');
-define('_WEBLINKS_DEL_LINK_REASON', 'دلیل برای حذف');
+define('_WEBLINKS_DEL_LINK_REASON','دلیل برای حذف');
 
 // === 2007-11-01 ===
-define('_WEBLINKS_ERROR_LENGTH', "خطا: %s بیشتر است از %s کارکتر");
+define('_WEBLINKS_ERROR_LENGTH',"خطا: %s بیشتر است از %s کارکتر");
 
 // === 2008-02-17 ===
 // linkitem
-define('_WEBLINKS_PAGERANK', 'PageRank');
-define('_WEBLINKS_PAGERANK_UPDATE', 'زمان به روز شدن Pagerank');
-define('_WEBLINKS_GM_KML_DEBUG', 'خطا گیری نمایش KML');
+define('_WEBLINKS_PAGERANK','PageRank');
+define('_WEBLINKS_PAGERANK_UPDATE','زمان به روز شدن Pagerank');
+define('_WEBLINKS_GM_KML_DEBUG','خطا گیری نمایش KML');
 
 // gmap
-define('_WEBLINKS_SITE_GMAP', 'سایت GoogleMaps');
+define('_WEBLINKS_SITE_GMAP','سایت GoogleMaps');
 define('_WEBLINKS_KML_LIST',  'لیست KML');
-define('_WEBLINKS_KML_LIST_DESC', 'دریافت KML و نمایش آن در نرم افزار GoogleEarth');
-define('_WEBLINKS_KML_PERPAGE', 'تعداد divide');
+define('_WEBLINKS_KML_LIST_DESC','دریافت KML و نمایش آن در نرم افزار GoogleEarth');
+define('_WEBLINKS_KML_PERPAGE','تعداد divide');
 
 // pagerank
-define('_WEBLINKS_SITE_PAGERANK', 'بالاترین PageRank سایت');
+define('_WEBLINKS_SITE_PAGERANK','بالاترین PageRank سایت');
 
 }
 // --- define language end ---

@@ -9,118 +9,118 @@
 //                                   <http://www.wanisys.net/>                                        //
 //  ------------------------------------------------------------------------ //
 
-define("_PROFILE_MI_NAME", "»ç¿ëÀÚ ÇÁ·ÎÇÊ");
-define("_PROFILE_MI_DESC", "»ç¿ëÀÚ ÇÁ·ÎÇÊ ±â´É È®Àå ¸ðµâ");
+define("_PROFILE_MI_NAME","ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
+define("_PROFILE_MI_DESC","ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ È®ï¿½ï¿½ ï¿½ï¿½ï¿½");
 
 //Main menu links
-define("_PROFILE_MI_EDITACCOUNT", "°èÁ¤ ÆíÁý");
-define("_PROFILE_MI_CHANGEPASS", "ÆÐ½º¿öµå º¯°æ");
-define("_PROFILE_MI_CHANGEMAIL", "¸ÞÀÏÁÖ¼Ò º¯°æ");
+define("_PROFILE_MI_EDITACCOUNT","ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½");
+define("_PROFILE_MI_CHANGEPASS","ï¿½Ð½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½");
+define("_PROFILE_MI_CHANGEMAIL","ï¿½ï¿½ï¿½ï¿½ï¿½Ö¼ï¿½ ï¿½ï¿½ï¿½ï¿½");
 
 //Admin links
-define("_PROFILE_MI_INDEX", "ÀÎµ¦½º");
-define("_PROFILE_MI_CATEGORIES", "Ä«Å×°í¸®");
-define("_PROFILE_MI_FIELDS", "ÇÊµå");
-define("_PROFILE_MI_USERS", "»ç¿ëÀÚ");
-define("_PROFILE_MI_STEPS", "µî·ÏÀýÂ÷");
-define("_PROFILE_MI_PERMISSIONS", "ÆÛ¹Ì¼Ç");
+define("_PROFILE_MI_INDEX","ï¿½Îµï¿½ï¿½ï¿½");
+define("_PROFILE_MI_CATEGORIES","Ä«ï¿½×°ï¿½ï¿½");
+define("_PROFILE_MI_FIELDS","ï¿½Êµï¿½");
+define("_PROFILE_MI_USERS","ï¿½ï¿½ï¿½ï¿½ï¿½");
+define("_PROFILE_MI_STEPS","ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
+define("_PROFILE_MI_PERMISSIONS","ï¿½Û¹Ì¼ï¿½");
 
 //User Profile Category
-define("_PROFILE_MI_CATEGORY_TITLE", "»ç¿ëÀÚ ÇÁ·ÎÇÊ");
-define("_PROFILE_MI_CATEGORY_DESC", "");
+define("_PROFILE_MI_CATEGORY_TITLE","ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
+define("_PROFILE_MI_CATEGORY_DESC","");
 
 //User Profile Fields
 /*
-define("_PROFILE_MI_AIM_TITLE", "AOL¸Þ½ÅÁ®");
-define("_PROFILE_MI_AIM_DESCRIPTION", "America Online Instant Messenger Client ID");
-define("_PROFILE_MI_ICQ_TITLE", "ICQ ¹øÈ£");
-define("_PROFILE_MI_ICQ_DESCRIPTION", "ICQ Instant Messenger ID");
-define("_PROFILE_MI_YIM_TITLE", "Yahoo!¸Þ½ÅÁ®");
-define("_PROFILE_MI_YIM_DESCRIPTION", "Yahoo! Instant Messenger ID");
-define("_PROFILE_MI_MSN_TITLE", "MSN¸Þ½ÅÁ®");
-define("_PROFILE_MI_MSN_DESCRIPTION", "Microsoft Messenger ID");
-define("_PROFILE_MI_FROM_TITLE", "ÁÖ¼Ò");
-define("_PROFILE_MI_FROM_DESCRIPTION", "");
-define("_PROFILE_MI_SIG_TITLE", "¼­¸í");
-define("_PROFILE_MI_SIG_DESCRIPTION", "Æ÷·³±ÛÀÌ³ª ÄÚ¸àÆ®±Û¿¡ Ã·ºÎµÉ ¼­¸íÀ» ÀÔ·ÂÇÏ½Ã¸é µË´Ï´Ù.");
-define("_PROFILE_MI_VIEWEMAIL_TITLE", "¸ÞÀÏÁÖ¼Ò °ø°³");
-define("_PROFILE_MI_BIO_TITLE", "±âÅ¸ Á¤º¸");
-define("_PROFILE_MI_BIO_DESCRIPTION", "");
-define("_PROFILE_MI_INTEREST_TITLE", "Ãë¹Ì");
-define("_PROFILE_MI_INTEREST_DESCRIPTION", "");
-define("_PROFILE_MI_OCCUPATION_TITLE", "Á÷¾÷");
-define("_PROFILE_MI_OCCUPATION_DESCRIPTION", "");
-define("_PROFILE_MI_URL_TITLE", "À¥»çÀÌÆ®");
-define("_PROFILE_MI_URL_DESCRIPTION", "");
-define("_PROFILE_MI_NEWEMAIL_TITLE", "»õ ¸ÞÀÏÁÖ¼Ò");
-define("_PROFILE_MI_NEWEMAIL_DESCRIPTION", "¸ÞÀÏÁÖ¼Òº¯°æÀº º¯°æÈ®ÀÎ¸ÞÀÏÀ» ÅëÇØ ÀÌ·ç¾îÁý´Ï´Ù. Âü°í: modules/profile/changemail.php");
+define("_PROFILE_MI_AIM_TITLE","AOLï¿½Þ½ï¿½ï¿½ï¿½");
+define("_PROFILE_MI_AIM_DESCRIPTION","America Online Instant Messenger Client ID");
+define("_PROFILE_MI_ICQ_TITLE","ICQ ï¿½ï¿½È£");
+define("_PROFILE_MI_ICQ_DESCRIPTION","ICQ Instant Messenger ID");
+define("_PROFILE_MI_YIM_TITLE","Yahoo!ï¿½Þ½ï¿½ï¿½ï¿½");
+define("_PROFILE_MI_YIM_DESCRIPTION","Yahoo! Instant Messenger ID");
+define("_PROFILE_MI_MSN_TITLE","MSNï¿½Þ½ï¿½ï¿½ï¿½");
+define("_PROFILE_MI_MSN_DESCRIPTION","Microsoft Messenger ID");
+define("_PROFILE_MI_FROM_TITLE","ï¿½Ö¼ï¿½");
+define("_PROFILE_MI_FROM_DESCRIPTION","");
+define("_PROFILE_MI_SIG_TITLE","ï¿½ï¿½ï¿½ï¿½");
+define("_PROFILE_MI_SIG_DESCRIPTION","ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì³ï¿½ ï¿½Ú¸ï¿½Æ®ï¿½Û¿ï¿½ Ã·ï¿½Îµï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ô·ï¿½ï¿½Ï½Ã¸ï¿½ ï¿½Ë´Ï´ï¿½.");
+define("_PROFILE_MI_VIEWEMAIL_TITLE","ï¿½ï¿½ï¿½ï¿½ï¿½Ö¼ï¿½ ï¿½ï¿½ï¿½ï¿½");
+define("_PROFILE_MI_BIO_TITLE","ï¿½ï¿½Å¸ ï¿½ï¿½ï¿½ï¿½");
+define("_PROFILE_MI_BIO_DESCRIPTION","");
+define("_PROFILE_MI_INTEREST_TITLE","ï¿½ï¿½ï¿½");
+define("_PROFILE_MI_INTEREST_DESCRIPTION","");
+define("_PROFILE_MI_OCCUPATION_TITLE","ï¿½ï¿½ï¿½ï¿½");
+define("_PROFILE_MI_OCCUPATION_DESCRIPTION","");
+define("_PROFILE_MI_URL_TITLE","ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ®");
+define("_PROFILE_MI_URL_DESCRIPTION","");
+define("_PROFILE_MI_NEWEMAIL_TITLE","ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ö¼ï¿½");
+define("_PROFILE_MI_NEWEMAIL_DESCRIPTION","ï¿½ï¿½ï¿½ï¿½ï¿½Ö¼Òºï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½È®ï¿½Î¸ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ì·ï¿½ï¿½ï¿½ï¿½ï¿½Ï´ï¿½. ï¿½ï¿½ï¿½ï¿½: modules/profile/changemail.php");
 */
-define("_PROFILE_MI_URL_TITLE", "À¥»çÀÌÆ®");
+define("_PROFILE_MI_URL_TITLE","ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ®");
 
 //Configuration categories
-define("_PROFILE_MI_CAT_SETTINGS", "ÀÏ¹Ý ¼³Á¤");
-define("_PROFILE_MI_CAT_SETTINGS_DSC", "");
-define("_PROFILE_MI_CAT_USER", "»ç¿ëÀÚ ¼³Á¤");
-define("_PROFILE_MI_CAT_USER_DSC", "");
+define("_PROFILE_MI_CAT_SETTINGS","ï¿½Ï¹ï¿½ ï¿½ï¿½ï¿½ï¿½");
+define("_PROFILE_MI_CAT_SETTINGS_DSC","");
+define("_PROFILE_MI_CAT_USER","ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½");
+define("_PROFILE_MI_CAT_USER_DSC","");
 
 //Configuration items
-define("_PROFILE_MI_PROFILE_SEARCH", "»ç¿ëÀÚ ÇÁ·ÎÇÊ¿¡¼­ÀÇ ÃÖ±Ù º¯È­ºÐ Ç¥½Ã");
+define("_PROFILE_MI_PROFILE_SEARCH","ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ê¿ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ö±ï¿½ ï¿½ï¿½È­ï¿½ï¿½ Ç¥ï¿½ï¿½");
 /*
-define("_PROFILE_MI_MAX_UNAME", "¾ÆÀÌµðÀÇ ÃÖ´ë ¹®ÀÚ¼ö(byte)");
-define("_PROFILE_MI_MAX_UNAME_DESC", "¾ÆÀÌµðÀÇ ÃÖ´ë ¹®ÀÚ¼ö(byte)¸¦ ÀÔ·ÂÇØ ÁÖ¼¼¿ä!");
-define("_PROFILE_MI_MIN_UNAME", "¾ÆÀÌµðÀÇ ÃÖÀú ¹®ÀÚ¼ö(byte)");
-define("_PROFILE_MI_MIN_UNAME_DESC", "¾ÆÀÌµðÀÇ ÃÖÀú ¹®ÀÚ¼ö(byte)¸¦ ÀÔ·ÂÇØ ÁÖ¼¼¿ä!");
-define("_PROFILE_MI_DISPLAY_DISCLAIMER", "ÀÌ¿ë¾à°ü(disclaimer)À» Ç¥½Ã");
-define("_PROFILE_MI_DISPLAY_DISCLAIMER_DESC", "¿¹ ¸¦ ¼±ÅÃÇÏ½Ã¸é ½Å±Ôµî·ÏÆäÀÌÁö¿¡ ÀÌ¿ë¾à°üÀ» Ç¥½ÃÇÕ´Ï´Ù.");
-define("_PROFILE_MI_DISCLAIMER", "ÀÌ¿ë¾à°ü(Registration disclaimer)");
-define("_PROFILE_MI_DISCLAIMER_DESC", "½Å±Ôµî·Ï ÆäÀÌÁö¿¡ Ç¥½ÃÇÒ ÀÌ¿ë¾à°üÀ» ÀÔ·ÂÇØ ÁÖ¼¼¿ä!");
-define("_PROFILE_MI_BAD_UNAMES", "¾ÆÀÌµð ¶Ç´Â Ç¥½Ã¸í(º°¸í)À¸·Î »ç¿ëÇÒ ¼ö ¾ø´Â ¹®ÀÚ¿­");
-define("_PROFILE_MI_BAD_UNAMES_DESC", "°¢°¢ÀÇ ¹®ÀÚ¿­Àº <b>|</b> ·Î ±¸ºÐ, ´ë¼Ò¹®ÀÚ´Â ±¸º°ÇÏÁö ¾ÊÀ½, Á¤±Ô½Ä »ç¿ë°¡´É");
-define("_PROFILE_MI_BAD_EMAILS", "È¸¿øÀÇ ¸ÞÀÏÁÖ¼Ò·Î¼­ »ç¿ëÇÒ ¼ö ¾ø´Â ¹®ÀÚ¿­");
-define("_PROFILE_MI_BAD_EMAILS_DESC", "°¢°¢ÀÇ ¹®ÀÚ¿­Àº <b>|</b> ·Î ±¸ºÐ, ´ë¼Ò¹®ÀÚ´Â ±¸º°ÇÏÁö ¾ÊÀ½, Á¤±Ô½Ä »ç¿ë°¡´É");
-define("_PROFILE_MI_MINPASS", "ÆÐ½º¿öµåÀÇ ÃÖÀú ¹®ÀÚ¼ö");
-define("_PROFILE_MI_NEWUNOTIFY", "½Å±Ô È¸¿øÀÇ µî·ÏÀÌ ÀÖ´Â °æ¿ì ¸ÞÀÏ·Î ÅëÁö/Åëº¸ ¹ÞÀ½");
-define("_PROFILE_MI_NOTIFYTO", "½Å±Ô È¸¿ø µî·Ï ÅëÁö/Åëº¸ ¸ÞÀÏÀ» ¹ÞÀ» ±×·ìÀ» ¼³Á¤ÇØ ÁÖ¼¼¿ä!");
-define("_PROFILE_MI_ACTVTYPE", "½Å±Ô È¸¿ø °èÁ¤ÀÇ È°¼ºÈ­ ¹æ½ÄÀ» ¼±ÅÃÇØ ÁÖ¼¼¿ä!");
-define("_PROFILE_MI_USERACTV","°èÁ¤ È°¼ºÈ­¸¦ À§ÇØ È¸¿ø ÀÚ½ÅÀÇ È®ÀÎÀÌ ÇÊ¿ä(ÃßÃµ)");
-define("_PROFILE_MI_AUTOACTV","ÀÚµ¿ÀûÀ¸·Î °èÁ¤À» È°¼ºÈ­ÇÔ");
-define("_PROFILE_MI_ADMINACTV","°ü¸®ÀÚ°¡ °èÁ¤ È°¼ºÈ­ ¿©ºÎ¸¦ °áÁ¤");
-define("_PROFILE_MI_ACTVGROUP", "°èÁ¤ È°¼ºÈ­ È®ÀÎ ÀÇ·Ú ¸ÞÀÏÀ» ¹ÞÀ» ±×·ìÀ» ¼±ÅÃÇØ ÁÖ¼¼¿ä!");
-define("_PROFILE_MI_ACTVGROUP_DESC", "°ü¸®ÀÚ°¡ °èÁ¤ È°¼ºÈ­ ¿©ºÎ¸¦ °áÁ¤ À» ¼±ÅÃÇÏ½Å °æ¿ì¸¸ À¯È¿ÇÔ");
-define("_PROFILE_MI_UNAMELVL","¾ÆÀÌµð·Î »ç¿ë°¡´ÉÇÑ ¹®ÀÚµéÀ» ¼³Á¤! ¹®ÀÚ Á¦ÇÑÀÇ ·¹º§À» ¼±ÅÃÇØÁÖ¼¼¿ä!");
-define("_PROFILE_MI_STRICT","¾ö°Ý (¾ËÆÄºª°ú ¼ýÀÚ¸¸)");
-define("_PROFILE_MI_MEDIUM","Áß°£");
-define("_PROFILE_MI_LIGHT","°ü´ë (ÇÑ±Û,ÇÑÀÚµî »ç¿ëÇã°¡)");
-define("_PROFILE_MI_ALLOWREG", "½Å±Ô È¸¿øÀÇ µî·ÏÀ» Çã¿ëÇÔ");
-define("_PROFILE_MI_ALLOWREG_DESC", "¿¹ ¸¦ ¼±ÅÃÇÏ½Ã¸é ½Å±Ô È¸¿ø µî·ÏÀ» Çã¿ëÇÏ°Ô µË´Ï´Ù.");
-define("_PROFILE_MI_AVATARALLOW", "¾Æ¹ÙÅ¸ ±×¸²ÆÄÀÏÀÇ ¾÷·Îµå¸¦ Çã¿ëÇÔ?");
-define("_PROFILE_MI_AVATARALLOW_DESC", "");
-define("_PROFILE_MI_AVATARWIDTH", "¾Æ¹ÙÅ¸ ±×¸²ÆÄÀÏÀÇ ÃÖ´ëÇã¿ë Æø (pixel)");
-define("_PROFILE_MI_AVATARWIDTH_DESC", "");
-define("_PROFILE_MI_AVATARHEIGHT", "¾Æ¹ÙÅ¸ ±×¸²ÆÄÀÏÀÇ ÃÖ´ëÇã¿ë ³ôÀÌ (pixel)");
-define("_PROFILE_MI_AVATARHEIGHT_DESC", "");
-define("_PROFILE_MI_AVATARMAX", "¾Æ¹ÙÅ¸ ±×¸²ÆÄÀÏÀÇ ÃÖ´ëÇã¿ë ÆÄÀÏ»çÀÌÁî (byte)");
-define("_PROFILE_MI_AVATARMAX_DESC", "");
-define("_PROFILE_MI_SELFDELETE", "µî·ÏÈ¸¿øÀÇ ÀÚ±â °èÁ¤»èÁ¦¸¦ Çã¿ë(Å»ÅðÇã¿ë)?");
-define("_PROFILE_MI_SELFDELETE_DESC", "");
-define("_PROFILE_MI_AVATARMINPOSTS", "¾Æ¹ÙÅ¸ ¾÷·Îµå±ÇÇÑÀ» À§ÇÑ ÃÖÀú ¿ä±¸ Åõ°í ¼ö");
-define("_PROFILE_MI_AVATARMINPOSTS_DESC", "µî·ÏÈ¸¿øÀÌ ÀÚ±âÀÇ ¾Æ¹ÙÅ¸¸¦ ¾÷·ÎµåÇÒ ±ÇÇÑÀ» ¾ò±âÀ§ÇØ ÇÊ¿äÇÑ ÃÖÀú Åõ°í ¼ö¸¦ ÀÔ·ÂÇØ ÁÖ¼¼¿ä");
-define("_PROFILE_MI_ALLOWCHGMAIL", "µî·ÏÈ¸¿øÀÇ ÀÚ±â ¸ÞÀÏÁÖ¼Ò º¯°æÀ» Çã¿ëÇÔ?");
-define("_PROFILE_MI_ALLOWCHGMAIL_DESC", "");
-define("_PROFILE_MI_ALLOWVIEWACC", "»ç¿ëÀÚ °èÁ¤ Á¤º¸¿­¶÷ Çã¿ë");
-define("_PROFILE_MI_ALLOWVIEWACC_DESC", "»ç¿ëÀÚ °èÁ¤ÀÇ °³°³ÀÇ ÇÊµå´Â ÇÊµå°ü¸®¿¡¼­ Ç¥½Ã/ºñÇ¥½Ã ¼³Á¤ÇÏ½Ç ¼ö ÀÖ½À´Ï´Ù.<br />Æ¯Á¤ ±×·ì¿¡°Ô °èÁ¤ Á¤º¸¿­¶÷À» Çã°¡ÇÏ½Ã·Á¸é ¼±ÅÃÇØ ÁÖ½Ã±â ¹Ù¶ø´Ï´Ù.<br />(¼Õ´ÔÀº µî·ÏÈÄ ¿­¶÷°¡´ÉÇÏ°Ô µË´Ï´Ù)");
+define("_PROFILE_MI_MAX_UNAME","ï¿½ï¿½ï¿½Ìµï¿½ï¿½ï¿½ ï¿½Ö´ï¿½ ï¿½ï¿½ï¿½Ú¼ï¿½(byte)");
+define("_PROFILE_MI_MAX_UNAME_DESC","ï¿½ï¿½ï¿½Ìµï¿½ï¿½ï¿½ ï¿½Ö´ï¿½ ï¿½ï¿½ï¿½Ú¼ï¿½(byte)ï¿½ï¿½ ï¿½Ô·ï¿½ï¿½ï¿½ ï¿½Ö¼ï¿½ï¿½ï¿½!");
+define("_PROFILE_MI_MIN_UNAME","ï¿½ï¿½ï¿½Ìµï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ú¼ï¿½(byte)");
+define("_PROFILE_MI_MIN_UNAME_DESC","ï¿½ï¿½ï¿½Ìµï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ú¼ï¿½(byte)ï¿½ï¿½ ï¿½Ô·ï¿½ï¿½ï¿½ ï¿½Ö¼ï¿½ï¿½ï¿½!");
+define("_PROFILE_MI_DISPLAY_DISCLAIMER","ï¿½Ì¿ï¿½ï¿½ï¿½(disclaimer)ï¿½ï¿½ Ç¥ï¿½ï¿½");
+define("_PROFILE_MI_DISPLAY_DISCLAIMER_DESC","ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï½Ã¸ï¿½ ï¿½Å±Ôµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ì¿ï¿½ï¿½ï¿½ï¿½ï¿½ Ç¥ï¿½ï¿½ï¿½Õ´Ï´ï¿½.");
+define("_PROFILE_MI_DISCLAIMER","ï¿½Ì¿ï¿½ï¿½ï¿½(Registration disclaimer)");
+define("_PROFILE_MI_DISCLAIMER_DESC","ï¿½Å±Ôµï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Ç¥ï¿½ï¿½ï¿½ï¿½ ï¿½Ì¿ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ô·ï¿½ï¿½ï¿½ ï¿½Ö¼ï¿½ï¿½ï¿½!");
+define("_PROFILE_MI_BAD_UNAMES","ï¿½ï¿½ï¿½Ìµï¿½ ï¿½Ç´ï¿½ Ç¥ï¿½Ã¸ï¿½(ï¿½ï¿½ï¿½ï¿½)ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ú¿ï¿½");
+define("_PROFILE_MI_BAD_UNAMES_DESC","ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ú¿ï¿½ï¿½ï¿½ <b>|</b> ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½, ï¿½ï¿½Ò¹ï¿½ï¿½Ú´ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½, ï¿½ï¿½ï¿½Ô½ï¿½ ï¿½ï¿½ë°¡ï¿½ï¿½");
+define("_PROFILE_MI_BAD_EMAILS","È¸ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ö¼Ò·Î¼ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ú¿ï¿½");
+define("_PROFILE_MI_BAD_EMAILS_DESC","ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ú¿ï¿½ï¿½ï¿½ <b>|</b> ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½, ï¿½ï¿½Ò¹ï¿½ï¿½Ú´ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½, ï¿½ï¿½ï¿½Ô½ï¿½ ï¿½ï¿½ë°¡ï¿½ï¿½");
+define("_PROFILE_MI_MINPASS","ï¿½Ð½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ú¼ï¿½");
+define("_PROFILE_MI_NEWUNOTIFY","ï¿½Å±ï¿½ È¸ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ö´ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ï·ï¿½ ï¿½ï¿½ï¿½ï¿½/ï¿½ëº¸ ï¿½ï¿½ï¿½ï¿½");
+define("_PROFILE_MI_NOTIFYTO","ï¿½Å±ï¿½ È¸ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½/ï¿½ëº¸ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½×·ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ö¼ï¿½ï¿½ï¿½!");
+define("_PROFILE_MI_ACTVTYPE","ï¿½Å±ï¿½ È¸ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ È°ï¿½ï¿½È­ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ö¼ï¿½ï¿½ï¿½!");
+define("_PROFILE_MI_USERACTV","ï¿½ï¿½ï¿½ï¿½ È°ï¿½ï¿½È­ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ È¸ï¿½ï¿½ ï¿½Ú½ï¿½ï¿½ï¿½ È®ï¿½ï¿½ï¿½ï¿½ ï¿½Ê¿ï¿½(ï¿½ï¿½Ãµ)");
+define("_PROFILE_MI_AUTOACTV","ï¿½Úµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ È°ï¿½ï¿½È­ï¿½ï¿½");
+define("_PROFILE_MI_ADMINACTV","ï¿½ï¿½ï¿½ï¿½ï¿½Ú°ï¿½ ï¿½ï¿½ï¿½ï¿½ È°ï¿½ï¿½È­ ï¿½ï¿½ï¿½Î¸ï¿½ ï¿½ï¿½ï¿½ï¿½");
+define("_PROFILE_MI_ACTVGROUP","ï¿½ï¿½ï¿½ï¿½ È°ï¿½ï¿½È­ È®ï¿½ï¿½ ï¿½Ç·ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½×·ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ö¼ï¿½ï¿½ï¿½!");
+define("_PROFILE_MI_ACTVGROUP_DESC","ï¿½ï¿½ï¿½ï¿½ï¿½Ú°ï¿½ ï¿½ï¿½ï¿½ï¿½ È°ï¿½ï¿½È­ ï¿½ï¿½ï¿½Î¸ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï½ï¿½ ï¿½ï¿½ì¸¸ ï¿½ï¿½È¿ï¿½ï¿½");
+define("_PROFILE_MI_UNAMELVL","ï¿½ï¿½ï¿½Ìµï¿½ï¿½ ï¿½ï¿½ë°¡ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Úµï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½! ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö¼ï¿½ï¿½ï¿½!");
+define("_PROFILE_MI_STRICT","ï¿½ï¿½ï¿½ï¿½ (ï¿½ï¿½ï¿½Äºï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ú¸ï¿½)");
+define("_PROFILE_MI_MEDIUM","ï¿½ß°ï¿½");
+define("_PROFILE_MI_LIGHT","ï¿½ï¿½ï¿½ï¿½ (ï¿½Ñ±ï¿½,ï¿½ï¿½ï¿½Úµï¿½ ï¿½ï¿½ï¿½ï¿½ã°¡)");
+define("_PROFILE_MI_ALLOWREG","ï¿½Å±ï¿½ È¸ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½");
+define("_PROFILE_MI_ALLOWREG_DESC","ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï½Ã¸ï¿½ ï¿½Å±ï¿½ È¸ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ï°ï¿½ ï¿½Ë´Ï´ï¿½.");
+define("_PROFILE_MI_AVATARALLOW","ï¿½Æ¹ï¿½Å¸ ï¿½×¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Îµå¸¦ ï¿½ï¿½ï¿½ï¿½ï¿½?");
+define("_PROFILE_MI_AVATARALLOW_DESC","");
+define("_PROFILE_MI_AVATARWIDTH","ï¿½Æ¹ï¿½Å¸ ï¿½×¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ö´ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ (pixel)");
+define("_PROFILE_MI_AVATARWIDTH_DESC","");
+define("_PROFILE_MI_AVATARHEIGHT","ï¿½Æ¹ï¿½Å¸ ï¿½×¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ö´ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ (pixel)");
+define("_PROFILE_MI_AVATARHEIGHT_DESC","");
+define("_PROFILE_MI_AVATARMAX","ï¿½Æ¹ï¿½Å¸ ï¿½×¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ö´ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ï»ï¿½ï¿½ï¿½ï¿½ï¿½ (byte)");
+define("_PROFILE_MI_AVATARMAX_DESC","");
+define("_PROFILE_MI_SELFDELETE","ï¿½ï¿½ï¿½È¸ï¿½ï¿½ï¿½ï¿½ ï¿½Ú±ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½(Å»ï¿½ï¿½ï¿½ï¿½ï¿½)?");
+define("_PROFILE_MI_SELFDELETE_DESC","");
+define("_PROFILE_MI_AVATARMINPOSTS","ï¿½Æ¹ï¿½Å¸ ï¿½ï¿½ï¿½Îµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ä±¸ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½");
+define("_PROFILE_MI_AVATARMINPOSTS_DESC","ï¿½ï¿½ï¿½È¸ï¿½ï¿½ï¿½ï¿½ ï¿½Ú±ï¿½ï¿½ï¿½ ï¿½Æ¹ï¿½Å¸ï¿½ï¿½ ï¿½ï¿½ï¿½Îµï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ê¿ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ô·ï¿½ï¿½ï¿½ ï¿½Ö¼ï¿½ï¿½ï¿½");
+define("_PROFILE_MI_ALLOWCHGMAIL","ï¿½ï¿½ï¿½È¸ï¿½ï¿½ï¿½ï¿½ ï¿½Ú±ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ö¼ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½?");
+define("_PROFILE_MI_ALLOWCHGMAIL_DESC","");
+define("_PROFILE_MI_ALLOWVIEWACC","ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½");
+define("_PROFILE_MI_ALLOWVIEWACC_DESC","ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Êµï¿½ï¿½ ï¿½Êµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Ç¥ï¿½ï¿½/ï¿½ï¿½Ç¥ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï½ï¿½ ï¿½ï¿½ ï¿½Ö½ï¿½ï¿½Ï´ï¿½.<br />Æ¯ï¿½ï¿½ ï¿½×·ì¿¡ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ã°¡ï¿½Ï½Ã·ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ö½Ã±ï¿½ ï¿½Ù¶ï¿½ï¿½Ï´ï¿½.<br />(ï¿½Õ´ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï°ï¿½ ï¿½Ë´Ï´ï¿½)");
 */
 //Pages
-define("_PROFILE_MI_PAGE_INFO", "»ç¿ëÀÚ Á¤º¸");
-define("_PROFILE_MI_PAGE_EDIT", "»ç¿ëÀÚ ÆíÁý");
-define("_PROFILE_MI_PAGE_SEARCH", "°Ë»ö");
+define("_PROFILE_MI_PAGE_INFO","ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½");
+define("_PROFILE_MI_PAGE_EDIT","ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½");
+define("_PROFILE_MI_PAGE_SEARCH","ï¿½Ë»ï¿½");
 
-define("_PROFILE_MI_STEP_BASIC", "±âº»Á¤º¸");
-define("_PROFILE_MI_STEP_COMPLEMENTARY", "Ãß°¡Á¤º¸");
+define("_PROFILE_MI_STEP_BASIC","ï¿½âº»ï¿½ï¿½ï¿½ï¿½");
+define("_PROFILE_MI_STEP_COMPLEMENTARY","ï¿½ß°ï¿½ï¿½ï¿½ï¿½ï¿½");
 
-define("_PROFILE_MI_CATEGORY_PERSONAL", "°³ÀÎÁ¤º¸");
-define("_PROFILE_MI_CATEGORY_MESSAGING", "¿¬¶ôÁ¤º¸");
-define("_PROFILE_MI_CATEGORY_SETTINGS", "¼³Á¤Á¤º¸");
-define("_PROFILE_MI_CATEGORY_COMMUNITY", "Ä¿¹Â´ÏÆ¼Á¤º¸");
+define("_PROFILE_MI_CATEGORY_PERSONAL","ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
+define("_PROFILE_MI_CATEGORY_MESSAGING","ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
+define("_PROFILE_MI_CATEGORY_SETTINGS","ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
+define("_PROFILE_MI_CATEGORY_COMMUNITY","Ä¿ï¿½Â´ï¿½Æ¼ï¿½ï¿½ï¿½ï¿½");
 
 ?>

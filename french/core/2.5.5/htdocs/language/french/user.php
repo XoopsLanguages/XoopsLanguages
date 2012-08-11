@@ -14,7 +14,7 @@ define("_US_THANKYOUFORVISIT","Merci de votre visite sur notre site !");
 define("_US_INCORRECTLOGIN","Identifiant incorrect !");
 define("_US_LOGGINGU","Merci de votre connexion <span style='font-style: italic; font-weight:bold;'>%s</span>");
 // 2001-11-17 ADD
-define("_US_NOACTTPADM", "L'utilisateur sélectionné a été désactivé ou n'a pas encore été activé.<br />Merci de contacter l'administrateur pour des détails.");
+define("_US_NOACTTPADM","L'utilisateur sélectionné a été désactivé ou n'a pas encore été activé.<br />Merci de contacter l'administrateur pour des détails.");
 define("_US_ACTKEYNOT","Clef d'activation incorrecte !");
 define("_US_ACONTACT","Le compte sélectionné est déjà activé !");
 define("_US_ACTLOGIN","Votre compte a été activé. Merci de vous connecter avec le mot de passe enregistré.");
@@ -39,7 +39,7 @@ define("_US_REGISTERNG","Impossible d'enregistrer un nouvel utilisateur");
 define("_US_MAILOK","Autoriser les administrateurs du site et<br /> les modérateurs à m'envoyer occasionnellement, des messages par email ?");
 define("_US_DISCLAIMER","Conditions Générales");
 define("_US_IAGREE","J'accepte les Conditions Générales ci-dessus");
-define("_US_UNEEDAGREE", "Désolé, vous n'avez pas accepté nos Conditions Générales pour l'inscription.");
+define("_US_UNEEDAGREE","Désolé, vous n'avez pas accepté nos Conditions Générales pour l'inscription.");
 define("_US_NOREGISTER","Désolé, les nouvelles inscriptions sont fermées pour le moment.");
 // %s is username. This is a subject for email
 define("_US_USERKEYFOR","Clef d'activation de l'utilisateur pour \"%s\"");
@@ -63,13 +63,13 @@ define("_US_ENTERPWD","ERREUR : Vous devez fournir un mot de passe.");
 define("_US_SORRYNOTFOUND","Désolé, aucune information \"Utilisateur\" correspondante n'a été trouvée");
 // %s is your site name
 define("_US_NEWPWDREQ","Demande de nouveau mot de passe sur \"%s\" ");
-define("_US_YOURACCOUNT", "Votre compte sur \"%s\" ");
+define("_US_YOURACCOUNT","Votre compte sur \"%s\" ");
 define("_US_MAILPWDNG","mail_password : Impossible de mettre à jour l'entrée \"Utilisateur\". Veuillez s'il vous plaît, contactez l'administrateur du site.");
 // %s is a username
 define("_US_PWDMAILED","Mot de passe pour \"%s\" envoyé.");
 define("_US_CONFMAIL","Courrier de confirmation par email pour \"%s\" envoyé.");
-define("_US_ACTVMAILNG", "Echec Lors de l'envoi de l'email de notification à \"%s\"");
-define("_US_ACTVMAILOK", "Email de notification à \"%s\" envoyé.");
+define("_US_ACTVMAILNG","Echec Lors de l'envoi de l'email de notification à \"%s\"");
+define("_US_ACTVMAILOK","Email de notification à \"%s\" envoyé.");
 //%%%%%%                File Name userinfo.php                 %%%%%
 define("_US_SELECTNG","Aucun utilisateur de sélectionné ! Merci de revenir en arrière et de recommencer.");
 define("_US_PM","PM");
@@ -111,23 +111,23 @@ define("_US_PROFUPDATED","Votre profil a été mis à jour !");
 define("_US_USECOOKIE","Conserver mon identifiant dans un cookie pour un an");
 define("_US_NO","Non");
 define("_US_DELACCOUNT","Supprimer le compte");
-define("_US_MYAVATAR", "Mon avatar");
-define("_US_UPLOADMYAVATAR", "Envoyer mon avatar");
+define("_US_MYAVATAR","Mon avatar");
+define("_US_UPLOADMYAVATAR","Envoyer mon avatar");
 define("_US_MAXPIXEL","Nombre maximum de pixels");
 define("_US_MAXIMGSZ","Taille maximum de l'image (octets)");
 define("_US_SELFILE","Sélectionnez un fichier");
 define("_US_OLDDELETED","Votre ancien avatar va être effacé !");
-define("_US_CHOOSEAVT", "Choisir un avatar dans la liste disponible");
-define("_US_PRESSLOGIN", "Pressez le bouton ci-dessous pour vous connecter");
-define("_US_ADMINNO", "Les utilisateurs du groupe \"Administrateurs\" ne peuvent pas être effacés");
-define("_US_GROUPS", "Groupes de l'utilisateur");
-define("_US_REMEMBERME", "Se souvenir de moi");
+define("_US_CHOOSEAVT","Choisir un avatar dans la liste disponible");
+define("_US_PRESSLOGIN","Pressez le bouton ci-dessous pour vous connecter");
+define("_US_ADMINNO","Les utilisateurs du groupe \"Administrateurs\" ne peuvent pas être effacés");
+define("_US_GROUPS","Groupes de l'utilisateur");
+define("_US_REMEMBERME","Se souvenir de moi");
 // Welcoming emai/PM subject
-define("_US_WELCOME_SUBJECT", "Bienvenue sur \"%s\"");
+define("_US_WELCOME_SUBJECT","Bienvenue sur \"%s\"");
 
 //XOOPS 2.5.4
-define("_US_SKYPE'", "Skype");
-define("_US_FACEBOOK", "Facebook");
+define("_US_SKYPE'","Skype");
+define("_US_FACEBOOK","Facebook");
 
 /**  
  * Traductions frxoops, kris

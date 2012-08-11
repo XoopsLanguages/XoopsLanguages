@@ -25,7 +25,7 @@
 //  ------------------------------------------------------------------------ //
 
 define("_AM_MYSEARCH_DBUPDATED","La base de données a été mise à jour avec succès");
-define("_AM_MYSEARCH_GENERALSET", "Options du module" );
+define("_AM_MYSEARCH_GENERALSET","Options du module" );
 define("_AM_MYSEARCH_GOTOMOD","Aller au module");
 define("_AM_MYSEARCH_MODULEADMIN","Administration du module");
 define("_AM_MYSEARCH_STATS","Recherches statistiques (%d mots enregistrés)");
@@ -48,12 +48,12 @@ define("_AM_MYSEARCH_PRUNE_DESC","Si vous ne tapez pas de mot, le script triera 
 define("_AM_MYSEARCH_PRUNE_CONFIRM","Confirmez-vous la suppression des %u éléments  ?");
 define("_AM_MYSEARCH_NOTHING_PRUNE","Rien à supprimer");
 define("_AM_MYSEARCH_EXPORT","Exportation");
-define('_AM_MYSEARCH_EXPORT_BETWEEN', 'Recherches exportées entre');
+define('_AM_MYSEARCH_EXPORT_BETWEEN','Recherches exportées entre');
 define('_AM_MYSEARCH_EXPORT_AND'," et ");
 define("_AM_MYSEARCH_DATE_FORMAT","Format de date (au format PHP)");
 define("_AM_MYSEARCH_DELIMITER","Délimiteur de champs");
 define("_AM_MYSEARCH_EXPORT_ERROR","Erreur, impossible de créer le fichier d'exportation %s");
-define('_AM_MYSEARCH_EXPORT_READY', "Votre fichier d'exportation est disponible. <br /> <a href='%s'> cliquez ici pour le télécharger</a>. < br / > n'oubliez pas de <a href='%s'> le supprimer</a> une fois que vous avez terminé.");
+define('_AM_MYSEARCH_EXPORT_READY',"Votre fichier d'exportation est disponible. <br /> <a href='%s'> cliquez ici pour le télécharger</a>. < br / > n'oubliez pas de <a href='%s'> le supprimer</a> une fois que vous avez terminé.");
 define('_AM_MYSEARCH_DELETED_OK',"Le fichier a été supprimé");
 define('_AM_MYSEARCH_DELETED_PB',"Erreur, impossible de supprimer le fichier");
 define("_AM_MYSEARCH_NOTHING_TO_EXPORT","Rien à exporter !");

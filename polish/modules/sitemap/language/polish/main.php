@@ -1,5 +1,5 @@
 <?php
 
-define('_MD_SITEMAP_HOME', 'Strona G³ówna');
+define('_MD_SITEMAP_HOME','Strona GÂ³Ã³wna');
 
 ?>

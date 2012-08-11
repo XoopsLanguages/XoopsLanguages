@@ -15,6 +15,6 @@
  * @since       2.3.0
  */
 
-define('_XO_MB_PARTNERS_CATEGORY', 'انتخاب شاخه:');
+define('_XO_MB_PARTNERS_CATEGORY','انتخاب شاخه:');
 
 ?>

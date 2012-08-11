@@ -25,19 +25,19 @@
 //  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 USA // 
 //  ------------------------------------------------------------------------ // 
  
-define('_MB_PARTNERS_PSPACE', 'Staviti razmak izmeðu partnera?'); 
-define('_MB_BRAND', 'Razbacaj partnere u bloku?'); 
-define('_MB_BLIMIT', 'Ogranièi blok na xx unosa: (0 = bez ogranièenja)'); 
-define('_MB_BSHOW', 'U bloku prikaži:'); 
-define('_MB_BORDER', 'Posloži sadržaj bloka po:'); 
-define('_MB_ID', 'ID'); 
-define('_MB_HITS', 'Pregleda'); 
-define('_MB_TITLE', 'Naslov'); 
-define('_MB_WEIGHT', 'Redoslijed'); 
-define('_MB_ASC', 'Uzlazno'); 
-define('_MB_DESC', 'Silazno'); 
-define('_MB_IMAGES', 'Slike'); 
-define('_MB_TEXT', 'Tekst linkovi'); 
-define('_MB_BOTH', 'Oboje'); 
-define('_MB_FADE', 'Izblijedjele slika'); 
+define('_MB_PARTNERS_PSPACE','Staviti razmak izmeÃ°u partnera?'); 
+define('_MB_BRAND','Razbacaj partnere u bloku?'); 
+define('_MB_BLIMIT','OgraniÃ¨i blok na xx unosa: (0 = bez ograniÃ¨enja)'); 
+define('_MB_BSHOW','U bloku prikaÅ¾i:'); 
+define('_MB_BORDER','PosloÅ¾i sadrÅ¾aj bloka po:'); 
+define('_MB_ID','ID'); 
+define('_MB_HITS','Pregleda'); 
+define('_MB_TITLE','Naslov'); 
+define('_MB_WEIGHT','Redoslijed'); 
+define('_MB_ASC','Uzlazno'); 
+define('_MB_DESC','Silazno'); 
+define('_MB_IMAGES','Slike'); 
+define('_MB_TEXT','Tekst linkovi'); 
+define('_MB_BOTH','Oboje'); 
+define('_MB_FADE','Izblijedjele slika'); 
 ?>

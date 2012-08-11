@@ -1,6 +1,6 @@
 <?php
 if( ! defined( 'XPRESS_BLOCK_LANG_INCLUDED' ) ) {
-	define( 'XPRESS_BLOCK_LANG_INCLUDED' , 1 ) ;
+	define('XPRESS_BLOCK_LANG_INCLUDED' , 1 ) ;
 
 	define("_MB_XPRESS_NOTITLE",'(بدون عنوان)');
 

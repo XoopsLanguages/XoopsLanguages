@@ -157,7 +157,7 @@ define("_MI_VP_ARTIST_CHEADING","Izvođač");
 define("_MI_VP_CATEGORY_CHEADING","Kategorija");
 define("_MI_VP_EDIT_CHEADING","Uredi");
 define("_MI_VP_DELETE_CHEADING","Obriši");
-define("_MI_VP_EDITHEADER", "Uređivanje video informacija");
+define("_MI_VP_EDITHEADER","Uređivanje video informacija");
 define("_MI_VP_EDIT","Uredi");
 define("_MI_VP_DELETE","Obriši");
 define("_MI_VP_DELSUCCESS","Uspješno obrisan video");

@@ -1,138 +1,138 @@
 <?php
 // $Id: user.php 2 2005-11-02 18:23:29Z skalpa $
 //%%%%%%		File Name user.php 		%%%%%
-define('_US_NOTREGISTERED','€Ì— „‘ —ﬂ ø <a href=register.php>«÷€ÿ Â‰«</a>.');
-define('_US_LOSTPASSWORD','›ﬁœ«‰ ﬂ·„… «·„—Ê— ø');
-define('_US_NOPROBLEM','√œŒ· »—Ìœﬂ «·–Ì «‘ —ﬂ  ›ÌÂ');
-define('_US_YOUREMAIL','»—Ìœﬂ : ');
-define('_US_SENDPASSWORD','√—”· ﬂ·„… «·„—Ê—');
-define('_US_LOGGEDOUT','·ﬁœ  „  ”ÃÌ· Œ—ÊÃﬂ');
-define('_US_THANKYOUFORVISIT','‘ﬂ—« ·“Ì«— ﬂ „Êﬁ⁄‰«');
-define('_US_INCORRECTLOGIN',' ”ÃÌ· œŒÊ· Œÿ√');
-define('_US_LOGGINGU','‘ﬂ—« · ”ÃÌ· œŒÊ·ﬂ  %s');
+define('_US_NOTREGISTERED','√õ√≠√ë √£√î√ä√ë√ü ¬ø <a href=register.php>√á√ñ√õ√ò √•√§√á</a>.');
+define('_US_LOSTPASSWORD','√ù√û√è√á√§ √ü√°√£√â √á√°√£√ë√¶√ë ¬ø');
+define('_US_NOPROBLEM','√É√è√é√° √à√ë√≠√è√ü √á√°√ê√≠ √á√î√ä√ë√ü√ä √ù√≠√•');
+define('_US_YOUREMAIL','√à√ë√≠√è√ü : ');
+define('_US_SENDPASSWORD','√É√ë√ì√° √ü√°√£√â √á√°√£√ë√¶√ë');
+define('_US_LOGGEDOUT','√°√û√è √ä√£ √ä√ì√å√≠√° √é√ë√¶√å√ü');
+define('_US_THANKYOUFORVISIT','√î√ü√ë√á √°√í√≠√á√ë√ä√ü √£√¶√û√ö√§√á');
+define('_US_INCORRECTLOGIN','√ä√ì√å√≠√° √è√é√¶√° √é√ò√É');
+define('_US_LOGGINGU','√î√ü√ë√á √°√ä√ì√å√≠√° √è√é√¶√°√ü  %s');
 
 // 2001-11-17 ADD
-define('_US_NOACTTPADM','«·⁄÷Ê «·–Ì ≈Œ — Â €Ì— „‰‘ÿ «·≈‘ —«ﬂ<br>Ì—ÃÏ „—«”·… ’«Õ» «·„Êﬁ⁄');
-define('_US_ACTKEYNOT','«·„› «Õ «· ‰‘ÌÿÌ €Ì— ’ÕÌÕ');
-define('_US_ACONTACT','«·≈‘ —«ﬂ «·„‘«— «·ÌÂ ÂÊ ‰‘ÿ „”»ﬁ«');
-define('_US_ACTLOGIN',' „  ‰‘Ìÿ ≈‘ —«ﬂﬂ Ì—ÃÏ  ”ÃÌ· «·œŒÊ· «·¬‰');
-define('_US_NOPERMISS','⁄›Ê« ·Ì” ·œÌﬂ «·’·«ÕÌ… ·≈Ã—«¡ Â–Â «·⁄„·Ì…');
-define('_US_SURETODEL','Â· √‰  „ √ﬂœ „‰ √‰ﬂ  —Ìœ „”Õ «‘ —«ﬂﬂ √Ê Õ”«»ﬂ ø');
-define('_US_REMOVEINFO','–·ﬂ Ì⁄‰Ì «‰ ﬂ· „⁄·Ê„« ﬂ ” „”Õ „‰ ﬁ«⁄œ… «·»Ì«‰« ');
-define('_US_BEENDELED',' „ „”Õ Õ”«»ﬂ');
+define('_US_NOACTTPADM','√á√°√ö√ñ√¶ √á√°√ê√≠ √Ö√é√ä√ë√ä√• √õ√≠√ë √£√§√î√ò √á√°√Ö√î√ä√ë√á√ü<br>√≠√ë√å√¨ √£√ë√á√ì√°√â √ï√á√ç√à √á√°√£√¶√û√ö');
+define('_US_ACTKEYNOT','√á√°√£√ù√ä√á√ç √á√°√ä√§√î√≠√ò√≠ √õ√≠√ë √ï√ç√≠√ç');
+define('_US_ACONTACT','√á√°√Ö√î√ä√ë√á√ü √á√°√£√î√á√ë √á√°√≠√• √•√¶ √§√î√ò √£√ì√à√û√á');
+define('_US_ACTLOGIN','√ä√£ √ä√§√î√≠√ò √Ö√î√ä√ë√á√ü√ü √≠√ë√å√¨ √ä√ì√å√≠√° √á√°√è√é√¶√° √á√°√Ç√§');
+define('_US_NOPERMISS','√ö√ù√¶√á √°√≠√ì √°√è√≠√ü √á√°√ï√°√á√ç√≠√â √°√Ö√å√ë√á√Å √•√ê√• √á√°√ö√£√°√≠√â');
+define('_US_SURETODEL','√•√° √É√§√ä √£√ä√É√ü√è √£√§ √É√§√ü √ä√ë√≠√è √£√ì√ç √á√î√ä√ë√á√ü√ü √É√¶ √ç√ì√á√à√ü ¬ø');
+define('_US_REMOVEINFO','√ê√°√ü √≠√ö√§√≠ √á√§ √ü√° √£√ö√°√¶√£√á√ä√ü √ì√ä√£√ì√ç √£√§ √û√á√ö√è√â √á√°√à√≠√á√§√á√ä');
+define('_US_BEENDELED','√ä√£ √£√ì√ç √ç√ì√á√à√ü');
 //
 
 //%%%%%%		File Name register.php 		%%%%%
-define('_US_USERREG','»Ì«‰«  «· ”ÃÌ·');
-define('_US_NICKNAME','≈”„ «·„” Œœ„');
-define('_US_EMAIL','«·»—Ìœ');
-define('_US_ALLOWVIEWEMAIL','«·”„«Õ ··√⁄÷«¡ »„‘«Âœ… »—ÌœÌ');
-define('_US_WEBSITE','«·„Êﬁ⁄');
-define('_US_TIMEZONE','«· ÊﬁÌ ');
-define('_US_AVATAR','«·’Ê—… «·‘Œ’Ì…');
-define('_US_VERIFYPASS',' √ﬂÌœ ﬂ·„… «·„—Ê—');
-define('_US_SUBMIT','√—”·');
-define('_US_USERNAME','«”„ «·„” Œœ„');
-define('_US_FINISH','«‰ ÂÏ');
-define('_US_REGISTERNG','·«Ì„ﬂ‰  ”ÃÌ· ⁄÷Ê ÃœÌœ');
-define('_US_MAILOK','«·”„«Õ ·≈” ﬁ»«· —”«∆· <br />„‰ „œÌ— «·„Êﬁ⁄ ø');
-define('_US_DISCLAIMER','«·≈ ›«ﬁÌ…');
-define('_US_IAGREE','«‰« „Ê«›ﬁ');
-define('_US_UNEEDAGREE', '‰√”› ‰—ÃÊ« ﬁ»Ê· «·≈ ›«ﬁÌ… ·≈„ﬂ«‰Ì…  ”ÃÌ·ﬂ');
-define('_US_NOREGISTER','‰√”› ·ﬁœ  „ «€·«ﬁ «· ”ÃÌ· ›Ì «·„Êﬁ⁄ Õ«·Ì«');
+define('_US_USERREG','√à√≠√á√§√á√ä √á√°√ä√ì√å√≠√°');
+define('_US_NICKNAME','√Ö√ì√£ √á√°√£√ì√ä√é√è√£');
+define('_US_EMAIL','√á√°√à√ë√≠√è');
+define('_US_ALLOWVIEWEMAIL','√á√°√ì√£√á√ç √°√°√É√ö√ñ√á√Å √à√£√î√á√•√è√â √à√ë√≠√è√≠');
+define('_US_WEBSITE','√á√°√£√¶√û√ö');
+define('_US_TIMEZONE','√á√°√ä√¶√û√≠√ä');
+define('_US_AVATAR','√á√°√ï√¶√ë√â √á√°√î√é√ï√≠√â');
+define('_US_VERIFYPASS','√ä√É√ü√≠√è √ü√°√£√â √á√°√£√ë√¶√ë');
+define('_US_SUBMIT','√É√ë√ì√°');
+define('_US_USERNAME','√á√ì√£ √á√°√£√ì√ä√é√è√£');
+define('_US_FINISH','√á√§√ä√•√¨');
+define('_US_REGISTERNG','√°√á√≠√£√ü√§ √ä√ì√å√≠√° √ö√ñ√¶ √å√è√≠√è');
+define('_US_MAILOK','√á√°√ì√£√á√ç √°√Ö√ì√ä√û√à√á√° √ë√ì√á√Ü√° <br />√£√§ √£√è√≠√ë √á√°√£√¶√û√ö ¬ø');
+define('_US_DISCLAIMER','√á√°√Ö√ä√ù√á√û√≠√â');
+define('_US_IAGREE','√á√§√á √£√¶√á√ù√û');
+define('_US_UNEEDAGREE','√§√É√ì√ù √§√ë√å√¶√á √û√à√¶√° √á√°√Ö√ä√ù√á√û√≠√â √°√Ö√£√ü√á√§√≠√â √ä√ì√å√≠√°√ü');
+define('_US_NOREGISTER','√§√É√ì√ù √°√û√è √ä√£ √á√õ√°√á√û √á√°√ä√ì√å√≠√° √ù√≠ √á√°√£√¶√û√ö √ç√á√°√≠√á');
 
 
 // %s is username. This is a subject for email
-define('_US_USERKEYFOR','—«»ÿ  ›⁄Ì· «·≈‘ —«ﬂ ··⁄÷Ê  %s');
+define('_US_USERKEYFOR','√ë√á√à√ò √ä√ù√ö√≠√° √á√°√Ö√î√ä√ë√á√ü √°√°√ö√ñ√¶  %s');
 
-define('_US_YOURREGISTERED','√‰  «·¬‰ ⁄÷Ê ›Ì „Êﬁ⁄‰« ≈‰ Ÿ— »—Ìœ ÌÕ ÊÌ ⁄·Ï  ‰‘Ìÿ «·≈‘ —«ﬂ Ê« »⁄ «· ⁄·Ì„«  Â‰« ⁄·Ì„« ');
-define('_US_YOURREGMAILNG','·ﬁœ Ì„  ”ÃÌ·ﬂ «·¬‰ Ê·ﬂ‰ ‰Õ‰ ‰⁄«‰Ì „‰ ⁄ÿ· ›Ì «·»—Ìœ ·–·ﬂ Ì—ÃÏ „—«”·… «·„œÌ— ›Ì Õ«·… ⁄œ„ Ê’Ê· —«»ÿ  ›⁄Ì· «·≈‘ —«ﬂ');
-define('_US_YOURREGISTERED2','·ﬁœ  ”ÃÌ·ﬂ «·¬‰ Ê·ﬂ‰ ”Ì „  ›⁄Ì· «‘ —«ﬂﬂ „‰ ﬁ»· „œÌ— «·„Êﬁ⁄');
-
-// %s is your site name
-define('_US_NEWUSERREGAT','⁄÷Ê ÃœÌœ %s');
-// %s is a username
-define('_US_HASJUSTREG','%s ﬁ«„ »«·≈‘ —«ﬂ «·¬‰');
-
-define('_US_INVALIDMAIL','»—Ìœ Œ«ÿÌ¡');
-define('_US_EMAILNOSPACES','«·Œÿ√ «·»—Ìœ ÌÕ ÊÌ ⁄·Ï ›—«€');
-define('_US_INVALIDNICKNAME','≈”„ „” Œœ„ Œ«ÿÌ¡');
-define('_US_NICKNAMETOOLONG','≈”„ «·„” Œœ„ ÌÃ» «‰ ÌﬂÊ‰ «ﬁ· „‰  %s Õ—›');
-define('_US_NICKNAMETOOSHORT','≈”„ «·„” Œœ„ ÌÃ» √‰ ÌﬂÊ‰ √ﬂÀ— „‰  %s Õ—›');
-define('_US_NAMERESERVED','≈”„ «·„” Œœ„ „ÕÃÊ“');
-define('_US_NICKNAMENOSPACES','·« Ì„ﬂ‰ «·›’· »›«—«€ ›Ì «”„ «·„” Œœ„');
-define('_US_NICKNAMETAKEN','«”„ «·„” Œœ„ „√ŒÊ–');
-define('_US_EMAILTAKEN','Â–« «·»—Ìœ „”Ã· ·œÌ‰« „”»ﬁ«');
-define('_US_ENTERPWD','ÌÃ»  ÕœÌœ ﬂ·„… „—Ê—');
-define('_US_SORRYNOTFOUND','⁄›Ê« ·„ Ì „ «ÌÃ«œ „«  »ÕÀ ⁄‰Â ›≈”„ «·„” Œœ„ €Ì— „ ÿ«»ﬁ „⁄ √Õœ «·„” Œœ„Ì‰');
-
-
-
+define('_US_YOURREGISTERED','√É√§√ä √á√°√Ç√§ √ö√ñ√¶ √ù√≠ √£√¶√û√ö√§√á √Ö√§√ä√ô√ë √à√ë√≠√è √≠√ç√ä√¶√≠ √ö√°√¨ √ä√§√î√≠√ò √á√°√Ö√î√ä√ë√á√ü √¶√á√ä√à√ö √á√°√ä√ö√°√≠√£√á√ä √•√§√á√ä√ö√°√≠√£√á√ä');
+define('_US_YOURREGMAILNG','√°√û√è √≠√£ √ä√ì√å√≠√°√ü √á√°√Ç√§ √¶√°√ü√§ √§√ç√§ √§√ö√á√§√≠ √£√§ √ö√ò√° √ù√≠ √á√°√à√ë√≠√è √°√ê√°√ü √≠√ë√å√¨ √£√ë√á√ì√°√â √á√°√£√è√≠√ë √ù√≠ √ç√á√°√â √ö√è√£ √¶√ï√¶√° √ë√á√à√ò √ä√ù√ö√≠√° √á√°√Ö√î√ä√ë√á√ü');
+define('_US_YOURREGISTERED2','√°√û√è √ä√ì√å√≠√°√ü √á√°√Ç√§ √¶√°√ü√§ √ì√≠√ä√£ √ä√ù√ö√≠√° √á√î√ä√ë√á√ü√ü √£√§ √û√à√° √£√è√≠√ë √á√°√£√¶√û√ö');
 
 // %s is your site name
-define('_US_NEWPWDREQ','ÿ·» ﬂ·„… „—Ê— ÃœÌœÂ „‰  %s');
-define('_US_YOURACCOUNT', 'Õ”«»ﬂ ›Ì  %s');
+define('_US_NEWUSERREGAT','√ö√ñ√¶ √å√è√≠√è %s');
+// %s is a username
+define('_US_HASJUSTREG','%s √û√á√£ √à√á√°√Ö√î√ä√ë√á√ü √á√°√Ç√§');
 
-define('_US_MAILPWDNG','mail_password: ·„ ‰” ÿÌ⁄  ÕœÌÀ «·»Ì«‰«  Ì—ÃÏ „—«”·… «·„œÌ—');
+define('_US_INVALIDMAIL','√à√ë√≠√è √é√á√ò√≠√Å');
+define('_US_EMAILNOSPACES','√á√°√é√ò√É √á√°√à√ë√≠√è √≠√ç√ä√¶√≠ √ö√°√¨ √ù√ë√á√õ');
+define('_US_INVALIDNICKNAME','√Ö√ì√£ √£√ì√ä√é√è√£ √é√á√ò√≠√Å');
+define('_US_NICKNAMETOOLONG','√Ö√ì√£ √á√°√£√ì√ä√é√è√£ √≠√å√à √á√§ √≠√ü√¶√§ √á√û√° √£√§  %s √ç√ë√ù');
+define('_US_NICKNAMETOOSHORT','√Ö√ì√£ √á√°√£√ì√ä√é√è√£ √≠√å√à √É√§ √≠√ü√¶√§ √É√ü√ã√ë √£√§  %s √ç√ë√ù');
+define('_US_NAMERESERVED','√Ö√ì√£ √á√°√£√ì√ä√é√è√£ √£√ç√å√¶√í');
+define('_US_NICKNAMENOSPACES','√°√á √≠√£√ü√§ √á√°√ù√ï√° √à√ù√á√ë√á√õ √ù√≠ √á√ì√£ √á√°√£√ì√ä√é√è√£');
+define('_US_NICKNAMETAKEN','√á√ì√£ √á√°√£√ì√ä√é√è√£ √£√É√é√¶√ê');
+define('_US_EMAILTAKEN','√•√ê√á √á√°√à√ë√≠√è √£√ì√å√° √°√è√≠√§√á √£√ì√à√û√á');
+define('_US_ENTERPWD','√≠√å√à √ä√ç√è√≠√è √ü√°√£√â √£√ë√¶√ë');
+define('_US_SORRYNOTFOUND','√ö√ù√¶√á √°√£ √≠√ä√£ √á√≠√å√á√è √£√á √ä√à√ç√ã √ö√§√• √ù√Ö√ì√£ √á√°√£√ì√ä√é√è√£ √õ√≠√ë √£√ä√ò√á√à√û √£√ö √É√ç√è √á√°√£√ì√ä√é√è√£√≠√§');
+
+
+
+
+// %s is your site name
+define('_US_NEWPWDREQ','√ò√°√à √ü√°√£√â √£√ë√¶√ë √å√è√≠√è√• √£√§  %s');
+define('_US_YOURACCOUNT','√ç√ì√á√à√ü √ù√≠  %s');
+
+define('_US_MAILPWDNG','mail_password: √°√£ √§√ì√ä√ò√≠√ö √ä√ç√è√≠√ã √á√°√à√≠√á√§√á√ä √≠√ë√å√¨ √£√ë√á√ì√°√â √á√°√£√è√≠√ë');
 
 // %s is a username
-define('_US_PWDMAILED',' „ «—”«· ﬂ·„… «·„—Ê— «·Ï %s');
-define('_US_CONFMAIL','»—Ìœ  ›⁄Ì· «‘ —«ﬂ · %s');
-define('_US_ACTVMAILNG', 'ÌÊÃœ Â‰«ﬂ Œÿ√ ›Ì ≈—”«· «·»—Ìœ «·Ï %s');
-define('_US_ACTVMAILOK', ' „ «—”«· «· »·Ì€ «·Ï %s');
+define('_US_PWDMAILED','√ä√£ √á√ë√ì√á√° √ü√°√£√â √á√°√£√ë√¶√ë √á√°√¨ %s');
+define('_US_CONFMAIL','√à√ë√≠√è √ä√ù√ö√≠√° √á√î√ä√ë√á√ü √° %s');
+define('_US_ACTVMAILNG','√≠√¶√å√è √•√§√á√ü √é√ò√É √ù√≠ √Ö√ë√ì√á√° √á√°√à√ë√≠√è √á√°√¨ %s');
+define('_US_ACTVMAILOK','√ä√£ √á√ë√ì√á√° √á√°√ä√à√°√≠√õ √á√°√¨ %s');
 
 //%%%%%%		File Name userinfo.php 		%%%%%
-define('_US_SELECTNG','Ì—ÃÏ «·⁄Êœ… ÊÌÃ» «Œ Ì«— «”„ «·„” Œœ„');
-define('_US_PM','—”«·… Œ«’…');
+define('_US_SELECTNG','√≠√ë√å√¨ √á√°√ö√¶√è√â √¶√≠√å√à √á√é√ä√≠√á√ë √á√ì√£ √á√°√£√ì√ä√é√è√£');
+define('_US_PM','√ë√ì√á√°√â √é√á√ï√â');
 define('_US_ICQ','ICQ');
 define('_US_AIM','AIM');
 define('_US_YIM','YIM');
 define('_US_MSNM','MSNM');
-define('_US_LOCATION','«·œÊ·…');
-define('_US_OCCUPATION','«·ÊŸÌ›…');
-define('_US_INTEREST','«·ÂÊ«Ì…');
-define('_US_SIGNATURE','«· ÊﬁÌ⁄');
-define('_US_EXTRAINFO','„⁄·Ê„«  «÷«›Ì…');
-define('_US_EDITPROFILE',' Õ—Ì— «·„⁄·Ê„«  «·‘Œ’Ì…');
-define('_US_LOGOUT',' ”ÃÌ· Œ—ÊÃ');
-define('_US_INBOX','«·Ê«—œ');
-define('_US_MEMBERSINCE','⁄÷Ê „‰–');
-define('_US_RANK','«·— »…');
-define('_US_POSTS','„‘«—ﬂ« / ⁄·Ìﬁ« ');
-define('_US_LASTLOGIN','¬Œ—  ”ÃÌ· œŒÊ·');
-define('_US_ALLABOUT','ﬂ· „⁄·Ê„«  %s');
-define('_US_STATISTICS','«·≈Õ’«∆Ì« ');
-define('_US_MYINFO','„⁄·Ê„« Ì');
-define('_US_BASICINFO','„⁄·Ê„«  —∆Ì”Ì…');
-define('_US_MOREABOUT','„⁄·Ê„«  «÷«›Ì… ⁄‰Ì');
-define('_US_SHOWALL','⁄—÷ «·ﬂ·');
+define('_US_LOCATION','√á√°√è√¶√°√â');
+define('_US_OCCUPATION','√á√°√¶√ô√≠√ù√â');
+define('_US_INTEREST','√á√°√•√¶√á√≠√â');
+define('_US_SIGNATURE','√á√°√ä√¶√û√≠√ö');
+define('_US_EXTRAINFO','√£√ö√°√¶√£√á√ä √á√ñ√á√ù√≠√â');
+define('_US_EDITPROFILE','√ä√ç√ë√≠√ë √á√°√£√ö√°√¶√£√á√ä √á√°√î√é√ï√≠√â');
+define('_US_LOGOUT','√ä√ì√å√≠√° √é√ë√¶√å');
+define('_US_INBOX','√á√°√¶√á√ë√è');
+define('_US_MEMBERSINCE','√ö√ñ√¶ √£√§√ê');
+define('_US_RANK','√á√°√ë√ä√à√â');
+define('_US_POSTS','√£√î√á√ë√ü√á√ä/√ä√ö√°√≠√û√á√ä');
+define('_US_LASTLOGIN','√Ç√é√ë √ä√ì√å√≠√° √è√é√¶√°');
+define('_US_ALLABOUT','√ü√° √£√ö√°√¶√£√á√ä %s');
+define('_US_STATISTICS','√á√°√Ö√ç√ï√á√Ü√≠√á√ä');
+define('_US_MYINFO','√£√ö√°√¶√£√á√ä√≠');
+define('_US_BASICINFO','√£√ö√°√¶√£√á√ä √ë√Ü√≠√ì√≠√â');
+define('_US_MOREABOUT','√£√ö√°√¶√£√á√ä √á√ñ√á√ù√≠√â √ö√§√≠');
+define('_US_SHOWALL','√ö√ë√ñ √á√°√ü√°');
 
 //%%%%%%		File Name edituser.php 		%%%%%
-define('_US_PROFILE','«·„⁄·Ê„«  «·‘Œ’Ì…');
-define('_US_REALNAME','«·≈”„');
-define('_US_SHOWSIG','œ«∆„« ≈⁄—÷  ÊﬁÌ⁄Ì');
-define('_US_CDISPLAYMODE','ÿ—Ìﬁ… ⁄—÷ «· ⁄·Ìﬁ« ');
-define('_US_CSORTORDER','ÿ—Ìﬁ… ”—œ «· ⁄·Ìﬁ« ');
-define('_US_PASSWORD','ﬂ·„… «·„—Ê—');
-define('_US_TYPEPASSTWICE','(√ﬂ » ﬂ·„… «·„—Ê— „— Ì‰ · €Ì—Â«)');
-define('_US_SAVECHANGES','Õ›Ÿ «· ⁄œÌ·« ');
-define('_US_NOEDITRIGHT',"⁄›Ê« ·« Ì„ﬂ‰ﬂ  Õ—Ì— „⁄·Ê„«  Â–« «·⁄÷Ê");
-define('_US_PASSNOTSAME','ﬂ·„… «·„—Ê— €Ì— „ ÿ«»ﬁ…');
-define('_US_PWDTOOSHORT','⁄›Ê« ﬂ·„… «·„ﬂ—Ê— ÌÃ» √‰  Õ ÊÌ √ﬂÀ— „‰ <b>%s</b> Õ—Ê›');
-define('_US_PROFUPDATED',' „  ÕœÌÀ „⁄·Ê„« ﬂ «·‘Œ’Ì…');
-define('_US_USECOOKIE',' Œ“Ì‰ «·„·›«  «·„ƒﬁ Â ·„œ… ”‰…');
-define('_US_NO','·«');
-define('_US_DELACCOUNT','„”Õ «·≈‘ —«ﬂ');
-define('_US_MYAVATAR', '’Ê— Ì «·‘Œ’Ì…');
-define('_US_UPLOADMYAVATAR', ' Õ„Ì· «·’Ê—… «·‘Œ’Ì…');
-define('_US_MAXPIXEL','√ﬂ»— ÕÃ„ ··»Ìﬂ”·');
-define('_US_MAXIMGSZ','√ﬂ»— ÕÃ„ ··’Ê—… »«·»«Ì ');
-define('_US_SELFILE','≈Œ — «·„·›');
-define('_US_OLDDELETED','’Ê— ﬂ «·‘Œ’Ì… «·”«»ﬁ… ”Ì „ „”ÕÂ«');
-define('_US_CHOOSEAVT', '≈Œ — «·’Ê—… «·‘Œ’Ì… „‰ «·„ «Õ ·œÌﬂ');
+define('_US_PROFILE','√á√°√£√ö√°√¶√£√á√ä √á√°√î√é√ï√≠√â');
+define('_US_REALNAME','√á√°√Ö√ì√£');
+define('_US_SHOWSIG','√è√á√Ü√£√á √Ö√ö√ë√ñ √ä√¶√û√≠√ö√≠');
+define('_US_CDISPLAYMODE','√ò√ë√≠√û√â √ö√ë√ñ √á√°√ä√ö√°√≠√û√á√ä');
+define('_US_CSORTORDER','√ò√ë√≠√û√â √ì√ë√è √á√°√ä√ö√°√≠√û√á√ä');
+define('_US_PASSWORD','√ü√°√£√â √á√°√£√ë√¶√ë');
+define('_US_TYPEPASSTWICE','(√É√ü√ä√à √ü√°√£√â √á√°√£√ë√¶√ë √£√ë√ä√≠√§ √°√ä√õ√≠√ë√•√á)');
+define('_US_SAVECHANGES','√ç√ù√ô √á√°√ä√ö√è√≠√°√á√ä');
+define('_US_NOEDITRIGHT',"√ö√ù√¶√á √°√á √≠√£√ü√§√ü √ä√ç√ë√≠√ë √£√ö√°√¶√£√á√ä √•√ê√á √á√°√ö√ñ√¶");
+define('_US_PASSNOTSAME','√ü√°√£√â √á√°√£√ë√¶√ë √õ√≠√ë √£√ä√ò√á√à√û√â');
+define('_US_PWDTOOSHORT','√ö√ù√¶√á √ü√°√£√â √á√°√£√ü√ë√¶√ë √≠√å√à √É√§ √ä√ç√ä√¶√≠ √É√ü√ã√ë √£√§ <b>%s</b> √ç√ë√¶√ù');
+define('_US_PROFUPDATED','√ä√£ √ä√ç√è√≠√ã √£√ö√°√¶√£√á√ä√ü √á√°√î√é√ï√≠√â');
+define('_US_USECOOKIE','√ä√é√í√≠√§ √á√°√£√°√ù√á√ä √á√°√£√Ñ√û√ä√• √°√£√è√â √ì√§√â');
+define('_US_NO','√°√á');
+define('_US_DELACCOUNT','√£√ì√ç √á√°√Ö√î√ä√ë√á√ü');
+define('_US_MYAVATAR','√ï√¶√ë√ä√≠ √á√°√î√é√ï√≠√â');
+define('_US_UPLOADMYAVATAR','√ä√ç√£√≠√° √á√°√ï√¶√ë√â √á√°√î√é√ï√≠√â');
+define('_US_MAXPIXEL','√É√ü√à√ë √ç√å√£ √°√°√à√≠√ü√ì√°');
+define('_US_MAXIMGSZ','√É√ü√à√ë √ç√å√£ √°√°√ï√¶√ë√â √à√á√°√à√á√≠√ä');
+define('_US_SELFILE','√Ö√é√ä√ë √á√°√£√°√ù');
+define('_US_OLDDELETED','√ï√¶√ë√ä√ü √á√°√î√é√ï√≠√â √á√°√ì√á√à√û√â √ì√≠√ä√£ √£√ì√ç√•√á');
+define('_US_CHOOSEAVT','√Ö√é√ä√ë √á√°√ï√¶√ë√â √á√°√î√é√ï√≠√â √£√§ √á√°√£√ä√á√ç √°√è√≠√ü');
 
-define('_US_PRESSLOGIN', '«÷€ÿ ⁄·Ï «·“— √œ‰«Â · ”ÃÌ· «·œŒÊ·');
+define('_US_PRESSLOGIN','√á√ñ√õ√ò √ö√°√¨ √á√°√í√ë √É√è√§√á√• √°√ä√ì√å√≠√° √á√°√è√é√¶√°');
 
-define('_US_ADMINNO', '«·√⁄÷«¡ «·„ÊÃÊœÌ‰ ›Ì ﬁ«∆„… «·„‘—›Ì‰ Ê«·„œ—«¡ ·«Ì„ﬂ‰ Õ–›Â„');
-define('_US_GROUPS', '„Ã„Ê⁄… «·⁄÷Ê');
+define('_US_ADMINNO','√á√°√É√ö√ñ√á√Å √á√°√£√¶√å√¶√è√≠√§ √ù√≠ √û√á√Ü√£√â √á√°√£√î√ë√ù√≠√§ √¶√á√°√£√è√ë√á√Å √°√á√≠√£√ü√§ √ç√ê√ù√•√£');
+define('_US_GROUPS','√£√å√£√¶√ö√â √á√°√ö√ñ√¶');
 ?>

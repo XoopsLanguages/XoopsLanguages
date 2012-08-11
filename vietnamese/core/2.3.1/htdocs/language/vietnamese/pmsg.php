@@ -38,8 +38,8 @@ define("_PM_DATE","Ngày");//Date
 define("_PM_NOTREAD","Chưa đọc");//Not Read
 define("_PM_SEND","Gửi đi");//Send
 define("_PM_DELETE","Xóa bỏ");//Delete
-define("_PM_REPLY", "Trả lời");//Reply
+define("_PM_REPLY","Trả lời");//Reply
 define("_PM_PLZREG","Vui lòng đăng ký tài khoản để được gửi tin nhắn!");//Please register first to send private messages!
 
-define("_PM_ONLINE", "Trực tuyến");//Online
+define("_PM_ONLINE","Trực tuyến");//Online
 ?>

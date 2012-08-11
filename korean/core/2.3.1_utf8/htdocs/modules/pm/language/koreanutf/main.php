@@ -39,7 +39,7 @@ define("_PM_MESSAGEC","메세지: ");
 define("_PM_CLEAR","리셋");
 define("_PM_CANCELSEND","취소");
 define("_PM_SUBMIT","보내기");
-define("_PM_SAVEINOUTBOX", "송신함에 복사본 저장?");
+define("_PM_SAVEINOUTBOX","송신함에 복사본 저장?");
 
 //%%%%%%	File Name viewpmsg.php 	%%%%%
 define("_PM_SUBJECT","제목");
@@ -50,7 +50,7 @@ define("_PM_DELETE","삭제");
 define("_PM_TOSAVE","저장");
 define("_PM_UNSAVE","저장취소");
 define("_PM_EMPTY","비우기");
-define("_PM_REPLY", "답장");
+define("_PM_REPLY","답장");
 define("_PM_PLZREG","PM쪽지를 사용하시려면 먼저 회원등록을 하셔야 합니다.");
 define("_PM_SAVED_PART","저장함 최대용량( %d ) 현재 사용량( %d )");
 define("_PM_SAVED_ALL","PM쪽지가 저장함으로 이동되어졌습니다.");
@@ -59,7 +59,7 @@ define("_PM_EMPTIED","이 PM쪽지함이 비워졌습니다.");
 define("_PM_RUSUREEMPTY","이 PM쪽지함을 정말로 비우시겠습니까?");
 define("_PM_RUSUREDELETE","이 PM쪽지(들)을 정말로 삭제하시겠습니까?");
 
-define("_PM_ONLINE", "온라인");
+define("_PM_ONLINE","온라인");
 
 define("_PM_RECEIVE","수신섹션");
 define("_PM_POST","송신섹션");
@@ -89,13 +89,13 @@ define("_PM_NEXTP","다음");
 define("_PM_MAILNOTIFY","%s님,%s님으로부터 새PM쪽지가 도착하였습니다.");
 define("_PM_MAILMESSAGE","안녕하세요!\n%s님으로 부터 새PM쪽지가 도착하였습니다.\n\nPM쪽지 제목은\n%s\n\n해당 PM쪽지는 아래의 URL에서 확인하시기 바랍니다.\n%s\n\n-----------\n님은 PM쪽지 설정에서 메일로 통보를 선택하신 상태입니다.\n\nPM쪽지 설정의 변경은 다음 URL에서\n%s\n\n이 메일에 대한 답장은 보내실 필요없습니다.\n\n---------\n그럼 이만\n%s\n%s\n%s");
 
-define("_PM_EMAIL", "메일");
-define("_PM_EMAIL_DESC", "%s 님, 이 메세지는 님의 계정에 도착한 PM쪽지를 재전송할 것입니다. From:".$xoopsConfig['sitename']);
-define("_PM_EMAIL_FROM", "From %s");
-define("_PM_EMAIL_TO", "To %s");
-define("_PM_EMAIL_SUBJECT", "[message]%s");
-define("_PM_EMAIL_MESSAGE", "PM쪽지 내용");
+define("_PM_EMAIL","메일");
+define("_PM_EMAIL_DESC","%s 님, 이 메세지는 님의 계정에 도착한 PM쪽지를 재전송할 것입니다. From:".$xoopsConfig['sitename']);
+define("_PM_EMAIL_FROM","From %s");
+define("_PM_EMAIL_TO","To %s");
+define("_PM_EMAIL_SUBJECT","[message]%s");
+define("_PM_EMAIL_MESSAGE","PM쪽지 내용");
 
-define("_PM_ACTION_DONE", "성공적으로 수행되어졌습니다.");
-define("_PM_ACTION_ERROR", "작업수행에 실패하였습니다.");
+define("_PM_ACTION_DONE","성공적으로 수행되어졌습니다.");
+define("_PM_ACTION_ERROR","작업수행에 실패하였습니다.");
 ?>

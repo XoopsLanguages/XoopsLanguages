@@ -81,7 +81,7 @@ define("_MD_LINKID","링크 ID: ");
 define("_MD_SITETITLE","사이트 타이틀: ");
 define("_MD_SITEURL","사이트 URL: ");
 define("_MD_OPTIONS","옵션: ");
-define("_MD_NOTIFYAPPROVE", "이 링크정보가 승인된 경우 통지함");
+define("_MD_NOTIFYAPPROVE","이 링크정보가 승인된 경우 통지함");
 define("_MD_SHOTIMAGE","스크린샷 이미지: ");
 define("_MD_SENDREQUEST","보내기");
 

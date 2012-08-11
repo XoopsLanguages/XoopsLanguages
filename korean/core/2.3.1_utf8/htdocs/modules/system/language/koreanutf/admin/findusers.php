@@ -42,8 +42,8 @@ define("_AM_PREVIOUS","이전");
 define("_AM_NEXT","다음");
 define("_AM_USERSFOUND","%s 명의 등록회원이 검색되었습니다.");
 
-define("_AM_ACTUS", "승인이 완료된(활성화된) 등록회원: %s");
-define("_AM_INACTUS", "승인이 완료되지 않은(비활성화) 등록회원: %s");
+define("_AM_ACTUS","승인이 완료된(활성화된) 등록회원: %s");
+define("_AM_INACTUS","승인이 완료되지 않은(비활성화) 등록회원: %s");
 define("_AM_NOFOUND","조건을 만족하는 등록회원이 존재하지 않습니다.");
 define("_AM_UNAME","아이디");
 define("_AM_ICQ","ICQ 번호");
@@ -67,17 +67,17 @@ define("_AM_POSTS","투고 수");
 define("_AM_ASC","오름차순");
 define("_AM_DESC","내림차순");
 define("_AM_LIMIT","페이지당 표시할 등록회원수");
-define("_AM_RESULTS", "검색결과");
-define("_AM_SHOWMAILOK", "표시할 등록회원의 타입");
+define("_AM_RESULTS","검색결과");
+define("_AM_SHOWMAILOK","표시할 등록회원의 타입");
 define("_AM_MAILOK","메일수신 OK인 등록회원에게만");
 define("_AM_MAILNG","메일수신 NO인 등록회원에게만");
-define("_AM_SHOWTYPE", "표시할 등록회원의 타입");
+define("_AM_SHOWTYPE","표시할 등록회원의 타입");
 define("_AM_ACTIVE","활성화상태인 등록회원만");
 define("_AM_INACTIVE","비활성화상태인 등록회원만");
-define("_AM_BOTH", "모든 등록회원");
-define("_AM_SENDMAIL", "메세지를 보냄");
-define("_AM_ADD2GROUP", "등록회원을 %s 그룹의 멤버로 가입처리함");
+define("_AM_BOTH","모든 등록회원");
+define("_AM_SENDMAIL","메세지를 보냄");
+define("_AM_ADD2GROUP","등록회원을 %s 그룹의 멤버로 가입처리함");
 
-define("_AM_GROUPS", "그룹");
+define("_AM_GROUPS","그룹");
 
 ?>

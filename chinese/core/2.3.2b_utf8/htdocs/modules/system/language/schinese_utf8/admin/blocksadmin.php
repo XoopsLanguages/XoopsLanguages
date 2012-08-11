@@ -51,24 +51,24 @@ define("_AM_RUSUREDEL","您确定要删除区块 <strong>%s</stong> 吗?");
 define("_AM_NAME","名称");
 define("_AM_USEFULTAGS","可用标签：");
 define("_AM_BLOCKTAG1","%s 将会打印出 %s");
-define('_AM_SVISIBLEIN', '区块显示于 %s');
-define('_AM_TOPPAGE', '首页');
-define('_AM_VISIBLEIN', '显示于');
-define('_AM_ALLPAGES', '全部页面');
-define('_AM_TOPONLY', '仅首页');
-define('_AM_ADVANCED', '高级设置');
-define('_AM_BCACHETIME', '缓存时间');
-define('_AM_BALIAS', '别名');
-define('_AM_CLONE', '克隆');  // clone a block
-define('_AM_CLONEBLK', '克隆的区块'); // cloned block
-define('_AM_CLONEBLOCK', '克隆新区块');
-define('_AM_NOTSELNG', "未选择 '%s'！"); // error message
-define('_AM_EDITTPL', '编辑模板');
-define('_AM_MODULE', '模块');
-define('_AM_GROUP', '群组');
-define('_AM_UNASSIGNED', '未指定');
+define('_AM_SVISIBLEIN','区块显示于 %s');
+define('_AM_TOPPAGE','首页');
+define('_AM_VISIBLEIN','显示于');
+define('_AM_ALLPAGES','全部页面');
+define('_AM_TOPONLY','仅首页');
+define('_AM_ADVANCED','高级设置');
+define('_AM_BCACHETIME','缓存时间');
+define('_AM_BALIAS','别名');
+define('_AM_CLONE','克隆');  // clone a block
+define('_AM_CLONEBLK','克隆的区块'); // cloned block
+define('_AM_CLONEBLOCK','克隆新区块');
+define('_AM_NOTSELNG',"未选择 '%s'！"); // error message
+define('_AM_EDITTPL','编辑模板');
+define('_AM_MODULE','模块');
+define('_AM_GROUP','群组');
+define('_AM_UNASSIGNED','未指定');
 
 define("_AM_CUSTOM","自定义区块");
-define('_AM_GENERATOR', '区块列表条件 %s');
-define('_AM_TYPES', '所有类型');
+define('_AM_GENERATOR','区块列表条件 %s');
+define('_AM_TYPES','所有类型');
 ?>

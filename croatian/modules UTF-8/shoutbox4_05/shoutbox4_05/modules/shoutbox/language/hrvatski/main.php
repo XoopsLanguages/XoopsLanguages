@@ -45,9 +45,9 @@
 //  Add definitions to elimnate all hard-coded text in templates             //
 //  ***                                                                      //
 
-define("_MD_SHOUTBOX_POPUP_ONLINE", "Tko je Online");
-define("_MD_SHOUTBOX_POPUP_MESSAGES", "Poruke brbljaonice");
-define("_MD_SHOUTBOX_POPUP_CONSOLE", "Uđi u konzolu");
+define("_MD_SHOUTBOX_POPUP_ONLINE","Tko je Online");
+define("_MD_SHOUTBOX_POPUP_MESSAGES","Poruke brbljaonice");
+define("_MD_SHOUTBOX_POPUP_CONSOLE","Uđi u konzolu");
 define("_MD_SHOUTBOX_POPUP_ENTERNAME","Unesi korisničko ime:: ");
 define("_MD_SHOUTBOX_POPUP_FORCE","Prisili: ");
 define("_MD_SHOUTBOX_POPUP_USE_AUTOREFRESH","Auto-osvježavanje? ");
@@ -56,8 +56,8 @@ define("_MD_SHOUTBOX_POPUP_CONNECT","Spoji");
 define("_MD_SHOUTBOX_POPUP_SHOUT","Objavi");
 define("_MD_SHOUTBOX_POPUP_TITLE","Chat brbljaonice");
 define("_MD_SHOUTBOX_POPUP_CONNECTED",": spojen kao ");
-define("_MD_SHOUTBOX_POPUP_REFRESH", "Osvježi");
-define("_MD_SHOUTBOX_POPUP_NOSHOUTS", "Nema objava!");
-define("_MD_SHOUTBOX_POPUP_AUTOFOCUS", "Auto-Fokus");
-define("_MD_SHOUTBOX_POPUP_SOUND_ON", "Uključi zvuk za novu poruku");
+define("_MD_SHOUTBOX_POPUP_REFRESH","Osvježi");
+define("_MD_SHOUTBOX_POPUP_NOSHOUTS","Nema objava!");
+define("_MD_SHOUTBOX_POPUP_AUTOFOCUS","Auto-Fokus");
+define("_MD_SHOUTBOX_POPUP_SOUND_ON","Uključi zvuk za novu poruku");
 ?>  

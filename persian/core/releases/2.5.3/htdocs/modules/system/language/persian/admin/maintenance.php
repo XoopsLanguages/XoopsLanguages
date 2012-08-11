@@ -8,7 +8,7 @@
  */
 
 //Nav
-define("_AM_SYSTEM_MAINTENANCE_NAV_MANAGER", "تعمیرات");
+define("_AM_SYSTEM_MAINTENANCE_NAV_MANAGER","تعمیرات");
 define("_AM_SYSTEM_MAINTENANCE_NAV_LIST","تمام تعمیرات");
 define("_AM_SYSTEM_MAINTENANCE_NAV_DUMP","Dump");
 
@@ -51,16 +51,16 @@ define("_AM_SYSTEM_MAINTENANCE_TABLES_ANALYZE","آنالیز");
 define("_AM_SYSTEM_MAINTENANCE_DUMP","Dump");
 define("_AM_SYSTEM_MAINTENANCE_DUMP_TABLES_OR_MODULES","انتخاب جدول‌ها یا ماژول‌ها");
 define("_AM_SYSTEM_MAINTENANCE_DUMP_DROP","اضافه کردن دستور DROP TABLE IF EXISTS 'tables' در dump");
-define("_AM_SYSTEM_MAINTENANCE_DUMP_OR", "یا");
-define("_AM_SYSTEM_MAINTENANCE_DUMP_AND", "و");
-define("_AM_SYSTEM_MAINTENANCE_DUMP_ERROR_TABLES_OR_MODULES", "شما باید یک جدول یا ماژول انتخاب کنید.");
-define("_AM_SYSTEM_MAINTENANCE_DUMP_NO_TABLES", "هیچ جدولی");
-define("_AM_SYSTEM_MAINTENANCE_DUMP_TABLES", "جدول‌ها");
-define("_AM_SYSTEM_MAINTENANCE_DUMP_STRUCTURES", "ساختمان");
-define("_AM_SYSTEM_MAINTENANCE_DUMP_NB_RECORDS", "تعداد رکورد‌ها");
-define("_AM_SYSTEM_MAINTENANCE_DUMP_FILE_CREATED", "فایل ساخته شد");
-define("_AM_SYSTEM_MAINTENANCE_DUMP_RESULT", "نتایج");
-define("_AM_SYSTEM_MAINTENANCE_DUMP_RECORDS", "رکورد‌ها");
+define("_AM_SYSTEM_MAINTENANCE_DUMP_OR","یا");
+define("_AM_SYSTEM_MAINTENANCE_DUMP_AND","و");
+define("_AM_SYSTEM_MAINTENANCE_DUMP_ERROR_TABLES_OR_MODULES","شما باید یک جدول یا ماژول انتخاب کنید.");
+define("_AM_SYSTEM_MAINTENANCE_DUMP_NO_TABLES","هیچ جدولی");
+define("_AM_SYSTEM_MAINTENANCE_DUMP_TABLES","جدول‌ها");
+define("_AM_SYSTEM_MAINTENANCE_DUMP_STRUCTURES","ساختمان");
+define("_AM_SYSTEM_MAINTENANCE_DUMP_NB_RECORDS","تعداد رکورد‌ها");
+define("_AM_SYSTEM_MAINTENANCE_DUMP_FILE_CREATED","فایل ساخته شد");
+define("_AM_SYSTEM_MAINTENANCE_DUMP_RESULT","نتایج");
+define("_AM_SYSTEM_MAINTENANCE_DUMP_RECORDS","رکورد‌ها");
 
 // Tips
 define("_AM_SYSTEM_MAINTENANCE_TIPS", 

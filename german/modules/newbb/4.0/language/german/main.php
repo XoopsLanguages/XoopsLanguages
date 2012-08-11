@@ -32,7 +32,7 @@ define('_MD_FORUM','Forum');
 define('_MD_WELCOME','%s - Forum');
 define('_MD_TOPICS','Themen');
 define('_MD_POSTS','Beiträge');
-define("_MD_DIGESTS", "Digests");
+define("_MD_DIGESTS","Digests");
 define('_MD_LASTPOST','Letzter Beitrag');
 define('_MD_MODERATOR','Moderator(en)');
 define('_MD_NEWPOSTS','Neue Beiträge');
@@ -46,13 +46,13 @@ define('_MD_TOTALUSER','Benutzer insgesamt: ');
 define('_MD_TIMENOW','Aktuell: %s');
 define('_MD_USER_LASTVISIT','Letzter Besuch: %s');
 
-define('_MD_USER_LASTPOST', 'eigener letzter Beitrag: %s');
-define('_MD_USER_NOLASTPOST', 'bisher keine eigenen Postings');
-define('_MD_USER_TOPICS', 'eigene Themen: %s');
-define('_MD_USER_POSTS', 'eigene Postings: %s');
-define('_MD_USER_DIGESTS', 'eigene Digests: %s');
+define('_MD_USER_LASTPOST','eigener letzter Beitrag: %s');
+define('_MD_USER_NOLASTPOST','bisher keine eigenen Postings');
+define('_MD_USER_TOPICS','eigene Themen: %s');
+define('_MD_USER_POSTS','eigene Postings: %s');
+define('_MD_USER_DIGESTS','eigene Digests: %s');
 
-define('_MD_VIEW_NEWPOSTS', 'Anzeige neue Postings');
+define('_MD_VIEW_NEWPOSTS','Anzeige neue Postings');
 
 define('_MD_ADVSEARCH','Erweiterte Suche');
 define('_MD_POSTEDON','Geschrieben am: ');
@@ -60,7 +60,7 @@ define('_MD_SUBJECT','Thema: ');
 define('_MD_INACTIVEFORUM_NEWPOSTS','Inaktives Forum mit neuen Beiträgen');
 define('_MD_INACTIVEFORUM_NONEWPOSTS','Inaktives Forum ohne neue Beiträge');
 define('_MD_SUBFORUMS','Unterforen');
-define('_MD_MAINFORUMOPT', 'Hauptoptionen');
+define('_MD_MAINFORUMOPT','Hauptoptionen');
 define("_MD_PENDING_POSTS_FOR_AUTH","Auf Freigabe wartende Beiträge:");
 
 
@@ -109,35 +109,35 @@ define('_MD_FROMLASTHOURS','Innerhalb der letzten %s Stunden');
 define('_MD_FROMLASTDAYS','In den letzten %s Tagen');
 define('_MD_THELASTYEAR','Im letzten Jahr');
 define('_MD_BEGINNING','Seit Eröffnung des Forums');
-define('_MD_SEARCHTHISFORUM', 'Durchsuche dieses Forum');
+define('_MD_SEARCHTHISFORUM','Durchsuche dieses Forum');
 define('_MD_TOPIC_SUBJECTC','Themenpräfix:');
 define('_MD_NEWBB_TYPE','Themenpräfix:');
 
 
 define('_MD_RATINGS','Bewertungen');
-define("_MD_CAN_ACCESS", "<b>Erlaubt</b>, dieses Forum zu betreten.<br />");
-define("_MD_CANNOT_ACCESS", "<b>Nicht erlaubt</b>, dieses Forum zu betreten.<br />");
-define("_MD_CAN_POST", "<b>Erlaubt</b>, ein neues Thema zu erstellen.<br />");
-define("_MD_CANNOT_POST", "<b>Nicht erlaubt</b>, ein neues Thema zu erstellen.<br />");
-define("_MD_CAN_VIEW", "<b>Erlaubt</b>, Themen anzuschauen.<br />");
-define("_MD_CANNOT_VIEW", "<b>Nicht erlaubt</b>, Themen anzuschauen.<br />");
-define("_MD_CAN_REPLY", "<b>Erlaubt</b>, auf Beiträge zu antworten.<br />");
-define("_MD_CANNOT_REPLY", "<b>Nicht erlaubt</b>, auf Beiträge zu antworten.<br />");
-define("_MD_CAN_EDIT", "<b>Erlaubt</b>, Beiträge zu editieren.<br />");
-define("_MD_CANNOT_EDIT", "<b>Nicht erlaubt</b>, Beiträge zu editieren.<br />");
-define("_MD_CAN_DELETE", "<b>Erlaubt</b>, Beiträge zu löschen.<br />");
-define("_MD_CANNOT_DELETE", "<b>Nicht erlaubt</b>, Beiträge zu löschen.<br />");
-define("_MD_CAN_ADDPOLL", "<b>Erlaubt</b>, neue Umfragen zu erstellen.<br />");
-define("_MD_CANNOT_ADDPOLL", "<b>Nicht erlaubt</b>, Umfragen zu erstellen.<br />");
-define("_MD_CAN_VOTE", "<b>Erlaubt</b>, in Umfragen abzustimmen.<br />");
-define("_MD_CANNOT_VOTE", "<b>Nicht erlaubt</b>, in Umfragen abzustimmen.<br />");
-define("_MD_CAN_ATTACH", "<b>Erlaubt</b>, Dateien hoch zu laden.<br />");
-define("_MD_CANNOT_ATTACH", "<b>Nicht erlaubt</b>, Dateien hoch zu laden.<br />");
-define("_MD_CAN_NOAPPROVE", "<b>Erlaubt</b>, Beiträge ohne Prüfung zu schreiben.<br />");
-define("_MD_CANNOT_NOAPPROVE", "<b>Nicht erlaubt</b>, Beiträge ohne Prüfung zu schreiben.<br />");
+define("_MD_CAN_ACCESS","<b>Erlaubt</b>, dieses Forum zu betreten.<br />");
+define("_MD_CANNOT_ACCESS","<b>Nicht erlaubt</b>, dieses Forum zu betreten.<br />");
+define("_MD_CAN_POST","<b>Erlaubt</b>, ein neues Thema zu erstellen.<br />");
+define("_MD_CANNOT_POST","<b>Nicht erlaubt</b>, ein neues Thema zu erstellen.<br />");
+define("_MD_CAN_VIEW","<b>Erlaubt</b>, Themen anzuschauen.<br />");
+define("_MD_CANNOT_VIEW","<b>Nicht erlaubt</b>, Themen anzuschauen.<br />");
+define("_MD_CAN_REPLY","<b>Erlaubt</b>, auf Beiträge zu antworten.<br />");
+define("_MD_CANNOT_REPLY","<b>Nicht erlaubt</b>, auf Beiträge zu antworten.<br />");
+define("_MD_CAN_EDIT","<b>Erlaubt</b>, Beiträge zu editieren.<br />");
+define("_MD_CANNOT_EDIT","<b>Nicht erlaubt</b>, Beiträge zu editieren.<br />");
+define("_MD_CAN_DELETE","<b>Erlaubt</b>, Beiträge zu löschen.<br />");
+define("_MD_CANNOT_DELETE","<b>Nicht erlaubt</b>, Beiträge zu löschen.<br />");
+define("_MD_CAN_ADDPOLL","<b>Erlaubt</b>, neue Umfragen zu erstellen.<br />");
+define("_MD_CANNOT_ADDPOLL","<b>Nicht erlaubt</b>, Umfragen zu erstellen.<br />");
+define("_MD_CAN_VOTE","<b>Erlaubt</b>, in Umfragen abzustimmen.<br />");
+define("_MD_CANNOT_VOTE","<b>Nicht erlaubt</b>, in Umfragen abzustimmen.<br />");
+define("_MD_CAN_ATTACH","<b>Erlaubt</b>, Dateien hoch zu laden.<br />");
+define("_MD_CANNOT_ATTACH","<b>Nicht erlaubt</b>, Dateien hoch zu laden.<br />");
+define("_MD_CAN_NOAPPROVE","<b>Erlaubt</b>, Beiträge ohne Prüfung zu schreiben.<br />");
+define("_MD_CANNOT_NOAPPROVE","<b>Nicht erlaubt</b>, Beiträge ohne Prüfung zu schreiben.<br />");
 define("_MD_IMTOPICS","Wichtige Themen");
 define("_MD_NOTIMTOPICS","Forumthemen");
-define('_MD_FORUMOPTION', 'Forumoptionen');
+define('_MD_FORUMOPTION','Forumoptionen');
 
 define('_MD_VAUP','Zeige alle unbeantworteten Beiträge');
 define('_MD_VANP','Zeige alle neuen Beiträge');
@@ -177,12 +177,12 @@ define('_MD_AIM','AIM');
 define('_MD_YIM','YIM');
 define('_MD_MSNM','MSNM');
 define('_MD_ICQ','ICQ');
-define('_MD_PRINT_TOPIC_LINK', 'URL für dieses Thema');
+define('_MD_PRINT_TOPIC_LINK','URL für dieses Thema');
 define('_MD_ADDTOLIST','Zur Kontaktliste hinzufügen');
-define('_MD_TOPICOPT', 'Themenoptionen');
-define('_MD_VIEWMODE', 'Anzeigemodus');
-define('_MD_NEWEST', 'Aktuelleste zuerst');
-define('_MD_OLDEST', 'Älteste zuerst');
+define('_MD_TOPICOPT','Themenoptionen');
+define('_MD_VIEWMODE','Anzeigemodus');
+define('_MD_NEWEST','Aktuelleste zuerst');
+define('_MD_OLDEST','Älteste zuerst');
 
 define('_MD_FORUMSEARCH','Forum durchsuchen');
 
@@ -197,8 +197,8 @@ define('_MD_RATE4','Gut');
 define('_MD_RATE5','Sehr gut');
 
 define('_MD_TOPICOPTION','Themenoptionen');
-define('_MD_KARMA_REQUIREMENT', 'Das persönliche Karma %s ist nicht ausreichend für das benötigte Karma von %s. <br /> Bitte später nochmals versuchen.');
-define('_MD_REPLY_REQUIREMENT', 'Um diesen Beitrag lesen zu können, bitte einloggen und eine Antwort erstellen.');
+define('_MD_KARMA_REQUIREMENT','Das persönliche Karma %s ist nicht ausreichend für das benötigte Karma von %s. <br /> Bitte später nochmals versuchen.');
+define('_MD_REPLY_REQUIREMENT','Um diesen Beitrag lesen zu können, bitte einloggen und eine Antwort erstellen.');
 define('_MD_TOPICOPTIONADMIN','Thema Admin Optionen');
 define('_MD_POLLOPTIONADMIN','Umfrage Admin Optionen');
 
@@ -288,7 +288,7 @@ define('_MD_DOSMILEY','Smilies aktivieren');
 define('_MD_DOXCODE','XOOPS-Code aktivieren');
 define('_MD_DOBR','Zeilenvorschub einschalten (Ausschalten, wenn HTML eingeschaltet ist)');
 define('_MD_DOHTML','HTML aktivieren');
-define('_MD_NEWPOSTNOTIFY', 'Benachrichtigen bei neuen Beiträgen in diesem Thema');
+define('_MD_NEWPOSTNOTIFY','Benachrichtigen bei neuen Beiträgen in diesem Thema');
 define('_MD_ATTACHSIG','Signatur anhängen');
 define('_MD_POST','Veröffentlichen');
 define('_MD_SUBMIT','Abschicken');
@@ -354,13 +354,13 @@ define('_MD_FROM','Aus:');
 define('_MD_JOINED','Registriert seit');
 define('_MD_ONLINE','Online');
 define('_MD_OFFLINE','Offline');
-define('_MD_FLAT', 'Flach');
+define('_MD_FLAT','Flach');
 
 
 // online.php
-define('_MD_USERS_ONLINE', 'Besucher online:');
-define('_MD_ANONYMOUS_USERS', 'Anonyme(r)');
-define('_MD_REGISTERED_USERS', 'Mitglied(er): ');
+define('_MD_USERS_ONLINE','Besucher online:');
+define('_MD_ANONYMOUS_USERS','Anonyme(r)');
+define('_MD_REGISTERED_USERS','Mitglied(er): ');
 define('_MD_BROWSING_FORUM','Besucher sind im Forum');
 define('_MD_TOTAL_ONLINE','Insgesamt %d Besucher online.');
 define('_MD_ADMINISTRATOR','Administrator');
@@ -369,10 +369,10 @@ define('_MD_NO_SUCH_FILE','Datei existiert nicht!');
 define('_MD_ERROR_UPATEATTACHMENT','Ein Fehler ist beim Aktualisieren der Dateianhänge aufgetreten');
 
 // ratethread.php
-define("_MD_CANTVOTEOWN", "Es darf nicht für die eigenen Themen abgestimmt werden..<br />Alle Stimmen werden aufgezeichnet und überprüft.");
-define("_MD_VOTEONCE", "Bitte nicht mehrfach für das gleiche Thema abstimmen.");
-define("_MD_VOTEAPPRE", "Ihre Bewertung ist willkommen.");
-define("_MD_THANKYOU", "Danke, für den Zeitaufwand auf %s abzustimmen."); // %s is your site name
+define("_MD_CANTVOTEOWN","Es darf nicht für die eigenen Themen abgestimmt werden..<br />Alle Stimmen werden aufgezeichnet und überprüft.");
+define("_MD_VOTEONCE","Bitte nicht mehrfach für das gleiche Thema abstimmen.");
+define("_MD_VOTEAPPRE","Ihre Bewertung ist willkommen.");
+define("_MD_THANKYOU","Danke, für den Zeitaufwand auf %s abzustimmen."); // %s is your site name
 define("_MD_VOTES","Stimmen");
 define("_MD_NOVOTERATE","Dieses Thema noch nicht bewertet.");
 
@@ -380,37 +380,37 @@ define("_MD_NOVOTERATE","Dieses Thema noch nicht bewertet.");
 // polls.php
 define("_MD_POLL_DBUPDATED","Datenbank wurde erfolgreich aktualisiert!");
 define("_MD_POLL_POLLCONF","Umfragekonfiguration");
-define("_MD_POLL_POLLSLIST", "Umfragenliste");
-define("_MD_POLL_AUTHOR", "Autor dieser Umfrage");
-define("_MD_POLL_DISPLAYBLOCK", "Im Block anzeigen?");
-define("_MD_POLL_POLLQUESTION", "Umfragetitel");
-define("_MD_POLL_VOTERS", "Insgesamt haben abgestimmt");
-define("_MD_POLL_VOTES", "Stimmen insgesamt");
-define("_MD_POLL_EXPIRATION", "Ablaufdatum");
-define("_MD_POLL_EXPIRED", "Abgelaufen");
+define("_MD_POLL_POLLSLIST","Umfragenliste");
+define("_MD_POLL_AUTHOR","Autor dieser Umfrage");
+define("_MD_POLL_DISPLAYBLOCK","Im Block anzeigen?");
+define("_MD_POLL_POLLQUESTION","Umfragetitel");
+define("_MD_POLL_VOTERS","Insgesamt haben abgestimmt");
+define("_MD_POLL_VOTES","Stimmen insgesamt");
+define("_MD_POLL_EXPIRATION","Ablaufdatum");
+define("_MD_POLL_EXPIRED","Abgelaufen");
 define("_MD_POLL_VIEWLOG","Logs anzeigen");
-define("_MD_POLL_CREATNEWPOLL", "Neue Umfrage erstellen");
-define("_MD_POLL_POLLDESC", "Umfragebeschreibung");
-define("_MD_POLL_DISPLAYORDER", "Position");
-define("_MD_POLL_ALLOWMULTI", "Darf mehr als eine Stimme abgegeben werden?");
-define("_MD_POLL_NOTIFY", "Den Umfrageautor nach Ablauf der Umfrage benachrichtigen?");
-define("_MD_POLL_POLLOPTIONS", "Optionen");
-define("_MD_POLL_EDITPOLL", "Umfrage bearbeiten");
-define("_MD_POLL_FORMAT", "Format: yyyy-mm-dd hh:mm:ss");
-define("_MD_POLL_CURRENTTIME", "Aktuelle Uhrzeit ist %s");
-define("_MD_POLL_EXPIREDAT", "Abgelaufen am %s");
-define("_MD_POLL_RESTART", "Diese Umfrage neu starten");
-define("_MD_POLL_ADDMORE", "Mehr Optionen hinzufügen");
-define("_MD_POLL_RUSUREDEL", "Sicher das diese Abstimmung und alle damit verbundenen Kommentare gelöscht werden sollen?");
-define("_MD_POLL_RESTARTPOLL", "Umfrage neu starten");
-define("_MD_POLL_RESET", "Neustarten der Logs für diese Umfrage?");
+define("_MD_POLL_CREATNEWPOLL","Neue Umfrage erstellen");
+define("_MD_POLL_POLLDESC","Umfragebeschreibung");
+define("_MD_POLL_DISPLAYORDER","Position");
+define("_MD_POLL_ALLOWMULTI","Darf mehr als eine Stimme abgegeben werden?");
+define("_MD_POLL_NOTIFY","Den Umfrageautor nach Ablauf der Umfrage benachrichtigen?");
+define("_MD_POLL_POLLOPTIONS","Optionen");
+define("_MD_POLL_EDITPOLL","Umfrage bearbeiten");
+define("_MD_POLL_FORMAT","Format: yyyy-mm-dd hh:mm:ss");
+define("_MD_POLL_CURRENTTIME","Aktuelle Uhrzeit ist %s");
+define("_MD_POLL_EXPIREDAT","Abgelaufen am %s");
+define("_MD_POLL_RESTART","Diese Umfrage neu starten");
+define("_MD_POLL_ADDMORE","Mehr Optionen hinzufügen");
+define("_MD_POLL_RUSUREDEL","Sicher das diese Abstimmung und alle damit verbundenen Kommentare gelöscht werden sollen?");
+define("_MD_POLL_RESTARTPOLL","Umfrage neu starten");
+define("_MD_POLL_RESET","Neustarten der Logs für diese Umfrage?");
 define("_MD_POLL_ADDPOLL","Umfrage hinzufügen");
 define("_MD_POLLMODULE_ERROR","Das Umfrage Modul steht nicht zur Verfügung");
 
 //report.php
-define("_MD_REPORTED", "Danke für die Meldung dieses Beitrags/Themas! Ein Moderator wird sich in Kürze dieser Meldung annehmen.");
-define("_MD_REPORT_ERROR", "Ein Fehler ist aufgetreten beim Versenden der Meldung.");
-define("_MD_REPORT_TEXT", "Meldungstext:");
+define("_MD_REPORTED","Danke für die Meldung dieses Beitrags/Themas! Ein Moderator wird sich in Kürze dieser Meldung annehmen.");
+define("_MD_REPORT_ERROR","Ein Fehler ist aufgetreten beim Versenden der Meldung.");
+define("_MD_REPORT_TEXT","Meldungstext:");
 
 define("_MD_PDF","Erstelle PDF des Beitrags");
 define("_MD_PDF_PAGE","Seite %s");
@@ -457,20 +457,20 @@ define("_MD_TYPE_PENDING","Wartend");
 define("_MD_TYPE_DELETED","Gelöscht");
 define("_MD_TYPE_SUSPEND","Gesperrt");
 
-define("_MD_DBUPDATED", "Datenbank Update war erfolgreich!");
+define("_MD_DBUPDATED","Datenbank Update war erfolgreich!");
 
-define("_MD_SUSPEND_SUBJECT", "Benutzer %s ist für %d Tage gesperrt");
-define("_MD_SUSPEND_TEXT", "Benutzer %s ist für %d Tage gesperrt. Grund:<br />[quote]%s[/quote]<br /><br />Die Sperrung ist bis %s gültig");
-define("_MD_SUSPEND_UID", "Benutzer ID");
-define("_MD_SUSPEND_IP", "IP Segmente (voll oder nur Segmente)");
-define("_MD_SUSPEND_DURATION", "Dauer der Sperrung (Tage)");
-define("_MD_SUSPEND_DESC", "Grund der Sperrung");
-define("_MD_SUSPEND_LIST", "Liste der Sperrung");
-define("_MD_SUSPEND_START", "Start");
-define("_MD_SUSPEND_EXPIRE", "Ende");
-define("_MD_SUSPEND_SCOPE", "Bereich");
-define("_MD_SUSPEND_MANAGEMENT", "Moderation Management");
-define("_MD_SUSPEND_NOACCESS", "Zutritt verboten. Die ID oder IP wurde gesperrt");
+define("_MD_SUSPEND_SUBJECT","Benutzer %s ist für %d Tage gesperrt");
+define("_MD_SUSPEND_TEXT","Benutzer %s ist für %d Tage gesperrt. Grund:<br />[quote]%s[/quote]<br /><br />Die Sperrung ist bis %s gültig");
+define("_MD_SUSPEND_UID","Benutzer ID");
+define("_MD_SUSPEND_IP","IP Segmente (voll oder nur Segmente)");
+define("_MD_SUSPEND_DURATION","Dauer der Sperrung (Tage)");
+define("_MD_SUSPEND_DESC","Grund der Sperrung");
+define("_MD_SUSPEND_LIST","Liste der Sperrung");
+define("_MD_SUSPEND_START","Start");
+define("_MD_SUSPEND_EXPIRE","Ende");
+define("_MD_SUSPEND_SCOPE","Bereich");
+define("_MD_SUSPEND_MANAGEMENT","Moderation Management");
+define("_MD_SUSPEND_NOACCESS","Zutritt verboten. Die ID oder IP wurde gesperrt");
 
 define('_MD_TODAYTOPICSC','Heutige Themen: ');
 define('_MD_TODAYPOSTSC','Heutige Postings: ');

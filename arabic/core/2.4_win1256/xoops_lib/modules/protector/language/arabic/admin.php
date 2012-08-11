@@ -2,69 +2,69 @@
 
 // mymenu
 define('_MD_A_MYMENU_MYTPLSADMIN','');
-define('_MD_A_MYMENU_MYBLOCKSADMIN','ÇáÊÕÇÑíÍ');
-define('_MD_A_MYMENU_MYPREFERENCES','ÇáÊÕÇÑíÍ');
+define('_MD_A_MYMENU_MYBLOCKSADMIN','ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½');
+define('_MD_A_MYMENU_MYPREFERENCES','ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½');
 
 // index.php
-define("_AM_TH_DATETIME","ÇáæÞÊ");
-define("_AM_TH_USER","ÇáÚÖæ");
-define("_AM_TH_IP","ÇáÇíÈí");
-define("_AM_TH_AGENT","ÇáÚãíá");
-define("_AM_TH_TYPE","ÇáäæÚ");
-define("_AM_TH_DESCRIPTION","æÕÝ");
+define("_AM_TH_DATETIME","ï¿½ï¿½ï¿½ï¿½ï¿½");
+define("_AM_TH_USER","ï¿½ï¿½ï¿½ï¿½ï¿½");
+define("_AM_TH_IP","ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
+define("_AM_TH_AGENT","ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
+define("_AM_TH_TYPE","ï¿½ï¿½ï¿½ï¿½ï¿½");
+define("_AM_TH_DESCRIPTION","ï¿½ï¿½ï¿½");
 
-define( "_AM_TH_BADIPS" , 'ÇÑÞÇã ÇáÇíÈí ÇáÓíÆÉ<br /><br /><span style="font-weight:normal;">ÇßÊÈ ßá ÑÞã ÇíÈí Ýí ÓØÑ<br />ÇÊÑßå ÝÇÑÛÇ Çä ÑÛÈÊ ÈÚÏã ãäÚ Çí ÔÎÕ</span>' ) ;
+define("_AM_TH_BADIPS" , 'ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½<br /><br /><span style="font-weight:normal;">ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½<br />ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½</span>' ) ;
 
-define( "_AM_TH_GROUP1IPS" , 'ÇíÈí ÇáãÍãæÚÇÊ ÇáãÕÑÍ áåÇ  ÑÞã ÇáãÌãæÚÉ ãËáÇ=1<br /><br /><span style="font-weight:normal;">Þã ÈßÊÇÈÉ ßá ÇíÈí ÈÓØÑ<br />192.168. means 192.168.*<br />ÇÊÑßå ÝÇÑÛÇ Çä ÑÛÈÊ  ÈÇáÓãÇÍ ááßá ÈÇáÏÎæá ááãæÞÚ</span>' ) ;
+define("_AM_TH_GROUP1IPS" , 'ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½  ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½=1<br /><br /><span style="font-weight:normal;">ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½<br />192.168. means 192.168.*<br />ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½  ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</span>' ) ;
 
-define('_AM_LABEL_COMPACTLOG','ÍÐÝ ÝÞØ ÇáÓÌá ÇáãÊßÑÑ ááÇíÈí æÇáäæÚ');
-define('_AM_BUTTON_COMPACTLOG','ÍÐÝ ÇáãÊßÑÑ');
-define('_AM_JS_COMPACTLOGCONFIRM','ÍÐÝ ÇáÓÌáÇÊ ÇáÊí ÊÍÊæí ÊßÑÇÑ ÈäÝÓ ÇáÇíÈí');
-define('_AM_LABEL_REMOVEALL','ÍÐÝ ßá ÇáÓÌáÇÊ');
-define('_AM_BUTTON_REMOVEALL','ÍÐÝ Çáßá¿');
-define('_AM_JS_REMOVEALLCONFIRM','ÓíÊã ÍÐÝ ßá ÇáÓÌáÇÊ¿ ');
-define( "_AM_LABEL_REMOVE" , "ÍÐÝ ÇáÓÌáÇÊ ÇáãÎÊÇÑÉ:" ) ;
-define( "_AM_BUTTON_REMOVE" , "ÍÐÝ" ) ;
-define( "_AM_JS_REMOVECONFIRM" , "åá ÊÑÛÈ ÈÇáÍÐÝ" ) ;
-define( "_AM_MSG_IPFILESUPDATED" , "Êã ÊÍÏíË ÈíäÇÊÇ ÇáÇíÈíåÇÊ" ) ;
-define( "_AM_MSG_BADIPSCANTOPEN" , "áÇíãßä ÝÊÍ ãáÝ ÇáÇíÈíåÇÊ ÇáÓíÆÉ" ) ;
-define( "_AM_MSG_GROUP1IPSCANTOPEN" , "ãáÝ ÇáãÌãæÚÉ=1 áÇíãßä ÝÊÍÉ" ) ;
-define( "_AM_MSG_REMOVED" , "Êã ÍÐÝ ÇáÓÌá" ) ;
-define('_AM_FMT_CONFIGSNOTWRITABLE','ÇÚØ ãáÝ ÇáßæäÝÌ ÇáÊÕÑíÍ 777: %s');
+define('_AM_LABEL_COMPACTLOG','ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½');
+define('_AM_BUTTON_COMPACTLOG','ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½');
+define('_AM_JS_COMPACTLOGCONFIRM','ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½');
+define('_AM_LABEL_REMOVEALL','ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½');
+define('_AM_BUTTON_REMOVEALL','ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½');
+define('_AM_JS_REMOVEALLCONFIRM','ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê¿ ');
+define("_AM_LABEL_REMOVE" , "ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½:" ) ;
+define("_AM_BUTTON_REMOVE" , "ï¿½ï¿½ï¿½" ) ;
+define("_AM_JS_REMOVECONFIRM" , "ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½" ) ;
+define("_AM_MSG_IPFILESUPDATED" , "ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½" ) ;
+define("_AM_MSG_BADIPSCANTOPEN" , "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½" ) ;
+define("_AM_MSG_GROUP1IPSCANTOPEN" , "ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½=1 ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½" ) ;
+define("_AM_MSG_REMOVED" , "ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½" ) ;
+define('_AM_FMT_CONFIGSNOTWRITABLE','ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ 777: %s');
 
 
 // prefix_manager.php
-define( "_AM_H3_PREFIXMAN" , "ÇÏÇÑÉ ÌÏæá ÞÇÚÏÉ ÇáÈíÇäÇÊ" ) ;
-define( "_AM_MSG_DBUPDATED" , "Êã ÊÍÏíË ÞÇÚÏÉ ÇáÈíÇäÇÊ" ) ;
-define( "_AM_CONFIRM_DELETE" , "ÓíÊã ÇÝÑÛ ÌãíÚ ãÍÊæíÇÊ ÇáÞÇÚÏ . äÚã ¿" ) ;
-define( "_AM_TXT_HOWTOCHANGEDB" , "ÇÐ ÑÛÈÊ ÈÊÛííÑ ÇáÇÓã ÇáÇæá áÌÏÇæá ÞÇÚÏÉ ÇáÈíÇäÇÊ<br /> Þã ÈÊÚÏíá %s/mainfile.php ÇáãáÝ  ßãÇ Ýí ÇáÇÓÝá<br /><br />define('XOOPS_DB_PREFIX', '<b>%s</b>');" ) ;
+define("_AM_H3_PREFIXMAN" , "ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½" ) ;
+define("_AM_MSG_DBUPDATED" , "ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½" ) ;
+define("_AM_CONFIRM_DELETE" , "ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ . ï¿½ï¿½ï¿½ ï¿½" ) ;
+define("_AM_TXT_HOWTOCHANGEDB" , "ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½<br /> ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ %s/mainfile.php ï¿½ï¿½ï¿½ï¿½ï¿½  ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½<br /><br />define('XOOPS_DB_PREFIX','<b>%s</b>');" ) ;
 
 
 // advisory.php
-define("_AM_ADV_NOTSECURE","ÛíÑ   Âãöäþ");
+define("_AM_ADV_NOTSECURE","ï¿½ï¿½ï¿½   ï¿½ï¿½ï¿½ï¿½ï¿½");
 
 define("_AM_ADV_TRUSTPATHPUBLIC","If you can look an image -NG- or the link returns normal page, your XOOPS_TRUST_PATH is not placed properly. The best place for XOOPS_TRUST_PATH is outside of DocumentRoot. If you cannot do that, you have to put .htaccess (DENY FROM ALL) just under XOOPS_TRUST_PATH as the second best way.");
 define("_AM_ADV_TRUSTPATHPUBLICLINK","Check php files inside TRUST_PATH are private (it must be 404,403 or 500 error");
-define("_AM_ADV_REGISTERGLOBALS","åÐÇ æÖÚ íÏÚæ Çáì ÍÞä ãÌãæÚÉ ãä ÇáåÌãÇÊ .<br />Þã ÈÚãá ãáÝ .htaccess, Çæ ÊÚÏíá..");
-define("_AM_ADV_ALLOWURLFOPEN","åÐÇ ÇáæÖÚ íÓãÍ ááãåÇÌãíä  ÈãåÇÌãÉ ãÒæÏ ÇáÎÏãÉ Çí ãÓÊÖíÝ ÇáãæÞÚ æÛÇáÈÇ íÌÈ Úáì ÇáãÓÊÖíÝ ÊÚØíáÉ<br />ÑÇÓá ãÓÊÖíÝß áÊÚØíá åÐÇ ÇáÇãÑ<br />Çæ Çä ßäÊ Êãáß ÎÇÕÉ ÇáÏÎæá áãáÝ httpd.conf.<br /><b>Ýíãßäß ÊÚØíá ÇáÇãÑ ãä Ðáß ÇáãáÝ<br /> &nbsp; php_admin_flag &nbsp; allow_url_fopen &nbsp; off</b><br />ÇÐ áã ÊäÌÍ ÈÊÚØíá Çí ãä åÐÉ ÑÇÌÚ ãÓÊÖíÝß");
-define("_AM_ADV_USETRANSSID","áÊÚØíá ÍÐÝ ÇáßæßíÒ ÇáÎÇÕ ÈÍÓÇÈß <br />áãäÚ ÇáÍÞä æÓÑÞÉ ÇáßæßíÑ Þã ÈÊÚÏíá ãáÝ .htaccess Ýí XOOPS_ROOT_PATH.<br /><b>php_flag session.use_trans_sid off</b>");
-define("_AM_ADV_DBPREFIX","ãäÚ ÇáÍÞä æÇáÊÛííÑ Ýí ÇÚÏÇÏÊ ÞÇÚÏÉ ÇáÈíÇäÇÊ<br />áÇÊäÓí ÈÊÝÚíá ÇáÎíÇÑ'Force sanitizing *' Ýí ÞÇÆãÉ ÇáÇÚÏÇÏÇÊ ááãæÏíá");
-define("_AM_ADV_LINK_TO_PREFIXMAN","ÇÐåÈ áÇÏÇÑÉ ÌÏæá ÞÇÚÏÉ ÇáÈíÇäÇÊ");
-define("_AM_ADV_MAINUNPATCHED","íÌÈ ÊÚÏíá ãáÝ mainfile.php ßãÇ Êã ÊæÖíÍÉ Ýí ãáÝ ÇÞÑÇäí");
+define("_AM_ADV_REGISTERGLOBALS","ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ .<br />ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ .htaccess, ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½..");
+define("_AM_ADV_ALLOWURLFOPEN","ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½  ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½<br />ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½<br />ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ httpd.conf.<br /><b>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½<br /> &nbsp; php_admin_flag &nbsp; allow_url_fopen &nbsp; off</b><br />ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
+define("_AM_ADV_USETRANSSID","ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ <br />ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ .htaccess ï¿½ï¿½ XOOPS_ROOT_PATH.<br /><b>php_flag session.use_trans_sid off</b>");
+define("_AM_ADV_DBPREFIX","ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½<br />ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½'Force sanitizing *' ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
+define("_AM_ADV_LINK_TO_PREFIXMAN","ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
+define("_AM_ADV_MAINUNPATCHED","ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ mainfile.php ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
 define("_AM_ADV_DBFACTORYPATCHED","Your databasefactory is ready for DBLayer Trapping anti-SQL-Injection");
 define("_AM_ADV_DBFACTORYUNPATCHED","Your databasefactory is not ready for DBLayer Trapping anti-SQL-Injection. Some patches are required.");
 
-define("_AM_ADV_SUBTITLECHECK","ÊÝÍÕ ÇÐ ßÇä ÇáÈÑäÇãÌ íÚãá");
-define("_AM_ADV_CHECKCONTAMI","ÊáæË ");
-define("_AM_ADV_CHECKISOCOM","ÊÚáíÞÇÊ ãÊÝÑÞÉ");
+define("_AM_ADV_SUBTITLECHECK","ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½");
+define("_AM_ADV_CHECKCONTAMI","ï¿½ï¿½ï¿½ï¿½ ");
+define("_AM_ADV_CHECKISOCOM","ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
 
 // Localization by ezsky
-define("_AM_EZ_PREFIX", "ÈÇÏÆÉ ÇáÌÏæá");
-define("_AM_EZ_TABLES", "ÇáÌÏÇæá");
-define("_AM_EZ_UPDATED", "ÊÍÏíË");
-define("_AM_EZ_COPY", "äÓÎ");
-define("_AM_EZ_ACTIONS", "ÇáÅÌÑÇÁÇÊ");
-define("_AM_EZ_BACKUP", "äÓÎ ÅÍÊíÇØí");
-define("_AM_EZ_DELETE", "ÍÐÝ");
+define("_AM_EZ_PREFIX","ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
+define("_AM_EZ_TABLES","ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
+define("_AM_EZ_UPDATED","ï¿½ï¿½ï¿½ï¿½ï¿½");
+define("_AM_EZ_COPY","ï¿½ï¿½ï¿½");
+define("_AM_EZ_ACTIONS","ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
+define("_AM_EZ_BACKUP","ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
+define("_AM_EZ_DELETE","ï¿½ï¿½ï¿½");
 
 ?>

@@ -143,8 +143,8 @@ define('_MI_EXTGAL_SOCIAL_DESC',"You can use Social network and bookmark icone f
 define('_MI_EXTGAL_NONE',"None");
 define('_MI_EXTGAL_SOCIALNETWORM',"Social Networks");
 define('_MI_EXTGAL_BOOKMARK',"Bookmark me");
-define('_MI_EXTGAL_TAG', 'Use TAG module to generate tags');
-define('_MI_EXTGAL_TAG_DESC', 'You have to install TAG module in order to use this option');
+define('_MI_EXTGAL_TAG','Use TAG module to generate tags');
+define('_MI_EXTGAL_TAG_DESC','You have to install TAG module in order to use this option');
 define('_MI_EXTGAL_SHOW_RSS',"Show RSS icon");
 define('_MI_EXTGAL_SHOW_RSS_DESC',"Shows-hides RSS icon in module");
 define('_MI_EXTGAL_PERPAGEـRSS',"RSS number of photos");

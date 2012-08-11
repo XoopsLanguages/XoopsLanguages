@@ -26,7 +26,7 @@ defined('XOOPS_ROOT_PATH') or die('Restricted access');
 // _CHARSET : ISO-8859-2
 // Translator: saba
 
-define('_XO_ER_FILENOTFOUND', 'Tra&#382;eni podatak: <b>%s</b> nije prona&#273;en ');
-define('_XO_ER_CLASSNOTFOUND', 'Tra&#382;ena class-a %s nije prona&#273;ena');
+define('_XO_ER_FILENOTFOUND','Tra&#382;eni podatak: <b>%s</b> nije prona&#273;en ');
+define('_XO_ER_CLASSNOTFOUND','Tra&#382;ena class-a %s nije prona&#273;ena');
 
 ?>

@@ -23,15 +23,15 @@
  * Site: http://xoops.foreach.fr                                              *
  *----------------------------------------------------------------------------*/
 // Link
-define('_MM_CONTENT_NEXT', 'صفحه بعدی');
-define('_MM_CONTENT_PREV', 'صفحه قبلی');
-define('_MM_CONTENT_EDIT', 'ویرایش صفحه');
-define('_MM_CONTENT_DELETE', 'حذف صفحه');
-define('_MM_CONTENT_PRINT', 'چاپ صفحه');
+define('_MM_CONTENT_NEXT','صفحه بعدی');
+define('_MM_CONTENT_PREV','صفحه قبلی');
+define('_MM_CONTENT_EDIT','ویرایش صفحه');
+define('_MM_CONTENT_DELETE','حذف صفحه');
+define('_MM_CONTENT_PRINT','چاپ صفحه');
 // Pdf
-define('_MM_CONTENT_AUTHOR', 'سازنده: ');
-define('_MM_CONTENT_DATE', 'تاریخ انتشار: ');
+define('_MM_CONTENT_AUTHOR','سازنده: ');
+define('_MM_CONTENT_DATE','تاریخ انتشار: ');
 // Main message
-define('_MM_CONTENT_ERRORDEFAULT', 'شما صفحه اصلی را مشخص نکرده اید');
-define('_MM_CONTENT_ERRORNOPAGE', 'شما هیچ صفحه ای نساخته اید'); 
+define('_MM_CONTENT_ERRORDEFAULT','شما صفحه اصلی را مشخص نکرده اید');
+define('_MM_CONTENT_ERRORNOPAGE','شما هیچ صفحه ای نساخته اید'); 
 ?>

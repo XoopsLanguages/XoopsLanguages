@@ -334,7 +334,7 @@ if (file_exists('./xoops_version.php')) {
             exit();
         }
     }
-    xoops_loadLanguage('main', $xoopsModule->getVar('dirname', 'n'));
+    xoops_loadLanguage('main', $xoopsModule->getVar('dirname','n'));
     if ($xoopsModule->getVar('hasconfig') == 1 || $xoopsModule->getVar('hascomments') == 1 || $xoopsModule->getVar( 'hasnotification' ) == 1) {
         $xoopsModuleConfig = $config_handler->getConfigsByCat(0, $xoopsModule->getVar('mid'));
     }

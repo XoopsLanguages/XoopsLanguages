@@ -1,42 +1,42 @@
 <?php
 
 // mymenu
-define( "_MD_A_MYMENU_MYTPLSADMIN","");
-define( "_MD_A_MYMENU_MYBLOCKSADMIN","Tillatelser"); 
-define( "_MD_A_MYMENU_MYPREFERENCES","Innstillinger");
+define("_MD_A_MYMENU_MYTPLSADMIN","");
+define("_MD_A_MYMENU_MYBLOCKSADMIN","Tillatelser"); 
+define("_MD_A_MYMENU_MYPREFERENCES","Innstillinger");
 
 // index.php
-define( "_AM_TH_DATETIME", "Tid"); 
-define( "_AM_TH_USER", "Bruker"); 
-define( "_AM_TH_IP", "IP"); 
-define( "_AM_TH_AGENT", "agent"); 
-define( "_AM_TH_TYPE", "type"); 
-define( "_AM_TH_DESCRIPTION", "Beskrivelse");
+define("_AM_TH_DATETIME","Tid"); 
+define("_AM_TH_USER","Bruker"); 
+define("_AM_TH_IP","IP"); 
+define("_AM_TH_AGENT","agent"); 
+define("_AM_TH_TYPE","type"); 
+define("_AM_TH_DESCRIPTION","Beskrivelse");
 
-define( "_AM_TH_BADIPS" , 'Skadelige IP-adresser<br /><br /><span style="font-weight:normal;">Skriv hver IP-adresse på en linje<br />blank= alle IP-adresser er er tillatte</span>' ) ;
+define("_AM_TH_BADIPS" , 'Skadelige IP-adresser<br /><br /><span style="font-weight:normal;">Skriv hver IP-adresse på en linje<br />blank= alle IP-adresser er er tillatte</span>' ) ;
 
-define( "_AM_TH_GROUP1IPS" , 'Tillatte IP-adresser for gruppe=1<br /><br /><span style="font-weight:normal;">Skriv hver IP-adresse på en linje.<br />192.168. er er lig 192.168.*<br />blank= alle IP-adresser er er tillatte</span>' ) ;
+define("_AM_TH_GROUP1IPS" , 'Tillatte IP-adresser for gruppe=1<br /><br /><span style="font-weight:normal;">Skriv hver IP-adresse på en linje.<br />192.168. er er lig 192.168.*<br />blank= alle IP-adresser er er tillatte</span>' ) ;
 
-define( "_AM_LABEL_COMPACTLOG" , "Kompakt logg" ) ;
-define( "_AM_BUTTON_COMPACTLOG" , "Gjør den kompakt!" ) ;
-define( "_AM_JS_COMPACTLOGCONFIRM" , "Duplikerede (IP-adresser, type) vil bli fjernet" ) ;
-define( "_AM_LABEL_REMOVEALL","Fjern alle poster"); 
-define( "_AM_BUTTON_REMOVEALL","Fjern alle!");
-define( "_AM_JS_REMOVEALLCONFIRM", "Alle loggfiler fjernes helt. Er det virkelig OK?"); 
-define( "_AM_LABEL_REMOVE", "Fjern alle markerte records:"); 
-define( "_AM_BUTTON_REMOVE" , "Fjern!" ) ;
-define( "_AM_JS_REMOVECONFIRM" , "OK at fjerne?" ) ;
-define( "_AM_MSG_IPFILESUPDATED" , "Filer til IP-adresser er blitt oppdatert" ) ;
-define( "_AM_MSG_BADIPSCANTOPEN" , "Filen for slemme IP-adresser kan ikke nås" ) ;
-define( "_AM_MSG_GROUP1IPSCANTOPEN" , "Den fil som inneholder tillatte IP-adresser for gruppe=1 kan ikke åpnes" ) ;
-define( "_AM_MSG_REMOVED" , "Records er fjernet" ) ;
-define( "_AM_FMT_CONFIGSNOTWRITABLE" , "Gjør configs-mappen skrivbar: %s" ) ;
+define("_AM_LABEL_COMPACTLOG" , "Kompakt logg" ) ;
+define("_AM_BUTTON_COMPACTLOG" , "Gjør den kompakt!" ) ;
+define("_AM_JS_COMPACTLOGCONFIRM" , "Duplikerede (IP-adresser, type) vil bli fjernet" ) ;
+define("_AM_LABEL_REMOVEALL","Fjern alle poster"); 
+define("_AM_BUTTON_REMOVEALL","Fjern alle!");
+define("_AM_JS_REMOVEALLCONFIRM","Alle loggfiler fjernes helt. Er det virkelig OK?"); 
+define("_AM_LABEL_REMOVE","Fjern alle markerte records:"); 
+define("_AM_BUTTON_REMOVE" , "Fjern!" ) ;
+define("_AM_JS_REMOVECONFIRM" , "OK at fjerne?" ) ;
+define("_AM_MSG_IPFILESUPDATED" , "Filer til IP-adresser er blitt oppdatert" ) ;
+define("_AM_MSG_BADIPSCANTOPEN" , "Filen for slemme IP-adresser kan ikke nås" ) ;
+define("_AM_MSG_GROUP1IPSCANTOPEN" , "Den fil som inneholder tillatte IP-adresser for gruppe=1 kan ikke åpnes" ) ;
+define("_AM_MSG_REMOVED" , "Records er fjernet" ) ;
+define("_AM_FMT_CONFIGSNOTWRITABLE" , "Gjør configs-mappen skrivbar: %s" ) ;
 
 // prefix_manager.php
-define( "_AM_H3_PREFIXMAN" , "Prefiks vedlikehold" ) ;
-define( "_AM_MSG_DBUPDATED" , "Databasen oppdatert uten feil!");
-define( "_AM_CONFIRM_DELETE" , "Alle data vil bli slettet. OK?" ) ;
-define( "_AM_TXT_HOWTOCHANGEDB" , "Hvis du ønsker å endre prefiks,<br /> skal du redigere %s/mainfile.php manuelt.<br /><br />define('XOOPS_DB_PREFIX', '<b>%s</b>');" ) ;
+define("_AM_H3_PREFIXMAN" , "Prefiks vedlikehold" ) ;
+define("_AM_MSG_DBUPDATED" , "Databasen oppdatert uten feil!");
+define("_AM_CONFIRM_DELETE" , "Alle data vil bli slettet. OK?" ) ;
+define("_AM_TXT_HOWTOCHANGEDB" , "Hvis du ønsker å endre prefiks,<br /> skal du redigere %s/mainfile.php manuelt.<br /><br />define('XOOPS_DB_PREFIX','<b>%s</b>');" ) ;
 
 
 // advisory.php
@@ -55,12 +55,12 @@ define("_AM_ADV_CHECKISOCOM","Isolerte kommentarer");
 
 
 // Localization by ezsky
-define("_AM_EZ_PREFIX", "Prefiks");
-define("_AM_EZ_TABLES", "Tabeller");
-define("_AM_EZ_UPDATED", "Oppdatert");
-define("_AM_EZ_COPY", "Kopier");
-define("_AM_EZ_ACTIONS", "Handling");
-define("_AM_EZ_BACKUP", "Backup");
-define("_AM_EZ_DELETE", "Slett");
+define("_AM_EZ_PREFIX","Prefiks");
+define("_AM_EZ_TABLES","Tabeller");
+define("_AM_EZ_UPDATED","Oppdatert");
+define("_AM_EZ_COPY","Kopier");
+define("_AM_EZ_ACTIONS","Handling");
+define("_AM_EZ_BACKUP","Backup");
+define("_AM_EZ_DELETE","Slett");
 
 ?>

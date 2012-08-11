@@ -2,13 +2,13 @@
 // Translated to Persian By : www.irxoops.org version 1.30
 // form
 define('_HAPPY_LINUX_TITLE','عنوان');
-define('_HAPPY_LINUX_SAVE', 'ذخیره');
+define('_HAPPY_LINUX_SAVE','ذخیره');
 define('_HAPPY_LINUX_VISIT','بازدید');
 
 // page_frame
 define('_HAPPY_LINUX_THERE_ARE','<b>%s</b> مدرکدر پایگاه داده ها موجود است');
 define('_HAPPY_LINUX_NO_RECORD','هیچ مدرکی موجود نیست');
-define('_HAPPY_LINUX_ID_ASC', 'ID صعودی');
+define('_HAPPY_LINUX_ID_ASC','ID صعودی');
 define('_HAPPY_LINUX_ID_DESC','ID نزولی');
 
 // manage
@@ -29,16 +29,16 @@ define('_HAPPY_LINUX_HOME','خانه');
 define('_HAPPY_LINUX_MAIN','اصلی');
 define('_HAPPY_LINUX_ADDED','اضافه شد');
 define('_HAPPY_LINUX_DELETED','حذف شد');
-define('_HAPPY_LINUX_UPDATE', 'به روز کردن');
+define('_HAPPY_LINUX_UPDATE','به روز کردن');
 define('_HAPPY_LINUX_UPDATED','به روز شد');
 define('_HAPPY_LINUX_MODIFY',  'ویرایش');
 define('_HAPPY_LINUX_MODIFIED','ویرایش شد');
 define('_HAPPY_LINUX_SAVED','ذخیره شد');
 define('_HAPPY_LINUX_CLEAR',  'پاک کردن');
 define('_HAPPY_LINUX_CLEARED','پاک شد');
-define('_HAPPY_LINUX_EXECUTE', 'اجرا کردن');
+define('_HAPPY_LINUX_EXECUTE','اجرا کردن');
 define('_HAPPY_LINUX_EXECUTED','اجرا شد');
-define('_HAPPY_LINUX_CREATE', 'ساختن');
+define('_HAPPY_LINUX_CREATE','ساختن');
 define('_HAPPY_LINUX_CREATED','ساخته شد');
 define('_HAPPY_LINUX_SEARCH','جستجو');
 define('_HAPPY_LINUX_SHOW','نمایش');

@@ -21,7 +21,7 @@
  */
 define("_AM_MARQUEE_CONFIG","Scrollende teksten configuratie");
 define("_AM_MARQUEE_ID","ID");
-define("_AM_MARQUEE_GENERALSET", "Instellingen" );
+define("_AM_MARQUEE_GENERALSET","Instellingen" );
 define("_AM_MARQUEE_MODULEADMIN","Module's administratie");
 define("_AM_MARQUEE_DIRECTION","Richting");
 define("_AM_MARQUEE_BEHAVIOUR","Gedrag");

@@ -32,8 +32,8 @@ define("_MI_BD_MONTH_10","Oktober");
 define("_MI_BD_MONTH_11","November");
 define("_MI_BD_MONTH_12","Dezember");
 
-define ("_MI_BD_NEXTBD","Der n&auml;chste Geburtstag ist am ");
-define ("_MI_BD_OF"," von ");
+define("_MI_BD_NEXTBD","Der n&auml;chste Geburtstag ist am ");
+define("_MI_BD_OF"," von ");
 
 
 ?>

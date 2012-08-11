@@ -13,35 +13,35 @@ define("_AM_TH_AGENT","AGENT");
 define("_AM_TH_TYPE","종류");
 define("_AM_TH_DESCRIPTION","상세정보");
 
-define( "_AM_TH_BADIPS" , "금지 IP 리스트<br /><br />한줄에 하나씩 IP주소 기재하시기 바랍니다. 공백으로 두시면 모두 허가하게 됩니다." ) ;
-//define( "_AM_TH_ENABLEIPBANS" , "IP주소에 의한 접근금지를 사용함" ) ;
+define("_AM_TH_BADIPS" , "금지 IP 리스트<br /><br />한줄에 하나씩 IP주소 기재하시기 바랍니다. 공백으로 두시면 모두 허가하게 됩니다." ) ;
+//define("_AM_TH_ENABLEIPBANS" , "IP주소에 의한 접근금지를 사용함" ) ;
 
-define( "_AM_TH_GROUP1IPS" , '관리자 그룹(1) 허가 IP<br /><br />한줄에 하나씩 IP주소 기재하시기 바랍니다. 공백으로 두시면 모두 허가하게 됩니다.<br />192.168. means 192.168.*<br />blank means all IPs are allowed</span>' ) ;
+define("_AM_TH_GROUP1IPS" , '관리자 그룹(1) 허가 IP<br /><br />한줄에 하나씩 IP주소 기재하시기 바랍니다. 공백으로 두시면 모두 허가하게 됩니다.<br />192.168. means 192.168.*<br />blank means all IPs are allowed</span>' ) ;
 
-define( "_AM_LABEL_COMPACTLOG" , "로그를 컴팩트화" ) ;
-define( "_AM_BUTTON_COMPACTLOG" , "컴팩트화 실행" ) ;
-define( "_AM_JS_COMPACTLOGCONFIRM" , "중복된(IP,Type) 레코드를 삭제처리합니다." ) ;
-define( "_AM_LABEL_REMOVEALL" , "모든 레코드를 삭제:" ) ;
-define( "_AM_BUTTON_REMOVEALL" , "모두삭제 실행" ) ;
-define( "_AM_JS_REMOVEALLCONFIRM" , "모든 로그를 삭제처리합니다. 계속 하시겠습니까?" ) ;
+define("_AM_LABEL_COMPACTLOG" , "로그를 컴팩트화" ) ;
+define("_AM_BUTTON_COMPACTLOG" , "컴팩트화 실행" ) ;
+define("_AM_JS_COMPACTLOGCONFIRM" , "중복된(IP,Type) 레코드를 삭제처리합니다." ) ;
+define("_AM_LABEL_REMOVEALL" , "모든 레코드를 삭제:" ) ;
+define("_AM_BUTTON_REMOVEALL" , "모두삭제 실행" ) ;
+define("_AM_JS_REMOVEALLCONFIRM" , "모든 로그를 삭제처리합니다. 계속 하시겠습니까?" ) ;
 
-define( "_AM_LABEL_REMOVE" , "체크한 레코드를 삭제함:" ) ;
-define( "_AM_BUTTON_REMOVE" , "삭제실행" ) ;
-define( "_AM_JS_REMOVECONFIRM" , "정말로 삭제하실 건가요?" ) ;
-//define( "_AM_MSG_PRUPDATED" , "설정을 성공적으로 갱신하였습니다!" ) ;
-define( "_AM_MSG_REMOVED" , "삭제하였습니다." ) ;
+define("_AM_LABEL_REMOVE" , "체크한 레코드를 삭제함:" ) ;
+define("_AM_BUTTON_REMOVE" , "삭제실행" ) ;
+define("_AM_JS_REMOVECONFIRM" , "정말로 삭제하실 건가요?" ) ;
+//define("_AM_MSG_PRUPDATED" , "설정을 성공적으로 갱신하였습니다!" ) ;
+define("_AM_MSG_REMOVED" , "삭제하였습니다." ) ;
 
-define( "_AM_MSG_IPFILESUPDATED" , "IP 리스트파일을 갱신하였습니다." ) ;
-define( "_AM_MSG_BADIPSCANTOPEN" , "거부IP(bad ip)리스트파일을 열수가 없습니다." ) ;
-define( "_AM_MSG_GROUP1IPSCANTOPEN" , "관리자용IP 리스트파일을 열수가 없습니다." ) ;
-define( "_AM_FMT_CONFIGSNOTWRITABLE" , "configs 디렉토리를 쓰기가능으로 설정해 주세요!: %s" ) ;
+define("_AM_MSG_IPFILESUPDATED" , "IP 리스트파일을 갱신하였습니다." ) ;
+define("_AM_MSG_BADIPSCANTOPEN" , "거부IP(bad ip)리스트파일을 열수가 없습니다." ) ;
+define("_AM_MSG_GROUP1IPSCANTOPEN" , "관리자용IP 리스트파일을 열수가 없습니다." ) ;
+define("_AM_FMT_CONFIGSNOTWRITABLE" , "configs 디렉토리를 쓰기가능으로 설정해 주세요!: %s" ) ;
 
 
 // prefix_manager.php
-define( "_AM_H3_PREFIXMAN" , "접두어(Prefix) 관리자" ) ;
-define( "_AM_MSG_DBUPDATED" , "데이타베이스가 성공적으로 갱신되었습니다." ) ;
-define( "_AM_CONFIRM_DELETE" , "모든 테이블이 삭제됩니다. 계속하시겠습니까?" ) ;
-define( "_AM_TXT_HOWTOCHANGEDB" , "테이블 접두어(prefix)를 변경하실 경우는 <br />%s/mainfile.php 의 다음 부분을 직접 편집해주셔야 합니다.<br /><br />define('XOOPS_DB_PREFIX', '<b>%s</b>');" ) ;
+define("_AM_H3_PREFIXMAN" , "접두어(Prefix) 관리자" ) ;
+define("_AM_MSG_DBUPDATED" , "데이타베이스가 성공적으로 갱신되었습니다." ) ;
+define("_AM_CONFIRM_DELETE" , "모든 테이블이 삭제됩니다. 계속하시겠습니까?" ) ;
+define("_AM_TXT_HOWTOCHANGEDB" , "테이블 접두어(prefix)를 변경하실 경우는 <br />%s/mainfile.php 의 다음 부분을 직접 편집해주셔야 합니다.<br /><br />define('XOOPS_DB_PREFIX','<b>%s</b>');" ) ;
 
 
 // advisory.php
@@ -64,13 +64,13 @@ define("_AM_ADV_CHECKISOCOM","고립 코멘트");
 
 
 // Localization by ezsky
-define("_AM_EZ_PREFIX", "Prefix");
-define("_AM_EZ_TABLES", "Tables");
-define("_AM_EZ_UPDATED", "Updated");
-define("_AM_EZ_COPY", "Copy");
-define("_AM_EZ_ACTIONS", "Actions");
-define("_AM_EZ_BACKUP", "Backup");
-define("_AM_EZ_DELETE", "Delete");
+define("_AM_EZ_PREFIX","Prefix");
+define("_AM_EZ_TABLES","Tables");
+define("_AM_EZ_UPDATED","Updated");
+define("_AM_EZ_COPY","Copy");
+define("_AM_EZ_ACTIONS","Actions");
+define("_AM_EZ_BACKUP","Backup");
+define("_AM_EZ_DELETE","Delete");
 
 
 ?>

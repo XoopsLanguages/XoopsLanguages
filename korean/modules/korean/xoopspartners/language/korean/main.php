@@ -29,23 +29,23 @@
 //  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 USA //
 //  ------------------------------------------------------------------------ //
 
-define("_MD_EDIT", "ÆíÁý");
-define("_MD_DELETE", "»èÁ¦");
-define("_MD_JOIN", "ÆÄÆ®³Ê»çÀÌÆ® ½ÅÃ»");
-define("_MD_PARTNERS", "ÆÄÆ®³Ê»çÀÌÆ®");
-define("_MD_PARTNER", "ÆÄÆ®³Ê»çÀÌÆ®");
-define("_MD_DESCRIPTION", "¼³¸í");
-define("_MD_HITS", "¹æ¹®¼ö");
-define("_MD_NOPART", "ÇØ´ç ÆÄÆ®³Ê»çÀÌÆ®°¡ Á¸ÀçÇÏÁö ¾Ê½À´Ï´Ù.");
+define("_MD_EDIT","ï¿½ï¿½ï¿½ï¿½");
+define("_MD_DELETE","ï¿½ï¿½ï¿½ï¿½");
+define("_MD_JOIN","ï¿½ï¿½Æ®ï¿½Ê»ï¿½ï¿½ï¿½Æ® ï¿½ï¿½Ã»");
+define("_MD_PARTNERS","ï¿½ï¿½Æ®ï¿½Ê»ï¿½ï¿½ï¿½Æ®");
+define("_MD_PARTNER","ï¿½ï¿½Æ®ï¿½Ê»ï¿½ï¿½ï¿½Æ®");
+define("_MD_DESCRIPTION","ï¿½ï¿½ï¿½ï¿½");
+define("_MD_HITS","ï¿½æ¹®ï¿½ï¿½");
+define("_MD_NOPART","ï¿½Ø´ï¿½ ï¿½ï¿½Æ®ï¿½Ê»ï¿½ï¿½ï¿½Æ®ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ê½ï¿½ï¿½Ï´ï¿½.");
 //file join.php
-define("_MD_IMAGE", "±×¸²ÆÄÀÏ:");
-define("_MD_TITLE", "Å¸ÀÌÆ²:");
-define("_MD_URL", "»çÀÌÆ® URL:");
-define("_MD_SEND", "Email¼Û½Å");
-define("_MD_ERROR1", "<center>ERROR: ¿¡·¯°¡ ¹ß»ýÇÏ¿´½À´Ï´Ù. ÀÔ·Â³»¿ëÀ» ÀçÈ®ÀÎÈÄ <a href='javascript:history.back(1)'>´Ù½Ã ½ÃµµÇØÁÖ½Ã±â ¹Ù¶ø´Ï´Ù.</a></center>");
-define("_MD_ERROR2", "<center>±×¸²ÆÄÀÏÀÇ »çÀÌÁî°¡ 110x50 À» ÃÊ°úÇÏ¿´½À´Ï´Ù. <a href='javascript:history.back(1)'>´Ù¸¥ ±×¸²ÆÄÀÏ·Î ´Ù½Ã ½ÃµµÇØ ÁÖ½Ã±â ¹Ù¶ø´Ï´Ù.</a></center>");
-define("_MD_ERROR3", "<center>±×¸²ÆÄÀÏÀÌ Á¸ÀçÇÏÁö ¾Ê½À´Ï´Ù. <a href='javascript:history.back(1)'>È®ÀÎÈÄ ´Ù½Ã ½ÃµµÇØ ÁÖ½Ã±â ¹Ù¶ø´Ï´Ù.</a></center>");
-define("_MD_GOBACK", "<a href='javascript:history.back(1)'>µÇµ¹¾Æ°¨</a>");
-define("_MD_NEWPARTNER", "%s ÀÇ ÆÄÆ®³Ê»çÀÌÆ® µî·ÏÀ» ½ÅÃ»ÇÕ´Ï´Ù.");
-define("_MD_SENDMAIL", "»çÀÌÆ® °ü¸®ÀÚ¿¡°Ô ÆÄÆ®³Ê»çÀÌÆ® µî·Ï½ÅÃ»ÀÇ ¸ÞÀÏÀ» ¹ß¼ÛÇÏ¿´½À´Ï´Ù.<br /><a href='index.php'>µÇµ¹¾Æ°¨</a>");
+define("_MD_IMAGE","ï¿½×¸ï¿½ï¿½ï¿½ï¿½ï¿½:");
+define("_MD_TITLE","Å¸ï¿½ï¿½Æ²:");
+define("_MD_URL","ï¿½ï¿½ï¿½ï¿½Æ® URL:");
+define("_MD_SEND","Emailï¿½Û½ï¿½");
+define("_MD_ERROR1","<center>ERROR: ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ß»ï¿½ï¿½Ï¿ï¿½ï¿½ï¿½ï¿½Ï´ï¿½. ï¿½Ô·Â³ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½È®ï¿½ï¿½ï¿½ï¿½ <a href='javascript:history.back(1)'>ï¿½Ù½ï¿½ ï¿½Ãµï¿½ï¿½ï¿½ï¿½Ö½Ã±ï¿½ ï¿½Ù¶ï¿½ï¿½Ï´ï¿½.</a></center>");
+define("_MD_ERROR2","<center>ï¿½×¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½î°¡ 110x50 ï¿½ï¿½ ï¿½Ê°ï¿½ï¿½Ï¿ï¿½ï¿½ï¿½ï¿½Ï´ï¿½. <a href='javascript:history.back(1)'>ï¿½Ù¸ï¿½ ï¿½×¸ï¿½ï¿½ï¿½ï¿½Ï·ï¿½ ï¿½Ù½ï¿½ ï¿½Ãµï¿½ï¿½ï¿½ ï¿½Ö½Ã±ï¿½ ï¿½Ù¶ï¿½ï¿½Ï´ï¿½.</a></center>");
+define("_MD_ERROR3","<center>ï¿½×¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ê½ï¿½ï¿½Ï´ï¿½. <a href='javascript:history.back(1)'>È®ï¿½ï¿½ï¿½ï¿½ ï¿½Ù½ï¿½ ï¿½Ãµï¿½ï¿½ï¿½ ï¿½Ö½Ã±ï¿½ ï¿½Ù¶ï¿½ï¿½Ï´ï¿½.</a></center>");
+define("_MD_GOBACK","<a href='javascript:history.back(1)'>ï¿½Çµï¿½ï¿½Æ°ï¿½</a>");
+define("_MD_NEWPARTNER","%s ï¿½ï¿½ ï¿½ï¿½Æ®ï¿½Ê»ï¿½ï¿½ï¿½Æ® ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ã»ï¿½Õ´Ï´ï¿½.");
+define("_MD_SENDMAIL","ï¿½ï¿½ï¿½ï¿½Æ® ï¿½ï¿½ï¿½ï¿½ï¿½Ú¿ï¿½ï¿½ï¿½ ï¿½ï¿½Æ®ï¿½Ê»ï¿½ï¿½ï¿½Æ® ï¿½ï¿½Ï½ï¿½Ã»ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ß¼ï¿½ï¿½Ï¿ï¿½ï¿½ï¿½ï¿½Ï´ï¿½.<br /><a href='index.php'>ï¿½Çµï¿½ï¿½Æ°ï¿½</a>");
 ?>

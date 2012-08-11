@@ -13,7 +13,7 @@
 /*
  * Associated with editor_registry.php
  */
-define("_XOOPS_EDITOR_FCKEDITOR", "FCK ±à¼­Æ÷");
-define("_XOOPS_EDITOR_FCKEDITOR_FONTLIST",'ºÚÌå;ËÎÌå;¿¬Ìå;Arial;Comic Sans MS;Courier New;Tahoma;Times New Roman;Verdana');
-define("_XOOPS_EDITOR_FCKEDITOR_LANGUAGE", "zh-cn");
+define("_XOOPS_EDITOR_FCKEDITOR","FCK ï¿½à¼­ï¿½ï¿½");
+define("_XOOPS_EDITOR_FCKEDITOR_FONTLIST",'ï¿½ï¿½ï¿½ï¿½;ï¿½ï¿½ï¿½ï¿½;ï¿½ï¿½ï¿½ï¿½;Arial;Comic Sans MS;Courier New;Tahoma;Times New Roman;Verdana');
+define("_XOOPS_EDITOR_FCKEDITOR_LANGUAGE","zh-cn");
 ?>

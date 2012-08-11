@@ -39,7 +39,7 @@ define("_PM_MESSAGEC","Mensaje: ");
 define("_PM_CLEAR","Limpiar");
 define("_PM_CANCELSEND","Cancelar envío");
 define("_PM_SUBMIT","Enviar");
-define("_PM_SAVEINOUTBOX", "¿Guardar una copia en su buzón de envíos?");
+define("_PM_SAVEINOUTBOX","¿Guardar una copia en su buzón de envíos?");
 
 //%%%%%%	File Name viewpmsg.php 	%%%%%
 define("_PM_SUBJECT","Asunto");
@@ -50,7 +50,7 @@ define("_PM_DELETE","Borrar");
 define("_PM_TOSAVE","Guardar");
 define("_PM_UNSAVE","Deshacer guardar");
 define("_PM_EMPTY","Vacío");
-define("_PM_REPLY", "Responder");
+define("_PM_REPLY","Responder");
 define("_PM_PLZREG","Por favor regístrese para poder enviar mensajes privados");
 define("_PM_SAVED_PART","Se le permiten %d en su archivo, y ha guardado %d mensajes hasta ahora");
 define("_PM_SAVED_ALL","Los mensajes han sido guardados en el archivo");
@@ -59,7 +59,7 @@ define("_PM_EMPTIED","El archivo ha quedado vacío");
 define("_PM_RUSUREEMPTY","¿Está seguro de querer vaciar la bandeja?");
 define("_PM_RUSUREDELETE","¿Está seguro de querer eliminar los mensajes seleccionados?");
 
-define("_PM_ONLINE", "En línea");
+define("_PM_ONLINE","En línea");
 
 define("_PM_OUTBOX","Mensajes enviados");
 define("_PM_SAVEBOX","Mensajes guardados");
@@ -82,14 +82,14 @@ define("_PM_NEXTP","Siguiente");
 define("_PM_MAILNOTIFY","%s - Ha recibido un nuevo MP de %s");
 define("_PM_MAILMESSAGE","¡Hola!\nLe llegó un nuevo MP de %s\n\nEl título del MP es\n%s\n\nPuede ver el MP aquí\n%s\n\n-----------\nEstás recibiendo este mensaje porque elegiste ser notificado cuando recibieras un nuevo PM\n\nPuedes cambiar tu configuración para PM\n%s\n\nPor favor no respondas a este mensaje\n\n---------\nSaludos\n%s\n%s\n%s");
 
-define("_PM_EMAIL", "Email");
-define("_PM_EMAIL_DESC", "Estimado %s, este es un mensaje transferido desde su cuenta en ".$xoopsConfig['sitename']);
-define("_PM_EMAIL_FROM", "De %s");
-define("_PM_EMAIL_TO", "Para %s");
-define("_PM_EMAIL_SUBJECT", "[mensaje]%s");
-define("_PM_EMAIL_MESSAGE", "Contenido del mensaje");
-define("_PM_ACTION_DONE", "La operación se ejecutó correctamente");
-define("_PM_ACTION_ERROR", "La operación ha fallado");
+define("_PM_EMAIL","Email");
+define("_PM_EMAIL_DESC","Estimado %s, este es un mensaje transferido desde su cuenta en ".$xoopsConfig['sitename']);
+define("_PM_EMAIL_FROM","De %s");
+define("_PM_EMAIL_TO","Para %s");
+define("_PM_EMAIL_SUBJECT","[mensaje]%s");
+define("_PM_EMAIL_MESSAGE","Contenido del mensaje");
+define("_PM_ACTION_DONE","La operación se ejecutó correctamente");
+define("_PM_ACTION_ERROR","La operación ha fallado");
 
 //XOOPS 2.5.2
 define("_PM_READ","Leído");

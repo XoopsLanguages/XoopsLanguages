@@ -8,186 +8,186 @@
  */
  
 // Navigation
-define( "_AM_SYSTEM_MODULES_ADMIN", "Administration du Module" );
-define( "_AM_SYSTEM_MODULES_LIST", "Liste des Modules");
-define( "_AM_SYSTEM_MODULES_TOINSTALL", "Installer un module" );
-define( "_AM_SYSTEM_MODULES_VALIDATE", "Valider les modifications" );
-define( "_AM_SYSTEM_MODULES_SUBMITRES", "Soumettre");
+define("_AM_SYSTEM_MODULES_ADMIN","Administration du Module" );
+define("_AM_SYSTEM_MODULES_LIST","Liste des Modules");
+define("_AM_SYSTEM_MODULES_TOINSTALL","Installer un module" );
+define("_AM_SYSTEM_MODULES_VALIDATE","Valider les modifications" );
+define("_AM_SYSTEM_MODULES_SUBMITRES","Soumettre");
 
 // Messages
-define( "_AM_SYSTEM_MODULES_RUSUREINS", "Pour installer ce module, cliquez sur le bouton ci-dessous");
-define( "_AM_SYSTEM_MODULES_RUSUREUNINS", "Êtes-vous sûr de vouloir désinstaller ce module ?" );
-define( "_AM_SYSTEM_MODULES_RUSUREUPD", "Pour mettre à jour ce module, cliquez sur le bouton ci-dessous");
-define( "_AM_SYSTEM_MODULES_BTOMADMIN", "Retour à page d'administration des modules" );
-define( "_AM_SYSTEM_MODULES_INSTALLING", "Installation ");
-define( "_AM_SYSTEM_MODULES_UNINSTAL", "Désinstallation " );
-define( "_AM_SYSTEM_MODULES_DEACTIVATE", "Désactiver ");
-define( "_AM_SYSTEM_MODULES_ACTIVATE", "Activer ");
-define( "_AM_SYSTEM_MODULES_UPDATING", "Mise à jour ");
+define("_AM_SYSTEM_MODULES_RUSUREINS","Pour installer ce module, cliquez sur le bouton ci-dessous");
+define("_AM_SYSTEM_MODULES_RUSUREUNINS","ÃŠtes-vous sÃ»r de vouloir dÃ©sinstaller ce module ?" );
+define("_AM_SYSTEM_MODULES_RUSUREUPD","Pour mettre Ã  jour ce module, cliquez sur le bouton ci-dessous");
+define("_AM_SYSTEM_MODULES_BTOMADMIN","Retour Ã  page d'administration des modules" );
+define("_AM_SYSTEM_MODULES_INSTALLING","Installation ");
+define("_AM_SYSTEM_MODULES_UNINSTAL","DÃ©sinstallation " );
+define("_AM_SYSTEM_MODULES_DEACTIVATE","DÃ©sactiver ");
+define("_AM_SYSTEM_MODULES_ACTIVATE","Activer ");
+define("_AM_SYSTEM_MODULES_UPDATING","Mise Ã  jour ");
 
 // Main
-define( "_AM_SYSTEM_MODULES_INSTALL", "Installer" );
-define( "_AM_SYSTEM_MODULES_UNINSTALL", "Désinstaller" );
-define( "_AM_SYSTEM_MODULES_UPDATE", "Mettre à jour" );
-define( "_AM_SYSTEM_MODULES_VIEWLARGE", "Vue large" );
-define( "_AM_SYSTEM_MODULES_VIEWLINE", "Vue en ligne" );
+define("_AM_SYSTEM_MODULES_INSTALL","Installer" );
+define("_AM_SYSTEM_MODULES_UNINSTALL","DÃ©sinstaller" );
+define("_AM_SYSTEM_MODULES_UPDATE","Mettre Ã  jour" );
+define("_AM_SYSTEM_MODULES_VIEWLARGE","Vue large" );
+define("_AM_SYSTEM_MODULES_VIEWLINE","Vue en ligne" );
 
 // %s represents module name
-define( "_AM_SYSTEM_MODULES_FAILINS", "Impossible d'installer <strong>%s</strong>." );
-define( "_AM_SYSTEM_MODULES_FAILACT", "Impossible d'activer <strong>%s</strong>." );
-define( "_AM_SYSTEM_MODULES_FAILDEACT", "Impossible de désactiver <strong>%s</strong>." );
-define( "_AM_SYSTEM_MODULES_FAILUPD", "Impossible de mettre à jour <strong>%s</strong>." );
-define( "_AM_SYSTEM_MODULES_FAILUNINS", "Impossible de désinstaller <strong>%s</strong>." );
-define( "_AM_SYSTEM_MODULES_FAILORDER", "Impossible de réarranger <strong>%s</strong>." );
-define( "_AM_SYSTEM_MODULES_FAILWRITE", "Impossible d'écrire dans le menu principal." );
-define( "_AM_SYSTEM_MODULES_ALEXISTS", "Le module <strong>%s</strong> est déjà installé." );
-define( "_AM_SYSTEM_MODULES_ERRORSC", "Erreur(s):" );
-define( "_AM_SYSTEM_MODULES_OKINS", "Le module <strong>%s</strong> a bien été installé." );
-define( "_AM_SYSTEM_MODULES_OKACT", "Le module <strong>%s</strong> a bien été activé." );
-define( "_AM_SYSTEM_MODULES_OKDEACT", "Le module <strong>%s</strong> a bien été désactivé." );
-define( "_AM_SYSTEM_MODULES_OKUPD", "Le module <strong>%s</strong> a bien été mis à jour." );
-define( "_AM_SYSTEM_MODULES_OKUNINS", "Le module <strong>%s</strong> a bien été désinstallé." );
-define( "_AM_SYSTEM_MODULES_OKORDER", "Le module <strong>%s</strong> a bien été modifié." );
+define("_AM_SYSTEM_MODULES_FAILINS","Impossible d'installer <strong>%s</strong>." );
+define("_AM_SYSTEM_MODULES_FAILACT","Impossible d'activer <strong>%s</strong>." );
+define("_AM_SYSTEM_MODULES_FAILDEACT","Impossible de dÃ©sactiver <strong>%s</strong>." );
+define("_AM_SYSTEM_MODULES_FAILUPD","Impossible de mettre Ã  jour <strong>%s</strong>." );
+define("_AM_SYSTEM_MODULES_FAILUNINS","Impossible de dÃ©sinstaller <strong>%s</strong>." );
+define("_AM_SYSTEM_MODULES_FAILORDER","Impossible de rÃ©arranger <strong>%s</strong>." );
+define("_AM_SYSTEM_MODULES_FAILWRITE","Impossible d'Ã©crire dans le menu principal." );
+define("_AM_SYSTEM_MODULES_ALEXISTS","Le module <strong>%s</strong> est dÃ©jÃ  installÃ©." );
+define("_AM_SYSTEM_MODULES_ERRORSC","Erreur(s):" );
+define("_AM_SYSTEM_MODULES_OKINS","Le module <strong>%s</strong> a bien Ã©tÃ© installÃ©." );
+define("_AM_SYSTEM_MODULES_OKACT","Le module <strong>%s</strong> a bien Ã©tÃ© activÃ©." );
+define("_AM_SYSTEM_MODULES_OKDEACT","Le module <strong>%s</strong> a bien Ã©tÃ© dÃ©sactivÃ©." );
+define("_AM_SYSTEM_MODULES_OKUPD","Le module <strong>%s</strong> a bien Ã©tÃ© mis Ã  jour." );
+define("_AM_SYSTEM_MODULES_OKUNINS","Le module <strong>%s</strong> a bien Ã©tÃ© dÃ©sinstallÃ©." );
+define("_AM_SYSTEM_MODULES_OKORDER","Le module <strong>%s</strong> a bien Ã©tÃ© modifiÃ©." );
 
-define( "_AM_SYSTEM_MODULES_MODULE", "Module" );
-define( "_AM_SYSTEM_MODULES_VERSION", "Version" );
-define( "_AM_SYSTEM_MODULES_LASTUP", "Dernière mise à jour" );
-define( "_AM_SYSTEM_MODULES_DEACTIVATED", "Désactivé" );
-define( "_AM_SYSTEM_MODULES_ACTION", "Action" );
-define( "_AM_SYSTEM_MODULES_MENU", "Menu" );
-define( "_AM_SYSTEM_MODULES_HIDE", "Masquer" );
-define( "_AM_SYSTEM_MODULES_SHOW", "Afficher" );
+define("_AM_SYSTEM_MODULES_MODULE","Module" );
+define("_AM_SYSTEM_MODULES_VERSION","Version" );
+define("_AM_SYSTEM_MODULES_LASTUP","DerniÃ¨re mise Ã  jour" );
+define("_AM_SYSTEM_MODULES_DEACTIVATED","DÃ©sactivÃ©" );
+define("_AM_SYSTEM_MODULES_ACTION","Action" );
+define("_AM_SYSTEM_MODULES_MENU","Menu" );
+define("_AM_SYSTEM_MODULES_HIDE","Masquer" );
+define("_AM_SYSTEM_MODULES_SHOW","Afficher" );
 
-define( "_AM_SYSTEM_MODULES_DUPEN", "Entrée en double dans la table des modules !" );
-define( "_AM_SYSTEM_MODULES_DEACTED", "Le module sélectionné a été désactivé. Vous pouvez maintenant le désinstaller sans risque." );
-define( "_AM_SYSTEM_MODULES_ACTED", "Le module sélectionné a été activé !" );
-define( "_AM_SYSTEM_MODULES_UPDTED", "Le module sélectionné a été mis à jour !" );
-define( "_AM_SYSTEM_MODULES_SYSNO", "Le module System ne peut pas être désactivé." );
-define( "_AM_SYSTEM_MODULES_STRTNO", "Ce module a été défini par défaut sur votre page d'accueil. Vous pouvez changer le module d'accueil par celui qui vous convient." );
+define("_AM_SYSTEM_MODULES_DUPEN","EntrÃ©e en double dans la table des modules !" );
+define("_AM_SYSTEM_MODULES_DEACTED","Le module sÃ©lectionnÃ© a Ã©tÃ© dÃ©sactivÃ©. Vous pouvez maintenant le dÃ©sinstaller sans risque." );
+define("_AM_SYSTEM_MODULES_ACTED","Le module sÃ©lectionnÃ© a Ã©tÃ© activÃ© !" );
+define("_AM_SYSTEM_MODULES_UPDTED","Le module sÃ©lectionnÃ© a Ã©tÃ© mis Ã  jour !" );
+define("_AM_SYSTEM_MODULES_SYSNO","Le module System ne peut pas Ãªtre dÃ©sactivÃ©." );
+define("_AM_SYSTEM_MODULES_STRTNO","Ce module a Ã©tÃ© dÃ©fini par dÃ©faut sur votre page d'accueil. Vous pouvez changer le module d'accueil par celui qui vous convient." );
 
-define( "_AM_SYSTEM_MODULES_ORDER", "Ordre" );
-define( "_AM_SYSTEM_MODULES_ORDER0", "Cliquez sur l'encoche pour afficher ou masquer le lien dans le menu principal" );
-define( "_AM_SYSTEM_MODULES_ACTIVE", "Actif" );
-define( "_AM_SYSTEM_MODULES_INACTIVE", "Inactif" );
-define( "_AM_SYSTEM_MODULES_NOTINSTALLED", "Non Installé" );
-define( "_AM_SYSTEM_MODULES_NOCHANGE", "Aucun changement" );
-define( "_AM_SYSTEM_MODULES_SUBMIT", "Soumettre" );
-define( "_AM_SYSTEM_MODULES_CANCEL", "Annuler" );
-define( "_AM_SYSTEM_MODULES_DBUPDATE", _AM_SYSTEM_DBUPDATED );
-define( "_AM_SYSTEM_MODULES_LISTUPBLKS", "Les blocs suivants vont être mis à jour.<br />Sélectionnez les blocs dont le contenu (template et options) pourra être écrasé.<br />");
-define( "_AM_SYSTEM_MODULES_NEWBLKS", "Nouveaux blocs");
-define( "_AM_SYSTEM_MODULES_DEPREBLKS", "Blocs obsolètes");
+define("_AM_SYSTEM_MODULES_ORDER","Ordre" );
+define("_AM_SYSTEM_MODULES_ORDER0","Cliquez sur l'encoche pour afficher ou masquer le lien dans le menu principal" );
+define("_AM_SYSTEM_MODULES_ACTIVE","Actif" );
+define("_AM_SYSTEM_MODULES_INACTIVE","Inactif" );
+define("_AM_SYSTEM_MODULES_NOTINSTALLED","Non InstallÃ©" );
+define("_AM_SYSTEM_MODULES_NOCHANGE","Aucun changement" );
+define("_AM_SYSTEM_MODULES_SUBMIT","Soumettre" );
+define("_AM_SYSTEM_MODULES_CANCEL","Annuler" );
+define("_AM_SYSTEM_MODULES_DBUPDATE", _AM_SYSTEM_DBUPDATED );
+define("_AM_SYSTEM_MODULES_LISTUPBLKS","Les blocs suivants vont Ãªtre mis Ã  jour.<br />SÃ©lectionnez les blocs dont le contenu (template et options) pourra Ãªtre Ã©crasÃ©.<br />");
+define("_AM_SYSTEM_MODULES_NEWBLKS","Nouveaux blocs");
+define("_AM_SYSTEM_MODULES_DEPREBLKS","Blocs obsolÃ¨tes");
 
 // Logger
-define( "_AM_SYSTEM_MODULES_TABLE_RESERVED", "<strong>%s</strong> est une table réservée !");
-define( "_AM_SYSTEM_MODULES_CREATE_TABLES", "Création des tables ...");
-define( "_AM_SYSTEM_MODULES_TABLE_CREATED", "Table <strong>%s</strong> créée");
-define( "_AM_SYSTEM_MODULES_INSERT_DATA", "&nbsp;&nbsp; Données insérées dans la table <strong>%s</strong>");
-define( "_AM_SYSTEM_MODULES_INSERT_DATA_FAILD", "Impossible d'intégrer la table <strong>%s</strong> dans la base de données.");
-define( "_AM_SYSTEM_MODULES_INSERT_DATA_DONE", "Intégration des données du module réalisées avec succès.");
-define( "_AM_SYSTEM_MODULES_MODULEID", " ID du Module : <strong>%s</strong>");
-define( "_AM_SYSTEM_MODULES_SQL_FOUND", "Un fichier SQL a été trouvé dans <strong>%s</strong> ");
-define( "_AM_SYSTEM_MODULES_SQL_NOT_FOUND", "Aucun fichier SQL n'a été trouvé dans <strong>%s</strong>");
-define( "_AM_SYSTEM_MODULES_SQL_NOT_CREATE", "ERREUR : Impossible de créer la table <strong>%s</strong> ");
-define( "_AM_SYSTEM_MODULES_SQL_NOT_VALID", "<strong>%s</strong> n'est pas un fichier SQL valide !");
-define( "_AM_SYSTEM_MODULES_GROUP_ID", " ID du Groupe : <strong>%s</strong> ");
-define( "_AM_SYSTEM_MODULES_NAME", " Nom : ");
-define( "_AM_SYSTEM_MODULES_VALUE", " Valeur : ");
+define("_AM_SYSTEM_MODULES_TABLE_RESERVED","<strong>%s</strong> est une table rÃ©servÃ©e !");
+define("_AM_SYSTEM_MODULES_CREATE_TABLES","CrÃ©ation des tables ...");
+define("_AM_SYSTEM_MODULES_TABLE_CREATED","Table <strong>%s</strong> crÃ©Ã©e");
+define("_AM_SYSTEM_MODULES_INSERT_DATA","&nbsp;&nbsp; DonnÃ©es insÃ©rÃ©es dans la table <strong>%s</strong>");
+define("_AM_SYSTEM_MODULES_INSERT_DATA_FAILD","Impossible d'intÃ©grer la table <strong>%s</strong> dans la base de donnÃ©es.");
+define("_AM_SYSTEM_MODULES_INSERT_DATA_DONE","IntÃ©gration des donnÃ©es du module rÃ©alisÃ©es avec succÃ¨s.");
+define("_AM_SYSTEM_MODULES_MODULEID"," ID du Module : <strong>%s</strong>");
+define("_AM_SYSTEM_MODULES_SQL_FOUND","Un fichier SQL a Ã©tÃ© trouvÃ© dans <strong>%s</strong> ");
+define("_AM_SYSTEM_MODULES_SQL_NOT_FOUND","Aucun fichier SQL n'a Ã©tÃ© trouvÃ© dans <strong>%s</strong>");
+define("_AM_SYSTEM_MODULES_SQL_NOT_CREATE","ERREUR : Impossible de crÃ©er la table <strong>%s</strong> ");
+define("_AM_SYSTEM_MODULES_SQL_NOT_VALID","<strong>%s</strong> n'est pas un fichier SQL valide !");
+define("_AM_SYSTEM_MODULES_GROUP_ID"," ID du Groupe : <strong>%s</strong> ");
+define("_AM_SYSTEM_MODULES_NAME"," Nom : ");
+define("_AM_SYSTEM_MODULES_VALUE"," Valeur : ");
 
 // Templates
-define( "_AM_SYSTEM_MODULES_TEMPLATES_ADD", "Ajout des templates ...");
-define( "_AM_SYSTEM_MODULES_TEMPLATES_DELETE", "Suppression des templates ...");
-define( "_AM_SYSTEM_MODULES_TEMPLATES_UPDATE", "Mise à jour des templates ...");
-define( "_AM_SYSTEM_MODULES_TEMPLATE_ID", "ID du template : <strong>%s</strong> ");
-define( "_AM_SYSTEM_MODULES_TEMPLATE_ADD_DATA", "Le template <strong>%s</strong> a bien été inscrit dans la base de données");
-define( "_AM_SYSTEM_MODULES_TEMPLATE_ADD_ERROR", "ERREUR : Impossible d'inscrire le template <strong>%s</strong> à la base de données.");
-define( "_AM_SYSTEM_MODULES_TEMPLATE_COMPILED", "Le template <strong>%s</strong> a été compilé ");
-define( "_AM_SYSTEM_MODULES_TEMPLATE_COMPILED_FAILED", "ERREUR : Échec de la compilation du template <strong>%s</strong> ");
-define( "_AM_SYSTEM_MODULES_TEMPLATE_DELETE_DATA", "L'inscription du template <strong>%s</strong> a été supprimé de la base de données. ");
-define( "_AM_SYSTEM_MODULES_TEMPLATE_DELETE_DATA_FAILD", "ERREUR : Impossible de supprimer l'inscription du template <strong>%s</strong> dans la base de données. ");
-define( "_AM_SYSTEM_MODULES_TEMPLATE_INSERT_DATA", "Le template <strong>%s</strong> a été intégré à la base de données. ");
-define( "_AM_SYSTEM_MODULES_TEMPLATE_RECOMPILE", "Le template <strong>%s</strong> a été recompilé");
-define( "_AM_SYSTEM_MODULES_TEMPLATE_RECOMPILE_FAILD", "ERREUR : Échec de la régénération du template <strong>%s</strong>");
-define( "_AM_SYSTEM_MODULES_TEMPLATE_RECOMPILE_ERROR", "ERREUR : Impossible de régénérer le template <strong>%s</strong> ");
-define( "_AM_SYSTEM_MODULES_TEMPLATE_DELETE_OLD_ERROR", "ERREUR : Impossible de supprimer l'ancien template <strong>%s</strong>. Annulation de la mise à jour de ce fichier. ");
-define( "_AM_SYSTEM_MODULES_TEMPLATE_UPDATE", "L'inscription du template <strong>%s</strong> a été mise à jour. ");
-define( "_AM_SYSTEM_MODULES_TEMPLATE_UPDATE_ERROR", "ERREUR : Impossible de mettre à jour le template <strong>%s</strong>. ");
+define("_AM_SYSTEM_MODULES_TEMPLATES_ADD","Ajout des templates ...");
+define("_AM_SYSTEM_MODULES_TEMPLATES_DELETE","Suppression des templates ...");
+define("_AM_SYSTEM_MODULES_TEMPLATES_UPDATE","Mise Ã  jour des templates ...");
+define("_AM_SYSTEM_MODULES_TEMPLATE_ID","ID du template : <strong>%s</strong> ");
+define("_AM_SYSTEM_MODULES_TEMPLATE_ADD_DATA","Le template <strong>%s</strong> a bien Ã©tÃ© inscrit dans la base de donnÃ©es");
+define("_AM_SYSTEM_MODULES_TEMPLATE_ADD_ERROR","ERREUR : Impossible d'inscrire le template <strong>%s</strong> Ã  la base de donnÃ©es.");
+define("_AM_SYSTEM_MODULES_TEMPLATE_COMPILED","Le template <strong>%s</strong> a Ã©tÃ© compilÃ© ");
+define("_AM_SYSTEM_MODULES_TEMPLATE_COMPILED_FAILED","ERREUR : Ã‰chec de la compilation du template <strong>%s</strong> ");
+define("_AM_SYSTEM_MODULES_TEMPLATE_DELETE_DATA","L'inscription du template <strong>%s</strong> a Ã©tÃ© supprimÃ© de la base de donnÃ©es. ");
+define("_AM_SYSTEM_MODULES_TEMPLATE_DELETE_DATA_FAILD","ERREUR : Impossible de supprimer l'inscription du template <strong>%s</strong> dans la base de donnÃ©es. ");
+define("_AM_SYSTEM_MODULES_TEMPLATE_INSERT_DATA","Le template <strong>%s</strong> a Ã©tÃ© intÃ©grÃ© Ã  la base de donnÃ©es. ");
+define("_AM_SYSTEM_MODULES_TEMPLATE_RECOMPILE","Le template <strong>%s</strong> a Ã©tÃ© recompilÃ©");
+define("_AM_SYSTEM_MODULES_TEMPLATE_RECOMPILE_FAILD","ERREUR : Ã‰chec de la rÃ©gÃ©nÃ©ration du template <strong>%s</strong>");
+define("_AM_SYSTEM_MODULES_TEMPLATE_RECOMPILE_ERROR","ERREUR : Impossible de rÃ©gÃ©nÃ©rer le template <strong>%s</strong> ");
+define("_AM_SYSTEM_MODULES_TEMPLATE_DELETE_OLD_ERROR","ERREUR : Impossible de supprimer l'ancien template <strong>%s</strong>. Annulation de la mise Ã  jour de ce fichier. ");
+define("_AM_SYSTEM_MODULES_TEMPLATE_UPDATE","L'inscription du template <strong>%s</strong> a Ã©tÃ© mise Ã  jour. ");
+define("_AM_SYSTEM_MODULES_TEMPLATE_UPDATE_ERROR","ERREUR : Impossible de mettre Ã  jour le template <strong>%s</strong>. ");
 
 // Blocks
-define( "_AM_SYSTEM_MODULES_BLOCKS_ADD", "Ajout de blocs ...");
-define( "_AM_SYSTEM_MODULES_BLOCKS_DELETE", "Suppression de blocs ...");
-define( "_AM_SYSTEM_MODULES_BLOCKS_REBUILD", "Reconstruction de blocs ...");
-define( "_AM_SYSTEM_MODULES_BLOCK_ID", " ID du Bloc : <strong>%s</strong> ");
-define( "_AM_SYSTEM_MODULES_BLOCK_ACCESS", "Les permissions d'accès au bloc ont été ajoutées");
-define( "_AM_SYSTEM_MODULES_BLOCK_ACCESS_ERROR", "ERREUR : Impossible d'ajouter les permissions d'accès au bloc");
-define( "_AM_SYSTEM_MODULES_BLOCK_ADD", "Le bloc <strong>%s</strong> a été ajouté ");
-define( "_AM_SYSTEM_MODULES_BLOCK_ADD_ERROR", "ERREUR : Impossible d'ajouter l'inscription du bloc <strong>%s</strong> dans la base de données ! ");
-define( "_AM_SYSTEM_MODULES_BLOCK_ADD_ERROR_DATABASE", "Erreur de la base de données : <strong>%s</strong> ");
-define( "_AM_SYSTEM_MODULES_BLOCK_CREATED", "Le bloc <strong>%s</strong> a été inscrit ");
-define( "_AM_SYSTEM_MODULES_BLOCK_DELETE", "Le bloc <strong>%s</strong> a été supprimé. ");
-define( "_AM_SYSTEM_MODULES_BLOCK_DELETE_DATA", "Le template du bloc <strong>%s</strong> a été supprimé de la base de données. ");
-define( "_AM_SYSTEM_MODULES_BLOCK_DELETE_ERROR", "ERREUR : Impossible de supprimer le bloc <strong>%s</strong>");
-define( "_AM_SYSTEM_MODULES_BLOCK_DELETE_TEMPLATE_ERROR", "ERREUR : Impossible de supprimer le template du bloc <strong>%s</strong> dans la base de données");
-define( "_AM_SYSTEM_MODULES_BLOCK_DEPRECATED", "Le template du bloc <strong>%s</strong> est obsolète ");
-define( "_AM_SYSTEM_MODULES_BLOCK_DEPRECATED_ERROR", "ERREUR : Impossible de supprimer le template du bloc obsolète.  ");
-define( "_AM_SYSTEM_MODULES_BLOCK_UPDATE", "L'inscription du bloc <strong>%s</strong> a été mis à jour. ");
+define("_AM_SYSTEM_MODULES_BLOCKS_ADD","Ajout de blocs ...");
+define("_AM_SYSTEM_MODULES_BLOCKS_DELETE","Suppression de blocs ...");
+define("_AM_SYSTEM_MODULES_BLOCKS_REBUILD","Reconstruction de blocs ...");
+define("_AM_SYSTEM_MODULES_BLOCK_ID"," ID du Bloc : <strong>%s</strong> ");
+define("_AM_SYSTEM_MODULES_BLOCK_ACCESS","Les permissions d'accÃ¨s au bloc ont Ã©tÃ© ajoutÃ©es");
+define("_AM_SYSTEM_MODULES_BLOCK_ACCESS_ERROR","ERREUR : Impossible d'ajouter les permissions d'accÃ¨s au bloc");
+define("_AM_SYSTEM_MODULES_BLOCK_ADD","Le bloc <strong>%s</strong> a Ã©tÃ© ajoutÃ© ");
+define("_AM_SYSTEM_MODULES_BLOCK_ADD_ERROR","ERREUR : Impossible d'ajouter l'inscription du bloc <strong>%s</strong> dans la base de donnÃ©es ! ");
+define("_AM_SYSTEM_MODULES_BLOCK_ADD_ERROR_DATABASE","Erreur de la base de donnÃ©es : <strong>%s</strong> ");
+define("_AM_SYSTEM_MODULES_BLOCK_CREATED","Le bloc <strong>%s</strong> a Ã©tÃ© inscrit ");
+define("_AM_SYSTEM_MODULES_BLOCK_DELETE","Le bloc <strong>%s</strong> a Ã©tÃ© supprimÃ©. ");
+define("_AM_SYSTEM_MODULES_BLOCK_DELETE_DATA","Le template du bloc <strong>%s</strong> a Ã©tÃ© supprimÃ© de la base de donnÃ©es. ");
+define("_AM_SYSTEM_MODULES_BLOCK_DELETE_ERROR","ERREUR : Impossible de supprimer le bloc <strong>%s</strong>");
+define("_AM_SYSTEM_MODULES_BLOCK_DELETE_TEMPLATE_ERROR","ERREUR : Impossible de supprimer le template du bloc <strong>%s</strong> dans la base de donnÃ©es");
+define("_AM_SYSTEM_MODULES_BLOCK_DEPRECATED","Le template du bloc <strong>%s</strong> est obsolÃ¨te ");
+define("_AM_SYSTEM_MODULES_BLOCK_DEPRECATED_ERROR","ERREUR : Impossible de supprimer le template du bloc obsolÃ¨te.  ");
+define("_AM_SYSTEM_MODULES_BLOCK_UPDATE","L'inscription du bloc <strong>%s</strong> a Ã©tÃ© mis Ã  jour. ");
 
 // Configs
-define( "_AM_SYSTEM_MODULES_GONFIG_ID", "ID de la Configuration : <strong>%s</strong>");
-define( "_AM_SYSTEM_MODULES_MODULE_DATA_ADD", "Ajout des données de configuration du module ...");
-define( "_AM_SYSTEM_MODULES_MODULE_DATA_DELETE", "Suppression des options de configuration du module ...");
-define( "_AM_SYSTEM_MODULES_MODULE_DATA_UPDATE", "Les données du module ont été mises à jour.");
-define( "_AM_SYSTEM_MODULES_CONFIG_ADD", " Option de configuration ajoutée");
-define( "_AM_SYSTEM_MODULES_CONFIG_DATA_ADD", "La configuration du module <strong>%s</strong> a été inscrite dans la base de données");
-define( "_AM_SYSTEM_MODULES_CONFIG_DATA_ADD_ERROR", " ERREUR : Impossible d'inscrire la configuration du module <strong>%s</strong> dans la base de données. ");
-define( "_AM_SYSTEM_MODULES_GONFIG_DATA_DELETE", "Les données de configuration ont été supprimées de la base de données. ");
-define( "_AM_SYSTEM_MODULES_CONFIG_DATA_DELETE_ERROR", "ERREUR : Impossible de supprimer les données de configuration du module dans la base de données");
+define("_AM_SYSTEM_MODULES_GONFIG_ID","ID de la Configuration : <strong>%s</strong>");
+define("_AM_SYSTEM_MODULES_MODULE_DATA_ADD","Ajout des donnÃ©es de configuration du module ...");
+define("_AM_SYSTEM_MODULES_MODULE_DATA_DELETE","Suppression des options de configuration du module ...");
+define("_AM_SYSTEM_MODULES_MODULE_DATA_UPDATE","Les donnÃ©es du module ont Ã©tÃ© mises Ã  jour.");
+define("_AM_SYSTEM_MODULES_CONFIG_ADD"," Option de configuration ajoutÃ©e");
+define("_AM_SYSTEM_MODULES_CONFIG_DATA_ADD","La configuration du module <strong>%s</strong> a Ã©tÃ© inscrite dans la base de donnÃ©es");
+define("_AM_SYSTEM_MODULES_CONFIG_DATA_ADD_ERROR"," ERREUR : Impossible d'inscrire la configuration du module <strong>%s</strong> dans la base de donnÃ©es. ");
+define("_AM_SYSTEM_MODULES_GONFIG_DATA_DELETE","Les donnÃ©es de configuration ont Ã©tÃ© supprimÃ©es de la base de donnÃ©es. ");
+define("_AM_SYSTEM_MODULES_CONFIG_DATA_DELETE_ERROR","ERREUR : Impossible de supprimer les donnÃ©es de configuration du module dans la base de donnÃ©es");
 
 // Access
-define( "_AM_SYSTEM_MODULES_GROUP_SETTINGS_ADD", "Définition des droits des groupes d'utilisateurs ...");
-define( "_AM_SYSTEM_MODULES_GROUP_PERMS_DELETE_ERROR", "ERREUR : Impossible de supprimer les permissions du groupe d'utilisateurs");
-define( "_AM_SYSTEM_MODULES_GROUP_PERMS_DELETED", "Les permissions du groupe ont été supprimées ");
-define( "_AM_SYSTEM_MODULES_ACCESS_ADMIN_ADD", "Les permissions d'accès de l'administrateur ont été ajoutés au groupe ID <strong>%s</strong>");
-define( "_AM_SYSTEM_MODULES_ACCESS_ADMIN_ADD_ERROR", "ERREUR: Impossible d'ajouter les permissions d'accès de l'administrateur au groupe <strong>%s</strong>");
-define( "_AM_SYSTEM_MODULES_ACCESS_USER_ADD_ERROR", "Permissions d'accès \"Utilisateurs\" ont été ajoutées pour le groupe : <strong>%s</strong>");
-define( "_AM_SYSTEM_MODULES_ACCESS_USER_ADD_ERROR_ERROR", "ERREUR : Impossible d'ajouter les permissions d'accès \"Utilisateurs\" au groupe <strong>%s</strong>");
+define("_AM_SYSTEM_MODULES_GROUP_SETTINGS_ADD","DÃ©finition des droits des groupes d'utilisateurs ...");
+define("_AM_SYSTEM_MODULES_GROUP_PERMS_DELETE_ERROR","ERREUR : Impossible de supprimer les permissions du groupe d'utilisateurs");
+define("_AM_SYSTEM_MODULES_GROUP_PERMS_DELETED","Les permissions du groupe ont Ã©tÃ© supprimÃ©es ");
+define("_AM_SYSTEM_MODULES_ACCESS_ADMIN_ADD","Les permissions d'accÃ¨s de l'administrateur ont Ã©tÃ© ajoutÃ©s au groupe ID <strong>%s</strong>");
+define("_AM_SYSTEM_MODULES_ACCESS_ADMIN_ADD_ERROR","ERREUR: Impossible d'ajouter les permissions d'accÃ¨s de l'administrateur au groupe <strong>%s</strong>");
+define("_AM_SYSTEM_MODULES_ACCESS_USER_ADD_ERROR","Permissions d'accÃ¨s \"Utilisateurs\" ont Ã©tÃ© ajoutÃ©es pour le groupe : <strong>%s</strong>");
+define("_AM_SYSTEM_MODULES_ACCESS_USER_ADD_ERROR_ERROR","ERREUR : Impossible d'ajouter les permissions d'accÃ¨s \"Utilisateurs\" au groupe <strong>%s</strong>");
 
 // execute module specific install script if any
-define( "_AM_SYSTEM_MODULES_FAILED_EXECUTE", "Échec lors de l'exécution de <strong>%s</strong>");
-define( "_AM_SYSTEM_MODULES_FAILED_SUCESS", "<strong>%s</strong> a été exécuté(e) correctement.");
-define( "_AM_SYSTEM_MODULES_DELETE_ERROR", "ERREUR : Impossible de supprimer <strong>%s</strong>");
-define( "_AM_SYSTEM_MODULES_UPDATE_ERROR", "ERREUR : Impossible de mettre à jour <strong>%s</strong>");
-define( "_AM_SYSTEM_MODULES_DELETE_MOD_TABLES", "Suppression des tables du module ...");
-define( "_AM_SYSTEM_MODULES_COMMENTS_DELETE", "Suppression des commentaires ...");
-define( "_AM_SYSTEM_MODULES_COMMENTS_DELETE_ERROR", "ERREUR : Impossible de supprimer les commentaires");
-define( "_AM_SYSTEM_MODULES_COMMENTS_DELETED", "Commentaires supprimés");
-define( "_AM_SYSTEM_MODULES_NOTIFICATIONS_DELETE", "Suppression des notifications ...");
-define( "_AM_SYSTEM_MODULES_NOTIFICATIONS_DELETE_ERROR", "ERREUR : Impossible de supprimer les notifications");
-define( "_AM_SYSTEM_MODULES_NOTIFICATIONS_DELETED", "Notifications supprimées");
-define( "_AM_SYSTEM_MODULES_TABLE_DROPPED", "La table <strong>%s</strong> a été supprimée avec succès");
-define( "_AM_SYSTEM_MODULES_TABLE_DROPPED_ERROR", "ERREUR : Impossible de supprimer la table <strong>%s</strong>");
-define( "_AM_SYSTEM_MODULES_TABLE_DROPPED_FAILDED", "ERREUR: Vous n'êtes pas autorisé à supprimer la table <strong>%s</strong> !");
+define("_AM_SYSTEM_MODULES_FAILED_EXECUTE","Ã‰chec lors de l'exÃ©cution de <strong>%s</strong>");
+define("_AM_SYSTEM_MODULES_FAILED_SUCESS","<strong>%s</strong> a Ã©tÃ© exÃ©cutÃ©(e) correctement.");
+define("_AM_SYSTEM_MODULES_DELETE_ERROR","ERREUR : Impossible de supprimer <strong>%s</strong>");
+define("_AM_SYSTEM_MODULES_UPDATE_ERROR","ERREUR : Impossible de mettre Ã  jour <strong>%s</strong>");
+define("_AM_SYSTEM_MODULES_DELETE_MOD_TABLES","Suppression des tables du module ...");
+define("_AM_SYSTEM_MODULES_COMMENTS_DELETE","Suppression des commentaires ...");
+define("_AM_SYSTEM_MODULES_COMMENTS_DELETE_ERROR","ERREUR : Impossible de supprimer les commentaires");
+define("_AM_SYSTEM_MODULES_COMMENTS_DELETED","Commentaires supprimÃ©s");
+define("_AM_SYSTEM_MODULES_NOTIFICATIONS_DELETE","Suppression des notifications ...");
+define("_AM_SYSTEM_MODULES_NOTIFICATIONS_DELETE_ERROR","ERREUR : Impossible de supprimer les notifications");
+define("_AM_SYSTEM_MODULES_NOTIFICATIONS_DELETED","Notifications supprimÃ©es");
+define("_AM_SYSTEM_MODULES_TABLE_DROPPED","La table <strong>%s</strong> a Ã©tÃ© supprimÃ©e avec succÃ¨s");
+define("_AM_SYSTEM_MODULES_TABLE_DROPPED_ERROR","ERREUR : Impossible de supprimer la table <strong>%s</strong>");
+define("_AM_SYSTEM_MODULES_TABLE_DROPPED_FAILDED","ERREUR: Vous n'Ãªtes pas autorisÃ© Ã  supprimer la table <strong>%s</strong> !");
 
 // Tips
 define("_AM_SYSTEM_MODULES_TIPS", 
 "<ul>
-<li>Si vous installez un nouveau module, n'oubliez pas de paramétrer ses préférences, ses blocs et les permissions des utilisateurs !</li>
+<li>Si vous installez un nouveau module, n'oubliez pas de paramÃ©trer ses prÃ©fÃ©rences, ses blocs et les permissions des utilisateurs !</li>
 <li>Pour masquer un module dans le bloc menu principal, cliquez sur l'encoche verte pour le masquer, et sur la croix rouge pour l'afficher.</li>
-<li>Vous devez supprimer de votre serveur les fichiers des modules inutilisés, afin d'éviter des risques d'insécurité et, ainsi préserver le bon fonctionnement de votre site.</li>
-<li>Pour changer l'ordre des modules (ordre qui sera également affiché dans le Menu Principal), vous avez seulement besoin de déplacer par <em>glisser déposer</em>les lignes des modules à l'emplacement désiré dans le tableau</li>
+<li>Vous devez supprimer de votre serveur les fichiers des modules inutilisÃ©s, afin d'Ã©viter des risques d'insÃ©curitÃ© et, ainsi prÃ©server le bon fonctionnement de votre site.</li>
+<li>Pour changer l'ordre des modules (ordre qui sera Ã©galement affichÃ© dans le Menu Principal), vous avez seulement besoin de dÃ©placer par <em>glisser dÃ©poser</em>les lignes des modules Ã  l'emplacement dÃ©sirÃ© dans le tableau</li>
 </ul>");
 define("_AM_SYSTEM_MODULES_CONFIRM_TIPS",
 "<ul>
-<li>Vérifiez toutes les modifications avant de procéder à la validation.</li>
+<li>VÃ©rifiez toutes les modifications avant de procÃ©der Ã  la validation.</li>
 </ul>");
 
 /**
- * @translation     Communauté Francophone des Utilisateurs de Xoops
+ * @translation     CommunautÃ© Francophone des Utilisateurs de Xoops
  * @specification   _LANGCODE: fr
  * @specification   _CHARSET: iso-8859-1
  *
  * @version         $Id $
- Modification et mise à jour par Cesag le 14 Mai 2012.
+ Modification et mise Ã  jour par Cesag le 14 Mai 2012.
 **/
 
 ?>

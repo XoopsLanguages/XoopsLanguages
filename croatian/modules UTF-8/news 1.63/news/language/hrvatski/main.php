@@ -8,7 +8,7 @@ define("_NW_COMMENTS","Komentari?");
 define("_NW_ONECOMMENT","1 komentar");
 define("_NW_BYTESMORE","%s bajta više");
 define("_NW_NUMCOMMENTS","%s komentara");
-define("_NW_MORERELEASES", "Više izdanja u ");
+define("_NW_MORERELEASES","Više izdanja u ");
 
 
 //%%%%%%		File Name submit.php		%%%%%

@@ -60,6 +60,6 @@ define('_AM_SYSTEM_FILEMANAGER_DIR_SUCCESS','Cartella creata con successo');
 define('_AM_SYSTEM_FILEMANAGER_DIR_ERROR','Impossibile creare al cartella');
 define('_AM_SYSTEM_FILEMANAGER_DIR_RYSDEL','Si &egrave; sicuri di voler eliminare questa cartella?');
 define('_AM_SYSTEM_FILEMANAGER_FILE_SUCCESS','File creato con successo');
-define('_AM_SYSTEM_FILEMANAGER_SUREDEL', 'Si &egrave; sicuri di voler eliminare il file %s ?');
-define('_AM_SYSTEM_FILEMANAGER_DIR_SUREDEL', 'Si &egrave; sicuri di voler eliminare la cartella %s ?<br />Attenzione: saranno eliminate tutte le sotto-cartelle e i file in esse contenuti');
+define('_AM_SYSTEM_FILEMANAGER_SUREDEL','Si &egrave; sicuri di voler eliminare il file %s ?');
+define('_AM_SYSTEM_FILEMANAGER_DIR_SUREDEL','Si &egrave; sicuri di voler eliminare la cartella %s ?<br />Attenzione: saranno eliminate tutte le sotto-cartelle e i file in esse contenuti');
 ?>

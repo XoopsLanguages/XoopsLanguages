@@ -105,17 +105,17 @@ define($constpref.'_BNAME_MYWAITINGS','پست‌های منتظر تایید م�
 define($constpref.'_BNAME_TAGS','کلمات کلیدی');
 
 // Notify Categories
-define($constpref.'_NOTCAT_GLOBAL', 'سراسری');
-define($constpref.'_NOTCAT_GLOBALDSC', 'اطلاع رسانی در مورد این ماژول');
+define($constpref.'_NOTCAT_GLOBAL','سراسری');
+define($constpref.'_NOTCAT_GLOBALDSC','اطلاع رسانی در مورد این ماژول');
 define($constpref.'_NOTCAT_CATEGORY','شاخه');
 define($constpref.'_NOTCAT_CATEGORYDSC',' اطلاع رسانی در مورد این شاخه');
 define($constpref.'_NOTCAT_CONTENT','سند');
-define($constpref.'_NOTCAT_CONTENTDSC', ' اطلاع رسانی در مورد این سند');
+define($constpref.'_NOTCAT_CONTENTDSC',' اطلاع رسانی در مورد این سند');
 
 // Each Notifications
-define($constpref.'_NOTIFY_GLOBAL_WAITINGCONTENT', 'منتظر‌ها برای تایید');
-define($constpref.'_NOTIFY_GLOBAL_WAITINGCONTENTCAP', 'چنانچه تغییر و یا پستی منتظر تایید است من را با خبر کن(فقط برای اطلاع رسانی مدیران و وبمستران)');
-define($constpref.'_NOTIFY_GLOBAL_WAITINGCONTENTSBJ', '[{X_SITENAME}] {X_MODULE}: waiting');
+define($constpref.'_NOTIFY_GLOBAL_WAITINGCONTENT','منتظر‌ها برای تایید');
+define($constpref.'_NOTIFY_GLOBAL_WAITINGCONTENTCAP','چنانچه تغییر و یا پستی منتظر تایید است من را با خبر کن(فقط برای اطلاع رسانی مدیران و وبمستران)');
+define($constpref.'_NOTIFY_GLOBAL_WAITINGCONTENTSBJ','[{X_SITENAME}] {X_MODULE}: waiting');
 define($constpref.'_NOTIFY_GLOBAL_NEWCONTENT','سندی جدید');
 define($constpref.'_NOTIFY_GLOBAL_NEWCONTENTCAP','اگر یک سند جدید ثبت شد من را با خبر کن. (فقط برای سند‌ها مجاز باشد)');
 define($constpref.'_NOTIFY_GLOBAL_NEWCONTENTSBJ','[{X_SITENAME}] {X_MODULE} : سندی جدید');

@@ -26,14 +26,14 @@
  */
 
 // Main
-define('_THADMIN_MODULE_NAME', 'ThAdmin');
-define('_THADMIN_MODULE_DESC', 'Met ThAdmin kan je een thema voor de XOOPS administatie instellen');
+define('_THADMIN_MODULE_NAME','ThAdmin');
+define('_THADMIN_MODULE_DESC','Met ThAdmin kan je een thema voor de XOOPS administatie instellen');
 // Menu
-define('_THADMIN_MENU_HOME', 'Home');
-define('_THADMIN_MENU_HELP', 'Help');
+define('_THADMIN_MENU_HOME','Home');
+define('_THADMIN_MENU_HELP','Help');
 // Settings
-define('_THADMIN_ADMINTHEME', 'Standaard Thema');
-define('_THADMIN_ADMINTHEME_DESC', 'Kies het standaard thema voor je XOOPS administratie');
-define('_THADMIN_CPANELEONLY', 'Waarshuwingen weegeven ?');
-define('_THADMIN_CPANELEONLY_DESC', 'Waarshuwingen op de cpanel interface laten zien?');
+define('_THADMIN_ADMINTHEME','Standaard Thema');
+define('_THADMIN_ADMINTHEME_DESC','Kies het standaard thema voor je XOOPS administratie');
+define('_THADMIN_CPANELEONLY','Waarshuwingen weegeven ?');
+define('_THADMIN_CPANELEONLY_DESC','Waarshuwingen op de cpanel interface laten zien?');
 ?>

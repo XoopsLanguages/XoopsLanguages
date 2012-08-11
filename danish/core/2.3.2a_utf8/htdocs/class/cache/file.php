@@ -167,7 +167,7 @@ class XoopsCacheFile extends XoopsCacheEngine
         $expires = time() + $duration;
         if (!empty($this->settings['serialize'])) {
             if ($windows) {
-                $data = str_replace('\\', '\\\\\\\\', serialize($data));
+                $data = str_replace('\\','\\\\\\\\', serialize($data));
             } else {
                 $data = serialize($data);
             }

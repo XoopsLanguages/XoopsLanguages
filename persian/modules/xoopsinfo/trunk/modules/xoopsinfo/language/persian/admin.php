@@ -25,22 +25,22 @@ define("_AM_XI_ADMENU7"," مدیریت فرمت ها");
 define("_AM_XI_GOTOHOMEPAGE","بازگشت به قسمت کاربر");
 define("_AM_XI_MODULEADMIN","- اطلاعات در مورد محیط زوپس شما");
 
-define("_AM_XI_DOWN_SAFEMODESTATUS", "وضعیت safe mode");
-define("_AM_XI_DOWN_REGISTERGLOBALS", "ثبت جهانی");
+define("_AM_XI_DOWN_SAFEMODESTATUS","وضعیت safe mode");
+define("_AM_XI_DOWN_REGISTERGLOBALS","ثبت جهانی");
 define("_AM_XI_DOWN_ALLOW_URL_FOPEN","allow_url_fopen");
 define("_AM_XI_DOWN_USE_TRANS_SID","session.use_trans_sid");
 define("_AM_XI_DOWN_SERVERUPLOADSTATUS","وضعیت بارگذاری روی سرور");
-define("_AM_XI_DOWN_MAXUPLOADSIZE", "بیشتر سایز آپلود فایل");
-define("_AM_XI_DOWN_SAFEMODEPROBLEMS", " ممکن است مشکل ایجاد کند");
-define("_AM_XI_DOWN_GDLIBSTATUS", "پیشتبانی از کتابخانه ی GD");
-define("_AM_XI_DOWN_GDLIBVERSION", "نسخه ی کتاب خانه ی GD");
-define("_AM_XI_DOWN_GDON", " تصاویر تمبری قابل استفاده هستند");
-define("_AM_XI_DOWN_GDOFF", "تصاویر تمبری غیر قابل استفاده هستند");
-define("_AM_XI_DOWN_OFF", "خاموش");
-define("_AM_XI_DOWN_ON", "روشن");
+define("_AM_XI_DOWN_MAXUPLOADSIZE","بیشتر سایز آپلود فایل");
+define("_AM_XI_DOWN_SAFEMODEPROBLEMS"," ممکن است مشکل ایجاد کند");
+define("_AM_XI_DOWN_GDLIBSTATUS","پیشتبانی از کتابخانه ی GD");
+define("_AM_XI_DOWN_GDLIBVERSION","نسخه ی کتاب خانه ی GD");
+define("_AM_XI_DOWN_GDON"," تصاویر تمبری قابل استفاده هستند");
+define("_AM_XI_DOWN_GDOFF","تصاویر تمبری غیر قابل استفاده هستند");
+define("_AM_XI_DOWN_OFF","خاموش");
+define("_AM_XI_DOWN_ON","روشن");
 
 define("_AM_XI_EDITOR_CHECK","وضعیت");
-define("_AM_XI_EDITOR_NAME", "نام ادیتور");
+define("_AM_XI_EDITOR_NAME","نام ادیتور");
 
 define("_AM_XI_EDITOR_NONE","");
 define("_AM_XI_EDITOR_INSTALL_OK","ماژول نصب شده");
@@ -65,10 +65,10 @@ define("_AM_XI_MODULE_FORUM","تالار گفتگو");
 define("_AM_XI_MODULE_BUG","گزارش باگ");
 define("_AM_XI_MODULE_FEATURE","خصوصیت");
 
-define("_AM_XI_XOOPS_VERSION", "نسخه ی زوپس");
+define("_AM_XI_XOOPS_VERSION","نسخه ی زوپس");
 define("_AM_XI_XOOPS_URL","آدرس وب سایت");
 define("_AM_XI_XOOPS_ROOT_PATH","محل فیزیکی زوپس");
-define("_AM_XI_XOOPS_THEME", "قالب پیش فرض");
+define("_AM_XI_XOOPS_THEME","قالب پیش فرض");
 define("_AM_XI_XOOPS_TEMPLATE","انتخاب تمپلیت پیش فرض");
 define("_AM_XI_XOOPS_DEBUG","حالت خطا گیری");
 define("_AM_XI_XOOPS_STARTPAGE","ماژول صفحه ی اول سایت شما");
@@ -80,7 +80,7 @@ define("_AM_XI_PROTECTOR_MODULE_OK","نصب شده");
 define("_AM_XI_PROTECTOR_PRECHECK","Pre check ");
 define("_AM_XI_PROTECTOR_CHECK_ERR"," اگر میخواید  <a target='_blank' href='" . XOOPS_URL . "/modules/protector/docs/README'> قابل نوشتن باشد باید mainfile.php خود را ویرایش کنیدREADME</a>");
 define("_AM_XI_PROTECTOR_PRECHECK_MSG","missing precheck");
-define("_AM_XI_PROTECTOR_POSTCHECK", "Post check");
+define("_AM_XI_PROTECTOR_POSTCHECK","Post check");
 define("_AM_XI_PROTECTOR_POSTCHECK_MSG","missing postcheck");
 define("_AM_XI_PROTECTOR","<font color='#CC0000'>پروتکتو : </font>Temporary disabled");
 
@@ -102,9 +102,9 @@ define("_AM_XI_MYSQL_OCTETS","Octets");
 define("_AM_XI_MYSQL_KOCTETS","Ko");
 
 global $xoopsModule;
-define("_AM_XI_MAKE_UPDATE", "The update of the module was not made : ");
-define("_AM_XI_MAKE_UPGRADE", "نسخه ی جدید <font color='#CC0000'>" . $xoopsModule->name() . "</font> در دسترس است<br />برای دریافت آن به آدرس مقابل بروید:");
-define("_AM_XI_NO_UPGRADE", "شما از آخرین نسخه استفاده میکنید !!!");
+define("_AM_XI_MAKE_UPDATE","The update of the module was not made : ");
+define("_AM_XI_MAKE_UPGRADE","نسخه ی جدید <font color='#CC0000'>" . $xoopsModule->name() . "</font> در دسترس است<br />برای دریافت آن به آدرس مقابل بروید:");
+define("_AM_XI_NO_UPGRADE","شما از آخرین نسخه استفاده میکنید !!!");
 
 define("_AM_XI_MIME_ID","Id");
 define("_AM_XI_MIME_EXT","Extension");
@@ -115,7 +115,7 @@ define("_AM_XI_MIME_GROUPS","گروه ها");
 define("_AM_XI_MIME_MODULES","ماژول: ");
 define("_AM_XI_MIME_MTYPE","نوع: ");
 define("_AM_XI_MIME_STATUS","نمایش");
-define("_AM_XI_MIME_WIDTH", "بیشترین عرض فایل");
+define("_AM_XI_MIME_WIDTH","بیشترین عرض فایل");
 define("_AM_XI_MIME_HEIGHT","بیشترین طول فایل");
 define("_AM_XI_MIME_SIZE","بیشترین سایز فایل");
 define("_AM_XI_MIME_ACTION","فعال");

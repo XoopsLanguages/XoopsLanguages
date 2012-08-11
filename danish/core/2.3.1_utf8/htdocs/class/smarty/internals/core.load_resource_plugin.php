@@ -53,7 +53,7 @@ function smarty_core_load_resource_plugin($params, &$smarty)
         /*
          * Locate functions that we require the plugin to provide.
          */
-        $_resource_ops = array('source', 'timestamp', 'secure', 'trusted');
+        $_resource_ops = array('source','timestamp','secure','trusted');
         $_resource_funcs = array();
         foreach ($_resource_ops as $_op) {
             $_plugin_func = 'smarty_resource_' . $params['type'] . '_' . $_op;

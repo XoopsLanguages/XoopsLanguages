@@ -14,13 +14,13 @@ define("_MI_SYSTEM_BNAME4","Tìm kiếm");//Search
 define("_MI_SYSTEM_BNAME5","Nội dung đang đợi");//Waiting Contents
 define("_MI_SYSTEM_BNAME6","Mục chính");//Main Menu
 define("_MI_SYSTEM_BNAME7","Thông tin về site");//Site Info
-define('_MI_SYSTEM_BNAME8', "Đang trực tuyến");//Who's Online
-define('_MI_SYSTEM_BNAME9', "Thành viên tích cực");//Top Posters
-define('_MI_SYSTEM_BNAME10', "Thành viên mới");//New Members
-define('_MI_SYSTEM_BNAME11', "Bình luận gần đây");//Recent Comments
+define('_MI_SYSTEM_BNAME8',"Đang trực tuyến");//Who's Online
+define('_MI_SYSTEM_BNAME9',"Thành viên tích cực");//Top Posters
+define('_MI_SYSTEM_BNAME10',"Thành viên mới");//New Members
+define('_MI_SYSTEM_BNAME11',"Bình luận gần đây");//Recent Comments
 // RMV-NOTIFY
-define('_MI_SYSTEM_BNAME12', "Tùy chọn thông báo");//Notification Options
-define('_MI_SYSTEM_BNAME13', "Giao diện");//Themes
+define('_MI_SYSTEM_BNAME12',"Tùy chọn thông báo");//Notification Options
+define('_MI_SYSTEM_BNAME13',"Giao diện");//Themes
 
 // Names of admin menu items
 define("_MI_SYSTEM_ADMENU1","Biễn");//Banners
@@ -32,9 +32,9 @@ define("_MI_SYSTEM_ADMENU7","Hình mặt cười");//Smilies
 define("_MI_SYSTEM_ADMENU9","Chức vụ thành viên");//User Ranks
 define("_MI_SYSTEM_ADMENU10","Chỉnh sửa thành viên");//Edit User
 define("_MI_SYSTEM_ADMENU11","Thư đến thành viên");//Mail Users
-define("_MI_SYSTEM_ADMENU12", "Tìm thành viên");//Find Users
-define("_MI_SYSTEM_ADMENU13", "Hình ảnh");//Images
-define("_MI_SYSTEM_ADMENU14", "Hình đại diện");//Avatars
-define("_MI_SYSTEM_ADMENU15", "Khung mẫu");//Templates
-define("_MI_SYSTEM_ADMENU16", "Bình luận");//Comments
+define("_MI_SYSTEM_ADMENU12","Tìm thành viên");//Find Users
+define("_MI_SYSTEM_ADMENU13","Hình ảnh");//Images
+define("_MI_SYSTEM_ADMENU14","Hình đại diện");//Avatars
+define("_MI_SYSTEM_ADMENU15","Khung mẫu");//Templates
+define("_MI_SYSTEM_ADMENU16","Bình luận");//Comments
 ?>

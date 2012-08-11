@@ -18,7 +18,7 @@ define('_MB_SWIKI_NUM_DISP_DESC','Liczba do wyświetlenia');
 define('_MB_SWIKI_SHOWPAGE_DESC','Strona do wyświetlenia');
 
 // Added in SimplyWiki 1.1
-define('_MB_SWIKI_CREATE_DATE', 'Data utworzenia');
+define('_MB_SWIKI_CREATE_DATE','Data utworzenia');
 define('_MB_SWIKI_MODIFIED_DATE','Data modyfikacji');
 define('_MB_SWIKI_LASTVIEWED_DATE','Ostatnio oglądana');
 define('_MB_SWIKI_REVISIONS','Liczba wersji');

@@ -42,13 +42,13 @@
 	define("_MD_XFGB_HEADMSG","Tvoj upis");
 	define("_MD_XFGB_FILEERROR","Gre&scaron;ka: uplodovana slika se nemo&#382;e u&#269;itati.");
 	// add V2.30
-	define('_MD_XFGB_CONFIRM_CODE', "Code upi&scaron;i");
-	define('_MD_XFGB_CONFIRM_CODE_DESC', "Sigurnosni code ");
-	define('_MD_XFGB_CONFIRM_CODE_WRONG', "Potvrdni code nije isti.");
-	define('_MD_XFGB_NOFOLLOW_MSG', "<br /><br /><u>Pa&#382;nja :</u><br />Izbjegavaj uvredljivi upis<br />ina&#269;e &#263;e upis biti izbrisan! ");
-	define('_MD_XFGB_URL_DISABLED', "Dodavanje upisa nije dozvoljeno.");
+	define('_MD_XFGB_CONFIRM_CODE',"Code upi&scaron;i");
+	define('_MD_XFGB_CONFIRM_CODE_DESC',"Sigurnosni code ");
+	define('_MD_XFGB_CONFIRM_CODE_WRONG',"Potvrdni code nije isti.");
+	define('_MD_XFGB_NOFOLLOW_MSG',"<br /><br /><u>Pa&#382;nja :</u><br />Izbjegavaj uvredljivi upis<br />ina&#269;e &#263;e upis biti izbrisan! ");
+	define('_MD_XFGB_URL_DISABLED',"Dodavanje upisa nije dozvoljeno.");
 	// add V2.40
-	define('_MD_XFGB_MODERATED', "Tvoj upis se ne&#263;e objaviti sve dok Webmaster ga ne odobri");
+	define('_MD_XFGB_MODERATED',"Tvoj upis se ne&#263;e objaviti sve dok Webmaster ga ne odobri");
 // contact
 // add V2.2
 	define("_MD_XFGB_FROMUSER","Upis od");

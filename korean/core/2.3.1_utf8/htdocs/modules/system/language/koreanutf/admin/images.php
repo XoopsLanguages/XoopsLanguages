@@ -48,7 +48,7 @@ define('_MD_ASFILE',' 파일로 저장 (in uploads directory)<br />');
 define('_MD_RUDELIMGCAT','정말로 이 카테고리와 카테고리안의 모든 그림파일을 삭제하실 건가요?');
 define('_MD_RUDELIMG','정말로 이 그림파일을 삭제하실 건가요?');
 
-define('_MD_FAILDEL', '그림데이타 %s를 데이타베이스에서 삭제하는데 실패하였습니다. ');
-define('_MD_FAILDELCAT', '카테고리 %s 를 데이타베이스에서 삭제하는데 실패하였습니다.');
-define('_MD_FAILUNLINK', '그림파일 %s 를 서버에서 삭제하는데 실패하였습니다.');
+define('_MD_FAILDEL','그림데이타 %s를 데이타베이스에서 삭제하는데 실패하였습니다. ');
+define('_MD_FAILDELCAT','카테고리 %s 를 데이타베이스에서 삭제하는데 실패하였습니다.');
+define('_MD_FAILUNLINK','그림파일 %s 를 서버에서 삭제하는데 실패하였습니다.');
 ?>

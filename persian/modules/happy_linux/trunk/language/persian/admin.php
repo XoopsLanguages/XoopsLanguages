@@ -14,7 +14,7 @@ define('_HAPPY_LINUX_AM_TEMPLATE_DESC','مدیریت تمپلیت ها');
 define('_HAPPY_LINUX_AM_JUDGE','This program judegs <b>%s</b>');
 define('_HAPPY_LINUX_AM_JUMP','این صفحه به طور اتوماتیک بعد از <b>%s</b> ثانیه ریلود میشود');
 define('_HAPPY_LINUX_AM_JUMP_IFNO1','لطفا در زیر کیلیک کنید, اگر این صفحه به طور اتوماتیک ریلود نشد, یا برنامه mis-judges شده.');
-define('_HAPPY_LINUX_AM_JUMP_IFNO2', 'لطفا وقتی از %s ثانیه طولانی تر شد فایل  <i>modules/happy_linux/preload/admin.php</i>, را تنظیم کنید');
+define('_HAPPY_LINUX_AM_JUMP_IFNO2','لطفا وقتی از %s ثانیه طولانی تر شد فایل  <i>modules/happy_linux/preload/admin.php</i>, را تنظیم کنید');
 
 // 2007-11-01
 define('_HAPPY_LINUX_AM_MODULE','مدیریت ماژول');

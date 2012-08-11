@@ -8,7 +8,7 @@ define("_AM_NEWBB_REORDERFORUM","Novi ordnen");
 define("_AM_NEWBB_FORUM_MANAGER","Fore");
 define("_AM_NEWBB_PRUNE_TITLE","Pokupiti");
 define("_AM_NEWBB_CATADMIN","Kategorije");
-define("_AM_NEWBB_GENERALSET", "Modul-Pode&scaron;avanje" );
+define("_AM_NEWBB_GENERALSET","Modul-Pode&scaron;avanje" );
 define("_AM_NEWBB_MODULEADMIN","Modul-Administracija:");
 define("_AM_NEWBB_HELP","Pomo&#263;");
 define("_AM_NEWBB_ABOUT","O Modulu");
@@ -94,8 +94,8 @@ define("_AM_NEWBB_EDITTHISFORUM","Forum uredi:");
 define("_AM_NEWBB_SET_FORUMORDER","Forumu poziciju odredi:");
 define("_AM_NEWBB_ALLOWPOLLS","Anketu dozvoli?");
 define("_AM_NEWBB_ATTACHMENT_SIZE" ,"Max. Veli&#269;ina u KB:");
-define("_AM_NEWBB_ALLOWED_EXTENSIONS", "Dozvoljeni dodaci:<span style='font-size: xx-small; font-weight: normal; display: block;'>'*' ozna&#269;ava da nema ograni&#269;enja.<br /> Dodatke treba sa ovim znakom '|' rastaviti.</span>");
-define("_AM_NEWBB_ALLOW_ATTACHMENTS", "Zaka&#269;ke dozvoli?");
+define("_AM_NEWBB_ALLOWED_EXTENSIONS","Dozvoljeni dodaci:<span style='font-size: xx-small; font-weight: normal; display: block;'>'*' ozna&#269;ava da nema ograni&#269;enja.<br /> Dodatke treba sa ovim znakom '|' rastaviti.</span>");
+define("_AM_NEWBB_ALLOW_ATTACHMENTS","Zaka&#269;ke dozvoli?");
 define("_AM_NEWBB_ALLOWHTML","HTML dozvoli?");
 define("_AM_NEWBB_YES","Da");
 define("_AM_NEWBB_NO","Ne");
@@ -108,8 +108,8 @@ define("_AM_NEWBB_HOTTOPICTHRESHOLD","Oznaka za 'Vru&#263;e Teme':");
 //define("_AM_NEWBB_SHOWSMILIESPANEL","Show smilies panel:");
 define("_AM_NEWBB_MODERATOR_REMOVE","Trenutne Moderatore izbaci");
 define("_AM_NEWBB_MODERATOR_ADD","Moderatora(e) dodaj");
-define("_AM_NEWBB_ALLOW_SUBJECT_PREFIX", "Teme-Prefixe dozvoli?");
-define("_AM_NEWBB_ALLOW_SUBJECT_PREFIX_DESC", "Ovo dozvoljava Prefixima,da se ozna&#269;ene Teme dodaju.");
+define("_AM_NEWBB_ALLOW_SUBJECT_PREFIX","Teme-Prefixe dozvoli?");
+define("_AM_NEWBB_ALLOW_SUBJECT_PREFIX_DESC","Ovo dozvoljava Prefixima,da se ozna&#269;ene Teme dodaju.");
 
 
 // admin_cat_manager.php
@@ -194,48 +194,48 @@ define("_AM_NEWBB_PERM_SETBYGROUP","Odobrenje za svaku Grupu odredi");
 
 // admin_forum_prune.php
 
-define ("_AM_NEWBB_PRUNE_RESULTS_TITLE","Rezultate pokupi");
-define ("_AM_NEWBB_PRUNE_RESULTS_TOPICS","Pokupljene Teme");
-define ("_AM_NEWBB_PRUNE_RESULTS_POSTS","Pokupljeni Postovi");
-define ("_AM_NEWBB_PRUNE_RESULTS_FORUMS","Pokupljene Fore");
-define ("_AM_NEWBB_PRUNE_STORE","U ovom Forumu memori&scaron;i umjesto da izbri&scaron;e&scaron;:");
-define ("_AM_NEWBB_PRUNE_ARCHIVE","Kopije Postova osiguraj u Arhivi");
-define ("_AM_NEWBB_PRUNE_FORUMSELERROR","Gre&scaron;ka, nema pokupljenih datih Foruma.");
+define("_AM_NEWBB_PRUNE_RESULTS_TITLE","Rezultate pokupi");
+define("_AM_NEWBB_PRUNE_RESULTS_TOPICS","Pokupljene Teme");
+define("_AM_NEWBB_PRUNE_RESULTS_POSTS","Pokupljeni Postovi");
+define("_AM_NEWBB_PRUNE_RESULTS_FORUMS","Pokupljene Fore");
+define("_AM_NEWBB_PRUNE_STORE","U ovom Forumu memori&scaron;i umjesto da izbri&scaron;e&scaron;:");
+define("_AM_NEWBB_PRUNE_ARCHIVE","Kopije Postova osiguraj u Arhivi");
+define("_AM_NEWBB_PRUNE_FORUMSELERROR","Gre&scaron;ka, nema pokupljenih datih Foruma.");
 
-define ("_AM_NEWBB_PRUNE_DAYS","Izbri&scaron;i Teme bez Postova koje su od:");
-define ("_AM_NEWBB_PRUNE_FORUMS","Fore za pokupiti");
-define ("_AM_NEWBB_PRUNE_STICKY","Sticky-Teme zadr&#382;i");
-define ("_AM_NEWBB_PRUNE_DIGEST","Digest zadr&#382;i");
-define ("_AM_NEWBB_PRUNE_LOCK","Geschlossene Themen behalten");
-define ("_AM_NEWBB_PRUNE_HOT","Teme zadr&#382;i koje imaju Postova vi&scaron;e od ovog broja:");
-define ("_AM_NEWBB_PRUNE_SUBMIT","OK");
-define ("_AM_NEWBB_PRUNE_RESET","Vrati kako je bilo");
-define ("_AM_NEWBB_PRUNE_YES","Da");
-define ("_AM_NEWBB_PRUNE_NO","Ne");
-define ("_AM_NEWBB_PRUNE_WEEK","Jedna sedmica");
-define ("_AM_NEWBB_PRUNE_2WEEKS","Dvije sedmice");
-define ("_AM_NEWBB_PRUNE_MONTH","Jedan Mjesec");
-define ("_AM_NEWBB_PRUNE_2MONTH","Dva Mjeseca");
-define ("_AM_NEWBB_PRUNE_4MONTH","&#268;etiri Mjeseca");
-define ("_AM_NEWBB_PRUNE_YEAR","Godinu dana");
-define ("_AM_NEWBB_PRUNE_2YEARS","2 godine");
+define("_AM_NEWBB_PRUNE_DAYS","Izbri&scaron;i Teme bez Postova koje su od:");
+define("_AM_NEWBB_PRUNE_FORUMS","Fore za pokupiti");
+define("_AM_NEWBB_PRUNE_STICKY","Sticky-Teme zadr&#382;i");
+define("_AM_NEWBB_PRUNE_DIGEST","Digest zadr&#382;i");
+define("_AM_NEWBB_PRUNE_LOCK","Geschlossene Themen behalten");
+define("_AM_NEWBB_PRUNE_HOT","Teme zadr&#382;i koje imaju Postova vi&scaron;e od ovog broja:");
+define("_AM_NEWBB_PRUNE_SUBMIT","OK");
+define("_AM_NEWBB_PRUNE_RESET","Vrati kako je bilo");
+define("_AM_NEWBB_PRUNE_YES","Da");
+define("_AM_NEWBB_PRUNE_NO","Ne");
+define("_AM_NEWBB_PRUNE_WEEK","Jedna sedmica");
+define("_AM_NEWBB_PRUNE_2WEEKS","Dvije sedmice");
+define("_AM_NEWBB_PRUNE_MONTH","Jedan Mjesec");
+define("_AM_NEWBB_PRUNE_2MONTH","Dva Mjeseca");
+define("_AM_NEWBB_PRUNE_4MONTH","&#268;etiri Mjeseca");
+define("_AM_NEWBB_PRUNE_YEAR","Godinu dana");
+define("_AM_NEWBB_PRUNE_2YEARS","2 godine");
 
 // About.php constants
-define('_AM_NEWBB_AUTHOR_INFO', "Autora-informacije");
-define('_AM_NEWBB_AUTHOR_NAME', "Autor");
-define('_AM_NEWBB_AUTHOR_WEBSITE', "Web stranica Autora");
-define('_AM_NEWBB_AUTHOR_EMAIL', "E-Mail od Autora");
-define('_AM_NEWBB_AUTHOR_CREDITS', "Kredit");
-define('_AM_NEWBB_MODULE_INFO', "Modula informacije");
-define('_AM_NEWBB_MODULE_STATUS', "Status");
-define('_AM_NEWBB_MODULE_DEMO', "Demo Web stranica");
-define('_AM_NEWBB_MODULE_SUPPORT', "Offizielle Supportwebsite");
-define('_AM_NEWBB_MODULE_BUG', "Prijavi gre&scaron;ku Modula");
-define('_AM_NEWBB_MODULE_FEATURE', "Daj predlog za pobolj&scaron;anje Modula");
-define('_AM_NEWBB_MODULE_DISCLAIMER', "Pravilnik");
-define('_AM_NEWBB_AUTHOR_WORD', "Primjedba pronalaza&#269;a");
+define('_AM_NEWBB_AUTHOR_INFO',"Autora-informacije");
+define('_AM_NEWBB_AUTHOR_NAME',"Autor");
+define('_AM_NEWBB_AUTHOR_WEBSITE',"Web stranica Autora");
+define('_AM_NEWBB_AUTHOR_EMAIL',"E-Mail od Autora");
+define('_AM_NEWBB_AUTHOR_CREDITS',"Kredit");
+define('_AM_NEWBB_MODULE_INFO',"Modula informacije");
+define('_AM_NEWBB_MODULE_STATUS',"Status");
+define('_AM_NEWBB_MODULE_DEMO',"Demo Web stranica");
+define('_AM_NEWBB_MODULE_SUPPORT',"Offizielle Supportwebsite");
+define('_AM_NEWBB_MODULE_BUG',"Prijavi gre&scaron;ku Modula");
+define('_AM_NEWBB_MODULE_FEATURE',"Daj predlog za pobolj&scaron;anje Modula");
+define('_AM_NEWBB_MODULE_DISCLAIMER',"Pravilnik");
+define('_AM_NEWBB_AUTHOR_WORD',"Primjedba pronalaza&#269;a");
 define('_AM_NEWBB_BY','Od');
-define('_AM_NEWBB_AUTHOR_WORD_EXTRA', "
+define('_AM_NEWBB_AUTHOR_WORD_EXTRA',"
 ");
 
 // admin_report.php
@@ -253,23 +253,23 @@ define("_AM_NEWBB_DIGESTADMIN","Digest Menadzer");
 define("_AM_NEWBB_DIGESTCONTENT","Digest sadr&#382;aj");
 
 // admin_votedata.php
-define("_AM_NEWBB_VOTE_RATINGINFOMATION", "Informacije glasanja");
-define("_AM_NEWBB_VOTE_TOTALVOTES", "Ukupno glasova: ");
-define("_AM_NEWBB_VOTE_REGUSERVOTES", "Glasovi registrovanih: %s");
-define("_AM_NEWBB_VOTE_ANONUSERVOTES", "Glasovi gostiju: %s");
-define("_AM_NEWBB_VOTE_USER", "&#268;lan");
-define("_AM_NEWBB_VOTE_IP", "IP-Adresa");
-define("_AM_NEWBB_VOTE_USERAVG", "Prosje&#269;na ocjena");
-define("_AM_NEWBB_VOTE_TOTALRATE", "Ukupni broj ocjena");
-define("_AM_NEWBB_VOTE_DATE", "Podatak glasanja");
-define("_AM_NEWBB_VOTE_RATING", "Ocjena");
-define("_AM_NEWBB_VOTE_NOREGVOTES", "Registrovani nemogu glasati.");
-define("_AM_NEWBB_VOTE_NOUNREGVOTES", "Gosti nemogu glasati.");
-define("_AM_NEWBB_VOTEDELETED", "Glasanje je izbrisano.");
-define("_AM_NEWBB_VOTE_ID", "ID");
-define("_AM_NEWBB_VOTE_FILETITLE", "Naslov Teme");
-define("_AM_NEWBB_VOTE_DISPLAYVOTES", "Informacija glasanja");
-define("_AM_NEWBB_VOTE_NOVOTES", "Nema glasova");
-define("_AM_NEWBB_VOTE_DELETE", "Glasanje izbri&scaron;i?");
-define("_AM_NEWBB_VOTE_DELETEDSC", "<b>Bri&scaron;i</b> izabrana glasanja iz Baze podataka.");
+define("_AM_NEWBB_VOTE_RATINGINFOMATION","Informacije glasanja");
+define("_AM_NEWBB_VOTE_TOTALVOTES","Ukupno glasova: ");
+define("_AM_NEWBB_VOTE_REGUSERVOTES","Glasovi registrovanih: %s");
+define("_AM_NEWBB_VOTE_ANONUSERVOTES","Glasovi gostiju: %s");
+define("_AM_NEWBB_VOTE_USER","&#268;lan");
+define("_AM_NEWBB_VOTE_IP","IP-Adresa");
+define("_AM_NEWBB_VOTE_USERAVG","Prosje&#269;na ocjena");
+define("_AM_NEWBB_VOTE_TOTALRATE","Ukupni broj ocjena");
+define("_AM_NEWBB_VOTE_DATE","Podatak glasanja");
+define("_AM_NEWBB_VOTE_RATING","Ocjena");
+define("_AM_NEWBB_VOTE_NOREGVOTES","Registrovani nemogu glasati.");
+define("_AM_NEWBB_VOTE_NOUNREGVOTES","Gosti nemogu glasati.");
+define("_AM_NEWBB_VOTEDELETED","Glasanje je izbrisano.");
+define("_AM_NEWBB_VOTE_ID","ID");
+define("_AM_NEWBB_VOTE_FILETITLE","Naslov Teme");
+define("_AM_NEWBB_VOTE_DISPLAYVOTES","Informacija glasanja");
+define("_AM_NEWBB_VOTE_NOVOTES","Nema glasova");
+define("_AM_NEWBB_VOTE_DELETE","Glasanje izbri&scaron;i?");
+define("_AM_NEWBB_VOTE_DELETEDSC","<b>Bri&scaron;i</b> izabrana glasanja iz Baze podataka.");
 ?>

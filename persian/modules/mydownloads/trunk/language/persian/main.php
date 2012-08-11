@@ -5,7 +5,7 @@
 define("_MD_THANKSFORINFO","از آگاهی های شما سپاسگذاریم , در کوتاه ترین زمان به درخواست شما رسیدگی خواهد شد.");
 define("_MD_THANKSFORHELP","سپاس بی پایان از تلاش شما برای به روز نگهداری سایت و ادامه کار آن.");
 define("_MD_FORSECURITY","برای مسایل امنیتی شماره IP و شناسه کاربری شما نگهداری خواهد شد.");
-define("_MD_NOPERMISETOLINK", "این فایل از سایت شما نیست <br /><br />لطفا به مدیر سایتتون بگید :<br /><b>خون آشام بازی در نیار و لینکهای سایتهای دیگران را نخور.</b> <br /><br /><b>ویژگی های یک خون آشام:</b> یه آدم تنبل که لینک های سایتهای دیگران را میدزده و جوری نشون میده که انگار همه زحمت ها رو اون کشیده<br /><br />  شماره IP <b>نگهداری شد</b>.");
+define("_MD_NOPERMISETOLINK","این فایل از سایت شما نیست <br /><br />لطفا به مدیر سایتتون بگید :<br /><b>خون آشام بازی در نیار و لینکهای سایتهای دیگران را نخور.</b> <br /><br /><b>ویژگی های یک خون آشام:</b> یه آدم تنبل که لینک های سایتهای دیگران را میدزده و جوری نشون میده که انگار همه زحمت ها رو اون کشیده<br /><br />  شماره IP <b>نگهداری شد</b>.");
 define("_MD_ALL","همه");
 define("_MD_DESCRIPTION","توضیح");
 define("_MD_SEARCH","جستجو");
@@ -63,8 +63,8 @@ define("_MD_NUMBYTES","%s بایت");
 define("_MD_PLATFORMC","سیستم عامل: ");
 define("_MD_SHOTIMAGE","تصویر :  ");
 define("_MD_SENDREQUEST","فرستادن درخواست");
-define("_MD_OPTIONS", 'گزینه ها');
-define("_MD_NOTIFYAPPROVE", 'هنگامی که فایل قبول شد به من خبر بده');
+define("_MD_OPTIONS",'گزینه ها');
+define("_MD_NOTIFYAPPROVE",'هنگامی که فایل قبول شد به من خبر بده');
 
 
 define("_MD_VOTEAPPRE","رای شما محفوظ است");
@@ -191,12 +191,12 @@ define("_MD_UPLOAD_FILE","يا انتخاب فايل براي آپلود :");
 define('_MD_UPLOAD_ERROR','خطا در آپلود فايل');
 define("_MD_SUMMARY","وضعيت");
 define("_AM_MD_GO_TO_MODULE","برو به ماژول");
-define("_AM_MD_ADMINISTRATION", "مديريت");
-define("_AM_MD_DEL_ITEM", "شما مطمئني مي خواهيد اين فايل پاك شود؟");
+define("_AM_MD_ADMINISTRATION","مديريت");
+define("_AM_MD_DEL_ITEM","شما مطمئني مي خواهيد اين فايل پاك شود؟");
 
 // Version 1.5
-define("_MD_PERM_VIEW", "دسترسي براي ديدن");
-define("_MD_PERM_VIEW_DSC", "انتخاب گروه هايي كه مي توانند شاخه ها را ببينند");
-define("_MD_PERM_SUBMIT", "دسترسي براي ارسال");
-define("_MD_PERM_SUBMIT_DSC", "انتخاب گروه هايي كه مي توانند ارسال كنند");
+define("_MD_PERM_VIEW","دسترسي براي ديدن");
+define("_MD_PERM_VIEW_DSC","انتخاب گروه هايي كه مي توانند شاخه ها را ببينند");
+define("_MD_PERM_SUBMIT","دسترسي براي ارسال");
+define("_MD_PERM_SUBMIT_DSC","انتخاب گروه هايي كه مي توانند ارسال كنند");
 ?>

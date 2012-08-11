@@ -17,5 +17,5 @@
 // _LANGCODE: pl
 // _CHARSET : UTF-8
 // Translator: Jarek Wiktorowicz  <www.jarek.wiktorowicz.pl> 
-define("_XOOPS_EDITOR_TEXTAREA", "Zwykły tekst");
+define("_XOOPS_EDITOR_TEXTAREA","ZwykÃ…â€šy tekst");
 ?>

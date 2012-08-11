@@ -5,9 +5,9 @@ define("_MI_INFO_DESC","Modul za pravljenje Stranica sa svojom Navigacijom.");
 define("_MI_INFO_PRINTER","Verzija &Scaron;tampanja");
 
 define("_MI_INFO_BLOCK1","Zabavnika Meni blok");
-define("_MI_INFO_BLOCK1_DESC", "Napravi Meni blok u navigaciji");
-define("_MI_INFO_BLOCK2", "Zabavnika slobodni Blok");
-define("_MI_INFO_BLOCK2_DESC", "Prikazuje se bilo kakav sadr&#382;aj u Bloku");
+define("_MI_INFO_BLOCK1_DESC","Napravi Meni blok u navigaciji");
+define("_MI_INFO_BLOCK2","Zabavnika slobodni Blok");
+define("_MI_INFO_BLOCK2_DESC","Prikazuje se bilo kakav sadr&#382;aj u Bloku");
 
 define("_MI_INFO_CONF1","Izbor Editora dozvoliti");
 define("_MI_INFO_CONF1_DESC","Da je dozvola za izbor Editora u formularu / Ne je onda samo standardni Editor sistema na usluzi");
@@ -17,7 +17,7 @@ define("_MI_INFO_CONF4","Prikazati zadnje promjene");
 define("_MI_INFO_CONF4_DESC","");
 define("_MI_INFO_CONF5","Prikazati blokove, zaustaviti prikazivanje prilikom pisanja");
 define("_MI_INFO_CONF5_DESC","Kod Da se u lijevi i desni blokovi kod submit.php ne prikazuju");
-define("_MI_INFO_TEMPL1", "Stranice Layout");
+define("_MI_INFO_TEMPL1","Stranice Layout");
 define("_MI_INFO_LASTD1","Bez prikazivanja");
 define("_MI_INFO_LASTD2","Kratki prikaz (=> ".date(_SHORTDATESTRING,time()).")");
 define("_MI_INFO_LASTD3","Normalno prikazivanje (=> ".date(_MEDIUMDATESTRING,time()).")");

@@ -75,18 +75,18 @@ define('_MI_SWIKI_BLOCK_TAGCLOUD_DESC','Chmura tagów (linków) dla SimplyWiki')
 define('_MI_SWIKI_BLOCK_TAG_NAME','Wiki Top Tags');
 define('_MI_SWIKI_BLOCK_TAG_DESC','Lista top tagów (linków) dla SimplyWiki');
 define('_MI_SWIKI_PAGEINFO','Pokaż informacje o stronie');
-define('_MI_SWIKI_PAGEINFO_DESC', 'Wybierz jakie informacje pokazywać na stronie');
+define('_MI_SWIKI_PAGEINFO_DESC','Wybierz jakie informacje pokazywać na stronie');
 define('_MI_SWIKI_SHOWREVISIONS','Pokaż liczbę aktualizacji');
 define('_MI_SWIKI_SHOWVIEWS','Pokaż liczbę odsłon');
 define('_MI_SWIKI_SHOWCREATED','Pokaż datę utworzenia i pierwszego autora');
 define('_MI_SWIKI_SHOWLASTREVISED','Pokaż datę ostatniej aktualizacji');
 define('_MI_SWIKI_LASTVIEWED','Pokaż datę ostatniej odsłony');
 define('_MI_SWIKI_USECAPTCHA','Włącz CAPTCHA (Antyspam)');
-define('_MI_SWIKI_USECAPTCHA_DESC', 'Wyświetl obrazek "przepisz litery z obrazka" w formularzu edycji');
+define('_MI_SWIKI_USECAPTCHA_DESC','Wyświetl obrazek "przepisz litery z obrazka" w formularzu edycji');
 define('_MI_SWIKI_SHOWQUICKADD','Włącz mechanizm Szybko Dodaj');
-define('_MI_SWIKI_SHOWQUICKADD_DESC', 'Ustawienie <em>Tak (Yes)</em> powoduje wyświetlanie pola Szybko Dodaj, pozwalającego pisarzom(autorom) wpisać nazwę strony i od razu przejść do jej edycji');
-define('_MI_SWIKI_TOPPAGE', 'Indeks stron');
-define('_MI_SWIKI_TOPPAGE_DESC', 'Strona do pokazania na na głównej stronie modułu');
+define('_MI_SWIKI_SHOWQUICKADD_DESC','Ustawienie <em>Tak (Yes)</em> powoduje wyświetlanie pola Szybko Dodaj, pozwalającego pisarzom(autorom) wpisać nazwę strony i od razu przejść do jej edycji');
+define('_MI_SWIKI_TOPPAGE','Indeks stron');
+define('_MI_SWIKI_TOPPAGE_DESC','Strona do pokazania na na głównej stronie modułu');
 
 // Added in SimplyWiki 1.2
 define('_MI_SWIKI_PAGERESTORE_TITLE','Ta strona przywrócona');

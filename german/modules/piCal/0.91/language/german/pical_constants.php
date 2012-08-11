@@ -16,7 +16,7 @@ define('_PICAL_FMT_DHI','%1$s %2$s:%3$s');
 define('_PICAL_FMT_HI','%1$s:%2$s');
 define('_PICAL_TH_TIMEZONE','Zeitzone');
 
-define( 'PICAL_CNST_LOADED' , 1 ) ;
+define('PICAL_CNST_LOADED' , 1 ) ;
 
 
 // format for date()  see http://de.php.net/date

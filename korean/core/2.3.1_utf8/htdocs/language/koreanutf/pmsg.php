@@ -65,8 +65,8 @@ define("_PM_DATE","발송일시");
 define("_PM_NOTREAD","미독");
 define("_PM_SEND","발송");
 define("_PM_DELETE","삭제");
-define("_PM_REPLY", "답장");
+define("_PM_REPLY","답장");
 define("_PM_PLZREG","PM쪽지를 사용하시려면 먼저 회원등록을 하셔야 합니다.");
 
-define("_PM_ONLINE", "온라인");
+define("_PM_ONLINE","온라인");
 ?>

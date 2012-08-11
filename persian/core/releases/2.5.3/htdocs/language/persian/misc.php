@@ -45,8 +45,8 @@ define('_MSC_CLICKASMILIE','روی يک تصویر کليک کنيد تا در �
 define('_MSC_CODE','کد');
 define('_MSC_EMOTION','احساس');
 
-define('_MSC_CLICK_TO_OPEN_IMAGE', 'برای دیدن تصویر اصلی در صفحه جدید کلیک کنید.');
-define('_MSC_RESIZED_IMAGE', 'تصویر کوچک شده');
-define('_MSC_ORIGINAL_IMAGE', 'تصویر اصلی');
+define('_MSC_CLICK_TO_OPEN_IMAGE','برای دیدن تصویر اصلی در صفحه جدید کلیک کنید.');
+define('_MSC_RESIZED_IMAGE','تصویر کوچک شده');
+define('_MSC_ORIGINAL_IMAGE','تصویر اصلی');
 
 ?>

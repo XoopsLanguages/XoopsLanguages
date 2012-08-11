@@ -4,24 +4,24 @@
 // _CHARSET : EUC-JP
 // Translator: XOOPS Translation Team
 //%%%%%%    File Name search.php    %%%%%
-define('_SR_SEARCH', '¸¡º÷');
-define('_SR_PLZENTER', 'É¬¿Ü¥Ç¡¼¥¿¤ò¤¹¤Ù¤ÆÆþÎÏ¤·¤Æ¤¯¤À¤µ¤¤¡ª');
-define('_SR_SEARCHRESULTS', '¸¡º÷·ë²Ì');
-define('_SR_NOMATCH', '³ºÅö¥Ç¡¼¥¿¤Ï¤ß¤Ä¤«¤ê¤Þ¤»¤ó¤Ç¤·¤¿');
-define('_SR_FOUND', '<strong>%s</strong> ·ï ¸«¤Ä¤«¤ê¤Þ¤·¤¿');
-define('_SR_SHOWING', '( %d ¡Á %d ·ïÌÜ¤òÉ½¼¨)');
-define('_SR_ANY', '¤¤¤º¤ì¤« (OR)');
-define('_SR_ALL', '¤¹¤Ù¤Æ (AND)');
-define("_SR_EXACT", "Àµ³Î¤Ë¥Þ¥Ã¥Á");
-define('_SR_SHOWALLR', '¤¹¤Ù¤ÆÉ½¼¨');
-define('_SR_NEXT', '¼¡ ¢ª');
-define('_SR_PREVIOUS', '¢« Á°');
-define('_SR_KEYWORDS', '¥­¡¼¥ï¡¼¥É');
-define('_SR_TYPE', '¼ïÎà');
-define('_SR_SEARCHIN', '¸¡º÷ÂÐ¾Ý¤Î¥â¥¸¥å¡¼¥ë');
-define('_SR_KEYTOOSHORT', '¥­¡¼¥ï¡¼¥É¤Ï <strong>%s</strong> Ê¸»ú°Ê¾å¤Ç»ØÄê¤·¤Æ¤¯¤À¤µ¤¤');
-define('_SR_KEYIGNORE', 'Ê¸»ú¿ô¤¬ <strong>%s</strong> Ê¸»úÌ¤Ëþ¤Î¥­¡¼¥ï¡¼¥É¤ÏÌµ»ë¤µ¤ì¤Þ¤¹¡£');
-define('_SR_SEARCHRULE', '¸¡º÷¥ë¡¼¥ë');
-define('_SR_IGNOREDWORDS', '¼¡¤Î¸ì¶ç¤ÏÃ»¤¹¤®¤ë¡Ê %u Ê¸»ú°Ê²¼¡Ë¤¿¤á¡¢¸¡º÷ÂÐ¾Ý¤Ë¤Ê¤Ã¤Æ¤¤¤Þ¤»¤ó');
+define('_SR_SEARCH','ï¿½ï¿½ï¿½ï¿½');
+define('_SR_PLZENTER','É¬ï¿½Ü¥Ç¡ï¿½ï¿½ï¿½ï¿½ò¤¹¤Ù¤ï¿½ï¿½ï¿½ï¿½Ï¤ï¿½ï¿½Æ¤ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½');
+define('_SR_SEARCHRESULTS','ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½');
+define('_SR_NOMATCH','ï¿½ï¿½ï¿½ï¿½ï¿½Ç¡ï¿½ï¿½ï¿½ï¿½Ï¤ß¤Ä¤ï¿½ï¿½ï¿½Þ¤ï¿½ï¿½ï¿½Ç¤ï¿½ï¿½ï¿½');
+define('_SR_FOUND','<strong>%s</strong> ï¿½ï¿½ ï¿½ï¿½ï¿½Ä¤ï¿½ï¿½ï¿½Þ¤ï¿½ï¿½ï¿½');
+define('_SR_SHOWING','( %d ï¿½ï¿½ %d ï¿½ï¿½ï¿½Ü¤ï¿½É½ï¿½ï¿½)');
+define('_SR_ANY','ï¿½ï¿½ï¿½ï¿½ï¿½ì¤« (OR)');
+define('_SR_ALL','ï¿½ï¿½ï¿½Ù¤ï¿½ (AND)');
+define("_SR_EXACT","ï¿½ï¿½ï¿½Î¤Ë¥Þ¥Ã¥ï¿½");
+define('_SR_SHOWALLR','ï¿½ï¿½ï¿½Ù¤ï¿½É½ï¿½ï¿½');
+define('_SR_NEXT','ï¿½ï¿½ ï¿½ï¿½');
+define('_SR_PREVIOUS','ï¿½ï¿½ ï¿½ï¿½');
+define('_SR_KEYWORDS','ï¿½ï¿½ï¿½ï¿½ï¿½ï¡¼ï¿½ï¿½');
+define('_SR_TYPE','ï¿½ï¿½ï¿½ï¿½');
+define('_SR_SEARCHIN','ï¿½ï¿½ï¿½ï¿½ï¿½Ð¾Ý¤Î¥â¥¸ï¿½å¡¼ï¿½ï¿½');
+define('_SR_KEYTOOSHORT','ï¿½ï¿½ï¿½ï¿½ï¿½ï¡¼ï¿½É¤ï¿½ <strong>%s</strong> Ê¸ï¿½ï¿½ï¿½Ê¾ï¿½Ç»ï¿½ï¿½ê¤·ï¿½Æ¤ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½');
+define('_SR_KEYIGNORE','Ê¸ï¿½ï¿½ï¿½ï¿½ï¿½ <strong>%s</strong> Ê¸ï¿½ï¿½Ì¤ï¿½ï¿½ï¿½Î¥ï¿½ï¿½ï¿½ï¿½ï¡¼ï¿½É¤ï¿½Ìµï¿½ë¤µï¿½ï¿½Þ¤ï¿½ï¿½ï¿½');
+define('_SR_SEARCHRULE','ï¿½ï¿½ï¿½ï¿½ï¿½ë¡¼ï¿½ï¿½');
+define('_SR_IGNOREDWORDS','ï¿½ï¿½ï¿½Î¸ï¿½ï¿½ï¿½Ã»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ %u Ê¸ï¿½ï¿½ï¿½Ê²ï¿½ï¿½Ë¤ï¿½ï¿½á¡¢ï¿½ï¿½ï¿½ï¿½ï¿½Ð¾Ý¤Ë¤Ê¤Ã¤Æ¤ï¿½ï¿½Þ¤ï¿½ï¿½ï¿½');
 
 ?>

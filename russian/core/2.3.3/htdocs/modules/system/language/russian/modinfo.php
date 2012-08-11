@@ -23,8 +23,8 @@ define('_MI_SYSTEM_BNAME9',"Лучшие отправители");
 define('_MI_SYSTEM_BNAME10',"Новые участники");
 define('_MI_SYSTEM_BNAME11',"Новые комментарии");
 // RMV-NOTIFY
-define('_MI_SYSTEM_BNAME12', "Настройки оповещения");
-define('_MI_SYSTEM_BNAME13', "Темы оформления");
+define('_MI_SYSTEM_BNAME12',"Настройки оповещения");
+define('_MI_SYSTEM_BNAME13',"Темы оформления");
 
 // названия пунктов меню администратора
 define("_MI_SYSTEM_ADMENU1","Баннеры");

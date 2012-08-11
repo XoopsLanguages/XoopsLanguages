@@ -451,7 +451,7 @@ class PHPMailer {
 
     $to = '';
     for($i = 0; $i < count($this->to); $i++) {
-      if($i != 0) { $to .= ', '; }
+      if($i != 0) { $to .= ','; }
       $to .= $this->AddrFormat($this->to[$i]);
     }
 
@@ -534,7 +534,7 @@ class PHPMailer {
     if(count($bad_rcpt) > 0) { // Create error message
       for($i = 0; $i < count($bad_rcpt); $i++) {
         if($i != 0) {
-          $error .= ', ';
+          $error .= ',';
         }
         $error .= $bad_rcpt[$i];
       }
@@ -660,7 +660,7 @@ class PHPMailer {
     $addr_str .= $this->AddrFormat($addr[0]);
     if(count($addr) > 1) {
       for($i = 1; $i < count($addr); $i++) {
-        $addr_str .= ', ' . $this->AddrFormat($addr[$i]);
+        $addr_str .= ',' . $this->AddrFormat($addr[$i]);
       }
     }
     $addr_str .= $this->LE;
@@ -803,7 +803,7 @@ class PHPMailer {
       if(count($this->to) > 0) {
         $result .= $this->AddrAppend('To', $this->to);
       } elseif (count($this->cc) == 0) {
-        $result .= $this->HeaderLine('To', 'undisclosed-recipients:;');
+        $result .= $this->HeaderLine('To','undisclosed-recipients:;');
       }
       if(count($this->cc) > 0) {
         $result .= $this->AddrAppend('Cc', $this->cc);
@@ -836,17 +836,17 @@ class PHPMailer {
 
     $result .= sprintf("Message-ID: <%s@%s>%s", $uniq_id, $this->ServerHostname(), $this->LE);
     $result .= $this->HeaderLine('X-Priority', $this->Priority);
-    $result .= $this->HeaderLine('X-Mailer', 'PHPMailer (phpmailer.sourceforge.net) [version ' . $this->Version . ']');
+    $result .= $this->HeaderLine('X-Mailer','PHPMailer (phpmailer.sourceforge.net) [version ' . $this->Version . ']');
 
     if($this->ConfirmReadingTo != '') {
-      $result .= $this->HeaderLine('Disposition-Notification-To', '<' . trim($this->ConfirmReadingTo) . '>');
+      $result .= $this->HeaderLine('Disposition-Notification-To','<' . trim($this->ConfirmReadingTo) . '>');
     }
 
     // Add custom headers
     for($index = 0; $index < count($this->CustomHeader); $index++) {
       $result .= $this->HeaderLine(trim($this->CustomHeader[$index][0]), $this->EncodeHeader(trim($this->CustomHeader[$index][1])));
     }
-    $result .= $this->HeaderLine('MIME-Version', '1.0');
+    $result .= $this->HeaderLine('MIME-Version','1.0');
 
     switch($this->message_type) {
       case 'plain':
@@ -859,12 +859,12 @@ class PHPMailer {
         if($this->InlineImageExists()){
           $result .= sprintf("Content-Type: %s;%s\ttype=\"text/html\";%s\tboundary=\"%s\"%s", 'multipart/related', $this->LE, $this->LE, $this->boundary[1], $this->LE);
         } else {
-          $result .= $this->HeaderLine('Content-Type', 'multipart/mixed;');
+          $result .= $this->HeaderLine('Content-Type','multipart/mixed;');
           $result .= $this->TextLine("\tboundary=\"" . $this->boundary[1] . '"');
         }
         break;
       case 'alt':
-        $result .= $this->HeaderLine('Content-Type', 'multipart/alternative;');
+        $result .= $this->HeaderLine('Content-Type','multipart/alternative;');
         $result .= $this->TextLine("\tboundary=\"" . $this->boundary[1] . '"');
         break;
     }
@@ -888,10 +888,10 @@ class PHPMailer {
 
     switch($this->message_type) {
       case 'alt':
-        $result .= $this->GetBoundary($this->boundary[1], '', 'text/plain', '');
+        $result .= $this->GetBoundary($this->boundary[1], '','text/plain','');
         $result .= $this->EncodeString($this->AltBody, $this->Encoding);
         $result .= $this->LE.$this->LE;
-        $result .= $this->GetBoundary($this->boundary[1], '', 'text/html', '');
+        $result .= $this->GetBoundary($this->boundary[1], '','text/html','');
         $result .= $this->EncodeString($this->Body, $this->Encoding);
         $result .= $this->LE.$this->LE;
         $result .= $this->EndBoundary($this->boundary[1]);
@@ -900,7 +900,7 @@ class PHPMailer {
         $result .= $this->EncodeString($this->Body, $this->Encoding);
         break;
       case 'attachments':
-        $result .= $this->GetBoundary($this->boundary[1], '', '', '');
+        $result .= $this->GetBoundary($this->boundary[1], '','','');
         $result .= $this->EncodeString($this->Body, $this->Encoding);
         $result .= $this->LE;
         $result .= $this->AttachAll();
@@ -908,10 +908,10 @@ class PHPMailer {
       case 'alt_attachments':
         $result .= sprintf("--%s%s", $this->boundary[1], $this->LE);
         $result .= sprintf("Content-Type: %s;%s" . "\tboundary=\"%s\"%s", 'multipart/alternative', $this->LE, $this->boundary[2], $this->LE.$this->LE);
-        $result .= $this->GetBoundary($this->boundary[2], '', 'text/plain', '') . $this->LE; // Create text body
+        $result .= $this->GetBoundary($this->boundary[2], '','text/plain','') . $this->LE; // Create text body
         $result .= $this->EncodeString($this->AltBody, $this->Encoding);
         $result .= $this->LE.$this->LE;
-        $result .= $this->GetBoundary($this->boundary[2], '', 'text/html', '') . $this->LE; // Create the HTML body
+        $result .= $this->GetBoundary($this->boundary[2], '','text/html','') . $this->LE; // Create the HTML body
         $result .= $this->EncodeString($this->Body, $this->Encoding);
         $result .= $this->LE.$this->LE;
         $result .= $this->EndBoundary($this->boundary[2]);
@@ -1268,7 +1268,7 @@ class PHPMailer {
     }
 
     /* Replace every spaces to _ (more readable than =20) */
-    $encoded = str_replace(' ', '_', $encoded);
+    $encoded = str_replace(' ','_', $encoded);
 
     return $encoded;
   }
@@ -1665,7 +1665,7 @@ class PHPMailer {
    * Set (or reset) Class Objects (variables)
    *
    * Usage Example:
-   * $page->set('X-Priority', '3');
+   * $page->set('X-Priority','3');
    *
    * @access public
    * @param string $name Parameter Name

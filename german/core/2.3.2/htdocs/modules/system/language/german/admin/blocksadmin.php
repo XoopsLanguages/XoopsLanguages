@@ -4,12 +4,12 @@
 define('_AM_DBUPDATED',_MD_AM_DBUPDATED);
 
 //%%%%%%	blocks.php 	%%%%%
-define('_AM_BADMIN', 'Blockadministration');
-define('_AM_ADDBLOCK', 'Neuen Block erstellen');
-define('_AM_LISTBLOCK', 'Alle Blöcke auflisten');
-define('_AM_SIDE', 'Seite');
-define('_AM_BLKDESC', 'Blockbeschreibung');
-define('_AM_TITLE', 'Titel');
+define('_AM_BADMIN','Blockadministration');
+define('_AM_ADDBLOCK','Neuen Block erstellen');
+define('_AM_LISTBLOCK','Alle Blöcke auflisten');
+define('_AM_SIDE','Seite');
+define('_AM_BLKDESC','Blockbeschreibung');
+define('_AM_TITLE','Titel');
 define('_AM_WEIGHT','Position');
 define('_AM_ACTION','Aktion');
 define('_AM_BLKTYPE','Blocktyp');
@@ -51,26 +51,26 @@ define('_AM_RUSUREDEL','Wollen Sie diesen <b>%s</b> Block wirklich löschen?');
 define('_AM_NAME','Name');
 define('_AM_USEFULTAGS','Nützliche Tags:');
 define('_AM_BLOCKTAG1','%s wird %s ausgeben');
-define('_AM_SVISIBLEIN', 'Blöcke sichtbar in %s');
-define('_AM_TOPPAGE', 'Homepage');
-define('_AM_VISIBLEIN', 'Sichtbar in');
-define('_AM_ALLPAGES', 'Auf allen Seiten');
-define('_AM_TOPONLY', 'Nur Homepage');
-define('_AM_ADVANCED', 'Erweiterte Einstellungen');
-define('_AM_BCACHETIME', 'Cache-Zeit');
-define('_AM_BALIAS', 'Alias-Name');
-define('_AM_CLONE', 'Block klonen');  // clone a block
-define('_AM_CLONEBLK', 'Geklonter Block'); // cloned block
-define('_AM_CLONEBLOCK', 'Geklonten Block erstellen');
-define('_AM_NOTSELNG', '"%s" ist nicht ausgewählt!'); // error message
-define('_AM_EDITTPL', 'Template bearbeiten');
-define('_AM_MODULE', 'Modul');
-define('_AM_GROUP', 'Gruppe');
-define('_AM_UNASSIGNED', 'Nicht zugewiesen');
+define('_AM_SVISIBLEIN','Blöcke sichtbar in %s');
+define('_AM_TOPPAGE','Homepage');
+define('_AM_VISIBLEIN','Sichtbar in');
+define('_AM_ALLPAGES','Auf allen Seiten');
+define('_AM_TOPONLY','Nur Homepage');
+define('_AM_ADVANCED','Erweiterte Einstellungen');
+define('_AM_BCACHETIME','Cache-Zeit');
+define('_AM_BALIAS','Alias-Name');
+define('_AM_CLONE','Block klonen');  // clone a block
+define('_AM_CLONEBLK','Geklonter Block'); // cloned block
+define('_AM_CLONEBLOCK','Geklonten Block erstellen');
+define('_AM_NOTSELNG','"%s" ist nicht ausgewählt!'); // error message
+define('_AM_EDITTPL','Template bearbeiten');
+define('_AM_MODULE','Modul');
+define('_AM_GROUP','Gruppe');
+define('_AM_UNASSIGNED','Nicht zugewiesen');
 
 
 define("_AM_CUSTOM","Custom Block");
-define('_AM_GENERATOR', 'Blocks angezeigt auf %s');
-define('_AM_TYPES', 'Alle');
+define('_AM_GENERATOR','Blocks angezeigt auf %s');
+define('_AM_TYPES','Alle');
 
 ?>

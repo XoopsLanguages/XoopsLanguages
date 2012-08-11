@@ -25,13 +25,13 @@ defined('XOOPS_ROOT_PATH') or die('Restricted access');
 // _LANGCODE: ba
 // _CHARSET : UTF-8
 // Translator: XOOPSBA.ORG Team, http://www.xoopsba.org
-define('_MAIL_MSGBODY', 'Sadržaj poruke nedostaje.');
-define('_MAIL_FAILOPTPL', 'Greška pri otvaranju fajla.');
-define('_MAIL_FNAMENG', 'Ime pošaljioca nedostaje.');
-define('_MAIL_FEMAILNG', 'Email adresa pošaljioca nedostaje.');
-define('_MAIL_SENDMAILNG', 'Email za %s nije poslan.');
-define('_MAIL_MAILGOOD', 'Email za %s je poslan.');
-define('_MAIL_SENDPMNG', 'Privatna poruka za %s nije poslana.');
-define('_MAIL_PMGOOD', 'Privatna poruka za %s je poslana.');
+define('_MAIL_MSGBODY','Sadržaj poruke nedostaje.');
+define('_MAIL_FAILOPTPL','Greška pri otvaranju fajla.');
+define('_MAIL_FNAMENG','Ime pošaljioca nedostaje.');
+define('_MAIL_FEMAILNG','Email adresa pošaljioca nedostaje.');
+define('_MAIL_SENDMAILNG','Email za %s nije poslan.');
+define('_MAIL_MAILGOOD','Email za %s je poslan.');
+define('_MAIL_SENDPMNG','Privatna poruka za %s nije poslana.');
+define('_MAIL_PMGOOD','Privatna poruka za %s je poslana.');
 
 ?>

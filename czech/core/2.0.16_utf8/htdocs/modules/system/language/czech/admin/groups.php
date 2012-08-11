@@ -30,8 +30,8 @@ define("_AM_UNEED2ENTER","Je třeba vyplnit požadované informace!");
 // Added in RC3             
 define("_AM_BLOCKRIGHTS","Práva přístupu k blokům");
 
-define('_AM_FINDU4GROUP', 'Vyhledat uživatele této skupiny');
-define('_AM_GROUPSMAIN', 'Hlavní stránka skupin');
+define('_AM_FINDU4GROUP','Vyhledat uživatele této skupiny');
+define('_AM_GROUPSMAIN','Hlavní stránka skupin');
 
-define('_AM_ADMINNO', 'V administrátorské skupině musí být alespoň jeden uživatel');
+define('_AM_ADMINNO','V administrátorské skupině musí být alespoň jeden uživatel');
 ?>

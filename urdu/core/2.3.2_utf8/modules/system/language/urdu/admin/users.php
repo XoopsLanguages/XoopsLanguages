@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 // $Id: users.php 897 2007-07-29 06:28:06Z phppp $
 //%%%%%%	Admin Module Name  Users 	%%%%%
 define("_AM_DBUPDATED",_MD_AM_DBUPDATED);
@@ -54,7 +54,7 @@ define("_AM_CNGTST","کل کہانیاں نہیں اٹھا سکا");
 define("_AM_CNUUSER","رکن کو جدید نہیں کر سکا");
 define("_AM_CNGUSERID","رکن کی شناخت نہیں اٹھا سکا");
 define("_AM_LIST","فھرست");
-define("_AM_NOUSERS", "کسی رکن کا انتخاب نہين کر سکا");
+define("_AM_NOUSERS","کسی رکن کا انتخاب نہين کر سکا");
 
 define("_AM_CNRNU2",": %s نیا رکن گروپس میں شامل نہیں کیا جا سکا ");
 ?>

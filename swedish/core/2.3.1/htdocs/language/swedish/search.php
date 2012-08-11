@@ -16,8 +16,8 @@ define("_SR_PREVIOUS","<< Föregående");
 define("_SR_KEYWORDS","Nyckelord");
 define("_SR_TYPE","Sort");
 define("_SR_SEARCHIN","Sök i");
-define('_SR_KEYTOOSHORT', 'Nyckelord måste vara minst <b>%s</b> tecken');
-define('_SR_KEYIGNORE', 'Nyckelord kortare än <b>%s</b> tecken kommer att ignoreras');
-define('_SR_SEARCHRULE', 'Sökregel');
-define('_SR_IGNOREDWORDS', 'De följande orden är kortare än den minst tillåtna längden (%u chars) och inkluderades ej i din sökning:');
+define('_SR_KEYTOOSHORT','Nyckelord måste vara minst <b>%s</b> tecken');
+define('_SR_KEYIGNORE','Nyckelord kortare än <b>%s</b> tecken kommer att ignoreras');
+define('_SR_SEARCHRULE','Sökregel');
+define('_SR_IGNOREDWORDS','De följande orden är kortare än den minst tillåtna längden (%u chars) och inkluderades ej i din sökning:');
 ?>

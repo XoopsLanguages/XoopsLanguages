@@ -13,8 +13,8 @@ define("_AM_URL","URL");
 define("_AM_PREVIOUS","Trước");//Previous
 define("_AM_NEXT","Tiếp theo");//Next
 define("_AM_USERSFOUND","Tìm được %s thành viên");//%s user(s) found
-define("_AM_ACTUS", "Thành viên linh hoạt: %s");//Active Users: %s
-define("_AM_INACTUS", "Thành viên không linh hoạt: %s");//Inactive Users:
+define("_AM_ACTUS","Thành viên linh hoạt: %s");//Active Users: %s
+define("_AM_INACTUS","Thành viên không linh hoạt: %s");//Inactive Users:
 define("_AM_NOFOUND","Không tìm được thành viên nào");//No Users Found
 define("_AM_UNAME","Tên tài khoản");//User Name
 define("_AM_ICQ","ICQ Number");
@@ -38,16 +38,16 @@ define("_AM_POSTS","Số lần đăng bài");//Number of posts
 define("_AM_ASC","Thứ tự lên");//Ascending order
 define("_AM_DESC","Thứ tự xuống");//Descending order
 define("_AM_LIMIT","Số lượng thành viên mỗi trang");//Number of users per page
-define("_AM_RESULTS", "Kết quả tìm kiếm");//Search results
-define("_AM_SHOWMAILOK", "Cho thấy loại thành viên nào");//Type of users to show
+define("_AM_RESULTS","Kết quả tìm kiếm");//Search results
+define("_AM_SHOWMAILOK","Cho thấy loại thành viên nào");//Type of users to show
 define("_AM_MAILOK","Chỉ thành viên nhận email");//Only users that accept mail
 define("_AM_MAILNG","Chỉ thành viên không nhận email");//Only users that don't accept mail
-define("_AM_SHOWTYPE", "Loại thành viên để hiện ra");//Type of users to show
+define("_AM_SHOWTYPE","Loại thành viên để hiện ra");//Type of users to show
 define("_AM_ACTIVE","Chỉ thành viên đang linh hoạt");//Only active users
 define("_AM_INACTIVE","Chỉ thành viên không linh hoạt");//Only inactive users
-define("_AM_BOTH", "Tất cả thành viên");//All users
-define("_AM_SENDMAIL", "Gởi email");//Send mail
-define("_AM_ADD2GROUP", "Thêm thành viên vào nhóm %s");//Add users to %s group
+define("_AM_BOTH","Tất cả thành viên");//All users
+define("_AM_SENDMAIL","Gởi email");//Send mail
+define("_AM_ADD2GROUP","Thêm thành viên vào nhóm %s");//Add users to %s group
 
-define("_AM_GROUPS", "Nhóm");//Groups
+define("_AM_GROUPS","Nhóm");//Groups
 ?>

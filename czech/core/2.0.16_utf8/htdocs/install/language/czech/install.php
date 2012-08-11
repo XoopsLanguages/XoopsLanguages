@@ -173,8 +173,8 @@ define("_INSTALL_L152","Nepodařilo se otevřít %s.");
 define("_INSTALL_L153","Nepodařilo se aktualizovat %s.");
 define("_INSTALL_L154","%s aktualizován.");
 
-define('_INSTALL_L128', 'Vyberte si jazyk pro použití během instalace');
-define('_INSTALL_L200', 'Obnovit');
+define('_INSTALL_L128','Vyberte si jazyk pro použití během instalace');
+define('_INSTALL_L200','Obnovit');
 
 
 define('_INSTALL_CHARSET','UTF-8');

@@ -12,5 +12,5 @@
  */
 
 // Javascript date format
-define("_JSCAL2_DATE_FORMAT", "%Y-%m-%d");
+define("_JSCAL2_DATE_FORMAT","%Y-%m-%d");
 ?>

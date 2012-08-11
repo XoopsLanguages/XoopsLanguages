@@ -32,7 +32,7 @@ define('_MD_FORUM','Форум');
 define('_MD_WELCOME','Добро пожаловать в форум %s.');
 define('_MD_TOPICS','Тем');
 define('_MD_POSTS','Сообщений');
-define("_MD_DIGESTS", "Обзоров");
+define("_MD_DIGESTS","Обзоров");
 define('_MD_LASTPOST','Последнее сообщение');
 define('_MD_MODERATOR','Модераторы');
 define('_MD_NEWPOSTS','Новые сообщения');
@@ -45,14 +45,14 @@ define('_MD_TOTALPOSTSC','Всего сообщений: ');
 define('_MD_TOTALUSER','Всего пользователей: ');
 define('_MD_TIMENOW','Текущее время %s');
 define('_MD_LASTVISIT','Ваш последний визит был: %s');
-define('_MD_USER_LASTVISIT', 'Ваш последний визит: %s');
-define('_MD_USER_LASTPOST', 'Ваше последнее сообщение: %s');
-define('_MD_USER_NOLASTPOST', 'Вы ещё не отправляли сообщений');
-define('_MD_USER_TOPICS', 'Ваши Темы: ');
-define('_MD_USER_POSTS', 'Сообщения: ');
-define('_MD_USER_DIGESTS', 'Обзоры: ');
+define('_MD_USER_LASTVISIT','Ваш последний визит: %s');
+define('_MD_USER_LASTPOST','Ваше последнее сообщение: %s');
+define('_MD_USER_NOLASTPOST','Вы ещё не отправляли сообщений');
+define('_MD_USER_TOPICS','Ваши Темы: ');
+define('_MD_USER_POSTS','Сообщения: ');
+define('_MD_USER_DIGESTS','Обзоры: ');
 
-define('_MD_VIEW_NEWPOSTS', 'Показать новые сообщения');
+define('_MD_VIEW_NEWPOSTS','Показать новые сообщения');
 
 
 define('_MD_ADVSEARCH','Расширенный поиск');
@@ -63,7 +63,7 @@ define('_MD_INACTIVEFORUM_NONEWPOSTS','Неактивный форум без н
 //define('_MD_PRIVATEFORUM_NEWPOSTS','Приватный форум с новыми сообщениями');
 //define('_MD_PRIVATEFORUM_NONEWPOSTS','Приватный форум без новых сообщений');
 define('_MD_SUBFORUMS','Подфорумы');
-define('_MD_MAINFORUMOPT', 'Основные опции');
+define('_MD_MAINFORUMOPT','Основные опции');
 define("_MD_PENDING_POSTS_FOR_AUTH","Сообщения, ожидающие одобрения:");
 
 define('_MD_TODAYTOPICSC','Темы за сегодня: ');
@@ -115,43 +115,43 @@ define('_MD_FROMLASTHOURS','За последние %s часов');
 define('_MD_FROMLASTDAYS','За последние %s дней');
 define('_MD_THELASTYEAR','За последний год');
 define('_MD_BEGINNING','С самого начала');
-define('_MD_SEARCHTHISFORUM', 'Искать в этом форуме');
+define('_MD_SEARCHTHISFORUM','Искать в этом форуме');
 define('_MD_TOPIC_SUBJECTC','Префикс темы:');
 
 
 define('_MD_RATINGS','Рейтинг');
-define("_MD_CAN_ACCESS", "Вы <strong>можете</strong> обращатся к форуму.<br />");
-define("_MD_CANNOT_ACCESS", "Вы <strong>не можете</strong> обращатся к форуму.<br />");
-define("_MD_CAN_POST", "Вы <b>можете</b> начинать темы.<br />");
-define("_MD_CANNOT_POST", "Вы <b>не можете</b> начинать темы.<br />");
-define("_MD_CAN_VIEW", "Вы <b>можете</b> просматривать темы.<br />");
-define("_MD_CANNOT_VIEW", "Вы <b>не можете</b> просматривать темы.<br />");
-define("_MD_CAN_REPLY", "Вы <b>можете</b> отвечать в теме.<br />");
-define("_MD_CANNOT_REPLY", "Вы <b>не можете</b> отвечать в теме.<br />");
-define("_MD_CAN_EDIT", "Вы <b>можете</b> редактировать свои сообщения.<br />");
-define("_MD_CANNOT_EDIT", "Вы <b>не можете</b> редактировать свои сообщения.<br />");
-define("_MD_CAN_DELETE", "Вы <b>можете</b> удалять свои сообщения.<br />");
-define("_MD_CANNOT_DELETE", "Вы <b>не можете</b> удалять свои сообщения.<br />");
-define("_MD_CAN_ADDPOLL", "Вы <b>можете</b> создавать опросы.<br />");
-define("_MD_CANNOT_ADDPOLL", "Вы <b>не можете</b> создавать опросы.<br />");
-define("_MD_CAN_VOTE", "Вы <b>можете</b> голосовать.<br />");
-define("_MD_CANNOT_VOTE", "Вы <b>не можете</b> голосовать.<br />");
-define("_MD_CAN_ATTACH", "Вы <b>можете</b> прикреплять файлы к сообщениям.<br />");
-define("_MD_CANNOT_ATTACH", "Вы <b>не можете</b> прикреплять файлы к сообщениям.<br />");
-define("_MD_CAN_NOAPPROVE", "Вы <b>можете</b> писать без одобрения сообщений.<br />");
-define("_MD_CANNOT_NOAPPROVE", "Вы <b>не можете</b> писать без одобрения сообщений.<br />");
-define("_MD_CAN_TYPE", "You <strong>can</strong> use topic type.<br />");
-define("_MD_CANNOT_TYPE", "You <strong>cannot</strong> use topic type.<br />");
-define("_MD_CAN_HTML", "Вы <strong>можете</strong> использовать HTML теги.<br />");
-define("_MD_CANNOT_HTML", "Вы <strong>не можете</strong> использовать HTML теги.<br />");
-define("_MD_CAN_UPLOAD", "Вы <strong>можете</strong> прикреплять файлы.<br />");
-define("_MD_CANNOT_UPLOAD", "Вы <strong>не можете</strong> прикреплять файлы.<br />");
-define("_MD_CAN_SIGNATURE", "Вы <strong>можете</strong> использовать подпись.<br />");
-define("_MD_CANNOT_SIGNATURE", "Вы <strong>не можете</strong> использовать подпись.<br />");
+define("_MD_CAN_ACCESS","Вы <strong>можете</strong> обращатся к форуму.<br />");
+define("_MD_CANNOT_ACCESS","Вы <strong>не можете</strong> обращатся к форуму.<br />");
+define("_MD_CAN_POST","Вы <b>можете</b> начинать темы.<br />");
+define("_MD_CANNOT_POST","Вы <b>не можете</b> начинать темы.<br />");
+define("_MD_CAN_VIEW","Вы <b>можете</b> просматривать темы.<br />");
+define("_MD_CANNOT_VIEW","Вы <b>не можете</b> просматривать темы.<br />");
+define("_MD_CAN_REPLY","Вы <b>можете</b> отвечать в теме.<br />");
+define("_MD_CANNOT_REPLY","Вы <b>не можете</b> отвечать в теме.<br />");
+define("_MD_CAN_EDIT","Вы <b>можете</b> редактировать свои сообщения.<br />");
+define("_MD_CANNOT_EDIT","Вы <b>не можете</b> редактировать свои сообщения.<br />");
+define("_MD_CAN_DELETE","Вы <b>можете</b> удалять свои сообщения.<br />");
+define("_MD_CANNOT_DELETE","Вы <b>не можете</b> удалять свои сообщения.<br />");
+define("_MD_CAN_ADDPOLL","Вы <b>можете</b> создавать опросы.<br />");
+define("_MD_CANNOT_ADDPOLL","Вы <b>не можете</b> создавать опросы.<br />");
+define("_MD_CAN_VOTE","Вы <b>можете</b> голосовать.<br />");
+define("_MD_CANNOT_VOTE","Вы <b>не можете</b> голосовать.<br />");
+define("_MD_CAN_ATTACH","Вы <b>можете</b> прикреплять файлы к сообщениям.<br />");
+define("_MD_CANNOT_ATTACH","Вы <b>не можете</b> прикреплять файлы к сообщениям.<br />");
+define("_MD_CAN_NOAPPROVE","Вы <b>можете</b> писать без одобрения сообщений.<br />");
+define("_MD_CANNOT_NOAPPROVE","Вы <b>не можете</b> писать без одобрения сообщений.<br />");
+define("_MD_CAN_TYPE","You <strong>can</strong> use topic type.<br />");
+define("_MD_CANNOT_TYPE","You <strong>cannot</strong> use topic type.<br />");
+define("_MD_CAN_HTML","Вы <strong>можете</strong> использовать HTML теги.<br />");
+define("_MD_CANNOT_HTML","Вы <strong>не можете</strong> использовать HTML теги.<br />");
+define("_MD_CAN_UPLOAD","Вы <strong>можете</strong> прикреплять файлы.<br />");
+define("_MD_CANNOT_UPLOAD","Вы <strong>не можете</strong> прикреплять файлы.<br />");
+define("_MD_CAN_SIGNATURE","Вы <strong>можете</strong> использовать подпись.<br />");
+define("_MD_CANNOT_SIGNATURE","Вы <strong>не можете</strong> использовать подпись.<br />");
 
 define("_MD_IMTOPICS","Важные темы");
 define("_MD_NOTIMTOPICS","Темы форума");
-define('_MD_FORUMOPTION', 'Опции форума');
+define('_MD_FORUMOPTION','Опции форума');
 
 define('_MD_VAUP','Посмотреть все неотвеченные сообщения');
 define('_MD_VANP','Посмотреть все новые сообщения');
@@ -191,12 +191,12 @@ define('_MD_AIM','AIM');
 define('_MD_YIM','YIM');
 define('_MD_MSNM','MSNM');
 define('_MD_ICQ','ICQ');
-define('_MD_PRINT_TOPIC_LINK', 'URL этого обсуждения');
+define('_MD_PRINT_TOPIC_LINK','URL этого обсуждения');
 define('_MD_ADDTOLIST','Добавить в список контактов');
-define('_MD_TOPICOPT', 'Опции темы');
-define('_MD_VIEWMODE', 'Режим просмотра');
-define('_MD_NEWEST', 'Новые первыми');
-define('_MD_OLDEST', 'Старые первыми');
+define('_MD_TOPICOPT','Опции темы');
+define('_MD_VIEWMODE','Режим просмотра');
+define('_MD_NEWEST','Новые первыми');
+define('_MD_OLDEST','Старые первыми');
 
 define('_MD_FORUMSEARCH','Поиск в форуме');
 
@@ -211,8 +211,8 @@ define('_MD_RATE4','Хорошо');
 define('_MD_RATE5','Отлично');
 
 define('_MD_TOPICOPTION','Опции темы');
-define('_MD_KARMA_REQUIREMENT', 'Ваш уровень: %s, не соответствует нужному: %s. <br /> Попробуйте позже.');
-define('_MD_REPLY_REQUIREMENT', 'Чтобы прочитать это сообщение, сначала необходимо ответить.');
+define('_MD_KARMA_REQUIREMENT','Ваш уровень: %s, не соответствует нужному: %s. <br /> Попробуйте позже.');
+define('_MD_REPLY_REQUIREMENT','Чтобы прочитать это сообщение, сначала необходимо ответить.');
 define('_MD_TOPICOPTIONADMIN','Админ1 опции темы');
 define('_MD_POLLOPTIONADMIN','Админ опции голосования');
 
@@ -303,7 +303,7 @@ define('_MD_DOSMILEY','Разрешить смайлы');
 define('_MD_DOXCODE','Разрешить Xoops код');
 define('_MD_DOBR','Использовать преобразования конца строки');
 define('_MD_DOHTML','Разрешить HTML');
-define('_MD_NEWPOSTNOTIFY', 'Оповестить меня о новом сообщении в этой теме');
+define('_MD_NEWPOSTNOTIFY','Оповестить меня о новом сообщении в этой теме');
 define('_MD_ATTACHSIG','Добавить подпись');
 define('_MD_POST','Опубликовать');
 define('_MD_SUBMIT','Отправить');
@@ -372,9 +372,9 @@ define('_MD_FLAT','Плоский');
 
 
 // online.php
-define('_MD_USERS_ONLINE', 'Активные пользователи:');
-define('_MD_ANONYMOUS_USERS', 'анонимных пользователей');
-define('_MD_REGISTERED_USERS', 'зарегистрированных пользователей: ');
+define('_MD_USERS_ONLINE','Активные пользователи:');
+define('_MD_ANONYMOUS_USERS','анонимных пользователей');
+define('_MD_REGISTERED_USERS','зарегистрированных пользователей: ');
 define('_MD_BROWSING_FORUM','Пользователи просматривают форум');
 define('_MD_TOTAL_ONLINE','Всего %d пользователей активно.');
 define('_MD_ADMINISTRATOR','Администратор');
@@ -383,10 +383,10 @@ define('_MD_NO_SUCH_FILE','Файл не существует!');
 define('_MD_ERROR_UPATEATTACHMENT','Ошибка при обновлении вложения');
 
 // ratethread.php
-define("_MD_CANTVOTEOWN", "Вы не можете голосовать в своём опросе.<br />Все голоса записываются и просматриваются.");
-define("_MD_VOTEONCE", "Не голосуйте в одном и том же опросе дважды.");
-define("_MD_VOTEAPPRE", "Ваш голос принят.");
-define("_MD_THANKYOU", "Спасибо, что проголосовали на %s"); // %s is your site name
+define("_MD_CANTVOTEOWN","Вы не можете голосовать в своём опросе.<br />Все голоса записываются и просматриваются.");
+define("_MD_VOTEONCE","Не голосуйте в одном и том же опросе дважды.");
+define("_MD_VOTEAPPRE","Ваш голос принят.");
+define("_MD_THANKYOU","Спасибо, что проголосовали на %s"); // %s is your site name
 define("_MD_VOTES","Голоса");
 define("_MD_NOVOTERATE","Вы не оценили эту тему");
 
@@ -394,37 +394,37 @@ define("_MD_NOVOTERATE","Вы не оценили эту тему");
 // polls.php
 define("_MD_POLL_DBUPDATED","БД успешно обновлена!");
 define("_MD_POLL_POLLCONF","Настройка опроса");
-define("_MD_POLL_POLLSLIST", "Список опроса");
-define("_MD_POLL_AUTHOR", "Автор опроса");
-define("_MD_POLL_DISPLAYBLOCK", "Показывать в блоке?");
-define("_MD_POLL_POLLQUESTION", "Вопрос");
-define("_MD_POLL_VOTERS", "Всего проголосовало");
-define("_MD_POLL_VOTES", "Всего голосов");
-define("_MD_POLL_EXPIRATION", "Истекает");
-define("_MD_POLL_EXPIRED", "Истёк");
+define("_MD_POLL_POLLSLIST","Список опроса");
+define("_MD_POLL_AUTHOR","Автор опроса");
+define("_MD_POLL_DISPLAYBLOCK","Показывать в блоке?");
+define("_MD_POLL_POLLQUESTION","Вопрос");
+define("_MD_POLL_VOTERS","Всего проголосовало");
+define("_MD_POLL_VOTES","Всего голосов");
+define("_MD_POLL_EXPIRATION","Истекает");
+define("_MD_POLL_EXPIRED","Истёк");
 define("_MD_POLL_VIEWLOG","Посмотреть лог");
-define("_MD_POLL_CREATNEWPOLL", "Создать новый опрос");
-define("_MD_POLL_POLLDESC", "Описание опроса");
-define("_MD_POLL_DISPLAYORDER", "Порядок показа");
-define("_MD_POLL_ALLOWMULTI", "Разрешить множественный выбор?");
-define("_MD_POLL_NOTIFY", "Оповестить по истечении опроса?");
-define("_MD_POLL_POLLOPTIONS", "Ответы");
-define("_MD_POLL_EDITPOLL", "Редактировать опрос");
-define("_MD_POLL_FORMAT", "Формат: yyyy-mm-dd hh:mm:ss");
-define("_MD_POLL_CURRENTTIME", "Текущее время: %s");
-define("_MD_POLL_EXPIREDAT", "Истекает: %s");
-define("_MD_POLL_RESTART", "Начать опрос заново");
-define("_MD_POLL_ADDMORE", "Добавть больше ответов");
-define("_MD_POLL_RUSUREDEL", "Вы уверены, что хотите удалить этот опрос и все его комментарии?");
-define("_MD_POLL_RESTARTPOLL", "Начать опрос заново");
-define("_MD_POLL_RESET", "Обнулить логи опроса?");
+define("_MD_POLL_CREATNEWPOLL","Создать новый опрос");
+define("_MD_POLL_POLLDESC","Описание опроса");
+define("_MD_POLL_DISPLAYORDER","Порядок показа");
+define("_MD_POLL_ALLOWMULTI","Разрешить множественный выбор?");
+define("_MD_POLL_NOTIFY","Оповестить по истечении опроса?");
+define("_MD_POLL_POLLOPTIONS","Ответы");
+define("_MD_POLL_EDITPOLL","Редактировать опрос");
+define("_MD_POLL_FORMAT","Формат: yyyy-mm-dd hh:mm:ss");
+define("_MD_POLL_CURRENTTIME","Текущее время: %s");
+define("_MD_POLL_EXPIREDAT","Истекает: %s");
+define("_MD_POLL_RESTART","Начать опрос заново");
+define("_MD_POLL_ADDMORE","Добавть больше ответов");
+define("_MD_POLL_RUSUREDEL","Вы уверены, что хотите удалить этот опрос и все его комментарии?");
+define("_MD_POLL_RESTARTPOLL","Начать опрос заново");
+define("_MD_POLL_RESET","Обнулить логи опроса?");
 define("_MD_POLL_ADDPOLL","Добавить опрос");
 define("_MD_POLLMODULE_ERROR","Невозможно использовать модуль 'Опросы'");
 
 //report.php
-define("_MD_REPORTED", "Спасибо за рапорт об этом сообщении. Администрация примет меры в случае необходимости.");
-define("_MD_REPORT_ERROR", "Ошибка при отправке рапорта.");
-define("_MD_REPORT_TEXT", "Сообщение:");
+define("_MD_REPORTED","Спасибо за рапорт об этом сообщении. Администрация примет меры в случае необходимости.");
+define("_MD_REPORT_ERROR","Ошибка при отправке рапорта.");
+define("_MD_REPORT_TEXT","Сообщение:");
 
 define("_MD_PDF","Конвертировать сообщение в PDF");
 define("_MD_PDF_PAGE","Страница");
@@ -474,30 +474,30 @@ define("_MD_TYPE_PENDING","Ожидают");
 define("_MD_TYPE_DELETED","Удаленные");
 define("_MD_TYPE_SUSPEND","Блокировка");
 
-define("_MD_DBUPDATED", "База данных успешно обновлена!");
+define("_MD_DBUPDATED","База данных успешно обновлена!");
 
-define("_MD_SUSPEND_SUBJECT", "Пользователь %s заблокирован на %d дней");
-define("_MD_SUSPEND_TEXT", "Пользователь %s заблокирован на %d-е суток за:<br />[quote]%s[/quote]<br /><br />Блокировка действует до %s");
-define("_MD_SUSPEND_UID", "ID пользователя");
-define("_MD_SUSPEND_IP", "IP segments (full or segments)");
-define("_MD_SUSPEND_DURATION", "Период блокировки (дней)");
-define("_MD_SUSPEND_DESC", "Причина блокировки");
-define("_MD_SUSPEND_LIST", "Список заблокированных");
-define("_MD_SUSPEND_START", "Начало");
-define("_MD_SUSPEND_EXPIRE", "Конец");
-define("_MD_SUSPEND_SCOPE", "Scope");
-define("_MD_SUSPEND_MANAGEMENT", "Управление блокировкой");
-define("_MD_SUSPEND_NOACCESS", "Ваш Логин и IP заблокированы!");
+define("_MD_SUSPEND_SUBJECT","Пользователь %s заблокирован на %d дней");
+define("_MD_SUSPEND_TEXT","Пользователь %s заблокирован на %d-е суток за:<br />[quote]%s[/quote]<br /><br />Блокировка действует до %s");
+define("_MD_SUSPEND_UID","ID пользователя");
+define("_MD_SUSPEND_IP","IP segments (full or segments)");
+define("_MD_SUSPEND_DURATION","Период блокировки (дней)");
+define("_MD_SUSPEND_DESC","Причина блокировки");
+define("_MD_SUSPEND_LIST","Список заблокированных");
+define("_MD_SUSPEND_START","Начало");
+define("_MD_SUSPEND_EXPIRE","Конец");
+define("_MD_SUSPEND_SCOPE","Scope");
+define("_MD_SUSPEND_MANAGEMENT","Управление блокировкой");
+define("_MD_SUSPEND_NOACCESS","Ваш Логин и IP заблокированы!");
 
-define("_MD_NEWBB_TYPE", "Topic type");
+define("_MD_NEWBB_TYPE","Topic type");
 
-//define("_MD_NEWBB_TAG", "Tag");
+//define("_MD_NEWBB_TAG","Tag");
 /*
-// !!IMPORTANT!! insert '\' before any char among reserved chars: "a", "A", "B", "c", "d", "D", "F", "g", "G", "h", "H", "i", "I", "j", "l", "L", "m", "M", "n", "O", "r", "s", "S", "t", "T", "U", "w", "W", "Y", "y", "z", "Z"	
-// insert double '\' before 't', 'r', 'n'
-define("_MD_TODAY", "\T\o\d\a\y G:i:s");
-define("_MD_YESTERDAY", "\Y\e\s\\t\e\\r\d\a\y G:i:s");
-define("_MD_MONTHDAY", "n/j G:i:s");
-define("_MD_YEARMONTHDAY", "Y/n/j G:i");
+// !!IMPORTANT!! insert '\' before any char among reserved chars: "a","A","B","c","d","D","F","g","G","h","H","i","I","j","l","L","m","M","n","O","r","s","S","t","T","U","w","W","Y","y","z","Z"	
+// insert double '\' before 't','r','n'
+define("_MD_TODAY","\T\o\d\a\y G:i:s");
+define("_MD_YESTERDAY","\Y\e\s\\t\e\\r\d\a\y G:i:s");
+define("_MD_MONTHDAY","n/j G:i:s");
+define("_MD_YEARMONTHDAY","Y/n/j G:i");
 */
 ?>

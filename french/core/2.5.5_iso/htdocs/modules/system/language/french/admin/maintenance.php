@@ -8,7 +8,7 @@
  */
 
 //Nav
-define("_AM_SYSTEM_MAINTENANCE_NAV_MANAGER", "Maintenance");
+define("_AM_SYSTEM_MAINTENANCE_NAV_MANAGER","Maintenance");
 define("_AM_SYSTEM_MAINTENANCE_NAV_LIST","Toute la maintenance");
 define("_AM_SYSTEM_MAINTENANCE_NAV_DUMP","Copie");
 
@@ -21,60 +21,60 @@ define("_AM_SYSTEM_MAINTENANCE_CACHE_NOTOK","Effacement du cache : Erreur");
 define("_AM_SYSTEM_MAINTENANCE_TABLES","Maintenance des tables");
 define("_AM_SYSTEM_MAINTENANCE_TABLES_OK","Maintenance des tables : OK");
 define("_AM_SYSTEM_MAINTENANCE_TABLES_NOTOK","Maintenance des tables : Erreur");
-define("_AM_SYSTEM_MAINTENANCE_QUERY_DESC","Optimiser, Vérifier, Réparer et analyser vos tables de données");
-define("_AM_SYSTEM_MAINTENANCE_QUERY_OK","Maintenance de la base de données : OK");
-define("_AM_SYSTEM_MAINTENANCE_QUERY_NOTOK","Maintenance de la base de données : Erreur");
+define("_AM_SYSTEM_MAINTENANCE_QUERY_DESC","Optimiser, VÃ©rifier, RÃ©parer et analyser vos tables de donnÃ©es");
+define("_AM_SYSTEM_MAINTENANCE_QUERY_OK","Maintenance de la base de donnÃ©es : OK");
+define("_AM_SYSTEM_MAINTENANCE_QUERY_NOTOK","Maintenance de la base de donnÃ©es : Erreur");
 define("_AM_SYSTEM_MAINTENANCE_CHOICE1","Optimiser les table(s)");
-define("_AM_SYSTEM_MAINTENANCE_CHOICE2","Vérifier les table(s)");
-define("_AM_SYSTEM_MAINTENANCE_CHOICE3","Réparer les table(s)");
+define("_AM_SYSTEM_MAINTENANCE_CHOICE2","VÃ©rifier les table(s)");
+define("_AM_SYSTEM_MAINTENANCE_CHOICE3","RÃ©parer les table(s)");
 define("_AM_SYSTEM_MAINTENANCE_CHOICE4","Analyser les table(s)");
 define("_AM_SYSTEM_MAINTENANCE_TABLES_DESC",
-"ANALYSER : Cette commande analyse et stocke la clé de distribution de la table. Durant l'analyse, la table est verrouillée en lecture.<br />
-VERIFIER : Cette commande vérifie l'intégrité des tables (recherche des erreurs).<br />
-OPTIMISER : Cette commande permet de récupérer l'espace utilisé par les enregistrements supprimés et de défragmenter l'inscription des données.<br />
-REPARER : Cette commande tente une réparation des tables corrompues.");
+"ANALYSER : Cette commande analyse et stocke la clÃ© de distribution de la table. Durant l'analyse, la table est verrouillÃ©e en lecture.<br />
+VERIFIER : Cette commande vÃ©rifie l'intÃ©gritÃ© des tables (recherche des erreurs).<br />
+OPTIMISER : Cette commande permet de rÃ©cupÃ©rer l'espace utilisÃ© par les enregistrements supprimÃ©s et de dÃ©fragmenter l'inscription des donnÃ©es.<br />
+REPARER : Cette commande tente une rÃ©paration des tables corrompues.");
 
-define("_AM_SYSTEM_MAINTENANCE_RESULT","Résultat");
-define("_AM_SYSTEM_MAINTENANCE_RESULT_NO_RESULT","Aucun résultat");
-define("_AM_SYSTEM_MAINTENANCE_RESULT_CACHE","Tâche d'effacement du cache");
-define("_AM_SYSTEM_MAINTENANCE_RESULT_SESSION","Tâche d'effacement des données de la table des sessions");
-define("_AM_SYSTEM_MAINTENANCE_RESULT_QUERY","Tâche de la base de données");
-define("_AM_SYSTEM_MAINTENANCE_ERROR_MAINTENANCE","Aucun choix d'opération de maintenance");
+define("_AM_SYSTEM_MAINTENANCE_RESULT","RÃ©sultat");
+define("_AM_SYSTEM_MAINTENANCE_RESULT_NO_RESULT","Aucun rÃ©sultat");
+define("_AM_SYSTEM_MAINTENANCE_RESULT_CACHE","TÃ¢che d'effacement du cache");
+define("_AM_SYSTEM_MAINTENANCE_RESULT_SESSION","TÃ¢che d'effacement des donnÃ©es de la table des sessions");
+define("_AM_SYSTEM_MAINTENANCE_RESULT_QUERY","TÃ¢che de la base de donnÃ©es");
+define("_AM_SYSTEM_MAINTENANCE_ERROR_MAINTENANCE","Aucun choix d'opÃ©ration de maintenance");
 
 define("_AM_SYSTEM_MAINTENANCE_TABLES1","Tables");
 define("_AM_SYSTEM_MAINTENANCE_TABLES_OPTIMIZE","Optimiser");
-define("_AM_SYSTEM_MAINTENANCE_TABLES_CHECK","Vérifier"); 
-define("_AM_SYSTEM_MAINTENANCE_TABLES_REPAIR","Réparer");
+define("_AM_SYSTEM_MAINTENANCE_TABLES_CHECK","VÃ©rifier"); 
+define("_AM_SYSTEM_MAINTENANCE_TABLES_REPAIR","RÃ©parer");
 define("_AM_SYSTEM_MAINTENANCE_TABLES_ANALYZE","Analyser");
 
 //Dump
 define("_AM_SYSTEM_MAINTENANCE_DUMP","Copie");
-define("_AM_SYSTEM_MAINTENANCE_DUMP_TABLES_OR_MODULES","Sélectionnez les tables ou les modules");
+define("_AM_SYSTEM_MAINTENANCE_DUMP_TABLES_OR_MODULES","SÃ©lectionnez les tables ou les modules");
 define("_AM_SYSTEM_MAINTENANCE_DUMP_DROP","Ajouter la commande DROP TABLE IF EXISTS 'tables' dans la copie");
-define("_AM_SYSTEM_MAINTENANCE_DUMP_OR", "OU");
-define("_AM_SYSTEM_MAINTENANCE_DUMP_AND", "ET");
-define("_AM_SYSTEM_MAINTENANCE_DUMP_ERROR_TABLES_OR_MODULES", "Vous devez sélectionner les tables ou les modules");
-define("_AM_SYSTEM_MAINTENANCE_DUMP_NO_TABLES", "Aucune table");
-define("_AM_SYSTEM_MAINTENANCE_DUMP_TABLES", "Tables");
-define("_AM_SYSTEM_MAINTENANCE_DUMP_STRUCTURES", "Structures");
-define("_AM_SYSTEM_MAINTENANCE_DUMP_NB_RECORDS", "Nombre d'enregistrements");
-define("_AM_SYSTEM_MAINTENANCE_DUMP_FILE_CREATED", "Fichier créé");
-define("_AM_SYSTEM_MAINTENANCE_DUMP_RESULT", "Résultat");
-define("_AM_SYSTEM_MAINTENANCE_DUMP_RECORDS", "enregistrement(s)");
+define("_AM_SYSTEM_MAINTENANCE_DUMP_OR","OU");
+define("_AM_SYSTEM_MAINTENANCE_DUMP_AND","ET");
+define("_AM_SYSTEM_MAINTENANCE_DUMP_ERROR_TABLES_OR_MODULES","Vous devez sÃ©lectionner les tables ou les modules");
+define("_AM_SYSTEM_MAINTENANCE_DUMP_NO_TABLES","Aucune table");
+define("_AM_SYSTEM_MAINTENANCE_DUMP_TABLES","Tables");
+define("_AM_SYSTEM_MAINTENANCE_DUMP_STRUCTURES","Structures");
+define("_AM_SYSTEM_MAINTENANCE_DUMP_NB_RECORDS","Nombre d'enregistrements");
+define("_AM_SYSTEM_MAINTENANCE_DUMP_FILE_CREATED","Fichier crÃ©Ã©");
+define("_AM_SYSTEM_MAINTENANCE_DUMP_RESULT","RÃ©sultat");
+define("_AM_SYSTEM_MAINTENANCE_DUMP_RECORDS","enregistrement(s)");
 
 // Tips
 define("_AM_SYSTEM_MAINTENANCE_TIPS", 
 "<ul>
-<li>Vous pouvez faire une maintenance simple de votre installation XOOPS : effacer les fichiers temporaires du cache, vider les enregistrements de la table des sessions, et effectuer la maintenance de vos tables de données</li>
+<li>Vous pouvez faire une maintenance simple de votre installation XOOPS : effacer les fichiers temporaires du cache, vider les enregistrements de la table des sessions, et effectuer la maintenance de vos tables de donnÃ©es</li>
 </ul>");
 
 /**
- * @translation     Communauté Francophone des Utilisateurs de Xoops
+ * @translation     CommunautÃ© Francophone des Utilisateurs de Xoops
  * @specification   _LANGCODE: fr
  * @specification   _CHARSET: iso-8859-1
  *
  * @version         $Id $
- Modification et mise à jour par Cesag le 14 Mai 2012.
+ Modification et mise Ã  jour par Cesag le 14 Mai 2012.
 **/
 
 ?>

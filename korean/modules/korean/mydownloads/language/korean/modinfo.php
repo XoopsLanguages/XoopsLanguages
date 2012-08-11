@@ -32,95 +32,95 @@
 // Module Info
 
 // The name of this module
-define("_MI_MYDOWNLOADS_NAME","´Ù¿î·Îµå");
+define("_MI_MYDOWNLOADS_NAME","ï¿½Ù¿ï¿½Îµï¿½");
 
 // A brief description of this module
-define("_MI_MYDOWNLOADS_DESC","´Ù¿î·ÎµåÁ¤º¸¸¦ °øÀ¯/Æò°¡ÇÒ¼ö ÀÖ´Â ¼­ºñ½º¸¦ Á¦°øÇÕ´Ï´Ù.");
+define("_MI_MYDOWNLOADS_DESC","ï¿½Ù¿ï¿½Îµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½/ï¿½ï¿½ï¿½Ò¼ï¿½ ï¿½Ö´ï¿½ ï¿½ï¿½ï¿½ñ½º¸ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Õ´Ï´ï¿½.");
 
 // Names of blocks for this module (Not all module has blocks)
-define("_MI_MYDOWNLOADS_BNAME1","½Å±Ô ´Ù¿î·Îµå");
-define("_MI_MYDOWNLOADS_BNAME2","º£½ºÆ® ´Ù¿î·Îµå");
+define("_MI_MYDOWNLOADS_BNAME1","ï¿½Å±ï¿½ ï¿½Ù¿ï¿½Îµï¿½");
+define("_MI_MYDOWNLOADS_BNAME2","ï¿½ï¿½ï¿½ï¿½Æ® ï¿½Ù¿ï¿½Îµï¿½");
 
 // Sub menu titles
-define("_MI_MYDOWNLOADS_SMNAME1","µî·Ï");
-define("_MI_MYDOWNLOADS_SMNAME2","ÀÎ±â ´Ù¿î·Îµå");
-define("_MI_MYDOWNLOADS_SMNAME3","°íÆò°¡ ´Ù¿î·Îµå");
+define("_MI_MYDOWNLOADS_SMNAME1","ï¿½ï¿½ï¿½");
+define("_MI_MYDOWNLOADS_SMNAME2","ï¿½Î±ï¿½ ï¿½Ù¿ï¿½Îµï¿½");
+define("_MI_MYDOWNLOADS_SMNAME3","ï¿½ï¿½ï¿½ï¿½ ï¿½Ù¿ï¿½Îµï¿½");
 
 // Names of admin menu items
-define("_MI_MYDOWNLOADS_ADMENU2","´Ù¿î·ÎµåÁ¤º¸ Ãß°¡/ÆíÁý");
-define("_MI_MYDOWNLOADS_ADMENU3","½Å±ÔÅõ°í ´Ù¿î·ÎµåÁ¤º¸");
-define("_MI_MYDOWNLOADS_ADMENU4","ÆÄ¼ÕÆÄÀÏ/²÷¾îÁø ¸µÅ© ½Å°í");
-define("_MI_MYDOWNLOADS_ADMENU5","¼öÁ¤´Ù¿î·ÎµåÁ¤º¸");
+define("_MI_MYDOWNLOADS_ADMENU2","ï¿½Ù¿ï¿½Îµï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ß°ï¿½/ï¿½ï¿½ï¿½ï¿½");
+define("_MI_MYDOWNLOADS_ADMENU3","ï¿½Å±ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ù¿ï¿½Îµï¿½ï¿½ï¿½ï¿½ï¿½");
+define("_MI_MYDOWNLOADS_ADMENU4","ï¿½Ä¼ï¿½ï¿½ï¿½ï¿½ï¿½/ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Å© ï¿½Å°ï¿½");
+define("_MI_MYDOWNLOADS_ADMENU5","ï¿½ï¿½ï¿½ï¿½ï¿½Ù¿ï¿½Îµï¿½ï¿½ï¿½ï¿½ï¿½");
 
 // Title of config items
-define('_MI_MYDOWNLOADS_POPULAR', 'ÀÎ±â´Ù¿î·Îµå °¡ µÇ±âÀ§ÇÑ ÃÖÀú´Ù¿î·Îµå¼ö');
-define('_MI_MYDOWNLOADS_NEWDLS', '½Å±Ô´Ù¿î·Îµå ºí·Ï¿¡ Ç¥½ÃÇÒ ´Ù¿î·ÎµåÁ¤º¸ ¼ö');
-define('_MI_MYDOWNLOADS_PERPAGE', 'ÆäÀÌÁö´ç Ç¥½ÃÇÒ ´Ù¿î·ÎµåÁ¤º¸ ¼ö');
-define('_MI_MYDOWNLOADS_USESHOTS', '½ºÅ©¸°¼¦À» »ç¿ëÇÔ');
-define('_MI_MYDOWNLOADS_SHOTWIDTH', '½ºÅ©¸°¼¦ÀÇ ±×¸²ÆÄÀÏ Æø');
-define('_MI_MYDOWNLOADS_CHECKHOST', '¹«´ÜÁ÷Á¢¸µÅ© ±ÝÁö');
-define('_MI_MYDOWNLOADS_REFERERS', '´ÙÀ½ »çÀÌÆ®µéÀº ÆÄÀÏ¿¡¼­ Á÷Á¢¸µÅ©¸¦ Çã¿ë!<br />°¢ »çÀÌÆ®´Â | ·Î ±¸ºÐÇÏ¼¼¿ä');
-define("_MI_MYDOWNLOADS_ANONPOST","¼Õ´ÔÀÇ ´Ù¿î·ÎµåÁ¤º¸ Åõ°í¸¦ Çã¿ëÇÔ");
-define('_MI_MYDOWNLOADS_AUTOAPPROVE','½Å±Ô ´Ù¿î·ÎµåÁ¤º¸¸¦ ÀÚµ¿½ÂÀÎÇÔ');
+define('_MI_MYDOWNLOADS_POPULAR','ï¿½Î±ï¿½Ù¿ï¿½Îµï¿½ ï¿½ï¿½ ï¿½Ç±ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ù¿ï¿½Îµï¿½ï¿½');
+define('_MI_MYDOWNLOADS_NEWDLS','ï¿½Å±Ô´Ù¿ï¿½Îµï¿½ ï¿½ï¿½Ï¿ï¿½ Ç¥ï¿½ï¿½ï¿½ï¿½ ï¿½Ù¿ï¿½Îµï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½');
+define('_MI_MYDOWNLOADS_PERPAGE','ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Ç¥ï¿½ï¿½ï¿½ï¿½ ï¿½Ù¿ï¿½Îµï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½');
+define('_MI_MYDOWNLOADS_USESHOTS','ï¿½ï¿½Å©ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½');
+define('_MI_MYDOWNLOADS_SHOTWIDTH','ï¿½ï¿½Å©ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½×¸ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½');
+define('_MI_MYDOWNLOADS_CHECKHOST','ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å© ï¿½ï¿½ï¿½ï¿½');
+define('_MI_MYDOWNLOADS_REFERERS','ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Æ®ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ï¿ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å©ï¿½ï¿½ ï¿½ï¿½ï¿½!<br />ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Æ®ï¿½ï¿½ | ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï¼ï¿½ï¿½ï¿½');
+define("_MI_MYDOWNLOADS_ANONPOST","ï¿½Õ´ï¿½ï¿½ï¿½ ï¿½Ù¿ï¿½Îµï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½");
+define('_MI_MYDOWNLOADS_AUTOAPPROVE','ï¿½Å±ï¿½ ï¿½Ù¿ï¿½Îµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Úµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½');
 
 // Description of each config items
-define('_MI_MYDOWNLOADS_POPULARDSC', 'ÀÎ±â´Ù¿î·Îµå °¡ µÇ±âÀ§ÇØ ÇÊ¿äÇÑ ´Ù¿î·Îµå¼ö¸¦ ÁöÁ¤ÇØ ÁÖ¼¼¿ä');
-define('_MI_MYDOWNLOADS_NEWDLSDSC', '½Å±Ô´Ù¿î·Îµå ºí·Ï¿¡ Ç¥½ÃÇÒ ´Ù¿î·ÎµåÁ¤º¸ ¼ö¸¦ ÁöÁ¤ÇØ ÁÖ¼¼¿ä');
-define('_MI_MYDOWNLOADS_PERPAGEDSC', '´Ù¿î·Îµå ¸®½ºÆ®¿¡¼­ ÆäÀÌÁö´ç Ç¥½ÃÇÒ ´Ù¿î·ÎµåÁ¤º¸ ¼ö¸¦ ÁöÁ¤ÇØ ÁÖ¼¼¿ä');
-define('_MI_MYDOWNLOADS_USESHOTSDSC', '´Ù¿î·ÎµåÁ¤º¸¿¡ ½ºÅ©¸°¼¦µµ Ç¥½ÃÇÒ °æ¿ì¿£ ¿¹¸¦ ¼±ÅÃÇØ ÁÖ¼¼¿ä');
-define('_MI_MYDOWNLOADS_SHOTWIDTHDSC', '½ºÅ©¸°¼¦¿ë ±×¸²ÆÄÀÏÀÇ ÃÖ´ëÆøÀ» ÁöÁ¤ÇØ ÁÖ¼¼¿ä');
-define('_MI_MYDOWNLOADS_REFERERSDSC', 'ÆÄÀÏ¿¡ÀÇ Á÷Á¢¸µÅ©¸¦ Çã¿ëÇÒ »çÀÌÆ®µéÀ» ÁöÁ¤ÇØ ÁÖ¼¼¿ä');
-define('_MI_MYDOWNLOADS_AUTOAPPROVEDSC', '½Å±Ô ´Ù¿î·ÎµåÁ¤º¸¸¦ ÀÚµ¿½ÂÀÎÃ³¸®ÇÏ½Ã·Á¸é ¿¹¸¦ ¼±ÅÃÇØ ÁÖ¼¼¿ä');
+define('_MI_MYDOWNLOADS_POPULARDSC','ï¿½Î±ï¿½Ù¿ï¿½Îµï¿½ ï¿½ï¿½ ï¿½Ç±ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ê¿ï¿½ï¿½ï¿½ ï¿½Ù¿ï¿½Îµï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ö¼ï¿½ï¿½ï¿½');
+define('_MI_MYDOWNLOADS_NEWDLSDSC','ï¿½Å±Ô´Ù¿ï¿½Îµï¿½ ï¿½ï¿½Ï¿ï¿½ Ç¥ï¿½ï¿½ï¿½ï¿½ ï¿½Ù¿ï¿½Îµï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ö¼ï¿½ï¿½ï¿½');
+define('_MI_MYDOWNLOADS_PERPAGEDSC','ï¿½Ù¿ï¿½Îµï¿½ ï¿½ï¿½ï¿½ï¿½Æ®ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Ç¥ï¿½ï¿½ï¿½ï¿½ ï¿½Ù¿ï¿½Îµï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ö¼ï¿½ï¿½ï¿½');
+define('_MI_MYDOWNLOADS_USESHOTSDSC','ï¿½Ù¿ï¿½Îµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Å©ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Ç¥ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ì¿£ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ö¼ï¿½ï¿½ï¿½');
+define('_MI_MYDOWNLOADS_SHOTWIDTHDSC','ï¿½ï¿½Å©ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½×¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ö´ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ö¼ï¿½ï¿½ï¿½');
+define('_MI_MYDOWNLOADS_REFERERSDSC','ï¿½ï¿½ï¿½Ï¿ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å©ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Æ®ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ö¼ï¿½ï¿½ï¿½');
+define('_MI_MYDOWNLOADS_AUTOAPPROVEDSC','ï¿½Å±ï¿½ ï¿½Ù¿ï¿½Îµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Úµï¿½ï¿½ï¿½ï¿½ï¿½Ã³ï¿½ï¿½ï¿½Ï½Ã·ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ö¼ï¿½ï¿½ï¿½');
 
 // Text for notifications
 
-define('_MI_MYDOWNLOADS_GLOBAL_NOTIFY', '¸ðµâÀüÃ¼');
-define('_MI_MYDOWNLOADS_GLOBAL_NOTIFYDSC', '´Ù¿î·Îµå ¸ðµâ ÀüÃ¼¿¡ ´ëÇÑ ÅëÁö¿É¼Ç');
+define('_MI_MYDOWNLOADS_GLOBAL_NOTIFY','ï¿½ï¿½ï¿½ï¿½ï¿½Ã¼');
+define('_MI_MYDOWNLOADS_GLOBAL_NOTIFYDSC','ï¿½Ù¿ï¿½Îµï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½Ã¼ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½É¼ï¿½');
 
-define('_MI_MYDOWNLOADS_CATEGORY_NOTIFY', 'Çö Ä«Å×°í¸®');
-define('_MI_MYDOWNLOADS_CATEGORY_NOTIFYDSC', 'Çö Ä«Å×°í¸®¿¡ ´ëÇÑ ÅëÁö¿É¼Ç');
+define('_MI_MYDOWNLOADS_CATEGORY_NOTIFY','ï¿½ï¿½ Ä«ï¿½×°ï¿½ï¿½');
+define('_MI_MYDOWNLOADS_CATEGORY_NOTIFYDSC','ï¿½ï¿½ Ä«ï¿½×°ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½É¼ï¿½');
 
-define('_MI_MYDOWNLOADS_FILE_NOTIFY', 'ÇöÀç ÆÄÀÏ');
-define('_MI_MYDOWNLOADS_FILE_NOTIFYDSC', 'Çö ´Ù¿î·ÎµåÁ¤º¸¿¡ ´ëÇÑ ÅëÁö¿É¼Ç.');
+define('_MI_MYDOWNLOADS_FILE_NOTIFY','ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½');
+define('_MI_MYDOWNLOADS_FILE_NOTIFYDSC','ï¿½ï¿½ ï¿½Ù¿ï¿½Îµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½É¼ï¿½.');
 
-define('_MI_MYDOWNLOADS_GLOBAL_NEWCATEGORY_NOTIFY', '½Å±Ô Ä«Å×°í¸®');
-define('_MI_MYDOWNLOADS_GLOBAL_NEWCATEGORY_NOTIFYCAP', '½Å±Ô Ä«Å×°í¸®°¡ ½Å¼³µÈ °æ¿ì ÅëÁöÇÔ.');
-define('_MI_MYDOWNLOADS_GLOBAL_NEWCATEGORY_NOTIFYDSC', '½Å±Ô Ä«Å×°í¸®°¡ ½Å¼³µÈ °æ¿ì ÅëÁöÇÕ´Ï´Ù.');
-define('_MI_MYDOWNLOADS_GLOBAL_NEWCATEGORY_NOTIFYSBJ', '[{X_SITENAME}] {X_MODULE} auto-notify : ½Å±Ô Ä«Å×°í¸®°¡ ½Å¼³µÇ¾ú½À´Ï´Ù.');                              
+define('_MI_MYDOWNLOADS_GLOBAL_NEWCATEGORY_NOTIFY','ï¿½Å±ï¿½ Ä«ï¿½×°ï¿½ï¿½');
+define('_MI_MYDOWNLOADS_GLOBAL_NEWCATEGORY_NOTIFYCAP','ï¿½Å±ï¿½ Ä«ï¿½×°ï¿½ï¿½ï¿½ï¿½ ï¿½Å¼ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.');
+define('_MI_MYDOWNLOADS_GLOBAL_NEWCATEGORY_NOTIFYDSC','ï¿½Å±ï¿½ Ä«ï¿½×°ï¿½ï¿½ï¿½ï¿½ ï¿½Å¼ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Õ´Ï´ï¿½.');
+define('_MI_MYDOWNLOADS_GLOBAL_NEWCATEGORY_NOTIFYSBJ','[{X_SITENAME}] {X_MODULE} auto-notify : ï¿½Å±ï¿½ Ä«ï¿½×°ï¿½ï¿½ï¿½ï¿½ ï¿½Å¼ï¿½ï¿½Ç¾ï¿½ï¿½ï¿½ï¿½Ï´ï¿½.');                              
 
-define('_MI_MYDOWNLOADS_GLOBAL_FILEMODIFY_NOTIFY', '´Ù¿î·ÎµåÁ¤º¸ ¼öÁ¤¿äÃ»');
-define('_MI_MYDOWNLOADS_GLOBAL_FILEMODIFY_NOTIFYCAP', '´Ù¿î·ÎµåÁ¤º¸ ¼öÁ¤ ¿äÃ»ÀÌ ÀÖ´Â °æ¿ì ÅëÁöÇÔ.');
-define('_MI_MYDOWNLOADS_GLOBAL_FILEMODIFY_NOTIFYDSC', '´Ù¿î·ÎµåÁ¤º¸ ¼öÁ¤ ¿äÃ»ÀÌ ÀÖ´Â °æ¿ì ÅëÁöÇÕ´Ï´Ù.');
-define('_MI_MYDOWNLOADS_GLOBAL_FILEMODIFY_NOTIFYSBJ', '[{X_SITENAME}] {X_MODULE} auto-notify : ´Ù¿î·ÎµåÁ¤º¸¿¡ ´ëÇÑ ¼öÁ¤¿äÃ»ÀÌ ÀÖ¾ú½À´Ï´Ù.');
+define('_MI_MYDOWNLOADS_GLOBAL_FILEMODIFY_NOTIFY','ï¿½Ù¿ï¿½Îµï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ã»');
+define('_MI_MYDOWNLOADS_GLOBAL_FILEMODIFY_NOTIFYCAP','ï¿½Ù¿ï¿½Îµï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ã»ï¿½ï¿½ ï¿½Ö´ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.');
+define('_MI_MYDOWNLOADS_GLOBAL_FILEMODIFY_NOTIFYDSC','ï¿½Ù¿ï¿½Îµï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ã»ï¿½ï¿½ ï¿½Ö´ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Õ´Ï´ï¿½.');
+define('_MI_MYDOWNLOADS_GLOBAL_FILEMODIFY_NOTIFYSBJ','[{X_SITENAME}] {X_MODULE} auto-notify : ï¿½Ù¿ï¿½Îµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ã»ï¿½ï¿½ ï¿½Ö¾ï¿½ï¿½ï¿½ï¿½Ï´ï¿½.');
 
-define('_MI_MYDOWNLOADS_GLOBAL_FILEBROKEN_NOTIFY', 'ÆÄ¼ÕÆÄÀÏ/²÷¾îÁø ¸µÅ© ½Å°í');
-define('_MI_MYDOWNLOADS_GLOBAL_FILEBROKEN_NOTIFYCAP', 'ÆÄ¼ÕÆÄÀÏ/²÷¾îÁø ¸µÅ© ½Å°í°¡ ÀÖ´Â °æ¿ì ÅëÁöÇÔ');
-define('_MI_MYDOWNLOADS_GLOBAL_FILEBROKEN_NOTIFYDSC', 'ÆÄ¼ÕÆÄÀÏ/²÷¾îÁø ¸µÅ© ½Å°í°¡ ÀÖ´Â °æ¿ì ÅëÁöÇÕ´Ï´Ù.');
-define('_MI_MYDOWNLOADS_GLOBAL_FILEBROKEN_NOTIFYSBJ', '[{X_SITENAME}] {X_MODULE} auto-notify : ÆÄ¼ÕÆÄÀÏ/²÷¾îÁø ¸µÅ© ½Å°í°¡ ÀÖ¾ú½À´Ï´Ù.');
+define('_MI_MYDOWNLOADS_GLOBAL_FILEBROKEN_NOTIFY','ï¿½Ä¼ï¿½ï¿½ï¿½ï¿½ï¿½/ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Å© ï¿½Å°ï¿½');
+define('_MI_MYDOWNLOADS_GLOBAL_FILEBROKEN_NOTIFYCAP','ï¿½Ä¼ï¿½ï¿½ï¿½ï¿½ï¿½/ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Å© ï¿½Å°ï¿½ï¿½ ï¿½Ö´ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½');
+define('_MI_MYDOWNLOADS_GLOBAL_FILEBROKEN_NOTIFYDSC','ï¿½Ä¼ï¿½ï¿½ï¿½ï¿½ï¿½/ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Å© ï¿½Å°ï¿½ï¿½ ï¿½Ö´ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Õ´Ï´ï¿½.');
+define('_MI_MYDOWNLOADS_GLOBAL_FILEBROKEN_NOTIFYSBJ','[{X_SITENAME}] {X_MODULE} auto-notify : ï¿½Ä¼ï¿½ï¿½ï¿½ï¿½ï¿½/ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Å© ï¿½Å°ï¿½ï¿½ ï¿½Ö¾ï¿½ï¿½ï¿½ï¿½Ï´ï¿½.');
 
-define('_MI_MYDOWNLOADS_GLOBAL_FILESUBMIT_NOTIFY', '½Å±Ô ´Ù¿î·ÎµåÁ¤º¸ Åõ°í');
-define('_MI_MYDOWNLOADS_GLOBAL_FILESUBMIT_NOTIFYCAP', '½Å±Ô ´Ù¿î·ÎµåÁ¤º¸ÀÇ Åõ°í°¡ ÀÖ´Â °æ¿ì ÅëÁö');
-define('_MI_MYDOWNLOADS_GLOBAL_FILESUBMIT_NOTIFYDSC', '½Å±Ô ´Ù¿î·ÎµåÁ¤º¸ÀÇ Åõ°í°¡ ÀÖ´Â °æ¿ì ÅëÁö');
-define('_MI_MYDOWNLOADS_GLOBAL_FILESUBMIT_NOTIFYSBJ', '[{X_SITENAME}] {X_MODULE} auto-notify : ½Å±Ô ´Ù¿î·ÎµåÁ¤º¸ÀÇ Åõ°í°¡ ÀÖ½À´Ï´Ù.');
+define('_MI_MYDOWNLOADS_GLOBAL_FILESUBMIT_NOTIFY','ï¿½Å±ï¿½ ï¿½Ù¿ï¿½Îµï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½');
+define('_MI_MYDOWNLOADS_GLOBAL_FILESUBMIT_NOTIFYCAP','ï¿½Å±ï¿½ ï¿½Ù¿ï¿½Îµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ö´ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½');
+define('_MI_MYDOWNLOADS_GLOBAL_FILESUBMIT_NOTIFYDSC','ï¿½Å±ï¿½ ï¿½Ù¿ï¿½Îµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ö´ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½');
+define('_MI_MYDOWNLOADS_GLOBAL_FILESUBMIT_NOTIFYSBJ','[{X_SITENAME}] {X_MODULE} auto-notify : ï¿½Å±ï¿½ ï¿½Ù¿ï¿½Îµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ö½ï¿½ï¿½Ï´ï¿½.');
 
-define('_MI_MYDOWNLOADS_GLOBAL_NEWFILE_NOTIFY', '½Å±Ô ´Ù¿î·ÎµåÁ¤º¸ µî·Ï');
-define('_MI_MYDOWNLOADS_GLOBAL_NEWFILE_NOTIFYCAP', '½Å±Ô ´Ù¿î·ÎµåÁ¤º¸°¡ µî·ÏµÇ¾îÁø °æ¿ì ÅëÁö');
-define('_MI_MYDOWNLOADS_GLOBAL_NEWFILE_NOTIFYDSC', '½Å±Ô ´Ù¿î·Îµå Á¤º¸°¡ µî·ÏµÇ¾îÁø °æ¿ì ÅëÁöÇÕ´Ï´Ù.');
-define('_MI_MYDOWNLOADS_GLOBAL_NEWFILE_NOTIFYSBJ', '[{X_SITENAME}] {X_MODULE} auto-notify : ½Å±Ô ´Ù¿î·ÎµåÁ¤º¸°¡ Á¤½Äµî·ÏµÇ¾ú½À´Ï´Ù.');
+define('_MI_MYDOWNLOADS_GLOBAL_NEWFILE_NOTIFY','ï¿½Å±ï¿½ ï¿½Ù¿ï¿½Îµï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½');
+define('_MI_MYDOWNLOADS_GLOBAL_NEWFILE_NOTIFYCAP','ï¿½Å±ï¿½ ï¿½Ù¿ï¿½Îµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ÏµÇ¾ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½');
+define('_MI_MYDOWNLOADS_GLOBAL_NEWFILE_NOTIFYDSC','ï¿½Å±ï¿½ ï¿½Ù¿ï¿½Îµï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ÏµÇ¾ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Õ´Ï´ï¿½.');
+define('_MI_MYDOWNLOADS_GLOBAL_NEWFILE_NOTIFYSBJ','[{X_SITENAME}] {X_MODULE} auto-notify : ï¿½Å±ï¿½ ï¿½Ù¿ï¿½Îµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Äµï¿½ÏµÇ¾ï¿½ï¿½ï¿½ï¿½Ï´ï¿½.');
 
-define('_MI_MYDOWNLOADS_CATEGORY_FILESUBMIT_NOTIFY', '½Å±Ô ´Ù¿î·ÎµåÁ¤º¸ Åõ°í(Æ¯Á¤ Ä«Å×°í¸®³»)');
-define('_MI_MYDOWNLOADS_CATEGORY_FILESUBMIT_NOTIFYCAP', 'Çö Ä«Å×°í¸®¿¡ ½Å±Ô ´Ù¿î·ÎµåÁ¤º¸°¡ Åõ°íµÈ °æ¿ì ÅëÁöÇÔ.');   
-define('_MI_MYDOWNLOADS_CATEGORY_FILESUBMIT_NOTIFYDSC', 'Çö Ä«Å×°í¸®¿¡ ½Å±Ô ´Ù¿î·ÎµåÁ¤º¸°¡ Åõ°íµÈ °æ¿ì ÅëÁöÇÕ´Ï´Ù.');      
-define('_MI_MYDOWNLOADS_CATEGORY_FILESUBMIT_NOTIFYSBJ', '[{X_SITENAME}] {X_MODULE} auto-notify : Ä«Å×°í¸®³»¿¡ ½Å±Ô´Ù¿î·ÎµåÁ¤º¸°¡ Åõ°íµÇ¾îÁ³½À´Ï´Ù.'); 
+define('_MI_MYDOWNLOADS_CATEGORY_FILESUBMIT_NOTIFY','ï¿½Å±ï¿½ ï¿½Ù¿ï¿½Îµï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½(Æ¯ï¿½ï¿½ Ä«ï¿½×°ï¿½ï¿½ï¿½ï¿½)');
+define('_MI_MYDOWNLOADS_CATEGORY_FILESUBMIT_NOTIFYCAP','ï¿½ï¿½ Ä«ï¿½×°ï¿½ï¿½ï¿½ï¿½ ï¿½Å±ï¿½ ï¿½Ù¿ï¿½Îµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.');   
+define('_MI_MYDOWNLOADS_CATEGORY_FILESUBMIT_NOTIFYDSC','ï¿½ï¿½ Ä«ï¿½×°ï¿½ï¿½ï¿½ï¿½ ï¿½Å±ï¿½ ï¿½Ù¿ï¿½Îµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Õ´Ï´ï¿½.');      
+define('_MI_MYDOWNLOADS_CATEGORY_FILESUBMIT_NOTIFYSBJ','[{X_SITENAME}] {X_MODULE} auto-notify : Ä«ï¿½×°ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Å±Ô´Ù¿ï¿½Îµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ç¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï´ï¿½.'); 
 
-define('_MI_MYDOWNLOADS_CATEGORY_NEWFILE_NOTIFY', '½Å±Ô ´Ù¿î·ÎµåÁ¤º¸ µî·Ï(Æ¯Á¤ Ä«Å×°í¸®³»)');
-define('_MI_MYDOWNLOADS_CATEGORY_NEWFILE_NOTIFYCAP', 'Çö Ä«Å×°í¸®¿¡ ´Ù¿î·ÎµåÁ¤º¸°¡ ½Å±Ô·Î Á¤½Äµî·ÏµÈ °æ¿ì ÅëÁöÇÔ');   
-define('_MI_MYDOWNLOADS_CATEGORY_NEWFILE_NOTIFYDSC', 'Çö Ä«Å×°í¸®¿¡ ´Ù¿î·ÎµåÁ¤º¸°¡ ½Å±Ô·Î Á¤½Äµî·ÏµÈ °æ¿ì ÅëÁöÇÕ´Ï´Ù.');      
-define('_MI_MYDOWNLOADS_CATEGORY_NEWFILE_NOTIFYSBJ', '[{X_SITENAME}] {X_MODULE} auto-notify : Ä«Å×°í¸®¿¡ ´Ù¿î·ÎµåÁ¤º¸°¡ ½Å±Ô·Î Á¤½Äµî·ÏµÇ¾ú½À´Ï´Ù.'); 
+define('_MI_MYDOWNLOADS_CATEGORY_NEWFILE_NOTIFY','ï¿½Å±ï¿½ ï¿½Ù¿ï¿½Îµï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½(Æ¯ï¿½ï¿½ Ä«ï¿½×°ï¿½ï¿½ï¿½ï¿½)');
+define('_MI_MYDOWNLOADS_CATEGORY_NEWFILE_NOTIFYCAP','ï¿½ï¿½ Ä«ï¿½×°ï¿½ï¿½ï¿½ï¿½ ï¿½Ù¿ï¿½Îµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Å±Ô·ï¿½ ï¿½ï¿½ï¿½Äµï¿½Ïµï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½');   
+define('_MI_MYDOWNLOADS_CATEGORY_NEWFILE_NOTIFYDSC','ï¿½ï¿½ Ä«ï¿½×°ï¿½ï¿½ï¿½ï¿½ ï¿½Ù¿ï¿½Îµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Å±Ô·ï¿½ ï¿½ï¿½ï¿½Äµï¿½Ïµï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Õ´Ï´ï¿½.');      
+define('_MI_MYDOWNLOADS_CATEGORY_NEWFILE_NOTIFYSBJ','[{X_SITENAME}] {X_MODULE} auto-notify : Ä«ï¿½×°ï¿½ï¿½ï¿½ï¿½ ï¿½Ù¿ï¿½Îµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Å±Ô·ï¿½ ï¿½ï¿½ï¿½Äµï¿½ÏµÇ¾ï¿½ï¿½ï¿½ï¿½Ï´ï¿½.'); 
 
-define('_MI_MYDOWNLOADS_FILE_APPROVE_NOTIFY', '´Ù¿î·ÎµåÁ¤º¸ ½ÂÀÎ');
-define('_MI_MYDOWNLOADS_FILE_APPROVE_NOTIFYCAP', 'ÀÌ ´Ù¿î·ÎµåÁ¤º¸°¡ ½ÂÀÎµÈ °æ¿ì ÅëÁöÇÔ');
-define('_MI_MYDOWNLOADS_FILE_APPROVE_NOTIFYDSC', 'ÀÌ ´Ù¿î·ÎµåÁ¤º¸°¡ ½ÂÀÎµÈ °æ¿ì¿¡ ÅëÁöÇÕ´Ï´Ù.');
-define('_MI_MYDOWNLOADS_FILE_APPROVE_NOTIFYSBJ', '[{X_SITENAME}] {X_MODULE} auto-notify : ´Ù¿î·ÎµåÁ¤º¸°¡ Á¤½Ä ½ÂÀÎ/µî·ÏµÇ¾ú½À´Ï´Ù.');
+define('_MI_MYDOWNLOADS_FILE_APPROVE_NOTIFY','ï¿½Ù¿ï¿½Îµï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½');
+define('_MI_MYDOWNLOADS_FILE_APPROVE_NOTIFYCAP','ï¿½ï¿½ ï¿½Ù¿ï¿½Îµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Îµï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½');
+define('_MI_MYDOWNLOADS_FILE_APPROVE_NOTIFYDSC','ï¿½ï¿½ ï¿½Ù¿ï¿½Îµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Îµï¿½ ï¿½ï¿½ì¿¡ ï¿½ï¿½ï¿½ï¿½ï¿½Õ´Ï´ï¿½.');
+define('_MI_MYDOWNLOADS_FILE_APPROVE_NOTIFYSBJ','[{X_SITENAME}] {X_MODULE} auto-notify : ï¿½Ù¿ï¿½Îµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½/ï¿½ï¿½ÏµÇ¾ï¿½ï¿½ï¿½ï¿½Ï´ï¿½.');
 
 ?>

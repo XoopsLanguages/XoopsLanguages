@@ -5,30 +5,30 @@
 // Translator: XOOPS Translation Team
 
 // License
-define('LICENSE_NOT_WRITEABLE', 'Licensen är %s . <br/><font style="colour:#ff0000">Gör ../include/license.php skrivbar</font>');
-define('LICENSE_IS_WRITEABLE', 'Licensen är %s');
+define('LICENSE_NOT_WRITEABLE','Licensen är %s . <br/><font style="colour:#ff0000">Gör ../include/license.php skrivbar</font>');
+define('LICENSE_IS_WRITEABLE','Licensen är %s');
 
-define('_INSTALL_WEBMASTER', 'Webmasters');
-define('_INSTALL_WEBMASTERD', 'Webmasters på den här sajten');
-define('_INSTALL_REGUSERS', 'Registrerade användare');
-define('_INSTALL_REGUSERSD', 'Användare som är registrerade på sajten');
-define('_INSTALL_ANONUSERS', 'Anonyma användare');
-define('_INSTALL_ANONUSERSD', 'Användare som inte är registrerade på sajten');
+define('_INSTALL_WEBMASTER','Webmasters');
+define('_INSTALL_WEBMASTERD','Webmasters på den här sajten');
+define('_INSTALL_REGUSERS','Registrerade användare');
+define('_INSTALL_REGUSERSD','Användare som är registrerade på sajten');
+define('_INSTALL_ANONUSERS','Anonyma användare');
+define('_INSTALL_ANONUSERSD','Användare som inte är registrerade på sajten');
 /**
 * New Group types
 */
-define('_INSTALL_BANNEDUSERS', 'Avstängda användare');
-define('_INSTALL_BANNEDUSERSD', 'Användare som är avstängda på sajten');
-define('_INSTALL_MODERATORUSERS', 'Moderatorer');
-define('_INSTALL_MODERATORUSERSD', 'Användare som är moderatorer på sajten');
-define('_INSTALL_SUBMITTERUSERS', 'Skribenter');
-define('_INSTALL_SUBMITTERUSERSD', 'Användare som kan skriva och lämna in artiklar på sajten');
-define('_INSTALL_DEVELOPEUSERS', 'Utvecklare');
-define('_INSTALL_DEVELOPEUSERSD', 'Användare som har utvecklarbehörighet och kan se felmeddelanden på sajten.');
+define('_INSTALL_BANNEDUSERS','Avstängda användare');
+define('_INSTALL_BANNEDUSERSD','Användare som är avstängda på sajten');
+define('_INSTALL_MODERATORUSERS','Moderatorer');
+define('_INSTALL_MODERATORUSERSD','Användare som är moderatorer på sajten');
+define('_INSTALL_SUBMITTERUSERS','Skribenter');
+define('_INSTALL_SUBMITTERUSERSD','Användare som kan skriva och lämna in artiklar på sajten');
+define('_INSTALL_DEVELOPEUSERS','Utvecklare');
+define('_INSTALL_DEVELOPEUSERSD','Användare som har utvecklarbehörighet och kan se felmeddelanden på sajten.');
 
-define("_INSTALL_L165", "Sajten är tillfälligt stängd för underhåll. Försök igen om en stund.");
-define("_INSTALL_ANON", "Anonym");
-define("_INSTALL_DISCLMR", "Även om administratörer och moderatorer på sajten kommer försöka ta bort
+define("_INSTALL_L165","Sajten är tillfälligt stängd för underhåll. Försök igen om en stund.");
+define("_INSTALL_ANON","Anonym");
+define("_INSTALL_DISCLMR","Även om administratörer och moderatorer på sajten kommer försöka ta bort
 eller ändra material som kan väcka anstöt så fort som möjligt är det omöjligt
 att gå igenom varje enskilt meddelande. Du måste därför acceptera att alla
 inlägg på den här sajten uttrycker de synpunkter och åsikter som författaren 

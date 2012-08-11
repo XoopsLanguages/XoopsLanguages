@@ -4,7 +4,7 @@
 //%%%%%%		Ai Parma Esse gwaith.php 		%%%%%
 define('_US_NOTREGISTERED','n\'Umat yanwyassene?  Click <a href="register.php">here</a>.');
 define('_US_LOSTPASSWORD','Wanwa lle Olin?');
-define('_US_NOPROBLEM','N�uma problem. Simply enter tanya e-lekmee sama\'men lye sinome on ai parma ten\'lle gwaith\'ess.');
+define('_US_NOPROBLEM','Nâ€™uma problem. Simply enter tanya e-lekmee sama\'men lye sinome on ai parma ten\'lle gwaith\'ess.');
 define('_US_YOUREMAIL','Lle E-Lekmee: ');
 define('_US_SENDPASSWORD','Fain Olin');
 define('_US_LOGGEDOUT','Lle lle\'sii\' avaene');
@@ -36,10 +36,10 @@ define('_US_SUBMIT','Sama');
 define('_US_USERNAME','Gwaith');
 define('_US_FINISH','Finish');
 define('_US_REGISTERNG','Uum\' register Winya gwaith.');
-define('_US_MAILOK','Receive occasional elekmee notices <br />from Cala�Quessirs and vanorators?');
+define('_US_MAILOK','Receive occasional elekmee notices <br />from Calaâ€™Quessirs and vanorators?');
 define('_US_DISCLAIMER','Weera');
 define('_US_IAGREE','Amin weer a\' tanya de');
-define('_US_UNEEDAGREE', 'n\'diol, lle sinome a\' weer a\' lye weera a\' get yanwyassene.');
+define('_US_UNEEDAGREE','n\'diol, lle sinome a\' weer a\' lye weera a\' get yanwyassene.');
 define('_US_NOREGISTER','n\'diol, lye sina n\'palyea ten\'Winya gwaith yanwyasioea');
 
 
@@ -72,15 +72,15 @@ define('_US_SORRYNOTFOUND','n\'gwaith men en n\'utu.');
 
 // %s ta lle site name
 define('_US_NEWPWDREQ','Winya Olin Yel en %s');
-define('_US_YOURACCOUNT', 'Lle gwaith\'ess en %s');
+define('_US_YOURACCOUNT','Lle gwaith\'ess en %s');
 
 define('_US_MAILPWDNG','Lekmee_olin: n\'tengw gwaith. Yel tanya Cala\'Quessir');
 
 // %s ta a\' gwaithname
 define('_US_PWDMAILED','Olin ten\'%s lekmeeed.');
 define('_US_CONFMAIL','Weera Lekmee ten\'%s lekmeeed.');
-define('_US_ACTVMAILNG', 'n\'Suil samaing dethol\'lekeema lekmee a\' %s');
-define('_US_ACTVMAILOK', 'Weera lekmee a\' %s samae.');
+define('_US_ACTVMAILNG','n\'Suil samaing dethol\'lekeema lekmee a\' %s');
+define('_US_ACTVMAILOK','Weera lekmee a\' %s samae.');
 
 //%%%%%%		Ai Parma Esse gwaithinfo.php 		%%%%%
 define('_US_SELECTNG','N\'uma Gwaith Dethol\'menined!');
@@ -124,14 +124,14 @@ define('_US_PROFUPDATED','Lle Palme Moot\'atyar!');
 define('_US_USECOOKIE','Store my gwaith name yassene a\' cookie ten\'1 year');
 define('_US_NO','n\'Uma');
 define('_US_DELACCOUNT','Kela Account');
-define('_US_MYAVATAR', 'My Amin');
-define('_US_UPLOADMYAVATAR', 'Upload Amin');
+define('_US_MYAVATAR','My Amin');
+define('_US_UPLOADMYAVATAR','Upload Amin');
 define('_US_MAXPIXEL','Max Pixels');
 define('_US_MAXIMGSZ','Max Image Size (Bytes)');
 define('_US_SELFILE','Dethol\'menin ai parma');
 define('_US_OLDDELETED','Lle old amin will be sii\'kela!');
-define('_US_CHOOSEAVT', 'Choose amin from tanya available list');
-define('_US_PRESSLOGIN', 'Istkerta nuntikse yanwyamen\'');
-define('_US_ADMINNO', 'Gwaith yassene tanya cala\'quessirs group cannot be removed');
-define('_US_GROUPS', 'Gwaith\'s Sangans');
+define('_US_CHOOSEAVT','Choose amin from tanya available list');
+define('_US_PRESSLOGIN','Istkerta nuntikse yanwyamen\'');
+define('_US_ADMINNO','Gwaith yassene tanya cala\'quessirs group cannot be removed');
+define('_US_GROUPS','Gwaith\'s Sangans');
 ?>

@@ -13,7 +13,7 @@
 /*
  * Associated with editor_registry.php
  */
-define("_XOOPS_EDITOR_FCKEDITOR", "ãÍÑÑ FCK");
+define("_XOOPS_EDITOR_FCKEDITOR","Ã£ÃÃ‘Ã‘ FCK");
 define("_XOOPS_EDITOR_FCKEDITOR_FONTLIST",'Arial;Arabic Transparent;Traditional Arabic;Andalus;Tahoma;Times New Roman;Verdana');
-define("_XOOPS_EDITOR_FCKEDITOR_LANGUAGE", "ar");
+define("_XOOPS_EDITOR_FCKEDITOR_LANGUAGE","ar");
 ?>

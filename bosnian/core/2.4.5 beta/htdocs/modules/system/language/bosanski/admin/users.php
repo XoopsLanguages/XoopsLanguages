@@ -54,7 +54,7 @@ define('_AM_CNGTST','Nemo&#382;e se ukupan broj Artikli prikazati');
 define('_AM_CNUUSER','&#268;lan se nemo&#382;e aktivirati');
 define('_AM_CNGUSERID','Nemo&#382;e se &#268;lanov-IDs prona&#263;i');
 define('_AM_LIST','Izlistaj');
-define('_AM_NOUSERS', 'Nijedan &#269;lan nije izabran');
+define('_AM_NOUSERS','Nijedan &#269;lan nije izabran');
 
 define("_AM_CNRNU2","Novi &#268;lan se nemo&#382;e dodati u grupu: %s.");
 ?>

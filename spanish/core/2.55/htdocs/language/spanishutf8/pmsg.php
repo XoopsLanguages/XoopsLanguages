@@ -40,9 +40,9 @@ define('_PM_DATE','Fecha');
 define('_PM_NOTREAD','No Leído');
 define('_PM_SEND','Enviar');
 define('_PM_DELETE','Borrar');
-define('_PM_REPLY', 'Responder');
+define('_PM_REPLY','Responder');
 define('_PM_PLZREG','Para poder enviar mensajes privados tiene que registrarse y/o autentificarse primero.');
-define('_PM_ONLINE', 'En Línea');
+define('_PM_ONLINE','En Línea');
 define('_PM_SURE_TO_DELETE','¿Está seguro que quiere eliminar este mensaje (s)?');
 
 ?>

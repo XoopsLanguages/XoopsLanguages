@@ -228,11 +228,11 @@ class Smarty
      */
     var $security_settings  = array(
                                     'PHP_HANDLING'    => false,
-                                    'IF_FUNCS'        => array('array', 'list',
-                                                               'isset', 'empty',
-                                                               'count', 'sizeof',
-                                                               'in_array', 'is_array',
-                                                               'true', 'false', 'null'),
+                                    'IF_FUNCS'        => array('array','list',
+                                                               'isset','empty',
+                                                               'count','sizeof',
+                                                               'in_array','is_array',
+                                                               'true','false','null'),
                                     'INCLUDE_ANY'     => false,
                                     'PHP_TAGS'        => false,
                                     'MODIFIER_FUNCS'  => array('count'),
@@ -1024,7 +1024,7 @@ class Smarty
                         'auto_source' => $tpl_file,
                         'auto_id' => $compile_id,
                         'exp_time' => $exp_time,
-                        'extensions' => array('.inc', '.php'));
+                        'extensions' => array('.inc','.php'));
         require_once(SMARTY_CORE_DIR . 'core.rm_auto.php');
         return smarty_core_rm_auto($_params, $this);
     }
@@ -1317,7 +1317,7 @@ class Smarty
      */
     function config_load($file, $section = null, $scope = 'global')
     {
-        require_once($this->_get_plugin_filepath('function', 'config_load'));
+        require_once($this->_get_plugin_filepath('function','config_load'));
         smarty_function_config_load(array('file' => $file, 'section' => $section, 'scope' => $scope), $this);
     }
 

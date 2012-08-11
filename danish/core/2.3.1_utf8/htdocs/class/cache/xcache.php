@@ -76,7 +76,7 @@ class XoopsCacheXcache extends XoopsCacheEngine
     function init($settings)
     {
         parent::init($settings);
-        $defaults = array('PHP_AUTH_USER' => 'cake', 'PHP_AUTH_PW' => 'cake');
+        $defaults = array('PHP_AUTH_USER' => 'cake','PHP_AUTH_PW' => 'cake');
         $this->settings = array_merge($defaults, $this->settings);
         return function_exists('xcache_info');
     }
@@ -150,7 +150,7 @@ class XoopsCacheXcache extends XoopsCacheEngine
     function __auth($reverse = false)
     {
         static $backup = array();
-        $keys = array('PHP_AUTH_USER', 'PHP_AUTH_PW');
+        $keys = array('PHP_AUTH_USER','PHP_AUTH_PW');
         foreach ($keys as $key) {
             if ($reverse) {
                 if (isset($backup[$key])) {

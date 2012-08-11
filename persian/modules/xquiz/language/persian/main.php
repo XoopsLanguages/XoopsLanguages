@@ -60,7 +60,7 @@ define('_CATEGORY_IMAGE','تصویر شاخه');
 define('_QUIZ_BACK','بازگشت');
 define('_QUIZ_DITAIL','مشاهده جزئیات');
 define('_USER_ANSWER','گزینه‌ی انتخابی کاربر');
-define("_QUIZ_EMAIL_DESC", "%s عزیز, این پیام از شناسه شما فرستاده شده است در ".$xoopsConfig['sitename']);
+define("_QUIZ_EMAIL_DESC","%s عزیز, این پیام از شناسه شما فرستاده شده است در ".$xoopsConfig['sitename']);
 define('_QUIZ_EMAIL_MESSAGE','متن پیام');
 define('_QUIZ_SCORE_PROFILE','مشاهده جزئیات بیشتر در پروفایل شما');
 define('_QUIZ_EMAIL_SUBJECT','نتیجه‌ی آزمون');

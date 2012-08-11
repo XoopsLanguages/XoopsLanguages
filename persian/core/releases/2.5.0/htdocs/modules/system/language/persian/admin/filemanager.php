@@ -58,6 +58,6 @@ define('_AM_SYSTEM_FILEMANAGER_DIR_SUCCESS','شاخه با موفقیت ساخت
 define('_AM_SYSTEM_FILEMANAGER_DIR_ERROR','ناتوان در ساخت شاخه');
 define('_AM_SYSTEM_FILEMANAGER_DIR_RYSDEL','آیا شما اطمینان دارید که میخواهید این شاخه را حذف کنید؟');
 define('_AM_SYSTEM_FILEMANAGER_FILE_SUCCESS','فایل با موفقیت ساخته شد');
-define('_AM_SYSTEM_FILEMANAGER_SUREDEL', 'آیا شما اطمینان دارید که میخواهید فایل %s را حذف کنید؟');
-define('_AM_SYSTEM_FILEMANAGER_DIR_SUREDEL', 'آیا شما اطمینان دارید که میخواهید شاخه %s را حذف کنید؟<br />اخطار : تمام زیرشاخه‌ها و فایل‌ها حذف میشود.');
+define('_AM_SYSTEM_FILEMANAGER_SUREDEL','آیا شما اطمینان دارید که میخواهید فایل %s را حذف کنید؟');
+define('_AM_SYSTEM_FILEMANAGER_DIR_SUREDEL','آیا شما اطمینان دارید که میخواهید شاخه %s را حذف کنید؟<br />اخطار : تمام زیرشاخه‌ها و فایل‌ها حذف میشود.');
 ?>

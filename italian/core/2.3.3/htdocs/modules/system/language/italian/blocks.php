@@ -14,7 +14,7 @@ define("_MB_SYSTEM_ADVS","Ricerca avanzata");
 define("_MB_SYSTEM_VACNT","Profilo");
 define("_MB_SYSTEM_EACNT","Modifica profilo");
 // RMV-NOTIFY
-define("_MB_SYSTEM_NOTIF", "Notifiche");
+define("_MB_SYSTEM_NOTIF","Notifiche");
 define("_MB_SYSTEM_LOUT","Logout");
 define("_MB_SYSTEM_INBOX","Messaggi");
 define("_MB_SYSTEM_SUBMS","News inviate");
@@ -29,9 +29,9 @@ define("_MB_SYSTEM_RECO","Raccomanda");
 define("_MB_SYSTEM_PWWIDTH","Larghezza della finestra a comparsa");
 define("_MB_SYSTEM_PWHEIGHT","Altezza della finestra a comparsa");
 define("_MB_SYSTEM_LOGO","Logo nella cartella %s");  // %s nome della directory principale per le immagini
-define("_MB_SYSTEM_COMPEND", "Commenti");
+define("_MB_SYSTEM_COMPEND","Commenti");
 
-//define("_MB_SYSTEM_LOGGEDINAS", "Accesso effettuato come");
+//define("_MB_SYSTEM_LOGGEDINAS","Accesso effettuato come");
 define("_MB_SYSTEM_SADMIN","Mostra il gruppo Amministratori");
 define("_MB_SYSTEM_SPMTO","Invia un messaggio privato a %s");
 define("_MB_SYSTEM_SEMTO","Invia un'e-mail a %s");
@@ -41,10 +41,10 @@ define("_MB_SYSTEM_DISPLAYA","Mostra l'avatar degli utenti");
 define("_MB_SYSTEM_NODISPGR","Non mostrare gli utenti il cui livello &egrave;:");
 
 define("_MB_SYSTEM_DISPLAYC","Mostra %s commenti");
-define("_MB_SYSTEM_SECURE", "Login sicuro");
+define("_MB_SYSTEM_SECURE","Login sicuro");
 
-define("_MB_SYSTEM_NUMTHEME", "%s temi");
-define("_MB_SYSTEM_THSHOW", "Mostra la miniatura del tema");
-define("_MB_SYSTEM_THWIDTH", "Larghezza della miniatura");
-define('_MB_SYSTEM_REMEMBERME', 'Ricordami');
+define("_MB_SYSTEM_NUMTHEME","%s temi");
+define("_MB_SYSTEM_THSHOW","Mostra la miniatura del tema");
+define("_MB_SYSTEM_THWIDTH","Larghezza della miniatura");
+define('_MB_SYSTEM_REMEMBERME','Ricordami');
 ?>

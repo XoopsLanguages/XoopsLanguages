@@ -14,7 +14,7 @@ function smarty_function_xoInboxCount( $params, &$smarty )
         $module_handler = xoops_gethandler('module');
         $pm_module = $module_handler->getByDirname('pm');
         if ($pm_module && $pm_module->getVar('isactive')) {
-            $pm_handler =& xoops_getModuleHandler( 'message', 'pm' );
+            $pm_handler =& xoops_getModuleHandler( 'message','pm' );
         } else {
             $pm_handler =& xoops_gethandler( 'privmessage' );
         }

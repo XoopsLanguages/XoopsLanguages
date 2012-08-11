@@ -23,7 +23,7 @@ define('_MD_ASFILE',' Pohrani kao datoteku (u mapu uploads)<br />');
 define('_MD_RUDELIMGCAT','Da li sigurno želite izbrisati ovu kategoriju i sve njezine slike?');
 define('_MD_RUDELIMG','Da li sigurno želite izbrisati ovu datoteku?');
 
-define('_MD_FAILDEL', 'Greška pri brisanju slike %s iz baze podataka');
-define('_MD_FAILDELCAT', 'Greška pri brisanju kategorije slika %s iz baze podataka');
-define('_MD_FAILUNLINK', 'Greška pri brisanju slike %s iz mape na poslužitelju');
+define('_MD_FAILDEL','Greška pri brisanju slike %s iz baze podataka');
+define('_MD_FAILDELCAT','Greška pri brisanju kategorije slika %s iz baze podataka');
+define('_MD_FAILUNLINK','Greška pri brisanju slike %s iz mape na poslužitelju');
 ?>

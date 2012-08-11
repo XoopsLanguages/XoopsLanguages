@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 //index
 //translated by Mahdi_hexboy@yahoo.com . Www.hexHacKers.Com Version 1.0
 	define("_MD_XFGB_NAMEMODULE","دفترمهمان");
@@ -44,13 +44,13 @@
 	define("_MD_XFGB_HEADMSG","پيغام شما");
 	define("_MD_XFGB_FILEERROR","خطا : تصوير بارگذاري شده قابل خواندن نيست");
 	// add V2.30
-	define('_MD_XFGB_CONFIRM_CODE', "تصديق كد تاييد");
-	define('_MD_XFGB_CONFIRM_CODE_DESC', "كد تاييد، درزير وارد كنيد. ");
-	define('_MD_XFGB_CONFIRM_CODE_WRONG', "كد تاييد وارد شده درست نيست");
-	define('_MD_XFGB_NOFOLLOW_MSG', "<br /><br />Warning :<br />the inserted terms will be<br />ignored by search engines.");
-	define('_MD_XFGB_URL_DISABLED', "The inserted items are not authorised.");
+	define('_MD_XFGB_CONFIRM_CODE',"تصديق كد تاييد");
+	define('_MD_XFGB_CONFIRM_CODE_DESC',"كد تاييد، درزير وارد كنيد. ");
+	define('_MD_XFGB_CONFIRM_CODE_WRONG',"كد تاييد وارد شده درست نيست");
+	define('_MD_XFGB_NOFOLLOW_MSG',"<br /><br />Warning :<br />the inserted terms will be<br />ignored by search engines.");
+	define('_MD_XFGB_URL_DISABLED',"The inserted items are not authorised.");
 	// add V2.40
-	define('_MD_XFGB_MODERATED', "پيغام شما تا زماني كه به تاييد مدير نرسد منتشر نخواهد شد.");
+	define('_MD_XFGB_MODERATED',"پيغام شما تا زماني كه به تاييد مدير نرسد منتشر نخواهد شد.");
 // contact
 // add V2.2
 	define("_MD_XFGB_FROMUSER","پيغام از طرف");

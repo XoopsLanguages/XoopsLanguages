@@ -16,46 +16,46 @@
  */
 
 // General
-define('_THADMIN_PREFERENCES', 'Inställningar');
-define('_THADMIN_UPDATE', 'Uppdatera');
+define('_THADMIN_PREFERENCES','InstÃ¤llningar');
+define('_THADMIN_UPDATE','Uppdatera');
 
-define('_THADMIN_TITLE', 'Administration'); 
-define('_THADMIN_NAVIGATION', 'Navigering');
-define('_THADMIN_ADMINHOME', 'Kontrollpanelens hem');
-define('_THADMIN_SITEHOME', 'Hemsida');
-define('_THADMIN_LINKS', 'Användbara länkar');
-define('_THADMIN_LINKS_XOOPSPROJECT', 'XOOPS Projekt');
-define('_THADMIN_LINKS_XOOPSCOMMUNITY', 'XOOPS Community');
-define('_THADMIN_LINKS_LOCAL', 'Lokal support');
-define('_THADMIN_LINKS_FORXOOPS', 'ForXoops');
-define('_THADMIN_LOGOUT', 'Logga ut');
-define('_THADMIN_MODULES', 'Moduler');
+define('_THADMIN_TITLE','Administration'); 
+define('_THADMIN_NAVIGATION','Navigering');
+define('_THADMIN_ADMINHOME','Kontrollpanelens hem');
+define('_THADMIN_SITEHOME','Hemsida');
+define('_THADMIN_LINKS','AnvÃ¤ndbara lÃ¤nkar');
+define('_THADMIN_LINKS_XOOPSPROJECT','XOOPS Projekt');
+define('_THADMIN_LINKS_XOOPSCOMMUNITY','XOOPS Community');
+define('_THADMIN_LINKS_LOCAL','Lokal support');
+define('_THADMIN_LINKS_FORXOOPS','ForXoops');
+define('_THADMIN_LOGOUT','Logga ut');
+define('_THADMIN_MODULES','Moduler');
 define('_THADMIN_MODULEADMIN' , 'Administration');
-define('_THADMIN_BLOCKS', 'Block');
-define('_THADMIN_BLOCKADMIN', 'Administration');
-define('_THADMIN_USERS', 'Användare');
-define('_THADMIN_MISCS', 'Verktyg');
+define('_THADMIN_BLOCKS','Block');
+define('_THADMIN_BLOCKADMIN','Administration');
+define('_THADMIN_USERS','AnvÃ¤ndare');
+define('_THADMIN_MISCS','Verktyg');
 // CPanel Description
-define('_THADMIN_OVERVIEW', 'Systemöversikt');
-define('_THADMIN_OVERVIEW_DESC', 'Visa din systemkonfiguration');
-define('_THADMIN_PHPEXTENSIONS', 'PHP Inställningar');
-define('_THADMIN_PHPEXTENSIONS_DESC', 'Se den laddade php förlängning');
-define('_THADMIN_PREF_DESC', 'Definiera alla inställningar för din webbplats och alla installerade moduler');
-define('_THADMIN_MODULES_DESC', 'Hantera samtliga installerade moduler');
-define('_THADMIN_BLOCKS_DESC', 'Hantera samtliga inställning för dina block');
-define('_THADMIN_USERS_DESC', 'Hantera samtliga användarinställningar');
-define('_THADMIN_MISCS_DESC', 'Hantera samtliga verktygsinställningar');
+define('_THADMIN_OVERVIEW','SystemÃ¶versikt');
+define('_THADMIN_OVERVIEW_DESC','Visa din systemkonfiguration');
+define('_THADMIN_PHPEXTENSIONS','PHP InstÃ¤llningar');
+define('_THADMIN_PHPEXTENSIONS_DESC','Se den laddade php fÃ¶rlÃ¤ngning');
+define('_THADMIN_PREF_DESC','Definiera alla instÃ¤llningar fÃ¶r din webbplats och alla installerade moduler');
+define('_THADMIN_MODULES_DESC','Hantera samtliga installerade moduler');
+define('_THADMIN_BLOCKS_DESC','Hantera samtliga instÃ¤llning fÃ¶r dina block');
+define('_THADMIN_USERS_DESC','Hantera samtliga anvÃ¤ndarinstÃ¤llningar');
+define('_THADMIN_MISCS_DESC','Hantera samtliga verktygsinstÃ¤llningar');
 // Index
-define('_THADMIN_NAME', 'Namn:');
-define('_THADMIN_AUTHOR', 'Författare:');
-define('_THADMIN_VERSION', 'Version:');
-define('_THADMIN_ACTIVE', 'Aktiv:');
+define('_THADMIN_NAME','Namn:');
+define('_THADMIN_AUTHOR','FÃ¶rfattare:');
+define('_THADMIN_VERSION','Version:');
+define('_THADMIN_ACTIVE','Aktiv:');
 // Upload form
-define('_THADMIN_UPLOAD', 'Ladda upp nytt tema');
-define('_THADMIN_UPLOAD_FILE', 'Väl temafil');
-define('_THADMIN_UPLOAD_DIRNAME', 'Katalognamn för teman');
-define('_THADMIN_UPLOAD_INSTALL', 'Installera efter uppladdning');
-define('_THADMIN_UPLOAD_INSTALLATION', 'Fortsätt installationen');
-define('_THADMIN_UPLOAD_UPLOADED', 'Det nya temat kan nu installeras');
-define('_THADMIN_UPLOAD_ERROR', 'Ingen fil har laddats upp');
+define('_THADMIN_UPLOAD','Ladda upp nytt tema');
+define('_THADMIN_UPLOAD_FILE','VÃ¤l temafil');
+define('_THADMIN_UPLOAD_DIRNAME','Katalognamn fÃ¶r teman');
+define('_THADMIN_UPLOAD_INSTALL','Installera efter uppladdning');
+define('_THADMIN_UPLOAD_INSTALLATION','FortsÃ¤tt installationen');
+define('_THADMIN_UPLOAD_UPLOADED','Det nya temat kan nu installeras');
+define('_THADMIN_UPLOAD_ERROR','Ingen fil har laddats upp');
 ?>

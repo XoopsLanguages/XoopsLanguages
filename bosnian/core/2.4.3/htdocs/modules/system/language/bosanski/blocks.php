@@ -9,7 +9,7 @@ define('_MB_SYSTEM_ADVS','Dodatna pretraga');
 define('_MB_SYSTEM_VACNT','Moj Profil');
 define('_MB_SYSTEM_EACNT','Profil uredi');
 // RMV-NOTIFY
-define('_MB_SYSTEM_NOTIF', 'Obavijesti me');
+define('_MB_SYSTEM_NOTIF','Obavijesti me');
 define('_MB_SYSTEM_LOUT','Izloguj se');
 define('_MB_SYSTEM_INBOX','Privatne poruke');
 define('_MB_SYSTEM_SUBMS','Pristigli Artikli');
@@ -24,7 +24,7 @@ define('_MB_SYSTEM_RECO','Preporu&#269;i nas dalje.');
 define('_MB_SYSTEM_PWWIDTH','Pop-Up-Prozor - &Scaron;irina');
 define('_MB_SYSTEM_PWHEIGHT','Pop-Up-Prozor - Visina');
 define('_MB_SYSTEM_LOGO','Logo-Podatak je u direktoriju %s');  // %s is your root image directory name
-define("_MB_SYSTEM_COMPEND", "Komentari");
+define("_MB_SYSTEM_COMPEND","Komentari");
 
 define('_MB_SYSTEM_SADMIN','Admin-Grupu vidi');
 define('_MB_SYSTEM_SPMTO','Privatnu poruku za %s po&scaron;alji');
@@ -35,10 +35,10 @@ define('_MB_SYSTEM_DISPLAYA','Avatare od &#269;lanova prika&#382;i');
 define('_MB_SYSTEM_NODISPGR','Ne prikazuj sljede&#263;e &#269;lanove koji imaju Rang:');
 
 define('_MB_SYSTEM_DISPLAYC','Prika&#382;i %s Komentare');
-define('_MB_SYSTEM_SECURE', 'Sigurnosno ulogovanje');
+define('_MB_SYSTEM_SECURE','Sigurnosno ulogovanje');
 
-define('_MB_SYSTEM_NUMTHEME', '%s Theme');
-define('_MB_SYSTEM_THSHOW', 'Prika&#382;i Screenshot');
-define("_MB_SYSTEM_THWIDTH", "Screenshot slike &scaron;irina");
-define('_MB_SYSTEM_REMEMBERME', 'Podsjeti me');
+define('_MB_SYSTEM_NUMTHEME','%s Theme');
+define('_MB_SYSTEM_THSHOW','Prika&#382;i Screenshot');
+define("_MB_SYSTEM_THWIDTH","Screenshot slike &scaron;irina");
+define('_MB_SYSTEM_REMEMBERME','Podsjeti me');
 ?>

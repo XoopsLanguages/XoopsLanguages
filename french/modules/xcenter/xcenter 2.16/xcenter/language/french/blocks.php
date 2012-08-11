@@ -15,9 +15,9 @@ License: See /docs - GPL 2.0
 */
 
 include_once('modinfo.php');
-define('_XTR_ADDPAGE', 'Ajouter une page');
+define('_XTR_ADDPAGE','Ajouter une page');
 //BlOCKS
-define('_XTR_PAGE', 'Section de la page');
-define('_XTR_NONE', 'Aucun');
+define('_XTR_PAGE','Section de la page');
+define('_XTR_NONE','Aucun');
 // Traduction par Cesag pour frxoops.org le 17 Juin 2012
 ?>

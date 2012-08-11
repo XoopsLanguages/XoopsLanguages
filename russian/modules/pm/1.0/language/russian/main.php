@@ -34,7 +34,7 @@ define("_PM_MESSAGEC","Сообщение: ");
 define("_PM_CLEAR","Очистить");
 define("_PM_CANCELSEND","Отменить отправку");
 define("_PM_SUBMIT","Отправить");
-define("_PM_SAVEINOUTBOX", "Сохранить копию в папке отправленных сообщений?");
+define("_PM_SAVEINOUTBOX","Сохранить копию в папке отправленных сообщений?");
 
 //%%%%%%	File Name viewpmsg.php 	%%%%%
 define("_PM_SUBJECT","Тема");
@@ -45,7 +45,7 @@ define("_PM_DELETE","Удалить");
 define("_PM_TOSAVE","Сохранить");
 define("_PM_UNSAVE","Отменить сохранение");
 define("_PM_EMPTY","Очистить");
-define("_PM_REPLY", "Ответить");
+define("_PM_REPLY","Ответить");
 define("_PM_PLZREG","Пожалуйста, зарегистрируйтесь перед отправкой личных сообщений!");
 define("_PM_SAVED_PART","Разрешенное количество сообщений в папке 'Сохраненные' - %d, и сейчас было сохранено %d сообщений");
 define("_PM_SAVED_ALL","Сообщения были перенесены в папку 'Сохраненные'");
@@ -54,7 +54,7 @@ define("_PM_EMPTIED","Ящик успешно очищен");
 define("_PM_RUSUREEMPTY","Вы действительно хотите очистить ящик?");
 define("_PM_RUSUREDELETE","Вы действительно хотите удалить эти сообщения?");
 
-define("_PM_ONLINE", "Присутствует");
+define("_PM_ONLINE","Присутствует");
 
 define("_PM_RECEIVE","RECEIVE");
 define("_PM_POST","POST");
@@ -84,13 +84,13 @@ define("_PM_NEXTP","Next");
 define("_PM_MAILNOTIFY","%s-You've got a new PM from %s");
 define("_PM_MAILMESSAGE","Hello!\nA New PM has arrived from %s\n\nTitle of PM is\n%s\n\nYou can view the PM here\n%s\n\n-----------\nYou are receiving this message because you selected to be notified when you receive a new PM\n\nYou can change your PM-Config\n%s\n\nPlease do not reply to this message\n\n---------\nBest Regards\n%s\n%s\n%s");
 
-define("_PM_EMAIL", "E-mail");
-define("_PM_EMAIL_DESC", "Уважаемый %s, это сообщение перенесено с Вашей учетной записи на сайте ".$GLOBALS['xoopsConfig']['sitename']);
-define("_PM_EMAIL_FROM", "От %s");
-define("_PM_EMAIL_TO", "Для %s");
-define("_PM_EMAIL_SUBJECT", "[сообщение]%s");
-define("_PM_EMAIL_MESSAGE", "Текст сообщения");
+define("_PM_EMAIL","E-mail");
+define("_PM_EMAIL_DESC","Уважаемый %s, это сообщение перенесено с Вашей учетной записи на сайте ".$GLOBALS['xoopsConfig']['sitename']);
+define("_PM_EMAIL_FROM","От %s");
+define("_PM_EMAIL_TO","Для %s");
+define("_PM_EMAIL_SUBJECT","[сообщение]%s");
+define("_PM_EMAIL_MESSAGE","Текст сообщения");
 
-define("_PM_ACTION_DONE", "Операция успешно выполнена");
-define("_PM_ACTION_ERROR", "Ошибка выполнения операции");
+define("_PM_ACTION_DONE","Операция успешно выполнена");
+define("_PM_ACTION_ERROR","Ошибка выполнения операции");
 ?>

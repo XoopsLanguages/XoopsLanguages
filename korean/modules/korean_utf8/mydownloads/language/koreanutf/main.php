@@ -34,7 +34,7 @@
 define("_MD_THANKSFORINFO","다운로드 정보를 투고해 주셔서 감사합니다. 내용을 확인한 후 정식으로 등록처리해 드리겠습니다.");
 define("_MD_THANKSFORHELP","정보/도움을 주셔서 진심으로 감사드립니다. 내용을 확인한 후 반영하도록 하겠습니다.");
 define("_MD_FORSECURITY","사이트/정보 보안을 위해 님의 IP와 아이디를 임시적으로 기록처리하는 점 양해 바랍니다.");
-define("_MD_NOPERMISETOLINK", "이 다운로드정보는 님이 현재 접속중인 이 사이트의 콘텐츠가 아닙니다.<br /><br />사이트 관리자에게 타 사이트의 콘텐츠를 무단직접링크하지 말도록 요청해 주시기 바랍니다.   <br /><b>무단직접링크!!</b> <br /><br /><b>무단직접링크란:</b>타 사이트의 콘텐츠를 마치 자기사이트의 콘텐츠인 것처럼 무단으로 링크처리하는 것을 의미합니다. <br /><br />님의 <b>IP주소</b>는 기록처리되었습니다.");
+define("_MD_NOPERMISETOLINK","이 다운로드정보는 님이 현재 접속중인 이 사이트의 콘텐츠가 아닙니다.<br /><br />사이트 관리자에게 타 사이트의 콘텐츠를 무단직접링크하지 말도록 요청해 주시기 바랍니다.   <br /><b>무단직접링크!!</b> <br /><br /><b>무단직접링크란:</b>타 사이트의 콘텐츠를 마치 자기사이트의 콘텐츠인 것처럼 무단으로 링크처리하는 것을 의미합니다. <br /><br />님의 <b>IP주소</b>는 기록처리되었습니다.");
 define("_MD_ALL","모두");
 define("_MD_DESCRIPTION","설명");
 define("_MD_SEARCH","검색");
@@ -92,8 +92,8 @@ define("_MD_NUMBYTES","%s 바이트");
 define("_MD_PLATFORMC","사용가능 플랫폼: ");
 define("_MD_SHOTIMAGE","스크린샷 이미지: ");
 define("_MD_SENDREQUEST","보내기");
-define("_MD_OPTIONS", '옵션: ');
-define("_MD_NOTIFYAPPROVE", '이 다운로드정보가 승인된 경우 통지함');
+define("_MD_OPTIONS",'옵션: ');
+define("_MD_NOTIFYAPPROVE",'이 다운로드정보가 승인된 경우 통지함');
 
 define("_MD_VOTEAPPRE","평가(Vote)가 이루어졌습니다.");
 define("_MD_THANKYOU","귀중한 도움/정보 감사드립니다.(%s)  "); // %s is your site name

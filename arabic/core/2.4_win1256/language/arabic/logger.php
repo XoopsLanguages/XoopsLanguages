@@ -23,34 +23,34 @@ defined('XOOPS_ROOT_PATH') or die('Restricted access');
 // _LANGCODE: ar
 // _CHARSET : windows-1256
 // Translator: Arab XOOPS Team
-define('_LOGGER_DEBUG', 'ÅÓÊßÔÇÝ ÇáÃÎØÇÁ');
-define('_LOGGER_INCLUDED_FILES', 'ÇáãáÝÇÊ ÇáãÊÖãäå');
-define('_LOGGER_FILES', '%s ãáÝ');
-define('_LOGGER_MEM_USAGE', 'ÇáÐÇßÑÉ ÇáãÓÊÎÏãÉ');
-define('_LOGGER_MEM_ESTIMATED', '%s [ÇáãÞÏÑÉ]');
-define('_LOGGER_NONE', 'áÇ ÔíÁ');
-define('_LOGGER_ALL', 'Çáßá');
-define('_LOGGER_ERRORS', 'ÇáÃÎØÇÁ');
-define('_LOGGER_DEPRECATED', "íÍÊÇÌ ááÊØæíÑ");
-define('_LOGGER_QUERIES', 'ÇáÇÓÊÚáÇãÇÊ');
-define('_LOGGER_BLOCKS', 'ÇáÈáæßÇÊ');
-define('_LOGGER_EXTRA', 'ÃÎÑì');
-define('_LOGGER_TIMERS', 'ÇáãÏÏ ÇáÒãäíÉ');
+define('_LOGGER_DEBUG','Ã…Ã“ÃŠÃŸÃ”Ã‡Ã Ã‡Ã¡ÃƒÃŽÃ˜Ã‡Ã');
+define('_LOGGER_INCLUDED_FILES','Ã‡Ã¡Ã£Ã¡ÃÃ‡ÃŠ Ã‡Ã¡Ã£ÃŠÃ–Ã£Ã¤Ã¥');
+define('_LOGGER_FILES','%s Ã£Ã¡Ã');
+define('_LOGGER_MEM_USAGE','Ã‡Ã¡ÃÃ‡ÃŸÃ‘Ã‰ Ã‡Ã¡Ã£Ã“ÃŠÃŽÃÃ£Ã‰');
+define('_LOGGER_MEM_ESTIMATED','%s [Ã‡Ã¡Ã£ÃžÃÃ‘Ã‰]');
+define('_LOGGER_NONE','Ã¡Ã‡ Ã”Ã­Ã');
+define('_LOGGER_ALL','Ã‡Ã¡ÃŸÃ¡');
+define('_LOGGER_ERRORS','Ã‡Ã¡ÃƒÃŽÃ˜Ã‡Ã');
+define('_LOGGER_DEPRECATED',"Ã­ÃÃŠÃ‡ÃŒ Ã¡Ã¡ÃŠÃ˜Ã¦Ã­Ã‘");
+define('_LOGGER_QUERIES','Ã‡Ã¡Ã‡Ã“ÃŠÃšÃ¡Ã‡Ã£Ã‡ÃŠ');
+define('_LOGGER_BLOCKS','Ã‡Ã¡ÃˆÃ¡Ã¦ÃŸÃ‡ÃŠ');
+define('_LOGGER_EXTRA','ÃƒÃŽÃ‘Ã¬');
+define('_LOGGER_TIMERS','Ã‡Ã¡Ã£ÃÃ Ã‡Ã¡Ã’Ã£Ã¤Ã­Ã‰');
 
-define('_LOGGER_TIMETOLOAD', '%s ÃÎÐÊ %s ËÇäíÉ áíÊã ÊÍãíáåÇ.');
+define('_LOGGER_TIMETOLOAD','%s ÃƒÃŽÃÃŠ %s Ã‹Ã‡Ã¤Ã­Ã‰ Ã¡Ã­ÃŠÃ£ ÃŠÃÃ£Ã­Ã¡Ã¥Ã‡.');
 
-define('_LOGGER_TOTAL', 'ÇáÅÌãÇáí');
+define('_LOGGER_TOTAL','Ã‡Ã¡Ã…ÃŒÃ£Ã‡Ã¡Ã­');
 
-define('_LOGGER_NOT_CACHED', 'ÇáßÇÔ ÛíÑ ãÝÚá');
-define('_LOGGER_CACHED', 'ÇáãÝÚá áåÇ ÇáßÇÔ (íÊã ÊæáíÏåÇ ßá %s ËæÇäí)');
+define('_LOGGER_NOT_CACHED','Ã‡Ã¡ÃŸÃ‡Ã” Ã›Ã­Ã‘ Ã£ÃÃšÃ¡');
+define('_LOGGER_CACHED','Ã‡Ã¡Ã£ÃÃšÃ¡ Ã¡Ã¥Ã‡ Ã‡Ã¡ÃŸÃ‡Ã” (Ã­ÃŠÃ£ ÃŠÃ¦Ã¡Ã­ÃÃ¥Ã‡ ÃŸÃ¡ %s Ã‹Ã¦Ã‡Ã¤Ã­)');
 
-define('_LOGGER_UNKNOWN', 'ÛíÑ ãÚÑÝ');
-define('_LOGGER_E_USER_NOTICE', 'ãáÇÍÙÉ');
-define('_LOGGER_E_USER_WARNING', 'ÊäÈíå');
-define('_LOGGER_E_USER_ERROR', 'ÎØÃ');
-define('_LOGGER_E_NOTICE', 'ãáÇÍÙÉ');
-define('_LOGGER_E_WARNING', 'ÊäÈíå');
-define('_LOGGER_E_STRICT', 'ÏÞíÞ');
-define('_LOGGER_FILELINE', '%s Ýí ÇáãáÝ %s Ýí ÇáÓØÑ %s');
+define('_LOGGER_UNKNOWN','Ã›Ã­Ã‘ Ã£ÃšÃ‘Ã');
+define('_LOGGER_E_USER_NOTICE','Ã£Ã¡Ã‡ÃÃ™Ã‰');
+define('_LOGGER_E_USER_WARNING','ÃŠÃ¤ÃˆÃ­Ã¥');
+define('_LOGGER_E_USER_ERROR','ÃŽÃ˜Ãƒ');
+define('_LOGGER_E_NOTICE','Ã£Ã¡Ã‡ÃÃ™Ã‰');
+define('_LOGGER_E_WARNING','ÃŠÃ¤ÃˆÃ­Ã¥');
+define('_LOGGER_E_STRICT','ÃÃžÃ­Ãž');
+define('_LOGGER_FILELINE','%s ÃÃ­ Ã‡Ã¡Ã£Ã¡Ã %s ÃÃ­ Ã‡Ã¡Ã“Ã˜Ã‘ %s');
 
 ?>

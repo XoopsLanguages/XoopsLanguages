@@ -32,95 +32,95 @@
 // Module Info
 
 // The name of this module
-define("_MI_MYLINKS_NAME","¸µÅ©Áý");
+define("_MI_MYLINKS_NAME","ï¿½ï¿½Å©ï¿½ï¿½");
 
 // A brief description of this module
-define("_MI_MYLINKS_DESC","»çÀÌÆ®¸µÅ©Á¤º¸¸¦ °øÀ¯/Æò°¡ÇÒ ¼ö ÀÖ´Â ¼­ºñ½º¸¦ Á¦°øÇÕ´Ï´Ù.");
+define("_MI_MYLINKS_DESC","ï¿½ï¿½ï¿½ï¿½Æ®ï¿½ï¿½Å©ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½/ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½Ö´ï¿½ ï¿½ï¿½ï¿½ñ½º¸ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Õ´Ï´ï¿½.");
 
 // Names of blocks for this module (Not all module has blocks)
-define("_MI_MYLINKS_BNAME1","½Å±Ô ¸µÅ©");
-define("_MI_MYLINKS_BNAME2","º£½ºÆ® ¸µÅ©");
+define("_MI_MYLINKS_BNAME1","ï¿½Å±ï¿½ ï¿½ï¿½Å©");
+define("_MI_MYLINKS_BNAME2","ï¿½ï¿½ï¿½ï¿½Æ® ï¿½ï¿½Å©");
 
 // Sub menu titles
-define("_MI_MYLINKS_SMNAME1","µî·Ï");
-define("_MI_MYLINKS_SMNAME2","ÀÎ±â ¸µÅ©");
-define("_MI_MYLINKS_SMNAME3","°íÆò°¡ ¸µÅ©");
+define("_MI_MYLINKS_SMNAME1","ï¿½ï¿½ï¿½");
+define("_MI_MYLINKS_SMNAME2","ï¿½Î±ï¿½ ï¿½ï¿½Å©");
+define("_MI_MYLINKS_SMNAME3","ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Å©");
 
 // Names of admin menu items
-define("_MI_MYLINKS_ADMENU2","¸µÅ©Á¤º¸ Ãß°¡/ÆíÁý");
-define("_MI_MYLINKS_ADMENU3","½Å±ÔÅõ°í ¸µÅ©Á¤º¸");
-define("_MI_MYLINKS_ADMENU4","²÷¾îÁø ¸µÅ© ½Å°í");
-define("_MI_MYLINKS_ADMENU5","¼öÁ¤ ¸µÅ©Á¤º¸");
-define("_MI_MYLINKS_ADMENU6","¸µÅ© Ã¼Å©");
+define("_MI_MYLINKS_ADMENU2","ï¿½ï¿½Å©ï¿½ï¿½ï¿½ï¿½ ï¿½ß°ï¿½/ï¿½ï¿½ï¿½ï¿½");
+define("_MI_MYLINKS_ADMENU3","ï¿½Å±ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Å©ï¿½ï¿½ï¿½ï¿½");
+define("_MI_MYLINKS_ADMENU4","ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Å© ï¿½Å°ï¿½");
+define("_MI_MYLINKS_ADMENU5","ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Å©ï¿½ï¿½ï¿½ï¿½");
+define("_MI_MYLINKS_ADMENU6","ï¿½ï¿½Å© Ã¼Å©");
 
 // Title of config items
-define('_MI_MYLINKS_POPULAR', 'ÀÎ±â ¸µÅ©°¡ µÇ±â À§ÇÑ ÃÖÀú¹æ¹®¼ö');
-define('_MI_MYLINKS_NEWLINKS', '¸ÞÀÎÆäÀÌÁöÀÇ ½Å±Ô ¸µÅ©¿¡ Ç¥½ÃÇÒ ¸µÅ©Á¤º¸ ¼ö');
-define('_MI_MYLINKS_PERPAGE', 'ÆäÀÌÁö´ç Ç¥½ÃÇÒ ¸µÅ©Á¤º¸ ¼ö');
-define('_MI_MYLINKS_USESHOTS', '½ºÅ©¸°¼¦À» »ç¿ëÇÔ');
-define('_MI_MYLINKS_USEFRAMES', 'ÇÁ·¹ÀÓÀ» »ç¿ëÇÔ');
-define('_MI_MYLINKS_SHOTWIDTH', '½ºÅ©¸°¼¦ÀÇ ±×¸²ÆÄÀÏ Æø');
-define('_MI_MYLINKS_ANONPOST','¼Õ´ÔÀÇ ¸µÅ©Á¤º¸ Åõ°í¸¦ Çã¿ëÇÔ');
-define('_MI_MYLINKS_AUTOAPPROVE','½Å±Ô ¸µÅ©Á¤º¸¸¦ ÀÚµ¿½ÂÀÎÇÔ');
+define('_MI_MYLINKS_POPULAR','ï¿½Î±ï¿½ ï¿½ï¿½Å©ï¿½ï¿½ ï¿½Ç±ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½æ¹®ï¿½ï¿½');
+define('_MI_MYLINKS_NEWLINKS','ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Å±ï¿½ ï¿½ï¿½Å©ï¿½ï¿½ Ç¥ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Å©ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½');
+define('_MI_MYLINKS_PERPAGE','ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Ç¥ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Å©ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½');
+define('_MI_MYLINKS_USESHOTS','ï¿½ï¿½Å©ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½');
+define('_MI_MYLINKS_USEFRAMES','ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½');
+define('_MI_MYLINKS_SHOTWIDTH','ï¿½ï¿½Å©ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½×¸ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½');
+define('_MI_MYLINKS_ANONPOST','ï¿½Õ´ï¿½ï¿½ï¿½ ï¿½ï¿½Å©ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½');
+define('_MI_MYLINKS_AUTOAPPROVE','ï¿½Å±ï¿½ ï¿½ï¿½Å©ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Úµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½');
 
 // Description of each config items
-define('_MI_MYLINKS_POPULARDSC', 'ÀÎ±â¸µÅ©°¡ µÇ±âÀ§ÇØ ÇÊ¿äÇÑ ¹æ¹®¼ö¸¦ ÁöÁ¤ÇØ ÁÖ¼¼¿ä!');
-define('_MI_MYLINKS_NEWLINKSDSC', '½Å±Ô¸µÅ©¿¡ Ç¥½ÃÇÒ ¸µÅ©Á¤º¸ ¼ö¸¦ ÁöÁ¤ÇØ ÁÖ¼¼¿ä!');
-define('_MI_MYLINKS_PERPAGEDSC', '¸µÅ©Á¤º¸ ¸®½ºÆ®¿¡¼­ ÆäÀÌÁö´ç Ç¥½ÃÇÒ ¸µÅ©Á¤º¸ ¼ö¸¦ ÁöÁ¤ÇØ ÁÖ¼¼¿ä');
-define('_MI_MYLINKS_USEFRAMEDSC', '¸µÅ© ÆäÀÌÁö¸¦ ÇÁ·¹ÀÓ³»¿¡ Ç¥½ÃÇÒÁö¸¦ Á¤ÇØ ÁÖ¼¼¿ä');
-define('_MI_MYLINKS_USESHOTSDSC', '¸µÅ©Á¤º¸¿¡ ½ºÅ©¸°¼¦µµ Ç¥½ÃÇÒ °æ¿ì¿£ ¿¹¸¦ ¼±ÅÃÇØ ÁÖ¼¼¿ä');
-define('_MI_MYLINKS_SHOTWIDTHDSC', '½ºÅ©¸°¼¦¿ë ±×¸²ÆÄÀÏÀÇ ÃÖ´ëÆøÀ» ÁöÁ¤ÇØ ÁÖ¼¼¿ä');
-define('_MI_MYLINKS_AUTOAPPROVEDSC','½Å±Ô ¸µÅ©Á¤º¸¸¦ ÀÚµ¿½ÂÀÎÃ³¸®ÇÏ½Ã·Á¸é ¿¹¸¦ ¼±ÅÃÇØ ÁÖ¼¼¿ä');
+define('_MI_MYLINKS_POPULARDSC','ï¿½Î±â¸µÅ©ï¿½ï¿½ ï¿½Ç±ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ê¿ï¿½ï¿½ï¿½ ï¿½æ¹®ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ö¼ï¿½ï¿½ï¿½!');
+define('_MI_MYLINKS_NEWLINKSDSC','ï¿½Å±Ô¸ï¿½Å©ï¿½ï¿½ Ç¥ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Å©ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ö¼ï¿½ï¿½ï¿½!');
+define('_MI_MYLINKS_PERPAGEDSC','ï¿½ï¿½Å©ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Æ®ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Ç¥ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Å©ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ö¼ï¿½ï¿½ï¿½');
+define('_MI_MYLINKS_USEFRAMEDSC','ï¿½ï¿½Å© ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ó³ï¿½ï¿½ï¿½ Ç¥ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ö¼ï¿½ï¿½ï¿½');
+define('_MI_MYLINKS_USESHOTSDSC','ï¿½ï¿½Å©ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Å©ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Ç¥ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ì¿£ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ö¼ï¿½ï¿½ï¿½');
+define('_MI_MYLINKS_SHOTWIDTHDSC','ï¿½ï¿½Å©ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½×¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ö´ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ö¼ï¿½ï¿½ï¿½');
+define('_MI_MYLINKS_AUTOAPPROVEDSC','ï¿½Å±ï¿½ ï¿½ï¿½Å©ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Úµï¿½ï¿½ï¿½ï¿½ï¿½Ã³ï¿½ï¿½ï¿½Ï½Ã·ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ö¼ï¿½ï¿½ï¿½');
 
 // Text for notifications
 
-define('_MI_MYLINKS_GLOBAL_NOTIFY', '¸ðµâÀüÃ¼');
-define('_MI_MYLINKS_GLOBAL_NOTIFYDSC', '´Ù¿î·Îµå ¸ðµâ ÀüÃ¼¿¡ ´ëÇÑ ÅëÁö¿É¼Ç');
+define('_MI_MYLINKS_GLOBAL_NOTIFY','ï¿½ï¿½ï¿½ï¿½ï¿½Ã¼');
+define('_MI_MYLINKS_GLOBAL_NOTIFYDSC','ï¿½Ù¿ï¿½Îµï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½Ã¼ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½É¼ï¿½');
 
-define('_MI_MYLINKS_CATEGORY_NOTIFY', 'Çö Ä«Å×°í¸®');
-define('_MI_MYLINKS_CATEGORY_NOTIFYDSC', 'Çö Ä«Å×°í¸®¿¡ ´ëÇÑ ÅëÁö¿É¼Ç');
+define('_MI_MYLINKS_CATEGORY_NOTIFY','ï¿½ï¿½ Ä«ï¿½×°ï¿½ï¿½');
+define('_MI_MYLINKS_CATEGORY_NOTIFYDSC','ï¿½ï¿½ Ä«ï¿½×°ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½É¼ï¿½');
 
-define('_MI_MYLINKS_LINK_NOTIFY', 'ÇöÀç ¸µÅ©');
-define('_MI_MYLINKS_LINK_NOTIFYDSC', 'Çö ¸µÅ©Á¤º¸¿¡ ´ëÇÑ ÅëÁö¿É¼Ç');
+define('_MI_MYLINKS_LINK_NOTIFY','ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Å©');
+define('_MI_MYLINKS_LINK_NOTIFYDSC','ï¿½ï¿½ ï¿½ï¿½Å©ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½É¼ï¿½');
 
-define('_MI_MYLINKS_GLOBAL_NEWCATEGORY_NOTIFY', '½Å±Ô Ä«Å×°í¸®');
-define('_MI_MYLINKS_GLOBAL_NEWCATEGORY_NOTIFYCAP', '½Å±Ô Ä«Å×°í¸®°¡ ½Å¼³µÈ °æ¿ì ÅëÁöÇÔ');
-define('_MI_MYLINKS_GLOBAL_NEWCATEGORY_NOTIFYDSC', '½Å±Ô Ä«Å×°í¸®°¡ ½Å¼³µÈ °æ¿ì ÅëÁöÇÕ´Ï´Ù.');
-define('_MI_MYLINKS_GLOBAL_NEWCATEGORY_NOTIFYSBJ', '[{X_SITENAME}] {X_MODULE} auto-notify : ½Å±Ô Ä«Å×°í¸®°¡ ½Å¼³µÇ¾ú½À´Ï´Ù.');
+define('_MI_MYLINKS_GLOBAL_NEWCATEGORY_NOTIFY','ï¿½Å±ï¿½ Ä«ï¿½×°ï¿½ï¿½');
+define('_MI_MYLINKS_GLOBAL_NEWCATEGORY_NOTIFYCAP','ï¿½Å±ï¿½ Ä«ï¿½×°ï¿½ï¿½ï¿½ï¿½ ï¿½Å¼ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½');
+define('_MI_MYLINKS_GLOBAL_NEWCATEGORY_NOTIFYDSC','ï¿½Å±ï¿½ Ä«ï¿½×°ï¿½ï¿½ï¿½ï¿½ ï¿½Å¼ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Õ´Ï´ï¿½.');
+define('_MI_MYLINKS_GLOBAL_NEWCATEGORY_NOTIFYSBJ','[{X_SITENAME}] {X_MODULE} auto-notify : ï¿½Å±ï¿½ Ä«ï¿½×°ï¿½ï¿½ï¿½ï¿½ ï¿½Å¼ï¿½ï¿½Ç¾ï¿½ï¿½ï¿½ï¿½Ï´ï¿½.');
 
-define('_MI_MYLINKS_GLOBAL_LINKMODIFY_NOTIFY', '¸µÅ©Á¤º¸ ¼öÁ¤¿äÃ»');
-define('_MI_MYLINKS_GLOBAL_LINKMODIFY_NOTIFYCAP', '¸µÅ©Á¤º¸ ¼öÁ¤ ¿äÃ»ÀÌ ÀÖ´Â °æ¿ì ÅëÁöÇÔ');
-define('_MI_MYLINKS_GLOBAL_LINKMODIFY_NOTIFYDSC', '¸µÅ©Á¤º¸ ¼öÁ¤ ¿äÃ»ÀÌ ÀÖ´Â °æ¿ì ÅëÁöÇÕ´Ï´Ù.');
-define('_MI_MYLINKS_GLOBAL_LINKMODIFY_NOTIFYSBJ', '[{X_SITENAME}] {X_MODULE} auto-notify : ¸µÅ©Á¤º¸¿¡ ´ëÇÑ ¼öÁ¤¿äÃ»ÀÌ ÀÖ¾ú½À´Ï´Ù.');
+define('_MI_MYLINKS_GLOBAL_LINKMODIFY_NOTIFY','ï¿½ï¿½Å©ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ã»');
+define('_MI_MYLINKS_GLOBAL_LINKMODIFY_NOTIFYCAP','ï¿½ï¿½Å©ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ã»ï¿½ï¿½ ï¿½Ö´ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½');
+define('_MI_MYLINKS_GLOBAL_LINKMODIFY_NOTIFYDSC','ï¿½ï¿½Å©ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ã»ï¿½ï¿½ ï¿½Ö´ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Õ´Ï´ï¿½.');
+define('_MI_MYLINKS_GLOBAL_LINKMODIFY_NOTIFYSBJ','[{X_SITENAME}] {X_MODULE} auto-notify : ï¿½ï¿½Å©ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ã»ï¿½ï¿½ ï¿½Ö¾ï¿½ï¿½ï¿½ï¿½Ï´ï¿½.');
 
-define('_MI_MYLINKS_GLOBAL_LINKBROKEN_NOTIFY', '²÷¾îÁø ¸µÅ© ½Å°í');
-define('_MI_MYLINKS_GLOBAL_LINKBROKEN_NOTIFYCAP', '²÷¾îÁø ¸µÅ© ½Å°í°¡ ÀÖ´Â °æ¿ì ÅëÁöÇÔ');
-define('_MI_MYLINKS_GLOBAL_LINKBROKEN_NOTIFYDSC', '²÷¾îÁø ¸µÅ© ½Å°í°¡ ÀÖ´Â °æ¿ì ÅëÁöÇÕ´Ï´Ù.');
-define('_MI_MYLINKS_GLOBAL_LINKBROKEN_NOTIFYSBJ', '[{X_SITENAME}] {X_MODULE} auto-notify : ²÷¾îÁø ¸µÅ©½Å°í°¡ ÀÖ¾ú½À´Ï´Ù.');
+define('_MI_MYLINKS_GLOBAL_LINKBROKEN_NOTIFY','ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Å© ï¿½Å°ï¿½');
+define('_MI_MYLINKS_GLOBAL_LINKBROKEN_NOTIFYCAP','ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Å© ï¿½Å°ï¿½ï¿½ ï¿½Ö´ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½');
+define('_MI_MYLINKS_GLOBAL_LINKBROKEN_NOTIFYDSC','ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Å© ï¿½Å°ï¿½ï¿½ ï¿½Ö´ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Õ´Ï´ï¿½.');
+define('_MI_MYLINKS_GLOBAL_LINKBROKEN_NOTIFYSBJ','[{X_SITENAME}] {X_MODULE} auto-notify : ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Å©ï¿½Å°ï¿½ï¿½ ï¿½Ö¾ï¿½ï¿½ï¿½ï¿½Ï´ï¿½.');
 
-define('_MI_MYLINKS_GLOBAL_LINKSUBMIT_NOTIFY', '½Å±Ô ¸µÅ©Á¤º¸ Åõ°í');
-define('_MI_MYLINKS_GLOBAL_LINKSUBMIT_NOTIFYCAP', '½Å±Ô ¸µÅ©Á¤º¸ÀÇ Åõ°í°¡ ÀÖ´Â °æ¿ì ÅëÁö');
-define('_MI_MYLINKS_GLOBAL_LINKSUBMIT_NOTIFYDSC', '½Å±Ô ¸µÅ©Á¤º¸ÀÇ Åõ°í°¡ ÀÖ´Â °æ¿ì ÅëÁö');
-define('_MI_MYLINKS_GLOBAL_LINKSUBMIT_NOTIFYSBJ', '[{X_SITENAME}] {X_MODULE} auto-notify : ½Å±Ô ¸µÅ©Á¤º¸ÀÇ Åõ°í°¡ ÀÖ¾ú½À´Ï´Ù.');
+define('_MI_MYLINKS_GLOBAL_LINKSUBMIT_NOTIFY','ï¿½Å±ï¿½ ï¿½ï¿½Å©ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½');
+define('_MI_MYLINKS_GLOBAL_LINKSUBMIT_NOTIFYCAP','ï¿½Å±ï¿½ ï¿½ï¿½Å©ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ö´ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½');
+define('_MI_MYLINKS_GLOBAL_LINKSUBMIT_NOTIFYDSC','ï¿½Å±ï¿½ ï¿½ï¿½Å©ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ö´ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½');
+define('_MI_MYLINKS_GLOBAL_LINKSUBMIT_NOTIFYSBJ','[{X_SITENAME}] {X_MODULE} auto-notify : ï¿½Å±ï¿½ ï¿½ï¿½Å©ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ö¾ï¿½ï¿½ï¿½ï¿½Ï´ï¿½.');
 
-define('_MI_MYLINKS_GLOBAL_NEWLINK_NOTIFY', '½Å±Ô ¸µÅ©Á¤º¸ µî·Ï');
-define('_MI_MYLINKS_GLOBAL_NEWLINK_NOTIFYCAP', '½Å±Ô ¸µÅ©Á¤º¸°¡ µî·ÏµÇ¾îÁø °æ¿ì ÅëÁö');
-define('_MI_MYLINKS_GLOBAL_NEWLINK_NOTIFYDSC', '½Å±Ô ¸µÅ©Á¤º¸°¡ µî·ÏµÇ¾îÁø °æ¿ì ÅëÁöÇÕ´Ï´Ù.');
-define('_MI_MYLINKS_GLOBAL_NEWLINK_NOTIFYSBJ', '[{X_SITENAME}] {X_MODULE} auto-notify : ½Å±Ô ¸µÅ©Á¤º¸°¡ Á¤½Äµî·ÏµÇ¾ú½À´Ï´Ù.');
+define('_MI_MYLINKS_GLOBAL_NEWLINK_NOTIFY','ï¿½Å±ï¿½ ï¿½ï¿½Å©ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½');
+define('_MI_MYLINKS_GLOBAL_NEWLINK_NOTIFYCAP','ï¿½Å±ï¿½ ï¿½ï¿½Å©ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ÏµÇ¾ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½');
+define('_MI_MYLINKS_GLOBAL_NEWLINK_NOTIFYDSC','ï¿½Å±ï¿½ ï¿½ï¿½Å©ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ÏµÇ¾ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Õ´Ï´ï¿½.');
+define('_MI_MYLINKS_GLOBAL_NEWLINK_NOTIFYSBJ','[{X_SITENAME}] {X_MODULE} auto-notify : ï¿½Å±ï¿½ ï¿½ï¿½Å©ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Äµï¿½ÏµÇ¾ï¿½ï¿½ï¿½ï¿½Ï´ï¿½.');
 
-define('_MI_MYLINKS_CATEGORY_LINKSUBMIT_NOTIFY', '½Å±Ô ¸µÅ©Á¤º¸ Åõ°í(Æ¯Á¤ Ä«Å×°í¸®³»)');
-define('_MI_MYLINKS_CATEGORY_LINKSUBMIT_NOTIFYCAP', 'Çö Ä«Å×°í¸®¿¡ ½Å±Ô ¸µÅ©Á¤º¸°¡ Åõ°íµÈ °æ¿ì ÅëÁöÇÔ');
-define('_MI_MYLINKS_CATEGORY_LINKSUBMIT_NOTIFYDSC', 'Çö Ä«Å×°í¸®¿¡ ½Å±Ô ¸µÅ©Á¤º¸°¡ Åõ°íµÈ °æ¿ì ÅëÁöÇÕ´Ï´Ù.');
-define('_MI_MYLINKS_CATEGORY_LINKSUBMIT_NOTIFYSBJ', '[{X_SITENAME}] {X_MODULE} auto-notify : Ä«Å×°í¸®³»¿¡ ½Å±Ô¸µÅ©Á¤º¸°¡ Åõ°íµÇ¾îÁ³½À´Ï´Ù.');
+define('_MI_MYLINKS_CATEGORY_LINKSUBMIT_NOTIFY','ï¿½Å±ï¿½ ï¿½ï¿½Å©ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½(Æ¯ï¿½ï¿½ Ä«ï¿½×°ï¿½ï¿½ï¿½ï¿½)');
+define('_MI_MYLINKS_CATEGORY_LINKSUBMIT_NOTIFYCAP','ï¿½ï¿½ Ä«ï¿½×°ï¿½ï¿½ï¿½ï¿½ ï¿½Å±ï¿½ ï¿½ï¿½Å©ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½');
+define('_MI_MYLINKS_CATEGORY_LINKSUBMIT_NOTIFYDSC','ï¿½ï¿½ Ä«ï¿½×°ï¿½ï¿½ï¿½ï¿½ ï¿½Å±ï¿½ ï¿½ï¿½Å©ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Õ´Ï´ï¿½.');
+define('_MI_MYLINKS_CATEGORY_LINKSUBMIT_NOTIFYSBJ','[{X_SITENAME}] {X_MODULE} auto-notify : Ä«ï¿½×°ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Å±Ô¸ï¿½Å©ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ç¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï´ï¿½.');
 
-define('_MI_MYLINKS_CATEGORY_NEWLINK_NOTIFY', '½Å±Ô ¸µÅ©Á¤º¸ µî·Ï(Æ¯Á¤ Ä«Å×°í¸®³»)');
-define('_MI_MYLINKS_CATEGORY_NEWLINK_NOTIFYCAP', 'Çö Ä«Å×°í¸®¿¡ ¸µÅ©Á¤º¸°¡ ½Å±Ô·Î Á¤½Äµî·ÏµÈ °æ¿ì ÅëÁöÇÔ');
-define('_MI_MYLINKS_CATEGORY_NEWLINK_NOTIFYDSC', 'Çö Ä«Å×°í¸®¿¡ ¸µÅ©Á¤º¸°¡ ½Å±Ô·Î Á¤½Äµî·ÏµÈ °æ¿ì ÅëÁöÇÕ´Ï´Ù');
-define('_MI_MYLINKS_CATEGORY_NEWLINK_NOTIFYSBJ', '[{X_SITENAME}] {X_MODULE} auto-notify : Ä«Å×°í¸®¿¡ ¸µÅ©Á¤º¸°¡ ½Å±Ô·Î Á¤½Äµî·ÏµÇ¾ú½À´Ï´Ù.');
+define('_MI_MYLINKS_CATEGORY_NEWLINK_NOTIFY','ï¿½Å±ï¿½ ï¿½ï¿½Å©ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½(Æ¯ï¿½ï¿½ Ä«ï¿½×°ï¿½ï¿½ï¿½ï¿½)');
+define('_MI_MYLINKS_CATEGORY_NEWLINK_NOTIFYCAP','ï¿½ï¿½ Ä«ï¿½×°ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Å©ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Å±Ô·ï¿½ ï¿½ï¿½ï¿½Äµï¿½Ïµï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½');
+define('_MI_MYLINKS_CATEGORY_NEWLINK_NOTIFYDSC','ï¿½ï¿½ Ä«ï¿½×°ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Å©ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Å±Ô·ï¿½ ï¿½ï¿½ï¿½Äµï¿½Ïµï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Õ´Ï´ï¿½');
+define('_MI_MYLINKS_CATEGORY_NEWLINK_NOTIFYSBJ','[{X_SITENAME}] {X_MODULE} auto-notify : Ä«ï¿½×°ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Å©ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Å±Ô·ï¿½ ï¿½ï¿½ï¿½Äµï¿½ÏµÇ¾ï¿½ï¿½ï¿½ï¿½Ï´ï¿½.');
 
-define('_MI_MYLINKS_LINK_APPROVE_NOTIFY', '¸µÅ©Á¤º¸ ½ÂÀÎ');
-define('_MI_MYLINKS_LINK_APPROVE_NOTIFYCAP', 'ÀÌ ¸µÅ©Á¤º¸°¡ ½ÂÀÎµÈ °æ¿ì ÅëÁöÇÔ');
-define('_MI_MYLINKS_LINK_APPROVE_NOTIFYDSC', 'ÀÌ ¸µÅ©Á¤º¸°¡ ½ÂÀÎµÈ °æ¿ì ÅëÁöÇÕ´Ï´Ù.');
-define('_MI_MYLINKS_LINK_APPROVE_NOTIFYSBJ', '[{X_SITENAME}] {X_MODULE} auto-notify : ¸µÅ©Á¤º¸°¡ Á¤½Ä ½ÂÀÎ/µî·ÏµÇ¾ú½À´Ï´Ù.');
+define('_MI_MYLINKS_LINK_APPROVE_NOTIFY','ï¿½ï¿½Å©ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½');
+define('_MI_MYLINKS_LINK_APPROVE_NOTIFYCAP','ï¿½ï¿½ ï¿½ï¿½Å©ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Îµï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½');
+define('_MI_MYLINKS_LINK_APPROVE_NOTIFYDSC','ï¿½ï¿½ ï¿½ï¿½Å©ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Îµï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Õ´Ï´ï¿½.');
+define('_MI_MYLINKS_LINK_APPROVE_NOTIFYSBJ','[{X_SITENAME}] {X_MODULE} auto-notify : ï¿½ï¿½Å©ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½/ï¿½ï¿½ÏµÇ¾ï¿½ï¿½ï¿½ï¿½Ï´ï¿½.');
 
 ?>

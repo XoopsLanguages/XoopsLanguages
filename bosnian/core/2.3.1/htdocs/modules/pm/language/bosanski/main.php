@@ -30,7 +30,7 @@ define("_PM_MESSAGEC","Poruka: ");
 define("_PM_CLEAR","Izbri&scaron;i");
 define("_PM_CANCELSEND","Odustani");
 define("_PM_SUBMIT","Po&scaron;alji");
-define("_PM_SAVEINOUTBOX", "Memori&scaron;i kopiju ove poruke?");
+define("_PM_SAVEINOUTBOX","Memori&scaron;i kopiju ove poruke?");
 
 //%%%%%%	File Name viewpmsg.php 	%%%%%
 define("_PM_SUBJECT","Razlog");
@@ -41,7 +41,7 @@ define("_PM_DELETE","Izbri&scaron;i");
 define("_PM_TOSAVE","Prebaci poruku u box i memori&scaron;i je");
 define("_PM_UNSAVE","Izbaci poruku iz box-a memorisanih poruka");
 define("_PM_EMPTY","Isprazni");
-define("_PM_REPLY", "Odgovori");
+define("_PM_REPLY","Odgovori");
 define("_PM_PLZREG","Molimo te da se registruje&scaron; ili uloguje&scaron; i tek onda mo&#382;e&scaron; sa drugima komunicirati preko privatnih poruka!");
 define("_PM_SAVED_PART","Tebi je dozvoljeno %d da u svom box-u mo&#382;e&scaron; memorisati i ukupno ima&scaron; %d poruka do sada");
 define("_PM_SAVED_ALL","Poruka je preba&#269;ena u box memorisanih poruka");
@@ -50,7 +50,7 @@ define("_PM_EMPTIED","Box je ispra&#382;njen");
 define("_PM_RUSUREEMPTY","Jesi li siguran(a) da treba box od poruka isprazniti?");
 define("_PM_RUSUREDELETE","Jesi li siguran(a) da treba ovu(e9 poruku(e) izbrisati?");
 
-define("_PM_ONLINE", "Online");
+define("_PM_ONLINE","Online");
 
 define("_PM_RECEIVE","Primati");
 define("_PM_POST","Post");
@@ -80,13 +80,13 @@ define("_PM_NEXTP","Sljede&#263;e");
 define("_PM_MAILNOTIFY","%s- ima&scaron; privatnu poruku od %s");
 define("_PM_MAILMESSAGE","Helo!\nIma&scaron; novu privatnu poruku od %s\n\nRazlog poruke je\n%s\n\nporuku mo&#382;e&scaron; pro&#269;itati ovdje\n%s\n\n-----------\nTi si zahtjevao(la) da te sistem obavijesti ako dobije&scaron; novu privatnu poruku od nekoga\n\nIzmjenu za obavijest ove vrste mo&#382;e&scaron; urediti ovdje \n%s\n\nMolimo te da nam na ovu poruku ne odgovara&scaron;, jer se radi o sistemskom automatsko obavje&scaron;tavanju kojeg si sam(a) aktivirao(la)\n\n---------\nSrda&#269;an pozzz\n%s\n%s\n%s");
 
-define("_PM_EMAIL", "Proslijedi dalje email");
-define("_PM_EMAIL_DESC", "Po&scaron;tovani %s, ova poruka je prene&scaron;ena iz tvog box-a priatnih poruka iz tvog Profila ".$xoopsConfig['sitename']);
-define("_PM_EMAIL_FROM", "Od %s");
-define("_PM_EMAIL_TO", "Za %s");
-define("_PM_EMAIL_SUBJECT", "[message]%s");
-define("_PM_EMAIL_MESSAGE", "Sadr&#382;aj poruke");
+define("_PM_EMAIL","Proslijedi dalje email");
+define("_PM_EMAIL_DESC","Po&scaron;tovani %s, ova poruka je prene&scaron;ena iz tvog box-a priatnih poruka iz tvog Profila ".$xoopsConfig['sitename']);
+define("_PM_EMAIL_FROM","Od %s");
+define("_PM_EMAIL_TO","Za %s");
+define("_PM_EMAIL_SUBJECT","[message]%s");
+define("_PM_EMAIL_MESSAGE","Sadr&#382;aj poruke");
 
-define("_PM_ACTION_DONE", "Akcija je izvr&scaron;ena");
-define("_PM_ACTION_ERROR", "Akcija nije izvr&scaron;ena");
+define("_PM_ACTION_DONE","Akcija je izvr&scaron;ena");
+define("_PM_ACTION_ERROR","Akcija nije izvr&scaron;ena");
 ?>

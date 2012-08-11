@@ -25,9 +25,9 @@
 //  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 USA //
 //  ------------------------------------------------------------------------ //
 //Present in many files (videos pictures etc...)
-define("_MD_YOGURT_DELETE", "Izbri&scaron;i");
-define("_MD_YOGURT_EDITDESC", "Uredi opis");
-define("_MD_YOGURT_TOKENEXPIRED", "Tvoj session  je istekao<br />Molimo te probaj pnovo");
+define("_MD_YOGURT_DELETE","Izbri&scaron;i");
+define("_MD_YOGURT_EDITDESC","Uredi opis");
+define("_MD_YOGURT_TOKENEXPIRED","Tvoj session  je istekao<br />Molimo te probaj pnovo");
 define("_MD_YOGURT_DESC_EDITED","Opis je uspje&scaron;no ure&#273;en");
 define("_MD_YOGURT_CAPTION","Opis slike");
 define("_MD_YOGURT_YOUCANUPLOAD","Mo&#382;e&scaron; samo format jpg slika uploadati do %s KBytes");
@@ -57,8 +57,8 @@ define("_MD_YOGURT_ASKCONFIRMDELETION","Jesi li siguran-a da ovu sliku treba izb
 define("_MD_YOGURT_CONFIRMDELETION","Da izbri&scaron;i je!");
 
 //album.php
-define("_MD_YOGURT_YOUHAVE", "Ima&scaron; za sada ukupno %s slika u svome Albumu.");
-define("_MD_YOGURT_YOUCANHAVE", "Tebi je dozvoljeno %s slika u Album uploadati.");
+define("_MD_YOGURT_YOUHAVE","Ima&scaron; za sada ukupno %s slika u svome Albumu.");
+define("_MD_YOGURT_YOUCANHAVE","Tebi je dozvoljeno %s slika u Album uploadati.");
 define("_MD_YOGURT_DELETED","Slika je uspje&scaron;no izbrisana");
 define("_MD_YOGURT_SUBMIT_PIC_TITLE","Upload Slika");
 define("_MD_YOGURT_SELECT_PHOTO","Izaberi sliku");
@@ -271,7 +271,7 @@ define("_MD_YOGURT_ADMIN","ADMIN");
 define("_MD_YOGURT_PREVIOUS","Prethodna");
 define("_MD_YOGURT_NEXT","Sljede&#263;a");
 define("_MD_YOGURT_USERSFOUND","%s &#268;lanova je prona&#273;eno");
-define("_MD_YOGURT_TOTALUSERS", "Ukupno: %s &#268;lanova");
+define("_MD_YOGURT_TOTALUSERS","Ukupno: %s &#268;lanova");
 define("_MD_YOGURT_NOFOUND","Nijedan &#268;lan nije prona&#273;en");
 define("_MD_YOGURT_UNAME","Nik ime");
 define("_MD_YOGURT_ICQ","ICQ Broj");
@@ -295,14 +295,14 @@ define("_MD_YOGURT_POSTS","Broj postova");
 define("_MD_YOGURT_ASC","Noviji prvo");
 define("_MD_YOGURT_DESC","Stariji prvo");
 define("_MD_YOGURT_LIMIT","Broj &#268;lanova po stranici");
-define("_MD_YOGURT_RESULTS", "Rezultat pretrage");
+define("_MD_YOGURT_RESULTS","Rezultat pretrage");
 
 //26/10/2007
-define("_MD_YOGURT_VIDEOSNOTENABLED", "Administrator je ovu funkciju isklju&#269;io");
-define("_MD_YOGURT_FRIENDSNOTENABLED", "Administrator je ovu funkciju isklju&#269;io");
-define("_MD_YOGURT_TRIBESNOTENABLED", "Administrator je ovu funkciju isklju&#269;io");
-define("_MD_YOGURT_PICTURESNOTENABLED", "Administrator je ovu funkciju isklju&#269;io");
-define("_MD_YOGURT_SCRAPSNOTENABLED", "Administrator je ovu funkciju isklju&#269;io");
+define("_MD_YOGURT_VIDEOSNOTENABLED","Administrator je ovu funkciju isklju&#269;io");
+define("_MD_YOGURT_FRIENDSNOTENABLED","Administrator je ovu funkciju isklju&#269;io");
+define("_MD_YOGURT_TRIBESNOTENABLED","Administrator je ovu funkciju isklju&#269;io");
+define("_MD_YOGURT_PICTURESNOTENABLED","Administrator je ovu funkciju isklju&#269;io");
+define("_MD_YOGURT_SCRAPSNOTENABLED","Administrator je ovu funkciju isklju&#269;io");
 
 
 //26/01/2008

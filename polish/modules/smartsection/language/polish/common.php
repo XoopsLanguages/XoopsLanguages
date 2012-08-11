@@ -7,15 +7,15 @@
 * Licence: GNU
 */
 
-define("_SMARTSECTION_MESSAGE_FILE_ERROR", "B³±d: Nie mo¿na zapisaæ wys³anego pliku z powodu:<br />%s");
-define("_SMARTSECTION_MESSAGE_WRONG_MIMETYPE", "B³±d: niedozwolony typ pliku.");
+define("_SMARTSECTION_MESSAGE_FILE_ERROR","BÂ³Â±d: Nie moÂ¿na zapisaÃ¦ wysÂ³anego pliku z powodu:<br />%s");
+define("_SMARTSECTION_MESSAGE_WRONG_MIMETYPE","BÂ³Â±d: niedozwolony typ pliku.");
 
-define("_AM_SSECTION_OPTIONS", "Opcje");
-define("_AM_SSECTION_DISPLAY_SUMMARY", "Display summary on the item page ?");
-define("_AM_SSECTION_DOHTML", " W³±cz tagi HTML");
-define("_AM_SSECTION_DOIMAGE", " W³±cz obrazy");
-define("_AM_SSECTION_DOLINEBREAK", " W³±cz znaki nowych wierszy");
-define("_AM_SSECTION_DOSMILEY", " W³±cz emotikony");
-define("_AM_SSECTION_DOXCODE", " W³±cz XOOPS codes");
+define("_AM_SSECTION_OPTIONS","Opcje");
+define("_AM_SSECTION_DISPLAY_SUMMARY","Display summary on the item page ?");
+define("_AM_SSECTION_DOHTML"," WÂ³Â±cz tagi HTML");
+define("_AM_SSECTION_DOIMAGE"," WÂ³Â±cz obrazy");
+define("_AM_SSECTION_DOLINEBREAK"," WÂ³Â±cz znaki nowych wierszy");
+define("_AM_SSECTION_DOSMILEY"," WÂ³Â±cz emotikony");
+define("_AM_SSECTION_DOXCODE"," WÂ³Â±cz XOOPS codes");
 
 ?>

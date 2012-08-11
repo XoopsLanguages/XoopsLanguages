@@ -9,7 +9,7 @@
  * @version		$Id: schinese_utf8.php 1319 2008-02-12 10:56:44Z phppp $
  * @package		xoopseditor
  */
-define("_XOOPS_EDITOR_KOIVI", "可视化Koivi编辑器");
+define("_XOOPS_EDITOR_KOIVI","可视化Koivi编辑器");
 
 $GLOBALS["KOIVI_FONTLIST"] = array(
 	'黑体'			=> '黑体',

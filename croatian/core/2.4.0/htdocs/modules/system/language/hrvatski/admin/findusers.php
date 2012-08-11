@@ -17,8 +17,8 @@ define("_AM_PREVIOUS","Prethodni");
 define("_AM_NEXT","Sljedeći");
 define("_AM_USERSFOUND","Pronađeno %s korisnika");
 
-define("_AM_ACTUS", "Aktivni korisnici: %s");
-define("_AM_INACTUS", "Neaktivni korisnici: %s");
+define("_AM_ACTUS","Aktivni korisnici: %s");
+define("_AM_INACTUS","Neaktivni korisnici: %s");
 define("_AM_NOFOUND","Nema pronađenih korisnika");
 define("_AM_UNAME","Korisničko ime");
 define("_AM_ICQ","ICQ broj");
@@ -42,17 +42,17 @@ define("_AM_POSTS","Broj objava");
 define("_AM_ASC","Uzlazno (A->Ž)");
 define("_AM_DESC","Silazno (Ž->A)");
 define("_AM_LIMIT","Broj korisnika po stranici");
-define("_AM_RESULTS", "Rezultati pretraživanja");
-define("_AM_SHOWMAILOK", "Vrsta korisnika za prikaz");
+define("_AM_RESULTS","Rezultati pretraživanja");
+define("_AM_SHOWMAILOK","Vrsta korisnika za prikaz");
 define("_AM_MAILOK","Samo korisnici koji primaju email");
 define("_AM_MAILNG","Samo korisnici koji ne primaju email");
-define("_AM_SHOWTYPE", "Prikazivanje vrste korisnika");
+define("_AM_SHOWTYPE","Prikazivanje vrste korisnika");
 define("_AM_ACTIVE","Samo aktivni korisnici");
 define("_AM_INACTIVE","Samo neaktivni korisnici");
-define("_AM_BOTH", "Svi korisnici");
-define("_AM_SENDMAIL", "Pošalji email");
-define("_AM_ADD2GROUP", "Dodaj korisnike u %s grupu");
+define("_AM_BOTH","Svi korisnici");
+define("_AM_SENDMAIL","Pošalji email");
+define("_AM_ADD2GROUP","Dodaj korisnike u %s grupu");
 
-define("_AM_GROUPS", "Grupe");
+define("_AM_GROUPS","Grupe");
 
 ?>

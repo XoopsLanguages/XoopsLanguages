@@ -3,7 +3,7 @@
 // $Id: blocks.php,v 2.0 05/11/2005 23:54:39 BitC3R0 Exp $                  //
 // ------------------------------------------------------------------------ //
 //                         RM+Soft Library 2.0                              //
-//                   Copyright © 2005. Red Mexico Soft                      //
+//                   Copyright Â© 2005. Red Mexico Soft                      //
 //                     <http:www.redmexico.com.mx/>                         //
 // ------------------------------------------------------------------------ //
 // This program is free software; you can redistribute it and/or modify     //
@@ -25,12 +25,12 @@
 // Preguntas, errores o cualquier comentario escribeme                      //
 // <adminone@redmexico.com.mx>                                              //
 // ------------------------------------------------------------------------ //
-// Visita http://www.xoops-mexico.net para obtener los últimos módulos      //
-// de Red México Soft.                                                      //
+// Visita http://www.xoops-mexico.net para obtener los Ãºltimos mÃ³dulos      //
+// de Red MÃ©xico Soft.                                                      //
 //                                                                          //
-// For more modules from Red México Soft visit http://www.xoops-mexico.net  //
+// For more modules from Red MÃ©xico Soft visit http://www.xoops-mexico.net  //
 // ------------------------------------------------------------------------ //
 //////////////////////////////////////////////////////////////////////////////
 
-define('_BB_RML_DATE', 'd/m/Y');
+define('_BB_RML_DATE','d/m/Y');
 ?>

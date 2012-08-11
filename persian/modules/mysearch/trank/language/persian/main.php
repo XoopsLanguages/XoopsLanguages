@@ -43,8 +43,8 @@ define("_MA_MYSEARCH_PREVIOUS","<< قبلی");
 define("_MA_MYSEARCH_KEYWORDS","کلمات کلیدی");
 define("_MA_MYSEARCH_TYPE","نوع");
 define("_MA_MYSEARCH_SEARCHIN","جستجو در");
-define('_MA_MYSEARCH_KEYTOOSHORT', 'کلمات کلیدی باید حد اقل <b>%s</b> کاراکتر داشته باشند');
-define('_MA_MYSEARCH_KEYIGNORE', 'کلمات کلیدی کوتاه تر از <b>%s</b> کاراکتر نادیده گرفته میشوند');
-define('_MA_MYSEARCH_SEARCHRULE', 'قانون جستجو');
-define('_MA_MYSEARCH_IGNOREDWORDS', 'کلمه ای که وارد کردید کاراکتر کمتری از حد مجاز دارد  (%u کاراکتر) و در جستجوی شما منظور نمی شود.');
+define('_MA_MYSEARCH_KEYTOOSHORT','کلمات کلیدی باید حد اقل <b>%s</b> کاراکتر داشته باشند');
+define('_MA_MYSEARCH_KEYIGNORE','کلمات کلیدی کوتاه تر از <b>%s</b> کاراکتر نادیده گرفته میشوند');
+define('_MA_MYSEARCH_SEARCHRULE','قانون جستجو');
+define('_MA_MYSEARCH_IGNOREDWORDS','کلمه ای که وارد کردید کاراکتر کمتری از حد مجاز دارد  (%u کاراکتر) و در جستجوی شما منظور نمی شود.');
 ?>

@@ -25,14 +25,14 @@ defined('XOOPS_ROOT_PATH') or die('Restricted access');
 
 setlocale(LC_ALL, 'fr_FR');
 
-// !!IMPORTANT!! insert '\' before any char among reserved chars: "a", "A", "B", "c", "d", "D", "F", "g", "G", "h", "H", "i", "I", "j", "l", "L", "m", "M", "n", "O", "r", "s", "S", "t", "T", "U", "w", "W", "Y", "y", "z", "Z"
-// insert double '\' before 't', 'r', 'n'
-define("_TODAY", "\A\u\j\o\u\\r\d\\'\h\u\i G:i");
-define("_YESTERDAY", "\H\i\e\\r G:i");
-define("_MONTHDAY", "d/m H:i");
-define("_YEARMONTHDAY", "d/m/Y H:i");
-define("_ELAPSE", "il y a %s");
-define("_TIMEFORMAT_DESC", "Les formats :<br /> \"s\" - " . _SHORTDATESTRING . ";<br /> \"m\" - " . _MEDIUMDATESTRING . ";<br /> \"l\" - " . _DATESTRING . ";<br />" . "\"c\" or \"custom\" - format déterminé en fonction de l\'intervalle jusqu\'à maintenant;<br /> \"e\" - Ecoulé<br /> \"mysql\" - Y-m-d H:i:s;<br />" . "Chaine de caractère - Consulter le <a href=\"http://www.php.net/manual/fr/function.date.php\" rel=\"external\">manuel PHP</a>.");
+// !!IMPORTANT!! insert '\' before any char among reserved chars: "a","A","B","c","d","D","F","g","G","h","H","i","I","j","l","L","m","M","n","O","r","s","S","t","T","U","w","W","Y","y","z","Z"
+// insert double '\' before 't','r','n'
+define("_TODAY","\A\u\j\o\u\\r\d\\'\h\u\i G:i");
+define("_YESTERDAY","\H\i\e\\r G:i");
+define("_MONTHDAY","d/m H:i");
+define("_YEARMONTHDAY","d/m/Y H:i");
+define("_ELAPSE","il y a %s");
+define("_TIMEFORMAT_DESC","Les formats :<br /> \"s\" - " . _SHORTDATESTRING . ";<br /> \"m\" - " . _MEDIUMDATESTRING . ";<br /> \"l\" - " . _DATESTRING . ";<br />" . "\"c\" or \"custom\" - format dÃ©terminÃ© en fonction de l\'intervalle jusqu\'Ã  maintenant;<br /> \"e\" - EcoulÃ©<br /> \"mysql\" - Y-m-d H:i:s;<br />" . "Chaine de caractÃ¨re - Consulter le <a href=\"http://www.php.net/manual/fr/function.date.php\" rel=\"external\">manuel PHP</a>.");
 
 /**
  * A Xoops Local
@@ -53,7 +53,7 @@ class XoopsLocal extends XoopsLocalAbstract
      */
     function number_format($number)
     {
-        return number_format($number, 2, '.', ',');
+        return number_format($number, 2, '.',',');
     }
 
     /**
@@ -71,7 +71,7 @@ class XoopsLocal extends XoopsLocalAbstract
 }
 
 /**
- * @translation     Communauté Francophone des Utilisateurs de Xoops
+ * @translation     CommunautÃ© Francophone des Utilisateurs de Xoops
  * @specification   _LANGCODE: fr
  * @specification   _CHARSET: iso-8859-1
  *

@@ -23,7 +23,7 @@ define('_MD_ASFILE',' Sliku memori&scaron;i (u Upload-Ordner)');
 define('_MD_RUDELIMGCAT','Jesi li siguran da ovu kategoriju i u njoj slike &#382;eli&scaron; izbrisati?');
 define('_MD_RUDELIMG','Treba li sliku stvarno izbrisati?');
 
-define('_MD_FAILDEL', '%s nemo&#382;e se izbrisati');
-define('_MD_FAILDELCAT', 'Kategorija %s se nemo&#382;e iz Baze podataka izbrisati');
-define('_MD_FAILUNLINK', 'Slika %s se nemo&#382;e sa Servera izbrisati');
+define('_MD_FAILDEL','%s nemo&#382;e se izbrisati');
+define('_MD_FAILDELCAT','Kategorija %s se nemo&#382;e iz Baze podataka izbrisati');
+define('_MD_FAILUNLINK','Slika %s se nemo&#382;e sa Servera izbrisati');
 ?>

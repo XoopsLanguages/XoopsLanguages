@@ -16,6 +16,6 @@
 // _LANGCODE: ru
 // _CHARSET : UTF-8
 // Translator: andrey3761
-define("_XOOPS_EDITOR_CKEDITOR", "CK редактор");
-define("_XOOPS_EDITOR_CKEDITOR_LANGUAGE", "ru");
+define("_XOOPS_EDITOR_CKEDITOR","CK редактор");
+define("_XOOPS_EDITOR_CKEDITOR_LANGUAGE","ru");
 ?>

@@ -8,7 +8,7 @@
  */
 
 //Nav
-define("_AM_SYSTEM_MAINTENANCE_NAV_MANAGER", "Održavanje");
+define("_AM_SYSTEM_MAINTENANCE_NAV_MANAGER","Održavanje");
 define("_AM_SYSTEM_MAINTENANCE_NAV_LIST","Sva održavanja");
 define("_AM_SYSTEM_MAINTENANCE_NAV_DUMP","Dump");
 
@@ -51,16 +51,16 @@ define("_AM_SYSTEM_MAINTENANCE_TABLES_ANALYZE","Analiziraj");
 define("_AM_SYSTEM_MAINTENANCE_DUMP","Dump");
 define("_AM_SYSTEM_MAINTENANCE_DUMP_TABLES_OR_MODULES","Izaberi tabele ili module");
 define("_AM_SYSTEM_MAINTENANCE_DUMP_DROP","Dodaj komandu DROP TABLE IF EXISTS 'tables' u dump");
-define("_AM_SYSTEM_MAINTENANCE_DUMP_OR", "ili");
-define("_AM_SYSTEM_MAINTENANCE_DUMP_AND", "i");
-define("_AM_SYSTEM_MAINTENANCE_DUMP_ERROR_TABLES_OR_MODULES", "Moraš izabrati module ili tabele");
-define("_AM_SYSTEM_MAINTENANCE_DUMP_NO_TABLES", "Nema tabela");
-define("_AM_SYSTEM_MAINTENANCE_DUMP_TABLES", "Tabele");
-define("_AM_SYSTEM_MAINTENANCE_DUMP_STRUCTURES", "Strukture");
-define("_AM_SYSTEM_MAINTENANCE_DUMP_NB_RECORDS", "Broj zapisa");
-define("_AM_SYSTEM_MAINTENANCE_DUMP_FILE_CREATED", "Podatak je kreiran");
-define("_AM_SYSTEM_MAINTENANCE_DUMP_RESULT", "Rezultat");
-define("_AM_SYSTEM_MAINTENANCE_DUMP_RECORDS", "zapis(a)");
+define("_AM_SYSTEM_MAINTENANCE_DUMP_OR","ili");
+define("_AM_SYSTEM_MAINTENANCE_DUMP_AND","i");
+define("_AM_SYSTEM_MAINTENANCE_DUMP_ERROR_TABLES_OR_MODULES","Moraš izabrati module ili tabele");
+define("_AM_SYSTEM_MAINTENANCE_DUMP_NO_TABLES","Nema tabela");
+define("_AM_SYSTEM_MAINTENANCE_DUMP_TABLES","Tabele");
+define("_AM_SYSTEM_MAINTENANCE_DUMP_STRUCTURES","Strukture");
+define("_AM_SYSTEM_MAINTENANCE_DUMP_NB_RECORDS","Broj zapisa");
+define("_AM_SYSTEM_MAINTENANCE_DUMP_FILE_CREATED","Podatak je kreiran");
+define("_AM_SYSTEM_MAINTENANCE_DUMP_RESULT","Rezultat");
+define("_AM_SYSTEM_MAINTENANCE_DUMP_RECORDS","zapis(a)");
 
 // Tips
 define("_AM_SYSTEM_MAINTENANCE_TIPS", 

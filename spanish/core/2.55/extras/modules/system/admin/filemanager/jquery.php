@@ -27,9 +27,9 @@ $GLOBALS['xoopsLogger']->activated = false;
 // Include module functions
 include $GLOBALS['xoops']->path('modules/system/include/functions.php');
 // Load language
-system_loadLanguage('filemanager', 'system');
+system_loadLanguage('filemanager','system');
 // Get Action type
-$op = system_CleanVars ( $_REQUEST, 'op', 'filemanager_display_folder', 'string' );
+$op = system_CleanVars ( $_REQUEST, 'op','filemanager_display_folder','string' );
 
 xoops_load('xoopsformloader');
 
@@ -54,7 +54,7 @@ switch ($op) {
                 foreach( $files as $file ) {
                     if( file_exists($root . $_REQUEST['dir'] . $file) && $file != '.' && $file != '..' && is_dir($root . $_REQUEST['dir'] . $file) ) {
                         //retirer .svn
-                        $file_no_valid = array('.svn', 'conf', 'db', 'locks', 'hooks', 'cache', 'templates_c');
+                        $file_no_valid = array('.svn','conf','db','locks','hooks','cache','templates_c');
 
                         if(!in_array($file, $file_no_valid))
                         {
@@ -103,7 +103,7 @@ switch ($op) {
                             <img src="'.system_AdminIcons('folder_add.png').'" alt="'._AM_SYSTEM_FILEMANAGER_ADDDIR.'" />
                         </button>';
 						$verif = true;
-						$protected = array('', 'class', 'Frameworks', 'images', 'include', 'kernel', 'language', 'modules', 'themes', 'uploads', 'xoops_lib', 'xoops_data' );
+						$protected = array('','class','Frameworks','images','include','kernel','language','modules','themes','uploads','xoops_lib','xoops_data' );
 						foreach ( $protected as $folder ) {
 							$root_path = XOOPS_ROOT_PATH . '/' . $folder.'/';
 							if (eregi($root_path, $path_file)) {
@@ -267,7 +267,7 @@ switch ($op) {
             echo _AM_SYSTEM_FILEMANAGER_EMPTY_FILE;
         }
 
-        $ext = preg_replace('/^.*\./', '', $_REQUEST['file']);
+        $ext = preg_replace('/^.*\./','', $_REQUEST['file']);
 
         echo '<form name="back" action="admin.php?fct=filemanager&op=filemanager_save" method="POST">
               <table border="0">
@@ -354,12 +354,12 @@ switch ($op) {
 
         xoops_load('xoopsformloader');
 
-        $form = new XoopsThemeForm( '', 'upload_form', 'admin.php?fct=filemanager', "post", true);
+        $form = new XoopsThemeForm( '','upload_form','admin.php?fct=filemanager', "post", true);
         $form->setExtra('enctype="multipart/form-data"');
         $form->addElement( new XoopsFormFile( _AM_SYSTEM_FILEMANAGER_UPLOAD_CHOOSE, 'upload_file', 500000), false );
-        $form->addElement( new XoopsFormHidden( 'op', 'filemanager_upload_save') );
+        $form->addElement( new XoopsFormHidden( 'op','filemanager_upload_save') );
         $form->addElement( new XoopsFormHidden( 'path', $path));
-        $form->addElement( new XoopsFormButton( '', 'up_button', _SUBMIT, 'submit'));
+        $form->addElement( new XoopsFormButton( '','up_button', _SUBMIT, 'submit'));
         echo $form->render();
     break;
 
@@ -370,24 +370,24 @@ switch ($op) {
             $path = XOOPS_ROOT_PATH.'/';
         }
 
-        $form = new XoopsThemeForm( '', 'newdir_form', 'admin.php?fct=filemanager', "post", true);
+        $form = new XoopsThemeForm( '','newdir_form','admin.php?fct=filemanager', "post", true);
         $form->setExtra('enctype="multipart/form-data"');
         $form->addElement( new XoopsFormText( _AM_SYSTEM_FILEMANAGER_ADDDIR_NAME, 'dir_name', 50, 255), true );
-        $form->addElement( new XoopsFormHidden( 'op', 'filemanager_add_dir_save') );
+        $form->addElement( new XoopsFormHidden( 'op','filemanager_add_dir_save') );
         $form->addElement( new XoopsFormHidden( 'path', $path));
-        $form->addElement( new XoopsFormButton( '', 'dir_button', _SUBMIT, 'submit'));
+        $form->addElement( new XoopsFormButton( '','dir_button', _SUBMIT, 'submit'));
         echo $form->render();
         break;
 		
 	//Confirm delete directory
     case 'filemanager_confirm_delete_directory':
-		$path = system_CleanVars ( $_REQUEST, 'path', '', 'string' );
+		$path = system_CleanVars ( $_REQUEST, 'path','','string' );
 		echo '<div class="confirmMsg">'.sprintf(_AM_SYSTEM_FILEMANAGER_DIR_SUREDEL, $path).'<br /><br /><div class="buttons"><a href="#" class="ui-corner-all" onclick="filemanager_delete_directory(\''.$path.'\');">'._AM_SYSTEM_FILEMANAGER_DELETE.'</a>&nbsp;&nbsp;<a href="#" class="ui-corner-all" onclick="$(\'#confirm_delete\').hide();filemanager_load_tree(); filemanager_display_file(\'\', 0)">'._AM_SYSTEM_FILEMANAGER_CANCEL.'</a></div></div>';
     break;
 
     // Delete one directory
     case 'filemanager_delete_directory':
-		$path = system_CleanVars ( $_REQUEST, 'path', '', 'string' );
+		$path = system_CleanVars ( $_REQUEST, 'path','','string' );
 		
 		function deltree($dossier){
 			if(($dir=opendir($dossier))===false)
@@ -421,12 +421,12 @@ switch ($op) {
             $path = XOOPS_ROOT_PATH.'/';
         }
 
-        $form = new XoopsThemeForm( '', 'newdir_form', 'admin.php?fct=filemanager', "post", true);
+        $form = new XoopsThemeForm( '','newdir_form','admin.php?fct=filemanager', "post", true);
         $form->setExtra('enctype="multipart/form-data"');
         $form->addElement( new XoopsFormText( _AM_SYSTEM_FILEMANAGER_ADDFILE, 'file_name', 50, 255), true );
-        $form->addElement( new XoopsFormHidden( 'op', 'filemanager_add_file_save') );
+        $form->addElement( new XoopsFormHidden( 'op','filemanager_add_file_save') );
         $form->addElement( new XoopsFormHidden( 'path', $path));
-        $form->addElement( new XoopsFormButton( '', 'dir_button', _SUBMIT, 'submit'));
+        $form->addElement( new XoopsFormButton( '','dir_button', _SUBMIT, 'submit'));
         echo $form->render();
         break;
         break;

@@ -13,8 +13,8 @@
  * @package		Frameworks::transfer
  */
  
-define("_MD_TRANSFER_BOOKMARK", "بوک مارک");
-define("_MD_TRANSFER_BOOKMARK_DESC", "این لینک را بوک مارک کن");
+define("_MD_TRANSFER_BOOKMARK","بوک مارک");
+define("_MD_TRANSFER_BOOKMARK_DESC","این لینک را بوک مارک کن");
 
 /* English */
 define("_MD_TRANSFER_BOOKMARK_ITEMS","

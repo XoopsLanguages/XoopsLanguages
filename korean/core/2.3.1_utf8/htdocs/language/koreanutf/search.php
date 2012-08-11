@@ -45,8 +45,8 @@ define("_SR_PREVIOUS","<< 이전");
 define("_SR_KEYWORDS","키워드");
 define("_SR_TYPE","검색의 종류");
 define("_SR_SEARCHIN","검색대상 모듈");
-define('_SR_KEYTOOSHORT', '키워드는 <strong>%s</strong>문자이상으로 지정해 주세요');
-define('_SR_KEYIGNORE', '글자수가 <strong>%s</strong>문자미만인 키워드는 무시됩니다.');
-define('_SR_SEARCHRULE', '검색 룰');
-define('_SR_IGNOREDWORDS', '다음의 키워드는 너무 짧아서(%u 문자이하) 검색시 반영되지 않았습니다.');
+define('_SR_KEYTOOSHORT','키워드는 <strong>%s</strong>문자이상으로 지정해 주세요');
+define('_SR_KEYIGNORE','글자수가 <strong>%s</strong>문자미만인 키워드는 무시됩니다.');
+define('_SR_SEARCHRULE','검색 룰');
+define('_SR_IGNOREDWORDS','다음의 키워드는 너무 짧아서(%u 문자이하) 검색시 반영되지 않았습니다.');
 ?>

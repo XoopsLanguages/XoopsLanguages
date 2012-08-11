@@ -58,7 +58,7 @@ define("_MD_LINKID","Adresa ID: ");
 define("_MD_SITETITLE","Ime/Organizacija: ");
 define("_MD_SITEURL","Web stranice URL: ");
 define("_MD_OPTIONS","Opcije: ");
-define("_MD_NOTIFYAPPROVE", "Obavijesti me ako Adresa bude objavljena");
+define("_MD_NOTIFYAPPROVE","Obavijesti me ako Adresa bude objavljena");
 define("_MD_SHOTIMAGE","Slika: ");
 define("_MD_SENDREQUEST","Po&scaron;alji zahtjev");
 
@@ -95,7 +95,7 @@ define("_MD_TITLE","Imenima");
 define("_MD_DATE","Datumu");
 define("_MD_POPULARITY","Popularnosti");
 define("_MD_CURSORTEDBY","Adresar je trenutno sortiran po: %s");
-define("_MD_PREVIOUS", "&laquo;Prethodna"); //addresses
+define("_MD_PREVIOUS","&laquo;Prethodna"); //addresses
 define("_MD_NEXT","Sljede&#263;a");
 define("_MD_NOMATCH","Ni&scaron;ta nismo prona&scaron;li po va&scaron;em upitu za pretragu");
 
@@ -103,7 +103,7 @@ define("_MD_SUBMIT","Po&scaron;alji");
 define("_MD_CANCEL","Odustani");
 
 define("_MD_ALREADYREPORTED","Jednom si ve&#263; prijavio(la) da ovaj Adresa nije ispravana.");
-define("_MD_MUSTREGFIRST","Izvinjajemo se, ali tebi nije dozvoljeno da ovu akciju izvr&scaron;i&scaron;.<br/>Molimo te da se registruje¹ ili uloguje¹, pa tek onda mo&#382;e&scaron; ovu akciju izvr&scaron;iti.");
+define("_MD_MUSTREGFIRST","Izvinjajemo se, ali tebi nije dozvoljeno da ovu akciju izvr&scaron;i&scaron;.<br/>Molimo te da se registrujeÂ¹ ili ulogujeÂ¹, pa tek onda mo&#382;e&scaron; ovu akciju izvr&scaron;iti.");
 define("_MD_NORATING","Ocjena nije izabrana, izaberi jednu.");
 define("_MD_CANTVOTEOWN","Svoje poslate Adrese nemo&#382;e&scaron; ocjenjivati.<br />Sve ocjene se zbrajaju i bilje&#382;e ko je ocjenjivao.");
 define("_MD_VOTEONCE2","Molimo te da jednu te istu Adresu samo jedanputa ocijeni&scaron;.<br />Sve ocjene se zbrajaju i bilje&#382;e ko je ocjenjivao.");
@@ -192,7 +192,7 @@ define("_MD_LAT","Geografska &scaron;irina: ");
 define("_MD_LON","Geografska du&#382;ina: ");
 define("_MD_ZOOM","Zoom level: ");
 // used in a javascript where address is a javascript variable, in english: "address + ' not found'"
-define("_MD_ADDRESS_NOT_FOUND", "address + ' not found'");
+define("_MD_ADDRESS_NOT_FOUND","address + ' not found'");
 // hack LUCIO - start
 define("_MD_PHONE","Telefon: ");
 define("_MD_FAX","Fax: ");

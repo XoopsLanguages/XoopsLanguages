@@ -47,7 +47,7 @@ define("_MB_WEBLINKS_MORE","اطلاعات بيشتر");
 // 2006-11-03
 // random block
 define('_MB_WEBLINKS_MAX_DESC','بیشترین اندازه توضیحات');
-define('_MB_WEBLINKS_SHOW_DATE', 'زمان نمایش');
+define('_MB_WEBLINKS_SHOW_DATE','زمان نمایش');
 define('_MB_WEBLINKS_MODE_URL','سبک نمایش آدرس');
 define('_MB_WEBLINKS_MODE_URL_SINGLE','singlelink.php');
 define('_MB_WEBLINKS_MODE_URL_VISIT','visit.php');
@@ -66,7 +66,7 @@ define('_MB_WEBLINKS_ORDER_DESC','Valid when "Random sort" is No');
 define('_MB_WEBLINKS_TIME_UPDATE','زمان به روز رسانی');
 define('_MB_WEBLINKS_TIME_CREATE','زمان ساخت');
 define('_MB_WEBLINKS_TITLE','عنوان');
-define('_MB_WEBLINKS_ASC', 'صعودی');
+define('_MB_WEBLINKS_ASC','صعودی');
 define('_MB_WEBLINKS_DESC','محبوبیت');
 
 // === 2007-03-25 ===
@@ -81,7 +81,7 @@ define('_MB_WEBLINKS_GM_TIMEOUT','Delay time for drawing');
 define('_MB_WEBLINKS_GM_TIMEOUT_DSC','msec  -1:window.onload');
 
 // 2007-04-08
-define('_MB_WEBLINKS_PHOTOS', 'تعداد تصاویر');
+define('_MB_WEBLINKS_PHOTOS','تعداد تصاویر');
 
 // === 2007-08-01 ===
 define('_MB_WEBLINKS_CAT_TITLE_LENGTH','طول عنوان شاخه');

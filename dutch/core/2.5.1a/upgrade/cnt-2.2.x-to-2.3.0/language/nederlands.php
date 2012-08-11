@@ -11,7 +11,7 @@
  * (Ver)taalfouten AUB hier melden: http://www.xoops.nl
  **/
 
-define( "_CONFIRM_UPGRADE_220", "
+define("_CONFIRM_UPGRADE_220","
 Met deze upgrade scripts zal de data gemigreerd worden van de bestaande 'profiel' module.<br />
         De bestaande 'profiel' module niet handmatig deinstalleren, anders zal de data niet gemigreerd worden.<br /><br />
 Zodra het upgradeproces klaar is moet u <strong>direct naar de moduleadministratie pagina voor het bijwerken van de 'profiel' module </strong> om de data migratie af te ronden.<br /><br />

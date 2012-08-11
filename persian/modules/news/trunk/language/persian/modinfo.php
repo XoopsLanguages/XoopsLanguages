@@ -21,86 +21,86 @@ define('_MI_NEWS_SMNAME1','ارسال خبر');
 define('_MI_NEWS_SMNAME2','آرشیو');
 
 // Names of admin menu items
-define('_MI_NEWS_ADMENU2', 'مدیریت سرفصل‌ها');
-define('_MI_NEWS_ADMENU3', 'نوشتن/ویرایش خبر');
-define('_MI_NEWS_GROUPPERMS', 'دسترسی برای دیدن/ارسال/تایید اخبار');
+define('_MI_NEWS_ADMENU2','مدیریت سرفصل‌ها');
+define('_MI_NEWS_ADMENU3','نوشتن/ویرایش خبر');
+define('_MI_NEWS_GROUPPERMS','دسترسی برای دیدن/ارسال/تایید اخبار');
 // Added by Hervé for prune option
-define('_MI_NEWS_PRUNENEWS', 'هرس‌کردن اخبار (prune)');
+define('_MI_NEWS_PRUNENEWS','هرس‌کردن اخبار (prune)');
 // Added by Hervé
-define('_MI_NEWS_EXPORT', 'خروجی اخبار (export)');
+define('_MI_NEWS_EXPORT','خروجی اخبار (export)');
 
 // Title of config items
-define('_MI_STORYHOME', 'تعداد خبرهایی را که درصفحه نشان داده می‌شوند انتخاب کنید');
-define('_MI_NOTIFYSUBMIT', 'بله را انتخاب کنید تا پیام آگهی‌رسانی بعد از ارسال خبر به مدیر فرستاده شود');
-define('_MI_DISPLAYNAV', 'بله را انتخاب کنید تا navigation box در بالای صفحه نشان داده شود');
+define('_MI_STORYHOME','تعداد خبرهایی را که درصفحه نشان داده می‌شوند انتخاب کنید');
+define('_MI_NOTIFYSUBMIT','بله را انتخاب کنید تا پیام آگهی‌رسانی بعد از ارسال خبر به مدیر فرستاده شود');
+define('_MI_DISPLAYNAV','بله را انتخاب کنید تا navigation box در بالای صفحه نشان داده شود');
 define('_MI_AUTOAPPROVE','تایید خودکار خبرها بدون نیاز به بررسی مدیر؟');
-define("_MI_ALLOWEDSUBMITGROUPS", "گروه‌هایی که می‌توانند خبر ارسال کنند");
-define("_MI_ALLOWEDAPPROVEGROUPS", "گروه‌هایی که می‌توانند خبرها را تایید کنند");
-define("_MI_NEWSDISPLAY", "ساختار نشان دادن اخبار");
+define("_MI_ALLOWEDSUBMITGROUPS","گروه‌هایی که می‌توانند خبر ارسال کنند");
+define("_MI_ALLOWEDAPPROVEGROUPS","گروه‌هایی که می‌توانند خبرها را تایید کنند");
+define("_MI_NEWSDISPLAY","ساختار نشان دادن اخبار");
 define("_MI_NAMEDISPLAY","نام نویسنده");
 define("_MI_COLUMNMODE","ستون‌ها");
 define("_MI_STORYCOUNTADMIN","تعداد خبرهای جدیدی که در صفحه مدیریت نشان داده می‌شود: ");
-define('_MI_UPLOADFILESIZE', 'حداکثر حجم فایل مجاز برای بارگذاری (کیلوبایت) 1048576 = 1 مگابایت');
+define('_MI_UPLOADFILESIZE','حداکثر حجم فایل مجاز برای بارگذاری (کیلوبایت) 1048576 = 1 مگابایت');
 define("_MI_UPLOADGROUPS","گروه‌های مجاز برای بارگذاری");
 
 
 // Description of each config items
-define('_MI_STORYHOMEDSC', '');
-define('_MI_NOTIFYSUBMITDSC', '');
-define('_MI_DISPLAYNAVDSC', '');
-define('_MI_AUTOAPPROVEDSC', '');
-define("_MI_ALLOWEDSUBMITGROUPSDESC", "گروه‌های انتخاب‌شده می‌توانند خبر ارسال کنند");
-define("_MI_ALLOWEDAPPROVEGROUPSDESC", "گروه‌های انتخاب‌شده می‌توانند خبر تایید کنند");
-define("_MI_NEWSDISPLAYDESC", "نمایش به شیوه مرسوم (classic) خبرها را بر اساس تاریخ انتشار نمایش می‌دهد. نمایش از روی سرفصل (by topic) خبرها رابر اساس سرفصل نشان می‌دهد به طوری که آخرین خبر هر سرفصل به طور کامل و بقیه خبرها در آن سرفصل به صورت لینک در زیر آن نمایش داده می‌شوند.");
-define('_MI_ADISPLAYNAMEDSC', 'چگونگی نمایش نام نویسنده خبر را انتخاب کنید.');
+define('_MI_STORYHOMEDSC','');
+define('_MI_NOTIFYSUBMITDSC','');
+define('_MI_DISPLAYNAVDSC','');
+define('_MI_AUTOAPPROVEDSC','');
+define("_MI_ALLOWEDSUBMITGROUPSDESC","گروه‌های انتخاب‌شده می‌توانند خبر ارسال کنند");
+define("_MI_ALLOWEDAPPROVEGROUPSDESC","گروه‌های انتخاب‌شده می‌توانند خبر تایید کنند");
+define("_MI_NEWSDISPLAYDESC","نمایش به شیوه مرسوم (classic) خبرها را بر اساس تاریخ انتشار نمایش می‌دهد. نمایش از روی سرفصل (by topic) خبرها رابر اساس سرفصل نشان می‌دهد به طوری که آخرین خبر هر سرفصل به طور کامل و بقیه خبرها در آن سرفصل به صورت لینک در زیر آن نمایش داده می‌شوند.");
+define('_MI_ADISPLAYNAMEDSC','چگونگی نمایش نام نویسنده خبر را انتخاب کنید.');
 define("_MI_COLUMNMODE_DESC","می‌توانید تعداد ستون‌هایی را که برای نمایش اخبار استفاده می‌شود انتخاب کنید");
 define("_MI_STORYCOUNTADMIN_DESC","");
 define("_MI_UPLOADFILESIZE_DESC","");
 define("_MI_UPLOADGROUPS_DESC","گروه‌هایی را که می‌توانند فایل بارگذاری کنند انتخاب کنید");
 
 // Name of config item values
-define("_MI_NEWSCLASSIC", "مرسوم (خبرهای پشت سر هم)");
-define("_MI_NEWSBYTOPIC", "بر اساس سرفصل (by topic)");
-define("_MI_DISPLAYNAME1", "شناسه کاربری");
-define("_MI_DISPLAYNAME2", "نام واقعی");
-define("_MI_DISPLAYNAME3", "نویسنده را نشان نده");
+define("_MI_NEWSCLASSIC","مرسوم (خبرهای پشت سر هم)");
+define("_MI_NEWSBYTOPIC","بر اساس سرفصل (by topic)");
+define("_MI_DISPLAYNAME1","شناسه کاربری");
+define("_MI_DISPLAYNAME2","نام واقعی");
+define("_MI_DISPLAYNAME3","نویسنده را نشان نده");
 define("_MI_UPLOAD_GROUP1","ارسال‌کننده‌ها و تاییدکننده‌ها");
 define("_MI_UPLOAD_GROUP2","فقط تاییدکننده‌ها");
 define("_MI_UPLOAD_GROUP3","غیر‌فعال کردن امکان بارگذاری فایل");
 
 // Text for notifications
 
-define('_MI_NEWS_GLOBAL_NOTIFY', 'کلی');
-define('_MI_NEWS_GLOBAL_NOTIFYDSC', 'تنظیمات اطلاع‌رسانی اخبار');
+define('_MI_NEWS_GLOBAL_NOTIFY','کلی');
+define('_MI_NEWS_GLOBAL_NOTIFYDSC','تنظیمات اطلاع‌رسانی اخبار');
 
-define('_MI_NEWS_STORY_NOTIFY', 'نوشته');
-define('_MI_NEWS_STORY_NOTIFYDSC', 'تنظیمات اطلاع‌رسانی مورد استفاده در همین فروم');
+define('_MI_NEWS_STORY_NOTIFY','نوشته');
+define('_MI_NEWS_STORY_NOTIFYDSC','تنظیمات اطلاع‌رسانی مورد استفاده در همین فروم');
 
-define('_MI_NEWS_GLOBAL_NEWCATEGORY_NOTIFY', 'عنوان جدید');
-define('_MI_NEWS_GLOBAL_NEWCATEGORY_NOTIFYCAP', 'وقتی یک عنوان جدید ایجاد شد مرا با خبر کن');
-define('_MI_NEWS_GLOBAL_NEWCATEGORY_NOTIFYDSC', 'آگهی‌رسانی برای ساخته شدن عنوان جدید');
-define('_MI_NEWS_GLOBAL_NEWCATEGORY_NOTIFYSBJ', '[{X_SITENAME}] {X_MODULE} اطلاع‌رسانی خودکار : موضوع حبری جدید');
+define('_MI_NEWS_GLOBAL_NEWCATEGORY_NOTIFY','عنوان جدید');
+define('_MI_NEWS_GLOBAL_NEWCATEGORY_NOTIFYCAP','وقتی یک عنوان جدید ایجاد شد مرا با خبر کن');
+define('_MI_NEWS_GLOBAL_NEWCATEGORY_NOTIFYDSC','آگهی‌رسانی برای ساخته شدن عنوان جدید');
+define('_MI_NEWS_GLOBAL_NEWCATEGORY_NOTIFYSBJ','[{X_SITENAME}] {X_MODULE} اطلاع‌رسانی خودکار : موضوع حبری جدید');
 
-define('_MI_NEWS_GLOBAL_STORYSUBMIT_NOTIFY', 'خبر جدید ارسال شده');       
-define('_MI_NEWS_GLOBAL_STORYSUBMIT_NOTIFYCAP', 'هر خبر جدیدی که ارسال شد مرا با خبر کن');                           
-define('_MI_NEWS_GLOBAL_STORYSUBMIT_NOTIFYDSC', 'آگهی‌رسانی برای ارسال یک خبر جدید');                
-define('_MI_NEWS_GLOBAL_STORYSUBMIT_NOTIFYSBJ', '[{X_SITENAME}] {X_MODULE} اطلاع‌رسانی خودکار:خبر جدید ارسال شده');                              
+define('_MI_NEWS_GLOBAL_STORYSUBMIT_NOTIFY','خبر جدید ارسال شده');       
+define('_MI_NEWS_GLOBAL_STORYSUBMIT_NOTIFYCAP','هر خبر جدیدی که ارسال شد مرا با خبر کن');                           
+define('_MI_NEWS_GLOBAL_STORYSUBMIT_NOTIFYDSC','آگهی‌رسانی برای ارسال یک خبر جدید');                
+define('_MI_NEWS_GLOBAL_STORYSUBMIT_NOTIFYSBJ','[{X_SITENAME}] {X_MODULE} اطلاع‌رسانی خودکار:خبر جدید ارسال شده');                              
 
-define('_MI_NEWS_GLOBAL_NEWSTORY_NOTIFY', 'خبر جدید');       
-define('_MI_NEWS_GLOBAL_NEWSTORY_NOTIFYCAP', 'هر خبر جدیدی در سایت قرار گرفت مرا با خبر کن');
-define('_MI_NEWS_GLOBAL_NEWSTORY_NOTIFYDSC', 'آگهی‌رسانی برای قرار گرفتن یک خبر جدید در سایت');
-define('_MI_NEWS_GLOBAL_NEWSTORY_NOTIFYSBJ', '[{X_SITENAME}] {X_MODULE} اطلاع‌رسانی خودکار:خبر جدید');                              
+define('_MI_NEWS_GLOBAL_NEWSTORY_NOTIFY','خبر جدید');       
+define('_MI_NEWS_GLOBAL_NEWSTORY_NOTIFYCAP','هر خبر جدیدی در سایت قرار گرفت مرا با خبر کن');
+define('_MI_NEWS_GLOBAL_NEWSTORY_NOTIFYDSC','آگهی‌رسانی برای قرار گرفتن یک خبر جدید در سایت');
+define('_MI_NEWS_GLOBAL_NEWSTORY_NOTIFYSBJ','[{X_SITENAME}] {X_MODULE} اطلاع‌رسانی خودکار:خبر جدید');                              
 
-define('_MI_NEWS_STORY_APPROVE_NOTIFY', 'خبر تایید شده');
-define('_MI_NEWS_STORY_APPROVE_NOTIFYCAP', 'هر خبری که تایید شد مرا با خبر کن');
-define('_MI_NEWS_STORY_APPROVE_NOTIFYDSC', 'آگهی‌رسانی برای خبر تایید شده');
-define('_MI_NEWS_STORY_APPROVE_NOTIFYSBJ', '[{X_SITENAME}] {X_MODULE} اطلاع‌رسانی خودکار:خبر تایید شده');
+define('_MI_NEWS_STORY_APPROVE_NOTIFY','خبر تایید شده');
+define('_MI_NEWS_STORY_APPROVE_NOTIFYCAP','هر خبری که تایید شد مرا با خبر کن');
+define('_MI_NEWS_STORY_APPROVE_NOTIFYDSC','آگهی‌رسانی برای خبر تایید شده');
+define('_MI_NEWS_STORY_APPROVE_NOTIFYSBJ','[{X_SITENAME}] {X_MODULE} اطلاع‌رسانی خودکار:خبر تایید شده');
 
-define('_MI_RESTRICTINDEX', 'سرفصل‌های خبری را محدود به صفحه اصلی خبر کن؟');
-define('_MI_RESTRICTINDEXDSC', 'اگر روی بله باشد کاربر فقط خبرها را در صفحه اصلی سرفصل خواهد دید و در صورتی می‌توانند یک خبر را به طور کامل ببینند که دسترسی داشته باشند');
+define('_MI_RESTRICTINDEX','سرفصل‌های خبری را محدود به صفحه اصلی خبر کن؟');
+define('_MI_RESTRICTINDEXDSC','اگر روی بله باشد کاربر فقط خبرها را در صفحه اصلی سرفصل خواهد دید و در صورتی می‌توانند یک خبر را به طور کامل ببینند که دسترسی داشته باشند');
 
-define('_MI_NEWSBYTHISAUTHOR', 'همه خبرهای ارسال شده از طرف: ');
-define('_MI_NEWSBYTHISAUTHORDSC', 'اگر این گزینه را روی بله بگذارید، لینک  \'خبرهای این نویسنده\' قابل مشاهده می‌شود');
+define('_MI_NEWSBYTHISAUTHOR','همه خبرهای ارسال شده از طرف: ');
+define('_MI_NEWSBYTHISAUTHORDSC','اگر این گزینه را روی بله بگذارید، لینک  \'خبرهای این نویسنده\' قابل مشاهده می‌شود');
 
 define('_MI_NEWS_PREVNEX_LINK','لینک قبلی و بعدی را نشان بده؟');
 define('_MI_NEWS_PREVNEX_LINK_DESC','وقتی این گزینه روی \'بله\' باشد، دو لینک جدید زیر هر خبر نمایش داده می‌شود. یکی از لینک‌ها برای رفتن به خبر بعدی و دیگری برای رفتن به خبر قبلی است بر اساس تاریخ انتشار خبر');
@@ -111,10 +111,10 @@ define('_MI_NEWS_AUTHOR_EDIT_DESC','با این گزینه، نویسنده خب
 define('_MI_NEWS_RATE_NEWS','فعال‌کردن ارزش‌یابی؟');
 define('_MI_NEWS_TOPICS_RSS','فعال‌کردن RSS برای هر سرفصل؟');
 define('_MI_NEWS_TOPICS_RSS_DESC',"وقتی شما این گزینه را روی 'بله' می‌گذارید بخش خروجی تغذیه‌کننده‌های RSS برای تمام سرفصل‌های خبری فعال می‌شود");
-define('_MI_NEWS_DATEFORMAT', "فرمت تاریخ");
+define('_MI_NEWS_DATEFORMAT',"فرمت تاریخ");
 define('_MI_NEWS_DATEFORMAT_DESC',"لطفا برای کسب اطلاعات بیشتر در باره چگونگی انتخاب حالت‌های مختلف به این راهنمای php (http://fr.php.net/manual/en/function.date.php) مراجعه کنید. توجه، اگر شما چیزی تایپ نکنید حالت پیش‌فرض تاریخ نمایش داده می‌شود");
-define('_MI_NEWS_META_DATA', "فعال‌کردن متاها (شرح و کلمات‌کلیدی) ؟");
-define('_MI_NEWS_META_DATA_DESC', "اگر این گزینه را روی 'بله' بگذارید تایید‌کننده‌ها می‌توانند شرح‌ها و کلمات‌کلیدی را خود وارد نمایند.");
+define('_MI_NEWS_META_DATA',"فعال‌کردن متاها (شرح و کلمات‌کلیدی) ؟");
+define('_MI_NEWS_META_DATA_DESC',"اگر این گزینه را روی 'بله' بگذارید تایید‌کننده‌ها می‌توانند شرح‌ها و کلمات‌کلیدی را خود وارد نمایند.");
 define('_MI_NEWS_BNAME8','خبرهای تصادفی');
 define('_MI_NEWS_NEWSLETTER','خبرنامه');
 define('_MI_NEWS_STATS','آمار');
@@ -168,17 +168,17 @@ define("_MI_NEWS_ENHANCED_PAGENAV_DSC","با استفاده از این گزین
 define('_MI_NEWS_CATEGORY_NOTIFY','شاخه');
 define('_MI_NEWS_CATEGORY_NOTIFYDSC','گزینه‌های آگاهی‌رسانی در شاخه فعلی قابل استفاده باشد');
 
-define('_MI_NEWS_CATEGORY_STORYPOSTED_NOTIFY', 'خبر جدید فرستاده شد');
-define('_MI_NEWS_CATEGORY_STORYPOSTED_NOTIFYCAP', 'من را آگاه‌کن وقتی هر خبر جدیدی در این شاخه ارسال شد.');
-define('_MI_NEWS_CATEGORY_STORYPOSTED_NOTIFYDSC', 'وقتی یک خبر جدید در این شاخه ارسال شد مرا با خبر کن.');
-define('_MI_NEWS_CATEGORY_STORYPOSTED_NOTIFYSBJ', '[{X_SITENAME}] {X_MODULE} اطلاع‌رسانی خودکار:خبر جدید ارسال شده');
+define('_MI_NEWS_CATEGORY_STORYPOSTED_NOTIFY','خبر جدید فرستاده شد');
+define('_MI_NEWS_CATEGORY_STORYPOSTED_NOTIFYCAP','من را آگاه‌کن وقتی هر خبر جدیدی در این شاخه ارسال شد.');
+define('_MI_NEWS_CATEGORY_STORYPOSTED_NOTIFYDSC','وقتی یک خبر جدید در این شاخه ارسال شد مرا با خبر کن.');
+define('_MI_NEWS_CATEGORY_STORYPOSTED_NOTIFYSBJ','[{X_SITENAME}] {X_MODULE} اطلاع‌رسانی خودکار:خبر جدید ارسال شده');
 
 // Added in version 1.63
-define('_MI_NEWS_TAGS', "استفاده از سیستم تگ گذاری؟");
-define('_MI_NEWS_TAGS_DSC', "این سیستم بر پایه ماژول Tag ساخته شده توسط phppp کار میکند");
-define("_MI_NEWS_BNAME10", "توده تگ");
-define("_MI_NEWS_BNAME11", "تگ های برتر");
-define("_MI_NEWS_INTRO_TEXT", "متنی را که میخواهید در صفحه ارسال خبر نمایش داده شود وارد کنید");
-define("_MI_NEWS_IMAGE_MAX_WIDTH", "بیشترین اندازه عرض تصویر بعد از تغییر ابعداد");
-define("_MI_NEWS_IMAGE_MAX_HEIGHT", "بیشترین اندازه ارتفاع تصویر بعد از تغییر ابعداد");
+define('_MI_NEWS_TAGS',"استفاده از سیستم تگ گذاری؟");
+define('_MI_NEWS_TAGS_DSC',"این سیستم بر پایه ماژول Tag ساخته شده توسط phppp کار میکند");
+define("_MI_NEWS_BNAME10","توده تگ");
+define("_MI_NEWS_BNAME11","تگ های برتر");
+define("_MI_NEWS_INTRO_TEXT","متنی را که میخواهید در صفحه ارسال خبر نمایش داده شود وارد کنید");
+define("_MI_NEWS_IMAGE_MAX_WIDTH","بیشترین اندازه عرض تصویر بعد از تغییر ابعداد");
+define("_MI_NEWS_IMAGE_MAX_HEIGHT","بیشترین اندازه ارتفاع تصویر بعد از تغییر ابعداد");
 ?>

@@ -12,13 +12,13 @@
 
 if (!defined('XOOPS_ROOT_PATH')) { exit(); }
 
-define("TAG_MD_TAGS", "Теги");
-define("TAG_MD_TAG_ON", "Поиск тегов в");
-define("TAG_MD_TAGVIEW", "Просмотр тега <strong>%1\$s</strong> на %2\$s");
-define("TAG_MD_TAGLIST", "Список тегов сайта <strong>%s</strong>");
-define("TAG_MD_JUMPTO", "Перейдите к тегу");
-define("TAG_MD_TAG_DELIMITER", "Разделители тэгов");
-define("TAG_MD_INVALID", "Данный тег отсутствует в базе");
+define("TAG_MD_TAGS","Теги");
+define("TAG_MD_TAG_ON","Поиск тегов в");
+define("TAG_MD_TAGVIEW","Просмотр тега <strong>%1\$s</strong> на %2\$s");
+define("TAG_MD_TAGLIST","Список тегов сайта <strong>%s</strong>");
+define("TAG_MD_JUMPTO","Перейдите к тегу");
+define("TAG_MD_TAG_DELIMITER","Разделители тэгов");
+define("TAG_MD_INVALID","Данный тег отсутствует в базе");
 
 /**
  * Customize addons:

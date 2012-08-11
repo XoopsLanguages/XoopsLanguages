@@ -52,7 +52,7 @@ define("_MD_LINKID","Adress-ID: ");
 define("_MD_SITETITLE","Name/Organisation: ");
 define("_MD_SITEURL","Webseiten-URL: ");
 define("_MD_OPTIONS","Optionen: ");
-define("_MD_NOTIFYAPPROVE", "Bei Freigabe dieser Adresse benachrichtigen");
+define("_MD_NOTIFYAPPROVE","Bei Freigabe dieser Adresse benachrichtigen");
 define("_MD_SHOTIMAGE","Screenshot: ");
 define("_MD_SENDREQUEST","Anfrage schicken");
 
@@ -89,7 +89,7 @@ define("_MD_TITLE","Name");
 define("_MD_DATE","Datum");
 define("_MD_POPULARITY","Popularität");
 define("_MD_CURSORTEDBY","Momentane Sortierung nach: %s");
-define("_MD_PREVIOUS", "Vorherige");
+define("_MD_PREVIOUS","Vorherige");
 define("_MD_NEXT","Nächste");
 define("_MD_NOMATCH","Keine Ergebnisse zu deiner Suchanfrage gefunden");
 

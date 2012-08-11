@@ -181,7 +181,7 @@ if ( ($isadmin) || ($catreadcount > 0) || ($catwritecount > 0) ) {
     }
     // Add new image - end
 
-    // Add new catégorie - start
+    // Add new catÃ©gorie - start
     if ( !empty($_POST["op"]) && $op == "addcat" ) {
         if (!$GLOBALS["xoopsSecurity"]->check()) {
             redirect_header($current_file . "?target=" . $target, 3, implode("<br />", $GLOBALS["xoopsSecurity"]->getErrors()));
@@ -234,7 +234,7 @@ if ( ($isadmin) || ($catreadcount > 0) || ($catwritecount > 0) ) {
         }
         redirect_header($current_file . "?target=" . $target, 3,_MD_AM_DBUPDATED);
     }
-    // Add new catégorie - end
+    // Add new catÃ©gorie - end
 
     // Update categorie - start
     if ( !empty($_POST["op"]) && $op == "updatecat" ) {
@@ -490,12 +490,12 @@ echo '<div class="panel_wrapper">';
             echo '<tr>';
             echo '<td rowspan="' . $rowspan . '" class="xoopsimage">';
 
-            echo '<img id="imageid' . $images[$i]->getVar('image_id') . '" src="'.$image_src.'" alt="'.$images[$i]->getVar('image_nicename', 'E').'" title="'.$images[$i]->getVar('image_nicename', 'E').'" onclick="XoopsimagebrowserDialog.insertAndClose(\'imageid'.$images[$i]->getVar('image_id').'\');return false;"/>';
+            echo '<img id="imageid' . $images[$i]->getVar('image_id') . '" src="'.$image_src.'" alt="'.$images[$i]->getVar('image_nicename','E').'" title="'.$images[$i]->getVar('image_nicename','E').'" onclick="XoopsimagebrowserDialog.insertAndClose(\'imageid'.$images[$i]->getVar('image_id').'\');return false;"/>';
             echo '<br />';
             echo ''.$image_size[0].'x'.$image_size[1].'';
             echo '</td>';
             echo '<td class="head">'._IMAGENAME,'</td>';
-            echo '<td class="even"><input type="hidden" name="image_id[]" value="'.$i.'" /><input type="text" name="image_nicename[]" value="'.$images[$i]->getVar('image_nicename', 'E').'" size="20" maxlength="255" /></td>';
+            echo '<td class="even"><input type="hidden" name="image_id[]" value="'.$i.'" /><input type="text" name="image_nicename[]" value="'.$images[$i]->getVar('image_nicename','E').'" size="20" maxlength="255" /></td>';
             echo '</tr>';
 
             echo '<tr>';
@@ -535,7 +535,7 @@ echo '<div class="panel_wrapper">';
         if ($imgcount > 0) {
             if ($imgcount > 20) {
                 include_once XOOPS_ROOT_PATH.'/class/pagenav.php';
-                $nav = new XoopsPageNav($imgcount, 20, $start, 'start', 'op=listimg&amp;target='.$target.'&amp;imgcat_id='.$imgcat_id);
+                $nav = new XoopsPageNav($imgcount, 20, $start, 'start','op=listimg&amp;target='.$target.'&amp;imgcat_id='.$imgcat_id);
                 echo '<div text-align="right">'.$nav->renderNav().'</div>';
             }
             if ( $catwritelist ) {
@@ -558,7 +558,7 @@ echo '<div class="panel_wrapper">';
         }
         include_once XOOPS_ROOT_PATH.'/class/xoopsformloader.php';
         $imagecategoryperm_handler =& xoops_gethandler('groupperm');
-        $form = new XoopsThemeForm(_MD_EDITIMGCAT, 'imagecat_form', ''.$current_file.'?target='.$target.'', 'post', true);
+        $form = new XoopsThemeForm(_MD_EDITIMGCAT, 'imagecat_form',''.$current_file.'?target='.$target.'','post', true);
         $form->addElement(new XoopsFormText(_MD_IMGCATNAME, 'imgcat_name', 50, 255, $imagecategory->getVar('imgcat_name')), true);
         $form->addElement(new XoopsFormSelectGroup(_MD_IMGCATRGRP, 'readgroup', true, $imagecategoryperm_handler->getGroupIds('imgcat_read', $imgcat_id), 5, true));
         $form->addElement(new XoopsFormSelectGroup(_MD_IMGCATWGRP, 'writegroup', true, $imagecategoryperm_handler->getGroupIds('imgcat_write', $imgcat_id), 5, true));
@@ -570,8 +570,8 @@ echo '<div class="panel_wrapper">';
         $storetype = array('db' => _MD_INDB, 'file' => _MD_ASFILE);
         $form->addElement(new XoopsFormLabel(_MD_IMGCATSTRTYPE, $storetype[$imagecategory->getVar('imgcat_storetype')]));
         $form->addElement(new XoopsFormHidden('imgcat_id', $imgcat_id));
-        $form->addElement(new XoopsFormHidden('op', 'updatecat'));
-        $form->addElement(new XoopsFormButton('', 'imgcat_button', _SUBMIT, 'submit'));
+        $form->addElement(new XoopsFormHidden('op','updatecat'));
+        $form->addElement(new XoopsFormButton('','imgcat_button', _SUBMIT, 'submit'));
         echo '<a href="'.$current_file.'?target='.$target.'">'. _MD_IMGMAIN .'</a>&nbsp;<span style="font-weight:bold;">&gt;</span>&nbsp;'.$imagecategory->getVar('imgcat_name').'<br /><br />';
         $form->display();
     }
@@ -584,7 +584,7 @@ echo '<div class="panel_wrapper">';
     //create Image - start
     if ( $isadmin || !empty($catwritelist)) {
         echo '<div id="loadimage_panel" class="panel" style="overflow:auto;">';
-        $form = new XoopsThemeForm(_ADDIMAGE, 'image_form', '' . $current_file . '?target=' . $target . '', 'post', true);
+        $form = new XoopsThemeForm(_ADDIMAGE, 'image_form','' . $current_file . '?target=' . $target . '','post', true);
         $form->setExtra('enctype="multipart/form-data"');
         $form->addElement(new XoopsFormText(_IMAGENAME, 'image_nicename', 50, 255), true);
         $select = new XoopsFormSelect(_IMAGECAT, 'imgcat_id');
@@ -597,8 +597,8 @@ echo '<div class="panel_wrapper">';
         $form->addElement(new XoopsFormFile(_IMAGEFILE, 'image_file', 5000000));
         $form->addElement(new XoopsFormText(_IMGWEIGHT, 'image_weight', 3, 4, 0));
         $form->addElement(new XoopsFormRadioYN(_IMGDISPLAY, 'image_display', 1, _YES, _NO));
-        $form->addElement(new XoopsFormHidden('op', 'addfile'));
-        $form->addElement(new XoopsFormButton('', 'img_button', _SUBMIT, 'submit'));
+        $form->addElement(new XoopsFormHidden('op','addfile'));
+        $form->addElement(new XoopsFormButton('','img_button', _SUBMIT, 'submit'));
         $form->display();
         echo '<div class="mceActionPanel floatright" >';
         echo '<input type="button" id="cancel" name="cancel" value="{#cancel}" onclick="tinyMCEPopup.close();" />';
@@ -610,7 +610,7 @@ echo '<div class="panel_wrapper">';
     //create Category - start
     if ( $isadmin ) {
         echo '<div id="createcategory_panel" class="panel" style="overflow:auto;">';
-        $form = new XoopsThemeForm(_MD_ADDIMGCAT, 'imagecat_form', ''.$current_file.'?target='.$target.'', 'post', true);
+        $form = new XoopsThemeForm(_MD_ADDIMGCAT, 'imagecat_form',''.$current_file.'?target='.$target.'','post', true);
         $form->addElement(new XoopsFormText(_MD_IMGCATNAME, 'imgcat_name', 50, 255), true);
         $form->addElement(new XoopsFormSelectGroup(_MD_IMGCATRGRP, 'readgroup', true, XOOPS_GROUP_ADMIN, 5, true));
         $form->addElement(new XoopsFormSelectGroup(_MD_IMGCATWGRP, 'writegroup', true, XOOPS_GROUP_ADMIN, 5, true));
@@ -619,11 +619,11 @@ echo '<div class="panel_wrapper">';
         $form->addElement(new XoopsFormText(_IMGMAXHEIGHT, 'imgcat_maxheight', 3, 4, 120));
         $form->addElement(new XoopsFormText(_MD_IMGCATWEIGHT, 'imgcat_weight', 3, 4, 0));
         $form->addElement(new XoopsFormRadioYN(_MD_IMGCATDISPLAY, 'imgcat_display', 1, _YES, _NO));
-        $storetype = new XoopsFormRadio(_MD_IMGCATSTRTYPE.'<br /><span style="color:#ff0000;">'._MD_STRTYOPENG.'</span>', 'imgcat_storetype', 'file');
+        $storetype = new XoopsFormRadio(_MD_IMGCATSTRTYPE.'<br /><span style="color:#ff0000;">'._MD_STRTYOPENG.'</span>','imgcat_storetype','file');
         $storetype->addOptionArray(array('file' => _MD_ASFILE, 'db' => _MD_INDB));
         $form->addElement($storetype);
-        $form->addElement(new XoopsFormHidden('op', 'addcat'));
-        $form->addElement(new XoopsFormButton('', 'imgcat_button', _SUBMIT, 'submit'));
+        $form->addElement(new XoopsFormHidden('op','addcat'));
+        $form->addElement(new XoopsFormButton('','imgcat_button', _SUBMIT, 'submit'));
         $form->display();
         echo '<div class="mceActionPanel floatright" >';
         echo '<input type="button" id="cancel" name="cancel" value="{#cancel}" onclick="tinyMCEPopup.close();" />';

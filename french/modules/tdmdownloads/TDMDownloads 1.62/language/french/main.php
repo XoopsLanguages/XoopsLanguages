@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 /**
  * TDMDownload
  *
@@ -122,35 +122,35 @@ define("_MD_TDMDOWNLOADS_DOWNLOAD","Télécharger");
 define("_MD_TDMDOWNLOADS_RSS","Flux RSS");
 
 //visit.php
-define("_MD_TDMDOWNLOADS_NOPERMISETOLINK", "Ce fichier n'appartient pas au site d'où vous venez.<br /><br />Merci d'écrire un courrier électronique au webmestre du site d'où vous venez et dites-lui : <br /><b>VOUS N'ÊTES PAS PROPRIÉTAIRE DE LIENS PROVENANT D'AUTRES SITES! (LEECH)</ b><br /><br />Définition de leecher : </ b> Quelqu'un qui est trop paresseux pour afficher et héberger des liens sur son propre serveur ou vole le dur travail fait par d'autres personnes.<br /><br /><b>Vous êtes déjà enregistré</ b>.");
+define("_MD_TDMDOWNLOADS_NOPERMISETOLINK","Ce fichier n'appartient pas au site d'où vous venez.<br /><br />Merci d'écrire un courrier électronique au webmestre du site d'où vous venez et dites-lui : <br /><b>VOUS N'ÊTES PAS PROPRIÉTAIRE DE LIENS PROVENANT D'AUTRES SITES! (LEECH)</ b><br /><br />Définition de leecher : </ b> Quelqu'un qui est trop paresseux pour afficher et héberger des liens sur son propre serveur ou vole le dur travail fait par d'autres personnes.<br /><br /><b>Vous êtes déjà enregistré</ b>.");
 
 //Message d'erreur
 define("_MD_TDMDOWNLOADS_ERREUR_NOCAT","Vous devez choisir une catégorie !");
 define("_MD_TDMDOWNLOADS_ERREUR_SIZE","La taille du fichier doit être un nombre");
 
 //Bookmarks 
-define("_MD_TDMDOWNLOADS_BOOKMARK_ME", "Marquez-moi");
-define("_MD_TDMDOWNLOADS_BOOKMARK_TO_BLINKLIST", "Marque vers Blinklist");
-define("_MD_TDMDOWNLOADS_BOOKMARK_TO_DELICIOUS", "Marque vers del.icio.us");
-define("_MD_TDMDOWNLOADS_BOOKMARK_TO_DIGG", "Marque vers Digg");
-define("_MD_TDMDOWNLOADS_BOOKMARK_TO_FARK", "Marque vers Fark");
-define("_MD_TDMDOWNLOADS_BOOKMARK_TO_FURL", "Marque vers Furl");
-define("_MD_TDMDOWNLOADS_BOOKMARK_TO_NEWSVINE", "Marque vers Newsvine");
-define("_MD_TDMDOWNLOADS_BOOKMARK_TO_REDDIT", "Marque vers Reddit");
-define("_MD_TDMDOWNLOADS_BOOKMARK_TO_SIMPY", "Marque vers Simpy");
-define("_MD_TDMDOWNLOADS_BOOKMARK_TO_SPURL", "Marque vers Spurl");
-define("_MD_TDMDOWNLOADS_BOOKMARK_TO_YAHOO", "Marque vers Yahoo");
-define("_MD_TDMDOWNLOADS_BOOKMARK_TO_FACEBOOK", "Marque vers Faceboom");
-define("_MD_TDMDOWNLOADS_BOOKMARK_TO_TWITTER", "Marque vers Twitter");
-define("_MD_TDMDOWNLOADS_BOOKMARK_TO_SCRIPSTYLE", "Marque vers Scripstyle");
-define("_MD_TDMDOWNLOADS_BOOKMARK_TO_STUMBLE", "Marque vers Stumble");
-define("_MD_TDMDOWNLOADS_BOOKMARK_TO_TECHNORATI", "Marque vers Technorati");
-define("_MD_TDMDOWNLOADS_BOOKMARK_TO_MIXX", "Marque vers Mixx");
-define("_MD_TDMDOWNLOADS_BOOKMARK_TO_MYSPACE", "Marque vers Myspace");
-define("_MD_TDMDOWNLOADS_BOOKMARK_TO_DESIGNFLOAT", "Marque vers Designfloat");
-define("_MD_TDMDOWNLOADS_BOOKMARK_TO_BALATARIN", "Marque vers Balatarin");
-define("_MD_TDMDOWNLOADS_BOOKMARK_TO_GOOGLEPLUS", "Marque vers Google Plus");
-define("_MD_TDMDOWNLOADS_BOOKMARK_TO_GOOGLEREADER", "Marque vers Google Reader");
-define("_MD_TDMDOWNLOADS_BOOKMARK_TO_GOOGLEBOOKMARKS", "Marque vers Google Bookmarks");
+define("_MD_TDMDOWNLOADS_BOOKMARK_ME","Marquez-moi");
+define("_MD_TDMDOWNLOADS_BOOKMARK_TO_BLINKLIST","Marque vers Blinklist");
+define("_MD_TDMDOWNLOADS_BOOKMARK_TO_DELICIOUS","Marque vers del.icio.us");
+define("_MD_TDMDOWNLOADS_BOOKMARK_TO_DIGG","Marque vers Digg");
+define("_MD_TDMDOWNLOADS_BOOKMARK_TO_FARK","Marque vers Fark");
+define("_MD_TDMDOWNLOADS_BOOKMARK_TO_FURL","Marque vers Furl");
+define("_MD_TDMDOWNLOADS_BOOKMARK_TO_NEWSVINE","Marque vers Newsvine");
+define("_MD_TDMDOWNLOADS_BOOKMARK_TO_REDDIT","Marque vers Reddit");
+define("_MD_TDMDOWNLOADS_BOOKMARK_TO_SIMPY","Marque vers Simpy");
+define("_MD_TDMDOWNLOADS_BOOKMARK_TO_SPURL","Marque vers Spurl");
+define("_MD_TDMDOWNLOADS_BOOKMARK_TO_YAHOO","Marque vers Yahoo");
+define("_MD_TDMDOWNLOADS_BOOKMARK_TO_FACEBOOK","Marque vers Faceboom");
+define("_MD_TDMDOWNLOADS_BOOKMARK_TO_TWITTER","Marque vers Twitter");
+define("_MD_TDMDOWNLOADS_BOOKMARK_TO_SCRIPSTYLE","Marque vers Scripstyle");
+define("_MD_TDMDOWNLOADS_BOOKMARK_TO_STUMBLE","Marque vers Stumble");
+define("_MD_TDMDOWNLOADS_BOOKMARK_TO_TECHNORATI","Marque vers Technorati");
+define("_MD_TDMDOWNLOADS_BOOKMARK_TO_MIXX","Marque vers Mixx");
+define("_MD_TDMDOWNLOADS_BOOKMARK_TO_MYSPACE","Marque vers Myspace");
+define("_MD_TDMDOWNLOADS_BOOKMARK_TO_DESIGNFLOAT","Marque vers Designfloat");
+define("_MD_TDMDOWNLOADS_BOOKMARK_TO_BALATARIN","Marque vers Balatarin");
+define("_MD_TDMDOWNLOADS_BOOKMARK_TO_GOOGLEPLUS","Marque vers Google Plus");
+define("_MD_TDMDOWNLOADS_BOOKMARK_TO_GOOGLEREADER","Marque vers Google Reader");
+define("_MD_TDMDOWNLOADS_BOOKMARK_TO_GOOGLEBOOKMARKS","Marque vers Google Bookmarks");
 // Traduction par Cesag pour frxoops.org le 1er Juin 2012
 ?>

@@ -3,158 +3,158 @@
 // _LANGCODE: ja
 // _CHARSET : EUC-JP
 // Translator: XOOPS Translation Team
-define('_PLEASEWAIT', '¤·¤Ð¤é¤¯¤ªÂÔ¤Á¤¯¤À¤µ¤¤');
-define('_FETCHING', 'Loading...');
-define('_TAKINGBACK', '¸µ¤Î¾ì½ê¤Ø¤ÈÌá¤ê¤Þ¤¹....');
-define('_LOGOUT', '¥í¥°¥¢¥¦¥È');
-define('_SUBJECT', '·ïÌ¾');
-define('_MESSAGEICON', '¥¢¥¤¥³¥ó');
-define('_COMMENTS', '¥³¥á¥ó¥È');
-define('_POSTANON', 'Æ¿Ì¾Åê¹Æ');
-define('_DISABLESMILEY', '´éÊ¸»úÌµ¸ú');
-define('_DISABLEHTML', 'HTML ¥¿¥°Ìµ¸ú');
-define('_PREVIEW', '¥×¥ì¥Ó¥å¡¼');
-define('_GO', 'Go!');
-define('_NESTED', '¥Í¥¹¥È');
-define('_NOCOMMENTS', '¥³¥á¥ó¥ÈÈóÉ½¼¨');
-define('_FLAT', '¥Õ¥é¥Ã¥È');
-define('_THREADED', '¥¹¥ì¥Ã¥É');
-define('_OLDESTFIRST', '¸Å¤¤¤â¤Î¤«¤é');
-define('_NEWESTFIRST', '¿·¤·¤¤¤â¤Î¤«¤é');
-define('_MORE', 'more...');
-define('_MULTIPAGE', '<span style=\'color:red;\'>[pagebreak]</span>¥¿¥°¤òËÜÊ¸Æâ¤Ëµ­Æþ¤¹¤ë¤³¤È¤Ç¥Ú¡¼¥¸¶èÀÚ¤ê¤òÁÞÆþ¤¹¤ë¤³¤È¤¬¤Ç¤­¤Þ¤¹¡£');
-define("_IFNOTRELOAD", "¼«Æ°Åª¤Ë¥Ú¡¼¥¸¤¬ÆÉ¤ß¹þ¤Þ¤ì¤Ê¤¤¾ì¹ç¤Ï<a href='%s'>¤³¤Á¤é</a>¤ò¥¯¥ê¥Ã¥¯¤·¤Æ¤¯¤À¤µ¤¤¡£");
+define('_PLEASEWAIT','ï¿½ï¿½ï¿½Ð¤é¤¯ï¿½ï¿½ï¿½Ô¤ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½');
+define('_FETCHING','Loading...');
+define('_TAKINGBACK','ï¿½ï¿½ï¿½Î¾ï¿½ï¿½Ø¤ï¿½ï¿½ï¿½ï¿½Þ¤ï¿½....');
+define('_LOGOUT','ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½');
+define('_SUBJECT','ï¿½ï¿½Ì¾');
+define('_MESSAGEICON','ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½');
+define('_COMMENTS','ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½');
+define('_POSTANON','Æ¿Ì¾ï¿½ï¿½ï¿½');
+define('_DISABLESMILEY','ï¿½ï¿½Ê¸ï¿½ï¿½Ìµï¿½ï¿½');
+define('_DISABLEHTML','HTML ï¿½ï¿½ï¿½ï¿½Ìµï¿½ï¿½');
+define('_PREVIEW','ï¿½×¥ï¿½Ó¥å¡¼');
+define('_GO','Go!');
+define('_NESTED','ï¿½Í¥ï¿½ï¿½ï¿½');
+define('_NOCOMMENTS','ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É½ï¿½ï¿½');
+define('_FLAT','ï¿½Õ¥ï¿½Ã¥ï¿½');
+define('_THREADED','ï¿½ï¿½ï¿½ï¿½Ã¥ï¿½');
+define('_OLDESTFIRST','ï¿½Å¤ï¿½ï¿½ï¿½Î¤ï¿½ï¿½ï¿½');
+define('_NEWESTFIRST','ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î¤ï¿½ï¿½ï¿½');
+define('_MORE','more...');
+define('_MULTIPAGE','<span style=\'color:red;\'>[pagebreak]</span>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê¸ï¿½ï¿½Ëµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ë¤³ï¿½È¤Ç¥Ú¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ú¤ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ë¤³ï¿½È¤ï¿½ï¿½Ç¤ï¿½ï¿½Þ¤ï¿½ï¿½ï¿½');
+define("_IFNOTRELOAD","ï¿½ï¿½Æ°Åªï¿½Ë¥Ú¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É¤ß¹ï¿½ï¿½Þ¤ï¿½Ê¤ï¿½ï¿½ï¿½ï¿½ï¿½<a href='%s'>ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½</a>ï¿½ò¥¯¥ï¿½Ã¥ï¿½ï¿½ï¿½ï¿½Æ¤ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
 // Error messages issued by XoopsObject::cleanVars()
-define("_XOBJ_ERR_REQUIRED", "%s ¤¬É¬Í×¤Ç¤¹" );
-define("_XOBJ_ERR_SHORTERTHAN", "%s ¤Ï %d Ê¸»ú°ÊÆâ¤Ë¤·¤Æ¤¯¤À¤µ¤¤" );
+define("_XOBJ_ERR_REQUIRED","%s ï¿½ï¿½É¬ï¿½×¤Ç¤ï¿½" );
+define("_XOBJ_ERR_SHORTERTHAN","%s ï¿½ï¿½ %d Ê¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ë¤ï¿½ï¿½Æ¤ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½" );
 // %%%%%%    File Name themeuserpost.php     %%%%%
-define('_PROFILE', '¥×¥í¥Õ¥£¡¼¥ë');
-define('_POSTEDBY', 'Åê¹Æ¼Ô');
-define('_VISITWEBSITE', 'Web ¥µ¥¤¥È');
-define('_SENDPMTO', '%s ¤µ¤ó¤Ø¥×¥é¥¤¥Ù¡¼¥È¥á¥Ã¥»¡¼¥¸Á÷¿®');
-define('_SENDEMAILTO', '%s ¤µ¤ó¤Ø¥á¡¼¥ëÁ÷¿®');
-define('_ADD', 'ÄÉ²Ã');
-define('_REPLY', 'ÊÖ¿®');
-define('_DATE', 'Æü»þ'); // Posted date
+define('_PROFILE','ï¿½×¥ï¿½Õ¥ï¿½ï¿½ï¿½ï¿½ï¿½');
+define('_POSTEDBY','ï¿½ï¿½Æ¼ï¿½');
+define('_VISITWEBSITE','Web ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½');
+define('_SENDPMTO','%s ï¿½ï¿½ï¿½ï¿½Ø¥×¥é¥¤ï¿½Ù¡ï¿½ï¿½È¥ï¿½Ã¥ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½');
+define('_SENDEMAILTO','%s ï¿½ï¿½ï¿½ï¿½Ø¥á¡¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½');
+define('_ADD','ï¿½É²ï¿½');
+define('_REPLY','ï¿½Ö¿ï¿½');
+define('_DATE','ï¿½ï¿½ï¿½ï¿½'); // Posted date
 // %%%%%%    File Name admin_functions.php     %%%%%
-define('_MAIN', '¥È¥Ã¥×');
-define('_MANUAL', '¥Þ¥Ë¥å¥¢¥ë');
-define('_INFO', '¾ðÊó');
-define('_CPHOME', '¥³¥ó¥È¥í¡¼¥ë¥Ñ¥Í¥ë');
-define('_YOURHOME', '¥Û¡¼¥à¥Ú¡¼¥¸');
+define('_MAIN','ï¿½È¥Ã¥ï¿½');
+define('_MANUAL','ï¿½Þ¥Ë¥å¥¢ï¿½ï¿½');
+define('_INFO','ï¿½ï¿½ï¿½ï¿½');
+define('_CPHOME','ï¿½ï¿½ï¿½ï¿½È¥ï¿½ï¿½ï¿½ï¿½Ñ¥Í¥ï¿½');
+define('_YOURHOME','ï¿½Û¡ï¿½ï¿½ï¿½Ú¡ï¿½ï¿½ï¿½');
 // %%%%%%    File Name misc.php (who's-online popup)    %%%%%
-define('_WHOSONLINE', '¥ª¥ó¥é¥¤¥ó¾õ¶·'); 
-define('_GUESTS', '¥²¥¹¥È');
-define('_MEMBERS', '¥á¥ó¥Ð¡¼');
-define('_ONLINEPHRASE', '<strong>%s</strong> ¥æ¡¼¥¶¡¼ ¥ª¥ó¥é¥¤¥ó');
-define('_ONLINEPHRASEX', '<strong>%s</strond> ¥æ¡¼¥¶ <strong>%s</strong> »²¾ÈÃæ');
-define('_CLOSE', 'ÊÄ¤¸¤ë'); // Close window
+define('_WHOSONLINE','ï¿½ï¿½ï¿½ï¿½é¥¤ï¿½ï¿½ï¿½ï¿½ï¿½'); 
+define('_GUESTS','ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½');
+define('_MEMBERS','ï¿½ï¿½ï¿½Ð¡ï¿½');
+define('_ONLINEPHRASE','<strong>%s</strong> ï¿½æ¡¼ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½é¥¤ï¿½ï¿½');
+define('_ONLINEPHRASEX','<strong>%s</strond> ï¿½æ¡¼ï¿½ï¿½ <strong>%s</strong> ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½');
+define('_CLOSE','ï¿½Ä¤ï¿½ï¿½ï¿½'); // Close window
 // %%%%%%    File Name module.textsanitizer.php     %%%%%
-define('_QUOTEC', '°úÍÑ:');
+define('_QUOTEC','ï¿½ï¿½ï¿½ï¿½:');
 // %%%%%%    File Name admin.php     %%%%%
-define("_NOPERM", "¿½¤·Ìõ¤´¤¶¤¤¤Þ¤»¤ó¡£¤¢¤Ê¤¿¤Ï¤³¤Î¥¨¥ê¥¢¤ò»²¾È¤¹¤ë»ö¤Ï¤Ç¤­¤Þ¤»¤ó");
+define("_NOPERM","ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Þ¤ï¿½ï¿½ó¡£¤ï¿½ï¿½Ê¤ï¿½ï¿½Ï¤ï¿½ï¿½Î¥ï¿½ï¿½ê¥¢ï¿½ò»²¾È¤ï¿½ï¿½ï¿½ï¿½ï¿½Ï¤Ç¤ï¿½ï¿½Þ¤ï¿½ï¿½ï¿½");
 // %%%%%        Common Phrases        %%%%%
-define('_NO', '¤¤¤¤¤¨');
-define('_YES', '¤Ï¤¤');
-define('_EDIT', 'ÊÔ½¸');
-define('_DELETE', 'ºï½ü');
-define('_SUBMIT', 'Á÷¿®');
-define('_MODULENOEXIST', 'ÁªÂò¥â¥¸¥å¡¼¥ë¤ÏÂ¸ºß¤·¤Þ¤»¤ó¡ª');
-define('_ALIGN', '°ÌÃÖ');
-define('_LEFT', 'º¸');
-define('_CENTER', 'Ãæ±û');
-define('_RIGHT', '±¦');
-define('_FORM_ENTER', '%s ¤òÆþÎÏ¤·¤Æ¤¯¤À¤µ¤¤');
-define('_MUSTWABLE', '¥µ¡¼¥Ð¤Ø¥Õ¥¡¥¤¥ë %s ¤¬½ñ¤­¹þ¤ß¤Ç¤­¤ë¾õÂÖ¤«³ÎÇ§¤·¤Æ¤¯¤À¤µ¤¤¡ª');
+define('_NO','ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½');
+define('_YES','ï¿½Ï¤ï¿½');
+define('_EDIT','ï¿½Ô½ï¿½');
+define('_DELETE','ï¿½ï¿½ï¿½');
+define('_SUBMIT','ï¿½ï¿½ï¿½ï¿½');
+define('_MODULENOEXIST','ï¿½ï¿½ï¿½ï¿½â¥¸ï¿½å¡¼ï¿½ï¿½ï¿½Â¸ï¿½ß¤ï¿½ï¿½Þ¤ï¿½ï¿½ï¿½');
+define('_ALIGN','ï¿½ï¿½ï¿½ï¿½');
+define('_LEFT','ï¿½ï¿½');
+define('_CENTER','ï¿½ï¿½ï¿½');
+define('_RIGHT','ï¿½ï¿½');
+define('_FORM_ENTER','%s ï¿½ï¿½ï¿½ï¿½ï¿½Ï¤ï¿½ï¿½Æ¤ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½');
+define('_MUSTWABLE','ï¿½ï¿½ï¿½ï¿½ï¿½Ð¤Ø¥Õ¥ï¿½ï¿½ï¿½ï¿½ï¿½ %s ï¿½ï¿½ï¿½ñ¤­¹ï¿½ï¿½ß¤Ç¤ï¿½ï¿½ï¿½ï¿½ï¿½Ö¤ï¿½ï¿½ï¿½Ç§ï¿½ï¿½ï¿½Æ¤ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½');
 // Module info
-define('_PREFERENCES', '½é´üÀßÄê');
-define('_VERSION', 'Version');
-define('_DESCRIPTION', 'Description');
-define('_AUTHOR', 'Author');
-define('_CREDITS', 'Credits');
-define('_LICENCE', 'Licence');
-define('_ERRORS', '¥¨¥é¡¼');
-define('_NONE', '¤Ê¤·');
-define('_ON', 'on');
-define('_READS', 'reads');
-define('_WELCOMETO', 'Welcome to %s');
-define('_SEARCH', '¸¡º÷');
-define('_ALL', '¤¹¤Ù¤Æ');
-define('_TITLE', 'ÂêÌ¾');
-define('_OPTIONS', '¥ª¥×¥·¥ç¥ó');
-define('_QUOTE', '°úÍÑ');
-define('_LIST', '¥ê¥¹¥È');
-define('_LOGIN', '¥í¥°¥¤¥ó');
-define('_USERNAME', '¥æ¡¼¥¶¡¼Ì¾: ');
-define('_PASSWORD','¥Ñ¥¹¥ï¡¼¥É: ');
-define('_SELECT','ÁªÂò');
-define('_IMAGE','²èÁü');
-define('_SEND', 'Á÷¿®');
-define('_CANCEL', '¥­¥ã¥ó¥»¥ë');
-define('_ASCENDING', '¾º½ç');
-define('_DESCENDING','¹ß½ç');
-define('_BACK', 'Ìá¤ë');
-define('_NOTITLE', 'Âê¤Ê¤·');
+define('_PREFERENCES','ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½');
+define('_VERSION','Version');
+define('_DESCRIPTION','Description');
+define('_AUTHOR','Author');
+define('_CREDITS','Credits');
+define('_LICENCE','Licence');
+define('_ERRORS','ï¿½ï¿½ï¿½é¡¼');
+define('_NONE','ï¿½Ê¤ï¿½');
+define('_ON','on');
+define('_READS','reads');
+define('_WELCOMETO','Welcome to %s');
+define('_SEARCH','ï¿½ï¿½ï¿½ï¿½');
+define('_ALL','ï¿½ï¿½ï¿½Ù¤ï¿½');
+define('_TITLE','ï¿½ï¿½Ì¾');
+define('_OPTIONS','ï¿½ï¿½ï¿½×¥ï¿½ï¿½ï¿½ï¿½');
+define('_QUOTE','ï¿½ï¿½ï¿½ï¿½');
+define('_LIST','ï¿½ê¥¹ï¿½ï¿½');
+define('_LOGIN','ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½');
+define('_USERNAME','ï¿½æ¡¼ï¿½ï¿½ï¿½ï¿½Ì¾: ');
+define('_PASSWORD','ï¿½Ñ¥ï¿½ï¿½ï¡¼ï¿½ï¿½: ');
+define('_SELECT','ï¿½ï¿½ï¿½ï¿½');
+define('_IMAGE','ï¿½ï¿½ï¿½ï¿½');
+define('_SEND','ï¿½ï¿½ï¿½ï¿½');
+define('_CANCEL','ï¿½ï¿½ï¿½ï¿½ó¥»¥ï¿½');
+define('_ASCENDING','ï¿½ï¿½ï¿½ï¿½');
+define('_DESCENDING','ï¿½ß½ï¿½');
+define('_BACK','ï¿½ï¿½ï¿½');
+define('_NOTITLE','ï¿½ï¿½Ê¤ï¿½');
 /**
 * Image manager
 */
-define('_IMGMANAGER', '¥¤¥á¡¼¥¸ÊÔ½¸');
-define('_NUMIMAGES', '%s ¥¤¥á¡¼¥¸');
-define('_ADDIMAGE', '²èÁü¥Õ¥¡¥¤¥ë ÄÉ²Ã');
-define('_IMAGENAME', '²èÁüÌ¾:');
-define('_IMGMAXSIZE', 'ºÇÂç¥Õ¥¡¥¤¥ë¥µ¥¤¥º (¥Ð¥¤¥È):');
-define('_IMGMAXWIDTH', 'ºÇÂç²£Éý (¥Ô¥¯¥»¥ë):');
-define('_IMGMAXHEIGHT', 'ºÇÂç½ÄÉý (¥Ô¥¯¥»¥ë¿ô):');
-define('_IMAGECAT', '¥«¥Æ¥´¥ê:');
-define('_IMAGEFILE', '²èÁü¥Õ¥¡¥¤¥ëÌ¾:');
-define('_IMGWEIGHT', '¥¤¥á¡¼¥¸ÊÔ½¸¤Ç¤ÎÉ½¼¨½ç:');
-define('_IMGDISPLAY', '¤³¤Î²èÁü¤òÉ½¼¨¤¹¤ë');
-define('_IMAGEMIME', 'MIME-Type:');
-define('_FAILFETCHIMG', '¥¢¥Ã¥×¥í¡¼¥É¥Õ¥¡¥¤¥ë %s ¤¬¼èÆÀ¤Ç¤­¤Þ¤»¤ó¤Ç¤·¤¿');
-define('_FAILSAVEIMG', '²èÁü¥Õ¥¡¥¤¥ë %s ¤Î¥Ç¡¼¥¿¥Ù¡¼¥¹³ÊÇ¼¤Ë¼ºÇÔ¤·¤Þ¤·¤¿');
-define('_NOCACHE', '¥­¥ã¥Ã¥·¥å¤Ê¤·');
-define('_CLONE', 'Ê£À½');
+define('_IMGMANAGER','ï¿½ï¿½ï¿½á¡¼ï¿½ï¿½ï¿½Ô½ï¿½');
+define('_NUMIMAGES','%s ï¿½ï¿½ï¿½á¡¼ï¿½ï¿½');
+define('_ADDIMAGE','ï¿½ï¿½ï¿½ï¿½ï¿½Õ¥ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½É²ï¿½');
+define('_IMAGENAME','ï¿½ï¿½ï¿½ï¿½Ì¾:');
+define('_IMGMAXSIZE','ï¿½ï¿½ï¿½ï¿½Õ¥ï¿½ï¿½ï¿½ï¿½ë¥µï¿½ï¿½ï¿½ï¿½ (ï¿½Ð¥ï¿½ï¿½ï¿½):');
+define('_IMGMAXWIDTH','ï¿½ï¿½ï¿½ç²£ï¿½ï¿½ (ï¿½Ô¥ï¿½ï¿½ï¿½ï¿½ï¿½):');
+define('_IMGMAXHEIGHT','ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ (ï¿½Ô¥ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½):');
+define('_IMAGECAT','ï¿½ï¿½ï¿½Æ¥ï¿½ï¿½ï¿½:');
+define('_IMAGEFILE','ï¿½ï¿½ï¿½ï¿½ï¿½Õ¥ï¿½ï¿½ï¿½ï¿½ï¿½Ì¾:');
+define('_IMGWEIGHT','ï¿½ï¿½ï¿½á¡¼ï¿½ï¿½ï¿½Ô½ï¿½ï¿½Ç¤ï¿½É½ï¿½ï¿½ï¿½ï¿½:');
+define('_IMGDISPLAY','ï¿½ï¿½ï¿½Î²ï¿½ï¿½ï¿½ï¿½ï¿½É½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½');
+define('_IMAGEMIME','MIME-Type:');
+define('_FAILFETCHIMG','ï¿½ï¿½ï¿½Ã¥×¥ï¿½ï¿½ï¿½É¥Õ¥ï¿½ï¿½ï¿½ï¿½ï¿½ %s ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç¤ï¿½ï¿½Þ¤ï¿½ï¿½ï¿½Ç¤ï¿½ï¿½ï¿½');
+define('_FAILSAVEIMG','ï¿½ï¿½ï¿½ï¿½ï¿½Õ¥ï¿½ï¿½ï¿½ï¿½ï¿½ %s ï¿½Î¥Ç¡ï¿½ï¿½ï¿½ï¿½Ù¡ï¿½ï¿½ï¿½ï¿½ï¿½Ç¼ï¿½Ë¼ï¿½ï¿½Ô¤ï¿½ï¿½Þ¤ï¿½ï¿½ï¿½');
+define('_NOCACHE','ï¿½ï¿½ï¿½ï¿½Ã¥ï¿½ï¿½ï¿½Ê¤ï¿½');
+define('_CLONE','Ê£ï¿½ï¿½');
 // %%%%%    For xoopsform files %%%%%
-define('_STARTSWITH', 'Á°Êý°ìÃ×');
-define('_ENDSWITH', '¸åÊý°ìÃ×');
-define('_MATCHES', '´°Á´°ìÃ×');
-define('_CONTAINS', '¼¡¤ÎÃ±¸ì¤ò´Þ¤à');
-define('_REQUIRED', 'Required');
+define('_STARTSWITH','ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½');
+define('_ENDSWITH','ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½');
+define('_MATCHES','ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½');
+define('_CONTAINS','ï¿½ï¿½ï¿½ï¿½Ã±ï¿½ï¿½ï¿½Þ¤ï¿½');
+define('_REQUIRED','Required');
 // %%%%%%    File Name commentform.php     %%%%%
-define('_REGISTER', 'ÅÐÏ¿');
+define('_REGISTER','ï¿½ï¿½Ï¿');
 // %%%%%%    File Name xoopscodes.php     %%%%%
-define('_SIZE', '¥µ¥¤¥º');  // font size
-define('_FONT', '¥Õ¥©¥ó¥È');  // font family
-define('_COLOR', '¥«¥é¡¼');  // font color
-define('_EXAMPLE', '¥µ¥ó¥×¥ë');
-define('_ENTERURL', 'ÄÉ²Ã¤¹¤ë¥µ¥¤¥È¤Î URL ¤òÆþÎÏ:');
-define('_ENTERWEBTITLE', '¥µ¥¤¥ÈÌ¾ ¤òÆþÎÏ:');
-define('_ENTERIMGURL', '²èÁü¥Õ¥¡¥¤¥ë¤Î URL ¤òÆþÎÏ');
-define('_ENTERIMGPOS', '²èÁü¥Õ¥¡¥¤¥ë¤ÎÇÛÃÖ¤Ï¡©');
-define('_IMGPOSRORL', 'L = º¸¡¢R = ±¦¡¢¶õÍó = »ØÄê¤Ê¤·');
-define('_ERRORIMGPOS', '¥¨¥é¡¼¡ª ²èÁü¥Õ¥¡¥¤¥ë¤ÎÇÛÃÖ¤Ï¡©');
-define('_ENTEREMAIL', '¥á¡¼¥ë¥¢¥É¥ì¥¹¤òÆþÎÏ');
-define('_ENTERCODE', '¥³¡¼¥É¤òÆþÎÏ');
-define('_ENTERQUOTE', '°úÍÑÊ¸¤òÆþÎÏ');
-define('_ENTERTEXTBOX', '¥Æ¥­¥¹¥È¥Ü¥Ã¥¯¥¹¤ØÆþÎÏ¤·¤Æ¤¯¤À¤µ¤¤');
-define('_ALLOWEDCHAR', 'ºÇÂçÊ¸»ú¿ô¡§ ');
-define('_CURRCHAR', '¸½ºß¤ÎÊ¸»ú¿ô¡§');
-define('_PLZCOMPLETE', 'É½Âê¡¦¥á¥Ã¥»¡¼¥¸Ê¸¤òÆþÎÏ¤·¤Æ¤¯¤À¤µ¤¤');
-define('_MESSAGETOOLONG', '¥á¥Ã¥»¡¼¥¸Ê¸¤¬Ä¹¤¹¤®¤Þ¤¹');
+define('_SIZE','ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½');  // font size
+define('_FONT','ï¿½Õ¥ï¿½ï¿½ï¿½ï¿½');  // font family
+define('_COLOR','ï¿½ï¿½ï¿½é¡¼');  // font color
+define('_EXAMPLE','ï¿½ï¿½ï¿½ï¿½×¥ï¿½');
+define('_ENTERURL','ï¿½É²Ã¤ï¿½ï¿½ë¥µï¿½ï¿½ï¿½È¤ï¿½ URL ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½:');
+define('_ENTERWEBTITLE','ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì¾ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½:');
+define('_ENTERIMGURL','ï¿½ï¿½ï¿½ï¿½ï¿½Õ¥ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ URL ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½');
+define('_ENTERIMGPOS','ï¿½ï¿½ï¿½ï¿½ï¿½Õ¥ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö¤Ï¡ï¿½');
+define('_IMGPOSRORL','L = ï¿½ï¿½ï¿½ï¿½R = ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ = ï¿½ï¿½ï¿½ï¿½Ê¤ï¿½');
+define('_ERRORIMGPOS','ï¿½ï¿½ï¿½é¡¼ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Õ¥ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö¤Ï¡ï¿½');
+define('_ENTEREMAIL','ï¿½á¡¼ï¿½ë¥¢ï¿½É¥ì¥¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½');
+define('_ENTERCODE','ï¿½ï¿½ï¿½ï¿½ï¿½É¤ï¿½ï¿½ï¿½ï¿½ï¿½');
+define('_ENTERQUOTE','ï¿½ï¿½ï¿½ï¿½Ê¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½');
+define('_ENTERTEXTBOX','ï¿½Æ¥ï¿½ï¿½ï¿½ï¿½È¥Ü¥Ã¥ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï¤ï¿½ï¿½Æ¤ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½');
+define('_ALLOWEDCHAR','ï¿½ï¿½ï¿½ï¿½Ê¸ï¿½ï¿½ï¿½ï¿½ï¿½ ');
+define('_CURRCHAR','ï¿½ï¿½ï¿½ß¤ï¿½Ê¸ï¿½ï¿½ï¿½ï¿½ï¿½');
+define('_PLZCOMPLETE','É½ï¿½ê¡¦ï¿½ï¿½Ã¥ï¿½ï¿½ï¿½ï¿½ï¿½Ê¸ï¿½ï¿½ï¿½ï¿½ï¿½Ï¤ï¿½ï¿½Æ¤ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½');
+define('_MESSAGETOOLONG','ï¿½ï¿½Ã¥ï¿½ï¿½ï¿½ï¿½ï¿½Ê¸ï¿½ï¿½Ä¹ï¿½ï¿½ï¿½ï¿½ï¿½Þ¤ï¿½');
 // %%%%%        TIME FORMAT SETTINGS   %%%%%
-define('_SECOND', '1 ÉÃ');
-define('_SECONDS', '%s ÉÃ');
-define('_MINUTE', '1 Ê¬');
-define('_MINUTES', '%s Ê¬');
-define('_HOUR', '1 »þ´Ö');
-define('_HOURS', '%s »þ´Ö');
-define('_DAY', '1 Æü');
-define('_DAYS', '%s Æü');
-define('_WEEK', '1 ½µ´Ö');
-define('_MONTH', '1 ¥ö·î');
-define('_DATESTRING', 'Y-n-j G:i:s');
-define('_MEDIUMDATESTRING', 'Y-n-j G:i');
-define('_SHORTDATESTRING', 'Y-n-j');
+define('_SECOND','1 ï¿½ï¿½');
+define('_SECONDS','%s ï¿½ï¿½');
+define('_MINUTE','1 Ê¬');
+define('_MINUTES','%s Ê¬');
+define('_HOUR','1 ï¿½ï¿½ï¿½ï¿½');
+define('_HOURS','%s ï¿½ï¿½ï¿½ï¿½');
+define('_DAY','1 ï¿½ï¿½');
+define('_DAYS','%s ï¿½ï¿½');
+define('_WEEK','1 ï¿½ï¿½ï¿½ï¿½');
+define('_MONTH','1 ï¿½ï¿½ï¿½ï¿½');
+define('_DATESTRING','Y-n-j G:i:s');
+define('_MEDIUMDATESTRING','Y-n-j G:i');
+define('_SHORTDATESTRING','Y-n-j');
 /**
 * The following characters are recognized in the format string:
 * a - 'am' or 'pm'
@@ -174,7 +174,7 @@ define('_SHORTDATESTRING', 'Y-n-j');
 * n - month without leading zeros; i.e. '1' to '12'
 * M - month, textual, 3 letters; i.e. 'Jan'
 * s - seconds; i.e. '00' to '59'
-* S - English ordinal suffix, textual, 2 characters; i.e. 'th', 'nd'
+* S - English ordinal suffix, textual, 2 characters; i.e. 'th','nd'
 * t - number of days in the given month; i.e. '28' to '31'
 * T - Timezone setting of this machine; i.e. 'MDT'
 * U - seconds since the epoch
@@ -185,13 +185,13 @@ define('_SHORTDATESTRING', 'Y-n-j');
 * Z - timezone offset in seconds (i.e. '-43200' to '43200')
 */
 // %%%%%        LANGUAGE SPECIFIC SETTINGS   %%%%%
-define('_CHARSET', 'UTF-8');
-define('_LANGCODE', 'ja');
+define('_CHARSET','UTF-8');
+define('_LANGCODE','ja');
 // change 0 to 1 if this language is a multi-bytes language
-define('XOOPS_USE_MULTIBYTES', '1');
+define('XOOPS_USE_MULTIBYTES','1');
 /**
 * Additions to 2.4.0
 **/
-define('_RESET', '¥ê¥»¥Ã¥È');
-define('_RE', 'Re:');
+define('_RESET','ï¿½ê¥»ï¿½Ã¥ï¿½');
+define('_RE','Re:');
 ?>

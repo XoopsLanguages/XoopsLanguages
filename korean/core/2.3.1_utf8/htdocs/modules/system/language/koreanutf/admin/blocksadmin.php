@@ -80,25 +80,25 @@ define("_AM_RUSUREDEL","<strong>%s</strong>블록을 정말로 삭제하실 건�
 define("_AM_NAME","이름");
 define("_AM_USEFULTAGS","사용가능 태그:");
 define("_AM_BLOCKTAG1","%s 는(은) %s 을 표시합니다.");
-define('_AM_SVISIBLEIN', '표시할 곳: %s');
-define('_AM_TOPPAGE', 'Top페이지');
-define('_AM_VISIBLEIN', '표시할 곳');
-define('_AM_ALLPAGES', '모든 페이지');
-define('_AM_TOPONLY', 'Top페이지에만');
-define('_AM_ADVANCED', '세부설정');
-define('_AM_BCACHETIME', '캐쉬 수명');
-define('_AM_BALIAS', 'Alias name');
-define('_AM_CLONE', '복제');  // clone a block
-define('_AM_CLONEBLK', '클론'); // cloned block
-define('_AM_CLONEBLOCK', '클론 블록의 작성');
-define('_AM_NOTSELNG', "'%s' 은 선택되어있지 않습니다."); // error message
-define('_AM_EDITTPL', '템플렛 편집');
-define('_AM_MODULE', '모듈');
-define('_AM_GROUP', '그룹');
-define('_AM_UNASSIGNED', '미할당');
+define('_AM_SVISIBLEIN','표시할 곳: %s');
+define('_AM_TOPPAGE','Top페이지');
+define('_AM_VISIBLEIN','표시할 곳');
+define('_AM_ALLPAGES','모든 페이지');
+define('_AM_TOPONLY','Top페이지에만');
+define('_AM_ADVANCED','세부설정');
+define('_AM_BCACHETIME','캐쉬 수명');
+define('_AM_BALIAS','Alias name');
+define('_AM_CLONE','복제');  // clone a block
+define('_AM_CLONEBLK','클론'); // cloned block
+define('_AM_CLONEBLOCK','클론 블록의 작성');
+define('_AM_NOTSELNG',"'%s' 은 선택되어있지 않습니다."); // error message
+define('_AM_EDITTPL','템플렛 편집');
+define('_AM_MODULE','모듈');
+define('_AM_GROUP','그룹');
+define('_AM_UNASSIGNED','미할당');
 
 define("_AM_CUSTOM","커스텀 블록");
-define('_AM_GENERATOR', '생성된 블록(by %s)');
-define('_AM_TYPES', '모든 타입');
+define('_AM_GENERATOR','생성된 블록(by %s)');
+define('_AM_TYPES','모든 타입');
 
 ?>

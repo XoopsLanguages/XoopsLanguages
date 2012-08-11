@@ -35,7 +35,7 @@ define("_PM_MESSAGEC","Messaggio: ");
 define("_PM_CLEAR","Pulisci");
 define("_PM_CANCELSEND","Annulla");
 define("_PM_SUBMIT","Invia");
-define("_PM_SAVEINOUTBOX", "Salvare una copia nella 'Posta inviata'?");
+define("_PM_SAVEINOUTBOX","Salvare una copia nella 'Posta inviata'?");
 
 //%%%%%%	File Name viewpmsg.php 	%%%%%
 define("_PM_SUBJECT","Oggetto");
@@ -46,7 +46,7 @@ define("_PM_DELETE","Elimina");
 define("_PM_TOSAVE","Sposta in Archivio");
 define("_PM_UNSAVE","Riporta in Posta in arrivo");
 define("_PM_EMPTY","Svuota");
-define("_PM_REPLY", "Rispondi");
+define("_PM_REPLY","Rispondi");
 define("_PM_PLZREG","Per poter inviare messaggi privati &egrave; necessario registrarsi");
 define("_PM_SAVED_PART","Sono permessi %d messaggi nella cartella Archivio. Al momento ce ne sono %d");
 define("_PM_SAVED_ALL","Messaggio(i) spostato(i) nell'Archivio");
@@ -55,7 +55,7 @@ define("_PM_EMPTIED","La cartella &egrave; stata svuotata");
 define("_PM_RUSUREEMPTY","Sei sicuro di voler svuotare la cartella?");
 define("_PM_RUSUREDELETE","Sei sicuro di voler eliminare questo(i) messaggio?");
 
-define("_PM_ONLINE", "Online");
+define("_PM_ONLINE","Online");
 
 define("_PM_RECEIVE","Ricevi");
 define("_PM_POST","Invia");
@@ -85,13 +85,13 @@ define("_PM_NEXTP","Successivo");
 define("_PM_MAILNOTIFY","%s Hai ricevuto un nuovo messaggio da %s");
 define("_PM_MAILMESSAGE","Ciao!\nA &Egrave; arrivato un messaggio da %s\n\nTitolo: \n%s\n\nE' possibile leggere il messaggio QUI\n%s\n\n-----------\nHai ricevuto questa email perch&eacute; hai scelto di essere avvisato quando ricevi un nuovo messaggio privato\n\nPuoi modificare quest'opzione\n%s\n\nPer favore non rispondere a questo messaggio\n\n---------\nGrazie\n%s\n%s\n%s");
 
-define("_PM_EMAIL", "Inoltra come email");
-define("_PM_EMAIL_DESC", "Caro %s, questo messaggio &egrave; stato inoltrato dal tuo account sul sito ".$xoopsConfig['sitename']);
-define("_PM_EMAIL_FROM", "Da %s");
-define("_PM_EMAIL_TO", "A %s");
-define("_PM_EMAIL_SUBJECT", "[messaggio]%s");
-define("_PM_EMAIL_MESSAGE", "Contenuto del messaggio");
+define("_PM_EMAIL","Inoltra come email");
+define("_PM_EMAIL_DESC","Caro %s, questo messaggio &egrave; stato inoltrato dal tuo account sul sito ".$xoopsConfig['sitename']);
+define("_PM_EMAIL_FROM","Da %s");
+define("_PM_EMAIL_TO","A %s");
+define("_PM_EMAIL_SUBJECT","[messaggio]%s");
+define("_PM_EMAIL_MESSAGE","Contenuto del messaggio");
 
-define("_PM_ACTION_DONE", "Operazione eseguita con successo");
-define("_PM_ACTION_ERROR", "Operazione non riuscita");
+define("_PM_ACTION_DONE","Operazione eseguita con successo");
+define("_PM_ACTION_ERROR","Operazione non riuscita");
 ?>

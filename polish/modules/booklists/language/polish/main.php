@@ -14,9 +14,9 @@ define("_MD_SEARCHFOR","Search for");
 define("_MD_ANY","ANY");
 define("_MD_SEARCH","Search");
 
-define("_MD_MAIN"                ,"Strona g³ówna");
-define("_MD_SUBMITLINK"          ,"Dodaj now± ksi±¿kê");
-define("_MD_SUBMITLINKHEAD"      ,"Dodaj now± ksi±zkê - formularz");
+define("_MD_MAIN"                ,"Strona gÂ³Ã³wna");
+define("_MD_SUBMITLINK"          ,"Dodaj nowÂ± ksiÂ±Â¿kÃª");
+define("_MD_SUBMITLINKHEAD"      ,"Dodaj nowÂ± ksiÂ±zkÃª - formularz");
 define("_MD_POPULAR"             ,"Popularne");
 define("_MD_TOPRATED"            ,"Najlepsze");
 
@@ -41,22 +41,22 @@ define("_MD_CATEGORYC"           ,"Kategoria: ");
 define("_MD_LASTUPDATEC"         ,"Zmieniony: ");
 define("_MD_HITSC"               ,"Odwiedzin: ");
 define("_MD_RATINGC"             ,"Ocena: ");
-define("_MD_ONEVOTE"             ,"1 g³os");
-define("_MD_NUMVOTES"            ,"%s g³osów");
-define("_MD_RATETHISSITE"        ,"Oceñ te ksi±¿kê");
-define("_MD_MODIFY"              ,"Zmieñ");
-define("_MD_REPORTBROKEN"        ,"Zg³o¶ b³êdny tytu³");
-define("_MD_TELLAFRIEND"         ,"Poleæ tytu³");
+define("_MD_ONEVOTE"             ,"1 gÂ³os");
+define("_MD_NUMVOTES"            ,"%s gÂ³osÃ³w");
+define("_MD_RATETHISSITE"        ,"OceÃ± te ksiÂ±Â¿kÃª");
+define("_MD_MODIFY"              ,"ZmieÃ±");
+define("_MD_REPORTBROKEN"        ,"ZgÂ³oÂ¶ bÂ³Ãªdny tytuÂ³");
+define("_MD_TELLAFRIEND"         ,"PoleÃ¦ tytuÂ³");
 
-define("_MD_THEREARE"            ,"Posiadamy obecnie <b>%s</b> tytu³ów na naszej stronie");
-define("_MD_LATESTLIST"          ,"Najnowsze tytu³y ");
+define("_MD_THEREARE"            ,"Posiadamy obecnie <b>%s</b> tytuÂ³Ã³w na naszej stronie");
+define("_MD_LATESTLIST"          ,"Najnowsze tytuÂ³y ");
 
 define("_MD_REQUESTMOD","Request Book Title Modification");
 define("_MD_LINKID","Link ID: ");
 define("_MD_SITETITLE","Book Title: ");
 define("_MD_SITEURL","Website/Reseller URL: ");
 define("_MD_OPTIONS","Options: ");
-define("_MD_NOTIFYAPPROVE", "Notify me when this submission is approved");
+define("_MD_NOTIFYAPPROVE","Notify me when this submission is approved");
 define("_MD_SHOTIMAGE","Screenshot Img: ");
 define("_MD_SENDREQUEST","Send Request");
 
@@ -69,8 +69,8 @@ define("_MD_BEOBJECTIVE","Please be objective, if everyone receives a 1 or a 10,
 define("_MD_DONOTVOTE","Do not vote for your own resource.");
 define("_MD_RATEIT","Rate It!");
 
-define("_MD_INTRESTLINK"         ,"Interesuj±ca ksi±zka na stronie %s");  // %s is your site name
-define("_MD_INTLINKFOUND"        ,"Na tej stronie %s znalaz³em intersuj±c± ksi±¿kê, mo¿e Ciê zaciekawi?");  // %s is your site name
+define("_MD_INTRESTLINK"         ,"InteresujÂ±ca ksiÂ±zka na stronie %s");  // %s is your site name
+define("_MD_INTLINKFOUND"        ,"Na tej stronie %s znalazÂ³em intersujÂ±cÂ± ksiÂ±Â¿kÃª, moÂ¿e CiÃª zaciekawi?");  // %s is your site name
 
 define("_MD_RECEIVED","We received your submission. Thanks!");
 define("_MD_WHENAPPROVED","You'll receive an E-mail when it's approved.");
@@ -83,7 +83,7 @@ define("_MD_RANK"                ,"Poziom");
 define("_MD_CATEGORY"            ,"Kategoria");
 define("_MD_HITS"                ,"Odwiedzin");
 define("_MD_RATING"              ,"Ocena");
-define("_MD_VOTE"                ,"G³osuj");
+define("_MD_VOTE"                ,"GÂ³osuj");
 define("_MD_TOP10"               ,"Numer %s w pierwszej 10"); // %s is a link category title
 
 define("_MD_SEARCHRESULTS","Search results for <b>%s</b>:"); // %s is search keywords
@@ -96,7 +96,7 @@ define("_MD_PREVIOUS","Previous");
 define("_MD_NEXT","Next");
 define("_MD_NOMATCH","No matches found to your query");
 
-define("_MD_SUBMIT"              ,"Wy¶lij");
+define("_MD_SUBMIT"              ,"WyÂ¶lij");
 define("_MD_CANCEL"              ,"Skasuj");
 
 define("_MD_ALREADYREPORTED","You have already submitted a broken report for this resource.");

@@ -28,27 +28,27 @@
 // URL: http://www.xoops.org.cn                                              //
 // ------------------------------------------------------------------------- //
 
-define('_AM_XLANG_CONFIG', 'XLanguage Instellingen');
-define('_AM_XLANG_DELETE_CFM', 'Deze taal verwijderen?');
-define('_AM_XLANG_DELETED', 'De gekozen taal is verwijderd');
-define('_AM_XLANG_SAVED', 'De gekozen taal is opgeslagen');
-define('_AM_XLANG_EDITLANG', 'Taal bewerken');
-define('_AM_XLANG_ADDLANG', 'Taal toevoegen');
-define('_AM_XLANG_CREATED', 'Het configbestand is aangemaakt');
-define('_AM_XLANG_CONFIGOK', 'Het configbestand is beschikbaar');
-define('_AM_XLANG_CONFIGNOTOK', 'Het confibestandis niet beschikbaar');
-define('_AM_XLANG_ADDBASE', 'Basistaal toevoegen');
-define('_AM_XLANG_ADDEXT', 'Uitgebreide taal toevoegen');
-define('_AM_XLANG_CREATECONFIG', 'Configbestand aanmaken');
-define('_AM_XLANG_ABOUT', 'Over deze module');
-define('_AM_XLANG_LANGLIST', 'Taallijst');
-define('_AM_XLANG_DESC', 'Omschrijving');
-define('_AM_XLANG_NAME', 'Naam');
-define('_AM_XLANG_CHARSET', 'karakterset');
-define('_AM_XLANG_CODE', 'Code');
-define('_AM_XLANG_IMAGE', 'Afbeelding');
-define('_AM_XLANG_WEIGHT', 'Gewicht');
-define('_AM_XLANG_BASE', 'Basistaal');
+define('_AM_XLANG_CONFIG','XLanguage Instellingen');
+define('_AM_XLANG_DELETE_CFM','Deze taal verwijderen?');
+define('_AM_XLANG_DELETED','De gekozen taal is verwijderd');
+define('_AM_XLANG_SAVED','De gekozen taal is opgeslagen');
+define('_AM_XLANG_EDITLANG','Taal bewerken');
+define('_AM_XLANG_ADDLANG','Taal toevoegen');
+define('_AM_XLANG_CREATED','Het configbestand is aangemaakt');
+define('_AM_XLANG_CONFIGOK','Het configbestand is beschikbaar');
+define('_AM_XLANG_CONFIGNOTOK','Het confibestandis niet beschikbaar');
+define('_AM_XLANG_ADDBASE','Basistaal toevoegen');
+define('_AM_XLANG_ADDEXT','Uitgebreide taal toevoegen');
+define('_AM_XLANG_CREATECONFIG','Configbestand aanmaken');
+define('_AM_XLANG_ABOUT','Over deze module');
+define('_AM_XLANG_LANGLIST','Taallijst');
+define('_AM_XLANG_DESC','Omschrijving');
+define('_AM_XLANG_NAME','Naam');
+define('_AM_XLANG_CHARSET','karakterset');
+define('_AM_XLANG_CODE','Code');
+define('_AM_XLANG_IMAGE','Afbeelding');
+define('_AM_XLANG_WEIGHT','Gewicht');
+define('_AM_XLANG_BASE','Basistaal');
 // 3.03
-define('_AM_XLANG_ACTION', 'Actie');
+define('_AM_XLANG_ACTION','Actie');
 

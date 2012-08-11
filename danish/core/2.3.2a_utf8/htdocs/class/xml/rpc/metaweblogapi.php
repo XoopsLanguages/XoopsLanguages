@@ -38,10 +38,10 @@ class MetaWeblogApi extends XoopsXmlRpcApi
     function MetaWeblogApi(&$params, &$response, &$module)
     {
         $this->XoopsXmlRpcApi($params, $response, $module);
-        $this->_setXoopsTagMap('storyid', 'postid');
-        $this->_setXoopsTagMap('published', 'dateCreated');
-        $this->_setXoopsTagMap('uid', 'userid');
-        //$this->_setXoopsTagMap('hometext', 'description');
+        $this->_setXoopsTagMap('storyid','postid');
+        $this->_setXoopsTagMap('published','dateCreated');
+        $this->_setXoopsTagMap('uid','userid');
+        //$this->_setXoopsTagMap('hometext','description');
     }
 
     function newPost()

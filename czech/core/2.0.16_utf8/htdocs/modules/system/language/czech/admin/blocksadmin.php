@@ -51,20 +51,20 @@ define("_AM_RUSUREDEL","Opravdu chcete smazat blok <b>%s</b>?");
 define("_AM_NAME","Jméno");
 define("_AM_USEFULTAGS","Užitečné tagy:");
 define("_AM_BLOCKTAG1","%s bude vytištěn %s");
-define('_AM_SVISIBLEIN', 'Ukázat bloky viditelné v %s');
-define('_AM_TOPPAGE', 'Hlavní stránka');
-define('_AM_VISIBLEIN', 'Viditelný v');
-define('_AM_ALLPAGES', 'Všechny stránky');
-define('_AM_TOPONLY', 'Pouze hl. stránka');
-define('_AM_ADVANCED', 'Rozšířené nastavení');
-define('_AM_BCACHETIME', 'Životnost Cache');
-define('_AM_BALIAS', 'Přezdívka');
-define('_AM_CLONE', 'Klonovat');  // clone a block
-define('_AM_CLONEBLK', 'Klonovat'); // cloned block
-define('_AM_CLONEBLOCK', 'Vytvořit klonovaný blok');
-define('_AM_NOTSELNG', "'%s' není vybrán!"); // error message
-define('_AM_EDITTPL', 'Upravit šablonu');
-define('_AM_MODULE', 'Modul');
-define('_AM_GROUP', 'Uživ. skupina');
-define('_AM_UNASSIGNED', 'žádná');
+define('_AM_SVISIBLEIN','Ukázat bloky viditelné v %s');
+define('_AM_TOPPAGE','Hlavní stránka');
+define('_AM_VISIBLEIN','Viditelný v');
+define('_AM_ALLPAGES','Všechny stránky');
+define('_AM_TOPONLY','Pouze hl. stránka');
+define('_AM_ADVANCED','Rozšířené nastavení');
+define('_AM_BCACHETIME','Životnost Cache');
+define('_AM_BALIAS','Přezdívka');
+define('_AM_CLONE','Klonovat');  // clone a block
+define('_AM_CLONEBLK','Klonovat'); // cloned block
+define('_AM_CLONEBLOCK','Vytvořit klonovaný blok');
+define('_AM_NOTSELNG',"'%s' není vybrán!"); // error message
+define('_AM_EDITTPL','Upravit šablonu');
+define('_AM_MODULE','Modul');
+define('_AM_GROUP','Uživ. skupina');
+define('_AM_UNASSIGNED','žádná');
 ?>

@@ -322,71 +322,71 @@ define("_AM_INDEXHEADING","بالای صفحه اصلی راهنما");
 define("_AM_EXTERNALARTICLE","مقاله خارج از سایت </b> این جایگزین متن و فایل html خواهد شد");
 
 // added in WFS v1b6
-define("_AM_POPULARITY", "پر طرفدار بودن");
-define("_AM_ARTICLESSORT", "نوع چینش مقاله ها");
-define("_AM_NAVTOOLTYPE", "نوع ابزار پیمایش");
-define("_AM_SELECTBOX", "Select box");
-define("_AM_SELECTSUBS", "Select box with sub-sections");
-define("_AM_LINKEDPATH", "Linked path");
-define("_AM_LINKSANDSELECT", "Links and select box");
-define("_AM_NONE", "هیچ کدام");
-define("_AM_CATEGORYWEIGHT", "وزن (محتوا) شاخه");
-define("_AM_ARTICLEWEIGHT", "وزن (محتوا) مقاله");
-define("_AM_WEIGHT", "وزن (محتوا)");
+define("_AM_POPULARITY","پر طرفدار بودن");
+define("_AM_ARTICLESSORT","نوع چینش مقاله ها");
+define("_AM_NAVTOOLTYPE","نوع ابزار پیمایش");
+define("_AM_SELECTBOX","Select box");
+define("_AM_SELECTSUBS","Select box with sub-sections");
+define("_AM_LINKEDPATH","Linked path");
+define("_AM_LINKSANDSELECT","Links and select box");
+define("_AM_NONE","هیچ کدام");
+define("_AM_CATEGORYWEIGHT","وزن (محتوا) شاخه");
+define("_AM_ARTICLEWEIGHT","وزن (محتوا) مقاله");
+define("_AM_WEIGHT","وزن (محتوا)");
 define('_AM_DUPLICATECATEGORY','دو تا کردن شاخه');
 
 // add
 define('_AM_DUPLICATE_ARTICLES','مقاله های درونش را هم دو تا کن');
 
-define('_AM_COPY', 'کپی');
-define('_AM_TO', 'به');
-define('_AM_NEWCATEGORYNAME', 'نام شاخه جدید');
-define('_AM_DUPLICATE', 'دو تا کردن');
-define('_AM_DUPLICATEWSUBS', 'دو تا کردن به همراه زیر شاخه ها');
-define('_AM_ALLOWEDMIMETYPES', 'نوع فایل های مجاز');
-define('_AM_MODIFYFILE', 'ویرایش فایل مقاله');
-define('_AM_FILESTATS', 'آمار فایل متصل شده');
-define('_AM_FILESTAT', 'آمار فایل برای این مقاله: ');
-define('_AM_ERRORCHECK', 'چک کردن فایل');
-define('_AM_LASTACCESS', 'آخرین دسترسی');
-define('_AM_DOWNLOADED', 'تعداد دانلود');
-define('_AM_DOWNLOADSIZE', 'اندازه فایل');
-define('_AM_UPLOADFILESIZE', 'حداکثر اندازه فایل برای بارگذاری (KB) 1048576 = 1 Meg');
-define('_AM_FILEMODE', 'قرار دادن دسترسی برای فایل بارگذاری شده');
-define('_AM_IMGHEIGHT', 'حداکثر طول تصویر بارگذاری شده');
-define('_AM_IMGWIDTH', 'حداکثر عرض تصویر بارگذاری شده');
-define('_AM_FILEPERMISSION', 'دسترسی های فایل');
-define('_AM_IMGESIZETOBIG', 'طول/ عرض تصویر بیشتر از مقدار مجاز است');
-define('_AM_CATREORDERTEXT', 'شما در اینجا می توانید چینش تمام شاخه ها را عوض کنید.<br />شاخه های اصلی با آبی تیره، زیر شاخه ها با آبی روشن و سپس به تدریج خاکستری نشان داده شده اند.هر شاخه ای با توجه به وزنش چیده شده است..<br /><br />برای تغییر چینش مقاله ها,روی نام یه شاخه کلیک کنید و سپس فهرستی از تمام مقاله های درون آن نمایش داده می شود.');
-define('_WFS_ATTACHFILE', 'متصل کردن فایل');
-define('_WFS_ATTACHFILEACCESS', 'سطح دسترسی مانند دسترسی خود مقاله خواهد بود.شما میتوانید این حالت را بعدا با ویرایش فایل متصل شده تغیر دهید.');
-define('_AM_WFSFILESHOW', 'فایل های متصل شده');
-define('_AM_ATTACHEDFILE', 'فایل های قابل دیدن');
-define('_AM_ATTACHEDFILEM', 'مدیریت فایل های متصل شده');
-define('_AM_UPOADMANAGE', 'مدیریت فایل');
-define('_AM_CAREORDER', 'وزن شاخه ها و مقاله ها');
-define('_AM_CAREORDER2', 'تغییر چینش شاخه ها');
-define('_AM_CAREORDER3', 'تغییر چینش مقاله ها');
+define('_AM_COPY','کپی');
+define('_AM_TO','به');
+define('_AM_NEWCATEGORYNAME','نام شاخه جدید');
+define('_AM_DUPLICATE','دو تا کردن');
+define('_AM_DUPLICATEWSUBS','دو تا کردن به همراه زیر شاخه ها');
+define('_AM_ALLOWEDMIMETYPES','نوع فایل های مجاز');
+define('_AM_MODIFYFILE','ویرایش فایل مقاله');
+define('_AM_FILESTATS','آمار فایل متصل شده');
+define('_AM_FILESTAT','آمار فایل برای این مقاله: ');
+define('_AM_ERRORCHECK','چک کردن فایل');
+define('_AM_LASTACCESS','آخرین دسترسی');
+define('_AM_DOWNLOADED','تعداد دانلود');
+define('_AM_DOWNLOADSIZE','اندازه فایل');
+define('_AM_UPLOADFILESIZE','حداکثر اندازه فایل برای بارگذاری (KB) 1048576 = 1 Meg');
+define('_AM_FILEMODE','قرار دادن دسترسی برای فایل بارگذاری شده');
+define('_AM_IMGHEIGHT','حداکثر طول تصویر بارگذاری شده');
+define('_AM_IMGWIDTH','حداکثر عرض تصویر بارگذاری شده');
+define('_AM_FILEPERMISSION','دسترسی های فایل');
+define('_AM_IMGESIZETOBIG','طول/ عرض تصویر بیشتر از مقدار مجاز است');
+define('_AM_CATREORDERTEXT','شما در اینجا می توانید چینش تمام شاخه ها را عوض کنید.<br />شاخه های اصلی با آبی تیره، زیر شاخه ها با آبی روشن و سپس به تدریج خاکستری نشان داده شده اند.هر شاخه ای با توجه به وزنش چیده شده است..<br /><br />برای تغییر چینش مقاله ها,روی نام یه شاخه کلیک کنید و سپس فهرستی از تمام مقاله های درون آن نمایش داده می شود.');
+define('_WFS_ATTACHFILE','متصل کردن فایل');
+define('_WFS_ATTACHFILEACCESS','سطح دسترسی مانند دسترسی خود مقاله خواهد بود.شما میتوانید این حالت را بعدا با ویرایش فایل متصل شده تغیر دهید.');
+define('_AM_WFSFILESHOW','فایل های متصل شده');
+define('_AM_ATTACHEDFILE','فایل های قابل دیدن');
+define('_AM_ATTACHEDFILEM','مدیریت فایل های متصل شده');
+define('_AM_UPOADMANAGE','مدیریت فایل');
+define('_AM_CAREORDER','وزن شاخه ها و مقاله ها');
+define('_AM_CAREORDER2','تغییر چینش شاخه ها');
+define('_AM_CAREORDER3','تغییر چینش مقاله ها');
 
-define('_AM_PICON', 'نمایش آیکن های مقال ها (صفحه ها)؟');
-
-// WF -> XF
-define('_AM_JUSTHTML', '<b> No Display info</b> (This option will stop XF-Section from displaying all info in the article. Just a plain html page or text.)');
-
-define('_AM_NOSHOART', '<b> No Show Article</b> (Using this option will prevent this article from being shown in the main index listing. Instead this article will only be shown in the article link menu block</b>.)');
-define('_AM_INDEXPAGECONFIG', 'Index Page Management');
+define('_AM_PICON','نمایش آیکن های مقال ها (صفحه ها)؟');
 
 // WF -> XF
-define('_AM_INDEXPAGECONFIGTXT', 'This allows you to change parts of the main index page of XF-Section.<br /><br />You can easily change the image logo, heading, header and footer text.');
-//define('_AM_VISITSUPPORT', 'Visit the WF-section website for information, updates and help on its usage.<br /> WF-Sections v1 B6 &copy; 2003 <a href="http://wfsections.xoops2.com/" target="_blank">WF-Sections</a>');
-define('_AM_VISITSUPPORT', '');
+define('_AM_JUSTHTML','<b> No Display info</b> (This option will stop XF-Section from displaying all info in the article. Just a plain html page or text.)');
 
-define('_AM_REORDERID', 'ID');
-define('_AM_REORDERPID', 'PID');
-define('_AM_REORDERTITLE', 'نام');
-define('_AM_REORDERDESCRIPT', 'شرح');
-define('_AM_REORDERWEIGHT', 'وزن');
-define('_AM_REORDERSUMMARY', 'خلاصه');
+define('_AM_NOSHOART','<b> No Show Article</b> (Using this option will prevent this article from being shown in the main index listing. Instead this article will only be shown in the article link menu block</b>.)');
+define('_AM_INDEXPAGECONFIG','Index Page Management');
+
+// WF -> XF
+define('_AM_INDEXPAGECONFIGTXT','This allows you to change parts of the main index page of XF-Section.<br /><br />You can easily change the image logo, heading, header and footer text.');
+//define('_AM_VISITSUPPORT','Visit the WF-section website for information, updates and help on its usage.<br /> WF-Sections v1 B6 &copy; 2003 <a href="http://wfsections.xoops2.com/" target="_blank">WF-Sections</a>');
+define('_AM_VISITSUPPORT','');
+
+define('_AM_REORDERID','ID');
+define('_AM_REORDERPID','PID');
+define('_AM_REORDERTITLE','نام');
+define('_AM_REORDERDESCRIPT','شرح');
+define('_AM_REORDERWEIGHT','وزن');
+define('_AM_REORDERSUMMARY','خلاصه');
 
 // index.php
 define("_AM_DIR_NOT_WRITABLE","پوشه قابل نوشتن نیست");
@@ -401,32 +401,32 @@ define("_AM_ARTICLE_REORDERED","نحوه چینش مقاله ها تغییر ک�
 define("_AM_CATEGORY_REORDER_RETURN","بازگشت به صفحه تغییر چینش شاخه ها");
 
 // *** add menu: bulk import ***
-define("_AM_IMPORT", "وارد کردن فایل های HTML به صورت یکجا (Bulk)");
-define("_AM_IMPORT_DIRNAME", "نام پوشه یا نام فایل");
-define("_AM_IMPORT_HTMLPROC", "Processing of HTML files");
-define("_AM_IMPORT_EXTFILTER", "External filter program name");
+define("_AM_IMPORT","وارد کردن فایل های HTML به صورت یکجا (Bulk)");
+define("_AM_IMPORT_DIRNAME","نام پوشه یا نام فایل");
+define("_AM_IMPORT_HTMLPROC","Processing of HTML files");
+define("_AM_IMPORT_EXTFILTER","External filter program name");
 
-define("_AM_IMPORT_BODY", "Only body part is taken out");
-define("_AM_IMPORT_INDEXHTML", "Delete a link to index.html, there are in the same directory or in one upper directory.");
-define("_AM_IMPORT_LINK", "Change a link to a title = file name");
-define("_AM_IMPORT_IMAGE", "Chage a link of an image file into an image directory. ");
-define("_AM_IMPORT_ATMARK", "change @ to &amp;#064;");
-define("_AM_IMPORT_TEXTPROC", "Processing of Text files");
-define("_AM_IMPORT_TEXTPRE", "Surround Text file by &lt;pre&gt; &lt;/pre&gt;");
-define("_AM_IMPORT_IMAGEPROC", "Processing of Image files");
-define("_AM_IMPORT_IMAGEDIR", "Image directory name");
-define("_AM_IMPORT_IMAGECOPY", "Copy image files to a image directory.");
-define("_AM_IMPORT_TESTMODE", "Test mode");
-define("_AM_IMPORT_TESTDB", "Not store in DB. Please remove a check, when you store. ");
-define("_AM_IMPORT_TESTEXEC", "Test");
-define("_AM_IMPORT_TESTTEXT", "Text display");
-define("_AM_IMPORT_EXPLANE", "A judgment of the kind of file is performed by the extension.<br>HTML file have extension of html or htm.<br>Text file have extension of txt.<br>Image file have extension of gif, jpg, jpeg, or png.<br>");
-define("_AM_IMPORT_ERRDIREXI", "Directory or file does not exist");
-define("_AM_IMPORT_ERRFILEXI", "Filter program does not exist");
-define("_AM_IMPORT_ERRFILEXEC", "Filter program is not executable");
-define("_AM_IMPORT_ERRNOCOPY", "No specification of image copy");
-define("_AM_IMPORT_ERRNOIMGDIR", "No specification of image directory");
-define("_AM_IMPORT_ERRIMGDIREXI", "Specified image directory is not directory");
-define("_AM_IMPORT_ERRFILEEXI", "File does not exist");
+define("_AM_IMPORT_BODY","Only body part is taken out");
+define("_AM_IMPORT_INDEXHTML","Delete a link to index.html, there are in the same directory or in one upper directory.");
+define("_AM_IMPORT_LINK","Change a link to a title = file name");
+define("_AM_IMPORT_IMAGE","Chage a link of an image file into an image directory. ");
+define("_AM_IMPORT_ATMARK","change @ to &amp;#064;");
+define("_AM_IMPORT_TEXTPROC","Processing of Text files");
+define("_AM_IMPORT_TEXTPRE","Surround Text file by &lt;pre&gt; &lt;/pre&gt;");
+define("_AM_IMPORT_IMAGEPROC","Processing of Image files");
+define("_AM_IMPORT_IMAGEDIR","Image directory name");
+define("_AM_IMPORT_IMAGECOPY","Copy image files to a image directory.");
+define("_AM_IMPORT_TESTMODE","Test mode");
+define("_AM_IMPORT_TESTDB","Not store in DB. Please remove a check, when you store. ");
+define("_AM_IMPORT_TESTEXEC","Test");
+define("_AM_IMPORT_TESTTEXT","Text display");
+define("_AM_IMPORT_EXPLANE","A judgment of the kind of file is performed by the extension.<br>HTML file have extension of html or htm.<br>Text file have extension of txt.<br>Image file have extension of gif, jpg, jpeg, or png.<br>");
+define("_AM_IMPORT_ERRDIREXI","Directory or file does not exist");
+define("_AM_IMPORT_ERRFILEXI","Filter program does not exist");
+define("_AM_IMPORT_ERRFILEXEC","Filter program is not executable");
+define("_AM_IMPORT_ERRNOCOPY","No specification of image copy");
+define("_AM_IMPORT_ERRNOIMGDIR","No specification of image directory");
+define("_AM_IMPORT_ERRIMGDIREXI","Specified image directory is not directory");
+define("_AM_IMPORT_ERRFILEEXI","File does not exist");
 
 ?>

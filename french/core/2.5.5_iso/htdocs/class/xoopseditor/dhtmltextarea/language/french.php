@@ -12,14 +12,14 @@
 /**
  * Assocated with editor_registry.php
  */
-define( "_XOOPS_EDITOR_DHTMLTEXTAREA", "Editeur DHTML avec xCode" );
+define("_XOOPS_EDITOR_DHTMLTEXTAREA","Editeur DHTML avec xCode" );
 
 /**
- * @translation     Communauté Francophone des Utilisateurs de Xoops
+ * @translation     CommunautÃ© Francophone des Utilisateurs de Xoops
  * @specification   _LANGCODE: fr
  * @specification   _CHARSET: iso-8859-1
  *
  * @version         $Id $
- Modification et mise à jour par Cesag le 14 Mai 2012.
+ Modification et mise Ã  jour par Cesag le 14 Mai 2012.
 **/
 ?>

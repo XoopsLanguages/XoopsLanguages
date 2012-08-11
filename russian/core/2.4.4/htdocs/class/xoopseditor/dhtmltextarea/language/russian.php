@@ -17,6 +17,6 @@
 // _CHARSET : UTF-8
 // Translator: andrey3761
 
-define( '_XOOPS_EDITOR_DHTMLTEXTAREA', 'DHTML редактор с xCode' );
+define('_XOOPS_EDITOR_DHTMLTEXTAREA','DHTML редактор с xCode' );
 
 ?>

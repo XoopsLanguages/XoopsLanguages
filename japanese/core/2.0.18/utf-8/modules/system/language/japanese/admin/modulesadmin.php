@@ -43,7 +43,7 @@ define("_MD_AM_FAILUNINS","%sモジュールをアンインストールできま
 define("_MD_AM_FAILORDER","%sモジュールの表示順を変更できませんでした");
 define("_MD_AM_FAILWRITE","メインメニューファイルへの書き込みに失敗しました");
 define("_MD_AM_ALEXISTS","%sモジュールは既に存在します");
-define("_MD_AM_ERRORSC", "エラー：");
+define("_MD_AM_ERRORSC","エラー：");
 define("_MD_AM_OKINS","%sモジュールのインストールが完了しました");
 define("_MD_AM_OKACT","%sモジュールをアクティブに設定しました");
 define("_MD_AM_OKDEACT","%sモジュールを非アクティブに設定しました");
@@ -51,10 +51,10 @@ define("_MD_AM_OKUPD","%sモジュールのアップデートが完了しまし�
 define("_MD_AM_OKUNINS","%sモジュールのアンインストールが完了しました");
 define("_MD_AM_OKORDER","%sモジュールの表示順を変更しました");
 
-define('_MD_AM_RUSUREINS', 'このモジュールをインストールするには下のボタンをクリックしてください');
-define('_MD_AM_RUSUREUPD', 'このモジュールのアップデートを行うには下のボタンをクリックしてください');
-define('_MD_AM_RUSUREUNINS', '本当にこのモジュールをアンインストールしてもよろしいですか？');
-define('_MD_AM_LISTUPBLKS', 'モジュールのアップデートを行います。<br />選択のブロックの中身(テンプレートとオプション)は上書きされます。<br />');
-define('_MD_AM_NEWBLKS', '新規ブロック');
-define('_MD_AM_DEPREBLKS', 'Deprecated Blocks');
+define('_MD_AM_RUSUREINS','このモジュールをインストールするには下のボタンをクリックしてください');
+define('_MD_AM_RUSUREUPD','このモジュールのアップデートを行うには下のボタンをクリックしてください');
+define('_MD_AM_RUSUREUNINS','本当にこのモジュールをアンインストールしてもよろしいですか？');
+define('_MD_AM_LISTUPBLKS','モジュールのアップデートを行います。<br />選択のブロックの中身(テンプレートとオプション)は上書きされます。<br />');
+define('_MD_AM_NEWBLKS','新規ブロック');
+define('_MD_AM_DEPREBLKS','Deprecated Blocks');
 ?>

@@ -55,25 +55,25 @@ define("_AM_RUSUREDEL","Вы действительно хотите удали�
 define("_AM_NAME","Имя");
 define("_AM_USEFULTAGS","Используемые теги:");
 define("_AM_BLOCKTAG1","%s будет выведен как %s");
-define('_AM_SVISIBLEIN', ' отображаемые на %s');
-define('_AM_TOPPAGE', 'Главной странице');
-define('_AM_VISIBLEIN', 'Показывать на');
-define('_AM_ALLPAGES', 'Всех страницах');
-define('_AM_TOPONLY', 'Только на главной странице');
-define('_AM_ADVANCED', 'Расширенные настройки');
-define('_AM_BCACHETIME', 'Время жизни кэша');
-define('_AM_BALIAS', 'Альтернативное имя');
-define('_AM_CLONE', 'Клонировать');  // clone a block
-define('_AM_CLONEBLK', 'Клонировано'); // cloned block
-define('_AM_CLONEBLOCK', 'Создать клон блока');
-define('_AM_NOTSELNG', "'%s' не выбран!");// error message
-define('_AM_EDITTPL', 'Редактировать шаблон');
-define('_AM_MODULE', 'Модуль');
-define('_AM_GROUP', 'для групп');
-define('_AM_UNASSIGNED', 'Не назначена');
+define('_AM_SVISIBLEIN',' отображаемые на %s');
+define('_AM_TOPPAGE','Главной странице');
+define('_AM_VISIBLEIN','Показывать на');
+define('_AM_ALLPAGES','Всех страницах');
+define('_AM_TOPONLY','Только на главной странице');
+define('_AM_ADVANCED','Расширенные настройки');
+define('_AM_BCACHETIME','Время жизни кэша');
+define('_AM_BALIAS','Альтернативное имя');
+define('_AM_CLONE','Клонировать');  // clone a block
+define('_AM_CLONEBLK','Клонировано'); // cloned block
+define('_AM_CLONEBLOCK','Создать клон блока');
+define('_AM_NOTSELNG',"'%s' не выбран!");// error message
+define('_AM_EDITTPL','Редактировать шаблон');
+define('_AM_MODULE','Модуль');
+define('_AM_GROUP','для групп');
+define('_AM_UNASSIGNED','Не назначена');
 
 define("_AM_CUSTOM","Блок пользователя");
-define('_AM_GENERATOR', 'Показать блоки модуля %s');
-define('_AM_TYPES', 'Все варианты');
+define('_AM_GENERATOR','Показать блоки модуля %s');
+define('_AM_TYPES','Все варианты');
 
 ?>

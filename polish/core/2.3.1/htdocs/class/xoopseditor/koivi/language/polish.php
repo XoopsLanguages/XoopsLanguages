@@ -15,7 +15,7 @@
 // _CHARSET : UTF-8
 // Translator: Jarek Wiktorowicz  <www.jarek.wiktorowicz.pl>
 
-define("_XOOPS_EDITOR_KOIVI", "Koivi WYSIWYG Editor");
+define("_XOOPS_EDITOR_KOIVI","Koivi WYSIWYG Editor");
 
 define("_XK_LEFTTORIGHT","Pisanie od lewej do prawej");
 define("_XK_RIGHTTOLEFT","Pisanie od prawej do lewej");

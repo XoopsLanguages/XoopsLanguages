@@ -31,18 +31,18 @@ define('_AM_DELBUTTON','<--удалить');
 define('_AM_UNEED2ENTER','Необходимо заполнить обязательные поля!');
 // Added in RC3
 define('_AM_BLOCKRIGHTS','Права доступа к блокам');
-define('_AM_FINDU4GROUP', 'Искать пользователей для этой группы');
-define('_AM_GROUPSMAIN', 'Группы участников');
-define('_AM_ADMINNO', 'Хотя бы один пользователь должен быть в данной группе (Web-мастеры)');
+define('_AM_FINDU4GROUP','Искать пользователей для этой группы');
+define('_AM_GROUPSMAIN','Группы участников');
+define('_AM_ADMINNO','Хотя бы один пользователь должен быть в данной группе (Web-мастеры)');
 // Custom block, suggested by trabis
 define('_AM_CUSTOMBLOCK','Блоки пользователя');
 /**
 * New in 2.4.0
 */
-define('_AM_LIST_GROUPS', 'Список группы');
-define('_XO_AD_GROUP_ID', '#');
-define('_XO_AD_GROUP_NAME', 'Имя группы');
-define('_XO_AD_GROUP_DESCRIPTION', 'Описание группы');
-define('_XO_AD_GROUP_ACTION', 'Действие');
+define('_AM_LIST_GROUPS','Список группы');
+define('_XO_AD_GROUP_ID','#');
+define('_XO_AD_GROUP_NAME','Имя группы');
+define('_XO_AD_GROUP_DESCRIPTION','Описание группы');
+define('_XO_AD_GROUP_ACTION','Действие');
 
 ?>

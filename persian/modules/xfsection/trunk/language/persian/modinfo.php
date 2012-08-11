@@ -15,7 +15,7 @@
 
 // The name of this module
 // WF -> XF
-define('_MI_XFS_NAME', 'ماژول مقالات XF-Section');
+define('_MI_XFS_NAME','ماژول مقالات XF-Section');
 
 // A brief description of this module
 // WF -> XF

@@ -22,12 +22,12 @@ define("_BP_ADD","Tilføj nye data");
 
 define("_MA_INPUT_CATE_FORM","Photo category management");
 define("_MA_SAVE","Save");
-define("_MI_TADGAL_ADMENU1", "Photo management");
-define("_MI_TADGAL_ADMENU2", "Category management");
-define("_MI_TADGAL_ADMENU3", "Best photos management");
-define("_MI_TADGAL_ADMENU4", "Module update");
-define("_MI_TADGAL_ADMENU5", "Generate media RSS");
-define("_MI_TADGAL_ADMENU6", "Batch management");
+define("_MI_TADGAL_ADMENU1","Photo management");
+define("_MI_TADGAL_ADMENU2","Category management");
+define("_MI_TADGAL_ADMENU3","Best photos management");
+define("_MI_TADGAL_ADMENU4","Module update");
+define("_MI_TADGAL_ADMENU5","Generate media RSS");
+define("_MI_TADGAL_ADMENU6","Batch management");
 
 //cate.php
 define("_MA_TADGAL_SN","Serial number");

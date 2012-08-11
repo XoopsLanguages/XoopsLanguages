@@ -25,23 +25,23 @@
 //  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 USA //
 //  ------------------------------------------------------------------------ //
 
-define('_MD_EDIT', 'Rediger');
-define('_MD_DELETE', 'Slet');
-define('_MD_JOIN', 'Bliv partner');
-define('_MD_PARTNERS', 'Partnere');
-define('_MD_PARTNER', 'Partner');
-define('_MD_DESCRIPTION', 'Beskrivelse');
-define('_MD_HITS', 'Hits');
-define('_MD_NOPART', 'Partner findes ikke.');
+define('_MD_EDIT','Rediger');
+define('_MD_DELETE','Slet');
+define('_MD_JOIN','Bliv partner');
+define('_MD_PARTNERS','Partnere');
+define('_MD_PARTNER','Partner');
+define('_MD_DESCRIPTION','Beskrivelse');
+define('_MD_HITS','Hits');
+define('_MD_NOPART','Partner findes ikke.');
 //file join.php
-define('_MD_IMAGE', 'Billed:');
-define('_MD_TITLE', 'Titel:');
-define('_MD_URL', 'URL:');
-define('_MD_SEND', 'Send email');
-define('_MD_ERROR1', '<center>FEJL: Der var en fejl. <a href=\'javascript:history.back(1)\'>Prøv igen</a></center>');
-define('_MD_ERROR2', '<center>Billedstørrelse er større end 110*50. <a href=\'javascript:history.back(1)\'>Prøv et andet billed</a></center>');
-define('_MD_ERROR3', '<center>Billedfilen findes ikke. <a href=\'javascript:history.back(1)\'>Prøv et andet billed</a></center>');
-define('_MD_GOBACK', '<a href=\'javascript:history.back(1)\'>Tilbage</a>');
-define('_MD_NEWPARTNER', '%s Partners forespørgsel');
-define('_MD_SENDMAIL', 'Mail med forespørgsel er nu sendt til administrator.<br /><a href=\'index.php\'>Tilbage til index</a>');
+define('_MD_IMAGE','Billed:');
+define('_MD_TITLE','Titel:');
+define('_MD_URL','URL:');
+define('_MD_SEND','Send email');
+define('_MD_ERROR1','<center>FEJL: Der var en fejl. <a href=\'javascript:history.back(1)\'>Prøv igen</a></center>');
+define('_MD_ERROR2','<center>Billedstørrelse er større end 110*50. <a href=\'javascript:history.back(1)\'>Prøv et andet billed</a></center>');
+define('_MD_ERROR3','<center>Billedfilen findes ikke. <a href=\'javascript:history.back(1)\'>Prøv et andet billed</a></center>');
+define('_MD_GOBACK','<a href=\'javascript:history.back(1)\'>Tilbage</a>');
+define('_MD_NEWPARTNER','%s Partners forespørgsel');
+define('_MD_SENDMAIL','Mail med forespørgsel er nu sendt til administrator.<br /><a href=\'index.php\'>Tilbage til index</a>');
 ?>

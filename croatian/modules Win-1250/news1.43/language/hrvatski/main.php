@@ -2,13 +2,13 @@
 // $Id: main.php,v 1.9 2004/07/26 17:51:25 hthouzard Exp $
 //%%%%%%		File Name index.php 		%%%%%
 define("_NW_PRINTER","Stranica pogodna za ispis");
-define("_NW_SENDSTORY","Poöalji ovu priËu prijatelju");
-define("_NW_READMORE","ProËitaj viöe...");
+define("_NW_SENDSTORY","Po≈°alji ovu pri√®u prijatelju");
+define("_NW_READMORE","Pro√®itaj vi≈°e...");
 define("_NW_COMMENTS","Komentari?");
 define("_NW_ONECOMMENT","1 komentar");
-define("_NW_BYTESMORE","%s bajta viöe");
+define("_NW_BYTESMORE","%s bajta vi≈°e");
 define("_NW_NUMCOMMENTS","%s komentara");
-define("_NW_MORERELEASES", "Viöe izdanja u ");
+define("_NW_MORERELEASES","Vi≈°e izdanja u ");
 
 
 //%%%%%%		File Name submit.php		%%%%%
@@ -19,55 +19,55 @@ define("_NW_THESCOOP","Izvadio");
 define("_NW_NOTIFYPUBLISH","Obavijesti mailom kad bude objavljeno");
 define("_NW_POST","Objavi");
 define("_NW_GO","Kreni!");
-define("_NW_THANKS","Hvala na vaöoj prijavi."); //submission of news article
+define("_NW_THANKS","Hvala na va≈°oj prijavi."); //submission of news article
 
 define("_NW_NOTIFYSBJCT","NEWS za moje stranice"); // Notification mail subject
-define("_NW_NOTIFYMSG","Hej! Dobili ste novu prijavu na vaöim stranicama."); // Notification mail message
+define("_NW_NOTIFYMSG","Hej! Dobili ste novu prijavu na va≈°im stranicama."); // Notification mail message
 
 //%%%%%%		File Name archive.php		%%%%%
 define("_NW_NEWSARCHIVES","Arhive novosti");
-define("_NW_ARTICLES","»lanci");
+define("_NW_ARTICLES","√àlanci");
 define("_NW_VIEWS","Pogledi");
 define("_NW_DATE","Datum");
 define("_NW_ACTIONS","Akcije");
 define("_NW_PRINTERFRIENDLY","Stranica pogodna za ispis");
 
-define("_NW_THEREAREINTOTAL","Ima ukupno %s Ëlanak(a)");
+define("_NW_THEREAREINTOTAL","Ima ukupno %s √®lanak(a)");
 
 // %s is your site name
-define("_NW_INTARTICLE","Interesantan Ëlanak na %s");
-define("_NW_INTARTFOUND","Evo jedan zanimljiv Ëlanak koji sam pronaöao na %s");
+define("_NW_INTARTICLE","Interesantan √®lanak na %s");
+define("_NW_INTARTFOUND","Evo jedan zanimljiv √®lanak koji sam prona≈°ao na %s");
 
 define("_NW_TOPICC","Tema:");
 define("_NW_URL","URL:");
-define("_NW_NOSTORY","éao nam je, ova priËa ne postoji.");
+define("_NW_NOSTORY","≈Ωao nam je, ova pri√®a ne postoji.");
 
 //%%%%%%	File Name print.php 	%%%%%
 
-define("_NW_URLFORSTORY","URL za ovu priËu je:");
+define("_NW_URLFORSTORY","URL za ovu pri√®u je:");
 
 // %s represents your site name
-define("_NW_THISCOMESFROM","Ovaj Ëlanak dolazi sa %s");
+define("_NW_THISCOMESFROM","Ovaj √®lanak dolazi sa %s");
 
-// Added by HervÈ
+// Added by Herv√©
 define("_NW_ATTACHEDFILES","Dodane datoteke:");
-define("_NW_ATTACHEDLIB","Ovaj Ëlanak ima neke dodane datoteke");
+define("_NW_ATTACHEDLIB","Ovaj √®lanak ima neke dodane datoteke");
 define("_NW_NEWSSAMEAUTHORLINK","Novosti od istog autora");
-define("_NW_NEWS_NO_TOPICS","éao nam je ali nema niti jedne teme, molim stvorite jednu prije nego prijavite novost");
-define("_NW_PREVIOUS_ARTICLE","Prethodni Ëlanak");
-define("_NW_NEXT_ARTICLE","SljedeÊi Ëlanak");
-define("_NW_OTHER_ARTICLES","Ostali Ëlanci");
+define("_NW_NEWS_NO_TOPICS","≈Ωao nam je ali nema niti jedne teme, molim stvorite jednu prije nego prijavite novost");
+define("_NW_PREVIOUS_ARTICLE","Prethodni √®lanak");
+define("_NW_NEXT_ARTICLE","Sljede√¶i √®lanak");
+define("_NW_OTHER_ARTICLES","Ostali √®lanci");
 
-// Added by HervÈ in version 1.3 for rating
+// Added by Herv√© in version 1.3 for rating
 define("_NW_RATETHISNEWS","Ocjeni ovu novost");
 define("_NW_RATEIT","Ocjeni!");
 define("_NW_TOTALRATE","Ukupna ocjena");
-define("_NW_RATINGLTOH","Ocjena (Od najmanje do najviöe)");
-define("_NW_RATINGHTOL","Ocjena (Od najviöe do najniûe)");
+define("_NW_RATINGLTOH","Ocjena (Od najmanje do najvi≈°e)");
+define("_NW_RATINGHTOL","Ocjena (Od najvi≈°e do najni≈æe)");
 define("_NW_RATINGC","Rang: ");
-define("_NW_RATINGSCALE","Ocjene su od 1 - 10, gdje je 1 loöe a 10 odliËno.");
+define("_NW_RATINGSCALE","Ocjene su od 1 - 10, gdje je 1 lo≈°e a 10 odli√®no.");
 define("_NW_BEOBJECTIVE","Molimo da budete objektivni, ako svi daju 1 ili 10, rangiranje nije od neke koristi.");
-define("_NW_DONOTVOTE","Ne glasujte za svoje osobne Ëlanke.");
+define("_NW_DONOTVOTE","Ne glasujte za svoje osobne √®lanke.");
 define("_NW_RATING","Rang");
 define("_NW_VOTE","Ocjeni");
 define("_NW_NORATING","Neocjenjeno.");
@@ -75,17 +75,17 @@ define("_NW_USERAVG","Srednja ocjena");
 define("_NW_DLRATINGS","Ocjena novosti (ukupno glasova: %s)");
 define("_NW_ONEVOTE","1 glas");
 define("_NW_NUMVOTES","%u glasova");		// Warning
-define("_NW_CANTVOTEOWN","Ne moûete glasovati za Ëlanak koji ste sami prijavili.<br />Svi glasovi se spremaju i pregledavaju.");
-define("_NW_VOTEDELETED","GlasaËki podaci su izbrisani.");
-define("_NW_VOTEONCE","Molimo da ne glasati za isti Ëlanak viöe puta.");
-define("_NW_VOTEAPPRE","Hvala öto ste glasovali.");
-define("_NW_THANKYOU","Hvala vam öto ste si uzeli vremena da date glas na %s"); // %s is your site name
+define("_NW_CANTVOTEOWN","Ne mo≈æete glasovati za √®lanak koji ste sami prijavili.<br />Svi glasovi se spremaju i pregledavaju.");
+define("_NW_VOTEDELETED","Glasa√®ki podaci su izbrisani.");
+define("_NW_VOTEONCE","Molimo da ne glasati za isti √®lanak vi≈°e puta.");
+define("_NW_VOTEAPPRE","Hvala ≈°to ste glasovali.");
+define("_NW_THANKYOU","Hvala vam ≈°to ste si uzeli vremena da date glas na %s"); // %s is your site name
 define("_NW_RSSFEED","RSS punjenje");	// Warning, this text is included insided an Alt attribut (for a picture), so take care to the quotes
 define("_NW_AUTHOR","Autor");
 define("_NW_META_DESCRIPTION","Meta opis");
-define("_NW_META_KEYWORDS","Meta kljuËne rijeËi");
-define("_NW_MAKEPDF","Stvori PDF od Ëlanka");
+define("_NW_META_KEYWORDS","Meta klju√®ne rije√®i");
+define("_NW_MAKEPDF","Stvori PDF od √®lanka");
 define('_MD_POSTEDON',"Objavljeno : ");
 define("_NW_AUTHOR_ID","ID autora");
-define("_NW_POST_SORRY","éao nam je, ili nema tema ili nemate prava da bi napisali u neku temu. Ako ste webmaster, idite na dozvole i postavite 'Prijave' dozvole.");
+define("_NW_POST_SORRY","≈Ωao nam je, ili nema tema ili nemate prava da bi napisali u neku temu. Ako ste webmaster, idite na dozvole i postavite 'Prijave' dozvole.");
 ?>

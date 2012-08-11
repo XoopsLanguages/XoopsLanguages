@@ -10,7 +10,7 @@
 //Last translation update: 20/02/2011
 
 //Nav
-define("_AM_SYSTEM_MAINTENANCE_NAV_MANAGER", "Manutenzione");
+define("_AM_SYSTEM_MAINTENANCE_NAV_MANAGER","Manutenzione");
 define("_AM_SYSTEM_MAINTENANCE_NAV_LIST","Manutenzione");
 define("_AM_SYSTEM_MAINTENANCE_NAV_DUMP","Dump");
 
@@ -53,16 +53,16 @@ define("_AM_SYSTEM_MAINTENANCE_TABLES_ANALYZE","Analizza");
 define("_AM_SYSTEM_MAINTENANCE_DUMP","Dump");
 define("_AM_SYSTEM_MAINTENANCE_DUMP_TABLES_OR_MODULES","Selezionare tabella(e) o modulo(i)");
 define("_AM_SYSTEM_MAINTENANCE_DUMP_DROP","Aggiungere al dump l'istruzione DROP TABLE IF EXISTS 'nome_tabella'<br />Attenzione! in caso di importazione attivando questa impostazione i dati del dump sovrascriveranno le tabelle gi&agrave; esistenti");
-define("_AM_SYSTEM_MAINTENANCE_DUMP_OR", "OPPURE");
-define("_AM_SYSTEM_MAINTENANCE_DUMP_AND", "E");
-define("_AM_SYSTEM_MAINTENANCE_DUMP_ERROR_TABLES_OR_MODULES", "&Egrave; necessario selezionare almeno una tabella o un modulo");
-define("_AM_SYSTEM_MAINTENANCE_DUMP_NO_TABLES", "Nessuna tabella");
-define("_AM_SYSTEM_MAINTENANCE_DUMP_TABLES", "Tabella(e)");
-define("_AM_SYSTEM_MAINTENANCE_DUMP_STRUCTURES", "Struttura");
-define("_AM_SYSTEM_MAINTENANCE_DUMP_NB_RECORDS", "Numero di record");
-define("_AM_SYSTEM_MAINTENANCE_DUMP_FILE_CREATED", "File generato");
-define("_AM_SYSTEM_MAINTENANCE_DUMP_RESULT", "Stato");
-define("_AM_SYSTEM_MAINTENANCE_DUMP_RECORDS", "record");
+define("_AM_SYSTEM_MAINTENANCE_DUMP_OR","OPPURE");
+define("_AM_SYSTEM_MAINTENANCE_DUMP_AND","E");
+define("_AM_SYSTEM_MAINTENANCE_DUMP_ERROR_TABLES_OR_MODULES","&Egrave; necessario selezionare almeno una tabella o un modulo");
+define("_AM_SYSTEM_MAINTENANCE_DUMP_NO_TABLES","Nessuna tabella");
+define("_AM_SYSTEM_MAINTENANCE_DUMP_TABLES","Tabella(e)");
+define("_AM_SYSTEM_MAINTENANCE_DUMP_STRUCTURES","Struttura");
+define("_AM_SYSTEM_MAINTENANCE_DUMP_NB_RECORDS","Numero di record");
+define("_AM_SYSTEM_MAINTENANCE_DUMP_FILE_CREATED","File generato");
+define("_AM_SYSTEM_MAINTENANCE_DUMP_RESULT","Stato");
+define("_AM_SYSTEM_MAINTENANCE_DUMP_RECORDS","record");
 
 // Tips
 define("_AM_SYSTEM_MAINTENANCE_TIPS", 

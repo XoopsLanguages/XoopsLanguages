@@ -140,7 +140,7 @@ class XoopsModelWrite extends XoopsModelAbstract
                         $cleanv = array_map(array(&$ts, "stripSlashesGPC"), $cleanv);
                     }
                     foreach (array_keys($cleanv) as $key) {
-                        $cleanv[$key] = str_replace('\\"', '"', addslashes($cleanv[$key]));
+                        $cleanv[$key] = str_replace('\\"','"', addslashes($cleanv[$key]));
                     }
                     
                     // TODO: Not encoding safe, should try base64_encode -- phppp

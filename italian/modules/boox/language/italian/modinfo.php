@@ -19,19 +19,19 @@
  * Version : $Id:
  * ****************************************************************************
  */
-define("_MI_BOOX_NAME", "Boox");
-define("_MI_BOOX_DESC", "Creare blocchi per Xoops");
-define("_MI_BOOX_OPT0", "Selezionare il luogo dove si desidera memorizzare i file");
-define("_MI_BOOX_OPT0_DSC", "Tutti i file creati verranno archiviati in questo luogo.");
-define("_MI_BOOX_FORM_OPTIONS", "Opzione Modulo");
-define("_MI_BOOX_FORM_COMPACT", "Compattare");
+define("_MI_BOOX_NAME","Boox");
+define("_MI_BOOX_DESC","Creare blocchi per Xoops");
+define("_MI_BOOX_OPT0","Selezionare il luogo dove si desidera memorizzare i file");
+define("_MI_BOOX_OPT0_DSC","Tutti i file creati verranno archiviati in questo luogo.");
+define("_MI_BOOX_FORM_OPTIONS","Opzione Modulo");
+define("_MI_BOOX_FORM_COMPACT","Compattare");
 // Added in version 1.1
-define("_MI_BOOX_OPT1", "Compattare contenuto prima di salvare?");
-define("_MI_BOOX_OPT1_DSC", "Gli spazi saranno rimossi prima che il file viene salvato");
+define("_MI_BOOX_OPT1","Compattare contenuto prima di salvare?");
+define("_MI_BOOX_OPT1_DSC","Gli spazi saranno rimossi prima che il file viene salvato");
 //1.71
-define("_MI_BOOX_MENU_00", "Dashboard");
-define("_MI_BOOX_MENU_01", "Boox Manager");
-define("_MI_BOOX_ADMIN_ABOUT", "Informazioni");
+define("_MI_BOOX_MENU_00","Dashboard");
+define("_MI_BOOX_MENU_01","Boox Manager");
+define("_MI_BOOX_ADMIN_ABOUT","Informazioni");
 // Translation done by XTransam & admin (info@txmodxoops.org)
 // XTransam 1.2 is written by Chronolabs Co-op & The XOOPS Project - File Dumped on 2012-07-03 06:02
 ?>

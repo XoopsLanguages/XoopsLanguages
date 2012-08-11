@@ -25,34 +25,34 @@ defined('XOOPS_ROOT_PATH') or die('Ograničeni pristup');
 // _LANGCODE: hr
 // _CHARSET : UTF-8
 // Translator: XoopsHR.org / Ivan Kosak / 27.10.2009.
-define('_LOGGER_DEBUG', "Debug");
-define('_LOGGER_INCLUDED_FILES', "Uključene datoteke");
-define('_LOGGER_FILES', "%s datoteka");
-define('_LOGGER_MEM_USAGE', "Korištenje memorije");
-define('_LOGGER_MEM_ESTIMATED', "%s [Procijenjeno]");
-define('_LOGGER_NONE', "Ništa");
-define('_LOGGER_ALL', "Sve");
-define('_LOGGER_ERRORS', "Greške");
-define('_LOGGER_QUERIES', "Upiti");
-define('_LOGGER_BLOCKS', "Blokovi");
-define('_LOGGER_EXTRA', "Ekstra");
-define('_LOGGER_TIMERS', "Timeri");
+define('_LOGGER_DEBUG',"Debug");
+define('_LOGGER_INCLUDED_FILES',"Uključene datoteke");
+define('_LOGGER_FILES',"%s datoteka");
+define('_LOGGER_MEM_USAGE',"Korištenje memorije");
+define('_LOGGER_MEM_ESTIMATED',"%s [Procijenjeno]");
+define('_LOGGER_NONE',"Ništa");
+define('_LOGGER_ALL',"Sve");
+define('_LOGGER_ERRORS',"Greške");
+define('_LOGGER_QUERIES',"Upiti");
+define('_LOGGER_BLOCKS',"Blokovi");
+define('_LOGGER_EXTRA',"Ekstra");
+define('_LOGGER_TIMERS',"Timeri");
 
 
-define('_LOGGER_TIMETOLOAD', "%s uzelo %s sekundi za učitavanje.");
+define('_LOGGER_TIMETOLOAD',"%s uzelo %s sekundi za učitavanje.");
 
-define('_LOGGER_TOTAL', "Ukupno");
+define('_LOGGER_TOTAL',"Ukupno");
 
-define('_LOGGER_NOT_CACHED', "Nije spremljeno u memoriju");
-define('_LOGGER_CACHED', "Spremljeno u memoriju (osvježavano svakih %s sekunde)");
+define('_LOGGER_NOT_CACHED',"Nije spremljeno u memoriju");
+define('_LOGGER_CACHED',"Spremljeno u memoriju (osvježavano svakih %s sekunde)");
 
-define('_LOGGER_UNKNOWN', "Nepoznato");
-define('_LOGGER_E_USER_NOTICE', "Napomena");
-define('_LOGGER_E_USER_WARNING', "Upozorenje");
-define('_LOGGER_E_USER_ERROR', "Greška");
-define('_LOGGER_E_NOTICE', "Napomena");
-define('_LOGGER_E_WARNING', "Upozorenje");
-define('_LOGGER_E_STRICT', "Isključivo");
-define('_LOGGER_FILELINE', "%s u datoteci %s na liniji %s");
+define('_LOGGER_UNKNOWN',"Nepoznato");
+define('_LOGGER_E_USER_NOTICE',"Napomena");
+define('_LOGGER_E_USER_WARNING',"Upozorenje");
+define('_LOGGER_E_USER_ERROR',"Greška");
+define('_LOGGER_E_NOTICE',"Napomena");
+define('_LOGGER_E_WARNING',"Upozorenje");
+define('_LOGGER_E_STRICT',"Isključivo");
+define('_LOGGER_FILELINE',"%s u datoteci %s na liniji %s");
 
 ?>

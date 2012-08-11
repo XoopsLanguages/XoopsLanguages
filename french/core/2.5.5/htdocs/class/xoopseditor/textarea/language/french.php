@@ -13,7 +13,7 @@
 /*
  * Assocated with editor_registry.php
  */
-define("_XOOPS_EDITOR_TEXTAREA", "Texte brut");
+define("_XOOPS_EDITOR_TEXTAREA","Texte brut");
 
 /**
  * @translation     Communauté Francophone des Utilisateurs de Xoops

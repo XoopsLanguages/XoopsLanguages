@@ -1,89 +1,89 @@
 <?php
 // The name and description of this module
-define("_MI_CATADS_NAME","Og³oszenia");
-define("_MI_CATADS_DESC","Modu³ do zarz±dzania og³oszeniami");
+define("_MI_CATADS_NAME","OgÂ³oszenia");
+define("_MI_CATADS_DESC","ModuÂ³ do zarzÂ±dzania ogÂ³oszeniami");
 
 // xoopsversion config
-define("_MI_CATADS_MODERATE","Og³oszenia moderowane:");
-define("_MI_CATADS_ANONCANPOST","Anonim mo¿e og³aszaæ:");
-define("_MI_CATADS_NBPERPAGE","Og³oszeñ na stronê :");
-define("_MI_CATADS_NBPERPAGE_ADMIN","Og³oszeñ na stronê (administracja)");
-define("_MI_CATADS_DISPLAYNEW","Ilo¶æ nowych og³oszeñ :");
-define("_MI_CATADS_BBCODE","Formularz : zezwól na bbcode ");
-define("_MI_CATADS_MAXSIZEIMG","Obraz : max wielko¶æ (bajty)");
-define("_MI_CATADS_MAXSIZEIMG_DESC","0 aby zabroniæ na uplaod");
-define("_MI_CATADS_MAXHEIGHTIMG","Obraz : max. wysoko¶æ");
-define("_MI_CATADS_MAXWIDTHIMG","Obraz : max. szeroko¶æ");
-//define("_MI_CATADS_NBDAY_VALID","# dni wy¶wietlania");
-define("_MI_CATADS_NBPUB_AGAIN","Liczba dozwolonych rozszerzeñ");
-define("_MI_CATADS_NBDAY_NEW","Czas uznawania og³oszenia za nowe ");
-define("_MI_CATADS_TPLTYPE","Strona g³ówna : sposób wy¶wietlania kategorii");
+define("_MI_CATADS_MODERATE","OgÂ³oszenia moderowane:");
+define("_MI_CATADS_ANONCANPOST","Anonim moÂ¿e ogÂ³aszaÃ¦:");
+define("_MI_CATADS_NBPERPAGE","OgÂ³oszeÃ± na stronÃª :");
+define("_MI_CATADS_NBPERPAGE_ADMIN","OgÂ³oszeÃ± na stronÃª (administracja)");
+define("_MI_CATADS_DISPLAYNEW","IloÂ¶Ã¦ nowych ogÂ³oszeÃ± :");
+define("_MI_CATADS_BBCODE","Formularz : zezwÃ³l na bbcode ");
+define("_MI_CATADS_MAXSIZEIMG","Obraz : max wielkoÂ¶Ã¦ (bajty)");
+define("_MI_CATADS_MAXSIZEIMG_DESC","0 aby zabroniÃ¦ na uplaod");
+define("_MI_CATADS_MAXHEIGHTIMG","Obraz : max. wysokoÂ¶Ã¦");
+define("_MI_CATADS_MAXWIDTHIMG","Obraz : max. szerokoÂ¶Ã¦");
+//define("_MI_CATADS_NBDAY_VALID","# dni wyÂ¶wietlania");
+define("_MI_CATADS_NBPUB_AGAIN","Liczba dozwolonych rozszerzeÃ±");
+define("_MI_CATADS_NBDAY_NEW","Czas uznawania ogÂ³oszenia za nowe ");
+define("_MI_CATADS_TPLTYPE","Strona gÂ³Ã³wna : sposÃ³b wyÂ¶wietlania kategorii");
 define("_MI_CATADS_COL","Kolumny");
 define("_MI_CATADS_LIN","Wiersze");
-define("_MI_CATADS_NBCOL","Strona g³ówn : # kolumn");
+define("_MI_CATADS_NBCOL","Strona gÂ³Ã³wn : # kolumn");
 // 2004/10/24
-define("_MI_CATADS_MAXLENTXT","Dodany tekst: max. ilo¶æ znaków.");
+define("_MI_CATADS_MAXLENTXT","Dodany tekst: max. iloÂ¶Ã¦ znakÃ³w.");
 //add v1.3
-define("_MI_CATADS_NBDAYS_BEFORE","Maksymalny czsa przed publikacj±");
+define("_MI_CATADS_NBDAYS_BEFORE","Maksymalny czsa przed publikacjÂ±");
 //add v1.4
-define("_MI_CATADS_CANEDIT","Zezwolenie na edycjê");
+define("_MI_CATADS_CANEDIT","Zezwolenie na edycjÃª");
 define("_MI_CATADS_CANDELETE","Zezwolenie na skasowanie");
 define("_MI_CATADS_EMAIL_REQUIRED","Adres email w formularzu");
 define("_MI_CATADS_ZIPCODE_REQUIRED","Kod pocztowy w formularzu");
 define("_MI_CATADS_REQUIRED","Wymagane");
 define("_MI_CATADS_OPTIONAL","Opcjonalne");
 define("_MI_CATADS_NOASK","Nie wymagane;");
-define("_MI_CATADS_NBCOLS_IMG","Og³oszenie : # obrazków w wierszu");
-define("_MI_CATADS_DISP_PSEUDO","Og³oszenie : Wy¶wietl Nick");
+define("_MI_CATADS_NBCOLS_IMG","OgÂ³oszenie : # obrazkÃ³w w wierszu");
+define("_MI_CATADS_DISP_PSEUDO","OgÂ³oszenie : WyÂ¶wietl Nick");
 
 // Names of blocks for this module 
 define("_MI_CATADS_BNAME1","Ostatnio dodane");
 define("_MI_CATADS_BNAME2","Dodaj");
-define("_MI_CATADS_BNAME3","Moje og³oszenia");
+define("_MI_CATADS_BNAME3","Moje ogÂ³oszenia");
 
 //submenu
-define("_MI_CATADS_SMENU1","Moje og³oszenia");
-define("_MI_CATADS_SMENU2","Wy¶lij");
+define("_MI_CATADS_SMENU1","Moje ogÂ³oszenia");
+define("_MI_CATADS_SMENU2","WyÂ¶lij");
 
 // Popup
-define("_MI_CATADS_ADMENU1", "Zarz±dzanie kategoriami");
-define("_MI_CATADS_ADMENU2", "Zarz±dzanie polami");
-define("_MI_CATADS_ADMENU3", "Zarz±dzanie og³oszeniami");
+define("_MI_CATADS_ADMENU1","ZarzÂ±dzanie kategoriami");
+define("_MI_CATADS_ADMENU2","ZarzÂ±dzanie polami");
+define("_MI_CATADS_ADMENU3","ZarzÂ±dzanie ogÂ³oszeniami");
 
 // Text for notifications
 
-define("_MI_CATADS_GLOBAL_NOTIFY", "Globalne");
-define("_MI_CATADS_GLOBAL_NOTIFYDSC", "Globalne opcje powiadomieñ");
+define("_MI_CATADS_GLOBAL_NOTIFY","Globalne");
+define("_MI_CATADS_GLOBAL_NOTIFYDSC","Globalne opcje powiadomieÃ±");
 
-define("_MI_CATADS_CATEGORY_NOTIFY", "Kategoria");
-define("_MI_CATADS_CATEGORY_NOTIFYDSC", "Opcje powiadomieñ w kategoriach");
+define("_MI_CATADS_CATEGORY_NOTIFY","Kategoria");
+define("_MI_CATADS_CATEGORY_NOTIFYDSC","Opcje powiadomieÃ± w kategoriach");
 
-define("_MI_CATADS_ADS_NOTIFY", "Ads");
-define("_MI_CATADS_ADS_NOTIFYDSC", "Opcje powiadomieñ dla tego og³oszenia");
+define("_MI_CATADS_ADS_NOTIFY","Ads");
+define("_MI_CATADS_ADS_NOTIFYDSC","Opcje powiadomieÃ± dla tego ogÂ³oszenia");
 // Event 1
-define("_MI_CATADS_GLOBAL_ADSSUBMIT_NOTIFY", "Ad submitted");
-define("_MI_CATADS_GLOBAL_ADSSUBMIT_NOTIFYCAP", "Informacja o wys³anym nowym og³oszeniu (oczekuj±cym)");
-define("_MI_CATADS_GLOBAL_ADSSUBMIT_NOTIFYDSC", "Be notified when a new ad is submitted");
-define("_MI_CATADS_GLOBAL_ADSSUBMIT_NOTIFYSBJ", "[{X_SITENAME}] {X_MODULE} auto-info : Nowe og³oszenie");
+define("_MI_CATADS_GLOBAL_ADSSUBMIT_NOTIFY","Ad submitted");
+define("_MI_CATADS_GLOBAL_ADSSUBMIT_NOTIFYCAP","Informacja o wysÂ³anym nowym ogÂ³oszeniu (oczekujÂ±cym)");
+define("_MI_CATADS_GLOBAL_ADSSUBMIT_NOTIFYDSC","Be notified when a new ad is submitted");
+define("_MI_CATADS_GLOBAL_ADSSUBMIT_NOTIFYSBJ","[{X_SITENAME}] {X_MODULE} auto-info : Nowe ogÂ³oszenie");
 // Event 2
-define("_MI_CATADS_GLOBAL_NEWADS_NOTIFY", "Nowe og³oszenie");       
-define("_MI_CATADS_GLOBAL_NEWADS_NOTIFYCAP", "Informacja o opublikowanym nowym og³oszeniu");                           
-define("_MI_CATADS_GLOBAL_NEWADS_NOTIFYDSC", "Powiadom mnie o opublikowanym nowym og³oszeniu.");                
-define("_MI_CATADS_GLOBAL_NEWADS_NOTIFYSBJ", "[{X_SITENAME}] {X_MODULE} auto-info : nowe og³oszenie");                              
+define("_MI_CATADS_GLOBAL_NEWADS_NOTIFY","Nowe ogÂ³oszenie");       
+define("_MI_CATADS_GLOBAL_NEWADS_NOTIFYCAP","Informacja o opublikowanym nowym ogÂ³oszeniu");                           
+define("_MI_CATADS_GLOBAL_NEWADS_NOTIFYDSC","Powiadom mnie o opublikowanym nowym ogÂ³oszeniu.");                
+define("_MI_CATADS_GLOBAL_NEWADS_NOTIFYSBJ","[{X_SITENAME}] {X_MODULE} auto-info : nowe ogÂ³oszenie");                              
 // Event 3
-define("_MI_CATADS_CATEGORY_SUBMIT_NOTIFY", "Dodano nowe og³oszenie");       
-define("_MI_CATADS_CATEGORY_SUBMIT_NOTIFYCAP", "Informacja o wys³anym nowym og³oszeniu (oczekuj±cym) w tej kategorii");
-define("_MI_CATADS_CATEGORY_SUBMIT_NOTIFYDSC", "Powiadom mnie o wys³anym nowym og³oszeniu (oczekuj±cym) w tej kategorii.");
-define("_MI_CATADS_CATEGORY_SUBMIT_NOTIFYSBJ", "[{X_SITENAME}] {X_MODULE} auto-notify : nowe og³oszenie");                              
+define("_MI_CATADS_CATEGORY_SUBMIT_NOTIFY","Dodano nowe ogÂ³oszenie");       
+define("_MI_CATADS_CATEGORY_SUBMIT_NOTIFYCAP","Informacja o wysÂ³anym nowym ogÂ³oszeniu (oczekujÂ±cym) w tej kategorii");
+define("_MI_CATADS_CATEGORY_SUBMIT_NOTIFYDSC","Powiadom mnie o wysÂ³anym nowym ogÂ³oszeniu (oczekujÂ±cym) w tej kategorii.");
+define("_MI_CATADS_CATEGORY_SUBMIT_NOTIFYSBJ","[{X_SITENAME}] {X_MODULE} auto-notify : nowe ogÂ³oszenie");                              
 // Event 4
-define("_MI_CATADS_CATEGORY_NEWADS_NOTIFY", "Dodano nowe og³oszenie");       
-define("_MI_CATADS_CATEGORY_NEWADS_NOTIFYCAP", "Informacja o opublikowanym nowym og³oszeniu w tej kategorii");
-define("_MI_CATADS_CATEGORY_NEWADS_NOTIFYDSC", "Powiadom mnie o wys³anym nowym og³oszeniu (oczekuj±cym) w tej kategorii.");
-define("_MI_CATADS_CATEGORY_NEWADS_NOTIFYSBJ", "[{X_SITENAME}] {X_MODULE} auto-notify : nowe og³oszenie");                              
+define("_MI_CATADS_CATEGORY_NEWADS_NOTIFY","Dodano nowe ogÂ³oszenie");       
+define("_MI_CATADS_CATEGORY_NEWADS_NOTIFYCAP","Informacja o opublikowanym nowym ogÂ³oszeniu w tej kategorii");
+define("_MI_CATADS_CATEGORY_NEWADS_NOTIFYDSC","Powiadom mnie o wysÂ³anym nowym ogÂ³oszeniu (oczekujÂ±cym) w tej kategorii.");
+define("_MI_CATADS_CATEGORY_NEWADS_NOTIFYSBJ","[{X_SITENAME}] {X_MODULE} auto-notify : nowe ogÂ³oszenie");                              
 // Event 5
-define("_MI_CATADS_ADS_APPROVE_NOTIFY", "Opublikowano nowe og³oszenie");
-define("_MI_CATADS_ADS_APPROVE_NOTIFYCAP", "Powiadom mnie gdy moje og³oszenie zostanie opublikowane.");
-define("_MI_CATADS_ADS_APPROVE_NOTIFYDSC", "Powiadom mnie gdy moje og³oszenie zostanie opublikowane.");
-define("_MI_CATADS_ADS_APPROVE_NOTIFYSBJ", "[{X_SITENAME}] {X_MODULE} auto-notify : Opublikowano nowe og³oszenie");
+define("_MI_CATADS_ADS_APPROVE_NOTIFY","Opublikowano nowe ogÂ³oszenie");
+define("_MI_CATADS_ADS_APPROVE_NOTIFYCAP","Powiadom mnie gdy moje ogÂ³oszenie zostanie opublikowane.");
+define("_MI_CATADS_ADS_APPROVE_NOTIFYDSC","Powiadom mnie gdy moje ogÂ³oszenie zostanie opublikowane.");
+define("_MI_CATADS_ADS_APPROVE_NOTIFYSBJ","[{X_SITENAME}] {X_MODULE} auto-notify : Opublikowano nowe ogÂ³oszenie");
 
 ?>

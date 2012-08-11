@@ -8,7 +8,7 @@
  */
 
 //Nav
-define("_AM_SYSTEM_MAINTENANCE_NAV_MANAGER", "Konserwacja systemu");
+define("_AM_SYSTEM_MAINTENANCE_NAV_MANAGER","Konserwacja systemu");
 define("_AM_SYSTEM_MAINTENANCE_NAV_LIST","Konserwacja");
 define("_AM_SYSTEM_MAINTENANCE_NAV_DUMP","Zapis tabel");
 
@@ -51,16 +51,16 @@ define("_AM_SYSTEM_MAINTENANCE_TABLES_ANALYZE","Analiza");
 define("_AM_SYSTEM_MAINTENANCE_DUMP","Zapis do pliku sql tabel bazy danych systemu wraz z danymi");
 define("_AM_SYSTEM_MAINTENANCE_DUMP_TABLES_OR_MODULES","Wybierz tabele lub moduły");
 define("_AM_SYSTEM_MAINTENANCE_DUMP_DROP","Dodaj polecenie DROP TABLE IF EXISTS /zastąp istniejące tabele/  ");
-define("_AM_SYSTEM_MAINTENANCE_DUMP_OR", "lub");
-define("_AM_SYSTEM_MAINTENANCE_DUMP_AND", "i");
-define("_AM_SYSTEM_MAINTENANCE_DUMP_ERROR_TABLES_OR_MODULES", "Musisz zaznaczyć tabele lub moduły");
-define("_AM_SYSTEM_MAINTENANCE_DUMP_NO_TABLES", "Brak tabel");
-define("_AM_SYSTEM_MAINTENANCE_DUMP_TABLES", "Tabele");
-define("_AM_SYSTEM_MAINTENANCE_DUMP_STRUCTURES", "Struktura tabeli");
-define("_AM_SYSTEM_MAINTENANCE_DUMP_NB_RECORDS", "Ilość rekordów (wpisów w tabeli)");
-define("_AM_SYSTEM_MAINTENANCE_DUMP_FILE_CREATED", "Plik do importu");
-define("_AM_SYSTEM_MAINTENANCE_DUMP_RESULT", "Dostępny");
-define("_AM_SYSTEM_MAINTENANCE_DUMP_RECORDS", "rekord(ów)");
+define("_AM_SYSTEM_MAINTENANCE_DUMP_OR","lub");
+define("_AM_SYSTEM_MAINTENANCE_DUMP_AND","i");
+define("_AM_SYSTEM_MAINTENANCE_DUMP_ERROR_TABLES_OR_MODULES","Musisz zaznaczyć tabele lub moduły");
+define("_AM_SYSTEM_MAINTENANCE_DUMP_NO_TABLES","Brak tabel");
+define("_AM_SYSTEM_MAINTENANCE_DUMP_TABLES","Tabele");
+define("_AM_SYSTEM_MAINTENANCE_DUMP_STRUCTURES","Struktura tabeli");
+define("_AM_SYSTEM_MAINTENANCE_DUMP_NB_RECORDS","Ilość rekordów (wpisów w tabeli)");
+define("_AM_SYSTEM_MAINTENANCE_DUMP_FILE_CREATED","Plik do importu");
+define("_AM_SYSTEM_MAINTENANCE_DUMP_RESULT","Dostępny");
+define("_AM_SYSTEM_MAINTENANCE_DUMP_RECORDS","rekord(ów)");
 
 // Tips
 define("_AM_SYSTEM_MAINTENANCE_TIPS", 

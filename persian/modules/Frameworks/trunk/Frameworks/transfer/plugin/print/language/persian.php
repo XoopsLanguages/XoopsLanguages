@@ -13,6 +13,6 @@
  * @package		Frameworks::transfer
  */
  
-define("_MD_TRANSFER_PRINT", "چاپ");
-define("_MD_TRANSFER_PRINT_DESC", "چاپ کردن پست");
+define("_MD_TRANSFER_PRINT","چاپ");
+define("_MD_TRANSFER_PRINT_DESC","چاپ کردن پست");
 ?>

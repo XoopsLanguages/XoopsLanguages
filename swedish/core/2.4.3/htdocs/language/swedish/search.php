@@ -26,24 +26,24 @@ defined('XOOPS_ROOT_PATH') or die('Endast behöriga användare');
 // _CHARSET : UTF-8
 // Translator: XOOPS Translation Team
 //%%%%%%    File Name search.php    %%%%%
-define('_SR_SEARCH', 'Sök');
-define('_SR_PLZENTER', 'Fyll i all obligatorisk information!');
-define('_SR_SEARCHRESULTS', 'Sökresultat');
-define('_SR_NOMATCH', 'Din sökning fick inga träffar');
-define('_SR_FOUND', 'Hittade <strong>%s</strong> träff(ar)');
-define('_SR_SHOWING', '(Visar %d - %d)');
-define('_SR_ANY', 'Vilket som (OR)');
-define('_SR_ALL', 'Alla (AND)');
-define('_SR_EXACT', 'Exakta träffar');
-define('_SR_SHOWALLR', 'Visa alla träffar');
-define('_SR_NEXT', 'Nästa >>');
-define('_SR_PREVIOUS', '<< Föregående');
-define('_SR_KEYWORDS', 'Nyckelord');
-define('_SR_TYPE', 'Typ');
-define('_SR_SEARCHIN', 'Sök i');
-define('_SR_KEYTOOSHORT', 'Nyckelord måste var åtminstone <strong>%s</strong> tecken långa');
-define('_SR_KEYIGNORE', 'Nyckelord kortare än <strong>%s</strong> tecken kommer ignoreras');
-define('_SR_SEARCHRULE', 'Sökregel');
-define('_SR_IGNOREDWORDS', 'Följande ord är kortare än den tillåtna minimilängden (%u chars) och inkluderades inte i din sökning:');
+define('_SR_SEARCH','Sök');
+define('_SR_PLZENTER','Fyll i all obligatorisk information!');
+define('_SR_SEARCHRESULTS','Sökresultat');
+define('_SR_NOMATCH','Din sökning fick inga träffar');
+define('_SR_FOUND','Hittade <strong>%s</strong> träff(ar)');
+define('_SR_SHOWING','(Visar %d - %d)');
+define('_SR_ANY','Vilket som (OR)');
+define('_SR_ALL','Alla (AND)');
+define('_SR_EXACT','Exakta träffar');
+define('_SR_SHOWALLR','Visa alla träffar');
+define('_SR_NEXT','Nästa >>');
+define('_SR_PREVIOUS','<< Föregående');
+define('_SR_KEYWORDS','Nyckelord');
+define('_SR_TYPE','Typ');
+define('_SR_SEARCHIN','Sök i');
+define('_SR_KEYTOOSHORT','Nyckelord måste var åtminstone <strong>%s</strong> tecken långa');
+define('_SR_KEYIGNORE','Nyckelord kortare än <strong>%s</strong> tecken kommer ignoreras');
+define('_SR_SEARCHRULE','Sökregel');
+define('_SR_IGNOREDWORDS','Följande ord är kortare än den tillåtna minimilängden (%u chars) och inkluderades inte i din sökning:');
 
 ?>

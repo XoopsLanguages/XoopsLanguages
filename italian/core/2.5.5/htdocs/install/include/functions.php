@@ -145,9 +145,9 @@ function xoDiagIfWritable($path)
 
 function xoPhpVersion()
 {
-    if (version_compare(phpversion(), '4.3.0', '>=')) {
+    if (version_compare(phpversion(), '4.3.0','>=')) {
         return xoDiag(1, phpversion());
-    } else if (version_compare(phpversion(), '4.2.1', '>=')) {
+    } else if (version_compare(phpversion(), '4.2.1','>=')) {
         return xoDiag(0, phpversion());
     } else {
         return xoDiag(-1, phpversion());
@@ -432,7 +432,7 @@ function xoStripeKey($xoops_key)
             }
         }
     }
-    $ret = str_replace('--', '-', $ret);
+    $ret = str_replace('--','-', $ret);
     if (substr($ret, 0, 1) == '-') {
         $ret = substr($ret, 2, strlen($ret));
     }

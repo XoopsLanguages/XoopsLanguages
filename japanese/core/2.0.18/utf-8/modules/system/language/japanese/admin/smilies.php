@@ -18,5 +18,5 @@ define("_AM_SMILEEMOTION","意味：");
 define("_AM_ADD","追加");
 define("_AM_SAVE","保存");
 define("_AM_WAYSYWTDTS","この顔アイコンを削除してもいいですか？");
-define('_AM_DISPLAYF', '投稿フォームに表示');
+define('_AM_DISPLAYF','投稿フォームに表示');
 ?>

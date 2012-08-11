@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 // $Id: blocksadmin.php 1503 2008-04-26 11:57:19Z phppp $
 //%%%%%%	Admin Module Name  Blocks 	%%%%%
 define("_AM_DBUPDATED",_MD_AM_DBUPDATED);
@@ -51,24 +51,24 @@ define("_AM_RUSUREDEL","<strong>%s</strong> آپ کو یقین ہے کہ آپ ا
 define("_AM_NAME","نام");
 define("_AM_USEFULTAGS","مفید چندی:");
 define("_AM_BLOCKTAG1","%s پرنٹ کرے گا %s");
-define('_AM_SVISIBLEIN', 'تختے آشکارا ہیں %s');
-define('_AM_TOPPAGE', 'اوپر والا صفحہ');
-define('_AM_VISIBLEIN', 'آشکار ہے');
-define('_AM_ALLPAGES', 'تمام صفحے');
-define('_AM_TOPONLY', 'اوپر والا صفحہ');
-define('_AM_ADVANCED', 'اعلی ترتیب');
-define('_AM_BCACHETIME', 'ذجیرہ کی مدت');
-define('_AM_BALIAS', 'عرف عام');
-define('_AM_CLONE', 'نقل');  // clone a block
-define('_AM_CLONEBLK', 'نقل'); // cloned block
-define('_AM_CLONEBLOCK', 'تختے کی نقل بنایئں');
-define('_AM_NOTSELNG', "'%s'منتخب نہیں ہے"); // error message
-define('_AM_EDITTPL', 'ٹیمپلٹ کی تنسیخ کریں');
-define('_AM_MODULE', 'موڈیول');
-define('_AM_GROUP', 'گروپس کی رسائ');
-define('_AM_UNASSIGNED', 'غیر منسوب');
+define('_AM_SVISIBLEIN','تختے آشکارا ہیں %s');
+define('_AM_TOPPAGE','اوپر والا صفحہ');
+define('_AM_VISIBLEIN','آشکار ہے');
+define('_AM_ALLPAGES','تمام صفحے');
+define('_AM_TOPONLY','اوپر والا صفحہ');
+define('_AM_ADVANCED','اعلی ترتیب');
+define('_AM_BCACHETIME','ذجیرہ کی مدت');
+define('_AM_BALIAS','عرف عام');
+define('_AM_CLONE','نقل');  // clone a block
+define('_AM_CLONEBLK','نقل'); // cloned block
+define('_AM_CLONEBLOCK','تختے کی نقل بنایئں');
+define('_AM_NOTSELNG',"'%s'منتخب نہیں ہے"); // error message
+define('_AM_EDITTPL','ٹیمپلٹ کی تنسیخ کریں');
+define('_AM_MODULE','موڈیول');
+define('_AM_GROUP','گروپس کی رسائ');
+define('_AM_UNASSIGNED','غیر منسوب');
 
 define("_AM_CUSTOM","بناوٹی تختہ");
-define('_AM_GENERATOR', 'تختے بناۓ %s');
-define('_AM_TYPES', 'تمام اقسام');
+define('_AM_GENERATOR','تختے بناۓ %s');
+define('_AM_TYPES','تمام اقسام');
 ?>

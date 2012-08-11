@@ -31,7 +31,7 @@ define("_PM_MESSAGEC","Nội dung: ");//Message:
 define("_PM_CLEAR","Xóa");//Clear
 define("_PM_CANCELSEND","Hủy bỏ gởi");//Cancel Send
 define("_PM_SUBMIT","Gởi đi");//Submit
-define("_PM_SAVEINOUTBOX", "Lưu một bản sao trong Outbox của bạn?");//Save a copy in your outbox?
+define("_PM_SAVEINOUTBOX","Lưu một bản sao trong Outbox của bạn?");//Save a copy in your outbox?
 
 //%%%%%%	File Name viewpmsg.php 	%%%%%
 define("_PM_SUBJECT","Tiêu đề");//Subject
@@ -42,7 +42,7 @@ define("_PM_DELETE","Xóa bỏ");//Delete
 define("_PM_TOSAVE","Di chuyển đến Savebox");//Move to Savebox
 define("_PM_UNSAVE","Di chuyển ra khỏi Savebox");//Move out of Savebox
 define("_PM_EMPTY","Làm trống");// Empty
-define("_PM_REPLY", "Trả lời");
+define("_PM_REPLY","Trả lời");
 define("_PM_PLZREG","Xin vui lòng đăng ký thành viên trước tiên để được gởi tin nhắn!");//Please register first to send private messages!
 define("_PM_SAVED_PART","Bạn được cho phép có % d trong Savebox của bạn và hiện tại bạn đang có % d tin nhắn");//You are allowed %d in your savebox and you saved %d messages for this time
 define("_PM_SAVED_ALL","Tin nhắn đã được chuyển đến Savebox");//Messages have been moved to savebox
@@ -51,7 +51,7 @@ define("_PM_EMPTIED","Hòm thư đã được làm trống");//The box has been 
 define("_PM_RUSUREEMPTY","Bạn có chắc chắn muốn làm trống hòm thư?");//Are you sure you want to empty the box?
 define("_PM_RUSUREDELETE","Bạn có chắc chắn muốn xoá bỏ những tin nhắn này?");//Are you sure you want to delete these message(s)
 
-define("_PM_ONLINE", "Trực tuyến");//Online
+define("_PM_ONLINE","Trực tuyến");//Online
 
 define("_PM_RECEIVE","Tiếp nhận");//RECEIVE
 define("_PM_POST","Đăng");//POST
@@ -81,13 +81,13 @@ define("_PM_NEXTP","Tiếp");
 define("_PM_MAILNOTIFY","%s- Bạn có tin nhắn mới  gởi từ %s");
 define("_PM_MAILMESSAGE","Xin chào!\nMột tin nhắn mới gởi đến từ %s\n\nTiêu đề của tin nhắn là\n%s\n\nBạn có thể xem tin nhắn ở đây\n%s\n\n-----------\nBạn nhận được tin nhắn này vì bạn đã chọn để được thông báo khi có một tin nhắn mới gởi đến\n\nBạn có thể thay đổi tùy chọn tin nhắn ở \n%s\n\nXin vui lòng đừng trả lời tin này\n\n---------\nThân chào\n%s\n%s\n%s");
 
-define("_PM_EMAIL", "Chuyển tiếp đến email");//Forward to email
-define("_PM_EMAIL_DESC", "Xin chào %s, đay là một tin nhắn được chuyển tiếp từ tài khoản của bạn tại ".$xoopsConfig['sitename']);
-define("_PM_EMAIL_FROM", "Đến từ %s");
-define("_PM_EMAIL_TO", "Gởi cho %s");
-define("_PM_EMAIL_SUBJECT", "[tin nhắn]%s");
-define("_PM_EMAIL_MESSAGE", "Nội dung");
+define("_PM_EMAIL","Chuyển tiếp đến email");//Forward to email
+define("_PM_EMAIL_DESC","Xin chào %s, đay là một tin nhắn được chuyển tiếp từ tài khoản của bạn tại ".$xoopsConfig['sitename']);
+define("_PM_EMAIL_FROM","Đến từ %s");
+define("_PM_EMAIL_TO","Gởi cho %s");
+define("_PM_EMAIL_SUBJECT","[tin nhắn]%s");
+define("_PM_EMAIL_MESSAGE","Nội dung");
 
-define("_PM_ACTION_DONE", "Thao tác thực hiện thành công");//Operation executed successfully
-define("_PM_ACTION_ERROR", "Thao tác thực hiện bất thành");//Operation failed
+define("_PM_ACTION_DONE","Thao tác thực hiện thành công");//Operation executed successfully
+define("_PM_ACTION_ERROR","Thao tác thực hiện bất thành");//Operation failed
 ?>

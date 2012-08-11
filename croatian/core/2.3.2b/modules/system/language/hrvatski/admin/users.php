@@ -55,7 +55,7 @@ define("_AM_CNGTST","Ne mogu primiti ukupni zbroj objava");
 define("_AM_CNUUSER","Ne mogu ažurirati korisnika");
 define("_AM_CNGUSERID","Ne mogu primiti korisnikov IDS");
 define("_AM_LIST","Lista");
-define("_AM_NOUSERS", "Nema izabranih korisnika");
+define("_AM_NOUSERS","Nema izabranih korisnika");
 
 define("_AM_CNRNU2","Novi korisnik se nije mogao dodati u grupe: %s.");
 ?>

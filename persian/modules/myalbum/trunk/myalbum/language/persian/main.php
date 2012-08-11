@@ -2,45 +2,45 @@
 
 if( defined( 'FOR_XOOPS_LANG_CHECKER' ) || ! defined( 'MYALBUM_MB_LOADED' ) ) {
 
-define( 'MYALBUM_MB_LOADED' , 1 ) ;
+define('MYALBUM_MB_LOADED' , 1 ) ;
 
 //%%%%%%		Module Name 'myAlbum-P'		%%%%%
 
 // New in myAlbum-P
 
 // only "Y/m/d" , "d M Y" , "M d Y" can be interpreted
-define( "_ALBM_DTFMT_YMDHI" , "d M Y H:i" ) ;
+define("_ALBM_DTFMT_YMDHI" , "d M Y H:i" ) ;
 
-define( "_ALBM_NEXT_BUTTON" , "بعدی" ) ;
-define( "_ALBM_REDOLOOPDONE" , "انجام شد." ) ;
+define("_ALBM_NEXT_BUTTON" , "بعدی" ) ;
+define("_ALBM_REDOLOOPDONE" , "انجام شد." ) ;
 
-define( "_ALBM_BTN_SELECTALL" , "انتخاب همه" ) ;
-define( "_ALBM_BTN_SELECTNONE" , "انتخاب انجام شد" ) ;
-define( "_ALBM_BTN_SELECTRVS" , "از انتخاب خارج شد" ) ;
+define("_ALBM_BTN_SELECTALL" , "انتخاب همه" ) ;
+define("_ALBM_BTN_SELECTNONE" , "انتخاب انجام شد" ) ;
+define("_ALBM_BTN_SELECTRVS" , "از انتخاب خارج شد" ) ;
 
-define( "_ALBM_FMT_PHOTONUM" , "%s تصویر در صفحه" ) ;
+define("_ALBM_FMT_PHOTONUM" , "%s تصویر در صفحه" ) ;
 
-define( "_ALBM_AM_ADMISSION" , "تایید کردن تصوير ها" ) ;
-define( "_ALBM_AM_ADMITTING" , "تصوير ها تایید شد" ) ;
-define( "_ALBM_AM_LABEL_ADMIT" , "تایید تصاویر که شما چک کرده اید" ) ;
-define( "_ALBM_AM_BUTTON_ADMIT" , "تایید" ) ;
-define( "_ALBM_AM_BUTTON_EXTRACT" , "خلاصه" ) ;
+define("_ALBM_AM_ADMISSION" , "تایید کردن تصوير ها" ) ;
+define("_ALBM_AM_ADMITTING" , "تصوير ها تایید شد" ) ;
+define("_ALBM_AM_LABEL_ADMIT" , "تایید تصاویر که شما چک کرده اید" ) ;
+define("_ALBM_AM_BUTTON_ADMIT" , "تایید" ) ;
+define("_ALBM_AM_BUTTON_EXTRACT" , "خلاصه" ) ;
 
-define( "_ALBM_AM_PHOTOMANAGER" , "مدیریت تصوير ها" ) ;
-define( "_ALBM_AM_PHOTONAVINFO" , "Photo No. %s-%s (out of %s photos hit)" ) ;
-define( "_ALBM_AM_LABEL_REMOVE" , "پاک کردن تصاویر چک شده" ) ;
-define( "_ALBM_AM_BUTTON_REMOVE" , "پاک کن!" ) ;
-define( "_ALBM_AM_JS_REMOVECONFIRM" , "آیا پاک شود؟" ) ;
-define( "_ALBM_AM_LABEL_MOVE" , "عوض کردن شاخه ی تصاویر چک شده" ) ;
-define( "_ALBM_AM_BUTTON_MOVE" , "حرکت" ) ;
-define( "_ALBM_AM_BUTTON_UPDATE" , "اصلاح کردن" ) ;
-define( "_ALBM_AM_DEADLINKMAINPHOTO" , "تصویر اصلی موجود نیست" ) ;
+define("_ALBM_AM_PHOTOMANAGER" , "مدیریت تصوير ها" ) ;
+define("_ALBM_AM_PHOTONAVINFO" , "Photo No. %s-%s (out of %s photos hit)" ) ;
+define("_ALBM_AM_LABEL_REMOVE" , "پاک کردن تصاویر چک شده" ) ;
+define("_ALBM_AM_BUTTON_REMOVE" , "پاک کن!" ) ;
+define("_ALBM_AM_JS_REMOVECONFIRM" , "آیا پاک شود؟" ) ;
+define("_ALBM_AM_LABEL_MOVE" , "عوض کردن شاخه ی تصاویر چک شده" ) ;
+define("_ALBM_AM_BUTTON_MOVE" , "حرکت" ) ;
+define("_ALBM_AM_BUTTON_UPDATE" , "اصلاح کردن" ) ;
+define("_ALBM_AM_DEADLINKMAINPHOTO" , "تصویر اصلی موجود نیست" ) ;
 
-define( "_ALBM_RADIO_ROTATETITLE" , "چرخش تصوير" ) ;
-define( "_ALBM_RADIO_ROTATE0" , "بدون دور" ) ;
-define( "_ALBM_RADIO_ROTATE90" , "چرخش به راست" ) ;
-define( "_ALBM_RADIO_ROTATE180" , "چرخش 180 درجه" ) ;
-define( "_ALBM_RADIO_ROTATE270" , "چرخش به چپ" ) ;
+define("_ALBM_RADIO_ROTATETITLE" , "چرخش تصوير" ) ;
+define("_ALBM_RADIO_ROTATE0" , "بدون دور" ) ;
+define("_ALBM_RADIO_ROTATE90" , "چرخش به راست" ) ;
+define("_ALBM_RADIO_ROTATE180" , "چرخش 180 درجه" ) ;
+define("_ALBM_RADIO_ROTATE270" , "چرخش به چپ" ) ;
 
 
 // New MyAlbum 1.0.1 (and 1.2.0)

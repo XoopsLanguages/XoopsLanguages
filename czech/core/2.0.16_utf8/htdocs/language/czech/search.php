@@ -16,7 +16,7 @@ define("_SR_PREVIOUS","<< Předchozí");
 define("_SR_KEYWORDS","Klíčová slova");
 define("_SR_TYPE","Typ");
 define("_SR_SEARCHIN","Hledat v");
-define('_SR_KEYTOOSHORT', 'Klíčová slova musí být nejméně <b>%s</b> znaků dlouhá');
-define('_SR_KEYIGNORE', 'Klíčová slova kratší než <b>%s</b> znaků budou ignorována');
-define('_SR_SEARCHRULE', 'Vyhledávací pravidlo');
+define('_SR_KEYTOOSHORT','Klíčová slova musí být nejméně <b>%s</b> znaků dlouhá');
+define('_SR_KEYIGNORE','Klíčová slova kratší než <b>%s</b> znaků budou ignorována');
+define('_SR_SEARCHRULE','Vyhledávací pravidlo');
 ?>

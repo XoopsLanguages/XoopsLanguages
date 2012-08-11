@@ -13,13 +13,13 @@
 /*
  * Assocated with editor_registry.php
  */
-define("_XOOPS_EDITOR_TINYMCE", "¿ÉÊÓ»¯TinyMCE±à¼­Æ÷");
+define("_XOOPS_EDITOR_TINYMCE","ï¿½ï¿½ï¿½Ó»ï¿½TinyMCEï¿½à¼­ï¿½ï¿½");
 
 // The value must be the same as /tinymce/jscripts/langs/your_language_code, for example, "en" for English, "fr" for French
 // For details, check http://tinymce.moxiecode.com/download_i18n.php
-define("_XOOPS_EDITOR_TINYMCE_LANGUAGE", "zh");
+define("_XOOPS_EDITOR_TINYMCE_LANGUAGE","zh");
 
 // FONT LIST, FORMAT: "Name=value1,value2;Name=value"
-define("_XOOPS_EDITOR_TINYMCE_FONTS", "ºÚÌå=ºÚÌå;ËÎÌå=ËÎÌå;¿¬Ìå=¿¬Ìå_GB2312;Arial=arial,helvetica,sans-serif;Courier New=courier new,courier,monospace;Georgia=georgia,times new roman,times,serif;Tahoma=tahoma,arial,helvetica,sans-serif;Times New Roman=times new roman,times,serif;Verdana=verdana,arial,helvetica,sans-serif;Impact=impact;WingDings=wingdings");
+define("_XOOPS_EDITOR_TINYMCE_FONTS","ï¿½ï¿½ï¿½ï¿½=ï¿½ï¿½ï¿½ï¿½;ï¿½ï¿½ï¿½ï¿½=ï¿½ï¿½ï¿½ï¿½;ï¿½ï¿½ï¿½ï¿½=ï¿½ï¿½ï¿½ï¿½_GB2312;Arial=arial,helvetica,sans-serif;Courier New=courier new,courier,monospace;Georgia=georgia,times new roman,times,serif;Tahoma=tahoma,arial,helvetica,sans-serif;Times New Roman=times new roman,times,serif;Verdana=verdana,arial,helvetica,sans-serif;Impact=impact;WingDings=wingdings");
 
 ?>

@@ -9,7 +9,7 @@ define("_INSTALL_ANONUSERS","Khách");
 define("_INSTALL_ANONUSERSD","Nhóm khách chưa đăng ký");
 define("_INSTALL_L165","Xin lỗi quý khách. Web site hiện đang trong quá trình bảo trì. Vui lòng quay lại sau.");
 define("_INSTALL_ANON","Khách");
-define("_INSTALL_DISCLMR", "<strong>Điều Lệ Chung</strong>
+define("_INSTALL_DISCLMR","<strong>Điều Lệ Chung</strong>
 
 Trước khi đăng ký tất cả đều phải đồng ý với những quy ước sau:
 

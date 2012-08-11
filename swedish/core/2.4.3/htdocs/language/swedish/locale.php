@@ -25,14 +25,14 @@ defined('XOOPS_ROOT_PATH') or die('Endast behöriga användare');
 
 setlocale(LC_ALL, 'sv_SE');
 
-// !!IMPORTANT!! insert '\' before any char among reserved chars: "a", "A", "B", "c", "d", "D", "F", "g", "G", "h", "H", "i", "I", "j", "l", "L", "m", "M", "n", "O", "r", "s", "S", "t", "T", "U", "w", "W", "Y", "y", "z", "Z"    
-// insert double '\' before 't', 'r', 'n'
-define("_TODAY", "\I\d\a\g H:i");
-define("_YESTERDAY", "\I\gå\r H:i");
-define("_MONTHDAY", "j/n H:i");
-define("_YEARMONTHDAY", "Y-m-d H:i");
-define("_ELAPSE", "%s sedan");
-define("_TIMEFORMAT_DESC", "Giltiga format: \"s\" - " . _SHORTDATESTRING . "; \"m\" - " . _MEDIUMDATESTRING . "; \"l\" - " . _DATESTRING . ";<br />" . "\"c\" eller \"anpassat\" - formatet bestäms enligt intervallet till aktuell tid; \"e\" - Förflutet; \"mysql\" - Y-m-d H:i:s;<br />" . "specificerad sträng - Se <a href=\"http://php.net/manual/en/function.date.php\" rel=\"external\">PHP-manualen</a>.");
+// !!IMPORTANT!! insert '\' before any char among reserved chars: "a","A","B","c","d","D","F","g","G","h","H","i","I","j","l","L","m","M","n","O","r","s","S","t","T","U","w","W","Y","y","z","Z"    
+// insert double '\' before 't','r','n'
+define("_TODAY","\I\d\a\g H:i");
+define("_YESTERDAY","\I\gå\r H:i");
+define("_MONTHDAY","j/n H:i");
+define("_YEARMONTHDAY","Y-m-d H:i");
+define("_ELAPSE","%s sedan");
+define("_TIMEFORMAT_DESC","Giltiga format: \"s\" - " . _SHORTDATESTRING . "; \"m\" - " . _MEDIUMDATESTRING . "; \"l\" - " . _DATESTRING . ";<br />" . "\"c\" eller \"anpassat\" - formatet bestäms enligt intervallet till aktuell tid; \"e\" - Förflutet; \"mysql\" - Y-m-d H:i:s;<br />" . "specificerad sträng - Se <a href=\"http://php.net/manual/en/function.date.php\" rel=\"external\">PHP-manualen</a>.");
 
 /**
  * A Xoops Local
@@ -53,7 +53,7 @@ class XoopsLocal extends XoopsLocalAbstract
      */
     function number_format($number)
     {
-        return number_format($number, 2, '.', ',');
+        return number_format($number, 2, '.',',');
     }
     
     /**

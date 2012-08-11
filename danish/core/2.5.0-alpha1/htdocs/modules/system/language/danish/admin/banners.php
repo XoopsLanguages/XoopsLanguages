@@ -73,7 +73,7 @@ define("_AM_SYSTEM_BANNERS_USEHTML","Brug HTML?");
 define("_AM_SYSTEM_BANNERS_CODEHTML","HTML kode:");
 
 // Tips
-define( "_AM_SYSTEM_BANNERS_NAV_TIPS", '
+define("_AM_SYSTEM_BANNERS_NAV_TIPS",'
 <ul>
 <li>Tilføj, redigér og opdatér kategori, banner og klienter.</li>
 </ul>

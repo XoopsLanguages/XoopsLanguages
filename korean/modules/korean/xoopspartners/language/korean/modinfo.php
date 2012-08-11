@@ -29,24 +29,24 @@
 //  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 USA //
 //  ------------------------------------------------------------------------ //
 
-define('_MI_PARTNERS_NAME', 'ÆÄÆ®³Ê»çÀÌÆ®');
-define('_MI_PARTNERS_DESC', 'ÆÄÆ®³Ê»çÀÌÆ® Á¤º¸¸¦ ºí·Ï°ú ¸ðµâ¿¡¼­ Ç¥½Ã/°ü¸®ÇÏ½Ç ¼ö ÀÖ½À´Ï´Ù.');
-define('_MI_PARTNERS_ADMIN', 'ÆÄÆ®³Ê»çÀÌÆ® ÆíÁý');
-define('_MI_PARTNERS_ADMIN_ADD', 'ÆÄÆ®³Ê»çÀÌÆ® Ãß°¡');
-define('_MI_ID', 'ID');
-define('_MI_HITS', '¹æ¹®¼ö');
-define('_MI_TITLE', 'Å¸ÀÌÆ²');
-define('_MI_WEIGHT', '¼³Á¤ Ç¥½Ã¼ø');
-define('_MI_RECLICK', 'Àç¹æ¹®Ã³¸® ½Ã°£:');
-define('_MI_IMAGES', '±×¸²ÆÄÀÏ');
-define('_MI_TEXT', '¹®ÀÚ');
-define('_MI_BOTH', '±×¸²ÆÄÀÏ°ú ¹®ÀÚ');
-define('_MI_MLIMIT', 'Ç¥½ÃÇÒ ÆÄÆ®³Ê»çÀÌÆ® ¼ö: (0 = no limit)');
-define('_MI_MSHOW', 'ÆäÀÌÁö¿¡ Ç¥½ÃÇÒ ³»¿ë:');
-define('_MI_MORDER', 'Ç¥½Ã Á¤·Ä:');
-define('_MI_HOUR', '1 ½Ã°£');
-define('_MI_3HOURS', '3 ½Ã°£');
-define('_MI_5HOURS', '5 ½Ã°£');
-define('_MI_10HOURS', '10 ½Ã°£');
-define('_MI_DAY', '1 ÀÏ');
+define('_MI_PARTNERS_NAME','ï¿½ï¿½Æ®ï¿½Ê»ï¿½ï¿½ï¿½Æ®');
+define('_MI_PARTNERS_DESC','ï¿½ï¿½Æ®ï¿½Ê»ï¿½ï¿½ï¿½Æ® ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ï°ï¿½ ï¿½ï¿½â¿¡ï¿½ï¿½ Ç¥ï¿½ï¿½/ï¿½ï¿½ï¿½ï¿½ï¿½Ï½ï¿½ ï¿½ï¿½ ï¿½Ö½ï¿½ï¿½Ï´ï¿½.');
+define('_MI_PARTNERS_ADMIN','ï¿½ï¿½Æ®ï¿½Ê»ï¿½ï¿½ï¿½Æ® ï¿½ï¿½ï¿½ï¿½');
+define('_MI_PARTNERS_ADMIN_ADD','ï¿½ï¿½Æ®ï¿½Ê»ï¿½ï¿½ï¿½Æ® ï¿½ß°ï¿½');
+define('_MI_ID','ID');
+define('_MI_HITS','ï¿½æ¹®ï¿½ï¿½');
+define('_MI_TITLE','Å¸ï¿½ï¿½Æ²');
+define('_MI_WEIGHT','ï¿½ï¿½ï¿½ï¿½ Ç¥ï¿½Ã¼ï¿½');
+define('_MI_RECLICK','ï¿½ï¿½æ¹®Ã³ï¿½ï¿½ ï¿½Ã°ï¿½:');
+define('_MI_IMAGES','ï¿½×¸ï¿½ï¿½ï¿½ï¿½ï¿½');
+define('_MI_TEXT','ï¿½ï¿½ï¿½ï¿½');
+define('_MI_BOTH','ï¿½×¸ï¿½ï¿½ï¿½ï¿½Ï°ï¿½ ï¿½ï¿½ï¿½ï¿½');
+define('_MI_MLIMIT','Ç¥ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Æ®ï¿½Ê»ï¿½ï¿½ï¿½Æ® ï¿½ï¿½: (0 = no limit)');
+define('_MI_MSHOW','ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Ç¥ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½:');
+define('_MI_MORDER','Ç¥ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½:');
+define('_MI_HOUR','1 ï¿½Ã°ï¿½');
+define('_MI_3HOURS','3 ï¿½Ã°ï¿½');
+define('_MI_5HOURS','5 ï¿½Ã°ï¿½');
+define('_MI_10HOURS','10 ï¿½Ã°ï¿½');
+define('_MI_DAY','1 ï¿½ï¿½');
 ?>

@@ -1,15 +1,15 @@
 <?php
 // $Id: admin.php 2 2005-11-02 18:23:29Z skalpa $
 //%%%%%%	File Name  admin.php 	%%%%%
-define("_AD_NORIGHT","áÇ íãßäß ÇáÏÎæá áåÐå ÇáãäØÞÉ");
-define("_AD_ACTION","ÇáÊÍßã");
-define("_AD_EDIT","ÊÍÑíÑ");
-define("_AD_DELETE","ãÓÍ");
-define("_AD_LASTTENUSERS","ÂÎÑ 10 ãÓÌáíä");
-define("_AD_NICKNAME","ÇÓã ÇáãÓÊÎÏã");
-define("_AD_EMAIL","ÇáÈÑíÏ");
-define("_AD_AVATAR","ÇáÕæÑÉ ÇáÔÎÕíÉ");
-define("_AD_REGISTERED","ÇáÅäÙãÇã"); //Registered Date
-define('_AD_PRESSGEN', 'åÐå ÒíÇÑÊß ÇáÃæáì ááæÍÉ ÇáÊÍßã íÑÌì ÇáÖÛØ Úáì ÇáÒÑ ÃÏäÇå');
-define('_AD_LOGINADMIN', 'ÊÓÌíá ÇáÏÎæá ...');
+define("_AD_NORIGHT","Ã¡Ã‡ Ã­Ã£ÃŸÃ¤ÃŸ Ã‡Ã¡ÃÃŽÃ¦Ã¡ Ã¡Ã¥ÃÃ¥ Ã‡Ã¡Ã£Ã¤Ã˜ÃžÃ‰");
+define("_AD_ACTION","Ã‡Ã¡ÃŠÃÃŸÃ£");
+define("_AD_EDIT","ÃŠÃÃ‘Ã­Ã‘");
+define("_AD_DELETE","Ã£Ã“Ã");
+define("_AD_LASTTENUSERS","Ã‚ÃŽÃ‘ 10 Ã£Ã“ÃŒÃ¡Ã­Ã¤");
+define("_AD_NICKNAME","Ã‡Ã“Ã£ Ã‡Ã¡Ã£Ã“ÃŠÃŽÃÃ£");
+define("_AD_EMAIL","Ã‡Ã¡ÃˆÃ‘Ã­Ã");
+define("_AD_AVATAR","Ã‡Ã¡Ã•Ã¦Ã‘Ã‰ Ã‡Ã¡Ã”ÃŽÃ•Ã­Ã‰");
+define("_AD_REGISTERED","Ã‡Ã¡Ã…Ã¤Ã™Ã£Ã‡Ã£"); //Registered Date
+define('_AD_PRESSGEN','Ã¥ÃÃ¥ Ã’Ã­Ã‡Ã‘ÃŠÃŸ Ã‡Ã¡ÃƒÃ¦Ã¡Ã¬ Ã¡Ã¡Ã¦ÃÃ‰ Ã‡Ã¡ÃŠÃÃŸÃ£ Ã­Ã‘ÃŒÃ¬ Ã‡Ã¡Ã–Ã›Ã˜ ÃšÃ¡Ã¬ Ã‡Ã¡Ã’Ã‘ ÃƒÃÃ¤Ã‡Ã¥');
+define('_AD_LOGINADMIN','ÃŠÃ“ÃŒÃ­Ã¡ Ã‡Ã¡ÃÃŽÃ¦Ã¡ ...');
 ?>

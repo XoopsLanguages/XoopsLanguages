@@ -48,14 +48,14 @@ define('_MI_MYSEARCH_BNAME3',"آمار");
 define('_MI_MYSEARCH_BNAME4',"جستجوی ای جکس");
 
 // Added by Lankford on 2007/8/15
-define('_MI_MYSEARCH_DO_DEEP_SEARCH', "فعال سازی جستجوی 'عمیق' ؟");
-define('_MI_MYSEARCH_DO_DEEP_SEARCH_DSC', "آیا میخواهید که نخستین صفحه نمایش نتایج جستجوی شما نشان دهد چه تعداد از نتایج در هر ماژل یافت شد؟  توجه: با روشن کردن این گزینه عملیات جستجو کند میشود !");
-define('_MI_MYSEARCH_INIT_SRCH_RSLTS', "تعدا نتایج نمایش داده شده: (برای جستجوی 'سطحی')");
-define('_MI_MYSEARCH_INIT_SRCH_RSLTS_DSC', "جستجوی 'سطحی' به سرعت نتایج خلاصی از جستجو در هر ماژول را در صفحه جستجو نمایش میدهد.");
-define('_MI_MYSEARCH_MDL_SRCH_RESULTS', "تعداد نتایج جستجو در هر صفحه:");
-define('_MI_MYSEARCH_MDL_SRCH_RESULTS_DSC', "این گزینه مشخص میکند چند گزینه در هر صفحه بعد از مشخص شدن نتایج جستجو نمایش داده شوند.");
+define('_MI_MYSEARCH_DO_DEEP_SEARCH',"فعال سازی جستجوی 'عمیق' ؟");
+define('_MI_MYSEARCH_DO_DEEP_SEARCH_DSC',"آیا میخواهید که نخستین صفحه نمایش نتایج جستجوی شما نشان دهد چه تعداد از نتایج در هر ماژل یافت شد؟  توجه: با روشن کردن این گزینه عملیات جستجو کند میشود !");
+define('_MI_MYSEARCH_INIT_SRCH_RSLTS',"تعدا نتایج نمایش داده شده: (برای جستجوی 'سطحی')");
+define('_MI_MYSEARCH_INIT_SRCH_RSLTS_DSC',"جستجوی 'سطحی' به سرعت نتایج خلاصی از جستجو در هر ماژول را در صفحه جستجو نمایش میدهد.");
+define('_MI_MYSEARCH_MDL_SRCH_RESULTS',"تعداد نتایج جستجو در هر صفحه:");
+define('_MI_MYSEARCH_MDL_SRCH_RESULTS_DSC',"این گزینه مشخص میکند چند گزینه در هر صفحه بعد از مشخص شدن نتایج جستجو نمایش داده شوند.");
 
-define('_MI_MYSEARCH_MIN_SEARCH', 'کمترین تعداد کلمات کلیدی');
-define('_MI_MYSEARCH_MIN_SEARCH_DSC', 'کمترین تعداد کلمات کلیدی که کاربر برای هر جستجو باید وارد کند را مشخص کنید');
+define('_MI_MYSEARCH_MIN_SEARCH','کمترین تعداد کلمات کلیدی');
+define('_MI_MYSEARCH_MIN_SEARCH_DSC','کمترین تعداد کلمات کلیدی که کاربر برای هر جستجو باید وارد کند را مشخص کنید');
 
 ?>

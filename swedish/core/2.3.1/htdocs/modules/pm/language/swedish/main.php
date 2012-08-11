@@ -30,7 +30,7 @@ define("_PM_MESSAGEC","Meddelande: ");
 define("_PM_CLEAR","Rensa");
 define("_PM_CANCELSEND","Ångra");
 define("_PM_SUBMIT","Skicka");
-define("_PM_SAVEINOUTBOX", "Spara en kopia i din utkorg?");
+define("_PM_SAVEINOUTBOX","Spara en kopia i din utkorg?");
 
 //%%%%%%	File Name viewpmsg.php 	%%%%%
 define("_PM_SUBJECT","Ämne");
@@ -41,7 +41,7 @@ define("_PM_DELETE","Radera");
 define("_PM_TOSAVE","Flytta till Sparakorgen");
 define("_PM_UNSAVE","Flytta från Sparakorgen");
 define("_PM_EMPTY","Tomt");
-define("_PM_REPLY", "Svara");
+define("_PM_REPLY","Svara");
 define("_PM_PLZREG","Vänligen och registrera dig för att kunna skicka PM!");
 define("_PM_SAVED_PART","You are allowed %d in your savebox and you saved %d messages for this time");
 define("_PM_SAVED_ALL","Meddelande har flyttats till Sparakorgen");
@@ -50,7 +50,7 @@ define("_PM_EMPTIED","Korgen har tömts");
 define("_PM_RUSUREEMPTY","Är du säker på att du vill tömma korgen?");
 define("_PM_RUSUREDELETE","Är du säker på att du vill radera meddelande(na)?");
 
-define("_PM_ONLINE", "Online");
+define("_PM_ONLINE","Online");
 
 define("_PM_RECEIVE","MOTTAG");
 define("_PM_POST","POSTA");
@@ -80,13 +80,13 @@ define("_PM_NEXTP","Nästa");
 define("_PM_MAILNOTIFY","%s-Du har fått ett nytt meddelande från %s");
 define("_PM_MAILMESSAGE","Hej!\nA Ett nytt meddelande har mottagits från %s\n\nPM:ets titel är\n%s\n\nDu kan läsa meddelandet här\n%s\n\n-----------\nMeddelandet skickas till dig eftersom du valt att bli meddelad när du får ett nytt PM\n\nDu kan ändra dina PM-inställningar\n%s\n\nVänligen svara inte på detta meddelande\n\n---------\nMed vänliga häslningar\n%s\n%s\n%s");
 
-define("_PM_EMAIL", "Vidarebefodra till E-post");
-define("_PM_EMAIL_DESC", "Kära %s, meddelandet har överförts från ditt konto hos ".$xoopsConfig['sitename']);
-define("_PM_EMAIL_FROM", "Från %s");
-define("_PM_EMAIL_TO", "Till %s");
-define("_PM_EMAIL_SUBJECT", "[meddelande]%s");
-define("_PM_EMAIL_MESSAGE", "Meddelandeinnehåll");
+define("_PM_EMAIL","Vidarebefodra till E-post");
+define("_PM_EMAIL_DESC","Kära %s, meddelandet har överförts från ditt konto hos ".$xoopsConfig['sitename']);
+define("_PM_EMAIL_FROM","Från %s");
+define("_PM_EMAIL_TO","Till %s");
+define("_PM_EMAIL_SUBJECT","[meddelande]%s");
+define("_PM_EMAIL_MESSAGE","Meddelandeinnehåll");
 
-define("_PM_ACTION_DONE", "Operation utfördes korrekt");
-define("_PM_ACTION_ERROR", "Operation misslyckades");
+define("_PM_ACTION_DONE","Operation utfördes korrekt");
+define("_PM_ACTION_ERROR","Operation misslyckades");
 ?>

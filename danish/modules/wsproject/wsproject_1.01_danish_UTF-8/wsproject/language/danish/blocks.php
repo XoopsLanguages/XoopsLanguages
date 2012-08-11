@@ -1,8 +1,8 @@
 <?php
 
-define('_MB_WSPROJECT_SMALLBLOCKTITLE', 'Projekt status');
-define('_MB_WSPROJECT_RANDOM', 'Tilfældig');
-define('_MB_WSPROJECT_SHOWEDPROJECT', 'Vis projekt');
+define('_MB_WSPROJECT_SMALLBLOCKTITLE','Projekt status');
+define('_MB_WSPROJECT_RANDOM','Tilfældig');
+define('_MB_WSPROJECT_SHOWEDPROJECT','Vis projekt');
 
 
 //include shared constants

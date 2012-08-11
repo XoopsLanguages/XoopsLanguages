@@ -30,8 +30,8 @@ define("_WARNINSTALL2","WARNUNG: Das Verzeichnis %s existiert noch auf dem Serve
 define("_WARNINWRITEABLE","WARNUNG: Die Datei %s ist nicht schreibgeschützt auf dem Server. <br />Bitte setzen Sie die Zugriffsrechte richtig. Ansonsten wird das zu einem Sicherheitsrisiko!<br /> (unter Unix (444), unter Win32 (schreibgeschützt))");
 
 // Error messages issued by XoopsObject::cleanVars()
-define( "_XOBJ_ERR_REQUIRED", "%s ist erforderlich" );
-define( "_XOBJ_ERR_SHORTERTHAN", "%s muss mehr als %d Zeichen haben." );
+define("_XOBJ_ERR_REQUIRED","%s ist erforderlich" );
+define("_XOBJ_ERR_SHORTERTHAN","%s muss mehr als %d Zeichen haben." );
 
 
 //%%%%%%        File Name themeuserpost.php         %%%%%
@@ -53,8 +53,8 @@ define("_YOURHOME","Zurück zur Startseite");
 
 //%%%%%%        File Name misc.php (who's-online popup)        %%%%%
 define("_WHOSONLINE","Wer ist online");
-define('_GUESTS', 'Gäste');
-define('_MEMBERS', 'Mitglied(er)');
+define('_GUESTS','Gäste');
+define('_MEMBERS','Mitglied(er)');
 define("_ONLINEPHRASE","<b>%s</b> Besucher sind online");
 define("_ONLINEPHRASEX","<b>%s</b> Besucher halten sich im Bereich <b>%s</b> auf.");
 define("_CLOSE","Fenster schließen");  // Close window
@@ -76,24 +76,24 @@ define("_ALIGN","Ausrichtung");
 define("_LEFT","Links");
 define("_CENTER","Mittig");
 define("_RIGHT","Rechts");
-define("_FORM_ENTER", "Bitte geben Sie %s ein");
+define("_FORM_ENTER","Bitte geben Sie %s ein");
 // %s represents file name
 define("_MUSTWABLE","Datei %s muss durch den Server beschreibbar sein!");
 // Module info
-define('_PREFERENCES', 'Einstellungen');
-define("_VERSION", "Version");
-define("_DESCRIPTION", "Beschreibung");
-define("_ERRORS", "Fehler");
-define("_NONE", "Kein");
+define('_PREFERENCES','Einstellungen');
+define("_VERSION","Version");
+define("_DESCRIPTION","Beschreibung");
+define("_ERRORS","Fehler");
+define("_NONE","Kein");
 define('_ON','am');
 define('_READS','x gelesen');
 define('_WELCOMETO','Herzlich Willkommen auf %s');
 define('_SEARCH','Suche');
-define('_ALL', 'Alle');
-define('_TITLE', 'Titel');
-define('_OPTIONS', 'Optionen');
-define('_QUOTE', 'Zitat');
-define('_LIST', 'Liste');
+define('_ALL','Alle');
+define('_TITLE','Titel');
+define('_OPTIONS','Optionen');
+define('_QUOTE','Zitat');
+define('_LIST','Liste');
 define('_LOGIN','Einloggen');
 define('_USERNAME','Mitgliedsname: ');
 define('_PASSWORD','Passwort: ');
@@ -103,12 +103,12 @@ define("_SEND","Senden");
 define("_CANCEL","Abbrechen");
 define("_ASCENDING","Aufsteigende Reihenfolge");
 define("_DESCENDING","Absteigende Reihenfolge");
-define('_BACK', 'Zurück');
-define('_NOTITLE', 'Kein Titel'); //added2.0.5
+define('_BACK','Zurück');
+define('_NOTITLE','Kein Titel'); //added2.0.5
 
 /* Image manager */
 define('_IMGMANAGER','Bildmanager');
-define('_NUMIMAGES', '%s Bilder');
+define('_NUMIMAGES','%s Bilder');
 define('_ADDIMAGE','Bilddatei hinzufügen');
 define('_IMAGENAME','Name:');
 define('_IMGMAXSIZE','maximale Grösse (in Kb):');
@@ -119,16 +119,16 @@ define('_IMAGEFILE','Bilddatei:');
 define('_IMGWEIGHT','Reihenfolge in Bildmanager anzeigen:');
 define('_IMGDISPLAY','Dieses Bild anzeigen?');
 define('_IMAGEMIME','MIME-Typ:');
-define('_FAILFETCHIMG', 'Hochgeladenes Bild %s konnte nicht aus der Datenbank bezogen werden');
-define('_FAILSAVEIMG', 'Das Bild %s konnte der Datenbank nicht hinzugefügt werden');
-define('_NOCACHE', 'Kein Cache');
-define('_CLONE', 'Klonen');
+define('_FAILFETCHIMG','Hochgeladenes Bild %s konnte nicht aus der Datenbank bezogen werden');
+define('_FAILSAVEIMG','Das Bild %s konnte der Datenbank nicht hinzugefügt werden');
+define('_NOCACHE','Kein Cache');
+define('_CLONE','Klonen');
 
 //%%%%%        File Name class/xoopsform/formmatchoption.php         %%%%%
-define("_STARTSWITH", "Beginnt mit");
-define("_ENDSWITH", "Endet mit");
-define("_MATCHES", "Übereinstimmung");
-define("_CONTAINS", "Enthält");
+define("_STARTSWITH","Beginnt mit");
+define("_ENDSWITH","Endet mit");
+define("_MATCHES","Übereinstimmung");
+define("_CONTAINS","Enthält");
 
 //%%%%%%        File Name commentform.php         %%%%%
 define("_REGISTER","Registrieren");
@@ -157,16 +157,16 @@ define("_XOOPS_FORM_PREVIEW_CONTENT","Vorschau");
 define("_AUTHOR","Autor");
 //%%%%%
 //%%%%%                TIME FORMAT SETTINGS   %%%%%
-define('_SECOND', '1 Sekunde');
-define('_SECONDS', '%s Sekunden');
-define('_MINUTE', '1 Minute');
-define('_MINUTES', '%s Minuten');
-define('_HOUR', '1 Stunde');
-define('_HOURS', '%s Stunden');
-define('_DAY', '1 Tag');
-define('_DAYS', '%s Tage');
-define('_WEEK', '1 Woche');
-define('_MONTH', '1 Monat');
+define('_SECOND','1 Sekunde');
+define('_SECONDS','%s Sekunden');
+define('_MINUTE','1 Minute');
+define('_MINUTES','%s Minuten');
+define('_HOUR','1 Stunde');
+define('_HOURS','%s Stunden');
+define('_DAY','1 Tag');
+define('_DAYS','%s Tage');
+define('_WEEK','1 Woche');
+define('_MONTH','1 Monat');
 
 define("_DATESTRING","d.m.Y H:i");
 define("_MEDIUMDATESTRING","d.m.Y H:i");
@@ -190,7 +190,7 @@ m - month; i.e. "01" to "12"
 n - month without leading zeros; i.e. "1" to "12"
 M - month, textual, 3 letters; i.e. "Jan"
 s - seconds; i.e. "00" to "59"
-S - English ordinal suffix, textual, 2 characters; i.e. "th", "nd"
+S - English ordinal suffix, textual, 2 characters; i.e. "th","nd"
 t - number of days in the given month; i.e. "28" to "31"
 T - Timezone setting of this machine; i.e. "MDT"
 U - seconds since the epoch
@@ -202,9 +202,9 @@ Z - timezone offset in seconds (i.e. "-43200" to "43200")
 */
 
 //%%%%%                LANGUAGE SPECIFIC SETTINGS   %%%%%
-define('_CHARSET', 'UTF-8');
-define('_LANGCODE', 'de');
+define('_CHARSET','UTF-8');
+define('_LANGCODE','de');
 
 // change 0 to 1 if this language is a multi-bytes language
-define("XOOPS_USE_MULTIBYTES", "0");
+define("XOOPS_USE_MULTIBYTES","0");
 ?>

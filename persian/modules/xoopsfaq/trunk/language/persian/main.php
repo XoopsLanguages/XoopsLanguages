@@ -24,11 +24,11 @@ defined( 'XOOPS_ROOT_PATH' ) or die( 'Restricted access' );
 /**
  * Xoops FAQ Main Page
  */
-define( '_XO_LA_XOOPSFAQ', 'پرسش و پاسخ' );
-define( '_XO_LA_TOC', 'جدول مطالب' );
-define( '_XO_LA_DOCS', 'پرسش و پاسخ' );
-define( '_XO_LA_MAIN', 'اصلی' );
-define( '_XO_LA_BACKTOTOP', 'برگرد به بالا' );
-define( '_XO_LA_BACKTOINDEX', 'برگرد به صفحه اصلی' );
+define('_XO_LA_XOOPSFAQ','پرسش و پاسخ' );
+define('_XO_LA_TOC','جدول مطالب' );
+define('_XO_LA_DOCS','پرسش و پاسخ' );
+define('_XO_LA_MAIN','اصلی' );
+define('_XO_LA_BACKTOTOP','برگرد به بالا' );
+define('_XO_LA_BACKTOINDEX','برگرد به صفحه اصلی' );
 
 ?>

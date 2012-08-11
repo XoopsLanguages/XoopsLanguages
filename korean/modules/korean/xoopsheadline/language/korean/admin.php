@@ -30,27 +30,27 @@
 //  ------------------------------------------------------------------------ //
 
 //%%%%%%        Admin Module Name  Headlines         %%%%%
-define('_AM_DBUPDATED','µ¥ÀÌÅ¸º£ÀÌ½º¸¦ ¼º°øÀûÀ¸·Î °»½ÅÇÏ¿´½À´Ï´Ù.');
-define('_AM_HEADLINES','Çìµå¶óÀÎ ¼³Á¤');
-define('_AM_HLMAIN','Çìµå¶óÀÎ ¸ÞÀÎ');
-define('_AM_SITENAME','»çÀÌÆ®¸í');
-define('_AM_URL','»çÀÌÆ®URL');
-define('_AM_ORDER', 'Ç¥½Ã¼ø');
-define('_AM_ENCODING', 'RSS ÀÎÄÚµù');
-define('_AM_CACHETIME', 'Ä³½¬ Å¸ÀÓ');
-define('_AM_MAINSETT', '¸ÞÀÎÆäÀÌÁö ¼³Á¤');
-define('_AM_BLOCKSETT', 'ºí·Ï ¼³Á¤');
-define('_AM_DISPLAY', '¸ÞÀÎÆäÀÌÁö¿¡ Ç¥½Ã');
-define('_AM_DISPIMG', '±×¸²ÆÄÀÏ Ç¥½Ã');
-define('_AM_DISPFULL', '¸ðµÎ Ç¥½Ã');
-define('_AM_DISPMAX', 'ÃÖ´ë Ç¥½Ã°Ç¼ö');
-define('_AM_ASBLOCK', 'ºí·Ï¿¡ Ç¥½Ã');
-define('_AM_ADDHEADL','Çìµå¶óÀÎ ½Å±ÔÃß°¡');
-define('_AM_URLEDFXML','RDF/RSS ÆÄÀÏÀÇ URL');
-define('_AM_EDITHEADL','Çìµå¶óÀÎ ÆíÁý');
-define('_AM_WANTDEL','Á¤¸»·Î ÀÌ Çìµå¶óÀÎÀ» »èÁ¦ÇÏ½Ç °Ç°¡¿ä?<br />(»çÀÌÆ®¸í: %s)');
-define('_AM_INVALIDID', 'ID°¡ ¿Ã¹Ù¸£Áö ¾Ê½À´Ï´Ù.');
-define('_AM_OBJECTNG', '¿ÀºêÁ§Æ®(Object)°¡ Á¸ÀçÇÏÁö ¾Ê½À´Ï´Ù.');
-define('_AM_FAILUPDATE', 'Çìµå¶óÀÎÀÇ ÀúÀå¿¡ ½ÇÆÐÇÏ¿´½À´Ï´Ù.<br />%s');
-define('_AM_FAILDELETE', 'Çìµå¶óÀÎÀÇ »èÁ¦¿¡ ½ÇÆÐÇÏ¿´½À´Ï´Ù.<br />%s');
+define('_AM_DBUPDATED','ï¿½ï¿½ï¿½ï¿½Å¸ï¿½ï¿½ï¿½Ì½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï¿ï¿½ï¿½ï¿½ï¿½Ï´ï¿½.');
+define('_AM_HEADLINES','ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½');
+define('_AM_HLMAIN','ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½');
+define('_AM_SITENAME','ï¿½ï¿½ï¿½ï¿½Æ®ï¿½ï¿½');
+define('_AM_URL','ï¿½ï¿½ï¿½ï¿½Æ®URL');
+define('_AM_ORDER','Ç¥ï¿½Ã¼ï¿½');
+define('_AM_ENCODING','RSS ï¿½ï¿½ï¿½Úµï¿½');
+define('_AM_CACHETIME','Ä³ï¿½ï¿½ Å¸ï¿½ï¿½');
+define('_AM_MAINSETT','ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½');
+define('_AM_BLOCKSETT','ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½');
+define('_AM_DISPLAY','ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Ç¥ï¿½ï¿½');
+define('_AM_DISPIMG','ï¿½×¸ï¿½ï¿½ï¿½ï¿½ï¿½ Ç¥ï¿½ï¿½');
+define('_AM_DISPFULL','ï¿½ï¿½ï¿½ Ç¥ï¿½ï¿½');
+define('_AM_DISPMAX','ï¿½Ö´ï¿½ Ç¥ï¿½Ã°Ç¼ï¿½');
+define('_AM_ASBLOCK','ï¿½ï¿½Ï¿ï¿½ Ç¥ï¿½ï¿½');
+define('_AM_ADDHEADL','ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Å±ï¿½ï¿½ß°ï¿½');
+define('_AM_URLEDFXML','RDF/RSS ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ URL');
+define('_AM_EDITHEADL','ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½');
+define('_AM_WANTDEL','ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï½ï¿½ ï¿½Ç°ï¿½ï¿½ï¿½?<br />(ï¿½ï¿½ï¿½ï¿½Æ®ï¿½ï¿½: %s)');
+define('_AM_INVALIDID','IDï¿½ï¿½ ï¿½Ã¹Ù¸ï¿½ï¿½ï¿½ ï¿½Ê½ï¿½ï¿½Ï´ï¿½.');
+define('_AM_OBJECTNG','ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ®(Object)ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ê½ï¿½ï¿½Ï´ï¿½.');
+define('_AM_FAILUPDATE','ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½å¿¡ ï¿½ï¿½ï¿½ï¿½ï¿½Ï¿ï¿½ï¿½ï¿½ï¿½Ï´ï¿½.<br />%s');
+define('_AM_FAILDELETE','ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï¿ï¿½ï¿½ï¿½ï¿½Ï´ï¿½.<br />%s');
 ?>

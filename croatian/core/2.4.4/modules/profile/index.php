@@ -113,7 +113,7 @@ if ($op == 'delete') {
         $ok = !isset($_POST['ok']) ? 0 : intval($_POST['ok']);
         if ($ok != 1) {
             include $GLOBALS['xoops']->path('header.php');
-            xoops_confirm(array('op' => 'delete', 'ok' => 1), 'user.php', _US_SURETODEL . '<br/>' . _US_REMOVEINFO);
+            xoops_confirm(array('op' => 'delete','ok' => 1), 'user.php', _US_SURETODEL . '<br/>' . _US_REMOVEINFO);
             include dirname(__FILE__) . DIRECTORY_SEPARATOR . 'footer.php';
         } else {
             $del_uid = $GLOBALS['xoopsUser']->getVar("uid");

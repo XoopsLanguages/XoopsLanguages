@@ -41,10 +41,10 @@ define("_AM_MODULEADMIN_ABOUT_LICENSE","Licens: ");
 define("_AM_MODULEADMIN_ABOUT_AUTHOR_NAME","Forfatternavn: ");
 define("_AM_MODULEADMIN_ABOUT_AUTHOR_INFO","Forfatterinfo");
 
-define("_AM_MODULEADMIN_HOME", "Hjem");
-define("_AM_MODULEADMIN_DASHBOARD", "Dashboard");
-define("_AM_MODULEADMIN_ABOUT", "Om");
-define("_AM_MODULEADMIN_PERMISSIONS", "Tilladelser");
+define("_AM_MODULEADMIN_HOME","Hjem");
+define("_AM_MODULEADMIN_DASHBOARD","Dashboard");
+define("_AM_MODULEADMIN_ABOUT","Om");
+define("_AM_MODULEADMIN_PERMISSIONS","Tilladelser");
 
 //ModuleAdmin
-define("_AM_MODULEADMIN_ADMIN_FOOTER", "<div class='center smallsmall italic pad5'>Dette modul opretholdes af <a class='tooltip' rel='external' href='http://xoops.org/' title='Besøg XOOPS Community'>XOOPS Community</a></div>");
+define("_AM_MODULEADMIN_ADMIN_FOOTER","<div class='center smallsmall italic pad5'>Dette modul opretholdes af <a class='tooltip' rel='external' href='http://xoops.org/' title='Besøg XOOPS Community'>XOOPS Community</a></div>");

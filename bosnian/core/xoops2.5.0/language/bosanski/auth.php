@@ -26,12 +26,12 @@ defined('XOOPS_ROOT_PATH') or die('Restricted access');
 // _CHARSET : UTF-8
 // Translator: XOOPSBA.ORG Team, http://www.xoopsba.org
 
-define('_AUTH_MSG_AUTH_METHOD', "koristim %s metodu autorizacije");
-define('_AUTH_LDAP_EXTENSION_NOT_LOAD', 'PHP LDAP ekstenzija nije učitana (provjerite PHP konfiguraciju fajla php.ini)');
-define('_AUTH_LDAP_SERVER_NOT_FOUND', "Ne mogu se spojiti sa serverom");
-define('_AUTH_LDAP_USER_NOT_FOUND', "Član %s nije pronađen na serveru (%s) in %s");
-define('_AUTH_LDAP_CANT_READ_ENTRY', "Ne mogu pročitati zapis %s");
-define('_AUTH_LDAP_XOOPS_USER_NOTFOUND', "Nažalost nema odgovarajućih podataka o korisniku u XOOPS bazi podataka za spoj: %s <br>" . "Molimo vas provjerite vaše podatke ili koristite automatsko prepoznavanje");
-define('_AUTH_LDAP_START_TLS_FAILED', "Neuspješno uspostavljanje TLS veze");
+define('_AUTH_MSG_AUTH_METHOD',"koristim %s metodu autorizacije");
+define('_AUTH_LDAP_EXTENSION_NOT_LOAD','PHP LDAP ekstenzija nije učitana (provjerite PHP konfiguraciju fajla php.ini)');
+define('_AUTH_LDAP_SERVER_NOT_FOUND',"Ne mogu se spojiti sa serverom");
+define('_AUTH_LDAP_USER_NOT_FOUND',"Član %s nije pronađen na serveru (%s) in %s");
+define('_AUTH_LDAP_CANT_READ_ENTRY',"Ne mogu pročitati zapis %s");
+define('_AUTH_LDAP_XOOPS_USER_NOTFOUND',"Nažalost nema odgovarajućih podataka o korisniku u XOOPS bazi podataka za spoj: %s <br>" . "Molimo vas provjerite vaše podatke ili koristite automatsko prepoznavanje");
+define('_AUTH_LDAP_START_TLS_FAILED',"Neuspješno uspostavljanje TLS veze");
 
 ?>

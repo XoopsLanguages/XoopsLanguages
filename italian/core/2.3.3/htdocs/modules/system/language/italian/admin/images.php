@@ -23,7 +23,7 @@ define('_MD_ASFILE','Come file (nella directory predefinita di upload)<br />');
 define('_MD_RUDELIMGCAT','Sei certo di voler eliminare questa categoria e tutte le immagini che contiene?');
 define('_MD_RUDELIMG','Sei sicuro di voler eliminare quest\'immagine?');
 
-define('_MD_FAILDEL', "Non &egrave; stato possibile eliminare dal database l'immagine %s");
-define('_MD_FAILDELCAT', "Non &egrave; stato possibile eliminare dal database la categoria di immagini %s");
-define('_MD_FAILUNLINK', "Non &egrave; stato possibile eliminare dalla directory sul server l'immagine %s ");
+define('_MD_FAILDEL',"Non &egrave; stato possibile eliminare dal database l'immagine %s");
+define('_MD_FAILDELCAT',"Non &egrave; stato possibile eliminare dal database la categoria di immagini %s");
+define('_MD_FAILUNLINK',"Non &egrave; stato possibile eliminare dalla directory sul server l'immagine %s ");
 ?>

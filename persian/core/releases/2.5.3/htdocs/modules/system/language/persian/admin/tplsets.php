@@ -42,5 +42,5 @@ define("_AM_SYSTEM_TEMPLATES_SELECT_TEMPLATES","انتخاب الگو");
 define("_AM_SYSTEM_TEMPLATES_ALL_MODULES","همه ماژول‌ها");
 define("_AM_SYSTEM_TEMPLATES_RESTORE_OK","با موفقیت بازگردانده شد");
 define("_AM_SYSTEM_TEMPLATES_RESTORE_NOTOK","با موفقیت بازگردانده نشد");
-define("_AM_SYSTEM_TEMPLATES_SET", "انتخاب الگو");
+define("_AM_SYSTEM_TEMPLATES_SET","انتخاب الگو");
 ?>

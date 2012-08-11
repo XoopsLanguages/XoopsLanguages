@@ -4,7 +4,7 @@
 
 define("_MI_INDEXSCAN_MAIN","صفحه اصلی");
 define("_MI_INDEXSCAN_SCANNOW","اسکن");
-define("_MI_INDEXSCAN_CREATEINDEX", "ساخت فایل index");
+define("_MI_INDEXSCAN_CREATEINDEX","ساخت فایل index");
 define("_MI_INDEXSCAN_HELP","راهنمایی");
 define("_MI_INDEXSCAN_SETTINGS","تنظیمات");
 define("_MI_INDEXSCAN_MODULE_NAME","Indexscan");

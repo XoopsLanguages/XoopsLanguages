@@ -2,7 +2,7 @@
 // _LANGCODE: ja
 // _CHARSET : EUC-JP
 // Translator: XOOPS Translation Team
-define('_XO_ER_FILENOTFOUND', '¥ê¥¯¥¨¥¹¥È¥Õ¥¡¥¤¥ë <strong>%s</strong> ¤¬¤ß¤Ä¤«¤ê¤Þ¤»¤ó');
-define('_XO_ER_CLASSNOTFOUND', '¥ê¥¯¥¨¥¹¥È¥¯¥é¥¹ %s ¤¬¤ß¤Ä¤«¤ê¤Þ¤»¤ó');
+define('_XO_ER_FILENOTFOUND','ï¿½ê¥¯ï¿½ï¿½ï¿½ï¿½ï¿½È¥Õ¥ï¿½ï¿½ï¿½ï¿½ï¿½ <strong>%s</strong> ï¿½ï¿½ï¿½ß¤Ä¤ï¿½ï¿½ï¿½Þ¤ï¿½ï¿½ï¿½');
+define('_XO_ER_CLASSNOTFOUND','ï¿½ê¥¯ï¿½ï¿½ï¿½ï¿½ï¿½È¥ï¿½ï¿½é¥¹ %s ï¿½ï¿½ï¿½ß¤Ä¤ï¿½ï¿½ï¿½Þ¤ï¿½ï¿½ï¿½');
 
 ?>

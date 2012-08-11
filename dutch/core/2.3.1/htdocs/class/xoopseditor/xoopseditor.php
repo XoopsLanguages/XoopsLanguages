@@ -36,7 +36,7 @@ class XoopsEditor extends XoopsFormTextArea
         // For backward compatibility
         if (!is_array($args[0])) {
             $i = 0;
-            foreach (array('caption', 'name', 'value', 'rows', 'cols', 'hiddentext') as $key) {
+            foreach (array('caption','name','value','rows','cols','hiddentext') as $key) {
                 if ( isset($args[$i]) ) {
                     $configs[$key] = $args[$i];
                 }

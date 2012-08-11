@@ -11,18 +11,18 @@ define("_PL_TOTALVOTERS","Всего голосовало: %s");
 
 //%%%%%%	File Name index.php 	%%%%%
 define("_PL_POLLSLIST","Список опросов");
-define("_PL_ALREADYVOTED", "Извините, Вы уже голосовали в этом опросе.");
+define("_PL_ALREADYVOTED","Извините, Вы уже голосовали в этом опросе.");
 define("_PL_THANKSFORVOTE","Спасибо за Ваш голос!");
-define("_PL_SORRYEXPIRED", "Извините, этот опрос окончен.");
-define("_PL_YOURPOLLAT", "%s, Ваш опрос на %s"); // 1st %s is user name, 2nd %s is site name
-define("_PL_PREV", "Предыдущие");
-define("_PL_NEXT", "Следующие");
-define("_PL_POLLQUESTION", "Вопрос опроса");
-define("_PL_VOTERS", "Всего голосовало");
-define("_PL_VOTES", "Всего голосов");
-define("_PL_EXPIRATION", "Окончание");
-define("_PL_EXPIRED", "Окончен");
-define("_PL_MUSTLOGIN", "Извините, но в этом опросе голосовать могут только зарегистрированные пользователи.");
+define("_PL_SORRYEXPIRED","Извините, этот опрос окончен.");
+define("_PL_YOURPOLLAT","%s, Ваш опрос на %s"); // 1st %s is user name, 2nd %s is site name
+define("_PL_PREV","Предыдущие");
+define("_PL_NEXT","Следующие");
+define("_PL_POLLQUESTION","Вопрос опроса");
+define("_PL_VOTERS","Всего голосовало");
+define("_PL_VOTES","Всего голосов");
+define("_PL_EXPIRATION","Окончание");
+define("_PL_EXPIRED","Окончен");
+define("_PL_MUSTLOGIN","Извините, но в этом опросе голосовать могут только зарегистрированные пользователи.");
 
 //%%%%%%	File Name xoopspollrenderer.php 	%%%%%
 // %s represents date

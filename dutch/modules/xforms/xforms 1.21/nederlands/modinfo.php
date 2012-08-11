@@ -54,8 +54,8 @@ define("_MI_xforms_UPLOADDIR","Fysiek pad om bestanden op te slaan ZONDER // (tr
 define("_MI_xforms_UPLOADDIR_DESC","Alle bestanden worden hier opgeslagen wanneer een formulierwordt verstuurd via priveboodschap");
 
 ######### (xforms) version 1.0 additions ##########
-define( "_MI_xforms_CAPTCHA", "Captcha gebruiken in formulier?" );
-define( "_MI_xforms_CAPTCHADSC", "Selecteer <em>Ja</em> om captcha te gebruiken in het formulier.<br />Standaard: <em>Ja</em>" );
+define("_MI_xforms_CAPTCHA","Captcha gebruiken in formulier?" );
+define("_MI_xforms_CAPTCHADSC","Selecteer <em>Ja</em> om captcha te gebruiken in het formulier.<br />Standaard: <em>Ja</em>" );
 define("_MI_xforms_ADMENU4","Importeren vanuit Liaise");
 
 ######### (xforms) version 1.0.0.1 additions ##########

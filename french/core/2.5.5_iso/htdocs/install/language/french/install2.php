@@ -5,45 +5,45 @@
 // Translator: XOOPS Translation Team
 
 // License
-define("LICENSE_NOT_WRITEABLE", "La licence est \"%s\" . <br /><span style='color:#ff0000;'>Permettre l'écriture sur le fichier : ../include/license.php</span>");
-define("LICENSE_IS_WRITEABLE", "La licence est \"%s\"");
+define("LICENSE_NOT_WRITEABLE","La licence est \"%s\" . <br /><span style='color:#ff0000;'>Permettre l'Ã©criture sur le fichier : ../include/license.php</span>");
+define("LICENSE_IS_WRITEABLE","La licence est \"%s\"");
 
 define("_INSTALL_WEBMASTER","Administrateur");
 define("_INSTALL_WEBMASTERD","Administrateur de ce site");
-define("_INSTALL_REGUSERS","Utilisateurs enregistrés");
-define("_INSTALL_REGUSERSD","Groupe des utilisateurs enregistrés");
+define("_INSTALL_REGUSERS","Utilisateurs enregistrÃ©s");
+define("_INSTALL_REGUSERSD","Groupe des utilisateurs enregistrÃ©s");
 define("_INSTALL_ANONUSERS","Visiteurs anonymes");
 define("_INSTALL_ANONUSERSD","Groupe des visiteurs anonymes");
 /**
 * New Group types
 */
-define("_INSTALL_BANNEDUSERS", "Utilisateurs bannis");
-define("_INSTALL_BANNEDUSERSD", "Groupe des utilisateurs bannis");
-define("_INSTALL_MODERATORUSERS", "Modérateurs");
-define("_INSTALL_MODERATORUSERSD", "Modérateurs de ce site");
-define("_INSTALL_SUBMITTERUSERS", "Auteurs");
-define("_INSTALL_SUBMITTERUSERSD", "Ce groupe peut soumettre des articles sur le site");
-define("_INSTALL_DEVELOPEUSERS", "Développeurs");
-define("_INSTALL_DEVELOPEUSERSD", "Les utilisateurs de ce groupe ont les privilèges de développeur et peuvent voir les messages d'erreur(s) de fonctionnement du site.");
+define("_INSTALL_BANNEDUSERS","Utilisateurs bannis");
+define("_INSTALL_BANNEDUSERSD","Groupe des utilisateurs bannis");
+define("_INSTALL_MODERATORUSERS","ModÃ©rateurs");
+define("_INSTALL_MODERATORUSERSD","ModÃ©rateurs de ce site");
+define("_INSTALL_SUBMITTERUSERS","Auteurs");
+define("_INSTALL_SUBMITTERUSERSD","Ce groupe peut soumettre des articles sur le site");
+define("_INSTALL_DEVELOPEUSERS","DÃ©veloppeurs");
+define("_INSTALL_DEVELOPEUSERSD","Les utilisateurs de ce groupe ont les privilÃ¨ges de dÃ©veloppeur et peuvent voir les messages d'erreur(s) de fonctionnement du site.");
 
-define("_INSTALL_L165","Le site est actuellement fermé pour maintenance.<br />Merci de revenir ultérieurement.");
+define("_INSTALL_L165","Le site est actuellement fermÃ© pour maintenance.<br />Merci de revenir ultÃ©rieurement.");
 define("_INSTALL_ANON","Anonymes");
-define("_INSTALL_DISCLMR", "Les administrateurs de ce site s'efforceront de supprimer ou éditer tous les messages à caractère répréhensible aussi rapidement que possible. Toutefois, il leur est impossible de passer en revue tous les messages. Vous admettez donc que tous les messages postés sur ce site internet n'engagent que la responsabilité de leurs auteurs et en aucun cas celle des administrateurs.
+define("_INSTALL_DISCLMR","Les administrateurs de ce site s'efforceront de supprimer ou Ã©diter tous les messages Ã  caractÃ¨re rÃ©prÃ©hensible aussi rapidement que possible. Toutefois, il leur est impossible de passer en revue tous les messages. Vous admettez donc que tous les messages postÃ©s sur ce site internet n'engagent que la responsabilitÃ© de leurs auteurs et en aucun cas celle des administrateurs.
 
-Vous vous engagez à ne pas publier de messages injurieux, obscènes, vulgaires, diffamatoires, menaçants ou tout autre texte qui contreviendrait aux lois en vigueur. Tout contrevenant peut être banni du site de façon permanente et faire l'objet d'un dépôt de plainte auprès de son fournisseur d'accès à internet.
+Vous vous engagez Ã  ne pas publier de messages injurieux, obscÃ¨nes, vulgaires, diffamatoires, menaÃ§ants ou tout autre texte qui contreviendrait aux lois en vigueur. Tout contrevenant peut Ãªtre banni du site de faÃ§on permanente et faire l'objet d'un dÃ©pÃ´t de plainte auprÃ¨s de son fournisseur d'accÃ¨s Ã  internet.
 
-L'adresse IP à l'origine de chaque message est enregistrée afin d'aider à faire respecter ces conditions. Vous êtes d'accord sur le fait que l'administrateur de ce site a le droit de supprimer, éditer, déplacer ou verrouiller n'importe quel sujet de discussion à tout moment.
+L'adresse IP Ã  l'origine de chaque message est enregistrÃ©e afin d'aider Ã  faire respecter ces conditions. Vous Ãªtes d'accord sur le fait que l'administrateur de ce site a le droit de supprimer, Ã©diter, dÃ©placer ou verrouiller n'importe quel sujet de discussion Ã  tout moment.
 
-En tant qu'utilisateur, vous êtes d'accord sur le fait que toutes les informations personnelles que vous nous confiez sont stockées dans une base de données. Ces informations ne sont divulguées à aucune tierce personne ou société sans votre accord. Conformément à la Loi du 6 janvier 1978 relative à l'informatique, aux fichiers et aux libertés, elles peuvent être supprimées définitivement sur simple demande adressée à l'administrateur du site.
+En tant qu'utilisateur, vous Ãªtes d'accord sur le fait que toutes les informations personnelles que vous nous confiez sont stockÃ©es dans une base de donnÃ©es. Ces informations ne sont divulguÃ©es Ã  aucune tierce personne ou sociÃ©tÃ© sans votre accord. ConformÃ©ment Ã  la Loi du 6 janvier 1978 relative Ã  l'informatique, aux fichiers et aux libertÃ©s, elles peuvent Ãªtre supprimÃ©es dÃ©finitivement sur simple demande adressÃ©e Ã  l'administrateur du site.
 
-Les administrateurs ne peuvent être tenus pour responsables si une tentative de piratage informatique conduit à la diffusion de ces données.
+Les administrateurs ne peuvent Ãªtre tenus pour responsables si une tentative de piratage informatique conduit Ã  la diffusion de ces donnÃ©es.
 
-Ce site utilise des cookies pour stocker des données sur votre ordinateur. Ils ne contiennent aucune information personnelle. Ils servent à améliorer le confort d'utilisation. Ainsi votre adresse e-mail est uniquement utilisée afin de créer votre compte utilisateur.
+Ce site utilise des cookies pour stocker des donnÃ©es sur votre ordinateur. Ils ne contiennent aucune information personnelle. Ils servent Ã  amÃ©liorer le confort d'utilisation. Ainsi votre adresse e-mail est uniquement utilisÃ©e afin de crÃ©er votre compte utilisateur.
 
-En vous enregistrant, vous confirmez avoir pris connaissance des conditions énumérées ci-dessus et y agréer.");
+En vous enregistrant, vous confirmez avoir pris connaissance des conditions Ã©numÃ©rÃ©es ci-dessus et y agrÃ©er.");
 
 /**
- * @translation     Communauté Francophone des Utilisateurs de Xoops
+ * @translation     CommunautÃ© Francophone des Utilisateurs de Xoops
  * @specification   _LANGCODE: fr
  * @specification   _CHARSET: iso-8859-1
  *

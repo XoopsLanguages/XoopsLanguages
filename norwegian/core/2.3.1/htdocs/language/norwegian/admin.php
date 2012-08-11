@@ -10,6 +10,6 @@ define("_AD_NICKNAME","Kallenavn");
 define("_AD_EMAIL","Epost");
 define("_AD_AVATAR","Avatar");
 define("_AD_REGISTERED","Registrert"); //Registered Date
-define('_AD_PRESSGEN', 'Dette er første gang du bruker administrasjonsmodulen. Press knappen nedenfor for å fortsette.');
-define('_AD_LOGINADMIN', 'Logger deg inn..');
+define('_AD_PRESSGEN','Dette er første gang du bruker administrasjonsmodulen. Press knappen nedenfor for å fortsette.');
+define('_AD_LOGINADMIN','Logger deg inn..');
 ?>

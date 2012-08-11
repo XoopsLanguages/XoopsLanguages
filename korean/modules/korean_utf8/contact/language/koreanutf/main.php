@@ -48,6 +48,6 @@ define("_CT_SENTTOWEBMASTER","메세지는 성공적으로 %s 의 관리자에�
 define("_CT_SUBMITTED","%s 님으로부터의 문의:");
 define("_CT_MESSAGESENT","%s 에게 전송하였습니다.");
 define("_CT_SENTASCONFIRM","확인을 위해 %s 님 앞으로 확인메일을 전송하였습니다.");
-define("_CT_INVALIDMAIL", "잘못된 메일주소" );
+define("_CT_INVALIDMAIL","잘못된 메일주소" );
 
 ?>

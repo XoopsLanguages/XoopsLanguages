@@ -7,40 +7,40 @@
 // Module Info
 
 // The name of this module
-define("_MI_SYSTEM_NAME","¥·¥¹¥Æ¥à");
+define("_MI_SYSTEM_NAME","ï¿½ï¿½ï¿½ï¿½ï¿½Æ¥ï¿½");
 
 // A brief description of this module
-define("_MI_SYSTEM_DESC","´ðËÜÅª¤Ê¥·¥¹¥Æ¥àÉôÊ¬¤Î´ÉÍý");
+define("_MI_SYSTEM_DESC","ï¿½ï¿½ï¿½ï¿½Åªï¿½Ê¥ï¿½ï¿½ï¿½ï¿½Æ¥ï¿½ï¿½ï¿½Ê¬ï¿½Î´ï¿½ï¿½ï¿½");
 
 // Names of blocks for this module (Not all module has blocks)
-define("_MI_SYSTEM_BNAME2", "¥æ¡¼¥¶¡¼¥á¥Ë¥å¡¼");
-define("_MI_SYSTEM_BNAME3", "¥í¥°¥¤¥ó");
-define("_MI_SYSTEM_BNAME4", "¸¡º÷");
-define("_MI_SYSTEM_BNAME5", "¾µÇ§ÂÔ¤Á¥³¥ó¥Æ¥ó¥Ä");
-define("_MI_SYSTEM_BNAME6", "¥á¥¤¥ó¥á¥Ë¥å¡¼");
-define("_MI_SYSTEM_BNAME7", "¥µ¥¤¥È¾ðÊó");
-define('_MI_SYSTEM_BNAME8', "¥ª¥ó¥é¥¤¥ó¾õ¶·");
-define('_MI_SYSTEM_BNAME9', "Åê¹Æ¿ô¥é¥ó¥­¥ó¥°");
-define('_MI_SYSTEM_BNAME10',"¿·¤¿¤Ê¥æ¡¼¥¶");
-define('_MI_SYSTEM_BNAME11',"ºÇ¶á¤Î¥³¥á¥ó¥È");
+define("_MI_SYSTEM_BNAME2","ï¿½æ¡¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ë¥å¡¼");
+define("_MI_SYSTEM_BNAME3","ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
+define("_MI_SYSTEM_BNAME4","ï¿½ï¿½ï¿½ï¿½");
+define("_MI_SYSTEM_BNAME5","ï¿½ï¿½Ç§ï¿½Ô¤ï¿½ï¿½ï¿½ï¿½ï¿½Æ¥ï¿½ï¿½");
+define("_MI_SYSTEM_BNAME6","ï¿½á¥¤ï¿½ï¿½ï¿½Ë¥å¡¼");
+define("_MI_SYSTEM_BNAME7","ï¿½ï¿½ï¿½ï¿½ï¿½È¾ï¿½ï¿½ï¿½");
+define('_MI_SYSTEM_BNAME8',"ï¿½ï¿½ï¿½ï¿½é¥¤ï¿½ï¿½ï¿½ï¿½ï¿½");
+define('_MI_SYSTEM_BNAME9',"ï¿½ï¿½Æ¿ï¿½ï¿½ó¥­¥ï¿½");
+define('_MI_SYSTEM_BNAME10',"ï¿½ï¿½ï¿½ï¿½ï¿½Ê¥æ¡¼ï¿½ï¿½");
+define('_MI_SYSTEM_BNAME11',"ï¿½Ç¶ï¿½Î¥ï¿½ï¿½ï¿½ï¿½ï¿½");
 // RMV-NOTIFY
-define('_MI_SYSTEM_BNAME12',"¥¤¥Ù¥ó¥ÈÄÌÃÎÀßÄê");
-define('_MI_SYSTEM_BNAME13',"¥Æ¡¼¥Þ");
+define('_MI_SYSTEM_BNAME12',"ï¿½ï¿½ï¿½Ù¥ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
+define('_MI_SYSTEM_BNAME13',"ï¿½Æ¡ï¿½ï¿½ï¿½");
 
 // Names of admin menu items
-define("_MI_SYSTEM_ADMENU1", "¥Ð¥Ê¡¼");
-define("_MI_SYSTEM_ADMENU2", "¥Ö¥í¥Ã¥¯");
-define("_MI_SYSTEM_ADMENU3", "¥°¥ë¡¼¥×");
-define("_MI_SYSTEM_ADMENU5", "¥â¥¸¥å¡¼¥ë");
-define("_MI_SYSTEM_ADMENU6", "´ðËÜÀßÄê");
-define("_MI_SYSTEM_ADMENU7", "´éÊ¸»ú");
-define("_MI_SYSTEM_ADMENU9", "¥æ¡¼¥¶¡¼¥é¥ó¥­¥ó¥°");
-define("_MI_SYSTEM_ADMENU10","¥æ¡¼¥¶¡¼ÊÔ½¸");
-define("_MI_SYSTEM_ADMENU11","¥æ¡¼¥¶¤Ë¥á¡¼¥ë");
-define("_MI_SYSTEM_ADMENU12","¥æ¡¼¥¶¡¼¸¡º÷");
-define("_MI_SYSTEM_ADMENU13","¥¤¥á¡¼¥¸");
-define("_MI_SYSTEM_ADMENU14","¥¢¥Ð¥¿¡¼");
-define("_MI_SYSTEM_ADMENU15","¥Æ¥ó¥×¥ì¡¼¥È");
-define("_MI_SYSTEM_ADMENU16","¥³¥á¥ó¥È");
+define("_MI_SYSTEM_ADMENU1","ï¿½Ð¥Ê¡ï¿½");
+define("_MI_SYSTEM_ADMENU2","ï¿½Ö¥ï¿½Ã¥ï¿½");
+define("_MI_SYSTEM_ADMENU3","ï¿½ï¿½ï¿½ë¡¼ï¿½ï¿½");
+define("_MI_SYSTEM_ADMENU5","ï¿½â¥¸ï¿½å¡¼ï¿½ï¿½");
+define("_MI_SYSTEM_ADMENU6","ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
+define("_MI_SYSTEM_ADMENU7","ï¿½ï¿½Ê¸ï¿½ï¿½");
+define("_MI_SYSTEM_ADMENU9","ï¿½æ¡¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ó¥­¥ï¿½");
+define("_MI_SYSTEM_ADMENU10","ï¿½æ¡¼ï¿½ï¿½ï¿½ï¿½ï¿½Ô½ï¿½");
+define("_MI_SYSTEM_ADMENU11","ï¿½æ¡¼ï¿½ï¿½ï¿½Ë¥á¡¼ï¿½ï¿½");
+define("_MI_SYSTEM_ADMENU12","ï¿½æ¡¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
+define("_MI_SYSTEM_ADMENU13","ï¿½ï¿½ï¿½á¡¼ï¿½ï¿½");
+define("_MI_SYSTEM_ADMENU14","ï¿½ï¿½ï¿½Ð¥ï¿½ï¿½ï¿½");
+define("_MI_SYSTEM_ADMENU15","ï¿½Æ¥ï¿½×¥ì¡¼ï¿½ï¿½");
+define("_MI_SYSTEM_ADMENU16","ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
 
 ?>

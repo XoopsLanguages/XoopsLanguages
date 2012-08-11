@@ -28,17 +28,17 @@
 //  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 USA //
 //  ------------------------------------------------------------------------ //
 
-define("_CAPTCHA_CAPTION", "È®ÀÎ ÄÚµå");
-define("_CAPTCHA_INVALID_CODE", "È®ÀÎ ÄÚµå°¡ ¿Ã¹Ù¸£Áö ¾Ê½À´Ï´Ù.");
-define("_CAPTCHA_TOOMANYATTEMPTS", "³Ê¹« ¸¹Àº ½Ãµµ!");
-define("_CAPTCHA_MAXATTEMPTS", "ÃÖ´ë Çã¿ë ½Ãµµ: %d");
+define("_CAPTCHA_CAPTION","È®ï¿½ï¿½ ï¿½Úµï¿½");
+define("_CAPTCHA_INVALID_CODE","È®ï¿½ï¿½ ï¿½Úµå°¡ ï¿½Ã¹Ù¸ï¿½ï¿½ï¿½ ï¿½Ê½ï¿½ï¿½Ï´ï¿½.");
+define("_CAPTCHA_TOOMANYATTEMPTS","ï¿½Ê¹ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ãµï¿½!");
+define("_CAPTCHA_MAXATTEMPTS","ï¿½Ö´ï¿½ ï¿½ï¿½ï¿½ ï¿½Ãµï¿½: %d");
 
 // For image mode
-define("_CAPTCHA_RULE_IMAGE", "ÀÌ¹ÌÁö¿¡ Ç¥½ÃµÈ ¹®ÀÚ¸¦ ÀÔ·Â");
-define("_CAPTCHA_RULE_CASESENSITIVE", "ÄÚµå´Â ´ë/¼Ò¹®ÀÚ ±¸º°");
-define("_CAPTCHA_RULE_CASEINSENSITIVE", "ÄÚµå´Â ´ë/¼Ò¹®ÀÚ ±¸º°ÇÏÁö ¾ÊÀ½");
-define("_CAPTCHA_REFRESH", "¼±¸íÇÏÁö ¾ÊÀ» °æ¿ì¿£ Å¬¸¯ÇÏ¼Å¼­ ÀÌ¹ÌÁö¸¦ »õ·Î°íÄ§ ÇØº¸½Ã±â ¹Ù¶ø´Ï´Ù.");
+define("_CAPTCHA_RULE_IMAGE","ï¿½Ì¹ï¿½ï¿½ï¿½ï¿½ï¿½ Ç¥ï¿½Ãµï¿½ ï¿½ï¿½ï¿½Ú¸ï¿½ ï¿½Ô·ï¿½");
+define("_CAPTCHA_RULE_CASESENSITIVE","ï¿½Úµï¿½ï¿½ ï¿½ï¿½/ï¿½Ò¹ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½");
+define("_CAPTCHA_RULE_CASEINSENSITIVE","ï¿½Úµï¿½ï¿½ ï¿½ï¿½/ï¿½Ò¹ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½");
+define("_CAPTCHA_REFRESH","ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ì¿£ Å¬ï¿½ï¿½ï¿½Ï¼Å¼ï¿½ ï¿½Ì¹ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Î°ï¿½Ä§ ï¿½Øºï¿½ï¿½Ã±ï¿½ ï¿½Ù¶ï¿½ï¿½Ï´ï¿½.");
 
 // For text mode
-define("_CAPTCHA_RULE_TEXT", "Ç¥Çö¿¡ ´ëÇÑ °á°ú¸¦ ÀÔ·Â");
+define("_CAPTCHA_RULE_TEXT","Ç¥ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ô·ï¿½");
 ?>

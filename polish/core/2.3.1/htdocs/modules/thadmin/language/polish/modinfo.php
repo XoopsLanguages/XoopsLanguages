@@ -20,14 +20,14 @@
 // Translator: Jarek Wiktorowicz  <www.jarek.wiktorowicz.pl> 
 
 // Main
-define("_THADMIN_MODULE_NAME", "ThAdmin");
-define("_THADMIN_MODULE_DESC", "ThAdmin jest modułem do zarządzania tematem graficznym dla Panelu Kontrolnego");
+define("_THADMIN_MODULE_NAME","ThAdmin");
+define("_THADMIN_MODULE_DESC","ThAdmin jest modułem do zarządzania tematem graficznym dla Panelu Kontrolnego");
 // Menu
-define("_THADMIN_MENU_HOME", "Strona główna");
-define("_THADMIN_MENU_HELP", "Pomoc");
+define("_THADMIN_MENU_HOME","Strona główna");
+define("_THADMIN_MENU_HELP","Pomoc");
 // Settings
-define("_THADMIN_ADMINTHEME", "Temat domyślny");
-define("_THADMIN_ADMINTHEME_DESC", "Wybierz temat domyślny dla administracji");
-define("_THADMIN_CPANELEONLY", "Wyświetlać ostrzeżenie?");
-define("_THADMIN_CPANELEONLY_DESC", "Ukryj ostrzeżenia pojawiające się w panelu admina");
+define("_THADMIN_ADMINTHEME","Temat domyślny");
+define("_THADMIN_ADMINTHEME_DESC","Wybierz temat domyślny dla administracji");
+define("_THADMIN_CPANELEONLY","Wyświetlać ostrzeżenie?");
+define("_THADMIN_CPANELEONLY_DESC","Ukryj ostrzeżenia pojawiające się w panelu admina");
 ?>

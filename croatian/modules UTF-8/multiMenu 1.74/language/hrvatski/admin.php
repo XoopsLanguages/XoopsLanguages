@@ -53,7 +53,7 @@ Možete koristiti sljedeće oznake u svojim putevima do slika:<br />
 - {theme} što ce prikazati kao trenutno korištenu temu.<br />
 - {module} što ce prikazati kao trenutno korišten modul.");
 
-define("_AD_MULTIMENU_PREFERENCES", "Postavke");
+define("_AD_MULTIMENU_PREFERENCES","Postavke");
 define("_AD_MULTIMENU_HELP",		"Vodič");
 
 define("_AD_MULTIMENU_FATHER_INDEX","Roditeljski popis");

@@ -19,13 +19,13 @@ define("_MI_SYSTEM_BNAME4","Traži");
 define("_MI_SYSTEM_BNAME5","Sadržaj na čekanju");
 define("_MI_SYSTEM_BNAME6","Glavni meni");
 define("_MI_SYSTEM_BNAME7","Info webstranice");
-define("_MI_SYSTEM_BNAME8", "Ko je Online");
-define("_MI_SYSTEM_BNAME9", "Top članovi");
-define("_MI_SYSTEM_BNAME10", "Novi članovi");
-define("_MI_SYSTEM_BNAME11", "Zadnji komentari");
+define("_MI_SYSTEM_BNAME8","Ko je Online");
+define("_MI_SYSTEM_BNAME9","Top članovi");
+define("_MI_SYSTEM_BNAME10","Novi članovi");
+define("_MI_SYSTEM_BNAME11","Zadnji komentari");
 // RMV-NOTIFY
-define("_MI_SYSTEM_BNAME12", "Opcije obavještavanja");
-define("_MI_SYSTEM_BNAME13", "Theme");
+define("_MI_SYSTEM_BNAME12","Opcije obavještavanja");
+define("_MI_SYSTEM_BNAME13","Theme");
 
 // Names of admin menu items
 define("_MI_SYSTEM_ADMENU1","Baneri");
@@ -37,11 +37,11 @@ define("_MI_SYSTEM_ADMENU7","Smjehuljci");
 define("_MI_SYSTEM_ADMENU9","Rangovi članova");
 define("_MI_SYSTEM_ADMENU10","Uredi člana");
 define("_MI_SYSTEM_ADMENU11","Mail pošalji");
-define("_MI_SYSTEM_ADMENU12", "Pronađi člana");
-define("_MI_SYSTEM_ADMENU13", "Slike");
-define("_MI_SYSTEM_ADMENU14", "Avatari");
-define("_MI_SYSTEM_ADMENU15", "Templati");
-define("_MI_SYSTEM_ADMENU16", "Komentari");
+define("_MI_SYSTEM_ADMENU12","Pronađi člana");
+define("_MI_SYSTEM_ADMENU13","Slike");
+define("_MI_SYSTEM_ADMENU14","Avatari");
+define("_MI_SYSTEM_ADMENU15","Templati");
+define("_MI_SYSTEM_ADMENU16","Komentari");
 
 //Preference
 define("_MI_SYSTEM_PREFERENCE_BREAK_GENERAL","Generalno podešavanje");
@@ -87,5 +87,5 @@ define("_MI_SYSTEM_PREFERENCE_GENERAL_EDITOR_DSC","");
 define("_MI_SYSTEM_PREFERENCE_ANONPOST","");
 define("_MI_SYSTEM_PREFERENCE_REDIRECT","");
 
-define("_MI_SYSTEM_PREFERENCE_JQUERY_THEME", "jQuery theme");
+define("_MI_SYSTEM_PREFERENCE_JQUERY_THEME","jQuery theme");
 ?>

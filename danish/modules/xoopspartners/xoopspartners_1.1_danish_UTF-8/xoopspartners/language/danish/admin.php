@@ -25,29 +25,29 @@
 //  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 USA //
 //  ------------------------------------------------------------------------ //
 
-define('_MD_PARTNERADMIN', 'Partners administration');
-define('_MD_URL', 'URL');
-define('_MD_HITS', 'Hits');
-define('_MD_IMAGE', 'Billed');
-define('_MD_TITLE', 'Titel');
-define('_MD_WEIGHT', 'Vægtning');
-define('_MD_DESCRIPTION', 'Beskrivelse');
-define('_MD_STATUS', 'Status');
-define('_MD_ACTIVE', 'Aktiv');
-define('_MD_INACTIVE', 'Inaktiv');
-define('_MD_REORDER', 'Sorter');
-define('_MD_UPDATED', 'Indtillinger opdateret');
-define('_MD_NOTUPDATED', 'Kunne ikke opdaterer indstillinger');
-define('_MD_BESURE', 'Du skal, som minimum, indtaste titel, URL og en beskrivelse');
-define('_MD_NOEXITS', 'Billedfilen eksisterer ikke');
-define('_MD_ADDPARTNER', 'Tilføj');
-define('_MD_EDITPARTNER', 'Rediger');
-define('_MD_EDIT', 'Rediger');
-define('_MD_DELETE', 'Slet');
-define('_MD_SUREDELETE', 'Er du sikker på at du vil slette denne side?');
-define('_MD_YES', 'Ja');
-define('_MD_NO', 'Nej');
-define('_MD_IMAGE_ERROR', 'Billedet er større en 110*50');
-define('_MD_PARTNERS_ADD', 'Tilføj partner');
-define('_MD_AUTOMATIC_SORT', 'Sorter automatisk');
+define('_MD_PARTNERADMIN','Partners administration');
+define('_MD_URL','URL');
+define('_MD_HITS','Hits');
+define('_MD_IMAGE','Billed');
+define('_MD_TITLE','Titel');
+define('_MD_WEIGHT','Vægtning');
+define('_MD_DESCRIPTION','Beskrivelse');
+define('_MD_STATUS','Status');
+define('_MD_ACTIVE','Aktiv');
+define('_MD_INACTIVE','Inaktiv');
+define('_MD_REORDER','Sorter');
+define('_MD_UPDATED','Indtillinger opdateret');
+define('_MD_NOTUPDATED','Kunne ikke opdaterer indstillinger');
+define('_MD_BESURE','Du skal, som minimum, indtaste titel, URL og en beskrivelse');
+define('_MD_NOEXITS','Billedfilen eksisterer ikke');
+define('_MD_ADDPARTNER','Tilføj');
+define('_MD_EDITPARTNER','Rediger');
+define('_MD_EDIT','Rediger');
+define('_MD_DELETE','Slet');
+define('_MD_SUREDELETE','Er du sikker på at du vil slette denne side?');
+define('_MD_YES','Ja');
+define('_MD_NO','Nej');
+define('_MD_IMAGE_ERROR','Billedet er større en 110*50');
+define('_MD_PARTNERS_ADD','Tilføj partner');
+define('_MD_AUTOMATIC_SORT','Sorter automatisk');
 ?>

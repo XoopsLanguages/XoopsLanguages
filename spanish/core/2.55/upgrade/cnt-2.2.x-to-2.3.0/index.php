@@ -19,7 +19,7 @@
 
 class upgrade_220 extends xoopsUpgrade
 {
-    var $tasks = array('config', 'profile', 'block'/*, 'pm', 'module'*/);
+    var $tasks = array('config','profile','block'/*, 'pm','module'*/);
 
     function upgrade_220()
     {
@@ -120,7 +120,7 @@ class upgrade_220 extends xoopsUpgrade
         $profile_config_arr['avatar_height'] = 80;
         $profile_config_arr['avatar_maxsize'] = 35000;
         $profile_config_arr['self_delete'] = 0;
-        $profile_config_arr['bad_unames'] = serialize(array('webmaster', '^xoops', '^admin'));
+        $profile_config_arr['bad_unames'] = serialize(array('webmaster','^xoops','^admin'));
         $profile_config_arr['bad_emails'] = serialize(array('xoops.org$'));
         $profile_config_arr['maxuname'] = 10;
         $profile_config_arr['avatar_minposts'] = 0;
@@ -135,36 +135,36 @@ class upgrade_220 extends xoopsUpgrade
         if (is_object($profile_module)) {
             $profile_config = $config_handler->getConfigs(new Criteria('conf_modid', $profile_module->getVar('mid')));
             foreach (array_keys($profile_config) as $i) {
-                $profile_config_arr[$profile_config[$i]->getVar('conf_name')] = $profile_config[$i]->getVar('conf_value', 'n');
+                $profile_config_arr[$profile_config[$i]->getVar('conf_name')] = $profile_config[$i]->getVar('conf_value','n');
             }
         }
     
         $xoopsDB->queryF(
             "INSERT INTO `" . $xoopsDB->prefix("config") . "` (conf_modid, conf_catid, conf_name, conf_title, conf_value, conf_desc, conf_formtype, conf_valuetype, conf_order) VALUES " .
-            " (0, 2, 'minpass', '_MD_AM_MINPASS', " . $xoopsDB->quote($profile_config_arr['minpass']) . ", '_MD_AM_MINPASSDSC', 'textbox', 'int', 1)," .
-            " (0, 2, 'minuname', '_MD_AM_MINUNAME', " . $xoopsDB->quote($profile_config_arr['minuname']) . ", '_MD_AM_MINUNAMEDSC', 'textbox', 'int', 2)," .
-            " (0, 2, 'new_user_notify', '_MD_AM_NEWUNOTIFY', " . $xoopsDB->quote($profile_config_arr['new_user_notify']) . ", '_MD_AM_NEWUNOTIFYDSC', 'yesno', 'int', 4)," .
-            " (0, 2, 'new_user_notify_group', '_MD_AM_NOTIFYTO', " . $xoopsDB->quote($profile_config_arr['new_user_notify_group']) . ", '_MD_AM_NOTIFYTODSC', 'group', 'int', 6)," .
-            " (0, 2, 'activation_type', '_MD_AM_ACTVTYPE', " . $xoopsDB->quote($profile_config_arr['activation_type']) . ", '_MD_AM_ACTVTYPEDSC', 'select', 'int', 8)," .
-            " (0, 2, 'activation_group', '_MD_AM_ACTVGROUP', " . $xoopsDB->quote($profile_config_arr['activation_group']) . ", '_MD_AM_ACTVGROUPDSC', 'group', 'int', 10)," .
-            " (0, 2, 'uname_test_level', '_MD_AM_UNAMELVL', " . $xoopsDB->quote($profile_config_arr['uname_test_level']) . ", '_MD_AM_UNAMELVLDSC', 'select', 'int', 12)," .
-            " (0, 2, 'avatar_allow_upload', '_MD_AM_AVATARALLOW', " . $xoopsDB->quote($profile_config_arr['avatar_allow_upload']) . ", '_MD_AM_AVATARALWDSC', 'yesno', 'int', 14)," .
-            " (0, 2, 'avatar_width', '_MD_AM_AVATARW', " . $xoopsDB->quote($profile_config_arr['avatar_width']) . ", '_MD_AM_AVATARWDSC', 'textbox', 'int', 16)," .
-            " (0, 2, 'avatar_height', '_MD_AM_AVATARH', " . $xoopsDB->quote($profile_config_arr['avatar_height']) . ", '_MD_AM_AVATARHDSC', 'textbox', 'int', 18)," .
-            " (0, 2, 'avatar_maxsize', '_MD_AM_AVATARMAX', " . $xoopsDB->quote($profile_config_arr['avatar_maxsize']) . ", '_MD_AM_AVATARMAXDSC', 'textbox', 'int', 20)," .
-            " (0, 2, 'self_delete', '_MD_AM_SELFDELETE', " . $xoopsDB->quote($profile_config_arr['self_delete']) . ", '_MD_AM_SELFDELETEDSC', 'yesno', 'int', 22)," .
-            " (0, 2, 'bad_unames', '_MD_AM_BADUNAMES', " . $xoopsDB->quote($profile_config_arr['bad_unames']) . ", '_MD_AM_BADUNAMESDSC', 'textarea', 'array', 24)," .
-            " (0, 2, 'bad_emails', '_MD_AM_BADEMAILS', " . $xoopsDB->quote($profile_config_arr['bad_emails']) . ", '_MD_AM_BADEMAILSDSC', 'textarea', 'array', 26)," .
-            " (0, 2, 'maxuname', '_MD_AM_MAXUNAME', " . $xoopsDB->quote($profile_config_arr['maxuname']) . ", '_MD_AM_MAXUNAMEDSC', 'textbox', 'int', 3)," .
-            " (0, 2, 'avatar_minposts', '_MD_AM_AVATARMP', " . $xoopsDB->quote($profile_config_arr['avatar_minposts']) . ", '_MD_AM_AVATARMPDSC', 'textbox', 'int', 15)," .
-            " (0, 2, 'allow_chgmail', '_MD_AM_ALLWCHGMAIL', " . $xoopsDB->quote($profile_config_arr['allow_chgmail']) . ", '_MD_AM_ALLWCHGMAILDSC', 'yesno', 'int', 3)," .
-            " (0, 2, 'reg_dispdsclmr', '_MD_AM_DSPDSCLMR', " . $xoopsDB->quote($profile_config_arr['reg_dispdsclmr']) . ", '_MD_AM_DSPDSCLMRDSC', 'yesno', 'int', 30)," .
-            " (0, 2, 'reg_disclaimer', '_MD_AM_REGDSCLMR', " . $xoopsDB->quote($profile_config_arr['reg_disclaimer']) . ", '_MD_AM_REGDSCLMRDSC', 'textarea', 'text', 32)," .
-            " (0, 2, 'allow_register', '_MD_AM_ALLOWREG', " . $xoopsDB->quote($profile_config_arr['allow_register']) . ", '_MD_AM_ALLOWREGDSC', 'yesno', 'int', 0)"
+            " (0, 2, 'minpass','_MD_AM_MINPASS', " . $xoopsDB->quote($profile_config_arr['minpass']) . ", '_MD_AM_MINPASSDSC','textbox','int', 1)," .
+            " (0, 2, 'minuname','_MD_AM_MINUNAME', " . $xoopsDB->quote($profile_config_arr['minuname']) . ", '_MD_AM_MINUNAMEDSC','textbox','int', 2)," .
+            " (0, 2, 'new_user_notify','_MD_AM_NEWUNOTIFY', " . $xoopsDB->quote($profile_config_arr['new_user_notify']) . ", '_MD_AM_NEWUNOTIFYDSC','yesno','int', 4)," .
+            " (0, 2, 'new_user_notify_group','_MD_AM_NOTIFYTO', " . $xoopsDB->quote($profile_config_arr['new_user_notify_group']) . ", '_MD_AM_NOTIFYTODSC','group','int', 6)," .
+            " (0, 2, 'activation_type','_MD_AM_ACTVTYPE', " . $xoopsDB->quote($profile_config_arr['activation_type']) . ", '_MD_AM_ACTVTYPEDSC','select','int', 8)," .
+            " (0, 2, 'activation_group','_MD_AM_ACTVGROUP', " . $xoopsDB->quote($profile_config_arr['activation_group']) . ", '_MD_AM_ACTVGROUPDSC','group','int', 10)," .
+            " (0, 2, 'uname_test_level','_MD_AM_UNAMELVL', " . $xoopsDB->quote($profile_config_arr['uname_test_level']) . ", '_MD_AM_UNAMELVLDSC','select','int', 12)," .
+            " (0, 2, 'avatar_allow_upload','_MD_AM_AVATARALLOW', " . $xoopsDB->quote($profile_config_arr['avatar_allow_upload']) . ", '_MD_AM_AVATARALWDSC','yesno','int', 14)," .
+            " (0, 2, 'avatar_width','_MD_AM_AVATARW', " . $xoopsDB->quote($profile_config_arr['avatar_width']) . ", '_MD_AM_AVATARWDSC','textbox','int', 16)," .
+            " (0, 2, 'avatar_height','_MD_AM_AVATARH', " . $xoopsDB->quote($profile_config_arr['avatar_height']) . ", '_MD_AM_AVATARHDSC','textbox','int', 18)," .
+            " (0, 2, 'avatar_maxsize','_MD_AM_AVATARMAX', " . $xoopsDB->quote($profile_config_arr['avatar_maxsize']) . ", '_MD_AM_AVATARMAXDSC','textbox','int', 20)," .
+            " (0, 2, 'self_delete','_MD_AM_SELFDELETE', " . $xoopsDB->quote($profile_config_arr['self_delete']) . ", '_MD_AM_SELFDELETEDSC','yesno','int', 22)," .
+            " (0, 2, 'bad_unames','_MD_AM_BADUNAMES', " . $xoopsDB->quote($profile_config_arr['bad_unames']) . ", '_MD_AM_BADUNAMESDSC','textarea','array', 24)," .
+            " (0, 2, 'bad_emails','_MD_AM_BADEMAILS', " . $xoopsDB->quote($profile_config_arr['bad_emails']) . ", '_MD_AM_BADEMAILSDSC','textarea','array', 26)," .
+            " (0, 2, 'maxuname','_MD_AM_MAXUNAME', " . $xoopsDB->quote($profile_config_arr['maxuname']) . ", '_MD_AM_MAXUNAMEDSC','textbox','int', 3)," .
+            " (0, 2, 'avatar_minposts','_MD_AM_AVATARMP', " . $xoopsDB->quote($profile_config_arr['avatar_minposts']) . ", '_MD_AM_AVATARMPDSC','textbox','int', 15)," .
+            " (0, 2, 'allow_chgmail','_MD_AM_ALLWCHGMAIL', " . $xoopsDB->quote($profile_config_arr['allow_chgmail']) . ", '_MD_AM_ALLWCHGMAILDSC','yesno','int', 3)," .
+            " (0, 2, 'reg_dispdsclmr','_MD_AM_DSPDSCLMR', " . $xoopsDB->quote($profile_config_arr['reg_dispdsclmr']) . ", '_MD_AM_DSPDSCLMRDSC','yesno','int', 30)," .
+            " (0, 2, 'reg_disclaimer','_MD_AM_REGDSCLMR', " . $xoopsDB->quote($profile_config_arr['reg_disclaimer']) . ", '_MD_AM_REGDSCLMRDSC','textarea','text', 32)," .
+            " (0, 2, 'allow_register','_MD_AM_ALLOWREG', " . $xoopsDB->quote($profile_config_arr['allow_register']) . ", '_MD_AM_ALLOWREGDSC','yesno','int', 0)"
             );
 
         //Rebuild user configuration options
-        $criteria = new CriteriaCompo(new Criteria('conf_name', "('activation_type', 'uname_test_level')", "IN"));
+        $criteria = new CriteriaCompo(new Criteria('conf_name', "('activation_type','uname_test_level')", "IN"));
         $criteria->add(new Criteria('conf_modid', 0));
         $criteria->setSort('conf_name');
         $criteria->setOrder('ASC');
@@ -173,12 +173,12 @@ class upgrade_220 extends xoopsUpgrade
         $id_uname_test_level = $configs[1]->getVar("conf_id");
         $xoopsDB->queryF(
             "INSERT INTO `" . $xoopsDB->prefix("configoption") . "` (confop_name, confop_value, conf_id) VALUES " .
-            " ('_MD_AM_USERACTV', '0', {$id_activation_type})," .
-            " ('_MD_AM_AUTOACTV', '1', {$id_activation_type})," .
-            " ('_MD_AM_ADMINACTV', '2', {$id_activation_type})," .
-            " ('_MD_AM_STRICT', '0', {$id_uname_test_level})," .
-            " ('_MD_AM_MEDIUM', '1', {$id_uname_test_level})," .
-            " ('_MD_AM_LIGHT', '2', {$id_uname_test_level})"
+            " ('_MD_AM_USERACTV','0', {$id_activation_type})," .
+            " ('_MD_AM_AUTOACTV','1', {$id_activation_type})," .
+            " ('_MD_AM_ADMINACTV','2', {$id_activation_type})," .
+            " ('_MD_AM_STRICT','0', {$id_uname_test_level})," .
+            " ('_MD_AM_MEDIUM','1', {$id_uname_test_level})," .
+            " ('_MD_AM_LIGHT','2', {$id_uname_test_level})"
             );
         
         return $result;

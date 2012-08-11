@@ -27,24 +27,24 @@ define('_MI_ALTSYS_IMAGES_DIRDSC','مسیر وابسته برای ارسال ع�
 // Appended by Xoops Language Checker -GIJOE- in 2007-03-21 05:34:59
 define('_MI_ALTSYS_ADMIN_IN_THEME','قالب بخش مدیریت');
 define('_MI_ALTSYS_ADMIN_IN_THEMEDSC','این گزینه برای انتخاب قالب منوی مدیریت به کار میرود . خط زیر را باید به فایل mainfile.php اضافه کنید . درست بعد از خطی که برای شناساندن فایل common.php اضافه شده است .( include XOOPS_ROOT_PATH."/include/common.php";) توجه داشته باشید در زبان فارسی ممکن است ظاهر منوی مدیریت اندکی به هم بریزد. <br /><br />include XOOPS_TRUST_PATH.\'/libs/altsys/include/admin_in_theme.inc.php\';	<br /><br />این قابلیت فقط در زوپس ۲.۰ و ایمپرس سی‌ام‌اس کار میکند');
-define( '_MI_ALTSYS_MODULENAME' , 'آلت سیس' ) ;
-define( '_MI_ALTSYS_MODULEDESC' , 'مدیریت ساده‌ی سیستم' ) ;
+define('_MI_ALTSYS_MODULENAME' , 'آلت سیس' ) ;
+define('_MI_ALTSYS_MODULEDESC' , 'مدیریت ساده‌ی سیستم' ) ;
 
-define( '_MI_ALTSYS_MENU_CUSTOMBLOCKS' , 'بلوک شخصی' ) ;
-define( '_MI_ALTSYS_MENU_NEWCUSTOMBLOCK' , '(بلوک شخصی جدید)' ) ;
-define( '_MI_ALTSYS_MENU_MYBLOCKSADMIN' , 'بلوک ماژول‌ها' ) ;
-define( '_MI_ALTSYS_MENU_MYTPLSADMIN' , 'الگو‌ها' ) ;
-define( '_MI_ALTSYS_MENU_COMPILEHOOKADMIN' , 'الگو‌های پیشرفته' ) ;
-define( '_MI_ALTSYS_MENU_MYAVATAR' , 'شکلک‌ها' ) ;
-define( '_MI_ALTSYS_MENU_MYSMILEY' , 'لبخندک‌ها' ) ;
+define('_MI_ALTSYS_MENU_CUSTOMBLOCKS' , 'بلوک شخصی' ) ;
+define('_MI_ALTSYS_MENU_NEWCUSTOMBLOCK' , '(بلوک شخصی جدید)' ) ;
+define('_MI_ALTSYS_MENU_MYBLOCKSADMIN' , 'بلوک ماژول‌ها' ) ;
+define('_MI_ALTSYS_MENU_MYTPLSADMIN' , 'الگو‌ها' ) ;
+define('_MI_ALTSYS_MENU_COMPILEHOOKADMIN' , 'الگو‌های پیشرفته' ) ;
+define('_MI_ALTSYS_MENU_MYAVATAR' , 'شکلک‌ها' ) ;
+define('_MI_ALTSYS_MENU_MYSMILEY' , 'لبخندک‌ها' ) ;
 
-define( '_MI_ALTSYS_ADMINMENU_HFT' , 'بازسازی منوی مدیریت' ) ;
-define( '_MI_ALTSYS_ADMINMENU_HFTDSC' , 'اگر شکل منوی مدیریت شما تغییر نکرد پرونده‌ی cache/adminmenu.php را حذف کنید یا با استفاده از ctrl + F5 ذخریه‌های سیستم را خالی کنید. این ویژگی فقط در زوپس 2.0 کار میکند.' ) ;
-define( '_MI_ALTSYS_AMHFT_OPT_2COL' , 'نمایش تصویر ماژول‌ها در دو ردیف' ) ;
-define( '_MI_ALTSYS_AMHFT_OPT_NOIMG' , 'نمایش نام ماژول‌ها به جای تصویر آن‌ها' ) ;
-define( '_MI_ALTSYS_AMHFT_OPT_XCSTY' , 'مشابه سیستم XoopsCube Legacy' ) ;
+define('_MI_ALTSYS_ADMINMENU_HFT' , 'بازسازی منوی مدیریت' ) ;
+define('_MI_ALTSYS_ADMINMENU_HFTDSC' , 'اگر شکل منوی مدیریت شما تغییر نکرد پرونده‌ی cache/adminmenu.php را حذف کنید یا با استفاده از ctrl + F5 ذخریه‌های سیستم را خالی کنید. این ویژگی فقط در زوپس 2.0 کار میکند.' ) ;
+define('_MI_ALTSYS_AMHFT_OPT_2COL' , 'نمایش تصویر ماژول‌ها در دو ردیف' ) ;
+define('_MI_ALTSYS_AMHFT_OPT_NOIMG' , 'نمایش نام ماژول‌ها به جای تصویر آن‌ها' ) ;
+define('_MI_ALTSYS_AMHFT_OPT_XCSTY' , 'مشابه سیستم XoopsCube Legacy' ) ;
 
-define( '_MI_ALTSYS_ADMINMENU_IM' , 'کپی کردن لینک‌های ماژول mymenu در منوی مدیریت' ) ;
-define( '_MI_ALTSYS_ADMINMENU_IMDSC' , 'اگر شکل منوی مدیریت شما تغییر نکرد پرونده‌ی cache/adminmenu.php را حذف کنید یا با استفاده از ctrl + F5 ذخریه‌های سیستم را خالی کنید. این ویژگی فقط در زوپس 2.0 کار میکند.' ) ;
+define('_MI_ALTSYS_ADMINMENU_IM' , 'کپی کردن لینک‌های ماژول mymenu در منوی مدیریت' ) ;
+define('_MI_ALTSYS_ADMINMENU_IMDSC' , 'اگر شکل منوی مدیریت شما تغییر نکرد پرونده‌ی cache/adminmenu.php را حذف کنید یا با استفاده از ctrl + F5 ذخریه‌های سیستم را خالی کنید. این ویژگی فقط در زوپس 2.0 کار میکند.' ) ;
 
 ?>

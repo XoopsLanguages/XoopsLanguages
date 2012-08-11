@@ -4,27 +4,27 @@
 // _CHARSET : iso-8859-1
 // Translator: XOOPS Translation Team
 //%%%%%%    File Name readpmsg.php  %%%%%
-define("_PM_DELETED","Votre (vos) message(s) a (ont) été effacé(s)");
-define("_PM_PRIVATEMESSAGE","Messages privés");
+define("_PM_DELETED","Votre (vos) message(s) a (ont) Ã©tÃ© effacÃ©(s)");
+define("_PM_PRIVATEMESSAGE","Messages privÃ©s");
 define("_PM_INBOX","Messages");
 define("_PM_FROM","De");
-define("_PM_YOUDONTHAVE","Vous n'avez aucun message privé");
+define("_PM_YOUDONTHAVE","Vous n'avez aucun message privÃ©");
 define("_PM_FROMC","De : ");
-define("_PM_SENTC","Envoyé le : "); // The date of message sent
+define("_PM_SENTC","EnvoyÃ© le : "); // The date of message sent
 define("_PM_PROFILE","Profil");
 // %s is a username
-define("_PM_PREVIOUS","Message précédent");
+define("_PM_PREVIOUS","Message prÃ©cÃ©dent");
 define("_PM_NEXT","Message suivant");
 //%%%%%%        File Name pmlite.php         %%%%%
-define("_PM_SORRY","Désolé ! Vous n'êtes pas un utilisateur enregistré.");
+define("_PM_SORRY","DÃ©solÃ© ! Vous n'Ãªtes pas un utilisateur enregistrÃ©.");
 define("_PM_REGISTERNOW","Inscrivez-vous maintenant !");
 define("_PM_GOBACK","Retour");
-define("_PM_USERNOEXIST","L'utilisateur sélectionné n'existe pas dans la base de données.");
-define("_PM_PLZTRYAGAIN","Merci de vérifier le nom et de recommencer.");
-define("_PM_MESSAGEPOSTED","Votre message a été posté");
-define("_PM_CLICKHERE","Pour parcourir vos messages privé, vous pouvez cliquer ici ");
-define("_PM_ORCLOSEWINDOW","Ou cliquer ici pour fermer cette fenêtre.");
-define("_PM_USERWROTE","%s a écrit : ");
+define("_PM_USERNOEXIST","L'utilisateur sÃ©lectionnÃ© n'existe pas dans la base de donnÃ©es.");
+define("_PM_PLZTRYAGAIN","Merci de vÃ©rifier le nom et de recommencer.");
+define("_PM_MESSAGEPOSTED","Votre message a Ã©tÃ© postÃ©");
+define("_PM_CLICKHERE","Pour parcourir vos messages privÃ©, vous pouvez cliquer ici ");
+define("_PM_ORCLOSEWINDOW","Ou cliquer ici pour fermer cette fenÃªtre.");
+define("_PM_USERWROTE","%s a Ã©crit : ");
 define("_PM_TO","A : ");
 define("_PM_SUBJECTC","Sujet : ");
 define("_PM_MESSAGEC","Message : ");
@@ -37,13 +37,13 @@ define("_PM_DATE","Date");
 define("_PM_NOTREAD","Non lu");
 define("_PM_SEND","Envoi");
 define("_PM_DELETE","Effacer");
-define("_PM_REPLY", "Répondre");
-define("_PM_PLZREG","Vous devez d'abord vous enregistrer pour pouvoir envoyer des messages privés !");
-define("_PM_ONLINE", "En ligne !");
+define("_PM_REPLY","RÃ©pondre");
+define("_PM_PLZREG","Vous devez d'abord vous enregistrer pour pouvoir envoyer des messages privÃ©s !");
+define("_PM_ONLINE","En ligne !");
 //XOOPS 2.5.2
 define('_PM_SURE_TO_DELETE',"Are you sure you want to delete these message(s)?");
 //XOOPS 2.5.5
-define('_PM_READ', 'Déjà lu');
+define('_PM_READ','DÃ©jÃ  lu');
 
 /**  
  * Traductions frxoops, kris

@@ -31,10 +31,10 @@ define("_AM_SYSTEM_COMMENTS_FORM_ALL_STATUS","Любой статус");
 define("_AM_SYSTEM_COMMENTS_FORM_PURGE","Очистка");
 define("_AM_SYSTEM_COMMENTS_FORM_PURGE_DATE_AFTER","Очистить сообщения, отправленные после этой даты (оставьте поле пустым, если нет начальной даты)");
 define("_AM_SYSTEM_COMMENTS_FORM_PURGE_DATE_BEFORE","Очистить сообщения, отправленные до этой даты (оставьте поле пустым, если нет конечной даты)");
-define("_AM_SYSTEM_COMMENTS_FORM_PURGE_GROUPS", "Группы");
-define("_AM_SYSTEM_COMMENTS_FORM_PURGE_USER", "Ник пользователя");
-define("_AM_SYSTEM_COMMENTS_FORM_PURGE_STATUS", "Статус");
-define("_AM_SYSTEM_COMMENTS_FORM_PURGE_MODULES", "Модули");
+define("_AM_SYSTEM_COMMENTS_FORM_PURGE_GROUPS","Группы");
+define("_AM_SYSTEM_COMMENTS_FORM_PURGE_USER","Ник пользователя");
+define("_AM_SYSTEM_COMMENTS_FORM_PURGE_STATUS","Статус");
+define("_AM_SYSTEM_COMMENTS_FORM_PURGE_MODULES","Модули");
 
 // Tab
 define("_AM_SYSTEM_COMMENTS_TITLE","Название");

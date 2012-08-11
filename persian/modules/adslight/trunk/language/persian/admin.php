@@ -46,8 +46,8 @@ define("_AM_ADSLIGHT_ANNDEL","تبلیغات انتخاب شده حذف شد");
 define("_AM_ADSLIGHT_ADDCATPRINC","اضافه کردن یک شاخه");
 define("_AM_ADSLIGHT_CATNAME","نام شاخه :");
 define("_AM_ADSLIGHT_ADDSUBCAT","حذف یک شاخه");
-define("_AM_ADSLIGHT_DELSUBCAT", "Supprimer une cat&eacute;gorie");
-define("_AM_ADSLIGHT_MODIFSUBCAT", "ویرایش شاخه");
+define("_AM_ADSLIGHT_DELSUBCAT","Supprimer une cat&eacute;gorie");
+define("_AM_ADSLIGHT_MODIFSUBCAT","ویرایش شاخه");
 define("_AM_ADSLIGHT_ADD","Add");
 define("_AM_ADSLIGHT_CATDEL","شاخه مورد نظر حذف شد");
 define("_AM_ADSLIGHT_OUI","بله");
@@ -142,12 +142,12 @@ define("_AM_ADSLIGHT_IF","if");
 define("_AM_ADSLIGHT_ISAT","is at");
 define("_AM_ADSLIGHT_VIEWNEWCLASS","نمایش آگهی :");
 
-define("_AM_ADSLIGHT_PERMADDNG", 'نمیتوان اضافه کرد %s دسترسی %s برای گروه %s');
+define("_AM_ADSLIGHT_PERMADDNG",'نمیتوان اضافه کرد %s دسترسی %s برای گروه %s');
 define("_AM_ADSLIGHT_PERMADDOK",'اضافه شد %s دسترسی %s برای گروه %s');
 define("_AM_ADSLIGHT_PERMRESETNG",'Could not reset group permission for module %s');
-define("_AM_ADSLIGHT_PERMADDNGP", 'همه آیتمهای والد باید انتخاب شود.');
-define("_AM_ADSLIGHT_EXPIRE", 'تعداد روز نمایش آگهی.');
-define("_AM_ADSLIGHT_DBUPDATED", 'پایگاه داده ها بروز شد');
+define("_AM_ADSLIGHT_PERMADDNGP",'همه آیتمهای والد باید انتخاب شود.');
+define("_AM_ADSLIGHT_EXPIRE",'تعداد روز نمایش آگهی.');
+define("_AM_ADSLIGHT_DBUPDATED",'پایگاه داده ها بروز شد');
 
 define("_AM_ADSLIGHT_CONTACT_BY_EMAIL","پست الکترونیک");
 define("_AM_ADSLIGHT_CONTACT_BY_PM","پیام خصوصی(PM)");
@@ -170,16 +170,16 @@ define("_AM_ADSLIGHT_UPDATEMODULE","<b>بروزرسانی ماژول</b>");
 define("_AM_ADSLIGHT_UPGRADEFAILED","خطا در بروزرسانی");
 define("_AM_ADSLIGHT_UPGRADEFAILED0","بروزرسانی");
 define("_AM_ADSLIGHT_UPGR_ACCESS_ERROR","خطا در دسترسی");
-define("_AM_ADSLIGHT_THANKS", "با تشکر از شما برای استفاده از تبلیغات و نیازمندیها");
-define("_AM_ADSLIGHT_WEBMASTER", "مدیر");
-define("_AM_ADSLIGHT_YOUR_AD", "آگهی شما");
+define("_AM_ADSLIGHT_THANKS","با تشکر از شما برای استفاده از تبلیغات و نیازمندیها");
+define("_AM_ADSLIGHT_WEBMASTER","مدیر");
+define("_AM_ADSLIGHT_YOUR_AD","آگهی شما");
 define("_AM_ADSLIGHT_AT","at");
-define("_AM_ADSLIGHT_VEDIT_AD", "شما می توانید ببینید و ویرایش آگهی خود را در اینجا");
-define("_AM_ADSLIGHT_YOUR_AD_ON", "آگهی شما در");
-define("_AM_ADSLIGHT_APPROVED", "مورد تایید قرار گرفته.");
-define("_AM_ADSLIGHT_EXPIRED", "تمام شده است و حذف شده است.");
-define("_AM_ADSLIGHT_CHECKER", 'چک کردن دسترسی شاخه');
-define("_AM_ADSLIGHT_DIRPERMS", 'تغییر دسترسی شاخه به قابل نوشتن  ! => ');
+define("_AM_ADSLIGHT_VEDIT_AD","شما می توانید ببینید و ویرایش آگهی خود را در اینجا");
+define("_AM_ADSLIGHT_YOUR_AD_ON","آگهی شما در");
+define("_AM_ADSLIGHT_APPROVED","مورد تایید قرار گرفته.");
+define("_AM_ADSLIGHT_EXPIRED","تمام شده است و حذف شده است.");
+define("_AM_ADSLIGHT_CHECKER",'چک کردن دسترسی شاخه');
+define("_AM_ADSLIGHT_DIRPERMS",'تغییر دسترسی شاخه به قابل نوشتن  ! => ');
 
 define("_AM_ADSLIGHT_PHOTO1","تعداد تصویر :");
 define("_AM_ADSLIGHT_SUBMITTER","ارسال شده توسط ");
@@ -191,9 +191,9 @@ define("_AM_ADSLIGHT_DESC","توضیحات");
 
 define("_AM_ADSLIGHT_FREECAT","This will be a free category");
 define("_AM_ADSLIGHT_MODERATE_CAT","مدیریت این شاخه");
-define("_AM_ADSLIGHT_VISIT_LINK", "شما می توانید آگهی کامل در لینک زیر ببینید:");
-define("_AM_ADSLIGHT_LISTING_NUMBER", "شماره آگهی ");
-define("_AM_ADSLIGHT_YOU_CAN_VIEW_BELOW", "شما می توانید آگهی کامل در لینک زیر ببینید");
+define("_AM_ADSLIGHT_VISIT_LINK","شما می توانید آگهی کامل در لینک زیر ببینید:");
+define("_AM_ADSLIGHT_LISTING_NUMBER","شماره آگهی ");
+define("_AM_ADSLIGHT_YOU_CAN_VIEW_BELOW","شما می توانید آگهی کامل در لینک زیر ببینید");
 define("_AM_ADSLIGHT_NOREPLY","!!!  به این ایمیل پاسخ ندهید. شما پاسخی دریافت نمی کنید.  !!!");
 
 define("_AM_ADSLIGHT_ADDED_TO_CAT","یک لیت جدید به شاخه اضافه شد ");
@@ -209,11 +209,11 @@ define("_AM_ADSLIGHT_INCOMPLETE","ناتمام");
 
 // Added by iLuc //
 //Condition de paiement
-define("_AM_ADSLIGHT_ADDUSURE", "اضافه کردن یک پوشش جدید");
-define("_AM_ADSLIGHT_MODUSURE", "تغییر نوع پوشش آگهی()");
-define("_AM_ADSLIGHT_ADDUSURE2", "پوشش جدید اضافه شد");
-define("_AM_ADSLIGHT_USUREMOD", "تغییرات ذخیره شد");
-define("_AM_ADSLIGHT_USUREDEL", "نوع پوشش حذف شد");
+define("_AM_ADSLIGHT_ADDUSURE","اضافه کردن یک پوشش جدید");
+define("_AM_ADSLIGHT_MODUSURE","تغییر نوع پوشش آگهی()");
+define("_AM_ADSLIGHT_ADDUSURE2","پوشش جدید اضافه شد");
+define("_AM_ADSLIGHT_USUREMOD","تغییرات ذخیره شد");
+define("_AM_ADSLIGHT_USUREDEL","نوع پوشش حذف شد");
 
 //about.php
 define("_AM_ADSLIGHT_ABOUT_AUTHOR","نویسنده");
@@ -235,20 +235,20 @@ define("_AM_ADSLIGHT_PERSONS_PARTICIP_DESC","بررسی اجمالی");
 define("_AM_ADSLIGHT_GPERM_G_ADD" , "Can add" ) ;
 define("_AM_ADSLIGHT_CAT2GROUPDESC" , "چک کردن شاخه هایی که اجازه دسترسی داده شده است" ) ;
 define("_AM_ADSLIGHT_GROUPPERMDESC" , "انتخاب گروه مجاز برای ارسال تبلیغات." ) ;
-define("_AM_ADSLIGHT_GROUPPERM", "دسترسی برای ارسال");
-define("_AM_ADSLIGHT_SUBMITFORM", "Permission to file a listing");
-define("_AM_ADSLIGHT_SUBMITFORM_DESC", "انتخاب, که می تواند نمایش دهد آگهی");
-define("_AM_ADSLIGHT_VIEWFORM", "دسترسی برای مشاهده آگهی");
-define("_AM_ADSLIGHT_VIEWFORM_DESC", "Sگروهی را انتخاب کنید که می تواند آگهی را ببینید");
-define("_AM_ADSLIGHT_VIEW_RESUMEFORM_DESC", "انتخاب, چه کسی می تواند مشاهده کند رزومه");
-define("_AM_ADSLIGHT_SUPPORT", "پشتیبانی از این برنامه");
-define("_AM_ADSLIGHT_OP", "Read my review");
-define("_AM_ADSLIGHT_PREMIUM_DESC", "انتخاب گروهی که میتوانند انتخاب کنند مدت زمان نمایش تبلیغات");
+define("_AM_ADSLIGHT_GROUPPERM","دسترسی برای ارسال");
+define("_AM_ADSLIGHT_SUBMITFORM","Permission to file a listing");
+define("_AM_ADSLIGHT_SUBMITFORM_DESC","انتخاب, که می تواند نمایش دهد آگهی");
+define("_AM_ADSLIGHT_VIEWFORM","دسترسی برای مشاهده آگهی");
+define("_AM_ADSLIGHT_VIEWFORM_DESC","Sگروهی را انتخاب کنید که می تواند آگهی را ببینید");
+define("_AM_ADSLIGHT_VIEW_RESUMEFORM_DESC","انتخاب, چه کسی می تواند مشاهده کند رزومه");
+define("_AM_ADSLIGHT_SUPPORT","پشتیبانی از این برنامه");
+define("_AM_ADSLIGHT_OP","Read my review");
+define("_AM_ADSLIGHT_PREMIUM_DESC","انتخاب گروهی که میتوانند انتخاب کنند مدت زمان نمایش تبلیغات");
 
 //Release Test
-define("_AM_ADSLIGHT_RELEASEOK", "شما از آخرین نسخه این ماژول استفاده می کنید.");
-define("_AM_ADSLIGHT_RELEASEISNOTOK", "شما از آخرین نسخه ماژول استفاده نمیکنید، نسخه جدید در دسترس است.");
-define("_AM_ADSLIGHT_RELEASEDOWNLOAD", "دانلود.");
+define("_AM_ADSLIGHT_RELEASEOK","شما از آخرین نسخه این ماژول استفاده می کنید.");
+define("_AM_ADSLIGHT_RELEASEISNOTOK","شما از آخرین نسخه ماژول استفاده نمیکنید، نسخه جدید در دسترس است.");
+define("_AM_ADSLIGHT_RELEASEDOWNLOAD","دانلود.");
 define("_AM_ADSLIGHT_NBR_PHOTO","عکس (ها)");
 
 //Version 1.05
@@ -258,16 +258,16 @@ define("_AM_ADSLIGHT_CAT_META_KEYWORDS","<b>کلمات کلیدی:</b><br/>بر�
 
 //Version 1.053
 // Test Maps Xml
-define("_AM_ADSLIGHT_XMLNOTOK", "فایل xml برای کارت وجود ندارد ، در عیر این صورت کارت انتخاب شده در تنظیمات ، مطابقت ندارد.");
-define("_AM_ADSLIGHT_XMLUPGRADE", "بروزرسانی xml");
+define("_AM_ADSLIGHT_XMLNOTOK","فایل xml برای کارت وجود ندارد ، در عیر این صورت کارت انتخاب شده در تنظیمات ، مطابقت ندارد.");
+define("_AM_ADSLIGHT_XMLUPGRADE","بروزرسانی xml");
 
 //Version 1.054
 // Support_forum.php
-define("_AM_ADSLIGHT_SUPPORTFORUM_TITLE", "فهرست فروم پشتیبانی.");
-define("_AM_ADSLIGHT_SUPPORTFORUM_WEBLINKS", "پیوند");
-define("_AM_ADSLIGHT_SUPPORTFORUM_CONTRYLANG", "زبان");
-define("_AM_ADSLIGHT_SUPPORTFORUM_DESC", "توضیحات");
-define("_AM_ADSLIGHT_SUPPORTFORUM_TRANSLATE", "(پست الکترونیک)ترجمه");
+define("_AM_ADSLIGHT_SUPPORTFORUM_TITLE","فهرست فروم پشتیبانی.");
+define("_AM_ADSLIGHT_SUPPORTFORUM_WEBLINKS","پیوند");
+define("_AM_ADSLIGHT_SUPPORTFORUM_CONTRYLANG","زبان");
+define("_AM_ADSLIGHT_SUPPORTFORUM_DESC","توضیحات");
+define("_AM_ADSLIGHT_SUPPORTFORUM_TRANSLATE","(پست الکترونیک)ترجمه");
 
 ////////////////////////////
 //// Version 1.06 //////////
@@ -275,69 +275,69 @@ define("_AM_ADSLIGHT_SUPPORTFORUM_TRANSLATE", "(پست الکترونیک)ترج
 // ../admin/index.php
 
 // Stat
-define("_AM_ADSLIGHT_STAT_TITLE", "آمار");
-define("_AM_ADSLIGHT_STAT_NUM1", "تبلیغات");
-define("_AM_ADSLIGHT_STAT_NUM2", " شاخه");
-define("_AM_ADSLIGHT_STAT_NUM3", "کاربر");
-define("_AM_ADSLIGHT_STAT_NUM4", "نظر");
+define("_AM_ADSLIGHT_STAT_TITLE","آمار");
+define("_AM_ADSLIGHT_STAT_NUM1","تبلیغات");
+define("_AM_ADSLIGHT_STAT_NUM2"," شاخه");
+define("_AM_ADSLIGHT_STAT_NUM3","کاربر");
+define("_AM_ADSLIGHT_STAT_NUM4","نظر");
 
 
 // Option Menu
-define("_AM_ADSLIGHT_USERMENU_TITLE", "گزینه ها");
-define("_AM_ADSLIGHT_USERMENU_SENDMAIL", " ارسال نامه");
-define("_AM_ADSLIGHT_USERMENU_COMMENT", " نظرها");
-define("_AM_ADSLIGHT_USERMENU_BAMMIER", " بنر");
+define("_AM_ADSLIGHT_USERMENU_TITLE","گزینه ها");
+define("_AM_ADSLIGHT_USERMENU_SENDMAIL"," ارسال نامه");
+define("_AM_ADSLIGHT_USERMENU_COMMENT"," نظرها");
+define("_AM_ADSLIGHT_USERMENU_BAMMIER"," بنر");
 
 // Menu Category
-define("_AM_ADSLIGHT_CATMENU_TITLE", "شاخه ها");
-define("_AM_ADSLIGHT_CATMENU_CATEGORY", " اضافه کردن شاخه");
-define("_AM_ADSLIGHT_CATMENU_MODIFCAT", " مدیریت شاخه ها");
+define("_AM_ADSLIGHT_CATMENU_TITLE","شاخه ها");
+define("_AM_ADSLIGHT_CATMENU_CATEGORY"," اضافه کردن شاخه");
+define("_AM_ADSLIGHT_CATMENU_MODIFCAT"," مدیریت شاخه ها");
 
 // Menu Annonces
-define("_AM_ADSLIGHT_ADSMENU_TITLE", "تبلیغات");
-define("_AM_ADSLIGHT_ADSMENU_VALIDADS", " تائید اعتبار آگهی(تائید آگهی های در انتظار برای تائید)  ");
-define("_AM_ADSLIGHT_ADSMENU_VIEWADS", " مشاهده آگهی ");
-define("_AM_ADSLIGHT_ADS_MODIFADS", " ویرایش آگهی");
+define("_AM_ADSLIGHT_ADSMENU_TITLE","تبلیغات");
+define("_AM_ADSLIGHT_ADSMENU_VALIDADS"," تائید اعتبار آگهی(تائید آگهی های در انتظار برای تائید)  ");
+define("_AM_ADSLIGHT_ADSMENU_VIEWADS"," مشاهده آگهی ");
+define("_AM_ADSLIGHT_ADS_MODIFADS"," ویرایش آگهی");
 
 // Menu Downloads
-define("_AM_ADSLIGHT_DOWNLOADS_TITLE", "در حال دانلود");
-define("_AM_ADSLIGHT_DOWNLOADS_PLUGINS", " پلاگین");
-define("_AM_ADSLIGHT_DOWNLOADS_MAPS", " نقشه");
+define("_AM_ADSLIGHT_DOWNLOADS_TITLE","در حال دانلود");
+define("_AM_ADSLIGHT_DOWNLOADS_PLUGINS"," پلاگین");
+define("_AM_ADSLIGHT_DOWNLOADS_MAPS"," نقشه");
 
 // Menu Devellopment
-define("_AM_ADSLIGHT_DEVLLP_TITLE", "توسعه");
-define("_AM_ADSLIGHT_DEVLLP_HACK", " پیشنهاد یک هک");
-define("_AM_ADSLIGHT_DEVLLP_TRANSLATE", " ارسال ترجمه");
-define("_AM_ADSLIGHT_DEVLLP_CORRECTION", " پیشنهاد اصلاح");
-define("_AM_ADSLIGHT_DEVLLP_MAPFLASH", " ارسال نقشه (.Swf)");
-define("_AM_ADSLIGHT_DEVLLP_FORUM", " تالار گفتگو");
+define("_AM_ADSLIGHT_DEVLLP_TITLE","توسعه");
+define("_AM_ADSLIGHT_DEVLLP_HACK"," پیشنهاد یک هک");
+define("_AM_ADSLIGHT_DEVLLP_TRANSLATE"," ارسال ترجمه");
+define("_AM_ADSLIGHT_DEVLLP_CORRECTION"," پیشنهاد اصلاح");
+define("_AM_ADSLIGHT_DEVLLP_MAPFLASH"," ارسال نقشه (.Swf)");
+define("_AM_ADSLIGHT_DEVLLP_FORUM"," تالار گفتگو");
 
 // Menu Faire un Don
-define("_AM_ADSLIGHT_DONATE_TITLE", " اهداء کردن");
-define("_AM_ADSLIGHT_DONATE", "استفاده از AdsLight رایگان است و باقی خواهد ماند.<br />همچنین شما می توانید کمک مالی کنید <br />اگر می خواهید از من  حمایت کنید.<br />");
+define("_AM_ADSLIGHT_DONATE_TITLE"," اهداء کردن");
+define("_AM_ADSLIGHT_DONATE","استفاده از AdsLight رایگان است و باقی خواهد ماند.<br />همچنین شما می توانید کمک مالی کنید <br />اگر می خواهید از من  حمایت کنید.<br />");
 
 
 ////RSS Forum
-define("_AM_ADSLIGHT_MENURSSFORUM_TITLE", "انجمن پشتیبانی AdsLight");
-define("_AM_ADSLIGHT_MENURSSFORUM_URL", "http://www.i-luc.fr/adslight/modules/newbb/rss.php?f=56");
+define("_AM_ADSLIGHT_MENURSSFORUM_TITLE","انجمن پشتیبانی AdsLight");
+define("_AM_ADSLIGHT_MENURSSFORUM_URL","http://www.i-luc.fr/adslight/modules/newbb/rss.php?f=56");
 
-define("_AM_ADSLIGHT_MENURSSFORUM_LINK1", "http://www.i-luc.fr/adslight/modules/newbb/viewforum.php?forum=56/#googtrans/auto/en");
-define("_AM_ADSLIGHT_MENURSSFORUM_GOFORUM", "برو به تالار گفتمان");
+define("_AM_ADSLIGHT_MENURSSFORUM_LINK1","http://www.i-luc.fr/adslight/modules/newbb/viewforum.php?forum=56/#googtrans/auto/en");
+define("_AM_ADSLIGHT_MENURSSFORUM_GOFORUM","برو به تالار گفتمان");
 
-define("_AM_ADSLIGHT_MENURSSFORUM_LINK2", "http://www.i-luc.fr/adslight/modules/profile/register.php#googtrans/auto/en");
-define("_AM_ADSLIGHT_MENURSSFORUM_SUBSCRIT", "عضویت");
+define("_AM_ADSLIGHT_MENURSSFORUM_LINK2","http://www.i-luc.fr/adslight/modules/profile/register.php#googtrans/auto/en");
+define("_AM_ADSLIGHT_MENURSSFORUM_SUBSCRIT","عضویت");
 
 
 ////	RSS AdsLight News
-define("_AM_ADSLIGHT_MENURSS_TITLE", "اخبار AdsLight");
+define("_AM_ADSLIGHT_MENURSS_TITLE","اخبار AdsLight");
  
 // ../admin/view_ads.php
-define("_AM_ADSLIGHT_ADSVALIDE", "آگهی معتبر");
-define("_AM_ADSLIGHT_NOANNVALADS", "در حال حاضر تبلیغات وجود ندارد ");
-define("_AM_ADSLIGHT_USURE", "wear");
+define("_AM_ADSLIGHT_ADSVALIDE","آگهی معتبر");
+define("_AM_ADSLIGHT_NOANNVALADS","در حال حاضر تبلیغات وجود ندارد ");
+define("_AM_ADSLIGHT_USURE","wear");
 
 // Logo Paypall Donate
-define("_AM_ADSLIGHT_DONATE_LOGO", '<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+define("_AM_ADSLIGHT_DONATE_LOGO",'<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
 <input type="hidden" name="cmd" value="_s-xclick">
 <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
 ">

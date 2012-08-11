@@ -18,7 +18,7 @@
 // _CHARSET : UTF-8
 // Translator: Jarek Wiktorowicz  <www.jarek.wiktorowicz.pl>
  
-define("_XOOPS_EDITOR_FCKEDITOR", "FCK Editor");
+define("_XOOPS_EDITOR_FCKEDITOR","FCK Editor");
 define("_XOOPS_EDITOR_FCKEDITOR_FONTLIST",'Arial;Comic Sans MS;Courier New;Tahoma;Times New Roman;Verdana');
-define("_XOOPS_EDITOR_FCKEDITOR_LANGUAGE", "pl");
+define("_XOOPS_EDITOR_FCKEDITOR_LANGUAGE","pl");
 ?>

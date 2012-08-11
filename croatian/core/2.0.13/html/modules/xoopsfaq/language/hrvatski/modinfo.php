@@ -2,13 +2,13 @@
 // $Id: modinfo.php,v 1.8 2004/12/26 19:12:08 onokazu Exp $
 // Module Info 
 // The name of this module 
-define("_MI_XOOPSFAQ_NAME","Najèešæa pitanja"); 
+define("_MI_XOOPSFAQ_NAME","NajÃ¨eÅ¡Ã¦a pitanja"); 
  
 // A brief description of this module 
-define("_MI_XOOPSFAQ_DESC","Upravljanje najèešæim pitanjima"); 
+define("_MI_XOOPSFAQ_DESC","Upravljanje najÃ¨eÅ¡Ã¦im pitanjima"); 
  
 // Names of admin menu items 
-define("_MI_XOOPSFAQ_ADMENU1", "Lista naèešæih pitanja"); 
+define("_MI_XOOPSFAQ_ADMENU1","Lista naÃ¨eÅ¡Ã¦ih pitanja"); 
  
 // Names of blocks for this module (Not all module has blocks) 
 //define("_MI_",""); 

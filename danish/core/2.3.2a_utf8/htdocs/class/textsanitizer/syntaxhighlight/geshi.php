@@ -41,7 +41,7 @@
 //
 
 /** The version of this GeSHi file */
-define('GESHI_VERSION', '1.0.7.14');
+define('GESHI_VERSION','1.0.7.14');
 
 /** Set the correct directory separator */
 define('GESHI_DIR_SEPARATOR', ('WIN' != substr(PHP_OS, 0, 3)) ? '/' : '\\');
@@ -94,9 +94,9 @@ define('GESHI_VISITED', 3);
 // Note that if you change these, they should be as-is: i.e., don't
 // write them as if they had been run through htmlentities()
 /** The starter for important parts of the source */
-define('GESHI_START_IMPORTANT', '<BEGIN GeSHi>');
+define('GESHI_START_IMPORTANT','<BEGIN GeSHi>');
 /** The ender for important parts of the source */
-define('GESHI_END_IMPORTANT', '<END GeSHi>');
+define('GESHI_END_IMPORTANT','<END GeSHi>');
 
 /**#@+
  *  @access private
@@ -479,7 +479,7 @@ class GeSHi
         $this->error = false;
         $this->strict_mode = GESHI_NEVER;
         
-        $language = preg_replace('#[^a-zA-Z0-9\-_]#', '', $language);
+        $language = preg_replace('#[^a-zA-Z0-9\-_]#','', $language);
         $this->language = strtolower($language);
         
         $file_name = $this->language_path . $this->language . '.php';
@@ -1079,9 +1079,9 @@ class GeSHi
         {
             $lookup = array(
                 'actionscript' => array('as'),
-                'ada' => array('a', 'ada', 'adb', 'ads'),
+                'ada' => array('a','ada','adb','ads'),
                 'apache' => array('conf'),
-                'asm' => array('ash', 'asm'),
+                'asm' => array('ash','asm'),
                 'asp' => array('asp'),
                 'bash' => array('sh'),
                 'c' => array('c'),
@@ -1092,8 +1092,8 @@ class GeSHi
                 'cpp' => array('cpp'),
                 'csharp' => array(),
                 'css' => array('css'),
-                'delphi' => array('dpk', 'dpr'),
-                'html4strict' => array('html', 'htm'),
+                'delphi' => array('dpk','dpr'),
+                'html4strict' => array('html','htm'),
                 'java' => array('java'),
                 'javascript' => array('js'),
                 'lisp' => array('lisp'),
@@ -1104,8 +1104,8 @@ class GeSHi
                 'oobas' => array(),
                 'oracle8' => array(),
                 'pascal' => array('pas'),
-                'perl' => array('pl', 'pm'),
-                'php' => array('php', 'php5', 'phtml', 'phps'),
+                'perl' => array('pl','pm'),
+                'php' => array('php','php5','phtml','phps'),
                 'python' => array('py'),
                 'qbasic' => array('bi'),
                 'sas' => array('sas'),
@@ -1135,7 +1135,7 @@ class GeSHi
      *
      * The language table is in the form
      * <pre>array(
-     *   'lang_name' => array('extension', 'extension', ...),
+     *   'lang_name' => array('extension','extension', ...),
      *   'lang_name' ...
      * );</pre>
      * 
@@ -1904,8 +1904,8 @@ class GeSHi
                 $result = implode("\n", $lines);
             }
         // Other whitespace
-        $result = str_replace('  ', '&nbsp; ', $result);
-        $result = str_replace('  ', ' &nbsp;', $result);
+        $result = str_replace('  ','&nbsp; ', $result);
+        $result = str_replace('  ',' &nbsp;', $result);
         $result = str_replace("\n ", "\n&nbsp;", $result);
 
         if ($this->line_numbers == GESHI_NO_LINE_NUMBERS) {
@@ -1966,7 +1966,7 @@ class GeSHi
                     
                     return '<|UR1|"' .
                         str_replace(
-                            array('{FNAME}', '.'),
+                            array('{FNAME}','.'),
                             array(@htmlspecialchars($word, ENT_COMPAT, $this->encoding), '<DOT>'),
                             $this->language_data['URLS'][$group]
                         ) . '">';
@@ -2003,13 +2003,13 @@ class GeSHi
                 if (is_array($regexp)) {
                     $stuff_to_parse = preg_replace(
                         "/" .
-                        str_replace('/', '\/', $regexp[GESHI_SEARCH]) .
+                        str_replace('/','\/', $regexp[GESHI_SEARCH]) .
                         "/{$regexp[GESHI_MODIFIERS]}",
                         "{$regexp[GESHI_BEFORE]}<|!REG3XP$key!>{$regexp[GESHI_REPLACE]}|>{$regexp[GESHI_AFTER]}",
                         $stuff_to_parse
                     );
                 } else {
-                    $stuff_to_parse = preg_replace( "/(" . str_replace('/', '\/', $regexp) . ")/", "<|!REG3XP$key!>\\1|>", $stuff_to_parse);
+                    $stuff_to_parse = preg_replace( "/(" . str_replace('/','\/', $regexp) . ")/", "<|!REG3XP$key!>\\1|>", $stuff_to_parse);
                 }
             }
         }
@@ -2022,13 +2022,13 @@ class GeSHi
         // Put /NUM!/ in for the styles, which gets replaced at the end.
         //
         // NEW ONE: Brice Bernard
-        // $stuff_to_parse = preg_replace('/([^(\\w|#|\\\|"|\')])(\\d+)/', '\\1<|/NUM!/>\\2|>', $stuff_to_parse);
-        //$stuff_to_parse = preg_replace('/([-+]?\\b(?:[0-9]*\\.)?[0-9]+\\b)/', '<|/NUM!/>\\1|>', $stuff_to_parse);
+        // $stuff_to_parse = preg_replace('/([^(\\w|#|\\\|"|\')])(\\d+)/','\\1<|/NUM!/>\\2|>', $stuff_to_parse);
+        //$stuff_to_parse = preg_replace('/([-+]?\\b(?:[0-9]*\\.)?[0-9]+\\b)/','<|/NUM!/>\\1|>', $stuff_to_parse);
         //
         if ($this->lexic_permissions['NUMBERS'] && preg_match('#[0-9]#', $stuff_to_parse )) {
             //$stuff_to_parse = preg_replace('#([^a-zA-Z0-9_\#])([0-9]+)([^a-zA-Z0-9])#', "\\1<|/NUM!/>\\2|>\\3", $stuff_to_parse);
             //$stuff_to_parse = preg_replace('#([^a-zA-Z0-9_\#>])([0-9]+)([^a-zA-Z0-9])#', "\\1<|/NUM!/>\\2|>\\3", $stuff_to_parse);
-            $stuff_to_parse = preg_replace('/([-+]?\\b(?:[0-9]*\\.)?[0-9]+\\b)/', '<|/NUM!/>\\1|>', $stuff_to_parse);
+            $stuff_to_parse = preg_replace('/([-+]?\\b(?:[0-9]*\\.)?[0-9]+\\b)/','<|/NUM!/>\\1|>', $stuff_to_parse);
         }
 
         // Highlight keywords
@@ -2053,7 +2053,7 @@ class GeSHi
                             if ($this->language_data['CASE_SENSITIVE'][$k]) {
                                 $stuff_to_parse = preg_replace(
                                     "/([^a-zA-Z0-9\$_\|\#;>|^])($keyword)(?=[^a-zA-Z0-9_<\|%\-&])/e",
-                                    "'\\1' . $func2('\\2', '$k', 'BEGIN') . '<|$styles>' . $func('\\2') . '|>' . $func2('\\2', '$k', 'END')",
+                                    "'\\1' . $func2('\\2','$k','BEGIN') . '<|$styles>' . $func('\\2') . '|>' . $func2('\\2','$k','END')",
                                     $stuff_to_parse
                                 );
                             } else {
@@ -2062,7 +2062,7 @@ class GeSHi
                                 if ('smarty' == $this->language) { $hackage = '\/'; } else { $hackage = ''; }
                                 $stuff_to_parse = preg_replace(
                                     "/([^a-zA-Z0-9\$_\|\#;>$hackage|^])($keyword)(?=[^a-zA-Z0-9_<\|%\-&])/ie",
-                                    "'\\1' . $func2('\\2', '$k', 'BEGIN') . '<|$styles>' . $func('\\2') . '|>' . $func2('\\2', '$k', 'END')",
+                                    "'\\1' . $func2('\\2','$k','BEGIN') . '<|$styles>' . $func('\\2') . '|>' . $func2('\\2','$k','END')",
                                     $stuff_to_parse
                                 );
                             }
@@ -2116,7 +2116,7 @@ class GeSHi
         // be highlighting regardless
         //
         if ($this->lexic_permissions['BRACKETS']) {
-            $code_entities_match = array('[', ']', '(', ')', '{', '}');
+            $code_entities_match = array('[',']','(',')','{','}');
             if (!$this->use_classes) {
                 $code_entities_replace = array(
                     '<| style="' . $this->language_data['STYLES']['BRACKETS'][0] . '">&#91;|>',
@@ -2160,24 +2160,24 @@ class GeSHi
         }
 
         // Replace <DOT> with . for urls
-        $stuff_to_parse = str_replace('<DOT>', '.', $stuff_to_parse);
+        $stuff_to_parse = str_replace('<DOT>','.', $stuff_to_parse);
         // Replace <|UR1| with <a href= for urls also
         if (isset($this->link_styles[GESHI_LINK])) {
             if ($this->use_classes) {
-                $stuff_to_parse = str_replace('<|UR1|', '<a' . $this->link_target . ' href=', $stuff_to_parse);
+                $stuff_to_parse = str_replace('<|UR1|','<a' . $this->link_target . ' href=', $stuff_to_parse);
             } else {
-                $stuff_to_parse = str_replace('<|UR1|', '<a' . $this->link_target . ' style="' . $this->link_styles[GESHI_LINK] . '" href=', $stuff_to_parse);
+                $stuff_to_parse = str_replace('<|UR1|','<a' . $this->link_target . ' style="' . $this->link_styles[GESHI_LINK] . '" href=', $stuff_to_parse);
             }
         } else {
-            $stuff_to_parse = str_replace('<|UR1|', '<a' . $this->link_target . ' href=', $stuff_to_parse);
+            $stuff_to_parse = str_replace('<|UR1|','<a' . $this->link_target . ' href=', $stuff_to_parse);
         }
 
         //
         // NOW we add the span thingy ;)
         //
 
-        $stuff_to_parse = str_replace('<|', '<span', $stuff_to_parse);
-        $stuff_to_parse = str_replace ( '|>', '</span>', $stuff_to_parse );
+        $stuff_to_parse = str_replace('<|','<span', $stuff_to_parse);
+        $stuff_to_parse = str_replace ( '|>','</span>', $stuff_to_parse );
 
         return substr($stuff_to_parse, 1);
     }
@@ -2266,8 +2266,8 @@ class GeSHi
         }
         
         // purge some unnecessary stuff
-        $parsed_code = preg_replace('#<span[^>]+>(\s*)</span>#', '\\1', $parsed_code);
-        $parsed_code = preg_replace('#<div[^>]+>(\s*)</div>#', '\\1', $parsed_code);
+        $parsed_code = preg_replace('#<span[^>]+>(\s*)</span>#','\\1', $parsed_code);
+        $parsed_code = preg_replace('#<div[^>]+>(\s*)</div>#','\\1', $parsed_code);
 
         // If we are using IDs for line numbers, there needs to be an overall
         // ID set to prevent collisions.
@@ -2374,7 +2374,7 @@ class GeSHi
                 
         if ($this->header_type == GESHI_HEADER_PRE) {
             // enforce line numbers when using pre
-            $parsed_code = str_replace('<li></li>', '<li>&nbsp;</li>', $parsed_code);
+            $parsed_code = str_replace('<li></li>','<li>&nbsp;</li>', $parsed_code);
         }
         
         return $this->header() . chop($parsed_code) . $this->footer();

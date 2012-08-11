@@ -28,8 +28,8 @@ define("_WARNINSTALL2","UPOZORENJE: Mapa %s postoji na vašem poslužitelju. <br
 define("_WARNINWRITEABLE","UPOZORENJE: U datoteku %s je moguće pisati od strane poslužitelja. <br />Molim promjenite prava za ovu datoteku iz sigurnosnih razloga.<br /> Kod Unix (444), u Win32 (read-only)");
 
 // Error messages issued by XoopsObject::cleanVars()
-define( "_XOBJ_ERR_REQUIRED", "%s je obavezan" );
-define( "_XOBJ_ERR_SHORTERTHAN", "%s mora biti kraće od %d znakova." );
+define("_XOBJ_ERR_REQUIRED","%s je obavezan" );
+define("_XOBJ_ERR_SHORTERTHAN","%s mora biti kraće od %d znakova." );
 
 //%%%%%%	File Name themeuserpost.php 	%%%%%
 define("_PROFILE","Profil");
@@ -50,8 +50,8 @@ define("_YOURHOME","Početna stranica");
 
 //%%%%%%	File Name misc.php (who's-online popup)	%%%%%
 define("_WHOSONLINE","Tko je online");
-define('_GUESTS', 'Gosti');
-define('_MEMBERS', 'Članovi');
+define('_GUESTS','Gosti');
+define('_MEMBERS','Članovi');
 define("_ONLINEPHRASE","<strong>%s</strong> korisnik(a) je online");
 define("_ONLINEPHRASEX","<strong>%s</strong> korisnik(a) pregledava <strong>%s</strong>");
 define("_CLOSE","Zatvori");  // Close window
@@ -73,27 +73,27 @@ define("_ALIGN","Poravnavanje");
 define("_LEFT","Lijevo");
 define("_CENTER","Sredina");
 define("_RIGHT","Desno");
-define("_FORM_ENTER", "Molimo upišite %s");
+define("_FORM_ENTER","Molimo upišite %s");
 // %s represents file name
 define("_MUSTWABLE","U datoteku %s se mora moći pisati od strane poslužitelja!");
 // Module info
-define('_PREFERENCES', 'Postavke');
-define("_VERSION", "Inačica");
-define("_DESCRIPTION", "Opis");
-define("_AUTHOR", "Autor");
-define("_CREDITS", "Zahvale");
-define("_LICENCE", "Licenca");
-define("_ERRORS", "Greške");
-define("_NONE", "Ništa");
+define('_PREFERENCES','Postavke');
+define("_VERSION","Inačica");
+define("_DESCRIPTION","Opis");
+define("_AUTHOR","Autor");
+define("_CREDITS","Zahvale");
+define("_LICENCE","Licenca");
+define("_ERRORS","Greške");
+define("_NONE","Ništa");
 define('_ON','uključeno');
 define('_READS','čitanja');
 define('_WELCOMETO','Dobrodošli na %s');
 define('_SEARCH','Traži');
-define('_ALL', 'Sve');
-define('_TITLE', 'Naslov');
-define('_OPTIONS', 'Opcije');
-define('_QUOTE', 'Citat');
-define('_LIST', 'Lista');
+define('_ALL','Sve');
+define('_TITLE','Naslov');
+define('_OPTIONS','Opcije');
+define('_QUOTE','Citat');
+define('_LIST','Lista');
 define('_LOGIN','Prijava');
 define('_USERNAME','Korisničko ime: ');
 define('_PASSWORD','Lozinka: ');
@@ -103,12 +103,12 @@ define("_SEND","Pošalji");
 define("_CANCEL","Odustani");
 define("_ASCENDING","Uzlazno (A->Ž)");
 define("_DESCENDING","Silazno (Ž->A)");
-define('_BACK', 'Nazad');
-define('_NOTITLE', 'Bez naslova');
+define('_BACK','Nazad');
+define('_NOTITLE','Bez naslova');
 
 /* Image manager */
 define('_IMGMANAGER','Upravljanje slikama');
-define('_NUMIMAGES', '%s slike');
+define('_NUMIMAGES','%s slike');
 define('_ADDIMAGE','Dodaj sliku');
 define('_IMAGENAME','Ime:');
 define('_IMGMAXSIZE','Maksimalna dozvoljena veličina slike (bajtova):');
@@ -119,16 +119,16 @@ define('_IMAGEFILE','Datoteka slike:');
 define('_IMGWEIGHT','Redoslijed prikazivanja slika u upravitelju slika:');
 define('_IMGDISPLAY','Želite li prikazati ovu sliku?');
 define('_IMAGEMIME','MIME tip:');
-define('_FAILFETCHIMG', 'Ne mogu učitati datoteku %s');
-define('_FAILSAVEIMG', 'Neuspjelo spremanje slike %s u bazu podataka');
-define('_NOCACHE', 'Nema međuspremnika');
-define('_CLONE', 'Klon');
+define('_FAILFETCHIMG','Ne mogu učitati datoteku %s');
+define('_FAILSAVEIMG','Neuspjelo spremanje slike %s u bazu podataka');
+define('_NOCACHE','Nema međuspremnika');
+define('_CLONE','Klon');
 
 //%%%%%	File Name class/xoopsform/formmatchoption.php 	%%%%%
-define("_STARTSWITH", "Počinje sa");
-define("_ENDSWITH", "Završava sa");
-define("_MATCHES", "Nađeno");
-define("_CONTAINS", "Sadrži");
+define("_STARTSWITH","Počinje sa");
+define("_ENDSWITH","Završava sa");
+define("_MATCHES","Nađeno");
+define("_CONTAINS","Sadrži");
 
 //%%%%%%	File Name commentform.php 	%%%%%
 define("_REGISTER","Registracija");
@@ -154,16 +154,16 @@ define("_PLZCOMPLETE","Molimo vas da upišete naslov i poruku u polja.");
 define("_MESSAGETOOLONG","Vaša poruka je predugačka.");
 
 //%%%%%		TIME FORMAT SETTINGS   %%%%%
-define('_SECOND', '1 sekunda');
-define('_SECONDS', '%s sekundi');
-define('_MINUTE', '1 minuta');
-define('_MINUTES', '%s minuta');
-define('_HOUR', '1 sat');
-define('_HOURS', '%s sati');
-define('_DAY', '1 dan');
-define('_DAYS', '%s dana');
-define('_WEEK', '1 tjedan');
-define('_MONTH', '1 mjesec');
+define('_SECOND','1 sekunda');
+define('_SECONDS','%s sekundi');
+define('_MINUTE','1 minuta');
+define('_MINUTES','%s minuta');
+define('_HOUR','1 sat');
+define('_HOURS','%s sati');
+define('_DAY','1 dan');
+define('_DAYS','%s dana');
+define('_WEEK','1 tjedan');
+define('_MONTH','1 mjesec');
 
 define("_DATESTRING","d.m.Y H:m:s");
 define("_MEDIUMDATESTRING","d.m.Y H:m");
@@ -187,7 +187,7 @@ m - mjesec; tj. "01" do "12"
 n - mjesec bez vodećih nula; tj. "1" do "12"
 M - mjesec, tekstualno, 3 slova; tj. "Sij"
 s - sekunde; tj. "00" do "59"
-S - Engleski redni nastavak, tekstualan, 2 slova; tj. "th", "nd"
+S - Engleski redni nastavak, tekstualan, 2 slova; tj. "th","nd"
 t - broj dana u određenom mjesecu; tj. "28" do "31"
 T - Vremenska zona je postavljena na ovom uređaju; tj. "MDT"
 U - sekunde od epohe
@@ -200,9 +200,9 @@ Z - poravnavanje vremenske zone u sekundama (tj. "-43200" do "43200")
 
 
 //%%%%%		LANGUAGE SPECIFIC SETTINGS   %%%%%
-define('_CHARSET', 'UTF-8');
-define('_LANGCODE', 'hr');
+define('_CHARSET','UTF-8');
+define('_LANGCODE','hr');
 
 // change 0 to 1 if this language is a multi-bytes language
-define("XOOPS_USE_MULTIBYTES", "0");
+define("XOOPS_USE_MULTIBYTES","0");
 ?>

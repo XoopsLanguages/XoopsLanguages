@@ -30,10 +30,10 @@ define('_AM_UNEED2ENTER','Füllen Sie die Pflichtfelder aus!');
 // Added in RC3
 define('_AM_BLOCKRIGHTS','Block-Gruppenrechte');
 
-define('_AM_FINDU4GROUP', 'Mitglied für diese Gruppe suchen');
-define('_AM_GROUPSMAIN', 'Gruppenmenü');
+define('_AM_FINDU4GROUP','Mitglied für diese Gruppe suchen');
+define('_AM_GROUPSMAIN','Gruppenmenü');
 
-define('_AM_ADMINNO', 'Es muss wenigstens ein Mitglied in der Webmaster-Gruppe sein');
+define('_AM_ADMINNO','Es muss wenigstens ein Mitglied in der Webmaster-Gruppe sein');
 // Custom block, suggested by trabis
 define("_AM_CUSTOMBLOCK","Benutzerdefinierter Block");
 ?>

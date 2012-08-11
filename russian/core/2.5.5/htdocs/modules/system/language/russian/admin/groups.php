@@ -22,22 +22,22 @@ define("_AM_SYSTEM_GROUPS_NAV_TIPS_2","<ul>
 </ul>");
 
 //Infos
-define("_AM_SYSTEM_GROUPS_ACCESSRIGHTS", "Права на доступ к модулю");
+define("_AM_SYSTEM_GROUPS_ACCESSRIGHTS","Права на доступ к модулю");
 define("_AM_SYSTEM_GROUPS_ACTION","Действие");
-define("_AM_SYSTEM_GROUPS_ACTIVERIGHTS", "Права на администрирование модулей");
+define("_AM_SYSTEM_GROUPS_ACTIVERIGHTS","Права на администрирование модулей");
 define("_AM_SYSTEM_GROUPS_ADD","Создание новой группы");
-define("_AM_SYSTEM_GROUPS_BLOCKRIGHTS", "Права доступа к блокам");
-define("_AM_SYSTEM_GROUPS_CUSTOMBLOCK", "Блоки пользователя");
+define("_AM_SYSTEM_GROUPS_BLOCKRIGHTS","Права доступа к блокам");
+define("_AM_SYSTEM_GROUPS_CUSTOMBLOCK","Блоки пользователя");
 define("_AM_SYSTEM_GROUPS_DELETE","Удалить группу");
 define("_AM_SYSTEM_GROUPS_DESCRIPTION","Описание Группы");
 define("_AM_SYSTEM_GROUPS_EDIT","Редактировать группу");
-define("_AM_SYSTEM_GROUPS_ERROR_DELETE", "Вы не можете удалить эту группу");
+define("_AM_SYSTEM_GROUPS_ERROR_DELETE","Вы не можете удалить эту группу");
 define("_AM_SYSTEM_GROUPS_ID","ID");
 define("_AM_SYSTEM_GROUPS_NAME","Название Группы");
-define("_AM_SYSTEM_GROUPS_NB_USERS_BY_GROUPS", "Количество пользователей");
-define("_AM_SYSTEM_GROUPS_NB_USERS_BY_GROUPS_USERS", "%s пользователь(ей)");
-define("_AM_SYSTEM_GROUPS_SUREDEL", "Вы уверены, что хотите удалить эту группу?");
-define("_AM_SYSTEM_GROUPS_SYSTEMRIGHTS", "Права на администрирование системы");
+define("_AM_SYSTEM_GROUPS_NB_USERS_BY_GROUPS","Количество пользователей");
+define("_AM_SYSTEM_GROUPS_NB_USERS_BY_GROUPS_USERS","%s пользователь(ей)");
+define("_AM_SYSTEM_GROUPS_SUREDEL","Вы уверены, что хотите удалить эту группу?");
+define("_AM_SYSTEM_GROUPS_SYSTEMRIGHTS","Права на администрирование системы");
 
 define("_AM_SYSTEM_GROUPS_DBUPDATED", _AM_SYSTEM_DBUPDATED);
 

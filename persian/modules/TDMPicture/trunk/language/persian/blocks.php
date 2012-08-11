@@ -20,19 +20,19 @@
  * ****************************************************************************
  */
 
-define("_MB_TDMPICTURE_DISPLAY", "نمایش"); 
-define("_MB_TDMPICTURE_TITLELENGTH", "تمام قد"); 
-define("_MB_TDMPICTURE_CATTODISPLAY", "انتخاب دسته های قابل نمایش"); 
-define("_MB_TDMPICTURE_ALLCAT", "تمام دسته ها"); 
+define("_MB_TDMPICTURE_DISPLAY","نمایش"); 
+define("_MB_TDMPICTURE_TITLELENGTH","تمام قد"); 
+define("_MB_TDMPICTURE_CATTODISPLAY","انتخاب دسته های قابل نمایش"); 
+define("_MB_TDMPICTURE_ALLCAT","تمام دسته ها"); 
 
-define("_MB_TDMPICTURE_FILEVOTE", "رای"); 
-define("_MB_TDMPICTURE_FILECOUNTS", "محبوبیت"); 
-define("_MB_TDMPICTURE_FILEHITS", "بازدید"); 
-define("_MB_TDMPICTURE_POWERBY", "پیشنهاد"); 
+define("_MB_TDMPICTURE_FILEVOTE","رای"); 
+define("_MB_TDMPICTURE_FILECOUNTS","محبوبیت"); 
+define("_MB_TDMPICTURE_FILEHITS","بازدید"); 
+define("_MB_TDMPICTURE_POWERBY","پیشنهاد"); 
 
-define("_MD_TDMPICTURE_MORE", "درباره"); 
-define("_MD_TDMPICTURE_SCREEN", "تمام صفحه"); 
-define("_MD_TDMPICTURE_POWERBY", "فرستاده شده توسط");
-define("_MD_TDMPICTURE_IN", ".");
+define("_MD_TDMPICTURE_MORE","درباره"); 
+define("_MD_TDMPICTURE_SCREEN","تمام صفحه"); 
+define("_MD_TDMPICTURE_POWERBY","فرستاده شده توسط");
+define("_MD_TDMPICTURE_IN",".");
  
 ?>

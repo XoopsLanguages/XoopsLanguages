@@ -1,17 +1,17 @@
 <?php
 // $Id: preferences.php 1454 2008-04-18 09:39:38Z phppp $
-define("_MD_CPANEL_NEWS", "´º½º");
-define("_MD_CPANEL_NEWS_DESC", "XOOPS ´º½º");
-define("_MD_CPANEL_PROJECT", "ÇÁ·ÎÁ§Æ®");
-define("_MD_CPANEL_PROJECT_DESC", "XOOPS ÇÁ·ÎÁ§Æ® »çÀÌÆ®");
-define("_MD_CPANEL_COMMUNITY", "Ä¿¹Â´ÏÆ¼");
-define("_MD_CPANEL_COMMUNITY_DESC", "XOOPS °ø½Ä Ä¿¹Â´ÏÆ¼ »çÀÌÆ®");
-define("_MD_CPANEL_LOCAL", "Áö¿ªº° Áö¿ø»çÀÌÆ®");
-define("_MD_CPANEL_LOCAL_DESC", "XOOPS °øÀÎ Áö¿ªº° Áö¿ø»çÀÌÆ®");
+define("_MD_CPANEL_NEWS","ï¿½ï¿½ï¿½ï¿½");
+define("_MD_CPANEL_NEWS_DESC","XOOPS ï¿½ï¿½ï¿½ï¿½");
+define("_MD_CPANEL_PROJECT","ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ®");
+define("_MD_CPANEL_PROJECT_DESC","XOOPS ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ® ï¿½ï¿½ï¿½ï¿½Æ®");
+define("_MD_CPANEL_COMMUNITY","Ä¿ï¿½Â´ï¿½Æ¼");
+define("_MD_CPANEL_COMMUNITY_DESC","XOOPS ï¿½ï¿½ï¿½ï¿½ Ä¿ï¿½Â´ï¿½Æ¼ ï¿½ï¿½ï¿½ï¿½Æ®");
+define("_MD_CPANEL_LOCAL","ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ®");
+define("_MD_CPANEL_LOCAL_DESC","XOOPS ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ®");
 
-define("_MD_CPANEL_OVERVIEW", "½Ã½ºÅÛ °³¿ä");
-define("_MD_CPANEL_PHPEXTENSIONS", "·ÎµåµÈ PHP extensions");
-define("_MD_CPANEL_VERSION", "%s ¹öÀü");
+define("_MD_CPANEL_OVERVIEW","ï¿½Ã½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½");
+define("_MD_CPANEL_PHPEXTENSIONS","ï¿½Îµï¿½ï¿½ PHP extensions");
+define("_MD_CPANEL_VERSION","%s ï¿½ï¿½ï¿½ï¿½");
 
-define("_MD_CPANEL_QUICKLINKS", "ºü¸¥ ¸µÅ©");
+define("_MD_CPANEL_QUICKLINKS","ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Å©");
 ?>

@@ -74,7 +74,7 @@ class XoopsFormTinymce extends XoopsEditor
             //$eltname = $this->getName();
             $eltcaption = $this->getCaption();
             $eltmsg = empty($eltcaption) ? sprintf( _FORM_ENTER, $eltname ) : sprintf( _FORM_ENTER, $eltcaption );
-            $eltmsg = str_replace('"', '\"', stripslashes( $eltmsg ) );
+            $eltmsg = str_replace('"','\"', stripslashes( $eltmsg ) );
             $ret = "\n";
             $ret.= "if ( tinyMCE.get('{$eltname}').getContent() == \"\" || tinyMCE.get('{$eltname}').getContent() == null) ";
             $ret.= "{ window.alert(\"{$eltmsg}\"); tinyMCE.get('{$eltname}').focus(); return false; }";
@@ -96,7 +96,7 @@ class XoopsFormTinymce extends XoopsEditor
         if (defined("_XOOPS_EDITOR_TINYMCE_LANGUAGE")) {
             $this->language = strtolower(constant("_XOOPS_EDITOR_TINYMCE_LANGUAGE"));
         } else {
-            $this->language = str_replace('_', '-', strtolower(_LANGCODE));
+            $this->language = str_replace('_','-', strtolower(_LANGCODE));
             if(strtolower(_CHARSET) == "utf-8") {
                 $this->language .= "_utf8";
             }

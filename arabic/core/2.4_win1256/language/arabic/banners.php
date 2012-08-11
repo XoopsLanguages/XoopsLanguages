@@ -24,38 +24,38 @@ defined('XOOPS_ROOT_PATH') or die('Restricted access');
 // _LANGCODE: ar
 // _CHARSET : windows-1256
 // Translator: Arab XOOPS Team
-define('_BANNERS_MANAGEMENT', '≈œ«—… «·≈⁄·«‰« ');
-define('_BANNERS_WELCOMEBACK', '„—Õ»« »ﬂ: %s');
-define('_BANNERS_LOGGEDOUT', '«·Œ—ÊÃ „‰ ·ÊÕ…  Õﬂ„ «·≈⁄·«‰« ');
-define('_BANNERS_LOGOUT', '«·Œ—ÊÃ „‰ «œ«—… «·«⁄·«‰« ');
-define('_BANNERS_LOGIN_TITLE', '≈Õ’«∆Ì«  «·≈⁄·«‰« ');
-define('_BANNERS_LOGIN_LOGIN', '«”„ «·œŒÊ· :');
-define('_BANNERS_LOGIN_INCORRECT', '⁄›Ê« «”„ «·œŒÊ· √Ê ﬂ·„… «·„—Ê— €Ì— ’ÕÌÕ…');
-define('_BANNERS_LOGIN_PASS', 'ﬂ·„… «·„—Ê— :');
-define('_BANNERS_LOGIN_INFO', '„‰ ›÷·ﬂ √œŒ· »Ì«‰« ﬂ «·Œ«’… »«·≈⁄·«‰');
-define('_BANNERS_LOGIN_OK', 'œŒÊ·');
-define('_BANNERS_ID', '—ﬁ„ «·«⁄·«‰ «·„ ”·”·:');
-define('_BANNERS_TITLE', '«·≈⁄·«‰«  «·‰‘ÿ…');
-define('_BANNERS_URL', '€Ì¯— «·—«»ÿ:');
-define('_BANNERS_NOTHINGFOUND', '·«ÌÊÃœ');
-define('_BANNERS_NO', '#');
-define('_BANNERS_FOW_IN', '«” ⁄—«÷ «·≈⁄·«‰«  «·‰‘ÿ…: ');
-define('_BANNERS_IMP_MADE', '⁄œœ „—«  «·ŸÂÊ— «·„ Õﬁﬁ…');
-define('_BANNERS_IMP_TOTAL', '⁄œœ „—«  «·ŸÂÊ— «·ﬂ·Ì');
-define('_BANNERS_IMP_LEFT', '⁄œœ „—«  «·ŸÂÊ— «·„ »ﬁÌ…');
-define('_BANNERS_CLICKS', '«·÷€ÿ« ');
-define('_BANNERS_PER_CLICKS', '% ÷€ÿ…');
-define('_BANNERS_FUNCTIONS', 'ÊŸ«∆›/„Â«„');
-define('_BANNERS_STATS', '«Õ’«∆Ì«  «·«Ì„Ì·');
-define('_BANNERS_SHOWBANNER', '«ŸÂ— «·«⁄·«‰');
-define('_BANNERS_SEND_STATS', '«—”· <a href=\'%s\' «·⁄‰Ê«‰=\'E-mail Stats\'/>«·«Ì„Ì·</a> ·Â–« «·«⁄·«‰');
-define('_BANNERS_POINTS', 'Â–« «·≈⁄·«‰ ÌﬁÊœ «·Ï <a href=\'%s\' title=\'\'>Â–« «·—«»ÿ</a>');
-define('_BANNERS_UNLIMITED', '€Ì— „ÕœÊœ');
-define('_BANNERS_FINISHED', '≈⁄·«‰«  „‰ ÂÌ…');
-define('_BANNERS_STARTED', ' «—ÌŒ «·»œ¡');
-define('_BANNERS_ENDED', ' «—ÌŒ «·«‰ Â«¡');
-define('_BANNERS_MAIL_SUBJECT', '«Õ’«∆Ì«  «⁄·«‰ﬂ ›Ì %s');
-define('_BANNERS_MAIL_MESSAGE', '≈Õ’«∆Ì«  «·«⁄·«‰ «·„Œ «— „ «Õ… ›Ì %s :\n\n\n
+define('_BANNERS_MANAGEMENT','√Ö√è√á√ë√â √á√°√Ö√ö√°√á√§√á√ä');
+define('_BANNERS_WELCOMEBACK','√£√ë√ç√à√á √à√ü: %s');
+define('_BANNERS_LOGGEDOUT','√á√°√é√ë√¶√å √£√§ √°√¶√ç√â √ä√ç√ü√£ √á√°√Ö√ö√°√á√§√á√ä');
+define('_BANNERS_LOGOUT','√á√°√é√ë√¶√å √£√§ √á√è√á√ë√â √á√°√á√ö√°√á√§√á√ä');
+define('_BANNERS_LOGIN_TITLE','√Ö√ç√ï√á√Ü√≠√á√ä √á√°√Ö√ö√°√á√§√á√ä');
+define('_BANNERS_LOGIN_LOGIN','√á√ì√£ √á√°√è√é√¶√° :');
+define('_BANNERS_LOGIN_INCORRECT','√ö√ù√¶√á√∞ √á√ì√£ √á√°√è√é√¶√° √É√¶ √ü√°√£√â √á√°√£√ë√¶√ë √õ√≠√ë √ï√ç√≠√ç√â');
+define('_BANNERS_LOGIN_PASS','√ü√°√£√â √á√°√£√ë√¶√ë :');
+define('_BANNERS_LOGIN_INFO','√£√§ √ù√ñ√°√ü √É√è√é√° √à√≠√á√§√á√ä√ü √á√°√é√á√ï√â √à√á√°√Ö√ö√°√á√§');
+define('_BANNERS_LOGIN_OK','√è√é√¶√°');
+define('_BANNERS_ID','√ë√û√£ √á√°√á√ö√°√á√§ √á√°√£√ä√ì√°√ì√°:');
+define('_BANNERS_TITLE','√á√°√Ö√ö√°√á√§√á√ä √á√°√§√î√ò√â');
+define('_BANNERS_URL','√õ√≠√∏√ë √á√°√ë√á√à√ò:');
+define('_BANNERS_NOTHINGFOUND','√°√á√≠√¶√å√è');
+define('_BANNERS_NO','#');
+define('_BANNERS_FOW_IN','√á√ì√ä√ö√ë√á√ñ √á√°√Ö√ö√°√á√§√á√ä √á√°√§√î√ò√â: ');
+define('_BANNERS_IMP_MADE','√ö√è√è √£√ë√á√ä √á√°√ô√•√¶√ë √á√°√£√ä√ç√û√û√â');
+define('_BANNERS_IMP_TOTAL','√ö√è√è √£√ë√á√ä √á√°√ô√•√¶√ë √á√°√ü√°√≠');
+define('_BANNERS_IMP_LEFT','√ö√è√è √£√ë√á√ä √á√°√ô√•√¶√ë √á√°√£√ä√à√û√≠√â');
+define('_BANNERS_CLICKS','√á√°√ñ√õ√ò√á√ä');
+define('_BANNERS_PER_CLICKS','% √ñ√õ√ò√â');
+define('_BANNERS_FUNCTIONS','√¶√ô√á√Ü√ù/√£√•√á√£');
+define('_BANNERS_STATS','√á√ç√ï√á√Ü√≠√á√ä √á√°√á√≠√£√≠√°');
+define('_BANNERS_SHOWBANNER','√á√ô√•√ë √á√°√á√ö√°√á√§');
+define('_BANNERS_SEND_STATS','√á√ë√ì√° <a href=\'%s\' √á√°√ö√§√¶√á√§=\'E-mail Stats\'/>√á√°√á√≠√£√≠√°</a> √°√•√ê√á √á√°√á√ö√°√á√§');
+define('_BANNERS_POINTS','√•√ê√á √á√°√Ö√ö√°√á√§ √≠√û√¶√è √á√°√¨ <a href=\'%s\' title=\'\'>√•√ê√á √á√°√ë√á√à√ò</a>');
+define('_BANNERS_UNLIMITED','√õ√≠√ë √£√ç√è√¶√è');
+define('_BANNERS_FINISHED','√Ö√ö√°√á√§√á√ä √£√§√ä√•√≠√â');
+define('_BANNERS_STARTED','√ä√á√ë√≠√é √á√°√à√è√Å');
+define('_BANNERS_ENDED','√ä√á√ë√≠√é √á√°√á√§√ä√•√á√Å');
+define('_BANNERS_MAIL_SUBJECT','√á√ç√ï√á√Ü√≠√á√ä √á√ö√°√á√§√ü √ù√≠ %s');
+define('_BANNERS_MAIL_MESSAGE','√Ö√ç√ï√á√Ü√≠√á√ä √á√°√á√ö√°√á√§ √á√°√£√é√ä√á√ë √£√ä√á√ç√â √ù√≠ %s :\n\n\n
 Client Name: %s\nBanner ID: %s\n
 Banner Image: %s\n
 Banner URL: %s\n\n
@@ -65,14 +65,14 @@ Impressions Left: %s\n
 Clicks Received: %s\n
 Clicks Percent: %f \n\n\n
 Report Generated on: %s');
-define('_BANNERS_MAIL_NOT_OK', '⁄›Ê« Â‰«·ﬂ «‘ﬂ«· ›Ì «—”«· «·«Ì„Ì· ..«·—Ã«¡ „—«Ã⁄… „œÌ— «·„Êﬁ⁄ »Â–« «·Œ’Ê’.');
-define('_BANNERS_MAIL_OK', ' „ «—”«· «Õ’«∆Ì«  «·≈⁄·«‰ «·„Œ «— «·Ï »—Ìœﬂ «·«·ﬂ —Ê‰Ì «·–Ì «‘ —ﬂ  »Â.');
-define('_BANNERS_MAIL_ERROR', '⁄›Ê«..·«ÌÊÃœ »—Ìœﬂ «·Ìﬂ —Ê‰Ì ·Â–« «·⁄„Ì· %s.<br />«·—Ã«¡ «·« ’«· »„œÌ— «·„Êﬁ⁄');
-define('_BANNERS_DBUPDATED', ' „  ⁄œÌ· «·⁄‰«’— Ê ÕœÌÀ ﬁ«⁄œ… «·»Ì«‰« ');
-define('_BANNERS_DBERROR', '⁄›Ê« .. ·„ Ì „  ÕœÌÀ ﬁ«⁄œ… «·»Ì«‰«  ·ÊÃÊœ Œÿ√ „«');
-define('_BANNERS_CHANGE', ' €ÌÌ—');
+define('_BANNERS_MAIL_NOT_OK','√ö√ù√¶√á√∞ √•√§√á√°√ü √á√î√ü√á√° √ù√≠ √á√ë√ì√á√° √á√°√á√≠√£√≠√° ..√á√°√ë√å√á√Å √£√ë√á√å√ö√â √£√è√≠√ë √á√°√£√¶√û√ö √à√•√ê√á √á√°√é√ï√¶√ï.');
+define('_BANNERS_MAIL_OK','√ä√£ √á√ë√ì√á√° √á√ç√ï√á√Ü√≠√á√ä √á√°√Ö√ö√°√á√§ √á√°√£√é√ä√á√ë √á√°√¨ √à√ë√≠√è√ü √á√°√á√°√ü√ä√ë√¶√§√≠ √á√°√ê√≠ √á√î√ä√ë√ü√ä √à√•.');
+define('_BANNERS_MAIL_ERROR','√ö√ù√¶√á√∞..√°√á√≠√¶√å√è √à√ë√≠√è√ü √á√°√≠√ü√ä√ë√¶√§√≠ √°√•√ê√á √á√°√ö√£√≠√° %s.<br />√á√°√ë√å√á√Å √á√°√á√ä√ï√á√° √à√£√è√≠√ë √á√°√£√¶√û√ö');
+define('_BANNERS_DBUPDATED','√ä√£ √ä√ö√è√≠√° √á√°√ö√§√á√ï√ë √¶√ä√ç√è√≠√ã √û√á√ö√è√â √á√°√à√≠√á√§√á√ä');
+define('_BANNERS_DBERROR','√ö√ù√¶√á√∞ .. √°√£ √≠√ä√£ √ä√ç√è√≠√ã √û√á√ö√è√â √á√°√à√≠√á√§√á√ä √°√¶√å√¶√è √é√ò√É √£√á');
+define('_BANNERS_CHANGE','√ä√õ√≠√≠√ë');
 
-define('_BANNERS_NO_LOGIN_DATA', '·«   Ê›— »Ì«‰«  «·œŒÊ·');
-define('_BANNERS_NO_REFERER', '·« Ì Ê›— —«»ÿ „ÕÌ·');
-define('_BANNERS_NO_ID', '·« Ì Ê›— —ﬁ„ ≈⁄·«‰ ’ÕÌÕ');
+define('_BANNERS_NO_LOGIN_DATA','√°√á √ä√ä√¶√ù√ë √à√≠√á√§√á√ä √á√°√è√é√¶√°');
+define('_BANNERS_NO_REFERER','√°√á √≠√ä√¶√ù√ë √ë√á√à√ò √£√ç√≠√°');
+define('_BANNERS_NO_ID','√°√á √≠√ä√¶√ù√ë √ë√û√£ √Ö√ö√°√á√§ √ï√ç√≠√ç');
 ?>

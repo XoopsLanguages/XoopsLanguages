@@ -95,7 +95,7 @@ define($constpref."_CONFIG17","تعداد  نوشته های جدید در هر 
 define($constpref."_CONFIG17_D","");
 define($constpref."_CONFIG18","نمایش مسر صفحه (breadcrumbs) شاخه؟");
 define($constpref."_CONFIG18_D","شاخه درختی در هر صفحه نمایش داده میشود.");define($constpref.'_CONFIG19','استفاده از common/fckeditor');
-define($constpref.'_CONFIG19_D', 'فرستنده بتواند از ویرایشگر FCKeditor در زوپس استفاده کند اگر او اجازه استفاده از کد ها HTML را داشت');
+define($constpref.'_CONFIG19_D','فرستنده بتواند از ویرایشگر FCKeditor در زوپس استفاده کند اگر او اجازه استفاده از کد ها HTML را داشت');
 
 
 // Text for notifications
@@ -126,10 +126,10 @@ define($constpref."_STORY_APPROVE_NOTIFYDSC","وقتی این خبر تایید 
 define($constpref."_STORY_APPROVE_NOTIFYSBJ","[{X_SITENAME}] {X_MODULE}: تایید خبر");
 
 // added 2.01
-define($constpref."_NOTIFY5_TITLE", "نظر جدید اضافه شد");
-define($constpref."_NOTIFY5_CAPTION", "وقتی نظر جدیدی اضافه شد مرا با خبر کن.");
-define($constpref."_NOTIFY5_DESC", "وقتی نظر جدیدی اضافه شد مرا با خبر کن.");
-define($constpref."_NOTIFY5_SUBJECT", "[{X_SITENAME}] {X_MODULE}: نظر جدید اضافه شد");
+define($constpref."_NOTIFY5_TITLE","نظر جدید اضافه شد");
+define($constpref."_NOTIFY5_CAPTION","وقتی نظر جدیدی اضافه شد مرا با خبر کن.");
+define($constpref."_NOTIFY5_DESC","وقتی نظر جدیدی اضافه شد مرا با خبر کن.");
+define($constpref."_NOTIFY5_SUBJECT","[{X_SITENAME}] {X_MODULE}: نظر جدید اضافه شد");
 
 }
 ?>

@@ -97,7 +97,7 @@ define('_AM_CATEGORYIMG','تصویر شاخه');
 define('_AM_IMGNAEXLOC','نام تصویر + پیشوند در %s قرار دارد');
 define('_AM_CATEGORY_PICTURE','بارگذاری تصویر');
 define('_AM_UPLOAD_WARNING','<B>هشدار، فراموش نکنید که برای شاخه مقابل دسترسی برای نوشتن بدهید : %s</B>');
-define('_AM_VIEWFORM', 'دسترسی برای دیدن شاخه');
+define('_AM_VIEWFORM','دسترسی برای دیدن شاخه');
 define('_AM_UPLOAD_ERROR','خطا در هنگام بارگذاری فایل');
 define('_ADD_CATEGORY','شاخه با موفقیت اضافه شد.');
 define('_EDIT_CATEGORY','شاخه با موفقیت ویرایش شد.');

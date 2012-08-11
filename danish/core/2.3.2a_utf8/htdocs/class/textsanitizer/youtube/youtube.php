@@ -50,7 +50,7 @@ EOH;
     function load(&$ts) 
     {
         $ts->patterns[] = "/\[youtube=(['\"]?)([^\"']*),([^\"']*)\\1]([^\"]*)\[\/youtube\]/esU";
-        $ts->replacements[] = __CLASS__ . "::decode( '\\4', '\\2', '\\3' )";
+        $ts->replacements[] = __CLASS__ . "::decode( '\\4','\\2','\\3' )";
     }
     
     function decode($url, $width, $height)

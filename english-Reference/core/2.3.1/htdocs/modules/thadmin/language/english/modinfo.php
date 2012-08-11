@@ -16,14 +16,14 @@
  */
 
 // Main
-define('_THADMIN_MODULE_NAME', 'ThAdmin');
-define('_THADMIN_MODULE_DESC', 'ThAdmin is a module for manage your administration theme');
+define('_THADMIN_MODULE_NAME','ThAdmin');
+define('_THADMIN_MODULE_DESC','ThAdmin is a module for manage your administration theme');
 // Menu
-define('_THADMIN_MENU_HOME', 'Home');
-define('_THADMIN_MENU_HELP', 'Help');
+define('_THADMIN_MENU_HOME','Home');
+define('_THADMIN_MENU_HELP','Help');
 // Settings
-define('_THADMIN_ADMINTHEME', 'Default Theme');
-define('_THADMIN_ADMINTHEME_DESC', 'Choose the default theme for your admin area');
-define('_THADMIN_CPANELEONLY', 'Display Warning ?');
-define('_THADMIN_CPANELEONLY_DESC', 'Hide the warning messages on cpanel interface');
+define('_THADMIN_ADMINTHEME','Default Theme');
+define('_THADMIN_ADMINTHEME_DESC','Choose the default theme for your admin area');
+define('_THADMIN_CPANELEONLY','Display Warning ?');
+define('_THADMIN_CPANELEONLY_DESC','Hide the warning messages on cpanel interface');
 ?>

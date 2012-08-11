@@ -30,31 +30,31 @@
 //  ------------------------------------------------------------------------ //
 
 //%%%%%%	Admin Module Name  Polls 	%%%%%
-define("_AM_DBUPDATED","µ¥ÀÌÅ¸º£ÀÌ½º¸¦ ¼º°øÀûÀ¸·Î °»½ÅÇÏ¿´½À´Ï´Ù!");
-define("_AM_POLLCONF","ÅõÇ¥ ¼³Á¤");
-define("_AM_POLLSLIST", "ÅõÇ¥ ¸®½ºÆ®");
-define("_AM_AUTHOR", "ÅõÇ¥ ÀÛ¼ºÀÚ");
-define("_AM_DISPLAYBLOCK", "ºí·Ï¿¡ Ç¥½Ã");
-define("_AM_POLLQUESTION", "Áú¹®");
-define("_AM_VOTERS", "ÅõÇ¥ÀÚ ¼ö");
-define("_AM_VOTES", "ÃÑ ÅõÇ¥ ¼ö");
-define("_AM_EXPIRATION", "±âÇÑ");
-define("_AM_EXPIRED", "Á¾·á");
-define("_AM_VIEWLOG","·Î±× ¿­¶÷");
-define("_AM_CREATNEWPOLL", "½Å±Ô ÅõÇ¥ÀÇ ÀÛ¼º");
-define("_AM_POLLDESC", "¼³¸í");
-define("_AM_DISPLAYORDER", "Ç¥½Ã¼ø");
-define("_AM_ALLOWMULTI", "´ÙÁß¼±ÅÃÀ» Çã°¡ÇÔ");
-define("_AM_NOTIFY", "ÅõÇ¥Á¾·á½Ã¿¡ ÀÛ¼ºÀÚ¿¡°Ô ÅëÁö¸ÞÀÏÀ» º¸³¿");
-define("_AM_POLLOPTIONS", "¼±ÅÃÇ×¸ñ");
-define("_AM_EDITPOLL", "ÅõÇ¥ÀÇ ÆíÁý");
-define("_AM_FORMAT", "Çü½Ä: yyyy-mm-dd hh:mm:ss");
-define("_AM_CURRENTTIME", "ÇöÀç ½Ã°¢: %s");
-define("_AM_EXPIREDAT", "%s ¿¡ Á¾·á");
-define("_AM_RESTART", "ÀÌ ÅõÇ¥¸¦ Àç°³ÇÔ");
-define("_AM_ADDMORE", "¼±ÅÃÇ×¸ñÀ» Ãß°¡");
-define("_AM_RUSUREDEL", "Á¤¸»·Î ÀÌ ÅõÇ¥¿Í ±×¿¡ ¼ÓÇÑ ÄÚ¸àÆ®µîÀ» ¸ðµÎ »èÁ¦ÇÏ½Ã°Ú½À´Ï±î?");
-define("_AM_RESTARTPOLL", "ÅõÇ¥¸¦ Àç°³ÇÔ");
-define("_AM_RESET", "ÅõÇ¥ ·Î±×µ¥ÀÌÅ¸¸¦ ÃÊ±âÈ­ÇÔ");
-define("_AM_ADDPOLL","ÅõÇ¥ Ãß°¡");
+define("_AM_DBUPDATED","ï¿½ï¿½ï¿½ï¿½Å¸ï¿½ï¿½ï¿½Ì½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï¿ï¿½ï¿½ï¿½ï¿½Ï´ï¿½!");
+define("_AM_POLLCONF","ï¿½ï¿½Ç¥ ï¿½ï¿½ï¿½ï¿½");
+define("_AM_POLLSLIST","ï¿½ï¿½Ç¥ ï¿½ï¿½ï¿½ï¿½Æ®");
+define("_AM_AUTHOR","ï¿½ï¿½Ç¥ ï¿½Û¼ï¿½ï¿½ï¿½");
+define("_AM_DISPLAYBLOCK","ï¿½ï¿½Ï¿ï¿½ Ç¥ï¿½ï¿½");
+define("_AM_POLLQUESTION","ï¿½ï¿½ï¿½ï¿½");
+define("_AM_VOTERS","ï¿½ï¿½Ç¥ï¿½ï¿½ ï¿½ï¿½");
+define("_AM_VOTES","ï¿½ï¿½ ï¿½ï¿½Ç¥ ï¿½ï¿½");
+define("_AM_EXPIRATION","ï¿½ï¿½ï¿½ï¿½");
+define("_AM_EXPIRED","ï¿½ï¿½ï¿½ï¿½");
+define("_AM_VIEWLOG","ï¿½Î±ï¿½ ï¿½ï¿½ï¿½ï¿½");
+define("_AM_CREATNEWPOLL","ï¿½Å±ï¿½ ï¿½ï¿½Ç¥ï¿½ï¿½ ï¿½Û¼ï¿½");
+define("_AM_POLLDESC","ï¿½ï¿½ï¿½ï¿½");
+define("_AM_DISPLAYORDER","Ç¥ï¿½Ã¼ï¿½");
+define("_AM_ALLOWMULTI","ï¿½ï¿½ï¿½ß¼ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ã°¡ï¿½ï¿½");
+define("_AM_NOTIFY","ï¿½ï¿½Ç¥ï¿½ï¿½ï¿½ï¿½Ã¿ï¿½ ï¿½Û¼ï¿½ï¿½Ú¿ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½");
+define("_AM_POLLOPTIONS","ï¿½ï¿½ï¿½ï¿½ï¿½×¸ï¿½");
+define("_AM_EDITPOLL","ï¿½ï¿½Ç¥ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½");
+define("_AM_FORMAT","ï¿½ï¿½ï¿½ï¿½: yyyy-mm-dd hh:mm:ss");
+define("_AM_CURRENTTIME","ï¿½ï¿½ï¿½ï¿½ ï¿½Ã°ï¿½: %s");
+define("_AM_EXPIREDAT","%s ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½");
+define("_AM_RESTART","ï¿½ï¿½ ï¿½ï¿½Ç¥ï¿½ï¿½ ï¿½ç°³ï¿½ï¿½");
+define("_AM_ADDMORE","ï¿½ï¿½ï¿½ï¿½ï¿½×¸ï¿½ï¿½ï¿½ ï¿½ß°ï¿½");
+define("_AM_RUSUREDEL","ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½Ç¥ï¿½ï¿½ ï¿½×¿ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ú¸ï¿½Æ®ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï½Ã°Ú½ï¿½ï¿½Ï±ï¿½?");
+define("_AM_RESTARTPOLL","ï¿½ï¿½Ç¥ï¿½ï¿½ ï¿½ç°³ï¿½ï¿½");
+define("_AM_RESET","ï¿½ï¿½Ç¥ ï¿½Î±×µï¿½ï¿½ï¿½Å¸ï¿½ï¿½ ï¿½Ê±ï¿½È­ï¿½ï¿½");
+define("_AM_ADDPOLL","ï¿½ï¿½Ç¥ ï¿½ß°ï¿½");
 ?>

@@ -58,7 +58,7 @@ define('_AM_SYSTEM_FILEMANAGER_DIR_SUCCESS','Directorio creado correctamente');
 define('_AM_SYSTEM_FILEMANAGER_DIR_ERROR','No se pudo crear el directorio');
 define('_AM_SYSTEM_FILEMANAGER_DIR_RYSDEL','¿Realmente desea eliminar este directorio?');
 define('_AM_SYSTEM_FILEMANAGER_FILE_SUCCESS','Archivo creado correctamente');
-define('_AM_SYSTEM_FILEMANAGER_SUREDEL', '¿Realmente desea eliminar este archivo %s?');
-define('_AM_SYSTEM_FILEMANAGER_DIR_SUREDEL', 'Esta seguro que desea borrar el directorio %s ?<br /> Cuidado : todos los ficheros y subdirectorios seran borrados');
+define('_AM_SYSTEM_FILEMANAGER_SUREDEL','¿Realmente desea eliminar este archivo %s?');
+define('_AM_SYSTEM_FILEMANAGER_DIR_SUREDEL','Esta seguro que desea borrar el directorio %s ?<br /> Cuidado : todos los ficheros y subdirectorios seran borrados');
 
 ?>

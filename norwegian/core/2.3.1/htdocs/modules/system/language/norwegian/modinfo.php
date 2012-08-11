@@ -15,13 +15,13 @@ define("_MI_SYSTEM_BNAME4","Søk");
 define("_MI_SYSTEM_BNAME5","Ventende innhold");
 define("_MI_SYSTEM_BNAME6","Hovedmeny");
 define("_MI_SYSTEM_BNAME7","Info om hjemmesiden");
-define('_MI_SYSTEM_BNAME8', "Hvem er pålogget");
-define('_MI_SYSTEM_BNAME9', "Flest innlegg");
-define('_MI_SYSTEM_BNAME10', "Nye  medlemmer");
-define('_MI_SYSTEM_BNAME11', "Nye kommentarer");
+define('_MI_SYSTEM_BNAME8',"Hvem er pålogget");
+define('_MI_SYSTEM_BNAME9',"Flest innlegg");
+define('_MI_SYSTEM_BNAME10',"Nye  medlemmer");
+define('_MI_SYSTEM_BNAME11',"Nye kommentarer");
 // RMV-NOTIFY
-define('_MI_SYSTEM_BNAME12', "Varslingsvalg");
-define('_MI_SYSTEM_BNAME13', "Temaer");
+define('_MI_SYSTEM_BNAME12',"Varslingsvalg");
+define('_MI_SYSTEM_BNAME13',"Temaer");
 
 // Names of admin menu items
 define("_MI_SYSTEM_ADMENU1","Bannere");
@@ -33,9 +33,9 @@ define("_MI_SYSTEM_ADMENU7","Smilies");
 define("_MI_SYSTEM_ADMENU9","Bruker rangeringer");
 define("_MI_SYSTEM_ADMENU10","Rediger bruker");
 define("_MI_SYSTEM_ADMENU11","Send epost til brukere");
-define("_MI_SYSTEM_ADMENU12", "Finn brukere");
-define("_MI_SYSTEM_ADMENU13", "Bilder");
-define("_MI_SYSTEM_ADMENU14", "Avatarer");
-define("_MI_SYSTEM_ADMENU15", "Maler");
-define("_MI_SYSTEM_ADMENU16", "Kommentarer");
+define("_MI_SYSTEM_ADMENU12","Finn brukere");
+define("_MI_SYSTEM_ADMENU13","Bilder");
+define("_MI_SYSTEM_ADMENU14","Avatarer");
+define("_MI_SYSTEM_ADMENU15","Maler");
+define("_MI_SYSTEM_ADMENU16","Kommentarer");
 ?>

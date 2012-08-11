@@ -71,6 +71,6 @@ define("_MD_NO","아니요");
 define("_MD_DELETETHISART","삭제할 기사: %s"); // %s is a section name
 define("_MD_RUSUREDELART","정말로 이 기사를 삭제하실 건가요??");
 define("_MD_DBUPDATED","데이타베이스를 성공적으로 갱신하였습니다!");
-define("_MD_ERRORSECNAME", "섹션명을 입력하셔야만 합니다!");
+define("_MD_ERRORSECNAME","섹션명을 입력하셔야만 합니다!");
 define("_MD_DBNOTUPDATED","기사의 추가에 실패하였습니다.<br/>섹션이 올바르게 선택되어져 있는지 다시 한번 확인해 주세요.");
 ?>

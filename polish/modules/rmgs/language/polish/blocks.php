@@ -33,15 +33,15 @@
 * @version: 0.1.2                                                  *
 * @modificado: 01/03/2006 10:26:36 p.m.                            *
 *******************************************************************/
-define('_BK_RMGS_BY', 'Autor:');
-define('_BK_RMGS_DATE', 'Data: ');
-define('_BK_RMGS_DOWNS', 'Dostep: ');
-define('_BK_RMGS_VOTES', 'G³osów:');
-define('_BK_RMGS_CATEGOS', 'Kategorie:');
-define('_BK_RMGS_SELEC', 'Zaznacz...');
-define('_MI_RMGS_BKREC_NUMBER', 'Liczba Obrazów:');
-define('_MI_RMGS_BKREC_COLS', 'Liczba Kolumn:');
+define('_BK_RMGS_BY','Autor:');
+define('_BK_RMGS_DATE','Data: ');
+define('_BK_RMGS_DOWNS','Dostep: ');
+define('_BK_RMGS_VOTES','GÂ³osÃ³w:');
+define('_BK_RMGS_CATEGOS','Kategorie:');
+define('_BK_RMGS_SELEC','Zaznacz...');
+define('_MI_RMGS_BKREC_NUMBER','Liczba ObrazÃ³w:');
+define('_MI_RMGS_BKREC_COLS','Liczba Kolumn:');
 //Added by Kaotik
-define('_MI_RMGS_RANDOMIMGBK', 'Przypadkowe obrazy (random block):');
-define('_MI_RMGS_BKCOL_NUMBER', 'Liczba Kolumn:');
+define('_MI_RMGS_RANDOMIMGBK','Przypadkowe obrazy (random block):');
+define('_MI_RMGS_BKCOL_NUMBER','Liczba Kolumn:');
 ?>

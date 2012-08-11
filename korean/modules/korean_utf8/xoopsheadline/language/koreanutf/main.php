@@ -29,15 +29,15 @@
 //  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 USA //
 //  ------------------------------------------------------------------------ //
 
-define('_HL_LASTBUILD', '최종갱신일');
-define('_HL_LANGUAGE', '언어');
-define('_HL_DESCRIPTION', '사이트');
-define('_HL_WEBMASTER', '웹마스터');
-define('_HL_CATEGORY', '카테고리');
-define('_HL_GENERATOR', '작성');
-define('_HL_TITLE', '제목');
-define('_HL_PUBDATE', '공개');
-define('_HL_FAILGET', '%s 로부터 RSS를 가져오는데 실패하였습니다.');
-define('_HL_GOTOTOP', 'TOP로');
-define('_HL_HEADLINES', '헤드라인');
+define('_HL_LASTBUILD','최종갱신일');
+define('_HL_LANGUAGE','언어');
+define('_HL_DESCRIPTION','사이트');
+define('_HL_WEBMASTER','웹마스터');
+define('_HL_CATEGORY','카테고리');
+define('_HL_GENERATOR','작성');
+define('_HL_TITLE','제목');
+define('_HL_PUBDATE','공개');
+define('_HL_FAILGET','%s 로부터 RSS를 가져오는데 실패하였습니다.');
+define('_HL_GOTOTOP','TOP로');
+define('_HL_HEADLINES','헤드라인');
 ?>

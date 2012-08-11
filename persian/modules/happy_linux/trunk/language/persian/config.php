@@ -1,26 +1,26 @@
 <?php
 // Translated to Persian By : www.irxoops.org version 1.30
 // bin command
-define('_HAPPY_LINUX_CONF_COMMAND_MANAGE', 'مدیریت فرمان ها');
-define('_HAPPY_LINUX_CONF_CREATE_CONFIG', 'ساخت فایل Config');
+define('_HAPPY_LINUX_CONF_COMMAND_MANAGE','مدیریت فرمان ها');
+define('_HAPPY_LINUX_CONF_CREATE_CONFIG','ساخت فایل Config');
 define('_HAPPY_LINUX_CONF_TEST_BIN','برسی اجرا فرمان صندوق');
-define('_HAPPY_LINUX_CONF_BIN', 'مدیریت فرمان');
-define('_HAPPY_LINUX_CONF_BIN_DESC', 'استفاده از فرمان صندوق');
+define('_HAPPY_LINUX_CONF_BIN','مدیریت فرمان');
+define('_HAPPY_LINUX_CONF_BIN_DESC','استفاده از فرمان صندوق');
 define('_HAPPY_LINUX_CONF_BIN_PASS','واژه رمز');
 define('_HAPPY_LINUX_CONF_BIN_MAILTO','آدرس ایمیل ارسال کننده');
 define('_HAPPY_LINUX_CONF_BIN_SEND','ارسال ایمیل');
 define('_HAPPY_LINUX_CONF_BIN_SEND_NON',     'ارسال نشود');
-define('_HAPPY_LINUX_CONF_BIN_SEND_EXECUTE', 'ارسال در هنگام اجرا');
+define('_HAPPY_LINUX_CONF_BIN_SEND_EXECUTE','ارسال در هنگام اجرا');
 define('_HAPPY_LINUX_CONF_BIN_SEND_ALWAYS',  'همیشه ارسال شود');
 
 // rss
-define('_HAPPY_LINUX_CONF_RSS_MANAGE', 'مدیریت RDF/RSS/ATOM');
-define('_HAPPY_LINUX_CONF_RSS_MANAGE_DESC', 'مدیریت و نمایش RDF/RSS/ATOM');
-define('_HAPPY_LINUX_CONF_SHOW_RDF', 'نمایش RDF');
-define('_HAPPY_LINUX_CONF_SHOW_RSS', 'نمایش RSS');
+define('_HAPPY_LINUX_CONF_RSS_MANAGE','مدیریت RDF/RSS/ATOM');
+define('_HAPPY_LINUX_CONF_RSS_MANAGE_DESC','مدیریت و نمایش RDF/RSS/ATOM');
+define('_HAPPY_LINUX_CONF_SHOW_RDF','نمایش RDF');
+define('_HAPPY_LINUX_CONF_SHOW_RSS','نمایش RSS');
 define('_HAPPY_LINUX_CONF_SHOW_ATOM','نمایش ATOM');
-define('_HAPPY_LINUX_CONF_DEBUG_RDF', 'نمایش خطا گیر RDF');
-define('_HAPPY_LINUX_CONF_DEBUG_RSS', 'نمایش خطا گیر RSS');
+define('_HAPPY_LINUX_CONF_DEBUG_RDF','نمایش خطا گیر RDF');
+define('_HAPPY_LINUX_CONF_DEBUG_RSS','نمایش خطا گیر RSS');
 define('_HAPPY_LINUX_CONF_DEBUG_ATOM','نمایش خطا گیر ATOM');
 
 // template

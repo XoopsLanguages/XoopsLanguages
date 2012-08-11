@@ -43,7 +43,7 @@ define("_MD_AM_FAILUNINS","Unable to uninstall %s.");
 define("_MD_AM_FAILORDER","Unable to reorder %s.");
 define("_MD_AM_FAILWRITE","Unable to write to main menu.");
 define("_MD_AM_ALEXISTS","Module %s already exists.");
-define("_MD_AM_ERRORSC", "Error(s):");
+define("_MD_AM_ERRORSC","Error(s):");
 define("_MD_AM_OKINS","Module %s installed successfully.");
 define("_MD_AM_OKACT","Module %s activated successfully.");
 define("_MD_AM_OKDEACT","Module %s deactivated successfully.");
@@ -51,10 +51,10 @@ define("_MD_AM_OKUPD","Module %s updated successfully.");
 define("_MD_AM_OKUNINS","Module %s uninstalled successfully.");
 define("_MD_AM_OKORDER","Module %s changed successfully.");
 
-define('_MD_AM_RUSUREINS', 'Press the button below to install this module');
-define('_MD_AM_RUSUREUPD', 'Press the button below to update this module');
-define('_MD_AM_RUSUREUNINS', 'Are you sure you would like to uninstall this module?');
-define('_MD_AM_LISTUPBLKS', 'The following blocks will be updated.<br />Select the blocks of which contents (template and options) may be overwritten.<br />');
-define('_MD_AM_NEWBLKS', 'New Blocks');
-define('_MD_AM_DEPREBLKS', 'Deprecated Blocks');
+define('_MD_AM_RUSUREINS','Press the button below to install this module');
+define('_MD_AM_RUSUREUPD','Press the button below to update this module');
+define('_MD_AM_RUSUREUNINS','Are you sure you would like to uninstall this module?');
+define('_MD_AM_LISTUPBLKS','The following blocks will be updated.<br />Select the blocks of which contents (template and options) may be overwritten.<br />');
+define('_MD_AM_NEWBLKS','New Blocks');
+define('_MD_AM_DEPREBLKS','Deprecated Blocks');
 ?>

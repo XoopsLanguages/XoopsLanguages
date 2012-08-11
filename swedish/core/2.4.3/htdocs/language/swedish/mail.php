@@ -25,13 +25,13 @@ defined('XOOPS_ROOT_PATH') or die('Endast behöriga användare');
 // _LANGCODE: en
 // _CHARSET : UTF-8
 // Translator: XOOPS Translation Team
-define('_MAIL_MSGBODY', 'Inget meddelande angivet.');
-define('_MAIL_FAILOPTPL', 'Misslyckades med att öppna mallfilen.');
-define('_MAIL_FNAMENG', 'Avsändarnamn inte angivet.');
-define('_MAIL_FEMAILNG', 'Avsändare-postadress inte angivet.');
-define('_MAIL_SENDMAILNG', 'Kunde inte skicka e-post till %s.');
-define('_MAIL_MAILGOOD', 'E-post skickad till %s.');
-define('_MAIL_SENDPMNG', 'Kunde inte skicka ett privat meddelande till %s.');
-define('_MAIL_PMGOOD', 'Privat meddelande till %s.');
+define('_MAIL_MSGBODY','Inget meddelande angivet.');
+define('_MAIL_FAILOPTPL','Misslyckades med att öppna mallfilen.');
+define('_MAIL_FNAMENG','Avsändarnamn inte angivet.');
+define('_MAIL_FEMAILNG','Avsändare-postadress inte angivet.');
+define('_MAIL_SENDMAILNG','Kunde inte skicka e-post till %s.');
+define('_MAIL_MAILGOOD','E-post skickad till %s.');
+define('_MAIL_SENDPMNG','Kunde inte skicka ett privat meddelande till %s.');
+define('_MAIL_PMGOOD','Privat meddelande till %s.');
 
 ?>

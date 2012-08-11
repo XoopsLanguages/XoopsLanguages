@@ -13,8 +13,8 @@
  * @package		Frameworks::transfer
  */
  
-define("_MD_TRANSFER", "تولکیت");
-define("_MD_TRANSFER_DESC", "ارسال به یک برنامه دیگر");
-define("_MD_TRANSFER_DONE", "عملیات با مفقیت انجام شد");
-define("_MD_TRANSFER_MORE", "گزینه های بیشتر");
+define("_MD_TRANSFER","تولکیت");
+define("_MD_TRANSFER_DESC","ارسال به یک برنامه دیگر");
+define("_MD_TRANSFER_DONE","عملیات با مفقیت انجام شد");
+define("_MD_TRANSFER_MORE","گزینه های بیشتر");
 ?>

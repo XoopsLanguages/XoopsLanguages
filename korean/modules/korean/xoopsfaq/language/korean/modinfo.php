@@ -31,13 +31,13 @@
 
 // Module Info
 // The name of this module
-define("_MI_XOOPSFAQ_NAME","FAQ(Âü°íÁú¹®)");
+define("_MI_XOOPSFAQ_NAME","FAQ(ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½)");
 
 // A brief description of this module
-define("_MI_XOOPSFAQ_DESC","FAQ(Âü°íÁú¹®)À» ÀÛ¼ºÇÏ±â À§ÇÑ ¸ðµâÀÔ´Ï´Ù.");
+define("_MI_XOOPSFAQ_DESC","FAQ(ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½)ï¿½ï¿½ ï¿½Û¼ï¿½ï¿½Ï±ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ô´Ï´ï¿½.");
 
 // Names of admin menu items
-define("_MI_XOOPSFAQ_ADMENU1", "FAQ(Âü°íÁú¹®) ¸®½ºÆ®");
+define("_MI_XOOPSFAQ_ADMENU1","FAQ(ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½) ï¿½ï¿½ï¿½ï¿½Æ®");
 
 // Names of blocks for this module (Not all module has blocks)
 //define("_MI_","");

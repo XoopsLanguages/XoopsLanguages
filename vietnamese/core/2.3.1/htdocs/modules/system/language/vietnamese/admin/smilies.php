@@ -19,5 +19,5 @@ define('_AM_SMILEEMOTION','Mô tả:');//Description:
 define('_AM_ADD','Thêm');//Add
 define('_AM_SAVE','Lưu');//Save
 define('_AM_WAYSYWTDTS','CẢNH BÁO: bạn có chắc chắn muốn xóa hình mặt cười này không?');//WARNING: Are you sure you want to delete this Smile?
-define('_AM_DISPLAYF', 'Cho thấy trong các mẫu?');//Display in form?
+define('_AM_DISPLAYF','Cho thấy trong các mẫu?');//Display in form?
 ?>

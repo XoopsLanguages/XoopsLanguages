@@ -2,8 +2,8 @@
 // _LANGCODE: fa// _CHARSET : UTF-8// Translator: XOOPS Translation Team
 
 // License
-define('LICENSE_NOT_WRITEABLE', 'مجوز %s است . <br/><font style="colour:#ff0000">به فایل ../include/license.php  دسترسی نوشتن بدهید</font>');
-define('LICENSE_IS_WRITEABLE', 'مجوز %s است ');
+define('LICENSE_NOT_WRITEABLE','مجوز %s است . <br/><font style="colour:#ff0000">به فایل ../include/license.php  دسترسی نوشتن بدهید</font>');
+define('LICENSE_IS_WRITEABLE','مجوز %s است ');
 
 define("_INSTALL_WEBMASTER","وب‌مسترها");
 define("_INSTALL_WEBMASTERD","وب‌مسترهای این سایت");
@@ -14,18 +14,18 @@ define("_INSTALL_ANONUSERSD","گروه كاربران مهمان");
 /**
 * New Group types
 */
-define('_INSTALL_BANNEDUSERS', 'شناسه های بسته شده');
-define('_INSTALL_BANNEDUSERSD', 'گروه شناسه های بسته شده');
-define('_INSTALL_MODERATORUSERS', 'مدیران');
-define('_INSTALL_MODERATORUSERSD', 'گروه مدیران وب سایت شما');
-define('_INSTALL_SUBMITTERUSERS', 'ارسال کنندگان');
-define('_INSTALL_SUBMITTERUSERSD', 'اعضای این گروه میتوانند مطالب را در سایت شما ارسال کنند');
-define('_INSTALL_DEVELOPEUSERS', 'توسعه دهندگان');
-define('_INSTALL_DEVELOPEUSERSD', 'این کاربر یک توسعه دهنده است و میتواند پیام های خطای توسعه دهندگان را ببیند.');
+define('_INSTALL_BANNEDUSERS','شناسه های بسته شده');
+define('_INSTALL_BANNEDUSERSD','گروه شناسه های بسته شده');
+define('_INSTALL_MODERATORUSERS','مدیران');
+define('_INSTALL_MODERATORUSERSD','گروه مدیران وب سایت شما');
+define('_INSTALL_SUBMITTERUSERS','ارسال کنندگان');
+define('_INSTALL_SUBMITTERUSERSD','اعضای این گروه میتوانند مطالب را در سایت شما ارسال کنند');
+define('_INSTALL_DEVELOPEUSERS','توسعه دهندگان');
+define('_INSTALL_DEVELOPEUSERSD','این کاربر یک توسعه دهنده است و میتواند پیام های خطای توسعه دهندگان را ببیند.');
 
 define("_INSTALL_L165","سایت برای تعمیر و نگهداری و برخی به روز رسانی‌ها بسته است. لطفا بعدا مراجعه نمایید.");
 define("_INSTALL_ANON","مهمان");
-define("_INSTALL_DISCLMR", "با توجه به اینکه برای وب مستر‌ها و مدیران سایت این امکان که پست‌ها را به سرعت  بازبینی کنند و موارد خلاف قوانین را حذف کرده یا ویرایش کنند، وجود ندارد؛ بنابر این مسئولیت نوشته‌ها بر عهده‌ی نویسندگان آنهاست و از این لحاظ وب‌مسترها و مدیران سایت هیچ مسئولیتی ندارند.
+define("_INSTALL_DISCLMR","با توجه به اینکه برای وب مستر‌ها و مدیران سایت این امکان که پست‌ها را به سرعت  بازبینی کنند و موارد خلاف قوانین را حذف کرده یا ویرایش کنند، وجود ندارد؛ بنابر این مسئولیت نوشته‌ها بر عهده‌ی نویسندگان آنهاست و از این لحاظ وب‌مسترها و مدیران سایت هیچ مسئولیتی ندارند.
 شما با عضویت در این سایت قبول می‌کنید که پست‌هایی که حاوی مطالب توهین آمیز، مزخرف‌، مبتذل‌، افترا آمیز‌، ایجادکننده‌ی دشمنی و تهدید در سایت‌، خلاف عفت و عرف عمومی جامعه باشند، ننویسید.
 با نوشتن هر کدام از مطالب ذکر شده شما فورا و بدون قید و شرط از سایت اخراج خواهید شد.
 IP تمام پست‌ها ذخیره می‌شود تا بتوان این گونه موارد را با دقت پیگیری کرد. توجه کنید که داشتن چند شناسه برای یک کاربر ممنوع است.

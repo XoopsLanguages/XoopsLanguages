@@ -62,8 +62,8 @@ function smarty_function_mailto($params, &$smarty)
 
     // netscape and mozilla do not decode %40 (@) in BCC field (bug?)
     // so, don't encode it.
-    $search = array('%40', '%2C');
-    $replace  = array('@', ',');
+    $search = array('%40','%2C');
+    $replace  = array('@',',');
     $mail_parms = array();
     foreach ($params as $var=>$value) {
         switch ($var) {

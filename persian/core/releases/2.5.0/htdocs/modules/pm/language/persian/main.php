@@ -34,7 +34,7 @@ define("_PM_MESSAGEC","متن پیام: ");
 define("_PM_CLEAR","پاک کردن");
 define("_PM_CANCELSEND","انصراف از ارسال");
 define("_PM_SUBMIT","ارسال");
-define("_PM_SAVEINOUTBOX", "یک کپی در شاخه دریافت شده‌‌ها قرار بگیرد؟");
+define("_PM_SAVEINOUTBOX","یک کپی در شاخه دریافت شده‌‌ها قرار بگیرد؟");
 
 //%%%%%%	File Name viewpmsg.php 	%%%%%
 define("_PM_SUBJECT","موضوع");
@@ -45,7 +45,7 @@ define("_PM_DELETE","حذف");
 define("_PM_TOSAVE","ذخیره");
 define("_PM_UNSAVE","Unset save");
 define("_PM_EMPTY","خالی کن");
-define("_PM_REPLY", "پاسخ");
+define("_PM_REPLY","پاسخ");
 define("_PM_PLZREG","لطفا برای ارسال پی ام اول ثبت نام کنید");
 define("_PM_SAVED_PART","شما به  %d اجازه دادید وارد شاخه ذخیره شما شود و %d پی ام را این بار وارد آن کردید");
 define("_PM_SAVED_ALL","پیام‌‌ها به شاخه ذخیره فرستاده شدند");
@@ -54,7 +54,7 @@ define("_PM_EMPTIED","این باکس خالی شده است");
 define("_PM_RUSUREEMPTY","آیا مطمانید که می‌خواهید این باکس خالی شود؟");
 define("_PM_RUSUREDELETE","آیا مطمانید که میخواهید این پی ام‌‌ها دیلیت شوند؟");
 
-define("_PM_ONLINE", "آن لاین");
+define("_PM_ONLINE","آن لاین");
 
 define("_PM_RECEIVE","دریاف شده");
 define("_PM_POST","ارسال شده");
@@ -84,13 +84,13 @@ define("_PM_NEXTP","بعدی");
 define("_PM_MAILNOTIFY","%s-شما یک پی ام جدید از طرف %s دارید");
 define("_PM_MAILMESSAGE","سلام! \n یک پی ام جدید از طرف %s برای شما ارسال شده است\n\n عنوان پی ام \n%s است\n\nو شما میتوانید پی ام را در\n%s ببینید\n\n-----------\nشما این پیام را دریافت کردید برای اینکه آگهی رسانی به وسیله ایمیل برای پی ام‌‌های جدید را فعال کرده اید\n\n شما میتوانید تنظیمات پی ام خود را تغییر دهید\n%s\n\n لطفا این ایمیل را ریپلای نکنید\n\n---------\nبا تشکر\n%s\n%s\n%s");
 
-define("_PM_EMAIL", "ایمیل");
-define("_PM_EMAIL_DESC", "%s عزیز, این پیام از شناسه شما فرستاده شده است در ".$GLOBALS['xoopsConfig']['sitename']);
-define("_PM_EMAIL_FROM", "از طرف %s");
-define("_PM_EMAIL_TO", "به %s");
-define("_PM_EMAIL_SUBJECT", "[پیام] %s");
-define("_PM_EMAIL_MESSAGE", "متن پیام");
+define("_PM_EMAIL","ایمیل");
+define("_PM_EMAIL_DESC","%s عزیز, این پیام از شناسه شما فرستاده شده است در ".$GLOBALS['xoopsConfig']['sitename']);
+define("_PM_EMAIL_FROM","از طرف %s");
+define("_PM_EMAIL_TO","به %s");
+define("_PM_EMAIL_SUBJECT","[پیام] %s");
+define("_PM_EMAIL_MESSAGE","متن پیام");
 
-define("_PM_ACTION_DONE", "عملیات با موفقیست انجام شد");
-define("_PM_ACTION_ERROR", "عملیات ناموفق بود");
+define("_PM_ACTION_DONE","عملیات با موفقیست انجام شد");
+define("_PM_ACTION_ERROR","عملیات ناموفق بود");
 ?>

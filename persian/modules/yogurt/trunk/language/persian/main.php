@@ -26,9 +26,9 @@
 //  ------------------------------------------------------------------------ //
 //Present in many files (videos pictures etc...)
 // translated by irmtfan @ irxoops.org
-define("_MD_YOGURT_DELETE", "حذف");
-define("_MD_YOGURT_EDITDESC", "ویرایش شرح");
-define("_MD_YOGURT_TOKENEXPIRED", "کد امنیتی شما منقضی شده است<br />لطفا دوباره انجام دهید");
+define("_MD_YOGURT_DELETE","حذف");
+define("_MD_YOGURT_EDITDESC","ویرایش شرح");
+define("_MD_YOGURT_TOKENEXPIRED","کد امنیتی شما منقضی شده است<br />لطفا دوباره انجام دهید");
 define("_MD_YOGURT_DESC_EDITED","شرح با موفقیت ویرایش شد");
 define("_MD_YOGURT_CAPTION","نام ظاهری");
 define("_MD_YOGURT_YOUCANUPLOAD","شما فقط میتوانید فایل های jpg را تا حد %s کیلو بایت بارگذاری کنید");
@@ -58,8 +58,8 @@ define("_MD_YOGURT_ASKCONFIRMDELETION","ایا اطمینان دارید که م
 define("_MD_YOGURT_CONFIRMDELETION","بله لطفا حذفش کن!");
 
 //album.php
-define("_MD_YOGURT_YOUHAVE", "شما دارای %s تصویر در آلبوم خود هستید.");
-define("_MD_YOGURT_YOUCANHAVE", "شما حداکثر میتوانید %s تصویر داشته باشید.");
+define("_MD_YOGURT_YOUHAVE","شما دارای %s تصویر در آلبوم خود هستید.");
+define("_MD_YOGURT_YOUCANHAVE","شما حداکثر میتوانید %s تصویر داشته باشید.");
 define("_MD_YOGURT_DELETED","تصویر با موفقیت حذف شد");
 define("_MD_YOGURT_SUBMIT_PIC_TITLE","بارگذاری تصویر");
 define("_MD_YOGURT_SELECT_PHOTO","انتخاب تصویر");
@@ -273,7 +273,7 @@ define("_MD_YOGURT_ADMIN","مدیریت");
 define("_MD_YOGURT_PREVIOUS","قبلی");
 define("_MD_YOGURT_NEXT","بعدی");
 define("_MD_YOGURT_USERSFOUND","%s عضو پیدا شد");
-define("_MD_YOGURT_TOTALUSERS", "همه: %s عضو");
+define("_MD_YOGURT_TOTALUSERS","همه: %s عضو");
 define("_MD_YOGURT_NOFOUND","هیچ عضوی پیدا نشد");
 define("_MD_YOGURT_UNAME","شناسه کاربری");
 define("_MD_YOGURT_ICQ","شماره ICQ");
@@ -297,12 +297,12 @@ define("_MD_YOGURT_POSTS","تعداد پست");
 define("_MD_YOGURT_ASC","صعودی");
 define("_MD_YOGURT_DESC","نزولی");
 define("_MD_YOGURT_LIMIT","تعداد اعضا در هر صفحه");
-define("_MD_YOGURT_RESULTS", "نتایج جستجو");
+define("_MD_YOGURT_RESULTS","نتایج جستجو");
 
 //26/10/2007
-define("_MD_YOGURT_VIDEOSNOTENABLED", "مدیر سایت این گزینه را غیر فعال کرده است");
-define("_MD_YOGURT_FRIENDSNOTENABLED", "مدیر سایت این گزینه را غیر فعال کرده است");
-define("_MD_YOGURT_TRIBESNOTENABLED", "مدیر سایت این گزینه را غیر فعال کرده است");
-define("_MD_YOGURT_PICTURESNOTENABLED", "مدیر سایت این گزینه را غیر فعال کرده است");
-define("_MD_YOGURT_SCRAPSNOTENABLED", "مدیر سایت این گزینه را غیر فعال کرده است");
+define("_MD_YOGURT_VIDEOSNOTENABLED","مدیر سایت این گزینه را غیر فعال کرده است");
+define("_MD_YOGURT_FRIENDSNOTENABLED","مدیر سایت این گزینه را غیر فعال کرده است");
+define("_MD_YOGURT_TRIBESNOTENABLED","مدیر سایت این گزینه را غیر فعال کرده است");
+define("_MD_YOGURT_PICTURESNOTENABLED","مدیر سایت این گزینه را غیر فعال کرده است");
+define("_MD_YOGURT_SCRAPSNOTENABLED","مدیر سایت این گزینه را غیر فعال کرده است");
 ?>

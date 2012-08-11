@@ -26,8 +26,8 @@ define("_MORE","altro...");
 define("_MULTIPAGE","Per visualizzare l'articolo su pi&ugrave; pagine, inserire il codice <font color=red>[pagebreak]</font> (con le quadre), all'interno della news.");
 define("_IFNOTRELOAD","Se la pagina non dovesse caricarsi in automatico, premere <a href=%s>qui</a>");
 // Error messages issued by XoopsObject::cleanVars()
-define( "_XOBJ_ERR_REQUIRED", "%s &egrave; richiesta/o" );
-define( "_XOBJ_ERR_SHORTERTHAN", "%s deve contenere meno di %d caratteri." );
+define("_XOBJ_ERR_REQUIRED","%s &egrave; richiesta/o" );
+define("_XOBJ_ERR_SHORTERTHAN","%s deve contenere meno di %d caratteri." );
 //%%%%%%	File Name themeuserpost.php 	%%%%%
 define("_PROFILE","Profilo");
 define("_POSTEDBY","Inviato da");
@@ -45,8 +45,8 @@ define("_CPHOME","Pannello di Controllo");
 define("_YOURHOME","Home Page");
 //%%%%%%	File Name misc.php (who's-online popup)	%%%%%
 define("_WHOSONLINE","Utenti online");
-define('_GUESTS', 'Ospiti');
-define('_MEMBERS', 'Iscritti');
+define('_GUESTS','Ospiti');
+define('_MEMBERS','Iscritti');
 define("_ONLINEPHRASE","<b>%s</b> utente(i) online<br />");
 define("_ONLINEPHRASEX","<b>%s</b> utente(i) in <b>%s</b>");
 define("_CLOSE","Chiudi");  // Close window
@@ -57,8 +57,8 @@ define("_NOPERM","Non si possiedono i permessi per accedere a quest'area");
 //%%%%%		Common Phrases		%%%%%
 define("_NO","No");
 define("_YES","Si");
-define("_ONLINE", "Online");
-define("_OFFLINE", "Offline");
+define("_ONLINE","Online");
+define("_OFFLINE","Offline");
 define("_EDIT","Modifica");
 define("_DELETE","Elimina");
 define("_SUBMIT","Invia");
@@ -67,26 +67,26 @@ define("_ALIGN","Allineamento");
 define("_LEFT","Sinistra");
 define("_CENTER","Centro");
 define("_RIGHT","Destra");
-define("_FORM_ENTER", "Per favore inserire %s");
+define("_FORM_ENTER","Per favore inserire %s");
 define("_MUSTWABLE","Il file %s non deve essere protetto in scrittura sul server!"); // %s represents file name
 // Module info
-define('_PREFERENCES', 'Preferenze');
-define("_VERSION", "Versione");
-define("_DESCRIPTION", "Descrizione");
-define("_AUTHOR", "Autore");
-define("_CREDITS", "Crediti");
-define("_LICENCE", "Licenza");
-define("_ERRORS", "Errori");
-define("_NONE", "Nessuno");
+define('_PREFERENCES','Preferenze');
+define("_VERSION","Versione");
+define("_DESCRIPTION","Descrizione");
+define("_AUTHOR","Autore");
+define("_CREDITS","Crediti");
+define("_LICENCE","Licenza");
+define("_ERRORS","Errori");
+define("_NONE","Nessuno");
 define('_ON','il');
 define('_READS','letture');
 define('_WELCOMETO','Benvenuto %s');
 define('_SEARCH','Cerca');
-define('_ALL', 'Tutto');
-define('_TITLE', 'Titolo');
-define('_OPTIONS', 'Opzioni');
-define('_QUOTE', 'Citazione');
-define('_LIST', 'Elenco');
+define('_ALL','Tutto');
+define('_TITLE','Titolo');
+define('_OPTIONS','Opzioni');
+define('_QUOTE','Citazione');
+define('_LIST','Elenco');
 define('_LOGIN','Login utente');
 define('_USERNAME','Nome utente: ');
 define('_PASSWORD','Password: ');
@@ -96,8 +96,8 @@ define("_SEND","Invia");
 define("_CANCEL","Annulla");
 define("_ASCENDING","Ordine crescente");
 define("_DESCENDING","Ordine decrescente");
-define('_BACK', 'Indietro');
-define('_NOTITLE', 'Nessun titolo');;
+define('_BACK','Indietro');
+define('_NOTITLE','Nessun titolo');;
 /**
 * Image manager
 */
@@ -112,31 +112,31 @@ define("_MD_STRTYOPENG","Non &egrave; possibile modificare questa scelta in segu
 define("_MD_ASFILE","Come file nella cartella 'uploads'");
 define("_MD_INDB","Come dato binario (blob) nel database");
 define("_MD_IMGMAIN","Categoria"); 
-define("_MD_EDITIMGCAT", "Modifica categoria");
-define('_IMGMANAGER', 'Gestore immagini');
-define('_NUMIMAGES', '%s immagine(i)');
-define('_ADDIMAGE', 'Nuova Immagine');
-define('_IMAGENAME', 'Nome:');
-define('_IMGMAXSIZE', 'Dimensione massima (bytes):');
-define('_IMGMAXWIDTH', 'Larghezza massima(pixels):');
-define('_IMGMAXHEIGHT', 'Altezza massima (pixels):');
-define('_IMAGECAT', 'Categoria:');
-define('_IMAGEFILE', 'File dell\'immagine:');
-define('_IMGWEIGHT', 'Ordine di visualizzazione nel gestore immagini:');
-define('_IMGDISPLAY', 'Immagine visibile nel gestore immagini?');
-define('_IMAGEMIME', 'Estensione file (myme type):');
-define('_FAILFETCHIMG', 'Impossibile eseguire l\'upload del file %s');
-define('_FAILSAVEIMG', 'Impossibile salvare l\'immagine %s nel database');
-define('_NOCACHE', 'Nessuna cache');
-define('_CLONE', 'Duplica');
+define("_MD_EDITIMGCAT","Modifica categoria");
+define('_IMGMANAGER','Gestore immagini');
+define('_NUMIMAGES','%s immagine(i)');
+define('_ADDIMAGE','Nuova Immagine');
+define('_IMAGENAME','Nome:');
+define('_IMGMAXSIZE','Dimensione massima (bytes):');
+define('_IMGMAXWIDTH','Larghezza massima(pixels):');
+define('_IMGMAXHEIGHT','Altezza massima (pixels):');
+define('_IMAGECAT','Categoria:');
+define('_IMAGEFILE','File dell\'immagine:');
+define('_IMGWEIGHT','Ordine di visualizzazione nel gestore immagini:');
+define('_IMGDISPLAY','Immagine visibile nel gestore immagini?');
+define('_IMAGEMIME','Estensione file (myme type):');
+define('_FAILFETCHIMG','Impossibile eseguire l\'upload del file %s');
+define('_FAILSAVEIMG','Impossibile salvare l\'immagine %s nel database');
+define('_NOCACHE','Nessuna cache');
+define('_CLONE','Duplica');
 // %%%%%    For xoopsform files %%%%%
-define("_STARTSWITH", "Inizia con");
-define("_ENDSWITH", "Termina con");
-define("_MATCHES", "Corrsiponde a");
-define("_CONTAINS", "Contiene");
-define('_REQUIRED', 'Richiesto');
+define("_STARTSWITH","Inizia con");
+define("_ENDSWITH","Termina con");
+define("_MATCHES","Corrsiponde a");
+define("_CONTAINS","Contiene");
+define('_REQUIRED','Richiesto');
 // %%%%%%    File Name commentform.php     %%%%%
-define('_REGISTER', 'Registrati');
+define('_REGISTER','Registrati');
 // %%%%%%    File Name xoopscodes.php     %%%%%
 define("_SIZE","DIMENSIONE");  // font size
 define("_FONT","CARATTERE");  // font family
@@ -164,16 +164,16 @@ define('_AM_SMILECODE','Combinazione');
 define('_AM_SMILEEMOTION','Descrizione');
 define('_AM_DISPLAYF','Visibile nei form?');
 // %%%%%        TIME FORMAT SETTINGS   %%%%%
-define('_SECOND', '1 secondo');
-define('_SECONDS', '%s secondi');
-define('_MINUTE', '1 minuto');
-define('_MINUTES', '%s minuti');
-define('_HOUR', '1 ora');
-define('_HOURS', '%s ore');
-define('_DAY', '1 giorno');
-define('_DAYS', '%s giorni');
-define('_WEEK', '1 settimana');
-define('_MONTH', '1 mese');
+define('_SECOND','1 secondo');
+define('_SECONDS','%s secondi');
+define('_MINUTE','1 minuto');
+define('_MINUTES','%s minuti');
+define('_HOUR','1 ora');
+define('_HOURS','%s ore');
+define('_DAY','1 giorno');
+define('_DAYS','%s giorni');
+define('_WEEK','1 settimana');
+define('_MONTH','1 mese');
 define("_DATESTRING","j/n/Y G:i:s");
 define("_MEDIUMDATESTRING","j/n/Y G:i");
 define("_SHORTDATESTRING","j/n/Y");
@@ -196,7 +196,7 @@ define("_SHORTDATESTRING","j/n/Y");
 * n - month without leading zeros; i.e. '1' to '12'
 * M - month, textual, 3 letters; i.e. 'Jan'
 * s - seconds; i.e. '00' to '59'
-* S - English ordinal suffix, textual, 2 characters; i.e. 'th', 'nd'
+* S - English ordinal suffix, textual, 2 characters; i.e. 'th','nd'
 * t - number of days in the given month; i.e. '28' to '31'
 * T - Timezone setting of this machine; i.e. 'MDT'
 * U - seconds since the epoch
@@ -208,17 +208,17 @@ define("_SHORTDATESTRING","j/n/Y");
 */
 //%%%%%		LANGUAGE SPECIFIC SETTINGS   %%%%%
 /* ATTENZIONE! In caso di aggiornamento da versioni precedenti e di mantenimento della collazione del database in
-'latin_swedish' decommentare la linea successiva e commentare: define('_CHARSET', 'UTF-8'), per preservare la visualizzazione delle parole accentate nel sito.*/
-//define('_CHARSET', 'ISO-8859-1');
-define('_CHARSET', 'UTF-8');
-define('_LANGCODE', 'it_IT');
-// cambiare da 0 a 1 se questa lingua è multi-bytes (non modificare)
-define('XOOPS_USE_MULTIBYTES', '0');
+'latin_swedish' decommentare la linea successiva e commentare: define('_CHARSET','UTF-8'), per preservare la visualizzazione delle parole accentate nel sito.*/
+//define('_CHARSET','ISO-8859-1');
+define('_CHARSET','UTF-8');
+define('_LANGCODE','it_IT');
+// cambiare da 0 a 1 se questa lingua Ã¨ multi-bytes (non modificare)
+define('XOOPS_USE_MULTIBYTES','0');
 /**
 * Additions to 2.4.0
 **/
-define('_RESET', 'Reset');
-define('_RE', 'Re:');
+define('_RESET','Reset');
+define('_RE','Re:');
 // Module vars
 define("_ID","Id");
 define("_PID","Sub Id");

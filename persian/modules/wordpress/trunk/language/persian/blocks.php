@@ -1,7 +1,7 @@
 <?php
 if(!defined('WP_LANG')){
-	define ('WP_LANG','fa_IR');
-	define ('WP_MO_CHARSET','utf-8');
+	define('WP_LANG','fa_IR');
+	define('WP_MO_CHARSET','utf-8');
 }
 define("_MB_WORDPRESS_NOTITLE",'(بدون عنوان)');
 

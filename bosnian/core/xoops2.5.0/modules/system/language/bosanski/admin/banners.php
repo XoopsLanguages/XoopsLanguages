@@ -75,7 +75,7 @@ define("_AM_SYSTEM_BANNERS_USEHTML","Koristi Html?");
 define("_AM_SYSTEM_BANNERS_CODEHTML","Kode Html:");
 
 // Tips
-define("_AM_SYSTEM_BANNERS_NAV_TIPS", "
+define("_AM_SYSTEM_BANNERS_NAV_TIPS","
 <ul>
 <li>Ovdje možeš dodati, urediti kategorije, banere i klijente sa kojima možeš novac zaraditi.</li>
 </ul>

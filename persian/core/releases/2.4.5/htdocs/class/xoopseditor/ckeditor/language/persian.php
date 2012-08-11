@@ -12,8 +12,8 @@
 /*
  * Associated with editor_registry.php
  */
-define("_XOOPS_EDITOR_CKEDITOR", "CKEditor");
+define("_XOOPS_EDITOR_CKEDITOR","CKEditor");
 define("_XOOPS_EDITOR_CKEDITOR_FONTLIST",'Arial;Comic Sans MS;Courier New;Tahoma;Times New Roman;Verdana');
-define("_XOOPS_EDITOR_CKEDITOR_LANGUAGE", "fa");
-define("_XOOPS_EDITOR_CKEDITOR_LANGDIRECTION", "rtl");
+define("_XOOPS_EDITOR_CKEDITOR_LANGUAGE","fa");
+define("_XOOPS_EDITOR_CKEDITOR_LANGDIRECTION","rtl");
 ?>

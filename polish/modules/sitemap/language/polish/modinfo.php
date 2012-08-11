@@ -8,24 +8,24 @@ define('_MI_SITEMAP_ADMENU_TOP','TOP');
 // Appended by Xoops Language Checker -GIJOE- in 2005-11-14 05:22:20
 define('_MI_SITEMAP_ADMENU_MYBLOCKSADMIN','BLoki/Grupy');
 define('_MI_SITEMAP_BLOCKNAME','Mapa strony');
-define('_MI_SITEMAP_BLOCKDESC','Pokazuj mapê w bloku.');
+define('_MI_SITEMAP_BLOCKDESC','Pokazuj mapÃª w bloku.');
 
-define('_MI_SITEMAP_NAME', 'Mapa strony');
-define('_MI_SITEMAP_MESSAGE', 'Wiadomo¶æ');
+define('_MI_SITEMAP_NAME','Mapa strony');
+define('_MI_SITEMAP_MESSAGE','WiadomoÂ¶Ã¦');
 
-define('_MI_MESSAGE', 'Wiadomo¶æ');
-define('_MI_MESSAGEEDSC', '');
+define('_MI_MESSAGE','WiadomoÂ¶Ã¦');
+define('_MI_MESSAGEEDSC','');
 
-define('_MI_SHOW_SUBCATEGORIES', 'Pokazuj podkategorie');
-define('_MI_SHOW_SUBCATEGORIESDSC', '');
+define('_MI_SHOW_SUBCATEGORIES','Pokazuj podkategorie');
+define('_MI_SHOW_SUBCATEGORIESDSC','');
 
-define('_MI_ALLTIME_GUEST', 'Nie u¿ywaj cache');
-define('_MI_ALLTIME_GUESTDSC', "Je¶li w³±czysz cache dla tego modu³u ustaw opcje na 'Tak'");
+define('_MI_ALLTIME_GUEST','Nie uÂ¿ywaj cache');
+define('_MI_ALLTIME_GUESTDSC',"JeÂ¶li wÂ³Â±czysz cache dla tego moduÂ³u ustaw opcje na 'Tak'");
 
-define('_MI_INVISIBLE_WEIGHTS', 'Numer ID modu³ów które chesz ukryæ');
-define('_MI_INVISIBLE_WEIGHTSDSC', 'Modu³y które maj± numer ID który tu podasz bêd± niewidoczne w Mapie strony. Numery powinny byæ rozdzielone z przecinkiem.<br />(Je¿eli nic nie chcesz ukrywaæ zostaw puste)');
+define('_MI_INVISIBLE_WEIGHTS','Numer ID moduÂ³Ã³w ktÃ³re chesz ukryÃ¦');
+define('_MI_INVISIBLE_WEIGHTSDSC','ModuÂ³y ktÃ³re majÂ± numer ID ktÃ³ry tu podasz bÃªdÂ± niewidoczne w Mapie strony. Numery powinny byÃ¦ rozdzielone z przecinkiem.<br />(JeÂ¿eli nic nie chcesz ukrywaÃ¦ zostaw puste)');
 
-define('_MI_INVISIBLE_DIRNAMES', 'Nazwy katalogów ukrywanych modu³ów');
-define('_MI_INVISIBLE_DIRNAMESDSC', "Podaj nazwy modu³ów które checsz ukryæ.<br />Katalogi powinny byæ oddzielane przecinkiem.<br />np) xoopsheadline,newbb");
+define('_MI_INVISIBLE_DIRNAMES','Nazwy katalogÃ³w ukrywanych moduÂ³Ã³w');
+define('_MI_INVISIBLE_DIRNAMESDSC',"Podaj nazwy moduÂ³Ã³w ktÃ³re checsz ukryÃ¦.<br />Katalogi powinny byÃ¦ oddzielane przecinkiem.<br />np) xoopsheadline,newbb");
 
 ?>

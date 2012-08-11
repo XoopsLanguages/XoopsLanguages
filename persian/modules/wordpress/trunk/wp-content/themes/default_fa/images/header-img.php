@@ -8,7 +8,7 @@ if ( ! function_exists('imagecreatefromjpeg') )
 
 // Assign and validate the color values
 $default = false;
-$vars = array('upper'=>array('r1', 'g1', 'b1'), 'lower'=>array('r2', 'g2', 'b2'));
+$vars = array('upper'=>array('r1','g1','b1'), 'lower'=>array('r2','g2','b2'));
 foreach ( $vars as $var => $subvars ) {
 	if ( isset($_GET[$var]) ) {
 		foreach ( $subvars as $index => $subvar ) {

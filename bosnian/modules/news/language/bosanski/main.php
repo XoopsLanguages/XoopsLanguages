@@ -8,7 +8,7 @@ define("_NW_COMMENTS","Napi&scaron;i Komentar?");
 define("_NW_ONECOMMENT","1 Komentar");
 define("_NW_BYTESMORE","%s Byta vi&scaron;e");
 define("_NW_NUMCOMMENTS","%s Komentari");
-define("_NW_MORERELEASES", "Vi&scaron;e ovome u: ");
+define("_NW_MORERELEASES","Vi&scaron;e ovome u: ");
 
 
 //%%%%%%		File Name submit.php		%%%%%
@@ -49,7 +49,7 @@ define("_NW_URLFORSTORY","URL za ovaj vijest je:");
 // %s represents your site name
 define("_NW_THISCOMESFROM","Ova vijest je od %s");
 
-// Added by Hervé
+// Added by HervÃ©
 define("_NW_ATTACHEDFILES","Zaka&#269;eni podaci:");
 define("_NW_ATTACHEDLIB","Ova vijest ima zaka&#269;en podatak");
 define("_NW_NEWSSAMEAUTHORLINK","Vijesti od istog Autora");
@@ -58,7 +58,7 @@ define("_NW_PREVIOUS_ARTICLE","Prethodni vijesti");
 define("_NW_NEXT_ARTICLE","Sljede&#263;i vijesti");
 define("_NW_OTHER_ARTICLES","Ostali vijesti");
 
-// Added by Hervé in version 1.3 for rating
+// Added by HervÃ© in version 1.3 for rating
 define("_NW_RATETHISNEWS","Ovu vijest ocijeni");
 define("_NW_RATEIT","Ocjeni");
 define("_NW_TOTALRATE","Ukupno ocjena");

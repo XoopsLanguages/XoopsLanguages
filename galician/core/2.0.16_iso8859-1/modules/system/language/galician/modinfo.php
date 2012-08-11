@@ -6,36 +6,36 @@
 define('_MI_SYSTEM_NAME','Sistema');
 
 // A brief description of this module
-define('_MI_SYSTEM_DESC','Administración da configuración do sitio');
+define('_MI_SYSTEM_DESC','AdministraciÃ³n da configuraciÃ³n do sitio');
 
 // Names of blocks for this module (Not all module has blocks)
-define('_MI_SYSTEM_BNAME2',  'Menú do Usuario');
+define('_MI_SYSTEM_BNAME2',  'MenÃº do Usuario');
 define('_MI_SYSTEM_BNAME3',  'Login');
 define('_MI_SYSTEM_BNAME4',  'Procurar');
 define('_MI_SYSTEM_BNAME5',  'Contidos agardando');
-define('_MI_SYSTEM_BNAME6',  'Menú');
+define('_MI_SYSTEM_BNAME6',  'MenÃº');
 define('_MI_SYSTEM_BNAME7',  'Info do Sitio');
 define('_MI_SYSTEM_BNAME8',  'Usuarios Conectados');
-define('_MI_SYSTEM_BNAME9',  'Top Envíos');
-define('_MI_SYSTEM_BNAME10', 'Max. Colaboradores');
-define('_MI_SYSTEM_BNAME11', 'Comentarios Recentes');
+define('_MI_SYSTEM_BNAME9',  'Top EnvÃ­os');
+define('_MI_SYSTEM_BNAME10','Max. Colaboradores');
+define('_MI_SYSTEM_BNAME11','Comentarios Recentes');
 // RMV-NOTIFY
-define('_MI_SYSTEM_BNAME12', 'Opcións de Notificación');
-define('_MI_SYSTEM_BNAME13', 'Deseños (themes)');
+define('_MI_SYSTEM_BNAME12','OpciÃ³ns de NotificaciÃ³n');
+define('_MI_SYSTEM_BNAME13','DeseÃ±os (themes)');
 
 // Names of admin menu items
 define('_MI_SYSTEM_ADMENU1',  'Banners');
 define('_MI_SYSTEM_ADMENU2',  'Bloques');
 define('_MI_SYSTEM_ADMENU3',  'Grupos');
-define('_MI_SYSTEM_ADMENU5',  'Módulos');
+define('_MI_SYSTEM_ADMENU5',  'MÃ³dulos');
 define('_MI_SYSTEM_ADMENU6',  'Preferencias');
-define('_MI_SYSTEM_ADMENU7',  'Cariñas');
+define('_MI_SYSTEM_ADMENU7',  'CariÃ±as');
 define('_MI_SYSTEM_ADMENU9',  'Rangos de usuario');
-define('_MI_SYSTEM_ADMENU10', 'Editar Usuario');
-define('_MI_SYSTEM_ADMENU11', 'Correo a usuarios');
-define('_MI_SYSTEM_ADMENU12', 'Atopar Usuario');
-define('_MI_SYSTEM_ADMENU13', 'Imaxes');
-define('_MI_SYSTEM_ADMENU14', 'Avatares');
-define('_MI_SYSTEM_ADMENU15', 'Xogo de carautas');
-define('_MI_SYSTEM_ADMENU16', 'Comentarios');
+define('_MI_SYSTEM_ADMENU10','Editar Usuario');
+define('_MI_SYSTEM_ADMENU11','Correo a usuarios');
+define('_MI_SYSTEM_ADMENU12','Atopar Usuario');
+define('_MI_SYSTEM_ADMENU13','Imaxes');
+define('_MI_SYSTEM_ADMENU14','Avatares');
+define('_MI_SYSTEM_ADMENU15','Xogo de carautas');
+define('_MI_SYSTEM_ADMENU16','Comentarios');
 ?>

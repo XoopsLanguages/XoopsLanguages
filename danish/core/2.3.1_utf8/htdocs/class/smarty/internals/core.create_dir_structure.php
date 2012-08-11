@@ -38,12 +38,12 @@ function smarty_core_create_dir_structure($params, &$smarty)
                 if (isset($_root_dir[3])) array_shift($_dir_parts);
 
             } else {
-                $_new_dir = str_replace('\\', '/', getcwd()).'/';
+                $_new_dir = str_replace('\\','/', getcwd()).'/';
 
             }
 
             if($_use_open_basedir = !empty($_open_basedir_ini)) {
-                $_open_basedirs = explode(';', str_replace('\\', '/', $_open_basedir_ini));
+                $_open_basedirs = explode(';', str_replace('\\','/', $_open_basedir_ini));
             }
 
         }

@@ -21,7 +21,7 @@
 /**
  * Localized fonts 
  */
-$GLOBALS["formtextdhtml_fonts"] = array("Arial", "Courier", "Georgia", "Helvetica", "Impact", "Verdana", "Haettenschweiler");
+$GLOBALS["formtextdhtml_fonts"] = array("Arial","Courier","Georgia","Helvetica","Impact","Verdana","Haettenschweiler");
 
 /**
  * Localized font sizes: "font size value" => "font size name"
@@ -36,40 +36,40 @@ $GLOBALS["formtextdhtml_sizes"] = array(
     "xx-large"  => "xx-Grande",
     );
 
-define("_XOOPS_FORM_ALT_URL", "URL");
-define("_XOOPS_FORM_ALT_EMAIL", "Correo");
-define("_XOOPS_FORM_ALT_IMG", "Imaxes");
-define("_XOOPS_FORM_ALT_IMAGE", "Xestor de imaxes");
-define("_XOOPS_FORM_ALT_SMILEY", "Cariña");
-define("_XOOPS_FORM_ALT_CODE", "Código");
-define("_XOOPS_FORM_ALT_QUOTE", "Cita");
-define("_XOOPS_FORM_ALT_BOLD", "Negriña");
-define("_XOOPS_FORM_ALT_ITALIC", "Cursiva");
-define("_XOOPS_FORM_ALT_UNDERLINE", "Subraiado");
-define("_XOOPS_FORM_ALT_LINETHROUGH", "Tachado");
-define("_XOOPS_FORM_ALT_ENTERHEIGHT", "Altura:");
-define("_XOOPS_FORM_ALT_ENTERWIDTH", "Anchura:"); 
-define("_XOOPS_FORM_ALT_LEFT", "Esquerda");
-define("_XOOPS_FORM_ALT_RIGHT", "Dereita");
-define("_XOOPS_FORM_ALT_CENTER", "Esquerda");
-define("_XOOPS_FORM_ALTFLASH", "Flash");
-define("_XOOPS_FORM_ALTMMS", "MMS");
-define("_XOOPS_FORM_ALTRTSP", "Real Player");
-define("_XOOPS_FORM_ALTIFRAME", "IFRAME");
-define("_XOOPS_FORM_ALTWIKI", "Ligazón WIKI");
-define("_XOOPS_FORM_ENTERIFRAMEURL", "IFRAME URL:");
-define("_XOOPS_FORM_ENTERMMSURL", "RMMS URL:");
-define("_XOOPS_FORM_ENTERWMPURL", "WMP URL:");
-define("_XOOPS_FORM_ENTERFLASHURL", "FLASH URL:");
-define("_XOOPS_FORM_ENTERYOUTUBEURL", "Youtube URL:");
-define("_XOOPS_FORM_ENTERRTSPURL", "RTSP URL:");
-define("_XOOPS_FORM_ENTERWIKITERM", "Palabra a enlazar con o Wiki:");
-define("_XOOPS_FORM_ALTMP3", "MP3");
-define("_XOOPS_FORM_ENTERMP3URL", "MP3 URL");
+define("_XOOPS_FORM_ALT_URL","URL");
+define("_XOOPS_FORM_ALT_EMAIL","Correo");
+define("_XOOPS_FORM_ALT_IMG","Imaxes");
+define("_XOOPS_FORM_ALT_IMAGE","Xestor de imaxes");
+define("_XOOPS_FORM_ALT_SMILEY","CariÃ±a");
+define("_XOOPS_FORM_ALT_CODE","CÃ³digo");
+define("_XOOPS_FORM_ALT_QUOTE","Cita");
+define("_XOOPS_FORM_ALT_BOLD","NegriÃ±a");
+define("_XOOPS_FORM_ALT_ITALIC","Cursiva");
+define("_XOOPS_FORM_ALT_UNDERLINE","Subraiado");
+define("_XOOPS_FORM_ALT_LINETHROUGH","Tachado");
+define("_XOOPS_FORM_ALT_ENTERHEIGHT","Altura:");
+define("_XOOPS_FORM_ALT_ENTERWIDTH","Anchura:"); 
+define("_XOOPS_FORM_ALT_LEFT","Esquerda");
+define("_XOOPS_FORM_ALT_RIGHT","Dereita");
+define("_XOOPS_FORM_ALT_CENTER","Esquerda");
+define("_XOOPS_FORM_ALTFLASH","Flash");
+define("_XOOPS_FORM_ALTMMS","MMS");
+define("_XOOPS_FORM_ALTRTSP","Real Player");
+define("_XOOPS_FORM_ALTIFRAME","IFRAME");
+define("_XOOPS_FORM_ALTWIKI","LigazÃ³n WIKI");
+define("_XOOPS_FORM_ENTERIFRAMEURL","IFRAME URL:");
+define("_XOOPS_FORM_ENTERMMSURL","RMMS URL:");
+define("_XOOPS_FORM_ENTERWMPURL","WMP URL:");
+define("_XOOPS_FORM_ENTERFLASHURL","FLASH URL:");
+define("_XOOPS_FORM_ENTERYOUTUBEURL","Youtube URL:");
+define("_XOOPS_FORM_ENTERRTSPURL","RTSP URL:");
+define("_XOOPS_FORM_ENTERWIKITERM","Palabra a enlazar con o Wiki:");
+define("_XOOPS_FORM_ALTMP3","MP3");
+define("_XOOPS_FORM_ENTERMP3URL","MP3 URL");
 
-define("_XOOPS_FORM_ALT_CHECKLENGTH", "Comprobar lonxitude do contido");
-define("_XOOPS_FORM_ALT_LENGTH", "Lonxitude actual do contido: %s");
-define("_XOOPS_FORM_ALT_LENGTH_MAX", "Lonxitude máxima: ");
+define("_XOOPS_FORM_ALT_CHECKLENGTH","Comprobar lonxitude do contido");
+define("_XOOPS_FORM_ALT_LENGTH","Lonxitude actual do contido: %s");
+define("_XOOPS_FORM_ALT_LENGTH_MAX","Lonxitude mÃ¡xima: ");
 
-define("_XOOPS_FORM_PREVIEW_CONTENT", "Prema en <strong>" . _PREVIEW . "</strong> para previsualizar o contido.");
+define("_XOOPS_FORM_PREVIEW_CONTENT","Prema en <strong>" . _PREVIEW . "</strong> para previsualizar o contido.");
 ?>

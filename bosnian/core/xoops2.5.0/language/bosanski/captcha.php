@@ -25,21 +25,21 @@ defined('XOOPS_ROOT_PATH') or die('Restricted access');
 // _LANGCODE: ba
 // _CHARSET : UTF-8
 // Translator: XOOPSBA.ORG Team, http://www.xoopsba.org
-define('_CAPTCHA_CAPTION', 'Potvrdni kod');
-define('_CAPTCHA_INVALID_CODE', 'Neispravan potvrdni kod!');
-define('_CAPTCHA_TOOMANYATTEMPTS', 'Previše pokušaja!');
-define('_CAPTCHA_MAXATTEMPTS', 'Maksimalni dozvoljeni broj pokušaja: %d');
+define('_CAPTCHA_CAPTION','Potvrdni kod');
+define('_CAPTCHA_INVALID_CODE','Neispravan potvrdni kod!');
+define('_CAPTCHA_TOOMANYATTEMPTS','Previše pokušaja!');
+define('_CAPTCHA_MAXATTEMPTS','Maksimalni dozvoljeni broj pokušaja: %d');
 // For image mode
-define('_CAPTCHA_RULE_IMAGE', 'Upiši tekst sa slike');
-define('_CAPTCHA_RULE_CASESENSITIVE', 'Kod je osjetljiv na mala-velika slova');
-define('_CAPTCHA_RULE_CASEINSENSITIVE', 'Kod nije osjetljiv na mala-velika slova');
-define('_CAPTCHA_REFRESH', 'Ako slika nije jasna, klikninte istu da bi dobili novu.');
+define('_CAPTCHA_RULE_IMAGE','Upiši tekst sa slike');
+define('_CAPTCHA_RULE_CASESENSITIVE','Kod je osjetljiv na mala-velika slova');
+define('_CAPTCHA_RULE_CASEINSENSITIVE','Kod nije osjetljiv na mala-velika slova');
+define('_CAPTCHA_REFRESH','Ako slika nije jasna, klikninte istu da bi dobili novu.');
 // For text mode
-define('_CAPTCHA_RULE_TEXT', 'Unesite rezultat izraza');
+define('_CAPTCHA_RULE_TEXT','Unesite rezultat izraza');
 
 /**
  * Error defines
  */
-define('_CAPTCHA_LOADFILEERROR', 'Greška: Neunešen fajl %u u fajlu %s pod linijom %s. ');
+define('_CAPTCHA_LOADFILEERROR','Greška: Neunešen fajl %u u fajlu %s pod linijom %s. ');
 
 ?>

@@ -19,7 +19,7 @@ define('_MD_ASFILE',' Bild speichern (in Upload-Ordner)');
 define('_MD_RUDELIMGCAT','Sind Sie sicher Sie wollen diese Kategorie und damit alle verbundenen Bilder löschen?');
 define('_MD_RUDELIMG','Soll das Bild wirklich gelöscht werden?');
 
-define('_MD_FAILDEL', '%s konnte nicht gelöscht werden');
-define('_MD_FAILDELCAT', 'Kategorie %s konnte nicht aus der Datenbank gelöscht werden');
-define('_MD_FAILUNLINK', 'Bild %s konnte nicht vom Server gelöscht werden');
+define('_MD_FAILDEL','%s konnte nicht gelöscht werden');
+define('_MD_FAILDELCAT','Kategorie %s konnte nicht aus der Datenbank gelöscht werden');
+define('_MD_FAILUNLINK','Bild %s konnte nicht vom Server gelöscht werden');
 ?>

@@ -2,45 +2,45 @@
 
 if( defined( 'FOR_XOOPS_LANG_CHECKER' ) || ! defined( 'MYALBUM_MB_LOADED' ) ) {
 
-define( 'MYALBUM_MB_LOADED' , 1 ) ;
+define('MYALBUM_MB_LOADED' , 1 ) ;
 
 //%%%%%%		Module Name 'myAlbum-P'		%%%%%
 
 
 
 // only "Y/m/d" , "d M Y" , "M d Y" can be interpreted
-define( "_ALBM_DTFMT_YMDHI" , "d M Y H:i" ) ;
+define("_ALBM_DTFMT_YMDHI" , "d M Y H:i" ) ;
 
-define( "_ALBM_NEXT_BUTTON" , "Dalje" ) ;
-define( "_ALBM_REDOLOOPDONE" , "Gotovo" ) ;
+define("_ALBM_NEXT_BUTTON" , "Dalje" ) ;
+define("_ALBM_REDOLOOPDONE" , "Gotovo" ) ;
 
-define( "_ALBM_BTN_SELECTALL" , "Izaberi sve" ) ;
-define( "_ALBM_BTN_SELECTNONE" , "Ni&scaron;ta ne izabjeri" ) ;
-define( "_ALBM_BTN_SELECTRVS" , "Izbor preokreni" ) ;
+define("_ALBM_BTN_SELECTALL" , "Izaberi sve" ) ;
+define("_ALBM_BTN_SELECTNONE" , "Ni&scaron;ta ne izabjeri" ) ;
+define("_ALBM_BTN_SELECTRVS" , "Izbor preokreni" ) ;
 
-define( "_ALBM_FMT_PHOTONUM" , "%s po stranici" ) ;
+define("_ALBM_FMT_PHOTONUM" , "%s po stranici" ) ;
 
-define( "_ALBM_AM_ADMISSION" , "Sliku objavi" ) ;
-define( "_ALBM_AM_ADMITTING" , "Objavljene slike" ) ;
-define( "_ALBM_AM_LABEL_ADMIT" , "Izabrane slike objavi" ) ;
-define( "_ALBM_AM_BUTTON_ADMIT" , "Objavi" ) ;
-define( "_ALBM_AM_BUTTON_EXTRACT" , "filter" ) ;
+define("_ALBM_AM_ADMISSION" , "Sliku objavi" ) ;
+define("_ALBM_AM_ADMITTING" , "Objavljene slike" ) ;
+define("_ALBM_AM_LABEL_ADMIT" , "Izabrane slike objavi" ) ;
+define("_ALBM_AM_BUTTON_ADMIT" , "Objavi" ) ;
+define("_ALBM_AM_BUTTON_EXTRACT" , "filter" ) ;
 
-define( "_ALBM_AM_PHOTOMANAGER" , "Menadzer slika" ) ;
-define( "_ALBM_AM_PHOTONAVINFO" , "Slika br. %s-%s (od %s Slika)" ) ;
-define( "_ALBM_AM_LABEL_REMOVE" , "Izabrane slike izbri&scaron;i" ) ;
-define( "_ALBM_AM_BUTTON_REMOVE" , "Izbri&scaron;i!" ) ;
-define( "_ALBM_AM_JS_REMOVECONFIRM" , "Treba li strvarno izbrisati?" ) ;
-define( "_ALBM_AM_LABEL_MOVE" , "Kategoriju izabranih slika promjeni" ) ;
-define( "_ALBM_AM_BUTTON_MOVE" , "Prebaci" ) ;
-define( "_ALBM_AM_BUTTON_UPDATE" , "Promjeni" ) ;
-define( "_ALBM_AM_DEADLINKMAINPHOTO" , "Glavna slika ne postoji." ) ;
+define("_ALBM_AM_PHOTOMANAGER" , "Menadzer slika" ) ;
+define("_ALBM_AM_PHOTONAVINFO" , "Slika br. %s-%s (od %s Slika)" ) ;
+define("_ALBM_AM_LABEL_REMOVE" , "Izabrane slike izbri&scaron;i" ) ;
+define("_ALBM_AM_BUTTON_REMOVE" , "Izbri&scaron;i!" ) ;
+define("_ALBM_AM_JS_REMOVECONFIRM" , "Treba li strvarno izbrisati?" ) ;
+define("_ALBM_AM_LABEL_MOVE" , "Kategoriju izabranih slika promjeni" ) ;
+define("_ALBM_AM_BUTTON_MOVE" , "Prebaci" ) ;
+define("_ALBM_AM_BUTTON_UPDATE" , "Promjeni" ) ;
+define("_ALBM_AM_DEADLINKMAINPHOTO" , "Glavna slika ne postoji." ) ;
 
-define( "_ALBM_RADIO_ROTATETITLE" , "Sliku okreni" ) ;
-define( "_ALBM_RADIO_ROTATE0" , "Bez okretanja" ) ;
-define( "_ALBM_RADIO_ROTATE90" , "Okreni desno (90 Grad)" ) ;
-define( "_ALBM_RADIO_ROTATE180" , "Okreni skroz (180 Grad)" ) ;
-define( "_ALBM_RADIO_ROTATE270" , "Okreni lijevo (-90 Grad)" ) ;
+define("_ALBM_RADIO_ROTATETITLE" , "Sliku okreni" ) ;
+define("_ALBM_RADIO_ROTATE0" , "Bez okretanja" ) ;
+define("_ALBM_RADIO_ROTATE90" , "Okreni desno (90 Grad)" ) ;
+define("_ALBM_RADIO_ROTATE180" , "Okreni skroz (180 Grad)" ) ;
+define("_ALBM_RADIO_ROTATE270" , "Okreni lijevo (-90 Grad)" ) ;
 
 
 
@@ -96,7 +96,7 @@ define("_ALBM_COMMENTSDEL","Komentar(i) je(su) uspje&scaron;no izbrisan(i)!");
 
 define("_ALBM_THANKSFORINFO","Hvala za tvoj komentar! Posle provjere komentar &#263;e biti objavljen.");
 define("_ALBM_BACKTOTOP","Start stranica");
-define("_ALBM_THANKSFORHELP","Hvala ti što nam poma&#382;e&scaron; da odr&#382;imo bolju posje&#263;enost web stranice.");
+define("_ALBM_THANKSFORHELP","Hvala ti Å¡to nam poma&#382;e&scaron; da odr&#382;imo bolju posje&#263;enost web stranice.");
 define("_ALBM_FORSECURITY","Iz sigurnosnih razloga bi&#263;e tvoje Nik ime i IP Adresa zabilje&#382;eni.");
 
 define("_ALBM_MATCH","Pogodak");

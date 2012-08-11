@@ -31,18 +31,18 @@ define('_AM_DELBUTTON','<-- izbriši');
 define('_AM_UNEED2ENTER','Trebate unijeti tražene informacije!');
 // Added in RC3
 define('_AM_BLOCKRIGHTS','Pristupna prava blokovima');
-define('_AM_FINDU4GROUP', 'Pronađi korisnike ove grupe');
-define('_AM_GROUPSMAIN', 'Grupe');
-define('_AM_ADMINNO', 'Barem jedan korisnik mora biti u webmasters grupi');
+define('_AM_FINDU4GROUP','Pronađi korisnike ove grupe');
+define('_AM_GROUPSMAIN','Grupe');
+define('_AM_ADMINNO','Barem jedan korisnik mora biti u webmasters grupi');
 // Custom block, suggested by trabis
 define('_AM_CUSTOMBLOCK','Korisnički Blok');
 /**
 * New in 2.4.0
 */
-define('_AM_LIST_GROUPS', 'Lista groupa');
-define('_XO_AD_GROUP_ID', '#');
-define('_XO_AD_GROUP_NAME', 'Ime grupe');
-define('_XO_AD_GROUP_DESCRIPTION', 'Opis grupe');
-define('_XO_AD_GROUP_ACTION', 'Akcija');
+define('_AM_LIST_GROUPS','Lista groupa');
+define('_XO_AD_GROUP_ID','#');
+define('_XO_AD_GROUP_NAME','Ime grupe');
+define('_XO_AD_GROUP_DESCRIPTION','Opis grupe');
+define('_XO_AD_GROUP_ACTION','Akcija');
 
 ?>

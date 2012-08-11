@@ -10,6 +10,6 @@
 //=========================================================
 
 // dummy for English
-// define('_HAPPY_LINUX_GM_DEFAULT_LOCATION', '');
+// define('_HAPPY_LINUX_GM_DEFAULT_LOCATION','');
 
 ?>

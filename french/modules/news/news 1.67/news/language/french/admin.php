@@ -88,68 +88,68 @@ define("_AM_SETEXPDATETIME","Paramétrer la date et l'heure d'expiration");
 define("_AM_NOWSETEXPTIME","L'heure est maintenant définie à : %s");
 
 // Added in RC3
-define("_AM_ERRORTOPICNAME", "Vous devez entrer un nom de sujet !");
-define("_AM_EMPTYNODELETE", "Rien à supprimer !");
+define("_AM_ERRORTOPICNAME","Vous devez entrer un nom de sujet !");
+define("_AM_EMPTYNODELETE","Rien à supprimer !");
 
 // Added 240304 (Mithrandir)
-define('_AM_GROUPPERM', "Permissions des groupes");
+define('_AM_GROUPPERM',"Permissions des groupes");
 define('_AM_SELFILE','Sélectionnez un fichier');
 
 // Added by Hervé
 define('_AM_UPLOAD_DBERROR_SAVE',"Erreur pendant le rattachement d'un fichier à un article");
 define('_AM_UPLOAD_ERROR',"Erreur pendant le téléchargement du fichier vers le serveur");
 define('_AM_UPLOAD_ATTACHFILE',"Fichier(s) attaché(s)");
-define('_AM_APPROVEFORM', "Permission d'approuver");
-define('_AM_SUBMITFORM', "Permission de soumettre");
-define('_AM_VIEWFORM', "Permission de consulter");
-define('_AM_APPROVEFORM_DESC', "Choisissez les groupes qui peuvent approuver les articles pour les sujets affichés");
-define('_AM_SUBMITFORM_DESC', "Choisissez les groupes qui peuvent soumettre des articles pour les sujets affichés");
-define('_AM_VIEWFORM_DESC', "Choisissez les groupes qui peuvent visualiser les sujets affichés");
-define('_AM_DELETE_SELFILES', "Supprimer les fichiers sélectionnés");
-define('_AM_TOPIC_PICTURE', "Télécharger l'image du sujet");
-define('_AM_UPLOAD_WARNING', "<b>Attention, n'oubliez pas d'appliquer les permissions d'écriture au répertoire suivant : %s </b>");
+define('_AM_APPROVEFORM',"Permission d'approuver");
+define('_AM_SUBMITFORM',"Permission de soumettre");
+define('_AM_VIEWFORM',"Permission de consulter");
+define('_AM_APPROVEFORM_DESC',"Choisissez les groupes qui peuvent approuver les articles pour les sujets affichés");
+define('_AM_SUBMITFORM_DESC',"Choisissez les groupes qui peuvent soumettre des articles pour les sujets affichés");
+define('_AM_VIEWFORM_DESC',"Choisissez les groupes qui peuvent visualiser les sujets affichés");
+define('_AM_DELETE_SELFILES',"Supprimer les fichiers sélectionnés");
+define('_AM_TOPIC_PICTURE',"Télécharger l'image du sujet");
+define('_AM_UPLOAD_WARNING',"<b>Attention, n'oubliez pas d'appliquer les permissions d'écriture au répertoire suivant : %s </b>");
 
-define('_AM_NEWS_UPGRADECOMPLETE', "Mise à jour terminée");
-define('_AM_NEWS_UPDATEMODULE', "Mise à jour des thèmes des modules et des blocs");
-define('_AM_NEWS_UPGRADEFAILED', "La mise à jour a échouée");
-define('_AM_NEWS_UPGRADE', "Mise à jour");
-define('_AM_ADD_TOPIC', "Ajouter un sujet");
+define('_AM_NEWS_UPGRADECOMPLETE',"Mise à jour terminée");
+define('_AM_NEWS_UPDATEMODULE',"Mise à jour des thèmes des modules et des blocs");
+define('_AM_NEWS_UPGRADEFAILED',"La mise à jour a échouée");
+define('_AM_NEWS_UPGRADE',"Mise à jour");
+define('_AM_ADD_TOPIC',"Ajouter un sujet");
 define('_AM_ADD_TOPIC_ERROR',"Erreur, ce sujet existe déja !");
 define('_AM_ADD_TOPIC_ERROR1',"ERREUR : Impossible de selectionner ce sujet comme sujet parent !");
 define('_AM_SUB_MENU',"Publier ce sujet comme un sous-menu");
 define('_AM_SUB_MENU_YESNO',"Sous-menu ?");
-define('_AM_HITS', "Hits");
-define('_AM_CREATED', "Créé");
+define('_AM_HITS',"Hits");
+define('_AM_CREATED',"Créé");
 
-define('_AM_TOPIC_DESCR', "Description du sujet");
-define('_AM_USERS_LIST', "Liste des utilisateurs");
-define('_AM_PUBLISH_FRONTPAGE', "Publier en première page ?");
-define('_AM_NEWS_UPGRADEFAILED1', "Impossible de créer la table 'stories_files'");
-define('_AM_NEWS_UPGRADEFAILED2', "Impossible de modifier la longueur du titre du sujet");
-define('_AM_NEWS_UPGRADEFAILED21', "Impossible d'ajouter les nouveaux champs dans la table 'topics'");
-define('_AM_NEWS_UPGRADEFAILED3', "Impossible de créer la table 'stories_votedata'");
-define('_AM_NEWS_UPGRADEFAILED4', "Impossible de créer les deux champs 'rating' and 'votes' dans la table 'story'");
-define('_AM_NEWS_UPGRADEFAILED0', "Veuillez noter les messages et tenter de corriger les problèmes avec phpMyadmin et le fichier de définition de sql disponible dans le dossier « sql » du module news");
+define('_AM_TOPIC_DESCR',"Description du sujet");
+define('_AM_USERS_LIST',"Liste des utilisateurs");
+define('_AM_PUBLISH_FRONTPAGE',"Publier en première page ?");
+define('_AM_NEWS_UPGRADEFAILED1',"Impossible de créer la table 'stories_files'");
+define('_AM_NEWS_UPGRADEFAILED2',"Impossible de modifier la longueur du titre du sujet");
+define('_AM_NEWS_UPGRADEFAILED21',"Impossible d'ajouter les nouveaux champs dans la table 'topics'");
+define('_AM_NEWS_UPGRADEFAILED3',"Impossible de créer la table 'stories_votedata'");
+define('_AM_NEWS_UPGRADEFAILED4',"Impossible de créer les deux champs 'rating' and 'votes' dans la table 'story'");
+define('_AM_NEWS_UPGRADEFAILED0',"Veuillez noter les messages et tenter de corriger les problèmes avec phpMyadmin et le fichier de définition de sql disponible dans le dossier « sql » du module news");
 define('_AM_NEWS_UPGR_ACCESS_ERROR',"Erreur pour utiliser le script de mise à jour, vous devez être administrateur du module");
 define('_AM_NEWS_PRUNE_BEFORE',"Purger les articles qui ont été publiés avant le");
 define('_AM_NEWS_PRUNE_EXPIREDONLY',"Supprimer seulement les articles qui sont expirés");
 define('_AM_NEWS_PRUNE_CONFIRM',"Attention, vous êtes sur le point de supprimer définitivement les articles qui ont été publiés avant le %s (cette action ne peut être annulée). Cela représente %s articles.<br />En êtes-vous certain(e) ?");
 define('_AM_NEWS_PRUNE_TOPICS',"Se limiter aux sujets suivants");
-define('_AM_NEWS_PRUNENEWS', "Purger les articles");
-define('_AM_NEWS_EXPORT_NEWS', "Exporter les articles en XML");
-define('_AM_NEWS_EXPORT_NOTHING', "Désolé, il n'y a rien à exporter, merci de vérifier vos critères");
-define('_AM_NEWS_PRUNE_DELETED', "%d articles ont été supprimés");
-define('_AM_NEWS_PERM_WARNING', "<h2>Attention, il y a 3 formulaires, donc vous devez valider trois boutons</h2>");
-define('_AM_NEWS_EXPORT_BETWEEN', "Exporter les articles publiés entre le");
-define('_AM_NEWS_EXPORT_AND', " et ");
-define('_AM_NEWS_EXPORT_PRUNE_DSC', "Si vous ne sélectionnez rien, alors tous les sujets seront utilisés<br/> sinon, seuls les sujets selectionnés seront utilisés");
-define('_AM_NEWS_EXPORT_INCTOPICS', "Inclure la description des sujets ?");
-define('_AM_NEWS_EXPORT_ERROR', "Erreur pendant la création du fichier %s. Opération annulée.");
-define('_AM_NEWS_EXPORT_READY', "L'export du fichier au format xml est disponible pour téléchargement. <br /><a rel='external' href='%s'>Cliquez sur ce lien pour le télécharger</a>.<br />N'oubliez pas <a href='%s'>de le supprimer </a> une fois que vous avez terminé.");
-define('_AM_NEWS_RSS_URL', "URL du flux RSS");
-define('_AM_NEWS_NEWSLETTER', "Bulletin d'information");
-define('_AM_NEWS_NEWSLETTER_BETWEEN', "Sélectionner les articles publiés entre le");
-define('_AM_NEWS_NEWSLETTER_READY', "Votre Bulletin d'information est disponible au téléchargement. <br /><a rel='external' href='%s'>Cliquez sur ce lien pour le télécharger</a>.<br />N'oubliez pas de <a href='%s'>le supprimer</a> une fois que vous avez terminé.");
+define('_AM_NEWS_PRUNENEWS',"Purger les articles");
+define('_AM_NEWS_EXPORT_NEWS',"Exporter les articles en XML");
+define('_AM_NEWS_EXPORT_NOTHING',"Désolé, il n'y a rien à exporter, merci de vérifier vos critères");
+define('_AM_NEWS_PRUNE_DELETED',"%d articles ont été supprimés");
+define('_AM_NEWS_PERM_WARNING',"<h2>Attention, il y a 3 formulaires, donc vous devez valider trois boutons</h2>");
+define('_AM_NEWS_EXPORT_BETWEEN',"Exporter les articles publiés entre le");
+define('_AM_NEWS_EXPORT_AND'," et ");
+define('_AM_NEWS_EXPORT_PRUNE_DSC',"Si vous ne sélectionnez rien, alors tous les sujets seront utilisés<br/> sinon, seuls les sujets selectionnés seront utilisés");
+define('_AM_NEWS_EXPORT_INCTOPICS',"Inclure la description des sujets ?");
+define('_AM_NEWS_EXPORT_ERROR',"Erreur pendant la création du fichier %s. Opération annulée.");
+define('_AM_NEWS_EXPORT_READY',"L'export du fichier au format xml est disponible pour téléchargement. <br /><a rel='external' href='%s'>Cliquez sur ce lien pour le télécharger</a>.<br />N'oubliez pas <a href='%s'>de le supprimer </a> une fois que vous avez terminé.");
+define('_AM_NEWS_RSS_URL',"URL du flux RSS");
+define('_AM_NEWS_NEWSLETTER',"Bulletin d'information");
+define('_AM_NEWS_NEWSLETTER_BETWEEN',"Sélectionner les articles publiés entre le");
+define('_AM_NEWS_NEWSLETTER_READY',"Votre Bulletin d'information est disponible au téléchargement. <br /><a rel='external' href='%s'>Cliquez sur ce lien pour le télécharger</a>.<br />N'oubliez pas de <a href='%s'>le supprimer</a> une fois que vous avez terminé.");
 define('_AM_NEWS_DELETED_OK',"Fichier supprimé avec succès");
 define('_AM_NEWS_DELETED_PB',"Un problème a été rencontré pendant la suppression du fichier");
 define('_AM_NEWS_STATS0',"Statistiques des sujets");
@@ -167,7 +167,7 @@ define('_AM_NEWS_STATS10',"Statistiques par Auteurs");
 define('_AM_NEWS_STATS11',"Nombre d'articles");
 define('_AM_NEWS_HELP',"Aide");
 define("_AM_NEWS_MODULEADMIN"," - Administration");
-define("_AM_NEWS_GENERALSET", "Options du module" );
+define("_AM_NEWS_GENERALSET","Options du module" );
 define('_AM_NEWS_GOTOMOD','Aller au module');
 define('_AM_NEWS_NOTHING',"Désolé mais il n'y a rien à télécharger, vérifiez vos critères");
 define('_AM_NEWS_NOTHING_PRUNE',"Désolé, mais il n'y a rien à purger, vérifiez vos critères");
@@ -178,9 +178,9 @@ define('_AM_NEWS_REMOVE_BR',"Convertir les balises html &lt;br /&gt; en un retou
 define('_AM_NEWS_PLEASE_UPGRADE',"<a href='upgrade.php'><font color='#FF0000'>Veuillez mettre à jour le module s'il vous plait</font></a>");
 
 // Added in version 1.50
-define('_AM_NEWS_NEWSLETTER_HEADER', "Entête");
-define('_AM_NEWS_NEWSLETTER_FOOTER', "Pied de page");
-define('_AM_NEWS_NEWSLETTER_HTML_TAGS', "Supprimer les balises html ?");
+define('_AM_NEWS_NEWSLETTER_HEADER',"Entête");
+define('_AM_NEWS_NEWSLETTER_FOOTER',"Pied de page");
+define('_AM_NEWS_NEWSLETTER_HTML_TAGS',"Supprimer les balises html ?");
 define('_AM_NEWS_VERIFY_TABLES',"Maintenir les tables");
 define('_AM_NEWS_METAGEN',"Metagen");
 define('_AM_NEWS_METAGEN_DESC',"Le Metagen est un système qui peut vous aider à avoir des pages mieux indexées par les moteurs de recherche.<br />Sauf si vous entrez vous-même les meta keywords et meta desriptions, le module les génèrera automatiquement pour chaque article.");
@@ -214,20 +214,20 @@ define("_AM_NEWS_CONFIG_PHP","Version minimum de PHP requise: %s (votre version 
 define("_AM_NEWS_CONFIG_XOOPS","Version minimum de XOOPS requise:  %s (votre version actuelle est la %s)"); 
 
 
-define ("_AM_NEWS_STATISTICS", "Statistiques des articles");
-define ("_AM_NEWS_THEREARE_STORIES", "Il y a <span class='red bold'>%s</span> Articles dans la base de données");
-define ("_AM_NEWS_THEREARE_STORIES_ONLINE", "Il y a <span class='red bold'>%s</span> Articles publiés à l'accueil");
-define ("_AM_NEWS_THEREARE_STORIES_FILES", "Il y a  <span class='red bold'>%s</span> Fichiers d'articles dans la base de données");
-define ("_AM_NEWS_THEREARE_STORIES_FILES_ONLINE", "Il y a <span class='red bold'>%s</span> Fichiers d'articles en ligne");
-define ("_AM_NEWS_THEREARE_TOPICS", "Il y a <span class='red bold'>%s</span> Catégories dans la base de données");
-define ("_AM_NEWS_THEREARE_TOPICS_ONLINE", "Il y a <span class='red bold'>%s</span> Catégories visibles dans le Menu");
-define ("_AM_NEWS_THEREARE_STORIES_VOTEDATA", "Il y a <span class='red bold'>%s</span> Articles visionnés");
-define ("_AM_NEWS_THEREARE_STORIES_IMPORTED", "Il y a <span class='red bold'>%s</span> Articles importés");
-define ("_AM_NEWS_THEREARE_STORIES_EXPORTED", "Il y a <span class='red bold'>%s</span> Articles exportés");
-define ("_AM_NEWS_THEREARE_STORIES_EXPIRED", "Il y a <span class='red bold'>%s</span> Articles expirés");
-define ("_AM_NEWS_THEREARE_STORIES_EXPIRED_SOON", "Il y a <span class='red bold'>%s</span> Articles qui vont expirer bientôt");
-define ("_AM_NEWS_THEREARE_STORIES_APPROVED", "Il y a <span class='red bold'>%s</span> Articles approuvées");
-define ("_AM_NEWS_THEREARE_STORIES_NEED_APPROVAL", "Il y a <span class='red bold'>%s</span> Articles qui sont en attente d'approbation");
+define("_AM_NEWS_STATISTICS","Statistiques des articles");
+define("_AM_NEWS_THEREARE_STORIES","Il y a <span class='red bold'>%s</span> Articles dans la base de données");
+define("_AM_NEWS_THEREARE_STORIES_ONLINE","Il y a <span class='red bold'>%s</span> Articles publiés à l'accueil");
+define("_AM_NEWS_THEREARE_STORIES_FILES","Il y a  <span class='red bold'>%s</span> Fichiers d'articles dans la base de données");
+define("_AM_NEWS_THEREARE_STORIES_FILES_ONLINE","Il y a <span class='red bold'>%s</span> Fichiers d'articles en ligne");
+define("_AM_NEWS_THEREARE_TOPICS","Il y a <span class='red bold'>%s</span> Catégories dans la base de données");
+define("_AM_NEWS_THEREARE_TOPICS_ONLINE","Il y a <span class='red bold'>%s</span> Catégories visibles dans le Menu");
+define("_AM_NEWS_THEREARE_STORIES_VOTEDATA","Il y a <span class='red bold'>%s</span> Articles visionnés");
+define("_AM_NEWS_THEREARE_STORIES_IMPORTED","Il y a <span class='red bold'>%s</span> Articles importés");
+define("_AM_NEWS_THEREARE_STORIES_EXPORTED","Il y a <span class='red bold'>%s</span> Articles exportés");
+define("_AM_NEWS_THEREARE_STORIES_EXPIRED","Il y a <span class='red bold'>%s</span> Articles expirés");
+define("_AM_NEWS_THEREARE_STORIES_EXPIRED_SOON","Il y a <span class='red bold'>%s</span> Articles qui vont expirer bientôt");
+define("_AM_NEWS_THEREARE_STORIES_APPROVED","Il y a <span class='red bold'>%s</span> Articles approuvées");
+define("_AM_NEWS_THEREARE_STORIES_NEED_APPROVAL","Il y a <span class='red bold'>%s</span> Articles qui sont en attente d'approbation");
 /**
  * @translation     Communauté Francophone des Utilisateurs de Xoops
  * @specification   _LANGCODE: fr

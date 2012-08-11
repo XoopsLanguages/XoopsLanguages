@@ -17,24 +17,24 @@
  * Version : 1.38 Thu 2012/04/12 14:04:25 : Timgno Exp $
  * ****************************************************************************
  */
-define("_MI_TDMCREATE_NAME", "TDMCreate");
-define("_MI_TDMCREATE_DESC", "Creation modules developed by TDM Xoops");
+define("_MI_TDMCREATE_NAME","TDMCreate");
+define("_MI_TDMCREATE_DESC","Creation modules developed by TDM Xoops");
 //Menu
-define("_MI_TDMCREATE_ADMIN_INDEX", "Index");
-define("_MI_TDMCREATE_ADMIN_MODULES", "Add Module");
-define("_MI_TDMCREATE_ADMIN_TABLES", "Add Table");
-define("_MI_TDMCREATE_ADMIN_CONST", "Build Module");
-define("_MI_TDMCREATE_ADMIN_ABOUT", "Information");
-define("_MI_TDMCREATE_ADMIN_PREFERENCES", "Preferences");
-define("_MI_TDMCREATE_ADMIN_UPDATE", "Update");
+define("_MI_TDMCREATE_ADMIN_INDEX","Index");
+define("_MI_TDMCREATE_ADMIN_MODULES","Add Module");
+define("_MI_TDMCREATE_ADMIN_TABLES","Add Table");
+define("_MI_TDMCREATE_ADMIN_CONST","Build Module");
+define("_MI_TDMCREATE_ADMIN_ABOUT","Information");
+define("_MI_TDMCREATE_ADMIN_PREFERENCES","Preferences");
+define("_MI_TDMCREATE_ADMIN_UPDATE","Update");
 // 1.37
-define("_MI_TDMCREATE_EDITOR", "Editor");
-define("_MI_TDMCREATE_EDITOR_DESC", "Select an editor to write");
-define('_MI_TDMCREATE_MAXSIZE', "Mime size");
-define('_MI_TDMCREATE_MAXSIZE_DESC', "Mime size for images");
-define('_MI_TDMCREATE_MIMETYPES', "Mime Types");
-define('_MI_TDMCREATE_MIMETYPES_DESC', "Mime Types for images");
-define("_MI_TDMCREATE_ADMINPERPAGE", "Admin per page");
-define("_MI_TDMCREATE_ADMINPERPAGE_DESC", "Set number of tables to view per page in admin.");
+define("_MI_TDMCREATE_EDITOR","Editor");
+define("_MI_TDMCREATE_EDITOR_DESC","Select an editor to write");
+define('_MI_TDMCREATE_MAXSIZE',"Mime size");
+define('_MI_TDMCREATE_MAXSIZE_DESC',"Mime size for images");
+define('_MI_TDMCREATE_MIMETYPES',"Mime Types");
+define('_MI_TDMCREATE_MIMETYPES_DESC',"Mime Types for images");
+define("_MI_TDMCREATE_ADMINPERPAGE","Admin per page");
+define("_MI_TDMCREATE_ADMINPERPAGE_DESC","Set number of tables to view per page in admin.");
 
 ?>

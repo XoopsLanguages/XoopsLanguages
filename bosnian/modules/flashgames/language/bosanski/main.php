@@ -4,29 +4,29 @@
 
 // New in flashgames-p
 
-define( "_ALBM_NEXT_BUTTON" , "Sljede&#263;e" ) ;
-define( "_ALBM_REDOLOOPDONE" , "Gotovo." ) ;
+define("_ALBM_NEXT_BUTTON" , "Sljede&#263;e" ) ;
+define("_ALBM_REDOLOOPDONE" , "Gotovo." ) ;
 
-define( "_ALBM_AM_ADMISSION" , "Odobri igru" ) ;
-define( "_ALBM_AM_ADMITTING" , "Igra je odobrena" ) ;
-define( "_ALBM_AM_LABEL_ADMIT" , "Izabrane igre odobri" ) ;
-define( "_ALBM_AM_BUTTON_ADMIT" , "Odobri" ) ;
-define( "_ALBM_AM_BUTTON_EXTRACT" , "izvuci" ) ;
+define("_ALBM_AM_ADMISSION" , "Odobri igru" ) ;
+define("_ALBM_AM_ADMITTING" , "Igra je odobrena" ) ;
+define("_ALBM_AM_LABEL_ADMIT" , "Izabrane igre odobri" ) ;
+define("_ALBM_AM_BUTTON_ADMIT" , "Odobri" ) ;
+define("_ALBM_AM_BUTTON_EXTRACT" , "izvuci" ) ;
 
-define( "_ALBM_AM_GAMEMANAGER" , "Menadzer igri" ) ;
-define( "_ALBM_AM_GAMENAVINFO" , "Broj igri: %s-%s (od %s izabrano)" ) ;
-define( "_ALBM_AM_LABEL_REMOVE" , "Izabrane igre izbri&scaron;i" ) ;
-define( "_ALBM_AM_BUTTON_REMOVE" , "Izbri&scaron;i!" ) ;
-define( "_ALBM_AM_JS_REMOVECONFIRM" , "Izbrisati jel OK?" ) ;
-define( "_ALBM_AM_LABEL_MOVE" , "Kategoriju izabranih igri promjeni" ) ;
-define( "_ALBM_AM_BUTTON_MOVE" , "Prebaci" ) ;
-define( "_ALBM_AM_DEADLINKMAINgame" , "Jarane te igre nema" ) ;
+define("_ALBM_AM_GAMEMANAGER" , "Menadzer igri" ) ;
+define("_ALBM_AM_GAMENAVINFO" , "Broj igri: %s-%s (od %s izabrano)" ) ;
+define("_ALBM_AM_LABEL_REMOVE" , "Izabrane igre izbri&scaron;i" ) ;
+define("_ALBM_AM_BUTTON_REMOVE" , "Izbri&scaron;i!" ) ;
+define("_ALBM_AM_JS_REMOVECONFIRM" , "Izbrisati jel OK?" ) ;
+define("_ALBM_AM_LABEL_MOVE" , "Kategoriju izabranih igri promjeni" ) ;
+define("_ALBM_AM_BUTTON_MOVE" , "Prebaci" ) ;
+define("_ALBM_AM_DEADLINKMAINgame" , "Jarane te igre nema" ) ;
 
-define( "_ALBM_RADIO_ROTATETITLE" , "Sliku okreni" ) ;
-define( "_ALBM_RADIO_ROTATE0" , "Ne okre&#263;i" ) ;
-define( "_ALBM_RADIO_ROTATE90" , "Desno okreni za 90°" ) ;
-define( "_ALBM_RADIO_ROTATE180" , "Za 180° okreni" ) ;
-define( "_ALBM_RADIO_ROTATE270" , "Lijevo 70° okreni" ) ;
+define("_ALBM_RADIO_ROTATETITLE" , "Sliku okreni" ) ;
+define("_ALBM_RADIO_ROTATE0" , "Ne okre&#263;i" ) ;
+define("_ALBM_RADIO_ROTATE90" , "Desno okreni za 90Â°" ) ;
+define("_ALBM_RADIO_ROTATE180" , "Za 180Â° okreni" ) ;
+define("_ALBM_RADIO_ROTATE270" , "Lijevo 70Â° okreni" ) ;
 
 
 // New flashgames 1.0.1 (and 1.2.0)
@@ -41,12 +41,12 @@ define("_ALBM_ADDGAME","Igru po&scaron;alji");
 
 
 // New flashgames 1.0.0
-define("_ALBM_GAMESOURCEREMINDER", "Obrati pa&#382;nju, <a href=\"http://pnflashgames.com\">pnFlashGames.com</a> nje oficijelni izvor za highscore bazirane igre za ovaj Modul! Za kvalitativne visoko cijenjene, profesionalne igre po niskim cjenama, posjeti  <a href=\"http://pnflashgames.com/store\">njihov Shop</a>.");
-define("_ALBM_GAMEWIDTH", "&Scaron;irina igre");
-define("_ALBM_GAMEHEIGHT", "Visina igre");
-define("_ALBM_GAMEBGCOLOR", "Pozadinska farba");
-define("_ALBM_SELECTIMAGE", "Sliku izaberi");
-define("_ALBM_GAMELICENSE", "Licence klju&#269;");
+define("_ALBM_GAMESOURCEREMINDER","Obrati pa&#382;nju, <a href=\"http://pnflashgames.com\">pnFlashGames.com</a> nje oficijelni izvor za highscore bazirane igre za ovaj Modul! Za kvalitativne visoko cijenjene, profesionalne igre po niskim cjenama, posjeti  <a href=\"http://pnflashgames.com/store\">njihov Shop</a>.");
+define("_ALBM_GAMEWIDTH","&Scaron;irina igre");
+define("_ALBM_GAMEHEIGHT","Visina igre");
+define("_ALBM_GAMEBGCOLOR","Pozadinska farba");
+define("_ALBM_SELECTIMAGE","Sliku izaberi");
+define("_ALBM_GAMELICENSE","Licence klju&#269;");
 
 define("_ALBM_GAMEBATCHUPLOAD","Bath uploaduj");
 define("_ALBM_GAMEUPLOAD","Igru uploaduj");
@@ -59,7 +59,7 @@ define("_ALBM_DESC_GAMEPATH","Napi&scaron;i kompletnu vezu za igru");
 define("_ALBM_MES_INVALIDDIRECTORY","Direktorij nije ispravan.");
 define("_ALBM_MES_BATCHDONE","%s igra(e)  restrovana(e).");
 define("_ALBM_MES_BATCHNONE","Nema igri u ovom direktoriju.");
-define( "_ALBM_LINKID" , "Igre-ID:" ) ;
+define("_ALBM_LINKID" , "Igre-ID:" ) ;
 define("_ALBM_SELECTFILE","Izaberi igru");
 define("_ALBM_FILEERROR","Igra nije uploadana ili je prevelika;");
 
@@ -249,11 +249,11 @@ define("_ALBM_CONFUPDATED","Konfiguracija je aktulizirana!");
 define("_ALBM_EDITTHISLINK","Igru uredi");
 
 define("_ALBM_NOTLOGGEDIN","<br>Va&#382;no: Poeni se bilje&#382;e, samo kad si ulogovan(a) !");
-define ("_ALBM_HIGHSCORE","Highscores");
-define ("_ALBM_RANG","Rang");
-define ("_ALBM_NAME","Ime");
-define ("_ALBM_DATE","Datum");
-define ("_ALBM_TIME","Vrijeme");
+define("_ALBM_HIGHSCORE","Highscores");
+define("_ALBM_RANG","Rang");
+define("_ALBM_NAME","Ime");
+define("_ALBM_DATE","Datum");
+define("_ALBM_TIME","Vrijeme");
 
 define("_ALBM_LINKSPERPAGE","Prika&#382;i igri po stranici: ");
 define("_ALBM_HITSPOP","Broj klikova da bi igra bila popularna: ");
@@ -280,7 +280,7 @@ define("_ALBM_EDITGAME","Igru promjeni");
 define("_ALBM_DELETEGAME","Igru izbri&scaron;i!");
 define("_ALBM_CLEARGAME","Rekord izbri&scaron;i!");
 define("_ALBM_SETNEWDATE","Datum slanja postavi");
-define("_ALBM_MEMBERS","Nur für Mitglieder ?");
+define("_ALBM_MEMBERS","Nur fÃ¼r Mitglieder ?");
 
 
 
@@ -296,7 +296,7 @@ define("_ALBM_HIGHSCORETYPE1","Broj&#269;ano - Ve&#263;e poena pobje&#273;uju");
 define("_ALBM_HIGHSCORETYPE2","Broj&#269;ano - Najmanje poena pobje&#273;uje");
 define("_ALBM_HIGHSCORETYPE3","Zeit basiert - Najvi&scaron;e poena pobje&#273;uj");
 define("_ALBM_HIGHSCORETYPE4","Zeit basiert - Najmanje poena pobje&#273;uje");
-define("_ALBM_HIGHSCORETYPE", "Rekord Typ");
+define("_ALBM_HIGHSCORETYPE","Rekord Typ");
 define("_ALBM_CLASSFILE","Java Klasse (xyz.class)");
 
 
@@ -326,18 +326,18 @@ Ako Rekorde ispod Top 10 pobijedi&scaron;, dobi&#263;e&scaron; zato Poene. <br> 
 
  
 //AI Service
-define("_FG_AUTOMATICINSTALLATIONSERVICE", "Automatska instalacija preko Servisa");
+define("_FG_AUTOMATICINSTALLATIONSERVICE","Automatska instalacija preko Servisa");
 define("_FG_AUTOMATICINSTALLATIONSERVICELINK","Automatska instalacija preko Servisa");
-define("_FG_AUTOINSTALLINSTRUCTIONS", "Just check the install box for the games you want to install and click the submit button at the bottom of the page.  Make sure you have turned off any pop up blockers.");
-define("_FG_SELECTALL", "Izaberi sve");
-define("_FG_CLEARALL", "Odbaci sve");
-define("_FG_INSTALL", "Instalirati?");
-define("_FG_AUTHOR", "Autor");
-define("_FG_RATING", "Ocjena");
-define("_FG_NUMTIMESPLAYED", "Number of times played on pnFlashGames.com");
-define("_FG_PREVIEWGAME", "Preview Game");
-define("_FG_LICENSEKEY", "License Key");
-define("_FG_CATEGORY", "Categorja");
-define("_FG_FILESIZE", "Game Filesize");
+define("_FG_AUTOINSTALLINSTRUCTIONS","Just check the install box for the games you want to install and click the submit button at the bottom of the page.  Make sure you have turned off any pop up blockers.");
+define("_FG_SELECTALL","Izaberi sve");
+define("_FG_CLEARALL","Odbaci sve");
+define("_FG_INSTALL","Instalirati?");
+define("_FG_AUTHOR","Autor");
+define("_FG_RATING","Ocjena");
+define("_FG_NUMTIMESPLAYED","Number of times played on pnFlashGames.com");
+define("_FG_PREVIEWGAME","Preview Game");
+define("_FG_LICENSEKEY","License Key");
+define("_FG_CATEGORY","Categorja");
+define("_FG_FILESIZE","Game Filesize");
 
 ?>

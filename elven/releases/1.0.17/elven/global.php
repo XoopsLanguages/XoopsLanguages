@@ -2,7 +2,7 @@
 // 12-July-2008, Sat, 20:01 PM - Ya auta yeste? Ya? - Wishcraft (Yaaraer) - v 1.0.17
 
 define("_PLEASEWAIT","Saes'Feith'Coiasira'");
-define("_FETCHING","n�Umar'Parma...");
+define("_FETCHING","nâ€™Umar'Parma...");
 define("_TAKINGBACK","Entul'malle' mist'parma onsint'san'....");
 define("_LOGOUT","Kel'Kelma");
 define("_SUBJECT","Essa");
@@ -15,20 +15,20 @@ define("_PREVIEW","Dae");
 
 define("_GO","Na'Sii'!");
 define("_NESTED","Assa Olwa");
-define("_NOCOMMENTS","N�uma yelas");
+define("_NOCOMMENTS","Nâ€™uma yelas");
 define("_FLAT","Laara'");
 define("_THREADED","Olwaed");
 define("_OLDESTFIRST","Iantinin Yeste'");
 define("_NEWESTFIRST","Winyinin Yeste'");
 define("_MORE","ner...");
 define("_MULTIPAGE","Cael'lle Tengw'Alya span nir' linas, tenkel'lekmee <font color=red>[pagebreak]</font> (yassen brackets) yassene Tengw'Alya.");
-define("_IFNOTRELOAD","Lina uum'Entul'malle' mist'parma n�Umar'Parma, ont\'amin <a href='%s'>sinome</a>");
+define("_IFNOTRELOAD","Lina uum'Entul'malle' mist'parma nâ€™Umar'Parma, ont\'amin <a href='%s'>sinome</a>");
 define("_WARNINSTALL2","TAMP'ERIN: Men %s utu'ero on lle parma. <br />Diol'kela sina men ten'nost.");
 define("_WARNINWRITEABLE","TAMP'ERIN: Ai Parma %s ta writeable ya tanya parma. <br />Please change tanya leneema en sina ai parma ten'nost.<br /> yassene Unix (444), yassene Win32 (read-only)");
 
 // n'Uma men lekmees issued ya XoopsObject::cleanVars()
-define( "_XOBJ_ERR_REQUIRED", "%s ta heera" );
-define( "_XOBJ_ERR_SHORTERTHAN", "%s anta aiin tanya %d tengwanda kerta." );
+define("_XOBJ_ERR_REQUIRED","%s ta heera" );
+define("_XOBJ_ERR_SHORTERTHAN","%s anta aiin tanya %d tengwanda kerta." );
 
 //%%%%%%	Ai Parma Esse themegwaithpost.php 	%%%%%
 define("_PROFILE","Palme");
@@ -49,8 +49,8 @@ define("_YOURHOME","Eska Soronuume");
 
 //%%%%%%	Ai Parma Esse misc.php (who's-online popup)	%%%%%
 define("_WHOSONLINE","Yaes Yassene");
-define('_GUESTS', 'Ai\'er');
-define('_MEMBERS', 'Qualenties');
+define('_GUESTS','Ai\'er');
+define('_MEMBERS','Qualenties');
 define("_ONLINEPHRASE","<b>%s</b> gwaith(ea) ron Yassene");
 define("_ONLINEPHRASEX","<b>%s</b> gwaith(ea) ron Mayassene <b>%s</b>");
 define("_CLOSE","Avaene");  // Close window
@@ -72,24 +72,24 @@ define("_ALIGN","Yamen'");
 define("_LEFT","Hyarya");
 define("_CENTER","Uum'Hyarya Umm'Forya");
 define("_RIGHT","Forya");
-define("_FORM_ENTER", "Saes'Lakeem %s");
+define("_FORM_ENTER","Saes'Lakeem %s");
 // %s represamaes ai parma name
 define("_MUSTWABLE","Ai Parma %s anta tengw ya tanya parma!");
 // Module info
-define('_PREFERENCES', 'Dethol\'akh');
-define("_VERSION", "Dethol'parma");
-define("_DESCRIPTION", "Essa");
-define("_ERRORS", "n'Uma men");
-define("_NONE", "Wanwa");
+define('_PREFERENCES','Dethol\'akh');
+define("_VERSION","Dethol'parma");
+define("_DESCRIPTION","Essa");
+define("_ERRORS","n'Uma men");
+define("_NONE","Wanwa");
 define('_ON','on');
 define('_READS','Parm');
 define('_WELCOMETO','Creoso, %s');
 define('_SEARCH','Utu\'men');
-define('_ALL', 'Ilya');
-define('_TITLE', 'Essa');
-define('_OPTIONS', 'Dethol\'');
-define('_QUOTE', 'Suil\'Lekmee');
-define('_LIST', 'List');
+define('_ALL','Ilya');
+define('_TITLE','Essa');
+define('_OPTIONS','Dethol\'');
+define('_QUOTE','Suil\'Lekmee');
+define('_LIST','List');
 define('_LOGIN','Gwaith Yanwyamen\'');
 define('_USERNAME','Esse: ');
 define('_PASSWORD','Olin: ');
@@ -99,12 +99,12 @@ define("_SEND","Fain");
 define("_CANCEL","Uu'um");
 define("_ASCENDING","Penda men");
 define("_DESCENDING","Pende men");
-define('_BACK', 'n\'Alaquel');
-define('_NOTITLE', 'N�uma Essa');
+define('_BACK','n\'Alaquel');
+define('_NOTITLE','Nâ€™uma Essa');
 
 /* Image manager */
 define('_IMGMANAGER','Image Manager');
-define('_NUMIMAGES', '%s images');
+define('_NUMIMAGES','%s images');
 define('_ADDIMAGE','Add Image Ai Parma');
 define('_IMAGENAME','Essa:');
 define('_IMGMAXSIZE','Leneem\'alta (bytes):');
@@ -115,16 +115,16 @@ define('_IMAGEFILE','Image ai parma:');
 define('_IMGWEIGHT','Ont\'ukin yassene image manager:');
 define('_IMGDISPLAY','Ont\'sina image?');
 define('_IMAGEMIME','MIME uki:');
-define('_FAILFETCHIMG', 'Uum\'sama ai parma %s');
-define('_FAILSAVEIMG', 'Uum\'sama image %s tengw\'tengwanda parma');
-define('_NOCACHE', 'N�uma Faarea Parma');
-define('_CLONE', 'Sank\'erya');
+define('_FAILFETCHIMG','Uum\'sama ai parma %s');
+define('_FAILSAVEIMG','Uum\'sama image %s tengw\'tengwanda parma');
+define('_NOCACHE','Nâ€™uma Faarea Parma');
+define('_CLONE','Sank\'erya');
 
 //%%%%%	Ai Parma Esse class/xoopsform/formmatchoption.php 	%%%%%
-define("_STARTSWITH", "Yest'yassen");
-define("_ENDSWITH", "Tyel'yassen");
-define("_MATCHES", "Atya'");
-define("_CONTAINS", "Atya'tengwanda");
+define("_STARTSWITH","Yest'yassen");
+define("_ENDSWITH","Tyel'yassen");
+define("_MATCHES","Atya'");
+define("_CONTAINS","Atya'tengwanda");
 
 //%%%%%%	Ai Parma Esse yelaform.php 	%%%%%
 define("_REGISTER","Yanwyassene");
@@ -137,7 +137,7 @@ define("_EXAMPLE","SAMPLE");
 define("_ENTERURL","Enter tanya URL en tanya link lle want a\' add:");
 define("_ENTERWEBTITLE","Enter tanya web site title:");
 define("_ENTERIMGURL","Enter tanya URL en tanya image lle want a\' add.");
-define("_ENTERIMGPOS","n�Umaw, enter tanya position en tanya image.");
+define("_ENTERIMGPOS","nâ€™Umaw, enter tanya position en tanya image.");
 define("_IMGPOSRORL","'R' or 'r' ten'right, 'L' or 'L' ten'left, or leave it blank.");
 define("_ERRORIMGPOS","Ayai! Enter tanya position en tanya image.");
 define("_ENTEREMAIL","Enter tanya elekmee sama'men lle want a\' add.");
@@ -150,16 +150,16 @@ define("_PLZCOMPLETE","Please complete tanya subject and lekmee fields.");
 define("_MESSAGETOOLONG","Lle lekmee ta a\'a an.");
 
 //%%%%%		TIME FORMAT SETTINGS   %%%%%
-define('_SECOND', '1 second');
-define('_SECONDS', '%s seconds');
-define('_MINUTE', '1 minute');
-define('_MINUTES', '%s minutes');
-define('_HOUR', '1 hour');
-define('_HOURS', '%s hours');
-define('_DAY', '1 day');
-define('_DAYS', '%s yaare');
-define('_WEEK', '1 week');
-define('_MONTH', '1 month');
+define('_SECOND','1 second');
+define('_SECONDS','%s seconds');
+define('_MINUTE','1 minute');
+define('_MINUTES','%s minutes');
+define('_HOUR','1 hour');
+define('_HOURS','%s hours');
+define('_DAY','1 day');
+define('_DAYS','%s yaare');
+define('_WEEK','1 week');
+define('_MONTH','1 month');
 
 define("_DATESTRING","Y/n/j G:i:s");
 define("_MEDIUMDATESTRING","Y/n/j G:i");
@@ -183,7 +183,7 @@ m - month; i.e. "01" a\' "12"
 n - month avaene leading zeros; i.e. "1" a\' "12"
 M - month, textual, 3 letters; i.e. "Jan"
 s - seconds; i.e. "00" a\' "59"
-S - English ordinal suffix, textual, 2 tengwanda kerta; i.e. "th", "nd"
+S - English ordinal suffix, textual, 2 tengwanda kerta; i.e. "th","nd"
 t - number en yaare yassene tanya given month; i.e. "28" a\' "31"
 T - Coiasirazone setting en sina machine; i.e. "MDT"
 U - seconds since tanya epoch
@@ -196,9 +196,9 @@ Z - coiasirazone offset yassene seconds (i.e. "-43200" a\' "43200")
 
 
 //%%%%%		LANGUAGE SPECIFIC SETTINGS   %%%%%
-define('_CHARSET', 'ISO-8859-1');
-define('_LANGCODE', 'en');
+define('_CHARSET','ISO-8859-1');
+define('_LANGCODE','en');
 
 // change 0 a\' 1 manka sina language ta a\' multi-bytes language
-define("XOOPS_USE_MULTIBYTES", "0");
+define("XOOPS_USE_MULTIBYTES","0");
 ?>

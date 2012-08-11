@@ -4,8 +4,8 @@
 // _CHARSET : UTF-8
 // Translator: tstempko
 
-define('LICENSE_NOT_WRITEABLE', 'Licencja %s . <br/><font style="colour:#ff0000">Ustaw plik ../include/license.php jako zapisywalny</font>');
-define('LICENSE_IS_WRITEABLE', 'Licencja %s');
+define('LICENSE_NOT_WRITEABLE','Licencja %s . <br/><font style="colour:#ff0000">Ustaw plik ../include/license.php jako zapisywalny</font>');
+define('LICENSE_IS_WRITEABLE','Licencja %s');
 
 define("_INSTALL_WEBMASTER","Webmasterzy");
 define("_INSTALL_WEBMASTERD","Webmasterzy tego serwisu");
@@ -16,14 +16,14 @@ define("_INSTALL_ANONUSERSD","Grupy anonimowych użytkowników");
 /**
 * New Group types
 */
-define('_INSTALL_BANNEDUSERS', 'Zbanowani Users');
-define('_INSTALL_BANNEDUSERSD', 'Grupa użytkowników zbanowanych (zablokowanych)');
-define('_INSTALL_MODERATORUSERS', 'Moderatrzy');
-define('_INSTALL_MODERATORUSERSD', 'Grupa Moderatorów twojej witryny');
-define('_INSTALL_SUBMITTERUSERS', 'Autorzy');
-define('_INSTALL_SUBMITTERUSERSD', 'Grupa Autorów - może wysyłać artykuły na twojej witrynie');
-define('_INSTALL_DEVELOPEUSERS', 'Deweloperzy');
-define('_INSTALL_DEVELOPEUSERSD', 'Ta grupa widzi komunkaty o błędach (debugging messages) na twojej witrynie.');
+define('_INSTALL_BANNEDUSERS','Zbanowani Users');
+define('_INSTALL_BANNEDUSERSD','Grupa użytkowników zbanowanych (zablokowanych)');
+define('_INSTALL_MODERATORUSERS','Moderatrzy');
+define('_INSTALL_MODERATORUSERSD','Grupa Moderatorów twojej witryny');
+define('_INSTALL_SUBMITTERUSERS','Autorzy');
+define('_INSTALL_SUBMITTERUSERSD','Grupa Autorów - może wysyłać artykuły na twojej witrynie');
+define('_INSTALL_DEVELOPEUSERS','Deweloperzy');
+define('_INSTALL_DEVELOPEUSERSD','Ta grupa widzi komunkaty o błędach (debugging messages) na twojej witrynie.');
 
 
 define("_INSTALL_L165","Ten serwis jest aktualnie niedostępny. Zapraszamy w późniejszym terminie.");
@@ -31,7 +31,7 @@ define("_INSTALL_L165","Ten serwis jest aktualnie niedostępny. Zapraszamy w pó
 
 define("_INSTALL_ANON","Anonim");
 
-define("_INSTALL_DISCLMR", "Administratorzy i moderatorzy tego serwisu
+define("_INSTALL_DISCLMR","Administratorzy i moderatorzy tego serwisu
 mogą edytować lub usuwać wszelkie materiały co do których będą mieli zastrzeżenia
 co do zgodności z polityką niniejszego serwisu, aczkolwiek należy uwzględnić że 
 jest niemożliwością weryfikować każdy materiał, wiadomość czy komentarz.

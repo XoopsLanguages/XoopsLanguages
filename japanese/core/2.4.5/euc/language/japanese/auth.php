@@ -4,12 +4,12 @@
 // _CHARSET : EUC-JP
 // Translator: XOOPS Translation Team
 
-define('_AUTH_MSG_AUTH_METHOD',"%s Ç§¾Ú¤ò»È¤¤¤Þ¤¹");
-define('_AUTH_LDAP_EXTENSION_NOT_LOAD','PHP LDAP extension ¤¬¤¢¤ê¤Þ¤»¤ó(php.iniÅù¤Ç³ÎÇ§¤·¤Æ¤¯¤À¤µ¤¤)');
-define('_AUTH_LDAP_SERVER_NOT_FOUND',"¥µ¡¼¥Ð¡¼¤ËÀÜÂ³¤Ç¤­¤Þ¤»¤ó");
-define('_AUTH_LDAP_USER_NOT_FOUND',"¥á¥ó¥Ð¡¼ %s ¤Ï¡¢¤³¤Î¥Ç¥£¥ì¥¯¥È¥ê¥µ¡¼¥Ð(%s) ¤«¤é¸«¤Ä¤«¤ê¤Þ¤»¤ó¤Ç¤·¤¿(%sÆâ)");
-define('_AUTH_LDAP_CANT_READ_ENTRY', "%s¤Î¥¨¥ó¥È¥ê¤¬ÆÉ¤ß¹þ¤á¤Þ¤»¤ó");
-define('_AUTH_LDAP_XOOPS_USER_NOTFOUND',"³ºÅö¤¹¤ë¥æ¡¼¥¶¾ðÊó¤ò¡¢XOOPS¥Ç¡¼¥¿¥Ù¡¼¥¹¤«¤éÆÉ¤ß¹þ¤á¤Þ¤»¤ó¤Ç¤·¤¿: %s ");
-define('_AUTH_LDAP_START_TLS_FAILED',"TLS ÀÜÂ³¤Ë¼ºÇÔ¤·¤Þ¤·¤¿");
+define('_AUTH_MSG_AUTH_METHOD',"%s Ç§ï¿½Ú¤ï¿½È¤ï¿½ï¿½Þ¤ï¿½");
+define('_AUTH_LDAP_EXTENSION_NOT_LOAD','PHP LDAP extension ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Þ¤ï¿½ï¿½ï¿½(php.iniï¿½ï¿½ï¿½Ç³ï¿½Ç§ï¿½ï¿½ï¿½Æ¤ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½)');
+define('_AUTH_LDAP_SERVER_NOT_FOUND',"ï¿½ï¿½ï¿½ï¿½ï¿½Ð¡ï¿½ï¿½ï¿½ï¿½ï¿½Â³ï¿½Ç¤ï¿½ï¿½Þ¤ï¿½ï¿½ï¿½");
+define('_AUTH_LDAP_USER_NOT_FOUND',"ï¿½ï¿½ï¿½Ð¡ï¿½ %s ï¿½Ï¡ï¿½ï¿½ï¿½ï¿½Î¥Ç¥ï¿½ï¿½ì¥¯ï¿½È¥ê¥µï¿½ï¿½ï¿½ï¿½(%s) ï¿½ï¿½ï¿½é¸«ï¿½Ä¤ï¿½ï¿½ï¿½Þ¤ï¿½ï¿½ï¿½Ç¤ï¿½ï¿½ï¿½(%sï¿½ï¿½)");
+define('_AUTH_LDAP_CANT_READ_ENTRY',"%sï¿½Î¥ï¿½ï¿½ï¿½È¥ê¤¬ï¿½É¤ß¹ï¿½ï¿½ï¿½Þ¤ï¿½ï¿½ï¿½");
+define('_AUTH_LDAP_XOOPS_USER_NOTFOUND',"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½æ¡¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½XOOPSï¿½Ç¡ï¿½ï¿½ï¿½ï¿½Ù¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É¤ß¹ï¿½ï¿½ï¿½Þ¤ï¿½ï¿½ï¿½Ç¤ï¿½ï¿½ï¿½: %s ");
+define('_AUTH_LDAP_START_TLS_FAILED',"TLS ï¿½ï¿½Â³ï¿½Ë¼ï¿½ï¿½Ô¤ï¿½ï¿½Þ¤ï¿½ï¿½ï¿½");
 
 ?>

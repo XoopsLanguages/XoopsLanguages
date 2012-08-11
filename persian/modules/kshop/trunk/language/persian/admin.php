@@ -86,9 +86,9 @@ define("KS_P_INSTALL4","نصب");
 define("KS_P_UNINSTALL2","خارج کردن از نصب");
 define("KS_P_SETTINGS","تنظیمات");
 
-define ("KS_EDIT", "ویرایش");
-define ("KS_NOPLUGPAY", "هیچ پلاگینی برای پرداخت نصب نشده است!");
-define ("KS_NOPLUGSHIP", "هیچ پلاگینی برای حمل و نقل نصب نشده است!");
+define("KS_EDIT","ویرایش");
+define("KS_NOPLUGPAY","هیچ پلاگینی برای پرداخت نصب نشده است!");
+define("KS_NOPLUGSHIP","هیچ پلاگینی برای حمل و نقل نصب نشده است!");
 
 define("KS_SUBTABS_PRODOPTIONS","گزینه ها");
 
@@ -151,11 +151,11 @@ define("KS_TABS_PERMISSIONS","دسترسی ها");
 define("KS_UPDTTXTSUCESS","متن با موفقیت به روز شد!");
 define("KS_QTY","مقدار");
 
-define ("KS_PER1","تغییر پلاگین ها و دسترسی ها");
-define ("KS_PERTITLE","دسترسی های ماژول Kshop");
-define ("KS_PERDESC","گزینه هایی را که مایلید هر گروه ببیند انتخاب کنید");
-define ("KS_PERNONE","شما برای دیدن این صفحه دسترسی ندارید");
-define ("KS_NODELCAT1","نمی توانید شاخه اصلی را حذف کنید");
+define("KS_PER1","تغییر پلاگین ها و دسترسی ها");
+define("KS_PERTITLE","دسترسی های ماژول Kshop");
+define("KS_PERDESC","گزینه هایی را که مایلید هر گروه ببیند انتخاب کنید");
+define("KS_PERNONE","شما برای دیدن این صفحه دسترسی ندارید");
+define("KS_NODELCAT1","نمی توانید شاخه اصلی را حذف کنید");
 define("KS_DELBRNDSUCESS","مارک محصولات با موفقیت حذف شدند!");
 define("KS_INSRTBRNDSUCESS","مارک محصول با موفقیت ساخته شد");
 define("KS_ADMMAINTEXT","این صفحه آمار و سایر اطلاعات را نمایش میدهد.");

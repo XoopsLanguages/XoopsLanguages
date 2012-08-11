@@ -407,7 +407,7 @@ class MyTextSanitizer
         //return preg_replace("/&amp;/i", '&', htmlspecialchars($text, ENT_QUOTES));
         return preg_replace(
                             array("/&amp;/i", "/&nbsp;/i"),
-                            array('&', '&amp;nbsp;'),
+                            array('&','&amp;nbsp;'),
                             htmlspecialchars($text, ENT_QUOTES));
     }
 
@@ -520,7 +520,7 @@ class MyTextSanitizer
     {
         if (empty($xcode)) return $text;
         $patterns = "/\[code([^\]]*?)\](.*)\[\/code\]/esU";
-        $replacements = "'<div class=\"xoopsCode\"><code>'.\$this->executeExtension('syntaxhighlight', \$this->htmlSpecialChars(str_replace('\\\"', '\"', base64_decode('$2'))), '$1').'</code></div>'";
+        $replacements = "'<div class=\"xoopsCode\"><code>'.\$this->executeExtension('syntaxhighlight', \$this->htmlSpecialChars(str_replace('\\\"','\"', base64_decode('$2'))), '$1').'</code></div>'";
         $text =  preg_replace($patterns, $replacements, $text);
         return $text;
     }
@@ -586,7 +586,7 @@ class MyTextSanitizer
     function codeSanitizer($str, $image = 1)
     {
         trigger_error(__CLASS__."::".__FUNCTION__.' is deprecated', E_USER_WARNING);
-        $str =  $this->htmlSpecialChars(str_replace('\"', '"', base64_decode($str)));
+        $str =  $this->htmlSpecialChars(str_replace('\"','"', base64_decode($str)));
         $str = $this->xoopsCodeDecode($str, $image);
         return $str;
     }

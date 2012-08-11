@@ -3,19 +3,19 @@
 //%%%%%%	Admin Module Name  Smilies 	%%%%%
 define('_AM_DBUPDATED',_MD_AM_DBUPDATED);
 
-define('_AM_SMILESCONTROL','Xestor de cariñas');
-define('_AM_CODE','Código');
-define('_AM_SMILIE','Cariña');
-define('_AM_ACTION','Acción');
+define('_AM_SMILESCONTROL','Xestor de cariÃ±as');
+define('_AM_CODE','CÃ³digo');
+define('_AM_SMILIE','CariÃ±a');
+define('_AM_ACTION','AcciÃ³n');
 define('_AM_EDIT','Editar');
 define('_AM_DEL','Eliminar');
-define('_AM_CNRFTSD','Non se puido recuperar da táboa de cariñas.');
-define('_AM_ADDSMILE','Engadir cariña');
-define('_AM_EDITSMILE','Editar cariña');
-define('_AM_SMILECODE','Códiga de cariña:');
+define('_AM_CNRFTSD','Non se puido recuperar da tÃ¡boa de cariÃ±as.');
+define('_AM_ADDSMILE','Engadir cariÃ±a');
+define('_AM_EDITSMILE','Editar cariÃ±a');
+define('_AM_SMILECODE','CÃ³diga de cariÃ±a:');
 define('_AM_SMILEURL','URL da imaxe:');
-define('_AM_SMILEEMOTION','Descrición:');
+define('_AM_SMILEEMOTION','DescriciÃ³n:');
 define('_AM_ADD','Engadir');
 define('_AM_SAVE','Gardar');
-define('_AM_WAYSYWTDTS','ATENCIÓN: Está seguro de querer eliminar esta cariña?');define('_AM_DISPLAYF', 'Amosar en formulario?');
+define('_AM_WAYSYWTDTS','ATENCIÃ“N: EstÃ¡ seguro de querer eliminar esta cariÃ±a?');define('_AM_DISPLAYF','Amosar en formulario?');
 ?>

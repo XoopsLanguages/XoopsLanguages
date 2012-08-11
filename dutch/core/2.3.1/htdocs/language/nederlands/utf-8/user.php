@@ -46,7 +46,7 @@ define('_US_REGISTERNG','Kon de nieuwe gebruiker niet registreren.');
 define('_US_MAILOK','Ontvang nieuws <br />van administrators en moderators?');
 define('_US_DISCLAIMER','Disclaimer');
 define('_US_IAGREE','I accepteer het bovenstaande');
-define('_US_UNEEDAGREE', 'Sorry, je moet onze disclaimer acepteren om te registreren.');
+define('_US_UNEEDAGREE','Sorry, je moet onze disclaimer acepteren om te registreren.');
 define('_US_NOREGISTER','Sorry, we acepteren tijdelijk geen nieuwe gebruikers.');
 
 
@@ -79,15 +79,15 @@ define('_US_SORRYNOTFOUND','Sorry, geen overeenkomende gebruikersinformatie gevo
 
 // %s is your site name
 define('_US_NEWPWDREQ','Nieuw wachtwoord aangevraagd bij %s');
-define('_US_YOURACCOUNT', 'Je acount op %s');
+define('_US_YOURACCOUNT','Je acount op %s');
 
 define('_US_MAILPWDNG','mail_password: Kon gebruikers gegevens niet veranderen. Neem contact op met de Administrator');
 
 // %s is a username
 define('_US_PWDMAILED','Wachtwoord voor %s is verstuurd.');
 define('_US_CONFMAIL','Confirmatie e-mail voor %s is verstuurd.');
-define('_US_ACTVMAILNG', 'Fout tijdens het verzenden van de notificatie naar %s');
-define('_US_ACTVMAILOK', 'Notificatie e-mail naar %s is verstuurd.');
+define('_US_ACTVMAILNG','Fout tijdens het verzenden van de notificatie naar %s');
+define('_US_ACTVMAILOK','Notificatie e-mail naar %s is verstuurd.');
 
 //%%%%%%                File Name userinfo.php                 %%%%%
 define('_US_SELECTNG','Geen gebruiker geselecteerd! Ga astublieft terug en probeer het opnieuw.');
@@ -131,21 +131,21 @@ define('_US_PROFUPDATED','Je profiel is geupdate!');
 define('_US_USECOOKIE','Sla mijn gebruikersnaam op mijn computer op voor 1 jaar.');
 define('_US_NO','Nee');
 define('_US_DELACCOUNT','Verwijder Acount');
-define('_US_MYAVATAR', 'Mijn Avatar');
-define('_US_UPLOADMYAVATAR', 'Upload Avatar');
+define('_US_MYAVATAR','Mijn Avatar');
+define('_US_UPLOADMYAVATAR','Upload Avatar');
 define('_US_MAXPIXEL','Max Pixels');
 define('_US_MAXIMGSZ','Max Afbeeldings grote (Bytes)');
 define('_US_SELFILE','Selecteer bestand');
 define('_US_OLDDELETED','Je oude avatar wordt verwijderd!');
-define('_US_CHOOSEAVT', 'Kies een avatar van de lijst.');
+define('_US_CHOOSEAVT','Kies een avatar van de lijst.');
 
-define('_US_PRESSLOGIN', 'Klik op de knop beneden om in te loggen');
+define('_US_PRESSLOGIN','Klik op de knop beneden om in te loggen');
 
-define('_US_ADMINNO', 'Gebruikers in de webmaster groep kunnen niet verwijderd worden.');
-define('_US_GROUPS', 'Gebruikers groepen');
+define('_US_ADMINNO','Gebruikers in de webmaster groep kunnen niet verwijderd worden.');
+define('_US_GROUPS','Gebruikers groepen');
 
-define('_US_REMEMBERME', 'Onthoud mij');
+define('_US_REMEMBERME','Onthoud mij');
 
 // Welcoming emai/PM subject
-define('_US_WELCOME_SUBJECT', 'Welcome to %s');
+define('_US_WELCOME_SUBJECT','Welcome to %s');
 ?>

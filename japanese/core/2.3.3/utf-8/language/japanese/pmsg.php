@@ -37,8 +37,8 @@ define('_PM_DATE','送信日時');
 define('_PM_NOTREAD','未読');
 define('_PM_SEND','送信');
 define('_PM_DELETE','削除');
-define('_PM_REPLY', '返信');
+define('_PM_REPLY','返信');
 define('_PM_PLZREG','プライベートメッセージを使用するにはユーザ登録が必要です。');
 
-define('_PM_ONLINE', 'オンライン');
+define('_PM_ONLINE','オンライン');
 ?>

@@ -52,12 +52,12 @@ define("_MB_SHOUTBOX_CLEAR","Obriši sve");
 define("_MB_SHOUTBOX_BBCODEON","BBcode=on");
 define("_MB_SHOUTBOX_BBCODEOFF","BBcode=off");
 define("_MB_SHOUTBOX_AUTOREFRESH","Uključi Auto-osvježavanje?");
-define("_MB_SHOUTBOX_REFRESH", "Osvježi");
-define("_MB_SHOUTBOX_POPUP", "Skočni prozor");
+define("_MB_SHOUTBOX_REFRESH","Osvježi");
+define("_MB_SHOUTBOX_POPUP","Skočni prozor");
 
 // New definements (11/11/2004)
-define("_MB_SHOUTBOX_SHOUT_TITLE", "Objavi");
-define("_MB_SHOUTBOX_NICK", "Nadimak");
+define("_MB_SHOUTBOX_SHOUT_TITLE","Objavi");
+define("_MB_SHOUTBOX_NICK","Nadimak");
 
-define("_MB_SHOUTBOX_CONFIRMDEL", "Da li ste sigurni da želite obrisati sve objave u bazi/datoteci?");
+define("_MB_SHOUTBOX_CONFIRMDEL","Da li ste sigurni da želite obrisati sve objave u bazi/datoteci?");
 ?>

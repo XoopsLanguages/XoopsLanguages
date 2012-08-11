@@ -19,7 +19,7 @@ define('_MD_ASFILE',' Lagre som filer (i uploads-mappen)<br />');
 define('_MD_RUDELIMGCAT','Er du sikker på at du vil slette denne kategorien og alle bildene i den?');
 define('_MD_RUDELIMG','Er du sikker på at du vil slette dette bildet?');
 
-define('_MD_FAILDEL', 'Kunne ikke slette %s fra databasen');
-define('_MD_FAILDELCAT', 'Kunne ikke slette kategorien %s fra databasen');
-define('_MD_FAILUNLINK', 'Kunne ikke slette bildet: %s fra servermappen');
+define('_MD_FAILDEL','Kunne ikke slette %s fra databasen');
+define('_MD_FAILDELCAT','Kunne ikke slette kategorien %s fra databasen');
+define('_MD_FAILUNLINK','Kunne ikke slette bildet: %s fra servermappen');
 ?>

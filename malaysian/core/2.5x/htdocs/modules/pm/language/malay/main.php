@@ -34,7 +34,7 @@ define("_PM_MESSAGEC","Mesej: ");
 define("_PM_CLEAR","Padam");
 define("_PM_CANCELSEND","Batal Penghantaran");
 define("_PM_SUBMIT","Hantar");
-define("_PM_SAVEINOUTBOX", "Simpan salinan dalam Peti Keluar?");
+define("_PM_SAVEINOUTBOX","Simpan salinan dalam Peti Keluar?");
 
 //%%%%%%	File Name viewpmsg.php 	%%%%%
 define("_PM_SUBJECT","Subjek");
@@ -45,7 +45,7 @@ define("_PM_DELETE","Padam");
 define("_PM_TOSAVE","Pindah ke Peti Simpanan");
 define("_PM_UNSAVE","Pindah keluar dari Peti Simpanan");
 define("_PM_EMPTY","Padam semua mesej");
-define("_PM_REPLY", "Balas");
+define("_PM_REPLY","Balas");
 define("_PM_PLZREG","Sila daftar sebelum menghantar mesej peribadi!");
 define("_PM_SAVED_PART","Anda dibenarkan %d mesej dalam Peti Simpanan anda dan anda telah simpan %d mesej setakat ini");
 define("_PM_SAVED_ALL","Mesej telah dipindah ke Peti Simpanan");
@@ -54,7 +54,7 @@ define("_PM_EMPTIED","Peti telah dikosongkan");
 define("_PM_RUSUREEMPTY","Adakah anda pasti untuk mengosongkan peti ini?");
 define("_PM_SURE_TO_DELETE","Adakah anda pasti untuk hapuskan mesej ini?");
 
-define("_PM_ONLINE", "Dalam Talian");
+define("_PM_ONLINE","Dalam Talian");
 
 define("_PM_RECEIVE","Terima");
 define("_PM_POST","Kirim");
@@ -84,15 +84,15 @@ define("_PM_NEXTP","Selepas");
 define("_PM_MAILNOTIFY","%s-Anda mendapat mesej peribadi baru dari %s"); 	
 define("_PM_MAILMESSAGE","Hi!\nMesej peribadi baru dari %s\n\nSubjek mesej peribadi ialah \n%s\n\nAnda boleh melihat mesej ini di sini\n%s\n\n-----------\nAnda menerima mesej ini disebabkan anda telah memilih untuk dimaklumkan bila anda menerima mesej peribadi yang baru\n\nAnda boleh mengubah setting PM-Config\n%s\n\nSila jangan balas mesej ini\n\n---------\nDaripada\n%s\n%s\n%s");
 
-define("_PM_EMAIL", "Pindah ke emel"); 
-define("_PM_EMAIL_DESC", "%s, Mesej ini dipindahkan dari akaun anda di ".$GLOBALS['xoopsConfig']['sitename']);
-define("_PM_EMAIL_FROM", "Dari %s");
-define("_PM_EMAIL_TO", "Kepada %s");
-define("_PM_EMAIL_SUBJECT", "[message]%s");
-define("_PM_EMAIL_MESSAGE", "Kandungan mesej");
+define("_PM_EMAIL","Pindah ke emel"); 
+define("_PM_EMAIL_DESC","%s, Mesej ini dipindahkan dari akaun anda di ".$GLOBALS['xoopsConfig']['sitename']);
+define("_PM_EMAIL_FROM","Dari %s");
+define("_PM_EMAIL_TO","Kepada %s");
+define("_PM_EMAIL_SUBJECT","[message]%s");
+define("_PM_EMAIL_MESSAGE","Kandungan mesej");
 
-define("_PM_ACTION_DONE", "Operasi berjaya");
-define("_PM_ACTION_ERROR", "Operasi tidak berjaya");
+define("_PM_ACTION_DONE","Operasi berjaya");
+define("_PM_ACTION_ERROR","Operasi tidak berjaya");
 
 //XOOPS 2.5.2
 define("_PM_READ","Telah Dibaca");

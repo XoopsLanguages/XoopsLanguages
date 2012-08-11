@@ -54,9 +54,9 @@ define("_MD_SHOUTBOX_POPUP_CONNECT","Spoji se");
 define("_MD_SHOUTBOX_POPUP_SHOUT","Po&scaron;alji");
 define("_MD_SHOUTBOX_POPUP_TITLE","Live Chat");
 define("_MD_SHOUTBOX_POPUP_CONNECTED",": spojen(a) kao ");
-define("_MD_SHOUTBOX_POPUP_REFRESH", "Aktuliziraj");
-define("_MD_SHOUTBOX_POPUP_NOSHOUTS", "Bez poruke!");
-define("_MD_SHOUTBOX_POPUP_AUTOFOCUS", "Auto-Fokus");
+define("_MD_SHOUTBOX_POPUP_REFRESH","Aktuliziraj");
+define("_MD_SHOUTBOX_POPUP_NOSHOUTS","Bez poruke!");
+define("_MD_SHOUTBOX_POPUP_AUTOFOCUS","Auto-Fokus");
 ?>  =======
 <?php
 //  ------------------------------------------------------------------------ //
@@ -114,7 +114,7 @@ define("_MD_SHOUTBOX_POPUP_CONNECT","Spoji se");
 define("_MD_SHOUTBOX_POPUP_SHOUT","Po&scaron;alji");
 define("_MD_SHOUTBOX_POPUP_TITLE","Live Chat");
 define("_MD_SHOUTBOX_POPUP_CONNECTED",": prijavljeni kao ");
-define("_MD_SHOUTBOX_POPUP_REFRESH", "Aktuliziraj");
-define("_MD_SHOUTBOX_POPUP_NOSHOUTS", "Poni&scaron;ti Poruku!");
-define("_MD_SHOUTBOX_POPUP_AUTOFOCUS", "Auto-Fokus");
+define("_MD_SHOUTBOX_POPUP_REFRESH","Aktuliziraj");
+define("_MD_SHOUTBOX_POPUP_NOSHOUTS","Poni&scaron;ti Poruku!");
+define("_MD_SHOUTBOX_POPUP_AUTOFOCUS","Auto-Fokus");
 ?>>>>>>>> .r2418

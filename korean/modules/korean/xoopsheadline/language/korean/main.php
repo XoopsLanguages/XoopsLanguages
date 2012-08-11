@@ -29,15 +29,15 @@
 //  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 USA //
 //  ------------------------------------------------------------------------ //
 
-define('_HL_LASTBUILD', 'ÃÖÁ¾°»½ÅÀÏ');
-define('_HL_LANGUAGE', '¾ð¾î');
-define('_HL_DESCRIPTION', '»çÀÌÆ®');
-define('_HL_WEBMASTER', 'À¥¸¶½ºÅÍ');
-define('_HL_CATEGORY', 'Ä«Å×°í¸®');
-define('_HL_GENERATOR', 'ÀÛ¼º');
-define('_HL_TITLE', 'Á¦¸ñ');
-define('_HL_PUBDATE', '°ø°³');
-define('_HL_FAILGET', '%s ·ÎºÎÅÍ RSS¸¦ °¡Á®¿À´Âµ¥ ½ÇÆÐÇÏ¿´½À´Ï´Ù.');
-define('_HL_GOTOTOP', 'TOP·Î');
-define('_HL_HEADLINES', 'Çìµå¶óÀÎ');
+define('_HL_LASTBUILD','ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½');
+define('_HL_LANGUAGE','ï¿½ï¿½ï¿½');
+define('_HL_DESCRIPTION','ï¿½ï¿½ï¿½ï¿½Æ®');
+define('_HL_WEBMASTER','ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½');
+define('_HL_CATEGORY','Ä«ï¿½×°ï¿½ï¿½');
+define('_HL_GENERATOR','ï¿½Û¼ï¿½');
+define('_HL_TITLE','ï¿½ï¿½ï¿½ï¿½');
+define('_HL_PUBDATE','ï¿½ï¿½ï¿½ï¿½');
+define('_HL_FAILGET','%s ï¿½Îºï¿½ï¿½ï¿½ RSSï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Âµï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï¿ï¿½ï¿½ï¿½ï¿½Ï´ï¿½.');
+define('_HL_GOTOTOP','TOPï¿½ï¿½');
+define('_HL_HEADLINES','ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½');
 ?>

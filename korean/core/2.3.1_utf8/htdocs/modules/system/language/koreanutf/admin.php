@@ -31,7 +31,7 @@
 
 //%%%%%%	File Name  admin.php 	%%%%%
 define('_MD_AM_DBUPDATED','데이타베이스를 성공적으로 갱신하였습니다!');
-define('_MD_AM_DBERROR', '에러가 발생하여 데이타베이스의 갱신에 실패하였습니다!');
+define('_MD_AM_DBERROR','에러가 발생하여 데이타베이스의 갱신에 실패하였습니다!');
 
 define('_MD_AM_CONFIG','시스템 설정');
 
@@ -43,19 +43,19 @@ define('_MD_AM_MDAD','모듈관리');
 define('_MD_AM_SMLS','얼굴아이콘관리');
 define('_MD_AM_RANK','등록회원등급관리');
 define('_MD_AM_USER','등록회원관리');
-define('_MD_AM_FINDUSER', '등록회원검색');
+define('_MD_AM_FINDUSER','등록회원검색');
 define('_MD_AM_PREF','일반설정');
 define('_MD_AM_VRSN','버전');
-define('_MD_AM_MLUS', '메일보내기');
-define('_MD_AM_IMAGES', '이미지관리');
-define('_MD_AM_AVATARS', '아바타관리');
-define('_MD_AM_TPLSETS', '템플렛관리');
-define('_MD_AM_COMMENTS', '코멘트관리');
+define('_MD_AM_MLUS','메일보내기');
+define('_MD_AM_IMAGES','이미지관리');
+define('_MD_AM_AVATARS','아바타관리');
+define('_MD_AM_TPLSETS','템플렛관리');
+define('_MD_AM_COMMENTS','코멘트관리');
 
 // Group permission phrases
-define('_MD_AM_PERMADDNG', '그룹퍼미션추가에 실패하였습니다.(퍼미션명: %s 해당아이템: %s 해당그룹: %s');
+define('_MD_AM_PERMADDNG','그룹퍼미션추가에 실패하였습니다.(퍼미션명: %s 해당아이템: %s 해당그룹: %s');
 define('_MD_AM_PERMADDOK','그룹퍼미션을 추가하였습니다.(퍼미션명: %s 해당아이템: %s 해당그룹: %s');
 define('_MD_AM_PERMRESETNG','%s 모듈의 그룹퍼미션 설정초기화에 실패하였습니다.');
-define('_MD_AM_PERMADDNGP', '이 아이템의 상위(부모)아이템 모두에게 퍼미션을 주어야만 합니다.');
+define('_MD_AM_PERMADDNGP','이 아이템의 상위(부모)아이템 모두에게 퍼미션을 주어야만 합니다.');
 
 ?>

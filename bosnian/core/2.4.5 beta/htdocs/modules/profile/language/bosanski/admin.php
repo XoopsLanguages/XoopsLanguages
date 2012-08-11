@@ -12,17 +12,17 @@ define("_PROFILE_AM_STEP",				"Etapu dalje");
 define("_PROFILE_AM_SAVEDSUCCESS",		"%s uspje&scaron;no je memorisano");
 define("_PROFILE_AM_DELETEDSUCCESS",	"%s uspje&scaron;no je izbrisano");
 define("_PROFILE_AM_RUSUREDEL",			"&#381;eli&scaron; li %s stvarno izbrisati?");
-define("_PROFILE_AM_FIELDNOTCONFIGURABLE", "Ovo plje se nemo&#382;e podešavati.");
+define("_PROFILE_AM_FIELDNOTCONFIGURABLE","Ovo plje se nemo&#382;e podešavati.");
 
 define("_PROFILE_AM_ADD",		"Dodaj");
 define("_PROFILE_AM_EDIT",		"Uredi");
 define("_PROFILE_AM_TYPE",		"Tip polja");
-define("_PROFILE_AM_VALUETYPE", "Tip vrijednosti");
+define("_PROFILE_AM_VALUETYPE","Tip vrijednosti");
 define("_PROFILE_AM_NAME",		"Naziv");
 define("_PROFILE_AM_TITLE",		"Naslov");
 define("_PROFILE_AM_DESCRIPTION","Opis");
 define("_PROFILE_AM_REQUIRED",	"Obavezno?");
-define("_PROFILE_AM_MAXLENGTH", "Max. du&#382;ina");
+define("_PROFILE_AM_MAXLENGTH","Max. du&#382;ina");
 define("_PROFILE_AM_WEIGHT",	"Pozicija");
 define("_PROFILE_AM_DEFAULT",	"Zadano");
 define("_PROFILE_AM_NOTNULL",	"Ne Null?");
@@ -91,7 +91,7 @@ define("_PROFILE_MA_INACTIVE",		"Neaktivan");
 define("_PROFILE_AM_USERCREATED",   "&#268;je kreiran");
 
 define("_PROFILE_AM_CANNOTDELETESELF",	"Nemo&#382;e&scaron; izbrisati Profil - koristi svoju Profil stranicu, da bi svoj Profil izbrisao/la");
-define("_PROFILE_AM_CANNOTDELETEADMIN", "Brisanje Administratora nije dozvoljeno.");
+define("_PROFILE_AM_CANNOTDELETEADMIN","Brisanje Administratora nije dozvoljeno.");
 
 define("_PROFILE_AM_NOSELECTION",			"Nijedan &#268;lan nije izabran");
 define("_PROFILE_AM_USER_ACTIVATED",		"&#268;lana aktiviraj");

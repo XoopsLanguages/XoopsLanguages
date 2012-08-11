@@ -43,7 +43,7 @@ define("_MD_AM_FAILUNINS","%sモジュールをアンインストールできま
 define("_MD_AM_FAILORDER","%sモジュールの表示順を変更できませんでした");
 define("_MD_AM_FAILWRITE","メインメニューファイルへの書き込みに失敗しました");
 define("_MD_AM_ALEXISTS","%sモジュールは既に存在します");
-define("_MD_AM_ERRORSC", "エラー：");
+define("_MD_AM_ERRORSC","エラー：");
 define("_MD_AM_OKINS","%sモジュールのインストールが完了しました");
 define("_MD_AM_OKACT","%sモジュールをアクティブに設定しました");
 define("_MD_AM_OKDEACT","%sモジュールを非アクティブに設定しました");
@@ -51,113 +51,113 @@ define("_MD_AM_OKUPD","%sモジュールのアップデートが完了しまし�
 define("_MD_AM_OKUNINS","%sモジュールのアンインストールが完了しました");
 define("_MD_AM_OKORDER","%sモジュールの表示順を変更しました");
 
-define('_MD_AM_RUSUREINS', 'このモジュールをインストールするには下のボタンをクリックしてください');
-define('_MD_AM_RUSUREUPD', 'このモジュールのアップデートを行うには下のボタンをクリックしてください');
-define('_MD_AM_RUSUREUNINS', '本当にこのモジュールをアンインストールしてもよろしいですか？');
-define('_MD_AM_LISTUPBLKS', 'モジュールのアップデートを行います。<br />選択のブロックの中身(テンプレートとオプション)は上書きされます。<br />');
-define('_MD_AM_NEWBLKS', '新規ブロック');
-define('_MD_AM_DEPREBLKS', 'Deprecated Blocks');
+define('_MD_AM_RUSUREINS','このモジュールをインストールするには下のボタンをクリックしてください');
+define('_MD_AM_RUSUREUPD','このモジュールのアップデートを行うには下のボタンをクリックしてください');
+define('_MD_AM_RUSUREUNINS','本当にこのモジュールをアンインストールしてもよろしいですか？');
+define('_MD_AM_LISTUPBLKS','モジュールのアップデートを行います。<br />選択のブロックの中身(テンプレートとオプション)は上書きされます。<br />');
+define('_MD_AM_NEWBLKS','新規ブロック');
+define('_MD_AM_DEPREBLKS','Deprecated Blocks');
 
 // added in 2.3 - julionc
-define('_MD_AM_INSTALLING', 'Installing ');
-define('_MD_AM_TABLE_RESERVED', '%s is a reserved table!');
-define('_MD_AM_CREATE_TABLES', 'Creating tables...');
-define('_MD_AM_TABLE_CREATED', 'Table %s created');
-define('_MD_AM_INSERT_DATA', '&nbsp;&nbsp; Data inserted to table %s');
-define('_MD_AM_INSERT_DATA_FAILD', 'Could not insert %s to database.');
-define('_MD_AM_INSERT_DATA_DONE', 'Module data inserted successfully.');
-define('_MD_AM_MODULEID', ' Module ID: %s');
-define('_MD_AM_SQL_FOUND', 'SQL file found at %s ');
-define('_MD_AM_SQL_NOT_FOUND', 'SQL file not found at %s');
-define('_MD_AM_SQL_NOT_CREATE', 'ERROR: Could not create %s ');
-define('_MD_AM_SQL_NOT_VALID', '%s is not a valid SQL!');
+define('_MD_AM_INSTALLING','Installing ');
+define('_MD_AM_TABLE_RESERVED','%s is a reserved table!');
+define('_MD_AM_CREATE_TABLES','Creating tables...');
+define('_MD_AM_TABLE_CREATED','Table %s created');
+define('_MD_AM_INSERT_DATA','&nbsp;&nbsp; Data inserted to table %s');
+define('_MD_AM_INSERT_DATA_FAILD','Could not insert %s to database.');
+define('_MD_AM_INSERT_DATA_DONE','Module data inserted successfully.');
+define('_MD_AM_MODULEID',' Module ID: %s');
+define('_MD_AM_SQL_FOUND','SQL file found at %s ');
+define('_MD_AM_SQL_NOT_FOUND','SQL file not found at %s');
+define('_MD_AM_SQL_NOT_CREATE','ERROR: Could not create %s ');
+define('_MD_AM_SQL_NOT_VALID','%s is not a valid SQL!');
 
-define('_MD_AM_GROUP_ID', ' Group ID: %s ');
-define('_MD_AM_NAME', ' Name: ');
-define('_MD_AM_VALUE', ' Value: ');
+define('_MD_AM_GROUP_ID',' Group ID: %s ');
+define('_MD_AM_NAME',' Name: ');
+define('_MD_AM_VALUE',' Value: ');
 
 /* Templates */
-define('_MD_AM_TEMPLATES_ADD', 'Adding templates...');
-define('_MD_AM_TEMPLATES_DELETE', 'Deleting templates...');
-define('_MD_AM_TEMPLATES_UPDATE', 'Updating templates...');
+define('_MD_AM_TEMPLATES_ADD','Adding templates...');
+define('_MD_AM_TEMPLATES_DELETE','Deleting templates...');
+define('_MD_AM_TEMPLATES_UPDATE','Updating templates...');
 
-define('_MD_AM_TEMPLATE_ID', 'Template ID: %s ');
+define('_MD_AM_TEMPLATE_ID','Template ID: %s ');
 
-define('_MD_AM_TEMPLATE_ADD_DATA', 'Template %s added to the database');
-define('_MD_AM_TEMPLATE_ADD_ERROR', 'ERROR: Could not insert template %s to the database.');
-define('_MD_AM_TEMPLATE_COMPILED', 'Template %s compiled ');
-define('_MD_AM_TEMPLATE_COMPILED_FAILED', 'ERROR: Failed compiling template %s ');
-define('_MD_AM_TEMPLATE_DELETE_DATA', 'Template %s deleted from the database. ');
-define('_MD_AM_TEMPLATE_DELETE_DATA_FAILD', 'ERROR: Could not delete template %s from the database. ');
-define('_MD_AM_TEMPLATE_INSERT_DATA', 'Template %s inserted to the database. ');
-define('_MD_AM_TEMPLATE_RECOMPILE', 'Template %s recompiled');
-define('_MD_AM_TEMPLATE_RECOMPILE_FAILD', 'ERROR: Template %s recompile failed');
-define('_MD_AM_TEMPLATE_RECOMPILE_ERROR', 'ERROR: Could not recompile template %s ');
-define('_MD_AM_TEMPLATE_DELETE_OLD_ERROR', 'ERROR: Could not delete old template %s. Aborting update of this file. ');
-define('_MD_AM_TEMPLATE_UPDATE', 'Template %s updated. ');
-define('_MD_AM_TEMPLATE_UPDATE_ERROR', 'ERROR: Could not update %s template. ');
+define('_MD_AM_TEMPLATE_ADD_DATA','Template %s added to the database');
+define('_MD_AM_TEMPLATE_ADD_ERROR','ERROR: Could not insert template %s to the database.');
+define('_MD_AM_TEMPLATE_COMPILED','Template %s compiled ');
+define('_MD_AM_TEMPLATE_COMPILED_FAILED','ERROR: Failed compiling template %s ');
+define('_MD_AM_TEMPLATE_DELETE_DATA','Template %s deleted from the database. ');
+define('_MD_AM_TEMPLATE_DELETE_DATA_FAILD','ERROR: Could not delete template %s from the database. ');
+define('_MD_AM_TEMPLATE_INSERT_DATA','Template %s inserted to the database. ');
+define('_MD_AM_TEMPLATE_RECOMPILE','Template %s recompiled');
+define('_MD_AM_TEMPLATE_RECOMPILE_FAILD','ERROR: Template %s recompile failed');
+define('_MD_AM_TEMPLATE_RECOMPILE_ERROR','ERROR: Could not recompile template %s ');
+define('_MD_AM_TEMPLATE_DELETE_OLD_ERROR','ERROR: Could not delete old template %s. Aborting update of this file. ');
+define('_MD_AM_TEMPLATE_UPDATE','Template %s updated. ');
+define('_MD_AM_TEMPLATE_UPDATE_ERROR','ERROR: Could not update %s template. ');
 
 /* Blocks */
-define('_MD_AM_BLOCKS_ADD', 'Adding blocks...');
-define('_MD_AM_BLOCKS_DELETE', 'Deleting block...');
-define('_MD_AM_BLOCKS_REBUILD', 'Rebuilding blocks...');
+define('_MD_AM_BLOCKS_ADD','Adding blocks...');
+define('_MD_AM_BLOCKS_DELETE','Deleting block...');
+define('_MD_AM_BLOCKS_REBUILD','Rebuilding blocks...');
 
-define('_MD_AM_BLOCK_ID', ' Block ID: %s ');
+define('_MD_AM_BLOCK_ID',' Block ID: %s ');
 
-define('_MD_AM_BLOCK_ACCESS', 'Added block access right');
-define('_MD_AM_BLOCK_ACCESS_ERROR', 'ERROR: Could not add block access right');
-define('_MD_AM_BLOCK_ADD', 'Block %s added ');
-define('_MD_AM_BLOCK_ADD_ERROR', 'ERROR: Could not add block %s to the database! ');
-define('_MD_AM_BLOCK_ADD_ERROR_DATABASE', 'Database error: %s ');
-define('_MD_AM_BLOCK_CREATED', 'Block %s created ');
-define('_MD_AM_BLOCK_DELETE', 'Block %s deleted. ');
-define('_MD_AM_BLOCK_DELETE_DATA', 'Block template %s deleted from the database. ');
-define('_MD_AM_BLOCK_DELETE_ERROR', 'ERROR: Could not delete block %s');
-define('_MD_AM_BLOCK_DELETE_TEMPLATE_ERROR', 'ERROR: Could not delete block template %s from the database');
-define('_MD_AM_BLOCK_DEPRECATED', 'Block template %s deprecated ');
-define('_MD_AM_BLOCK_DEPRECATED_ERROR', 'ERROR: Could not remove deprecated block template.  ');
-define('_MD_AM_BLOCK_UPDATE', 'Block %s updated. ');
+define('_MD_AM_BLOCK_ACCESS','Added block access right');
+define('_MD_AM_BLOCK_ACCESS_ERROR','ERROR: Could not add block access right');
+define('_MD_AM_BLOCK_ADD','Block %s added ');
+define('_MD_AM_BLOCK_ADD_ERROR','ERROR: Could not add block %s to the database! ');
+define('_MD_AM_BLOCK_ADD_ERROR_DATABASE','Database error: %s ');
+define('_MD_AM_BLOCK_CREATED','Block %s created ');
+define('_MD_AM_BLOCK_DELETE','Block %s deleted. ');
+define('_MD_AM_BLOCK_DELETE_DATA','Block template %s deleted from the database. ');
+define('_MD_AM_BLOCK_DELETE_ERROR','ERROR: Could not delete block %s');
+define('_MD_AM_BLOCK_DELETE_TEMPLATE_ERROR','ERROR: Could not delete block template %s from the database');
+define('_MD_AM_BLOCK_DEPRECATED','Block template %s deprecated ');
+define('_MD_AM_BLOCK_DEPRECATED_ERROR','ERROR: Could not remove deprecated block template.  ');
+define('_MD_AM_BLOCK_UPDATE','Block %s updated. ');
 
 /* Configs */
-define('_MD_AM_GONFIG_ID', 'Config ID: %s');
-define('_MD_AM_MODULE_DATA_ADD', 'Adding module config data...');
-define('_MD_AM_MODULE_DATA_DELETE', 'Deleting module config options...');
-define('_MD_AM_MODULE_DATA_UPDATE', 'Module data updated.');
+define('_MD_AM_GONFIG_ID','Config ID: %s');
+define('_MD_AM_MODULE_DATA_ADD','Adding module config data...');
+define('_MD_AM_MODULE_DATA_DELETE','Deleting module config options...');
+define('_MD_AM_MODULE_DATA_UPDATE','Module data updated.');
 
-define('_MD_AM_CONFIG_ADD', ' Config option added');
-define('_MD_AM_CONFIG_DATA_ADD', ' Config %s added to the database');
-define('_MD_AM_CONFIG_DATA_ADD_ERROR', ' ERROR: Could not insert config %s to the database. ');
-define('_MD_AM_GONFIG_DATA_DELETE', 'Config data deleted from the database. ');
-define('_MD_AM_CONFIG_DATA_DELETE_ERROR', 'ERROR: Could not delete config data from the database');
+define('_MD_AM_CONFIG_ADD',' Config option added');
+define('_MD_AM_CONFIG_DATA_ADD',' Config %s added to the database');
+define('_MD_AM_CONFIG_DATA_ADD_ERROR',' ERROR: Could not insert config %s to the database. ');
+define('_MD_AM_GONFIG_DATA_DELETE','Config data deleted from the database. ');
+define('_MD_AM_CONFIG_DATA_DELETE_ERROR','ERROR: Could not delete config data from the database');
 
 /* Access */
-define('_MD_AM_GROUP_SETTINGS_ADD', 'Setting group rights...');
+define('_MD_AM_GROUP_SETTINGS_ADD','Setting group rights...');
 
-define('_MD_AM_GROUP_PERMS_DELETE_ERROR', 'ERROR: Could not delete group permissions ');
-define('_MD_AM_GROUP_PERMS_DELETED', 'Group permissions deleted ');
+define('_MD_AM_GROUP_PERMS_DELETE_ERROR','ERROR: Could not delete group permissions ');
+define('_MD_AM_GROUP_PERMS_DELETED','Group permissions deleted ');
 
-define('_MD_AM_ACCESS_ADMIN_ADD', 'Added admin access right for Group ID %s');
-define('_MD_AM_ACCESS_ADMIN_ADD_ERROR', 'ERROR: Could not add admin access right for Group ID %s');
-define('_MD_AM_ACCESS_USER_ADD_ERROR', 'Added user access right for Group ID: %s');
-define('_MD_AM_ACCESS_USER_ADD_ERROR_ERROR', 'ERROR: Could not add user access right for Group ID: %s');
+define('_MD_AM_ACCESS_ADMIN_ADD','Added admin access right for Group ID %s');
+define('_MD_AM_ACCESS_ADMIN_ADD_ERROR','ERROR: Could not add admin access right for Group ID %s');
+define('_MD_AM_ACCESS_USER_ADD_ERROR','Added user access right for Group ID: %s');
+define('_MD_AM_ACCESS_USER_ADD_ERROR_ERROR','ERROR: Could not add user access right for Group ID: %s');
 
 // execute module specific install script if any
-define('_MD_AM_FAILED_EXECUTE', 'Failed to execute %s');
-define('_MD_AM_FAILED_SUCESS', '%s executed successfully.');
+define('_MD_AM_FAILED_EXECUTE','Failed to execute %s');
+define('_MD_AM_FAILED_SUCESS','%s executed successfully.');
 
-define('_MD_AM_DELETE_ERROR', 'ERROR: Could not delete %s');
-define('_MD_AM_UPDATE_ERROR', 'ERROR: Could not update %s');
-define('_MD_AM_DELETE_MOD_TABLES', 'Deleting module tables...');
+define('_MD_AM_DELETE_ERROR','ERROR: Could not delete %s');
+define('_MD_AM_UPDATE_ERROR','ERROR: Could not update %s');
+define('_MD_AM_DELETE_MOD_TABLES','Deleting module tables...');
 
-define('_MD_AM_COMMENTS_DELETE', 'Deleting comments...');
-define('_MD_AM_COMMENTS_DELETE_ERROR', 'ERROR: Could not delete comments');
-define('_MD_AM_COMMENTS_DELETED', 'Comments deleted');
+define('_MD_AM_COMMENTS_DELETE','Deleting comments...');
+define('_MD_AM_COMMENTS_DELETE_ERROR','ERROR: Could not delete comments');
+define('_MD_AM_COMMENTS_DELETED','Comments deleted');
 
-define('_MD_AM_NOTIFICATIONS_DELETE', 'Deleting notifications...');
-define('_MD_AM_NOTIFICATIONS_DELETE_ERROR', 'ERROR: Could not delete notifications');
-define('_MD_AM_NOTIFICATIONS_DELETED', 'Notifications deleted');
+define('_MD_AM_NOTIFICATIONS_DELETE','Deleting notifications...');
+define('_MD_AM_NOTIFICATIONS_DELETE_ERROR','ERROR: Could not delete notifications');
+define('_MD_AM_NOTIFICATIONS_DELETED','Notifications deleted');
 
-define('_MD_AM_TABLE_DROPPED', 'Table %s dropped!');
-define('_MD_AM_TABLE_DROPPED_ERROR', 'ERROR: Could not drop table %s');
-define('_MD_AM_TABLE_DROPPED_FAILDED', 'ERROR: Not allowed to drop table %s !');
+define('_MD_AM_TABLE_DROPPED','Table %s dropped!');
+define('_MD_AM_TABLE_DROPPED_ERROR','ERROR: Could not drop table %s');
+define('_MD_AM_TABLE_DROPPED_FAILDED','ERROR: Not allowed to drop table %s !');
 ?>

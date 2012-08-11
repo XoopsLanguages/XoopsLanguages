@@ -212,13 +212,13 @@ if (count($pm_arr)>0) {
 }
 
 include_once XOOPS_ROOT_PATH . "/class/xoopsformloader.php";
-$send_button = new XoopsFormButton('', 'send', _PM_SEND);
+$send_button = new XoopsFormButton('','send', _PM_SEND);
 $send_button->setExtra("onclick='javascript:openWithSelfMain(\"" . XOOPS_URL . "/modules/pm/pmlite.php?send=1\", \"pmlite\", 550, 450);'");
-$delete_button = new XoopsFormButton('', 'delete_messages', _PM_DELETE, 'submit');
-$move_button = new XoopsFormButton('', 'move_messages', ($_REQUEST['op'] == 'save') ? _PM_UNSAVE : _PM_TOSAVE, 'submit');
-$empty_button = new XoopsFormButton('', 'empty_messages', _PM_EMPTY, 'submit');
+$delete_button = new XoopsFormButton('','delete_messages', _PM_DELETE, 'submit');
+$move_button = new XoopsFormButton('','move_messages', ($_REQUEST['op'] == 'save') ? _PM_UNSAVE : _PM_TOSAVE, 'submit');
+$empty_button = new XoopsFormButton('','empty_messages', _PM_EMPTY, 'submit');
 
-$pmform = new XoopsForm('', 'pmform', 'viewpmsg.php', 'post', true);
+$pmform = new XoopsForm('','pmform','viewpmsg.php','post', true);
 $pmform->addElement($send_button);
 $pmform->addElement($move_button);
 $pmform->addElement($delete_button);

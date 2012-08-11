@@ -6,7 +6,7 @@
 // _CHARSET : UTF-8
 // Translator: andrey3761
 
-define("_PL_WILLEXPIRE", "Опрос заканчивается в");
-define("_PL_HASEXPIRED", "Опрос закончился в");
+define("_PL_WILLEXPIRE","Опрос заканчивается в");
+define("_PL_HASEXPIRED","Опрос закончился в");
 
 ?>

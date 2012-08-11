@@ -32,18 +32,18 @@ define('_AM_UNEED2ENTER','Popuni obavezna polja!');
 
 // Added in RC3
 define('_AM_BLOCKRIGHTS','Blok-Grupe odobrenja');
-define('_AM_FINDU4GROUP', '&#268;lana za ovu Grupu tra&#382;i');
-define('_AM_GROUPSMAIN', 'Grupe meni');
-define('_AM_ADMINNO', 'Mora najmanje jedan &#269;lan u Webmaster-Grupi biti');
+define('_AM_FINDU4GROUP','&#268;lana za ovu Grupu tra&#382;i');
+define('_AM_GROUPSMAIN','Grupe meni');
+define('_AM_ADMINNO','Mora najmanje jedan &#269;lan u Webmaster-Grupi biti');
 // Custom block, suggested by trabis
 define("_AM_CUSTOMBLOCK","Posebni Blok");
 /**
 * New in 2.4.0
 */
-define('_AM_LIST_GROUPS', 'Lista Grupa');
-define('_XO_AD_GROUP_ID', '#');
-define('_XO_AD_GROUP_NAME', 'Naziv Grupe');
-define('_XO_AD_GROUP_DESCRIPTION', 'Opis Grupe');
-define('_XO_AD_GROUP_ACTION', 'Akcija');
+define('_AM_LIST_GROUPS','Lista Grupa');
+define('_XO_AD_GROUP_ID','#');
+define('_XO_AD_GROUP_NAME','Naziv Grupe');
+define('_XO_AD_GROUP_DESCRIPTION','Opis Grupe');
+define('_XO_AD_GROUP_ACTION','Akcija');
 
 ?>

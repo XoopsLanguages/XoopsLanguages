@@ -24,8 +24,8 @@ define("_SR_PREVIOUS","<< Vorige");
 define("_SR_KEYWORDS","Sleutelwoorden");
 define("_SR_TYPE","Type");
 define("_SR_SEARCHIN","Zoeken in");
-define('_SR_KEYTOOSHORT', 'Zoekwoorden moeten langer zijn dan <b>%s</b> karakters!');
-define('_SR_KEYIGNORE', 'Zoekwoorden korter dan <b>%s</b> karakters worden genegeerd');
-define('_SR_SEARCHRULE', 'Zoek Regel');
-define('_SR_IGNOREDWORDS', 'De volgende woorden waren korter dan de minimum lengte (%u karakters) en zijn niet geincludeerd in de zoek opdracht:');
+define('_SR_KEYTOOSHORT','Zoekwoorden moeten langer zijn dan <b>%s</b> karakters!');
+define('_SR_KEYIGNORE','Zoekwoorden korter dan <b>%s</b> karakters worden genegeerd');
+define('_SR_SEARCHRULE','Zoek Regel');
+define('_SR_IGNOREDWORDS','De volgende woorden waren korter dan de minimum lengte (%u karakters) en zijn niet geincludeerd in de zoek opdracht:');
 ?>

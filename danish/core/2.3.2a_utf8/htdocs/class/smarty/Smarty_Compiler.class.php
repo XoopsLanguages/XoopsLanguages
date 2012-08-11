@@ -289,16 +289,16 @@ class Smarty_Compiler extends Smarty {
                 for ($curr_sp = 0, $for_max2 = count($sp_match[1]); $curr_sp < $for_max2; $curr_sp++) {
                     if ($this->php_handling == SMARTY_PHP_PASSTHRU) {
                         /* echo php contents */
-                        $text_blocks[$curr_tb] = str_replace('%%%SMARTYSP'.$curr_sp.'%%%', '<?php echo \''.str_replace("'", "\'", $sp_match[1][$curr_sp]).'\'; ?>'."\n", $text_blocks[$curr_tb]);
+                        $text_blocks[$curr_tb] = str_replace('%%%SMARTYSP'.$curr_sp.'%%%','<?php echo \''.str_replace("'", "\'", $sp_match[1][$curr_sp]).'\'; ?>'."\n", $text_blocks[$curr_tb]);
                     } else if ($this->php_handling == SMARTY_PHP_QUOTE) {
                         /* quote php tags */
                         $text_blocks[$curr_tb] = str_replace('%%%SMARTYSP'.$curr_sp.'%%%', htmlspecialchars($sp_match[1][$curr_sp]), $text_blocks[$curr_tb]);
                     } else if ($this->php_handling == SMARTY_PHP_REMOVE) {
                         /* remove php tags */
-                        $text_blocks[$curr_tb] = str_replace('%%%SMARTYSP'.$curr_sp.'%%%', '', $text_blocks[$curr_tb]);
+                        $text_blocks[$curr_tb] = str_replace('%%%SMARTYSP'.$curr_sp.'%%%','', $text_blocks[$curr_tb]);
                     } else {
                         /* SMARTY_PHP_ALLOW, but echo non php starting tags */
-                        $sp_match[1][$curr_sp] = preg_replace('~(<\?(?!php|=|$))~i', '<?php echo \'\\1\'?>'."\n", $sp_match[1][$curr_sp]);
+                        $sp_match[1][$curr_sp] = preg_replace('~(<\?(?!php|=|$))~i','<?php echo \'\\1\'?>'."\n", $sp_match[1][$curr_sp]);
                         $text_blocks[$curr_tb] = str_replace('%%%SMARTYSP'.$curr_sp.'%%%', $sp_match[1][$curr_sp], $text_blocks[$curr_tb]);
                     }
                 }
@@ -332,7 +332,7 @@ class Smarty_Compiler extends Smarty {
                 /* strip all $text_blocks before the next '/strip' */
                 for ($j = $i + 1; $j < $for_max; $j++) {
                     /* remove leading and trailing whitespaces of each line */
-                    $text_blocks[$j] = preg_replace('![\t ]*[\r\n]+[\t ]*!', '', $text_blocks[$j]);
+                    $text_blocks[$j] = preg_replace('![\t ]*[\r\n]+[\t ]*!','', $text_blocks[$j]);
                     if ($compiled_tags[$j] == '{/strip}') {                       
                         /* remove trailing whitespaces from the last text_block */
                         $text_blocks[$j] = rtrim($text_blocks[$j]);
@@ -356,7 +356,7 @@ class Smarty_Compiler extends Smarty {
         for ($i = 0, $for_max = count($compiled_tags); $i < $for_max; $i++) {
             if ($compiled_tags[$i] == '') {
                 // tag result empty, remove first newline from following text block
-                $text_blocks[$i+1] = preg_replace('~^(\r\n|\r|\n)~', '', $text_blocks[$i+1]);
+                $text_blocks[$i+1] = preg_replace('~^(\r\n|\r|\n)~','', $text_blocks[$i+1]);
             }
             // replace legit PHP tags with placeholder
             $text_blocks[$i] = str_replace('<?', $tag_guard, $text_blocks[$i]);
@@ -398,7 +398,7 @@ class Smarty_Compiler extends Smarty {
 
         // put header at the top of the compiled template
         $template_header = "<?php /* Smarty version ".$this->_version.", created on ".strftime("%Y-%m-%d %H:%M:%S")."\n";
-        $template_header .= "         compiled from ".strtr(urlencode($resource_name), array('%2F'=>'/', '%3A'=>':'))." */ ?>\n";
+        $template_header .= "         compiled from ".strtr(urlencode($resource_name), array('%2F'=>'/','%3A'=>':'))." */ ?>\n";
 
         /* Emit code to load needed plugins. */
         $this->_plugins_code = '';
@@ -406,7 +406,7 @@ class Smarty_Compiler extends Smarty {
             $_plugins_params = "array('plugins' => array(";
             foreach ($this->_plugin_info as $plugin_type => $plugins) {
                 foreach ($plugins as $plugin_name => $plugin_info) {
-                    $_plugins_params .= "array('$plugin_type', '$plugin_name', '" . strtr($plugin_info[0], array("'" => "\\'", "\\" => "\\\\")) . "', $plugin_info[1], ";
+                    $_plugins_params .= "array('$plugin_type','$plugin_name','" . strtr($plugin_info[0], array("'" => "\\'", "\\" => "\\\\")) . "', $plugin_info[1], ";
                     $_plugins_params .= $plugin_info[2] ? 'true),' : 'false),';
                 }
             }
@@ -955,7 +955,7 @@ class Smarty_Compiler extends Smarty {
 
         $this->_add_plugin('insert', $name, $delayed_loading);
 
-        $_params = "array('args' => array(".implode(', ', (array)$arg_list)."))";
+        $_params = "array('args' => array(".implode(',', (array)$arg_list)."))";
 
         return "<?php require_once(SMARTY_CORE_DIR . 'core.run_insert_handler.php');\necho smarty_core_run_insert_handler($_params, \$this); ?>" . $this->_additional_newline;
     }
@@ -1039,7 +1039,7 @@ class Smarty_Compiler extends Smarty {
             }
         }
 
-        $_params = "array('smarty_file' => " . $attrs['file'] . ", 'smarty_assign' => '$assign_var', 'smarty_once' => $once_var, 'smarty_include_vars' => array(".implode(',', $arg_list)."))";
+        $_params = "array('smarty_file' => " . $attrs['file'] . ", 'smarty_assign' => '$assign_var','smarty_once' => $once_var, 'smarty_include_vars' => array(".implode(',', $arg_list)."))";
 
         return "<?php require_once(SMARTY_CORE_DIR . 'core.smarty_include_php.php');\nsmarty_core_smarty_include_php($_params, \$this); ?>" . $this->_additional_newline;
     }
@@ -1664,7 +1664,7 @@ class Smarty_Compiler extends Smarty {
             }
         elseif(!in_array($val, $this->_permitted_tokens) && !is_numeric($val)) {
             // literal string
-            return $this->_expand_quoted_text('"' . strtr($val, array('\\' => '\\\\', '"' => '\\"')) .'"');
+            return $this->_expand_quoted_text('"' . strtr($val, array('\\' => '\\\\','"' => '\\"')) .'"');
         }
         return $val;
     }
@@ -1685,7 +1685,7 @@ class Smarty_Compiler extends Smarty {
                 $_replace[$_var] = '".(' . $this->_parse_var(str_replace('`','',$_var)) . ')."';
             }
             $var_expr = strtr($var_expr, $_replace);
-            $_return = preg_replace('~\.""|(?<!\\\\)""\.~', '', $var_expr);
+            $_return = preg_replace('~\.""|(?<!\\\\)""\.~','', $var_expr);
         } else {
             $_return = $var_expr;
         }
@@ -1901,7 +1901,7 @@ class Smarty_Compiler extends Smarty {
      */
     function _parse_modifiers(&$output, $modifier_string)
     {
-        preg_match_all('~\|(@?\w+)((?>:(?:'. $this->_qstr_regexp . '|[^|]+))*)~', '|' . $modifier_string, $_match);
+        preg_match_all('~\|(@?\w+)((?>:(?:'. $this->_qstr_regexp . '|[^|]+))*)~','|' . $modifier_string, $_match);
         list(, $_modifiers, $modifier_arg_strings) = $_match;
 
         for ($_i = 0, $_for_max = count($_modifiers); $_i < $_for_max; $_i++) {
@@ -1945,7 +1945,7 @@ class Smarty_Compiler extends Smarty {
                 }
             }
             if (count($_modifier_args) > 0)
-                $_modifier_args = ', '.implode(', ', $_modifier_args);
+                $_modifier_args = ','.implode(',', $_modifier_args);
             else
                 $_modifier_args = '';
 
@@ -2200,7 +2200,7 @@ class Smarty_Compiler extends Smarty {
      */
     function _quote_replace($string)
     {
-        return strtr($string, array('\\' => '\\\\', '$' => '\\$'));
+        return strtr($string, array('\\' => '\\\\','$' => '\\$'));
     }
 
     /**

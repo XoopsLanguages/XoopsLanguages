@@ -25,7 +25,7 @@ defined('XOOPS_ROOT_PATH') or die('Endast behöriga användare');
 // _LANGCODE: en
 // _CHARSET : UTF-8
 // Translator: XOOPS Translation Team
-define('_XO_ER_FILENOTFOUND', 'Begärd fil <b>%s</b> hittades inte ');
-define('_XO_ER_CLASSNOTFOUND', 'Begärd klass %s hittades inte');
+define('_XO_ER_FILENOTFOUND','Begärd fil <b>%s</b> hittades inte ');
+define('_XO_ER_CLASSNOTFOUND','Begärd klass %s hittades inte');
 
 ?>

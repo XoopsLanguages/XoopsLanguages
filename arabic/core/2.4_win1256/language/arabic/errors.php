@@ -25,7 +25,7 @@ defined('XOOPS_ROOT_PATH') or die('Restricted access');
 // _LANGCODE: ar
 // _CHARSET : windows-1256
 // Translator: Arab XOOPS Team
-define('_XO_ER_FILENOTFOUND', '«·„·› «·„ÿ·Ê»: <b>%s</b> €Ì— „ÊÃÊœ ');
-define('_XO_ER_CLASSNOTFOUND', '«·ﬂ«∆‰ «·»—„ÃÌ %s €Ì— „ÊÃÊœ');
+define('_XO_ER_FILENOTFOUND','√á√°√£√°√ù √á√°√£√ò√°√¶√à: <b>%s</b> √õ√≠√ë √£√¶√å√¶√è ');
+define('_XO_ER_CLASSNOTFOUND','√á√°√ü√á√Ü√§ √á√°√à√ë√£√å√≠ %s √õ√≠√ë √£√¶√å√¶√è');
 
 ?>

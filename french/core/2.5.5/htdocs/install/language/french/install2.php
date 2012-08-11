@@ -5,8 +5,8 @@
 // Translator: XOOPS Translation Team
 
 // License
-define("LICENSE_NOT_WRITEABLE", "La licence est \"%s\" . <br /><span style='color:#ff0000;'>Permettre l'écriture sur le fichier : ../include/license.php</span>");
-define("LICENSE_IS_WRITEABLE", "La licence est \"%s\"");
+define("LICENSE_NOT_WRITEABLE","La licence est \"%s\" . <br /><span style='color:#ff0000;'>Permettre l'écriture sur le fichier : ../include/license.php</span>");
+define("LICENSE_IS_WRITEABLE","La licence est \"%s\"");
 
 define("_INSTALL_WEBMASTER","Administrateur");
 define("_INSTALL_WEBMASTERD","Administrateur de ce site");
@@ -17,18 +17,18 @@ define("_INSTALL_ANONUSERSD","Groupe des visiteurs anonymes");
 /**
 * New Group types
 */
-define("_INSTALL_BANNEDUSERS", "Utilisateurs bannis");
-define("_INSTALL_BANNEDUSERSD", "Groupe des utilisateurs bannis");
-define("_INSTALL_MODERATORUSERS", "Modérateurs");
-define("_INSTALL_MODERATORUSERSD", "Modérateurs de ce site");
-define("_INSTALL_SUBMITTERUSERS", "Auteurs");
-define("_INSTALL_SUBMITTERUSERSD", "Ce groupe peut soumettre des articles sur le site");
-define("_INSTALL_DEVELOPEUSERS", "Développeurs");
-define("_INSTALL_DEVELOPEUSERSD", "Les utilisateurs de ce groupe ont les privilèges de développeur et peuvent voir les messages d'erreur(s) de fonctionnement du site.");
+define("_INSTALL_BANNEDUSERS","Utilisateurs bannis");
+define("_INSTALL_BANNEDUSERSD","Groupe des utilisateurs bannis");
+define("_INSTALL_MODERATORUSERS","Modérateurs");
+define("_INSTALL_MODERATORUSERSD","Modérateurs de ce site");
+define("_INSTALL_SUBMITTERUSERS","Auteurs");
+define("_INSTALL_SUBMITTERUSERSD","Ce groupe peut soumettre des articles sur le site");
+define("_INSTALL_DEVELOPEUSERS","Développeurs");
+define("_INSTALL_DEVELOPEUSERSD","Les utilisateurs de ce groupe ont les privilèges de développeur et peuvent voir les messages d'erreur(s) de fonctionnement du site.");
 
 define("_INSTALL_L165","Le site est actuellement fermé pour maintenance.<br />Merci de revenir ultérieurement.");
 define("_INSTALL_ANON","Anonymes");
-define("_INSTALL_DISCLMR", "Les administrateurs de ce site s'efforceront de supprimer ou éditer tous les messages à caractère répréhensible aussi rapidement que possible. Toutefois, il leur est impossible de passer en revue tous les messages. Vous admettez donc que tous les messages postés sur ce site internet n'engagent que la responsabilité de leurs auteurs et en aucun cas celle des administrateurs.
+define("_INSTALL_DISCLMR","Les administrateurs de ce site s'efforceront de supprimer ou éditer tous les messages à caractère répréhensible aussi rapidement que possible. Toutefois, il leur est impossible de passer en revue tous les messages. Vous admettez donc que tous les messages postés sur ce site internet n'engagent que la responsabilité de leurs auteurs et en aucun cas celle des administrateurs.
 
 Vous vous engagez à ne pas publier de messages injurieux, obscènes, vulgaires, diffamatoires, menaçants ou tout autre texte qui contreviendrait aux lois en vigueur. Tout contrevenant peut être banni du site de façon permanente et faire l'objet d'un dépôt de plainte auprès de son fournisseur d'accès à internet.
 

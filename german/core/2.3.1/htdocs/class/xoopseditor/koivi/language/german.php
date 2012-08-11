@@ -12,7 +12,7 @@
  * @Code			UTF-8 by Muki
  */
 
-define("_XOOPS_EDITOR_KOIVI", "Koivi WYSIWYG Editor");
+define("_XOOPS_EDITOR_KOIVI","Koivi WYSIWYG Editor");
 
 define("_XK_LEFTTORIGHT","Left-Hand Writing");
 define("_XK_RIGHTTOLEFT","Right-Hand Writing");

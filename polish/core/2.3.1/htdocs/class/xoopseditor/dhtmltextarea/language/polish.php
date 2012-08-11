@@ -17,5 +17,5 @@
 // _CHARSET : UTF-8
 // Translator: Jarek Wiktorowicz  <www.jarek.wiktorowicz.pl>
  
-define("_XOOPS_EDITOR_DHTMLTEXTAREA", "Formularz DHTML z xCode");
+define("_XOOPS_EDITOR_DHTMLTEXTAREA","Formularz DHTML z xCode");
 ?>

@@ -38,8 +38,8 @@ define("_PM_DATE","Data");
 define("_PM_NOTREAD","Non letto");
 define("_PM_SEND","Invia");
 define("_PM_DELETE","Elimina");
-define("_PM_REPLY", "Rispondi");
+define("_PM_REPLY","Rispondi");
 define("_PM_PLZREG","Si prega di registrarsi, se si desidera inviare messaggi privati agli utenti di questo sito!");
-define("_PM_ONLINE", "Online");
+define("_PM_ONLINE","Online");
 
 ?>

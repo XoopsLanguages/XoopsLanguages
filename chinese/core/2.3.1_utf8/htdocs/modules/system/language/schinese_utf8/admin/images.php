@@ -19,7 +19,7 @@ define('_MD_ASFILE',' 储存在文件系统中（/uploads/目录）<br />');
 define('_MD_RUDELIMGCAT','您确定要删除该类别及里面图片吗？');
 define('_MD_RUDELIMG','您确定要删除该图片吗？');
 
-define('_MD_FAILDEL', '删除 %s 在数据库中的图片信息时失败。');
-define('_MD_FAILDELCAT', '删除 %s 在数据库中的类别信息时失败。');
-define('_MD_FAILUNLINK', '删除 %s 类别信息时失败。');
+define('_MD_FAILDEL','删除 %s 在数据库中的图片信息时失败。');
+define('_MD_FAILDELCAT','删除 %s 在数据库中的类别信息时失败。');
+define('_MD_FAILUNLINK','删除 %s 类别信息时失败。');
 ?>

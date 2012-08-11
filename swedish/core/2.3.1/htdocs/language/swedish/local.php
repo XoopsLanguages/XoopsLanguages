@@ -21,7 +21,7 @@ class XoopsLocal
 		if(empty($text)) return "";
 	    if (XOOPS_USE_MULTIBYTES == 1) {
 	        if (function_exists('mb_convert_encoding')) {
-	            return mb_convert_encoding($text, 'UTF-8', 'auto');
+	            return mb_convert_encoding($text, 'UTF-8','auto');
 	        }
 	        return $text;
 	    }

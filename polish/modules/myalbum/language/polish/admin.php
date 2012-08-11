@@ -4,154 +4,154 @@
 
 if( defined( 'FOR_XOOPS_LANG_CHECKER' ) || ! defined( 'MYALBUM_AM_LOADED' ) ) {
 
-define( 'MYALBUM_AM_LOADED' , 1 ) ;
+define('MYALBUM_AM_LOADED' , 1 ) ;
 
 // Index (Categories)
-define( "_AM_H3_FMT_CATEGORIES" , "%s - Zarz±dzanie kategoriami" ) ;
-define( "_AM_CAT_TH_TITLE" , "Nazwa" ) ;
-define( "_AM_CAT_TH_PHOTOS" , "Zdjêæ" ) ;
-define( "_AM_CAT_TH_OPERATION" , "Czynno¶æ" ) ;
-define( "_AM_CAT_TH_IMAGE" , "Banner" ) ;
-define( "_AM_CAT_TH_PARENT" , "Kategoria nadrzêdna" ) ;
-define( "_AM_CAT_TH_IMGURL" , "URL bannera" ) ;
-define( "_AM_CAT_MENU_NEW" , "Utwórz kategoriê" ) ;
-define( "_AM_CAT_MENU_EDIT" , "Edytuj kategoriê" ) ;
-define( "_AM_CAT_INSERTED" , "Utworzono kategoriê." ) ;
-define( "_AM_CAT_UPDATED" , "Zmieniono kategoriê." ) ;
-define( "_AM_CAT_BTN_BATCH" , "Zastosuj" ) ;
-define( "_AM_CAT_LINK_MAKETOPCAT" , "Utwórz now± kategoriê g³ówn±" ) ;
-define( "_AM_CAT_LINK_ADDPHOTOS" , "Dodaj zdjêcie w kategorii" ) ;
-define( "_AM_CAT_LINK_EDIT" , "Edytuj kategoriê" ) ;
-define( "_AM_CAT_LINK_MAKESUBCAT" , "Utwórz podkategoriê" ) ;
-define( "_AM_CAT_FMT_NEEDADMISSION" , "Do zatwierdzenia: %s zdjêæ" ) ;
-define( "_AM_CAT_FMT_CATDELCONFIRM" , "Kategoria %s zostanie usuniêta wraz z podkategoriami, zdjêciami i komentarzami do nich. " ) ;
+define("_AM_H3_FMT_CATEGORIES" , "%s - ZarzÂ±dzanie kategoriami" ) ;
+define("_AM_CAT_TH_TITLE" , "Nazwa" ) ;
+define("_AM_CAT_TH_PHOTOS" , "ZdjÃªÃ¦" ) ;
+define("_AM_CAT_TH_OPERATION" , "CzynnoÂ¶Ã¦" ) ;
+define("_AM_CAT_TH_IMAGE" , "Banner" ) ;
+define("_AM_CAT_TH_PARENT" , "Kategoria nadrzÃªdna" ) ;
+define("_AM_CAT_TH_IMGURL" , "URL bannera" ) ;
+define("_AM_CAT_MENU_NEW" , "UtwÃ³rz kategoriÃª" ) ;
+define("_AM_CAT_MENU_EDIT" , "Edytuj kategoriÃª" ) ;
+define("_AM_CAT_INSERTED" , "Utworzono kategoriÃª." ) ;
+define("_AM_CAT_UPDATED" , "Zmieniono kategoriÃª." ) ;
+define("_AM_CAT_BTN_BATCH" , "Zastosuj" ) ;
+define("_AM_CAT_LINK_MAKETOPCAT" , "UtwÃ³rz nowÂ± kategoriÃª gÂ³Ã³wnÂ±" ) ;
+define("_AM_CAT_LINK_ADDPHOTOS" , "Dodaj zdjÃªcie w kategorii" ) ;
+define("_AM_CAT_LINK_EDIT" , "Edytuj kategoriÃª" ) ;
+define("_AM_CAT_LINK_MAKESUBCAT" , "UtwÃ³rz podkategoriÃª" ) ;
+define("_AM_CAT_FMT_NEEDADMISSION" , "Do zatwierdzenia: %s zdjÃªÃ¦" ) ;
+define("_AM_CAT_FMT_CATDELCONFIRM" , "Kategoria %s zostanie usuniÃªta wraz z podkategoriami, zdjÃªciami i komentarzami do nich. " ) ;
 
 
 // Admission
-define( "_AM_H3_FMT_ADMISSION" , "%s - zatwierdzanie nades³anych zdjêæ" ) ;
-define( "_AM_TH_SUBMITTER" , "Nades³a³" ) ;
-define( "_AM_TH_TITLE" , "Tytu³" ) ;
-define( "_AM_TH_DESCRIPTION" , "Opis" ) ;
-define( "_AM_TH_CATEGORIES" , "Kategoria" ) ;
-define( "_AM_TH_DATE" , "Ostatnia zmiana" ) ;
+define("_AM_H3_FMT_ADMISSION" , "%s - zatwierdzanie nadesÂ³anych zdjÃªÃ¦" ) ;
+define("_AM_TH_SUBMITTER" , "NadesÂ³aÂ³" ) ;
+define("_AM_TH_TITLE" , "TytuÂ³" ) ;
+define("_AM_TH_DESCRIPTION" , "Opis" ) ;
+define("_AM_TH_CATEGORIES" , "Kategoria" ) ;
+define("_AM_TH_DATE" , "Ostatnia zmiana" ) ;
 
 
 // Photo Manager
-define( "_AM_H3_FMT_PHOTOMANAGER" , "%s - Zarz±dzanie zdjêciami" ) ;
-define( "_AM_TH_BATCHUPDATE" , "Zmieñ zaznaczone zdjêcia" ) ;
-define( "_AM_OPT_NOCHANGE" , "- BEZ ZMIAN -" ) ;
-define( "_AM_JS_UPDATECONFIRM" , "Zaznaczone zdjêcia zostan± zmienione." ) ;
+define("_AM_H3_FMT_PHOTOMANAGER" , "%s - ZarzÂ±dzanie zdjÃªciami" ) ;
+define("_AM_TH_BATCHUPDATE" , "ZmieÃ± zaznaczone zdjÃªcia" ) ;
+define("_AM_OPT_NOCHANGE" , "- BEZ ZMIAN -" ) ;
+define("_AM_JS_UPDATECONFIRM" , "Zaznaczone zdjÃªcia zostanÂ± zmienione." ) ;
 
 
 // Module Checker
-define( "_AM_H3_FMT_MODULECHECKER" , "%s - Sprawdzenie ¶rodowiska" ) ;
+define("_AM_H3_FMT_MODULECHECKER" , "%s - Sprawdzenie Â¶rodowiska" ) ;
 
-define( "_AM_H4_ENVIRONMENT" , "¦rodowisko" ) ;
-define( "_AM_MB_PHPDIRECTIVE" , "Dyrektywa PHP" ) ;
-define( "_AM_MB_BOTHOK" , "dowolna warto¶æ" ) ;
-define( "_AM_MB_NEEDON" , "powinna byæ w³±czona" ) ;
-
-
-define( "_AM_H4_TABLE" , "Tabele" ) ;
-define( "_AM_MB_PHOTOSTABLE" , "Zdjêcia" ) ;
-define( "_AM_MB_DESCRIPTIONTABLE" , "DOpisy" ) ;
-define( "_AM_MB_CATEGORIESTABLE" , "Kategorie" ) ;
-define( "_AM_MB_VOTEDATATABLE" , "G³osowanie" ) ;
-define( "_AM_MB_COMMENTSTABLE" , "Komentarze" ) ;
-define( "_AM_MB_NUMBEROFPHOTOS" , "Liczba zdjêæ" ) ;
-define( "_AM_MB_NUMBEROFDESCRIPTIONS" , "Liczba opisów" ) ;
-define( "_AM_MB_NUMBEROFCATEGORIES" , "Liczba kategorii" ) ;
-define( "_AM_MB_NUMBEROFVOTEDATA" , "Liczba g³osów" ) ;
-define( "_AM_MB_NUMBEROFCOMMENTS" , "Liczba komentarzy" ) ;
+define("_AM_H4_ENVIRONMENT" , "Â¦rodowisko" ) ;
+define("_AM_MB_PHPDIRECTIVE" , "Dyrektywa PHP" ) ;
+define("_AM_MB_BOTHOK" , "dowolna wartoÂ¶Ã¦" ) ;
+define("_AM_MB_NEEDON" , "powinna byÃ¦ wÂ³Â±czona" ) ;
 
 
-define( "_AM_H4_CONFIG" , "Konfiguracja" ) ;
-define( "_AM_MB_PIPEFORIMAGES" , "Filtr obrazów" ) ;
-define( "_AM_MB_DIRECTORYFORPHOTOS" , "Katalog zdjêæ" ) ;
-define( "_AM_MB_DIRECTORYFORTHUMBS" , "Katalog miniatur" ) ;
-define( "_AM_ERR_LASTCHAR" , "B³±d: ¶cie¿ka nie powinna koñczyæ siê znakiem '/'" ) ;
-define( "_AM_ERR_FIRSTCHAR" , "B³±d: ¶cie¿ka nie powinna rozpoczynaæ siê znakiem '/'" ) ;
-define( "_AM_ERR_PERMISSION" , "B³±d: Brak katalogu lub z³e uprawnienia (powinny byæ 777)" ) ;
-define( "_AM_ERR_NOTDIRECTORY" , "B³±d: to nie katalog" ) ;
-define( "_AM_ERR_READORWRITE" , "B³±d: brak dostêpu do katalogu. Uprawnienia powinny byæ 777" ) ;
-define( "_AM_ERR_SAMEDIR" , "B³±d: zdjêcia i miniatury powinny byæ w ró¿nych katalogach" ) ;
-define( "_AM_LNK_CHECKGD2" , "Sprawdzanie czy biblioteka GD do³±czona do PHP prawid³owo obs³uguje GD2" ) ;
-define( "_AM_MB_CHECKGD2" , "Je¶li wskazana tu strona nie wy¶wietla siê poprawnie, to nie nale¿y wykorzystywaæ biblioteki GD w trybie truecolor" ) ;
-define( "_AM_MB_GD2SUCCESS" , "GD2 (truecolor) powinno dzia³aæ poprawnie" ) ;
+define("_AM_H4_TABLE" , "Tabele" ) ;
+define("_AM_MB_PHOTOSTABLE" , "ZdjÃªcia" ) ;
+define("_AM_MB_DESCRIPTIONTABLE" , "DOpisy" ) ;
+define("_AM_MB_CATEGORIESTABLE" , "Kategorie" ) ;
+define("_AM_MB_VOTEDATATABLE" , "GÂ³osowanie" ) ;
+define("_AM_MB_COMMENTSTABLE" , "Komentarze" ) ;
+define("_AM_MB_NUMBEROFPHOTOS" , "Liczba zdjÃªÃ¦" ) ;
+define("_AM_MB_NUMBEROFDESCRIPTIONS" , "Liczba opisÃ³w" ) ;
+define("_AM_MB_NUMBEROFCATEGORIES" , "Liczba kategorii" ) ;
+define("_AM_MB_NUMBEROFVOTEDATA" , "Liczba gÂ³osÃ³w" ) ;
+define("_AM_MB_NUMBEROFCOMMENTS" , "Liczba komentarzy" ) ;
 
 
-define( "_AM_H4_PHOTOLINK" , "Sprawdzanie dostêpu do plików zdjêæ i miniatur" ) ;
-define( "_AM_MB_NOWCHECKING" , "Trwa sprawdzanie" ) ;
-define( "_AM_FMT_PHOTONOTREADABLE" , "Zdjêcie (%s) niedostêpne" ) ;
-define( "_AM_FMT_THUMBNOTREADABLE" , "Miniatura (%s) niedostêpna" ) ;
-define( "_AM_FMT_NUMBEROFDEADPHOTOS" , "Niedostêpnych zdjêæ: %s" ) ;
-define( "_AM_FMT_NUMBEROFDEADTHUMBS" , "Miniatur do utworzenia: %s" ) ;
-define( "_AM_FMT_NUMBEROFREMOVEDTMPS" , "Usuniêtych niepotrzebnych plików: %s" ) ;
-define( "_AM_LINK_REDOTHUMBS" , "Ponownie utwórz miniatury" ) ;
-define( "_AM_LINK_TABLEMAINTENANCE" , "Ustaw tabele" ) ;
+define("_AM_H4_CONFIG" , "Konfiguracja" ) ;
+define("_AM_MB_PIPEFORIMAGES" , "Filtr obrazÃ³w" ) ;
+define("_AM_MB_DIRECTORYFORPHOTOS" , "Katalog zdjÃªÃ¦" ) ;
+define("_AM_MB_DIRECTORYFORTHUMBS" , "Katalog miniatur" ) ;
+define("_AM_ERR_LASTCHAR" , "BÂ³Â±d: Â¶cieÂ¿ka nie powinna koÃ±czyÃ¦ siÃª znakiem '/'" ) ;
+define("_AM_ERR_FIRSTCHAR" , "BÂ³Â±d: Â¶cieÂ¿ka nie powinna rozpoczynaÃ¦ siÃª znakiem '/'" ) ;
+define("_AM_ERR_PERMISSION" , "BÂ³Â±d: Brak katalogu lub zÂ³e uprawnienia (powinny byÃ¦ 777)" ) ;
+define("_AM_ERR_NOTDIRECTORY" , "BÂ³Â±d: to nie katalog" ) ;
+define("_AM_ERR_READORWRITE" , "BÂ³Â±d: brak dostÃªpu do katalogu. Uprawnienia powinny byÃ¦ 777" ) ;
+define("_AM_ERR_SAMEDIR" , "BÂ³Â±d: zdjÃªcia i miniatury powinny byÃ¦ w rÃ³Â¿nych katalogach" ) ;
+define("_AM_LNK_CHECKGD2" , "Sprawdzanie czy biblioteka GD doÂ³Â±czona do PHP prawidÂ³owo obsÂ³uguje GD2" ) ;
+define("_AM_MB_CHECKGD2" , "JeÂ¶li wskazana tu strona nie wyÂ¶wietla siÃª poprawnie, to nie naleÂ¿y wykorzystywaÃ¦ biblioteki GD w trybie truecolor" ) ;
+define("_AM_MB_GD2SUCCESS" , "GD2 (truecolor) powinno dziaÂ³aÃ¦ poprawnie" ) ;
+
+
+define("_AM_H4_PHOTOLINK" , "Sprawdzanie dostÃªpu do plikÃ³w zdjÃªÃ¦ i miniatur" ) ;
+define("_AM_MB_NOWCHECKING" , "Trwa sprawdzanie" ) ;
+define("_AM_FMT_PHOTONOTREADABLE" , "ZdjÃªcie (%s) niedostÃªpne" ) ;
+define("_AM_FMT_THUMBNOTREADABLE" , "Miniatura (%s) niedostÃªpna" ) ;
+define("_AM_FMT_NUMBEROFDEADPHOTOS" , "NiedostÃªpnych zdjÃªÃ¦: %s" ) ;
+define("_AM_FMT_NUMBEROFDEADTHUMBS" , "Miniatur do utworzenia: %s" ) ;
+define("_AM_FMT_NUMBEROFREMOVEDTMPS" , "UsuniÃªtych niepotrzebnych plikÃ³w: %s" ) ;
+define("_AM_LINK_REDOTHUMBS" , "Ponownie utwÃ³rz miniatury" ) ;
+define("_AM_LINK_TABLEMAINTENANCE" , "Ustaw tabele" ) ;
 
 
 
 // Redo Thumbnail
-define( "_AM_H3_FMT_RECORDMAINTENANCE" , "%s - zarz±dzanie miniaturami" ) ;
+define("_AM_H3_FMT_RECORDMAINTENANCE" , "%s - zarzÂ±dzanie miniaturami" ) ;
 
-define( "_AM_FMT_CHECKING" , "sprawdzanie %s ..." ) ;
+define("_AM_FMT_CHECKING" , "sprawdzanie %s ..." ) ;
 
-define( "_AM_FORM_RECORDMAINTENANCE" , "Zarz±dzanie miniaturami" ) ;
+define("_AM_FORM_RECORDMAINTENANCE" , "ZarzÂ±dzanie miniaturami" ) ;
 
-define( "_AM_MB_FAILEDREADING" , "b³±d odczytu" ) ;
-define( "_AM_MB_CREATEDTHUMBS" , "utworzono miniaturê" ) ;
-define( "_AM_MB_BIGTHUMBS" , "B³±d tworzenia miniatury. Skopiowano" ) ;
-define( "_AM_MB_SKIPPED" , "pominiêto" ) ;
-define( "_AM_MB_SIZEREPAIRED" , "poprawiono zapis rozmiaru miniatury" ) ;
-define( "_AM_MB_RECREMOVED" , "rekord usuniêty" ) ;
-define( "_AM_MB_PHOTONOTEXISTS" , "brak zdjêcia" ) ;
-define( "_AM_MB_PHOTORESIZED" , "przeskalowano zdjêcie" ) ;
+define("_AM_MB_FAILEDREADING" , "bÂ³Â±d odczytu" ) ;
+define("_AM_MB_CREATEDTHUMBS" , "utworzono miniaturÃª" ) ;
+define("_AM_MB_BIGTHUMBS" , "BÂ³Â±d tworzenia miniatury. Skopiowano" ) ;
+define("_AM_MB_SKIPPED" , "pominiÃªto" ) ;
+define("_AM_MB_SIZEREPAIRED" , "poprawiono zapis rozmiaru miniatury" ) ;
+define("_AM_MB_RECREMOVED" , "rekord usuniÃªty" ) ;
+define("_AM_MB_PHOTONOTEXISTS" , "brak zdjÃªcia" ) ;
+define("_AM_MB_PHOTORESIZED" , "przeskalowano zdjÃªcie" ) ;
 
-define( "_AM_TEXT_RECORDFORSTARTING" , "Przetwarzaæ od rekordu" ) ;
-define( "_AM_TEXT_NUMBERATATIME" , "Liczba rekordów do przetworzenia" ) ;
-define( "_AM_LABEL_DESCNUMBERATATIME" , "Przetwarzanie zbyt wielu rekordów mo¿e spowodowaæ przekroczenie timeout-u serwera WWW i nie przetworzenie wszystkich rekordów. Dobierz w³a¶ciw± liczbê eksperymentalnie." ) ;
+define("_AM_TEXT_RECORDFORSTARTING" , "PrzetwarzaÃ¦ od rekordu" ) ;
+define("_AM_TEXT_NUMBERATATIME" , "Liczba rekordÃ³w do przetworzenia" ) ;
+define("_AM_LABEL_DESCNUMBERATATIME" , "Przetwarzanie zbyt wielu rekordÃ³w moÂ¿e spowodowaÃ¦ przekroczenie timeout-u serwera WWW i nie przetworzenie wszystkich rekordÃ³w. Dobierz wÂ³aÂ¶ciwÂ± liczbÃª eksperymentalnie." ) ;
 
-define( "_AM_RADIO_FORCEREDO" , "Nadpisz istniej±ce miniatury" ) ;
-define( "_AM_RADIO_REMOVEREC" , "Usuñ rekordy nie maj±ce zdjêcia" ) ;
-define( "_AM_RADIO_RESIZE" , "Przeskaluj zdjêcia wiêksze od okre¶lonych w ustawieniach" ) ;
+define("_AM_RADIO_FORCEREDO" , "Nadpisz istniejÂ±ce miniatury" ) ;
+define("_AM_RADIO_REMOVEREC" , "UsuÃ± rekordy nie majÂ±ce zdjÃªcia" ) ;
+define("_AM_RADIO_RESIZE" , "Przeskaluj zdjÃªcia wiÃªksze od okreÂ¶lonych w ustawieniach" ) ;
 
-define( "_AM_MB_FINISHED" , "Zakoñczono." ) ;
-define( "_AM_LINK_RESTART" , "Od pocz±tku" ) ;
-define( "_AM_SUBMIT_NEXT" , "Dalej" ) ;
+define("_AM_MB_FINISHED" , "ZakoÃ±czono." ) ;
+define("_AM_LINK_RESTART" , "Od poczÂ±tku" ) ;
+define("_AM_SUBMIT_NEXT" , "Dalej" ) ;
 
 
 
 // Batch Register
-define( "_AM_H3_FMT_BATCHREGISTER" , "%s - wgrywanie wsadowe" ) ;
+define("_AM_H3_FMT_BATCHREGISTER" , "%s - wgrywanie wsadowe" ) ;
 
 
 // GroupPerm Global
-define( "_AM_ALBM_GROUPPERM_GLOBAL" , "Uprawnienia" ) ;
-define( "_AM_ALBM_GROUPPERM_GLOBALDESC" , "Uprawnienia grup do modu³u" ) ;
-define( "_AM_ALBM_GPERMUPDATED" , "Ustawiono uprawnienia." ) ;
+define("_AM_ALBM_GROUPPERM_GLOBAL" , "Uprawnienia" ) ;
+define("_AM_ALBM_GROUPPERM_GLOBALDESC" , "Uprawnienia grup do moduÂ³u" ) ;
+define("_AM_ALBM_GPERMUPDATED" , "Ustawiono uprawnienia." ) ;
 
 
 // Import
-define( "_AM_H3_FMT_IMPORTTO" , 'Import obrazów do modu³u %s' ) ;
-define( "_AM_FMT_IMPORTFROMMYALBUMP" , 'Import z modu³u "%s" zgodnego z modu³em MyAlbum-P' ) ;
-define( "_AM_FMT_IMPORTFROMIMAGEMANAGER" , 'Import z Meded¿era Obrazów XOOPS' ) ;
-define( "_AM_CB_IMPORTRECURSIVELY" , 'Importuj wraz z podkategoriami' ) ;
-define( "_AM_RADIO_IMPORTCOPY" , 'Kopiuj obrazy (bez komentarzy)' ) ;
-define( "_AM_RADIO_IMPORTMOVE" , 'Przenie¶ obrazy (wraz z komentzrzami)' ) ;
-define( "_AM_MB_IMPORTCONFIRM" , 'Importuj' ) ;
-define( "_AM_FMT_IMPORTSUCCESS" , 'Zaimportowano %s obrazów.' ) ;
+define("_AM_H3_FMT_IMPORTTO" , 'Import obrazÃ³w do moduÂ³u %s' ) ;
+define("_AM_FMT_IMPORTFROMMYALBUMP" , 'Import z moduÂ³u "%s" zgodnego z moduÂ³em MyAlbum-P' ) ;
+define("_AM_FMT_IMPORTFROMIMAGEMANAGER" , 'Import z MededÂ¿era ObrazÃ³w XOOPS' ) ;
+define("_AM_CB_IMPORTRECURSIVELY" , 'Importuj wraz z podkategoriami' ) ;
+define("_AM_RADIO_IMPORTCOPY" , 'Kopiuj obrazy (bez komentarzy)' ) ;
+define("_AM_RADIO_IMPORTMOVE" , 'PrzenieÂ¶ obrazy (wraz z komentzrzami)' ) ;
+define("_AM_MB_IMPORTCONFIRM" , 'Importuj' ) ;
+define("_AM_FMT_IMPORTSUCCESS" , 'Zaimportowano %s obrazÃ³w.' ) ;
 
 
 // Export
-define( "_AM_H3_FMT_EXPORTTO" , 'Eksport obrazów z modu³u %s' ) ;
-define( "_AM_FMT_EXPORTTOIMAGEMANAGER" , 'Eksport do Mened¿era Obrazów XOOPS' ) ;
-define( "_AM_FMT_EXPORTIMSRCCAT" , 'Kategoria ¼ród³owa' ) ;
-define( "_AM_FMT_EXPORTIMDSTCAT" , 'Kategoria docelowa' ) ;
-define( "_AM_CB_EXPORTRECURSIVELY" , 'Eksportuj wraz z podkategoriami' ) ;
-define( "_AM_CB_EXPORTTHUMB" , 'Eksportuj miniatury, nie g³ówne obrazy' ) ;
-define( "_AM_MB_EXPORTCONFIRM" , 'Eksportuj' ) ;
-define( "_AM_FMT_EXPORTSUCCESS" , 'Weksportowano %s obrazów' ) ;
+define("_AM_H3_FMT_EXPORTTO" , 'Eksport obrazÃ³w z moduÂ³u %s' ) ;
+define("_AM_FMT_EXPORTTOIMAGEMANAGER" , 'Eksport do MenedÂ¿era ObrazÃ³w XOOPS' ) ;
+define("_AM_FMT_EXPORTIMSRCCAT" , 'Kategoria Â¼rÃ³dÂ³owa' ) ;
+define("_AM_FMT_EXPORTIMDSTCAT" , 'Kategoria docelowa' ) ;
+define("_AM_CB_EXPORTRECURSIVELY" , 'Eksportuj wraz z podkategoriami' ) ;
+define("_AM_CB_EXPORTTHUMB" , 'Eksportuj miniatury, nie gÂ³Ã³wne obrazy' ) ;
+define("_AM_MB_EXPORTCONFIRM" , 'Eksportuj' ) ;
+define("_AM_FMT_EXPORTSUCCESS" , 'Weksportowano %s obrazÃ³w' ) ;
 
 
 }

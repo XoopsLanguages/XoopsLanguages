@@ -51,24 +51,24 @@ define("_AM_RUSUREDEL","Er du sikker på at du vil slette blokken <strong>%s</st
 define("_AM_NAME","Navn");
 define("_AM_USEFULTAGS","Nyttige Tags:");
 define("_AM_BLOCKTAG1","%s vil skrive %s");
-define('_AM_SVISIBLEIN', 'Blokker synlige i %s');
-define('_AM_TOPPAGE', 'Toppsiden');
-define('_AM_VISIBLEIN', 'Synlig i');
-define('_AM_ALLPAGES', 'Alle sider');
-define('_AM_TOPONLY', 'Kun toppsiden');
-define('_AM_ADVANCED', 'Avanserte innstillinger');
-define('_AM_BCACHETIME', 'Cache tid');
-define('_AM_BALIAS', 'Alias navn');
-define('_AM_CLONE', 'Klone');  // clone a block
-define('_AM_CLONEBLK', 'Klone'); // cloned block
-define('_AM_CLONEBLOCK', 'Lag en klone blokk');
-define('_AM_NOTSELNG', "'%s' er ikke valgt!"); // error message
-define('_AM_EDITTPL', 'Rediger mal');
-define('_AM_MODULE', 'Modul');
-define('_AM_GROUP', 'Gruppe tilgang');
-define('_AM_UNASSIGNED', 'Ikke tildelt');
+define('_AM_SVISIBLEIN','Blokker synlige i %s');
+define('_AM_TOPPAGE','Toppsiden');
+define('_AM_VISIBLEIN','Synlig i');
+define('_AM_ALLPAGES','Alle sider');
+define('_AM_TOPONLY','Kun toppsiden');
+define('_AM_ADVANCED','Avanserte innstillinger');
+define('_AM_BCACHETIME','Cache tid');
+define('_AM_BALIAS','Alias navn');
+define('_AM_CLONE','Klone');  // clone a block
+define('_AM_CLONEBLK','Klone'); // cloned block
+define('_AM_CLONEBLOCK','Lag en klone blokk');
+define('_AM_NOTSELNG',"'%s' er ikke valgt!"); // error message
+define('_AM_EDITTPL','Rediger mal');
+define('_AM_MODULE','Modul');
+define('_AM_GROUP','Gruppe tilgang');
+define('_AM_UNASSIGNED','Ikke tildelt');
 
 define("_AM_CUSTOM","Egendefinert Blokk");
-define('_AM_GENERATOR', 'Blokker generert av %s');
-define('_AM_TYPES', 'Alle typer');
+define('_AM_GENERATOR','Blokker generert av %s');
+define('_AM_TYPES','Alle typer');
 ?>

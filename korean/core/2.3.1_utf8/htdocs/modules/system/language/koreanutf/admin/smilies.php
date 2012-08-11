@@ -47,5 +47,5 @@ define('_AM_SMILEEMOTION','의미:');
 define('_AM_ADD','추가');
 define('_AM_SAVE','저장');
 define('_AM_WAYSYWTDTS','이 얼굴아이콘을 정말로 삭제하실건가요?');
-define('_AM_DISPLAYF', 'Form 에 표시');
+define('_AM_DISPLAYF','Form 에 표시');
 ?>

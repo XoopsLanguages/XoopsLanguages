@@ -19,8 +19,8 @@
  */
 defined('XOOPS_ROOT_PATH') or die('Restricted access');
 
-define('XOOPS_LICENSE_CODE', 'GPL');
-define('XOOPS_LICENSE_TEXT', 'GPL General Public License (GPL) (v. 2.0)');
-define('XOOPS_LICENSE_KEY', '000000-000000-000000-000000-0000000');
+define('XOOPS_LICENSE_CODE','GPL');
+define('XOOPS_LICENSE_TEXT','GPL General Public License (GPL) (v. 2.0)');
+define('XOOPS_LICENSE_KEY','000000-000000-000000-000000-0000000');
 
 ?>

@@ -62,15 +62,15 @@ define('_AM_TDMDOWNLOADS_PERMISSIONS_8',"Soumettre une modification");
 define('_AM_TDMDOWNLOADS_PERMISSIONS_16',"noter un téléchargement");
 define('_AM_TDMDOWNLOADS_PERMISSIONS_32',"Télécharger des fichiers");
 define('_AM_TDMDOWNLOADS_PERMISSIONS_64',"Approuver automatiquement les fichiers soumis");
-define('_AM_TDMDOWNLOADS_PERM_AUTRES', "Autres autorisations");
-define('_AM_TDMDOWNLOADS_PERM_AUTRES_DSC', "Sélectionnez les groupes qui peuvent :");
-define('_AM_TDMDOWNLOADS_PERM_DOWNLOAD', "Autorisations de téléchargements");
-define('_AM_TDMDOWNLOADS_PERM_DOWNLOAD_DSC', "Sélectionnez les groupes qui peuvent télécharger dans les catégories");
-define('_AM_TDMDOWNLOADS_PERM_DOWNLOAD_DSC2', "Sélectionnez les groupes qui peuvent télécharger des fichiers");
-define('_AM_TDMDOWNLOADS_PERM_SUBMIT', "Soumettre à l'autorisation");
-define('_AM_TDMDOWNLOADS_PERM_SUBMIT_DSC', "Choisir les groupes qui peuvent soumettre des fichiers à des catégories");
-define('_AM_TDMDOWNLOADS_PERM_VIEW', "Voir les autorisations");
-define('_AM_TDMDOWNLOADS_PERM_VIEW_DSC', "Choisissez les groupes que peuvent voir les fichiers dans les catégories");
+define('_AM_TDMDOWNLOADS_PERM_AUTRES',"Autres autorisations");
+define('_AM_TDMDOWNLOADS_PERM_AUTRES_DSC',"Sélectionnez les groupes qui peuvent :");
+define('_AM_TDMDOWNLOADS_PERM_DOWNLOAD',"Autorisations de téléchargements");
+define('_AM_TDMDOWNLOADS_PERM_DOWNLOAD_DSC',"Sélectionnez les groupes qui peuvent télécharger dans les catégories");
+define('_AM_TDMDOWNLOADS_PERM_DOWNLOAD_DSC2',"Sélectionnez les groupes qui peuvent télécharger des fichiers");
+define('_AM_TDMDOWNLOADS_PERM_SUBMIT',"Soumettre à l'autorisation");
+define('_AM_TDMDOWNLOADS_PERM_SUBMIT_DSC',"Choisir les groupes qui peuvent soumettre des fichiers à des catégories");
+define('_AM_TDMDOWNLOADS_PERM_VIEW',"Voir les autorisations");
+define('_AM_TDMDOWNLOADS_PERM_VIEW_DSC',"Choisissez les groupes que peuvent voir les fichiers dans les catégories");
 
 // Import.php
 define('_AM_TDMDOWNLOADS_IMPORT1',"Importation");
@@ -133,7 +133,7 @@ define('_AM_TDMDOWNLOADS_FORMSIZE',"Taille des fichiers(en bytes)");
 define('_AM_TDMDOWNLOADS_FORMSTATUS',"État du téléchargement");
 define('_AM_TDMDOWNLOADS_FORMSTATUS_OK',"Approuvé");
 define('_AM_TDMDOWNLOADS_FORMSUBMITTER',"Posté par");
-define('_AM_TDMDOWNLOADS_FORMSUREDEL', "Êtes-vous sûr de vouloir supprimer : <b><span style='color: Red'> %s</span></b>?");
+define('_AM_TDMDOWNLOADS_FORMSUREDEL',"Êtes-vous sûr de vouloir supprimer : <b><span style='color: Red'> %s</span></b>?");
 define('_AM_TDMDOWNLOADS_FORMTEXT',"Description");
 define('_AM_TDMDOWNLOADS_FORMTEXTDOWNLOADS',"Description : <br><br>utilisez le séparateur « <b>[pagebreak]</b> » pour définir la taille d'une courte description. <br>Cela permet de réduire la taille du texte dans la page d'accueil du module et des catégories.");
 define('_AM_TDMDOWNLOADS_FORMTITLE',"Titre");
@@ -162,7 +162,7 @@ define('_AM_TDMDOWNLOADS_REDIRECT_NODELFIELD',"Vous ne pouvez pas supprimer ce c
 define('_AM_TDMDOWNLOADS_REDIRECT_SAVE',"Enregistré avec succès");
 define('_AM_TDMDOWNLOADS_REDIRECT_DEACTIVATED',"Désactivé avec succès");
 
-define('_AM_TDMDOWNLOADS_NOPERMSSET', "Impossible de définir l'autorisation : aucune catégorie n'a encore été créée  ! Veuillez d'abord créer une catégorie.");
+define('_AM_TDMDOWNLOADS_NOPERMSSET',"Impossible de définir l'autorisation : aucune catégorie n'a encore été créée  ! Veuillez d'abord créer une catégorie.");
 
 //Bytes sizes
 define('_AM_TDMDOWNLOADS_BYTES','Octets');

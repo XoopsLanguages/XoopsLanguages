@@ -13,9 +13,9 @@ define("_AM_TH_AGENT","AGENTE");
 define("_AM_TH_TYPE","Tipo");
 define("_AM_TH_DESCRIPTION","Descripción");
 
-define( "_AM_TH_BADIPS" , 'IPs malos<br /><br /><span style="font-weight:normal;">Escriba cada IP en una línea.<br />Todo en blanco significa que todos las IPs son permitidas.</span>' ) ;
+define("_AM_TH_BADIPS" , 'IPs malos<br /><br /><span style="font-weight:normal;">Escriba cada IP en una línea.<br />Todo en blanco significa que todos las IPs son permitidas.</span>' ) ;
 
-define( "_AM_TH_GROUP1IPS" , 'IPs permitidas para Grupo=1<br /><br /><span style="font-weight:normal;">Escriba cada IP en una línea.<br />192.168. significa 192.168.*<br />Todo en blanco significa que todos las IPs son permitidas.</span>' ) ;
+define("_AM_TH_GROUP1IPS" , 'IPs permitidas para Grupo=1<br /><br /><span style="font-weight:normal;">Escriba cada IP en una línea.<br />192.168. significa 192.168.*<br />Todo en blanco significa que todos las IPs son permitidas.</span>' ) ;
 
 define('_AM_LABEL_COMPACTLOG','Log compacto');
 define('_AM_BUTTON_COMPACTLOG','¡Compáctalo!');
@@ -23,21 +23,21 @@ define('_AM_JS_COMPACTLOGCONFIRM','Los duplicados (IP,Type) serán eliminados');
 define('_AM_LABEL_REMOVEALL','Eliminar todas las entradas');
 define('_AM_BUTTON_REMOVEALL','¡Eliminar todos!');
 define('_AM_JS_REMOVEALLCONFIRM','Todos los logs se eliminan por completo. ¿Realmente está seguro?');
-define( "_AM_LABEL_REMOVE" , "Eliminar los registros marcados:" ) ;
-define( "_AM_BUTTON_REMOVE" , "¡Eliminar!" ) ;
-define( "_AM_JS_REMOVECONFIRM" , "¿Está seguro de la eliminación?" ) ;
-define( "_AM_MSG_IPFILESUPDATED" , "Los archivos de IPs fueron actualizados" ) ;
-define( "_AM_MSG_BADIPSCANTOPEN" , "El archivo para IPs malos no puede ser abierto" ) ;
-define( "_AM_MSG_GROUP1IPSCANTOPEN" , "El archivo para permitir Grupo=1 no puede ser abierto" ) ;
-define( "_AM_MSG_REMOVED" , "Registros eliminados" ) ;
+define("_AM_LABEL_REMOVE" , "Eliminar los registros marcados:" ) ;
+define("_AM_BUTTON_REMOVE" , "¡Eliminar!" ) ;
+define("_AM_JS_REMOVECONFIRM" , "¿Está seguro de la eliminación?" ) ;
+define("_AM_MSG_IPFILESUPDATED" , "Los archivos de IPs fueron actualizados" ) ;
+define("_AM_MSG_BADIPSCANTOPEN" , "El archivo para IPs malos no puede ser abierto" ) ;
+define("_AM_MSG_GROUP1IPSCANTOPEN" , "El archivo para permitir Grupo=1 no puede ser abierto" ) ;
+define("_AM_MSG_REMOVED" , "Registros eliminados" ) ;
 define('_AM_FMT_CONFIGSNOTWRITABLE','Dar permisos de escritura al directorio configs: %s');
 
 
 // prefix_manager.php
-define( "_AM_H3_PREFIXMAN" , "Administrador de prefijos" ) ;
-define( "_AM_MSG_DBUPDATED" , "¡Base de datos actualizada exitosamente!" ) ;
-define( "_AM_CONFIRM_DELETE" , "Todos los datos serán eliminados. ¿Es correcto?" ) ;
-define( "_AM_TXT_HOWTOCHANGEDB" , "Si desea cambiar el prefijo,<br /> edite %s/mainfile.php manualmente.<br /><br />define('XOOPS_DB_PREFIX', '<b>%s</b>');" ) ;
+define("_AM_H3_PREFIXMAN" , "Administrador de prefijos" ) ;
+define("_AM_MSG_DBUPDATED" , "¡Base de datos actualizada exitosamente!" ) ;
+define("_AM_CONFIRM_DELETE" , "Todos los datos serán eliminados. ¿Es correcto?" ) ;
+define("_AM_TXT_HOWTOCHANGEDB" , "Si desea cambiar el prefijo,<br /> edite %s/mainfile.php manualmente.<br /><br />define('XOOPS_DB_PREFIX','<b>%s</b>');" ) ;
 
 
 // advisory.php

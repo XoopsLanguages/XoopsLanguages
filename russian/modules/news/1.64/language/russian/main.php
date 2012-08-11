@@ -13,7 +13,7 @@ define("_NW_COMMENTS","Комментарии?");
 define("_NW_ONECOMMENT","1 комментарий");
 define("_NW_BYTESMORE","%s слов(а,о) еще");
 define("_NW_NUMCOMMENTS","%s комментариев");
-define("_NW_MORERELEASES", "Другие статьи в разделе ");
+define("_NW_MORERELEASES","Другие статьи в разделе ");
 
 //%%%%%%		File Name submit.php		%%%%%
 define("_NW_SUBMITNEWS","Создание новости");
@@ -114,7 +114,7 @@ define("_NW_BOOKMARK_TO_YAHOO","Bookmark to Yahoo");
 
 // Added in version 1.56
 define('_NW_NOTYETSTORY',"Sorry, the selected story has not been published yet. Please come back later and try again.");
-define('_NW_SELECT_IMAGE', "Выберите изображение, которое будет в новостях");
-define('_NW_CURENT_PICTURE', "Текущее изображение");
+define('_NW_SELECT_IMAGE',"Выберите изображение, которое будет в новостях");
+define('_NW_CURENT_PICTURE',"Текущее изображение");
 
 ?>

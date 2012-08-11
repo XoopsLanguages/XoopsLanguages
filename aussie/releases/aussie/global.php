@@ -27,8 +27,8 @@ define("_WARNINSTALL2","WARNING: Directory %s exists on your server. <br />Pleas
 define("_WARNINWRITEABLE","WARNING: File %s is writeable by the server. <br />Please change the permission of this file for security reasons.<br /> in Unix (444), in Win32 (read-only)");
 
 // Error messages issued by XoopsObject::cleanVars()
-define( "_XOBJ_ERR_REQUIRED", "%s is required" );
-define( "_XOBJ_ERR_SHORTERTHAN", "%s must be shorter than %d characters." );
+define("_XOBJ_ERR_REQUIRED","%s is required" );
+define("_XOBJ_ERR_SHORTERTHAN","%s must be shorter than %d characters." );
 
 //%%%%%%	File Name themeuserpost.php 	%%%%%
 define("_PROFILE","Profile");
@@ -49,8 +49,8 @@ define("_YOURHOME","Home Page");
 
 //%%%%%%	File Name misc.php (who's-online popup)	%%%%%
 define("_WHOSONLINE","Who's Online");
-define('_GUESTS', 'Guests');
-define('_MEMBERS', 'Members');
+define('_GUESTS','Guests');
+define('_MEMBERS','Members');
 define("_ONLINEPHRASE","<b>%s</b> user(s) are online");
 define("_ONLINEPHRASEX","<b>%s</b> user(s) are browsing <b>%s</b>");
 define("_CLOSE","Close");  // Close window
@@ -72,24 +72,24 @@ define("_ALIGN","Align");
 define("_LEFT","Left");
 define("_CENTER","Center");
 define("_RIGHT","Right");
-define("_FORM_ENTER", "Please enter %s");
+define("_FORM_ENTER","Please enter %s");
 // %s represents file name
 define("_MUSTWABLE","File %s must be writable by the server!");
 // Module info
-define('_PREFERENCES', 'Preferences');
-define("_VERSION", "Version");
-define("_DESCRIPTION", "Description");
-define("_ERRORS", "Errors");
-define("_NONE", "None");
+define('_PREFERENCES','Preferences');
+define("_VERSION","Version");
+define("_DESCRIPTION","Description");
+define("_ERRORS","Errors");
+define("_NONE","None");
 define('_ON','on');
 define('_READS','reads');
 define('_WELCOMETO','Welcome to %s');
 define('_SEARCH','Search');
-define('_ALL', 'All');
-define('_TITLE', 'Title');
-define('_OPTIONS', 'Options');
-define('_QUOTE', 'Quote');
-define('_LIST', 'List');
+define('_ALL','All');
+define('_TITLE','Title');
+define('_OPTIONS','Options');
+define('_QUOTE','Quote');
+define('_LIST','List');
 define('_LOGIN','User Login');
 define('_USERNAME','Username: ');
 define('_PASSWORD','Password: ');
@@ -99,12 +99,12 @@ define("_SEND","Send");
 define("_CANCEL","Cancel");
 define("_ASCENDING","Ascending order");
 define("_DESCENDING","Descending order");
-define('_BACK', 'Back');
-define('_NOTITLE', 'No title');
+define('_BACK','Back');
+define('_NOTITLE','No title');
 
 /* Image manager */
 define('_IMGMANAGER','Image Manager');
-define('_NUMIMAGES', '%s images');
+define('_NUMIMAGES','%s images');
 define('_ADDIMAGE','Add Image File');
 define('_IMAGENAME','Name:');
 define('_IMGMAXSIZE','Max size allowed (bytes):');
@@ -115,16 +115,16 @@ define('_IMAGEFILE','Image file:');
 define('_IMGWEIGHT','Display order in image manager:');
 define('_IMGDISPLAY','Display this image?');
 define('_IMAGEMIME','MIME type:');
-define('_FAILFETCHIMG', 'Could not get uploaded file %s');
-define('_FAILSAVEIMG', 'Failed storing image %s into the database');
-define('_NOCACHE', 'No Cache');
-define('_CLONE', 'Clone');
+define('_FAILFETCHIMG','Could not get uploaded file %s');
+define('_FAILSAVEIMG','Failed storing image %s into the database');
+define('_NOCACHE','No Cache');
+define('_CLONE','Clone');
 
 //%%%%%	File Name class/xoopsform/formmatchoption.php 	%%%%%
-define("_STARTSWITH", "Starts with");
-define("_ENDSWITH", "Ends with");
-define("_MATCHES", "Matches");
-define("_CONTAINS", "Contains");
+define("_STARTSWITH","Starts with");
+define("_ENDSWITH","Ends with");
+define("_MATCHES","Matches");
+define("_CONTAINS","Contains");
 
 //%%%%%%	File Name commentform.php 	%%%%%
 define("_REGISTER","Register");
@@ -150,16 +150,16 @@ define("_PLZCOMPLETE","Please complete the subject and message fields.");
 define("_MESSAGETOOLONG","Your message is too long.");
 
 //%%%%%		TIME FORMAT SETTINGS   %%%%%
-define('_SECOND', '1 second');
-define('_SECONDS', '%s seconds');
-define('_MINUTE', '1 minute');
-define('_MINUTES', '%s minutes');
-define('_HOUR', '1 hour');
-define('_HOURS', '%s hours');
-define('_DAY', '1 day');
-define('_DAYS', '%s days');
-define('_WEEK', '1 week');
-define('_MONTH', '1 month');
+define('_SECOND','1 second');
+define('_SECONDS','%s seconds');
+define('_MINUTE','1 minute');
+define('_MINUTES','%s minutes');
+define('_HOUR','1 hour');
+define('_HOURS','%s hours');
+define('_DAY','1 day');
+define('_DAYS','%s days');
+define('_WEEK','1 week');
+define('_MONTH','1 month');
 
 define("_DATESTRING","Y/n/j G:i:s");
 define("_MEDIUMDATESTRING","Y/n/j G:i");
@@ -183,7 +183,7 @@ m - month; i.e. "01" to "12"
 n - month without leading zeros; i.e. "1" to "12"
 M - month, textual, 3 letters; i.e. "Jan"
 s - seconds; i.e. "00" to "59"
-S - English ordinal suffix, textual, 2 characters; i.e. "th", "nd"
+S - English ordinal suffix, textual, 2 characters; i.e. "th","nd"
 t - number of days in the given month; i.e. "28" to "31"
 T - Timezone setting of this machine; i.e. "MDT"
 U - seconds since the epoch
@@ -196,9 +196,9 @@ Z - timezone offset in seconds (i.e. "-43200" to "43200")
 
 
 //%%%%%		LANGUAGE SPECIFIC SETTINGS   %%%%%
-define('_CHARSET', 'ISO-8859-1');
-define('_LANGCODE', 'en');
+define('_CHARSET','ISO-8859-1');
+define('_LANGCODE','en');
 
 // change 0 to 1 if this language is a multi-bytes language
-define("XOOPS_USE_MULTIBYTES", "0");
+define("XOOPS_USE_MULTIBYTES","0");
 ?>

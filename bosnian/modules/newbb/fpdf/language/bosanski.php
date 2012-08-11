@@ -104,12 +104,12 @@ $pdf_config['dateformat'] = _DATESTRING;
 $pdf_config['footerpage'] = _MD_PDF_PAGE;
 
 // For local support sites
-define('NEWBB_PDF_FORUM', 'Forum');
-define('NEWBB_PDF_TOPIC', 'Tema');
-define('NEWBB_PDF_SUBJECT', 'Predmet');
+define('NEWBB_PDF_FORUM','Forum');
+define('NEWBB_PDF_TOPIC','Tema');
+define('NEWBB_PDF_SUBJECT','Predmet');
 define('NEWBB_PDF_AUTHOR', _POSTEDBY);
 define('NEWBB_PDF_DATE', _MD_POSTEDON);
-//define('NEWBB_PDF_PAGE', 'Page %s');
+//define('NEWBB_PDF_PAGE','Page %s');
 
 // Usually you do not need change the following class if you are not using: S/T Chinese, Korean, Japanese
 // For more details, refer to: http://fpdf.org

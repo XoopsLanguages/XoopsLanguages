@@ -25,35 +25,35 @@ defined('XOOPS_ROOT_PATH') or die('Restricted access');
 // _LANGCODE: pl
 // _CHARSET : UTF-8
 // Translator: tstempko
-define('_LOGGER_DEBUG', "Debug");
-define('_LOGGER_INCLUDED_FILES', "Included files");
-define('_LOGGER_FILES', "%s plików");
-define('_LOGGER_MEM_USAGE', "Zużycie pamięci");
-define('_LOGGER_MEM_ESTIMATED', "%s [Szacunkowo]");
-define('_LOGGER_NONE', "Żade (None)");
-define('_LOGGER_ALL', "Wszystkie (All)");
-define('_LOGGER_ERRORS', "Błędy (Errors)");
-define('_LOGGER_DEPRECATED', "Prestarzałe (Deprecated)");
-define('_LOGGER_QUERIES', "Zapytania (Queries)");
-define('_LOGGER_BLOCKS', "Bloki (Blocks)");
-define('_LOGGER_EXTRA', "Dodatowe (Extra)");
-define('_LOGGER_TIMERS', "Liczniki czasu (Timers)");
+define('_LOGGER_DEBUG',"Debug");
+define('_LOGGER_INCLUDED_FILES',"Included files");
+define('_LOGGER_FILES',"%s plików");
+define('_LOGGER_MEM_USAGE',"Zużycie pamięci");
+define('_LOGGER_MEM_ESTIMATED',"%s [Szacunkowo]");
+define('_LOGGER_NONE',"Żade (None)");
+define('_LOGGER_ALL',"Wszystkie (All)");
+define('_LOGGER_ERRORS',"Błędy (Errors)");
+define('_LOGGER_DEPRECATED',"Prestarzałe (Deprecated)");
+define('_LOGGER_QUERIES',"Zapytania (Queries)");
+define('_LOGGER_BLOCKS',"Bloki (Blocks)");
+define('_LOGGER_EXTRA',"Dodatowe (Extra)");
+define('_LOGGER_TIMERS',"Liczniki czasu (Timers)");
 
 
-define('_LOGGER_TIMETOLOAD', "%s took %s seconds to load.");
+define('_LOGGER_TIMETOLOAD',"%s took %s seconds to load.");
 
-define('_LOGGER_TOTAL', "Total");
+define('_LOGGER_TOTAL',"Total");
 
-define('_LOGGER_NOT_CACHED', "Not cached");
-define('_LOGGER_CACHED', "Cached (regenerates every %s seconds)");
+define('_LOGGER_NOT_CACHED',"Not cached");
+define('_LOGGER_CACHED',"Cached (regenerates every %s seconds)");
 
-define('_LOGGER_UNKNOWN', "Unknown");
-define('_LOGGER_E_USER_NOTICE', "Notice");
-define('_LOGGER_E_USER_WARNING', "Warning");
-define('_LOGGER_E_USER_ERROR', "Error");
-define('_LOGGER_E_NOTICE', "Notice");
-define('_LOGGER_E_WARNING', "Warning");
-define('_LOGGER_E_STRICT', "Strict");
-define('_LOGGER_FILELINE', "%s in file %s line %s");
+define('_LOGGER_UNKNOWN',"Unknown");
+define('_LOGGER_E_USER_NOTICE',"Notice");
+define('_LOGGER_E_USER_WARNING',"Warning");
+define('_LOGGER_E_USER_ERROR',"Error");
+define('_LOGGER_E_NOTICE',"Notice");
+define('_LOGGER_E_WARNING',"Warning");
+define('_LOGGER_E_STRICT',"Strict");
+define('_LOGGER_FILELINE',"%s in file %s line %s");
 
 ?>

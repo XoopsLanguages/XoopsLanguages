@@ -22,13 +22,13 @@ define("_MI_SYSTEM_BNAME4","Zoeken");
 define("_MI_SYSTEM_BNAME5","Wachtende inhoud");
 define("_MI_SYSTEM_BNAME6","Hoofdmenu");
 define("_MI_SYSTEM_BNAME7","Site Info");
-define("_MI_SYSTEM_BNAME8", "Wie is online");
-define("_MI_SYSTEM_BNAME9", "Top Posters");
-define("_MI_SYSTEM_BNAME10", "Nieuwe gebruikers");
-define("_MI_SYSTEM_BNAME11", "Recente commentaren");
+define("_MI_SYSTEM_BNAME8","Wie is online");
+define("_MI_SYSTEM_BNAME9","Top Posters");
+define("_MI_SYSTEM_BNAME10","Nieuwe gebruikers");
+define("_MI_SYSTEM_BNAME11","Recente commentaren");
 // RMV-NOTIFY
-define("_MI_SYSTEM_BNAME12", "Notificatie opties");
-define("_MI_SYSTEM_BNAME13", "Thema's");
+define("_MI_SYSTEM_BNAME12","Notificatie opties");
+define("_MI_SYSTEM_BNAME13","Thema's");
 
 // Namen van adminmenu items
 define("_MI_SYSTEM_ADMENU1","Banners");
@@ -40,11 +40,11 @@ define("_MI_SYSTEM_ADMENU7","Smilies");
 define("_MI_SYSTEM_ADMENU9","Gebruikersrangen");
 define("_MI_SYSTEM_ADMENU10","Gebruiker bewerken");
 define("_MI_SYSTEM_ADMENU11","E-mail gebruikers");
-define("_MI_SYSTEM_ADMENU12", "Gebruikers zoeken");
-define("_MI_SYSTEM_ADMENU13", "Afbeeldingen");
-define("_MI_SYSTEM_ADMENU14", "Avatars");
-define("_MI_SYSTEM_ADMENU15", "Sjablonen");
-define("_MI_SYSTEM_ADMENU16", "Commentaren");
+define("_MI_SYSTEM_ADMENU12","Gebruikers zoeken");
+define("_MI_SYSTEM_ADMENU13","Afbeeldingen");
+define("_MI_SYSTEM_ADMENU14","Avatars");
+define("_MI_SYSTEM_ADMENU15","Sjablonen");
+define("_MI_SYSTEM_ADMENU16","Commentaren");
 
 //Instellingen
 define("_MI_SYSTEM_PREFERENCE_BREAK_GENERAL","Algemene instellingen");
@@ -90,5 +90,5 @@ define("_MI_SYSTEM_PREFERENCE_GENERAL_EDITOR_DSC","Selecteer editor voor gebruik
 define("_MI_SYSTEM_PREFERENCE_ANONPOST","");
 define("_MI_SYSTEM_PREFERENCE_REDIRECT","");
 
-define("_MI_SYSTEM_PREFERENCE_JQUERY_THEME", "jQuery thema");
+define("_MI_SYSTEM_PREFERENCE_JQUERY_THEME","jQuery thema");
 ?>

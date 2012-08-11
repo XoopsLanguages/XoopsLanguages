@@ -54,8 +54,8 @@ define("_MI_xforms_UPLOADDIR","Chemin physique de votre répertoire SANS le slas
 define("_MI_xforms_UPLOADDIR_DESC","Tous les fichiers envoyés seront stockés ici quand un formulaire est envoyé par l'intermédiaire de message privé");
 
 ######### (xforms) version 1.0 additions ##########
-define( "_MI_xforms_CAPTCHA", "Usiliser la sécurité anti-spam ?" );
-define( "_MI_xforms_CAPTCHADSC", "Sélectionner Oui pour activer la sécurité au pied des formulaires formulaires.<br />Par défaut : Oui" );
+define("_MI_xforms_CAPTCHA","Usiliser la sécurité anti-spam ?" );
+define("_MI_xforms_CAPTCHADSC","Sélectionner Oui pour activer la sécurité au pied des formulaires formulaires.<br />Par défaut : Oui" );
 define("_MI_xforms_ADMENU4","Importer les formulaires créés dans Liaise");
 
 ######### (xforms) version 1.0.0.1 additions ##########

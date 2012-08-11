@@ -30,14 +30,14 @@ defined('XOOPS_ROOT_PATH') or die('Restricted access');
 
 setlocale(LC_ALL, 'ru_ru.utf-8');
 
-// !!IMPORTANT!! insert '\' before any char among reserved chars: "a", "A", "B", "c", "d", "D", "F", "g", "G", "h", "H", "i", "I", "j", "l", "L", "m", "M", "n", "O", "r", "s", "S", "t", "T", "U", "w", "W", "Y", "y", "z", "Z"    
-// insert double '\' before 't', 'r', 'n'
-define("_TODAY", "Сегодня G:i");
-define("_YESTERDAY", "Вчера G:i");
-define("_MONTHDAY", "j.n G:i");
-define("_YEARMONTHDAY", "j.n.Y G:i");
-define("_ELAPSE", "%s назад");
-define("_TIMEFORMAT_DESC", "Правильный формат: \"s\" - " . _SHORTDATESTRING . "; \"m\" - " . _MEDIUMDATESTRING . "; \"l\" - " . _DATESTRING . ";<br />" . "\"c\" или \"custom\" - format determined according to interval to present; \"e\" - Elapsed; \"mysql\" - Y-m-d H:i:s;<br />" . "specified string - Для дополнительной информации прочитайте <a href=\"http://php.net/manual/en/function.date.php\" rel=\"external\">инструкцию PHP date()</a>.");
+// !!IMPORTANT!! insert '\' before any char among reserved chars: "a","A","B","c","d","D","F","g","G","h","H","i","I","j","l","L","m","M","n","O","r","s","S","t","T","U","w","W","Y","y","z","Z"    
+// insert double '\' before 't','r','n'
+define("_TODAY","Сегодня G:i");
+define("_YESTERDAY","Вчера G:i");
+define("_MONTHDAY","j.n G:i");
+define("_YEARMONTHDAY","j.n.Y G:i");
+define("_ELAPSE","%s назад");
+define("_TIMEFORMAT_DESC","Правильный формат: \"s\" - " . _SHORTDATESTRING . "; \"m\" - " . _MEDIUMDATESTRING . "; \"l\" - " . _DATESTRING . ";<br />" . "\"c\" или \"custom\" - format determined according to interval to present; \"e\" - Elapsed; \"mysql\" - Y-m-d H:i:s;<br />" . "specified string - Для дополнительной информации прочитайте <a href=\"http://php.net/manual/en/function.date.php\" rel=\"external\">инструкцию PHP date()</a>.");
 
 /**
  * A Xoops Local
@@ -58,7 +58,7 @@ class XoopsLocal extends XoopsLocalAbstract
      */
     function number_format($number)
     {
-        return number_format($number, 2, '.', ',');
+        return number_format($number, 2, '.',',');
     }
     
     /**

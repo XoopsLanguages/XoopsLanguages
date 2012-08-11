@@ -191,26 +191,26 @@ define("_AM_MENUEDIT","ویرایش گزینه");
 
 define("_AM_NOFORM","هیچ فرمی موجود نیست");
 
-define('_MI_SF_AUTHOR_INFO', "توسعه دهندگان");
-define('_MI_SF_DEVELOPER_LEAD', "توسعه دهندگان اصلی");
-define('_MI_SF_DEVELOPER_CONTRIBUTOR', "Contributor(s)");
-define('_MI_SF_DEVELOPER_WEBSITE', "آدرس وب");
-define('_MI_SF_DEVELOPER_EMAIL', "ایمیل");
-define('_MI_SF_DEVELOPER_CREDITS', "تشکر مخصوص");
-define('_MI_SF_DEMO_SITE', "پیش نماش در سایت زوپس فرانسه");
-define('_MI_SF_MODULE_INFO', "Module Developpment Informations");
-define('_MI_SF_MODULE_STATUS', "وضغیت");
-define('_MI_SF_MODULE_RELEASE_DATE', "Release date");
-define('_MI_SF_MODULE_DEMO', "سایت پیش نمایش");
-define('_MI_SF_MODULE_SUPPORT', "سایت پشتیبانی رسمی");
-define('_MI_SF_MODULE_BUG', "گزارش باگ های این ماژول");
-define('_MI_SF_MODULE_FEATURE', "پیشنهاد موارد جدید برای ان ماژول");
-define('_MI_SF_MODULE_DISCLAIMER', "Disclaimer");
-define('_MI_SF_AUTHOR_WORD', "The Author's Word");
-define('_MI_SF_VERSION_HISTORY', "اطلاعات نسخه ها");
+define('_MI_SF_AUTHOR_INFO',"توسعه دهندگان");
+define('_MI_SF_DEVELOPER_LEAD',"توسعه دهندگان اصلی");
+define('_MI_SF_DEVELOPER_CONTRIBUTOR',"Contributor(s)");
+define('_MI_SF_DEVELOPER_WEBSITE',"آدرس وب");
+define('_MI_SF_DEVELOPER_EMAIL',"ایمیل");
+define('_MI_SF_DEVELOPER_CREDITS',"تشکر مخصوص");
+define('_MI_SF_DEMO_SITE',"پیش نماش در سایت زوپس فرانسه");
+define('_MI_SF_MODULE_INFO',"Module Developpment Informations");
+define('_MI_SF_MODULE_STATUS',"وضغیت");
+define('_MI_SF_MODULE_RELEASE_DATE',"Release date");
+define('_MI_SF_MODULE_DEMO',"سایت پیش نمایش");
+define('_MI_SF_MODULE_SUPPORT',"سایت پشتیبانی رسمی");
+define('_MI_SF_MODULE_BUG',"گزارش باگ های این ماژول");
+define('_MI_SF_MODULE_FEATURE',"پیشنهاد موارد جدید برای ان ماژول");
+define('_MI_SF_MODULE_DISCLAIMER',"Disclaimer");
+define('_MI_SF_AUTHOR_WORD',"The Author's Word");
+define('_MI_SF_VERSION_HISTORY',"اطلاعات نسخه ها");
 
-define('_AM_SUBMIT_BUG', "ارسال باگ");
-define('_AM_SUGGEST', "Request a feature");
+define('_AM_SUBMIT_BUG',"ارسال باگ");
+define('_AM_SUGGEST',"Request a feature");
 
 define("_AM_NBANSWER","تعداد پاسخ های خوب");
 define("_AM_AVG","Avg : ");

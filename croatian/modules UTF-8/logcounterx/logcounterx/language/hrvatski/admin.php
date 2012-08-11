@@ -11,10 +11,10 @@ define("_LCX_ADM_IMGSLCT", 	"Odabir slike brojača");
 define("_LCX_ADM_DBCHECK", 	"Provjeri bazu podataka");
 define("_LCX_ADM_BLOCKSADMIN", 	"Administracija blokova");
 define("_LCX_ADM_GENCONF_DESC",	"Prikaz brojača");
-define("_LCX_ADM_LOGCONF_DESC", "Izvještaj zapisa - opće postavke");
-define("_LCX_ADM_REPCONF_DESC", "Prikaz izvještaja");
-define("_LCX_ADM_REBUILD_DESC", "Preračunaj zapisane podatke<br />Treba vremena.");
-define("_LCX_ADM_IMGSLCT_DESC", "Izaberi sliku/e brojača");
+define("_LCX_ADM_LOGCONF_DESC","Izvještaj zapisa - opće postavke");
+define("_LCX_ADM_REPCONF_DESC","Prikaz izvještaja");
+define("_LCX_ADM_REBUILD_DESC","Preračunaj zapisane podatke<br />Treba vremena.");
+define("_LCX_ADM_IMGSLCT_DESC","Izaberi sliku/e brojača");
 define("_LCX_ADM_DBCHECK_DESC", 	"Provjeri i optimiziraj bazu podataka");
 define("_LCX_ADM_BLOCKSADMIN_DESC", 	"Administracija blokova. (Zahvale GIJOE-u.)");
 
@@ -109,11 +109,11 @@ define("_LCX_ADM_IMG",		"pomoću SLIKE");
 define("_LCX_ADM_CHR",		"pomoću ZNAKOVA");
 define("_LCX_ADM_CHGIMG_NOTE",	"Mape slika se imenuju isto kao tema bez obzira na ove postavke.");
 
-define ("_LCX_ADM_CHKDB_Name",		"Ime tablice");
-define ("_LCX_ADM_CHKDB_Rows",		"Redak podatka");
-define ("_LCX_ADM_CHKDB_Data_length",	"Veličina podatka");
-define ("_LCX_ADM_CHKDB_Avg_row_length","Veličina/Redci");
-define ("_LCX_ADM_CHKDB_Data_free",	"Slobodni prostor");
-define ("_LCX_ADM_CHKDB_Update_time",	"Obnovljeno");
-define ("_LCX_ADM_CHKDB_OPTIMIZE_DESC",	"Optimiziraj tablice");
+define("_LCX_ADM_CHKDB_Name",		"Ime tablice");
+define("_LCX_ADM_CHKDB_Rows",		"Redak podatka");
+define("_LCX_ADM_CHKDB_Data_length",	"Veličina podatka");
+define("_LCX_ADM_CHKDB_Avg_row_length","Veličina/Redci");
+define("_LCX_ADM_CHKDB_Data_free",	"Slobodni prostor");
+define("_LCX_ADM_CHKDB_Update_time",	"Obnovljeno");
+define("_LCX_ADM_CHKDB_OPTIMIZE_DESC",	"Optimiziraj tablice");
 ?>

@@ -10,14 +10,14 @@
  */
 
 // Main
-define('_THADMIN_MODULE_NAME', 'ThAdmin');
-define('_THADMIN_MODULE_DESC', 'ThAdmin &egrave; un modulo per la gestione del tema dell\'amministrazione di Xoops');
+define('_THADMIN_MODULE_NAME','ThAdmin');
+define('_THADMIN_MODULE_DESC','ThAdmin &egrave; un modulo per la gestione del tema dell\'amministrazione di Xoops');
 // Menu
-define('_THADMIN_MENU_HOME', 'Home');
-define('_THADMIN_MENU_HELP', 'Aiuto');
+define('_THADMIN_MENU_HOME','Home');
+define('_THADMIN_MENU_HELP','Aiuto');
 // Settings
-define('_THADMIN_ADMINTHEME', 'Tema di default');
-define('_THADMIN_ADMINTHEME_DESC', 'Tema di base per l\'amministrazione di Xoops');
-define('_THADMIN_CPANELEONLY', 'Visualizzare gli avvisi?');
-define('_THADMIN_CPANELEONLY_DESC', 'Nasconde i messaggi di avviso nel Pannello di Controllo');
+define('_THADMIN_ADMINTHEME','Tema di default');
+define('_THADMIN_ADMINTHEME_DESC','Tema di base per l\'amministrazione di Xoops');
+define('_THADMIN_CPANELEONLY','Visualizzare gli avvisi?');
+define('_THADMIN_CPANELEONLY_DESC','Nasconde i messaggi di avviso nel Pannello di Controllo');
 ?>

@@ -13,7 +13,7 @@ define("_MB_SYSTEM_ADVS","جستجوی پیشرفته");
 define("_MB_SYSTEM_VACNT","نمایش ویژگی‌های فردی");
 define("_MB_SYSTEM_EACNT","ویرایش ویژگی‌های فردی");
 // RMV-NOTIFY
-define("_MB_SYSTEM_NOTIF", "آگاهی‌ها");
+define("_MB_SYSTEM_NOTIF","آگاهی‌ها");
 define("_MB_SYSTEM_LOUT","خروج");
 define("_MB_SYSTEM_INBOX","پیام شخصی");
 define("_MB_SYSTEM_SUBMS","اخبار فرستاده شده");
@@ -28,9 +28,9 @@ define("_MB_SYSTEM_RECO","ما را پیشنهاد کنید");
 define("_MB_SYSTEM_PWWIDTH","عرض پنجره Pop-Up");
 define("_MB_SYSTEM_PWHEIGHT","ارتفاع پنجره Pop-Up");
 define("_MB_SYSTEM_LOGO","پرونده‌ی لوگو در شاخه %s است");  // %s is your root image directory name
-define("_MB_SYSTEM_COMPEND", "نظر‌ها");
+define("_MB_SYSTEM_COMPEND","نظر‌ها");
 
-//define("_MB_MULTISITE_LOGGEDINAS", "Logged in as");
+//define("_MB_MULTISITE_LOGGEDINAS","Logged in as");
 define("_MB_SYSTEM_SADMIN","گروه‌های مدیر را نشان بده");
 define("_MB_SYSTEM_SPMTO","ارسال پیام‌شخصی به %s");
 define("_MB_SYSTEM_SEMTO","ارسال پست‌الکترونیکی به %s");
@@ -40,11 +40,11 @@ define("_MB_SYSTEM_DISPLAYA","تصویر کاربر را نشان بده");
 define("_MB_SYSTEM_NODISPGR","اعضایی را که دارای این رنک هستند نشان نده");
 
 define("_MB_SYSTEM_DISPLAYC","%s نظر را نشان بده");
-define("_MB_SYSTEM_SECURE", "ورود امن (Secure Login)");
+define("_MB_SYSTEM_SECURE","ورود امن (Secure Login)");
 
-define("_MB_SYSTEM_NUMTHEME", "%s قالب");
-define("_MB_SYSTEM_THSHOW", "تصویر (screenshot) قالب را نشان بده");
-define("_MB_SYSTEM_THWIDTH", "عرض تصویر (screenshot)");
-define('_MB_SYSTEM_REMEMBERME', 'ورود خودکار');
+define("_MB_SYSTEM_NUMTHEME","%s قالب");
+define("_MB_SYSTEM_THSHOW","تصویر (screenshot) قالب را نشان بده");
+define("_MB_SYSTEM_THWIDTH","عرض تصویر (screenshot)");
+define('_MB_SYSTEM_REMEMBERME','ورود خودکار');
 
 ?>

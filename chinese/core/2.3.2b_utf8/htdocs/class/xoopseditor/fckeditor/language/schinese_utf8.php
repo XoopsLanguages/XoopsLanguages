@@ -13,7 +13,7 @@
 /*
  * Associated with editor_registry.php
  */
-define("_XOOPS_EDITOR_FCKEDITOR", "FCK 编辑器");
+define("_XOOPS_EDITOR_FCKEDITOR","FCK 编辑器");
 define("_XOOPS_EDITOR_FCKEDITOR_FONTLIST",'黑体;宋体;楷体;Arial;Comic Sans MS;Courier New;Tahoma;Times New Roman;Verdana');
-define("_XOOPS_EDITOR_FCKEDITOR_LANGUAGE", "zh-cn");
+define("_XOOPS_EDITOR_FCKEDITOR_LANGUAGE","zh-cn");
 ?>

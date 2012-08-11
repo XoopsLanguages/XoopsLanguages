@@ -41,9 +41,9 @@ define('_SR_PREVIOUS','<< قبلی ');
 define('_SR_KEYWORDS','کلمات‌کلیدی');
 define('_SR_TYPE','نوع');
 define('_SR_SEARCHIN','جستجو در');
-define('_SR_KEYTOOSHORT', 'کلمات کلیدی باید حداقل <strong>%s</strong> نویسه داشته باشند');
-define('_SR_KEYIGNORE', 'کلمات کلیدی کوتاه‌تر از <strong>%s</strong> نویسه نادیده گرفته می‌شوند');
-define('_SR_SEARCHRULE', 'قانون جستجو');
-define('_SR_IGNOREDWORDS', 'کلمه‌ای که وارد کرده‌اید، نویسه کمتری از حد مجاز دارد  (%u نویسه) و در جستجوی شما منظور نمی‌شود.');
+define('_SR_KEYTOOSHORT','کلمات کلیدی باید حداقل <strong>%s</strong> نویسه داشته باشند');
+define('_SR_KEYIGNORE','کلمات کلیدی کوتاه‌تر از <strong>%s</strong> نویسه نادیده گرفته می‌شوند');
+define('_SR_SEARCHRULE','قانون جستجو');
+define('_SR_IGNOREDWORDS','کلمه‌ای که وارد کرده‌اید، نویسه کمتری از حد مجاز دارد  (%u نویسه) و در جستجوی شما منظور نمی‌شود.');
 
 ?>

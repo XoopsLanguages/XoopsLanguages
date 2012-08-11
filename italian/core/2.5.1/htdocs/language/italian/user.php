@@ -23,9 +23,9 @@ define("_US_NOPERMISS","Spiacenti, non si possiedono i permessi per eseguire que
 define("_US_SURETODEL","Sei sicuro di voler eliminare il tuo account?");
 define("_US_REMOVEINFO","Tutti i tuoi dati saranno eliminati.");
 define("_US_BEENDELED","Il tuo account &egrave; stato eliminato.");
-define('_US_ACTFAILD', 'Attivazione fallita!');
+define('_US_ACTFAILD','Attivazione fallita!');
 //%%%%%%		File Name register.php 		%%%%%
-define('_US_USERREG', 'Registrazione utente');
+define('_US_USERREG','Registrazione utente');
 define("_US_NICKNAME","Nome utente");
 define("_US_EMAIL","Email");
 define("_US_ALLOWVIEWEMAIL","Permettere ad altri utenti di vedere il mio indirizzo email");
@@ -40,7 +40,7 @@ define('_US_REGISTERNG','Non &egrave; possibile registrare un altro utente.');
 define('_US_MAILOK','Consentire agli amministratori del sito e ai moderatori<br />  di inviare occasionalmente email informative o di notifica?');
 define('_US_DISCLAIMER','Condizioni di utilizzo');
 define('_US_IAGREE','Accetto tutte le condizioni sopra riportate');
-define('_US_UNEEDAGREE', 'Spiacenti, &egrave; necessario accettare le condizioni di utilizzo del servizio, per completare la registrazione.');
+define('_US_UNEEDAGREE','Spiacenti, &egrave; necessario accettare le condizioni di utilizzo del servizio, per completare la registrazione.');
 define('_US_NOREGISTER','Spiacenti, al momento non &egrave; possibile accettare ulteriori registrazioni.');
 // %s is username. This is a subject for email
 define("_US_USERKEYFOR","Chiave di attivazione per l'utente %s");
@@ -64,13 +64,13 @@ define('_US_ENTERPWD','ERRORE: &Egrave; necessario inserire una password.');
 define('_US_SORRYNOTFOUND','Spiacenti, non &egrave; stata trovata alcuna informazione sull\'utente.');
 // %s is your site name
 define("_US_NEWPWDREQ","Nuova password richiesta su %s");
-define('_US_YOURACCOUNT', 'Il tuo account su %s');
+define('_US_YOURACCOUNT','Il tuo account su %s');
 define("_US_MAILPWDNG","mail_password: aggiornamento dati utente non riuscito. Contattare l'amministratore.");
 // %s is a username
 define("_US_PWDMAILED","La password per l'utente %s &egrave; stata inviata.");
 define("_US_CONFMAIL","L'email di conferma per l'utente %s &egrave; stata inviata.");
-define('_US_ACTVMAILNG', "L'invio dell'email di notifica all'utente %s &egrave; fallito!");
-define('_US_ACTVMAILOK', 'Email di notifica per l\'utente %s inviata con successo!');
+define('_US_ACTVMAILNG',"L'invio dell'email di notifica all'utente %s &egrave; fallito!");
+define('_US_ACTVMAILOK','Email di notifica per l\'utente %s inviata con successo!');
 //%%%%%%		File Name userinfo.php 		%%%%%
 define("_US_SELECTNG","Nessun utente selezionato! Per favore, tornare indietro e riprovare.");
 define('_US_PM','PM');
@@ -112,18 +112,18 @@ define('_US_PROFUPDATED','Il tuo profilo &egrave; stato aggiornato con successo!
 define('_US_USECOOKIE','Salvare il Nome Utente in un cookie per un anno?');
 define('_US_NO','No');
 define('_US_DELACCOUNT','Eliminare l\'account');
-define('_US_MYAVATAR', 'Il mio avatar');
-define('_US_UPLOADMYAVATAR', 'Caricamento avatar personale');
+define('_US_MYAVATAR','Il mio avatar');
+define('_US_UPLOADMYAVATAR','Caricamento avatar personale');
 define('_US_MAXPIXEL','Numero massimo di pixel');
 define('_US_MAXIMGSZ','Dimensione massima dell\'immagine (in bytes)');
 define('_US_SELFILE','Selezionare il file');
 define('_US_OLDDELETED','Il tuo vecchio avatar &egrave; stato cancellato dal server!');
-define('_US_CHOOSEAVT', 'Scelta dell\'avatar.');
-define('_US_PRESSLOGIN', 'Premere il pulsante seguente per effettuare il login');
-define('_US_ADMINNO', 'Gli utenti del gruppo dei Webmaster non possono essere eliminati');
-define('_US_GROUPS', "Gruppo(i) dell'utente");
-define('_US_REMEMBERME', 'Ricorda');
+define('_US_CHOOSEAVT','Scelta dell\'avatar.');
+define('_US_PRESSLOGIN','Premere il pulsante seguente per effettuare il login');
+define('_US_ADMINNO','Gli utenti del gruppo dei Webmaster non possono essere eliminati');
+define('_US_GROUPS',"Gruppo(i) dell'utente");
+define('_US_REMEMBERME','Ricorda');
 // Welcoming emai/PM subject
-define('_US_WELCOME_SUBJECT', "Benvenuto\a %s");
+define('_US_WELCOME_SUBJECT',"Benvenuto\a %s");
 
 ?>

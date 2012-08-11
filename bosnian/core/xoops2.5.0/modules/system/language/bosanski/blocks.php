@@ -13,7 +13,7 @@ define("_MB_SYSTEM_ADVS","Dodatna pretraga");
 define("_MB_SYSTEM_VACNT","Vidi Profil");
 define("_MB_SYSTEM_EACNT","Uredi Profil");
 // RMV-NOTIFY
-define("_MB_SYSTEM_NOTIF", "Obavještenja");
+define("_MB_SYSTEM_NOTIF","Obavještenja");
 define("_MB_SYSTEM_LOUT","Odjavi se");
 define("_MB_SYSTEM_INBOX","Pridošla pošta");
 define("_MB_SYSTEM_SUBMS","Poslate vijesti");
@@ -31,9 +31,9 @@ define("_MB_SYSTEM_RECO","Preporuči nas");
 define("_MB_SYSTEM_PWWIDTH","Pop-Up širina prozora");
 define("_MB_SYSTEM_PWHEIGHT","Pop-Up visina prozora");
 define("_MB_SYSTEM_LOGO","Logo slika je u %s direktoriju");  // %s is your root image directory name
-define("_MB_SYSTEM_COMPEND", "Komentari");
+define("_MB_SYSTEM_COMPEND","Komentari");
 
-//define("_MB_SYSTEM_LOGGEDINAS", "Logged in as");
+//define("_MB_SYSTEM_LOGGEDINAS","Logged in as");
 define("_MB_SYSTEM_SADMIN","Prikaži admin grupe");
 define("_MB_SYSTEM_SPMTO","Pošalji privatnu poruku za %s");
 define("_MB_SYSTEM_SEMTO","Pošalji Email za %s");
@@ -43,11 +43,11 @@ define("_MB_SYSTEM_DISPLAYA","Prikaži od članova Avatare");
 define("_MB_SYSTEM_NODISPGR","Ne prikazuj članove sa rangom is:");
 
 define("_MB_SYSTEM_DISPLAYC","Prikaži %s komentara");
-define("_MB_SYSTEM_SECURE", "Sigurna prijava");
+define("_MB_SYSTEM_SECURE","Sigurna prijava");
 
-define("_MB_SYSTEM_NUMTHEME", "%s theme");
-define("_MB_SYSTEM_THSHOW", "Prikaži preglednu sliku");
-define("_MB_SYSTEM_THWIDTH", "Širuna pregledne slike");
+define("_MB_SYSTEM_NUMTHEME","%s theme");
+define("_MB_SYSTEM_THSHOW","Prikaži preglednu sliku");
+define("_MB_SYSTEM_THWIDTH","Širuna pregledne slike");
 define("_MB_SYSTEM_REMEMBERME","Zapamti me");
 
 ?>

@@ -114,6 +114,6 @@ define("_AM_SETEXPDATETIME","유효기한을 설정");
 define("_AM_NOWSETEXPTIME","현재 설정된 기한 : %s");
 
 // Added in RC3
-define("_AM_ERRORTOPICNAME", "토픽명이 기입되어 있지 않습니다.");
-define("_AM_EMPTYNODELETE", "삭제할 것이 없습니다.");
+define("_AM_ERRORTOPICNAME","토픽명이 기입되어 있지 않습니다.");
+define("_AM_EMPTYNODELETE","삭제할 것이 없습니다.");
 ?>

@@ -4,17 +4,17 @@
 // _CHARSET : windows-1256
 // Translator: Arab XOOPS Team
 
-define("_CAPTCHA_CAPTION", "ßæÏ ÇáÊÍÞÞ");
-define("_CAPTCHA_INVALID_CODE", "ÇáßæÏ ÛíÑ ÕÍíÍ");
-define("_CAPTCHA_TOOMANYATTEMPTS", "ãÍÇæáÇÊ ßËíÑÉ ÌÏÇ");
-define("_CAPTCHA_MAXATTEMPTS", "ÃÞÕì ÚÏÏ ãÍÇæáÇÊ íãßäß ÊÌÑÈÊåÇ: %d");
+define("_CAPTCHA_CAPTION","ÃŸÃ¦Ã Ã‡Ã¡ÃŠÃÃžÃž");
+define("_CAPTCHA_INVALID_CODE","Ã‡Ã¡ÃŸÃ¦Ã Ã›Ã­Ã‘ Ã•ÃÃ­Ã");
+define("_CAPTCHA_TOOMANYATTEMPTS","Ã£ÃÃ‡Ã¦Ã¡Ã‡ÃŠ ÃŸÃ‹Ã­Ã‘Ã‰ ÃŒÃÃ‡");
+define("_CAPTCHA_MAXATTEMPTS","ÃƒÃžÃ•Ã¬ ÃšÃÃ Ã£ÃÃ‡Ã¦Ã¡Ã‡ÃŠ Ã­Ã£ÃŸÃ¤ÃŸ ÃŠÃŒÃ‘ÃˆÃŠÃ¥Ã‡: %d");
 
 // For image mode
-define("_CAPTCHA_RULE_IMAGE", "ÇßÊÈ ÇáÍÑæÝ ÇáÙÇåÑÉ Ýí ÇáÕæÑÉ");
-define("_CAPTCHA_RULE_CASESENSITIVE", "ÇáßæÏ ÍÓÇÓ ááÍÑæÝ");
-define("_CAPTCHA_RULE_CASEINSENSITIVE", "ÇáßæÏ ÛíÑ ÍÓÇÓ ááÍÑæÝ");
-define("_CAPTCHA_REFRESH", "ÃäÞÑ åäÇ áÊÍÏíË ÇáÕæÑÉ ÅÐÇ ßÇäÊ ÛíÑ æÇÖÍÉ");
+define("_CAPTCHA_RULE_IMAGE","Ã‡ÃŸÃŠÃˆ Ã‡Ã¡ÃÃ‘Ã¦Ã Ã‡Ã¡Ã™Ã‡Ã¥Ã‘Ã‰ ÃÃ­ Ã‡Ã¡Ã•Ã¦Ã‘Ã‰");
+define("_CAPTCHA_RULE_CASESENSITIVE","Ã‡Ã¡ÃŸÃ¦Ã ÃÃ“Ã‡Ã“ Ã¡Ã¡ÃÃ‘Ã¦Ã");
+define("_CAPTCHA_RULE_CASEINSENSITIVE","Ã‡Ã¡ÃŸÃ¦Ã Ã›Ã­Ã‘ ÃÃ“Ã‡Ã“ Ã¡Ã¡ÃÃ‘Ã¦Ã");
+define("_CAPTCHA_REFRESH","ÃƒÃ¤ÃžÃ‘ Ã¥Ã¤Ã‡ Ã¡ÃŠÃÃÃ­Ã‹ Ã‡Ã¡Ã•Ã¦Ã‘Ã‰ Ã…ÃÃ‡ ÃŸÃ‡Ã¤ÃŠ Ã›Ã­Ã‘ Ã¦Ã‡Ã–ÃÃ‰");
 
 // For text mode
-define("_CAPTCHA_RULE_TEXT", "ÃÏÎá äÊíÌÉ ÇáãÚÇÏáÉ");
+define("_CAPTCHA_RULE_TEXT","ÃƒÃÃŽÃ¡ Ã¤ÃŠÃ­ÃŒÃ‰ Ã‡Ã¡Ã£ÃšÃ‡ÃÃ¡Ã‰");
 ?>

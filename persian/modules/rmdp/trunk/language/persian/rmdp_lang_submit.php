@@ -60,8 +60,8 @@ define('_RMDP_SUBMIT_INFO2','هنگامی که ارسال شما مورد تأی
 define('_RMDP_ERRORS_HAPPEND','ایراد بعدی رخ داده است:');
 define('_RMDP_MUSTBE_NUM','must contain a number');
 define('_RMDP_IS_EMPTY','کامل نشده است');
-define('_RMDP_PLEASE_FILL', 'لطفا گزینه های مورد نیاز را تکمیل کنید');
-define('_RMDP_NAME_EXIST', 'دانلودی با همین نام و در همین شاخه موجود اسست');
+define('_RMDP_PLEASE_FILL','لطفا گزینه های مورد نیاز را تکمیل کنید');
+define('_RMDP_NAME_EXIST','دانلودی با همین نام و در همین شاخه موجود اسست');
 define('_RMDP_SENDOK','درخواست شما با موفقیت ارسال شد');
 define('_RMDP_SENDFAIL','خطایی در هنگام ارسال دانلود شما رخ داده است. لطفا دوباره سعی نمایید.');
 define('_RMDP_MAIL_SUBJECT','ثبت دانلود جدید');

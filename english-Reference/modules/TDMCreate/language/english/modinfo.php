@@ -27,21 +27,21 @@
  *  Version : 1.39 Thu 2012/05/31 14:10:39 : Timgno Exp $
  * ****************************************************************************
  */
-define("_MI_TDMCREATE_NAME", "TDMCreate");
-define("_MI_TDMCREATE_DESC", "Creation modules developed by TDM Xoops");
+define("_MI_TDMCREATE_NAME","TDMCreate");
+define("_MI_TDMCREATE_DESC","Creation modules developed by TDM Xoops");
 //Menu
-define("_MI_TDMCREATE_ADMENU1", "Index");
-define("_MI_TDMCREATE_ADMENU2", "Add Module");
-define("_MI_TDMCREATE_ADMENU3", "Add Table");
-define("_MI_TDMCREATE_ADMENU4", "Build Module");
-define("_MI_TDMCREATE_ADMENU5", "Information");
+define("_MI_TDMCREATE_ADMENU1","Index");
+define("_MI_TDMCREATE_ADMENU2","Add Module");
+define("_MI_TDMCREATE_ADMENU3","Add Table");
+define("_MI_TDMCREATE_ADMENU4","Build Module");
+define("_MI_TDMCREATE_ADMENU5","Information");
 // 1.37
-define("_MI_TDMCREATE_EDITOR", "Editor");
-define("_MI_TDMCREATE_EDITOR_DESC", "Select an editor to write");
-define('_MI_TDMCREATE_MAXSIZE', "Max size");
-define('_MI_TDMCREATE_MAXSIZE_DESC', "Max size for images");
-define('_MI_TDMCREATE_MIMETYPES', "Mime Types");
-define('_MI_TDMCREATE_MIMETYPES_DESC', "Mime Types for images");
-define("_MI_TDMCREATE_ADMINPERPAGE", "Admin per page");
-define("_MI_TDMCREATE_ADMINPERPAGE_DESC", "Set number of tables to view per page in admin.");
+define("_MI_TDMCREATE_EDITOR","Editor");
+define("_MI_TDMCREATE_EDITOR_DESC","Select an editor to write");
+define('_MI_TDMCREATE_MAXSIZE',"Max size");
+define('_MI_TDMCREATE_MAXSIZE_DESC',"Max size for images");
+define('_MI_TDMCREATE_MIMETYPES',"Mime Types");
+define('_MI_TDMCREATE_MIMETYPES_DESC',"Mime Types for images");
+define("_MI_TDMCREATE_ADMINPERPAGE","Admin per page");
+define("_MI_TDMCREATE_ADMINPERPAGE_DESC","Set number of tables to view per page in admin.");
 ?>

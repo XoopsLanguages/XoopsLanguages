@@ -31,6 +31,6 @@
 
 // Blocks
 
-define('_MB_HEADLINES_DISPLAYF', '»çÀÌÆ® ·Î°í Ç¥½Ã');
-define('_MB_HEADLINES_MAXITEM', 'Çìµå¶óÀÎº° ÃÖ´ë Ç¥½Ã±â»ç ¼ö');
+define('_MB_HEADLINES_DISPLAYF','ï¿½ï¿½ï¿½ï¿½Æ® ï¿½Î°ï¿½ Ç¥ï¿½ï¿½');
+define('_MB_HEADLINES_MAXITEM','ï¿½ï¿½ï¿½ï¿½ï¿½Îºï¿½ ï¿½Ö´ï¿½ Ç¥ï¿½Ã±ï¿½ï¿½ ï¿½ï¿½');
 ?>

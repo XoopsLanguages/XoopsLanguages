@@ -11,6 +11,6 @@
  * @author		luciorota <lucio.rota@gmail.com> 
  */
 // Name of the editor
-define("_XOOPS_EDITOR_WYMEDITOR", "WYMEditor");
-define("_XOOPS_EDITOR_WYMEDITOR_LANGUAGE", "fa");
+define("_XOOPS_EDITOR_WYMEDITOR","WYMEditor");
+define("_XOOPS_EDITOR_WYMEDITOR_LANGUAGE","fa");
 ?>

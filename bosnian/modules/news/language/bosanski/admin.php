@@ -93,7 +93,7 @@ define("_AM_EMPTYNODELETE","Ni&scaron;ta ne bri&scaron;i!");
 define("_AM_GROUPPERM","Grupama odobrenje daj");
 define("_AM_SELFILE","Podatak za upload izaberi");
 
-// Added by Hervé
+// Added by HervÃ©
 define("_AM_UPLOAD_DBERROR_SAVE","Gre&scaron;ka kod zaka&#269;anja podatka u vijesti");
 define("_AM_UPLOAD_ERROR","Gre&scaron;ka kod uploada podatka");
 define("_AM_UPLOAD_ATTACHFILE","Zaka&#269;eni podatak(ci)");
@@ -176,9 +176,9 @@ define("_AM_NEWS_REMOVE_BR","Html Tag &lt;br&gt; u novi red konveriraj?");
 define("_AM_NEWS_PLEASE_UPGRADE","<a href='upgrade.php'><font color='#FF0000'>Molim Modul updatuj!</font></a>");
 
 // Added in verisn 1.50
-define('_AM_NEWS_NEWSLETTER_HEADER', "Vrh");
-define('_AM_NEWS_NEWSLETTER_FOOTER', "Dno");
-define('_AM_NEWS_NEWSLETTER_HTML_TAGS', "HTML-Tagove izbri&scaron;i?");
+define('_AM_NEWS_NEWSLETTER_HEADER',"Vrh");
+define('_AM_NEWS_NEWSLETTER_FOOTER',"Dno");
+define('_AM_NEWS_NEWSLETTER_HTML_TAGS',"HTML-Tagove izbri&scaron;i?");
 define('_AM_NEWS_VERIFY_TABLES','DB-Tabele sredi');
 define('_AM_NEWS_METAGEN',"Metagen");
 define('_AM_NEWS_METAGEN_DESC',"Metagen je System, koji ti poma&#382;e, da tvoju stranicu pretra&#382;ne ma&scaron;ine brzo prona&#273; u.<br />Izuzetak, ako Meta klju&#269;ne rije&#269;i und Meta opis su ve&#263; napisani, onda Modul proba ovo automatski.");

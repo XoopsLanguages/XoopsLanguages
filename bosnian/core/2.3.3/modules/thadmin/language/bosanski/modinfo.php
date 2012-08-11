@@ -16,14 +16,14 @@
  */
 
 // Main
-define('_THADMIN_MODULE_NAME', 'ThAdmin');
-define('_THADMIN_MODULE_DESC', 'ThAdmin je modul za upravljanje Administracijom');
+define('_THADMIN_MODULE_NAME','ThAdmin');
+define('_THADMIN_MODULE_DESC','ThAdmin je modul za upravljanje Administracijom');
 // Menu
-define('_THADMIN_MENU_HOME', 'Po&#269;etna');
-define('_THADMIN_MENU_HELP', 'Pomo&#263;');
+define('_THADMIN_MENU_HOME','Po&#269;etna');
+define('_THADMIN_MENU_HELP','Pomo&#263;');
 // Settings
-define('_THADMIN_ADMINTHEME', 'Standardna Thema');
-define('_THADMIN_ADMINTHEME_DESC', 'Izaberi standardnu themu za administraciju');
-define('_THADMIN_CPANELEONLY', 'Prika&#382;i upozorenja ?');
-define('_THADMIN_CPANELEONLY_DESC', 'Sakrij upozorenja u Administraciji');
+define('_THADMIN_ADMINTHEME','Standardna Thema');
+define('_THADMIN_ADMINTHEME_DESC','Izaberi standardnu themu za administraciju');
+define('_THADMIN_CPANELEONLY','Prika&#382;i upozorenja ?');
+define('_THADMIN_CPANELEONLY_DESC','Sakrij upozorenja u Administraciji');
 ?>

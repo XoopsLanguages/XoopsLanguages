@@ -34,9 +34,9 @@ define("_MB_OLEDRION_ALL_CATEGORIES","* همه شاخه‌ها *");
 define("_MB_OLEDRION_TYPE_BLOCK","نوع بلاک");
 define("_MB_OLEDRION_TYPE_BLOCK1","لیست کلاسیک شاخه‌ها");
 define("_MB_OLEDRION_TYPE_BLOCK2","لیست شاخه‌ها به طورت پیوسته در صفحه فعلی نمایش داده شود");
-define("_MB_OLEDRION_TYPE_BLOCK3", "فهرست کامل تمام شاخه ها, اشکار کردن");
+define("_MB_OLEDRION_TYPE_BLOCK3","فهرست کامل تمام شاخه ها, اشکار کردن");
 define("_MB_OLEDRION_THIS_MONTH","فقط این ماه؟");
-define("_MB_OLEDRION_LISTS_COUNT", "بیشترین تعداد فهرست ها برای نمایش");
-define("_MB_OLEDRION_LISTS_TYPE", "فهرست ها از نوع");
-define("_MB_OLEDRION_SEE_ALL_LISTS", "مشاهده تمام فهرست ها");
+define("_MB_OLEDRION_LISTS_COUNT","بیشترین تعداد فهرست ها برای نمایش");
+define("_MB_OLEDRION_LISTS_TYPE","فهرست ها از نوع");
+define("_MB_OLEDRION_SEE_ALL_LISTS","مشاهده تمام فهرست ها");
 ?>

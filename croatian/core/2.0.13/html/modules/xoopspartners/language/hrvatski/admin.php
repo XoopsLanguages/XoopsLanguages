@@ -25,29 +25,29 @@
 //  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 USA // 
 //  ------------------------------------------------------------------------ // 
  
-define('_MD_PARTNERADMIN', 'Partneri administracije'); 
-define('_MD_URL', 'URL'); 
-define('_MD_HITS', 'Pregleda'); 
-define('_MD_IMAGE', 'Slika'); 
-define('_MD_TITLE', 'Naslov'); 
-define('_MD_WEIGHT', 'Velièina'); 
-define('_MD_DESCRIPTION', 'Opis'); 
-define('_MD_STATUS', 'Status'); 
-define('_MD_ACTIVE', 'Aktivan'); 
-define('_MD_INACTIVE', 'Neaktivan'); 
-define('_MD_REORDER', 'Posloži'); 
-define('_MD_UPDATED', 'Postavke ažurirane'); 
-define('_MD_NOTUPDATED', 'Ne mogu ažurirati postavke!'); 
-define('_MD_BESURE', 'Unesite naslov, URL i opis.'); 
-define('_MD_NOEXITS', "Slika ne postoji"); 
-define('_MD_ADDPARTNER', 'Dodaj'); 
-define('_MD_EDITPARTNER', 'Uredi'); 
-define('_MD_EDIT', 'Uredi'); 
-define('_MD_DELETE', 'Izbriši'); 
-define('_MD_SUREDELETE', 'Sigurno želite izbrisati ovu stranicu?'); 
-define('_MD_YES', 'Da'); 
-define('_MD_NO', 'Ne'); 
-define('_MD_IMAGE_ERROR', 'Dimenzije slike su veæe od 110x50!'); 
+define('_MD_PARTNERADMIN','Partneri administracije'); 
+define('_MD_URL','URL'); 
+define('_MD_HITS','Pregleda'); 
+define('_MD_IMAGE','Slika'); 
+define('_MD_TITLE','Naslov'); 
+define('_MD_WEIGHT','VeliÃ¨ina'); 
+define('_MD_DESCRIPTION','Opis'); 
+define('_MD_STATUS','Status'); 
+define('_MD_ACTIVE','Aktivan'); 
+define('_MD_INACTIVE','Neaktivan'); 
+define('_MD_REORDER','PosloÅ¾i'); 
+define('_MD_UPDATED','Postavke aÅ¾urirane'); 
+define('_MD_NOTUPDATED','Ne mogu aÅ¾urirati postavke!'); 
+define('_MD_BESURE','Unesite naslov, URL i opis.'); 
+define('_MD_NOEXITS',"Slika ne postoji"); 
+define('_MD_ADDPARTNER','Dodaj'); 
+define('_MD_EDITPARTNER','Uredi'); 
+define('_MD_EDIT','Uredi'); 
+define('_MD_DELETE','IzbriÅ¡i'); 
+define('_MD_SUREDELETE','Sigurno Å¾elite izbrisati ovu stranicu?'); 
+define('_MD_YES','Da'); 
+define('_MD_NO','Ne'); 
+define('_MD_IMAGE_ERROR','Dimenzije slike su veÃ¦e od 110x50!'); 
 define('_MD_PARTNERS_ADD','Dodaj partnera'); 
-define('_MD_AUTOMATIC_SORT', 'Automatsko sortiranje'); 
+define('_MD_AUTOMATIC_SORT','Automatsko sortiranje'); 
 ?>

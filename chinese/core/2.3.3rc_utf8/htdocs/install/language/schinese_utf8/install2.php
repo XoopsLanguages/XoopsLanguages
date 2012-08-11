@@ -12,7 +12,7 @@ define("_INSTALL_L165","系统维护中，请稍后访问。");
 
 define("_INSTALL_ANON","游客");
 
-define("_INSTALL_DISCLMR", "请仔细阅读并遵守下列注册条款：
+define("_INSTALL_DISCLMR","请仔细阅读并遵守下列注册条款：
 
 1、注册会员必须遵守中华人民共和国的各项法律法规；
 2、不得发布任何有关色情、违法、以及危害国家安全的言论；

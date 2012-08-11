@@ -25,24 +25,24 @@
 //  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 USA //
 //  ------------------------------------------------------------------------ //
 
-define('_MI_PARTNERS_NAME', 'Partners');
-define('_MI_PARTNERS_DESC', 'Viser partner sider i en block og et modul');
-define('_MI_PARTNERS_ADMIN', 'Vedligehold partners');
-define('_MI_PARTNERS_ADMIN_ADD', 'Tilføj partners');
-define('_MI_ID', 'ID');
-define('_MI_HITS', 'Hits');
-define('_MI_TITLE', 'Titel');
-define('_MI_WEIGHT', 'Vægtning');
-define('_MI_RECLICK', 'Reclick Tid:');
-define('_MI_IMAGES', 'Billeder');
-define('_MI_TEXT', 'Tekst links');
-define('_MI_BOTH', 'Begge');
-define('_MI_MLIMIT', 'Begræns hovedsiden til xx visninger: (0 = ingen begrænsnin)');
-define('_MI_MSHOW', 'Vis på hovedsiden:');
-define('_MI_MORDER', 'Sorter hovedsidens inhold efter:');
-define('_MI_HOUR', '1 time');
-define('_MI_3HOURS', '3 timer');
-define('_MI_5HOURS', '5 timer');
-define('_MI_10HOURS', '10 timer');
-define('_MI_DAY', '1 dag');
+define('_MI_PARTNERS_NAME','Partners');
+define('_MI_PARTNERS_DESC','Viser partner sider i en block og et modul');
+define('_MI_PARTNERS_ADMIN','Vedligehold partners');
+define('_MI_PARTNERS_ADMIN_ADD','Tilføj partners');
+define('_MI_ID','ID');
+define('_MI_HITS','Hits');
+define('_MI_TITLE','Titel');
+define('_MI_WEIGHT','Vægtning');
+define('_MI_RECLICK','Reclick Tid:');
+define('_MI_IMAGES','Billeder');
+define('_MI_TEXT','Tekst links');
+define('_MI_BOTH','Begge');
+define('_MI_MLIMIT','Begræns hovedsiden til xx visninger: (0 = ingen begrænsnin)');
+define('_MI_MSHOW','Vis på hovedsiden:');
+define('_MI_MORDER','Sorter hovedsidens inhold efter:');
+define('_MI_HOUR','1 time');
+define('_MI_3HOURS','3 timer');
+define('_MI_5HOURS','5 timer');
+define('_MI_10HOURS','10 timer');
+define('_MI_DAY','1 dag');
 ?>

@@ -16,14 +16,14 @@
  */
 
 // Main
-define('_THADMIN_MODULE_NAME', 'ThAdmin');
-define('_THADMIN_MODULE_DESC', 'ThAdmin یک ماژول برای مدیریت قالب بخش ادمین سایت شماست');
+define('_THADMIN_MODULE_NAME','ThAdmin');
+define('_THADMIN_MODULE_DESC','ThAdmin یک ماژول برای مدیریت قالب بخش ادمین سایت شماست');
 // Menu
-define('_THADMIN_MENU_HOME', 'خانه');
-define('_THADMIN_MENU_HELP', 'راهنمایی');
+define('_THADMIN_MENU_HOME','خانه');
+define('_THADMIN_MENU_HELP','راهنمایی');
 // Settings
-define('_THADMIN_ADMINTHEME', 'قالب پیش فرض');
-define('_THADMIN_ADMINTHEME_DESC', 'قالب پیش فرض بخش مدیریت سایت را انتخاب کنید');
-define('_THADMIN_CPANELEONLY', 'نمایش خطا ها؟');
-define('_THADMIN_CPANELEONLY_DESC', 'مخفی کردن پیغام های خطا در بخش مدیریت');
+define('_THADMIN_ADMINTHEME','قالب پیش فرض');
+define('_THADMIN_ADMINTHEME_DESC','قالب پیش فرض بخش مدیریت سایت را انتخاب کنید');
+define('_THADMIN_CPANELEONLY','نمایش خطا ها؟');
+define('_THADMIN_CPANELEONLY_DESC','مخفی کردن پیغام های خطا در بخش مدیریت');
 ?>

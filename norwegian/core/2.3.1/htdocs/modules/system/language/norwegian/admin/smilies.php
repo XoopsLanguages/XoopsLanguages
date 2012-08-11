@@ -18,5 +18,5 @@ define('_AM_SMILEEMOTION','Beskrivelse:');
 define('_AM_ADD','Legg til');
 define('_AM_SAVE','Lagre');
 define('_AM_WAYSYWTDTS','ADVARSEL: Er du sikker på at du vil slette denne Smilien?');
-define('_AM_DISPLAYF', 'Vis i skjema?');
+define('_AM_DISPLAYF','Vis i skjema?');
 ?>

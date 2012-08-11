@@ -32,25 +32,25 @@ define("_AM_TH_AGENT","Agent");
 define("_AM_TH_TYPE","Type");
 define("_AM_TH_DESCRIPTION","Description");
 
-define( "_AM_TH_BADIPS" , 'Adresses IP interdites<br /><br /><span style="font-weight:normal;">Ajoutez une adresse IP par ligne.</span><br />Laisser ce champ vide pour autoriser toute adresse IP.' ) ;
+define("_AM_TH_BADIPS" , 'Adresses IP interdites<br /><br /><span style="font-weight:normal;">Ajoutez une adresse IP par ligne.</span><br />Laisser ce champ vide pour autoriser toute adresse IP.' ) ;
 
-define( "_AM_TH_GROUP1IPS" , 'Adresses IP autorisées pour le groupe=1<br /><br /><span style="font-weight:normal;">Ajoutez une IP par ligne.<br />Ex. 192.168. signifie que la régle s\'applique à toute adresse avec le prefixe 192.168.*<br />Laisser ce champ vide pour autoriser toute adresse IP</span>' ) ;
+define("_AM_TH_GROUP1IPS" , 'Adresses IP autorisées pour le groupe=1<br /><br /><span style="font-weight:normal;">Ajoutez une IP par ligne.<br />Ex. 192.168. signifie que la régle s\'applique à toute adresse avec le prefixe 192.168.*<br />Laisser ce champ vide pour autoriser toute adresse IP</span>' ) ;
 
-define( "_AM_LABEL_REMOVE" , "Supprimer les enregistrements selectionnés:" ) ;
-define( "_AM_BUTTON_REMOVE" , "Supprimer!" ) ;
-define( "_AM_JS_REMOVECONFIRM" , "Veuillez confirmer la suppression?" ) ;
-define( "_AM_MSG_IPFILESUPDATED" , "Mise à jour des adresses IP" ) ;
-define( "_AM_MSG_BADIPSCANTOPEN" , "Accès impossible aux adresses IP interdites" ) ;
-define( "_AM_MSG_GROUP1IPSCANTOPEN" , "Accès impossible au fichier du groupe=1" ) ;
-define( "_AM_MSG_REMOVED" , "Suppression des messages" ) ;
-define( "_AM_FMT_CONFIGSNOTWRITABLE" , "Changez le repertoire configs en mode écriture : %s" ) ;
+define("_AM_LABEL_REMOVE" , "Supprimer les enregistrements selectionnés:" ) ;
+define("_AM_BUTTON_REMOVE" , "Supprimer!" ) ;
+define("_AM_JS_REMOVECONFIRM" , "Veuillez confirmer la suppression?" ) ;
+define("_AM_MSG_IPFILESUPDATED" , "Mise à jour des adresses IP" ) ;
+define("_AM_MSG_BADIPSCANTOPEN" , "Accès impossible aux adresses IP interdites" ) ;
+define("_AM_MSG_GROUP1IPSCANTOPEN" , "Accès impossible au fichier du groupe=1" ) ;
+define("_AM_MSG_REMOVED" , "Suppression des messages" ) ;
+define("_AM_FMT_CONFIGSNOTWRITABLE" , "Changez le repertoire configs en mode écriture : %s" ) ;
 
 
 // prefix_manager.php
-define( "_AM_H3_PREFIXMAN" , "Gestion du préfixe" ) ;
-define( "_AM_MSG_DBUPDATED" , "Mise à Jour de la BDD avec succès!" ) ;
-define( "_AM_CONFIRM_DELETE" , "Supprimer toutes les données?" ) ;
-define( "_AM_TXT_HOWTOCHANGEDB" , "Pour changer le préfixe, veuillez éditer dans le fichier %s/mainfile.php la ligne suivante :<br />  define('XOOPS_DB_PREFIX', '<b>%s</b>');" ) ;
+define("_AM_H3_PREFIXMAN" , "Gestion du préfixe" ) ;
+define("_AM_MSG_DBUPDATED" , "Mise à Jour de la BDD avec succès!" ) ;
+define("_AM_CONFIRM_DELETE" , "Supprimer toutes les données?" ) ;
+define("_AM_TXT_HOWTOCHANGEDB" , "Pour changer le préfixe, veuillez éditer dans le fichier %s/mainfile.php la ligne suivante :<br />  define('XOOPS_DB_PREFIX','<b>%s</b>');" ) ;
 
 
 // advisory.php

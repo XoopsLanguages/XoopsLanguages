@@ -25,7 +25,7 @@ defined('XOOPS_ROOT_PATH') or die('Restricted access');
 // _LANGCODE: pl
 // _CHARSET : UTF-8
 // Translator: tstempko
-define('_XO_ER_FILENOTFOUND', 'Plik: <b>%s</b> nie został znaleziony ');
-define('_XO_ER_CLASSNOTFOUND', 'Klasa %s nie została znaleziona');
+define('_XO_ER_FILENOTFOUND','Plik: <b>%s</b> nie zostaÃ…â€š znaleziony ');
+define('_XO_ER_CLASSNOTFOUND','Klasa %s nie zostaÃ…â€ša znaleziona');
 
 ?>

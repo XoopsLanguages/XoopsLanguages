@@ -37,8 +37,8 @@ define("_PM_DATE","Date");
 define("_PM_NOTREAD","Not Read");
 define("_PM_SEND","Send");
 define("_PM_DELETE","Delete");
-define("_PM_REPLY", "Reply");
+define("_PM_REPLY","Reply");
 define("_PM_PLZREG","Please register first to send private messages!");
 
-define("_PM_ONLINE", "Online");
+define("_PM_ONLINE","Online");
 ?>

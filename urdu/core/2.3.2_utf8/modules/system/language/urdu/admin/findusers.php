@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 // $Id: findusers.php 839 2007-06-28 20:05:30Z malanciault $
 //%%%%%%	File Name findusers.php 	%%%%%
 
@@ -13,8 +13,8 @@ define("_AM_PREVIOUS","پچھلا");
 define("_AM_NEXT","اگلا");
 define("_AM_USERSFOUND","%s رکن(s) ملا");
 
-define("_AM_ACTUS", "فعال ارکان: %s");
-define("_AM_INACTUS", "غیر فعال ارکان: %s");
+define("_AM_ACTUS","فعال ارکان: %s");
+define("_AM_INACTUS","غیر فعال ارکان: %s");
 define("_AM_NOFOUND","کوئ رکن نہين ملا");
 define("_AM_UNAME","رکن کا نام");
 define("_AM_ICQ","ICQ نمبر");
@@ -38,16 +38,16 @@ define("_AM_POSTS","مراسلوں کی تعداد");
 define("_AM_ASC","اوپر کی جانب ترتیب");
 define("_AM_DESC","نیچھے کی جانب ترتیب");
 define("_AM_LIMIT","ارکان کی تعداد ہر صفحے پر");
-define("_AM_RESULTS", "تلاش کے نتائج");
-define("_AM_SHOWMAILOK", "ارکان کی قسم دکھانے کیلۓ");
+define("_AM_RESULTS","تلاش کے نتائج");
+define("_AM_SHOWMAILOK","ارکان کی قسم دکھانے کیلۓ");
 define("_AM_MAILOK","صرف وہ ارکان جو خط قبول کر رہے ہئں");
 define("_AM_MAILNG","صرف وہ ارکان جو خط قبول نہیں کر رہے");
-define("_AM_SHOWTYPE", "Type of users to show");
+define("_AM_SHOWTYPE","Type of users to show");
 define("_AM_ACTIVE","صرف فعال ارکان");
 define("_AM_INACTIVE","صرف غیر فعال ارکان");
-define("_AM_BOTH", "تمام ارکان");
-define("_AM_SENDMAIL", "خط بھیجیں");
-define("_AM_ADD2GROUP", "میں شامل کریں %s ارکان کو گروپ");
+define("_AM_BOTH","تمام ارکان");
+define("_AM_SENDMAIL","خط بھیجیں");
+define("_AM_ADD2GROUP","میں شامل کریں %s ارکان کو گروپ");
 
-define("_AM_GROUPS", "گروپس");
+define("_AM_GROUPS","گروپس");
 ?>

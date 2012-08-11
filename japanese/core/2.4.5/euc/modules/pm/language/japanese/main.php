@@ -5,28 +5,28 @@
 // Translator: XOOPS Translation Team
 
 //%%%%%%	File Name readpmsg.php 	%%%%%
-define("_PM_DELETED","¥á¥Ã¥»¡¼¥¸¤òºï½ü¤·¤Þ¤·¤¿");
-define("_PM_PRIVATEMESSAGE","¥á¥Ã¥»¡¼¥¸");
-define("_PM_INBOX","¼õ¿®È¢");
-define("_PM_FROM","Á÷¿®¼Ô");
-define("_PM_YOUDONTHAVE","¼õ¿®¥á¥Ã¥»¡¼¥¸¤Ï¤¢¤ê¤Þ¤»¤ó");
-define("_PM_FROMC","Á÷¿®¼Ô: ");
-define("_PM_SENTC","Á÷¿®Æü: "); // The date of message sent
-define("_PM_PROFILE","¥×¥í¥Õ¥£¡¼¥ë");
+define("_PM_DELETED","ï¿½ï¿½Ã¥ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Þ¤ï¿½ï¿½ï¿½");
+define("_PM_PRIVATEMESSAGE","ï¿½ï¿½Ã¥ï¿½ï¿½ï¿½ï¿½ï¿½");
+define("_PM_INBOX","ï¿½ï¿½ï¿½ï¿½È¢");
+define("_PM_FROM","ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
+define("_PM_YOUDONTHAVE","ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ã¥ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï¤ï¿½ï¿½ï¿½Þ¤ï¿½ï¿½ï¿½");
+define("_PM_FROMC","ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: ");
+define("_PM_SENTC","ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: "); // The date of message sent
+define("_PM_PROFILE","ï¿½×¥ï¿½Õ¥ï¿½ï¿½ï¿½ï¿½ï¿½");
 
 // %s is a username
-define("_PM_PREVIOUS","Á°¤Î¥á¥Ã¥»¡¼¥¸");
-define("_PM_NEXT","¼¡¤Î¥á¥Ã¥»¡¼¥¸");
+define("_PM_PREVIOUS","ï¿½ï¿½ï¿½Î¥ï¿½Ã¥ï¿½ï¿½ï¿½ï¿½ï¿½");
+define("_PM_NEXT","ï¿½ï¿½ï¿½Î¥ï¿½Ã¥ï¿½ï¿½ï¿½ï¿½ï¿½");
 
 //%%%%%%	File Name pmlite.php 	%%%%%
-define("_PM_SORRY","¤³¤á¤ó¤Ê¤µ¤¤¡ª ¤¢¤Ê¤¿¤ÏÅÐÏ¿¥æ¡¼¥¶¡¼¤Ë¤Ê¤Ã¤Æ¤¤¤Þ¤»¤ó");
-define("_PM_REGISTERNOW","º£¤¹¤°ÅÐÏ¿¡ª");
-define("_PM_GOBACK","Ìá¤ë");
-define("_PM_USERNOEXIST","ÁªÂò¤·¤¿¥æ¡¼¥¶¡¼¤ÏÂ¸ºß¤·¤Þ¤»¤ó");
-define("_PM_PLZTRYAGAIN","Ì¾Á°¤ò³ÎÇ§¤·¤Æ¤¯¤À¤µ¤¤");
-define("_PM_MESSAGEPOSTED","¤¢¤Ê¤¿¤Î¥á¥Ã¥»¡¼¥¸¤òÁ÷¿®¤·¤Þ¤·¤¿");
-define("_PM_CLICKHERE","¥×¥é¥¤¥Ù¡¼¥È¥á¥Ã¥»¡¼¥¸¤Ï¤³¤³¤ò¥¯¥ê¥Ã¥¯");
-define("_PM_ORCLOSEWINDOW","¥¦¥¤¥ó¥É¥¦¤òÊÄ¤¸¤ë");
+define("_PM_SORRY","ï¿½ï¿½ï¿½ï¿½ï¿½Ê¤ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ê¤ï¿½ï¿½ï¿½ï¿½ï¿½Ï¿ï¿½æ¡¼ï¿½ï¿½ï¿½ï¿½ï¿½Ë¤Ê¤Ã¤Æ¤ï¿½ï¿½Þ¤ï¿½ï¿½ï¿½");
+define("_PM_REGISTERNOW","ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï¿ï¿½ï¿½");
+define("_PM_GOBACK","ï¿½ï¿½ï¿½");
+define("_PM_USERNOEXIST","ï¿½ï¿½ï¿½ò¤·¤ï¿½ï¿½æ¡¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â¸ï¿½ß¤ï¿½ï¿½Þ¤ï¿½ï¿½ï¿½");
+define("_PM_PLZTRYAGAIN","Ì¾ï¿½ï¿½ï¿½ï¿½ï¿½Ç§ï¿½ï¿½ï¿½Æ¤ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
+define("_PM_MESSAGEPOSTED","ï¿½ï¿½ï¿½Ê¤ï¿½ï¿½Î¥ï¿½Ã¥ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Þ¤ï¿½ï¿½ï¿½");
+define("_PM_CLICKHERE","ï¿½×¥é¥¤ï¿½Ù¡ï¿½ï¿½È¥ï¿½Ã¥ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï¤ï¿½ï¿½ï¿½ï¿½ò¥¯¥ï¿½Ã¥ï¿½");
+define("_PM_ORCLOSEWINDOW","ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É¥ï¿½ï¿½ï¿½ï¿½Ä¤ï¿½ï¿½ï¿½");
 define("_PM_USERWROTE","%s wrote:");
 define("_PM_TO","To: ");
 define("_PM_SUBJECTC","Subject: ");
@@ -34,7 +34,7 @@ define("_PM_MESSAGEC","Message: ");
 define("_PM_CLEAR","Clear");
 define("_PM_CANCELSEND","Cancel Send");
 define("_PM_SUBMIT","Submit");
-define("_PM_SAVEINOUTBOX", "Á÷¿®È¢¤Ë¥«¡¼¥Ü¥ó¥³¥Ô¡¼¤òÃÖ¤¯");
+define("_PM_SAVEINOUTBOX","ï¿½ï¿½ï¿½ï¿½È¢ï¿½Ë¥ï¿½ï¿½ï¿½ï¿½Ü¥ó¥³¥Ô¡ï¿½ï¿½ï¿½ï¿½Ö¤ï¿½");
 
 //%%%%%%	File Name viewpmsg.php 	%%%%%
 define("_PM_SUBJECT","Subject");
@@ -46,52 +46,52 @@ define("_PM_TOSAVE","Move to Savebox");
 define("_PM_UNSAVE","Move out of Savebox");
 define("_PM_EMPTY","Empty");
 define("_PM_REPLY","Reply");
-define("_PM_PLZREG","¥á¥Ã¥»¡¼¥¸µ¡Ç½¤ò»È¤¿¤á¤Ë¤Ï¥æ¡¼¥¶¡¼ÅÐÏ¿¤¬É¬Í×¤Ç¤¹¡ª");
-define("_PM_SAVED_PART","ÊÝÂ¸¥Õ¥©¥ë¥À¤Ë¤¤¤ì¤é¤ì¤ë¤Î¤ÏºÇÂç %d ÄÌ¡¢¸½ºß %d ÄÌ¤Ç¤¹");
-define("_PM_SAVED_ALL","ÊÝÂ¸¥Õ¥©¥ë¥À¤Ë°ÜÆ°¤·¤Þ¤·¤¿");
-define("_PM_UNSAVED","ÊÝÂ¸¥Õ¥©¥ë¥À¤«¤é°ÜÆ°¤·¤Þ¤·¤¿");
-define("_PM_EMPTIED","¶õ¤Ë¤¹¤ë");
-define("_PM_RUSUREEMPTY","ËÜÅö¤Ë¶õ¤Ë¤·¤Æ¤è¤í¤·¤¤¤Ç¤¹¤«¡©");
-define("_PM_RUSUREDELETE","ËÜÅö¤Ëºï½ü¤·¤Æ¤è¤í¤·¤¤¤Ç¤¹¤«¡©");
+define("_PM_PLZREG","ï¿½ï¿½Ã¥ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç½ï¿½ï¿½È¤ï¿½ï¿½ï¿½Ë¤Ï¥æ¡¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï¿ï¿½ï¿½É¬ï¿½×¤Ç¤ï¿½ï¿½ï¿½");
+define("_PM_SAVED_PART","ï¿½ï¿½Â¸ï¿½Õ¥ï¿½ï¿½ï¿½ï¿½ï¿½Ë¤ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î¤Ïºï¿½ï¿½ï¿½ %d ï¿½Ì¡ï¿½ï¿½ï¿½ï¿½ï¿½ %d ï¿½Ì¤Ç¤ï¿½");
+define("_PM_SAVED_ALL","ï¿½ï¿½Â¸ï¿½Õ¥ï¿½ï¿½ï¿½ï¿½ï¿½Ë°ï¿½Æ°ï¿½ï¿½ï¿½Þ¤ï¿½ï¿½ï¿½");
+define("_PM_UNSAVED","ï¿½ï¿½Â¸ï¿½Õ¥ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ°ï¿½ï¿½ï¿½Þ¤ï¿½ï¿½ï¿½");
+define("_PM_EMPTIED","ï¿½ï¿½ï¿½Ë¤ï¿½ï¿½ï¿½");
+define("_PM_RUSUREEMPTY","ï¿½ï¿½ï¿½ï¿½ï¿½Ë¶ï¿½ï¿½Ë¤ï¿½ï¿½Æ¤ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç¤ï¿½ï¿½ï¿½ï¿½ï¿½");
+define("_PM_RUSUREDELETE","ï¿½ï¿½ï¿½ï¿½ï¿½Ëºï¿½ï¿½ï¿½ï¿½ï¿½Æ¤ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç¤ï¿½ï¿½ï¿½ï¿½ï¿½");
 
-define("_PM_ONLINE", "¥ª¥ó¥é¥¤¥ó");
+define("_PM_ONLINE","ï¿½ï¿½ï¿½ï¿½é¥¤ï¿½ï¿½");
 
-define("_PM_RECEIVE","¼õ¿®");
-define("_PM_POST","Á÷¿®");
-define("_PM_READBOX","´ûÆÉ¥Õ¥©¥ë¥À");
-define("_PM_RSAVEBOX","ÊÝÂ¸¥Õ¥©¥ë¥À¤Ø¼õ¿®");
-define("_PM_OUTBOX","Á÷¿®È¢");
-define("_PM_SAVEBOX","ÊÝÂ¸¥Õ¥©¥ë¥À");
-define("_PM_SENTBOX","Á÷¿®ºÑ¥Õ¥©¥ë¥À");
-define("_PM_PSAVEBOX","ÊÝÂ¸¥Õ¥©¥ë¥À¤ØÁ÷¿®");
-define("_PM_SAVE","ÊÝÂ¸");
-define("_PM_SAVED","ÊÝÂ¸¤µ¤ì¤Þ¤·¤¿");
-define("_PM_TOC","Á÷¿®¼Ô: ");
+define("_PM_RECEIVE","ï¿½ï¿½ï¿½ï¿½");
+define("_PM_POST","ï¿½ï¿½ï¿½ï¿½");
+define("_PM_READBOX","ï¿½ï¿½ï¿½É¥Õ¥ï¿½ï¿½ï¿½ï¿½");
+define("_PM_RSAVEBOX","ï¿½ï¿½Â¸ï¿½Õ¥ï¿½ï¿½ï¿½ï¿½ï¿½Ø¼ï¿½ï¿½ï¿½");
+define("_PM_OUTBOX","ï¿½ï¿½ï¿½ï¿½È¢");
+define("_PM_SAVEBOX","ï¿½ï¿½Â¸ï¿½Õ¥ï¿½ï¿½ï¿½ï¿½");
+define("_PM_SENTBOX","ï¿½ï¿½ï¿½ï¿½ï¿½Ñ¥Õ¥ï¿½ï¿½ï¿½ï¿½");
+define("_PM_PSAVEBOX","ï¿½ï¿½Â¸ï¿½Õ¥ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
+define("_PM_SAVE","ï¿½ï¿½Â¸");
+define("_PM_SAVED","ï¿½ï¿½Â¸ï¿½ï¿½ï¿½ï¿½Þ¤ï¿½ï¿½ï¿½");
+define("_PM_TOC","ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: ");
 
 //WANISYS.NET PM HACK1.5
-define("_PM_SORT","ÊÂ¤ÓÂØ¤¨¤ë");
-define("_PM_ORDER","ÊÂ¤Ó½ç");
-define("_PM_UID","¥æ¡¼¥¶¡¼ ID");
-define("_PM_TIME","Á÷¿®Æü");
-define("_PM_ASC","¾º½ç");
-define("_PM_DESC","¹ß½ç");
-define("_PM_LIMIT","£±¥Ú¡¼¥¸¤¢¤¿¤ê¤ÎÉ½¼¨¿ô");
-define("_PM_BACKTOBOX","Á÷¿®È¢¤ËÌá¤ë");
-define("_PM_SORTSUBMIT","Á÷¿®");
-define("_PM_PREVIOUSP","Á°");
-define("_PM_NEXTP","¼¡");
+define("_PM_SORT","ï¿½Â¤ï¿½ï¿½Ø¤ï¿½ï¿½ï¿½");
+define("_PM_ORDER","ï¿½Â¤Ó½ï¿½");
+define("_PM_UID","ï¿½æ¡¼ï¿½ï¿½ï¿½ï¿½ ID");
+define("_PM_TIME","ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
+define("_PM_ASC","ï¿½ï¿½ï¿½ï¿½");
+define("_PM_DESC","ï¿½ß½ï¿½");
+define("_PM_LIMIT","ï¿½ï¿½ï¿½Ú¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É½ï¿½ï¿½ï¿½ï¿½");
+define("_PM_BACKTOBOX","ï¿½ï¿½ï¿½ï¿½È¢ï¿½ï¿½ï¿½ï¿½ï¿½");
+define("_PM_SORTSUBMIT","ï¿½ï¿½ï¿½ï¿½");
+define("_PM_PREVIOUSP","ï¿½ï¿½");
+define("_PM_NEXTP","ï¿½ï¿½");
 
-define("_PM_MAILNOTIFY","%s ¤µ¤ó¤Ø %s ¤µ¤ó¤«¤é¿·¤·¤¤¥á¥Ã¥»¡¼¥¸¤¬ÆÏ¤¤¤Æ¤¤¤Þ¤¹");
-define("_PM_MAILMESSAGE","%s ¤µ¤ó¤è¤ê¿·¤·¤¤¥á¥Ã¥»¡¼¥¸¤¬ÆÏ¤¤¤Æ¤¤¤Þ¤¹");	//¾åµ­¤ò´ÊÎ¬²½
+define("_PM_MAILNOTIFY","%s ï¿½ï¿½ï¿½ï¿½ï¿½ %s ï¿½ï¿½ï¿½ó¤«¤é¿·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ã¥ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï¤ï¿½ï¿½Æ¤ï¿½ï¿½Þ¤ï¿½");
+define("_PM_MAILMESSAGE","%s ï¿½ï¿½ï¿½ï¿½ï¿½ê¿·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ã¥ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï¤ï¿½ï¿½Æ¤ï¿½ï¿½Þ¤ï¿½");	//ï¿½åµ­ï¿½ï¿½ï¿½Î¬ï¿½ï¿½
 
-define("_PM_EMAIL", "E-mail");
-define("_PM_EMAIL_DESC", "%s ¤µ¤ó¤Ø¡¢¤³¤ì¤Ï¤¢¤Ê¤¿¤Î¥¢¥«¥¦¥ó¥È¤«¤éÁ÷¿®¤µ¤ì¤¿¥á¥Ã¥»¡¼¥¸¤Ç¤¹¡£".$xoopsConfig['sitename']);
-define("_PM_EMAIL_FROM", "%s ¤«¤é");
-define("_PM_EMAIL_TO", "%s ¤Ø");
-define("_PM_EMAIL_SUBJECT", "[message]%s");
-define("_PM_EMAIL_MESSAGE", "ËÜÊ¸");
+define("_PM_EMAIL","E-mail");
+define("_PM_EMAIL_DESC","%s ï¿½ï¿½ï¿½ï¿½Ø¡ï¿½ï¿½ï¿½ï¿½ï¿½Ï¤ï¿½ï¿½Ê¤ï¿½ï¿½Î¥ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È¤ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ì¤¿ï¿½ï¿½Ã¥ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç¤ï¿½ï¿½ï¿½".$xoopsConfig['sitename']);
+define("_PM_EMAIL_FROM","%s ï¿½ï¿½ï¿½ï¿½");
+define("_PM_EMAIL_TO","%s ï¿½ï¿½");
+define("_PM_EMAIL_SUBJECT","[message]%s");
+define("_PM_EMAIL_MESSAGE","ï¿½ï¿½Ê¸");
 
-define("_PM_ACTION_DONE", "À®¸ù¤·¤Þ¤·¤¿");
-define("_PM_ACTION_ERROR", "¼ºÇÔ¤·¤Þ¤·¤¿");
+define("_PM_ACTION_DONE","ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Þ¤ï¿½ï¿½ï¿½");
+define("_PM_ACTION_ERROR","ï¿½ï¿½ï¿½Ô¤ï¿½ï¿½Þ¤ï¿½ï¿½ï¿½");
 
 ?>

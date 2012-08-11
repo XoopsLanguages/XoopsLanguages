@@ -26,7 +26,7 @@ function kubrick_head() {
 		echo $head . $output . $foot;
 }
 
-add_action('wp_head', 'kubrick_head');
+add_action('wp_head','kubrick_head');
 
 function kubrick_header_image() {
 	return apply_filters('kubrick_header_image', get_option('kubrick_header_image'));
@@ -78,7 +78,7 @@ function kubrick_header_display_string() {
 	return $display ? $display : 'inline';
 }
 
-add_action('admin_menu', 'kubrick_add_theme_page');
+add_action('admin_menu','kubrick_add_theme_page');
 
 function kubrick_add_theme_page() {
 	if ( $_GET['page'] == basename(__FILE__) ) {
@@ -93,7 +93,7 @@ function kubrick_add_theme_page() {
 					if ( '' == $_REQUEST['njfontcolor'] )
 						delete_option('kubrick_header_color');
 					else {
-						$fontcolor = preg_replace('/^.*(#[0-9a-fA-F]{6})?.*$/', '$1', $_REQUEST['njfontcolor']);
+						$fontcolor = preg_replace('/^.*(#[0-9a-fA-F]{6})?.*$/','$1', $_REQUEST['njfontcolor']);
 						update_option('kubrick_header_color', $fontcolor);
 					}
 					if ( preg_match('/[0-9A-F]{6}|[0-9A-F]{3}/i', $_REQUEST['njuppercolor'], $uc) && preg_match('/[0-9A-F]{6}|[0-9A-F]{3}/i', $_REQUEST['njlowercolor'], $lc) ) {
@@ -104,7 +104,7 @@ function kubrick_add_theme_page() {
 
 					if ( isset($_REQUEST['toggledisplay']) ) {
 						if ( false === get_option('kubrick_header_display') )
-							update_option('kubrick_header_display', 'none');
+							update_option('kubrick_header_display','none');
 						else
 							delete_option('kubrick_header_display');
 					}
@@ -116,7 +116,7 @@ function kubrick_add_theme_page() {
 					if ( '' == $_REQUEST['headerimage'] )
 						delete_option('kubrick_header_image');
 					else {
-						$headerimage = preg_replace('/^.*?(header-img.php\?upper=[0-9a-fA-F]{6}&lower=[0-9a-fA-F]{6})?.*$/', '$1', $_REQUEST['headerimage']);
+						$headerimage = preg_replace('/^.*?(header-img.php\?upper=[0-9a-fA-F]{6}&lower=[0-9a-fA-F]{6})?.*$/','$1', $_REQUEST['headerimage']);
 						update_option('kubrick_header_image', $headerimage);
 					}
 				}
@@ -126,7 +126,7 @@ function kubrick_add_theme_page() {
 					if ( '' == $_REQUEST['fontcolor'] )
 						delete_option('kubrick_header_color');
 					else {
-						$fontcolor = preg_replace('/^.*?(#[0-9a-fA-F]{6})?.*$/', '$1', $_REQUEST['fontcolor']);
+						$fontcolor = preg_replace('/^.*?(#[0-9a-fA-F]{6})?.*$/','$1', $_REQUEST['fontcolor']);
 						update_option('kubrick_header_color', $fontcolor);
 					}
 				}
@@ -136,14 +136,14 @@ function kubrick_add_theme_page() {
 					if ( '' == $_REQUEST['fontdisplay'] || 'inline' == $_REQUEST['fontdisplay'] )
 						delete_option('kubrick_header_display');
 					else
-						update_option('kubrick_header_display', 'none');
+						update_option('kubrick_header_display','none');
 				}
 			}
 			//print_r($_REQUEST);
 			wp_redirect("themes.php?page=functions.php&saved=true");
 			die;
 		}
-		add_action('admin_head', 'kubrick_theme_page_head');
+		add_action('admin_head','kubrick_theme_page_head');
 	}
 	add_theme_page(__('Customize Header','kubrick'), __('Header Image and Color','kubrick'), 'edit_themes', basename(__FILE__), 'kubrick_theme_page');
 }
@@ -204,8 +204,8 @@ function kubrick_theme_page_head() {
 	}
 	function kUpdate(oid) {
 		if ( 'uppercolor' == oid || 'lowercolor' == oid ) {
-			uc = document.getElementById('uppercolor').value.replace('#', '');
-			lc = document.getElementById('lowercolor').value.replace('#', '');
+			uc = document.getElementById('uppercolor').value.replace('#','');
+			lc = document.getElementById('lowercolor').value.replace('#','');
 			hi = document.getElementById('headerimage');
 			hi.value = 'header-img.php?upper='+uc+'&lower='+lc;
 			document.getElementById('header').style.background = 'url("<?php echo get_template_directory_uri(); ?>/images/'+hi.value+'") center no-repeat';
@@ -275,7 +275,7 @@ function kubrick_theme_page_head() {
 		display: none;
 	}
 	#kubrick-header #header h1 {
-		font-family: 'Trebuchet MS', 'Lucida Grande', Verdana, Arial, Sans-Serif;
+		font-family: 'Trebuchet MS','Lucida Grande', Verdana, Arial, Sans-Serif;
 		font-weight: bold;
 		font-size: 4em;
 		text-align: center;
@@ -373,9 +373,9 @@ function kubrick_theme_page() {
 			<form method="post" action="">
 				<?php wp_nonce_field('kubrick-header'); ?>
 				<div class="zerosize"><input type="submit" name="defaultsubmit" value="<?php echo attribute_escape(__('Save','kubrick')); ?>" /></div>
-					<label for="njfontcolor"><?php _e('Font Color:'); ?></label><input type="text" name="njfontcolor" id="njfontcolor" value="<?php echo attribute_escape(kubrick_header_color()); ?>" /> <?php printf(__('Any CSS color (%s or %s or %s)','kubrick'), '<code>red</code>', '<code>#FF0000</code>', '<code>rgb(255, 0, 0)</code>'); ?><br />
-					<label for="njuppercolor"><?php _e('Upper Color:'); ?></label><input type="text" name="njuppercolor" id="njuppercolor" value="#<?php echo attribute_escape(kubrick_upper_color()); ?>" /> <?php printf(__('HEX only (%s or %s)','kubrick'), '<code>#FF0000</code>', '<code>#F00</code>'); ?><br />
-				<label for="njlowercolor"><?php _e('Lower Color:'); ?></label><input type="text" name="njlowercolor" id="njlowercolor" value="#<?php echo attribute_escape(kubrick_lower_color()); ?>" /> <?php printf(__('HEX only (%s or %s)','kubrick'), '<code>#FF0000</code>', '<code>#F00</code>'); ?><br />
+					<label for="njfontcolor"><?php _e('Font Color:'); ?></label><input type="text" name="njfontcolor" id="njfontcolor" value="<?php echo attribute_escape(kubrick_header_color()); ?>" /> <?php printf(__('Any CSS color (%s or %s or %s)','kubrick'), '<code>red</code>','<code>#FF0000</code>','<code>rgb(255, 0, 0)</code>'); ?><br />
+					<label for="njuppercolor"><?php _e('Upper Color:'); ?></label><input type="text" name="njuppercolor" id="njuppercolor" value="#<?php echo attribute_escape(kubrick_upper_color()); ?>" /> <?php printf(__('HEX only (%s or %s)','kubrick'), '<code>#FF0000</code>','<code>#F00</code>'); ?><br />
+				<label for="njlowercolor"><?php _e('Lower Color:'); ?></label><input type="text" name="njlowercolor" id="njlowercolor" value="#<?php echo attribute_escape(kubrick_lower_color()); ?>" /> <?php printf(__('HEX only (%s or %s)','kubrick'), '<code>#FF0000</code>','<code>#F00</code>'); ?><br />
 				<input type="hidden" name="hi" id="hi" value="<?php echo attribute_escape(kubrick_header_image()); ?>" />
 				<input type="submit" name="toggledisplay" id="toggledisplay" value="<?php echo attribute_escape(__('Toggle Text','kubrick')); ?>" />
 				<input type="submit" name="defaults" value="<?php echo attribute_escape(__('Use Defaults','kubrick')); ?>" />

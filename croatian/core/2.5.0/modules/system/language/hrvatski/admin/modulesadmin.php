@@ -9,9 +9,9 @@
  */
 
 // Navigation
-define("_AM_SYSTEM_MODULES_ADMIN", "Administracija modula");
-define("_AM_SYSTEM_MODULES_LIST", "Popis modula");
-define("_AM_SYSTEM_MODULES_TOINSTALL", "Instalacija modula");
+define("_AM_SYSTEM_MODULES_ADMIN","Administracija modula");
+define("_AM_SYSTEM_MODULES_LIST","Popis modula");
+define("_AM_SYSTEM_MODULES_TOINSTALL","Instalacija modula");
 define("_AM_SYSTEM_MODULES_VALIDATE","Ovjeravanje promjena");
 define("_AM_SYSTEM_MODULES_SUBMITRES","Potvrdi promjene");
 
@@ -167,7 +167,7 @@ define("_AM_SYSTEM_MODULES_NOTIFICATIONS_DELETE_ERROR","GREŠKA: Ne mogu obrisat
 define("_AM_SYSTEM_MODULES_NOTIFICATIONS_DELETED","Obavijesti su obrisane");
 define("_AM_SYSTEM_MODULES_TABLE_DROPPED","Tablica %s je izbačena!");
 define("_AM_SYSTEM_MODULES_TABLE_DROPPED_ERROR","GREŠKA: Ne mogu izbaciti tablicu %s");
-define("_AM_SYSTEM_MODULES_TABLE_DROPPED_FAILDED", "GREŠKA: Nemate prava za izbacivanje tablice %s !");
+define("_AM_SYSTEM_MODULES_TABLE_DROPPED_FAILDED","GREŠKA: Nemate prava za izbacivanje tablice %s !");
 
 // Tips
 define("_AM_SYSTEM_MODULES_TIPS", 

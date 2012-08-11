@@ -62,7 +62,7 @@ define("_AM_CNGTST","FOUT: Kan het totaal aantal verhalen niet lezen.");
 define("_AM_CNUUSER","FOUT: Kan de geruiker niet updaten.");
 define("_AM_CNGUSERID","Kan de gebruiker(s) ID('s) niet lezen.");
 define("_AM_LIST","Lijst");
-define("_AM_NOUSERS", "Geen gebruikers geselecteerd");
+define("_AM_NOUSERS","Geen gebruikers geselecteerd");
 
 define("_AM_CNRNU2","De nieuwe gebruiker kan niet toegevoegd worden aan de groep(en): %s.");
 ?>

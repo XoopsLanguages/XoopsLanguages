@@ -54,6 +54,6 @@ define('_AM_CNGTST','Konnte nicht die Gesamtzahl der Artikel ermitteln');
 define('_AM_CNUUSER','Mitglied kann nicht aktualisiert werden');
 define('_AM_CNGUSERID','Konnte Mitglieds-ID nicht finden');
 define('_AM_LIST','Auflisten');
-define('_AM_NOUSERS', 'Kein Mitglied ausgewählt');
-define("_AM_CNRNU2","Der User kann nicht zur Gruppe %s hinzugef�gt werden.");
+define('_AM_NOUSERS','Kein Mitglied ausgewählt');
+define("_AM_CNRNU2","Der User kann nicht zur Gruppe %s hinzugef�gt werden.");
 ?>

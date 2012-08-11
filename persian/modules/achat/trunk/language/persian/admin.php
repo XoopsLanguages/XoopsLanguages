@@ -37,41 +37,41 @@
 //
 
 // Menu
-define("_AM_ACHAT_MODULEADMIN", "مديريت ماژول:");
+define("_AM_ACHAT_MODULEADMIN","مديريت ماژول:");
 
-define("_AM_ACHAT_CREDIT", " ماژول فارسي به وسيله ي سايت فارسي زوپس آماده شده است<br />(c) پاييز 1385 ");
+define("_AM_ACHAT_CREDIT"," ماژول فارسي به وسيله ي سايت فارسي زوپس آماده شده است<br />(c) پاييز 1385 ");
 
 // Home
-define("_AM_ACHAT_WELCOME", "به مديريت ماژول چت خوش آمديد.");
-define("_AM_ACHAT_NBRE_MSG", "تعداد  پيام هاي داخل پايگاه داده ها");
-define("_AM_ACHAT_MESSAGES", "پيام ها");
-define("_AM_ACHAT_EMPTY_FIELD", "لطفا اين فيلد را پر کن.");
+define("_AM_ACHAT_WELCOME","به مديريت ماژول چت خوش آمديد.");
+define("_AM_ACHAT_NBRE_MSG","تعداد  پيام هاي داخل پايگاه داده ها");
+define("_AM_ACHAT_MESSAGES","پيام ها");
+define("_AM_ACHAT_EMPTY_FIELD","لطفا اين فيلد را پر کن.");
 
 // Permissions
-define("_AM_ACHAT_PERM_CANPOST", "ميتوانند پيام بفرستند");
+define("_AM_ACHAT_PERM_CANPOST","ميتوانند پيام بفرستند");
 
 // Purge
-define("_AM_ACHAT_PURGEPERNBRE", "پاکسازي با تعداد مشخص پيام");
-define("_AM_ACHAT_PURGE_HOWMANY", "چه تعداد پيام پاک شد؟");
-define("_AM_ACHAT_PURGE_CREATELOG", "ساخت فايل گزارش از پيام هاي پاک شده؟");
-define("_AM_ACHAT_PURGE_VALIDATE", "Are you sure to want to purge&nbsp;");
-define("_AM_ACHAT_PURGE_SUPPR_NOLOG", "خارج از فايل گزارش");
-define("_AM_ACHAT_PURGE_ERROR_WRITEFILE", "An error appeared during the creation of the logfile. Please verify that the folder on the module parameters is correct and that there are the good rights on it.");
-define("_AM_ACHAT_PURGE_LOG_WRITTEN", "ساخت فايل گزارش.");
-define("_AM_ACHAT_PURGE_CANCELED", "پاکسازي رو لغو کن.");
-define("_AM_ACHAT_PURGE_OK", "پاکسازي کامل شد.");
-define("_AM_ACHAT_PURGE_NBREMSGDEL", "تعداد پيام هاي پاک شده: ");
-define("_AM_ACHAT_PURGE_ERROR", "An error appeared during the purge.");
-define("_AM_ACHAT_PURGEPERDATE", "پاکسازي به وصيله ي زمان");
-define("_AM_ACHAT_PURGE_KEEP_HMDAYS", " نگه داشتن اخرين پيام ها بعد از چند روز ( تعداد روز را انتخاب کنيد) ");
-define("_AM_ACHAT_PURGE_VALIDATE_PERDAY", "پيام هاي فرستاده شده قبل از");
-define("_AM_ACHAT_PURGE_VALIDATE_PERDAY2", " روز هاي گذشته");
-define("_AM_ACHAT_PURGE_NOMSG", "هيچ پيامي پاک نشده.");
+define("_AM_ACHAT_PURGEPERNBRE","پاکسازي با تعداد مشخص پيام");
+define("_AM_ACHAT_PURGE_HOWMANY","چه تعداد پيام پاک شد؟");
+define("_AM_ACHAT_PURGE_CREATELOG","ساخت فايل گزارش از پيام هاي پاک شده؟");
+define("_AM_ACHAT_PURGE_VALIDATE","Are you sure to want to purge&nbsp;");
+define("_AM_ACHAT_PURGE_SUPPR_NOLOG","خارج از فايل گزارش");
+define("_AM_ACHAT_PURGE_ERROR_WRITEFILE","An error appeared during the creation of the logfile. Please verify that the folder on the module parameters is correct and that there are the good rights on it.");
+define("_AM_ACHAT_PURGE_LOG_WRITTEN","ساخت فايل گزارش.");
+define("_AM_ACHAT_PURGE_CANCELED","پاکسازي رو لغو کن.");
+define("_AM_ACHAT_PURGE_OK","پاکسازي کامل شد.");
+define("_AM_ACHAT_PURGE_NBREMSGDEL","تعداد پيام هاي پاک شده: ");
+define("_AM_ACHAT_PURGE_ERROR","An error appeared during the purge.");
+define("_AM_ACHAT_PURGEPERDATE","پاکسازي به وصيله ي زمان");
+define("_AM_ACHAT_PURGE_KEEP_HMDAYS"," نگه داشتن اخرين پيام ها بعد از چند روز ( تعداد روز را انتخاب کنيد) ");
+define("_AM_ACHAT_PURGE_VALIDATE_PERDAY","پيام هاي فرستاده شده قبل از");
+define("_AM_ACHAT_PURGE_VALIDATE_PERDAY2"," روز هاي گذشته");
+define("_AM_ACHAT_PURGE_NOMSG","هيچ پيامي پاک نشده.");
 
 // Utilities ( Clone ) ( from myHome module )
-define("_AM_ACHAT_CLONE", "توليد کننده ي ماژول");
+define("_AM_ACHAT_CLONE","توليد کننده ي ماژول");
 
-define("_AM_ACHAT_CLONENAME", "نام توليد کننده<br /><i>
+define("_AM_ACHAT_CLONENAME","نام توليد کننده<br /><i>
                                          <ul>
                                              <li>بيشتر از 16 کارکتر نباشد</li>
                                              <li>از کارکتر هاي خاص استفاده نکنيد</li>
@@ -85,10 +85,10 @@ define("_AM_ACHAT_SUBMIT",	"توليد کردن!");
 define("_AM_ACHAT_CLEAR",	"پاک کردن");
 define("_AM_ACHAT_CANCEL",	"لغو کردن");
 
-define("_AM_ACHAT_CLONED", "ماژول با موفقيت توليد کرد");
-define("_AM_ACHAT_MODULEXISTS", "ماژول قبلا وجود داشته");
-define("_AM_ACHAT_NOTCLONED", "تنظيمات توليد نادرست است");
-define("_AM_ACHAT_CLONE_TROUBLE", "Settings of your web host do not allow the cloning operation.
+define("_AM_ACHAT_CLONED","ماژول با موفقيت توليد کرد");
+define("_AM_ACHAT_MODULEXISTS","ماژول قبلا وجود داشته");
+define("_AM_ACHAT_NOTCLONED","تنظيمات توليد نادرست است");
+define("_AM_ACHAT_CLONE_TROUBLE","Settings of your web host do not allow the cloning operation.
 					 Please retry on a server which allow permissions change on the server.
                                          (For instance, on a local server)");
 ?>

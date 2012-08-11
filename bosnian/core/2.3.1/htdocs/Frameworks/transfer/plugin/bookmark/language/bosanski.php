@@ -14,8 +14,8 @@
  * @subpackage      transfer
  */
  
-define("_MD_TRANSFER_BOOKMARK", "Bookmark");
-define("_MD_TRANSFER_BOOKMARK_DESC", "Dodaj ovaj link u bookmarks");
+define("_MD_TRANSFER_BOOKMARK","Bookmark");
+define("_MD_TRANSFER_BOOKMARK_DESC","Dodaj ovaj link u bookmarks");
 
 /* English */
 define("_MD_TRANSFER_BOOKMARK_ITEMS","

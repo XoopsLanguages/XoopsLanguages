@@ -11,9 +11,9 @@ define("_WCDESC","Chat for Xoops");
 define("_WCBNAM","Block WebChat");
 
 // Names of admin menu items
-define("_WC_MENU1", "Admin");
-define("_WC_MENU2", "Configuration");
-define("_WC_MENU3", "Chat rooms");
-define("_WC_MENU4", "Smilies");
-define("_WC_MENU5", "Sounds");
+define("_WC_MENU1","Admin");
+define("_WC_MENU2","Configuration");
+define("_WC_MENU3","Chat rooms");
+define("_WC_MENU4","Smilies");
+define("_WC_MENU5","Sounds");
 ?>

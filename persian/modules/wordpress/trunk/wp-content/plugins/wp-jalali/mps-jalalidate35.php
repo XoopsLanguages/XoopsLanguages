@@ -116,7 +116,7 @@ $jday_abbrev = array("ی","د","س","چ","پ","ج","ش");
 
 /* Menu Init */
 
-define('MPS_JD_OPTIONS_NAME', "mps_jd_options"."_".MPS_JD_VER);	// Name of the Option stored in the DB
+define('MPS_JD_OPTIONS_NAME',"mps_jd_options"."_".MPS_JD_VER);	// Name of the Option stored in the DB
 
 function mps_jd_menu(){
 	/* 
@@ -549,7 +549,7 @@ function convertToFarsi($matches) {
 }
 
 function farsi_num($num,$fake = null,$fake2=null) {
-	return preg_replace_callback('/(?:&#\d{2,4};)|(\d+[\.\d]*)|<\s*[^>]+>/', 'convertToFarsi', $num);
+	return preg_replace_callback('/(?:&#\d{2,4};)|(\d+[\.\d]*)|<\s*[^>]+>/','convertToFarsi', $num);
 	
 }
 
@@ -959,7 +959,7 @@ function mps_jalali_query($where) {
 	$j_doit = false;
 
 	if ($m != '') {
-		$m = '' . preg_replace('|[^0-9]|', '', $m);
+		$m = '' . preg_replace('|[^0-9]|','', $m);
 		$j_year = substr($m,0,4);
 		if ($j_year < 1700) { // Wow ! It's a Jalali Date!
 		$j_doit = true;
@@ -1357,7 +1357,7 @@ function get_jcalendar() {
 	strstr(strtolower($_SERVER['HTTP_USER_AGENT']), 'safari')) {
 		$ak_title_separator = "\n";
 	} else {
-		$ak_title_separator = ', ';
+		$ak_title_separator = ',';
 	}
 
 	$ak_titles_for_day = array();
@@ -1382,9 +1382,9 @@ function get_jcalendar() {
 				$ak_titles_for_day['day_'.$ak_post_title->dom] = '';
 			}
 			if (empty($ak_titles_for_day["$ak_post_title->dom"])) { // first one
-			$ak_titles_for_day["$ak_post_title->dom"] = str_replace('"', '&quot;', wptexturize($ak_post_title->post_title));
+			$ak_titles_for_day["$ak_post_title->dom"] = str_replace('"','&quot;', wptexturize($ak_post_title->post_title));
 			} else {
-				$ak_titles_for_day["$ak_post_title->dom"] .= $ak_title_separator . str_replace('"', '&quot;', wptexturize($ak_post_title->post_title));
+				$ak_titles_for_day["$ak_post_title->dom"] .= $ak_title_separator . str_replace('"','&quot;', wptexturize($ak_post_title->post_title));
 			}
 		}
 	}
@@ -1435,7 +1435,7 @@ function mps_calendar() {
 	global $m,$year;
 
 	if ($m != '') {
-		$m = '' . preg_replace('|[^0-9]|', '', $m);
+		$m = '' . preg_replace('|[^0-9]|','', $m);
 		$i_year = substr($m,0,4);
 	} else if ($year != '') {
 		$i_year = $year;
@@ -1606,7 +1606,7 @@ function mps_fixtitle($title, $sep=null){
 	$m = $wp_query->query_vars['m'];
 	
 	if ($m != '') {
-		$m = '' . preg_replace('|[^0-9]|', '', $m);
+		$m = '' . preg_replace('|[^0-9]|','', $m);
 		$year = substr($m,0,4);
 	} else { 
 		$year = $wp_query->query_vars['year'];
@@ -1682,7 +1682,7 @@ function widget_mps_calendar_init() {
 	}
 	
 	register_sidebar_widget('Jalali Calendar','mps_calendar_widget');
-	register_widget_control('Jalali Calendar', 'widget_mps_calendar_control', 250, 100);
+	register_widget_control('Jalali Calendar','widget_mps_calendar_control', 250, 100);
 }
 
 function widget_jarchive_init() {
@@ -1739,7 +1739,7 @@ function widget_jarchive_init() {
 	}
 	
 	register_sidebar_widget('Jalali Archive','jarchive_widget');
-	register_widget_control('Jalali Archive', 'widget_jarchive_control', 300, 150);
+	register_widget_control('Jalali Archive','widget_jarchive_control', 300, 150);
 }
 
 function mps_farsikeyboard() {
@@ -1753,13 +1753,13 @@ function mps_farsikeyboard() {
 
 $_wp_version = get_bloginfo("version");
 
-add_action('admin_menu', 'mps_jd_menu');
+add_action('admin_menu','mps_jd_menu');
 
 if ($_wp_version < 2) {
-	add_action('init', 'mps_fixmonthnames');
-	add_action('wp_head', 'mps_fixmonthnames_restore');
+	add_action('init','mps_fixmonthnames');
+	add_action('wp_head','mps_fixmonthnames_restore');
 } else {
-	add_filter('wp_title', 'mps_fixtitle',2);
+	add_filter('wp_title','mps_fixtitle',2);
 	
 	//$richedit = ( 'true' != get_user_option('rich_editing') ) ? false : true;
 	$richedit = true;
@@ -1807,6 +1807,6 @@ if ($mps_jd_farsinum_category) add_filter("wp_list_categories","farsi_num",10,1)
 
 if ($mps_jd_jperma) add_filter("post_link","get_jpermalink",10,2);
 
-add_action('widgets_init', 'widget_jarchive_init');
-add_action('widgets_init', 'widget_mps_calendar_init');
+add_action('widgets_init','widget_jarchive_init');
+add_action('widgets_init','widget_mps_calendar_init');
 ?>

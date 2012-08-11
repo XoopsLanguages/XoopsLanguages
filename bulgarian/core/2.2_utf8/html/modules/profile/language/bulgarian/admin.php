@@ -1,66 +1,66 @@
 <?php
 // $Id: admin.php,v 1.1.2.12 2005/06/25 18:58:20 mithyt2 Exp $
-define("_PROFILE_AM_FIELD", "Field");
-define("_PROFILE_AM_FIELDS", "Fields");
-define("_PROFILE_AM_CATEGORY", "Category");
+define("_PROFILE_AM_FIELD","Field");
+define("_PROFILE_AM_FIELDS","Fields");
+define("_PROFILE_AM_CATEGORY","Category");
 
-define("_PROFILE_AM_SAVEDSUCCESS", "%s Saved Successfully");
-define("_PROFILE_AM_DELETEDSUCCESS", "%s Deleted Successfully");
-define("_PROFILE_AM_RUSUREDEL", "Are you sure you want to delete %s");
+define("_PROFILE_AM_SAVEDSUCCESS","%s Saved Successfully");
+define("_PROFILE_AM_DELETEDSUCCESS","%s Deleted Successfully");
+define("_PROFILE_AM_RUSUREDEL","Are you sure you want to delete %s");
 
-define("_PROFILE_AM_ADD", "Add");
-define("_PROFILE_AM_EDIT", "Edit");
-define("_PROFILE_AM_TYPE", "Field Type");
-define("_PROFILE_AM_VALUETYPE", "Value Type");
-define("_PROFILE_AM_NAME", "Name");
-define("_PROFILE_AM_TITLE", "Title");
-define("_PROFILE_AM_DESCRIPTION", "Description");
-define("_PROFILE_AM_REQUIRED", "Required?");
-define("_PROFILE_AM_MAXLENGTH", "Maximum Length");
-define("_PROFILE_AM_WEIGHT", "Weight");
-define("_PROFILE_AM_DEFAULT", "Default");
-define("_PROFILE_AM_NOTNULL", "Not Null?");
-define("_PROFILE_AM_MODULE", "Module");
+define("_PROFILE_AM_ADD","Add");
+define("_PROFILE_AM_EDIT","Edit");
+define("_PROFILE_AM_TYPE","Field Type");
+define("_PROFILE_AM_VALUETYPE","Value Type");
+define("_PROFILE_AM_NAME","Name");
+define("_PROFILE_AM_TITLE","Title");
+define("_PROFILE_AM_DESCRIPTION","Description");
+define("_PROFILE_AM_REQUIRED","Required?");
+define("_PROFILE_AM_MAXLENGTH","Maximum Length");
+define("_PROFILE_AM_WEIGHT","Weight");
+define("_PROFILE_AM_DEFAULT","Default");
+define("_PROFILE_AM_NOTNULL","Not Null?");
+define("_PROFILE_AM_MODULE","Module");
 
-define("_PROFILE_AM_ARRAY", "Array");
-define("_PROFILE_AM_EMAIL", "Email");
-define("_PROFILE_AM_INT", "Integer");
-define("_PROFILE_AM_TXTAREA", "Text Area");
-define("_PROFILE_AM_TXTBOX", "Text field");
-define("_PROFILE_AM_URL", "URL");
-define("_PROFILE_AM_OTHER", "Other");
+define("_PROFILE_AM_ARRAY","Array");
+define("_PROFILE_AM_EMAIL","Email");
+define("_PROFILE_AM_INT","Integer");
+define("_PROFILE_AM_TXTAREA","Text Area");
+define("_PROFILE_AM_TXTBOX","Text field");
+define("_PROFILE_AM_URL","URL");
+define("_PROFILE_AM_OTHER","Other");
 
-define("_PROFILE_AM_PROF_VISIBLE_ON", "Field visible on these groups' profile");
-define("_PROFILE_AM_PROF_VISIBLE_FOR", "Field visible on profile for these groups");
-define("_PROFILE_AM_PROF_EDITABLE", "Field editable from profile");
-define("_PROFILE_AM_PROF_REGISTER", "Show in registration form");
-define("_PROFILE_AM_PROF_SEARCH", "Searchable by these groups");
+define("_PROFILE_AM_PROF_VISIBLE_ON","Field visible on these groups' profile");
+define("_PROFILE_AM_PROF_VISIBLE_FOR","Field visible on profile for these groups");
+define("_PROFILE_AM_PROF_EDITABLE","Field editable from profile");
+define("_PROFILE_AM_PROF_REGISTER","Show in registration form");
+define("_PROFILE_AM_PROF_SEARCH","Searchable by these groups");
 
-define("_PROFILE_AM_CHECKBOX", "Checkbox");
-define("_PROFILE_AM_GROUP", "Group Select");
-define("_PROFILE_AM_GROUPMULTI", "Group Multi Select");
-define("_PROFILE_AM_LANGUAGE", "Language Select");
-define("_PROFILE_AM_RADIO", "Radio Buttons");
-define("_PROFILE_AM_SELECT", "Select");
-define("_PROFILE_AM_SELECTMULTI", "Multi Select");
-define("_PROFILE_AM_TEXTAREA", "Text Area");
-define("_PROFILE_AM_DHTMLTEXTAREA", "DHTML Text Area");
-define("_PROFILE_AM_TEXTBOX", "Text Field");
-define("_PROFILE_AM_TIMEZONE", "Timezone");
-define("_PROFILE_AM_YESNO", "Radio Yes/No");
-define("_PROFILE_AM_DATE", "Date");
-define("_PROFILE_AM_AUTOTEXT", "Auto Text");
-define("_PROFILE_AM_DATETIME", "Date and Time");
-define("_PROFILE_AM_LONGDATE", "Long Date");
+define("_PROFILE_AM_CHECKBOX","Checkbox");
+define("_PROFILE_AM_GROUP","Group Select");
+define("_PROFILE_AM_GROUPMULTI","Group Multi Select");
+define("_PROFILE_AM_LANGUAGE","Language Select");
+define("_PROFILE_AM_RADIO","Radio Buttons");
+define("_PROFILE_AM_SELECT","Select");
+define("_PROFILE_AM_SELECTMULTI","Multi Select");
+define("_PROFILE_AM_TEXTAREA","Text Area");
+define("_PROFILE_AM_DHTMLTEXTAREA","DHTML Text Area");
+define("_PROFILE_AM_TEXTBOX","Text Field");
+define("_PROFILE_AM_TIMEZONE","Timezone");
+define("_PROFILE_AM_YESNO","Radio Yes/No");
+define("_PROFILE_AM_DATE","Date");
+define("_PROFILE_AM_AUTOTEXT","Auto Text");
+define("_PROFILE_AM_DATETIME","Date and Time");
+define("_PROFILE_AM_LONGDATE","Long Date");
 
-define("_PROFILE_AM_ADDOPTION", "Add Option");
-define("_PROFILE_AM_REMOVEOPTIONS", "Remove Options");
-define("_PROFILE_AM_KEY", "Key");
-define("_PROFILE_AM_VALUE", "Value");
+define("_PROFILE_AM_ADDOPTION","Add Option");
+define("_PROFILE_AM_REMOVEOPTIONS","Remove Options");
+define("_PROFILE_AM_KEY","Key");
+define("_PROFILE_AM_VALUE","Value");
 
 // User management
-define("_PROFILE_AM_EDITUSER", "Edit User");
-define("_PROFILE_AM_SELECTUSER", "Select User");
+define("_PROFILE_AM_EDITUSER","Edit User");
+define("_PROFILE_AM_SELECTUSER","Select User");
 define("_PROFILE_AM_AYSYWTDU","Are you sure you want to delete user %s?");
 define("_PROFILE_AM_BYTHIS","By doing this all the info for this user will be removed permanently.");
 define("_PROFILE_AM_YMCACF","You must complete all required fields");
@@ -97,14 +97,14 @@ define("_PROFILE_AM_CNGTCOM","Could not get total comments");
 define("_PROFILE_AM_CNUUSER","Could not update user");
 define("_PROFILE_AM_CNGUSERID","Could not get user IDS");
 define("_PROFILE_AM_LIST","List");
-define("_PROFILE_AM_NOUSERS", "No users selected");
-define("_PROFILE_MA_ACTIVEUSER", "User Level");
+define("_PROFILE_AM_NOUSERS","No users selected");
+define("_PROFILE_MA_ACTIVEUSER","User Level");
 
-define("_PROFILE_MA_ACTIVE", "Active");
-define("_PROFILE_MA_INACTIVE", "Inactive");
-define("_PROFILE_MA_DISABLED", "Disabled");
-define("_PROFILE_MA_USERDISABLED", "This user account is disabled and cannot be activated by the user");
+define("_PROFILE_MA_ACTIVE","Active");
+define("_PROFILE_MA_INACTIVE","Inactive");
+define("_PROFILE_MA_DISABLED","Disabled");
+define("_PROFILE_MA_USERDISABLED","This user account is disabled and cannot be activated by the user");
 
-define("_PROFILE_AM_NOUSERNAME", "No Username Selected");
-define("_PROFILE_AM_USERCREATED", "User Created");
+define("_PROFILE_AM_NOUSERNAME","No Username Selected");
+define("_PROFILE_AM_USERCREATED","User Created");
 ?>

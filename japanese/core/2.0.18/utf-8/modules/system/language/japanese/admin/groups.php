@@ -30,8 +30,8 @@ define("_AM_UNEED2ENTER","必要な情報を全て入力してください");
 // Added in RC3
 define("_AM_BLOCKRIGHTS","ブロックアクセス権限");
 
-define('_AM_FINDU4GROUP', 'このグループに追加するユーザを検索する');
-define('_AM_GROUPSMAIN', 'グループ管理');
+define('_AM_FINDU4GROUP','このグループに追加するユーザを検索する');
+define('_AM_GROUPSMAIN','グループ管理');
 
-define('_AM_ADMINNO', '管理者グループには１人以上のユーザが登録されている必要があります');
+define('_AM_ADMINNO','管理者グループには１人以上のユーザが登録されている必要があります');
 ?>

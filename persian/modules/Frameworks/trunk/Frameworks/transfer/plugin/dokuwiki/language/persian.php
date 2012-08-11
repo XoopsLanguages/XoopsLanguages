@@ -13,8 +13,8 @@
  * @package		Frameworks::transfer
  */
  
-define("_MD_TRANSFER_DOKUWIKI", "داکیو ویکی");
-define("_MD_TRANSFER_DOKUWIKI_DESC", "این پست را به داکیو ویکی بفرست");
-define("_MD_TRANSFER_DOKUWIKI_NAMESPACE", "فاصله در ویکی");
-define("_MD_TRANSFER_DOKUWIKI_NAME", "نام پست");
+define("_MD_TRANSFER_DOKUWIKI","داکیو ویکی");
+define("_MD_TRANSFER_DOKUWIKI_DESC","این پست را به داکیو ویکی بفرست");
+define("_MD_TRANSFER_DOKUWIKI_NAMESPACE","فاصله در ویکی");
+define("_MD_TRANSFER_DOKUWIKI_NAME","نام پست");
 ?>

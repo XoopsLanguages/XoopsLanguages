@@ -13,6 +13,6 @@
  * @package		Frameworks::transfer
  */
  
-define("_MD_TRANSFER_BLOG", "وبلاگ");
-define("_MD_TRANSFER_BLOG_DESC", "یک وبلاگ با استفاده از این پست بساز");
+define("_MD_TRANSFER_BLOG","وبلاگ");
+define("_MD_TRANSFER_BLOG_DESC","یک وبلاگ با استفاده از این پست بساز");
 ?>

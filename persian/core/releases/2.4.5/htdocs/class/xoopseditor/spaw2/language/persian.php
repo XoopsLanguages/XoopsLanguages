@@ -13,8 +13,8 @@
 /*
  * Assocated with editor_registry.php
  */
-define("_XOOPS_EDITOR_SPAW2", "ویرایشگر Spaw نسخه ۲");
-define("_XOOPS_EDITOR_SPAW2_LANGUAGE", "fa");
+define("_XOOPS_EDITOR_SPAW2","ویرایشگر Spaw نسخه ۲");
+define("_XOOPS_EDITOR_SPAW2_LANGUAGE","fa");
 // FONT LIST, FORMAT: "Name=value1,value2;Name=value"
-define("_XOOPS_EDITOR_SPAW2_FONTS", "Arial=arial,helvetica,sans-serif;Courier New=courier new,courier,monospace;Georgia=georgia,times new roman,times,serif;Tahoma=tahoma,arial,helvetica,sans-serif;Times New Roman=times new roman,times,serif;Verdana=verdana,arial,helvetica,sans-serif;Impact=impact;WingDings=wingdings");
+define("_XOOPS_EDITOR_SPAW2_FONTS","Arial=arial,helvetica,sans-serif;Courier New=courier new,courier,monospace;Georgia=georgia,times new roman,times,serif;Tahoma=tahoma,arial,helvetica,sans-serif;Times New Roman=times new roman,times,serif;Verdana=verdana,arial,helvetica,sans-serif;Impact=impact;WingDings=wingdings");
 ?>

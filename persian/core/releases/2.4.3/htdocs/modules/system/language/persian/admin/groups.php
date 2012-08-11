@@ -34,20 +34,20 @@ define("_AM_UNEED2ENTER","باید اطلاعات مورد نیاز را وار�
 // Added in RC3
 define("_AM_BLOCKRIGHTS","دادن دسترسی به بلاک‌ها");
 
-define('_AM_FINDU4GROUP', 'پیدا کردن عضو برای اضافه‌کردن به این گروه');
-define('_AM_GROUPSMAIN', 'صفحه‌ی اصلی گروه‌ها');
+define('_AM_FINDU4GROUP','پیدا کردن عضو برای اضافه‌کردن به این گروه');
+define('_AM_GROUPSMAIN','صفحه‌ی اصلی گروه‌ها');
 
-define('_AM_ADMINNO', 'در گروه گردانندگان سایت (webmasters) حتما باید حداقل یک عضو وجود داشته باشد');
+define('_AM_ADMINNO','در گروه گردانندگان سایت (webmasters) حتما باید حداقل یک عضو وجود داشته باشد');
 
 // Custom block, suggested by trabis
 define("_AM_CUSTOMBLOCK","بلاک دست ساز");
 /**
 * New in 2.4.0
 */
-define('_AM_LIST_GROUPS', 'لیست گروه ها');
-define('_XO_AD_GROUP_ID', '#');
-define('_XO_AD_GROUP_NAME', 'نام گروه');
-define('_XO_AD_GROUP_DESCRIPTION', 'توصیف گروه');
-define('_XO_AD_GROUP_ACTION', 'عملکرد');
+define('_AM_LIST_GROUPS','لیست گروه ها');
+define('_XO_AD_GROUP_ID','#');
+define('_XO_AD_GROUP_NAME','نام گروه');
+define('_XO_AD_GROUP_DESCRIPTION','توصیف گروه');
+define('_XO_AD_GROUP_ACTION','عملکرد');
 
 ?>

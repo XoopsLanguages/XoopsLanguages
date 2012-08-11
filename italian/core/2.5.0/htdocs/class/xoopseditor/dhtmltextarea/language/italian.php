@@ -16,5 +16,5 @@
 /*
  * Assocated with editor_registry.php
  */
-define("_XOOPS_EDITOR_DHTMLTEXTAREA", "Form DHTML con xCode");
+define("_XOOPS_EDITOR_DHTMLTEXTAREA","Form DHTML con xCode");
 ?>

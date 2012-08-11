@@ -5,164 +5,164 @@
 // Translator: Arab XOOPS Team
 
 //%%%%%%	File Name  modulesadmin.php 	%%%%%
-define("_MD_AM_MODADMIN","«· Õﬂ„ ›Ì «·„ÊœÌ· («·»—«„Ã)");
-define("_MD_AM_MODULE","«·„ÊœÌ· («·»—‰«„Ã)");
-define("_MD_AM_VERSION","«·≈’œ«—");
-define("_MD_AM_LASTUP","¬Œ—  ÕœÌÀ");
-define("_MD_AM_DEACTIVATED"," Êﬁ›");
-define("_MD_AM_ACTION","ŒÌ«—« ");
-define("_MD_AM_DEACTIVATE","≈Ìﬁ«›");
-define("_MD_AM_ACTIVATE"," ‘€Ì·");
-define("_MD_AM_UPDATE"," ÕœÌÀ");
-define("_MD_AM_DUPEN","‰”Œ… «Õ Ì«ÿÌ… ·„œŒ·«  «·„ÊœÌ·«  («·»—«„Ã)");
-define("_MD_AM_DEACTED"," „ «Ìﬁ«› «·„ÊœÌ· («·»—‰«„Ã) »‰Ã«Õ Ì„ﬂ‰ﬂ «·¬‰ «“«·…  —ﬂÌ» «·»—‰«„Ã");
-define("_MD_AM_ACTED"," „  ‘€Ì· «·„ÊœÌ· («·»—‰«„Ã) «·–Ì Õœœ Â");
-define("_MD_AM_UPDTED"," „  ÕœÌÀ «·„ÊœÌ· («·»—‰«„Ã) «·–Ì Õœœ Â");
-define("_MD_AM_SYSNO","·ÊÕ… «· Õﬂ„ «·⁄«„… ·« Ì„ﬂ‰ «Ìﬁ«›Â« !!");
-define("_MD_AM_STRTNO","Â–« «·»—‰«„Ã Ì⁄„· ﬂ»œ«Ì… ··„Êﬁ⁄ Ì„ﬂ‰ﬂ «·–Â«» «·Ï ·ÊÕ… «· Õﬂ„ Ê«Œ Ì«— —«»ÿ ŒÌ«—«  «·„Ã·… Ê €Ì—Â");
+define("_MD_AM_MODADMIN","√á√°√ä√ç√ü√£ √ù√≠ √á√°√£√¶√è√≠√° (√á√°√à√ë√á√£√å)");
+define("_MD_AM_MODULE","√á√°√£√¶√è√≠√° (√á√°√à√ë√§√á√£√å)");
+define("_MD_AM_VERSION","√á√°√Ö√ï√è√á√ë");
+define("_MD_AM_LASTUP","√Ç√é√ë √ä√ç√è√≠√ã");
+define("_MD_AM_DEACTIVATED","√ä√¶√û√ù");
+define("_MD_AM_ACTION","√é√≠√á√ë√á√ä");
+define("_MD_AM_DEACTIVATE","√Ö√≠√û√á√ù");
+define("_MD_AM_ACTIVATE","√ä√î√õ√≠√°");
+define("_MD_AM_UPDATE","√ä√ç√è√≠√ã");
+define("_MD_AM_DUPEN","√§√ì√é√â √á√ç√ä√≠√á√ò√≠√â √°√£√è√é√°√á√ä √á√°√£√¶√è√≠√°√á√ä (√á√°√à√ë√á√£√å)");
+define("_MD_AM_DEACTED","√ä√£ √á√≠√û√á√ù √á√°√£√¶√è√≠√° (√á√°√à√ë√§√á√£√å) √à√§√å√á√ç √≠√£√ü√§√ü √á√°√Ç√§ √á√í√á√°√â √ä√ë√ü√≠√à √á√°√à√ë√§√á√£√å");
+define("_MD_AM_ACTED","√ä√£ √ä√î√õ√≠√° √á√°√£√¶√è√≠√° (√á√°√à√ë√§√á√£√å) √á√°√ê√≠ √ç√è√è√ä√•");
+define("_MD_AM_UPDTED","√ä√£ √ä√ç√è√≠√ã √á√°√£√¶√è√≠√° (√á√°√à√ë√§√á√£√å) √á√°√ê√≠ √ç√è√è√ä√•");
+define("_MD_AM_SYSNO","√°√¶√ç√â √á√°√ä√ç√ü√£ √á√°√ö√á√£√â √°√á √≠√£√ü√§ √á√≠√û√á√ù√•√á !!");
+define("_MD_AM_STRTNO","√•√ê√á √á√°√à√ë√§√á√£√å √≠√ö√£√° √ü√à√è√á√≠√â √°√°√£√¶√û√ö √≠√£√ü√§√ü √á√°√ê√•√á√à √á√°√¨ √°√¶√ç√â √á√°√ä√ç√ü√£ √¶√á√é√ä√≠√á√ë √ë√á√à√ò √é√≠√á√ë√á√ä √á√°√£√å√°√â √¶√ä√õ√≠√ë√•");
 
 // added in RC2
-define("_MD_AM_PCMFM","Ì—ÃÏ «·≈ﬂ„«·:");
+define("_MD_AM_PCMFM","√≠√ë√å√¨ √á√°√Ö√ü√£√á√°:");
 
 // added in RC3
-define("_MD_AM_ORDER","„ﬂ«‰ «· Ê«Ãœ");
-define("_MD_AM_ORDER0","(0 = ≈Œ›«¡)");
-define("_MD_AM_ACTIVE","Ì⁄„·");
-define("_MD_AM_INACTIVE","·« Ì⁄„·");
-define("_MD_AM_NOTINSTALLED","·„ Ì „  —ﬂÌ»Â");
-define("_MD_AM_NOCHANGE","·«  €Ì—« ");
-define("_MD_AM_INSTALL"," —ﬂÌ»");
-define("_MD_AM_UNINSTALL","«“«·…  —ﬂÌ»");
-define("_MD_AM_SUBMIT","√—”·");
-define("_MD_AM_CANCEL"," —«Ã⁄");
-define("_MD_AM_DBUPDATE"," „  ÕœÌÀ ﬁ«⁄œ… «·»Ì«‰« ");
-define("_MD_AM_BTOMADMIN","«·⁄Êœ… «·Ï ’›Õ… «· Õﬂ„ ›Ì «·„ÊœÌ·«  («·»—«„Ã)");
+define("_MD_AM_ORDER","√£√ü√á√§ √á√°√ä√¶√á√å√è");
+define("_MD_AM_ORDER0","(0 = √Ö√é√ù√á√Å)");
+define("_MD_AM_ACTIVE","√≠√ö√£√°");
+define("_MD_AM_INACTIVE","√°√á √≠√ö√£√°");
+define("_MD_AM_NOTINSTALLED","√°√£ √≠√ä√£ √ä√ë√ü√≠√à√•");
+define("_MD_AM_NOCHANGE","√°√á √ä√õ√≠√ë√á√ä");
+define("_MD_AM_INSTALL","√ä√ë√ü√≠√à");
+define("_MD_AM_UNINSTALL","√á√í√á√°√â √ä√ë√ü√≠√à");
+define("_MD_AM_SUBMIT","√É√ë√ì√°");
+define("_MD_AM_CANCEL","√ä√ë√á√å√ö");
+define("_MD_AM_DBUPDATE","√ä√£ √ä√ç√è√≠√ã √û√á√ö√è√â √á√°√à√≠√á√§√á√ä");
+define("_MD_AM_BTOMADMIN","√á√°√ö√¶√è√â √á√°√¨ √ï√ù√ç√â √á√°√ä√ç√ü√£ √ù√≠ √á√°√£√¶√è√≠√°√á√ä (√á√°√à√ë√á√£√å)");
 
 // %s represents module name
-define("_MD_AM_FAILINS","·« Ì„ﬂ‰  —ﬂÌ» «·„ÊœÌ· («·»—‰«„Ã) %s.");
-define("_MD_AM_FAILACT","·« Ì„ﬂ‰  ‘€Ì· «·„ÊœÌ· («·»—‰«„Ã) %s.");
-define("_MD_AM_FAILDEACT","·« Ì„ﬂ‰ ≈Ìﬁ«›  ‘€Ì· «·„ÊœÌ· («·»—‰«„Ã) %s.");
-define("_MD_AM_FAILUPD","·« Ì„ﬂ‰ «· ÕœÌÀ ··„ÊœÌ· («·»—‰«„Ã) %s.");
-define("_MD_AM_FAILUNINS","·« Ì„ﬂ‰ «“«·…  —ﬂÌ» «·„ÊœÌ· («·»—‰«„Ã) %s.");
-define("_MD_AM_FAILORDER","·« Ì„ﬂ‰  ÕœÌœ „ﬂ«‰ «· Ê«Ãœ ··„ÊœÌ· («·»—‰«„Ã) %s.");
-define("_MD_AM_FAILWRITE","·« Ì„ﬂ‰ «·ﬂ «»… ›Ì «··ÊÕ… «·—∆Ì”Ì…");
-define("_MD_AM_ALEXISTS","«·„ÊœÌ· («·»—‰«„Ã) %s „ÊÃÊœ „”»ﬁ«");
-define("_MD_AM_ERRORSC", "Œÿ√/√Œÿ«¡:");
-define("_MD_AM_OKINS","«·„ÊœÌ· («·»—‰«„Ã) %s  „  —ﬂÌ»Â »‰Ã«Õ");
-define("_MD_AM_OKACT","«·„ÊœÌ· («·»—‰«„Ã) %s  „  ‘€Ì·Â »‰Ã«Õ");
-define("_MD_AM_OKDEACT","«·„ÊœÌ· («·»—‰«„Ã) %s  „ ≈Ìﬁ«›Â »‰Ã«Õ");
-define("_MD_AM_OKUPD","«·„ÊœÌ· («·»—‰«„Ã) %s  „  ÕœÌÀÂ »‰Ã«Õ");
-define("_MD_AM_OKUNINS","«·„ÊœÌ· («·»—‰«„Ã) %s  „  «“«·…  À»Ì Â »‰Ã«Õ");
-define("_MD_AM_OKORDER","«·„ÊœÌ· («·»—‰«„Ã) %s  „  ÕœÌœ „Ê÷⁄Â »‰Ã«Õ");
+define("_MD_AM_FAILINS","√°√á √≠√£√ü√§ √ä√ë√ü√≠√à √á√°√£√¶√è√≠√° (√á√°√à√ë√§√á√£√å) %s.");
+define("_MD_AM_FAILACT","√°√á √≠√£√ü√§ √ä√î√õ√≠√° √á√°√£√¶√è√≠√° (√á√°√à√ë√§√á√£√å) %s.");
+define("_MD_AM_FAILDEACT","√°√á √≠√£√ü√§ √Ö√≠√û√á√ù √ä√î√õ√≠√° √á√°√£√¶√è√≠√° (√á√°√à√ë√§√á√£√å) %s.");
+define("_MD_AM_FAILUPD","√°√á √≠√£√ü√§ √á√°√ä√ç√è√≠√ã √°√°√£√¶√è√≠√° (√á√°√à√ë√§√á√£√å) %s.");
+define("_MD_AM_FAILUNINS","√°√á √≠√£√ü√§ √á√í√á√°√â √ä√ë√ü√≠√à √á√°√£√¶√è√≠√° (√á√°√à√ë√§√á√£√å) %s.");
+define("_MD_AM_FAILORDER","√°√á √≠√£√ü√§ √ä√ç√è√≠√è √£√ü√á√§ √á√°√ä√¶√á√å√è √°√°√£√¶√è√≠√° (√á√°√à√ë√§√á√£√å) %s.");
+define("_MD_AM_FAILWRITE","√°√á √≠√£√ü√§ √á√°√ü√ä√á√à√â √ù√≠ √á√°√°√¶√ç√â √á√°√ë√Ü√≠√ì√≠√â");
+define("_MD_AM_ALEXISTS","√á√°√£√¶√è√≠√° (√á√°√à√ë√§√á√£√å) %s √£√¶√å√¶√è √£√ì√à√û√á");
+define("_MD_AM_ERRORSC","√é√ò√É/√É√é√ò√á√Å:");
+define("_MD_AM_OKINS","√á√°√£√¶√è√≠√° (√á√°√à√ë√§√á√£√å) %s √ä√£ √ä√ë√ü√≠√à√• √à√§√å√á√ç");
+define("_MD_AM_OKACT","√á√°√£√¶√è√≠√° (√á√°√à√ë√§√á√£√å) %s √ä√£ √ä√î√õ√≠√°√• √à√§√å√á√ç");
+define("_MD_AM_OKDEACT","√á√°√£√¶√è√≠√° (√á√°√à√ë√§√á√£√å) %s √ä√£ √Ö√≠√û√á√ù√• √à√§√å√á√ç");
+define("_MD_AM_OKUPD","√á√°√£√¶√è√≠√° (√á√°√à√ë√§√á√£√å) %s √ä√£ √ä√ç√è√≠√ã√• √à√§√å√á√ç");
+define("_MD_AM_OKUNINS","√á√°√£√¶√è√≠√° (√á√°√à√ë√§√á√£√å) %s √ä√£√ä √á√í√á√°√â √ä√ã√à√≠√ä√• √à√§√å√á√ç");
+define("_MD_AM_OKORDER","√á√°√£√¶√è√≠√° (√á√°√à√ë√§√á√£√å) %s √ä√£ √ä√ç√è√≠√è √£√¶√ñ√ö√• √à√§√å√á√ç");
 
-define('_MD_AM_RUSUREINS', '≈÷€ÿ ⁄·Ï «·“— √œ‰«Â · —ﬂÌ» «·»—‰«„Ã');
-define('_MD_AM_RUSUREUPD', '≈÷€ÿ ⁄·Ï «·“— √œ‰«Â · ÕœÌÀ «·»—‰«„Ã');
-define('_MD_AM_RUSUREUNINS', 'Â· √‰  „ √ﬂœ „‰ «‰ﬂ  —Ìœ «“«·…  —ﬂÌ» «·»—‰«„Ã ø');
-define('_MD_AM_LISTUPBLKS', '«·»·Êﬂ«  «· «·Ì… ”Ì „  ÕœÌÀÂ« <br />⁄‰œ ≈‘«— ﬂ ⁄·Ï «·»·Êﬂ ”Ì „ „”Õ „⁄·Ê„« Â «·ﬁœÌ„<br />');
-define('_MD_AM_NEWBLKS', '»·Êﬂ ÃœÌœ');
-define('_MD_AM_DEPREBLKS', ' Ã«Â· «·»·Êﬂ');
+define('_MD_AM_RUSUREINS','√Ö√ñ√õ√ò √ö√°√¨ √á√°√í√ë √É√è√§√á√• √°√ä√ë√ü√≠√à √á√°√à√ë√§√á√£√å');
+define('_MD_AM_RUSUREUPD','√Ö√ñ√õ√ò √ö√°√¨ √á√°√í√ë √É√è√§√á√• √°√ä√ç√è√≠√ã √á√°√à√ë√§√á√£√å');
+define('_MD_AM_RUSUREUNINS','√•√° √É√§√ä √£√ä√É√ü√è √£√§ √á√§√ü √ä√ë√≠√è √á√í√á√°√â √ä√ë√ü√≠√à √á√°√à√ë√§√á√£√å ¬ø');
+define('_MD_AM_LISTUPBLKS','√á√°√à√°√¶√ü√á√ä √á√°√ä√á√°√≠√â √ì√≠√ä√£ √ä√ç√è√≠√ã√•√á <br />√ö√§√è √Ö√î√á√ë√ä√ü √ö√°√¨ √á√°√à√°√¶√ü √ì√≠√ä√£ √£√ì√ç √£√ö√°√¶√£√á√ä√• √á√°√û√è√≠√£<br />');
+define('_MD_AM_NEWBLKS','√à√°√¶√ü √å√è√≠√è');
+define('_MD_AM_DEPREBLKS','√ä√å√á√•√° √á√°√à√°√¶√ü');
 
 // added in 2.3 - julionc
-define('_MD_AM_INSTALLING', ' À»Ì  ');
-define('_MD_AM_TABLE_RESERVED', '%s is a reserved table!');
-define('_MD_AM_CREATE_TABLES', 'Creating tables...');
-define('_MD_AM_TABLE_CREATED', 'Table %s created');
-define('_MD_AM_INSERT_DATA', '&nbsp;&nbsp; Data inserted to table %s');
-define('_MD_AM_INSERT_DATA_FAILD', 'Could not insert %s to database.');
-define('_MD_AM_INSERT_DATA_DONE', 'Module data inserted successfully.');
-define('_MD_AM_MODULEID', ' Module ID: %s');
-define('_MD_AM_SQL_FOUND', 'SQL file found at %s ');
-define('_MD_AM_SQL_NOT_FOUND', 'SQL file not found at %s');
-define('_MD_AM_SQL_NOT_CREATE', 'ERROR: Could not create %s ');
-define('_MD_AM_SQL_NOT_VALID', '%s is not a valid SQL!');
+define('_MD_AM_INSTALLING','√ä√ã√à√≠√ä ');
+define('_MD_AM_TABLE_RESERVED','%s is a reserved table!');
+define('_MD_AM_CREATE_TABLES','Creating tables...');
+define('_MD_AM_TABLE_CREATED','Table %s created');
+define('_MD_AM_INSERT_DATA','&nbsp;&nbsp; Data inserted to table %s');
+define('_MD_AM_INSERT_DATA_FAILD','Could not insert %s to database.');
+define('_MD_AM_INSERT_DATA_DONE','Module data inserted successfully.');
+define('_MD_AM_MODULEID',' Module ID: %s');
+define('_MD_AM_SQL_FOUND','SQL file found at %s ');
+define('_MD_AM_SQL_NOT_FOUND','SQL file not found at %s');
+define('_MD_AM_SQL_NOT_CREATE','ERROR: Could not create %s ');
+define('_MD_AM_SQL_NOT_VALID','%s is not a valid SQL!');
 
-define('_MD_AM_GROUP_ID', ' Group ID: %s ');
-define('_MD_AM_NAME', ' Name: ');
-define('_MD_AM_VALUE', ' Value: ');
+define('_MD_AM_GROUP_ID',' Group ID: %s ');
+define('_MD_AM_NAME',' Name: ');
+define('_MD_AM_VALUE',' Value: ');
 
 /* Templates */
-define('_MD_AM_TEMPLATES_ADD', 'Adding templates...');
-define('_MD_AM_TEMPLATES_DELETE', 'Deleting templates...');
-define('_MD_AM_TEMPLATES_UPDATE', 'Updating templates...');
+define('_MD_AM_TEMPLATES_ADD','Adding templates...');
+define('_MD_AM_TEMPLATES_DELETE','Deleting templates...');
+define('_MD_AM_TEMPLATES_UPDATE','Updating templates...');
 
-define('_MD_AM_TEMPLATE_ID', 'Template ID: %s ');
+define('_MD_AM_TEMPLATE_ID','Template ID: %s ');
 
-define('_MD_AM_TEMPLATE_ADD_DATA', 'Template %s added to the database');
-define('_MD_AM_TEMPLATE_ADD_ERROR', 'ERROR: Could not insert template %s to the database.');
-define('_MD_AM_TEMPLATE_COMPILED', 'Template %s compiled ');
-define('_MD_AM_TEMPLATE_COMPILED_FAILED', 'ERROR: Failed compiling template %s ');
-define('_MD_AM_TEMPLATE_DELETE_DATA', 'Template %s deleted from the database. ');
-define('_MD_AM_TEMPLATE_DELETE_DATA_FAILD', 'ERROR: Could not delete template %s from the database. ');
-define('_MD_AM_TEMPLATE_INSERT_DATA', 'Template %s inserted to the database. ');
-define('_MD_AM_TEMPLATE_RECOMPILE', 'Template %s recompiled');
-define('_MD_AM_TEMPLATE_RECOMPILE_FAILD', 'ERROR: Template %s recompile failed');
-define('_MD_AM_TEMPLATE_RECOMPILE_ERROR', 'ERROR: Could not recompile template %s ');
-define('_MD_AM_TEMPLATE_DELETE_OLD_ERROR', 'ERROR: Could not delete old template %s. Aborting update of this file. ');
-define('_MD_AM_TEMPLATE_UPDATE', 'Template %s updated. ');
-define('_MD_AM_TEMPLATE_UPDATE_ERROR', 'ERROR: Could not update %s template. ');
+define('_MD_AM_TEMPLATE_ADD_DATA','Template %s added to the database');
+define('_MD_AM_TEMPLATE_ADD_ERROR','ERROR: Could not insert template %s to the database.');
+define('_MD_AM_TEMPLATE_COMPILED','Template %s compiled ');
+define('_MD_AM_TEMPLATE_COMPILED_FAILED','ERROR: Failed compiling template %s ');
+define('_MD_AM_TEMPLATE_DELETE_DATA','Template %s deleted from the database. ');
+define('_MD_AM_TEMPLATE_DELETE_DATA_FAILD','ERROR: Could not delete template %s from the database. ');
+define('_MD_AM_TEMPLATE_INSERT_DATA','Template %s inserted to the database. ');
+define('_MD_AM_TEMPLATE_RECOMPILE','Template %s recompiled');
+define('_MD_AM_TEMPLATE_RECOMPILE_FAILD','ERROR: Template %s recompile failed');
+define('_MD_AM_TEMPLATE_RECOMPILE_ERROR','ERROR: Could not recompile template %s ');
+define('_MD_AM_TEMPLATE_DELETE_OLD_ERROR','ERROR: Could not delete old template %s. Aborting update of this file. ');
+define('_MD_AM_TEMPLATE_UPDATE','Template %s updated. ');
+define('_MD_AM_TEMPLATE_UPDATE_ERROR','ERROR: Could not update %s template. ');
 
 /* Blocks */
-define('_MD_AM_BLOCKS_ADD', 'Adding blocks...');
-define('_MD_AM_BLOCKS_DELETE', 'Deleting block...');
-define('_MD_AM_BLOCKS_REBUILD', 'Rebuilding blocks...');
+define('_MD_AM_BLOCKS_ADD','Adding blocks...');
+define('_MD_AM_BLOCKS_DELETE','Deleting block...');
+define('_MD_AM_BLOCKS_REBUILD','Rebuilding blocks...');
 
-define('_MD_AM_BLOCK_ID', ' Block ID: %s ');
+define('_MD_AM_BLOCK_ID',' Block ID: %s ');
 
-define('_MD_AM_BLOCK_ACCESS', 'Added block access right');
-define('_MD_AM_BLOCK_ACCESS_ERROR', 'ERROR: Could not add block access right');
-define('_MD_AM_BLOCK_ADD', 'Block %s added ');
-define('_MD_AM_BLOCK_ADD_ERROR', 'ERROR: Could not add block %s to the database! ');
-define('_MD_AM_BLOCK_ADD_ERROR_DATABASE', 'Database error: %s ');
-define('_MD_AM_BLOCK_CREATED', 'Block %s created ');
-define('_MD_AM_BLOCK_DELETE', 'Block %s deleted. ');
-define('_MD_AM_BLOCK_DELETE_DATA', 'Block template %s deleted from the database. ');
-define('_MD_AM_BLOCK_DELETE_ERROR', 'ERROR: Could not delete block %s');
-define('_MD_AM_BLOCK_DELETE_TEMPLATE_ERROR', 'ERROR: Could not delete block template %s from the database');
-define('_MD_AM_BLOCK_DEPRECATED', 'Block template %s deprecated ');
-define('_MD_AM_BLOCK_DEPRECATED_ERROR', 'ERROR: Could not remove deprecated block template.  ');
-define('_MD_AM_BLOCK_UPDATE', 'Block %s updated. ');
+define('_MD_AM_BLOCK_ACCESS','Added block access right');
+define('_MD_AM_BLOCK_ACCESS_ERROR','ERROR: Could not add block access right');
+define('_MD_AM_BLOCK_ADD','Block %s added ');
+define('_MD_AM_BLOCK_ADD_ERROR','ERROR: Could not add block %s to the database! ');
+define('_MD_AM_BLOCK_ADD_ERROR_DATABASE','Database error: %s ');
+define('_MD_AM_BLOCK_CREATED','Block %s created ');
+define('_MD_AM_BLOCK_DELETE','Block %s deleted. ');
+define('_MD_AM_BLOCK_DELETE_DATA','Block template %s deleted from the database. ');
+define('_MD_AM_BLOCK_DELETE_ERROR','ERROR: Could not delete block %s');
+define('_MD_AM_BLOCK_DELETE_TEMPLATE_ERROR','ERROR: Could not delete block template %s from the database');
+define('_MD_AM_BLOCK_DEPRECATED','Block template %s deprecated ');
+define('_MD_AM_BLOCK_DEPRECATED_ERROR','ERROR: Could not remove deprecated block template.  ');
+define('_MD_AM_BLOCK_UPDATE','Block %s updated. ');
 
 /* Configs */
-define('_MD_AM_GONFIG_ID', 'Config ID: %s');
-define('_MD_AM_MODULE_DATA_ADD', 'Adding module config data...');
-define('_MD_AM_MODULE_DATA_DELETE', 'Deleting module config options...');
-define('_MD_AM_MODULE_DATA_UPDATE', 'Module data updated.');
+define('_MD_AM_GONFIG_ID','Config ID: %s');
+define('_MD_AM_MODULE_DATA_ADD','Adding module config data...');
+define('_MD_AM_MODULE_DATA_DELETE','Deleting module config options...');
+define('_MD_AM_MODULE_DATA_UPDATE','Module data updated.');
 
-define('_MD_AM_CONFIG_ADD', ' Config option added');
-define('_MD_AM_CONFIG_DATA_ADD', ' Config %s added to the database');
-define('_MD_AM_CONFIG_DATA_ADD_ERROR', ' ERROR: Could not insert config %s to the database. ');
-define('_MD_AM_GONFIG_DATA_DELETE', 'Config data deleted from the database. ');
-define('_MD_AM_CONFIG_DATA_DELETE_ERROR', 'ERROR: Could not delete config data from the database');
+define('_MD_AM_CONFIG_ADD',' Config option added');
+define('_MD_AM_CONFIG_DATA_ADD',' Config %s added to the database');
+define('_MD_AM_CONFIG_DATA_ADD_ERROR',' ERROR: Could not insert config %s to the database. ');
+define('_MD_AM_GONFIG_DATA_DELETE','Config data deleted from the database. ');
+define('_MD_AM_CONFIG_DATA_DELETE_ERROR','ERROR: Could not delete config data from the database');
 
 /* Access */
-define('_MD_AM_GROUP_SETTINGS_ADD', 'Setting group rights...');
+define('_MD_AM_GROUP_SETTINGS_ADD','Setting group rights...');
 
-define('_MD_AM_GROUP_PERMS_DELETE_ERROR', 'ERROR: Could not delete group permissions ');
-define('_MD_AM_GROUP_PERMS_DELETED', 'Group permissions deleted ');
+define('_MD_AM_GROUP_PERMS_DELETE_ERROR','ERROR: Could not delete group permissions ');
+define('_MD_AM_GROUP_PERMS_DELETED','Group permissions deleted ');
 
-define('_MD_AM_ACCESS_ADMIN_ADD', 'Added admin access right for Group ID %s');
-define('_MD_AM_ACCESS_ADMIN_ADD_ERROR', 'ERROR: Could not add admin access right for Group ID %s');
-define('_MD_AM_ACCESS_USER_ADD_ERROR', 'Added user access right for Group ID: %s');
-define('_MD_AM_ACCESS_USER_ADD_ERROR_ERROR', 'ERROR: Could not add user access right for Group ID: %s');
+define('_MD_AM_ACCESS_ADMIN_ADD','Added admin access right for Group ID %s');
+define('_MD_AM_ACCESS_ADMIN_ADD_ERROR','ERROR: Could not add admin access right for Group ID %s');
+define('_MD_AM_ACCESS_USER_ADD_ERROR','Added user access right for Group ID: %s');
+define('_MD_AM_ACCESS_USER_ADD_ERROR_ERROR','ERROR: Could not add user access right for Group ID: %s');
 
 // execute module specific install script if any
-define('_MD_AM_FAILED_EXECUTE', 'Failed to execute %s');
-define('_MD_AM_FAILED_SUCESS', '%s executed successfully.');
+define('_MD_AM_FAILED_EXECUTE','Failed to execute %s');
+define('_MD_AM_FAILED_SUCESS','%s executed successfully.');
 
-define('_MD_AM_DELETE_ERROR', 'ERROR: Could not delete %s');
-define('_MD_AM_UPDATE_ERROR', 'ERROR: Could not update %s');
-define('_MD_AM_DELETE_MOD_TABLES', 'Deleting module tables...');
+define('_MD_AM_DELETE_ERROR','ERROR: Could not delete %s');
+define('_MD_AM_UPDATE_ERROR','ERROR: Could not update %s');
+define('_MD_AM_DELETE_MOD_TABLES','Deleting module tables...');
 
-define('_MD_AM_COMMENTS_DELETE', 'Deleting comments...');
-define('_MD_AM_COMMENTS_DELETE_ERROR', 'ERROR: Could not delete comments');
-define('_MD_AM_COMMENTS_DELETED', 'Comments deleted');
+define('_MD_AM_COMMENTS_DELETE','Deleting comments...');
+define('_MD_AM_COMMENTS_DELETE_ERROR','ERROR: Could not delete comments');
+define('_MD_AM_COMMENTS_DELETED','Comments deleted');
 
-define('_MD_AM_NOTIFICATIONS_DELETE', 'Deleting notifications...');
-define('_MD_AM_NOTIFICATIONS_DELETE_ERROR', 'ERROR: Could not delete notifications');
-define('_MD_AM_NOTIFICATIONS_DELETED', 'Notifications deleted');
+define('_MD_AM_NOTIFICATIONS_DELETE','Deleting notifications...');
+define('_MD_AM_NOTIFICATIONS_DELETE_ERROR','ERROR: Could not delete notifications');
+define('_MD_AM_NOTIFICATIONS_DELETED','Notifications deleted');
 
-define('_MD_AM_TABLE_DROPPED', 'Table %s dropped!');
-define('_MD_AM_TABLE_DROPPED_ERROR', 'ERROR: Could not drop table %s');
-define('_MD_AM_TABLE_DROPPED_FAILDED', 'ERROR: Not allowed to drop table %s !');
+define('_MD_AM_TABLE_DROPPED','Table %s dropped!');
+define('_MD_AM_TABLE_DROPPED_ERROR','ERROR: Could not drop table %s');
+define('_MD_AM_TABLE_DROPPED_FAILDED','ERROR: Not allowed to drop table %s !');
 
 ?>

@@ -16,14 +16,14 @@
  */
 
 // Main
-define('_THADMIN_MODULE_NAME', 'ThAdmin');
-define('_THADMIN_MODULE_DESC', 'ThAdmin er en modul for å styre ditt administrasjons-tema');
+define('_THADMIN_MODULE_NAME','ThAdmin');
+define('_THADMIN_MODULE_DESC','ThAdmin er en modul for å styre ditt administrasjons-tema');
 // Menu
-define('_THADMIN_MENU_HOME', 'Hjem');
-define('_THADMIN_MENU_HELP', 'Hjelp');
+define('_THADMIN_MENU_HOME','Hjem');
+define('_THADMIN_MENU_HELP','Hjelp');
 // Settings
-define('_THADMIN_ADMINTHEME', 'Default tema');
-define('_THADMIN_ADMINTHEME_DESC', 'Velg default tema for admin-området');
-define('_THADMIN_CPANELEONLY', 'Vis advarsler ?');
-define('_THADMIN_CPANELEONLY_DESC', 'Skjul advarsel meldinger på cpanel interface');
+define('_THADMIN_ADMINTHEME','Default tema');
+define('_THADMIN_ADMINTHEME_DESC','Velg default tema for admin-området');
+define('_THADMIN_CPANELEONLY','Vis advarsler ?');
+define('_THADMIN_CPANELEONLY_DESC','Skjul advarsel meldinger på cpanel interface');
 ?>

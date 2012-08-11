@@ -13,6 +13,6 @@ define("_AD_NICKNAME","Mitgliedsname:");
 define("_AD_EMAIL","E-Mail:");
 define("_AD_AVATAR","Avatar:");
 define("_AD_REGISTERED","Registriert am:"); //Registered Date
-define('_AD_PRESSGEN', 'Dies ist das erste Mal, dass Du den Admin-Bereich betrittst. Bitte klicke auf \"Abschicken\" um fortzufahren.');
-define('_AD_LOGINADMIN', 'EINLOGGEN...');
+define('_AD_PRESSGEN','Dies ist das erste Mal, dass Du den Admin-Bereich betrittst. Bitte klicke auf \"Abschicken\" um fortzufahren.');
+define('_AD_LOGINADMIN','EINLOGGEN...');
 ?>

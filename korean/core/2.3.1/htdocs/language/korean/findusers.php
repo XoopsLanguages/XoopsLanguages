@@ -30,68 +30,68 @@
 
 // formselectuser.php
 
-define("_MA_USER_MORE", "»ç¿ëÀÚ °Ë»ö");
-define("_MA_USER_REMOVE", "¼±ÅÃµÇÁö ¾ÊÀº »ç¿ëÀÚ¸¦ Á¦°Å");
+define("_MA_USER_MORE","ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ë»ï¿½");
+define("_MA_USER_REMOVE","ï¿½ï¿½ï¿½Ãµï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ú¸ï¿½ ï¿½ï¿½ï¿½ï¿½");
 
 
 //%%%%%%	File Name findusers.php 	%%%%%
-define("_MA_USER_ADD_SELECTED", "¼±ÅÃµÈ »ç¿ëÀÚ¸¦ Ãß°¡");
+define("_MA_USER_ADD_SELECTED","ï¿½ï¿½ï¿½Ãµï¿½ ï¿½ï¿½ï¿½ï¿½Ú¸ï¿½ ï¿½ß°ï¿½");
 
-define("_MA_USER_GROUP", "±×·ì");
-define("_MA_USER_LEVEL", "·¹º§");
-define("_MA_USER_LEVEL_ACTIVE", "È°¼ºÈ­");
-define("_MA_USER_LEVEL_INACTIVE", "ºñÈ°¼ºÈ­");
-define("_MA_USER_LEVEL_DISABLED", "Á¤Áö");
-define("_MA_USER_RANK", "µî±Þ");
+define("_MA_USER_GROUP","ï¿½×·ï¿½");
+define("_MA_USER_LEVEL","ï¿½ï¿½ï¿½ï¿½");
+define("_MA_USER_LEVEL_ACTIVE","È°ï¿½ï¿½È­");
+define("_MA_USER_LEVEL_INACTIVE","ï¿½ï¿½È°ï¿½ï¿½È­");
+define("_MA_USER_LEVEL_DISABLED","ï¿½ï¿½ï¿½ï¿½");
+define("_MA_USER_RANK","ï¿½ï¿½ï¿½");
 
-define("_MA_USER_FINDUS","»ç¿ëÀÚ °Ë»ö");
-define("_MA_USER_AVATAR","¾Æ¹ÙÅ¸");
-define("_MA_USER_REALNAME","ÀÌ¸§");
-define("_MA_USER_REGDATE","µî·ÏÀÏ");
-define("_MA_USER_EMAIL","¸ÞÀÏÁÖ¼Ò");
-define("_MA_USER_PREVIOUS","ÀÌÀü");
-define("_MA_USER_NEXT","´ÙÀ½");
-define("_MA_USER_USERSFOUND","%s ¸íÀÇ µî·ÏÈ¸¿øÀÌ °Ë»öµÇ¾ú½À´Ï´Ù.");
+define("_MA_USER_FINDUS","ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ë»ï¿½");
+define("_MA_USER_AVATAR","ï¿½Æ¹ï¿½Å¸");
+define("_MA_USER_REALNAME","ï¿½Ì¸ï¿½");
+define("_MA_USER_REGDATE","ï¿½ï¿½ï¿½ï¿½ï¿½");
+define("_MA_USER_EMAIL","ï¿½ï¿½ï¿½ï¿½ï¿½Ö¼ï¿½");
+define("_MA_USER_PREVIOUS","ï¿½ï¿½ï¿½ï¿½");
+define("_MA_USER_NEXT","ï¿½ï¿½ï¿½ï¿½");
+define("_MA_USER_USERSFOUND","%s ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½È¸ï¿½ï¿½ï¿½ï¿½ ï¿½Ë»ï¿½ï¿½Ç¾ï¿½ï¿½ï¿½ï¿½Ï´ï¿½.");
 
-define("_MA_USER_ACTUS", "½ÂÀÎÀÌ ¿Ï·áµÈ(È°¼ºÈ­µÈ) µî·ÏÈ¸¿ø: %s");
-define("_MA_USER_INACTUS", "½ÂÀÎÀÌ ¿Ï·áµÇÁö ¾ÊÀº(ºñÈ°¼ºÈ­) µî·ÏÈ¸¿ø: %s");
-define("_MA_USER_NOFOUND","Á¶°ÇÀ» ¸¸Á·ÇÏ´Â µî·ÏÈ¸¿øÀÌ Á¸ÀçÇÏÁö ¾Ê½À´Ï´Ù.");
-define("_MA_USER_UNAME","¾ÆÀÌµð");
-define("_MA_USER_ICQ","ICQ ¹øÈ£");
-define("_MA_USER_AIM","AOL ¸Þ½ÅÁ®");
-define("_MA_USER_YIM","Yahoo!¸Þ½ÅÁ®");
-define("_MA_USER_MSNM","MSN¸Þ½ÅÁ®");
-define("_MA_USER_LOCATION","ÁÖ¼Ò");
-define("_MA_USER_OCCUPATION","Á÷¾÷");
-define("_MA_USER_INTEREST","Ãë¹Ì");
-define("_MA_USER_URLC","È¨ÆäÀÌÁö URL");
-define("_MA_USER_SORT","Á¤·ÄÁ¶°Ç");
-define("_MA_USER_ORDER","Ç¥½Ã¼ø");
-define("_MA_USER_LASTLOGIN","ÃÖÁ¾·Î±×ÀÎ ÀÏ½Ã");
-define("_MA_USER_POSTS","Åõ°í ¼ö");
-define("_MA_USER_ASC","¿À¸§Â÷¼ø");
-define("_MA_USER_DESC","³»¸²Â÷¼ø");
-define("_MA_USER_LIMIT","ÆäÀÌÁö´ç Ç¥½ÃÇÒ µî·ÏÈ¸¿ø¼ö");
-define("_MA_USER_RESULTS", "°Ë»ö°á°ú");
-define("_MA_USER_SHOWMAILOK", "Ç¥½ÃÇÒ µî·ÏÈ¸¿øÀÇ Å¸ÀÔ");
-define("_MA_USER_MAILOK","¸ÞÀÏ¼ö½Å OKÀÎ µî·ÏÈ¸¿ø¿¡°Ô¸¸");
-define("_MA_USER_MAILNG","¸ÞÀÏ¼ö½Å NOÀÎ µî·ÏÈ¸¿ø¿¡°Ô¸¸");
-define("_MA_USER_BOTH", "¸ðµç µî·ÏÈ¸¿ø");
+define("_MA_USER_ACTUS","ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ï·ï¿½ï¿½(È°ï¿½ï¿½È­ï¿½ï¿½) ï¿½ï¿½ï¿½È¸ï¿½ï¿½: %s");
+define("_MA_USER_INACTUS","ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ï·ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½(ï¿½ï¿½È°ï¿½ï¿½È­) ï¿½ï¿½ï¿½È¸ï¿½ï¿½: %s");
+define("_MA_USER_NOFOUND","ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï´ï¿½ ï¿½ï¿½ï¿½È¸ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ê½ï¿½ï¿½Ï´ï¿½.");
+define("_MA_USER_UNAME","ï¿½ï¿½ï¿½Ìµï¿½");
+define("_MA_USER_ICQ","ICQ ï¿½ï¿½È£");
+define("_MA_USER_AIM","AOL ï¿½Þ½ï¿½ï¿½ï¿½");
+define("_MA_USER_YIM","Yahoo!ï¿½Þ½ï¿½ï¿½ï¿½");
+define("_MA_USER_MSNM","MSNï¿½Þ½ï¿½ï¿½ï¿½");
+define("_MA_USER_LOCATION","ï¿½Ö¼ï¿½");
+define("_MA_USER_OCCUPATION","ï¿½ï¿½ï¿½ï¿½");
+define("_MA_USER_INTEREST","ï¿½ï¿½ï¿½");
+define("_MA_USER_URLC","È¨ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ URL");
+define("_MA_USER_SORT","ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
+define("_MA_USER_ORDER","Ç¥ï¿½Ã¼ï¿½");
+define("_MA_USER_LASTLOGIN","ï¿½ï¿½ï¿½ï¿½ï¿½Î±ï¿½ï¿½ï¿½ ï¿½Ï½ï¿½");
+define("_MA_USER_POSTS","ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½");
+define("_MA_USER_ASC","ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
+define("_MA_USER_DESC","ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
+define("_MA_USER_LIMIT","ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Ç¥ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½È¸ï¿½ï¿½ï¿½ï¿½");
+define("_MA_USER_RESULTS","ï¿½Ë»ï¿½ï¿½ï¿½ï¿½");
+define("_MA_USER_SHOWMAILOK","Ç¥ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½È¸ï¿½ï¿½ï¿½ï¿½ Å¸ï¿½ï¿½");
+define("_MA_USER_MAILOK","ï¿½ï¿½ï¿½Ï¼ï¿½ï¿½ï¿½ OKï¿½ï¿½ ï¿½ï¿½ï¿½È¸ï¿½ï¿½ï¿½ï¿½ï¿½Ô¸ï¿½");
+define("_MA_USER_MAILNG","ï¿½ï¿½ï¿½Ï¼ï¿½ï¿½ï¿½ NOï¿½ï¿½ ï¿½ï¿½ï¿½È¸ï¿½ï¿½ï¿½ï¿½ï¿½Ô¸ï¿½");
+define("_MA_USER_BOTH","ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½È¸ï¿½ï¿½");
 
-define("_MA_USER_RANGE_LAST_LOGIN","<span style='color:#ff0000;'>X</span>ÀÏ ÀÌ³»¿¡ ·Î±×ÀÎÇÑÀûÀÌ ÀÖ´Â");
-define("_MA_USER_RANGE_USER_REGDATE","µî·ÏÀÏÀÌ <span style='color:#ff0000;'>X</span>ÀÏ ÀÌ³»ÀÎ ");
-define("_MA_USER_RANGE_POSTS","Åõ°í¼ö");
+define("_MA_USER_RANGE_LAST_LOGIN","<span style='color:#ff0000;'>X</span>ï¿½ï¿½ ï¿½Ì³ï¿½ï¿½ï¿½ ï¿½Î±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ö´ï¿½");
+define("_MA_USER_RANGE_USER_REGDATE","ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ <span style='color:#ff0000;'>X</span>ï¿½ï¿½ ï¿½Ì³ï¿½ï¿½ï¿½ ");
+define("_MA_USER_RANGE_POSTS","ï¿½ï¿½ï¿½ï¿½ï¿½");
 
-define("_MA_USER_HASAVATAR", "¾Æ¹ÙÅ¸¸¦ °¡Áø");
-define("_MA_USER_MODE_SIMPLE", "½ÉÇÃ ¸ðµå");
-define("_MA_USER_MODE_ADVANCED", "»ó¼¼ ¸ðµå");
-define("_MA_USER_MODE_QUERY", "Query ¸ðµå");
-define("_MA_USER_QUERY", "Query");
+define("_MA_USER_HASAVATAR","ï¿½Æ¹ï¿½Å¸ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½");
+define("_MA_USER_MODE_SIMPLE","ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½");
+define("_MA_USER_MODE_ADVANCED","ï¿½ï¿½ ï¿½ï¿½ï¿½");
+define("_MA_USER_MODE_QUERY","Query ï¿½ï¿½ï¿½");
+define("_MA_USER_QUERY","Query");
 
-define("_MA_USER_SEARCHAGAIN", "´Ù½Ã °Ë»ö");
-define("_MA_USER_NOUSERSELECTED", "¼±ÅÃµÈ »ç¿ëÀÚ°¡ ¾ø½À´Ï´Ù.");
-define("_MA_USER_USERADDED", "»ç¿ëÀÚ°¡ Ãß°¡µÇ¾îÁ³½À´Ï´Ù.");
+define("_MA_USER_SEARCHAGAIN","ï¿½Ù½ï¿½ ï¿½Ë»ï¿½");
+define("_MA_USER_NOUSERSELECTED","ï¿½ï¿½ï¿½Ãµï¿½ ï¿½ï¿½ï¿½ï¿½Ú°ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï´ï¿½.");
+define("_MA_USER_USERADDED","ï¿½ï¿½ï¿½ï¿½Ú°ï¿½ ï¿½ß°ï¿½ï¿½Ç¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï´ï¿½.");
 
-define("_MA_USER_SENDMAIL","¸ÞÀÏ ¹ß¼Û");
+define("_MA_USER_SENDMAIL","ï¿½ï¿½ï¿½ï¿½ ï¿½ß¼ï¿½");
 
 ?>

@@ -22,7 +22,7 @@ defined( 'XOOPS_ROOT_PATH' ) or die( 'Restricted access' );
 /**
  * Module Menu Items
  */
-define( '_XO_MI_MEMBERS_NAME', 'اعضا' );
-define( '_XO_MI_MEMBERS_DESC', 'نمایش لیست اعضای ثبت نام شده در سایت' );
+define('_XO_MI_MEMBERS_NAME','اعضا' );
+define('_XO_MI_MEMBERS_DESC','نمایش لیست اعضای ثبت نام شده در سایت' );
 
 ?>

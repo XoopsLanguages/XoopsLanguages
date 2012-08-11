@@ -55,25 +55,25 @@ define("_AM_RUSUREDEL","本当に削除してもいいですか？: ブロック
 define("_AM_NAME","名称");
 define("_AM_USEFULTAGS","使えるタグ:");
 define("_AM_BLOCKTAG1","%s は %s を表示します");
-define('_AM_SVISIBLEIN', '表示する画面： %s ');//Show blocks visible in %s');
-define('_AM_TOPPAGE', 'トップページ');
-define('_AM_VISIBLEIN', '表示する画面');
-define('_AM_ALLPAGES', '全ページ');
-define('_AM_TOPONLY', 'トップページのみ');
-define('_AM_ADVANCED', '高度な設定');
-define('_AM_BCACHETIME', 'Cache 期間');
-define('_AM_BALIAS', '別名');
-define('_AM_CLONE', '複製');  // clone a block
-define('_AM_CLONEBLK', '複製'); // cloned block
-define('_AM_CLONEBLOCK', '複製ブロックの作成');
-define('_AM_NOTSELNG', "'%s' は選択されていません!"); // error message
-define('_AM_EDITTPL', 'テンプレート編集');
-define('_AM_MODULE', 'モジュール');
-define('_AM_GROUP', 'グループ');
-define('_AM_UNASSIGNED', '未割り当て');
+define('_AM_SVISIBLEIN','表示する画面： %s ');//Show blocks visible in %s');
+define('_AM_TOPPAGE','トップページ');
+define('_AM_VISIBLEIN','表示する画面');
+define('_AM_ALLPAGES','全ページ');
+define('_AM_TOPONLY','トップページのみ');
+define('_AM_ADVANCED','高度な設定');
+define('_AM_BCACHETIME','Cache 期間');
+define('_AM_BALIAS','別名');
+define('_AM_CLONE','複製');  // clone a block
+define('_AM_CLONEBLK','複製'); // cloned block
+define('_AM_CLONEBLOCK','複製ブロックの作成');
+define('_AM_NOTSELNG',"'%s' は選択されていません!"); // error message
+define('_AM_EDITTPL','テンプレート編集');
+define('_AM_MODULE','モジュール');
+define('_AM_GROUP','グループ');
+define('_AM_UNASSIGNED','未割り当て');
 
 define("_AM_CUSTOM","カスタムブロック");
-define('_AM_GENERATOR', 'ブロック生成: %s');
-define('_AM_TYPES', '全種類');
+define('_AM_GENERATOR','ブロック生成: %s');
+define('_AM_TYPES','全種類');
 
 ?>

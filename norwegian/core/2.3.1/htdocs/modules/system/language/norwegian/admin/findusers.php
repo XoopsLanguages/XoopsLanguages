@@ -13,8 +13,8 @@ define("_AM_PREVIOUS","Forrige");
 define("_AM_NEXT","Neste");
 define("_AM_USERSFOUND","%s bruker(e) funnet");
 
-define("_AM_ACTUS", "Aktive brukere: %s");
-define("_AM_INACTUS", "Inaktive brukere: %s");
+define("_AM_ACTUS","Aktive brukere: %s");
+define("_AM_INACTUS","Inaktive brukere: %s");
 define("_AM_NOFOUND","Ingen brukere funnet");
 define("_AM_UNAME","Brukernavn");
 define("_AM_ICQ","ICQ Nummer");
@@ -38,16 +38,16 @@ define("_AM_POSTS","Antall innlegg");
 define("_AM_ASC","Stigende rekkefølge");
 define("_AM_DESC","Synkende rekkefølge");
 define("_AM_LIMIT","Antall brukere per side");
-define("_AM_RESULTS", "Søkeresultater");
-define("_AM_SHOWMAILOK", "Type bruke å vise");
+define("_AM_RESULTS","Søkeresultater");
+define("_AM_SHOWMAILOK","Type bruke å vise");
 define("_AM_MAILOK","Kun brukere som tillater mottak av epost");
 define("_AM_MAILNG","Kun brukere som IKKE tillater mottak av epost");
-define("_AM_SHOWTYPE", "Type bruke å vise");
+define("_AM_SHOWTYPE","Type bruke å vise");
 define("_AM_ACTIVE","Kun aktive brukere");
 define("_AM_INACTIVE","Kun inaktive brukere");
-define("_AM_BOTH", "Alle brukere");
-define("_AM_SENDMAIL", "Send epost");
-define("_AM_ADD2GROUP", "Legg til brukere til %s gruppen");
+define("_AM_BOTH","Alle brukere");
+define("_AM_SENDMAIL","Send epost");
+define("_AM_ADD2GROUP","Legg til brukere til %s gruppen");
 
-define("_AM_GROUPS", "Grupper");
+define("_AM_GROUPS","Grupper");
 ?>

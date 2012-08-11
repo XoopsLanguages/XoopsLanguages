@@ -44,12 +44,12 @@ define("_AM_MODULEADMIN_ABOUT_LICENSE","Лицензия: ");
 define("_AM_MODULEADMIN_ABOUT_AUTHOR_NAME","Имя автора: ");
 define("_AM_MODULEADMIN_ABOUT_AUTHOR_INFO","Об авторе");
 
-define("_AM_MODULEADMIN_HOME", "Главная");
-define("_AM_MODULEADMIN_DASHBOARD", "Dashboard");
-define("_AM_MODULEADMIN_ABOUT", "О модуле");
-define("_AM_MODULEADMIN_PERMISSIONS", "Права");
+define("_AM_MODULEADMIN_HOME","Главная");
+define("_AM_MODULEADMIN_DASHBOARD","Dashboard");
+define("_AM_MODULEADMIN_ABOUT","О модуле");
+define("_AM_MODULEADMIN_PERMISSIONS","Права");
 
 //ModuleAdmin
-define("_AM_MODULEADMIN_ADMIN_FOOTER", "<div class='center smallsmall italic pad5'>Этот модуль поддерживается <a class='tooltip' rel='external' href='http://xoops.org/' title='Посетить сообщество XOOPS'>сообществом XOOPS</a></div>");
+define("_AM_MODULEADMIN_ADMIN_FOOTER","<div class='center smallsmall italic pad5'>Этот модуль поддерживается <a class='tooltip' rel='external' href='http://xoops.org/' title='Посетить сообщество XOOPS'>сообществом XOOPS</a></div>");
 
 ?>

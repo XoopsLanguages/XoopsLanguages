@@ -15,10 +15,10 @@
  * @since       2.3.0
  */
  
-define('_CONTENT_TYPE', 'نوع منو: ');
-define('_CONTENT_HORIZ', 'افقی');
-define('_CONTENT_VERT', 'عمودی');
-define('_CONTENT_SIMPLE', 'ساده');
+define('_CONTENT_TYPE','نوع منو: ');
+define('_CONTENT_HORIZ','افقی');
+define('_CONTENT_VERT','عمودی');
+define('_CONTENT_SIMPLE','ساده');
 
-define('_CONTENT_SELECTPAGE', 'انتخاب صفحه: ');
+define('_CONTENT_SELECTPAGE','انتخاب صفحه: ');
 ?>

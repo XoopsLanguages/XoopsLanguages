@@ -60,6 +60,6 @@ define('_AM_SYSTEM_FILEMANAGER_DIR_SUCCESS','Folder succesvol aangemaakt');
 define('_AM_SYSTEM_FILEMANAGER_DIR_ERROR','Folder kan niet worden aangemaakt');
 define('_AM_SYSTEM_FILEMANAGER_DIR_RYSDEL','Zeker weten dat u deze folder wilt verwijderen?');
 define('_AM_SYSTEM_FILEMANAGER_FILE_SUCCESS','Bestand succesvol verwijderd');
-define('_AM_SYSTEM_FILEMANAGER_SUREDEL', 'Zeker weten dat u dit bestand %s wilt verwijderen?');
-define('_AM_SYSTEM_FILEMANAGER_DIR_SUREDEL', 'Zeker weten dat u deze folder %s wilt verwijderen ?<br />Waarschuwing : Alle subfolders en bestanden worden ook verwijderd.');
+define('_AM_SYSTEM_FILEMANAGER_SUREDEL','Zeker weten dat u dit bestand %s wilt verwijderen?');
+define('_AM_SYSTEM_FILEMANAGER_DIR_SUREDEL','Zeker weten dat u deze folder %s wilt verwijderen ?<br />Waarschuwing : Alle subfolders en bestanden worden ook verwijderd.');
 ?>

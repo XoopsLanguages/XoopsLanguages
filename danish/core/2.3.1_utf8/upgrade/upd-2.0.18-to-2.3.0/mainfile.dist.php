@@ -26,20 +26,20 @@ if ( !defined("XOOPS_MAINFILE_INCLUDED") ) {
     // XOOPS Physical Paths
     
     // Physical path to the XOOPS documents (served) directory WITHOUT trailing slash
-    define("XOOPS_ROOT_PATH", "");
+    define("XOOPS_ROOT_PATH","");
 
     // For forward compatibility
     // Physical path to the XOOPS library directory WITHOUT trailing slash
-    define("XOOPS_PATH", "");
+    define("XOOPS_PATH","");
     // Physical path to the XOOPS datafiles (writable) directory WITHOUT trailing slash
-    define("XOOPS_VAR_PATH", "");
+    define("XOOPS_VAR_PATH","");
     // Alias of XOOPS_PATH, for compatibility, temporary solution
     define("XOOPS_TRUST_PATH", XOOPS_PATH);
 
     // XOOPS Virtual Path (URL)
     // Virtual path to your main XOOPS directory WITHOUT trailing slash
-    // Example: define("XOOPS_URL", "http://url_to_xoops_directory");
-    define("XOOPS_URL", "http://");
+    // Example: define("XOOPS_URL","http://url_to_xoops_directory");
+    define("XOOPS_URL","http://");
 
     define("XOOPS_CHECK_PATH", 0);
     // Protect against external scripts execution if safe mode is not enabled
@@ -64,39 +64,39 @@ if ( !defined("XOOPS_MAINFILE_INCLUDED") ) {
 
     // Database
     // Choose the database to be used
-    define("XOOPS_DB_TYPE", "mysql");
+    define("XOOPS_DB_TYPE","mysql");
 
     // Set the database charset if applicable
     if (defined("XOOPS_DB_CHARSET")) die();
-    define("XOOPS_DB_CHARSET", "");
+    define("XOOPS_DB_CHARSET","");
 
     // Table Prefix
     // This prefix will be added to all new tables created to avoid name conflict in the database. If you are unsure, just use the default "xoops".
-    define("XOOPS_DB_PREFIX", "xoops");
+    define("XOOPS_DB_PREFIX","xoops");
 
     // Database Hostname
     // Hostname of the database server. If you are unsure, "localhost" works in most cases.
-    define("XOOPS_DB_HOST", "localhost");
+    define("XOOPS_DB_HOST","localhost");
 
     // Database Username
     // Your database user account on the host
-    define("XOOPS_DB_USER", "");
+    define("XOOPS_DB_USER","");
 
     // Database Password
     // Password for your database user account
-    define("XOOPS_DB_PASS", "");
+    define("XOOPS_DB_PASS","");
 
     // Database Name
     // The name of database on the host. The installer will attempt to create the database if not exist
-    define("XOOPS_DB_NAME", "");
+    define("XOOPS_DB_NAME","");
 
     // Use persistent connection? (Yes=1 No=0)
     // Default is "Yes". Choose "Yes" if you are unsure.
     define("XOOPS_DB_PCONNECT", 0);
 
-    define("XOOPS_GROUP_ADMIN", "1");
-    define("XOOPS_GROUP_USERS", "2");
-    define("XOOPS_GROUP_ANONYMOUS", "3");
+    define("XOOPS_GROUP_ADMIN","1");
+    define("XOOPS_GROUP_USERS","2");
+    define("XOOPS_GROUP_ANONYMOUS","3");
     
     if (!isset($xoopsOption["nocommon"]) && XOOPS_ROOT_PATH != "") {
         include XOOPS_ROOT_PATH."/include/common.php";

@@ -30,9 +30,9 @@ define("_AM_UNEED2ENTER","请填入必填项目的信息！");
 // Added in RC3
 define("_AM_BLOCKRIGHTS","区块使用权限");
 
-define('_AM_FINDU4GROUP', '查找此群组会员');
-define('_AM_GROUPSMAIN', '群组管理首页');
+define('_AM_FINDU4GROUP','查找此群组会员');
+define('_AM_GROUPSMAIN','群组管理首页');
 define("_AM_CUSTOMBLOCK","自定义区块");
 
-define('_AM_ADMINNO', '管理员组至少要有一个成员');
+define('_AM_ADMINNO','管理员组至少要有一个成员');
 ?>

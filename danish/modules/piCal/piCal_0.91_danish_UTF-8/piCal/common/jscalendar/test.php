@@ -61,7 +61,7 @@ $calendar->load_files();
 $cwd = getcwd();
 chdir('lang');
 foreach (glob('*.js') as $filename) {
-    $l = preg_replace('/(^calendar-|.js$)/', '', $filename);
+    $l = preg_replace('/(^calendar-|.js$)/','', $filename);
     $selected = '';
     if ($l == $lang)
         $selected = 'selected="selected" ';

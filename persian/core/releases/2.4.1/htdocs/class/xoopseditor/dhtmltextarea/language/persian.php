@@ -12,5 +12,5 @@
 /*
  * Assocated with editor_registry.php
  */
-define("_XOOPS_EDITOR_DHTMLTEXTAREA", "ویرایشگر DHTML همراه با کد‌های زوپس");
+define("_XOOPS_EDITOR_DHTMLTEXTAREA","ویرایشگر DHTML همراه با کد‌های زوپس");
 ?>

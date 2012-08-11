@@ -18,7 +18,7 @@ define("_MI_TADGAL_ADMENU2","Управление категориями");
 define("_MI_TADGAL_ADMENU3","Управление лучшими фотографиями");
 define("_MI_TADGAL_ADMENU4","Обновление модуля");
 define("_MI_TADGAL_ADMENU5","Генерация Media RSS");
-define("_MI_TADGAL_ADMENU6", "Управление групповой загрузкой");
+define("_MI_TADGAL_ADMENU6","Управление групповой загрузкой");
 define("_MI_TADGAL_TEMPLATE_DESC1","Шаблон альбома");
 define("_MI_TADGAL_TEMPLATE_DESC2","Единый фото шаблон");
 define("_MI_TADGAL_TEMPLATE_DESC3","Шаблон слайд-шоу");

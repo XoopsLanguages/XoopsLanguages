@@ -38,7 +38,7 @@ define('_US_REGISTERNG','Kunde inte registrera ny användar.');
 define('_US_MAILOK','Få enstaka e-post notiser <br />från administratörer och ordförande?');
 define('_US_DISCLAIMER','Avsägande');
 define('_US_IAGREE',' Jag godkänner ovanstående');
-define('_US_UNEEDAGREE', 'Ursäkt, men du måste godkänna vårt avsägande för att bli registrerat.');
+define('_US_UNEEDAGREE','Ursäkt, men du måste godkänna vårt avsägande för att bli registrerat.');
 define('_US_NOREGISTER','Ursäkt, vi har för närvarande stängd för nya använder registreringar');
 
 
@@ -71,15 +71,15 @@ define('_US_SORRYNOTFOUND','Ledsen, inga motsvarande användare info var funnen.
 
 // %s is your site name
 define('_US_NEWPWDREQ','Ny Lösenord Begäran vid %s');
-define('_US_YOURACCOUNT', 'Din konto vid %s');
+define('_US_YOURACCOUNT','Din konto vid %s');
 
 define('_US_MAILPWDNG','mail_password: kunde inte uppdatera användare inlägg. Kontakta Administratören');
 
 // %s is a username
 define('_US_PWDMAILED','Lösenord för %s skickat.');
 define('_US_CONFMAIL','Bekräftelses brev för %s skickat.');
-define('_US_ACTVMAILNG', 'Misslyckades sändande underrättelses brev till %s');
-define('_US_ACTVMAILOK', 'Underrättelses brev till %s skickad.');
+define('_US_ACTVMAILNG','Misslyckades sändande underrättelses brev till %s');
+define('_US_ACTVMAILOK','Underrättelses brev till %s skickad.');
 
 //%%%%%%		File Name userinfo.php 		%%%%%
 define('_US_SELECTNG','Ingen Användare Vald! Vänligen gå tillbaka och prova igen.');
@@ -123,23 +123,23 @@ define('_US_PROFUPDATED','Din Profil Uppdaterad!');
 define('_US_USECOOKIE','Förvara mitt användare namn i en kaka i 1 år');
 define('_US_NO','Nej');
 define('_US_DELACCOUNT','Ta bort Konto');
-define('_US_MYAVATAR', 'Min Avatar');
-define('_US_UPLOADMYAVATAR', 'Ladda upp Avatar');
+define('_US_MYAVATAR','Min Avatar');
+define('_US_UPLOADMYAVATAR','Ladda upp Avatar');
 define('_US_MAXPIXEL','Max Bildpunkter');
 define('_US_MAXIMGSZ','Max Bild Storlek (Bytes)');
 define('_US_SELFILE','Välj fil');
 define('_US_OLDDELETED','Din gammal avatar kommer att bli raderad!');
-define('_US_CHOOSEAVT', 'Välj avatar från tillgänglig lista');
+define('_US_CHOOSEAVT','Välj avatar från tillgänglig lista');
 
-define('_US_PRESSLOGIN', 'Tryck knappen nedan inloggning');
+define('_US_PRESSLOGIN','Tryck knappen nedan inloggning');
 
-define('_US_ADMINNO', 'Användare i webmasters grupp kan inte tas bort');
-define('_US_GROUPS', 'Användare\'s Grupper');
+define('_US_ADMINNO','Användare i webmasters grupp kan inte tas bort');
+define('_US_GROUPS','Användare\'s Grupper');
 
-define('_US_REMEMBERME', 'Kom ihåg mig');
+define('_US_REMEMBERME','Kom ihåg mig');
 
 // Welcoming emai/PM subject
-define('_US_WELCOME_SUBJECT', 'Välkommen till %s');
+define('_US_WELCOME_SUBJECT','Välkommen till %s');
 
 ?>
 

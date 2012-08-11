@@ -10,7 +10,7 @@
  *  calendar by instantiating and calling a PHP object.
  */
 
-define('NEWLINE', "\n");
+define('NEWLINE',"\n");
 
 class DHTML_Calendar {
     var $calendar_lib_path;
@@ -34,7 +34,7 @@ class DHTML_Calendar {
         }
         $this->calendar_lang_file = 'lang/calendar-' . $lang . '.js';
         $this->calendar_theme_file = $theme.'.css';
-        $this->calendar_lib_path = preg_replace('/\/+$/', '/', $calendar_lib_path);
+        $this->calendar_lib_path = preg_replace('/\/+$/','/', $calendar_lib_path);
         $this->calendar_options = array('ifFormat' => '%Y/%m/%d',
                                         'daFormat' => '%Y/%m/%d');
     }

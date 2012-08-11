@@ -13,8 +13,8 @@ define("_AD_NICKNAME","Nik ime:");
 define("_AD_EMAIL","E-Mail:");
 define("_AD_AVATAR","Avatar:");
 define("_AD_REGISTERED","Registrovan(a):"); //Registered Date
-define('_AD_PRESSGEN', 'Ovo je prvi puta da ulazi&scaron; Adminovo-Podru&#269;je. Molim te klikni na "Po&scaron;alji" da bi nastavili.');
-define('_AD_LOGINADMIN', 'Loguje se...');
+define('_AD_PRESSGEN','Ovo je prvi puta da ulazi&scaron; Adminovo-Podru&#269;je. Molim te klikni na "Po&scaron;alji" da bi nastavili.');
+define('_AD_LOGINADMIN','Loguje se...');
 
 define("_AD_WARNINGINSTALL","Pa&#382;nja: Direktorij %s postoji na serveru. <br />Molimo te da izbri&scaron;e&scaron; ovaj direktorij iz sigurnosnih razloga.");
 define("_AD_WARNINGWRITEABLE","Pa&#382;nja: Ovaj podatak %s je na serveru otvoren za pisanje. <br />Molimo te izmjeni pristup podatku sa FTP programom.<br /> u Unixu (444), u Win32 (read-only)");

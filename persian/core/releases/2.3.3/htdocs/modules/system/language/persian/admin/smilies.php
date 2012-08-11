@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 // $Id: smilies.php 2 2005-11-02 18:23:29Z skalpa $
 // Add Persian Language by Persain Xoops Project www.irxoops.org
 //%%%%%%	Admin Module Name  Smilies 	%%%%%
@@ -19,5 +19,5 @@ define('_AM_SMILEEMOTION','شرح:');
 define('_AM_ADD','اضافه');
 define('_AM_SAVE','ذخیره');
 define('_AM_WAYSYWTDTS','هشدار: ایا مطمئنید که می‌خواهید این لبخندک را حذف کنید؟');
-define('_AM_DISPLAYF', 'در ویرایشگر نشان داده شود؟');
+define('_AM_DISPLAYF','در ویرایشگر نشان داده شود؟');
 ?>

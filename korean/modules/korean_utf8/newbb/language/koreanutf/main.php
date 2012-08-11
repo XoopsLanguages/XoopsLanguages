@@ -162,7 +162,7 @@ define("_MD_OPTIONS","옵션:");
 define("_MD_POSTANONLY","익명 투고");
 define("_MD_DISABLESMILEY","얼굴아이콘을 무효화");
 define("_MD_DISABLEHTML","HTML태그 무료화");
-define("_MD_NEWPOSTNOTIFY", "이 토픽에 대한 신규투고가 있는 경우 통지함");
+define("_MD_NEWPOSTNOTIFY","이 토픽에 대한 신규투고가 있는 경우 통지함");
 define("_MD_ATTACHSIG","서명첨부");
 define("_MD_POST","투고");
 define("_MD_SUBMIT","보내기");

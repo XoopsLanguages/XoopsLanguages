@@ -13,7 +13,7 @@ define("_NW_COMMENTS","Комментарии?");
 define("_NW_ONECOMMENT","1 комментарий");
 define("_NW_BYTESMORE","%s слов(а,о) еще");
 define("_NW_NUMCOMMENTS","%s комментариев");
-define("_NW_MORERELEASES", "Другие статьи в разделе ");
+define("_NW_MORERELEASES","Другие статьи в разделе ");
 
 //%%%%%%		File Name submit.php		%%%%%
 define("_NW_SUBMITNEWS","Создание новости");

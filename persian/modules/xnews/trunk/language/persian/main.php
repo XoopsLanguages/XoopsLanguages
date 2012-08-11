@@ -8,7 +8,7 @@ define("_MA_NW_COMMENTS","نظر");
 define("_MA_NW_ONECOMMENT","1 نظر");
 define("_MA_NW_BYTESMORE","%s کلمه در ادامه متن");
 define("_MA_NW_NUMCOMMENTS","%s نظر");
-define("_MA_NW_MORERELEASES", "خبرهای دیگر از");
+define("_MA_NW_MORERELEASES","خبرهای دیگر از");
 
 
 //%%%%%%		File Name submit.php		%%%%%
@@ -113,20 +113,20 @@ define("_MA_NW_BOOKMARK_TO_YAHOO","ارسال خبر به یاهو");
 
 // Added in version 1.56
 define('_MA_NW_NOTYETSTORY',"متاسفانه خبر انتخاب‌شده شما هنوز منتشر نشده‌است. لطفا بعدا مراجعه و امتحان کنید.");
-define('_MA_NW_SELECT_IMAGE', "انتخاب تصویر برای اضافه شدن به خبر");
-define('_MA_NW_CURENT_PICTURE', "تصویر فعلی");
+define('_MA_NW_SELECT_IMAGE',"انتخاب تصویر برای اضافه شدن به خبر");
+define('_MA_NW_CURENT_PICTURE',"تصویر فعلی");
 
 // Added in version 1.68
-define("_MA_NW_SP", ":");
-define("_MA_NW_POSTED", "فرستاده شده در تاریخ");
+define("_MA_NW_SP",":");
+define("_MA_NW_POSTED","فرستاده شده در تاریخ");
 
 // Added in version 1.68 RC1
-define("_MA_NW_NO_COMMENT", "بدون نظر");
-define("_MA_NW_METASIZE", "متاسفانه شما نمیتوانید مطالب را به صورت '+len+' در محل ورود متن وارد کنید باید آنها را به طور کامل وارد کنید.");
+define("_MA_NW_NO_COMMENT","بدون نظر");
+define("_MA_NW_METASIZE","متاسفانه شما نمیتوانید مطالب را به صورت '+len+' در محل ورود متن وارد کنید باید آنها را به طور کامل وارد کنید.");
 
 // Added in version 1.68 RC3
-define("_MA_NW_SEO_TOPICS", "شاخه ها");
-define("_MA_NW_SEO_ARTICLES", "مطالب");
-define("_MA_NW_SEO_PRINT", "چاپ");
-define("_MA_NW_SEO_PDF", "pdf");
+define("_MA_NW_SEO_TOPICS","شاخه ها");
+define("_MA_NW_SEO_ARTICLES","مطالب");
+define("_MA_NW_SEO_PRINT","چاپ");
+define("_MA_NW_SEO_PDF","pdf");
 ?>

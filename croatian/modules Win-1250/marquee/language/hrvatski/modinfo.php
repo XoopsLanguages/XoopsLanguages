@@ -1,7 +1,7 @@
 <?php
 //  ------------------------------------------------------------------------ //
 //                      MARQUEE - MODULE FOR XOOPS 2                         //
-//                  Copyright (c) 2005-2006 HervÈ Thouzard                   //
+//                  Copyright (c) 2005-2006 Herv√© Thouzard                   //
 //                     <http://www.herve-thouzard.com/>                      //
 // ------------------------------------------------------------------------- //
 //  This program is free software; you can redistribute it and/or modify     //
@@ -24,26 +24,26 @@
 //  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 USA //
 //  ------------------------------------------------------------------------ //
 
-define("_MI_MARQUEE_DESC",		"OmoguÊava vam stvaranje pomiËnog teksta (marquees)");
+define("_MI_MARQUEE_DESC",		"Omogu√¶ava vam stvaranje pomi√®nog teksta (marquees)");
 define("_MI_MARQUEE_BNAME_01",	"Klizni tekst 01");
-define("_MI_MARQUEE_BDESC_01",	"Prikaûi klizni tekst 01");
+define("_MI_MARQUEE_BDESC_01",	"Prika≈æi klizni tekst 01");
 define("_MI_MARQUEE_BNAME_02",	"Klizni tekst 02");
-define("_MI_MARQUEE_BDESC_02",	"Prikaûi klizni tekst 02");
+define("_MI_MARQUEE_BDESC_02",	"Prika≈æi klizni tekst 02");
 define("_MI_MARQUEE_BNAME_03",	"Klizni tekst 03");
-define("_MI_MARQUEE_BDESC_03",	"Prikaûi klizni tekst 03");
+define("_MI_MARQUEE_BDESC_03",	"Prika≈æi klizni tekst 03");
 define("_MI_MARQUEE_BNAME_04",	"Klizni tekst 04");
-define("_MI_MARQUEE_BDESC_04",	"Prikaûi klizni tekst 04");
+define("_MI_MARQUEE_BDESC_04",	"Prika≈æi klizni tekst 04");
 define("_MI_MARQUEE_MENU_01",	"Upravljanje kliznim tekstovima");
-define("_MI_MARQUEE_USE_KIOVI", "Koristi kiovi ?");
-define("_MI_MARQUEE_USE_KIOVI_DESC","Ako je pronaen onda Êe se koristiti Kiovi");
-define("_MI_MARQUEE_METHOD","NaËin koriötenja");
-define("_MI_MARQUEE_METHOD_DESC","Ako izaberete 'Marquee' naËin onda Êe modul koristiti html marquee's tag, ova metoda nije kompatibilna sa svim navigatorima ali nudi puno opcija.<br>Ako izaberete 'dhtml' naËin, onda Êe klizni tekst raditi sa viöe navigatora ali Êe zahtjevati viöe koda na vaöoj stranici i imat Êete manje opcija");
+define("_MI_MARQUEE_USE_KIOVI","Koristi kiovi ?");
+define("_MI_MARQUEE_USE_KIOVI_DESC","Ako je prona√∞en onda √¶e se koristiti Kiovi");
+define("_MI_MARQUEE_METHOD","Na√®in kori≈°tenja");
+define("_MI_MARQUEE_METHOD_DESC","Ako izaberete 'Marquee' na√®in onda √¶e modul koristiti html marquee's tag, ova metoda nije kompatibilna sa svim navigatorima ali nudi puno opcija.<br>Ako izaberete 'dhtml' na√®in, onda √¶e klizni tekst raditi sa vi≈°e navigatora ali √¶e zahtjevati vi≈°e koda na va≈°oj stranici i imat √¶ete manje opcija");
 define("_MI_MARQUEE_MARQUEE","Marquee");
 define("_MI_MARQUEE_DHTML","Javascript");
 define("_MI_MARQUEE_DATEFORMAT","Format datuma");
-define("_MI_MARQUEE_DATEFORMAT_DESC","Molim pogledajte u Php dokumentaciju (http://fr.php.net/manual/en/function.date.php) za viöe informacija kako podesiti format. Napomena, ako ne upiöete niöta onda Êe se koristiti zadani format datuma");
+define("_MI_MARQUEE_DATEFORMAT_DESC","Molim pogledajte u Php dokumentaciju (http://fr.php.net/manual/en/function.date.php) za vi≈°e informacija kako podesiti format. Napomena, ako ne upi≈°ete ni≈°ta onda √¶e se koristiti zadani format datuma");
 define("_MI_MARQUE_ITEMSCOUNT","Nabrajanje stavki");
-define("_MI_MARQUE_ITEMSCOUNT_DESC","Kad izaberete za koriötenje sadrûaja drugog modula (a ne nepromjenjivi tekst) kod stvaranja kliznog teksta, ovo je broj stavki na listit");
-define("_MI_MARQUE_TITLELENGTH","Duûine naslova");
-define("_MI_MARQUE_TITLELENGTH_DESC","Odredite maksimalnu duûinu naslova stavki (0=nema granice)");
+define("_MI_MARQUE_ITEMSCOUNT_DESC","Kad izaberete za kori≈°tenje sadr≈æaja drugog modula (a ne nepromjenjivi tekst) kod stvaranja kliznog teksta, ovo je broj stavki na listit");
+define("_MI_MARQUE_TITLELENGTH","Du≈æine naslova");
+define("_MI_MARQUE_TITLELENGTH_DESC","Odredite maksimalnu du≈æinu naslova stavki (0=nema granice)");
 ?>

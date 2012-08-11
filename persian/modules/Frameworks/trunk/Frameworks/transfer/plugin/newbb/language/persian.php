@@ -13,6 +13,6 @@
  * @package		Frameworks::transfer
  */
  
-define("_MD_TRANSFER_NEWBB", "انجمن");
-define("_MD_TRANSFER_NEWBB_DESC", "بحث در انجمن ها");
+define("_MD_TRANSFER_NEWBB","انجمن");
+define("_MD_TRANSFER_NEWBB_DESC","بحث در انجمن ها");
 ?>

@@ -13,8 +13,8 @@ define("_AD_NICKNAME","Identifiant");
 define("_AD_EMAIL","Email");
 define("_AD_AVATAR","Avatar");
 define("_AD_REGISTERED","Enregistré le "); //Registered Date
-//define("_AD_PRESSGEN", "Ceci est votre première entrée dans la section administration. Pressez le bouton ci-dessous pour débuter.");
-define("_AD_LOGINADMIN", "Connexion...");
+//define("_AD_PRESSGEN","Ceci est votre première entrée dans la section administration. Pressez le bouton ci-dessous pour débuter.");
+define("_AD_LOGINADMIN","Connexion...");
 define("_AD_WARNINGINSTALL","<span style='color:red; font-weight: bold;'>AVERTISSEMENT</span> : Le répertoire %s existe sur votre serveur. <br />Pour des raisons de sécurité, vous devez supprimer ce répertoire.");
 define("_AD_WARNINGWRITEABLE","<span style='color:red; font-weight: bold;'>AVERTISSEMENT</span>: Le fichier %s est accessible en écriture sur votre serveur. <br />Pour des raisons de sécurité, vous devez changer les permissions de ce fichier Unix (444), Win32 (lecture seule)");
 define("_AD_WARNINGNOTWRITEABLE","<span style='color:red; font-weight: bold;'>AVERTISSEMENT</span> : Le dossier \"%s\" n'est pas accessible en écriture sur votre serveur. <br />Vous devez changer les permissions de ce dossier.<br /> Unix ( chmod 777), Win32 ( lecture seule désactivée)");

@@ -11,24 +11,24 @@
  */
 
 if (!defined('XOOPS_ROOT_PATH')) { exit(); }
-define('TAG_AM_TERM', 'Tag');
+define('TAG_AM_TERM','Tag');
 
-define('TAG_AM_STATS', 'Statistische Infomatie');
-define('TAG_AM_COUNT_TAG', 'Aantal labels: %s');
-define('TAG_AM_COUNT_ITEM', 'Aantal items: %s');
-define('TAG_AM_COUNT_MODULE', 'Aantal modules: %s');
-define('TAG_AM_COUNT_MODULE_TITLE', 'Aantal Labels / Aantal modules');
+define('TAG_AM_STATS','Statistische Infomatie');
+define('TAG_AM_COUNT_TAG','Aantal labels: %s');
+define('TAG_AM_COUNT_ITEM','Aantal items: %s');
+define('TAG_AM_COUNT_MODULE','Aantal modules: %s');
+define('TAG_AM_COUNT_MODULE_TITLE','Aantal Labels / Aantal modules');
 
-define('TAG_AM_EDIT', 'Label administratie');
-define('TAG_AM_SYNCHRONIZATION', 'Synchroniseren');
+define('TAG_AM_EDIT','Label administratie');
+define('TAG_AM_SYNCHRONIZATION','Synchroniseren');
 
-define('TAG_AM_ACTIVE', 'Actief');
-define('TAG_AM_INACTIVE', 'Inactief');
-define('TAG_AM_GLOBAL', 'Globaal');
-define('TAG_AM_ALL', 'Alle modules');
-define('TAG_AM_NUM', 'Aantal voor herhaling');
-define('TAG_AM_IN_PROCESS', 'Data synchronisatie is bezig, even geduld ...');
-define('TAG_AM_FINISHED', 'Data synchronisatie is geslaagd.');
+define('TAG_AM_ACTIVE','Actief');
+define('TAG_AM_INACTIVE','Inactief');
+define('TAG_AM_GLOBAL','Globaal');
+define('TAG_AM_ALL','Alle modules');
+define('TAG_AM_NUM','Aantal voor herhaling');
+define('TAG_AM_IN_PROCESS','Data synchronisatie is bezig, even geduld ...');
+define('TAG_AM_FINISHED','Data synchronisatie is geslaagd.');
 
 //2.3.1
 

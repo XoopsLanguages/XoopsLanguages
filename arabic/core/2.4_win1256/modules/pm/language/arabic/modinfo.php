@@ -4,27 +4,27 @@
 // _CHARSET : windows-1256
 // Translator: Arab XOOPS Team
 
-define("_PM_MI_NAME", "ÇáÑÓÇÆá ÇáÎÇÕÉ");
-define("_PM_MI_DESC", "ÈÑäÇãÌ ááÑÓÇÆá ÇáÎÇÕÉ Èíä ÇáÃÚÖÇÁ");
+define("_PM_MI_NAME","Ã‡Ã¡Ã‘Ã“Ã‡Ã†Ã¡ Ã‡Ã¡ÃŽÃ‡Ã•Ã‰");
+define("_PM_MI_DESC","ÃˆÃ‘Ã¤Ã‡Ã£ÃŒ Ã¡Ã¡Ã‘Ã“Ã‡Ã†Ã¡ Ã‡Ã¡ÃŽÃ‡Ã•Ã‰ ÃˆÃ­Ã¤ Ã‡Ã¡ÃƒÃšÃ–Ã‡Ã");
 
-define("_PM_MI_INDEX", "ÇáÑÆíÓíÉ");
-define("_PM_MI_PRUNE", "ÍÐÝ ÇáÑÓÇÆá");
+define("_PM_MI_INDEX","Ã‡Ã¡Ã‘Ã†Ã­Ã“Ã­Ã‰");
+define("_PM_MI_PRUNE","ÃÃÃ Ã‡Ã¡Ã‘Ã“Ã‡Ã†Ã¡");
 
-define("_PM_MI_LINK_TITLE", "PM Link");
-define("_PM_MI_LINK_DESCRIPTION", "Shows a link to send a private message to the user");
-define("_PM_MI_MESSAGE", "Write a message to");
+define("_PM_MI_LINK_TITLE","PM Link");
+define("_PM_MI_LINK_DESCRIPTION","Shows a link to send a private message to the user");
+define("_PM_MI_MESSAGE","Write a message to");
 
-define("_PM_MI_PRUNESUBJECT", "ÚäæÇä ÑÓÇáÉ ÍÐÝ ÇáÑÓÇÆá");
-define("_PM_MI_PRUNESUBJECT_DESC", "åÐÇ Óíßæä ÚäæÇä ÇáÑÓÇáÉ ÇáÎÇÕÉ ÇáÊí ÓÊÕá ááÚÖæ ÈÚÏ ÍÐÝ ÑÓÇÆáå");
-define("_PM_MI_PRUNEMESSAGE", "äÕ ÑÓÇáÉ ÇáÅÈáÇÛ Úä ÍÐÝ ÇáÑÓÇÆá");
-define("_PM_MI_PRUNEMESSAGE_DESC", "åÐÇ äÕ ÇáÑÓÇáÉ ÇáÊí ÓÊÕá ááÚÖæ áÅÈáÇÛå ÈÍÐÝ ÑÓÇáÉ Ãæ ÃßËÑ ãä ÕäÏæÞ ÑÓÇÆáå. ÇÓÊÎÏã {PM_COUNT} áßí ÊÓÊÈÏá ÈÚÏÏ ÇáÑÓÇÆá ÇáÊí Êã ÍÐÝåÇ");
-define("_PM_MI_PRUNESUBJECTDEFAULT", "ÅÈáÇÛ Úä ÍÐÝ ÑÓÇÆá");
-define("_PM_MI_PRUNEMESSAGEDEFAULT", "äæÏ ÅÚáÇãß ÈÃäå ÎáÇá ÚãáíÉ ÊäÙíÝ ÇáÑÓÇÆá ÇáÎÇÕÉ ÝÞÏ ÞÇã ÇáäÙÇã ÈÅÒÇáÉ {PM_COUNT} ÑÓÇáÉ ãä ÕäÏæÞ ÑÓÇÆáß ÇáÎÇÕÉ æ Ðáß áÊæÝíÑ ÇáãÓÇÍÉ æ ÇáÐÇßÑÉ.");
+define("_PM_MI_PRUNESUBJECT","ÃšÃ¤Ã¦Ã‡Ã¤ Ã‘Ã“Ã‡Ã¡Ã‰ ÃÃÃ Ã‡Ã¡Ã‘Ã“Ã‡Ã†Ã¡");
+define("_PM_MI_PRUNESUBJECT_DESC","Ã¥ÃÃ‡ Ã“Ã­ÃŸÃ¦Ã¤ ÃšÃ¤Ã¦Ã‡Ã¤ Ã‡Ã¡Ã‘Ã“Ã‡Ã¡Ã‰ Ã‡Ã¡ÃŽÃ‡Ã•Ã‰ Ã‡Ã¡ÃŠÃ­ Ã“ÃŠÃ•Ã¡ Ã¡Ã¡ÃšÃ–Ã¦ ÃˆÃšÃ ÃÃÃ Ã‘Ã“Ã‡Ã†Ã¡Ã¥");
+define("_PM_MI_PRUNEMESSAGE","Ã¤Ã• Ã‘Ã“Ã‡Ã¡Ã‰ Ã‡Ã¡Ã…ÃˆÃ¡Ã‡Ã› ÃšÃ¤ ÃÃÃ Ã‡Ã¡Ã‘Ã“Ã‡Ã†Ã¡");
+define("_PM_MI_PRUNEMESSAGE_DESC","Ã¥ÃÃ‡ Ã¤Ã• Ã‡Ã¡Ã‘Ã“Ã‡Ã¡Ã‰ Ã‡Ã¡ÃŠÃ­ Ã“ÃŠÃ•Ã¡ Ã¡Ã¡ÃšÃ–Ã¦ Ã¡Ã…ÃˆÃ¡Ã‡Ã›Ã¥ ÃˆÃÃÃ Ã‘Ã“Ã‡Ã¡Ã‰ ÃƒÃ¦ ÃƒÃŸÃ‹Ã‘ Ã£Ã¤ Ã•Ã¤ÃÃ¦Ãž Ã‘Ã“Ã‡Ã†Ã¡Ã¥. Ã‡Ã“ÃŠÃŽÃÃ£ {PM_COUNT} Ã¡ÃŸÃ­ ÃŠÃ“ÃŠÃˆÃÃ¡ ÃˆÃšÃÃ Ã‡Ã¡Ã‘Ã“Ã‡Ã†Ã¡ Ã‡Ã¡ÃŠÃ­ ÃŠÃ£ ÃÃÃÃ¥Ã‡");
+define("_PM_MI_PRUNESUBJECTDEFAULT","Ã…ÃˆÃ¡Ã‡Ã› ÃšÃ¤ ÃÃÃ Ã‘Ã“Ã‡Ã†Ã¡");
+define("_PM_MI_PRUNEMESSAGEDEFAULT","Ã¤Ã¦Ã Ã…ÃšÃ¡Ã‡Ã£ÃŸ ÃˆÃƒÃ¤Ã¥ ÃŽÃ¡Ã‡Ã¡ ÃšÃ£Ã¡Ã­Ã‰ ÃŠÃ¤Ã™Ã­Ã Ã‡Ã¡Ã‘Ã“Ã‡Ã†Ã¡ Ã‡Ã¡ÃŽÃ‡Ã•Ã‰ ÃÃžÃ ÃžÃ‡Ã£ Ã‡Ã¡Ã¤Ã™Ã‡Ã£ ÃˆÃ…Ã’Ã‡Ã¡Ã‰ {PM_COUNT} Ã‘Ã“Ã‡Ã¡Ã‰ Ã£Ã¤ Ã•Ã¤ÃÃ¦Ãž Ã‘Ã“Ã‡Ã†Ã¡ÃŸ Ã‡Ã¡ÃŽÃ‡Ã•Ã‰ Ã¦ ÃÃ¡ÃŸ Ã¡ÃŠÃ¦ÃÃ­Ã‘ Ã‡Ã¡Ã£Ã“Ã‡ÃÃ‰ Ã¦ Ã‡Ã¡ÃÃ‡ÃŸÃ‘Ã‰.");
 
-define("_PM_MI_MAXSAVE", "ÃÞÕì ÚÏÏ ááãÍÝæÙÇÊ");
-define("_PM_MI_MAXSAVE_DESC", "");
+define("_PM_MI_MAXSAVE","ÃƒÃžÃ•Ã¬ ÃšÃÃ Ã¡Ã¡Ã£ÃÃÃ¦Ã™Ã‡ÃŠ");
+define("_PM_MI_MAXSAVE_DESC","");
 
-define("_PM_MI_PERPAGE", "ÚÏÏ ÇáÑÓÇÆá Ýí ßá ÕÝÍÉ");
-define("_PM_MI_PERPAGE_DESC", "");
+define("_PM_MI_PERPAGE","ÃšÃÃ Ã‡Ã¡Ã‘Ã“Ã‡Ã†Ã¡ ÃÃ­ ÃŸÃ¡ Ã•ÃÃÃ‰");
+define("_PM_MI_PERPAGE_DESC","");
 
 ?>

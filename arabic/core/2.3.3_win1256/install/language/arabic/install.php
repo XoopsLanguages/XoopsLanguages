@@ -18,193 +18,193 @@
 // _CHARSET : windows-1256
 // Translator: Arab XOOPS Team
 
-define( "SHOW_HIDE_HELP", "Show/hide help text" );
+define("SHOW_HIDE_HELP","Show/hide help text" );
 
 // Configuration check page
-define( "SERVER_API", "„‘€· «·Œ«œ„" );
-define( "PHP_EXTENSION", "—»ÿ %s" );
-define( "CHAR_ENCODING", "«· —„Ì“" );
-define( "XML_PARSING", "≈” œ⁄«¡ XML" );
-define( "REQUIREMENTS", "«·„ ÿ·»« " );
-define( "_PHP_VERSION", "≈’œ«—… PHP" );
-define( "RECOMMENDED_SETTINGS", "≈⁄œ«œ«  ÌÊ’Ï »Â«" );
-define( "RECOMMENDED_EXTENSIONS", "≈÷«›«  ÌÊ’Ï »Â«" );
-define( "SETTING_NAME", "⁄‰Ê«‰ «·≈⁄œ«œ" );
-define( "RECOMMENDED", "Ì‰’Õ »Â" );
-define( "CURRENT", "«·Õ«·Ì" );
-define( "RECOMMENDED_EXTENSIONS_MSG", "Â–Â «·≈÷«›«  €Ì— ÷—Ê—Ì… ··≈” Œœ«„ «·⁄«œÌ° Ê ·ﬂ‰Â« ﬁœ  ﬂÊ‰ „ÿ·Ê»… ›Ì »⁄÷ «·Õ«·«  „À·  ⁄œœ «··€«  Ê  ﬁœÌ„ Œœ„… RSS  › Õ «Ã ·ÊÃÊœÂ« ›Ì «·Œ«œ„ «·„” ÷Ì›" );
-define( "NONE", "·« ÌÊÃœ" );
-define( "SUCCESS", "‰«ÃÕ" );
-define( "WARNING", "Œÿ√" );
-define( "FAILED", "›‘·" );
+define("SERVER_API","√£√î√õ√° √á√°√é√á√è√£" );
+define("PHP_EXTENSION","√ë√à√ò %s" );
+define("CHAR_ENCODING","√á√°√ä√ë√£√≠√í" );
+define("XML_PARSING","√Ö√ì√ä√è√ö√á√Å XML" );
+define("REQUIREMENTS","√á√°√£√ä√ò√°√à√á√ä" );
+define("_PHP_VERSION","√Ö√ï√è√á√ë√â PHP" );
+define("RECOMMENDED_SETTINGS","√Ö√ö√è√á√è√á√ä √≠√¶√ï√¨ √à√•√á" );
+define("RECOMMENDED_EXTENSIONS","√Ö√ñ√á√ù√á√ä √≠√¶√ï√¨ √à√•√á" );
+define("SETTING_NAME","√ö√§√¶√á√§ √á√°√Ö√ö√è√á√è" );
+define("RECOMMENDED","√≠√§√ï√ç √à√•" );
+define("CURRENT","√á√°√ç√á√°√≠" );
+define("RECOMMENDED_EXTENSIONS_MSG","√•√ê√• √á√°√Ö√ñ√á√ù√á√ä √õ√≠√ë √ñ√ë√¶√ë√≠√â √°√°√Ö√ì√ä√é√è√á√£ √á√°√ö√á√è√≠¬° √¶ √°√ü√§√•√á √û√è √ä√ü√¶√§ √£√ò√°√¶√à√â √ù√≠ √à√ö√ñ √á√°√ç√á√°√á√ä √£√ã√° √ä√ö√è√è √á√°√°√õ√á√ä √¶ √ä√û√è√≠√£ √é√è√£√â RSS  √ù√ä√ç√ä√á√å √°√¶√å√¶√è√•√á √ù√≠ √á√°√é√á√è√£ √á√°√£√ì√ä√ñ√≠√ù" );
+define("NONE","√°√á √≠√¶√å√è" );
+define("SUCCESS","√§√á√å√ç" );
+define("WARNING","√é√ò√É" );
+define("FAILED","√ù√î√°" );
 
 // Titles (main and pages)
-define( "XOOPS_INSTALL_WIZARD", " À»Ì  ‰Ÿ«„ ≈œ«—… «·„Õ ÊÏ “ÊÊ»”" );
+define("XOOPS_INSTALL_WIZARD","√ä√ã√à√≠√ä √§√ô√á√£ √Ö√è√á√ë√â √á√°√£√ç√ä√¶√¨ √í√¶√¶√à√ì" );
 
-define( "LANGUAGE_SELECTION", "≈Œ Ì«— «··€…" );
-define( "LANGUAGE_SELECTION_TITLE", "√Œ — ·€ ﬂ");        // L128
-define( "INTRODUCTION", "„ﬁœ„…" );
-define( "INTRODUCTION_TITLE", "„—Õ»« »ﬂ ›Ì „”«⁄œ  À»Ì  “ÊÊ»”" );        // L0
-define( "CONFIGURATION_CHECK", "›Õ’ «· ÂÌ∆…" );
-define( "CONFIGURATION_CHECK_TITLE", "«· Õﬁﬁ „‰  ÂÌ∆… «·Œ«œ„ «·„” ÷Ì›" );
-define( "PATHS_SETTINGS", "≈⁄œ«œ«  «·„”«—« " );
-define( "PATHS_SETTINGS_TITLE", "≈⁄œ«œ«  «·„”«—« " );
-define( "DATABASE_CONNECTION", "«·≈ ’«· »ﬁ«⁄œ… «·»Ì«‰« " );
-define( "DATABASE_CONNECTION_TITLE", "«·≈ ’«· »ﬁ«⁄œ… «·»Ì«‰« " );
-define( "DATABASE_CONFIG", "≈⁄œ«œ«  ﬁ«⁄œ… «·»Ì«‰« " );
-define( "DATABASE_CONFIG_TITLE", "≈⁄œ«œ«  ﬁ«⁄œ… «·»Ì«‰« " );
-define( "CONFIG_SAVE", "Õ›Ÿ ≈⁄œ«œ«  «·‰Ÿ«„" );
-define( "CONFIG_SAVE_TITLE", "Õ›Ÿ ≈⁄œ«œ«  «·‰Ÿ«„" );
-define( "TABLES_CREATION", "≈‰‘«¡ «·Ãœ«Ê·" );
-define( "TABLES_CREATION_TITLE", "≈‰‘«¡ Ãœ«Ê· ﬁ«⁄œ… «·»Ì«‰« " );
-define( "INITIAL_SETTINGS", "«·≈⁄œ«œ«  «·√Ê·Ì…" );
-define( "INITIAL_SETTINGS_TITLE", "√œŒ· »Ì«‰« ﬂ «·√Ê·Ì…" );
-define( "DATA_INSERTION", "Õ›Ÿ «·»Ì«‰« " );
-define( "DATA_INSERTION_TITLE", "Õ›Ÿ »Ì«‰« ﬂ ›Ì ﬁ«⁄œ… «·»Ì«‰« " );
-define( "WELCOME", "„—Õ»«" );
-define( "WELCOME_TITLE", "„—Õ»« »ﬂ ›Ì „Êﬁ⁄ﬂ" );        // L0
+define("LANGUAGE_SELECTION","√Ö√é√ä√≠√á√ë √á√°√°√õ√â" );
+define("LANGUAGE_SELECTION_TITLE","√É√é√ä√ë √°√õ√ä√ü");        // L128
+define("INTRODUCTION","√£√û√è√£√â" );
+define("INTRODUCTION_TITLE","√£√ë√ç√à√á √à√ü √ù√≠ √£√ì√á√ö√è √ä√ã√à√≠√ä √í√¶√¶√à√ì" );        // L0
+define("CONFIGURATION_CHECK","√ù√ç√ï √á√°√ä√•√≠√Ü√â" );
+define("CONFIGURATION_CHECK_TITLE","√á√°√ä√ç√û√û √£√§ √ä√•√≠√Ü√â √á√°√é√á√è√£ √á√°√£√ì√ä√ñ√≠√ù" );
+define("PATHS_SETTINGS","√Ö√ö√è√á√è√á√ä √á√°√£√ì√á√ë√á√ä" );
+define("PATHS_SETTINGS_TITLE","√Ö√ö√è√á√è√á√ä √á√°√£√ì√á√ë√á√ä" );
+define("DATABASE_CONNECTION","√á√°√Ö√ä√ï√á√° √à√û√á√ö√è√â √á√°√à√≠√á√§√á√ä" );
+define("DATABASE_CONNECTION_TITLE","√á√°√Ö√ä√ï√á√° √à√û√á√ö√è√â √á√°√à√≠√á√§√á√ä" );
+define("DATABASE_CONFIG","√Ö√ö√è√á√è√á√ä √û√á√ö√è√â √á√°√à√≠√á√§√á√ä" );
+define("DATABASE_CONFIG_TITLE","√Ö√ö√è√á√è√á√ä √û√á√ö√è√â √á√°√à√≠√á√§√á√ä" );
+define("CONFIG_SAVE","√ç√ù√ô √Ö√ö√è√á√è√á√ä √á√°√§√ô√á√£" );
+define("CONFIG_SAVE_TITLE","√ç√ù√ô √Ö√ö√è√á√è√á√ä √á√°√§√ô√á√£" );
+define("TABLES_CREATION","√Ö√§√î√á√Å √á√°√å√è√á√¶√°" );
+define("TABLES_CREATION_TITLE","√Ö√§√î√á√Å √å√è√á√¶√° √û√á√ö√è√â √á√°√à√≠√á√§√á√ä" );
+define("INITIAL_SETTINGS","√á√°√Ö√ö√è√á√è√á√ä √á√°√É√¶√°√≠√â" );
+define("INITIAL_SETTINGS_TITLE","√É√è√é√° √à√≠√á√§√á√ä√ü √á√°√É√¶√°√≠√â" );
+define("DATA_INSERTION","√ç√ù√ô √á√°√à√≠√á√§√á√ä" );
+define("DATA_INSERTION_TITLE","√ç√ù√ô √à√≠√á√§√á√ä√ü √ù√≠ √û√á√ö√è√â √á√°√à√≠√á√§√á√ä" );
+define("WELCOME","√£√ë√ç√à√á" );
+define("WELCOME_TITLE","√£√ë√ç√à√á √à√ü √ù√≠ √£√¶√û√ö√ü" );        // L0
 
 
 // Settings (labels and help text)
-define( "XOOPS_PATHS", "„”«— „Ã·œ«  XOOPS" );
-define( "XOOPS_URLS", "—«»ÿ «·„Êﬁ⁄" );
+define("XOOPS_PATHS","√£√ì√á√ë √£√å√°√è√á√ä XOOPS" );
+define("XOOPS_URLS","√ë√á√à√ò √á√°√£√¶√û√ö" );
 
-define( "XOOPS_ROOT_PATH_LABEL", "„”«— «·„Ã·œ «·—∆Ì”Ì" );
-define( "XOOPS_ROOT_PATH_HELP", "„”«— «·„Ã·œ «·–Ì »Â „Ã·œ«  Ê „·›«  XOOPS ›Ì «·”Ì—›— »œÊ‰ ﬂ «»… ⁄·«„… / ›Ì «·‰Â«Ì…" );
+define("XOOPS_ROOT_PATH_LABEL","√£√ì√á√ë √á√°√£√å√°√è √á√°√ë√Ü√≠√ì√≠" );
+define("XOOPS_ROOT_PATH_HELP","√£√ì√á√ë √á√°√£√å√°√è √á√°√ê√≠ √à√• √£√å√°√è√á√ä √¶ √£√°√ù√á√ä XOOPS √ù√≠ √á√°√ì√≠√ë√ù√ë √à√è√¶√§ √ü√ä√á√à√â √ö√°√á√£√â / √ù√≠ √á√°√§√•√á√≠√â" );
 
-define( "XOOPS_LIB_PATH_LABEL", "„Ã·œ „ﬂ »«  XOOPS" );
-define( "XOOPS_LIB_PATH_HELP", "„”«— „Ã·œ „ﬂ »«  XOOPS ›Ì «·Œ«œ„ «·„” ÷Ì› »œÊ‰ ﬂ «»… ⁄·«„… / ›Ì «·‰Â«Ì…. Ê ·÷„«‰ √„«‰ √ﬂ»— ‰‰’Õ »Ê÷⁄ Â–« «·„Ã·œ Œ«—Ã " . XOOPS_ROOT_PATH_LABEL . "");
-define( "XOOPS_DATA_PATH_LABEL", "„Ã·œ »Ì«‰«  XOOPS" );
-define( "XOOPS_DATA_PATH_HELP", "„”«— „Ã·œ »Ì«‰«  XOOPS «·–Ì ÌÕÊÌ „·›«  «·»Ì«‰«  «·ﬁ«»·… ··ﬂ «»… ⁄·ÌÂ« Ê Ìﬂ » «·„”«— »œÊ‰ ⁄·«„… / ›Ì «·‰Â«Ì…. Ê ·÷„«‰ √„«‰ √ﬂ»— ‰‰’Õ »Ê÷⁄ Â–« «·„Ã·œ Œ«—Ã " . XOOPS_ROOT_PATH_LABEL . "" );
+define("XOOPS_LIB_PATH_LABEL","√£√å√°√è √£√ü√ä√à√á√ä XOOPS" );
+define("XOOPS_LIB_PATH_HELP","√£√ì√á√ë √£√å√°√è √£√ü√ä√à√á√ä XOOPS √ù√≠ √á√°√é√á√è√£ √á√°√£√ì√ä√ñ√≠√ù √à√è√¶√§ √ü√ä√á√à√â √ö√°√á√£√â / √ù√≠ √á√°√§√•√á√≠√â. √¶ √°√ñ√£√á√§ √É√£√á√§ √É√ü√à√ë √§√§√ï√ç √à√¶√ñ√ö √•√ê√á √á√°√£√å√°√è √é√á√ë√å " . XOOPS_ROOT_PATH_LABEL . "");
+define("XOOPS_DATA_PATH_LABEL","√£√å√°√è √à√≠√á√§√á√ä XOOPS" );
+define("XOOPS_DATA_PATH_HELP","√£√ì√á√ë √£√å√°√è √à√≠√á√§√á√ä XOOPS √á√°√ê√≠ √≠√ç√¶√≠ √£√°√ù√á√ä √á√°√à√≠√á√§√á√ä √á√°√û√á√à√°√â √°√°√ü√ä√á√à√â √ö√°√≠√•√á √¶ √≠√ü√ä√à √á√°√£√ì√á√ë √à√è√¶√§ √ö√°√á√£√â / √ù√≠ √á√°√§√•√á√≠√â. √¶ √°√ñ√£√á√§ √É√£√á√§ √É√ü√à√ë √§√§√ï√ç √à√¶√ñ√ö √•√ê√á √á√°√£√å√°√è √é√á√ë√å " . XOOPS_ROOT_PATH_LABEL . "" );
 
-define( "XOOPS_URL_LABEL", "—«»ÿ «·„Êﬁ⁄" ); // L56
-define( "XOOPS_URL_HELP", "«·—«»ÿ «·—∆Ì”Ì ··„Êﬁ⁄" ); // L58
+define("XOOPS_URL_LABEL","√ë√á√à√ò √á√°√£√¶√û√ö" ); // L56
+define("XOOPS_URL_HELP","√á√°√ë√á√à√ò √á√°√ë√Ü√≠√ì√≠ √°√°√£√¶√û√ö" ); // L58
 
-define( "LEGEND_CONNECTION", "«·≈ ’«· »„” ÷Ì› ﬁ«⁄œ… «·»Ì«‰« " );
-define( "LEGEND_DATABASE", "‰Ê⁄ ﬁ«⁄œ… «·»Ì«‰« " ); // L51
+define("LEGEND_CONNECTION","√á√°√Ö√ä√ï√á√° √à√£√ì√ä√ñ√≠√ù √û√á√ö√è√â √á√°√à√≠√á√§√á√ä" );
+define("LEGEND_DATABASE","√§√¶√ö √û√á√ö√è√â √á√°√à√≠√á√§√á√ä" ); // L51
 
-define( "DB_HOST_LABEL", "«”„ «·Œ«œ„ «·„” ÷Ì›" );    // L27
-define( "DB_HOST_HELP",  "«”„ „” ÷Ì› ﬁ«⁄œ… «·»Ì«‰« . ≈–« ·„  ﬂ‰ „ √ﬂœ, ›≈‰ <em>localhost</em>  ⁄„· ›Ì √€·» «·Õ«·« "); // L67
-define( "DB_USER_LABEL", "«”„ «·„” Œœ„" );    // L28
-define( "DB_USER_HELP",  "«”„ Õ”«» «·„” Œœ„ «·–Ì Ì” Œœ„ ··≈ ’«· »ﬁ«⁄œ… «·»Ì«‰« "); // L65
-define( "DB_PASS_LABEL", "ﬂ·„… «·„—Ê—" );    // L52
-define( "DB_PASS_HELP",  "ﬂ·„… „—Ê— ·„” Œœ„ ﬁ«⁄œ… «·»Ì«‰« "); // L68
-define( "DB_NAME_LABEL", "«”„ ﬁ«⁄œ… «·»Ì«‰« " );    // L29
-define( "DB_NAME_HELP",  "«”„ ﬁ«⁄œ… «·»Ì«‰«  ›Ì «·„” ÷Ì›. „⁄«·Ã «· À»Ì  ”Ê› ÌﬁÊ„ »≈‰‘«¡Â« ›Ì Õ«·… ⁄œ„  ﬂÊÌ‰Â«"); // L64
-define( "DB_CHARSET_LABEL", " —„Ì“ ﬁ«⁄œ… «·»Ì«‰«  - √Œ — »œÊ‰  —„Ì“ ··€… «·⁄—»Ì…" );
-define( "DB_CHARSET_HELP",  "MySQL includes character set support that enables you to store data using a variety of character sets and perform comparisons according to a variety of collations.");
-define( "DB_COLLATION_LABEL", "‰Ê⁄ «· —„Ì“" );
-define( "DB_COLLATION_HELP",  "A collation is a set of rules for comparing characters in a character set.");
-define( "DB_PREFIX_LABEL", "»«œ∆… «·Ãœ«Ê·" );    // L30
-define( "DB_PREFIX_HELP",  "This prefix will be added to all new tables created to avoid name conflicts in the database. If you are unsure, just keep the default"); // L63
-define( "DB_PCONNECT_LABEL", "≈” Œœ«„ «·≈ ’«· «·„” „—" );    // L54
-define( "DB_PCONNECT_HELP",  "«·≈› —«÷Ì ÂÊ ⁄œ„ ≈Œ Ì«—Â«. ≈–« ﬂ‰  €Ì— „ √ﬂœ ›·«  Œ «—Â«"); // L69
-define( "DB_DATABASE_LABEL", "‰Ê⁄ ﬁ«⁄œ… «·»Ì«‰« " );
+define("DB_HOST_LABEL","√á√ì√£ √á√°√é√á√è√£ √á√°√£√ì√ä√ñ√≠√ù" );    // L27
+define("DB_HOST_HELP",  "√á√ì√£ √£√ì√ä√ñ√≠√ù √û√á√ö√è√â √á√°√à√≠√á√§√á√ä. √Ö√ê√á √°√£ √ä√ü√§ √£√ä√É√ü√è, √ù√Ö√§ <em>localhost</em> √ä√ö√£√° √ù√≠ √É√õ√°√à √á√°√ç√á√°√á√ä"); // L67
+define("DB_USER_LABEL","√á√ì√£ √á√°√£√ì√ä√é√è√£" );    // L28
+define("DB_USER_HELP",  "√á√ì√£ √ç√ì√á√à √á√°√£√ì√ä√é√è√£ √á√°√ê√≠ √≠√ì√ä√é√è√£ √°√°√Ö√ä√ï√á√° √à√û√á√ö√è√â √á√°√à√≠√á√§√á√ä"); // L65
+define("DB_PASS_LABEL","√ü√°√£√â √á√°√£√ë√¶√ë" );    // L52
+define("DB_PASS_HELP",  "√ü√°√£√â √£√ë√¶√ë √°√£√ì√ä√é√è√£ √û√á√ö√è√â √á√°√à√≠√á√§√á√ä"); // L68
+define("DB_NAME_LABEL","√á√ì√£ √û√á√ö√è√â √á√°√à√≠√á√§√á√ä" );    // L29
+define("DB_NAME_HELP",  "√á√ì√£ √û√á√ö√è√â √á√°√à√≠√á√§√á√ä √ù√≠ √á√°√£√ì√ä√ñ√≠√ù. √£√ö√á√°√å √á√°√ä√ã√à√≠√ä √ì√¶√ù √≠√û√¶√£ √à√Ö√§√î√á√Å√•√á √ù√≠ √ç√á√°√â √ö√è√£ √ä√ü√¶√≠√§√•√á"); // L64
+define("DB_CHARSET_LABEL","√ä√ë√£√≠√í √û√á√ö√è√â √á√°√à√≠√á√§√á√ä - √É√é√ä√ë √à√è√¶√§ √ä√ë√£√≠√í √°√°√õ√â √á√°√ö√ë√à√≠√â" );
+define("DB_CHARSET_HELP",  "MySQL includes character set support that enables you to store data using a variety of character sets and perform comparisons according to a variety of collations.");
+define("DB_COLLATION_LABEL","√§√¶√ö √á√°√ä√ë√£√≠√í" );
+define("DB_COLLATION_HELP",  "A collation is a set of rules for comparing characters in a character set.");
+define("DB_PREFIX_LABEL","√à√á√è√Ü√â √á√°√å√è√á√¶√°" );    // L30
+define("DB_PREFIX_HELP",  "This prefix will be added to all new tables created to avoid name conflicts in the database. If you are unsure, just keep the default"); // L63
+define("DB_PCONNECT_LABEL","√Ö√ì√ä√é√è√á√£ √á√°√Ö√ä√ï√á√° √á√°√£√ì√ä√£√ë" );    // L54
+define("DB_PCONNECT_HELP",  "√á√°√Ö√ù√ä√ë√á√ñ√≠ √•√¶ √ö√è√£ √Ö√é√ä√≠√á√ë√•√á. √Ö√ê√á √ü√§√ä √õ√≠√ë √£√ä√É√ü√è √ù√°√á √ä√é√ä√á√ë√•√á"); // L69
+define("DB_DATABASE_LABEL","√§√¶√ö √û√á√ö√è√â √á√°√à√≠√á√§√á√ä" );
 
-define( "LEGEND_ADMIN_ACCOUNT", "Õ”«» «·„œÌ—" );
-define( "ADMIN_LOGIN_LABEL", "«”„ «·„” Œœ„ ··„œÌ—" ); // L37
-define( "ADMIN_EMAIL_LABEL", "«·»—Ìœ «·≈·ﬂ —Ê‰Ì ··„œÌ—" ); // L38
-define( "ADMIN_PASS_LABEL", "ﬂ·„… «·„—Ê— ··„œÌ—" ); // L39
-define( "ADMIN_CONFIRMPASS_LABEL", " √ﬂÌœ ﬂ·„… «·„—Ê—" ); // L74
+define("LEGEND_ADMIN_ACCOUNT","√ç√ì√á√à √á√°√£√è√≠√ë" );
+define("ADMIN_LOGIN_LABEL","√á√ì√£ √á√°√£√ì√ä√é√è√£ √°√°√£√è√≠√ë" ); // L37
+define("ADMIN_EMAIL_LABEL","√á√°√à√ë√≠√è √á√°√Ö√°√ü√ä√ë√¶√§√≠ √°√°√£√è√≠√ë" ); // L38
+define("ADMIN_PASS_LABEL","√ü√°√£√â √á√°√£√ë√¶√ë √°√°√£√è√≠√ë" ); // L39
+define("ADMIN_CONFIRMPASS_LABEL","√ä√É√ü√≠√è √ü√°√£√â √á√°√£√ë√¶√ë" ); // L74
 
 // Buttons
-define( "BUTTON_PREVIOUS", "«·”«»ﬁ" ); // L42
-define( "BUTTON_NEXT", "«· «·Ì" ); // L47
+define("BUTTON_PREVIOUS","√á√°√ì√á√à√û" ); // L42
+define("BUTTON_NEXT","√á√°√ä√á√°√≠" ); // L47
 
 // Messages
-define( "XOOPS_FOUND", "%s „ÊÃÊœ…" );
-define( "CHECKING_PERMISSIONS", "«· Õﬁﬁ „‰  —«ŒÌ’ «·ﬂ «»… ⁄·Ï «·„Ã·œ«  Ê «·„·›« ...." ); // L82
-define( "IS_NOT_WRITABLE", "%s ·« Ì„ﬂ‰ «·ﬂ «»… ⁄·ÌÂ." ); // L83
-define( "IS_WRITABLE", "%s Ì„ﬂ‰ «·ﬂ «»… ⁄·ÌÂ." ); // L84
+define("XOOPS_FOUND","%s √£√¶√å√¶√è√â" );
+define("CHECKING_PERMISSIONS","√á√°√ä√ç√û√û √£√§ √ä√ë√á√é√≠√ï √á√°√ü√ä√á√à√â √ö√°√¨ √á√°√£√å√°√è√á√ä √¶ √á√°√£√°√ù√á√ä...." ); // L82
+define("IS_NOT_WRITABLE","%s √°√á √≠√£√ü√§ √á√°√ü√ä√á√à√â √ö√°√≠√•." ); // L83
+define("IS_WRITABLE","%s √≠√£√ü√§ √á√°√ü√ä√á√à√â √ö√°√≠√•." ); // L84
 
-define( "XOOPS_PATH_FOUND", "«·„Ã·œ „ÊÃÊœ." );
+define("XOOPS_PATH_FOUND","√á√°√£√å√°√è √£√¶√å√¶√è." );
 
-define( "READY_CREATE_TABLES", "No XOOPS tables were detected.<br />The installer is now ready to create the XOOPS system tables.<br />Press <em>next</em> to proceed." );
-define( "XOOPS_TABLES_FOUND", "Ãœ«Ê· ‰Ÿ«„ XOOPS „ÊÃÊœ… ›Ì ﬁ«⁄œ… «·»Ì«‰« .<br />«÷€ÿ <em>«· «·Ì</em> ··≈‰ ﬁ«· ··ŒÿÊ… «· «·Ì…." ); // L131
-define( "XOOPS_TABLES_CREATED", " „ ≈‰‘«¡ Ãœ«Ê· ‰Ÿ«„ XOOPS.<br />«÷€ÿ <em>«· «·Ì</em> ··–Â«» ··ŒÿÊ… «· «·Ì…." );
-define( "READY_INSERT_DATA", "„⁄«·Ã «· À»Ì  Ã«Â“ «·¬‰ ·≈œŒ«· »Ì«‰« ﬂ «·√Ê·Ì… ·ﬁ«⁄œ… «·»Ì«‰« ." );
-define( "READY_SAVE_MAINFILE", "The installer is now ready to save the specified settings to <em>mainfile.php</em>.<br />Press <em>next</em> to proceed." );
-define( "SAVED_MAINFILE", "Õ›Ÿ «·≈⁄œ«œ«  ›Ì „·› mainfile.php" );
-define( "SAVED_MAINFILE_MSG", "„⁄«·Ã «· À»Ì  Õ›Ÿ «·≈⁄œ«œ«  ›Ì „·› <em>mainfile.php</em>. ≈÷€ÿ <em«· «·Ì</em> ··≈‰ ﬁ«· ··ŒÿÊ… «· «·Ì…." );
-define( "DATA_ALREADY_INSERTED", "»Ì«‰«  XOOPS „ÊÃÊœ… ›Ì ﬁ«⁄œ… «·»Ì«‰« .<br />«÷€ÿ <em>«· «·Ì</em> ··≈‰ ﬁ«· ··ŒÿÊ… «· «·Ì…." );
-define( "DATA_INSERTED", "«·»Ì«‰«  «·√Ê·Ì…  „ ≈œŒ«·Â« ≈·Ï ﬁ«⁄œ… «·»Ì«‰« .<br /«÷€ÿ <em«· «·Ì</em> ··≈‰ ﬁ«· ··ŒÿÊ… «· «·Ì…." );
+define("READY_CREATE_TABLES","No XOOPS tables were detected.<br />The installer is now ready to create the XOOPS system tables.<br />Press <em>next</em> to proceed." );
+define("XOOPS_TABLES_FOUND","√å√è√á√¶√° √§√ô√á√£ XOOPS √£√¶√å√¶√è√â √ù√≠ √û√á√ö√è√â √á√°√à√≠√á√§√á√ä.<br />√á√ñ√õ√ò <em>√á√°√ä√á√°√≠</em> √°√°√Ö√§√ä√û√á√° √°√°√é√ò√¶√â √á√°√ä√á√°√≠√â." ); // L131
+define("XOOPS_TABLES_CREATED","√ä√£ √Ö√§√î√á√Å √å√è√á√¶√° √§√ô√á√£ XOOPS.<br />√á√ñ√õ√ò <em>√á√°√ä√á√°√≠</em> √°√°√ê√•√á√à √°√°√é√ò√¶√â √á√°√ä√á√°√≠√â." );
+define("READY_INSERT_DATA","√£√ö√á√°√å √á√°√ä√ã√à√≠√ä √å√á√•√í √á√°√Ç√§ √°√Ö√è√é√á√° √à√≠√á√§√á√ä√ü √á√°√É√¶√°√≠√â √°√û√á√ö√è√â √á√°√à√≠√á√§√á√ä." );
+define("READY_SAVE_MAINFILE","The installer is now ready to save the specified settings to <em>mainfile.php</em>.<br />Press <em>next</em> to proceed." );
+define("SAVED_MAINFILE","√ç√ù√ô √á√°√Ö√ö√è√á√è√á√ä √ù√≠ √£√°√ù mainfile.php" );
+define("SAVED_MAINFILE_MSG","√£√ö√á√°√å √á√°√ä√ã√à√≠√ä √ç√ù√ô √á√°√Ö√ö√è√á√è√á√ä √ù√≠ √£√°√ù <em>mainfile.php</em>. √Ö√ñ√õ√ò <em√á√°√ä√á√°√≠</em> √°√°√Ö√§√ä√û√á√° √°√°√é√ò√¶√â √á√°√ä√á√°√≠√â." );
+define("DATA_ALREADY_INSERTED","√à√≠√á√§√á√ä XOOPS √£√¶√å√¶√è√â √ù√≠ √û√á√ö√è√â √á√°√à√≠√á√§√á√ä.<br />√á√ñ√õ√ò <em>√á√°√ä√á√°√≠</em> √°√°√Ö√§√ä√û√á√° √°√°√é√ò√¶√â √á√°√ä√á√°√≠√â." );
+define("DATA_INSERTED","√á√°√à√≠√á√§√á√ä √á√°√É√¶√°√≠√â √ä√£ √Ö√è√é√á√°√•√á √Ö√°√¨ √û√á√ö√è√â √á√°√à√≠√á√§√á√ä.<br /√á√ñ√õ√ò <em√á√°√ä√á√°√≠</em> √°√°√Ö√§√ä√û√á√° √°√°√é√ò√¶√â √á√°√ä√á√°√≠√â." );
 
 
 // %s is database name
-define( "DATABASE_CREATED", "ﬁ«⁄œ… «·»Ì«‰«  %s  „ ≈‰‘«∆Â«!" ); // L43
+define("DATABASE_CREATED","√û√á√ö√è√â √á√°√à√≠√á√§√á√ä %s √ä√£ √Ö√§√î√á√Ü√•√á!" ); // L43
 // %s is table name
-define( "TABLE_NOT_CREATED", "€Ì— ﬁ«œ— ⁄·Ï ≈‰‘«¡ ÃœÊ· %s" ); // L118
-define( "TABLE_CREATED", "ÃœÊ· %s  „ ≈‰‘«¡Â." ); // L45
-define( "ROWS_INSERTED", "%d ≈œ—«Ã ›Ì ÃœÊ· %s." ); // L119
-define( "ROWS_FAILED", "›‘· ≈œŒ«· %d ≈œ«—Ã ≈·Ï ÃœÊ· %s." ); // L120
-define( "TABLE_ALTERED", "ÃœÊ· %s  „  ÕœÌÀÂ."); // L133
-define( "TABLE_NOT_ALTERED", "›‘·  ÕœÌÀ ÃœÊ· %s."); // L134
-define( "TABLE_DROPPED", "ÃœÊ· %s  „ Õ–›Â."); // L163
-define( "TABLE_NOT_DROPPED", "›‘· Õ–› ÃœÊ· %s."); // L164
+define("TABLE_NOT_CREATED","√õ√≠√ë √û√á√è√ë √ö√°√¨ √Ö√§√î√á√Å √å√è√¶√° %s" ); // L118
+define("TABLE_CREATED","√å√è√¶√° %s √ä√£ √Ö√§√î√á√Å√•." ); // L45
+define("ROWS_INSERTED","%d √Ö√è√ë√á√å √ù√≠ √å√è√¶√° %s." ); // L119
+define("ROWS_FAILED","√ù√î√° √Ö√è√é√á√° %d √Ö√è√á√ë√å √Ö√°√¨ √å√è√¶√° %s." ); // L120
+define("TABLE_ALTERED","√å√è√¶√° %s √ä√£ √ä√ç√è√≠√ã√•."); // L133
+define("TABLE_NOT_ALTERED","√ù√î√° √ä√ç√è√≠√ã √å√è√¶√° %s."); // L134
+define("TABLE_DROPPED","√å√è√¶√° %s √ä√£ √ç√ê√ù√•."); // L163
+define("TABLE_NOT_DROPPED","√ù√î√° √ç√ê√ù √å√è√¶√° %s."); // L164
 
 // Error messages
-define( "ERR_COULD_NOT_ACCESS", "·« Ì„ﬂ‰ «·œŒÊ· ≈·Ï «·„Ã·œ «·„Œ’’.«·—Ã«¡ «· Õﬁﬁ „‰ √‰Â „ÊÃÊœ ›Ì ≈” ÷«› ﬂ Ê √‰Â ﬁ«»· ··ﬂ «»… ⁄·ÌÂ." );
-define( "ERR_NO_XOOPS_FOUND", "·„ Ì „ «·⁄ÀÊ— ⁄·Ï «·„Ã·œ «·„Œ’’ ·≈” ﬂ„«· «· À»Ì " );
-define( "ERR_INVALID_EMAIL", "»—Ìœ ≈·ﬂ —Ê‰Ì €Ì— ’«·Õ" ); // L73
-define( "ERR_REQUIRED", "„⁄·Ê„«  ≈Ã»«—Ì…." ); // L41
-define( "ERR_PASSWORD_MATCH", "ﬂ·„… «·„—Ê— €Ì— „ ÿ«»ﬁ…" );
-define( "ERR_NEED_WRITE_ACCESS", "ÌÃ» ≈⁄ÿ«¡  —ŒÌ’ «·ﬂ «»… ⁄·Ï «·„Ã·œ«  Ê «·„·›«  «· «·Ì…<br />Ì⁄‰Ì <em>chmod 777 directory_name</em> ›Ì Œ«œ„ ÌÊ‰Ìﬂ” √Ê ·ÌÊ‰Ìﬂ”<br />≈–« ·„  ﬂ‰ „ÊÃÊœ… √Ê  „ ≈‰‘«∆Â« »ÿ—Ìﬁ… Œ«ÿ∆… ›«·—Ã«¡ ≈⁄«œ…  ﬂÊÌ‰Â« „‰ ÃœÌœ Ê ≈⁄ÿ«¡ «· —«ŒÌ’ »‘ﬂ· ÌœÊÌ." );
-define( "ERR_NO_DATABASE", "·« Ì„ﬂ‰ ≈‰‘«¡ ﬁ«⁄œ… «·»Ì«‰« .« ’· »«·„”∆Ê· ⁄‰ ≈” ÷«› ﬂ." ); // L31
-define( "ERR_NO_DBCONNECTION", "·« Ì„ﬂ‰ «·≈ ’«· »«·Œ«œ„ «·„” ÷Ì›." ); // L106
-define( "ERR_WRITING_CONSTANT", "Failed writing constant %s." ); // L122
+define("ERR_COULD_NOT_ACCESS","√°√á √≠√£√ü√§ √á√°√è√é√¶√° √Ö√°√¨ √á√°√£√å√°√è √á√°√£√é√ï√ï.√á√°√ë√å√á√Å √á√°√ä√ç√û√û √£√§ √É√§√• √£√¶√å√¶√è √ù√≠ √Ö√ì√ä√ñ√á√ù√ä√ü √¶ √É√§√• √û√á√à√° √°√°√ü√ä√á√à√â √ö√°√≠√•." );
+define("ERR_NO_XOOPS_FOUND","√°√£ √≠√ä√£ √á√°√ö√ã√¶√ë √ö√°√¨ √á√°√£√å√°√è √á√°√£√é√ï√ï √°√Ö√ì√ä√ü√£√á√° √á√°√ä√ã√à√≠√ä" );
+define("ERR_INVALID_EMAIL","√à√ë√≠√è √Ö√°√ü√ä√ë√¶√§√≠ √õ√≠√ë √ï√á√°√ç" ); // L73
+define("ERR_REQUIRED","√£√ö√°√¶√£√á√ä √Ö√å√à√á√ë√≠√â." ); // L41
+define("ERR_PASSWORD_MATCH","√ü√°√£√â √á√°√£√ë√¶√ë √õ√≠√ë √£√ä√ò√á√à√û√â" );
+define("ERR_NEED_WRITE_ACCESS","√≠√å√à √Ö√ö√ò√á√Å √ä√ë√é√≠√ï √á√°√ü√ä√á√à√â √ö√°√¨ √á√°√£√å√°√è√á√ä √¶ √á√°√£√°√ù√á√ä √á√°√ä√á√°√≠√â<br />√≠√ö√§√≠ <em>chmod 777 directory_name</em> √ù√≠ √é√á√è√£ √≠√¶√§√≠√ü√ì √É√¶ √°√≠√¶√§√≠√ü√ì<br />√Ö√ê√á √°√£ √ä√ü√§ √£√¶√å√¶√è√â √É√¶ √ä√£ √Ö√§√î√á√Ü√•√á √à√ò√ë√≠√û√â √é√á√ò√Ü√â √ù√á√°√ë√å√á√Å √Ö√ö√á√è√â √ä√ü√¶√≠√§√•√á √£√§ √å√è√≠√è √¶ √Ö√ö√ò√á√Å √á√°√ä√ë√á√é√≠√ï √à√î√ü√° √≠√è√¶√≠." );
+define("ERR_NO_DATABASE","√°√á √≠√£√ü√§ √Ö√§√î√á√Å √û√á√ö√è√â √á√°√à√≠√á√§√á√ä.√á√ä√ï√° √à√á√°√£√ì√Ü√¶√° √ö√§ √Ö√ì√ä√ñ√á√ù√ä√ü." ); // L31
+define("ERR_NO_DBCONNECTION","√°√á √≠√£√ü√§ √á√°√Ö√ä√ï√á√° √à√á√°√é√á√è√£ √á√°√£√ì√ä√ñ√≠√ù." ); // L106
+define("ERR_WRITING_CONSTANT","Failed writing constant %s." ); // L122
 
-define( "ERR_COPY_MAINFILE", "·« Ì„ﬂ‰ ‰”Œ „Õ ÊÏ ﬁ«·» «·≈⁄œ«œ«  ›Ì mainfile.php" );
-define( "ERR_WRITE_MAINFILE", "·« Ì„ﬂ‰ «·ﬂ «»… ⁄·Ï „·› mainfile.php.  √ﬂœ „‰  —ŒÌ’ «·ﬂ «»… ⁄·ÌÂ À„ √⁄œ «·„Õ«Ê·…");
-define( "ERR_READ_MAINFILE", "·« Ì„ﬂ‰ › Õ „·› mainfile.php ·ﬁ—«¡ Â" );
+define("ERR_COPY_MAINFILE","√°√á √≠√£√ü√§ √§√ì√é √£√ç√ä√¶√¨ √û√á√°√à √á√°√Ö√ö√è√á√è√á√ä √ù√≠ mainfile.php" );
+define("ERR_WRITE_MAINFILE","√°√á √≠√£√ü√§ √á√°√ü√ä√á√à√â √ö√°√¨ √£√°√ù mainfile.php. √ä√É√ü√è √£√§ √ä√ë√é√≠√ï √á√°√ü√ä√á√à√â √ö√°√≠√• √ã√£ √É√ö√è √á√°√£√ç√á√¶√°√â");
+define("ERR_READ_MAINFILE","√°√á √≠√£√ü√§ √ù√ä√ç √£√°√ù mainfile.php √°√û√ë√á√Å√ä√•" );
 
-define( "ERR_INVALID_DBCHARSET", "«· —„Ì“ '%s' €Ì— „œ⁄Ê„." );
-define( "ERR_INVALID_DBCOLLATION", "„ﬁ«—‰… «·√Õ—› '%s' €Ì— „œ⁄Ê„." );
-define( "ERR_CHARSET_NOT_SET", "«· —„Ì“ «·≈› —«÷Ì ·Ì” ÂÊ  —„Ì“ ﬁ«⁄œ… »Ì«‰«  XOOPS." );
+define("ERR_INVALID_DBCHARSET","√á√°√ä√ë√£√≠√í '%s' √õ√≠√ë √£√è√ö√¶√£." );
+define("ERR_INVALID_DBCOLLATION","√£√û√á√ë√§√â √á√°√É√ç√ë√ù '%s' √õ√≠√ë √£√è√ö√¶√£." );
+define("ERR_CHARSET_NOT_SET","√á√°√ä√ë√£√≠√í √á√°√Ö√ù√ä√ë√á√ñ√≠ √°√≠√ì √•√¶ √ä√ë√£√≠√í √û√á√ö√è√â √à√≠√á√§√á√ä XOOPS." );
 
 
-define("_INSTALL_CHARSET", "windows-1256");
+define("_INSTALL_CHARSET","windows-1256");
 
-define( "SUPPORT", "„Ê«ﬁ⁄ «·œ⁄„");
+define("SUPPORT","√£√¶√á√û√ö √á√°√è√ö√£");
 
-define( "LOGIN", "«· Õﬁﬁ „‰ «·ÂÊÌ…");
-define( "LOGIN_TITLE", "«· Õﬁﬁ „‰ «·ÂÊÌ…");
-define( "USER_LOGIN", " ”ÃÌ· œŒÊ· «·≈œ«—…" );
-define( "USERNAME", "«”„ «·„” Œœ„ :");
-define( "PASSWORD", "ﬂ·„… «·„—Ê— :");
+define("LOGIN","√á√°√ä√ç√û√û √£√§ √á√°√•√¶√≠√â");
+define("LOGIN_TITLE","√á√°√ä√ç√û√û √£√§ √á√°√•√¶√≠√â");
+define("USER_LOGIN","√ä√ì√å√≠√° √è√é√¶√° √á√°√Ö√è√á√ë√â" );
+define("USERNAME","√á√ì√£ √á√°√£√ì√ä√é√è√£ :");
+define("PASSWORD","√ü√°√£√â √á√°√£√ë√¶√ë :");
 
-define( "ICONV_CONVERSION", "Character set conversion");
-define( "ZLIB_COMPRESSION", "Zlib Compression");
-define( "IMAGE_FUNCTIONS", "Image functions");
-define( "IMAGE_METAS", "Image meta data (exif)");
+define("ICONV_CONVERSION","Character set conversion");
+define("ZLIB_COMPRESSION","Zlib Compression");
+define("IMAGE_FUNCTIONS","Image functions");
+define("IMAGE_METAS","Image meta data (exif)");
 
-define( "ADMIN_EXIST", "≈‘ —«ﬂ „œÌ— «·„Êﬁ⁄ „ÊÃÊœ „”»ﬁ«.<br />≈÷€ÿ <strong>«· «·Ì</strong> ·· ÊÃÂ ··ŒÿÊ… «· «·Ì….");
+define("ADMIN_EXIST","√Ö√î√ä√ë√á√ü √£√è√≠√ë √á√°√£√¶√û√ö √£√¶√å√¶√è √£√ì√à√û√á√∞.<br />√Ö√ñ√õ√ò <strong>√á√°√ä√á√°√≠</strong> √°√°√ä√¶√å√• √°√°√é√ò√¶√â √á√°√ä√á√°√≠√â.");
 
-define( "CONFIG_SITE", " ⁄œÌ·«  «·„Êﬁ⁄" );
-define( "CONFIG_SITE_TITLE", " ⁄œÌ·«  «·„Êﬁ⁄" );
-define( "MODULES", " —ﬂÌ» «·»—«„Ã" );
-define( "MODULES_TITLE", " —ﬂÌ» «·»—«„Ã" );
-define( "THEME", "≈Œ Ì«— «·ÀÌ„" );
-define( "THEME_TITLE", "≈Œ — «·ÀÌ„ «·≈› —«÷Ì ·„Êﬁ⁄ﬂ" );
+define("CONFIG_SITE","√ä√ö√è√≠√°√á√ä √á√°√£√¶√û√ö" );
+define("CONFIG_SITE_TITLE","√ä√ö√è√≠√°√á√ä √á√°√£√¶√û√ö" );
+define("MODULES","√ä√ë√ü√≠√à √á√°√à√ë√á√£√å" );
+define("MODULES_TITLE","√ä√ë√ü√≠√à √á√°√à√ë√á√£√å" );
+define("THEME","√Ö√é√ä√≠√á√ë √á√°√ã√≠√£" );
+define("THEME_TITLE","√Ö√é√ä√ë √á√°√ã√≠√£ √á√°√Ö√ù√ä√ë√á√ñ√≠ √°√£√¶√û√ö√ü" );
 
-define( "INSTALLED_MODULES", "«·»—«„Ã «· «·Ì…  „  —ﬂÌ»Â«.<br />≈÷€ÿ <strong>«· «·Ì</strong> ··–Â«» ··ŒÿÊ… «· «·Ì….");
-define( "NO_MODULES_FOUND", "·«  ÊÃœ »—«„Ã.<br />≈÷€ÿ <strong>«· «·Ì</strong> ··–Â«» ··ŒÿÊ… «· «·Ì….");
-define( "NO_INSTALLED_MODULES", "·« ÌÊÃœ »—‰«„Ã „À» .<br />≈÷€ÿ <strong>«· «·Ì</strong> ··–Â«» ··ŒÿÊ… «· «·Ì….");
+define("INSTALLED_MODULES","√á√°√à√ë√á√£√å √á√°√ä√á√°√≠√â √ä√£ √ä√ë√ü√≠√à√•√á.<br />√Ö√ñ√õ√ò <strong>√á√°√ä√á√°√≠</strong> √°√°√ê√•√á√à √°√°√é√ò√¶√â √á√°√ä√á√°√≠√â.");
+define("NO_MODULES_FOUND","√°√á √ä√¶√å√è √à√ë√á√£√å.<br />√Ö√ñ√õ√ò <strong>√á√°√ä√á√°√≠</strong> √°√°√ê√•√á√à √°√°√é√ò√¶√â √á√°√ä√á√°√≠√â.");
+define("NO_INSTALLED_MODULES","√°√á √≠√¶√å√è √à√ë√§√á√£√å √£√ã√à√ä.<br />√Ö√ñ√õ√ò <strong>√á√°√ä√á√°√≠</strong> √°√°√ê√•√á√à √°√°√é√ò√¶√â √á√°√ä√á√°√≠√â.");
 
-define( "THEME_NO_SCREENSHOT", "·«  ÊÃœ ’Ê—… „’€—…");
+define("THEME_NO_SCREENSHOT","√°√á √ä√¶√å√è √ï√¶√ë√â √£√ï√õ√ë√â");
 
-define( "IS_VALOR", " => ");
+define("IS_VALOR"," => ");
 
 // password message
-define( "PASSWORD_LABEL", "ﬁÊ… ﬂ·„… «·”— : ");
-define( "PASSWORD_DESC", "ﬂ·„… «·”— €Ì— „œŒ·…");
-define( "PASSWORD_GENERATOR", "’«‰⁄ ﬂ·„«  «·„—Ê—");
-define( "PASSWORD_GENERATE", " ‰›Ì–");
-define( "PASSWORD_COPY", "‰”Œ");
+define("PASSWORD_LABEL","√û√¶√â √ü√°√£√â √á√°√ì√ë : ");
+define("PASSWORD_DESC","√ü√°√£√â √á√°√ì√ë √õ√≠√ë √£√è√é√°√â");
+define("PASSWORD_GENERATOR","√ï√á√§√ö √ü√°√£√á√ä √á√°√£√ë√¶√ë");
+define("PASSWORD_GENERATE","√ä√§√ù√≠√ê");
+define("PASSWORD_COPY","√§√ì√é");
 
-define( "PASSWORD_VERY_WEAK", "÷⁄Ì›… Ãœ«");
-define( "PASSWORD_WEAK", "÷⁄Ì›…");
-define( "PASSWORD_BETTER", "ÃÌœ…");
-define( "PASSWORD_MEDIUM", "„ Ê”ÿ…");
-define( "PASSWORD_STRONG", "ﬁÊÌ…");
-define( "PASSWORD_STRONGEST", "ﬁÊÌ… Ãœ«");
+define("PASSWORD_VERY_WEAK","√ñ√ö√≠√ù√â √å√è√á√∞");
+define("PASSWORD_WEAK","√ñ√ö√≠√ù√â");
+define("PASSWORD_BETTER","√å√≠√è√â");
+define("PASSWORD_MEDIUM","√£√ä√¶√ì√ò√â");
+define("PASSWORD_STRONG","√û√¶√≠√â");
+define("PASSWORD_STRONGEST","√û√¶√≠√â √å√è√á√∞");
 ?>

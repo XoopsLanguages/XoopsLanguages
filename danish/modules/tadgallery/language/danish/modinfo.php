@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 //  ------------------------------------------------------------------------ //
 // This module was written by Tad
 // Release date: 2008-03-23
@@ -9,17 +9,17 @@ define("_MI_TADGAL_NAME","Digital photo album");
 define("_MI_TADGAL_AUTHOR","Tad");
 define("_MI_TADGAL_CREDITS","tad");
 define("_MI_TADGAL_DESC","This module is an easy to use digital photo album");
-define("_MI_TADGAL_ADMENU1", "Photo management");
-define("_MI_TADGAL_ADMENU2", "Category management");
-define("_MI_TADGAL_ADMENU3", "Best Photos management");
-define("_MI_TADGAL_ADMENU4", "Module update");
-define("_MI_TADGAL_ADMENU5", "Generate media RSS");
-define("_MI_TADGAL_ADMENU6", "Batch management");
-define("_MI_TADGAL_TEMPLATE_DESC1", "Album template");
-define("_MI_TADGAL_TEMPLATE_DESC2", "Single photo template");
-define("_MI_TADGAL_TEMPLATE_DESC3", "Slideshow template");
-define("_MI_TADGAL_TEMPLATE_DESC4", "Album template for uploader");
-define("_MI_TADGAL_TEMPLATE_DESC5", "Album template");
+define("_MI_TADGAL_ADMENU1","Photo management");
+define("_MI_TADGAL_ADMENU2","Category management");
+define("_MI_TADGAL_ADMENU3","Best Photos management");
+define("_MI_TADGAL_ADMENU4","Module update");
+define("_MI_TADGAL_ADMENU5","Generate media RSS");
+define("_MI_TADGAL_ADMENU6","Batch management");
+define("_MI_TADGAL_TEMPLATE_DESC1","Album template");
+define("_MI_TADGAL_TEMPLATE_DESC2","Single photo template");
+define("_MI_TADGAL_TEMPLATE_DESC3","Slideshow template");
+define("_MI_TADGAL_TEMPLATE_DESC4","Album template for uploader");
+define("_MI_TADGAL_TEMPLATE_DESC5","Album template");
 
 define("_MI_TADGAL_BNAME1","Photo scrollbar");
 define("_MI_TADGAL_BDESC1","A block that scrolls photos up or down");

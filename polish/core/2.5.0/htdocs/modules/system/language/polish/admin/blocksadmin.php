@@ -8,9 +8,9 @@
  */
 
 // Navigation
-define("_AM_SYSTEM_BLOCKS_ADMIN", "Zarządzanie blokami");
+define("_AM_SYSTEM_BLOCKS_ADMIN","Zarządzanie blokami");
 define("_AM_SYSTEM_BLOCKS_MANAGMENT","Zarządzaj");
-define("_AM_SYSTEM_BLOCKS_ADDBLOCK", "Dodaj nowy blok");
+define("_AM_SYSTEM_BLOCKS_ADDBLOCK","Dodaj nowy blok");
 define("_AM_SYSTEM_BLOCKS_EDITBLOCK","Edytuj blok");
 define("_AM_SYSTEM_BLOCKS_CLONEBLOCK","Powiel blok");
 

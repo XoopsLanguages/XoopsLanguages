@@ -25,18 +25,18 @@
 //  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 USA //
 //  ------------------------------------------------------------------------ //
 
-define('_MB_XPARTNERS_PSPACE', 'Plaats ruimte tussen partners?');
-define('_MB_XPARTNERS_BRAND', 'Willekeurige weergave van partners in blokken?');
-define('_MB_XPARTNERS_BLIMIT', 'Beperk de blokken tot xx entries: (0 = geen limiet)');
-define('_MB_XPARTNERS_BSHOW', 'Weergeven in blokken:');
-define('_MB_XPARTNERS_BORDER', 'Sorteer inhoud van het blok op:');
-define('_MB_XPARTNERS_ID', 'ID');
-define('_MB_XPARTNERS_HITS', 'Klikken');
-define('_MB_XPARTNERS_TITLE', 'Titel');
-define('_MB_XPARTNERS_WEIGHT', 'gewicht');
-define('_MB_XPARTNERS_ASC', 'Oplopend');
-define('_MB_XPARTNERS_DESC', 'Aflopend');
-define('_MB_XPARTNERS_IMAGES', 'Afbeelding');
-define('_MB_XPARTNERS_TEXT', 'Tekst Links');
-define('_MB_XPARTNERS_BOTH', 'Beid');
-define('_MB_XPARTNERS_FADE', 'Afbeelding vervagen');
+define('_MB_XPARTNERS_PSPACE','Plaats ruimte tussen partners?');
+define('_MB_XPARTNERS_BRAND','Willekeurige weergave van partners in blokken?');
+define('_MB_XPARTNERS_BLIMIT','Beperk de blokken tot xx entries: (0 = geen limiet)');
+define('_MB_XPARTNERS_BSHOW','Weergeven in blokken:');
+define('_MB_XPARTNERS_BORDER','Sorteer inhoud van het blok op:');
+define('_MB_XPARTNERS_ID','ID');
+define('_MB_XPARTNERS_HITS','Klikken');
+define('_MB_XPARTNERS_TITLE','Titel');
+define('_MB_XPARTNERS_WEIGHT','gewicht');
+define('_MB_XPARTNERS_ASC','Oplopend');
+define('_MB_XPARTNERS_DESC','Aflopend');
+define('_MB_XPARTNERS_IMAGES','Afbeelding');
+define('_MB_XPARTNERS_TEXT','Tekst Links');
+define('_MB_XPARTNERS_BOTH','Beid');
+define('_MB_XPARTNERS_FADE','Afbeelding vervagen');

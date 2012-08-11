@@ -50,7 +50,7 @@ define('_MD_SUBJECT','عنوان');
 define('_MD_INACTIVEFORUM_NEWPOSTS','انجمن غیر فعال با پیام جدید');
 define('_MD_INACTIVEFORUM_NONEWPOSTS','انجمن غیر فعال بدون پیام جدید');
 define('_MD_SUBFORUMS','زیرانجمن');
-define('_MD_MAINFORUMOPT', 'گزینه های اصلی');
+define('_MD_MAINFORUMOPT','گزینه های اصلی');
 define("_MD_PENDING_POSTS_FOR_AUTH","پیام های منتظر برای تایید");
 
 
@@ -98,34 +98,34 @@ define('_MD_FROMLASTHOURS','از %s ساعت گذشته');
 define('_MD_FROMLASTDAYS','از %s روز گذشته');
 define('_MD_THELASTYEAR','از سال گذشته');
 define('_MD_BEGINNING','از ابتدا');
-define('_MD_SEARCHTHISFORUM', 'این انجمن را جستجو کنید');
+define('_MD_SEARCHTHISFORUM','این انجمن را جستجو کنید');
 define('_MD_TOPIC_SUBJECTC','پیشوند عنوان:');
 
 
 define('_MD_RATINGS','ارزش یابی');
-define("_MD_CAN_ACCESS", "شما <strong>می توانید</strong> به این انجمن دسترسی داشته باشید<br />");
-define("_MD_CANNOT_ACCESS", "شما <strong>نمی توانید</strong> به این انجمن دسترسی داشته باشید<br />");
-define("_MD_CAN_POST", "شما <b>می ‌توانید</b> عنوان جدید باز کنید<br>");
-define("_MD_CANNOT_POST", "شما <b>نمی توانید</b> عنوان جدید باز کنید<br>");
-define("_MD_CAN_VIEW", "شما <b>می ‌توانید</b> مطالب را بخوانید<br />");
-define("_MD_CANNOT_VIEW", "شما <b>نمی توانید</b> مطالب را بخوانید<br />");
-define("_MD_CAN_REPLY", "شما <b>می ‌توانید</b> به عنوان‌ها پاسخ دهید<br>");
-define("_MD_CANNOT_REPLY", "شما <b>نمی توانید</b> به عنوان‌ها پاسخ دهید<br>");
-define("_MD_CAN_EDIT", "شما <b>می ‌توانید</b> پیام‌ها ی خودتان را ویرایش کنید<br>");
-define("_MD_CANNOT_EDIT", "شما <b>نمی توانید</b> پیام‌های خودتان را ویرایش کنید<br>");
-define("_MD_CAN_DELETE", "شما <b>می ‌توانید</b> پیام‌ها ی خودتان را  حذف کنید<br>");
-define("_MD_CANNOT_DELETE", "شما <b>نمی توانید</b> پیام‌های خودتان را حذف کنید<br>");
-define("_MD_CAN_ADDPOLL", "شما <b>می ‌توانید</b> نظر سنجی اضافه کنید<br>");
-define("_MD_CANNOT_ADDPOLL", "شما <b>نمی توانید</b> نظر سنجی اضافه کنید<br>");
-define("_MD_CAN_VOTE", "شما <b>می ‌توانید</b> در نظر سنجی ها شرکت کنید<br>");
-define("_MD_CANNOT_VOTE", "شما <b>نمی توانید</b> در نظر سنجی ها شرکت کنید<br>");
-define("_MD_CAN_ATTACH", "شما <b>می ‌توانید</b> فایل‌ها را به پیام خود پیوست کنید<br>");
-define("_MD_CANNOT_ATTACH", "شما <b>نمی توانید</b> فایل‌ها را به پیام خود پیوست کنید<br>");
-define("_MD_CAN_NOAPPROVE", "شما <b>می ‌توانید</b> پیام بدون نیاز به تایید بزنید<br>");
-define("_MD_CANNOT_NOAPPROVE", "شما <b>نمی توانید</b> پیام بدون نیاز به تایید بزنید<br>");
+define("_MD_CAN_ACCESS","شما <strong>می توانید</strong> به این انجمن دسترسی داشته باشید<br />");
+define("_MD_CANNOT_ACCESS","شما <strong>نمی توانید</strong> به این انجمن دسترسی داشته باشید<br />");
+define("_MD_CAN_POST","شما <b>می ‌توانید</b> عنوان جدید باز کنید<br>");
+define("_MD_CANNOT_POST","شما <b>نمی توانید</b> عنوان جدید باز کنید<br>");
+define("_MD_CAN_VIEW","شما <b>می ‌توانید</b> مطالب را بخوانید<br />");
+define("_MD_CANNOT_VIEW","شما <b>نمی توانید</b> مطالب را بخوانید<br />");
+define("_MD_CAN_REPLY","شما <b>می ‌توانید</b> به عنوان‌ها پاسخ دهید<br>");
+define("_MD_CANNOT_REPLY","شما <b>نمی توانید</b> به عنوان‌ها پاسخ دهید<br>");
+define("_MD_CAN_EDIT","شما <b>می ‌توانید</b> پیام‌ها ی خودتان را ویرایش کنید<br>");
+define("_MD_CANNOT_EDIT","شما <b>نمی توانید</b> پیام‌های خودتان را ویرایش کنید<br>");
+define("_MD_CAN_DELETE","شما <b>می ‌توانید</b> پیام‌ها ی خودتان را  حذف کنید<br>");
+define("_MD_CANNOT_DELETE","شما <b>نمی توانید</b> پیام‌های خودتان را حذف کنید<br>");
+define("_MD_CAN_ADDPOLL","شما <b>می ‌توانید</b> نظر سنجی اضافه کنید<br>");
+define("_MD_CANNOT_ADDPOLL","شما <b>نمی توانید</b> نظر سنجی اضافه کنید<br>");
+define("_MD_CAN_VOTE","شما <b>می ‌توانید</b> در نظر سنجی ها شرکت کنید<br>");
+define("_MD_CANNOT_VOTE","شما <b>نمی توانید</b> در نظر سنجی ها شرکت کنید<br>");
+define("_MD_CAN_ATTACH","شما <b>می ‌توانید</b> فایل‌ها را به پیام خود پیوست کنید<br>");
+define("_MD_CANNOT_ATTACH","شما <b>نمی توانید</b> فایل‌ها را به پیام خود پیوست کنید<br>");
+define("_MD_CAN_NOAPPROVE","شما <b>می ‌توانید</b> پیام بدون نیاز به تایید بزنید<br>");
+define("_MD_CANNOT_NOAPPROVE","شما <b>نمی توانید</b> پیام بدون نیاز به تایید بزنید<br>");
 define("_MD_IMTOPICS","عنوان‌های مهم");
 define("_MD_NOTIMTOPICS","عنوان‌های انجمن");
-define('_MD_FORUMOPTION', 'گزینه های انجمن');
+define('_MD_FORUMOPTION','گزینه های انجمن');
 
 define('_MD_VAUP','دیدن تمامی عنوان‌های بدون پاسخ');
 define('_MD_VANP','دیدن تمامی پیام‌های جدید');
@@ -165,12 +165,12 @@ define('_MD_AIM','AIM');
 define('_MD_YIM','یاهو مسنجر');
 define('_MD_MSNM','MSN مسنجر');
 define('_MD_ICQ','ICQ وضعیت');
-define('_MD_PRINT_TOPIC_LINK', 'آدرس برای این بحث');
+define('_MD_PRINT_TOPIC_LINK','آدرس برای این بحث');
 define('_MD_ADDTOLIST','اضافه کردن به لیست مرتبطین');
-define('_MD_TOPICOPT', 'انتخاب‌های عنوان');
-define('_MD_VIEWMODE', 'نوع دید');
-define('_MD_NEWEST', 'اول تازه‌ها');
-define('_MD_OLDEST', 'اول قدیمی‌ها');
+define('_MD_TOPICOPT','انتخاب‌های عنوان');
+define('_MD_VIEWMODE','نوع دید');
+define('_MD_NEWEST','اول تازه‌ها');
+define('_MD_OLDEST','اول قدیمی‌ها');
 
 define('_MD_FORUMSEARCH','جستجوی انجمن');
 
@@ -185,8 +185,8 @@ define('_MD_RATE4','خوب');
 define('_MD_RATE5','عالی');
 
 define('_MD_TOPICOPTION','انتخاب‌های این‌عنوان');
-define('_MD_KARMA_REQUIREMENT', 'کارمای شخص شما  %s به حداقل کارمای مورد نیاز %s نمی‌رسد. <br /> لطفا بعدا سعی نمایید.');
-define('_MD_REPLY_REQUIREMENT', 'برای دیدن این پیام بایستی ابتدا یک پاسخ بزنید');
+define('_MD_KARMA_REQUIREMENT','کارمای شخص شما  %s به حداقل کارمای مورد نیاز %s نمی‌رسد. <br /> لطفا بعدا سعی نمایید.');
+define('_MD_REPLY_REQUIREMENT','برای دیدن این پیام بایستی ابتدا یک پاسخ بزنید');
 define('_MD_TOPICOPTIONADMIN','انتخاب‌های مدیر عنوان');
 define('_MD_POLLOPTIONADMIN','انتخاب‌های مدیر نظر‌سنجی');
 
@@ -278,7 +278,7 @@ define('_MD_DOSMILEY','فعال کردن Smileys');
 define('_MD_DOXCODE','فعال کردن کد های Xoops');
 define('_MD_DOBR','فعال کردن شکستن خود به خود خط ها (پیشنهاد میشود که در حالتی که HTML مجاز است این گزینه را غیر فعال کنید)');
 define('_MD_DOHTML','استفاده از تگ‌های HTML');
-define('_MD_NEWPOSTNOTIFY', 'من را از پیام‌های جدید این انجمن با خبر کن');
+define('_MD_NEWPOSTNOTIFY','من را از پیام‌های جدید این انجمن با خبر کن');
 define('_MD_ATTACHSIG','پیوست امضا');
 define('_MD_POST','بفرست');
 define('_MD_SUBMIT','ثبت کن');
@@ -343,13 +343,13 @@ define('_MD_FROM','از');
 define('_MD_JOINED','عضو شده از');
 define('_MD_ONLINE','آنلاین');
 define('_MD_OFFLINE','آفلاین');
-define('_MD_FLAT', 'یک صفحه ای');
+define('_MD_FLAT','یک صفحه ای');
 
 
 // online.php
-define('_MD_USERS_ONLINE', 'کاربران آنلاین:');
-define('_MD_ANONYMOUS_USERS', 'کاربر مهمان');
-define('_MD_REGISTERED_USERS', 'کاربر عضو:');
+define('_MD_USERS_ONLINE','کاربران آنلاین:');
+define('_MD_ANONYMOUS_USERS','کاربر مهمان');
+define('_MD_REGISTERED_USERS','کاربر عضو:');
 define('_MD_BROWSING_FORUM','کاربر در حال دیدن این انجمن');
 define('_MD_TOTAL_ONLINE','در مجموع %d کاربر آنلاین است.');
 define('_MD_ADMINISTRATOR','مدیر');
@@ -358,10 +358,10 @@ define('_MD_NO_SUCH_FILE','فایل موجود نیست!');
 define('_MD_ERROR_UPATEATTACHMENT','خطا هنگام به روز کردن فایل پیوست');
 
 // ratethread.php
-define("_MD_CANTVOTEOWN", "شما به عنوانی که خود آن را ایجاد کرده‌اید نمی‌توانید رای‌دهید<br />تمامی رای ‌ها ثبت و بازبینی می شوند.");
-define("_MD_VOTEONCE", "لطفا بیش از یک‌بار برای یک ارزش یابی رای ندهید.");
-define("_MD_VOTEAPPRE", "با تشکر از ارزش گذاری شما برای این عنوان");
-define("_MD_THANKYOU", "با تشکر از وقتی که برای رأی دادن در سایت %s گذاشتید."); // %s is your site name
+define("_MD_CANTVOTEOWN","شما به عنوانی که خود آن را ایجاد کرده‌اید نمی‌توانید رای‌دهید<br />تمامی رای ‌ها ثبت و بازبینی می شوند.");
+define("_MD_VOTEONCE","لطفا بیش از یک‌بار برای یک ارزش یابی رای ندهید.");
+define("_MD_VOTEAPPRE","با تشکر از ارزش گذاری شما برای این عنوان");
+define("_MD_THANKYOU","با تشکر از وقتی که برای رأی دادن در سایت %s گذاشتید."); // %s is your site name
 define("_MD_VOTES","رای");
 define("_MD_NOVOTERATE","شما این پیام را ارزش گذاری نکرده‌اید");
 
@@ -369,37 +369,37 @@ define("_MD_NOVOTERATE","شما این پیام را ارزش گذاری نکر�
 // polls.php
 define("_MD_POLL_DBUPDATED","دیتابیس با موفقیت به روز شد!");
 define("_MD_POLL_POLLCONF","تنظیمات نظرسنجی");
-define("_MD_POLL_POLLSLIST", "لیست نظر‌ها");
-define("_MD_POLL_AUTHOR", "نویسنده‌ی این نظرسنجی");
-define("_MD_POLL_DISPLAYBLOCK", "در بلاک نشان داده شود؟");
-define("_MD_POLL_POLLQUESTION", "سوال نظر سنجی؟");
-define("_MD_POLL_VOTERS", "مجموع رای‌دهنگان");
-define("_MD_POLL_VOTES", "مجموع رای‌ها");
-define("_MD_POLL_EXPIRATION", "انقضا");
-define("_MD_POLL_EXPIRED", "منقضی شده");
+define("_MD_POLL_POLLSLIST","لیست نظر‌ها");
+define("_MD_POLL_AUTHOR","نویسنده‌ی این نظرسنجی");
+define("_MD_POLL_DISPLAYBLOCK","در بلاک نشان داده شود؟");
+define("_MD_POLL_POLLQUESTION","سوال نظر سنجی؟");
+define("_MD_POLL_VOTERS","مجموع رای‌دهنگان");
+define("_MD_POLL_VOTES","مجموع رای‌ها");
+define("_MD_POLL_EXPIRATION","انقضا");
+define("_MD_POLL_EXPIRED","منقضی شده");
 define("_MD_POLL_VIEWLOG","دیدن اطلاعات نظر سنجی");
-define("_MD_POLL_CREATNEWPOLL", "ایحاد یک نظر سنجی جدید");
-define("_MD_POLL_POLLDESC", "توضیحات نظر سنجی");
-define("_MD_POLL_DISPLAYORDER", "مرتب سازی نمایش");
-define("_MD_POLL_ALLOWMULTI", "اجازه دادن چندین رای‌  همزمان؟");
-define("_MD_POLL_NOTIFY", "مطلع کردن نویسنده‌ی نظر سنجی پس از منقضی شدن؟");
-define("_MD_POLL_POLLOPTIONS", "انتخاب‌ها");
-define("_MD_POLL_EDITPOLL", "ویرایش نظر سنجی");
-define("_MD_POLL_FORMAT", "ساختار: yyyy-mm-dd hh:mm:ss");
-define("_MD_POLL_CURRENTTIME", "زمان و تاریخ در حال حاضر: %s");
-define("_MD_POLL_EXPIREDAT", "انقضا در تاریخ %s");
-define("_MD_POLL_RESTART", "این نظر سنجی را دوباره شروع کن");
-define("_MD_POLL_ADDMORE", "اضافه کردن انتخاب‌های بیشتر");
-define("_MD_POLL_RUSUREDEL", "آیا مطمئنید که می‌خواهید این نظر سنجی و تمام رأی‌های آن را پاک کنید؟");
-define("_MD_POLL_RESTARTPOLL", "دوباره شروع کردن نظر سنجی");
-define("_MD_POLL_RESET", "تمامی ثبت‌شده‌های این نظر سنجی را از اول تنظیم کن.");
+define("_MD_POLL_CREATNEWPOLL","ایحاد یک نظر سنجی جدید");
+define("_MD_POLL_POLLDESC","توضیحات نظر سنجی");
+define("_MD_POLL_DISPLAYORDER","مرتب سازی نمایش");
+define("_MD_POLL_ALLOWMULTI","اجازه دادن چندین رای‌  همزمان؟");
+define("_MD_POLL_NOTIFY","مطلع کردن نویسنده‌ی نظر سنجی پس از منقضی شدن؟");
+define("_MD_POLL_POLLOPTIONS","انتخاب‌ها");
+define("_MD_POLL_EDITPOLL","ویرایش نظر سنجی");
+define("_MD_POLL_FORMAT","ساختار: yyyy-mm-dd hh:mm:ss");
+define("_MD_POLL_CURRENTTIME","زمان و تاریخ در حال حاضر: %s");
+define("_MD_POLL_EXPIREDAT","انقضا در تاریخ %s");
+define("_MD_POLL_RESTART","این نظر سنجی را دوباره شروع کن");
+define("_MD_POLL_ADDMORE","اضافه کردن انتخاب‌های بیشتر");
+define("_MD_POLL_RUSUREDEL","آیا مطمئنید که می‌خواهید این نظر سنجی و تمام رأی‌های آن را پاک کنید؟");
+define("_MD_POLL_RESTARTPOLL","دوباره شروع کردن نظر سنجی");
+define("_MD_POLL_RESET","تمامی ثبت‌شده‌های این نظر سنجی را از اول تنظیم کن.");
 define("_MD_POLL_ADDPOLL","اضافه‌کردن نظر سنجی");
 define("_MD_POLLMODULE_ERROR","ماژول Xoopspoll برای استفاده آماده نیست ");
 
 //report.php
-define("_MD_REPORTED", "با تشکر از گزارش شما از این پیام؛ ناظر به زودی به این گزارش رسیدگی خواهد کرد.");
-define("_MD_REPORT_EORROR", "خطا هنگام ارسال گزارش");
-define("_MD_REPORT_TEXT", "پیام گزارش:");
+define("_MD_REPORTED","با تشکر از گزارش شما از این پیام؛ ناظر به زودی به این گزارش رسیدگی خواهد کرد.");
+define("_MD_REPORT_EORROR","خطا هنگام ارسال گزارش");
+define("_MD_REPORT_TEXT","پیام گزارش:");
 
 define("_MD_PDF","ساختن فایل PDF از این پیام");
 define("_MD_PDF_PAGE","صفحه %s");
@@ -446,27 +446,27 @@ define("_MD_TYPE_PENDING","نوشته های نیازمند تایید");
 define("_MD_TYPE_DELETED","حذف شده ها");
 define("_MD_TYPE_SUSPEND","معلق کردن کاربران");
 
-define("_MD_DBUPDATED", "پایگاه داده با موفقیت به روز شد");
+define("_MD_DBUPDATED","پایگاه داده با موفقیت به روز شد");
 
-define("_MD_SUSPEND_SUBJECT", "کاربر به شناسه %s برای مدت %d روز معلق شده است");
-define("_MD_SUSPEND_TEXT", "کاربر  به شناسه %s برای مدت %d روز به دلیل نوشته شده در زیر معلق شده است:<br />[quote]%s[/quote]<br /><br />معلق بودن تا %s معتبر است");
-define("_MD_SUSPEND_UID", "شماره کاربری (ID)");
-define("_MD_SUSPEND_IP", "IP(کامل یا مجزا)");
-define("_MD_SUSPEND_DURATION", "طول مدت معلق بودن (به روز)");
-define("_MD_SUSPEND_DESC", "دلیل معلق بودن");
-define("_MD_SUSPEND_LIST", "فهرست افراد معلق");
-define("_MD_SUSPEND_START", "شروع");
-define("_MD_SUSPEND_EXPIRE", "خاتمه");
-define("_MD_SUSPEND_SCOPE", "میدان عمل");
-define("_MD_SUSPEND_MANAGEMENT", "مدیریت ناظر");
-define("_MD_SUSPEND_NOACCESS", "ID یا Ip شما معلق شده است");
+define("_MD_SUSPEND_SUBJECT","کاربر به شناسه %s برای مدت %d روز معلق شده است");
+define("_MD_SUSPEND_TEXT","کاربر  به شناسه %s برای مدت %d روز به دلیل نوشته شده در زیر معلق شده است:<br />[quote]%s[/quote]<br /><br />معلق بودن تا %s معتبر است");
+define("_MD_SUSPEND_UID","شماره کاربری (ID)");
+define("_MD_SUSPEND_IP","IP(کامل یا مجزا)");
+define("_MD_SUSPEND_DURATION","طول مدت معلق بودن (به روز)");
+define("_MD_SUSPEND_DESC","دلیل معلق بودن");
+define("_MD_SUSPEND_LIST","فهرست افراد معلق");
+define("_MD_SUSPEND_START","شروع");
+define("_MD_SUSPEND_EXPIRE","خاتمه");
+define("_MD_SUSPEND_SCOPE","میدان عمل");
+define("_MD_SUSPEND_MANAGEMENT","مدیریت ناظر");
+define("_MD_SUSPEND_NOACCESS","ID یا Ip شما معلق شده است");
 
-// !!IMPORTANT!! insert '\' before any char among reserved chars: "a", "A","B","c","d","D","F","g","G","h","H","i","I","j","l","L","m","M","n","O","r","s","S","t","T","U","w","W","Y","y","z","Z"	
-// insert double '\' before 't', 'r', 'n'
-define("_MD_TODAY", "\T\o\d\a\y G:i:s");
-define("_MD_YESTERDAY", "\Y\e\s\\t\e\\r\d\a\y G:i:s");
-define("_MD_MONTHDAY", "n/j G:i:s");
-define("_MD_YEARMONTHDAY", "Y/n/j G:i");
+// !!IMPORTANT!! insert '\' before any char among reserved chars: "a","A","B","c","d","D","F","g","G","h","H","i","I","j","l","L","m","M","n","O","r","s","S","t","T","U","w","W","Y","y","z","Z"	
+// insert double '\' before 't','r','n'
+define("_MD_TODAY","\T\o\d\a\y G:i:s");
+define("_MD_YESTERDAY","\Y\e\s\\t\e\\r\d\a\y G:i:s");
+define("_MD_MONTHDAY","n/j G:i:s");
+define("_MD_YEARMONTHDAY","Y/n/j G:i");
 
 // For user info
 // If you have customized userbar, define here.
@@ -486,19 +486,19 @@ class User_language extends User
     	$userbar = array();
         $userbar[] = array("link"=>XOOPS_URL . "/userinfo.php?uid=" . $user->getVar("uid"), "name" =>_PROFILE);
 		if (is_object($xoopsUser))
-        $userbar[]= array("link"=>"javascript:void openWithSelfMain('" . XOOPS_URL . "/pmlite.php?send2=1&amp;to_userid=" . $user->getVar("uid") . "', 'pmlite', 450, 380);", "name"=>_MD_PM);
+        $userbar[]= array("link"=>"javascript:void openWithSelfMain('" . XOOPS_URL . "/pmlite.php?send2=1&amp;to_userid=" . $user->getVar("uid") . "','pmlite', 450, 380);","name"=>_MD_PM);
         if($user->getVar('user_viewemail') || $isadmin)
-        $userbar[]= array("link"=>"javascript:void window.open('mailto:" . $user->getVar('email') . "', 'new');", "name"=>_MD_EMAIL);
+        $userbar[]= array("link"=>"javascript:void window.open('mailto:" . $user->getVar('email') . "','new');","name"=>_MD_EMAIL);
         if($user->getVar('url'))
-        $userbar[]= array("link"=>"javascript:void window.open('" . $user->getVar('url') . "', 'new');", "name"=>_MD_WWW);
+        $userbar[]= array("link"=>"javascript:void window.open('" . $user->getVar('url') . "','new');","name"=>_MD_WWW);
         if($user->getVar('user_icq'))
-        $userbar[]= array("link"=>"javascript:void window.open('http://wwp.icq.com/scripts/search.dll?to=" . $user->getVar('user_icq')."', 'new');", "name" => _MD_ICQ);
+        $userbar[]= array("link"=>"javascript:void window.open('http://wwp.icq.com/scripts/search.dll?to=" . $user->getVar('user_icq')."','new');","name" => _MD_ICQ);
         if($user->getVar('user_aim'))
-        $userbar[]= array("link"=>"javascript:void window.open('aim:goim?screenname=" . $user->getVar('user_aim') . "&amp;message=Hi+" . $user->getVar('user_aim') . "+Are+you+there?" . "', 'new');", "name"=>_MD_AIM);
+        $userbar[]= array("link"=>"javascript:void window.open('aim:goim?screenname=" . $user->getVar('user_aim') . "&amp;message=Hi+" . $user->getVar('user_aim') . "+Are+you+there?" . "','new');","name"=>_MD_AIM);
         if($user->getVar('user_yim'))
-        $userbar[]= array("link"=>"javascript:void window.open('http://edit.yahoo.com/config/send_webmesg?.target=" . $user->getVar('user_yim') . "&.src=pg" . "', 'new');", "name"=> _MD_YIM);
+        $userbar[]= array("link"=>"javascript:void window.open('http://edit.yahoo.com/config/send_webmesg?.target=" . $user->getVar('user_yim') . "&.src=pg" . "','new');","name"=> _MD_YIM);
         if($user->getVar('user_msnm'))
-        $userbar[]= array("link"=>"javascript:void window.open('http://members.msn.com?mem=" . $user->getVar('user_msnm') . "', 'new');", "name" => _MD_MSNM);
+        $userbar[]= array("link"=>"javascript:void window.open('http://members.msn.com?mem=" . $user->getVar('user_msnm') . "','new');","name" => _MD_MSNM);
 		return $userbar;
     }
 }

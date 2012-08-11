@@ -10,6 +10,6 @@ define("_AD_NICKNAME","Nik ime:");
 define("_AD_EMAIL","E-Mail:");
 define("_AD_AVATAR","Avatar:");
 define("_AD_REGISTERED","Registrovan(a):"); //Registered Date
-define('_AD_PRESSGEN', 'Ovo je prvi puta da ulazi&scaron; Adminovo-Podru&#269;je. Molim te klikni na "Po&scaron;alji" da bi nastavili.');
-define('_AD_LOGINADMIN', 'Loguje se...');
+define('_AD_PRESSGEN','Ovo je prvi puta da ulazi&scaron; Adminovo-Podru&#269;je. Molim te klikni na "Po&scaron;alji" da bi nastavili.');
+define('_AD_LOGINADMIN','Loguje se...');
 ?>

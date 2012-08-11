@@ -32,7 +32,7 @@ define('_MI_PICAL_BNAME_MINICALEX_DESC','Erweiterbarer Minikalender mit Plugin-S
 define('_MI_PICAL_DEFAULTLOCALE','austria');
 define('_MI_PICAL_LOCALE','Locale (check files in locales/*.php)');
 
-define( 'PICAL_MI_LOADED' , 1 ) ;
+define('PICAL_MI_LOADED' , 1 ) ;
 
 // Module Info
 
@@ -68,52 +68,52 @@ define("_MI_PICAL_SM_SUBMIT","Eintragen");
 //define("_MI_PICAL_ADMENU1","");
 
 // Title of config items
-define("_MI_USERS_AUTHORITY", "Berechtigungen für Benutzer");
-define("_MI_GUESTS_AUTHORITY", "Berechtigungen für Gäste");
-define("_MI_DEFAULT_VIEW", "Standardansicht");
-define("_MI_MINICAL_TARGET", "Ansicht, die angezeigt werden soll, wenn ein Datum auf dem MiniKalender angeklickt wird");
-define("_MI_COMING_NUMROWS", "Anzahl der angezeigten Termine im 'Kommende Termine Block'");
-define("_MI_SKINFOLDER", "Skin");
-define("_MI_SUNDAYCOLOR", "Textfarbe für Sonntag");
-define("_MI_WEEKDAYCOLOR", "Textfarbe für Wochentage");
-define("_MI_SATURDAYCOLOR", "Textfarbe für Samstag");
-define("_MI_HOLIDAYCOLOR", "Textfarbe für Feiertage");
-define("_MI_TARGETDAYCOLOR", "Textfarbe für ausgewählten Tag");
-define("_MI_SUNDAYBGCOLOR", "Hintergrundfarbe für Sonntag");
-define("_MI_WEEKDAYBGCOLOR", "Hintergrundfarbe für Wochentage");
-define("_MI_SATURDAYBGCOLOR", "Hintergrundfarbe für Samstag");
-define("_MI_HOLIDAYBGCOLOR", "Hintergrundfarbe für Feiertage");
-define("_MI_TARGETDAYBGCOLOR", "Hintergrundfarbe für ausgewählten Tag");
-define("_MI_CALHEADCOLOR", "Farbe des Kalender-Headers");
-define("_MI_CALHEADBGCOLOR", "Hintergrundfarbe des Kalender-Headers");
-define("_MI_CALFRAMECSS", "CSS-Stil des Kalenderrahmens");
-define("_MI_CANOUTPUTICS", "iCalendar-Datei (.ics) Ausgabe ermöglichen?");
-define("_MI_MAXRRULEEXTRACT", "max. Anzahl an Terminen, die durch die Regeln für wiederkehrende Termine erzeugt werden");
-define("_MI_WEEKSTARTFROM", "Die Woche beginnt mit");
-define("_MI_WEEKNUMBERING", "Wochennummerierung");
+define("_MI_USERS_AUTHORITY","Berechtigungen für Benutzer");
+define("_MI_GUESTS_AUTHORITY","Berechtigungen für Gäste");
+define("_MI_DEFAULT_VIEW","Standardansicht");
+define("_MI_MINICAL_TARGET","Ansicht, die angezeigt werden soll, wenn ein Datum auf dem MiniKalender angeklickt wird");
+define("_MI_COMING_NUMROWS","Anzahl der angezeigten Termine im 'Kommende Termine Block'");
+define("_MI_SKINFOLDER","Skin");
+define("_MI_SUNDAYCOLOR","Textfarbe für Sonntag");
+define("_MI_WEEKDAYCOLOR","Textfarbe für Wochentage");
+define("_MI_SATURDAYCOLOR","Textfarbe für Samstag");
+define("_MI_HOLIDAYCOLOR","Textfarbe für Feiertage");
+define("_MI_TARGETDAYCOLOR","Textfarbe für ausgewählten Tag");
+define("_MI_SUNDAYBGCOLOR","Hintergrundfarbe für Sonntag");
+define("_MI_WEEKDAYBGCOLOR","Hintergrundfarbe für Wochentage");
+define("_MI_SATURDAYBGCOLOR","Hintergrundfarbe für Samstag");
+define("_MI_HOLIDAYBGCOLOR","Hintergrundfarbe für Feiertage");
+define("_MI_TARGETDAYBGCOLOR","Hintergrundfarbe für ausgewählten Tag");
+define("_MI_CALHEADCOLOR","Farbe des Kalender-Headers");
+define("_MI_CALHEADBGCOLOR","Hintergrundfarbe des Kalender-Headers");
+define("_MI_CALFRAMECSS","CSS-Stil des Kalenderrahmens");
+define("_MI_CANOUTPUTICS","iCalendar-Datei (.ics) Ausgabe ermöglichen?");
+define("_MI_MAXRRULEEXTRACT","max. Anzahl an Terminen, die durch die Regeln für wiederkehrende Termine erzeugt werden");
+define("_MI_WEEKSTARTFROM","Die Woche beginnt mit");
+define("_MI_WEEKNUMBERING","Wochennummerierung");
 define('_MI_DAYSTARTFROM','Zeitpunkt des Tagesbeginns');
 define('_MI_NAMEORUNAME','Welcher \'Name\' des Autors soll angezeigt werden?');
 define('_MI_DESCNAMEORUNAME','');
 
 // Description of each config items
-define("_MI_EDITBYGUESTDSC", "Berechtigungen für Gäste, um Termine hinzuzufügen");
+define("_MI_EDITBYGUESTDSC","Berechtigungen für Gäste, um Termine hinzuzufügen");
 
 // Options of each config items
-define("_MI_OPT_AUTH_NONE", "dürfen nicht hinzufügen");
-define("_MI_OPT_AUTH_WAIT", "dürfen hinzufügen, brauchen aber Freigabe");
-define("_MI_OPT_AUTH_POST", "dürfen direkt ohne Freigabe hinzufügen");
-define("_MI_OPT_AUTH_BYGROUP", "Festgelegt durch Gruppenberechtigungen");
-define("_MI_OPT_MINI_PHPSELF", "aktuelle Seite");
-define("_MI_OPT_MINI_MONTHLY", "Monatskalender");
-define("_MI_OPT_MINI_WEEKLY", "Wochenkalender");
-define("_MI_OPT_MINI_DAILY", "Tageskalender");
-define("_MI_OPT_MINI_LIST", "Terminliste");
-define("_MI_OPT_CANOUTPUTICS", "ICS Ausgabe aktivieren");
-define("_MI_OPT_CANNOTOUTPUTICS", "ICS Ausgabe deaktivieren");
-define("_MI_OPT_STARTFROMSUN", "Sonntag");
-define("_MI_OPT_STARTFROMMON", "Montag");
-define("_MI_OPT_WEEKNOEACHMONTH", "jeweils für einen Monat");
-define("_MI_OPT_WEEKNOWHOLEYEAR", "durchgehend für das ganze Jahr");
+define("_MI_OPT_AUTH_NONE","dürfen nicht hinzufügen");
+define("_MI_OPT_AUTH_WAIT","dürfen hinzufügen, brauchen aber Freigabe");
+define("_MI_OPT_AUTH_POST","dürfen direkt ohne Freigabe hinzufügen");
+define("_MI_OPT_AUTH_BYGROUP","Festgelegt durch Gruppenberechtigungen");
+define("_MI_OPT_MINI_PHPSELF","aktuelle Seite");
+define("_MI_OPT_MINI_MONTHLY","Monatskalender");
+define("_MI_OPT_MINI_WEEKLY","Wochenkalender");
+define("_MI_OPT_MINI_DAILY","Tageskalender");
+define("_MI_OPT_MINI_LIST","Terminliste");
+define("_MI_OPT_CANOUTPUTICS","ICS Ausgabe aktivieren");
+define("_MI_OPT_CANNOTOUTPUTICS","ICS Ausgabe deaktivieren");
+define("_MI_OPT_STARTFROMSUN","Sonntag");
+define("_MI_OPT_STARTFROMMON","Montag");
+define("_MI_OPT_WEEKNOEACHMONTH","jeweils für einen Monat");
+define("_MI_OPT_WEEKNOWHOLEYEAR","durchgehend für das ganze Jahr");
 define('_MI_OPT_USENAME','Name');
 define('_MI_OPT_USEUNAME','Login Name');
 
@@ -127,22 +127,22 @@ define("_MI_PICAL_ADMENU_TM","Tabellen-Wartung");
 define("_MI_PICAL_ADMENU_ICAL","iCalendar Import");
 
 // Text for notifications
-define('_MI_PICAL_GLOBAL_NOTIFY', 'Global');
-define('_MI_PICAL_GLOBAL_NOTIFYDSC', 'Globale piCal Benachrichtigungsoptionen');
-define('_MI_PICAL_CATEGORY_NOTIFY', 'Kategorie');
-define('_MI_PICAL_CATEGORY_NOTIFYDSC', 'Benachrichtigungsoptionen, die der aktuellen Kategorie entsprechen');
-define('_MI_PICAL_EVENT_NOTIFY', 'Termin');
-define('_MI_PICAL_EVENT_NOTIFYDSC', 'Benachrichtigungsoptionen, die dem aktuellen Termin entsprechen');
+define('_MI_PICAL_GLOBAL_NOTIFY','Global');
+define('_MI_PICAL_GLOBAL_NOTIFYDSC','Globale piCal Benachrichtigungsoptionen');
+define('_MI_PICAL_CATEGORY_NOTIFY','Kategorie');
+define('_MI_PICAL_CATEGORY_NOTIFYDSC','Benachrichtigungsoptionen, die der aktuellen Kategorie entsprechen');
+define('_MI_PICAL_EVENT_NOTIFY','Termin');
+define('_MI_PICAL_EVENT_NOTIFYDSC','Benachrichtigungsoptionen, die dem aktuellen Termin entsprechen');
 
-define('_MI_PICAL_GLOBAL_NEWEVENT_NOTIFY', 'Neuer Termin');
-define('_MI_PICAL_GLOBAL_NEWEVENT_NOTIFYCAP', 'Benachrichtigung erfolgt, wenn ein neuer Termin eingetragen wird.');
-define('_MI_PICAL_GLOBAL_NEWEVENT_NOTIFYDSC', 'Eine Benachrichtigung wird automatisch zugeschickt, sobald ein neuer Termin eingetragen wird.');
-define('_MI_PICAL_GLOBAL_NEWEVENT_NOTIFYSBJ', '[{X_SITENAME}] {X_MODULE} Automatische Benachrichtigung: Neuer Termin');
+define('_MI_PICAL_GLOBAL_NEWEVENT_NOTIFY','Neuer Termin');
+define('_MI_PICAL_GLOBAL_NEWEVENT_NOTIFYCAP','Benachrichtigung erfolgt, wenn ein neuer Termin eingetragen wird.');
+define('_MI_PICAL_GLOBAL_NEWEVENT_NOTIFYDSC','Eine Benachrichtigung wird automatisch zugeschickt, sobald ein neuer Termin eingetragen wird.');
+define('_MI_PICAL_GLOBAL_NEWEVENT_NOTIFYSBJ','[{X_SITENAME}] {X_MODULE} Automatische Benachrichtigung: Neuer Termin');
 
-define('_MI_PICAL_CATEGORY_NEWEVENT_NOTIFY', 'Neuer Termin in dieser Kategorie');
-define('_MI_PICAL_CATEGORY_NEWEVENT_NOTIFYCAP', 'Benachrichtigung erfolgt, wenn ein neuer Termin in dieser Kategorie eingetragen wird.');
-define('_MI_PICAL_CATEGORY_NEWEVENT_NOTIFYDSC', 'Eine Benachrichtigung wird automatisch zugeschickt, sobald ein neuer Termin in dieser Kategorie eingetragen wird.');
-define('_MI_PICAL_CATEGORY_NEWEVENT_NOTIFYSBJ', '[{X_SITENAME}] {X_MODULE} Automatische Benachrichtigung: Neuer Termin');
+define('_MI_PICAL_CATEGORY_NEWEVENT_NOTIFY','Neuer Termin in dieser Kategorie');
+define('_MI_PICAL_CATEGORY_NEWEVENT_NOTIFYCAP','Benachrichtigung erfolgt, wenn ein neuer Termin in dieser Kategorie eingetragen wird.');
+define('_MI_PICAL_CATEGORY_NEWEVENT_NOTIFYDSC','Eine Benachrichtigung wird automatisch zugeschickt, sobald ein neuer Termin in dieser Kategorie eingetragen wird.');
+define('_MI_PICAL_CATEGORY_NEWEVENT_NOTIFYSBJ','[{X_SITENAME}] {X_MODULE} Automatische Benachrichtigung: Neuer Termin');
 
 
 }

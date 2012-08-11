@@ -9,6 +9,6 @@
  * AUB hier melden: http://www.xoops.nl
 **/
  
-define("_XOOPS_EDITOR_TEXTAREA", "Platte tekst");
+define("_XOOPS_EDITOR_TEXTAREA","Platte tekst");
 
 ?>

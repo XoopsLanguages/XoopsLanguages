@@ -58,8 +58,8 @@ define("_AM_SYSTEM_FILEMANAGER_DIR_SUCCESS","Dossier créé avec succès");
 define("_AM_SYSTEM_FILEMANAGER_DIR_ERROR","Le dossier n'a pas pu être créé");
 define("_AM_SYSTEM_FILEMANAGER_DIR_RYSDEL","Êtes-vous sûr de vouloir supprimer ce dossier ?");
 define("_AM_SYSTEM_FILEMANAGER_FILE_SUCCESS","Fichier créé avec succès");
-define("_AM_SYSTEM_FILEMANAGER_SUREDEL", "Êtes-vous sûr de vouloir supprimer le fichier \"%s\" ?");
-define("_AM_SYSTEM_FILEMANAGER_DIR_SUREDEL", "Êtes-vous sûr de vouloir supprimer le dossier \"%s\" ?<br />Attention : tous les dossiers et fichiers contenus dans celui-ci seront aussi supprimés");
+define("_AM_SYSTEM_FILEMANAGER_SUREDEL","Êtes-vous sûr de vouloir supprimer le fichier \"%s\" ?");
+define("_AM_SYSTEM_FILEMANAGER_DIR_SUREDEL","Êtes-vous sûr de vouloir supprimer le dossier \"%s\" ?<br />Attention : tous les dossiers et fichiers contenus dans celui-ci seront aussi supprimés");
 
 /**
  * @translation     Communauté Francophone des Utilisateurs de Xoops

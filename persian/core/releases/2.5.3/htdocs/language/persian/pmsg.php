@@ -59,9 +59,9 @@ define('_PM_DATE','تاریخ');
 define('_PM_NOTREAD','خوانده نشده');
 define('_PM_SEND','بفرست');
 define('_PM_DELETE','حذف');
-define('_PM_REPLY', 'پاسخ');
+define('_PM_REPLY','پاسخ');
 define('_PM_PLZREG','برای ارسال پیام‌شخصی باید ثبت‌نام کنید');
-define('_PM_ONLINE', 'آن‌لاین');
+define('_PM_ONLINE','آن‌لاین');
 define('_PM_SURE_TO_DELETE',"آیا اطمینان دارید که می خواید این پیام ها را حذف کنید؟");
 
 ?>

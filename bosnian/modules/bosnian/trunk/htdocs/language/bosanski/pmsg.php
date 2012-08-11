@@ -37,8 +37,8 @@ define('_PM_DATE','Datum');
 define('_PM_NOTREAD','Ne pro&#269;itane');
 define('_PM_SEND','PM-Po&scaron;alji');
 define('_PM_DELETE','Izbri&scaron;i');
-define('_PM_REPLY', 'Odgovori');
+define('_PM_REPLY','Odgovori');
 define('_PM_PLZREG','Molim te registruj se i onda mo&#382;e&scaron; Privatne poruke drugima slati!');
 
-define('_PM_ONLINE', 'Online');
+define('_PM_ONLINE','Online');
 ?>

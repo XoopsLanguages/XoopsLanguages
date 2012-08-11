@@ -8,7 +8,7 @@ define("_NW_COMMENTS","Kommentar");
 define("_NW_ONECOMMENT","1 Kommentar");
 define("_NW_BYTESMORE","%s Bytes mehr");
 define("_NW_NUMCOMMENTS","%s Kommentare");
-define("_NW_MORERELEASES", "Weitere Artikel in: ");
+define("_NW_MORERELEASES","Weitere Artikel in: ");
 
 //%%%%%%		File Name submit.php		%%%%%
 define("_NW_SUBMITNEWS","Artikel schreiben");

@@ -32,25 +32,25 @@ define("_AM_TH_AGENT","Agent");
 define("_AM_TH_TYPE","Type");
 define("_AM_TH_DESCRIPTION","Description");
 
-define( "_AM_TH_BADIPS" , 'IPs bannies<br /><br /><span style="font-weight:normal;">Ecrivez chaque ip sur une ligne.<br />Ne rien mettre signifie que toutes les IPs sont autoris&eacute;es</span>' ) ;
+define("_AM_TH_BADIPS" , 'IPs bannies<br /><br /><span style="font-weight:normal;">Ecrivez chaque ip sur une ligne.<br />Ne rien mettre signifie que toutes les IPs sont autoris&eacute;es</span>' ) ;
 
-define( "_AM_TH_GROUP1IPS" , 'IPs autoris&eacute;es pour le groupe administrateurs<br /><br /><span style="font-weight:normal;">Ecrivez chaque ip sur une ligne.<br />192.168. signifie 192.168.*<br />Ne rien mettre signifie que toutes les IPs sont autoris&eacute;es</span>' ) ;
+define("_AM_TH_GROUP1IPS" , 'IPs autoris&eacute;es pour le groupe administrateurs<br /><br /><span style="font-weight:normal;">Ecrivez chaque ip sur une ligne.<br />192.168. signifie 192.168.*<br />Ne rien mettre signifie que toutes les IPs sont autoris&eacute;es</span>' ) ;
 
-define( "_AM_LABEL_REMOVE" , "Supprimer les enregistrements coch&eacute;s :" ) ;
-define( "_AM_BUTTON_REMOVE" , "Supprimer!" ) ;
-define( "_AM_JS_REMOVECONFIRM" , "Confirmation de la suppression ?" ) ;
-define( "_AM_MSG_IPFILESUPDATED" , "Les fichiers pour IPs ont &eacute;t&eacute; mis &agrave; jour" ) ;
-define( "_AM_MSG_BADIPSCANTOPEN" , "Le fichier des IPs bannies ne peut &ecirc;tre ouvert" ) ;
-define( "_AM_MSG_GROUP1IPSCANTOPEN" , "Le fichier pour le groupe=1 ne peut &ecirc;tre ouvert" ) ;
-define( "_AM_MSG_REMOVED" , "Les enregistrements ont &eacute;t&eacute; supprim&eacute;s" ) ;
-define( "_AM_FMT_CONFIGSNOTWRITABLE" , "Configurez le r&eacute;pertoire en lecture-&eacute;criture : %s" ) ;
+define("_AM_LABEL_REMOVE" , "Supprimer les enregistrements coch&eacute;s :" ) ;
+define("_AM_BUTTON_REMOVE" , "Supprimer!" ) ;
+define("_AM_JS_REMOVECONFIRM" , "Confirmation de la suppression ?" ) ;
+define("_AM_MSG_IPFILESUPDATED" , "Les fichiers pour IPs ont &eacute;t&eacute; mis &agrave; jour" ) ;
+define("_AM_MSG_BADIPSCANTOPEN" , "Le fichier des IPs bannies ne peut &ecirc;tre ouvert" ) ;
+define("_AM_MSG_GROUP1IPSCANTOPEN" , "Le fichier pour le groupe=1 ne peut &ecirc;tre ouvert" ) ;
+define("_AM_MSG_REMOVED" , "Les enregistrements ont &eacute;t&eacute; supprim&eacute;s" ) ;
+define("_AM_FMT_CONFIGSNOTWRITABLE" , "Configurez le r&eacute;pertoire en lecture-&eacute;criture : %s" ) ;
 
 
 // prefix_manager.php
-define( "_AM_H3_PREFIXMAN" , "Gestionnaire de pr&eacute;fixe" ) ;
-define( "_AM_MSG_DBUPDATED" , "Base de donn&eacute;es mise &agrave; jour avec succ&egrave;s!" ) ;
-define( "_AM_CONFIRM_DELETE" , "Toutes les donn&eacute;es vont &ecirc;tre supprim&eacute;es. OK ?" ) ;
-define( "_AM_TXT_HOWTOCHANGEDB" , "Si vous voulez changer le pr&eacute;fixe, &eacute;diter manuellement le fichier %s/mainfile.php pour cette ligne :<br />  define('XOOPS_DB_PREFIX', '<b>%s</b>');" ) ;
+define("_AM_H3_PREFIXMAN" , "Gestionnaire de pr&eacute;fixe" ) ;
+define("_AM_MSG_DBUPDATED" , "Base de donn&eacute;es mise &agrave; jour avec succ&egrave;s!" ) ;
+define("_AM_CONFIRM_DELETE" , "Toutes les donn&eacute;es vont &ecirc;tre supprim&eacute;es. OK ?" ) ;
+define("_AM_TXT_HOWTOCHANGEDB" , "Si vous voulez changer le pr&eacute;fixe, &eacute;diter manuellement le fichier %s/mainfile.php pour cette ligne :<br />  define('XOOPS_DB_PREFIX','<b>%s</b>');" ) ;
 
 
 // advisory.php

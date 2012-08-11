@@ -22,8 +22,8 @@ define('_MD_ASFILE',' Lagra som filer (i uploads-katalogen)<br />');
 define('_MD_RUDELIMGCAT','Är du säker på att du vill radera den här kategorin och alla tillhörande bildfiler?');
 define('_MD_RUDELIMG','Är du säker på att du vill radera den här bildfilen?');
 
-define('_MD_FAILDEL', 'Misslyckades med att radera bilden %s från databasen');
-define('_MD_FAILDELCAT', 'Misslyckades med att radera bildkategorin %s från databasen');
-define('_MD_FAILUNLINK', 'Misslyckades med att radera bilden %s från serverkatalogen');
+define('_MD_FAILDEL','Misslyckades med att radera bilden %s från databasen');
+define('_MD_FAILDELCAT','Misslyckades med att radera bildkategorin %s från databasen');
+define('_MD_FAILUNLINK','Misslyckades med att radera bilden %s från serverkatalogen');
 
 ?>

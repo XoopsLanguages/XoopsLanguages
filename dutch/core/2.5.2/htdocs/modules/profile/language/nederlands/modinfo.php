@@ -56,5 +56,5 @@ define("_PROFILE_MI_CATEGORY_MESSAGING","Berichten");
 define("_PROFILE_MI_CATEGORY_SETTINGS","Instellingen");
 define("_PROFILE_MI_CATEGORY_COMMUNITY","Community");
 
-define("_PROFILE_MI_NEVER_LOGGED_IN", "Nooit ingelogd");
+define("_PROFILE_MI_NEVER_LOGGED_IN","Nooit ingelogd");
 ?>

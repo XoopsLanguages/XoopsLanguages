@@ -16,14 +16,14 @@
  */
 
 // Main
-define('_THADMIN_MODULE_NAME', 'ThAdmin');
-define('_THADMIN_MODULE_DESC', 'M骴ulo para a administraci髇 visual da administraci髇 de XOOPS');
+define('_THADMIN_MODULE_NAME','ThAdmin');
+define('_THADMIN_MODULE_DESC','M贸dulo para a administraci贸n visual da administraci贸n de XOOPS');
 // Menu
-define('_THADMIN_MENU_TH_HOME', 'Inicio');
-define('_THADMIN_MENU_TH_HELP', 'Axuda');
+define('_THADMIN_MENU_TH_HOME','Inicio');
+define('_THADMIN_MENU_TH_HELP','Axuda');
 // Settings
-define('_THADMIN_ADMINTHEME', 'Dese駉 por defecto');
-define('_THADMIN_ADMINTHEME_DESC', 'Elixa o dese駉 por defecto para a administraci髇 do seu XOOPS');
-define('_THADMIN_CPANELEONLY', '縈ostrar Warning?');
-define('_THADMIN_CPANELEONLY_DESC', 'Ocultar as mensaxes de warning na interfaz de control de panel');
+define('_THADMIN_ADMINTHEME','Dese帽o por defecto');
+define('_THADMIN_ADMINTHEME_DESC','Elixa o dese帽o por defecto para a administraci贸n do seu XOOPS');
+define('_THADMIN_CPANELEONLY','驴Mostrar Warning?');
+define('_THADMIN_CPANELEONLY_DESC','Ocultar as mensaxes de warning na interfaz de control de panel');
 ?>

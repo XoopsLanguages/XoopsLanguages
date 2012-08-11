@@ -11,7 +11,7 @@
  * @version         $Id: hrvatski.php 1573 27.10.2009 14:10:06Z sadistiko $
  */
 
-define("_XOOPS_EDITOR_KOIVI", "Koivi WYSIWYG editor");
+define("_XOOPS_EDITOR_KOIVI","Koivi WYSIWYG editor");
 
 define("_XK_LEFTTORIGHT","Ljevoruko pisanje");
 define("_XK_RIGHTTOLEFT","Desnoruko pisanje");

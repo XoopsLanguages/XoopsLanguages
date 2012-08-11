@@ -5,9 +5,9 @@ define("_MI_INFO_DESC","Erstellen von Content mit eigener Navigation.");
 define("_MI_INFO_PRINTER","Druckerfreundliche Version aufrufen");
 
 define("_MI_INFO_BLOCK1","DH-INFO Menüblock");
-define("_MI_INFO_BLOCK1_DESC", "erstellt einen Menüblock zur Navigation");
-define("_MI_INFO_BLOCK2", "DH-INFO Freier Block");
-define("_MI_INFO_BLOCK2_DESC", "Zeigt einen beliebigen Beitrag in einem Block an");
+define("_MI_INFO_BLOCK1_DESC","erstellt einen Menüblock zur Navigation");
+define("_MI_INFO_BLOCK2","DH-INFO Freier Block");
+define("_MI_INFO_BLOCK2_DESC","Zeigt einen beliebigen Beitrag in einem Block an");
 
 define("_MI_INFO_CONF1","Editorauswahl zulassen");
 define("_MI_INFO_CONF1_DESC","Ja für Editorauswahl im Formular / Nein für den Defaulteditor des Systems");
@@ -17,7 +17,7 @@ define("_MI_INFO_CONF4","Anzeige letzter Änderung");
 define("_MI_INFO_CONF4_DESC","");
 define("_MI_INFO_CONF5","Anzeige der Blöcke unterbinden beim Schreiben");
 define("_MI_INFO_CONF5_DESC","Bei ja werden die linken und rechten Blöcke beim Aufruf der submit.php ausgeblendet");
-define("_MI_INFO_TEMPL1", "SeitenLayout");
+define("_MI_INFO_TEMPL1","SeitenLayout");
 define("_MI_INFO_LASTD1","keine Anzeige");
 define("_MI_INFO_LASTD2","kurze Anzeige (=> ".date(_SHORTDATESTRING,time()).")");
 define("_MI_INFO_LASTD3","normale Anzeige (=> ".date(_MEDIUMDATESTRING,time()).")");

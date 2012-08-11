@@ -3,26 +3,26 @@
 // _LANGCODE: ja
 // _CHARSET : EUC-JP
 // Translator: XOOPS Translation Team
-define('_ER_UP_MIMETYPELOAD', 'MIME-Type ÄêµÁ¥¨¥é¡¼');
-define('_ER_UP_FILENOTFOUND', '¥Õ¥¡¥¤¥ë¤¬Â¸ºß¤·¤Þ¤»¤ó');
-define('_ER_UP_INVALIDFILESIZE', 'Ìµ¸ú¤Ê¥Õ¥¡¥¤¥ë¥µ¥¤¥º');
-define('_ER_UP_FILENAMEEMPTY', '¥Õ¥¡¥¤¥ëÌ¾¤¬¶õ¤Ç¤¹');
-define('_ER_UP_NOFILEUPLOADED', '¥Õ¥¡¥¤¥ë¤Î¥¢¥Ã¥×¥í¡¼¥É¤Ë¼ºÇÔ¤·¤Þ¤·¤¿');
-define('_ER_UP_ERROROCCURRED', '¥¨¥é¡¼È¯À¸: ¥¨¥é¡¼ #%s');
-define('_ER_UP_UPLOADDIRNOTSET', '¥¢¥Ã¥×¥í¡¼¥ÉÀè¤Î¥Ç¥£¥ì¥¯¥È¥ê¤¬ÀßÄê¤µ¤ì¤Æ¤¤¤Þ¤»¤ó');
-define('_ER_UP_FAILEDOPENDIR', '¥Ç¥£¥ì¥¯¥È¥ê¤¬³«¤±¤Þ¤»¤ó: %s');
-define('_ER_UP_FAILEDOPENDIRWRITE', '½ñ¹þ¸¢¸Â¤¬¤Ê¤¤¤¿¤á¥Ç¥£¥ì¥¯¥È¥ê¤ò³«¤±¤Þ¤»¤ó: %s');
-define('_ER_UP_FILESIZETOOLARGE', '¥Õ¥¡¥¤¥ë¥µ¥¤¥º¤¬Âç¤­¤¹¤®¤Þ¤¹ (ºÇÂç %u ¥Ð¥¤¥È): %u ¥Ð¥¤¥È');
-define('_ER_UP_FILEWIDTHTOOLARGE', '¥Õ¥¡¥¤¥ë¤Î²£Éý¤¬Âç¤­¤¹¤®¤Þ¤¹ (ºÇÂç %u ¥Ô¥¯¥»¥ë): %u ¥Ô¥¯¥»¥ë');
-define('_ER_UP_FILEHEIGHTTOOLARGE', '¥Õ¥¡¥¤¥ë¤Î½ÄÉý¤¬Âç¤­¤¹¤®¤Þ¤¹ (ºÇÂç %u ¥Ô¥¯¥»¥ë): %u ¥Ô¥¯¥»¥ë');
-define('_ER_UP_MIMETYPENOTALLOWED', 'MIME-Type ¤¬µö²Ä¤µ¤ì¤Æ¤¤¤Þ¤»¤ó: %s');
-define('_ER_UP_FAILEDUPLOADFILE', '¥Õ¥¡¥¤¥ë¤Î¥¢¥Ã¥×¥í¡¼¥É¤Ë¼ºÇÔ¤·¤Þ¤·¤¿: %s');
-define('_ER_UP_FAILEDFETCHIMAGESIZE', '%s ¤Î¥¤¥á¡¼¥¸¥µ¥¤¥º¤ò³ÎÇ§¤Ç¤­¤Þ¤»¤ó¤Ç¤·¤¿¡£³ÎÇ§¤òÈô¤Ð¤·¤Þ¤¹..');
-define('_ER_UP_UNKNOWNFILETYPEREJECTED', 'Ì¤ÃÎ¤Î¥Õ¥¡¥¤¥ë¥¿¥¤¥×¤Ç¤¢¤ë¤¿¤áµñÈÝ¤·¤Þ¤·¤¿');
-define('_ER_UP_ERRORSRETURNED', '¥Õ¥¡¥¤¥ë¤Î¥¢¥Ã¥×¥í¡¼¥É¤Ç¥¨¥é¡¼¤¬ÊÖ¤ê¤Þ¤·¤¿: %s');
-define('_ER_UP_INVALIDIMAGEFILE', 'Ìµ¸ú¤Ê¥¤¥á¡¼¥¸¥Õ¥¡¥¤¥ë¤Ç¤¹');
-define('_ER_UP_SUSPICIOUSREFUSED', 'µ¿¤ï¤·¤¤¥¤¥á¡¼¥¸¥¢¥Ã¥×¥í¡¼¥É¤Ç¤¢¤ë¤¿¤áµñÈÝ¤·¤Þ¤·¤¿');
-define('_ER_UP_INVALIDFILENAME', 'Ìµ¸ú¤Ê¥Õ¥¡¥¤¥ëÌ¾¤Ç¤¹');
-define('_ER_UP_FAILEDSAVEFILE', '¥Õ¥¡¥¤¥ë¤òÊÝÂ¸¤Ç¤­¤Þ¤»¤ó¤Ç¤·¤¿: %s');
+define('_ER_UP_MIMETYPELOAD','MIME-Type ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½é¡¼');
+define('_ER_UP_FILENOTFOUND','ï¿½Õ¥ï¿½ï¿½ï¿½ï¿½ë¤¬Â¸ï¿½ß¤ï¿½ï¿½Þ¤ï¿½ï¿½ï¿½');
+define('_ER_UP_INVALIDFILESIZE','Ìµï¿½ï¿½ï¿½Ê¥Õ¥ï¿½ï¿½ï¿½ï¿½ë¥µï¿½ï¿½ï¿½ï¿½');
+define('_ER_UP_FILENAMEEMPTY','ï¿½Õ¥ï¿½ï¿½ï¿½ï¿½ï¿½Ì¾ï¿½ï¿½ï¿½ï¿½ï¿½Ç¤ï¿½');
+define('_ER_UP_NOFILEUPLOADED','ï¿½Õ¥ï¿½ï¿½ï¿½ï¿½ï¿½Î¥ï¿½ï¿½Ã¥×¥ï¿½ï¿½ï¿½É¤Ë¼ï¿½ï¿½Ô¤ï¿½ï¿½Þ¤ï¿½ï¿½ï¿½');
+define('_ER_UP_ERROROCCURRED','ï¿½ï¿½ï¿½é¡¼È¯ï¿½ï¿½: ï¿½ï¿½ï¿½é¡¼ #%s');
+define('_ER_UP_UPLOADDIRNOTSET','ï¿½ï¿½ï¿½Ã¥×¥ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î¥Ç¥ï¿½ï¿½ì¥¯ï¿½È¥ê¤¬ï¿½ï¿½ï¿½ê¤µï¿½ï¿½Æ¤ï¿½ï¿½Þ¤ï¿½ï¿½ï¿½');
+define('_ER_UP_FAILEDOPENDIR','ï¿½Ç¥ï¿½ï¿½ì¥¯ï¿½È¥ê¤¬ï¿½ï¿½ï¿½ï¿½ï¿½Þ¤ï¿½ï¿½ï¿½: %s');
+define('_ER_UP_FAILEDOPENDIRWRITE','ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â¤ï¿½ï¿½Ê¤ï¿½ï¿½ï¿½ï¿½ï¿½Ç¥ï¿½ï¿½ì¥¯ï¿½È¥ï¿½ò³«¤ï¿½ï¿½Þ¤ï¿½ï¿½ï¿½: %s');
+define('_ER_UP_FILESIZETOOLARGE','ï¿½Õ¥ï¿½ï¿½ï¿½ï¿½ë¥µï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ç¤­ï¿½ï¿½ï¿½ï¿½ï¿½Þ¤ï¿½ (ï¿½ï¿½ï¿½ï¿½ %u ï¿½Ð¥ï¿½ï¿½ï¿½): %u ï¿½Ð¥ï¿½ï¿½ï¿½');
+define('_ER_UP_FILEWIDTHTOOLARGE','ï¿½Õ¥ï¿½ï¿½ï¿½ï¿½ï¿½Î²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ç¤­ï¿½ï¿½ï¿½ï¿½ï¿½Þ¤ï¿½ (ï¿½ï¿½ï¿½ï¿½ %u ï¿½Ô¥ï¿½ï¿½ï¿½ï¿½ï¿½): %u ï¿½Ô¥ï¿½ï¿½ï¿½ï¿½ï¿½');
+define('_ER_UP_FILEHEIGHTTOOLARGE','ï¿½Õ¥ï¿½ï¿½ï¿½ï¿½ï¿½Î½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ç¤­ï¿½ï¿½ï¿½ï¿½ï¿½Þ¤ï¿½ (ï¿½ï¿½ï¿½ï¿½ %u ï¿½Ô¥ï¿½ï¿½ï¿½ï¿½ï¿½): %u ï¿½Ô¥ï¿½ï¿½ï¿½ï¿½ï¿½');
+define('_ER_UP_MIMETYPENOTALLOWED','MIME-Type ï¿½ï¿½ï¿½ï¿½ï¿½Ä¤ï¿½ï¿½ï¿½Æ¤ï¿½ï¿½Þ¤ï¿½ï¿½ï¿½: %s');
+define('_ER_UP_FAILEDUPLOADFILE','ï¿½Õ¥ï¿½ï¿½ï¿½ï¿½ï¿½Î¥ï¿½ï¿½Ã¥×¥ï¿½ï¿½ï¿½É¤Ë¼ï¿½ï¿½Ô¤ï¿½ï¿½Þ¤ï¿½ï¿½ï¿½: %s');
+define('_ER_UP_FAILEDFETCHIMAGESIZE','%s ï¿½Î¥ï¿½ï¿½á¡¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç§ï¿½Ç¤ï¿½ï¿½Þ¤ï¿½ï¿½ï¿½Ç¤ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç§ï¿½ï¿½ï¿½ï¿½Ð¤ï¿½ï¿½Þ¤ï¿½..');
+define('_ER_UP_UNKNOWNFILETYPEREJECTED','Ì¤ï¿½Î¤Î¥Õ¥ï¿½ï¿½ï¿½ï¿½ë¥¿ï¿½ï¿½ï¿½×¤Ç¤ï¿½ï¿½ë¤¿ï¿½ï¿½ï¿½ï¿½Ý¤ï¿½ï¿½Þ¤ï¿½ï¿½ï¿½');
+define('_ER_UP_ERRORSRETURNED','ï¿½Õ¥ï¿½ï¿½ï¿½ï¿½ï¿½Î¥ï¿½ï¿½Ã¥×¥ï¿½ï¿½ï¿½É¤Ç¥ï¿½ï¿½é¡¼ï¿½ï¿½ï¿½Ö¤ï¿½Þ¤ï¿½ï¿½ï¿½: %s');
+define('_ER_UP_INVALIDIMAGEFILE','Ìµï¿½ï¿½ï¿½Ê¥ï¿½ï¿½á¡¼ï¿½ï¿½ï¿½Õ¥ï¿½ï¿½ï¿½ï¿½ï¿½Ç¤ï¿½');
+define('_ER_UP_SUSPICIOUSREFUSED','ï¿½ï¿½ï¿½ï¤·ï¿½ï¿½ï¿½ï¿½ï¿½á¡¼ï¿½ï¿½ï¿½ï¿½ï¿½Ã¥×¥ï¿½ï¿½ï¿½É¤Ç¤ï¿½ï¿½ë¤¿ï¿½ï¿½ï¿½ï¿½Ý¤ï¿½ï¿½Þ¤ï¿½ï¿½ï¿½');
+define('_ER_UP_INVALIDFILENAME','Ìµï¿½ï¿½ï¿½Ê¥Õ¥ï¿½ï¿½ï¿½ï¿½ï¿½Ì¾ï¿½Ç¤ï¿½');
+define('_ER_UP_FAILEDSAVEFILE','ï¿½Õ¥ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â¸ï¿½Ç¤ï¿½ï¿½Þ¤ï¿½ï¿½ï¿½Ç¤ï¿½ï¿½ï¿½: %s');
 
 ?>

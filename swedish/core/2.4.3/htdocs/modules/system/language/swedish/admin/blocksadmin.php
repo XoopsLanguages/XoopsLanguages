@@ -55,25 +55,25 @@ define("_AM_RUSUREDEL","Är du säker på att du vill radera blocket <strong>%s<
 define("_AM_NAME","Namn");
 define("_AM_USEFULTAGS","Användbara taggar:");
 define("_AM_BLOCKTAG1","%s kommer skriva %s");
-define('_AM_SVISIBLEIN', 'Block synliga i %s');
-define('_AM_TOPPAGE', 'Förstasidan');
-define('_AM_VISIBLEIN', 'Synliga i');
-define('_AM_ALLPAGES', 'Alla sidor');
-define('_AM_TOPONLY', 'Endast förstasidan');
-define('_AM_ADVANCED', 'Avancerade inställningar');
-define('_AM_BCACHETIME', 'Cachens livstid');
-define('_AM_BALIAS', 'Aliasnamn');
-define('_AM_CLONE', 'Klona');  // clone a block
-define('_AM_CLONEBLK', 'Klon'); // cloned block
-define('_AM_CLONEBLOCK', 'Skapa ett klonat block');
-define('_AM_NOTSELNG', "'%s' är inte vald!"); // error message
-define('_AM_EDITTPL', 'Redigera mall');
-define('_AM_MODULE', 'Modul');
-define('_AM_GROUP', 'Grupptillgång');
-define('_AM_UNASSIGNED', 'Ej tilldelat');
+define('_AM_SVISIBLEIN','Block synliga i %s');
+define('_AM_TOPPAGE','Förstasidan');
+define('_AM_VISIBLEIN','Synliga i');
+define('_AM_ALLPAGES','Alla sidor');
+define('_AM_TOPONLY','Endast förstasidan');
+define('_AM_ADVANCED','Avancerade inställningar');
+define('_AM_BCACHETIME','Cachens livstid');
+define('_AM_BALIAS','Aliasnamn');
+define('_AM_CLONE','Klona');  // clone a block
+define('_AM_CLONEBLK','Klon'); // cloned block
+define('_AM_CLONEBLOCK','Skapa ett klonat block');
+define('_AM_NOTSELNG',"'%s' är inte vald!"); // error message
+define('_AM_EDITTPL','Redigera mall');
+define('_AM_MODULE','Modul');
+define('_AM_GROUP','Grupptillgång');
+define('_AM_UNASSIGNED','Ej tilldelat');
 
 define("_AM_CUSTOM","Anpassat block");
-define('_AM_GENERATOR', 'Block skapade av %s');
-define('_AM_TYPES', 'Alla typer');
+define('_AM_GENERATOR','Block skapade av %s');
+define('_AM_TYPES','Alla typer');
 
 ?>
