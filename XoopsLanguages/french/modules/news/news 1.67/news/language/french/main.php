@@ -8,7 +8,7 @@ define('_NW_COMMENTS',"Commentaires ?");
 define('_NW_ONECOMMENT',"1 commentaire");
 define('_NW_BYTESMORE',"%s octets en plus");
 define('_NW_NUMCOMMENTS',"%s commentaires");
-define('_NW_MORERELEASES',"Plus d'articles dans le sujet ");
+define('_NW_MORERELEASES', "Plus d'articles dans le sujet ");
 
 
 //%%%%%%		File Name submit.php		%%%%%
@@ -85,7 +85,7 @@ define('_NW_AUTHOR',"Auteur");
 define('_NW_META_DESCRIPTION',"Description Meta");
 define('_NW_META_KEYWORDS',"Meta mots clés");
 define('_NW_MAKEPDF',"Créer un fichier PDF à partir de cet article");
-define('_MD_POSTEDON',"Publié le  ");
+define('_MD_POSTEDON',"Publiée le : ");
 define('_NW_AUTHOR_ID',"ID de l'auteur");
 define('_NW_POST_SORRY',"Désolé mais soit il n'y a pas de sujets soit vous n'avez pas le droit de créer des articles dans les sujets existants. Si vous êtes les webmaster, allez dans les permissions et définissez les permissions de 'Soumettre'.");
 
@@ -112,26 +112,26 @@ define('_NW_BOOKMARK_TO_YAHOO',"Mettre en favoris dans Yahoo");
 
 // Added in version 1.56
 define('_NW_NOTYETSTORY',"Désolé, l'artcile sélectionné n'a pas encore été publié. Veuillez revenir plus tard.");
-define('_NW_SELECT_IMAGE',"Choisissez une image à joindre à l'article");
-define('_NW_CURENT_PICTURE',"Image actuelle");
+define('_NW_SELECT_IMAGE', "Choisissez une image à joindre à l'article");
+define('_NW_CURENT_PICTURE', "Image actuelle");
 // Added in version 1.67
-define('_NW_BOOKMARK_TO_FACEBOOK',"Mettre en favoris dans Faceboom");
-define('_NW_BOOKMARK_TO_TWITTER',"Mettre en favoris dans Twitter");
-define('_NW_BOOKMARK_TO_SCRIPSTYLE',"Mettre en favoris dans Scripstyle");
-define('_NW_BOOKMARK_TO_STUMBLE',"Mettre en favoris dans Stumble");
-define('_NW_BOOKMARK_TO_TECHNORATI',"Mettre en favoris dans Technorati");
-define('_NW_BOOKMARK_TO_MIXX',"Mettre en favoris dans Mixx");
-define('_NW_BOOKMARK_TO_MYSPACE',"Mettre en favoris dans Myspace");
-define('_NW_BOOKMARK_TO_DESIGNFLOAT',"Mettre en favoris dans Designfloat");
-define('_NW_BOOKMARK_TO_BALATARIN',"Mettre en favoris dans Balatarin");
-define('_NW_BOOKMARK_TO_GOOGLEPLUS',"Mettre en favoris dans Google Plus");
-define('_NW_BOOKMARK_TO_GOOGLEREADER',"Mettre en favoris dans Google Reader");
-define('_NW_BOOKMARK_TO_GOOGLEBOOKMARKS',"Mettre en favoris dans Google Bookmarks");
+define('_NW_BOOKMARK_TO_FACEBOOK', "Mettre en favoris dans Facebook");
+define('_NW_BOOKMARK_TO_TWITTER', "Mettre en favoris dans Twitter");
+define('_NW_BOOKMARK_TO_SCRIPSTYLE', "Mettre en favoris dans Scripstyle");
+define('_NW_BOOKMARK_TO_STUMBLE', "Mettre en favoris dans Stumble");
+define('_NW_BOOKMARK_TO_TECHNORATI', "Mettre en favoris dans Technorati");
+define('_NW_BOOKMARK_TO_MIXX', "Mettre en favoris dans Mixx");
+define('_NW_BOOKMARK_TO_MYSPACE', "Mettre en favoris dans Myspace");
+define('_NW_BOOKMARK_TO_DESIGNFLOAT', "Mettre en favoris dans Designfloat");
+define('_NW_BOOKMARK_TO_BALATARIN', "Mettre en favoris dans Balatarin");
+define('_NW_BOOKMARK_TO_GOOLGEBUZZ', "Mettre en favoris dans Google Buzz");
+define('_NW_BOOKMARK_TO_GOOLGEREADER', "Mettre en favoris dans Google Reader");
+define('_NW_BOOKMARK_TO_GOOLGEBOOKMARKS', "Mettre en favoris dans Google Bookmarks");
 
-define('_NW_DELETE',"Supprimer");
-define('_NW_EDIT',"Editer");
-define('_NW_SUBTITLE',"Sous-titre : ");
-define('_NW_SELECT_IMAGE_DESC',"Description de l'image sélectionnée : ");
+define('_NW_DELETE', "Supprimer");
+define('_NW_EDIT', "Editer");
+define('_NW_SUBTITLE', "Sous-titre : ");
+define('_NW_SELECT_IMAGE_DESC', "Description de l'image sélectionnée : ");
 
 /**
  * @translation     Communauté Francophone des Utilisateurs de Xoops
