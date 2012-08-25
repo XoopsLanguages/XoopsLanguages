@@ -1,0 +1,150 @@
+<?php
+/**
+ * $Id: admin.php v 1.5 23 August 2004 hsalazar Exp $
+ * Module: Soapbox
+ * Version: v 1.5
+ * Release Date: 23 August 2004
+ * Author: hsalazar
+ * Licence: GNU
+ */
+
+define("_AM_SB_ABOUT", "Over");
+define("_AM_SB_ACTION", "Actie");
+define("_AM_SB_ADMINARTMNGMT", "Artikelenbeheer");
+define("_AM_SB_ADMINCOLMNGMT", "Kolommenbeheer");
+define("_AM_SB_ALLOWCOMMENTS", "Kunnen er reacties gegeven worden op het artikel?");
+define("_AM_SB_ARTAUTHORIZED", "Het artikel is geautoriseerd.");
+define("_AM_SB_ARTBODY", "Body text<span style='font-size: xx-small; font-weight: normal; display: block;'>(You can create multi-page articles by inserting the tag [pagebreak] wherever you want to put a break.)</span>");
+define("_AM_SB_ARTCOLNAME", "Kolomnaam");
+define("_AM_SB_ARTCREATED", "Aangemaakt");
+define("_AM_SB_ARTCREATEDOK", "Het artikel is succesvol aangemaakt!");
+define("_AM_SB_ARTHEADLINE", "Titel");
+define("_AM_SB_ARTID", "ID");
+define("_AM_SB_ARTISDELETED", "Het artikel is verwijderd.");
+define("_AM_SB_ARTISOFF", "Artikel is offline");
+define("_AM_SB_ARTISON", "Artikel is online");
+define("_AM_SB_ARTISSUB", "Artikel is nog niet goedgekeurd.");
+define("_AM_SB_ARTLEAD", "Intro paragraaf<span style='font-size: xx-small; font-weight: normal; display: block;'>(Eerste paragraaf van het artikel.)</span>");
+define("_AM_SB_ARTMODIFIED", "Het artikel is succesvol bewerkt!");
+define("_AM_SB_ARTNOTCREATED", "Sorry. Het was niet mogelijk om het artikel aan te maken!");
+define("_AM_SB_ARTNOTUPDATED", "Sorry. Het wat niet mogelijk om het artikel te bewerken!");
+define("_AM_SB_ARTS", "Artikelen");
+define("_AM_SB_ARTTEASER", "Artikel teaser<span style='font-size: xx-small; font-weight: normal; display: block;'>(Paragraaf die wordt weergegeven in de indexpagina.)</span>");
+define("_AM_SB_ARTSTEXT", "Dit overzicht toont de gepubliceerde artikelen aanwezig in deze module, online en offline.");
+define("_AM_SB_AUTHART", "Indienen authoriseren");
+define("_AM_SB_AUTHOR", "Auteur");
+define("_AM_SB_AUTHORIZE", "Authorizeren");
+define("_AM_SB_AUTOTEASER", "Teaser automatisch aanmmaken?:");
+define("_AM_SB_AUTOTEASERAMOUNT", "Auto-teaser karakters:");
+define("_AM_SB_BACK2IDX", "Geannuleerd. Terug naar de indexpagina");
+define("_AM_SB_BLOCK", "Toevoegen aan artikelen blok?");
+define("_AM_SB_BLOCKS", "Blokken");
+define("_AM_SB_BY", "Door");
+define("_AM_SB_BREAKS", "Gebruik linebreak conversie?");
+define("_AM_SB_CANCEL", "Annuleren");
+define("_AM_SB_CLEAR", "Legen");
+define("_AM_SB_COLCREATED", "Nieuwe kolom is aangemaakt en opgeslagen! Stel nu de permissies is.");
+define("_AM_SB_COLDESCRIPT", "Kolomomschrijving");
+define("_AM_SB_COLIMAGE", "Kolomafbeelding");
+define("_AM_SB_COLIMAGEUPLOAD", "Kolomafbeelding uploaden");
+define("_AM_SB_COLISDELETED", "Kolom %s is verwijderd");
+define("_AM_SB_COLMODIFIED", "De gekozen kolom is bijgewerkt en opgeslagen!");
+define("_AM_SB_COLNAME", "Kolomnaam");
+define("_AM_SB_COLPERMS", "Kolompermissies");
+define("_AM_SB_COLPOSIT", "Kolompositie");
+define("_AM_SB_COLS", "Kolommen");
+define("_AM_SB_COLSHEADER", "Module kolombeheer");
+define("_AM_SB_COLSTEXT", "Dit overzicht toont alle kolommen aanwezig in deze module.");
+define("_AM_SB_CREATE", "Toevoegen");
+define("_AM_SB_CREATEART", "Artikel toevoegen");
+define("_AM_SB_CREATECOL", "Kolom toevoegen");
+define("_AM_SB_CREATINGART", " > Nieuw artikel aamaken");
+define("_AM_SB_CREATINGCOL", " > Nieuwe kolom aanmaken");
+define("_AM_SB_CREATEIN", "Aanmaken in categorie:");
+define("_AM_SB_DELETE", "Verwijderen");
+define("_AM_SB_DELETEART", "Artikel verwijderen");
+define("_AM_SB_DELETECOL", "Kolom verwijderen");
+define("_AM_SB_DELETESUBM", "Ingediend artikel verwijderen");
+define("_AM_SB_DELETETHISARTICLE", "Dit artikel verwijderen?");
+define("_AM_SB_DELETETHISCOL", "Deze kolom zeker weten verwijderen?");
+define("_AM_SB_DESCRIP", "Kolomomschrijving");
+define("_AM_SB_DOHTML", "HTML tags inschakelen");
+define("_AM_SB_DOSMILEY", "Smilies inschakelen");
+define("_AM_SB_DOXCODE", "XOOPS codes ingeschakelen");
+define("_AM_SB_EDITART", "Artikel bewerken");
+define("_AM_SB_EDITCOL", "Kolom bewerken");
+define("_AM_SB_EDITING", "> Bewerken '");
+define("_AM_SB_EDITSUBM", "Ingediend artikel bewerken");
+define("_AM_SB_FILEEXISTS", "Een bestand met die naam bestaat al op de server. Kies een andere naam!");
+define("_AM_SB_GOMOD", "Ga naar module");
+define("_AM_SB_HELP", "Hulp");
+define("_AM_SB_HILITE", "Hoogtepunt blokken");
+define("_AM_SB_ID", "ID");
+define("_AM_SB_IDXINTRO", "Vandaag, %s, de module content is als volgt:");
+define("_AM_SB_INDEX", "Index");
+define("_AM_SB_INVENTORY", "Items overzicht");
+define("_AM_SB_MODADMIN", " Module admin: ");
+define("_AM_SB_MODART", "Artikel bijwerken");
+define("_AM_SB_MODCOL", "Bestaande kolom bewerken");
+define("_AM_SB_MODCONTENT", "Module's content");
+define("_AM_SB_MODIFY", "Bewerken");
+define("_AM_SB_MODIFYCOL", "Kolom bijwerken");
+define("_AM_SB_MODIFYTHISCOL", "Deze kolom bewerken?");
+define("_AM_SB_MODULEHEAD", "Artikelen en kolommen");
+define("_AM_SB_NEEDONECOLUMN", "Om een artikel aan te maken dient er eerst een kolom aangemaakt te worden.");
+define("_AM_SB_NEWART", "Artikel toevoegen");
+define("_AM_SB_NEWCOL", "Kolom toevoegen");
+define("_AM_SB_NO", "Nee");
+define("_AM_SB_NOARTS", "Geen artikelen om weer te geven");
+define("_AM_SB_NOCOLS", "Geen kolommen om weer te geven");
+define("_AM_SB_NOCOLTOEDIT", "Er zijn geen kolommen om te bewerken!");
+define("_AM_SB_NOHILITE", "Geen kolom geaccentueerd");
+define("_AM_SB_NOPERMSSET", "Kan permissies niet instellen: Nog geen kolommen aangemaakt!");
+define("_AM_SB_NOSUBMISSYET", "Er zijn geen ingediende artikelen die wachten op goedkeuring.");
+define("_AM_SB_NOTUPDATED", "Er was een error tijdens het bijwerken van de database!");
+define("_AM_SB_OPTIONS", "Opties");
+define("_AM_SB_OPTS", "Module opties");
+define("_AM_SB_ORDERUPDATED", "Gewicht herordend");
+define("_AM_SB_PERMS", "Permissies");
+define("_AM_SB_PERMSMNGMT", "Permissies beheer");
+define("_AM_SB_PERMSNOTE", "<div><b>OPMERKING:</b> Zelfs als alle permissies om te bekijken hiet goed staan, is het mogelijk dat een groep niet de artikelen en blokken ziet als deze geen permissies hebben om de module te gebruiken. Ga naar <b>Systeem admin > Groepen</b>, Kies de juiste groep en klik de checkboxen om de juiste rechten te geven.</div>");
+define("_AM_SB_REORDERCOL", "Kolommen herordenen");
+define("_AM_SB_SELALL", "Alle artikelen");
+define("_AM_SB_SELAPV", "Goedgekeurde artikelen");
+define("_AM_SB_SELOFF", "Offline artikelen");
+define("_AM_SB_SELONL", "Online artikelen");
+define("_AM_SB_SELSUB", "Ingediende artikelen");
+define("_AM_SB_SELECT_COLS", "Selecteer kolommen die door elke groep bekeken mag worden");
+define("_AM_SB_SELECTSTATUS", "Selecteer een status: ");
+define("_AM_SB_SELECT_IMG", "Selecteer artikelafbeelding:");
+define("_AM_SB_SHOWARTS", "Artikelen");
+define("_AM_SB_SHOWCOLS", "Kolommen");
+define("_AM_SB_SHOWSUBMISSIONS", "Artikelen wachtend op goedkeuring");
+define("_AM_SB_SHWALL", "Alle artikelen weergeven");
+define("_AM_SB_SHWAPV", "Goedgekeurde artikelen weergeven");
+define("_AM_SB_SHWOFF", "Offline artikelen weergeven");
+define("_AM_SB_SHWONL", "Online artikelen weergeven");
+define("_AM_SB_SHWSUB", "Ingediende artikelen weergeven");
+define("_AM_SB_STATUS", "Status");
+define("_AM_SB_SUBS", "Artikelen > Authorizeren '");
+define("_AM_SB_SUBTEXT", "Deze lijst toont de ingediende artikelen van de auteurs; Deze artikelen wacthen op goedkeuring.");
+define("_AM_SB_SUBMITS", "Indiende artikelen");
+define("_AM_SB_SUBMITSMNGMT", "Ingediende artikelen beheer");
+define("_AM_SB_SWITCHOFFLINE", "Maak artikel offline?");
+define("_AM_SB_TOTART", "Gepubliceerde artikelen:  <strong>%s</strong> ");
+define("_AM_SB_TOTCOL", "kolommen:  <strong>%s</strong> ");
+define("_AM_SB_TOTOFF", "Off-line artikelen:  <strong>%s</strong> ");
+define("_AM_SB_TOTSUB", "Ingediende artikelen:  <strong>%s</strong> ");
+
+define("_AM_SB_UPLOADIMAGE", "Artikelafbeelding uploaden:");
+define("_AM_SB_WEIGHT", "Gewicht");
+define("_AM_SB_YES", "Ja");
+//add by domifara
+define("_AM_SB_DATESUBNOCHANGE", "Datum van artikel niet veranderen");
+define("_AM_SB_NOTIFY", "Notificatie bij publiceren?");
+define("_AM_SB_POSTED", "Gepubliceerd:");
+define("_AM_SB_REORDERART", "Artikelen herordenen(gewicht)");
+//1.06
+//ModuleAdmin
+define('_AM_SB_MODULEADMIN_MISSING','ERROR: De ModuleAdmin class ontbreekt. Installeer de ModuleAdmin Class in de map /Frameworks (lees /docs/readme.txt)');
+define("_AM_SB_NEED_APPROVAL", "Goedkeuring benodigd:  <strong>%s</strong> ");
