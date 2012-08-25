@@ -32,9 +32,7 @@ define( $constpref.'_LOADED' , 1 ) ;
 define($constpref."_NAME","Protector");
 
 // A brief description of this module
-define($constpref."_DESC","Moduł zabezpieczający Xoopsa, przed różnymi
-rodzajami ataków z sieci, takich jak: DoS , SQL Injection i skażeniem
-zmiennych.");
+define($constpref."_DESC","Moduł zabezpieczający Xoopsa, przed różnymi rodzajami ataków z sieci, takich jak: DoS , SQL Injection i skażeniem zmiennych.");
 
 // Menu
 define($constpref."_ADMININDEX","Centrum zabezpieczeń");
@@ -58,22 +56,17 @@ define($constpref.'_LOGLEVEL255','Pełny');
 
 define($constpref.'_HIJACK_TOPBIT','Chronione bity numeru IP w sesji');
 define($constpref.'_HIJACK_TOPBITDSC','Ta funkcja chroni przed przechwytywaniem sesji, ograniczając ilość bitów IP, które mogą się zmienić w trakcie sesji. Domyślnie 32 bitów - wszystkie bity chronione (IP nie może się zmienić). Jeśli masz dynamiczne IP, zmieniające się w określonym zakresie, możesz ustawić ilość chronionych bitów tak, by mniej więcej dopasować do zakresu. Na przykład, jeśli twoje IP może się zmieniać w zakresie od 192.168.0.0 do 192.168.0.255, ustaw 24 bity. Gdyby cracker znał IP twojej sesji, ale próbował się wedrzeć spoza tego zakresu (powiedzmy, z 192.168.2.50), nie uda mu się. Autor modułu sugeruje wartość 16 bitów jako optymalną dla ogólnego użycia.');
-define($constpref.'_HIJACK_DENYGP','Grupy nieuprawnione do zmieniania
-swojego IP w trakcie sesji');
+define($constpref.'_HIJACK_DENYGP','Grupy nieuprawnione do zmieniania swojego IP w trakcie sesji');
 define($constpref.'_HIJACK_DENYGPDSC','Wskaźnik chroniący przed przechwytywaniem. Wybrane grupy nie mogą zmieniać IP w trakcie trwania sesji. Domyślnie wymienia grupę webmasters i poleca się tego nie zmieniać, bo konsekwencje przechwycenia sesji administratora mogłyby być naprawdę poważne.)');
 define($constpref.'_SAN_NULLBYTE','Sterylizowanie pustych bajtów');
 define($constpref.'_SAN_NULLBYTEDSC','Znak kończący "\\0" jest często używany we wrogich atakach. Pusty bajt zmieni się w spację, jeśli ta opcja jest włączona (co jest domyślne, i stanowczo poleca się pozostawić ją włączoną).');
-define($constpref.'_DIE_NULLBYTE','Wyjdź jeśli stwierdzone zostaną
-puste bajty');
+define($constpref.'_DIE_NULLBYTE','Wyjdź jeśli stwierdzone zostaną puste bajty');
 define($constpref.'_DIE_NULLBYTEDSC','Znak zakończenia "\\0" jest zwykle używany podczas atak-u na serwisy.<br />(należy suatwić tą opcję włączoną)');
-define($constpref.'_DIE_BADEXT','Wyjdź jeśli wgrywane są podejrzane
-pliki (tak/nie)');
+define($constpref.'_DIE_BADEXT','Wyjdź jeśli wgrywane są podejrzane pliki (tak/nie)');
 define($constpref.'_DIE_BADEXTDSC','Jeśli ktoś próbuje wgrać pliki z niebezpiecznymi rozszerzeniami, jak .php ,Protector zamknie XOOPSa. Jeśli często dołączasz pliki php do B-Wiki albo PukiWikiMod, być może będziesz musiał wyłączyć tę funkcję.');
-define($constpref.'_CONTAMI_ACTION','Działanie w przypadku wykrycia
-próby skażenia zmiennych');
+define($constpref.'_CONTAMI_ACTION','Działanie w przypadku wykrycia próby skażenia zmiennych');
 define($constpref.'_CONTAMI_ACTIONDS','Wybierz działanie, jakie ma być podjęte, gdy ktoś próbuje skazić globalne zmienne systemu w Twoim XOOPSie. Możliwości:)');
-define($constpref.'_ISOCOM_ACTION','Działanie w przypadku wykrycia
-izolowanego otwarcia komentarza.');
+define($constpref.'_ISOCOM_ACTION','Działanie w przypadku wykrycia izolowanego otwarcia komentarza.');
 define($constpref.'_ISOCOM_ACTIONDSC','Ochrona przed skażeniem SQL. Określ działanie wobec znalezienia izolowanego "/*". Możliwości:');
 define($constpref.'_UNION_ACTION','Działanie w przypadku wykrycia próby dodania instrukcji UNION lub podobnej.');
 define($constpref.'_UNION_ACTIONDSC','Ochrona przed skażeniem SQL. Określ działanie wobec znalezienia składni UNION w SQL. Możliwości:');
@@ -85,8 +78,7 @@ define($constpref.'_FILE_DOTDOTDSC','Ta funkcja eliminuje ".." z wszystkich zapy
 define($constpref.'_BF_COUNT','Ochrona przed atakami na siłę (Brute Force)');
 define($constpref.'_BF_COUNTDSC','Tutaj możesz określić ilość dopuszczalnych prób zalogowania w ciągu 10 minut. Jeśli ktoś poda złe dane więcej razy, niż wynosi limit, jego IP zostanie zbanowane. Ta funkcja chroni przed próbami złamania haseł dostępu metodą prób i błędów. Domyślnie ustawiona wartość wynosi 10.');
 
-define($constpref.'_DOS_SKIPMODS','Moduły wyłączone z ochrony przed
-DoS/Crawler');
+define($constpref.'_DOS_SKIPMODS','Moduły wyłączone z ochrony przed DoS/Crawler');
 define($constpref.'_DOS_SKIPMODSDSC','Protector może banować IP inicjujące ataki DoS lub robaki, które zabierają duże zasoby (patrz niżej). Możesz jednak wyłączyć poszczególne moduły z tej ochrony, wpisując tutaj nazwy ich katalogów. Kolejne moduły oddzielaj pionową kreską. Funkcja przydaje się do modułów takich jak np. czat.');
 define($constpref.'_DOS_EXPIRE','Czas dozorowania masowych odświeżań (w sek.)');
 define($constpref.'_DOS_EXPIREDSC','Ta wartość określa czas obserwowania licznych/częstych odświeżań (atak F5) i robaków zajmujących transfer. Domyślnie 60 sekund. .');
