@@ -1,0 +1,19 @@
+Alle XOOPS kode er Copyright 2001 - 2012 af XOOPS Project (http://sf.net/projects/xoops/)
+
+Dette program er fri software, du kan redistribuere det og / eller modificere
+det under betingelserne i GNU General Public License som publiceret af
+Free Software Foundation, enten version 2 af licensen, eller (efter
+eget valg) enhver senere version.
+
+Dette program er distribueret i håb om at det vil være nyttigt, men
+UDEN NOGEN GARANTI, endda uden den underforståede garanti for SALGBARHED
+eller EGNETHED TIL ET BESTEMT FORMÅL. Se GNU General Public License
+for flere detaljer.
+
+Du bør have modtaget en kopi af GNU General Public License
+sammen med dette program som filen license.txt, hvis ikke, se venligst
+http://www.gnu.org/licenses/old-licenses/gpl-2.0.txt.
+
+XOOPS omfatter værker under andre notitser om ophavsret og distribueres
+i henhold til betingelserne i GNU General Public License eller en kompatibel
+licens.
