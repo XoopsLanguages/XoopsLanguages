@@ -1,0 +1,87 @@
+GNU General Public License Version 2, juni 1991
+
+Copyright (C) 1989, 1991 Free Software Foundation, Inc. 59 Temple Place, Suite 330, Boston, MA 02.111-1307 USA Enhver har lov til at kopiere og distribuere ordrette kopier af denne licens dokument, men ændrer det er ikke tilladt.
+
+Præambel
+
+De fleste licenser på software har til formål at fjerne Deres ret til at dele og ændre det. Derimod er GNU General Public License til formål at garantere Deres ret til at dele og ændre frit software - for at sikre, at softwaren er gratis for alle dets brugere. Denne General Public License er gældende for størstedelen af ??Free Software Foundations software samt for ethvert andet program, hvis ophavsmænd ønsker at anvende den. (Nogle andre Free Software Foundation software er dækket af GNU Library General Public License i stedet.) Du kan anvende den til dine programmer, også.
+
+Når vi taler om fri software, vi henviser til frihed, ikke pris. Vores General Public Licenses er designet til at sikre, at du har friheden til at distribuere kopier af frit software (og gebyr for denne service, hvis du ønsker det), at du modtager kildekode eller kan få den, hvis du ønsker det, at du kan ændre software eller bruge dele af det til nye programmer, og at du ved, du kan gøre disse ting.
+
+For at beskytte dine rettigheder, er vi nødt til at lave restriktioner, der forbyder andre at nægte Dem disse rettigheder eller bede Dem om at overgive rettighederne. Disse restriktioner indebærer visse forpligtelser for Dem, hvis De distribuerer kopier af softwaren, eller hvis du ændre det.
+
+For eksempel, hvis De distribuerer kopier af et sådant program, enten gratis eller for et gebyr, skal du give modtagere alle de rettigheder, du har. Du skal sørge for, at de også modtager eller kan få kildekoden. Og du skal vise dem disse vilkår, så de kender deres rettigheder.
+
+Vi beskytter Deres rettigheder med to trin: (1) ophavsret på softwaren og (2) at tilbyde dig denne licens, der giver Dem juridisk ret til at kopiere, distribuere og / eller ændre softwaren.
+
+Også for hver forfatters beskyttelse og vores, ønsker vi at sikre os, at alle forstår, at der ikke er nogen garanti på dette frie software. Hvis programmet er ændret af en anden og givet videre, vi ønsker at modtagerne skal vide, at hvad de har, ikke er den oprindelige, vil så eventuelle problemer indarbejdet af andre ikke afspejle på de oprindelige forfatteres omdømme.
+
+Endelig er ethvert frit program under konstant trussel fra softwarepatenter. Vi ønsker at undgå faren for, at videregiver et frit program, personligt udtager patentlicens, hvorved programmet faktisk bliver beskyttet af ophavsret. For at undgå dette har vi gjort det klart, at ethvert patent skal registreres til alles frie afbenyttelse eller slet ikke registreres.
+
+De præcise vilkår og betingelser for kopiering, distribution og ændring følger.
+
+GNU General Public License VILKÅR FOR KOPIERING, distribution og ændring
+
+0. Denne licens gælder for ethvert program eller andet værk, som indeholder en meddelelse fra ejeren af ??ophavsretten siger, at det kan distribueres i henhold til denne General Public License. "Program", nedenfor refererer til ethvert sådant program eller værk, og et "Værk baseret på Programmet" betegner enten Programmet eller ethvert afledt værk i henhold til lovgivningen om ophavsret, der er at sige et værk, der indeholder Programmet eller en del af det, enten ordret eller ændret og / eller oversat til et andet sprog. (I det følgende omfattes oversættelser, uden begrænsninger, af termen "ændring".) Enhver licenstager tiltales som "du".
+
+Aktiviteter ud over kopiering, distribution og ændring er ikke dækket af denne licens men falder uden for dens rækkevidde. Det handler om at køre Programmet er ikke begrænset, og outputtet fra Programmet er kun omfattet, hvis indholdet heraf udgør et Værk baseret på Programmet (uafhængigt af at være blevet lavet ved at køre Programmet). Om dette er tilfældet, afhænger af, hvad Programmet gør.
+
+1. De må kopiere og distribuere ordrette kopier af Programmets kildetekst, således som du modtager den, i ethvert medium, forudsat at du tydeligt og på behørig vis hver kopi en passende meddelelse om ophavsret og garantifraskrivelse; sikre, at alle meddelelser, der refererer til denne licens og at der ikke foreligger nogen garanti, og give alle andre modtagere af programmet en kopi af denne licens sammen med Programmet.
+
+Du kan opkræve et gebyr for den fysiske handling at overføre en kopi, og du kan eventuelt tilbyde garanti beskyttelse i bytte for et gebyr.
+
+2. Du kan ændre Deres kopi eller kopier af programmet eller dele af det, således at de udgør et værk baseret på Programmet, samt kopiere og distribuere sådanne ændringer eller værk i henhold til bestemmelserne i afsnit 1 ovenfor, forudsat at du også opfylder alle disse betingelser :
+
+a) Du skal at de ændrede filer har en tydelig meddelelse om, at du har ændret i filerne samt datoen herfor.
+
+b) Du må få noget arbejde, som du distribuerer eller offentliggør, at der helt eller delvist indeholder eller er afledt af Programmet eller nogen del heraf, skal autoriseres som en helhed uden omkostninger for alle tredjeparter i henhold til denne Licens .
+
+c) Hvis det ændrede program normalt læser kommandoer interaktivt, når det køres, skal du få det, når starten på programkørslen for interaktiv brug på den mest normale vis udskrives eller vises en meddelelse, herunder en passende meddelelse om ophavsret, og en meddelelse om, at der ikke er nogen garanti (eller andet, siger, at du giver en garanti), og at brugerne kan videredistribuere Programmet under disse betingelser, og fortæller brugeren, hvordan man se en kopi af denne licens. (Undtagelse:. Hvis selve Programmet er interaktivt, men ikke normalt printer en sådan besked, er dit arbejde baseret på Programmet ikke forpligtet til at udskrive en meddelelse)
+
+Disse krav gælder for det ændrede værk som helhed. Hvis identificerbare sektioner af værket ikke er afledt af Programmet, og med rimelighed kan betragtes som uafhængig og separate værker i sig selv, så er denne licens og dens betingelser ikke for de sektioner, når De distribuerer dem som separate værker. Men når du distribuerer de samme sektioner som en del af en helhed, som er et værk baseret på Programmet, skal fordelingen af ??hele være på vilkårene i denne Licens, hvis tilladelser for andre licenstagere udstrække sig til hele helhed, og dermed til hver og hver en del, uanset hvem der skrev det.
+
+Derfor er det ikke hensigten med dette afsnit at kræve rettigheder eller bestride Deres rettigheder til værker skrevet af Dem, men snarere hensigten er at udøve retten til at kontrollere distributionen af ??afledte værker eller kollektive værker baseret på Programmet.
+
+Hertil kommer, at ren sammenlægning af et andet arbejde, der ikke er baseret på Programmet med Programmet (eller et Værk baseret på Programmet) på en volumen af ??en opbevaring eller distribution medium ikke bringe det andet værk omfattet af denne Licens.
+
+3. De må kopiere og distribuere Programmet (eller et Værk baseret på det, under Afsnit 2) i objektkode eller i eksekverbar form i henhold til paragraf 1 og 2 ovenfor, forudsat at du også gøre et af følgende:
+
+a) ledsages af den komplette, tilsvarende maskinlæsbare kildekode, der skal distribueres under de anførte betingelser i paragraf 1 og 2 ovenfor i et medium, der sædvanligvis bruges til udveksling af software, eller
+
+b) Vedlagt den med et skriftligt tilbud, gyldigt i mindst tre år, for at give nogen tredjepart, til en pris ikke mere end din prisen på en fysisk kilde distribution, en komplet maskinlæsbar kopi af den tilsvarende kildekode, for at være distribueres under vilkårene i paragraf 1 og 2 ovenfor i et medium, der sædvanligvis bruges til udveksling af software, eller
+
+c) ledsages af den information, som De modtog tilbuddet om at distribuere tilsvarende kildekode. (Dette alternativ er kun tilladt for ikke-kommerciel distribution og kun hvis De har modtaget Programmet i objektkode eller i eksekverbar form med et sådant tilbud, i henhold til stykke b ovenfor.)
+
+Kildekoden for et værk betyder den foretrukne form af arbejdet for at ændre det. For et eksekverbart værk betyder den fuldstændige kildetekst hele kildeteksten for alle de moduler, det indeholder, plus eventuelle associerede Interface Definition filer, plus de scripts, der anvendes til at kontrollere kompileringen og installeringen af ??det eksekverbare. Men som en særlig undtagelse, distribueret kildekoden behøver ikke indeholde noget, der normalt distribueres (enten i kildeform eller binær form) med de vigtigste komponenter (compiler, kerne, og så videre) af styresystemet, som det eksekverbare program køres, medmindre den komponent selv ledsager det eksekverbare.
+
+Hvis distributionen af ??det eksekverbare eller objektkoden foretages ved tilbud om adgang til at kopiere fra et angivet sted, regnes tilbud om tilsvarende adgang til at kopiere kildeteksten fra det samme sted som distribution af kildekoden, selvom tredjemand ikke er tvunget til at kopiere kilde sammen med objektkoden.
+
+4. Du må ikke kopiere, ændre, udstede underlicenser for eller distribuere Programmet som udtrykkeligt er fastsat i denne Licens. Ethvert forsøg på at kopiere, ændre, udstede underlicenser eller distribuere Programmet er ugyldig, og vil automatisk afslutte ens rettigheder under denne licens. Dog vil parter, som har modtaget kopier eller rettigheder fra dig under denne licens ikke har afsluttet deres licenser, så længe de fortsætter med fuld overensstemmelse.
+
+5. Du er ikke forpligtet til at acceptere denne licens, eftersom De ikke har skrevet det. Men intet andet giver dig tilladelse til at ændre eller distribuere Programmet eller dets afledte værker. Disse handlinger er forbudt ved lov, hvis du ikke accepterer denne licens. Derfor, ved at ændre eller distribuere Programmet (eller et Værk baseret på Programmet), angiver du din accept af denne Licens til at gøre det, og alle dens vilkår og betingelser for kopiering, distribuere eller ændre Programmet eller værker baseret på det.
+
+6. Hver gang du videredistribuere Programmet (eller et Værk baseret på Programmet), får modtageren automatisk licens fra den oprindelige licensgiver til at kopiere, distribuere eller ændre Programmet i henhold til disse vilkår og betingelser. Du må ikke opstille yderligere begrænsninger på modtagernes udøvelse af deres rettigheder, der herved ydes. Du er ikke ansvarlig for at håndhæve tredjemands overholdelse af denne licens.
+
+7. Hvis det som følge af en retsafgørelse eller påstand om patentkrænkelse, eller af nogen anden grund (ikke begrænset til patentspørgsmål) er betingelser pålagt dig (enten ved retskendelse, aftale eller på anden måde), som modsiger vilkårene i denne licens, de ikke undskylde dig fra at betingelserne i denne Licens. Hvis du ikke kan distribuere så samme tid opfylder Deres forpligtelser i henhold til denne Licens og alle andre relevante forpligtelser, som en konsekvens du må ikke distribuere Programmet overhovedet. For eksempel, hvis en patentlicens ikke ville tillade afgiftsfri videredistribution af Programmet af alle dem, der modtager kopier direkte eller indirekte igennem du så er den eneste måde du kan tilfredsstille både den og denne licens ville være at afholde sig helt fra distribution af programmet.
+
+Hvis nogen del af denne paragraf erklæres ugyldig eller ikke kan håndhæves i en bestemt situation, er resten af ??paragraffen skal gælde og afsnittet som helhed skal gælde i andre situationer.
+
+Det er ikke formålet med denne paragraf at tilskynde Dem til at krænke andre patenter eller ejendomskrav eller at bestride gyldigheden af ??sådanne krav, og dette afsnit har det ene formål at beskytte integriteten af ??distributionssystemet for frit software, som gennemføres af offentlig licenspraksis. Mange mennesker har ydet store bidrag til den brede vifte af software, der distribueres via dette system i tiltro til en konsekvent anvendelse af dette system, og det er op til forfatteren / donoren at beslutte, om han eller hun er villig til at distribuere software via et andet system og en licenstageren kan ikke pålægge dette valg.
+
+Dette afsnit er beregnet til at gøre det fuldstændigt klart, hvad der menes at være en konsekvens af resten af ??denne licens.
+
+8. Hvis distributionen og / eller brugen af ??Programmet er underlagt restriktioner i visse lande pga. enten patenter eller ophavsretligt beskyttede grænseflader, den oprindelige ophavsret, der har placeret Programmet under denne licens, tilføje en udtrykkelig geografisk fordeling udelukker de pågældende lande, således at distribution er tilladt kun i eller imellem lande således ikke udelukket. I så fald indeholder denne licens en sådan begrænsning som om skrevet i kroppen af ??denne licens.
+
+9. The Free Software Foundation offentliggør formodentligt reviderede og / eller nye versioner af sin General Public License fra tid til anden. Sådanne nye versioner vil være i samme ånd som den nuværende version, men kan variere i detaljer at løse nye problemer eller bekymringer.
+
+Hver version får et karakteristisk versionsnummer. Hvis Programmet specificerer et versionsnummer for denne licens, som gælder for den og "alle senere versioner", har du mulighed for at følge de vilkår og betingelser for enten den version eller en anden senere version udgivet af Free Software Foundation. Hvis Programmet ikke specificerer et versionsnummer for denne licens, kan du vælge hvilken som helst version nogensinde er udgivet af Free Software Foundation.
+
+10. Hvis du ønsker at inkorporere dele af Programmet i andre frie programmer, hvis fordeling forholdene er anderledes, så skriv til forfatteren for at bede om tilladelse. For software, hvor ophavsretten tilhører The Free Software Foundation, så skriv til Free Software Foundation, er visse undtagelser til dette. Vores beslutning vil blive styret af de to mål om at bevare den frie status for alle afledte værker af vores frie software og at fremme udvekslingen og genbrugen af ??software generelt.
+
+INGEN GARANTI
+
+11. Da programmet er LICENS GRATIS, DER ER INGEN GARANTI FOR PROGRAMMET, I DET OMFANG LOVEN TILLADER. Medmindre andet ANGIVET SKRIFTLIGT INDEHAVERE OG / ELLER ANDRE PARTER PROGRAMMET "SOM DEN ER" UDEN NOGEN FORM FOR GARANTI, HVERKEN UDTRYKKELIG ELLER STILTIENDE, HERUNDER, MEN IKKE BEGRÆNSET TIL, GARANTIER FOR SALGBARHED OG EGNETHED TIL ET BESTEMT FORMÅL . HELE RISIKOEN FOR KVALITET OG YDELSE af programmet er MED DIG. Skal programmet VISE DEFEKT, påtage sig omkostningerne ved AL NØDVENDIG SERVICE, REPARATION ELLER KORREKTION.
+
+12. UNDER INGEN OMSTÆNDIGHEDER medmindre det kræves af GÆLDENDE LOV ELLER ER SKRIFTLIGT AFTALT VIL NOGEN OPHAVSRETINDEHAVER ELLER NOGEN ANDEN PART DER KAN ÆNDRE OG / eller videredistribuere programmet som tilladt ovenfor, VÆRE ANSVARLIG FOR DIG FOR SKADER, HERUNDER GENERELLE, SPECIELLE, TILFÆLDIGE ELLER FØLGESKADER SOM FØLGE AF BRUG ELLER MANGLENDE BRUG AF PROGRAM (HERUNDER, MEN IKKE BEGRÆNSET TIL, TAB AF DATA ELLER DATA ER BLEVET UNØJAGTIGE ELLER tab DIG ELLER TREDJEMAND eller en fejl i at programmet kan fungere MED ANDRE PROGRAMMER), SELV hvis modtageren ELLER ANDEN PART ER BLEVET GJORT OPMÆRKSOM PÅ MULIGHEDEN FOR SÅDANNE SKADER.
+
+SLUT AF VILKÅR
