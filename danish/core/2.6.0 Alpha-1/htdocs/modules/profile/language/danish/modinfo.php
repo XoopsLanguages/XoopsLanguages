@@ -8,7 +8,7 @@ define("_PROFILE_MI_NAME","Bruger profiler");
 define("_PROFILE_MI_DESC","Modul til at administrer bruger profil felter");
 
 //Main menu links
-define("_PROFILE_MI_CHANGEMAIL", "Change Email");
+define("_PROFILE_MI_EDITACCOUNT", "Rediger profil");
 define("_PROFILE_MI_CHANGEPASS","Skift password");
 define("_PROFILE_MI_CHANGEMAIL","Skift email");
 
@@ -16,7 +16,6 @@ define("_PROFILE_MI_CHANGEMAIL","Skift email");
 define("_PROFILE_MI_INDEX","Indeks");
 define("_PROFILE_MI_CATEGORIES","Kategorier");
 define("_PROFILE_MI_FIELDS","Felter");
-define("_PROFILE_MI_PERMISSIONS", "Permissions");
 define("_PROFILE_MI_STEPS","Registrerings trin");
 define("_PROFILE_MI_PERMISSIONS","Tilladelser");
 
@@ -38,7 +37,8 @@ define("_PROFILE_MI_PROFILE_SEARCH", "Show latest activities on user profile");
 
 //Pages
 define("_PROFILE_MI_PAGE_INFO","Bruger info");
-define("_PROFILE_MI_PAGE_INFO", "User Info");
+define("_PROFILE_MI_PAGE_EDIT", "Rediger bruger");
+define("_PROFILE_MI_PAGE_SEARCH", "Søg");
 
 define("_PROFILE_MI_STEP_BASIC","Grundlæggende");
 define("_PROFILE_MI_STEP_COMPLEMENTARY","Supplerende");
