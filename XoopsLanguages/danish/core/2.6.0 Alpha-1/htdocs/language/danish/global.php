@@ -66,7 +66,6 @@ define("_LEFT","Venstre");
 define("_CENTER","Center");
 define("_RIGHT","Højre");
 define("_FORM_ENTER","Indtast venligst %s");
-define('_FORM_ENTER','Venligst skriv %s');
 define("_MUSTWABLE","Fil %s skal være skrivbar af serveren!"); // %s represents file name
 // Module info
 define("_PREFERENCES","Indstillinger");
