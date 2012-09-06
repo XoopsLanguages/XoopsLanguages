@@ -186,6 +186,8 @@ define("CONFIG_SITE","Side opsæning" );
 define("CONFIG_SITE_TITLE","Side konfiguration" );
 define("MODULES","Modul installationer" );
 define("MODULES_TITLE","Modul installation" );
+define("EXTENSIONS", "Udvidelser installeret");
+define("EXTENSIONS_TITLE", "Udvidelses installation");
 define("THEME","Vælg theme" );
 define("THEME_TITLE","Vælg dit standard theme" );
 
