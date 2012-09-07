@@ -48,7 +48,7 @@ define("_AM_MAINTENANCE_CENTER_TABLES_DESC",
 "Analyser TABLE analyserer og lagrer det centrale fordeling for en tabel. Under analysen er tabellen låst med en read lock. <br />
 TJEK TABLE kontrollerer en eller flere tabeller for fejl. <br />
 OPTIMER TABLE reklamation den ubenyttede plads og at defragmentere datafilen. <br />
-REPARATION TABEL reparerer en eventuelt beskadiget tabel ").;
+REPARATION TABEL reparerer en eventuelt beskadiget tabel ");
 define("_AM_MAINTENANCE_CENTER_REPAIR", "Reparer");
 define("_AM_MAINTENANCE_CENTER_SESSION", "Tøm sessionstabellen");
 define("_AM_MAINTENANCE_CENTER_SIZE", "Størrelse");

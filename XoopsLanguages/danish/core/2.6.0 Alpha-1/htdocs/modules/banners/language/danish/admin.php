@@ -1,4 +1,4 @@
-<? Php
+<?Php
 /*
  Du må ikke ændre eller ændre nogen del af denne kommentar eller kreditter
  af støtte udviklere fra denne kildekode eller nogen støtte kildekode

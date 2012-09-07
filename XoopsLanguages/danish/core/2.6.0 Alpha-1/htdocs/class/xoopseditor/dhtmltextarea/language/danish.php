@@ -13,5 +13,5 @@
  * Assocated with editor_registry.php
  */
 
-define("_XOOPS_EDITOR_TEXTAREA","DHTML med xCode");
+define("_XOOPS_EDITOR_DHTMLTEXTAREA","DHTML med xCode");
 ?>

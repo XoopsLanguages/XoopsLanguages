@@ -9,7 +9,11 @@
 
 // Navigation
 define("_AM_SYSTEM_MODULES_ADMIN","Modul Administration");
+define("_AM_SYSTEM_MODULES_MAIN", "Hovedmenu");
+
 define("_AM_SYSTEM_MODULES_LIST","Modul liste");
+define("_AM_SYSTEM_MODULES_AVAILABLE", "Tilgængelige Moduler");
+
 define("_AM_SYSTEM_MODULES_TOINSTALL","Installer modul");
 define("_AM_SYSTEM_MODULES_VALIDATE","Godkend ændringer");
 define("_AM_SYSTEM_MODULES_SUBMITRES","Indsend resultat");
@@ -26,11 +30,26 @@ define("_AM_SYSTEM_MODULES_ACTIVATE","Aktivér");
 define("_AM_SYSTEM_MODULES_UPDATING","Opdatering");
 
 // Main
+define("_AM_SYSTEM_MODULES_STATUS","Start/Stop");
 define("_AM_SYSTEM_MODULES_INSTALL","Installér");
 define("_AM_SYSTEM_MODULES_UNINSTALL","Afinstallér");
 define("_AM_SYSTEM_MODULES_UPDATE","Opdater");
+define("_AM_SYSTEM_MODULES_DETAIL","Detaljer");
+define("_AM_SYSTEM_MODULES_DELETE","Slet");
+define("_AM_SYSTEM_MODULES_DISABLE","Stop");
+define("_AM_SYSTEM_MODULES_ENABLE","Start");
+define("_AM_SYSTEM_MODULES_CLOSE","Luk");
+define("_AM_SYSTEM_MODULES_MENU","Menu styring");
+define("_AM_SYSTEM_MODULES_MENUBLOCK","Menu Block");
 define("_AM_SYSTEM_MODULES_VIEWLARGE","Stor visning");
 define("_AM_SYSTEM_MODULES_VIEWLINE","Linie visning");
+
+// Other
+define("_AM_SYSTEM_MODULES_VERSION","Version:");
+define("_AM_SYSTEM_MODULES_AUTHOR","Forfatter:");
+define("_AM_SYSTEM_MODULES_LICENSE","Licens:");
+define("_AM_SYSTEM_MODULES_LASTUP","Seneste opdatering:");
+define("_AM_SYSTEM_MODULES_WEB","Web:");
 
 // %s represents module name
 define("_AM_SYSTEM_MODULES_FAILINS","Kunne ikke installere %s.");
@@ -48,15 +67,6 @@ define("_AM_SYSTEM_MODULES_OKDEACT","Modulet %s deaktiveret.");
 define("_AM_SYSTEM_MODULES_OKUPD","Modulet %s blev korrekt opdateret.");
 define("_AM_SYSTEM_MODULES_OKUNINS","Modulet %s afinstalleret.");
 define("_AM_SYSTEM_MODULES_OKORDER","Modulet %s ændret.");
-
-define("_AM_SYSTEM_MODULES_MODULE","Modul");
-define("_AM_SYSTEM_MODULES_VERSION","Version");
-define("_AM_SYSTEM_MODULES_LASTUP","Sidst opdateret");
-define("_AM_SYSTEM_MODULES_DEACTIVATED","Deaktiveret");
-define("_AM_SYSTEM_MODULES_ACTION","Handling");
-define("_AM_SYSTEM_MODULES_MENU","Menu");
-define("_AM_SYSTEM_MODULES_HIDE","Skjul");
-define("_AM_SYSTEM_MODULES_SHOW","Vis");
 
 define("_AM_SYSTEM_MODULES_DUPEN","Findes allerede i modul tabellerne!");
 define("_AM_SYSTEM_MODULES_DEACTED","Det valgte modul er blevet deaktiveret. Du kan nu afinstallere modulet.");
@@ -180,6 +190,8 @@ define('_AM_SYSTEM_MODULES_CONFIRM_TIPS',
 '<ul>
 <li>Kontroller alle modifikationer for at validere.</li>
 </ul>');
-
+define("_AM_SYSTEM_MODULES_MENU_TIPS",
+"<ul><li>For at ændre ordenen på moduler (Som reflekteres i menuen), skal du blot drag 'n drop modulerne til ønsket placering.</li></ul>"
+);
 ?>
 <?php // Translation done by xtransam & anderssk - 2010-10-19 07:12 ?>

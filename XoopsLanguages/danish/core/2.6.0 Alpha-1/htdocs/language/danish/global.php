@@ -132,7 +132,7 @@ define("_STARTSWITH","Begynder med");
 define("_ENDSWITH","Slutter med");
 define("_MATCHES","Er lig med");
 define("_CONTAINS","Indeholder");
-
+define('_REQUIRED','Obligatorisk');
 
 
 

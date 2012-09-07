@@ -22,6 +22,7 @@ define("_AM_SYSTEM_GO","Adgang til denne sektion");
 define("_AM_SYSTEM_STATUS","Skift status sektion");
 define("_AM_SYSTEM_LOADING","Indlæser");
 define("_AM_SYSTEM_ALL","Alle");
+define("_AM_SYSTEM_LINKS","Links");
 
 define("_AM_SYSTEM_TIPS_MAIN","<ul><li> Aktivere eller deaktivere dele af systemet modul eller bare adgangen til det. </li></ul>");
 define('_AM_SYSTEM_AVATAR_INFO','<ul><li><span class="bold red">%s</span> avatars.</li></ul>' );
@@ -42,10 +43,11 @@ define("_AM_SYSTEM_BLOCKS","Blokke");
 define("_AM_SYSTEM_BLOCKS_DESC","Med blokke kan du <br /> tilføje mange ting for <br /> dine brugere");
 define("_AM_SYSTEM_MODULES","Moduler");
 define("_AM_SYSTEM_MODULES_DESC","Her kan du installere <br /> og afinstallere dine XOOPS <br /> moduler. Ved du <br /> hvad et modul er?");
-define("_AM_SYSTEM_SMLS","Smilies");
-define("_AM_SYSTEM_SMLS_DESC","Du og dine brugere kan bruge <br /> smilies i indlæg, <br /> meddelelser, kommentarer og ...");
-define("_AM_SYSTEM_RANK","Bruger Ranks");
-define("_AM_SYSTEM_RANK_DESC","Du kan tilføje ranks <br /> til dine brugere");
+
+define("_AM_SYSTEM_EXTENSIONS","Udvidelser");
+define("_AM_SYSTEM_EXTENSIONS_DESC","Her kan du installere <br /> og afinstallere dine Xoops <br /> udvidelser.");
+define("_AM_SYSTEM_THEME","Themaer");
+define("_AM_SYSTEM_THEME_DESC","Her styrer du dine temaer");
 define("_AM_SYSTEM_USER","Brugere");
 define("_AM_SYSTEM_USER_DESC","Med denne indstillinger, kan du <br /> kan tilføje nye brugere eller <br /> redigere gamle brugere og brugerinformationer, <br /> ændre grupper og mange <br /> andre ting");
 define("_AM_SYSTEM_PREF","Indstillinger");
@@ -75,7 +77,5 @@ define("_MD_AM_PERMADDNG","Kunne ikke tilføje %s tilladelse til %s for gruppen 
 define("_MD_AM_PERMADDOK","Tilføjede %s tilladelse til %s for gruppe %s");
 define("_MD_AM_PERMRESETNG","Kunne ikke nulstille gruppe tilladelser til modul %s");
 define("_MD_AM_PERMADDNGP","Alle øvre punkter skal vælges.");
-
-define("_AM_SYSTEM_UNINSTALL","Affinstaller");
 
 ?><?php // Translation done by culex - 2012-03-15 19:15 ?>
