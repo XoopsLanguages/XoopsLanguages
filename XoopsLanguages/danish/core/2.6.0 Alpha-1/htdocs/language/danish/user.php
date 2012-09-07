@@ -60,7 +60,7 @@ define("_US_NICKNAMENOSPACES","Der kan ikke være nogen mellemrum i brugernavnet
 define("_US_NICKNAMETAKEN","FEJL: Brugernavn taget.");
 define("_US_EMAILTAKEN","FEJL: E-mail adressen er allerede registreret.");
 define('_US_NAMERESERVED', 'FEJL: Navn er reserveret.');
-define('_US_NICKNAMENOSPACES', 'Der kan ikke være nogen mellemrum i brugernavnet.");
+define('_US_NICKNAMENOSPACES', "Der kan ikke være nogen mellemrum i brugernavnet.");
 define("_US_SORRYNOTFOUND","Beklager, ingen tilsvarende brugerinfo fundet.");
 // %s is your site name
 define("_US_NEWPWDREQ","Ny adgangskode anmodet hos %s");
