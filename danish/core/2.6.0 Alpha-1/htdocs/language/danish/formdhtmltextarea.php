@@ -77,7 +77,7 @@ define("_XOOPS_FORM_ENTERMP3URL","MP3 URL");
 define("_XOOPS_FORM_ALT_CHECKLENGTH","Check tekstlængde");
 define("_XOOPS_FORM_ALT_LENGTH","Nuværende længde på indhold: %s");
 define("_XOOPS_FORM_ALT_LENGTH_MAX","Maksimal længde:");
-define("_XOOPS_FORM_PREVIEW_CONTENT","Klik på <strong>'. _PREVIEW. '</strong> for at se indholdet i aktion.");
+define("_XOOPS_FORM_PREVIEW_CONTENT","Klik på <strong>". _PREVIEW. "</strong> for at se indholdet i aktion.");
 
 define('_XOOPS_FORM_ALTYOUTUBE', 'Youtube');
 

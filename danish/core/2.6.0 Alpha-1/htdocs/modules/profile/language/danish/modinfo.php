@@ -16,6 +16,7 @@ define("_PROFILE_MI_CHANGEMAIL","Skift email");
 define("_PROFILE_MI_INDEX","Indeks");
 define("_PROFILE_MI_CATEGORIES","Kategorier");
 define("_PROFILE_MI_FIELDS","Felter");
+define("_PROFILE_MI_USERS", "Brugere");
 define("_PROFILE_MI_STEPS","Registrerings trin");
 define("_PROFILE_MI_PERMISSIONS","Tilladelser");
 

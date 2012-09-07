@@ -14,6 +14,7 @@ define("_AM_SYSTEM_USERS_NAV_ADVANCED_SEARCH","Avanceret søgning");
 define("_AM_SYSTEM_USERS_NAV_ADD_USER","Tilføj bruger");
 define("_AM_SYSTEM_USERS_NAV_EDIT_USER","Redigér bruger");
 define("_AM_SYSTEM_USERS_NAV_DELETE_USER","Slet bruger");
+define("_AM_SYSTEM_USERS_NAV_LIST","Liste");
 
 // Tips
 define('_AM_SYSTEM_USERS_NAV_TIPS','

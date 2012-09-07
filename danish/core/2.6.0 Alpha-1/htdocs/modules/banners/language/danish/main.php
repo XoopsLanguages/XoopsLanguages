@@ -26,15 +26,15 @@ define("_MD_BANNERS_INDEX_EMAIL", "Send e-mail statistik");
 define("_MD_BANNERS_INDEX_NO_ID", "Ingen gyldig fundet ID");
 define("_MD_BANNERS_INDEX_NO_REFERER", "Ingen referer fundet");
 define("_MD_BANNERS_INDEX_ID", "ID");
-define("_MD_BANNERS_INDEX_MAIL_MESSAGE", "Tilgængelige Banner Statistik for den valgte Banner ved %s: \n \n \n
-Client Name: %s \nBanner ID: %s \n
-Banner Image: %s \n
-Banner URL: %s \n \n
-Impressions Købte: %s \n
-Visninger Made: %s \n
-Impressions Venstre: %s \n
-Klik modtaget: %s \n
-Klik Procent:% f \n\n\n
+define("_MD_BANNERS_INDEX_MAIL_MESSAGE", "Tilgængelige Banner Statistik for den valgte Banner ved %s :\n\n\n
+Client Name: %s\nBanner ID: %s\n
+Banner Image: %s\n
+Banner URL: %s\n\n
+Impressions Købte: %s\n
+Visninger Made: %s\n
+Impressions Venstre: %s\n
+Klik modtaget: %s\n
+Klik Procent:%f \n\n\n
 Rapport genereret på: %s ");
 define("_MD_BANNERS_INDEX_MAIL_OK", "Tilgængelige Banner statistik for den valgte banner er blevet sendt til din kontos emailadresse.");
 define("_MD_BANNERS_INDEX_MAIL_SUBJECT", "Dit banner Statistik på %s");

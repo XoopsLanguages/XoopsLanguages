@@ -12,6 +12,7 @@ define("_AM_DBUPDATED",_AM_SYSTEM_DBUPDATED);
 
 //Nav
 define("_AM_SYSTEM_PREFERENCES_NAV_MAIN","Indstillinger");
+define("_AM_SYSTEM_PREFERENCES_MAIN","Hovedmenu");
 /*define("_AM_SYSTEM_PREFERENCES_NAV_MD_AM_GENERAL","Generelle indstillinger");
 define("_AM_SYSTEM_PREFERENCES_NAV_MD_AM_USERSETTINGS","Bruger indstillinger");
 define("_AM_SYSTEM_PREFERENCES_NAV_MD_AM_METAFOOTER","Meta Tags og sidefod");
