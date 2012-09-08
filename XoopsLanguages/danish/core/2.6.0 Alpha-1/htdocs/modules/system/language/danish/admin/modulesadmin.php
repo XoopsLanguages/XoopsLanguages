@@ -2,34 +2,41 @@
 /**
  * @copyright   The XOOPS Project http://sourceforge.net/projects/xoops/
  * @license     http://www.fsf.org/copyleft/gpl.html GNU public license
- * _LANGCODE    en
+ * _LANGCODE    da
  * _CHARSET     UTF-8
  * @version     $Id: modulesadmin.php 5536 2010-10-18 03:29:42Z beckmi $
+ * @translated by: Michael Albertsen (culex)
  */
 
 // Navigation
 define("_AM_SYSTEM_MODULES_ADMIN","Modul Administration");
 define("_AM_SYSTEM_MODULES_MAIN", "Hovedmenu");
 
-define("_AM_SYSTEM_MODULES_LIST","Modul liste");
-define("_AM_SYSTEM_MODULES_AVAILABLE", "Tilgængelige Moduler");
-
-define("_AM_SYSTEM_MODULES_TOINSTALL","Installer modul");
-define("_AM_SYSTEM_MODULES_VALIDATE","Godkend ændringer");
-define("_AM_SYSTEM_MODULES_SUBMITRES","Indsend resultat");
-
 // Messages
+define("_AM_SYSTEM_MODULES_MSG_INSTALL", "Installer modul");
+define("_AM_SYSTEM_MODULES_MSG_UPDATE", "Opdater modul");
+define("_AM_SYSTEM_MODULES_MSG_UNINSTALL", "Afinstaller modul");
+
 define("_AM_SYSTEM_MODULES_RUSUREINS","Tryk på knappen nedenfor for at installere dette modul");
 define("_AM_SYSTEM_MODULES_RUSUREUNINS","Er du sikker på du vil afinstallere dette modul?");
 define("_AM_SYSTEM_MODULES_RUSUREUPD","Tryk på knappen herunder for at opdatere dette modul");
 define("_AM_SYSTEM_MODULES_BTOMADMIN","Tilbage til modul administrations siden");
+define("_AM_SYSTEM_MODULES_BLOCKADMIN","Blocksstyring");
 define("_AM_SYSTEM_MODULES_INSTALLING","Installation");
 define("_AM_SYSTEM_MODULES_UNINSTAL","Afinstaller");
 define("_AM_SYSTEM_MODULES_DEACTIVATE","Deaktivere");
+
 define("_AM_SYSTEM_MODULES_ACTIVATE","Aktivér");
 define("_AM_SYSTEM_MODULES_UPDATING","Opdatering");
 
 // Main
+define("_AM_SYSTEM_MODULES_LIST","Modul liste");
+define("_AM_SYSTEM_MODULES_AVAILABLE", "Tilgængelige Moduler");
+define("_AM_SYSTEM_MODULES_VIEWLARGE","Stor visning");
+define("_AM_SYSTEM_MODULES_VIEWLINE","Linie visning");
+define("_AM_SYSTEM_MODULES_EDIT","Klik for at redigere modulnavn...");
+// Buttons
+
 define("_AM_SYSTEM_MODULES_STATUS","Start/Stop");
 define("_AM_SYSTEM_MODULES_INSTALL","Installér");
 define("_AM_SYSTEM_MODULES_UNINSTALL","Afinstallér");
@@ -41,8 +48,8 @@ define("_AM_SYSTEM_MODULES_ENABLE","Start");
 define("_AM_SYSTEM_MODULES_CLOSE","Luk");
 define("_AM_SYSTEM_MODULES_MENU","Menu styring");
 define("_AM_SYSTEM_MODULES_MENUBLOCK","Menu Block");
-define("_AM_SYSTEM_MODULES_VIEWLARGE","Stor visning");
-define("_AM_SYSTEM_MODULES_VIEWLINE","Linie visning");
+
+
 
 // Other
 define("_AM_SYSTEM_MODULES_VERSION","Version:");
@@ -50,7 +57,6 @@ define("_AM_SYSTEM_MODULES_AUTHOR","Forfatter:");
 define("_AM_SYSTEM_MODULES_LICENSE","Licens:");
 define("_AM_SYSTEM_MODULES_LASTUP","Seneste opdatering:");
 define("_AM_SYSTEM_MODULES_WEB","Web:");
-
 // %s represents module name
 define("_AM_SYSTEM_MODULES_FAILINS","Kunne ikke installere %s.");
 define("_AM_SYSTEM_MODULES_FAILACT","Kunne ikke aktivere %s.");
@@ -75,7 +81,8 @@ define("_AM_SYSTEM_MODULES_UPDTED","Det valgte modul er blevet opdateret!");
 define("_AM_SYSTEM_MODULES_SYSNO","Systemet Modulet kan ikke deaktiveres.");
 define("_AM_SYSTEM_MODULES_STRTNO","Dette modul er angivet som din standard startside. Du kan ændre start modul så det passer til dine behov.");
 
-define("_AM_SYSTEM_MODULES_ORDER","Bestil");
+
+define("_AM_SYSTEM_MODULES_ORDER","Orden");
 define("_AM_SYSTEM_MODULES_ORDER0","(0 = skjule)");
 define("_AM_SYSTEM_MODULES_ACTIVE","Aktive");
 define("_AM_SYSTEM_MODULES_INACTIVE","Inaktive");
@@ -83,8 +90,9 @@ define("_AM_SYSTEM_MODULES_NOTINSTALLED","Ikke installeret");
 define("_AM_SYSTEM_MODULES_NOCHANGE","Ingen ændring");
 define("_AM_SYSTEM_MODULES_SUBMIT","Indsend");
 define("_AM_SYSTEM_MODULES_CANCEL","Annuller");
-define("_AM_SYSTEM_MODULES_DBUPDATE","Databasen blev opdateret!");
+define("_AM_SYSTEM_MODULES_DBUPDATE",_AM_SYSTEM_DBUPDATED);
 define("_AM_SYSTEM_MODULES_LISTUPBLKS","Følgende blokke vil blive opdateret. <br /> Vælg de blokke hvis indhold (skabelon og indstillinger), kan blive overskrevet. <br />");
+
 define("_AM_SYSTEM_MODULES_NEWBLKS","Ny Blok");
 define("_AM_SYSTEM_MODULES_DEPREBLKS","Forældet Blok");
 
@@ -185,13 +193,17 @@ define('_AM_SYSTEM_MODULES_TIPS',
 <li>For at skjule modulet i Hovedmenuen, sæt vægtning til 0</li>
 <li>Slet ubenyttede modul filer fra dein server, dette vil minimerer sikkerhedsrisise og holde din side sikker.</li>
 <li>For at ændre rækkefølgen af moduler (som afspejles i hovedmenuen), skal du bare trække og slippe modulerne til den ønskede plads.</li>
+
+
+
 </ul>');
 define('_AM_SYSTEM_MODULES_CONFIRM_TIPS',
 '<ul>
 <li>Kontroller alle modifikationer for at validere.</li>
+
 </ul>');
 define("_AM_SYSTEM_MODULES_MENU_TIPS",
 "<ul><li>For at ændre ordenen på moduler (Som reflekteres i menuen), skal du blot drag 'n drop modulerne til ønsket placering.</li></ul>"
+
 );
-?>
-<?php // Translation done by xtransam & anderssk - 2010-10-19 07:12 ?>
+
