@@ -35,7 +35,8 @@ define("_AM_FMT_CONFIGSNOTWRITABLE" , "Gør configs-mappen skrivbar: %s" ) ;
 define("_AM_H3_PREFIXMAN" , "Præfiks vedligehold" ) ;
 define("_AM_MSG_DBUPDATED" , "Databasen opdateret uden fejl!");
 define("_AM_CONFIRM_DELETE" , "Alle data vil blive slettet. OK?" ) ;
-define("_AM_TXT_HOWTOCHANGEDB" , "Hvis du ønsker at ændre præfiks,<br /> skal du rediger %s/mainfile.php manuelt.<br /><br />define('XOOPS_DB_PREFIX','<b>%s</b>');" ) ;
+define("_AM_TXT_HOWTOCHANGEDB" , "Hvis du ønsker at ændre præfiks,<br /> skal du rediger %s/mainfile.php manuelt.<br /><br />");
+//define('XOOPS_DB_PREFIX','<b>%s</b>');
 
 // advisory.php
 define("_AM_ADV_NOTSECURE","Ikke sikker");
