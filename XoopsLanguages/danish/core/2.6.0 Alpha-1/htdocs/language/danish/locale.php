@@ -32,6 +32,7 @@ define("_MONTHDAY","j/n G:i");
 define("_YEARMONTHDAY","j/n/Y G:i");
 define("_ELAPSE","%s siden");
 define("_TIMEFORMAT_DESC","Gyldige formater: \"s\" - " . _SHORTDATESTRING . "; \"m\" - " . _MEDIUMDATESTRING . "; \"l\" - " . _DATESTRING . ";<br />" . "\"c\" or \"custom\" - format i henhold til intervallet; \"e\" - Forløbet; \"mysql\" - Y-m-d H:i:s;<br />" . "Angivet streng - Se <a href=\"http://php.net/manual/en/function.date.php\" rel=\"external\">PHP manual</a>.");
+define("_TIMEZONE_SET", "Europe/Copenhagen");
 
 /**
  * A Xoops Local

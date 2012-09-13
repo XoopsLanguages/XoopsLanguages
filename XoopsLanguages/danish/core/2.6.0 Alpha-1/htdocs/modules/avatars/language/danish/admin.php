@@ -41,6 +41,7 @@ define("_AM_AVATARS_SUREDEL", "Er du sikker på du vil slette denne avatar?");
 define("_AM_AVATARS_WEIGHT", "Vis ordre i avatarmanager:");
 define("_AM_AVATARS_UPLOADS", "Upload");
 define("_AM_AVATARS_USERS", "brugere, der benytter denne avatar");
+define("_AM_AVATARS_ERROR_WEIGHT","Du skal bruge et positivt tal");
 
 // Tips
 define("_AM_AVATARS_SYSTEM_TIPS", "<ul><li>Tilføj, opdatere eller slette systemets avatars </li> </ul>");
