@@ -71,11 +71,11 @@ define("_AM_SYSTEM_MAINTENANCE_DESC","Vedligeholdelse værktøjer til databaseta
 define("_AM_SYSTEM_DBUPDATED","Database opdateret!");
 define("_AM_SYSTEM_DBERROR","Databasen blev ikke opdateret på grund af nogle fejl!");
 define("_AM_SYSTEM_NOTACTIVE","Dette afsnit er ikke aktiv!");
+define("_AM_SYSTEM_ERROR_WEIGHT","Du skal angive et positivt tal.");
 
 // Group permission phrases
 define("_MD_AM_PERMADDNG","Kunne ikke tilføje %s tilladelse til %s for gruppen %s");
 define("_MD_AM_PERMADDOK","Tilføjede %s tilladelse til %s for gruppe %s");
 define("_MD_AM_PERMRESETNG","Kunne ikke nulstille gruppe tilladelser til modul %s");
 define("_MD_AM_PERMADDNGP","Alle øvre punkter skal vælges.");
-
 ?><?php // Translation done by culex - 2012-03-15 19:15 ?>

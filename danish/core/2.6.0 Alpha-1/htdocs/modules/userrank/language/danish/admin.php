@@ -36,6 +36,7 @@ define("_AM_USERRANK_SPECIAL_CAN", "(Special Rang kan tildeles til brugere uanse
 define("_AM_USERRANK_SUREDEL", "Er du sikker på du vil slette denne rang?");
 define("_AM_USERRANK_TITLE", "Titel");
 define("_AM_USERRANK_UPLOAD", "Opload");
+define("_AM_USERRANK_ERROR_POST","Du skal angive et positivt tal");
 
 // Info
 define("_AM_USERRANK_NBTOTAL", "Der er %s rangeringer i vores database");

@@ -119,3 +119,4 @@ define("_PROFILE_AM_CANNOTDEACTIVATEWEBMASTERS", "Deaktivering af en administrat
 define("_PROFILE_AM_CATEGORY_LIST", "List af kategorier");
 define("_PROFILE_AM_STEP_LIST", "List af registreringstrin");
 define("_PROFILE_AM_FIELD_LIST", "List af felter");
+define("_PROFILE_AM_ERROR_WEIGHT","Du skal angive et positivt tal.");
