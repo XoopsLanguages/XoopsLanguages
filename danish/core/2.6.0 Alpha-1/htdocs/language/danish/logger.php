@@ -53,7 +53,7 @@ define("_LOGGER_E_USER_WARNING","Advarsel");
 define("_LOGGER_E_USER_ERROR","Fejl");
 define("_LOGGER_E_NOTICE","Bemærk");
 define("_LOGGER_E_WARNING","Advarsel");
-define("_LOGGER_E_STRICT","Fuldstændigt");
+define("_LOGGER_E_STRICT","Strict");
 define("_LOGGER_FILELINE","%s i filen %s linje %s");
 
 ?>
