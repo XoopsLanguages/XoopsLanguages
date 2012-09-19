@@ -1,25 +1,25 @@
 <?php
 define("_DB_BACKUP_NAME","XOOP DB backup & restore");
-define("_DB_BACKUP_DESC","Archiwizuje i odtwarza bazê danych Twojego Xoopsa");
+define("_DB_BACKUP_DESC","Archiwizuje i odtwarza bazÄ™ danych Twojego Xoopsa");
 
 define("_DB_TARGET","Miejsce docelowe");
 define("_DB_ZIPTYPE","Zapisz jako plik");
-define("_DB_EXECTIMELIMIT","Maksymalny czas wykonania skryptu (0 je¶li bez limitu)");
-define("_DB_ALLOWBACKQUOTES","Nazwy tabel i pól wpisz oddzielaj±c apostrofem '`'");
+define("_DB_EXECTIMELIMIT","Maksymalny czas wykonania skryptu (0 jeÅ›li bez limitu)");
+define("_DB_ALLOWBACKQUOTES","Nazwy tabel i pÃ³l wpisz oddzielajÄ…c apostrofem '`'");
 define("_DB_ALLOWDROP","Dodaj 'drop table'");
 
-define("_DB_EMAILTO","Adres(y) e-mail gdzie system ma wys³aæ plik z archiwum.");
+define("_DB_EMAILTO","Adres(y) e-mail gdzie system ma wysÅ‚aÄ‡ plik z archiwum.");
 define("_DB_EMAILTO_DESC","Oddzielone ','");
-define("_DB_EMAILATTACH","Wyslij plik sql jako za³±cznik email");
+define("_DB_EMAILATTACH","Wyslij plik sql jako zaÅ‚Ä…cznik email");
 define("_DB_EMAILATTACH_DESC","Ograniczone przez rozmiar pliku");
-define("_DB_DBFILES","Ilo¶æ sesji archiwizuj±cych zapisywanych na serwerze");
-define("_DB_DBFILES_DESC","Stare pliki bêd± usuwane");
-define("_DB_DBFILES_PATH","¦cie¿ka do katalogu z archiwami.");
-define("_DB_DBFILES_PATH_DESC","Musi byæ <strong>zapisywalny</strong>");
+define("_DB_DBFILES","IloÅ›Ä‡ sesji archiwizujÄ…cych zapisywanych na serwerze");
+define("_DB_DBFILES_DESC","Stare pliki bÄ™dÄ… usuwane");
+define("_DB_DBFILES_PATH","ÅšcieÅ¼ka do katalogu z archiwami.");
+define("_DB_DBFILES_PATH_DESC","Musi byÄ‡ <strong>zapisywalny</strong>");
 define("_DB_DBFILES_SPLIT","Podziel plik");
-define("_DB_DBFILES_SPLIT_DESC","jeden plik dla ka¿dej tabeli; rekomendowany dla du¿ej ilo¶ci danych");
-define("_DB_POSLINE","U¿ywaj numeru linii jako wska¼nika po³o¿enia w pliku ");
-define("_DB_POSLINE_DESC","Wska¼nik ftell mo¿e spowodowaæ b³êdy w niektórych systemach; u¿ycie numeru linii jest mniej efektywne ale nie powoduje przek³amañ");
-define("_RESTORE_NONADMIN","Odtwórz bazê jako nie administrator");
-define("_DB_POSLINE_DESC","ta opcja jest potrzebna dla danych u¿ytkownika, i modu³ów z w³±czon± archiwizacj±; po dokonaniu odtworzenia wy³±cz tê opcje i aktualizuj bufor tak szybko jak to tylko mo¿liwe!");
+define("_DB_DBFILES_SPLIT_DESC","jeden plik dla kaÅ¼dej tabeli; rekomendowany dla duÅ¼ej iloÅ›ci danych");
+define("_DB_POSLINE","UÅ¼ywaj numeru linii jako wskaÅºnika poÅ‚oÅ¼enia w pliku ");
+define("_DB_POSLINE_DESC","WskaÅºnik ftell moÅ¼e spowodowaÄ‡ bÅ‚Ä™dy w niektÃ³rych systemach; uÅ¼ycie numeru linii jest mniej efektywne ale nie powoduje przekÅ‚amaÅ„");
+define("_RESTORE_NONADMIN","OdtwÃ³rz bazÄ™ jako nie administrator");
+define("_DB_POSLINE_DESC","ta opcja jest potrzebna dla danych uÅ¼ytkownika, i moduÅ‚Ã³w z wÅ‚Ä…czonÄ… archiwizacjÄ…; po dokonaniu odtworzenia wyÅ‚Ä…cz tÄ™ opcje i aktualizuj bufor tak szybko jak to tylko moÅ¼liwe!");
 ?>

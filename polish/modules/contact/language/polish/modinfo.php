@@ -1,6 +1,6 @@
 <?php
 // $Id: modinfo.php,v 1.1 2007/02/10 18:56:06 dap997 Exp $
-// Module Info - T³umaczenie dap977 26.II.2006 dla wersji 1.6
+// Module Info - TÅ‚umaczenie dap977 26.II.2006 dla wersji 1.6
 
 // The name of this module
 define("_MI_CONTACT_NAME"                ,"Kontakt");
@@ -8,91 +8,91 @@ define("_MI_CONTACT_NAME"                ,"Kontakt");
 define("_MI_CONTACT_DESC"                ,"Strona do kontaktu przez e-mail");
 
 define('_MI_CONTACT_SETTINGS'            ,'Ustawienia');
-define('_MI_CONTACT_SETTINGS_DSC'        ,'Ustawienia dla modu³u');
-define('_MI_CONTACT_GEN'                 ,'Ogólne' );
-define('_MI_CONTACT_GEN_DSC'             ,'Ustawienia ogólne dla wprowadzenie i definicji e-maili' );
+define('_MI_CONTACT_SETTINGS_DSC'        ,'Ustawienia dla moduÅ‚u');
+define('_MI_CONTACT_GEN'                 ,'OgÃ³lne' );
+define('_MI_CONTACT_GEN_DSC'             ,'Ustawienia ogÃ³lne dla wprowadzenie i definicji e-maili' );
 
 // Config stuff
-define("_MI_CONTACT_GETICQ"              ,"Przesy³anie GG" );
+define("_MI_CONTACT_GETICQ"              ,"PrzesyÅ‚anie GG" );
 define("_MI_CONTACT_GETICQDSC"           ,"Tak - zapytaj o numer Gadu-Gadu." );
 
-define("_MI_CONTACT_ALLOWSENDCONFIRM"    ,"Umo¿liwiæ potwierdzenie" );
-define("_MI_CONTACT_ALLOWSENDCONFIRMDSC" ,"Tak - poka¿e check box dla u¿ytkownika, "
-                                         ."którego zaznaczenie umo¿liwi przes³anie e-maila z potwierdzeniem." );
+define("_MI_CONTACT_ALLOWSENDCONFIRM"    ,"UmoÅ¼liwiÄ‡ potwierdzenie" );
+define("_MI_CONTACT_ALLOWSENDCONFIRMDSC" ,"Tak - pokaÅ¼e check box dla uÅ¼ytkownika, "
+                                         ."ktÃ³rego zaznaczenie umoÅ¼liwi przesÅ‚anie e-maila z potwierdzeniem." );
 
-define("_MI_CONTACT_GETURL"              ,"Przesy³anie adresu strony" );
+define("_MI_CONTACT_GETURL"              ,"PrzesyÅ‚anie adresu strony" );
 define("_MI_CONTACT_GETURLDSC"           ,"Tak - zapytaj o adres strony." );
 
-define("_MI_CONTACT_GETCOMPANY"          ,"Przesy³anie nazwy firmy" );
-define("_MI_CONTACT_GETCOMPANYDSC"       ,"Tak - zapytaj o nazwê firmy." );
+define("_MI_CONTACT_GETCOMPANY"          ,"PrzesyÅ‚anie nazwy firmy" );
+define("_MI_CONTACT_GETCOMPANYDSC"       ,"Tak - zapytaj o nazwÄ™ firmy." );
 
-define("_MI_CONTACT_GETLOC"              ,"Przesy³anie nazwy miejscowo¶ci" );
-define("_MI_CONTACT_GETLOCDSC"           ,"Tak - zapytaj o miejscowo¶æ sk±d pochodzi u¿ytkownik." );
+define("_MI_CONTACT_GETLOC"              ,"PrzesyÅ‚anie nazwy miejscowoÅ›ci" );
+define("_MI_CONTACT_GETLOCDSC"           ,"Tak - zapytaj o miejscowoÅ›Ä‡ skÄ…d pochodzi uÅ¼ytkownik." );
 
-define("_MI_CONTACT_ADDRESS"             ,"Przesy³anie adresu u¿ytkownika" );
-define("_MI_CONTACT_ADDRESSDSC"          ,"Tak - zapytaj o adres u¿ytkownika." );
+define("_MI_CONTACT_ADDRESS"             ,"PrzesyÅ‚anie adresu uÅ¼ytkownika" );
+define("_MI_CONTACT_ADDRESSDSC"          ,"Tak - zapytaj o adres uÅ¼ytkownika." );
 
-define("_MI_CONTACT_INTROHEAD"           ,"Nag³ówek wprowadzenia" );
-define("_MI_CONTACT_INTROHEAD_DESC"      ,"Ten nag³ówek bêdzie pokazany przy <b>Tek¶cie wprowadzaj±cym</b>.");
-define("_MI_CONTACT_INTRO_DEFAULT"       ,"Proszê wype³niæ ten formularz a nastêpnie go wys³aæ. Odpowiemy na niego tak szybko jak to bêdzie mo¿liwe.");
+define("_MI_CONTACT_INTROHEAD"           ,"NagÅ‚Ã³wek wprowadzenia" );
+define("_MI_CONTACT_INTROHEAD_DESC"      ,"Ten nagÅ‚Ã³wek bÄ™dzie pokazany przy <b>TekÅ›cie wprowadzajÄ…cym</b>.");
+define("_MI_CONTACT_INTRO_DEFAULT"       ,"ProszÄ™ wypeÅ‚niÄ‡ ten formularz a nastÄ™pnie go wysÅ‚aÄ‡. Odpowiemy na niego tak szybko jak to bÄ™dzie moÅ¼liwe.");
 
 define("_MI_CONTACT_INTRO"               ,"Tekst wprowadzenia" );
-define("_MI_CONTACT_INTRO_DESC"          ,"Tekst pokazywany na pocz±tku modu³u <b>Kontakt</b>,"
-                                         ." mo¿e zawieraæ tekst powitalny, adresy e-mail, numer telefonu." );
+define("_MI_CONTACT_INTRO_DESC"          ,"Tekst pokazywany na poczÄ…tku moduÅ‚u <b>Kontakt</b>,"
+                                         ." moÅ¼e zawieraÄ‡ tekst powitalny, adresy e-mail, numer telefonu." );
 							   
 define("_MI_CONTACT_SECURITY"            ,"Zabezpieczenie" );
-define("_MI_CONTACT_SECURITYDSC"         ,"Tak - w³±cz <b>Zabezpieczenie</b> aby sprawdziæ prawdziwo¶æ u¿ytkownika przed wys³aniem e-maila."
-	                                     ." Powinno ono pomóc w walce ze spamem wysy³anym przez modu³ <b>Kontakt</b>." );
+define("_MI_CONTACT_SECURITYDSC"         ,"Tak - wÅ‚Ä…cz <b>Zabezpieczenie</b> aby sprawdziÄ‡ prawdziwoÅ›Ä‡ uÅ¼ytkownika przed wysÅ‚aniem e-maila."
+	                                     ." Powinno ono pomÃ³c w walce ze spamem wysyÅ‚anym przez moduÅ‚ <b>Kontakt</b>." );
 								 
 define("_MI_CONTACT_SITEKEY"             ,"Przypadkowy klucz" );
-define("_MI_CONTACT_SITEKEYDSC"          ,"Tworzy przypadkowy zestaw znaków i cyfr, dziêki czemu <b>Zabezpieczenie</b> "
+define("_MI_CONTACT_SITEKEYDSC"          ,"Tworzy przypadkowy zestaw znakÃ³w i cyfr, dziÄ™ki czemu <b>Zabezpieczenie</b> "
                                          ."jest bardziej niezawodne!" );
 								
-define("_MI_CONTACT_HEAD"                ,"Nag³ówek formularza" );
-define("_MI_CONTACT_HEADDSC"             ,"Nag³ówek formularza kontaktowego.");
+define("_MI_CONTACT_HEAD"                ,"NagÅ‚Ã³wek formularza" );
+define("_MI_CONTACT_HEADDSC"             ,"NagÅ‚Ã³wek formularza kontaktowego.");
 define("_MI_CONTACT_HEADDEFAULT"         ,"Formularz kontaktowy");
 
-define("_MI_CONTACT_THANKYOU"            ,"Dziêkujemy za wiadomo¶æ");
-define("_MI_CONTACT_THANKYOUDSC"         ,"Twoja wiadomo¶æ do u¿ytkownika z podziêkowaniami za jej wys³anie.");
-define("_MI_CONTACT_THANKYOUDEFAULT"     ,"Dziêkujemy za wiadomo¶æ. Odpowiemy na ni± tak szybko jak to bêdzie mo¿liwe.");
+define("_MI_CONTACT_THANKYOU"            ,"DziÄ™kujemy za wiadomoÅ›Ä‡");
+define("_MI_CONTACT_THANKYOUDSC"         ,"Twoja wiadomoÅ›Ä‡ do uÅ¼ytkownika z podziÄ™kowaniami za jej wysÅ‚anie.");
+define("_MI_CONTACT_THANKYOUDEFAULT"     ,"DziÄ™kujemy za wiadomoÅ›Ä‡. Odpowiemy na niÄ… tak szybko jak to bÄ™dzie moÅ¼liwe.");
 
 define("_MI_CONTACT_TIMEOUT"             ,"Czas przekierowania");
-define("_MI_CONTACT_TIMEOUTDSC"          ,"Czas w sekundach po którym u¿ytkownik zostanie przekierowany na stronê g³ówn± gdy wy¶le wiadomo¶æ.");																						   
+define("_MI_CONTACT_TIMEOUTDSC"          ,"Czas w sekundach po ktÃ³rym uÅ¼ytkownik zostanie przekierowany na stronÄ™ gÅ‚Ã³wnÄ… gdy wyÅ›le wiadomoÅ›Ä‡.");																						   
 
-define("_MI_CONTACT_SHOWDEPT"            ,"Pokazaæ sekcjê za nazw± dzia³u");
-define("_MI_CONTACT_SHOWDEPTDSC"         ,"Tak - poka¿  dropdown ze zdefiniowanymi nazwami dzia³ów."
-                                         ." Je¶li nie ma ¿adnych wszystkie e-maile zostan± wys³ane na adres g³ówny." );
+define("_MI_CONTACT_SHOWDEPT"            ,"PokazaÄ‡ sekcjÄ™ za nazwÄ… dziaÅ‚u");
+define("_MI_CONTACT_SHOWDEPTDSC"         ,"Tak - pokaÅ¼  dropdown ze zdefiniowanymi nazwami dziaÅ‚Ã³w."
+                                         ." JeÅ›li nie ma Å¼adnych wszystkie e-maile zostanÄ… wysÅ‚ane na adres gÅ‚Ã³wny." );
 
-define("_MI_CONTACT_DEPTTITLE"           ,"Nazwa dzia³u");
-define("_MI_CONTACT_DEPTTITLEDSC"        ,"Nazwy pokazywane w sekcji z nazwami dzia³ów.");
-define("_MI_CONTACT_DEPTTITLEDEFAULT"    ,"Dzia³");
+define("_MI_CONTACT_DEPTTITLE"           ,"Nazwa dziaÅ‚u");
+define("_MI_CONTACT_DEPTTITLEDSC"        ,"Nazwy pokazywane w sekcji z nazwami dziaÅ‚Ã³w.");
+define("_MI_CONTACT_DEPTTITLEDEFAULT"    ,"DziaÅ‚");
 
-define("_MI_CONTACT_DEPT"                ,"Dzia³y" );
-define("_MI_CONTACT_DEPTDSC"             ,"Dzia³y pozwalaj± przyporz±dkowaæ adres e-email do dzia³u. U¿ytkownik wybieraj±c"
-                                         ." dany dzia³ prze¶le informacjê bezpo¶rednio pod przyporz±dkowany mu"
+define("_MI_CONTACT_DEPT"                ,"DziaÅ‚y" );
+define("_MI_CONTACT_DEPTDSC"             ,"DziaÅ‚y pozwalajÄ… przyporzÄ…dkowaÄ‡ adres e-email do dziaÅ‚u. UÅ¼ytkownik wybierajÄ…c"
+                                         ." dany dziaÅ‚ przeÅ›le informacjÄ™ bezpoÅ›rednio pod przyporzÄ…dkowany mu"
                                          ." adres e-mail."
-                                         ." Zdefiniuj pary dzia³-email w nastêpuj±cy sposób:"
-                                         ." dzia³1,e-mail1 | dzia³2,e-mail2 | dzia³3,e-mail3 itd. - dzia³ i e-mail musz± zostaæ oddzielone "
-                                         ."przecinkiem ',' a ka¿da para oddzielona przez '|'." );
+                                         ." Zdefiniuj pary dziaÅ‚-email w nastÄ™pujÄ…cy sposÃ³b:"
+                                         ." dziaÅ‚1,e-mail1 | dziaÅ‚2,e-mail2 | dziaÅ‚3,e-mail3 itd. - dziaÅ‚ i e-mail muszÄ… zostaÄ‡ oddzielone "
+                                         ."przecinkiem ',' a kaÅ¼da para oddzielona przez '|'." );
 							 
 define("_MI_CONTACT_VALIDATEDOMAIN"      ,"Sprawdzenie domeny");
-define("_MI_CONTACT_VALIDATEDOMAINDSC"   ,"Tak - w³±cza sprawdzenie adresu email w hierarchii domen (Top Level Domains - .tld)."
-                                         ."<br />Nie - robi uproszczone sprawdzenie adresu e-mail. Wersji 1.6 ta funkcja zwykle nie dzia³a.");
+define("_MI_CONTACT_VALIDATEDOMAINDSC"   ,"Tak - wÅ‚Ä…cza sprawdzenie adresu email w hierarchii domen (Top Level Domains - .tld)."
+                                         ."<br />Nie - robi uproszczone sprawdzenie adresu e-mail. Wersji 1.6 ta funkcja zwykle nie dziaÅ‚a.");
 									   
 define("_MI_CONTACT_SHOWMOREINFO"        ,"Pytanie o dodatkowe informacje" );
-define("_MI_CONTACT_SHOWMOREINFODSC"     ,"Tak - poka¿e dodatkowe informacje z wielokrotnym polem wyboru tak jak to zosta³o zdefiniowane w punkcie Informacje dodatkowe.");									   							 
+define("_MI_CONTACT_SHOWMOREINFODSC"     ,"Tak - pokaÅ¼e dodatkowe informacje z wielokrotnym polem wyboru tak jak to zostaÅ‚o zdefiniowane w punkcie Informacje dodatkowe.");									   							 
 
-define("_MI_CONTACT_MOREINFOTITLE"       ,"Informacje dodatkowe - tytu³" );
-define("_MI_CONTACT_MOREINFOTITLEDSC"    ,"Tytu³ pokazywany w czê¶ci modu³u zawieraj±cej pytania o Informacje dodatkowe." );
-define("_MI_CONTACT_MOREINFOTITLEDEFAULT","Popro¶ o wiêcej informacji");
+define("_MI_CONTACT_MOREINFOTITLE"       ,"Informacje dodatkowe - tytuÅ‚" );
+define("_MI_CONTACT_MOREINFOTITLEDSC"    ,"TytuÅ‚ pokazywany w czÄ™Å›ci moduÅ‚u zawierajÄ…cej pytania o Informacje dodatkowe." );
+define("_MI_CONTACT_MOREINFOTITLEDEFAULT","PoproÅ› o wiÄ™cej informacji");
 
 define("_MI_CONTACT_MOREINFO"            ,"Informacje dodatkowe - punkty");
-define("_MI_CONTACT_MOREINFODSC"         ,"Ta funkcja pozwalaja u¿ytkownikowi na przes³anie dodatkowych informacji "
-                                         ."poprzez zaznaczenie odpowiednich punktów-checkboxów. W ten sposób mo¿na dok³adniej okre¶liæ "
-                                         ."czego chce u¿ytkownik. Na przyk³ad w komercyjnym programie - sprzedawca mo¿e "
-                                         ."zaoferowaæ przes³anie dodatkowych informacji o ile klient sobie tego ¿yczy. W ten sposób pozyskuje"
-                                         ." siê klientów. "
-                                         ."Ka¿d± punkt nale¿y zdefiniowaæ w nastêpuj±cy sposób:"
-                                         ." punkt1 | punkt2 | punkt3 itd. - ka¿dy punkt musi byæ oddzielony przez '|'.");
+define("_MI_CONTACT_MOREINFODSC"         ,"Ta funkcja pozwalaja uÅ¼ytkownikowi na przesÅ‚anie dodatkowych informacji "
+                                         ."poprzez zaznaczenie odpowiednich punktÃ³w-checkboxÃ³w. W ten sposÃ³b moÅ¼na dokÅ‚adniej okreÅ›liÄ‡ "
+                                         ."czego chce uÅ¼ytkownik. Na przykÅ‚ad w komercyjnym programie - sprzedawca moÅ¼e "
+                                         ."zaoferowaÄ‡ przesÅ‚anie dodatkowych informacji o ile klient sobie tego Å¼yczy. W ten sposÃ³b pozyskuje"
+                                         ." siÄ™ klientÃ³w. "
+                                         ."KaÅ¼dÄ… punkt naleÅ¼y zdefiniowaÄ‡ w nastÄ™pujÄ…cy sposÃ³b:"
+                                         ." punkt1 | punkt2 | punkt3 itd. - kaÅ¼dy punkt musi byÄ‡ oddzielony przez '|'.");
 								
 ?>

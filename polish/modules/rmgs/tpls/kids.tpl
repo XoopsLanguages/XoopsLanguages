@@ -43,7 +43,7 @@ a{ color: #FFFFFF; text-decoration: underline; }
 				<td align="center" valign="middle" width="400"><img src="<{$rmgs_tpl_image}>" class="imagen" /></td>
 				<td class="textos"><span class="titulo"><{$rmgs_tpl_titulo}></span><br />
 				<br /><{$rmgs_tpl_text}><br /><br />
-				Wys≥ane przez:<br />
+				Wys≈Çane przez:<br />
 				<strong><{$rmgs_tpl_sendername}></strong><br />
 				<{$rmgs_tpl_sendermail}></td>
 			</tr>
@@ -57,6 +57,6 @@ a{ color: #FFFFFF; text-decoration: underline; }
 	</tr>
 </table>
 <div class="copy">
-CopyRight &copy; 2005 - 2006. Powered by <a href="http://www.xoops-mexico.net">RMSOFT Gallery System</a>. <a href="http://www.redmexico.com.mx">Red MÈxico Soft</a>.</div>
+CopyRight &copy; 2005 - 2006. Powered by <a href="http://www.xoops-mexico.net">RMSOFT Gallery System</a>. <a href="http://www.redmexico.com.mx">Red M√©xico Soft</a>.</div>
 </body>
 </html>

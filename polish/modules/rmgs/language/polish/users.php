@@ -4,7 +4,7 @@
 * -----------------------------------------------------            *
 * RMSOFT Gallery System 2.0                                        *
 * Sistema Avanzado de Galerías                                     *
-* CopyRight © 2005 - 2006. Red México Soft                         *
+* CopyRight Š 2005 - 2006. Red México Soft                         *
 * http://www.redmexico.com.mx                                      *
 * http://www.xoops-mexico.net                                      *
 *                                                                  *
@@ -29,16 +29,16 @@
 * Es importante que las definiciones de este archivo no se         *
 * repitan en ningún otro archivo.                                  *
 * -----------------------------------------------------            *
-* @copyright: © 2005 - 2006. BitC3R0.                              *
+* @copyright: Š 2005 - 2006. BitC3R0.                              *
 * @autor: BitC3R0                                                  *
 * @paquete: RMSOFT GS v2.0                                         *
 * @version: 0.1.1                                                  *
 * @modificado: 24/12/2005 03:29:38 p.m.                            *
 *******************************************************************/
 
-define('_CU_ERR_EXISTS','Ten u¿ytkownik jest juz zarejestrowany w galerii');
-define('_CU_ERR_NODIR','¦cie¿ka sk³adowanie nie zostala wskazana');
-define('_CY_ERR_QUOTA0','Limit dyskowy u¿ytkownika musi byc wiêksza od 0');
-define('_CU_ERR_FAVEXIST','Wybrany obrazek zosta³ juz dodany do Twoich ulubionych');
+define('_CU_ERR_EXISTS', 'Ten użytkownik jest juz zarejestrowany w galerii');
+define('_CU_ERR_NODIR', 'Ścieżka składowanie nie zostala wskazana');
+define('_CY_ERR_QUOTA0', 'Limit dyskowy użytkownika musi byc większa od 0');
+define('_CU_ERR_FAVEXIST', 'Wybrany obrazek został juz dodany do Twoich ulubionych');
 ?>
 

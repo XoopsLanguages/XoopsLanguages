@@ -1,31 +1,31 @@
-To jest zamówienie ze sklepu {STORENAME} dzia³aj±cego na stronie {SITENAME}
+To jest zamÃ³wienie ze sklepu {STORENAME} dziaÅ‚ajÄ…cego na stronie {SITENAME}
 
-Zamówienie z³o¿one o {TIMEOFORDER}
+ZamÃ³wienie zÅ‚oÅ¼one o {TIMEOFORDER}
 
-Imiê: {FIRSTNAME} 	Nazwisko: {LASTNAME}
+ImiÄ™: {FIRSTNAME} 	Nazwisko: {LASTNAME}
 Nazwa firmy:	{COMPANY}
 Ulica:		{STREET}
 Miasto:		{CITY}
 Kod:		{ZIP}
-Pañstwo:	{COUNTRY}
+PaÅ„stwo:	{COUNTRY}
 Telefon:	{TELEFONE} 		Faks:{FAX}
 E-mail:		{EMAIL}
 Komentarz:	{COMMENT}
 
-Sposób zap³aty: {PAYMETHOD}
+SposÃ³b zapÅ‚aty: {PAYMETHOD}
 
 
-Nr. Prod.	Nazwa. Prod.  	Ilo¶æ	Cena za jednostke		Cena ca³o¶ci
+Nr. Prod.	Nazwa. Prod.  	IloÅ›Ä‡	Cena za jednostke		Cena caÅ‚oÅ›ci
 ------------------------------------------------------------------------------------------------------
 {PRODUCTS}
 
 											Podsuma: 		{CARTSUBTOTAL}
-											Op³ata:      	{PAYCOST}																																																				
+											OpÅ‚ata:      	{PAYCOST}																																																				
 											Podatek: 		{TAX}
 											Suma:			{CARTTOTAL}
 
 IP klienta : {CLIENTIP}
-Zewnêtrzny adres klienta : {CLIENTRMTADRS}
+ZewnÄ™trzny adres klienta : {CLIENTRMTADRS}
 
 
 ======================================= Koniec e-maila ==================================================

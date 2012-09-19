@@ -1,16 +1,16 @@
 <?php
-// T硊maczenie na j陑yk polski Xoops Poland http://www.xoops.pl  .
+// T艂umaczenie na j臋zyk polski Xoops Poland http://www.xoops.pl  .
 // Module Info
 
 // The name of this module
-define("_MI_HEADLINES_NAME","Nag丑wki");
+define("_MI_HEADLINES_NAME","Nag艂贸wki");
 
 // A brief description of this module
-define("_MI_HEADLINES_DESC","Wy秝ietla newsy z innych stron w bloku");
+define("_MI_HEADLINES_DESC","Wy艣wietla newsy z innych stron w bloku");
 
 // Names of blocks for this module (Not all module has blocks)
-define("_MI_HEADLINES_BNAME","Blok nag丑wka");
+define("_MI_HEADLINES_BNAME","Blok nag艂贸wka");
 
 // Names of admin menu items
-define("_MI_HEADLINES_ADMENU1","Lista nag丑wk體");
+define("_MI_HEADLINES_ADMENU1","Lista nag艂贸wk贸w");
 ?>

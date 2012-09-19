@@ -1,9 +1,9 @@
 Witaj {X_UNAME},
 
-Nowy temat zosta≥ za≥oøony w forum "{FORUM_TITLE}".
+Nowy temat zosta≈Ç za≈Ço≈ºony w forum "{FORUM_TITLE}".
 
-Kliknij tutaj aby go zobaczyÊ:
+Kliknij tutaj aby go zobaczyƒá:
 
-Tytu≥: {TOPIC_TITLE}
+Tytu≈Ç: {TOPIC_TITLE}
 URL: {TOPIC_URL}
 

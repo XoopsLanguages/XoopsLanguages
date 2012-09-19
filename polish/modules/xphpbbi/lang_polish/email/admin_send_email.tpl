@@ -1,10 +1,10 @@
-Poni¿ej jest email wys³any do Ciebie przez administratora "{SITENAME}". Je¿eli uznasz go za spam, jest obra¼liwy lub w jakikolwiek sposób Ciê niepokoi skontaktuj siê z webmasterem forum pod poni¿szym adresem:
+PoniÅ¼ej jest email wysÅ‚any do Ciebie przez administratora "{SITENAME}". JeÅ¼eli uznasz go za spam, jest obraÅºliwy lub w jakikolwiek sposÃ³b CiÄ™ niepokoi skontaktuj siÄ™ z webmasterem forum pod poniÅ¼szym adresem:
 
 {BOARD_EMAIL}
 
-Do³±cz do wiadomo¶ci ca³y ten email (wraz z nag³ówkami). 
+DoÅ‚Ä…cz do wiadomoÅ›ci caÅ‚y ten email (wraz z nagÅ‚Ã³wkami). 
 
-Tu zaczyna siê wiadomo¶æ:
+Tu zaczyna siÄ™ wiadomoÅ›Ä‡:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 {MESSAGE}

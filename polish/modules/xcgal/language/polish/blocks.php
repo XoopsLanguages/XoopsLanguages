@@ -8,7 +8,7 @@
 //  ------------------------------------------------------------------------ //
 //  Based on Coppermine Photo Gallery 1.10                                   //
 //  (http://coppermine.sourceforge.net/)                                     //
-//  developed by Grégory DEMAR                                               //
+//  developed by GrÃ©gory DEMAR                                               //
 //  ------------------------------------------------------------------------ //
 //  This program is free software; you can redistribute it and/or modify     //
 //  it under the terms of the GNU General Public License as published by     //
@@ -37,14 +37,14 @@ define("_MB_XCGAL_RANDOM","Losowo");
 define("_MB_XCGAL_COMMENTS","Ostatnie komentarze");
 define("_MB_XCGAL_MOSTSENT","Najczesciej wysylane e-kartki");
 define("_MB_XCGAL_LASTHITS","Ostatnio ogladane");
-define("_MB_XCGAL_DISPLAY","Wyrównanie");
+define("_MB_XCGAL_DISPLAY","WyrÃ³wnanie");
 define("_MB_XCGAL_HORIZONTALLY","poziomo");
 define("_MB_XCGAL_VERTICALLY","pionowo");
 define("_MB_XCGAL_CAPTION","Wyswietlic podpisy?");
 define("_MB_XCGAL_COUNT","Wyswietlen:");
 define("_MB_XCGAL_WIDTH","Szerokosc obszaru wyswietlania w px:");
 define("_MB_FUNC_VIEW","%s wyswietlen");
-define("_MB_FUNC_VOTE","%s glosów");
+define("_MB_FUNC_VOTE","%s glosÃ³w");
 define("_MB_FUNC_CARD","%s razy");
 define("_MB_XCGAL_METAALBS","Meta albumu: ");
 define("_MB_XCGAL_PICSPERROW","miniatur w rzedzie: ");

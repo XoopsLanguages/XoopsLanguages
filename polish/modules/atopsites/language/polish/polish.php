@@ -19,105 +19,105 @@
 //=================================================================\\
 
 // Global
-$LNG['g_form_submit_short'] = "Id¼";
-$LNG['g_form_submit_long'] = "Wy¶lij";
+$LNG['g_form_submit_short'] = "IdÅº";
+$LNG['g_form_submit_long'] = "WyÅ›lij";
 $LNG['g_form_submit_reset'] = "Zresetuj";
 $LNG['g_id'] = "ID";
 $LNG['g_url'] = "URL";
-$LNG['g_title'] = "Tytu³";
+$LNG['g_title'] = "TytuÅ‚";
 $LNG['g_description'] = "Opis";
 $LNG['g_category'] = "Kategoria"; // 4.1.0
 $LNG['g_email'] = "E-mail";
 $LNG['g_bannerurl'] = "Banner URL";
-$LNG['g_password'] = "Has³o";
-$LNG['g_average'] = "Przeciêtnie";
-$LNG['g_today'] = "Dzi¶";
+$LNG['g_password'] = "HasÅ‚o";
+$LNG['g_average'] = "PrzeciÄ™tnie";
+$LNG['g_today'] = "DziÅ›";
 $LNG['g_yesterday'] = "Wczoraj";
 $LNG['g_2days'] = "2 dni temu";
 $LNG['g_3days'] = "3 dni temu";
-$LNG['g_thismonth'] = "W&nbsp;tymnbsp;miesi±cu"; // 3.2.1
-$LNG['g_lastmonth'] = "W ostatnim miesi±cu"; // 3.2.1
-$LNG['g_2months'] = "2 miesi±ce temu"; // 3.2.1
-$LNG['g_3months'] = "3 miesi±ce temu"; // 3.2.1
+$LNG['g_thismonth'] = "W&nbsp;tymnbsp;miesiÄ…cu"; // 3.2.1
+$LNG['g_lastmonth'] = "W ostatnim miesiÄ…cu"; // 3.2.1
+$LNG['g_2months'] = "2 miesiÄ…ce temu"; // 3.2.1
+$LNG['g_3months'] = "3 miesiÄ…ce temu"; // 3.2.1
 $LNG['g_thisweek'] = "W&nbsp;tym&nbsp;tygodniu"; // 4.2.0
 $LNG['g_lastweek'] = "Ostatnie tygodnie"; // 4.2.0
 $LNG['g_2weeks'] = "2 tygodnie temu"; // 4.2.0
 $LNG['g_3weeks'] = "3 tygodnie temu"; // 4.2.0
-$LNG['g_unq_pv'] = "Unikalne klikniêcia";
-$LNG['g_tot_pv'] = "Wszystkie klikniêcia";
-$LNG['g_unq_in'] = "Unikalne klikniêcia w czasie";
-$LNG['g_tot_in'] = "Wszystkie klikniêcia w czasie";
-$LNG['g_unq_out'] = "Unikalne wyj¶cia";
-$LNG['g_tot_out'] = "Wszystkie wyj¶cia";
+$LNG['g_unq_pv'] = "Unikalne klikniÄ™cia";
+$LNG['g_tot_pv'] = "Wszystkie klikniÄ™cia";
+$LNG['g_unq_in'] = "Unikalne klikniÄ™cia w czasie";
+$LNG['g_tot_in'] = "Wszystkie klikniÄ™cia w czasie";
+$LNG['g_unq_out'] = "Unikalne wyjÅ›cia";
+$LNG['g_tot_out'] = "Wszystkie wyjÅ›cia";
 
 // Edit Member Info
-$LNG['edit_header'] = "Edytuj informacje o cz³onku";
-$LNG['edit_error_id_password'] = "Proszê sprawdziæ swoje ID i has³o, oraz spróbowaæ ponownie!";
-$LNG['edit_error'] = "B³±d";
-$LNG['edit_error_forgot'] = "Zapomnia³e¶:";
-$LNG['edit_error_url'] = "Wprowad¼ poprawny URL.";
-$LNG['edit_error_email'] = "Wprowad¼ poprawny adres e-mail.";
-$LNG['edit_error_title'] = "Wpisz tytu³ swojej strony.";
-$LNG['edit_error_password'] = "Podaj has³o.";
-$LNG['edit_error_back'] = "Wróæ i popraw b³êdy.";
+$LNG['edit_header'] = "Edytuj informacje o czÅ‚onku";
+$LNG['edit_error_id_password'] = "ProszÄ™ sprawdziÄ‡ swoje ID i hasÅ‚o, oraz sprÃ³bowaÄ‡ ponownie!";
+$LNG['edit_error'] = "BÅ‚Ä…d";
+$LNG['edit_error_forgot'] = "ZapomniaÅ‚eÅ›:";
+$LNG['edit_error_url'] = "WprowadÅº poprawny URL.";
+$LNG['edit_error_email'] = "WprowadÅº poprawny adres e-mail.";
+$LNG['edit_error_title'] = "Wpisz tytuÅ‚ swojej strony.";
+$LNG['edit_error_password'] = "Podaj hasÅ‚o.";
+$LNG['edit_error_back'] = "WrÃ³Ä‡ i popraw bÅ‚Ä™dy.";
 $LNG['edit_success'] = "Sukces!";
-$LNG['edit_info_edited'] = "Edytowanie twojej informacji zosta³o zakoñczone sukcesem.";
+$LNG['edit_info_edited'] = "Edytowanie twojej informacji zostaÅ‚o zakoÅ„czone sukcesem.";
 
 // Gateway Page
 $LNG['gateway_header'] = "Topsites Gateway Page";
-$LNG['gateway_text'] = "Jako nauczka za cheatowanie, strona w Gateweay zosta³a zawieszona.  Kliknij poni¿szy link, by przej¶æ do strony z Toplist±.";
-$LNG['gateway_vote'] = "Wejd¼ i zag³osuj.";
-$LNG['gateway_novote'] = "Kto¶ Ciê oszuka³, by¶ tu wszed³? Wyjd¼ bez g³osowania.";
-$LNG['gateway_cheating'] = "Strona, z której przyszed³e¶, cheatuje.  Ten g³os nie bêdzie zapisany.";
-$LNG['gateway_enter'] = "Wej¶cie";
+$LNG['gateway_text'] = "Jako nauczka za cheatowanie, strona w Gateweay zostaÅ‚a zawieszona.  Kliknij poniÅ¼szy link, by przejÅ›Ä‡ do strony z ToplistÄ….";
+$LNG['gateway_vote'] = "WejdÅº i zagÅ‚osuj.";
+$LNG['gateway_novote'] = "KtoÅ› CiÄ™ oszukaÅ‚, byÅ› tu wszedÅ‚? WyjdÅº bez gÅ‚osowania.";
+$LNG['gateway_cheating'] = "Strona, z ktÃ³rej przyszedÅ‚eÅ›, cheatuje.  Ten gÅ‚os nie bÄ™dzie zapisany.";
+$LNG['gateway_enter'] = "WejÅ›cie";
 
 // Graph
 $LNG['graph_header'] = "Grafika";
 
 // Join
-$LNG['join_header'] = "Do³±cz";
-$LNG['join_enter_text'] = "Wprowad¼ tekst, jak jest to pokazane na poni¿szej grafice:"; // 4.2.2
-$LNG['join_error'] = "B³±d";
-$LNG['join_error_forgot'] = "Zapomnia³e¶:";
-$LNG['join_error_url'] = "Wprowad¼ poprawny URL.";
+$LNG['join_header'] = "DoÅ‚Ä…cz";
+$LNG['join_enter_text'] = "WprowadÅº tekst, jak jest to pokazane na poniÅ¼szej grafice:"; // 4.2.2
+$LNG['join_error'] = "BÅ‚Ä…d";
+$LNG['join_error_forgot'] = "ZapomniaÅ‚eÅ›:";
+$LNG['join_error_url'] = "WprowadÅº poprawny URL.";
 $LNG['join_error_email'] = "Wpisz poprawny adres e-mail.";
-$LNG['join_error_title'] = "Wpisz tytu³ swojej strony.";
-$LNG['join_error_password'] = "Wprowad¼ has³o.";
-$LNG['join_error_urlbanner'] = "Podaj poprawny adres bannera.  Pozostaw to miejsce puste, je¶li takowego nie masz.  Musi byæ mniejszy ni¿"; // 4.0
-$LNG['join_error_back'] = "Wróæ i popraw b³êdy.";
-$LNG['join_error_time'] = "Proszê nie od¶wie¿aæ strony z potwierdzeniem do³±czenia."; // 4.2.0
-$LNG['join_error_captcha'] = "S³owo, które wprowadzi³e¶, nie pasuje do obrazka."; // 4.2.2
+$LNG['join_error_title'] = "Wpisz tytuÅ‚ swojej strony.";
+$LNG['join_error_password'] = "WprowadÅº hasÅ‚o.";
+$LNG['join_error_urlbanner'] = "Podaj poprawny adres bannera.  Pozostaw to miejsce puste, jeÅ›li takowego nie masz.  Musi byÄ‡ mniejszy niÅ¼"; // 4.0
+$LNG['join_error_back'] = "WrÃ³Ä‡ i popraw bÅ‚Ä™dy.";
+$LNG['join_error_time'] = "ProszÄ™ nie odÅ›wieÅ¼aÄ‡ strony z potwierdzeniem doÅ‚Ä…czenia."; // 4.2.0
+$LNG['join_error_captcha'] = "SÅ‚owo, ktÃ³re wprowadziÅ‚eÅ›, nie pasuje do obrazka."; // 4.2.2
 $LNG['join_success'] = "Sukces!";
-$LNG['join_thanks'] = "Dziêkujemy!  Wpisz ten kod na swojej stronie, by mo¿na by³o na ni± g³osowaæ.";
-$LNG['join_changewarning'] = "Je¶li zmienisz kod, mo¿e nie dzia³aæ.";
-$LNG['join_welcome'] = "Witamy na li¶cie z najlepszymi stronami!";
-$LNG['join_welcome_look'] = "Je¶li nie wygl±da to poprawnie, u¿yj tego kodu:";
-$LNG['join_welcome_admin'] = "Nowy Cz³onek do³±czy³ do twoich Topsites";
+$LNG['join_thanks'] = "DziÄ™kujemy!  Wpisz ten kod na swojej stronie, by moÅ¼na byÅ‚o na niÄ… gÅ‚osowaÄ‡.";
+$LNG['join_changewarning'] = "JeÅ›li zmienisz kod, moÅ¼e nie dziaÅ‚aÄ‡.";
+$LNG['join_welcome'] = "Witamy na liÅ›cie z najlepszymi stronami!";
+$LNG['join_welcome_look'] = "JeÅ›li nie wyglÄ…da to poprawnie, uÅ¼yj tego kodu:";
+$LNG['join_welcome_admin'] = "Nowy CzÅ‚onek doÅ‚Ä…czyÅ‚ do twoich Topsites";
 
 // Lost Code
 $LNG['lostcode_header'] = "Zagubiony kod";
 
 // Lost Password
-$LNG['lostpw_header'] = "Zagubione has³o";
-$LNG['lostpw_email'] = "By wybraæ nowe has³o dla swojej strony, udaj siê pod poni¿szy adres."; // 4.0.1
-$LNG['lostpw_emailed'] = "Instrukcje dotycz±ce resetowania has³a zosta³y wys³ane e-mailem.";
-$LNG['lostpw_newpassword'] = "Wprowad¼ nowe has³o"; // 4.0.1
-$LNG['lostpw_finish'] = "Twoje has³o zosta³o zmienione na to, które w³a¶nie wybra³e¶."; // 4.0.1
-$LNG['lostpw_error'] = "Proszê sprawdziæ czy masz poprawne ID i spróbowaæ ponownie.";
+$LNG['lostpw_header'] = "Zagubione hasÅ‚o";
+$LNG['lostpw_email'] = "By wybraÄ‡ nowe hasÅ‚o dla swojej strony, udaj siÄ™ pod poniÅ¼szy adres."; // 4.0.1
+$LNG['lostpw_emailed'] = "Instrukcje dotyczÄ…ce resetowania hasÅ‚a zostaÅ‚y wysÅ‚ane e-mailem.";
+$LNG['lostpw_newpassword'] = "WprowadÅº nowe hasÅ‚o"; // 4.0.1
+$LNG['lostpw_finish'] = "Twoje hasÅ‚o zostaÅ‚o zmienione na to, ktÃ³re wÅ‚aÅ›nie wybraÅ‚eÅ›."; // 4.0.1
+$LNG['lostpw_error'] = "ProszÄ™ sprawdziÄ‡ czy masz poprawne ID i sprÃ³bowaÄ‡ ponownie.";
 
 // Main Page
-$LNG['main_header'] = "Strona g³ówna"; // 4.0
+$LNG['main_header'] = "Strona gÅ‚Ã³wna"; // 4.0
 $LNG['main_all'] = "Wszystkie strony"; // 4.2.0
 $LNG['main_method'] = "Metoda rankingu";
-$LNG['main_members'] = "Cz³onkowie";
-$LNG['main_menu_main'] = "Strona g³ówna";
-$LNG['main_menu_join'] = "Do³±cz";
-$LNG['main_menu_random'] = "Losowy cz³onek";
+$LNG['main_members'] = "CzÅ‚onkowie";
+$LNG['main_menu_main'] = "Strona gÅ‚Ã³wna";
+$LNG['main_menu_join'] = "DoÅ‚Ä…cz";
+$LNG['main_menu_random'] = "Losowy czÅ‚onek";
 $LNG['main_menu_search'] = "Szukaj";
 $LNG['main_menu_lostcode'] = "Zagubiony kod";
-$LNG['main_menu_lostpw'] = "Zagubione has³o";
-$LNG['main_menu_edit'] = "Edytuj info o cz³onku";
-$LNG['main_featured'] = "Cz³onek"; // 4.0.2
+$LNG['main_menu_lostpw'] = "Zagubione hasÅ‚o";
+$LNG['main_menu_edit'] = "Edytuj info o czÅ‚onku";
+$LNG['main_featured'] = "CzÅ‚onek"; // 4.0.2
 $LNG['main_executiontime'] = "Czas wykonania skryptu"; // 4.0
 $LNG['main_queries'] = "Polecenia SQL"; // 4.0
 $LNG['main_powered'] = "Powered By";
@@ -127,189 +127,189 @@ $LNG['table_stats'] = "Statystyki";
 $LNG['table_unique'] = "Unikalne";
 $LNG['table_total'] = "Wszystkie";
 $LNG['table_rank'] = "Ranga";
-$LNG['table_title'] = "Tytu³"; // 4.0
+$LNG['table_title'] = "TytuÅ‚"; // 4.0
 $LNG['table_description'] = "Opis"; // 4.0
 
 // Rate and Review
-$LNG['rate_header'] = "Oceñ i opisz";
+$LNG['rate_header'] = "OceÅ„ i opisz";
 $LNG['rate_rating'] = "Ocena";
 $LNG['rate_review'] = "Opis";
-$LNG['rate_thanks'] = "Dziêkujemy za ocenê i opis tej strony!";
-$LNG['rate_error'] = "Ju¿ opisywa³e¶ lub ocenia³e¶ t± stronê.";
-$LNG['rate_back'] = "Powrót do statystyk";
+$LNG['rate_thanks'] = "DziÄ™kujemy za ocenÄ™ i opis tej strony!";
+$LNG['rate_error'] = "JuÅ¼ opisywaÅ‚eÅ› lub oceniaÅ‚eÅ› tÄ… stronÄ™.";
+$LNG['rate_back'] = "PowrÃ³t do statystyk";
 
 // Search
 $LNG['search_header'] = "Szukaj";
 $LNG['search_internet'] = "Internet"; // 4.0
 $LNG['search_topsites'] = "Te Topsites"; // 4.0
-$LNG['search_off'] = "Us³uga szukania zosta³a wy³±czona dla tej strony Topsite.";
+$LNG['search_off'] = "UsÅ‚uga szukania zostaÅ‚a wyÅ‚Ä…czona dla tej strony Topsite.";
 $LNG['search_rank'] = "Ranga";
 $LNG['search_search'] = "Szukaj";
-$LNG['search_for'] = "Poszukiwa³e¶";
-$LNG['search_string'] = "Szukaæ jako ci±g?";
-$LNG['search_nosites'] = "Przepraszamy, ¿adna strona nie odpowiada kryteriom Twojego szukania.";
+$LNG['search_for'] = "PoszukiwaÅ‚eÅ›";
+$LNG['search_string'] = "SzukaÄ‡ jako ciÄ…g?";
+$LNG['search_nosites'] = "Przepraszamy, Å¼adna strona nie odpowiada kryteriom Twojego szukania.";
 $LNG['search_prev'] = "Poprzednia"; // 3.2.1
-$LNG['search_next'] = "Nastêpna"; // 3.2.1
+$LNG['search_next'] = "NastÄ™pna"; // 3.2.1
 
 // Stats
 $LNG['stats_header'] = "Statystyki";
-$LNG['stats_rating_avg'] = "¦rednia ocena";
+$LNG['stats_rating_avg'] = "Åšrednia ocena";
 $LNG['stats_rating_num'] = "Liczba ocen";
-$LNG['stats_rate'] = "Oceñ i opisz t± stronê";
+$LNG['stats_rate'] = "OceÅ„ i opisz tÄ… stronÄ™";
 $LNG['stats_reviews'] = "Opsy";
 $LNG['stats_error_id'] = "Niepoprawne ID."; // 4.0
-$LNG['stats_allreviews'] = "Poka¿ wszystkie opisy"; // 4.0
+$LNG['stats_allreviews'] = "PokaÅ¼ wszystkie opisy"; // 4.0
 
 // ssi.php
 $LNG['ssi_top'] = "%s najlepszych stron"; //4.0
-$LNG['ssi_newmembers'] = "%s najnowszych cz³onków"; //4.0
-$LNG['ssi_join'] = "Do³±cz"; //4.0
+$LNG['ssi_newmembers'] = "%s najnowszych czÅ‚onkÃ³w"; //4.0
+$LNG['ssi_join'] = "DoÅ‚Ä…cz"; //4.0
 $LNG['ssi_all'] = "Wszystkie strony"; //4.0
 
 // Admin > Approve New Memers // 4.0
-$LNG['a_approve'] = "Zatwierd¼"; // 4.0
-$LNG['a_approve_del'] = "Usuñ"; // 4.0
-$LNG['a_approve_none'] = "Nie ma ¿adnych cz³onków czekaj±cych na zatwierdzenie."; // 4.0
-$LNG['a_approve_done'] = "Zatwierdzenie strony zakoñczone sukcesem."; // 4.0
+$LNG['a_approve'] = "ZatwierdÅº"; // 4.0
+$LNG['a_approve_del'] = "UsuÅ„"; // 4.0
+$LNG['a_approve_none'] = "Nie ma Å¼adnych czÅ‚onkÃ³w czekajÄ…cych na zatwierdzenie."; // 4.0
+$LNG['a_approve_done'] = "Zatwierdzenie strony zakoÅ„czone sukcesem."; // 4.0
 
 // Admin > Delete
-$LNG['a_del_mems'] = "Usuwanie strony zakoñczy³o siê sukcesem.";
-$LNG['a_del_mem'] = "Usuñ cz³onka";
-$LNG['a_del_warn'] = "Czy jeste¶ pewny ¿e chcesz dokonaæ usuniêcia?"; // 4.2.0
-$LNG['a_del_dne'] = "Cz³onek o podanym ID nie istnieje"; // 4.2.0
+$LNG['a_del_mems'] = "Usuwanie strony zakoÅ„czyÅ‚o siÄ™ sukcesem.";
+$LNG['a_del_mem'] = "UsuÅ„ czÅ‚onka";
+$LNG['a_del_warn'] = "Czy jesteÅ› pewny Å¼e chcesz dokonaÄ‡ usuniÄ™cia?"; // 4.2.0
+$LNG['a_del_dne'] = "CzÅ‚onek o podanym ID nie istnieje"; // 4.2.0
 
 // Admin > Edit Member Info
-$LNG['a_edit_password_blank'] = "Pozostaw to miejsce puste by zachowaæ dotychczasowe has³o"; // 4.0
+$LNG['a_edit_password_blank'] = "Pozostaw to miejsce puste by zachowaÄ‡ dotychczasowe hasÅ‚o"; // 4.0
 $LNG['a_edit_site_is'] = "Ta strona jest"; // 4.0
-$LNG['a_edit_active'] = "Aktywna (na li¶cie)"; // 4.0
-$LNG['a_edit_inactive'] = "Nieaktywna (tymczasowo zbanowana, nie na li¶cie)"; // 4.0
-$LNG['a_edit_error_id'] = "B³êdne ID.";
-$LNG['a_edit_error'] = "B³±d";
-$LNG['a_edit_error_forgot'] = "Zapomnia³e¶ o tym:";
-$LNG['a_edit_error_url'] = "Wprowad¼ poprawny URL.";
+$LNG['a_edit_active'] = "Aktywna (na liÅ›cie)"; // 4.0
+$LNG['a_edit_inactive'] = "Nieaktywna (tymczasowo zbanowana, nie na liÅ›cie)"; // 4.0
+$LNG['a_edit_error_id'] = "BÅ‚Ä™dne ID.";
+$LNG['a_edit_error'] = "BÅ‚Ä…d";
+$LNG['a_edit_error_forgot'] = "ZapomniaÅ‚eÅ› o tym:";
+$LNG['a_edit_error_url'] = "WprowadÅº poprawny URL.";
 $LNG['a_edit_error_email'] = "Podaj poprawny adres e-mail.";
-$LNG['a_edit_error_title'] = "Wprowad¼ tytu³ swojej strony.";
-$LNG['a_edit_error_password'] = "Wprowad¼ has³o.";
-$LNG['a_edit_error_back'] = "Proszê wróciæ i poprawiæ b³êdy.";
+$LNG['a_edit_error_title'] = "WprowadÅº tytuÅ‚ swojej strony.";
+$LNG['a_edit_error_password'] = "WprowadÅº hasÅ‚o.";
+$LNG['a_edit_error_back'] = "ProszÄ™ wrÃ³ciÄ‡ i poprawiÄ‡ bÅ‚Ä™dy.";
 $LNG['a_edit_success'] = "Sukces!";
-$LNG['a_edit_info_edited'] = "Edytowanie informacji o cz³onku zosta³o zakoñczone sukcesem.";
+$LNG['a_edit_info_edited'] = "Edytowanie informacji o czÅ‚onku zostaÅ‚o zakoÅ„czone sukcesem.";
 
 // Admin > Delete Review
-$LNG['a_del_rev'] = "Usuñ jeden opis";
-$LNG['a_del_rev_done'] = "Usuwanie opisu zakoñczy³o siê sukcesem.";
+$LNG['a_del_rev'] = "UsuÅ„ jeden opis";
+$LNG['a_del_rev_done'] = "Usuwanie opisu zakoÅ„czyÅ‚o siÄ™ sukcesem.";
 $LNG['a_del_rev_id'] = "ID opisu";
 
 // Admin > Email Members
 $LNG['a_email_subject'] = "Temat"; // 4.2.0
-$LNG['a_email_message'] = "Wiadomo¶æ"; // 4.2.0
-$LNG['a_email_not_sent'] = "E-mail nie móg³ byæ wys³any na adres "; // 4.2.0
-$LNG['a_email_msg_sent'] = "Wiadomo¶æ zosta³a wys³ana do "; // 4.2.0
-$LNG['a_email_sent'] = "Wiadomo¶æ zosta³a wys³ana do %s cz³onków."; // 4.2.0
-$LNG['a_email_failed'] = "%s cz³onków nie otrzyma³o tej wiadomo¶ci."; // 4.2.0
+$LNG['a_email_message'] = "WiadomoÅ›Ä‡"; // 4.2.0
+$LNG['a_email_not_sent'] = "E-mail nie mÃ³gÅ‚ byÄ‡ wysÅ‚any na adres "; // 4.2.0
+$LNG['a_email_msg_sent'] = "WiadomoÅ›Ä‡ zostaÅ‚a wysÅ‚ana do "; // 4.2.0
+$LNG['a_email_sent'] = "WiadomoÅ›Ä‡ zostaÅ‚a wysÅ‚ana do %s czÅ‚onkÃ³w."; // 4.2.0
+$LNG['a_email_failed'] = "%s czÅ‚onkÃ³w nie otrzymaÅ‚o tej wiadomoÅ›ci."; // 4.2.0
 
 // Admin > Login
-$LNG['a_login_invalidpw'] = "Nieprawid³owe has³o!";
-$LNG['a_login_session'] = "Twoja sesja zakoñczy³a siê, proszê <a href=\"admin.php\">klikn±æ tutaj</a> by ponownie siê zalogowaæ."; // 4.1.0
+$LNG['a_login_invalidpw'] = "NieprawidÅ‚owe hasÅ‚o!";
+$LNG['a_login_session'] = "Twoja sesja zakoÅ„czyÅ‚a siÄ™, proszÄ™ <a href=\"admin.php\">kliknÄ…Ä‡ tutaj</a> by ponownie siÄ™ zalogowaÄ‡."; // 4.1.0
 
 // Admin > Logout
-$LNG['a_logout'] = "Jeste¶ wylogowany.";
+$LNG['a_logout'] = "JesteÅ› wylogowany.";
 
 // Admin > Main
-$LNG['a_main'] = "U¿yj linków po lewej stronie by dostaæ siê do innych funkcji admina.";
+$LNG['a_main'] = "UÅ¼yj linkÃ³w po lewej stronie by dostaÄ‡ siÄ™ do innych funkcji admina.";
 $LNG['a_main_approve'] = " %s stron czeka na zatwierdzenie.";
 
 // Admin > Manage Members
-$LNG['a_man_actions'] = "Czynno¶ci"; // 4.2.0
-$LNG['a_man_delete'] = "Usuñ"; // 4.2.0
+$LNG['a_man_actions'] = "CzynnoÅ›ci"; // 4.2.0
+$LNG['a_man_delete'] = "UsuÅ„"; // 4.2.0
 $LNG['a_man_edit'] = "Edytuj"; // 4.2.0
 $LNG['a_man_email'] = "E-mail"; // 4.2.0
 
 // Admin > Menu
 $LNG['a_menu'] = "Menu";
-$LNG['a_menu_main'] = "Strona g³ówna";
-$LNG['a_menu_approve'] = "Zatwierd¼ nowego cz³onka";
-$LNG['a_menu_delete'] = "Usuñ cz³onka";
-$LNG['a_menu_edit'] = "Edytuj cz³onka";
-$LNG['a_menu_delete_review'] = "Usuñ opis";
-$LNG['a_menu_email'] = "Napisz e-mail do cz³onków";
+$LNG['a_menu_main'] = "Strona gÅ‚Ã³wna";
+$LNG['a_menu_approve'] = "ZatwierdÅº nowego czÅ‚onka";
+$LNG['a_menu_delete'] = "UsuÅ„ czÅ‚onka";
+$LNG['a_menu_edit'] = "Edytuj czÅ‚onka";
+$LNG['a_menu_delete_review'] = "UsuÅ„ opis";
+$LNG['a_menu_email'] = "Napisz e-mail do czÅ‚onkÃ³w";
 $LNG['a_menu_logout'] = "Wyloguj";
-$LNG['a_menu_manage'] = "Zarz±dzaj cz³onkami"; // 4.2.0
+$LNG['a_menu_manage'] = "ZarzÄ…dzaj czÅ‚onkami"; // 4.2.0
 $LNG['a_menu_reset'] = "Resetuj statystyki"; // 4.1.0
 $LNG['a_menu_settings'] = "Ustawienia";
-$LNG['a_menu_settings_general'] = "G³ówne"; // 4.2.0
-$LNG['a_menu_settings_skins'] = "Skórki"; // 4.2.0
+$LNG['a_menu_settings_general'] = "GÅ‚Ã³wne"; // 4.2.0
+$LNG['a_menu_settings_skins'] = "SkÃ³rki"; // 4.2.0
 
 // Admin > Reset
-$LNG['a_reset_confirm'] = "To usunie wszystkie statystyki.  Nie usunie cz³onków, lecz zresetuje ich statystyki do 0."; // 4.1.0
+$LNG['a_reset_confirm'] = "To usunie wszystkie statystyki.  Nie usunie czÅ‚onkÃ³w, lecz zresetuje ich statystyki do 0."; // 4.1.0
 $LNG['a_reset_stats'] = "Zresetuj statystyki"; // 4.1.0
-$LNG['a_reset_done'] = "Statystyki wszystkich cz³onków zosta³y zresetowane do 0."; // 4.1.0
+$LNG['a_reset_done'] = "Statystyki wszystkich czÅ‚onkÃ³w zostaÅ‚y zresetowane do 0."; // 4.1.0
 
 // Admin > Settings
-$LNG['a_s_general'] = "Ustawienia g³ówne";
+$LNG['a_s_general'] = "Ustawienia gÅ‚Ã³wne";
 $LNG['a_s_list_name'] = "Nazwa twojej listy";
-$LNG['a_s_deflanguage'] = "Domy¶lny jêzyk";
-$LNG['a_s_path'] = "Pe³na ¶cie¿ka do katalogu z list±";
-$LNG['a_s_list_url'] = "URL do katalogu z list±";
-$LNG['a_s_skins_path'] = "Pe³na ¶cie¿ka do katalogu ze skórkami"; // 4.2.0
-$LNG['a_s_skins_url'] = "URL do katalogu ze skórkami"; // 4.2.0
-$LNG['a_s_youremail'] = "Twój adres e-mail";
+$LNG['a_s_deflanguage'] = "DomyÅ›lny jÄ™zyk";
+$LNG['a_s_path'] = "PeÅ‚na Å›cieÅ¼ka do katalogu z listÄ…";
+$LNG['a_s_list_url'] = "URL do katalogu z listÄ…";
+$LNG['a_s_skins_path'] = "PeÅ‚na Å›cieÅ¼ka do katalogu ze skÃ³rkami"; // 4.2.0
+$LNG['a_s_skins_url'] = "URL do katalogu ze skÃ³rkami"; // 4.2.0
+$LNG['a_s_youremail'] = "TwÃ³j adres e-mail";
 
 $LNG['a_s_sql'] = "Ustawienia SQL";
 $LNG['a_s_sql_type'] = "Typ bazy danych"; // 4.1.0
 $LNG['a_s_sql_host'] = "Host";
 $LNG['a_s_sql_database'] = "Baza danych";
-$LNG['a_s_sql_user'] = "Nazwa u¿ytkownika";
-$LNG['a_s_sql_pass'] = "Has³o";
+$LNG['a_s_sql_user'] = "Nazwa uÅ¼ytkownika";
+$LNG['a_s_sql_pass'] = "HasÅ‚o";
 
 $LNG['a_s_ranking'] = "Ustawienia rankingu";
 $LNG['a_s_categories'] = "Kategorie (oddzielone przecinkami)"; // 4.1.0
-$LNG['a_s_numlist'] = "Liczba cz³onków na stronê";
-$LNG['a_s_daymonth'] = "Pamiêtaj klikniêcia przez dni, tygodnie czy miesi±ce?"; // 4.2.0
-$LNG['a_s_rankingmethod'] = "Sposób rankingu"; // 4.0.2
-$LNG['a_s_featured'] = "Aktywuj \"Konkretny cz³onek\"?  Musisz dodaæ <#featured> do wrapper.html po uaktywnieniu tego."; // 4.1.0
-$LNG['a_s_top'] = "Liczba cz³onków, do których odnosi siê skórka _top";
-$LNG['a_s_adbreak'] = "Poka¿ przerwê po tych rangach (oddzielone przecinkami)";
+$LNG['a_s_numlist'] = "Liczba czÅ‚onkÃ³w na stronÄ™";
+$LNG['a_s_daymonth'] = "PamiÄ™taj klikniÄ™cia przez dni, tygodnie czy miesiÄ…ce?"; // 4.2.0
+$LNG['a_s_rankingmethod'] = "SposÃ³b rankingu"; // 4.0.2
+$LNG['a_s_featured'] = "Aktywuj \"Konkretny czÅ‚onek\"?  Musisz dodaÄ‡ <#featured> do wrapper.html po uaktywnieniu tego."; // 4.1.0
+$LNG['a_s_top'] = "Liczba czÅ‚onkÃ³w, do ktÃ³rych odnosi siÄ™ skÃ³rka _top";
+$LNG['a_s_adbreak'] = "PokaÅ¼ przerwÄ™ po tych rangach (oddzielone przecinkami)";
 
-$LNG['a_s_members'] = "Ustawienia cz³onków";
-$LNG['a_s_active_default'] = "Wymaga zaakceptowania przez Ciebie nowych cz³onków nim trafi± na listê";
-$LNG['a_s_delete_after'] = "Usuñ nieaktywnych cz³onków po tylu dniach"; // 4.1.0
-$LNG['a_s_email_admin_on_join'] = "Czy chcesz otrzymaæ wiadomo¶æ, gdy kto¶ do³±czy?";
-$LNG['a_s_max_banner_width'] = "Maksymalna szeroko¶æ bannera cz³onka (ustaw 0 by wy³±czyæ ograniczenie)"; // 4.2.0
-$LNG['a_s_max_banner_height'] = "Maksymalna wysoko¶æ bannera cz³onka (ustaw 0 by wy³±czyæ ograniczenie)"; // 4.2.0
-$LNG['a_s_defbanner'] = "Domy¶lny banner, który bêdzie wy¶wietlany, gdy cz³onek nie posiada swojego";
+$LNG['a_s_members'] = "Ustawienia czÅ‚onkÃ³w";
+$LNG['a_s_active_default'] = "Wymaga zaakceptowania przez Ciebie nowych czÅ‚onkÃ³w nim trafiÄ… na listÄ™";
+$LNG['a_s_delete_after'] = "UsuÅ„ nieaktywnych czÅ‚onkÃ³w po tylu dniach"; // 4.1.0
+$LNG['a_s_email_admin_on_join'] = "Czy chcesz otrzymaÄ‡ wiadomoÅ›Ä‡, gdy ktoÅ› doÅ‚Ä…czy?";
+$LNG['a_s_max_banner_width'] = "Maksymalna szerokoÅ›Ä‡ bannera czÅ‚onka (ustaw 0 by wyÅ‚Ä…czyÄ‡ ograniczenie)"; // 4.2.0
+$LNG['a_s_max_banner_height'] = "Maksymalna wysokoÅ›Ä‡ bannera czÅ‚onka (ustaw 0 by wyÅ‚Ä…czyÄ‡ ograniczenie)"; // 4.2.0
+$LNG['a_s_defbanner'] = "DomyÅ›lny banner, ktÃ³ry bÄ™dzie wyÅ›wietlany, gdy czÅ‚onek nie posiada swojego";
 
-$LNG['a_s_button'] = "Ustawienia przycisków";
-$LNG['a_s_ranks_on_buttons'] = "Czy ranga cz³onka ma byæ wy¶wietlana na jego buttonie??  Zobacz <a href=\"http://www.aardvarkind.com/topsitesphp/manual/\" target=\"_blank\">podrêcznik</a> dla szczegó³ów.  Wybierz Buttony Statystyk tylko, je¶li czyta³e¶ ju¿ ten fragment podrêcznika.  Je¶li wybierzesz Buttony Statystyk, reszta tej sekcji nie przyniesie efektów."; // 4.2.0
+$LNG['a_s_button'] = "Ustawienia przyciskÃ³w";
+$LNG['a_s_ranks_on_buttons'] = "Czy ranga czÅ‚onka ma byÄ‡ wyÅ›wietlana na jego buttonie??  Zobacz <a href=\"http://www.aardvarkind.com/topsitesphp/manual/\" target=\"_blank\">podrÄ™cznik</a> dla szczegÃ³Å‚Ã³w.  Wybierz Buttony Statystyk tylko, jeÅ›li czytaÅ‚eÅ› juÅ¼ ten fragment podrÄ™cznika.  JeÅ›li wybierzesz Buttony Statystyk, reszta tej sekcji nie przyniesie efektÃ³w."; // 4.2.0
 $LNG['a_s_stat_buttons'] = "Przyciski statystyk"; // 4.2.0
-$LNG['a_s_button_url'] = "<b>Je¶li nie</b> - URL do buttona, który bêdzie siê pojawia³ na stronie cz³onka"; // 4.0
-$LNG['a_s_button_dir'] = "<b>Je¶li tak</b> - URL do katalogu z buttonami"; // 4.0
-$LNG['a_s_button_ext'] = "<b>Je¶li tak</b> - Rozszerzenie buttonu (gif, png, jpg, etc.)"; // 4.0
-$LNG['a_s_button_num'] = "<b>Je¶li tak</b> - Liczba buttonów, które zrobi³e¶ - im wy¿sza liczba, tym wiêcej zasobów bêdzie u¿ywa³ skrypt"; // 4.0
+$LNG['a_s_button_url'] = "<b>JeÅ›li nie</b> - URL do buttona, ktÃ³ry bÄ™dzie siÄ™ pojawiaÅ‚ na stronie czÅ‚onka"; // 4.0
+$LNG['a_s_button_dir'] = "<b>JeÅ›li tak</b> - URL do katalogu z buttonami"; // 4.0
+$LNG['a_s_button_ext'] = "<b>JeÅ›li tak</b> - Rozszerzenie buttonu (gif, png, jpg, etc.)"; // 4.0
+$LNG['a_s_button_num'] = "<b>JeÅ›li tak</b> - Liczba buttonÃ³w, ktÃ³re zrobiÅ‚eÅ› - im wyÅ¼sza liczba, tym wiÄ™cej zasobÃ³w bÄ™dzie uÅ¼ywaÅ‚ skrypt"; // 4.0
 
 $LNG['a_s_searchs'] = "Ustawienia wyszukiwania"; // 4.0
-$LNG['a_s_search_id'] = "<a href=\"http://www.searchtraffic.com/wsignup.php3?atsphp\" target=\"_blank\">SearchTraffic</a> Affiliate ID - zobacz podrêcznik dla informacji"; // 4.2.0
+$LNG['a_s_search_id'] = "<a href=\"http://www.searchtraffic.com/wsignup.php3?atsphp\" target=\"_blank\">SearchTraffic</a> Affiliate ID - zobacz podrÄ™cznik dla informacji"; // 4.2.0
 $LNG['a_s_search'] = "Szukana cecha";
-$LNG['a_s_searchresults'] = "Wyników na stronie";
+$LNG['a_s_searchresults'] = "WynikÃ³w na stronie";
 
 $LNG['a_s_other'] = "Inne ustawienia";
-$LNG['a_s_gzip'] = "Aktywuj gzip - gzip oszczêdza przepustowo¶æ, lecz zu¿ywa trochê wiêcej zasobów procesora";
+$LNG['a_s_gzip'] = "Aktywuj gzip - gzip oszczÄ™dza przepustowoÅ›Ä‡, lecz zuÅ¼ywa trochÄ™ wiÄ™cej zasobÃ³w procesora";
 $LNG['a_s_timeoffset'] = "Offset czasu z twojego serwera";
-$LNG['a_s_gateway'] = "Strona Gateway by anulowaæ klikniêcia strony cheaterów";
-$LNG['a_s_captcha'] = "Aktywuj s³own± weryfikacjê przyst±pienia - dodatkowa ochrona przeciwko spammerom"; // 4.2.2
+$LNG['a_s_gateway'] = "Strona Gateway by anulowaÄ‡ klikniÄ™cia strony cheaterÃ³w";
+$LNG['a_s_captcha'] = "Aktywuj sÅ‚ownÄ… weryfikacjÄ™ przystÄ…pienia - dodatkowa ochrona przeciwko spammerom"; // 4.2.2
 
-$LNG['a_s_on'] = "W³±czone";
-$LNG['a_s_off'] = "Wy³±czone";
+$LNG['a_s_on'] = "WÅ‚Ä…czone";
+$LNG['a_s_off'] = "WyÅ‚Ä…czone";
 $LNG['a_s_days'] = "Dni";
-$LNG['a_s_months'] = "Miesiêcy";
+$LNG['a_s_months'] = "MiesiÄ™cy";
 $LNG['a_s_weeks'] = "Tygodni"; // 4.2.0
 $LNG['a_s_yes'] = "Tak";
 $LNG['a_s_no'] = "Nie";
 
-$LNG['a_s_updated'] = "Twoje ustawienia zosta³y zaktualizowane.";
+$LNG['a_s_updated'] = "Twoje ustawienia zostaÅ‚y zaktualizowane.";
 
 // Admin > Skin Settings
-$LNG['a_s_tmpl_default_skin'] = "Domy¶lna skórka"; // 4.2.0
-$LNG['a_s_tmpl_diff_skins'] = "Je¶li chcesz ró¿ych skórek dla ró¿nych kategorii, zmieñ je poni¿ej.  Informacji na temat zmieniania skórek w zale¿no¶ci od kategorii szukaj <a href=\"http://www.aardvarkind.com/topsitesphp/manual/\" target=\"_blank\">w podrêczniku</a>."; // 4.2.0
+$LNG['a_s_tmpl_default_skin'] = "DomyÅ›lna skÃ³rka"; // 4.2.0
+$LNG['a_s_tmpl_diff_skins'] = "JeÅ›li chcesz rÃ³Å¼ych skÃ³rek dla rÃ³Å¼nych kategorii, zmieÅ„ je poniÅ¼ej.  Informacji na temat zmieniania skÃ³rek w zaleÅ¼noÅ›ci od kategorii szukaj <a href=\"http://www.aardvarkind.com/topsitesphp/manual/\" target=\"_blank\">w podrÄ™czniku</a>."; // 4.2.0
 
 // Admin > Version Check
 $LNG['a_version_your'] = "Twoja wersja";

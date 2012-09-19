@@ -1,10 +1,10 @@
 ##############################################
-# Nazwa modu≥u : Articles                    #
+# Nazwa modu≈Çu : Articles                    #
 #       Wersja : 0.25beta                    #
-#    Kategoria : Zarzπdzanie Artyku≥ami      #
-#         Opis : Bardzo prosty i lekki modu≥ #
-#                do zarzπdzania artyku≥ami.  #
+#    Kategoria : Zarz≈°dzanie Artyku≈Çami      #
+#         Opis : Bardzo prosty i lekki modu≈Ç #
+#                do zarz≈°dzania artyku≈Çami.  #
 #Strona domowa : http://support.sirium.net   #
-#Przet≥umaczy≥ : Frano                       #
+#Przet≈Çumaczy≈Ç : Frano                       #
 #                frano@xoops.pl              #
 ##############################################

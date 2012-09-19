@@ -1,4 +1,4 @@
 17.01.2005 dap
-  Modu³ tylko czê¶ciowo (g³ównie od strony u¿ytkownia) przet³umaczony.
+  ModuÅ‚ tylko czÄ™Å›ciowo (gÅ‚Ã³wnie od strony uÅ¼ytkownia) przetÅ‚umaczony.
   Otrzymany od serwisu http://www.akwarium.net.pl/port/
-  Przet³umaczy³em resztê - kurak_bu
+  PrzetÅ‚umaczyÅ‚em resztÄ™ - kurak_bu

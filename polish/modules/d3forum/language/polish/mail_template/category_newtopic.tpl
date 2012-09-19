@@ -1,9 +1,9 @@
 Witaj {X_UNAME},
 
-Nowy temat zosta³ rozpoczêty w kategorii "{CAT_TITLE}".
+Nowy temat zostaÅ‚ rozpoczÄ™ty w kategorii "{CAT_TITLE}".
 
-Kliknij tutaj aby go zobaczyæ:
+Kliknij tutaj aby go zobaczyÄ‡:
 
-Tytu³ tematu: {TOPIC_TITLE}
+TytuÅ‚ tematu: {TOPIC_TITLE}
 URL: {TOPIC_URL}
 Forum: {FORUM_TITLE}

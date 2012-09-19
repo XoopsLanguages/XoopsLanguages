@@ -1,4 +1,4 @@
-T³umaczenie - kurak_bu www.xoops.pl
+TÅ‚umaczenie - kurak_bu www.xoops.pl
 
 MultiMenu
 Version: 1.7

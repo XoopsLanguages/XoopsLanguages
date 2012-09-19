@@ -2,6 +2,6 @@ Subject: Konto Aktywowane
 
 Witaj {USERNAME},
 
-Twoje konto na "{SITENAME}" zosta≥o w≥a∂nie aktywowane, moøesz zalogowaÊ siÍ korzystaj±c z loginu i has≥a, ktÛre otrzyma≥e∂ w poprzednim email'u.
+Twoje konto na "{SITENAME}" zosta≈Ço w≈Ça≈õnie aktywowane, mo≈ºesz zalogowaƒá siƒô korzystajƒÖc z loginu i has≈Ça, kt√≥re otrzyma≈Çe≈õ w poprzednim email'u.
 
 {EMAIL_SIG}

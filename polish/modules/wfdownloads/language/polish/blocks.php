@@ -10,8 +10,8 @@
  *dodatki do wersji 3.02rc1 kurak_bu*/
 
 // Blocks
-define("_MB_WFD_DISP","Poka¿");
+define("_MB_WFD_DISP","PokaÅ¼");
 define("_MB_WFD_FILES","Pliki");
-define("_MB_WFD_CHARS","D³ugo¶æ tytu³u");
+define("_MB_WFD_CHARS","DÅ‚ugoÅ›Ä‡ tytuÅ‚u");
 define("_MB_WFD_LENGTH"," liter");
 ?>

@@ -9,7 +9,7 @@ Aby go zobaczyc kliknij na ponizszy odnosnik:
 
 Otrzymujesz ta wiadomosc, bo taka mozliwosc zostala uaktywniona w opcjach powiadamiania na naszym forum.
 
-Je∂li ta wiadomosc trafila do Ciebie przez pomylke lub chcesz zrezygnowac z subskrybcji skorzystaj z ponizszego odnosnika: 
+Je≈õli ta wiadomosc trafila do Ciebie przez pomylke lub chcesz zrezygnowac z subskrybcji skorzystaj z ponizszego odnosnika: 
 {X_UNSUBSCRIBE_URL}
 
 -----------

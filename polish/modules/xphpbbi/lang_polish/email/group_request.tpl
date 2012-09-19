@@ -1,9 +1,9 @@
-Subject: Twoja pro¶ba o przy³±czenie do grupy zosta³a wys³ana
+Subject: Twoja proÅ›ba o przyÅ‚Ä…czenie do grupy zostaÅ‚a wysÅ‚ana
 
 Drogi {GROUP_MODERATOR},
 
-Jeden z u¿ytkowników poprosi³ o cz³onkostwo w Twojej grupie na {SITENAME}.
-Aby przyj±æ lub odrzuciæ t± pro¶bê odwied¼ poni¿sz± stronê:
+Jeden z uÅ¼ytkownikÃ³w poprosiÅ‚ o czÅ‚onkostwo w Twojej grupie na {SITENAME}.
+Aby przyjÄ…Ä‡ lub odrzuciÄ‡ tÄ… proÅ›bÄ™ odwiedÅº poniÅ¼szÄ… stronÄ™:
 
 {U_GROUPCP}
 

@@ -2,7 +2,7 @@ Subject: Reaktywuj soje konto!
 
 Witaj {USERNAME},
 
-Twoje konto na "{SITENAME}" zosta³o deaktywowane, prawdopodobnie w zwi±zku ze zmianami jakie dokona³e¶ w swoim profilu. Aby ponownie aktywowaæ Twoje konto musisz klikn±æ poni¿szy odno¶nik:
+Twoje konto na "{SITENAME}" zostaÅ‚o deaktywowane, prawdopodobnie w zwiÄ…zku ze zmianami jakie dokonaÅ‚eÅ› w swoim profilu. Aby ponownie aktywowaÄ‡ Twoje konto musisz kliknÄ…Ä‡ poniÅ¼szy odnoÅ›nik:
 
 {U_ACTIVATE}
 

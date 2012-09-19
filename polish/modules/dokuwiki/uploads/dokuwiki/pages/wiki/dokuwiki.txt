@@ -1,17 +1,17 @@
 ====== DokuWiki ======
 
-[[doku>wiki:dokuwiki|{{wiki:dokuwiki-128.png }}]] jest zgodn± ze standadem prostym w u¿yciu klonem [[wp>Wiki]], zwykle pomagaj±cym w tworzeniu wszelkiego rodzaju dokumentacji. Jest przeznaczona zwykle dla grup programistów, grup roboczych i ma³y firm. Posiada prost± ale z bardzo du¿ymi mo¿liwo¶cimi [[wiki:sk³adnii]] co zapewnie czytelno¶æ plików poza Wiki i u³atwia tworzenie tekstów z wewnêtrzn± strutkur±. Wszystkie dane s± przechowywane w plikach tekstowych - nie wymaga, ¿adnej bazy danych.
+[[doku>wiki:dokuwiki|{{wiki:dokuwiki-128.png }}]] jest zgodnÄ… ze standadem prostym w uÅ¼yciu klonem [[wp>Wiki]], zwykle pomagajÄ…cym w tworzeniu wszelkiego rodzaju dokumentacji. Jest przeznaczona zwykle dla grup programistÃ³w, grup roboczych i maÅ‚y firm. Posiada prostÄ… ale z bardzo duÅ¼ymi moÅ¼liwoÅ›cimi [[wiki:skÅ‚adnii]] co zapewnie czytelnoÅ›Ä‡ plikÃ³w poza Wiki i uÅ‚atwia tworzenie tekstÃ³w z wewnÄ™trznÄ… strutkurÄ…. Wszystkie dane sÄ… przechowywane w plikach tekstowych - nie wymaga, Å¼adnej bazy danych.
 
-Przeczytaj [[doku>wiki:manual|Instrukcja do DokuWiki]] aby odkryæ pe³n± moc drzemi±c± w DokuWiki.
+Przeczytaj [[doku>wiki:manual|Instrukcja do DokuWiki]] aby odkryÄ‡ peÅ‚nÄ… moc drzemiÄ…cÄ… w DokuWiki.
 
 ===== Download =====
 
-DokuWiki mo¿na ¶ci±gn±æ z tej strony http://www.splitbrain.org/go/dokuwiki\\ 
-[[xf>wiki|DokuWiki dla  XOOPS]] mo¿na znale¼æ http://xoopsforge.com
+DokuWiki moÅ¼na Å›ciÄ…gnÄ…Ä‡ z tej strony http://www.splitbrain.org/go/dokuwiki\\ 
+[[xf>wiki|DokuWiki dla  XOOPS]] moÅ¼na znaleÅºÄ‡ http://xoopsforge.com
 
 ===== Read More =====
 
-Ca³a dokumentacja i dodatkowe informacje poza [[syntax|syntax description]] is maintained in the DokuWiki at [[doku>wiki:dokuwiki|wiki.splitbrain.org]].
+CaÅ‚a dokumentacja i dodatkowe informacje poza [[syntax|syntax description]] is maintained in the DokuWiki at [[doku>wiki:dokuwiki|wiki.splitbrain.org]].
 
   * [[doku>wiki:news|News and Announcements]] [[http://xoopsforge.com|XF progress]]
   * [[doku>wiki:features|Features]]

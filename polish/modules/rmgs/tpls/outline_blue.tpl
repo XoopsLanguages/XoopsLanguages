@@ -31,7 +31,7 @@ h1{ font-family: "Trebuchet MS", Arial, Helvetica, sans-serif; color: #FFFFFF; }
 </style></head>
 
 <body>
-<div class="banner"><!-- Banner de XOOPS MÈxico //-->
+<div class="banner"><!-- Banner de XOOPS M√©xico //-->
 			<script language='JavaScript' type='text/javascript' src='http://ads.xoops-mexico.net/adx.js'></script>
 <script language='JavaScript' type='text/javascript'>
 <!--
@@ -47,7 +47,7 @@ h1{ font-family: "Trebuchet MS", Arial, Helvetica, sans-serif; color: #FFFFFF; }
    document.write ("'><" + "/script>");
 //-->
 </script><noscript><a href='http://ads.xoops-mexico.net/adclick.php?n=a27b982e' target='_blank'><img src='http://ads.xoops-mexico.net/adview.php?what=zone:1&amp;n=a27b982e' border='0' alt=''></a></noscript>
-<!-- Fin de Banner de XOOPS MÈxico //--></div>
+<!-- Fin de Banner de XOOPS M√©xico //--></div>
 <table width="80%" border="0" align="center" cellpadding="0" cellspacing="0" class="main">
 	<tr>
 		<td align="center" valign="top">
@@ -59,12 +59,12 @@ h1{ font-family: "Trebuchet MS", Arial, Helvetica, sans-serif; color: #FFFFFF; }
 		<h1><{$rmgs_tpl_titulo}></h1>
 		<br />
 		<div class="texto"><{$rmgs_tpl_text}></div><br />
-		<br /><strong style="color: #FFFFFF;">Wys≥ane przez:</strong><br />
+		<br /><strong style="color: #FFFFFF;">Wys≈Çane przez:</strong><br />
 		<span class="sender"><{$rmgs_tpl_sendername}></span><br />
 		<span class="sendermail"><{$rmgs_tpl_sendermail}></span>
 		</td>
 	</tr>
 </table>
-<div class="copy">Powered by <a href="http://www.xoops-mexico.net">RMSOFT Gallery System 2.0</a>. Development by <a href="http://www.redmexico.com.mx">Red MÈxico Soft</a>.</div>
+<div class="copy">Powered by <a href="http://www.xoops-mexico.net">RMSOFT Gallery System 2.0</a>. Development by <a href="http://www.redmexico.com.mx">Red M√©xico Soft</a>.</div>
 </body>
 </html>

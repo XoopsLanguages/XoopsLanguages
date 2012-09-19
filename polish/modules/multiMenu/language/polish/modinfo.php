@@ -16,43 +16,43 @@ define("_MI_MULTIMENU_NAME_",		"multiMenu ");
 for ($i = 1; $i <= 8; $i++) {
 $idMenu = sprintf("%02d",$i);
 define("_MI_MULTIMENU_NAME_".$idMenu,	"multiMenu ".$idMenu);
-define("_MI_MULTIMENU_MM_INDEX_".$idMenu, "Pokaø spis multimenu ".$idMenu);
+define("_MI_MULTIMENU_MM_INDEX_".$idMenu, "Poka≈º spis multimenu ".$idMenu);
 define("_MI_MULTIMENU_MM_TITLE_".$idMenu,	"Nazwa menu ".$idMenu);
 }
 define("_MI_MULTIMENU_NAME_A",	"Menu A");
 define("_MI_MULTIMENU_NAME_B",	"Menu B");
 define("_MI_MULTIMENU_NAME_ADMIN",	"Blok administratora");
-define("_MI_MULTIMENU_DESC",		"Pozwala na utworzenie 7 rÛønych w≥asnych menu.");
+define("_MI_MULTIMENU_DESC",		"Pozwala na utworzenie 7 r√≥≈ºnych w≈Çasnych menu.");
 
 define("_MI_MULTIMENU_TEXT_INDEX"      , "Tekst wprowadzenia");
-define("_MI_MULTIMENU_TEXT_INDEXDSC"   , "Wpisz tutaj tekst ktÛry zostanie wy∂wietlony na stronie g≥Ûwnej");
+define("_MI_MULTIMENU_TEXT_INDEXDSC"   , "Wpisz tutaj tekst kt√≥ry zostanie wy≈õwietlony na stronie g≈Ç√≥wnej");
 define("_MI_MULTIMENU_WELCOME"         , "Witamy w multiMenu. 
 
-Aby zobaczyc wiÍcej informacji na temat tego modu≥u odwiedº <a href='http://www.wolfpackclan.com/wolfactory/' target='_blank'>WolFactory</a>.
+Aby zobaczyc wiƒôcej informacji na temat tego modu≈Çu odwied≈∫ <a href='http://www.wolfpackclan.com/wolfactory/' target='_blank'>WolFactory</a>.
 
 :-D
 
 <div align='right'>Solo</div>
 
-<div align='left'>*Aby zmieniÊ ten tekst wejdº w opcje multiMenu.</div>");
-define("_MI_MULTIMENU_SHOW_MAIN",	"Wy∂wietl stronÍ g≥Ûwn±");
-define("_MI_MULTIMENU_DISPLAY_NAV",	"Wy∂wietl belkÍ nawigacji");
+<div align='left'>*Aby zmieniƒá ten tekst wejd≈∫ w opcje multiMenu.</div>");
+define("_MI_MULTIMENU_SHOW_MAIN",	"Wy≈õwietl stronƒô g≈Ç√≥wnƒÖ");
+define("_MI_MULTIMENU_DISPLAY_NAV",	"Wy≈õwietl belkƒô nawigacji");
 
 define("_MI_MULTIMENU_INDEX"		, "Index");
 define("_MI_MULTIMENU_ADMIN"		, "Admin");
 define("_MI_MULTIMENU_READ" 		, "Czytaj: ");
-define("_MI_MULTIMENU_IMAGE_WIDTH"  , "Domy∂lna szeroko∂Ê obrazka: ");
-define("_MI_MULTIMENU_ICONS"		, "Wy∂wietl ikony: ");
-define("_MI_MULTIMENU_THEME"		, "Wy∂wietlanie menu w skÛrce:<br /><br />
+define("_MI_MULTIMENU_IMAGE_WIDTH"  , "Domy≈õlna szeroko≈õƒá obrazka: ");
+define("_MI_MULTIMENU_ICONS"		, "Wy≈õwietl ikony: ");
+define("_MI_MULTIMENU_THEME"		, "Wy≈õwietlanie menu w sk√≥rce:<br /><br />
 Insert your theme :<br /><font color='blue'><nobr><{include file=\"../modules/multiMenu/theme/multimenu.php\"}></nobr></font><br /><br />
-<font color='red'> Uwaga: Tylko '<i>g≥Ûwne linki</i>' s± wy∂wietlane w skÛrce !</font>");
+<font color='red'> Uwaga: Tylko '<i>g≈Ç√≥wne linki</i>' sƒÖ wy≈õwietlane w sk√≥rce !</font>");
 
-define("_MI_MULTIMENU_BANNER_DISP"  , "Wy∂wietl baner:");
+define("_MI_MULTIMENU_BANNER_DISP"  , "Wy≈õwietl baner:");
 define("_MI_MULTIMENU_BANNER"       , "Baner");
-define("_MI_MULTIMENU_MODULENAME"   , "Nazwa modu≥u");
+define("_MI_MULTIMENU_MODULENAME"   , "Nazwa modu≈Çu");
 define("_MI_MULTIMENU_NONE"         , "Nic");
-define("_MI_MULTIMENU_THEME_TYPE"   , "Rodzaj wy∂wietlania menu");
+define("_MI_MULTIMENU_THEME_TYPE"   , "Rodzaj wy≈õwietlania menu");
 define("_MI_MULTIMENU_THEME_TABLE"  , "Tabela");
-define("_MI_MULTIMENU_THEME_PATH"   , "¶cieøka");
+define("_MI_MULTIMENU_THEME_PATH"   , "≈öcie≈ºka");
 
 ?>

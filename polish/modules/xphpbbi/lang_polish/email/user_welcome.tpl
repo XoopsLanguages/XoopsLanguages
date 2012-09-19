@@ -2,15 +2,15 @@ Subject: Witamy na Forum {SITENAME}
 
 {WELCOME_MSG}
 
-Prosimy o zachowanie lub wydrukowanie tego email'a. Informacje o Twoim koncie s± nastêpuj±ce:
+Prosimy o zachowanie lub wydrukowanie tego email'a. Informacje o Twoim koncie sÄ… nastÄ™pujÄ…ce:
 
 ----------------------------
-U¿ytkownik: {USERNAME}
-Has³o: {PASSWORD}
+UÅ¼ytkownik: {USERNAME}
+HasÅ‚o: {PASSWORD}
 ----------------------------
 
-Nie zapomnij swojego has³a, poniewa¿ zosta³o zakodowane w naszej bazie danych i nie bêdziemy mogli go odzyskaæ. Je¶li jednak¿e zapomnisz has³a mo¿esz otrzymaæ nowe, które bêdziesz musia³ aktywowaæ w identyczny sposób jak to konto.
+Nie zapomnij swojego hasÅ‚a, poniewaÅ¼ zostaÅ‚o zakodowane w naszej bazie danych i nie bÄ™dziemy mogli go odzyskaÄ‡. JeÅ›li jednakÅ¼e zapomnisz hasÅ‚a moÅ¼esz otrzymaÄ‡ nowe, ktÃ³re bÄ™dziesz musiaÅ‚ aktywowaÄ‡ w identyczny sposÃ³b jak to konto.
 
-Dziêkujemy za rejestracjê.
+DziÄ™kujemy za rejestracjÄ™.
 
 {EMAIL_SIG}

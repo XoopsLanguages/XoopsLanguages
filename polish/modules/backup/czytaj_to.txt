@@ -1,3 +1,3 @@
 -- dap 2005-01-04
-  T³umaczenie webfm do wersji 3.0.
-  Sprawdzenie i poprawka jakich dziwnych kodowañ.
+  TÅ‚umaczenie webfm do wersji 3.0.
+  Sprawdzenie i poprawka jakich dziwnych kodowaÅ„.

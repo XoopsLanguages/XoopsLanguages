@@ -1,20 +1,20 @@
 <?php
-// T≥umaczenie na jÍzyk polski Xoops Poland http://www.xoops.pl
+// T≈Çumaczenie na jƒôzyk polski Xoops Poland http://www.xoops.pl
 // Blocks
 define("_MB_WHOSONLINE_TITLE1","Kto jest online");
 
 //first %s represents the number of guests, the second represents members. The order cannot be changed! 
-define("_MB_WHOSONLINE_THERE","W tej chwili jest %s go∂ci i %s uøytkownikÛw przegl±daj±cych nasze strony.");
+define("_MB_WHOSONLINE_THERE","W tej chwili jest %s go≈õci i %s u≈ºytkownik√≥w przeglƒÖdajƒÖcych nasze strony.");
 
 // %s represents user name
-define("_MB_WHOSONLINE_URLAS","Jeste∂ zalogowany jako <b>%s</b>");
+define("_MB_WHOSONLINE_URLAS","Jeste≈õ zalogowany jako <b>%s</b>");
 
-define("_MB_WHOSONLINE_MORE","wiÍcej...");
-define("_MB_WHOSONLINE_URAU","Jeste∂ Anonimowym uøytkownikiem.");
-define("_MB_WHOSONLINE_RNOW","Zarejstruj siÍ teraz!");
-define("_MB_WHOSONLINE_CURU","Obecnie zarejstrowanie uøytkowicy:");
+define("_MB_WHOSONLINE_MORE","wiƒôcej...");
+define("_MB_WHOSONLINE_URAU","Jeste≈õ Anonimowym u≈ºytkownikiem.");
+define("_MB_WHOSONLINE_RNOW","Zarejstruj siƒô teraz!");
+define("_MB_WHOSONLINE_CURU","Obecnie zarejstrowanie u≈ºytkowicy:");
 define("_MB_WHOSONLINE_DAYS","%s dni");
-define("_MB_WHOSONLINE_1DAY","1 dzieÒ");
+define("_MB_WHOSONLINE_1DAY","1 dzie≈Ñ");
 define("_MB_WHOSONLINE_HRS"," %s godzin");
 define("_MB_WHOSONLINE_1HR"," 1 godzina");
 define("_MB_WHOSONLINE_MINS"," %s minut");
@@ -24,6 +24,6 @@ define("_MB_WHOSONLINE_AGO"," temu");
 define("_MB_WHOSONLINE_MDAYS","Max liczba dni");
 define("_MB_WHOSONLINE_MMEM","Max liczba ludzo");
 define("_MB_WHOSONLINE_DAYS2","dni");
-define("_MB_WHOSONLINE_MEMS","cz≥onkowie");
-define("_MB_WHOSONLINE_SLAST","Pokaø ostatnio widzianych uøytkownikÛw");
+define("_MB_WHOSONLINE_MEMS","cz≈Çonkowie");
+define("_MB_WHOSONLINE_SLAST","Poka≈º ostatnio widzianych u≈ºytkownik√≥w");
 ?>

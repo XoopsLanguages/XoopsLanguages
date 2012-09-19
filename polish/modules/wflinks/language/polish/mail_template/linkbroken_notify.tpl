@@ -1,11 +1,11 @@
 Witaj {X_UNAME},
 
-Do dodaj±cego link - {X_TITLE} w dniu: {X_SUB_DATE}.
+Do dodajƒÖcego link - {X_TITLE} w dniu: {X_SUB_DATE}.
 
-Dostali∂my zg≥oszenie øe link - {X_TITLE} ktÛry doda≥e∂ w dniu {X_SUB_DATE} na stronie {X_SITENAME} 
-zosta≥ uznany przez kogo∂ za uszkodzony.   
+Dostali≈õmy zg≈Çoszenie ≈ºe link - {X_TITLE} kt√≥ry doda≈Çe≈õ w dniu {X_SUB_DATE} na stronie {X_SITENAME} 
+zosta≈Ç uznany przez kogo≈õ za uszkodzony.   
 
-Jeøeli moøesz sprawdº czy podany przez ciebie link jest poprawny ewentualnie zmieÒ adres pliku.
+Je≈ºeli mo≈ºesz sprawd≈∫ czy podany przez ciebie link jest poprawny ewentualnie zmie≈Ñ adres pliku.
 
 
 {X_SITENAME} ({X_SITEURL}) 

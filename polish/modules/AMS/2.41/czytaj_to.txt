@@ -1,2 +1,2 @@
 --2005-01-07 dap997
-T³umaczenie do wersji AMS 2.41 bazuj±ce na t³umaczeniu AMS 2.2 ze strony www.xoops.pl.
+TÅ‚umaczenie do wersji AMS 2.41 bazujÄ…ce na tÅ‚umaczeniu AMS 2.2 ze strony www.xoops.pl.

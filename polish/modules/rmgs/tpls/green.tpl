@@ -30,7 +30,7 @@ a:active {
 </style></head>
 
 <body bgcolor="#666666">
-<div align="center" style="padding: 6px;"><!-- Banner de XOOPS México //-->
+<div align="center" style="padding: 6px;"><!-- Banner de XOOPS MÃ©xico //-->
 			<script language='JavaScript' type='text/javascript' src='http://ads.xoops-mexico.net/adx.js'></script>
 <script language='JavaScript' type='text/javascript'>
 <!--
@@ -46,7 +46,7 @@ a:active {
    document.write ("'><" + "/script>");
 //-->
 </script><noscript><a href='http://ads.xoops-mexico.net/adclick.php?n=a27b982e' target='_blank'><img src='http://ads.xoops-mexico.net/adview.php?what=zone:1&amp;n=a27b982e' border='0' alt=''></a></noscript>
-<!-- Fin de Banner de XOOPS México //--></div>
+<!-- Fin de Banner de XOOPS MÃ©xico //--></div>
 <table width="80%" align="center" style="border: 1px solid #000000; background: url(tpls/green/bg_green.gif) repeat;" cellpadding="0" cellspacing="0">
 <tr>
 <td style="padding: 4px; text-align: center; font-family: Arial, Helvetica, sans-serif;">
@@ -62,6 +62,6 @@ a:active {
 		<span style="font-size:12px;"><{$rmgs_tpl_sendermail}></span></p>
 <br />
 </td></tr></table>
-<div align="center" class="copyright">Powered by <a href="http://www.redmexico.com.mx">RMSOFT Gallery System 2.0</a>. stworzony przez <a href="http://www.redmexico.com.mx">Red México Soft</a>.</div><br />
+<div align="center" class="copyright">Powered by <a href="http://www.redmexico.com.mx">RMSOFT Gallery System 2.0</a>. stworzony przez <a href="http://www.redmexico.com.mx">Red MÃ©xico Soft</a>.</div><br />
 
 </body></html>

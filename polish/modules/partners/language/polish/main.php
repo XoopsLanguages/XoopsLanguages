@@ -1,12 +1,12 @@
 <?php
-// T≥umaczenie na jÍzyk polski Xoops Poland http://www.xoops.pl
+// T≈Çumaczenie na jƒôzyk polski Xoops Poland http://www.xoops.pl
 //%%%%%%	File Name partner.php 	%%%%%
-define("_PA_BECOMEAPARTNER","ZostaÒ partnerem");
+define("_PA_BECOMEAPARTNER","Zosta≈Ñ partnerem");
 
 // %s is your site name
 define("_PA_PARTNERS","");
 
 // %s is a number
-define("_PA_WEHAVE","Mamy juø <b>%s</b> zaprzyjaºnionych stron");
-define("_PA_NUMHITS","%s ods≥on");
+define("_PA_WEHAVE","Mamy ju≈º <b>%s</b> zaprzyja≈∫nionych stron");
+define("_PA_NUMHITS","%s ods≈Çon");
 ?>

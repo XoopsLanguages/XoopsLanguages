@@ -4,19 +4,19 @@ Subject: Witamy na Forum {SITENAME}
 
 Zgodnie z aktem COPPA Twoje konto jest obecnie nieaktywne.
 
-Wydrukuj poniøsz± wiadomo∂Ê i daj do podpisania Twoim rodzicom lub opiekunom wraz z dat±. PÛºniej wy∂lij je faksem do:
+Wydrukuj poni≈ºszƒÖ wiadomo≈õƒá i daj do podpisania Twoim rodzicom lub opiekunom wraz z datƒÖ. P√≥≈∫niej wy≈õlij je faksem do:
 
 {FAX_INFO}
 
-LUB poczt± do:
+LUB pocztƒÖ do:
 
 {MAIL_INFO}
 
------------------------------- CI CIE ------------------------------
+------------------------------ CIƒòCIE ------------------------------
 Pozwolenie na Uczestnictwo w {SITENAME}
 
-Uøytkownik: {USERNAME}
-Has≥o: {PASSWORD}
+U≈ºytkownik: {USERNAME}
+Has≈Ço: {PASSWORD}
 Email: {EMAIL_ADDRESS}
 
 Numer ICQ: {ICQ}
@@ -24,29 +24,29 @@ Adres AIM: {AIM}
 MSN Messenger: {MSN}
 Yahoo Messenger: {YIM}
 Strona WWW: {WEB_SITE}
-Sk±d: {FROM}
-ZawÛd: {OCC}
+SkƒÖd: {FROM}
+Zaw√≥d: {OCC}
 Zainteresowania: {INTERESTS}
 
-ZAPOZNA£EM SI  Z INFORMACJAMI PRZEKAZANYMI PRZEZ MOJE DZIECKO I NINIEJSZYM UDZIELAM ZEZWOLENIA DLA {SITENAME} NA PRZECHOWYWANIE TYCH INFORMACJI.
-PRZYJMUJ  DO WIADOMO¶CI, ØE TE INFORMACJE MOG° BY∆ ZMIENIONE W KAØDEJ CHWILI PO WPISANIU HAS£A.
-ROZUMIEM, ØE W KAØDEJ CHWILI MOG  ZARZ°DA∆ USUNI CIA TYCH INFORMACJI Z {SITENAME} .
+ZAPOZNA≈ÅEM SIƒò Z INFORMACJAMI PRZEKAZANYMI PRZEZ MOJE DZIECKO I NINIEJSZYM UDZIELAM ZEZWOLENIA DLA {SITENAME} NA PRZECHOWYWANIE TYCH INFORMACJI.
+PRZYJMUJƒò DO WIADOMO≈öCI, ≈ªE TE INFORMACJE MOGƒÑ BYƒÜ ZMIENIONE W KA≈ªDEJ CHWILI PO WPISANIU HAS≈ÅA.
+ROZUMIEM, ≈ªE W KA≈ªDEJ CHWILI MOGƒò ZARZƒÑDAƒÜ USUNIƒòCIA TYCH INFORMACJI Z {SITENAME} .
 
 
 Rodzic lub Opiekun 
-(wpisz swoje imiÍ i nazwisko): _____________________
+(wpisz swoje imiƒô i nazwisko): _____________________
 
 (podpis): __________________ 
 
 Data: _______________
 
------------------------------- CI CIE ------------------------------
+------------------------------ CIƒòCIE ------------------------------
 
 
-Kiedy administrator otrzyma powyøszy formularz przez fax lub pocztÍ twoje konto zostanie aktywowane.
+Kiedy administrator otrzyma powy≈ºszy formularz przez fax lub pocztƒô twoje konto zostanie aktywowane.
 
-Nie zapomnij swojego has≥a, poniewaø zosta≥o zakodowane w naszej bazie danych i nie bÍdziemy mogli go odzyskaÊ. Je∂li jednakøe zapomnisz has≥a moøesz otrzymaÊ nowe, ktÛre bÍdziesz musia≥ aktywowaÊ w identyczny sposÛb jak to konto.
+Nie zapomnij swojego has≈Ça, poniewa≈º zosta≈Ço zakodowane w naszej bazie danych i nie bƒôdziemy mogli go odzyskaƒá. Je≈õli jednak≈ºe zapomnisz has≈Ça mo≈ºesz otrzymaƒá nowe, kt√≥re bƒôdziesz musia≈Ç aktywowaƒá w identyczny spos√≥b jak to konto.
 
-DziÍkujemy za rejestracjÍ.
+Dziƒôkujemy za rejestracjƒô.
 
 {EMAIL_SIG}

@@ -1,4 +1,4 @@
-T³umaczenie kurak_bu www.xoops.pl
+TÅ‚umaczenie kurak_bu www.xoops.pl
 
 XF-Guestbook
 Version: 2.22 (With very minor modifications for XOOPS 2.2 and PHP5 compatibility)

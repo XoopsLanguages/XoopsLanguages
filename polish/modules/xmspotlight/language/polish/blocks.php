@@ -15,7 +15,7 @@ define("_MB_XMSPOTLIGHT_DATESHOWYESNO","Show Date In Categories?");
 define("_MB_XMSPOTLIGHT_DATEFORMAT","Use Different Date Format? (leave empty for no)");
 define("_MB_XMSPOTLIGHT_AUTOSPOTLIGHT","Enable Autospotlight Feature? (Set Number To AutoSpotlight, leave empty to not use)");
 //xmspotlight_block_news.php - Show
-define("_MB_XMSPOTLIGHT_READMORE","&nbsp;...wiêcej&nbsp;&raquo;");
+define("_MB_XMSPOTLIGHT_READMORE","&nbsp;...wiÄ™cej&nbsp;&raquo;");
 define("_MB_XMSPOTLIGHT_WRITECOMMENT","Write Comment");
 define("_MB_XMSPOTLIGHT_COMMENTS","Comment(s)");
 //--in block template.

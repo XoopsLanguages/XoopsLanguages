@@ -15,12 +15,12 @@
 define("_MB_XPHPBBI_FORUM","Forum");
 define("_MB_XPHPBBI_TOPIC","Temat");
 define("_MB_XPHPBBI_RPLS","Odpowiedzi");
-define("_MB_XPHPBBI_VIEWS","Ods³on");
+define("_MB_XPHPBBI_VIEWS","OdsÅ‚on");
 define("_MB_XPHPBBI_BY","przez");
 define("_MB_XPHPBBI_LPOST","Ostatni Post");
-define("_MB_XPHPBBI_VSTFRMS"," OdwiedŸ Forums");
-define("_MB_XPHPBBI_DISPLAY","Wyœwietl %s postów");
-define("_MB_XPHPBBI_DISPLAYF","Wyœwietl w pe³nym rozmiarze");
+define("_MB_XPHPBBI_VSTFRMS"," OdwiedÂŸ Forums");
+define("_MB_XPHPBBI_DISPLAY","WyÂœwietl %s postÃ³w");
+define("_MB_XPHPBBI_DISPLAYF","WyÂœwietl w peÅ‚nym rozmiarze");
 define("_MB_XPHPBBI_PAGES","Stron");
 define("_MB_XPHPBBI_NOTOPICS","No posts exist or you don't have right to read these posts.");
 

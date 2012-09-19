@@ -1,8 +1,8 @@
 Witaj {X_UNAME},
 
-Nowy temat zosta≥ za≥oøony w  {X_MODULE} na naszej stronie.
+Nowy temat zosta≈Ç za≈Ço≈ºony w  {X_MODULE} na naszej stronie.
 
-Kliknij tutaj aby go zobaczyÊ:
+Kliknij tutaj aby go zobaczyƒá:
 
 Temat: {TOPIC_TITLE}
 URL: {TOPIC_URL}

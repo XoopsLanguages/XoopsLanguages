@@ -1,18 +1,18 @@
 Witaj {X_UNAME},
 
-Zasta≥a utworzona nowa kategoria - "{CATEGORY_NAME}" na {X_SITENAME}.
+Zasta≈Ça utworzona nowa kategoria - "{CATEGORY_NAME}" na {X_SITENAME}.
 
 Oto link do kategorii:
 {CATEGORY_URL}
 
 -----------
 
-Otrzyma≥e∂ t± wiadomo∂Ê poniewaø chcia≥e∂ byÊ powiadamiany o nowo∂ciach w dziale download.
+Otrzyma≈Çe≈õ tƒÖ wiadomo≈õƒá poniewa≈º chcia≈Çe≈õ byƒá powiadamiany o nowo≈õciach w dziale download.
 
-Jeøeli nie chcesz otrzymywaÊ takich maili kliknij link poniøej:
+Je≈ºeli nie chcesz otrzymywaƒá takich maili kliknij link poni≈ºej:
 {X_UNSUBSCRIBE_URL}
 
-Nie odpowiadaj na t± wiadomo∂Ê.
+Nie odpowiadaj na tƒÖ wiadomo≈õƒá.
 
 -----------
 

@@ -3,10 +3,10 @@
 define("_MD_DBUPDATED","Aktualizuj dane.");
 define("_MD_TITLE","Licznik");
 define("_MD_TODAY","Dzisiaj");
-define("_MD_TOTAL","Od pocz±tku");
+define("_MD_TOTAL","Od poczÄ…tku");
 define("_MD_SAVE","Zapisz");
-define("_MD_DIG","Minimalna liczba wy¶wietlanych pozycji.<br />Ustaw 0 by wy¶wietliæ bez wiod±cych zer.");
-define("_MD_IMGEXT","Rozszerzenia obrazków z cyframi.");
+define("_MD_DIG","Minimalna liczba wyÅ›wietlanych pozycji.<br />Ustaw 0 by wyÅ›wietliÄ‡ bez wiodÄ…cych zer.");
+define("_MD_IMGEXT","Rozszerzenia obrazkÃ³w z cyframi.");
 define("_MD_DIGITS","Obrazki cyfr.");
 
 ?>

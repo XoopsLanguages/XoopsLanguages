@@ -1,19 +1,19 @@
 <?php
 
 // definitions for editing blocks
-define("_MB_D3FORUM_DISPLAY","Wy¶wietl %s obiektów");
-define("_MB_D3FORUM_DISPLAYF","Wy¶wietl w pe³nym rozmiarze");
-define("_MB_D3FORUM_MARKISUP","Zaznaczone tematy s± wy¿ej");
+define("_MB_D3FORUM_DISPLAY","WyÅ›wietl %s obiektÃ³w");
+define("_MB_D3FORUM_DISPLAYF","WyÅ›wietl w peÅ‚nym rozmiarze");
+define("_MB_D3FORUM_MARKISUP","Zaznaczone tematy sÄ… wyÅ¼ej");
 define("_MB_D3FORUM_ORDERRULE","Sortuj wg");
 define("_MB_D3FORUM_CATLIMIT","Wybierz kategorie");
-define("_MB_D3FORUM_CATLIMITDSC","Wpisz id kategorii, mo¿esz oddzielaæ przecinkiem. Ten wybór nie jest przyznawany wielokrotnie. Puste oznacza wszystkie kategorie.");
+define("_MB_D3FORUM_CATLIMITDSC","Wpisz id kategorii, moÅ¼esz oddzielaÄ‡ przecinkiem. Ten wybÃ³r nie jest przyznawany wielokrotnie. Puste oznacza wszystkie kategorie.");
 define("_MB_D3FORUM_THISTEMPLATE","Szablon");
 
-define("_MB_D3FORUM_ORDERTIMED","Nowsze na pocz±tku");
-define("_MB_D3FORUM_ORDERVIEWSD","Najpopularniejsze na pocz±tku");
-define("_MB_D3FORUM_ORDERREPLIESD","Najczê¶ciej komentowane na pocz±tku");
-define("_MB_D3FORUM_ORDERVOTESD","Najczê¶ciej oceniane na pocz±tku");
-define("_MB_D3FORUM_ORDERPOINTSD","Najczê¶ciej punktowane na pocz±tku");
-define("_MB_D3FORUM_ORDERAVERAGED","Najwy¿ej punktowane na pocz±tku");
+define("_MB_D3FORUM_ORDERTIMED","Nowsze na poczÄ…tku");
+define("_MB_D3FORUM_ORDERVIEWSD","Najpopularniejsze na poczÄ…tku");
+define("_MB_D3FORUM_ORDERREPLIESD","NajczÄ™Å›ciej komentowane na poczÄ…tku");
+define("_MB_D3FORUM_ORDERVOTESD","NajczÄ™Å›ciej oceniane na poczÄ…tku");
+define("_MB_D3FORUM_ORDERPOINTSD","NajczÄ™Å›ciej punktowane na poczÄ…tku");
+define("_MB_D3FORUM_ORDERAVERAGED","NajwyÅ¼ej punktowane na poczÄ…tku");
 
 ?>

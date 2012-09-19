@@ -1,14 +1,14 @@
 <?php
-define('_C_FILENOTFOUND',     'Nie znaleziono pliku! Sprawd¼ poprawno¶æ URL!');
+define('_C_FILENOTFOUND',     'Nie znaleziono pliku! SprawdÅº poprawnoÅ›Ä‡ URL!');
 
-define("_C_PRINTERFRIENDLY",  "Drukuj stronê");
-define("_C_SENDSTORY",        "Wy¶lij znajomemu");
+define("_C_PRINTERFRIENDLY",  "Drukuj stronÄ™");
+define("_C_SENDSTORY",        "WyÅ›lij znajomemu");
 
 // %s is your site name
-define("_C_INTARTIGO",        "Interesuj±cy artyku³ w %s");
-define("_C_INTARTFOUND",      "Znalaz³em ciekawy artyku³ w %s");
+define("_C_INTARTIGO",        "InteresujÄ…cy artykuÅ‚ w %s");
+define("_C_INTARTFOUND",      "ZnalazÅ‚em ciekawy artykuÅ‚ w %s");
 
 // %s represents your site name
-define("_C_THISCOMESFROM",    "Tan artyku³ pochodzi z %s");
-define("_C_URLFORSTORY",      "URL artyku³u to :");
+define("_C_THISCOMESFROM",    "Tan artykuÅ‚ pochodzi z %s");
+define("_C_URLFORSTORY",      "URL artykuÅ‚u to :");
 ?>

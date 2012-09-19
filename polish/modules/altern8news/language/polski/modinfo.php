@@ -9,7 +9,7 @@ define("_MI_ALT_NEWS_NAME","Newsy");
 define("_MI_ALT_NEWS_DESC","Tworzy newsy.");
 //
 // Names of blocks for this module (Not all module has blocks)
-define("_MI_ALT_NEWS_BNAME1","Temat neswów");
+define("_MI_ALT_NEWS_BNAME1","Temat neswÃ³w");
 define("_MI_ALT_NEWS_BNAME3","Historia");
 define("_MI_ALT_NEWS_BNAME4","Najpopularniejsze");
 define("_MI_ALT_NEWS_BNAME5","Ostatnio dodane");
@@ -19,14 +19,14 @@ define("_MI_ALT_NEWS_SMNAME1","Dodaj newsa");
 define("_MI_ALT_NEWS_SMNAME2","Archiwum");
 //
 // Names of admin menu items
-define("_MI_ALT_NEWS_ADMENU2","Menad¿er kategorii");
+define("_MI_ALT_NEWS_ADMENU2","MenadÅ¼er kategorii");
 define("_MI_ALT_NEWS_ADMENU3","Dodaj/Edtuj newsa");
 //
 // Title of config items
-define("_MI_ALT_STORYHOME","Wybierz liczbê newsów wyœwietlanych na jednej stronie");
-define("_MI_ALT_NOTIFYSUBMIT","Kliknij 'Tak' aby otrzymywaæ e-maile po dodaniu nowej propozycji");
-define("_MI_ALT_DISPLAYNAV","Kliknij 'Tak' aby wyœwietliæ menu na ka¿dej stronie z newsami");
-define("_MI_ALT_ANONPOST","Zezwól niezarejestrowanym dodawaæ propozycje?");
+define("_MI_ALT_STORYHOME","Wybierz liczbÄ™ newsÃ³w wyÂœwietlanych na jednej stronie");
+define("_MI_ALT_NOTIFYSUBMIT","Kliknij 'Tak' aby otrzymywaÄ‡ e-maile po dodaniu nowej propozycji");
+define("_MI_ALT_DISPLAYNAV","Kliknij 'Tak' aby wyÂœwietliÄ‡ menu na kaÅ¼dej stronie z newsami");
+define("_MI_ALT_ANONPOST","ZezwÃ³l niezarejestrowanym dodawaÄ‡ propozycje?");
 define("_MI_ALT_AUTOAPPROVE","Akceptuj nowe propozycje od razu?");
 //
 // Description of each config items
@@ -37,25 +37,25 @@ define("_MI_ALT_AUTOAPPROVEDSC","");
 //
 // Text for notifications
 //
-define("_MI_ALT_NEWS_GLOBAL_NOTIFY","Ogólne");
-define("_MI_ALT_NEWS_GLOBAL_NOTIFYDSC","Ogólne opcje powiadamiania.");
+define("_MI_ALT_NEWS_GLOBAL_NOTIFY","OgÃ³lne");
+define("_MI_ALT_NEWS_GLOBAL_NOTIFYDSC","OgÃ³lne opcje powiadamiania.");
 //
 define("_MI_ALT_NEWS_STORY_NOTIFY","Historia");
-define("_MI_ALT_NEWS_STORY_NOTIFYDSC","Opcje zawiadomienia, które odnosz¹ siê do aktualnej historii.");
+define("_MI_ALT_NEWS_STORY_NOTIFYDSC","Opcje zawiadomienia, ktÃ³re odnoszÅ¡ siÄ™ do aktualnej historii.");
 //
 define("_MI_ALT_NEWS_GLOBAL_NEWCATEGORY_NOTIFY","Nowy Temat");
 define("_MI_ALT_NEWS_GLOBAL_NEWCATEGORY_NOTIFYCAP","Zawiadom mnie kiedy nowy temat zostanie utworzony.");
 define("_MI_ALT_NEWS_GLOBAL_NEWCATEGORY_NOTIFYDSC","Otrzymaj zawiadomienie kiedy nowy temat zostanie utworzony.");
-define("_MI_ALT_NEWS_GLOBAL_NEWCATEGORY_NOTIFYSBJ","[{X_SITENAME}] {X_MODULE} Auto-powiadomienie : Nowy temat newsów");
+define("_MI_ALT_NEWS_GLOBAL_NEWCATEGORY_NOTIFYSBJ","[{X_SITENAME}] {X_MODULE} Auto-powiadomienie : Nowy temat newsÃ³w");
 //
 define("_MI_ALT_NEWS_GLOBAL_STORYSUBMIT_NOTIFY","Nowa historia dodana");
-define("_MI_ALT_NEWS_GLOBAL_STORYSUBMIT_NOTIFYCAP","Zawiadom mnie kiedy jakaœ nowa historia jest z³o¿ona (oczekuj¹ca na aprobatê).");
-define("_MI_ALT_NEWS_GLOBAL_STORYSUBMIT_NOTIFYDSC","Otrzymaj zawiadomienie kiedy jakaœ nowa historia jest z³o¿ona (oczekuj¹ca na aprobatê).");
+define("_MI_ALT_NEWS_GLOBAL_STORYSUBMIT_NOTIFYCAP","Zawiadom mnie kiedy jakaÂœ nowa historia jest zÅ‚oÅ¼ona (oczekujÅ¡ca na aprobatÄ™).");
+define("_MI_ALT_NEWS_GLOBAL_STORYSUBMIT_NOTIFYDSC","Otrzymaj zawiadomienie kiedy jakaÂœ nowa historia jest zÅ‚oÅ¼ona (oczekujÅ¡ca na aprobatÄ™).");
 define("_MI_ALT_NEWS_GLOBAL_STORYSUBMIT_NOTIFYSBJ","[{X_SITENAME}] {X_MODULE} Auto-powiadomienie : Nowa historia dodana");
 //
 define("_MI_ALT_NEWS_GLOBAL_NEWSTORY_NOTIFY","Nowa historia");
-define("_MI_ALT_NEWS_GLOBAL_NEWSTORY_NOTIFYCAP","Zawiadom mnie kiedy jakaœ nowa historia jest dodana.");
-define("_MI_ALT_NEWS_GLOBAL_NEWSTORY_NOTIFYDSC","Otrzymaj zawiadomienie kiedy jakaœ nowa historia jest dodana.");
+define("_MI_ALT_NEWS_GLOBAL_NEWSTORY_NOTIFYCAP","Zawiadom mnie kiedy jakaÂœ nowa historia jest dodana.");
+define("_MI_ALT_NEWS_GLOBAL_NEWSTORY_NOTIFYDSC","Otrzymaj zawiadomienie kiedy jakaÂœ nowa historia jest dodana.");
 define("_MI_ALT_NEWS_GLOBAL_NEWSTORY_NOTIFYSBJ","[{X_SITENAME}] {X_MODULE} Auto-powiadomienie : Nowa historia dodana");
 //
 define("_MI_ALT_NEWS_STORY_APPROVE_NOTIFY","Historia dodana");

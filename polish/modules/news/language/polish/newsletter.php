@@ -1,6 +1,6 @@
 <?php
 $newslettertemplate=<<<contentend
-Tytu³ : %title%
+TytuÅ‚ : %title%
 Temat : %topic_title%
 Wydawca : %publisher%
 Wydany dnia : %published%
@@ -10,7 +10,7 @@ Czytany : %reads%
 Zawiera :
 %hometext%
 
-Czytaj wiêcej : %link%
+Czytaj wiÄ™cej : %link%
  ----------------------------------------------------------------------------
 
 contentend;

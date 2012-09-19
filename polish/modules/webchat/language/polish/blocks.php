@@ -1,5 +1,5 @@
 <?
-define("_WCNORMROOM2" , "Pokoje ogólnodostêpne");
+define("_WCNORMROOM2" , "Pokoje ogÃ³lnodostÄ™pne");
 define("_WCPRIVROOM2" , "Pokoje prywatne");
-define("_WCUSERS" , "osób");
+define("_WCUSERS" , "osÃ³b");
 ?>

@@ -1,6 +1,6 @@
-Formularz kontaktowy ze sklepu {STORENAME} dzia³aj±cego na stronie  {SITENAME}
+Formularz kontaktowy ze sklepu {STORENAME} dziaÅ‚ajÄ…cego na stronie  {SITENAME}
 
-Imiê: {NAME}
+ImiÄ™: {NAME}
 E-mail: {EMAIL}
 Komenatr: {COMMENTS}
 

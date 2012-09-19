@@ -11,12 +11,12 @@
 
 define("_AM_ISTATS_COOKIE_CONF","Konfiguracja Cookie");
 define("_AM_ISTATS_COOKIE","Konfiguracja Cookie");
-define("_AM_ISTATS_COOKIE_DESC","Ustaw ¿ywotno¶æ plików cookie, w sekundach (Np: 1 godzina = 3600)");
+define("_AM_ISTATS_COOKIE_DESC","Ustaw Å¼ywotnoÅ›Ä‡ plikÃ³w cookie, w sekundach (Np: 1 godzina = 3600)");
 define("_AM_ISTATS_SAVE","Zapisz");
 define("_AM_ISTATS_CANCEL","Anuluj");
 define("_AM_ISTATS_CONFIG","Ustawienia Istats");
-define("_AM_GENERALCONF","Ustawienia Ogólne");
-define("_AM_ISTATS_NOTUPDATED","Plik config.php nie zaktualizowany!<br />Nie mo¿na go nadpisaæ!<br />Sprawd¼ dostêp do pliku (chmod 666) lub katalogu cache (chmod 777)");
+define("_AM_GENERALCONF","Ustawienia OgÃ³lne");
+define("_AM_ISTATS_NOTUPDATED","Plik config.php nie zaktualizowany!<br />Nie moÅ¼na go nadpisaÄ‡!<br />SprawdÅº dostÄ™p do pliku (chmod 666) lub katalogu cache (chmod 777)");
 define("_AM_ISTATS_UPDATED","Plik config.php zauktualizowany");
 
 ?>

@@ -1,10 +1,10 @@
 Witaj {X_UNAME},
 
 Twoja ankieta "{POLL_QUESTION}" has expired.
-Ankieta wystartowa≥a w {POLL_START} i zosta≥a zakoÒczona w {POLL_END}.
+Ankieta wystartowa≈Ça w {POLL_START} i zosta≈Ça zako≈Ñczona w {POLL_END}.
 There were {POLL_VOTERS} voters and {POLL_VOTES} votes in total.
 
-Mozesz zobaczyÊ wyniki ankiety na poniøszym URL:
+Mozesz zobaczyƒá wyniki ankiety na poni≈ºszym URL:
 {SITEURL}modules/xoopspoll/pollresults.php?poll_id={POLL_ID}
 
 -----------
