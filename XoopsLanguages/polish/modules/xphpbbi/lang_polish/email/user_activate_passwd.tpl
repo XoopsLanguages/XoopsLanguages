@@ -1,17 +1,17 @@
-Subject: Aktywacja nowego has³a
+Subject: Aktywacja nowego hasÅ‚a
 
 Witaj {USERNAME}
 
-Otrzymujesz ten email poniewa¿ Ty (albo kto¶ podaj±cy siê za Ciebie) poprosi³ o nowe has³o dla Twojego konta na {SITENAME}. Je¿eli nie prosi³e¶ o ten email zignoruj go, a je¶li otrzymasz go ponownie skontaktuj siê z administratorem forum.
+Otrzymujesz ten email poniewaÅ¼ Ty (albo ktoÅ› podajÄ…cy siÄ™ za Ciebie) poprosiÅ‚ o nowe hasÅ‚o dla Twojego konta na {SITENAME}. JeÅ¼eli nie prosiÅ‚eÅ› o ten email zignoruj go, a jeÅ›li otrzymasz go ponownie skontaktuj siÄ™ z administratorem forum.
 
-Aby skorzystaæ z nowego has³a musisz je aktywowaæ. Aby to zrobiæ kliknij odno¶nik poni¿ej.
+Aby skorzystaÄ‡ z nowego hasÅ‚a musisz je aktywowaÄ‡. Aby to zrobiÄ‡ kliknij odnoÅ›nik poniÅ¼ej.
 
 {U_ACTIVATE}
 
-Gdy to zrobisz bêdziesz móg³ siê logowaæ korzystaj±c z has³a:
+Gdy to zrobisz bÄ™dziesz mÃ³gÅ‚ siÄ™ logowaÄ‡ korzystajÄ…c z hasÅ‚a:
 
-Has³o: {PASSWORD}
+HasÅ‚o: {PASSWORD}
 
-Mo¿esz oczywi¶cie zmieniæ to has³o w swoim profilu. Je¿eli bêdziesz mia³ problemy skontaktuj siê z administratorem forum.
+MoÅ¼esz oczywiÅ›cie zmieniÄ‡ to hasÅ‚o w swoim profilu. JeÅ¼eli bÄ™dziesz miaÅ‚ problemy skontaktuj siÄ™ z administratorem forum.
 
 {EMAIL_SIG}

@@ -23,25 +23,25 @@
  **
  ****************************************************************************** 
  ** Copyright (C) 2004 NGUYEN DINH Quoc-Huy (SnAKes)
- ** Cette bibliothèque est libre, vous pouvez la redistribuer et/ou la modifier
- ** selon les termes de la Licence Publique Générale GNU Limitée publiée par la 
- ** Free Software Foundation (version 2 ou bien toute autre version ultérieure 
+ ** Cette bibliothÄque est libre, vous pouvez la redistribuer et/ou la modifier
+ ** selon les termes de la Licence Publique GÃ©nÃ©rale GNU LimitÃ©e publiÃ©e par la 
+ ** Free Software Foundation (version 2 ou bien toute autre version ultÃ©rieure 
  ** choisie par vous).
  **
- ** Cette bibliothèque est distribuée car potentiellement utile, mais SANS
+ ** Cette bibliothÄque est distribuÃ©e car potentiellement utile, mais SANS
  ** AUCUNE GARANTIE, ni explicite ni implicite, y compris les garanties de 
- ** commercialisation ou d'adaptation dans un but spécifique. Reportez-vous 
- ** à la Licence Publique Générale GNU Limitée pour plus de détails.
+ ** commercialisation ou d'adaptation dans un but spÃ©cifique. Reportez-vous 
+ ** Å• la Licence Publique GÃ©nÃ©rale GNU LimitÃ©e pour plus de dÃ©tails.
  **
- ** Vous devez avoir reçu une copie de la Licence Publique Générale GNU Limitée
- ** en même temps que cette bibliothèque; si ce n'est pas le cas, écrivez à la 
+ ** Vous devez avoir reÃ§u une copie de la Licence Publique GÃ©nÃ©rale GNU LimitÃ©e
+ ** en mÄ™me temps que cette bibliothÄque; si ce n'est pas le cas, Ã©crivez Å• la 
  ** Free Software Foundation, Inc., 59 Temple Place, Suite 330, Boston,
- ** MA 02111-1307, États-Unis.
+ ** MA 02111-1307, Ã‰tats-Unis.
  **
  ******************************************************************************/
-define("_SnX_GB_DESC","Ksiêga Go¶ci SnX (SnAKes).");
+define("_SnX_GB_DESC","KsiÄ™ga GoÅ›ci SnX (SnAKes).");
 
-define("_SnX_GB_ADMENU1","Zarz±dzanie wiadomo¶ciami");
+define("_SnX_GB_ADMENU1","ZarzÄ…dzanie wiadomoÅ›ciami");
 
 define("_SnX_GB_DELETE","Kasuj");
 
@@ -54,12 +54,12 @@ define("_SnX_GB_SIGN","Wpisz");
 define("_SnX_GB_VIEW","Zobacz");
 
 define("_SnX_GB_ANONYMOUS","Anonimowy");
-define("_SnX_GB_MY_GB","Moja Ksiêga Go¶ci");
-define("_SnX_GB_FILL_FORM_FIELDS","Proszê wype³niæ wszystkie pola z <b>*<b>");
-define("_SnX_GB_NAME","Imiê/Nick");
+define("_SnX_GB_MY_GB","Moja KsiÄ™ga GoÅ›ci");
+define("_SnX_GB_FILL_FORM_FIELDS","ProszÄ™ wypeÅ‚niÄ‡ wszystkie pola z <b>*<b>");
+define("_SnX_GB_NAME","ImiÄ™/Nick");
 define("_SnX_GB_CITY","Miasto");
 define("_SnX_GB_COUNTRY","Kraj");
-define("_SnX_GB_TITLE","Tytu³");
+define("_SnX_GB_TITLE","TytuÅ‚");
 define("_SnX_GB_SIGN_NOW","Wpisz");
 // define("_SnX_GB_","");
 ?>

@@ -15,7 +15,7 @@ define("_MD_ADMINCAPTION"                   ,"Administrowanie cytatami");
 define("_MD_CATEGORY"                       ,"Kategorie");
 define("_MD_DESCRIPT"                       ,"Opis");
 define("_MD_PRINT"                          ,"Wydrukuj");
-define("_MD_TOPICS"                         ,"Ilo∂Ê cytatÛw");
+define("_MD_TOPICS"                         ,"Ilo≈õƒá cytat√≥w");
 define("_MD_POSTED"                         ,"Opublikowany");
 define("_MD_READ"                           ,"Czytany");
 define("_MD_PUBLISH"                        ,"Autor");
@@ -23,67 +23,67 @@ define("_MD_SEARCH"                         ,"Szukaj");
 define("_MD_INDEX"                          ,"Opis spisu");
 define("_MD_QUOTE"                          ,"Cytat");
 define("_MD_VIEWING"                        ,"Zobacz cytat");
-define("_MD_SEARCHST"                       ,"Wprowadº szukany wyraz");
+define("_MD_SEARCHST"                       ,"Wprowad≈∫ szukany wyraz");
 define("_MD_QUERY"                          ,"Szukaj tego wyrazu");
 define("_MD_TYPE"                           ,"Typ szukania");
-define("_MD_SUBMIT"                         ,"Wy∂lij");
-define("_MD_GERROR"                         ,"B£°D: PowrÛt do ostatnio odwiedzanej strony.");
-define("_MD_GQUOTEERROR"                    ,"B£°D: PowrÛt do administracji cytatami");
-define("_MD_GQUOTEADDED"                    ,"INFORMACJA: Cytat zosta≥ dodany.");
+define("_MD_SUBMIT"                         ,"Wy≈õlij");
+define("_MD_GERROR"                         ,"B≈ÅƒÑD: Powr√≥t do ostatnio odwiedzanej strony.");
+define("_MD_GQUOTEERROR"                    ,"B≈ÅƒÑD: Powr√≥t do administracji cytatami");
+define("_MD_GQUOTEADDED"                    ,"INFORMACJA: Cytat zosta≈Ç dodany.");
 define("_MD_SEARCHRT"                       ,"Wyniki wyszukiwania");
-define("_MD_ANONNOTALLOWED"                 ,"Aby dodaÊ cytat musisz sie zarejstrowaÊ!");
-define("_MD_SUBMITUSER"                     ,"DziÍkujemy za nades≥anie cytatu i musi zostaÊ zaakceptowany przez webmastera.");
-define('_MD_CREATIN'                        ,'UtwÛrz w');
+define("_MD_ANONNOTALLOWED"                 ,"Aby dodaƒá cytat musisz sie zarejstrowaƒá!");
+define("_MD_SUBMITUSER"                     ,"Dziƒôkujemy za nades≈Çanie cytatu i musi zostaƒá zaakceptowany przez webmastera.");
+define('_MD_CREATIN'                        ,'Utw√≥rz w');
 define('_MD_QUOTETITLE'                     ,'Cytat');
 define('_MD_QUOTEBODY'                      ,'Autor');
-define('_MD_QUOTESUM'                       ,'Odsy≥acz');
+define('_MD_QUOTESUM'                       ,'Odsy≈Çacz');
 define('_MD_TIMES'                          ,'razy');
-define('_MD_RETURN'                         ,'WrÛÊ');
-define('_MD_RETURN2INDEX'                   ,'WrÛÊ do g≥Ûwnej kategorii');
-define('_MD_BACK2CAT'                       ,'WrÛÊ do kategorii');
-define('_MD_MAININDEX'                      ,'G≥Ûwny index');
+define('_MD_RETURN'                         ,'Wr√≥ƒá');
+define('_MD_RETURN2INDEX'                   ,'Wr√≥ƒá do g≈Ç√≥wnej kategorii');
+define('_MD_BACK2CAT'                       ,'Wr√≥ƒá do kategorii');
+define('_MD_MAININDEX'                      ,'G≈Ç√≥wny index');
 define('_MD_MAININDEXCAT'                   ,'Kategoria');
 define('_MD_MAININDEXDESC'                  ,'Opis');
 define('_MD_MAININDEXTOTAL'                 ,'W sumie');
 
-define('_MD_MAINPTOPICSINDEX'               ,'Spis tematÛw');
+define('_MD_MAINPTOPICSINDEX'               ,'Spis temat√≥w');
 define('_MD_MAINPTITLE'                     ,'Cytat');
-define('_MD_MAINPSUMMARY'                   ,'Odsy≥acz');
+define('_MD_MAINPSUMMARY'                   ,'Odsy≈Çacz');
 define('_MD_MAINPAUTHOR'                    ,'Autor');
 define('_MD_MAINPSUBMITTED'                 ,'Dodany');
-define('_MD_MAINPHITS'                      ,'Ogl±dany');
-define('_MD_ERRORSAVINGDB'                  ,'B£°D:Baza danych nie zosta≥a uaktualniona!');
-define('_MD_NOTIFYSBJCT'                    ,'Nowy cytat zosta≥ dodany do twojej strony');
+define('_MD_MAINPHITS'                      ,'OglƒÖdany');
+define('_MD_ERRORSAVINGDB'                  ,'B≈ÅƒÑD:Baza danych nie zosta≈Ça uaktualniona!');
+define('_MD_NOTIFYSBJCT'                    ,'Nowy cytat zosta≈Ç dodany do twojej strony');
 define('_MD_NOTIFYMSG'                      ,'Cytat dla mojej strony');
-define('_MD_TITLE'                          ,'Tytu≥');
+define('_MD_TITLE'                          ,'Tytu≈Ç');
 define('_MD_POSTEDBY'                       ,'Opublikowany przez');
 define('_MD_DATE'                           ,'Data');
 /*
 * Error messages in index.php (user side) 
 */
-define('_MD_MAINNOSELECTCAT'                ,'Nie wybra≥e∂ prawid≥owej kategorii');
-define('_MD_MAINNOTOPICS'                   ,'Nie ma cytatÛw w tej kategorii');
-define('_MD_MAINNOCATADDED'                 ,'Nie jeszcze øadnych kategorii!');
+define('_MD_MAINNOSELECTCAT'                ,'Nie wybra≈Çe≈õ prawid≈Çowej kategorii');
+define('_MD_MAINNOTOPICS'                   ,'Nie ma cytat√≥w w tej kategorii');
+define('_MD_MAINNOCATADDED'                 ,'Nie jeszcze ≈ºadnych kategorii!');
 
 /* 
 * Updated 15th July 2003 from here
 */
 define("_MD_RATINGC"                        ,"Oceny: ");
-define("_MD_ONEVOTE"                        ,"1 g≥os");
-define("_MD_NUMVOTES"                       ,"%s g≥osÛw");
-define("_MD_RATETHISQUOTE"                  ,"OceÒ cytat");
-define("_MD_VOTEAPPRE"                      ,"DziÍkujemy za g≥os.");
-define("_MD_THANKYOU"                       ,"DziÍkujamy za czas po∂wiÍcony na g≥osowanie na %s"); // %s is your site name
-define("_MD_VOTEFROMYOU"                    ,"Informacje od uøytkownikÛw bÍda pomocne innym uøytkownikom.");
-define("_MD_VOTEONCE"                       ,"ProszÍ nie oceniaj tego samego cytatu wiecej niø raz.");
+define("_MD_ONEVOTE"                        ,"1 g≈Ços");
+define("_MD_NUMVOTES"                       ,"%s g≈Ços√≥w");
+define("_MD_RATETHISQUOTE"                  ,"Oce≈Ñ cytat");
+define("_MD_VOTEAPPRE"                      ,"Dziƒôkujemy za g≈Ços.");
+define("_MD_THANKYOU"                       ,"Dziƒôkujamy za czas po≈õwiƒôcony na g≈Çosowanie na %s"); // %s is your site name
+define("_MD_VOTEFROMYOU"                    ,"Informacje od u≈ºytkownik√≥w bƒôda pomocne innym u≈ºytkownikom.");
+define("_MD_VOTEONCE"                       ,"Proszƒô nie oceniaj tego samego cytatu wiecej ni≈º raz.");
 define("_MD_RATINGSCALE"                    ,"Skala jest od 1 do 10. 1 najgorsza ocena 10 najlepsza.");
-define("_MD_BEOBJECTIVE"                    ,"ProszÍ byÊ obiektywnym.");
-define("_MD_DONOTVOTE"                      ,"Nie g≥osuj na w≥asne cytaty.");
-define("_MD_RATEIT"                         ,"OceÒ!");
+define("_MD_BEOBJECTIVE"                    ,"Proszƒô byƒá obiektywnym.");
+define("_MD_DONOTVOTE"                      ,"Nie g≈Çosuj na w≈Çasne cytaty.");
+define("_MD_RATEIT"                         ,"Oce≈Ñ!");
 define("_MD_NORATING"                       ,"Nie wybrano oceny.");
-define("_MD_CANTVOTEOWN"                    ,"Nie moøesz oceniaÊ cytatu dodanego przez siebie samego.<br>Wszystkie g≥osy za zapisywane i sprawdzane.");
+define("_MD_CANTVOTEOWN"                    ,"Nie mo≈ºesz oceniaƒá cytatu dodanego przez siebie samego.<br>Wszystkie g≈Çosy za zapisywane i sprawdzane.");
 define("_MD_RATINGA"                        ,"Ocena cytatu: %s ");
-define("_MD_REGTOVOTE"                      ,"Aby g≥osowaÊ musisz byÊ zarejstrowany!");
+define("_MD_REGTOVOTE"                      ,"Aby g≈Çosowaƒá musisz byƒá zarejstrowany!");
 //added by frankblack
 define("_MD_QUOTNOTONPUB"                   ,"Powiadom o publikacji");
 ?>

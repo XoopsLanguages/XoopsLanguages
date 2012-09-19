@@ -4,7 +4,7 @@
 * ------------------------------------------------------           *
 * RMSOFT MyFolder 1.0                                              *
 * Módulo para el manejo de un portafolio profesional               *
-* CopyRight © 2006. Red México Soft                                *
+* CopyRight Š 2006. Red México Soft                                *
 * Autor: BitC3R0                                                   *
 * http://www.redmexico.com.mx                                      *
 * http://www.xoops-mexico.net                                      *
@@ -28,14 +28,14 @@
 * blocks.php:                                                      *
 * Archivo de lenguaje para los bloques                             *
 * ------------------------------------------------------           *
-* @copyright: © 2006. BitC3R0.                                     *
+* @copyright: Š 2006. BitC3R0.                                     *
 * @autor: BitC3R0                                                  *
 * @paquete: RMSOFT GS 2.0                                          *
 * @version: 1.0.3                                                  *
 * @modificado: 24/05/2006 12:48:39 a.m.                            *
-* @Polskie t³umaczenie - Sylwester Pyrka www.ibr.org.pl            *
+* @Polskie tłumaczenie - Sylwester Pyrka www.ibr.org.pl            *
 *******************************************************************/
 
-define('_BK_RMMF_NUMWORKS','Liczba prac:');
-define('_BK_RMMF_NUMCOMMS','Liczba komentarzy:');
+define('_BK_RMMF_NUMWORKS', 'Liczba prac:');
+define('_BK_RMMF_NUMCOMMS', 'Liczba komentarzy:');
 ?>

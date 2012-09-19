@@ -1,2 +1,2 @@
-zamieñ plik footer.php z plikiem footer.php w katalogu g³ównym strony.inaczej modu³ nie bêdzie dzia³a³ poprawnie!
+zamieÅ„ plik footer.php z plikiem footer.php w katalogu gÅ‚Ã³wnym strony.inaczej moduÅ‚ nie bÄ™dzie dziaÅ‚aÅ‚ poprawnie!
 www.xoops.pl

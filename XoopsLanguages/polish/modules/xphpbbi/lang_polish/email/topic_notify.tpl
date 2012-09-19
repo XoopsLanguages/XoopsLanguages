@@ -2,11 +2,11 @@ Subject: Powiadomienie o Odpowiedzi - {TOPIC_TITLE}
 
 Witaj {USERNAME},
 
-Otrzymujesz ten email poniewa¿ obserwujesz temat "{TOPIC_TITLE}" na {SITENAME}. W tym temacie pojawi³a siê odpowied¼ od Twojej ostatniej wizyty. Mo¿esz skorzystaæ z poni¿szego odno¶nika aby zobaczyæ odpowiedzi. Nie dostaniesz wiêcej powiadomieñ dopóki nie odwiedzisz tego tematu.
+Otrzymujesz ten email poniewaÅ¼ obserwujesz temat "{TOPIC_TITLE}" na {SITENAME}. W tym temacie pojawiÅ‚a siÄ™ odpowiedÅº od Twojej ostatniej wizyty. MoÅ¼esz skorzystaÄ‡ z poniÅ¼szego odnoÅ›nika aby zobaczyÄ‡ odpowiedzi. Nie dostaniesz wiÄ™cej powiadomieÅ„ dopÃ³ki nie odwiedzisz tego tematu.
 
 {U_TOPIC}
 
-Je¿eli chcesz zaprzestaæ obserwacji tego tematu mo¿esz albo klikn±æ odno¶nik "Przestañ ¶ledziæ ten temat", który znajdziesz na dole strony z powy¿szym tematem, albo klikaj±c poni¿szy odno¶nik:
+JeÅ¼eli chcesz zaprzestaÄ‡ obserwacji tego tematu moÅ¼esz albo kliknÄ…Ä‡ odnoÅ›nik "PrzestaÅ„ Å›ledziÄ‡ ten temat", ktÃ³ry znajdziesz na dole strony z powyÅ¼szym tematem, albo klikajÄ…c poniÅ¼szy odnoÅ›nik:
 
 {U_STOP_WATCHING_TOPIC}
 

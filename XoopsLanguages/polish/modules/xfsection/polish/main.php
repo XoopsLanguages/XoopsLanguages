@@ -15,227 +15,227 @@
 define("_WFS_PRINTER","Strona do wydruku");
 define("_WFS_COMMENTS","Skomentujesz?");
 define("_WFS_PREVPAGE","Poprzednia strona");
-define("_WFS_NEXTPAGE","NastÍpna strona");
+define("_WFS_NEXTPAGE","Nastƒôpna strona");
 //define("_WFS_RETURNTOP","<< Return to Top");
 
 //%%%%%%
 
 define("_WFS_TOP","Top");
-define("_WFS_POSTERC","Przesy≥aj±cy:");
+define("_WFS_POSTERC","Przesy≈ÇajƒÖcy:");
 define("_WFS_DATEC","Data:");
-define("_WFS_EDITNOTALLOWED","Nie jeste∂ uprawniony do edycji tego komentarza!");
-define("_WFS_ANONNOTALLOWED","Anonimowi uøytkownicy nie s± upowaønieni do przesy≥ania poczty.");
-define("_WFS_THANKSFORPOST","DziÍkujemy za Twoj± przesy≥kÍ!"); //submission of news comments
-define("_WFS_DELNOTALLOWED","Nie jeste∂ uprawniony do usuniÍcia tego komentarza!");
-define("_WFS_AREUSUREDEL","Jeste∂ pewien, øe chcesz usun±Ê ten komentarz i wszystkie podkomentarze?");
+define("_WFS_EDITNOTALLOWED","Nie jeste≈õ uprawniony do edycji tego komentarza!");
+define("_WFS_ANONNOTALLOWED","Anonimowi u≈ºytkownicy nie sƒÖ upowa≈ºnieni do przesy≈Çania poczty.");
+define("_WFS_THANKSFORPOST","Dziƒôkujemy za TwojƒÖ przesy≈Çkƒô!"); //submission of news comments
+define("_WFS_DELNOTALLOWED","Nie jeste≈õ uprawniony do usuniƒôcia tego komentarza!");
+define("_WFS_AREUSUREDEL","Jeste≈õ pewien, ≈ºe chcesz usunƒÖƒá ten komentarz i wszystkie podkomentarze?");
 define("_WFS_YES","Tak");
 define("_WFS_NO","Nie");
-define("_PL_COMMENTSDEL","Komentarz(e) usuniÍto pomy∂lnie!");
+define("_PL_COMMENTSDEL","Komentarz(e) usuniƒôto pomy≈õlnie!");
 
 //%%%%%%
 
-define("_WFS_TITLE","Tytu≥");
+define("_WFS_TITLE","Tytu≈Ç");
 define("_WFS_CATEGORY","Sekcja");
-define("_WFS_HTMLISFINE","HTML jest dozwolone, ale dwa razy sprawdº adresy URL i tagi HTML!");
-define("_WFS_ALLOWEDHTML","ZezwÛl na  HTML:");
-define("_WFS_DISABLESMILEY","Wy≥±cz emotikony");
-define("_WFS_DISABLEHTML","Wy≥±cz HTML");
-define("_WFS_POST","Prze∂lij");
-define("_WFS_PREVIEW","Podgl±d");
-define("_WFS_GO","Wy∂lij");
+define("_WFS_HTMLISFINE","HTML jest dozwolone, ale dwa razy sprawd≈∫ adresy URL i tagi HTML!");
+define("_WFS_ALLOWEDHTML","Zezw√≥l na  HTML:");
+define("_WFS_DISABLESMILEY","Wy≈ÇƒÖcz emotikony");
+define("_WFS_DISABLEHTML","Wy≈ÇƒÖcz HTML");
+define("_WFS_POST","Prze≈õlij");
+define("_WFS_PREVIEW","PodglƒÖd");
+define("_WFS_GO","Wy≈õlij");
 
 //%%%%%%
 define("_WFS_ARTICLES","Tematy");
 define("_WFS_VIEWS","Przeczytane %s razy "); //********* Updated ************
 define("_WFS_DATE","Data: "); //********* Updated ************
-define("_WFS_WRITTEN","Napisa≥: "); //********* Updated ************
+define("_WFS_WRITTEN","Napisa≈Ç: "); //********* Updated ************
 define("_WFS_PRINTERFRIENDLY","Strona do wydruku");
 
 define("_WFS_TOPICC","Sekcja:");
 define("_WFS_URL","URL:");
-define("_WFS_NOSTORY","Wybacz. Wybrany artyku≥ nie istnieje.");
-define("_WFS_RETURN2INDEX","PowrÛt do strony g≥Ûwnej artyku≥Ûw");
-define("_WFS_BACK2CAT","PowrÛt do kategorii");
-define("_WFS_BACK2","PowrÛt");
+define("_WFS_NOSTORY","Wybacz. Wybrany artyku≈Ç nie istnieje.");
+define("_WFS_RETURN2INDEX","Powr√≥t do strony g≈Ç√≥wnej artyku≈Ç√≥w");
+define("_WFS_BACK2CAT","Powr√≥t do kategorii");
+define("_WFS_BACK2","Powr√≥t");
 //%%%%%%	File Name print.php 	%%%%%
 
-define("_WFS_URLFORSTORY","Adres URL tego artyku≥u to:");
+define("_WFS_URLFORSTORY","Adres URL tego artyku≈Çu to:");
 
 // %s represents your site name
-define("_WFS_THISCOMESFROM","Ten artyku≥ pochodzi z %s");
+define("_WFS_THISCOMESFROM","Ten artyku≈Ç pochodzi z %s");
 
 /////// wfsection
 define("_WFS_CATEGORYS","Sekcja");
-define("_WFS_POSTS","Artyku≥y");
-define("_WFS_PUBLISHED","Ostatnie artyku≥y");
+define("_WFS_POSTS","Artyku≈Çy");
+define("_WFS_PUBLISHED","Ostatnie artyku≈Çy");
 define("_WFS_WELCOME","%s w czytelni");
 
-define("_WFS_ARTICLE","Artyku≥");
+define("_WFS_ARTICLE","Artyku≈Ç");
 define("_WFS_AUTHER","Autor: "); //********* Updated ************
 define("_WFS_AUTH","Autor"); //updated
-define("_WFS_CAUTH","<b>Nazwa autora</b> (Zostaw pusty, aby zachowaÊ oryginaln± nazwÍ autora)"); //updated
+define("_WFS_CAUTH","<b>Nazwa autora</b> (Zostaw pusty, aby zachowaƒá oryginalnƒÖ nazwƒô autora)"); //updated
 define("_WFS_LASTUPDATE","Zmodyfikowano");
 
 // wfsarticle.php
 
-define("_WFS_MAINTEXT"," Tekst artyku≥u");
+define("_WFS_MAINTEXT"," Tekst artyku≈Çu");
 //_WFS_ALLOWEDHTML
-define("_WFS_DISAMILEY","Wy≥±cz emotikony");
-define("_WFS_DISHTML","Wy≥±cz HTML");
+define("_WFS_DISAMILEY","Wy≈ÇƒÖcz emotikony");
+define("_WFS_DISHTML","Wy≈ÇƒÖcz HTML");
 //_WFS_PREVIEW
 define("_WFS_SAVE","Zapisz");
 //_WFS_GO
 
 // themenews.php
 define("_WFS_POSTEDBY","napisany przez");
-define("_WFS_ON","W≥±cz");
-define("_WFS_READS","Ods≥ony");
-define("_WFS_FILEUPLOAD","Wy≥aduj plik przy≥±czony");
-define("_WFS_FILESHOWNAME","Tytu≥ przy≥±czonego pliku");
-define("_WFS_ATTACHEDFILES","Edycja plikÛw przy≥±czonych");
-define("_WFS_NOFILE","Brak plikÛw przy≥±czonych do tego artyku≥u.");
-define("_WFS_AFTERREGED","Pliki nie mog± byÊ przy≥±czone do pustego artyku≥u. <br />UtwÛrz artyku≥, zapisz i powrÛÊ do dodawania pliku przy≥±czonego.");
+define("_WFS_ON","W≈ÇƒÖcz");
+define("_WFS_READS","Ods≈Çony");
+define("_WFS_FILEUPLOAD","Wy≈Çaduj plik przy≈ÇƒÖczony");
+define("_WFS_FILESHOWNAME","Tytu≈Ç przy≈ÇƒÖczonego pliku");
+define("_WFS_ATTACHEDFILES","Edycja plik√≥w przy≈ÇƒÖczonych");
+define("_WFS_NOFILE","Brak plik√≥w przy≈ÇƒÖczonych do tego artyku≈Çu.");
+define("_WFS_AFTERREGED","Pliki nie mogƒÖ byƒá przy≈ÇƒÖczone do pustego artyku≈Çu. <br />Utw√≥rz artyku≈Ç, zapisz i powr√≥ƒá do dodawania pliku przy≈ÇƒÖczonego.");
 define("_WFS_FILES","Plik");
 define("_WFS_COMMENTSNUM","Komentarz");
 define("_WFS_CATEGORYDESC","Opis");
-define("_WFS_CATEGORYHEAD","Nag≥Ûwek strony kategorii.<br /><br />This html or text will appear above your categories.");
-define("_WFS_CATEGORYFOOT","Tekst stÛpki kategorii.<br /><br />This html or Text Will appear below your categories.");
+define("_WFS_CATEGORYHEAD","Nag≈Ç√≥wek strony kategorii.<br /><br />This html or text will appear above your categories.");
+define("_WFS_CATEGORYFOOT","Tekst st√≥pki kategorii.<br /><br />This html or Text Will appear below your categories.");
 define("_WFS_FILEID","ID pliku");
 define("_WFS_FILEREALNAME","Filename when stored");
 define("_WFS_FILETEXT","Tekst do szukania");
-define("_WFS_ARTICLEID","ID artyku≥u");
+define("_WFS_ARTICLEID","ID artyku≈Çu");
 define("_WFS_EXT","Rozszerzenie");
 define("_WFS_MINETYPE","Typ Mine");
 define("_WFS_UPDATEDATE","Ostatnio zmodyfikowano");
-define("_WFS_DEL","UsuÒ");
-define("_WFS_CANCEL","B≥±d");
+define("_WFS_DEL","Usu≈Ñ");
+define("_WFS_CANCEL","B≈ÇƒÖd");
 define("_WFS_IMGADD","Dodaj");
-define("_WFS_UPLOAD","Wy≥aduj");
+define("_WFS_UPLOAD","Wy≈Çaduj");
 define("_WFS_LINKURL","URL to link");
 define("_WFS_LINKURLNAME","Pseudonazwa dla adresu URL");
 define("_WFS_SUMMARY","Razem");
-define("_WFS_LINK","Odsy≥acz");
-define("_WFS_NOTREADFILE","Nie moøna odczytaÊ pliku!");
-define("_WFS_DOWNLOADNAME","Nazwa pliku po ∂ci±gniÍciu");
-define("_WFS_PAGEBREAK","Rozdzia≥ stron przez: [pagebreak]");
+define("_WFS_LINK","Odsy≈Çacz");
+define("_WFS_NOTREADFILE","Nie mo≈ºna odczytaƒá pliku!");
+define("_WFS_DOWNLOADNAME","Nazwa pliku po ≈õciƒÖgniƒôciu");
+define("_WFS_PAGEBREAK","Rozdzia≈Ç stron przez: [pagebreak]");
 
 //new version 0.9.2
-define("_WFS_MAININDEX","Strona g≥Ûwna");
-define("_WFS_NOVIEWPERMISSION","Wybacz! Nie masz praw dostÍpu do tego obszaru.");
-define("_WFS_WEBLINK","ODSY£ACZ:");
+define("_WFS_MAININDEX","Strona g≈Ç√≥wna");
+define("_WFS_NOVIEWPERMISSION","Wybacz! Nie masz praw dostƒôpu do tego obszaru.");
+define("_WFS_WEBLINK","ODSY≈ÅACZ:");
 define("_WFS_VOTEAPPRE","Your vote is appreciated.");
-define("_WFS_THANKYOU","DziÍkujemy za poswiÍcenie czasu na g≥osowanie na stronie: %s"); // %s is your site name
+define("_WFS_THANKYOU","Dziƒôkujemy za poswiƒôcenie czasu na g≈Çosowanie na stronie: %s"); // %s is your site name
 define("_WFS_VOTEFROMYOU","Input from users such as yourself will help other visitors better decide which file to download.");
-define("_WFS_VOTEONCE","Nie g≥osuj na to samo wiÍcej niø jeden raz.");
-define("_WFS_RATINGSCALE","Skala jest od 1 do 10, gdzie 1 oznacza beznadziejny, a 10 wspania≥y.");
-define("_WFS_BEOBJECTIVE","ProszÍ byÊ obiektywnym, Je∂li kaødy zag≥osuje 1 lub 10, to ocena nie bÍdzie zbyt uøyteczna.");
-define("_WFS_DONOTVOTE","Nie moøesz g≥osowaÊ sam na siebie.");
-define("_WFS_RATEIT","OceÒ!");
+define("_WFS_VOTEONCE","Nie g≈Çosuj na to samo wiƒôcej ni≈º jeden raz.");
+define("_WFS_RATINGSCALE","Skala jest od 1 do 10, gdzie 1 oznacza beznadziejny, a 10 wspania≈Çy.");
+define("_WFS_BEOBJECTIVE","Proszƒô byƒá obiektywnym, Je≈õli ka≈ºdy zag≈Çosuje 1 lub 10, to ocena nie bƒôdzie zbyt u≈ºyteczna.");
+define("_WFS_DONOTVOTE","Nie mo≈ºesz g≈Çosowaƒá sam na siebie.");
+define("_WFS_RATEIT","Oce≈Ñ!");
 define("_WFS_DESCRIPTIONC","Opis: ");
 define("_WFS_EMAILC","Email: ");
 define("_WFS_CATEGORYC","Kategoria: ");
 define("_WFS_LASTUPDATEC","Ostatnia modyfikacja: ");
-define("_WFS_DLNOW","¶ci±gnij teraz!");
+define("_WFS_DLNOW","≈öciƒÖgnij teraz!");
 define("_WFS_VERSION","Wersja");
-define("_WFS_SUBMITDATE","Data nades≥ania");
+define("_WFS_SUBMITDATE","Data nades≈Çania");
 define("_WFS_DLTIMES","Downloaded %s times");
 define("_WFS_FILESIZE","Rozmiar pliku");
 define("_WFS_SUPPORTEDPLAT","Platforma");
-define("_WFS_HOMEPAGE","Strona g≥Ûwna");
-define("_WFS_HITSC","Ods≥ony: ");
+define("_WFS_HOMEPAGE","Strona g≈Ç√≥wna");
+define("_WFS_HITSC","Ods≈Çony: ");
 define("_WFS_RATINGC","Ocena: ");
-define("_WFS_ONEVOTE","1 g≥os");
-define("_WFS_NUMVOTES","%s g≥osy(Ûw)");
+define("_WFS_ONEVOTE","1 g≈Ços");
+define("_WFS_NUMVOTES","%s g≈Çosy(√≥w)");
 define("_WFS_ONEPOST","1 poczta");
-define("_WFS_NUMPOSTS","%s glosy(Ûw)");
+define("_WFS_NUMPOSTS","%s glosy(√≥w)");
 define("_WFS_COMMENTSC","Komaentarze: ");
-define("_WFS_RATETHISFILE","OceÒ ten artyku≥");
+define("_WFS_RATETHISFILE","Oce≈Ñ ten artyku≈Ç");
 define("_WFS_MODIFY","Modyfikuj");
 define("_WFS_TELLAFRIEND","Powiedz przyjacielowi");
-define("_WFS_VSCOMMENTS","Przegl±danie/wysy≥anie komentarzy");
+define("_WFS_VSCOMMENTS","PrzeglƒÖdanie/wysy≈Çanie komentarzy");
 define("_WFS_EDIT","Edytuj");
-define("_WFS_SUBMIT","Zatwierdº");
-define("_WFS_BYTES","BajtÛw");
-define("_WFS_ALREADYREPORTED","Przes≥a≥e∂ juø raport o niew≥a∂ciwych plikach dla tego przypadku.");
-define("_WFS_MUSTREGFIRST","Wybacz, nie jeste∂ uprawniony do wykanania tej akcji.<br>Najpierw siÍ zarejestruj albo zaloguj!");
+define("_WFS_SUBMIT","Zatwierd≈∫");
+define("_WFS_BYTES","Bajt√≥w");
+define("_WFS_ALREADYREPORTED","Przes≈Ça≈Çe≈õ ju≈º raport o niew≈Ça≈õciwych plikach dla tego przypadku.");
+define("_WFS_MUSTREGFIRST","Wybacz, nie jeste≈õ uprawniony do wykanania tej akcji.<br>Najpierw siƒô zarejestruj albo zaloguj!");
 define("_WFS_NORATING","No rating selected.");
-define("_WFS_CANTVOTEOWN","Nie moøesz g≥osowaÊ na samego siebie.<br>All votes are logged and reviewed.");
+define("_WFS_CANTVOTEOWN","Nie mo≈ºesz g≈Çosowaƒá na samego siebie.<br>All votes are logged and reviewed.");
 define("_WFS_RANK","Pozycja");
-define("_WFS_HITS","Ods≥ony"); //updated
+define("_WFS_HITS","Ods≈Çony"); //updated
 define("_WFS_RATING","Ocena");
-define("_WFS_VOTE","G≥osy");
+define("_WFS_VOTE","G≈Çosy");
 define("_WFS_TOP10","%s Top 10"); // %s is a review category name
 define("_WFS_CATEGORIES","Kategorie");
-define("_WFS_THANKSFORHELP","DziÍkujemy za pomoÊ w zintegrowaniu serwisu.");
-define("_WFS_FORSECURITY","Dla bezpieczeÒstwa Twoja nazwa uøytkownika i adres IP zostan± tymczasowo zapisane.");
-define("_WFS_NUMBYTES","%s bajtÛw");
+define("_WFS_THANKSFORHELP","Dziƒôkujemy za pomoƒá w zintegrowaniu serwisu.");
+define("_WFS_FORSECURITY","Dla bezpiecze≈Ñstwa Twoja nazwa u≈ºytkownika i adres IP zostanƒÖ tymczasowo zapisane.");
+define("_WFS_NUMBYTES","%s bajt√≥w");
 define("_WFS_TIMES"," times");
 define("_WFS_DOWNLOADS","Downloads for ");
 define("_WFS_FILETYPE","Typ pliku: ");
-define("_WFS_GROUPPROMPT","ZezwÛl na dostÍp nastÍpujacym grupom:");
-define("_WFS_REPORTBROKEN","Powiadom o niew≥a∂ciwym pliku");
-define("_WFS_IMGNAME","Nazwa pliku (Puste: Taka sama jak oryginalna (za≥adowana) nazwa pliku)");
-define("_WFS_POSTNEWARTICLE","Prze∂lij artyku≥");
-define("_WFS_SMILIE","Dodaj emotikony do artyku≥u");
-define("_WFS_EXGRAPHIC","Dodaj zewnÍtrzn± grafikÍ do artyku≥u");
-define("_WFS_GRAPHIC","Dodaj lokaln± grafikÍ do artyku≥u");
+define("_WFS_GROUPPROMPT","Zezw√≥l na dostƒôp nastƒôpujacym grupom:");
+define("_WFS_REPORTBROKEN","Powiadom o niew≈Ça≈õciwym pliku");
+define("_WFS_IMGNAME","Nazwa pliku (Puste: Taka sama jak oryginalna (za≈Çadowana) nazwa pliku)");
+define("_WFS_POSTNEWARTICLE","Prze≈õlij artyku≈Ç");
+define("_WFS_SMILIE","Dodaj emotikony do artyku≈Çu");
+define("_WFS_EXGRAPHIC","Dodaj zewnƒôtrznƒÖ grafikƒô do artyku≈Çu");
+define("_WFS_GRAPHIC","Dodaj lokalnƒÖ grafikƒô do artyku≈Çu");
 define("_WFS_NOIMG","Brak obrazka");
-define("_WFS_ARTIMGUPLOAD","Wy≥aduj obrazek");
+define("_WFS_ARTIMGUPLOAD","Wy≈Çaduj obrazek");
 define("_WFS_POPULAR","Popularne");
-define("_WFS_RATEFILE","OceÒ");
+define("_WFS_RATEFILE","Oce≈Ñ");
 define("_WFS_COMMENT","Komentarze");
 define("_WFS_RATED","Oceniony");
-define("_WFS_SUBMIT1","Nades≥any");
-define("_WFS_VOTES","G≥osy");
-define("_WFS_SORTBY1","uporz±dkowanie wed≥ug:");
-define("_WFS_TITLE1","Tytu≥");
+define("_WFS_SUBMIT1","Nades≈Çany");
+define("_WFS_VOTES","G≈Çosy");
+define("_WFS_SORTBY1","uporzƒÖdkowanie wed≈Çug:");
+define("_WFS_TITLE1","Tytu≈Ç");
 define("_WFS_DATE1","Data");
-define("_WFS_ARTICLEID1","ID artyku≥u");
-define("_WFS_POPULARITY1","Popularno∂Ê");
-define("_WFS_CURSORTBY1","Artyku≥y s± obecnie posortowane wed≥ug: %s");
+define("_WFS_ARTICLEID1","ID artyku≈Çu");
+define("_WFS_POPULARITY1","Popularno≈õƒá");
+define("_WFS_CURSORTBY1","Artyku≈Çy sƒÖ obecnie posortowane wed≈Çug: %s");
 define("_WFS_RATING1","Ocena");
 define("_WFS_NOTIFYPUBLISH","Email notification when published");
-define("_WFS_POPULARITYLTOM","Popularno∂Ê (od najniøszej do najwyøszej)");
-define("_WFS_POPULARITYMTOL","Popularno∂Ê (od najwyzszej do najniøszej)");
-define("_WFS_ARTICLEIDLTOM","ID artyku≥u (od 1 do 9)");
-define("_WFS_ARTICLEIDMTOL","ID artyku≥u (od 9 do 1)");
-define("_WFS_TITLEZTOA","Tytu≥ (od Z do A)");
-define("_WFS_TITLEATOZ","Tytu≥ (od Z do A)");
-define("_WFS_DATEOLD","Data (Starsze artyku≥y najpierw)");
-define("_WFS_DATENEW","Data (Nowsze artyku≥y najpierw)");
-define("_WFS_RATINGLTOH","Ocena (od najniøszej do najwyøszej)");
-define("_WFS_RATINGHTOL","Ocena (od najwyøszej do najniøszej)");
-define("_WFS_SUBMITLTOH","Data przes≥ania (Najpierw starsze potem nowsze)");
-define("_WFS_SUBMITHTOL","Data przes≥ania (Najpierw nowsze potem starsze)");
+define("_WFS_POPULARITYLTOM","Popularno≈õƒá (od najni≈ºszej do najwy≈ºszej)");
+define("_WFS_POPULARITYMTOL","Popularno≈õƒá (od najwyzszej do najni≈ºszej)");
+define("_WFS_ARTICLEIDLTOM","ID artyku≈Çu (od 1 do 9)");
+define("_WFS_ARTICLEIDMTOL","ID artyku≈Çu (od 9 do 1)");
+define("_WFS_TITLEZTOA","Tytu≈Ç (od Z do A)");
+define("_WFS_TITLEATOZ","Tytu≈Ç (od Z do A)");
+define("_WFS_DATEOLD","Data (Starsze artyku≈Çy najpierw)");
+define("_WFS_DATENEW","Data (Nowsze artyku≈Çy najpierw)");
+define("_WFS_RATINGLTOH","Ocena (od najni≈ºszej do najwy≈ºszej)");
+define("_WFS_RATINGHTOL","Ocena (od najwy≈ºszej do najni≈ºszej)");
+define("_WFS_SUBMITLTOH","Data przes≈Çania (Najpierw starsze potem nowsze)");
+define("_WFS_SUBMITHTOL","Data przes≈Çania (Najpierw nowsze potem starsze)");
 define("_WFS_WEIGHT","Rozmiar");
-define("_WFS_NOTITLE","B£°D: Brak tytu≥u - ProszÍ wrÛciÊ i wprowadzic tytu≥ swojego artyku≥u");
-define("_WFS_NOMAINTEXT","B£°D: Brak tekstu podstawowego - ProszÍ wrÛciÊ i wprowadzic tekst podstawowy swojego artyku≥u");
-define("_WFS_RATINGA","Ocena artyku≥u: %s");
+define("_WFS_NOTITLE","B≈ÅƒÑD: Brak tytu≈Çu - Proszƒô wr√≥ciƒá i wprowadzic tytu≈Ç swojego artyku≈Çu");
+define("_WFS_NOMAINTEXT","B≈ÅƒÑD: Brak tekstu podstawowego - Proszƒô wr√≥ciƒá i wprowadzic tekst podstawowy swojego artyku≈Çu");
+define("_WFS_RATINGA","Ocena artyku≈Çu: %s");
 define("_WFS_HTMLPAGE","Plik HTML </b>(This will override the text editor)");
-define("_WFS_DBUPDATED","DziÍkujemy za przesy≥kÍ.");
+define("_WFS_DBUPDATED","Dziƒôkujemy za przesy≈Çkƒô.");
 define("_WFS_INTFILEAT","Have a look at this article at %s");
-define("_WFS_INTFILEFOUND","Tutaj jest interesuj±cy artyku≥. Zna≥aø≥em go na stronie: %s");
+define("_WFS_INTFILEFOUND","Tutaj jest interesujƒÖcy artyku≈Ç. Zna≈Ça≈º≈Çem go na stronie: %s");
 define("_WFS_DESCRIPTION","Opis pliku");
-define("_WFS_ARTICLEADDIT","Dodatki artyku≥u");
-define("_WFS_ARTICLELINK","Odsy≥acz URL do artyku≥u");
-define("_WFS_MISCSETTINGS","Pozosta≥e ustawienia artyku≥u");
+define("_WFS_ARTICLEADDIT","Dodatki artyku≈Çu");
+define("_WFS_ARTICLELINK","Odsy≈Çacz URL do artyku≈Çu");
+define("_WFS_MISCSETTINGS","Pozosta≈Çe ustawienia artyku≈Çu");
 define("_WFS_FILEDESCRIPT","Opis pliku");
-define("_WFS_ATTACHEDFILESTXT","<b>Pliki wy≥adowane</b><br/><br />To pokazuje listÍ plikÛw przy≥±czonych do aktualnego artyku≥u. Moøesz edytowaÊ kaødy przy≥±czony plik klikaj±c na odsy≥acz Edytuj.<br /><br />Files can only be attached to a article once you 'edit' a saved article.");
-define("_WFS_DOWNLOAD","Wy≥aduj plik przy≥±czony");
+define("_WFS_ATTACHEDFILESTXT","<b>Pliki wy≈Çadowane</b><br/><br />To pokazuje listƒô plik√≥w przy≈ÇƒÖczonych do aktualnego artyku≈Çu. Mo≈ºesz edytowaƒá ka≈ºdy przy≈ÇƒÖczony plik klikajƒÖc na odsy≈Çacz Edytuj.<br /><br />Files can only be attached to a article once you 'edit' a saved article.");
+define("_WFS_DOWNLOAD","Wy≈Çaduj plik przy≈ÇƒÖczony");
 define("_WFS_PUBLISHEDHOME","Opublikowano");
 define("_WFS_ARTSIZE","Rozmiar %s");
-define("_WFS_DISCLAIMER","<b>Zastrzeøenie:</b> Serwis nie odpowiada za jakiekolwiek komentarze napisane przez uøytkownikÛw.");
-define("_WFS_ONLYREGISTEREDUSERS","Tylko zarejestrowani uøytkownicy mog± raportowaÊ b≥Ídne ∂ci±gacze!");
-define("_WFS_THANKSFORINFO","DziÍkujemy za informacjÍ. Rozpatrzymy j± jak najszybciej.");
+define("_WFS_DISCLAIMER","<b>Zastrze≈ºenie:</b> Serwis nie odpowiada za jakiekolwiek komentarze napisane przez u≈ºytkownik√≥w.");
+define("_WFS_ONLYREGISTEREDUSERS","Tylko zarejestrowani u≈ºytkownicy mogƒÖ raportowaƒá b≈Çƒôdne ≈õciƒÖgacze!");
+define("_WFS_THANKSFORINFO","Dziƒôkujemy za informacjƒô. Rozpatrzymy jƒÖ jak najszybciej.");
 define("_WFS_FILEPERMISSION","Uprawnienia pliku dla pliku");
 define("_WFS_DOWNLOADED","Times Downloaded");
-define("_WFS_DOWNLOADSIZE","Rozmiar pliku po ∂ci±gniÍciu");
+define("_WFS_DOWNLOADSIZE","Rozmiar pliku po ≈õciƒÖgniƒôciu");
 define("_WFS_LASTACCESS","Last Accessed on server");
 define("_WFS_LASTUPDATED","Ostatnia modyfikacja");
 define("_WFS_ERRORCHECK","Plik istnieje?");
-define("_AM_FILEATTACHED","Przy≥±czyÊ plik do artyku≥u?");
+define("_AM_FILEATTACHED","Przy≈ÇƒÖczyƒá plik do artyku≈Çu?");
 define("_WFS_NODESCRIPT","Brak opisu do pliku.");
-define("_WFS_UPLOADED","Za≥adowano: ");
+define("_WFS_UPLOADED","Za≈Çadowano: ");
 define("_WFS_FILEMIMETYPE","Typ Mime pliku");
 
 // add disbr, enaamp
@@ -243,9 +243,9 @@ define("_WFS_DISBR","Not change New-line into br.");
 define("_WFS_ENAAMP","Change &amp; into &amp;amp; at the time of edit.");
 
 // article.php
-define("_WFS_ARTCLE_MORE","S± dwa albo wiÍcej artyku≥Ûw o podobnym tytule.");
+define("_WFS_ARTCLE_MORE","SƒÖ dwa albo wiƒôcej artyku≈Ç√≥w o podobnym tytule.");
 
 // multi language in index.php
-define("_WFS_ERROR_IMAGE","B£°D: ProszÍ sprawdziÊ ∂cieøkÍ/plik obrazka");
+define("_WFS_ERROR_IMAGE","B≈ÅƒÑD: Proszƒô sprawdziƒá ≈õcie≈ºkƒô/plik obrazka");
 
 ?>

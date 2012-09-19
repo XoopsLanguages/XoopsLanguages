@@ -2,7 +2,7 @@ Subject: Nowe Konto
 
 Witamy,
 
-Konto o nazwie "{USERNAME}" zosta≥o deaktywowane lub nowo utworzone, powiniene∂ sprawdziÊ szczegÛ≥y tego uøytkownika (je∂li to konieczne) i aktywowaÊ konto uøywaj±c poniøszego odno∂nika:
+Konto o nazwie "{USERNAME}" zosta≈Ço deaktywowane lub nowo utworzone, powiniene≈õ sprawdziƒá szczeg√≥≈Çy tego u≈ºytkownika (je≈õli to konieczne) i aktywowaƒá konto u≈ºywajƒÖc poni≈ºszego odno≈õnika:
 
 {U_ACTIVATE}
 

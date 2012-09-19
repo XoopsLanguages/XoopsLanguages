@@ -19,7 +19,7 @@ define('BBOARD_DESC','phpBB2 dla Xoopsa - Zintegrowany');
 
 // Names of blocks for this module (Not all module has blocks)
 define('BBOARD_BNAME1','Najnowsze Tematy');
-define('BBOARD_BNAME2','Najczêœciej Ogl¹dane Tematy');
+define('BBOARD_BNAME2','NajczÄ™Âœciej OglÅ¡dane Tematy');
 define('BBOARD_BNAME3','Najaktywniejsze Tematy');
 
 ?>

@@ -10,21 +10,21 @@
 // Blocks
 define("_MB_SF_ALLCAT"           , "Wszystkie kategorie ");
 define("_MB_SF_ALLUNANSWERED"    , "Zobacz wszystkie pytania bez odpowiedzi...");
-define("_MB_SF_ANSWEREDBY"       , "Odpowied¼ dodana przez");
-define("_MB_SF_ANSWERHERE"       , "Odpowied¼ tu!");
+define("_MB_SF_ANSWEREDBY"       , "OdpowiedÅº dodana przez");
+define("_MB_SF_ANSWERHERE"       , "OdpowiedÅº tu!");
 define("_MB_SF_ARTICLEID"        , "- Pytania i Odpowiedzi - Id");
 define("_MB_SF_CATEGORY"         , "Kategoria");
-define("_MB_SF_CHARS"            , "D³ugo¶æ pytania");
+define("_MB_SF_CHARS"            , "DÅ‚ugoÅ›Ä‡ pytania");
 define("_MB_SF_DATE"             , "Data publikacji");
-define("_MB_SF_DISP"             , "Ilo¶æ ogl±dniêæ");
+define("_MB_SF_DISP"             , "IloÅ›Ä‡ oglÄ…dniÄ™Ä‡");
 define("_MB_SF_FAQS"             , "- Pytania i Odpowiedzi -");
-define("_MB_SF_HITS"             , "Ilo¶æ klikniêæ");
-define("_MB_SF_LENGTH"           , " znaków");
-define("_MB_SF_MOREDETAILS"      , "Poka¿ wiêcej...");
-define("_MB_SF_ORDER"            , "Kolejno¶æ sortowania");
-define("_MB_SF_QUESTIONS"        , "pytañ");
-define("_MB_SF_SELECTCAT"        , "Poka¿ dla - Pytania i Odpowiedzi -");
+define("_MB_SF_HITS"             , "IloÅ›Ä‡ klikniÄ™Ä‡");
+define("_MB_SF_LENGTH"           , " znakÃ³w");
+define("_MB_SF_MOREDETAILS"      , "PokaÅ¼ wiÄ™cej...");
+define("_MB_SF_ORDER"            , "KolejnoÅ›Ä‡ sortowania");
+define("_MB_SF_QUESTIONS"        , "pytaÅ„");
+define("_MB_SF_SELECTCAT"        , "PokaÅ¼ dla - Pytania i Odpowiedzi -");
 define("_MB_SF_SHOW_DATE"        , "Data publikacji:");
-define("_MB_SF_VISITFAQ"         , "Odwied¼");
-define("_MB_SF_WEIGHT"           , "Sortuj wed³ug wagi");
+define("_MB_SF_VISITFAQ"         , "OdwiedÅº");
+define("_MB_SF_WEIGHT"           , "Sortuj wedÅ‚ug wagi");
 ?>

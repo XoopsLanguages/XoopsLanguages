@@ -21,5 +21,5 @@ Introduction
  
  
  dap997
- Zawarto¶æ katalogu uploads prosze skopiowaæ do katalogu uploads, a nie do dokuwik. Tu katalog uploads jest w katalogu dokuwiki, ze wzgledow technicznych.
+ ZawartoÅ›Ä‡ katalogu uploads prosze skopiowaÄ‡ do katalogu uploads, a nie do dokuwik. Tu katalog uploads jest w katalogu dokuwiki, ze wzgledow technicznych.
  

@@ -1,41 +1,41 @@
 [xlang:pl]
 = PODSUMOWANIE =
 
-   Xoops Protector to modu³ pozwalaj±cy zabezpieczyæ XOOPSA przed wieloma rodzajami ataków hackerskich.
+   Xoops Protector to moduÅ‚ pozwalajÄ…cy zabezpieczyÄ‡ XOOPSA przed wieloma rodzajami atakÃ³w hackerskich.
 
-Lista ataków przed którymi mo¿e ochroniæ modu³ Xoops Protector:
+Lista atakÃ³w przed ktÃ³rymi moÅ¼e ochroniÄ‡ moduÅ‚ Xoops Protector:
 
 - DoS
-- Z³e Crawlers (n.p. roboty zbieraj±ce adresy e-mail...)
+- ZÅ‚e Crawlers (n.p. roboty zbierajÄ…ce adresy e-mail...)
 - SQL Injection
 - XSS (W pewnym stopniu ...)
 - Zanieczyszczenie zmiennych globalnych
-- Przejêcie sesji
+- PrzejÄ™cie sesji
 - Puste bajty
-- ¦cie¿ka mog±ca byæ odwo³aniem do niebezpiecznego pliku
-- Pewne ataki typu CSRF (bardzo gro¼ne dla XOOPS <= 2.0.9.2)
+- ÅšcieÅ¼ka mogÄ…ca byÄ‡ odwoÅ‚aniem do niebezpiecznego pliku
+- Pewne ataki typu CSRF (bardzo groÅºne dla XOOPS <= 2.0.9.2)
 
-Xoops Protector zabezpiecza Twoj± stronê przed tymi atakami i zapisuje zdarzenia w dzienniku
+Xoops Protector zabezpiecza TwojÄ… stronÄ™ przed tymi atakami i zapisuje zdarzenia w dzienniku
 
-Pamiêtaj, ¿e nie da siê obronic przed wszystkimi atakami. Bêd¼ czujny!
+PamiÄ™taj, Å¼e nie da siÄ™ obronic przed wszystkimi atakami. BÄ™dÅº czujny!
 
-Niemniej jednak, [color=ff0000][b]zalecamy[/b][/color] zainstalowanie tego modu³u we wszystkich wersjach Xoopsa.
+Niemniej jednak, [color=ff0000][b]zalecamy[/b][/color] zainstalowanie tego moduÅ‚u we wszystkich wersjach Xoopsa.
 
 
 
 = DLA UZYTKOWNIKOW AntiDoS-P =
 
-Poprzednikiem Protectora by³ modu³ AntiDoS-P
+Poprzednikiem Protectora byÅ‚ moduÅ‚ AntiDoS-P
 
-wszystkie funkcje z AntiDoS-P zosta³y przeniesione do Protectora. Zaleca siê odinstalowanie Anti DoS-P.
+wszystkie funkcje z AntiDoS-P zostaÅ‚y przeniesione do Protectora. Zaleca siÄ™ odinstalowanie Anti DoS-P.
 
 
 
 = INSTRUKCJE =
 
-Zainstaluj modu³ jak ka¿dy inny w Xoops. 
+Zainstaluj moduÅ‚ jak kaÅ¼dy inny w Xoops. 
 
-Po zainstalowniu Xoops Protector-a, musisz wyedytowaæ plik mainfile.php jak poni¿ej:
+Po zainstalowniu Xoops Protector-a, musisz wyedytowaÄ‡ plik mainfile.php jak poniÅ¼ej:
 [code]
 	define('XOOPS_GROUP_ADMIN', '1');
 	define('XOOPS_GROUP_USERS', '2');
@@ -47,24 +47,24 @@ Po zainstalowniu Xoops Protector-a, musisz wyedytowaæ plik mainfile.php jak poni
 	}
 	[color=ff0000]include( XOOPS_ROOT_PATH . '/modules/protector/include/postcheck.inc.php' ) ;[/color]
 [/code]
-Je¶li czê¶æ zaznaczona na niebieski w twoim pliku mainfile.php, wygl±da inaczej, nie zwracaj na to uwagi.
+JeÅ›li czÄ™Å›Ä‡ zaznaczona na niebieski w twoim pliku mainfile.php, wyglÄ…da inaczej, nie zwracaj na to uwagi.
 
-Obydwa wywo³ania pre-check i post-check s± niezbedne!
+Obydwa wywoÅ‚ania pre-check i post-check sÄ… niezbedne!
 
-Przed w³±czeniem modu³u upewnij siê, czy w ustawieniach systemowych nie ma Twojego numeru IP jako, tego, który ma zabroniony dostêp do serwisu!
+Przed wÅ‚Ä…czeniem moduÅ‚u upewnij siÄ™, czy w ustawieniach systemowych nie ma Twojego numeru IP jako, tego, ktÃ³ry ma zabroniony dostÄ™p do serwisu!
 
-Je¶li zostaniesz nieszczêsliwie zbanowany ze swojego serwisu, przejdz do strony:
+JeÅ›li zostaniesz nieszczÄ™sliwie zbanowany ze swojego serwisu, przejdz do strony:
 http://(your xoops)/modules/protector/admin/rescue.php
-gdzie mo¿esz usun±æ sobie bana. Pamietaj, ¿eby wczesniej ustawic haslo odblokowuj±ce!!!
+gdzie moÅ¼esz usunÄ…Ä‡ sobie bana. Pamietaj, Å¼eby wczesniej ustawic haslo odblokowujÄ…ce!!!
 
 
-Opcja "Zabroñ (DENY) przez .htaccess" zosta³a dodana w wersji 2.34.
-je¶li chcesz przetestowaæ t± opcjê ustaw mozliwo¶æ zapisu pliku XOOPS_ROOT_PATH/.htaccess
-Zanim jednak to zrobisz, przemy¶l ryzyko zwi±zane z mozliow¶ci± zapisu do pliku .htaccess!
+Opcja "ZabroÅ„ (DENY) przez .htaccess" zostaÅ‚a dodana w wersji 2.34.
+jeÅ›li chcesz przetestowaÄ‡ tÄ… opcjÄ™ ustaw mozliwoÅ›Ä‡ zapisu pliku XOOPS_ROOT_PATH/.htaccess
+Zanim jednak to zrobisz, przemyÅ›l ryzyko zwiÄ…zane z mozliowÅ›ciÄ… zapisu do pliku .htaccess!
 
 
 
-= PODZIÊKOWANA =
+= PODZIÄ˜KOWANA =
  - Kikuchi  (Traditional Chinese language files)
  - Marcelo Yuji Himoro (Brazilian Portuguese and Spanish language files)
  - HMN (French language files)

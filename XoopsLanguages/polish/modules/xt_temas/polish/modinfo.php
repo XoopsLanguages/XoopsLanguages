@@ -2,17 +2,17 @@
 // The name of this module
 define("_XT_TE_NOME"          ,"Motywy graficzne");
 
-// Descrição Para o Módulo
-define("_XT_TE_DESCRI"        ,"Instaluje blok, który umo¿liwia wybór i zapamiêtanie ulubionego motywu graficznego.");
+// DescriÃ§Äƒo Para o MÃ³dulo
+define("_XT_TE_DESCRI"        ,"Instaluje blok, ktÃ³ry umoÅ¼liwia wybÃ³r i zapamiÄ™tanie ulubionego motywu graficznego.");
 
 // The name of this Block
 define("_XT_TE_BLOCO"         ,"Motywy");
 
 // Description of this Block
-define("_XT_TE_BLOCO_DESCRI"  ,"Pokazuje blok z motywami graficznymi z mo¿liwo¶ci± jego wyboru i zapmiêtanie miêdzy logowaniami.");
+define("_XT_TE_BLOCO_DESCRI"  ,"Pokazuje blok z motywami graficznymi z moÅ¼liwoÅ›ciÄ… jego wyboru i zapmiÄ™tanie miÄ™dzy logowaniami.");
 
 //***********************************************************************//
-// Não Altere Abaixo!!! Do not change below!!!                           //
+// NÄƒo Altere Abaixo!!! Do not change below!!!                           //
 //***********************************************************************//
 
 define("_XT_TE_DIR"           ,"xt_temas");

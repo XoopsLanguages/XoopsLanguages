@@ -4,7 +4,7 @@
 * ----------------------------------------------------             *
 * RMSOFT MyFolder 1.0                                              *
 * Módulo para el manejo de un portafolio profesional               *
-* CopyRight © 2006. Red México Soft                                *
+* CopyRight Š 2006. Red México Soft                                *
 * Autor: BitC3R0                                                   *
 * http://www.redmexico.com.mx                                      *
 * http://www.xoops-mexico.net                                      *
@@ -28,22 +28,22 @@
 * main.php:                                                        *
 * Archivo de lenguaje para la sección frontal del archivo          *
 * ----------------------------------------------------             *
-* @copyright: © 2006. BitC3R0.                                     *
+* @copyright: Š 2006. BitC3R0.                                     *
 * @autor: BitC3R0                                                  *
 * @paquete: RMSOFT GS 2.0                                          *
 * @version: 1.0.4                                                  *
-* @Polskie t³umaczenie - Sylwester Pyrka www.ibr.org.pl            *
+* @Polskie tłumaczenie - Sylwester Pyrka www.ibr.org.pl            *
 *******************************************************************/
 
-define('_RMMF_CATEGOS','Kategorie');
-define('_RMMF_FEATURED','Wyró¿nione prace');
-define('_RMMF_RECENTS','Wcze¶niejsze prace');
-define('_RMMF_WORKS','Prace');
-define('_RMMF_VIEWINFO','Poka¿ szczegó³y');
-define('_RMMF_FOR','Wykonano dla:');
-define('_RMMF_DESC','Opis:');
-define('_RMMF_URL','Odno¶niki:');
-define('_RMMF_COMMENT','%s komentarzy:');
-define('_RMMF_MOREIMAGES','Obrazy:');
-define('_RMMF_PAGES','Strony:');
+define('_RMMF_CATEGOS', 'Kategorie');
+define('_RMMF_FEATURED', 'Wyróżnione prace');
+define('_RMMF_RECENTS', 'Wcześniejsze prace');
+define('_RMMF_WORKS', 'Prace');
+define('_RMMF_VIEWINFO', 'Pokaż szczegóły');
+define('_RMMF_FOR', 'Wykonano dla:');
+define('_RMMF_DESC', 'Opis:');
+define('_RMMF_URL', 'Odnośniki:');
+define('_RMMF_COMMENT', '%s komentarzy:');
+define('_RMMF_MOREIMAGES', 'Obrazy:');
+define('_RMMF_PAGES', 'Strony:');
 ?>

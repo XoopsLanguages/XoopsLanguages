@@ -4,7 +4,7 @@ You have received one request to become client of your site {SITENAME}
 The request was sent by the user {USER} from the IP {IP} 
 The information you provide us in the join form was:  
 
-Títle: {TITLE}
+TÃ­tle: {TITLE}
 URL:    {URL}
 Image: {IMAGE}
 Description:

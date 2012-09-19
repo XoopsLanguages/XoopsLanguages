@@ -1,16 +1,16 @@
 Witaj {NAME}!
 
-{SENDER} przesy³a Ci pocztówkê ze strony {SITENAME}.
+{SENDER} przesyÅ‚a Ci pocztÃ³wkÄ™ ze strony {SITENAME}.
 
-Znajduje siê ona pod adresem:
+Znajduje siÄ™ ona pod adresem:
 
 {LINK}
 
-Pocztówka wys³ana z {URL}
+PocztÃ³wka wysÅ‚ana z {URL}
 
 {MODNAME}
 
-Bêdzie ona dostêpna przez {DAYS} dni.
+BÄ™dzie ona dostÄ™pna przez {DAYS} dni.
 
 -------------------------------------
 Powered by RMSOFT Gallery System 2.0

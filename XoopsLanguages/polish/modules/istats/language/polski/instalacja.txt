@@ -1,8 +1,8 @@
-Aby zainstalowaæ I-Stats wykonaj nastêpuj¹ce czynnoœci:
+Aby zainstalowaÄ‡ I-Stats wykonaj nastÄ™pujÅ¡ce czynnoÂœci:
 
-1 - Po rozpakowaniu umieœæ katalog z modu³em na serwerze w katalogu /modules , zainstaluj go w tradycyjny sposób.
+1 - Po rozpakowaniu umieÂœÄ‡ katalog z moduÅ‚em na serwerze w katalogu /modules , zainstaluj go w tradycyjny sposÃ³b.
 
-2 - Dodaj w pliku *.css twojej skórki(theme) nastêpuj¹ce wartoœci:
+2 - Dodaj w pliku *.css twojej skÃ³rki(theme) nastÄ™pujÅ¡ce wartoÂœci:
 
     .statstable { margin:0px; padding:0px; width:auto; font-size: small; font-weight: normal;}
     .stats { vertical-align: bottom; width:625px; margin:0; border: 0;}
@@ -12,11 +12,11 @@ Aby zainstalowaæ I-Stats wykonaj nastêpuj¹ce czynnoœci:
     .statsfore { width: 30%; padding:2px;}
     .statsdiv { text-align:center; padding:0px;}
 
-Doda³em te wartoœci próbuj¹c zagwarantowaæ taki sam aspekt wizualny modu³u w wiêkszoœci skórek xoopsa oraz w tych przegl¹darkach (IE, opera, mozilla, konqueror and galeon). 
-Pewne niedoskona³oœci wystêpuj¹ z konqueror.
+DodaÅ‚em te wartoÂœci prÃ³bujÅ¡c zagwarantowaÄ‡ taki sam aspekt wizualny moduÅ‚u w wiÄ™kszoÂœci skÃ³rek xoopsa oraz w tych przeglÅ¡darkach (IE, opera, mozilla, konqueror and galeon). 
+Pewne niedoskonaÅ‚oÂœci wystÄ™pujÅ¡ z konqueror.
 
-3 - IdŸ do pliku theme.html swojej skórki i dodaj w czêœci Stopka nastêpuj¹cy kod:
-    Przyk³ad na podstawie skórki Default:
+3 - IdÂŸ do pliku theme.html swojej skÃ³rki i dodaj w czÄ™Âœci Stopka nastÄ™pujÅ¡cy kod:
+    PrzykÅ‚ad na podstawie skÃ³rki Default:
 
 	      <table width="100%" cellspacing="0">
 	    <tr id="footerbar">
@@ -35,20 +35,20 @@ Pewne niedoskona³oœci wystêpuj¹ z konqueror.
 	</body>
 	</html>
 
-Kod ten spowoduje ¿e modu³ zacznie liczyæ.
-Jeœli wyst¹pi¹ jakieœ problemy z rozpoczêciem liczenia zapraszam na forum http://123rando.com.
-Znajdziesz tam rozwi¹zanie problemu.
+Kod ten spowoduje Å¼e moduÅ‚ zacznie liczyÄ‡.
+JeÂœli wystÅ¡piÅ¡ jakieÂœ problemy z rozpoczÄ™ciem liczenia zapraszam na forum http://123rando.com.
+Znajdziesz tam rozwiÅ¡zanie problemu.
 
 
 
-4 - Jeœli masz zamiar zmieniæ opcjê "¿ywotnoœci cookie" ustaw atrybuty katalogu cache na 777 oraz pliku config.php na 666 (tych w katalogu modu³u oczywiœcie)
+4 - JeÂœli masz zamiar zmieniÄ‡ opcjÄ™ "Å¼ywotnoÂœci cookie" ustaw atrybuty katalogu cache na 777 oraz pliku config.php na 666 (tych w katalogu moduÅ‚u oczywiÂœcie)
 
 
-Powinieneœ wiedzieæ ¿e przy rozdzielczoœci 1024x768 prawy blok nie bêdzie widoczny na podstronie I-Stats.
-Mo¿liwe równie¿ ¿e podobnie bêdzie na wy¿szych rozdzielczoœciach.
-Jeœli wprowadzi³eœ jakieœ poprawki(co nie wydaje siê trudne) nie fatyguj siê i nie wysy³aj mi nowych plików.
+PowinieneÂœ wiedzieÄ‡ Å¼e przy rozdzielczoÂœci 1024x768 prawy blok nie bÄ™dzie widoczny na podstronie I-Stats.
+MoÅ¼liwe rÃ³wnieÅ¼ Å¼e podobnie bÄ™dzie na wyÅ¼szych rozdzielczoÂœciach.
+JeÂœli wprowadziÅ‚eÂœ jakieÂœ poprawki(co nie wydaje siÄ™ trudne) nie fatyguj siÄ™ i nie wysyÅ‚aj mi nowych plikÃ³w.
 
 
 Sylvain B webmaster http://123rando.com
-T³umaczenie v0.1 : Frano 
-B³êdy w t³umaczeniu zg³oœ na adres fran0@o2.pl
+TÅ‚umaczenie v0.1 : Frano 
+BÅ‚Ä™dy w tÅ‚umaczeniu zgÅ‚oÂœ na adres fran0@o2.pl

@@ -1,17 +1,17 @@
 <?php
 //Directories
 define('_IC_B_NODIRECTORY',"Brak katalogu");
-define('_IC_B_DIRECTORIESNUMBER',"Liczba katalog體 do wy渨ietlenia");
+define('_IC_B_DIRECTORIESNUMBER',"Liczba katalog贸w do wy聹wietlenia");
 
 //Pages
 define('_IC_B_NOPAGE',"Brak stron");
-define('_IC_B_PAGESNUMBER',"Liczba stron do wy渨ietlenia");
+define('_IC_B_PAGESNUMBER',"Liczba stron do wy聹wietlenia");
 
 //Shortcuts
-define('_IC_B_NOSHORTCUT',"Brak skr髏體");
+define('_IC_B_NOSHORTCUT',"Brak skr贸t贸w");
 
 //Misc
-define('_IC_B_HITS',"Wej滄");
-define('_IC_B_NAMELENGTH',"D硊go滄 nazwy");
-define('_IC_B_CHARS',"znak體");
+define('_IC_B_HITS',"Wej聹膰");
+define('_IC_B_NAMELENGTH',"D艂ugo聹膰 nazwy");
+define('_IC_B_CHARS',"znak贸w");
 ?>

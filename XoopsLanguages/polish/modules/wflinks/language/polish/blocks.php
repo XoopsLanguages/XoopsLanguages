@@ -10,8 +10,8 @@
  */
  
 // Blocks
-define("_MB_WFL_DISP"    ,"Poka¿");
+define("_MB_WFL_DISP"    ,"PokaÅ¼");
 define("_MB_WFL_FILES"   ,"Linki");
-define("_MB_WFL_CHARS"   ,"D³ugo¶æ tytu³u ");
-define("_MB_WFL_LENGTH"  ," znaków");
+define("_MB_WFL_CHARS"   ,"DÅ‚ugoÅ›Ä‡ tytuÅ‚u ");
+define("_MB_WFL_LENGTH"  ," znakÃ³w");
 ?>

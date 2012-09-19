@@ -1,21 +1,21 @@
 Witaj {X_UNAME},
 
-Nowy link - "{LINK_NAME}" zosta³ dodany do kategorii - "{CATEGORY_NAME}" na {X_SITENAME}.
+Nowy link - "{LINK_NAME}" zostaÅ‚ dodany do kategorii - "{CATEGORY_NAME}" na {X_SITENAME}.
 
-Nowy link mo¿esz zobaczyæ tutaj:
+Nowy link moÅ¼esz zobaczyÄ‡ tutaj:
 {LINK_URL}
 
-Tutaj mo¿esz zobaczyæ ca³± kategoriê:
+Tutaj moÅ¼esz zobaczyÄ‡ caÅ‚Ä… kategoriÄ™:
 {CATEGORY_URL}
 
 -----------
 
-Otrzyma³e¶ t± wiadomo¶æ poniewa¿ chcia³e¶ byæ powiadamiany o nowo¶ciach w dziale download.
+OtrzymaÅ‚eÅ› tÄ… wiadomoÅ›Ä‡ poniewaÅ¼ chciaÅ‚eÅ› byÄ‡ powiadamiany o nowoÅ›ciach w dziale download.
 
-Je¿eli nie chcesz otrzymywaæ takich maili kliknij link poni¿ej:
+JeÅ¼eli nie chcesz otrzymywaÄ‡ takich maili kliknij link poniÅ¼ej:
 {X_UNSUBSCRIBE_URL}
 
-Nie odpowiadaj na t± wiadomo¶æ.
+Nie odpowiadaj na tÄ… wiadomoÅ›Ä‡.
 
 -----------
 

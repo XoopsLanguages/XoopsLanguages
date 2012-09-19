@@ -23,20 +23,20 @@
  **
  ****************************************************************************** 
  ** Copyright (C) 2004 NGUYEN DINH Quoc-Huy (SnAKes)
- ** Cette bibliothËque est libre, vous pouvez la redistribuer et/ou la modifier
- ** selon les termes de la Licence Publique GÈnÈrale GNU LimitÈe publiÈe par la 
- ** Free Software Foundation (version 2 ou bien toute autre version ultÈrieure 
+ ** Cette bibliothƒçque est libre, vous pouvez la redistribuer et/ou la modifier
+ ** selon les termes de la Licence Publique G√©n√©rale GNU Limit√©e publi√©e par la 
+ ** Free Software Foundation (version 2 ou bien toute autre version ult√©rieure 
  ** choisie par vous).
  **
- ** Cette bibliothËque est distribuÈe car potentiellement utile, mais SANS
+ ** Cette bibliothƒçque est distribu√©e car potentiellement utile, mais SANS
  ** AUCUNE GARANTIE, ni explicite ni implicite, y compris les garanties de 
- ** commercialisation ou d'adaptation dans un but spÈcifique. Reportez-vous 
- ** ‡ la Licence Publique GÈnÈrale GNU LimitÈe pour plus de dÈtails.
+ ** commercialisation ou d'adaptation dans un but sp√©cifique. Reportez-vous 
+ ** ≈ï la Licence Publique G√©n√©rale GNU Limit√©e pour plus de d√©tails.
  **
- ** Vous devez avoir reÁu une copie de la Licence Publique GÈnÈrale GNU LimitÈe
- ** en mÍme temps que cette bibliothËque; si ce n'est pas le cas, Ècrivez ‡ la 
+ ** Vous devez avoir re√ßu une copie de la Licence Publique G√©n√©rale GNU Limit√©e
+ ** en mƒôme temps que cette bibliothƒçque; si ce n'est pas le cas, √©crivez ≈ï la 
  ** Free Software Foundation, Inc., 59 Temple Place, Suite 330, Boston,
- ** MA 02111-1307, …tats-Unis.
+ ** MA 02111-1307, √âtats-Unis.
  **
  ******************************************************************************/
 include_once("../../mainfile.php");
@@ -579,7 +579,7 @@ function showSignForm() {
 	<tr><td align=right>email:</td><td><input name="email" size=30></td></tr>
 	<tr><td align=right>Strona WWW:</td><td><input name="url" size=30 value="http://"></td></tr>
 	<tr><td align=right>'._SnX_GB_TITLE.'<font color=#ff0000>*</font>:</td><td><input name="title" size=30></td></tr>
-	<tr><td align=right>Wiadomo∂Ê<font color=#ff0000>*</font> (no HTML):</td><td><textarea name="comment" rows=5 cols=50></textarea></td></tr>
+	<tr><td align=right>Wiadomo≈õƒá<font color=#ff0000>*</font> (no HTML):</td><td><textarea name="comment" rows=5 cols=50></textarea></td></tr>
 	<tr><td>&nbsp;</td><td>'.stripslashes(_SnX_GB_FILL_FORM_FIELDS).'</td></tr>
 	<tr><td>&nbsp;</td><td><input type=submit value="'._SnX_GB_SIGN_NOW.'" name="submit"></td></tr>
 	</table>

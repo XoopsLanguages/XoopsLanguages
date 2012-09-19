@@ -10,89 +10,89 @@
 
 //Main Admin Section
 
-define('_AM_QUOTEINTRO'       ,'Witaj w panelu kontroli modu≥u WF-Quote');
+define('_AM_QUOTEINTRO'       ,'Witaj w panelu kontroli modu≈Çu WF-Quote');
 
 /*
 * Uni Lang defines
 */
-define('_AM_CREATE'           ,'UtwÛrz');
+define('_AM_CREATE'           ,'Utw√≥rz');
 define('_AM_YES'              ,'Tak');
 define('_AM_NO'               ,'Nie');
 define('_AM_DELETE'           ,'Skasuj');
-define('_AM_MODIFY'           ,'ZmieÒ');
-define('_AM_UPDATED'          ,'Baza danych zosta≥a uaktualniona');
-define('_AM_NOTUPDATED'       ,'W czasie zapisu do bazy danych wyst±pi≥y b≥Ídy!');
-define('_AM_CATCREATED'       ,'Kategoria zosta≥a utworzona i zapisana!');
-define('_AM_CATMODIFY'        ,'Kategoria zosta≥a zmieniona i zapisana!');
+define('_AM_MODIFY'           ,'Zmie≈Ñ');
+define('_AM_UPDATED'          ,'Baza danych zosta≈Ça uaktualniona');
+define('_AM_NOTUPDATED'       ,'W czasie zapisu do bazy danych wystƒÖpi≈Çy b≈Çƒôdy!');
+define('_AM_CATCREATED'       ,'Kategoria zosta≈Ça utworzona i zapisana!');
+define('_AM_CATMODIFY'        ,'Kategoria zosta≈Ça zmieniona i zapisana!');
 /*
 * Lang defines for functions.php
 */
-define('_AM_QUOTEADMINHEAD'   ,'Zarz±dzanie cytatami');
-define('_AM_QUOTEADMINCATH'   ,'Zarz±dzanie kategoriami cytatÛw');
-define('_AM_QUOTENEWCAT'      ,'Spis kategorii cytatÛw');
-define('_AM_QUOTENEWCATTXT'   ,'UtwÛrz, zmieÒ, skasuj kategoriÍ cytatÛw do strony g≥Ûwnej cytatÛw.');
-define('_AM_QUOTENEWQUOTE'    ,'Spis cytatÛw');
-define('_AM_QUOTENEWQUOTETXT' ,'UtwÛrz, zmieÒ, skasuj cytat lub wrÛÊ do strony g≥Ûwnej cytatÛw.');
-define('_AM_QUOTEVALIDATE'    ,'Sprawdº nades≥ane cytaty');
-define('_AM_QUOTEVALTXT'      ,'Pozwala skasowaÊ lub dodaÊ nades≥ane cytaty.');
+define('_AM_QUOTEADMINHEAD'   ,'ZarzƒÖdzanie cytatami');
+define('_AM_QUOTEADMINCATH'   ,'ZarzƒÖdzanie kategoriami cytat√≥w');
+define('_AM_QUOTENEWCAT'      ,'Spis kategorii cytat√≥w');
+define('_AM_QUOTENEWCATTXT'   ,'Utw√≥rz, zmie≈Ñ, skasuj kategoriƒô cytat√≥w do strony g≈Ç√≥wnej cytat√≥w.');
+define('_AM_QUOTENEWQUOTE'    ,'Spis cytat√≥w');
+define('_AM_QUOTENEWQUOTETXT' ,'Utw√≥rz, zmie≈Ñ, skasuj cytat lub wr√≥ƒá do strony g≈Ç√≥wnej cytat√≥w.');
+define('_AM_QUOTEVALIDATE'    ,'Sprawd≈∫ nades≈Çane cytaty');
+define('_AM_QUOTEVALTXT'      ,'Pozwala skasowaƒá lub dodaƒá nades≈Çane cytaty.');
 /*
 * Lang defines for Category.php
 */
 define('_AM_QUOTERECOUNT'     ,'Przelicz cytaty');
-define('_AM_QUOTERECOUNTTXT'  ,'Pozwala na ponowne przeliczenie ilo∂ci cytatÛw w kaødej z kategorii.');
-define('_AM_CREATIN'          ,'UtwÛrz w');
+define('_AM_QUOTERECOUNTTXT'  ,'Pozwala na ponowne przeliczenie ilo≈õci cytat√≥w w ka≈ºdej z kategorii.');
+define('_AM_CREATIN'          ,'Utw√≥rz w');
 define('_AM_CATNAME'          ,'Nazwa kategorii');
 define('_AM_CATDESCRIPT'      ,'Opis kategorii');
-define('_AM_NOCATTOEDIT'      ,'ProszÍ najpierw utworzyÊ kategoriÍ, a nastÍpnie j± zmieniaÊ.');
-define('_AM_MODIFYCAT'        ,'ZmieÒ kategoriÍ');
-define('_AM_DELCAT'           ,'Skasuj kategoriÍ');
-define('_AM_ADDCAT'           ,'Dodaj kategoriÍ');
-define('_AM_MODIFYTHISCAT'    ,'ZmieniÊ tÍ kategoriÍ?');
-define('_AM_DELETETHISCAT'    ,'SkasowaÊ tÍ kategoriÍ?');
-define('_AM_CATISDELETED'     ,'Kategoria %s zosta≥a skasowana');
+define('_AM_NOCATTOEDIT'      ,'Proszƒô najpierw utworzyƒá kategoriƒô, a nastƒôpnie jƒÖ zmieniaƒá.');
+define('_AM_MODIFYCAT'        ,'Zmie≈Ñ kategoriƒô');
+define('_AM_DELCAT'           ,'Skasuj kategoriƒô');
+define('_AM_ADDCAT'           ,'Dodaj kategoriƒô');
+define('_AM_MODIFYTHISCAT'    ,'Zmieniƒá tƒô kategoriƒô?');
+define('_AM_DELETETHISCAT'    ,'Skasowaƒá tƒô kategoriƒô?');
+define('_AM_CATISDELETED'     ,'Kategoria %s zosta≈Ça skasowana');
 
 /*
 * Lang defines for topics.php
 */
-define('_AM_TOPICSADMIN'      ,'Administrator cytatÛw');
-define('_AM_NOTCTREATEDACAT'  ,'Nie moøesz dodaÊ cytatu je∂li nie ma przynajmniej jednej kategorii!');
+define('_AM_TOPICSADMIN'      ,'Administrator cytat√≥w');
+define('_AM_NOTCTREATEDACAT'  ,'Nie mo≈ºesz dodaƒá cytatu je≈õli nie ma przynajmniej jednej kategorii!');
 define('_AM_ADDQUOTE'         ,'Dodaj nowy cytat');
-define('_AM_GROUPPROMPT'      ,'Ustaw paraw dostÍpu dla:'); //updated 14/07/03
+define('_AM_GROUPPROMPT'      ,'Ustaw paraw dostƒôpu dla:'); //updated 14/07/03
 define('_AM_TOPICW'           ,'Waga:'); //updated 14/07/03
-define('_AM_CREATEIN'         ,'UtwÛrz w');
+define('_AM_CREATEIN'         ,'Utw√≥rz w');
 define('_AM_QUOTETITLE'       ,'Cyatat');
 define('_AM_QUOTEBODY'        ,'Autor');
-define('_AM_SUMMARY'          ,'Odsy≥acz');
-define('_AM_MODIFYQUOTE'      ,'ZmieÒ cytat');
-define('_AM_MODIFYEXSITQUOTE' ,'ZmieÒ cytat');
-define('_AM_MODIFYTHISQUOTE'  ,'ZmieÒ ten cytat');
+define('_AM_SUMMARY'          ,'Odsy≈Çacz');
+define('_AM_MODIFYQUOTE'      ,'Zmie≈Ñ cytat');
+define('_AM_MODIFYEXSITQUOTE' ,'Zmie≈Ñ cytat');
+define('_AM_MODIFYTHISQUOTE'  ,'Zmie≈Ñ ten cytat');
 define('_AM_DELQUOTE'         ,'Skasuj cytat');
 define('_AM_DELTHISQUOTE'     ,'Skasuj ten cytat');
-define('_AM_NOQUOTETOEDIT'    ,'W bazie danych nie ma cytatÛw, ktÛre moøna zmieniÊ');
+define('_AM_NOQUOTETOEDIT'    ,'W bazie danych nie ma cytat√≥w, kt√≥re mo≈ºna zmieniƒá');
 define('_AM_DELETETHISQUOTE'  ,'Skasuj ten cytat?');
-define('_AM_QUOTEISDELETED'   ,'Cytat %s zosta≥ skasowany');
-define('_AM_QUOTECREATED'     ,'Cytat zosta≥ utworzony i zapisany');
-define('_AM_QUOTENOTCREATED'  ,'B£°D: Cytat nie zosta≥ utworzony ani zapisany');
-define('_AM_QUOTEMODIFY'      ,'Cytat zosta≥ zmieniony i zapisany');
-define('_AM_QUOTENOTMODIFY'   ,'B£°D: Cytat zosta≥ zmieniony i zapisany');
+define('_AM_QUOTEISDELETED'   ,'Cytat %s zosta≈Ç skasowany');
+define('_AM_QUOTECREATED'     ,'Cytat zosta≈Ç utworzony i zapisany');
+define('_AM_QUOTENOTCREATED'  ,'B≈ÅƒÑD: Cytat nie zosta≈Ç utworzony ani zapisany');
+define('_AM_QUOTEMODIFY'      ,'Cytat zosta≈Ç zmieniony i zapisany');
+define('_AM_QUOTENOTMODIFY'   ,'B≈ÅƒÑD: Cytat zosta≈Ç zmieniony i zapisany');
 
-define('_AM_SUBALLOW'         ,'ZezwÛl');
+define('_AM_SUBALLOW'         ,'Zezw√≥l');
 define('_AM_SUBDELETE'        ,'Skasuj');
-define('_AM_SUBRETURN'        ,'WrÛÊ do administracji');
-define('_AM_SUBRETURNTO'      ,'WrÛÊ do nowo dodanych cytatÛw');
+define('_AM_SUBRETURN'        ,'Wr√≥ƒá do administracji');
+define('_AM_SUBRETURNTO'      ,'Wr√≥ƒá do nowo dodanych cytat√≥w');
 define('_AM_AUTHOR'           ,'Autor');
 define('_AM_PUBLISHED'        ,'Opublikowany');
-define('_AM_SUBPREVIEW'       ,'Administracyjny pogdl±d cytatÛw');
-define('_AM_SUBADMINPREV'     ,'Administracyjny podgl±d tego cytatu.');
-define('_AM_DBUPDATED'        ,'Baza danych cytatÛw zosta≥a uaktualniona');
-define('_AM_NOFAQFOESUB'      ,'Nie ma nowych cytatÛw do sprawdzenia'); //Updated 14/07/03
-define('_AM_NEWSUBMISSION'    ,'Nades≥ane cytaty'); //Updated 14/07/03
+define('_AM_SUBPREVIEW'       ,'Administracyjny pogdlƒÖd cytat√≥w');
+define('_AM_SUBADMINPREV'     ,'Administracyjny podglƒÖd tego cytatu.');
+define('_AM_DBUPDATED'        ,'Baza danych cytat√≥w zosta≈Ça uaktualniona');
+define('_AM_NOFAQFOESUB'      ,'Nie ma nowych cytat√≥w do sprawdzenia'); //Updated 14/07/03
+define('_AM_NEWSUBMISSION'    ,'Nades≈Çane cytaty'); //Updated 14/07/03
 
 /* hsalazar */
 define("_AM_VISIBLE"          ,"Widzialne");
-define("_DISABLEXCODES"       ,"Wy≥±cz kody XOOPS");
+define("_DISABLEXCODES"       ,"Wy≈ÇƒÖcz kody XOOPS");
 /*
 *  Copyright and Support.  Please do not remove this line as this is part of the only copyright agreement for using WF-Snippets 
 */
-define('_AM_VISITSUPPORT'     ,'(Strona juø nie aktualna 04-03-2006) - Visit the WF-Section website for information, updates and help on its usage.<br /> WF-Quotes v1 Hsalazar/Catzwolf &copy; 2003 <a href="http://wfsections.xoops2.com/" target="_blank">WF-Quotes</a>');
+define('_AM_VISITSUPPORT'     ,'(Strona ju≈º nie aktualna 04-03-2006) - Visit the WF-Section website for information, updates and help on its usage.<br /> WF-Quotes v1 Hsalazar/Catzwolf &copy; 2003 <a href="http://wfsections.xoops2.com/" target="_blank">WF-Quotes</a>');
 ?>

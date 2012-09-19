@@ -1,5 +1,5 @@
 <?php
-// polish lang ver. 0.3 alpha by Stanis≥aw Wolanin, admin@polfran.pl 
+// polish lang ver. 0.3 alpha by Stanis≈Çaw Wolanin, admin@polfran.pl 
 // $Id: main.php,v 1.1 2007/02/10 18:55:29 dap997 Exp $
 //  ------------------------------------------------------------------------ //
 //                    xcGallery - XOOPS Gallery Modul                        //
@@ -9,7 +9,7 @@
 //  ------------------------------------------------------------------------ //
 //  Based on Coppermine Photo Gallery 1.10                                   //
 //  (http://coppermine.sourceforge.net/)                                     //
-//  developed by GrÈgory DEMAR                                               //
+//  developed by Gr√©gory DEMAR                                               //
 //  ------------------------------------------------------------------------ //
 //  This program is free software; you can redistribute it and/or modify     //
 //  it under the terms of the GNU General Public License as published by     //
@@ -31,80 +31,80 @@
 //  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 USA //
 //  ------------------------------------------------------------------------ //
 // shortcuts for Byte, Kilo, Mega
-define("_MD_BYTES","BajtÛw");
+define("_MD_BYTES","Bajt√≥w");
 define("_MD_KB","KB");
 define("_MD_MB","MB");
 
-define("_MD_NPICS","%s plik(Ûw)");
-define("_MD_PICS","PlikÛw");
+define("_MD_NPICS","%s plik(√≥w)");
+define("_MD_PICS","Plik√≥w");
 define("_MD_ALBUM","Album");
 define("_MD_ERROR","Wstecz");
-define("_MD_KEYS","S≥owa kluczowe");
+define("_MD_KEYS","S≈Çowa kluczowe");
 define("_MD_CONTINUE","Dalej");
 
 define("_MD_RANDOM","Losowo wybrane pliki");
 define("_MD_LASTUP","Ostatnio dodane");
 define("_MD_LASTCOM","Ostatnio dodane komentarze");
 define("_MD_TOPN","Najpopularniejsze");
-define("_MD_TOPRATED","Najwyøej oceniane");
-define("_MD_LASTHITS","Ostatnio ogl±dane");
+define("_MD_TOPRATED","Najwy≈ºej oceniane");
+define("_MD_LASTHITS","Ostatnio oglƒÖdane");
 define("_MD_SEARCH","Wyniki wyszukiwania");
 define("_MD_USEARCH","Plik dodany przez ");
-define("_MD_MOST_SENT","NajczÍ∂ciej wysy≥ane e-kartki");
+define("_MD_MOST_SENT","Najczƒô≈õciej wysy≈Çane e-kartki");
 
-define("_MD_ACCESS_DENIED","Nie masz uprawnieÒ, aby ogladaÊ tÍ stronÍ.");
-define("_MD_PERM_DENIED","Nie masz uprawnieÒ, aby wykonaÊ te operacje.");
-define("_MD_PARAM_MISSING","Skrypt zosta≥ wywo≥any bez wymaganego parametru.");
+define("_MD_ACCESS_DENIED","Nie masz uprawnie≈Ñ, aby ogladaƒá tƒô stronƒô.");
+define("_MD_PERM_DENIED","Nie masz uprawnie≈Ñ, aby wykonaƒá te operacje.");
+define("_MD_PARAM_MISSING","Skrypt zosta≈Ç wywo≈Çany bez wymaganego parametru.");
 define("_MD_NON_EXIST_AP","Wybrany plik lub album nie istnieje!");
-define("_MD_QUOTA_EXCEEDED","Przekroczono limit miejsca. <br /><br />TwÛj przydzia≥: [quota]K, Twoje pliki uøywaja obecnie: [space]K. Dodanie wybranego pliku spowoduje przekroczenie limitu.");
-define("_MD_GD_FILE_TYPE_ERR","Jeøeli w uøyciu jest biblioteka GD, dozwolone formaty zdjÍÊ to wy≥±cznie JPEG i PNG.");
-define("_MD_INVALID_IMG","ZdjÍcie, ktÛre przes≥ano, nie moøe byc obs≥uøone przez bibliotekÍ GD.");
-define("_MD_RESIZE_FAILED","Nie moøna stworzyÊ miniatury lub zdjÍcia po∂redniej wielko∂ci.");
-define("_MD_NO_IMG_TO_DISPLAY","Brak pliku do wy∂wietlenia");
+define("_MD_QUOTA_EXCEEDED","Przekroczono limit miejsca. <br /><br />Tw√≥j przydzia≈Ç: [quota]K, Twoje pliki u≈ºywaja obecnie: [space]K. Dodanie wybranego pliku spowoduje przekroczenie limitu.");
+define("_MD_GD_FILE_TYPE_ERR","Je≈ºeli w u≈ºyciu jest biblioteka GD, dozwolone formaty zdjƒôƒá to wy≈ÇƒÖcznie JPEG i PNG.");
+define("_MD_INVALID_IMG","Zdjƒôcie, kt√≥re przes≈Çano, nie mo≈ºe byc obs≈Çu≈ºone przez bibliotekƒô GD.");
+define("_MD_RESIZE_FAILED","Nie mo≈ºna stworzyƒá miniatury lub zdjƒôcia po≈õredniej wielko≈õci.");
+define("_MD_NO_IMG_TO_DISPLAY","Brak pliku do wy≈õwietlenia");
 define("_MD_NO_EXIST_CAT","Wybrana kategoria nie istnieje");
-define("_MD_ORPHAN_CAT","Kategoria nie ma ga≥Ízi nadrzÍdnej, uruchom menadzera kategorii, aby rozwi±zaÊ ten problem.");
-define("_MD_DIRECTORY_RO","Katalog \'%s\' jest zabezpieczony przed zapisem. Pliki nie mog± byÊ skasowane.");
-define("_MD_PIC_IN_INVALID_ALBUM","Plik znajduje siÍ w nieistniejacym albumie (%s)!?");
-define("_MD_GD_VERSION_ERR","PHP dzia≥aj±ce na tym serwerze nie obs≥uguje bibliteki GD version 2.x, prze≥acz do GD wersja 1.x w konfiguracji galerii");
-define("_MD_NO_GD_FOUND","PHP dzia≥aj±ce na tym serwerze nie obs≥uguje bibliteki GD, sprawdº czy ImageMagick lub Netpbm jest zainstalowany");
-define("_MD_IM_ERROR","B≥±d biblioteki ImageMagick:");
-define("_MD_IM_ERROR_CMD","B≥±d:");
-define("_MD_IM_ERROR_CONV","B≥±d konwersji pliku:");
+define("_MD_ORPHAN_CAT","Kategoria nie ma ga≈Çƒôzi nadrzƒôdnej, uruchom menadzera kategorii, aby rozwiƒÖzaƒá ten problem.");
+define("_MD_DIRECTORY_RO","Katalog \'%s\' jest zabezpieczony przed zapisem. Pliki nie mogƒÖ byƒá skasowane.");
+define("_MD_PIC_IN_INVALID_ALBUM","Plik znajduje siƒô w nieistniejacym albumie (%s)!?");
+define("_MD_GD_VERSION_ERR","PHP dzia≈ÇajƒÖce na tym serwerze nie obs≈Çuguje bibliteki GD version 2.x, prze≈Çacz do GD wersja 1.x w konfiguracji galerii");
+define("_MD_NO_GD_FOUND","PHP dzia≈ÇajƒÖce na tym serwerze nie obs≈Çuguje bibliteki GD, sprawd≈∫ czy ImageMagick lub Netpbm jest zainstalowany");
+define("_MD_IM_ERROR","B≈ÇƒÖd biblioteki ImageMagick:");
+define("_MD_IM_ERROR_CMD","B≈ÇƒÖd:");
+define("_MD_IM_ERROR_CONV","B≈ÇƒÖd konwersji pliku:");
 
 // ------------------------------------------------------------------------- //
 // File include/theme_func.php
 // ------------------------------------------------------------------------- //
-define("_MD_THM_ALB_LT","Przejdº do listy albumÛw");
+define("_MD_THM_ALB_LT","Przejd≈∫ do listy album√≥w");
 define("_MD_THM_ALB_LL","Albumy");
 define("_MD_THM_GAL_MYT","Do prywatnej galerii");
 define("_MD_THM_GAL_MYL","Moja galeria");
-define("_MD_THM_ADM_MT","Prze≥±cz w tryb administratora");
+define("_MD_THM_ADM_MT","Prze≈ÇƒÖcz w tryb administratora");
 define("_MD_THM_ADM_ML","Tryb administratora");
-define("_MD_THM_USER_MT","Prze≥±cz w tryb uøytkownika");
-define("_MD_THM_USER_ML","Tryb uøytkownika");
-define("_MD_THM_UPLT","Przes≥anie pliku do albumu");
-define("_MD_THM_UPLL","Przes≥anie pliku");
+define("_MD_THM_USER_MT","Prze≈ÇƒÖcz w tryb u≈ºytkownika");
+define("_MD_THM_USER_ML","Tryb u≈ºytkownika");
+define("_MD_THM_UPLT","Przes≈Çanie pliku do albumu");
+define("_MD_THM_UPLL","Przes≈Çanie pliku");
 define("_MD_THM_LAST_UPL","Ostatnio dodane");
 define("_MD_THM_LAST_COM","Ostatnie komentarze");
 define("_MD_THM_MOST_VIEW","Najpopularniejsze");
 define("_MD_THM_TOP_RATE","Top Lista");
 define("_MD_THM_SEARCH","Szukaj");
-define("_MD_THM_UPL_APPR","Akceptacja zdjÍÊ");
+define("_MD_THM_UPL_APPR","Akceptacja zdjƒôƒá");
 
-define("_MD_THM_ALBMGR_LNK","Tworzenie / porz±dkowanie albumÛw");
-define("_MD_THM_MODIFY_LNK","Modyfikacja moich albumÛw");
+define("_MD_THM_ALBMGR_LNK","Tworzenie / porzƒÖdkowanie album√≥w");
+define("_MD_THM_MODIFY_LNK","Modyfikacja moich album√≥w");
 define("_MD_THM_CAT","Kategoria");
 define("_MD_THM_ALB","Albumy");
 define("_MD_THM_PIC","Pliki");
-define("_MD_THM_ALBONPAGE","albumÛw: %d, stron: %d");
+define("_MD_THM_ALBONPAGE","album√≥w: %d, stron: %d");
 define("_MD_THM_DATE","DATA");
 define("_MD_THM_NAME","NAZWA PLIKU");
-define("_MD_THM_SORT_DA","Sortowanie wg daty rosn±co");
-define("_MD_THM_SORT_DD","Sortowanie wg daty malej±co");
-define("_MD_THM_SORT_NA","Sortowanie wg nazwy rosn±co");
-define("_MD_THM_SORT_ND","Sortowanie wg nazwy malej±co");
-define("_MD_THM_PICPAGE","plikÛw: %d stron: %d");
-define("_MD_THM_USERPAGE","uøytkownikÛw: %d, stron: %d");
+define("_MD_THM_SORT_DA","Sortowanie wg daty rosnƒÖco");
+define("_MD_THM_SORT_DD","Sortowanie wg daty malejƒÖco");
+define("_MD_THM_SORT_NA","Sortowanie wg nazwy rosnƒÖco");
+define("_MD_THM_SORT_ND","Sortowanie wg nazwy malejƒÖco");
+define("_MD_THM_PICPAGE","plik√≥w: %d stron: %d");
+define("_MD_THM_USERPAGE","u≈ºytkownik√≥w: %d, stron: %d");
 
 // ------------------------------------------------------------------------- //
 // File include/functions.inc.php
@@ -115,28 +115,28 @@ define("_MD_FUNC_FSIZE","Rozmiar pliku: ");
 define("_MD_FUNC_DIM","Wymiary: ");
 define("_MD_FUNC_DATE","Data dodania: ");
 define("_MD_FUNC_COM","komentarzy: %s ");
-define("_MD_FUNC_VIEW","ods≥on: %s ");
-define("_MD_FUNC_VOTE","(glosÛw: %s)");
+define("_MD_FUNC_VIEW","ods≈Çon: %s ");
+define("_MD_FUNC_VOTE","(glos√≥w: %s)");
 define("_MD_FUNC_SEND","%s razy");
-define("_MD_FUNC_DELUSER","Uøytkownik skasowany");
+define("_MD_FUNC_DELUSER","U≈ºytkownik skasowany");
 // ------------------------------------------------------------------------- //
 // File admin.php
 // ------------------------------------------------------------------------- //
-define("_MD_ADMIN_LEAVE","ZakoÒczono prace administratora galerii...");
-define("_MD_ADMIN_ENTER","Prze≥±czanie do trybu administratora galerii...");
+define("_MD_ADMIN_LEAVE","Zako≈Ñczono prace administratora galerii...");
+define("_MD_ADMIN_ENTER","Prze≈ÇƒÖczanie do trybu administratora galerii...");
 
 // ------------------------------------------------------------------------- //
 // File albmgr.php
 // ------------------------------------------------------------------------- //
 
-define("_MD_ALBMGR_NEED_NAME","Albumy musz± mieÊ nazwÍ!");
-define("_MD_ALBMGR_CONF_MOD","Czy na pewno chcesz dokonaÊ tych modyfikacji?");
-define("_MD_ALBMGR_NO_CHANGE","Nie dokonale∂/a∂ øadnej zmiany!");
+define("_MD_ALBMGR_NEED_NAME","Albumy muszƒÖ mieƒá nazwƒô!");
+define("_MD_ALBMGR_CONF_MOD","Czy na pewno chcesz dokonaƒá tych modyfikacji?");
+define("_MD_ALBMGR_NO_CHANGE","Nie dokonale≈õ/a≈õ ≈ºadnej zmiany!");
 define("_MD_ALBMGR_NEW_ALB","Nowy album");
-define("_MD_ALBMGR_CONF_DEL1","Czy na pewno chcesz skasowaÊ ten album?");
-define("_MD_ALBMGR_CONF_DEL2","Wszystkie pliki i komentarze, ktÛre zawiera, zostan± stracone!");
+define("_MD_ALBMGR_CONF_DEL1","Czy na pewno chcesz skasowaƒá ten album?");
+define("_MD_ALBMGR_CONF_DEL2","Wszystkie pliki i komentarze, kt√≥re zawiera, zostanƒÖ stracone!");
 define("_MD_ALBMGR_SELECT_FIRST","Wybierz najpierw album");
-define("_MD_ALBMGR_ALB_MGR","Menadzer albumÛw");
+define("_MD_ALBMGR_ALB_MGR","Menadzer album√≥w");
 define("_MD_ALBMGR_MY_GAL","* Moja galeria *");
 define("_MD_ALBMGR_NO_CAT","* Bez kategorii *");
 define("_MD_ALBMGR_DEL","Kasuj");
@@ -148,35 +148,35 @@ define("_MD_ALBMGR_SELECT","Wybierz kategorie");
 // File db_input.php
 // ------------------------------------------------------------------------- //
 
-define("_MD_DB_ALB_NEED_TITLE","Musisz podaÊ tytu≥ dla albumu!");
+define("_MD_DB_ALB_NEED_TITLE","Musisz podaƒá tytu≈Ç dla albumu!");
 define("_MD_DB_NO_NEED","Zmiana nie jest konieczna.");
-define("_MD_DB_ALB_UPDATED","Album zosta≥ uaktualniony");
-define("_MD_DB_UNKOWN","Wybrany album nie istnieje, lub nie masz uprawnieÒ do przesy≥ania");
-define("_MD_DB_NO_PICUP","Plik nie zosta≥ dodany!<br /><br />Jeøeli wybrano plik do przes≥ania, sprawdº czy serwer na to zezwala...");
-define("_MD_DB_ERR_MKDIR","Nie uda≥o siÍ utworzyÊ katalogu %s !");
-define("_MD_DB_DEST_DIR_RO","Katalog docelowy %s nie moøe byÊ zapisany przez skrypt!");
-define("_MD_DB_ERR_FEXT","Prawid≥owe s± tylko pliki typu: <br /><br />%s.");
-define("_MD_DB_ERR_MOVE","Nie moøna przenie∂Ê %s do %s !");
-define("_MD_DB_ERR_PIC_SIZE","Plik, ktÛry przesy≥asz, ma zbyt duøy rozmiar (maksymalnie dozwolony: %s x %s)!");
-define("_MD_DB_ERR_FSIZE","Plik, ktÛry przesy≥asz, ma zbyt duøy rozmiar (maksymalnie dozwolony: to %s KB)!");
-define("_MD_DB_ERR_IMG_INVALID","Plik, ktÛry przesy≥asz, jest w niedozwolonym formacie!");
-define("_MD_DB_IMG_ALLOWED","moøesz przes≥aÊ tylko %s plikÛw.");
-define("_MD_DB_ERR_INSERT","Plik \'%s\' nie moøe zostaÊ wstawiony do albumu ");
-define("_MD_DB_UPLOAD_SUCC","Plik zosta≥ przes≥any <br /><br />BÍdzie widoczny po akceptacji przez administratora.");
-define("_MD_DB_UPL_SUCC","Plik zosta≥ przes≥any");
+define("_MD_DB_ALB_UPDATED","Album zosta≈Ç uaktualniony");
+define("_MD_DB_UNKOWN","Wybrany album nie istnieje, lub nie masz uprawnie≈Ñ do przesy≈Çania");
+define("_MD_DB_NO_PICUP","Plik nie zosta≈Ç dodany!<br /><br />Je≈ºeli wybrano plik do przes≈Çania, sprawd≈∫ czy serwer na to zezwala...");
+define("_MD_DB_ERR_MKDIR","Nie uda≈Ço siƒô utworzyƒá katalogu %s !");
+define("_MD_DB_DEST_DIR_RO","Katalog docelowy %s nie mo≈ºe byƒá zapisany przez skrypt!");
+define("_MD_DB_ERR_FEXT","Prawid≈Çowe sƒÖ tylko pliki typu: <br /><br />%s.");
+define("_MD_DB_ERR_MOVE","Nie mo≈ºna przenie≈õƒá %s do %s !");
+define("_MD_DB_ERR_PIC_SIZE","Plik, kt√≥ry przesy≈Çasz, ma zbyt du≈ºy rozmiar (maksymalnie dozwolony: %s x %s)!");
+define("_MD_DB_ERR_FSIZE","Plik, kt√≥ry przesy≈Çasz, ma zbyt du≈ºy rozmiar (maksymalnie dozwolony: to %s KB)!");
+define("_MD_DB_ERR_IMG_INVALID","Plik, kt√≥ry przesy≈Çasz, jest w niedozwolonym formacie!");
+define("_MD_DB_IMG_ALLOWED","mo≈ºesz przes≈Çaƒá tylko %s plik√≥w.");
+define("_MD_DB_ERR_INSERT","Plik \'%s\' nie mo≈ºe zostaƒá wstawiony do albumu ");
+define("_MD_DB_UPLOAD_SUCC","Plik zosta≈Ç przes≈Çany <br /><br />Bƒôdzie widoczny po akceptacji przez administratora.");
+define("_MD_DB_UPL_SUCC","Plik zosta≈Ç przes≈Çany");
 // ------------------------------------------------------------------------- //
 // File delete.php
 // ------------------------------------------------------------------------- //
-define("_MD_DEL_CAPTION","Tytu≥");
-define("_MD_DEL_FS_PIC","pe≥ny rozmiar");
+define("_MD_DEL_CAPTION","Tytu≈Ç");
+define("_MD_DEL_FS_PIC","pe≈Çny rozmiar");
 define("_MD_DEL_DEL_SUCCESS","skasowano");
 define("_MD_DEL_NS_PIC","normalny rozmiar");
-define("_MD_DEL_ERR_DEL","nie moøe byc skasowane");
+define("_MD_DEL_ERR_DEL","nie mo≈ºe byc skasowane");
 define("_MD_DEL_THUMB","miniatura");
 define("_MD_DEL_COMMENT","komentarz");
-define("_MD_DEL_IMGALB","zdjÍcie z albumu");
+define("_MD_DEL_IMGALB","zdjƒôcie z albumu");
 define("_MD_DEL_ALB_DEL_SUC","Skasowano album \'%s\' ");
-define("_MD_DEL_ALBMGR","Menedzer albumÛw");
+define("_MD_DEL_ALBMGR","Menedzer album√≥w");
 define("_MD_DEL_INVALID","Otrzymano niewlasciwe dane \'%s\'");
 define("_MD_DEL_CREATE","Tworzenie albumu \'%s\'");
 define("_MD_DEL_UPDATE","Uaktualnienie albumu: \'%s\' tytul: \'%s\' index: \'%s\'");
@@ -186,69 +186,69 @@ define("_MD_DEL_DELALB","Kasowanie albumu");
 // ------------------------------------------------------------------------- //
 // File displayimage.php
 // ------------------------------------------------------------------------- //
-define("_MD_DIS_CONF_DEL","Czy na pewno chcesz skasowac ten plik? Zostana skasowane rÛwniez komentarze do niego.");
+define("_MD_DIS_CONF_DEL","Czy na pewno chcesz skasowac ten plik? Zostana skasowane r√≥wniez komentarze do niego.");
 define("_MD_DIS_DEL_PIC","SKASUJ TEN PLIK");
 define("_MD_DIS_SIZE","%s x %s pikseli");
 define("_MD_DIS_VIEWS","%s razy");
-define("_MD_DIS_SLIDE","Pokaz slajdÛw");
-define("_MD_DIS_STOP_SLIDE","ZATRZYMAJ Pokaz slajdÛw");
-define("_MD_DIS_FULL","Kliknij, aby zobaczyÊ w pe≥nym rozmiarze");
+define("_MD_DIS_SLIDE","Pokaz slajd√≥w");
+define("_MD_DIS_STOP_SLIDE","ZATRZYMAJ Pokaz slajd√≥w");
+define("_MD_DIS_FULL","Kliknij, aby zobaczyƒá w pe≈Çnym rozmiarze");
 define("_MD_DIS_TITLE","Informacja o pliku");
 define("_MD_DIS_FNAME","Nazwa pliku");
 define("_MD_DIS_ANAME","Nazwa albumu");
-define("_MD_DIS_RATING","Ocena (%s g≥osÛw)");
+define("_MD_DIS_RATING","Ocena (%s g≈Ços√≥w)");
 define("_MD_DIS_FSIZE","Rozmiar pliku");
 define("_MD_DIS_DIMEMS","Wymiary");
-define("_MD_DIS_DISPLAYED","Wy∂wietleÒ");
+define("_MD_DIS_DISPLAYED","Wy≈õwietle≈Ñ");
 define("_MD_DIS_CAMERA","Aparat fotograficzny");
-define("_MD_DIS_DATA_TAKEN","Data zrobienia zdjÍcia");
-define("_MD_DIS_APERTURE","Przes≥ona");
+define("_MD_DIS_DATA_TAKEN","Data zrobienia zdjƒôcia");
+define("_MD_DIS_APERTURE","Przes≈Çona");
 define("_MD_DIS_EXPTIME","Czas ekspozycji");
 define("_MD_DIS_FLENGTH","Ogniskowa");
 define("_MD_DIS_COMMENT","Komentarz");
-define("_MD_DIS_BACK_TNPAGE","PowrÛt do strony z miniaturami");
-define("_MD_DIS_SHOW_PIC_INFO","Wy∂wietl/Ukryj informacjÍ o pliku");
-define("_MD_DIS_SEND_CARD","Wy∂lij ten plik jako e-kartkÍ");
-define("_MD_DIS_CARD_DISABLE","e-kartki s± wy≥±czone");
-define("_MD_DIS_CARD_DISABLEMSG","Nie masz uprawnieÒ do wysy≥ania e-kartek");
+define("_MD_DIS_BACK_TNPAGE","Powr√≥t do strony z miniaturami");
+define("_MD_DIS_SHOW_PIC_INFO","Wy≈õwietl/Ukryj informacjƒô o pliku");
+define("_MD_DIS_SEND_CARD","Wy≈õlij ten plik jako e-kartkƒô");
+define("_MD_DIS_CARD_DISABLE","e-kartki sƒÖ wy≈ÇƒÖczone");
+define("_MD_DIS_CARD_DISABLEMSG","Nie masz uprawnie≈Ñ do wysy≈Çania e-kartek");
 define("_MD_DIS_NEXT","Poprzedni plik");
-define("_MD_DIS_PREV","NastÍpny plik");
+define("_MD_DIS_PREV","Nastƒôpny plik");
 define("_MD_DIS_PICPOS","PLIK %s/%s");
-define("_MD_DIS_RATE_THIS","OceÒ ten plik ");
-define("_MD_DIS_NO_VOTE","(Brak g≥osÛw)");
-define("_MD_DIS_RATINGCUR","(obecna ocena : %s / 5 g≥osÛw: %s)");
+define("_MD_DIS_RATE_THIS","Oce≈Ñ ten plik ");
+define("_MD_DIS_NO_VOTE","(Brak g≈Ços√≥w)");
+define("_MD_DIS_RATINGCUR","(obecna ocena : %s / 5 g≈Ços√≥w: %s)");
 define("_MD_DIS_RUBBISH","Do niczego");
-define("_MD_DIS_POOR","S≥abe");
-define("_MD_DIS_FAIR","Niez≥e");
+define("_MD_DIS_POOR","S≈Çabe");
+define("_MD_DIS_FAIR","Niez≈Çe");
 define("_MD_DIS_GOOD","Dobre");
-define("_MD_DIS_EXCELLENT","Wspania≥e");
-define("_MD_DIS_GREAT","Doskona≥e");
+define("_MD_DIS_EXCELLENT","Wspania≈Çe");
+define("_MD_DIS_GREAT","Doskona≈Çe");
 define("_MD_DIS_UPLOADER","Dodany przez");
-define("_MD_DIS_EXIF_ERR","PHP dzia≥aj±ce na tym serwerze nie czyta danych EXIF w plikach JPEG, proszÍ wy≥aczyc tÍ opcjÍ w konfiguracji galerii");
-define("_MD_DIS_VIEW_MORE_BY","zobacz wiecej plikÛw dodanych przez ");
-define("_MD_DIS_SUBIP","IP uøytkownika");
-define("_MD_DIS_SENT","Wy∂lij jako e-kartkÍ");
+define("_MD_DIS_EXIF_ERR","PHP dzia≈ÇajƒÖce na tym serwerze nie czyta danych EXIF w plikach JPEG, proszƒô wy≈Çaczyc tƒô opcjƒô w konfiguracji galerii");
+define("_MD_DIS_VIEW_MORE_BY","zobacz wiecej plik√≥w dodanych przez ");
+define("_MD_DIS_SUBIP","IP u≈ºytkownika");
+define("_MD_DIS_SENT","Wy≈õlij jako e-kartkƒô");
 // ------------------------------------------------------------------------- //
 // File ecard.php
 // ------------------------------------------------------------------------- //
 
-define("_MD_CARD_TITLE","Wy∂lij e-kartkÍ");
+define("_MD_CARD_TITLE","Wy≈õlij e-kartkƒô");
 define("_MD_CARD_INVALIDE_EMAIL","<b>Uwaga!</b> : niepoprawny adres e-mail !");
 define("_MD_CARD_ECARD_TITLE","e-kartka od %s dla Ciebie");
-define("_MD_CARD_VIEW_ECARD","Jeøeli e-kartka nie wy∂wietla siÍ poprawnie, kliknij ten link");
-define("_MD_CARD_VIEW_MORE_PICS","Kliknij ten link, aby zobaczyÊ wiÍcej zdjÍÊ!");
-define("_MD_CARD_SEND_SUCCESS","Twoja e-kartka zosta≥a wys≥ana");
-define("_MD_CARD_SEND_FAILED","Niestety, serwer nie moøe wys≥aÊ twojej e-kartki...");
+define("_MD_CARD_VIEW_ECARD","Je≈ºeli e-kartka nie wy≈õwietla siƒô poprawnie, kliknij ten link");
+define("_MD_CARD_VIEW_MORE_PICS","Kliknij ten link, aby zobaczyƒá wiƒôcej zdjƒôƒá!");
+define("_MD_CARD_SEND_SUCCESS","Twoja e-kartka zosta≈Ça wys≈Çana");
+define("_MD_CARD_SEND_FAILED","Niestety, serwer nie mo≈ºe wys≈Çaƒá twojej e-kartki...");
 define("_MD_CARD_FROM","Od");
-define("_MD_CARD_YOUR_NAME","Twoje imiÍ");
-define("_MD_CARD_YOUR_EMAIL","TwÛj adres e-mail");
+define("_MD_CARD_YOUR_NAME","Twoje imiƒô");
+define("_MD_CARD_YOUR_EMAIL","Tw√≥j adres e-mail");
 define("_MD_CARD_TO","Do");
 define("_MD_CARD_RCPT_NAME","Nazwa odbiorcy");
 define("_MD_CARD_RCPT_EMAIL","Adres e-mail odbiorcy");
 define("_MD_CARD_GREETINGS","Temat");
-define("_MD_CARD_MESSAGE","Wiadomo∂Ê");
-define("_MD_CARD_PERHOUR","Moøesz wys≥aÊ tylko %s e-kartek w ci±gu godziny. Zapraszamy pÛºniej");
-define("_MD_CARD_NOTINDB","E-kartka nie moøe byÊ dodana do bazy danych!<br />ProszÍ powiadomiÊ administratora strony");
+define("_MD_CARD_MESSAGE","Wiadomo≈õƒá");
+define("_MD_CARD_PERHOUR","Mo≈ºesz wys≈Çaƒá tylko %s e-kartek w ciƒÖgu godziny. Zapraszamy p√≥≈∫niej");
+define("_MD_CARD_NOTINDB","E-kartka nie mo≈ºe byƒá dodana do bazy danych!<br />Proszƒô powiadomiƒá administratora strony");
 
 
 // ------------------------------------------------------------------------- //
@@ -256,90 +256,90 @@ define("_MD_CARD_NOTINDB","E-kartka nie moøe byÊ dodana do bazy danych!<br />Pro
 // ------------------------------------------------------------------------- //
 
 define("_MD_EDITPICS_PIC_INFO","Informacje&nbsp;o pliku");
-define("_MD_EDITPICS_TITLE","Tytu≥");
+define("_MD_EDITPICS_TITLE","Tytu≈Ç");
 define("_MD_EDITPICS_DESC","Opis");
-define("_MD_EDITPICS_INFOSTR","%sx%s - %sKB - %s wy∂wietleÒ - %s komentarzy");
+define("_MD_EDITPICS_INFOSTR","%sx%s - %sKB - %s wy≈õwietle≈Ñ - %s komentarzy");
 define("_MD_EDITPICS_APPROVE","Akceptuj plik");
-define("_MD_EDITPICS_PP_APPROVE","Odrocz akceptacjÍ");
+define("_MD_EDITPICS_PP_APPROVE","Odrocz akceptacjƒô");
 define("_MD_EDITPICS_DEL_PIC","Skasuj plik");
-define("_MD_EDITPICS_RVIEW","Wyzeruj licznik wy∂wietleÒ");
-define("_MD_EDITPICS_RVOTES","Wyzeruj ranking g≥osowaÒ");
+define("_MD_EDITPICS_RVIEW","Wyzeruj licznik wy≈õwietle≈Ñ");
+define("_MD_EDITPICS_RVOTES","Wyzeruj ranking g≈Çosowa≈Ñ");
 define("_MD_EDITPICS_DCOM","Skasuj komentarze");
-define("_MD_EDITPICS_UPL_APPROVAL","Akceptacja zdjÍÊ");
+define("_MD_EDITPICS_UPL_APPROVAL","Akceptacja zdjƒôƒá");
 define("_MD_EDITPICS_EDIT","Edytuj pliki");
-define("_MD_EDITPICS_NEXT","Zobacz nastÍpne zdjÍcia");
-define("_MD_EDITPICS_PREV","Zobacz poprzednie zdjÍcia");
-define("_MD_EDITPICS_NUMDIS","Ilo∂Ê zdjÍÊ do wy∂wietlenia");
+define("_MD_EDITPICS_NEXT","Zobacz nastƒôpne zdjƒôcia");
+define("_MD_EDITPICS_PREV","Zobacz poprzednie zdjƒôcia");
+define("_MD_EDITPICS_NUMDIS","Ilo≈õƒá zdjƒôƒá do wy≈õwietlenia");
 define("_MD_EDITPICS_APPLY","Zastosuj zmiany");
 
 // ------------------------------------------------------------------------- //
 // File index.php
 // ------------------------------------------------------------------------- //
 
-define("_MD_INDEX_CONF_DEL","Czy na pewno chcesz skasowaÊ ten album? Zostan± skasowane rÛwnieø wszystkie pliki i komentarze.");
+define("_MD_INDEX_CONF_DEL","Czy na pewno chcesz skasowaƒá ten album? ZostanƒÖ skasowane r√≥wnie≈º wszystkie pliki i komentarze.");
 define("_MD_INDEX_DEL","KASUJ");
-define("_MD_INDEX_MOD","W£A¶CIWO¶CI");
-define("_MD_INDEX_EDIT","EDYCJA PLIK”W");
-define("_MD_INDEX_STAT1","pliki: <b>[pictures]</b>, albumy: <b>[albums]</b>, kategorie: <b>[cat]</b>, komentarze: <b>[comments]</b>, ods≥ony: <b>[views]</b>");
-define("_MD_INDEX_STAT2","pliki: <b>[pictures]</b>, albumy: <b>[albums]</b>, ods≥ony: <b>[views]</b>");
+define("_MD_INDEX_MOD","W≈ÅA≈öCIWO≈öCI");
+define("_MD_INDEX_EDIT","EDYCJA PLIK√ìW");
+define("_MD_INDEX_STAT1","pliki: <b>[pictures]</b>, albumy: <b>[albums]</b>, kategorie: <b>[cat]</b>, komentarze: <b>[comments]</b>, ods≈Çony: <b>[views]</b>");
+define("_MD_INDEX_STAT2","pliki: <b>[pictures]</b>, albumy: <b>[albums]</b>, ods≈Çony: <b>[views]</b>");
 define("_MD_INDEX_USERS_GAL","galeria %s");
-define("_MD_INDEX_STAT3","pliki: <b>[pictures]</b>, albumy: <b>[albums]</b>, komentarze: <b>[comments]</b>, ods≥ony: <b>[views]</b>");
-define("_MD_INDEX_ULIST","Lista uøytkownikÛw");
-define("_MD_INDEX_NO_UGAL","Galerie uøytkownikÛw nie istniej± lub nie masz do nich dostÍpu");
-define("_MD_INDEX_NALBS","albumÛw: %s");
-define("_MD_INDEX_NPICS","plikÛw: %s");
+define("_MD_INDEX_STAT3","pliki: <b>[pictures]</b>, albumy: <b>[albums]</b>, komentarze: <b>[comments]</b>, ods≈Çony: <b>[views]</b>");
+define("_MD_INDEX_ULIST","Lista u≈ºytkownik√≥w");
+define("_MD_INDEX_NO_UGAL","Galerie u≈ºytkownik√≥w nie istniejƒÖ lub nie masz do nich dostƒôpu");
+define("_MD_INDEX_NALBS","album√≥w: %s");
+define("_MD_INDEX_NPICS","plik√≥w: %s");
 define("_MD_INDEX_LASTADD",", ostatnio dodany: %s");
 
 // ------------------------------------------------------------------------- //
 // File modifyalb.php
 // ------------------------------------------------------------------------- //
 define("_MD_MODIFYALB_UPD_ALB_N","Uaktualnij album %s");
-define("_MD_MODIFYALB_GEN_SET","Ustawienia ogÛlne");
-define("_MD_MODIFYALB_ALB_TITLE","Tytu≥ albumu");
+define("_MD_MODIFYALB_GEN_SET","Ustawienia og√≥lne");
+define("_MD_MODIFYALB_ALB_TITLE","Tytu≈Ç albumu");
 define("_MD_MODIFYALB_ALB_CAT","Kategoria albumu");
 define("_MD_MODIFYALB_ALB_DESC","Opis albumu");
 define("_MD_MODIFYALB_ALB_THUMB","Miniatury albumu");
 define("_MD_MODIFYALB_ALB_PERM","Uprawnienia albumu");
-define("_MD_MODIFYALB_CAN_VIEW","Moøe byÊ ogl±dany przez");
-define("_MD_MODIFYALB_CAN_UPLOAD","Go∂cie mog± przesy≥aÊ pliki");
-define("_MD_MODIFYALB_CAN_COM","Go∂cie mog± dodawaÊ komentarze");
-define("_MD_MODIFYALB_CAN_RATE","Go∂cie mog± oceniaÊ pliki");
-define("_MD_MODIFYALB_USER_GAL","Galeria uøytkownika");
+define("_MD_MODIFYALB_CAN_VIEW","Mo≈ºe byƒá oglƒÖdany przez");
+define("_MD_MODIFYALB_CAN_UPLOAD","Go≈õcie mogƒÖ przesy≈Çaƒá pliki");
+define("_MD_MODIFYALB_CAN_COM","Go≈õcie mogƒÖ dodawaƒá komentarze");
+define("_MD_MODIFYALB_CAN_RATE","Go≈õcie mogƒÖ oceniaƒá pliki");
+define("_MD_MODIFYALB_USER_GAL","Galeria u≈ºytkownika");
 define("_MD_MODIFYALB_NO_CAT","* Bez kategorii *");
 define("_MD_MODIFYALB_ALB_EMPTY","Album jest pusty");
-define("_MD_MODIFYALB_LAST_UPL","Ostatnio przes≥ane");
+define("_MD_MODIFYALB_LAST_UPL","Ostatnio przes≈Çane");
 define("_MD_MODIFYALB_PUB_ALB","Wszyscy (album publiczny)");
 define("_MD_MODIFYALB_ME_ONLY","Tylko ja");
-define("_MD_MODIFYALB_OWNER_ONLY","Tylko w≥a∂ciciel albumu: (%s)");
-define("_MD_MODIFYALB_GROUP_ONLY","Cz≥onkowie grupy: '%s'");
-define("_MD_MODIFYALB_ERR_NO_ALB","Nie moøna modyfikowaÊ øadnego albumu w bazie.");
+define("_MD_MODIFYALB_OWNER_ONLY","Tylko w≈Ça≈õciciel albumu: (%s)");
+define("_MD_MODIFYALB_GROUP_ONLY","Cz≈Çonkowie grupy: '%s'");
+define("_MD_MODIFYALB_ERR_NO_ALB","Nie mo≈ºna modyfikowaƒá ≈ºadnego albumu w bazie.");
 define("_MD_MODIFYALB_UPDATE","Uaktualnij album");
 
 // ------------------------------------------------------------------------- //
 // File ratepic.php
 // ------------------------------------------------------------------------- //
-define("_MD_RATE_ALREADY","Niestety, juø ocenia≥e∂ ten plik");
-define("_MD_RATE_OK","TwÛj g≥os zosta≥ zarejestrowany");
+define("_MD_RATE_ALREADY","Niestety, ju≈º ocenia≈Çe≈õ ten plik");
+define("_MD_RATE_OK","Tw√≥j g≈Ços zosta≈Ç zarejestrowany");
 
 // ------------------------------------------------------------------------- //
 // File search.php - OK
 // ------------------------------------------------------------------------- //
-define("_MD_SEARCH_TITLE","Wyszukiwanie zdjÍÊ");
+define("_MD_SEARCH_TITLE","Wyszukiwanie zdjƒôƒá");
 
 // ------------------------------------------------------------------------- //
 // File upload.php
 // ------------------------------------------------------------------------- //
-define("_MD_UPL_TITLE","Wysy≥anie plikÛw");
+define("_MD_UPL_TITLE","Wysy≈Çanie plik√≥w");
 define("_MD_UPL_MAX_FSIZE","Maksymalny rozmiar pliku to %s KB");
 define("_MD_UPL_ALBUM","Album");
-define("_MD_UPL_PICTURE","ZdjÍcie");
-define("_MD_UPL_PIC_TITLE","Tytu≥ zdjÍcia");
-define("_MD_UPL_DESCRIPTION","Opis zdjÍcia");
-define("_MD_UPL_KEYWORDS","S≥owa kluczowe (oddzielone spacjami)");
-define("_MD_UPL_ERR_NO_ALB_UPLOAD","Niestety, nie ma albumu do ktÛrego mÛg≥by∂ przes≥aÊ pliki");
+define("_MD_UPL_PICTURE","Zdjƒôcie");
+define("_MD_UPL_PIC_TITLE","Tytu≈Ç zdjƒôcia");
+define("_MD_UPL_DESCRIPTION","Opis zdjƒôcia");
+define("_MD_UPL_KEYWORDS","S≈Çowa kluczowe (oddzielone spacjami)");
+define("_MD_UPL_ERR_NO_ALB_UPLOAD","Niestety, nie ma albumu do kt√≥rego m√≥g≈Çby≈õ przes≈Çaƒá pliki");
 define("_MD_UPL_YOURALB","Twoje albumy");
-define("_MD_UPL_ALBPUB","Albumy udostÍpnione");
-define("_MD_UPL_OUSERALB","Albumy innych uøytkownikÛw");
+define("_MD_UPL_ALBPUB","Albumy udostƒôpnione");
+define("_MD_UPL_OUSERALB","Albumy innych u≈ºytkownik√≥w");
 
 
 

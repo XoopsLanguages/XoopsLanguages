@@ -14,255 +14,255 @@ define("_AD_MULTIMENU_ADMIN"                        , "Administration : multiMen
 define("_AD_MULTIMENU_EDITIMENU"                    , "Edycja");
 define("_AD_MULTIMENU_NEWIMENU"                     , "Nowe IMenu");
 define("_AD_MULTIMENU_NEW"                          , "Nowy Link");
-define("_AD_MULTIMENU_TITLE"                        , "Tytu³");
+define("_AD_MULTIMENU_TITLE"                        , "TytuÅ‚");
 define("_AD_MULTIMENU_STATUS"                       , "Status");
 define("_AD_MULTIMENU_ONLINE"                       , "Online");
 define("_AD_MULTIMENU_OFFLINE"                      , "Offline");
 define("_AD_MULTIMENU_SUBMENU"                      , "Rodzaj");
-define("_AD_MULTIMENU_SUBMENUEXP"                   , "<br /><i><font color='red'>Podmenu <u>musi mieæ</u><br />t± sam± ¶cie¿kê<br />co g³ówny</font></i>");
+define("_AD_MULTIMENU_SUBMENUEXP"                   , "<br /><i><font color='red'>Podmenu <u>musi mieÄ‡</u><br />tÄ… samÄ… Å›cieÅ¼kÄ™<br />co gÅ‚Ã³wny</font></i>");
 define("_AD_MULTIMENU_SUBYES"                       , "Tak");
 define("_AD_MULTIMENU_SUBNO"                        , "Nie");
-define("_AD_MULTIMENU_MAINLINK"                     , "<b>G³ówny link</b>");
+define("_AD_MULTIMENU_MAINLINK"                     , "<b>GÅ‚Ã³wny link</b>");
 define("_AD_MULTIMENU_SUBLINK"                      , "<i>Podlink</i>");
-define("_AD_MULTIMENU_PERMSUBLINK"                  , "Sta³y podlink");
+define("_AD_MULTIMENU_PERMSUBLINK"                  , "StaÅ‚y podlink");
 define("_AD_MULTIMENU_NOTE"                         , "Opis");
 define("_AD_MULTIMENU_TARGET"                       , "Cel");
-define("_AD_MULTIMENU_GROUPS"                       , "Grupy które bêd± widzia³y ten link");
+define("_AD_MULTIMENU_GROUPS"                       , "Grupy ktÃ³re bÄ™dÄ… widziaÅ‚y ten link");
 define("_AD_MULTIMENU_LINK"                         , "Link");
 define("_AD_MULTIMENU_OPERATION"                    , "Edycja");
-define("_AD_MULTIMENU_UP"                           , "Góra");
-define("_AD_MULTIMENU_DOWN"                         , "Dó³");
+define("_AD_MULTIMENU_UP"                           , "GÃ³ra");
+define("_AD_MULTIMENU_DOWN"                         , "DÃ³Å‚");
 define("_AD_MULTIMENU_TARG_SELF"                    , "self");
 define("_AD_MULTIMENU_TARG_BLANK"                   , "blank");
 define("_AD_MULTIMENU_TARG_PARENT"                  , "parent");
 define("_AD_MULTIMENU_TARG_TOP"                     , "top");
-define("_AD_MULTIMENU_SUREDELETE"                   , "Czy napewno chcesz usun±æ ten link?");
+define("_AD_MULTIMENU_SUREDELETE"                   , "Czy napewno chcesz usunÄ…Ä‡ ten link?");
 define("_AD_MULTIMENU_UPDATED"                      , "Baza danych zaktualizowana!");
-define("_AD_MULTIMENU_NOTUPDATED"                   , "Nie mo¿na zaktualizowaæ Bazy danych!");
-define("_AD_MULTIMENU_SUBMIT"                       , "Potwierd¼");
+define("_AD_MULTIMENU_NOTUPDATED"                   , "Nie moÅ¼na zaktualizowaÄ‡ Bazy danych!");
+define("_AD_MULTIMENU_SUBMIT"                       , "PotwierdÅº");
 define("_AD_MULTIMENU_IMAGE"                        , "Obrazek");
 
 define("_AD_MULTIMENU_CATEGORY"                     , "Kategoria");
-define("_AD_MULTIMENU_NOTES"                        , "<font color='red'>*</font> multiMenu wspiera wzglêdne i bezwzglêdne adresy URL.<br /><br />
-<b><u>Przyk³ady</u> :</b><br /><br />
-<u>Bezwzglêdny URL</u> : <i>".XOOPS_URL."/modules/multiMenu/index.php</i><br />
-<u>Wzglêdny URL</u> : <i>modules/multiMenu/</i><br /><br />
-<table><tr><td><img src='../images/attention.png' /></td><td>¯eby linki poprawnie dzia³a³y,<br />trzeba dodaæ ' / ' (uko¶nik)<br />na koñcu linka!</td><tr></table><br />
+define("_AD_MULTIMENU_NOTES"                        , "<font color='red'>*</font> multiMenu wspiera wzglÄ™dne i bezwzglÄ™dne adresy URL.<br /><br />
+<b><u>PrzykÅ‚ady</u> :</b><br /><br />
+<u>BezwzglÄ™dny URL</u> : <i>".XOOPS_URL."/modules/multiMenu/index.php</i><br />
+<u>WzglÄ™dny URL</u> : <i>modules/multiMenu/</i><br /><br />
+<table><tr><td><img src='../images/attention.png' /></td><td>Å»eby linki poprawnie dziaÅ‚aÅ‚y,<br />trzeba dodaÄ‡ ' / ' (ukoÅ›nik)<br />na koÅ„cu linka!</td><tr></table><br />
 <br />
-Mo¿esz u¿ywaæ nastêpuj±cych tagów w ¶cie¿ce do swojego pliku:<br />
-- {theme} poka¿e obecnie u¿ywan± skórkê.<br />
-- {module} poka¿e nazwê obecnie wy¶wietlanego modu³u.");
+MoÅ¼esz uÅ¼ywaÄ‡ nastÄ™pujÄ…cych tagÃ³w w Å›cieÅ¼ce do swojego pliku:<br />
+- {theme} pokaÅ¼e obecnie uÅ¼ywanÄ… skÃ³rkÄ™.<br />
+- {module} pokaÅ¼e nazwÄ™ obecnie wyÅ›wietlanego moduÅ‚u.");
 
 define("_AD_MULTIMENU_PREFERENCES"                  , "Opcje");
 define("_AD_MULTIMENU_HELP"                         , "Przewodnik");
 
-define("_AD_MULTIMENU_FATHER_INDEX"                 , "Katalog nadrzêdny");
-define("_AD_MULTIMENU_CANTPARENT"                   , "Wej¶cie nie mo¿e prowadziæ do siebie lub podkatalogu!");
+define("_AD_MULTIMENU_FATHER_INDEX"                 , "Katalog nadrzÄ™dny");
+define("_AD_MULTIMENU_CANTPARENT"                   , "WejÅ›cie nie moÅ¼e prowadziÄ‡ do siebie lub podkatalogu!");
 define("_AD_MULTIMENU_ID"                           , "Id");
 define("_AD_MULTIMENU_PID"                          , "Pid");
-define("_AD_MULTIMENU_BLOCK_LINK"                   , "Lista linków");
+define("_AD_MULTIMENU_BLOCK_LINK"                   , "Lista linkÃ³w");
 
-define("_AD_MULTIMENU_GUIDET_GENERAL"               , "Ustawienia g³ówne");
+define("_AD_MULTIMENU_GUIDET_GENERAL"               , "Ustawienia gÅ‚Ã³wne");
 define("_AD_MULTIMENU_GUIDET_PREF"                  , "Preferencje");
 define("_AD_MULTIMENU_GUIDET_INDEX"                 , "Index");
 define("_AD_MULTIMENU_GUIDET_BLOCKS"                , "Bloki");
 
 define("_AD_MULTIMENU_GUIDE_GENERAL",	"
-<p align='center'><strong><font size='5'>Krótko o multiMenu</font>
+<p align='center'><strong><font size='5'>KrÃ³tko o multiMenu</font>
 </strong></p><br />
 <br />
-<strong><u>Wstêp</u>
+<strong><u>WstÄ™p</u>
 </strong>
-<br />multiMenu jest wielofunkcyjnym menad¿erem menu. Zosta³ stworzony aby umo¿liwiæ ³atwe wy¶wietlanie linków oraz menu na stronie opartej na Xoops'ie. Dla webmasterów: nowy link mo¿e byæ dodany z panelu administracyjnego, lub wprost z linku na stronie. Wersja 1.7 zawiera interfejs mapy strony, który pozwala na ³atwe tworzenie w³asnych menu.
+<br />multiMenu jest wielofunkcyjnym menadÅ¼erem menu. ZostaÅ‚ stworzony aby umoÅ¼liwiÄ‡ Å‚atwe wyÅ›wietlanie linkÃ³w oraz menu na stronie opartej na Xoops'ie. Dla webmasterÃ³w: nowy link moÅ¼e byÄ‡ dodany z panelu administracyjnego, lub wprost z linku na stronie. Wersja 1.7 zawiera interfejs mapy strony, ktÃ³ry pozwala na Å‚atwe tworzenie wÅ‚asnych menu.
 <br />
 <br />
 <strong><u>Cechy</u>
 </strong>
-<br />G³ówn± cech± tego modu³u jest ³atwe tworzenie w³asnych menu. Takie menu mo¿na ³atwo dostosowaæ menu do swoich potrzeb. multiMenu zawiera dodatkowo szereg opcji których nie mo¿na opisaæ w tym krótkim przewodniku.
+<br />GÅ‚Ã³wnÄ… cechÄ… tego moduÅ‚u jest Å‚atwe tworzenie wÅ‚asnych menu. Takie menu moÅ¼na Å‚atwo dostosowaÄ‡ menu do swoich potrzeb. multiMenu zawiera dodatkowo szereg opcji ktÃ³rych nie moÅ¼na opisaÄ‡ w tym krÃ³tkim przewodniku.
 <br />
-<br /><strong><u>Podziêkowania</u></strong>
-<br />Odno¶nie projektowania i tworzenia tego modu³u, podziêkowania dla kilku dobrze znanych ludzi: <br />Herv&eacute;, Marcan i Solo za ich pomoc oraz wspó³pracê przy tworzeniu tego modu³u.
+<br /><strong><u>PodziÄ™kowania</u></strong>
+<br />OdnoÅ›nie projektowania i tworzenia tego moduÅ‚u, podziÄ™kowania dla kilku dobrze znanych ludzi: <br />Herv&eacute;, Marcan i Solo za ich pomoc oraz wspÃ³Å‚pracÄ™ przy tworzeniu tego moduÅ‚u.
 ");
 
 define("_AD_MULTIMENU_GUIDE_PREF",	"
-<p align='center'><strong><font size='5'>Jak u¿ywaæ multiMenu ?</font></strong>
+<p align='center'><strong><font size='5'>Jak uÅ¼ywaÄ‡ multiMenu ?</font></strong>
 </p>
 <br /><strong><u>Administracja<br /></u></strong>
-<br /><strong><u>Obja¶nienia opcji</u>
+<br /><strong><u>ObjaÅ›nienia opcji</u>
 </strong>
-<br /><br />Przed uzyciem tego modu³u sugerujemy aby¶ zapozna³ siê z opcjami. W³a¶nie tam bêdziesz ustawia³ g³ówne opcje multiMenu. Te ustawienia maj± bezpo¶redni wp³yw na twoj± stronê (ale nie na bloki).
+<br /><br />Przed uzyciem tego moduÅ‚u sugerujemy abyÅ› zapoznaÅ‚ siÄ™ z opcjami. WÅ‚aÅ›nie tam bÄ™dziesz ustawiaÅ‚ gÅ‚Ã³wne opcje multiMenu. Te ustawienia majÄ… bezpoÅ›redni wpÅ‚yw na twojÄ… stronÄ™ (ale nie na bloki).
 <br />
 <br />
-<br /><strong><em>Poka¿ stronê g³ówn±: <br /></em></strong>
-Tutaj mo¿esz aktywowaæ lub nie, opcje strony g³ównej. Je¿eli wy³±czysz t± opcjê, mo¿esz u¿ywaæ linku jako fa³szywy, który bêdzie pokazywa³ co tylko zechecsz, lub u¿ywaæ go jako drug± stronê g³ówna. Pamiêtaj, ¿e ta opcja mo¿e ukryæ tylko link do strony g³ównej a nie podlinki.
+<br /><strong><em>PokaÅ¼ stronÄ™ gÅ‚Ã³wnÄ…: <br /></em></strong>
+Tutaj moÅ¼esz aktywowaÄ‡ lub nie, opcje strony gÅ‚Ã³wnej. JeÅ¼eli wyÅ‚Ä…czysz tÄ… opcjÄ™, moÅ¼esz uÅ¼ywaÄ‡ linku jako faÅ‚szywy, ktÃ³ry bÄ™dzie pokazywaÅ‚ co tylko zechecsz, lub uÅ¼ywaÄ‡ go jako drugÄ… stronÄ™ gÅ‚Ã³wna. PamiÄ™taj, Å¼e ta opcja moÅ¼e ukryÄ‡ tylko link do strony gÅ‚Ã³wnej a nie podlinki.
 <br />
 <br />
 <strong><em>Tekst powitalny: <br /></em></strong>
-Wpisz tutaj tekst który bêdzie wy¶wietlony nad linkiem do strony g³ównej. Mo¿esz u¿ywac tag-ów Xoops'a i HTML.
+Wpisz tutaj tekst ktÃ³ry bÄ™dzie wyÅ›wietlony nad linkiem do strony gÅ‚Ã³wnej. MoÅ¼esz uÅ¼ywac tag-Ã³w Xoops'a i HTML.
 <br />
 <br />
 <strong><em>Baner:</em></strong>
-Masz mo¿liwo¶æ umieszczenia banera lub nazwy modu³u ponad wszystkimi linkami. Je¶li chcesz zmieniæ baner, nadpisz plik logo.gif : '/module/multiMenu/images/logo.gif' .
+Masz moÅ¼liwoÅ›Ä‡ umieszczenia banera lub nazwy moduÅ‚u ponad wszystkimi linkami. JeÅ›li chcesz zmieniÄ‡ baner, nadpisz plik logo.gif : '/module/multiMenu/images/logo.gif' .
 <br />
 <br />
-<strong><em>Tytu³ menu: <br /></em></strong>
-Zdefiniuj tytu³y stron. Nazwy bloków siê nie zmieni±!
+<strong><em>TytuÅ‚ menu: <br /></em></strong>
+Zdefiniuj tytuÅ‚y stron. Nazwy blokÃ³w siÄ™ nie zmieniÄ…!
 <br />
 <br />
 <strong><em>~Nazwy menu (id 1 do 4): <br /></em></strong>
-Utwórz spis i nazwy stron administratora. Uwaga, to nie ma wp³ywu na nazwy bloków!
+UtwÃ³rz spis i nazwy stron administratora. Uwaga, to nie ma wpÅ‚ywu na nazwy blokÃ³w!
 <br />
 <br />
-<strong><em>Poka¿ belkê nawigacji:</em></strong>
- <br />Belka nawigacji bêdzie wy¶wietlana na ka¿dej stronie. Je¿eli nie chcesz to nie musisz aktywowaæ tej funkcji.
+<strong><em>PokaÅ¼ belkÄ™ nawigacji:</em></strong>
+ <br />Belka nawigacji bÄ™dzie wyÅ›wietlana na kaÅ¼dej stronie. JeÅ¼eli nie chcesz to nie musisz aktywowaÄ‡ tej funkcji.
 <br />
-<br /><strong><em>Domy¶lna szeroko¶æ obrazka:</em>
+<br /><strong><em>DomyÅ›lna szerokoÅ›Ä‡ obrazka:</em>
 </strong>
-<br />Podaj maksymalny rozmiar obrazka który bêdzie wy¶wietlany w menu. Ta opcja bêdzie tylko zminiejsza³a za du¿e obrazy aby ujednoliciæ menu. Obazki mniejsze ni¿ podany przez ciebie wymiar nie bêd± powiêkszane aby nie utraci³y jako¶ci.
+<br />Podaj maksymalny rozmiar obrazka ktÃ³ry bÄ™dzie wyÅ›wietlany w menu. Ta opcja bÄ™dzie tylko zminiejszaÅ‚a za duÅ¼e obrazy aby ujednoliciÄ‡ menu. Obazki mniejsze niÅ¼ podany przez ciebie wymiar nie bÄ™dÄ… powiÄ™kszane aby nie utraciÅ‚y jakoÅ›ci.
 <br />
 <br />
 <br /><strong><em>Ikony:</em></strong>
-<br />S± 4 rodzaje ikon. Ka¿dy link ma odpowiedni± ikonê:<br />
+<br />SÄ… 4 rodzaje ikon. KaÅ¼dy link ma odpowiedniÄ… ikonÄ™:<br />
 <ul>
-<li><img src='../images/icon/urllink_01.gif' align='absmiddle' /> Bezwzglêdny g³ówny link</li>
-<li><img src='../images/icon/urllink.gif' align='absmiddle' /> Bezwzglêdny0 podrzêdny link</li>
-<li><img src='../images/icon/links_01.gif' align='absmiddle' /> Wzglêdny g³ówny link</li>
-<li><img src='../images/icon/links.gif' align='absmiddle' /> Wzglêdny podrzêdny link</li>
+<li><img src='../images/icon/urllink_01.gif' align='absmiddle' /> BezwzglÄ™dny gÅ‚Ã³wny link</li>
+<li><img src='../images/icon/urllink.gif' align='absmiddle' /> BezwzglÄ™dny0 podrzÄ™dny link</li>
+<li><img src='../images/icon/links_01.gif' align='absmiddle' /> WzglÄ™dny gÅ‚Ã³wny link</li>
+<li><img src='../images/icon/links.gif' align='absmiddle' /> WzglÄ™dny podrzÄ™dny link</li>
 </ul>
 <br />
 <br />
-<strong><em>multiMenu w skórce:<br /></em></strong>
-Aby multiMenu by³o wy¶wietlane w twojej skórce musisz do niej wkleiæ ten kod *:
+<strong><em>multiMenu w skÃ³rce:<br /></em></strong>
+Aby multiMenu byÅ‚o wyÅ›wietlane w twojej skÃ³rce musisz do niej wkleiÄ‡ ten kod *:
 <p align='center'><font color='blue'><nobr><{include file=\"../modules/multiMenu/theme/multimenu.php\"}></nobr></font></p>
 <br />
-<i>* Uwaga: Tylko 'g³ówne linki' s± wy¶wieltane w skórce!</i>
+<i>* Uwaga: Tylko 'gÅ‚Ã³wne linki' sÄ… wyÅ›wieltane w skÃ³rce!</i>
 ");
 
 define("_AD_MULTIMENU_GUIDE_INDEX",	"
-<p align='center'><strong><font size='5'>Jak u¿ywaæ multiMenu ?</font></strong></p>
+<p align='center'><strong><font size='5'>Jak uÅ¼ywaÄ‡ multiMenu ?</font></strong></p>
 <br /><strong><u>Administracja<br /></u></strong><br />
 <strong><u>Opcje administracyjne</u></strong>
 <br />
 <br />
-S± dwa rodzaje menu: menu dynamiczne oraz zwyk³e sta³e linki.
+SÄ… dwa rodzaje menu: menu dynamiczne oraz zwykÅ‚e staÅ‚e linki.
 <br />
 <br />
-<strong>Belka nawigacji sk³ada sie z nastêpuj±cych czê¶ci:</strong>
-<ul><li>Strona g³ówna</li>
+<strong>Belka nawigacji skÅ‚ada sie z nastÄ™pujÄ…cych czÄ™Å›ci:</strong>
+<ul><li>Strona gÅ‚Ã³wna</li>
 <li>Opcje</li>
 <li> Pomoc</li>
 <li> Linki admina</li>
 <li> multiMenu</li></ul><br />
-Uwaga: Specjalny kolor który pokazuje czy dany link jest wy¶wietlany czy nie na stronie (zielony - jest wy¶wietlany, czerwony - nie jest wy¶wietlany).<br />
+Uwaga: Specjalny kolor ktÃ³ry pokazuje czy dany link jest wyÅ›wietlany czy nie na stronie (zielony - jest wyÅ›wietlany, czerwony - nie jest wyÅ›wietlany).<br />
 <br />
-Mo¿esz poruszaæ siê po ca³ym module dziêki belce nawigacji. Pamiêtaj, ¿e ka¿d± strone wygenerowan± przez ten modu³ jako administrator bêdziesz móg³ modyfikowaæ i usuwaæ.
+MoÅ¼esz poruszaÄ‡ siÄ™ po caÅ‚ym module dziÄ™ki belce nawigacji. PamiÄ™taj, Å¼e kaÅ¼dÄ… strone wygenerowanÄ… przez ten moduÅ‚ jako administrator bÄ™dziesz mÃ³gÅ‚ modyfikowaÄ‡ i usuwaÄ‡.
 <br />
 <br />
-<strong><u>Strona g³ówna multiMenu</u></strong><br />
+<strong><u>Strona gÅ‚Ã³wna multiMenu</u></strong><br />
 <br />
-Spis linków. <br />
-W spisie linków, mo¿esz dostaæ kilka cennych informacji odno¶nie twoich odno¶ników :<br />
+Spis linkÃ³w. <br />
+W spisie linkÃ³w, moÅ¼esz dostaÄ‡ kilka cennych informacji odnoÅ›nie twoich odnoÅ›nikÃ³w :<br />
 <ul>
-<li>Obrazek: poka¿ dostosowan± wersjê obrazka.</li>
-<li>Tytu³</li>
+<li>Obrazek: pokaÅ¼ dostosowanÄ… wersjÄ™ obrazka.</li>
+<li>TytuÅ‚</li>
 <li>Link</li>
-<li>Status: zielony - online (nie wy¶wietlany), czerwony - offline (wy¶wietlany).</li>
+<li>Status: zielony - online (nie wyÅ›wietlany), czerwony - offline (wyÅ›wietlany).</li>
 <li>Rodzaj</li>
-<li>Edycja: modyfikowanie, usuwanie, zmiana po³o¿enia linków (strza³kami).</li>
+<li>Edycja: modyfikowanie, usuwanie, zmiana poÅ‚oÅ¼enia linkÃ³w (strzaÅ‚kami).</li>
 </ul>
-Linki s± pouk³adane w kolejno¶ci wy¶wietlania. Ustawienie linków mo¿e byæ zmieniane poprzez klikniêcie na zielon± strza³kê(dó³ i góra).
+Linki sÄ… poukÅ‚adane w kolejnoÅ›ci wyÅ›wietlania. Ustawienie linkÃ³w moÅ¼e byÄ‡ zmieniane poprzez klikniÄ™cie na zielonÄ… strzaÅ‚kÄ™(dÃ³Å‚ i gÃ³ra).
 <br />
 <br />
-Kliknij na 'Nowy Link' aby utworzyæ nowy odno¶nik. 
+Kliknij na 'Nowy Link' aby utworzyÄ‡ nowy odnoÅ›nik. 
 <br />
 <br />
 <strong><u>Nowy link</u></strong><br />
 <br />
-multiMenu zosta³o stworzone aby umo¿liwiaæ ³atwe dodawane linków do menu. Musisz tylko wype³niæ stosowne pola.<br />
-Mo¿esz wybraæ wy¶wietlanie obrazków z lub bez linków, z ró¿nymi mo¿liwymi opcjami wy¶wietlania.<br />
+multiMenu zostaÅ‚o stworzone aby umoÅ¼liwiaÄ‡ Å‚atwe dodawane linkÃ³w do menu. Musisz tylko wypeÅ‚niÄ‡ stosowne pola.<br />
+MoÅ¼esz wybraÄ‡ wyÅ›wietlanie obrazkÃ³w z lub bez linkÃ³w, z rÃ³Å¼nymi moÅ¼liwymi opcjami wyÅ›wietlania.<br />
 <br />
-<strong><em>Tytu³:</em></strong> to nazwa linka. Mo¿esz u¿ywaæ tag'ów HTML (np ¿eby zmieniæ kolor napisu) lub buziek. Proszê nie u¿ywaæ BBCode.<br />
+<strong><em>TytuÅ‚:</em></strong> to nazwa linka. MoÅ¼esz uÅ¼ywaÄ‡ tag'Ã³w HTML (np Å¼eby zmieniÄ‡ kolor napisu) lub buziek. ProszÄ™ nie uÅ¼ywaÄ‡ BBCode.<br />
 <br />
-<strong><em>Link:</em></strong> to jest URL do którego bêdzie prowadzi³ nowy link. Nic nie wpisuj je¿eli chcesz ¿eby ten lnk pozosta³ nieaktywny (pusty). URL mo¿e byæ wzglêdy lub bezwzglêdny. Je¿eli ustawisz na wzglêdny, multiMenu automatycznie doda obecn± ¶cie¿kê, wiêc, twój link bêdzi zawsze poprawny bo bêdzie prowadzi³ do aktualnie ogl±danej strony. <br />
+<strong><em>Link:</em></strong> to jest URL do ktÃ³rego bÄ™dzie prowadziÅ‚ nowy link. Nic nie wpisuj jeÅ¼eli chcesz Å¼eby ten lnk pozostaÅ‚ nieaktywny (pusty). URL moÅ¼e byÄ‡ wzglÄ™dy lub bezwzglÄ™dny. JeÅ¼eli ustawisz na wzglÄ™dny, multiMenu automatycznie doda obecnÄ… Å›cieÅ¼kÄ™, wiÄ™c, twÃ³j link bÄ™dzi zawsze poprawny bo bÄ™dzie prowadziÅ‚ do aktualnie oglÄ…danej strony. <br />
 <br />
-<strong><em>Obrazek:</em></strong> URL obrazka którego chcesz u¿yæ. To samo je¶li chodzi o link wzglêdny lub bezwzglêdny. Je¿eli obrazek jest niedostêpny lub niew³a¶ciwy, multiMenu u¿yje domy¶lnego czyli czerwonej ³apy.<br />
-W tej wersji, masz mo¿liwo¶æ u¿ycia dwóch ró¿nych tag'ów<strong>{module}</strong> <strong>{theme}</strong>, pokazuj± one kolejno modu³ i skórê aktualnie u¿ywan±.<br />
+<strong><em>Obrazek:</em></strong> URL obrazka ktÃ³rego chcesz uÅ¼yÄ‡. To samo jeÅ›li chodzi o link wzglÄ™dny lub bezwzglÄ™dny. JeÅ¼eli obrazek jest niedostÄ™pny lub niewÅ‚aÅ›ciwy, multiMenu uÅ¼yje domyÅ›lnego czyli czerwonej Å‚apy.<br />
+W tej wersji, masz moÅ¼liwoÅ›Ä‡ uÅ¼ycia dwÃ³ch rÃ³Å¼nych tag'Ã³w<strong>{module}</strong> <strong>{theme}</strong>, pokazujÄ… one kolejno moduÅ‚ i skÃ³rÄ™ aktualnie uÅ¼ywanÄ….<br />
 <br />
-<strong><em>Status:</em></strong> czy link ma byæ wy¶wietlony czy nie.<br />
+<strong><em>Status:</em></strong> czy link ma byÄ‡ wyÅ›wietlony czy nie.<br />
 <br />
-<strong><em>Rodzaj:</em></strong> wybierz rodzaj linka. Jest 5 ró¿nych typów :<br />
+<strong><em>Rodzaj:</em></strong> wybierz rodzaj linka. Jest 5 rÃ³Å¼nych typÃ³w :<br />
 <ul>
-<li><strong>Kategoria:</strong> Kategoria linków.</li>
-<li><strong>G³ówny link:</strong> G³ówny link.</li>
-<li><strong>Sta³y podlink:</strong> Podlink który bêdzie wy¶wietlany stale.</li>
-<li><strong>Dynamiczny podlink:</strong> Podlink który bêdzie wy¶wietlany dynamicznie, odnosz±cy siê do linku g³ównego. Aby dynamiczne podlinki dzia³a³y poprawnie, nale¿y dodaæ '\ / ' (uko¶niki) na koñcu linku do danego katalogu!
+<li><strong>Kategoria:</strong> Kategoria linkÃ³w.</li>
+<li><strong>GÅ‚Ã³wny link:</strong> GÅ‚Ã³wny link.</li>
+<li><strong>StaÅ‚y podlink:</strong> Podlink ktÃ³ry bÄ™dzie wyÅ›wietlany stale.</li>
+<li><strong>Dynamiczny podlink:</strong> Podlink ktÃ³ry bÄ™dzie wyÅ›wietlany dynamicznie, odnoszÄ…cy siÄ™ do linku gÅ‚Ã³wnego. Aby dynamiczne podlinki dziaÅ‚aÅ‚y poprawnie, naleÅ¼y dodaÄ‡ '\ / ' (ukoÅ›niki) na koÅ„cu linku do danego katalogu!
 </li>
-<li>Uwaga: mo¿e byæ wy¶wietlane jako zwyk³y tekst.</li>
+<li>Uwaga: moÅ¼e byÄ‡ wyÅ›wietlane jako zwykÅ‚y tekst.</li>
 </ul><br />
-<strong><em>Cel:</em></strong>Do czego ma siê odnosiæ link.</li><br />
+<strong><em>Cel:</em></strong>Do czego ma siÄ™ odnosiÄ‡ link.</li><br />
 <br />
-<strong><em>Grupy:</em></strong> wybierz które grupy mog± widzieæ a które nie aktualnie tworzony link.</li></ul>
+<strong><em>Grupy:</em></strong> wybierz ktÃ³re grupy mogÄ… widzieÄ‡ a ktÃ³re nie aktualnie tworzony link.</li></ul>
 ");
 
 define("_AD_MULTIMENU_GUIDE_BLOCKS",	"
-<p align='center'><strong><font size='5'>Jak u¿ywaæ multiMenu ?</font></strong></p><br />
+<p align='center'><strong><font size='5'>Jak uÅ¼ywaÄ‡ multiMenu ?</font></strong></p><br />
 <br />
 <strong><u>Bloki w multiMenu</u></strong><br />
 <br />
-Jedn± z wa¿niejszych cech multiMenu s± bloki. Jak napisano powy¿ej, masz dla ka¿dego menu odpowiedni blok (pocz±wszy od 1 do 4 i blok admina), plus dwa inne w³asne bloki (A i B). Do ka¿dego dostêpnego bloku mo¿esz mieæ bardzo szerki zakres zastosowañ, opcji itd.<br /><br />Kiedy edytujesz blok multiMenu, definiujesz sze¶æ ró¿nych opcji.<br />
+JednÄ… z waÅ¼niejszych cech multiMenu sÄ… bloki. Jak napisano powyÅ¼ej, masz dla kaÅ¼dego menu odpowiedni blok (poczÄ…wszy od 1 do 4 i blok admina), plus dwa inne wÅ‚asne bloki (A i B). Do kaÅ¼dego dostÄ™pnego bloku moÅ¼esz mieÄ‡ bardzo szerki zakres zastosowaÅ„, opcji itd.<br /><br />Kiedy edytujesz blok multiMenu, definiujesz szeÅ›Ä‡ rÃ³Å¼nych opcji.<br />
 <br />
 <strong>1) Rodzaj bloku</strong><br />
 <br />
 <strong><em>Rodzaj:</em></strong><br />
-Mo¿esz wy¶witliæ linki w  multiMenu w 11 ró¿nych formach:<br />
-- Zwyk³e<br />
+MoÅ¼esz wyÅ›witliÄ‡ linki w  multiMenu w 11 rÃ³Å¼nych formach:<br />
+- ZwykÅ‚e<br />
 - Drzewko<br />
 - Wybieranie okienka<br />
 - Ustalony obrazek<br />
 - Przesuwane obrazki (bez pauzy)<br />
 - Przesuwane obrazki (z pauza)<br />
-- Nieuporz±dkowana lista (bez numerów)<br />
-- Uporz±dkowana lista (Z numerkamis)<br />
-- Nieuporz±dkowana lista<br />
+- NieuporzÄ…dkowana lista (bez numerÃ³w)<br />
+- UporzÄ…dkowana lista (Z numerkamis)<br />
+- NieuporzÄ…dkowana lista<br />
 - Przewijana lista (bez pauzy)<br />
-- Przesuwana lista (z pauz± na koñcu)<br />
+- Przesuwana lista (z pauzÄ… na koÅ„cu)<br />
 <br />
 <strong><em>Liczba kolumn:</em></strong><br />
-Ustaw liczbe kolumn w których maja byæ wy¶wietlane twoje linki. Ta opcja dzia³a tylko ze zwyk³ym menu i ustalonymi obrazkami.<br />
+Ustaw liczbe kolumn w ktÃ³rych maja byÄ‡ wyÅ›wietlane twoje linki. Ta opcja dziaÅ‚a tylko ze zwykÅ‚ym menu i ustalonymi obrazkami.<br />
 <br />
 <strong>2) Linki</strong><br />
 <br />
-<strong><em>Rodzaj linka do wy¶wietlenia:</em></strong><br />
-Ustaw rodzaj linków które chcesz wy¶wietliæ w¶ród wszystkich kategorii. <br />
-<strong><em>Sortuj wed³ug:</em></strong><br />
-W jakim porz±dku chcesz posortowaæ swoje linki: wg wagi lub wg alfabetu.<br />
+<strong><em>Rodzaj linka do wyÅ›wietlenia:</em></strong><br />
+Ustaw rodzaj linkÃ³w ktÃ³re chcesz wyÅ›wietliÄ‡ wÅ›rÃ³d wszystkich kategorii. <br />
+<strong><em>Sortuj wedÅ‚ug:</em></strong><br />
+W jakim porzÄ…dku chcesz posortowaÄ‡ swoje linki: wg wagi lub wg alfabetu.<br />
 <br />
-<strong>3) Tytu³</strong><br />
+<strong>3) TytuÅ‚</strong><br />
 <br />
-<strong><em>Poka¿ tytu³:</em></strong><br />
-Czy chcesz wy¶wietliæ tytu³ linków? Ta opcja powinna byæ u¿ywana tylko z menu obrazkowym!<br />
-<strong><em>Max. D³ugo¶æ:</em></strong><br />
-Jaki d³ugi mo¿e byæ tytu³ ? Podaj ilo¶æ znaków.<br />
+<strong><em>PokaÅ¼ tytuÅ‚:</em></strong><br />
+Czy chcesz wyÅ›wietliÄ‡ tytuÅ‚ linkÃ³w? Ta opcja powinna byÄ‡ uÅ¼ywana tylko z menu obrazkowym!<br />
+<strong><em>Max. DÅ‚ugoÅ›Ä‡:</em></strong><br />
+Jaki dÅ‚ugi moÅ¼e byÄ‡ tytuÅ‚ ? Podaj iloÅ›Ä‡ znakÃ³w.<br />
 <br />
 <strong>4) Obrazek</strong><br />
 <br />
-<strong><em>Wy¶wietl obrazek:</em></strong><br />
-Czy chcesz wy¶wietliæ obrazek do linku.<br />
-<strong><em>Max. Szeroko¶æ:</em></strong><br />
-Ustaw maksymaln± szeroko¶æ obrazka aby utrzymaæ jednolity wygl±d twojego menu. Je¶li obrazek jest za ma³y, nie zostanie on powiêkszony aby nie straci³ na jako¶ci.<br />
+<strong><em>WyÅ›wietl obrazek:</em></strong><br />
+Czy chcesz wyÅ›wietliÄ‡ obrazek do linku.<br />
+<strong><em>Max. SzerokoÅ›Ä‡:</em></strong><br />
+Ustaw maksymalnÄ… szerokoÅ›Ä‡ obrazka aby utrzymaÄ‡ jednolity wyglÄ…d twojego menu. JeÅ›li obrazek jest za maÅ‚y, nie zostanie on powiÄ™kszony aby nie straciÅ‚ na jakoÅ›ci.<br />
 <br />
 <strong>5) Opcje przewijania</strong><br />
-<br />Te opcje s± tylko przydatne je¿eli wybra³e¶ menu przewijane. 
-<br /><strong><em>Wysoko¶æ i szeroko¶æ bloku:</em></strong><br />
-Zdefiniuj rozmiary bloku. Sprawd¼ szeroko¶æ obrazka aby najlepiej dostosowaæ blok.<br />
-<strong><em>Prêdko¶æ:</em><br /></strong>
-Zdefiniuj prêdko¶æ przewijania linków i obazków w menu. <br />
+<br />Te opcje sÄ… tylko przydatne jeÅ¼eli wybraÅ‚eÅ› menu przewijane. 
+<br /><strong><em>WysokoÅ›Ä‡ i szerokoÅ›Ä‡ bloku:</em></strong><br />
+Zdefiniuj rozmiary bloku. SprawdÅº szerokoÅ›Ä‡ obrazka aby najlepiej dostosowaÄ‡ blok.<br />
+<strong><em>PrÄ™dkoÅ›Ä‡:</em><br /></strong>
+Zdefiniuj prÄ™dkoÅ›Ä‡ przewijania linkÃ³w i obazkÃ³w w menu. <br />
 <br />
 <strong>6) Losowe Linki</strong><br />
 <br />
 <strong><em>Losowe Linki:</em></strong></strong><br />
-multiMenu ma mo¿liwo¶æ wy¶wietlania losowych linków. Wybierz czy chcesz u¿yæ tej opcji czy nie. Ta opcja powinna byæ u¿ywana ostro¿nie je¿eli masz w menu kilka ró¿nych rodzajów linków, ta opcja pracuje najlepiej z jednym rodzajem linków.<br />
-<strong><em>Liczba losowych linków które zostan± wy¶wietlone:</em></strong><br />
-Ta opcja definiuje ilo¶æ losowych linków które bêd± wy¶wietlone w menu. Ta opcja mo¿e wy¶wietliæ dan± liczbê linków po pierwszym wybranym linku. 
-<br /><br />Dziêkujemy za wybór multiMenu, jak zawsze czekamy na wasze komentarze i propozycje. Dziêki waszej pomocy pragniemy dalej udoskonalaæ multiMenu.<br /><br />- Autorzy");
+multiMenu ma moÅ¼liwoÅ›Ä‡ wyÅ›wietlania losowych linkÃ³w. Wybierz czy chcesz uÅ¼yÄ‡ tej opcji czy nie. Ta opcja powinna byÄ‡ uÅ¼ywana ostroÅ¼nie jeÅ¼eli masz w menu kilka rÃ³Å¼nych rodzajÃ³w linkÃ³w, ta opcja pracuje najlepiej z jednym rodzajem linkÃ³w.<br />
+<strong><em>Liczba losowych linkÃ³w ktÃ³re zostanÄ… wyÅ›wietlone:</em></strong><br />
+Ta opcja definiuje iloÅ›Ä‡ losowych linkÃ³w ktÃ³re bÄ™dÄ… wyÅ›wietlone w menu. Ta opcja moÅ¼e wyÅ›wietliÄ‡ danÄ… liczbÄ™ linkÃ³w po pierwszym wybranym linku. 
+<br /><br />DziÄ™kujemy za wybÃ³r multiMenu, jak zawsze czekamy na wasze komentarze i propozycje. DziÄ™ki waszej pomocy pragniemy dalej udoskonalaÄ‡ multiMenu.<br /><br />- Autorzy");
 ?>

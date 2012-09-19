@@ -1,9 +1,9 @@
 Witaj {X_UNAME},
 
-Nowy post zosta³ napisany w temacie:  "{TOPIC_TITLE}".
+Nowy post zostaÅ‚ napisany w temacie:  "{TOPIC_TITLE}".
 
-Kliknij tutaj aby zobaczyæ post:
+Kliknij tutaj aby zobaczyÄ‡ post:
 {POST_URL}
 
-Kliknij tutaj aby zobaczyæ temat:
+Kliknij tutaj aby zobaczyÄ‡ temat:
 {TOPIC_URL}

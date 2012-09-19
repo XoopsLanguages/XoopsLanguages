@@ -3,8 +3,8 @@
 * $Id: table.class.php,v 1.0.2 24/05/2006 00:42 BitC3R0 Exp $      *
 * -----------------------------------------------------------      *
 * RMSOFT MyFolder 1.0                                              *
-* Módulo para el manejo de un portafolio profesional               *
-* CopyRight © 2006. Red México Soft                                *
+* MÃ³dulo para el manejo de un portafolio profesional               *
+* CopyRight Å  2006. Red MÃ©xico Soft                                *
 * Autor: BitC3R0                                                   *
 * http://www.redmexico.com.mx                                      *
 * http://www.xoops-mexico.net                                      *
@@ -28,7 +28,7 @@
 * table.class.php:                                                 *
 * Clase para el manejo de tablas HTML                              *
 * -----------------------------------------------------------      *
-* @copyright: © 2006. BitC3R0.                                     *
+* @copyright: Å  2006. BitC3R0.                                     *
 * @autor: BitC3R0                                                  *
 * @paquete: RMSOFT MyFolder v1.0                                   *
 * @version: 1.0.2                                                  *

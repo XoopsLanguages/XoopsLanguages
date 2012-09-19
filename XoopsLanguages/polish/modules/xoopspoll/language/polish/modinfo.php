@@ -6,20 +6,20 @@
 define("_MI_POLLS_NAME","Ankiety");
 
 // A brief description of this module
-define("_MI_POLLS_DESC","Pokazuje blok g³osowania");
+define("_MI_POLLS_DESC","Pokazuje blok gÅ‚osowania");
 
 // Names of blocks for this module (Not all module has blocks)
 define("_MI_POLLS_BNAME1","Blok Ankiet");
 
 // Names of admin menu items
-define("_MI_POLLS_ADMENU1","Wy¶wietl Ankiety");
-define("_MI_POLLS_ADMENU2","Dodaj Ankietê");
+define("_MI_POLLS_ADMENU1","WyÅ›wietl Ankiety");
+define("_MI_POLLS_ADMENU2","Dodaj AnkietÄ™");
 
 // wellwine
-define("_MI_POLLS_LOOKUPHOST","Pokazywaæ adres IP?");
-define("_MI_POLLS_LOOKUPHOSTDESC","Czy zapisywaæ adresy IP g³osuj±cych w logu?");
+define("_MI_POLLS_LOOKUPHOST","PokazywaÄ‡ adres IP?");
+define("_MI_POLLS_LOOKUPHOSTDESC","Czy zapisywaÄ‡ adresy IP gÅ‚osujÄ…cych w logu?");
 
 // hyperpod
 define("_MI_POLLS_ELECTION","W trybie elekcyjnym?");
-define("_MI_POLLS_ELECTIONDESC","W trybie elekcyjnym tylko zarejestrowani u¿ytkownicy mog± g³osowaæ a wyniki nie bêd± pokazywane a¿ akniekta nie wyga¶nie.");
+define("_MI_POLLS_ELECTIONDESC","W trybie elekcyjnym tylko zarejestrowani uÅ¼ytkownicy mogÄ… gÅ‚osowaÄ‡ a wyniki nie bÄ™dÄ… pokazywane aÅ¼ akniekta nie wygaÅ›nie.");
 ?>

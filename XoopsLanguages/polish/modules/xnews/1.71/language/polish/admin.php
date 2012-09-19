@@ -175,9 +175,9 @@ define('_AM_NW_REMOVE_BR'          , "Zamienić ten znacznik html &lt;br&gt; na 
 define('_AM_NW_PLEASE_UPGRADE'     , "<a href='upgrade.php'><font color='#FF0000'>Proszę zaktualizować moduł!</font></a>");
 
 // Added in verisn 1.50
-define('_AM_NW_NEWSLETTER_HEADER',"Header");
-define('_AM_NW_NEWSLETTER_FOOTER',"Footer");
-define('_AM_NW_NEWSLETTER_HTML_TAGS',"Remove html tags ?");
+define('_AM_NW_NEWSLETTER_HEADER', "Header");
+define('_AM_NW_NEWSLETTER_FOOTER', "Footer");
+define('_AM_NW_NEWSLETTER_HTML_TAGS', "Remove html tags ?");
 define('_AM_NW_VERIFY_TABLES','Maintain tables');
 define('_AM_NW_METAGEN',"Metagen");
 define('_AM_NW_METAGEN_DESC',"Metagen is a system that can help you to have your page best indexed by search engines.<br />Except if you type meta keywords and meta descriptions yourself, the module will automatically create them.");
@@ -191,61 +191,61 @@ define('_AM_NW_META_KEYWORDS_INTEXT',"Create them in the order they appear in th
 define('_AM_NW_META_KEYWORDS_FREQ1',"Words frequency's order");
 define('_AM_NW_META_KEYWORDS_FREQ2',"Reverse order of words frequency");
 // Added in version 1.67 Beta
-define("_AM_NW_SUBPREFIX","Prefiks");
+define("_AM_NW_SUBPREFIX", "Prefiks");
 
-define("_AM_NW_CLONER","Menadżer klonowania");
-define("_AM_NW_CLONER_CLONES","Klony");
-define("_AM_NW_CLONER_ADD","Sklonuj");
-define("_AM_NW_CLONER_ID","ID");
-define("_AM_NW_CLONER_NAME","Nazwa");
-define("_AM_NW_CLONER_DIRFOL","Katalog/Folder");
-define("_AM_NW_CLONER_VERSION","Wersja");
+define("_AM_NW_CLONER", "Menadżer klonowania");
+define("_AM_NW_CLONER_CLONES", "Klony");
+define("_AM_NW_CLONER_ADD", "Sklonuj");
+define("_AM_NW_CLONER_ID", "ID");
+define("_AM_NW_CLONER_NAME", "Nazwa");
+define("_AM_NW_CLONER_DIRFOL", "Katalog/Folder");
+define("_AM_NW_CLONER_VERSION", "Wersja");
 
-define("_AM_NW_CLONER_NEWNAME","Nowa nazwa modułu");
-define("_AM_NW_CLONER_NEWNAMEDESC","Zostanie utworzony nowy folder dla sklonowanego modułu. <br /> Wielkość liter i odstępy są ignorowane i zostaną automatycznie poprawione. <br /> np. nowa nazwa = <b>Biblioteka</b> nowy katalog = <b>biblioteka</b>, <br /> nowa nazwa = <b>Moja Biblioteka</b> nowy katalog = <b>mojabiblioteka</b>. <br /><br /> Początkowy moduł to: <font color='#008400'><b> %s </b></font><br />");
-define("_AM_NW_CLONER_NEWNAMELABEL","Nowy moduł:");
+define("_AM_NW_CLONER_NEWNAME", "Nowa nazwa modułu");
+define("_AM_NW_CLONER_NEWNAMEDESC", "Zostanie utworzony nowy folder dla sklonowanego modułu. <br /> Wielkość liter i odstępy są ignorowane i zostaną automatycznie poprawione. <br /> np. nowa nazwa = <b>Biblioteka</b> nowy katalog = <b>biblioteka</b>, <br /> nowa nazwa = <b>Moja Biblioteka</b> nowy katalog = <b>mojabiblioteka</b>. <br /><br /> Początkowy moduł to: <font color='#008400'><b> %s </b></font><br />");
+define("_AM_NW_CLONER_NEWNAMELABEL", "Nowy moduł:");
 
-define("_AM_NW_CLONER_DIREXISTS","Katalog/Folder '%s' już istnieje!!");
-define("_AM_NW_CLONER_CREATED","Moduł '%s' został pomyślnie sklonowany!!");
-define("_AM_NW_CLONER_UPRADED","Moduł '%s' został pomyślnie zaktualizowany!!");
-define("_AM_NW_CLONER_NOMODULEID","ID modułu NIE zostało ustawione!"); 
+define("_AM_NW_CLONER_DIREXISTS", "Katalog/Folder '%s' już istnieje!!");
+define("_AM_NW_CLONER_CREATED", "Moduł '%s' został pomyślnie sklonowany!!");
+define("_AM_NW_CLONER_UPRADED", "Moduł '%s' został pomyślnie zaktualizowany!!");
+define("_AM_NW_CLONER_NOMODULEID", "ID modułu NIE zostało ustawione!"); 
 
-define("_AM_NW_CLONER_UPDATE","Aktualizuj");
-define("_AM_NW_CLONER_INSTALL","Instaluj");
-define("_AM_NW_CLONER_UNINSTALL","Odinstaluj");
-define("_AM_NW_CLONER_ACTION_INSTALL","Instaluj/Odinstaluj"); 
+define("_AM_NW_CLONER_UPDATE", "Aktualizuj");
+define("_AM_NW_CLONER_INSTALL", "Instaluj");
+define("_AM_NW_CLONER_UNINSTALL", "Odinstaluj");
+define("_AM_NW_CLONER_ACTION_INSTALL", "Instaluj/Odinstaluj"); 
 
-define("_AM_NW_CLONER_IMPORTNEWS","Importuj dane z oryginalnego modułu News");
-define("_AM_NW_CLONER_IMPORTNEWSDESC1","Oryginalny moduł News został znaleziony! Zaimportować dane teraz?");
-define("_AM_NW_CLONER_IMPORTNEWSDESC2","Przycisk importuj dane jest widoczny jedynie gdy nie ma newsów w bazie modułu x"."News. <br />
+define("_AM_NW_CLONER_IMPORTNEWS", "Importuj dane z oryginalnego modułu News");
+define("_AM_NW_CLONER_IMPORTNEWSDESC1", "Oryginalny moduł News został znaleziony! Zaimportować dane teraz?");
+define("_AM_NW_CLONER_IMPORTNEWSDESC2", "Przycisk importuj dane jest widoczny jedynie gdy nie ma newsów w bazie modułu x"."News. <br />
                                          Jeśli dodałeś newsa przed importem danych z oryginalnego <br />
                                          modułu News musisz odinstalować i ponownie zainstalować x"."News. <br />
                                          Dane z oryginalnego modułu News można zaimportować tylko raz.");
-define("_AM_NW_CLONER_IMPORTNEWSSUB","Importuj");
-define("_AM_NW_CLONER_NEWSIMPORTED","Dane z oryginalnego modułu News zostały zaimportowane poprawnie.");
+define("_AM_NW_CLONER_IMPORTNEWSSUB", "Importuj");
+define("_AM_NW_CLONER_NEWSIMPORTED", "Dane z oryginalnego modułu News zostały zaimportowane poprawnie.");
 
 // Added in version 1.68 Beta
-define("_AM_NW_DESCRIPTION","<H3>x"."News jest klonowalnym modułem newsów</H3> 
+define("_AM_NW_DESCRIPTION", "<H3>x"."News jest klonowalnym modułem newsów</H3> 
 							  dającym możliwość pisania newsów i komentarzy przez użytkowników. Moduł może być sklonowany aby umożliwić posługiwanie się jedną metodą dla realizacji różnych celów. Dzięki temu może być wykorzytany do krótkich informacji, linków i wielu innych zadań. Każde z nich będzie może mieć własne bloki , tematy, ustawienia.");
 
 // Added in version 1.68 RC1
-define("_AM_NW_CLONER_CLONEDELETED","'%s' klon został pomyślnie usunięty.");
-define("_AM_NW_CLONER_CLONEDELETEDERR","'%s' klon nie został usunięty - sprawdź uprawnienia.");
-define("_AM_NW_CLONER_CLONEUPGRADED","Zaktualizowany");
-define("_AM_NW_CLONER_UPGRADEFORCE","Zaktualizuj na siłę");
-define("_AM_NW_CLONER_CLONEDELETION","Usuwanie klonów");
-define("_AM_NW_CLONER_SUREDELETE","Czy potwierdzasz, że chcesz usunąć klon <font color='#000000'>'%s'</font>?<br />");
-define("_AM_NW_CLONER_CLONEID","ID klonu nie zostało ustawione!");
+define("_AM_NW_CLONER_CLONEDELETED", "'%s' klon został pomyślnie usunięty.");
+define("_AM_NW_CLONER_CLONEDELETEDERR", "'%s' klon nie został usunięty - sprawdź uprawnienia.");
+define("_AM_NW_CLONER_CLONEUPGRADED", "Zaktualizowany");
+define("_AM_NW_CLONER_UPGRADEFORCE", "Zaktualizuj na siłę");
+define("_AM_NW_CLONER_CLONEDELETION", "Usuwanie klonów");
+define("_AM_NW_CLONER_SUREDELETE", "Czy potwierdzasz, że chcesz usunąć klon <font color='#000000'>'%s'</font>?<br />");
+define("_AM_NW_CLONER_CLONEID", "ID klonu nie zostało ustawione!");
 
 // Added in version 1.68 RC2
-define("_AM_NW_INDEX","Indeks"); 
+define("_AM_NW_INDEX", "Indeks"); 
 
 // Added in version 1.68 RC3
-define("_AM_NW_DOLINEBREAK","Dozwól na łamanie linii");
+define("_AM_NW_DOLINEBREAK", "Dozwól na łamanie linii");
 define("_AM_NW_TOPICS","Tematy");
 
 // Added in version 1.71
-define("_AM_NW_IMAGE_ROWS","Wiersze wyświetlania obrazu");
-define("_AM_NW_PDF_ROWS","Wiersze wyświetlania PDFa");
+define("_AM_NW_IMAGE_ROWS", "Wiersze wyświetlania obrazu");
+define("_AM_NW_PDF_ROWS", "Wiersze wyświetlania PDFa");
 
 ?>

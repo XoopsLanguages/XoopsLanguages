@@ -13,6 +13,6 @@
 
 define('_MB_WIWI_WIWIHOME',"Wiwi");
 define('_MB_WIWI_PAGENOTFOUND_MSG',"<br>Nie ma tej strony w bazie danych<br>");
-define('_MB_WIWI_NOREADACCESS_MSG',"<br><h4>Przepraszamy, brak dostêpu</h4><br>");
+define('_MB_WIWI_NOREADACCESS_MSG',"<br><h4>Przepraszamy, brak dostÄ™pu</h4><br>");
 
 ?>

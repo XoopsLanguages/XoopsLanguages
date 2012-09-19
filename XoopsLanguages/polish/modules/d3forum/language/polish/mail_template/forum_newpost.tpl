@@ -1,7 +1,7 @@
 Witaj {X_UNAME},
 
-Nowy post zosta³ dodany do forum "{FORUM_TITLE}".
+Nowy post zostaÅ‚ dodany do forum "{FORUM_TITLE}".
 
-Kliknij tutaj aby go zobaczyæ:
+Kliknij tutaj aby go zobaczyÄ‡:
 {POST_URL}
 

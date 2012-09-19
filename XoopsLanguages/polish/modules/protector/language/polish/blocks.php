@@ -1,2 +1,2 @@
 <?php
-define("_MB_PROTECTOR_MES_DONTATTACK","Uwaga Twoje dzia³ania s± monitorowane i logowane, nie próbuj brzydkich sztuczek.");?>
+define("_MB_PROTECTOR_MES_DONTATTACK","Uwaga Twoje dziaÅ‚ania sÄ… monitorowane i logowane, nie prÃ³buj brzydkich sztuczek.");?>

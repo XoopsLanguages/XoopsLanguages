@@ -2,99 +2,99 @@
 // $Id: main.php,v 1.4 2005/08/30 04:47:22 dap997 Exp $
 //%%%%%%		File Name index.php 		%%%%%
 define("_NW_PRINTER"                    , "Wersja do wydruku");
-define("_NW_SENDSTORY"                  , "Powiadom znajomego o tej wiadomo∂ci");
-define("_NW_READMORE"                   , "Czytaj wiÍcej...");
+define("_NW_SENDSTORY"                  , "Powiadom znajomego o tej wiadomo≈õci");
+define("_NW_READMORE"                   , "Czytaj wiƒôcej...");
 define("_NW_COMMENTS"                   , "Komentarze");
 define("_NW_ONECOMMENT"                 , "1 komentarz");
-define("_NW_BYTESMORE"                  , "%s bajtÛw wiÍcej");
+define("_NW_BYTESMORE"                  , "%s bajt√≥w wiƒôcej");
 define("_NW_NUMCOMMENTS"                , "%s komentarzy");
-define("_NW_MORERELEASES"               , "WiÍcej wydaÒ w... More releases in ");
+define("_NW_MORERELEASES"               , "Wiƒôcej wyda≈Ñ w... More releases in ");
 
 
 //%%%%%%		File Name submit.php		%%%%%
-define("_NW_SUBMITNEWS"                 , "Wy∂lij newsa");
-define("_NW_TITLE"                      , "Tytu≥");
+define("_NW_SUBMITNEWS"                 , "Wy≈õlij newsa");
+define("_NW_TITLE"                      , "Tytu≈Ç");
 define("_NW_TOPIC"                      , "Temat");
-define("_NW_THESCOOP"                   , "WstÍp - zachÍta");
-define("_NW_NOTIFYPUBLISH"              , "Powiadom mnie e-mailem gdy artyku≥ zostanie opublikowany.");
-define("_NW_POST"                       , "Wy∂lij");
+define("_NW_THESCOOP"                   , "Wstƒôp - zachƒôta");
+define("_NW_NOTIFYPUBLISH"              , "Powiadom mnie e-mailem gdy artyku≈Ç zostanie opublikowany.");
+define("_NW_POST"                       , "Wy≈õlij");
 define("_NW_GO"                         , "OK!");
-define("_NW_THANKS"                     , "DziÍkujemy za wiadomo∂Ê."); //submission of news article
+define("_NW_THANKS"                     , "Dziƒôkujemy za wiadomo≈õƒá."); //submission of news article
 
-define("_NW_NOTIFYSBJCT"                , "Nowa wiadomo∂Ê na stronie!"); // Notification mail subject
+define("_NW_NOTIFYSBJCT"                , "Nowa wiadomo≈õƒá na stronie!"); // Notification mail subject
 define("_NW_NOTIFYMSG"                  , "Hej adminie! Masz do opublikowania newsa na stronie."); // Notification mail message
 
 //%%%%%%		File Name archive.php		%%%%%
-define("_NW_NEWSARCHIVES"               , "Archiwum newsÛw");
-define("_NW_ARTICLES"                   , "Artyku≥y");
-define("_NW_VIEWS"                      , "Ods≥on");
+define("_NW_NEWSARCHIVES"               , "Archiwum news√≥w");
+define("_NW_ARTICLES"                   , "Artyku≈Çy");
+define("_NW_VIEWS"                      , "Ods≈Çon");
 define("_NW_DATE"                       , "Data");
 define("_NW_ACTIONS"                    , "Akcje");
 define("_NW_PRINTERFRIENDLY"            , "Wersja do wydrukowania");
 
-define("_NW_THEREAREINTOTAL"            , "W sumie jest juø %s artyku≥Ûw");
+define("_NW_THEREAREINTOTAL"            , "W sumie jest ju≈º %s artyku≈Ç√≥w");
 
 // %s is your site name
-define("_NW_INTARTICLE"                 , "Interesuj±cy artyku≥ na stronie %s");
-define("_NW_INTARTFOUND"                , "Znalaz≥em bardzo interesuj±cy artyku≥ na stronie %s");
+define("_NW_INTARTICLE"                 , "InteresujƒÖcy artyku≈Ç na stronie %s");
+define("_NW_INTARTFOUND"                , "Znalaz≈Çem bardzo interesujƒÖcy artyku≈Ç na stronie %s");
 
 define("_NW_TOPICC"                     , "Temat:");
 define("_NW_URL"                        , "Link:");
-define("_NW_NOSTORY"                    , "Niestety, wybrany artyku≥ nie istnieje.");
+define("_NW_NOSTORY"                    , "Niestety, wybrany artyku≈Ç nie istnieje.");
 
 //%%%%%%	File Name print.php 	%%%%%
 
-define("_NW_URLFORSTORY"                , "Link do tej wiadomo∂ci to:");
+define("_NW_URLFORSTORY"                , "Link do tej wiadomo≈õci to:");
 
 // %s represents your site name
-define("_NW_THISCOMESFROM"              , "Ten artyku≥ pochodzi z %s");
+define("_NW_THISCOMESFROM"              , "Ten artyku≈Ç pochodzi z %s");
 
-// Added by HervÈ
-define("_NW_ATTACHEDFILES"              , "Za≥±czone pliki:");
-define("_NW_ATTACHEDLIB"                , "Ten artyku≥ posiada dodatkowe pliki");
-define("_NW_NEWSSAMEAUTHORLINK"         , "WiÍcej wiadomo∂ci tego samego autora");
-define("_NW_NEWS_NO_TOPICS"             , "Nie moøna dodaÊ wiadomo∂ci je∂li nie zosta≥ utworzony przynajmniej jeden temat");
-define("_NW_PREVIOUS_ARTICLE"           , "Wcze∂niejszy artyku≥");
-define("_NW_NEXT_ARTICLE"               , "NastÍpny artyku≥");
-define("_NW_OTHER_ARTICLES"             , "Inne artyku≥y");
+// Added by Herv√©
+define("_NW_ATTACHEDFILES"              , "Za≈ÇƒÖczone pliki:");
+define("_NW_ATTACHEDLIB"                , "Ten artyku≈Ç posiada dodatkowe pliki");
+define("_NW_NEWSSAMEAUTHORLINK"         , "Wiƒôcej wiadomo≈õci tego samego autora");
+define("_NW_NEWS_NO_TOPICS"             , "Nie mo≈ºna dodaƒá wiadomo≈õci je≈õli nie zosta≈Ç utworzony przynajmniej jeden temat");
+define("_NW_PREVIOUS_ARTICLE"           , "Wcze≈õniejszy artyku≈Ç");
+define("_NW_NEXT_ARTICLE"               , "Nastƒôpny artyku≈Ç");
+define("_NW_OTHER_ARTICLES"             , "Inne artyku≈Çy");
 
-// Added by HervÈ in version 1.3 for rating
-define("_NW_RATETHISNEWS"               , "OceÒ tÍ wiadomo∂Ê");
-define("_NW_RATEIT"                     , "OceÒ to!");
+// Added by Herv√© in version 1.3 for rating
+define("_NW_RATETHISNEWS"               , "Oce≈Ñ tƒô wiadomo≈õƒá");
+define("_NW_RATEIT"                     , "Oce≈Ñ to!");
 define("_NW_TOTALRATE"                  , "Ocen w sumie");
-define("_NW_RATINGLTOH"                 , "Oceny (od najniøszej do najwyøszej)");
-define("_NW_RATINGHTOL"                 , "Oceny (od najwyøszej do najniøszej)");
+define("_NW_RATINGLTOH"                 , "Oceny (od najni≈ºszej do najwy≈ºszej)");
+define("_NW_RATINGHTOL"                 , "Oceny (od najwy≈ºszej do najni≈ºszej)");
 define("_NW_RATINGC"                    , "Ocena: ");
-define("_NW_RATINGSCALE"                , "Skala ocen jest od 1 do 10, gdzie 1 to ocena najniøsza 10 to najwyøsza.");
-define("_NW_BEOBJECTIVE"                , "ProszÍ byÊ obiektywnym, je∂li kaødy bÍdzie otrzymywa≥ albo 1 albo 10 to ranking nie bÍdzie zbyt uøyteczny.");
-define("_NW_DONOTVOTE"                  , "Prosze nie g≥osowaÊ na swoje w≥asne wiadomo∂ci.");
+define("_NW_RATINGSCALE"                , "Skala ocen jest od 1 do 10, gdzie 1 to ocena najni≈ºsza 10 to najwy≈ºsza.");
+define("_NW_BEOBJECTIVE"                , "Proszƒô byƒá obiektywnym, je≈õli ka≈ºdy bƒôdzie otrzymywa≈Ç albo 1 albo 10 to ranking nie bƒôdzie zbyt u≈ºyteczny.");
+define("_NW_DONOTVOTE"                  , "Prosze nie g≈Çosowaƒá na swoje w≈Çasne wiadomo≈õci.");
 define("_NW_RATING"                     , "Ocena");
-define("_NW_VOTE"                       , "G≥os");
+define("_NW_VOTE"                       , "G≈Ços");
 define("_NW_NORATING"                   , "Nie wybrano ocen");
-define("_NW_USERAVG"                    , "¶rednia ocena");
-define("_NW_DLRATINGS"                  , "Ocena wiadomo∂ci (ilo∂Ê g≥osÛw: %s)");
-define("_NW_ONEVOTE"                    , "1 g≥os");
-define("_NW_NUMVOTES"                   , "%u g≥osÛw");		// Warning
-define("_NW_CANTVOTEOWN"                , "Nie moøesz g≥osowaÊ na swoje w≥asne materia≥y <br />Wszystkie g≥osy s± logowane i weryfikowane.");
-define("_NW_VOTEDELETED"                , "Skasowano dane g≥osowaÒ.");
-define("_NW_VOTEONCE"                   , "ProszÍ nie g≥osowaÊ na ten sam materia≥ wiÍcej niø jeden raz.");
-define("_NW_VOTEAPPRE"                  , "TwÛj g≥os jest dla nas waøny.");
-define("_NW_THANKYOU"                   , "DziÍkuj za g≥osowanie na naszej stronie %s"); // %s is your site name
+define("_NW_USERAVG"                    , "≈örednia ocena");
+define("_NW_DLRATINGS"                  , "Ocena wiadomo≈õci (ilo≈õƒá g≈Ços√≥w: %s)");
+define("_NW_ONEVOTE"                    , "1 g≈Ços");
+define("_NW_NUMVOTES"                   , "%u g≈Ços√≥w");		// Warning
+define("_NW_CANTVOTEOWN"                , "Nie mo≈ºesz g≈Çosowaƒá na swoje w≈Çasne materia≈Çy <br />Wszystkie g≈Çosy sƒÖ logowane i weryfikowane.");
+define("_NW_VOTEDELETED"                , "Skasowano dane g≈Çosowa≈Ñ.");
+define("_NW_VOTEONCE"                   , "Proszƒô nie g≈Çosowaƒá na ten sam materia≈Ç wiƒôcej ni≈º jeden raz.");
+define("_NW_VOTEAPPRE"                  , "Tw√≥j g≈Ços jest dla nas wa≈ºny.");
+define("_NW_THANKYOU"                   , "Dziƒôkuj za g≈Çosowanie na naszej stronie %s"); // %s is your site name
 define("_NW_RSSFEED","RSS Feed");	// Warning, this text is included insided an Alt attribut (for a picture), so take care to the quotes
 define("_NW_AUTHOR"                     , "Autor ");
 define("_NW_META_DESCRIPTION"           , "Meta description");
 define("_NW_META_KEYWORDS"              , "Meta keywords");
-define("_NW_MAKEPDF"                    , "UtwÛrz dokument .pdf z tego artyku≥u");
+define("_NW_MAKEPDF"                    , "Utw√≥rz dokument .pdf z tego artyku≈Çu");
 define('_MD_POSTEDON'                   , "Napisany na: ");
 define("_NW_AUTHOR_ID"                  , "Id autora ");
-define("_NW_POST_SORRY"                 , "Niestety albo nie ma jeszcze zdefiniowanych tematÛw, albo nie masz prawa do publikacji wiadomo∂ci w jakimkolwiek temacie. Je∂li jeste∂ webmasterm, to wejdº do ustawieÒ i zmieÒ prawa do dodawania");
+define("_NW_POST_SORRY"                 , "Niestety albo nie ma jeszcze zdefiniowanych temat√≥w, albo nie masz prawa do publikacji wiadomo≈õci w jakimkolwiek temacie. Je≈õli jeste≈õ webmasterm, to wejd≈∫ do ustawie≈Ñ i zmie≈Ñ prawa do dodawania");
 // Added in v 1.50
 define("_NW_LINKS","Linki");
 define("_NW_PAGE","Strona");
-define("_NW_BOOKMARK_ME","Dodaj ten artyku≥ do ulubionych");
-define('_AM_NEWS_TOTAL',"Wszystkich artyku≥Ûw %u");
+define("_NW_BOOKMARK_ME","Dodaj ten artyku≈Ç do ulubionych");
+define('_AM_NEWS_TOTAL',"Wszystkich artyku≈Ç√≥w %u");
 define('_AM_NEWS_WHOS_WHO',"Kto jest kim");
-define('_NW_NEWS_LIST_OF_AUTHORS',"Lista autorÛw pisz±cych na tej stronie, kliknij na autorze by zobaczyÊ jego artyku≥y");
-define('_AM_NEWS_TOPICS_DIRECTORY',"Katalog tematÛw");
+define('_NW_NEWS_LIST_OF_AUTHORS',"Lista autor√≥w piszƒÖcych na tej stronie, kliknij na autorze by zobaczyƒá jego artyku≈Çy");
+define('_AM_NEWS_TOPICS_DIRECTORY',"Katalog temat√≥w");
 define("_NW_PAGE_AUTO_SUMMARY","Strona %d : %s");
 ?>

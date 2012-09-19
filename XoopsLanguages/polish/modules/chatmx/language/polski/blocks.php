@@ -1,6 +1,6 @@
 <?php
 //  ------------------------------------------------------------------------ //
-// Author:   Carlos Leopoldo Magaña Zavala                                   //
+// Author:   Carlos Leopoldo MagaÅ„a Zavala                                   //
 // Mail:     carloslmz@msn.com                                               //
 // URL:      http://www.xoopsmx.com & http://www.miguanajuato.com            //
 // Module:   ChatMX                                                          //
@@ -9,9 +9,9 @@
 // ------------------------------------------------------------------------- //
 
 // Block access to chat
-define("_MB_CHAT_BLOCKNAME","Wejd¼ na Czat");
-define("_MB_CHAT_CHATEAR","¡Kliknij na obrazek aby wej¶æ na Czat!");
-define("_MB_CHAT_ALTIMG","Wejd¼ na Czat teraz
+define("_MB_CHAT_BLOCKNAME","WejdÅº na Czat");
+define("_MB_CHAT_CHATEAR","Ä„Kliknij na obrazek aby wejÅ›Ä‡ na Czat!");
+define("_MB_CHAT_ALTIMG","WejdÅº na Czat teraz
 !");
 
 ?>

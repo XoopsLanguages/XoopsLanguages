@@ -11,16 +11,16 @@ define( $constpref.'_LOADED' , 1 ) ;
 define($constpref."_FORUM","Forum");
 define($constpref."_TOPIC","Temat");
 define($constpref."_REPLIES","Odpowiedzi");
-define($constpref."_VIEWS","Ods³on");
-define($constpref."_VOTESCOUNT","G³osów");
-define($constpref."_VOTESSUM","Punktów");
+define($constpref."_VIEWS","OdsÅ‚on");
+define($constpref."_VOTESCOUNT","GÅ‚osÃ³w");
+define($constpref."_VOTESSUM","PunktÃ³w");
 define($constpref."_LASTPOST","Ostatni post");
 define($constpref."_LASTUPDATED","Ostatnio aktualizowany");
 define($constpref."_LINKTOSEARCH","Szukaj na forum");
 define($constpref."_LINKTOLISTCATEGORIES","Indeks kategorii");
 define($constpref."_LINKTOLISTFORUMS","Indeks forum");
-define($constpref."_LINKTOLISTTOPICS","Indeks tematów");
-define($constpref."_ALT_UNSOLVED","Nierozwi±zane tematy");
+define($constpref."_LINKTOLISTTOPICS","Indeks tematÃ³w");
+define($constpref."_ALT_UNSOLVED","NierozwiÄ…zane tematy");
 define($constpref."_ALT_MARKED","Zaznaczony temat");
 
 }

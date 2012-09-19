@@ -1,9 +1,9 @@
-Subject: Twoja pro∂ba zosta≥a zaakceptowana
+Subject: Twoja pro≈õba zosta≈Ça zaakceptowana
 
 Gratulacje,
 
-Twoja pro∂ba o przyjÍcie do grupy "{GROUP_NAME}" na {SITENAME} zosta≥a zaakceptowana
-Kliknij na poniøszy odno∂nik aby zobaczyÊ informacje o swoim cz≥onkostwie.
+Twoja pro≈õba o przyjƒôcie do grupy "{GROUP_NAME}" na {SITENAME} zosta≈Ça zaakceptowana
+Kliknij na poni≈ºszy odno≈õnik aby zobaczyƒá informacje o swoim cz≈Çonkostwie.
 
 {U_GROUPCP}
 

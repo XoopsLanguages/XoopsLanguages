@@ -1,16 +1,16 @@
 Witaj {X_UNAME},
 
-Nast±pi³± zmiana w {X_SITENAME} : "{PAGE_NAME}" .
-mo¿esz j± zobaczyæ klikaj±c na ten link {PAGE_URL}
+NastÄ…piÅ‚Ä… zmiana w {X_SITENAME} : "{PAGE_NAME}" .
+moÅ¼esz jÄ… zobaczyÄ‡ klikajÄ…c na ten link {PAGE_URL}
  
 -----------
 
-Otrzyma³e¶ tê wiadomo¶æ bo chcia³e¶ zostaæ powiadomiany gdy pojawi siê komentarz do {X_ITEM_TYPE}.
+OtrzymaÅ‚eÅ› tÄ™ wiadomoÅ›Ä‡ bo chciaÅ‚eÅ› zostaÄ‡ powiadomiany gdy pojawi siÄ™ komentarz do {X_ITEM_TYPE}.
 
-Je¶li jest to b³±d lub nie chcesz wiêcej otrzymywaæ informacji o zmianach zmieñ opcje klikaj±c na link:
+JeÅ›li jest to bÅ‚Ä…d lub nie chcesz wiÄ™cej otrzymywaÄ‡ informacji o zmianach zmieÅ„ opcje klikajÄ…c na link:
 {X_UNSUBSCRIBE_URL}
 
-Proszê nie odpowiadaæ na tê wiadomo¶æ.
+ProszÄ™ nie odpowiadaÄ‡ na tÄ™ wiadomoÅ›Ä‡.
 
 -----------
 {X_SITENAME} ({X_SITEURL}) 

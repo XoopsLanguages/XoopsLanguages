@@ -1,11 +1,11 @@
-Subject: Zosta³e¶ dodany do tej grupy
+Subject: ZostaÅ‚eÅ› dodany do tej grupy
 
 Gratulacje,
 
-Zosta³e¶ przyjêty do grupy "{GROUP_NAME}" na {SITENAME}.
-Zosta³o to przeprowadzone przez moderatora grupy lub admnistratora strony, skontaktuj siê z nimi aby zdobyæ wiêcej informacji.
+ZostaÅ‚eÅ› przyjÄ™ty do grupy "{GROUP_NAME}" na {SITENAME}.
+ZostaÅ‚o to przeprowadzone przez moderatora grupy lub admnistratora strony, skontaktuj siÄ™ z nimi aby zdobyÄ‡ wiÄ™cej informacji.
 
-Mo¿esz zobaczyæ informacjê o Twojej grupie tutaj:
+MoÅ¼esz zobaczyÄ‡ informacjÄ™ o Twojej grupie tutaj:
 {U_GROUPCP}
 
 {EMAIL_SIG}

@@ -1,24 +1,24 @@
 ====== DokuWiki for XOOPS ======
 ===== DokuWiki =====
 
-[[wiki:DokuWiki]] jest zgodn± ze standadem prostym w uøyciu klonem [[wp>Wiki]], zwykle pomagaj±cym w tworzeniu wszelkiego rodzaju dokumentacji. Jest przeznaczona zwykle dla grup programistÛw, grup roboczych i ma≥y firm. Posiada prost± ale z bardzo duøymi moøliwo∂cimi [[wiki:sk≥adnii]] co zapewnie czytelno∂Ê plikÛw poza Wiki i u≥atwia tworzenie tekstÛw z wewnÍtrzn± strutkur±. Wszystkie dane s± przechowywane w plikach tekstowych - nie wymaga, øadnej bazy danych.
+[[wiki:DokuWiki]] jest zgodnƒÖ ze standadem prostym w u≈ºyciu klonem [[wp>Wiki]], zwykle pomagajƒÖcym w tworzeniu wszelkiego rodzaju dokumentacji. Jest przeznaczona zwykle dla grup programist√≥w, grup roboczych i ma≈Çy firm. Posiada prostƒÖ ale z bardzo du≈ºymi mo≈ºliwo≈õcimi [[wiki:sk≈Çadnii]] co zapewnie czytelno≈õƒá plik√≥w poza Wiki i u≈Çatwia tworzenie tekst√≥w z wewnƒôtrznƒÖ strutkurƒÖ. Wszystkie dane sƒÖ przechowywane w plikach tekstowych - nie wymaga, ≈ºadnej bazy danych.
 
 ===== XOOPS =====
 
-XOOPS jest modularnym, OO (obiektowym), ≥atwym w uøyciu portalem napisanym w PHP. XOOPS jest idealnym narzÍdziem dla ma≥ych i duøych portali, blogÛw i wielu innych rzeczy. 
+XOOPS jest modularnym, OO (obiektowym), ≈Çatwym w u≈ºyciu portalem napisanym w PHP. XOOPS jest idealnym narzƒôdziem dla ma≈Çych i du≈ºych portali, blog√≥w i wielu innych rzeczy. 
 
-[[xf>?|DokuWiki dla  XOOPS]] jest klonem DokuWiki dopasowanym do pracy z modu≥ami systemowymi XOOPS, pomy∂lanym jako proste, elastyczne i bardzo mocarne narzÍdzie do tworzenia dokumentacji dla uøytkownkÛw XOOPS. Ten modu≥ jest zgodny ze oryginaln± wersja DokuWiki z wyj±tkiem drobnych eksperymentÛw zwi±zanych z uøyciem bazy danych.
+[[xf>?|DokuWiki dla  XOOPS]] jest klonem DokuWiki dopasowanym do pracy z modu≈Çami systemowymi XOOPS, pomy≈õlanym jako proste, elastyczne i bardzo mocarne narzƒôdzie do tworzenia dokumentacji dla u≈ºytkownk√≥w XOOPS. Ten modu≈Ç jest zgodny ze oryginalnƒÖ wersja DokuWiki z wyjƒÖtkiem drobnych eksperyment√≥w zwiƒÖzanych z u≈ºyciem bazy danych.
 
 ===== XOOPS bank wiedzy =====
-  * [[xf>wiki|DokuWiki dla XOOPS]] jest modu≥em XOOPS bazuj±cym na DokuWiki, uøywaj±cym [[wiki:syntax|DokuWiki syntax]] i ''praw dostÍpu do grup'' XOOPS
-  * [[xf>wiki|DokuWiki dla XOOPS]] uøywa obecnie zapisu w plikach tekstowych do zapisu danych. Uøycie do bazy danych do zapisu informacji moøe byÊ interesuj±ce dla uøytkownikÛw XOOPS i dlatego chcemy zaimplementowaÊ tÍ funkcjÍ.
-  * [[xf>xoops|Bank wiedzy XOOPS ]] jest pomy∂lany jako [[xf>wiki|DokuWiki dla XOOPS]] miejsce testÛw do dokumentacji dla uøytkownikÛw XOOPS, obecnie w fazie rozwoju.
+  * [[xf>wiki|DokuWiki dla XOOPS]] jest modu≈Çem XOOPS bazujƒÖcym na DokuWiki, u≈ºywajƒÖcym [[wiki:syntax|DokuWiki syntax]] i ''praw dostƒôpu do grup'' XOOPS
+  * [[xf>wiki|DokuWiki dla XOOPS]] u≈ºywa obecnie zapisu w plikach tekstowych do zapisu danych. U≈ºycie do bazy danych do zapisu informacji mo≈ºe byƒá interesujƒÖce dla u≈ºytkownik√≥w XOOPS i dlatego chcemy zaimplementowaƒá tƒô funkcjƒô.
+  * [[xf>xoops|Bank wiedzy XOOPS ]] jest pomy≈õlany jako [[xf>wiki|DokuWiki dla XOOPS]] miejsce test√≥w do dokumentacji dla u≈ºytkownik√≥w XOOPS, obecnie w fazie rozwoju.
 
-====== Zastrzeøenie ======
+====== Zastrze≈ºenie ======
 
   * [[http://www.xoops.org|Projekt XOOPS ]]
   * [[http://docs.xoops.org|Dokumentacja projektu XOOPS ]]
-  * [[http://dev.xoops.org|Kuºnia modu≥Ûw dla XOOPS ]]
-  * [[http://sourceforge.net/projects/xoops| Kuºnia modu≥Ûw systemowych dla XOOPS ]]
-  * Je∂li chcesz moøesz dostosowaÊ powyøsze informacje do swoich potrzeb tworz±c w≥asne strony wiki.\\
+  * [[http://dev.xoops.org|Ku≈∫nia modu≈Ç√≥w dla XOOPS ]]
+  * [[http://sourceforge.net/projects/xoops| Ku≈∫nia modu≈Ç√≥w systemowych dla XOOPS ]]
+  * Je≈õli chcesz mo≈ºesz dostosowaƒá powy≈ºsze informacje do swoich potrzeb tworzƒÖc w≈Çasne strony wiki.\\
    --- //[[http://xoopsforge.com|D.J. (phppp)]] 2005/08/18 08:26 dap997 translater//

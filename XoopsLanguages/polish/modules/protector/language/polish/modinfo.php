@@ -23,77 +23,77 @@ define('_MI_PROTECTOR_DOS_SKIPMODSDSC','set the dirnames of the modules separate
 define("_MI_PROTECTOR_NAME","Xoops Protector");
 
 // A brief description of this module
-define("_MI_PROTECTOR_DESC","Modu³ zabezpieczaj±cy Xoopsa, przed ró¿nymi rodzajami ataków z sieci, takich jak: DoS , SQL Injection i ska¿eniem zmiennych.<br />\nWszystkie grupy powinny mieæ ustawiony dostêp do tego modu³u, a zw³aszcza grupa Go¶ci.");
+define("_MI_PROTECTOR_DESC","ModuÅ‚ zabezpieczajÄ…cy Xoopsa, przed rÃ³Å¼nymi rodzajami atakÃ³w z sieci, takich jak: DoS , SQL Injection i skaÅ¼eniem zmiennych.<br />\nWszystkie grupy powinny mieÄ‡ ustawiony dostÄ™p do tego moduÅ‚u, a zwÅ‚aszcza grupa GoÅ›ci.");
 
 // Names of blocks for this module (Not all module has blocks) 
 // added by webfm for polish translation : From version 2.4 Protector hasn`t blocks
 define("_MI_PROTECTOR_BNAME1","Protector");
-define("_MI_PROTECTOR_BDESC1","Ten blok powinien ³adowaæ siê jako pierwszy od góry po prawej stronie na wszystkich stronach serwisu.");
+define("_MI_PROTECTOR_BDESC1","Ten blok powinien Å‚adowaÄ‡ siÄ™ jako pierwszy od gÃ³ry po prawej stronie na wszystkich stronach serwisu.");
 
 // Menu
-define("_MI_PROTECTOR_ADMININDEX","Centrum zabezpieczeñ");
-define("_MI_PROTECTOR_ADVISORY","Porady bezpieczeñstwa");
+define("_MI_PROTECTOR_ADMININDEX","Centrum zabezpieczeÅ„");
+define("_MI_PROTECTOR_ADVISORY","Porady bezpieczeÅ„stwa");
 define("_MI_PROTECTOR_PREFIXMANAGER","Manager Prefixu");
 
 // Configs
-define('_MI_PROTECTOR_GLOBAL_DISBL','Tymczasowo wy³±czony');
-define('_MI_PROTECTOR_GLOBAL_DISBLDSC','Wszystkie zabezpieczenia zostan± wy³±czone.<br />nie zapomnij w³±czyæ ich ponownie, gdy uporasz siê z problemem');
+define('_MI_PROTECTOR_GLOBAL_DISBL','Tymczasowo wyÅ‚Ä…czony');
+define('_MI_PROTECTOR_GLOBAL_DISBLDSC','Wszystkie zabezpieczenia zostanÄ… wyÅ‚Ä…czone.<br />nie zapomnij wÅ‚Ä…czyÄ‡ ich ponownie, gdy uporasz siÄ™ z problemem');
 define('_MI_PROTECTOR_LOG_LEVEL','Poziom logowania');
 define('_MI_PROTECTOR_LOG_LEVELDSC','');
 
 define('_MI_PROTECTOR_LOGLEVEL0','brak');
 define('_MI_PROTECTOR_LOGLEVEL15','Ciche');
 define('_MI_PROTECTOR_LOGLEVEL63','ciche');
-define('_MI_PROTECTOR_LOGLEVEL255','pe³ne');
+define('_MI_PROTECTOR_LOGLEVEL255','peÅ‚ne');
 
-define('_MI_PROTECTOR_HIJACK_DENYGP','Grupy, które nie mog± zmieniæ IP podczas sesji');
-define('_MI_PROTECTOR_HIJACK_DENYGPDSC','zabezpieczenie przed porwaniem sesji:<br />Zaznacz grupê, która nie mo¿e zmieniæ IP w czasie sesji.<br />(Nale¿y zaznaczyæ co najmniej Administratorów.)');
-define('_MI_PROTECTOR_SAN_NULLBYTE','Czyszczenie pustych bajtów');
-define('_MI_PROTECTOR_SAN_NULLBYTEDSC','Znak zakoñczenia "\\0" jest zwykle u¿ywany w spreparowanych niszcz±cych kodach.<br />pusty bajt bêdzie zmieniony na spacjê.<br />(nale¿y bezwzglêdnie ustawiæ t± opcjê na w³±czon±)');
-define('_MI_PROTECTOR_DIE_NULLBYTE','Wyjd¼ je¶li stwierdzone zostan± puste bajty');
-define('_MI_PROTECTOR_DIE_NULLBYTEDSC','Znak zakoñczenia "\\0" jest zwykle u¿ywany podczas ataków na serwisy.<br />(nale¿y suatwiæ t± opcjê w³±czon±)');
-define('_MI_PROTECTOR_DIE_BADEXT','Wyjd¼ je¶li stwierdzono próbê uploadowania podejrzanego pliku');
-define('_MI_PROTECTOR_DIE_BADEXTDSC','Je¶li kto¶ bêdzie próbowa³ wys³aæ na serwer plik ze z³ym rozszerzeniem n.p.: .php , nast±pi wyj¶cie z XOOPS.<br />Je¶li czêsto wysy³asz pliki php na u¿ytek n.p.: B-Wiki lub PukiWikiModule, wy³±cz t± opcjê.');
-define('_MI_PROTECTOR_CONTAMI_ACTION','Dzia³anie w przypadku wykrycia próby ska¿enia zmiennych');
-define('_MI_PROTECTOR_CONTAMI_ACTIONDS','Wybierz dzia³anie, jakie system podejmie po próbie ska¿enia zmiennych globalnych w XOOPS.<br />(sugerowane dzia³anie to Bia³a Strona)');
-define('_MI_PROTECTOR_ISOCOM_ACTION','Wybierz dzia³anie, jakie system podejmie po wykryciu próby przekazania odseparowanych komentarzy ');
-define('_MI_PROTECTOR_ISOCOM_ACTIONDSC','Przeciwdzia³anie SQL Injection:<br />Wybierz dzia³anie gdy bêdzie wprowadzony odseparowany znak "/*".<br />"Neutralizowanie" polega na dodaniu nastêpnego znaku "*/".<br />(sygerowana opcja to Neutralizowanie)');
-define('_MI_PROTECTOR_UNION_ACTION','Wybierz dzia³anie gdy nastapi próba dodania instrukcji UNION lub podobnej.');
-define('_MI_PROTECTOR_UNION_ACTIONDSC','Przeciwdzia³anie SQL Injection:<br />wybierz dzia³anie gdy w zapytaniu pojawi siê sk³adnia podobna instrukcji UNION w SQL.<br />"Neutralizowanie" w tym przypadku polega na zmianie wyra¿enia "union" na "uni-on".<br />(sugerowana opcja to Neutralizowanie)');
-define('_MI_PROTECTOR_ID_INTVAL','Wymuszanie liczby ca³kowitej dla zapytañ zawieraj±cych zmienne typu id');
-define('_MI_PROTECTOR_ID_INTVALDSC','Wszystkie zapytania zawieraj±ce "*id" bêd± traktowane jak liczba ca³kowita.<br />Ta opcja ochroni nas przed niektórymi typami ataków typu XSS i SQL Injections.<br />Zaleca siê w³±czenie tej opcj ale mo¿e ona spowodowaæ zak³ucenie dzia³ania niektórych modu³ów.');
-define('_MI_PROTECTOR_FILE_DOTDOT','Korygowanie w±tpliwych zapytañ do plików');
-define('_MI_PROTECTOR_FILE_DOTDOTDSC','Usuwa ".." z zapytañ, które wygl±daj± jak wywo³anie specyficznego pliku');
+define('_MI_PROTECTOR_HIJACK_DENYGP','Grupy, ktÃ³re nie mogÄ… zmieniÄ‡ IP podczas sesji');
+define('_MI_PROTECTOR_HIJACK_DENYGPDSC','zabezpieczenie przed porwaniem sesji:<br />Zaznacz grupÄ™, ktÃ³ra nie moÅ¼e zmieniÄ‡ IP w czasie sesji.<br />(NaleÅ¼y zaznaczyÄ‡ co najmniej AdministratorÃ³w.)');
+define('_MI_PROTECTOR_SAN_NULLBYTE','Czyszczenie pustych bajtÃ³w');
+define('_MI_PROTECTOR_SAN_NULLBYTEDSC','Znak zakoÅ„czenia "\\0" jest zwykle uÅ¼ywany w spreparowanych niszczÄ…cych kodach.<br />pusty bajt bÄ™dzie zmieniony na spacjÄ™.<br />(naleÅ¼y bezwzglÄ™dnie ustawiÄ‡ tÄ… opcjÄ™ na wÅ‚Ä…czonÄ…)');
+define('_MI_PROTECTOR_DIE_NULLBYTE','WyjdÅº jeÅ›li stwierdzone zostanÄ… puste bajty');
+define('_MI_PROTECTOR_DIE_NULLBYTEDSC','Znak zakoÅ„czenia "\\0" jest zwykle uÅ¼ywany podczas atakÃ³w na serwisy.<br />(naleÅ¼y suatwiÄ‡ tÄ… opcjÄ™ wÅ‚Ä…czonÄ…)');
+define('_MI_PROTECTOR_DIE_BADEXT','WyjdÅº jeÅ›li stwierdzono prÃ³bÄ™ uploadowania podejrzanego pliku');
+define('_MI_PROTECTOR_DIE_BADEXTDSC','JeÅ›li ktoÅ› bÄ™dzie prÃ³bowaÅ‚ wysÅ‚aÄ‡ na serwer plik ze zÅ‚ym rozszerzeniem n.p.: .php , nastÄ…pi wyjÅ›cie z XOOPS.<br />JeÅ›li czÄ™sto wysyÅ‚asz pliki php na uÅ¼ytek n.p.: B-Wiki lub PukiWikiModule, wyÅ‚Ä…cz tÄ… opcjÄ™.');
+define('_MI_PROTECTOR_CONTAMI_ACTION','DziaÅ‚anie w przypadku wykrycia prÃ³by skaÅ¼enia zmiennych');
+define('_MI_PROTECTOR_CONTAMI_ACTIONDS','Wybierz dziaÅ‚anie, jakie system podejmie po prÃ³bie skaÅ¼enia zmiennych globalnych w XOOPS.<br />(sugerowane dziaÅ‚anie to BiaÅ‚a Strona)');
+define('_MI_PROTECTOR_ISOCOM_ACTION','Wybierz dziaÅ‚anie, jakie system podejmie po wykryciu prÃ³by przekazania odseparowanych komentarzy ');
+define('_MI_PROTECTOR_ISOCOM_ACTIONDSC','PrzeciwdziaÅ‚anie SQL Injection:<br />Wybierz dziaÅ‚anie gdy bÄ™dzie wprowadzony odseparowany znak "/*".<br />"Neutralizowanie" polega na dodaniu nastÄ™pnego znaku "*/".<br />(sygerowana opcja to Neutralizowanie)');
+define('_MI_PROTECTOR_UNION_ACTION','Wybierz dziaÅ‚anie gdy nastapi prÃ³ba dodania instrukcji UNION lub podobnej.');
+define('_MI_PROTECTOR_UNION_ACTIONDSC','PrzeciwdziaÅ‚anie SQL Injection:<br />wybierz dziaÅ‚anie gdy w zapytaniu pojawi siÄ™ skÅ‚adnia podobna instrukcji UNION w SQL.<br />"Neutralizowanie" w tym przypadku polega na zmianie wyraÅ¼enia "union" na "uni-on".<br />(sugerowana opcja to Neutralizowanie)');
+define('_MI_PROTECTOR_ID_INTVAL','Wymuszanie liczby caÅ‚kowitej dla zapytaÅ„ zawierajÄ…cych zmienne typu id');
+define('_MI_PROTECTOR_ID_INTVALDSC','Wszystkie zapytania zawierajÄ…ce "*id" bÄ™dÄ… traktowane jak liczba caÅ‚kowita.<br />Ta opcja ochroni nas przed niektÃ³rymi typami atakÃ³w typu XSS i SQL Injections.<br />Zaleca siÄ™ wÅ‚Ä…czenie tej opcj ale moÅ¼e ona spowodowaÄ‡ zakÅ‚ucenie dziaÅ‚ania niektÃ³rych moduÅ‚Ã³w.');
+define('_MI_PROTECTOR_FILE_DOTDOT','Korygowanie wÄ…tpliwych zapytaÅ„ do plikÃ³w');
+define('_MI_PROTECTOR_FILE_DOTDOTDSC','Usuwa ".." z zapytaÅ„, ktÃ³re wyglÄ…dajÄ… jak wywoÅ‚anie specyficznego pliku');
 
-define('_MI_PROTECTOR_DOS_EXPIRE','Licznik czasu dla wielokrotnego prze³adowania strony (sec)');
-define('_MI_PROTECTOR_DOS_EXPIREDSC','Warto¶æ czasu w sekundach, podczas którego system monitoruje, czy prze³adowania strony nie s± atakiem F5 lub dzia³aniem nieprzyjaznego robota (Crawlera).');
+define('_MI_PROTECTOR_DOS_EXPIRE','Licznik czasu dla wielokrotnego przeÅ‚adowania strony (sec)');
+define('_MI_PROTECTOR_DOS_EXPIREDSC','WartoÅ›Ä‡ czasu w sekundach, podczas ktÃ³rego system monitoruje, czy przeÅ‚adowania strony nie sÄ… atakiem F5 lub dziaÅ‚aniem nieprzyjaznego robota (Crawlera).');
 
-define('_MI_PROTECTOR_DOS_F5COUNT','Licznik ods³on dla ataku F5');
-define('_MI_PROTECTOR_DOS_F5COUNTDSC','Ochrona przed atakiem DoS.<br />Powyzej tej warto¶ci prze³adowañ system uzna, ¿e ma do czynienia z atakiem F5 (DoS).');
-define('_MI_PROTECTOR_DOS_F5ACTION','Dzia³anie po wykryciu próby ataku F5');
+define('_MI_PROTECTOR_DOS_F5COUNT','Licznik odsÅ‚on dla ataku F5');
+define('_MI_PROTECTOR_DOS_F5COUNTDSC','Ochrona przed atakiem DoS.<br />Powyzej tej wartoÅ›ci przeÅ‚adowaÅ„ system uzna, Å¼e ma do czynienia z atakiem F5 (DoS).');
+define('_MI_PROTECTOR_DOS_F5ACTION','DziaÅ‚anie po wykryciu prÃ³by ataku F5');
 
-define('_MI_PROTECTOR_DOS_CRCOUNT','Licznik ods³on dla Crawlerów (robotów przeci±¿aj±cych system)');
-define('_MI_PROTECTOR_DOS_CRCOUNTDSC','Zabezpieczenie przed robotami przeci±¿aj±cymi system.<br />Ta warto¶æ okre¶la kiedy liczba ods³on dla robota zostanie uznana za przegiêcie.');
-define('_MI_PROTECTOR_DOS_CRACTION','Akcja przeciwko "mêcz±cym" robotom');
+define('_MI_PROTECTOR_DOS_CRCOUNT','Licznik odsÅ‚on dla CrawlerÃ³w (robotÃ³w przeciÄ…Å¼ajÄ…cych system)');
+define('_MI_PROTECTOR_DOS_CRCOUNTDSC','Zabezpieczenie przed robotami przeciÄ…Å¼ajÄ…cymi system.<br />Ta wartoÅ›Ä‡ okreÅ›la kiedy liczba odsÅ‚on dla robota zostanie uznana za przegiÄ™cie.');
+define('_MI_PROTECTOR_DOS_CRACTION','Akcja przeciwko "mÄ™czÄ…cym" robotom');
 
-define('_MI_PROTECTOR_DOS_CRSAFE','Roboty indeksuj±ce wy³±czone spod kontroli');
-define('_MI_PROTECTOR_DOS_CRSAFEDSC','Etykieta w pearlu dla maszyn indeksuj±cych.<br />Je¶li bêdzie siê pokrywaæ, crawler nigdy nie zostanie uznany za "mêcz±cy".<br />eg) /(msnbot|Googlebot|Yahoo! Slurp)/i');
+define('_MI_PROTECTOR_DOS_CRSAFE','Roboty indeksujÄ…ce wyÅ‚Ä…czone spod kontroli');
+define('_MI_PROTECTOR_DOS_CRSAFEDSC','Etykieta w pearlu dla maszyn indeksujÄ…cych.<br />JeÅ›li bÄ™dzie siÄ™ pokrywaÄ‡, crawler nigdy nie zostanie uznany za "mÄ™czÄ…cy".<br />eg) /(msnbot|Googlebot|Yahoo! Slurp)/i');
 
 define('_MI_PROTECTOR_OPT_NONE','Nic (tylko logowanie)');
 define('_MI_PROTECTOR_OPT_SAN','Neutralizowanie');
-define('_MI_PROTECTOR_OPT_EXIT','Bia³a Strona');
+define('_MI_PROTECTOR_OPT_EXIT','BiaÅ‚a Strona');
 define('_MI_PROTECTOR_OPT_BIP','Banuj IP');
 
 define('_MI_PROTECTOR_DOSOPT_NONE','Nic (tylko logowanie)');
-define('_MI_PROTECTOR_DOSOPT_SLEEP','U¶pienie');
-define('_MI_PROTECTOR_DOSOPT_EXIT','Bia³y Ekran');
+define('_MI_PROTECTOR_DOSOPT_SLEEP','UÅ›pienie');
+define('_MI_PROTECTOR_DOSOPT_EXIT','BiaÅ‚y Ekran');
 define('_MI_PROTECTOR_DOSOPT_BIP','Banuj IP');
-define('_MI_PROTECTOR_DOSOPT_HTA','ZABROÑ (DENY) w pliku .htaccess(Experymentalnie)');
+define('_MI_PROTECTOR_DOSOPT_HTA','ZABROÅƒ (DENY) w pliku .htaccess(Experymentalnie)');
 
-define('_MI_PROTECTOR_BIP_EXCEPT','Grupy, które nigdy nie zostan± dodane jako Z³e IP');
-define('_MI_PROTECTOR_BIP_EXCEPTDSC','Uzytkownicy nale¿±cy do zaznaczonej grupy(grup) nigdy nie bêd± mieli banowanego IP.<br />(ustaw co najmniej Administratorów.)');
-define('_MI_PROTECTOR_PATCH2092','Specjalna ³ata dla Xoops <= 2.0.9.2');
-define('_MI_PROTECTOR_PASSWD_BIP','Has³o ratunkowe (wy³±czaj±ce bana na IP)');
-define('_MI_PROTECTOR_PASSWD_BIPDSC','Je¿eli jakim¶ cudem zostaniesz zbanowany ze swojego w³asnego serwisu, wejd¥ poprzez XOOPS_URL/modules/protector/admin/rescue.php i wpisz to has³o.<br />Powniene¶ ustawiæ to has³o zaraz po zainstalowaniu modu³u, a zanim przez jak±¶ pomy³kê zbanujesz siê ze swojej w³asnej strony.<br />Je¶li pozostawisz puste, skrypt odbanowuj±cy nigdy nie zadzia³a.<br />Zalecenie: U¿ywaj innego has³a, ni¿ podstawowe has³o administratora!.');
+define('_MI_PROTECTOR_BIP_EXCEPT','Grupy, ktÃ³re nigdy nie zostanÄ… dodane jako ZÅ‚e IP');
+define('_MI_PROTECTOR_BIP_EXCEPTDSC','Uzytkownicy naleÅ¼Ä…cy do zaznaczonej grupy(grup) nigdy nie bÄ™dÄ… mieli banowanego IP.<br />(ustaw co najmniej AdministratorÃ³w.)');
+define('_MI_PROTECTOR_PATCH2092','Specjalna Å‚ata dla Xoops <= 2.0.9.2');
+define('_MI_PROTECTOR_PASSWD_BIP','HasÅ‚o ratunkowe (wyÅ‚Ä…czajÄ…ce bana na IP)');
+define('_MI_PROTECTOR_PASSWD_BIPDSC','JeÅ¼eli jakimÅ› cudem zostaniesz zbanowany ze swojego wÅ‚asnego serwisu, wejdÄ½ poprzez XOOPS_URL/modules/protector/admin/rescue.php i wpisz to hasÅ‚o.<br />PownieneÅ› ustawiÄ‡ to hasÅ‚o zaraz po zainstalowaniu moduÅ‚u, a zanim przez jakÄ…Å› pomyÅ‚kÄ™ zbanujesz siÄ™ ze swojej wÅ‚asnej strony.<br />JeÅ›li pozostawisz puste, skrypt odbanowujÄ…cy nigdy nie zadziaÅ‚a.<br />Zalecenie: UÅ¼ywaj innego hasÅ‚a, niÅ¼ podstawowe hasÅ‚o administratora!.');
 
 ?>

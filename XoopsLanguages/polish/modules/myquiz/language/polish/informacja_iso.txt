@@ -1,18 +1,18 @@
-Polskie t≥umaczenie do modu≥u myquizz 
-wykonanie Jacek Kozio≥ 
+Polskie t≈Çumaczenie do modu≈Çu myquizz 
+wykonanie Jacek Kozio≈Ç 
 Szczecin 2005
 
 Wersja 0.1
 
-Pierwsza wersja t≥umaczenia - pozostawione s± angielskie odpowiedniki. Pliki jÍzykowe w formacie ISO 8859-2, dodatkowo pliki w formacie Win 1250
+Pierwsza wersja t≈Çumaczenia - pozostawione sƒÖ angielskie odpowiedniki. Pliki jƒôzykowe w formacie ISO 8859-2, dodatkowo pliki w formacie Win 1250
 
 
 Zmiany:
-- w polskim pliku jÍzykowym main.php pliku dodana "zagubiona" zmienna "_MYQUIZ_MYQUIZ"
-- usuniÍcie nieaktywnego linku do autorÛw - http://www.xoopsien.net
+- w polskim pliku jƒôzykowym main.php pliku dodana "zagubiona" zmienna "_MYQUIZ_MYQUIZ"
+- usuniƒôcie nieaktywnego linku do autor√≥w - http://www.xoopsien.net
 
-Zauwaøone b≥edy:
-- modu≥ ºle pobiera ∂cieøkÍ do xoopsa i w zwi±zku z tym nie naleøy uøywaÊ opcji "Pomoc do testu - Usage conditions" 
-- nie dzia≥a dodawanie nowych pytaÒ przez uøytkownikÛw ( przy zaznaczeniu opcji "Umoøliwienie uøytkownikom tworzenia nowych pytaÒ - Enable the user to submit new questions"
+Zauwa≈ºone b≈Çedy:
+- modu≈Ç ≈∫le pobiera ≈õcie≈ºkƒô do xoopsa i w zwiƒÖzku z tym nie nale≈ºy u≈ºywaƒá opcji "Pomoc do testu - Usage conditions" 
+- nie dzia≈Ça dodawanie nowych pyta≈Ñ przez u≈ºytkownik√≥w ( przy zaznaczeniu opcji "Umo≈ºliwienie u≈ºytkownikom tworzenia nowych pyta≈Ñ - Enable the user to submit new questions"
 
 Wszelkie uwagi mile widziane.

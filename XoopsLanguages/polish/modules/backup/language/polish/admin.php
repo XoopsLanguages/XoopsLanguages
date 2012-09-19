@@ -1,27 +1,27 @@
-<?php /* Na bazie t³umaczenia dla wersji 3 webfm poprawi³ dap997 2005-01-04 */
+<?php /* Na bazie tÅ‚umaczenia dla wersji 3 webfm poprawiÅ‚ dap997 2005-01-04 */
 define("_DB_TABLESTRUCTURE"        ,"Struktura tabeli");
-define("_DB_DUMPINGDATA"           ,"Zrzuæ dane dla tabeli");
+define("_DB_DUMPINGDATA"           ,"ZrzuÄ‡ dane dla tabeli");
 define("_DB_CONFIG"                ,"Ustawienia");
-//define("_DB_PERMISSIONS"         ,"Prawa dostêpu");
+//define("_DB_PERMISSIONS"         ,"Prawa dostÄ™pu");
 define("_DB_NOTABLESFOUND"         ,"Brak tabel w bazie danych.");
-define("_DB_BACKUP"                ,"Archiwizuj bazê danych");
-define("_DB_RESTORE"               ,"Odtwórz bazê danych");
+define("_DB_BACKUP"                ,"Archiwizuj bazÄ™ danych");
+define("_DB_RESTORE"               ,"OdtwÃ³rz bazÄ™ danych");
 define("_DB_CACHE"                 ,"Aktualizuj bufor konfiguracyjny");
 define("_DB_NOADMIN"               ,"NIE admin");
 define("_DB_SELECTFILE"            ,"Wybierz plik");
 define("_DB_BACKUP_FOR"            ,'Archiwizacja bazy danych dla %s');
-define("_DB_CREATEON"              ,'Bazê stworzono');
-define("_DB_DOWNLOAD"              ,"Pobierz archiwum klikaj±c na odno¶nik");
-define("_DB_BACKUP_READY"          ,"Archiwizacja zakoñczona pomy¶lnie!");
+define("_DB_CREATEON"              ,'BazÄ™ stworzono');
+define("_DB_DOWNLOAD"              ,"Pobierz archiwum klikajÄ…c na odnoÅ›nik");
+define("_DB_BACKUP_READY"          ,"Archiwizacja zakoÅ„czona pomyÅ›lnie!");
 
 define("_DB_README","
 XOOPS Backup<br /><br />
 
 instalacja:<ol>
-<li>utwórz folder (sugerowany upload/backup) do przechowania plików z archiwami
-<li>zmieñ uprawnienia folderu chmod 777
-<li>Zainstaluj jak ka¿dy modu³  (system admin - modu³y)
-<li>Je¶li chcesz aby jaki¶ proces np. cron robi³ archiwum automatycznie co jaki¶ czas podaj w procesie nastepuj±c± ¶cie¿kê: TwójXoopsUrl/modules/backup/admin/backup.php
+<li>utwÃ³rz folder (sugerowany upload/backup) do przechowania plikÃ³w z archiwami
+<li>zmieÅ„ uprawnienia folderu chmod 777
+<li>Zainstaluj jak kaÅ¼dy moduÅ‚  (system admin - moduÅ‚y)
+<li>JeÅ›li chcesz aby jakiÅ› proces np. cron robiÅ‚ archiwum automatycznie co jakiÅ› czas podaj w procesie nastepujÄ…cÄ… Å›cieÅ¼kÄ™: TwÃ³jXoopsUrl/modules/backup/admin/backup.php
 </ol>
 
 Autorzy:<ul> 

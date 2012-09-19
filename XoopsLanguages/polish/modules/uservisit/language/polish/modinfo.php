@@ -14,6 +14,6 @@ define("_MI_USERVISIT_DESC",			"Zlicza odwiedziny i tworzy statystyki");
 //define("_MI_USERVISIT_BNAME1",		"?");
 
 // Names of admin menu items
-define("_MI_USERVISIT_ADMENU1",		"Menu g³ówne");
-define("_MI_USERVISIT_ADMENU2",		"Usuñ wszystkie statystyki");
+define("_MI_USERVISIT_ADMENU1",		"Menu gÅ‚Ã³wne");
+define("_MI_USERVISIT_ADMENU2",		"UsuÅ„ wszystkie statystyki");
 ?>

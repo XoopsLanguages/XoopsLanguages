@@ -1,4 +1,4 @@
-T³umaczenie - webfm www.xoops.pl
+TÅ‚umaczenie - webfm www.xoops.pl
 Dopasowanie do CBB4 - kurak_bu
 
 CBB

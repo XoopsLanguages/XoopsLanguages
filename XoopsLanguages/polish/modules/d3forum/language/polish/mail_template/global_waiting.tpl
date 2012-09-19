@@ -1,6 +1,6 @@
 Witaj {X_UNAME},
 
-Post oczekuj±cy na akceptacjê w module zosta³ dodany w {X_MODULE}.
+Post oczekujÄ…cy na akceptacjÄ™ w module zostaÅ‚ dodany w {X_MODULE}.
 
-Kliknij tutaj aby go zobaczyæ:
+Kliknij tutaj aby go zobaczyÄ‡:
 {POST_URL}

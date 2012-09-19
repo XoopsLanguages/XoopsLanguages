@@ -3,7 +3,7 @@
 // $Id: blocks.php,v 2.0 05/11/2005 23:54:39 BitC3R0 Exp $                  //
 // ------------------------------------------------------------------------ //
 //                         RM+Soft Library 2.0                              //
-//                   Copyright © 2005. Red Mexico Soft                      //
+//                   Copyright Š 2005. Red Mexico Soft                      //
 //                     <http:www.redmexico.com.mx/>                         //
 // ------------------------------------------------------------------------ //
 // This program is free software; you can redistribute it and/or modify     //
@@ -32,5 +32,5 @@
 // ------------------------------------------------------------------------ //
 //////////////////////////////////////////////////////////////////////////////
 
-define('_BB_RML_DATE','d/m/Y');
+define('_BB_RML_DATE', 'd/m/Y');
 ?>

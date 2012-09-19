@@ -2,17 +2,17 @@ Subject: Witamy na Forum {SITENAME}
 
 {WELCOME_MSG}
 
-Prosimy o zachowanie lub wydrukowanie tej wiadomo¶ci. Twoje konto ma poni¿sze dane:
+Prosimy o zachowanie lub wydrukowanie tej wiadomoÅ›ci. Twoje konto ma poniÅ¼sze dane:
 
 ----------------------------
-U¿ytkownik: {USERNAME}
-Has³o: {PASSWORD}
+UÅ¼ytkownik: {USERNAME}
+HasÅ‚o: {PASSWORD}
 ----------------------------
 
-Twoje konto jest obecnie nieaktywne, musi zostaæ wpierw aktywowane przez administratora, zanim bêdziesz móg³ siê zalogowaæ. Otrzymasz kolejny email gdy to nast±pi.
+Twoje konto jest obecnie nieaktywne, musi zostaÄ‡ wpierw aktywowane przez administratora, zanim bÄ™dziesz mÃ³gÅ‚ siÄ™ zalogowaÄ‡. Otrzymasz kolejny email gdy to nastÄ…pi.
 
-Nie zapomnij swojego has³a, poniewa¿ zosta³o zakodowane w naszej bazie danych i nie bêdziemy mogli go odzyskaæ. Je¶li jednak¿e zapomnisz has³a mo¿esz otrzymaæ nowe, które bêdziesz musia³ aktywowaæ w identyczny sposób jak to konto.
+Nie zapomnij swojego hasÅ‚a, poniewaÅ¼ zostaÅ‚o zakodowane w naszej bazie danych i nie bÄ™dziemy mogli go odzyskaÄ‡. JeÅ›li jednakÅ¼e zapomnisz hasÅ‚a moÅ¼esz otrzymaÄ‡ nowe, ktÃ³re bÄ™dziesz musiaÅ‚ aktywowaÄ‡ w identyczny sposÃ³b jak to konto.
 
-Dziêkujemy za rejestracjê.
+DziÄ™kujemy za rejestracjÄ™.
 
 {EMAIL_SIG}

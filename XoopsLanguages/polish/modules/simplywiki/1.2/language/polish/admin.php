@@ -76,7 +76,7 @@ define('_AM_SWIKI_LISTPAGES_ORDERASC_OPT','rosnąco A-Z');
 define('_AM_SWIKI_LISTPAGE_NAV','szukaj stron');
 define('_AM_SWIKI_HISTORY_NAV','historia');
 define('_AM_SWIKI_ACLADMIN_NAV','uprawnienia (ACL)');
-define("_AM_SWIKI_BLOCKSNGROUPS_NAV","bloki i grupy");
+define("_AM_SWIKI_BLOCKSNGROUPS_NAV", "bloki i grupy");
 
 define('_AM_SWIKI_NOPAGESPECIFIED_MSG','Proszę wybierz stronę');
 define('_AM_SWIKI_CONFIRMDEL_MSG','Czy naprawdę chcesz skasować tę stronę SimplyWiki');
@@ -90,7 +90,7 @@ define('_AM_SWIKI_PRFDELFAILED_MSG','Błąd podczas usuwania profilu. Baza danyc
 define('_AM_SWIKI_SYS_CFG','Konfiguracja systemu');
 
 //added in version 1.2
-define('_AM_SWIKI_GOTO_MODULE','Idź do modułu');
-define('_AM_SWIKI_UPDATE_MODULE','Aktualizuj moduł');
+define('_AM_SWIKI_GOTO_MODULE', 'Idź do modułu');
+define('_AM_SWIKI_UPDATE_MODULE', 'Aktualizuj moduł');
 
 ?>

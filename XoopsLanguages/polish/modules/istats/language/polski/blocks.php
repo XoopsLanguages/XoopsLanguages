@@ -10,23 +10,23 @@
  ***************************************************************************/
 
  // text of Web Stats block
-define('_MB_ISTATS_MAX_DATE',       'Najlepszy dzieñ');
+define('_MB_ISTATS_MAX_DATE',       'Najlepszy dzieÅ„');
 define('_MB_ISTATS_MAX_DAYCOUNT',   'Wizyt w najlepszym dniu');
-define('_MB_ISTATS_MAX_WEEK',       'Najlepszy tydzieñ');
+define('_MB_ISTATS_MAX_WEEK',       'Najlepszy tydzieÅ„');
 define('_MB_ISTATS_MAX_WEEKCOUNT',  'Wizyt w najlepszym tygodniu');
-define('_MB_ISTATS_MAX_MTH',        'Najlepszy miesi±c');
-define('_MB_ISTATS_MAX_MTHCOUNT',   'Wizyt w najlepszym miesi±cu');
-define('_MB_ISTATS_TOTAL_DAYS',     '£±cznie dni');
-define('_MB_ISTATS_TOTAL_VISITS',   '£±cznie wizyt');
+define('_MB_ISTATS_MAX_MTH',        'Najlepszy miesiÄ…c');
+define('_MB_ISTATS_MAX_MTHCOUNT',   'Wizyt w najlepszym miesiÄ…cu');
+define('_MB_ISTATS_TOTAL_DAYS',     'ÅÄ…cznie dni');
+define('_MB_ISTATS_TOTAL_VISITS',   'ÅÄ…cznie wizyt');
 define('_MB_ISTATS_TODAY',          'Wizyt dzisiaj');
 define('_MB_ISTATS_THIS_WEEK',      'Wizyt w tym tygodniu');
-define('_MB_ISTATS_THIS_MTH',       'Wizyt w tym miesi±cu');
-define('_MB_ISTATS_AVE_HOUR',       '¦rednio wizyt na godzinê');
-define('_MB_ISTATS_AVE_DAY',        '¦rednio wizyt na dzieñ');
-define('_MB_ISTATS_AVE_WEEK',       '¦rednio wizyt na tydzieñ');
-define('_MB_ISTATS_AVE_MTH',        '¦rednio wizyt na miesi±c');
-define('_MB_ISTATS_PER_HOUR',       'Wizyt na godzinê');
-define('_MB_ISTATS_P_PAGE',         '£±cznie stron');
+define('_MB_ISTATS_THIS_MTH',       'Wizyt w tym miesiÄ…cu');
+define('_MB_ISTATS_AVE_HOUR',       'Åšrednio wizyt na godzinÄ™');
+define('_MB_ISTATS_AVE_DAY',        'Åšrednio wizyt na dzieÅ„');
+define('_MB_ISTATS_AVE_WEEK',       'Åšrednio wizyt na tydzieÅ„');
+define('_MB_ISTATS_AVE_MTH',        'Åšrednio wizyt na miesiÄ…c');
+define('_MB_ISTATS_PER_HOUR',       'Wizyt na godzinÄ™');
+define('_MB_ISTATS_P_PAGE',         'ÅÄ…cznie stron');
 define("_MB_ISTATS_DISPLAY_DATE","Wybierz format daty");
 define("_MB_ISTATS_FR","FR (d-m-Y)");
 define("_MB_ISTATS_US","US (Y-n-d)");
@@ -34,14 +34,14 @@ define("_MB_ISTATS_US","US (Y-n-d)");
  // text of Counter Block
 define("_MB_ISTATS_WELCOME","Witaj");
 define("_MB_ISTATS_ANONYMOUS","Nieznajomy");
-define("_MB_ISTATS_THERE","Jeste¶:");
-define("_MB_ISTATS_VISITOR","osob± która odwiedzi³a t± stronê");
-define("_MB_ISTATS_DISPLAY_AVATAR","Wy¶wietl avatar cz³onka");
+define("_MB_ISTATS_THERE","JesteÅ›:");
+define("_MB_ISTATS_VISITOR","osobÄ… ktÃ³ra odwiedziÅ‚a tÄ… stronÄ™");
+define("_MB_ISTATS_DISPLAY_AVATAR","WyÅ›wietl avatar czÅ‚onka");
 define("_MB_ISTATS_YES","Tak");
 define("_MB_ISTATS_NO","Nie");
-define("_MB_ISTATS_COUNTER_DISPLAY","Wy¶wietl licznik z %s cyframi (obrazy)");
-define("_MB_ISTATS_COUNTER_IMG_DIR","Nazwa katalogu obrazów pod %s ");
-define("_MB_ISTATS_DIR","Katalog do u¿ycia");
-define("_MB_ISTATS_DIRS_NAME","(default / blkonwhite / whiteonblk / inny sci±gniêty przez ciebie)");
+define("_MB_ISTATS_COUNTER_DISPLAY","WyÅ›wietl licznik z %s cyframi (obrazy)");
+define("_MB_ISTATS_COUNTER_IMG_DIR","Nazwa katalogu obrazÃ³w pod %s ");
+define("_MB_ISTATS_DIR","Katalog do uÅ¼ycia");
+define("_MB_ISTATS_DIRS_NAME","(default / blkonwhite / whiteonblk / inny sciÄ…gniÄ™ty przez ciebie)");
 
 ?>

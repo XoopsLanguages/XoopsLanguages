@@ -1,18 +1,18 @@
-Cze¶æ {X_UNAME},
+CzeÅ›Ä‡ {X_UNAME},
 
-Zg³oszono niedzia³aj±cy link dla adresu. Oczekiwana jest akceptacja.
+ZgÅ‚oszono niedziaÅ‚ajÄ…cy link dla adresu. Oczekiwana jest akceptacja.
 
-Mo¿esz obejrzec zg³oszenie tutaj:
+MoÅ¼esz obejrzec zgÅ‚oszenie tutaj:
 {BROKENREPORTS_URL}
 
 -----------
 
-Otrzyma³e¶ tê wiadomo¶æ poniewa¿ zaznaczy³es, ¿e jesteæ zainteresowany potwierdzeniem faktu zakceptowania zg³oszonego przez ciebie adresu.
+OtrzymaÅ‚eÅ› tÄ™ wiadomoÅ›Ä‡ poniewaÅ¼ zaznaczyÅ‚es, Å¼e jesteÄ‡ zainteresowany potwierdzeniem faktu zakceptowania zgÅ‚oszonego przez ciebie adresu.
 
-Je¶li to b³±d albo nie chcesz ju¿ wiêcej byæ powiadamiany, zaktualizuj swoje ustawienia odwiedzaj±c link:
+JeÅ›li to bÅ‚Ä…d albo nie chcesz juÅ¼ wiÄ™cej byÄ‡ powiadamiany, zaktualizuj swoje ustawienia odwiedzajÄ…c link:
 {X_UNSUBSCRIBE_URL}
 
-Nie odpowiadaj na tê wiadomo¶æ.
+Nie odpowiadaj na tÄ™ wiadomoÅ›Ä‡.
 
 -----------
 

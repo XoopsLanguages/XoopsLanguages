@@ -23,8 +23,8 @@ define("_MI_ISTATS_DATE","Format daty:");
 define("_MI_ISTATS_DATE_DESC","Wybierz format daty : <b>FR</b> (d/m/R G:i) lub <b>US</b> (R/m/d g:i a)");
 define("_MI_ISTATS_DATE_US","US");
 define("_MI_ISTATS_DATE_FR","FR");
-define("_MI_ISTATS_MAXPAGE","Wybierz liczbê 'rz±danych stron' do wy¶wietlenia");
-define("_MI_ISTATS_HOSTNAME","Wybierz liczbê 'Nazw Hostów' do wy¶wietlenia");
-define("_MI_ISTATS_REFERER","Wybierz liczbê 'Odwo³añ' do wy¶wietlenia");
+define("_MI_ISTATS_MAXPAGE","Wybierz liczbÄ™ 'rzÄ…danych stron' do wyÅ›wietlenia");
+define("_MI_ISTATS_HOSTNAME","Wybierz liczbÄ™ 'Nazw HostÃ³w' do wyÅ›wietlenia");
+define("_MI_ISTATS_REFERER","Wybierz liczbÄ™ 'OdwoÅ‚aÅ„' do wyÅ›wietlenia");
 
 ?>

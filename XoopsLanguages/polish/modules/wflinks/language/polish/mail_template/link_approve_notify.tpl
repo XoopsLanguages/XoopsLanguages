@@ -1,18 +1,18 @@
 Witaj {X_UNAME},
 
-"{LINK_NAME}" zosta³ zaakceptowany na {X_SITENAME}.
+"{LINK_NAME}" zostaÅ‚ zaakceptowany na {X_SITENAME}.
 
-Mo¿esz zobaczyæ link tutaj:
+MoÅ¼esz zobaczyÄ‡ link tutaj:
 {LINK_URL}
 
 -----------
 
-Otrzyma³e¶ t± wiadomo¶æ poniewa¿ chcia³e¶ byæ powiadamiany o nowo¶ciach w dziale download.
+OtrzymaÅ‚eÅ› tÄ… wiadomoÅ›Ä‡ poniewaÅ¼ chciaÅ‚eÅ› byÄ‡ powiadamiany o nowoÅ›ciach w dziale download.
 
-Je¿eli nie chcesz otrzymywaæ takich maili kliknij link poni¿ej:
+JeÅ¼eli nie chcesz otrzymywaÄ‡ takich maili kliknij link poniÅ¼ej:
 {X_UNSUBSCRIBE_URL}
 
-Nie odpowiadaj na t± wiadomo¶æ.
+Nie odpowiadaj na tÄ… wiadomoÅ›Ä‡.
 
 -----------
 

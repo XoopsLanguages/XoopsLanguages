@@ -1,6 +1,6 @@
 Witaj {X_UNAME},
 
-Nowy post zosta³ napisany w {X_MODULE} na naszej stronie.
+Nowy post zostaÅ‚ napisany w {X_MODULE} na naszej stronie.
 
-Kliknij tutaj aby go zobaczyæ:
+Kliknij tutaj aby go zobaczyÄ‡:
 {POST_URL}
