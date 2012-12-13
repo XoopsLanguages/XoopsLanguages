@@ -107,7 +107,7 @@ define("_MD_IMGCATDISPLAY","Wyświetl");
 define("_MD_IMGCATSTRTYPE","Sposób zapisu obrazów:");
 define("_MD_STRTYOPENG","Tego parametru nie będzie można później zmienić!");
 define("_MD_ASFILE","Przechowywane jako plik (w katalogu na dysku serwera)");
-define("_MD_INDB","Przechowywane w bazie danych (jako dane binarne \\"blob\\")");
+define("_MD_INDB","Przechowywane w bazie danych (jako dane binarne \"blob\")");
 define ("_MD_IMGMAIN","Category"); 
 define ("_MD_EDITIMGCAT", "Images Settings");
 define('_IMGMANAGER', 'Zarządca Obrazów');
