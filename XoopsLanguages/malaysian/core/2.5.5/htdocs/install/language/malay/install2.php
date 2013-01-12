@@ -5,8 +5,8 @@
 // Translator: XOOPS Translation Team
 
 // License
-define('LICENSE_NOT_WRITEABLE', 'Lesen ialah %s . <br/><font style="colour:#ff0000">Jadikan ../include/license.php Writable</font>');
-define('LICENSE_IS_WRITEABLE', 'Lesen ialah %s');
+define('LICENSE_NOT_WRITEABLE', 'Lesen adalah %s . <br/><font style="colour:#ff0000">Jadikan ../include/license.php Writable</font>');
+define('LICENSE_IS_WRITEABLE', 'Lesen adalah %s');
 
 define('_INSTALL_WEBMASTER', 'Webmasters');
 define('_INSTALL_WEBMASTERD', 'Webmasters Laman Web Ini');
