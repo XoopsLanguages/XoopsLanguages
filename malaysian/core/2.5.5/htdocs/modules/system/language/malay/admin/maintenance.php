@@ -4,11 +4,11 @@
  * @license     http://www.fsf.org/copyleft/gpl.html GNU public license
  * _LANGCODE    en
  * _CHARSET     UTF-8
- * @version     $Id$
+ * @version     $Id: maintenance.php 8066 2011-11-06 05:09:33Z beckmi $
  */
 
 //Nav
-define("_AM_SYSTEM_MAINTENANCE_NAV_MANAGER","Maintenance");
+define("_AM_SYSTEM_MAINTENANCE_NAV_MANAGER", "Maintenance");
 define("_AM_SYSTEM_MAINTENANCE_NAV_LIST","All maintenance");
 define("_AM_SYSTEM_MAINTENANCE_NAV_DUMP","Dump");
 
@@ -51,16 +51,16 @@ define("_AM_SYSTEM_MAINTENANCE_TABLES_ANALYZE","Analyze");
 define("_AM_SYSTEM_MAINTENANCE_DUMP","Dump");
 define("_AM_SYSTEM_MAINTENANCE_DUMP_TABLES_OR_MODULES","Select tables or modules");
 define("_AM_SYSTEM_MAINTENANCE_DUMP_DROP","Add command DROP TABLE IF EXISTS 'tables' in the dump");
-define("_AM_SYSTEM_MAINTENANCE_DUMP_OR","OR");
-define("_AM_SYSTEM_MAINTENANCE_DUMP_AND","AND");
-define("_AM_SYSTEM_MAINTENANCE_DUMP_ERROR_TABLES_OR_MODULES","You must select the tables or modules");
-define("_AM_SYSTEM_MAINTENANCE_DUMP_NO_TABLES","No tables");
-define("_AM_SYSTEM_MAINTENANCE_DUMP_TABLES","Tables");
-define("_AM_SYSTEM_MAINTENANCE_DUMP_STRUCTURES","Structures");
-define("_AM_SYSTEM_MAINTENANCE_DUMP_NB_RECORDS","Numbers of records");
-define("_AM_SYSTEM_MAINTENANCE_DUMP_FILE_CREATED","File created");
-define("_AM_SYSTEM_MAINTENANCE_DUMP_RESULT","Result");
-define("_AM_SYSTEM_MAINTENANCE_DUMP_RECORDS","record(s)");
+define("_AM_SYSTEM_MAINTENANCE_DUMP_OR", "OR");
+define("_AM_SYSTEM_MAINTENANCE_DUMP_AND", "AND");
+define("_AM_SYSTEM_MAINTENANCE_DUMP_ERROR_TABLES_OR_MODULES", "You must select the tables or modules");
+define("_AM_SYSTEM_MAINTENANCE_DUMP_NO_TABLES", "No tables");
+define("_AM_SYSTEM_MAINTENANCE_DUMP_TABLES", "Tables");
+define("_AM_SYSTEM_MAINTENANCE_DUMP_STRUCTURES", "Structures");
+define("_AM_SYSTEM_MAINTENANCE_DUMP_NB_RECORDS", "Numbers of records");
+define("_AM_SYSTEM_MAINTENANCE_DUMP_FILE_CREATED", "File created");
+define("_AM_SYSTEM_MAINTENANCE_DUMP_RESULT", "Result");
+define("_AM_SYSTEM_MAINTENANCE_DUMP_RECORDS", "record(s)");
 
 // Tips
 define("_AM_SYSTEM_MAINTENANCE_TIPS", 

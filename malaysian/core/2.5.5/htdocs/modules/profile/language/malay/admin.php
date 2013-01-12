@@ -112,4 +112,15 @@ define("_PROFILE_AM_STEPSAVE","Simpan selepas langkah");
 define("_PROFILE_AM_STEPINTRO","Keterangan Langkah");
 //1.62
 define('_PROFILE_AM_ACTION','Action');
+//1.63
+define('_PROFILE_AM_REQUIRED_TOGGLE', 'Toggle Required Field');
+define('_PROFILE_AM_REQUIRED_TOGGLE_SUCCESS', 'Successfully Changed Required Field ');
+define('_PROFILE_AM_REQUIRED_TOGGLE_FAILED', 'Changing Required Field Failed');
+
+define('_PROFILE_AM_SAVESTEP_TOGGLE', 'Toggle Save');
+define('_PROFILE_AM_SAVESTEP_TOGGLE_SUCCESS', 'Successfully Changed Save After Step');
+define('_PROFILE_AM_SAVESTEP_TOGGLE_FAILED', "Changing 'Save After Step' Failed");
+
 ?>
+
+

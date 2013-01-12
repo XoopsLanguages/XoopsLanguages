@@ -77,8 +77,6 @@ define('_US_ICQ','ICQ');
 define('_US_AIM','AIM');
 define('_US_YIM','YIM');
 define('_US_MSNM','MSNM');
-define('_US_SKYPE','Skype');
-define('_US_FACEBOOK','Facebook');
 define('_US_LOCATION','Location');
 define('_US_OCCUPATION','Occupation');
 define('_US_INTEREST','Interest');
@@ -126,5 +124,9 @@ define('_US_GROUPS','Kumpulan Pengguna');
 define('_US_REMEMBERME','Kekal log masuk');
 // Welcoming emai/PM subject
 define('_US_WELCOME_SUBJECT','Selamat Datang %s');
+
+//XOOPS 2.5.4
+define('_US_SKYPE', 'Skype');
+define('_US_FACEBOOK', 'Facebook');
 
 ?>

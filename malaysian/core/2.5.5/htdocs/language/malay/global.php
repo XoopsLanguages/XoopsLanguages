@@ -211,6 +211,12 @@ define('XOOPS_USE_MULTIBYTES','0');
 /**
 * Additions to 2.4.0
 **/
-define('_RESET','Reset');
-define('_RE','Re:');
+define('_RESET', 'Reset');
+define('_RE', 'Re:');
+/**
+ * Additions to 2.5.5
+**/
+define('_DBDATESTRING', 'Y-m-d');
+define('_DBTIMESTRING', 'H:i:s');
+define('_DBTIMESTAMPSTRING', 'Y-m-d H:i:s');
 ?>
