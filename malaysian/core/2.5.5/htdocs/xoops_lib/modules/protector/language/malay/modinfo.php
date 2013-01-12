@@ -11,25 +11,25 @@ define( $constpref.'_LOADED' , 1);
 define($constpref."_NAME","Protector");
 
 // A brief description of this module
-define($constpref."_DESC","This module protects your xoops site from various attacks like DoS , SQL Injection , and Variables contaminations.");
+define($constpref."_DESC","Modul ini melindungi laman web XOOPS anda dari pelbagai serangan DoS, SQL Injection dan Variables contaminations.");
 
 // Menu
 define($constpref."_ADMININDEX","Protect Center");
-define($constpref."_ADVISORY","Security Advisory");
-define($constpref."_PREFIXMANAGER","Prefix Manager");
+define($constpref."_ADVISORY","Nasihat Keselamatan");
+define($constpref."_PREFIXMANAGER","Pengurusan Prefix");
 define($constpref.'_ADMENU_MYBLOCKSADMIN','Permissions');
 
 // Configs
-define($constpref.'_GLOBAL_DISBL','Temporary disabled');
-define($constpref.'_GLOBAL_DISBLDSC','All protections are disabled in temporary.<br />Don\'t forget turn this off after shooting the trouble');
+define($constpref.'_GLOBAL_DISBL','Disabled sementara');
+define($constpref.'_GLOBAL_DISBLDSC','Semua perlindungan disabled sementara');
 
-define($constpref.'_DEFAULT_LANG','Default language');
-define($constpref.'_DEFAULT_LANGDSC','Specify the language set to display messages before processing common.php');
+define($constpref.'_DEFAULT_LANG','Bahasa Default');
+define($constpref.'_DEFAULT_LANGDSC','Nyatakan set bahasa untuk papar mesej sebelum proses common.php');
 
 define($constpref.'_RELIABLE_IPS','Reliable IPs');
 define($constpref.'_RELIABLE_IPSDSC','set IPs you can rely separated with | . ^ matches the head of string, $ matches the tail of string.');
 
-define($constpref.'_LOG_LEVEL','Logging level');
+define($constpref.'_LOG_LEVEL','Peringkat Logging');
 define($constpref.'_LOG_LEVELDSC','');
 
 define($constpref.'_BANIP_TIME0','Banned IP suspension time (sec)');
@@ -115,10 +115,10 @@ define($constpref.'_SPAMURI4G','anti-SPAM: URLs for guests');
 define($constpref.'_SPAMURI4GDSC','If this number of URLs are found in POST data from guests, the POST is considered as SPAM. 0 means disabling this feature.');
 
 //3.40b
-define($constpref."_ADMINHOME","Home");
-define($constpref."_ADMINABOUT","About");
+define($constpref."_ADMINHOME","Utama");
+define($constpref."_ADMINABOUT","Tentang");
 //3.50
-define($constpref.'_STOPFORUMSPAM_ACTION','Stop Forum Spam');
+define($constpref.'_STOPFORUMSPAM_ACTION','Hentikan Spam Forum');
 define($constpref.'_STOPFORUMSPAM_ACTIONDSC','Checks POST data against spammers registered on www.stopforumspam.com database. Requires php CURL lib.');
 
 }

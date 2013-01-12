@@ -15,35 +15,35 @@
  */
 
 // Info
-define('_AM_MODULEADMIN_CONFIG','Configuration Check');
-define('_AM_MODULEADMIN_CONFIG_CHMOD',"The folder '%s' must be with a chmod '%s' (it's now set on %s).'");
-define('_AM_MODULEADMIN_CONFIG_FOLDERKO',"The folder '%s' does not exist");
-define('_AM_MODULEADMIN_CONFIG_FOLDEROK',"The folder '%s' exists");
-define('_AM_MODULEADMIN_CONFIG_PHP','Minimum PHP required: %s (your version is %s)');
-define('_AM_MODULEADMIN_CONFIG_XOOPS','Minimum XOOPS required: %s (your version is %s)');
+define('_AM_MODULEADMIN_CONFIG','Pemeriksaan Konfigurasi');
+define('_AM_MODULEADMIN_CONFIG_CHMOD',"Folder '%s' mesti dalam chmod '%s' (sekarang ia berada dalam %s).'");
+define('_AM_MODULEADMIN_CONFIG_FOLDERKO',"Folder '%s' tidak wujud");
+define('_AM_MODULEADMIN_CONFIG_FOLDEROK',"Folder '%s' wujud");
+define('_AM_MODULEADMIN_CONFIG_PHP','Keperluan Minimum PHP : %s (Versi anda ialah %s)');
+define('_AM_MODULEADMIN_CONFIG_XOOPS','Keperluan Minimum XOOPS: %s (Versi anda ialah %s)');
 
-define('_AM_MODULEADMIN_CONFIG_DB','minimum version required: %s (your version is %s)');
-define('_AM_MODULEADMIN_CONFIG_ADMIN','Minimum ModuleAdmin required: %s (your version is %s)');
+define('_AM_MODULEADMIN_CONFIG_DB','Keperluan versi minimum: %s (Versi anda ialah %s)');
+define('_AM_MODULEADMIN_CONFIG_ADMIN','Keperluan ModuleAdmin minimum: %s (Versi anda ialah %s)');
 
 // About
-define('_AM_MODULEADMIN_ABOUT_CHANGELOG','Change log');
-define('_AM_MODULEADMIN_ABOUT_DESCRIPTION','Description');
-define('_AM_MODULEADMIN_ABOUT_MODULEINFO','Module Info');
+define('_AM_MODULEADMIN_ABOUT_CHANGELOG','Log Perubahan');
+define('_AM_MODULEADMIN_ABOUT_DESCRIPTION','Huraian');
+define('_AM_MODULEADMIN_ABOUT_MODULEINFO','Info Module');
 define('_AM_MODULEADMIN_ABOUT_MODULESTATUS','Status:');
-define('_AM_MODULEADMIN_ABOUT_UPDATEDATE','Updated:');
-define('_AM_MODULEADMIN_ABOUT_WEBSITE',"Website:");
+define('_AM_MODULEADMIN_ABOUT_UPDATEDATE','Kemaskini:');
+define('_AM_MODULEADMIN_ABOUT_WEBSITE',"Laman Web:");
 
-define("_AM_MODULEADMIN_ABOUT_RELEASEDATE","Released: ");
-define("_AM_MODULEADMIN_ABOUT_AUTHOR","Author: ");
-define("_AM_MODULEADMIN_ABOUT_CREDITS","Credits: ");
-define("_AM_MODULEADMIN_ABOUT_LICENSE","License: ");
-define("_AM_MODULEADMIN_ABOUT_AUTHOR_NAME","Author name: ");
-define("_AM_MODULEADMIN_ABOUT_AUTHOR_INFO","Author Info");
+define("_AM_MODULEADMIN_ABOUT_RELEASEDATE","Dikeluarkan: ");
+define("_AM_MODULEADMIN_ABOUT_AUTHOR","Pengarang: ");
+define("_AM_MODULEADMIN_ABOUT_CREDITS","Kredit: ");
+define("_AM_MODULEADMIN_ABOUT_LICENSE","Lesen: ");
+define("_AM_MODULEADMIN_ABOUT_AUTHOR_NAME","Nama Pengarang: ");
+define("_AM_MODULEADMIN_ABOUT_AUTHOR_INFO","Info Pengarang");
 
-define("_AM_MODULEADMIN_HOME", "Home");
+define("_AM_MODULEADMIN_HOME", "Utama");
 define("_AM_MODULEADMIN_DASHBOARD", "Dashboard");
-define("_AM_MODULEADMIN_ABOUT", "About");
+define("_AM_MODULEADMIN_ABOUT", "Tentang");
 define("_AM_MODULEADMIN_PERMISSIONS", "Permissions");
 
 //ModuleAdmin
-define("_AM_MODULEADMIN_ADMIN_FOOTER", "<div class='center smallsmall italic pad5'>This module is maintained by the <a class='tooltip' rel='external' href='http://xoops.org/' title='Visit XOOPS Community'>XOOPS Community</a></div>");
+define("_AM_MODULEADMIN_ADMIN_FOOTER", "<div class='center smallsmall italic pad5'>Module ini di selanggara oleh <a class='tooltip' rel='external' href='http://xoops.org/' title='Lawat Komuniti XOOPS'>Komuniti XOOPS</a></div>");
