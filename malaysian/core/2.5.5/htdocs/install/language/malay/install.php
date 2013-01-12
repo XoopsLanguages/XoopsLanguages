@@ -75,12 +75,12 @@ define( "XOOPS_PATHS", "XOOPS Physical paths" );
 define( "XOOPS_URLS", "Lokasi web" );
 
 define( "XOOPS_ROOT_PATH_LABEL", "XOOPS documents root physical path" );
-define( "XOOPS_ROOT_PATH_HELP", "Physical path to the XOOPS documents (served) directory WITHOUT trailing slash" );
+define( "XOOPS_ROOT_PATH_HELP", "Physical path kepada XOOPS documents (served) directory TANPA trailing slash" );
 
 define( "XOOPS_LIB_PATH_LABEL", "XOOPS library directory" );
-define( "XOOPS_LIB_PATH_HELP", "Physical path to the XOOPS library directory WITHOUT trailing slash, for forward compatibility. Locate the folder out of " . XOOPS_ROOT_PATH_LABEL . " to make it secure.");
+define( "XOOPS_LIB_PATH_HELP", "Physical path kepada XOOPS library directory TANPA trailing slash, untuk forward compatibility. Sila keluarkan folder dari " . XOOPS_ROOT_PATH_LABEL . " untuk menjadikan ia selamat.");
 define( "XOOPS_DATA_PATH_LABEL", "XOOPS data files directory" );
-define( "XOOPS_DATA_PATH_HELP", "Physical path to the XOOPS data files (writable) directory WITHOUT trailing slash, for forward compatibility. Locate the folder out of " . XOOPS_ROOT_PATH_LABEL . " to make it secure." );
+define( "XOOPS_DATA_PATH_HELP", "Physical path kepada XOOPS data files (writable) directory TANPA trailing slash, untuk forward compatibility. Sila keluarkan folder dari " . XOOPS_ROOT_PATH_LABEL . " untuk menjadikan ia selamat." );
 
 define( "XOOPS_URL_LABEL", "Lokasi Laman Web (URL)" ); // L56
 define( "XOOPS_URL_HELP", "URL utama yang akan digunakan untuk akses XOOPS installation anda" ); // L58
@@ -107,10 +107,10 @@ define( "DB_PCONNECT_HELP",  "Biarkan kosong sekiranya anda tidak pasti"); // L6
 define( "DB_DATABASE_LABEL", "Pangkalan Data" );
 
 define( "LEGEND_ADMIN_ACCOUNT", "Akaun Administrator" );
-define( "ADMIN_LOGIN_LABEL", "Admin login" ); // L37
-define( "ADMIN_EMAIL_LABEL", "Admin e-mail" ); // L38
-define( "ADMIN_PASS_LABEL", "Admin password" ); // L39
-define( "ADMIN_CONFIRMPASS_LABEL", "Confirm password" ); // L74
+define( "ADMIN_LOGIN_LABEL", "Log Masuk Admin" ); // L37
+define( "ADMIN_EMAIL_LABEL", "E-mail Admin" ); // L38
+define( "ADMIN_PASS_LABEL", "Kata Laluan Admin" ); // L39
+define( "ADMIN_CONFIRMPASS_LABEL", "Pastikan kata laluan" ); // L74
 
 // Buttons
 define( "BUTTON_PREVIOUS", "Sebelumnya" ); // L42
@@ -119,8 +119,8 @@ define( "BUTTON_NEXT", "Seterusnya" ); // L47
 // Messages
 define( "XOOPS_FOUND", "%s dijumpai" );
 define( "CHECKING_PERMISSIONS", "Pemeriksaan permission fail dan direktori..." ); // L82
-define( "IS_NOT_WRITABLE", "%s is NOT writable." ); // L83
-define( "IS_WRITABLE", "%s is writable." ); // L84
+define( "IS_NOT_WRITABLE", "%s adalah TIDAK writable." ); // L83
+define( "IS_WRITABLE", "%s adalah writable." ); // L84
 
 define( "XOOPS_PATH_FOUND", "Path dijumpai." );
 
@@ -192,9 +192,9 @@ define( "MODULES_TITLE", "Modules installation" );
 define( "THEME", "Pilih Theme" );
 define( "THEME_TITLE", "Pilih default theme" );
 
-define( "INSTALLED_MODULES", "The following modules have been installed.<br />Press <strong>next</strong> to go to the next step.");
-define( "NO_MODULES_FOUND", "No modules found.<br />Press <strong>next</strong> to go to the next step.");
-define( "NO_INSTALLED_MODULES", "No module installed.<br />Press <strong>next</strong> to go to the next step.");
+define( "INSTALLED_MODULES", "Module berikut telah diinstal.<br />Klik <strong>seterusnya</strong> untuk ke langkah seterusnya.");
+define( "NO_MODULES_FOUND", "Tiada modules dijumpai.<br />Klik <strong>seterusnya</strong> untuk ke langkah seterusnya.");
+define( "NO_INSTALLED_MODULES", " Tiada module diinstal.<br />Klik <strong>seterusnya</strong> untuk ke langkah seterusnya.");
 
 define( "THEME_NO_SCREENSHOT", "Tiada screenshot dijumpai");
 
