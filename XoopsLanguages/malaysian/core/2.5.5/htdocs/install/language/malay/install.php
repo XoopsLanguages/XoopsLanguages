@@ -51,7 +51,7 @@ define( "LANGUAGE_SELECTION_TITLE", "Pilih Bahasa Anda");        // L128
 define( "INTRODUCTION", "Pengenalan" );
 define( "INTRODUCTION_TITLE", "Selamat Datang ke XOOPS Installation Wizard" );        // L0
 define( "CONFIGURATION_CHECK", "Pemeriksaan Konfigurasi" );
-define( "CONFIGURATION_CHECK_TITLE", "Memerika konfigurasi server anda" );
+define( "CONFIGURATION_CHECK_TITLE", "Pemeriksaan konfigurasi server anda" );
 define( "PATHS_SETTINGS", "Tetapan Paths" );
 define( "PATHS_SETTINGS_TITLE", "Tetapan Paths" );
 define( "DATABASE_CONNECTION", "Sambungan Pangkalan Data" );
@@ -118,7 +118,7 @@ define( "BUTTON_NEXT", "Seterusnya" ); // L47
 
 // Messages
 define( "XOOPS_FOUND", "%s dijumpai" );
-define( "CHECKING_PERMISSIONS", "Memeriksa permission fail dan direktori..." ); // L82
+define( "CHECKING_PERMISSIONS", "Pemeriksaan permission fail dan direktori..." ); // L82
 define( "IS_NOT_WRITABLE", "%s is NOT writable." ); // L83
 define( "IS_WRITABLE", "%s is writable." ); // L84
 
