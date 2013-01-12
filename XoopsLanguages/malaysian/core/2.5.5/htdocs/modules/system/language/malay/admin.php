@@ -50,8 +50,8 @@ define("_AM_SYSTEM_USER","Users");
 define("_AM_SYSTEM_USER_DESC","With this options you <br /> can add new user or <br /> edit old user and userinfo, <br /> change groups and many <br /> other things");
 define("_AM_SYSTEM_PREF","Preferences");
 define("_AM_SYSTEM_PREF_DESC","XOOPS and all of your <br /> modules have a preferences <br /> for manage module options");
-define("_AM_SYSTEM_MLUS","Mail Users");
-define("_AM_SYSTEM_MLUS_DESC","If you need send mail <br /> or mp for your users, <br /> you can use this option");
+define("_AM_SYSTEM_MLUS","Email Users");
+define("_AM_SYSTEM_MLUS_DESC","If you need send email <br /> or PM for your users, <br /> you can use this option");
 define("_AM_SYSTEM_IMAGES","Image Manager");
 define("_AM_SYSTEM_IMAGES_DESC","You can add your image <br /> here and make some <br /> Category for yourself");
 define("_AM_SYSTEM_AVATARS","Avatars");
@@ -75,5 +75,7 @@ define("_MD_AM_PERMADDNG","Could not add %s permission to %s for group %s");
 define("_MD_AM_PERMADDOK","Added %s permission to %s for group %s");
 define("_MD_AM_PERMRESETNG","Could not reset group permission for module %s");
 define("_MD_AM_PERMADDNGP","All parent items must be selected.");
+
+define("_AM_SYSTEM_UNINSTALL","Uninstall");
 
 ?>

@@ -27,4 +27,7 @@ define("_PM_MI_MAXSAVE_DESC","");
 define("_PM_MI_PERPAGE","Jumlah mesej untuk setiap halaman");
 define("_PM_MI_PERPAGE_DESC","");
 
+//1.07
+define("_PM_MI_ABOUT", "About");
+
 ?>

@@ -56,22 +56,14 @@ define("_PM_SURE_TO_DELETE","Adakah anda pasti untuk hapuskan mesej ini?");
 
 define("_PM_ONLINE","Dalam Talian");
 
-define("_PM_RECEIVE","Terima");
-define("_PM_POST","Kirim");
-define("_PM_READBOX","Peti Baca");
-define("_PM_RSAVEBOX","Peti Simpanan Terima");
 define("_PM_OUTBOX","Peti Keluar");
 define("_PM_SAVEBOX","Peti Simpanan");
-define("_PM_SENTBOX","Peti Kiriman");
-define("_PM_PSAVEBOX","Peti Simpanan Kiriman");
 define("_PM_SAVE","Simpan");
-define("_PM_SAVED","Telah disimpan dengan jayanya");
-define("_PM_TOC","Dari: ");
 
 //WANISYS.NET PM HACK1.5
 define("_PM_SORT","Susun");
 define("_PM_ORDER","Susunan");
-define("_PM_UID","UID Rakan");
+
 define("_PM_TIME","Tarikh Kiriman");
 define("_PM_ASC","Menaik");
 define("_PM_DESC","Menurun");

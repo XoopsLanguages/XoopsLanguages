@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>XOOPS Installation Instructions</title>
+    <title>Arahan Installation XOOPS</title>
     <meta name="keywords" content="XOOPS" />
     <meta name="description" content="XOOPS installation guide" />
     <style type="text/css">
@@ -88,50 +88,52 @@
 <div class="page">
 <h1>Installing XOOPS</h1>
 
-<h2>First time installation</h2>
-<h3>Preface:</h3>
+<h2>Installation Pertama Kali</h2>
+<h3>Pengenalan:</h3>
 <p>
-    <acronym title="eXtensible Object-Oriented Portal System">XOOPS</acronym> is an open-source
-    Object-Oriented Web publishing system written in PHP. It is an ideal tool for
-    developing small to large dynamic community websites, intra company portals, corporate portals, weblogs and much more.
+    <acronym title="eXtensible Object-Oriented Portal System">XOOPS</acronym> merupakan
+    Object-Oriented Web Publishing System Sumber Terbuka yang ditulis dalam PHP. Ia merupakan alat ideal untuk membangunkan
+  laman web komuniti dinamik, portal syarikat, portal korporat, blog dan sebagainya dari yang kecil sehinggalah yang berskala besar.
 </p>
-
 <p>
-    XOOPS is released under the terms of the
-    <a href="http://www.gnu.org/copyleft/gpl.html" target="_blank">GNU General Public License (GPL)</a>
-    and is free to use and modify.
-    It is free to redistribute as long as you abide by the distribution terms of the GPL.
+    XOOPS dikeluarkan di bawah terma
+    <a href="http://www.gnu.org/copyleft/gpl.html" rel="external">GNU General Public License (GPL)</a>
+    dan percuma untuk digunakan dan diubahsuai.
+Ia adalah percuma untuk diagihkan semula selagi anda mematuhi terma pengedaran GPL.
 </p>
-
-<h2>Requirements</h2>
+<h2>Keperluan</h2>
 <ul>
-    <li>WWW Server (<a href="http://www.apache.org/" target="_blank">Apache</a>, IIS, Roxen, etc)</li>
-    <li><a href="http://www.php.net/" target="_blank">PHP</a> 5.2.0 or higher</li>
-    <li><a href="http://www.mysql.com/" target="_blank">MySQL</a> 5.1 or higher</li>
+    <li>WWW Server (<a href="http://www.apache.org/" rel="external">Apache</a>, IIS, Roxen, etc)</li>
+    <li><a href="http://www.php.net/" rel="external">PHP</a> 5.2 atau lebih tinggi </li>
+    <li><a href="http://www.mysql.com/" rel="external">MySQL</a> 5.1 atau lebih tinggi </li>
 </ul>
 
-<h2>Before you install</h2>
+<h2>Sebelum anda install</h2>
 <ol>
-    <li>Setup WWW server, PHP and database server properly.</li>
-    <li>Prepare a database for your XOOPS site.</li>
-    <li>Prepare user account and grant the user the access to the database.</li>
-    <li>Make the directory <em>/uploads/</em> and the file <em>mainfile.php</em> writable</li>
-    <li>For security considerations, you are strongly advised to move the two directories <em>/xoops_lib/</em> (for XOOPS libraries) and <em>/xoops_data/</em> (for XOOPS data) out of <a href="http://phpsec.org/projects/guide/3.html" target="_blank">document root</a> and change the folder names.</li>
-    <li>Make the directory <em>/xoops_data/</em> writable; Create (if not already present) and make the directories <em>/xoops_data/configs/</em>, <em>/xoops_data/caches/</em>, <em>/xoops_data/caches/xoops_cache/</em>, <em>/xoops_data/caches/smarty_cache/</em> and <em>/xoops_data/caches/smarty_compile/</em> writable.</li>
-    <li>Turn cookie and JavaScript of your browser on.</li>
+    <li>Setup WWW server, PHP and server pangkalan data dengan betul.</li>
+    <li>Sedia pangkalan data laman web XOOPS anda.</li>
+    <li>Sedia nama pengguna pangkalan data dan berikan ia akses kepada pangkalan data.</li>
+    <li>Jadikan fail dan direktori writable: %s</li>
+    <li>Untuk pertimbangan keselamatan, anda dinasihatkan untuk memindahkan dua direktori berikut keluar dari <a href="http://phpsec.org/projects/guide/3.html" rel="external">document root</a> dan ubah nama folder tersebut: %s</li>
+    <li>Cipta (sekiranya belum wujud) dan jadikan direktori writable: %s</li>
+    <li>Pastikan cookie dan JavaScript dalam browser anda berfungsi.</li>
 </ol>
 
-
 <h2>Installing locally</h2>
-<p>If you are running a local environment for development or testing, make sure that you have the previous requirements met. Once this is done, copy the contents of the htdocs directory (from the XOOPS distribution file or SVN) to the root document path of your web environment. Once the files are copied there, you can start the install by typing "http://yoursite.com". This will start the install process.</p>
+<p>Sekiranya anda menggunakan local environment untuk pembangunan atau pengujian, pastikan anda telah memenuhi keperluan yang dinyatakan sebelum ini. 
+Selepas ini dilakukan, salin kandungan direktori htdocs (dari Pakej XOOPS) ke dalam root document path untuk local environment anda. 
+Seterusnya namakan semula folder tersebut contohnya sebagai xoops. Selepas fail telah di salin dan dinamakan semula, 
+anda boleh memulakan proses install dengan menaip "http://localhost/xoops/". Ini akan memulakan proses install.</p>
 
 
-<h2>Installing on a hosted platform</h2>
-<p>If you are running in a hosted environment, unpack the XOOPS files locally or on the server if you have telnet or SSH access. Once you done this, make sure to move or copy all XOOPS files from the htdocs directory to your root web directory (your provider usually provides this location with directions).  Once the files are copied there, you can start the install by typing "http://yoursite.com". This will start the install process.</p>
+<h2>Installing dalam hosted platform</h2>
+<p>Sekiranya anda menggunakan hosted environment, unpack fail XOOPS di komputer atau dalam server. Selepas ini dilakukan, pastikan anda pindah atau salin semua fail XOOPS dari direktori htdocs ke root web directory anda dalam server.  
+Anda boleh memulakan proses install dengan menaip "http://alamatlamanwebanda.com". Ini akan memulakan proses install.</p>
+</p>
 
 
-<h2>Continuing the install</h2>
-<p>Just follow step-by-step instructions in installer.</p>
+<h2>Proses install</h2>
+<p>Sila ikut arahan langkah demi langkah dalam installer.</p>
 
 </div>
 </body>

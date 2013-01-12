@@ -1,11 +1,11 @@
 <?php
 
 if( defined( 'FOR_XOOPS_LANG_CHECKER' ) ) $mydirname = 'protector' ;
-$constpref = '_MI_' . strtoupper( $mydirname ) ;
+$constpref = '_MI_' . strtoupper( $mydirname);
 
 if( defined( 'FOR_XOOPS_LANG_CHECKER' ) || ! defined( $constpref.'_LOADED' ) ) {
 
-define( $constpref.'_LOADED' , 1 ) ;
+define( $constpref.'_LOADED' , 1);
 
 // The name of this module
 define($constpref."_NAME","Protector");
@@ -17,7 +17,7 @@ define($constpref."_DESC","This module protects your xoops site from various att
 define($constpref."_ADMININDEX","Protect Center");
 define($constpref."_ADVISORY","Security Advisory");
 define($constpref."_PREFIXMANAGER","Prefix Manager");
-define($constpref.'_ADMENU_MYBLOCKSADMIN','Permissions') ;
+define($constpref.'_ADMENU_MYBLOCKSADMIN','Permissions');
 
 // Configs
 define($constpref.'_GLOBAL_DISBL','Temporary disabled');
@@ -81,7 +81,7 @@ define($constpref.'_DOS_CRCOUNTDSC','Preventing from high loading crawlers.<br /
 define($constpref.'_DOS_CRACTION','Action against high loading Crawlers');
 
 define($constpref.'_DOS_CRSAFE','Welcomed User-Agent');
-define($constpref.'_DOS_CRSAFEDSC','A perl regex pattern for User-Agent.<br />If it matches, the crawler is never considered as a high loading crawler.<br />eg) /(msnbot|Googlebot|Yahoo! Slurp)/i');
+define($constpref.'_DOS_CRSAFEDSC','A perl regex pattern for User-Agent.<br />If it matches, the crawler is never considered as a high loading crawler.<br />eg) /(bingbot|Googlebot|Yahoo! Slurp)/i');
 
 define($constpref.'_OPT_NONE','None (only logging)');
 define($constpref.'_OPT_SAN','Sanitizing');
@@ -114,6 +114,11 @@ define($constpref.'_SPAMURI4UDSC','If this number of URLs are found in POST data
 define($constpref.'_SPAMURI4G','anti-SPAM: URLs for guests');
 define($constpref.'_SPAMURI4GDSC','If this number of URLs are found in POST data from guests, the POST is considered as SPAM. 0 means disabling this feature.');
 
-}
+//3.40b
+define($constpref."_ADMINHOME","Home");
+define($constpref."_ADMINABOUT","About");
+//3.50
+define($constpref.'_STOPFORUMSPAM_ACTION','Stop Forum Spam');
+define($constpref.'_STOPFORUMSPAM_ACTIONDSC','Checks POST data against spammers registered on www.stopforumspam.com database. Requires php CURL lib.');
 
-?>
+}
