@@ -1,13 +1,13 @@
-Hello {X_UNAME},
+Hi {X_UNAME},
 
-A web user from {IP} has just requested a new password for your account at {SITENAME}.
-You can get your new password by clicking on the link below:
+Seorang pengguna web dari {IP} memohon untuk kata laluan anda di {SITENAME} dihantar.
+Anda boleh dapatkan kata laluan bary anda dengan klik pautan di bawah:
 
 {NEWPWD_LINK}
 
-If you didn't ask for this, don't worry. Just delete this Email.
+Sekiranya anda tidak pernah memohon benda ini, jangan bimbang. Sila abaikan dan hapuskan emel ini.
 
 -----------
 {SITENAME} ({SITEURL}) 
-webmaster
+Webmaster
 {ADMINMAIL}

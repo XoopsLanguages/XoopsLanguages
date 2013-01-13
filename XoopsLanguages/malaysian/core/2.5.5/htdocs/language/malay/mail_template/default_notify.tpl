@@ -1,20 +1,22 @@
-Hello {X_UNAME},
+Hi {X_UNAME},
 
-The event {X_NOTIFY_EVENT} has occurred to the {X_ITEM_TYPE} "{X_ITEM_TILE}" you are monitoring in the {X_MODULE} module at our site.
+Perkara {X_NOTIFY_EVENT} telah berlaku kepada {X_ITEM_TYPE} "{X_ITEM_TILE}" 
 
-You can view the {X_ITEM_TYPE} here:
+Anda memilih untuk memantau perkara ini dalam module {X_MODULE} dilaman web kami.
+
+Anda boleh melihat item {X_ITEM_TYPE} disini:
 {X_ITEM_URL}
 
 -----------
 
-You have subscribed to receive notifications of this sort.
+Anda telah memilih untuk melanggan untuk menerima notifikasi perkara ini.
 
-If this is an error or you wish not to receive further such notifications, please update your subscriptions by visiting the link below:
+Sekiranya ini merupakan ralat dan anda tidak ingin sebarang notifikasi seperti ini, sila kemaskini langganan anda dengan klik pautan di bawah:
 {X_UNSUBSCRIBE_URL}
 
-Please do not reply to this message.
+Sila jangan balas mesej emel ini
 
 -----------
 {X_SITENAME} ({X_SITEURL}) 
-webmaster
+Webmaster
 {X_ADMINMAIL}

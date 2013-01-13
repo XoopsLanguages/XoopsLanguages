@@ -1,21 +1,20 @@
-Hello {X_UNAME},
+Hi {X_UNAME},
 
-Thanks for subscribing to {SITENAME}. As a registered member your can:
-- Send private messages among members
-- Participate in discussion boards
-- Get the latest news
-- Submit content
-- Much, much more....
+Terima kasih kerana mendaftar di {SITENAME}. Sebagai pengguna berdaftar anda boleh:
+- Menghantar mesej peribadi kepada pengguna lain
+- Menyertai forum
+- Mendapatkan berita terkini
+- Menghantar artikel
+- dan banyak lagi....
 
-The email address ({X_UEMAIL}) has been used to register an account.
+Alamat emel ({X_UEMAIL}) telah digunakan untuk mendaftar akaun.
 
-To become a member of {SITENAME}, please confirm your
-request by clicking on the link below:
+Untuk menjadi ahli {SITENAME}, sila sahkan pendaftaran anda dengan klik pautan di bawah:
 
 {X_UACTLINK}
 
 -----------
-Best Regards
+Terima Kasih
 {SITENAME}
 ({SITEURL}) 
 {ADMINMAIL}

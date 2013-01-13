@@ -1,6 +1,6 @@
 <?php
 // $Id: findusers.php 8066 2011-11-06 05:09:33Z beckmi $
-// _LANGCODE: en
+// _LANGCODE: my
 // _CHARSET : UTF-8
 // Translator: XOOPS Translation Team
 define('_MA_USER_MORE', 'Cari pengguna');

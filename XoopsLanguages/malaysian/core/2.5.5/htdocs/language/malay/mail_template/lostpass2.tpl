@@ -1,15 +1,16 @@
-Hello {X_UNAME},
+Hi {X_UNAME},
 
-A web user from {IP} has just requested that password be sent.
-Here are your login details at {SITENAME}.
+Seorang pengguna web dari {IP} memohon untuk kata laluan dihantar.
+Ini merupakan info log masuk anda di {SITENAME}.
 
-Username: {X_UNAME}
-New Password: {NEWPWD}
+Nama Pengguna: {X_UNAME}
+Kata Laluan baru: {NEWPWD}
 
-You can change it after you login at {SITEURL}user.php.
-If you didn't ask for this, don't worry. You are seeing this message, not 'them'. If this was an error, we are really sorry but please login with your new password.
+Anda boleh menukar kata laluan ini selepas log masuk di {SITEURL}user.php.
+Sekiranya anda tidak pernah memohon benda ini, jangan bimbang. Hanya anda dapat lihat mesej ini. 
+Sekiranya ini ralat, kami mohon maaf tapi sila log masuk dengan kata laluan baru anda.
 
 -----------
 {SITENAME} ({SITEURL}) 
-webmaster
+Webmaster
 {ADMINMAIL}

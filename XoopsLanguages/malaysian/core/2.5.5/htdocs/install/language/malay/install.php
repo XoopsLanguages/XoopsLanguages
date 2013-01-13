@@ -203,8 +203,8 @@ define( "IS_VALOR", " => ");
 // password message
 define( "PASSWORD_LABEL", "Kekuatan Kata Laluan : ");
 define( "PASSWORD_DESC", "Kata Laluan tidak dimasukkan");
-define( "PASSWORD_GENERATOR", "Generator Kata Laluan");
-define( "PASSWORD_GENERATE", "Generate");
+define( "PASSWORD_GENERATOR", "Janaan Kata Laluan");
+define( "PASSWORD_GENERATE", "Jana");
 define( "PASSWORD_COPY", "Salin");
 
 define( "PASSWORD_VERY_WEAK", "Sangat Lemah");
