@@ -6,5 +6,5 @@ Sekiranya anda ada sebarang soalan, sila hubungi kami. Terima Kasih
 
 -----------
 {SITENAME} ({SITEURL}) 
-webmaster
+Webmaster
 {ADMINMAIL}
