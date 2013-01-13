@@ -7,7 +7,7 @@
 //%%%%%%	File Name readpmsg.php 	%%%%%
 define("_PM_DELETED","Mesej anda telah dipadamkan");
 define("_PM_PRIVATEMESSAGE","Mesej Peribadi");
-define("_PM_INBOX","Peti Pesanan");
+define("_PM_INBOX","Peti Masuk");
 define("_PM_FROM","Dari");
 define("_PM_YOUDONTHAVE","Tiada mesej peribadi");
 define("_PM_FROMC","Dari: ");
