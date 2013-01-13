@@ -1,6 +1,6 @@
 <?php
 // $Id$
-// _LANGCODE: en
+// _LANGCODE: my
 // _CHARSET : UTF-8
 // Translator: XOOPS Translation Team
 
@@ -28,6 +28,6 @@ define("_PM_MI_PERPAGE","Jumlah mesej untuk setiap halaman");
 define("_PM_MI_PERPAGE_DESC","");
 
 //1.07
-define("_PM_MI_ABOUT", "About");
+define("_PM_MI_ABOUT", "Tentang");
 
 ?>
