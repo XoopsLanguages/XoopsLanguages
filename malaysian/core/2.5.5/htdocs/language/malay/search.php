@@ -1,6 +1,7 @@
+
 <?php
 // $Id$
-// _LANGCODE: en
+// _LANGCODE: my
 // _CHARSET : UTF-8
 // Translator: XOOPS Translation Team
 //%%%%%%    File Name search.php    %%%%%

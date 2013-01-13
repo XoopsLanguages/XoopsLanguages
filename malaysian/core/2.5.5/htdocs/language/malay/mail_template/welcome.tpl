@@ -1,15 +1,14 @@
-Dear {X_UNAME},
+Hi {X_UNAME},
 
-
-You have been successfully registered at {X_SITENAME} using user name of "{X_UNAME}".
-You are welcome to visit {X_SITENAME} at: {X_SITEURL}
+Anda telah berjaya didaftarkan di {X_SITENAME} menggunakan nama pengguna "{X_UNAME}".
+Anda dialu-alukan untuk mengunjung {X_SITENAME} dialamat: {X_SITEURL}
 
 {TERMSOFUSE}
 
-In case you have any problem or inconvenience using "{X_SITENAME}", please feel free to contact us: {X_ADMINMAIL}
+Sekiranya anda mempunyai masalah atau kesulitan untuk melayari "{X_SITENAME}", sila hubungi kami: {X_ADMINMAIL}
 
-Best regards,
+Sekian Terima Kasih,
 
 -----------
 {X_SITENAME}: {X_SITEURL} 
-webmaster: {X_ADMINMAIL}
+Webmaster: {X_ADMINMAIL}

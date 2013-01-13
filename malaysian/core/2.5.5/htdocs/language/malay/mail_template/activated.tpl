@@ -1,12 +1,12 @@
-Hello {X_UNAME},
+Hi {X_UNAME},
 
-Your new account at {SITENAME} has been activated by the administrator.
+Akaun anda di {SITENAME} telah diaktifkan oleh administrator.
 
-You can now login from the following URL with the password you have provided upon registration.
+Anda boleh log masuk di URL berikut dengan kata laluan yang anda masukkan dalam proses pendaftaran.
 
 {SITEURL}user.php
 
 -----------
 {SITENAME} ({SITEURL}) 
-webmaster
+Webmaster
 {ADMINMAIL}

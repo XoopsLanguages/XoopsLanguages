@@ -1,6 +1,6 @@
 <?php
 // $Id: pmsg.php 8631 2012-01-03 22:48:44Z beckmi $
-// _LANGCODE: en
+// _LANGCODE: my
 // _CHARSET : UTF-8
 // Translator: XOOPS Translation Team
 //%%%%%%    File Name readpmsg.php  %%%%%
@@ -28,7 +28,7 @@ define('_PM_USERWROTE', '%s menulis:');
 define('_PM_TO', 'To: ');
 define('_PM_SUBJECTC', 'Subjek: ');
 define('_PM_MESSAGEC', 'Mesej: ');
-define('_PM_CLEAR', 'Padan');
+define('_PM_CLEAR', 'Padam');
 define('_PM_CANCELSEND', 'Batal Hantar');
 define('_PM_SUBMIT', 'Hantar');
 //%%%%%%    File Name viewpmsg.php  %%%%%

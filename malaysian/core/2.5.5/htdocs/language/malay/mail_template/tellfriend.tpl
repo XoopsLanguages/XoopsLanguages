@@ -1,11 +1,11 @@
-Hello {FRIEND_NAME},
+Hi {FRIEND_NAME},
 
-Your friend {YOUR_NAME} liked our site and wanted to show it to you.
+Rakan anda {YOUR_NAME} suka laman web kami dan ingin tunjukkan ia pada anda.
 
-Site Name: {SITENAME}
-Site URL:  {SITEURL}
+Nama Laman Web: {SITENAME}
+Alamat Laman Web:  {SITEURL}
 
 -----------
 {SITENAME} ({SITEURL}) 
-webmaster
+Webmaster
 {ADMINMAIL}
