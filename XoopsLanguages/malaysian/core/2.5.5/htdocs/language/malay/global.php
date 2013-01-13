@@ -10,7 +10,7 @@ define('_LOGOUT','Log Keluar');
 define('_SUBJECT','Subjek');
 define('_MESSAGEICON','Ikon Mesej');
 define('_COMMENTS','Komen');
-define('_POSTANON','Post Anonymously');
+define('_POSTANON','Kiri secara anonymous');
 define('_DISABLESMILEY','Disable smiley');
 define('_DISABLEHTML','Disable html');
 define('_PREVIEW','Preview');
@@ -23,7 +23,7 @@ define('_OLDESTFIRST','Lama Duluan');
 define('_NEWESTFIRST','Baru Duluan');
 define('_MORE','Lagi...');
 define('_MULTIPAGE','Untuk menjadikan artikel anda mempunyai muka surat, masukkan perkataan <font color=red>[pagebreak]</font> (dengan kurungan) dalam artikel.');
-define('_IFNOTRELOAD','Sekiranya halaman itidak automatik reload, sila kilik di <a href=\'%s\'>sini</a>');
+define('_IFNOTRELOAD','Sekiranya halaman tidak automatik reload, sila kilik di <a href=\'%s\'>sini</a>');
 // Error messages issued by XoopsObject::cleanVars()
 define('_XOBJ_ERR_REQUIRED','%s diperlukan');
 define('_XOBJ_ERR_SHORTERTHAN','%s mesti pendek dari %d aksara.');
@@ -43,14 +43,14 @@ define('_INFO','Info');
 define('_CPHOME','Panel Kawalan Utama');
 define('_YOURHOME','Halaman Utama');
 // %%%%%%    File Name misc.php (who's-online popup)    %%%%%
-define('_WHOSONLINE','Who\'s Online');
+define('_WHOSONLINE','Dalam talian');
 define('_GUESTS','Tetamu');
 define('_MEMBERS','Ahli');
 define('_ONLINEPHRASE','<strong>%s</strong> pengguna sedang berada dalam talian');
 define('_ONLINEPHRASEX','<strong>%s</strong> pengguna sedang melayari <strong>%s</strong>');
 define('_CLOSE','Tutup'); // Close window
 // %%%%%%    File Name module.textsanitizer.php     %%%%%
-define('_QUOTEC','Quote:');
+define('_QUOTEC','Petik:');
 // %%%%%%    File Name admin.php     %%%%%
 define('_NOPERM','Maaf, anda tidak mempunyai kebenaran untuk akses halaman ini');
 // %%%%%        Common Phrases        %%%%%
@@ -69,7 +69,7 @@ define('_MUSTWABLE','Fail %s mesti boleh diubahsuai oleh server!'); // %s repres
 // Module info
 define('_PREFERENCES','Pilihan Utama');
 define('_VERSION','Versi');
-define('_DESCRIPTION','Keterangan');
+define('_DESCRIPTION','Huraian');
 define('_AUTHOR','Pengarang');
 define('_CREDITS','Kredit');
 define('_LICENCE','Lesen');
@@ -158,7 +158,7 @@ define('_MESSAGETOOLONG','Mesej anda terlalu panjang.');
 */
 define('_AM_ADDSMILE',' Tambah smilie baru');
 define('_AM_SMILECODE','Kod');
-define('_AM_SMILEEMOTION','Keterangan');
+define('_AM_SMILEEMOTION','Huraian');
 define('_AM_DISPLAYF','Display in the form');
 // %%%%%        TIME FORMAT SETTINGS   %%%%%
 define('_SECOND','1 saat');
