@@ -24,7 +24,7 @@ define('_MSC_CODE','Kod');
 define('_MSC_EMOTION','Emotion');
 
 define('_MSC_CLICK_TO_OPEN_IMAGE','Klik untuk melihat imej asal dalam window baru');
-define('_MSC_RESIZED_IMAGE','Imeh diubahsuai saiz');
+define('_MSC_RESIZED_IMAGE','Imej diubahsuai saiz');
 define('_MSC_ORIGINAL_IMAGE','Imej asal');
 
 

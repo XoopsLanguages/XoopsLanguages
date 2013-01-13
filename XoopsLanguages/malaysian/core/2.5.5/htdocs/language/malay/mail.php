@@ -3,13 +3,13 @@
 // _LANGCODE: en
 // _CHARSET : UTF-8
 // Translator: XOOPS Translation Team
-define('_MAIL_MSGBODY','Message body is not set.');
-define('_MAIL_FAILOPTPL','Failed opening template file.');
-define('_MAIL_FNAMENG','From Name is not set.');
-define('_MAIL_FEMAILNG','From Email is not set.');
-define('_MAIL_SENDMAILNG','Could not send mail to %s.');
-define('_MAIL_MAILGOOD','Mail sent to %s.');
-define('_MAIL_SENDPMNG','Could not send private message to %s.');
-define('_MAIL_PMGOOD','Private message sent to %s.');
+define('_MAIL_MSGBODY','Message body  tidak diset.');
+define('_MAIL_FAILOPTPL','Gagal untuk buka fail template.');
+define('_MAIL_FNAMENG','From Name tidak diset.');
+define('_MAIL_FEMAILNG','From Email tidak diset.');
+define('_MAIL_SENDMAILNG','Tidak dapat hantar emel kepada %s.');
+define('_MAIL_MAILGOOD','Emel dihantar kepada %s.');
+define('_MAIL_SENDPMNG','Tidak dapat menghantar mesej peribadi kepada %s.');
+define('_MAIL_PMGOOD','Mesej Peribadi dihantar kepada %s.');
 
 ?>

@@ -18,4 +18,4 @@ define('_CAPTCHA_RULE_TEXT','Masukkan keputusan operasi');
 /**
  * Error defines
  */
-define('_CAPTCHA_LOADFILEERROR','RALAT: Could not load file %u in file %s at line %s. ');
+define('_CAPTCHA_LOADFILEERROR','RALAT: Tidak dapat load file %u dalam fail %s di barisan %s. ');
