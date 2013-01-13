@@ -1,6 +1,6 @@
 <?php
 // $Id$
-// _LANGCODE: en
+// _LANGCODE: my
 // _CHARSET : UTF-8
 // Translator: XOOPS Translation Team
 
@@ -11,7 +11,7 @@ define("_PM_AM_ONLYREADMESSAGES","Hapus mesej yang telah dibaca sahaja");
 define("_PM_AM_INCLUDESAVE","Masukkan mesej yang disimpan dalam peti simpan pengguna");
 define("_PM_AM_NOTIFYUSERS","Maklumkan pengguna terlibat mengenai penghapusan mesej?");
 
-define("_PM_AM_MESSAGESPRUNED","%u Mesej telah dihapuskan");
+define("_PM_AM_MESSAGESPRUNED","%u mesej telah dihapuskan");
 define("_PM_AM_ERRORWHILEPRUNING","Terdapat ralat ketika operasi penghapusan");
 
 ?>
