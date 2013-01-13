@@ -1,11 +1,11 @@
 <?php
 // $Id$
-// _LANGCODE: en
+// _LANGCODE: my
 // _CHARSET : UTF-8
 // Translator: XOOPS Translation Team
 
 define("_PROFILE_MI_NAME","Profil Pengguna");
-define("_PROFILE_MI_DESC","Modul untuk menguruskan medan tambahan untuk profil pengguna");
+define("_PROFILE_MI_DESC","Module untuk menguruskan medan tambahan untuk profil pengguna");
 
 //Main menu links
 define("_PROFILE_MI_EDITACCOUNT","Edit Akaun");
@@ -52,7 +52,7 @@ define("_PROFILE_MI_CATEGORY_COMMUNITY","Komuniti");
 define("_PROFILE_MI_NEVER_LOGGED_IN","Tidak pernah Log Masuk");
 
 //1.62
-define("_PROFILE_MI_ABOUT","About");
-define("_PROFILE_MI_HOME","Home");
+define("_PROFILE_MI_ABOUT","Tentang");
+define("_PROFILE_MI_HOME","Utama");
 
 ?>

@@ -1,6 +1,6 @@
 <?php
 // $Id$
-// _LANGCODE: en
+// _LANGCODE: my
 // _CHARSET : UTF-8
 // Translator: XOOPS Translation Team
 
@@ -95,7 +95,7 @@ define("_PROFILE_MA_USERLEVEL","Tahap Pengguna");
 
 define("_PROFILE_MA_ACTIVE","Aktif");
 define("_PROFILE_MA_INACTIVE","Tidak aktif");
-define("_PROFILE_AM_USERCREATED","Pengguna Created");
+define("_PROFILE_AM_USERCREATED","Pengguna Dicipta");
 
 define("_PROFILE_AM_CANNOTDELETESELF","Menghapuskan akaun anda sendiri tidak dibenarkan - sila guna laman profil anda untuk menghapuskan akaun anda.");
 define("_PROFILE_AM_CANNOTDELETEADMIN","Menghapuskan akaun pentadbir adalah tidak dibenarkan");
@@ -111,15 +111,15 @@ define("_PROFILE_AM_STEPORDER","Susunan Langkah");
 define("_PROFILE_AM_STEPSAVE","Simpan selepas langkah");
 define("_PROFILE_AM_STEPINTRO","Keterangan Langkah");
 //1.62
-define('_PROFILE_AM_ACTION','Action');
+define('_PROFILE_AM_ACTION','Tindakan');
 //1.63
-define('_PROFILE_AM_REQUIRED_TOGGLE', 'Toggle Required Field');
-define('_PROFILE_AM_REQUIRED_TOGGLE_SUCCESS', 'Successfully Changed Required Field ');
-define('_PROFILE_AM_REQUIRED_TOGGLE_FAILED', 'Changing Required Field Failed');
+define('_PROFILE_AM_REQUIRED_TOGGLE', 'Toggle Medan yang diperlukan');
+define('_PROFILE_AM_REQUIRED_TOGGLE_SUCCESS', 'Berjaya menukar medan yang diperlukan ');
+define('_PROFILE_AM_REQUIRED_TOGGLE_FAILED', 'Gagal untuk menukar medan yang diperlukan');
 
-define('_PROFILE_AM_SAVESTEP_TOGGLE', 'Toggle Save');
-define('_PROFILE_AM_SAVESTEP_TOGGLE_SUCCESS', 'Successfully Changed Save After Step');
-define('_PROFILE_AM_SAVESTEP_TOGGLE_FAILED', "Changing 'Save After Step' Failed");
+define('_PROFILE_AM_SAVESTEP_TOGGLE', 'Toggle Simpan');
+define('_PROFILE_AM_SAVESTEP_TOGGLE_SUCCESS', 'Berjaya menukar Simpan selepas langkah');
+define('_PROFILE_AM_SAVESTEP_TOGGLE_FAILED', "Gagal menukar 'Simpan Selepas Langkah'");
 
 ?>
 
