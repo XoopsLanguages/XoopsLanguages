@@ -1,8 +1,11 @@
-<?php
+<?php   
 /**
  * ****************************************************************************
  *  - TDMCreate By TDM   - TEAM DEV MODULE FOR XOOPS
- *  - Licence GPL Copyright (c)  (http://www.xoops.org)
+ *  - Licence GPL Copyright (c)  (http://www.tdmxoops.net)
+ *  - Revision Copyright (c)  (http://www.txmodxoops.org)
+ *
+ * This license contains restrictions!!!
  *
  * You may not change or alter any portion of this comment or credits
  * of supporting developers from this source code or any supporting source code
@@ -13,25 +16,33 @@
  *
  * @license     TDM GPL license
  * @author		TDM TEAM DEV MODULE 
+ * @author      TXMod Xoops (info@txmodxoops.org)
  *
- * Version : 1.38 Thu 2012/04/12 14:04:25 : Timgno Exp $
+ * Version : 1.39 Tue 2012/02/14 16:20:18 : Timgno Exp $
  * ****************************************************************************
  */
-define("_MI_TDMCREATE_NAME","TDMCreate");
-define("_MI_TDMCREATE_DESC","Modulo di creazione moduli sviluppato da TDM Xoops");
+// Main
+define('_MI_TDMCREATE_NAME',"TDMCreate");
+define('_MI_TDMCREATE_DESC',"Questo modulo serve per creare altri moduli.");
+// Admin
+define('_MI_TDMCREATE_ADMIN_NAME',"TDMCreate");
+define('_MI_TDMCREATE_ADMIN_DESC',"Questo modulo esegue le seguenti operazioni:");
 //Menu
-define("_MI_TDMCREATE_ADMENU1","Indice");
-define("_MI_TDMCREATE_ADMENU2","Aggiungi modulo");
-define("_MI_TDMCREATE_ADMENU3","Aggiungi tabella");
-define("_MI_TDMCREATE_ADMENU4","Compila moduli");
-define("_MI_TDMCREATE_ADMENU5","Informazioni");
-// 1.37
-define("_MI_TDMCREATE_EDITOR","Editor");
-define("_MI_TDMCREATE_EDITOR_DESC","Seleziona un editor per scrivere");
-define('_MI_TDMCREATE_MAXSIZE',"Mime size");
-define('_MI_TDMCREATE_MAXSIZE_DESC',"Mime size per le immagini");
-define('_MI_TDMCREATE_MIMETYPES',"Mime Types");
-define('_MI_TDMCREATE_MIMETYPES_DESC',"Mime Types per le immagini");
-define("_MI_TDMCREATE_ADMINPERPAGE","Admin per pagina");
-define("_MI_TDMCREATE_ADMINPERPAGE_DESC","Setta un numbero di tabelle da visualizzare per pagina in admin.");
-?>
+define('_MI_TDMCREATE_ADMENU1',"Dashboard");
+define('_MI_TDMCREATE_ADMENU2',"Moduli");
+define('_MI_TDMCREATE_ADMENU3',"Tabelle");
+define('_MI_TDMCREATE_ADMENU4',"Lingue");
+define('_MI_TDMCREATE_ADMENU5',"Css");
+define('_MI_TDMCREATE_ADMENU6',"Changelog");
+define('_MI_TDMCREATE_ADMENU7',"Costruisci");
+define('_MI_TDMCREATE_ADMENU8',"File Manager");
+define('_MI_TDMCREATE_ADMENU9',"Leggimi");
+define('_MI_TDMCREATE_ADMENU10',"Informazioni");
+
+//Config
+define('_MI_TDMCREATE_EDITOR',"Editor");
+define('_MI_TDMCREATE_EDITOR_DESC',"Selezionare il tipo di editor da utilizzare per textarea");
+define('_MI_TDMCREATE_ADMINPERPAGE',"Admin Per pagina");
+define('_MI_TDMCREATE_ADMINPERPAGE_DESC',"Risultati delle liste da visualizzare per pagina Admin");
+define('_MI_TDMCREATE_SIZE',"File Size");
+define('_MI_TDMCREATE_MIMETYPES',"Mime types");
