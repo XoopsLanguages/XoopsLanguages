@@ -73,3 +73,9 @@ td#mainmenu a.menuSub {
 .floatright {
 	float: left !important;
 }
+.left {
+	text-align: right !important;
+}
+.right {
+	text-align: left !important;
+}
