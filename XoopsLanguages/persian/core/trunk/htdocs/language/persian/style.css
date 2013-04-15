@@ -79,3 +79,7 @@ td#mainmenu a.menuSub {
 .right {
 	text-align: left !important;
 }
+.txtchangelog {
+		direction: ltr;
+	text-align: left;
+}

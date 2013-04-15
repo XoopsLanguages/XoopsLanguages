@@ -259,27 +259,16 @@ function monthname($month)
 }
 
 ////here convert to  number in persian
-function Convertnumber2farsi($srting)
+function Convertnumber2farsi($number)
 {
 	$stringtemp="";
-	$len=strlen($srting);
-	for($sub=0;$sub<$len;$sub++)
-	{
-	 if(substr($srting,$sub,1)=="0")$stringtemp.=_JDF_Num0;
-	 elseif(substr($srting,$sub,1)=="1")$stringtemp.=_JDF_Num1;
-	 elseif(substr($srting,$sub,1)=="2")$stringtemp.=_JDF_Num2;
-	 elseif(substr($srting,$sub,1)=="3")$stringtemp.=_JDF_Num3;
-	 elseif(substr($srting,$sub,1)=="4")$stringtemp.=_JDF_Num4;
-	 elseif(substr($srting,$sub,1)=="5")$stringtemp.=_JDF_Num5;
-	 elseif(substr($srting,$sub,1)=="6")$stringtemp.=_JDF_Num6;
-	 elseif(substr($srting,$sub,1)=="7")$stringtemp.=_JDF_Num7;
-	 elseif(substr($srting,$sub,1)=="8")$stringtemp.=_JDF_Num8;
-	 elseif(substr($srting,$sub,1)=="9")$stringtemp.=_JDF_Num9;
-	 else {$stringtemp.=substr($srting,$sub,2);$sub++;}
-
+	$englishNums = range(0,9);	
+	$len=strlen($number);
+	for($sub=0;$sub<$len;$sub++) {
+		$received_number_array[$sub] = substr($number,$sub,1);
+		if(in_array($received_number_array[$sub], $englishNums)) $stringtemp.=constant("_JDF_Num" . $received_number_array[$sub]);		
 	}
-return   $stringtemp;
-
+	return   $stringtemp;
 }///end convert to number in persian
 
 ////here convert to  number in english
