@@ -46,8 +46,13 @@ class XoopsCaptchaText extends XoopsCaptchaMethod
  	    xoops_load('XoopsLocal');
         $val_a = rand(0, 9);
         $val_b = rand(0, 9);
-        $expression = "{".XoopsLocal::number_format($val_a)."} + {".XoopsLocal::number_format($val_b)."} = ?";
-        $this->code = $val_a + $val_b;
+        if ($val_a > $val_b) {
+			$expression = "{".XoopsLocal::number_format($val_a)."} - {".XoopsLocal::number_format($val_b)."} = ?";
+            $this->code = $val_a - $val_b;
+        } else {
+			$expression = "{".XoopsLocal::number_format($val_a)."} + {".XoopsLocal::number_format($val_b)."} = ?";
+            $this->code = $val_a + $val_b;
+        }
         return '<span style="font-style: normal; font-weight: bold; font-size: 100%; font-color: #333; border: 1px solid #333; padding: 1px 5px;">'.$expression.'</span>';
     }
 }

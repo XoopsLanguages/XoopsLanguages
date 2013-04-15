@@ -6,6 +6,8 @@
 //default: 1
 //set 1 if you want translate number to farsi. if you don't like set 0
 define("_JDF_USE_PERSIANNUM","1");
+define("_NUM_TYPE","figure"); // you can choose "figure","word","image" 
+
 //default: 1
 //set 1 if you want to use hegira date in persian language. if you don't like set 0
 define("_JDF_USE_HEGIRADATE","1");

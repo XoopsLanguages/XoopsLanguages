@@ -1,6 +1,14 @@
 changelog:
 =======================================
 
+Xoops 2.5.6
+- add convert numbers into words in english and persian in ./htdocs/language/english/locale.php,
+	./htdocs/language/persian/locale.php, ./htdocs/language/persian/locale.lang.php, ./htdocs/language/persian/locale.config.php
+- rewrite Convertnumber2farsi in ./htdocs/language/persian/date/jdf.php
+- add (-) to ./htdocs/class/captcha/text.php
+- add .left .right .txtchangelog classes to ./htdocs/language/persian/style.css
+
+
 Xoops 2.5.5 date: 2012.05.22
 - move jalali month names from ./htdocs/language/persian/calendar.php to ./htdocs/language/persian/locale.lang.php
 - change line feeds to LF UNIX for all files.
