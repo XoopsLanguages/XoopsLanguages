@@ -2,6 +2,14 @@ changelog:
 =======================================
 
 Xoops 2.5.6
+- bug fix: http://sourceforge.net/p/xoops/bugs/1226/ disable CaricFoto js in class/textsanitizer/image/config.php
+- bug fix: http://sourceforge.net/p/xoops/bugs/1225/ xoopsUserTheme is not regenerate if remember me was checked in login in include/common.php
+- bug fix: http://sourceforge.net/p/xoops/bugs/1261/ footer is not loaded after header in header.php
+- bug fix: http://sourceforge.net/p/xoops/bugs/1220/ xoops_getConfigOption('language') is wrongly return in include/functions.php around line 926
+- show real name instead of uname in modules/system/blocks/system_blocks.php
+- change default savecopy to true in modules/pm/pmlite.php
+- increasing the uname size from 25 to 50 in kernel/user.php
+- add EmailLogin hack in include/checklogin.php
 - add convert numbers into words in english and persian in ./htdocs/language/english/locale.php,
 	./htdocs/language/persian/locale.php, ./htdocs/language/persian/locale.lang.php, ./htdocs/language/persian/locale.config.php
 - rewrite Convertnumber2farsi in ./htdocs/language/persian/date/jdf.php
