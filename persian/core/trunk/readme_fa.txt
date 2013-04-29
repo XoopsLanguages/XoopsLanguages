@@ -3,7 +3,7 @@
 // _CHARSET : UTF-8
 // Line feed: LF UNIX
 // Translator: XOOPS Translation Team
-XOOPS 2.5.5 persian language:
+XOOPS 2.5.6 persian language:
 
 Installing or Upgrade from any previous version
 -----------------------------------
