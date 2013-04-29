@@ -2,6 +2,7 @@ changelog:
 =======================================
 
 Xoops 2.5.6
+- bug fix: http://sourceforge.net/p/xoops/bugs/1263/ xoModuleIcons32 cannot show the image link in class/smarty/xoops_plugins/compiler.xoModuleIcons32.php
 - bug fix: http://sourceforge.net/p/xoops/bugs/1226/ disable CaricFoto js in class/textsanitizer/image/config.php
 - bug fix: http://sourceforge.net/p/xoops/bugs/1225/ xoopsUserTheme is not regenerate if remember me was checked in login in include/common.php
 - bug fix: http://sourceforge.net/p/xoops/bugs/1261/ footer is not loaded after header in header.php
