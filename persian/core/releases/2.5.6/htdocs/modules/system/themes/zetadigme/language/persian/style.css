@@ -1,0 +1,58 @@
+/* ----- RTL EXM Admin layout ----- */ /* $Id */
+body {
+	font-family: Tahoma !important;
+}
+
+table,table td,table tr,ul,li,div.content,div#containBodyCP {
+	direction: rtl !important;
+	text-align: right !important;
+}
+
+input,textarea,input.formTextBox,select {
+	font: 11px tahoma !important;
+}
+
+div.confirmMsg {
+	text-align: center !important;
+}
+
+/*================================================================*/
+div#navbarCP {
+	font: 11px Tahoma !important;
+	direction: rtl !important;
+	text-align: right !important;
+}
+
+div#navbarCP ul li {
+	float: right !important;
+	margin-right: 3px !important;
+}
+
+div#navOptionsCP a {
+	float: left !important;
+	margin-left: 2px !important;
+}
+
+div.cpicon a,div.cpicon a:hover {
+	direction: rtl !important;
+	text-align: center !important;
+	float: right !important;
+}
+
+div.confirmMsg {
+	direction: rtl !important;
+}
+
+div#navOptionsCP .modname {
+	float: right !important;
+}
+
+/* fix menu in ie7 */
+div#navbarCP ul li ul {
+	right: 0 !important;
+}
+
+table.tablesorter thead tr .header,table.tablesorter thead tr .headerSortUp,table.tablesorter thead tr .headerSortDown
+	{
+	background-position: center left !important;
+}

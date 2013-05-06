@@ -1,0 +1,142 @@
+changelog:
+=======================================
+
+Xoops 2.5.6
+- add definitions for fast comment hack: define('_CM_USER','Name'); define('_CM_EMAIL','Email'); define('_CM_URL','Website'); in language/persian/comment.php
+- bug fix: http://sourceforge.net/p/xoops/bugs/1263/ xoModuleIcons32 cannot show the image link in class/smarty/xoops_plugins/compiler.xoModuleIcons32.php
+- bug fix: http://sourceforge.net/p/xoops/bugs/1226/ disable CaricFoto js in class/textsanitizer/image/config.php
+- bug fix: http://sourceforge.net/p/xoops/bugs/1225/ xoopsUserTheme is not regenerate if remember me was checked in login in include/common.php
+- bug fix: http://sourceforge.net/p/xoops/bugs/1261/ footer is not loaded after header in header.php
+- bug fix: http://sourceforge.net/p/xoops/bugs/1220/ xoops_getConfigOption('language') is wrongly return in include/functions.php around line 926
+- show real name instead of uname in modules/system/blocks/system_blocks.php
+- change default savecopy to true in modules/pm/pmlite.php
+- increasing the uname size from 25 to 50 in kernel/user.php
+- add EmailLogin hack in include/checklogin.php
+- add convert numbers into words in english and persian in ./htdocs/language/english/locale.php,
+	./htdocs/language/persian/locale.php, ./htdocs/language/persian/locale.lang.php, ./htdocs/language/persian/locale.config.php
+- rewrite Convertnumber2farsi in ./htdocs/language/persian/date/jdf.php
+- add (-) to ./htdocs/class/captcha/text.php
+- add .left .right .txtchangelog classes to ./htdocs/language/persian/style.css
+
+
+Xoops 2.5.5 date: 2012.05.22
+- move jalali month names from ./htdocs/language/persian/calendar.php to ./htdocs/language/persian/locale.lang.php
+- change line feeds to LF UNIX for all files.
+- remove ucfirst from jdate function in ./htdocs/language/persian/locale.php line 145
+- add Convertnumber2farsi to number_format local function in ./htdocs/language/persian/locale.php
+- add inputTimeToGregorian to strtotime local function in ./htdocs/language/persian/locale.php
+- add locale.config.php and locale.lang.php / remove lang_jdf.php therefore all definitions moved to more apprehensible places.
+- hack 2 core files: config.php and text.php located in ./htdocs/class/captcha to enable farsi math captcha for persians
+  I hope in the future versions core developers move all possible configurations into the database.
+
+file changelog from 2.5.3:
+
+- new: 
+locale.lang.php			./htdocs/language/persian	New
+locale.config.php		./htdocs/language/persian	New
+text.php (core hardcoded)	./htdocs/class/captcha		New
+config.php (core hardcoded)	./htdocs/class/captcha		New
+
+- modified:
+modinfo.php	./htdocs/xoops_lib/modules/protector/language/persian	Modified
+admin.php	./htdocs/xoops_lib/modules/protector/language/persian	Modified
+install.php	./htdocs/install/language/persian	Modified
+main.php	./htdocs/Frameworks/moduleclasses/moduleadmin/language/persian	Modified
+user.php	./htdocs/language/persian	Modified
+pmsg.php	./htdocs/language/persian	Modified
+global.php	./htdocs/language/persian	Modified
+findusers.php	./htdocs/language/persian	Modified
+calendar.php	./htdocs/language/persian	Modified
+modinfo.php	./htdocs/modules/pm/language/persian	Modified
+main.php	./htdocs/modules/pm/language/persian	Modified
+modinfo.php	./htdocs/modules/profile/language/persian	Modified
+admin.php	./htdocs/modules/profile/language/persian	Modified
+admin.php	./htdocs/modules/system/language/persian	Modified
+users.php	./htdocs/modules/system/language/persian/admin	Modified
+locale.php	./htdocs/language/persian	Modified
+preferences.php	./htdocs/modules/system/language/persian/admin	Modified
+jdf.php		./htdocs/language/persian/date	Modified
+
+- deleted:
+- lang_jdf.php ./htdocs/language/persian/date		Deleted
+
+
+Legend :
++ Added
+- Removed
+* Modified
+x renamed
+
+=================================
+version 2.3.4
+=================================
++ add language files :
+  htdocs/language/persian/errors.php
+ 
+  modules/profile/language/persian/modinfo.php
+  * LOGGED_IN
+  
+  modules/profile/language/persian/globalphp
+  + _RESET
+  all language fails has change whit catzwolf updates 
+=================================
+version 2.3.3
+=================================
+--------------------------------
+
++ add main solution for rtl languages 
++ add styel for rtl in tinymac 
+---------------------------------
+languages files : 
+
+  installer system
+* language and css files from installer system updated to version 2.3.3 
+  
+  htdocs/language/persian/admin.php
++ _AD_WARNINNOTWRITEABLE
++ _AD_WARNINXOOPSLIBINSIDE
++ _AD_WARNINGWRITEABLE
++ _AD_WARNINGINSTALL
+
+  htdocs/language/persian/global.php
+- _WARNINGWRITEABLE
+- _WARNINGINSTALL
++ _REQUIRED
+
+  htdocs/modules/system/language/persian/admin/user.php
+* _AM_USERPOST
+ 
+  htdocs/modules/system/language/persian/admin.php
+* _MD_AM_RANK
+* _MD_AM_MLUS
+* _MD_AM_IMAGES
+* _MD_AM_AVATARS
+
+  htdocs/modules/system/language/persian/cpanel.php
+* _MD_CPANEL_VERSION
+ 
+ htdocs/modules/system/language/persian/modinfo.php
+* _MI_SYSTEM_ADMENU1
+* _MI_SYSTEM_ADMENU7
+* _MI_SYSTEM_ADMENU11
+* _MI_SYSTEM_ADMENU13
+* _MI_SYSTEM_ADMENU14
+
+  htdocs/modules/profile/language/persian/admin.php
+* _PROFILE_AM_PROF_ACCESS_DESC
+
+  htdocs/modules/system/language/persian/admin/preferences.php
+* _MD_AM_MODULEPREF
+
+
++ Added language files:
+  /language/persian/backend.php 
+  /language/persian/style.css 
+  /themes/zetagenesis/language/persian/ 
+  /themes/zetagenesis/language/persian/main.php 
+  /themes/zetagenesis/language/persian/script.js 
+  /themes/zetagenesis/language/persian/style.css 
+  /upgrade/language/persian/style.css 
+--------------------------------
+other modules 
+- update protector language files to version 3.22
