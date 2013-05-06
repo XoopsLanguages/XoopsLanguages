@@ -1,0 +1,26 @@
+body {
+	font-family: Tahoma !important;
+}
+
+table,table td,table tr,ul,li,div.content {
+	direction: rtl !important;
+	text-align: right !important;
+}
+
+input,textarea,input.formTextBox,select {
+	font: 11px tahoma !important;
+}
+
+#overview {
+	direction: ltr !important;
+	text-align: left !important;
+}
+
+div.confirmMsg {
+	text-align: center !important;
+}
+
+table.tablesorter thead tr .header,table.tablesorter thead tr .headerSortUp,table.tablesorter thead tr .headerSortDown
+	{
+	background-position: center left !important;
+}
