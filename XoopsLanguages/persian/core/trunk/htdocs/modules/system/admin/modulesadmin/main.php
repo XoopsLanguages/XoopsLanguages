@@ -536,6 +536,7 @@ switch ($op) {
                             $type = 'css';
                         }
 						$criteria = new CriteriaCompo();
+						$criteria->add(new Criteria("tpl_refid", $newmid), "AND");
 						$criteria->add(new Criteria("tpl_module", $dirname), "AND");
 						$criteria->add(new Criteria("tpl_tplset", 'default'), "AND");
 						$criteria->add(new Criteria("tpl_file", $tpl['file']), "AND");
