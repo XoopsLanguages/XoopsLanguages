@@ -512,7 +512,7 @@ CREATE TABLE tplfile (
   PRIMARY KEY  (tpl_id),
   KEY tpl_refid (tpl_refid,tpl_type),
   KEY tpl_tplset (tpl_tplset,tpl_file(10)),
-  UNIQUE module_set_file_type (tpl_module, tpl_tplset, tpl_file, tpl_type)
+  UNIQUE tpl_refid_module_set_file_type (tpl_refid, tpl_module, tpl_tplset, tpl_file, tpl_type)
 ) ENGINE=MyISAM;
 # --------------------------------------------------------
 

@@ -42,7 +42,7 @@ function xoops_module_update_system(&$module, $prev_version = null) {
 // irmtfan bug fix: solve templates duplicate issue
 function update_system_v211(&$module) {
 		global $xoopsDB;
-        $result = $xoopsDB->query("SELECT t1.tpl_id FROM ".$xoopsDB->prefix('tplfile')." t1, ".$xoopsDB->prefix('tplfile')." t2 WHERE t1.tpl_module = t2.tpl_module AND t1.tpl_tplset=t2.tpl_tplset AND t1.tpl_file = t2.tpl_file AND t1.tpl_type = t2.tpl_type AND t1.tpl_id > t2.tpl_id");
+        $result = $xoopsDB->query("SELECT t1.tpl_id FROM ".$xoopsDB->prefix('tplfile')." t1, ".$xoopsDB->prefix('tplfile')." t2 WHERE t1.tpl_refid = t2.tpl_refid AND t1.tpl_module = t2.tpl_module AND t1.tpl_tplset=t2.tpl_tplset AND t1.tpl_file = t2.tpl_file AND t1.tpl_type = t2.tpl_type AND t1.tpl_id > t2.tpl_id");
         $tplids = array();
         while (list($tplid) = $xoopsDB->fetchRow($result)) {
             $tplids[] = $tplid;
@@ -57,15 +57,23 @@ function update_system_v211(&$module) {
                 }
             }
         }
-        $sql = "SHOW INDEX FROM ".$xoopsDB->prefix('tplfile'). " WHERE KEY_NAME = 'module_set_file_type'";
-        if ($result = $xoopsDB->queryF($sql)) {
-			$module->setErrors("'module_set_file_type' unique index is exist. Note: check 'tplfile' table to be sure this index is UNIQUE because XOOPS CORE need it.");
+        $sql = "SHOW INDEX FROM ".$xoopsDB->prefix('tplfile'). " WHERE KEY_NAME = 'tpl_refid_module_set_file_type'";
+        if (!$result = $xoopsDB->queryF($sql)) {
+    		xoops_error($this->db->error().'<br />'.$sql);
+    		return false;
+    	}
+        $ret = array();
+        while ($myrow = $xoopsDB->fetchArray($result)) {
+			$ret[] = $myrow;
+		}
+        if (!empty($ret)) {
+			$module->setErrors("'tpl_refid_module_set_file_type' unique index is exist. Note: check 'tplfile' table to be sure this index is UNIQUE because XOOPS CORE need it.");
 			return true;
     	}
-        $sql = "ALTER TABLE " .$xoopsDB->prefix('tplfile'). " ADD UNIQUE module_set_file_type ( tpl_module, tpl_tplset, tpl_file, tpl_type )";
+        $sql = "ALTER TABLE " .$xoopsDB->prefix('tplfile'). " ADD UNIQUE tpl_refid_module_set_file_type ( tpl_refid, tpl_module, tpl_tplset, tpl_file, tpl_type )";
         if (!$result = $xoopsDB->queryF($sql)) {
     		xoops_error($xoopsDB->error().'<br />'.$sql);
-			$module->setErrors("'module_set_file_type' unique index is not added to 'tplfile' table. Warning: do not use XOOPS until you add this unique index.");
+			$module->setErrors("'tpl_refid_module_set_file_type' unique index is not added to 'tplfile' table. Warning: do not use XOOPS until you add this unique index.");
 			return false;
     	}
 		return true;
