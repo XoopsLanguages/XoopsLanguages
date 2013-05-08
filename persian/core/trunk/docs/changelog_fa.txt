@@ -1,7 +1,13 @@
 changelog:
 =======================================
-- bug fix: https://sourceforge.net/p/xoops/bugs/1270/ templates duplicate issue.
+- bug fix: https://sourceforge.net/p/xoops/bugs/1270/ templates duplicate issue. in 
+1- xoops256/modules/system/admin/modulesadmin/main.php
+2- xoops256/modules/system/include/update.php
+3- xoops256/modules/system/xoops_version.php
+4- xoops256/install/sql/mysql.structure.sql
+
 - bug fix: https://sourceforge.net/p/xoops/bugs/1269/ block template file will not updated after update the module in htdocs/modules/system/admin/modulesadmin/main.php
+- bug fix: https://sourceforge.net/p/xoops/bugs/1268 bad hard-coded query: $member_handler->getUserList($criteria) in XOOPS256|Xoops26/kernel/member.php
 Xoops 2.5.6
 - add definitions for fast comment hack: define('_CM_USER','Name'); define('_CM_EMAIL','Email'); define('_CM_URL','Website'); in language/persian/comment.php
 - bug fix: http://sourceforge.net/p/xoops/bugs/1263/ xoModuleIcons32 cannot show the image link in class/smarty/xoops_plugins/compiler.xoModuleIcons32.php
