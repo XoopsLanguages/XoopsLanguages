@@ -51,7 +51,7 @@ define("_AM_SYSTEM_MODULES_OKUPD","Modulo %s aggiornato con successo.");
 define("_AM_SYSTEM_MODULES_OKUNINS","Modulo %s disinstallato con successo.");
 define("_AM_SYSTEM_MODULES_OKORDER","Modulo %s modificato con successo.");
 
-define("_AM_SYSTEM_MODULES_MODULE","Moudulo");
+define("_AM_SYSTEM_MODULES_MODULE","Modulo");
 define("_AM_SYSTEM_MODULES_VERSION","Versione");
 define("_AM_SYSTEM_MODULES_LASTUP","Ultimo aggiornamento");
 define("_AM_SYSTEM_MODULES_DEACTIVATED","Disattivato");
