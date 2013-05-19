@@ -1,0 +1,13 @@
+<div id="help-template" class="outer">
+<h1 class="head">Guida: Gestione Immagini</h1>
+
+<h4 class="odd">Descrizione</h4>
+<p class="even">
+La Gestione Immagini &egrave; uno strumento che permette di caricare, organizzare e visualizzare le immagini da utilizzare all'interno del sito.<br />
+&Egrave; necessario configurarlo prima di poterlo utilizzare, prima di tutto creando alcune categorie per archiviare le immagini e secondariamente impostando preferenze come le dimensioni massime consentite e i diritti di accesso di ciascun gruppo. Ciascuna categoria pu&ograve; essere configuratga sepratamente.
+<br /><br />
+
+Le immagini possono essere suddivise e caricate direttamente nella gestione immagini con un semplice click attraverso un browser, permettendo cos&igrave; un inserimento immediato nei contenuti. Sono disponibili diverse opzioni per controlare la largehzza/altezza delle immagini, le dimensioni del file e le modalit&agrave;di accesso dei diversi gruppi.
+</p>
+
+</div>
