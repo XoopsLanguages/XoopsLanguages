@@ -45,7 +45,7 @@ define('_CM_COMAPPROVEALL','I commenti vengono automaticamente approvati.');
 define('_CM_COMAPPROVEUSER','I commenti inviati da utenti registrati vengono automaticamente approvati.');
 define('_CM_COMAPPROVEADMIN','Tutti i commenti richiedono l\'approvazione da parte di un amministratore.');
 define('_CM_COMANONPOST','Consentire l\'invio di commenti agli utenti anonimi?');
-define('_CM_COMNOCOM','Commenti disabilitati')
+define('_CM_COMNOCOM','Commenti disabilitati');
 
 define('_CM_USER','Nome');
 define('_CM_EMAIL','Email');
