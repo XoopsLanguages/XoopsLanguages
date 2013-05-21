@@ -16,8 +16,10 @@ setlocale(LC_ALL, 'it_IT');
 // ATTENZIONE! NON MODIFCARE SE NON SI E' ESPERTI
 // !!IMPORTANT!! insert '\' before any char among reserved chars: "a","A","B","c","d","D","F","g","G","h","H","i","I","j","l","L","m","M","n","O","r","s","S","t","T","U","w","W","Y","y","z","Z"    
 // insert double '\' before 't','r','n'
-define("_TODAY","\O\g\g\i\ \a\l\l\e\ G:i");
-define("_YESTERDAY","\I\e\\r\i\ \a\l\l\e\ G:i");
+//define("_TODAY","\O\g\g\i\ \a\l\l\e\ G:i");
+//define("_YESTERDAY","\I\e\\r\i\ \a\l\l\e\ G:i");
+define("_TODAY",'\O\g\g\i\ \a\l\l\e\ G:i');
+define("_YESTERDAY",'\I\e\r\i\ \a\l\l\e\ G:i');
 define("_MONTHDAY","j/n G:i");
 define("_YEARMONTHDAY","j/n/Y G:i");
 define("_ELAPSE","%s fa");
