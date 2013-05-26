@@ -24,161 +24,12 @@ you can find more about it in http://jdf.farsiprojects.com
 ////////     //        \\   //     /////////
 
 */
+include_once dirname(__FILE__) . '/jalali.php';
 
 function jdate($type,$maket="now")
 {
-	$result="";
-	if($maket=="now"){
-		$year=date("Y");
-		$month=date("m");
-		$day=date("d");
-		list( $jyear, $jmonth, $jday ) = gregorian_to_jalali($year, $month, $day);
-		$maket=jmaketime(date("h")+_JDF_TZhours,date("i")+_JDF_TZminute,date("s"),$jmonth,$jday,$jyear);
-	}else{
-		$maket+=_JDF_TZhours*3600+_JDF_TZminute*60;
-		$date=date("Y-m-d",$maket);
-		list( $year, $month, $day ) = preg_split ( '/-/', $date );
-
-		list( $jyear, $jmonth, $jday ) = gregorian_to_jalali($year, $month, $day);
-		}
-
-	$need= $maket;
-	$year=date("Y",$need);
-	$month=date("m",$need);
-	$day=date("d",$need);
-	$i=0;
-	while($i<strlen($type))
-	{
-		$subtype=substr($type,$i,1);
-		switch ($subtype)
-		{
-
-			case "A":
-				$result1=date("a",$need);
-				if($result1=="pm") $result.=_JDF_PM_LONG;
-				else $result.=_JDF_AM_LONG;
-				break;
-
-			case "a":
-				$result1=date("a",$need);
-				if($result1=="pm") $result.=_JDF_PM_SHORT;
-				else $result.=_JDF_AM_SHORT;
-				break;
-			case "d":
-				list( $jyear, $jmonth, $jday ) = gregorian_to_jalali($year, $month, $day);
-				if($jday<10)$result1="0".$jday;
-				else 	$result1=$jday;
-				if(_JDF_USE_PERSIANNUM) $result.=Convertnumber2farsi($result1);
-				else $result.=$result1;
-				break;
-			case "D":
-				$result1=date("D",$need);
-				if($result1=="Sat") $result1=_JDF_Sat_SHORT;
-				else if($result1=="Sun") $result1=_JDF_Sun_SHORT;
-				else if($result1=="Mon") $result1=_JDF_Mon_SHORT;
-				else if($result1=="Tue") $result1=_JDF_Tue_SHORT;
-				else if($result1=="Wed") $result1=_JDF_Wed_SHORT;
-				else if($result1=="Thu") $result1=_JDF_Thu_SHORT;
-                                else if($result1=="Fri") $result1=_JDF_Fri_SHORT;
-				$result.=$result1;
-				break;
-			case"F":
-				list( $jyear, $jmonth, $jday ) = gregorian_to_jalali($year, $month, $day);
-				$result.=monthname($jmonth);
-				break;
-			case "g":
-				$result1=date("g",$need);
-				if(_JDF_USE_PERSIANNUM) $result.=Convertnumber2farsi($result1);
-				else $result.=$result1;
-				break;
-			case "G":
-				$result1=date("G",$need);
-				if(_JDF_USE_PERSIANNUM) $result.=Convertnumber2farsi($result1);
-				else $result.=$result1;
-				break;
-				case "h":
-				$result1=date("h",$need);
-				if(_JDF_USE_PERSIANNUM) $result.=Convertnumber2farsi($result1);
-				else $result.=$result1;
-				break;
-			case "H":
-				$result1=date("H",$need);
-				if(_JDF_USE_PERSIANNUM) $result.=Convertnumber2farsi($result1);
-				else $result.=$result1;
-				break;
-			case "i":
-				$result1=date("i",$need);
-				if(_JDF_USE_PERSIANNUM) $result.=Convertnumber2farsi($result1);
-				else $result.=$result1;
-				break;
-			case "j":
-				list( $jyear, $jmonth, $jday ) = gregorian_to_jalali($year, $month, $day);
-				$result1=$jday;
-				if(_JDF_USE_PERSIANNUM) $result.=Convertnumber2farsi($result1);
-				else $result.=$result1;
-				break;
-			case "l":
-				$result1=date("l",$need);
-				if($result1=="Saturday") $result1=_JDF_Sat_LONG;
-				else if($result1=="Sunday") $result1=_JDF_Sun_LONG;
-				else if($result1=="Monday") $result1=_JDF_Mon_LONG;
-				else if($result1=="Tuesday") $result1=_JDF_Tue_LONG;
-				else if($result1=="Wednesday") $result1=_JDF_Wed_LONG;
-				else if($result1=="Thursday") $result1=_JDF_Thu_LONG;
-				else if($result1=="Friday") $result1=_JDF_Fri_LONG;
-				$result.=$result1;
-				break;
-			case "m":
-				list( $jyear, $jmonth, $jday ) = gregorian_to_jalali($year, $month, $day);
-				if($jmonth<10) $result1="0".$jmonth;
-				else	$result1=$jmonth;
-				if(_JDF_USE_PERSIANNUM) $result.=Convertnumber2farsi($result1);
-				else $result.=$result1;
-				break;
-			case "M":
-				list( $jyear, $jmonth, $jday ) = gregorian_to_jalali($year, $month, $day);
-				$result.=monthname($jmonth);
-				break;
-			case "n":
-				list( $jyear, $jmonth, $jday ) = gregorian_to_jalali($year, $month, $day);
-				$result1=$jmonth;
-				if(_JDF_USE_PERSIANNUM) $result.=Convertnumber2farsi($result1);
-				else $result.=$result1;
-				break;
-			case "s":
-				$result1=date("s",$need);
-				if(_JDF_USE_PERSIANNUM) $result.=Convertnumber2farsi($result1);
-				else $result.=$result1;
-				break;
-			case "S":
-				$result.=_JDF_Suffix;
-				break;
-			case "t":
-				$result.=lastday ($month,$day,$year);
-				break;
-			case "w":
-				$result1=date("w",$need);
-				if(_JDF_USE_PERSIANNUM) $result.=Convertnumber2farsi($result1);
-				else $result.=$result1;
-				break;
-			case "y":
-				list( $jyear, $jmonth, $jday ) = gregorian_to_jalali($year, $month, $day);
-				$result1=substr($jyear,2,4);
-				if(_JDF_USE_PERSIANNUM) $result.=Convertnumber2farsi($result1);
-				else $result.=$result1;
-				break;
-			case "Y":
-				list( $jyear, $jmonth, $jday ) = gregorian_to_jalali($year, $month, $day);
-				$result1=$jyear;
-				if(_JDF_USE_PERSIANNUM) $result.=Convertnumber2farsi($result1);
-				else $result.=$result1;
-				break;
-			default:
-				$result.=$subtype;
-		}
-	$i++;
-	}
-	return $result;
+    $GLOBALS['xoopsLogger']->addDeprecated("Function " . __FUNCTION__ . "() is deprecated, use XoopsLocaleJalali::jdate() instead");
+    return XoopsLocaleJalali::jdate($type,$maket);
 }
 
 
@@ -259,41 +110,20 @@ function monthname($month)
 }
 
 ////here convert to  number in persian
+// http://www.phpclasses.org/package/6626-PHP-Convert-numbers-to-Arabic-representation.html
 function Convertnumber2farsi($number)
 {
-	$stringtemp="";
-	$englishNums = range(0,9);	
-	$len=strlen($number);
-	for($sub=0;$sub<$len;$sub++) {
-		$received_number_array[$sub] = substr($number,$sub,1);
-		if(in_array($received_number_array[$sub], $englishNums)) $stringtemp.=constant("_JDF_Num" . $received_number_array[$sub]);		
-	}
-	return   $stringtemp;
+    $GLOBALS['xoopsLogger']->addDeprecated("Function " . __FUNCTION__ . "() is deprecated, use XoopsLocaleJalali::Convertnumber2farsi() instead");
+    xoops_load("XoopsUserUtility");
+    return XoopsLocaleJalali::Convertnumber2farsi($number);
 }///end convert to number in persian
-
 ////here convert to  number in english
-function Convertnumber2english($srting)
+function Convertnumber2english($number)
 {
-	$stringtemp="";
-	$len=strlen($srting);
+    $GLOBALS['xoopsLogger']->addDeprecated("Function " . __FUNCTION__ . "() is deprecated, use XoopsLocaleJalali::Convertnumber2english() instead");
+    return XoopsLocaleJalali::Convertnumber2english($number);
+}
 
-	for($sub=0;$sub<$len;$sub+=2)
-	{
-	 if(substr($srting,$sub,2)==_JDF_Num0)$stringtemp.="0";
-	 elseif(substr($srting,$sub,2)==_JDF_Num1)$stringtemp.="1";
-	 elseif(substr($srting,$sub,2)==_JDF_Num2)$stringtemp.="2";
-	 elseif(substr($srting,$sub,2)==_JDF_Num3)$stringtemp.="3";
-         elseif(substr($srting,$sub,2)==_JDF_Num4)$stringtemp.="4";
-	 elseif(substr($srting,$sub,2)==_JDF_Num5)$stringtemp.="5";
-	 elseif(substr($srting,$sub,2)==_JDF_Num6)$stringtemp.="6";
-	 elseif(substr($srting,$sub,2)==_JDF_Num7)$stringtemp.="7";
-	 elseif(substr($srting,$sub,2)==_JDF_Num8)$stringtemp.="8";
-	 elseif(substr($srting,$sub,2)==_JDF_Num9)$stringtemp.="9";
-	 else {$stringtemp.=substr($srting,$sub,1);$sub--;}
-     }
-return   $stringtemp;
-
-}///end convert to number in english
 
 // "jalali.php" is convertor to and from Gregorian and Jalali calendars.
 // Copyright (C) 2000  Roozbeh Pournader and Mohammad Toossi
@@ -417,26 +247,6 @@ function jalali_to_gregorian($j_y, $j_m, $j_d)
  */
 function inputTimeToGregorian($usertime)
 {
-
-    list( $jfdate, $ftime) = preg_split ( '/ /', $usertime );
-    list( $fhour, $fminut, $fsec ) =  preg_split ( '/:/', $ftime);
-    // convert persian numbers to english if exist
-    $hour=Convertnumber2english($fhour);
-    $minut=Convertnumber2english($fminut);
-    $sec=Convertnumber2english($fsec);
-    list( $jfyear, $jfmonth, $jfday ) =  preg_split ( '/-/', $jfdate);
-    // convert persian numbers to english if exist
-    $jyear=Convertnumber2english($jfyear);
-    $jmonth=Convertnumber2english($jfmonth);
-    $jday=Convertnumber2english($jfday);
-
-    if (_JDF_USE_HEGIRADATE) {
-        $maket=jmaketime($hour - _JDF_TZhours,$minut - _JDF_TZminute,$sec,$jmonth,$jday,$jyear);
-    } else {
-        $maket=mktime($hour,$minut,$sec,$jmonth,$jday,$jyear);
-    }
-    $usertime=date("Y-m-d H:i:s",$maket);
-    return $usertime;
+    $GLOBALS['xoopsLogger']->addDeprecated("Function " . __FUNCTION__ . "() is deprecated, use XoopsLocaleJalali::inputTimeToGregorian() instead");
+    return XoopsLocaleJalali::inputTimeToGregorian($usertime);
 }
-
-?>

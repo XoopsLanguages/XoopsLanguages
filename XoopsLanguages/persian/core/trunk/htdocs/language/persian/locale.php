@@ -29,7 +29,8 @@ include_once dirname(__FILE__) . '/locale.lang.php';
 include_once dirname(__FILE__) . '/locale.config.php';
 
 //start add file for jalali calendar config and language files
-include_once dirname(__FILE__) . '/date/jdf.php';
+include_once dirname(__FILE__) . '/date/jalali.php';
+
 //end add file for jalali calendar config and language files
 class XoopsLocal extends XoopsLocalAbstract
 {
@@ -39,36 +40,16 @@ class XoopsLocal extends XoopsLocalAbstract
 	*/
     function formatTimestamp($time, $format = "l", $timeoffset = null)
     {
-        global $xoopsConfig, $xoopsUser;
 
         $format_copy = $format;
         $format = strtolower($format);
 
         if ($format == 'rss' || $format == 'r') {
-            $TIME_ZONE = '';
-            if (isset($GLOBALS['xoopsConfig']['server_TZ'])) {
-                $server_TZ = abs(intval($GLOBALS['xoopsConfig']['server_TZ'] * 3600.0));
-                $prefix = ($GLOBALS['xoopsConfig']['server_TZ'] < 0) ? ' -' : ' +';
-                $TIME_ZONE = $prefix . date('Hi', $server_TZ);
-            }
-            $date = gmdate('D, d M Y H:i:s', intval($time)) . $TIME_ZONE;
-            return $date;
+            return parent::formatTimestamp($time, "rss", $timeoffset);
         }
 
         if (($format == 'elapse' || $format == 'e') && $time < time()) {
-            $elapse = time() - $time;
-            if ($days = floor($elapse / (24 * 3600))) {
-                $num = $days > 1 ? sprintf(_DAYS, $days) : _DAY;
-            } elseif ($hours = floor(($elapse % (24 * 3600)) / 3600)) {
-                $num = $hours > 1 ? sprintf(_HOURS, $hours) : _HOUR;
-            } elseif ($minutes = floor(($elapse % 3600) / 60)) {
-                $num = $minutes > 1 ? sprintf(_MINUTES, $minutes) : _MINUTE;
-            } else {
-                $seconds = $elapse % 60;
-                $num = $seconds > 1 ? sprintf(_SECONDS, $seconds) : _SECOND;
-            }
-            $ret = sprintf(_ELAPSE, $num);
-            return $ret;
+            return XoopsLocaleJalali::Convertnumber2farsi(parent::formatTimestamp($time, "elapse", $timeoffset));
         }
         // disable user timezone calculation and use default timezone,
         // for cache consideration
@@ -129,25 +110,21 @@ class XoopsLocal extends XoopsLocalAbstract
 
 	// Start hacked by irmtfan for show hegira date in persian and other languages www.jadoogaran.org
 	if (_JDF_USE_HEGIRADATE && $format != 'mysql' ){
-	     return jdate($datestring,$usertimestamp);
-	   } else {
-             return ucfirst(date($datestring,$usertimestamp));
-           }
+	    return XoopsLocaleJalali::jdate($datestring,$usertimestamp);
+	} else {
+		return ucfirst(date($datestring,$usertimestamp));
+    }
 	// End hacked by irmtfan for show hegira date in persian and other languages www.jadoogaran.org
 	}
 // end add jalali calendar for persian language 
-	function number_format($number)
+	function number_format($number, $type = _NUM_TYPE)
 	{
-		switch (_NUM_TYPE) {
+		switch ($type) {
 			case "figure":
-				if (_JDF_USE_PERSIANNUM){
-					return Convertnumber2farsi($number);
-				} else {
-					return $number;
-				}
+				return XoopsLocaleJalali::Convertnumber2farsi($number);
 				break;
 			case "word":
-				return ($number > 0) ? XoopsLocal::num2Words($number) : _NUMWORDS_ZERO;
+				return ($number > 0) ? self::num2Words($number) : _NUMWORDS_ZERO;
 				break;
 			default:
 				return $number;
@@ -176,11 +153,11 @@ class XoopsLocal extends XoopsLocalAbstract
                 $value1 = $value * 1000;
             }
 			if(array_key_exists("$highno",$_numWords)) {
-				return $_numWords["$highno"]." ".$novalue." ".XoopsLocal::num2Words($remainno);
+				return $_numWords["$highno"]." ".$novalue." ".self::num2Words($remainno);
 			} else { 
 				$unit=$highno%10;
 				$ten =(int)($highno/10)*10;             
-				return $_numWords["$ten"]." ".$_numWords["$unit"]." ".$novalue." ".XoopsLocal::num2Words($remainno);
+				return $_numWords["$ten"]." ".$_numWords["$unit"]." ".$novalue." ".self::num2Words($remainno);
 			}
 		}
 	}	
@@ -193,7 +170,7 @@ class XoopsLocal extends XoopsLocalAbstract
 	// Core and module developers can use this syntax in the future versions: XoopsLocal::strtotime($inputtime)
 	function strtotime($inputtime)
 	{
-		return strtotime(inputTimeToGregorian($inputtime));
+		return strtotime(XoopsLocaleJalali::inputTimeToGregorian($inputtime));
 	}
 
 }

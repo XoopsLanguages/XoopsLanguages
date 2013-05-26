@@ -22,21 +22,21 @@ define('_JDF_PM_LONG','بعد از ظهر');
 define('_JDF_AM_SHORT','ق.ظ');
 define('_JDF_PM_SHORT','ب.ظ');
 
-define('_JDF_Sat_LONG','شنبه');
-define('_JDF_Sun_LONG','یکشنبه');
-define('_JDF_Mon_LONG','دوشنبه');
-define('_JDF_Tue_LONG','سه شنبه');
-define('_JDF_Wed_LONG','چهارشنبه');
-define('_JDF_Thu_LONG','پنجشنبه');
-define('_JDF_Fri_LONG','جمعه');
+define('_JDF_SATURDAY','شنبه');
+define('_JDF_SUNDAY','یکشنبه');
+define('_JDF_MONDAY','دوشنبه');
+define('_JDF_TUESDAY','سه شنبه');
+define('_JDF_WEDNESDAY','چهارشنبه');
+define('_JDF_THURSDAY','پنجشنبه');
+define('_JDF_FRIDAY','جمعه');
 
-define('_JDF_Sat_SHORT','ش');
-define('_JDF_Sun_SHORT','ی');
-define('_JDF_Mon_SHORT','د');
-define('_JDF_Tue_SHORT','س');
-define('_JDF_Wed_SHORT','چ');
-define('_JDF_Thu_SHORT','پ');
-define('_JDF_Fri_SHORT','ج');
+define('_JDF_SAT','ش');
+define('_JDF_SUN','ی');
+define('_JDF_MON','د');
+define('_JDF_TUE','س');
+define('_JDF_WED','چ');
+define('_JDF_THU','پ');
+define('_JDF_FRI','ج');
 
 //English ordinal suffix, textual, 2 characters; i.e. "th","nd"
 //  وقتی میخواهیم بگویم چندیمن عدد به کار میرود در انگلیسی دو نویسه است ولی در فارسی یک نویسه »م« برای آن کافی است مثال: چهارم ، پنجم
@@ -44,30 +44,30 @@ define('_JDF_Suffix','م');
 //
 
 /* monthname function */
-define('_JDF_Far','فروردین');
-define('_JDF_Ord','اردیبهشت');
-define('_JDF_Kho','خرداد');
-define('_JDF_Tir','تیر');
-define('_JDF_Mor','مرداد');
-define('_JDF_Sha','شهریور');
-define('_JDF_Meh','مهر');
-define('_JDF_Aba','آبان');
-define('_JDF_Aza','آذر');
-define('_JDF_Dey','دی');
-define('_JDF_Bah','بهمن');
-define('_JDF_Esf','اسفند');
+define('_JDF_MONTH1','فروردین');
+define('_JDF_MONTH2','اردیبهشت');
+define('_JDF_MONTH3','خرداد');
+define('_JDF_MONTH4','تیر');
+define('_JDF_MONTH5','مرداد');
+define('_JDF_MONTH6','شهریور');
+define('_JDF_MONTH7','مهر');
+define('_JDF_MONTH8','آبان');
+define('_JDF_MONTH9','آذر');
+define('_JDF_MONTH10','دی');
+define('_JDF_MONTH11','بهمن');
+define('_JDF_MONTH12','اسفند');
 
 /* Convertnumber2farsi && Convertnumber2english functions */
-define('_JDF_Num0','۰');
-define('_JDF_Num1','۱');
-define('_JDF_Num2','۲');
-define('_JDF_Num3','۳');
-define('_JDF_Num4','۴');
-define('_JDF_Num5','۵');
-define('_JDF_Num6','۶');
-define('_JDF_Num7','۷');
-define('_JDF_Num8','۸');
-define('_JDF_Num9','۹');
+define('_JDF_NUM0','۰');
+define('_JDF_NUM1','۱');
+define('_JDF_NUM2','۲');
+define('_JDF_NUM3','۳');
+define('_JDF_NUM4','۴');
+define('_JDF_NUM5','۵');
+define('_JDF_NUM6','۶');
+define('_JDF_NUM7','۷');
+define('_JDF_NUM8','۸');
+define('_JDF_NUM9','۹');
 //add jalali month for some modules ( ex: news )
 define('_CAL_FARVARDIN','فروردین');
 define('_CAL_ORDIBEHESHT','اردیبهشت');
