@@ -1,5 +1,9 @@
 changelog:
 =======================================
+- improve: introduce XoopsLocaleJalali class. rewrite number_format, jdate, Convertnumber2farsi, Convertnumber2english functions. (2013/5/26)
+in ./htdocs/language/english/locale.php, ./htdocs/language/persian/locale.php, ./htdocs/language/persian/locale.lang.php, ./htdocs/language/persian/global.php , depricated: ./htdocs/language/persian/date/jdf.php
+add: ./htdocs/language/persian/date/jalali.php
+
 - bug fix: https://sourceforge.net/p/xoops/bugs/1270/ templates duplicate issue. in 
 1- xoops256/modules/system/admin/modulesadmin/main.php
 2- xoops256/modules/system/include/update.php

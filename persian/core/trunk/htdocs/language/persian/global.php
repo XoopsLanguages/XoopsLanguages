@@ -160,13 +160,13 @@ define('_AM_SMILEEMOTION','توضیحات');
 define('_AM_DISPLAYF','نمایش در فرم');
 // %%%%%        TIME FORMAT SETTINGS   %%%%%
 define('_SECOND','1 ثانیه');
-define('_SECONDS','ثانیه %s');
+define('_SECONDS','%s ثانیه');
 define('_MINUTE','1 دقیقه');
-define('_MINUTES','دقیقه%s');
-define('_HOUR',' 1 ساعت ');
-define('_HOURS','ساعت %s');
+define('_MINUTES','%s دقیقه');
+define('_HOUR','1 ساعت');
+define('_HOURS','%s ساعت');
 define('_DAY','1 روز');
-define('_DAYS','روز %s');
+define('_DAYS','%s روز');
 define('_WEEK','1 هفته');
 define('_MONTH',' 1 ماه ');
 define('_DATESTRING','Y/n/j G:i:s');

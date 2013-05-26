@@ -87,9 +87,9 @@ class XoopsLocal extends XoopsLocalAbstract
      * @return unknown
      */
 // START convert numbers into words added by irmtfan
-	function number_format($number)
+	function number_format($number, $type = _NUM_TYPE)
 	{
-		switch (_NUM_TYPE) {
+		switch ($type) {
 			case "word":
 				return ($number > 0) ? XoopsLocal::num2Words($number) : _NUMWORDS_ZERO;
 				break;
