@@ -40,6 +40,7 @@ class XoopsLocal extends XoopsLocalAbstract
 	*/
     function formatTimestamp($time, $format = "l", $timeoffset = null)
     {
+        global $xoopsConfig, $xoopsUser;
 
         $format_copy = $format;
         $format = strtolower($format);
