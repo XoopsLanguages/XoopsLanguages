@@ -1,11 +1,12 @@
 changelog:
 =======================================
-- bug fix: xoops_version.php of all modules will be included more than one time. in XOOPS256|Xoops26/kernel/module.php in loadInfo function (2013/5/28)
+- bug fix: http://sourceforge.net/p/xoops/bugs/1272/ XoopsMemberHandler delete functions always returns true in XOOPS256|Xoops26/kernel/member.php (zyspec) (2013/5/28)
+- bug fix: https://sourceforge.net/p/xoops/bugs/1274/ xoops_version.php of all modules will be included more than one time. in XOOPS256|Xoops26/kernel/module.php in loadInfo function (2013/5/28)
 - improve: introduce XoopsLocaleJalali class. rewrite number_format, jdate, Convertnumber2farsi, Convertnumber2english functions. (2013/5/26)
 in ./htdocs/language/english/locale.php, ./htdocs/language/persian/locale.php, ./htdocs/language/persian/locale.lang.php, ./htdocs/language/persian/global.php , depricated: ./htdocs/language/persian/date/jdf.php
 add: ./htdocs/language/persian/date/jalali.php
 
-- bug fix: https://sourceforge.net/p/xoops/bugs/1270/ templates duplicate issue. in 
+- bug fix: https://sourceforge.net/p/xoops/bugs/1273/ templates duplicate issue. in 
 1- xoops256/modules/system/admin/modulesadmin/main.php
 2- xoops256/modules/system/include/update.php
 3- xoops256/modules/system/xoops_version.php
