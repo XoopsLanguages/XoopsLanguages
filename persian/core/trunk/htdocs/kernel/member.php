@@ -114,7 +114,7 @@ class XoopsMemberHandler
         }
         return $this->_members[$id];
     }
-
+	// START irmtfan - XoopsMemberHandler delete functions always returns true (zyspec)
     /**
      * delete a group
      *
@@ -123,9 +123,9 @@ class XoopsMemberHandler
      */
     function deleteGroup(&$group)
     {
-        $this->_gHandler->delete($group);
-        $this->_mHandler->deleteAll(new Criteria('groupid', $group->getVar('groupid')));
-        return true;
+        $s1 = $this->_mHandler->deleteAll(new Criteria('groupid', $group->getVar('groupid')));
+        $s2 = $this->_gHandler->delete($group);
+        return ($s1 && $s2) ? true : false;
     }
 
     /**
@@ -136,11 +136,12 @@ class XoopsMemberHandler
      */
     function deleteUser(&$user)
     {
-        $this->_uHandler->delete($user);
-        $this->_mHandler->deleteAll(new Criteria('uid', $user->getVar('uid')));
-        return true;
+        $s1 = $this->_mHandler->deleteAll(new Criteria('uid', $user->getVar('uid')));
+        $s2 = $this->_uHandler->delete($user);
+        return ($s1 && $s2) ? true : false;
     }
-
+	// END irmtfan - XoopsMemberHandler delete functions always returns true (zyspec)
+	
     /**
      * insert a group into the database
      *
