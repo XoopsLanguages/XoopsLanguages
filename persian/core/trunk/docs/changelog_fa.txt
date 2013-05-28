@@ -1,5 +1,6 @@
 changelog:
 =======================================
+- bug fix: xoops_version.php of all modules will be included more than one time. in XOOPS256|Xoops26/kernel/module.php in loadInfo function (2013/5/28)
 - improve: introduce XoopsLocaleJalali class. rewrite number_format, jdate, Convertnumber2farsi, Convertnumber2english functions. (2013/5/26)
 in ./htdocs/language/english/locale.php, ./htdocs/language/persian/locale.php, ./htdocs/language/persian/locale.lang.php, ./htdocs/language/persian/global.php , depricated: ./htdocs/language/persian/date/jdf.php
 add: ./htdocs/language/persian/date/jalali.php
