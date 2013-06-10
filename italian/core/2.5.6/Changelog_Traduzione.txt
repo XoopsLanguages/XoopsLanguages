@@ -1,7 +1,7 @@
 *********************************************************************************
 ***************** CHANGELOG TRADUZIONE per CORE XOOPS ***************************
 ---------------------------------------------------------------------------------
--- Ultimo aggiornamento: 19/05/2013 -------------------- by luciorota Xoops -----
+-- Ultimo aggiornamento: 10/06/2013 -------------------- by luciorota Xoops -----
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 
@@ -39,6 +39,10 @@
 -Aggiunto define _CM_USER nel file language/italian/comment.php
 -Aggiunto define _CM_EMAIL nel file language/italian/comment.php
 -Aggiunto define _CM_URL nel file language/italian/comment.php
+-Corretto define _TODAY nel file language/italian/locale.php (Metalslug, luciorota)
+-Corretto define _YESTERDAY nel file language/italian/locale.php (Metalslug, luciorota)
+-Rimosso doppio define _MA_USER_MORE in language/italian/findusers.php (Metalslug)
+-Rimosso doppio define _MA_USER_REMOVE in language/italian/findusers.php (Metalslug)
 
 *********************************************************************************
 ***************** CHANGELOG TRADUZIONE per CORE XOOPS ***************************
