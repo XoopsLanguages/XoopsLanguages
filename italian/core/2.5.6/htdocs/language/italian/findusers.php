@@ -7,10 +7,7 @@
  * @version     $Id$
  */
 //Translator: Xoops Italia Team - www.xoopsitalia.org
-//Last translation update: 19/05/2013
-
-define('_MA_USER_MORE','Search users');
-define('_MA_USER_REMOVE','Remove unselected users');
+//Last translation update: 10/06/2013
 
 //%%%%%%    File Name findusers.php     %%%%%
 define("_MA_USER_MORE","Ricerca Utenti");
