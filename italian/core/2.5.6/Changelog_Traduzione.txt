@@ -1,7 +1,7 @@
 *********************************************************************************
 ***************** CHANGELOG TRADUZIONE per CORE XOOPS ***************************
 ---------------------------------------------------------------------------------
--- Ultimo aggiornamento: 10/06/2013 -------------------- by luciorota Xoops -----
+-- Ultimo aggiornamento: 11/06/2013 -------------------- by luciorota Xoops -----
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 
@@ -43,6 +43,9 @@
 -Corretto define _YESTERDAY nel file language/italian/locale.php (Metalslug, luciorota)
 -Rimosso doppio define _MA_USER_MORE in language/italian/findusers.php (Metalslug)
 -Rimosso doppio define _MA_USER_REMOVE in language/italian/findusers.php (Metalslug)
+-Aggiunto define _PM_SURE_TO_DELETE nel file modules/pm/language/italian/main.php (Metaslug)
+-Rimossi define non utilizzati nel file modules/pm/language/italian/main.php (luciorota)
+
 
 *********************************************************************************
 ***************** CHANGELOG TRADUZIONE per CORE XOOPS ***************************
