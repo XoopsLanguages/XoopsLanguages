@@ -1,7 +1,7 @@
 *********************************************************************************
 ***************** CHANGELOG TRADUZIONE per CORE XOOPS ***************************
 ---------------------------------------------------------------------------------
--- Ultimo aggiornamento: 11/06/2013 -------------------- by luciorota Xoops -----
+-- Ultimo aggiornamento: 12/06/2013 -------------------- by Xoops Italia --------
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 
@@ -45,6 +45,9 @@
 -Rimosso doppio define _MA_USER_REMOVE in language/italian/findusers.php (Metalslug)
 -Aggiunto define _PM_SURE_TO_DELETE nel file modules/pm/language/italian/main.php (Metaslug)
 -Rimossi define non utilizzati nel file modules/pm/language/italian/main.php (luciorota)
+-Aggiunto file modules/pm/language/italian/help/help.html (timgno)
+-Aggiunto file modules/profile/language/italian/help/help.html (timgno)
+-Aggiunto file modules/protector/language/italian/help/help.html (timgno)
 
 
 *********************************************************************************
