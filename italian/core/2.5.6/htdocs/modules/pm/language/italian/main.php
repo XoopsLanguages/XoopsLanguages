@@ -7,7 +7,7 @@
  * @version     $Id$
  */
 // Translator: Francesco Mulassano (Urbanspaceman) - Voodoo Team - Xoops Italia Team
-// Last translation update: 19/05/2013
+// Last translation update: 11/06/2013
 
 //%%%%%%	File Name readpmsg.php 	%%%%%
 define("_PM_DELETED","Messaggio(i) eliminato(i) con successo");
@@ -18,11 +18,9 @@ define("_PM_YOUDONTHAVE","Non hai nessun Messaggio Privato.");
 define("_PM_FROMC","Da: ");
 define("_PM_SENTC","Data di invio: "); // The date of message sent
 define("_PM_PROFILE","Profilo");
-
 // %s is a username
 define("_PM_PREVIOUS","Messaggio precedente");
 define("_PM_NEXT","Messaggio successivo");
-
 //%%%%%%	File Name pmlite.php 	%%%%%
 define("_PM_SORRY","Spiacenti, non sei un utente registrato.");
 define("_PM_REGISTERNOW","Registrati ora!");
@@ -40,7 +38,6 @@ define("_PM_CLEAR","Pulisci");
 define("_PM_CANCELSEND","Annulla");
 define("_PM_SUBMIT","Invia");
 define("_PM_SAVEINOUTBOX","Salvare una copia nella 'Posta inviata'?");
-
 //%%%%%%	File Name viewpmsg.php 	%%%%%
 define("_PM_SUBJECT","Oggetto");
 define("_PM_DATE","Data");
@@ -57,26 +54,14 @@ define("_PM_SAVED_ALL","Messaggio(i) spostato(i) nell'Archivio");
 define("_PM_UNSAVED","Messaggio(i) spostato(i) nella Posta in arrivo");
 define("_PM_EMPTIED","La cartella &egrave; stata svuotata");
 define("_PM_RUSUREEMPTY","Sei sicuro di voler svuotare la cartella?");
-define("_PM_RUSUREDELETE","Sei sicuro di voler eliminare questo(i) messaggio?");
-
+define("_PM_SURE_TO_DELETE","Sei sicuro di voler eliminare questo(i) messaggio?");
 define("_PM_ONLINE","Online");
-
-define("_PM_RECEIVE","Ricevi");
-define("_PM_POST","Invia");
-define("_PM_READBOX","Leggi");
-define("_PM_RSAVEBOX","Ricevuti_Archivio");
 define("_PM_OUTBOX","Posta inviata");
 define("_PM_SAVEBOX","Archivio");
-define("_PM_SENTBOX","Posta inviata");
-define("_PM_PSAVEBOX","Inviati_Archivio");
 define("_PM_SAVE","Salva");
-define("_PM_SAVED","Salvato con successo");
-define("_PM_TOC","Da: ");
-
 //WANISYS.NET PM HACK1.5
 define("_PM_SORT","ORDINA");
 define("_PM_ORDER","ORDINE");
-define("_PM_UID","UID del Partner");
 define("_PM_TIME","Data di invio");
 define("_PM_ASC","ASC");
 define("_PM_DESC","DISC");
@@ -85,20 +70,16 @@ define("_PM_BACKTOBOX","Torna alla casella");
 define("_PM_SORTSUBMIT","Invia");
 define("_PM_PREVIOUSP","Precedente");
 define("_PM_NEXTP","Successivo");
-
 define("_PM_MAILNOTIFY","%s Hai ricevuto un nuovo messaggio da %s");
 define("_PM_MAILMESSAGE","Ciao!\nA &Egrave; arrivato un messaggio da %s\n\nTitolo: \n%s\n\nE' possibile leggere il messaggio QUI\n%s\n\n-----------\nHai ricevuto questa email perch&eacute; hai scelto di essere avvisato quando ricevi un nuovo messaggio privato\n\nPuoi modificare quest'opzione\n%s\n\nPer favore non rispondere a questo messaggio\n\n---------\nGrazie\n%s\n%s\n%s");
-
 define("_PM_EMAIL","Inoltra come email");
-define("_PM_EMAIL_DESC","Caro %s, questo messaggio &egrave; stato inoltrato dal tuo account sul sito ".$GLOBALS['xoopsConfig']['sitename']);
+define("_PM_EMAIL_DESC","Caro %s, questo messaggio &egrave; stato inoltrato dal tuo account sul sito " . $GLOBALS['xoopsConfig']['sitename']);
 define("_PM_EMAIL_FROM","Da %s");
 define("_PM_EMAIL_TO","A %s");
 define("_PM_EMAIL_SUBJECT","[messaggio]%s");
 define("_PM_EMAIL_MESSAGE","Contenuto del messaggio");
-
 define("_PM_ACTION_DONE","Operazione eseguita con successo");
 define("_PM_ACTION_ERROR","Operazione non riuscita");
-
 //XOOPS 2.5.2
 define("_PM_READ","Gi&#224; letto");
 define("_PM_SUBJECT_ICONS","Icone Oggetto: ");
