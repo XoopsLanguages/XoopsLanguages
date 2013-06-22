@@ -1,0 +1,36 @@
+<?php
+define("_AM_OBITUARIES_TITRE_2","N�crologies ");
+define("_AM_OBITUARIES_VOTRE_DATE","date du d�c� ");
+define("_AM_OBITUARIES_JOUR","le jour");
+define("_AM_OBITUARIES_MOIS","le mois");
+define("_AM_OBITUARIES_ANNEE","l'Ann�e");
+define("_AM_OBITUARIES_SAVE","sauvegarder");
+define("_AM_OBITUARIES_DBUPDATED","La Base de donn�es a �t� mise � jour.");
+define("_AM_OBITUARIES_NOOBITUARIESSAVED","Impossible to savegarder les donn�es !");
+define("_AM_OBITUARIES_NO_ACCES","Vous ne pouvez pas modifier la date du d�c�.");
+define("_AM_OBITUARIES_EDIT","Editer");
+define("_AM_OBITUARIES_DELETE","Supprimer");
+define("_AM_OBITUARIES_ADD","Ajouter");
+define("_AM_OBITUARIES_DATE","Date");
+define("_AM_OBITUARIES_USERNAME","Utilisateur");
+define("_AM_OBITUARIES_FIRSTNAME","Nom de famille");
+define("_AM_OBITUARIES_LASTNAME","Pr�nom");
+define("_AM_OBITUARIES_PHOTO","Photo");
+define("_AM_OBITUARIES_DESCRIPTION","Courte Biographie");
+define("_AM_OBITUARIES_SURVIVORS","Les noms de Survivants");
+define("_AM_OBITUARIES_SERVICE","Service de l'announcement");
+define("_AM_OBITUARIES_MEMORIAL","Contributions comm�moratives");
+define("_AM_OBITUARIES_ERROR1","D�sol� mais vous n'avez pas le droit pour modifier ce dossier");
+define("_AM_OBITUARIES_ERROR2","Erreur,utilisateur inconnu");
+define("_AM_OBITUARIES_ERROR3","D�sol�, il n'y a pas aucun D�c�d�");
+define("_AM_OBITUARIES_ADD_ITEM","Ajouter un item");
+define("_AM_OBITUARIES_MODIFY_ITEM","Modifier un item");
+define("_AM_OBITUARIES_PICTURE","Photo");
+define("_AM_OBITUARIES_CURRENT_PICTURE","Photo actuelle");
+define("_AM_OBITUARIES_MODIFY","Modifier");
+define("_AM_OBITUARIES_SAVE_OK","Les donn�es ont �t� sauvegard�es avec succ�s");
+define("_AM_OBITUARIES_SAVE_PB","Il y avait un probl�me lors de l'enregistrement des donn�es");
+define("_AM_OBITUARIES_XOOPS_PROFILE","Xoops Profile");
+define("_AM_OBITUARIES_USERS_LIST","liste des D�c�d�s");
+define("_CM_POSTCOMMENT","�crivez votre sinc�res condol�ances");
+?>
