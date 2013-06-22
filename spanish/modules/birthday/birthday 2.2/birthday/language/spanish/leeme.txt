@@ -1,0 +1,12 @@
+Modulo: Happy Birthday
+Traduccion por: 
+
+XOOPSPERU.COM
+
+/public_html/modules/birthday/language
+
+Esperamos dar un grano de arena....
+
+Harlo Vela
+www.xoopsperu.com
+harlo@xoopsperu.com
