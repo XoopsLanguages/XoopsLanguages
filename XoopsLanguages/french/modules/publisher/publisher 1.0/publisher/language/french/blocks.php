@@ -1,12 +1,10 @@
 <?php
-
 /**
- * $Id: blocks.php 836 2009-09-14 23:29:42Z Dugris $
+ * $Id$
  * Module: Publisher
  * Author: The SmartFactory <www.smartfactory.ca>
  * Licence: GNU
  */
-
 // Blocks
 define("_MB_PUBLISHER_ALLCAT","Toutes les catégories");
 define("_MB_PUBLISHER_AUTO_LAST_ITEMS","Afficher automatiquement les articles récents ?");
@@ -42,7 +40,6 @@ define("_MB_PUBLISHER_ASC","ASC");
 define("_MB_PUBLISHER_DESC","DESC");
 define("_MB_PUBLISHER_SHOWITEMS","Afficher les articles");
 //--/bd
-
 define("_MB_PUBLISHER_FILES","fichiers");
 define("_MB_PUBLISHER_DIRECTDOWNLOAD","Lien direct pour télécharger le fichier au lieu d'un lien vers l'article ?");
 define("_MB_PUBLISHER_FROM","Afficher les articles <br />à partir du ");
@@ -50,7 +47,7 @@ define("_MB_PUBLISHER_UNTIL","jusqu'au ");
 define("_MB_PUBLISHER_DATE_FORMAT","Le format de la date doit être mm/dd/yyy");
 define("_MB_PUBLISHER_ARTICLES_FROM_TO","Articles publiées entre %s et %s");
 define("_MB_PUBLISHER_TRUNCATE","Tronquer le texte du résumé à l'octet donné (0 permet de désactiver cette fonctionnalité):");
-define("_MB_PUBLISHER_DISPLAY_CATIMAGE","Afficher l'image de la catégorie (si une catégorie est sélectionnée )?");
+define("_MB_PUBLISHER_DISPLAY_CATIMAGE","Afficher l'image de la catégorie (si une catégorie est sélectionnée)?");
 define("_MB_PUBLISHER_MORE","Plus");
 define("_MB_PUBLISHER_NUMBER_COLUMN_VIEW","Nombre de colonnes à Voir");
 define("_MB_PUBLISHER_NUMBER_ITEMS_CAT","Nombre d'articles dans chaque catégorie!");
@@ -58,9 +55,8 @@ define("_MB_PUBLISHER_IMAGE_TO_DISPLAY","Choisissez l'image à afficher");
 define("_MB_PUBLISHER_IMAGE_ARTICLE","Image de l'article");
 define("_MB_PUBLISHER_IMAGE_CATEGORY","Image de la catégorie");
 define("_MB_PUBLISHER_IMAGE_AVATAR","avatar");
-
 //latest news  block
-define("_MB_PUBLISHER_SP",":");
+define("_MB_PUBLISHER_SP"," : ");
 define("_MB_PUBLISHER_NO_COMMENTS","Pas de commentaires");
 define("_MB_PUBLISHER_MORE_ITEMS","Plus d'articles");
 define("_MB_PUBLISHER_POSTER","Posté par ");
@@ -102,25 +98,13 @@ define("_MB_PUBLISHER_PHOTOSCONFIG","Images <strong> Options </ strong>");
 define("_MB_PUBLISHER_LINKSCONFIG","Options <strong> Liens </ strong>");
 define("_MB_PUBLISHER_TOPICSCONFIG","Options <strong> thème </ strong>");
 define("_MB_PUBLISHER_TEMPLATESCONFIG","<strong>Options de Template </strong>");
-
 define("_MB_PUBLISHER_SUBMITNEWS","Soumettre un article");
-
-define("_MB_PUBLISHER_TEMPLATE","Template");
+define("_MB_PUBLISHER_TEMPLATE","Thème");
 define("_MB_PUBLISHER_TEMPLATE_NORMAL","Normal");
 define("_MB_PUBLISHER_TEMPLATE_EXTENDED","Etendu");
-define("_MB_PUBLISHER_TEMPLATE_TICKER","Ticker");
-define("_MB_PUBLISHER_TEMPLATE_SLIDER1","Fade-in Slider");
-define("_MB_PUBLISHER_TEMPLATE_SLIDER2","Tabbed Slider");
-
+define("_MB_PUBLISHER_TEMPLATE_TICKER","Téléscripteur");
+define("_MB_PUBLISHER_TEMPLATE_SLIDER1","Défilement estompé");
+define("_MB_PUBLISHER_TEMPLATE_SLIDER2","Par onglets");
 define("_MB_PUBLISHER_ARCHIVE","Archive");
-
-/**
- * @translation     AFUX (Association Francophone des Utilisateurs de Xoops) <http://www.afux.org/>
- * @translation     grandoc 2010-02-06
- * @specification   _LANGCODE: fr
- * @specification   _CHARSET: UTF-8
- *
- * @version         $Id: blocks.php 836 2009-09-14 23:29:42Z Dugris $
- **/
- // Modifications de traduction par Cesag pour frxoops.org le 03 Juin 2012.
-?>
+//25-11-2012
+define("_MB_PUBLISHER_ONECOMMENT","1 commentaire");
