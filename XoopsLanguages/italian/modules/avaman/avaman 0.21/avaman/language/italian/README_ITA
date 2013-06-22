@@ -1,0 +1,42 @@
+- AVAMAN - un gestore di avatar&smilies
+
+SOMMARIO:
+
+Un piccolo modulo alternativo per la gestione degli Avatar e Smilie di sistema.
+
+
+UTILIZZO:
+
+Semplicemente installatelo.
+E' possibile caricare avatar/smilies mediante archivio tar.gz o zip.
+
+Se sei un creatore di smilies e vuoi distribuirli, chiamate i file in questo modo:
+
+(code).gif
+(code).jpg
+(code).png
+
+(code) dovrebbe essere formattato già codificato come URL. (es. '*'=>'%2A', '<'=>%3C, '|'=>%7C)
+Se create una smile in formato gif con codice :anotherpint:, dovrete nominarla come:
+[code]%3Aanotherpint%3A.gif[/code]
+In questo modo verrò importata nel sistema direttamente con il codice corretto :anotherpint:
+
+Dopodiché basterà creare l'archivio zip/tar.gz contenente tutte le immagini, e distribuirlo.
+Farete felici molti utenti xoops!
+
+
+
+CHANGELOG:
+
+2006-04-06 0.21 aggiunto seleziona/deseleziona tutto
+                aggiunta lingua polacca (thx kurakbu) 0.21a
+2006-04-05 0.20 aggiunto gestore smilies
+2006-04-05 0.11 modificate costanti linguistiche
+                aggiunta colonna "utenti"
+                corretto un bug per il quale gli avatar usati potevano essere eliminati
+                aggiunto sottomenù per Xoops 2.2.x (thx McDonald)
+2006-04-04 0.10 prima implementazione
+
+
+
+Italian Translation: Defkon1 [www.xoopsit.net]
