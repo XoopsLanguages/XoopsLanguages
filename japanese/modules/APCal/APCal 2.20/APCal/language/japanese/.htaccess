@@ -1,0 +1,7 @@
+php_value mbstring.language Japanese
+php_value mbstring.internal_encoding EUC-JP
+php_value mbstring.http_input auto
+php_flag mbstring.encoding_translation On
+
+php_flag register_globals Off
+php_flag allow_url_fopen Off
