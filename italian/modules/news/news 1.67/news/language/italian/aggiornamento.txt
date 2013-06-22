@@ -1,0 +1,46 @@
+*******************************************************************************
+**                 ISTRUZIONI PER L'AGGIORNAMENTO                  **
+*******************************************************************************
+Segue l'elenco di operazioni che si deve seguire per aggiornare il modulo da
+qualsiasi precedente versione:
+
+1) Trasferisci tutti i file di questo pacchetto, sovrascrivendo i file esistenti.
+2) Aggiorna il modulo in System Admin -> Moduli
+3) Lancia il seguente script almeno una volta :
+	http://www.tuosito.it/modules/news/admin/upgrade.php
+    Per poterlo eseguire, devi essere amministratore del modulo.
+    Una volta che lo script è stato lanciato, puoi cancellare il file upgrade.php
+
+3) Launch the following script at least one time :
+	http://www.example.com/modules/news/admin/upgrade.php
+   To be able to launch it, YOU MUST BE AN ADMIN OF THE NEWS MODULE
+   Once this script has been launched, you can remove it but it's not "vital"
+4) If you are using a personalized template set (if you have cloned it for
+   example) :
+   Go in admin -> templates. Find the templates set you are using, beside the
+   name "News" click on the link named "[List (11)]". Find the template called
+   "news_index.html" then press the link named "[Delete]". In the next screen,
+   when you see this question "Are you sure that you want to delete this template data?"
+   validate by pressing "Yes". The previous screen will reappears and you will see
+   a yellow line, click on the link named "[Generate]"
+
+5) If you are using the default template set. First create some test news then
+   go on the part of your website where your users can see the news (for example
+   http://www.example.com/modules/news). If you can see the test news, come back
+   to the admin part of your site. Go in the news module's preferences and for
+   the option named "News Display Layout" select "By topic". Come back to the
+   visible part of your website (http://www.example.com/modules/news).
+   If you can see your news, ignore the rest of this point, else, if you
+   can't see the news then, in admin -> templates, beside the default template
+   set, click on the link named "Clone", give it a name then go in
+   admin -> preferences, select "General Settings" and in the scrolling list
+   called "Default template set", select the template you have previously
+   cloned.
+
+If you are doing a fresh install, you don't have to do anything from the previous
+list.
+
+
+
+Report bugs on the News Tracker on http://dev.xoops.org
+(Direct link: http://dev.xoops.org/modules/xfmod/tracker/?group_id=1008)
