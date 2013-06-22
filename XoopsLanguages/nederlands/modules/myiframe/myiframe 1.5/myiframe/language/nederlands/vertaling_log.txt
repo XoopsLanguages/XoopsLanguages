@@ -1,0 +1,24 @@
+
+Mochten er bepaalde onderdelen niet vertaald, foutief vertaald of fout geschreven zijn, maak hier dan melding van.
+Bij melding graag aangeven:
+1) welk taalbestand het betreft
+2) welke regel
+3) wat er fout is.
+
+Bvd.
+
+========================
+Deze vertaling is gemaakt en wordt aangeboden door:
+http://www.xoopscube.be
+
+==========================
+
+Changelog
+
+*******
+v1.4
+*******
+01-05-2006: Vertaling verzorgd door Shine.
+
+
+
