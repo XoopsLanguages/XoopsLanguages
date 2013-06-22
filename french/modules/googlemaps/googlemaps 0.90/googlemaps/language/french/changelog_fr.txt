@@ -1,0 +1,95 @@
+Dans cette version, les modifications suivantes ont été apportées :
+
+Changelog (French)
+------------------------
+
+Version 0.83 (Marco) - 03/03/07
+- correction de sécurité(thx Martin ZPC)
+
+Version 0.82 (Marco) - 17/02/07
+- nombreuses corrections de sécurité, ceci a permis de progresser en compétences sur cet aspect (thx hervé)
+- Notice: Undefined variable: pentry : suppression message bug
+- ajout d'index sur les tables (lire le readme pour les instructions d'upgrade), ce qui améliorera la vitesse d'affichage
+- correction pour mysql 5, ajout d'alias pour une jointure
+- affichage dans les templates des instructions définies dans les préférences du module (page index)
+
+Version 0.81 (Marco) - 26/12/06
+- ajout de define dans le xoops_version pour permettre l'utilisation du module xoopsinfo
+- ajout des traductions chinoises (thx twinwoods) et allemandes (thx wuddel)
+
+
+Version 0.8 (Marco) - 06/09/06
+- ajout de 2 templates pour la page index.php : carte orientée Profils Xoops /carte orientée Lieux. Une option dans l'admin a été ajoutée pour cela, ce qui ouvre, au passage, la fonctionnalité Cache au module. Les autres pages seront templatisées plus tard, lors de la réécriture du module. Merci à kris qui comme d'habitude me fournit des icones sympas !
+- ajout paramètre dans les préférences pour gérer le nombre de derniers points à afficher dans la zone "Derniers Points"
+- ajout fonctionnalité de zoom/direction avec CTRL + "flèches" ou CRTL + "+" ou "-"
+- ajout bascule en mode admin depuis le côté utilisateur
+- ajout affichage avatar dans le template orienté profil
+- ajout d'un fichier css spécifique au module, il n'est plus nécessaire de modifier manuellement le fichier css du thème du site
+- ajout fonctionnalité de marqueurs glissés-déposables lors ajout/modification de marqueurs
+- suppression fichier /includes/header.php et modification consécutive du fichier readme.txt
+- correction afin que le niveau de zoom soit pris en compte lorsque l'on clique sur un point des zones Derniers Points ou Catégories - merci khuhner
+- correction bug prise en compte automatique du niveau de zoom lors ajout de marqueurs (préalimentation du champs zoom du formulaire lors du clic sur la carte) - merci - thx Djiman
+
+Version 0.7g (Marco) - 21/08/06
+- fix fermeture de div et fix directions
+
+Version 0.7f (Marco) - 20/08/06
+- fin de correction compatibilité css2, prise en compte spécificités IE
+- ajout largeur par bulle
+- ajout retour à la ligne dans les infobulles pour les contenus trop importants
+- modification de l'appel à l'API GoogleMap
+
+Version 0.7e (Marco) - 09/08/06
+- ajout effet mouseover/click out 
+- remplacement des tags <b> résiduels par <b />
+- modification pour meilleure prise en compte des ", ' (résolution bugs sur certains plateformes)
+- fin de correction pour mysql 5
+
+
+Version 0.7d (Marco) - 08/08/06
+- ajout d'un contrôle pour déterminer si l'utilisateur a rempli son nom réel dans son profil.Si il n'est pas renseigné, son uname (login) sera utilisé
+- suppression des tables <table>, la page côté user est css compliant, déplacementde certaines parties afin qu'elles s'affichent correctement sur plus de sites.
+
+Version 0.7c (Marco) - 08/08/06
+- suppresion d'insertion de blancs ('') dans le champ map_id (admin.php), ce champs est de type autoincrement (cela causait l'erreur mysql "error Error Code: 0013 ERROR: Could not query the database. Error: Out of range value adjusted for column 'map_id' at row 1" on category creation), reporté by khuhner 
+- suppression de quelques appels sprintf dans admin.php
+
+Version 0.7b (Marco) - 07/08/06
+- remplacement de XOOPS_ROOT_PATH par XOOPS_URL (merci hervé)
+
+Version 0.7a (Marco) - 06/08/06
+- petit fix juste après release (maps.js)
+
+Version 0.7 (Marco) - 06/08/06
+- ajout de la fonctionnalité tabulation/onglet dans les bulles d'information
+- ajout de la fonctionnalité Itinéraire. Vous pouvez maintenant rechercher le moyen de vous rendre vers la position du marqueur en question à partir d'une adresse saisie
+- ajout d'icones pour personnaliser les tabulations/onglet, nommage des onglets (Profil/Itinéraire). Merci kris pour les icones !
+- ajout d'un lien depuis l'admin vers la zone utilisateur du module
+- modification de l'appel à la classe GMap, pour appeler la classe GMap2, ce qui permet d'améliorer la compatibilité avec l'API et la vitesse d'affichage
+- suppression des appels à la fonction GPoint2, implémentation d'un appel direct à la fonction GLatLng. Ceci améliore l'allocation mémoire.
+- modification du type de champs pour le champs "Submitter" de la table gmap_points : il passe de int(4) à mediumint(8) pour améliorer la performance requete, et aligner sa définition avec celle du core (uid de la table xoops_users table).
+Pour mettre à jour votre module depuis n'importe quelle version, et en raison de cette modification, vous devez :
+. soit désinstaller puis resinstaller votre module (vous perdrez vos données)
+. soit modifier directement dans votre base de données le type du champs (via phpmyadmin par exemple)
+- mise à niveau pour permettre une meilleure compatibilité avec la dernière version de l'API (2.59), et ainsi bénéficier des dernières fonctionnalités, et améliorer la vitesse d'affichage
+- ajout des fonctionnalités Continous Zoom et DoubleClickZoom. Dorénavant, lorsque vous double-cliquez sur la carte ou modifier le niveau de zoom, de jolis effets de zoom font leur apparition ;-)
+
+Version 0.6 (Marco) - 05/08/06
+- remplacement des tags Php <? par le tag correct <?php (il en reste quelques uns dans maps.js, je les garde pour plus tard)
+- ajout d'un style css pour le contenu des marqueurs, afin que l'information soit correctement affichée (restera à creer un fichier css dans le package du module même, cela sera fait plus tard)
+Pour l'utiliser, ajoutez dans le fichier de style de votre theme le style suivant (appelé "infobox")
+
+.infobox {font-size:10px;} 
+
+- modification de l'affichage des catégories
+- ajout de la fonctionnalité Minicarte Incrustée, ajout des paramétrages associés dans les préférences du module (positionnement de cette minicarte)
+
+Version 0.5 (Marco) - 30/07/06
+- les utilisateurs peuvent ajouter / modifer eux-même leurs points. Ils doivent être connectés pour cela
+- Ajout de quelques variables de langues
+- Ajout du contrôle "un seul point par utilisateur"
+- Ajout de l'affichage de certaines informations utilisateur dans les marqueurs (nom, occupation), et d'un lien vers le profil xoops
+- Correction de la prise en compte des traductions dans la partie Admin
+- Ajout des paramétrages Hauteur/Largeur de la carte dans les préférences du module
+
+Version Initiale (pour base) - Version 0.4 (Phatbloke)
