@@ -1,0 +1,400 @@
+<?php
+// $Id$
+//  ------------------------------------------------------------------------ //
+//                Bluemoon.Multi-Survey                                      //
+//                    Copyright (c) 2005 Yoshi.Sakai @ Bluemoon inc.         //
+//                       <http://www.bluemooninc.biz/>                       //
+// ------------------------------------------------------------------------- //
+//  This program is free software; you can redistribute it and/or modify     //
+//  it under the terms of the GNU General Public License as published by     //
+//  the Free Software Foundation; either version 2 of the License, or        //
+//  (at your option) any later version.                                      //
+//                                                                           //
+//  You may not change or alter any portion of this comment or credits       //
+//  of supporting developers from this source code or any supporting         //
+//  source code which is considered copyrighted (c) material of the          //
+//  original comment or credit authors.                                      //
+//                                                                           //
+//  This program is distributed in the hope that it will be useful,          //
+//  but WITHOUT ANY WARRANTY; without even the implied warranty of           //
+//  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the            //
+//  GNU General Public License for more details.                             //
+//                                                                           //
+//  You should have received a copy of the GNU General Public License        //
+//  along with this program; if not, write to the Free Software              //
+//  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 USA //
+//  ------------------------------------------------------------------------ //
+
+define('_MD_BMSURVEY_LIST_CHECKED','��');
+define('_MD_BMSURVEY_LIST_TITLE','�ե�����̾');
+define('_GT_From_Option','���пͥ��ɥ쥹');
+define('_MD_FROM_OPTION','������̤�����������κ��пͥ��ɥ쥹�ʥ����٥��Υ��ɥ쥹�ϥ⥸�塼������ΰ�����������ꤷ�ޤ���');
+define('_MD_FROM_OPTION_0','�����٥��Υ��ɥ쥹');
+define('_MD_FROM_OPTION_1','��Ͽ�桼���Υ��ɥ쥹');
+define('_MD_FROM_OPTION_2',"���󥱡������'email'��");
+define('_GT_Default_Response','�����ν����');
+define('_MD_FROM_DEFRES',"���Ͻ���ͤΥ쥹�ݥ�ID�ʽ�������פξ��϶���ˤ��ޤ���");
+define('_MD_BMSURVEY_LIST_DATE','��Ͽ����');
+define('_MD_BMSURVEY_LIST_SUBTITLE','����');
+define('_MD_BMSURVEY_THANKS_ENTRY','�ե�����ؤε������꤬�Ȥ��������ޤ�����');
+define('_MD_BMSURVEY_CAN_WRITE_USER_ONLY','�����ȥ桼���ϥե�������Խ����뤳�ȤϤǤ��ޤ���');
+define('_MD_ASTERISK_REQUIRED','�������ꥹ����<font color="#FF0000">��</font>���դι��ܤ�����ɬ�ܹ��ܤǤ���');
+define('_MD_MAIL_TITLE','���ϥե����ࡧ');
+define('_MD_DENYRESULT','������Ƥ�̵���ˤ���');
+define('_MD_DENYRESULTSURE','������Ƥ�̵���ˤ��ޤ����������Ǥ�����');
+define('_MD_DENYRESULTDONE','������Ƥ�̵���ˤ��ޤ�����');
+define('_MD_DEFAULTRESULT','������Ƥ����Ͻ���ͤ˥��åȤ���');
+define('_MD_DEFAULTRESULTDONE','������Ƥ����Ͻ���ͤ˥��åȤ��ޤ�����');
+define('_MD_RESPONDENT','��Ƽ�̾');
+define('_MD_QUESTION_OTHER','����¾');
+define('_MD_BMSURVEY_FORMATERR',' �����������Ϥ���Ƥ��ޤ���');
+define('_MD_BMSURVEY_DIGITERR',' ��Ⱦ�Ѥǿ�������Ϥ��Ƥ�������');
+define('_MD_BMSURVEY_MAXOVER','�ϡ�%u���ܰʾ�����å��Ǥ��ޤ���');
+define('_MD_BMSURVEY_CHECKANY','��ʣ������ġ�');
+define('_MD_BMSURVEY_CHECKLIMIT','��%u�Ĥޤ�����ġ�');
+define('_MD_BMSURVEY_CHECKRESET','������');
+define('_MD_SUBMIT_SURVEY','����');
+define('_MD_NEXT_PAGE','���ڡ���');
+
+define('_MD_POP_KEY_M','���С�');
+define('_MD_POP_KEY_U','�Ȥ���');
+define('_MD_POP_KEY_Q','���󥱡���');
+define('_MD_POP_KEY_ERR','POP-Key Error');
+define('_MD_POP_CMD_NEW','������Ͽ');
+define('_MD_POP_CMD_INP','����');
+define('_MD_POP_CMD_DEL','���');
+define('_MD_POP_MNEW_ENTRY','�������̾ %s �ǥ桼����Ͽ���ޤ�����');
+define('_MD_POP_MNEW_AREADY','���Υ������̾�ϴ�����Ͽ����Ƥ��ޤ����̤�̾������Ͽ���Ƥ���������');
+define('_MD_POP_QINP_HEADER','�ֿ��᡼����������[]�ޤ���()��������Ϥ���������������
+1�Ԥ�ʣ�����[]()�ϥ����å����ܤǤ���[]��ʣ���()��1�Ĥ���Ǥ�դ�1ʸ�������Ϥ���������
+1�Ԥ�1�Ĥ�����[]�ϥƥ��������Ϲ��ܤǤ���ʸ��������ϲ�������
+----
+
+');
+define('_MD_POP_QINP_FAILEDLOGIN','�桼��̾��ǧ�ڥ����ɤ��㤤�ޤ���');
+define('_MD_POP_QINP_SUCCEEDED','%s ����β�������Ͽ���ޤ�����');
+define('_MD_POP_QINP_DELETEIT','���Υ��󥱡��Ȥϴ��˲����ѤߤǤ������Υ᡼����ֿ�����Ⱦõ�Ǥ��ޤ���');
+define('_MD_POP_QDEL_SUCCEEDED','%s ����β����������ޤ�����');
+
+define('_AM_BMSURVEY_SEEARESULT','�����򸫤�');
+define('_AM_BMSURVEY_COPYQUESTION','�����٥��������򥳥ԡ�');
+define('_AM_BMSURVEY_SELECTSTATUS','���֤�����');
+define('_AM_BMSURVEY_RATECOUNT','�������ɽ��');
+define('_AM_BMSURVEY_NORESPONSE','̵����');
+define('_AM_BMSURVEY_TOTAL','���');
+define('_AM_BMSURVEY_QUESTIONNUMBER','����<BR>�ֹ�');
+define('_AM_BMSURVEY_FILEDNAME_DESC','<small><BR>��Ⱦ�ѱѿ�</small>');
+define('_AM_BMSURVEY_ARCHIVED','����������');
+define('_AM_BMSURVEY_TEST','�ƥ���');
+define('_AM_BMSURVEY_EXPIRATION','��λ');
+define('_AM_BMSURVEY_ACTIVE','�����ƥ���');
+define('_AM_BMSURVEY_EDIT','�Խ�');
+
+//
+// From /locale/messages.po
+//
+define("_GT_Unable_to_open_include_file","����ե����뤬�����ޤ���Ǥ�����INI�ե������������ǧ���Ƥ������������Ǥ��ޤ���");
+define("_GT_Service_Unavailable","�����ӥ������ѤǤ��ޤ���");
+define("_GT_Your_progress_has_been_saved","���ʤ���������Υǡ�������¸���ޤ����� ���ʤ��Ϥ��ĤǤ⡢��äơ�����Ĵ����λ�Ǥ��ޤ�����������ˤϡ��ʲ��Υ�󥯤�֥å��ޡ������ɲä��Ƥ����������ޤ����Ƴ�����ˤϥ�����󤹤�ɬ�פ�����ޤ���");
+define("_GT_Resume_survey","�����٥��κƳ�");
+define("_GT_Invalid_argument","�����ʰ���Ǥ�");
+define("_GT_Error_opening_survey","�����٥��������ޤ���Ǥ���");
+define("_GT_Error_opening_surveys","1�İʾ�Υ����٥��������ޤ���Ǥ���");
+define("_GT_No_responses_found","No responses found.");
+define("_GT_TOTAL","���");
+define("_GT_No_questions_found","���䤬1�Ĥ⤢��ޤ���");
+define("_GT_Page_d_of_d","�ڡ��� %d / %d");
+define("_GT_Yes","�Ϥ�");
+define("_GT_No","������");
+define("_GT_1","1");
+define("_GT_2","2");
+define("_GT_3","3");
+define("_GT_4","4");
+define("_GT_5","5");
+define("_GT_N/A","N/A");
+define("_GT_Page","�ڡ���");
+define("_GT_of","��");
+define("_GT_Error_system_table_corrupt","�����ʥ����ƥ�ơ��֥�Ǥ�");
+define("_GT_Table","�ơ��֥�");
+define("_GT_Report_for","��ݡ���");
+define("_GT_ID","ID");
+define("_GT_Num","#");
+define("_GT_Req_d","ɬ��");
+define("_GT_Public","�ѥ֥�å�");
+define("_GT_Content","����ƥ��");
+define("_GT_Previous","����");
+define("_GT_Next","����");
+define("_GT_Navigate_Individual_Respondent_Submissions","Ĵ����̤ΰ����ɽ��");
+define("_GT_Error_cross_analyzing_Question_not_valid_type","�����ͭ���ʷ��ǤϤ���ޤ���");
+define("_GT_Cross_analysis_on_QID","�����ʬ�� QID:");
+define("_GT_Sorry_please_fill_out_the_name","�¹�����̾�������롼�ס������ȥ�ι��ܤ����Ƥ���������");
+define("_GT_Sorry_name_already_in_use","���Ǥˤ���̾���ϻȤ��Ƥ��ޤ���¾��̾����ȤäƤ���������");
+define("_GT_Sorry_that_name_is_already_in_use.","���Ǥˤ���̾���ϻȤ��Ƥ��ޤ���");
+define("_GT_Warning_error_encountered","���顼��ȯ�����ޤ�����");
+define("_GT_Please_enter_text_for_this_question","�������������Ф������������Ϥ��Ƥ�������");
+define("_GT_Sorry_you_must_select_a_type_for_this_question","�������������Ф����������򤷤ʤ���Фʤ�ޤ���");
+define("_GT_New_Field","�������ե������");
+define("_GT_Sorry_you_cannot_change_between_those_types_of_question","������Υ����٥������פˤ��ѹ��Ǥ��ޤ��󡣿����������������Ƥ���������");
+define("_GT_Sorry_you_need_at_least_one_answer_option_for_this_question_type","���ߤޤ��󡢤��ʤ��Ͼ��ʤ��Ȥ�1�Ĥ��������ץ����򤳤μ��䥿���פ�ɬ�פȤ��ޤ���");
+define("_GT_Error_cross_tabulating","��������֡����顼�Ǥ���");
+define("_GT_Error_same_question","�Ԥ���������Ʊ����������򤷤Ƥ��ʤ�����ǧ���Ƥ���������");
+define("_GT_Error_column_and_row","�Ԥ����ξ�������򤷤Ƥ��뤫��ǧ���Ƥ���������");
+define("_GT_Error_analyse_and_tabulate","���Ϥȥ�������֤�Ʊ���˼¹Ԥ��뤳�ȤϽ���ޤ���");
+define("_GT_Error_processing_survey_Security_violation","���顼���������ƥ���ȿ");
+define("_GT_Unable_to_execute_query_for_access","���������ѤΥ������¹ԤǤ��ޤ���");
+define("_GT_Unable_to_execute_query_respondents","�������ѤΥ������¹ԤǤ��ޤ���");
+define("_GT_Unauthorized","̤ǧ��");
+define("_GT_Incorrect_User_ID_or_Password","�桼����ID�ȥѥ���ɤ��ְ�äƤ��ޤ뤫����������Ȥ������ԲĤ������ڤ�ˤʤäƤ��ޤ�");
+define("_GT_Your_account_has_been_disabled","���ʤ��Υ�������Ȥ�̵���ˤ��줿�����ޤ��Ϥ��ʤ��ϴ��ˤ���Ĵ����λ���ޤ�����");
+define("_GT_Unable_to_load_ACL","ACL�����ɤ��뤳�Ȥ��Ǥ��ޤ���");
+define("_GT_Management_Interface","��������");
+define("_GT_This_account_does_not_have_permission","���Υ�������Ȥϵ��Ĥ���Ƥ��ޤ���");
+define("_GT_Go_back_to_Management_Interface","�������̤����");
+define("_GT_Submit","����");
+define("_GT_Rank","���");
+define("_GT_Response","�쥹�ݥ�");
+define("_GT_Average_rank","ʿ�ѥ��");
+define("_GT_You_are_missing_the_following_required_questions","�ʲ��ι��ܤ���������Ƥ��ޤ���");
+define("_GT_Survey_Design_Completed","�����٥��ǥ�������");
+define("_GT_You_have_completed_this_survey_design","�����٥��ǥ����󤬴������ޤ���");
+define("_GT_To_insert_this_survey_into_your_web_page","���Υ����٥���PHP����������������ˤϡ����Υƥ����Ȥ򥳥ԡ���Ž���դ��Ƥ���������");
+define("_GT_Once_activated_you_can_also_access_the_survey_directly_from_the_following_URL","���٥����ƥ��֤ˤ�����ϡ��ʲ���URL���饵���٥���ľ�ܥ��������Ǥ��ޤ���");
+define("_GT_You_must_activate_this_survey","�����٥�����Ѥ���ˤϥ��ơ�������֥����ƥ��֡פˤ���ɬ�פ�����ޤ������ơ��������ѹ��ϡȥ����٥��ξ��֤��ѹ�����ɥڡ������ԤäƲ��������֥����ƥ��֡פˤ�����ϰ��ڤ��ѹ����Բ�ǽ�ˤʤ�ޤ���");
+define("_GT_The_information_on_this_tab_applies_to_the_whole_survey","���Υ��֤����ꤷ������ϥ����٥����Τ�ȿ�Ǥ���ޤ������Υ��֤����ꤷ���塢�ƥ��֤Ǹġ������ԤäƤ���������");
+define("_GT_Name","̾��");
+define("_GT_Required","ɬ�ܹ���");
+define("_GT_Survey_filename","�ե�����͡���");
+define("_GT_This_is_used_for_all_further_access_to_this_survey","���Υ����٥��Υե�����͡��ࡣ");
+define("_GT_no_spaces","���ڡ��������Բ�");
+define("_GT_alpha_numeric_only","�ѿ���Τ�");
+define("_GT_Owner","�����ʡ�");
+define("_GT_User_and_Group_that_owns_this_survey","���Υ����٥����ͭ����桼�����ȥ��롼��");
+define("_GT_Title","�����ȥ�");
+define("_GT_Title_of_this_survey","�����٥��Υ����ȥ�");
+define("_GT_This_appears_at","�����٥��ڡ����Υȥåפ˾��ɽ������ޤ�");
+define("_GT_free_form_including_spaces","�����ޤ�ʸ�����");
+define("_GT_Subtitle","���֥����ȥ�");
+define("_GT_Subtitle_of_this_survey","�����٥��Υ��֥����ȥ�");
+define("_GT_Appears_below_the_title","�����ȥ�β���ɽ������ޤ�");
+define("_GT_Additional_Info","�ղþ���");
+define("_GT_Text_to_be_displayed_on_this_survey_before_any_fields","���Ϲ��ܤ�����ɽ�������ʸ�ϡ�����ʸ�����ȣԣ̲ͣġ�");
+define("_GT_Confirmation_Page","��ǧ�ڡ���");
+define("_GT_URL","(URL)");
+define("_GT_The_URL_to_which_a_user_is_redirected_after_completing_this_survey","���Υ����٥���λ������˥�����쥯�Ȥ�����գң̤�����");
+define("_GT_OR","�⤷����");
+define("_GT_heading_text","(�إå�ʸ����)");
+define("_GT_body_text","(��ʸ)");
+define("_GT_Heading_in_bold","�����٥��������ɽ�������ֳ�ǧ�ץڡ����ѤǤ��������������ɽ������ޤ���");
+define("_GT_URL_if_present","URL�����������ϡ���ǧ�Υƥ�����ʸ���ξ��ɽ������ޤ���");
+define("_GT_Email","�Żҥ᡼��");
+define("_GT_Sends_a_copy","������̤���������᡼�륢�ɥ쥹�ʶ���ξ�������̵����");
+define("_GT_Theme","�ơ���");
+define("_GT_Select_a_theme","���Υ����٥��ǻ��Ѥ���ơ��ޡ�CSS�ˤ����򤷤Ƥ�������");
+define("_GT_Options","���ץ����");
+define("_GT_Allow_to_save","�����Ԥؤ���¸���Ƴ��ε���(�������ɬ��)");
+define("_GT_Allow_to_forward","�����Ԥإ����٥����ڤ���ư�������");
+define("_GT_Change_the_order","�ꥹ�Ȥ��ֹ���ѹ����뤳�Ȥˤ�ꡢ����ν��֤��¤��ؤ��뤳�Ȥ��Ǥ��ޤ���");
+define("_GT_Section_Break","-----�������������-----");
+define("_GT_Remove","���");
+define("_GT_Edit","�Խ�");
+define("_GT_Add_Section_Break","���������������ɲ�");
+define("_GT_This_is_a_preview","�����٥��Υץ�ӥ塼�Ǥ����ּ��Υڡ����ץܥ��󤪤�ӡ���Ƥ���ץܥ���ϻ��ѤǤ��ޤ��󡣥����٥����طʤˤϡ������٥�����������ڡ������طʤ�Ŭ�Ѥ���ޤ����ѹ��Τʤ�����Finish���֤���Խ���λ�����������̤���äƤ���������");
+define("_GT_Section","���������");
+define("_GT_Previous_Page","���Υڡ���");
+define("_GT_Save","��¸");
+define("_GT_Next_Page","���Υڡ���");
+define("_GT_Submit_Survey","��Ƥ���");
+define("_GT_Edit_this_field","���Υե�����ɤ��Խ����뤫���Խ��������ե�����ɤ��ֹ�򥯥�å����Ƥ���������");
+define("_GT_Field","�ե������");
+define("_GT_Field_Name","�ե�����ɥ͡���");
+define("_GT_Type","������");
+define("_GT_Length","����ʸ����");
+define("_GT_Precision","����ʸ������");
+define("_GT_Enter_the_possible_answers","������ܤμ���ξ��ϡ�������ʲ����Ѱդ��ޤ����Ǹ�μ������˶�����������ˤ� %s ������ޤ���");
+define("_GT_Add_another_answer_line","�������ܤ��ɲ�");
+define("_GT_Please_select_a_group","���롼�פ�����Ǥ�������");
+define("_GT_Private","�ץ饤�١���");
+define("_GT_Survey_Access","�����٥���������");
+define("_GT_This_lets_you_control","�ե�����ؤΥ��������������Ԥ��ޤ����֥ѥ֥�å��פ�ï�Ǥ⥢����������ǽ�Ǥ����֥ץ饤�١��ȡפ����ꤷ�����롼�פ������������Ǥ��ޤ���");
+define("_GT_Note","�Ρ���");
+define("_GT_You_must_use","�ץ饤�١��ȥ����٥��Ǥ� %s ����Ѥ��ʤ���Фʤ�ޤ���");
+define("_GT_Group","���롼��");
+define("_GT_Max_Responses","����쥹�ݥ�");
+define("_GT_Save_Restore","��¸���Ƴ�");
+define("_GT_Back_Forward","��롿�ʤ�");
+define("_GT_Add","�ɲ�");
+define("_GT_Make_Public","�ѥ֥�å����ѹ�");
+define("_GT_Make_Private","�ץ饤�١��Ȥ��ѹ�");
+define("_GT_to_access_this_group","���Υ��롼�פ˥�����������");
+define("_GT_Cannot_delete_account","��������Ȥ����Ǥ��ޤ���");
+define("_GT_Username_are_required.","�桼�����͡��ࡢ�ѥ���ɡ�����ӥ��롼�פ�ɬ�פǤ�");
+define("_GT_Error_adding_account","����������ɲå��顼");
+define("_GT_Cannot_change_account_data","��������ȥǡ������ѹ��Ǥ��ޤ���");
+define("_GT_Account_not_found","��������Ȥ����Ĥ���ޤ���Ǥ���");
+define("_GT_Designer_Account_Administration","�ǥ����ʡ���������ȴ���");
+define("_GT_Username","�桼�����͡���");
+define("_GT_Password","�ѥ����");
+define("_GT_First_Name","̾");
+define("_GT_Last_Name","��");
+define("_GT_Expiration","��λ");
+define("_GT_year","ǯ");
+define("_GT_month","��");
+define("_GT_day","��");
+define("_GT_Disabled","�����Բ�");
+define("_GT_Update","���åץǡ���");
+define("_GT_Cancel","����󥻥�");
+define("_GT_Delete","���");
+define("_GT_Design_Surveys","�ǥ����󥵡��٥�");
+define("_GT_Change_Survey_Status","�����٥����ơ��������ѹ�");
+define("_GT_Activate_End","����������λ");
+define("_GT_Export_Survey_Data","�����٥��ǡ����򥨥����ݡ���");
+define("_GT_Group_Editor","���롼�ץ��ǥ���");
+define("_GT_may_edit","���ꤷ����硢���롼�פǤ��Խ�����ǽ�ˤʤ�ޤ���");
+define("_GT_Administer_Group_Members","���롼�ץ��С������");
+define("_GT_Administer_Group_Respondents","���롼�ײ����Ԥ����");
+define("_GT_Respondent_Account_Administration","�����ԥ�������Ȥδ���");
+define("_GT_to_access_this_survey","���Υ����٥��ؤΥ�������");
+define("_GT_Error_copying_survey","�����٥��Υ��ԡ����顼");
+define("_GT_Copy_Survey","���ԡ������٥�");
+define("_GT_Choose_a_survey","���ԡ����ꤿ�������٥�������Ǥ������������ԡ����������٥����Խ���ǽ�Ǥ����������ˤ�ư���ǧ��ԤäƤ���������");
+define("_GT_Status","���ơ�����");
+define("_GT_Archived","����������");
+define("_GT_Ended","��λ");
+define("_GT_Active","�����ƥ���");
+define("_GT_Testing","�ƥ���");
+define("_GT_Editing","�Խ�");
+define("_GT_You_are_attempting","���Ϥȥ��������ɽ������٤˼¹Ԥ�����ϤǤ��ޤ���");
+define("_GT_Only_superusers_allowed","�����ѡ��桼�����Τ����Ѳ�ǽ�Ǥ���");
+define("_GT_No_survey_specified","�����٥������ꤵ��Ƥ��ޤ���");
+define("_GT_Manage_Web_Form_Designer_Accounts","�ե�����ǥ����ʡ��δ���");
+define("_GT_Click_on_a_username_to_edit","�桼��̾�򥯥�å������Խ����뤫���ʲ��˿������桼�����ɲä��ޤ���");
+define("_GT_disabled","�����Բ�");
+define("_GT_Add_a_new_Designer","�������ǥ����ʡ����ɲä��Ƥ�������");
+define("_GT_Bulk_Upload_Designers","��������Ȥȥ��롼�׾���Υ��åץ����");
+define("_GT_Invalid_survey_ID","̵���Υ����٥�ID�Ǥ�");
+define("_GT_DBF_download_not_yet_implemented","DBF���������ɤ�̤��ȯ�Ǥ���");
+define("_GT_The_PHP_dBase_Extension_is_not_installed","dBase��ĥ�ϥ��󥹥ȡ��뤵��Ƥޤ���");
+define("_GT_Edit_a_Survey","�����٥��Խ�");
+define("_GT_Pick_Survey_to_Edit","�Խ������������٥�������");
+define("_GT_Export_Data","�������ݡ��ȥǡ���");
+define("_GT_Format","�ե����ޥå�");
+define("_GT_CSV","CSV");
+define("_GT_download","����������");
+define("_GT_DBF","DBF");
+define("_GT_HTML","HTML");
+define("_GT_Testing_Survey","�ƥ��ȥ����٥���");
+define("_GT_SID","SID");
+define("_GT_Survey_exported_as","�����٥��Υ������ݡ��ȡ�");
+define("_GT_Error_exporting_survey_as:","�����٥��Υ������ݡ��Ȥ˼��Ԥ��ޤ�����");
+define("_GT_to_access_this_form","���Υե�����إ����������ޤ���");
+define("_GT_Error_adding_group","���롼�פ��ɲå��顼");
+define("_GT_Error_deleting_group","���롼�פκ�����顼");
+define("_GT_Group_is_not_empty","���롼�פ϶��ǤϤ���ޤ���");
+define("_GT_Manage_Groups","���롼�״���");
+define("_GT_Description","����");
+define("_GT_Members","���С�");
+define("_GT_Users_guide_not_found","�桼�������������ɤϸ��Ĥ���ޤ���Ǥ���");
+define("_GT_Log_back_in","������Хå�");
+define("_GT_Superuser","�����ѡ��桼����");
+define("_GT_Choose_a_function","��ǽ������Ǥ�������");
+define("_GT_Create_a_New_Survey","�����������٥�����");
+define("_GT_Edit_an_Existing_Survey","�����٥����Խ�����");
+define("_GT_Test_a_Survey","�����٥���ƥ��Ȥ���");
+define("_GT_Copy_an_Existing_Survey","��¸�Υ����٥��򥳥ԡ�����");
+define("_GT_Change_the_Status_of_a_Survey","�����٥��ξ��֤��ѹ�����");
+define("_GT_active_end_delete","(�����ƥ���/��λ/����������)");
+define("_GT_Change_Access_To_a_Survey","�����٥��Υ������������ѹ�����");
+define("_GT_Limit_Respondents","����������");
+define("_GT_View_Results_from_a_Survey","�����٥��η�̤򸫤�");
+define("_GT_Cross_Tabulate_Survey_Results","�����٥���̤Υ��������ɽ��");
+define("_GT_View_a_Survey_Report","�����٥������Ƥ�ߤ�");
+define("_GT_Export_Data_to_CSV","CSV�ǡ����򸫤�");
+define("_GT_Change_Your_Password","���ʤ��Υѥ���ɤ��ѹ����Ƥ�������");
+define("_GT_Manage_Designer_Accounts","�ǥ����ʡ���������Ȥδ���");
+define("_GT_Manage_Respondent_Accounts","�����ԥ�������Ȥδ���");
+define("_GT_View_the_list_of_things_still_to_do","�ޤ����Ƥ��뤳�ȤΥꥹ�Ȥ򸫤Ƥ���������");
+define("_GT_development_goals","�ʳ�ȯ�Υ������");
+define("_GT_View_the_User_Administrator_Guide","�桼����&�����ԥ����ɤ򸫤�");
+define("_GT_Log_out","���������");
+define("_GT_SIDS","SIDS");
+define("_GT_Error!","���顼��");
+define("_GT_You_need_to_select_at_least_two_surveys!","����2�ĤΥ����٥�������Ǥ���������");
+define("_GT_Merge_Survey_Results","�����٥���̤Υޡ���");
+define("_GT_Pick_Surveys_to_Merge","�ޡ������뤿��ˡ������٥�������Ǥ�������");
+define("_GT_List_of_Surveys","�����٥��Υꥹ��");
+define("_GT_Surveys_to_Merge","�ޡ������륵���٥�");
+define("_GT_Change_Password","�ѥ���ɤ��ѹ�");
+define("_GT_Your_password_has_been_successfully_changed","���ʤ��Υѥ���ɤ��ѹ�����ޤ���");
+define("_GT_Password_not_set","�ѥ���ɤϥ��åȤ���ޤ��󡣺��ޤǤΥѥ���ɤ��ǧ��������");
+define("_GT_New_passwords_do_not_match_or_are_blank","�������ѥ���ɤ��������ʤ�������Ǥ���");
+define("_GT_Old_Password","�դ뤤�Τ�");
+define("_GT_New_Password","�����餷���Τ�");
+define("_GT_Confirm_New_Password","��ä���");
+define("_GT_Purge_Surveys","�����٥��ξõ�");
+define("_GT_This_page_is_not_directly","���Υڡ����ϴ���ʤΤǥᥤ���˥塼����ľ�ܸƤӽФ����ȤϽ���ޤ��󡣤����Ǿõ����硢Ĵ����̤�ޤ�ǡ����١������鴰���˾õ��ޤ����ο���̵�����Ϥ��β��̤Ǥϲ������ʤ��Ǥ����������õ�ܥ���򲡤�����硢�Ƴ�ǧ̵���¹Ԥ�������μ��ʤϤ���ޤ���");
+define("_GT_Qs","# �����");
+define("_GT_Clear_Checkboxes","�����å��ܥå����򥯥ꥢ");
+define("_GT_README_not_found","README�����Ĥ���ޤ���");
+define("_GT_Go_back_to_Report_Menu","��ݡ��ȥ�˥塼����äƲ�����");
+define("_GT_View_Form_Report","�����٥������Ƥ򸫤�");
+define("_GT_Pick_Form_to_View","���Ƥ򸫤��������٥�������");
+define("_GT_Add_a_new_Respondent","�����������Ԥ��ɲä��Ƥ�������");
+define("_GT_Bulk_Upload_Respondents","�����������Ԥ��ɲä��Ƥ�������");
+define("_GT_Cross_Tabulation","���������");
+define("_GT_Test_Survey","�ƥ��ȥ����٥�");
+define("_GT_Reset","�ꥻ�å�");
+define("_GT_Cross_Tabulate","�����������");
+define("_GT_View_Survey_Results","�����٥���̤򸫤�");
+define("_GT_Pick_Survey_to_View","��̤򸫤��������٥�������");
+define("_GT_Pick_Survey_to_Cross_Tabulate","��������֤�ɽ�����륵���٥�������");
+define("_GT_Respondent","������");
+define("_GT_Resp","�쥹�ݥ�");
+define("_GT_Can_not_set_survey_status","�����٥����ơ�����������Ǥ��ޤ���");
+define("_GT_Survey_Status","�����٥����ơ�����");
+define("_GT_Test_transitions","<b>�֥ƥ��ȡ�</b>�ĥƥ��ȥ⡼�ɤǤ��������٥��Υƥ��Ȥ��̤�ɽ������ǽ�Ǥ����ƥ��ȥ⡼�ɻ��ϥ����٥����Խ����뤳�Ȥ��Ǥ��ޤ���");
+define("_GT_Activate_transitions","<b>�֥����ƥ��֡�</b>�ĥ����ƥ��֥⡼�ɤǤ������Υ⡼�ɼ¹���ϥ����٥����ºݤ˲�ư���Ƥ��ޤ����ƥ��ȥ⡼�ɻ��Υ����٥���̤�ȿ�Ǥ���ޤ��󡣥����ƥ��֥⡼�ɼ¹Ը塢�����٥����Խ��ϰ��ڤǤ��ޤ���");
+define("_GT_End_transitions","<b>�ֽ�λ��</b>�Ĳ�ư��Υ����٥���λ���ޤ������Υ⡼�ɼ¹Ը�ϥ����٥����뤳�Ȥ��Ǥ��ޤ��󡣷�̤ϴ�����˥塼����ɽ����ǽ�Ǥ���");
+define("_GT_Archive_removes","<b>�֥��������֡�</b>�ĥ����٥��������ޤ����ǡ����ϥǡ����١����˻Ĥ�ޤ������ʸ���ڤ����Բ�ǽ�ˤʤ�ޤ����ޤ������������֤��줿�����٥��η�̤ϸ��뤳�Ȥ��Ǥ��ޤ���");
+define("_GT_Test","�ƥ���");
+define("_GT_Activate","�����ƥ���");
+define("_GT_End","��λ");
+define("_GT_Archive","����������");
+define("_GT_No_tabs_defined_Please_check_your_INI_settings","̵���ʥ��֡�INI���������å����Ƥ�������");
+define("_GT_Help","�إ��");
+define("_GT_General","���");
+define("_GT_Questions","����");
+define("_GT_Order","��������");
+define("_GT_Preview","�ץ�ӥ塼");
+define("_GT_Finish","��λ");
+define("_GT_Click_cancel_to_cancel","���Υ����٥��򥭥�󥻥뤹����ϡ�Cancel�פ򥯥�å����Ƥ����������٤Υ��֤˿ʤ���ϡ�Continue�פ򥯥�å����Ƥ���������");
+define("_GT_The_survey_title_and_other","�����٥������ȥ뤪���¾�ΰ��̾���Υե�����ɤϡ�<b>��General��</b>���֤ˤ���ޤ��� <b>��Questions��</b>���֤�������ɲá������򤹤뤳�Ȥ��Ǥ��ޤ��� <b>��Oeder��</b>���֤���ϼ�����Խ��������Ԥ��ޤ���<b>��Preview��</b>���֤Ϻ������������٥��Υץ�ӥ塼��Ԥ��ޤ����ѹ��Τʤ�����<b>��Finish��</b>���֤���Խ���λ�����������̤���äƤ���������");
+define("_GT_Click_here_to_open_the_Help_window","�إ�ץ�����ɥ��򳫤�");
+define("_GT_View_Results","��̤򸫤�");
+define("_GT_Pick_Survey_to_Test","�ƥ��Ȥ��륵���٥�������");
+define("_GT_Export","�������ݡ���");
+define("_GT_Results","���");
+define("_GT_Todo_list_not_found","Todo�ꥹ�Ȥϸ��Ĥ���ޤ���Ǥ���");
+define("_GT_An_error_Rows_that_failed_are_listed_below","�ʲ��ꥹ�ȤΥ��åץ���ɥ��顼�Ǥ���");
+define("_GT_An_error_Please_check_the_format_of_your_text_file","���åץ������˥��顼��ȯ�����ޤ������ƥ����ȥե�����Υե����ޥåȤ��ǧ���Ƥ���������");
+define("_GT_An_error_Please_complete_all_form_fields","���åץ������˥��顼��ȯ�����ޤ��������ƤΥե�����ե�����ɤ˵�������������");
+define("_GT_Upload_Account_Information","��������Ⱦ���򥢥åץ���ɤ��ޤ�����");
+define("_GT_All_fields_are_required","�ޡ����μ����ɬ�ܹ��ܤǤ���");
+define("_GT_File_Type","�ե����륿����");
+define("_GT_Tab_Delimited","���ֶ��ڤ�");
+define("_GT_File_to_upload","���åץ���ɥե�����");
+define("_GT_Thank_You_For_Completing_This_Survey","���������꤬�Ȥ��������ޤ�����");
+define("_GT_Please_do_not_use_the_back_button","�֥饦�������ܥ���򲡤��ʤ��ǲ�����");
+define("_GT_Unable_to_find_the_phpESP_%s_directory_\t\t\tPlease_check_%s_to_ensure_that_all_paths_are_set_correctly","");
+define("_GT_Gettext_Test_Failed","GetText�Υ��顼�Ǥ�");
+define("_GT_Error_processing_survey:_Survey_not_specified","���顼�������٥������򤵤�Ƥ��ޤ���");
+define("_GT_Error_processing_survey:_Survey_is_not_active","���顼�������٥��ϥ����ƥ��֤ǤϤ���ޤ���");
+define("_GT_Sorry_the_account_request_form_is_disabled","��������Ƚ����ϸ��߶ػߤ���Ƥ��ޤ���");
+define("_GT_Please_complete_all_required_fields","���Ƥ�ɬ�����Ϥι��ܤ˲�����������");
+define("_GT_Passwords_do_not_match","�ѥ���ɤ��㤤�ޤ�");
+define("_GT_Request_failed,_please_choose_a_different_username","�ꥯ�����ȼ��ԡ��㤦�桼���������򲼤�����");
+define("_GT_Your_account_has_been_created","���ʤ��Υ�������ȤϺ�������ޤ�����");
+define("_GT_Account_Request_Form","����������׵�ե�����");
+define("_GT_Please_complete_the_following","�ʲ����ѻ�˵������ơ���������Ȥ��׵ᤷ�Ƥ��������� %s �ǥޡ������줿���ܤ�ɬ�ܤǤ���");
+define("_GT_Email_Address","�Żҥ᡼�륢�ɥ쥹");
+define("_GT_Confirm_Password","�ѥ���ɤκƳ�ǧ");
+?>
