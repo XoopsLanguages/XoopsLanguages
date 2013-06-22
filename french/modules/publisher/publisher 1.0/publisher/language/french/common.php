@@ -1,19 +1,15 @@
 <?php
-
 /**
- * $Id: common.php 836 2009-09-14 23:29:42Z Dugris $
+ * $Id$
  * Module: Publisher
  * Author: The SmartFactory <www.smartfactory.ca>
  * Licence: GNU
  */
-
 define("_CO_PUBLISHER_MESSAGE_FILE_ERROR","Erreur : Impossible de charger le fichier pour les raisons suivantes: <br />%s");
 define("_CO_PUBLISHER_MESSAGE_WRONG_MIMETYPE","Erreur : Type de fichier non permis. Essayez à nouveau.");
-
 define("_CO_PUBLISHER_ALLOWCOMMENTS","l'article peut-il être commenté ?");
-
 define("_CO_PUBLISHER_AUTHOR_ALIAS","Auteur alias");
-define("_CO_PUBLISHER_AUTHOR_ALIAS_DSC","Sélectionnez le nom d'alias des soumettants, il sera utilisé au lieu de 'anonyme' et fixera l'id du propriétaire de l'article à 0");
+define("_CO_PUBLISHER_AUTHOR_ALIAS_DSC","Sélectionnez le nom d'alias des soumettants, il sera utilisé au lieu de « anonyme » et fixera l'id du propriétaire de l'article à 0");
 define("_CO_PUBLISHER_AVAILABLE_PAGE_WRAP","disponible pour les pages de synthèse");
 define("_CO_PUBLISHER_AVAILABLE_PAGE_WRAP_DSC","Voici les pages disponibles pour la mise en forme du coeur de l'article. Cliquez sur la(les) page(s) que vous aimeriez mettre en forme. Ne fonctionne qu'avec l'éditeur XOOPS pour le moment. Ajouter manuellement si vous utilisez un autre éditeur.");
 define("_CO_PUBLISHER_DATESUB","Date de publication");
@@ -35,19 +31,15 @@ define("_CO_PUBLISHER_SUBMITTED","soumission");
 define("_CO_PUBLISHER_UID","Affiche le nom");
 define("_CO_PUBLISHER_UID_DSC","Sélectionnez le nom du soumetteur");
 define("_CO_PUBLISHER_WEIGHT","Poids");
-
-define("_CO_PUBLISHER_PARTIAL_VIEW","Donnez un accès avec vue partielle à ces groupes");
-define("_CO_PUBLISHER_PARTIAL_VIEW_DSC","si un groupe n'a pas la permission de lire cet article, vous pouvez toujours donner à ce groupe un accès en vue partielle en cochant la case à cocher ici. s'il vous plaît notez que ces groupes ont aussi besoin d'avoir un droit d'accès au module, ainsi qu'une permission de lecture à la catégorie parente.");
 define("_CO_PUBLISHER_ITEM_UPLOAD_FILE","lier un fichier à cet article");
-define("_CO_PUBLISHER_ITEM_UPLOAD_FILE_DSC","Sélectionnez un fichier à partir de votre ordinateur pour le lier à cet article. Vous serez en mesure d'ajouter plus de fichiers, une fois que l'article aura été créé. Il suffit d'éditer l'article et de faire défiler jusqu'au bas de la page pour voir le bouton Ajouter un fichier. <br /> <br /> Par exemple, vous pouvez ajouter un document Word ou un document Excel. Vous pouvez même télécharger un fichier Flash et il sera incorporé directement dans votre article! ");
+define("_CO_PUBLISHER_ITEM_UPLOAD_FILE_DSC","Sélectionnez un fichier à partir de votre ordinateur pour le lier à cet article. Vous serez en mesure d'ajouter plus de fichiers, une fois que l'article aura été créé. Il suffit d'éditer l'article et de faire défiler jusqu'au bas de la page pour voir le bouton Ajouter un fichier. <br /> <br /> Par exemple, vous pouvez ajouter un document Word ou un document Excel. Vous pouvez même télécharger un fichier Flash et il sera incorporé directement dans votre article ! ");
 //define("_CO_PUBLISHER_OPTIONS","Options");
-define("_CO_PUBLISHER_DISPLAY_SUMMARY","Afficher le sommaire sur la page de l'article?");
+define("_CO_PUBLISHER_DISPLAY_SUMMARY","Afficher le sommaire sur la page de l'article ?");
 define("_CO_PUBLISHER_DOHTML","Activer les balises HTML");
 define("_CO_PUBLISHER_DOIMAGE","Activer les images");
 define("_CO_PUBLISHER_DOLINEBREAK","Activer les sauts de ligne");
 define("_CO_PUBLISHER_DOSMILEY","Activer les émoticônes");
 define("_CO_PUBLISHER_DOXCODE","Activer les codes XOOPS");
-
 define("_CO_PUBLISHER_EDIT","Modifier");
 define("_CO_PUBLISHER_CLONE","Dupliquer l'article");
 define("_CO_PUBLISHER_ADD_FILE","Ajouter un fichier");
@@ -60,7 +52,6 @@ define("_CO_PUBLISHER_INTITEMFOUND","Voici un article intéressant que j'ai trou
 define("_CO_PUBLISHER_POSTEDBY","Publié par %s le %s");
 define("_CO_PUBLISHER_BODY","Corps");
 define("_CO_PUBLISHER_BODY_DSC","le corps de l'article");
-
 define("_CO_PUBLISHER_CATEGORY","Catégorie");
 define("_CO_PUBLISHER_CATEGORY_DSC","Choisir une catégorie.");
 define("_CO_PUBLISHER_IMAGE_ITEM","Image de l'article ");
@@ -68,70 +59,48 @@ define("_CO_PUBLISHER_IMAGE_ITEM_DSC","l'image qui représente l'article");
 define("_CO_PUBLISHER_IMAGE_UPLOAD","Téléversement de l'image");
 //define("_CO_PUBLISHER_IMAGE_UPLOAD_ITEM_DSC","Sélectionnez une image sur votre ordinateur. <br /> Cette image sera téléversée sur le site <br /> et choisie comme image de l'article.");
 define("_CO_PUBLISHER_SUBCATEGORIES_INFO","les sous-catégories dans <em>%s </ em>:");
-
 define("_CO_PUBLISHER_SUMMARY","Bloc Sommaire");
 define("_CO_PUBLISHER_SUMMARY_DSC","Ce résumé est utilisé pour les blocs, l'index et les pages de catégorie. Il ne s'affiche pas dans l'article.");
-
 define("_CO_PUBLISHER_TITLE","Titre");
 define("_CO_PUBLISHER_SUBTITLE","Sous titre");
-
-define("_CO_PUBLISHER_ERROR","Désolé, une erreur s'est produite!");
+define("_CO_PUBLISHER_ERROR","Désolé, une erreur s'est produite !");
 define("_CO_PUBLISHER_SORTBY","Trier par");
-
 define("_CO_PUBLISHER_ADD","Ajouter");
 define("_CO_PUBLISHER_REMOVE","Supprimer");
 define("_CO_PUBLISHER_PREVIEW","Aperçu");
-
 define("_CO_PUBLISHER_CREATE","Créer");
 define("_CO_PUBLISHER_CLEAR","Effacer");
 define("_CO_PUBLISHER_CANCEL","Annuler");
-
 define("_CO_PUBLISHER_IMAGE_ITEMS","Images de l'article ");
 define("_CO_PUBLISHER_IMAGE_ITEMS_DSC","s'il vous plaît choisissez les images liées à cet article");
 define("_CO_PUBLISHER_IMAGE_PREVIEW","Prévisualisation de l'image");
-define("_CO_PUBLISHER_NOTIFY","Notifier le rédacteur?");
-
+define("_CO_PUBLISHER_NOTIFY","Notifier le rédacteur ?");
 define("_CO_PUBLISHER_FILEUPLOAD_ERROR","Une erreur s'est produite lors du téléversement du fichier.");
 define("_CO_PUBLISHER_FILEUPLOAD_SUCCESS","Le fichier a été téléversé.");
-define("_CO_PUBLISHER_NEW_FEATURE","Nouvelle fonctionnalité !!!");
-
+define("_CO_PUBLISHER_NEW_FEATURE","Nouvelle fonctionnalité !");
 define("_CO_PUBLISHER_TAB_MAIN","Principal");
 define("_CO_PUBLISHER_TAB_IMAGES","Images");
 define("_CO_PUBLISHER_TAB_OTHERS","Autres");
-define("_CO_PUBLISHER_TAB_META","Meta data");
+define("_CO_PUBLISHER_TAB_META","Données Meta");
 define("_CO_PUBLISHER_TAB_PERMISSIONS","autorisations");
-
 define("_CO_PUBLISHER_IMAGE_UPLOAD_NEW","Envoyer une nouvelle image");
 //define("_CO_PUBLISHER_IMAGE_UPLOADING","Transfert");
-define("_CO_PUBLISHER_IMAGE_NICENAME","Entrez le nom de l'image");
-define("_CO_PUBLISHER_IMAGE_CAT_NONE","Avant, vous devez créer une catégorie-image dans Admin-system-Images");
+define("_CO_PUBLISHER_IMAGE_NICENAME","Nom de l'image");
+define("_CO_PUBLISHER_IMAGE_CAT_NONE","Avant, vous devez créer une image de catégorie dans Admin-system-Images");
 define("_CO_PUBLISHER_IMAGE_CAT_NOPERM","Vous n'avez pas les permissions d'utiliser cette catégorie d'image");
-
-/**
- * @translation     AFUX (Association Francophone des Utilisateurs de Xoops) <http://www.afux.org/>
- * @translation     grandoc 2010-02-06
- * @specification   _LANGCODE: fr
- * @specification   _CHARSET: UTF-8
- *
- * @version         $Id: common.php 836 2009-09-14 23:29:42Z Dugris $
- **/
-
 //30/04/2012
-define("_CO_PUBLISHER_TAB_FILES","Files");
-
+define("_CO_PUBLISHER_TAB_FILES","Fichiers");
 define("_CO_PUBLISHER_FILE","Fichiers");
 define("_CO_PUBLISHER_FILE_DESCRIPTION","Description");
-define("_CO_PUBLISHER_FILE_DESCRIPTION_DSC","Description du fichier à télécharger.");
-define("_CO_PUBLISHER_FILE_NAME_DSC","nom qui sera utilisé pour identifier le fichier.");
-define("_CO_PUBLISHER_FILE_STATUS","Dossier visible?");
-define("_CO_PUBLISHER_FILE_STATUS_DSC","Si vous sélectionnez Non, le fichier ne sera pas visible de l'utilisateur.");
-define("_CO_PUBLISHER_FILE_TO_UPLOAD","Fichier à télécharger:");
+define("_CO_PUBLISHER_FILE_DESCRIPTION_DSC","Description du fichier à charger.");
+define("_CO_PUBLISHER_FILE_NAME_DSC","Nom qui sera utilisé pour identifier le fichier.");
+define("_CO_PUBLISHER_FILE_STATUS","Fichier visible ?");
+define("_CO_PUBLISHER_FILE_STATUS_DSC","Si vous sélectionnez « Non », le fichier ne sera pas visible du côté utilisateur.");
+define("_CO_PUBLISHER_FILE_TO_UPLOAD","Fichier à charger:");
 define("_CO_PUBLISHER_FILE_TYPE","Type de fichier");
-define("_CO_PUBLISHER_FILE_UPLOAD_ANOTHER","Envoyer de nouveau");
-define("_CO_PUBLISHER_FILENAME","Nom de fichier");
-define("_CO_PUBLISHER_FILES_LINKED","Fichiers liés à cet article");
-
+define("_CO_PUBLISHER_FILE_UPLOAD_ANOTHER","Charger un autre fichier");
+define("_CO_PUBLISHER_FILENAME","Nom du fichier");
+define("_CO_PUBLISHER_FILES_LINKED","Fichiers en lien avec cet article");
 //Added 30/05/2012
-define("_CO_PUBLISHER_EDITFILE","Modifier le fichier");
-define("_CO_PUBLISHER_DELETEFILE","Effacer le fichier");
-// Modifications de traduction par Cesag pour frxoops.org le 03 Juin 2012.
+define("_CO_PUBLISHER_EDITFILE","Modifier un fichier");
+define("_CO_PUBLISHER_DELETEFILE","Supprimer un fichier");

@@ -1,15 +1,13 @@
 <?php
-
 /**
- * $Id: admin.php 836 2009-09-14 23:29:42Z Dugris $
+ * $Id$
  * Module: Publisher
  * Author: The SmartFactory <www.smartfactory.ca>
  * Licence: GNU
  */
-
-define("_AM_PUBLISHER_ABOUT","à propos");
+define("_AM_PUBLISHER_ABOUT","À propos");
 define("_AM_PUBLISHER_ACTION","Action");
-define("_AM_PUBLISHER_ADD_OPT","Créer %s autres sous catégories");
+define("_AM_PUBLISHER_ADD_OPT","Créer %s autres sous-catégories");
 define("_AM_PUBLISHER_ADD_OPT_SUBMIT","Ajouter");
 define("_AM_PUBLISHER_ALL","Tout");
 define("_AM_PUBLISHER_ALL_EXP","<strong>Tous les états</strong> : Tous les articles du module, quel que soit leur état.");
@@ -46,9 +44,9 @@ define("_AM_PUBLISHER_CATEGORY_EDIT_INFO","Vous pouvez modifier cette catégorie
 define("_AM_PUBLISHER_CATEGORY_HEADER","Entête de Catégorie");
 define("_AM_PUBLISHER_CATEGORY_HEADER_DSC","");
 define("_AM_PUBLISHER_CATEGORY_META_DESCRIPTION","Meta Description");
-define("_AM_PUBLISHER_CATEGORY_META_DESCRIPTION_DSC","Afin d'aider les moteurs de recherche, vous pouvez personnaliser la meta description à utiliser pour cette catégorie. Si vous laissez ce champ vide, le champ 'description' ci-dessus sera utilisé.");
+define("_AM_PUBLISHER_CATEGORY_META_DESCRIPTION_DSC","Afin d'aider les moteurs de recherche, vous pouvez personnaliser la meta description à utiliser pour cette catégorie. Si vous laissez ce champ vide, le champ « description » ci-dessus sera utilisé.");
 define("_AM_PUBLISHER_CATEGORY_META_KEYWORDS","Meta mots clés");
-define("_AM_PUBLISHER_CATEGORY_META_KEYWORDS_DSC","Afin d'aider les moteurs de recherche, vous pouvez personnaliser la meta mots-clés à utiliser pour cette catégorie. Si vous laissez ce champ vide, le champ 'description' ci-dessus sera utilisé.");
+define("_AM_PUBLISHER_CATEGORY_META_KEYWORDS_DSC","Afin d'aider les moteurs de recherche, vous pouvez personnaliser la meta mots-clés à utiliser pour cette catégorie. Si vous laissez ce champ vide, le champ « description » ci-dessus sera utilisé.");
 define("_AM_PUBLISHER_CATEGORY_SAVE_ERROR","Une erreur est survenue lors de la sauvegarde de cette catégorie. Voici la liste des erreurs:");
 define("_AM_PUBLISHER_CATEGORY_SHORT_URL","URL courte");
 define("_AM_PUBLISHER_CATEGORY_SHORT_URL_DSC","Si vous utilisez les fonctionnalités SEO du module, vous pouvez spécifier une URL courte pour cette catégorie. Ceci est optionnel.");
@@ -115,7 +113,7 @@ define("_AM_PUBLISHER_FILE_INFORMATIONS","Informations du fichier");
 //define("_AM_PUBLISHER_FILE_NAME","Nom");
 //define("_AM_PUBLISHER_FILE_NAME_DSC","Nom qui sera utilisé pour identifier le fichier.");
 //define("_AM_PUBLISHER_FILE_STATUS","Fichier visible ?");
-//define("_AM_PUBLISHER_FILE_STATUS_DSC","Si vous sélectionnez 'Non', le fichier ne sera pas visible du côté utilisateur.");
+//define("_AM_PUBLISHER_FILE_STATUS_DSC","Si vous sélectionnez « Non », le fichier ne sera pas visible du côté utilisateur.");
 //define("_AM_PUBLISHER_FILE_TO_UPLOAD","Fichier à charger:");
 //define("_AM_PUBLISHER_FILE_UPLOAD_ANOTHER","Charger un autre fichier");
 define("_AM_PUBLISHER_FILEISDELETED","Le fichier a été effacé de la base de données");
@@ -233,7 +231,7 @@ define("_AM_PUBLISHER_NOITEMSSEL","Désolé, il n'y a pas d'article dans l'état
 define("_AM_PUBLISHER_NOPERMSSET","Les permissions ne peuvent être configurées: Il n'y a pas encore de catégorie créée. Il faut d'abord en créer une.");
 define("_AM_PUBLISHER_NOSUBCAT","Il n'y a pas encore de sous catégorie créée");
 define("_AM_PUBLISHER_NOTAVAILABLE","<span style='font-weight: bold; color: red;'>Non disponible</span>");
-define("_AM_PUBLISHER_NOTWRITABLE","<span style='font-weight: bold; color: yellow;'>Pas accessible en écriture</span>");
+define("_AM_PUBLISHER_NOTWRITABLE","<span style='font-weight: bold; color: yellow;'>Non ouvert en écriture</span>");
 define("_AM_PUBLISHER_OFFLINE_CREATED_SUCCESS","l'article a été créé avec succès et mis hors ligne.");
 define("_AM_PUBLISHER_OFFLINE_EXP","<strong>Articles hors ligne</strong>: Articles publiés qui ont été mis hors ligne, temporairement ou non. Ces articles ne sont pas affichés du côté utilisateur.");
 define("_AM_PUBLISHER_OFFLINE_MOD_SUCCESS","l'article a été mis hors ligne avec succès.");
@@ -260,7 +258,7 @@ define("_AM_PUBLISHER_REJECTED_EDIT","Modifier cet article rejeté");
 define("_AM_PUBLISHER_REJECTED_ITEM","Articles rejetés");
 define("_AM_PUBLISHER_REJECTED_ITEM_EXP","<strong>Articles rejetés</strong>: articles qui ont été soumis par des utilisateurs, mais qui ont été rejetés par un modérateur. Ces articles ne sont pas visibles du côté utilisateur.");
 define("_AM_PUBLISHER_RUSUREDELF","Etes-vous sûr de vouloir supprimer ce fichier ?");
-define("_AM_PUBLISHER_SCATEGORYNAME","Créer des sous-catégories<br /><br /><span style='font-size: xx-small; font-weight: normal; display: block;'>Remplissez les champs à droite avec le nom des sous-catégories à créer.<br />Laissez blanc pour ne pas créer de sous-catégorie. Pour en créer plus, entrez le nombre supplémentaire à créer et faites 'Ajouter'</span>");
+define("_AM_PUBLISHER_SCATEGORYNAME","Créer des sous-catégories<br /><br /><span style='font-size: xx-small; font-weight: normal; display: block;'>Remplissez les champs à droite avec le nom des sous-catégories à créer.<br />Laissez blanc pour ne pas créer de sous-catégorie. Pour en créer plus, entrez le nombre supplémentaire à créer et faites « Ajouter »</span>");
 define("_AM_PUBLISHER_SEARCH","Recherche");
 define("_AM_PUBLISHER_SEARCH_PW","Extensions HTML, HTM ou XHTML seulement");
 define("_AM_PUBLISHER_SELECT_SORT","Trier par");
@@ -307,7 +305,6 @@ define("_AM_PUBLISHER_YES","Oui");
 //define("_AM_PUBLISHER_FULLACCESS","Permissions de lecture des catégories et des articles");
 //define("_AM_PUBLISHER_PERMISSIONS_UPDATED","Permissions mises à jour.");
 define("_AM_PUBLISHER_ITEM_TAG","Tags");
-
 //added in publisher
 define("_AM_PUBLISHER_PERMISSIONS_FORM","Options disponibles dans les formulaires de soumission");
 define("_AM_PUBLISHER_PERMISSIONS_FORM_DSC","Vous pouvez sélectionner les champs optionnels présents dans les formulaires de soumission des articles. Vous pouvez définir des valeurs par défaut pour ce domaine dans les préférences.");
@@ -318,30 +315,18 @@ define("_AM_PUBLISHER_PERMISSIONS_GLOBAL","Paramètres d'autorisation");
 define("_AM_PUBLISHER_PERMISSIONS_GLOBAL_DSC","Sélectionner les actions pouvant être effectuées par les groupes.");
 define("_AM_PUBLISHER_RATE","Noter");
 define("_AM_PUBLISHER_CLONE","Clone");
-define("_AM_PUBLISHER_CLONE_DSC","le clonage d'un module n'a jamais été aussi facile! Il suffit de taper le nom que vous voulez et cliquer sur Soumettre!");
+define("_AM_PUBLISHER_CLONE_DSC","le clonage d'un module n'a jamais été aussi facile ! Il suffit de taper le nom que vous voulez et cliquer sur Soumettre !");
 define("_AM_PUBLISHER_CLONE_TITLE","Clone %s");
 define("_AM_PUBLISHER_CLONE_NAME","Choisissez un nom pour le nouveau module");
 define("_AM_PUBLISHER_CLONE_NAME_DSC","Ne pas utiliser des caractères spéciaux! <br /> Ne choisissez pas le nom d'un module existant, d'une table ou d'une base de données");
-define("_AM_PUBLISHER_CLONE_INVALIDNAME","ERREUR: nom de module invalide, s'il vous plaît essayez en un autre!");
-define("_AM_PUBLISHER_CLONE_EXISTS","ERREUR: Nom du module déjà pris, s'il vous plaît essayez en un autre!");
-define("_AM_PUBLISHER_CLONE_CONGRAT","Bravo! le module %s a été créé avec succès! <br /> Vous pouvez apporter des modifications dans les fichiers de langue et changer l'image du module.");
-define("_AM_PUBLISHER_CLONE_IMAGEFAIL","attention, nous n'avons pas réussi à créer le logo du nouveau module. s'il vous plaît envisagez de modifier images/module_logo.png manuellement!");
+define("_AM_PUBLISHER_CLONE_INVALIDNAME","ERREUR: nom de module invalide, s'il vous plaît essayez en un autre !");
+define("_AM_PUBLISHER_CLONE_EXISTS","ERREUR: Nom du module déjà pris, s'il vous plaît essayez en un autre !");
+define("_AM_PUBLISHER_CLONE_CONGRAT","Bravo ! le module %s a été créé avec succès! <br /> Vous pouvez apporter des modifications dans les fichiers de langue et changer l'image du module.");
+define("_AM_PUBLISHER_CLONE_IMAGEFAIL","attention, nous n'avons pas réussi à créer le logo du nouveau module. s'il vous plaît envisagez de modifier images/module_logo.png manuellement !");
 define("_AM_PUBLISHER_CLONE_FAIL","Désolé, nous n'avons pas réussi à créer le nouveau clone. Peut-être que vous avez besoin de mettre temporairement les permissions d'écriture du répertoire du 'module' à (chmod 777) et essayez à nouveau.");
 define("_AM_PUBLISHER_COMMENTS","Commentaires");
-
 define("_AM_PUBLISHER_CATEGORY_MODERATOR","Modérateur");
-define("_AM_PUBLISHER_CATEGORY_MODERATOR_DSC","Un modérateur peut accéder et soumettre dans cette catégorie, même s'il ne dispose pas de groupe de permission. <br /> Pour modérer une sous-catégorie, l'utilisateur doit avoir les permissions de soumettre dans la catégorie parente. <br /> Configurez sur 'anonyme' si vous n'avez pas besoin d'un modérateur.");
-
-/**
- * @translation     AFUX (Association Francophone des Utilisateurs de Xoops) <http://www.afux.org/>
- * @translation     grandoc 2010-02-06
- * @specification   _LANGCODE: fr
- * @specification   _CHARSET: UTF-8
- *
- * @version         $Id: admin.php 836 2009-09-14 23:29:42Z Dugris $
- **/
-
+define("_AM_PUBLISHER_CATEGORY_MODERATOR_DSC","Un modérateur peut accéder et soumettre dans cette catégorie, même s'il ne dispose pas de groupe de permission. <br /> Pour modérer une sous-catégorie, l'utilisateur doit avoir les permissions de soumettre dans la catégorie parente. <br /> Configurez sur « anonyme » si vous n'avez pas besoin d'un modérateur.");
 //03/05/2012
-define("_AM_PUBLISHER_PERMISSIONS_CAT_MODERATOR","Permissions to moderate categories");
-define("_AM_PUBLISHER_PERMISSIONS_CAT_MODERATOR_DSC","Groups that will be allowed to moderate articles within this category. Users on this groups will be able to edit/delete/clone articles. Don't forget to also set submit permissions on this groups!");
-// Modifications de traduction par Cesag pour frxoops.org le 03 Juin 2012.
+define("_AM_PUBLISHER_PERMISSIONS_CAT_MODERATOR","Permissions de modération");
+define("_AM_PUBLISHER_PERMISSIONS_CAT_MODERATOR_DSC","Groupes qui seront autorisés à modérer les articles de cette catégorie. Les utilisateurs de ces groupes seront en mesure de modifier / supprimer / cloner les articles. N'oubliez pas de définir également les permissions de soumission de ces groupes !");
