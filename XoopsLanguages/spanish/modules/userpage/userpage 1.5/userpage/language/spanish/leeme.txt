@@ -1,0 +1,35 @@
+Traducción realizada por http://riosoft.es para "Proyecto eÑe"
+Para su instalación copiad el directorio 'spanish' dentro del directorio 'language' de vuestro módulo.
+
+No nos hacemos responsables del mal funcionamiento de este paquete aunque haya sido debidamente comprobado. Se entrega tal cual es y sin garantía de ningún tipo. Aceptas con el uso del mismo estas condiciones.
+
+Si encontráis algún error o queréis contribuir con algo acudid a:
+
+http://riosoft.es  (Página personal)
+http://rioxoops.es (mis artículos, descargas, versiones especiales, etc para Xoops)
+http://dev.xoops.org/modules/xfmod/project/?traducciones  (Repositorio del Proyecto eÑe)
+http://esxoops.com (soporte en español para Xoops)
+
+Esperamos vuestros comentarios, sugerencias, contribuciones, etc.
+
+Muchas gracias a todos los que colaboran con Xoops y especialmente a esxoops.com
+
+Saludos.
+Ismael R. (Riosoft)
+
+
+RECORDANDO:
+
+* Como siempre recuerdos para mis amigos Acostini Soft (Acosta) y Joaquinillo (necssus). 
+
+RECOMENDANDO:
+
+Si queréis leer cosas lindas de una amiga, por favor, visitad Ruta Fulgurante en 
+http://arandanilla.es
+
+LOS CRÉDITOS PARA:
+http://riosoft.es
+http://rioxoops.es
+
+Si consideras útil este trabajo haz clic en alguno de los banners de mi página  :-)
+Gracias.
