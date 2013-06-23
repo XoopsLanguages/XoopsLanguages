@@ -1,0 +1,29 @@
+<?php
+/**
+ * ****************************************************************************
+ * SHORTCUTS - MODULE FOR XOOPS
+ * Copyright (c) Hervé Thouzard of Instant Zero (http://www.instant-zero.com)
+ * ****************************************************************************
+ */
+define("_SHORTCUTS_PGTITLE1","¤¢¤Ê¤¿¤Î¥ê¥¹¥È¤Ë¥·¥ç¡¼¥È¥«¥Ã¥È¤òÄÉ²Ã¤¹¤ë");
+define("_SHORTCUTS_REACHLIMIT","´ÉÍý¿Í¤¬ÄêµÁ¤·¤¿µ¬Äê¿ô¡Ê %d ¸Ä¡Ë¤ËÃ£¤·¤Þ¤·¤¿");
+define("_SHORTCUTS_REGISTRED","ËÜ¥â¥¸¥å¡¼¥ë¤Î»ÈÍÑ¤ÏÅÐÏ¿¥æ¡¼¥¶¡¼¤Î¤ß¤Ç¤¹");
+define("_SHORTCUTS_URLEXIST","¤½¤ÎURL¤Ï¤¹¤Ç¤ËÅÐÏ¿¤µ¤ì¤Æ¤¤¤Þ¤¹¡£ºï½ü¤äÊÔ½¸¤·¤Þ¤¹¤«¡©");
+define("_SHORTCUTS_URL","URL");
+define("_SHORTCUTS_ADD_URL","URL¤ò²Ã¤¨¤ë");
+define("_SHORTCUTS_ADD_OK","URL¤ÏÌµ»ö¤Ë¥Ç¡¼¥¿¥Ù¡¼¥¹¤Ë²Ã¤¨¤é¤ì¤Þ¤·¤¿");
+define("_SHORTCUTS_ADD_PROBLEM","URL¤ò¥Ç¡¼¥¿¥Ù¡¼¥¹¤Ë²Ã¤¨¤ëºÝ¤ËÌäÂê¤¬µ¯¤­¤Þ¤·¤¿");
+define("_SHORTCUTS_DELETE_OK","URL¤¬Ìµ»öºï½ü¤µ¤ì¤Þ¤·¤¿");
+define("_SHORTCUTS_DELETE_PROBLEM","URL¤òºï½ü¤¹¤ëºÝ¤ËÌäÂê¤¬µ¯¤­¤Þ¤·¤¿");
+define("_SHORTCUTS_ADD_ERROR","¥¿¥¤¥È¥ë¤òÆþÎÏ¤·¤Æ¤¯¤À¤µ¤¤");
+define("_SHORTCUTS_LIST","¤¢¤Ê¤¿¤Î¥·¥ç¡¼¥È¥«¥Ã¥È¥ê¥¹¥È");
+define("_SHORTCUTS_MANAGEMENTS","¥·¥ç¡¼¥È¥«¥Ã¥È´ÉÍý");
+define("_SHORTCUTS_DATE","Æü»þ");
+define("_SHORTCUTS_TITLE","¥¿¥¤¥È¥ë");
+define("_SHORTCUTS_MODIFY","½¤Àµ");
+define("_SHORTCUTS_HITS","¥Ò¥Ã¥È");
+define("_SHORTCUTS_ACTION","¥¢¥¯¥·¥ç¥ó");
+define("_SHORTCUTS_CONFDELETE","ËÜÅö¤Ç¤¹¤«¡©");
+define("_SHORTCUTS_ADD_AN_ENTRY","¥¨¥ó¥È¥ê¤òÀè¤Ë²Ã¤¨¤Æ¤¯¤À¤µ¤¤");
+define("_SHORTCUTS_RATING","É¾²Á");
+?>
