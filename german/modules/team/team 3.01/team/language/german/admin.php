@@ -1,0 +1,216 @@
+<?php
+// $Id: admin.php,v 1.5 2006/06/09 14:32:47 mithyt2 Exp $
+//%%%%%%        Admin Module Name  Articles         %%%%%
+define("_AM_DBUPDATED","Datenbank erfolgreich aktualisiert!");
+define("_AM_CONFIG","Match Konfiguration");
+define("_AM_EDIT","Bearbeiten");
+define("_AM_DELETE","Löschen");
+define("_AM_EDITMATCH","Match bearbeiten");
+define("_AM_RUSUREDEL","Wollen sie wirklich dieses Match und alle Kommentare löschen?");
+define("_AM_MONTHC","Monat:");
+define("_AM_DAYC","Tag:");
+define("_AM_YEARC","Jahr:");
+define("_AM_TIMEC","Uhrzeit:");
+define("_AM_ADD","Hinzufügen");
+define("_AM_EMPTYNODELETE","Match ist leer, kann nicht gelöscht werden");
+define("_AM_MATCHMNGR","Matches verwalten");
+define("_AM_POSMNGR","Positionen verwalten");
+define("_AM_MAPMNGR","Maps verwalten");
+define("_AM_TEAMMNGR","Teams verwalten");
+define("_AM_SERVERMNGR","Server verwalten");
+define("_AM_ADDBUTTON", "Hinzufügen -->");
+define("_AM_DELBUTTON", "<-- Löschen ");
+
+//addedbyfrankblack
+define("_AM_TEAMMATCHLISTFORALLTEAMS","Match List für alle Teams");
+define("_AM_TEAMADDMATCH","Match hinzufügen");
+define("_AM_TEAMMATCHTYPE","Match Typ:");
+define("_AM_TEAMRESULT","Ergebnis");
+define("_AM_TEAMOPPONENT","Kontrahent:");
+define("_AM_TEAMNEWMAPNAME","Neuer Map Name ");
+define("_AM_TEAMADDSERVER","Server hinzufügen");
+define("_AM_TEAMSERVERNAME","Server Name");
+define("_AM_TEAMSERVERIP","Server IP");
+define("_AM_TEAMSERVERPORT","Server Port");
+define("_AM_TEAMPOSITIONADDED","Position hinzugefügt");
+define("_AM_TEAMPOSITIONMODIFIED","Position bearbeitet");
+define("_AM_TEAMPOSITIONDELETED","Position gelöscht");
+define("_AM_TEAMERRORWHILESAVINGSERVER","Beim speichern des Servers ist ein Fehler aufgetreten");
+define("_AM_TEAMNAME","Team Name");
+define("_AM_TEAMTYPE","Team Typ");
+define("_AM_TEAMMAPSPERMATCH","Maps pro Match");
+define("_AM_TEAMNOPERMISSIONS","keine Berechtigung");
+define("_AM_TEAMPLAYERSADDED","Spieler hinzugefügt");
+define("_AM_TEAMPLAYERSNOTADDED","Spieler NICHT hinzugefügt");
+define("_AM_TEAMPLAYERSREMOVED","Spieler gelöscht");
+define("_AM_TEAMPLAYERSNOTREMOVED","Spieler NICHT gelöscht");
+define("_AM_TEAMMAPSADDED","Map(s) hinzugefügt");
+define("_AM_TEAMMAPSNOTADDED","Map(s) NICHT hinzugefügt");
+define("_AM_TEAMMAPSREMOVED","Map(s) gelöscht");
+define("_AM_TEAMMAPSNOTREMOVED","Map(s) NICHT gelöscht");
+define("_AM_TEAMSERVERSADDED","Server(s) hinzugefügt");
+define("_AM_TEAMSERVERSNOTADDED","Server NICHT hinzugefügt");
+define("_AM_TEAMSERVERSREMOVED","Server gelöscht");
+define("_AM_TEAMSERVERSNOTREMOVED","Server(s) NICHT gelöscht");
+define("_AM_TEAMPOSITIONSADDED","Position(en) hinzugefügt");
+define("_AM_TEAMPOSITIONSNOTADDED","Position(en) NICHT hinzugefügt");
+define("_AM_TEAMPOSITIONSREMOVED","Position(en) gelöscht");
+define("_AM_TEAMPOSITIONSNOTREMOVED","Position(en) NICHT gelöscht");
+define("_AM_TEAMNONMEMBERS","Nichtmitglieder");
+define("_AM_TEAMMEMBERADMIN","Mitgliederverwaltung");
+define("_AM_TEAMTEAMMEMBERS","Teammitglieder");
+define("_AM_TEAMNONSELECTED","Nichtausgewählt");
+define("_AM_TEAMMAPSELECTION","Map Auswahl");
+define("_AM_TEAMTEAMMAPS","Team Maps");
+define("_AM_TEAMPOSITIONSELECTION","Positions Auswahl");
+define("_AM_TEAMPOSITIONSKILLSELECTION","Skill Auswahl");
+define("_AM_TEAMSERVERSELECTION","Server Auswahl");
+define("_AM_TEAMPOSITIONSHORT","Positions Kürzel");
+define("_AM_TEAMPOSITIONNAME","Positions Name");
+define("_AM_TEAMTYPE2","Typ");
+define("_AM_TEAMORDER","Reihenfolge");
+define("_AM_TEAMSETASDEFAULTTEAM","Als Standard Team setzen");
+define("_AM_TEAMERRORDEFAULTTEAMNOTCHANGED","Fehler - Standard Team NICHT verändert");
+define("_AM_TEAMMAPID","Mapid");
+define("_AM_TEAMMAPNAME","Mapname");
+define("_AM_TEAMADDTEAM","Team hinzufügen");
+define("_AM_TEAMTEAMID","Teamid");
+define("_AM_TEAMMAPSMATCH","Maps/Match");
+define("_AM_TEAMDEFAULT","Standard");
+define("_AM_TEAMTEAMSELECTION","Team Auswahl");
+define("_AM_TEAMDATE","Datum");
+define("_AM_TEAMADDED","Hinzugefügt");
+define("_AM_TEAMMAPDELFROMPOOLMAP","Map aus dem Map Pool gelöscht");
+define("_AM_TEAMDELETED","Team gelöscht");
+define("_AM_TEAMSERVERDELETED","Server gelöscht");
+define("_AM_TEAMSERVERDELBOOKNOT","Server gelöscht - Buchungen NICHT gelöscht");
+define("_AM_TEAMERRSERVERNOTDEL","Fehler - Server NICHT gelöscht");
+define("_AM_TEAMBACKTOTEAMLIST","Zurück zur Team Liste");
+define("_AM_TEAMADDEDTOMAPPOOL","Dem Map Pool hinzugefügt");
+define("_AM_TEAMMAPNAMEMODIF","Map Name geändert");
+define("_AM_TEAMPOSITIONTYPE","Positions Typ");
+define("_AM_SUBMITMATCH","Match hinzugefügt");
+define("_NW_POST","Speichern");
+define("_AM_TEAMSIZE","Teamgröße:");
+define("_AM_TEAMMATCHRESULT","Match Ergebnis:");
+define("_AM_TEAMWIN","Sieg");
+define("_AM_TEAMLOSS","Niederlage");
+define("_AM_TEAMDRAW","Unentschieden");
+define("_AM_TEAMFIRSTMAP","Erste Map:");
+define("_AM_TEAMSECONDMAP","Zweite Map:");
+define("_AM_TEAMTHIRDMAP","Dritte Map:");
+define("_AM_TEAMUS","Wir:");
+define("_AM_TEAMTHEM","Sie:");
+define("_AM_TEAMSERVER","Server:");
+define("_AM_TEAMACTIVE","Aktiviert");
+define("_AM_TEAMEDITED","Geändert");
+define("_AM_TEAMOPTIONSFOR","Optionen für");
+
+//Added by Mithrandir 03/09-2003
+define("_AM_TEAMSELECTED", "Ausgewählt");
+define("_AM_TEAMSIZESELECTION", "Team Größen");
+define("_AM_TEAMSIZESADDED", "Team Größe hinzugefügt");
+define("_AM_TEAMSIZESNOTADDED", "Team Größe NICHT hinzugefügt");
+define("_AM_TEAMSIZESREMOVED", "Team Größe gelöscht");
+define("_AM_TEAMSIZESNOTREMOVED", "Team Größe NICHT gelöscht");
+define("_AM_TEAMSIZEMNGR", "Team Größen verwalten");
+define("_AM_TEAMERRSIZENOTDEL", "Fehler - Team Größe NICHT gelöscht");
+define("_AM_TEAMSIZEDELETED", "Team Größe gelöscht");
+define("_AM_TEAMERRORWHILESAVINGSIZE", "Beim speichern der Team Größe trat ein Fehler auf!");
+define("_AM_TEAMADDSIZE", "Team Größe hinzufügen");
+define("_AM_TEAMSIZEID", "Team Größe ID");
+define("_AM_TEAMSIZES", "Team Größen");
+define("_AM_TEAMSIZENAME", "Team Größe");
+define("_AM_TEAMRANKSFORALLTEAMS", "Ränge für alle Teams");
+define("_AM_TEAMADDRANK", "Rang hinzufügen");
+define("_AM_TEAMRANKID", "Rang ID");
+define("_AM_TEAMRANK", "Rang");
+define("_AM_TEAMRANKMNGR", "Ränge verwalten");
+define("_AM_TEAMTACTICSRANK", "Taktik");
+define("_AM_TEAMMATCHRANK", "Matches");
+define("_AM_TEAMRANKCOLOR", "Rangfarbe");
+define("_AM_TEAMERRORWHILESAVINGRANK", "Beim speichern des Rangs trat ein Fehler auf!");
+define("_AM_TEAMRANKSELECTION", "Rang Auswahl");
+define("_AM_TEAMRANKSADDED", "Team Ränge hinzugefügt");
+define("_AM_TEAMRANKSNOTADDED", "Team Ränge NICHT hinzugefügt");
+define("_AM_TEAMRANKSREMOVED", "Team Ränge gelöscht");
+define("_AM_TEAMRANKSNOTREMOVED", "Team Ränge NICHT gelöscht");
+
+//added 0310
+define("_AM_TEAMTEAMADDED","Hinzugefügt");
+define("_AM_TEAMTEAMEDITED","Geändert");
+
+//Added version 1.30 - Mithrandir
+define("_AM_RUSUREDELTEAM", "Sind Sie sicher, dass Sie das ausgewählte Team und alle enthaltenen Items löschen wollen?");
+define("_AM_RUSUREDELSERVER", "Sind Sie sicher, dass Sie den ausgewählten Server löschen wollen?");
+define("_AM_RUSUREDELMAP", "Sind Sie sicher, dass Sie die ausgewählte Map löschen wollen?");
+define("_AM_RUSUREDELPOS", "Sind Sie sicher, dass Sie die ausgewählte Position löschen wollen?");
+define("_AM_RUSUREDELRANK", "Sind Sie sicher, dass Sie den ausgewählten Rang löschen wollen?");
+define("_AM_RUSUREDELSIZE", "Sind Sie sicher, dass Sie die ausgewählte Team Größe löschen wollen?");
+define("_AM_RUSUREDELSIDE", "Sind Sie sicher, dass sie die ausgewählte Team Seite lösche wollen?");
+define("_AM_TEAMSIDE"," Team Seite:");
+define("_AM_TEAMSIDESELECTION", "Team Seiten");
+define("_AM_TEAMSIDESADDED", "Team Seite(n) hinzugefügt");
+define("_AM_TEAMSIDESNOTADDED", "Team Seiten (n) NICHT hinzugefügt");
+define("_AM_TEAMSIDESREMOVED", "Team Seite (n) gelöscht");
+define("_AM_TEAMSIDESNOTREMOVED", "Team Seite (n) NICHT gelöscht");
+define("_AM_TEAMSIDEMNGR", "Team Seiten verwalten");
+define("_AM_TEAMERRSIDENOTDEL", "Fehler - Team Seiten NICHT gelöscht");
+define("_AM_TEAMSIDEDELETED", "Team Seite gelöscht");
+define("_AM_TEAMERRORWHILESAVINGSIDE", "Beim speichern der Team Seite trat ein Fehler auf!");
+define("_AM_TEAMADDSIDE", "Team Seite hinzufügen");
+define("_AM_TEAMSIDEID", "Team Seiten ID");
+define("_AM_TEAMSIDES", "Team Seiten");
+define("_AM_TEAMSIDESHORT", "Kürzel");
+define("_AM_TEAMSIDENAME", "Team Seiten Name");
+define("_AM_TEAMERRORWHILESAVINGTEAM", "Beim speichern des Team trat ein Fehler auf!");
+define("_AM_TEAMCONFIG","Team Konfiguration");
+define("_AM_TEAMEDITSERVER", "Server bearbeiten");
+define("_AM_TEAMEDITRANK", "Rang bearbeiten");
+define("_AM_TEAMEDITTEAM", "Team bearbeiten");
+
+// Added 17.11.2003 - Jace
+define("_AM_TEAMLAYOUTMNGR","Layout verwalten");
+define("_AM_TEAMLAYOUTCOLORSTATUSACTIVE","Farbe (Spieler Status aktiv)");
+define("_AM_TEAMLAYOUTCOLORSTATUSINACTIVE","Farbe (Spieler Status inaktiv)");
+define("_AM_TEAMLAYOUTCOLORSTATUSONLEAVE","Farbe (Spieler Status verlassend)");
+define("_AM_TEAMLAYOUTCOLORSTATUSPENDING","Farbe (Match läuft)");
+define("_AM_TEAMLAYOUTCOLORSTATUSWIN","Farbe (Match gewonnen)");
+define("_AM_TEAMLAYOUTCOLORSTATUSLOSS","Farbe (Match verloren)");
+define("_AM_TEAMLAYOUTCOLORSTATUSDRAW","Farbe (Match ist unentschieden)");
+define("_AM_SAVE","Speichern");
+define("_AM_TEAMERRORWHILESAVINGLAYOUT","Beim speichern des Layout trat ein Fehler auf!");
+define("_AM_TEAMLAYOUTSAVED","Layout gespeichert");
+define("_AM_MATCHREVIEW","Review:");
+define("_AM_CUSTOMSERVER","Eigener Server");
+define("_AM_MAYCHOOSECUSTOMSERVER","oder wählen Sie \"Custom Server\" und tragen IP/Port/Beschreibung hier ein:");
+
+// Added 24.11.2003 - Jace
+define("_AM_TEAMLADDERNAME","Name der Rangliste");
+define("_AM_TEAMLADDERVISIBLE","Ranglistenmatches sichtbar in der Übersicht??");
+define("_AM_YES","Ja");
+define("_AM_NO","Nein");
+define("_AM_LADDERMNGR","Rangliste verwalten");
+define("_AM_TEAMLADDERDELETED","Rangliste gelöscht");
+define("_AM_RUSUREDELLADDER", "Sind Sie sicher, dass Sie die ausgewählte Rangliste löschen wollen?");
+define("_AM_TEAMLADDERADDED","Rangliste hinzugefügt");
+define("_AM_TEAMLADDERMODIFIED","Rangliste bearbeitet");
+define("_AM_TEAMLADDERSELECTION", "Teamrangliste");
+define("_AM_TEAMLADDERSADDED", "Teamrangliste(n) hinzugefügt");
+define("_AM_TEAMLADDERSNOTADDED", "Teamrangliste(n) NICHT hinzugefügt");
+define("_AM_TEAMLADDERSREMOVED", "Teamrangliste(n) gelöscht");
+define("_AM_TEAMLADDERSNOTREMOVED", "Teamrangliste(n) NICHT gelöscht");
+define("_AM_SCREENSHOTS", "Screenshots:");
+define("_AM_SCREENSHOTNAME", "Screenshot");
+define("_AM_ADDSCREENSHOTS", "Zum Bearbeiten oder hochladen hier klicken");
+define("_AM_TEAMERRORWHILESAVINGSCREENSHOT","Beim speichern des Screenshot trat ein Fehler auf!");
+
+// added 04-12-2003 Mithrandir
+define("_AM_TEAMSCORESVISIBLE", "Match Ergebnisse sichtbar für Nichtmitglieder?");
+
+// added 09-01-2004 Mithrandir
+define ("_AM_TEAMLAYOUTPERFECTCOLOR", "Farbe (Perfekt)");
+define ("_AM_TEAMLAYOUTGOODCOLOR", "Farbe (Gut)");
+define ("_AM_TEAMLAYOUTWARNCOLOR", "Farbe (Warnung)");
+define ("_AM_TEAMLAYOUTBADCOLOR", "Farbe (Schlecht)");
+?>

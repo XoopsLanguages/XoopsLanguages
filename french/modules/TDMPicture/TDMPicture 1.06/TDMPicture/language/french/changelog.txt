@@ -1,0 +1,47 @@
+************************************************************
+Version 1.00 | 03-OCT-2009
+Dev: Xoops 2.0.16 / 2.2.3
+************************************************************
+- 10/10/09 : Ajout de l'anglais
+- 10/10/09 : Suppression du .htaccess bug
+************************************************************
+************************************************************
+Version 1.01 | 17-NOV-2009
+Dev: Xoops 2.0.16 / 2.2.3
+************************************************************
+- 17/11/09 : modifier admin/index.php ajout permission dossier upload
+- 17/11/09 : modifier tdmpicture.css changement dans le theme
+- 17/11/09 : modifier tpfile.html, viewfile.html changement dans le template
+- 17/11/09 : modifier viewfile.php, functions.php bug de redimention
+- 17/11/09 : modifier  include.php jquery bug alert
+- 18/11/09 : modifier xoops_version.php, tpcat.html, index.php, viewcat.php redimension image catégories.
+- 18/11/09 : modifier meta automatique
+************************************************************
+Version 1.02 | 17-NOV-2009
+Dev: Xoops 2.4.2
+************************************************************
+- 21/12/09 : modifier xoops_version.php bug
+- 21/12/09 : modifier all.php bug xoops 2.4
+- 21/12/09 : modifier all.html ajout de variable smarty
+************************************************************
+Version 1.03 | 14-MAR-2010
+Dev: 2.4.2
+************************************************************
+- 14/03/10 : modifier all ajout multi upload
+- 14/03/10 : modifier tdmpicture.css changement dans le theme
+- 14/03/10 : modifier xoops_version ajout d'option.
+- 14/03/10 : modifier jquery mode noConflict
+- 14/03/10 : modifier  search.inc.php bug info user
+- 14/03/10 : modifier rss.php, bug IE.
+- 14/03/10 : modifier viewcat style d'affichage catégorie.
+************************************************************
+Version 1.04 | 31-MAR-2010
+Dev: 2.4.4
+************************************************************
+- 31/03/10 : modifier xoops_version.php bug affichage
+************************************************************
+Version 1.05 | 12-AVR-2010
+Dev: 2.4.4
+************************************************************
+- 12/04/10 : modifier permission bug
+- 11/12/10 : multiupload 
