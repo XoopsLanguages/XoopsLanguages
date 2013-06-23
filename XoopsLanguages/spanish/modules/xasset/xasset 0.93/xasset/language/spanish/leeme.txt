@@ -1,0 +1,20 @@
+Traducción del módulo realizada por "Proyecto eÑe"
+Para su instalación copiad el directorio 'spanish' dentro del directorio 'language' de vuestro módulo.
+
+Si encontráis algún error o queréis contribuir con algo:
+
+http://dev.xoops.org/modules/xfmod/project/?traducciones
+
+Allí podréis dejar vuestros comentarios, sugerencias, contribuciones, etc.
+
+Muchas gracias a todos lo que colaboran con Xoops y especialmente a esxoops.com
+Saludos
+
+RECORDANDO:
+
+* Como siempre recuerdos para mis amigos Acostini Soft (Acosta) y Joaquinillo (necssus). 
+
+RECOMENDANDO:
+Si queréis leer cosas lindas de una amiga, por favor, visitad Ruta Fulgurante en 
+
+http://arandanilla.es
