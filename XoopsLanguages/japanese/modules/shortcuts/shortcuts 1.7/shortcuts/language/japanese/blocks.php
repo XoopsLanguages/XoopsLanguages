@@ -1,0 +1,21 @@
+<?php
+/**
+ * ****************************************************************************
+ * SHORTCUTS - MODULE FOR XOOPS
+ * Copyright (c) Hervé Thouzard of Instant Zero (http://www.instant-zero.com)
+ * ****************************************************************************
+ */
+define("_SHORTCUT_ADD_CURRENT_URL","¸½ºß¤Î¥Ú¡¼¥¸¤ò²Ã¤¨¤ë");
+define("_SHORTCUT_VIEW_SHORTCUT","¥Ú¡¼¥¸¤ò¸«¤ë");
+define("_SHORTCUT_EDIT_SHORTCUTS","¥·¥ç¡¼¥È¥«¥Ã¥È¤òÊÔ½¸");
+define("_SHORTCUT_DISPLAY_LAYOUT","¥ì¥¤¥¢¥¦¥È¤òÉ½¼¨");
+define("_SHORTCUT_DISPLAY_1","¥³¥ó¥Ü¥Ü¥Ã¥¯¥¹");
+define("_SHORTCUT_DISPLAY_2","Ì¤À°Íý¥ê¥¹¥È");
+define("_SHORTCUT_DISPLAY_3","¥³¥ó¥Æ¥­¥¹¥È¥á¥Ë¥å¡¼");
+define("_SHORTCUT_DISPLAY_4","¿åÊ¿¥¹¥¯¥í¡¼¥ë");
+define("_SHORTCUT_DISPLAY_5","¿âÄ¾¥¹¥¯¥í¡¼¥ë");
+
+// Added in version 1.4
+define("_SHORTCUT_INFORMATION_TO_DISPLAY","Information to display");
+define("_SHORTCUT_ELEMENTS_TO_DISPLAY","Elements to display");
+?>
