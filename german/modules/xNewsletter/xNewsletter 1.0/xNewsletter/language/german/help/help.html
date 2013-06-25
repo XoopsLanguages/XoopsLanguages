@@ -1,0 +1,141 @@
+<?php   
+/**
+ * ****************************************************************************
+ *  - A Project by Developers TEAM For Xoops - ( http://www.xoops.org )
+ * ****************************************************************************
+ *  XNEWSLETTER - MODULE FOR XOOPS
+ *  Copyright (c) 2007 - 2012
+ *  goffy (  )
+ *
+ *  You may not change or alter any portion of this comment or credits
+ *  of supporting developers from this source code or any supporting
+ *  source code which is considered copyrighted (c) material of the
+ *  original comment or credit authors.
+ *
+ *  This program is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *  GNU General Public License for more details.
+ *  ---------------------------------------------------------------------------
+ *  @copyright  goffy (  )
+ *  @license    gpl 2.0
+ *  @package    xNewsletter
+ *  @author     goffy (  )
+ *
+ *  Version : $Id $
+ * ****************************************************************************
+ */
+	
+<div id="help-template" class="outer">
+    <h1 class="head">Help:
+        <a class="ui-corner-all tooltip" href="<{$xoops_url}>/modules/xNewsletter/admin/index.php"
+           title="Zur&uuml;ck zur xNewsletter-Administration"> Zurück zur xNewsletter-Administration&nbsp;&nbsp;<img src="<{xoAdminIcons home.png}>" alt="Zur&uuml;ck zur xNewsletter-Administration"/>
+        </a></h1>
+    <!-- -----Help Content ---------- -->
+    <h4 class="odd">Beschreibung</h4>
+    <p class="even">
+        Newsletter-Modul für Xoops<br /><br />
+    </p>
+    <h4 class="odd">Installation/Deinstallation</h4>
+    <p class="even">
+    Es sind keine speziellen Maßnahmen erforderlich, führen Sie den Standardinstallationsprozess aus:<br/> 
+    - Extrahieren Sie den Ordner xNewsletter in das Module-Verzeichnis<br/>
+    - Installieren Sie das Modul über Administration -> Module<br/>
+    Wenn Sie zustätzliche Informationen benötigen, lesen Sie die Installationshinweise unter <a href="http://goo.gl/adT2i">XOOPS Operations
+    Manual</a>.<br /><br /></p>
+    <h4 class="odd">Tutorial</h4>
+    <!-- -----Help Content ---------- -->
+    
+
+    <h5 class="odd">Grundsätzliche Informationen</h5>
+    <p class="even">Das Modul basiert auf dem PHPMailer und PHPMailer-BMH
+    <br /><br /></p>
+    
+    <h5 class="odd">An- und Abmeldungen zu Newslettern</h5>
+    <p class="even">
+    Für die einzelnen Newsletter bzw. für bestimmte Gruppen kann festgelegt werden, ob An-/Abmeldungen bzw. Änderungen eine Bestätigungsmail mit Aktivierungsschlüssel erforderlich ist oder nicht (verwendet Double-Opt-in).<br/>
+    <br /><br /></p>
+    
+    <h5 class="odd">E-Mail-Konten</h5>
+    <p class="even">
+    Sie können ein oder mehrere Konten verwenden. Das Verwenden von php mail(), php sendmail(), pop3, smtp und Googlemail ist möglich.<br/>
+    Mit einem Zusatzfeature können die Einstellungen überprüft werden.<br/>
+    <br />
+    Achtung: Funktionen wie das Testen der Kontoeinstellungen, das Versenden von Mails, die Verwendung des Bounced Mail Handlers funktionieren normalerweise nicht auf einen lokalen Server,... (Sie erhalten eine weiße Seite ohne Fehlermeldung).<br/>
+    <br /><br /></p>
+    
+    <h5 class="odd">Newsletter-Kategorien</h5>
+    <p class="even">
+    Sie können eine oder mehrere Newsletter (Newsletter-Kategorien) verwalten.<br/>
+    Die Berechtigungen für "Lesen", "Erstellen", "Verwalten" bzw. "Auflisten der Abonnenten" können für jede Newsletter-Kategorie seperat eingestellt werden.<br/>
+    <br /><br /></p>
+    
+    <h5 class="odd">Newsletter erstellen</h5>
+    <p class="even">
+    Die Newsletter können mit jedem Texteditor erstellt werden, der im aktuellen Xoops-Core installiert ist (z.B. TinyMCE). <br/>
+    Der Newsletter kann verschiedenen Vorlagen zugewiesen werden (siehe auch 'Newsletter - Templates').<br/>
+    Der Newsletter kann einer oder auch mehrerer Newsletterkategorien zugewiesen werden.<br/>
+    Einem Newsletter können bis zu 5 Dateien als Anlagen beigefügt werden.<br/><br/>
+    Alternativ können Sie auch einen Newsletter kopieren und als neuen Newsletter bearbeiten bzw. senden.<br/><br/>
+    Die Art des Texteditors, die zulässigen Dateitypen sowie die Dateigröße für Mailanhänge können in den Moduleinstellungen definiert werden.<br/>
+    <br /><br /></p>
+    
+    <h5 class="odd">Newsletter - Templates</h5>
+    <p class="even">
+    Die Newsletter basieren auf Templates.<br/>
+    Die Templates finden Sie unter  language/{aktuellesprache}/templates.<br/>
+    Um ein neues Template zu erstellen müssen Sie nur in diesem Verzeichnis eine neue html-Datei erstellen und die Smarty-Variablen reinkopieren.<br/>
+    Achtung: es muss eine html-Datei sein, htm wird nicht erkannt!<br />
+    <br /><br /></p>
+    
+    <h5 class="odd">Senden des Newsletters</h5>
+    <p class="even">
+    Sie können sich eine Vorschau vor dem Versenden anzeigen lassen.<br/>
+    Sie können sich den Newsletter testweise an eine von Ihnen festgelegte E-Mail-Adresse senden lassen.<br/>
+    Der Newsletter wird je Abonnent versendet.<br/>
+    Für jede Sendeaktion wird ein Protokolleintrag erstellt.<br/>
+    Wenn ein oder mehrere Sendevorgänge fehlgeschlagen sind, kann dies im Protokoll nachvollzogen werden.<br/>
+    Sie können den Sendevorgang jederzeit neu starten. Sie können dabei den Newsletter neuerlich an alle versenden oder nur an jene Abonnenten, bei denen der Sendevorgang bisher noch nicht erfolgreich abgeschlossen werden konnte.
+    <br/><br />
+    Achtung: Funktionen wie das Testen der Kontoeinstellungen, das Versenden von Mails, die Verwendung des Bounced Mail Handlers funktionieren normalerweise nicht auf einen lokalen Server,... (Sie erhalten eine weiße Seite ohne Fehlermeldung).<br/>
+    <br /><br /></p>
+    
+    <h5 class="odd">Bounced mail handler (BMH)</h5>
+    <p class="even">
+    Wenn Sie Newsletter versenden, wird es immer wieder vorkommen, dass einzelne Mails nicht zugestellt werden können (bounced mails), weil z.B. die E-Mail-Adresse nicht mehr gültig ist, weil die Mailbox voll ist, usw.<br/>
+    Um solche Ereignisse zu verarbeiten und auch darauf zu reagieren, können Sie den BMH verwenden.
+    Sie können den BMH für jedes einzelne E-Mail-Konto aktivieren.<br/>
+    Nicht zustellbare Mails, die vom BMH als solche erkannt werden, können gelöscht oder in einen dafür vorgesehenen Ordner verschoben werden.<br/>
+    Mögliche Aktionen für nicht zugestellte Mails:<br/>
+      -- Keine Aktion (nur Ablage)<br/>
+      -- Vorübergehendes Stilllegen der Anmeldungen für die jeweilige E-Mail-Adresse<br/>
+      -- Löschen der Anmeldungen für die jeweilige E-Mail-Adresse<br/>
+    <br/>
+    <br />
+    <h6 class="odd">Arten von bounced mails</h6>
+    <u>bounce type hard:</u>
+    Dies bedeutet, dass ein ständiger Fehler vorliegt, z.B. Empfänger unbekannt, Domain unbekannt, usw.<br/>
+    Diese Mails werden nach Entdeckung/Klassifizierung als Typ hard gelöscht, deshalb wird empfohlen, die movehard-Option zu verwenden (die Mails werden dann nur in diesen Ordner verschoben, sie können die Mail später auch noch überprüfen, wenn Sie wollen).<br/>
+    <br />
+    <u>bounce type soft:</u><br/>
+    Dies bedeutet, dass ein vorübergehender Fehler vorliegt, z.B. Mailbox voll, Server momentan nicht verfügbar, usw.<br/>
+    Diese Mails werden nach Entdeckung/Klassifizierung als Typ soft nicht gelöscht, es wird jedoch trotzdem empfohlen, die movesoft-Option zu verwenden, um den Hauptordner Posteingang frei zu halten.<br/>
+    <br />
+    Achtung: Funktionen wie das Testen der Kontoeinstellungen, das Versenden von Mails, die Verwendung des Bounced Mail Handlers funktionieren normalerweise nicht auf einen lokalen Server,... (Sie erhalten eine weiße Seite ohne Fehlermeldung).<br/>
+    <br /><br /></p>
+      
+    <h5 class="odd">Verwendung von Mailinglisten</h5>
+    <p class="even">
+    Wenn Sie bereits Mailinglisten verwenden/angelegt haben, so können sie die An-/Abmeldungen von einzelnen Newsletter-Kategorien auch mit den dazugehörigen Mailiglisten synchriónisieren lassen.<br/>
+    Ich verwende neben diesem Newslettermodul majordomo-Mailinglisten, weil man dann sowohl von diesem Modul aus als auch vom normalen E-Mail-Programm aus Newsletter versenden kann.<br/>
+    Einer der Nachteile von Mailinglisten ist, dass, sofern jemand bei zwei oder mehr Mailinglisten registriert ist, und ich einen Newsletter an alle Mailinglisten versende, diese Person den gleichen Newsletter mehrfach erhält. Mit xNewsletter erhält er diesen Newsletter nur einmal.
+    <br />
+    <b>xNewsletter kann keine Mailinglisten erstellen.</b>.
+    <br /><br /></p>
+    
+    <h5 class="odd">Wartung</h5>
+    <p class="even">
+    Das Modul besitzt eine Wartungsfunktion, bei der einige mögliche Fehler in den Daten behoben werden können.
+    <br /><br /></p>
+        
+</div>
