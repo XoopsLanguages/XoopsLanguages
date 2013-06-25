@@ -1,0 +1,65 @@
+<?php
+//  ------------------------------------------------------------------------ //
+//                      XOOPSCARE - MODULE FOR XOOPS 2                		 //
+//                  Copyright (c) 2007, 2008 Instant Zero                    //
+//                     <http://www.instant-zero.com/>                        //
+// ------------------------------------------------------------------------- //
+//  This program is free software; you can redistribute it and/or modify     //
+//  it under the terms of the GNU General Public License as published by     //
+//  the Free Software Foundation; either version 2 of the License, or        //
+//  (at your option) any later version.                                      //
+//                                                                           //
+//  You may not change or alter any portion of this comment or credits       //
+//  of supporting developers from this source code or any supporting         //
+//  source code which is considered copyrighted (c) material of the          //
+//  original comment or credit authors.                                      //
+//                                                                           //
+//  This program is distributed in the hope that it will be useful,          //
+//  but WITHOUT ANY WARRANTY; without even the implied warranty of           //
+//  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the            //
+//  GNU General Public License for more details.                             //
+//                                                                           //
+//  You should have received a copy of the GNU General Public License        //
+//  along with this program; if not, write to the Free Software              //
+//  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 USA //
+//  ------------------------------------------------------------------------ //
+
+define("_MI_XC_ADMENU1","ÇáÎíÇÑÇÊ");
+define("_MI_XC_ADMENU2","ÇáÓÌá");
+define("_MI_XC_ADMENU3","ÇáÅÖÇÝÇÊ");
+
+define("_MI_XC_NAME","ÑÚÇíÉ ÒææÈÓ");
+define("_MI_XC_DESC","ãæÏíá áÑÚÇíÉ æÕíÇäÉ ÒææÈÓ");
+define("_MI_XC_LOGFILE","ãáÝ ÇáÓÌá");
+define("_MI_XC_LOGFILE_DSC","ÅÎÊÑ ÅÓã ÇáãáÝ áÅÓÊÚãÇáå Ýí ÊÓÌíá ÃÚãÇá ÇáãæÏíá");
+define("_MI_XC_CRON_PASS","ßáãÉ ãÑæÑ ÇáßÑæä");
+define("_MI_XC_CRON_PASS_DSC","ÃÎÊÑ ßáãÉ ãÑæÑ áíÓÊÚãáåÇ ÇáßÑæä ááÈÏÃ Ýí ÚãáíÉ ÇáÊäÙíÝ");
+define("_MI_XC_MAINTAIN","ÕíÇäÉ ÞÇÚÏÉ ÇáÈíÇäÇÊ ßá");
+define("_MI_XC_MAINTAIN_DSC","åÐÇ ÓíÚÇáÌ æíÝÍÕ ÞÇÚÏÉ ÇáÈíÇäÇÊ ßá ... íæã");
+define("_MI_XC_QUERIES","ÇáÞíÇã ÈÇáÚãáíÇÊ");
+define("_MI_XC_QUERIES_DSC","ÇáÞíÇã ÈÇáÚãáíÇÊ ßá ... íæã");
+define("_MI_XC_QUERIES_LST","ÞÇÆãÉ ÇáÚãáíÇÊ");
+define("_MI_XC_QUERIES_LST_DSC","ÃßÊÈ ÇáÚãáíÇÊ ÇáÊí ÊÑíÏ ÇáÞíÇã ÈåÇ");
+define("_MI_XC_TPL","Cache æ Templates_c");
+define("_MI_XC_TPL_DSC","ÊäÙíÝ cache æ templates_c ßá ... íæã");
+define("_MI_XC_SPAMCMNT","ÇáÊÚáíÞÇÊ ÇáÊØÝáíÉ (spams)");
+define("_MI_XC_SPAMCMNT_DSC","ÍÐÝ ÇáÊÚáíÞÇÊ ÇáÊØÝáíÉ ßá ... íæã");
+define("_MI_XC_SPAMSTATE","ãÇ íÌÈ ÇáÞíÇã Èå áÊÚáíÞÇÊ ÇáÊØÝáíÉ¿");
+define("_MI_XC_SPAMSTATE_DSC","ÍÝÙ¡ ÚÏã äÔÑ¡ ÅÎÝÇÁ ÍÐÝ ÇáÊÚáíÞÇÊ ÇáÊØÝáíÉ");
+define("_MI_XC_SPAMBLOCK","ãäÚ äÇÔÑí ÇáÊÚáíÞÇÊ ÇáÊØÝáíÉ¿");
+define("_MI_XC_SPAMBLOCK_DSC","åá ÊÑíÏ ãäÚ äÇÔÑí ÇáÊÚáíÞÇÊ ÇáÊØÝáíÉ¿");
+define("_MI_XC_SESSIONS","ÊÝÑíÛ ÇáÌáÓÇÊ (sessions)");
+define("_MI_XC_SESSIONS_DSC","ÊÝÑíÛ ÇáÌáÓÇÊ (sessions) ßá ... íæã");
+define("_MI_XC_MAINTIAN_L","ÂÎÑ ãÑÉ Êã ÕíÇäÉ ÞÇÚÏÉ ÇáÈíÇäÇÊ");
+define("_MI_XC_QUERIES_L","ÂÎÑ ãÑÉ Êã ÇáÞíÇã ÈÇáÚãáíÇÊ");
+define("_MI_XC_TPL_L","ÂÎÑ ãÑÉ Êã ÊäÙíÝ cache æ templates_c");
+define("_MI_XC_SPAMCMNT_L","ÂÎÑ ãÑÉ Êã ÍÐÝ ÇáÊÚáíÞÇÊ ÇáÊØÝáíÉ");
+define("_MI_XC_SESSIONS_L","ÂÎÑ ãÑÉ Êã ÊäÙíÝ ÇáÌáÓÇÊ");
+define("_MI_XC_PHP","ÊäÝíÐ Php");
+define("_MI_XC_PHP_DSC","ÃßÊÈ ÈÚÖ ÔÝÑÇÊ Php áÊäÝíÐåÇ ßá ... íæã");
+define("_MI_XC_PHP_L","ÂÎÑ ãÑÉ Êã ÝíåÇ ÊäÝíÐ ÔÝÑÉ Php");
+define("_MI_XC_PHP_SCRIPT","Php Codes");
+define("_MI_XC_PHP_SCRIPT_DSC","ÃßÊÈ  ÇáÔÝÑÉ ÇáÊì ÊÑíÏ Ãä íÊã ÊäÝíÐåÇ");
+define("_MI_XC_HELP","ÇáãÓÇÚÏÉ");
+define("_MI_XC_BNAME1","ÕíÇäÉ ÇáãæÞÚ");
+?>
