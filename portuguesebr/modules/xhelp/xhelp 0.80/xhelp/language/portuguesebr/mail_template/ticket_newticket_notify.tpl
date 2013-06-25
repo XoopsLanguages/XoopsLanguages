@@ -1,0 +1,19 @@
+Caro(a) {TICKET_CREATED},
+
+Obrigado por seu ticket enviado. Nós recebemos seu pedido e responderemos o mais cedo possível ao mesmo.
+
+Aqui é um resumo de informação do ticket:
+----------------------------------------------
+ASSUNTO: {TICKET_SUBJECT}
+DESCRIÇÃO: {TICKET_DESCRIPTION}
+PRIORIDADE: {TICKET_PRIORITY}
+HORA do ENVIO: {TICKET_POSTED}
+
+Clique no link abaixo para ver o ticket:
+{TICKET_URL}
+
+----------------------------------------------
+
+{X_SITENAME} ({X_SITEURL}) 
+webmaster
+{X_ADMINMAIL}
