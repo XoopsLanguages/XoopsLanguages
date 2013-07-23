@@ -130,3 +130,7 @@ define('_US_GROUPS',"Gruppo(i) dell'utente");
 define('_US_REMEMBERME','Ricorda');
 // Welcoming emai/PM subject
 define('_US_WELCOME_SUBJECT',"Benvenuto\a %s");
+
+//XOOPS 2.5.4
+define('_US_SKYPE','Skype');
+define('_US_FACEBOOK','Facebook');

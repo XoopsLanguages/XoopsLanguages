@@ -1,3 +1,6 @@
 /* $Id$ */
 
 /* localization stylesheet */
+.it, .it_IT {
+    direction: ltr;
+}
