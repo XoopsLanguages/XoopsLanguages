@@ -248,6 +248,6 @@ define("_FORMUPLOAD","Carica File");
 /**
  * Additions to 2.5.5
 **/
-define('_DBDATESTRING','Y-m-d');
+define('_DBDATESTRING','d-m-Y');
 define('_DBTIMESTRING','H:i:s');
-define('_DBTIMESTAMPSTRING','Y-m-d H:i:s');
+define('_DBTIMESTAMPSTRING','d-m-Y H:i:s');
