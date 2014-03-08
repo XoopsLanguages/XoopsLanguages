@@ -1,0 +1,7 @@
+<?php
+define("_AM_XMMEMBERSTATS_WELCOME","Bem vindo à página de administração do Módulo 'Lista de Membros'");
+define("_AM_XMMEMBERSTATS_IMPORT","Importar");
+define("_AM_XMMEMBERSTATS_IMPORT_ITC","Importar lista Ip-To-Country");
+define("_AM_XMMEMBERSTATS_GENERALSET","Preferências");
+define("_AM_XMMEMBERSTATS_GOTOMOD","Ir para o módulo");
+define("_AM_XMMEMBERSTATS_HELP","Ajuda");
