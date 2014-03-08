@@ -1,0 +1,27 @@
+<?php
+define("_MA_XMMEMBERSTATS_WELCOMETO","Bem vindo à lista de membros");
+define("_MA_XMMEMBERSTATS_GREETINGS","Último Membro");
+define("_MA_XMMEMBERSTATS_WEHAVESOFAR","membros registados");
+define("_MA_XMMEMBERSTATS_ALL","Todos");
+define("_MA_XMMEMBERSTATS_OTHER","Outros");
+define("_MA_XMMEMBERSTATS_SEARCH","Pesquisar");
+define("_MA_XMMEMBERSTATS_RESETSEARCH","Limpar Pesquisa");
+define("_MA_XMMEMBERSTATS_AVATAR","Avatar");
+define("_MA_XMMEMBERSTATS_NICKNAME","Nickname");
+define("_MA_XMMEMBERSTATS_REALNAME","Nome Verdadeiro");
+define("_MA_XMMEMBERSTATS_REGDATE","Data de Registo");
+define("_MA_XMMEMBERSTATS_EMAIL","Email");
+define("_MA_XMMEMBERSTATS_PM","MP");
+define("_MA_XMMEMBERSTATS_URL","Website");
+define("_MA_XMMEMBERSTATS_FUNCTIONS","Funções");
+define("_MA_XMMEMBERSTATS_EDIT","Editar");
+define("_MA_XMMEMBERSTATS_DELETE","Eliminar");
+define("_MA_XMMEMBERSTATS_NOUSERFOUND","Não foi encontrado nenhum membro");
+
+//rank.php
+define("_MA_XMMEMBERSTATS_MRANK","Posição dos membros");
+define("_MA_XMMEMBERSTATS_RANK","Posição");
+define("_MA_XMMEMBERSTATS_SRANK","Posição especial");
+define("_MA_XMMEMBERSTATS_MINPOST","Mínimo de envios");
+define("_MA_XMMEMBERSTATS_MAXPOST","Máximo de envios");
+define("_MA_XMMEMBERSTATS_IMAGE","Imagem");
