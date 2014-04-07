@@ -22,7 +22,7 @@ define('_THREADED','Threaded');
 define('_OLDESTFIRST','Oldest First');
 define('_NEWESTFIRST','Newest First');
 define('_MORE','more...');
-define('_MULTIPAGE','To have your article span multiple pages, insert the word <font color=red>[pagebreak]</font> (with brackets) in the article.');
+define('_MULTIPAGE','To have your article span multiple pages, insert the word <span color=red>[pagebreak]</span> (with brackets) in the article.');
 define('_IFNOTRELOAD','If the page does not automatically reload, please click <a href=\'%s\'>here</a>');
 // Error messages issued by XoopsObject::cleanVars()
 define('_XOBJ_ERR_REQUIRED','%s is required');
@@ -108,7 +108,7 @@ define("_MD_IMGCATSTRTYPE","Images are uploaded to:");
 define("_MD_STRTYOPENG","This can not be changed afterwards!");
 define("_MD_ASFILE","Store as files (in uploads directory)");
 define("_MD_INDB","Store in the database (as binary \"blob\" data)");
-define("_MD_IMGMAIN","Category"); 
+define("_MD_IMGMAIN","Category");
 define("_MD_EDITIMGCAT","Images Settings");
 define('_IMGMANAGER','Image Manager');
 define('_NUMIMAGES','%s images');
@@ -173,7 +173,8 @@ define('_WEEK','1 week');
 define('_MONTH','1 month');
 define('_DATESTRING','Y/n/j G:i:s');
 define('_MEDIUMDATESTRING','Y/n/j G:i');
-define('_SHORTDATESTRING','Y/n/j');
+//define('_SHORTDATESTRING','n/j/Y');
+define('_SHORTDATESTRING','m/d/Y');
 /**
 * The following characters are recognized in the format string:
 * a - 'am' or 'pm'

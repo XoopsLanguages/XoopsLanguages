@@ -2,6 +2,17 @@ LANGUAGE DIFFERENCES
 =====================
 
 Below are language differences from a version to next version.
+
+===============================
+2014/03/18: Version 2.5.7 RC1
+===============================
+ADDED/DELETED DEFINES
+
+/modules/system/language/english/admin.php
+- added define('_AM_SYSTEM_USAGE',"Usage");
+- added define('_AM_SYSTEM_ACTIVE',"Active");
+
+
 ===============================
 2012/04/15: Version 2.5.5
 ===============================

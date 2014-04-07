@@ -13,18 +13,15 @@
  * @license     GNU GPL 2 (http://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
  * @author      Grégory Mage (Aka Mage)
  */
-
 // Info
 define('_AM_MODULEADMIN_CONFIG','Configuration Check');
-define('_AM_MODULEADMIN_CONFIG_CHMOD',"The folder '%s' must be with a chmod '%s' (it's now set on %s).'");
+define('_AM_MODULEADMIN_CONFIG_CHMOD',"The folder '%s' must be with a chmod '%s' (it's now set on %s).");
 define('_AM_MODULEADMIN_CONFIG_FOLDERKO',"The folder '%s' does not exist");
 define('_AM_MODULEADMIN_CONFIG_FOLDEROK',"The folder '%s' exists");
 define('_AM_MODULEADMIN_CONFIG_PHP','Minimum PHP required: %s (your version is %s)');
 define('_AM_MODULEADMIN_CONFIG_XOOPS','Minimum XOOPS required: %s (your version is %s)');
-
-define('_AM_MODULEADMIN_CONFIG_DB','minimum version required: %s (your version is %s)');
+define('_AM_MODULEADMIN_CONFIG_DB','Minimum version required: %s (your version is %s)');
 define('_AM_MODULEADMIN_CONFIG_ADMIN','Minimum ModuleAdmin required: %s (your version is %s)');
-
 // About
 define('_AM_MODULEADMIN_ABOUT_CHANGELOG','Change log');
 define('_AM_MODULEADMIN_ABOUT_DESCRIPTION','Description');
@@ -32,18 +29,15 @@ define('_AM_MODULEADMIN_ABOUT_MODULEINFO','Module Info');
 define('_AM_MODULEADMIN_ABOUT_MODULESTATUS','Status:');
 define('_AM_MODULEADMIN_ABOUT_UPDATEDATE','Updated:');
 define('_AM_MODULEADMIN_ABOUT_WEBSITE',"Website:");
-
 define("_AM_MODULEADMIN_ABOUT_RELEASEDATE","Released: ");
 define("_AM_MODULEADMIN_ABOUT_AUTHOR","Author: ");
 define("_AM_MODULEADMIN_ABOUT_CREDITS","Credits: ");
 define("_AM_MODULEADMIN_ABOUT_LICENSE","License: ");
 define("_AM_MODULEADMIN_ABOUT_AUTHOR_NAME","Author name: ");
 define("_AM_MODULEADMIN_ABOUT_AUTHOR_INFO","Author Info");
-
 define("_AM_MODULEADMIN_HOME","Home");
 define("_AM_MODULEADMIN_DASHBOARD","Dashboard");
 define("_AM_MODULEADMIN_ABOUT","About");
 define("_AM_MODULEADMIN_PERMISSIONS","Permissions");
-
 //ModuleAdmin
 define("_AM_MODULEADMIN_ADMIN_FOOTER","<div class='center smallsmall italic pad5'>This module is maintained by the <a class='tooltip' rel='external' href='http://xoops.org/' title='Visit XOOPS Community'>XOOPS Community</a></div>");

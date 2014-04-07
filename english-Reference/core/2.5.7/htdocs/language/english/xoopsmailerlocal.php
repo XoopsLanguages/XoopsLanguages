@@ -1,14 +1,13 @@
 <?php
 /*
  You may not change or alter any portion of this comment or credits
- of supporting developers from this source code or any supporting source code 
+ of supporting developers from this source code or any supporting source code
  which is considered copyrighted (c) material of the original comment or credit authors.
- 
+
  This program is distributed in the hope that it will be useful,
  but WITHOUT ANY WARRANTY; without even the implied warranty of
  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 */
-
 /**
  *  Xoops Language
  *
@@ -21,7 +20,6 @@
  * @version         $Id$
  */
 defined('XOOPS_ROOT_PATH') or die('Restricted access');
-
 /**
  * Localize the mail functions
  *
@@ -43,16 +41,24 @@ class XoopsMailerLocal extends XoopsMailer
         // You MUST specify the language code value so that the file exists: XOOPS_ROOT_PAT/class/mail/phpmailer/language/lang-["your-language-code"].php
         $this->multimailer->SetLanguage("en");
     }
-    
     // Multibyte languages are encouraged to make their proper method for encoding FromName
+    /**
+     * @param $text
+     *
+     * @return mixed
+     */
     function encodeFromName($text)
     {
         // Activate the following line if needed
         // $text = "=?{$this->charSet}?B?".base64_encode($text)."?=";
         return $text;
     }
-    
     // Multibyte languages are encouraged to make their proper method for encoding Subject
+    /**
+     * @param $text
+     *
+     * @return mixed
+     */
     function encodeSubject($text)
     {
         // Activate the following line if needed

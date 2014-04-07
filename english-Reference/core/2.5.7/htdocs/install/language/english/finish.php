@@ -21,5 +21,3 @@ Remove the folder <em>{$installer_modified}</em> (or <em>install</em> if it was 
 </div>
 </p>
 ";
-
-?>

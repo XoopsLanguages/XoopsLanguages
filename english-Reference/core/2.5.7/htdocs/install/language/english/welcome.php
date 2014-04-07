@@ -6,7 +6,7 @@
 
 $content .= '
 <p>
-    <acronym title="eXtensible Object-Oriented Portal System">XOOPS</acronym> is an open-source
+    <abbr title="eXtensible Object-Oriented Portal System">XOOPS</abbr> is an open-source
     Object-Oriented Web publishing system written in PHP. It is an ideal tool for
     developing small to large dynamic community websites, intra company portals, corporate portals, weblogs and much more.
 </p>
@@ -33,4 +33,3 @@ $content .= '
     <li>Turn cookie and JavaScript of your browser on.</li>
 </ol>
 ';
-?>

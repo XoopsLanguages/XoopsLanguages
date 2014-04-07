@@ -2,8 +2,8 @@
 // _LANGCODE: en
 // _CHARSET : UTF-8
 // Translator: XOOPS Translation Team
-/* 
- * ISO 3166 Maintenance agency (ISO 3166/MA) - ISO's focal point for country codes 
+/*
+ * ISO 3166 Maintenance agency (ISO 3166/MA) - ISO's focal point for country codes
  * Website: http://www.iso.org/iso/country_codes.htm
  *
  */
@@ -51,7 +51,7 @@ define('_COUNTRY_CD','Congo (Dem. Rep.)');
 define('_COUNTRY_CF','Central African Republic');
 define('_COUNTRY_CG','Congo');
 define('_COUNTRY_CH','Switzerland');
-define('_COUNTRY_CI',"Côte d'Ivoire"); 
+define('_COUNTRY_CI',"Côte d'Ivoire");
 define('_COUNTRY_CK','Cook Islands');
 define('_COUNTRY_CL','Chile');
 define('_COUNTRY_CM','Cameroon');
