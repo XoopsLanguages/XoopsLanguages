@@ -9,9 +9,7 @@
  * @version		$Id$
  * @package		xoopseditor
  */
-
 /*
  * Assocated with editor_registry.php
  */
-define("_XOOPS_EDITOR_TEXTAREA","Plain Text");
-?>
+define('_XOOPS_EDITOR_TEXTAREA',"Plain Text");

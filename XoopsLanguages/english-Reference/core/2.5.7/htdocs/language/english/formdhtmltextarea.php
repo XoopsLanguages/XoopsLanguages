@@ -3,7 +3,7 @@
  * Language definitions for {@link XoopsFormDhtmlTextArea}
  *
  * You may not change or alter any portion of this comment or credits
- * of supporting developers from this source code or any supporting source code 
+ * of supporting developers from this source code or any supporting source code
  * which is considered copyrighted (c) material of the original comment or credit authors.
  * This program is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
@@ -23,26 +23,26 @@ defined('XOOPS_ROOT_PATH') or die('Restricted access');
 // _CHARSET : UTF-8
 // Translator: XOOPS Translation Team
 /**
- * Localized fonts 
+ * Localized fonts
  */
 $GLOBALS['formtextdhtml_fonts'] = array(
-    'Arial' , 
-    'Courier' , 
-    'Georgia' , 
-    'Helvetica' , 
-    'Impact' , 
-    'Verdana' , 
+    'Arial' ,
+    'Courier' ,
+    'Georgia' ,
+    'Helvetica' ,
+    'Impact' ,
+    'Verdana' ,
     'Haettenschweiler');
 /**
  * Localized font sizes: 'font size value' => 'font size name'
  */
 $GLOBALS['formtextdhtml_sizes'] = array(
-    'xx-small' => 'xx-Small' , 
-    'x-small' => 'x-Small' , 
-    'small' => 'Small' , 
-    'medium' => 'Medium' , 
-    'large' => 'Large' , 
-    'x-large' => 'x-Large' , 
+    'xx-small' => 'xx-Small' ,
+    'x-small' => 'x-Small' ,
+    'small' => 'Small' ,
+    'medium' => 'Medium' ,
+    'large' => 'Large' ,
+    'x-large' => 'x-Large' ,
     'xx-large' => 'xx-Large');
 define('_XOOPS_FORM_ALT_URL','URL');
 define('_XOOPS_FORM_ALT_EMAIL','Email');

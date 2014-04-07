@@ -1,9 +1,9 @@
 <?php
 /*
  You may not change or alter any portion of this comment or credits
- of supporting developers from this source code or any supporting source code 
+ of supporting developers from this source code or any supporting source code
  which is considered copyrighted (c) material of the original comment or credit authors.
- 
+
  This program is distributed in the hope that it will be useful,
  but WITHOUT ANY WARRANTY; without even the implied warranty of
  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
@@ -24,10 +24,10 @@ defined('XOOPS_ROOT_PATH') or die('Restricted access');
 
 setlocale(LC_ALL, 'en_US');
 
-// !!IMPORTANT!! insert '\' before any char among reserved chars: "a","A","B","c","d","D","F","g","G","h","H","i","I","j","l","L","m","M","n","O","r","s","S","t","T","U","w","W","Y","y","z","Z"    
+// !!IMPORTANT!! insert '\' before any char among reserved chars: "a","A","B","c","d","D","e","F","g","G","h","H","i","I","j","l","L","m","M","n","O","r","s","S","t","T","U","w","W","Y","y","z","Z"
 // insert double '\' before 't','r','n'
 define("_TODAY","\T\o\d\a\y G:i");
-define("_YESTERDAY","\Y\e\s\\t\e\\r\d\a\y G:i");
+define("_YESTERDAY","\Y\\e\s\\t\\e\\r\d\a\y G:i");
 define("_MONTHDAY","n/j G:i");
 define("_YEARMONTHDAY","Y/n/j G:i");
 define("_ELAPSE","%s ago");
@@ -47,24 +47,25 @@ class XoopsLocal extends XoopsLocalAbstract
     /**
      * Number Formats
      *
-     * @param unknown_type $number
+     * @param  unknown_type $number
      * @return unknown
      */
     function number_format($number)
     {
         return number_format($number, 2, '.',',');
     }
-    
+
     /**
-     * Money Format 
+     * Money Format
      *
-     * @param string $format
-     * @param string $number
-     * @return money format
+     * @param  string $format
+     * @param  string $number
+     * @return money  format
      */
     function money_format($format, $number)
     {
         setlocale(LC_MONETARY, 'en_US');
+
         return money_format($format, $number);
     }
 }

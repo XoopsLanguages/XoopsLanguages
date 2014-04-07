@@ -39,7 +39,6 @@ define('_LOGGER_BLOCKS',"Blocks");
 define('_LOGGER_EXTRA',"Extra");
 define('_LOGGER_TIMERS',"Timers");
 
-
 define('_LOGGER_TIMETOLOAD',"%s took %s seconds to load.");
 
 define('_LOGGER_TOTAL',"Total");
