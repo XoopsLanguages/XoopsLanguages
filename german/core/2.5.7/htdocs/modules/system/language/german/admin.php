@@ -84,4 +84,6 @@ define("_MD_AM_PERMRESETNG",         "Das Gruppenrecht für das Modul %s konnte 
 define("_MD_AM_PERMADDNGP",          "Alle Elemente müssen markiert werden.");
 
 define("_AM_SYSTEM_UNINSTALL","Deinstallieren");
-?>
+
+define('_AM_SYSTEM_USAGE',"Verwendet");
+define('_AM_SYSTEM_ACTIVE',"Aktiv");
