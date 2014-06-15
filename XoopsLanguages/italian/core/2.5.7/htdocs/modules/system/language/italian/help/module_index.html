@@ -1,0 +1,7 @@
+<div id="help-template" class="outer">
+
+<h2 class="head">Modulo di Sistema</h2>
+<h4 class="odd">Descrizione</h4>
+<p class="even">Amministrazione delle impostazioni e delle funzionalit&agrave; generali del sito.</p>
+
+</div> 
