@@ -204,4 +204,5 @@ define( "PASSWORD_STRONG", "gut");
 define( "PASSWORD_STRONGEST", "sehr gut");
 
 define("FILTER_FUNCTIONS","Filterfunction");
-?>
+//2.5.7
+define('WRITTEN_LICENSE',"XOOPS Lizenz %s geschriben. Lizenzschlüssel: <strong>%s</strong>");
