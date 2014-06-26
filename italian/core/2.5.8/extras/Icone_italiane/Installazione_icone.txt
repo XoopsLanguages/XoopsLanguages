@@ -1,0 +1,9 @@
+--------------------------------------
+INSTALLAZIONE ICONE ITALIANE PER XOOPS
+--------------------------------------
+
+- Accedere alla root (cartella principale) del proprio sito xoops
+
+- Copiare direttamente la cartella 'images' del pack di traduzione (nella cartella extras) e permettere la sovrascrittura
+
+- Le icone di modifica ed eliminazioni dei commenti e altre funzioni saranno in italiano
