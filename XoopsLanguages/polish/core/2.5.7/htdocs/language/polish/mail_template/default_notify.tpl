@@ -1,4 +1,4 @@
-Witaj {X_UNAME},
+﻿Witaj {X_UNAME},
 
 Zdarzenie {X_NOTIFY_EVENT} wystąpiło w {X_ITEM_TYPE} "{X_ITEM_TILE}", która jest monitorowana w module {X_MODULE} w naszym serwisie.
 

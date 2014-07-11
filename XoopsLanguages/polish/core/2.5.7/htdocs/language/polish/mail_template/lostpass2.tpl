@@ -1,4 +1,4 @@
-Witaj {X_UNAME},
+﻿Witaj {X_UNAME},
 
 Użytkownik z adresu {IP} zgłosił prośbę o nowe hasło.
 Oto Twoje dane dla strony {SITENAME}.

@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 // $Id$
 // _LANGCODE: en
 // _CHARSET : UTF-8
@@ -173,6 +173,7 @@ define('_WEEK', '1 tydzień');
 define('_MONTH', '1 miesiąc');
 define('_DATESTRING', 'j.m.Y, G:i:s');
 define('_MEDIUMDATESTRING', 'd.m.Y, G:i');
+define('_SHORTDATESTRING', 'd.m.Y');
 define('_SHORTDATESTRING', 'd.m.Y');
 /**
 * The following characters are recognized in the format string:

@@ -1,8 +1,8 @@
-<?php
+﻿<?php
 /**
  * @copyright   The XOOPS Project http://sourceforge.net/projects/xoops/
  * @license     http://www.fsf.org/copyleft/gpl.html GNU public license
- * _LANGCODE    en
+ * _LANGCODE    pl
  * _CHARSET     UTF-8
  * @version     $Id$
  */
@@ -180,3 +180,17 @@ define("_AM_SYSTEM_MODULES_CONFIRM_TIPS",
 "<ul>
 <li>Sprawdź wszystkie zmiany i potwierdź, jeżeli są poprawne.</li>
 </ul>");
+// Tips
+define('_AM_SYSTEM_MODULES_TIPS',
+"<ul>
+<li>Pamiętaj aby po zainstalowaniu nowego modułu skonfigurować preferencje modułu, bloki i uprawnienia użytkowników!</li>
+<li>Aby ukryć moduł w bloku Menu Główne ustaw kolejność na 0 (zero)</li>
+<li>Usuwaj nieużywane pliki modułów z serwera aby uniknąć dziur w bezpieczeństwie i utrzymać witrynę bezpieczną.</li>
+<li>Aby zmienić kolejność modułów (co zostanie odzwierciedlone w menu) wystarczy że złapiesz i puścisz (drag and drop) moduły w odpowiednim miejscu.</li>
+</ul>");
+define('_AM_SYSTEM_MODULES_CONFIRM_TIPS',
+"<ul>
+<li>Sprawdź czy modyfikacje są poprawne.</li>
+</ul>");
+// 2.5.7
+define('_AM_SYSTEM_MODULES_INSTALL_TESTDATA',"Dodaj dane testowe");

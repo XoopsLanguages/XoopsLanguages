@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 // $Id$
 
 define("_AD_SYSOPTIONS","Opcje sytemowe");

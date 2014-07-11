@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 /**
  * @copyright   The XOOPS Project http://sourceforge.net/projects/xoops/
  * @license     http://www.fsf.org/copyleft/gpl.html GNU public license
@@ -15,6 +15,7 @@ define("_AM_SYSTEM_MAINTENANCE_NAV_DUMP","Zapis tabel");
 define("_AM_SYSTEM_MAINTENANCE_SESSION","Wyczyść tabelę z danymi o sesjach (unikatowe identyfikatory połączeń)");
 define("_AM_SYSTEM_MAINTENANCE_SESSION_OK","Czyszczenie zapisanych sesji: OK");
 define("_AM_SYSTEM_MAINTENANCE_SESSION_NOTOK","Czyszczenie zapisanych sesji : Błąd");
+define('_AM_SYSTEM_MAINTENANCE_AVATAR',"Usuń nieużywane awatary");
 define("_AM_SYSTEM_MAINTENANCE_CACHE","Czyszczenie folderów Cache z plikami tymczasowymi");
 define("_AM_SYSTEM_MAINTENANCE_CACHE_OK","Wyczyszczone");
 define("_AM_SYSTEM_MAINTENANCE_CACHE_NOTOK","Błąd : nie udało się przeprowadzić pełnego czyszczenia");
@@ -39,6 +40,7 @@ define("_AM_SYSTEM_MAINTENANCE_RESULT_NO_RESULT","Brak wyniku");
 define("_AM_SYSTEM_MAINTENANCE_RESULT_CACHE","Zadanie: Czyszczenie plików z Cache");
 define("_AM_SYSTEM_MAINTENANCE_RESULT_SESSION","Zadanie: Czyszczenie zapisanych sesji");
 define("_AM_SYSTEM_MAINTENANCE_RESULT_QUERY","Zadanie: Operacje na tabelach");
+define('_AM_SYSTEM_MAINTENANCE_RESULT_AVATAR',"Zadanie usunięcia niewykorzystanych awatarów");
 define("_AM_SYSTEM_MAINTENANCE_ERROR_MAINTENANCE","Nie wybrano żadnego polecenia konserwacji");
 
 define("_AM_SYSTEM_MAINTENANCE_TABLES1","Tabele");

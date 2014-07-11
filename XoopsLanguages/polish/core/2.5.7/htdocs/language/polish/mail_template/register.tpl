@@ -1,4 +1,4 @@
-Witaj {X_UNAME},
+﻿Witaj {X_UNAME},
 
 Dziękujemy za zarejestrowanie się na stronie {SITENAME}.
 
