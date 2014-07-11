@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 // $Id$
 // _LANGCODE: pl
 // _CHARSET : UTF-8
