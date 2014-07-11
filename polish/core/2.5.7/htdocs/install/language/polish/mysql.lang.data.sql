@@ -1,4 +1,4 @@
-#
+﻿#
 # Dumping data for table `ranks`
 #
 
