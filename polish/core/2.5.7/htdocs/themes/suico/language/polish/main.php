@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 /*
  * Suico theme
  * In memory of Marcello Brandao

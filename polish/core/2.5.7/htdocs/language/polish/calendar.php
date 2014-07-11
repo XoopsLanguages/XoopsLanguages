@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 // $Id$
 // _LANGCODE: en
 // _CHARSET : UTF-8
@@ -7,6 +7,38 @@
 
 //%%%%%     Time Zone   %%%%
 define("_CAL_FORMAT","Y-m-d");
+define('_CAL_FORMAT',_SHORTDATESTRING);
+
+//%%%%%     JQuery Calendar Time Zone   %%%%
+define('_CAL_JQUERY_FORMAT',"yyyy-mm-dd");
+// Week Mini Text
+define('_CAL_MIN_SUNDAY',"Nd");
+define('_CAL_MIN_MONDAY',"Pn");
+define('_CAL_MIN_TUESDAY',"Wt");
+define('_CAL_MIN_WEDNESDAY',"Śr");
+define('_CAL_MIN_THURSDAY',"Cz");
+define('_CAL_MIN_FRIDAY',"Pt");
+define('_CAL_MIN_SATURDAY',"So");
+// Week Short Text
+define('_CAL_SHORT_SUNDAY',"Ndz");
+define('_CAL_SHORT_MONDAY',"Pon");
+define('_CAL_SHORT_TUESDAY',"Wt");
+define('_CAL_SHORT_WEDNESDAY',"Śr");
+define('_CAL_SHORT_THURSDAY',"Czw");
+define('_CAL_SHORT_FRIDAY',"Pt");
+define('_CAL_SHORT_SATURDAY',"Sob");
+define('_CAL_SHORT_JANUARY',"Sty");
+define('_CAL_SHORT_FEBRUARY',"Lut");
+define('_CAL_SHORT_MARCH',"Mar");
+define('_CAL_SHORT_APRIL',"Kwi");
+define('_CAL_SHORT_MAY',"Maj");
+define('_CAL_SHORT_JUNE',"Cze");
+define('_CAL_SHORT_JULY',"Lip");
+define('_CAL_SHORT_AUGUST',"Sie");
+define('_CAL_SHORT_SEPTEMBER',"Wrz");
+define('_CAL_SHORT_OCTOBER',"Paź");
+define('_CAL_SHORT_NOVEMBER',"Lis");
+define('_CAL_SHORT_DECEMBER',"Gru");
 
 define("_CAL_SUNDAY", "Niedziela");
 define("_CAL_MONDAY", "Poniedziałek");

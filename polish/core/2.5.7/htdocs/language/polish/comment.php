@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 // $Id$
 // _LANGCODE: en
 // _CHARSET : UTF-8
@@ -40,3 +40,6 @@ define('_CM_COMAPPROVEUSER', 'Komentarze zarejestrowanych użytkowników zawsze 
 define('_CM_COMAPPROVEADMIN', 'Wszystkie komentarze muszą być zatwierdzone przez administratora');
 define('_CM_COMANONPOST', 'Pozwolić na anonimowe komentowanie?');
 define('_CM_COMNOCOM', 'Wyłącz komentowanie');
+define('_CM_USER','Nazwa');
+define('_CM_EMAIL','Email');
+define('_CM_URL','Witryna WWW');

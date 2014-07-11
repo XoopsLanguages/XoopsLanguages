@@ -1,4 +1,4 @@
-Witaj {X_UNAME},
+﻿Witaj {X_UNAME},
 
 
 Twoja rejestracja na stronie {X_SITENAME} została zakończona pomyślnie.

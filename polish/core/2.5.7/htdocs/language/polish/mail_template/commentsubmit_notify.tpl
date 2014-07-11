@@ -1,4 +1,4 @@
-Witaj {X_UNAME},
+﻿Witaj {X_UNAME},
 
 Komentarz został dodany (ale nie zatwierdzony) do {X_ITEM_TYPE} "{X_ITEM_NAME}", która jest monitorowana w module {X_MODULE}.
 

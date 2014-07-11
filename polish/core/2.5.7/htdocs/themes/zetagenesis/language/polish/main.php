@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 
 // Theme language definitions
 
