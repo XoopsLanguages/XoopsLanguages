@@ -1,4 +1,4 @@
-﻿Witaj {X_UNAME},
+Witaj {X_UNAME},
 
 Twoje nowe konto na {SITENAME} zostało aktywowane przez administratora.
 

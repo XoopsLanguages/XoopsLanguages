@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 
 if( defined( 'FOR_XOOPS_LANG_CHECKER' ) ) $mydirname = 'protector' ;
 $constpref = '_MI_' . strtoupper( $mydirname);

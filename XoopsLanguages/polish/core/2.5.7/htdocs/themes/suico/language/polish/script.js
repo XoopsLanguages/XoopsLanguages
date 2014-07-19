@@ -1,2 +1,2 @@
-﻿/* $Id$ */
+/* $Id$ */
 /* Localization script */

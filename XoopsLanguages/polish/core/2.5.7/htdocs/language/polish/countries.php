@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 // _LANGCODE: en
 // _CHARSET : UTF-8
 // Translator: XOOPS Translation Team

@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 /**
  * Language definitions for {@link XoopsFormDhtmlTextArea}
  *
