@@ -1,4 +1,4 @@
-﻿Witaj {X_UNAME},
+Witaj {X_UNAME},
 
 Nowy użytkownik {USERNAME} ({USEREMAIL}) właśnie się zarejestrował na {SITENAME}.
 Klikając na poniższy link aktywujesz jego konto:

@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 /**
  * Installer main english strings declaration file
  *

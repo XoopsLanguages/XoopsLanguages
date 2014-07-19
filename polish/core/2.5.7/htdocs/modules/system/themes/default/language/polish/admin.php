@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 // $Id$
 
 define("_OXYGEN_SYSOPTIONS","Opcje Systemowe");

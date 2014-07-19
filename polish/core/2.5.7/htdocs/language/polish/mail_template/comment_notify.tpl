@@ -1,4 +1,4 @@
-﻿Witaj {X_UNAME},
+Witaj {X_UNAME},
 
 Nowy komentarz został dodany do {X_ITEM_TYPE} "{X_ITEM_NAME}", która jest monitorowana w module {X_NOTIFY_MODULE} ;
 

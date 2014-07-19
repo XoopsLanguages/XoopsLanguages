@@ -1,4 +1,4 @@
-﻿Witaj {X_UNAME},
+Witaj {X_UNAME},
 
 Twój adres email na {SITENAME} został pomyślnie zmieniony. 
 

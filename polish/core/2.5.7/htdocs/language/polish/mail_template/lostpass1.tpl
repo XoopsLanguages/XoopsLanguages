@@ -1,4 +1,4 @@
-﻿Witaj {X_UNAME},
+Witaj {X_UNAME},
 
 Użytkownik z adresu {IP} chciał uzyskać nowe hasło na stronie {SITENAME}.
 Możesz otrzymać swoje nowe hasło klikając na link poniżej:

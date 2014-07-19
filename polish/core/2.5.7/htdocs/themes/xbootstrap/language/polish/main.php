@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 
 //Nav Menu
 define("THEME_HOME", "Strona główna");define("THEME_MODULE1", "O module");define("THEME_MODULE2", "Newsy");
