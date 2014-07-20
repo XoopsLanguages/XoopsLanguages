@@ -174,7 +174,7 @@ define('_MONTH', '1 miesiąc');
 define('_DATESTRING', 'j.m.Y, G:i:s');
 define('_MEDIUMDATESTRING', 'd.m.Y, G:i');
 define('_SHORTDATESTRING', 'd.m.Y');
-define('_SHORTDATESTRING', 'd.m.Y');
+
 /**
 * The following characters are recognized in the format string:
 * a - 'am' or 'pm'

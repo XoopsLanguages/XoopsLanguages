@@ -56,4 +56,4 @@ define("_PROFILE_MI_ABOUT", "O module ");
 define("_PROFILE_MI_HOME", "Strona główna");
 //1.86
 define('_PROFILE_MI_PROFILE_CAPTCHA_STEP1',"Czy użyć Captcha po drugim etapie rejestracji?");
-define('_PROFILE_MI_PROFILE_CAPTCHA_STEP1_DESC',"Wybierz "Tak" , aby dodać dodatkowe środki przeciwko rejestracji spamu przez boty" );
+define('_PROFILE_MI_PROFILE_CAPTCHA_STEP1_DESC','Wybierz "Tak" , aby dodać dodatkowe środki przeciwko rejestracji spamu przez boty' );
