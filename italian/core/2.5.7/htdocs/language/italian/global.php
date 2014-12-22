@@ -137,7 +137,7 @@ define('_CLONE','Duplica');
 // %%%%%    For xoopsform files %%%%%
 define("_STARTSWITH","Inizia con");
 define("_ENDSWITH","Termina con");
-define("_MATCHES","Corrsiponde a");
+define("_MATCHES","Corrisponde a");
 define("_CONTAINS","Contiene");
 define('_REQUIRED','Richiesto');
 // %%%%%%    File Name commentform.php     %%%%%
