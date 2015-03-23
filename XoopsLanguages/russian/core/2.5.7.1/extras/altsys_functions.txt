@@ -1,0 +1,1 @@
+Для тех, кто использует модуль "altsys" от GIJOE, заменить /xoops_trust_path/libs/altsys/include/altsys_functions.php на файл altsys_functions.php в этой папке.
