@@ -1,4 +1,4 @@
-Hej {X_UNAME},
+<p>Hej {X_UNAME},
 
 En kommentar er blevet indsendt (men endnu ikke godkendt) til {X_ITEM_TYPE} "{X_ITEM_NAME}" du overvåger i {X_MODULE} modulet på vores side.
 
@@ -17,4 +17,4 @@ Denne mail kan ikke besvarers.
 -----------
 {X_SITENAME} ({X_SITEURL}) 
 webmaster
-{X_ADMINMAIL}
+{X_ADMINMAIL}</p>

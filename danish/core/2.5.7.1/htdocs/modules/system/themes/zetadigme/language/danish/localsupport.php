@@ -1,5 +1,5 @@
 <?php
-// $Id: localsupport.php 3860 2009-11-09 21:35:53Z kris_fr $
+// $Id: localsupport.php 12033 2013-09-14 03:16:44Z beckmi $
 
 $menu = array();
 
@@ -35,4 +35,3 @@ $menu[] = array(
 */
 
 return $menu;
-?>

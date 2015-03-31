@@ -1,8 +1,8 @@
 <?php
-// $Id$
+// $Id: finish.php 12033 2013-09-14 03:16:44Z beckmi $
 // _LANGCODE: da
 // _CHARSET : UTF-8
-// Translator: Anders Kristiansen (anderssk) www.xoopsnordic.org
+// Translator: XOOPS Translation Team
 
 $content .=
 "<h3>Din Side</h3>
@@ -21,4 +21,3 @@ Fjern mappen <em>{$installer_modified}</em> (eller <em>install</em> hvis den ikk
 </div>
 </p>
 ";
-?>

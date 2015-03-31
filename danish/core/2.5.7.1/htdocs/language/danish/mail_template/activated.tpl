@@ -1,4 +1,4 @@
-Hej {X_UNAME},
+<p>Hej {X_UNAME},
 
 Din konto ved {SITENAME} er blevet aktiveret af administrator.
 
@@ -9,4 +9,4 @@ Du kan nu logge ind fra følgende URL med dit password du brugte til registrerin
 -----------
 {SITENAME} ({SITEURL}) 
 webmaster
-{ADMINMAIL}
+{ADMINMAIL}</p>

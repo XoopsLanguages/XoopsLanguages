@@ -1,20 +1,17 @@
 <?php
-// $Id: install2.php,v 1.7 2005/08/08 06:29:16 skalpa Exp $
-
-// _LANGCODE: da
+// $Id: install2.php 12041 2013-09-14 14:06:17Z beckmi $
+// _LANGCODE: en
 // _CHARSET : UTF-8
-// Translator: Anders Kristiansen (anderssk) www.xoopsnordic.org
-
+// Translator: XOOPS Translation Team
 // License
-define('LICENSE_NOT_WRITEABLE','Licens er %s . <br/><font style="colour:#ff0000">Gør ../include/license.php skrivbar</font>');
+define('LICENSE_NOT_WRITEABLE','Licens er %s . <br/><span style="colour:#ff0000">gør ../include/license.php skrivbar</span>');
 define('LICENSE_IS_WRITEABLE','Licens er %s');
-
-define("_INSTALL_WEBMASTER","Webmasters");
-define("_INSTALL_WEBMASTERD","Webmastere af dette websted");
-define("_INSTALL_REGUSERS","Registrede brugere");
-define("_INSTALL_REGUSERSD","Registrede bruger grupper");
-define("_INSTALL_ANONUSERS","Anonyme brugere");
-define("_INSTALL_ANONUSERSD","Anonyme bruger grupper");
+define('_INSTALL_WEBMASTER','Webmasters');
+define('_INSTALL_WEBMASTERD','Webmastere af dette websted');
+define('_INSTALL_REGUSERS','Registrede brugere');
+define('_INSTALL_REGUSERSD','Registrede bruger grupper');
+define('_INSTALL_ANONUSERS','Anonyme brugere');
+define('_INSTALL_ANONUSERSD','Anonyme bruger grupper');
 /**
 * New Group types
 */
@@ -26,12 +23,9 @@ define('_INSTALL_SUBMITTERUSERS','Indsender');
 define('_INSTALL_SUBMITTERUSERSD','Denne gruppe kan indsende artikler på din side');
 define('_INSTALL_DEVELOPEUSERS','Udvikler');
 define('_INSTALL_DEVELOPEUSERSD','Denne bruger har udvikler rettigheder og kan se specielle fejlkoder.');
-
-
-define("_INSTALL_L165","Webstedet er i øjeblikket lukket for vedligeholdelse. venligst igen senere.");
-define("_INSTALL_ANON","Anonym");
-
-define("_INSTALL_DISCLMR","Administratorerne af denne side vil forsøge at fjerne 
+define('_INSTALL_L165',"Webstedet er i øjeblikket lukket for vedligeholdelse. venligst igen senere.");
+define('_INSTALL_ANON',"Anonym");
+define('_INSTALL_DISCLMR',"Administratorerne af denne side vil forsøge at fjerne 
 eller tilrette alt generelt relevant materiale så hurtigt som muligt. Det er 
 umuligt at gennemse alle besked. Derfor bør du være opmærksom på at alle indlæg 
 der er lavet til denne side tilkendegiver meninger og holdninger af de forskellige forfattere og ikke 
@@ -58,4 +52,3 @@ kun til at bekræfter din registrering, detaljer og password (og til at sende
 nye passwords, hvis du skulle glemme dit nuværende). 
 
 Ved at klikke Register nedenfor accepterer du at være bundet af disse betingelser. ");
-?>

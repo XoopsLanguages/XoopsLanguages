@@ -1,4 +1,4 @@
-Hej {X_UNAME},
+<p>Hej {X_UNAME},
 
 Tak fordi du har valgt at registrer dig ved {SITENAME}. Som medlem kan du:
 - Sende privat meddelser til medlemmerne
@@ -17,4 +17,4 @@ For at blive medlem ved {SITENAME}, bedes du bekræftige din anmodning ved at kl
 Med Venlig Hilsen
 {SITENAME}
 ({SITEURL}) 
-{ADMINMAIL}
+{ADMINMAIL}</p>

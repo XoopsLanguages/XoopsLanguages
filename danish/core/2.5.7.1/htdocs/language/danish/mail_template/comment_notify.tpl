@@ -1,4 +1,4 @@
-Hej {X_UNAME},
+<p>Hej {X_UNAME},
 
 En kommentar er blevet tilføjet til {X_ITEM_TYPE} "{X_ITEM_NAME}" som du følger med i hos {X_MODULE} .
 
@@ -17,4 +17,4 @@ Vær venlig at lade være med at svare på denne besked.
 -----------
 {X_SITENAME} ({X_SITEURL}) 
 webmaster
-{X_ADMINMAIL}
+{X_ADMINMAIL}</p>
