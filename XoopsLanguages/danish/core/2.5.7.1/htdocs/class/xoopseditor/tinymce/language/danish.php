@@ -8,22 +8,15 @@
  * @subpackage	xoopseditor
  * @since       2.3.0
  * @author		Taiwen Jiang <phppp@users.sourceforge.net>
- * @version		$Id: english.php 1138 2010-03-25 11:21:46Z kris_fr $
+ * @version		$Id: english.php 12154 2013-10-06 23:36:44Z rgriffith $
  */
 /*
  * Assocated with editor_registry.php
  */
-// _LANGCODE: da
-// _CHARSET : UTF-8
-// Translator: Anders Kristiansen (anderssk) www.xoopsnordic.org
-
 // Name of the editor
-define("_XOOPS_EDITOR_TINYMCE","TinyMCE");
-
+define('_XOOPS_EDITOR_TINYMCE',"TinyMCE");
 // The value must be the same as /tinymce/jscripts/langs/your_language_code, for example, "en" for English, "fr" for French
 // For details, check http://tinymce.moxiecode.com/download_i18n.php
-define("_XOOPS_EDITOR_TINYMCE_LANGUAGE","da");
-
+define('_XOOPS_EDITOR_TINYMCE_LANGUAGE',"da");
 // FONT LIST, FORMAT: "Name=value1,value2;Name=value"
-define("_XOOPS_EDITOR_TINYMCE_FONTS","Arial=arial,helvetica,sans-serif;Courier New=courier new,courier,monospace;Georgia=georgia,times new roman,times,serif;Tahoma=tahoma,arial,helvetica,sans-serif;Times New Roman=times new roman,times,serif;Verdana=verdana,arial,helvetica,sans-serif;Impact=impact;WingDings=wingdings");
-?>
+define('_XOOPS_EDITOR_TINYMCE_FONTS',"Arial=arial,helvetica,sans-serif;Courier New=courier new,courier,monospace;Georgia=georgia,times new roman,times,serif;Tahoma=tahoma,arial,helvetica,sans-serif;Times New Roman=times new roman,times,serif;Verdana=verdana,arial,helvetica,sans-serif;Impact=impact;WingDings=wingdings");

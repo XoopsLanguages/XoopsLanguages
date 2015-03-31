@@ -1,10 +1,8 @@
 <?php
-// $Id: admin.php 2752 2009-02-02 13:48:42Z phppp $
-// _LANGCODE: en
+// $Id: backend.php 12363 2014-03-08 10:39:06Z beckmi $
+// _LANGCODE: da
 // _CHARSET : UTF-8
 // Translator: XOOPS Translation Team
 
 // RSS feed URLs
-return array(
-    'http://www.xoops.org/backend.php');
-?><?php // Translation done by xtransam & anderssk - 2010-10-11 22:40 ?>
+return array('http://www.xoops.org/backend.php');

@@ -1,4 +1,4 @@
-Hej {X_UNAME},
+<p>Hej {X_UNAME},
 
 En bruger fra {IP} har bedt om at få tilsendt et nyt password.
 Her er dine login detaljer ved {SITENAME}.
@@ -12,4 +12,4 @@ Hvis du ikke har bedt om dette, så beklager vi meget .. der er sket en fejl.. d
 -----------
 {SITENAME} ({SITEURL}) 
 webmaster
-{ADMINMAIL}
+{ADMINMAIL}</p>

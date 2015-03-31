@@ -1,4 +1,4 @@
-Hej {X_UNAME},
+<p>Hej {X_UNAME},
 
 En ny bruger {USERNAME} ({USEREMAIL}) har bedt om registrering af en konto ved {SITENAME}.
 Klik på linket og konto'en vil bive aktiveret:
@@ -8,4 +8,4 @@ Klik på linket og konto'en vil bive aktiveret:
 -----------
 {SITENAME} ({SITEURL}) 
 webmaster
-{ADMINMAIL}
+{ADMINMAIL}</p>
