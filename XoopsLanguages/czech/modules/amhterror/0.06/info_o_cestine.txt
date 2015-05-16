@@ -1,0 +1,25 @@
+--[ Cestina AM HTError ]------------------------------------------------------
+
+Modul slouzi ke sprave chybovych hlasek od serveru a jejich zobrazeni tak, aby
+vypadaly stejne jako kazda jina stranka webu. Take tyto chyby zapisuje do logu.
+
+Verze modulu:     0.06
+Verze cestiny:    1.1
+Posledni upravy:  23.07.2008
+Obsah:		  Jazykove soubory
+
+
+--[ Preklad ]------------------------------------------------------------------
+
+Sasa K. Svobodova - www.zirafoviny.cz
+
+--[ Navod k instalaci ]--------------------------------------------------------
+
+1. rozbalit archiv
+2. prekopirovat adresar "czech" do podadresare "language" v modulu
+
+
+--[ Dalsi informace ]----------------------------------------------------------
+
+Dalsi informace a pripadne aktualizace najdete na strankach http://xoops.zpc.cz
+nebo na http://www.zirafoviny.cz
