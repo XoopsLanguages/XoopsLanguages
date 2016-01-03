@@ -9,6 +9,7 @@ The place for XOOPS Languages maintained by XOOPS Translation Team.
 
 **Structure:** in this repository each language has following structure:
 
+```
 XoopsLanguages
 -- dirnamea
 ----- core
@@ -33,5 +34,5 @@ XoopsLanguages/
 ------------- language
 --------------- spanish
 ----- themes
-
+```
 Note: You can use "foo" directory example. Copy and rename it.
