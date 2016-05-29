@@ -6,12 +6,10 @@
  * _CHARSET     UTF-8
  * @version     $Id: banners.php 5580 2010-10-21 19:38:48Z forxoops $
  */
-//Translator: Xoops Italia Team - www.xoopsitalia.org
-//Last translation update: 19/05/2013
-
+// Translator: Xoops Italia Team - www.xoopsitalia.org
+// Last translation update: 25/05/2016
 //%%%%%%        Admin Module Name  Banners         %%%%%
-define('_AM_SYSTEM_BANNERS_DBUPDATED', _AM_SYSTEM_DBUPDATED);
-
+define('_AM_SYSTEM_BANNERS_DBUPDATED',_AM_SYSTEM_DBUPDATED);
 //Nav
 define('_AM_SYSTEM_BANNERS_NAV_MANAGER',"Gestione Banner");
 define('_AM_SYSTEM_BANNERS_NAV_MAIN',"Elenco dei banner e dei clienti");
@@ -22,7 +20,6 @@ define('_AM_SYSTEM_BANNERS_NAV_ADDBNR',"Nuovo Banner");
 define('_AM_SYSTEM_BANNERS_NAV_EDITADVCLI',"Modifica Cliente");
 define('_AM_SYSTEM_BANNERS_NAV_ADDNWCLI',"Nuovo Cliente");
 define('_AM_SYSTEM_BANNERS_NAV_DELETECLI',"Eliminazione banner");
-
 define('_AM_SYSTEM_BANNERS_CURACTBNR',"Banner attivi");
 define('_AM_SYSTEM_BANNERS_BANNERID',"ID");
 define('_AM_SYSTEM_BANNERS_IMPRESION',"Visualizzazioni");
@@ -58,7 +55,7 @@ define('_AM_SYSTEM_BANNERS_ADDCLI',"Nuovo Cliente");
 define('_AM_SYSTEM_BANNERS_DELEBNR',"Elimina banner");
 define('_AM_SYSTEM_BANNERS_SUREDELE',"Confermare l'eliminazione di questo banner??");
 define('_AM_SYSTEM_BANNERS_NO',"No");
-define('_AM_SYSTEM_BANNERS_YES',"Si");
+define('_AM_SYSTEM_BANNERS_YES',"S&igrave;");
 define('_AM_SYSTEM_BANNERS_EDITBNR',"Modifica banner");
 define('_AM_SYSTEM_BANNERS_ADDIMPT',"Aggiungere visualizzazioni:");
 define('_AM_SYSTEM_BANNERS_PURCHT',"Acquistate:");
@@ -75,7 +72,6 @@ define('_AM_SYSTEM_BANNERS_EXTINFO',"Altre informazioni:");
 define('_AM_SYSTEM_BANNERS_CHGCLI',"Cambiare cliente");
 define('_AM_SYSTEM_BANNERS_USEHTML',"Utilizzare Html?");
 define('_AM_SYSTEM_BANNERS_CODEHTML',"Codice Html:");
-
 // Tips
 define('_AM_SYSTEM_BANNERS_NAV_TIPS',"
 <ul>

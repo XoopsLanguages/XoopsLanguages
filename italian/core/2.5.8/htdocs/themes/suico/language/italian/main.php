@@ -77,7 +77,7 @@ define('THEME_DESC_PSEUDO',"Inserire il proprio nome utente");
 define('THEME_PASSWORD',"Password");
 define('THEME_DESC_PASSWORD',"Inserire la propria password");
 define('THEME_CONNECT',"Accedi");
-define('THEME_LOSTACCOUNT',"Recupero password"); // add for suico theme
+define('THEME_LOSTACCOUNT',"Reuupero password"); // add for suico theme
 define('THEME_CLOSEPOPUP',"Chiudi"); // add for suico theme
 
 define('THEME_WELLCOME',"Benenuto");
@@ -130,5 +130,3 @@ define('THEME_ADMTOOLS',"Gestione Sistema"); // add for xoops 2.5.0
 define('THEME_ADMCLEAN',"Manutenzione");  // add for xoops 2.5.0
 define('THEME_SYSSETTING',"Configurazione del modulo di Sistema");  // add for xoops 2.5.0
 define('THEME_UPTOP',"Inizio pagina"); // add for xoops 2.5.0
-
-?>

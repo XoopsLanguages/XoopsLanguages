@@ -50,4 +50,3 @@ define('THEME_COMMENTS',"Gestione Commenti");
 define('THEME_ADMTOOLS',"Gestione Sistema");
 define('THEME_ADMCLEAN',"Manutenzione");
 define('THEME_SYSSETTING',"Configurazione del modulo di Sistema");
-?>

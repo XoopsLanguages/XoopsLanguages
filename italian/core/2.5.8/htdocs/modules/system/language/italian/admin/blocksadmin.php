@@ -6,18 +6,15 @@
  * _CHARSET     UTF-8
  * @version     $Id: blocksadmin.php 5608 2010-10-23 17:36:57Z trabis $
  */
-//Translator: Xoops Italia Team - www.xoopsitalia.org
-//Last translation update: 19/05/2013
-
+// Translator: Xoops Italia Team - www.xoopsitalia.org
+// Last translation update: 25/05/2016
 // Navigation
 define('_AM_SYSTEM_BLOCKS_ADMIN',"Gestione Blocchi");
 define('_AM_SYSTEM_BLOCKS_MANAGMENT',"Gestione");
 define('_AM_SYSTEM_BLOCKS_ADDBLOCK',"Nuovo blocco");
 define('_AM_SYSTEM_BLOCKS_EDITBLOCK',"Modifica blocco");
 define('_AM_SYSTEM_BLOCKS_CLONEBLOCK',"Clonazione blocco");
-
 // Forms
-define('_AM_SYSTEM_BLOCKS_SAVE',"Salva");
 define('_AM_SYSTEM_BLOCKS_CUSTOM',"Personalizzato");
 define('_AM_SYSTEM_BLOCKS_TYPES',"Tutti");
 define('_AM_SYSTEM_BLOCKS_GENERATOR',"Modulo/Tipo");
@@ -34,6 +31,11 @@ define('_AM_SYSTEM_BLOCKS_SIDERIGHT',"Destra");
 define('_AM_SYSTEM_BLOCKS_SIDEBOTTOMLEFT',"Centro basso (sinistra)");
 define('_AM_SYSTEM_BLOCKS_SIDEBOTTOMCENTER',"Centro basso");
 define('_AM_SYSTEM_BLOCKS_SIDEBOTTOMRIGHT',"Centro basso (destra)");
+
+define('_AM_SYSTEM_BLOCKS_SIDEFOOTERLEFT',"Pi&egrave; di pagina (sinistra)");
+define('_AM_SYSTEM_BLOCKS_SIDEFOOTERCENTER',"Pi&egrave; di pagina");
+define('_AM_SYSTEM_BLOCKS_SIDEFOOTERRIGHT',"Pi&egrave; di pagina (destra)");
+
 define('_AM_SYSTEM_BLOCKS_ADD',"Nuovo blocco");
 define('_AM_SYSTEM_BLOCKS_MANAGE',"Amministra blocchi");
 define('_AM_SYSTEM_BLOCKS_NAME',"Descrizione");
@@ -45,6 +47,11 @@ define('_AM_SYSTEM_BLOCKS_CBRIGHT',"Centrale - Destra");
 define('_AM_SYSTEM_BLOCKS_CBCENTER',"Centrale");
 define('_AM_SYSTEM_BLOCKS_CBBOTTOMLEFT',"Centrale basso - Sinistra");
 define('_AM_SYSTEM_BLOCKS_CBBOTTOMRIGHT',"Centrale basso - Destra");
+
+define('_AM_SYSTEM_BLOCKS_CBFOOTERLEFT',"Pi&egrave; di pagina - Sinistra");
+define('_AM_SYSTEM_BLOCKS_CBFOOTERCENTER',"Pi&egrave; di pagina");
+define('_AM_SYSTEM_BLOCKS_CBFOOTERRIGHT',"Pi&egrave; di pagina - Destra");
+
 define('_AM_SYSTEM_BLOCKS_CBBOTTOM',"Centrale basso");
 define('_AM_SYSTEM_BLOCKS_WEIGHT',"Ordinamento");
 define('_AM_SYSTEM_BLOCKS_VISIBLE',"Visibile");
@@ -61,7 +68,7 @@ define('_AM_SYSTEM_BLOCKS_HTML',"Codice HTML");
 define('_AM_SYSTEM_BLOCKS_PHP',"Script PHP");
 define('_AM_SYSTEM_BLOCKS_AFWSMILE',"Formattazione automatica (Hml+BBcode). Faccine abilitate");
 define('_AM_SYSTEM_BLOCKS_AFNOSMILE',"Formattazione automatica (Hml+BBcode). Faccine NON abilitate");
-define('_AM_SYSTEM_BLOCKS_BCACHETIME',"Cache lifetime");
+define('_AM_SYSTEM_BLOCKS_BCACHETIME',"Durata della cache");
 define('_AM_SYSTEM_BLOCKS_CUSTOMHTML',"Blocco personalizzato HTML");
 define('_AM_SYSTEM_BLOCKS_CUSTOMPHP',"Blocco personalizzato PHP");
 define('_AM_SYSTEM_BLOCKS_CUSTOMSMILE',"Blocco personalizzato (Formattazione automatica + Faccine)");
@@ -69,13 +76,18 @@ define('_AM_SYSTEM_BLOCKS_CUSTOMNOSMILE',"Blocco personalizzato (Formattazione a
 define('_AM_SYSTEM_BLOCKS_EDITTPL',"Modifica Template");
 define('_AM_SYSTEM_BLOCKS_OPTIONS',"Opzioni");
 define('_AM_SYSTEM_BLOCKS_DRAG',"Premere e trascinare per spostare il blocco");
-
 // Messages
 define('_AM_SYSTEM_BLOCKS_DBUPDATED',_AM_SYSTEM_DBUPDATED);
-define('_AM_SYSTEM_BLOCKS_RUSUREDEL',"Confermare l\'eliminazione del blocco <div class='bold'>%s?</div>");
+define('_AM_SYSTEM_BLOCKS_RUSUREDEL',"Confermare l'eliminazione del blocco <div class='bold'>%s?</div>");
 define('_AM_SYSTEM_BLOCKS_SYSTEMCANT',"I blocchi di sistema non possono essere eliminati!");
 define('_AM_SYSTEM_BLOCKS_MODULECANT',"Non &egrave; possibile eliminare questo blocco direttamente.<br />Se si desidera rimuoverlo disattivare il modulo cui appartiene.");
-
 // Tips
-define('_AM_SYSTEM_BLOCKS_TIPS',"<ul><li>Permette di modificare facilmente ordinamento o posizione tramite drag\'n drop (fare click su quest\'immagine <img class='tooltip' style='width:16px; height:16px;' src='%s' alt='"._AM_SYSTEM_BLOCKS_DRAG."' title='"._AM_SYSTEM_BLOCKS_DRAG."' /> e trascinare)</li><li>Aggiunge/gestisce i blocchi personalizzati</li><li>Imposta la visibilit&agrave; dei blocchi (premere <img class='tooltip' style='width:15px; height:15px;' src='%s' alt='"._AM_SYSTEM_BLOCKS_DISPLAY."' title='"._AM_SYSTEM_BLOCKS_DISPLAY."'/> o <img class='tooltip' style='width:15px; height:15px;' src='%s' alt='"._AM_SYSTEM_BLOCKS_HIDE."' title='"._AM_SYSTEM_BLOCKS_HIDE."' />)</li>
-</ul>');
+define('_AM_SYSTEM_BLOCKS_TIPS',"<ul>
+<li>Permette di modificare facilmente ordinamento o posizione tramite drag'n drop (fare click su quest'immagine <img class='tooltip' style='width:16px; height:16px;' src='%s' alt='" . _AM_SYSTEM_BLOCKS_DRAG . "' title='" . _AM_SYSTEM_BLOCKS_DRAG . "' /> e trascinare)</li>
+<li>Aggiunge/gestisce i blocchi personalizzati</li>
+<li>Imposta la visibilit&agrave; dei blocchi (premere <img class='tooltip' style='width:15px; height:15px;' src='%s' alt='" . _AM_SYSTEM_BLOCKS_DISPLAY . "' title='" . _AM_SYSTEM_BLOCKS_DISPLAY . "'/> o <img class='tooltip' style='width:15px; height:15px;' src='%s' alt='" . _AM_SYSTEM_BLOCKS_HIDE . "' title='" . _AM_SYSTEM_BLOCKS_HIDE . "' />)</li>
+</ul>");
+
+define('_AM_SYSTEM_BLOCKS_FOOTER_LEFT',"Pi&egrave; di pagina Sinistra");
+define('_AM_SYSTEM_BLOCKS_FOOTER_CENTER',"Pi&egrave; di pagina Centro");
+define('_AM_SYSTEM_BLOCKS_FOOTER_RIGHT',"Pi&egrave; di pagina Destra");

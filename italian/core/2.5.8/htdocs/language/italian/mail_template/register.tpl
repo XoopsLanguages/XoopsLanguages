@@ -8,7 +8,7 @@ Come utente registrato potrai:
 - inviare contenuti
 ...e molto altro ancora.
 
-L'indirizzo email ({X_UEMAIL}) è stato usato per registrare l'account.
+L'indirizzo email ({X_UEMAIL}) &egrave; stato usato per registrare l'account.
 
 Per diventare a tutti gli effetti un utente registrato di {SITENAME}, conferma
 la tua richiesta di registrazione premendo seguente il link:

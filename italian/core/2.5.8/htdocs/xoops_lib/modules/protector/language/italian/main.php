@@ -6,8 +6,8 @@
  * _CHARSET     UTF-8
  * @version     $Id$
  */
-//Translator: Xoops Italia Team - www.xoopsitalia.org
-//Last translation update: 19/05/2013
+// Translator: Xoops Italia Team - www.xoopsitalia.org
+// Last translation update: 25/05/2016
 
 define('_MD_PROTECTOR_YOUAREBADIP',"Sei registrato come BAD_IP dal sistema di protezione del sito (Protector).");
 define('_MD_PROTECTOR_FMT_JAILINFO',"Il blocco scadr&agrave; alla data; %s");

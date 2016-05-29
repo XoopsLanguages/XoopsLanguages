@@ -6,11 +6,11 @@
  * _CHARSET     UTF-8
  * @version     $Id$
  */
-//Translator: Xoops Italia Team - www.xoopsitalia.org
-//Last translation update: 19/05/2013
+// Translator: Xoops Italia Team - www.xoopsitalia.org
+// Last translation update: 25/05/2016
  //Nav
-define('_AM_SYSTEM_TEMPLATES_NAV_MANAGER',"Gestione Templates");
-define('_AM_SYSTEM_TEMPLATES_NAV_MAIN',"Gestione Templates");
+define('_AM_SYSTEM_TEMPLATES_NAV_MANAGER',"Gestione Template");
+define('_AM_SYSTEM_TEMPLATES_NAV_MAIN',"Gestione Template");
 //Tips
 define('_AM_SYSTEM_TEMPLATES_NAV_TIPS',"
 <ul>
@@ -20,7 +20,7 @@ define('_AM_SYSTEM_TEMPLATES_NAV_TIPS',"
 </ul>
 ");
 define('_AM_SYSTEM_TEMPLATES_YOUR_THEMES',"Temi del sito:");
-define('_AM_SYSTEM_TEMPLATES_GENERATE',"Generazione templates");
+define('_AM_SYSTEM_TEMPLATES_GENERATE',"Generazione template");
 define('_AM_SYSTEM_TEMPLATES_SELECT_THEME',"Selezionare il tema");
 define('_AM_SYSTEM_TEMPLATES_FORCE_GENERATED',"Sovrascrittura forzata dei file precedenti");
 define('_AM_SYSTEM_TEMPLATES_NAV_FILE_GENERATED',"File generati");
@@ -40,5 +40,6 @@ define('_AM_SYSTEM_TEMPLATES_TEMPLATES',"Template");
 define('_AM_SYSTEM_TEMPLATES_BLOCKS',"Blocco");
 define('_AM_SYSTEM_TEMPLATES_SELECT_TEMPLATES',"Selezionare template");
 define('_AM_SYSTEM_TEMPLATES_ALL_MODULES',"Tutti");
-define('_AM_SYSTEM_TEMPLATES_RESTORE_OK',"Successfuly restored");
-define('_AM_SYSTEM_TEMPLATES_RESTORE_NOTOK',"Successfuly not restored");
+    define('_AM_SYSTEM_TEMPLATES_RESTORE_OK',"Successfuly restored");
+    define('_AM_SYSTEM_TEMPLATES_RESTORE_NOTOK',"Successfuly not restored");
+define('_AM_SYSTEM_TEMPLATES_SET', 'Scegli Template');

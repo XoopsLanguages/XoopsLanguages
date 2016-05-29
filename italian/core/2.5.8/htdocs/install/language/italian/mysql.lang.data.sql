@@ -6,10 +6,10 @@
 
 # Translator: Xoops Italia Team - www.xoopsitalia.org
 # Last translation update: 19/05/2013
+
 #
 # Dumping data for table `ranks`
 #
-
 INSERT INTO ranks VALUES (1, 'Matricola', 0, 50, 0, 'ranks/rank3e632f95e81ca.gif');
 INSERT INTO ranks VALUES (2, 'Allievo', 51, 150, 0, 'ranks/rank3dbf8e94a6f72.gif');
 INSERT INTO ranks VALUES (3, 'Senior', 151, 350, 0, 'ranks/rank3dbf8e9e7d88d.gif');
@@ -21,7 +21,6 @@ INSERT INTO ranks VALUES (7, 'Webmaster', 0, 0, 1, 'ranks/rank3dbf8ee8681cd.gif'
 #
 # Dumping data for table `smiles`
 #
-
 INSERT INTO smiles VALUES (1, ':-D', 'smilies/smil3dbd4d4e4c4f2.gif', 'Felice', 1);
 INSERT INTO smiles VALUES (2, ':-)', 'smilies/smil3dbd4d6422f04.gif', 'Sorridi', 1);
 INSERT INTO smiles VALUES (3, ':-(', 'smilies/smil3dbd4d75edb5e.gif', 'Triste', 1);

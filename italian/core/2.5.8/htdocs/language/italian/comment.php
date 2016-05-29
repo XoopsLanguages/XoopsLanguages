@@ -1,14 +1,9 @@
 <?php
-/**
- * @copyright   The XOOPS Project http://sourceforge.net/projects/xoops/
- * @license     http://www.fsf.org/copyleft/gpl.html GNU public license
- * _LANGCODE    it
- * _CHARSET     UTF-8
- * @version     $Id$
- */
-//Translator: Xoops Italia Team - www.xoopsitalia.org
-//Last translation update: 19/05/2013
-
+// 
+// _LANGCODE: it
+// _CHARSET : UTF-8
+// Translator: Xoops Italia Team - www.xoopsitalia.org
+// Last translation update: 25/05/2016
 define('_CM_TITLE',"Titolo");
 define('_CM_MESSAGE',"Messaggio");
 define('_CM_DOSMILEY',"Abilita faccine");
@@ -43,10 +38,9 @@ define('_CM_NOTICE',"I commenti sono di propriet&agrave; degli autori. Si declin
 define('_CM_COMRULES',"Regole per i commenti");
 define('_CM_COMAPPROVEALL',"I commenti vengono automaticamente approvati.");
 define('_CM_COMAPPROVEUSER',"I commenti inviati da utenti registrati vengono automaticamente approvati.");
-define('_CM_COMAPPROVEADMIN',"Tutti i commenti richiedono l\'approvazione da parte di un amministratore.");
-define('_CM_COMANONPOST',"Consentire l\'invio di commenti agli utenti anonimi?");
+define('_CM_COMAPPROVEADMIN',"Tutti i commenti richiedono l'approvazione da parte di un amministratore.");
+define('_CM_COMANONPOST',"Consentire l'invio di commenti agli utenti anonimi?");
 define('_CM_COMNOCOM',"Commenti disabilitati");
-
 define('_CM_USER',"Nome");
 define('_CM_EMAIL',"Email");
 define('_CM_URL',"Sito internet");

@@ -7,7 +7,7 @@ Potrai ricevere la nuova password cliccando su link che segue:
 
 {NEWPWD_LINK}
 
-Se la richiesta non è partita da te, non ti allarmare. Elimina semplicemente
+Se la richiesta non &egrave; partita da te, non ti allarmare. Elimina semplicemente
 questa email.
 
 -----------

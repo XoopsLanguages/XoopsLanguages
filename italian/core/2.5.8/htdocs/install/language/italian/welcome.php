@@ -1,13 +1,9 @@
 <?php
-/**
- * @copyright   The XOOPS Project http://sourceforge.net/projects/xoops/
- * @license     http://www.fsf.org/copyleft/gpl.html GNU public license
- * _LANGCODE    it
- * _CHARSET     UTF-8
- * @version     $Id$
- */
-//Translator: Xoops Italia Team - www.xoopsitalia.org
-//Last translation update: 19/05/2013
+//
+// _LANGCODE: it
+// _CHARSET : UTF-8
+// Translator: Xoops Italia Team - www.xoopsitalia.org
+// Last translation update: 25/05/2016
 
 $content .= '
 <p>
@@ -22,8 +18,8 @@ $content .= '
 <h3>Requisiti</h3>
 <ul>
     <li>WEB Server (<a href="http://www.apache.org/" rel="external">Apache</a>, IIS, Roxen, ecc)</li>
-    <li><a href="http://www.php.net/" rel="external">PHP</a> 4.3.0 o superiore (raccomandato 5.2 o superiore)</li>
-    <li><a href="http://www.mysql.com/" rel="external">MySQL</a> 3.23 o superiore (raccomandato 4.1 o superiore)</li>
+    <li><a href="http://www.php.net/" rel="external">PHP</a> 5.3.7 o superiore (raccomandato 5.6 o superiore)</li>
+    <li><a href="http://www.mysql.com/" rel="external">MySQL</a> 5.1 o superiore (raccomandato 5.6 o superiore)</li>
 </ul>
 <h3>Azioni e controlli prima di installare</h3>
 <ul>

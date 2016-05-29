@@ -1,14 +1,9 @@
 <?php
-/**
- * @copyright   The XOOPS Project http://sourceforge.net/projects/xoops/
- * @license     http://www.fsf.org/copyleft/gpl.html GNU public license
- * _LANGCODE    it
- * _CHARSET     UTF-8
- * @version     $Id$
- */
-//Translator: Xoops Italia Team - www.xoopsitalia.org
-//Last translation update: 19/05/2013
-
+// 
+// _LANGCODE: it
+// _CHARSET : UTF-8
+// Translator: Xoops Italia Team - www.xoopsitalia.org
+// Last translation update: 25/05/2016
 define('_PLEASEWAIT',"Attendere prego...");
 define('_FETCHING',"Caricamento...");
 define('_TAKINGBACK',"Stai per essere riportato alla pagina in cui eri...");
@@ -62,8 +57,8 @@ define('_NOPERM',"Non si possiedono i permessi per accedere a quest'area");
 //%%%%%		Common Phrases		%%%%%
 define('_NO',"No");
 define('_YES',"Si");
-define('_ONLINE',"Online");
-define('_OFFLINE',"Offline");
+    define('_ONLINE',"Online");
+    define('_OFFLINE',"Offline");
 define('_EDIT',"Modifica");
 define('_DELETE',"Elimina");
 define('_SUBMIT',"Invia");
@@ -114,30 +109,30 @@ define('_MD_IMGCATWEIGHT',"Ordine di visualizzazione nel gestore immagini:");
 define('_MD_IMGCATDISPLAY',"Categoria visibile nel gestore immagini?");
 define('_MD_IMGCATSTRTYPE',"Modalit&agrave; di salvataggio delle immagini:");
 define('_MD_STRTYOPENG',"Non &egrave; possibile modificare questa scelta in seguito!");
-define('_MD_ASFILE',"Come file nella cartella 'uploads'");
-define('_MD_INDB',"Come dato binario (blob) nel database");
-define('_MD_IMGMAIN',"Categoria"); 
+define('_MD_ASFILE',"File nella cartella 'uploads'");
+define('_MD_INDB',"Dato binario (blob) nel database");
+define('_MD_IMGMAIN',"Categoria");
 define('_MD_EDITIMGCAT',"Modifica categoria");
 define('_IMGMANAGER',"Gestore immagini");
 define('_NUMIMAGES',"%s immagine(i)");
 define('_ADDIMAGE',"Nuova Immagine");
 define('_IMAGENAME',"Nome:");
-define('_IMGMAXSIZE',"Dimensione massima (bytes):");
-define('_IMGMAXWIDTH',"Larghezza massima(pixels):");
-define('_IMGMAXHEIGHT',"Altezza massima (pixels):");
+define('_IMGMAXSIZE',"Dimensione massima (byte):");
+define('_IMGMAXWIDTH',"Larghezza massima(pixel):");
+define('_IMGMAXHEIGHT',"Altezza massima (pixel):");
 define('_IMAGECAT',"Categoria:");
-define('_IMAGEFILE',"File dell\'immagine:");
+define('_IMAGEFILE',"File dell'immagine:");
 define('_IMGWEIGHT',"Ordine di visualizzazione nel gestore immagini:");
 define('_IMGDISPLAY',"Immagine visibile nel gestore immagini?");
 define('_IMAGEMIME',"Estensione file (myme type):");
-define('_FAILFETCHIMG',"Impossibile eseguire l\'upload del file %s");
-define('_FAILSAVEIMG',"Impossibile salvare l\'immagine %s nel database");
+define('_FAILFETCHIMG',"Impossibile eseguire l'upload del file %s");
+define('_FAILSAVEIMG',"Impossibile salvare l'immagine %s nel database");
 define('_NOCACHE',"Nessuna cache");
 define('_CLONE',"Duplica");
 // %%%%%    For xoopsform files %%%%%
 define('_STARTSWITH',"Inizia con");
 define('_ENDSWITH',"Termina con");
-define('_MATCHES',"Corrsiponde a");
+define('_MATCHES',"Corrisponde a");
 define('_CONTAINS',"Contiene");
 define('_REQUIRED',"Richiesto");
 // %%%%%%    File Name commentform.php     %%%%%
@@ -217,7 +212,7 @@ define('_SHORTDATESTRING',"j/n/Y");
 //define('_CHARSET',"ISO-8859-1");
 define('_CHARSET',"UTF-8");
 define('_LANGCODE',"it_IT");
-// cambiare da 0 a 1 se questa lingua è multi-bytes (non modificare)
+// cambiare da 0 a 1 se questa lingua &egrave; multi-bytes (non modificare)
 define('XOOPS_USE_MULTIBYTES',"0");
 /**
 * Additions to 2.4.0
@@ -248,6 +243,10 @@ define('_FORMUPLOAD',"Carica File");
 /**
  * Additions to 2.5.5
 **/
-define('_DBDATESTRING',"d-m-Y");
+define('_DBDATESTRING',"Y-m-d");
 define('_DBTIMESTRING',"H:i:s");
-define('_DBTIMESTAMPSTRING',"d-m-Y H:i:s");
+define('_DBTIMESTAMPSTRING',"Y-m-d H:i:s");
+
+//2.5.8
+    //define('_XOBJ_ERR_INVALID_EMAIL', 'Invalid Email");
+    //define('_XOBJ_ERR_INVALID_ENUMERATION', 'Invalid Enumeration");

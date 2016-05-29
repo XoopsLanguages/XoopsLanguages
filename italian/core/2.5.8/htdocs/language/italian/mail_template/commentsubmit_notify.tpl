@@ -10,7 +10,7 @@ Puoi leggere il commento a questo link (se hai i permessi per farlo):
 
 Hai scelto di ricevere un messaggio di notifica quando dei nuovi commenti vengono inviati a questo {X_ITEM_TYPE}.
 
-Se si è trattato di un errore o se non vuoi ricevere altri messaggi di notifica per questo evento, aggiorna il tuo profilo premendo il seguente link:
+Se si &egrave; trattato di un errore o se non vuoi ricevere altri messaggi di notifica per questo evento, aggiorna il tuo profilo premendo il seguente link:
 {X_UNSUBSCRIBE_URL}
 
 Si prega di non rispondere a questo messaggio.

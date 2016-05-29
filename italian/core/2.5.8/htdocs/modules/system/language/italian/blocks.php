@@ -1,14 +1,9 @@
 <?php
-/**
- * @copyright   The XOOPS Project http://sourceforge.net/projects/xoops/
- * @license     http://www.fsf.org/copyleft/gpl.html GNU public license
- * _LANGCODE    it
- * _CHARSET     UTF-8
- * @version     $Id$
- */
-//Translator: Xoops Italia Team - www.xoopsitalia.org
-//Last translation update: 19/05/2013
-
+//
+// _LANGCODE:it
+// _CHARSET : UTF-8
+// Translator: Xoops Italia Team - www.xoopsitalia.org
+// Last translation update: 25/05/2016
 // Blocks
 define('_MB_SYSTEM_ADMENU',"Amministrazione");
 define('_MB_SYSTEM_RNOW',"Registrati!");
@@ -37,20 +32,18 @@ define('_MB_SYSTEM_PWWIDTH',"Larghezza della finestra a comparsa");
 define('_MB_SYSTEM_PWHEIGHT',"Altezza della finestra a comparsa");
 define('_MB_SYSTEM_LOGO',"Logo del sito nella cartella: %s");  // %s nome  // %s is your root image directory name
 define('_MB_SYSTEM_COMPEND',"Commenti");
-
 //define('_MB_SYSTEM_LOGGEDINAS',"Logged in as");
 define('_MB_SYSTEM_SADMIN',"Mostra il gruppo Amministratori");
 define('_MB_SYSTEM_SPMTO',"Invia un messaggio privato a %s");
 define('_MB_SYSTEM_SEMTO',"Invia una e-mail a %s");
-
 define('_MB_SYSTEM_DISPLAY',"Mostra %s utenti");
 define('_MB_SYSTEM_DISPLAYA',"Mostra l'avatar degli utenti");
 define('_MB_SYSTEM_NODISPGR',"Non mostrare gli utenti il cui livello &egrave;:");
-
 define('_MB_SYSTEM_DISPLAYC',"Mostra %s commenti");
 define('_MB_SYSTEM_SECURE',"Login sicuro");
-
 define('_MB_SYSTEM_NUMTHEME',"%s temi");
 define('_MB_SYSTEM_THSHOW',"Mostra la miniatura del tema");
 define('_MB_SYSTEM_THWIDTH',"Larghezza della miniatura");
-define('_MB_SYSTEM_REMEMBERME',"Ricorda");
+define('_MB_SYSTEM_REMEMBERME','Ricorda');
+//2.5.8
+define('_MB_SYSTEM_BLOCK_HEIGHT', 'Altezza blocco (linee)');

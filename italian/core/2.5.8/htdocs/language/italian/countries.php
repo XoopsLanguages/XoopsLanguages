@@ -1,14 +1,8 @@
 <?php
-/**
- * @copyright   The XOOPS Project http://sourceforge.net/projects/xoops/
- * @license     http://www.fsf.org/copyleft/gpl.html GNU public license
- * _LANGCODE    it
- * _CHARSET     UTF-8
- * @version     $Id$
- */
-//Translator: Xoops Italia Team - www.xoopsitalia.org
-//Last translation update: 19/05/2013
-
+// _LANGCODE: it
+// _CHARSET : UTF-8
+// Translator: Xoops Italia Team - www.xoopsitalia.org
+//Last translation update: 25/05/2016
 /*
  * ISO 3166 Maintenance agency (ISO 3166/MA) - ISO's focal point for country codes 
  * Website: http://www.iso.org/iso/country_codes.htm
@@ -41,7 +35,7 @@ define('_COUNTRY_BG',"Bulgaria");
 define('_COUNTRY_BH',"Bahrain");
 define('_COUNTRY_BI',"Burundi");
 define('_COUNTRY_BJ',"Benin");
-define('_COUNTRY_BL',"Saint Barthélemy");
+define('_COUNTRY_BL',"Saint Barth&eacute;lemy");
 define('_COUNTRY_BM',"Bermuda");
 define('_COUNTRY_BN',"Brunei Darussalam");
 define('_COUNTRY_BO',"Bolivia");
@@ -58,7 +52,7 @@ define('_COUNTRY_CD',"Congo (Rep. Dem.)");
 define('_COUNTRY_CF',"Central African Republic");
 define('_COUNTRY_CG',"Congo");
 define('_COUNTRY_CH',"Svizzera");
-define('_COUNTRY_CI',"Costa d\'Avorio");
+define('_COUNTRY_CI',"Costa d'Avorio");
 define('_COUNTRY_CK',"Cook Islands");
 define('_COUNTRY_CL',"Cile");
 define('_COUNTRY_CM',"Cameroon");
@@ -239,7 +233,7 @@ define('_COUNTRY_TL',"Timor-Leste");
 define('_COUNTRY_TM',"Turkmenistan");
 define('_COUNTRY_TN',"Tunisia");
 define('_COUNTRY_TO',"Tonga");
-define('_COUNTRY_TP',"Timor Est"); //  Non elencato nell'ISO 3166
+define('_COUNTRY_TP',"Timor Est"); // Non elencato nell'ISO 3166
 define('_COUNTRY_TR',"Turchia");
 define('_COUNTRY_TT',"Trinidad and Tobago");
 define('_COUNTRY_TV',"Tuvalu");
@@ -247,7 +241,7 @@ define('_COUNTRY_TW',"Taiwan");
 define('_COUNTRY_TZ',"Tanzania");
 define('_COUNTRY_UA',"Ucraina");
 define('_COUNTRY_UG',"Uganda");
-define('_COUNTRY_UK',"Regno Unito");
+define('_COUNTRY_UK',"Regno Unito"); // Non elencato nell'ISO 3166
 define('_COUNTRY_UM',"US Minor Outlying Islands");
 define('_COUNTRY_US',"Stati Uniti");
 define('_COUNTRY_UY',"Uruguay");
@@ -263,8 +257,8 @@ define('_COUNTRY_WF',"Wallis and Futuna Islands");
 define('_COUNTRY_WS',"Samoa");
 define('_COUNTRY_YE',"Yemen");
 define('_COUNTRY_YT',"Mayotte");
-define('_COUNTRY_YU',"Jugoslavia"); //  Non elencato nell'ISO 3166
+define('_COUNTRY_YU',"Jugoslavia"); // Non elencato nell'ISO 3166
 define('_COUNTRY_ZA',"Sud Africa");
 define('_COUNTRY_ZM',"Zambia");
-define('_COUNTRY_ZR',"Zaire"); //  Non elencato nell'ISO 3166
+define('_COUNTRY_ZR',"Zaire"); // Non elencato nell'ISO 3166
 define('_COUNTRY_ZW',"Zimbabwe");

@@ -1,13 +1,9 @@
 <?php
-/**
- * @copyright   The XOOPS Project http://sourceforge.net/projects/xoops/
- * @license     http://www.fsf.org/copyleft/gpl.html GNU public license
- * _LANGCODE    it
- * _CHARSET     UTF-8
- * @version     $Id$
- */
-//Translator: Xoops Italia Team - www.xoopsitalia.org
-//Last translation update: 10/06/2013
+// 
+// _LANGCODE: it
+// _CHARSET : UTF-8
+// Translator: Xoops Italia Team - www.xoopsitalia.org
+// Last translation update: 25/05/2016
 
 //%%%%%%    File Name findusers.php     %%%%%
 define('_MA_USER_MORE',"Ricerca Utenti");
@@ -65,3 +61,7 @@ define('_MA_USER_SEARCHAGAIN',"Cerca ancora");
 define('_MA_USER_NOUSERSELECTED',"Nessun utente selezionato");
 define('_MA_USER_USERADDED',"Gli utenti sono stati aggiunti");
 define('_MA_USER_SENDMAIL',"Invia Email");
+
+//2.5.4
+define('_MA_USER_FACEBOOK', 'FACEBOOK'); //TO DO
+define('_MA_USER_SKYPE', 'SKYPE');//TO DO
