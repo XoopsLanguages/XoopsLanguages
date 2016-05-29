@@ -1,14 +1,9 @@
 <?php
-/**
- * @copyright   The XOOPS Project http://sourceforge.net/projects/xoops/
- * @license     http://www.fsf.org/copyleft/gpl.html GNU public license
- * _LANGCODE    it
- * _CHARSET     UTF-8
- * @version     $Id$
- */
-//Translator: Xoops Italia Team - www.xoopsitalia.org
-//Last translation update: 19/05/2013
-
+// 
+// _LANGCODE: it
+// _CHARSET : UTF-8
+// Translator: Xoops Italia Team - www.xoopsitalia.org
+// Last translation update: 25/05/2016
 // RMV-NOTIFY
 // Text for various templates...
 define('_NOT_NOTIFICATIONOPTIONS',"Opzioni di notifica");
@@ -41,11 +36,11 @@ define('_NOT_NOACCESS',"Non hai i permessi necessari per accedere a questa pagin
 define('_NOT_ENABLE',"Abilita");
 define('_NOT_NOTIFICATION',"Notifica");
 define('_NOT_CONFIG_ENABLED',"Abilitazione notifiche");
-define('_NOT_CONFIG_ENABLEDDSC',"Questo sistema consente a un utente di ricevere un avviso al verificarsi di alcuni eventi. Scegliendo 'Si', si attiva quest'opzione.");
+define('_NOT_CONFIG_ENABLEDDSC',"Questo sistema consente a un utente di ricevere un avviso al verificarsi di alcuni eventi. Scegliendo 'S&igrave;', si attiva quest'opzione.");
 define('_NOT_CONFIG_EVENTS',"Abilitazione eventi specifici");
 define('_NOT_CONFIG_EVENTSDSC',"Selezionare per quali eventi gli utenti possono abilitare le notifiche.");
 define('_NOT_CONFIG_ENABLE',"Abilitazione notifiche");
-define('_NOT_CONFIG_ENABLEDSC',"Questo sistema consente a un utente di ricevere un avviso al verificarsi di alcuni eventi. Scegliere se all\'utente la notifica deve venire visualizzata in un blocco, all\'interno del modulo, o in entrambi. Per le notifiche nel blocco, l\'opzione di notifica deve essere abilitata per quel modulo.");
+define('_NOT_CONFIG_ENABLEDSC',"Questo sistema consente a un utente di ricevere un avviso al verificarsi di alcuni eventi. Scegliere se all'utente la notifica deve venire visualizzata in un blocco, all'interno del modulo, o in entrambi. Per le notifiche nel blocco, l'opzione di notifica deve essere abilitata per quel modulo.");
 define('_NOT_CONFIG_DISABLE',"Disabilita notifica");
 define('_NOT_CONFIG_ENABLEBLOCK',"Abilitare le notifiche nel blocco");
 define('_NOT_CONFIG_ENABLEINLINE',"Abilitare le notifiche nel modulo");
@@ -66,8 +61,8 @@ define('_NOT_BOOKMARK_NOTIFYCAP',"Segnalibro per questo elemento (nessuna notifi
 define('_NOT_BOOKMARK_NOTIFYDSC',"Tieni traccia di questo elemento, senza ricevere eventi di notifica.");
 // For user profile
 // FIXME: These should be reworded a little...
-define('_NOT_NOTIFYMETHOD',"Modalit&agrave; di notifica: <br />se, per esempio, si tiene d'occhio un forum, in che modo si desidera ricevere gli avvisi di eventuali aggiornamenti?");
-define('_NOT_METHOD_EMAIL',"Email (utilizza l\'email del mio profilo)");
+define('_NOT_NOTIFYMETHOD',"Modalit&agrave; di notifica: <br>se, per esempio, si tiene d'occhio un forum, in che modo si desidera ricevere gli avvisi di eventuali aggiornamenti?");
+define('_NOT_METHOD_EMAIL',"Email (utilizza l'email del mio profilo)");
 define('_NOT_METHOD_PM',"Messaggio privato");
 define('_NOT_METHOD_DISABLE',"Temporaneamente disabilitato");
 define('_NOT_NOTIFYMODE',"Metodo di notifica base");

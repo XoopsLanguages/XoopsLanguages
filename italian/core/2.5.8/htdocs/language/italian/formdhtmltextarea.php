@@ -1,15 +1,22 @@
 <?php
 /**
- * @copyright   The XOOPS Project http://sourceforge.net/projects/xoops/
- * @license     http://www.fsf.org/copyleft/gpl.html GNU public license
- * _LANGCODE    it
- * _CHARSET     UTF-8
- * @version     $Id$
+ * Language definitions for {@link XoopsFormDhtmlTextArea}
+ *
+ * You may not change or alter any portion of this comment or credits
+ * of supporting developers from this source code or any supporting source code
+ * which is considered copyrighted (c) material of the original comment or credit authors.
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ *
+ * @copyright       (c) 2000-2016 XOOPS Project (www.xoops.org)
+ * @license             GNU GPL 2 (http://www.gnu.org/licenses/gpl-2.0.html)
+ * @package             kernel
+ * @subpackage          form
+ * @since               2.3.0
+ * @author              Taiwen Jiang <phppp@users.sourceforge.net>
  */
-//Translator: Xoops Italia Team - www.xoopsitalia.org
-//Last translation update: 19/05/2013
-
-defined('XOOPS_ROOT_PATH') or die("Accesso non consentito");
+defined('XOOPS_ROOT_PATH') or die('Accesso non consentito');
 
 // _LANGCODE: it
 // _CHARSET : UTF-8
@@ -72,4 +79,4 @@ define('_XOOPS_FORM_ALT_LENGTH',"Lunghezza attuale del contenuto: %s");
 define('_XOOPS_FORM_ALT_LENGTH_MAX',"Lunghezza massima: ");
 define('_XOOPS_FORM_PREVIEW_CONTENT',"Premere <strong>" . _PREVIEW . "</strong> per un'anticipazione del contenuto");
 
-define('_XOOPS_FORM_ALTYOUTUBE',"Youtube");
+define('_XOOPS_FORM_ALTYOUTUBE','Youtube');

@@ -1,14 +1,9 @@
 <?php
-/**
- * @copyright   The XOOPS Project http://sourceforge.net/projects/xoops/
- * @license     http://www.fsf.org/copyleft/gpl.html GNU public license
- * _LANGCODE    it
- * _CHARSET     UTF-8
- * @version     $Id$
- */
-//Translator: Xoops Italia Team - www.xoopsitalia.org
-//Last translation update: 19/05/2013
-
+// 
+// _LANGCODE: it
+// _CHARSET : UTF-8
+// Translator: Xoops Italia Team - www.xoopsitalia.org
+// Last translation update: 25/05/2016
 define('_MSC_YOURNAMEC',"Il tuo nome: ");
 define('_MSC_YOUREMAILC',"Il tuo indirizzo email: ");
 define('_MSC_FRIENDNAMEC',"Il nome del tuo amico: ");
@@ -28,8 +23,7 @@ define('_MSC_SMILIES',"Faccine");
 define('_MSC_CLICKASMILIE',"Clicca col mouse sulla faccina, per inserirla nel messaggio.");
 define('_MSC_CODE',"Codice");
 define('_MSC_EMOTION',"Messaggio");
-// Translator: TXMod Xoops - www.txmodxoops.org
-// Last translation update: 03/10/2011
-define('_MSC_CLICK_TO_OPEN_IMAGE',"Clicca per vedere l&#39;Immagine originale in un nuova finestra.");
+
+define('_MSC_CLICK_TO_OPEN_IMAGE',"Clicca per vedere l'Immagine originale in un nuova finestra.");
 define('_MSC_RESIZED_IMAGE',"Immagine Ridimensionata");
 define('_MSC_ORIGINAL_IMAGE',"Immagine Originale");

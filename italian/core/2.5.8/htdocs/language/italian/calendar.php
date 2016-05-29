@@ -1,16 +1,16 @@
 <?php
-/**
- * @copyright   The XOOPS Project http://sourceforge.net/projects/xoops/
- * @license     http://www.fsf.org/copyleft/gpl.html GNU public license
- * _LANGCODE    it
- * _CHARSET     UTF-8
- * @version     $Id$
- */
-//Translator: Xoops Italia Team - www.xoopsitalia.org
-//Last translation update: 19/05/2013
+// 
+// _LANGCODE: it
+// _CHARSET : UTF-8
+// Translator: Xoops Italia Team - www.xoopsitalia.org
+// Last translation update: 25/05/2016
+// more examples: http://php.net/manual/en/function.date.php
+//
 
 //%%%%%     Time Zone   %%%%
 define('_CAL_FORMAT',"d-m-Y");
+
+
 //%%%%%     JQuery Calendar Time Zone   %%%%
 define('_CAL_JQUERY_FORMAT',"yy/mm/dd");
 // Week Mini Text
@@ -29,7 +29,6 @@ define('_CAL_SHORT_WEDNESDAY',"Mer");
 define('_CAL_SHORT_THURSDAY',"Gio");
 define('_CAL_SHORT_FRIDAY',"Ven");
 define('_CAL_SHORT_SATURDAY',"Sab");
-
 define('_CAL_SHORT_JANUARY',"Gennario");
 define('_CAL_SHORT_FEBRUARY',"Febbraio");
 define('_CAL_SHORT_MARCH',"Marzo");
@@ -62,6 +61,7 @@ define('_CAL_SEPTEMBER',"Settembre");
 define('_CAL_OCTOBER',"Ottobre");
 define('_CAL_NOVEMBER',"Novembre");
 define('_CAL_DECEMBER',"Dicembre");
+// Others
 define('_CAL_TGL1STD',"Cambia il primo giorno della settimana");
 define('_CAL_PREVYR',"Anno precedente (tenere premuto per l'elenco)");
 define('_CAL_PREVMNTH',"Mese precedente (tenere premuto per l'elenco)");

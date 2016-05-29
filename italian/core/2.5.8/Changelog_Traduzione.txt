@@ -1,7 +1,17 @@
 *********************************************************************************
 ***************** CHANGELOG TRADUZIONE per CORE XOOPS ***************************
 ---------------------------------------------------------------------------------
--- Ultimo aggiornamento: 16/06/2014 -------------------- by Xoops Italia --------
+-- Ultimo aggiornamento: 25/05/2016 -------------------- by Xoops Italia --------
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+
+* 2.5.8 *
+--------------------------------------------------------------
+
+*********************************************************************************
+***************** CHANGELOG TRADUZIONE per CORE XOOPS ***************************
+---------------------------------------------------------------------------------
+-- Ultimo aggiornamento: 15/06/2014 -------------------- by Xoops Italia --------
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 
@@ -247,7 +257,7 @@
 - Migliorie/Revisione traduzione in: /language/italian/[diversi files]
 - Migliorie/Revisione traduzione in: /modules/system/language/italian/[diversi files]
 
-- Conversione di tutti i caratteri speciali(èùà..) in valori HTML, per maggiore compatibilità
+- Conversione di tutti i caratteri speciali(&egrave;&ugrave;&agrave;..) in valori HTML, per maggiore compatibilit&agrave;
 - Verifica conversione codifica files in UTF8 (per adeguamento nuovo charset)
 
 

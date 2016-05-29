@@ -9,12 +9,12 @@
 //Translator: Xoops Italia Team - www.xoopsitalia.org
 //Last translation update: 19/05/2013
 
-defined('XOOPS_ROOT_PATH') or die("Accesso non consentito");
+defined('XOOPS_ROOT_PATH') or die('Accesso non consentito');
 
-setlocale(LC_ALL, "it_IT");
+setlocale(LC_ALL, 'it_IT');
 
-// ATTENZIONE! NON MODIFCARE SE NON SI E' ESPERTI
-// !!IMPORTANT!! insert '\' before any char among reserved chars: "a',"A',"B',"c',"d',"D',"F',"g',"G',"h',"H',"i',"I',"j',"l',"L',"m',"M',"n',"O',"r',"s',"S',"t',"T',"U',"w',"W',"Y',"y',"z',"Z"    
+// ATTENZIONE! NON MODIFICARE SE NON SI E' ESPERTI
+// !!IMPORTANT!! insert '\' before any char among reserved chars: "a","A","B","c","d","D","F","g","G","h","H","i","I","j","l","L","m","M","n","O","r","s","S","t","T","U","w","W","Y","y","z","Z"    
 // insert double '\' before 't','r','n'
 //define('_TODAY',"\O\g\g\i\ \a\l\l\e\ G:i");
 //define('_YESTERDAY',"\I\e\\r\i\ \a\l\l\e\ G:i");
@@ -42,7 +42,7 @@ class XoopsLocal extends XoopsLocalAbstract
      * @param unknown_type $number
      * @return unknown
      */    
-    function number_format($number)
+    public function number_format($number)
     {
         return number_format($number, 2, ',','.');
     }
@@ -54,10 +54,10 @@ class XoopsLocal extends XoopsLocalAbstract
      * @param string $number
      * @return money format
      */
-    
-    function money_format($format, $number)
+    public function money_format($format, $number)
     {
         setlocale(LC_MONETARY, 'it_IT');
+        
         return money_format($format, $number);
     }
 }

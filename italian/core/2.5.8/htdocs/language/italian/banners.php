@@ -1,17 +1,12 @@
 <?php
-/**
- * @copyright   The XOOPS Project http://sourceforge.net/projects/xoops/
- * @license     http://www.fsf.org/copyleft/gpl.html GNU public license
- * _LANGCODE    it
- * _CHARSET     UTF-8
- * @version     $Id$
- */
-//Translator: Xoops Italia Team - www.xoopsitalia.org
-//Last translation update: 19/05/2013
-
+// 
+// _LANGCODE: it
+// _CHARSET : UTF-8
+// Translator: Xoops Italia Team - www.xoopsitalia.org
+// Last translation update: 25/05/2016
 define('_BANNERS_MANAGEMENT',"Gestione della Pubblicit&agrave;");
 define('_BANNERS_WELCOMEBACK',"Benvenuto: %s");
-define('_BANNERS_LOGGEDOUT',"Sei uscito dalla gestione della Pubblicit&agrave;r");
+define('_BANNERS_LOGGEDOUT',"Sei uscito dalla gestione della Pubblicit&agrave;");
 define('_BANNERS_LOGOUT',"Uscita dalla gestione della Pubblicit&agrave;");
 define('_BANNERS_LOGIN_TITLE',"Statistiche Pubblicitarie");
 define('_BANNERS_LOGIN_LOGIN',"Login:");
@@ -50,9 +45,9 @@ Impressioni Rimanenti: %s\n
 Click Ricevuti: %s\n
 Percentuale Click: %f \n\n\n 
 Generazione rapporto: %s");
-define('_BANNERS_MAIL_NOT_OK',"Abbiamo riscontrato un errore nell\'inviare la vostra email. Contattare il webmaster comunicando il problema.");
+define('_BANNERS_MAIL_NOT_OK',"Abbiamo riscontrato un errore nell'inviare la vostra email. Contattare il webmaster comunicando il problema.");
 define('_BANNERS_MAIL_OK',"Le statistiche disponibili per il banner selezionato sono state inviate al vostro indirizzo email.");
-define('_BANNERS_MAIL_ERROR',"Non &egrave; stata associata alcuna email al cliente %s.<br />Per favore contattare l'amministratore");
+define('_BANNERS_MAIL_ERROR',"Non &egrave; stata associata alcuna email al cliente %s.<br>Per favore contattare l'amministratore");
 define('_BANNERS_DBUPDATED',"Oggetto modificato e database aggiornato");
 define('_BANNERS_DBERROR',"Il database non &egrave; stato aggiornato a causa di un errore!");
 define('_BANNERS_CHANGE',"Salva");

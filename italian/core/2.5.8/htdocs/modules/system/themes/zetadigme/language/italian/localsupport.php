@@ -6,31 +6,31 @@
  * _CHARSET     UTF-8
  * @version     $Id$
  */
-//Translator: Xoops Italia Team - www.xoopsitalia.org
-//Last translation update: 19/05/2013
+// Translator: Xoops Italia Team - www.xoopsitalia.org
+// Last translation update: 25/05/2016
 
-$menu[0] = array(
+$menu[] = array(
     'link'      => 'http://www.xoopsitalia.org',
     'title'     => 'XOOPS ITALIA',
     'absolute'  => 1,
     'icon'      => 'http://www.xoopsitalia.org/favicon.ico'
 );
 
-$menu[1] = array(
+$menu[] = array(
     'link'      => 'http://www.xoopsitalia.org/modules/newbb/',
     'title'     => 'Forum di supporto',
     'absolute'  => 1,
     'icon'      => 'http://www.xoopsitalia.org/favicon.ico'
 );
 
-$menu[2] = array(
+$menu[] = array(
     'link'      => 'http://www.xoopsitalia.org/modules/newbb/viewforum.php?forum=11',
     'title'     => 'Traduzioni',
     'absolute'  => 1,
     'icon'      => 'http://www.xoopsitalia.org/favicon.ico'
 );
 
-$menu[3] = array(
+$menu[] = array(
 );
 // sample for English  support
 /*

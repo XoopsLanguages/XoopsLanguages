@@ -6,8 +6,8 @@
  * _CHARSET     UTF-8
  * @version     $Id$
  */
-//Translator: Xoops Italia Team - www.xoopsitalia.org
-//Last translation update: 19/05/2013
+// Translator: Xoops Italia Team - www.xoopsitalia.org
+// Last translation update: 25/05/2016
 
 // Navigation
 define('_AM_SYSTEM_AVATAR_MANAGER',"Gestione Avatar");
@@ -31,5 +31,5 @@ define('_AM_SYSTEM_AVATAR_SUREDEL',"Confermare l'eliminazione di questa immagine
 define('_AM_SYSTEM_AVATAR_TIPS',"
 <ul id='newsticker' class='newsticker'>
 <li>Amministrazione di tutti gli avatar, di sistema o personalizzati</li>
-<li>Gli utenti hanno la possibilit&agrave; di aggiungere un proprio avatar al profilo.<br />Quest'opzione pu&ograve; essere disabilitata nelle preferenze 'Registrazione utente e avatar'</li>
+<li>Gli utenti hanno la possibilit&agrave; di aggiungere un proprio avatar al profilo.<br>Quest'opzione pu&ograve;essere disabilitata nelle preferenze 'Registrazione utente e avatar'</li>
 </ul>");

@@ -6,16 +6,14 @@
  * _CHARSET     UTF-8
  * @version     $Id$
  */
-//Translator: Xoops Italia Team - www.xoopsitalia.org
-//Last translation update: 19/05/2013
-
+// Translator: Xoops Italia Team - www.xoopsitalia.org
+// Last translation update: 25/05/2016
  //Nav
 define('_AM_SYSTEM_USERRANK_NAV_MANAGER',"Gestione Livelli Utente");
 define('_AM_SYSTEM_USERRANK_NAV_MAIN',"Elenco Livelli");
 define('_AM_SYSTEM_USERRANK_NAV_ADD',"Nuovo Livello");
 define('_AM_SYSTEM_USERRANK_NAV_EDIT',"Modifica Livello");
 define('_AM_SYSTEM_USERRANK_NAV_DELETE',"Elimina Livello");
-
 define('_AM_SYSTEM_USERRANK_ACTION',"Azione");
 define('_AM_SYSTEM_USERRANK_ADD',"Nuovo livello");
 define('_AM_SYSTEM_USERRANK_DELETE',"Elimina livello");
@@ -32,7 +30,6 @@ define('_AM_SYSTEM_USERRANK_SPECIAL_CAN',"(I livelli speciali possono essere ass
 define('_AM_SYSTEM_USERRANK_SUREDEL',"Si &egrave; sicuri di voler eliminare questo livello?");
 define('_AM_SYSTEM_USERRANK_TITLE',"Nome");
 define('_AM_SYSTEM_USERRANK_UPLOAD',"Caricamento ");
-
 // Tips
 define('_AM_SYSTEM_USERRANK_TIPS',"<ul><li>Aggiunge, aggiorna o elimina i livelli utente</li></ul>");
 define('_AM_SYSTEM_USERRANK_TIPS_FORM1',"<ul><li>Tipi di file autorizzati (mime types): %s</li>");

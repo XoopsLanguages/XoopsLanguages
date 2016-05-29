@@ -1,14 +1,9 @@
 <?php
-/**
- * @copyright   The XOOPS Project http://sourceforge.net/projects/xoops/
- * @license     http://www.fsf.org/copyleft/gpl.html GNU public license
- * _LANGCODE    it
- * _CHARSET     UTF-8
- * @version     $Id$
- */
-//Translator: Xoops Italia Team - www.xoopsitalia.org
-//Last translation update: 19/05/2013
-
+// 
+// _LANGCODE: it
+// _CHARSET : UTF-8
+// Translator: Xoops Italia Team - www.xoopsitalia.org
+// Last translation update: 25/05/2016
 define('_CAPTCHA_CAPTION',"Codice di verifica");
 define('_CAPTCHA_INVALID_CODE',"Codice di verifica non valido!");
 define('_CAPTCHA_TOOMANYATTEMPTS',"Sono stati fatti troppi tentativi!");
@@ -24,4 +19,4 @@ define('_CAPTCHA_RULE_TEXT',"Inserire il risultato dell'espressione");
 /**
  * Error defines
  */
-define('_CAPTCHA_LOADFILEERROR',"Error: Impossibile caricare il file %u nel file %s alla linea %s. ');
+define('_CAPTCHA_LOADFILEERROR','Errore: Impossibile caricare il file %u nel file %s alla linea %s. ');

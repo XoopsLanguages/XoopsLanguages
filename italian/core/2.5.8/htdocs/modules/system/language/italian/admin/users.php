@@ -6,23 +6,19 @@
  * _CHARSET     UTF-8
  * @version     $Id$
  */
-//Translator: Xoops Italia Team - www.xoopsitalia.org
-//Last translation update: 19/05/2013
-
+// Translator: Xoops Italia Team - www.xoopsitalia.org
+// Last translation update: 25/05/2016
 // Navigation
-define('_AM_SYSTEM_USERS_NAV_MANAGER',"Gestione Utenti");
 define('_AM_SYSTEM_USERS_NAV_MAIN',"Gestione Utenti");
 define('_AM_SYSTEM_USERS_NAV_ADVANCED_SEARCH',"Ricerca avanzata");
 define('_AM_SYSTEM_USERS_NAV_ADD_USER',"Nuovo Utente");
 define('_AM_SYSTEM_USERS_NAV_EDIT_USER',"Modifica Utente");
 define('_AM_SYSTEM_USERS_NAV_DELETE_USER',"Elimina Utente");
-
 // Tips
 define('_AM_SYSTEM_USERS_NAV_TIPS',"
 <ul>
 <li>Amministrazione e ricerca degli utenti</li>
 </ul>");
-
 // Main
 define('_AM_SYSTEM_USERS_USER',"Utente");
 define('_AM_SYSTEM_USERS_ADMIN',"Admin");
@@ -52,6 +48,8 @@ define('_AM_SYSTEM_USERS_NOFOUND',"Nessun utente trovato");
 define('_AM_SYSTEM_USERS_ICQ',"ICQ");
 define('_AM_SYSTEM_USERS_AIM',"AIM");
 define('_AM_SYSTEM_USERS_YIM',"YIM");
+    define('_AM_SYSTEM_USERS_FACEBOOK', 'Link FACEBOOK'); //TODO
+    define('_AM_SYSTEM_USERS_SKYPE', 'Link SKYPE'); //TODO
 define('_AM_SYSTEM_USERS_MSNM',"MSN");
 define('_AM_SYSTEM_USERS_TIMEZONE',"Fuso Orario");
 define('_AM_SYSTEM_USERS_SHOWSIG',"Inserire sempre la mia firma");
@@ -117,20 +115,12 @@ define('_AM_SYSTEM_USERS_UPDATEUSER',"Aggiorna utente");
 define('_AM_SYSTEM_USERS_USERINFO',"Info utente");
 define('_AM_SYSTEM_USERS_USERID',"ID utente");
 define('_AM_SYSTEM_USERS_RETYPEPD',"Reinserire password");
-define('_AM_SYSTEM_USERS_ACCEPT_EMAIL',"Accettare le email dagli Amministratori?");
 define('_AM_SYSTEM_USERS_CHANGEONLY',"(solo per le modifiche)");
-define('_AM_SYSTEM_USERS_USERPOST',"Post");
-define('_AM_SYSTEM_USERS_STORIES',"Articoli");
-define('_AM_SYSTEM_USERS_COMMENTS',"Commenti");
-define('_AM_SYSTEM_USERS_PTBBTSDIYT',"Premere il pulsante che segue per sincronizzare i dati, se si ritiene che il numero dei messaggi inviati dall'utente non corrisponda al valore presente nel database.");
 define('_AM_SYSTEM_USERS_SYNCHRONIZE',"Sincronizza");
 define('_AM_SYSTEM_USERS_USERDONEXIT',"L'utente non esiste!");
 define('_AM_SYSTEM_USERS_STNPDNM',"Attenzione, le nuoved password non corrispondono. Tornare indietro e reinserirle");
-define('_AM_SYSTEM_USERS_CNGTCOM',"Impossibile ottenere il totale dei commenti");
-define('_AM_SYSTEM_USERS_CNGTST',"Impossibile ottenere il totale degli articoli");
 define('_AM_SYSTEM_USERS_CNUUSER',"Impossibile aggiornare l'utente");
 define('_AM_SYSTEM_USERS_CNGUSERID',"Impossibile ottenere gli ID utente");
-define('_AM_SYSTEM_USERS_LIST',"Elenco");
 define('_AM_SYSTEM_USERS_NOUSERS',"Nessun utente selezionato");
 define('_AM_SYSTEM_USERS_CNRNU2',"Non &egrave; stato possibile aggiungere l'utente al gruppo: %s.");
 define('_AM_SYSTEM_USERS_SEARCH',"Cerca");
@@ -154,7 +144,17 @@ define('_AM_SYSTEM_USERS_ALLGROUP',"Tutti i gruppi");
 define('_AM_SYSTEM_USERS_ALLUSER',"Tutti gli utenti");
 define('_AM_SYSTEM_USERS_ACTIVEUSER',"Solo utenti attivi");
 define('_AM_SYSTEM_USERS_INACTIVEUSER',"Solo utenti non attivi");
-
 // Error
 define('_AM_SYSTEM_USERS_PSEUDO_ERROR',"Il nome utente %s &egrave; gi&agrave; utilizzato");
 define('_AM_SYSTEM_USERS_MAIL_ERROR',"L'indirizzo email %s &egrave; gi&agrave; utilizzato");
+//2.5.4
+define('_AM_SYSTEM_USERS_ACCEPT_EMAIL',"Accettare le email dagli Amministratori?");
+// ???
+define('_AM_SYSTEM_USERS_NAV_MANAGER',"Gestione Utenti");
+define('_AM_SYSTEM_USERS_USERPOST',"Post");
+define('_AM_SYSTEM_USERS_STORIES',"Articoli");
+define('_AM_SYSTEM_USERS_COMMENTS',"Commenti");
+define('_AM_SYSTEM_USERS_PTBBTSDIYT',"Premere il pulsante che segue per sincronizzare i dati, se si ritiene che il numero dei messaggi inviati dall'utente non corrisponda al valore presente nel database.");
+define('_AM_SYSTEM_USERS_CNGTCOM',"Impossibile ottenere il totale dei commenti");
+define('_AM_SYSTEM_USERS_CNGTST',"Impossibile ottenere il totale degli articoli");
+define('_AM_SYSTEM_USERS_LIST',"Elenco");

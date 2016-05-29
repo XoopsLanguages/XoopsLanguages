@@ -1,13 +1,9 @@
 <?php
-/**
- * @copyright   The XOOPS Project http://sourceforge.net/projects/xoops/
- * @license     http://www.fsf.org/copyleft/gpl.html GNU public license
- * _LANGCODE    it
- * _CHARSET     UTF-8
- * @version     $Id$
- */
-//Translator: Xoops Italia Team - www.xoopsitalia.org
-//Last translation update: 19/05/2013
+// 
+// _LANGCODE: it
+// _CHARSET : UTF-8
+// Translator: Xoops Italia Team - www.xoopsitalia.org
+// Last translation update: 25/05/2016
 
 //%%%%%%    File Name readpmsg.php  %%%%%
 define('_PM_DELETED',"Messaggio(i) eliminato(i) con successo");
@@ -50,4 +46,4 @@ define('_PM_ONLINE',"Online");
 // Last translation update: 03/10/2011
 define('_PM_SURE_TO_DELETE',"Sei sicuro di voler cancellare questo(i) messaggio(i)?"); 
 //XOOPS 2.5.5
-define('_PM_READ',"Gi&#224; letto");
+define('_PM_READ','Gi&agrave; letto');

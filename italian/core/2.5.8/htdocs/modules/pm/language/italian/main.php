@@ -7,8 +7,7 @@
  * @version     $Id$
  */
 // Translator: Francesco Mulassano (Urbanspaceman) - Voodoo Team - Xoops Italia Team
-// Last translation update: 11/06/2013
-
+// Last translation update: 25/05/2016
 //%%%%%%	File Name readpmsg.php 	%%%%%
 define('_PM_DELETED',"Messaggio(i) eliminato(i) con successo");
 define('_PM_PRIVATEMESSAGE',"Messaggi privati");
@@ -71,7 +70,7 @@ define('_PM_SORTSUBMIT',"Invia");
 define('_PM_PREVIOUSP',"Precedente");
 define('_PM_NEXTP',"Successivo");
 define('_PM_MAILNOTIFY',"%s Hai ricevuto un nuovo messaggio da %s");
-define('_PM_MAILMESSAGE',"Ciao!\nA &Egrave; arrivato un messaggio da %s\n\nTitolo: \n%s\n\nE' possibile leggere il messaggio QUI\n%s\n\n-----------\nHai ricevuto questa email perch&eacute; hai scelto di essere avvisato quando ricevi un nuovo messaggio privato\n\nPuoi modificare quest'opzione\n%s\n\nPer favore non rispondere a questo messaggio\n\n---------\nGrazie\n%s\n%s\n%s");
+define('_PM_MAILMESSAGE',"Ciao!\nA &Egrave; arrivato un messaggio da %s\n\nTitolo: \n%s\n\n&Egrave; possibile leggere il messaggio QUI\n%s\n\n-----------\nHai ricevuto questa email perch&eacute; hai scelto di essere avvisato quando ricevi un nuovo messaggio privato\n\nPuoi modificare quest'opzione\n%s\n\nPer favore non rispondere a questo messaggio\n\n---------\nGrazie\n%s\n%s\n%s");
 define('_PM_EMAIL',"Inoltra come email");
 define('_PM_EMAIL_DESC',"Caro %s, questo messaggio &egrave; stato inoltrato dal tuo account sul sito " . $GLOBALS['xoopsConfig']['sitename']);
 define('_PM_EMAIL_FROM',"Da %s");
@@ -81,5 +80,5 @@ define('_PM_EMAIL_MESSAGE',"Contenuto del messaggio");
 define('_PM_ACTION_DONE',"Operazione eseguita con successo");
 define('_PM_ACTION_ERROR',"Operazione non riuscita");
 //XOOPS 2.5.2
-define('_PM_READ',"Gi&#224; letto");
+define('_PM_READ',"Gi&agrave; letto");
 define('_PM_SUBJECT_ICONS',"Icone Oggetto: ");

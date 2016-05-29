@@ -1,21 +1,16 @@
 <?php
-/**
- * @copyright   The XOOPS Project http://sourceforge.net/projects/xoops/
- * @license     http://www.fsf.org/copyleft/gpl.html GNU public license
- * _LANGCODE    it
- * _CHARSET     UTF-8
- * @version     $Id$
- */
-//Translator: Xoops Italia Team - www.xoopsitalia.org
-//Last translation update: 19/05/2013
-
+//
+// _LANGCODE: it
+// _CHARSET : UTF-8
+// Translator: Xoops Italia Team - www.xoopsitalia.org
+// Last translation update: 25/05/2016
 $content .=
 "<h3>Intallazione terminata</h3>
 <p>&Egrave; ora possibile accedere alla <a href='../index.php'>home page del sito</a>.</p>
 <h3>Supporto</h3>
 <p><a href='http://xoops.sourceforge.net/' rel='external'>The XOOPS Project</a> (In inglese)</p>
 <p><a href='http://www.xoopsitalia.org/' rel='external'>Xoops Italia</a> (Comunit&agrave; italiana ufficiale)</p>
-<p><strong>ATTENZIONE:</strong> Allo stato attuale il sito presenta solo le funzionalit&agrave; di base. Se si desidera aggiungere altri componenti: forum, pagine di testo, gallerie di immagini news, ... &egrave; necessario scaricarli dal <a href='http://www.xoops.org/modules/repository' rel='external' title='Archivio moduli Xoops.org'>sito ufficiale Xoops</a> e installarli. Lo stesso vale per i <a href='http://www.xoops.org/modules/extgallery' rel='external' title='Selezione e installazione di nuovi temi'>temi aggiuntivi</a>.</p>
+<p><strong>ATTENZIONE:</strong> Allo stato attuale il sito presenta solo le funzionalit&agrave; di base. Se si desidera aggiungere altri componenti: forum, pagine di testo, gallerie di immagini news, ...&egrave; necessario scaricarli dal <a href='http://www.xoops.org/modules/repository' rel='external' title='Archivio moduli Xoops.org'>sito ufficiale Xoops</a> e installarli. Lo stesso vale per i <a href='http://www.xoops.org/modules/extgallery' rel='external' title='Selezione e installazione di nuovi temi'>temi aggiuntivi</a>.</p>
 ";
 
 $content .=
