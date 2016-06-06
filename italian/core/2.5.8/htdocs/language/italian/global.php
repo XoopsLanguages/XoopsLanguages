@@ -211,7 +211,7 @@ define('_SHORTDATESTRING',"j/n/Y");
 'latin_swedish' decommentare la linea successiva e commentare: define('_CHARSET',"UTF-8'), per preservare la visualizzazione delle parole accentate nel sito.*/
 //define('_CHARSET',"ISO-8859-1");
 define('_CHARSET',"UTF-8");
-define('_LANGCODE',"it_IT");
+define('_LANGCODE',"it");
 // cambiare da 0 a 1 se questa lingua &egrave; multi-bytes (non modificare)
 define('XOOPS_USE_MULTIBYTES',"0");
 /**
