@@ -12,7 +12,7 @@ define('_CAL_FORMAT',"d-m-Y");
 
 
 //%%%%%     JQuery Calendar Time Zone   %%%%
-define('_CAL_JQUERY_FORMAT',"yy/mm/dd");
+define('_CAL_JQUERY_FORMAT',"dd/mm/yy");
 // Week Mini Text
 define('_CAL_MIN_SUNDAY',"Do");
 define('_CAL_MIN_MONDAY',"Lu");
